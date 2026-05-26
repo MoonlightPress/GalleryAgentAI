@@ -1,0 +1,58 @@
+[
+  {
+    "visibility": "archive",
+    "filter_reason": "",
+    "name": "Unknown",
+    "type": "open_call",
+    "city": "",
+    "council_review": {
+      "council_scores": {
+        "curator_score": 0,
+        "career_score": 0,
+        "peer_artist_score": 0,
+        "submission_score": 0,
+        "emotional_fit": 0,
+        "predatory_risk": 0
+      },
+      "overall_score": 0,
+      "recommendation_strength": "cannot_evaluate",
+      "difficulty": "unknown",
+      "compact_card": {
+        "one_sentence": "No opportunity information provided—nothing to evaluate.",
+        "three_bullets": [
+          "Missing all basic details: type, location, requirements, deadline",
+          "Archived status suggests incomplete data entry or placeholder",
+          "Cannot assess fit, legitimacy, or strategic value without information"
+        ],
+        "quick_action": "Skip this entirely unless you have additional context from another source",
+        "why_this_fits_short": "Insufficient data to determine any aspect of fit"
+      },
+      "protective_voice": {
+        "likely_emotional_response": "Confusion or mild anxiety about whether something important is being missed",
+        "potential_friction": [
+          "Uncertainty about whether action is required",
+          "No way to assess time investment or preparation needs",
+          "Possible concern about overlooking a legitimate opportunity"
+        ],
+        "softer_summary": "There's nothing here to evaluate. This isn't a case of 'maybe it's not right for you'—we literally don't know what this is. If you encountered this in a list or database, it's likely a technical error or incomplete entry. You're not missing anything by moving on. Save your attention for opportunities that provide enough information to make an informed decision.",
+        "hide_by_default": [
+          "All detailed evaluations"
+        ]
+      },
+      "council_notes": {
+        "curator": "No information about venue type, curatorial framework, exhibition context, or institutional quality. Cannot assess whether this would be meaningful for positioning or reputation.",
+        "career_advisor": "Without knowing what this is—residency, exhibition, grant, publication—impossible to evaluate strategic value, timing, or career advancement potential. Archived status suggests it may have been intentionally excluded.",
+        "peer_artist": "Can't tell you if this is worth your time when there's no information about what it is. If you're seeing this somewhere, ask whoever shared it for complete details before investing energy.",
+        "submission_reviewer": "No application requirements, selection criteria, deadline, or deliverables listed. Nothing to prepare for or evaluate in terms of submission difficulty or success likelihood.",
+        "protective_voice": "The absence of information is actually protective—you can't waste emotional energy on something that doesn't exist in actionable form. If this is causing uncertainty, the answer is simple: without basic details, there's no decision to make."
+      }
+    },
+    "country": "",
+    "organization": "Unknown",
+    "description": "",
+    "deadline": "",
+    "fees": "",
+    "status": "active",
+    "priority": "C"
+  }
+]

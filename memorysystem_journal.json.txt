@@ -1,0 +1,7 @@
+{
+  "runs": [],
+  "successful_patterns": [],
+  "failed_patterns": [],
+  "emerging_themes": [],
+  "important_discoveries": []
+}

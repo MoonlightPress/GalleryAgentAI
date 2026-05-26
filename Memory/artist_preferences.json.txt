@@ -1,0 +1,87 @@
+{
+  "favorite_artists": [],
+  "favorite_galleries": [],
+  "favorite_colors": [],
+  "themes_the_artist_cares_about": [
+    "everyday Asian domesticity",
+    "urban vernacular architecture",
+    "quiet city life",
+    "transient light and shadow",
+    "domestic stillness",
+    "memory of place",
+    "old neighborhoods",
+    "courtyards",
+    "thresholds",
+    "windows",
+    "alleys",
+    "lived-in spaces"
+  ],
+  "career_goals": [
+    "gallery shows",
+    "group exhibitions",
+    "art books",
+    "print sales",
+    "international collector visibility",
+    "collaborations with like-minded artists"
+  ],
+  "dream_collaborators": [
+    "quiet urban painters",
+    "architectural illustrators",
+    "artists working with memory and domestic space",
+    "photographers of old neighborhoods",
+    "artists working between illustration and fine art"
+  ],
+  "dream_exhibitions": [
+    "small Tokyo group show",
+    "Beijing contemporary painting group show",
+    "London illustration/fine-art crossover show",
+    "art book fair",
+    "print-focused exhibition"
+  ],
+  "cities_of_interest": [
+    "Tokyo",
+    "Beijing",
+    "London",
+    "Taipei",
+    "Shanghai",
+    "Hong Kong",
+    "Seoul"
+  ],
+  "works_the_artist_feels_are_most_representative": [],
+  "mediums": [
+    "watercolor",
+    "gouache",
+    "digital painting if applicable",
+    "prints"
+  ],
+  "emotional_keywords": [
+    "quiet",
+    "gentle",
+    "wistful",
+    "observational",
+    "domestic",
+    "nostalgic",
+    "atmospheric",
+    "restrained",
+    "sunlit",
+    "lived-in"
+  ],
+    "artists_to_avoid_comparison_to": [
+    "generic anime background art",
+    "generic urban loneliness painting",
+    "cyberpunk city art"
+  ],
+
+  "career_temperament": {
+    "commercially_ambitious": 4,
+    "community_oriented": 9,
+    "institutionally_ambitious": 5,
+    "values_slow_growth": true,
+    "prefers_small_shows": true,
+    "comfortable_with_self_promotion": 2,
+    "emotionally_overwhelmed_by_marketing": true,
+    "prefers_authentic_connections": true,
+    "interested_in_print_sales": true,
+    "interested_in_large_scale_branding": false
+  }
+}

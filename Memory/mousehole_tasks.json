@@ -1,0 +1,127 @@
+{
+  "tasks": [
+    {
+      "id": "upload_artist_statement",
+      "title": "Upload artist statement",
+      "description": "Add the current artist statement so the system can improve opportunity matching and draft stronger applications.",
+      "contributes_to": [
+        "publishing_path",
+        "gallery_path",
+        "residency_path",
+        "licensing_path"
+      ],
+      "material_key": "artist_statements",
+      "type": "upload",
+      "difficulty": "easy",
+      "complete": false,
+      "status": "open"
+    },
+    {
+      "id": "upload_short_bio",
+      "title": "Upload short bio",
+      "description": "Add a short bio for emails, submissions, profiles, and exhibition proposals.",
+      "contributes_to": [
+        "publishing_path",
+        "local_visibility_path",
+        "gallery_path",
+        "residency_path"
+      ],
+      "material_key": "artist_bios",
+      "type": "upload",
+      "difficulty": "easy",
+      "complete": false,
+      "status": "open"
+    },
+    {
+      "id": "upload_cv",
+      "title": "Upload CV / resume",
+      "description": "Add exhibition, publication, education, and award history so the system can understand readiness.",
+      "contributes_to": [
+        "gallery_path",
+        "residency_path",
+        "licensing_path"
+      ],
+      "material_key": "cv_versions",
+      "type": "upload",
+      "difficulty": "medium",
+      "complete": false,
+      "status": "open"
+    },
+    {
+      "id": "select_portfolio_set",
+      "title": "Select 10–15 strongest works",
+      "description": "Choose a reusable portfolio set for submissions and opportunity matching.",
+      "contributes_to": [
+        "publishing_path",
+        "gallery_path",
+        "residency_path",
+        "licensing_path"
+      ],
+      "material_key": "portfolio_sets",
+      "type": "selection",
+      "difficulty": "medium",
+      "complete": false,
+      "status": "open"
+    },
+    {
+      "id": "list_favorite_artists",
+      "title": "List 10 admired artists",
+      "description": "Give the system comparison points for aesthetic matching and gallery research.",
+      "contributes_to": [
+        "gallery_path",
+        "publishing_path",
+        "peer_network_path"
+      ],
+      "material_key": "favorite_artists",
+      "type": "text",
+      "difficulty": "easy",
+      "complete": false,
+      "status": "open"
+    },
+    {
+      "id": "list_desired_peers",
+      "title": "List 10 artists to work near or with",
+      "description": "Give the system peer targets for collaborator and ecosystem research.",
+      "contributes_to": [
+        "peer_network_path",
+        "local_visibility_path",
+        "gallery_path"
+      ],
+      "material_key": "desired_peers",
+      "type": "text",
+      "difficulty": "easy",
+      "complete": false,
+      "status": "open"
+    },
+    {
+      "id": "log_publication_history",
+      "title": "Log publication history",
+      "description": "Add zines, books, magazines, interviews, or online features.",
+      "contributes_to": [
+        "publishing_path",
+        "licensing_path",
+        "gallery_path"
+      ],
+      "material_key": "publication_history",
+      "type": "text",
+      "difficulty": "easy",
+      "complete": false,
+      "status": "open"
+    },
+    {
+      "id": "log_sales_history",
+      "title": "Log sales or commissions",
+      "description": "Add sales, commissions, repeat buyers, or edition history.",
+      "contributes_to": [
+        "licensing_path",
+        "direct_sales_path",
+        "local_visibility_path"
+      ],
+      "material_key": "sales_history",
+      "type": "text",
+      "difficulty": "easy",
+      "complete": false,
+      "status": "open"
+    }
+  ]
+}

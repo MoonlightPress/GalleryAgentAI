@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-05-26 18:54",
+  "career_timeline": [
+    {
+      "period": "Unknown - No data provided",
+      "confirmed_events": [],
+      "possible_developments": [],
+      "evidence": [],
+      "confidence": "none"
+    }
+  ],
+  "ecosystem_map": {
+    "cities": [],
+    "spaces": [],
+    "publishers": [],
+    "peer_artists": [],
+    "institutions": [],
+    "recurring_collaborators": [],
+    "community_clusters": []
+  },
+  "credibility_signals": {
+    "publication_history": [],
+    "collector_signals": [],
+    "installation_evidence": [],
+    "repeat_exhibitions": [],
+    "professional_language_signals": [],
+    "cross_platform_signals": [],
+    "consistency_signals": []
+  },
+  "aesthetic_evolution": {
+    "persistent_themes": [],
+    "emerging_themes": [],
+    "declining_themes": [],
+    "persistent_materials": [],
+    "visual_language": [],
+    "audience_responses": []
+  },
+  "career_position_estimate": {
+    "overall_stage": "Insufficient data to determine",
+    "evidence_for_stage": [],
+    "possible_next_steps": [],
+    "high_probability_paths": [],
+    "high_risk_paths": [],
+    "institutional_readiness": [],
+    "commercial_readiness": []
+  },
+  "opportunity_ecosystem_bridges": [],
+  "unknowns": [
+    {
+      "question": "Artist identity and name",
+      "why_it_matters": "Cannot begin any career reconstruction without knowing who the artist is"
+    },
+    {
+      "question": "Any exhibition history",
+      "why_it_matters": "Essential for understanding career stage and institutional relationships"
+    },
+    {
+      "question": "Any body of work or visual output",
+      "why_it_matters": "Cannot assess aesthetic development or market positioning without seeing the work"
+    },
+    {
+      "question": "Geographic location and career base",
+      "why_it_matters": "Ecosystem positioning depends heavily on geographic context"
+    },
+    {
+      "question": "Educational background or training",
+      "why_it_matters": "Often provides initial network and institutional connections"
+    },
+    {
+      "question": "Any public presence or documentation",
+      "why_it_matters": "Without any data points, no reconstruction is possible"
+    }
+  ]
+}

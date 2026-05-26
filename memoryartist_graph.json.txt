@@ -1,0 +1,6 @@
+{
+  "artists": [],
+  "connections": [],
+  "group_show_ideas": [],
+  "shared_themes": []
+}

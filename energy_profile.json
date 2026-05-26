@@ -1,0 +1,14 @@
+{
+  "artist_energy_preferences": {
+    "social_energy": "unknown",
+    "travel_energy": "unknown",
+    "installation_energy": "unknown",
+    "administrative_energy": "unknown",
+    "publishing_energy": "unknown",
+    "market_energy": "unknown"
+  },
+  "energizing_patterns": [],
+  "draining_patterns": [],
+  "preferred_working_modes": [],
+  "notes": []
+}

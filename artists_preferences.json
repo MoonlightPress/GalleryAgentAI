@@ -1,0 +1,25 @@
+{
+  "confirmed_goals": [
+    "increase visibility",
+    "find low-friction opportunities",
+    "prepare written materials",
+    "build portfolio/CV value"
+  ],
+  "unknown_goals": [
+    "whether she wants publication",
+    "whether she wants booth sales",
+    "whether she wants residencies",
+    "whether she wants cafes or local walls",
+    "whether she wants commercial illustration work",
+    "whether she wants institutional fine art positioning"
+  ],
+  "avoid_claiming": [
+    "the artist is trying to avoid illustration",
+    "the artist wants institutional legitimacy above all else",
+    "the artist dislikes commercial opportunities",
+    "the artist wants or does not want zines",
+    "the artist wants or does not want cafes",
+    "the artist wants or does not want direct sales"
+  ],
+  "tone_rule": "Frame opportunities as tradeoffs and possible paths. Do not claim the artist wants or avoids something unless explicitly provided."
+}

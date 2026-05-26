@@ -1,0 +1,40 @@
+{
+  "contacts": [
+    {
+      "name": "KAYOKOYUKI",
+      "type": "gallery",
+      "city": "Tokyo",
+      "country": "Japan",
+      "contact_email": "info@kayokoyuki.com",
+      "contact_page": "https://www.kayokoyuki.com/en/contact.php",
+      "status": "ready_to_review",
+      "why_relevant": "Potential fit for quiet domestic realism and illustration-adjacent contemporary painting.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "Official site/contact verified manually. Need to verify whether unsolicited submissions are accepted.",
+      "date_added": "2026-05-24 00:30",
+      "crm_analysis": {
+        "contact_summary": "KAYOKOYUKI is a Tokyo-based gallery with confirmed contact information and website. Shows potential alignment for quiet domestic realism and illustration-adjacent contemporary painting. Contact details have been manually verified and gallery is ready for submission policy research.",
+        "relationship_stage": "not_contacted",
+        "recommended_status": "ready_to_review",
+        "follow_up_timing": "Review gallery's current exhibition program and artist roster within 3-5 days to confirm aesthetic fit, then research submission policy before initiating contact",
+        "next_action": "Review KAYOKOYUKI's current and recent exhibitions on their website to validate alignment with artist's work (quiet domestic realism/illustration-adjacent painting). Research whether they accept unsolicited submissions by checking FAQ, artist application pages, or contacting directly. If fit is confirmed and submissions are accepted, move to 'ready_to_contact' status and draft personalized pitch.",
+        "risk_notes": "Submission policy is currently unknown - gallery may not accept unsolicited portfolios. Japanese galleries can have formal submission protocols that differ from Western practices. Need to verify whether English-language submissions are acceptable and if there are specific application windows or requirements.",
+        "priority": "B"
+      },
+      "web_verification": {
+      "verification_status": "manually_verified",
+        "official_website": "",
+        "contact_page": "",
+        "submission_page": "",
+        "instagram": "",
+        "emails": [],
+        "last_verified": "2026-05-24 10:35",
+        "verification_notes": "No search results found."
+      },
+      "official_website": "https://www.kayokoyuki.com/en/",
+      "submission_page": "",
+      "date_updated": "2026-05-24 10:37"
+    }
+  ]
+}

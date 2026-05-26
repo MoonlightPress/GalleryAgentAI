@@ -1,0 +1,240 @@
+{
+  "pathways": [
+    {
+      "id": "publishing_path",
+      "name": "Publishing Path",
+      "description": "Build visibility through zines, artist books, bookstores, and small press ecosystems.",
+      "percent_complete": 0,
+      "complete_requirements": 0,
+      "total_requirements": 7,
+      "levels": [
+        {
+          "level": 1,
+          "name": "Basic materials ready",
+          "requirements": [
+            {
+              "requirement": "artist_statement",
+              "complete": false
+            },
+            {
+              "requirement": "short_bio",
+              "complete": false
+            },
+            {
+              "requirement": "portfolio_set",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "First publication attempts",
+          "requirements": [
+            {
+              "requirement": "submit_to_3_zines",
+              "complete": false
+            },
+            {
+              "requirement": "make_small_zine_concept",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Visible in small press ecosystem",
+          "requirements": [
+            {
+              "requirement": "published_in_3_or_more_zines",
+              "complete": false
+            },
+            {
+              "requirement": "bookstore_contact_list",
+              "complete": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local_visibility_path",
+      "name": "Local Visibility Path",
+      "description": "Build recognition through cafes, small walls, local spaces, and repeat public presence.",
+      "percent_complete": 0,
+      "complete_requirements": 0,
+      "total_requirements": 7,
+      "levels": [
+        {
+          "level": 1,
+          "name": "Ready to approach local spaces",
+          "requirements": [
+            {
+              "requirement": "short_bio",
+              "complete": false
+            },
+            {
+              "requirement": "portfolio_set",
+              "complete": false
+            },
+            {
+              "requirement": "simple_outreach_email",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "First local show",
+          "requirements": [
+            {
+              "requirement": "contact_5_local_spaces",
+              "complete": false
+            },
+            {
+              "requirement": "install_small_show",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Recognizable local presence",
+          "requirements": [
+            {
+              "requirement": "3_local_shows",
+              "complete": false
+            },
+            {
+              "requirement": "sales_or_feedback_logged",
+              "complete": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "licensing_path",
+      "name": "Licensing Path",
+      "description": "Move from self-made products toward small brand collaborations and eventually larger licensing.",
+      "percent_complete": 0,
+      "complete_requirements": 0,
+      "total_requirements": 8,
+      "levels": [
+        {
+          "level": 1,
+          "name": "Product-ready identity",
+          "requirements": [
+            {
+              "requirement": "portfolio_set",
+              "complete": false
+            },
+            {
+              "requirement": "image_specs",
+              "complete": false
+            },
+            {
+              "requirement": "consistent_visual_theme",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Self-made product test",
+          "requirements": [
+            {
+              "requirement": "calendar_or_card_mockup",
+              "complete": false
+            },
+            {
+              "requirement": "small_sales_test",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Local collaboration readiness",
+          "requirements": [
+            {
+              "requirement": "sales_feedback",
+              "complete": false
+            },
+            {
+              "requirement": "local_visibility",
+              "complete": false
+            },
+            {
+              "requirement": "brand_pitch_draft",
+              "complete": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "residency_path",
+      "name": "Residency Path",
+      "description": "Prepare for research-based residencies and institutional applications.",
+      "percent_complete": 0,
+      "complete_requirements": 0,
+      "total_requirements": 9,
+      "levels": [
+        {
+          "level": 1,
+          "name": "Core application materials",
+          "requirements": [
+            {
+              "requirement": "artist_statement",
+              "complete": false
+            },
+            {
+              "requirement": "cv",
+              "complete": false
+            },
+            {
+              "requirement": "portfolio_set",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Research framing",
+          "requirements": [
+            {
+              "requirement": "project_statement",
+              "complete": false
+            },
+            {
+              "requirement": "themes_list",
+              "complete": false
+            },
+            {
+              "requirement": "why_this_place",
+              "complete": false
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Residency application ready",
+          "requirements": [
+            {
+              "requirement": "proposal_version",
+              "complete": false
+            },
+            {
+              "requirement": "budget_or_timeline",
+              "complete": false
+            },
+            {
+              "requirement": "application_review",
+              "complete": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "artists": [
+    {
+      "name": "Zhang Kechun",
+      "medium": "Photography",
+      "city_or_region": "Beijing",
+      "country": "China",
+      "why_relevant": "Documents Yellow River regions with similar muted palette, architectural emptiness, and Chinese vernacular subjects. Complementary medium (photography vs painting) creates dialogue rather than competition.",
+      "fit_score": 9,
+      "confidence_score": 0.95,
+      "verification_needed": false,
+      "search_terms": [
+        "Zhang Kechun Yellow River",
+        "Zhang Kechun photographer China",
+        "Zhang Kechun vernacular architecture"
+      ]
+    },
+    {
+      "name": "Sungseok Ahn",
+      "medium": "Painting",
+      "city_or_region": "Seoul",
+      "country": "South Korea",
+      "why_relevant": "Korean painter depicting urban landscapes with comparable light treatment and architectural focus. Shares nostalgic approach to disappearing cityscapes.",
+      "fit_score": 8,
+      "confidence_score": 0.75,
+      "verification_needed": true,
+      "search_terms": [
+        "Sungseok Ahn painter Korea",
+        "Sungseok Ahn urban landscape",
+        "성석 안 painter"
+      ]
+    },
+    {
+      "name": "Honggoo Kang",
+      "medium": "Painting",
+      "city_or_region": "Seoul",
+      "country": "South Korea",
+      "why_relevant": "Hyperrealist Korean urban scenes with similar nostalgic distance. Different technique (hyperrealism vs atmospheric realism) but shared subject matter and emotional tone.",
+      "fit_score": 7,
+      "confidence_score": 0.7,
+      "verification_needed": true,
+      "search_terms": [
+        "Honggoo Kang painter",
+        "Kang Honggoo Korean artist",
+        "강홍구 artist"
+      ]
+    },
+    {
+      "name": "Attasit Pokpong",
+      "medium": "Painting",
+      "city_or_region": "Bangkok",
+      "country": "Thailand",
+      "why_relevant": "Thai artist painting Bangkok shophouses and vernacular spaces with parallel preservation impulse. Expands geographic range while maintaining thematic consistency.",
+      "fit_score": 8,
+      "confidence_score": 0.65,
+      "verification_needed": true,
+      "search_terms": [
+        "Attasit Pokpong artist",
+        "Attasit Pokpong Bangkok shophouses",
+        "Thai vernacular architecture painting"
+      ]
+    },
+    {
+      "name": "Chen Qi",
+      "medium": "Printmaking, Watercolor",
+      "city_or_region": "Beijing",
+      "country": "China",
+      "why_relevant": "Chinese artist working with watercolor on architectural and landscape subjects. More abstract but compatible tonally, shares medium and quiet observation approach.",
+      "fit_score": 7,
+      "confidence_score": 0.8,
+      "verification_needed": false,
+      "search_terms": [
+        "Chen Qi watercolor",
+        "Chen Qi Chinese artist printmaker",
+        "陈琦 artist"
+      ]
+    },
+    {
+      "name": "Cai Zebin",
+      "medium": "Painting",
+      "city_or_region": "China",
+      "country": "China",
+      "why_relevant": "Contemporary Chinese realist depicting urban renewal and disappearing neighborhoods. Directly aligned subject matter with documentary-nostalgic approach.",
+      "fit_score": 9,
+      "confidence_score": 0.6,
+      "verification_needed": true,
+      "search_terms": [
+        "Cai Zebin painter",
+        "Cai Zebin urban renewal",
+        "蔡泽滨 artist"
+      ]
+    },
+    {
+      "name": "Gao Yuan",
+      "medium": "Photography",
+      "city_or_region": "China",
+      "country": "China",
+      "why_relevant": "Documents Chinese alleyways and courtyard life with similar anthropological-nostalgic lens. Photography complements painting, shared cultural and spatial focus.",
+      "fit_score": 8,
+      "confidence_score": 0.65,
+      "verification_needed": true,
+      "search_terms": [
+        "Gao Yuan photographer China",
+        "Gao Yuan alleyways",
+        "高源 photographer hutong"
+      ]
+    },
+    {
+      "name": "Kazuhiro Hori",
+      "medium": "Painting (Gouache/Watercolor)",
+      "city_or_region": "Japan",
+      "country": "Japan",
+      "why_relevant": "Japanese everyday observation painter with overlap in quiet domestic subjects, gouache/watercolor technique, and decorative appeal. Shared aesthetic restraint and medium.",
+      "fit_score": 8,
+      "confidence_score": 0.7,
+      "verification_needed": true,
+      "search_terms": [
+        "Kazuhiro Hori painter",
+        "Kazuhiro Hori everyday life",
+        "堀一浩 artist"
+      ]
+    },
+    {
+      "name": "He Duoling",
+      "medium": "Oil Painting",
+      "city_or_region": "Chengdu",
+      "country": "China",
+      "why_relevant": "Influential Chinese realist painting domestic interiors, part of Sichuan realist lineage. Shares quiet domesticity and likely collector base.",
+      "fit_score": 7,
+      "confidence_score": 0.9,
+      "verification_needed": false,
+      "search_terms": [
+        "He Duoling painter",
+        "He Duoling Sichuan realism",
+        "何多苓"
+      ]
+    },
+    {
+      "name": "Liu Xiaodong",
+      "medium": "Oil Painting",
+      "city_or_region": "Beijing",
+      "country": "China",
+      "why_relevant": "Documentary realism with empathy but without intervention. Observational mode aligns with target artist's detached contemplative approach.",
+      "fit_score": 6,
+      "confidence_score": 0.85,
+      "verification_needed": false,
+      "search_terms": [
+        "Liu Xiaodong painter",
+        "Liu Xiaodong documentary realism",
+        "刘小东"
+      ]
+    },
+    {
+      "name": "Rinko Kawauchi",
+      "medium": "Photography",
+      "city_or_region": "Tokyo",
+      "country": "Japan",
+      "why_relevant": "Photographer capturing gentle observation, domestic scale, light-focused non-narrative moments. Shares emotional tone and subject scale despite different medium.",
+      "fit_score": 7,
+      "confidence_score": 0.9,
+      "verification_needed": false,
+      "search_terms": [
+        "Rinko Kawauchi photographer",
+        "Rinko Kawauchi everyday",
+        "川内倫子"
+      ]
+    },
+    {
+      "name": "Gideon Rubin",
+      "medium": "Painting",
+      "city_or_region": "London",
+      "country": "UK",
+      "why_relevant": "Faceless figures creating anonymity and universality, memory-distance, non-confrontational human presence. Shares emotional restraint and approach to depicting people.",
+      "fit_score": 6,
+      "confidence_score": 0.8,
+      "verification_needed": false,
+      "search_terms": [
+        "Gideon Rubin painter",
+        "Gideon Rubin faceless figures"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Target Artist",
+      "target": "Zhang Kechun",
+      "relationship_type": "complementary_medium",
+      "shared_themes": [
+        "vernacular architecture",
+        "Chinese domestic spaces",
+        "documentary nostalgia",
+        "muted palette",
+        "emptiness"
+      ],
+      "reason": "Photography and painting of same cultural subjects creates dialogue. Both document disappearing Chinese vernacular with atmospheric restraint.",
+      "confidence_score": 0.95
+    },
+    {
+      "source": "Target Artist",
+      "target": "Cai Zebin",
+      "relationship_type": "direct_peer",
+      "shared_themes": [
+        "urban renewal documentation",
+        "disappearing neighborhoods",
+        "contemporary Chinese realism",
+        "preservation impulse"
+      ],
+      "reason": "Nearly identical subject matter and cultural context. Both contemporary Chinese realists focused on neighborhoods threatened by development.",
+      "confidence_score": 0.6
+    },
+    {
+      "source": "Target Artist",
+      "target": "Kazuhiro Hori",
+      "relationship_type": "technical_peer",
+      "shared_themes": [
+        "watercolor/gouache technique",
+        "everyday domestic observation",
+        "quiet interiors",
+        "decorative appeal"
+      ],
+      "reason": "Shared medium, scale, and approach to everyday life subjects. Compatible collector base interested in accessible realism.",
+      "confidence_score": 0.7
+    },
+    {
+      "source": "Target Artist",
+      "target": "He Duoling",
+      "relationship_type": "lineage_influence",
+      "shared_themes": [
+        "domestic interiors",
+        "Chinese realism",
+        "quiet observation",
+        "intimate spaces"
+      ],
+      "reason": "He Duoling as established figure in Chinese realist tradition that target artist extends. Shared collector demographics.",
+      "confidence_score": 0.9
+    },
+    {
+      "source": "Target Artist",
+      "target": "Rinko Kawauchi",
+      "relationship_type": "tonal_parallel",
+      "shared_themes": [
+        "gentle observation",
+        "light focus",
+        "domestic scale",
+        "non-narrative moments",
+        "quiet intimacy"
+      ],
+      "reason": "Different media but nearly identical emotional tone and approach to capturing everyday moments through light and atmosphere.",
+      "confidence_score": 0.9
+    },
+    {
+      "source": "Target Artist",
+      "target": "Attasit Pokpong",
+      "relationship_type": "regional_peer",
+      "shared_themes": [
+        "Southeast Asian vernacular",
+        "shophouse architecture",
+        "urban preservation",
+        "nostalgic documentation"
+      ],
+      "reason": "Parallel practices in different Asian countries, both documenting threatened vernacular architecture with preservation mindset.",
+      "confidence_score": 0.65
+    },
+    {
+      "source": "Target Artist",
+      "target": "Liu Xiaodong",
+      "relationship_type": "methodological_peer",
+      "shared_themes": [
+        "observational realism",
+        "documentary approach",
+        "empathetic distance",
+        "Chinese contemporary"
+      ],
+      "reason": "Shared documentary methodology and non-interventionist observation style in Chinese contemporary painting context.",
+      "confidence_score": 0.85
+    },
+    {
+      "source": "Target Artist",
+      "target": "Gideon Rubin",
+      "relationship_type": "tonal_parallel",
+      "shared_themes": [
+        "memory-distance",
+        "anonymous figures",
+        "non-confrontational presence",
+        "universal through absence"
+      ],
+      "reason": "Both use restraint in depicting human presence to create emotional distance and universal accessibility.",
+      "confidence_score": 0.8
+    }
+  ],
+  "group_show_ideas": [
+    {
+      "title": "Thresholds: Domestic Boundaries in Transition",
+      "concept": "Doorways, windows, courtyards as psychological and social spaces. Focus on liminal architecture across Asian contexts.",
+      "ideal_artist_types": [
+        "architectural photographers",
+        "domestic interior painters",
+        "spatial installation artists",
+        "vernacular documentation artists"
+      ],
+      "possible_cities": [
+        "Beijing",
+        "Seoul",
+        "Taipei",
+        "Singapore",
+        "Hong Kong"
+      ],
+      "fit_score": 9
+    },
+    {
+      "title": "Afternoon Light: Temporal Painting in Contemporary Practice",
+      "concept": "Artists obsessed with specific lighting conditions and time-capture. Technical exhibition focusing on how light describes space and emotion.",
+      "ideal_artist_types": [
+        "realist painters",
+        "light-focused photographers",
+        "atmospheric watercolorists",
+        "time-based observational artists"
+      ],
+      "possible_cities": [
+        "Hangzhou",
+        "Kyoto",
+        "Portland",
+        "Taipei"
+      ],
+      "fit_score": 10
+    },
+    {
+      "title": "The Last Alley: Urban Vernacular Before Erasure",
+      "concept": "Documentary impulse across media examining disappearing neighborhood typologies in developing Asia.",
+      "ideal_artist_types": [
+        "architectural documentarians",
+        "urban landscape painters",
+        "preservation-focused photographers",
+        "ethnographic visual artists"
+      ],
+      "possible_cities": [
+        "Beijing",
+        "Bangkok",
+        "Seoul",
+        "Singapore",
+        "Chengdu"
+      ],
+      "fit_score": 10
+    },
+    {
+      "title": "Inhabited Objects: Still Life as Social Document",
+      "concept": "Potted plants, thermoses, stools as carriers of human presence and class markers. Objects as stand-ins for people and social histories.",
+      "ideal_artist_types": [
+        "still life painters",
+        "object-focused photographers",
+        "material culture artists",
+        "domestic archaeologists"
+      ],
+      "possible_cities": [
+        "Tokyo",
+        "Taipei",
+        "Hong Kong",
+        "Seoul"
+      ],
+      "fit_score": 8
+    },
+    {
+      "title": "Slow Cities: Counter-Narratives to Asian Hyperdevelopment",
+      "concept": "Work depicting or advocating for preservation, slowness, human scale against megacity narratives and rapid urbanization.",
+      "ideal_artist_types": [
+        "preservation artists",
+        "slow observation practitioners",
+        "anti-development documentarians",
+        "vernacular advocates"
+      ],
+      "possible_cities": [
+        "Beijing",
+        "Chengdu",
+        "Taipei",
+        "Kyoto",
+        "Singapore"
+      ],
+      "fit_score": 9
+    },
+    {
+      "title": "Empty Rooms, Full Memory: Domestic Interiors as Portraiture",
+      "concept": "Spaces standing in for absent people; rooms as psychological portraits revealing lives through architectural and object traces.",
+      "ideal_artist_types": [
+        "interior painters",
+        "domestic space photographers",
+        "memory-focused artists",
+        "psychological realists"
+      ],
+      "possible_cities": [
+        "Seoul",
+        "Tokyo",
+        "Beijing",
+        "Taipei"
+      ],
+      "fit_score": 9
+    },
+    {
+      "title": "The Color of Dust: Materiality and Decay in Contemporary Realism",
+      "concept": "Technical exhibition focusing on rendering aged surfaces, patina, weathering. Craft-focused show about depicting time's marks on materials.",
+      "ideal_artist_types": [
+        "technical realists",
+        "patina-focused painters",
+        "materiality artists",
+        "surface texture specialists"
+      ],
+      "possible_cities": [
+        "Hangzhou",
+        "Chengdu",
+        "Kyoto",
+        "Portland"
+      ],
+      "fit_score": 8
+    }
+  ],
+  "shared_themes": [
+    "vernacular architecture preservation",
+    "disappearing neighborhoods",
+    "domestic observation",
+    "light and shadow as primary subject",
+    "nostalgic documentation",
+    "quiet observation practice",
+    "muted earth-tone palettes",
+    "Asian urban transformation",
+    "non-spectacular aesthetics",
+    "memory and place",
+    "everyday ephemera",
+    "threshold spaces",
+    "material patina and decay",
+    "empathetic distance",
+    "accessible contemporary realism",
+    "watercolor/gouache technique",
+    "decorative fine art boundary",
+    "anti-development sentiment",
+    "human presence through absence",
+    "temporal atmosphere"
+  ]
+}

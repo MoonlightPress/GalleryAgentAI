@@ -1,0 +1,7 @@
+{
+  "type": "engagement",
+  "title": "Test Instagram reaction",
+  "details": "One artwork got more likes than usual.",
+  "outcome": "Higher engagement on domestic doorway image.",
+  "emotional_response": "Curious but unsure."
+}

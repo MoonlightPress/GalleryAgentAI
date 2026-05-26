@@ -1,0 +1,53 @@
+{
+  "opportunity_name": "KAYOKOYUKI",
+  "target_country": "Japan",
+  "target_language": "Japanese",
+  "artist_summary_zh": "**机会简介：KAYOKOYUKI 画廊（东京）**\n\n这是一家位于东京的画廊，可能适合你安静的日常现实主义和带有插画感的当代绘画风格。\n\n**为什么可能合适：**\n- 画廊关注当代绘画\n- 东京本地画廊，对亚洲日常题材可能有共鸣\n- 你的作品中对光影、建筑细节、日常空间的关注与日本当代现实主义有接近之处\n\n**需要注意：**\n- 这是一次礼貌询问，不是正式投稿（画廊的投稿政策不明确）\n- 需要先了解画廊近期展览和代理艺术家风格是否真的匹配\n- 优先级为 B 级（中等优先）\n\n**准备材料：**\n- 作品集 PDF（10-15 件代表作，注明尺寸、材料、年份）\n- 艺术家简历（中英文）\n- 艺术家陈述（如有）\n- 近期作品的高清图片\n\n**建议：**\n发送前请先访问画廊网站，确认他们目前的展览方向和代理艺术家风格。邮件应简短、专业、不卑不亢。",
+  "debug_summary_en": "**Framing rationale:**\n\nThe email is framed as a polite inquiry rather than a formal submission because the submission policy is unknown. The approach is respectful, brief, and professional—appropriate for a Tokyo gallery where directness mixed with courtesy is culturally expected.\n\n**Assumptions made:**\n1. Artist works primarily in watercolor/gouache (based on visual analysis)\n2. Artist is not currently based in Japan (framing as international inquiry)\n3. Gallery may appreciate Asian vernacular subject matter given Tokyo location\n4. Portfolio is available in digital format\n5. Artist has some exhibition history (conservative assumption for B-priority outreach)\n\n**Language choice:**\nJapanese is chosen for a Tokyo-based gallery. While many Tokyo galleries handle English correspondence, using Japanese shows respect and cultural effort. The tone is formal-polite (丁寧語) appropriate for initial business contact.\n\n**Needs human verification:**\n1. Artist's actual medium (watercolor/gouache vs. digital)\n2. Artist's current location/nationality (affects framing)\n3. Whether artist has any Japan connection to mention\n4. Actual availability of portfolio PDF\n5. Gallery's current exhibition program alignment (human should check website)\n6. Whether artist has any existing Asia representation to disclose\n7. Email signature details (artist's actual website, Instagram, etc.)\n\n**Risk notes:**\nThe gallery's artist roster and exhibition history should be reviewed before sending. If they focus exclusively on Japanese artists or very conceptual work, this may not be a good fit despite the \"quiet domestic realism\" match.",
+  "email_subject_target_language": "作品紹介のお問い合わせ",
+  "outreach_email_target_language": "KAYOKOYUKI ご担当者様\n\n突然のご連絡失礼いたします。\n\n私は日常的な風景や建築空間を主題とした絵画作品を制作しているビジュアルアーティストです。貴ギャラリーのウェブサイトを拝見し、展示されている作品の質と方向性に大変興味を持ちました。\n\n私の作品は、アジアの路地裏や住宅空間における光と影、静かな日常の瞬間を捉えています。水彩を用いた繊細な表現で、消えゆく日常風景への観察を描いています。\n\n貴ギャラリーでの展示機会やご協力の可能性についてお伺いできれば幸いです。ポートフォリオをお送りすることは可能でしょうか。\n\nご多忙中恐れ入りますが、ご検討いただけますと幸いです。\n\nどうぞよろしくお願いいたします。\n\n[Artist Name]\n[Website]\n[Portfolio link if available]\n[Contact email]",
+  "email_subject_en_translation": "Inquiry Regarding Artist Portfolio Introduction",
+  "outreach_email_en_translation": "Dear KAYOKOYUKI Gallery,\n\nI hope this message finds you well.\n\nI am a visual artist working primarily with everyday scenes and architectural spaces in painting. I recently came across your gallery's website and was very interested in the quality and direction of the exhibitions you present.\n\nMy work captures light and shadow in Asian alleyways and domestic spaces, focusing on quiet everyday moments. Using delicate watercolor techniques, I depict observations of disappearing vernacular landscapes.\n\nI would be grateful for the opportunity to inquire whether there might be possibilities for exhibition opportunities or collaboration with your gallery. Would it be possible to send you my portfolio?\n\nI understand you are very busy, but I would appreciate your consideration.\n\nThank you for your time.\n\nBest regards,\n\n[Artist Name]\n[Website]\n[Portfolio link if available]\n[Contact email]",
+  "attachment_checklist_zh": [
+    "作品集 PDF（10-15件作品，包含标题、尺寸、材料、年份）",
+    "艺术家简历（中英文版本）",
+    "艺术家陈述（如有，中英文）",
+    "3-5张近期作品高清图片（备用）"
+  ],
+  "attachment_checklist_en": [
+    "Portfolio PDF (10-15 works with titles, dimensions, materials, year)",
+    "Artist CV (English and Chinese versions)",
+    "Artist statement (if available, English and Chinese)",
+    "3-5 high-resolution images of recent works (backup)"
+  ],
+  "customization_notes_zh": [
+    "将 [Artist Name] 替换为艺术家真实姓名",
+    "添加艺术家网站链接",
+    "添加作品集链接（如使用 Dropbox、Google Drive 等）",
+    "添加联系邮箱",
+    "如有 Instagram 账号可以添加",
+    "如艺术家曾在日本展览或有日本相关经历，应在邮件中提及",
+    "确认使用的媒介名称（水彩/水粉/其他）",
+    "发送前务必访问画廊网站，确认当前展览方向"
+  ],
+  "customization_notes_en": [
+    "Replace [Artist Name] with actual artist name",
+    "Add artist website URL",
+    "Add portfolio link (Dropbox, Google Drive, etc.)",
+    "Add contact email",
+    "Add Instagram handle if available",
+    "If artist has exhibited in Japan or has Japan connections, mention this",
+    "Confirm actual medium terminology (watercolor/gouache/other)",
+    "MUST visit gallery website before sending to confirm current exhibition direction aligns"
+  ],
+  "human_verification_needed": [
+    "Verify artist's actual medium (watercolor/gouache vs. digital/mixed)",
+    "Confirm artist has portfolio ready to send",
+    "Check KAYOKOYUKI website for current exhibitions and artist roster fit",
+    "Verify artist's current location and any Asia/Japan connections",
+    "Confirm artist has no conflicting representation in Japan",
+    "Add actual contact details and links to signature",
+    "Review if 'disappearing landscapes' framing is accurate to artist's intent",
+    "Confirm artist is comfortable with Japanese-language outreach (or prefers English)"
+  ]
+}

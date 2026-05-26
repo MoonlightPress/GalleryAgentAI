@@ -1,0 +1,67 @@
+{
+  "profiles": [
+    {
+      "name": "Quiet Architectural Sequence",
+      "purpose": "publishing",
+      "themes": [
+        "architecture",
+        "memory",
+        "quiet spaces",
+        "urban solitude"
+      ],
+      "best_for": [
+        "zines",
+        "bookstores",
+        "artist books",
+        "small press"
+      ],
+      "images": []
+    },
+    {
+      "name": "Installation / Exhibition Set",
+      "purpose": "gallery",
+      "themes": [
+        "spatial atmosphere",
+        "physical presence",
+        "installation"
+      ],
+      "best_for": [
+        "galleries",
+        "artist spaces",
+        "cafes"
+      ],
+      "images": []
+    },
+    {
+      "name": "Commercial / Licensing Set",
+      "purpose": "licensing",
+      "themes": [
+        "repeat motifs",
+        "graphic consistency",
+        "product-ready imagery"
+      ],
+      "best_for": [
+        "stationery",
+        "calendars",
+        "branding",
+        "print products"
+      ],
+      "images": []
+    },
+    {
+      "name": "Research / Residency Set",
+      "purpose": "residency",
+      "themes": [
+        "process",
+        "investigation",
+        "long-form projects"
+      ],
+      "best_for": [
+        "residencies",
+        "institutional applications",
+        "research grants"
+      ],
+      "images": []
+    }
+  ]
+}

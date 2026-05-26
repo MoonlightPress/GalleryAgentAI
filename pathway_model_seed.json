@@ -1,0 +1,92 @@
+{
+  "pathways": [
+    {
+      "id": "publishing_path",
+      "name": "Publishing Path",
+      "description": "Build visibility through zines, artist books, bookstores, and small press ecosystems.",
+      "levels": [
+        {
+          "level": 1,
+          "name": "Basic materials ready",
+          "requirements": ["artist_statement", "short_bio", "portfolio_set"]
+        },
+        {
+          "level": 2,
+          "name": "First publication attempts",
+          "requirements": ["submit_to_3_zines", "make_small_zine_concept"]
+        },
+        {
+          "level": 3,
+          "name": "Visible in small press ecosystem",
+          "requirements": ["published_in_3_or_more_zines", "bookstore_contact_list"]
+        }
+      ]
+    },
+    {
+      "id": "local_visibility_path",
+      "name": "Local Visibility Path",
+      "description": "Build recognition through cafes, small walls, local spaces, and repeat public presence.",
+      "levels": [
+        {
+          "level": 1,
+          "name": "Ready to approach local spaces",
+          "requirements": ["short_bio", "portfolio_set", "simple_outreach_email"]
+        },
+        {
+          "level": 2,
+          "name": "First local show",
+          "requirements": ["contact_5_local_spaces", "install_small_show"]
+        },
+        {
+          "level": 3,
+          "name": "Recognizable local presence",
+          "requirements": ["3_local_shows", "sales_or_feedback_logged"]
+        }
+      ]
+    },
+    {
+      "id": "licensing_path",
+      "name": "Licensing Path",
+      "description": "Move from self-made products toward small brand collaborations and eventually larger licensing.",
+      "levels": [
+        {
+          "level": 1,
+          "name": "Product-ready identity",
+          "requirements": ["portfolio_set", "image_specs", "consistent_visual_theme"]
+        },
+        {
+          "level": 2,
+          "name": "Self-made product test",
+          "requirements": ["calendar_or_card_mockup", "small_sales_test"]
+        },
+        {
+          "level": 3,
+          "name": "Local collaboration readiness",
+          "requirements": ["sales_feedback", "local_visibility", "brand_pitch_draft"]
+        }
+      ]
+    },
+    {
+      "id": "residency_path",
+      "name": "Residency Path",
+      "description": "Prepare for research-based residencies and institutional applications.",
+      "levels": [
+        {
+          "level": 1,
+          "name": "Core application materials",
+          "requirements": ["artist_statement", "cv", "portfolio_set"]
+        },
+        {
+          "level": 2,
+          "name": "Research framing",
+          "requirements": ["project_statement", "themes_list", "why_this_place"]
+        },
+        {
+          "level": 3,
+          "name": "Residency application ready",
+          "requirements": ["proposal_version", "budget_or_timeline", "application_review"]
+        }
+      ]
+    }
+  ]
+}

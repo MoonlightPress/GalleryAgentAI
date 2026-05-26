@@ -1,0 +1,33 @@
+{
+  "artist_name": "Unknown Artist",
+
+  "themes": [
+    "urban memory",
+    "domestic stillness",
+    "vernacular architecture"
+  ],
+
+  "palette": [
+    "celadon green",
+    "warm cream",
+    "dusty brown"
+  ],
+
+  "strengths": [
+    "light handling",
+    "compositional restraint",
+    "architectural atmosphere"
+  ],
+
+  "market_position": {
+    "commercial": 8,
+    "institutional": 4,
+    "illustration_overlap": 9
+  },
+
+  "target_markets": [
+    "Tokyo emerging galleries",
+    "illustration crossover galleries",
+    "art book publishers"
+  ]
+}

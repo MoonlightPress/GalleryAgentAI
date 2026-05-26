@@ -1,0 +1,56 @@
+{
+  "artist_name": "",
+  "public_name": "",
+  "preferred_languages": ["zh", "ja", "en"],
+  "portfolio_url": "",
+  "instagram_urls": [],
+  "website_urls": [],
+  "source_notes": [
+    {
+      "source_type": "artist_statement",
+      "source_label": "",
+      "text": ""
+    },
+    {
+      "source_type": "bio",
+      "source_label": "",
+      "text": ""
+    },
+    {
+      "source_type": "press_or_gallery_text",
+      "source_label": "",
+      "text": ""
+    },
+    {
+      "source_type": "exhibition_history",
+      "source_label": "",
+      "text": ""
+    },
+    {
+      "source_type": "personal_notes",
+      "source_label": "",
+      "text": ""
+    }
+  ],
+  "known_accomplishments": [],
+  "known_publications": [],
+  "known_exhibitions": [],
+  "known_sales_or_commissions": [],
+  "artist_preferences": {
+    "confirmed_goals": [],
+    "possible_goals": [],
+    "unknown_goals": [
+      "publishing",
+      "gallery shows",
+      "cafes/local walls",
+      "markets/booths",
+      "licensing",
+      "residencies",
+      "institutional recognition",
+      "direct sales",
+      "collaborations"
+    ],
+    "confirmed_avoid": [],
+    "unknown_avoid": []
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "last_updated": "2026-05-26 18:41",
+  "artist_identity": {
+    "artist_name": "",
+    "public_name": "",
+    "portfolio_url": "",
+    "instagram_urls": [],
+    "website_urls": []
+  },
+  "confirmed_facts": {
+    "exhibitions": [],
+    "publications": [],
+    "sales_or_commissions": [],
+    "education_or_training": [],
+    "locations_connected_to_artist": [],
+    "media_used": [],
+    "languages": [
+      "Chinese (zh)",
+      "Japanese (ja)",
+      "English (en)"
+    ]
+  },
+  "artist_self_description": {
+    "direct_phrases": [],
+    "recurring_words": [],
+    "stated_themes": [],
+    "stated_goals": []
+  },
+  "external_descriptions": {
+    "direct_phrases": [],
+    "recurring_words": [],
+    "positioning_signals": []
+  },
+  "work_analysis": {
+    "confirmed_subjects": [],
+    "possible_subjects": [],
+    "confirmed_themes": [],
+    "possible_themes": [],
+    "visual_language": [],
+    "materials_and_process": [],
+    "emotional_register": [],
+    "audience_likely_to_respond": []
+  },
+  "career_positioning": {
+    "current_strengths": [
+      "Multilingual capacity (Chinese, Japanese, English) - potential for cross-cultural engagement"
+    ],
+    "current_gaps": [
+      "No confirmed public presence (portfolio, social media, website)",
+      "No documented exhibition history",
+      "No documented publications",
+      "No artist statement available",
+      "No biographical information available"
+    ],
+    "likely_next_steps": [],
+    "low_friction_paths": [],
+    "higher_ambition_paths": [],
+    "paths_to_avoid_claiming_until_confirmed": [
+      "All career paths require confirmation - no data available to assess readiness"
+    ]
+  },
+  "opportunity_matching_signals": {
+    "good_contexts": [
+      "Multilingual or cross-cultural platforms (Chinese/Japanese/English speaking contexts)",
+      "East Asian diaspora communities",
+      "Bilingual or trilingual publications"
+    ],
+    "maybe_contexts": [],
+    "high_friction_contexts": [],
+    "keywords_for_search": [],
+    "cities_or_regions_to_prioritize": [],
+    "institutions_or_space_types_to_prioritize": []
+  },
+  "artist_preference_unknowns": [
+    {
+      "question": "What is the artist's current career stage and practice status?",
+      "why_it_matters": "Cannot assess appropriate opportunities without knowing if artist is emerging, student, established, or currently inactive",
+      "affects_paths": [
+        "all"
+      ]
+    },
+    {
+      "question": "What media does the artist work in?",
+      "why_it_matters": "Essential for matching with medium-specific opportunities, residencies, and exhibition spaces",
+      "affects_paths": [
+        "gallery shows",
+        "residencies",
+        "publishing",
+        "markets/booths"
+      ]
+    },
+    {
+      "question": "Where is the artist currently based?",
+      "why_it_matters": "Geographic location affects local opportunities, regional networks, and logistical feasibility",
+      "affects_paths": [
+        "cafes/local walls",
+        "markets/booths",
+        "gallery shows",
+        "residencies"
+      ]
+    },
+    {
+      "question": "What are the artist's actual career goals?",
+      "why_it_matters": "All opportunity paths are currently marked as unknown - need explicit confirmation of interests",
+      "affects_paths": [
+        "publishing",
+        "gallery shows",
+        "cafes/local walls",
+        "markets/booths",
+        "licensing",
+        "residencies",
+        "institutional recognition",
+        "direct sales",
+        "collaborations"
+      ]
+    },
+    {
+      "question": "Does the artist have an existing body of work?",
+      "why_it_matters": "Confirms practice status and readiness for public-facing opportunities",
+      "affects_paths": [
+        "all"
+      ]
+    },
+    {
+      "question": "What is the artist's current relationship to their practice (full-time, part-time, hobby, transitioning)?",
+      "why_it_matters": "Affects time availability, professional readiness, and appropriate opportunity scale",
+      "affects_paths": [
+        "residencies",
+        "institutional recognition",
+        "gallery shows"
+      ]
+    }
+  ],
+  "profile_confidence": {
+    "high_confidence": [
+      "Artist has language capacity in Chinese, Japanese, and English"
+    ],
+    "medium_confidence": [],
+    "low_confidence": [
+      "All other aspects - no source material provided to analyze"
+    ]
+  },
+  "safety_notes": [
+    "Do not present interpretations as facts.",
+    "Ask the artist before assuming career goals.",
+    "Use this profile to suggest possibilities, not define identity.",
+    "CRITICAL: This profile is based on virtually no source material - all recommendations must be treated as highly provisional",
+    "Multilingual capacity is the only confirmed data point - do not extrapolate cultural identity or geographic location from language preferences alone",
+    "All opportunity matching requires direct artist input before proceeding"
+  ]
+}

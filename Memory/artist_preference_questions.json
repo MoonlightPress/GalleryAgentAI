@@ -1,0 +1,117 @@
+{
+  "questions": [
+    {
+      "question": "What is the artist's current career stage and practice status?",
+      "why_it_matters": "Cannot assess appropriate opportunities without knowing if artist is emerging, student, established, or currently inactive",
+      "affects_paths": [
+        "all"
+      ]
+    },
+    {
+      "question": "What media does the artist work in?",
+      "why_it_matters": "Essential for matching with medium-specific opportunities, residencies, and exhibition spaces",
+      "affects_paths": [
+        "gallery shows",
+        "residencies",
+        "publishing",
+        "markets/booths"
+      ]
+    },
+    {
+      "question": "Where is the artist currently based?",
+      "why_it_matters": "Geographic location affects local opportunities, regional networks, and logistical feasibility",
+      "affects_paths": [
+        "cafes/local walls",
+        "markets/booths",
+        "gallery shows",
+        "residencies"
+      ]
+    },
+    {
+      "question": "What are the artist's actual career goals?",
+      "why_it_matters": "All opportunity paths are currently marked as unknown - need explicit confirmation of interests",
+      "affects_paths": [
+        "publishing",
+        "gallery shows",
+        "cafes/local walls",
+        "markets/booths",
+        "licensing",
+        "residencies",
+        "institutional recognition",
+        "direct sales",
+        "collaborations"
+      ]
+    },
+    {
+      "question": "Does the artist have an existing body of work?",
+      "why_it_matters": "Confirms practice status and readiness for public-facing opportunities",
+      "affects_paths": [
+        "all"
+      ]
+    },
+    {
+      "question": "What is the artist's current relationship to their practice (full-time, part-time, hobby, transitioning)?",
+      "why_it_matters": "Affects time availability, professional readiness, and appropriate opportunity scale",
+      "affects_paths": [
+        "residencies",
+        "institutional recognition",
+        "gallery shows"
+      ]
+    },
+    {
+      "question": "Do you want publishing opportunities, such as zines, artist books, or small press features?",
+      "why_it_matters": "This affects whether bookstore and zine opportunities should be ranked highly.",
+      "affects_paths": [
+        "publishing",
+        "zines",
+        "bookstores",
+        "artist books"
+      ]
+    },
+    {
+      "question": "Do you want local cafe or small wall exhibitions, or do those feel too casual?",
+      "why_it_matters": "These can build local visibility, but may not fit every artist's preferred positioning.",
+      "affects_paths": [
+        "local visibility",
+        "cafe walls",
+        "community presence"
+      ]
+    },
+    {
+      "question": "Do you want to sell directly at booths or markets?",
+      "why_it_matters": "Booths can create income and audience feedback, but require social and sales energy.",
+      "affects_paths": [
+        "direct sales",
+        "markets",
+        "booths",
+        "merchandise"
+      ]
+    },
+    {
+      "question": "Are residencies interesting to you right now?",
+      "why_it_matters": "Residencies require more preparation, but can help with research, CV value, and focused work time.",
+      "affects_paths": [
+        "residencies",
+        "research",
+        "CV building"
+      ]
+    },
+    {
+      "question": "Are licensing or product collaborations a long-term goal?",
+      "why_it_matters": "Licensing requires proof of audience, repeatable visual identity, and product-ready work.",
+      "affects_paths": [
+        "licensing",
+        "stationery",
+        "calendars",
+        "brand collaborations"
+      ]
+    },
+    {
+      "question": "What kinds of opportunities would feel embarrassing, draining, or not worth it?",
+      "why_it_matters": "The system should avoid pushing paths that create resistance or misrepresent the artist.",
+      "affects_paths": [
+        "all paths"
+      ]
+    }
+  ]
+}

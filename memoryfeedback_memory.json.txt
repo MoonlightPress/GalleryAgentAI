@@ -1,0 +1,9 @@
+{
+  "platform_results": [],
+  "gallery_responses": [],
+  "collector_responses": [],
+  "sales": [],
+  "engagement_patterns": [],
+  "pricing_feedback": [],
+  "lessons": []
+}

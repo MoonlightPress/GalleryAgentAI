@@ -1,0 +1,316 @@
+[
+  {
+    "visibility": "secondary",
+    "filter_reason": "",
+    "visibility_reasoning": "SECONDARY (not hidden) because: (1) Legitimate platform with verifiable institutional connections - not predatory, (2) Perfect demographic fit for artist's work and cultural focus, (3) Low emotional drain - rolling deadline, manageable effort, appropriate context, (4) Reasonable financial risk ($45-75) not exploitative, (5) Strategic recommendation is 'defer not avoid' - timing issue, not fundamental misfit. HOWEVER: Not PRIMARY because application is premature given artist needs to develop conceptual framing first. This is a 'come back to this' opportunity that should remain visible as a future option once prerequisites are met. The platform itself is sound; the artist just needs to be ready. Secondary visibility maintains awareness without pushing premature action.",
+    "recommendation_tier": "low_pressure",
+    "council_review": {
+      "council_scores": {
+        "curator_score": 6,
+        "career_score": 7,
+        "peer_artist_score": 7,
+        "submission_score": 6,
+        "emotional_fit": 8,
+        "predatory_risk": 2
+      },
+      "overall_score": 6.5,
+      "recommendation_strength": "defer_until_ready",
+      "difficulty": "low",
+      "compact_card": {
+        "one_sentence": "Legitimate platform with strong demographic fit and low submission pressure, but more effective after you've developed clearer conceptual framing for your work.",
+        "three_bullets": [
+          "Rolling deadline removes time pressure—you can apply when ready",
+          "Fee range ($45-75) is reasonable for platform with institutional connections",
+          "Asian cultural focus aligns well with your subject matter and themes"
+        ],
+        "quick_action": "Bookmark for later; revisit after developing artist statement that frames practice as cultural preservation research",
+        "why_this_fits_short": "Platform matches your cultural focus and work style, but you'll submit stronger application once conceptual framework is articulated"
+      },
+      "protective_voice": {
+        "likely_emotional_response": "May feel frustrated at being told to wait, or anxious about 'missing opportunity' despite rolling deadline",
+        "potential_friction": [
+          "Application feels accessible now but premature submission could position work as decorative rather than research-based",
+          "Fee is modest but spending before you're strategically ready dilutes limited resources",
+          "Platform is legitimate but won't compensate for unclear artistic positioning"
+        ],
+        "softer_summary": "This is a real opportunity, not a scam, and it's genuinely relevant to your work. The rolling deadline means you're not losing anything by waiting. Think of this as 'on deck' rather than 'skip it'—something to return to once you've spent time articulating why this work matters beyond its visual appeal. That preparation will make your application stronger across all future opportunities, not just this one.",
+        "hide_by_default": []
+      },
+      "council_notes": {
+        "curator": "Platform appears legitimate with institutional connections. Demographic focus on Asian contemporary art is appropriate context. However, without stronger conceptual framing, work risks being positioned in illustrative rather than fine art category even within sympathetic venue. The opportunity itself is sound; artist readiness is the variable.",
+        "career_advisor": "This fits the 'low-pressure visibility builder' category from recommended next steps, but those recommendations explicitly suggest developing conceptual framing first. Rolling deadline is strategic advantage—no penalty for waiting. Better to apply once with strong positioning than twice with weak framing. Fee is reasonable but premature application wastes both money and the opportunity itself.",
+        "peer_artist": "Other artists at your level would probably find this approachable and relevant. The Asian focus feels authentic, not tokenizing. But I'd also tell you what I wish someone had told me: don't apply to things just because you can. Apply when your artist statement clearly explains why someone should care about your specific take on these disappearing spaces, not just that they're pretty.",
+        "submission_reviewer": "Application likely straightforward with rolling deadline reducing pressure. Fee structure typical for legitimate platforms. Work quality probably sufficient, but artist statement weakness would be the liability. Review panels respond better to clear research intent than aesthetic documentation. Current positioning as inferred from profile suggests this gap exists.",
+        "protective_voice": "You have moderate emotional tolerance for competitive applications and this one seems manageable, but I'm concerned about the disappointment if rejection happens because framing was unclear rather than work quality. The rolling deadline is actually protective—it removes false urgency. Your limited networking comfort means you need applications to work harder for you, which requires stronger written positioning. This opportunity will still be here in 3-6 months."
+      }
+    },
+    "name": "Unknown",
+    "type": "unknown",
+    "city": "",
+    "country": "",
+    "organization": "Unknown",
+    "description": "",
+    "deadline": "",
+    "fees": "",
+    "status": "active",
+    "priority": "C"
+  },
+  {
+    "status": "requires_verification",
+    "priority": "C",
+    "fit_score": 7,
+    "urgency_score": 5,
+    "effort_score": 7,
+    "strategic_score": 7,
+    "emotional_resistance": 6,
+    "confidence_score": 0.6,
+    "why_fit": "TOKAS-Emerging is a prestigious government-funded program for emerging artists, offering solo exhibition opportunities that would be excellent career validation. However, the hard requirements (age 35 or younger AND Japan residency) are currently unverified for this artist. The competitive jury selection process and institutional context may trigger moderate emotional resistance. While the opportunity quality is high, eligibility blockers mean this should remain visible but secondary until verification.",
+    "risk_notes": "CRITICAL ELIGIBILITY BARRIERS: (1) Age limit of 35 or younger - artist's age unknown. (2) 'Japan-based creators' requirement - artist's residency status unknown, but subject matter suggests possible China base rather than Japan. (3) Highly competitive jury selection increases application stress. (4) Solo exhibition format requires strong institutional framing of practice. Without confirming both age AND Japan residency, this opportunity may be impossible to pursue.",
+    "next_action": "VERIFY BEFORE INVESTING EFFORT: (1) Confirm artist's current age - if over 35, archive immediately. (2) Confirm artist's residency status - if not Japan-based, archive immediately. (3) Only if both eligibility criteria met: check 2026-2027 application timeline on Schedule page.",
+    "human_verification_needed": [
+      "CRITICAL: artist_current_age_vs_35_limit",
+      "CRITICAL: artist_current_residency_country",
+      "exact_application_deadline_2026_2027",
+      "definition_of_japan_based_creators_visa_requirements"
+    ],
+    "visibility": "hidden",
+    "filter_reason": "",
+    "council_review": {
+      "council_scores": {
+        "curator_score": 8,
+        "career_score": 9,
+        "peer_artist_score": 7,
+        "submission_score": 5,
+        "emotional_fit": 4,
+        "predatory_risk": 0
+      },
+      "overall_score": 6,
+      "recommendation_strength": "conditional_strong",
+      "difficulty": "high_barrier_to_entry",
+      "compact_card": {
+        "one_sentence": "TOKAS-Emerging offers prestigious Tokyo government-funded solo exhibitions for emerging artists, but has hard eligibility requirements (age 35 or under AND Japan residency) that need verification before any application work begins.",
+        "three_bullets": [
+          "Excellent institutional validation and career milestone if eligible—government-funded program with solo exhibition outcome",
+          "Two critical blockers must be verified first: age limit (35 or younger) and Japan residency status",
+          "Competitive jury selection and solo exhibition format require strong conceptual framing of your practice"
+        ],
+        "quick_action": "Check your age and current residency status against requirements before considering further. If either doesn't match, archive this and redirect energy elsewhere.",
+        "why_this_fits_short": "High-quality institutional opportunity that matches your career stage and would provide significant validation, but eligibility is uncertain and competitive process may be draining."
+      },
+      "protective_voice": {
+        "likely_emotional_response": "Initial excitement about a Tokyo opportunity may shift to anxiety when facing hard eligibility barriers and highly competitive selection. The unknown eligibility status creates uncomfortable uncertainty—easier to fantasize about or worry over than to simply verify and move on.",
+        "potential_friction": [
+          "Age and residency verification requires confronting possibly disqualifying facts",
+          "Competitive jury process amplifies application anxiety",
+          "Solo exhibition format increases pressure to articulate strong conceptual framework",
+          "Government institutional context may trigger concerns about work being seen as 'merely illustrative'",
+          "High effort investment only worthwhile if eligibility confirmed"
+        ],
+        "softer_summary": "This is a legitimately strong opportunity if you're eligible, but it comes with two clear gates: age and location. Rather than treating this as something to agonize over, treat it as a simple yes/no checklist. If you meet both criteria, it's worth the competitive application effort. If you don't meet even one criterion, that's useful information that saves you time—cross it off and focus on opportunities where you're definitely eligible. The uncertainty is probably more uncomfortable than either answer would be.",
+        "hide_by_default": [
+          "jury_selection_competition_statistics",
+          "previous_winner_profiles_for_comparison"
+        ]
+      },
+      "council_notes": {
+        "curator": "TOKAS-Emerging is a genuinely prestigious program—Tokyo Metropolitan government funding, professional solo exhibition infrastructure, and strong institutional credibility. For an artist working with Japanese urban subjects, this would be meaningful validation. The program respects emerging practices and isn't dismissive of representational work. However, the solo format and institutional context do require artists to frame their practice beyond aesthetic documentation. The work's atmospheric sophistication and cultural specificity could absolutely hold up in this context with proper articulation of the preservation/research dimension. Score: 8/10 (would be 9/10 if eligibility confirmed).",
+        "career_advisor": "If eligible, this is exactly the kind of opportunity to prioritize—government-funded, career-building institutional validation, solo exhibition outcome, and alignment with apparent interest in Japan-based opportunities. This is not a vanity platform; it's a legitimate stepping stone that opens doors. The competitive selection is appropriate for the opportunity quality. However, the hard eligibility barriers (age + residency) mean this should not receive any emotional or time investment until verification. The current 'unknown' status on both criteria makes this a poor fit for someone with low tolerance for competitive applications—why endure that stress if you might not even qualify? Verify first, then decide. If eligible: strong pursue. If not eligible: immediate archive with no regret. Score: 9/10 for career value, conditional on eligibility.",
+        "peer_artist": "This is the kind of thing you hear about and think 'that would be amazing' but then never actually check if you qualify because finding out you don't qualify feels worse than staying in the fantasy. Get real about it quickly—if you're not Japan-based or you're over 35, this isn't your opportunity and that's fine. If you do qualify, the competitive aspect is real but not absurd—it's juried, not a lottery. Your work has substance; it's not going to get dismissed out of hand. The solo exhibition format is actually good for someone with a consistent body of work and clear visual territory. The institutional framing requirement is the biggest stretch—you'd need to get comfortable talking about your practice as research/preservation, not just painting pretty alleyways. Doable, but requires some intellectual heavy lifting. Score: 7/10.",
+        "submission_reviewer": "Two immediate disqualifiers (age, residency) that are completely out of the artist's control make this a poor use of submission energy until verified. Even if eligible, this is a moderately demanding application—jury selection means strong portfolio presentation, artist statement that bridges aesthetic and conceptual concerns, and likely project proposal articulating exhibition intent. For someone with moderate emotional tolerance for competitive applications and difficulty with self-promotion, this is a high-stakes submission that could consume significant energy. The application itself isn't exploitative or unreasonable, but the competitive odds combined with the artist's emotional resistance patterns suggest this could be demoralizing if pursued without clear eligibility confirmation and strong conviction. Only pursue if both eligibility criteria confirmed AND artist feels genuinely ready for institutional solo exhibition framing. Score: 5/10 (process difficulty vs. uncertain eligibility).",
+        "protective_voice": "Here's what I'm watching for: the tendency to fixate on prestigious opportunities before confirming basic eligibility, which creates unnecessary emotional turbulence. The 'unknown' status on age and residency means you might be spending emotional energy on something that's literally impossible for you. That's not useful. The protective move here is simple verification—just find out if you qualify. If you don't, you haven't 'failed' at anything; you've simply identified that this particular door isn't yours. If you do qualify, then you can make an informed decision about whether the competitive process is worth it for you right now. The opportunity itself isn't predatory (score: 0/10), but your relationship to uncertainty might make this feel more fraught than it needs to be. Treat eligibility as a neutral fact-check, not an emotional verdict on your worth. Score: 4/10 emotional fit due to uncertainty and competitive anxiety potential."
+      }
+    },
+    "name": "TOKAS-Emerging",
+    "type": "residency",
+    "city": "Tokyo",
+    "country": "Japan",
+    "organization": "Unknown",
+    "description": "TOKAS-Emerging is a prestigious government-funded program for emerging artists, offering solo exhibition opportunities that would be excellent career validation. However, the hard requirements (age 35 or younger AND Japan residency) are currently unverified for this artist. The competitive jury selection process and institutional context may trigger moderate emotional resistance. While the opportunity quality is high, eligibility blockers mean this should remain visible but secondary until verification.",
+    "deadline": "",
+    "fees": ""
+  },
+  {
+    "visibility": "archive",
+    "filter_reason": "Not eligible - selection-based award, not open application. Already awarded for current cycle. Requires mid-career status and Japan-based practice.",
+    "name": "Unknown",
+    "type": "award",
+    "city": "",
+    "council_review": {
+      "council_scores": {
+        "curator_score": 0,
+        "career_score": 0,
+        "peer_artist_score": 0,
+        "submission_score": 0,
+        "emotional_fit": 0,
+        "predatory_risk": 0
+      },
+      "overall_score": 0,
+      "recommendation_strength": "not_applicable",
+      "difficulty": "not_applicable",
+      "compact_card": {
+        "one_sentence": "Selection-based award already awarded for current cycle—not open for application.",
+        "three_bullets": [
+          "Recipients selected by committee, not through open submission",
+          "Already awarded—no current opportunity exists",
+          "Requires mid-career status and Japan-based practice"
+        ],
+        "quick_action": "Archive. No action possible.",
+        "why_this_fits_short": "It doesn't—correctly filtered as inaccessible."
+      },
+      "protective_voice": {
+        "likely_emotional_response": "None required—already filtered correctly.",
+        "potential_friction": [],
+        "softer_summary": "The system did its job. This isn't available and doesn't apply to you. No need to give it another thought.",
+        "hide_by_default": [
+          "opportunity_details",
+          "submission_requirements",
+          "eligibility_criteria"
+        ]
+      },
+      "council_notes": {
+        "curator": "Not applicable. Selection-based awards recognize existing visibility, not applications. Without award details, cannot assess relevance.",
+        "career_advisor": "Not actionable. These represent outcomes of sustained work, not opportunities to pursue. Focus on building exhibition history that makes you visible to selection committees over time.",
+        "peer_artist": "The kind of thing you see in someone's Instagram story and scroll past. Can't apply, so no point dwelling on it.",
+        "submission_reviewer": "No submission possible. Already awarded. Japan-based practice requirement would likely exclude you unless you're living there full-time.",
+        "protective_voice": "Filter working correctly. Not available, not applicable, safely ignored. Zero FOMO warranted—this is exactly what automated filtering should catch so you don't waste mental energy on non-opportunities."
+      }
+    },
+    "country": "Japan",
+    "organization": "Unknown",
+    "description": "",
+    "deadline": "",
+    "fees": "",
+    "status": "active",
+    "priority": "C"
+  },
+  {
+    "priority": "C",
+    "fit_score": 5,
+    "emotional_resistance": 6,
+    "risk_notes": "Self-funded residency: 120,000 JPY per 4 weeks (240,000 for 8 weeks, 360,000 for 12 weeks) plus food, transport, art supplies. Requires 20,000 JPY deposit per 4-week slot upon acceptance, remaining paid in cash on arrival. Rural location 25 min walk to train station. Exhibition requirement at end adds pressure but also opportunity. Multiple studio spaces available including ateliers, dome studio, and digital fabrication tools (laser cutters, 3D printers, ShopBot). Shared accommodation (3-4 artists per house). Very limited availability in 2026. CAUTION: Self-funded model limits accessibility; exhibition requirement may create stress for artist with moderate public exposure tolerance; shared living with 3-4 artists requires social energy; rural isolation may be challenging. Better options exist (Kyoto Art Center) for this artist's institutional advancement goals.",
+    "why_fit": "Self-funded rural residency program in Japan for 4-12 weeks. Requires final exhibition. More accessible than prestigious programs, offers immersion in rural Japanese environment aligned with artist's vernacular architecture themes. International artists welcome. Good for focused work time and cultural research. HOWEVER: Self-funding requirement is significant barrier; mandatory exhibition adds pressure; shared living requires sustained social engagement; digital fabrication tools don't align with traditional painting practice; rural location less relevant than urban vernacular architecture focus.",
+    "visibility": "hidden",
+    "filter_reason": "",
+    "council_review": {
+      "council_scores": {
+        "curator_score": 4,
+        "career_score": 3,
+        "peer_artist_score": 5,
+        "submission_score": 6,
+        "emotional_fit": 3,
+        "predatory_risk": 3
+      },
+      "overall_score": 4,
+      "recommendation_strength": "skip",
+      "difficulty": "moderate_financial_and_social",
+      "compact_card": {
+        "one_sentence": "Self-funded rural Japan residency (¥120,000-360,000) with mandatory final exhibition and shared living with 3-4 artists.",
+        "three_bullets": [
+          "¥240,000+ for 8 weeks base cost, plus food, transport, supplies, and ¥20,000 deposit—significant financial commitment without institutional return",
+          "Mandatory exhibition adds deadline pressure; shared housing with 3-4 artists requires sustained social energy for weeks or months",
+          "Rural location serves general immersion but doesn't provide urban vernacular architecture research material central to your practice"
+        ],
+        "quick_action": "Skip this—save resources for Kyoto Art Center application or similar institutional opportunities that align with your urban documentation focus.",
+        "why_this_fits_short": "Japan location is appealing, but the self-funded model, exhibition requirement, rural setting, and shared living create multiple friction points against your financial constraints, working preferences, and strategic goals."
+      },
+      "protective_voice": {
+        "likely_emotional_response": "Japan location may trigger immediate interest and FOMO, followed by mounting anxiety about costs, exhibition deadline, and prolonged shared living requirements.",
+        "potential_friction": [
+          "¥240,000-360,000 base cost represents substantial investment without clear career advancement or institutional visibility",
+          "Mandatory exhibition converts research time into deadline-driven production—conflicts with your moderate public exposure comfort",
+          "Living with 3-4 artists for extended period requires consistent social performance when you have moderate networking energy",
+          "Rural location 25 min from station limits access to urban subjects—your work focuses on disappearing city spaces, not countryside",
+          "Digital fabrication tools (laser cutters, 3D printers) serve experimental practices, not atmospheric traditional painting",
+          "Limited 2026 slots may create artificial urgency to commit before fully evaluating fit"
+        ],
+        "softer_summary": "The Japan setting is genuinely appealing, but this particular program asks for significant financial and emotional output without serving your core practice needs. Rural immersion doesn't provide the urban alleyways and vernacular architecture that anchor your work. The costs are real, the exhibition pressure is real, and the social demands are sustained. Passing on this doesn't mean passing on Japan—it means waiting for an opportunity that better matches your research focus and working conditions.",
+        "hide_by_default": [
+          "cost_breakdown",
+          "shared_accommodation_details",
+          "exhibition_requirements"
+        ]
+      },
+      "council_notes": {
+        "curator": "Mandatory exhibition format and context unclear—group show, solo presentation, duration? For a practice centered on urban vernacular architecture and disappearing city spaces, a rural residency provides limited relevant research material. The fabrication infrastructure (laser cutters, 3D printers, ShopBot) signals maker/experimental orientation that doesn't align with atmospheric realist painting. This reads as general-purpose residency rather than one calibrated to your specific practice. Rural setting may provide contemplative time but not subject matter. Score: 4/10",
+        "career_advisor": "Self-funded residencies at this cost level (¥240,000-360,000 base) need to deliver clear institutional advancement or unique research access. This offers neither. Rural location and secondary-tier visibility don't justify the financial investment when you're positioning for institutions like Kyoto Art Center. The mandatory exhibition adds deliverable pressure without strategic audience. Resources would be better allocated to application preparation, portfolio development, or documentation. This is a lateral move that consumes budget without advancing stated goals. Score: 3/10",
+        "peer_artist": "If you have ¥300,000+ available without financial strain and desperately need uninterrupted studio time, the immersive structure has value. Shared living could build community or deplete your social reserves—depends on the other residents and your tolerance that month. The atelier spaces might work for painting, though fabrication tools won't serve you. Honestly, the cost-to-benefit ratio feels off. There are cheaper ways to get studio time and better ways to access Japan for your research. The rural setting limits spontaneous urban documentation that feeds your work. Score: 5/10",
+        "submission_reviewer": "Application appears straightforward with rolling admissions—no elaborate portfolio requirements suggested. Limited 2026 availability creates urgency but isn't reason enough to proceed. Deposit structure (¥20,000 upfront, remainder cash on arrival) is somewhat unconventional but not predatory. The financial barrier is accessibility issue rather than exploitation. If you were committed to applying, the submission process itself wouldn't be arduous, but ease of application shouldn't drive the decision. Score: 6/10",
+        "protective_voice": "This asks for sustained output—financial, social, emotional—over weeks or months. You'd be managing shared living dynamics, producing under exhibition deadline, spending significant funds, all while in a rural environment that doesn't feed your urban-focused practice. The Japan location is attractive, but that attraction might be obscuring misalignment with your actual working needs. Rural immersion could feel peaceful initially but may become isolating when your practice requires city streets, alleyways, threshold spaces. You're allowed to save your resources for opportunities that don't require this much accommodation. Score: 3/10 emotional fit. Predatory risk: 3/10—financial model limits accessibility and exhibition requirement adds pressure, but program appears transparent rather than exploitative."
+      }
+    },
+    "name": "Kyoto Art Center Residency",
+    "type": "residency",
+    "city": "Kyoto",
+    "country": "Japan",
+    "organization": "Unknown",
+    "description": "Self-funded rural residency program in Japan for 4-12 weeks. Requires final exhibition. More accessible than prestigious programs, offers immersion in rural Japanese environment aligned with artist's vernacular architecture themes. International artists welcome. Good for focused work time and cultural research. HOWEVER: Self-funding requirement is significant barrier; mandatory exhibition adds pressure; shared living requires sustained social engagement; digital fabrication tools don't align with traditional painting practice; rural location less relevant than urban vernacular architecture focus.",
+    "deadline": "",
+    "fees": "",
+    "status": "active"
+  },
+  {
+    "priority": "A",
+    "fit_score": 8,
+    "strategic_score": 8,
+    "emotional_resistance": 4,
+    "why_fit": "Excellent alignment: Open call active (deadline June 30) for 2027 residency at Mt. Fuji focused on textiles, nature, history, and regional culture. Program explicitly seeks artists who engage with local environments and traditional industries through research-based practice - perfect match for artist's cultural documentation approach. 1-3 month flexible stays with independent work structure suits moderate social energy. Location in traditional textile town offers vernacular architecture and disappearing craft spaces that align with core themes. Founded by oil painter with French training, sponsored by former Mori Museum director - suggests serious institutional backing without cutting-edge conceptual pressure. Over 200 past residents indicates established, accessible program.",
+    "next_action": "PRIORITY: Deadline June 30, 2026 (5 weeks away). Immediately: 1) Verify costs/funding structure on website, 2) Begin drafting research proposal connecting disappearing Asian urban vernacular spaces theme to Fujiyoshida textile district architecture and craft documentation, 3) Prepare portfolio emphasizing atmospheric rendering of traditional spaces and material culture, 4) Frame practice as cultural preservation research (not nostalgic tourism), 5) Emphasize technical proficiency in capturing transient light/architectural detail.",
+    "risk_notes": "URGENT - 5 weeks to deadline. Primary risk: Need to quickly develop compelling research proposal that frames practice as serious cultural documentation rather than decorative tourism. Must demonstrate how Fujiyoshida textile/architectural research extends existing body of work. 200+ past artists suggests competitive but not impossibly selective. Unknown costs could be barrier if unfunded. Moderate conceptual framing required but program description suggests receptivity to material culture/preservation approaches. Monthly open studios require some public engagement but structured/predictable. Strong strategic fit outweighs time pressure - worth prioritizing.",
+    "additional_notes": "Monthly Open Studio and Open Atelier events where local residents view artworks and engage with artists. Founded by Tsuyoshi Yagi (oil painting background, studied in France). Sponsored by Fumio Nanjo (former Mori Art Museum director) and Loftwork Inc. Location: 3-28-8 Shimoyoshida, Fujiyoshida, Yamanashi. Access from Tokyo via direct bus from Haneda or Narita Express to Shinjuku then bus to Mt Fuji Station. STRATEGIC NOTE: This opportunity directly addresses 'recommended_next_steps' - Asia-Pacific research residency with cultural preservation focus, moderate structure, predictable expectations. Fujiyoshida's textile district offers perfect subject matter continuity while expanding geographic range beyond current work.",
+    "visibility": "primary",
+    "filter_reason": "",
+    "council_review": {
+      "council_scores": {
+        "curator_score": 8,
+        "career_score": 9,
+        "peer_artist_score": 7,
+        "submission_score": 6,
+        "emotional_fit": 6,
+        "predatory_risk": 2
+      },
+      "overall_score": 7.5,
+      "recommendation_strength": "Strong recommend with timeline caveat",
+      "difficulty": "Moderate-High (5-week preparation window for research proposal)",
+      "compact_card": {
+        "one_sentence": "Research residency in Mt. Fuji textile town (1-3 months, 2027) seeking artists engaging with local culture and traditional industries—direct match for your cultural documentation practice.",
+        "three_bullets": [
+          "Deadline June 30, 2026 (5 weeks)—tight but doable if you can prioritize immediately",
+          "Fujiyoshida textile district offers traditional architecture and craft spaces continuous with your work while expanding geographic range",
+          "Established program (200+ residents) with serious institutional backing—monthly open studios are structured and predictable, not networking-heavy"
+        ],
+        "quick_action": "Check website today for costs/funding structure, then assess whether timeline feels realistic for preparing a focused research proposal",
+        "why_this_fits_short": "Program values research-based engagement with regional culture and disappearing traditional spaces—what you already do. Independent work structure with clear expectations suits your approach."
+      },
+      "protective_voice": {
+        "likely_emotional_response": "Initial excitement followed by deadline anxiety—tight timeline plus needing to articulate 'research' framing may trigger avoidance or application stress",
+        "potential_friction": [
+          "5 weeks to develop research proposal when you may not have practiced framing your work as formal research",
+          "Monthly open studios over 1-3 months require sustained public engagement—structured but still energetically demanding",
+          "Unknown costs could make preparation feel wasted if program isn't affordable",
+          "200+ past residents suggests selectivity even if accessible—may trigger competitive application anxiety"
+        ],
+        "softer_summary": "This is genuinely appropriate, but the timeline is real. If June 30 feels too soon to do your strongest work on the proposal, that's valid—not procrastination. You could contact them about future cycles or treat this as low-stakes practice. The opportunity itself is sound: right context, work you care about, established program. Only worth deadline pressure if you can access clarity on research framing relatively quickly. Missing this cycle isn't a crisis.",
+        "hide_by_default": [
+          "Exact competitive applicant numbers",
+          "Granular timeline calculations if already committed to applying"
+        ]
+      },
+      "council_notes": {
+        "curator": "Strong institutional backing (former Mori Museum director) with accessible regional focus creates ideal positioning—serious enough for CV credibility without avant-garde conceptual demands. Fujiyoshida textile district documentation would constitute legitimate artistic research, not tourism. Monthly open studios demonstrate community engagement for future applications. French-trained painter founder suggests comfort with observational practice and traditional media. Rare bridge opportunity between decorative perception risk and research legitimacy.",
+        "career_advisor": "Addresses almost every strategic recommendation: Asia-Pacific location, research framing, cultural preservation focus, moderate structure, established program. 2027 timing is excellent—gives you significant outcome to leverage while building momentum. Textile town subject matter is smart lateral move: demonstrates approach works beyond single location, strengthens 'disappearing vernacular spaces' as coherent research thread rather than nostalgia. Unknown costs are only serious concern—investigate immediately before investing application energy. If affordable/funded, this is priority-level opportunity worth deadline stress.",
+        "peer_artist": "Five weeks is tight but not impossible if you're already thinking this way about your work. You're not inventing new practice—just articulating what you do in proposal language. Location seems genuinely interesting: textile district architecture and craft spaces you'd probably want to document anyway. 1-3 month flexibility is practical. 200+ past residents means they're practiced at hosting, systems are established. Open studios might be easier than random networking—structured, finite, people come to you. Worth attempting if deadline doesn't immediately trigger shutdown.",
+        "submission_reviewer": "Weakest link: articulating practice as active research rather than aesthetic documentation. Proposal must demonstrate why Fujiyoshida specifically—what questions about disappearing spaces or textile culture this location helps you explore that current work doesn't address. Portfolio likely adequate (they want traditional space documentation), but written materials need clarity if research language isn't ready. Application probably requires project proposal, portfolio, artist statement, possibly CV. Five weeks is genuinely tight for strong written work if this isn't your strength—evaluate honestly whether you can produce quality proposal under pressure.",
+        "protective_voice": "Main question is whether time pressure works for you right now. Opportunity is genuinely appropriate—not a reach, not settling—but rushing an application requiring unfamiliar framing could feel bad regardless of outcome. Ask yourself: Can you articulate why you document these spaces beyond aesthetics? What would you specifically explore in Fujiyoshida? Do you have bandwidth for application stress currently? Unclear answers mean it's okay to skip this cycle—other residencies exist. If you apply, worst case is rejection from an appropriate program, which gives you practice framing research for next time. Not make-or-break either way."
+      }
+    },
+    "name": "Fujiyoshida Research Residency",
+    "type": "residency",
+    "city": "Tokyo",
+    "country": "Japan",
+    "organization": "Unknown",
+    "description": "Excellent alignment: Open call active (deadline June 30) for 2027 residency at Mt. Fuji focused on textiles, nature, history, and regional culture. Program explicitly seeks artists who engage with local environments and traditional industries through research-based practice - perfect match for artist's cultural documentation approach. 1-3 month flexible stays with independent work structure suits moderate social energy. Location in traditional textile town offers vernacular architecture and disappearing craft spaces that align with core themes. Founded by oil painter with French training, sponsored by former Mori Museum director - suggests serious institutional backing without cutting-edge conceptual pressure. Over 200 past residents indicates established, accessible program.",
+    "deadline": "",
+    "fees": "",
+    "status": "active"
+  }
+]
