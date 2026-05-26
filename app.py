@@ -1,19 +1,11 @@
-import streamlit as st
+
 import json
 import os
+from collections import defaultdict
 
+import streamlit as st
 
-st.set_page_config(
-    page_title="Artist Career Dashboard",
-    layout="wide"
-)
-
-
-def load_text(path, fallback=""):
-    if not os.path.exists(path):
-        return fallback
-    with open(path, "r", encoding="utf-8") as f:
-        return f.read()
+st.set_page_config(page_title="Mochi's Atelier", layout="wide")
 
 
 def load_json(path, fallback):
@@ -23,387 +15,74 @@ def load_json(path, fallback):
         return json.load(f)
 
 
-st.title("Artist Career Dashboard")
-
-tabs = st.tabs([
-    "Artist Dossier",
-    "Market Report",
-    "Opportunities",
-    "Add Opportunity",
-    "CRM",
-    "Add Contact",
-    "Email Drafts",
-    "Quests",
-    "Chinese Summary",
-    "Japanese Outreach",
-    "Pipeline Status",
-    "Materials",
-
-])
+def score_num(value):
+    try:
+        return float(value or 0)
+    except Exception:
+        return 0.0
 
 
-with tabs[0]:
-    st.header("Artist Dossier")
-    st.markdown(load_text("artist_dossier.md", "No artist dossier found."))
+def get_title(opp):
+    return opp.get("title") or opp.get("name") or "Unknown"
 
 
-with tabs[1]:
-    st.header("Market / Strategy Report")
-    st.markdown(load_text("final_gallery_report.md", "No market report found."))
-
-with tabs[2]:
-    st.markdown(
-        """
-        <style>
-        .stApp {
-            background: #fbf4e8;
-        }
-
-        div[data-testid="stTabs"] button {
-            font-size: 0.88rem;
-        }
-
-        .mochi-hero {
-            border-radius: 28px;
-            overflow: hidden;
-            border: 1px solid #e4d2b8;
-            margin-bottom: 18px;
-            box-shadow: 0 6px 20px rgba(112, 82, 48, 0.14);
-            background: #fff7ea;
-        }
-
-        .section-shell {
-            background: rgba(255, 250, 241, 0.78);
-            border: 1px solid #e5d5bf;
-            border-radius: 24px;
-            padding: 16px 18px 18px 18px;
-            margin: 22px 0;
-            box-shadow: 0 4px 16px rgba(112, 82, 48, 0.08);
-        }
-
-        .section-head {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            margin-bottom: 12px;
-        }
-
-        .section-art {
-            width: 120px;
-            height: 56px;
-            object-fit: cover;
-            border-radius: 16px;
-            border: 1px solid #e0cfb7;
-            background: #fff;
-        }
-
-        .section-title {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: #4d3c2f;
-            margin-bottom: 2px;
-        }
-
-        .section-note {
-            color: #7a6b5a;
-            font-size: 0.9rem;
-        }
-
-        .dense-card {
-            background: #fffdf7;
-            border: 1px solid #e2d4bf;
-            border-radius: 18px;
-            padding: 12px 13px 11px 13px;
-            min-height: 205px;
-            box-shadow: 0 2px 8px rgba(112, 82, 48, 0.08);
-        }
-
-        .dense-card-title {
-            color: #4b3b2d;
-            font-weight: 700;
-            font-size: 0.98rem;
-            line-height: 1.18;
-            margin-bottom: 6px;
-        }
-
-        .badge-row {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-            margin-bottom: 8px;
-        }
-
-        .badge {
-            display: inline-block;
-            padding: 2px 7px;
-            border-radius: 999px;
-            font-size: 0.72rem;
-            border: 1px solid #decbb1;
-            background: #f8eddd;
-            color: #5e4b3a;
-        }
-
-        .badge-good {
-            background: #edf6df;
-            border-color: #c9dcb3;
-        }
-
-        .badge-source {
-            background: #e8f2f4;
-            border-color: #bdd6dc;
-        }
-
-        .card-summary {
-            font-size: 0.84rem;
-            color: #594a3c;
-            line-height: 1.35;
-        }
-
-        .detail-shell {
-            background: #fffdf8;
-            border: 1px solid #dfceb5;
-            border-radius: 24px;
-            padding: 18px;
-            margin-top: 16px;
-            box-shadow: 0 8px 22px rgba(112, 82, 48, 0.12);
-        }
-
-        .info-box {
-            background: #fbf4e8;
-            border: 1px solid #e4d1b8;
-            border-radius: 16px;
-            padding: 11px 13px;
-            margin-bottom: 10px;
-        }
-
-        .tiny-label {
-            color: #7d6d5c;
-            font-size: 0.78rem;
-            text-transform: uppercase;
-            letter-spacing: .04em;
-            margin-bottom: 2px;
-        }
-
-        .readiness-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 7px 0;
-            border-bottom: 1px dashed #e4d4be;
-            font-size: 0.9rem;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
+def get_source(opp):
+    return (
+        opp.get("source_link")
+        or opp.get("source_url")
+        or opp.get("official_website")
+        or opp.get("submission_page")
+        or ""
     )
 
-    st.markdown('<div class="mochi-hero">', unsafe_allow_html=True)
-    st.image("assets/cat_scene.svg", use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
 
-    opportunities = load_json("memory/compact_opportunities.json", [])
-    materials = load_json(
-        "memory/materials_memory.json",
-        {
-            "artist_bios": [],
-            "artist_statements": [],
-            "cv_versions": [],
-            "portfolio_sets": [],
-            "image_specs": [],
-            "translations": []
-        }
-    )
+def fit_label(score):
+    score = score_num(score)
+    if score >= 7.5:
+        return "Strong fit"
+    if score >= 5.5:
+        return "Promising"
+    if score >= 4:
+        return "Possible"
+    return "Low priority"
 
-    if not opportunities:
-        st.info("No compact opportunities generated yet. Run compact_view_agent.py first.")
 
-    else:
-        section_map = {
-            "Print / Zines / Bookstores": {
-                "categories": ["zine_print", "bookstore_gallery", "bookstore_event"],
-                "note": "Artist books, zines, small press, quiet publishing paths.",
-                "image": "assets/books.svg"
-            },
-            "Cafe / Local Wall Spaces": {
-                "categories": ["cafe_gallery"],
-                "note": "Low-pressure local visibility and small approachable walls.",
-                "image": "assets/matcha.svg"
-            },
-            "Markets / Popups / Booths": {
-                "categories": ["fair_popup", "market_event"],
-                "note": "Direct audience tests, booth experiments, product feedback.",
-                "image": "assets/booth.svg"
-            },
-            "Artist Spaces / Community": {
-                "categories": ["artist_space", "event_space", "gallery_event"],
-                "note": "Artist-run spaces, local ecosystems, peer discovery.",
-                "image": "assets/gallery.svg"
-            },
-            "Galleries": {
-                "categories": ["gallery"],
-                "note": "More formal exhibition contexts and gallery leads.",
-                "image": "assets/gallery.svg"
-            },
-            "Residencies / Institutional": {
-                "categories": ["residency", "institutional"],
-                "note": "Longer applications, stronger CV value, heavier prep.",
-                "image": "assets/residency.svg"
-            }
-        }
+def effort_label(raw):
+    text = str(raw or "").lower()
+    if "low" in text or "easy" in text:
+        return "Easy"
+    if "medium" in text or "moderate" in text:
+        return "Medium"
+    if "high" in text or "demand" in text:
+        return "Heavy"
+    return "Check"
 
-        selected = st.session_state.get("selected_opportunity")
-        selected_section = st.session_state.get("selected_section")
 
-        def effort_label(difficulty):
-            d = str(difficulty).lower()
-            if "low" in d or "easy" in d:
-                return "Easy"
-            if "medium" in d or "moderate" in d:
-                return "Medium"
-            if "high" in d or "demand" in d or "very" in d:
-                return "Heavy"
-            return "Check"
+def category_label(raw):
+    labels = {
+        "zine_print": "Print / Zines",
+        "bookstore_gallery": "Bookstores",
+        "bookstore_event": "Bookstores",
+        "cafe_gallery": "Cafe Walls",
+        "fair_popup": "Markets / Popups",
+        "market_event": "Markets / Popups",
+        "artist_space": "Artist Spaces",
+        "event_space": "Artist Spaces",
+        "gallery_event": "Artist Spaces",
+        "gallery": "Galleries",
+        "residency": "Residencies",
+        "institutional": "Institutional",
+    }
+    return labels.get(raw, str(raw or "Other").replace("_", " ").title())
 
-        def fit_label(score):
-            try:
-                score = float(score)
-            except Exception:
-                return "Check"
-            if score >= 7.5:
-                return "Strong"
-            if score >= 5.5:
-                return "Promising"
-            if score >= 4:
-                return "Maybe"
-            return "Low"
 
-        def status_check(items):
-            return bool(items and len(items) > 0)
+def draft_email(opp, lang):
+    org = opp.get("organization") or get_title(opp)
 
-        def render_readiness():
-            checks = [
-                ("Artist bio", status_check(materials.get("artist_bios", []))),
-                ("Artist statement", status_check(materials.get("artist_statements", []))),
-                ("CV / resume", status_check(materials.get("cv_versions", []))),
-                ("Portfolio set", status_check(materials.get("portfolio_sets", []))),
-                ("Image specs", status_check(materials.get("image_specs", []))),
-                ("Translations", status_check(materials.get("translations", []))),
-            ]
+    if lang == "zh":
+        return f"""您好，
 
-            ready = sum(1 for _, ok in checks if ok)
-
-            st.markdown(f"#### Submission Readiness · {ready}/{len(checks)}")
-
-            for label, ok in checks:
-                icon = "✓" if ok else "＋"
-                action = "ready" if ok else "add"
-                st.markdown(
-                    f"""
-                    <div class="readiness-row">
-                        <span>{icon} {label}</span>
-                        <span style="color:#7d6d5c;">{action}</span>
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
-
-        def render_card(opp, key, section_name):
-            title = opp.get("title", "Unknown")
-            score = opp.get("overall_score", 0)
-            effort = effort_label(opp.get("difficulty", "unknown"))
-            city = opp.get("city", "")
-            source = (
-                opp.get("source_link")
-                or opp.get("source_url")
-                or opp.get("official_website")
-            )
-            sentence = opp.get("one_sentence", "")
-
-            current = st.session_state.get("selected_opportunity") or {}
-            is_open = current.get("title") == title
-
-            st.markdown(
-                f"""
-                <div class="dense-card">
-                    <div class="dense-card-title">{title}</div>
-                    <div class="badge-row">
-                        <span class="badge badge-good">{fit_label(score)}</span>
-                        <span class="badge">{score}/10</span>
-                        <span class="badge">{effort}</span>
-                        <span class="badge">{city}</span>
-                        <span class="badge badge-source">Source {'✓' if source else '?'}</span>
-                    </div>
-                    <div class="card-summary">{sentence[:175]}{"..." if len(sentence) > 175 else ""}</div>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-            label = "Close" if is_open else "More"
-            if st.button(label, key=key):
-                if is_open:
-                    st.session_state["selected_opportunity"] = None
-                    st.session_state["selected_section"] = None
-                else:
-                    st.session_state["selected_opportunity"] = opp
-                    st.session_state["selected_section"] = section_name
-                st.rerun()
-
-        def render_detail(selected):
-            st.markdown('<div class="detail-shell">', unsafe_allow_html=True)
-
-            left, right = st.columns([1, 1.25])
-
-            with left:
-                st.markdown(f"### {selected.get('title', 'Unknown')}")
-                st.caption(
-                    f"{fit_label(selected.get('overall_score', 0))} · "
-                    f"{selected.get('overall_score', 0)}/10 · "
-                    f"{effort_label(selected.get('difficulty', 'unknown'))} · "
-                    f"{selected.get('city', '')}"
-                )
-
-                if st.button("Close Details"):
-                    st.session_state["selected_opportunity"] = None
-                    st.session_state["selected_section"] = None
-                    st.rerun()
-
-                st.markdown('<div class="info-box">', unsafe_allow_html=True)
-                st.markdown('<div class="tiny-label">Evidence</div>', unsafe_allow_html=True)
-                st.write("**Organization:**", selected.get("organization", ""))
-
-                source_link = (
-                    selected.get("source_link")
-                    or selected.get("source_url")
-                    or selected.get("official_website")
-                )
-                if source_link:
-                    st.markdown(f"[Open Source Link]({source_link})")
-
-                st.write("**Deadline:**", selected.get("deadline", "Unknown"))
-                st.write("**Fees:**", selected.get("fees", "Unknown"))
-                st.markdown('</div>', unsafe_allow_html=True)
-
-                st.markdown('<div class="info-box">', unsafe_allow_html=True)
-                st.markdown('<div class="tiny-label">Next Step</div>', unsafe_allow_html=True)
-                st.write(selected.get("quick_action", "No action available."))
-                st.markdown('</div>', unsafe_allow_html=True)
-
-                render_readiness()
-
-            with right:
-                st.markdown("#### Why This Might Fit")
-                st.write(selected.get("why_this_fits_short", ""))
-
-                st.markdown("#### Key Points")
-                for bullet in selected.get("three_bullets", []):
-                    st.write(f"- {bullet}")
-
-                organization = selected.get("organization", selected.get("title", ""))
-
-                email_zh = f"""您好，
-
-我想询问一下，{organization} 目前是否接受艺术家投稿、展览提案，或艺术书 / ZINE 相关的作品提案。
+我想询问一下，{org} 目前是否接受艺术家投稿、展览提案，或艺术书 / ZINE 相关的作品提案。
 
 我的创作主要关注建筑、场所、记忆，以及日常空间中的安静氛围。如果我的作品有可能适合贵方的项目或空间，我会很高兴进一步了解。
 
@@ -414,11 +93,12 @@ with tabs[2]:
 
 [artist name]"""
 
-                email_ja = f"""こんにちは。
+    if lang == "ja":
+        return f"""こんにちは。
 
 突然のご連絡失礼いたします。
 
-現在、{organization}様でアーティストの応募、展示企画、またはアーティストブック・ZINEの提案を受け付けていらっしゃるかお伺いしたく、ご連絡いたしました。
+現在、{org}様でアーティストの応募、展示企画、またはアーティストブック・ZINEの提案を受け付けていらっしゃるかお伺いしたく、ご連絡いたしました。
 
 私は建築、場所、記憶、日常の風景をテーマに、静かな雰囲気の作品を制作しているアーティストです。私の作品が貴施設の企画に合う可能性があるか、ご確認いただけましたら幸いです。
 
@@ -429,9 +109,9 @@ with tabs[2]:
 
 [artist name]"""
 
-                email_en = f"""Hello,
+    return f"""Hello,
 
-I am writing to ask whether {organization} is currently accepting artist submissions, exhibition proposals, or artist book/zine proposals.
+I am writing to ask whether {org} is currently accepting artist submissions, exhibition proposals, or artist book/zine proposals.
 
 I am an artist working with atmospheric images of architecture, place, memory, and everyday spaces. I would be interested in learning whether my work might fit your programming.
 
@@ -441,426 +121,250 @@ Portfolio:
 Thank you,
 [artist name]"""
 
-                st.markdown("#### Submission Drafts")
-                lang_tabs = st.tabs(["中文", "日本語", "English"])
 
-                with lang_tabs[0]:
-                    st.text_area(
-                        "Chinese draft",
-                        value=email_zh,
-                        height=180,
-                        key=f"email_zh_{selected.get('title', 'unknown')}"
-                    )
+def render_card(opp, key):
+    title = get_title(opp)
+    score = opp.get("overall_score", 0)
+    city = opp.get("city", "")
+    summary = opp.get("one_sentence", "")
 
-                with lang_tabs[1]:
-                    st.text_area(
-                        "Japanese draft",
-                        value=email_ja,
-                        height=205,
-                        key=f"email_ja_{selected.get('title', 'unknown')}"
-                    )
+    st.markdown(
+        f"""
+<div class="card">
+  <div class="card-title">{title}</div>
+  <span class="chip chip-good">{fit_label(score)}</span>
+  <span class="chip">{score}/10</span>
+  <span class="chip">{effort_label(opp.get("difficulty"))}</span>
+  <span class="chip">{city}</span>
+  <div class="summary">{summary[:190]}</div>
+</div>
+""",
+        unsafe_allow_html=True,
+    )
 
-                with lang_tabs[2]:
-                    st.text_area(
-                        "English draft",
-                        value=email_en,
-                        height=180,
-                        key=f"email_en_{selected.get('title', 'unknown')}"
-                    )
+    if st.button("Open details", key=key):
+        st.session_state["selected_opp"] = opp
+        st.rerun()
 
-                with st.expander("Full Report / Deeper Reasoning"):
-                    st.write(
-                        "This should pull the long council report from opportunities_master.json next. "
-                        "For now this panel reserves the drill-down layer."
-                    )
 
-            st.markdown('</div>', unsafe_allow_html=True)
+def render_detail(opp):
+    st.markdown('<div class="detail">', unsafe_allow_html=True)
 
-        for section_name, config in section_map.items():
+    left, right = st.columns([1, 1.25])
 
-            section_opps = [
-                opp for opp in opportunities
-                if opp.get("category") in config["categories"]
-            ]
+    with left:
+        st.markdown(f"### {get_title(opp)}")
+        st.caption(
+            f"{fit_label(opp.get('overall_score'))} · "
+            f"{opp.get('overall_score', 0)}/10 · "
+            f"{effort_label(opp.get('difficulty'))} · "
+            f"{opp.get('city', '')}"
+        )
 
-            if not section_opps:
-                continue
+        st.write("**Organization:**", opp.get("organization", ""))
+        st.write("**Deadline:**", opp.get("deadline", "Check source"))
+        st.write("**Fees:**", opp.get("fees", "Check source"))
 
-            section_opps = sorted(
-                section_opps,
-                key=lambda x: -float(x.get("overall_score", 0) or 0)
-            )
+        source = get_source(opp)
+        if source:
+            st.link_button("Open source", source)
 
-            st.markdown('<div class="section-shell">', unsafe_allow_html=True)
+        st.markdown("#### Immediate next step")
+        st.markdown(
+            f"""<div class="soft-box">{opp.get("quick_action", "No action available.")}</div>""",
+            unsafe_allow_html=True,
+        )
 
-            head_left, head_right = st.columns([0.16, 0.84])
+        if st.button("Close details"):
+            st.session_state["selected_opp"] = None
+            st.rerun()
 
-            with head_left:
-                st.image(config["image"], use_container_width=True)
+    with right:
+        st.markdown("#### Why this might fit")
+        st.write(opp.get("why_this_fits_short", ""))
 
-            with head_right:
-                st.markdown(
-                    f"""
-                    <div class="section-title">{section_name}</div>
-                    <div class="section-note">{config["note"]}</div>
-                    """,
-                    unsafe_allow_html=True
-                )
+        st.markdown("#### Key points")
+        for bullet in opp.get("three_bullets", []):
+            st.write("- " + str(bullet))
 
-            cols = st.columns(4)
-            for idx, opp in enumerate(section_opps[:4]):
-                with cols[idx]:
-                    render_card(
-                        opp,
-                        f"more_{section_name}_{idx}_{opp.get('title', 'unknown')}",
-                        section_name
-                    )
+        st.markdown("#### Drafts")
+        zh_tab, ja_tab, en_tab = st.tabs(["中文", "日本語", "English"])
 
-            if len(section_opps) > 4:
-                with st.expander(f"More {section_name}"):
-                    extra_cols = st.columns(4)
-                    for idx, opp in enumerate(section_opps[4:8]):
-                        with extra_cols[idx]:
-                            render_card(
-                                opp,
-                                f"more_extra_{section_name}_{idx}_{opp.get('title', 'unknown')}",
-                                section_name
-                            )
+        with zh_tab:
+            st.text_area("Chinese draft", draft_email(opp, "zh"), height=220)
+        with ja_tab:
+            st.text_area("Japanese draft", draft_email(opp, "ja"), height=240)
+        with en_tab:
+            st.text_area("English draft", draft_email(opp, "en"), height=220)
 
-            if selected and selected_section == section_name:
-                render_detail(selected)
+    st.markdown("</div>", unsafe_allow_html=True)
 
-            st.markdown('</div>', unsafe_allow_html=True)
+
+st.markdown(
+    """
+<style>
+.stApp { background: #f7efe2; }
+.block-container { max-width: 1400px; padding-top: 1.25rem; }
+
+.hero {
+    background:
+        radial-gradient(circle at 8% 20%, rgba(191,137,105,.18), transparent 22%),
+        radial-gradient(circle at 92% 15%, rgba(135,160,115,.18), transparent 22%),
+        linear-gradient(135deg, #fffaf0 0%, #f1dfc4 100%);
+    border: 1px solid #d8bd93;
+    border-radius: 30px;
+    padding: 32px 36px;
+    margin-bottom: 24px;
+    box-shadow: 0 10px 26px rgba(70,44,20,.10);
+}
+.hero h1 {
+    margin: 0;
+    color: #443226;
+    font-family: Georgia, serif;
+    font-size: 2.4rem;
+}
+.hero p {
+    margin-top: 8px;
+    color: #725f4d;
+    font-size: 1.05rem;
+}
+
+.card {
+    background: #fffaf2;
+    border: 1px solid #dfc7a3;
+    border-radius: 22px;
+    padding: 16px;
+    min-height: 220px;
+    box-shadow: 0 5px 14px rgba(70,44,20,.07);
+    margin-bottom: 10px;
+}
+.card-title {
+    font-family: Georgia, serif;
+    color: #443226;
+    font-weight: 700;
+    font-size: 1.05rem;
+    line-height: 1.22;
+    margin-bottom: 8px;
+}
+.chip {
+    display: inline-block;
+    background: #efe1c8;
+    border: 1px solid #dac09b;
+    border-radius: 999px;
+    padding: 3px 9px;
+    margin: 0 4px 6px 0;
+    color: #594636;
+    font-size: .78rem;
+}
+.chip-good {
+    background: #e8efd9;
+    border-color: #c3d0aa;
+}
+.summary {
+    color: #635242;
+    font-size: .92rem;
+    line-height: 1.45;
+}
+.detail {
+    background: #fffaf2;
+    border: 1px solid #d7bc91;
+    border-radius: 26px;
+    padding: 24px;
+    margin: 22px 0 28px 0;
+    box-shadow: 0 10px 28px rgba(70,44,20,.10);
+}
+.soft-box {
+    background: #f4e7cf;
+    border: 1px solid #dec5a0;
+    border-radius: 16px;
+    padding: 14px;
+    color: #594636;
+    line-height: 1.5;
+}
+.section-title {
+    margin-top: 32px;
+    margin-bottom: 10px;
+    font-family: Georgia, serif;
+    color: #443226;
+    font-size: 1.55rem;
+    font-weight: 700;
+}
+</style>
+""",
+    unsafe_allow_html=True,
+)
+
+opps = load_json(
+    "deploy_data/compact_opportunities.json",
+    load_json("memory/compact_opportunities.json", []),
+)
+
+st.markdown(
+    """
+<div class="hero">
+  <h1>Mochi's Atelier</h1>
+  <p>Gentle opportunity browsing, source links, and ready-to-edit outreach drafts.</p>
+</div>
+""",
+    unsafe_allow_html=True,
+)
+
+if not opps:
+    st.error("No opportunity data found. Expected deploy_data/compact_opportunities.json.")
+    st.stop()
+
+tabs = st.tabs(["Mochi Atelier", "Mousehole", "Observatory", "Archive"])
+
+with tabs[0]:
+    st.subheader("Today's Suggestions")
+
+    top = sorted(opps, key=lambda x: -score_num(x.get("overall_score")))[:6]
+
+    cols = st.columns(3)
+    for i, opp in enumerate(top):
+        with cols[i % 3]:
+            render_card(opp, f"top_{i}")
+
+    selected = st.session_state.get("selected_opp")
+    if selected:
+        render_detail(selected)
+
+    st.markdown("---")
+    st.subheader("Browse by Category")
+
+    groups = defaultdict(list)
+    for opp in opps:
+        groups[category_label(opp.get("category"))].append(opp)
+
+    for category, items in groups.items():
+        st.markdown(f'<div class="section-title">{category}</div>', unsafe_allow_html=True)
+        sorted_items = sorted(items, key=lambda x: -score_num(x.get("overall_score")))
+
+        cols = st.columns(4)
+        for idx, opp in enumerate(sorted_items[:8]):
+            with cols[idx % 4]:
+                render_card(opp, f"{category}_{idx}")
+
+with tabs[1]:
+    st.header("Mousehole")
+    st.write("Career pathways and task progress will go here next.")
+    st.markdown(
+        """
+- Upload artist statement
+- Upload bio
+- Select portfolio set
+- Log publications
+- Log shows and sales
+- Use those materials to improve opportunity ranking
+"""
+    )
+
+with tabs[2]:
+    st.header("Observatory")
+    st.write("Reports, market positioning, and long-form analysis will go here next.")
 
 with tabs[3]:
-
-    st.header("Add Opportunity")
-
-    new_name = st.text_input("Name")
-    new_type = st.text_input("Type")
-    new_city = st.text_input("City")
-    new_country = st.text_input("Country")
-    new_website = st.text_input(
-    "Official Website",
-    key="opportunity_official_website"
-)
-    new_contact = st.text_input(
-    "Contact Email",
-    key="opportunity_contact_email"
-)
-  
-
-    new_fit = st.text_area(
-        "Why This Fits",
-        height=120
-    )
-
-    new_action = st.text_area(
-        "Next Action",
-        height=120
-    )
-
-    new_risks = st.text_area(
-        "Risk Notes",
-        height=120
-    )
-
-    fit_score = st.slider(
-        "Fit Score",
-        1,
-        10,
-        5
-    )
-
-    urgency_score = st.slider(
-        "Urgency Score",
-        1,
-        10,
-        5
-    )
-
-    effort_score = st.slider(
-        "Effort Required",
-        1,
-        10,
-        5
-    )
-
-    strategic_score = st.slider(
-        "Strategic Value",
-        1,
-        10,
-        5
-    )
-
-    emotional_resistance = st.slider(
-        "Emotional Resistance",
-        1,
-        10,
-        5
-    )
-    
-
-    if st.button("Save Opportunity"):
-
-        opportunities = load_json(
-            "memory/compact_opportunities.json",
-            []
-        )
-        weighted_score = (
-            fit_score * 2
-            + urgency_score
-            + strategic_score * 2
-            - effort_score
-            - emotional_resistance
-        )
-
-        if weighted_score >= 25:
-            calculated_priority = "A"
-        elif weighted_score >= 15:
-            calculated_priority = "B"
-        else:
-            calculated_priority = "C"
-        new_opportunity = {
-            "fit_score": fit_score,
-            "urgency_score": urgency_score,
-            "effort_score": effort_score,
-            "strategic_score": strategic_score,
-            "emotional_resistance": emotional_resistance,
-     
-            "name": new_name,
-            "type": new_type,
-            "city": new_city,
-            "country": new_country,
-            "official_website": new_website,
-            "contact_email": new_contact,
-            "status": "research_needed",
-            "priority": calculated_priority,
-            "why_fit": new_fit,
-            "next_action": new_action,
-            "risk_notes": new_risks
-        }
-
-        opportunities.append(new_opportunity)
-
-        with open(
-            "memory/opportunities.json",
-            "w",
-            encoding="utf-8"
-        ) as f:
-            json.dump(
-                opportunities,
-                f,
-                indent=2,
-                ensure_ascii=False
-            )
-
-        st.success("Opportunity saved.")
-
-with tabs[4]:
-    st.header("CRM / Contacts")
-    contacts = load_json("memory/contact_memory.json", {"contacts": []}).get("contacts", [])
-
-    if not contacts:
-        st.info("No contacts yet.")
-    else:
-        for contact in contacts:
-            analysis = contact.get("crm_analysis", {})
-            with st.expander(contact.get("name", "Unnamed contact")):
-                st.write("**Type:**", contact.get("type", ""))
-                st.write("**City:**", contact.get("city", ""))
-                st.write("**Country:**", contact.get("country", ""))
-                st.write("**Status:**", contact.get("status", ""))
-                st.write("**Priority:**", analysis.get("priority", ""))
-                st.write("**Next action:**", analysis.get("next_action", ""))
-                st.write("**Follow-up timing:**", analysis.get("follow_up_timing", ""))
-                st.write("**Risk notes:**", analysis.get("risk_notes", ""))
-                web = contact.get("web_verification", {})
-                st.write("**Official website:**", contact.get("official_website", ""))
-                st.write("**Contact page:**", contact.get("contact_page", ""))
-                st.write("**Submission page:**", contact.get("submission_page", ""))
-                st.write("**Contact email:**", contact.get("contact_email", ""))
-                st.write("**Instagram:**", web.get("instagram", ""))
-                st.write("**Verification status:**", web.get("verification_status", ""))
-                st.write("**Last verified:**", web.get("last_verified", ""))
-
-with tabs[5]:
-
-    st.header("Add Contact")
-
-    contact_name = st.text_input("Contact Name")
-    contact_type = st.text_input("Contact Type")
-    contact_city = st.text_input("Contact City")
-    contact_country = st.text_input("Contact Country")
-    contact_email = st.text_input(
-    "Contact Email",
-    key="contact_contact_email"
-)
-    contact_website = st.text_input(
-    "Official Website",
-    key="contact_official_website"
-)
-    contact_page = st.text_input("Contact Page")
-
-    contact_notes = st.text_area(
-        "Contact Notes",
-        height=120
-    )
-
-    if st.button("Save Contact"):
-
-        contact_memory = load_json(
-            "memory/contact_memory.json",
-            {"contacts": []}
-        )
-
-        new_contact = {
-            "name": contact_name,
-            "type": contact_type,
-            "city": contact_city,
-            "country": contact_country,
-            "contact_email": contact_email,
-            "official_website": contact_website,
-            "contact_page": contact_page,
-            "status": "not_contacted",
-            "response_received": False,
-            "notes": contact_notes
-        }
-
-        contact_memory["contacts"].append(new_contact)
-
-        with open(
-            "memory/contact_memory.json",
-            "w",
-            encoding="utf-8"
-        ) as f:
-            json.dump(
-                contact_memory,
-                f,
-                indent=2,
-                ensure_ascii=False
-            )
-
-        st.success("Contact saved.")
-
-with tabs[6]:
-    st.header("Email Drafts")
-    st.markdown(load_text("email_drafts.md", "No email drafts found."))
-
-
-with tabs[7]:
-    st.header("Quest Report")
-    st.markdown(load_text("quest_report.md", "No quest report found."))
-
-
-with tabs[8]:
-    st.header("Chinese Summary")
-    st.info("Placeholder: Chinese artist-facing summary will go here.")
-
-
-with tabs[9]:
-    st.header("Japanese Outreach")
-    st.info("Placeholder: Japanese gallery outreach support will go here.")
-
-with tabs[10]:
-    st.header("Pipeline Status")
-    st.markdown(load_text("pipeline_status.md", "No pipeline status generated yet."))
-    
-
-    with tabs[11]:
-        st.header("Reusable Materials")
-
-        materials = load_json(
-            "memory/materials_memory.json",
-            {
-                "artist_bios": [],
-                "artist_statements": [],
-                "cv_versions": [],
-                "portfolio_sets": [],
-                "image_specs": [],
-                "translations": [],
-                "last_updated": ""
-            }
-        )
-
-        st.write("**Last updated:**", materials.get("last_updated", ""))
-
-    st.subheader("Artist Bios")
-
-    for idx, item in enumerate(
-        materials.get("artist_bios", [])
-    ):
-
-        col1, col2 = st.columns([10, 1])
-
-        col1.write(item)
-
-        if col2.button(
-            "X",
-            key=f"delete_bio_{idx}"
-        ):
-
-            materials["artist_bios"].pop(idx)
-
-            save_json(
-                "memory/materials_memory.json",
-                materials
-            )
-
-            st.rerun()
-
-        st.subheader("Artist Statements")
-        for item in materials.get("artist_statements", []):
-            st.write("- " + str(item))
-
-        st.subheader("CV Versions")
-        for item in materials.get("cv_versions", []):
-            st.write("- " + str(item))
-
-        st.subheader("Portfolio Sets")
-        for item in materials.get("portfolio_sets", []):
-            st.write("- " + str(item))
-
-        st.subheader("Image Specs")
-        for item in materials.get("image_specs", []):
-            st.write("- " + str(item))
-
-        st.subheader("Translations")
-        for item in materials.get("translations", []):
-            st.write("- " + str(item))
-               
-    st.markdown("---")
-    st.subheader("Add Reusable Material")
-
-    material_type = st.selectbox(
-        "Material Type",
-        [
-            "artist_bios",
-            "artist_statements",
-            "cv_versions",
-            "portfolio_sets",
-            "image_specs",
-            "translations"
-        ]
-    )
-
-    material_text = st.text_area(
-        "Material Content",
-        height=150
-    )
-
-    if st.button("Save Material"):
-
-        if material_text.strip():
-
-            materials[material_type].append(
-                material_text.strip()
-            )
-
-            save_json(
-                "memory/materials_memory.json",
-                materials
-            )
-
-            st.success("Material saved.")
-            st.rerun()
+    st.header("Archive")
+    st.write("Raw deploy data preview.")
+    with st.expander("First 5 opportunities"):
+        st.json(opps[:5])
