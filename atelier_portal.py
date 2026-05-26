@@ -35,6 +35,37 @@ def img_data(path):
 st.markdown(
     """
 <style>
+
+/* HARD RESET TEXT COLORS */
+html, body, .stApp, .block-container, p, span, div, label {
+    color: #3f3027 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #3f3027 !important;
+}
+
+[data-testid="stMarkdownContainer"] {
+    color: #3f3027 !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: #6b5947 !important;
+}
+
+.stTabs [aria-selected="true"] {
+    color: #b45f50 !important;
+}
+
+small, .caption, [data-testid="stCaptionContainer"] {
+    color: #7a6a58 !important;
+}
+
+button, button p {
+    color: #3f3027 !important;
+}
+
+
 .stApp {
     background: linear-gradient(180deg, #fbf3e8 0%, #f6ecdc 100%);
 }
