@@ -12,7 +12,10 @@ def load_json(path, fallback):
         return json.load(f)
 
 
-opps = load_json("memory/compact_opportunities.json", [])
+opps = load_json(
+    "memory/compact_opportunities.json",
+    load_json("deploy_data/compact_opportunities.json", [])
+)
 
 st.title("Mochi's Atelier")
 st.write("Gentle opportunities, source links, and ready-to-send drafts.")
