@@ -298,7 +298,7 @@ opps = load_json(
     "deploy_data/compact_opportunities.json",
     load_json("memory/compact_opportunities.json", []),
 )
-st.write(opps[:2])
+
 st.markdown(
     """
 <div class="hero">
@@ -363,8 +363,3 @@ with tabs[2]:
     st.header("Observatory")
     st.write("Reports, market positioning, and long-form analysis will go here next.")
 
-with tabs[3]:
-    st.header("Archive")
-    st.write("Raw deploy data preview.")
-    with st.expander("First 5 opportunities"):
-        st.json(opps[:5])
