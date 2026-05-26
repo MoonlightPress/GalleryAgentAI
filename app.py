@@ -298,7 +298,7 @@ opps = load_json(
     "deploy_data/compact_opportunities.json",
     load_json("memory/compact_opportunities.json", []),
 )
-
+st.write(opps[:2])
 st.markdown(
     """
 <div class="hero">
