@@ -141,7 +141,7 @@ else:
 st.markdown("</div>", unsafe_allow_html=True)
 
 
-opps = load_json("memory/compact_opportunities.json", [])
+opps = load_json("deploy_data/compact_opportunities.json", [])
 daily = load_json("memory/daily_suggestions.json", {})
 paths = load_json("memory/pathway_progress.json", {"pathways": []})
 tasks = load_json("memory/mousehole_tasks.json", {"tasks": []})
