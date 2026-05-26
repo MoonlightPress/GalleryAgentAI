@@ -1,408 +1,357 @@
-import streamlit as st
 import json
 import os
-import base64
+from collections import defaultdict
 
+import streamlit as st
 
-st.set_page_config(
-    page_title="Mochi Atelier",
-    layout="wide"
-)
+st.set_page_config(page_title="Mochi Atelier", layout="wide")
 
 
 def load_json(path, fallback):
     if not os.path.exists(path):
         return fallback
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return fallback
 
 
 def load_text(path, fallback=""):
     if not os.path.exists(path):
         return fallback
-    with open(path, "r", encoding="utf-8") as f:
-        return f.read()
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read()
+    except Exception:
+        return fallback
 
 
-def img_data(path):
-    if not os.path.exists(path):
-        return ""
-    with open(path, "rb") as f:
-        encoded = base64.b64encode(f.read()).decode()
-    return f"data:image/svg+xml;base64,{encoded}"
+def get_source(opp):
+    return opp.get("source_link") or opp.get("source_url") or opp.get("official_website") or ""
+
+
+def score_value(opp):
+    try:
+        return float(opp.get("overall_score", 0) or 0)
+    except Exception:
+        return 0.0
+
+
+def effort_label(raw):
+    d = str(raw or "").lower()
+    if "low" in d or "easy" in d:
+        return "Easy"
+    if "medium" in d or "moderate" in d:
+        return "Medium"
+    if "high" in d or "demand" in d:
+        return "Heavy"
+    return "Check"
+
+
+def card_meta(opp):
+    score = opp.get("overall_score", 0)
+    city = opp.get("city", "")
+    category = str(opp.get("category", "")).replace("_", " ").title()
+    effort = effort_label(opp.get("difficulty", ""))
+    parts = [str(score), effort]
+    if city:
+        parts.append(city)
+    if category:
+        parts.append(category)
+    return " · ".join(parts)
+
+
+def select_opp(opp):
+    st.session_state["selected_opp"] = opp
 
 
 st.markdown(
     """
 <style>
-
-/* HARD RESET TEXT COLORS */
-html, body, .stApp, .block-container, p, span, div, label {
-    color: #3f3027 !important;
+:root {
+    --paper: #f7efe2;
+    --card: #fffaf2;
+    --ink: #3f3027;
+    --muted: #7a6a58;
+    --line: #e0c9a6;
+    --soft: #f1dfc3;
+    --accent: #b88768;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    color: #3f3027 !important;
-}
-
-[data-testid="stMarkdownContainer"] {
-    color: #3f3027 !important;
-}
-
-.stTabs [data-baseweb="tab"] {
-    color: #6b5947 !important;
-}
-
-.stTabs [aria-selected="true"] {
-    color: #b45f50 !important;
-}
-
-small, .caption, [data-testid="stCaptionContainer"] {
-    color: #7a6a58 !important;
-}
-
-button, button p {
-    color: #3f3027 !important;
-}
-
 
 .stApp {
-    background: linear-gradient(180deg, #fbf3e8 0%, #f6ecdc 100%);
+    background: var(--paper);
 }
 
 .block-container {
-    padding-top: 1.2rem;
-    max-width: 1450px;
+    max-width: 1320px;
+    padding-top: 1.25rem;
+    padding-bottom: 4rem;
 }
 
-.portal-hero {
-    background: #fff8ed;
-    border: 1px solid #dfc9aa;
+h1, h2, h3, h4 {
+    color: var(--ink);
+    letter-spacing: -0.02em;
+}
+
+p, li {
+    color: var(--ink);
+}
+
+[data-testid="stCaptionContainer"] p {
+    color: var(--muted);
+}
+
+.hero-panel {
+    border: 1px solid var(--line);
     border-radius: 28px;
-    padding: 18px;
-    margin-bottom: 20px;
-    box-shadow: 0 8px 24px rgba(92, 65, 37, .12);
+    padding: 34px 42px;
+    margin-bottom: 24px;
+    background:
+        radial-gradient(circle at 12% 30%, rgba(184,135,104,.18), transparent 22%),
+        radial-gradient(circle at 88% 18%, rgba(143,167,125,.18), transparent 18%),
+        linear-gradient(135deg, #fff9ed 0%, #f2dfc2 100%);
+    box-shadow: 0 10px 30px rgba(70,45,20,.08);
 }
 
-.mode-card {
-    background: rgba(255, 253, 247, .96);
-    border: 1px solid #e1ceb2;
+.hero-title {
+    font-family: Georgia, serif;
+    font-size: 2.7rem;
+    line-height: 1.05;
+    color: var(--ink);
+    margin: 0 0 8px 0;
+}
+
+.hero-subtitle {
+    font-size: 1.05rem;
+    color: var(--muted);
+    margin: 0;
+}
+
+.section-banner {
+    margin-top: 34px;
+    margin-bottom: 14px;
+    padding: 18px 22px;
     border-radius: 22px;
-    padding: 18px;
-    min-height: 230px;
-    box-shadow: 0 4px 14px rgba(92, 65, 37, .08);
+    border: 1px solid var(--line);
+    background: linear-gradient(135deg, #fffaf2 0%, #f1dfc3 100%);
+    box-shadow: 0 6px 18px rgba(70,45,20,.06);
 }
 
-.mode-title {
+.section-title {
+    font-family: Georgia, serif;
     font-size: 1.35rem;
     font-weight: 700;
-    color: #4b3a2d;
+    color: var(--ink);
 }
 
-.mode-note {
-    color: #756653;
-    font-size: .94rem;
-    margin-bottom: 12px;
+.soft-note {
+    background: #f4e7cf;
+    border: 1px solid #dec5a0;
+    border-radius: 14px;
+    padding: 12px 14px;
+    margin-top: 10px;
+    color: #5a4737;
+    font-size: .92rem;
+    line-height: 1.5;
 }
 
-.path-card {
-    background: #fffaf2;
-    border: 1px solid #e2ceb1;
-    border-radius: 18px;
-    padding: 14px;
-    margin-bottom: 10px;
-}
-
-.small-chip {
+.metric-chip {
     display: inline-block;
-    background: #efe1c8;
-    border: 1px solid #d9c09e;
-    border-radius: 999px;
     padding: 3px 9px;
-    margin: 2px;
+    margin: 2px 4px 6px 0;
+    border-radius: 999px;
+    border: 1px solid #d7bea0;
+    background: #f1e2ca;
+    color: #594532;
     font-size: .78rem;
-    color: #5e4c3b;
+}
+
+hr {
+    border-color: #e6d6bf;
 }
 </style>
 """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True,
 )
 
-
-hero = img_data("assets/mochi/hero_cat.svg")
-
-st.markdown('<div class="portal-hero">', unsafe_allow_html=True)
-
-if hero:
-    st.image(hero, use_container_width=True)
-else:
-    st.title("Mochi Atelier")
-
-st.markdown("</div>", unsafe_allow_html=True)
-
-
 opps = load_json("deploy_data/compact_opportunities.json", [])
+# Optional local-only files. They may not exist on Streamlit Cloud yet.
 daily = load_json("memory/daily_suggestions.json", {})
 paths = load_json("memory/pathway_progress.json", {"pathways": []})
 tasks = load_json("memory/mousehole_tasks.json", {"tasks": []})
 artist_memory = load_json("memory/artist_memory.json", {})
 artist_intel = load_json("memory/artist_intelligence.json", {})
 
-tabs = st.tabs(
-    [
-        "Mochi Atelier",
-        "Mousehole",
-        "Observatory",
-        "Archive"
-    ]
+st.markdown(
+    """
+<div class="hero-panel">
+    <div class="hero-title">Mochi's Atelier</div>
+    <p class="hero-subtitle">Gentle opportunities, source links, and ready-to-send drafts.</p>
+</div>
+""",
+    unsafe_allow_html=True,
 )
 
+if not opps:
+    st.error("No opportunity data found. Expected deploy_data/compact_opportunities.json.")
+
+
+tabs = st.tabs(["Mochi Atelier", "Mousehole", "Observatory", "Archive"])
 
 with tabs[0]:
     st.header("Mochi Atelier")
     st.caption("Browse today's openings. Pick something gentle. Copy the draft. Move forward.")
 
-    featured = daily.get("featured_opportunities") or sorted(
-        opps,
-        key=lambda x: -float(x.get("overall_score", 0) or 0)
-    )[:5]
+    featured = daily.get("featured_opportunities") or sorted(opps, key=score_value, reverse=True)[:5]
 
     st.subheader("Today’s Suggestions")
-
     cols = st.columns(3)
 
     for idx, opp in enumerate(featured[:3]):
-        with cols[idx]:
+        with cols[idx % 3]:
             with st.container(border=True):
                 st.markdown(f"### {opp.get('title', 'Unknown')}")
-                st.caption(
-                    f"{opp.get('overall_score', 0)} · "
-                    f"{opp.get('city', '')} · "
-                    f"{opp.get('category', '')}"
-                )
-                st.write(opp.get("one_sentence", "")[:220])
+                st.caption(card_meta(opp))
+                st.write(str(opp.get("one_sentence", ""))[:240])
 
-                source = (
-                    opp.get("source_link")
-                    or opp.get("source_url")
-                    or opp.get("official_website")
-                )
-
+                source = get_source(opp)
                 if source:
                     st.link_button("Open Source", source)
 
-                st.info(opp.get("quick_action", "No action available."))
+                if st.button("Open Details", key=f"featured_details_{idx}_{opp.get('title', 'unknown')}"):
+                    select_opp(opp)
+                    st.rerun()
 
-    st.subheader("Fast Browse")
+                quick = opp.get("quick_action", "No action available.")
+                st.markdown(f'<div class="soft-note">{quick}</div>', unsafe_allow_html=True)
 
-    categories = {}
+    selected = st.session_state.get("selected_opp")
+    if selected:
+        st.divider()
+        st.subheader(selected.get("title", "Unknown"))
+        left, right = st.columns([1, 1.25])
 
+        with left:
+            st.caption(card_meta(selected))
+            st.write("**Organization:**", selected.get("organization", ""))
+            st.write("**Deadline:**", selected.get("deadline", "Check source"))
+            st.write("**Fees:**", selected.get("fees", "Check source"))
+            source = get_source(selected)
+            if source:
+                st.link_button("Open Source", source)
+            st.markdown('<div class="soft-note">' + selected.get("quick_action", "No action available.") + '</div>', unsafe_allow_html=True)
+            if st.button("Close Details"):
+                st.session_state["selected_opp"] = None
+                st.rerun()
+
+        with right:
+            st.markdown("#### Why this might fit")
+            st.write(selected.get("why_this_fits_short", ""))
+            bullets = selected.get("three_bullets", []) or []
+            if bullets:
+                st.markdown("#### Key points")
+                for bullet in bullets:
+                    st.write("- " + str(bullet))
+
+            org = selected.get("organization", selected.get("title", ""))
+            zh = f"""您好，
+
+我想询问一下，{org} 目前是否接受艺术家投稿、展览提案，或艺术书 / ZINE 相关的作品提案。
+
+我的创作主要关注建筑、场所、记忆，以及日常空间中的安静氛围。如果我的作品有可能适合贵方的项目或空间，我会很高兴进一步了解。
+
+作品集：
+[portfolio link]
+
+谢谢。
+
+[artist name]"""
+            en = f"""Hello,
+
+I am writing to ask whether {org} is currently accepting artist submissions, exhibition proposals, or artist book/zine proposals.
+
+I am an artist working with atmospheric images of architecture, place, memory, and everyday spaces. I would be interested in learning whether my work might fit your programming.
+
+Portfolio:
+[portfolio link]
+
+Thank you,
+[artist name]"""
+            draft_tabs = st.tabs(["中文", "English"])
+            with draft_tabs[0]:
+                st.text_area("Chinese draft", zh, height=220)
+            with draft_tabs[1]:
+                st.text_area("English draft", en, height=220)
+
+    st.markdown('<div class="section-banner"><div class="section-title">Fast Browse</div></div>', unsafe_allow_html=True)
+
+    categories = defaultdict(list)
     for opp in opps:
-        categories.setdefault(
-            opp.get("category", "unknown"),
-            []
-        ).append(opp)
+        categories[opp.get("category", "unknown")].append(opp)
 
-    for category, items in categories.items():
-        with st.expander(f"{category} · {len(items)}"):
-            cols = st.columns(4)
-            for idx, opp in enumerate(items[:8]):
-                with cols[idx % 4]:
-                    st.write(f"**{opp.get('title', 'Unknown')}**")
-                    st.caption(
-                        f"{opp.get('overall_score', 0)} · {opp.get('city', '')}"
-                    )
-
+    for category, items in sorted(categories.items()):
+        st.markdown(f"### {category.replace('_', ' ').title()} · {len(items)}")
+        browse_cols = st.columns(4)
+        for idx, opp in enumerate(sorted(items, key=score_value, reverse=True)[:8]):
+            with browse_cols[idx % 4]:
+                with st.container(border=True):
+                    st.markdown(f"**{opp.get('title', 'Unknown')}**")
+                    st.caption(card_meta(opp))
+                    if st.button("Details", key=f"browse_details_{category}_{idx}_{opp.get('title', 'unknown')}"):
+                        select_opp(opp)
+                        st.rerun()
 
 with tabs[1]:
     st.header("Mousehole")
     st.caption("Quest lines, readiness, materials, and career infrastructure.")
 
-    st.subheader("Pathways")
-
-    path_cols = st.columns(4)
-
-    for idx, path in enumerate(paths.get("pathways", [])[:4]):
-        with path_cols[idx]:
-            st.markdown('<div class="path-card">', unsafe_allow_html=True)
-            st.markdown(f"### {path.get('name', '')}")
-            percent = path.get("percent_complete", 0)
-            st.progress(percent / 100)
-            st.write(f"{percent}% ready")
-            st.caption(path.get("description", ""))
-            st.markdown("</div>", unsafe_allow_html=True)
+    if not paths.get("pathways"):
+        st.info("No pathway data deployed yet. This tab is ready, but memory/pathway_progress.json is not online.")
+    else:
+        path_cols = st.columns(4)
+        for idx, path in enumerate(paths.get("pathways", [])[:4]):
+            with path_cols[idx % 4]:
+                with st.container(border=True):
+                    st.subheader(path.get("name", ""))
+                    percent = path.get("percent_complete", 0)
+                    st.progress(percent / 100)
+                    st.write(f"{percent}% ready")
+                    st.caption(path.get("description", ""))
 
     st.subheader("Best Tasks to Do Next")
-
-    open_tasks = [
-        t for t in tasks.get("tasks", [])
-        if not t.get("complete")
-    ]
-
-    task_cols = st.columns(3)
-
-    for idx, task in enumerate(open_tasks[:6]):
-        with task_cols[idx % 3]:
-            with st.container(border=True):
-                st.markdown(f"### {task.get('title')}")
-                st.write(task.get("description", ""))
-                st.caption("Difficulty: " + task.get("difficulty", ""))
-                st.markdown("Contributes to:")
-                for path in task.get("contributes_to", []):
-                    st.markdown(
-                        f"<span class='small-chip'>{path}</span>",
-                        unsafe_allow_html=True
-                    )
-
-    st.subheader("Add New Artist Memory")
-
-    memory_type = st.selectbox(
-        "Type",
-        [
-            "favorite_artists",
-            "desired_peers",
-            "publication_history",
-            "sales_history",
-            "career_goals",
-            "avoid_preferences",
-            "notes"
-        ]
-    )
-
-    memory_text = st.text_area(
-        "Plain text note",
-        height=120
-    )
-
-    if st.button("Save to Artist Memory"):
-        if memory_type not in artist_memory:
-            artist_memory[memory_type] = []
-
-        if memory_text.strip():
-            artist_memory[memory_type].append(memory_text.strip())
-
-            os.makedirs("memory", exist_ok=True)
-
-            with open(
-                "memory/artist_memory.json",
-                "w",
-                encoding="utf-8"
-            ) as f:
-                json.dump(
-                    artist_memory,
-                    f,
-                    indent=2,
-                    ensure_ascii=False
-                )
-
-            st.success("Saved.")
-            st.rerun()
-
+    open_tasks = [t for t in tasks.get("tasks", []) if not t.get("complete")]
+    if not open_tasks:
+        st.write("No task data deployed yet.")
+    else:
+        task_cols = st.columns(3)
+        for idx, task in enumerate(open_tasks[:6]):
+            with task_cols[idx % 3]:
+                with st.container(border=True):
+                    st.markdown(f"### {task.get('title')}")
+                    st.write(task.get("description", ""))
+                    st.caption("Difficulty: " + task.get("difficulty", ""))
 
 with tabs[2]:
     st.header("Observatory")
     st.caption("Reports, positioning, intelligence, and deeper analysis.")
-
-    left, right = st.columns([1, 1])
-
-    with left:
+    if artist_intel:
         st.subheader("Artist Intelligence")
+        st.json(artist_intel)
+    else:
+        st.info("No artist intelligence deployed yet.")
 
-        if artist_intel:
-            st.json(artist_intel)
-        else:
-            st.info("No artist intelligence generated yet.")
-
-    with right:
-        st.subheader("Market / Strategy Report")
-        report = load_text(
-            "final_gallery_report.md",
-            "No market report found."
-        )
-        st.markdown(report[:6000])
-
-    st.subheader("Artist Dossier")
-    dossier = load_text(
-        "artist_dossier.md",
-        "No artist dossier found."
-    )
-
-    with st.expander("Open full dossier"):
-        st.markdown(dossier)
-
+    report = load_text("final_gallery_report.md", "")
+    if report:
+        with st.expander("Market / Strategy Report"):
+            st.markdown(report[:6000])
 
 with tabs[3]:
     st.header("Archive")
-    st.caption("Stored source data, accomplishments, memory, and system status.")
-
-    archive_tabs = st.tabs(
-        [
-            "Accomplishments",
-            "Artist Memory",
-            "Opportunity Status",
-            "Raw Files"
-        ]
-    )
-
-    with archive_tabs[0]:
-        st.subheader("Accomplishments / Garden Log")
-
-        accomplishments = load_json(
-            "memory/accomplishments_memory.json",
-            {"items": []}
-        )
-
-        new_accomplishment = st.text_area(
-            "Add accomplishment",
-            placeholder="Example: I showed five works at a Koenji cafe for three weeks and sold two prints.",
-            height=120
-        )
-
-        if st.button("Save Accomplishment"):
-            if new_accomplishment.strip():
-                accomplishments["items"].append(
-                    {
-                        "raw_text": new_accomplishment.strip()
-                    }
-                )
-
-                os.makedirs("memory", exist_ok=True)
-
-                with open(
-                    "memory/accomplishments_memory.json",
-                    "w",
-                    encoding="utf-8"
-                ) as f:
-                    json.dump(
-                        accomplishments,
-                        f,
-                        indent=2,
-                        ensure_ascii=False
-                    )
-
-                st.success("Saved.")
-                st.rerun()
-
-        for item in accomplishments.get("items", []):
-            st.write("•", item.get("raw_text", item))
-
-    with archive_tabs[1]:
-        st.json(artist_memory)
-
-    with archive_tabs[2]:
-        st.markdown(
-            load_text(
-                "opportunity_database_status.md",
-                "No database status found."
-            )
-        )
-
-    with archive_tabs[3]:
-        with st.expander("Compact opportunities"):
-            st.json(opps[:10])
-
-        with st.expander("Pathways"):
-            st.json(paths)
-
-        with st.expander("Tasks"):
-            st.json(tasks)
+    st.caption("Stored source data and raw records.")
+    with st.expander("Compact opportunities"):
+        st.json(opps[:10])
+    with st.expander("Pathways"):
+        st.json(paths)
+    with st.expander("Tasks"):
+        st.json(tasks)
