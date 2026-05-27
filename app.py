@@ -337,34 +337,7 @@ textarea {
     border-radius: 10px !important;
     font-weight: 600 !important;
 }
-.suggestion-scroll {
-    display: flex;
-    gap: 18px;
-    overflow-x: auto;
-    padding: 8px 0 20px 0;
-    margin-bottom: 12px;
-    scroll-snap-type: x proximity;
-}
 
-.scroll-card {
-    flex: 0 0 360px;
-    min-height: 220px;
-    background: rgba(255, 250, 242, .94);
-    border: 1px solid var(--line-soft);
-    border-radius: 22px;
-    padding: 18px;
-    box-shadow: 0 6px 18px rgba(70, 44, 20, .07);
-    scroll-snap-align: start;
-}
-
-.suggestion-scroll::-webkit-scrollbar {
-    height: 10px;
-}
-
-.suggestion-scroll::-webkit-scrollbar-thumb {
-    background: #d8bd93;
-    border-radius: 999px;
-}
 </style>
 """,
     unsafe_allow_html=True,
@@ -545,39 +518,31 @@ with tabs[0]:
 
     top = sorted(opps, key=lambda x: -score_num(x.get("overall_score")))[:12]
 
-    selected_title_from_list = st.selectbox(
-        "Choose an opportunity",
-        [get_title(o) for o in top],
-        key="top_picker"
-    )
+    if "suggestion_page" not in st.session_state:
+        st.session_state["suggestion_page"] = 0
 
-    selected_top = next((o for o in top if get_title(o) == selected_title_from_list), None)
+    pages = list(chunked(top, 3))
+    max_page = max(len(pages) - 1, 0)
+    st.session_state["suggestion_page"] = min(st.session_state["suggestion_page"], max_page)
 
-    if selected_top:
-        render_detail(selected_top)
+    nav_left, nav_mid, nav_right = st.columns([1, 3, 1])
+    with nav_left:
+        if st.button("‹ Previous", key="suggestions_prev", disabled=st.session_state["suggestion_page"] <= 0):
+            st.session_state["suggestion_page"] -= 1
+            st.rerun()
+    with nav_mid:
+        st.caption(f"Set {st.session_state['suggestion_page'] + 1} of {len(pages)}")
+    with nav_right:
+        if st.button("Next ›", key="suggestions_next", disabled=st.session_state["suggestion_page"] >= max_page):
+            st.session_state["suggestion_page"] += 1
+            st.rerun()
 
-    st.markdown("---")
-    st.subheader("Browse by Type")
-
-    groups = defaultdict(list)
-    for opp in opps:
-        groups[category_label(opp.get("category"))].append(opp)
-
-    selected_category = st.selectbox(
-        "Choose a type",
-        sorted(groups.keys()),
-        key="category_picker"
-    )
-
-    visible_items = sorted(
-        groups[selected_category],
-        key=lambda x: -score_num(x.get("overall_score"))
-    )
-
+    visible = pages[st.session_state["suggestion_page"]] if pages else []
     cols = st.columns(3)
-    for idx, opp in enumerate(visible_items[:12]):
-        with cols[idx % 3]:
-            render_card(opp, f"{selected_category}_{idx}_{get_title(opp)}")
+    for i, opp in enumerate(visible):
+        with cols[i]:
+            render_card(opp, f"top_{st.session_state['suggestion_page']}_{i}_{get_title(opp)}")
+
 selected_title = st.session_state.get("selected_title")
 
 if selected_title:
