@@ -160,7 +160,7 @@ st.markdown(
 
 .stApp {
     background-color: var(--paper);
-    background-image: url("assets/backgrounds/app_bg.png");
+    background-image:url("/app/static/assets/backgrounds/app_bg.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
@@ -185,7 +185,7 @@ p, li {
     min-height: 430px;
     border-radius: 30px;
     border: 1px solid var(--line);
-background-image: url("/app/static/assets/headers/mochi_hero.png");
+background-image: url("app/static/assets/headers/mochi_hero.png");
     background-size: cover;
     background-position: center center;
     overflow: hidden;
@@ -237,23 +237,23 @@ background-image: url("/app/static/assets/headers/mochi_hero.png");
 }
 
 .section-zines {
-    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("assets/headers/section_zines.png");
+    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("app/static/assets/headers/section_zines.png");
 }
 
 .section-cafes {
-    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("assets/headers/section_cafes.png");
+    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)),url("app/static/assets/headers/section_cafes.png");
 }
 
 .section-markets {
-    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("assets/headers/section_markets.png");
+    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)),url("app/static/assets/headers/section_markets.png");
 }
 
 .section-galleries {
-    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("assets/headers/section_galleries.png");
+    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)),url("/app/static/assets/headers/section_galleries.png");
 }
 
 .section-residencies {
-    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("assets/headers/section_residencies.png");
+    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("/app/static/assets/headers/section_residencies.png");
 }
 
 .opportunity-card {
@@ -281,11 +281,11 @@ background-image: url("/app/static/assets/headers/mochi_hero.png");
     background-position: center;
 }
 
-.card-bookstore:after { background-image: url("assets/cards/stamp_bookstore.png"); }
-.card-cafe:after { background-image: url("assets/cards/stamp_cafe.png"); }
-.card-market:after { background-image: url("assets/cards/stamp_market.png"); }
-.card-gallery:after { background-image: url("assets/cards/stamp_gallery.png"); }
-.card-residency:after { background-image: url("assets/cards/stamp_residency.png"); }
+.card-bookstore:after { background-image: url("/app/static/assets/cards/stamp_bookstore.png"); }
+.card-cafe:after { background-image: url("/app/static/assets/cards/stamp_cafe.png"); }
+.card-market:after { background-image: url("/app/static/assets/cards/stamp_market.png"); }
+.card-gallery:after { background-image: url("/app/static/assets/cards/stamp_gallery.png"); }
+.card-residency:after { background-image:url("/app/static/assets/cards/stamp_residency.png"); }
 
 .opportunity-title {
     font-family: Georgia, "Times New Roman", serif;
