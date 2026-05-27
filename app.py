@@ -1,4 +1,3 @@
-
 import json
 import os
 from collections import defaultdict
@@ -9,10 +8,10 @@ st.set_page_config(page_title="Mochi's Atelier", layout="wide")
 
 
 def load_json(path, fallback):
-    if not os.path.exists(path):
-        return fallback
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return fallback
 
 
 def score_num(value):
@@ -53,32 +52,56 @@ def effort_label(raw):
         return "Easy"
     if "medium" in text or "moderate" in text:
         return "Medium"
-    if "high" in text or "demand" in text:
+    if "high" in text or "heavy" in text or "demand" in text:
         return "Heavy"
     return "Check"
 
 
 def category_label(raw):
     labels = {
-        "zine_print": "Print / Zines",
-        "bookstore_gallery": "Bookstores",
-        "bookstore_event": "Bookstores",
-        "cafe_gallery": "Cafe Walls",
-        "fair_popup": "Markets / Popups",
-        "market_event": "Markets / Popups",
+        "zine_print": "Print / Zines / Bookstores",
+        "bookstore_gallery": "Print / Zines / Bookstores",
+        "bookstore_event": "Print / Zines / Bookstores",
+        "cafe_gallery": "Cafe / Local Wall Spaces",
+        "fair_popup": "Markets / Popups / Booths",
+        "market_event": "Markets / Popups / Booths",
         "artist_space": "Artist Spaces",
         "event_space": "Artist Spaces",
-        "gallery_event": "Artist Spaces",
-        "gallery": "Galleries",
-        "residency": "Residencies",
-        "institutional": "Institutional",
+        "gallery_event": "Galleries / Exhibition Calls",
+        "gallery": "Galleries / Exhibition Calls",
+        "residency": "Residencies / Longer Projects",
+        "institutional": "Institutional / Grants",
     }
     return labels.get(raw, str(raw or "Other").replace("_", " ").title())
 
 
-def draft_email(opp, lang):
-    org = opp.get("organization") or get_title(opp)
+def section_class(category):
+    if "Print" in category or "Book" in category or "Zine" in category:
+        return "section-zines"
+    if "Cafe" in category:
+        return "section-cafes"
+    if "Market" in category or "Popup" in category or "Booth" in category:
+        return "section-markets"
+    if "Residenc" in category:
+        return "section-residencies"
+    return "section-galleries"
 
+
+def card_class(opp):
+    category = str(opp.get("category", "")).lower()
+    if "book" in category or "zine" in category or "print" in category:
+        return "card-bookstore"
+    if "cafe" in category:
+        return "card-cafe"
+    if "market" in category or "popup" in category or "fair" in category:
+        return "card-market"
+    if "residency" in category:
+        return "card-residency"
+    return "card-gallery"
+
+
+def make_draft(opp, lang):
+    org = opp.get("organization") or get_title(opp)
     if lang == "zh":
         return f"""您好，
 
@@ -92,7 +115,6 @@ def draft_email(opp, lang):
 谢谢。
 
 [artist name]"""
-
     if lang == "ja":
         return f"""こんにちは。
 
@@ -108,7 +130,6 @@ def draft_email(opp, lang):
 どうぞよろしくお願いいたします。
 
 [artist name]"""
-
     return f"""Hello,
 
 I am writing to ask whether {org} is currently accepting artist submissions, exhibition proposals, or artist book/zine proposals.
@@ -122,33 +143,240 @@ Thank you,
 [artist name]"""
 
 
+st.markdown(
+    """
+<style>
+:root {
+    --paper: #f7efe2;
+    --paper-soft: #fffaf2;
+    --ink: #3f3027;
+    --ink-soft: #6f5d4c;
+    --line: #dcc19b;
+    --line-soft: #ead8bd;
+    --button: #4c321f;
+    --button-hover: #6a472c;
+    --leaf: #dfe8cf;
+}
+
+.stApp {
+    background-color: var(--paper);
+    background-image: url("assets/backgrounds/app_bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.block-container {
+    max-width: 1440px;
+    padding-top: 1.2rem;
+    padding-bottom: 4rem;
+}
+
+h1, h2, h3 {
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+p, li {
+    color: var(--ink-soft);
+}
+
+.mochi-hero {
+    min-height: 430px;
+    border-radius: 30px;
+    border: 1px solid var(--line);
+    background-image: url("assets/headers/mochi_hero.png");
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: 0 14px 34px rgba(70, 44, 20, .12);
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    left: 52px;
+    top: 52px;
+    max-width: 520px;
+}
+
+.hero-text h1 {
+    font-size: 3.1rem;
+    line-height: 1.05;
+    margin: 0 0 14px 0;
+}
+
+.hero-text p {
+    font-size: 1.15rem;
+    line-height: 1.45;
+    margin: 0;
+}
+
+.section-banner {
+    min-height: 150px;
+    border-radius: 24px;
+    border: 1px solid var(--line);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 8px 22px rgba(70, 44, 20, .08);
+    margin: 34px 0 18px 0;
+    padding: 26px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.section-banner h2 {
+    margin: 0;
+    font-size: 1.65rem;
+}
+
+.section-banner p {
+    margin: 6px 0 0 0;
+    max-width: 520px;
+}
+
+.section-zines {
+    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("assets/headers/section_zines.png");
+}
+
+.section-cafes {
+    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("assets/headers/section_cafes.png");
+}
+
+.section-markets {
+    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("assets/headers/section_markets.png");
+}
+
+.section-galleries {
+    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("assets/headers/section_galleries.png");
+}
+
+.section-residencies {
+    background-image: linear-gradient(90deg, rgba(255,250,242,.92), rgba(255,250,242,.58)), url("assets/headers/section_residencies.png");
+}
+
+.opportunity-card {
+    position: relative;
+    min-height: 235px;
+    background: rgba(255, 250, 242, .92);
+    border: 1px solid var(--line-soft);
+    border-radius: 22px;
+    padding: 18px;
+    margin-bottom: 12px;
+    box-shadow: 0 6px 18px rgba(70, 44, 20, .07);
+    overflow: hidden;
+}
+
+.opportunity-card:after {
+    content: "";
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+    width: 74px;
+    height: 74px;
+    opacity: .18;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-bookstore:after { background-image: url("assets/cards/stamp_bookstore.png"); }
+.card-cafe:after { background-image: url("assets/cards/stamp_cafe.png"); }
+.card-market:after { background-image: url("assets/cards/stamp_market.png"); }
+.card-gallery:after { background-image: url("assets/cards/stamp_gallery.png"); }
+.card-residency:after { background-image: url("assets/cards/stamp_residency.png"); }
+
+.opportunity-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: var(--ink);
+    line-height: 1.22;
+    margin-bottom: 10px;
+    padding-right: 60px;
+}
+
+.opportunity-summary {
+    color: var(--ink-soft);
+    font-size: .94rem;
+    line-height: 1.48;
+    margin-top: 8px;
+}
+
+.chip {
+    display: inline-block;
+    background: #efe1c8;
+    border: 1px solid #dac09b;
+    border-radius: 999px;
+    padding: 3px 9px;
+    margin: 0 4px 6px 0;
+    color: #594636;
+    font-size: .78rem;
+    white-space: nowrap;
+}
+
+.chip-good {
+    background: var(--leaf);
+    border-color: #c6d1ad;
+}
+
+.detail-panel {
+    background: rgba(255, 250, 242, .96);
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    padding: 26px;
+    margin: 26px 0 34px 0;
+    box-shadow: 0 14px 34px rgba(70, 44, 20, .12);
+}
+
+.soft-box {
+    background: #f4e7cf;
+    border: 1px solid #dec5a0;
+    border-radius: 16px;
+    padding: 14px;
+    color: #594636;
+    line-height: 1.5;
+}
+
+
+
+textarea {
+    background: #fffdf8 !important;
+    color: var(--ink) !important;
+    border-radius: 14px !important;
+}
+</style>
+""",
+    unsafe_allow_html=True,
+)
+
 def render_card(opp, key):
     title = get_title(opp)
     score = opp.get("overall_score", 0)
     city = opp.get("city", "")
-    summary = opp.get("one_sentence", "")
+    summary = opp.get("one_sentence", "") or opp.get("suggested_display_summary", "")
 
     st.markdown(
         f"""
-<div class="card">
-  <div class="card-title">{title}</div>
+<div class="opportunity-card {card_class(opp)}">
+  <div class="opportunity-title">{title}</div>
   <span class="chip chip-good">{fit_label(score)}</span>
   <span class="chip">{score}/10</span>
   <span class="chip">{effort_label(opp.get("difficulty"))}</span>
   <span class="chip">{city}</span>
-  <div class="summary">{summary[:190]}</div>
+  <div class="opportunity-summary">{summary[:220]}</div>
 </div>
 """,
         unsafe_allow_html=True,
     )
 
     if st.button("Open details", key=key):
-        st.session_state["selected_opp"] = opp
+        st.session_state["selected_title"] = title
         st.rerun()
 
-
 def render_detail(opp):
-    st.markdown('<div class="detail">', unsafe_allow_html=True)
+    st.markdown('<div class="detail-panel">', unsafe_allow_html=True)
 
     left, right = st.columns([1, 1.25])
 
@@ -171,12 +399,12 @@ def render_detail(opp):
 
         st.markdown("#### Immediate next step")
         st.markdown(
-            f"""<div class="soft-box">{opp.get("quick_action", "No action available.")}</div>""",
+            f"""<div class="soft-box">{opp.get('quick_action', 'No action available.')}</div>""",
             unsafe_allow_html=True,
         )
 
         if st.button("Close details"):
-            st.session_state["selected_opp"] = None
+            st.session_state["selected_title"] = None
             st.rerun()
 
     with right:
@@ -191,108 +419,28 @@ def render_detail(opp):
         zh_tab, ja_tab, en_tab = st.tabs(["中文", "日本語", "English"])
 
         with zh_tab:
-            st.text_area("Chinese draft", draft_email(opp, "zh"), height=220)
+            st.text_area("Chinese draft", make_draft(opp, "zh"), height=220)
         with ja_tab:
-            st.text_area("Japanese draft", draft_email(opp, "ja"), height=240)
+            st.text_area("Japanese draft", make_draft(opp, "ja"), height=240)
         with en_tab:
-            st.text_area("English draft", draft_email(opp, "en"), height=220)
+            st.text_area("English draft", make_draft(opp, "en"), height=220)
 
     st.markdown("</div>", unsafe_allow_html=True)
 
 
-st.markdown(
-    """
-<style>
-.stApp { background: #f7efe2; }
-.block-container { max-width: 1400px; padding-top: 1.25rem; }
-
-.hero {
-    background:
-        radial-gradient(circle at 8% 20%, rgba(191,137,105,.18), transparent 22%),
-        radial-gradient(circle at 92% 15%, rgba(135,160,115,.18), transparent 22%),
-        linear-gradient(135deg, #fffaf0 0%, #f1dfc4 100%);
-    border: 1px solid #d8bd93;
-    border-radius: 30px;
-    padding: 32px 36px;
-    margin-bottom: 24px;
-    box-shadow: 0 10px 26px rgba(70,44,20,.10);
-}
-.hero h1 {
-    margin: 0;
-    color: #443226;
-    font-family: Georgia, serif;
-    font-size: 2.4rem;
-}
-.hero p {
-    margin-top: 8px;
-    color: #725f4d;
-    font-size: 1.05rem;
-}
-
-.card {
-    background: #fffaf2;
-    border: 1px solid #dfc7a3;
-    border-radius: 22px;
-    padding: 16px;
-    min-height: 220px;
-    box-shadow: 0 5px 14px rgba(70,44,20,.07);
-    margin-bottom: 10px;
-}
-.card-title {
-    font-family: Georgia, serif;
-    color: #443226;
-    font-weight: 700;
-    font-size: 1.05rem;
-    line-height: 1.22;
-    margin-bottom: 8px;
-}
-.chip {
-    display: inline-block;
-    background: #efe1c8;
-    border: 1px solid #dac09b;
-    border-radius: 999px;
-    padding: 3px 9px;
-    margin: 0 4px 6px 0;
-    color: #594636;
-    font-size: .78rem;
-}
-.chip-good {
-    background: #e8efd9;
-    border-color: #c3d0aa;
-}
-.summary {
-    color: #635242;
-    font-size: .92rem;
-    line-height: 1.45;
-}
-.detail {
-    background: #fffaf2;
-    border: 1px solid #d7bc91;
-    border-radius: 26px;
-    padding: 24px;
-    margin: 22px 0 28px 0;
-    box-shadow: 0 10px 28px rgba(70,44,20,.10);
-}
-.soft-box {
-    background: #f4e7cf;
-    border: 1px solid #dec5a0;
-    border-radius: 16px;
-    padding: 14px;
-    color: #594636;
-    line-height: 1.5;
-}
-.section-title {
-    margin-top: 32px;
-    margin-bottom: 10px;
-    font-family: Georgia, serif;
-    color: #443226;
-    font-size: 1.55rem;
-    font-weight: 700;
-}
-</style>
+def render_section_banner(category):
+    st.markdown(
+        f"""
+<div class="section-banner {section_class(category)}">
+  <div>
+    <h2>{category}</h2>
+    <p>Curated opportunities, source links, and ready-to-send drafts.</p>
+  </div>
+</div>
 """,
-    unsafe_allow_html=True,
-)
+        unsafe_allow_html=True,
+    )
+
 
 opps = load_json(
     "deploy_data/compact_opportunities.json",
@@ -301,9 +449,11 @@ opps = load_json(
 
 st.markdown(
     """
-<div class="hero">
-  <h1>Mochi's Atelier</h1>
-  <p>Gentle opportunity browsing, source links, and ready-to-edit outreach drafts.</p>
+<div class="mochi-hero">
+  <div class="hero-text">
+    <h1>Mochi's Atelier</h1>
+    <p>Gentle opportunity browsing, source links, and ready-to-edit outreach drafts.</p>
+  </div>
 </div>
 """,
     unsafe_allow_html=True,
@@ -323,9 +473,16 @@ with tabs[0]:
     cols = st.columns(3)
     for i, opp in enumerate(top):
         with cols[i % 3]:
-            render_card(opp, f"top_{i}")
+            render_card(opp, f"top_{i}_{get_title(opp)}")
 
-    selected = st.session_state.get("selected_opp")
+selected_title = st.session_state.get("selected_title")
+
+if selected_title:
+    selected = next(
+        (o for o in opps if get_title(o) == selected_title),
+        None
+    )
+
     if selected:
         render_detail(selected)
 
@@ -337,29 +494,22 @@ with tabs[0]:
         groups[category_label(opp.get("category"))].append(opp)
 
     for category, items in groups.items():
-        st.markdown(f'<div class="section-title">{category}</div>', unsafe_allow_html=True)
+        render_section_banner(category)
         sorted_items = sorted(items, key=lambda x: -score_num(x.get("overall_score")))
 
         cols = st.columns(4)
         for idx, opp in enumerate(sorted_items[:8]):
             with cols[idx % 4]:
-                render_card(opp, f"{category}_{idx}")
+                render_card(opp, f"{category}_{idx}_{get_title(opp)}")
 
 with tabs[1]:
     st.header("Mousehole")
     st.write("Career pathways and task progress will go here next.")
-    st.markdown(
-        """
-- Upload artist statement
-- Upload bio
-- Select portfolio set
-- Log publications
-- Log shows and sales
-- Use those materials to improve opportunity ranking
-"""
-    )
 
 with tabs[2]:
     st.header("Observatory")
     st.write("Reports, market positioning, and long-form analysis will go here next.")
 
+with tabs[3]:
+    st.header("Archive")
+    st.write(f"Loaded {len(opps)} opportunities.")
