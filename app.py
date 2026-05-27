@@ -181,38 +181,6 @@ p, li {
     color: var(--ink-soft);
 }
 
-.mochi-hero {
-    min-height: 430px;
-    border-radius: 30px;
-    border: 1px solid var(--line);
-background-image: url("app/static/assets/headers/mochi_hero.png");
-    background-size: cover;
-    background-position: center center;
-    overflow: hidden;
-    box-shadow: 0 14px 34px rgba(70, 44, 20, .12);
-    margin-bottom: 24px;
-    position: relative;
-}
-
-.hero-text {
-    position: absolute;
-    left: 52px;
-    top: 52px;
-    max-width: 520px;
-}
-
-.hero-text h1 {
-    font-size: 3.1rem;
-    line-height: 1.05;
-    margin: 0 0 14px 0;
-}
-
-.hero-text p {
-    font-size: 1.15rem;
-    line-height: 1.45;
-    margin: 0;
-}
-
 .section-banner {
     min-height: 150px;
     border-radius: 24px;
@@ -346,10 +314,66 @@ textarea {
     color: var(--ink) !important;
     border-radius: 14px !important;
 }
+/* Safe Streamlit button reset: readable, not black-on-black */
+.stButton > button {
+    background: #fffaf2 !important;
+    color: #3f3027 !important;
+    border: 1px solid #dcc19b !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    font-weight: 600 !important;
+}
+
+.stButton > button:hover {
+    background: #f3e3ca !important;
+    color: #3f3027 !important;
+    border-color: #caa978 !important;
+}
+
+.stLinkButton a {
+    background: #fffaf2 !important;
+    color: #3f3027 !important;
+    border: 1px solid #dcc19b !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+}
+.suggestion-scroll {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    padding: 8px 0 20px 0;
+    margin-bottom: 12px;
+    scroll-snap-type: x proximity;
+}
+
+.scroll-card {
+    flex: 0 0 360px;
+    min-height: 220px;
+    background: rgba(255, 250, 242, .94);
+    border: 1px solid var(--line-soft);
+    border-radius: 22px;
+    padding: 18px;
+    box-shadow: 0 6px 18px rgba(70, 44, 20, .07);
+    scroll-snap-align: start;
+}
+
+.suggestion-scroll::-webkit-scrollbar {
+    height: 10px;
+}
+
+.suggestion-scroll::-webkit-scrollbar-thumb {
+    background: #d8bd93;
+    border-radius: 999px;
+}
 </style>
 """,
     unsafe_allow_html=True,
 )
+
+def chunked(items, size):
+    items = list(items)
+    for start in range(0, len(items), size):
+        yield items[start:start + size]
 
 def render_card(opp, key):
     title = get_title(opp)
@@ -447,17 +471,68 @@ opps = load_json(
     load_json("memory/compact_opportunities.json", []),
 )
 
-st.markdown(
-    """
-<div class="mochi-hero">
-  <div class="hero-text">
-    <h1>Mochi's Atelier</h1>
-    <p>Gentle opportunity browsing, source links, and ready-to-edit outreach drafts.</p>
-  </div>
-</div>
-""",
-    unsafe_allow_html=True,
-)
+# =========================
+# HERO
+# =========================
+
+hero_path = "static/assets/headers/mochi_hero.png"
+
+if os.path.exists(hero_path):
+    import base64
+
+    with open(hero_path, "rb") as f:
+        hero_b64 = base64.b64encode(f.read()).decode()
+
+    st.markdown(f"""
+    <style>
+    .hero-box {{
+        position: relative;
+        height: 430px;
+        margin-bottom: 28px;
+        border-radius: 28px;
+        overflow: hidden;
+        border: 1px solid #dcc19b;
+        box-shadow: 0 14px 34px rgba(70,44,20,.12);
+        background-image: url("data:image/png;base64,{hero_b64}");
+        background-size: cover;
+        background-position: center center;
+    }}
+
+    .hero-box .hero-title {{
+        position: absolute;
+        top: 130px;
+        left: 58px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 3.2rem;
+        color: #3f3027;
+        line-height: 1;
+    }}
+
+    .hero-box .hero-subtitle {{
+        position: absolute;
+        top: 190px;
+        left: 58px;
+        max-width: 470px;
+        font-size: 1.12rem;
+        line-height: 1.45;
+        color: #5e4d3d;
+        background: rgba(255,248,240,.72);
+        padding: 12px 16px;
+        border-radius: 14px;
+    }}
+    </style>
+
+    <div class="hero-box">
+        <div class="hero-title">Mochi's Atelier</div>
+        <div class="hero-subtitle">
+            Gentle opportunity browsing, source links,
+            and ready-to-edit outreach drafts.
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+else:
+    st.error(f"Hero image not found: {hero_path}")
 
 if not opps:
     st.error("No opportunity data found. Expected deploy_data/compact_opportunities.json.")
@@ -468,12 +543,32 @@ tabs = st.tabs(["Mochi Atelier", "Mousehole", "Observatory", "Archive"])
 with tabs[0]:
     st.subheader("Today's Suggestions")
 
-    top = sorted(opps, key=lambda x: -score_num(x.get("overall_score")))[:6]
+    top = sorted(opps, key=lambda x: -score_num(x.get("overall_score")))[:12]
 
-    cols = st.columns(3)
-    for i, opp in enumerate(top):
-        with cols[i % 3]:
-            render_card(opp, f"top_{i}_{get_title(opp)}")
+card_html = ""
+
+for opp in top:
+    title = get_title(opp)
+    score = opp.get("overall_score", 0)
+    city = opp.get("city", "")
+    summary = opp.get("one_sentence", "") or opp.get("suggested_display_summary", "")
+
+    card_html += f"""
+    <div class="scroll-card">
+        <div class="opportunity-title">{title}</div>
+        <span class="chip chip-good">{fit_label(score)}</span>
+        <span class="chip">{score}/10</span>
+        <span class="chip">{effort_label(opp.get("difficulty"))}</span>
+        <span class="chip">{city}</span>
+        <div class="opportunity-summary">{summary[:220]}</div>
+    </div>
+    """
+
+st.markdown(f"""
+<div class="suggestion-scroll">
+    {card_html}
+</div>
+""", unsafe_allow_html=True)
 
 selected_title = st.session_state.get("selected_title")
 

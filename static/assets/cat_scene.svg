@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260">
+<rect width="1200" height="260" rx="34" fill="#fff6e8"/>
+<circle cx="1030" cy="58" r="95" fill="#f8dfb4" opacity=".55"/>
+<path d="M0 214 C190 170 310 245 480 200 S850 185 1200 220 V260 H0Z" fill="#e9f1df"/>
+<path d="M60 205 C120 130 180 155 220 205" fill="none" stroke="#b8a27d" stroke-width="5" opacity=".45"/>
+<rect x="170" y="92" width="170" height="95" rx="16" fill="#f2dcc1"/>
+<rect x="190" y="112" width="35" height="60" rx="4" fill="#c98f78"/>
+<rect x="235" y="105" width="28" height="67" rx="4" fill="#88a982"/>
+<rect x="272" y="118" width="42" height="54" rx="4" fill="#d6b56d"/>
+<path d="M830 160 q50 -80 100 0 v35 h-100z" fill="#3b342d"/>
+<circle cx="875" cy="116" r="42" fill="#3b342d"/>
+<path d="M846 84 l14 -28 l17 31" fill="#3b342d"/>
+<path d="M896 84 l20 -27 l9 34" fill="#3b342d"/>
+<circle cx="861" cy="112" r="4" fill="#fff7d5"/>
+<circle cx="889" cy="112" r="4" fill="#fff7d5"/>
+<path d="M870 132 q8 8 18 0" stroke="#fff7d5" stroke-width="3" fill="none"/>
+<path d="M660 185 h260 q20 0 20 20 v15 h-300 v-15 q0-20 20-20z" fill="#b88f62" opacity=".65"/>
+<path d="M430 82 C495 34 560 55 595 104 C550 95 505 112 460 128 C445 115 432 102 430 82Z" fill="#d9e7c7"/>
+<circle cx="510" cy="94" r="18" fill="#c5dca9"/>
+<text x="70" y="72" font-family="Georgia" font-size="38" fill="#5a4636">Mochi's Atelier</text>
+<text x="72" y="112" font-family="Georgia" font-size="19" fill="#7b6a59">gentle opportunities, prepared messages, clear next steps</text>
+</svg>
