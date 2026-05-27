@@ -185,7 +185,7 @@ p, li {
     min-height: 430px;
     border-radius: 30px;
     border: 1px solid var(--line);
-    background-image: url("assets/headers/mochi_hero.png");
+background-image: url("/app/static/assets/headers/mochi_hero.png");
     background-size: cover;
     background-position: center center;
     overflow: hidden;

@@ -1,7 +1,0 @@
-<svg width="420" height="120" xmlns="http://www.w3.org/2000/svg">
-<rect width="100%" height="100%" rx="20" fill="#fff2ef"/>
-<path d="M55 72 L95 35 L135 72 Z" fill="#d76f5f"/>
-<path d="M135 72 L175 35 L215 72 Z" fill="#f2c46d"/>
-<rect x="65" y="72" width="140" height="28" rx="6" fill="#b98c67"/>
-<text x="38" y="28" font-size="18" fill="#5f4e3f" font-family="Georgia">Markets</text>
-</svg>
