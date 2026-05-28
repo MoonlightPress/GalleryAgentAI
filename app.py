@@ -2,6 +2,7 @@
 import base64
 import json
 import os
+from strategy_homepage_components import render_strategy_homepage
 from collections import defaultdict
 from report_ui_components import *
 import streamlit as st
@@ -18,14 +19,9 @@ def load_strategy_feed():
 
     with open(STRATEGY_FEED_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
-strategy_feed = load_strategy_feed()
 
-if not strategy_feed:
-    st.warning("No strategy feed found. Run python career_strategy_engine.py or python run_full_mochi_pipeline.py.")
-else:
-    render_strategy_homepage(strategy_feed)
 
-from strategy_homepage_components import render_strategy_homepage
+
 from report_ui_components import render_pretty_report
 st.set_page_config(page_title="Mochi's Atelier", layout="wide")
 
@@ -596,6 +592,11 @@ tabs = st.tabs(["Mochi Atelier", "Mousehole", "Observatory", "Archive"])
 
 with tabs[0]:
     render_strategy_homepage()
+
+    if not strategy_feed:
+        st.warning("No strategy feed found. Run python career_strategy_engine.py or python run_full_mochi_pipeline.py.")
+    else:
+        render_strategy_homepage(strategy_feed)
 
     selected_title = st.session_state.get("selected_title")
     if selected_title:
