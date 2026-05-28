@@ -5,7 +5,7 @@ from pathlib import Path
 import base64
 import streamlit as st
 
-STRATEGY_PATH = "memory/strategy_feed.json"
+STRATEGY_PATH = "Memory/strategy_feed.json"
 
 SECTION_COPY = {
     "featured": ("Best First Moves", "Strongest current options, balancing fit, confidence, and practical next steps.", "✦"),
