@@ -1,8 +1,8 @@
 # The Container
 
 ## 1. Quick Judgment
-**Fit score:** 4.8/10  
-**Fit band:** Possible, but not urgent  
+**Fit score:** 7.2/10  
+**Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  
@@ -45,4 +45,4 @@ Skip unless you find concrete evidence of their exhibition model and artist sele
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-05-27_
+_Last generated: 2026-05-28_

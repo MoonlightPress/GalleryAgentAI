@@ -1,8 +1,8 @@
 # POST
 
 ## 1. Quick Judgment
-**Fit score:** 7.8/10  
-**Fit band:** Strong fit  
+**Fit score:** 10/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Print / Zines / Bookstores  
 **City:** Tokyo  
@@ -45,4 +45,4 @@ Visit website to study recent exhibitions and identify contact person; prepare 3
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-05-27_
+_Last generated: 2026-05-28_

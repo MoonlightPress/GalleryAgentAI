@@ -3,9 +3,11 @@ import base64
 import json
 import os
 from collections import defaultdict
-
+from report_ui_components import *
 import streamlit as st
 
+from strategy_homepage_components import render_strategy_homepage
+from report_ui_components import render_pretty_report
 st.set_page_config(page_title="Mochi's Atelier", layout="wide")
 
 
@@ -439,6 +441,7 @@ def render_compact_card(opp, key_prefix):
 
 
 def render_detail(opp):
+    render_pretty_report(opp)
     mode = st.session_state.get("selected_mode", "details")
 
     st.markdown('<div class="detail-panel">', unsafe_allow_html=True)
@@ -573,34 +576,13 @@ if not opps:
 tabs = st.tabs(["Mochi Atelier", "Mousehole", "Observatory", "Archive"])
 
 with tabs[0]:
-    st.subheader("Today's Suggestions")
-
-    top = sorted(opps, key=lambda x: -score_num(x.get("overall_score")))[:6]
-    cols = st.columns(3)
-    for idx, opp in enumerate(top):
-        with cols[idx % 3]:
-            render_compact_card(opp, f"top_{idx}_{get_title(opp)}")
+    render_strategy_homepage()
 
     selected_title = st.session_state.get("selected_title")
     if selected_title:
         selected = next((o for o in opps if get_title(o) == selected_title), None)
         if selected:
             render_detail(selected)
-
-    st.markdown("---")
-    st.subheader("Browse by Type")
-
-    groups = defaultdict(list)
-    for opp in opps:
-        groups[category_label(opp.get("category"))].append(opp)
-
-    for category in sorted(groups.keys()):
-        with st.expander(f"{category} · {len(groups[category])}", expanded=True):
-            sorted_items = sorted(groups[category], key=lambda x: -score_num(x.get("overall_score")))
-            cols = st.columns(3)
-            for idx, opp in enumerate(sorted_items[:9]):
-                with cols[idx % 3]:
-                    render_compact_card(opp, f"{category}_{idx}_{get_title(opp)}")
 
 with tabs[1]:
     st.header("Mousehole")

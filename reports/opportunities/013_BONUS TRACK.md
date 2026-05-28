@@ -1,8 +1,8 @@
 # BONUS TRACK
 
 ## 1. Quick Judgment
-**Fit score:** 5.8/10  
-**Fit band:** Promising  
+**Fit score:** 8.2/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Shimokitazawa  
@@ -45,4 +45,4 @@ Bookmark for in-person exploration if visiting Tokyo; not worth pursuing remotel
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-05-27_
+_Last generated: 2026-05-28_

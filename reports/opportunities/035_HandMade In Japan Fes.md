@@ -1,8 +1,8 @@
 # HandMade In Japan Fes
 
 ## 1. Quick Judgment
-**Fit score:** 3.8/10  
-**Fit band:** Low priority  
+**Fit score:** 6.2/10  
+**Fit band:** Promising  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Tokyo  
@@ -45,4 +45,4 @@ Skip this one entirely.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-05-27_
+_Last generated: 2026-05-28_

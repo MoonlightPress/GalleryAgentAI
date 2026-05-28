@@ -1,8 +1,8 @@
 # Tokyo Arts and Space
 
 ## 1. Quick Judgment
-**Fit score:** 6.8/10  
-**Fit band:** Promising  
+**Fit score:** 9.2/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Institutional / Grants  
 **City:** Tokyo  
@@ -45,4 +45,4 @@ Bookmark for systematic research later—not urgent without active deadline
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-05-27_
+_Last generated: 2026-05-28_
