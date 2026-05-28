@@ -7,20 +7,23 @@ from report_ui_components import *
 import streamlit as st
 
 from pathlib import Path
-import streamlit as st
+import json
 
-BASE_DIR = Path(__file__).resolve().parent
+APP_DIR = Path(__file__).resolve().parent
+STRATEGY_FEED_PATH = APP_DIR / "Memory" / "strategy_feed.json"
 
-st.write("DEBUG cwd:", Path.cwd())
-st.write("DEBUG app dir:", BASE_DIR)
-st.write("DEBUG root files:", [p.name for p in BASE_DIR.iterdir()])
-st.write("DEBUG Memory exists:", (BASE_DIR / "Memory").exists())
+def load_strategy_feed():
+    if not STRATEGY_FEED_PATH.exists():
+        return []
 
-if (BASE_DIR / "Memory").exists():
-    st.write("DEBUG Memory files:", [p.name for p in (BASE_DIR / "Memory").iterdir()])
+    with open(STRATEGY_FEED_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+strategy_feed = load_strategy_feed()
 
-st.write("DEBUG strategy_feed exists:", (BASE_DIR / "Memory" / "strategy_feed.json").exists())
-
+if not strategy_feed:
+    st.warning("No strategy feed found. Run python career_strategy_engine.py or python run_full_mochi_pipeline.py.")
+else:
+    render_strategy_homepage(strategy_feed)
 
 from strategy_homepage_components import render_strategy_homepage
 from report_ui_components import render_pretty_report
