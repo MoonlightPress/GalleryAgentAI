@@ -229,6 +229,24 @@ Thank you,
 st.markdown(
     """
 <style>
+
+div[data-testid="stHeader"] {
+    background: #0e1117 !important;
+}
+
+header[data-testid="stHeader"] {
+    background: #0e1117 !important;
+}
+
+.stAppHeader {
+    background: #0e1117 !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.stMarkdown h1, .stMarkdown h2, .stMarkdown h3 {
+    color: #3f3027 !important;
+}
+
 :root {
     --paper: #f7efe2;
     --paper-soft: #fffaf2;
@@ -584,20 +602,17 @@ opps = load_json(
 
 render_hero()
 
-if not opps:
-    st.error("No opportunity data found. Expected deploy_data/compact_opportunities.json.")
-    st.stop()
+selected_title = st.session_state.get("selected_title")
+if selected_title:
+    selected = next((o for o in opps if get_title(o) == selected_title), None)
+    if selected:
+        render_detail(selected)
 
 tabs = st.tabs(["Mochi Atelier", "Mousehole", "Observatory", "Archive"])
 
 with tabs[0]:
     render_strategy_homepage()
 
-    selected_title = st.session_state.get("selected_title")
-    if selected_title:
-        selected = next((o for o in opps if get_title(o) == selected_title), None)
-        if selected:
-            render_detail(selected)
 with tabs[1]:
     st.header("Mousehole")
     st.write("Career pathways and task progress will go here next.")
