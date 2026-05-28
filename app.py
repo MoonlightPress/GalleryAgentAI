@@ -593,17 +593,11 @@ tabs = st.tabs(["Mochi Atelier", "Mousehole", "Observatory", "Archive"])
 with tabs[0]:
     render_strategy_homepage()
 
-    if not strategy_feed:
-        st.warning("No strategy feed found. Run python career_strategy_engine.py or python run_full_mochi_pipeline.py.")
-    else:
-        render_strategy_homepage(strategy_feed)
-
     selected_title = st.session_state.get("selected_title")
     if selected_title:
         selected = next((o for o in opps if get_title(o) == selected_title), None)
         if selected:
             render_detail(selected)
-
 with tabs[1]:
     st.header("Mousehole")
     st.write("Career pathways and task progress will go here next.")
