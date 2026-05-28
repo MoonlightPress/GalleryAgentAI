@@ -6,6 +6,22 @@ from collections import defaultdict
 from report_ui_components import *
 import streamlit as st
 
+from pathlib import Path
+import streamlit as st
+
+BASE_DIR = Path(__file__).resolve().parent
+
+st.write("DEBUG cwd:", Path.cwd())
+st.write("DEBUG app dir:", BASE_DIR)
+st.write("DEBUG root files:", [p.name for p in BASE_DIR.iterdir()])
+st.write("DEBUG Memory exists:", (BASE_DIR / "Memory").exists())
+
+if (BASE_DIR / "Memory").exists():
+    st.write("DEBUG Memory files:", [p.name for p in (BASE_DIR / "Memory").iterdir()])
+
+st.write("DEBUG strategy_feed exists:", (BASE_DIR / "Memory" / "strategy_feed.json").exists())
+
+
 from strategy_homepage_components import render_strategy_homepage
 from report_ui_components import render_pretty_report
 st.set_page_config(page_title="Mochi's Atelier", layout="wide")
