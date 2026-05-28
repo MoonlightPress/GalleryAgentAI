@@ -1,0 +1,35 @@
+{
+  "venue_name": "Design Festa",
+  "venue_slug": "design_festa",
+  "venue_type": "market / popup / booth",
+  "city": "Tokyo",
+  "country": "",
+  "website": "https://designfesta.com/",
+  "source_links": [
+    "https://designfesta.com/"
+  ],
+  "categories_seen": [
+    "Markets / Popups / Booths"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact"
+  ],
+  "opportunity_titles": [
+    "Design Festa"
+  ],
+  "last_researched": "",
+  "created_at": "2026-05-28",
+  "updated_at": "2026-05-28"
+}

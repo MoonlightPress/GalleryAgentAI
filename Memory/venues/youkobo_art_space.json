@@ -1,0 +1,35 @@
+{
+  "venue_name": "Youkobo Art Space",
+  "venue_slug": "youkobo_art_space",
+  "venue_type": "residency",
+  "city": "Tokyo",
+  "country": "",
+  "website": "https://www.youkobo.co.jp/en/",
+  "source_links": [
+    "https://www.youkobo.co.jp/en/"
+  ],
+  "categories_seen": [
+    "Residencies / Longer Projects"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact"
+  ],
+  "opportunity_titles": [
+    "Youkobo Art Space"
+  ],
+  "last_researched": "",
+  "created_at": "2026-05-28",
+  "updated_at": "2026-05-28"
+}

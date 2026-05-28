@@ -1,0 +1,50 @@
+{
+  "core_app_files": ["app.py", "requirements.txt", ".streamlit/config.toml"],
+  "core_data_files": [
+    "deploy_data/compact_opportunities.json",
+    "memory/artist_master_profile.json",
+    "memory/opportunity_status.json",
+    "memory/action_queue.json",
+    "memory/research_queue.json"
+  ],
+  "core_engine_files": [
+    "opportunity_report_engine.py",
+    "opportunity_enrichment_pipeline.py",
+    "venue_intelligence_builder.py",
+    "research_queue_report.py",
+    "inquiry_draft_generator.py",
+    "opportunity_status_engine.py",
+    "run_full_mochi_pipeline.py"
+  ],
+  "core_ui_files": ["mochi_dashboard_components.py", "mochi_action_components.py"],
+  "asset_folders": [
+    "static/assets/headers",
+    "static/assets/cards",
+    "static/assets/backgrounds",
+    "static/assets/textures"
+  ],
+  "generated_folders": [
+    "reports/opportunities",
+    "reports/inquiry_drafts",
+    "memory/venues",
+    "memory/generated_analysis"
+  ],
+  "archive_folder": "_archive",
+  "known_junk_patterns": [
+    "patch_*.py",
+    "*Version*.py",
+    "appVersion*.py",
+    "stable_atelier_portal.py",
+    "atelier_portal.py",
+    "mochi_deploy_app.py",
+    "*.zip",
+    "A.zip",
+    ".zip",
+    "*.psd"
+  ],
+  "do_not_delete": [
+    "app.py",
+    "deploy_data/compact_opportunities.json",
+    "static/assets/headers/mochi_hero.png"
+  ]
+}
