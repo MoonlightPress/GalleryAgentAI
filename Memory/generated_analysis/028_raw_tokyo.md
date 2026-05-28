@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-05-28
 # RAW TOKYO
 
 ## 1. Quick Judgment
-**Fit score:** 6.7/10  
-**Fit band:** Promising  
+**Fit score:** 7.9/10  
+**Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Tokyo  

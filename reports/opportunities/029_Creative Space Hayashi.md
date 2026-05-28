@@ -1,8 +1,8 @@
 # Creative Space Hayashi
 
 ## 1. Quick Judgment
-**Fit score:** 6.7/10  
-**Fit band:** Promising  
+**Fit score:** 7.9/10  
+**Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Yokohama  

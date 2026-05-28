@@ -1,7 +1,7 @@
 # BONUS TRACK
 
 ## 1. Quick Judgment
-**Fit score:** 8.2/10  
+**Fit score:** 9.4/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  

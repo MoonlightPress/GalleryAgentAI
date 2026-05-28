@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-05-28
 # NADiff a/p/a/r/t
 
 ## 1. Quick Judgment
-**Fit score:** 7.2/10  
-**Fit band:** Strong fit  
+**Fit score:** 8.4/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Print / Zines / Bookstores  
 **City:** Tokyo  

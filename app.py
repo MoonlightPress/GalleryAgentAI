@@ -6,7 +6,7 @@ from strategy_homepage_components import render_strategy_homepage
 from collections import defaultdict
 from report_ui_components import *
 import streamlit as st
-
+from relationship_ui_components import *
 from pathlib import Path
 import json
 
@@ -599,14 +599,37 @@ opps = load_json(
     "deploy_data/compact_opportunities.json",
     load_json("memory/compact_opportunities.json", []),
 )
-
+relationship_memory = load_json(
+    "memory/relationship_memory.json",
+    {}
+)
 render_hero()
 
 selected_title = st.session_state.get("selected_title")
+
 if selected_title:
-    selected = next((o for o in opps if get_title(o) == selected_title), None)
+
+    selected = next(
+        (
+            o for o in opps
+            if get_title(o) == selected_title
+        ),
+        None,
+    )
+
     if selected:
+
+        memory = relationship_memory.get(
+            get_title(selected),
+            {}
+        )
+
+        render_relationship_bar(memory)
+
         render_detail(selected)
+        
+
+
 
 tabs = st.tabs(["Mochi Atelier", "Mousehole", "Observatory", "Archive"])
 

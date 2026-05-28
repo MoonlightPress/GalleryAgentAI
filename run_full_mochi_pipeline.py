@@ -13,6 +13,9 @@ PIPELINE = [
     "inquiry_draft_generator.py",
     "career_strategy_engine.py",
     "opportunity_status_engine.py",
+    "relationship_memory_engine.py",
+    "institution_profile_builder.py",
+"momentum_scoring_engine.py",
 ]
 
 

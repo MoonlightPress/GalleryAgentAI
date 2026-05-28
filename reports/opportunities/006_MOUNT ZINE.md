@@ -1,7 +1,7 @@
 # MOUNT ZINE
 
 ## 1. Quick Judgment
-**Fit score:** 9.7/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Print / Zines / Bookstores  

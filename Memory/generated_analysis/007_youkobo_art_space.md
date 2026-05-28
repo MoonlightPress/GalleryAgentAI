@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-05-28
 # Youkobo Art Space
 
 ## 1. Quick Judgment
-**Fit score:** 9.2/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  

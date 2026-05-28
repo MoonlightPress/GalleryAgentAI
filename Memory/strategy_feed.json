@@ -13,7 +13,7 @@
     {
       "title": "BankART1929",
       "bucket": "easy_win",
-      "score": 9.6,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Artist Spaces",
@@ -23,7 +23,7 @@
     {
       "title": "Book and Sons",
       "bucket": "easy_win",
-      "score": 9.6,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -33,7 +33,7 @@
     {
       "title": "Koganecho Area Management Center",
       "bucket": "easy_win",
-      "score": 9.6,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Artist Spaces",
@@ -43,7 +43,7 @@
     {
       "title": "POST",
       "bucket": "easy_win",
-      "score": 9.6,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -53,7 +53,7 @@
     {
       "title": "AIR 3331",
       "bucket": "easy_win",
-      "score": 9.1,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Residencies / Longer Projects",
@@ -63,7 +63,7 @@
     {
       "title": "MOUNT ZINE",
       "bucket": "easy_win",
-      "score": 9.1,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -73,7 +73,7 @@
     {
       "title": "Youkobo Art Space",
       "bucket": "easy_win",
-      "score": 8.6,
+      "score": 9.8,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Residencies / Longer Projects",
@@ -83,7 +83,7 @@
     {
       "title": "flotsam books",
       "bucket": "easy_win",
-      "score": 8.6,
+      "score": 9.8,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -93,7 +93,7 @@
     {
       "title": "Tokyo Arts and Space",
       "bucket": "easy_win",
-      "score": 8.6,
+      "score": 9.8,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Institutional / Grants",
@@ -102,20 +102,20 @@
     },
     {
       "title": "Design Festa",
-      "bucket": "community_builder",
-      "score": 7.6,
+      "bucket": "easy_win",
+      "score": 8.8,
       "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
+      "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
       "city": "Tokyo",
       "image": ""
     },
     {
       "title": "TOKYO ART BOOK FAIR",
-      "bucket": "community_builder",
-      "score": 7.6,
+      "bucket": "easy_win",
+      "score": 8.8,
       "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
+      "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
       "city": "Tokyo",
       "image": ""
@@ -135,7 +135,7 @@
     {
       "title": "BankART1929",
       "bucket": "easy_win",
-      "score": 9.6,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Artist Spaces",
@@ -145,7 +145,7 @@
     {
       "title": "Book and Sons",
       "bucket": "easy_win",
-      "score": 9.6,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -155,7 +155,7 @@
     {
       "title": "Koganecho Area Management Center",
       "bucket": "easy_win",
-      "score": 9.6,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Artist Spaces",
@@ -165,7 +165,7 @@
     {
       "title": "POST",
       "bucket": "easy_win",
-      "score": 9.6,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -175,7 +175,7 @@
     {
       "title": "AIR 3331",
       "bucket": "easy_win",
-      "score": 9.1,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Residencies / Longer Projects",
@@ -185,7 +185,7 @@
     {
       "title": "MOUNT ZINE",
       "bucket": "easy_win",
-      "score": 9.1,
+      "score": 10,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -195,7 +195,7 @@
     {
       "title": "Youkobo Art Space",
       "bucket": "easy_win",
-      "score": 8.6,
+      "score": 9.8,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Residencies / Longer Projects",
@@ -205,7 +205,7 @@
     {
       "title": "flotsam books",
       "bucket": "easy_win",
-      "score": 8.6,
+      "score": 9.8,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -215,10 +215,30 @@
     {
       "title": "Tokyo Arts and Space",
       "bucket": "easy_win",
-      "score": 8.6,
+      "score": 9.8,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Institutional / Grants",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Design Festa",
+      "bucket": "easy_win",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "TOKYO ART BOOK FAIR",
+      "bucket": "easy_win",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
       "city": "Tokyo",
       "image": ""
     }
@@ -228,7 +248,7 @@
     {
       "title": "NADiff a/p/a/r/t",
       "bucket": "portfolio_builder",
-      "score": 6.6,
+      "score": 7.8,
       "confidence": "High",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -238,39 +258,9 @@
   ],
   "community_builders": [
     {
-      "title": "Design Festa",
-      "bucket": "community_builder",
-      "score": 7.6,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "TOKYO ART BOOK FAIR",
-      "bucket": "community_builder",
-      "score": 7.6,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "BONUS TRACK",
-      "bucket": "community_builder",
-      "score": 7.6,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Shimokitazawa",
-      "image": ""
-    },
-    {
       "title": "Cafe Cross Point",
       "bucket": "community_builder",
-      "score": 6.6,
+      "score": 7.8,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -280,7 +270,7 @@
     {
       "title": "Aoyama Farmers Market",
       "bucket": "community_builder",
-      "score": 6.6,
+      "score": 7.8,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -290,7 +280,7 @@
     {
       "title": "MADO Café",
       "bucket": "community_builder",
-      "score": 6.6,
+      "score": 7.8,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -300,7 +290,7 @@
     {
       "title": "Comitia",
       "bucket": "community_builder",
-      "score": 6.6,
+      "score": 7.8,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -310,7 +300,7 @@
     {
       "title": "RAW TOKYO",
       "bucket": "community_builder",
-      "score": 6.1,
+      "score": 7.3,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -320,7 +310,7 @@
     {
       "title": "Cafe Gallery HATTIFNATT",
       "bucket": "community_builder",
-      "score": 5.6,
+      "score": 6.8,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -330,7 +320,7 @@
     {
       "title": "Cafe Mame-Hico",
       "bucket": "community_builder",
-      "score": 5.6,
+      "score": 6.8,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -340,7 +330,7 @@
     {
       "title": "HandMade In Japan Fes",
       "bucket": "community_builder",
-      "score": 5.6,
+      "score": 6.8,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -350,11 +340,21 @@
     {
       "title": "Yonchome Cafe",
       "bucket": "community_builder",
-      "score": 5.6,
+      "score": 6.8,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
       "city": "Koenji",
+      "image": ""
+    },
+    {
+      "title": "reload Shimokitazawa",
+      "bucket": "community_builder",
+      "score": 6.8,
+      "confidence": "High",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Shimokitazawa",
       "image": ""
     }
   ]
