@@ -6,7 +6,7 @@ from strategy_homepage_components import render_strategy_homepage
 from collections import defaultdict
 from report_ui_components import *
 import streamlit as st
-from portfolio_match_ui_components import render_portfolio_match_panel
+from components.portfolio_match_ui_components import render_portfolio_match_panel
 from feedback_ui_components import render_feedback_learning_panel
 from relationship_ui_components import *
 from visual_card_system import *
