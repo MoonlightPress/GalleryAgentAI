@@ -1,115 +1,5 @@
 [
   {
-    "venue_name": "UTRECHT",
-    "venue_slug": "utrecht",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://utrecht.jp/"
-  },
-  {
-    "venue_name": "BankART1929",
-    "venue_slug": "bankart1929",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://bankart1929.com/"
-  },
-  {
-    "venue_name": "Book and Sons",
-    "venue_slug": "book_and_sons",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://bookandsons.com/"
-  },
-  {
-    "venue_name": "Koganecho",
-    "venue_slug": "koganecho",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://koganecho.net/"
-  },
-  {
-    "venue_name": "POST",
-    "venue_slug": "post",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://post-books.info/"
-  },
-  {
-    "venue_name": "3331 Arts Chiyoda",
-    "venue_slug": "3331_arts_chiyoda",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://residence.3331.jp/"
-  },
-  {
-    "venue_name": "MOUNT ZINE",
-    "venue_slug": "mount_zine",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://zine.mount.co.jp/"
-  },
-  {
-    "venue_name": "Youkobo Art Space",
-    "venue_slug": "youkobo_art_space",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.youkobo.co.jp/en/"
-  },
-  {
-    "venue_name": "flotsam books",
-    "venue_slug": "flotsam_books",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.flotsambooks.com/"
-  },
-  {
-    "venue_name": "Tokyo Arts and Space",
-    "venue_slug": "tokyo_arts_and_space",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.tokyoartsandspace.jp/en/"
-  },
-  {
-    "venue_name": "Design Festa",
-    "venue_slug": "design_festa",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://designfesta.com/"
-  },
-  {
     "venue_name": "TOKYO ART BOOK FAIR",
     "venue_slug": "tokyo_art_book_fair",
     "priority": "medium",
@@ -120,34 +10,14 @@
     "source": "https://tokyoartbookfair.com/"
   },
   {
-    "venue_name": "BONUS TRACK",
-    "venue_slug": "bonus_track",
+    "venue_name": "UTRECHT",
+    "venue_slug": "utrecht",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://bonus-track.net/"
-  },
-  {
-    "venue_name": "Picaresque Gallery",
-    "venue_slug": "picaresque_gallery",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://picaresquejpn.com/"
-  },
-  {
-    "venue_name": "Arts Initiative Tokyo",
-    "venue_slug": "arts_initiative_tokyo",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.a-i-t.net/en/"
+    "source": "https://utrecht.jp/"
   },
   {
     "venue_name": "Bookstore B&B",
@@ -160,44 +30,24 @@
     "source": "https://bookandbeer.com/"
   },
   {
-    "venue_name": "Cafe Cross Point",
-    "venue_slug": "cafe_cross_point",
+    "venue_name": "MOUNT ZINE",
+    "venue_slug": "mount_zine",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://cafecrosspoint.jp/"
+    "source": "https://zine.mount.co.jp/"
   },
   {
-    "venue_name": "Farmer's Market @ UNU",
-    "venue_slug": "farmer_s_market_unu",
+    "venue_name": "flotsam books",
+    "venue_slug": "flotsam_books",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://farmersmarkets.jp/"
-  },
-  {
-    "venue_name": "MADO Café",
-    "venue_slug": "mado_caf",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.instagram.com/madocafe/"
-  },
-  {
-    "venue_name": "NADiff",
-    "venue_slug": "nadiff",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.nadiff.com/"
+    "source": "https://www.flotsambooks.com/"
   },
   {
     "venue_name": "COMITIA",
@@ -210,14 +60,184 @@
     "source": "https://www.comitia.co.jp/"
   },
   {
-    "venue_name": "The Container",
-    "venue_slug": "the_container",
+    "venue_name": "Book and Sons",
+    "venue_slug": "book_and_sons",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.the-container.com/"
+    "source": "https://bookandsons.com/"
+  },
+  {
+    "venue_name": "3331 Arts Chiyoda",
+    "venue_slug": "3331_arts_chiyoda",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://residence.3331.jp/"
+  },
+  {
+    "venue_name": "reload",
+    "venue_slug": "reload",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://reload-shimokita.com/"
+  },
+  {
+    "venue_name": "BankART1929",
+    "venue_slug": "bankart1929",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://bankart1929.com/"
+  },
+  {
+    "venue_name": "Youkobo Art Space",
+    "venue_slug": "youkobo_art_space",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.youkobo.co.jp/en/"
+  },
+  {
+    "venue_name": "Tokyo Arts and Space",
+    "venue_slug": "tokyo_arts_and_space",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
+  },
+  {
+    "venue_name": "Arts Initiative Tokyo",
+    "venue_slug": "arts_initiative_tokyo",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.a-i-t.net/en/"
+  },
+  {
+    "venue_name": "BONUS TRACK",
+    "venue_slug": "bonus_track",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://bonus-track.net/"
+  },
+  {
+    "venue_name": "Design Festa",
+    "venue_slug": "design_festa",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://designfesta.com/"
+  },
+  {
+    "venue_name": "Farmer's Market @ UNU",
+    "venue_slug": "farmer_s_market_unu",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://farmersmarkets.jp/"
+  },
+  {
+    "venue_name": "Cafe Cross Point",
+    "venue_slug": "cafe_cross_point",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://cafecrosspoint.jp/"
+  },
+  {
+    "venue_name": "MADO Café",
+    "venue_slug": "mado_caf",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.instagram.com/madocafe/"
+  },
+  {
+    "venue_name": "HATTIFNATT",
+    "venue_slug": "hattifnatt",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.hattifnatt.jp/"
+  },
+  {
+    "venue_name": "Cafe Mame-Hico",
+    "venue_slug": "cafe_mame_hico",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.mamehico.com/"
+  },
+  {
+    "venue_name": "Yonchome Cafe",
+    "venue_slug": "yonchome_cafe",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.yonchome.com/"
+  },
+  {
+    "venue_name": "Koganecho",
+    "venue_slug": "koganecho",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://koganecho.net/"
+  },
+  {
+    "venue_name": "Design Festa Gallery",
+    "venue_slug": "design_festa_gallery",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://designfestagallery.com/"
+  },
+  {
+    "venue_name": "SCAI The Bathhouse",
+    "venue_slug": "scai_the_bathhouse",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.scaithebathhouse.com/"
   },
   {
     "venue_name": "Gallery IRO",
@@ -250,56 +270,6 @@
     "source": "https://tavgallery.com/"
   },
   {
-    "venue_name": "Spiral",
-    "venue_slug": "spiral",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.spiral.co.jp/"
-  },
-  {
-    "venue_name": "RAW TOKYO",
-    "venue_slug": "raw_tokyo",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://rawtokyo.jp/"
-  },
-  {
-    "venue_name": "Creative Space Hayashi",
-    "venue_slug": "creative_space_hayashi",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://csh.yokohama/"
-  },
-  {
-    "venue_name": "SCAI The Bathhouse",
-    "venue_slug": "scai_the_bathhouse",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.scaithebathhouse.com/"
-  },
-  {
-    "venue_name": "HATTIFNATT",
-    "venue_slug": "hattifnatt",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.hattifnatt.jp/"
-  },
-  {
     "venue_name": "VACANT",
     "venue_slug": "vacant",
     "priority": "medium",
@@ -308,36 +278,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.vacant.vc/"
-  },
-  {
-    "venue_name": "Cafe Mame-Hico",
-    "venue_slug": "cafe_mame_hico",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.mamehico.com/"
-  },
-  {
-    "venue_name": "Design Festa Gallery",
-    "venue_slug": "design_festa_gallery",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://designfestagallery.com/"
-  },
-  {
-    "venue_name": "Creema",
-    "venue_slug": "creema",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://hmj-fes.jp/"
   },
   {
     "venue_name": "Gallery Conceal Shibuya",
@@ -350,26 +290,6 @@
     "source": "https://galleryconceal.wixsite.com/gconceal"
   },
   {
-    "venue_name": "Yonchome Cafe",
-    "venue_slug": "yonchome_cafe",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.yonchome.com/"
-  },
-  {
-    "venue_name": "reload",
-    "venue_slug": "reload",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://reload-shimokita.com/"
-  },
-  {
     "venue_name": "Zushi Art Gallery",
     "venue_slug": "zushi_art_gallery",
     "priority": "medium",
@@ -378,5 +298,215 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://zushi-art.com/"
+  },
+  {
+    "venue_name": "Creema",
+    "venue_slug": "creema",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://hmj-fes.jp/"
+  },
+  {
+    "venue_name": "Creative Space Hayashi",
+    "venue_slug": "creative_space_hayashi",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://csh.yokohama/"
+  },
+  {
+    "venue_name": "The Container",
+    "venue_slug": "the_container",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.the-container.com/"
+  },
+  {
+    "venue_name": "Der Greif",
+    "venue_slug": "der_greif",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://dergreif.org/open-call"
+  },
+  {
+    "venue_name": "NADiff",
+    "venue_slug": "nadiff",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.nadiff.com/"
+  },
+  {
+    "venue_name": "POST",
+    "venue_slug": "post",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://post-books.info/"
+  },
+  {
+    "venue_name": "RAW TOKYO",
+    "venue_slug": "raw_tokyo",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://rawtokyo.jp/"
+  },
+  {
+    "venue_name": "Photobook Cafe",
+    "venue_slug": "photobook_cafe",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.photobookcafe.co.uk/"
+  },
+  {
+    "venue_name": "Offprint",
+    "venue_slug": "offprint",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://offprint.org/"
+  },
+  {
+    "venue_name": "Aperture",
+    "venue_slug": "aperture",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://aperture.org/"
+  },
+  {
+    "venue_name": "Center for Book Arts",
+    "venue_slug": "center_for_book_arts",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://centerforbookarts.org/"
+  },
+  {
+    "venue_name": "The Photographers' Gallery",
+    "venue_slug": "the_photographers_gallery",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://thephotographersgallery.org.uk/"
+  },
+  {
+    "venue_name": "LensCulture",
+    "venue_slug": "lensculture",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.lensculture.com/"
+  },
+  {
+    "venue_name": "PhotoVogue",
+    "venue_slug": "photovogue",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.vogue.com/photovogue"
+  },
+  {
+    "venue_name": "Self Publish, Be Happy",
+    "venue_slug": "self_publish_be_happy",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://selfpublishbehappy.com/"
+  },
+  {
+    "venue_name": "Printed Matter",
+    "venue_slug": "printed_matter",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.printedmatter.org/"
+  },
+  {
+    "venue_name": "Picaresque Gallery",
+    "venue_slug": "picaresque_gallery",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://picaresquejpn.com/"
+  },
+  {
+    "venue_name": "Spiral",
+    "venue_slug": "spiral",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.spiral.co.jp/"
   }
 ]

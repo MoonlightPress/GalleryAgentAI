@@ -1,0 +1,22 @@
+# Application Link Repair Report
+
+- TOKYO ART BOOK FAIR: 1
+- Self Publish, Be Happy: 0
+- Home - Printed Matter: 0
+- Jackson's Art Prize: 1
+- Royal Institute of Painters in Water Colours: 1
+- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026: 0
+- HB Gallery: 0
+- OPA Gallery: 0
+- Pinpoint Gallery: 1
+- Royal Watercolour Society: 0
+- Mall Galleries Open Exhibitions: 1
+- Society of Women Artists: 0
+- Pastel Society Open Exhibition: 1
+- UTRECHT: 0
+- MOUNT ZINE: 0
+- Book and Sons: 0
+- Offprint: 0
+- POST: 0
+- Printed Matter Art Book Fairs: 0
+- Browse Printed Matter Editions: 0

@@ -6,7 +6,11 @@ from strategy_homepage_components import render_strategy_homepage
 from collections import defaultdict
 from report_ui_components import *
 import streamlit as st
+from portfolio_match_ui_components import render_portfolio_match_panel
+from feedback_ui_components import render_feedback_learning_panel
 from relationship_ui_components import *
+from visual_card_system import *
+from report_layout_upgrade import *
 from pathlib import Path
 import json
 
@@ -23,6 +27,14 @@ def load_strategy_feed():
 
 
 from report_ui_components import render_pretty_report
+
+with open("styles/generated_visual_upgrade.css", "r", encoding="utf-8") as f:
+    st.markdown(
+        f"<style>{f.read()}</style>",
+        unsafe_allow_html=True,
+    )
+
+
 st.set_page_config(page_title="Mochi's Atelier", layout="wide")
 
 
@@ -631,19 +643,26 @@ if selected_title:
 
 
 
-tabs = st.tabs(["Mochi Atelier", "Mousehole", "Observatory", "Archive"])
+tabs = st.tabs(["Mochi Atelier", "Feedback", "Mousehole", "Observatory", "Archive"])
 
 with tabs[0]:
     render_strategy_homepage()
 
 with tabs[1]:
+    render_feedback_learning_panel()
+
+with tabs[2]:
     st.header("Mousehole")
     st.write("Career pathways and task progress will go here next.")
 
-with tabs[2]:
+with tabs[3]:
     st.header("Observatory")
     st.write("Reports, market positioning, and long-form analysis will go here next.")
 
-with tabs[3]:
+with tabs[4]:
     st.header("Archive")
     st.write(f"Loaded {len(opps)} opportunities.")
+
+
+st.markdown("---")
+render_portfolio_match_panel()

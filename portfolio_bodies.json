@@ -1,0 +1,98 @@
+
+{
+  "bodies_of_work": [
+    {
+      "id": "architecture_memory",
+      "title": "Architecture / Memory / Place",
+      "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+      "keywords": [
+        "architecture",
+        "memory",
+        "place",
+        "urban",
+        "interior",
+        "quiet",
+        "stillness",
+        "atmospheric",
+        "documentary",
+        "daily life"
+      ],
+      "best_formats": [
+        "photobook",
+        "zine",
+        "small gallery",
+        "artist statement",
+        "publication"
+      ]
+    },
+    {
+      "id": "daily_poetic_photography",
+      "title": "Daily Poetic Photography",
+      "description": "A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.",
+      "keywords": [
+        "daily",
+        "poetic",
+        "quiet",
+        "light",
+        "domestic",
+        "observation",
+        "atmospheric",
+        "intimate",
+        "visual diary"
+      ],
+      "best_formats": [
+        "online feature",
+        "zine",
+        "small publication",
+        "photobook",
+        "artist-run space"
+      ]
+    },
+    {
+      "id": "artist_book_printed_matter",
+      "title": "Artist Book / Printed Matter",
+      "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+      "keywords": [
+        "artist book",
+        "photobook",
+        "zine",
+        "printed matter",
+        "publication",
+        "small press",
+        "book fair",
+        "edition",
+        "paper"
+      ],
+      "best_formats": [
+        "book fair",
+        "zine fair",
+        "bookstore",
+        "small press",
+        "publication"
+      ]
+    },
+    {
+      "id": "community_local_visibility",
+      "title": "Community / Local Visibility",
+      "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+      "keywords": [
+        "community",
+        "cafe",
+        "local",
+        "wall",
+        "market",
+        "popup",
+        "artist-run",
+        "friendly",
+        "accessible"
+      ],
+      "best_formats": [
+        "cafe wall",
+        "market",
+        "popup",
+        "group show",
+        "local event"
+      ]
+    }
+  ]
+}

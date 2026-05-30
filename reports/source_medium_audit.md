@@ -1,0 +1,125 @@
+# Source Medium Audit
+
+## Counts
+
+- mixed: 17
+- photography: 24
+- unknown: 33
+
+## Classified Opportunities
+
+- **TOKYO ART BOOK FAIR** — mixed
+  - hits: mixed: book fair, tokyo art book fair
+- **UTRECHT** — mixed
+  - hits: mixed: zine, bookstore, utrecht
+- **MOUNT ZINE** — mixed
+  - hits: mixed: zine, bookstore, mount zine
+- **Book and Sons** — mixed
+  - hits: mixed: zine, bookstore, book and sons
+- **Offprint** — mixed
+  - hits: mixed: book fair
+- **Self Publish, Be Happy** — mixed
+  - hits: photography: photo, photobook | mixed: self publish
+- **POST** — mixed
+  - hits: mixed: zine, bookstore, post
+- **Printed Matter Art Book Fairs** — mixed
+  - hits: mixed: zine, printed matter, book fair
+- **Home - Printed Matter** — mixed
+  - hits: photography: photography, photo, photobook | mixed: zine, printed matter, book fair
+- **Browse Printed Matter Editions** — mixed
+  - hits: mixed: zine, printed matter, bookstore
+- **Printed Matter, Inc.** — mixed
+  - hits: mixed: zine, printed matter, bookstore
+- **Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00** — mixed
+  - hits: mixed: zine, printed matter, bookstore
+- **Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026** — mixed
+  - hits: photography: photography, photo | mixed: printed matter
+- **See all exhibitions** — mixed
+  - hits: mixed: printed matter
+- **Photobook Cafe** — photography
+  - hits: photography: photo, photobook | mixed: bookstore
+- **Aperture | Photography** — photography
+  - hits: photography: photography, photo, photobook, aperture | mixed: zine
+- **The Photographers' Gallery** — photography
+  - hits: photography: photography, photographer, photographers, photo
+- **Aperture Portfolio Prize / Opportunities** — photography
+  - hits: photography: photography, photo, aperture
+- **www.futures-photography.com** — photography
+  - hits: photography: photography, photo, der greif
+- **PhotoVogue Open Calls** — photography
+  - hits: photography: photography, photo, photovogue
+- **DER GREIF** — photography
+  - hits: photography: photography, photo, photobook, der greif
+- **Der Greif Open Calls** — photography
+  - hits: photography: photography, photo, der greif
+- **AIR 3331** — unknown
+- **BankART1929** — unknown
+- **Tokyo Wonder Site / TOKAS Residency** — unknown
+- **Koganecho Area Management Center** — unknown
+- **3331 Arts Chiyoda** — unknown
+- **SCAI The Bathhouse** — unknown
+- **TAV Gallery** — unknown
+- **Center for Book Arts Opportunities** — unknown
+- **Yonchome Cafe** — unknown
+- **Aoyama Farmers Market** — unknown
+- **Creative Space Hayashi** — unknown
+- **B&B Shimokitazawa** — mixed
+  - hits: mixed: zine, bookstore
+- **flotsam books** — mixed
+  - hits: mixed: zine, bookstore, flotsam
+- **NADiff a/p/a/r/t** — mixed
+  - hits: mixed: zine, bookstore, nadiff
+- **Youkobo Art Space** — unknown
+- **DESIGN FESTA GALLERY** — unknown
+- **Gallery IRO** — unknown
+- **Gallery HANA Shimokitazawa** — unknown
+- **VACANT** — unknown
+- **Cafe Mame-Hico** — unknown
+- **AIT Residency** — unknown
+- **Cafe Cross Point** — unknown
+- **Zushi Art Gallery** — unknown
+- **Cafe Gallery HATTIFNATT** — unknown
+- **Tokyo Arts and Space** — unknown
+- **Gallery Conceal Shibuya** — unknown
+- **reload Shimokitazawa** — unknown
+- **The Container** — unknown
+- **HandMade In Japan Fes** — unknown
+- **BONUS TRACK** — unknown
+- **RAW TOKYO** — unknown
+- **Comitia** — unknown
+- **Design Festa** — unknown
+- **X** — photography
+  - hits: photography: photo, photovogue | mixed: zine, bookstore
+- **Spiral** — unknown
+- **Open Calls** — photography
+  - hits: photography: photo, der greif
+- **PhotoVogue** — photography
+  - hits: photography: photo, photovogue
+- **LensCulture - Contemporary Photography** — photography
+  - hits: photography: photography, photo, lensculture | mixed: zine, bookstore
+- **LensCulture Awards / Open Calls** — photography
+  - hits: photography: photography, photo, lensculture
+- **Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×** — photography
+  - hits: photography: photography, photo, street photography, lensculture
+- **Learn** — photography
+  - hits: photography: photography, photo, lensculture
+- **Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho** — photography
+  - hits: photography: photography, photo, street photography, lensculture
+- **Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c** — photography
+  - hits: photography: photography, photo, street photography, lensculture
+- **Picaresque Gallery** — unknown
+- **Pinterest** — photography
+  - hits: photography: photo, photovogue | mixed: zine, bookstore
+- **Instagram** — photography
+  - hits: photography: photo, photovogue | mixed: zine, bookstore
+- **Tiktok** — photography
+  - hits: photography: photo, photovogue | mixed: zine, bookstore
+- **Magazine Subscribers** — photography
+  - hits: photography: aperture | mixed: zine, bookstore
+- **Magazine Subscription** — photography
+  - hits: photography: aperture | mixed: zine, bookstore
+- **MADO Café** — unknown
+- **www.facebook.com** — photography
+  - hits: photography: photography, photo, der greif
+- **Continue Reading** — photography
+  - hits: photography: photography, photo, der greif

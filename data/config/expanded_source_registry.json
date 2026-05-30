@@ -1,0 +1,138 @@
+{
+  "source_groups": {
+    "photobook_publishers": [
+      {
+        "name": "MACK",
+        "url": "https://mackbooks.co.uk/",
+        "region": "UK",
+        "type": "photobook_publisher"
+      },
+      {
+        "name": "VOID",
+        "url": "https://void.photo/",
+        "region": "Europe",
+        "type": "photobook_publisher"
+      },
+      {
+        "name": "GOST Books",
+        "url": "https://gostbooks.com/",
+        "region": "UK",
+        "type": "photobook_publisher"
+      },
+      {
+        "name": "T&M Projects",
+        "url": "https://www.tandmprojects.com/",
+        "region": "Japan",
+        "type": "photobook_publisher"
+      },
+      {
+        "name": "AKAAKA",
+        "url": "https://www.akaaka.com/",
+        "region": "Japan",
+        "type": "photobook_publisher"
+      },
+      {
+        "name": "Chose Commune",
+        "url": "https://www.chosecommune.com/",
+        "region": "France",
+        "type": "photobook_publisher"
+      }
+    ],
+    "photo_open_calls": [
+      {
+        "name": "PhMuseum Grants",
+        "url": "https://phmuseum.com/grants",
+        "region": "Global",
+        "type": "photo_open_call"
+      },
+      {
+        "name": "LensCulture Competitions",
+        "url": "https://www.lensculture.com/competitions",
+        "region": "Global",
+        "type": "photo_open_call"
+      },
+      {
+        "name": "PhotoVogue",
+        "url": "https://www.vogue.com/photovogue",
+        "region": "Global",
+        "type": "photo_open_call"
+      },
+      {
+        "name": "Belfast Photo Festival",
+        "url": "https://www.belfastphotofestival.com/",
+        "region": "UK",
+        "type": "photo_festival"
+      },
+      {
+        "name": "Landskrona Foto",
+        "url": "https://www.landskronafoto.org/",
+        "region": "Sweden",
+        "type": "photo_festival"
+      }
+    ],
+    "artist_book_fairs": [
+      {
+        "name": "Tokyo Art Book Fair",
+        "url": "https://tokyoartbookfair.com/",
+        "region": "Japan",
+        "type": "artist_book_fair"
+      },
+      {
+        "name": "Printed Matter Art Book Fairs",
+        "url": "https://www.printedmatter.org/programs/events",
+        "region": "USA",
+        "type": "artist_book_fair"
+      },
+      {
+        "name": "Offprint",
+        "url": "https://offprint.org/",
+        "region": "Europe",
+        "type": "artist_book_fair"
+      },
+      {
+        "name": "Singapore Art Book Fair",
+        "url": "https://singaporeartbookfair.org/",
+        "region": "Singapore",
+        "type": "artist_book_fair"
+      },
+      {
+        "name": "Taipei Art Book Fair",
+        "url": "https://taipeiartbookfair.com/",
+        "region": "Taiwan",
+        "type": "artist_book_fair"
+      }
+    ],
+    "japan_spaces": [
+      {
+        "name": "Tokyo Art Beat",
+        "url": "https://www.tokyoartbeat.com/en/events",
+        "region": "Japan",
+        "type": "event_listing"
+      },
+      {
+        "name": "NADiff",
+        "url": "https://www.nadiff.com/",
+        "region": "Japan",
+        "type": "art_bookstore"
+      },
+      {
+        "name": "UTRECHT",
+        "url": "https://utrecht.jp/",
+        "region": "Japan",
+        "type": "art_bookstore"
+      },
+      {
+        "name": "POST",
+        "url": "https://post-books.info/",
+        "region": "Japan",
+        "type": "art_bookstore"
+      },
+      {
+        "name": "Totodo",
+        "url": "https://www.totodo.jp/",
+        "region": "Japan",
+        "type": "art_bookstore"
+      }
+    ]
+  }
+}

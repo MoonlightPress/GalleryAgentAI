@@ -1,0 +1,74 @@
+
+from pathlib import Path
+
+path = Path("run_full_mochi_pipeline.py")
+if not path.exists():
+    raise SystemExit("run_full_mochi_pipeline.py not found.")
+
+old = path.read_text(encoding="utf-8")
+path.with_suffix(".py.before_cleanup_stabilizer").write_text(old, encoding="utf-8")
+
+new = '''import subprocess
+import sys
+
+PIPELINE = [
+    "web_ingestion_engine.py",
+    "scraped_candidate_extractor.py",
+    "candidate_quality_gate.py",
+    "approved_candidate_importer.py",
+    "url_verification_engine.py",
+    "global_opportunity_expander.py",
+    "opportunity_enrichment_pipeline.py",
+    "venue_intelligence_builder.py",
+    "venue_memory_engine.py",
+    "visual_profile_ingester.py",
+    "deep_match_scoring_engine.py",
+    "lineage_scoring_engine.py",
+    "feedback_learning_engine.py",
+    "preference_rescoring_engine.py",
+    "portfolio_match_engine.py",
+    "submission_strategy_engine.py",
+    "score_sanity_engine.py",
+    "career_strategy_engine.py",
+    "global_strategy_rebalance.py",
+    "fit_audit_engine.py",
+    "institution_network_engine.py",
+    "discovery_engine.py",
+    "ecosystem_expansion_engine.py",
+    "curator_personality_engine.py",
+    "career_path_engine.py",
+    "serendipity_engine.py",
+    "reputation_engine.py",
+    "momentum_wave_engine.py",
+    "social_proof_engine.py",
+    "research_priority_engine.py",
+    "curator_intelligence_engine.py",
+    "daily_quest_generator.py",
+    "opportunity_report_engine.py",
+    "analysis_cache_builder.py",
+    "research_queue_report.py",
+    "global_research_queue_builder.py",
+    "inquiry_draft_generator.py",
+    "portfolio_pitch_generator.py",
+    "smart_cover_letter_engine.py",
+    "submission_timeline_engine.py",
+    "strategy_explainer_generator.py",
+    "pipeline_debug_summary.py",
+    "opportunity_status_engine.py",
+]
+
+for script in PIPELINE:
+    print()
+    print("=" * 70)
+    print("RUNNING:", script)
+    print("=" * 70)
+    result = subprocess.run([sys.executable, script])
+    if result.returncode != 0:
+        raise SystemExit(f"FAILED: {script}")
+
+print()
+print("FULL MOCHI PIPELINE COMPLETE")
+'''
+
+path.write_text(new, encoding="utf-8")
+print("Replaced run_full_mochi_pipeline.py with stabilized order.")

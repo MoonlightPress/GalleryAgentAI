@@ -1,0 +1,134 @@
+{
+  "seed_sources": [
+    {
+      "name": "POST",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Shashasha",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "FUGENSHA",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Reminders Photography Stronghold",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "IMA Online",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "T3 Photo Festival",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "KYOTOGRAPHIE",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "MACK",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "VOID",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "PhotoBookMuseum",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Offprint",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "PhotoIreland",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Unseen",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Aperture",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Printed Matter",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "ICP",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Center for Photography at Woodstock",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Taipei Art Book Fair",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Singapore International Photography Festival",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Angkor Photo Festival",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Jimei x Arles",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "ArtConnect",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "CuratorSpace",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "ArtRabbit",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "ArtDeadline",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    },
+    {
+      "name": "Photo Contest Insider",
+      "priority": "high",
+      "category": "photography_ecosystem"
+    }
+  ]
+}

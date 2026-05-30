@@ -1,0 +1,30 @@
+
+{
+  "painting_sources": [
+    {"name":"HB Gallery","url":"https://hbgallery.com/","native_medium":"painting","source_type":"illustration_gallery","region":"Tokyo","priority":"high"},
+    {"name":"OPA Gallery","url":"https://opagallery.net/","native_medium":"painting","source_type":"illustration_gallery","region":"Tokyo","priority":"high"},
+    {"name":"Pinpoint Gallery","url":"https://pinpointgallery.com/","native_medium":"painting","source_type":"illustration_gallery","region":"Tokyo","priority":"high"},
+    {"name":"Gallery IYN","url":"https://www.gallery-iyn.com/","native_medium":"painting","source_type":"gallery_open_call","region":"Japan","priority":"medium"},
+    {"name":"Gallery Conceal Shibuya","url":"https://galleryconceal.wixsite.com/gconceal","native_medium":"painting","source_type":"rental_gallery","region":"Tokyo","priority":"medium"},
+    {"name":"Design Festa Gallery","url":"https://designfestagallery.com/","native_medium":"painting","source_type":"low_barrier_gallery","region":"Tokyo","priority":"low"},
+    {"name":"Gallery HANA Shimokitazawa","url":"https://www.g-hana.jp/","native_medium":"painting","source_type":"local_gallery","region":"Tokyo","priority":"medium"},
+    {"name":"Gallery IRO","url":"https://1-6.jp/","native_medium":"painting","source_type":"local_gallery","region":"Tokyo","priority":"medium"},
+    {"name":"The Artcomplex Center of Tokyo","url":"https://www.gallerycomplex.com/","native_medium":"painting","source_type":"gallery_complex","region":"Tokyo","priority":"medium"},
+    {"name":"Boji Hair+Gallery","url":"https://www.boji-hair.com/","native_medium":"painting","source_type":"small_gallery","region":"Tokyo","priority":"low"},
+    {"name":"AAA Gallery Yokohama","url":"https://artaraqasia.com/","native_medium":"painting","source_type":"gallery_open_call","region":"Yokohama","priority":"medium"},
+    {"name":"ArtConnect Open Calls","url":"https://www.artconnect.com/opportunities","native_medium":"painting","source_type":"open_call_index","region":"Global","priority":"high"},
+    {"name":"CuratorSpace","url":"https://www.curatorspace.com/opportunities","native_medium":"painting","source_type":"open_call_index","region":"Global","priority":"high"},
+    {"name":"Jackson's Art Prize","url":"https://www.jacksonsart.com/paintingprize/","native_medium":"painting","source_type":"painting_prize","region":"Global","priority":"high"},
+    {"name":"Royal Watercolour Society","url":"https://www.royalwatercoloursociety.co.uk/","native_medium":"painting","source_type":"watercolor_society","region":"UK","priority":"medium"},
+    {"name":"Mall Galleries Open Exhibitions","url":"https://www.mallgalleries.org.uk/open-exhibitions","native_medium":"painting","source_type":"open_exhibition","region":"UK","priority":"medium"},
+    {"name":"Society of Women Artists","url":"https://www.society-women-artists.org.uk/","native_medium":"painting","source_type":"open_exhibition","region":"UK","priority":"medium"},
+    {"name":"Pastel Society Open Exhibition","url":"https://www.mallgalleries.org.uk/open-exhibitions","native_medium":"painting","source_type":"works_on_paper_open_exhibition","region":"UK","priority":"medium"},
+    {"name":"Royal Institute of Painters in Water Colours","url":"https://www.mallgalleries.org.uk/open-exhibitions","native_medium":"painting","source_type":"watercolor_open_exhibition","region":"UK","priority":"high"},
+    {"name":"Tokyo Illustrators Society","url":"https://www.tis-home.com/","native_medium":"painting","source_type":"illustration_society","region":"Japan","priority":"medium"},
+    {"name":"Bologna Children's Book Fair Illustrators Exhibition","url":"https://www.bolognachildrensbookfair.com/","native_medium":"painting","source_type":"illustration_exhibition","region":"Global","priority":"high"},
+    {"name":"World Illustration Awards","url":"https://theaoi.com/world-illustration-awards/","native_medium":"painting","source_type":"illustration_award","region":"Global","priority":"medium"},
+    {"name":"Communication Arts Illustration Competition","url":"https://www.commarts.com/competitions/illustration","native_medium":"painting","source_type":"illustration_competition","region":"Global","priority":"medium"},
+    {"name":"3x3 International Illustration Awards","url":"https://3x3mag.com/","native_medium":"painting","source_type":"illustration_award","region":"Global","priority":"medium"},
+    {"name":"American Illustration","url":"https://www.ai-ap.com/","native_medium":"painting","source_type":"illustration_annual","region":"Global","priority":"medium"}
+  ]
+}

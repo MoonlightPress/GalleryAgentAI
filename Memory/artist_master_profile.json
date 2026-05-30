@@ -1,0 +1,159 @@
+{
+  "visual_profile": {
+    "visual_profile_version": 1,
+    "artist_name": "Nin",
+    "summary": "The work reads as quiet observational photography built around ordinary neighborhoods, small businesses, lived-in architecture, domestic fragments, plants, thresholds, and human trace. The strongest opportunity direction is photobook, artist book, zine, small press, independent bookstore, and quiet documentary/photo publication ecosystems rather than commercial galleries or market-style events.",
+    "dominant_subjects": [
+      "ordinary neighborhoods",
+      "small businesses",
+      "side streets",
+      "domestic architecture",
+      "plants in urban environments",
+      "laundry, fences, stairs, paths, yards, and thresholds",
+      "shops and lived-in public/private edges",
+      "human traces without dominant human subjects"
+    ],
+    "recurring_motifs": [
+      "thresholds",
+      "sidewalk plants",
+      "aged walls",
+      "small storefronts",
+      "quiet streets",
+      "faded surfaces",
+      "infrastructure of daily life",
+      "presence through absence"
+    ],
+    "composition_patterns": [
+      "environment-first framing",
+      "quiet centered observation",
+      "layered everyday detail",
+      "low-spectacle documentation",
+      "accumulation through sequence",
+      "place as emotional subject"
+    ],
+    "color_palette": [
+      "muted green",
+      "off-white",
+      "aged wood",
+      "faded concrete",
+      "muted red",
+      "soft neutral tones"
+    ],
+    "emotional_tone": [
+      "quiet",
+      "observational",
+      "intimate",
+      "melancholic but restrained",
+      "attentive",
+      "daily-life oriented",
+      "memory-driven"
+    ],
+    "pace": "slow",
+    "scale": "small to intimate",
+    "best_formats": [
+      "photobook",
+      "artist book",
+      "zine",
+      "small press publication",
+      "independent bookstore display",
+      "quiet photography platform",
+      "artist-run publication ecosystem",
+      "small group exhibition with strong thematic fit"
+    ],
+    "bad_fit_contexts": [
+      "commercial illustration markets",
+      "generic craft fairs",
+      "high-volume design fairs",
+      "character art events",
+      "spectacle-driven galleries",
+      "tech/AI/NFT art contexts",
+      "brand activation events"
+    ],
+    "artist_statement_phrases": [
+      "human presence through absence",
+      "ordinary neighborhoods as emotional memory",
+      "the quiet infrastructure of daily life",
+      "small places that carry lived time",
+      "architecture as a record of habit and care",
+      "neighborhood memory through accumulated detail"
+    ],
+    "curatorial_keywords": [
+      "quiet photography",
+      "daily life",
+      "memory",
+      "urban vernacular",
+      "neighborhood documentary",
+      "human trace",
+      "lived-in architecture",
+      "photobook sequence",
+      "artist book",
+      "small press",
+      "independent publishing",
+      "slow documentary"
+    ],
+    "portfolio_bodies_to_create": [
+      {
+        "id": "neighborhood_memory",
+        "title": "Neighborhood Memory",
+        "description": "A sequence of ordinary streets, homes, plants, shops, and small architectural details that suggest lived time and human presence without direct portraiture."
+      },
+      {
+        "id": "human_trace",
+        "title": "Human Trace",
+        "description": "Images of spaces shaped by use: thresholds, laundry, fences, shopfronts, yards, signs, and plants."
+      },
+      {
+        "id": "small_press_sequence",
+        "title": "Small Press Sequence",
+        "description": "A tight photobook/zine-oriented edit emphasizing repetition, atmosphere, and slow accumulation."
+      }
+    ],
+    "opportunity_weighting": {
+      "photobook": 2.0,
+      "artist_book": 1.8,
+      "zine": 1.7,
+      "small_press": 1.7,
+      "independent_bookstore": 1.5,
+      "quiet_photography_platform": 1.5,
+      "artist_run_space": 1.2,
+      "cafe_wall": 0.6,
+      "craft_market": -1.0,
+      "design_fair": -0.8,
+      "commercial_gallery": -0.3,
+      "tech_art": -2.0
+    }
+  },
+  "visual_language": [
+    "quiet",
+    "observational",
+    "intimate",
+    "melancholic but restrained",
+    "attentive",
+    "daily-life oriented",
+    "memory-driven"
+  ],
+  "core_themes": [
+    "quiet photography",
+    "daily life",
+    "memory",
+    "urban vernacular",
+    "neighborhood documentary",
+    "human trace",
+    "lived-in architecture",
+    "photobook sequence",
+    "artist book",
+    "small press",
+    "independent publishing",
+    "slow documentary"
+  ],
+  "ideal_opportunity_types": [
+    "photobook",
+    "artist book",
+    "zine",
+    "small press publication",
+    "independent bookstore display",
+    "quiet photography platform",
+    "artist-run publication ecosystem",
+    "small group exhibition with strong thematic fit"
+  ]
+}

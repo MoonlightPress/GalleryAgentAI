@@ -1,0 +1,48 @@
+{
+  "summary": "Initial machine-assisted visual profile based on local image folder structure and image statistics. Review manually after looking at contact sheets.",
+  "dominant_subjects": [],
+  "recurring_motifs": [],
+  "composition_patterns": [
+    "horizontal framing",
+    "environmental context",
+    "spatial observation"
+  ],
+  "color_palette": [
+    "average brightness 136.99",
+    "temperature distribution {'warm': 11, 'cool': 0, 'neutral': 10}"
+  ],
+  "emotional_tone": [
+    "quiet",
+    "observational",
+    "clear",
+    "warm",
+    "intimate"
+  ],
+  "pace": "slow / observational",
+  "scale": "intimate to environmental",
+  "best_formats": [
+    "photobook",
+    "zine",
+    "small exhibition",
+    "artist-run space"
+  ],
+  "bad_fit_contexts": [
+    "corporate branding",
+    "commercial expo",
+    "loud trend-based open calls"
+  ],
+  "artist_statement_phrases": [
+    "memory of place",
+    "quiet attention to ordinary spaces",
+    "the emotional residue of architecture"
+  ],
+  "curatorial_keywords": [
+    "quiet photography",
+    "memory",
+    "place",
+    "atmosphere"
+  ],
+  "portfolio_bodies_to_create": [
+    "artist_images"
+  ]
+}

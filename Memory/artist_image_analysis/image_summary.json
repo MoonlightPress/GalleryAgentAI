@@ -1,0 +1,21 @@
+{
+  "image_count": 21,
+  "folders": {
+    "artist_images": 21
+  },
+  "average_brightness": 136.99,
+  "temperature_distribution": {
+    "warm": 11,
+    "cool": 0,
+    "neutral": 10
+  },
+  "aspect_distribution": {
+    "portrait": 5,
+    "landscape": 6,
+    "square": 10
+  },
+  "brightness_distribution": {
+    "muted": 10,
+    "bright": 11
+  }
+}

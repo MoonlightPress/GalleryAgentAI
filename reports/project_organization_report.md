@@ -1,0 +1,276 @@
+# Project Organization Report
+
+Run time: 2026-05-29T23:00:14
+
+## Moved Files
+
+- `reports\artist_profile_purge.py` → `scripts\patches\artist_profile_purge.py` — misplaced Python file in reports
+- `reports\bucket_deduplicator.py` → `scripts\patches\bucket_deduplicator.py` — misplaced Python file in reports
+- `reports\opportunity_verification_engine.py` → `engines\opportunity_verification_engine.py` — misplaced Python file in reports
+- `reports\quality_gate_relaxer.py` → `scripts\patches\quality_gate_relaxer.py` — misplaced Python file in reports
+- `reports\run_discovery_expansion.py` → `scripts\runners\run_discovery_expansion.py` — misplaced Python file in reports
+- `reports\run_verification_upgrade.py` → `scripts\runners\run_verification_upgrade.py` — misplaced Python file in reports
+- `reports\source_discovery_expansion.py` → `scripts\patches\source_discovery_expansion.py` — misplaced Python file in reports
+- `reports\source_registry_builder.py` → `engines\source_registry_builder.py` — misplaced Python file in reports
+- `.zip` → `archive\zips\.zip` — classified as archive/zips
+- `A.zip` → `archive\zips\A.zip` — classified as archive/zips
+- `action_plan.md` → `docs\action_plan.md` — classified as docs
+- `agent_reports.md` → `docs\agent_reports.md` — classified as docs
+- `analysis_cache_builder.py` → `engines\analysis_cache_builder.py` — classified as engines
+- `analysis_cache_builder.py.before_filename_fix` → `archive\old_backups\analysis_cache_builder.py.before_filename_fix` — classified as archive/old_backups
+- `approved_candidate_importer.py` → `engines\approved_candidate_importer.py` — classified as engines
+- `artists_preferences.json` → `data\config\artists_preferences.json` — classified as data/config
+- `artist_analysis.md` → `docs\artist_analysis.md` — classified as docs
+- `artist_dataset_score_engine.py` → `engines\artist_dataset_score_engine.py` — classified as engines
+- `artist_deep_research_prompt.md` → `docs\artist_deep_research_prompt.md` — classified as docs
+- `artist_dossier.md` → `docs\artist_dossier.md` — classified as docs
+- `artist_ecosystem_mapper.py` → `engines\artist_ecosystem_mapper.py` — classified as engines
+- `artist_graph_builder.py` → `engines\artist_graph_builder.py` — classified as engines
+- `artist_graph_report.json` → `data\config\artist_graph_report.json` — classified as data/config
+- `artist_image_review_components.py` → `ui\artist_image_review_components.py` — classified as ui
+- `artist_intelligence_seed_data.json` → `data\config\artist_intelligence_seed_data.json` — classified as data/config
+- `artist_lineage_profiles.json` → `data\config\artist_lineage_profiles.json` — classified as data/config
+- `artist_memory_entry.json` → `data\config\artist_memory_entry.json` — classified as data/config
+- `artist_profile_scoring_engine.py` → `engines\artist_profile_scoring_engine.py` — classified as engines
+- `artist_research_seed.json` → `data\config\artist_research_seed.json` — classified as data/config
+- `artist_roster_research_template.md` → `docs\artist_roster_research_template.md` — classified as docs
+- `artist_visual_profile_template.json` → `data\config\artist_visual_profile_template.json` — classified as data/config
+- `candidate_review_importer.py` → `engines\candidate_review_importer.py` — classified as engines
+- `CARD_IMAGE_NAMES.md` → `docs\CARD_IMAGE_NAMES.md` — classified as docs
+- `career_pathway_engine.py` → `engines\career_pathway_engine.py` — classified as engines
+- `career_path_engine.py` → `engines\career_path_engine.py` — classified as engines
+- `career_reconstruction_seed.json` → `data\config\career_reconstruction_seed.json` — classified as data/config
+- `career_strategy_engine.py` → `engines\career_strategy_engine.py` — classified as engines
+- `claim_validation_engine.py` → `engines\claim_validation_engine.py` — classified as engines
+- `collaboration_report.md` → `docs\collaboration_report.md` — classified as docs
+- `compact_detail_components.py` → `ui\compact_detail_components.py` — classified as ui
+- `compact_detail_styles.py` → `ui\compact_detail_styles.py` — classified as ui
+- `contact_entry.json` → `data\config\contact_entry.json` — classified as data/config
+- `contact_sheet_builder.py` → `engines\contact_sheet_builder.py` — classified as engines
+- `crm_summary.md` → `docs\crm_summary.md` — classified as docs
+- `curator_dossier_engine.py` → `engines\curator_dossier_engine.py` — classified as engines
+- `curator_intelligence_engine.py` → `engines\curator_intelligence_engine.py` — classified as engines
+- `curator_personality_engine.py` → `engines\curator_personality_engine.py` — classified as engines
+- `daily_quest_generator.py` → `engines\daily_quest_generator.py` — classified as engines
+- `deadline_extraction_engine.py` → `engines\deadline_extraction_engine.py` — classified as engines
+- `detail_confidence_engine.py` → `engines\detail_confidence_engine.py` — classified as engines
+- `discovery_engine.py` → `engines\discovery_engine.py` — classified as engines
+- `ecosystem_expansion_engine.py` → `engines\ecosystem_expansion_engine.py` — classified as engines
+- `ecosystem_map_engine.py` → `engines\ecosystem_map_engine.py` — classified as engines
+- `email_drafts.md` → `docs\email_drafts.md` — classified as docs
+- `email_draft_generator.py` → `engines\email_draft_generator.py` — classified as engines
+- `energy_profile.json` → `data\config\energy_profile.json` — classified as data/config
+- `evidence_extraction_engine.py` → `engines\evidence_extraction_engine.py` — classified as engines
+- `executive_plan.json` → `data\config\executive_plan.json` — classified as data/config
+- `executive_plan.md` → `docs\executive_plan.md` — classified as docs
+- `expanded_source_registry.json` → `data\config\expanded_source_registry.json` — classified as data/config
+- `feedback_learning_engine.py` → `engines\feedback_learning_engine.py` — classified as engines
+- `feedback_ui_components.py` → `ui\feedback_ui_components.py` — classified as ui
+- `filename_audit.py` → `engines\filename_audit.py` — classified as engines
+- `final_gallery_report.md` → `docs\final_gallery_report.md` — classified as docs
+- `fit_audit_engine.py` → `engines\fit_audit_engine.py` — classified as engines
+- `fit_audit_ui_components.py` → `ui\fit_audit_ui_components.py` — classified as ui
+- `fix_report_filename.py` → `scripts\patches\fix_report_filename.py` — classified as scripts/patches
+- `global_opportunity_expander.py` → `engines\global_opportunity_expander.py` — classified as engines
+- `global_opportunity_seeds.json` → `data\config\global_opportunity_seeds.json` — classified as data/config
+- `global_research_queue_builder.py` → `engines\global_research_queue_builder.py` — classified as engines
+- `graph_query_response.md` → `docs\graph_query_response.md` — classified as docs
+- `image_catalog_builder.py` → `engines\image_catalog_builder.py` — classified as engines
+- `inquiry_draft_generator.py` → `engines\inquiry_draft_generator.py` — classified as engines
+- `inquiry_draft_generator.py.before_filename_fix` → `archive\old_backups\inquiry_draft_generator.py.before_filename_fix` — classified as archive/old_backups
+- `institution_fit_engine.py` → `engines\institution_fit_engine.py` — classified as engines
+- `institution_network_engine.py` → `engines\institution_network_engine.py` — classified as engines
+- `institution_profile_engine.py` → `engines\institution_profile_engine.py` — classified as engines
+- `lineage_scoring_engine.py` → `engines\lineage_scoring_engine.py` — classified as engines
+- `mochi_action_components.py` → `ui\mochi_action_components.py` — classified as ui
+- `mochi_dashboard_components.py` → `ui\mochi_dashboard_components.py` — classified as ui
+- `momentum_scoring_engine.py` → `engines\momentum_scoring_engine.py` — classified as engines
+- `momentum_wave_engine.py` → `engines\momentum_wave_engine.py` — classified as engines
+- `mousehole_task_seed.json` → `data\config\mousehole_task_seed.json` — classified as data/config
+- `multilingual_outreach_preview.json` → `data\config\multilingual_outreach_preview.json` — classified as data/config
+- `opportunity_database_status.md` → `docs\opportunity_database_status.md` — classified as docs
+- `opportunity_decay_engine.py` → `engines\opportunity_decay_engine.py` — classified as engines
+- `opportunity_differentiation_engine.py` → `engines\opportunity_differentiation_engine.py` — classified as engines
+- `opportunity_discovery_report.json` → `data\config\opportunity_discovery_report.json` — classified as data/config
+- `opportunity_entry.json` → `data\config\opportunity_entry.json` — classified as data/config
+- `opportunity_report_engine.py` → `engines\opportunity_report_engine.py` — classified as engines
+- `opportunity_report_engine.py.before_filename_fix` → `archive\old_backups\opportunity_report_engine.py.before_filename_fix` — classified as archive/old_backups
+- `opportunity_status_engine.py` → `engines\opportunity_status_engine.py` — classified as engines
+- `opportunity_verification_engine.py` → `engines\opportunity_verification_engine_2.py` — classified as engines
+- `PATCH_APP_ACTION_WORKSPACE.md` → `docs\PATCH_APP_ACTION_WORKSPACE.md` — classified as docs
+- `patch_app_after_compact.py` → `scripts\patches\patch_app_after_compact.py` — classified as scripts/patches
+- `patch_app_artist_image_review.py` → `scripts\patches\patch_app_artist_image_review.py` — classified as scripts/patches
+- `patch_app_compact.py` → `scripts\patches\patch_app_compact.py` — classified as scripts/patches
+- `patch_app_compact_detail.py` → `scripts\patches\patch_app_compact_detail.py` — classified as scripts/patches
+- `patch_app_feedback_learning.py` → `scripts\patches\patch_app_feedback_learning.py` — classified as scripts/patches
+- `patch_app_fit_audit.py` → `scripts\patches\patch_app_fit_audit.py` — classified as scripts/patches
+- `PATCH_APP_INTELLIGENCE_WORKSPACE.md` → `docs\PATCH_APP_INTELLIGENCE_WORKSPACE.md` — classified as docs
+- `patch_app_portfolio_matching.py` → `scripts\patches\patch_app_portfolio_matching.py` — classified as scripts/patches
+- `patch_app_relationship.py` → `scripts\patches\patch_app_relationship.py` — classified as scripts/patches
+- `PATCH_APP_REPORT_BUTTON.md` → `docs\PATCH_APP_REPORT_BUTTON.md` — classified as docs
+- `patch_app_strategy_homepage.py` → `scripts\patches\patch_app_strategy_homepage.py` — classified as scripts/patches
+- `patch_artist_intelligence_v2_pipeline.py` → `scripts\patches\patch_artist_intelligence_v2_pipeline.py` — classified as scripts/patches
+- `patch_atelier_text_colors.py` → `scripts\patches\patch_atelier_text_colors.py` — classified as scripts/patches
+- `patch_compact_dense_ui.py` → `scripts\patches\patch_compact_dense_ui.py` — classified as scripts/patches
+- `patch_console_encoding.py` → `scripts\patches\patch_console_encoding.py` — classified as scripts/patches
+- `patch_filename_collision.py` → `scripts\patches\patch_filename_collision.py` — classified as scripts/patches
+- `patch_final_guard_pipeline.py` → `scripts\patches\patch_final_guard_pipeline.py` — classified as scripts/patches
+- `patch_full_pipeline_global.py` → `scripts\patches\patch_full_pipeline_global.py` — classified as scripts/patches
+- `patch_full_pipeline_strategy.py` → `scripts\patches\patch_full_pipeline_strategy.py` — classified as scripts/patches
+- `patch_mochi_atelier_big.py` → `scripts\patches\patch_mochi_atelier_big.py` — classified as scripts/patches
+- `patch_opportunity_atelier_ui.py` → `scripts\patches\patch_opportunity_atelier_ui.py` — classified as scripts/patches
+- `patch_opportunity_detail_position.py` → `scripts\patches\patch_opportunity_detail_position.py` — classified as scripts/patches
+- `patch_opportunity_grid_ui.py` → `scripts\patches\patch_opportunity_grid_ui.py` — classified as scripts/patches
+- `patch_opportunity_horizontal_rows.py` → `scripts\patches\patch_opportunity_horizontal_rows.py` — classified as scripts/patches
+- `patch_opportunity_polish_ui.py` → `scripts\patches\patch_opportunity_polish_ui.py` — classified as scripts/patches
+- `patch_opportunity_rows_safe.py` → `scripts\patches\patch_opportunity_rows_safe.py` — classified as scripts/patches
+- `patch_opportunity_rows_ui.py` → `scripts\patches\patch_opportunity_rows_ui.py` — classified as scripts/patches
+- `patch_pipeline_aesthetic.py` → `scripts\patches\patch_pipeline_aesthetic.py` — classified as scripts/patches
+- `patch_pipeline_artist_dataset.py` → `scripts\patches\patch_pipeline_artist_dataset.py` — classified as scripts/patches
+- `patch_pipeline_artist_intelligence.py` → `scripts\patches\patch_pipeline_artist_intelligence.py` — classified as scripts/patches
+- `patch_pipeline_artist_review.py` → `scripts\patches\patch_pipeline_artist_review.py` — classified as scripts/patches
+- `patch_pipeline_autonomous.py` → `scripts\patches\patch_pipeline_autonomous.py` — classified as scripts/patches
+- `patch_pipeline_candidate_quality.py` → `scripts\patches\patch_pipeline_candidate_quality.py` — classified as scripts/patches
+- `patch_pipeline_cleanup_stabilizer.py` → `scripts\patches\patch_pipeline_cleanup_stabilizer.py` — classified as scripts/patches
+- `patch_pipeline_compatibility.py` → `scripts\patches\patch_pipeline_compatibility.py` — classified as scripts/patches
+- `patch_pipeline_curator_brain.py` → `scripts\patches\patch_pipeline_curator_brain.py` — classified as scripts/patches
+- `patch_pipeline_curator_intelligence.py` → `scripts\patches\patch_pipeline_curator_intelligence.py` — classified as scripts/patches
+- `patch_pipeline_evidence.py` → `scripts\patches\patch_pipeline_evidence.py` — classified as scripts/patches
+- `patch_pipeline_feedback_learning.py` → `scripts\patches\patch_pipeline_feedback_learning.py` — classified as scripts/patches
+- `patch_pipeline_fit_audit.py` → `scripts\patches\patch_pipeline_fit_audit.py` — classified as scripts/patches
+- `patch_pipeline_ingestion.py` → `scripts\patches\patch_pipeline_ingestion.py` — classified as scripts/patches
+- `patch_pipeline_institution_research.py` → `scripts\patches\patch_pipeline_institution_research.py` — classified as scripts/patches
+- `patch_pipeline_live_refresh.py` → `scripts\patches\patch_pipeline_live_refresh.py` — classified as scripts/patches
+- `patch_pipeline_local_image_processing.py` → `scripts\patches\patch_pipeline_local_image_processing.py` — classified as scripts/patches
+- `patch_pipeline_network.py` → `scripts\patches\patch_pipeline_network.py` — classified as scripts/patches
+- `patch_pipeline_portfolio_matching.py` → `scripts\patches\patch_pipeline_portfolio_matching.py` — classified as scripts/patches
+- `patch_pipeline_publication_deadline.py` → `scripts\patches\patch_pipeline_publication_deadline.py` — classified as scripts/patches
+- `patch_pipeline_relationship.py` → `scripts\patches\patch_pipeline_relationship.py` — classified as scripts/patches
+- `patch_pipeline_reputation.py` → `scripts\patches\patch_pipeline_reputation.py` — classified as scripts/patches
+- `patch_pipeline_source_expansion.py` → `scripts\patches\patch_pipeline_source_expansion.py` — classified as scripts/patches
+- `patch_pipeline_submission_strategy.py` → `scripts\patches\patch_pipeline_submission_strategy.py` — classified as scripts/patches
+- `patch_pretty_no_vector_ui.py` → `scripts\patches\patch_pretty_no_vector_ui.py` — classified as scripts/patches
+- `patch_real_header_assets.py` → `scripts\patches\patch_real_header_assets.py` — classified as scripts/patches
+- `patch_report_writer_filenames.py` → `scripts\patches\patch_report_writer_filenames.py` — classified as scripts/patches
+- `patch_safe_filenames.py` → `scripts\patches\patch_safe_filenames.py` — classified as scripts/patches
+- `patch_smart_cover_safe_call.py` → `scripts\patches\patch_smart_cover_safe_call.py` — classified as scripts/patches
+- `patch_strategy_homepage_global_sections.py` → `scripts\patches\patch_strategy_homepage_global_sections.py` — classified as scripts/patches
+- `patch_visual_profile_bucket_pipeline.py` → `scripts\patches\patch_visual_profile_bucket_pipeline.py` — classified as scripts/patches
+- `patch_visual_system.py` → `scripts\patches\patch_visual_system.py` — classified as scripts/patches
+- `pathway_model_seed.json` → `data\config\pathway_model_seed.json` — classified as data/config
+- `peer_artist_engine.py` → `engines\peer_artist_engine.py` — classified as engines
+- `pipeline_status.md` → `docs\pipeline_status.md` — classified as docs
+- `portfolio_bodies.json` → `data\config\portfolio_bodies.json` — classified as data/config
+- `portfolio_cluster_template.json` → `data\config\portfolio_cluster_template.json` — classified as data/config
+- `portfolio_match_engine.py` → `engines\portfolio_match_engine.py` — classified as engines
+- `portfolio_match_ui_components.py` → `ui\portfolio_match_ui_components.py` — classified as ui
+- `portfolio_pitch_generator.py` → `engines\portfolio_pitch_generator.py` — classified as engines
+- `portfolio_pitch_generator.py.before_report_writer_filename_fix` → `archive\old_backups\portfolio_pitch_generator.py.before_report_writer_filename_fix` — classified as archive/old_backups
+- `portfolio_profiles.json` → `data\config\portfolio_profiles.json` — classified as data/config
+- `preference_rescoring_engine.py` → `engines\preference_rescoring_engine.py` — classified as engines
+- `project_folder_audit.py` → `engines\project_folder_audit.py` — classified as engines
+- `project_manifest.json` → `data\config\project_manifest.json` — classified as data/config
+- `publication_frequency_engine.py` → `engines\publication_frequency_engine.py` — classified as engines
+- `publisher_match_engine.py` → `engines\publisher_match_engine.py` — classified as engines
+- `quest_report.md` → `docs\quest_report.md` — classified as docs
+- `README_ACTION_SYSTEM.md` → `docs\README_ACTION_SYSTEM.md` — classified as docs
+- `README_ARTIST_DATASET_BUILDER.md` → `docs\README_ARTIST_DATASET_BUILDER.md` — classified as docs
+- `README_ARTIST_IMAGE_REVIEW.md` → `docs\README_ARTIST_IMAGE_REVIEW.md` — classified as docs
+- `README_ARTIST_INTELLIGENCE.md` → `docs\README_ARTIST_INTELLIGENCE.md` — classified as docs
+- `README_ARTIST_INTELLIGENCE_V2.md` → `docs\README_ARTIST_INTELLIGENCE_V2.md` — classified as docs
+- `README_AUTONOMOUS_RESEARCH.md` → `docs\README_AUTONOMOUS_RESEARCH.md` — classified as docs
+- `README_CLEANUP_INGESTION_STABILIZER.md` → `docs\README_CLEANUP_INGESTION_STABILIZER.md` — classified as docs
+- `README_COMPACT_DETAIL_UX_PATCH.md` → `docs\README_COMPACT_DETAIL_UX_PATCH.md` — classified as docs
+- `README_CURATOR_BRAIN.md` → `docs\README_CURATOR_BRAIN.md` — classified as docs
+- `README_CURATOR_INTELLIGENCE.md` → `docs\README_CURATOR_INTELLIGENCE.md` — classified as docs
+- `README_EVIDENCE_UPGRADE.md` → `docs\README_EVIDENCE_UPGRADE.md` — classified as docs
+- `README_FEEDBACK_LEARNING_UPGRADE.md` → `docs\README_FEEDBACK_LEARNING_UPGRADE.md` — classified as docs
+- `README_FINAL_GUARDRAILS_FIX.md` → `docs\README_FINAL_GUARDRAILS_FIX.md` — classified as docs
+- `README_FIT_AUDIT_UPGRADE.md` → `docs\README_FIT_AUDIT_UPGRADE.md` — classified as docs
+- `README_GLOBAL_OPPORTUNITY_UPGRADE.md` → `docs\README_GLOBAL_OPPORTUNITY_UPGRADE.md` — classified as docs
+- `README_INGESTION_UPGRADE.md` → `docs\README_INGESTION_UPGRADE.md` — classified as docs
+- `README_LINEAGE_INTELLIGENCE.md` → `docs\README_LINEAGE_INTELLIGENCE.md` — classified as docs
+- `README_LIVE_REFRESH_AND_VISUAL_SIMILARITY.md` → `docs\README_LIVE_REFRESH_AND_VISUAL_SIMILARITY.md` — classified as docs
+- `README_LOCAL_IMAGE_PROCESSING.md` → `docs\README_LOCAL_IMAGE_PROCESSING.md` — classified as docs
+- `README_MAINTENANCE.md` → `docs\README_MAINTENANCE.md` — classified as docs
+- `README_MOST_IMPACTFUL_NEXT_STEP.md` → `docs\README_MOST_IMPACTFUL_NEXT_STEP.md` — classified as docs
+- `README_NETWORK_INTELLIGENCE.md` → `docs\README_NETWORK_INTELLIGENCE.md` — classified as docs
+- `README_NEXT_STEPS.md` → `docs\README_NEXT_STEPS.md` — classified as docs
+- `README_PIPELINE.md` → `docs\README_PIPELINE.md` — classified as docs
+- `README_PIPELINE_COMPATIBILITY_FIX.md` → `docs\README_PIPELINE_COMPATIBILITY_FIX.md` — classified as docs
+- `README_PORTFOLIO_MATCHING.md` → `docs\README_PORTFOLIO_MATCHING.md` — classified as docs
+- `README_PRESENTATION_UPGRADE.md` → `docs\README_PRESENTATION_UPGRADE.md` — classified as docs
+- `README_PROJECT_ORGANIZER.md` → `docs\README_PROJECT_ORGANIZER.md` — classified as docs
+- `README_PUBLICATION_DEADLINE_INTELLIGENCE.md` → `docs\README_PUBLICATION_DEADLINE_INTELLIGENCE.md` — classified as docs
+- `README_RELATIONSHIP_UPGRADE.md` → `docs\README_RELATIONSHIP_UPGRADE.md` — classified as docs
+- `README_REPORT_WRITER_FILENAME_FIX.md` → `docs\README_REPORT_WRITER_FILENAME_FIX.md` — classified as docs
+- `README_REPUTATION_SYSTEM.md` → `docs\README_REPUTATION_SYSTEM.md` — classified as docs
+- `README_SAFE_FILENAME_COLLISION_FIX.md` → `docs\README_SAFE_FILENAME_COLLISION_FIX.md` — classified as docs
+- `README_SOURCE_EXPANSION.md` → `docs\README_SOURCE_EXPANSION.md` — classified as docs
+- `README_STRATEGY_HOMEPAGE.md` → `docs\README_STRATEGY_HOMEPAGE.md` — classified as docs
+- `README_SUBMISSION_STRATEGY.md` → `docs\README_SUBMISSION_STRATEGY.md` — classified as docs
+- `README_VERIFIED_CANDIDATE_IMPORTER.md` → `docs\README_VERIFIED_CANDIDATE_IMPORTER.md` — classified as docs
+- `README_VISUAL_PROFILE_AND_BUCKETS.md` → `docs\README_VISUAL_PROFILE_AND_BUCKETS.md` — classified as docs
+- `recommendation_engine.py` → `engines\recommendation_engine.py` — classified as engines
+- `recommendation_report.md` → `docs\recommendation_report.md` — classified as docs
+- `relationship_entry.json` → `data\config\relationship_entry.json` — classified as data/config
+- `relationship_memory.json` → `data\config\relationship_memory.json` — classified as data/config
+- `relationship_memory_engine.py` → `engines\relationship_memory_engine.py` — classified as engines
+- `relationship_ui_components.py` → `ui\relationship_ui_components.py` — classified as ui
+- `repair_broken_imports.py` → `scripts\patches\repair_broken_imports.py` — classified as scripts/patches
+- `repair_opportunity_titles.py` → `scripts\patches\repair_opportunity_titles.py` — classified as scripts/patches
+- `repair_unknowns_agent.py` → `scripts\patches\repair_unknowns_agent.py` — classified as scripts/patches
+- `report_ui_components.py` → `ui\report_ui_components.py` — classified as ui
+- `reputation_engine.py` → `engines\reputation_engine.py` — classified as engines
+- `research_priority_engine.py` → `engines\research_priority_engine.py` — classified as engines
+- `run_after_repair.py` → `scripts\runners\run_after_repair.py` — classified as scripts/runners
+- `run_artist_intelligence_v2.py` → `scripts\runners\run_artist_intelligence_v2.py` — classified as scripts/runners
+- `run_full_mochi_pipeline.py.before_artist_intelligence_v2` → `archive\old_backups\run_full_mochi_pipeline.py.before_artist_intelligence_v2` — classified as archive/old_backups
+- `run_full_mochi_pipeline.py.before_cleanup_stabilizer` → `archive\old_backups\run_full_mochi_pipeline.py.before_cleanup_stabilizer` — classified as archive/old_backups
+- `run_full_mochi_pipeline.py.before_compatibility_fix` → `archive\old_backups\run_full_mochi_pipeline.py.before_compatibility_fix` — classified as archive/old_backups
+- `run_full_mochi_pipeline.py.before_visual_profile_bucket_patch` → `archive\old_backups\run_full_mochi_pipeline.py.before_visual_profile_bucket_patch` — classified as archive/old_backups
+- `run_ingestion_only.py` → `scripts\runners\run_ingestion_only.py` — classified as scripts/runners
+- `run_intelligence_pipeline.py` → `scripts\runners\run_intelligence_pipeline.py` — classified as scripts/runners
+- `run_intelligence_pipeline.py.py` → `scripts\runners\run_intelligence_pipeline.py.py` — classified as scripts/runners
+- `run_remaining_reports.py` → `scripts\runners\run_remaining_reports.py` — classified as scripts/runners
+- `run_remaining_reports_again.py` → `scripts\runners\run_remaining_reports_again.py` — classified as scripts/runners
+- `run_reports_only.py` → `scripts\runners\run_reports_only.py` — classified as scripts/runners
+- `run_report_core_after_filename_fix.py` → `scripts\runners\run_report_core_after_filename_fix.py` — classified as scripts/runners
+- `run_required_core_only.py` → `scripts\runners\run_required_core_only.py` — classified as scripts/runners
+- `run_scoring_only.py` → `scripts\runners\run_scoring_only.py` — classified as scripts/runners
+- `run_verification_upgrade.py` → `scripts\runners\run_verification_upgrade_2.py` — classified as scripts/runners
+- `run_visual_profile_bucket_upgrade.py` → `scripts\runners\run_visual_profile_bucket_upgrade.py` — classified as scripts/runners
+- `score_sanity_engine.py` → `engines\score_sanity_engine.py` — classified as engines
+- `serendipity_engine.py` → `engines\serendipity_engine.py` — classified as engines
+- `smart_cover_letter_engine.py` → `engines\smart_cover_letter_engine.py` — classified as engines
+- `smart_cover_letter_engine.py.before_report_writer_filename_fix` → `archive\old_backups\smart_cover_letter_engine.py.before_report_writer_filename_fix` — classified as archive/old_backups
+- `smart_cover_letter_engine.py.before_smart_cover_safe_fix` → `archive\old_backups\smart_cover_letter_engine.py.before_smart_cover_safe_fix` — classified as archive/old_backups
+- `social_proof_engine.py` → `engines\social_proof_engine.py` — classified as engines
+- `source_dossier_generator.py` → `engines\source_dossier_generator.py` — classified as engines
+- `source_targets.json` → `data\config\source_targets.json` — classified as data/config
+- `source_type_weight_engine.py` → `engines\source_type_weight_engine.py` — classified as engines
+- `strategy_homepage_components.py` → `ui\strategy_homepage_components.py` — classified as ui
+- `submission_strategy_engine.py` → `engines\submission_strategy_engine.py` — classified as engines
+- `submission_timeline_engine.py` → `engines\submission_timeline_engine.py` — classified as engines
+- `url_verification_engine.py` → `engines\url_verification_engine.py` — classified as engines
+- `venue_intelligence_builder.py` → `engines\venue_intelligence_builder.py` — classified as engines
+- `venue_memory_engine.py` → `engines\venue_memory_engine.py` — classified as engines
+- `visual_profile_ingester.py` → `engines\visual_profile_ingester.py` — classified as engines
+- `visual_similarity_engine.py` → `engines\visual_similarity_engine.py` — classified as engines
+- `web_ingestion_engine.py` → `engines\web_ingestion_engine.py` — classified as engines
+
+## Root Shortcuts Created
+
+- `run_discovery_expansion.py`
+- `run_artist_intelligence_v2.py`
+- `run_visual_profile_bucket_upgrade.py`
+- `run_verification_upgrade.py`
+
+## Rules Going Forward
+
+- `reports/` should contain reports only.
+- `scripts/runners/` contains runner scripts.
+- `scripts/patches/` contains one-time patch/fix/repair scripts.
+- `engines/` contains reusable engines.
+- `ui/` contains UI helper modules.
+- `archive/` contains old zips and backups.

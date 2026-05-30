@@ -1,0 +1,1294 @@
+[
+  {
+    "title": "NADiff a/p/a/r/t",
+    "category": "bookstore_gallery",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 8.8,
+    "difficulty": "Unknown/High effort for unclear benefit",
+    "recommendation_strength": "Low - informational value only",
+    "one_sentence": "Tokyo art bookstore with gallery space - currently insufficient information to determine fit or submission process.",
+    "three_bullets": [
+      "No clear submission guidelines or exhibition opportunities visible",
+      "Primarily functions as retail bookstore rather than exhibition venue",
+      "May be useful for understanding Tokyo art book ecosystem, not for immediate application"
+    ],
+    "quick_action": "Bookmark for research purposes only - investigate whether they have artist book publishing programs or curated shows",
+    "why_this_fits_short": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 2,
+    "emotional_fit": 6,
+    "submission_score": 2,
+    "official_website": "https://www.nadiff.com/",
+    "submission_page": "https://www.nadiff.com/",
+    "source_url": "https://www.nadiff.com/",
+    "organization": "NADiff",
+    "tags": [
+      "secondary",
+      "",
+      "Unknown/High effort for unclear benefit"
+    ],
+    "original_score": 3,
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-05-27",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Print / Zines / Bookstores",
+    "uncapped_score": 9.4,
+    "score_sanity_note": "Score capped at 8.8 because source/verification strength is limited.",
+    "url_verification_status": "error",
+    "url_status_code": 0,
+    "url_final": "HTTPSConnectionPool(host='www.nadiff.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "artist_book_printed_matter",
+        "title": "Artist Book / Printed Matter",
+        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+        "score": 2,
+        "hits": [
+          "zine"
+        ],
+        "best_formats": [
+          "book fair",
+          "zine fair",
+          "bookstore",
+          "small press",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 1,
+        "hits": [],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "daily_poetic_photography",
+        "title": "Daily Poetic Photography",
+        "description": "A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.",
+        "score": 1,
+        "hits": [],
+        "best_formats": [
+          "online feature",
+          "zine",
+          "small publication",
+          "photobook",
+          "artist-run space"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Artist Book / Printed Matter",
+    "portfolio_match_score": 2,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "visual_fit_score": 4.85,
+    "visual_fit_hits": [
+      "artist book",
+      "artist book",
+      "zine",
+      "artist_book",
+      "zine"
+    ],
+    "career_buckets": [
+      "career_changing",
+      "high_confidence",
+      "publication_targets",
+      "book_zine_targets",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "career_changing",
+    "differentiated_score": 10.68
+  },
+  {
+    "title": "SCAI The Bathhouse",
+    "category": "gallery",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 9.4,
+    "difficulty": "extremely_high",
+    "recommendation_strength": "Not recommended at current career stage",
+    "one_sentence": "SCAI The Bathhouse is a prestigious Tokyo gallery representing established international contemporary artists - currently far above accessible career level.",
+    "three_bullets": [
+      "Represents blue-chip artists like Lee Ufan, Anish Kapoor, Julian Opie - roster includes major institutional names",
+      "No open submission process; representation requires established exhibition history and collector base",
+      "Visiting as research (seeing how top-tier galleries present contemporary Asian work) has more value than submission pursuit"
+    ],
+    "quick_action": "Bookmark for future awareness; focus energy elsewhere",
+    "why_this_fits_short": "The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 0,
+    "emotional_fit": 2,
+    "submission_score": 1,
+    "official_website": "https://www.scaithebathhouse.com/",
+    "submission_page": "https://www.scaithebathhouse.com/",
+    "source_url": "https://www.scaithebathhouse.com/",
+    "organization": "SCAI The Bathhouse",
+    "tags": [
+      "secondary",
+      "",
+      "extremely_high"
+    ],
+    "original_score": 2,
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-05-27",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Galleries / Exhibition Calls",
+    "uncapped_score": 10.0,
+    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.scaithebathhouse.com/en/",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "community_local_visibility",
+        "title": "Community / Local Visibility",
+        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+        "score": 1,
+        "hits": [
+          "accessible"
+        ],
+        "best_formats": [
+          "cafe wall",
+          "market",
+          "popup",
+          "group show",
+          "local event"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Community / Local Visibility",
+    "portfolio_match_score": 1,
+    "submission_strategy": "quiet_high_prestige",
+    "submission_tone": "restrained and confident",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "high_confidence",
+      "global_reach",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 10.1
+  },
+  {
+    "title": "Yonchome Cafe",
+    "category": "cafe_gallery",
+    "city": "Koenji",
+    "priority": "C",
+    "overall_score": 9.4,
+    "difficulty": "low",
+    "recommendation_strength": "skip",
+    "one_sentence": "Koenji cafe with unverified exhibition program - insufficient information to assess as legitimate opportunity.",
+    "three_bullets": [
+      "No visible submission process, exhibition history, or programming details available",
+      "Cafe gallery context typically offers minimal curatorial framework or career advancement",
+      "Would require cold outreach with high likelihood of no response or wall rental scenario"
+    ],
+    "quick_action": "Skip. Energy better spent on verified opportunities with clear processes.",
+    "why_this_fits_short": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 4,
+    "emotional_fit": 3,
+    "submission_score": 1,
+    "official_website": "https://www.yonchome.com/",
+    "submission_page": "https://www.yonchome.com/",
+    "source_url": "https://www.yonchome.com/",
+    "organization": "Yonchome Cafe",
+    "tags": [
+      "secondary",
+      "",
+      "low"
+    ],
+    "original_score": 2,
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-05-27",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Cafe / Local Wall Spaces",
+    "uncapped_score": 10.0,
+    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.yonchome.com/",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "community_local_visibility",
+        "title": "Community / Local Visibility",
+        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+        "score": 3,
+        "hits": [
+          "cafe",
+          "local",
+          "wall"
+        ],
+        "best_formats": [
+          "cafe wall",
+          "market",
+          "popup",
+          "group show",
+          "local event"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Community / Local Visibility",
+    "portfolio_match_score": 3,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "high_confidence",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 10.1
+  },
+  {
+    "title": "See all exhibitions",
+    "organization": "Printed Matter",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 7.5,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "Medium",
+    "verification_status": "partial",
+    "evidence_quality": "weak",
+    "source_type": "quality_gated_scrape",
+    "source_url": "https://www.printedmatter.org/programs/1-exhibitions",
+    "official_website": "https://www.printedmatter.org/programs/1-exhibitions",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Printed Matter.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending.",
+    "three_bullets": [
+      "Candidate passed quality gate but remains unverified.",
+      "Fit signals: printed matter",
+      "Must be checked manually before outreach."
+    ],
+    "quality_gate_score": 6.2,
+    "fit_keyword_hits": [
+      "printed matter"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "do_not_show_as_verified": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "verification_summary": "Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.",
+    "last_verified": "2026-05-29",
+    "research_priority": "high",
+    "submission_process_known": false,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "category_label": "Galleries / Exhibition Calls",
+    "url_verification_status": "bad",
+    "url_status_code": 403,
+    "url_final": "https://www.printedmatter.org/programs/1-exhibitions",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "uncapped_score": 8.2,
+    "score_sanity_note": "Score capped at 8.0 because source/verification strength is limited.",
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "artist_book_printed_matter",
+        "title": "Artist Book / Printed Matter",
+        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+        "score": 1,
+        "hits": [
+          "printed matter"
+        ],
+        "best_formats": [
+          "book fair",
+          "zine fair",
+          "bookstore",
+          "small press",
+          "publication"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Artist Book / Printed Matter",
+    "portfolio_match_score": 1,
+    "submission_strategy": "quiet_high_prestige",
+    "submission_tone": "restrained and confident",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 1,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "publication_ecosystem",
+    "curator_patterns": [],
+    "pre_final_guard_score": 7.5,
+    "final_score_guard_note": "Capped at 6.5 due to verification strength.",
+    "visual_fit_score": 2.7,
+    "visual_fit_hits": [
+      "artist book",
+      "artist book",
+      "artist_book"
+    ],
+    "career_buckets": [
+      "career_changing",
+      "publication_targets",
+      "book_zine_targets",
+      "global_reach",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "career_changing",
+    "differentiated_score": 8.45
+  },
+  {
+    "title": "Gallery Conceal Shibuya",
+    "category": "gallery",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 9.4,
+    "difficulty": "high_friction_low_value",
+    "recommendation_strength": "avoid",
+    "one_sentence": "Gallery Conceal Shibuya appears to be a rental exhibition space in Tokyo with unclear exhibition model and minimal verifiable track record.",
+    "three_bullets": [
+      "Wix-based website and 'rental/exhibition space' classification suggest pay-to-exhibit model",
+      "No clear curatorial direction, submission process, or artist roster visible",
+      "Location in Shibuya doesn't compensate for lack of gallery credibility or audience reach"
+    ],
+    "quick_action": "Skip this opportunity and focus energy on Kyoto Art Center preparation instead.",
+    "why_this_fits_short": "It doesn't. This conflicts with your strategic goal to avoid pay-to-play venues that dilute positioning, and offers no clear institutional or career benefit.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 7,
+    "emotional_fit": 4,
+    "submission_score": 1,
+    "official_website": "https://galleryconceal.wixsite.com/gconceal",
+    "submission_page": "https://galleryconceal.wixsite.com/gconceal",
+    "source_url": "https://galleryconceal.wixsite.com/gconceal",
+    "organization": "Gallery Conceal Shibuya",
+    "tags": [
+      "secondary",
+      "",
+      "high_friction_low_value"
+    ],
+    "original_score": 2,
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-05-27",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Galleries / Exhibition Calls",
+    "uncapped_score": 10.0,
+    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://galleryconceal.wixsite.com/gconceal",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [],
+    "recommended_body_of_work": "General Portfolio",
+    "portfolio_match_score": 0,
+    "submission_strategy": "quiet_high_prestige",
+    "submission_tone": "restrained and confident",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 1,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "institutional_formal",
+    "curator_patterns": [],
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "high_confidence",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 10.1
+  },
+  {
+    "title": "RAW TOKYO",
+    "category": "fair_popup",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 8.8,
+    "difficulty": "low_barrier_wrong_context",
+    "recommendation_strength": "not_recommended",
+    "one_sentence": "Tokyo-based pop-up fair ecosystem that likely functions as a vendor marketplace rather than curated exhibition context.",
+    "three_bullets": [
+      "Pop-up/market format typically serves consumer sales audience rather than institutional collectors or curators",
+      "Lack of clear application structure and 'vendor fit' language suggests booth rental model",
+      "Context risks positioning work as decorative merchandise rather than cultural documentation practice"
+    ],
+    "quick_action": "Check website to confirm format, but likely misaligned with institutional credibility goals—safe to skip.",
+    "why_this_fits_short": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 6,
+    "emotional_fit": 3,
+    "submission_score": 1,
+    "official_website": "https://rawtokyo.jp/",
+    "submission_page": "https://rawtokyo.jp/",
+    "source_url": "https://rawtokyo.jp/",
+    "organization": "RAW TOKYO",
+    "tags": [
+      "secondary",
+      "",
+      "low_barrier_wrong_context"
+    ],
+    "original_score": 2.5,
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-05-27",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Markets / Popups / Booths",
+    "uncapped_score": 9.4,
+    "score_sanity_note": "Score capped at 8.8 because source/verification strength is limited.",
+    "url_verification_status": "error",
+    "url_status_code": 0,
+    "url_final": "HTTPSConnectionPool(host='rawtokyo.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FA",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "community_local_visibility",
+        "title": "Community / Local Visibility",
+        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+        "score": 4,
+        "hits": [
+          "market",
+          "popup"
+        ],
+        "best_formats": [
+          "cafe wall",
+          "market",
+          "popup",
+          "group show",
+          "local event"
+        ]
+      },
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 1,
+        "hits": [
+          "place"
+        ],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Community / Local Visibility",
+    "portfolio_match_score": 4,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "high_confidence",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 9.28
+  },
+  {
+    "title": "Tokyo Wonder Site / TOKAS Residency",
+    "category": "residency",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 9.4,
+    "difficulty": "very_high",
+    "recommendation_strength": "strong_but_not_actionable",
+    "one_sentence": "TOKAS is a highly respected Tokyo residency that would be excellent for your practice, but this listing is a program archive, not an active call—deadline and application details are unavailable.",
+    "three_bullets": [
+      "Strong institutional fit: government-funded program supporting international artists working with Japanese cultural contexts",
+      "Aligns well with your research into Asian urbanism and disappearing spaces, particularly if focused on Tokyo's vernacular architecture",
+      "Cannot be pursued currently—you would need to monitor their website for when the next open call is announced"
+    ],
+    "quick_action": "Bookmark their residency page and check quarterly for new calls, or subscribe to their announcements if available",
+    "why_this_fits_short": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than illustrator.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 0,
+    "emotional_fit": 4,
+    "submission_score": 2,
+    "official_website": "https://www.tokyoartsandspace.jp/en/archive/residence/",
+    "submission_page": "https://www.tokyoartsandspace.jp/en/archive/residence/",
+    "source_url": "https://www.tokyoartsandspace.jp/en/archive/residence/",
+    "organization": "Tokyo Arts and Space",
+    "tags": [
+      "secondary",
+      "",
+      "very_high"
+    ],
+    "original_score": 4,
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-05-27",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Residencies / Longer Projects",
+    "uncapped_score": 10.0,
+    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.tokyoartsandspace.jp/en/archive/residence/",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 2,
+        "hits": [
+          "architecture",
+          "urban"
+        ],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Architecture / Memory / Place",
+    "portfolio_match_score": 2,
+    "submission_strategy": "formal_application",
+    "submission_tone": "clear and professional",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 2,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "institutional_formal",
+    "curator_patterns": [],
+    "visual_fit_score": 0.45,
+    "visual_fit_hits": [
+      "memory"
+    ],
+    "career_buckets": [
+      "high_confidence",
+      "global_reach",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 10.26
+  },
+  {
+    "title": "PhotoVogue",
+    "organization": "PhotoVogue",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 8.6,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "Medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.vogue.com/photovogue",
+    "official_website": "https://www.vogue.com/photovogue",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from PhotoVogue. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, exhibition",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: open call, submission, exhibition"
+    ],
+    "fit_keyword_hits": [
+      "open call",
+      "submission",
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "import_status": "candidate_unverified",
+    "do_not_show_as_verified": true,
+    "verification_summary": "Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.",
+    "last_verified": "2026-05-29",
+    "research_priority": "high",
+    "submission_process_known": false,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "category_label": "Photo Open Call",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.vogue.com/photovogue",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [],
+    "recommended_body_of_work": "General Portfolio",
+    "portfolio_match_score": 0,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "uncapped_score": 8.8,
+    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "career_changing",
+      "global_reach",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "career_changing",
+    "differentiated_score": 8.84
+  },
+  {
+    "title": "AIR 3331",
+    "category": "residency",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 9.4,
+    "difficulty": "medium-high",
+    "recommendation_strength": "INVESTIGATE_FIRST",
+    "one_sentence": "Tokyo residency at established contemporary art center with strong geographic and thematic alignment, but requires verification of current program status and application requirements before proceeding.",
+    "three_bullets": [
+      "3331 Arts Chiyoda is a legitimate, respected institution in Tokyo's contemporary art scene",
+      "Location provides direct research access for your work on disappearing urban vernacular architecture",
+      "Incomplete listing information means 2-3 hours of research needed to determine if program is currently active and accepting applications"
+    ],
+    "quick_action": "Visit residence.3331.jp to check current program status, application timeline, and fee structure—if information isn't clear within 20 minutes, deprioritize",
+    "why_this_fits_short": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 2,
+    "emotional_fit": 5,
+    "submission_score": 3,
+    "official_website": "https://residence.3331.jp/",
+    "submission_page": "https://residence.3331.jp/",
+    "source_url": "https://residence.3331.jp/",
+    "organization": "3331 Arts Chiyoda",
+    "tags": [
+      "secondary",
+      "",
+      "medium-high"
+    ],
+    "original_score": 5.5,
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-05-27",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Residencies / Longer Projects",
+    "uncapped_score": 10.0,
+    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://residence.3331.jp/",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 2,
+        "hits": [
+          "architecture",
+          "urban"
+        ],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Architecture / Memory / Place",
+    "portfolio_match_score": 2,
+    "submission_strategy": "formal_application",
+    "submission_tone": "clear and professional",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 1,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "institutional_formal",
+    "curator_patterns": [],
+    "visual_fit_score": 0.9,
+    "visual_fit_hits": [
+      "memory",
+      "urban vernacular"
+    ],
+    "career_buckets": [
+      "high_confidence",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 10.41
+  },
+  {
+    "title": "Zushi Art Gallery",
+    "category": "gallery",
+    "city": "Kanagawa",
+    "priority": "C",
+    "overall_score": 9.4,
+    "difficulty": "unknown_but_likely_low",
+    "recommendation_strength": "skip",
+    "one_sentence": "Regional Japanese gallery with minimal online information and unclear exhibition model—insufficient data to assess legitimacy or fit.",
+    "three_bullets": [
+      "Website exists but provides no clear submission process, exhibition history, or artist roster",
+      "Location in Kanagawa could align with Japan interests, but gallery positioning is completely unclear",
+      "Marked as 'needs review' and 'secondary visibility'—may be commercial, vanity, or informal space"
+    ],
+    "quick_action": "Skip unless you can verify exhibition history and non-commercial model through Japanese-language research",
+    "why_this_fits_short": "Geographic location matches interest in Japan, but everything else is a question mark.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 5,
+    "emotional_fit": 6,
+    "submission_score": 1,
+    "official_website": "https://zushi-art.com/",
+    "submission_page": "https://zushi-art.com/",
+    "source_url": "https://zushi-art.com/",
+    "organization": "Zushi Art Gallery",
+    "tags": [
+      "secondary",
+      "",
+      "unknown_but_likely_low"
+    ],
+    "original_score": 2,
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-05-27",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Galleries / Exhibition Calls",
+    "uncapped_score": 10.0,
+    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.zushi-art.com/",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [],
+    "recommended_body_of_work": "General Portfolio",
+    "portfolio_match_score": 0,
+    "submission_strategy": "quiet_high_prestige",
+    "submission_tone": "restrained and confident",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "high_confidence",
+      "global_reach",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 10.1
+  },
+  {
+    "title": "POST",
+    "category": "bookstore_gallery",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 8.8,
+    "difficulty": "low_moderate",
+    "recommendation_strength": "mild_positive",
+    "one_sentence": "Tokyo art bookshop/gallery with publishing-oriented audience that values atmospheric visual work and cultural documentation.",
+    "three_bullets": [
+      "Low-pressure context bridging illustration and fine art—your atmospheric realism fits naturally here",
+      "Publishing focus means potential catalog/print opportunities beyond exhibition",
+      "Requires research into current programming and cold outreach to proposal submission"
+    ],
+    "quick_action": "Visit website to study recent exhibitions and identify contact person; prepare 3-5 image portfolio and brief proposal if programming aligns.",
+    "why_this_fits_short": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 1,
+    "emotional_fit": 7,
+    "submission_score": 3,
+    "official_website": "https://post-books.info/",
+    "submission_page": "https://post-books.info/",
+    "source_url": "https://post-books.info/",
+    "organization": "POST",
+    "tags": [
+      "secondary",
+      "",
+      "low_moderate"
+    ],
+    "original_score": 6,
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-05-27",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Print / Zines / Bookstores",
+    "uncapped_score": 10.0,
+    "score_sanity_note": "Score capped at 8.8 because source/verification strength is limited.",
+    "url_verification_status": "error",
+    "url_status_code": 0,
+    "url_final": "HTTPSConnectionPool(host='post-books.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIF",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [
+      {
+        "name": "Quiet Japanese Photobook",
+        "hits": 2,
+        "boost": 0.9
+      }
+    ],
+    "lineage_score": 0.9,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 2,
+        "hits": [
+          "atmospheric"
+        ],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "daily_poetic_photography",
+        "title": "Daily Poetic Photography",
+        "description": "A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.",
+        "score": 2,
+        "hits": [
+          "atmospheric"
+        ],
+        "best_formats": [
+          "online feature",
+          "zine",
+          "small publication",
+          "photobook",
+          "artist-run space"
+        ]
+      },
+      {
+        "body_id": "artist_book_printed_matter",
+        "title": "Artist Book / Printed Matter",
+        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+        "score": 2,
+        "hits": [
+          "zine"
+        ],
+        "best_formats": [
+          "book fair",
+          "zine fair",
+          "bookstore",
+          "small press",
+          "publication"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Architecture / Memory / Place",
+    "portfolio_match_score": 2,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "curator_personality_scores": {
+      "quiet_poetic": 1,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "visual_fit_score": 2.6,
+    "visual_fit_hits": [
+      "memory",
+      "zine",
+      "zine"
+    ],
+    "career_buckets": [
+      "high_confidence",
+      "publication_targets",
+      "book_zine_targets",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 10.19
+  },
+  {
+    "title": "AIT Residency",
+    "category": "residency",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 9.4,
+    "difficulty": "Very High",
+    "recommendation_strength": "Low - Information insufficient, likely poor fit",
+    "one_sentence": "Tokyo contemporary art residency with unclear programming details and likely conceptual art emphasis unsuited to your practice approach.",
+    "three_bullets": [
+      "Website provides minimal residency details - would require significant research to understand fit",
+      "AIT known for international contemporary discourse and theory-heavy programming",
+      "Tokyo location less aligned with traditional architecture focus than Kyoto opportunities"
+    ],
+    "quick_action": "Skip unless you specifically want Tokyo contemporary art network exposure and are prepared for conceptual framework expectations",
+    "why_this_fits_short": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 0,
+    "emotional_fit": 3,
+    "submission_score": 2,
+    "official_website": "https://www.a-i-t.net/en/",
+    "submission_page": "https://www.a-i-t.net/en/",
+    "source_url": "https://www.a-i-t.net/en/",
+    "organization": "Arts Initiative Tokyo",
+    "tags": [
+      "secondary",
+      "",
+      "Very High"
+    ],
+    "original_score": 3,
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-05-27",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Residencies / Longer Projects",
+    "uncapped_score": 10.0,
+    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.a-i-t.net/en/",
+    "visual_similarity_score": 0,
+    "visual_similarity_hits": [],
+    "artist_profile_hits": [],
+    "artist_profile_score": 0,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 1,
+        "hits": [
+          "architecture"
+        ],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Architecture / Memory / Place",
+    "portfolio_match_score": 1,
+    "submission_strategy": "quiet_high_prestige",
+    "submission_tone": "restrained and confident",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "visual_fit_score": 0.45,
+    "visual_fit_hits": [
+      "memory"
+    ],
+    "career_buckets": [
+      "high_confidence",
+      "global_reach",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 10.26
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "filename": "Screenshot 2026-05-29 105221.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105221.png",
+    "folder": "artist_images",
+    "width": 647,
+    "height": 855,
+    "aspect": "portrait",
+    "average_rgb": [
+      135.91,
+      130.83,
+      123.75
+    ],
+    "brightness": 131.4,
+    "brightness_class": "muted",
+    "temperature": 1.098,
+    "temperature_class": "neutral",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105221.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105323.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105323.png",
+    "folder": "artist_images",
+    "width": 857,
+    "height": 639,
+    "aspect": "landscape",
+    "average_rgb": [
+      154.37,
+      137.24,
+      115.23
+    ],
+    "brightness": 139.29,
+    "brightness_class": "muted",
+    "temperature": 1.34,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105323.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105338.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105338.png",
+    "folder": "artist_images",
+    "width": 860,
+    "height": 857,
+    "aspect": "square",
+    "average_rgb": [
+      113.72,
+      128.73,
+      111.57
+    ],
+    "brightness": 124.3,
+    "brightness_class": "muted",
+    "temperature": 1.019,
+    "temperature_class": "neutral",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105338.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105403.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105403.png",
+    "folder": "artist_images",
+    "width": 856,
+    "height": 860,
+    "aspect": "square",
+    "average_rgb": [
+      140.63,
+      139.58,
+      124.12
+    ],
+    "brightness": 138.69,
+    "brightness_class": "muted",
+    "temperature": 1.133,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105403.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105420.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105420.png",
+    "folder": "artist_images",
+    "width": 857,
+    "height": 853,
+    "aspect": "square",
+    "average_rgb": [
+      101.69,
+      116.67,
+      95.61
+    ],
+    "brightness": 111.96,
+    "brightness_class": "muted",
+    "temperature": 1.064,
+    "temperature_class": "neutral",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105420.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105510.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105510.png",
+    "folder": "artist_images",
+    "width": 856,
+    "height": 859,
+    "aspect": "square",
+    "average_rgb": [
+      161.05,
+      159.65,
+      140.32
+    ],
+    "brightness": 158.55,
+    "brightness_class": "bright",
+    "temperature": 1.148,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105510.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105531.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105531.png",
+    "folder": "artist_images",
+    "width": 856,
+    "height": 856,
+    "aspect": "square",
+    "average_rgb": [
+      105.34,
+      85.1,
+      74.9
+    ],
+    "brightness": 88.67,
+    "brightness_class": "muted",
+    "temperature": 1.406,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105531.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105610.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105610.png",
+    "folder": "artist_images",
+    "width": 857,
+    "height": 559,
+    "aspect": "landscape",
+    "average_rgb": [
+      157.62,
+      142.5,
+      126.03
+    ],
+    "brightness": 144.53,
+    "brightness_class": "bright",
+    "temperature": 1.251,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105610.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105626.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105626.png",
+    "folder": "artist_images",
+    "width": 854,
+    "height": 858,
+    "aspect": "square",
+    "average_rgb": [
+      136.94,
+      156.3,
+      122.5
+    ],
+    "brightness": 149.74,
+    "brightness_class": "bright",
+    "temperature": 1.118,
+    "temperature_class": "neutral",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105626.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105722.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105722.png",
+    "folder": "artist_images",
+    "width": 716,
+    "height": 858,
+    "aspect": "square",
+    "average_rgb": [
+      108.8,
+      119.4,
+      95.95
+    ],
+    "brightness": 115.45,
+    "brightness_class": "muted",
+    "temperature": 1.134,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105722.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105813.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105813.png",
+    "folder": "artist_images",
+    "width": 712,
+    "height": 863,
+    "aspect": "portrait",
+    "average_rgb": [
+      106.3,
+      113.86,
+      111.83
+    ],
+    "brightness": 112.11,
+    "brightness_class": "muted",
+    "temperature": 0.951,
+    "temperature_class": "neutral",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105813.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105832.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105832.png",
+    "folder": "artist_images",
+    "width": 859,
+    "height": 858,
+    "aspect": "square",
+    "average_rgb": [
+      140.51,
+      149.23,
+      148.83
+    ],
+    "brightness": 147.35,
+    "brightness_class": "bright",
+    "temperature": 0.944,
+    "temperature_class": "neutral",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105832.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105847.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105847.png",
+    "folder": "artist_images",
+    "width": 860,
+    "height": 856,
+    "aspect": "square",
+    "average_rgb": [
+      154.28,
+      144.96,
+      134.94
+    ],
+    "brightness": 146.22,
+    "brightness_class": "bright",
+    "temperature": 1.143,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105847.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105900.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105900.png",
+    "folder": "artist_images",
+    "width": 858,
+    "height": 854,
+    "aspect": "square",
+    "average_rgb": [
+      142.59,
+      148.1,
+      139.97
+    ],
+    "brightness": 146.34,
+    "brightness_class": "bright",
+    "temperature": 1.019,
+    "temperature_class": "neutral",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105900.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105915.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105915.png",
+    "folder": "artist_images",
+    "width": 859,
+    "height": 564,
+    "aspect": "landscape",
+    "average_rgb": [
+      121.65,
+      122.26,
+      115.79
+    ],
+    "brightness": 121.66,
+    "brightness_class": "muted",
+    "temperature": 1.051,
+    "temperature_class": "neutral",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105915.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105931.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105931.png",
+    "folder": "artist_images",
+    "width": 682,
+    "height": 851,
+    "aspect": "portrait",
+    "average_rgb": [
+      163.44,
+      150.95,
+      126.47
+    ],
+    "brightness": 151.84,
+    "brightness_class": "bright",
+    "temperature": 1.292,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105931.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 105946.png",
+    "path": "artist_images\\Screenshot 2026-05-29 105946.png",
+    "folder": "artist_images",
+    "width": 858,
+    "height": 642,
+    "aspect": "landscape",
+    "average_rgb": [
+      166.58,
+      177.95,
+      159.14
+    ],
+    "brightness": 174.17,
+    "brightness_class": "bright",
+    "temperature": 1.047,
+    "temperature_class": "neutral",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 105946.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 110003.png",
+    "path": "artist_images\\Screenshot 2026-05-29 110003.png",
+    "folder": "artist_images",
+    "width": 681,
+    "height": 850,
+    "aspect": "portrait",
+    "average_rgb": [
+      83.03,
+      69.95,
+      66.94
+    ],
+    "brightness": 72.51,
+    "brightness_class": "muted",
+    "temperature": 1.24,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 110003.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 110019.png",
+    "path": "artist_images\\Screenshot 2026-05-29 110019.png",
+    "folder": "artist_images",
+    "width": 683,
+    "height": 859,
+    "aspect": "portrait",
+    "average_rgb": [
+      159.07,
+      140.18,
+      96.63
+    ],
+    "brightness": 141.05,
+    "brightness_class": "bright",
+    "temperature": 1.646,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 110019.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 110038.png",
+    "path": "artist_images\\Screenshot 2026-05-29 110038.png",
+    "folder": "artist_images",
+    "width": 854,
+    "height": 568,
+    "aspect": "landscape",
+    "average_rgb": [
+      160.12,
+      175.81,
+      139.9
+    ],
+    "brightness": 169.88,
+    "brightness_class": "bright",
+    "temperature": 1.145,
+    "temperature_class": "warm",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 110038.png"
+  },
+  {
+    "filename": "Screenshot 2026-05-29 110053.png",
+    "path": "artist_images\\Screenshot 2026-05-29 110053.png",
+    "folder": "artist_images",
+    "width": 858,
+    "height": 446,
+    "aspect": "landscape",
+    "average_rgb": [
+      174.23,
+      196.7,
+      185.76
+    ],
+    "brightness": 191.13,
+    "brightness_class": "bright",
+    "temperature": 0.938,
+    "temperature_class": "neutral",
+    "thumbnail": "memory\\artist_image_analysis\\thumbnails\\Screenshot 2026-05-29 110053.png"
+  }
+]

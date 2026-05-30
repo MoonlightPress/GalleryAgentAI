@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Printed Matter",
+    "region": "USA",
+    "match_strength": "high",
+    "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
+    "best_use": "artist-book ecosystem / fair research",
+    "fit_tags": [
+      "artist book",
+      "printed matter",
+      "zine",
+      "small press"
+    ],
+    "fit_score": 5.4
+  },
+  {
+    "name": "Self Publish, Be Happy",
+    "region": "Global",
+    "match_strength": "high",
+    "why": "Strong match for independent photobook and zine culture.",
+    "best_use": "submission research / community reference",
+    "fit_tags": [
+      "self-publishing",
+      "photobook",
+      "zine",
+      "community"
+    ],
+    "fit_score": 4.4
+  },
+  {
+    "name": "AKAAKA",
+    "region": "Japan",
+    "match_strength": "high",
+    "why": "Japanese photobook publisher with serious photography context; useful for quiet, sequence-driven work.",
+    "best_use": "long-term publisher / benchmark",
+    "fit_tags": [
+      "Japanese photography",
+      "photobook",
+      "quiet sequence",
+      "serious publication"
+    ],
+    "fit_score": 2.7
+  },
+  {
+    "name": "VOID",
+    "region": "Europe",
+    "match_strength": "medium-high",
+    "why": "Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.",
+    "best_use": "publisher benchmark",
+    "fit_tags": [
+      "photobook",
+      "sequence",
+      "Europe"
+    ],
+    "fit_score": 2.6
+  },
+  {
+    "name": "T&M Projects",
+    "region": "Japan",
+    "match_strength": "medium-high",
+    "why": "Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.",
+    "best_use": "publisher research / benchmark",
+    "fit_tags": [
+      "photobook",
+      "Japan",
+      "printed matter"
+    ],
+    "fit_score": 2.1
+  },
+  {
+    "name": "Aperture",
+    "region": "USA",
+    "match_strength": "stretch",
+    "why": "High-prestige photography institution and publication ecosystem; useful for awards, references, and benchmark artists.",
+    "best_use": "stretch opportunity / research source",
+    "fit_tags": [
+      "photography",
+      "publication",
+      "prestige",
+      "portfolio prize"
+    ],
+    "fit_score": 1.8
+  },
+  {
+    "name": "MACK",
+    "region": "UK",
+    "match_strength": "stretch",
+    "why": "Major photobook publisher; probably not immediate, but useful as a long-horizon benchmark.",
+    "best_use": "career benchmark",
+    "fit_tags": [
+      "photobook",
+      "prestige",
+      "stretch"
+    ],
+    "fit_score": 1.5
+  }
+]

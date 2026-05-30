@@ -1,0 +1,38 @@
+{
+  "venue_name": "Center for Book Arts",
+  "venue_slug": "center_for_book_arts",
+  "venue_type": "bookstore / print space",
+  "city": "New York",
+  "country": "",
+  "website": "https://centerforbookarts.org/",
+  "source_links": [
+    "https://centerforbookarts.org/"
+  ],
+  "categories_seen": [
+    "Global Book Arts"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "Center for Book Arts Opportunities"
+  ],
+  "last_researched": "",
+  "created_at": "2026-05-29",
+  "updated_at": "2026-05-29"
+}

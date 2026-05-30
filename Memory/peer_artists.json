@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Rinko Kawauchi",
+    "region": "Japan",
+    "fit_reason": "quiet observation, soft attention to ordinary life, poetic sequencing",
+    "shared_traits": [
+      "quiet photography",
+      "daily life",
+      "memory",
+      "sequence",
+      "soft atmosphere"
+    ],
+    "use_as": "tone reference, not direct stylistic imitation",
+    "fit_score": 5.2,
+    "overlap_terms": [
+      "daily life",
+      "memory",
+      "quiet photography"
+    ]
+  },
+  {
+    "name": "Yoshiyuki Okuyama",
+    "region": "Japan",
+    "fit_reason": "youthful everyday scenes, memory, light, quiet personal atmosphere",
+    "shared_traits": [
+      "daily life",
+      "memory",
+      "intimate scale",
+      "photobook culture"
+    ],
+    "use_as": "reference for accessible poetic sequencing",
+    "fit_score": 4.0,
+    "overlap_terms": [
+      "daily life",
+      "memory"
+    ]
+  },
+  {
+    "name": "Alec Soth",
+    "region": "USA",
+    "fit_reason": "narrative sequencing, place, human trace, photographic storytelling through accumulation",
+    "shared_traits": [
+      "sequence",
+      "place",
+      "human trace",
+      "photobook"
+    ],
+    "use_as": "reference for project structure",
+    "fit_score": 2.2,
+    "overlap_terms": [
+      "human trace"
+    ]
+  },
+  {
+    "name": "Sophie Calle",
+    "region": "France",
+    "fit_reason": "trace, absence, narrative fragments, emotional residue",
+    "shared_traits": [
+      "absence",
+      "trace",
+      "narrative fragments",
+      "memory"
+    ],
+    "use_as": "reference for conceptual framing, not visual style",
+    "fit_score": 2.0,
+    "overlap_terms": [
+      "memory"
+    ]
+  },
+  {
+    "name": "Takashi Homma",
+    "region": "Japan",
+    "fit_reason": "ordinary architecture, suburbs, place-based observation, understated photographic language",
+    "shared_traits": [
+      "architecture",
+      "urban vernacular",
+      "daily place",
+      "cool restraint"
+    ],
+    "use_as": "reference for place and built environment",
+    "fit_score": 1.9,
+    "overlap_terms": [
+      "urban vernacular"
+    ]
+  },
+  {
+    "name": "Batia Suter",
+    "region": "Europe",
+    "fit_reason": "book-oriented image sequencing and associative visual thinking",
+    "shared_traits": [
+      "artist book",
+      "sequence",
+      "visual association",
+      "printed matter"
+    ],
+    "use_as": "reference for book logic",
+    "fit_score": 1.2,
+    "overlap_terms": [
+      "artist book"
+    ]
+  },
+  {
+    "name": "Mark Ruwedel",
+    "region": "USA",
+    "fit_reason": "quiet documentary attention to traces in landscape and built space",
+    "shared_traits": [
+      "trace",
+      "architecture",
+      "absence",
+      "documentary restraint"
+    ],
+    "use_as": "reference for human absence and place",
+    "fit_score": 0.7,
+    "overlap_terms": []
+  },
+  {
+    "name": "Toshio Shibata",
+    "region": "Japan",
+    "fit_reason": "infrastructure, built environment, restrained photographic observation",
+    "shared_traits": [
+      "infrastructure",
+      "architecture",
+      "quiet form",
+      "Japan"
+    ],
+    "use_as": "reference for built structures",
+    "fit_score": 0.7,
+    "overlap_terms": []
+  }
+]

@@ -1,0 +1,54 @@
+# Verification Queue
+
+Top opportunities that need human verification.
+
+- TOKYO ART BOOK FAIR (9.6)
+  - https://tokyoartbookfair.com/
+- Self Publish, Be Happy (9.6)
+  - https://selfpublishbehappy.com/
+- Home - Printed Matter (9.6)
+  - https://www.printedmatter.org/
+- Jackson's Art Prize (9.6)
+  - https://www.jacksonsart.com/paintingprize/
+- Royal Institute of Painters in Water Colours (9.6)
+  - https://www.mallgalleries.org.uk/open-exhibitions
+- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026 (9.6)
+  - https://www.printedmatter.org/programs/events/2250
+- HB Gallery (9.6)
+  - https://hbgallery.com/
+- OPA Gallery (9.6)
+  - https://opagallery.net/
+- Pinpoint Gallery (9.6)
+  - https://pinpointgallery.com/
+- Royal Watercolour Society (9.1)
+  - https://www.royalwatercoloursociety.co.uk/
+- Mall Galleries Open Exhibitions (9.1)
+  - https://www.mallgalleries.org.uk/open-exhibitions
+- Society of Women Artists (9.1)
+  - https://www.society-women-artists.org.uk/
+- Pastel Society Open Exhibition (9.1)
+  - https://www.mallgalleries.org.uk/open-exhibitions
+- UTRECHT (9.0)
+  - https://utrecht.jp/
+- MOUNT ZINE (9.0)
+  - https://zine.mount.co.jp/
+- Book and Sons (9.0)
+  - https://bookandsons.com/
+- Offprint (9.0)
+  - https://offprint.org/
+- POST (9.0)
+  - https://post-books.info/
+- Printed Matter Art Book Fairs (9.0)
+  - https://www.printedmatter.org/
+- Browse Printed Matter Editions (9.0)
+  - https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions
+- Printed Matter, Inc. (9.0)
+  - https://www.printedmatter.org/
+- Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00 (9.0)
+  - https://www.printedmatter.org/catalog/71105
+- ArtConnect Open Calls (9.0)
+  - https://www.artconnect.com/opportunities
+- CuratorSpace (9.0)
+  - https://www.curatorspace.com/opportunities
+- Bologna Children's Book Fair Illustrators Exhibition (9.0)
+  - https://www.bolognachildrensbookfair.com/

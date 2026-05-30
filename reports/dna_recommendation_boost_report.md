@@ -1,0 +1,71 @@
+# DNA Recommendation Boost Report
+
+- TOKYO ART BOOK FAIR: 11.5 → 10; plants in urban/domestic spaces, small businesses and local spaces, low-spectacle documentary attention, photobook, artist book
+- UTRECHT: 11.5 → 10; artist book, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition, anti:heavy conceptual overstatement
+- B&B Shimokitazawa: 11.5 → 10; plants in urban/domestic spaces, small businesses and local spaces, artist book, bookstore/gallery hybrid presentation
+- MOUNT ZINE: 11.5 → 10; artist book, small press sequence
+- flotsam books: 11.5 → 10; artist book, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Comitia: 10.85 → 10; anti:craft-fair positioning
+- Book and Sons: 10.75 → 10; plants in urban/domestic spaces, small businesses and local spaces, quiet observation, low-spectacle documentary attention, bookstore/gallery hybrid presentation
+- NADiff a/p/a/r/t: 10.68 → 10; artist book, bookstore/gallery hybrid presentation
+- Photobook Cafe: 10.6 → 10; quiet streets and lived-in places, quiet observation, photobook, artist book, bookstore/gallery hybrid presentation
+- AIR 3331: 10.41 → 10; plants in urban/domestic spaces, human trace rather than direct portraiture, small businesses and local spaces, anti:single-image contest logic unless the image is unusually strong, anti:heavy conceptual overstatement
+- Offprint: 10.3 → 10; quiet streets and lived-in places, quiet observation, artist book
+- BankART1929: 10.26 → 10; ordinary architecture, plants in urban/domestic spaces, small businesses and local spaces, artist book
+- Youkobo Art Space: 10.26 → 10; small businesses and local spaces, place as emotional subject, artist book
+- Tokyo Wonder Site / TOKAS Residency: 10.26 → 10; human trace rather than direct portraiture, place as emotional subject, anti:craft-fair positioning
+- Aperture | Photography: 10.24 → 10; photobook, anti:spectacle-driven exhibition
+- The Photographers' Gallery: 10.12 → 10; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Koganecho Area Management Center: 10.1 → 10; plants in urban/domestic spaces, small businesses and local spaces, quiet observation, artist book
+- 3331 Arts Chiyoda: 10.1 → 10; quiet streets and lived-in places, quiet observation, artist book, anti:heavy conceptual overstatement
+- DESIGN FESTA GALLERY: 10.1 → 10; plants in urban/domestic spaces, small businesses and local spaces, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- SCAI The Bathhouse: 10.1 → 10; human trace rather than direct portraiture, artist book, bookstore/gallery hybrid presentation
+- Gallery IRO: 10.1 → 10; bookstore/gallery hybrid presentation
+- Gallery HANA Shimokitazawa: 10.1 → 10; small businesses and local spaces, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- TAV Gallery: 10.1 → 10; place as emotional subject, bookstore/gallery hybrid presentation
+- VACANT: 10.1 → 10; artist book, bookstore/gallery hybrid presentation
+- Aperture Portfolio Prize / Opportunities: 10.06 → 10; artist book
+- Self Publish, Be Happy: 9.8 → 10; quiet streets and lived-in places, human trace rather than direct portraiture, quiet observation, photobook, artist book
+- Cafe Mame-Hico: 10.1 → 9.99; small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- POST: 10.19 → 9.96; bookstore/gallery hybrid presentation, anti:heavy conceptual overstatement
+- Center for Book Arts Opportunities: 10.18 → 9.95; artist book, anti:spectacle-driven exhibition
+- Tokyo Arts and Space: 10.26 → 9.91; anti:spectacle-driven exhibition
+- AIT Residency: 10.26 → 9.91; anti:heavy conceptual overstatement
+- www.futures-photography.com: 9.79 → 9.91; artist book
+- Design Festa: 10.1 → 9.87; human trace rather than direct portraiture, anti:generic commercial art market
+- Aoyama Farmers Market: 10.1 → 9.87; small press sequence, anti:generic commercial art market
+- Cafe Cross Point: 10.1 → 9.87; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Yonchome Cafe: 10.1 → 9.87; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Zushi Art Gallery: 10.1 → 9.87; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Printed Matter Art Book Fairs: 9.73 → 9.86; human trace rather than direct portraiture, small businesses and local spaces, artist book, small press sequence, anti:single-image contest logic unless the image is unusually strong
+- PhotoVogue Open Calls: 9.42 → 9.78; place as emotional subject, low-spectacle documentary attention, artist book
+- Cafe Gallery HATTIFNATT: 10.1 → 9.64; small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition, anti:craft-fair positioning
+- DER GREIF: 9.86 → 9.63; photobook, anti:spectacle-driven exhibition
+- reload Shimokitazawa: 10.26 → 9.57; plants in urban/domestic spaces, human trace rather than direct portraiture, artist book, anti:spectacle-driven exhibition, anti:generic commercial art market
+- X: 9.44 → 9.56; artist book
+- HandMade In Japan Fes: 9.75 → 9.53; plants in urban/domestic spaces, human trace rather than direct portraiture, small businesses and local spaces, place as emotional subject, anti:generic commercial art market
+- BONUS TRACK: 10.1 → 9.52; artist book, anti:spectacle-driven exhibition, anti:generic commercial art market
+- Gallery Conceal Shibuya: 10.1 → 9.52; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition, anti:craft-fair positioning
+- Home - Printed Matter: 9.4 → 9.41; ordinary architecture, photobook, artist book, anti:spectacle-driven exhibition
+- Creative Space Hayashi: 9.44 → 9.33; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- The Container: 9.28 → 9.29; small businesses and local spaces, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- LensCulture - Contemporary Photography: 9.44 → 9.21; artist book, anti:spectacle-driven exhibition
+- Der Greif Open Calls: 9.38 → 9.15; small press sequence, anti:single-image contest logic unless the image is unusually strong
+- Browse Printed Matter Editions: 8.9 → 9.02; artist book
+- Printed Matter, Inc.: 8.9 → 9.02; artist book
+- Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00: 8.9 → 9.02; artist book
+- LensCulture Awards / Open Calls: 9.21 → 8.86; anti:single-image contest logic unless the image is unusually strong
+- PhotoVogue: 8.84 → 8.49; anti:spectacle-driven exhibition
+- RAW TOKYO: 9.28 → 8.47; human trace rather than direct portraiture, place as emotional subject, anti:spectacle-driven exhibition, anti:generic commercial art market, anti:craft-fair positioning
+- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026: 8.45 → 8.34; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- See all exhibitions: 8.45 → 8.34; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Spiral: 5.3 → 5.19; human trace rather than direct portraiture, bookstore/gallery hybrid presentation, anti:generic commercial art market
+- Picaresque Gallery: 5.46 → 4.53; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition, anti:generic commercial art market, anti:craft-fair positioning
+- www.facebook.com: 2.0 → 2.12; artist book
+- Continue Reading: 2.0 → 2.12; artist book
+- Pinterest: 2.0 → 2.12; artist book
+- Instagram: 2.0 → 2.12; artist book
+- Tiktok: 2.0 → 2.12; artist book
+- Magazine Subscribers: 2.0 → 2.12; artist book
+- Magazine Subscription: 2.0 → 2.12; artist book
+- MADO Café: 2.0 → 2.01; small businesses and local spaces, small press sequence, bookstore/gallery hybrid presentation, anti:craft-fair positioning

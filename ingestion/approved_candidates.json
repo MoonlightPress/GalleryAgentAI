@@ -1,0 +1,184 @@
+[
+  {
+    "title": "Home - Printed Matter",
+    "organization": "Printed Matter",
+    "category": "global_photobook",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 8.1,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.printedmatter.org/",
+    "official_website": "https://www.printedmatter.org/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from Printed Matter. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture"
+    ],
+    "fit_keyword_hits": [
+      "photobook",
+      "zine",
+      "printed matter",
+      "photography",
+      "book fair",
+      "exhibition",
+      "memory",
+      "architecture"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: photobook, zine, book fair, printed matter",
+      "weak: photography, exhibition, book"
+    ]
+  },
+  {
+    "title": "Aperture | Photography",
+    "organization": "Aperture",
+    "category": "global_photobook",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 6.3,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://aperture.org/",
+    "official_website": "https://aperture.org/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from Aperture. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: photobook, zine, photography, exhibition"
+    ],
+    "fit_keyword_hits": [
+      "photobook",
+      "zine",
+      "photography",
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: photobook, zine",
+      "weak: photography, exhibition, book"
+    ]
+  },
+  {
+    "title": "PhotoVogue",
+    "organization": "PhotoVogue",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.85,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.vogue.com/photovogue",
+    "official_website": "https://www.vogue.com/photovogue",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from PhotoVogue. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, exhibition",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: open call, submission, exhibition"
+    ],
+    "fit_keyword_hits": [
+      "open call",
+      "submission",
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: submission, open call",
+      "weak: exhibition"
+    ]
+  },
+  {
+    "title": "DER GREIF",
+    "organization": "Der Greif",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.85,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://dergreif.org/",
+    "official_website": "https://dergreif.org/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from Der Greif. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, portfolio review, photography",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: open call, portfolio review, photography"
+    ],
+    "fit_keyword_hits": [
+      "open call",
+      "portfolio review",
+      "photography"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: portfolio review, open call",
+      "weak: photography"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+
+from smart_pipeline_runner import run_pipeline
+
+PIPELINE = [
+    "opportunity_report_engine.py",
+    "analysis_cache_builder.py",
+    "research_queue_report.py",
+    "inquiry_draft_generator.py",
+    "pipeline_debug_summary.py",
+]
+
+run_pipeline(PIPELINE)

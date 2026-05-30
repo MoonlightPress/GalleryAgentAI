@@ -1,0 +1,87 @@
+
+
+.mochi-visual-card{
+background:rgba(255,250,243,.96);
+border:1px solid #e6d4b8;
+border-radius:24px;
+padding:18px;
+min-height:240px;
+box-shadow:0 8px 22px rgba(80,55,30,.07);
+transition:.18s ease;
+}
+
+.mochi-visual-card:hover{
+transform:translateY(-3px);
+box-shadow:0 14px 30px rgba(80,55,30,.11);
+}
+
+.visual-card-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:14px;
+}
+
+.visual-card-icon{
+width:52px;
+height:52px;
+border-radius:18px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:1.5rem;
+background:#f5e8d2;
+}
+
+.visual-card-score{
+font-size:.92rem;
+padding:7px 12px;
+border-radius:999px;
+background:#f4ecd9;
+color:#71553b;
+font-weight:700;
+}
+
+.visual-card-title{
+font-size:1.25rem;
+font-weight:700;
+line-height:1.15;
+margin-bottom:8px;
+color:#3d2b20;
+}
+
+.visual-card-location{
+font-size:.82rem;
+letter-spacing:.03em;
+text-transform:uppercase;
+color:#8a7563;
+margin-bottom:12px;
+}
+
+.visual-card-why{
+font-size:.96rem;
+line-height:1.6;
+color:#5d4b3b;
+}
+
+.mochi-detail-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:18px;
+margin-top:18px;
+}
+
+.mochi-detail-panel{
+background:rgba(255,251,245,.97);
+border:1px solid #e8d7bb;
+border-radius:24px;
+padding:20px;
+}
+
+.mochi-panel-title{
+font-size:1.1rem;
+font-weight:700;
+margin-bottom:12px;
+color:#3f2d21;
+}
+

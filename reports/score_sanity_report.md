@@ -1,0 +1,51 @@
+# Score Sanity Report
+
+This report caps inflated scores when verification is weak.
+
+- TOKYO ART BOOK FAIR: 10.0 → 9.4
+- UTRECHT: 10.0 → 9.4
+- Offprint: 10.0 → 8.6
+- BONUS TRACK: 10.0 → 9.4
+- B&B Shimokitazawa: 10.0 → 9.4
+- Comitia: 10.0 → 9.4
+- reload Shimokitazawa: 10.0 → 9.4
+- Design Festa: 10.0 → 9.4
+- Aoyama Farmers Market: 10.0 → 9.4
+- HandMade In Japan Fes: 10.0 → 9.4
+- Photobook Cafe: 10.0 → 8.6
+- Book and Sons: 10.0 → 9.4
+- Cafe Cross Point: 10.0 → 9.4
+- MADO Café: 10.0 → 9.4
+- Cafe Gallery HATTIFNATT: 10.0 → 9.4
+- Cafe Mame-Hico: 10.0 → 9.4
+- Yonchome Cafe: 10.0 → 9.4
+- MOUNT ZINE: 10.0 → 9.4
+- flotsam books: 10.0 → 9.4
+- AIR 3331: 10.0 → 9.4
+- BankART1929: 10.0 → 9.4
+- Youkobo Art Space: 10.0 → 9.4
+- Tokyo Wonder Site / TOKAS Residency: 10.0 → 9.4
+- Koganecho Area Management Center: 10.0 → 9.4
+- 3331 Arts Chiyoda: 10.0 → 9.4
+- DESIGN FESTA GALLERY: 10.0 → 9.4
+- POST: 10.0 → 8.8
+- Tokyo Arts and Space: 10.0 → 9.4
+- AIT Residency: 10.0 → 9.4
+- SCAI The Bathhouse: 10.0 → 9.4
+- Creative Space Hayashi: 10.0 → 8.8
+- Gallery IRO: 10.0 → 9.4
+- Gallery HANA Shimokitazawa: 10.0 → 9.4
+- TAV Gallery: 10.0 → 9.4
+- VACANT: 10.0 → 9.4
+- Gallery Conceal Shibuya: 10.0 → 9.4
+- Zushi Art Gallery: 10.0 → 9.4
+- The Container: 10.0 → 8.8
+- Open Calls: 10.0 → 8.6
+- Center for Book Arts Opportunities: 9.8 → 8.6
+- Home - Printed Matter: 9.6 → 8.0
+- Printed Matter Art Book Fairs: 9.5 → 8.0
+- Der Greif Open Calls: 9.5 → 8.6
+- PhotoVogue Open Calls: 9.45 → 8.6
+- RAW TOKYO: 9.4 → 8.8
+- NADiff a/p/a/r/t: 9.4 → 8.8
+- Self Publish, Be Happy: 9.2 → 8.0

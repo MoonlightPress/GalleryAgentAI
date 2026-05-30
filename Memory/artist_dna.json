@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "image_count": 21,
+  "dominant_color_families": {
+    "concrete_gray": 6,
+    "muted_green": 6,
+    "aged_wood_or_warm_wall": 4,
+    "soft_mixed_neutral": 4,
+    "muted_red": 1
+  },
+  "orientation_mix": {
+    "square_or_near_square": 13,
+    "landscape": 6,
+    "portrait": 2
+  },
+  "mood_signal_frequency": {
+    "soft_mid_brightness": 19,
+    "moderate_contrast": 17,
+    "quiet_observational": 16,
+    "high_contrast": 4,
+    "dark": 1,
+    "light": 1
+  },
+  "inferred_artist_dna": {
+    "core_subject_likelihoods": [
+      "ordinary architecture",
+      "plants in urban/domestic spaces",
+      "quiet streets and lived-in places",
+      "human trace rather than direct portraiture",
+      "small businesses and local spaces"
+    ],
+    "visual_behavior": [
+      "quiet observation",
+      "soft color restraint",
+      "sequence-friendly images",
+      "place as emotional subject",
+      "low-spectacle documentary attention"
+    ],
+    "best_project_formats": [
+      "photobook",
+      "zine",
+      "artist book",
+      "small press sequence",
+      "bookstore/gallery hybrid presentation"
+    ],
+    "anti_patterns": [
+      "spectacle-driven exhibition",
+      "generic commercial art market",
+      "craft-fair positioning",
+      "single-image contest logic unless the image is unusually strong",
+      "heavy conceptual overstatement"
+    ],
+    "recommended_next_projects": [
+      "Quiet Neighborhood Memory",
+      "Human Trace Study",
+      "Small Press City Walk",
+      "Quiet Architecture"
+    ]
+  }
+}

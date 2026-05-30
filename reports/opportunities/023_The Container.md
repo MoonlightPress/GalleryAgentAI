@@ -1,7 +1,7 @@
 # The Container
 
 ## 1. Quick Judgment
-**Fit score:** 8.4/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
@@ -45,4 +45,4 @@ Skip unless you find concrete evidence of their exhibition model and artist sele
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-05-28_
+_Last generated: 2026-05-29_

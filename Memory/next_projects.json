@@ -1,0 +1,541 @@
+[
+  {
+    "id": "quiet_neighborhood_memory",
+    "title": "Quiet Neighborhood Memory",
+    "type": "photobook / zine sequence",
+    "promise": "A quiet sequence about ordinary neighborhoods, small shops, plants, thresholds, and traces of daily life.",
+    "why_this_matters": "This is the clearest fit with the visual profile: memory, human trace, lived-in architecture, and slow observational photography.",
+    "image_brief": [
+      "Select 18–24 images.",
+      "Prioritize streets, small businesses, plants, doors, laundry, fences, stairs, yards, and quiet shopfronts.",
+      "Choose images that imply human presence without needing people in the frame.",
+      "Avoid travel-postcard images and isolated cute details unless they add rhythm."
+    ],
+    "sequence_shape": [
+      "Open with a strong place-setting image.",
+      "Move through repeated motifs: plants, walls, thresholds, traces of use.",
+      "Include 2–3 wider street/context images as breathers.",
+      "End with an image that feels unresolved rather than final."
+    ],
+    "target_terms": [
+      "photobook",
+      "zine",
+      "artist book",
+      "small press",
+      "book fair",
+      "memory",
+      "place",
+      "daily life"
+    ],
+    "first_action": "Make a 20-image edit and title it provisionally. Do not write the full statement yet.",
+    "best_opportunity_targets": [
+      {
+        "title": "TOKYO ART BOOK FAIR",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "photobook",
+          "zine",
+          "artist book",
+          "book fair"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+        "source": "https://tokyoartbookfair.com/"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+        "source": "https://utrecht.jp/"
+      },
+      {
+        "title": "B&B Shimokitazawa",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program photographers without publication angle",
+        "source": "https://bookandbeer.com/"
+      },
+      {
+        "title": "MOUNT ZINE",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+        "source": "https://zine.mount.co.jp/"
+      },
+      {
+        "title": "flotsam books",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+        "source": "https://www.flotsambooks.com/"
+      },
+      {
+        "title": "Comitia",
+        "score": 9.4,
+        "differentiated_score": 10.85,
+        "verification": "partial",
+        "hits": [
+          "zine"
+        ],
+        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+        "source": "https://www.comitia.co.jp/"
+      },
+      {
+        "title": "Book and Sons",
+        "score": 9.4,
+        "differentiated_score": 10.75,
+        "verification": "partial",
+        "hits": [
+          "zine"
+        ],
+        "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
+        "source": "https://bookandsons.com/"
+      },
+      {
+        "title": "NADiff a/p/a/r/t",
+        "score": 8.8,
+        "differentiated_score": 10.68,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+        "source": "https://www.nadiff.com/"
+      }
+    ],
+    "best_publisher_targets": [
+      {
+        "name": "Printed Matter",
+        "fit_score": 5.4,
+        "match_strength": "high",
+        "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
+        "hits": [
+          "zine",
+          "artist book",
+          "small press"
+        ]
+      },
+      {
+        "name": "Self Publish, Be Happy",
+        "fit_score": 4.4,
+        "match_strength": "high",
+        "why": "Strong match for independent photobook and zine culture.",
+        "hits": [
+          "photobook",
+          "zine"
+        ]
+      },
+      {
+        "name": "AKAAKA",
+        "fit_score": 2.7,
+        "match_strength": "high",
+        "why": "Japanese photobook publisher with serious photography context; useful for quiet, sequence-driven work.",
+        "hits": [
+          "photobook"
+        ]
+      },
+      {
+        "name": "VOID",
+        "fit_score": 2.6,
+        "match_strength": "medium-high",
+        "why": "Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.",
+        "hits": [
+          "photobook"
+        ]
+      },
+      {
+        "name": "T&M Projects",
+        "fit_score": 2.1,
+        "match_strength": "medium-high",
+        "why": "Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.",
+        "hits": [
+          "photobook"
+        ]
+      },
+      {
+        "name": "MACK",
+        "fit_score": 1.5,
+        "match_strength": "stretch",
+        "why": "Major photobook publisher; probably not immediate, but useful as a long-horizon benchmark.",
+        "hits": [
+          "photobook"
+        ]
+      }
+    ],
+    "dna_refinement": {
+      "prioritize": [
+        "ordinary architecture",
+        "plants in urban/domestic spaces",
+        "quiet streets and lived-in places",
+        "human trace rather than direct portraiture",
+        "small businesses and local spaces",
+        "quiet observation",
+        "soft color restraint",
+        "sequence-friendly images",
+        "place as emotional subject",
+        "low-spectacle documentary attention"
+      ],
+      "avoid": [
+        "spectacle-driven exhibition",
+        "generic commercial art market",
+        "craft-fair positioning",
+        "single-image contest logic unless the image is unusually strong",
+        "heavy conceptual overstatement"
+      ],
+      "editing_rule": "Keep images that strengthen place, trace, sequence, and quiet observation. Remove images that only function as attractive single images."
+    }
+  },
+  {
+    "id": "human_trace_study",
+    "title": "Human Trace Study",
+    "type": "artist-book / portfolio sequence",
+    "promise": "A tighter study of spaces shaped by use: fences, laundry, paths, windows, plants, signs, worn surfaces, and domestic edges.",
+    "why_this_matters": "This gives the work a sharper conceptual hook without making it heavy or academic.",
+    "image_brief": [
+      "Select 12–18 images.",
+      "Each image should show evidence of human life without making people the subject.",
+      "Favor surfaces, repairs, improvised arrangements, plants, signage, and domestic thresholds.",
+      "Remove anything that is only pretty."
+    ],
+    "sequence_shape": [
+      "Start with an image that clearly establishes trace.",
+      "Build through variations: care, neglect, adaptation, routine.",
+      "Keep the edit restrained.",
+      "End with the quietest image, not the most dramatic one."
+    ],
+    "target_terms": [
+      "human trace",
+      "memory",
+      "architecture",
+      "daily life",
+      "documentary",
+      "artist book",
+      "portfolio review"
+    ],
+    "first_action": "Build the edit as a PDF contact sheet first, then reduce it by half.",
+    "best_opportunity_targets": [
+      {
+        "title": "TOKYO ART BOOK FAIR",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "documentary",
+          "artist book"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+        "source": "https://tokyoartbookfair.com/"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+        "source": "https://utrecht.jp/"
+      },
+      {
+        "title": "B&B Shimokitazawa",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program photographers without publication angle",
+        "source": "https://bookandbeer.com/"
+      },
+      {
+        "title": "MOUNT ZINE",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+        "source": "https://zine.mount.co.jp/"
+      },
+      {
+        "title": "flotsam books",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+        "source": "https://www.flotsambooks.com/"
+      },
+      {
+        "title": "NADiff a/p/a/r/t",
+        "score": 8.8,
+        "differentiated_score": 10.68,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+        "source": "https://www.nadiff.com/"
+      },
+      {
+        "title": "Photobook Cafe",
+        "score": 7.6,
+        "differentiated_score": 10.6,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.",
+        "source": "https://www.photobookcafe.co.uk/"
+      },
+      {
+        "title": "AIR 3331",
+        "score": 9.4,
+        "differentiated_score": 10.41,
+        "verification": "partial",
+        "hits": [
+          "memory"
+        ],
+        "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
+        "source": "https://residence.3331.jp/"
+      }
+    ],
+    "best_publisher_targets": [
+      {
+        "name": "Printed Matter",
+        "fit_score": 5.4,
+        "match_strength": "high",
+        "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
+        "hits": [
+          "artist book"
+        ]
+      }
+    ],
+    "dna_refinement": {
+      "prioritize": [
+        "ordinary architecture",
+        "plants in urban/domestic spaces",
+        "quiet streets and lived-in places",
+        "human trace rather than direct portraiture",
+        "small businesses and local spaces",
+        "quiet observation",
+        "soft color restraint",
+        "sequence-friendly images",
+        "place as emotional subject",
+        "low-spectacle documentary attention"
+      ],
+      "avoid": [
+        "spectacle-driven exhibition",
+        "generic commercial art market",
+        "craft-fair positioning",
+        "single-image contest logic unless the image is unusually strong",
+        "heavy conceptual overstatement"
+      ],
+      "editing_rule": "Keep images that strengthen place, trace, sequence, and quiet observation. Remove images that only function as attractive single images."
+    }
+  },
+  {
+    "id": "small_press_walk",
+    "title": "Small Press City Walk",
+    "type": "short zine",
+    "promise": "A small, approachable zine built from one neighborhood walk, structured by visual rhythm rather than explanation.",
+    "why_this_matters": "This is the fastest project to finish and the best low-pressure way into zine/bookstore opportunities.",
+    "image_brief": [
+      "Use one neighborhood or one walk.",
+      "Select 10–16 images.",
+      "Make the sequence feel like noticing things while moving through a place.",
+      "Include small surprises but avoid novelty for its own sake."
+    ],
+    "sequence_shape": [
+      "Begin outside.",
+      "Move toward details.",
+      "Return to a wider image near the end.",
+      "Close with something modest but memorable."
+    ],
+    "target_terms": [
+      "zine",
+      "small press",
+      "bookstore",
+      "book fair",
+      "artist book",
+      "local",
+      "independent publishing"
+    ],
+    "first_action": "Create a 12-image version first. This is the easiest thing to make real.",
+    "best_opportunity_targets": [
+      {
+        "title": "TOKYO ART BOOK FAIR",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "book fair",
+          "artist book",
+          "independent publishing"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+        "source": "https://tokyoartbookfair.com/"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+        "source": "https://utrecht.jp/"
+      },
+      {
+        "title": "B&B Shimokitazawa",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program photographers without publication angle",
+        "source": "https://bookandbeer.com/"
+      },
+      {
+        "title": "MOUNT ZINE",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+        "source": "https://zine.mount.co.jp/"
+      },
+      {
+        "title": "flotsam books",
+        "score": 9.4,
+        "differentiated_score": 11.5,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+        "source": "https://www.flotsambooks.com/"
+      },
+      {
+        "title": "Comitia",
+        "score": 9.4,
+        "differentiated_score": 10.85,
+        "verification": "partial",
+        "hits": [
+          "zine"
+        ],
+        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+        "source": "https://www.comitia.co.jp/"
+      },
+      {
+        "title": "Book and Sons",
+        "score": 9.4,
+        "differentiated_score": 10.75,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "bookstore"
+        ],
+        "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
+        "source": "https://bookandsons.com/"
+      },
+      {
+        "title": "NADiff a/p/a/r/t",
+        "score": 8.8,
+        "differentiated_score": 10.68,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+        "source": "https://www.nadiff.com/"
+      }
+    ],
+    "best_publisher_targets": [
+      {
+        "name": "Printed Matter",
+        "fit_score": 5.4,
+        "match_strength": "high",
+        "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
+        "hits": [
+          "zine",
+          "small press",
+          "artist book"
+        ]
+      },
+      {
+        "name": "Self Publish, Be Happy",
+        "fit_score": 4.4,
+        "match_strength": "high",
+        "why": "Strong match for independent photobook and zine culture.",
+        "hits": [
+          "zine"
+        ]
+      }
+    ],
+    "dna_refinement": {
+      "prioritize": [
+        "ordinary architecture",
+        "plants in urban/domestic spaces",
+        "quiet streets and lived-in places",
+        "human trace rather than direct portraiture",
+        "small businesses and local spaces",
+        "quiet observation",
+        "soft color restraint",
+        "sequence-friendly images",
+        "place as emotional subject",
+        "low-spectacle documentary attention"
+      ],
+      "avoid": [
+        "spectacle-driven exhibition",
+        "generic commercial art market",
+        "craft-fair positioning",
+        "single-image contest logic unless the image is unusually strong",
+        "heavy conceptual overstatement"
+      ],
+      "editing_rule": "Keep images that strengthen place, trace, sequence, and quiet observation. Remove images that only function as attractive single images."
+    }
+  }
+]

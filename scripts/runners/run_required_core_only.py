@@ -1,0 +1,26 @@
+
+from smart_pipeline_runner import run_pipeline
+
+PIPELINE = [
+    "web_ingestion_engine.py",
+    "scraped_candidate_extractor.py",
+    "candidate_quality_gate.py",
+    "approved_candidate_importer.py",
+    "url_verification_engine.py",
+    "global_opportunity_expander.py",
+    "opportunity_enrichment_pipeline.py",
+    "venue_intelligence_builder.py",
+    "venue_memory_engine.py",
+    "score_sanity_engine.py",
+    "career_strategy_engine.py",
+    "global_strategy_rebalance.py",
+    "final_score_guard.py",
+    "opportunity_report_engine.py",
+    "analysis_cache_builder.py",
+    "research_queue_report.py",
+    "inquiry_draft_generator.py",
+    "pipeline_debug_summary.py",
+    "opportunity_status_engine.py",
+]
+
+run_pipeline(PIPELINE)

@@ -1,0 +1,5967 @@
+{
+  "career_changing": [
+    {
+      "title": "TOKYO ART BOOK FAIR",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://tokyoartbookfair.com/"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://utrecht.jp/"
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_event",
+      "country": "",
+      "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://bookandbeer.com/"
+    },
+    {
+      "title": "MOUNT ZINE",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "flotsam books",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.flotsambooks.com/"
+    },
+    {
+      "title": "NADiff a/p/a/r/t",
+      "score": 8.8,
+      "differentiated_score": 10.68,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.nadiff.com/"
+    },
+    {
+      "title": "Photobook Cafe",
+      "score": 8.6,
+      "differentiated_score": 10.6,
+      "visual_fit_score": 5.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook_space",
+      "country": "UK",
+      "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.",
+      "visual_hits": [
+        "artist book",
+        "photobook",
+        "artist book",
+        "photobook",
+        "artist_book"
+      ],
+      "source": "https://www.photobookcafe.co.uk/"
+    },
+    {
+      "title": "Offprint",
+      "score": 8.6,
+      "differentiated_score": 10.3,
+      "visual_fit_score": 3.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_art_book_fair",
+      "country": "France / UK",
+      "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://offprint.org/"
+    },
+    {
+      "title": "Aperture | Photography",
+      "score": 8.6,
+      "differentiated_score": 10.24,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "Center for Book Arts Opportunities",
+      "score": 8.6,
+      "differentiated_score": 10.18,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_book_arts",
+      "country": "USA",
+      "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://centerforbookarts.org/"
+    },
+    {
+      "title": "The Photographers' Gallery",
+      "score": 8.6,
+      "differentiated_score": 10.12,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_institution",
+      "country": "UK",
+      "why": "Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://thephotographersgallery.org.uk/"
+    },
+    {
+      "title": "Aperture Portfolio Prize / Opportunities",
+      "score": 8.6,
+      "differentiated_score": 10.06,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_publication",
+      "country": "USA / Global",
+      "why": "Very high-prestige but difficult; useful as a long-term benchmark and possible stretch opportunity.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "Self Publish, Be Happy",
+      "score": 8.0,
+      "differentiated_score": 9.8,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "global_photobook_platform",
+      "country": "UK / Global",
+      "why": "Strong fit for an artist whose work can live as quiet photobook or zine sequences rather than conventional gallery proposals.",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://selfpublishbehappy.com/"
+    },
+    {
+      "title": "www.facebook.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.facebook.com/dergreif.photography/"
+    },
+    {
+      "title": "Continue Reading",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://dergreif.org/article/the-everyday-street-photography-of-svilen-nachev"
+    },
+    {
+      "title": "www.futures-photography.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.futures-photography.com"
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "score": 8.0,
+      "differentiated_score": 9.73,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_art_book_fair",
+      "country": "USA",
+      "why": "Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "X",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://twitter.com/voguemagazine"
+    },
+    {
+      "title": "Pinterest",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://pinterest.com/voguemagazine/"
+    },
+    {
+      "title": "Instagram",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.instagram.com/voguemagazine/"
+    },
+    {
+      "title": "Tiktok",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.tiktok.com/@voguemagazine?lang=en"
+    },
+    {
+      "title": "Magazine Subscribers",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/MYSUBSCRIPTION"
+    },
+    {
+      "title": "Magazine Subscription",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/subscribe?type=full"
+    },
+    {
+      "title": "LensCulture - Contemporary Photography",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: zine, photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.lensculture.com/"
+    },
+    {
+      "title": "PhotoVogue Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.42,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_online_feature",
+      "country": "Global",
+      "why": "Useful for international exposure if her work can be framed as poetic documentary, memory, place, or contemporary visual storytelling.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.vogue.com/photovogue"
+    },
+    {
+      "title": "Home - Printed Matter",
+      "score": 8.0,
+      "differentiated_score": 9.4,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture",
+      "visual_hits": [
+        "memory",
+        "artist book",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Browse Printed Matter Editions",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions"
+    },
+    {
+      "title": "Printed Matter, Inc.",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/71105"
+    },
+    {
+      "title": "PhotoVogue",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: open call, submission, exhibition",
+      "visual_hits": [],
+      "source": "https://www.vogue.com/photovogue"
+    },
+    {
+      "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/events/2250"
+    },
+    {
+      "title": "See all exhibitions",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/1-exhibitions"
+    }
+  ],
+  "high_confidence": [
+    {
+      "title": "TOKYO ART BOOK FAIR",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://tokyoartbookfair.com/"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://utrecht.jp/"
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_event",
+      "country": "",
+      "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://bookandbeer.com/"
+    },
+    {
+      "title": "MOUNT ZINE",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "flotsam books",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.flotsambooks.com/"
+    },
+    {
+      "title": "Comitia",
+      "score": 9.4,
+      "differentiated_score": 10.85,
+      "visual_fit_score": 2.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "zine",
+        "zine"
+      ],
+      "source": "https://www.comitia.co.jp/"
+    },
+    {
+      "title": "Book and Sons",
+      "score": 9.4,
+      "differentiated_score": 10.75,
+      "visual_fit_score": 1.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
+      "visual_hits": [
+        "zine",
+        "zine",
+        "commercial_gallery"
+      ],
+      "source": "https://bookandsons.com/"
+    },
+    {
+      "title": "NADiff a/p/a/r/t",
+      "score": 8.8,
+      "differentiated_score": 10.68,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.nadiff.com/"
+    },
+    {
+      "title": "AIR 3331",
+      "score": 9.4,
+      "differentiated_score": 10.41,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
+      "visual_hits": [
+        "memory",
+        "urban vernacular"
+      ],
+      "source": "https://residence.3331.jp/"
+    },
+    {
+      "title": "reload Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
+      "visual_hits": [
+        "urban vernacular"
+      ],
+      "source": "https://reload-shimokita.com/"
+    },
+    {
+      "title": "BankART1929",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://bankart1929.com/"
+    },
+    {
+      "title": "Youkobo Art Space",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.youkobo.co.jp/en/"
+    },
+    {
+      "title": "Tokyo Wonder Site / TOKAS Residency",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than illustrator.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
+    },
+    {
+      "title": "Tokyo Arts and Space",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "institutional",
+      "country": "",
+      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/"
+    },
+    {
+      "title": "AIT Residency",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.a-i-t.net/en/"
+    },
+    {
+      "title": "POST",
+      "score": 8.8,
+      "differentiated_score": 10.19,
+      "visual_fit_score": 2.6,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.",
+      "visual_hits": [
+        "memory",
+        "zine",
+        "zine"
+      ],
+      "source": "https://post-books.info/"
+    },
+    {
+      "title": "BONUS TRACK",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
+      "visual_hits": [],
+      "source": "https://bonus-track.net/"
+    },
+    {
+      "title": "Design Festa",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
+      "visual_hits": [],
+      "source": "https://designfesta.com/"
+    },
+    {
+      "title": "Aoyama Farmers Market",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
+      "visual_hits": [],
+      "source": "https://farmersmarkets.jp/"
+    },
+    {
+      "title": "Cafe Cross Point",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
+      "visual_hits": [],
+      "source": "https://cafecrosspoint.jp/"
+    },
+    {
+      "title": "MADO Café",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/madocafe/"
+    },
+    {
+      "title": "Cafe Gallery HATTIFNATT",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
+      "visual_hits": [],
+      "source": "https://www.hattifnatt.jp/"
+    },
+    {
+      "title": "Cafe Mame-Hico",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
+      "visual_hits": [],
+      "source": "https://www.mamehico.com/"
+    },
+    {
+      "title": "Yonchome Cafe",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
+      "visual_hits": [],
+      "source": "https://www.yonchome.com/"
+    },
+    {
+      "title": "Koganecho Area Management Center",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.",
+      "visual_hits": [],
+      "source": "https://koganecho.net/"
+    },
+    {
+      "title": "3331 Arts Chiyoda",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach",
+      "visual_hits": [],
+      "source": "https://www.3331.jp/"
+    },
+    {
+      "title": "DESIGN FESTA GALLERY",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "It doesn't fit. This matches two specific categories you've identified as harmful: tourist-focused exhibition spaces and pay-to-play gallery models. Tokyo location alone doesn't override the structural mismatch.",
+      "visual_hits": [],
+      "source": "https://designfestagallery.com/"
+    },
+    {
+      "title": "SCAI The Bathhouse",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.",
+      "visual_hits": [],
+      "source": "https://www.scaithebathhouse.com/"
+    },
+    {
+      "title": "Gallery IRO",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location aligns with Japan focus, but business model uncertainty creates risk of misaligned investment.",
+      "visual_hits": [],
+      "source": "https://1-6.jp/iro/"
+    },
+    {
+      "title": "Gallery HANA Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location appeals, but lack of verifiable program information creates backward investment—you'd spend energy investigating whether it's worth investigating. Not strategic.",
+      "visual_hits": [],
+      "source": "https://www.g-hana.jp/"
+    },
+    {
+      "title": "TAV Gallery",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location aligns with your Japan interest and Asian architectural subject matter, but fit depends entirely on information not yet available",
+      "visual_hits": [],
+      "source": "https://tavgallery.com/"
+    },
+    {
+      "title": "VACANT",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "event_space",
+      "country": "",
+      "why": "Tokyo location theoretically aligns with Asia-Pacific focus, but lack of visible programming makes actual fit impossible to assess",
+      "visual_hits": [],
+      "source": "https://www.vacant.vc/"
+    },
+    {
+      "title": "Gallery Conceal Shibuya",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "It doesn't. This conflicts with your strategic goal to avoid pay-to-play venues that dilute positioning, and offers no clear institutional or career benefit.",
+      "visual_hits": [],
+      "source": "https://galleryconceal.wixsite.com/gconceal"
+    },
+    {
+      "title": "Zushi Art Gallery",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic location matches interest in Japan, but everything else is a question mark.",
+      "visual_hits": [],
+      "source": "https://zushi-art.com/"
+    },
+    {
+      "title": "HandMade In Japan Fes",
+      "score": 9.4,
+      "differentiated_score": 9.75,
+      "visual_fit_score": -1.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary painter documenting disappearing spaces, despite your work having visual appeal.",
+      "visual_hits": [
+        "craft_market"
+      ],
+      "source": "https://hmj-fes.jp/"
+    },
+    {
+      "title": "Creative Space Hayashi",
+      "score": 8.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic location in Japan aligns with your interest in Asia-Pacific opportunities, but that's the only clear fit element.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://csh.yokohama/"
+    },
+    {
+      "title": "The Container",
+      "score": 8.8,
+      "differentiated_score": 9.28,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but everything else is a question mark requiring energy-intensive investigation.",
+      "visual_hits": [],
+      "source": "https://www.the-container.com/"
+    },
+    {
+      "title": "RAW TOKYO",
+      "score": 8.8,
+      "differentiated_score": 9.28,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
+      "visual_hits": [],
+      "source": "https://rawtokyo.jp/"
+    },
+    {
+      "title": "Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
+      "visual_hits": [],
+      "source": "https://dergreif.org/open-call"
+    }
+  ],
+  "publication_targets": [
+    {
+      "title": "TOKYO ART BOOK FAIR",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://tokyoartbookfair.com/"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://utrecht.jp/"
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_event",
+      "country": "",
+      "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://bookandbeer.com/"
+    },
+    {
+      "title": "MOUNT ZINE",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "flotsam books",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.flotsambooks.com/"
+    },
+    {
+      "title": "Comitia",
+      "score": 9.4,
+      "differentiated_score": 10.85,
+      "visual_fit_score": 2.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "zine",
+        "zine"
+      ],
+      "source": "https://www.comitia.co.jp/"
+    },
+    {
+      "title": "Book and Sons",
+      "score": 9.4,
+      "differentiated_score": 10.75,
+      "visual_fit_score": 1.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
+      "visual_hits": [
+        "zine",
+        "zine",
+        "commercial_gallery"
+      ],
+      "source": "https://bookandsons.com/"
+    },
+    {
+      "title": "NADiff a/p/a/r/t",
+      "score": 8.8,
+      "differentiated_score": 10.68,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.nadiff.com/"
+    },
+    {
+      "title": "Photobook Cafe",
+      "score": 8.6,
+      "differentiated_score": 10.6,
+      "visual_fit_score": 5.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook_space",
+      "country": "UK",
+      "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.",
+      "visual_hits": [
+        "artist book",
+        "photobook",
+        "artist book",
+        "photobook",
+        "artist_book"
+      ],
+      "source": "https://www.photobookcafe.co.uk/"
+    },
+    {
+      "title": "Offprint",
+      "score": 8.6,
+      "differentiated_score": 10.3,
+      "visual_fit_score": 3.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_art_book_fair",
+      "country": "France / UK",
+      "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://offprint.org/"
+    },
+    {
+      "title": "Aperture | Photography",
+      "score": 8.6,
+      "differentiated_score": 10.24,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "POST",
+      "score": 8.8,
+      "differentiated_score": 10.19,
+      "visual_fit_score": 2.6,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.",
+      "visual_hits": [
+        "memory",
+        "zine",
+        "zine"
+      ],
+      "source": "https://post-books.info/"
+    },
+    {
+      "title": "Center for Book Arts Opportunities",
+      "score": 8.6,
+      "differentiated_score": 10.18,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_book_arts",
+      "country": "USA",
+      "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://centerforbookarts.org/"
+    },
+    {
+      "title": "The Photographers' Gallery",
+      "score": 8.6,
+      "differentiated_score": 10.12,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_institution",
+      "country": "UK",
+      "why": "Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://thephotographersgallery.org.uk/"
+    },
+    {
+      "title": "Aperture Portfolio Prize / Opportunities",
+      "score": 8.6,
+      "differentiated_score": 10.06,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_publication",
+      "country": "USA / Global",
+      "why": "Very high-prestige but difficult; useful as a long-term benchmark and possible stretch opportunity.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "DER GREIF",
+      "score": 8.6,
+      "differentiated_score": 9.86,
+      "visual_fit_score": 2.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, open call, portfolio review, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "photobook"
+      ],
+      "source": "https://dergreif.org/"
+    },
+    {
+      "title": "Self Publish, Be Happy",
+      "score": 8.0,
+      "differentiated_score": 9.8,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "global_photobook_platform",
+      "country": "UK / Global",
+      "why": "Strong fit for an artist whose work can live as quiet photobook or zine sequences rather than conventional gallery proposals.",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://selfpublishbehappy.com/"
+    },
+    {
+      "title": "www.facebook.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.facebook.com/dergreif.photography/"
+    },
+    {
+      "title": "Continue Reading",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://dergreif.org/article/the-everyday-street-photography-of-svilen-nachev"
+    },
+    {
+      "title": "www.futures-photography.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.futures-photography.com"
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "score": 8.0,
+      "differentiated_score": 9.73,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_art_book_fair",
+      "country": "USA",
+      "why": "Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "X",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://twitter.com/voguemagazine"
+    },
+    {
+      "title": "Pinterest",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://pinterest.com/voguemagazine/"
+    },
+    {
+      "title": "Instagram",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.instagram.com/voguemagazine/"
+    },
+    {
+      "title": "Tiktok",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.tiktok.com/@voguemagazine?lang=en"
+    },
+    {
+      "title": "Magazine Subscribers",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/MYSUBSCRIPTION"
+    },
+    {
+      "title": "Magazine Subscription",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/subscribe?type=full"
+    },
+    {
+      "title": "LensCulture - Contemporary Photography",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: zine, photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.lensculture.com/"
+    },
+    {
+      "title": "Home - Printed Matter",
+      "score": 8.0,
+      "differentiated_score": 9.4,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture",
+      "visual_hits": [
+        "memory",
+        "artist book",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Der Greif Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.38,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_open_call",
+      "country": "Germany / Global",
+      "why": "Potential fit for poetic, atmospheric photography if her work is sequenced around a strong theme.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://dergreif.org/"
+    },
+    {
+      "title": "Browse Printed Matter Editions",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions"
+    },
+    {
+      "title": "Printed Matter, Inc.",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/71105"
+    },
+    {
+      "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/events/2250"
+    },
+    {
+      "title": "See all exhibitions",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/1-exhibitions"
+    }
+  ],
+  "book_zine_targets": [
+    {
+      "title": "TOKYO ART BOOK FAIR",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://tokyoartbookfair.com/"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://utrecht.jp/"
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_event",
+      "country": "",
+      "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://bookandbeer.com/"
+    },
+    {
+      "title": "MOUNT ZINE",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "flotsam books",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.flotsambooks.com/"
+    },
+    {
+      "title": "Comitia",
+      "score": 9.4,
+      "differentiated_score": 10.85,
+      "visual_fit_score": 2.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "zine",
+        "zine"
+      ],
+      "source": "https://www.comitia.co.jp/"
+    },
+    {
+      "title": "Book and Sons",
+      "score": 9.4,
+      "differentiated_score": 10.75,
+      "visual_fit_score": 1.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
+      "visual_hits": [
+        "zine",
+        "zine",
+        "commercial_gallery"
+      ],
+      "source": "https://bookandsons.com/"
+    },
+    {
+      "title": "NADiff a/p/a/r/t",
+      "score": 8.8,
+      "differentiated_score": 10.68,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.nadiff.com/"
+    },
+    {
+      "title": "Photobook Cafe",
+      "score": 8.6,
+      "differentiated_score": 10.6,
+      "visual_fit_score": 5.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook_space",
+      "country": "UK",
+      "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.",
+      "visual_hits": [
+        "artist book",
+        "photobook",
+        "artist book",
+        "photobook",
+        "artist_book"
+      ],
+      "source": "https://www.photobookcafe.co.uk/"
+    },
+    {
+      "title": "Offprint",
+      "score": 8.6,
+      "differentiated_score": 10.3,
+      "visual_fit_score": 3.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_art_book_fair",
+      "country": "France / UK",
+      "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://offprint.org/"
+    },
+    {
+      "title": "Aperture | Photography",
+      "score": 8.6,
+      "differentiated_score": 10.24,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "POST",
+      "score": 8.8,
+      "differentiated_score": 10.19,
+      "visual_fit_score": 2.6,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.",
+      "visual_hits": [
+        "memory",
+        "zine",
+        "zine"
+      ],
+      "source": "https://post-books.info/"
+    },
+    {
+      "title": "Center for Book Arts Opportunities",
+      "score": 8.6,
+      "differentiated_score": 10.18,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_book_arts",
+      "country": "USA",
+      "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://centerforbookarts.org/"
+    },
+    {
+      "title": "The Photographers' Gallery",
+      "score": 8.6,
+      "differentiated_score": 10.12,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_institution",
+      "country": "UK",
+      "why": "Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://thephotographersgallery.org.uk/"
+    },
+    {
+      "title": "Aperture Portfolio Prize / Opportunities",
+      "score": 8.6,
+      "differentiated_score": 10.06,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_publication",
+      "country": "USA / Global",
+      "why": "Very high-prestige but difficult; useful as a long-term benchmark and possible stretch opportunity.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "DER GREIF",
+      "score": 8.6,
+      "differentiated_score": 9.86,
+      "visual_fit_score": 2.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, open call, portfolio review, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "photobook"
+      ],
+      "source": "https://dergreif.org/"
+    },
+    {
+      "title": "Self Publish, Be Happy",
+      "score": 8.0,
+      "differentiated_score": 9.8,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "global_photobook_platform",
+      "country": "UK / Global",
+      "why": "Strong fit for an artist whose work can live as quiet photobook or zine sequences rather than conventional gallery proposals.",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://selfpublishbehappy.com/"
+    },
+    {
+      "title": "www.facebook.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.facebook.com/dergreif.photography/"
+    },
+    {
+      "title": "Continue Reading",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://dergreif.org/article/the-everyday-street-photography-of-svilen-nachev"
+    },
+    {
+      "title": "www.futures-photography.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.futures-photography.com"
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "score": 8.0,
+      "differentiated_score": 9.73,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_art_book_fair",
+      "country": "USA",
+      "why": "Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "X",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://twitter.com/voguemagazine"
+    },
+    {
+      "title": "Pinterest",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://pinterest.com/voguemagazine/"
+    },
+    {
+      "title": "Instagram",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.instagram.com/voguemagazine/"
+    },
+    {
+      "title": "Tiktok",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.tiktok.com/@voguemagazine?lang=en"
+    },
+    {
+      "title": "Magazine Subscribers",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/MYSUBSCRIPTION"
+    },
+    {
+      "title": "Magazine Subscription",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/subscribe?type=full"
+    },
+    {
+      "title": "LensCulture - Contemporary Photography",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: zine, photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.lensculture.com/"
+    },
+    {
+      "title": "Home - Printed Matter",
+      "score": 8.0,
+      "differentiated_score": 9.4,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture",
+      "visual_hits": [
+        "memory",
+        "artist book",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Browse Printed Matter Editions",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions"
+    },
+    {
+      "title": "Printed Matter, Inc.",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/71105"
+    },
+    {
+      "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/events/2250"
+    },
+    {
+      "title": "See all exhibitions",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/1-exhibitions"
+    }
+  ],
+  "global_reach": [
+    {
+      "title": "Book and Sons",
+      "score": 9.4,
+      "differentiated_score": 10.75,
+      "visual_fit_score": 1.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
+      "visual_hits": [
+        "zine",
+        "zine",
+        "commercial_gallery"
+      ],
+      "source": "https://bookandsons.com/"
+    },
+    {
+      "title": "Photobook Cafe",
+      "score": 8.6,
+      "differentiated_score": 10.6,
+      "visual_fit_score": 5.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook_space",
+      "country": "UK",
+      "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.",
+      "visual_hits": [
+        "artist book",
+        "photobook",
+        "artist book",
+        "photobook",
+        "artist_book"
+      ],
+      "source": "https://www.photobookcafe.co.uk/"
+    },
+    {
+      "title": "Offprint",
+      "score": 8.6,
+      "differentiated_score": 10.3,
+      "visual_fit_score": 3.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_art_book_fair",
+      "country": "France / UK",
+      "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://offprint.org/"
+    },
+    {
+      "title": "BankART1929",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://bankart1929.com/"
+    },
+    {
+      "title": "Youkobo Art Space",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.youkobo.co.jp/en/"
+    },
+    {
+      "title": "Tokyo Wonder Site / TOKAS Residency",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than illustrator.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
+    },
+    {
+      "title": "AIT Residency",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.a-i-t.net/en/"
+    },
+    {
+      "title": "Aperture | Photography",
+      "score": 8.6,
+      "differentiated_score": 10.24,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "Center for Book Arts Opportunities",
+      "score": 8.6,
+      "differentiated_score": 10.18,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_book_arts",
+      "country": "USA",
+      "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://centerforbookarts.org/"
+    },
+    {
+      "title": "The Photographers' Gallery",
+      "score": 8.6,
+      "differentiated_score": 10.12,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_institution",
+      "country": "UK",
+      "why": "Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://thephotographersgallery.org.uk/"
+    },
+    {
+      "title": "Design Festa",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
+      "visual_hits": [],
+      "source": "https://designfesta.com/"
+    },
+    {
+      "title": "SCAI The Bathhouse",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.",
+      "visual_hits": [],
+      "source": "https://www.scaithebathhouse.com/"
+    },
+    {
+      "title": "Gallery HANA Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location appeals, but lack of verifiable program information creates backward investment—you'd spend energy investigating whether it's worth investigating. Not strategic.",
+      "visual_hits": [],
+      "source": "https://www.g-hana.jp/"
+    },
+    {
+      "title": "Zushi Art Gallery",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic location matches interest in Japan, but everything else is a question mark.",
+      "visual_hits": [],
+      "source": "https://zushi-art.com/"
+    },
+    {
+      "title": "Aperture Portfolio Prize / Opportunities",
+      "score": 8.6,
+      "differentiated_score": 10.06,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_publication",
+      "country": "USA / Global",
+      "why": "Very high-prestige but difficult; useful as a long-term benchmark and possible stretch opportunity.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "DER GREIF",
+      "score": 8.6,
+      "differentiated_score": 9.86,
+      "visual_fit_score": 2.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, open call, portfolio review, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "photobook"
+      ],
+      "source": "https://dergreif.org/"
+    },
+    {
+      "title": "Self Publish, Be Happy",
+      "score": 8.0,
+      "differentiated_score": 9.8,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "global_photobook_platform",
+      "country": "UK / Global",
+      "why": "Strong fit for an artist whose work can live as quiet photobook or zine sequences rather than conventional gallery proposals.",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://selfpublishbehappy.com/"
+    },
+    {
+      "title": "www.facebook.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.facebook.com/dergreif.photography/"
+    },
+    {
+      "title": "Continue Reading",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://dergreif.org/article/the-everyday-street-photography-of-svilen-nachev"
+    },
+    {
+      "title": "www.futures-photography.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.futures-photography.com"
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "score": 8.0,
+      "differentiated_score": 9.73,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_art_book_fair",
+      "country": "USA",
+      "why": "Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "X",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://twitter.com/voguemagazine"
+    },
+    {
+      "title": "Pinterest",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://pinterest.com/voguemagazine/"
+    },
+    {
+      "title": "Instagram",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.instagram.com/voguemagazine/"
+    },
+    {
+      "title": "Tiktok",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.tiktok.com/@voguemagazine?lang=en"
+    },
+    {
+      "title": "Magazine Subscribers",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/MYSUBSCRIPTION"
+    },
+    {
+      "title": "Magazine Subscription",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/subscribe?type=full"
+    },
+    {
+      "title": "LensCulture - Contemporary Photography",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: zine, photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.lensculture.com/"
+    },
+    {
+      "title": "PhotoVogue Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.42,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_online_feature",
+      "country": "Global",
+      "why": "Useful for international exposure if her work can be framed as poetic documentary, memory, place, or contemporary visual storytelling.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.vogue.com/photovogue"
+    },
+    {
+      "title": "Home - Printed Matter",
+      "score": 8.0,
+      "differentiated_score": 9.4,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture",
+      "visual_hits": [
+        "memory",
+        "artist book",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Der Greif Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.38,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_open_call",
+      "country": "Germany / Global",
+      "why": "Potential fit for poetic, atmospheric photography if her work is sequenced around a strong theme.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://dergreif.org/"
+    },
+    {
+      "title": "The Container",
+      "score": 8.8,
+      "differentiated_score": 9.28,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but everything else is a question mark requiring energy-intensive investigation.",
+      "visual_hits": [],
+      "source": "https://www.the-container.com/"
+    },
+    {
+      "title": "LensCulture Awards / Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.21,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_open_call",
+      "country": "Global",
+      "why": "Potentially useful if her strongest body of work can be shaped into a coherent photo series with a clear statement.",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/"
+    },
+    {
+      "title": "Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
+      "visual_hits": [],
+      "source": "https://dergreif.org/open-call"
+    },
+    {
+      "title": "Browse Printed Matter Editions",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions"
+    },
+    {
+      "title": "Printed Matter, Inc.",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/71105"
+    },
+    {
+      "title": "Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/photo-competitions/street-photography-awards"
+    },
+    {
+      "title": "Learn",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/photography-free-guides"
+    },
+    {
+      "title": "Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/articles/vladimir-khorev-characters-subtle-street-photography-from-taiwan"
+    },
+    {
+      "title": "Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/articles/jim-casper-21st-century-street-photography-250-new-examples"
+    },
+    {
+      "title": "PhotoVogue",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: open call, submission, exhibition",
+      "visual_hits": [],
+      "source": "https://www.vogue.com/photovogue"
+    },
+    {
+      "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/events/2250"
+    },
+    {
+      "title": "See all exhibitions",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/1-exhibitions"
+    }
+  ],
+  "easy_wins": [
+    {
+      "title": "TOKYO ART BOOK FAIR",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://tokyoartbookfair.com/"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://utrecht.jp/"
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_event",
+      "country": "",
+      "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://bookandbeer.com/"
+    },
+    {
+      "title": "MOUNT ZINE",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "flotsam books",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.flotsambooks.com/"
+    },
+    {
+      "title": "Comitia",
+      "score": 9.4,
+      "differentiated_score": 10.85,
+      "visual_fit_score": 2.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "zine",
+        "zine"
+      ],
+      "source": "https://www.comitia.co.jp/"
+    },
+    {
+      "title": "Book and Sons",
+      "score": 9.4,
+      "differentiated_score": 10.75,
+      "visual_fit_score": 1.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
+      "visual_hits": [
+        "zine",
+        "zine",
+        "commercial_gallery"
+      ],
+      "source": "https://bookandsons.com/"
+    },
+    {
+      "title": "NADiff a/p/a/r/t",
+      "score": 8.8,
+      "differentiated_score": 10.68,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.nadiff.com/"
+    },
+    {
+      "title": "AIR 3331",
+      "score": 9.4,
+      "differentiated_score": 10.41,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
+      "visual_hits": [
+        "memory",
+        "urban vernacular"
+      ],
+      "source": "https://residence.3331.jp/"
+    },
+    {
+      "title": "reload Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
+      "visual_hits": [
+        "urban vernacular"
+      ],
+      "source": "https://reload-shimokita.com/"
+    },
+    {
+      "title": "BankART1929",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://bankart1929.com/"
+    },
+    {
+      "title": "Youkobo Art Space",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.youkobo.co.jp/en/"
+    },
+    {
+      "title": "Tokyo Wonder Site / TOKAS Residency",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than illustrator.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
+    },
+    {
+      "title": "Tokyo Arts and Space",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "institutional",
+      "country": "",
+      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/"
+    },
+    {
+      "title": "AIT Residency",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.a-i-t.net/en/"
+    },
+    {
+      "title": "Aperture | Photography",
+      "score": 8.6,
+      "differentiated_score": 10.24,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "POST",
+      "score": 8.8,
+      "differentiated_score": 10.19,
+      "visual_fit_score": 2.6,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.",
+      "visual_hits": [
+        "memory",
+        "zine",
+        "zine"
+      ],
+      "source": "https://post-books.info/"
+    },
+    {
+      "title": "BONUS TRACK",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
+      "visual_hits": [],
+      "source": "https://bonus-track.net/"
+    },
+    {
+      "title": "Design Festa",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
+      "visual_hits": [],
+      "source": "https://designfesta.com/"
+    },
+    {
+      "title": "Aoyama Farmers Market",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
+      "visual_hits": [],
+      "source": "https://farmersmarkets.jp/"
+    },
+    {
+      "title": "Cafe Cross Point",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
+      "visual_hits": [],
+      "source": "https://cafecrosspoint.jp/"
+    },
+    {
+      "title": "MADO Café",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/madocafe/"
+    },
+    {
+      "title": "Cafe Gallery HATTIFNATT",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
+      "visual_hits": [],
+      "source": "https://www.hattifnatt.jp/"
+    },
+    {
+      "title": "Cafe Mame-Hico",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
+      "visual_hits": [],
+      "source": "https://www.mamehico.com/"
+    },
+    {
+      "title": "Yonchome Cafe",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
+      "visual_hits": [],
+      "source": "https://www.yonchome.com/"
+    },
+    {
+      "title": "Koganecho Area Management Center",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.",
+      "visual_hits": [],
+      "source": "https://koganecho.net/"
+    },
+    {
+      "title": "3331 Arts Chiyoda",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach",
+      "visual_hits": [],
+      "source": "https://www.3331.jp/"
+    },
+    {
+      "title": "DESIGN FESTA GALLERY",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "It doesn't fit. This matches two specific categories you've identified as harmful: tourist-focused exhibition spaces and pay-to-play gallery models. Tokyo location alone doesn't override the structural mismatch.",
+      "visual_hits": [],
+      "source": "https://designfestagallery.com/"
+    },
+    {
+      "title": "SCAI The Bathhouse",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.",
+      "visual_hits": [],
+      "source": "https://www.scaithebathhouse.com/"
+    },
+    {
+      "title": "Gallery IRO",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location aligns with Japan focus, but business model uncertainty creates risk of misaligned investment.",
+      "visual_hits": [],
+      "source": "https://1-6.jp/iro/"
+    },
+    {
+      "title": "Gallery HANA Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location appeals, but lack of verifiable program information creates backward investment—you'd spend energy investigating whether it's worth investigating. Not strategic.",
+      "visual_hits": [],
+      "source": "https://www.g-hana.jp/"
+    },
+    {
+      "title": "TAV Gallery",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location aligns with your Japan interest and Asian architectural subject matter, but fit depends entirely on information not yet available",
+      "visual_hits": [],
+      "source": "https://tavgallery.com/"
+    },
+    {
+      "title": "VACANT",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "event_space",
+      "country": "",
+      "why": "Tokyo location theoretically aligns with Asia-Pacific focus, but lack of visible programming makes actual fit impossible to assess",
+      "visual_hits": [],
+      "source": "https://www.vacant.vc/"
+    },
+    {
+      "title": "Gallery Conceal Shibuya",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "It doesn't. This conflicts with your strategic goal to avoid pay-to-play venues that dilute positioning, and offers no clear institutional or career benefit.",
+      "visual_hits": [],
+      "source": "https://galleryconceal.wixsite.com/gconceal"
+    },
+    {
+      "title": "Zushi Art Gallery",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic location matches interest in Japan, but everything else is a question mark.",
+      "visual_hits": [],
+      "source": "https://zushi-art.com/"
+    },
+    {
+      "title": "DER GREIF",
+      "score": 8.6,
+      "differentiated_score": 9.86,
+      "visual_fit_score": 2.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, open call, portfolio review, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "photobook"
+      ],
+      "source": "https://dergreif.org/"
+    },
+    {
+      "title": "www.facebook.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.facebook.com/dergreif.photography/"
+    },
+    {
+      "title": "Continue Reading",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://dergreif.org/article/the-everyday-street-photography-of-svilen-nachev"
+    },
+    {
+      "title": "www.futures-photography.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.futures-photography.com"
+    },
+    {
+      "title": "HandMade In Japan Fes",
+      "score": 9.4,
+      "differentiated_score": 9.75,
+      "visual_fit_score": -1.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary painter documenting disappearing spaces, despite your work having visual appeal.",
+      "visual_hits": [
+        "craft_market"
+      ],
+      "source": "https://hmj-fes.jp/"
+    },
+    {
+      "title": "Creative Space Hayashi",
+      "score": 8.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic location in Japan aligns with your interest in Asia-Pacific opportunities, but that's the only clear fit element.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://csh.yokohama/"
+    },
+    {
+      "title": "X",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://twitter.com/voguemagazine"
+    },
+    {
+      "title": "Pinterest",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://pinterest.com/voguemagazine/"
+    },
+    {
+      "title": "Instagram",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.instagram.com/voguemagazine/"
+    },
+    {
+      "title": "Tiktok",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.tiktok.com/@voguemagazine?lang=en"
+    },
+    {
+      "title": "Magazine Subscribers",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/MYSUBSCRIPTION"
+    },
+    {
+      "title": "Magazine Subscription",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/subscribe?type=full"
+    },
+    {
+      "title": "LensCulture - Contemporary Photography",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: zine, photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.lensculture.com/"
+    },
+    {
+      "title": "Home - Printed Matter",
+      "score": 8.0,
+      "differentiated_score": 9.4,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture",
+      "visual_hits": [
+        "memory",
+        "artist book",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "The Container",
+      "score": 8.8,
+      "differentiated_score": 9.28,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but everything else is a question mark requiring energy-intensive investigation.",
+      "visual_hits": [],
+      "source": "https://www.the-container.com/"
+    },
+    {
+      "title": "RAW TOKYO",
+      "score": 8.8,
+      "differentiated_score": 9.28,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
+      "visual_hits": [],
+      "source": "https://rawtokyo.jp/"
+    },
+    {
+      "title": "Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
+      "visual_hits": [],
+      "source": "https://dergreif.org/open-call"
+    },
+    {
+      "title": "Browse Printed Matter Editions",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions"
+    },
+    {
+      "title": "Printed Matter, Inc.",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/71105"
+    },
+    {
+      "title": "Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/photo-competitions/street-photography-awards"
+    },
+    {
+      "title": "Learn",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/photography-free-guides"
+    },
+    {
+      "title": "Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/articles/vladimir-khorev-characters-subtle-street-photography-from-taiwan"
+    },
+    {
+      "title": "Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/articles/jim-casper-21st-century-street-photography-250-new-examples"
+    },
+    {
+      "title": "PhotoVogue",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: open call, submission, exhibition",
+      "visual_hits": [],
+      "source": "https://www.vogue.com/photovogue"
+    },
+    {
+      "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/events/2250"
+    },
+    {
+      "title": "See all exhibitions",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/1-exhibitions"
+    }
+  ],
+  "relationship_builders": [
+    {
+      "title": "TOKYO ART BOOK FAIR",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://tokyoartbookfair.com/"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://utrecht.jp/"
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_event",
+      "country": "",
+      "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://bookandbeer.com/"
+    },
+    {
+      "title": "MOUNT ZINE",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "flotsam books",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.flotsambooks.com/"
+    },
+    {
+      "title": "Comitia",
+      "score": 9.4,
+      "differentiated_score": 10.85,
+      "visual_fit_score": 2.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "zine",
+        "zine"
+      ],
+      "source": "https://www.comitia.co.jp/"
+    },
+    {
+      "title": "Book and Sons",
+      "score": 9.4,
+      "differentiated_score": 10.75,
+      "visual_fit_score": 1.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
+      "visual_hits": [
+        "zine",
+        "zine",
+        "commercial_gallery"
+      ],
+      "source": "https://bookandsons.com/"
+    },
+    {
+      "title": "NADiff a/p/a/r/t",
+      "score": 8.8,
+      "differentiated_score": 10.68,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.nadiff.com/"
+    },
+    {
+      "title": "Photobook Cafe",
+      "score": 8.6,
+      "differentiated_score": 10.6,
+      "visual_fit_score": 5.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook_space",
+      "country": "UK",
+      "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.",
+      "visual_hits": [
+        "artist book",
+        "photobook",
+        "artist book",
+        "photobook",
+        "artist_book"
+      ],
+      "source": "https://www.photobookcafe.co.uk/"
+    },
+    {
+      "title": "reload Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
+      "visual_hits": [
+        "urban vernacular"
+      ],
+      "source": "https://reload-shimokita.com/"
+    },
+    {
+      "title": "POST",
+      "score": 8.8,
+      "differentiated_score": 10.19,
+      "visual_fit_score": 2.6,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.",
+      "visual_hits": [
+        "memory",
+        "zine",
+        "zine"
+      ],
+      "source": "https://post-books.info/"
+    },
+    {
+      "title": "BONUS TRACK",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
+      "visual_hits": [],
+      "source": "https://bonus-track.net/"
+    },
+    {
+      "title": "Design Festa",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
+      "visual_hits": [],
+      "source": "https://designfesta.com/"
+    },
+    {
+      "title": "Aoyama Farmers Market",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
+      "visual_hits": [],
+      "source": "https://farmersmarkets.jp/"
+    },
+    {
+      "title": "Cafe Cross Point",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
+      "visual_hits": [],
+      "source": "https://cafecrosspoint.jp/"
+    },
+    {
+      "title": "MADO Café",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/madocafe/"
+    },
+    {
+      "title": "Cafe Gallery HATTIFNATT",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
+      "visual_hits": [],
+      "source": "https://www.hattifnatt.jp/"
+    },
+    {
+      "title": "Cafe Mame-Hico",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
+      "visual_hits": [],
+      "source": "https://www.mamehico.com/"
+    },
+    {
+      "title": "Yonchome Cafe",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
+      "visual_hits": [],
+      "source": "https://www.yonchome.com/"
+    },
+    {
+      "title": "Koganecho Area Management Center",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.",
+      "visual_hits": [],
+      "source": "https://koganecho.net/"
+    },
+    {
+      "title": "3331 Arts Chiyoda",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach",
+      "visual_hits": [],
+      "source": "https://www.3331.jp/"
+    },
+    {
+      "title": "DESIGN FESTA GALLERY",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "It doesn't fit. This matches two specific categories you've identified as harmful: tourist-focused exhibition spaces and pay-to-play gallery models. Tokyo location alone doesn't override the structural mismatch.",
+      "visual_hits": [],
+      "source": "https://designfestagallery.com/"
+    },
+    {
+      "title": "SCAI The Bathhouse",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.",
+      "visual_hits": [],
+      "source": "https://www.scaithebathhouse.com/"
+    },
+    {
+      "title": "Self Publish, Be Happy",
+      "score": 8.0,
+      "differentiated_score": 9.8,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "global_photobook_platform",
+      "country": "UK / Global",
+      "why": "Strong fit for an artist whose work can live as quiet photobook or zine sequences rather than conventional gallery proposals.",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://selfpublishbehappy.com/"
+    },
+    {
+      "title": "HandMade In Japan Fes",
+      "score": 9.4,
+      "differentiated_score": 9.75,
+      "visual_fit_score": -1.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary painter documenting disappearing spaces, despite your work having visual appeal.",
+      "visual_hits": [
+        "craft_market"
+      ],
+      "source": "https://hmj-fes.jp/"
+    },
+    {
+      "title": "X",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://twitter.com/voguemagazine"
+    },
+    {
+      "title": "Pinterest",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://pinterest.com/voguemagazine/"
+    },
+    {
+      "title": "Instagram",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.instagram.com/voguemagazine/"
+    },
+    {
+      "title": "Tiktok",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.tiktok.com/@voguemagazine?lang=en"
+    },
+    {
+      "title": "Magazine Subscribers",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/MYSUBSCRIPTION"
+    },
+    {
+      "title": "Magazine Subscription",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/subscribe?type=full"
+    },
+    {
+      "title": "LensCulture - Contemporary Photography",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: zine, photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.lensculture.com/"
+    },
+    {
+      "title": "RAW TOKYO",
+      "score": 8.8,
+      "differentiated_score": 9.28,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
+      "visual_hits": [],
+      "source": "https://rawtokyo.jp/"
+    },
+    {
+      "title": "Browse Printed Matter Editions",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions"
+    },
+    {
+      "title": "Printed Matter, Inc.",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/71105"
+    },
+    {
+      "title": "Spiral",
+      "score": 4.6,
+      "differentiated_score": 5.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_event",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
+      "visual_hits": [],
+      "source": "https://www.spiral.co.jp/"
+    }
+  ],
+  "needs_research": [
+    {
+      "title": "TOKYO ART BOOK FAIR",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://tokyoartbookfair.com/"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://utrecht.jp/"
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_event",
+      "country": "",
+      "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://bookandbeer.com/"
+    },
+    {
+      "title": "MOUNT ZINE",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "flotsam books",
+      "score": 9.4,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.flotsambooks.com/"
+    },
+    {
+      "title": "Comitia",
+      "score": 9.4,
+      "differentiated_score": 10.85,
+      "visual_fit_score": 2.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "zine",
+        "zine"
+      ],
+      "source": "https://www.comitia.co.jp/"
+    },
+    {
+      "title": "Book and Sons",
+      "score": 9.4,
+      "differentiated_score": 10.75,
+      "visual_fit_score": 1.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
+      "visual_hits": [
+        "zine",
+        "zine",
+        "commercial_gallery"
+      ],
+      "source": "https://bookandsons.com/"
+    },
+    {
+      "title": "NADiff a/p/a/r/t",
+      "score": 8.8,
+      "differentiated_score": 10.68,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.nadiff.com/"
+    },
+    {
+      "title": "Photobook Cafe",
+      "score": 8.6,
+      "differentiated_score": 10.6,
+      "visual_fit_score": 5.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook_space",
+      "country": "UK",
+      "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.",
+      "visual_hits": [
+        "artist book",
+        "photobook",
+        "artist book",
+        "photobook",
+        "artist_book"
+      ],
+      "source": "https://www.photobookcafe.co.uk/"
+    },
+    {
+      "title": "AIR 3331",
+      "score": 9.4,
+      "differentiated_score": 10.41,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
+      "visual_hits": [
+        "memory",
+        "urban vernacular"
+      ],
+      "source": "https://residence.3331.jp/"
+    },
+    {
+      "title": "Offprint",
+      "score": 8.6,
+      "differentiated_score": 10.3,
+      "visual_fit_score": 3.15,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_art_book_fair",
+      "country": "France / UK",
+      "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications.",
+      "visual_hits": [
+        "artist book",
+        "independent publishing",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://offprint.org/"
+    },
+    {
+      "title": "reload Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
+      "visual_hits": [
+        "urban vernacular"
+      ],
+      "source": "https://reload-shimokita.com/"
+    },
+    {
+      "title": "BankART1929",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://bankart1929.com/"
+    },
+    {
+      "title": "Youkobo Art Space",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.youkobo.co.jp/en/"
+    },
+    {
+      "title": "Tokyo Wonder Site / TOKAS Residency",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than illustrator.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
+    },
+    {
+      "title": "Tokyo Arts and Space",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "institutional",
+      "country": "",
+      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/"
+    },
+    {
+      "title": "AIT Residency",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.a-i-t.net/en/"
+    },
+    {
+      "title": "Aperture | Photography",
+      "score": 8.6,
+      "differentiated_score": 10.24,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "POST",
+      "score": 8.8,
+      "differentiated_score": 10.19,
+      "visual_fit_score": 2.6,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "bookstore_gallery",
+      "country": "",
+      "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.",
+      "visual_hits": [
+        "memory",
+        "zine",
+        "zine"
+      ],
+      "source": "https://post-books.info/"
+    },
+    {
+      "title": "Center for Book Arts Opportunities",
+      "score": 8.6,
+      "differentiated_score": 10.18,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_book_arts",
+      "country": "USA",
+      "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://centerforbookarts.org/"
+    },
+    {
+      "title": "The Photographers' Gallery",
+      "score": 8.6,
+      "differentiated_score": 10.12,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_institution",
+      "country": "UK",
+      "why": "Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://thephotographersgallery.org.uk/"
+    },
+    {
+      "title": "BONUS TRACK",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
+      "visual_hits": [],
+      "source": "https://bonus-track.net/"
+    },
+    {
+      "title": "Design Festa",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
+      "visual_hits": [],
+      "source": "https://designfesta.com/"
+    },
+    {
+      "title": "Aoyama Farmers Market",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
+      "visual_hits": [],
+      "source": "https://farmersmarkets.jp/"
+    },
+    {
+      "title": "Cafe Cross Point",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
+      "visual_hits": [],
+      "source": "https://cafecrosspoint.jp/"
+    },
+    {
+      "title": "MADO Café",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/madocafe/"
+    },
+    {
+      "title": "Cafe Gallery HATTIFNATT",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
+      "visual_hits": [],
+      "source": "https://www.hattifnatt.jp/"
+    },
+    {
+      "title": "Cafe Mame-Hico",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
+      "visual_hits": [],
+      "source": "https://www.mamehico.com/"
+    },
+    {
+      "title": "Yonchome Cafe",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
+      "visual_hits": [],
+      "source": "https://www.yonchome.com/"
+    },
+    {
+      "title": "Koganecho Area Management Center",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.",
+      "visual_hits": [],
+      "source": "https://koganecho.net/"
+    },
+    {
+      "title": "3331 Arts Chiyoda",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "artist_space",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach",
+      "visual_hits": [],
+      "source": "https://www.3331.jp/"
+    },
+    {
+      "title": "DESIGN FESTA GALLERY",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "It doesn't fit. This matches two specific categories you've identified as harmful: tourist-focused exhibition spaces and pay-to-play gallery models. Tokyo location alone doesn't override the structural mismatch.",
+      "visual_hits": [],
+      "source": "https://designfestagallery.com/"
+    },
+    {
+      "title": "SCAI The Bathhouse",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.",
+      "visual_hits": [],
+      "source": "https://www.scaithebathhouse.com/"
+    },
+    {
+      "title": "Gallery IRO",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location aligns with Japan focus, but business model uncertainty creates risk of misaligned investment.",
+      "visual_hits": [],
+      "source": "https://1-6.jp/iro/"
+    },
+    {
+      "title": "Gallery HANA Shimokitazawa",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location appeals, but lack of verifiable program information creates backward investment—you'd spend energy investigating whether it's worth investigating. Not strategic.",
+      "visual_hits": [],
+      "source": "https://www.g-hana.jp/"
+    },
+    {
+      "title": "TAV Gallery",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location aligns with your Japan interest and Asian architectural subject matter, but fit depends entirely on information not yet available",
+      "visual_hits": [],
+      "source": "https://tavgallery.com/"
+    },
+    {
+      "title": "VACANT",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "event_space",
+      "country": "",
+      "why": "Tokyo location theoretically aligns with Asia-Pacific focus, but lack of visible programming makes actual fit impossible to assess",
+      "visual_hits": [],
+      "source": "https://www.vacant.vc/"
+    },
+    {
+      "title": "Gallery Conceal Shibuya",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "It doesn't. This conflicts with your strategic goal to avoid pay-to-play venues that dilute positioning, and offers no clear institutional or career benefit.",
+      "visual_hits": [],
+      "source": "https://galleryconceal.wixsite.com/gconceal"
+    },
+    {
+      "title": "Zushi Art Gallery",
+      "score": 9.4,
+      "differentiated_score": 10.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic location matches interest in Japan, but everything else is a question mark.",
+      "visual_hits": [],
+      "source": "https://zushi-art.com/"
+    },
+    {
+      "title": "Aperture Portfolio Prize / Opportunities",
+      "score": 8.6,
+      "differentiated_score": 10.06,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_publication",
+      "country": "USA / Global",
+      "why": "Very high-prestige but difficult; useful as a long-term benchmark and possible stretch opportunity.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://aperture.org/"
+    },
+    {
+      "title": "DER GREIF",
+      "score": 8.6,
+      "differentiated_score": 9.86,
+      "visual_fit_score": 2.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, open call, portfolio review, photography, exhibition",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "photobook"
+      ],
+      "source": "https://dergreif.org/"
+    },
+    {
+      "title": "Self Publish, Be Happy",
+      "score": 8.0,
+      "differentiated_score": 9.8,
+      "visual_fit_score": 5.05,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "global_photobook_platform",
+      "country": "UK / Global",
+      "why": "Strong fit for an artist whose work can live as quiet photobook or zine sequences rather than conventional gallery proposals.",
+      "visual_hits": [
+        "memory",
+        "photobook",
+        "zine",
+        "photobook",
+        "zine"
+      ],
+      "source": "https://selfpublishbehappy.com/"
+    },
+    {
+      "title": "www.facebook.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.facebook.com/dergreif.photography/"
+    },
+    {
+      "title": "Continue Reading",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://dergreif.org/article/the-everyday-street-photography-of-svilen-nachev"
+    },
+    {
+      "title": "www.futures-photography.com",
+      "score": 8.6,
+      "differentiated_score": 9.79,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_publication",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.futures-photography.com"
+    },
+    {
+      "title": "HandMade In Japan Fes",
+      "score": 9.4,
+      "differentiated_score": 9.75,
+      "visual_fit_score": -1.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary painter documenting disappearing spaces, despite your work having visual appeal.",
+      "visual_hits": [
+        "craft_market"
+      ],
+      "source": "https://hmj-fes.jp/"
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "score": 8.0,
+      "differentiated_score": 9.73,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_art_book_fair",
+      "country": "USA",
+      "why": "Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Creative Space Hayashi",
+      "score": 8.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic location in Japan aligns with your interest in Asia-Pacific opportunities, but that's the only clear fit element.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://csh.yokohama/"
+    },
+    {
+      "title": "X",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://twitter.com/voguemagazine"
+    },
+    {
+      "title": "Pinterest",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://pinterest.com/voguemagazine/"
+    },
+    {
+      "title": "Instagram",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.instagram.com/voguemagazine/"
+    },
+    {
+      "title": "Tiktok",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.tiktok.com/@voguemagazine?lang=en"
+    },
+    {
+      "title": "Magazine Subscribers",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/MYSUBSCRIPTION"
+    },
+    {
+      "title": "Magazine Subscription",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.ezsubscription.com/ape/subscribe?type=full"
+    },
+    {
+      "title": "LensCulture - Contemporary Photography",
+      "score": 7.8,
+      "differentiated_score": 9.44,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: zine, photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.lensculture.com/"
+    },
+    {
+      "title": "PhotoVogue Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.42,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_online_feature",
+      "country": "Global",
+      "why": "Useful for international exposure if her work can be framed as poetic documentary, memory, place, or contemporary visual storytelling.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.vogue.com/photovogue"
+    },
+    {
+      "title": "Home - Printed Matter",
+      "score": 8.0,
+      "differentiated_score": 9.4,
+      "visual_fit_score": 7.75,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "global_photobook",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture",
+      "visual_hits": [
+        "memory",
+        "artist book",
+        "photobook",
+        "artist book",
+        "zine",
+        "photobook",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Der Greif Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.38,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_open_call",
+      "country": "Germany / Global",
+      "why": "Potential fit for poetic, atmospheric photography if her work is sequenced around a strong theme.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://dergreif.org/"
+    },
+    {
+      "title": "The Container",
+      "score": 8.8,
+      "differentiated_score": 9.28,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "gallery",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but everything else is a question mark requiring energy-intensive investigation.",
+      "visual_hits": [],
+      "source": "https://www.the-container.com/"
+    },
+    {
+      "title": "RAW TOKYO",
+      "score": 8.8,
+      "differentiated_score": 9.28,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
+      "visual_hits": [],
+      "source": "https://rawtokyo.jp/"
+    },
+    {
+      "title": "LensCulture Awards / Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.21,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_photo_open_call",
+      "country": "Global",
+      "why": "Potentially useful if her strongest body of work can be shaped into a coherent photo series with a clear statement.",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/"
+    },
+    {
+      "title": "Open Calls",
+      "score": 8.6,
+      "differentiated_score": 9.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
+      "visual_hits": [],
+      "source": "https://dergreif.org/open-call"
+    },
+    {
+      "title": "Browse Printed Matter Editions",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions"
+    },
+    {
+      "title": "Printed Matter, Inc.",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: printed matter",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00",
+      "score": 7.5,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 4.85,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "zine_print",
+      "country": "Global",
+      "why": "Possible fit based on link text: zine",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "zine",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.printedmatter.org/catalog/71105"
+    },
+    {
+      "title": "Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/photo-competitions/street-photography-awards"
+    },
+    {
+      "title": "Learn",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/photography-free-guides"
+    },
+    {
+      "title": "Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/articles/vladimir-khorev-characters-subtle-street-photography-from-taiwan"
+    },
+    {
+      "title": "Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography",
+      "visual_hits": [],
+      "source": "https://www.lensculture.com/articles/jim-casper-21st-century-street-photography-250-new-examples"
+    },
+    {
+      "title": "PhotoVogue",
+      "score": 8.6,
+      "differentiated_score": 8.84,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Potential fit based on source context and keyword overlap: open call, submission, exhibition",
+      "visual_hits": [],
+      "source": "https://www.vogue.com/photovogue"
+    },
+    {
+      "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: photography, exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/events/2250"
+    },
+    {
+      "title": "See all exhibitions",
+      "score": 7.5,
+      "differentiated_score": 8.45,
+      "visual_fit_score": 2.7,
+      "verification": "partial",
+      "url_status": "bad",
+      "category": "gallery_event",
+      "country": "Global",
+      "why": "Possible fit based on link text: exhibition",
+      "visual_hits": [
+        "artist book",
+        "artist book",
+        "artist_book"
+      ],
+      "source": "https://www.printedmatter.org/programs/1-exhibitions"
+    },
+    {
+      "title": "Picaresque Gallery",
+      "score": 4.6,
+      "differentiated_score": 5.46,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/decorative perception you're trying to avoid.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://picaresquejpn.com/"
+    },
+    {
+      "title": "Spiral",
+      "score": 4.6,
+      "differentiated_score": 5.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_event",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
+      "visual_hits": [],
+      "source": "https://www.spiral.co.jp/"
+    }
+  ],
+  "low_priority": [
+    {
+      "title": "HandMade In Japan Fes",
+      "score": 9.4,
+      "differentiated_score": 9.75,
+      "visual_fit_score": -1.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary painter documenting disappearing spaces, despite your work having visual appeal.",
+      "visual_hits": [
+        "craft_market"
+      ],
+      "source": "https://hmj-fes.jp/"
+    },
+    {
+      "title": "Picaresque Gallery",
+      "score": 4.6,
+      "differentiated_score": 5.46,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/decorative perception you're trying to avoid.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://picaresquejpn.com/"
+    },
+    {
+      "title": "Spiral",
+      "score": 4.6,
+      "differentiated_score": 5.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_event",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
+      "visual_hits": [],
+      "source": "https://www.spiral.co.jp/"
+    }
+  ]
+}

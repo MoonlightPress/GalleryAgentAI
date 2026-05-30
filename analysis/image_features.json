@@ -1,0 +1,396 @@
+[
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105221.png",
+    "width": 647,
+    "height": 855,
+    "orientation": "portrait",
+    "average_rgb": [
+      138,
+      132,
+      125
+    ],
+    "dominant_color_family": "concrete_gray",
+    "brightness": 130.19,
+    "contrast": 51.99,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105323.png",
+    "width": 857,
+    "height": 639,
+    "orientation": "landscape",
+    "average_rgb": [
+      153,
+      136,
+      114
+    ],
+    "dominant_color_family": "aged_wood_or_warm_wall",
+    "brightness": 135.63,
+    "contrast": 59.53,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105338.png",
+    "width": 860,
+    "height": 857,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      114,
+      130,
+      112
+    ],
+    "dominant_color_family": "muted_green",
+    "brightness": 118.1,
+    "contrast": 56.54,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105403.png",
+    "width": 856,
+    "height": 860,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      137,
+      138,
+      123
+    ],
+    "dominant_color_family": "concrete_gray",
+    "brightness": 134.84,
+    "contrast": 65.29,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105420.png",
+    "width": 857,
+    "height": 853,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      105,
+      120,
+      98
+    ],
+    "dominant_color_family": "muted_green",
+    "brightness": 104.68,
+    "contrast": 49.42,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105510.png",
+    "width": 856,
+    "height": 859,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      165,
+      164,
+      144
+    ],
+    "dominant_color_family": "soft_mixed_neutral",
+    "brightness": 153.71,
+    "contrast": 71.81,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "high_contrast"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105531.png",
+    "width": 856,
+    "height": 856,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      105,
+      84,
+      74
+    ],
+    "dominant_color_family": "aged_wood_or_warm_wall",
+    "brightness": 88.49,
+    "contrast": 56.78,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105610.png",
+    "width": 857,
+    "height": 559,
+    "orientation": "landscape",
+    "average_rgb": [
+      160,
+      143,
+      126
+    ],
+    "dominant_color_family": "aged_wood_or_warm_wall",
+    "brightness": 142.09,
+    "contrast": 55.1,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105626.png",
+    "width": 854,
+    "height": 858,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      131,
+      151,
+      118
+    ],
+    "dominant_color_family": "muted_green",
+    "brightness": 138.57,
+    "contrast": 65.94,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105722.png",
+    "width": 716,
+    "height": 858,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      112,
+      123,
+      99
+    ],
+    "dominant_color_family": "muted_green",
+    "brightness": 108.03,
+    "contrast": 61.01,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105813.png",
+    "width": 712,
+    "height": 863,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      111,
+      119,
+      116
+    ],
+    "dominant_color_family": "concrete_gray",
+    "brightness": 110.69,
+    "contrast": 74.89,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "high_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105832.png",
+    "width": 859,
+    "height": 858,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      141,
+      150,
+      149
+    ],
+    "dominant_color_family": "concrete_gray",
+    "brightness": 146.24,
+    "contrast": 59.74,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105847.png",
+    "width": 860,
+    "height": 856,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      150,
+      141,
+      132
+    ],
+    "dominant_color_family": "soft_mixed_neutral",
+    "brightness": 144.76,
+    "contrast": 57.59,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105900.png",
+    "width": 858,
+    "height": 854,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      142,
+      146,
+      138
+    ],
+    "dominant_color_family": "concrete_gray",
+    "brightness": 143.54,
+    "contrast": 70.93,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "high_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105915.png",
+    "width": 859,
+    "height": 564,
+    "orientation": "landscape",
+    "average_rgb": [
+      123,
+      123,
+      116
+    ],
+    "dominant_color_family": "concrete_gray",
+    "brightness": 119.89,
+    "contrast": 75.47,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "high_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105931.png",
+    "width": 682,
+    "height": 851,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      166,
+      154,
+      129
+    ],
+    "dominant_color_family": "soft_mixed_neutral",
+    "brightness": 146.93,
+    "contrast": 64.05,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 105946.png",
+    "width": 858,
+    "height": 642,
+    "orientation": "landscape",
+    "average_rgb": [
+      163,
+      175,
+      156
+    ],
+    "dominant_color_family": "soft_mixed_neutral",
+    "brightness": 167.89,
+    "contrast": 47.72,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 110003.png",
+    "width": 681,
+    "height": 850,
+    "orientation": "square_or_near_square",
+    "average_rgb": [
+      90,
+      76,
+      71
+    ],
+    "dominant_color_family": "muted_red",
+    "brightness": 73.3,
+    "contrast": 66.53,
+    "mood_signals": [
+      "dark",
+      "moderate_contrast"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 110019.png",
+    "width": 683,
+    "height": 859,
+    "orientation": "portrait",
+    "average_rgb": [
+      163,
+      143,
+      97
+    ],
+    "dominant_color_family": "aged_wood_or_warm_wall",
+    "brightness": 132.0,
+    "contrast": 39.03,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 110038.png",
+    "width": 854,
+    "height": 568,
+    "orientation": "landscape",
+    "average_rgb": [
+      157,
+      172,
+      135
+    ],
+    "dominant_color_family": "muted_green",
+    "brightness": 158.59,
+    "contrast": 59.2,
+    "mood_signals": [
+      "soft_mid_brightness",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  },
+  {
+    "file": "artist_images\\Screenshot 2026-05-29 110053.png",
+    "width": 858,
+    "height": 446,
+    "orientation": "landscape",
+    "average_rgb": [
+      172,
+      195,
+      184
+    ],
+    "dominant_color_family": "muted_green",
+    "brightness": 185.63,
+    "contrast": 57.39,
+    "mood_signals": [
+      "light",
+      "moderate_contrast",
+      "quiet_observational"
+    ]
+  }
+]

@@ -1,0 +1,1272 @@
+[
+  {
+    "from": "reports\\artist_profile_purge.py",
+    "to": "scripts\\patches\\artist_profile_purge.py",
+    "reason": "misplaced Python file in reports"
+  },
+  {
+    "from": "reports\\bucket_deduplicator.py",
+    "to": "scripts\\patches\\bucket_deduplicator.py",
+    "reason": "misplaced Python file in reports"
+  },
+  {
+    "from": "reports\\opportunity_verification_engine.py",
+    "to": "engines\\opportunity_verification_engine.py",
+    "reason": "misplaced Python file in reports"
+  },
+  {
+    "from": "reports\\quality_gate_relaxer.py",
+    "to": "scripts\\patches\\quality_gate_relaxer.py",
+    "reason": "misplaced Python file in reports"
+  },
+  {
+    "from": "reports\\run_discovery_expansion.py",
+    "to": "scripts\\runners\\run_discovery_expansion.py",
+    "reason": "misplaced Python file in reports"
+  },
+  {
+    "from": "reports\\run_verification_upgrade.py",
+    "to": "scripts\\runners\\run_verification_upgrade.py",
+    "reason": "misplaced Python file in reports"
+  },
+  {
+    "from": "reports\\source_discovery_expansion.py",
+    "to": "scripts\\patches\\source_discovery_expansion.py",
+    "reason": "misplaced Python file in reports"
+  },
+  {
+    "from": "reports\\source_registry_builder.py",
+    "to": "engines\\source_registry_builder.py",
+    "reason": "misplaced Python file in reports"
+  },
+  {
+    "from": ".zip",
+    "to": "archive\\zips\\.zip",
+    "reason": "classified as archive/zips"
+  },
+  {
+    "from": "A.zip",
+    "to": "archive\\zips\\A.zip",
+    "reason": "classified as archive/zips"
+  },
+  {
+    "from": "action_plan.md",
+    "to": "docs\\action_plan.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "agent_reports.md",
+    "to": "docs\\agent_reports.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "analysis_cache_builder.py",
+    "to": "engines\\analysis_cache_builder.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "analysis_cache_builder.py.before_filename_fix",
+    "to": "archive\\old_backups\\analysis_cache_builder.py.before_filename_fix",
+    "reason": "classified as archive/old_backups"
+  },
+  {
+    "from": "approved_candidate_importer.py",
+    "to": "engines\\approved_candidate_importer.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "artists_preferences.json",
+    "to": "data\\config\\artists_preferences.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "artist_analysis.md",
+    "to": "docs\\artist_analysis.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "artist_dataset_score_engine.py",
+    "to": "engines\\artist_dataset_score_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "artist_deep_research_prompt.md",
+    "to": "docs\\artist_deep_research_prompt.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "artist_dossier.md",
+    "to": "docs\\artist_dossier.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "artist_ecosystem_mapper.py",
+    "to": "engines\\artist_ecosystem_mapper.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "artist_graph_builder.py",
+    "to": "engines\\artist_graph_builder.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "artist_graph_report.json",
+    "to": "data\\config\\artist_graph_report.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "artist_image_review_components.py",
+    "to": "ui\\artist_image_review_components.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "artist_intelligence_seed_data.json",
+    "to": "data\\config\\artist_intelligence_seed_data.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "artist_lineage_profiles.json",
+    "to": "data\\config\\artist_lineage_profiles.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "artist_memory_entry.json",
+    "to": "data\\config\\artist_memory_entry.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "artist_profile_scoring_engine.py",
+    "to": "engines\\artist_profile_scoring_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "artist_research_seed.json",
+    "to": "data\\config\\artist_research_seed.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "artist_roster_research_template.md",
+    "to": "docs\\artist_roster_research_template.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "artist_visual_profile_template.json",
+    "to": "data\\config\\artist_visual_profile_template.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "candidate_review_importer.py",
+    "to": "engines\\candidate_review_importer.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "CARD_IMAGE_NAMES.md",
+    "to": "docs\\CARD_IMAGE_NAMES.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "career_pathway_engine.py",
+    "to": "engines\\career_pathway_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "career_path_engine.py",
+    "to": "engines\\career_path_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "career_reconstruction_seed.json",
+    "to": "data\\config\\career_reconstruction_seed.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "career_strategy_engine.py",
+    "to": "engines\\career_strategy_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "claim_validation_engine.py",
+    "to": "engines\\claim_validation_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "collaboration_report.md",
+    "to": "docs\\collaboration_report.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "compact_detail_components.py",
+    "to": "ui\\compact_detail_components.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "compact_detail_styles.py",
+    "to": "ui\\compact_detail_styles.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "contact_entry.json",
+    "to": "data\\config\\contact_entry.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "contact_sheet_builder.py",
+    "to": "engines\\contact_sheet_builder.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "crm_summary.md",
+    "to": "docs\\crm_summary.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "curator_dossier_engine.py",
+    "to": "engines\\curator_dossier_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "curator_intelligence_engine.py",
+    "to": "engines\\curator_intelligence_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "curator_personality_engine.py",
+    "to": "engines\\curator_personality_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "daily_quest_generator.py",
+    "to": "engines\\daily_quest_generator.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "deadline_extraction_engine.py",
+    "to": "engines\\deadline_extraction_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "detail_confidence_engine.py",
+    "to": "engines\\detail_confidence_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "discovery_engine.py",
+    "to": "engines\\discovery_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "ecosystem_expansion_engine.py",
+    "to": "engines\\ecosystem_expansion_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "ecosystem_map_engine.py",
+    "to": "engines\\ecosystem_map_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "email_drafts.md",
+    "to": "docs\\email_drafts.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "email_draft_generator.py",
+    "to": "engines\\email_draft_generator.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "energy_profile.json",
+    "to": "data\\config\\energy_profile.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "evidence_extraction_engine.py",
+    "to": "engines\\evidence_extraction_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "executive_plan.json",
+    "to": "data\\config\\executive_plan.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "executive_plan.md",
+    "to": "docs\\executive_plan.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "expanded_source_registry.json",
+    "to": "data\\config\\expanded_source_registry.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "feedback_learning_engine.py",
+    "to": "engines\\feedback_learning_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "feedback_ui_components.py",
+    "to": "ui\\feedback_ui_components.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "filename_audit.py",
+    "to": "engines\\filename_audit.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "final_gallery_report.md",
+    "to": "docs\\final_gallery_report.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "fit_audit_engine.py",
+    "to": "engines\\fit_audit_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "fit_audit_ui_components.py",
+    "to": "ui\\fit_audit_ui_components.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "fix_report_filename.py",
+    "to": "scripts\\patches\\fix_report_filename.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "global_opportunity_expander.py",
+    "to": "engines\\global_opportunity_expander.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "global_opportunity_seeds.json",
+    "to": "data\\config\\global_opportunity_seeds.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "global_research_queue_builder.py",
+    "to": "engines\\global_research_queue_builder.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "graph_query_response.md",
+    "to": "docs\\graph_query_response.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "image_catalog_builder.py",
+    "to": "engines\\image_catalog_builder.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "inquiry_draft_generator.py",
+    "to": "engines\\inquiry_draft_generator.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "inquiry_draft_generator.py.before_filename_fix",
+    "to": "archive\\old_backups\\inquiry_draft_generator.py.before_filename_fix",
+    "reason": "classified as archive/old_backups"
+  },
+  {
+    "from": "institution_fit_engine.py",
+    "to": "engines\\institution_fit_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "institution_network_engine.py",
+    "to": "engines\\institution_network_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "institution_profile_engine.py",
+    "to": "engines\\institution_profile_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "lineage_scoring_engine.py",
+    "to": "engines\\lineage_scoring_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "mochi_action_components.py",
+    "to": "ui\\mochi_action_components.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "mochi_dashboard_components.py",
+    "to": "ui\\mochi_dashboard_components.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "momentum_scoring_engine.py",
+    "to": "engines\\momentum_scoring_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "momentum_wave_engine.py",
+    "to": "engines\\momentum_wave_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "mousehole_task_seed.json",
+    "to": "data\\config\\mousehole_task_seed.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "multilingual_outreach_preview.json",
+    "to": "data\\config\\multilingual_outreach_preview.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "opportunity_database_status.md",
+    "to": "docs\\opportunity_database_status.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "opportunity_decay_engine.py",
+    "to": "engines\\opportunity_decay_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "opportunity_differentiation_engine.py",
+    "to": "engines\\opportunity_differentiation_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "opportunity_discovery_report.json",
+    "to": "data\\config\\opportunity_discovery_report.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "opportunity_entry.json",
+    "to": "data\\config\\opportunity_entry.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "opportunity_report_engine.py",
+    "to": "engines\\opportunity_report_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "opportunity_report_engine.py.before_filename_fix",
+    "to": "archive\\old_backups\\opportunity_report_engine.py.before_filename_fix",
+    "reason": "classified as archive/old_backups"
+  },
+  {
+    "from": "opportunity_status_engine.py",
+    "to": "engines\\opportunity_status_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "opportunity_verification_engine.py",
+    "to": "engines\\opportunity_verification_engine_2.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "PATCH_APP_ACTION_WORKSPACE.md",
+    "to": "docs\\PATCH_APP_ACTION_WORKSPACE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "patch_app_after_compact.py",
+    "to": "scripts\\patches\\patch_app_after_compact.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_app_artist_image_review.py",
+    "to": "scripts\\patches\\patch_app_artist_image_review.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_app_compact.py",
+    "to": "scripts\\patches\\patch_app_compact.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_app_compact_detail.py",
+    "to": "scripts\\patches\\patch_app_compact_detail.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_app_feedback_learning.py",
+    "to": "scripts\\patches\\patch_app_feedback_learning.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_app_fit_audit.py",
+    "to": "scripts\\patches\\patch_app_fit_audit.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "PATCH_APP_INTELLIGENCE_WORKSPACE.md",
+    "to": "docs\\PATCH_APP_INTELLIGENCE_WORKSPACE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "patch_app_portfolio_matching.py",
+    "to": "scripts\\patches\\patch_app_portfolio_matching.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_app_relationship.py",
+    "to": "scripts\\patches\\patch_app_relationship.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "PATCH_APP_REPORT_BUTTON.md",
+    "to": "docs\\PATCH_APP_REPORT_BUTTON.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "patch_app_strategy_homepage.py",
+    "to": "scripts\\patches\\patch_app_strategy_homepage.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_artist_intelligence_v2_pipeline.py",
+    "to": "scripts\\patches\\patch_artist_intelligence_v2_pipeline.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_atelier_text_colors.py",
+    "to": "scripts\\patches\\patch_atelier_text_colors.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_compact_dense_ui.py",
+    "to": "scripts\\patches\\patch_compact_dense_ui.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_console_encoding.py",
+    "to": "scripts\\patches\\patch_console_encoding.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_filename_collision.py",
+    "to": "scripts\\patches\\patch_filename_collision.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_final_guard_pipeline.py",
+    "to": "scripts\\patches\\patch_final_guard_pipeline.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_full_pipeline_global.py",
+    "to": "scripts\\patches\\patch_full_pipeline_global.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_full_pipeline_strategy.py",
+    "to": "scripts\\patches\\patch_full_pipeline_strategy.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_mochi_atelier_big.py",
+    "to": "scripts\\patches\\patch_mochi_atelier_big.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_opportunity_atelier_ui.py",
+    "to": "scripts\\patches\\patch_opportunity_atelier_ui.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_opportunity_detail_position.py",
+    "to": "scripts\\patches\\patch_opportunity_detail_position.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_opportunity_grid_ui.py",
+    "to": "scripts\\patches\\patch_opportunity_grid_ui.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_opportunity_horizontal_rows.py",
+    "to": "scripts\\patches\\patch_opportunity_horizontal_rows.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_opportunity_polish_ui.py",
+    "to": "scripts\\patches\\patch_opportunity_polish_ui.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_opportunity_rows_safe.py",
+    "to": "scripts\\patches\\patch_opportunity_rows_safe.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_opportunity_rows_ui.py",
+    "to": "scripts\\patches\\patch_opportunity_rows_ui.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_aesthetic.py",
+    "to": "scripts\\patches\\patch_pipeline_aesthetic.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_artist_dataset.py",
+    "to": "scripts\\patches\\patch_pipeline_artist_dataset.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_artist_intelligence.py",
+    "to": "scripts\\patches\\patch_pipeline_artist_intelligence.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_artist_review.py",
+    "to": "scripts\\patches\\patch_pipeline_artist_review.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_autonomous.py",
+    "to": "scripts\\patches\\patch_pipeline_autonomous.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_candidate_quality.py",
+    "to": "scripts\\patches\\patch_pipeline_candidate_quality.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_cleanup_stabilizer.py",
+    "to": "scripts\\patches\\patch_pipeline_cleanup_stabilizer.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_compatibility.py",
+    "to": "scripts\\patches\\patch_pipeline_compatibility.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_curator_brain.py",
+    "to": "scripts\\patches\\patch_pipeline_curator_brain.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_curator_intelligence.py",
+    "to": "scripts\\patches\\patch_pipeline_curator_intelligence.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_evidence.py",
+    "to": "scripts\\patches\\patch_pipeline_evidence.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_feedback_learning.py",
+    "to": "scripts\\patches\\patch_pipeline_feedback_learning.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_fit_audit.py",
+    "to": "scripts\\patches\\patch_pipeline_fit_audit.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_ingestion.py",
+    "to": "scripts\\patches\\patch_pipeline_ingestion.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_institution_research.py",
+    "to": "scripts\\patches\\patch_pipeline_institution_research.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_live_refresh.py",
+    "to": "scripts\\patches\\patch_pipeline_live_refresh.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_local_image_processing.py",
+    "to": "scripts\\patches\\patch_pipeline_local_image_processing.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_network.py",
+    "to": "scripts\\patches\\patch_pipeline_network.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_portfolio_matching.py",
+    "to": "scripts\\patches\\patch_pipeline_portfolio_matching.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_publication_deadline.py",
+    "to": "scripts\\patches\\patch_pipeline_publication_deadline.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_relationship.py",
+    "to": "scripts\\patches\\patch_pipeline_relationship.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_reputation.py",
+    "to": "scripts\\patches\\patch_pipeline_reputation.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_source_expansion.py",
+    "to": "scripts\\patches\\patch_pipeline_source_expansion.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pipeline_submission_strategy.py",
+    "to": "scripts\\patches\\patch_pipeline_submission_strategy.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_pretty_no_vector_ui.py",
+    "to": "scripts\\patches\\patch_pretty_no_vector_ui.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_real_header_assets.py",
+    "to": "scripts\\patches\\patch_real_header_assets.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_report_writer_filenames.py",
+    "to": "scripts\\patches\\patch_report_writer_filenames.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_safe_filenames.py",
+    "to": "scripts\\patches\\patch_safe_filenames.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_smart_cover_safe_call.py",
+    "to": "scripts\\patches\\patch_smart_cover_safe_call.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_strategy_homepage_global_sections.py",
+    "to": "scripts\\patches\\patch_strategy_homepage_global_sections.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_visual_profile_bucket_pipeline.py",
+    "to": "scripts\\patches\\patch_visual_profile_bucket_pipeline.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "patch_visual_system.py",
+    "to": "scripts\\patches\\patch_visual_system.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "pathway_model_seed.json",
+    "to": "data\\config\\pathway_model_seed.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "peer_artist_engine.py",
+    "to": "engines\\peer_artist_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "pipeline_status.md",
+    "to": "docs\\pipeline_status.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "portfolio_bodies.json",
+    "to": "data\\config\\portfolio_bodies.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "portfolio_cluster_template.json",
+    "to": "data\\config\\portfolio_cluster_template.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "portfolio_match_engine.py",
+    "to": "engines\\portfolio_match_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "portfolio_match_ui_components.py",
+    "to": "ui\\portfolio_match_ui_components.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "portfolio_pitch_generator.py",
+    "to": "engines\\portfolio_pitch_generator.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "portfolio_pitch_generator.py.before_report_writer_filename_fix",
+    "to": "archive\\old_backups\\portfolio_pitch_generator.py.before_report_writer_filename_fix",
+    "reason": "classified as archive/old_backups"
+  },
+  {
+    "from": "portfolio_profiles.json",
+    "to": "data\\config\\portfolio_profiles.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "preference_rescoring_engine.py",
+    "to": "engines\\preference_rescoring_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "project_folder_audit.py",
+    "to": "engines\\project_folder_audit.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "project_manifest.json",
+    "to": "data\\config\\project_manifest.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "publication_frequency_engine.py",
+    "to": "engines\\publication_frequency_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "publisher_match_engine.py",
+    "to": "engines\\publisher_match_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "quest_report.md",
+    "to": "docs\\quest_report.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_ACTION_SYSTEM.md",
+    "to": "docs\\README_ACTION_SYSTEM.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_ARTIST_DATASET_BUILDER.md",
+    "to": "docs\\README_ARTIST_DATASET_BUILDER.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_ARTIST_IMAGE_REVIEW.md",
+    "to": "docs\\README_ARTIST_IMAGE_REVIEW.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_ARTIST_INTELLIGENCE.md",
+    "to": "docs\\README_ARTIST_INTELLIGENCE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_ARTIST_INTELLIGENCE_V2.md",
+    "to": "docs\\README_ARTIST_INTELLIGENCE_V2.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_AUTONOMOUS_RESEARCH.md",
+    "to": "docs\\README_AUTONOMOUS_RESEARCH.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_CLEANUP_INGESTION_STABILIZER.md",
+    "to": "docs\\README_CLEANUP_INGESTION_STABILIZER.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_COMPACT_DETAIL_UX_PATCH.md",
+    "to": "docs\\README_COMPACT_DETAIL_UX_PATCH.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_CURATOR_BRAIN.md",
+    "to": "docs\\README_CURATOR_BRAIN.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_CURATOR_INTELLIGENCE.md",
+    "to": "docs\\README_CURATOR_INTELLIGENCE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_EVIDENCE_UPGRADE.md",
+    "to": "docs\\README_EVIDENCE_UPGRADE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_FEEDBACK_LEARNING_UPGRADE.md",
+    "to": "docs\\README_FEEDBACK_LEARNING_UPGRADE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_FINAL_GUARDRAILS_FIX.md",
+    "to": "docs\\README_FINAL_GUARDRAILS_FIX.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_FIT_AUDIT_UPGRADE.md",
+    "to": "docs\\README_FIT_AUDIT_UPGRADE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_GLOBAL_OPPORTUNITY_UPGRADE.md",
+    "to": "docs\\README_GLOBAL_OPPORTUNITY_UPGRADE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_INGESTION_UPGRADE.md",
+    "to": "docs\\README_INGESTION_UPGRADE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_LINEAGE_INTELLIGENCE.md",
+    "to": "docs\\README_LINEAGE_INTELLIGENCE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_LIVE_REFRESH_AND_VISUAL_SIMILARITY.md",
+    "to": "docs\\README_LIVE_REFRESH_AND_VISUAL_SIMILARITY.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_LOCAL_IMAGE_PROCESSING.md",
+    "to": "docs\\README_LOCAL_IMAGE_PROCESSING.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_MAINTENANCE.md",
+    "to": "docs\\README_MAINTENANCE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_MOST_IMPACTFUL_NEXT_STEP.md",
+    "to": "docs\\README_MOST_IMPACTFUL_NEXT_STEP.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_NETWORK_INTELLIGENCE.md",
+    "to": "docs\\README_NETWORK_INTELLIGENCE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_NEXT_STEPS.md",
+    "to": "docs\\README_NEXT_STEPS.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_PIPELINE.md",
+    "to": "docs\\README_PIPELINE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_PIPELINE_COMPATIBILITY_FIX.md",
+    "to": "docs\\README_PIPELINE_COMPATIBILITY_FIX.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_PORTFOLIO_MATCHING.md",
+    "to": "docs\\README_PORTFOLIO_MATCHING.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_PRESENTATION_UPGRADE.md",
+    "to": "docs\\README_PRESENTATION_UPGRADE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_PROJECT_ORGANIZER.md",
+    "to": "docs\\README_PROJECT_ORGANIZER.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_PUBLICATION_DEADLINE_INTELLIGENCE.md",
+    "to": "docs\\README_PUBLICATION_DEADLINE_INTELLIGENCE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_RELATIONSHIP_UPGRADE.md",
+    "to": "docs\\README_RELATIONSHIP_UPGRADE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_REPORT_WRITER_FILENAME_FIX.md",
+    "to": "docs\\README_REPORT_WRITER_FILENAME_FIX.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_REPUTATION_SYSTEM.md",
+    "to": "docs\\README_REPUTATION_SYSTEM.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_SAFE_FILENAME_COLLISION_FIX.md",
+    "to": "docs\\README_SAFE_FILENAME_COLLISION_FIX.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_SOURCE_EXPANSION.md",
+    "to": "docs\\README_SOURCE_EXPANSION.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_STRATEGY_HOMEPAGE.md",
+    "to": "docs\\README_STRATEGY_HOMEPAGE.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_SUBMISSION_STRATEGY.md",
+    "to": "docs\\README_SUBMISSION_STRATEGY.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_VERIFIED_CANDIDATE_IMPORTER.md",
+    "to": "docs\\README_VERIFIED_CANDIDATE_IMPORTER.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "README_VISUAL_PROFILE_AND_BUCKETS.md",
+    "to": "docs\\README_VISUAL_PROFILE_AND_BUCKETS.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "recommendation_engine.py",
+    "to": "engines\\recommendation_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "recommendation_report.md",
+    "to": "docs\\recommendation_report.md",
+    "reason": "classified as docs"
+  },
+  {
+    "from": "relationship_entry.json",
+    "to": "data\\config\\relationship_entry.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "relationship_memory.json",
+    "to": "data\\config\\relationship_memory.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "relationship_memory_engine.py",
+    "to": "engines\\relationship_memory_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "relationship_ui_components.py",
+    "to": "ui\\relationship_ui_components.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "repair_broken_imports.py",
+    "to": "scripts\\patches\\repair_broken_imports.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "repair_opportunity_titles.py",
+    "to": "scripts\\patches\\repair_opportunity_titles.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "repair_unknowns_agent.py",
+    "to": "scripts\\patches\\repair_unknowns_agent.py",
+    "reason": "classified as scripts/patches"
+  },
+  {
+    "from": "report_ui_components.py",
+    "to": "ui\\report_ui_components.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "reputation_engine.py",
+    "to": "engines\\reputation_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "research_priority_engine.py",
+    "to": "engines\\research_priority_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "run_after_repair.py",
+    "to": "scripts\\runners\\run_after_repair.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_artist_intelligence_v2.py",
+    "to": "scripts\\runners\\run_artist_intelligence_v2.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_full_mochi_pipeline.py.before_artist_intelligence_v2",
+    "to": "archive\\old_backups\\run_full_mochi_pipeline.py.before_artist_intelligence_v2",
+    "reason": "classified as archive/old_backups"
+  },
+  {
+    "from": "run_full_mochi_pipeline.py.before_cleanup_stabilizer",
+    "to": "archive\\old_backups\\run_full_mochi_pipeline.py.before_cleanup_stabilizer",
+    "reason": "classified as archive/old_backups"
+  },
+  {
+    "from": "run_full_mochi_pipeline.py.before_compatibility_fix",
+    "to": "archive\\old_backups\\run_full_mochi_pipeline.py.before_compatibility_fix",
+    "reason": "classified as archive/old_backups"
+  },
+  {
+    "from": "run_full_mochi_pipeline.py.before_visual_profile_bucket_patch",
+    "to": "archive\\old_backups\\run_full_mochi_pipeline.py.before_visual_profile_bucket_patch",
+    "reason": "classified as archive/old_backups"
+  },
+  {
+    "from": "run_ingestion_only.py",
+    "to": "scripts\\runners\\run_ingestion_only.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_intelligence_pipeline.py",
+    "to": "scripts\\runners\\run_intelligence_pipeline.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_intelligence_pipeline.py.py",
+    "to": "scripts\\runners\\run_intelligence_pipeline.py.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_remaining_reports.py",
+    "to": "scripts\\runners\\run_remaining_reports.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_remaining_reports_again.py",
+    "to": "scripts\\runners\\run_remaining_reports_again.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_reports_only.py",
+    "to": "scripts\\runners\\run_reports_only.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_report_core_after_filename_fix.py",
+    "to": "scripts\\runners\\run_report_core_after_filename_fix.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_required_core_only.py",
+    "to": "scripts\\runners\\run_required_core_only.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_scoring_only.py",
+    "to": "scripts\\runners\\run_scoring_only.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_verification_upgrade.py",
+    "to": "scripts\\runners\\run_verification_upgrade_2.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "run_visual_profile_bucket_upgrade.py",
+    "to": "scripts\\runners\\run_visual_profile_bucket_upgrade.py",
+    "reason": "classified as scripts/runners"
+  },
+  {
+    "from": "score_sanity_engine.py",
+    "to": "engines\\score_sanity_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "serendipity_engine.py",
+    "to": "engines\\serendipity_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "smart_cover_letter_engine.py",
+    "to": "engines\\smart_cover_letter_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "smart_cover_letter_engine.py.before_report_writer_filename_fix",
+    "to": "archive\\old_backups\\smart_cover_letter_engine.py.before_report_writer_filename_fix",
+    "reason": "classified as archive/old_backups"
+  },
+  {
+    "from": "smart_cover_letter_engine.py.before_smart_cover_safe_fix",
+    "to": "archive\\old_backups\\smart_cover_letter_engine.py.before_smart_cover_safe_fix",
+    "reason": "classified as archive/old_backups"
+  },
+  {
+    "from": "social_proof_engine.py",
+    "to": "engines\\social_proof_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "source_dossier_generator.py",
+    "to": "engines\\source_dossier_generator.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "source_targets.json",
+    "to": "data\\config\\source_targets.json",
+    "reason": "classified as data/config"
+  },
+  {
+    "from": "source_type_weight_engine.py",
+    "to": "engines\\source_type_weight_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "strategy_homepage_components.py",
+    "to": "ui\\strategy_homepage_components.py",
+    "reason": "classified as ui"
+  },
+  {
+    "from": "submission_strategy_engine.py",
+    "to": "engines\\submission_strategy_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "submission_timeline_engine.py",
+    "to": "engines\\submission_timeline_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "url_verification_engine.py",
+    "to": "engines\\url_verification_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "venue_intelligence_builder.py",
+    "to": "engines\\venue_intelligence_builder.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "venue_memory_engine.py",
+    "to": "engines\\venue_memory_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "visual_profile_ingester.py",
+    "to": "engines\\visual_profile_ingester.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "visual_similarity_engine.py",
+    "to": "engines\\visual_similarity_engine.py",
+    "reason": "classified as engines"
+  },
+  {
+    "from": "web_ingestion_engine.py",
+    "to": "engines\\web_ingestion_engine.py",
+    "reason": "classified as engines"
+  }
+]

@@ -1,0 +1,13 @@
+
+from smart_pipeline_runner import run_pipeline
+
+PIPELINE = [
+    "artist_ecosystem_mapper.py",
+    "peer_artist_engine.py",
+    "publisher_match_engine.py",
+    "ecosystem_opportunity_bridge.py",
+    "ecosystem_report.py",
+    "pipeline_debug_summary.py",
+]
+
+run_pipeline(PIPELINE)

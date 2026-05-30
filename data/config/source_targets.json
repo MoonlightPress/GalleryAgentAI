@@ -1,0 +1,89 @@
+{
+  "seed_sources": [
+    {
+      "name": "Tokyo Art Beat",
+      "url": "https://www.tokyoartbeat.com/en/events",
+      "source_type": "event_listing",
+      "region": "Japan",
+      "priority": "high"
+    },
+    {
+      "name": "Tokyo Art Book Fair",
+      "url": "https://tokyoartbookfair.com/",
+      "source_type": "art_book_fair",
+      "region": "Japan",
+      "priority": "high"
+    },
+    {
+      "name": "Printed Matter",
+      "url": "https://www.printedmatter.org/",
+      "source_type": "art_book",
+      "region": "Global",
+      "priority": "high"
+    },
+    {
+      "name": "Self Publish Be Happy",
+      "url": "https://selfpublishbehappy.com/",
+      "source_type": "photobook",
+      "region": "Global",
+      "priority": "high"
+    },
+    {
+      "name": "PhotoVogue",
+      "url": "https://www.vogue.com/photovogue",
+      "source_type": "photo_feature",
+      "region": "Global",
+      "priority": "medium"
+    },
+    {
+      "name": "LensCulture",
+      "url": "https://www.lensculture.com/",
+      "source_type": "photo_open_call",
+      "region": "Global",
+      "priority": "medium"
+    },
+    {
+      "name": "Der Greif",
+      "url": "https://dergreif.org/",
+      "source_type": "photo_publication",
+      "region": "Global",
+      "priority": "medium"
+    },
+    {
+      "name": "Aperture",
+      "url": "https://aperture.org/",
+      "source_type": "photo_publication",
+      "region": "Global",
+      "priority": "medium"
+    }
+  ],
+  "fit_keywords": [
+    "photobook",
+    "zine",
+    "artist book",
+    "printed matter",
+    "open call",
+    "submission",
+    "residency",
+    "portfolio review",
+    "photography",
+    "independent publishing",
+    "book fair",
+    "small press",
+    "exhibition",
+    "artist-run",
+    "quiet",
+    "memory",
+    "architecture",
+    "place",
+    "daily life"
+  ],
+  "reject_keywords": [
+    "crypto",
+    "nft",
+    "ai art",
+    "commercial expo",
+    "brand activation",
+    "marketing summit"
+  ]
+}

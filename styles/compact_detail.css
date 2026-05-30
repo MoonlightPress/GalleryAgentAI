@@ -1,0 +1,127 @@
+
+.compact-detail-shell{
+  background:rgba(255,250,242,.97);
+  border:1px solid #e5d4b8;
+  border-radius:24px;
+  padding:20px;
+  margin:18px 0 16px 0;
+  box-shadow:0 8px 24px rgba(72,48,26,.08);
+}
+
+.compact-detail-header{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  align-items:flex-start;
+  margin-bottom:16px;
+}
+
+.compact-detail-kicker{
+  font-size:.75rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#8c765f;
+  font-weight:700;
+  margin-bottom:4px;
+}
+
+.compact-detail-title{
+  font-size:1.7rem;
+  line-height:1.15;
+  color:#34251c;
+  font-weight:800;
+}
+
+.compact-detail-location{
+  color:#7b6754;
+  margin-top:4px;
+  font-size:.95rem;
+}
+
+.compact-detail-buckets{
+  text-align:right;
+  max-width:420px;
+  line-height:2.1;
+}
+
+.compact-detail-metrics{
+  display:grid;
+  grid-template-columns:repeat(5, minmax(0, 1fr));
+  gap:10px;
+}
+
+.compact-metric{
+  background:#f7eddd;
+  border-radius:16px;
+  padding:10px 12px;
+}
+
+.compact-metric-label{
+  font-size:.72rem;
+  color:#8b735e;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  font-weight:700;
+}
+
+.compact-metric-value{
+  font-size:1rem;
+  color:#3d2c21;
+  font-weight:800;
+  margin-top:2px;
+}
+
+.compact-panel{
+  background:rgba(255,251,245,.98);
+  border:1px solid #e8d8bf;
+  border-radius:22px;
+  padding:18px;
+  min-height:250px;
+  box-shadow:0 6px 18px rgba(70,44,20,.055);
+}
+
+.compact-panel-title{
+  font-size:1.08rem;
+  color:#3d2c21;
+  font-weight:800;
+  margin-bottom:10px;
+}
+
+.compact-panel p{
+  color:#5b4939;
+  line-height:1.55;
+  margin-bottom:14px;
+}
+
+.compact-row{
+  color:#5b4939;
+  font-size:.92rem;
+  margin:8px 0;
+  line-height:1.45;
+}
+
+.mini-badge{
+  display:inline-block;
+  padding:4px 9px;
+  border-radius:999px;
+  background:#f2e6d4;
+  color:#5f4a37;
+  font-size:.75rem;
+  font-weight:700;
+  margin:2px;
+}
+
+@media (max-width: 900px){
+  .compact-detail-header{
+    display:block;
+  }
+
+  .compact-detail-buckets{
+    text-align:left;
+    margin-top:10px;
+  }
+
+  .compact-detail-metrics{
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+  }
+}

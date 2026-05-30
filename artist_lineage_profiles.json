@@ -1,0 +1,71 @@
+
+{
+  "lineages": [
+    {
+      "name": "Quiet Japanese Photobook",
+      "signals": [
+        "photobook",
+        "quiet",
+        "daily life",
+        "memory",
+        "small press",
+        "bookstore",
+        "atmospheric",
+        "poetic",
+        "urban",
+        "interior"
+      ],
+      "boost": 1.8
+    },
+
+    {
+      "name": "Independent Artist-Run Space",
+      "signals": [
+        "artist-run",
+        "community",
+        "collective",
+        "alternative",
+        "independent",
+        "experimental"
+      ],
+      "boost": 1.3
+    },
+
+    {
+      "name": "Contemporary Printed Matter",
+      "signals": [
+        "artist book",
+        "printed matter",
+        "zine",
+        "publication",
+        "small edition",
+        "book fair"
+      ],
+      "boost": 1.6
+    },
+
+    {
+      "name": "Slow Documentary Photography",
+      "signals": [
+        "documentary",
+        "place",
+        "architecture",
+        "stillness",
+        "everyday",
+        "urban disappearance"
+      ],
+      "boost": 1.5
+    }
+  ],
+
+  "negative_signals": [
+    "startup",
+    "nft",
+    "crypto",
+    "ai art",
+    "marketing",
+    "commercial expo",
+    "brand activation",
+    "tech conference"
+  ]
+}

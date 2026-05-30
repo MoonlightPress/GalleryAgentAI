@@ -1,0 +1,244 @@
+{
+  "peer_artists": [
+    {
+      "name": "Rinko Kawauchi",
+      "region": "Japan",
+      "fit_reason": "quiet observation, soft attention to ordinary life, poetic sequencing",
+      "shared_traits": [
+        "quiet photography",
+        "daily life",
+        "memory",
+        "sequence",
+        "soft atmosphere"
+      ],
+      "use_as": "tone reference, not direct stylistic imitation"
+    },
+    {
+      "name": "Takashi Homma",
+      "region": "Japan",
+      "fit_reason": "ordinary architecture, suburbs, place-based observation, understated photographic language",
+      "shared_traits": [
+        "architecture",
+        "urban vernacular",
+        "daily place",
+        "cool restraint"
+      ],
+      "use_as": "reference for place and built environment"
+    },
+    {
+      "name": "Yoshiyuki Okuyama",
+      "region": "Japan",
+      "fit_reason": "youthful everyday scenes, memory, light, quiet personal atmosphere",
+      "shared_traits": [
+        "daily life",
+        "memory",
+        "intimate scale",
+        "photobook culture"
+      ],
+      "use_as": "reference for accessible poetic sequencing"
+    },
+    {
+      "name": "Alec Soth",
+      "region": "USA",
+      "fit_reason": "narrative sequencing, place, human trace, photographic storytelling through accumulation",
+      "shared_traits": [
+        "sequence",
+        "place",
+        "human trace",
+        "photobook"
+      ],
+      "use_as": "reference for project structure"
+    },
+    {
+      "name": "Batia Suter",
+      "region": "Europe",
+      "fit_reason": "book-oriented image sequencing and associative visual thinking",
+      "shared_traits": [
+        "artist book",
+        "sequence",
+        "visual association",
+        "printed matter"
+      ],
+      "use_as": "reference for book logic"
+    },
+    {
+      "name": "Mark Ruwedel",
+      "region": "USA",
+      "fit_reason": "quiet documentary attention to traces in landscape and built space",
+      "shared_traits": [
+        "trace",
+        "architecture",
+        "absence",
+        "documentary restraint"
+      ],
+      "use_as": "reference for human absence and place"
+    },
+    {
+      "name": "Toshio Shibata",
+      "region": "Japan",
+      "fit_reason": "infrastructure, built environment, restrained photographic observation",
+      "shared_traits": [
+        "infrastructure",
+        "architecture",
+        "quiet form",
+        "Japan"
+      ],
+      "use_as": "reference for built structures"
+    },
+    {
+      "name": "Sophie Calle",
+      "region": "France",
+      "fit_reason": "trace, absence, narrative fragments, emotional residue",
+      "shared_traits": [
+        "absence",
+        "trace",
+        "narrative fragments",
+        "memory"
+      ],
+      "use_as": "reference for conceptual framing, not visual style"
+    }
+  ],
+  "publisher_matches": [
+    {
+      "name": "AKAAKA",
+      "region": "Japan",
+      "match_strength": "high",
+      "why": "Japanese photobook publisher with serious photography context; useful for quiet, sequence-driven work.",
+      "best_use": "long-term publisher / benchmark",
+      "fit_tags": [
+        "Japanese photography",
+        "photobook",
+        "quiet sequence",
+        "serious publication"
+      ]
+    },
+    {
+      "name": "T&M Projects",
+      "region": "Japan",
+      "match_strength": "medium-high",
+      "why": "Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.",
+      "best_use": "publisher research / benchmark",
+      "fit_tags": [
+        "photobook",
+        "Japan",
+        "printed matter"
+      ]
+    },
+    {
+      "name": "Self Publish, Be Happy",
+      "region": "Global",
+      "match_strength": "high",
+      "why": "Strong match for independent photobook and zine culture.",
+      "best_use": "submission research / community reference",
+      "fit_tags": [
+        "self-publishing",
+        "photobook",
+        "zine",
+        "community"
+      ]
+    },
+    {
+      "name": "VOID",
+      "region": "Europe",
+      "match_strength": "medium-high",
+      "why": "Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.",
+      "best_use": "publisher benchmark",
+      "fit_tags": [
+        "photobook",
+        "sequence",
+        "Europe"
+      ]
+    },
+    {
+      "name": "MACK",
+      "region": "UK",
+      "match_strength": "stretch",
+      "why": "Major photobook publisher; probably not immediate, but useful as a long-horizon benchmark.",
+      "best_use": "career benchmark",
+      "fit_tags": [
+        "photobook",
+        "prestige",
+        "stretch"
+      ]
+    },
+    {
+      "name": "Aperture",
+      "region": "USA",
+      "match_strength": "stretch",
+      "why": "High-prestige photography institution and publication ecosystem; useful for awards, references, and benchmark artists.",
+      "best_use": "stretch opportunity / research source",
+      "fit_tags": [
+        "photography",
+        "publication",
+        "prestige",
+        "portfolio prize"
+      ]
+    },
+    {
+      "name": "Printed Matter",
+      "region": "USA",
+      "match_strength": "high",
+      "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
+      "best_use": "artist-book ecosystem / fair research",
+      "fit_tags": [
+        "artist book",
+        "printed matter",
+        "zine",
+        "small press"
+      ]
+    }
+  ],
+  "ecosystem_nodes": [
+    {
+      "cluster": "Japan Photobook / Artist Book",
+      "nodes": [
+        "AKAAKA",
+        "T&M Projects",
+        "Shashasha",
+        "FUGENSHA",
+        "UTRECHT",
+        "POST",
+        "flotsam books",
+        "MOUNT ZINE",
+        "TOKYO ART BOOK FAIR"
+      ],
+      "why_it_matters": "This is the strongest immediate ecosystem for her visual language: quiet photography, sequences, books, zines, and small-scale cultural visibility."
+    },
+    {
+      "cluster": "International Photobook Publishing",
+      "nodes": [
+        "MACK",
+        "VOID",
+        "Self Publish, Be Happy",
+        "Photobook Cafe",
+        "The Photographers' Gallery",
+        "Aperture",
+        "Offprint"
+      ],
+      "why_it_matters": "This is the long-horizon ecosystem for international publication legitimacy."
+    },
+    {
+      "cluster": "Quiet Documentary / Place-Based Photography",
+      "nodes": [
+        "Rinko Kawauchi",
+        "Takashi Homma",
+        "Alec Soth",
+        "Mark Ruwedel",
+        "Toshio Shibata"
+      ],
+      "why_it_matters": "These references help position the work as serious observational photography rather than decorative travel imagery."
+    },
+    {
+      "cluster": "Low-Pressure Local Relationship Building",
+      "nodes": [
+        "UTRECHT",
+        "B&B Shimokitazawa",
+        "flotsam books",
+        "MOUNT ZINE",
+        "Photobook Cafe",
+        "POST"
+      ],
+      "why_it_matters": "These are useful for soft visibility and relationship-building before major applications."
+    }
+  ]
+}

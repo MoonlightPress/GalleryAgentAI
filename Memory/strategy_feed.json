@@ -1,131 +1,19 @@
 {
   "featured": [
     {
-      "title": "UTRECHT",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "BankART1929",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
-      "image": ""
-    },
-    {
-      "title": "Book and Sons",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Koganecho Area Management Center",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
-      "image": ""
-    },
-    {
-      "title": "POST",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "AIR 3331",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Residencies / Longer Projects",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "MOUNT ZINE",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Youkobo Art Space",
-      "bucket": "easy_win",
-      "score": 9.8,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Residencies / Longer Projects",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "flotsam books",
-      "bucket": "easy_win",
-      "score": 9.8,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Tokyo Arts and Space",
-      "bucket": "easy_win",
-      "score": 9.8,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Institutional / Grants",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Design Festa",
-      "bucket": "easy_win",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
       "title": "TOKYO ART BOOK FAIR",
       "bucket": "easy_win",
-      "score": 8.8,
+      "score": 9.4,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
       "city": "Tokyo",
       "image": ""
-    }
-  ],
-  "easy_wins": [
+    },
     {
       "title": "UTRECHT",
       "bucket": "easy_win",
-      "score": 10,
+      "score": 9.4,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -133,228 +21,790 @@
       "image": ""
     },
     {
-      "title": "BankART1929",
+      "title": "BONUS TRACK",
       "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
-      "image": ""
-    },
-    {
-      "title": "Book and Sons",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Koganecho Area Management Center",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
-      "image": ""
-    },
-    {
-      "title": "POST",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "AIR 3331",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Residencies / Longer Projects",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "MOUNT ZINE",
-      "bucket": "easy_win",
-      "score": 10,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Youkobo Art Space",
-      "bucket": "easy_win",
-      "score": 9.8,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Residencies / Longer Projects",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "flotsam books",
-      "bucket": "easy_win",
-      "score": 9.8,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Tokyo Arts and Space",
-      "bucket": "easy_win",
-      "score": 9.8,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Institutional / Grants",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Design Festa",
-      "bucket": "easy_win",
-      "score": 8.8,
+      "score": 9.4,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
+      "city": "Shimokitazawa",
       "image": ""
     },
     {
-      "title": "TOKYO ART BOOK FAIR",
+      "title": "B&B Shimokitazawa",
       "bucket": "easy_win",
-      "score": 8.8,
+      "score": 9.4,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    }
-  ],
-  "career_changing": [],
-  "portfolio_builders": [
-    {
-      "title": "NADiff a/p/a/r/t",
-      "bucket": "portfolio_builder",
-      "score": 7.8,
-      "confidence": "High",
-      "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
       "city": "Tokyo",
-      "image": ""
-    }
-  ],
-  "community_builders": [
-    {
-      "title": "Cafe Cross Point",
-      "bucket": "community_builder",
-      "score": 7.8,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Cafe / Local Wall Spaces",
-      "city": "Koenji",
-      "image": ""
-    },
-    {
-      "title": "Aoyama Farmers Market",
-      "bucket": "community_builder",
-      "score": 7.8,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "MADO Café",
-      "bucket": "community_builder",
-      "score": 7.8,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Cafe / Local Wall Spaces",
-      "city": "Koenji",
       "image": ""
     },
     {
       "title": "Comitia",
-      "bucket": "community_builder",
-      "score": 7.8,
+      "bucket": "easy_win",
+      "score": 9.4,
       "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
+      "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
       "city": "Tokyo",
       "image": ""
     },
     {
-      "title": "RAW TOKYO",
-      "bucket": "community_builder",
-      "score": 7.3,
+      "title": "reload Shimokitazawa",
+      "bucket": "easy_win",
+      "score": 9.4,
       "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Shimokitazawa",
+      "image": ""
+    },
+    {
+      "title": "Design Festa",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
       "city": "Tokyo",
       "image": ""
     },
     {
-      "title": "Cafe Gallery HATTIFNATT",
-      "bucket": "community_builder",
-      "score": 6.8,
+      "title": "Aoyama Farmers Market",
+      "bucket": "easy_win",
+      "score": 9.4,
       "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Cafe / Local Wall Spaces",
-      "city": "Koenji",
-      "image": ""
-    },
-    {
-      "title": "Cafe Mame-Hico",
-      "bucket": "community_builder",
-      "score": 6.8,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Cafe / Local Wall Spaces",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
       "city": "Tokyo",
       "image": ""
     },
     {
       "title": "HandMade In Japan Fes",
-      "bucket": "community_builder",
-      "score": 6.8,
+      "bucket": "easy_win",
+      "score": 9.4,
       "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
+      "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
       "city": "Tokyo",
       "image": ""
     },
     {
-      "title": "Yonchome Cafe",
-      "bucket": "community_builder",
-      "score": 6.8,
+      "title": "Book and Sons",
+      "bucket": "easy_win",
+      "score": 9.4,
       "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Cafe Cross Point",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Cafe / Local Wall Spaces",
       "city": "Koenji",
       "image": ""
     },
     {
-      "title": "reload Shimokitazawa",
-      "bucket": "community_builder",
-      "score": 6.8,
+      "title": "MADO Café",
+      "bucket": "easy_win",
+      "score": 9.4,
       "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Cafe / Local Wall Spaces",
+      "city": "Koenji",
+      "image": ""
+    }
+  ],
+  "easy_wins": [
+    {
+      "title": "TOKYO ART BOOK FAIR",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "UTRECHT",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "BONUS TRACK",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
       "city": "Shimokitazawa",
+      "image": ""
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Comitia",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "reload Shimokitazawa",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Shimokitazawa",
+      "image": ""
+    },
+    {
+      "title": "Design Festa",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Aoyama Farmers Market",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "HandMade In Japan Fes",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Book and Sons",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Cafe Cross Point",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Cafe / Local Wall Spaces",
+      "city": "Koenji",
+      "image": ""
+    },
+    {
+      "title": "MADO Café",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Cafe / Local Wall Spaces",
+      "city": "Koenji",
+      "image": ""
+    }
+  ],
+  "career_changing": [
+    {
+      "title": "Offprint",
+      "bucket": "career_changing",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "High-prestige opportunity with strong long-term impact.",
+      "category": "Global Art Book Fair",
+      "city": "Paris / London",
+      "image": ""
+    },
+    {
+      "title": "PhotoVogue Open Calls",
+      "bucket": "career_changing",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "High-prestige opportunity with strong long-term impact.",
+      "category": "Global Online Feature",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "The Photographers' Gallery",
+      "bucket": "career_changing",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "High-prestige opportunity with strong long-term impact.",
+      "category": "Global Photo Institution",
+      "city": "London",
+      "image": ""
+    },
+    {
+      "title": "Aperture Portfolio Prize / Opportunities",
+      "bucket": "career_changing",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "High-prestige opportunity with strong long-term impact.",
+      "category": "Global Photo Publication",
+      "city": "New York / Online",
+      "image": ""
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "bucket": "career_changing",
+      "score": 8.0,
+      "confidence": "Medium",
+      "reason": "High-prestige opportunity with strong long-term impact.",
+      "category": "Global Art Book Fair",
+      "city": "New York / Los Angeles",
+      "image": ""
+    },
+    {
+      "title": "Self Publish, Be Happy",
+      "bucket": "career_changing",
+      "score": 8.0,
+      "confidence": "Medium",
+      "reason": "High-prestige opportunity with strong long-term impact.",
+      "category": "Global Photobook Platform",
+      "city": "London / Online",
+      "image": ""
+    }
+  ],
+  "portfolio_builders": [
+    {
+      "title": "X",
+      "bucket": "portfolio_builder",
+      "score": 7.8,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "Pinterest",
+      "bucket": "portfolio_builder",
+      "score": 7.8,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "Instagram",
+      "bucket": "portfolio_builder",
+      "score": 7.8,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "Tiktok",
+      "bucket": "portfolio_builder",
+      "score": 7.8,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "Magazine Subscribers",
+      "bucket": "portfolio_builder",
+      "score": 7.8,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "Magazine Subscription",
+      "bucket": "portfolio_builder",
+      "score": 7.8,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "LensCulture - Contemporary Photography",
+      "bucket": "portfolio_builder",
+      "score": 7.8,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "Browse Printed Matter Editions",
+      "bucket": "portfolio_builder",
+      "score": 7.5,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "Printed Matter, Inc.",
+      "bucket": "portfolio_builder",
+      "score": 7.5,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00",
+      "bucket": "portfolio_builder",
+      "score": 7.5,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    }
+  ],
+  "community_builders": [],
+  "global_targets": [
+    {
+      "title": "Offprint",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Art Book Fair",
+      "city": "Paris / London",
+      "country": "France / UK",
+      "image": ""
+    },
+    {
+      "title": "Photobook Cafe",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Photobook Space",
+      "city": "London",
+      "country": "UK",
+      "image": ""
+    },
+    {
+      "title": "Open Calls",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Center for Book Arts Opportunities",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Book Arts",
+      "city": "New York",
+      "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "Der Greif Open Calls",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Photo Open Call",
+      "city": "Online / Germany",
+      "country": "Germany / Global",
+      "image": ""
+    },
+    {
+      "title": "PhotoVogue Open Calls",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Online Feature",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Aperture | Photography",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Photobook",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "The Photographers' Gallery",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Photo Institution",
+      "city": "London",
+      "country": "UK",
+      "image": ""
+    },
+    {
+      "title": "Aperture Portfolio Prize / Opportunities",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Photo Publication",
+      "city": "New York / Online",
+      "country": "USA / Global",
+      "image": ""
+    },
+    {
+      "title": "www.facebook.com",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Photo Publication",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Continue Reading",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Photo Publication",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "www.futures-photography.com",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Photo Publication",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "DER GREIF",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Photobook",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "LensCulture Awards / Open Calls",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Learn",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    }
+  ],
+  "publication_targets": [
+    {
+      "title": "UTRECHT",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "Book and Sons",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "MOUNT ZINE",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "flotsam books",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "POST",
+      "bucket": "publication_targets",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "NADiff a/p/a/r/t",
+      "bucket": "publication_targets",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "Offprint",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Art Book Fair",
+      "city": "Paris / London",
+      "country": "France / UK",
+      "image": ""
+    },
+    {
+      "title": "Photobook Cafe",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Photobook Space",
+      "city": "London",
+      "country": "UK",
+      "image": ""
+    },
+    {
+      "title": "Open Calls",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Center for Book Arts Opportunities",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Book Arts",
+      "city": "New York",
+      "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "Der Greif Open Calls",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Photo Open Call",
+      "city": "Online / Germany",
+      "country": "Germany / Global",
+      "image": ""
+    },
+    {
+      "title": "Aperture | Photography",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Photobook",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "The Photographers' Gallery",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Photo Institution",
+      "city": "London",
+      "country": "UK",
+      "image": ""
+    },
+    {
+      "title": "Aperture Portfolio Prize / Opportunities",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Photo Publication",
+      "city": "New York / Online",
+      "country": "USA / Global",
+      "image": ""
+    },
+    {
+      "title": "www.facebook.com",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Photo Publication",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Continue Reading",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Photo Publication",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "www.futures-photography.com",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Photo Publication",
+      "city": "Online",
+      "country": "Global",
       "image": ""
     }
   ]

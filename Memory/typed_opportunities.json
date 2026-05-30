@@ -1,0 +1,747 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "url": "https://tokyoartbookfair.com/",
+    "score": 9.6,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://tokyoartbookfair.com/",
+    "error": "name 'response' is not defined",
+    "submission_links": [
+      {
+        "label": "Application",
+        "url": "https://tokyoartbookfair.com/application/",
+        "same_domain": true,
+        "submission_link_score": 10,
+        "application_link_score": 10
+      }
+    ],
+    "ranked_submission_links": [
+      {
+        "label": "Application",
+        "url": "https://tokyoartbookfair.com/application/",
+        "same_domain": true,
+        "submission_link_score": 10,
+        "application_link_score": 10
+      }
+    ],
+    "application_page_results": [
+      {
+        "label": "Application",
+        "url": "https://tokyoartbookfair.com/application/",
+        "final_url": "https://tokyoartbookfair.com/application/",
+        "http_status": 200,
+        "error": null,
+        "emails": [],
+        "date_candidates": [
+          "2027年1月21日",
+          "2027年1月29日"
+        ],
+        "requirement_hits": [
+          "画像",
+          "締切"
+        ],
+        "text_preview": "TOKYO ART BOOK FAIR | APPLICATION HOME ABOUT APPLICATION ACCESS CONTACT ARCHIVES JP EN PRIVACY POLICY COMMUNITY AGREEMENT MENU TOKYO ART BOOK FAIR APPLICATION 会場・会期 会場：東京都現代美術館 会期：2027年1月21日（木）- 1月24日（日） 2027年1月29日（金）- 1月31日（日） 入場料：1,000円（税込） 出展について ・TABFの出展者ブースは、4つのエリアに分かれています。それぞれ応募対象が異なりますので、ご自身に適したエリアをご選択ください。 ・TABFでは、積極的に出版を行なっている方、新しい試みに挑戦している方を優先的に選出させて頂きます。 ・アートブック、および印刷物を中心とした内容に限ります。一部、Tシャツやステッカーなどのグッズを販売いただくことは可能です。 ・生花・ドライフラワー、植物、土、生き物、生の食品、ほか有機物の持ち込みは固くお断りいたします。 ・自らの責任で搬入・搬出を行うとともに、会期中は原則、ブース内にて自ら販売ができる方。 （グループや団体での出展も可能ですが、1ブースにつき、滞在可能なスタッフの人数の上限を決めさせていただく可能性があります） 締切と出展可否のご連絡について ・参加お申込みの締切は6月7日（日）です。出展可否のご連絡は、7月中に行います。 ・お支払いは銀行振込にて、指定期日までにお振り込みをお願い致します。 ・お支払いの口座情報は、出展決定者にのみ、ご"
+      }
+    ],
+    "opportunity_type": "book_fair",
+    "opportunity_type_hits": {
+      "book_fair": [
+        "art book fair",
+        "book fair",
+        "tokyo art book fair"
+      ],
+      "residency": [
+        "air"
+      ]
+    },
+    "next_action_hint": "Check exhibitor application requirements; useful only if she has a zine/book object."
+  },
+  {
+    "title": "Self Publish, Be Happy",
+    "url": "https://selfpublishbehappy.com/",
+    "score": 9.6,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://selfpublishbehappy.com/",
+    "error": "HTTPSConnectionPool(host='selfpublishbehappy.com', port=443): Read timed out. (read timeout=15)",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "publication",
+    "opportunity_type_hits": {
+      "publication": [
+        "self publish"
+      ]
+    },
+    "next_action_hint": "Use only if the work is converted into a sequence, book, or printed edition."
+  },
+  {
+    "title": "Home - Printed Matter",
+    "url": "https://www.printedmatter.org/",
+    "score": 9.6,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://www.printedmatter.org/",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "book_fair",
+    "opportunity_type_hits": {
+      "book_fair": [
+        "printed matter"
+      ],
+      "publication": [
+        "printed matter"
+      ]
+    },
+    "next_action_hint": "Check exhibitor application requirements; useful only if she has a zine/book object."
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "url": "https://www.jacksonsart.com/paintingprize/",
+    "score": 9.6,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://www.jacksonsart.com/paintingprize/",
+    "error": "name 'response' is not defined",
+    "submission_links": [
+      {
+        "label": "Jackson's Art Prize",
+        "url": "https://www.jacksonsart.com/paintingprize/",
+        "same_domain": true,
+        "submission_link_score": 1,
+        "application_link_score": 1
+      }
+    ],
+    "ranked_submission_links": [
+      {
+        "label": "Jackson's Art Prize",
+        "url": "https://www.jacksonsart.com/paintingprize/",
+        "same_domain": true,
+        "submission_link_score": 1,
+        "application_link_score": 1
+      }
+    ],
+    "application_page_results": [
+      {
+        "label": "Jackson's Art Prize",
+        "url": "https://www.jacksonsart.com/paintingprize/",
+        "final_url": "https://www.jacksonsart.com/artprize/",
+        "http_status": 200,
+        "error": null,
+        "emails": [],
+        "date_candidates": [],
+        "requirement_hits": [],
+        "text_preview": "Jackson's Art Prize 2026 Past Competitions 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 Connect FAQs Contact Newsletter Buy Artwork About Jackson’s Art Prize Click here to find out more about the competition this year. Follow us on Instagram for the latest updates: @jacksons_art_prize Find shortlisted artists on Jackson’s Art Gallery . Join our competition newsletter and receive the latest updates on Jackson’s Art Prize. TOP CONTACT JACKSON’S ART SUPPLIES JACKSON’S ART GALLERY JACKSON’S ART SUPPLIES, 1 FARLEIGH PLACE, LONDON, N16 7SX"
+      }
+    ],
+    "opportunity_type": "competition",
+    "opportunity_type_hits": {
+      "competition": [
+        "prize",
+        "jackson"
+      ]
+    },
+    "next_action_hint": "Check deadline, fee, eligibility, and whether prize/reputation is worth it."
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "score": 9.6,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "error": "name 'response' is not defined",
+    "submission_links": [
+      {
+        "label": "Mall Galleries Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "same_domain": true,
+        "submission_link_score": 14,
+        "application_link_score": 14
+      }
+    ],
+    "ranked_submission_links": [
+      {
+        "label": "Mall Galleries Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "same_domain": true,
+        "submission_link_score": 14,
+        "application_link_score": 14
+      }
+    ],
+    "application_page_results": [
+      {
+        "label": "Mall Galleries Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "final_url": "https://www.mallgalleries.org.uk/open-calls",
+        "http_status": 200,
+        "error": null,
+        "emails": [],
+        "date_candidates": [],
+        "requirement_hits": [],
+        "text_preview": "Open Calls | Mall Galleries Skip to main content Exhibitions & Events Buy Art Open Calls Venue Hire Become a Friend Calendar search more menu close more menu Exhibitions & Events Buy Art Open Calls Venue Hire Become a Friend About Us Explore Artists Art Consultancy Join and Support News Visit Us Calendar close search Search Apply Popular searches Exhibitions & Events Visit Us Venue Hire Open Calls Artworks Buy Art Breadcrumb Home Open Calls Open Calls Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships i i The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for art"
+      }
+    ],
+    "opportunity_type": "open_exhibition",
+    "opportunity_type_hits": {
+      "open_exhibition": [
+        "open calls",
+        "open call",
+        "mall galleries",
+        "royal institute"
+      ]
+    },
+    "next_action_hint": "Verify current call, deadline, fee, size rules, and submit only if current."
+  },
+  {
+    "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
+    "url": "https://www.printedmatter.org/programs/events/2250",
+    "score": 9.6,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://www.printedmatter.org/programs/events/2250",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "unknown",
+    "opportunity_type_hits": {},
+    "next_action_hint": "Manual review required."
+  },
+  {
+    "title": "HB Gallery",
+    "url": "https://hbgallery.com/",
+    "score": 9.6,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://hbgallery.com/",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "gallery_submission",
+    "opportunity_type_hits": {
+      "gallery_submission": [
+        "gallery",
+        "hb gallery"
+      ]
+    },
+    "next_action_hint": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "OPA Gallery",
+    "url": "https://opagallery.net/",
+    "score": 9.6,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://opagallery.net/",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "gallery_submission",
+    "opportunity_type_hits": {
+      "gallery_submission": [
+        "gallery",
+        "opa"
+      ]
+    },
+    "next_action_hint": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "url": "https://pinpointgallery.com/",
+    "score": 9.6,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://pinpointgallery.com/",
+    "error": "name 'response' is not defined",
+    "submission_links": [
+      {
+        "label": "Competition / Application",
+        "url": "https://pinpointgallery.com/competition/",
+        "same_domain": true,
+        "submission_link_score": 17,
+        "application_link_score": 17
+      }
+    ],
+    "ranked_submission_links": [
+      {
+        "label": "Competition / Application",
+        "url": "https://pinpointgallery.com/competition/",
+        "same_domain": true,
+        "submission_link_score": 17,
+        "application_link_score": 17
+      }
+    ],
+    "application_page_results": [
+      {
+        "label": "Competition / Application",
+        "url": "https://pinpointgallery.com/competition/",
+        "final_url": "https://pinpointgallery.com/competition/",
+        "http_status": 200,
+        "error": null,
+        "emails": [],
+        "date_candidates": [],
+        "requirement_hits": [
+          "作品"
+        ],
+        "text_preview": "Competition | Pinpoint Gallery menu Gallery HOME Schedule 展覧会スケジュール About&Access ピンポイントギャラリーについて ギャラリーまでの行き方 ギャラリーレンタルについて お問い合わせ Competition 第27回ピンポイント絵本コンペ ピンポイント絵本コンペとは？ 応募要項 Contact お問い合わせフォーム OnlineStore オンラインストア 100人展覧会”いのち”オンラインストア Competition ホーム Competition ピンポイント絵本コンペとは？ 2000年より絵本作家育成を目的としてはじまったギャラリー主催の絵本公募展。 オリジナル、未発表の絵本作品を募集します。プロ、アマ問わず。審査員は、現役で活躍中の編集者、絵本作家らにギャラリーオーナーを加えての４人。 7月頃に3週に渡って受賞展を開催します。展覧会期間中、またその後も作家活動を応援します。 これまでに、刊行された受賞作は27作。受賞をきっかけにプロとしてデビューした若手作家らを多数輩出しました。このコンペは、賞を与えるだけではなく、その後の活動を長く見守りたいと考えています。 第26回(予定)審査員プロフィール 高橋雅之（たかはし・まさゆき） 1957年生まれ。デザインオフィスK2を経て、タカハシデザイン室設立。 エディトリアル、舞台宣伝美術を中心にアートディレクションとデザインを手掛ける。 デザインした絵本は「えほんのこども」荒井良二、「しろうさぎとりんごの木」酒井駒子、「よあけ」あべ弘士、「ルッキオとフリ"
+      }
+    ],
+    "opportunity_type": "gallery_submission",
+    "opportunity_type_hits": {
+      "gallery_submission": [
+        "gallery",
+        "pinpoint"
+      ],
+      "competition": [
+        "competition"
+      ]
+    },
+    "next_action_hint": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "Royal Watercolour Society",
+    "url": "https://www.royalwatercoloursociety.co.uk/",
+    "score": 9.1,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://www.royalwatercoloursociety.co.uk/",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "unknown",
+    "opportunity_type_hits": {},
+    "next_action_hint": "Manual review required."
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "score": 9.1,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "error": "name 'response' is not defined",
+    "submission_links": [
+      {
+        "label": "Mall Galleries Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "same_domain": true,
+        "submission_link_score": 14,
+        "application_link_score": 14
+      }
+    ],
+    "ranked_submission_links": [
+      {
+        "label": "Mall Galleries Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "same_domain": true,
+        "submission_link_score": 14,
+        "application_link_score": 14
+      }
+    ],
+    "application_page_results": [
+      {
+        "label": "Mall Galleries Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "final_url": "https://www.mallgalleries.org.uk/open-calls",
+        "http_status": 200,
+        "error": null,
+        "emails": [],
+        "date_candidates": [],
+        "requirement_hits": [],
+        "text_preview": "Open Calls | Mall Galleries Skip to main content Exhibitions & Events Buy Art Open Calls Venue Hire Become a Friend Calendar search more menu close more menu Exhibitions & Events Buy Art Open Calls Venue Hire Become a Friend About Us Explore Artists Art Consultancy Join and Support News Visit Us Calendar close search Search Apply Popular searches Exhibitions & Events Visit Us Venue Hire Open Calls Artworks Buy Art Breadcrumb Home Open Calls Open Calls Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships i i The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for art"
+      }
+    ],
+    "opportunity_type": "open_exhibition",
+    "opportunity_type_hits": {
+      "open_exhibition": [
+        "open exhibition",
+        "open calls",
+        "open call",
+        "mall galleries"
+      ]
+    },
+    "next_action_hint": "Verify current call, deadline, fee, size rules, and submit only if current."
+  },
+  {
+    "title": "Society of Women Artists",
+    "url": "https://www.society-women-artists.org.uk/",
+    "score": 9.1,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://www.society-women-artists.org.uk/",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "open_exhibition",
+    "opportunity_type_hits": {
+      "open_exhibition": [
+        "society of women artists"
+      ]
+    },
+    "next_action_hint": "Verify current call, deadline, fee, size rules, and submit only if current."
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "score": 9.1,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "error": "name 'response' is not defined",
+    "submission_links": [
+      {
+        "label": "Mall Galleries Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "same_domain": true,
+        "submission_link_score": 14,
+        "application_link_score": 14
+      }
+    ],
+    "ranked_submission_links": [
+      {
+        "label": "Mall Galleries Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "same_domain": true,
+        "submission_link_score": 14,
+        "application_link_score": 14
+      }
+    ],
+    "application_page_results": [
+      {
+        "label": "Mall Galleries Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "final_url": "https://www.mallgalleries.org.uk/open-calls",
+        "http_status": 200,
+        "error": null,
+        "emails": [],
+        "date_candidates": [],
+        "requirement_hits": [],
+        "text_preview": "Open Calls | Mall Galleries Skip to main content Exhibitions & Events Buy Art Open Calls Venue Hire Become a Friend Calendar search more menu close more menu Exhibitions & Events Buy Art Open Calls Venue Hire Become a Friend About Us Explore Artists Art Consultancy Join and Support News Visit Us Calendar close search Search Apply Popular searches Exhibitions & Events Visit Us Venue Hire Open Calls Artworks Buy Art Breadcrumb Home Open Calls Open Calls Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships i i The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for art"
+      }
+    ],
+    "opportunity_type": "open_exhibition",
+    "opportunity_type_hits": {
+      "open_exhibition": [
+        "open exhibition",
+        "open calls",
+        "open call",
+        "mall galleries",
+        "pastel society"
+      ]
+    },
+    "next_action_hint": "Verify current call, deadline, fee, size rules, and submit only if current."
+  },
+  {
+    "title": "UTRECHT",
+    "url": "https://utrecht.jp/",
+    "score": 9.0,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://utrecht.jp/",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "gallery_submission",
+    "opportunity_type_hits": {
+      "gallery_submission": [
+        "utrecht"
+      ]
+    },
+    "next_action_hint": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "MOUNT ZINE",
+    "url": "https://zine.mount.co.jp/",
+    "score": 9.0,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://zine.mount.co.jp/",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "zine_fair",
+    "opportunity_type_hits": {
+      "zine_fair": [
+        "zine",
+        "mount zine"
+      ]
+    },
+    "next_action_hint": "Make a small watercolor zine first; do not treat as gallery representation."
+  },
+  {
+    "title": "Book and Sons",
+    "url": "https://bookandsons.com/",
+    "score": 9.0,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://bookandsons.com/",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "gallery_submission",
+    "opportunity_type_hits": {
+      "gallery_submission": [
+        "book and sons"
+      ]
+    },
+    "next_action_hint": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "Offprint",
+    "url": "https://offprint.org/",
+    "score": 9.0,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://offprint.org/",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "book_fair",
+    "opportunity_type_hits": {
+      "book_fair": [
+        "offprint"
+      ]
+    },
+    "next_action_hint": "Check exhibitor application requirements; useful only if she has a zine/book object."
+  },
+  {
+    "title": "POST",
+    "url": "https://post-books.info/",
+    "score": 9.0,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://post-books.info/",
+    "error": "HTTPSConnectionPool(host='post-books.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'post-books.info'. (_ssl.c:1081)\")))",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "gallery_submission",
+    "opportunity_type_hits": {
+      "gallery_submission": [
+        "post"
+      ]
+    },
+    "next_action_hint": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "Printed Matter Art Book Fairs",
+    "url": "https://www.printedmatter.org/",
+    "score": 9.0,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://www.printedmatter.org/",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "book_fair",
+    "opportunity_type_hits": {
+      "book_fair": [
+        "art book fair",
+        "book fair",
+        "printed matter"
+      ],
+      "residency": [
+        "air"
+      ],
+      "publication": [
+        "printed matter"
+      ]
+    },
+    "next_action_hint": "Check exhibitor application requirements; useful only if she has a zine/book object."
+  },
+  {
+    "title": "Browse Printed Matter Editions",
+    "url": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions",
+    "score": 9.0,
+    "status": "unverified",
+    "submission_open": "unknown",
+    "deadline": "unknown",
+    "contact": "unknown",
+    "fee": "unknown",
+    "verified": false,
+    "http_status": null,
+    "relevant_links": [],
+    "date_candidates": [],
+    "contact_candidates": [],
+    "final_url": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions",
+    "error": "name 'response' is not defined",
+    "submission_links": [],
+    "ranked_submission_links": [],
+    "application_page_results": [],
+    "opportunity_type": "book_fair",
+    "opportunity_type_hits": {
+      "book_fair": [
+        "printed matter"
+      ],
+      "publication": [
+        "printed matter"
+      ]
+    },
+    "next_action_hint": "Check exhibitor application requirements; useful only if she has a zine/book object."
+  }
+]
