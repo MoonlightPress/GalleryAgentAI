@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Pastel Society Open Exhibition",
+    "opportunity_types": [
+      "zine_fair",
+      "artist_book_store",
+      "small_press_publisher",
+      "bookstore_gallery",
+      "traditional_painting_society",
+      "large_formal_competition"
+    ]
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "opportunity_types": [
+      "small_press_publisher",
+      "illustration_gallery",
+      "bookstore_gallery",
+      "print_market",
+      "quiet_contemporary_gallery",
+      "large_formal_competition"
+    ]
+  },
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "opportunity_types": [
+      "artist_book_fair",
+      "zine_fair",
+      "zine_shop",
+      "artist_book_store",
+      "small_press_publisher",
+      "bookstore_gallery",
+      "print_market",
+      "quiet_contemporary_gallery"
+    ]
+  }
+]

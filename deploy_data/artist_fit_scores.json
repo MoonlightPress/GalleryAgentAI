@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Pinpoint Gallery",
+    "artist_fit_score": 65,
+    "combined_personal_score": 65.0,
+    "fit_label": "promising personal fit",
+    "opportunity_types": [
+      "small_press_publisher",
+      "illustration_gallery",
+      "bookstore_gallery",
+      "print_market",
+      "quiet_contemporary_gallery",
+      "large_formal_competition"
+    ],
+    "fit_reasons": [
+      "strong type match: bookstore_gallery, illustration_gallery, print_market, quiet_contemporary_gallery, small_press_publisher",
+      "weak type warning: large_formal_competition"
+    ],
+    "existing_recommendation_score": 82.9,
+    "evidence_card_present": true
+  },
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "artist_fit_score": 85,
+    "combined_personal_score": 57.2,
+    "fit_label": "promising personal fit",
+    "opportunity_types": [
+      "artist_book_fair",
+      "zine_fair",
+      "zine_shop",
+      "artist_book_store",
+      "small_press_publisher",
+      "bookstore_gallery",
+      "print_market",
+      "quiet_contemporary_gallery"
+    ],
+    "fit_reasons": [
+      "strong type match: artist_book_fair, artist_book_store, bookstore_gallery, print_market, quiet_contemporary_gallery, small_press_publisher, zine_fair, zine_shop"
+    ],
+    "existing_recommendation_score": null,
+    "evidence_card_present": true
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "artist_fit_score": 45,
+    "combined_personal_score": 36.2,
+    "fit_label": "possible but not personal",
+    "opportunity_types": [
+      "zine_fair",
+      "artist_book_store",
+      "small_press_publisher",
+      "bookstore_gallery",
+      "traditional_painting_society",
+      "large_formal_competition"
+    ],
+    "fit_reasons": [
+      "strong type match: artist_book_store, bookstore_gallery, small_press_publisher, zine_fair",
+      "weak type warning: large_formal_competition, traditional_painting_society"
+    ],
+    "existing_recommendation_score": 27.7,
+    "evidence_card_present": false
+  }
+]

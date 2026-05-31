@@ -1,0 +1,324 @@
+{
+  "TOKYO ART BOOK FAIR": {
+    "entities": [
+      {
+        "name": "YES YES YES Revolutionary Press",
+        "entity_type": "publisher_or_press",
+        "relevance_score": 100,
+        "relevance_label": "high",
+        "positive_terms": [
+          "ZINE",
+          "known strong ecosystem entity",
+          "press",
+          "publisher",
+          "zine",
+          "出版"
+        ],
+        "penalty": 20,
+        "mentions": 15,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2025/"
+        ],
+        "contexts": [
+          "ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を"
+        ]
+      },
+      {
+        "name": "Verlag der Buchhandlung Walther und Franz König",
+        "entity_type": "publisher_or_press",
+        "relevance_score": 100,
+        "relevance_label": "high",
+        "positive_terms": [
+          "ZINE",
+          "known strong ecosystem entity",
+          "press",
+          "publisher",
+          "zine",
+          "アートブック",
+          "出版",
+          "出版社"
+        ],
+        "penalty": 70,
+        "mentions": 13,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2024/"
+        ],
+        "contexts": [
+          "ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ"
+        ]
+      },
+      {
+        "name": "Studio Yukiko",
+        "entity_type": "publisher_or_press",
+        "relevance_score": 100,
+        "relevance_label": "high",
+        "positive_terms": [
+          "known strong ecosystem entity",
+          "press",
+          "publisher",
+          "インディペンデント",
+          "出版"
+        ],
+        "penalty": 0,
+        "mentions": 5,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2024/"
+        ],
+        "contexts": [
+          "」、クリエイティブエージェンシーの「Studio Yukiko」がキュレーターとなり選書したコーナーでは、現代ドイツのインディペンデント出版シーンを垣間見ていただけるでしょう。"
+        ]
+      },
+      {
+        "name": "Hand Saw Press",
+        "entity_type": "publisher_or_press",
+        "relevance_score": 100,
+        "relevance_label": "high",
+        "positive_terms": [
+          "known strong ecosystem entity",
+          "press",
+          "publisher",
+          "出版"
+        ],
+        "penalty": 0,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2022/"
+        ],
+        "contexts": [
+          "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+        ]
+      },
+      {
+        "name": "Feira Plana",
+        "entity_type": "art_book_fair",
+        "relevance_score": 100,
+        "relevance_label": "high",
+        "positive_terms": [
+          "ZINE",
+          "known strong ecosystem entity",
+          "press",
+          "publisher",
+          "zine",
+          "アートブック",
+          "出版",
+          "出版社"
+        ],
+        "penalty": 10,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2016/"
+        ],
+        "contexts": [
+          "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+        ]
+      },
+      {
+        "name": "The Thing Quarterly",
+        "entity_type": "publisher_or_press",
+        "relevance_score": 100,
+        "relevance_label": "high",
+        "positive_terms": [
+          "ZINE",
+          "known strong ecosystem entity",
+          "press",
+          "publisher",
+          "zine"
+        ],
+        "penalty": 0,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2019/"
+        ],
+        "contexts": [
+          "Radical Pages: A Selection of American Zines / 10 Years of The Thing Quarterly / Photo: Hajime Kato"
+        ]
+      },
+      {
+        "name": "Feira",
+        "entity_type": "art_book_fair",
+        "relevance_score": 100,
+        "relevance_label": "high",
+        "positive_terms": [
+          "ZINE",
+          "press",
+          "publisher",
+          "zine",
+          "アートブック",
+          "出版",
+          "出版社"
+        ],
+        "penalty": 10,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2016/"
+        ],
+        "contexts": [
+          "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+        ]
+      },
+      {
+        "name": "Plana",
+        "entity_type": "publisher_or_press",
+        "relevance_score": 100,
+        "relevance_label": "high",
+        "positive_terms": [
+          "ZINE",
+          "press",
+          "publisher",
+          "zine",
+          "アートブック",
+          "出版",
+          "出版社"
+        ],
+        "penalty": 10,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2016/"
+        ],
+        "contexts": [
+          "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+        ]
+      },
+      {
+        "name": "Japanese Artists' Books",
+        "entity_type": "zine_or_book",
+        "relevance_score": 99,
+        "relevance_label": "high",
+        "positive_terms": [
+          "ZINE",
+          "bookstore",
+          "gallery",
+          "press",
+          "publisher",
+          "zine",
+          "アーティストブック",
+          "ギャラリー",
+          "出版"
+        ],
+        "penalty": 40,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2019/"
+        ],
+        "contexts": [
+          "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+        ]
+      },
+      {
+        "name": "Books",
+        "entity_type": "publisher_or_press",
+        "relevance_score": 96.5,
+        "relevance_label": "high",
+        "positive_terms": [
+          "ZINE",
+          "press",
+          "publisher",
+          "zine"
+        ],
+        "penalty": 0,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2019/"
+        ],
+        "contexts": [
+          "Japanese Artists' Books: Then and Now / Photo: Hajime Kato"
+        ]
+      },
+      {
+        "name": "Hajime Kato Japanese Artists' Books",
+        "entity_type": "publisher_or_press",
+        "relevance_score": 96.0,
+        "relevance_label": "high",
+        "positive_terms": [
+          "ZINE",
+          "press",
+          "publisher",
+          "zine"
+        ],
+        "penalty": 0,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2019/"
+        ],
+        "contexts": []
+      },
+      {
+        "name": "Pace Gallery",
+        "entity_type": "gallery",
+        "relevance_score": 85,
+        "relevance_label": "high",
+        "positive_terms": [
+          "ZINE",
+          "bookstore",
+          "gallery",
+          "known strong ecosystem entity",
+          "zine"
+        ],
+        "penalty": 40,
+        "mentions": 6,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2025/"
+        ],
+        "contexts": [
+          "また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ"
+        ]
+      },
+      {
+        "name": "Shiseido Gallery",
+        "entity_type": "gallery",
+        "relevance_score": 85,
+        "relevance_label": "high",
+        "positive_terms": [
+          "bookstore",
+          "gallery",
+          "known strong ecosystem entity"
+        ],
+        "penalty": 0,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2019/"
+        ],
+        "contexts": [
+          "Catalogues of Shiseido Gallery in 100 Years / Photo: Hajime Kato"
+        ]
+      },
+      {
+        "name": "American Zines",
+        "entity_type": "zine_or_book",
+        "relevance_score": 62.5,
+        "relevance_label": "medium",
+        "positive_terms": [
+          "ZINE",
+          "zine"
+        ],
+        "penalty": 0,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2019/"
+        ],
+        "contexts": [
+          "Radical Pages: A Selection of American Zines / 10 Years of The Thing Quarterly / Photo: Hajime Kato"
+        ]
+      },
+      {
+        "name": "Steidl Book Award Japan",
+        "entity_type": "award_or_program",
+        "relevance_score": 55,
+        "relevance_label": "medium",
+        "positive_terms": [
+          "ZINE",
+          "zine"
+        ],
+        "penalty": 0,
+        "mentions": 1,
+        "source_urls": [
+          "https://tokyoartbookfair.com/2016/"
+        ],
+        "contexts": []
+      }
+    ],
+    "high_relevance_count": 13,
+    "medium_relevance_count": 2,
+    "ignored_count": 0
+  }
+}

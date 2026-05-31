@@ -1,0 +1,3646 @@
+{
+  "title": "TOKYO ART BOOK FAIR",
+  "raw_entity_count": 198,
+  "clean_entity_count": 110,
+  "rejected_count": 53,
+  "clean_entities": [
+    {
+      "name": "YES YES YES Revolutionary Press",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 15,
+      "contexts": [
+        "ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "Verlag der Buchhandlung Walther und Franz König",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 13,
+      "contexts": [
+        "ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2024/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2024"
+      ]
+    },
+    {
+      "name": "Studio Yukiko",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press"
+      ],
+      "mentions": 5,
+      "contexts": [
+        "」、クリエイティブエージェンシーの「Studio Yukiko」がキュレーターとなり選書したコーナーでは、現代ドイツのインディペンデント出版シーンを垣間見ていただけるでしょう。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2024/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2024"
+      ]
+    },
+    {
+      "name": "2009年にスタートしたアート出版に特化した日本で初めてのブ",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIRは、2009年にスタートしたアート出版に特化した日本で初めてのブックフェアです。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/about/"
+      ],
+      "source_labels": [
+        "ABOUT"
+      ]
+    },
+    {
+      "name": "先進的なブックメイキングを続けるアーティストや出版社が作る魅",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "先進的なブックメイキングを続けるアーティストや出版社が作る魅力的な出版物で彩られたブースのほか、特別展、トーク、スクリーニングなどさまざまなイベントを会期中に開催しています。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/about/"
+      ],
+      "source_labels": [
+        "ABOUT"
+      ]
+    },
+    {
+      "name": "アート出版の国際的なコミュニティを広く受け入れるプラットフォ",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "今年で15回目を迎えるTOKYO ART BOOK FAIR（以下、TABF）は、初めて2週末にわたり開催されます。週末ごとに出展者を入れ替えながら、アート出版の国際的なコミュニティを広く受け入れるプラットフォームを目指します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "TOKYO DESIGN STUDIO New",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品を生み出しアーティストとなったトーマス・コンの貴重なアーカイブの一部"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "を生み出しアーティストとなったトーマス・コンの貴重なアーカイ",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品を生み出しアーティストとなったトーマス・コンの貴重なアーカイブの一部"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "Hand Saw Press",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "Guest",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "同国の豊かな出版文化を多角的に紐解く展示のほか",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "昨今アートブックシーンで注目を集めるリソグラフ作品をご紹介す",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "作家によるサイン会などのさまざまなコンテンツを通して",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "在日フランス大使館貿易投資庁-ビジネスフランス",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "株式会社The",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "Chain",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "VIRTUAL ART BOOK FAIR",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "国内外から独創的なアートブックを作る出版社",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "新型コロナウイルス感染拡大防止の観点からTABFは中止し",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "Bridgesが立ち上げた",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "020年春にヴォルフガング・ティルマンスが主宰する非営利団体Between Bridgesが立ち上げた、アート、音楽関係のインディペンデントスペースやイベント、出版などを支援するためのプロジェクト「2020Solidarity」で制作したポスター58点のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "音楽関係のインディペンデントスペースやイベント",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "020年春にヴォルフガング・ティルマンスが主宰する非営利団体Between Bridgesが立ち上げた、アート、音楽関係のインディペンデントスペースやイベント、出版などを支援するためのプロジェクト「2020Solidarity」で制作したポスター58点のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "2020Solidarity",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "020年春にヴォルフガング・ティルマンスが主宰する非営利団体Between Bridgesが立ち上げた、アート、音楽関係のインディペンデントスペースやイベント、出版などを支援するためのプロジェクト「2020Solidarity」で制作したポスター58点のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "Japanese Artists' Books",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "この春リニューアル・オープンしたばかりの東京都現代美術館に会",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR は、2009 年に日本初のアートに特化したブックフェアとしてスタートしました。10 年目の節目となる今年は、この春リニューアル・オープンしたばかりの東京都現代美術館に会場を移します。独創的なアートブックやZINE を制作する国内外の出版社、ギャラリー、アーティストら約300 組の出展者が一堂に会し、それぞれの出版物の魅力を伝えます。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "でアメリカを特集した展示やプログラムを行うほか",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "日本人作家によるアーティストブックを作り手の声とともに紹介す",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "資生堂ギャラリーがこれまでに刊行した図録を通し",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "年の活動の歩みを振り返る展示などの特別プログラム",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Feira Plana",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "そしてZINEをつくる出版社やギャラリー",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "THE TOKYO ART BOOK FAIRは、アート出版に特化した日本で初めてのブックフェアです。毎年、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEをつくる出版社やギャラリー、アーティストなど約300組が国内外から一堂に集まります。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "Feira",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "Plana",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "これまで日本で触れる機会の少なかったブラジルの出版文化をさま",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "本フェアには個性豊かなアートブックやZINEなどをつくる出版",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "この秋、アジア最大規模のアートブックフェア、THE TOKYO ART BOOK FAIRは第七回を迎えます。毎年、本フェアには個性豊かなアートブックやZINEなどをつくる出版社やギャラリー、アーティストら約300組が一堂に集結し、３日間のイベントながら１万人以上の方にご来場いただいています。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2015/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2015"
+      ]
+    },
+    {
+      "name": "自国の活動だけでなく海外展開も積極的に行う国内外のアート出版",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "今年からひとつの国に焦点をあてた「ゲストカントリー」セクションを設け、第一回はスイスの美しいアートブックや文化をご紹介いたします。また、もうひとつの新たなセクション「インターナショナル」には、自国の活動だけでなく海外展開も積極的に行う国内外のアート出版社が会します。そのほか、オランダを代表するグラフィックデザイナー、イルマ・ボームによる特別展や、アートブックにまつわるトークショー、スクリーニングなどさまざまなイベントを開催予定です。進化してやまないアートブックの「いま」を体現"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2015/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2015"
+      ]
+    },
+    {
+      "name": "ゲストを招いてのトークショーやワークショップ",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "ゲストを招いてのトークショーやワークショップ、作家によるサイン会、ライブパフォーマンスなど多様なプログラムも展開し、進化を続けるアートブックのいまを体験いただける場の創出を目指します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "ライブパフォーマンスなど多様なプログラムも展開し",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "ゲストを招いてのトークショーやワークショップ、作家によるサイン会、ライブパフォーマンスなど多様なプログラムも展開し、進化を続けるアートブックのいまを体験いただける場の創出を目指します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "Japanese",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Japanese Artists' Books: Then and Now / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Artists",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Japanese Artists' Books: Then and Now / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Books",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Japanese Artists' Books: Then and Now / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "ゲストアーティストたちによる特別ブースも登場予定",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "好評につき、4月14日(日)まで1週間の会期延長が決定。最後の週末4月13日(土)、14日(日)のブース出展者を追加募集いたします。WEEK 6 では、公募によって選出された出展ブースのほか、ゲストアーティストたちによる特別ブースも登場予定。Ginza Edition 最後の週末を盛り上げます。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "Hajime Kato Japanese Artists' Books",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Shiseido Gallery",
+      "entity_type": "bookstore_gallery",
+      "types_seen": [
+        "bookstore_gallery"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Catalogues of Shiseido Gallery in 100 Years / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Ginza Edition",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/archives/"
+      ],
+      "source_labels": [
+        "ARCHIVES"
+      ]
+    },
+    {
+      "name": "Threads, Say",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more"
+      ],
+      "source_urls": [
+        "https://www.threads.com/@tokyoartbookfair"
+      ],
+      "source_labels": [
+        "[no label]"
+      ]
+    },
+    {
+      "name": "tokyoartbookfair",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more"
+      ],
+      "source_urls": [
+        "https://www.threads.com/@tokyoartbookfair"
+      ],
+      "source_labels": [
+        "[no label]"
+      ]
+    },
+    {
+      "name": "Threads",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more"
+      ],
+      "source_urls": [
+        "https://www.threads.com/@tokyoartbookfair"
+      ],
+      "source_labels": [
+        "[no label]"
+      ]
+    },
+    {
+      "name": "https",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "https://tokyoartbookfair.com/"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "Balance",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "東京都現代美術館で12月21日（土）より開催される展覧会「坂本龍一 | 音を視る 時を聴く」に先駆けた「坂本図書分室」による図書にまつわる展示のほか、New Balance、花椿、BEAMS CULTUART、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2024/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2024"
+      ]
+    },
+    {
+      "name": "future",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "助成：アンスティチュ・フランセ パリ本部、文化庁、モンドリアン財団、「ARTS for the future! 2」補助対象事業"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "いまだに新型コロナウイルス感染症の収束の見通しが立たず",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "いまだに新型コロナウイルス感染症の収束の見通しが立たず、今年のTABFも以前と同じやり方、規模での開催は難しい状況です。絶対的な「正しい答え」がない中での開催は、TABFとしても葛藤があり、多くの議論を重ねてきました。多くの本作りに関わる人たちは、現状を受け入れ、模索しながらアートブックの制作やさまざまなクリエイティブな活動を続けています。私たちも作り手と受け手が出会い、新たなアートブック、才能を見出すプラットフォームであり続けるため、2021年におけるアートブックフェアのあ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "模索しながらアートブックの制作やさまざまなクリエイティブな活",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "いまだに新型コロナウイルス感染症の収束の見通しが立たず、今年のTABFも以前と同じやり方、規模での開催は難しい状況です。絶対的な「正しい答え」がない中での開催は、TABFとしても葛藤があり、多くの議論を重ねてきました。多くの本作りに関わる人たちは、現状を受け入れ、模索しながらアートブックの制作やさまざまなクリエイティブな活動を続けています。私たちも作り手と受け手が出会い、新たなアートブック、才能を見出すプラットフォームであり続けるため、2021年におけるアートブックフェアのあ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "才能を見出すプラットフォームであり続けるため",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "いまだに新型コロナウイルス感染症の収束の見通しが立たず、今年のTABFも以前と同じやり方、規模での開催は難しい状況です。絶対的な「正しい答え」がない中での開催は、TABFとしても葛藤があり、多くの議論を重ねてきました。多くの本作りに関わる人たちは、現状を受け入れ、模索しながらアートブックの制作やさまざまなクリエイティブな活動を続けています。私たちも作り手と受け手が出会い、新たなアートブック、才能を見出すプラットフォームであり続けるため、2021年におけるアートブックフェアのあ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "2021年におけるアートブックフェアのあり方に向き合いたいと",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "いまだに新型コロナウイルス感染症の収束の見通しが立たず、今年のTABFも以前と同じやり方、規模での開催は難しい状況です。絶対的な「正しい答え」がない中での開催は、TABFとしても葛藤があり、多くの議論を重ねてきました。多くの本作りに関わる人たちは、現状を受け入れ、模索しながらアートブックの制作やさまざまなクリエイティブな活動を続けています。私たちも作り手と受け手が出会い、新たなアートブック、才能を見出すプラットフォームであり続けるため、2021年におけるアートブックフェアのあ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "パンデミック以降の国内外のアートブックやZINEなどの印刷物",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "パンデミック以降の国内外のアートブックやZINEなどの印刷物にフォーカスを当てた展示を開催します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "オンライン上で各出展者と直接コミュニケーションを取りながらア",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "オンライン会場では、2020年のVABFの経験を活かし、オンライン上で各出展者と直接コミュニケーションを取りながらアートブックを購入することができます。一部のオンライン会場の出展者のアートブックやZINEは、オフライン会場で展示販売もいたします。オンラインとオフラインをつなぐ、新しいTABFにご期待ください。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "一部のオンライン会場の出展者のアートブックやZINEは",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "オンライン会場では、2020年のVABFの経験を活かし、オンライン上で各出展者と直接コミュニケーションを取りながらアートブックを購入することができます。一部のオンライン会場の出展者のアートブックやZINEは、オフライン会場で展示販売もいたします。オンラインとオフラインをつなぐ、新しいTABFにご期待ください。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "online",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "https://online.tokyoartbookfair.com/"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "Photo",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR 2019 / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Selection",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Radical Pages: A Selection of American Zines / 10 Years of The Thing Quarterly / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "American Zines",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Radical Pages: A Selection of American Zines / 10 Years of The Thing Quarterly / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Years",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Radical Pages: A Selection of American Zines / 10 Years of The Thing Quarterly / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "The Thing Quarterly",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Radical Pages: A Selection of American Zines / 10 Years of The Thing Quarterly / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Hajime Kato",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR 2019 / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "SUBSCRIBE TO TOKYO ART BOOK",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "SUBSCRIBE TO TOKYO ART BOOK FAIR NEWS"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Ginza Sony Park",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR | TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "Ginza",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR | TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "Ginza Sony",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR | TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "毎週末入れ替わりで20組ずつの出展者が参加し",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "毎週末入れ替わりで20組ずつの出展者が参加し、それぞれのブースで、来場者と直接コミュニケーションをとりながら印刷物の魅力を伝えるセクションです。出展料は、お金ではなく「本10冊」とし、これらの本は「Art Book Vending Machine」という新企画で使用します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "Machine",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "毎週末入れ替わりで20組ずつの出展者が参加し、それぞれのブースで、来場者と直接コミュニケーションをとりながら印刷物の魅力を伝えるセクションです。出展料は、お金ではなく「本10冊」とし、これらの本は「Art Book Vending Machine」という新企画で使用します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "Edition",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR | TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "OFFLINE VIRTUAL ART BOOK FAIR",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/archives/"
+      ],
+      "source_labels": [
+        "ARCHIVES"
+      ]
+    },
+    {
+      "name": "BOOK SIGNING SPECIAL BOOTHS OUTDOOR",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "BUY TICKET TOKYO ART BOOK",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "Hajime Kato TOKYO ART BOOK",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Miri Matsufuji TOKYO ART BOOK",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Hajime Kato ZINE'S MATE SHOP",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "NEWS EXHIBITORS ZINE'S MATE SHOP",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "BOOK FAIR Ginza Edition",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "LIVE BOOK SIGNING ART BOOK",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "BOOK SIGNING PARTNERS NEIGHBOURS FLOORMAP",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2017/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2017"
+      ]
+    },
+    {
+      "name": "BOOK FAIR THE TOKYO ART",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2017/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2017"
+      ]
+    },
+    {
+      "name": "Steidl Book Award Japan",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "ART BOOK FAIR THE TOKYO",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2015/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2015"
+      ]
+    },
+    {
+      "name": "Pace Gallery",
+      "entity_type": "gallery",
+      "types_seen": [
+        "bookstore_gallery",
+        "zine_or_book"
+      ],
+      "mentions": 6,
+      "contexts": [
+        "また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "NORDISK CAMP SUPPLY STORE",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力：L PACK.、株式会社ノルディスクジャパン、NORDISK CAMP SUPPLY STORE、Blackmagic Design、イタリア文化会館、株式会社子どもの文化普及協会、Woset、DOCU、デザインタイド トーキョー、株式会社トーキョーバイク"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "Blackmagic Design",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力：L PACK.、株式会社ノルディスクジャパン、NORDISK CAMP SUPPLY STORE、Blackmagic Design、イタリア文化会館、株式会社子どもの文化普及協会、Woset、DOCU、デザインタイド トーキョー、株式会社トーキョーバイク"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "Woset",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力：L PACK.、株式会社ノルディスクジャパン、NORDISK CAMP SUPPLY STORE、Blackmagic Design、イタリア文化会館、株式会社子どもの文化普及協会、Woset、DOCU、デザインタイド トーキョー、株式会社トーキョーバイク"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "ArtSticker",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "NORDISK、NORDISK CAMP SUPPLY STORE、ArtSticker（株式会社The Chain Museum）、アストリッド・リンドグレーン記念文学賞、スウェーデン大使館、L PACK.、株式会社 子どもの文化普及協会、株式会社講談社、株式会社キュレイターズ、株式会社トーキョーバイク"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "Chain Museum",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "NORDISK、NORDISK CAMP SUPPLY STORE、ArtSticker（株式会社The Chain Museum）、アストリッド・リンドグレーン記念文学賞、スウェーデン大使館、L PACK.、株式会社 子どもの文化普及協会、株式会社講談社、株式会社キュレイターズ、株式会社トーキョーバイク"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "Shinro Ohtake",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Talk Event - Shinro Ohtake / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Joji Nakamura",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Live Performance - Joji Nakamura / Masanao Hirayama / Ken Kagami / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Masanao Hirayama",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Live Performance - Joji Nakamura / Masanao Hirayama / Ken Kagami / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Miri Matsufuji",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "8 BALL TV at 16(Sixteen) / Photo: Miri Matsufuji"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Google Map",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Google Map"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "Ginza Sony Park THE TOKYO",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/archives/"
+      ],
+      "source_labels": [
+        "ARCHIVES"
+      ]
+    },
+    {
+      "name": "NEWS EXHIBITORS GUEST COUNTRY EXHIBITIONS",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "SIGNING SPECIAL BOOTHS OUTDOOR LOUNGE",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "PARTNERS NEIGHBOURS NURSERY FLOOR MAP",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "LOUNGE PARTNERS NEIGHBOURS NURSERY FLOOR",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "MAP WEEK1 FLOOR MAP WEEK2",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "BOOTHS OUTDOOR LOUNGE PLAYGROUND PARTNERS",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2024/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2024"
+      ]
+    },
+    {
+      "name": "SIGNING SPECIAL BOOTHS PARTNERS NEIGHBOURS",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "Hajime Kato Radical Pages",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Hajime Kato Live Performance",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Hajime Kato Nobody Pavilion",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Hajime Kato Catalogues",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Hajime Kato GRRRR",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Ginza Sony Park TOKYO ART",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "THE DATE THE TOKYO ART",
+      "entity_type": "unknown",
+      "types_seen": [
+        "unknown"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    }
+  ],
+  "rejected_samples": [
+    {
+      "name": "そしてZINEなどを出版するアーティストや出版社が一同に集結",
+      "reason": "bad_or_sentence_fragment",
+      "context": "年に一度のペースで開催し、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEなどを出版するアーティストや出版社が一同に集結する場所として着実に成長し、アジアで最大規模のアートブックフェアとなっています。毎回、国内外の出版社やギャラリー、アーティストら約350組が出展、2万人以上の方にご来場いただいています。"
+    },
+    {
+      "name": "アジアで最大規模のアートブックフェアとなっています",
+      "reason": "bad_or_sentence_fragment",
+      "context": "年に一度のペースで開催し、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEなどを出版するアーティストや出版社が一同に集結する場所として着実に成長し、アジアで最大規模のアートブックフェアとなっています。毎回、国内外の出版社やギャラリー、アーティストら約350組が出展、2万人以上の方にご来場いただいています。"
+    },
+    {
+      "name": "スクリーニングなどさまざまなイベントを会期中に開催しています",
+      "reason": "bad_or_sentence_fragment",
+      "context": "先進的なブックメイキングを続けるアーティストや出版社が作る魅力的な出版物で彩られたブースのほか、特別展、トーク、スクリーニングなどさまざまなイベントを会期中に開催しています。"
+    },
+    {
+      "name": "来場者と直接交流しながら書籍の売買を行うイベントです",
+      "reason": "bad_or_sentence_fragment",
+      "context": "アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入"
+    },
+    {
+      "name": "出展者は個人のアーティストからアート系出版社",
+      "reason": "bad_or_sentence_fragment",
+      "context": "アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入"
+    },
+    {
+      "name": "多様な表現に触れることのできる機会となっており",
+      "reason": "bad_or_sentence_fragment",
+      "context": "アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入"
+    },
+    {
+      "name": "書籍という比較的手に入りやすい価格帯のものを取り扱うことで",
+      "reason": "bad_or_sentence_fragment",
+      "context": "アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入"
+    },
+    {
+      "name": "アートに触れる入り口として絶好の機会にもなっています",
+      "reason": "bad_or_sentence_fragment",
+      "context": "アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入"
+    },
+    {
+      "name": "Say",
+      "reason": "bad_or_sentence_fragment",
+      "context": "TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more"
+    },
+    {
+      "name": "more",
+      "reason": "bad_or_sentence_fragment",
+      "context": "TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more"
+    },
+    {
+      "name": "Week",
+      "reason": "bad_or_sentence_fragment",
+      "context": "Week 1"
+    },
+    {
+      "name": "com",
+      "reason": "bad_or_sentence_fragment",
+      "context": "https://tokyoartbookfair.com/"
+    },
+    {
+      "name": "アートブックやZINEの魅力を来場者に向けて直接伝えます",
+      "reason": "bad_or_sentence_fragment",
+      "context": "11月28日（木）から12月1日（日）にわたり、東京都現代美術館にて第14回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。国内外から約300組の出版社、ギャラリー、アーティストが一堂に集まり、アートブックやZINEの魅力を来場者に向けて直接伝えます。"
+    },
+    {
+      "name": "New",
+      "reason": "bad_or_sentence_fragment",
+      "context": "東京都現代美術館で12月21日（土）より開催される展覧会「坂本龍一 | 音を視る 時を聴く」に先駆けた「坂本図書分室」による図書にまつわる展示のほか、New Balance、花椿、BEAMS CULTUART、"
+    },
+    {
+      "name": "国内外から約300組の独創的なアートブックを制作する出版社",
+      "reason": "bad_or_sentence_fragment",
+      "context": "11月23日（木・祝）から11月26日（日）の4日間にわたり、東京都現代美術館にて第13回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約300組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。"
+    },
+    {
+      "name": "自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品",
+      "reason": "bad_or_sentence_fragment",
+      "context": "今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコ"
+    },
+    {
+      "name": "Balanceがプロデュースするフリーマガジン",
+      "reason": "bad_or_sentence_fragment",
+      "context": "今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコ"
+    },
+    {
+      "name": "マインドブランドのBAUMがTABFのために制作するZINE",
+      "reason": "bad_or_sentence_fragment",
+      "context": "今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコ"
+    },
+    {
+      "name": "それぞれの特別ブースが設けられる予定です",
+      "reason": "bad_or_sentence_fragment",
+      "context": "今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコ"
+    },
+    {
+      "name": "進化を続けるアートブックのいまを体験いただける場の創出を目指",
+      "reason": "bad_or_sentence_fragment",
+      "context": "ゲストを招いてのトークショーやワークショップ、作家によるサイン会、ライブパフォーマンスなど多様なプログラムも展開し、進化を続けるアートブックのいまを体験いただける場の創出を目指します。"
+    },
+    {
+      "name": "Guest Country",
+      "reason": "bad_or_sentence_fragment",
+      "context": "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を"
+    },
+    {
+      "name": "国内外から約200組の独創的なアートブックを制作する出版社",
+      "reason": "bad_or_sentence_fragment",
+      "context": "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を"
+    },
+    {
+      "name": "Country",
+      "reason": "bad_or_sentence_fragment",
+      "context": "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を"
+    },
+    {
+      "name": "Hand",
+      "reason": "bad_or_sentence_fragment",
+      "context": "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+    },
+    {
+      "name": "Saw",
+      "reason": "bad_or_sentence_fragment",
+      "context": "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+    },
+    {
+      "name": "for",
+      "reason": "bad_or_sentence_fragment",
+      "context": "助成：アンスティチュ・フランセ パリ本部、文化庁、モンドリアン財団、「ARTS for the future! 2」補助対象事業"
+    },
+    {
+      "name": "the",
+      "reason": "bad_or_sentence_fragment",
+      "context": "助成：アンスティチュ・フランセ パリ本部、文化庁、モンドリアン財団、「ARTS for the future! 2」補助対象事業"
+    },
+    {
+      "name": "日本で初めてのアートに特化したブックフェアとして2009年に",
+      "reason": "bad_or_sentence_fragment",
+      "context": "TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出"
+    },
+    {
+      "name": "作り手たちが直接本の魅力を伝える場を提供し続けています",
+      "reason": "bad_or_sentence_fragment",
+      "context": "TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出"
+    },
+    {
+      "name": "2019年に東京都現代美術館で第10回の開催を迎えたTABF",
+      "reason": "bad_or_sentence_fragment",
+      "context": "TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出"
+    },
+    {
+      "name": "news",
+      "reason": "bad_or_sentence_fragment",
+      "context": "https://tokyoartbookfair.com/news/16089/"
+    },
+    {
+      "name": "Lars",
+      "reason": "bad_or_sentence_fragment",
+      "context": "Talk Event - Lars Müller / Photo: Hajime Kato"
+    },
+    {
+      "name": "Now",
+      "reason": "bad_or_sentence_fragment",
+      "context": "Japanese Artists' Books: Then and Now / Photo: Hajime Kato"
+    },
+    {
+      "name": "July",
+      "reason": "bad_or_sentence_fragment",
+      "context": "End of July, 2019"
+    },
+    {
+      "name": "年に日本初のアートに特化したブックフェアとしてスタートしまし",
+      "reason": "bad_or_sentence_fragment",
+      "context": "TOKYO ART BOOK FAIR は、2009 年に日本初のアートに特化したブックフェアとしてスタートしました。10 年目の節目となる今年は、この春リニューアル・オープンしたばかりの東京都現代美術館に会場を移します。独創的なアートブックやZINE を制作する国内外の出版社、ギャラリー、アーティストら約300 組の出展者が一堂に会し、それぞれの出版物の魅"
+    },
+    {
+      "name": "and",
+      "reason": "bad_or_sentence_fragment",
+      "context": "Japanese Artists' Books: Then and Now / Photo: Hajime Kato"
+    },
+    {
+      "name": "進化を続けるアートブックのいまを体験することができる場の創出",
+      "reason": "bad_or_sentence_fragment",
+      "context": "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーが"
+    },
+    {
+      "name": "Sony",
+      "reason": "bad_or_sentence_fragment",
+      "context": "TOKYO ART BOOK FAIR | TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+    },
+    {
+      "name": "数日間にわたる会期を通じてのべ2万人超の来場者が訪れ賑わいを",
+      "reason": "bad_or_sentence_fragment",
+      "context": "TABFには、普段はそれぞれの国や地域で、印刷物を通した独自の表現を続ける出版社、ギャラリー、アーティストたちが世界中から集まり、数日間にわたる会期を通じてのべ2万人超の来場者が訪れ賑わいをみせます。まさにアートブックの「祭典」ともいえるイベントです。"
+    },
+    {
+      "name": "来場者と直接コミュニケーションをとりながら印刷物の魅力を伝え",
+      "reason": "bad_or_sentence_fragment",
+      "context": "毎週末入れ替わりで20組ずつの出展者が参加し、それぞれのブースで、来場者と直接コミュニケーションをとりながら印刷物の魅力を伝えるセクションです。出展料は、お金ではなく「本10冊」とし、これらの本は「Art Book Vending Machine」という新企画で使用します。"
+    },
+    {
+      "name": "Art",
+      "reason": "bad_or_sentence_fragment",
+      "context": "毎週末入れ替わりで20組ずつの出展者が参加し、それぞれのブースで、来場者と直接コミュニケーションをとりながら印刷物の魅力を伝えるセクションです。出展料は、お金ではなく「本10冊」とし、これらの本は「Art Book Vending Machine」という新企画で使用します。"
+    },
+    {
+      "name": "Book",
+      "reason": "bad_or_sentence_fragment",
+      "context": "毎週末入れ替わりで20組ずつの出展者が参加し、それぞれのブースで、来場者と直接コミュニケーションをとりながら印刷物の魅力を伝えるセクションです。出展料は、お金ではなく「本10冊」とし、これらの本は「Art Book Vending Machine」という新企画で使用します。"
+    },
+    {
+      "name": "1000冊を超えるアートブックがストックされています",
+      "reason": "bad_or_sentence_fragment",
+      "context": "平日のみ登場する「Art Book Vending Machine」には週末のブース出展者より「出展料」として集めた本を中心に、1000冊を超えるアートブックがストックされています。"
+    },
+    {
+      "name": "参加料として提供いただいたアートブックは",
+      "reason": "bad_or_sentence_fragment",
+      "context": "※参加料として提供いただいたアートブックは、販売機にストックされ、参加者に再提供される可能性があります。内容や状態によっては参加料として受け付けられない本もございます。"
+    },
+    {
+      "name": "内容や状態によっては参加料として受け付けられない本もございま",
+      "reason": "bad_or_sentence_fragment",
+      "context": "※参加料として提供いただいたアートブックは、販売機にストックされ、参加者に再提供される可能性があります。内容や状態によっては参加料として受け付けられない本もございます。"
+    },
+    {
+      "name": "国内外の個性豊かなアートブックやZINEを展示販売する",
+      "reason": "bad_or_sentence_fragment",
+      "context": "公募からTABFがセレクトする、国内外の個性豊かなアートブックやZINEを展示販売する「ZINE’S MATE SHOP」が久しぶりに復活します。"
+    },
+    {
+      "name": "アート出版に特化した日本で初めてのブックフェアです",
+      "reason": "bad_or_sentence_fragment",
+      "context": "THE TOKYO ART BOOK FAIRは、アート出版に特化した日本で初めてのブックフェアです。毎年、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEをつくる出版社やギャラリー、アーティストなど約300組が国内外から一堂に集まります。"
+    },
+    {
+      "name": "アーティストなど約300組が国内外から一堂に集まります",
+      "reason": "bad_or_sentence_fragment",
+      "context": "THE TOKYO ART BOOK FAIRは、アート出版に特化した日本で初めてのブックフェアです。毎年、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEをつくる出版社やギャラリー、アーティストなど約300組が国内外から一堂に集まります。"
+    },
+    {
+      "name": "第一回はスイスの美しいアートブックや文化をご紹介いたします",
+      "reason": "bad_or_sentence_fragment",
+      "context": "今年からひとつの国に焦点をあてた「ゲストカントリー」セクションを設け、第一回はスイスの美しいアートブックや文化をご紹介いたします。また、もうひとつの新たなセクション「インターナショナル」には、自国の活動だけでなく海外展開も積極的に行う国内外のアート出版社が会します。そのほか、オランダを代表するグラフィックデザイナー、イルマ・ボームによる特別展や、アートブック"
+    },
+    {
+      "name": "オランダを代表するグラフィックデザイナー",
+      "reason": "bad_or_sentence_fragment",
+      "context": "今年からひとつの国に焦点をあてた「ゲストカントリー」セクションを設け、第一回はスイスの美しいアートブックや文化をご紹介いたします。また、もうひとつの新たなセクション「インターナショナル」には、自国の活動だけでなく海外展開も積極的に行う国内外のアート出版社が会します。そのほか、オランダを代表するグラフィックデザイナー、イルマ・ボームによる特別展や、アートブック"
+    },
+    {
+      "name": "スクリーニングなどさまざまなイベントを開催予定です",
+      "reason": "bad_or_sentence_fragment",
+      "context": "今年からひとつの国に焦点をあてた「ゲストカントリー」セクションを設け、第一回はスイスの美しいアートブックや文化をご紹介いたします。また、もうひとつの新たなセクション「インターナショナル」には、自国の活動だけでなく海外展開も積極的に行う国内外のアート出版社が会します。そのほか、オランダを代表するグラフィックデザイナー、イルマ・ボームによる特別展や、アートブック"
+    },
+    {
+      "name": "アジアにおけるアートブック文化を牽引するフェアになることを目",
+      "reason": "bad_or_sentence_fragment",
+      "context": "先進的なブックメイキングを続けるアーティストや出版社が作る魅力的な出版物で彩られたブースのほか，特別展，トーク，スクリーニングなどさまざまなイベントを会期中に開催しています。THE TOKYO ART BOOK FAIR は，アジアにおけるアートブック文化を牽引するフェアになることを目指し，ユニークな進化を続けるアートブックの世界観を体感することができる機会"
+    },
+    {
+      "name": "ユニークな進化を続けるアートブックの世界観を体感することがで",
+      "reason": "bad_or_sentence_fragment",
+      "context": "先進的なブックメイキングを続けるアーティストや出版社が作る魅力的な出版物で彩られたブースのほか，特別展，トーク，スクリーニングなどさまざまなイベントを会期中に開催しています。THE TOKYO ART BOOK FAIR は，アジアにおけるアートブック文化を牽引するフェアになることを目指し，ユニークな進化を続けるアートブックの世界観を体感することができる機会"
+    }
+  ],
+  "publishers_or_presses": [
+    {
+      "name": "YES YES YES Revolutionary Press",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 15,
+      "contexts": [
+        "ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "Verlag der Buchhandlung Walther und Franz König",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 13,
+      "contexts": [
+        "ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2024/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2024"
+      ]
+    },
+    {
+      "name": "Studio Yukiko",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press"
+      ],
+      "mentions": 5,
+      "contexts": [
+        "」、クリエイティブエージェンシーの「Studio Yukiko」がキュレーターとなり選書したコーナーでは、現代ドイツのインディペンデント出版シーンを垣間見ていただけるでしょう。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2024/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2024"
+      ]
+    },
+    {
+      "name": "2009年にスタートしたアート出版に特化した日本で初めてのブ",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIRは、2009年にスタートしたアート出版に特化した日本で初めてのブックフェアです。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/about/"
+      ],
+      "source_labels": [
+        "ABOUT"
+      ]
+    },
+    {
+      "name": "先進的なブックメイキングを続けるアーティストや出版社が作る魅",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "先進的なブックメイキングを続けるアーティストや出版社が作る魅力的な出版物で彩られたブースのほか、特別展、トーク、スクリーニングなどさまざまなイベントを会期中に開催しています。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/about/"
+      ],
+      "source_labels": [
+        "ABOUT"
+      ]
+    },
+    {
+      "name": "アート出版の国際的なコミュニティを広く受け入れるプラットフォ",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "今年で15回目を迎えるTOKYO ART BOOK FAIR（以下、TABF）は、初めて2週末にわたり開催されます。週末ごとに出展者を入れ替えながら、アート出版の国際的なコミュニティを広く受け入れるプラットフォームを目指します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "TOKYO DESIGN STUDIO New",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品を生み出しアーティストとなったトーマス・コンの貴重なアーカイブの一部"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "を生み出しアーティストとなったトーマス・コンの貴重なアーカイ",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品を生み出しアーティストとなったトーマス・コンの貴重なアーカイブの一部"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "Hand Saw Press",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "Guest",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "同国の豊かな出版文化を多角的に紐解く展示のほか",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "昨今アートブックシーンで注目を集めるリソグラフ作品をご紹介す",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "作家によるサイン会などのさまざまなコンテンツを通して",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "在日フランス大使館貿易投資庁-ビジネスフランス",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "株式会社The",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "Chain",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "協力： ヴィラ九条山、国際フランス出版事務局（BIEF）、在日フランス大使館貿易投資庁-ビジネスフランス、オランダ王国大使館、ArtSticker（株式会社The Chain Museum）、Hand Saw Press、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "VIRTUAL ART BOOK FAIR",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "国内外から独創的なアートブックを作る出版社",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "新型コロナウイルス感染拡大防止の観点からTABFは中止し",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "Bridgesが立ち上げた",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "020年春にヴォルフガング・ティルマンスが主宰する非営利団体Between Bridgesが立ち上げた、アート、音楽関係のインディペンデントスペースやイベント、出版などを支援するためのプロジェクト「2020Solidarity」で制作したポスター58点のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "音楽関係のインディペンデントスペースやイベント",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "020年春にヴォルフガング・ティルマンスが主宰する非営利団体Between Bridgesが立ち上げた、アート、音楽関係のインディペンデントスペースやイベント、出版などを支援するためのプロジェクト「2020Solidarity」で制作したポスター58点のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "2020Solidarity",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "020年春にヴォルフガング・ティルマンスが主宰する非営利団体Between Bridgesが立ち上げた、アート、音楽関係のインディペンデントスペースやイベント、出版などを支援するためのプロジェクト「2020Solidarity」で制作したポスター58点のほか、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "Japanese Artists' Books",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "この春リニューアル・オープンしたばかりの東京都現代美術館に会",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR は、2009 年に日本初のアートに特化したブックフェアとしてスタートしました。10 年目の節目となる今年は、この春リニューアル・オープンしたばかりの東京都現代美術館に会場を移します。独創的なアートブックやZINE を制作する国内外の出版社、ギャラリー、アーティストら約300 組の出展者が一堂に会し、それぞれの出版物の魅力を伝えます。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "でアメリカを特集した展示やプログラムを行うほか",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "日本人作家によるアーティストブックを作り手の声とともに紹介す",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "資生堂ギャラリーがこれまでに刊行した図録を通し",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "年の活動の歩みを振り返る展示などの特別プログラム",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Feira Plana",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "そしてZINEをつくる出版社やギャラリー",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "THE TOKYO ART BOOK FAIRは、アート出版に特化した日本で初めてのブックフェアです。毎年、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEをつくる出版社やギャラリー、アーティストなど約300組が国内外から一堂に集まります。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "Feira",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "Plana",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "これまで日本で触れる機会の少なかったブラジルの出版文化をさま",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "8回目を迎える今年は、これまで3日間だった会期を1日増やし、さらに充実の内容でお届けします。ひとつの国の出版文化に焦点を当てる「ゲストカントリー」では、今年はブラジルをフィーチャーします。ブラジルのアートブックフェア「Feira Plana」のオーガナイザーや出版社、アーティストを招聘し、これまで日本で触れる機会の少なかったブラジルの出版文化をさまざまな切り口から紹介します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "本フェアには個性豊かなアートブックやZINEなどをつくる出版",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "artist_or_collective",
+        "bookstore_gallery",
+        "publisher_or_press",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "この秋、アジア最大規模のアートブックフェア、THE TOKYO ART BOOK FAIRは第七回を迎えます。毎年、本フェアには個性豊かなアートブックやZINEなどをつくる出版社やギャラリー、アーティストら約300組が一堂に集結し、３日間のイベントながら１万人以上の方にご来場いただいています。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2015/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2015"
+      ]
+    },
+    {
+      "name": "自国の活動だけでなく海外展開も積極的に行う国内外のアート出版",
+      "entity_type": "publisher_or_press",
+      "types_seen": [
+        "publisher_or_press"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "今年からひとつの国に焦点をあてた「ゲストカントリー」セクションを設け、第一回はスイスの美しいアートブックや文化をご紹介いたします。また、もうひとつの新たなセクション「インターナショナル」には、自国の活動だけでなく海外展開も積極的に行う国内外のアート出版社が会します。そのほか、オランダを代表するグラフィックデザイナー、イルマ・ボームによる特別展や、アートブックにまつわるトークショー、スクリーニングなどさまざまなイベントを開催予定です。進化してやまないアートブックの「いま」を体現"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2015/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2015"
+      ]
+    }
+  ],
+  "artists_or_collectives": [
+    {
+      "name": "ゲストを招いてのトークショーやワークショップ",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "ゲストを招いてのトークショーやワークショップ、作家によるサイン会、ライブパフォーマンスなど多様なプログラムも展開し、進化を続けるアートブックのいまを体験いただける場の創出を目指します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "ライブパフォーマンスなど多様なプログラムも展開し",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "ゲストを招いてのトークショーやワークショップ、作家によるサイン会、ライブパフォーマンスなど多様なプログラムも展開し、進化を続けるアートブックのいまを体験いただける場の創出を目指します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "Japanese",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Japanese Artists' Books: Then and Now / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Artists",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Japanese Artists' Books: Then and Now / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Books",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Japanese Artists' Books: Then and Now / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "ゲストアーティストたちによる特別ブースも登場予定",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "好評につき、4月14日(日)まで1週間の会期延長が決定。最後の週末4月13日(土)、14日(日)のブース出展者を追加募集いたします。WEEK 6 では、公募によって選出された出展ブースのほか、ゲストアーティストたちによる特別ブースも登場予定。Ginza Edition 最後の週末を盛り上げます。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "Hajime Kato Japanese Artists' Books",
+      "entity_type": "artist_or_collective",
+      "types_seen": [
+        "artist_or_collective",
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    }
+  ],
+  "bookstores_or_galleries": [
+    {
+      "name": "Shiseido Gallery",
+      "entity_type": "bookstore_gallery",
+      "types_seen": [
+        "bookstore_gallery"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Catalogues of Shiseido Gallery in 100 Years / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Pace Gallery",
+      "entity_type": "gallery",
+      "types_seen": [
+        "bookstore_gallery",
+        "zine_or_book"
+      ],
+      "mentions": 6,
+      "contexts": [
+        "また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    }
+  ],
+  "zines_or_books": [
+    {
+      "name": "Ginza Edition",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/archives/"
+      ],
+      "source_labels": [
+        "ARCHIVES"
+      ]
+    },
+    {
+      "name": "Threads, Say",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more"
+      ],
+      "source_urls": [
+        "https://www.threads.com/@tokyoartbookfair"
+      ],
+      "source_labels": [
+        "[no label]"
+      ]
+    },
+    {
+      "name": "tokyoartbookfair",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more"
+      ],
+      "source_urls": [
+        "https://www.threads.com/@tokyoartbookfair"
+      ],
+      "source_labels": [
+        "[no label]"
+      ]
+    },
+    {
+      "name": "Threads",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more"
+      ],
+      "source_urls": [
+        "https://www.threads.com/@tokyoartbookfair"
+      ],
+      "source_labels": [
+        "[no label]"
+      ]
+    },
+    {
+      "name": "https",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "https://tokyoartbookfair.com/"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "Balance",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "東京都現代美術館で12月21日（土）より開催される展覧会「坂本龍一 | 音を視る 時を聴く」に先駆けた「坂本図書分室」による図書にまつわる展示のほか、New Balance、花椿、BEAMS CULTUART、"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2024/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2024"
+      ]
+    },
+    {
+      "name": "future",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "助成：アンスティチュ・フランセ パリ本部、文化庁、モンドリアン財団、「ARTS for the future! 2」補助対象事業"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2022/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2022"
+      ]
+    },
+    {
+      "name": "いまだに新型コロナウイルス感染症の収束の見通しが立たず",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "いまだに新型コロナウイルス感染症の収束の見通しが立たず、今年のTABFも以前と同じやり方、規模での開催は難しい状況です。絶対的な「正しい答え」がない中での開催は、TABFとしても葛藤があり、多くの議論を重ねてきました。多くの本作りに関わる人たちは、現状を受け入れ、模索しながらアートブックの制作やさまざまなクリエイティブな活動を続けています。私たちも作り手と受け手が出会い、新たなアートブック、才能を見出すプラットフォームであり続けるため、2021年におけるアートブックフェアのあ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "模索しながらアートブックの制作やさまざまなクリエイティブな活",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "いまだに新型コロナウイルス感染症の収束の見通しが立たず、今年のTABFも以前と同じやり方、規模での開催は難しい状況です。絶対的な「正しい答え」がない中での開催は、TABFとしても葛藤があり、多くの議論を重ねてきました。多くの本作りに関わる人たちは、現状を受け入れ、模索しながらアートブックの制作やさまざまなクリエイティブな活動を続けています。私たちも作り手と受け手が出会い、新たなアートブック、才能を見出すプラットフォームであり続けるため、2021年におけるアートブックフェアのあ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "才能を見出すプラットフォームであり続けるため",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "いまだに新型コロナウイルス感染症の収束の見通しが立たず、今年のTABFも以前と同じやり方、規模での開催は難しい状況です。絶対的な「正しい答え」がない中での開催は、TABFとしても葛藤があり、多くの議論を重ねてきました。多くの本作りに関わる人たちは、現状を受け入れ、模索しながらアートブックの制作やさまざまなクリエイティブな活動を続けています。私たちも作り手と受け手が出会い、新たなアートブック、才能を見出すプラットフォームであり続けるため、2021年におけるアートブックフェアのあ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "2021年におけるアートブックフェアのあり方に向き合いたいと",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "いまだに新型コロナウイルス感染症の収束の見通しが立たず、今年のTABFも以前と同じやり方、規模での開催は難しい状況です。絶対的な「正しい答え」がない中での開催は、TABFとしても葛藤があり、多くの議論を重ねてきました。多くの本作りに関わる人たちは、現状を受け入れ、模索しながらアートブックの制作やさまざまなクリエイティブな活動を続けています。私たちも作り手と受け手が出会い、新たなアートブック、才能を見出すプラットフォームであり続けるため、2021年におけるアートブックフェアのあ"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "パンデミック以降の国内外のアートブックやZINEなどの印刷物",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "パンデミック以降の国内外のアートブックやZINEなどの印刷物にフォーカスを当てた展示を開催します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "オンライン上で各出展者と直接コミュニケーションを取りながらア",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "オンライン会場では、2020年のVABFの経験を活かし、オンライン上で各出展者と直接コミュニケーションを取りながらアートブックを購入することができます。一部のオンライン会場の出展者のアートブックやZINEは、オフライン会場で展示販売もいたします。オンラインとオフラインをつなぐ、新しいTABFにご期待ください。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "一部のオンライン会場の出展者のアートブックやZINEは",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "オンライン会場では、2020年のVABFの経験を活かし、オンライン上で各出展者と直接コミュニケーションを取りながらアートブックを購入することができます。一部のオンライン会場の出展者のアートブックやZINEは、オフライン会場で展示販売もいたします。オンラインとオフラインをつなぐ、新しいTABFにご期待ください。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "online",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "https://online.tokyoartbookfair.com/"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2021/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2021 OFFLINE"
+      ]
+    },
+    {
+      "name": "Photo",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR 2019 / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Selection",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Radical Pages: A Selection of American Zines / 10 Years of The Thing Quarterly / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "American Zines",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Radical Pages: A Selection of American Zines / 10 Years of The Thing Quarterly / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Years",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Radical Pages: A Selection of American Zines / 10 Years of The Thing Quarterly / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "The Thing Quarterly",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "Radical Pages: A Selection of American Zines / 10 Years of The Thing Quarterly / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Hajime Kato",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR 2019 / Photo: Hajime Kato"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "SUBSCRIBE TO TOKYO ART BOOK",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "SUBSCRIBE TO TOKYO ART BOOK FAIR NEWS"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Ginza Sony Park",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR | TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "Ginza",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR | TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "Ginza Sony",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR | TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "毎週末入れ替わりで20組ずつの出展者が参加し",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "毎週末入れ替わりで20組ずつの出展者が参加し、それぞれのブースで、来場者と直接コミュニケーションをとりながら印刷物の魅力を伝えるセクションです。出展料は、お金ではなく「本10冊」とし、これらの本は「Art Book Vending Machine」という新企画で使用します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "Machine",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "毎週末入れ替わりで20組ずつの出展者が参加し、それぞれのブースで、来場者と直接コミュニケーションをとりながら印刷物の魅力を伝えるセクションです。出展料は、お金ではなく「本10冊」とし、これらの本は「Art Book Vending Machine」という新企画で使用します。"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "Edition",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [
+        "TOKYO ART BOOK FAIR | TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "OFFLINE VIRTUAL ART BOOK FAIR",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/archives/"
+      ],
+      "source_labels": [
+        "ARCHIVES"
+      ]
+    },
+    {
+      "name": "BOOK SIGNING SPECIAL BOOTHS OUTDOOR",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2025/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2025"
+      ]
+    },
+    {
+      "name": "BUY TICKET TOKYO ART BOOK",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2023/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2023"
+      ]
+    },
+    {
+      "name": "Hajime Kato TOKYO ART BOOK",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Miri Matsufuji TOKYO ART BOOK",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "Hajime Kato ZINE'S MATE SHOP",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/"
+      ],
+      "source_labels": [
+        "TOKYO ART BOOK FAIR 2019"
+      ]
+    },
+    {
+      "name": "NEWS EXHIBITORS ZINE'S MATE SHOP",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "BOOK FAIR Ginza Edition",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "LIVE BOOK SIGNING ART BOOK",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park"
+      ]
+    },
+    {
+      "name": "BOOK SIGNING PARTNERS NEIGHBOURS FLOORMAP",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2017/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2017"
+      ]
+    },
+    {
+      "name": "BOOK FAIR THE TOKYO ART",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2017/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2017"
+      ]
+    },
+    {
+      "name": "Steidl Book Award Japan",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2016/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2016"
+      ]
+    },
+    {
+      "name": "ART BOOK FAIR THE TOKYO",
+      "entity_type": "zine_or_book",
+      "types_seen": [
+        "zine_or_book"
+      ],
+      "mentions": 1,
+      "contexts": [],
+      "source_urls": [
+        "https://tokyoartbookfair.com/2015/"
+      ],
+      "source_labels": [
+        "THE TOKYO ART BOOK FAIR 2015"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+[
+  {
+    "title": "Pinpoint Gallery",
+    "top_similarity_score": 82,
+    "average_top_similarity": 78.7,
+    "similar_artist_count": 3,
+    "top_artists": [
+      {
+        "artist_name": "飯野和好",
+        "similarity_score": 82,
+        "shared_tokens": [
+          "books",
+          "illustration",
+          "publishing"
+        ],
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links",
+          "finished books or works listed"
+        ],
+        "source_opportunities": [
+          "Pinpoint Gallery"
+        ],
+        "books_or_works": [
+          "おせんとおこま",
+          "みずくみに",
+          "ふようどのふよこちゃん",
+          "ぼくとお山と羊のセーター",
+          "くろずみ小太郎旅日記",
+          "ねぎぼうずのあさたろう",
+          "小さなスズナ姫"
+        ],
+        "publishers_or_clients": [
+          "小学館",
+          "福音館書店",
+          "偕成社",
+          "理論社",
+          "ブロンズ新社",
+          "小峰書店",
+          "クレヨンハウス",
+          "小峰書店／第20回日本絵本賞受賞",
+          "福音館書店／その１で、第49回小学館児童出版文化賞受賞",
+          "偕成社／第11回赤い鳥さし絵賞受賞",
+          "偕成社／第70回産経児童出版文化賞タイヘイ賞"
+        ],
+        "awards_or_selections": [
+          "『みずくみに』（小峰書店／第20回日本絵本賞受賞）",
+          "第49回小学館児童出版文化賞受賞）",
+          "挿絵に「小さなスズナ姫」シリーズ（偕成社／第11回赤い鳥さし絵賞受賞）",
+          "『ぼくとお山と羊のセーター』（偕成社／第70回産経児童出版文化賞タイヘイ賞）などがある"
+        ],
+        "roles": [
+          "artist",
+          "picture_book_artist",
+          "作家",
+          "絵本作家"
+        ],
+        "source_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      },
+      {
+        "artist_name": "千葉智江",
+        "similarity_score": 82,
+        "shared_tokens": [
+          "books",
+          "illustration",
+          "publishing"
+        ],
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links",
+          "finished books or works listed"
+        ],
+        "source_opportunities": [
+          "Pinpoint Gallery"
+        ],
+        "books_or_works": [
+          "みずうみ",
+          "はなちゃんおとなになります",
+          "すうちゃんはね",
+          "絵本塾",
+          "あとさき塾"
+        ],
+        "publishers_or_clients": [
+          "小学館",
+          "大日本図書",
+          "作・ほんだあきこ/小学館"
+        ],
+        "awards_or_selections": [
+          "第16回ピンポイント絵本コンペ入選",
+          "第22回おひさま大賞優秀賞受賞"
+        ],
+        "roles": [
+          "artist",
+          "author"
+        ],
+        "source_url": "https://pinpointgallery.com/competition_oubo2025/"
+      },
+      {
+        "artist_name": "つじにぬき",
+        "similarity_score": 72,
+        "shared_tokens": [
+          "books",
+          "illustration",
+          "publishing"
+        ],
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links"
+        ],
+        "source_opportunities": [
+          "Pinpoint Gallery"
+        ],
+        "books_or_works": [],
+        "publishers_or_clients": [
+          "PHP研究所",
+          "学研",
+          "NHK",
+          "ひかりのくに",
+          "地湧社"
+        ],
+        "awards_or_selections": [
+          "地湧社などでイラストを制作 第3回 nowaki 絵本ワークショップで筒井大介氏より絵本制作について学ぶ 第18回 pinpoint gallery 絵本コンペ 優秀賞受賞 39回 MINI PRINT INTERNATIONAL DE CAD"
+        ],
+        "roles": [
+          "artist",
+          "illustrator"
+        ],
+        "source_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      }
+    ]
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "top_similarity_score": 0,
+    "average_top_similarity": 0.0,
+    "similar_artist_count": 0,
+    "top_artists": [
+      {
+        "artist_name": "Charles Pears",
+        "similarity_score": 0,
+        "shared_tokens": [],
+        "reasons": [
+          "award or selection history",
+          "thin evidence"
+        ],
+        "source_opportunities": [
+          "Pastel Society Open Exhibition"
+        ],
+        "books_or_works": [],
+        "publishers_or_clients": [],
+        "awards_or_selections": [
+          "The exhibition offers several prizes and awards",
+          "This includes The Charles Pears Award for an outstanding work by a non-member"
+        ],
+        "roles": [
+          "artist"
+        ],
+        "source_url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists"
+      },
+      {
+        "artist_name": "Ronald Benham RBA NEAC",
+        "similarity_score": 0,
+        "shared_tokens": [],
+        "reasons": [
+          "award or selection history",
+          "thin evidence"
+        ],
+        "source_opportunities": [
+          "Pastel Society Open Exhibition"
+        ],
+        "books_or_works": [],
+        "publishers_or_clients": [],
+        "awards_or_selections": [
+          "An annual memorial prize of £500 in the name of Ronald Benham RBA NEAC",
+          "to be awarded to an artist for work painted in a traditional manner in celebration of the natural world"
+        ],
+        "roles": [
+          "artist"
+        ],
+        "source_url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+      },
+      {
+        "artist_name": "Andrew Pledge’s Hidden Gems",
+        "similarity_score": 0,
+        "shared_tokens": [],
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_opportunities": [
+          "Pastel Society Open Exhibition"
+        ],
+        "books_or_works": [],
+        "publishers_or_clients": [],
+        "awards_or_selections": [],
+        "roles": [
+          "artist"
+        ],
+        "source_url": "https://www.painters-online.co.uk/store/single-issues/the-artist/"
+      },
+      {
+        "artist_name": "Catherine Beale’s",
+        "similarity_score": 0,
+        "shared_tokens": [],
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_opportunities": [
+          "Pastel Society Open Exhibition"
+        ],
+        "books_or_works": [],
+        "publishers_or_clients": [],
+        "awards_or_selections": [],
+        "roles": [
+          "artist"
+        ],
+        "source_url": "https://www.painters-online.co.uk/store/single-issues/the-artist/"
+      },
+      {
+        "artist_name": "Grahame Booth",
+        "similarity_score": 0,
+        "shared_tokens": [],
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_opportunities": [
+          "Pastel Society Open Exhibition"
+        ],
+        "books_or_works": [],
+        "publishers_or_clients": [],
+        "awards_or_selections": [],
+        "roles": [
+          "artist"
+        ],
+        "source_url": "https://www.painters-online.co.uk/store/single-issues/the-artist/"
+      }
+    ]
+  }
+]

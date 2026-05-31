@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Pinpoint Gallery",
+    "ecosystem_density": 91,
+    "density_label": "dense ecosystem",
+    "artist_count": 3,
+    "similar_artist_count": 3,
+    "publisher_count": 20,
+    "book_count": 12,
+    "award_count": 7,
+    "judge_count": 0,
+    "organization_count": 4
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "ecosystem_density": 31,
+    "density_label": "thin ecosystem",
+    "artist_count": 8,
+    "similar_artist_count": 0,
+    "publisher_count": 0,
+    "book_count": 0,
+    "award_count": 4,
+    "judge_count": 0,
+    "organization_count": 3
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "ecosystem_density": 3,
+    "density_label": "weak ecosystem",
+    "artist_count": 0,
+    "similar_artist_count": 0,
+    "publisher_count": 0,
+    "book_count": 0,
+    "award_count": 0,
+    "judge_count": 0,
+    "organization_count": 3
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "ecosystem_density": 3,
+    "density_label": "weak ecosystem",
+    "artist_count": 0,
+    "similar_artist_count": 0,
+    "publisher_count": 0,
+    "book_count": 0,
+    "award_count": 0,
+    "judge_count": 0,
+    "organization_count": 3
+  },
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "ecosystem_density": 3,
+    "density_label": "weak ecosystem",
+    "artist_count": 0,
+    "similar_artist_count": 0,
+    "publisher_count": 0,
+    "book_count": 0,
+    "award_count": 0,
+    "judge_count": 0,
+    "organization_count": 3
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "ecosystem_density": 0,
+    "density_label": "weak ecosystem",
+    "artist_count": 0,
+    "similar_artist_count": 0,
+    "publisher_count": 0,
+    "book_count": 0,
+    "award_count": 0,
+    "judge_count": 0,
+    "organization_count": 0
+  }
+]

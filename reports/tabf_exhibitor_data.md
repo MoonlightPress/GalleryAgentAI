@@ -1,0 +1,357 @@
+# Tokyo Art Book Fair Exhibitor / Ecosystem Data
+
+First TABF-specific crawler pass. This is designed to find ecosystem signals: publishers, artists, collectives, bookstores, galleries, zines, and books.
+
+- Total entities: 198
+- Publishers / presses: 97
+- Artists / collectives: 77
+- Bookstores / galleries: 42
+- Zines / books: 139
+
+## Crawled Pages
+
+- HOME — https://tokyoartbookfair.com/ — entities 0
+- ABOUT — https://tokyoartbookfair.com/about/ — entities 10
+- ARCHIVES — https://tokyoartbookfair.com/archives/ — entities 3
+- EN — https://tokyoartbookfair.com/en/ — entities 0
+- [no label] — https://www.threads.com/@tokyoartbookfair — entities 5
+- [no label] — https://tokyoartbookfair.com/ — entities 0
+- EN — https://tokyoartbookfair.com/en/archives/ — entities 3
+- TOKYO ART BOOK FAIR 2025 — https://tokyoartbookfair.com/2025/ — entities 35
+- TOKYO ART BOOK FAIR 2024 — https://tokyoartbookfair.com/2024/ — entities 29
+- TOKYO ART BOOK FAIR 2023 — https://tokyoartbookfair.com/2023/ — entities 20
+- TOKYO ART BOOK FAIR 2022 — https://tokyoartbookfair.com/2022/ — entities 27
+- TOKYO ART BOOK FAIR 2021 ONLINE — https://online2021.tokyoartbookfair.com — entities 0
+- TOKYO ART BOOK FAIR 2021 OFFLINE — https://tokyoartbookfair.com/2021/ — entities 24
+- VIRTUAL ART BOOK FAIR — https://2020.virtualartbookfair.com — entities 0
+- TOKYO ART BOOK FAIR 2019 — https://tokyoartbookfair.com/2019/ — entities 50
+- THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park — https://tokyoartbookfair.com/2019/ginzasonypark/ — entities 21
+- THE TOKYO ART BOOK FAIR 2017 — https://tokyoartbookfair.com/2017/ — entities 2
+- THE TOKYO ART BOOK FAIR 2016 — https://tokyoartbookfair.com/2016/ — entities 10
+- THE TOKYO ART BOOK FAIR 2015 — https://tokyoartbookfair.com/2015/ — entities 19
+
+## Publishers / Presses
+- 2009年にスタートしたアート出版に特化した日本で初めてのブ — publisher_or_press, zine_or_book
+  - TOKYO ART BOOK FAIRは、2009年にスタートしたアート出版に特化した日本で初めてのブックフェアです。
+- そしてZINEなどを出版するアーティストや出版社が一同に集結 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 年に一度のペースで開催し、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEなどを出版するアーティストや出版社が一同に集結する場所として着実に成長し、アジアで最大規模のアートブックフェアとなっています。毎回、国内外の出版社やギャラリー、アーティストら約350組が出展、2万人以上の方にご来場いただいています。
+- アジアで最大規模のアートブックフェアとなっています — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 年に一度のペースで開催し、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEなどを出版するアーティストや出版社が一同に集結する場所として着実に成長し、アジアで最大規模のアートブックフェアとなっています。毎回、国内外の出版社やギャラリー、アーティストら約350組が出展、2万人以上の方にご来場いただいています。
+- 先進的なブックメイキングを続けるアーティストや出版社が作る魅 — publisher_or_press, artist_or_collective
+  - 先進的なブックメイキングを続けるアーティストや出版社が作る魅力的な出版物で彩られたブースのほか、特別展、トーク、スクリーニングなどさまざまなイベントを会期中に開催しています。
+- スクリーニングなどさまざまなイベントを会期中に開催しています — publisher_or_press, artist_or_collective
+  - 先進的なブックメイキングを続けるアーティストや出版社が作る魅力的な出版物で彩られたブースのほか、特別展、トーク、スクリーニングなどさまざまなイベントを会期中に開催しています。
+- 来場者と直接交流しながら書籍の売買を行うイベントです — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 出展者は個人のアーティストからアート系出版社 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 多様な表現に触れることのできる機会となっており — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 書籍という比較的手に入りやすい価格帯のものを取り扱うことで — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- アートに触れる入り口として絶好の機会にもなっています — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- YES YES YES Revolutionary Press — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Italy — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Italian Zine — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Marchette — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- アート出版の国際的なコミュニティを広く受け入れるプラットフォ — publisher_or_press, zine_or_book
+  - 今年で15回目を迎えるTOKYO ART BOOK FAIR（以下、TABF）は、初めて2週末にわたり開催されます。週末ごとに出展者を入れ替えながら、アート出版の国際的なコミュニティを広く受け入れるプラットフォームを目指します。
+- ひとつの国や地域に焦点を当てて出版文化を紹介する企画 — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- 77年にかけてイタリアで制作された新聞や雑誌 — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Revolutionary — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Press — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- 2006年にかけて刊行されたイタリアのZINEを批評的に紹介 — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Italian — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Zine — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- イタリアにおけるインディペンデント出版の歴史を探ります — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- イタリアのデザインにおける企業と出版の関係性を切り口に集めた — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- エットレ・ソットサスらの絵本を多数刊行する出版社Corrai — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- niによる展示も予定しています — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Verlag — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Buchhandlung Walther — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Franz — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Steidl — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Studio Yukiko — publisher_or_press, artist_or_collective
+  - 」、クリエイティブエージェンシーの「Studio Yukiko」がキュレーターとなり選書したコーナーでは、現代ドイツのインディペンデント出版シーンを垣間見ていただけるでしょう。
+- アートブックやZINEの魅力を来場者に向けて直接伝えます — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 11月28日（木）から12月1日（日）にわたり、東京都現代美術館にて第14回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。国内外から約300組の出版社、ギャラリー、アーティストが一堂に集まり、アートブックやZINEの魅力を来場者に向けて直接伝えます。
+- ひとつの国や地域に焦点を当て出版文化を紹介する企画 — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- 日本でも高い人気を博すアーティストのステファン・マルクスやベ — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- der — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Buchhandlung — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Walther — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- und — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- nig — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+
+## Artists / Collectives
+- そしてZINEなどを出版するアーティストや出版社が一同に集結 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 年に一度のペースで開催し、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEなどを出版するアーティストや出版社が一同に集結する場所として着実に成長し、アジアで最大規模のアートブックフェアとなっています。毎回、国内外の出版社やギャラリー、アーティストら約350組が出展、2万人以上の方にご来場いただいています。
+- アジアで最大規模のアートブックフェアとなっています — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 年に一度のペースで開催し、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEなどを出版するアーティストや出版社が一同に集結する場所として着実に成長し、アジアで最大規模のアートブックフェアとなっています。毎回、国内外の出版社やギャラリー、アーティストら約350組が出展、2万人以上の方にご来場いただいています。
+- 先進的なブックメイキングを続けるアーティストや出版社が作る魅 — publisher_or_press, artist_or_collective
+  - 先進的なブックメイキングを続けるアーティストや出版社が作る魅力的な出版物で彩られたブースのほか、特別展、トーク、スクリーニングなどさまざまなイベントを会期中に開催しています。
+- スクリーニングなどさまざまなイベントを会期中に開催しています — publisher_or_press, artist_or_collective
+  - 先進的なブックメイキングを続けるアーティストや出版社が作る魅力的な出版物で彩られたブースのほか、特別展、トーク、スクリーニングなどさまざまなイベントを会期中に開催しています。
+- 来場者と直接交流しながら書籍の売買を行うイベントです — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 出展者は個人のアーティストからアート系出版社 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 多様な表現に触れることのできる機会となっており — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 書籍という比較的手に入りやすい価格帯のものを取り扱うことで — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- アートに触れる入り口として絶好の機会にもなっています — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- Verlag — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Buchhandlung Walther — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Franz — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Steidl — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Studio Yukiko — publisher_or_press, artist_or_collective
+  - 」、クリエイティブエージェンシーの「Studio Yukiko」がキュレーターとなり選書したコーナーでは、現代ドイツのインディペンデント出版シーンを垣間見ていただけるでしょう。
+- アートブックやZINEの魅力を来場者に向けて直接伝えます — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 11月28日（木）から12月1日（日）にわたり、東京都現代美術館にて第14回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。国内外から約300組の出版社、ギャラリー、アーティストが一堂に集まり、アートブックやZINEの魅力を来場者に向けて直接伝えます。
+- ひとつの国や地域に焦点を当て出版文化を紹介する企画 — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- 日本でも高い人気を博すアーティストのステファン・マルクスやベ — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- der — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Buchhandlung — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Walther — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- und — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- nig — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- 自らもアーティストであるミハリス・ピヒラー — publisher_or_press, artist_or_collective, zine_or_book
+  - ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」第8弾では、ドイツを特集いたします。日本でも高い人気を博すアーティストのステファン・マルクスやベルリンのアートブックフェア「MISS READ」、老舗出版社「Verlag der Buchhandlung Walther und Franz König」、世界一美しい本を作ると謳われる「Steidl」など、ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く展示を開催いたします。そのほかにも前述のマ
+- Studio — publisher_or_press, artist_or_collective
+  - 」、クリエイティブエージェンシーの「Studio Yukiko」がキュレーターとなり選書したコーナーでは、現代ドイツのインディペンデント出版シーンを垣間見ていただけるでしょう。
+- Yukiko — publisher_or_press, artist_or_collective
+  - 」、クリエイティブエージェンシーの「Studio Yukiko」がキュレーターとなり選書したコーナーでは、現代ドイツのインディペンデント出版シーンを垣間見ていただけるでしょう。
+- がキュレーターとなり選書したコーナーでは — publisher_or_press, artist_or_collective
+  - 」、クリエイティブエージェンシーの「Studio Yukiko」がキュレーターとなり選書したコーナーでは、現代ドイツのインディペンデント出版シーンを垣間見ていただけるでしょう。
+- 現代ドイツのインディペンデント出版シーンを垣間見ていただける — publisher_or_press, artist_or_collective
+  - 」、クリエイティブエージェンシーの「Studio Yukiko」がキュレーターとなり選書したコーナーでは、現代ドイツのインディペンデント出版シーンを垣間見ていただけるでしょう。
+- TOKYO DESIGN STUDIO New — publisher_or_press, artist_or_collective
+  - 今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品を生み出しアーティストとなったトーマス・コンの貴重なアーカイブの一部
+- 国内外から約300組の独創的なアートブックを制作する出版社 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 11月23日（木・祝）から11月26日（日）の4日間にわたり、東京都現代美術館にて第13回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約300組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。
+- 自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品 — publisher_or_press, artist_or_collective
+  - 今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品を生み出しアーティストとなったトーマス・コンの貴重なアーカイブの一部
+- を生み出しアーティストとなったトーマス・コンの貴重なアーカイ — publisher_or_press, artist_or_collective
+  - 今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品を生み出しアーティストとなったトーマス・コンの貴重なアーカイブの一部
+- Balanceがプロデュースするフリーマガジン — publisher_or_press, artist_or_collective
+  - 今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品を生み出しアーティストとなったトーマス・コンの貴重なアーカイブの一部
+- マインドブランドのBAUMがTABFのために制作するZINE — publisher_or_press, artist_or_collective, zine_or_book
+  - 今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品を生み出しアーティストとなったトーマス・コンの貴重なアーカイブの一部
+- それぞれの特別ブースが設けられる予定です — publisher_or_press, artist_or_collective
+  - 今年で7回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「ゲストカントリー」にて特集するのは北欧５カ国（ノルウェー、スウェーデン、フィンランド、デンマーク、アイスランド）です。また、TABFが企画する2つの展覧会では、4人の兄弟がヨーゼフ・ボイス、アーノルフ・ライナー、フルクサスを柱に現代美術作品を蒐集し、設立された清里現代美術館と、自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品を生み出しアーティストとなったトーマス・コンの貴重なアーカイブの一部
+- ゲストを招いてのトークショーやワークショップ — artist_or_collective
+  - ゲストを招いてのトークショーやワークショップ、作家によるサイン会、ライブパフォーマンスなど多様なプログラムも展開し、進化を続けるアートブックのいまを体験いただける場の創出を目指します。
+- ライブパフォーマンスなど多様なプログラムも展開し — artist_or_collective
+  - ゲストを招いてのトークショーやワークショップ、作家によるサイン会、ライブパフォーマンスなど多様なプログラムも展開し、進化を続けるアートブックのいまを体験いただける場の創出を目指します。
+- 進化を続けるアートブックのいまを体験いただける場の創出を目指 — artist_or_collective
+  - ゲストを招いてのトークショーやワークショップ、作家によるサイン会、ライブパフォーマンスなど多様なプログラムも展開し、進化を続けるアートブックのいまを体験いただける場の創出を目指します。
+- Guest Country — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、
+- 国内外から約200組の独創的なアートブックを制作する出版社 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、
+
+## Bookstores / Galleries
+- そしてZINEなどを出版するアーティストや出版社が一同に集結 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 年に一度のペースで開催し、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEなどを出版するアーティストや出版社が一同に集結する場所として着実に成長し、アジアで最大規模のアートブックフェアとなっています。毎回、国内外の出版社やギャラリー、アーティストら約350組が出展、2万人以上の方にご来場いただいています。
+- アジアで最大規模のアートブックフェアとなっています — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 年に一度のペースで開催し、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEなどを出版するアーティストや出版社が一同に集結する場所として着実に成長し、アジアで最大規模のアートブックフェアとなっています。毎回、国内外の出版社やギャラリー、アーティストら約350組が出展、2万人以上の方にご来場いただいています。
+- 来場者と直接交流しながら書籍の売買を行うイベントです — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 出展者は個人のアーティストからアート系出版社 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 多様な表現に触れることのできる機会となっており — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 書籍という比較的手に入りやすい価格帯のものを取り扱うことで — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- アートに触れる入り口として絶好の機会にもなっています — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- Pace — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- BOOK WRAPPING CORNER — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- New Balance — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- Museum — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- Imaginary Narrative Arts — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- Sigma — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- アートブックやZINEの魅力を来場者に向けて直接伝えます — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 11月28日（木）から12月1日（日）にわたり、東京都現代美術館にて第14回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。国内外から約300組の出版社、ギャラリー、アーティストが一堂に集まり、アートブックやZINEの魅力を来場者に向けて直接伝えます。
+- 国内外から約300組の独創的なアートブックを制作する出版社 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 11月23日（木・祝）から11月26日（日）の4日間にわたり、東京都現代美術館にて第13回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約300組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。
+- Guest Country — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、
+- 国内外から約200組の独創的なアートブックを制作する出版社 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、
+- Guest — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、
+- Country — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、
+- 同国の豊かな出版文化を多角的に紐解く展示のほか — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、
+- 昨今アートブックシーンで注目を集めるリソグラフ作品をご紹介す — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、
+- 作家によるサイン会などのさまざまなコンテンツを通して — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 10月27日（木）から10月30日（日）の4日間にわたり、東京都現代美術館にて第12回TOKYO ART BOOK FAIR（以下、TABF）を開催いたします。今年は、国内外から約200組の独創的なアートブックを制作する出版社、ギャラリー、アーティストらが集結し、作り手たちが本の魅力を伝えます。また今年で6回目を迎える、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」にて特集するのはフランスです。同国の豊かな出版文化を多角的に紐解く展示のほか、
+- VIRTUAL ART BOOK FAIR — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感
+- 日本で初めてのアートに特化したブックフェアとして2009年に — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感
+- 国内外から独創的なアートブックを作る出版社 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感
+- 作り手たちが直接本の魅力を伝える場を提供し続けています — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感
+- 2019年に東京都現代美術館で第10回の開催を迎えたTABF — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感
+- 新型コロナウイルス感染拡大防止の観点からTABFは中止し — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - TOKYO ART BOOK FAIR（TABF）は、日本で初めてのアートに特化したブックフェアとして2009年にスタートしました。国内外から独創的なアートブックを作る出版社、ギャラリー、アーティストらが年に一度東京に集結し、作り手たちが直接本の魅力を伝える場を提供し続けています。2019年に東京都現代美術館で第10回の開催を迎えたTABFは、約300組の出展者が参加し、4日間で3万5000人以上が訪れ、過去最大規模のフェアとなりました。しかしその翌年は、新型コロナウイルス感
+- Shiseido Gallery — bookstore_gallery
+  - Catalogues of Shiseido Gallery in 100 Years / Photo: Hajime Kato
+- Japanese Artists’ Books — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー
+- 年に日本初のアートに特化したブックフェアとしてスタートしまし — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - TOKYO ART BOOK FAIR は、2009 年に日本初のアートに特化したブックフェアとしてスタートしました。10 年目の節目となる今年は、この春リニューアル・オープンしたばかりの東京都現代美術館に会場を移します。独創的なアートブックやZINE を制作する国内外の出版社、ギャラリー、アーティストら約300 組の出展者が一堂に会し、それぞれの出版物の魅力を伝えます。
+- この春リニューアル・オープンしたばかりの東京都現代美術館に会 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - TOKYO ART BOOK FAIR は、2009 年に日本初のアートに特化したブックフェアとしてスタートしました。10 年目の節目となる今年は、この春リニューアル・オープンしたばかりの東京都現代美術館に会場を移します。独創的なアートブックやZINE を制作する国内外の出版社、ギャラリー、アーティストら約300 組の出展者が一堂に会し、それぞれの出版物の魅力を伝えます。
+- でアメリカを特集した展示やプログラムを行うほか — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー
+- 日本人作家によるアーティストブックを作り手の声とともに紹介す — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー
+- 資生堂ギャラリーがこれまでに刊行した図録を通し — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー
+- 年の活動の歩みを振り返る展示などの特別プログラム — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー
+- 進化を続けるアートブックのいまを体験することができる場の創出 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - また今回、企画展示室地下2 階では、2015 年からスタートした、ひとつの国や地域に焦点を当て出版文化を紹介する企画「Guest Country」でアメリカを特集した展示やプログラムを行うほか、日本人作家によるアーティストブックを作り手の声とともに紹介する「Japanese Artists’ Books: Then and Now 」展や、資生堂ギャラリーがこれまでに刊行した図録を通し、その100 年の活動の歩みを振り返る展示などの特別プログラム、ゲストを招いてのトークショー
+- 数日間にわたる会期を通じてのべ2万人超の来場者が訪れ賑わいを — publisher_or_press, artist_or_collective, bookstore_gallery
+  - TABFには、普段はそれぞれの国や地域で、印刷物を通した独自の表現を続ける出版社、ギャラリー、アーティストたちが世界中から集まり、数日間にわたる会期を通じてのべ2万人超の来場者が訪れ賑わいをみせます。まさにアートブックの「祭典」ともいえるイベントです。
+- アート出版に特化した日本で初めてのブックフェアです — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - THE TOKYO ART BOOK FAIRは、アート出版に特化した日本で初めてのブックフェアです。毎年、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEをつくる出版社やギャラリー、アーティストなど約300組が国内外から一堂に集まります。
+- そしてZINEをつくる出版社やギャラリー — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - THE TOKYO ART BOOK FAIRは、アート出版に特化した日本で初めてのブックフェアです。毎年、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEをつくる出版社やギャラリー、アーティストなど約300組が国内外から一堂に集まります。
+
+## Zines / Books
+- 2009年にスタートしたアート出版に特化した日本で初めてのブ — publisher_or_press, zine_or_book
+  - TOKYO ART BOOK FAIRは、2009年にスタートしたアート出版に特化した日本で初めてのブックフェアです。
+- そしてZINEなどを出版するアーティストや出版社が一同に集結 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 年に一度のペースで開催し、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEなどを出版するアーティストや出版社が一同に集結する場所として着実に成長し、アジアで最大規模のアートブックフェアとなっています。毎回、国内外の出版社やギャラリー、アーティストら約350組が出展、2万人以上の方にご来場いただいています。
+- アジアで最大規模のアートブックフェアとなっています — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - 年に一度のペースで開催し、個性豊かなアートブック、カタログ、アーティストブック、そしてZINEなどを出版するアーティストや出版社が一同に集結する場所として着実に成長し、アジアで最大規模のアートブックフェアとなっています。毎回、国内外の出版社やギャラリー、アーティストら約350組が出展、2万人以上の方にご来場いただいています。
+- 来場者と直接交流しながら書籍の売買を行うイベントです — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 出展者は個人のアーティストからアート系出版社 — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 多様な表現に触れることのできる機会となっており — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- 書籍という比較的手に入りやすい価格帯のものを取り扱うことで — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- アートに触れる入り口として絶好の機会にもなっています — publisher_or_press, artist_or_collective, bookstore_gallery, zine_or_book
+  - アートブックやアーティストブック、ZINEなどを製作する個人、グループ、企業などがブースを持ち、来場者と直接交流しながら書籍の売買を行うイベントです。出展者は個人のアーティストからアート系出版社、ギャラリー、書店などさまざまです。多様な表現に触れることのできる機会となっており、また、書籍という比較的手に入りやすい価格帯のものを取り扱うことで、アートに触れる入り口として絶好の機会にもなっています。
+- OFFLINE VIRTUAL ART BOOK FAIR — zine_or_book
+- Ginza Edition — zine_or_book
+  - THE TOKYO ART BOOK FAIR: Ginza Edition at Ginza Sony Park
+- Threads, Say — zine_or_book
+  - TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more
+- tokyoartbookfair — zine_or_book
+  - TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more
+- Threads — zine_or_book
+  - TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more
+- Say — zine_or_book
+  - TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more
+- more — zine_or_book
+  - TOKYO ART BOOK FAIR (@tokyoartbookfair) • Threads, Say more
+- YES YES YES Revolutionary Press — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Italy — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Italian Zine — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Marchette — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Pace — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- BOOK WRAPPING CORNER — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- New Balance — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- Museum — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- Imaginary Narrative Arts — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- Sigma — bookstore_gallery, zine_or_book
+  - また、世界の難民のポートレートや「大切なもの」を記録したホンマタカシの作品展や、Pace Galleryがこれまでに制作してきた展覧会のインビテーションや図録などの印刷物のアーカイブを紹介する展示も開催予定です。今年はクリスマスシーズンに合わせて、ブルーノ・ムナーリ、中村至男、デヴィッド・ホーヴィッツの3名によるTABFオリジナルのラッピングペーパーを使った梱包サービスを行う「BOOK WRAPPING CORNER」も登場します。そのほか、トークショー、ワークショップ、サイ
+- BOOK SIGNING SPECIAL BOOTHS OUTDOOR — zine_or_book
+- アート出版の国際的なコミュニティを広く受け入れるプラットフォ — publisher_or_press, zine_or_book
+  - 今年で15回目を迎えるTOKYO ART BOOK FAIR（以下、TABF）は、初めて2週末にわたり開催されます。週末ごとに出展者を入れ替えながら、アート出版の国際的なコミュニティを広く受け入れるプラットフォームを目指します。
+- ひとつの国や地域に焦点を当てて出版文化を紹介する企画 — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- 77年にかけてイタリアで制作された新聞や雑誌 — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Revolutionary — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Press — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- 2006年にかけて刊行されたイタリアのZINEを批評的に紹介 — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Italian — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- Zine — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- イタリアにおけるインディペンデント出版の歴史を探ります — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- イタリアのデザインにおける企業と出版の関係性を切り口に集めた — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- エットレ・ソットサスらの絵本を多数刊行する出版社Corrai — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- niによる展示も予定しています — publisher_or_press, zine_or_book
+  - ひとつの国や地域に焦点を当てて出版文化を紹介する企画「ゲストカントリー」の第9回では、イタリアを特集します。1966〜77年にかけてイタリアで制作された新聞や雑誌、パンフレット、エフェメラなどを収録した『YES YES YES Revolutionary Press in Italy 1966-1977』と、1978〜2006年にかけて刊行されたイタリアのZINEを批評的に紹介する『OUT OF THE GRID: Italian Zine 1978–2006』を紐解く展示を
+- https — zine_or_book
+  - https://tokyoartbookfair.com/
+- com — zine_or_book
+  - https://tokyoartbookfair.com/

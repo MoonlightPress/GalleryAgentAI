@@ -1,0 +1,581 @@
+[
+  {
+    "title": "Pinpoint Gallery",
+    "artists": [
+      {
+        "name": "飯野和好",
+        "roles": [
+          "artist",
+          "picture_book_artist",
+          "作家",
+          "絵本作家"
+        ],
+        "birth_year": "1947",
+        "birth_place": "埼玉県秩父",
+        "similarity_score": 82,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links",
+          "finished books or works listed"
+        ],
+        "source_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      },
+      {
+        "name": "千葉智江",
+        "roles": [
+          "artist",
+          "author"
+        ],
+        "birth_year": "1984",
+        "birth_place": "岩手県",
+        "similarity_score": 82,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links",
+          "finished books or works listed"
+        ],
+        "source_url": "https://pinpointgallery.com/competition_oubo2025/"
+      },
+      {
+        "name": "つじにぬき",
+        "roles": [
+          "artist",
+          "illustrator"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "京都",
+        "similarity_score": 72,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links"
+        ],
+        "source_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      }
+    ],
+    "publishers": [
+      {
+        "name": "小学館",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "福音館書店",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "偕成社",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "理論社",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "ブロンズ新社",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "小峰書店",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "クレヨンハウス",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "小峰書店／第20回日本絵本賞受賞",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "福音館書店／その１で、第49回小学館児童出版文化賞受賞",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "偕成社／第11回赤い鳥さし絵賞受賞",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "偕成社／第70回産経児童出版文化賞タイヘイ賞",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "大日本図書",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "作・ほんだあきこ/小学館",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "PHP研究所",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      },
+      {
+        "name": "学研",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      },
+      {
+        "name": "NHK",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      },
+      {
+        "name": "ひかりのくに",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      },
+      {
+        "name": "地湧社",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      },
+      {
+        "name": "著書に『みずうみ』（大日本図書）、『はなちゃんおとなになります』（小学館）、『すうちゃんはね』（作・ほんだあきこ/小学館）などがある",
+        "artist": "千葉智江",
+        "source": "bio_text"
+      },
+      {
+        "name": "絵本に「くろずみ小太郎旅日記」シリーズ（クレヨンハウス）、『おせんとおこま』（ブロンズ新社）、『みずくみに』（小峰書店／第20回日本絵本賞受賞）、『ふようどのふよこちゃん』（理論社）、「ねぎぼうずのあさたろう」シリーズ（福音館書店／その１で",
+        "artist": "飯野和好",
+        "source": "bio_text"
+      }
+    ],
+    "books_or_works": [
+      {
+        "name": "おせんとおこま",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "みずくみに",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "ふようどのふよこちゃん",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "ぼくとお山と羊のセーター",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "くろずみ小太郎旅日記",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "ねぎぼうずのあさたろう",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "小さなスズナ姫",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "みずうみ",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "はなちゃんおとなになります",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "すうちゃんはね",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "絵本塾",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "あとさき塾",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      }
+    ],
+    "awards_or_selections": [
+      {
+        "name": "『みずくみに』（小峰書店／第20回日本絵本賞受賞）",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "第49回小学館児童出版文化賞受賞）",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "挿絵に「小さなスズナ姫」シリーズ（偕成社／第11回赤い鳥さし絵賞受賞）",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "『ぼくとお山と羊のセーター』（偕成社／第70回産経児童出版文化賞タイヘイ賞）などがある",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "第16回ピンポイント絵本コンペ入選",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "第22回おひさま大賞優秀賞受賞",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "地湧社などでイラストを制作 第3回 nowaki 絵本ワークショップで筒井大介氏より絵本制作について学ぶ 第18回 pinpoint gallery 絵本コンペ 優秀賞受賞 39回 MINI PRINT INTERNATIONAL DE CAD",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      }
+    ],
+    "judges_or_gatekeepers": [],
+    "organizations": [],
+    "similar_artists": [
+      {
+        "name": "飯野和好",
+        "roles": [
+          "artist",
+          "picture_book_artist",
+          "作家",
+          "絵本作家"
+        ],
+        "birth_year": "1947",
+        "birth_place": "埼玉県秩父",
+        "similarity_score": 82,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links",
+          "finished books or works listed"
+        ],
+        "source_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      },
+      {
+        "name": "千葉智江",
+        "roles": [
+          "artist",
+          "author"
+        ],
+        "birth_year": "1984",
+        "birth_place": "岩手県",
+        "similarity_score": 82,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links",
+          "finished books or works listed"
+        ],
+        "source_url": "https://pinpointgallery.com/competition_oubo2025/"
+      },
+      {
+        "name": "つじにぬき",
+        "roles": [
+          "artist",
+          "illustrator"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "京都",
+        "similarity_score": 72,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links"
+        ],
+        "source_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      }
+    ],
+    "evidence_clues": [
+      {
+        "name": "飯野和好（いいの・かずよし）絵本作家。1947年埼玉県秩父生まれ。絵本に「くろずみ小太郎旅日記」シリーズ（クレヨンハウス）、『おせんとおこま』（ブロンズ新社）、『みずくみに』（小峰書店／第20回日本絵本賞受賞）、『ふようどのふよこちゃん』（理論社）、「ねぎぼうずのあさたろう」シリーズ（福音館書店／その１で、第49回小学館児童出版文化賞受賞）、挿絵に「小さなス",
+        "source": "opportunity_evidence"
+      },
+      {
+        "name": "オリジナル、未発表の絵本作品を募集します。プロ、アマ問わず。審査員は、現役で活躍中の編集者、絵本作家らにギャラリーオーナーを加えての４人。",
+        "source": "opportunity_evidence"
+      },
+      {
+        "name": "受賞作は、2026年6月29日から7月18日まで3週間にわたりピンポイントギャラリーにて受賞展を開催します。",
+        "source": "opportunity_evidence"
+      },
+      {
+        "name": "2000年より絵本作家育成を目的としてはじまったギャラリー主催の絵本公募展。",
+        "source": "opportunity_evidence"
+      }
+    ]
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "artists": [
+      {
+        "name": "Charles Pears",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "award or selection history",
+          "thin evidence"
+        ],
+        "source_url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists"
+      },
+      {
+        "name": "Ronald Benham RBA NEAC",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "award or selection history",
+          "thin evidence"
+        ],
+        "source_url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+      },
+      {
+        "name": "Andrew Pledge’s Hidden Gems",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.painters-online.co.uk/store/single-issues/the-artist/"
+      },
+      {
+        "name": "Catherine Beale’s",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.painters-online.co.uk/store/single-issues/the-artist/"
+      },
+      {
+        "name": "Grahame Booth",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.painters-online.co.uk/store/single-issues/the-artist/"
+      },
+      {
+        "name": "Andrew Graham-Dixon",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+      },
+      {
+        "name": "Zhang Hongbin",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+      },
+      {
+        "name": "Michael Harrison",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+      }
+    ],
+    "publishers": [],
+    "books_or_works": [],
+    "awards_or_selections": [
+      {
+        "name": "The exhibition offers several prizes and awards",
+        "artist": "Charles Pears",
+        "source": "career_graph"
+      },
+      {
+        "name": "This includes The Charles Pears Award for an outstanding work by a non-member",
+        "artist": "Charles Pears",
+        "source": "career_graph"
+      },
+      {
+        "name": "An annual memorial prize of £500 in the name of Ronald Benham RBA NEAC",
+        "artist": "Ronald Benham RBA NEAC",
+        "source": "career_graph"
+      },
+      {
+        "name": "to be awarded to an artist for work painted in a traditional manner in celebration of the natural world",
+        "artist": "Ronald Benham RBA NEAC",
+        "source": "career_graph"
+      }
+    ],
+    "judges_or_gatekeepers": [],
+    "organizations": [
+      {
+        "name": "This includes The Charles Pears Award for an outstanding work by a non-member, presented in memory of the Society’s foun",
+        "source": "bio_text"
+      },
+      {
+        "name": "To coincide with the Chinese Year of the Fire Horse, the Society welcomes Shengxinyu Art, its director, Zhang Hongbin an",
+        "source": "bio_text"
+      },
+      {
+        "name": "‘With such a wealth of talent and support, the future looks exceptionally bright for the Royal Society of British Artist",
+        "source": "bio_text"
+      }
+    ],
+    "similar_artists": [],
+    "evidence_clues": []
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "artists": [],
+    "publishers": [],
+    "books_or_works": [],
+    "awards_or_selections": [],
+    "judges_or_gatekeepers": [],
+    "organizations": [
+      {
+        "name": "This includes The Charles Pears Award for an outstanding work by a non-member, presented in memory of the Society’s foun",
+        "source": "bio_text"
+      },
+      {
+        "name": "To coincide with the Chinese Year of the Fire Horse, the Society welcomes Shengxinyu Art, its director, Zhang Hongbin an",
+        "source": "bio_text"
+      },
+      {
+        "name": "‘With such a wealth of talent and support, the future looks exceptionally bright for the Royal Society of British Artist",
+        "source": "bio_text"
+      }
+    ],
+    "similar_artists": [],
+    "evidence_clues": []
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "artists": [],
+    "publishers": [],
+    "books_or_works": [],
+    "awards_or_selections": [],
+    "judges_or_gatekeepers": [],
+    "organizations": [
+      {
+        "name": "This includes The Charles Pears Award for an outstanding work by a non-member, presented in memory of the Society’s foun",
+        "source": "bio_text"
+      },
+      {
+        "name": "To coincide with the Chinese Year of the Fire Horse, the Society welcomes Shengxinyu Art, its director, Zhang Hongbin an",
+        "source": "bio_text"
+      },
+      {
+        "name": "‘With such a wealth of talent and support, the future looks exceptionally bright for the Royal Society of British Artist",
+        "source": "bio_text"
+      }
+    ],
+    "similar_artists": [],
+    "evidence_clues": []
+  },
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "artists": [],
+    "publishers": [],
+    "books_or_works": [],
+    "awards_or_selections": [],
+    "judges_or_gatekeepers": [],
+    "organizations": [],
+    "similar_artists": [],
+    "evidence_clues": [
+      {
+        "name": "・展示室での出展・出版社、ギャラリー、ブックショップ、企業、アーティスト、グループの方向けのブースです。",
+        "source": "opportunity_evidence"
+      },
+      {
+        "name": "・エントランスでの出展・出版社、ギャラリー、ブックショップ、企業、アーティスト、グループの方向けのブースです。",
+        "source": "opportunity_evidence"
+      },
+      {
+        "name": "・個人で活動を行うアーティストやジンメイカーの方、小規模な出版社向けのブースです。",
+        "source": "opportunity_evidence"
+      }
+    ]
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "artists": [],
+    "publishers": [],
+    "books_or_works": [],
+    "awards_or_selections": [],
+    "judges_or_gatekeepers": [],
+    "organizations": [],
+    "similar_artists": [],
+    "evidence_clues": []
+  }
+]

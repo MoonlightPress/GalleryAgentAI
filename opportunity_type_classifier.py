@@ -2,32 +2,28 @@
 import json
 from pathlib import Path
 
-SRC = "memory/application_page_results.json"
-OUT = "memory/typed_opportunities.json"
-REPORT = "reports/opportunity_buckets.md"
+SOURCES = [
+    "memory/nin_opportunity_recommendations.json",
+    "memory/opportunity_briefs.json",
+    "memory/opportunity_evidence_cards.json",
+]
+
+OUT_JSON = "memory/opportunity_type_classifications.json"
+OUT_REPORT = "reports/opportunity_type_classifications.md"
 
 TYPE_RULES = {
-    "book_fair": ["art book fair", "book fair", "printed matter", "offprint", "tokyo art book fair"],
-    "zine_fair": ["zine", "mount zine"],
-    "gallery_submission": ["gallery", "opa", "hb gallery", "pinpoint", "utrecht", "book and sons", "post"],
-    "open_exhibition": ["open exhibition", "open calls", "open call", "mall galleries", "royal institute", "pastel society", "society of women artists"],
-    "competition": ["prize", "competition", "award", "jackson"],
-    "residency": ["residency", "air", "tokas", "youkobo", "bankart"],
-    "publication": ["publication", "magazine", "journal", "self publish", "printed matter"],
-    "contact_only": ["contact", "info@", "mail@"],
+    "artist_book_fair": ["art book fair", "artist book", "book fair", "TABF", "tokyo art book"],
+    "zine_fair": ["zine fair", "zine", "ZINE"],
+    "zine_shop": ["zine shop", "zines"],
+    "artist_book_store": ["artist book store", "bookstore", "book shop"],
+    "small_press_publisher": ["small press", "publisher", "press", "publishing"],
+    "illustration_gallery": ["illustration", "picture book", "絵本", "Pinpoint"],
+    "bookstore_gallery": ["bookstore", "gallery", "book shop"],
+    "print_market": ["print", "prints", "risograph", "リソグラフ"],
+    "quiet_contemporary_gallery": ["contemporary", "quiet", "gallery"],
+    "traditional_painting_society": ["watercolour society", "watercolor society", "painters in water colours", "pastel society", "royal institute"],
+    "large_formal_competition": ["art prize", "competition", "open exhibition"],
 }
-
-PRIORITY = [
-    "gallery_submission",
-    "open_exhibition",
-    "competition",
-    "book_fair",
-    "zine_fair",
-    "publication",
-    "residency",
-    "contact_only",
-    "unknown",
-]
 
 def load(path, fallback):
     p = Path(path)
@@ -35,107 +31,54 @@ def load(path, fallback):
         return json.load(open(p, encoding="utf-8"))
     return fallback
 
-def blob(item):
-    parts = []
-    for k in ["title", "url", "contact", "submission_open", "deadline"]:
-        if item.get(k):
-            parts.append(str(item[k]))
+def collect_opportunities():
+    rows = {}
+    for src in SOURCES:
+        data = load(src, [])
+        if isinstance(data, dict):
+            continue
+        for item in data:
+            title = item.get("title")
+            if not title:
+                continue
+            rows.setdefault(title, {"title": title, "text": ""})
+            rows[title]["text"] += " " + json.dumps(item, ensure_ascii=False)
+    return list(rows.values())
 
-    for k in ["ranked_submission_links", "application_page_results", "submission_links", "relevant_links"]:
-        for x in item.get(k, []) or []:
-            if isinstance(x, dict):
-                parts.append(str(x.get("label", "")))
-                parts.append(str(x.get("url", "")))
-                parts.append(str(x.get("final_url", "")))
-
-    return " ".join(parts).lower()
-
-def classify(item):
-    text = blob(item)
-    hits_by_type = {}
-
+def classify(text):
+    low = text.lower()
+    types = []
     for typ, terms in TYPE_RULES.items():
-        hits = [t for t in terms if t in text]
-        if hits:
-            hits_by_type[typ] = hits
-
-    if not hits_by_type:
-        return "unknown", {}
-
-    for typ in PRIORITY:
-        if typ in hits_by_type:
-            return typ, hits_by_type
-
-    return "unknown", hits_by_type
-
-def action_hint(typ):
-    return {
-        "gallery_submission": "Prepare a short gallery inquiry and 8-12 image PDF.",
-        "open_exhibition": "Verify current call, deadline, fee, size rules, and submit only if current.",
-        "competition": "Check deadline, fee, eligibility, and whether prize/reputation is worth it.",
-        "book_fair": "Check exhibitor application requirements; useful only if she has a zine/book object.",
-        "zine_fair": "Make a small watercolor zine first; do not treat as gallery representation.",
-        "publication": "Use only if the work is converted into a sequence, book, or printed edition.",
-        "residency": "Lower priority unless it supports a specific project and has a clear deadline.",
-        "contact_only": "Use for soft inquiry only; do not assume there is an open submission.",
-        "unknown": "Manual review required.",
-    }.get(typ, "Manual review required.")
+        if any(term.lower() in low for term in terms):
+            types.append(typ)
+    return types or ["unknown"]
 
 def main():
-    data = load(SRC, [])
+    rows = collect_opportunities()
+    out = []
+    for r in rows:
+        types = classify(r["title"] + " " + r["text"])
+        out.append({
+            "title": r["title"],
+            "opportunity_types": types,
+        })
 
-    if not data:
-        raise SystemExit("memory/application_page_results.json is empty or missing. Run run_fixed_application_pipeline.py.")
-
-    buckets = {k: [] for k in PRIORITY}
-
-    typed = []
-    for original in data:
-        # Preserve every field. Add only classification fields.
-        item = dict(original)
-
-        typ, hits = classify(item)
-        item["opportunity_type"] = typ
-        item["opportunity_type_hits"] = hits
-        item["next_action_hint"] = action_hint(typ)
-
-        typed.append(item)
-        buckets.setdefault(typ, []).append(item)
+    out.sort(key=lambda x: x["title"])
 
     Path("memory").mkdir(exist_ok=True)
-    json.dump(typed, open(OUT, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    json.dump(out, open(OUT_JSON, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 
-    lines = ["# Opportunity Buckets", "", "Opportunities grouped by practical action type.", ""]
-
-    for typ in PRIORITY:
-        items = buckets.get(typ, [])
-        title = typ.replace("_", " ").title()
-        lines.append(f"## {title}")
-        lines.append("")
-        if not items:
-            lines.append("_No items._")
-            lines.append("")
-            continue
-
-        for item in items[:20]:
-            lines.append(f"- **{item.get('title')}**")
-            lines.append(f"  - Contact: {item.get('contact', 'unknown')}")
-            lines.append(f"  - Submission: {item.get('submission_open', 'unknown')}")
-            lines.append(f"  - Deadline: {item.get('deadline', 'unknown')}")
-            lines.append(f"  - Action: {item.get('next_action_hint')}")
-
-            links = item.get("ranked_submission_links", []) or item.get("submission_links", [])
-            if links:
-                best = links[0]
-                lines.append(f"  - Best link: {best.get('label') or '[no label]'} — {best.get('url')}")
-
+    lines = ["# Opportunity Type Classifications", ""]
+    for r in out:
+        lines.append(f"## {r['title']}")
+        lines.append(f"- Types: {', '.join(r['opportunity_types'])}")
         lines.append("")
 
     Path("reports").mkdir(exist_ok=True)
-    Path(REPORT).write_text("\n".join(lines), encoding="utf-8")
+    Path(OUT_REPORT).write_text("\n".join(lines), encoding="utf-8")
 
-    print("Wrote", OUT)
-    print("Wrote", REPORT)
+    print("Wrote", OUT_JSON)
+    print("Wrote", OUT_REPORT)
 
 if __name__ == "__main__":
     main()

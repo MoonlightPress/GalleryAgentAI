@@ -1,0 +1,539 @@
+[
+  {
+    "channel_id": "zines",
+    "title": "Zines",
+    "description": "Small printed works sold through zine shops, fairs, bookstores, and direct artist networks.",
+    "why_it_fits": [
+      "Low barrier to entry.",
+      "Compatible with intimate watercolor and works-on-paper imagery.",
+      "Lets the artist test audience response without waiting for gallery approval.",
+      "Good bridge between prints, books, and small exhibitions."
+    ],
+    "target_assets": [
+      "1 finished zine",
+      "20-50 printed copies",
+      "short artist bio",
+      "price sheet"
+    ],
+    "opportunity_types": [
+      "zine_shop",
+      "zine_fair",
+      "artist_book_store",
+      "print_market"
+    ],
+    "known_opportunities": [
+      {
+        "title": "TOKYO ART BOOK FAIR",
+        "score": 57.2,
+        "label": "promising personal fit"
+      },
+      {
+        "title": "Pastel Society Open Exhibition",
+        "score": 36.2,
+        "label": "possible but not personal"
+      },
+      {
+        "title": "Pinpoint Gallery",
+        "score": 65.0,
+        "label": "promising personal fit"
+      }
+    ],
+    "known_entities": [
+      {
+        "name": "YES YES YES Revolutionary Press",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Verlag der Buchhandlung Walther und Franz König",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Pace Gallery",
+        "type": "gallery",
+        "score": 100
+      },
+      {
+        "name": "Studio Yukiko",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Hand Saw Press",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Japanese Artists' Books",
+        "type": "zine_or_book",
+        "score": 100
+      },
+      {
+        "name": "Feira Plana",
+        "type": "art_book_fair",
+        "score": 100
+      },
+      {
+        "name": "Shiseido Gallery",
+        "type": "gallery",
+        "score": 100
+      },
+      {
+        "name": "American Zines",
+        "type": "zine_or_book",
+        "score": 75
+      },
+      {
+        "name": "The Thing Quarterly",
+        "type": "publisher_or_press",
+        "score": 75
+      },
+      {
+        "name": "Feira",
+        "type": "art_book_fair",
+        "score": 45
+      },
+      {
+        "name": "Plana",
+        "type": "publisher_or_press",
+        "score": 45
+      },
+      {
+        "name": "Books",
+        "type": "publisher_or_press",
+        "score": 45
+      },
+      {
+        "name": "Hajime Kato Japanese Artists' Books",
+        "type": "publisher_or_press",
+        "score": 40
+      }
+    ],
+    "local_density_targets": {
+      "tokyo_known_target": 100,
+      "koenji_target": 3,
+      "nakano_target": 1,
+      "radius_20km_target": 10,
+      "note": "Targets are placeholders until local shop crawler is built."
+    },
+    "current_coverage_status": "usable initial map"
+  },
+  {
+    "channel_id": "artist_books",
+    "title": "Artist Books",
+    "description": "Sequenced art objects, small books, or book-like editions for fairs, bookstores, and publishers.",
+    "why_it_fits": [
+      "Strong fit for quiet observational work and visual sequencing.",
+      "Raises the work above loose images or prints.",
+      "Connects directly to TABF-style ecosystems.",
+      "Can be shown to galleries, publishers, and shops."
+    ],
+    "target_assets": [
+      "1 artist book prototype",
+      "10-20 page sequence",
+      "print-ready PDF",
+      "mockup photos"
+    ],
+    "opportunity_types": [
+      "artist_book_fair",
+      "artist_book_store",
+      "small_press_publisher"
+    ],
+    "known_opportunities": [
+      {
+        "title": "TOKYO ART BOOK FAIR",
+        "score": 57.2,
+        "label": "promising personal fit"
+      },
+      {
+        "title": "Pastel Society Open Exhibition",
+        "score": 36.2,
+        "label": "possible but not personal"
+      },
+      {
+        "title": "Pinpoint Gallery",
+        "score": 65.0,
+        "label": "promising personal fit"
+      }
+    ],
+    "known_entities": [
+      {
+        "name": "YES YES YES Revolutionary Press",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Verlag der Buchhandlung Walther und Franz König",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Pace Gallery",
+        "type": "gallery",
+        "score": 100
+      },
+      {
+        "name": "Studio Yukiko",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Hand Saw Press",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Japanese Artists' Books",
+        "type": "zine_or_book",
+        "score": 100
+      },
+      {
+        "name": "Feira Plana",
+        "type": "art_book_fair",
+        "score": 100
+      },
+      {
+        "name": "Shiseido Gallery",
+        "type": "gallery",
+        "score": 100
+      },
+      {
+        "name": "American Zines",
+        "type": "zine_or_book",
+        "score": 75
+      },
+      {
+        "name": "The Thing Quarterly",
+        "type": "publisher_or_press",
+        "score": 75
+      },
+      {
+        "name": "Feira",
+        "type": "art_book_fair",
+        "score": 45
+      },
+      {
+        "name": "Plana",
+        "type": "publisher_or_press",
+        "score": 45
+      },
+      {
+        "name": "Books",
+        "type": "publisher_or_press",
+        "score": 45
+      },
+      {
+        "name": "Hajime Kato Japanese Artists' Books",
+        "type": "publisher_or_press",
+        "score": 40
+      }
+    ],
+    "local_density_targets": {
+      "tokyo_known_target": 40,
+      "koenji_target": 1,
+      "nakano_target": 1,
+      "radius_20km_target": 8,
+      "note": "Includes art book stores, book fairs, and publisher/bookstore hybrids."
+    },
+    "current_coverage_status": "usable initial map"
+  },
+  {
+    "channel_id": "illustration_galleries",
+    "title": "Illustration Galleries",
+    "description": "Galleries and competitions near illustration, picture books, small works, and publication culture.",
+    "why_it_fits": [
+      "Best bridge between watercolor images and formal exhibition.",
+      "Better fit than traditional painting societies.",
+      "Can lead to publishing or picture-book adjacent opportunities.",
+      "Pinpoint-style opportunities already show evidence of similar artists."
+    ],
+    "target_assets": [
+      "portfolio PDF",
+      "8-12 selected images",
+      "short statement",
+      "application materials"
+    ],
+    "opportunity_types": [
+      "illustration_gallery",
+      "bookstore_gallery",
+      "quiet_contemporary_gallery"
+    ],
+    "known_opportunities": [
+      {
+        "title": "Pinpoint Gallery",
+        "score": 65.0,
+        "label": "promising personal fit"
+      },
+      {
+        "title": "TOKYO ART BOOK FAIR",
+        "score": 57.2,
+        "label": "promising personal fit"
+      },
+      {
+        "title": "Pastel Society Open Exhibition",
+        "score": 36.2,
+        "label": "possible but not personal"
+      }
+    ],
+    "known_entities": [
+      {
+        "name": "飯野和好",
+        "type": "similar_artist",
+        "score": null
+      },
+      {
+        "name": "千葉智江",
+        "type": "similar_artist",
+        "score": null
+      },
+      {
+        "name": "Charles Pears",
+        "type": "similar_artist",
+        "score": null
+      },
+      {
+        "name": "Ronald Benham RBA NEAC",
+        "type": "similar_artist",
+        "score": null
+      },
+      {
+        "name": "つじにぬき",
+        "type": "similar_artist",
+        "score": null
+      },
+      {
+        "name": "Andrew Pledge’s Hidden Gems",
+        "type": "similar_artist",
+        "score": null
+      },
+      {
+        "name": "Catherine Beale’s",
+        "type": "similar_artist",
+        "score": null
+      },
+      {
+        "name": "Grahame Booth",
+        "type": "similar_artist",
+        "score": null
+      },
+      {
+        "name": "Andrew Graham-Dixon",
+        "type": "similar_artist",
+        "score": null
+      },
+      {
+        "name": "Zhang Hongbin",
+        "type": "similar_artist",
+        "score": null
+      },
+      {
+        "name": "Michael Harrison",
+        "type": "similar_artist",
+        "score": null
+      }
+    ],
+    "local_density_targets": {
+      "tokyo_known_target": 30,
+      "koenji_target": 1,
+      "nakano_target": 1,
+      "radius_20km_target": 10,
+      "note": "Prioritize illustration/picture-book/small-work galleries over formal painting societies."
+    },
+    "current_coverage_status": "usable initial map"
+  },
+  {
+    "channel_id": "small_press_publishers",
+    "title": "Small Press Publishers",
+    "description": "Independent presses, artist-book publishers, and design/publishing studios.",
+    "why_it_fits": [
+      "Potential path for editions, books, and collaborations.",
+      "More aligned with zines and artist books than generic gallery submissions.",
+      "Can create international visibility through a small object.",
+      "Useful even when no formal open call exists."
+    ],
+    "target_assets": [
+      "publisher shortlist",
+      "sample PDF",
+      "one-page pitch",
+      "edition concept"
+    ],
+    "opportunity_types": [
+      "small_press_publisher"
+    ],
+    "known_opportunities": [
+      {
+        "title": "Pinpoint Gallery",
+        "score": 65.0,
+        "label": "promising personal fit"
+      },
+      {
+        "title": "TOKYO ART BOOK FAIR",
+        "score": 57.2,
+        "label": "promising personal fit"
+      },
+      {
+        "title": "Pastel Society Open Exhibition",
+        "score": 36.2,
+        "label": "possible but not personal"
+      }
+    ],
+    "known_entities": [
+      {
+        "name": "YES YES YES Revolutionary Press",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Verlag der Buchhandlung Walther und Franz König",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Pace Gallery",
+        "type": "gallery",
+        "score": 100
+      },
+      {
+        "name": "Studio Yukiko",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Hand Saw Press",
+        "type": "publisher_or_press",
+        "score": 100
+      },
+      {
+        "name": "Japanese Artists' Books",
+        "type": "zine_or_book",
+        "score": 100
+      },
+      {
+        "name": "Feira Plana",
+        "type": "art_book_fair",
+        "score": 100
+      },
+      {
+        "name": "Shiseido Gallery",
+        "type": "gallery",
+        "score": 100
+      },
+      {
+        "name": "American Zines",
+        "type": "zine_or_book",
+        "score": 75
+      },
+      {
+        "name": "The Thing Quarterly",
+        "type": "publisher_or_press",
+        "score": 75
+      },
+      {
+        "name": "Feira",
+        "type": "art_book_fair",
+        "score": 45
+      },
+      {
+        "name": "Plana",
+        "type": "publisher_or_press",
+        "score": 45
+      },
+      {
+        "name": "Books",
+        "type": "publisher_or_press",
+        "score": 45
+      },
+      {
+        "name": "Hajime Kato Japanese Artists' Books",
+        "type": "publisher_or_press",
+        "score": 40
+      }
+    ],
+    "local_density_targets": {
+      "tokyo_known_target": 50,
+      "koenji_target": 1,
+      "nakano_target": 1,
+      "radius_20km_target": 12,
+      "note": "Includes indie publishers, risograph studios, and artist-book presses."
+    },
+    "current_coverage_status": "usable initial map"
+  },
+  {
+    "channel_id": "print_markets",
+    "title": "Print Markets",
+    "description": "Markets, popups, and fairs where prints, small editions, postcards, and zines can be sold directly.",
+    "why_it_fits": [
+      "Immediate feedback from buyers.",
+      "Good for testing which images people respond to.",
+      "Can generate small but real income.",
+      "Supports zines, prints, and local visibility."
+    ],
+    "target_assets": [
+      "10 prints",
+      "price list",
+      "small display kit",
+      "QR code / Instagram card"
+    ],
+    "opportunity_types": [
+      "print_market",
+      "zine_fair"
+    ],
+    "known_opportunities": [
+      {
+        "title": "Pinpoint Gallery",
+        "score": 65.0,
+        "label": "promising personal fit"
+      },
+      {
+        "title": "TOKYO ART BOOK FAIR",
+        "score": 57.2,
+        "label": "promising personal fit"
+      },
+      {
+        "title": "Pastel Society Open Exhibition",
+        "score": 36.2,
+        "label": "possible but not personal"
+      }
+    ],
+    "known_entities": [],
+    "local_density_targets": {
+      "tokyo_known_target": 25,
+      "koenji_target": 1,
+      "nakano_target": 1,
+      "radius_20km_target": 8,
+      "note": "Includes fairs, popups, handmade markets, and design festa-style events."
+    },
+    "current_coverage_status": "partial map"
+  },
+  {
+    "channel_id": "social_platforms",
+    "title": "Instagram / TikTok",
+    "description": "Audience-building and documentation channels, not the core career path by themselves.",
+    "why_it_fits": [
+      "Useful for showing process, new zines, shop placements, and exhibition visits.",
+      "Should support real-world opportunities rather than replace them.",
+      "Best used as proof-of-activity and relationship maintenance.",
+      "Low cost, but easy to waste time if not tied to concrete goals."
+    ],
+    "target_assets": [
+      "10 post backlog",
+      "3 process videos",
+      "shop visit photos",
+      "link page"
+    ],
+    "opportunity_types": [
+      "social_media"
+    ],
+    "known_opportunities": [],
+    "known_entities": [],
+    "local_density_targets": {
+      "tokyo_known_target": null,
+      "koenji_target": null,
+      "nakano_target": null,
+      "radius_20km_target": null,
+      "note": "Not location-based. Use as amplification for real-world channel progress."
+    },
+    "current_coverage_status": "needs expansion"
+  }
+]

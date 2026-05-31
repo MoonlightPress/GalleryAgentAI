@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Pinpoint Gallery",
+    "verdict": "This is worth researching further.",
+    "score": 65.0,
+    "fit_label": "promising personal fit",
+    "types": [
+      "small_press_publisher",
+      "illustration_gallery",
+      "bookstore_gallery",
+      "print_market",
+      "quiet_contemporary_gallery",
+      "large_formal_competition"
+    ],
+    "brief": "This is worth researching further. It matches the artist profile through: strong type match: bookstore_gallery, illustration_gallery, print_market, quiet_contemporary_gallery, small_press_publisher, weak type warning: large_formal_competition.",
+    "next_question": "What evidence would make this feel personally relevant rather than merely available?"
+  },
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "verdict": "This is worth researching further.",
+    "score": 57.2,
+    "fit_label": "promising personal fit",
+    "types": [
+      "artist_book_fair",
+      "zine_fair",
+      "zine_shop",
+      "artist_book_store",
+      "small_press_publisher",
+      "bookstore_gallery",
+      "print_market",
+      "quiet_contemporary_gallery"
+    ],
+    "brief": "This is worth researching further. It matches the artist profile through: strong type match: artist_book_fair, artist_book_store, bookstore_gallery, print_market, quiet_contemporary_gallery, small_press_publisher, zine_fair, zine_shop.",
+    "next_question": "What evidence would make this feel personally relevant rather than merely available?"
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "verdict": "This may be useful, but it is not a primary fit.",
+    "score": 36.2,
+    "fit_label": "possible but not personal",
+    "types": [
+      "zine_fair",
+      "artist_book_store",
+      "small_press_publisher",
+      "bookstore_gallery",
+      "traditional_painting_society",
+      "large_formal_competition"
+    ],
+    "brief": "This may be useful, but it is not a primary fit. It matches the artist profile through: strong type match: artist_book_store, bookstore_gallery, small_press_publisher, zine_fair, weak type warning: large_formal_competition, traditional_painting_society.",
+    "next_question": "What evidence would make this feel personally relevant rather than merely available?"
+  }
+]

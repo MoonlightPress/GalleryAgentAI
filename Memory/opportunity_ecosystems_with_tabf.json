@@ -1,0 +1,2663 @@
+[
+  {
+    "title": "Pinpoint Gallery",
+    "artists": [
+      {
+        "name": "飯野和好",
+        "roles": [
+          "artist",
+          "picture_book_artist",
+          "作家",
+          "絵本作家"
+        ],
+        "birth_year": "1947",
+        "birth_place": "埼玉県秩父",
+        "similarity_score": 82,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links",
+          "finished books or works listed"
+        ],
+        "source_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      },
+      {
+        "name": "千葉智江",
+        "roles": [
+          "artist",
+          "author"
+        ],
+        "birth_year": "1984",
+        "birth_place": "岩手県",
+        "similarity_score": 82,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links",
+          "finished books or works listed"
+        ],
+        "source_url": "https://pinpointgallery.com/competition_oubo2025/"
+      },
+      {
+        "name": "つじにぬき",
+        "roles": [
+          "artist",
+          "illustrator"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "京都",
+        "similarity_score": 72,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links"
+        ],
+        "source_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      }
+    ],
+    "publishers": [
+      {
+        "name": "小学館",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "福音館書店",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "偕成社",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "理論社",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "ブロンズ新社",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "小峰書店",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "クレヨンハウス",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "小峰書店／第20回日本絵本賞受賞",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "福音館書店／その１で、第49回小学館児童出版文化賞受賞",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "偕成社／第11回赤い鳥さし絵賞受賞",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "偕成社／第70回産経児童出版文化賞タイヘイ賞",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "大日本図書",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "作・ほんだあきこ/小学館",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "PHP研究所",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      },
+      {
+        "name": "学研",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      },
+      {
+        "name": "NHK",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      },
+      {
+        "name": "ひかりのくに",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      },
+      {
+        "name": "地湧社",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      },
+      {
+        "name": "著書に『みずうみ』（大日本図書）、『はなちゃんおとなになります』（小学館）、『すうちゃんはね』（作・ほんだあきこ/小学館）などがある",
+        "artist": "千葉智江",
+        "source": "bio_text"
+      },
+      {
+        "name": "絵本に「くろずみ小太郎旅日記」シリーズ（クレヨンハウス）、『おせんとおこま』（ブロンズ新社）、『みずくみに』（小峰書店／第20回日本絵本賞受賞）、『ふようどのふよこちゃん』（理論社）、「ねぎぼうずのあさたろう」シリーズ（福音館書店／その１で",
+        "artist": "飯野和好",
+        "source": "bio_text"
+      }
+    ],
+    "books_or_works": [
+      {
+        "name": "おせんとおこま",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "みずくみに",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "ふようどのふよこちゃん",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "ぼくとお山と羊のセーター",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "くろずみ小太郎旅日記",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "ねぎぼうずのあさたろう",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "小さなスズナ姫",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "みずうみ",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "はなちゃんおとなになります",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "すうちゃんはね",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "絵本塾",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "あとさき塾",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      }
+    ],
+    "awards_or_selections": [
+      {
+        "name": "『みずくみに』（小峰書店／第20回日本絵本賞受賞）",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "第49回小学館児童出版文化賞受賞）",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "挿絵に「小さなスズナ姫」シリーズ（偕成社／第11回赤い鳥さし絵賞受賞）",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "『ぼくとお山と羊のセーター』（偕成社／第70回産経児童出版文化賞タイヘイ賞）などがある",
+        "artist": "飯野和好",
+        "source": "career_graph"
+      },
+      {
+        "name": "第16回ピンポイント絵本コンペ入選",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "第22回おひさま大賞優秀賞受賞",
+        "artist": "千葉智江",
+        "source": "career_graph"
+      },
+      {
+        "name": "地湧社などでイラストを制作 第3回 nowaki 絵本ワークショップで筒井大介氏より絵本制作について学ぶ 第18回 pinpoint gallery 絵本コンペ 優秀賞受賞 39回 MINI PRINT INTERNATIONAL DE CAD",
+        "artist": "つじにぬき",
+        "source": "career_graph"
+      }
+    ],
+    "judges_or_gatekeepers": [],
+    "organizations": [],
+    "similar_artists": [
+      {
+        "name": "飯野和好",
+        "roles": [
+          "artist",
+          "picture_book_artist",
+          "作家",
+          "絵本作家"
+        ],
+        "birth_year": "1947",
+        "birth_place": "埼玉県秩父",
+        "similarity_score": 82,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links",
+          "finished books or works listed"
+        ],
+        "source_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      },
+      {
+        "name": "千葉智江",
+        "roles": [
+          "artist",
+          "author"
+        ],
+        "birth_year": "1984",
+        "birth_place": "岩手県",
+        "similarity_score": 82,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links",
+          "finished books or works listed"
+        ],
+        "source_url": "https://pinpointgallery.com/competition_oubo2025/"
+      },
+      {
+        "name": "つじにぬき",
+        "roles": [
+          "artist",
+          "illustrator"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "京都",
+        "similarity_score": 72,
+        "reasons": [
+          "book / publication ecosystem",
+          "publisher or publication evidence",
+          "illustration-adjacent",
+          "award or selection history",
+          "real publisher/client links"
+        ],
+        "source_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      }
+    ],
+    "evidence_clues": [
+      {
+        "name": "飯野和好（いいの・かずよし）絵本作家。1947年埼玉県秩父生まれ。絵本に「くろずみ小太郎旅日記」シリーズ（クレヨンハウス）、『おせんとおこま』（ブロンズ新社）、『みずくみに』（小峰書店／第20回日本絵本賞受賞）、『ふようどのふよこちゃん』（理論社）、「ねぎぼうずのあさたろう」シリーズ（福音館書店／その１で、第49回小学館児童出版文化賞受賞）、挿絵に「小さなス",
+        "source": "opportunity_evidence"
+      },
+      {
+        "name": "オリジナル、未発表の絵本作品を募集します。プロ、アマ問わず。審査員は、現役で活躍中の編集者、絵本作家らにギャラリーオーナーを加えての４人。",
+        "source": "opportunity_evidence"
+      },
+      {
+        "name": "受賞作は、2026年6月29日から7月18日まで3週間にわたりピンポイントギャラリーにて受賞展を開催します。",
+        "source": "opportunity_evidence"
+      },
+      {
+        "name": "2000年より絵本作家育成を目的としてはじまったギャラリー主催の絵本公募展。",
+        "source": "opportunity_evidence"
+      }
+    ]
+  },
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "artists": [
+      {
+        "name": "そしてZINEなどを出版するアーティストや出版社が一同に集結",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "アジアで最大規模のアートブックフェアとなっています",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "先進的なブックメイキングを続けるアーティストや出版社が作る魅",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "スクリーニングなどさまざまなイベントを会期中に開催しています",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "来場者と直接交流しながら書籍の売買を行うイベントです",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "出展者は個人のアーティストからアート系出版社",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "多様な表現に触れることのできる機会となっており",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "書籍という比較的手に入りやすい価格帯のものを取り扱うことで",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "アートに触れる入り口として絶好の機会にもなっています",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "Verlag",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Buchhandlung Walther",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Franz",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Steidl",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Studio Yukiko",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "アートブックやZINEの魅力を来場者に向けて直接伝えます",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "ひとつの国や地域に焦点を当て出版文化を紹介する企画",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "日本でも高い人気を博すアーティストのステファン・マルクスやベ",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "der",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Buchhandlung",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Walther",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "und",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "nig",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "自らもアーティストであるミハリス・ピヒラー",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Studio",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Yukiko",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "がキュレーターとなり選書したコーナーでは",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "現代ドイツのインディペンデント出版シーンを垣間見ていただける",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "TOKYO DESIGN STUDIO New",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "国内外から約300組の独創的なアートブックを制作する出版社",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "を生み出しアーティストとなったトーマス・コンの貴重なアーカイ",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "Balanceがプロデュースするフリーマガジン",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "マインドブランドのBAUMがTABFのために制作するZINE",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "それぞれの特別ブースが設けられる予定です",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "ゲストを招いてのトークショーやワークショップ",
+        "roles": [
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "ライブパフォーマンスなど多様なプログラムも展開し",
+        "roles": [
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "進化を続けるアートブックのいまを体験いただける場の創出を目指",
+        "roles": [
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "Guest Country",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "国内外から約200組の独創的なアートブックを制作する出版社",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Guest",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Country",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "同国の豊かな出版文化を多角的に紐解く展示のほか",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "昨今アートブックシーンで注目を集めるリソグラフ作品をご紹介す",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "作家によるサイン会などのさまざまなコンテンツを通して",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "VIRTUAL ART BOOK FAIR",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "日本で初めてのアートに特化したブックフェアとして2009年に",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "国内外から独創的なアートブックを作る出版社",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "作り手たちが直接本の魅力を伝える場を提供し続けています",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "2019年に東京都現代美術館で第10回の開催を迎えたTABF",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "新型コロナウイルス感染拡大防止の観点からTABFは中止し",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "Hajime Kato Japanese Artists' Books",
+        "roles": [
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Now",
+        "roles": [
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Japanese Artists’ Books",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "年に日本初のアートに特化したブックフェアとしてスタートしまし",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "この春リニューアル・オープンしたばかりの東京都現代美術館に会",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "でアメリカを特集した展示やプログラムを行うほか",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "日本人作家によるアーティストブックを作り手の声とともに紹介す",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Japanese",
+        "roles": [
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Artists",
+        "roles": [
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Books",
+        "roles": [
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "and",
+        "roles": [
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "資生堂ギャラリーがこれまでに刊行した図録を通し",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "年の活動の歩みを振り返る展示などの特別プログラム",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "進化を続けるアートブックのいまを体験することができる場の創出",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "数日間にわたる会期を通じてのべ2万人超の来場者が訪れ賑わいを",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "ゲストアーティストたちによる特別ブースも登場予定",
+        "roles": [
+          "artist_or_collective"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "Feira Plana",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "アート出版に特化した日本で初めてのブックフェアです",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "そしてZINEをつくる出版社やギャラリー",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "アーティストなど約300組が国内外から一堂に集まります",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "Feira",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "Plana",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "これまで日本で触れる機会の少なかったブラジルの出版文化をさま",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "本フェアには個性豊かなアートブックやZINEなどをつくる出版",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "bookstore_gallery",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "アジアにおけるアートブック文化を牽引するフェアになることを目",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "ユニークな進化を続けるアートブックの世界観を体感することがで",
+        "roles": [
+          "publisher_or_press",
+          "artist_or_collective",
+          "zine_or_book"
+        ],
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      }
+    ],
+    "similar_artists": [],
+    "publishers": [
+      {
+        "name": "2009年にスタートしたアート出版に特化した日本で初めてのブ",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "そしてZINEなどを出版するアーティストや出版社が一同に集結",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "アジアで最大規模のアートブックフェアとなっています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "先進的なブックメイキングを続けるアーティストや出版社が作る魅",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "スクリーニングなどさまざまなイベントを会期中に開催しています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "来場者と直接交流しながら書籍の売買を行うイベントです",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "出展者は個人のアーティストからアート系出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "多様な表現に触れることのできる機会となっており",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "書籍という比較的手に入りやすい価格帯のものを取り扱うことで",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "アートに触れる入り口として絶好の機会にもなっています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "YES YES YES Revolutionary Press",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Italy",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Italian Zine",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Marchette",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "アート出版の国際的なコミュニティを広く受け入れるプラットフォ",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "ひとつの国や地域に焦点を当てて出版文化を紹介する企画",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "77年にかけてイタリアで制作された新聞や雑誌",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Revolutionary",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Press",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "2006年にかけて刊行されたイタリアのZINEを批評的に紹介",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Italian",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Zine",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "イタリアにおけるインディペンデント出版の歴史を探ります",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "イタリアのデザインにおける企業と出版の関係性を切り口に集めた",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "エットレ・ソットサスらの絵本を多数刊行する出版社Corrai",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "niによる展示も予定しています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Verlag",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Buchhandlung Walther",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Franz",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Steidl",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Studio Yukiko",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "アートブックやZINEの魅力を来場者に向けて直接伝えます",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "ひとつの国や地域に焦点を当て出版文化を紹介する企画",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "日本でも高い人気を博すアーティストのステファン・マルクスやベ",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "der",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Buchhandlung",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Walther",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "und",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "nig",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "自らもアーティストであるミハリス・ピヒラー",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Studio",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Yukiko",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "がキュレーターとなり選書したコーナーでは",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "現代ドイツのインディペンデント出版シーンを垣間見ていただける",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "TOKYO DESIGN STUDIO New",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "国内外から約300組の独創的なアートブックを制作する出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "自身のコンビニエンスストアを埋め尽くするほどのコラージュ作品",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "を生み出しアーティストとなったトーマス・コンの貴重なアーカイ",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "Balanceがプロデュースするフリーマガジン",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "マインドブランドのBAUMがTABFのために制作するZINE",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "それぞれの特別ブースが設けられる予定です",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "Guest Country",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Hand Saw Press",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "国内外から約200組の独創的なアートブックを制作する出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Guest",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Country",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "同国の豊かな出版文化を多角的に紐解く展示のほか",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "昨今アートブックシーンで注目を集めるリソグラフ作品をご紹介す",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "作家によるサイン会などのさまざまなコンテンツを通して",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "在日フランス大使館貿易投資庁-ビジネスフランス",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "株式会社The",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Chain",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Hand",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Saw",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "VIRTUAL ART BOOK FAIR",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "日本で初めてのアートに特化したブックフェアとして2009年に",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "国内外から独創的なアートブックを作る出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "作り手たちが直接本の魅力を伝える場を提供し続けています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "2019年に東京都現代美術館で第10回の開催を迎えたTABF",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "新型コロナウイルス感染拡大防止の観点からTABFは中止し",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "Bridgesが立ち上げた",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "音楽関係のインディペンデントスペースやイベント",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "2020Solidarity",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "Japanese Artists’ Books",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "年に日本初のアートに特化したブックフェアとしてスタートしまし",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "この春リニューアル・オープンしたばかりの東京都現代美術館に会",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "でアメリカを特集した展示やプログラムを行うほか",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "日本人作家によるアーティストブックを作り手の声とともに紹介す",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "資生堂ギャラリーがこれまでに刊行した図録を通し",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "年の活動の歩みを振り返る展示などの特別プログラム",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "進化を続けるアートブックのいまを体験することができる場の創出",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "数日間にわたる会期を通じてのべ2万人超の来場者が訪れ賑わいを",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "Feira Plana",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "アート出版に特化した日本で初めてのブックフェアです",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "そしてZINEをつくる出版社やギャラリー",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "アーティストなど約300組が国内外から一堂に集まります",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "Feira",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "Plana",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "これまで日本で触れる機会の少なかったブラジルの出版文化をさま",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "本フェアには個性豊かなアートブックやZINEなどをつくる出版",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "第一回はスイスの美しいアートブックや文化をご紹介いたします",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "自国の活動だけでなく海外展開も積極的に行う国内外のアート出版",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "オランダを代表するグラフィックデザイナー",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "スクリーニングなどさまざまなイベントを開催予定です",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "アジアにおけるアートブック文化を牽引するフェアになることを目",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "ユニークな進化を続けるアートブックの世界観を体感することがで",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      }
+    ],
+    "books_or_works": [
+      {
+        "name": "2009年にスタートしたアート出版に特化した日本で初めてのブ",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "そしてZINEなどを出版するアーティストや出版社が一同に集結",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "アジアで最大規模のアートブックフェアとなっています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "来場者と直接交流しながら書籍の売買を行うイベントです",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "出展者は個人のアーティストからアート系出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "多様な表現に触れることのできる機会となっており",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "書籍という比較的手に入りやすい価格帯のものを取り扱うことで",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "アートに触れる入り口として絶好の機会にもなっています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "OFFLINE VIRTUAL ART BOOK FAIR",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/archives/"
+      },
+      {
+        "name": "Ginza Edition",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/archives/"
+      },
+      {
+        "name": "Threads, Say",
+        "source": "tabf_crawler",
+        "source_url": "https://www.threads.com/@tokyoartbookfair"
+      },
+      {
+        "name": "tokyoartbookfair",
+        "source": "tabf_crawler",
+        "source_url": "https://www.threads.com/@tokyoartbookfair"
+      },
+      {
+        "name": "Threads",
+        "source": "tabf_crawler",
+        "source_url": "https://www.threads.com/@tokyoartbookfair"
+      },
+      {
+        "name": "Say",
+        "source": "tabf_crawler",
+        "source_url": "https://www.threads.com/@tokyoartbookfair"
+      },
+      {
+        "name": "more",
+        "source": "tabf_crawler",
+        "source_url": "https://www.threads.com/@tokyoartbookfair"
+      },
+      {
+        "name": "YES YES YES Revolutionary Press",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Italy",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Italian Zine",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Marchette",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Pace",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "BOOK WRAPPING CORNER",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "New Balance",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Museum",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Imaginary Narrative Arts",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Sigma",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "BOOK SIGNING SPECIAL BOOTHS OUTDOOR",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "アート出版の国際的なコミュニティを広く受け入れるプラットフォ",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "ひとつの国や地域に焦点を当てて出版文化を紹介する企画",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "77年にかけてイタリアで制作された新聞や雑誌",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Revolutionary",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Press",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "2006年にかけて刊行されたイタリアのZINEを批評的に紹介",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Italian",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Zine",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "イタリアにおけるインディペンデント出版の歴史を探ります",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "イタリアのデザインにおける企業と出版の関係性を切り口に集めた",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "エットレ・ソットサスらの絵本を多数刊行する出版社Corrai",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "niによる展示も予定しています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "https",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "com",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Verlag",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Buchhandlung Walther",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Franz",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Steidl",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "アートブックやZINEの魅力を来場者に向けて直接伝えます",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "ひとつの国や地域に焦点を当て出版文化を紹介する企画",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "日本でも高い人気を博すアーティストのステファン・マルクスやベ",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "der",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Buchhandlung",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Walther",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "und",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "nig",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "ドイツのアート出版を牽引する多様なブックメイカーたちを紐解く",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "自らもアーティストであるミハリス・ピヒラー",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "New",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "Balance",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "BUY TICKET TOKYO ART BOOK",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "国内外から約300組の独創的なアートブックを制作する出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "マインドブランドのBAUMがTABFのために制作するZINE",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "Guest Country",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "国内外から約200組の独創的なアートブックを制作する出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Guest",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Country",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "同国の豊かな出版文化を多角的に紐解く展示のほか",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "昨今アートブックシーンで注目を集めるリソグラフ作品をご紹介す",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "作家によるサイン会などのさまざまなコンテンツを通して",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "for",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "the",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "future",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "VIRTUAL ART BOOK FAIR",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "日本で初めてのアートに特化したブックフェアとして2009年に",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "国内外から独創的なアートブックを作る出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "作り手たちが直接本の魅力を伝える場を提供し続けています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "2019年に東京都現代美術館で第10回の開催を迎えたTABF",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "新型コロナウイルス感染拡大防止の観点からTABFは中止し",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "いまだに新型コロナウイルス感染症の収束の見通しが立たず",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "模索しながらアートブックの制作やさまざまなクリエイティブな活",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "才能を見出すプラットフォームであり続けるため",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "2021年におけるアートブックフェアのあり方に向き合いたいと",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "パンデミック以降の国内外のアートブックやZINEなどの印刷物",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "オンライン上で各出展者と直接コミュニケーションを取りながらア",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "一部のオンライン会場の出展者のアートブックやZINEは",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "online",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "news",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "Photo",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Hajime Kato TOKYO ART BOOK",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Selection",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "American Zines",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Years",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "The Thing Quarterly",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Hajime Kato Japanese Artists' Books",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Now",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Hajime Kato",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Miri Matsufuji TOKYO ART BOOK",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Hajime Kato ZINE’S MATE SHOP",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Japanese Artists’ Books",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "SUBSCRIBE TO TOKYO ART BOOK",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "年に日本初のアートに特化したブックフェアとしてスタートしまし",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "この春リニューアル・オープンしたばかりの東京都現代美術館に会",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "でアメリカを特集した展示やプログラムを行うほか",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "日本人作家によるアーティストブックを作り手の声とともに紹介す",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Japanese",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Artists",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Books",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "and",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "資生堂ギャラリーがこれまでに刊行した図録を通し",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "年の活動の歩みを振り返る展示などの特別プログラム",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "進化を続けるアートブックのいまを体験することができる場の創出",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "NEWS EXHIBITORS ZINE’S MATE SHOP",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "BOOK FAIR Ginza Edition",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "Ginza Sony Park",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "Ginza",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "Sony",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "Ginza Sony",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "LIVE BOOK SIGNING ART BOOK",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "毎週末入れ替わりで20組ずつの出展者が参加し",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "来場者と直接コミュニケーションをとりながら印刷物の魅力を伝え",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "Art",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "Book",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "Machine",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "Edition",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "1000冊を超えるアートブックがストックされています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "参加料として提供いただいたアートブックは",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "内容や状態によっては参加料として受け付けられない本もございま",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "国内外の個性豊かなアートブックやZINEを展示販売する",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "BOOK SIGNING PARTNERS NEIGHBOURS FLOORMAP",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2017/"
+      },
+      {
+        "name": "BOOK FAIR THE TOKYO ART",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2017/"
+      },
+      {
+        "name": "Feira Plana",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "Steidl Book Award Japan",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "アート出版に特化した日本で初めてのブックフェアです",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "そしてZINEをつくる出版社やギャラリー",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "アーティストなど約300組が国内外から一堂に集まります",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "Feira",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "Plana",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "これまで日本で触れる機会の少なかったブラジルの出版文化をさま",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "ART BOOK FAIR THE TOKYO",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "本フェアには個性豊かなアートブックやZINEなどをつくる出版",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "アジアにおけるアートブック文化を牽引するフェアになることを目",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      },
+      {
+        "name": "ユニークな進化を続けるアートブックの世界観を体感することがで",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      }
+    ],
+    "awards_or_selections": [],
+    "judges_or_gatekeepers": [],
+    "organizations": [
+      {
+        "name": "そしてZINEなどを出版するアーティストや出版社が一同に集結",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "アジアで最大規模のアートブックフェアとなっています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "来場者と直接交流しながら書籍の売買を行うイベントです",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "出展者は個人のアーティストからアート系出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "多様な表現に触れることのできる機会となっており",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "書籍という比較的手に入りやすい価格帯のものを取り扱うことで",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "アートに触れる入り口として絶好の機会にもなっています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/about/"
+      },
+      {
+        "name": "Pace",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "BOOK WRAPPING CORNER",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "New Balance",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Museum",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Imaginary Narrative Arts",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "Sigma",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2025/"
+      },
+      {
+        "name": "アートブックやZINEの魅力を来場者に向けて直接伝えます",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2024/"
+      },
+      {
+        "name": "国内外から約300組の独創的なアートブックを制作する出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2023/"
+      },
+      {
+        "name": "Guest Country",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "国内外から約200組の独創的なアートブックを制作する出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Guest",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "Country",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "同国の豊かな出版文化を多角的に紐解く展示のほか",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "昨今アートブックシーンで注目を集めるリソグラフ作品をご紹介す",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "作家によるサイン会などのさまざまなコンテンツを通して",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2022/"
+      },
+      {
+        "name": "VIRTUAL ART BOOK FAIR",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "日本で初めてのアートに特化したブックフェアとして2009年に",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "国内外から独創的なアートブックを作る出版社",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "作り手たちが直接本の魅力を伝える場を提供し続けています",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "2019年に東京都現代美術館で第10回の開催を迎えたTABF",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "新型コロナウイルス感染拡大防止の観点からTABFは中止し",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2021/"
+      },
+      {
+        "name": "Shiseido Gallery",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "Japanese Artists’ Books",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "年に日本初のアートに特化したブックフェアとしてスタートしまし",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "この春リニューアル・オープンしたばかりの東京都現代美術館に会",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "でアメリカを特集した展示やプログラムを行うほか",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "日本人作家によるアーティストブックを作り手の声とともに紹介す",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "資生堂ギャラリーがこれまでに刊行した図録を通し",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "年の活動の歩みを振り返る展示などの特別プログラム",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "進化を続けるアートブックのいまを体験することができる場の創出",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/"
+      },
+      {
+        "name": "数日間にわたる会期を通じてのべ2万人超の来場者が訪れ賑わいを",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2019/ginzasonypark/"
+      },
+      {
+        "name": "アート出版に特化した日本で初めてのブックフェアです",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "そしてZINEをつくる出版社やギャラリー",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "アーティストなど約300組が国内外から一堂に集まります",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2016/"
+      },
+      {
+        "name": "本フェアには個性豊かなアートブックやZINEなどをつくる出版",
+        "source": "tabf_crawler",
+        "source_url": "https://tokyoartbookfair.com/2015/"
+      }
+    ],
+    "evidence_clues": []
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "artists": [
+      {
+        "name": "Charles Pears",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "award or selection history",
+          "thin evidence"
+        ],
+        "source_url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists"
+      },
+      {
+        "name": "Ronald Benham RBA NEAC",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "award or selection history",
+          "thin evidence"
+        ],
+        "source_url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+      },
+      {
+        "name": "Andrew Pledge’s Hidden Gems",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.painters-online.co.uk/store/single-issues/the-artist/"
+      },
+      {
+        "name": "Catherine Beale’s",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.painters-online.co.uk/store/single-issues/the-artist/"
+      },
+      {
+        "name": "Grahame Booth",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.painters-online.co.uk/store/single-issues/the-artist/"
+      },
+      {
+        "name": "Andrew Graham-Dixon",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+      },
+      {
+        "name": "Zhang Hongbin",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+      },
+      {
+        "name": "Michael Harrison",
+        "roles": [
+          "artist"
+        ],
+        "birth_year": "unknown",
+        "birth_place": "unknown",
+        "similarity_score": 0,
+        "reasons": [
+          "thin evidence"
+        ],
+        "source_url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+      }
+    ],
+    "publishers": [],
+    "books_or_works": [],
+    "awards_or_selections": [
+      {
+        "name": "The exhibition offers several prizes and awards",
+        "artist": "Charles Pears",
+        "source": "career_graph"
+      },
+      {
+        "name": "This includes The Charles Pears Award for an outstanding work by a non-member",
+        "artist": "Charles Pears",
+        "source": "career_graph"
+      },
+      {
+        "name": "An annual memorial prize of £500 in the name of Ronald Benham RBA NEAC",
+        "artist": "Ronald Benham RBA NEAC",
+        "source": "career_graph"
+      },
+      {
+        "name": "to be awarded to an artist for work painted in a traditional manner in celebration of the natural world",
+        "artist": "Ronald Benham RBA NEAC",
+        "source": "career_graph"
+      }
+    ],
+    "judges_or_gatekeepers": [],
+    "organizations": [
+      {
+        "name": "This includes The Charles Pears Award for an outstanding work by a non-member, presented in memory of the Society’s foun",
+        "source": "bio_text"
+      },
+      {
+        "name": "To coincide with the Chinese Year of the Fire Horse, the Society welcomes Shengxinyu Art, its director, Zhang Hongbin an",
+        "source": "bio_text"
+      },
+      {
+        "name": "‘With such a wealth of talent and support, the future looks exceptionally bright for the Royal Society of British Artist",
+        "source": "bio_text"
+      }
+    ],
+    "similar_artists": [],
+    "evidence_clues": []
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "artists": [],
+    "publishers": [],
+    "books_or_works": [],
+    "awards_or_selections": [],
+    "judges_or_gatekeepers": [],
+    "organizations": [
+      {
+        "name": "This includes The Charles Pears Award for an outstanding work by a non-member, presented in memory of the Society’s foun",
+        "source": "bio_text"
+      },
+      {
+        "name": "To coincide with the Chinese Year of the Fire Horse, the Society welcomes Shengxinyu Art, its director, Zhang Hongbin an",
+        "source": "bio_text"
+      },
+      {
+        "name": "‘With such a wealth of talent and support, the future looks exceptionally bright for the Royal Society of British Artist",
+        "source": "bio_text"
+      }
+    ],
+    "similar_artists": [],
+    "evidence_clues": []
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "artists": [],
+    "publishers": [],
+    "books_or_works": [],
+    "awards_or_selections": [],
+    "judges_or_gatekeepers": [],
+    "organizations": [
+      {
+        "name": "This includes The Charles Pears Award for an outstanding work by a non-member, presented in memory of the Society’s foun",
+        "source": "bio_text"
+      },
+      {
+        "name": "To coincide with the Chinese Year of the Fire Horse, the Society welcomes Shengxinyu Art, its director, Zhang Hongbin an",
+        "source": "bio_text"
+      },
+      {
+        "name": "‘With such a wealth of talent and support, the future looks exceptionally bright for the Royal Society of British Artist",
+        "source": "bio_text"
+      }
+    ],
+    "similar_artists": [],
+    "evidence_clues": []
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "artists": [],
+    "publishers": [],
+    "books_or_works": [],
+    "awards_or_selections": [],
+    "judges_or_gatekeepers": [],
+    "organizations": [],
+    "similar_artists": [],
+    "evidence_clues": []
+  }
+]

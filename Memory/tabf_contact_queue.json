@@ -1,0 +1,370 @@
+[
+  {
+    "entity": "YES YES YES Revolutionary Press",
+    "entity_type": "publisher_or_press",
+    "task": "Find official website for YES YES YES Revolutionary Press",
+    "query": "YES YES YES Revolutionary Press official website",
+    "search_url": "https://www.google.com/search?q=YES+YES+YES+Revolutionary+Press+official+website",
+    "priority": 100
+  },
+  {
+    "entity": "YES YES YES Revolutionary Press",
+    "entity_type": "publisher_or_press",
+    "task": "Find submissions for YES YES YES Revolutionary Press",
+    "query": "YES YES YES Revolutionary Press submissions",
+    "search_url": "https://www.google.com/search?q=YES+YES+YES+Revolutionary+Press+submissions",
+    "priority": 100
+  },
+  {
+    "entity": "YES YES YES Revolutionary Press",
+    "entity_type": "publisher_or_press",
+    "task": "Find artist books for YES YES YES Revolutionary Press",
+    "query": "YES YES YES Revolutionary Press artist books",
+    "search_url": "https://www.google.com/search?q=YES+YES+YES+Revolutionary+Press+artist+books",
+    "priority": 100
+  },
+  {
+    "entity": "YES YES YES Revolutionary Press",
+    "entity_type": "publisher_or_press",
+    "task": "Find contact for YES YES YES Revolutionary Press",
+    "query": "YES YES YES Revolutionary Press contact",
+    "search_url": "https://www.google.com/search?q=YES+YES+YES+Revolutionary+Press+contact",
+    "priority": 100
+  },
+  {
+    "entity": "Verlag der Buchhandlung Walther und Franz König",
+    "entity_type": "publisher_or_press",
+    "task": "Find official website for Verlag der Buchhandlung Walther und Franz König",
+    "query": "Verlag der Buchhandlung Walther und Franz König official website",
+    "search_url": "https://www.google.com/search?q=Verlag+der+Buchhandlung+Walther+und+Franz+K%C3%B6nig+official+website",
+    "priority": 100
+  },
+  {
+    "entity": "Verlag der Buchhandlung Walther und Franz König",
+    "entity_type": "publisher_or_press",
+    "task": "Find submissions for Verlag der Buchhandlung Walther und Franz König",
+    "query": "Verlag der Buchhandlung Walther und Franz König submissions",
+    "search_url": "https://www.google.com/search?q=Verlag+der+Buchhandlung+Walther+und+Franz+K%C3%B6nig+submissions",
+    "priority": 100
+  },
+  {
+    "entity": "Verlag der Buchhandlung Walther und Franz König",
+    "entity_type": "publisher_or_press",
+    "task": "Find artist books for Verlag der Buchhandlung Walther und Franz König",
+    "query": "Verlag der Buchhandlung Walther und Franz König artist books",
+    "search_url": "https://www.google.com/search?q=Verlag+der+Buchhandlung+Walther+und+Franz+K%C3%B6nig+artist+books",
+    "priority": 100
+  },
+  {
+    "entity": "Verlag der Buchhandlung Walther und Franz König",
+    "entity_type": "publisher_or_press",
+    "task": "Find contact for Verlag der Buchhandlung Walther und Franz König",
+    "query": "Verlag der Buchhandlung Walther und Franz König contact",
+    "search_url": "https://www.google.com/search?q=Verlag+der+Buchhandlung+Walther+und+Franz+K%C3%B6nig+contact",
+    "priority": 100
+  },
+  {
+    "entity": "Pace Gallery",
+    "entity_type": "gallery",
+    "task": "Find official website for Pace Gallery",
+    "query": "Pace Gallery official website",
+    "search_url": "https://www.google.com/search?q=Pace+Gallery+official+website",
+    "priority": 100
+  },
+  {
+    "entity": "Pace Gallery",
+    "entity_type": "gallery",
+    "task": "Find contact for Pace Gallery",
+    "query": "Pace Gallery contact",
+    "search_url": "https://www.google.com/search?q=Pace+Gallery+contact",
+    "priority": 100
+  },
+  {
+    "entity": "Pace Gallery",
+    "entity_type": "gallery",
+    "task": "Find publications for Pace Gallery",
+    "query": "Pace Gallery publications",
+    "search_url": "https://www.google.com/search?q=Pace+Gallery+publications",
+    "priority": 100
+  },
+  {
+    "entity": "Studio Yukiko",
+    "entity_type": "publisher_or_press",
+    "task": "Find official website for Studio Yukiko",
+    "query": "Studio Yukiko official website",
+    "search_url": "https://www.google.com/search?q=Studio+Yukiko+official+website",
+    "priority": 100
+  },
+  {
+    "entity": "Studio Yukiko",
+    "entity_type": "publisher_or_press",
+    "task": "Find submissions for Studio Yukiko",
+    "query": "Studio Yukiko submissions",
+    "search_url": "https://www.google.com/search?q=Studio+Yukiko+submissions",
+    "priority": 100
+  },
+  {
+    "entity": "Studio Yukiko",
+    "entity_type": "publisher_or_press",
+    "task": "Find artist books for Studio Yukiko",
+    "query": "Studio Yukiko artist books",
+    "search_url": "https://www.google.com/search?q=Studio+Yukiko+artist+books",
+    "priority": 100
+  },
+  {
+    "entity": "Studio Yukiko",
+    "entity_type": "publisher_or_press",
+    "task": "Find contact for Studio Yukiko",
+    "query": "Studio Yukiko contact",
+    "search_url": "https://www.google.com/search?q=Studio+Yukiko+contact",
+    "priority": 100
+  },
+  {
+    "entity": "Hand Saw Press",
+    "entity_type": "publisher_or_press",
+    "task": "Find official website for Hand Saw Press",
+    "query": "Hand Saw Press official website",
+    "search_url": "https://www.google.com/search?q=Hand+Saw+Press+official+website",
+    "priority": 100
+  },
+  {
+    "entity": "Hand Saw Press",
+    "entity_type": "publisher_or_press",
+    "task": "Find submissions for Hand Saw Press",
+    "query": "Hand Saw Press submissions",
+    "search_url": "https://www.google.com/search?q=Hand+Saw+Press+submissions",
+    "priority": 100
+  },
+  {
+    "entity": "Hand Saw Press",
+    "entity_type": "publisher_or_press",
+    "task": "Find artist books for Hand Saw Press",
+    "query": "Hand Saw Press artist books",
+    "search_url": "https://www.google.com/search?q=Hand+Saw+Press+artist+books",
+    "priority": 100
+  },
+  {
+    "entity": "Hand Saw Press",
+    "entity_type": "publisher_or_press",
+    "task": "Find contact for Hand Saw Press",
+    "query": "Hand Saw Press contact",
+    "search_url": "https://www.google.com/search?q=Hand+Saw+Press+contact",
+    "priority": 100
+  },
+  {
+    "entity": "Feira Plana",
+    "entity_type": "art_book_fair",
+    "task": "Find official website for Feira Plana",
+    "query": "Feira Plana official website",
+    "search_url": "https://www.google.com/search?q=Feira+Plana+official+website",
+    "priority": 100
+  },
+  {
+    "entity": "Feira Plana",
+    "entity_type": "art_book_fair",
+    "task": "Find exhibitors for Feira Plana",
+    "query": "Feira Plana exhibitors",
+    "search_url": "https://www.google.com/search?q=Feira+Plana+exhibitors",
+    "priority": 100
+  },
+  {
+    "entity": "Feira Plana",
+    "entity_type": "art_book_fair",
+    "task": "Find application for Feira Plana",
+    "query": "Feira Plana application",
+    "search_url": "https://www.google.com/search?q=Feira+Plana+application",
+    "priority": 100
+  },
+  {
+    "entity": "Feira Plana",
+    "entity_type": "art_book_fair",
+    "task": "Find contact for Feira Plana",
+    "query": "Feira Plana contact",
+    "search_url": "https://www.google.com/search?q=Feira+Plana+contact",
+    "priority": 100
+  },
+  {
+    "entity": "Shiseido Gallery",
+    "entity_type": "gallery",
+    "task": "Find official website for Shiseido Gallery",
+    "query": "Shiseido Gallery official website",
+    "search_url": "https://www.google.com/search?q=Shiseido+Gallery+official+website",
+    "priority": 100
+  },
+  {
+    "entity": "Shiseido Gallery",
+    "entity_type": "gallery",
+    "task": "Find contact for Shiseido Gallery",
+    "query": "Shiseido Gallery contact",
+    "search_url": "https://www.google.com/search?q=Shiseido+Gallery+contact",
+    "priority": 100
+  },
+  {
+    "entity": "Shiseido Gallery",
+    "entity_type": "gallery",
+    "task": "Find publications for Shiseido Gallery",
+    "query": "Shiseido Gallery publications",
+    "search_url": "https://www.google.com/search?q=Shiseido+Gallery+publications",
+    "priority": 100
+  },
+  {
+    "entity": "The Thing Quarterly",
+    "entity_type": "publisher_or_press",
+    "task": "Find official website for The Thing Quarterly",
+    "query": "The Thing Quarterly official website",
+    "search_url": "https://www.google.com/search?q=The+Thing+Quarterly+official+website",
+    "priority": 95
+  },
+  {
+    "entity": "The Thing Quarterly",
+    "entity_type": "publisher_or_press",
+    "task": "Find contact for The Thing Quarterly",
+    "query": "The Thing Quarterly contact",
+    "search_url": "https://www.google.com/search?q=The+Thing+Quarterly+contact",
+    "priority": 95
+  },
+  {
+    "entity": "The Thing Quarterly",
+    "entity_type": "publisher_or_press",
+    "task": "Find submissions for The Thing Quarterly",
+    "query": "The Thing Quarterly submissions",
+    "search_url": "https://www.google.com/search?q=The+Thing+Quarterly+submissions",
+    "priority": 85
+  },
+  {
+    "entity": "The Thing Quarterly",
+    "entity_type": "publisher_or_press",
+    "task": "Find artist books for The Thing Quarterly",
+    "query": "The Thing Quarterly artist books",
+    "search_url": "https://www.google.com/search?q=The+Thing+Quarterly+artist+books",
+    "priority": 85
+  },
+  {
+    "entity": "Plana",
+    "entity_type": "publisher_or_press",
+    "task": "Find official website for Plana",
+    "query": "Plana official website",
+    "search_url": "https://www.google.com/search?q=Plana+official+website",
+    "priority": 65
+  },
+  {
+    "entity": "Plana",
+    "entity_type": "publisher_or_press",
+    "task": "Find contact for Plana",
+    "query": "Plana contact",
+    "search_url": "https://www.google.com/search?q=Plana+contact",
+    "priority": 65
+  },
+  {
+    "entity": "Books",
+    "entity_type": "publisher_or_press",
+    "task": "Find official website for Books",
+    "query": "Books official website",
+    "search_url": "https://www.google.com/search?q=Books+official+website",
+    "priority": 65
+  },
+  {
+    "entity": "Books",
+    "entity_type": "publisher_or_press",
+    "task": "Find contact for Books",
+    "query": "Books contact",
+    "search_url": "https://www.google.com/search?q=Books+contact",
+    "priority": 65
+  },
+  {
+    "entity": "Hajime Kato Japanese Artists' Books",
+    "entity_type": "publisher_or_press",
+    "task": "Find official website for Hajime Kato Japanese Artists' Books",
+    "query": "Hajime Kato Japanese Artists' Books official website",
+    "search_url": "https://www.google.com/search?q=Hajime+Kato+Japanese+Artists%27+Books+official+website",
+    "priority": 60
+  },
+  {
+    "entity": "Hajime Kato Japanese Artists' Books",
+    "entity_type": "publisher_or_press",
+    "task": "Find contact for Hajime Kato Japanese Artists' Books",
+    "query": "Hajime Kato Japanese Artists' Books contact",
+    "search_url": "https://www.google.com/search?q=Hajime+Kato+Japanese+Artists%27+Books+contact",
+    "priority": 60
+  },
+  {
+    "entity": "Feira",
+    "entity_type": "art_book_fair",
+    "task": "Find official website for Feira",
+    "query": "Feira official website",
+    "search_url": "https://www.google.com/search?q=Feira+official+website",
+    "priority": 55
+  },
+  {
+    "entity": "Feira",
+    "entity_type": "art_book_fair",
+    "task": "Find contact for Feira",
+    "query": "Feira contact",
+    "search_url": "https://www.google.com/search?q=Feira+contact",
+    "priority": 55
+  },
+  {
+    "entity": "Plana",
+    "entity_type": "publisher_or_press",
+    "task": "Find submissions for Plana",
+    "query": "Plana submissions",
+    "search_url": "https://www.google.com/search?q=Plana+submissions",
+    "priority": 55
+  },
+  {
+    "entity": "Plana",
+    "entity_type": "publisher_or_press",
+    "task": "Find artist books for Plana",
+    "query": "Plana artist books",
+    "search_url": "https://www.google.com/search?q=Plana+artist+books",
+    "priority": 55
+  },
+  {
+    "entity": "Books",
+    "entity_type": "publisher_or_press",
+    "task": "Find submissions for Books",
+    "query": "Books submissions",
+    "search_url": "https://www.google.com/search?q=Books+submissions",
+    "priority": 55
+  },
+  {
+    "entity": "Books",
+    "entity_type": "publisher_or_press",
+    "task": "Find artist books for Books",
+    "query": "Books artist books",
+    "search_url": "https://www.google.com/search?q=Books+artist+books",
+    "priority": 55
+  },
+  {
+    "entity": "Hajime Kato Japanese Artists' Books",
+    "entity_type": "publisher_or_press",
+    "task": "Find submissions for Hajime Kato Japanese Artists' Books",
+    "query": "Hajime Kato Japanese Artists' Books submissions",
+    "search_url": "https://www.google.com/search?q=Hajime+Kato+Japanese+Artists%27+Books+submissions",
+    "priority": 50
+  },
+  {
+    "entity": "Hajime Kato Japanese Artists' Books",
+    "entity_type": "publisher_or_press",
+    "task": "Find artist books for Hajime Kato Japanese Artists' Books",
+    "query": "Hajime Kato Japanese Artists' Books artist books",
+    "search_url": "https://www.google.com/search?q=Hajime+Kato+Japanese+Artists%27+Books+artist+books",
+    "priority": 50
+  },
+  {
+    "entity": "Feira",
+    "entity_type": "art_book_fair",
+    "task": "Find exhibitors for Feira",
+    "query": "Feira exhibitors",
+    "search_url": "https://www.google.com/search?q=Feira+exhibitors",
+    "priority": 45
+  },
+  {
+    "entity": "Feira",
+    "entity_type": "art_book_fair",
+    "task": "Find application for Feira",
+    "query": "Feira application",
+    "search_url": "https://www.google.com/search?q=Feira+application",
+    "priority": 45
+  }
+]
