@@ -1,0 +1,83 @@
+# Clean Candidate Summary
+
+- Source candidates: 185
+- Strong leads: 122
+- Review leads: 40
+- Auto-rejects: 22
+- Verified businesses: 0
+
+## Strong Leads by Neighborhood
+- Tokyo: 41
+- Koenji: 23
+- Nakano: 23
+- Shimokitazawa: 22
+- Kichijoji: 13
+
+## Strong Leads by Category
+- zine_shop: 81
+- independent_bookstore: 27
+- artist_book_store: 7
+- small_press_publisher: 6
+- photobook_store: 1
+
+## Top Strong Leads
+- そぞろ書房 — Koenji — zine_shop — 100
+  - https://sozoroshobou.stores.jp/
+- 本店・本屋の実験室 — Koenji — zine_shop — 100
+  - https://honnonagaya-honten.com/
+- そぞろ書房 — Koenji — zine_shop — 100
+  - https://x.com/sozoroshobou
+- Zineの専門店、Zineを販売している書店15選! — Koenji — zine_shop — 100
+  - https://ya-hachi.com/zine-senmonten/
+- タコシェ — Nakano — zine_shop — 100
+  - https://brutus.jp/post-483326/
+- タコシェ — Nakano — zine_shop — 100
+  - http://tacoche.com/
+- こんな本屋を待っていた、東中野に独立書店「プラットフォーム3」が誕生 — Nakano — zine_shop — 100
+  - https://www.timeout.jp/tokyo/ja/news/platform_3-101724
+- Nuts Book Stand — Nakano — independent_bookstore — 100
+  - https://note.com/nutsbookstand/m/m8ea02598ef7d/hashtag/6271
+- タコシェ — Nakano — zine_shop — 100
+  - https://trilltrill.jp/articles/4591823
+- 日記屋 月日 — Shimokitazawa — zine_shop — 100
+  - https://tsukihi.stores.jp/
+- 絶対ハズさない下北沢本屋地図（2022.8.13 更新） — Shimokitazawa — zine_shop — 100
+  - https://bookshop-lover.com/blog/post-8397/
+- Book — Shimokitazawa — zine_shop — 100
+  - https://bookandbeer.com/book/
+- 下北沢の本屋・ブックカフェ5選!書店めぐりにぴったり、オリジナリティが光るスポットたち — Shimokitazawa — zine_shop — 100
+  - https://san-tatsu.jp/collects/91968/
+- ZINE FARM TOKYO — Kichijoji — zine_shop — 100
+  - https://san-tatsu.jp/spots/205878/
+- book Culture Club — Kichijoji — zine_shop — 100
+  - https://kj-weekly.jp/2024/07/20/book-culture-club/
+- Book Culture Club — Kichijoji — zine_shop — 100
+  - https://note.com/bookcultureclub/n/n6ead299d5947
+- タコシェ — Nakano — zine_shop — 100
+  - https://brutus.jp/post-483326/
+- 「Tsutaya Bookstore 下北沢」がミカン下北にオープン ... — Shimokitazawa — independent_bookstore — 100
+  - https://shibukichi.net/2022/03/31/tsutaya-bookstore/
+- 本店・本屋の実験室 — Koenji — zine_shop — 100
+  - https://honnonagaya-honten.com/event/557/
+- Dig A Hole Zines — Koenji — zine_shop — 100
+  - https://www.instagram.com/digaholezines/
+- タコシェ — Nakano — zine_shop — 100
+  - https://taco.shop-pro.jp/
+- ZINEお取り扱い店舗 — Nakano — zine_shop — 100
+  - https://note.com/takanamishoten_/n/nb751d7ef55f0
+- loneliness books (@lonelinessbooks) • Instagram photos and videos — Nakano — zine_shop — 100
+  - https://www.instagram.com/lonelinessbooks/
+- 本屋を旅する Bookshop Traveller — Shimokitazawa — zine_shop — 100
+  - https://traveller.bookshop-lover.com/
+- SUNNYBASE COFFEE SHOP — Shimokitazawa — zine_shop — 100
+  - https://www.instagram.com/sunnybase_cs/
+- Zine Farm Tokyo — Kichijoji — zine_shop — 100
+  - https://kj-weekly.jp/spot/zine-farm-tokyo/
+- Dig A Hole Zines — Koenji — zine_shop — 100
+  - https://noboruvalley.blogspot.com/2023/10/launch-at-dig-hole-zines.html
+- Dig A Hole Zines — Koenji — zine_shop — 100
+  - https://ra.co/clubs/230487
+- Tokyo Indie Bookstores: Hidden Literary Gems — Koenji — zine_shop — 100
+  - https://jpsecrets.com/uncategorized/tokyo-indie-bookstores-secret-spots/
+- Summer ZINE Festival — Koenji — zine_shop — 100
+  - https://biz.shibuyabunka.com/event/135/?wovn=en

@@ -1,0 +1,929 @@
+{
+  "title": "Candidate Business Review Queue",
+  "candidate_count": 29,
+  "approved_count": 0,
+  "rejected_count": 0,
+  "skipped_count": 0,
+  "candidates": [
+    {
+      "candidate_id": "CAND-0002",
+      "status": "unreviewed",
+      "neighborhood": "Koenji",
+      "source_type": "google_maps",
+      "query": "高円寺 本屋 ZINE",
+      "suggested_categories": [
+        "zine_shop",
+        "independent_bookstore"
+      ],
+      "priority_score": 95,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%AB%98%E5%86%86%E5%AF%BA+%E6%9C%AC%E5%B1%8B+ZINE",
+      "google_search_url": "https://www.google.com/search?q=%E9%AB%98%E5%86%86%E5%AF%BA+%E6%9C%AC%E5%B1%8B+ZINE",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0005",
+      "status": "unreviewed",
+      "neighborhood": "Koenji",
+      "source_type": "google_maps",
+      "query": "Koenji independent bookstore zine",
+      "suggested_categories": [
+        "zine_shop",
+        "independent_bookstore"
+      ],
+      "priority_score": 95,
+      "google_maps_url": "https://www.google.com/maps/search/Koenji+independent+bookstore+zine",
+      "google_search_url": "https://www.google.com/search?q=Koenji+independent+bookstore+zine",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0007",
+      "status": "unreviewed",
+      "neighborhood": "Nakano",
+      "source_type": "google_maps",
+      "query": "中野 本屋 ZINE",
+      "suggested_categories": [
+        "zine_shop",
+        "independent_bookstore"
+      ],
+      "priority_score": 95,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%B8%AD%E9%87%8E+%E6%9C%AC%E5%B1%8B+ZINE",
+      "google_search_url": "https://www.google.com/search?q=%E4%B8%AD%E9%87%8E+%E6%9C%AC%E5%B1%8B+ZINE",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0010",
+      "status": "unreviewed",
+      "neighborhood": "Nakano",
+      "source_type": "google_maps",
+      "query": "Nakano independent bookstore zine",
+      "suggested_categories": [
+        "zine_shop",
+        "independent_bookstore"
+      ],
+      "priority_score": 95,
+      "google_maps_url": "https://www.google.com/maps/search/Nakano+independent+bookstore+zine",
+      "google_search_url": "https://www.google.com/search?q=Nakano+independent+bookstore+zine",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0013",
+      "status": "unreviewed",
+      "neighborhood": "Shimokitazawa",
+      "source_type": "google_maps",
+      "query": "下北沢 本屋 ZINE",
+      "suggested_categories": [
+        "zine_shop",
+        "independent_bookstore"
+      ],
+      "priority_score": 95,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%B8%8B%E5%8C%97%E6%B2%A2+%E6%9C%AC%E5%B1%8B+ZINE",
+      "google_search_url": "https://www.google.com/search?q=%E4%B8%8B%E5%8C%97%E6%B2%A2+%E6%9C%AC%E5%B1%8B+ZINE",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0015",
+      "status": "unreviewed",
+      "neighborhood": "Shimokitazawa",
+      "source_type": "google_maps",
+      "query": "Shimokitazawa independent bookstore zine",
+      "suggested_categories": [
+        "zine_shop",
+        "independent_bookstore"
+      ],
+      "priority_score": 95,
+      "google_maps_url": "https://www.google.com/maps/search/Shimokitazawa+independent+bookstore+zine",
+      "google_search_url": "https://www.google.com/search?q=Shimokitazawa+independent+bookstore+zine",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0018",
+      "status": "unreviewed",
+      "neighborhood": "Kichijoji",
+      "source_type": "google_maps",
+      "query": "吉祥寺 本屋 ZINE",
+      "suggested_categories": [
+        "zine_shop",
+        "independent_bookstore"
+      ],
+      "priority_score": 95,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%90%89%E7%A5%A5%E5%AF%BA+%E6%9C%AC%E5%B1%8B+ZINE",
+      "google_search_url": "https://www.google.com/search?q=%E5%90%89%E7%A5%A5%E5%AF%BA+%E6%9C%AC%E5%B1%8B+ZINE",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0003",
+      "status": "unreviewed",
+      "neighborhood": "Koenji",
+      "source_type": "google_maps",
+      "query": "高円寺 アートブック 書店",
+      "suggested_categories": [
+        "artist_book_store",
+        "independent_bookstore"
+      ],
+      "priority_score": 90,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%AB%98%E5%86%86%E5%AF%BA+%E3%82%A2%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF+%E6%9B%B8%E5%BA%97",
+      "google_search_url": "https://www.google.com/search?q=%E9%AB%98%E5%86%86%E5%AF%BA+%E3%82%A2%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF+%E6%9B%B8%E5%BA%97",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0008",
+      "status": "unreviewed",
+      "neighborhood": "Nakano",
+      "source_type": "google_maps",
+      "query": "中野 アートブック 書店",
+      "suggested_categories": [
+        "artist_book_store",
+        "independent_bookstore"
+      ],
+      "priority_score": 90,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%B8%AD%E9%87%8E+%E3%82%A2%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF+%E6%9B%B8%E5%BA%97",
+      "google_search_url": "https://www.google.com/search?q=%E4%B8%AD%E9%87%8E+%E3%82%A2%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF+%E6%9B%B8%E5%BA%97",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0012",
+      "status": "unreviewed",
+      "neighborhood": "Shimokitazawa",
+      "source_type": "google_maps",
+      "query": "下北沢 アートブック 書店",
+      "suggested_categories": [
+        "artist_book_store",
+        "independent_bookstore"
+      ],
+      "priority_score": 90,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%B8%8B%E5%8C%97%E6%B2%A2+%E3%82%A2%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF+%E6%9B%B8%E5%BA%97",
+      "google_search_url": "https://www.google.com/search?q=%E4%B8%8B%E5%8C%97%E6%B2%A2+%E3%82%A2%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF+%E6%9B%B8%E5%BA%97",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0017",
+      "status": "unreviewed",
+      "neighborhood": "Kichijoji",
+      "source_type": "google_maps",
+      "query": "吉祥寺 アートブック 書店",
+      "suggested_categories": [
+        "artist_book_store",
+        "independent_bookstore"
+      ],
+      "priority_score": 90,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%90%89%E7%A5%A5%E5%AF%BA+%E3%82%A2%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF+%E6%9B%B8%E5%BA%97",
+      "google_search_url": "https://www.google.com/search?q=%E5%90%89%E7%A5%A5%E5%AF%BA+%E3%82%A2%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF+%E6%9B%B8%E5%BA%97",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0001",
+      "status": "unreviewed",
+      "neighborhood": "Koenji",
+      "source_type": "google_maps",
+      "query": "高円寺 ZINE ショップ",
+      "suggested_categories": [
+        "zine_shop"
+      ],
+      "priority_score": 85,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%AB%98%E5%86%86%E5%AF%BA+ZINE+%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97",
+      "google_search_url": "https://www.google.com/search?q=%E9%AB%98%E5%86%86%E5%AF%BA+ZINE+%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0004",
+      "status": "unreviewed",
+      "neighborhood": "Koenji",
+      "source_type": "google_maps",
+      "query": "Koenji zine shop",
+      "suggested_categories": [
+        "zine_shop"
+      ],
+      "priority_score": 85,
+      "google_maps_url": "https://www.google.com/maps/search/Koenji+zine+shop",
+      "google_search_url": "https://www.google.com/search?q=Koenji+zine+shop",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0006",
+      "status": "unreviewed",
+      "neighborhood": "Nakano",
+      "source_type": "google_maps",
+      "query": "中野 ZINE ショップ",
+      "suggested_categories": [
+        "zine_shop"
+      ],
+      "priority_score": 85,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%B8%AD%E9%87%8E+ZINE+%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97",
+      "google_search_url": "https://www.google.com/search?q=%E4%B8%AD%E9%87%8E+ZINE+%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0009",
+      "status": "unreviewed",
+      "neighborhood": "Nakano",
+      "source_type": "google_maps",
+      "query": "Nakano zine shop Tokyo",
+      "suggested_categories": [
+        "zine_shop"
+      ],
+      "priority_score": 85,
+      "google_maps_url": "https://www.google.com/maps/search/Nakano+zine+shop+Tokyo",
+      "google_search_url": "https://www.google.com/search?q=Nakano+zine+shop+Tokyo",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0011",
+      "status": "unreviewed",
+      "neighborhood": "Shimokitazawa",
+      "source_type": "google_maps",
+      "query": "下北沢 ZINE ショップ",
+      "suggested_categories": [
+        "zine_shop"
+      ],
+      "priority_score": 85,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%B8%8B%E5%8C%97%E6%B2%A2+ZINE+%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97",
+      "google_search_url": "https://www.google.com/search?q=%E4%B8%8B%E5%8C%97%E6%B2%A2+ZINE+%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0014",
+      "status": "unreviewed",
+      "neighborhood": "Shimokitazawa",
+      "source_type": "google_maps",
+      "query": "Shimokitazawa zine shop",
+      "suggested_categories": [
+        "zine_shop"
+      ],
+      "priority_score": 85,
+      "google_maps_url": "https://www.google.com/maps/search/Shimokitazawa+zine+shop",
+      "google_search_url": "https://www.google.com/search?q=Shimokitazawa+zine+shop",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0016",
+      "status": "unreviewed",
+      "neighborhood": "Kichijoji",
+      "source_type": "google_maps",
+      "query": "吉祥寺 ZINE ショップ",
+      "suggested_categories": [
+        "zine_shop"
+      ],
+      "priority_score": 85,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%90%89%E7%A5%A5%E5%AF%BA+ZINE+%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97",
+      "google_search_url": "https://www.google.com/search?q=%E5%90%89%E7%A5%A5%E5%AF%BA+ZINE+%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0019",
+      "status": "unreviewed",
+      "neighborhood": "Kichijoji",
+      "source_type": "google_maps",
+      "query": "Kichijoji zine shop",
+      "suggested_categories": [
+        "zine_shop"
+      ],
+      "priority_score": 85,
+      "google_maps_url": "https://www.google.com/maps/search/Kichijoji+zine+shop",
+      "google_search_url": "https://www.google.com/search?q=Kichijoji+zine+shop",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0022",
+      "status": "unreviewed",
+      "neighborhood": "Tokyo",
+      "source_type": "web_search",
+      "query": "東京 リソグラフ スタジオ ZINE",
+      "suggested_categories": [
+        "zine_shop",
+        "risograph_studio"
+      ],
+      "priority_score": 70,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%9D%B1%E4%BA%AC+%E3%83%AA%E3%82%BD%E3%82%B0%E3%83%A9%E3%83%95+%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA+ZINE",
+      "google_search_url": "https://www.google.com/search?q=%E6%9D%B1%E4%BA%AC+%E3%83%AA%E3%82%BD%E3%82%B0%E3%83%A9%E3%83%95+%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA+ZINE",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0023",
+      "status": "unreviewed",
+      "neighborhood": "Tokyo",
+      "source_type": "web_search",
+      "query": "Tokyo risograph studio zine",
+      "suggested_categories": [
+        "zine_shop",
+        "risograph_studio"
+      ],
+      "priority_score": 70,
+      "google_maps_url": "https://www.google.com/maps/search/Tokyo+risograph+studio+zine",
+      "google_search_url": "https://www.google.com/search?q=Tokyo+risograph+studio+zine",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0027",
+      "status": "unreviewed",
+      "neighborhood": "Tokyo",
+      "source_type": "web_search",
+      "query": "Tokyo independent bookstore zine",
+      "suggested_categories": [
+        "zine_shop",
+        "independent_bookstore"
+      ],
+      "priority_score": 70,
+      "google_maps_url": "https://www.google.com/maps/search/Tokyo+independent+bookstore+zine",
+      "google_search_url": "https://www.google.com/search?q=Tokyo+independent+bookstore+zine",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0029",
+      "status": "unreviewed",
+      "neighborhood": "Tokyo",
+      "source_type": "web_search",
+      "query": "Tokyo art book fair exhibitors bookstore zine",
+      "suggested_categories": [
+        "zine_shop",
+        "artist_book_store",
+        "independent_bookstore",
+        "zine_fair"
+      ],
+      "priority_score": 70,
+      "google_maps_url": "https://www.google.com/maps/search/Tokyo+art+book+fair+exhibitors+bookstore+zine",
+      "google_search_url": "https://www.google.com/search?q=Tokyo+art+book+fair+exhibitors+bookstore+zine",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0020",
+      "status": "unreviewed",
+      "neighborhood": "Tokyo",
+      "source_type": "web_search",
+      "query": "東京 ZINE 委託販売",
+      "suggested_categories": [
+        "zine_shop"
+      ],
+      "priority_score": 60,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%9D%B1%E4%BA%AC+ZINE+%E5%A7%94%E8%A8%97%E8%B2%A9%E5%A3%B2",
+      "google_search_url": "https://www.google.com/search?q=%E6%9D%B1%E4%BA%AC+ZINE+%E5%A7%94%E8%A8%97%E8%B2%A9%E5%A3%B2",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0021",
+      "status": "unreviewed",
+      "neighborhood": "Tokyo",
+      "source_type": "web_search",
+      "query": "東京 ZINE イベント",
+      "suggested_categories": [
+        "zine_shop",
+        "zine_fair"
+      ],
+      "priority_score": 60,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%9D%B1%E4%BA%AC+ZINE+%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88",
+      "google_search_url": "https://www.google.com/search?q=%E6%9D%B1%E4%BA%AC+ZINE+%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0028",
+      "status": "unreviewed",
+      "neighborhood": "Tokyo",
+      "source_type": "web_search",
+      "query": "Tokyo zine fair",
+      "suggested_categories": [
+        "zine_shop",
+        "zine_fair"
+      ],
+      "priority_score": 60,
+      "google_maps_url": "https://www.google.com/maps/search/Tokyo+zine+fair",
+      "google_search_url": "https://www.google.com/search?q=Tokyo+zine+fair",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0024",
+      "status": "unreviewed",
+      "neighborhood": "Tokyo",
+      "source_type": "web_search",
+      "query": "Tokyo artist book store",
+      "suggested_categories": [
+        "artist_book_store"
+      ],
+      "priority_score": 55,
+      "google_maps_url": "https://www.google.com/maps/search/Tokyo+artist+book+store",
+      "google_search_url": "https://www.google.com/search?q=Tokyo+artist+book+store",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0026",
+      "status": "unreviewed",
+      "neighborhood": "Tokyo",
+      "source_type": "web_search",
+      "query": "Tokyo small press publisher artist book",
+      "suggested_categories": [
+        "artist_book_store",
+        "small_press_publisher"
+      ],
+      "priority_score": 55,
+      "google_maps_url": "https://www.google.com/maps/search/Tokyo+small+press+publisher+artist+book",
+      "google_search_url": "https://www.google.com/search?q=Tokyo+small+press+publisher+artist+book",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    },
+    {
+      "candidate_id": "CAND-0025",
+      "status": "unreviewed",
+      "neighborhood": "Tokyo",
+      "source_type": "web_search",
+      "query": "Tokyo photobook bookstore",
+      "suggested_categories": [
+        "photobook_store",
+        "independent_bookstore"
+      ],
+      "priority_score": 50,
+      "google_maps_url": "https://www.google.com/maps/search/Tokyo+photobook+bookstore",
+      "google_search_url": "https://www.google.com/search?q=Tokyo+photobook+bookstore",
+      "review_fields": {
+        "name": "",
+        "address": "",
+        "website": "",
+        "instagram": "",
+        "email": "",
+        "phone": "",
+        "category": "",
+        "accepts_consignment": "unknown",
+        "accepts_submissions": "unknown",
+        "notes": ""
+      },
+      "review_instructions": [
+        "Open Maps first for physical places.",
+        "Copy name, address, website, and Instagram if visible.",
+        "Mark accepts_consignment only if explicitly stated or confirmed.",
+        "Reject if it is only a generic article, chain bookstore, unrelated café, or manga-only shop with no zine/art-book relevance."
+      ]
+    }
+  ]
+}

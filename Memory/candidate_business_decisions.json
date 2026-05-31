@@ -1,0 +1,19 @@
+{
+  "decisions": [
+    {
+      "candidate_id": "CAND-0001",
+      "decision": "approved",
+      "name": "",
+      "address": "",
+      "website": "",
+      "instagram": "",
+      "email": "",
+      "phone": "",
+      "category": "",
+      "neighborhood": "",
+      "accepts_consignment": "unknown",
+      "accepts_submissions": "unknown",
+      "notes": ""
+    }
+  ]
+}

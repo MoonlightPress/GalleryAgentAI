@@ -1,0 +1,29 @@
+{
+  "target_total": 100,
+  "known_count": 18,
+  "coverage_percent": 18.0,
+  "by_category": {
+    "zine_fair_store": 1,
+    "artist_book_store": 1,
+    "photobook_artist_book_store": 1,
+    "art_book_store": 3,
+    "independent_bookstore": 1,
+    "photobook_store": 1,
+    "artist_book_fair": 3,
+    "self_publishing_fair": 1,
+    "print_market": 1,
+    "small_press_publisher": 3,
+    "self_publishing_platform": 1,
+    "book_arts_opportunity": 1
+  },
+  "by_area": {
+    "Tokyo": 12,
+    "Germany/Tokyo link": 1,
+    "International": 5
+  },
+  "by_status": {
+    "known_target": 15,
+    "watchlist": 3
+  },
+  "highest_leverage_gap": "Local Tokyo zine/book shops are under-mapped. Build Koenji/Nakano/Shimokitazawa coverage next."
+}

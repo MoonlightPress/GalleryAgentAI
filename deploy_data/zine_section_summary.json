@@ -1,0 +1,99 @@
+{
+  "title": "Book / Zine Path",
+  "total_entries": 10,
+  "shoplike_entries": 7,
+  "known_local_entries": 8,
+  "estimated_within_100km_of_koenji": 10,
+  "koenji_count": 0,
+  "nakano_count": 0,
+  "near_koenji_count": 3,
+  "by_category": {
+    "artist_book_fair": 1,
+    "artist_book_store": 1,
+    "zine_fair_store": 1,
+    "photobook_artist_book_store": 1,
+    "art_book_store": 3,
+    "independent_bookstore": 1,
+    "self_publishing_fair": 1,
+    "print_market": 1
+  },
+  "by_neighborhood": {
+    "Kiyosumi-shirakawa / MOT": 1,
+    "Omotesando/Aoyama": 1,
+    "unknown": 2,
+    "Ebisu": 2,
+    "Shimokitazawa": 1,
+    "Gakugeidaigaku": 1,
+    "Ariake": 2
+  },
+  "benefits": [
+    "Lowest-friction career path: a zine can be made, printed, placed, and tested without waiting for formal gallery approval.",
+    "Good fit for quiet watercolor and works-on-paper images because small printed sequences can carry mood, atmosphere, and intimacy.",
+    "Creates proof-of-activity: shop placements, small sales, and documented local distribution can strengthen later TABF or gallery applications.",
+    "Builds relationships gradually through bookstores, zine shops, fairs, and small presses."
+  ],
+  "practical_solution": [
+    "Create two small zines: one image-led and one quieter narrative/sequence-led.",
+    "Print 20 copies of each.",
+    "Place or pitch them to the top 5 verified shops first.",
+    "Add 1 new shop or fair target each month.",
+    "Track acceptance, consignment terms, copies placed, copies sold, and follow-up date."
+  ],
+  "top_five_initial_targets": [
+    {
+      "name": "UTRECHT",
+      "url": "https://utrecht.jp/",
+      "category": "artist_book_store",
+      "area": "Tokyo",
+      "neighborhood": "Omotesando/Aoyama",
+      "source_query": "known seed",
+      "confidence": 85,
+      "notes": "Art book / zine / independent publishing context.",
+      "search_found": false
+    },
+    {
+      "name": "MOUNT ZINE",
+      "url": "https://mount.co.jp/",
+      "category": "zine_fair_store",
+      "area": "Tokyo",
+      "neighborhood": "unknown",
+      "source_query": "known seed",
+      "confidence": 85,
+      "notes": "Known zine ecosystem target from existing data.",
+      "search_found": false
+    },
+    {
+      "name": "flotsam books",
+      "url": "https://flotsambooks.com/",
+      "category": "photobook_artist_book_store",
+      "area": "Tokyo",
+      "neighborhood": "unknown",
+      "source_query": "known seed",
+      "confidence": 85,
+      "notes": "Photobook / artist-book bookstore target.",
+      "search_found": false
+    },
+    {
+      "name": "NADiff a/p/a/r/t",
+      "url": "https://www.nadiff.com/",
+      "category": "art_book_store",
+      "area": "Tokyo",
+      "neighborhood": "Ebisu",
+      "source_query": "known seed",
+      "confidence": 80,
+      "notes": "Art book store / exhibition context.",
+      "search_found": false
+    },
+    {
+      "name": "POST",
+      "url": "https://post-books.info/",
+      "category": "art_book_store",
+      "area": "Tokyo",
+      "neighborhood": "Ebisu",
+      "source_query": "known seed",
+      "confidence": 80,
+      "notes": "Art book / publication-oriented space.",
+      "search_found": false
+    }
+  ]
+}

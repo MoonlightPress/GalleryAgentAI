@@ -1,0 +1,138 @@
+{
+  "title": "Tokyo Zine Ecosystem",
+  "target_count": 100,
+  "entry_count": 10,
+  "entries": [
+    {
+      "name": "TOKYO ART BOOK FAIR",
+      "url": "https://tokyoartbookfair.com/",
+      "category": "artist_book_fair",
+      "area": "Tokyo",
+      "neighborhood": "Kiyosumi-shirakawa / MOT",
+      "source_query": "known seed",
+      "confidence": 95,
+      "notes": "Major art-book fair and ecosystem anchor.",
+      "search_found": false
+    },
+    {
+      "name": "UTRECHT",
+      "url": "https://utrecht.jp/",
+      "category": "artist_book_store",
+      "area": "Tokyo",
+      "neighborhood": "Omotesando/Aoyama",
+      "source_query": "known seed",
+      "confidence": 85,
+      "notes": "Art book / zine / independent publishing context.",
+      "search_found": false
+    },
+    {
+      "name": "MOUNT ZINE",
+      "url": "https://mount.co.jp/",
+      "category": "zine_fair_store",
+      "area": "Tokyo",
+      "neighborhood": "unknown",
+      "source_query": "known seed",
+      "confidence": 85,
+      "notes": "Known zine ecosystem target from existing data.",
+      "search_found": false
+    },
+    {
+      "name": "flotsam books",
+      "url": "https://flotsambooks.com/",
+      "category": "photobook_artist_book_store",
+      "area": "Tokyo",
+      "neighborhood": "unknown",
+      "source_query": "known seed",
+      "confidence": 85,
+      "notes": "Photobook / artist-book bookstore target.",
+      "search_found": false
+    },
+    {
+      "name": "NADiff a/p/a/r/t",
+      "url": "https://www.nadiff.com/",
+      "category": "art_book_store",
+      "area": "Tokyo",
+      "neighborhood": "Ebisu",
+      "source_query": "known seed",
+      "confidence": 80,
+      "notes": "Art book store / exhibition context.",
+      "search_found": false
+    },
+    {
+      "name": "POST",
+      "url": "https://post-books.info/",
+      "category": "art_book_store",
+      "area": "Tokyo",
+      "neighborhood": "Ebisu",
+      "source_query": "known seed",
+      "confidence": 80,
+      "notes": "Art book / publication-oriented space.",
+      "search_found": false
+    },
+    {
+      "name": "B&B Shimokitazawa",
+      "url": "https://bookandbeer.com/",
+      "category": "independent_bookstore",
+      "area": "Tokyo",
+      "neighborhood": "Shimokitazawa",
+      "source_query": "known seed",
+      "confidence": 75,
+      "notes": "Independent bookstore/community space.",
+      "search_found": false
+    },
+    {
+      "name": "Book and Sons",
+      "url": "https://bookandsons.com/",
+      "category": "art_book_store",
+      "area": "Tokyo",
+      "neighborhood": "Gakugeidaigaku",
+      "source_query": "known seed",
+      "confidence": 75,
+      "notes": "Bookstore/gallery context.",
+      "search_found": false
+    },
+    {
+      "name": "COMITIA",
+      "url": "https://www.comitia.co.jp/",
+      "category": "self_publishing_fair",
+      "area": "Tokyo",
+      "neighborhood": "Ariake",
+      "source_query": "known seed",
+      "confidence": 60,
+      "notes": "Large self-publishing fair; may be too manga/doujinshi-oriented.",
+      "search_found": false
+    },
+    {
+      "name": "Design Festa",
+      "url": "https://designfesta.com/",
+      "category": "print_market",
+      "area": "Tokyo",
+      "neighborhood": "Ariake",
+      "source_query": "known seed",
+      "confidence": 55,
+      "notes": "Sales visibility, but less curatorial.",
+      "search_found": false
+    }
+  ],
+  "queries": [
+    "zine shop Koenji",
+    "zine shop Nakano Tokyo",
+    "zine shop Shimokitazawa",
+    "zine shop Kichijoji",
+    "zine shop Tokyo",
+    "artist book store Tokyo",
+    "photobook store Tokyo",
+    "independent bookstore Tokyo zine",
+    "risograph studio Tokyo zine",
+    "Tokyo zine fair",
+    "Tokyo art book store",
+    "Tokyo small press publisher artist book",
+    "Tokyo zine consignment shop",
+    "東京 ZINE ショップ 高円寺",
+    "東京 ZINE ショップ 中野",
+    "東京 ZINE ショップ 下北沢",
+    "東京 アートブック 書店",
+    "東京 リソグラフ スタジオ ZINE"
+  ],
+  "note": "Search-discovered entries require verification. Known seeds are more reliable."
+}
