@@ -1,14 +1,10 @@
 
 Run:
 
-python run_verification_upgrade.py
+python run_historical_artist_pipeline.py
 
-Check:
-
-notepad reports\opportunity_verification_report.md
-
-Goal:
-- Remove illustrator contamination
-- Reject junk sources
-- Create verified / likely / research-needed buckets
-- Reduce duplicate bucket behavior
+Outputs:
+memory/historical_artist_data.json
+memory/opportunity_similarity.json
+reports/historical_artist_data.md
+reports/opportunity_similarity.md

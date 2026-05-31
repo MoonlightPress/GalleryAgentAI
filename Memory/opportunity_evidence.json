@@ -1,0 +1,2208 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "evidence_status": "evidence_found",
+    "evidence_strength": 70,
+    "urls_checked": [
+      "https://tokyoartbookfair.com/application-form/",
+      "https://tokyoartbookfair.com/application/",
+      "https://tokyoartbookfair.com/",
+      "https://tokyoartbookfair.com/contact/",
+      "https://tokyoartbookfair.com/en/application/"
+    ],
+    "possible_names": [
+      "TOKYO ART BOOK FAIR",
+      "APPLICATION FORM\nHOME\nABOUT\nAPPLICATION",
+      "ACCESS\nCONTACT\nARCHIVES\nJP\nEN",
+      "PRIVACY POLICY\nCOMMUNITY\nAGREEMENT\nMENU",
+      "TOKYO ART BOOK FAIR\nAPPLICATION",
+      "EXHIBITION SPACE",
+      "TOKOYO ART BOOK",
+      "HOME\nABOUT\nAPPLICATION\nACCESS\nCONTACT",
+      "ARCHIVES\nJP\nEN\nPRIVACY POLICY",
+      "COMMUNITY\nAGREEMENT",
+      "APPLICATION\nHOME\nABOUT\nAPPLICATION\nACCESS",
+      "CONTACT\nARCHIVES\nJP\nEN\nPRIVACY",
+      "POLICY\nCOMMUNITY\nAGREEMENT\nMENU\nTOKYO",
+      "ART BOOK FAIR\nAPPLICATION",
+      "TOKYO ART BOOK FAIR\nHOME",
+      "ABOUT\nAPPLICATION\nACCESS\nCONTACT\nARCHIVES",
+      "JP\nEN\nPRIVACY POLICY\nCOMMUNITY",
+      "AGREEMENT\nMENU\nHOME\nABOUT\nAPPLICATION",
+      "PRIVACY POLICY\nCOMMUNITY\nAGREEMENT",
+      "CONTACT\nHOME\nABOUT\nAPPLICATION\nACCESS"
+    ],
+    "evidence_links": [],
+    "evidence_sentences": [
+      {
+        "text": "・展示室での出展・出版社、ギャラリー、ブックショップ、企業、アーティスト、グループの方向けのブースです。",
+        "score": 7,
+        "types": [
+          "artist",
+          "publisher",
+          "bookstore_gallery"
+        ]
+      },
+      {
+        "text": "・エントランスでの出展・出版社、ギャラリー、ブックショップ、企業、アーティスト、グループの方向けのブースです。",
+        "score": 7,
+        "types": [
+          "artist",
+          "publisher",
+          "bookstore_gallery"
+        ]
+      },
+      {
+        "text": "・個人で活動を行うアーティストやジンメイカーの方、小規模な出版社向けのブースです。",
+        "score": 5,
+        "types": [
+          "artist",
+          "publisher"
+        ]
+      },
+      {
+        "text": "※拠点とする国の名前をご記入ください。TABF公式サイト掲載予定の出展者一覧に反映されます。",
+        "score": 3,
+        "types": [
+          "past_exhibitor"
+        ]
+      },
+      {
+        "text": "TABFの出展者ブースは、下記4つのエリアに分かれています。それぞれ応募対象が異なりますので、ご自身に適したエリア、ブースタイプをご選択ください。",
+        "score": 3,
+        "types": [
+          "past_exhibitor"
+        ]
+      },
+      {
+        "text": "・TOKOYO ART BOOK FAIRにはじめて出展される方を積極的に募集します。",
+        "score": 3,
+        "types": [
+          "bookstore_gallery"
+        ]
+      },
+      {
+        "text": "・会期中の盗難や、出展者の過失による事故においては、事務局では責任を負いかねます。あらかじめご了承ください。",
+        "score": 3,
+        "types": [
+          "past_exhibitor"
+        ]
+      },
+      {
+        "text": "・TABFの出展者ブースは、4つのエリアに分かれています。それぞれ応募対象が異なりますので、ご自身に適したエリアをご選択ください。",
+        "score": 3,
+        "types": [
+          "past_exhibitor"
+        ]
+      }
+    ],
+    "page_results": [
+      {
+        "url": "https://tokyoartbookfair.com/application-form/",
+        "final_url": "https://tokyoartbookfair.com/application-form/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 4739,
+        "evidence_links": [],
+        "evidence_sentences": [
+          {
+            "text": "・展示室での出展・出版社、ギャラリー、ブックショップ、企業、アーティスト、グループの方向けのブースです。",
+            "score": 7,
+            "types": [
+              "artist",
+              "publisher",
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "・エントランスでの出展・出版社、ギャラリー、ブックショップ、企業、アーティスト、グループの方向けのブースです。",
+            "score": 7,
+            "types": [
+              "artist",
+              "publisher",
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "・個人で活動を行うアーティストやジンメイカーの方、小規模な出版社向けのブースです。",
+            "score": 5,
+            "types": [
+              "artist",
+              "publisher"
+            ]
+          },
+          {
+            "text": "※拠点とする国の名前をご記入ください。TABF公式サイト掲載予定の出展者一覧に反映されます。",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          },
+          {
+            "text": "TABFの出展者ブースは、下記4つのエリアに分かれています。それぞれ応募対象が異なりますので、ご自身に適したエリア、ブースタイプをご選択ください。",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          },
+          {
+            "text": "・TOKOYO ART BOOK FAIRにはじめて出展される方を積極的に募集します。",
+            "score": 3,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "・会期中の盗難や、出展者の過失による事故においては、事務局では責任を負いかねます。あらかじめご了承ください。",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          }
+        ],
+        "possible_names": [
+          "TOKYO ART BOOK FAIR",
+          "APPLICATION FORM\nHOME\nABOUT\nAPPLICATION",
+          "ACCESS\nCONTACT\nARCHIVES\nJP\nEN",
+          "PRIVACY POLICY\nCOMMUNITY\nAGREEMENT\nMENU",
+          "TOKYO ART BOOK FAIR\nAPPLICATION",
+          "EXHIBITION SPACE",
+          "TOKOYO ART BOOK",
+          "HOME\nABOUT\nAPPLICATION\nACCESS\nCONTACT",
+          "ARCHIVES\nJP\nEN\nPRIVACY POLICY",
+          "COMMUNITY\nAGREEMENT"
+        ]
+      },
+      {
+        "url": "https://tokyoartbookfair.com/application/",
+        "final_url": "https://tokyoartbookfair.com/application/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 1236,
+        "evidence_links": [],
+        "evidence_sentences": [
+          {
+            "text": "・TABFの出展者ブースは、4つのエリアに分かれています。それぞれ応募対象が異なりますので、ご自身に適したエリアをご選択ください。",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          },
+          {
+            "text": "・TABFでは、積極的に出版を行なっている方、新しい試みに挑戦している方を優先的に選出させて頂きます。",
+            "score": 3,
+            "types": [
+              "publisher"
+            ]
+          },
+          {
+            "text": "・出展者名（日・英）、ウェブサイト、ソーシャルメディア、プロフィールは出展者情報として公開いたします。",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          }
+        ],
+        "possible_names": [
+          "TOKYO ART BOOK FAIR",
+          "APPLICATION\nHOME\nABOUT\nAPPLICATION\nACCESS",
+          "CONTACT\nARCHIVES\nJP\nEN\nPRIVACY",
+          "POLICY\nCOMMUNITY\nAGREEMENT\nMENU\nTOKYO",
+          "ART BOOK FAIR\nAPPLICATION",
+          "HOME\nABOUT\nAPPLICATION\nACCESS\nCONTACT",
+          "ARCHIVES\nJP\nEN\nPRIVACY POLICY",
+          "COMMUNITY\nAGREEMENT"
+        ]
+      },
+      {
+        "url": "https://tokyoartbookfair.com/",
+        "final_url": "https://tokyoartbookfair.com/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 200,
+        "evidence_links": [],
+        "evidence_sentences": [],
+        "possible_names": [
+          "TOKYO ART BOOK FAIR\nHOME",
+          "ABOUT\nAPPLICATION\nACCESS\nCONTACT\nARCHIVES",
+          "JP\nEN\nPRIVACY POLICY\nCOMMUNITY",
+          "AGREEMENT\nMENU\nHOME\nABOUT\nAPPLICATION",
+          "ACCESS\nCONTACT\nARCHIVES\nJP\nEN",
+          "PRIVACY POLICY\nCOMMUNITY\nAGREEMENT"
+        ]
+      },
+      {
+        "url": "https://tokyoartbookfair.com/contact/",
+        "final_url": "https://tokyoartbookfair.com/contact/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 268,
+        "evidence_links": [],
+        "evidence_sentences": [],
+        "possible_names": [
+          "TOKYO ART BOOK FAIR",
+          "CONTACT\nHOME\nABOUT\nAPPLICATION\nACCESS",
+          "CONTACT\nARCHIVES\nJP\nEN\nPRIVACY",
+          "POLICY\nCOMMUNITY\nAGREEMENT\nMENU\nCONTACT",
+          "HOME\nABOUT\nAPPLICATION\nACCESS\nCONTACT",
+          "ARCHIVES\nJP\nEN\nPRIVACY POLICY",
+          "COMMUNITY\nAGREEMENT"
+        ]
+      },
+      {
+        "url": "https://tokyoartbookfair.com/en/application/",
+        "final_url": "https://tokyoartbookfair.com/en/application/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 3349,
+        "evidence_links": [],
+        "evidence_sentences": [
+          {
+            "text": "• TABF exhibitor booth section is divided into four areas.",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          },
+          {
+            "text": "• Exhibitors are strictly forbidden from bringing fresh flowers, plants, dirt, animals, raw food, or any other raw/live articles (including rubbish) into the venue.",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          },
+          {
+            "text": "(Exhibitors that wish to exhibit as a collective or organization are welcome to do so, but note that we may be required to set a maximum limit for the number of staff attending a single booth at a certain time)",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          },
+          {
+            "text": "• The deadline for the application is end of day (JST) June 7th (Sun), 2026.",
+            "score": 3,
+            "types": []
+          },
+          {
+            "text": "• Participants will be notified of the payment deadline and payment options at a later date.",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          },
+          {
+            "text": "Applications must be completed and sent by the end of day on June 7th (Sun), 2026",
+            "score": 3,
+            "types": []
+          },
+          {
+            "text": "• If we receive a large number of applications, we will employ a selection process to decide upon the final exhibitor pool.",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          },
+          {
+            "text": "• The Fair committee will select the final pool of participants based on information provided in your application – including images, texts and websites.",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          },
+          {
+            "text": "• The information you enter in the Exhibitor’s Name, Website URL, Social Media and Bio/About Your Organization fields in your application will be made public in your exhibitor profile on our website and other publications.",
+            "score": 3,
+            "types": [
+              "past_exhibitor"
+            ]
+          }
+        ],
+        "possible_names": [
+          "TOKYO ART BOOK FAIR",
+          "APPLICATION\nHOME\nABOUT\nAPPLICATION\nACCESS",
+          "CONTACT\nARCHIVES\nJP\nEN\nPRIVACY",
+          "POLICY\nCOMMUNITY\nAGREEMENT\nMENU\nTOKYO",
+          "ART BOOK FAIR\nAPPLICATION\nVenue",
+          "Dates\nVenue",
+          "Contemporary Art Tokyo\nWeek",
+          "Important Notes",
+          "Your Work",
+          "Participation Confirmation",
+          "Policy Regarding Postponement",
+          "Fair\nIn",
+          "Booth Application Form\nPlease",
+          "The Fair",
+          "Website URL"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "evidence_status": "evidence_found",
+    "evidence_strength": 100,
+    "urls_checked": [
+      "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+      "https://pinpointgallery.com/competition/",
+      "https://pinpointgallery.com/",
+      "https://pinpointgallery.com/contact-2/",
+      "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+    ],
+    "possible_names": [
+      "Pinpoint Gallery\nPinpoint Gallery",
+      "Pinpoint Gallery",
+      "Gallery HOME\nSchedule",
+      "Facebook\nInstagram\nRSS\nCopyright",
+      "Pinpoint Gallery\nPAGE TOP",
+      "Katsuhiko Tamura",
+      "NEWS\nNEWS",
+      "COMPE HOME",
+      "MINI PRINT INTERNATIONAL DE CADAQUES",
+      "Selected Artist",
+      "Bologna Children",
+      "Book Fair Illustrators Exhibition",
+      "Pinpoint Picture Books Competition",
+      "Contents\nCOMPE HOME"
+    ],
+    "evidence_links": [
+      {
+        "label": "[no label]",
+        "url": "https://pinpointgallery.com/"
+      },
+      {
+        "label": "menu",
+        "url": "https://pinpointgallery.com/competition/#"
+      },
+      {
+        "label": "Schedule",
+        "url": "https://pinpointgallery.com/schedule/"
+      },
+      {
+        "label": "About&Access",
+        "url": "https://pinpointgallery.com/aboutaccess/"
+      },
+      {
+        "label": "ピンポイントギャラリーについて",
+        "url": "https://pinpointgallery.com/about/"
+      },
+      {
+        "label": "ギャラリーまでの行き方",
+        "url": "https://pinpointgallery.com/access/"
+      },
+      {
+        "label": "ギャラリーレンタルについて",
+        "url": "https://pinpointgallery.com/space/"
+      },
+      {
+        "label": "お問い合わせ",
+        "url": "https://pinpointgallery.com/contact-2/"
+      },
+      {
+        "label": "[no label]",
+        "url": "https://www.develop.pinpointgallery.com/competiton/"
+      },
+      {
+        "label": "コンペ応募要項",
+        "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+      },
+      {
+        "label": "OnlineStore",
+        "url": "https://pinpointgallery.com/onlinestore/"
+      },
+      {
+        "label": "NEW: 第26回ピンポイント絵本コンペ応募要項 〜2025年〜",
+        "url": "https://pinpointgallery.com/competition_oubo2025/"
+      }
+    ],
+    "evidence_sentences": [
+      {
+        "text": "飯野和好（いいの・かずよし）絵本作家。1947年埼玉県秩父生まれ。絵本に「くろずみ小太郎旅日記」シリーズ（クレヨンハウス）、『おせんとおこま』（ブロンズ新社）、『みずくみに』（小峰書店／第20回日本絵本賞受賞）、『ふようどのふよこちゃん』（理論社）、「ねぎぼうずのあさたろう」シリーズ（福音館書店／その１で、第49回小学館児童出版文化賞受賞）、挿絵に「小さなスズナ姫」シリーズ（偕成社／第11回赤い鳥さし絵賞受賞）、『ぼくとお山と羊のセーター』（偕成社／第70回産経児童出版文化賞タイヘイ賞）などがある",
+        "score": 7,
+        "types": [
+          "artist",
+          "publisher",
+          "bookstore_gallery"
+        ]
+      },
+      {
+        "text": "オリジナル、未発表の絵本作品を募集します。プロ、アマ問わず。審査員は、現役で活躍中の編集者、絵本作家らにギャラリーオーナーを加えての４人。",
+        "score": 5,
+        "types": [
+          "artist",
+          "bookstore_gallery"
+        ]
+      },
+      {
+        "text": "イラストレーション、絵本などの個展、画廊企画のグループ展などを運営しています。ピンポイント絵本コンペの受賞展覧会などを通じて、若手絵本作家を精力的にバックアップしています。",
+        "score": 5,
+        "types": [
+          "artist",
+          "bookstore_gallery"
+        ]
+      },
+      {
+        "text": "受賞作は、2026年6月29日から7月18日まで3週間にわたりピンポイントギャラリーにて受賞展を開催します。",
+        "score": 5,
+        "types": [
+          "bookstore_gallery"
+        ]
+      },
+      {
+        "text": "入賞者には、2026年5月初旬までに本人に直接電話連絡。一般発表は、作品返却の際に結果を同封、またホームページにて掲載",
+        "score": 5,
+        "types": [
+          "bookstore_gallery"
+        ]
+      },
+      {
+        "text": "2000年より絵本作家育成を目的としてはじまったギャラリー主催の絵本公募展。",
+        "score": 4,
+        "types": [
+          "artist",
+          "bookstore_gallery"
+        ]
+      },
+      {
+        "text": "NEW: 第26回ピンポイント絵本コンペ応募要項 〜2025年〜",
+        "score": 4,
+        "types": [
+          "bookstore_gallery"
+        ]
+      },
+      {
+        "text": "NEW: 第26回ピンポイント絵本コンペ応募要項 〜2025年〜",
+        "score": 4,
+        "types": [
+          "bookstore_gallery"
+        ]
+      }
+    ],
+    "page_results": [
+      {
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+        "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+        "http_status": 200,
+        "error": null,
+        "text_length": 399,
+        "evidence_links": [],
+        "evidence_sentences": [],
+        "possible_names": [
+          "Pinpoint Gallery\nPinpoint Gallery"
+        ]
+      },
+      {
+        "url": "https://pinpointgallery.com/competition/",
+        "final_url": "https://pinpointgallery.com/competition/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 2080,
+        "evidence_links": [
+          {
+            "label": "[no label]",
+            "url": "https://pinpointgallery.com/"
+          },
+          {
+            "label": "menu",
+            "url": "https://pinpointgallery.com/competition/#"
+          },
+          {
+            "label": "Schedule",
+            "url": "https://pinpointgallery.com/schedule/"
+          },
+          {
+            "label": "About&Access",
+            "url": "https://pinpointgallery.com/aboutaccess/"
+          },
+          {
+            "label": "ピンポイントギャラリーについて",
+            "url": "https://pinpointgallery.com/about/"
+          },
+          {
+            "label": "ギャラリーまでの行き方",
+            "url": "https://pinpointgallery.com/access/"
+          },
+          {
+            "label": "ギャラリーレンタルについて",
+            "url": "https://pinpointgallery.com/space/"
+          },
+          {
+            "label": "お問い合わせ",
+            "url": "https://pinpointgallery.com/contact-2/"
+          },
+          {
+            "label": "Competition",
+            "url": "https://www.develop.pinpointgallery.com/competiton/"
+          },
+          {
+            "label": "応募要項",
+            "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+          },
+          {
+            "label": "OnlineStore",
+            "url": "https://pinpointgallery.com/onlinestore/"
+          },
+          {
+            "label": "NEW: 第26回ピンポイント絵本コンペ応募要項 〜2025年〜",
+            "url": "https://pinpointgallery.com/competition_oubo2025/"
+          },
+          {
+            "label": "NEW: ワークショップリポート（2024年開催)",
+            "url": "https://pinpointgallery.com/new-wsreport/"
+          },
+          {
+            "label": "第25回ピンポイント絵本コンペ結果発表",
+            "url": "https://pinpointgallery.com/25thcompematome/"
+          },
+          {
+            "label": "よくある質問 Q & A",
+            "url": "https://pinpointgallery.com/%e3%82%88%e3%81%8f%e3%81%82%e3%82%8b%e8%b3%aa%e5%95%8f-q-a/"
+          },
+          {
+            "label": "ピンポイント絵本コンペとは？",
+            "url": "https://pinpointgallery.com/competition/"
+          },
+          {
+            "label": "これまでの受賞作品",
+            "url": "https://pinpointgallery.com/%e3%81%93%e3%82%8c%e3%81%be%e3%81%a7%e3%81%ae%e5%8f%97%e8%b3%9e%e4%bd%9c%e5%93%81/"
+          },
+          {
+            "label": "第25回受賞作品",
+            "url": "https://pinpointgallery.com/25thcompetitionsakuhin/"
+          },
+          {
+            "label": "第24回受賞作品",
+            "url": "https://pinpointgallery.com/24thcompetitionsakuhin/"
+          },
+          {
+            "label": "第23回受賞作品",
+            "url": "https://pinpointgallery.com/%e7%ac%ac23%e5%9b%9e%e5%8f%97%e8%b3%9e%e4%bd%9c%e5%93%81/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "オリジナル、未発表の絵本作品を募集します。プロ、アマ問わず。審査員は、現役で活躍中の編集者、絵本作家らにギャラリーオーナーを加えての４人。",
+            "score": 5,
+            "types": [
+              "artist",
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "2000年より絵本作家育成を目的としてはじまったギャラリー主催の絵本公募展。",
+            "score": 4,
+            "types": [
+              "artist",
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "NEW: 第26回ピンポイント絵本コンペ応募要項 〜2025年〜",
+            "score": 4,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "7月頃に3週に渡って受賞展を開催します。展覧会期間中、またその後も作家活動を応援します。",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "これまでに、刊行された受賞作は27作。受賞をきっかけにプロとしてデビューした若手作家らを多数輩出しました。このコンペは、賞を与えるだけではなく、その後の活動を長く見守りたいと考えています。",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "デザインした絵本は「えほんのこども」荒井良二、「しろうさぎとりんごの木」酒井駒子、「よあけ」あべ弘士、「ルッキオとフリフリ」庄野ナホコ、「ヒワとゾウガメ」ミロコマチコ、「セーラーとペッカ」ヨックム・ノードストリューム、など多数。HP：",
+            "score": 3,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "1969年生まれ。1997年、小学館に入社。編集した絵本に、『まっくらやみのまっくろ』（ミロコマチコ）、『サーベルふじん』（網代幸介）、『はるとあき』（作 斉藤倫・うきまる／絵 吉田尚令）、『ぼくらのまちにおいでよ』（大桃洋祐）、『うしとざん』（高畠那生）、『クリコ』（シゲタサヤカ）、『大ピンチずかん』(鈴木のりたけ)、『ゆきのげきじょう』（荒井良二）、『ゆうやけにとけていく』（ザ・キャビンカンパニー）、『あらしかみなり』（きくちちき）などがある。",
+            "score": 3,
+            "types": [
+              "bookstore_gallery"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Pinpoint Gallery",
+          "Gallery HOME\nSchedule",
+          "Facebook\nInstagram\nRSS\nCopyright",
+          "Pinpoint Gallery\nPAGE TOP"
+        ]
+      },
+      {
+        "url": "https://pinpointgallery.com/",
+        "final_url": "https://pinpointgallery.com/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 1193,
+        "evidence_links": [
+          {
+            "label": "[no label]",
+            "url": "https://pinpointgallery.com/"
+          },
+          {
+            "label": "menu",
+            "url": "https://pinpointgallery.com/#"
+          },
+          {
+            "label": "Schedule",
+            "url": "https://pinpointgallery.com/schedule/"
+          },
+          {
+            "label": "About&Access",
+            "url": "https://pinpointgallery.com/aboutaccess/"
+          },
+          {
+            "label": "ピンポイントギャラリーについて",
+            "url": "https://pinpointgallery.com/about/"
+          },
+          {
+            "label": "ギャラリーまでの行き方",
+            "url": "https://pinpointgallery.com/access/"
+          },
+          {
+            "label": "ギャラリーレンタルについて",
+            "url": "https://pinpointgallery.com/space/"
+          },
+          {
+            "label": "お問い合わせ",
+            "url": "https://pinpointgallery.com/contact-2/"
+          },
+          {
+            "label": "Competition",
+            "url": "https://www.develop.pinpointgallery.com/competiton/"
+          },
+          {
+            "label": "応募要項",
+            "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+          },
+          {
+            "label": "OnlineStore",
+            "url": "https://pinpointgallery.com/onlinestore/"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://pinpointgallery.com/schedule/tetsujiyamaguchiexhibition2026/"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://pinpointgallery.com/schedule/katsuhikotamuraexhibition2026/"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://pinpointgallery.com/schedule/higamikumikoexhibition2026/"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://pinpointgallery.com/schedule/27thcompetiton_exhibition2026/"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://pinpointgallery.com/schedule/kiepinokoexhibition2026/"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://pinpointgallery.com/schedule/sakatokumiyukiexhibition2026/"
+          },
+          {
+            "label": "NEW：絵本コンペの審査結果に審査員講評を追加しました",
+            "url": "https://pinpointgallery.com/news/ppbccompetitionkohyo2026/"
+          },
+          {
+            "label": "NEW: 第27回ピンポイント絵本コンペの審査結果",
+            "url": "https://pinpointgallery.com/news/newsabout_27thcompetitionresult/"
+          },
+          {
+            "label": "NEW: 第21回ピンポイント絵本コンペ受賞作品が刊行されました",
+            "url": "https://pinpointgallery.com/news/newsaboutkanko_shiritori/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "イラストレーション、絵本などの個展、画廊企画のグループ展などを運営しています。ピンポイント絵本コンペの受賞展覧会などを通じて、若手絵本作家を精力的にバックアップしています。",
+            "score": 5,
+            "types": [
+              "artist",
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。",
+            "score": 3,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "スペースを貸し画廊として1週間単位(月〜土)でご利用いただけます。新ギャラリーでの使用申し込みを受付します。",
+            "score": 3,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "表参道駅Ｂ2出口より徒歩3分、青山通りのすぐ裏になります。周辺はアートギャラリーやデザインアパレルの店舗が立ち並び、恵まれた環境にあります。",
+            "score": 3,
+            "types": [
+              "bookstore_gallery"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Pinpoint Gallery",
+          "Gallery HOME\nSchedule",
+          "Katsuhiko Tamura",
+          "NEWS\nNEWS",
+          "Facebook\nInstagram\nRSS\nCopyright",
+          "Pinpoint Gallery\nPAGE TOP"
+        ]
+      },
+      {
+        "url": "https://pinpointgallery.com/contact-2/",
+        "final_url": "https://pinpointgallery.com/contact-2/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 1020,
+        "evidence_links": [
+          {
+            "label": "[no label]",
+            "url": "https://pinpointgallery.com/"
+          },
+          {
+            "label": "menu",
+            "url": "https://pinpointgallery.com/contact-2/#"
+          },
+          {
+            "label": "Schedule",
+            "url": "https://pinpointgallery.com/schedule/"
+          },
+          {
+            "label": "About&Access",
+            "url": "https://pinpointgallery.com/aboutaccess/"
+          },
+          {
+            "label": "ピンポイントギャラリーについて",
+            "url": "https://pinpointgallery.com/about/"
+          },
+          {
+            "label": "ギャラリーまでの行き方",
+            "url": "https://pinpointgallery.com/access/"
+          },
+          {
+            "label": "ギャラリーレンタルについて",
+            "url": "https://pinpointgallery.com/space/"
+          },
+          {
+            "label": "お問い合わせ",
+            "url": "https://pinpointgallery.com/contact-2/"
+          },
+          {
+            "label": "Competition",
+            "url": "https://www.develop.pinpointgallery.com/competiton/"
+          },
+          {
+            "label": "応募要項",
+            "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+          },
+          {
+            "label": "OnlineStore",
+            "url": "https://pinpointgallery.com/onlinestore/"
+          },
+          {
+            "label": "NEW: 第26回ピンポイント絵本コンペ応募要項 〜2025年〜",
+            "url": "https://pinpointgallery.com/competition_oubo2025/"
+          },
+          {
+            "label": "NEW: ワークショップリポート（2024年開催)",
+            "url": "https://pinpointgallery.com/new-wsreport/"
+          },
+          {
+            "label": "第25回ピンポイント絵本コンペ結果発表",
+            "url": "https://pinpointgallery.com/25thcompematome/"
+          },
+          {
+            "label": "よくある質問 Q & A",
+            "url": "https://pinpointgallery.com/%e3%82%88%e3%81%8f%e3%81%82%e3%82%8b%e8%b3%aa%e5%95%8f-q-a/"
+          },
+          {
+            "label": "ピンポイント絵本コンペとは？",
+            "url": "https://pinpointgallery.com/competition/"
+          },
+          {
+            "label": "これまでの受賞作品",
+            "url": "https://pinpointgallery.com/%e3%81%93%e3%82%8c%e3%81%be%e3%81%a7%e3%81%ae%e5%8f%97%e8%b3%9e%e4%bd%9c%e5%93%81/"
+          },
+          {
+            "label": "第25回受賞作品",
+            "url": "https://pinpointgallery.com/25thcompetitionsakuhin/"
+          },
+          {
+            "label": "第24回受賞作品",
+            "url": "https://pinpointgallery.com/24thcompetitionsakuhin/"
+          },
+          {
+            "label": "第23回受賞作品",
+            "url": "https://pinpointgallery.com/%e7%ac%ac23%e5%9b%9e%e5%8f%97%e8%b3%9e%e4%bd%9c%e5%93%81/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "NEW: 第26回ピンポイント絵本コンペ応募要項 〜2025年〜",
+            "score": 4,
+            "types": [
+              "bookstore_gallery"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Pinpoint Gallery",
+          "Gallery HOME\nSchedule",
+          "Facebook\nInstagram\nRSS\nCopyright",
+          "Pinpoint Gallery\nPAGE TOP"
+        ]
+      },
+      {
+        "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/",
+        "final_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 3440,
+        "evidence_links": [
+          {
+            "label": "[no label]",
+            "url": "https://www.develop.pinpointgallery.com/competiton/"
+          },
+          {
+            "label": "審査員について",
+            "url": "https://www.develop.pinpointgallery.com/competiton/jurycompetition_the26/"
+          },
+          {
+            "label": "コンペ応募要項",
+            "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/"
+          },
+          {
+            "label": "よくある質問",
+            "url": "https://www.develop.pinpointgallery.com/competiton/qandacometition/"
+          },
+          {
+            "label": "結果発表",
+            "url": "https://www.develop.pinpointgallery.com/competiton/27thcomperesult/"
+          },
+          {
+            "label": "第27回ピンポイント絵本コンペ受賞展覧会",
+            "url": "https://pinpointgallery.com/schedule/27thcompetiton_exhibition2026/"
+          },
+          {
+            "label": "ワークショップ",
+            "url": "https://www.develop.pinpointgallery.com/competiton/summerworkshop2026/"
+          },
+          {
+            "label": "ワークショップレポート2024年",
+            "url": "https://www.develop.pinpointgallery.com/competiton/workshopreport2024/"
+          },
+          {
+            "label": "過去の受賞作品",
+            "url": "https://www.develop.pinpointgallery.com/competiton/archivecompetition/"
+          },
+          {
+            "label": "刊行された受賞作品",
+            "url": "https://www.develop.pinpointgallery.com/competiton/publishingcompetition/"
+          },
+          {
+            "label": "ホーム",
+            "url": "https://www.develop.pinpointgallery.com/competiton"
+          },
+          {
+            "label": "27thcompe_OMOTE_hp",
+            "url": "https://www.develop.pinpointgallery.com/competiton/wp-content/uploads/2025/09/27thcompe_OMOTE_hp.pdf"
+          },
+          {
+            "label": "27thcompe_URA_hp",
+            "url": "https://www.develop.pinpointgallery.com/competiton/wp-content/uploads/2025/09/27thcompe_URA_hp.pdf"
+          },
+          {
+            "label": "27回応募用紙",
+            "url": "https://www.develop.pinpointgallery.com/competiton/wp-content/uploads/2026/01/27回応募用紙.pdf"
+          },
+          {
+            "label": "トップ",
+            "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/#"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "飯野和好（いいの・かずよし）絵本作家。1947年埼玉県秩父生まれ。絵本に「くろずみ小太郎旅日記」シリーズ（クレヨンハウス）、『おせんとおこま』（ブロンズ新社）、『みずくみに』（小峰書店／第20回日本絵本賞受賞）、『ふようどのふよこちゃん』（理論社）、「ねぎぼうずのあさたろう」シリーズ（福音館書店／その１で、第49回小学館児童出版文化賞受賞）、挿絵に「小さなスズナ姫」シリーズ（偕成社／第11回赤い鳥さし絵賞受賞）、『ぼくとお山と羊のセーター』（偕成社／第70回産経児童出版文化賞タイヘイ賞）などがある",
+            "score": 7,
+            "types": [
+              "artist",
+              "publisher",
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "受賞作は、2026年6月29日から7月18日まで3週間にわたりピンポイントギャラリーにて受賞展を開催します。",
+            "score": 5,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "入賞者には、2026年5月初旬までに本人に直接電話連絡。一般発表は、作品返却の際に結果を同封、またホームページにて掲載",
+            "score": 5,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "2026年第27回ピンポイント絵本コンペの受付は終了いたしました。",
+            "score": 4,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "（注） ①作家名と本名が異なる場合は、備考の欄に本名を記入すること。",
+            "score": 4,
+            "types": [
+              "artist",
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "※PDFをダウンロードできない方で応募要項の郵送を希望される方はギャラリーまでお問い合わせください。",
+            "score": 3,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "村松茂（むらまつ・しげる）1969年生まれ。1997年、小学館に入社。編集した絵本に、『サーベルふじん』（網代幸介）、『はるとあき』（作 斉藤倫・うきまる／絵 吉田尚令）、『ぼくらのまちにおいでよ』（大桃洋祐）、『うしとざん』（高畠那生）、『クリコ』（シゲタサヤカ）、『大ピンチずかん』(鈴木のりたけ)、『ゆきのげきじょう』（荒井良二）、『ゆうやけにとけていく』（ザ・キャビンカンパニー）、『あらしかみなり』（きくちちき）、『みちひきみちかけ』（ミロコマチコ）などがある。",
+            "score": 3,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "ねこちゃんがねずみさんのために読んでいる絵本は、船が旅する物語。お話の世界に浸るねずみさんが漏らした言葉は、「えほんのせかいにはいりたいです」「このページをくぐればいけるかな」と返すねこちゃん。早速ページの隙間に潜り込むねずみさんでした。（つじにぬき）",
+            "score": 3,
+            "types": [
+              "bookstore_gallery"
+            ]
+          },
+          {
+            "text": "Pinpoint Picture Books Competition ピンポイント絵本コンペ サイト",
+            "score": 3,
+            "types": [
+              "bookstore_gallery"
+            ]
+          }
+        ],
+        "possible_names": [
+          "COMPE HOME",
+          "MINI PRINT INTERNATIONAL DE CADAQUES",
+          "Selected Artist",
+          "Bologna Children",
+          "Book Fair Illustrators Exhibition",
+          "Pinpoint Picture Books Competition",
+          "Contents\nCOMPE HOME",
+          "Pinpoint Gallery"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "evidence_status": "evidence_found",
+    "evidence_strength": 100,
+    "urls_checked": [
+      "https://www.mallgalleries.org.uk/open-calls",
+      "https://www.mallgalleries.org.uk/open-exhibitions",
+      "https://www.mallgalleries.org.uk/contact-us"
+    ],
+    "possible_names": [
+      "Open Calls",
+      "Mall Galleries\nSkip",
+      "Events\nBuy Art\nOpen Calls",
+      "Venue Hire\nBecome",
+      "Friend\nCalendar",
+      "Friend\nAbout Us\nExplore Artists",
+      "Art Consultancy\nJoin",
+      "Support\nNews\nVisit Us\nCalendar",
+      "Search\nApply\nPopular",
+      "Events\nVisit Us\nVenue Hire",
+      "Open Calls\nArtworks\nBuy Art",
+      "Breadcrumb\nHome\nOpen Calls\nOpen",
+      "Calls\nExplore",
+      "The Federation",
+      "British Artists",
+      "Breadcrumb\nHome",
+      "READ MORE\nJoin",
+      "SIGN UP NOW\nYour",
+      "The Mall",
+      "Admission\nAccess\nWorking Here\nArt"
+    ],
+    "evidence_links": [
+      {
+        "label": "Explore Artists",
+        "url": "https://www.mallgalleries.org.uk/explore-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/society-wildlife-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-oil-painters"
+      },
+      {
+        "label": "Read more",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-painters-water-colours"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-portrait-painters"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/neac-artist-scholarships"
+      },
+      {
+        "label": "[no label]",
+        "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+      }
+    ],
+    "evidence_sentences": [
+      {
+        "text": "© 2026 Federation of British Artists.",
+        "score": 4,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "© 2026 Federation of British Artists.",
+        "score": 4,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "© 2026 Federation of British Artists.",
+        "score": 4,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+        "score": 3,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+        "score": 3,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "SWLA 63rd Annual Exhibition | The Natural Eye 2026",
+        "score": 3,
+        "types": []
+      },
+      {
+        "text": "Royal Institute of Painters in Water Colours",
+        "score": 3,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "NEAC Annual Exhibition 2026, including The NEAC Climate Emergency Prize",
+        "score": 3,
+        "types": []
+      }
+    ],
+    "page_results": [
+      {
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "final_url": "https://www.mallgalleries.org.uk/open-calls",
+        "http_status": 200,
+        "error": null,
+        "text_length": 2745,
+        "evidence_links": [
+          {
+            "label": "Explore Artists",
+            "url": "https://www.mallgalleries.org.uk/explore-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/society-wildlife-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-oil-painters"
+          },
+          {
+            "label": "Read more",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-painters-water-colours"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-portrait-painters"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/neac-artist-scholarships"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "© 2026 Federation of British Artists.",
+            "score": 4,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "SWLA 63rd Annual Exhibition | The Natural Eye 2026",
+            "score": 3,
+            "types": []
+          },
+          {
+            "text": "Royal Institute of Painters in Water Colours",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "NEAC Annual Exhibition 2026, including The NEAC Climate Emergency Prize",
+            "score": 3,
+            "types": []
+          },
+          {
+            "text": "Early-career artists are invited to apply for scholarships worth £7,000",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "The Jonathan Vickers Fine Art Award is one of the country’s largest art prizes for an emerging artist",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "Do you want to be notified when these artist opportunities are open for applications?",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "We empower artists through our not-for-profit programme",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Open Calls",
+          "Mall Galleries\nSkip",
+          "Events\nBuy Art\nOpen Calls",
+          "Venue Hire\nBecome",
+          "Friend\nCalendar",
+          "Friend\nAbout Us\nExplore Artists",
+          "Art Consultancy\nJoin",
+          "Support\nNews\nVisit Us\nCalendar",
+          "Search\nApply\nPopular",
+          "Events\nVisit Us\nVenue Hire",
+          "Open Calls\nArtworks\nBuy Art",
+          "Breadcrumb\nHome\nOpen Calls\nOpen",
+          "Calls\nExplore",
+          "The Federation",
+          "British Artists"
+        ]
+      },
+      {
+        "url": "https://www.mallgalleries.org.uk/open-exhibitions",
+        "final_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+        "http_status": 404,
+        "error": null,
+        "text_length": 1120,
+        "evidence_links": [
+          {
+            "label": "Explore Artists",
+            "url": "https://www.mallgalleries.org.uk/explore-artists"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "© 2026 Federation of British Artists.",
+            "score": 4,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "We empower artists through our not-for-profit programme",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Mall Galleries\nSkip",
+          "Events\nBuy Art\nOpen Calls",
+          "Venue Hire\nBecome",
+          "Friend\nCalendar",
+          "Friend\nAbout Us\nExplore Artists",
+          "Art Consultancy\nJoin",
+          "Support\nNews\nVisit Us\nCalendar",
+          "Search\nApply\nPopular",
+          "Events\nVisit Us\nVenue Hire",
+          "Open Calls\nArtworks\nBuy Art",
+          "Breadcrumb\nHome",
+          "READ MORE\nJoin",
+          "SIGN UP NOW\nYour",
+          "The Mall",
+          "Admission\nAccess\nWorking Here\nArt"
+        ]
+      },
+      {
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "final_url": "https://www.mallgalleries.org.uk/contact-us",
+        "http_status": 200,
+        "error": null,
+        "text_length": 1355,
+        "evidence_links": [
+          {
+            "label": "Explore Artists",
+            "url": "https://www.mallgalleries.org.uk/explore-artists"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "© 2026 Federation of British Artists.",
+            "score": 4,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "We empower artists through our not-for-profit programme",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Mall Galleries\nSkip",
+          "Events\nBuy Art\nOpen Calls",
+          "Venue Hire\nBecome",
+          "Friend\nCalendar",
+          "Friend\nAbout Us\nExplore Artists",
+          "Art Consultancy\nJoin",
+          "Support\nNews\nVisit Us\nCalendar",
+          "Search\nApply\nPopular",
+          "Events\nVisit Us\nVenue Hire",
+          "Open Calls\nArtworks\nBuy Art",
+          "Breadcrumb\nHome\nContact",
+          "Mall Galleries\nThe Mall",
+          "Trafalgar Square",
+          "British Artists",
+          "Carlton House Terrace\nLondon"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "evidence_status": "evidence_found",
+    "evidence_strength": 100,
+    "urls_checked": [
+      "https://www.mallgalleries.org.uk/open-calls",
+      "https://www.mallgalleries.org.uk/open-exhibitions",
+      "https://www.mallgalleries.org.uk/contact-us"
+    ],
+    "possible_names": [
+      "Open Calls",
+      "Mall Galleries\nSkip",
+      "Events\nBuy Art\nOpen Calls",
+      "Venue Hire\nBecome",
+      "Friend\nCalendar",
+      "Friend\nAbout Us\nExplore Artists",
+      "Art Consultancy\nJoin",
+      "Support\nNews\nVisit Us\nCalendar",
+      "Search\nApply\nPopular",
+      "Events\nVisit Us\nVenue Hire",
+      "Open Calls\nArtworks\nBuy Art",
+      "Breadcrumb\nHome\nOpen Calls\nOpen",
+      "Calls\nExplore",
+      "The Federation",
+      "British Artists",
+      "Breadcrumb\nHome",
+      "READ MORE\nJoin",
+      "SIGN UP NOW\nYour",
+      "The Mall",
+      "Admission\nAccess\nWorking Here\nArt"
+    ],
+    "evidence_links": [
+      {
+        "label": "Explore Artists",
+        "url": "https://www.mallgalleries.org.uk/explore-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/society-wildlife-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-oil-painters"
+      },
+      {
+        "label": "Read more",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-painters-water-colours"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-portrait-painters"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/neac-artist-scholarships"
+      },
+      {
+        "label": "[no label]",
+        "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+      }
+    ],
+    "evidence_sentences": [
+      {
+        "text": "© 2026 Federation of British Artists.",
+        "score": 4,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "© 2026 Federation of British Artists.",
+        "score": 4,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "© 2026 Federation of British Artists.",
+        "score": 4,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+        "score": 3,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+        "score": 3,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "SWLA 63rd Annual Exhibition | The Natural Eye 2026",
+        "score": 3,
+        "types": []
+      },
+      {
+        "text": "Royal Institute of Painters in Water Colours",
+        "score": 3,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "NEAC Annual Exhibition 2026, including The NEAC Climate Emergency Prize",
+        "score": 3,
+        "types": []
+      }
+    ],
+    "page_results": [
+      {
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "final_url": "https://www.mallgalleries.org.uk/open-calls",
+        "http_status": 200,
+        "error": null,
+        "text_length": 2745,
+        "evidence_links": [
+          {
+            "label": "Explore Artists",
+            "url": "https://www.mallgalleries.org.uk/explore-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/society-wildlife-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-oil-painters"
+          },
+          {
+            "label": "Read more",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-painters-water-colours"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-portrait-painters"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/neac-artist-scholarships"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "© 2026 Federation of British Artists.",
+            "score": 4,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "SWLA 63rd Annual Exhibition | The Natural Eye 2026",
+            "score": 3,
+            "types": []
+          },
+          {
+            "text": "Royal Institute of Painters in Water Colours",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "NEAC Annual Exhibition 2026, including The NEAC Climate Emergency Prize",
+            "score": 3,
+            "types": []
+          },
+          {
+            "text": "Early-career artists are invited to apply for scholarships worth £7,000",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "The Jonathan Vickers Fine Art Award is one of the country’s largest art prizes for an emerging artist",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "Do you want to be notified when these artist opportunities are open for applications?",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "We empower artists through our not-for-profit programme",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Open Calls",
+          "Mall Galleries\nSkip",
+          "Events\nBuy Art\nOpen Calls",
+          "Venue Hire\nBecome",
+          "Friend\nCalendar",
+          "Friend\nAbout Us\nExplore Artists",
+          "Art Consultancy\nJoin",
+          "Support\nNews\nVisit Us\nCalendar",
+          "Search\nApply\nPopular",
+          "Events\nVisit Us\nVenue Hire",
+          "Open Calls\nArtworks\nBuy Art",
+          "Breadcrumb\nHome\nOpen Calls\nOpen",
+          "Calls\nExplore",
+          "The Federation",
+          "British Artists"
+        ]
+      },
+      {
+        "url": "https://www.mallgalleries.org.uk/open-exhibitions",
+        "final_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+        "http_status": 404,
+        "error": null,
+        "text_length": 1120,
+        "evidence_links": [
+          {
+            "label": "Explore Artists",
+            "url": "https://www.mallgalleries.org.uk/explore-artists"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "© 2026 Federation of British Artists.",
+            "score": 4,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "We empower artists through our not-for-profit programme",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Mall Galleries\nSkip",
+          "Events\nBuy Art\nOpen Calls",
+          "Venue Hire\nBecome",
+          "Friend\nCalendar",
+          "Friend\nAbout Us\nExplore Artists",
+          "Art Consultancy\nJoin",
+          "Support\nNews\nVisit Us\nCalendar",
+          "Search\nApply\nPopular",
+          "Events\nVisit Us\nVenue Hire",
+          "Open Calls\nArtworks\nBuy Art",
+          "Breadcrumb\nHome",
+          "READ MORE\nJoin",
+          "SIGN UP NOW\nYour",
+          "The Mall",
+          "Admission\nAccess\nWorking Here\nArt"
+        ]
+      },
+      {
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "final_url": "https://www.mallgalleries.org.uk/contact-us",
+        "http_status": 200,
+        "error": null,
+        "text_length": 1355,
+        "evidence_links": [
+          {
+            "label": "Explore Artists",
+            "url": "https://www.mallgalleries.org.uk/explore-artists"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "© 2026 Federation of British Artists.",
+            "score": 4,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "We empower artists through our not-for-profit programme",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Mall Galleries\nSkip",
+          "Events\nBuy Art\nOpen Calls",
+          "Venue Hire\nBecome",
+          "Friend\nCalendar",
+          "Friend\nAbout Us\nExplore Artists",
+          "Art Consultancy\nJoin",
+          "Support\nNews\nVisit Us\nCalendar",
+          "Search\nApply\nPopular",
+          "Events\nVisit Us\nVenue Hire",
+          "Open Calls\nArtworks\nBuy Art",
+          "Breadcrumb\nHome\nContact",
+          "Mall Galleries\nThe Mall",
+          "Trafalgar Square",
+          "British Artists",
+          "Carlton House Terrace\nLondon"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "evidence_status": "evidence_found",
+    "evidence_strength": 100,
+    "urls_checked": [
+      "https://www.mallgalleries.org.uk/open-calls",
+      "https://www.mallgalleries.org.uk/open-exhibitions",
+      "https://www.mallgalleries.org.uk/contact-us"
+    ],
+    "possible_names": [
+      "Open Calls",
+      "Mall Galleries\nSkip",
+      "Events\nBuy Art\nOpen Calls",
+      "Venue Hire\nBecome",
+      "Friend\nCalendar",
+      "Friend\nAbout Us\nExplore Artists",
+      "Art Consultancy\nJoin",
+      "Support\nNews\nVisit Us\nCalendar",
+      "Search\nApply\nPopular",
+      "Events\nVisit Us\nVenue Hire",
+      "Open Calls\nArtworks\nBuy Art",
+      "Breadcrumb\nHome\nOpen Calls\nOpen",
+      "Calls\nExplore",
+      "The Federation",
+      "British Artists",
+      "Breadcrumb\nHome",
+      "READ MORE\nJoin",
+      "SIGN UP NOW\nYour",
+      "The Mall",
+      "Admission\nAccess\nWorking Here\nArt"
+    ],
+    "evidence_links": [
+      {
+        "label": "Explore Artists",
+        "url": "https://www.mallgalleries.org.uk/explore-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/society-wildlife-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-oil-painters"
+      },
+      {
+        "label": "Read more",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-painters-water-colours"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-portrait-painters"
+      },
+      {
+        "label": "Read More",
+        "url": "https://www.mallgalleries.org.uk/open-calls/neac-artist-scholarships"
+      },
+      {
+        "label": "[no label]",
+        "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+      }
+    ],
+    "evidence_sentences": [
+      {
+        "text": "© 2026 Federation of British Artists.",
+        "score": 4,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "© 2026 Federation of British Artists.",
+        "score": 4,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "© 2026 Federation of British Artists.",
+        "score": 4,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+        "score": 3,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+        "score": 3,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "SWLA 63rd Annual Exhibition | The Natural Eye 2026",
+        "score": 3,
+        "types": []
+      },
+      {
+        "text": "Royal Institute of Painters in Water Colours",
+        "score": 3,
+        "types": [
+          "artist"
+        ]
+      },
+      {
+        "text": "NEAC Annual Exhibition 2026, including The NEAC Climate Emergency Prize",
+        "score": 3,
+        "types": []
+      }
+    ],
+    "page_results": [
+      {
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "final_url": "https://www.mallgalleries.org.uk/open-calls",
+        "http_status": 200,
+        "error": null,
+        "text_length": 2745,
+        "evidence_links": [
+          {
+            "label": "Explore Artists",
+            "url": "https://www.mallgalleries.org.uk/explore-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/society-wildlife-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-oil-painters"
+          },
+          {
+            "label": "Read more",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-british-artists"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-institute-painters-water-colours"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-portrait-painters"
+          },
+          {
+            "label": "Read More",
+            "url": "https://www.mallgalleries.org.uk/open-calls/neac-artist-scholarships"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "© 2026 Federation of British Artists.",
+            "score": 4,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "SWLA 63rd Annual Exhibition | The Natural Eye 2026",
+            "score": 3,
+            "types": []
+          },
+          {
+            "text": "Royal Institute of Painters in Water Colours",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "NEAC Annual Exhibition 2026, including The NEAC Climate Emergency Prize",
+            "score": 3,
+            "types": []
+          },
+          {
+            "text": "Early-career artists are invited to apply for scholarships worth £7,000",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "The Jonathan Vickers Fine Art Award is one of the country’s largest art prizes for an emerging artist",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "Do you want to be notified when these artist opportunities are open for applications?",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "We empower artists through our not-for-profit programme",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Open Calls",
+          "Mall Galleries\nSkip",
+          "Events\nBuy Art\nOpen Calls",
+          "Venue Hire\nBecome",
+          "Friend\nCalendar",
+          "Friend\nAbout Us\nExplore Artists",
+          "Art Consultancy\nJoin",
+          "Support\nNews\nVisit Us\nCalendar",
+          "Search\nApply\nPopular",
+          "Events\nVisit Us\nVenue Hire",
+          "Open Calls\nArtworks\nBuy Art",
+          "Breadcrumb\nHome\nOpen Calls\nOpen",
+          "Calls\nExplore",
+          "The Federation",
+          "British Artists"
+        ]
+      },
+      {
+        "url": "https://www.mallgalleries.org.uk/open-exhibitions",
+        "final_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+        "http_status": 404,
+        "error": null,
+        "text_length": 1120,
+        "evidence_links": [
+          {
+            "label": "Explore Artists",
+            "url": "https://www.mallgalleries.org.uk/explore-artists"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "© 2026 Federation of British Artists.",
+            "score": 4,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "We empower artists through our not-for-profit programme",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Mall Galleries\nSkip",
+          "Events\nBuy Art\nOpen Calls",
+          "Venue Hire\nBecome",
+          "Friend\nCalendar",
+          "Friend\nAbout Us\nExplore Artists",
+          "Art Consultancy\nJoin",
+          "Support\nNews\nVisit Us\nCalendar",
+          "Search\nApply\nPopular",
+          "Events\nVisit Us\nVenue Hire",
+          "Open Calls\nArtworks\nBuy Art",
+          "Breadcrumb\nHome",
+          "READ MORE\nJoin",
+          "SIGN UP NOW\nYour",
+          "The Mall",
+          "Admission\nAccess\nWorking Here\nArt"
+        ]
+      },
+      {
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "final_url": "https://www.mallgalleries.org.uk/contact-us",
+        "http_status": 200,
+        "error": null,
+        "text_length": 1355,
+        "evidence_links": [
+          {
+            "label": "Explore Artists",
+            "url": "https://www.mallgalleries.org.uk/explore-artists"
+          },
+          {
+            "label": "[no label]",
+            "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/"
+          }
+        ],
+        "evidence_sentences": [
+          {
+            "text": "© 2026 Federation of British Artists.",
+            "score": 4,
+            "types": [
+              "artist"
+            ]
+          },
+          {
+            "text": "We empower artists through our not-for-profit programme",
+            "score": 3,
+            "types": [
+              "artist"
+            ]
+          }
+        ],
+        "possible_names": [
+          "Mall Galleries\nSkip",
+          "Events\nBuy Art\nOpen Calls",
+          "Venue Hire\nBecome",
+          "Friend\nCalendar",
+          "Friend\nAbout Us\nExplore Artists",
+          "Art Consultancy\nJoin",
+          "Support\nNews\nVisit Us\nCalendar",
+          "Search\nApply\nPopular",
+          "Events\nVisit Us\nVenue Hire",
+          "Open Calls\nArtworks\nBuy Art",
+          "Breadcrumb\nHome\nContact",
+          "Mall Galleries\nThe Mall",
+          "Trafalgar Square",
+          "British Artists",
+          "Carlton House Terrace\nLondon"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "evidence_status": "partial_evidence",
+    "evidence_strength": 60,
+    "urls_checked": [
+      "https://www.jacksonsart.com/artprize/contact/",
+      "https://www.jacksonsart.com/paintingprize/",
+      "https://www.jacksonsart.com/artprize/"
+    ],
+    "possible_names": [
+      "Contact Jackson's Art Prize",
+      "Past Competitions",
+      "Connect\nFAQs\nContact\nNewsletter\nBuy",
+      "Artwork\nAbout\nCONTACT\nJACKSON",
+      "ART SUPPLIES\nJACKSON",
+      "ART GALLERY\nCONTACT\nIf",
+      "Customer Service Chat",
+      "CONTACT\nJACKSON",
+      "ART GALLERY\nJACKSON",
+      "ART SUPPLIES",
+      "FARLEIGH PLACE",
+      "Jackson's Art Prize",
+      "Artwork\nAbout\nJackson",
+      "Art Prize\nClick",
+      "Art Gallery",
+      "Art Prize.\nTOP\nCONTACT\nJACKSON"
+    ],
+    "evidence_links": [
+      {
+        "label": "Buy Artwork",
+        "url": "https://gallery.jacksonsart.com/"
+      }
+    ],
+    "evidence_sentences": [],
+    "page_results": [
+      {
+        "url": "https://www.jacksonsart.com/artprize/contact/",
+        "final_url": "https://www.jacksonsart.com/artprize/contact/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 595,
+        "evidence_links": [
+          {
+            "label": "Buy Artwork",
+            "url": "https://gallery.jacksonsart.com/"
+          }
+        ],
+        "evidence_sentences": [],
+        "possible_names": [
+          "Contact Jackson's Art Prize",
+          "Past Competitions",
+          "Connect\nFAQs\nContact\nNewsletter\nBuy",
+          "Artwork\nAbout\nCONTACT\nJACKSON",
+          "ART SUPPLIES\nJACKSON",
+          "ART GALLERY\nCONTACT\nIf",
+          "Customer Service Chat",
+          "CONTACT\nJACKSON",
+          "ART GALLERY\nJACKSON",
+          "ART SUPPLIES",
+          "FARLEIGH PLACE"
+        ]
+      },
+      {
+        "url": "https://www.jacksonsart.com/paintingprize/",
+        "final_url": "https://www.jacksonsart.com/artprize/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 544,
+        "evidence_links": [
+          {
+            "label": "Buy Artwork",
+            "url": "https://gallery.jacksonsart.com/"
+          }
+        ],
+        "evidence_sentences": [],
+        "possible_names": [
+          "Jackson's Art Prize",
+          "Past Competitions",
+          "Connect\nFAQs\nContact\nNewsletter\nBuy",
+          "Artwork\nAbout\nJackson",
+          "Art Prize\nClick",
+          "Art Gallery",
+          "Art Prize.\nTOP\nCONTACT\nJACKSON",
+          "ART SUPPLIES\nJACKSON",
+          "ART GALLERY\nJACKSON",
+          "ART SUPPLIES",
+          "FARLEIGH PLACE"
+        ]
+      },
+      {
+        "url": "https://www.jacksonsart.com/artprize/",
+        "final_url": "https://www.jacksonsart.com/artprize/",
+        "http_status": 200,
+        "error": null,
+        "text_length": 544,
+        "evidence_links": [
+          {
+            "label": "Buy Artwork",
+            "url": "https://gallery.jacksonsart.com/"
+          }
+        ],
+        "evidence_sentences": [],
+        "possible_names": [
+          "Jackson's Art Prize",
+          "Past Competitions",
+          "Connect\nFAQs\nContact\nNewsletter\nBuy",
+          "Artwork\nAbout\nJackson",
+          "Art Prize\nClick",
+          "Art Gallery",
+          "Art Prize.\nTOP\nCONTACT\nJACKSON",
+          "ART SUPPLIES\nJACKSON",
+          "ART GALLERY\nJACKSON",
+          "ART SUPPLIES",
+          "FARLEIGH PLACE"
+        ]
+      }
+    ]
+  }
+]

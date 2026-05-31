@@ -1,0 +1,490 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "opportunity_type": "book_fair",
+    "submission_method": "Application form",
+    "recommended_url": "https://tokyoartbookfair.com/application-form/",
+    "contact_page": "https://tokyoartbookfair.com/contact/",
+    "contact_email": "unknown",
+    "deadline": "6月7日",
+    "deadline_context": "お申込締切：6月7日（日）",
+    "fee": "unknown",
+    "image_count": "6-10 images or sample spreads",
+    "statement_length": "80-120 words",
+    "bio_length": "60-90 words",
+    "estimated_time": "2-4 hours if zine materials already exist",
+    "first_step": "Choose the specific zine/book/publication to submit.",
+    "must_do_first": [
+      "Confirm fee or whether there is no fee."
+    ],
+    "packet_items": [
+      {
+        "item": "Short artist bio / profile",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "CV / artist resume",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "Images of work",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "Zine/book/publication details",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "Sample images or spreads",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Edition size and price",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Artist bio / profile",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "zine/book title",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "short description",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "sample spreads or cover image",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "edition size",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "price",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "artist bio",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "links / Instagram / website",
+        "confirmed": false,
+        "source": "type_template"
+      }
+    ],
+    "eligibility_clues": [
+      "・TABFの出展者ブースは、4つのエリアに分かれています。それぞれ応募対象が異なりますので、ご自身に適したエリアをご選択ください。"
+    ]
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "opportunity_type": "gallery_submission",
+    "submission_method": "Google Form",
+    "recommended_url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+    "contact_page": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+    "contact_email": "unknown",
+    "deadline": "2026年6月1日",
+    "deadline_context": "2026年6月1日(月)〜6月6日(土)",
+    "fee": "unknown",
+    "image_count": "8-12 artwork images",
+    "statement_length": "120-180 words",
+    "bio_length": "60-100 words",
+    "estimated_time": "2-3 hours if images are already selected",
+    "first_step": "Select 8-12 coherent works that look like one body of work.",
+    "must_do_first": [
+      "Confirm fee or whether there is no fee."
+    ],
+    "packet_items": [
+      {
+        "item": "Short artist bio / profile",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "CV / artist resume",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "Zine/book/publication details",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "8-12 images of work",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Artist statement",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Work details: title, medium, size, year",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "8-12 images",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "artist statement",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "short bio",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "work list: title, medium, size, year",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "portfolio PDF or link",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "Instagram / website",
+        "confirmed": false,
+        "source": "type_template"
+      }
+    ],
+    "eligibility_clues": []
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "opportunity_type": "open_exhibition",
+    "submission_method": "Open call page",
+    "recommended_url": "https://www.mallgalleries.org.uk/open-calls",
+    "contact_page": "https://www.mallgalleries.org.uk/contact-us",
+    "contact_email": "unknown",
+    "deadline": "unknown",
+    "deadline_context": "",
+    "fee": "unknown",
+    "image_count": "1-5 images depending on call rules",
+    "statement_length": "80-150 words",
+    "bio_length": "60-100 words",
+    "estimated_time": "1-3 hours after rules are verified",
+    "first_step": "Confirm deadline, fee, eligibility, medium, and image formatting rules.",
+    "must_do_first": [
+      "Confirm deadline.",
+      "Confirm fee or whether there is no fee."
+    ],
+    "packet_items": [
+      {
+        "item": "Work details: title, medium, size, year",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "Images of work",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Eligibility check",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Entry fee confirmation",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "images formatted to rules",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "work details",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "artist statement if requested",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "short bio",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "entry fee confirmation",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "eligibility confirmation",
+        "confirmed": false,
+        "source": "type_template"
+      }
+    ],
+    "eligibility_clues": [
+      "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+      "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+      "Royal Society of Marine Artists",
+      "Society of Wildlife Artists",
+      "Royal Society of British Artists"
+    ]
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "opportunity_type": "open_exhibition",
+    "submission_method": "Open call page",
+    "recommended_url": "https://www.mallgalleries.org.uk/open-calls",
+    "contact_page": "https://www.mallgalleries.org.uk/contact-us",
+    "contact_email": "unknown",
+    "deadline": "unknown",
+    "deadline_context": "",
+    "fee": "unknown",
+    "image_count": "1-5 images depending on call rules",
+    "statement_length": "80-150 words",
+    "bio_length": "60-100 words",
+    "estimated_time": "1-3 hours after rules are verified",
+    "first_step": "Confirm deadline, fee, eligibility, medium, and image formatting rules.",
+    "must_do_first": [
+      "Confirm deadline.",
+      "Confirm fee or whether there is no fee."
+    ],
+    "packet_items": [
+      {
+        "item": "Work details: title, medium, size, year",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "Images of work",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Eligibility check",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Entry fee confirmation",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "images formatted to rules",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "work details",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "artist statement if requested",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "short bio",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "entry fee confirmation",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "eligibility confirmation",
+        "confirmed": false,
+        "source": "type_template"
+      }
+    ],
+    "eligibility_clues": [
+      "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+      "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+      "Royal Society of Marine Artists",
+      "Society of Wildlife Artists",
+      "Royal Society of British Artists"
+    ]
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "opportunity_type": "open_exhibition",
+    "submission_method": "Open call page",
+    "recommended_url": "https://www.mallgalleries.org.uk/open-calls",
+    "contact_page": "https://www.mallgalleries.org.uk/contact-us",
+    "contact_email": "unknown",
+    "deadline": "unknown",
+    "deadline_context": "",
+    "fee": "unknown",
+    "image_count": "1-5 images depending on call rules",
+    "statement_length": "80-150 words",
+    "bio_length": "60-100 words",
+    "estimated_time": "1-3 hours after rules are verified",
+    "first_step": "Confirm deadline, fee, eligibility, medium, and image formatting rules.",
+    "must_do_first": [
+      "Confirm deadline.",
+      "Confirm fee or whether there is no fee."
+    ],
+    "packet_items": [
+      {
+        "item": "Work details: title, medium, size, year",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "Images of work",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Eligibility check",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Entry fee confirmation",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "images formatted to rules",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "work details",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "artist statement if requested",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "short bio",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "entry fee confirmation",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "eligibility confirmation",
+        "confirmed": false,
+        "source": "type_template"
+      }
+    ],
+    "eligibility_clues": [
+      "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+      "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+      "Royal Society of Marine Artists",
+      "Society of Wildlife Artists",
+      "Royal Society of British Artists"
+    ]
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "opportunity_type": "competition",
+    "submission_method": "Contact page / inquiry",
+    "recommended_url": "https://www.jacksonsart.com/artprize/contact/",
+    "contact_page": "https://www.jacksonsart.com/artprize/contact/",
+    "contact_email": "unknown",
+    "deadline": "unknown",
+    "deadline_context": "",
+    "fee": "unknown",
+    "image_count": "1-5 strongest works",
+    "statement_length": "80-150 words if requested",
+    "bio_length": "60-100 words",
+    "estimated_time": "1-3 hours after rules are verified",
+    "first_step": "Confirm fee, deadline, eligibility, and whether rights terms are acceptable.",
+    "must_do_first": [
+      "Confirm deadline.",
+      "Confirm fee or whether there is no fee."
+    ],
+    "packet_items": [
+      {
+        "item": "Work details: title, medium, size, year",
+        "confirmed": true,
+        "source": "page_text"
+      },
+      {
+        "item": "Images of work",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Artist bio / profile",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "Entry fee confirmation",
+        "confirmed": false,
+        "source": "type_default"
+      },
+      {
+        "item": "strongest images",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "work details",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "artist bio",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "artist statement if requested",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "fee confirmation",
+        "confirmed": false,
+        "source": "type_template"
+      },
+      {
+        "item": "rights/usage terms check",
+        "confirmed": false,
+        "source": "type_template"
+      }
+    ],
+    "eligibility_clues": [
+      "Find shortlisted artists on"
+    ]
+  }
+]

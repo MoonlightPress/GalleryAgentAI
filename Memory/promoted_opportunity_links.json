@@ -1,0 +1,343 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "promoted_links": [
+      {
+        "label": "ブース申込フォームはこちら（別ページへ）",
+        "url": "https://tokyoartbookfair.com/application-form/",
+        "categories": [
+          "application_form",
+          "submission_guidelines"
+        ],
+        "score": 18
+      },
+      {
+        "label": "APPLICATION",
+        "url": "https://tokyoartbookfair.com/application/",
+        "categories": [
+          "submission_guidelines"
+        ],
+        "score": 8
+      },
+      {
+        "label": "EN",
+        "url": "https://tokyoartbookfair.com/en/application/",
+        "categories": [
+          "submission_guidelines"
+        ],
+        "score": 8
+      },
+      {
+        "label": "CONTACT",
+        "url": "https://tokyoartbookfair.com/contact/",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "application_forms": [
+      {
+        "label": "ブース申込フォームはこちら（別ページへ）",
+        "url": "https://tokyoartbookfair.com/application-form/",
+        "categories": [
+          "application_form",
+          "submission_guidelines"
+        ],
+        "score": 18
+      }
+    ],
+    "submission_guidelines": [
+      {
+        "label": "ブース申込フォームはこちら（別ページへ）",
+        "url": "https://tokyoartbookfair.com/application-form/",
+        "categories": [
+          "application_form",
+          "submission_guidelines"
+        ],
+        "score": 18
+      },
+      {
+        "label": "APPLICATION",
+        "url": "https://tokyoartbookfair.com/application/",
+        "categories": [
+          "submission_guidelines"
+        ],
+        "score": 8
+      },
+      {
+        "label": "EN",
+        "url": "https://tokyoartbookfair.com/en/application/",
+        "categories": [
+          "submission_guidelines"
+        ],
+        "score": 8
+      }
+    ],
+    "contact_pages": [
+      {
+        "label": "CONTACT",
+        "url": "https://tokyoartbookfair.com/contact/",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "open_calls": [],
+    "instagram": [],
+    "other": []
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "promoted_links": [
+      {
+        "label": "Contact",
+        "url": "https://www.jacksonsart.com/artprize/contact/",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "application_forms": [],
+    "submission_guidelines": [],
+    "contact_pages": [
+      {
+        "label": "Contact",
+        "url": "https://www.jacksonsart.com/artprize/contact/",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "open_calls": [],
+    "instagram": [],
+    "other": []
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "promoted_links": [
+      {
+        "label": "Contact",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+        "categories": [
+          "application_form",
+          "contact_page"
+        ],
+        "score": 16
+      },
+      {
+        "label": "応募要項",
+        "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/",
+        "categories": [
+          "submission_guidelines"
+        ],
+        "score": 8
+      },
+      {
+        "label": "NEW: 第26回ピンポイント絵本コンペ応募要項 〜2025年〜",
+        "url": "https://pinpointgallery.com/competition_oubo2025/",
+        "categories": [
+          "submission_guidelines"
+        ],
+        "score": 8
+      },
+      {
+        "label": "お問い合わせ",
+        "url": "https://pinpointgallery.com/contact-2/",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "application_forms": [
+      {
+        "label": "Contact",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+        "categories": [
+          "application_form",
+          "contact_page"
+        ],
+        "score": 16
+      }
+    ],
+    "submission_guidelines": [
+      {
+        "label": "応募要項",
+        "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/",
+        "categories": [
+          "submission_guidelines"
+        ],
+        "score": 8
+      },
+      {
+        "label": "NEW: 第26回ピンポイント絵本コンペ応募要項 〜2025年〜",
+        "url": "https://pinpointgallery.com/competition_oubo2025/",
+        "categories": [
+          "submission_guidelines"
+        ],
+        "score": 8
+      }
+    ],
+    "contact_pages": [
+      {
+        "label": "Contact",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+        "categories": [
+          "application_form",
+          "contact_page"
+        ],
+        "score": 16
+      },
+      {
+        "label": "お問い合わせ",
+        "url": "https://pinpointgallery.com/contact-2/",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "open_calls": [],
+    "instagram": [],
+    "other": []
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "promoted_links": [
+      {
+        "label": "Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "categories": [
+          "open_call"
+        ],
+        "score": 8
+      },
+      {
+        "label": "Contact us",
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "application_forms": [],
+    "submission_guidelines": [],
+    "contact_pages": [
+      {
+        "label": "Contact us",
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "open_calls": [
+      {
+        "label": "Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "categories": [
+          "open_call"
+        ],
+        "score": 8
+      }
+    ],
+    "instagram": [],
+    "other": []
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "promoted_links": [
+      {
+        "label": "Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "categories": [
+          "open_call"
+        ],
+        "score": 8
+      },
+      {
+        "label": "Contact us",
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "application_forms": [],
+    "submission_guidelines": [],
+    "contact_pages": [
+      {
+        "label": "Contact us",
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "open_calls": [
+      {
+        "label": "Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "categories": [
+          "open_call"
+        ],
+        "score": 8
+      }
+    ],
+    "instagram": [],
+    "other": []
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "promoted_links": [
+      {
+        "label": "Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "categories": [
+          "open_call"
+        ],
+        "score": 8
+      },
+      {
+        "label": "Contact us",
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "application_forms": [],
+    "submission_guidelines": [],
+    "contact_pages": [
+      {
+        "label": "Contact us",
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "categories": [
+          "contact_page"
+        ],
+        "score": 6
+      }
+    ],
+    "open_calls": [
+      {
+        "label": "Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "categories": [
+          "open_call"
+        ],
+        "score": 8
+      }
+    ],
+    "instagram": [],
+    "other": []
+  }
+]

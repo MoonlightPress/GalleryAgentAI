@@ -1,0 +1,395 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "opportunity_type": "book_fair",
+    "dna_match_score": 9.3,
+    "verdict": "strong_match",
+    "reasons": [
+      "artist already has zines",
+      "publication practice makes book-fair context plausible",
+      "audience overlaps with small-press and artist-book culture",
+      "existing zines make this more relevant than a painting-only profile",
+      "application or open-call page found"
+    ],
+    "risks": [
+      "contact not yet confirmed",
+      "requires selecting or preparing a concrete zine/book object"
+    ],
+    "best_link": "https://tokyoartbookfair.com/application/",
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "opportunity_type": "gallery_submission",
+    "dna_match_score": 9.3,
+    "verdict": "strong_match",
+    "reasons": [
+      "direct venue relationship possible",
+      "fits works-on-paper or small exhibition pathway",
+      "useful for building local visibility",
+      "keyword/audience overlap: gallery",
+      "small gallery / illustration-adjacent path looks compatible with watercolor",
+      "application or open-call page found"
+    ],
+    "risks": [
+      "contact not yet confirmed",
+      "deadline not yet confirmed"
+    ],
+    "best_link": "https://pinpointgallery.com/competition/",
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "MOUNT ZINE",
+    "opportunity_type": "zine_fair",
+    "dna_match_score": 8.6,
+    "verdict": "strong_match",
+    "reasons": [
+      "artist already has zines",
+      "low-pressure publication ecosystem",
+      "good fit for small watercolor sequences",
+      "keyword/audience overlap: zine",
+      "existing zines make this more relevant than a painting-only profile"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed",
+      "requires selecting or preparing a concrete zine/book object"
+    ],
+    "best_link": "https://zine.mount.co.jp/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "UTRECHT",
+    "opportunity_type": "gallery_submission",
+    "dna_match_score": 8.3,
+    "verdict": "strong_match",
+    "reasons": [
+      "direct venue relationship possible",
+      "fits works-on-paper or small exhibition pathway",
+      "useful for building local visibility",
+      "keyword/audience overlap: gallery",
+      "existing zines make this more relevant than a painting-only profile"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed"
+    ],
+    "best_link": "https://utrecht.jp/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Book and Sons",
+    "opportunity_type": "gallery_submission",
+    "dna_match_score": 8.3,
+    "verdict": "strong_match",
+    "reasons": [
+      "direct venue relationship possible",
+      "fits works-on-paper or small exhibition pathway",
+      "useful for building local visibility",
+      "keyword/audience overlap: gallery",
+      "existing zines make this more relevant than a painting-only profile"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed"
+    ],
+    "best_link": "https://bookandsons.com/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "POST",
+    "opportunity_type": "gallery_submission",
+    "dna_match_score": 8.3,
+    "verdict": "strong_match",
+    "reasons": [
+      "direct venue relationship possible",
+      "fits works-on-paper or small exhibition pathway",
+      "useful for building local visibility",
+      "keyword/audience overlap: gallery",
+      "existing zines make this more relevant than a painting-only profile"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed"
+    ],
+    "best_link": "https://post-books.info/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "HB Gallery",
+    "opportunity_type": "gallery_submission",
+    "dna_match_score": 8.2,
+    "verdict": "strong_match",
+    "reasons": [
+      "direct venue relationship possible",
+      "fits works-on-paper or small exhibition pathway",
+      "useful for building local visibility",
+      "keyword/audience overlap: gallery",
+      "small gallery / illustration-adjacent path looks compatible with watercolor"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed"
+    ],
+    "best_link": "https://hbgallery.com/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "OPA Gallery",
+    "opportunity_type": "gallery_submission",
+    "dna_match_score": 8.2,
+    "verdict": "strong_match",
+    "reasons": [
+      "direct venue relationship possible",
+      "fits works-on-paper or small exhibition pathway",
+      "useful for building local visibility",
+      "keyword/audience overlap: gallery",
+      "small gallery / illustration-adjacent path looks compatible with watercolor"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed"
+    ],
+    "best_link": "https://opagallery.net/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "opportunity_type": "open_exhibition",
+    "dna_match_score": 7.7,
+    "verdict": "promising_match",
+    "reasons": [
+      "formal exhibition path",
+      "works-on-paper may be eligible",
+      "good if deadline, fee, and rules are verified",
+      "application or open-call page found"
+    ],
+    "risks": [
+      "contact not yet confirmed",
+      "deadline not yet confirmed"
+    ],
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "opportunity_type": "open_exhibition",
+    "dna_match_score": 7.7,
+    "verdict": "promising_match",
+    "reasons": [
+      "formal exhibition path",
+      "works-on-paper may be eligible",
+      "good if deadline, fee, and rules are verified",
+      "application or open-call page found"
+    ],
+    "risks": [
+      "contact not yet confirmed",
+      "deadline not yet confirmed"
+    ],
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "opportunity_type": "open_exhibition",
+    "dna_match_score": 7.7,
+    "verdict": "promising_match",
+    "reasons": [
+      "formal exhibition path",
+      "works-on-paper may be eligible",
+      "good if deadline, fee, and rules are verified",
+      "application or open-call page found"
+    ],
+    "risks": [
+      "contact not yet confirmed",
+      "deadline not yet confirmed"
+    ],
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Home - Printed Matter",
+    "opportunity_type": "book_fair",
+    "dna_match_score": 7.4,
+    "verdict": "promising_match",
+    "reasons": [
+      "artist already has zines",
+      "publication practice makes book-fair context plausible",
+      "audience overlaps with small-press and artist-book culture"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed",
+      "requires selecting or preparing a concrete zine/book object"
+    ],
+    "best_link": "https://www.printedmatter.org/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Offprint",
+    "opportunity_type": "book_fair",
+    "dna_match_score": 7.4,
+    "verdict": "promising_match",
+    "reasons": [
+      "artist already has zines",
+      "publication practice makes book-fair context plausible",
+      "audience overlaps with small-press and artist-book culture"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed",
+      "requires selecting or preparing a concrete zine/book object"
+    ],
+    "best_link": "https://offprint.org/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Printed Matter Art Book Fairs",
+    "opportunity_type": "book_fair",
+    "dna_match_score": 7.4,
+    "verdict": "promising_match",
+    "reasons": [
+      "artist already has zines",
+      "publication practice makes book-fair context plausible",
+      "audience overlaps with small-press and artist-book culture"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed",
+      "requires selecting or preparing a concrete zine/book object"
+    ],
+    "best_link": "https://www.printedmatter.org/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "opportunity_type": "competition",
+    "dna_match_score": 7.1,
+    "verdict": "promising_match",
+    "reasons": [
+      "can provide external validation",
+      "useful only if medium and fee fit",
+      "less personal than gallery/bookstore paths",
+      "keyword/audience overlap: gallery",
+      "application or open-call page found"
+    ],
+    "risks": [
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "may be competitive or fee-dependent"
+    ],
+    "best_link": "https://www.jacksonsart.com/paintingprize/",
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Self Publish, Be Happy",
+    "opportunity_type": "publication",
+    "dna_match_score": 6.6,
+    "verdict": "promising_match",
+    "reasons": [
+      "could fit if works are sequenced as a project",
+      "supports small-press visibility",
+      "useful only with a coherent series",
+      "keyword/audience overlap: publication"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed"
+    ],
+    "best_link": "https://selfpublishbehappy.com/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Society of Women Artists",
+    "opportunity_type": "open_exhibition",
+    "dna_match_score": 6.6,
+    "verdict": "promising_match",
+    "reasons": [
+      "formal exhibition path",
+      "works-on-paper may be eligible",
+      "good if deadline, fee, and rules are verified"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed"
+    ],
+    "best_link": "https://www.society-women-artists.org.uk/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Browse Printed Matter Editions",
+    "opportunity_type": "book_fair",
+    "dna_match_score": 3.3,
+    "verdict": "low_priority",
+    "reasons": [
+      "artist already has zines",
+      "publication practice makes book-fair context plausible",
+      "audience overlaps with small-press and artist-book culture"
+    ],
+    "risks": [
+      "likely false positive or archive/catalog page",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed",
+      "requires selecting or preparing a concrete zine/book object"
+    ],
+    "best_link": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions",
+    "actionability": "reject_or_archive"
+  },
+  {
+    "title": "Royal Watercolour Society",
+    "opportunity_type": "unknown",
+    "dna_match_score": 3.1,
+    "verdict": "low_priority",
+    "reasons": [
+      "fit cannot be trusted until opportunity type is verified"
+    ],
+    "risks": [
+      "submission/contact path still needs manual verification",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed"
+    ],
+    "best_link": "https://www.royalwatercoloursociety.co.uk/",
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
+    "opportunity_type": "unknown",
+    "dna_match_score": 0,
+    "verdict": "low_priority",
+    "reasons": [
+      "fit cannot be trusted until opportunity type is verified"
+    ],
+    "risks": [
+      "likely false positive or archive/catalog page",
+      "contact not yet confirmed",
+      "deadline not yet confirmed",
+      "application/submission link not yet confirmed"
+    ],
+    "best_link": "https://www.printedmatter.org/programs/events/2250",
+    "actionability": "reject_or_archive"
+  }
+]

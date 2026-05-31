@@ -1,0 +1,166 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "status": "needs_final_verification",
+    "opportunity_type": "book_fair",
+    "completeness_score": 85,
+    "dna_match_score": 9.3,
+    "official_submission_url": "https://tokyoartbookfair.com/application/",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "2027年1月21日",
+    "deadline_source": "https://tokyoartbookfair.com/application/",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [],
+    "required_materials": [
+      "images of work"
+    ],
+    "confidence": 0.58,
+    "source_urls": [
+      "https://tokyoartbookfair.com/",
+      "https://tokyoartbookfair.com/application/"
+    ],
+    "missing": [
+      "contact"
+    ]
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "status": "needs_final_verification",
+    "opportunity_type": "competition",
+    "completeness_score": 70,
+    "dna_match_score": 7.1,
+    "official_submission_url": "https://www.jacksonsart.com/paintingprize/",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "unknown",
+    "deadline_source": "",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [
+      "Follow us on Instagram for the latest updates: @jacksons_art_prize Find shortlisted artists on Jackson’s Art Gallery ."
+    ],
+    "required_materials": [
+      "manual requirement check needed"
+    ],
+    "confidence": 0.42,
+    "source_urls": [
+      "https://www.jacksonsart.com/paintingprize/",
+      "https://www.jacksonsart.com/artprize/"
+    ],
+    "missing": [
+      "contact",
+      "deadline"
+    ]
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "status": "needs_final_verification",
+    "opportunity_type": "gallery_submission",
+    "completeness_score": 70,
+    "dna_match_score": 9.3,
+    "official_submission_url": "https://pinpointgallery.com/competition/",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "unknown",
+    "deadline_source": "",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [],
+    "required_materials": [
+      "work details",
+      "profile/bio"
+    ],
+    "confidence": 0.37,
+    "source_urls": [
+      "https://pinpointgallery.com/",
+      "https://pinpointgallery.com/competition/"
+    ],
+    "missing": [
+      "contact",
+      "deadline"
+    ]
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "status": "needs_final_verification",
+    "opportunity_type": "open_exhibition",
+    "completeness_score": 70,
+    "dna_match_score": 7.7,
+    "official_submission_url": "https://www.mallgalleries.org.uk/open-calls",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "unknown",
+    "deadline_source": "",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [],
+    "required_materials": [
+      "manual requirement check needed"
+    ],
+    "confidence": 0.27,
+    "source_urls": [
+      "https://www.mallgalleries.org.uk/open-exhibitions",
+      "https://www.mallgalleries.org.uk/open-calls"
+    ],
+    "missing": [
+      "contact",
+      "deadline"
+    ]
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "status": "needs_final_verification",
+    "opportunity_type": "open_exhibition",
+    "completeness_score": 70,
+    "dna_match_score": 7.7,
+    "official_submission_url": "https://www.mallgalleries.org.uk/open-calls",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "unknown",
+    "deadline_source": "",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [],
+    "required_materials": [
+      "manual requirement check needed"
+    ],
+    "confidence": 0.27,
+    "source_urls": [
+      "https://www.mallgalleries.org.uk/open-exhibitions",
+      "https://www.mallgalleries.org.uk/open-calls"
+    ],
+    "missing": [
+      "contact",
+      "deadline"
+    ]
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "status": "needs_final_verification",
+    "opportunity_type": "open_exhibition",
+    "completeness_score": 70,
+    "dna_match_score": 7.7,
+    "official_submission_url": "https://www.mallgalleries.org.uk/open-calls",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "unknown",
+    "deadline_source": "",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [],
+    "required_materials": [
+      "manual requirement check needed"
+    ],
+    "confidence": 0.27,
+    "source_urls": [
+      "https://www.mallgalleries.org.uk/open-exhibitions",
+      "https://www.mallgalleries.org.uk/open-calls"
+    ],
+    "missing": [
+      "contact",
+      "deadline"
+    ]
+  }
+]

@@ -1,0 +1,335 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "status": "actionable",
+    "confidence": 0.96,
+    "submission_method": "Application form",
+    "recommended_url": "https://tokyoartbookfair.com/application-form/",
+    "application_form_url": "https://tokyoartbookfair.com/application-form/",
+    "submission_guidelines_url": "https://tokyoartbookfair.com/application-form/",
+    "open_call_url": "unknown",
+    "contact_page_url": "https://tokyoartbookfair.com/contact/",
+    "contact_email": "unknown",
+    "deadline": "6月7日",
+    "deadline_context": "お申込締切：6月7日（日）",
+    "fee": "unknown",
+    "required_materials": [
+      {
+        "item": "Short artist bio / profile",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "CV / artist resume",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "Images of work",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "Zine/book/publication details",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "Sample images or spreads",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Edition size and price",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Artist bio / profile",
+        "source": "type_default",
+        "confirmed": false
+      }
+    ],
+    "eligibility_clues": [
+      "・TABFの出展者ブースは、4つのエリアに分かれています。それぞれ応募対象が異なりますので、ご自身に適したエリアをご選択ください。"
+    ],
+    "deadline_candidates": [
+      {
+        "date": "6月7日",
+        "sentence": "お申込締切：6月7日（日）",
+        "deadline_score": 110
+      },
+      {
+        "date": "2027年1月29日",
+        "sentence": "2027年1月29日（金）- 1月31日（日）",
+        "deadline_score": 10
+      },
+      {
+        "date": "1月31日",
+        "sentence": "2027年1月29日（金）- 1月31日（日）",
+        "deadline_score": 10
+      },
+      {
+        "date": "2027年1月21日",
+        "sentence": "会期：2027年1月21日（木）- 1月24日（日）",
+        "deadline_score": -40
+      },
+      {
+        "date": "1月24日",
+        "sentence": "会期：2027年1月21日（木）- 1月24日（日）",
+        "deadline_score": -40
+      }
+    ]
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "status": "actionable",
+    "confidence": 0.81,
+    "submission_method": "Google Form",
+    "recommended_url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+    "application_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+    "submission_guidelines_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/",
+    "open_call_url": "unknown",
+    "contact_page_url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+    "contact_email": "unknown",
+    "deadline": "2026年6月1日",
+    "deadline_context": "2026年6月1日(月)〜6月6日(土)",
+    "fee": "unknown",
+    "required_materials": [
+      {
+        "item": "Short artist bio / profile",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "CV / artist resume",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "Zine/book/publication details",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "8-12 images of work",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Artist statement",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Work details: title, medium, size, year",
+        "source": "type_default",
+        "confirmed": false
+      }
+    ],
+    "eligibility_clues": [],
+    "deadline_candidates": [
+      {
+        "date": "2026年6月1日",
+        "sentence": "2026年6月1日(月)〜6月6日(土)",
+        "deadline_score": 10
+      },
+      {
+        "date": "6月6日",
+        "sentence": "2026年6月1日(月)〜6月6日(土)",
+        "deadline_score": 10
+      },
+      {
+        "date": "2026年6月1日",
+        "sentence": "2026年6月1日(月)〜6月6日(土)",
+        "deadline_score": 10
+      },
+      {
+        "date": "6月6日",
+        "sentence": "2026年6月1日(月)〜6月6日(土)",
+        "deadline_score": 10
+      },
+      {
+        "date": "2026年6月8日",
+        "sentence": "2026年6月8日(月)〜6月13(土)",
+        "deadline_score": 10
+      }
+    ]
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "status": "needs_final_verification",
+    "confidence": 0.64,
+    "submission_method": "Open call page",
+    "recommended_url": "https://www.mallgalleries.org.uk/open-calls",
+    "application_form_url": "unknown",
+    "submission_guidelines_url": "unknown",
+    "open_call_url": "https://www.mallgalleries.org.uk/open-calls",
+    "contact_page_url": "https://www.mallgalleries.org.uk/contact-us",
+    "contact_email": "unknown",
+    "deadline": "unknown",
+    "deadline_context": "",
+    "fee": "unknown",
+    "required_materials": [
+      {
+        "item": "Work details: title, medium, size, year",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "Images of work",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Eligibility check",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Entry fee confirmation",
+        "source": "type_default",
+        "confirmed": false
+      }
+    ],
+    "eligibility_clues": [
+      "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+      "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+      "Royal Society of Marine Artists",
+      "Society of Wildlife Artists",
+      "Royal Society of British Artists"
+    ],
+    "deadline_candidates": []
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "status": "needs_final_verification",
+    "confidence": 0.64,
+    "submission_method": "Open call page",
+    "recommended_url": "https://www.mallgalleries.org.uk/open-calls",
+    "application_form_url": "unknown",
+    "submission_guidelines_url": "unknown",
+    "open_call_url": "https://www.mallgalleries.org.uk/open-calls",
+    "contact_page_url": "https://www.mallgalleries.org.uk/contact-us",
+    "contact_email": "unknown",
+    "deadline": "unknown",
+    "deadline_context": "",
+    "fee": "unknown",
+    "required_materials": [
+      {
+        "item": "Work details: title, medium, size, year",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "Images of work",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Eligibility check",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Entry fee confirmation",
+        "source": "type_default",
+        "confirmed": false
+      }
+    ],
+    "eligibility_clues": [
+      "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+      "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+      "Royal Society of Marine Artists",
+      "Society of Wildlife Artists",
+      "Royal Society of British Artists"
+    ],
+    "deadline_candidates": []
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "status": "needs_final_verification",
+    "confidence": 0.64,
+    "submission_method": "Open call page",
+    "recommended_url": "https://www.mallgalleries.org.uk/open-calls",
+    "application_form_url": "unknown",
+    "submission_guidelines_url": "unknown",
+    "open_call_url": "https://www.mallgalleries.org.uk/open-calls",
+    "contact_page_url": "https://www.mallgalleries.org.uk/contact-us",
+    "contact_email": "unknown",
+    "deadline": "unknown",
+    "deadline_context": "",
+    "fee": "unknown",
+    "required_materials": [
+      {
+        "item": "Work details: title, medium, size, year",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "Images of work",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Eligibility check",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Entry fee confirmation",
+        "source": "type_default",
+        "confirmed": false
+      }
+    ],
+    "eligibility_clues": [
+      "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+      "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+      "Royal Society of Marine Artists",
+      "Society of Wildlife Artists",
+      "Royal Society of British Artists"
+    ],
+    "deadline_candidates": []
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "status": "needs_final_verification",
+    "confidence": 0.56,
+    "submission_method": "Contact page / inquiry",
+    "recommended_url": "https://www.jacksonsart.com/artprize/contact/",
+    "application_form_url": "unknown",
+    "submission_guidelines_url": "unknown",
+    "open_call_url": "unknown",
+    "contact_page_url": "https://www.jacksonsart.com/artprize/contact/",
+    "contact_email": "unknown",
+    "deadline": "unknown",
+    "deadline_context": "",
+    "fee": "unknown",
+    "required_materials": [
+      {
+        "item": "Work details: title, medium, size, year",
+        "source": "page_text",
+        "confirmed": true
+      },
+      {
+        "item": "Images of work",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Artist bio / profile",
+        "source": "type_default",
+        "confirmed": false
+      },
+      {
+        "item": "Entry fee confirmation",
+        "source": "type_default",
+        "confirmed": false
+      }
+    ],
+    "eligibility_clues": [
+      "Find shortlisted artists on"
+    ],
+    "deadline_candidates": []
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "score": 10,
+    "best_link": "https://tokyoartbookfair.com/application/",
+    "contact_guesses": [
+      "info@tokyoartbookfair.com",
+      "contact@tokyoartbookfair.com",
+      "gallery@tokyoartbookfair.com"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "score": 10,
+    "best_link": "https://www.jacksonsart.com/paintingprize/",
+    "contact_guesses": [
+      "info@jacksonsart.com",
+      "contact@jacksonsart.com",
+      "gallery@jacksonsart.com"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "score": 10,
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "contact_guesses": [
+      "info@mallgalleries.org.uk",
+      "contact@mallgalleries.org.uk",
+      "gallery@mallgalleries.org.uk"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "score": 10,
+    "best_link": "https://pinpointgallery.com/competition/",
+    "contact_guesses": [
+      "info@pinpointgallery.com",
+      "contact@pinpointgallery.com",
+      "gallery@pinpointgallery.com"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "score": 10,
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "contact_guesses": [
+      "info@mallgalleries.org.uk",
+      "contact@mallgalleries.org.uk",
+      "gallery@mallgalleries.org.uk"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "score": 10,
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "contact_guesses": [
+      "info@mallgalleries.org.uk",
+      "contact@mallgalleries.org.uk",
+      "gallery@mallgalleries.org.uk"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "HB Gallery",
+    "score": 9.5,
+    "best_link": "https://hbgallery.com/",
+    "contact_guesses": [
+      "info@hbgallery.com",
+      "contact@hbgallery.com",
+      "gallery@hbgallery.com"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "OPA Gallery",
+    "score": 9.5,
+    "best_link": "https://opagallery.net/",
+    "contact_guesses": [
+      "info@opagallery.net",
+      "contact@opagallery.net",
+      "gallery@opagallery.net"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "MOUNT ZINE",
+    "score": 9.4,
+    "best_link": "https://zine.mount.co.jp/",
+    "contact_guesses": [
+      "info@zine.mount.co.jp",
+      "contact@zine.mount.co.jp",
+      "gallery@zine.mount.co.jp"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "Home - Printed Matter",
+    "score": 9.0,
+    "best_link": "https://www.printedmatter.org/",
+    "contact_guesses": [
+      "info@printedmatter.org",
+      "contact@printedmatter.org",
+      "gallery@printedmatter.org"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "UTRECHT",
+    "score": 8.9,
+    "best_link": "https://utrecht.jp/",
+    "contact_guesses": [
+      "info@utrecht.jp",
+      "contact@utrecht.jp",
+      "gallery@utrecht.jp"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "Book and Sons",
+    "score": 8.9,
+    "best_link": "https://bookandsons.com/",
+    "contact_guesses": [
+      "info@bookandsons.com",
+      "contact@bookandsons.com",
+      "gallery@bookandsons.com"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "Self Publish, Be Happy",
+    "score": 8.6,
+    "best_link": "https://selfpublishbehappy.com/",
+    "contact_guesses": [
+      "info@selfpublishbehappy.com",
+      "contact@selfpublishbehappy.com",
+      "gallery@selfpublishbehappy.com"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "Offprint",
+    "score": 8.4,
+    "best_link": "https://offprint.org/",
+    "contact_guesses": [
+      "info@offprint.org",
+      "contact@offprint.org",
+      "gallery@offprint.org"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "Printed Matter Art Book Fairs",
+    "score": 8.4,
+    "best_link": "https://www.printedmatter.org/",
+    "contact_guesses": [
+      "info@printedmatter.org",
+      "contact@printedmatter.org",
+      "gallery@printedmatter.org"
+    ],
+    "needs_manual_verification": true
+  },
+  {
+    "title": "POST",
+    "score": 8.1,
+    "best_link": "https://post-books.info/",
+    "contact_guesses": [
+      "info@post-books.info",
+      "contact@post-books.info",
+      "gallery@post-books.info"
+    ],
+    "needs_manual_verification": true
+  }
+]

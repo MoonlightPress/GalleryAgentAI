@@ -1,0 +1,451 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "score": 85,
+    "status": "ready_for_review",
+    "opportunity_type": "book_fair",
+    "best_link": "https://tokyoartbookfair.com/application/",
+    "missing": [
+      "contact"
+    ],
+    "present": {
+      "website": true,
+      "application_link": true,
+      "application_page_crawled": true,
+      "contact": false,
+      "deadline": true,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "score": 70,
+    "status": "research_needed",
+    "opportunity_type": "competition",
+    "best_link": "https://www.jacksonsart.com/paintingprize/",
+    "missing": [
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": true,
+      "application_page_crawled": true,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "score": 70,
+    "status": "research_needed",
+    "opportunity_type": "open_exhibition",
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "missing": [
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": true,
+      "application_page_crawled": true,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "score": 70,
+    "status": "research_needed",
+    "opportunity_type": "gallery_submission",
+    "best_link": "https://pinpointgallery.com/competition/",
+    "missing": [
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": true,
+      "application_page_crawled": true,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "score": 70,
+    "status": "research_needed",
+    "opportunity_type": "open_exhibition",
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "missing": [
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": true,
+      "application_page_crawled": true,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "score": 70,
+    "status": "research_needed",
+    "opportunity_type": "open_exhibition",
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "missing": [
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": true,
+      "application_page_crawled": true,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "actionable_research_target"
+  },
+  {
+    "title": "Self Publish, Be Happy",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "publication",
+    "best_link": "https://selfpublishbehappy.com/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Home - Printed Matter",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "book_fair",
+    "best_link": "https://www.printedmatter.org/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "HB Gallery",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "gallery_submission",
+    "best_link": "https://hbgallery.com/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "OPA Gallery",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "gallery_submission",
+    "best_link": "https://opagallery.net/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Society of Women Artists",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "open_exhibition",
+    "best_link": "https://www.society-women-artists.org.uk/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "UTRECHT",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "gallery_submission",
+    "best_link": "https://utrecht.jp/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "MOUNT ZINE",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "zine_fair",
+    "best_link": "https://zine.mount.co.jp/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Book and Sons",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "gallery_submission",
+    "best_link": "https://bookandsons.com/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Offprint",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "book_fair",
+    "best_link": "https://offprint.org/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "POST",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "gallery_submission",
+    "best_link": "https://post-books.info/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Printed Matter Art Book Fairs",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "book_fair",
+    "best_link": "https://www.printedmatter.org/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  },
+  {
+    "title": "Browse Printed Matter Editions",
+    "score": 30,
+    "status": "not_actionable_yet",
+    "opportunity_type": "book_fair",
+    "best_link": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": true,
+      "fit_reasoning": true
+    },
+    "actionability": "reject_or_archive"
+  },
+  {
+    "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
+    "score": 20,
+    "status": "not_actionable_yet",
+    "opportunity_type": "unknown",
+    "best_link": "https://www.printedmatter.org/programs/events/2250",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline",
+      "opportunity_type"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": false,
+      "fit_reasoning": true
+    },
+    "actionability": "reject_or_archive"
+  },
+  {
+    "title": "Royal Watercolour Society",
+    "score": 20,
+    "status": "not_actionable_yet",
+    "opportunity_type": "unknown",
+    "best_link": "https://www.royalwatercoloursociety.co.uk/",
+    "missing": [
+      "application_link",
+      "application_page_crawled",
+      "contact",
+      "deadline",
+      "opportunity_type"
+    ],
+    "present": {
+      "website": true,
+      "application_link": false,
+      "application_page_crawled": false,
+      "contact": false,
+      "deadline": false,
+      "opportunity_type": false,
+      "fit_reasoning": true
+    },
+    "actionability": "needs_manual_verification"
+  }
+]

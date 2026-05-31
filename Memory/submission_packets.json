@@ -1,0 +1,451 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "opportunity_type": "book_fair",
+    "packet_name": "Book / Art Fair Packet",
+    "goal": "Apply only if there is a concrete zine, book, print object, or edition.",
+    "contact": "unknown",
+    "best_link": "https://tokyoartbookfair.com/application/",
+    "deadline": "2027年1月21日",
+    "materials": [
+      "book/zine concept",
+      "mockup PDF",
+      "cover image",
+      "sample spreads",
+      "edition/price plan",
+      "short table description"
+    ],
+    "avoid": [
+      "applying with only loose paintings",
+      "treating book fairs like galleries",
+      "overbuilding before testing a simple mockup"
+    ],
+    "next_action": "Check exhibitor application requirements; useful only if she has a zine/book object."
+  },
+  {
+    "title": "Self Publish, Be Happy",
+    "opportunity_type": "publication",
+    "packet_name": "Publication Packet",
+    "goal": "Approach only with a sequence or project, not loose images.",
+    "contact": "unknown",
+    "best_link": "https://selfpublishbehappy.com/",
+    "deadline": "unknown",
+    "materials": [
+      "sequence of 10-20 works",
+      "project title",
+      "short project statement",
+      "artist bio",
+      "PDF preview"
+    ],
+    "avoid": [
+      "sending unrelated single images",
+      "pitching without a project frame"
+    ],
+    "next_action": "Use only if the work is converted into a sequence, book, or printed edition."
+  },
+  {
+    "title": "Home - Printed Matter",
+    "opportunity_type": "book_fair",
+    "packet_name": "Book / Art Fair Packet",
+    "goal": "Apply only if there is a concrete zine, book, print object, or edition.",
+    "contact": "unknown",
+    "best_link": "https://www.printedmatter.org/",
+    "deadline": "unknown",
+    "materials": [
+      "book/zine concept",
+      "mockup PDF",
+      "cover image",
+      "sample spreads",
+      "edition/price plan",
+      "short table description"
+    ],
+    "avoid": [
+      "applying with only loose paintings",
+      "treating book fairs like galleries",
+      "overbuilding before testing a simple mockup"
+    ],
+    "next_action": "Check exhibitor application requirements; useful only if she has a zine/book object."
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "opportunity_type": "competition",
+    "packet_name": "Competition Packet",
+    "goal": "Submit only if deadline, fee, and reputation justify it.",
+    "contact": "unknown",
+    "best_link": "https://www.jacksonsart.com/paintingprize/",
+    "deadline": "unknown",
+    "materials": [
+      "strongest 3-5 images",
+      "short artist statement",
+      "bio",
+      "entry fee confirmation",
+      "rights/usage terms check",
+      "deadline check"
+    ],
+    "avoid": [
+      "low-prestige pay-to-submit traps",
+      "contests that do not fit watercolor/works-on-paper",
+      "submitting weak or unfocused work"
+    ],
+    "next_action": "Check deadline, fee, eligibility, and whether prize/reputation is worth it."
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "opportunity_type": "open_exhibition",
+    "packet_name": "Open Exhibition Packet",
+    "goal": "Submit to a formal open call only if current and eligible.",
+    "contact": "unknown",
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "deadline": "unknown",
+    "materials": [
+      "images formatted to required size",
+      "work title, medium, dimensions, year",
+      "artist statement",
+      "artist CV or short bio",
+      "entry fee check",
+      "deadline and eligibility check"
+    ],
+    "avoid": [
+      "submitting without checking current dates",
+      "using a generic artist statement",
+      "ignoring size/framing rules"
+    ],
+    "next_action": "Verify current call, deadline, fee, size rules, and submit only if current."
+  },
+  {
+    "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
+    "opportunity_type": "unknown",
+    "packet_name": "Manual Review Packet",
+    "goal": "Do not submit until verified.",
+    "contact": "unknown",
+    "best_link": "https://www.printedmatter.org/programs/events/2250",
+    "deadline": "unknown",
+    "materials": [
+      "verify whether this is an opportunity",
+      "confirm contact",
+      "confirm deadline",
+      "confirm fit"
+    ],
+    "avoid": [
+      "spending artist energy before the opportunity is real"
+    ],
+    "next_action": "Manual review required."
+  },
+  {
+    "title": "HB Gallery",
+    "opportunity_type": "gallery_submission",
+    "packet_name": "Gallery Inquiry Packet",
+    "goal": "Soft inquiry or portfolio introduction.",
+    "contact": "unknown",
+    "best_link": "https://hbgallery.com/",
+    "deadline": "unknown",
+    "materials": [
+      "8-12 image PDF portfolio",
+      "short artist statement, 80-120 words",
+      "1 paragraph project description",
+      "artist bio, 60-90 words",
+      "Instagram/website link",
+      "dimensions, medium, year for each work"
+    ],
+    "avoid": [
+      "long emotional explanation",
+      "sending too many images",
+      "asking for representation directly in the first email"
+    ],
+    "next_action": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "OPA Gallery",
+    "opportunity_type": "gallery_submission",
+    "packet_name": "Gallery Inquiry Packet",
+    "goal": "Soft inquiry or portfolio introduction.",
+    "contact": "unknown",
+    "best_link": "https://opagallery.net/",
+    "deadline": "unknown",
+    "materials": [
+      "8-12 image PDF portfolio",
+      "short artist statement, 80-120 words",
+      "1 paragraph project description",
+      "artist bio, 60-90 words",
+      "Instagram/website link",
+      "dimensions, medium, year for each work"
+    ],
+    "avoid": [
+      "long emotional explanation",
+      "sending too many images",
+      "asking for representation directly in the first email"
+    ],
+    "next_action": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "opportunity_type": "gallery_submission",
+    "packet_name": "Gallery Inquiry Packet",
+    "goal": "Soft inquiry or portfolio introduction.",
+    "contact": "unknown",
+    "best_link": "https://pinpointgallery.com/competition/",
+    "deadline": "unknown",
+    "materials": [
+      "8-12 image PDF portfolio",
+      "short artist statement, 80-120 words",
+      "1 paragraph project description",
+      "artist bio, 60-90 words",
+      "Instagram/website link",
+      "dimensions, medium, year for each work"
+    ],
+    "avoid": [
+      "long emotional explanation",
+      "sending too many images",
+      "asking for representation directly in the first email"
+    ],
+    "next_action": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "Royal Watercolour Society",
+    "opportunity_type": "unknown",
+    "packet_name": "Manual Review Packet",
+    "goal": "Do not submit until verified.",
+    "contact": "unknown",
+    "best_link": "https://www.royalwatercoloursociety.co.uk/",
+    "deadline": "unknown",
+    "materials": [
+      "verify whether this is an opportunity",
+      "confirm contact",
+      "confirm deadline",
+      "confirm fit"
+    ],
+    "avoid": [
+      "spending artist energy before the opportunity is real"
+    ],
+    "next_action": "Manual review required."
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "opportunity_type": "open_exhibition",
+    "packet_name": "Open Exhibition Packet",
+    "goal": "Submit to a formal open call only if current and eligible.",
+    "contact": "unknown",
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "deadline": "unknown",
+    "materials": [
+      "images formatted to required size",
+      "work title, medium, dimensions, year",
+      "artist statement",
+      "artist CV or short bio",
+      "entry fee check",
+      "deadline and eligibility check"
+    ],
+    "avoid": [
+      "submitting without checking current dates",
+      "using a generic artist statement",
+      "ignoring size/framing rules"
+    ],
+    "next_action": "Verify current call, deadline, fee, size rules, and submit only if current."
+  },
+  {
+    "title": "Society of Women Artists",
+    "opportunity_type": "open_exhibition",
+    "packet_name": "Open Exhibition Packet",
+    "goal": "Submit to a formal open call only if current and eligible.",
+    "contact": "unknown",
+    "best_link": "https://www.society-women-artists.org.uk/",
+    "deadline": "unknown",
+    "materials": [
+      "images formatted to required size",
+      "work title, medium, dimensions, year",
+      "artist statement",
+      "artist CV or short bio",
+      "entry fee check",
+      "deadline and eligibility check"
+    ],
+    "avoid": [
+      "submitting without checking current dates",
+      "using a generic artist statement",
+      "ignoring size/framing rules"
+    ],
+    "next_action": "Verify current call, deadline, fee, size rules, and submit only if current."
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "opportunity_type": "open_exhibition",
+    "packet_name": "Open Exhibition Packet",
+    "goal": "Submit to a formal open call only if current and eligible.",
+    "contact": "unknown",
+    "best_link": "https://www.mallgalleries.org.uk/open-calls",
+    "deadline": "unknown",
+    "materials": [
+      "images formatted to required size",
+      "work title, medium, dimensions, year",
+      "artist statement",
+      "artist CV or short bio",
+      "entry fee check",
+      "deadline and eligibility check"
+    ],
+    "avoid": [
+      "submitting without checking current dates",
+      "using a generic artist statement",
+      "ignoring size/framing rules"
+    ],
+    "next_action": "Verify current call, deadline, fee, size rules, and submit only if current."
+  },
+  {
+    "title": "UTRECHT",
+    "opportunity_type": "gallery_submission",
+    "packet_name": "Gallery Inquiry Packet",
+    "goal": "Soft inquiry or portfolio introduction.",
+    "contact": "unknown",
+    "best_link": "https://utrecht.jp/",
+    "deadline": "unknown",
+    "materials": [
+      "8-12 image PDF portfolio",
+      "short artist statement, 80-120 words",
+      "1 paragraph project description",
+      "artist bio, 60-90 words",
+      "Instagram/website link",
+      "dimensions, medium, year for each work"
+    ],
+    "avoid": [
+      "long emotional explanation",
+      "sending too many images",
+      "asking for representation directly in the first email"
+    ],
+    "next_action": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "MOUNT ZINE",
+    "opportunity_type": "zine_fair",
+    "packet_name": "Zine Fair Packet",
+    "goal": "Make a small, low-pressure printed object first.",
+    "contact": "unknown",
+    "best_link": "https://zine.mount.co.jp/",
+    "deadline": "unknown",
+    "materials": [
+      "8-16 page zine mockup",
+      "simple cover",
+      "short artist note",
+      "print cost estimate",
+      "small edition plan"
+    ],
+    "avoid": [
+      "large expensive print runs",
+      "overexplaining concept",
+      "treating it as career-defining"
+    ],
+    "next_action": "Make a small watercolor zine first; do not treat as gallery representation."
+  },
+  {
+    "title": "Book and Sons",
+    "opportunity_type": "gallery_submission",
+    "packet_name": "Gallery Inquiry Packet",
+    "goal": "Soft inquiry or portfolio introduction.",
+    "contact": "unknown",
+    "best_link": "https://bookandsons.com/",
+    "deadline": "unknown",
+    "materials": [
+      "8-12 image PDF portfolio",
+      "short artist statement, 80-120 words",
+      "1 paragraph project description",
+      "artist bio, 60-90 words",
+      "Instagram/website link",
+      "dimensions, medium, year for each work"
+    ],
+    "avoid": [
+      "long emotional explanation",
+      "sending too many images",
+      "asking for representation directly in the first email"
+    ],
+    "next_action": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "Offprint",
+    "opportunity_type": "book_fair",
+    "packet_name": "Book / Art Fair Packet",
+    "goal": "Apply only if there is a concrete zine, book, print object, or edition.",
+    "contact": "unknown",
+    "best_link": "https://offprint.org/",
+    "deadline": "unknown",
+    "materials": [
+      "book/zine concept",
+      "mockup PDF",
+      "cover image",
+      "sample spreads",
+      "edition/price plan",
+      "short table description"
+    ],
+    "avoid": [
+      "applying with only loose paintings",
+      "treating book fairs like galleries",
+      "overbuilding before testing a simple mockup"
+    ],
+    "next_action": "Check exhibitor application requirements; useful only if she has a zine/book object."
+  },
+  {
+    "title": "POST",
+    "opportunity_type": "gallery_submission",
+    "packet_name": "Gallery Inquiry Packet",
+    "goal": "Soft inquiry or portfolio introduction.",
+    "contact": "unknown",
+    "best_link": "https://post-books.info/",
+    "deadline": "unknown",
+    "materials": [
+      "8-12 image PDF portfolio",
+      "short artist statement, 80-120 words",
+      "1 paragraph project description",
+      "artist bio, 60-90 words",
+      "Instagram/website link",
+      "dimensions, medium, year for each work"
+    ],
+    "avoid": [
+      "long emotional explanation",
+      "sending too many images",
+      "asking for representation directly in the first email"
+    ],
+    "next_action": "Prepare a short gallery inquiry and 8-12 image PDF."
+  },
+  {
+    "title": "Printed Matter Art Book Fairs",
+    "opportunity_type": "book_fair",
+    "packet_name": "Book / Art Fair Packet",
+    "goal": "Apply only if there is a concrete zine, book, print object, or edition.",
+    "contact": "unknown",
+    "best_link": "https://www.printedmatter.org/",
+    "deadline": "unknown",
+    "materials": [
+      "book/zine concept",
+      "mockup PDF",
+      "cover image",
+      "sample spreads",
+      "edition/price plan",
+      "short table description"
+    ],
+    "avoid": [
+      "applying with only loose paintings",
+      "treating book fairs like galleries",
+      "overbuilding before testing a simple mockup"
+    ],
+    "next_action": "Check exhibitor application requirements; useful only if she has a zine/book object."
+  },
+  {
+    "title": "Browse Printed Matter Editions",
+    "opportunity_type": "book_fair",
+    "packet_name": "Book / Art Fair Packet",
+    "goal": "Apply only if there is a concrete zine, book, print object, or edition.",
+    "contact": "unknown",
+    "best_link": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions",
+    "deadline": "unknown",
+    "materials": [
+      "book/zine concept",
+      "mockup PDF",
+      "cover image",
+      "sample spreads",
+      "edition/price plan",
+      "short table description"
+    ],
+    "avoid": [
+      "applying with only loose paintings",
+      "treating book fairs like galleries",
+      "overbuilding before testing a simple mockup"
+    ],
+    "next_action": "Check exhibitor application requirements; useful only if she has a zine/book object."
+  }
+]

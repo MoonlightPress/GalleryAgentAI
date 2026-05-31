@@ -1,0 +1,203 @@
+[
+  {
+    "title": "Jackson's Art Prize",
+    "current_quality": 67.7,
+    "quality_label": "promising",
+    "evidence_strength": 60,
+    "best_next_gap": {
+      "gap": "past_winners_or_exhibitors",
+      "description": "Find past winners, past exhibitors, selected artists, or example accepted works.",
+      "value": 16
+    },
+    "gaps": [
+      {
+        "gap": "past_winners_or_exhibitors",
+        "description": "Find past winners, past exhibitors, selected artists, or example accepted works.",
+        "value": 16
+      },
+      {
+        "gap": "current_deadline",
+        "description": "Find current application deadline.",
+        "value": 15
+      },
+      {
+        "gap": "evidence_quality",
+        "description": "Find stronger evidence: past winners, past exhibitors, accepted artists, or partner organizations.",
+        "value": 14
+      },
+      {
+        "gap": "application_fee",
+        "description": "Find application/booth/entry fee or confirm there is no fee.",
+        "value": 12
+      },
+      {
+        "gap": "specific_requirements",
+        "description": "Confirm exact required materials; current checklist is mostly inferred.",
+        "value": 12
+      }
+    ],
+    "estimated_gain_top_3": 45,
+    "projected_score_if_fixed": 100,
+    "recommended_search": "Find past winners, past exhibitors, selected artists, or example accepted works."
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "current_quality": 83.9,
+    "quality_label": "strong",
+    "evidence_strength": 100,
+    "best_next_gap": {
+      "gap": "past_winners_or_exhibitors",
+      "description": "Find past winners, past exhibitors, selected artists, or example accepted works.",
+      "value": 16
+    },
+    "gaps": [
+      {
+        "gap": "past_winners_or_exhibitors",
+        "description": "Find past winners, past exhibitors, selected artists, or example accepted works.",
+        "value": 16
+      },
+      {
+        "gap": "current_deadline",
+        "description": "Find current application deadline.",
+        "value": 15
+      },
+      {
+        "gap": "application_fee",
+        "description": "Find application/booth/entry fee or confirm there is no fee.",
+        "value": 12
+      },
+      {
+        "gap": "specific_requirements",
+        "description": "Confirm exact required materials; current checklist is mostly inferred.",
+        "value": 12
+      }
+    ],
+    "estimated_gain_top_3": 43,
+    "projected_score_if_fixed": 100,
+    "recommended_search": "Find past winners, past exhibitors, selected artists, or example accepted works."
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "current_quality": 83.9,
+    "quality_label": "strong",
+    "evidence_strength": 100,
+    "best_next_gap": {
+      "gap": "past_winners_or_exhibitors",
+      "description": "Find past winners, past exhibitors, selected artists, or example accepted works.",
+      "value": 16
+    },
+    "gaps": [
+      {
+        "gap": "past_winners_or_exhibitors",
+        "description": "Find past winners, past exhibitors, selected artists, or example accepted works.",
+        "value": 16
+      },
+      {
+        "gap": "current_deadline",
+        "description": "Find current application deadline.",
+        "value": 15
+      },
+      {
+        "gap": "application_fee",
+        "description": "Find application/booth/entry fee or confirm there is no fee.",
+        "value": 12
+      },
+      {
+        "gap": "specific_requirements",
+        "description": "Confirm exact required materials; current checklist is mostly inferred.",
+        "value": 12
+      }
+    ],
+    "estimated_gain_top_3": 43,
+    "projected_score_if_fixed": 100,
+    "recommended_search": "Find past winners, past exhibitors, selected artists, or example accepted works."
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "current_quality": 83.9,
+    "quality_label": "strong",
+    "evidence_strength": 100,
+    "best_next_gap": {
+      "gap": "past_winners_or_exhibitors",
+      "description": "Find past winners, past exhibitors, selected artists, or example accepted works.",
+      "value": 16
+    },
+    "gaps": [
+      {
+        "gap": "past_winners_or_exhibitors",
+        "description": "Find past winners, past exhibitors, selected artists, or example accepted works.",
+        "value": 16
+      },
+      {
+        "gap": "current_deadline",
+        "description": "Find current application deadline.",
+        "value": 15
+      },
+      {
+        "gap": "application_fee",
+        "description": "Find application/booth/entry fee or confirm there is no fee.",
+        "value": 12
+      },
+      {
+        "gap": "specific_requirements",
+        "description": "Confirm exact required materials; current checklist is mostly inferred.",
+        "value": 12
+      }
+    ],
+    "estimated_gain_top_3": 43,
+    "projected_score_if_fixed": 100,
+    "recommended_search": "Find past winners, past exhibitors, selected artists, or example accepted works."
+  },
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "current_quality": 86.1,
+    "quality_label": "strong",
+    "evidence_strength": 70,
+    "best_next_gap": {
+      "gap": "past_winners_or_exhibitors",
+      "description": "Find past winners, past exhibitors, selected artists, or example accepted works.",
+      "value": 16
+    },
+    "gaps": [
+      {
+        "gap": "past_winners_or_exhibitors",
+        "description": "Find past winners, past exhibitors, selected artists, or example accepted works.",
+        "value": 16
+      },
+      {
+        "gap": "application_fee",
+        "description": "Find application/booth/entry fee or confirm there is no fee.",
+        "value": 12
+      }
+    ],
+    "estimated_gain_top_3": 28,
+    "projected_score_if_fixed": 100,
+    "recommended_search": "Find past winners, past exhibitors, selected artists, or example accepted works."
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "current_quality": 95.1,
+    "quality_label": "strong",
+    "evidence_strength": 100,
+    "best_next_gap": {
+      "gap": "application_fee",
+      "description": "Find application/booth/entry fee or confirm there is no fee.",
+      "value": 12
+    },
+    "gaps": [
+      {
+        "gap": "application_fee",
+        "description": "Find application/booth/entry fee or confirm there is no fee.",
+        "value": 12
+      },
+      {
+        "gap": "eligibility",
+        "description": "Find eligibility rules or confirm none are listed.",
+        "value": 10
+      }
+    ],
+    "estimated_gain_top_3": 22,
+    "projected_score_if_fixed": 100,
+    "recommended_search": "Find application/booth/entry fee or confirm there is no fee."
+  }
+]

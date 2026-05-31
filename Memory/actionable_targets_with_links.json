@@ -1,0 +1,294 @@
+[
+  {
+    "title": "TOKYO ART BOOK FAIR",
+    "status": "actionable",
+    "opportunity_type": "book_fair",
+    "completeness_score": 85,
+    "dna_match_score": 9.3,
+    "official_submission_url": "https://tokyoartbookfair.com/application/",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "2027年1月21日",
+    "deadline_source": "https://tokyoartbookfair.com/application/",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [
+      "・TABFの出展者ブースは、4つのエリアに分かれています。それぞれ応募対象が異なりますので、ご自身に適したエリアをご選択ください。"
+    ],
+    "required_materials": [
+      "images of work"
+    ],
+    "confidence": 0.96,
+    "source_urls": [
+      "https://tokyoartbookfair.com/",
+      "https://tokyoartbookfair.com/application/"
+    ],
+    "missing": [
+      "contact"
+    ],
+    "extraction_summary": {
+      "emails_found": 0,
+      "dates_found": 2,
+      "fees_found": 0,
+      "requirements_found": 3,
+      "urls_checked": [
+        "https://tokyoartbookfair.com/application/",
+        "https://tokyoartbookfair.com/"
+      ]
+    },
+    "application_form_url": "https://tokyoartbookfair.com/application-form/",
+    "submission_guidelines_url": "https://tokyoartbookfair.com/application-form/",
+    "contact_page_url": "https://tokyoartbookfair.com/contact/",
+    "open_call_url": "unknown",
+    "instagram_url": "unknown",
+    "recommended_next_url": "https://tokyoartbookfair.com/application-form/",
+    "recommended_next_action": "Open the application form and confirm required materials."
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "status": "actionable",
+    "opportunity_type": "gallery_submission",
+    "completeness_score": 70,
+    "dna_match_score": 9.3,
+    "official_submission_url": "https://pinpointgallery.com/competition/",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "2026.5.23",
+    "deadline_source": "official_page_extraction",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [],
+    "required_materials": [
+      "work details",
+      "profile/bio"
+    ],
+    "confidence": 0.81,
+    "source_urls": [
+      "https://pinpointgallery.com/",
+      "https://pinpointgallery.com/competition/"
+    ],
+    "missing": [
+      "contact",
+      "deadline"
+    ],
+    "extraction_summary": {
+      "emails_found": 0,
+      "dates_found": 10,
+      "fees_found": 0,
+      "requirements_found": 2,
+      "urls_checked": [
+        "https://pinpointgallery.com/competition/",
+        "https://pinpointgallery.com/"
+      ]
+    },
+    "application_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+    "submission_guidelines_url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/",
+    "contact_page_url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+    "open_call_url": "unknown",
+    "instagram_url": "unknown",
+    "recommended_next_url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+    "recommended_next_action": "Open the application form and confirm required materials."
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "status": "needs_final_verification",
+    "opportunity_type": "open_exhibition",
+    "completeness_score": 70,
+    "dna_match_score": 7.7,
+    "official_submission_url": "https://www.mallgalleries.org.uk/open-calls",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "unknown",
+    "deadline_source": "",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [
+      "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+      "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+      "Royal Society of Marine Artists",
+      "Society of Wildlife Artists",
+      "Royal Society of British Artists",
+      "We empower artists through our not-for-profit programme",
+      "© 2026 Federation of British Artists."
+    ],
+    "required_materials": [
+      "work_details"
+    ],
+    "confidence": 0.64,
+    "source_urls": [
+      "https://www.mallgalleries.org.uk/open-exhibitions",
+      "https://www.mallgalleries.org.uk/open-calls"
+    ],
+    "missing": [
+      "contact",
+      "deadline"
+    ],
+    "extraction_summary": {
+      "emails_found": 0,
+      "dates_found": 0,
+      "fees_found": 0,
+      "requirements_found": 1,
+      "urls_checked": [
+        "https://www.mallgalleries.org.uk/open-calls",
+        "https://www.mallgalleries.org.uk/open-exhibitions"
+      ]
+    },
+    "application_form_url": "unknown",
+    "submission_guidelines_url": "unknown",
+    "contact_page_url": "https://www.mallgalleries.org.uk/contact-us",
+    "open_call_url": "https://www.mallgalleries.org.uk/open-calls",
+    "instagram_url": "unknown",
+    "recommended_next_url": "https://www.mallgalleries.org.uk/open-calls",
+    "recommended_next_action": "Open the current open-call page and choose the relevant call."
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "status": "needs_final_verification",
+    "opportunity_type": "open_exhibition",
+    "completeness_score": 70,
+    "dna_match_score": 7.7,
+    "official_submission_url": "https://www.mallgalleries.org.uk/open-calls",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "unknown",
+    "deadline_source": "",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [
+      "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+      "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+      "Royal Society of Marine Artists",
+      "Society of Wildlife Artists",
+      "Royal Society of British Artists",
+      "We empower artists through our not-for-profit programme",
+      "© 2026 Federation of British Artists."
+    ],
+    "required_materials": [
+      "work_details"
+    ],
+    "confidence": 0.64,
+    "source_urls": [
+      "https://www.mallgalleries.org.uk/open-exhibitions",
+      "https://www.mallgalleries.org.uk/open-calls"
+    ],
+    "missing": [
+      "contact",
+      "deadline"
+    ],
+    "extraction_summary": {
+      "emails_found": 0,
+      "dates_found": 0,
+      "fees_found": 0,
+      "requirements_found": 1,
+      "urls_checked": [
+        "https://www.mallgalleries.org.uk/open-calls",
+        "https://www.mallgalleries.org.uk/open-exhibitions"
+      ]
+    },
+    "application_form_url": "unknown",
+    "submission_guidelines_url": "unknown",
+    "contact_page_url": "https://www.mallgalleries.org.uk/contact-us",
+    "open_call_url": "https://www.mallgalleries.org.uk/open-calls",
+    "instagram_url": "unknown",
+    "recommended_next_url": "https://www.mallgalleries.org.uk/open-calls",
+    "recommended_next_action": "Open the current open-call page and choose the relevant call."
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "status": "needs_final_verification",
+    "opportunity_type": "open_exhibition",
+    "completeness_score": 70,
+    "dna_match_score": 7.7,
+    "official_submission_url": "https://www.mallgalleries.org.uk/open-calls",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "unknown",
+    "deadline_source": "",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [
+      "Explore our opportunities for artists, including open exhibitions, prizes and awards, bursaries, residencies, and scholarships",
+      "The Federation of British Artists at Mall Galleries offers a series of open exhibitions and opportunities for artists:",
+      "Royal Society of Marine Artists",
+      "Society of Wildlife Artists",
+      "Royal Society of British Artists",
+      "We empower artists through our not-for-profit programme",
+      "© 2026 Federation of British Artists."
+    ],
+    "required_materials": [
+      "work_details"
+    ],
+    "confidence": 0.64,
+    "source_urls": [
+      "https://www.mallgalleries.org.uk/open-exhibitions",
+      "https://www.mallgalleries.org.uk/open-calls"
+    ],
+    "missing": [
+      "contact",
+      "deadline"
+    ],
+    "extraction_summary": {
+      "emails_found": 0,
+      "dates_found": 0,
+      "fees_found": 0,
+      "requirements_found": 1,
+      "urls_checked": [
+        "https://www.mallgalleries.org.uk/open-calls",
+        "https://www.mallgalleries.org.uk/open-exhibitions"
+      ]
+    },
+    "application_form_url": "unknown",
+    "submission_guidelines_url": "unknown",
+    "contact_page_url": "https://www.mallgalleries.org.uk/contact-us",
+    "open_call_url": "https://www.mallgalleries.org.uk/open-calls",
+    "instagram_url": "unknown",
+    "recommended_next_url": "https://www.mallgalleries.org.uk/open-calls",
+    "recommended_next_action": "Open the current open-call page and choose the relevant call."
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "status": "needs_final_verification",
+    "opportunity_type": "competition",
+    "completeness_score": 70,
+    "dna_match_score": 7.1,
+    "official_submission_url": "https://www.jacksonsart.com/paintingprize/",
+    "official_contact_email": "unknown",
+    "contact_source": "",
+    "deadline": "unknown",
+    "deadline_source": "",
+    "fee": "unknown",
+    "fee_source": "",
+    "eligibility": [
+      "Find shortlisted artists on"
+    ],
+    "required_materials": [
+      "work_details"
+    ],
+    "confidence": 0.56,
+    "source_urls": [
+      "https://www.jacksonsart.com/paintingprize/",
+      "https://www.jacksonsart.com/artprize/"
+    ],
+    "missing": [
+      "contact",
+      "deadline"
+    ],
+    "extraction_summary": {
+      "emails_found": 0,
+      "dates_found": 0,
+      "fees_found": 0,
+      "requirements_found": 1,
+      "urls_checked": [
+        "https://www.jacksonsart.com/paintingprize/",
+        "https://www.jacksonsart.com/artprize/"
+      ]
+    },
+    "application_form_url": "unknown",
+    "submission_guidelines_url": "unknown",
+    "contact_page_url": "https://www.jacksonsart.com/artprize/contact/",
+    "open_call_url": "unknown",
+    "instagram_url": "unknown",
+    "recommended_next_url": "https://www.jacksonsart.com/artprize/contact/",
+    "recommended_next_action": "Use the contact page to verify submission/contact process."
+  }
+]
