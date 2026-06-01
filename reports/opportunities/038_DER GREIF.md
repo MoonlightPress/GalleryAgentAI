@@ -25,12 +25,12 @@ Verified: Official/source website. Needs checking: Submission process, Deadline,
 Candidate discovered from Der Greif. Needs manual verification before recommendation.
 
 ## 5. Existing Fit Notes
-Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
 
 ## 6. Key Points
 - Automatically discovered candidate.
 - Needs verification before being treated as actionable.
-- Keyword hits: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+- Keyword hits: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
 
 ## 7. Submission / Logistics
 - **Deadline:** Not publicly listed

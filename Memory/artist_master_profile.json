@@ -58,7 +58,6 @@
     ],
     "pace": "slow and deliberate",
     "scale": "intimate — small to medium works",
-    "medium": "watercolor (primary), occasional ink",
     "best_formats": [
       "gallery group exhibitions with atmospheric or quiet-life themes",
       "solo exhibitions in intimate Tokyo venues",
@@ -67,8 +66,7 @@
       "residency programs (international, prestigious)",
       "small press and independent publishing",
       "open calls — watercolor or works on paper",
-      "bookshop gallery exhibitions in Tokyo",
-      "zine fairs and art book fairs"
+      "bookshop gallery exhibitions in Tokyo"
     ],
     "bad_fit_contexts": [
       "photography-dominated calls",
@@ -173,7 +171,9 @@
     "intimate scale",
     "Tokyo-based",
     "Chinese artist",
-    "atmospheric painting"
+    "atmospheric painting",
+    "artist book",
+    "small press"
   ],
   "ideal_opportunity_types": [
     "gallery group exhibition",
@@ -185,7 +185,13 @@
     "artist-run space exhibition",
     "small press and independent publishing",
     "zine fair (exhibiting)",
-    "café print consignment"
+    "café print consignment",
+    "gallery group exhibitions with atmospheric or quiet-life themes",
+    "solo exhibitions in intimate Tokyo venues",
+    "artist-run space exhibitions",
+    "residency programs (international, prestigious)",
+    "open calls — watercolor or works on paper",
+    "bookshop gallery exhibitions in Tokyo"
   ],
   "career_strategy": {
     "framework_version": 1,

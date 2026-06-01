@@ -21,13 +21,13 @@ Demoted photography-only matches: 0
 - **Offprint** — watercolor score 10; hits: watercolor, artist book
 - **Aesthetica Art Prize** — watercolor score 10; hits: watercolor, works on paper, zine, paper
 - **Self Publish, Be Happy** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, zine, paper
-- **Home - Printed Matter** — watercolor score 10; hits: watercolor, works on paper, artist book, zine, paper
 - **Book Obscura** — watercolor score 10; hits: watercolor, artist book, zine
-- **Fukuoka Art Book Fair** — watercolor score 10; hits: zine, paper
+- **Home - Printed Matter** — watercolor score 10; hits: watercolor, works on paper, artist book, zine, paper
 - **MOUNT ZINE** — watercolor score 10; hits: zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — watercolor score 10; hits: zine
 - **Book and Sons** — watercolor score 10; hits: gallery, bookstore
 - **» 21 Terrific Small Presses Open to Direct Submissions** — watercolor score 10; hits: 
 - **LOCAL Gallery・Books** — watercolor score 10; hits: gallery, zine, paper
-- **Art Book Fairs** — watercolor score 10; hits: zine
 - **Tacoche** — watercolor score 10; hits: artist book, zine
+- **Books Ruhe** — watercolor score 10; hits: bookstore, zine
+- **tata bookshop/gallery** — watercolor score 10; hits: gallery, zine

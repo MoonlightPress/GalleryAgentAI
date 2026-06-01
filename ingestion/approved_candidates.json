@@ -46,8 +46,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: zine, book fair, photobook, printed matter",
-      "weak: exhibition, book"
+      "strong: book fair, photobook, printed matter, zine",
+      "weak: book, exhibition"
     ]
   },
   {
@@ -94,7 +94,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: zine, open call, submission",
+      "strong: open call, submission, zine",
       "weak: exhibition"
     ]
   },
@@ -140,37 +140,36 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: residency, zine, open call, submission",
+      "strong: open call, submission, residency, zine",
       "weak: exhibition, artist"
     ]
   },
   {
-    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
     "organization": "CuratorSpace",
-    "category": "zine_print",
+    "category": "photo_open_call",
     "city": "Online",
     "country": "Global",
-    "overall_score": 5.4,
+    "overall_score": 4.7,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine, open call",
+    "why_this_fits_short": "Possible fit based on link text: open call",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: zine, open call"
+      "Keyword hits: open call"
     ],
     "fit_keyword_hits": [
-      "zine",
       "open call"
     ],
     "reject_keyword_hits": [],
@@ -182,8 +181,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: call for, zine, submit, open call",
-      "weak: artist",
+      "strong: submit, open call",
       "has submission link"
     ]
   }

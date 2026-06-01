@@ -26,10 +26,10 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Offprint: 8.6 → 7.6
 - Royal Watercolour Society Open Exhibition: 8.6 → 7.6
 - LOCAL Gallery・Books: 8.6 → 7.6
+- Tacoche: 8.6 → 7.6
 - Art Book Fairs: 8.6 → 7.6
 - Jimbocho Zine Fair: 8.6 → 7.6
 - tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...: 8.6 → 7.6
-- Tacoche: 8.6 → 7.6
 - Books Ruhe: 8.6 → 7.6
 - tata bookshop/gallery: 8.6 → 7.6
 - 本店・本屋の実験室: 8.6 → 7.6
@@ -38,25 +38,10 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Aesthetica Art Prize: 8.6 → 7.6
 - Book and Sons: 8.6 → 7.6
 - DER GREIF: 8.6 → 7.6
-- Youkobo Art Space: 8.6 → 7.6
-- Tokyo Wonder Site / TOKAS Residency: 8.6 → 7.6
-- Comitia: 8.6 → 7.6
 - American Watercolor Society Annual International Exhibition: 8.6 → 7.6
-- reload Shimokitazawa: 8.6 → 7.6
 - BankART1929: 8.6 → 7.6
-- AIR 3331: 8.6 → 7.6
-- AIT Residency: 8.6 → 7.6
-- Tokyo Arts and Space: 8.6 → 7.6
-- HandMade In Japan Fes: 8.6 → 7.6
 - 3331 Arts Chiyoda: 8.6 → 7.6
-- BONUS TRACK: 8.6 → 7.6
 - Koganecho Area Management Center: 8.6 → 7.6
-- Aoyama Farmers Market: 8.6 → 7.6
-- Design Festa: 8.6 → 7.6
-- Cafe Mame-Hico: 8.6 → 7.6
-- Yonchome Cafe: 8.6 → 7.6
-- Cafe Cross Point: 8.6 → 7.6
-- Cafe Gallery HATTIFNATT: 8.6 → 7.6
 - DESIGN FESTA GALLERY: 8.6 → 7.6
 - SCAI The Bathhouse: 8.6 → 7.6
 - TAV Gallery: 8.6 → 7.6
@@ -65,26 +50,20 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Gallery HANA Shimokitazawa: 8.6 → 7.6
 - Zushi Art Gallery: 8.6 → 7.6
 - Gallery Conceal Shibuya: 8.6 → 7.6
+- BONUS TRACK: 8.6 → 7.6
 - Zines Fair at CP+: 8.6 → 7.6
 - ZINEフェス東京: 8.6 → 7.6
 - ZINEイベント: 8.6 → 7.6
 - Full-Table - Little Tokyo Zine Fest 2026 - Eventeny: 8.6 → 7.6
-- Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat: 8.6 → 7.6
 - Cité Internationale des Arts Artist Residency: 8.6 → 7.6
-- Open Call for the International Creator Residency Program 2026: 8.6 → 8.2
 - Jinny Street Gallery Open Call: 8.6 → 8.2
 - TOKAS Open Call: 8.6 → 8.2
 - Belladonna Art Competition: 8.6 → 8.2
-- Hayama Artist Residency Submission Manager - Submittable: 8.6 → 7.6
-- Hayama Artist Residency: 8.6 → 7.6
-- Clavis Publishing Submissions: 8.6 → 7.6
+- Open Call for the International Creator Residency Program 2026: 8.6 → 8.2
 - Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou: 8.6 → 7.6
+- Clavis Publishing Submissions: 8.6 → 7.6
 - Open Calls for Artists: 8.6 → 8.2
 - Open Call For Artists: 8.6 → 8.2
-- L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info: 8.6 → 8.2
-- Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...: 8.6 → 8.2
-- Kyoto Retreat Artist Residency 2026 - Open Call: 8.6 → 8.2
-- OPEN CALL for the Artist-In-Residence Program 2025/2026: 8.6 → 8.2
 - Shoto Museum Open Call: 8.6 → 8.2
 - Art公募: 8.6 → 8.2
 - 公募展: 8.6 → 8.2
@@ -95,14 +74,34 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - 【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...: 8.6 → 8.2
 - 2026 松濤美術館公募展｜渋谷区立松濤美術館: 8.6 → 8.2
 - International Open Call: 8.6 → 8.2
-- Open Call for Artists! Tokyo Biennale 2025 "Social Dive": 8.6 → 8.2
-- Kyoto Art Center Residency: 8.6 → 8.2
-- AIR_J Open Calls: 8.6 → 8.2
-- NEW AIR: 8.6 → 8.2
-- 【公募】2026年度レジデンス・プログラム公募開始: 8.6 → 8.2
-- NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW: 8.6 → 8.2
 - ARTE VENT Press: 8.6 → 7.6
 - PhotoVogue: 8.6 → 7.6
+- L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info: 8.4 → 8.2
+- Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...: 8.4 → 8.2
+- Kyoto Retreat Artist Residency 2026 - Open Call: 8.4 → 8.2
+- OPEN CALL for the Artist-In-Residence Program 2025/2026: 8.4 → 8.2
+- Open Call for Artists! Tokyo Biennale 2025 "Social Dive": 8.4 → 8.2
+- Kyoto Art Center Residency: 8.4 → 8.2
+- AIR_J Open Calls: 8.4 → 8.2
+- NEW AIR: 8.4 → 8.2
+- 【公募】2026年度レジデンス・プログラム公募開始: 8.4 → 8.2
+- NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW: 8.4 → 8.2
+- Youkobo Art Space: 8.2 → 7.6
+- Tokyo Wonder Site / TOKAS Residency: 8.2 → 7.6
+- Comitia: 8.2 → 7.6
+- reload Shimokitazawa: 8.2 → 7.6
+- AIR 3331: 8.2 → 7.6
+- AIT Residency: 8.2 → 7.6
+- Tokyo Arts and Space: 8.2 → 7.6
+- HandMade In Japan Fes: 8.2 → 7.6
+- Aoyama Farmers Market: 8.2 → 7.6
+- Design Festa: 8.2 → 7.6
+- Cafe Mame-Hico: 8.2 → 7.6
+- Yonchome Cafe: 8.2 → 7.6
+- Cafe Cross Point: 8.2 → 7.6
+- Cafe Gallery HATTIFNATT: 8.2 → 7.6
+- Hayama Artist Residency Submission Manager - Submittable: 8.2 → 7.6
+- Hayama Artist Residency: 8.2 → 7.6
 - Self Publish, Be Happy: 8.0 → 6.5
 - Printed Matter Art Book Fairs: 8.0 → 6.5
 - Home - Printed Matter: 8.0 → 6.5
@@ -111,7 +110,6 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - 日記屋 月日: 8.0 → 6.5
 - NADiff a/p/a/r/t: 7.9 → 6.5
 - The Container: 7.9 → 6.5
-- RAW TOKYO: 7.9 → 6.5
 - Creative Space Hayashi: 7.9 → 6.5
 - グループ展参加アーティスト募集中 - Gallery and Links81: 7.9 → 6.5
 - 【biscuit gallery】初の公募企画「grid next : Emerging ...: 7.9 → 6.5
@@ -137,6 +135,7 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - CuratorSpace: 7.8 → 7.6
 - Society of Women Artists: 7.8 → 7.6
 - Royal Watercolour Society: 7.8 → 7.6
+- Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat: 7.8 → 7.6
 - Asian Cultural Council Fellowship: 7.8 → 7.6
 - そぞろ書房: 7.5 → 6.5
 - Japan Watercolor Society Annual Exhibition: 7.5 → 6.5
@@ -145,10 +144,11 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - 現代アート販売の@Gallery Tagboat|@Gallery Tagboat: 7.5 → 6.5
 - New Power展 | ギャラリー自由が丘で作家デビュー: 7.5 → 6.5
 - Call for Entry: Showcase your art in Tokyo, Japan: 7.5 → 6.5
-- 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...: 7.5 → 6.5
-- 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...: 7.5 → 6.5
+- RAW TOKYO: 7.1 → 6.5
 - Communication Arts Illustration Competition: 6.7 → 6.5
 - Mall Galleries Open Exhibitions: 6.7 → 6.5
 - Pastel Society Open Exhibition: 6.7 → 6.5
 - Royal Institute of Painters in Water Colours: 6.7 → 6.5
 - Boji Hair+Gallery: 6.7 → 6.5
+- 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...: 6.7 → 6.5
+- 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...: 6.7 → 6.5

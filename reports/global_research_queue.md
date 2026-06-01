@@ -120,7 +120,7 @@ These are global or international opportunities that need verification before be
 - Category: global_artist_book_platform
 - Source: https://selfpublishbehappy.com/
 - Missing: submission process, deadline, fees, contact
-- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
+- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
 
 ## Printed Matter Art Book Fairs
 - Score: 8.0/10
@@ -313,3 +313,11 @@ These are global or international opportunities that need verification before be
 - Source: https://www.boji-hair.com/
 - Missing: submission process, deadline, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
+
+## Callback Open Call G George invites you to submit to Callback, a series of contemporary ar
+- Score: 6.1/10
+- Country: Global
+- Category: photo_open_call
+- Source: https://www.curatorspace.com/opportunities/detail/callback-open-call/839
+- Missing: deadline, fees, contact
+- Next: Open and verify whether this is current and relevant.

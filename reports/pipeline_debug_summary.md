@@ -1,11 +1,11 @@
 # Pipeline Debug Summary
 
-- opportunities: 166
-- candidates: 120
+- opportunities: 167
+- candidates: 119
 - approved_candidates: 4
-- rejected_candidates: 116
+- rejected_candidates: 115
 - strategy_feed: 7
-- fit_audit: 166
+- fit_audit: 167
 
 ## Top 15 Opportunities
 
@@ -27,10 +27,10 @@
 
 ## Approved Candidate Sample
 
-- Home - Printed Matter — 8.5 — approved — strong: zine, book fair, photobook, printed matter, weak: exhibition, book
-- Browse opportunities | CuratorSpace — 7.65 — approved — strong: zine, open call, submission, weak: exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: residency, zine, open call, submission, weak: exhibition, artist
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 5.4 — approved — strong: call for, zine, submit, open call, weak: artist, has submission link
+- Home - Printed Matter — 8.5 — approved — strong: book fair, photobook, printed matter, zine, weak: book, exhibition
+- Browse opportunities | CuratorSpace — 7.65 — approved — strong: open call, submission, zine, weak: exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: open call, submission, residency, zine, weak: exhibition, artist
+- Callback Open Call G George invites you to submit to Callback, a series of contemporary ar — 4.7 — approved — strong: submit, open call, has submission link
 
 ## Rejected Candidate Sample
 
@@ -52,5 +52,5 @@
 - DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — 4.95 — rejected — generic page without opportunity language
 - Exhibitions — 4.7 — rejected — junk title: exhibitions
 - Requests to List Exhibitions and Events — 4.7 — rejected — generic page without opportunity language
-- Printed Matter, Inc. — 4.7 — rejected — strong: zine, printed matter, score too low: 2
-- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — 4.7 — rejected — strong: zine, printed matter, score too low: 2
+- Printed Matter, Inc. — 4.7 — rejected — strong: printed matter, zine, score too low: 2
+- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — 4.7 — rejected — strong: printed matter, zine, score too low: 2

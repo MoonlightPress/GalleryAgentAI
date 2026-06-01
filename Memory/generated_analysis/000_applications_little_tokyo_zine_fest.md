@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-01
 # Applications — Little Tokyo Zine Fest
 
 ## 1. Quick Judgment
-**Fit score:** 10/10  
+**Fit score:** 9.4/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  

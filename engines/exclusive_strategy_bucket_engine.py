@@ -197,6 +197,10 @@ def compact(opp):
             or ""
         ),
         "visual_hits": opp.get("visual_fit_hits", []) or [],
+        "opportunity_type": opp.get("opportunity_type", "open_call"),
+        "action_type": opp.get("action_type", "apply"),
+        "relationship_note": opp.get("relationship_note", ""),
+        "draft_introduction_ja": opp.get("draft_introduction_ja", ""),
     }
 
 

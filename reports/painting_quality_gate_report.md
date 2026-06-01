@@ -27,13 +27,13 @@ Demoted: 5
 - **Offprint** — 9.0 → 9.6 — promoted
 - **Aesthetica Art Prize** — 9.0 → 9.6 — promoted
 - **Self Publish, Be Happy** — 9.0 → 9.6 — promoted
-- **Home - Printed Matter** — 9.0 → 9.6 — promoted
 - **Book Obscura** — 9.0 → 9.6 — promoted
 - **Publishing / Artist Books — Battle Plan** — 9.0 → 9.6 — promoted
+- **Home - Printed Matter** — 9.0 → 9.6 — promoted
 - **Japan Watercolor Society Annual Exhibition** — 8.9 → 9.6 — promoted
 - **Royal Institute of Painters in Water Colours** — 8.62 → 9.42 — promoted
-- **Aperture | Photography** — 7.2 → 8.0 — promoted
 - **DER GREIF** — 7.2 → 8.0 — promoted
+- **Aperture | Photography** — 7.2 → 8.0 — promoted
 - **Tokyo Wonder Site / TOKAS Residency** — 7.0 → 7.8 — promoted
 - **Aoyama Farmers Market** — 7.0 → 5.5 — demoted
 - **グループ展参加アーティスト募集中 - Gallery and Links81** — 7.0 → 7.8 — promoted

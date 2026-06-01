@@ -1,0 +1,62 @@
+[
+  {
+    "title": "UTRECHT",
+    "category": "bookstore_gallery",
+    "city": "Tokyo",
+    "source_url": "https://utrecht.jp/",
+    "overall_score": 7.6,
+    "visual_fit_score": 3.7,
+    "opportunity_type": "relationship_target",
+    "action_type": "contact_and_propose",
+    "relationship_note": "Tokyo art bookstore specialising in zines and artist books. Consignment or small exhibition in their gallery space.",
+    "one_sentence": "Tokyo independent art bookstore with gallery space focused on zines and artist books—low-pressure venue where your work could exist as printed matter alongside exhibition.",
+    "draft_introduction_ja": "件名：水彩画作品のお取り扱いについてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光と影、猫といったテーマで水彩画を制作しており、アーティストブックやプリントとしての展開も行っております。\nUTRECHTさんのような空間で作品をお取り扱いいただける可能性について、ご相談できれば大変嬉しく思います。\nご検討のほど、どうぞよろしくお願いいたします。",
+    "draft_introduction_en": "Subject: Inquiry about stocking watercolor work\n\nHello, my name is GEGYjiji, a watercolor artist based in Tokyo.\nI work with themes of urban stillness, interior light and shadow, and cats, and have been developing my work in artist-book and print formats.\nI would be very happy to discuss the possibility of you stocking my work at UTRECHT.\nThank you for your consideration.",
+    "status": "not_contacted"
+  },
+  {
+    "title": "B&B Shimokitazawa",
+    "category": "bookstore_event",
+    "city": "Tokyo",
+    "source_url": "https://bookandbeer.com/",
+    "overall_score": 7.6,
+    "visual_fit_score": 3.7,
+    "opportunity_type": "relationship_target",
+    "action_type": "contact_and_propose",
+    "relationship_note": "Shimokitazawa bookstore and event space. Exhibition or print display inquiry.",
+    "one_sentence": "A Tokyo bookstore event space that hosts artist talks and zine releases, but requires substantial context-building to determine actual fit.",
+    "draft_introduction_ja": "件名：水彩画の展示についてのご相談\n\nはじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。\n東京の路地や窓から差し込む光、猫といった日常の風景を水彩で描いています。\nB&Bさんのような空間で作品をご覧いただける機会があれば嬉しいと思い、ご連絡いたしました。\nご興味をお持ちいただけましたら、ぜひお話しできれば幸いです。",
+    "draft_introduction_en": "Subject: Inquiry about showing watercolor work\n\nHello, I'm GEGYjiji, a watercolor artist based in Tokyo.\nI paint everyday scenes — alleyways and paths, light through windows, cats — in watercolor.\nI reached out hoping there might be an opportunity to show work in a space like B&B.\nIf you're interested, I'd love to talk.",
+    "status": "not_contacted"
+  },
+  {
+    "title": "flotsam books",
+    "category": "bookstore_gallery",
+    "city": "Tokyo",
+    "source_url": "https://www.flotsambooks.com/",
+    "overall_score": 7.6,
+    "visual_fit_score": 3.7,
+    "opportunity_type": "relationship_target",
+    "action_type": "contact_and_propose",
+    "relationship_note": "Tokyo bookshop and gallery hybrid. Consignment or exhibition inquiry.",
+    "one_sentence": "Tokyo watercolor / works on paper/art bookshop with gallery space; primarily retail-focused with occasional artist events and exhibitions.",
+    "draft_introduction_ja": "件名：水彩画作品の展示・お取り扱いについてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光、猫といったテーマで水彩画を制作しております。\nflotsam booksさんの空間で作品をご紹介できる可能性について、ご相談できれば幸いです。\nどうぞよろしくお願いいたします。",
+    "draft_introduction_en": "Subject: Inquiry about exhibiting / stocking watercolor work\n\nHello, my name is GEGYjiji, a watercolor artist based in Tokyo.\nMy work focuses on urban stillness, interior light, and cats.\nI would love to discuss the possibility of showing or stocking work at flotsam books.\nThank you for your time.",
+    "status": "not_contacted"
+  },
+  {
+    "title": "Book and Sons",
+    "category": "bookstore_gallery",
+    "city": "Tokyo",
+    "source_url": "https://bookandsons.com/",
+    "overall_score": 7.6,
+    "visual_fit_score": 1.3,
+    "opportunity_type": "relationship_target",
+    "action_type": "contact_and_propose",
+    "relationship_note": "Art and design bookstore with exhibition space. Artist-book consignment or show inquiry.",
+    "one_sentence": "Tokyo art/design bookstore with exhibition space and a culturally engaged, book-oriented audience that may appreciate atmospheric documentation work.",
+    "draft_introduction_ja": "件名：水彩画作品のお取り扱いについてのご相談\n\nはじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。\n都市の風景、日常の光と影、猫などをテーマに、静かで親密な水彩作品を制作しています。\nBook and Sonsさんのような本と美術を大切にする空間で、作品をお取り扱いいただける可能性についてご相談させていただければと思い、ご連絡いたしました。\nご検討いただけますと幸いです。",
+    "draft_introduction_en": "Subject: Inquiry about stocking watercolor work\n\nHello, I'm GEGYjiji, a watercolor artist based in Tokyo.\nI make quiet, intimate watercolor paintings of urban scenes, everyday light and shadow, and cats.\nI reached out because I'd love to discuss the possibility of Book and Sons stocking my work in a space that values art and books the way yours does.\nThank you for considering it.",
+    "status": "not_contacted"
+  }
+]

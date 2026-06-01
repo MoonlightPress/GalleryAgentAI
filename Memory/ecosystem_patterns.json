@@ -2,7 +2,7 @@
   "dominant_countries": [
     [
       "Global",
-      11
+      16
     ],
     [
       "Tokyo",
@@ -10,6 +10,10 @@
     ],
     [
       "Japan",
+      3
+    ],
+    [
+      "UK",
       3
     ],
     [
@@ -25,10 +29,6 @@
       1
     ],
     [
-      "UK",
-      1
-    ],
-    [
       "France",
       1
     ],
@@ -39,23 +39,23 @@
   ],
   "dominant_categories": [
     [
-      "residency",
-      18
-    ],
-    [
-      "fair_popup",
-      15
-    ],
-    [
       "gallery_event",
       15
     ],
     [
+      "fair_popup",
+      14
+    ],
+    [
       "book_publishing",
-      13
+      14
     ],
     [
       "zine_print",
+      11
+    ],
+    [
+      "residency",
       11
     ],
     [
@@ -71,6 +71,10 @@
       4
     ],
     [
+      "photo_open_call",
+      3
+    ],
+    [
       "artist_space",
       3
     ],
@@ -84,10 +88,6 @@
     ],
     [
       "global_watercolor_open_call",
-      2
-    ],
-    [
-      "photo_open_call",
       2
     ],
     [
@@ -111,11 +111,11 @@
       1
     ],
     [
-      "institutional",
+      "event_space",
       1
     ],
     [
-      "event_space",
+      "global_residency",
       1
     ]
   ],
@@ -213,14 +213,6 @@
       1
     ],
     [
-      "medium_high",
-      1
-    ],
-    [
-      "very_high",
-      1
-    ],
-    [
       "Unknown/High effort for unclear benefit",
       1
     ],
@@ -233,39 +225,11 @@
       1
     ],
     [
-      "unclear",
-      1
-    ],
-    [
       "high_information_gathering",
       1
     ],
     [
-      "medium-high",
-      1
-    ],
-    [
-      "Very High",
-      1
-    ],
-    [
       "Cannot assess - insufficient information",
-      1
-    ],
-    [
-      "Low barrier but unclear utility",
-      1
-    ],
-    [
-      "Unknown (likely low barrier but unclear process)",
-      1
-    ],
-    [
-      "Low",
-      1
-    ],
-    [
-      "low_effort_low_return",
       1
     ],
     [
@@ -278,6 +242,42 @@
     ],
     [
       "high_friction",
+      1
+    ],
+    [
+      "high_ambiguity",
+      1
+    ],
+    [
+      "unknown_but_likely_low",
+      1
+    ],
+    [
+      "high_friction_low_value",
+      1
+    ],
+    [
+      "Low barrier but unclear utility",
+      1
+    ],
+    [
+      "paris",
+      1
+    ],
+    [
+      "medium_high",
+      1
+    ],
+    [
+      "very_high",
+      1
+    ],
+    [
+      "low_moderate",
+      1
+    ],
+    [
+      "unclear",
       1
     ]
   ]

@@ -40,6 +40,20 @@ def line(item, rank):
     visual = item.get("visual_fit_score", "?")
     verify = item.get("verification_bucket", "")
     why = item.get("why", "")
+    action_type = item.get("action_type", "apply")
+    relationship_note = item.get("relationship_note", "")
+    script_ja = item.get("draft_introduction_ja", "")
+
+    if action_type == "contact_and_propose":
+        action_label = "**Action: Contact and propose**"
+        note = relationship_note or why
+        # Show first two non-empty lines of the Japanese script as a preview
+        non_empty = [l for l in script_ja.splitlines() if l.strip()]
+        script_preview = " / ".join(non_empty[:2]) if non_empty else ""
+        out = f"{rank}. **{title}** — score {score}, visual {visual}. {action_label}. {note}"
+        if script_preview:
+            out += f"\n   > 🇯🇵 _{script_preview}_"
+        return out
 
     return f"{rank}. **{title}** — score {score}, visual {visual}, verification {verify}. {why}"
 

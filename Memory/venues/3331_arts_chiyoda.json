@@ -1,13 +1,13 @@
 {
   "venue_name": "3331 Arts Chiyoda",
   "venue_slug": "3331_arts_chiyoda",
-  "venue_type": "residency",
+  "venue_type": "artist opportunity venue",
   "city": "Tokyo",
   "country": "",
-  "website": "https://residence.3331.jp/",
+  "website": "https://www.3331.jp/",
   "source_links": [
-    "https://residence.3331.jp/",
-    "https://www.3331.jp/"
+    "https://www.3331.jp/",
+    "https://residence.3331.jp/"
   ],
   "categories_seen": [
     "Artist Spaces",
@@ -29,8 +29,8 @@
     "contact"
   ],
   "opportunity_titles": [
-    "AIR 3331",
-    "3331 Arts Chiyoda"
+    "3331 Arts Chiyoda",
+    "AIR 3331"
   ],
   "last_researched": "",
   "created_at": "2026-06-01",

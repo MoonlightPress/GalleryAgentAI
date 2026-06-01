@@ -169,6 +169,14 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
+### Tacoche — 8.6/10 — needs review
+Positive reasons:
+- aesthetic lineage +0.8
+Risks:
+- many missing verification fields: submission, deadline, fees, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### Art Book Fairs — 8.6/10 — needs review
 Positive reasons:
 - aesthetic lineage +0.8
@@ -186,14 +194,6 @@ Risks:
 - high score but still needs verification
 
 ### tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3... — 8.6/10 — needs review
-Positive reasons:
-- aesthetic lineage +0.8
-Risks:
-- many missing verification fields: submission, deadline, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Tacoche — 8.6/10 — needs review
 Positive reasons:
 - aesthetic lineage +0.8
 Risks:
@@ -273,9 +273,13 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Youkobo Art Space — 8.6/10 — needs review
+### American Watercolor Society Annual International Exhibition — 8.6/10 — needs review
+Positive reasons:
+- high prestige
+- global/international target
+- tag: global
 Risks:
-- high score but few clear supporting reasons
+- many missing verification fields: submission, deadline, fees, contact
 - high score but still needs verification
 
 

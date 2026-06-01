@@ -76,8 +76,8 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 - **Self Publish, Be Happy** — 9.6. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
   - URL: https://selfpublishbehappy.com/
   - Next: verify current submission/contact details.
-- **Home - Printed Matter** — 9.6. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
-  - URL: https://www.printedmatter.org/
+- **Book Obscura** — 9.6. Artist Book / Watercolor Sequence specialist. Useful benchmark if her work moves toward artist book / watercolor sequence/artist-book sequencing.
+  - URL: https://bookobscura.com/
   - Next: verify current submission/contact details.
 
 ## First Practical Plan

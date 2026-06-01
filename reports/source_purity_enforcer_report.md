@@ -9,20 +9,21 @@ This report adjusts scores based on the original/native medium of the opportunit
 - **Offprint** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Aesthetica Art Prize** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Self Publish, Be Happy** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **Home - Printed Matter** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Book Obscura** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **Home - Printed Matter** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **MOUNT ZINE** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Book and Sons** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **» 21 Terrific Small Presses Open to Direct Submissions** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **LOCAL Gallery・Books** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **Art Book Fairs** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Tacoche** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Books Ruhe** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **tata bookshop/gallery** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **本店・本屋の実験室** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Top Artist Opportunities for 2026 | ArtConnect** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **Art Book Fairs** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Printed Matter Art Book Fairs** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **DER GREIF** — 10.0 → 7.2 — native: photography — translation: True — photography source capped as translation candidate
 - **Aperture | Photography** — 10.0 → 7.2 — native: photography — translation: True — photography source capped as translation candidate
 - **Tokyo Wonder Site / TOKAS Residency** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **グループ展参加アーティスト募集中 - Gallery and Links81** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
@@ -41,6 +42,7 @@ This report adjusts scores based on the original/native medium of the opportunit
 - **Submissions — Clavis Publishing** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **BankART1929** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Koganecho Area Management Center** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **SCAI The Bathhouse** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **SUBMISSIONS - marblepress.com** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
@@ -53,7 +55,6 @@ This report adjusts scores based on the original/native medium of the opportunit
 - **ART BOX Publishing** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Center for Book Arts Opportunities** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Jackson's Art Prize** — 9.96 → 10 — native: painting — translation: False — native painting/works-on-paper boost
-- **DER GREIF** — 9.96 → 7.2 — native: photography — translation: True — photography source capped as translation candidate
 - **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — 9.94 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — 9.94 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — 9.94 → 7.0 — native: unknown — translation: True — unknown native medium capped
@@ -64,6 +65,7 @@ This report adjusts scores based on the original/native medium of the opportunit
 - **Open Call for the International Creator Residency Program 2026** — 9.88 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **American Watercolor Society Annual International Exhibition** — 9.82 → 10 — native: painting — translation: False — native painting/works-on-paper boost
 - **TAV Gallery** — 9.82 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — 9.8 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Cité Internationale des Arts Artist Residency** — 9.72 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **そぞろ書房** — 9.68 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **AIR 3331** — 9.68 → 7.0 — native: unknown — translation: False — unknown native medium capped
@@ -78,8 +80,8 @@ This report adjusts scores based on the original/native medium of the opportunit
 - **Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...** — 9.36 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Kyoto Retreat Artist Residency 2026 - Open Call** — 9.36 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **OPEN CALL for the Artist-In-Residence Program 2025/2026** — 9.36 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Yonchome Cafe** — 9.35 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **3331 Arts Chiyoda** — 9.31 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **SCAI The Bathhouse** — 9.22 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Asian Cultural Council Fellowship** — 9.18 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.13 → 9.83 — native: painting — translation: False — native painting/works-on-paper boost
 - **Osaka Open Call For Artists. - ARRIVAL** — 9.13 → 7.0 — native: unknown — translation: False — unknown native medium capped
@@ -94,13 +96,11 @@ This report adjusts scores based on the original/native medium of the opportunit
 - **Communication Arts Illustration Competition** — 8.9 → 9.6 — native: painting — translation: False — native painting/works-on-paper boost
 - **Clavis Publishing Submissions** — 8.85 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Komiyama Tokyo** — 8.83 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Creative Space Hayashi** — 8.81 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **ARTE VENT Press** — 8.73 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Creative Space Hayashi** — 8.71 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Mall Galleries Open Exhibitions** — 8.67 → 9.37 — native: painting — translation: False — native painting/works-on-paper boost
 - **Pastel Society Open Exhibition** — 8.67 → 9.37 — native: painting — translation: False — native painting/works-on-paper boost
 - **Boji Hair+Gallery** — 8.62 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Yonchome Cafe** — 8.35 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW** — 8.28 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Japan Watercolor Society Annual Exhibition** — 8.2 → 8.9 — native: painting — translation: False — native painting/works-on-paper boost
-- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — 8.18 → 8.53 — native: mixed — translation: True — mixed medium / possible translation
 - **Book Culture Club** — 8.16 → 8.51 — native: mixed — translation: True — mixed medium / possible translation

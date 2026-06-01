@@ -63,13 +63,11 @@ Strong matches with better verification.
   - Visual match signals: zine
 - **Book and Sons** — score 8.6, differentiated 9.75, visual fit 1.3. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
   - Visual match signals: zine
-- **Youkobo Art Space** — score 8.6, differentiated 9.61, visual fit 0.9. Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.
-  - Visual match signals: memory, Tokyo-based
-- **Tokyo Wonder Site / TOKAS Residency** — score 8.6, differentiated 9.61, visual fit 0.9. TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.
-  - Visual match signals: watercolor, memory
-- **Comitia** — score 8.6, differentiated 9.56, visual fit 0.75. It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.
-  - Visual match signals: watercolor, zine, commercial_illustration
 - **SCCP Guest Artist** — score 8.8, differentiated 9.5, visual fit 0.0. SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.
+- **BankART1929** — score 8.6, differentiated 9.46, visual fit 0.45. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
+  - Visual match signals: memory
+- **3331 Arts Chiyoda** — score 8.6, differentiated 9.3, visual fit 0.0. Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach
+- **Koganecho Area Management Center** — score 8.6, differentiated 9.3, visual fit 0.0. Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
 
 ## Publication Targets
 
@@ -171,10 +169,10 @@ International opportunities that expand beyond local Tokyo/Japan visibility.
   - Visual match signals: zine
 - **Self Publish, Be Happy** — score 8.0, differentiated 9.7, visual fit 3.7. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **DER GREIF** — score 8.6, differentiated 9.68, visual fit 2.4. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+- **DER GREIF** — score 8.6, differentiated 9.68, visual fit 2.4. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
   - Visual match signals: watercolor, artist book, artist_book
-- **Youkobo Art Space** — score 8.6, differentiated 9.61, visual fit 0.9. Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.
-  - Visual match signals: memory, Tokyo-based
+- **American Watercolor Society Annual International Exhibition** — score 8.6, differentiated 9.53, visual fit 0.9. Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice.
+  - Visual match signals: watercolor, intimate scale
 
 ## Easy Wins
 
@@ -285,13 +283,13 @@ Potentially useful, but not actionable until submission details, fee, deadline, 
 
 Weak fit or low evidence. Keep but do not foreground.
 
-- **Picaresque Gallery** — score 4.7, differentiated 5.56, visual fit 0.45. Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
+- **Picaresque Gallery** — score 4.3, differentiated 5.16, visual fit 0.45. Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
   - Visual match signals: memory
-- **Spiral** — score 4.2, differentiated 4.9, visual fit 0.0. Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
+- **Spiral** — score 3.8, differentiated 4.5, visual fit 0.0. Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
 - **loneliness books** — score 3.0, differentiated 4.38, visual fit 3.25. Independent book/zine signal near Nakano. Possible secondary local target after Tacoche.
   - Visual match signals: artist book, artist_book, zine
 - **Dig A Hole Zines** — score 3.0, differentiated 4.38, visual fit 3.25. Direct zine-shop target in/near Koenji. Strong match for a first local distribution attempt.
   - Visual match signals: artist book, artist_book, zine
-- **MADO Café** — score 3.4, differentiated 4.1, visual fit 0.0. Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.
 - **ZINE FARM TOKYO** — score 3.0, differentiated 3.85, visual fit 1.75. Zine-focused Kichijoji target. Strong place to benchmark presentation and potential placement.
   - Visual match signals: memory, zine
+- **MADO Café** — score 2.6, differentiated 3.3, visual fit 0.0. Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.

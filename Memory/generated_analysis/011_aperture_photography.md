@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-01
 # Aperture | Photography
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 8.8/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Global Photobook  

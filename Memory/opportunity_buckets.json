@@ -445,6 +445,23 @@
       "source": "https://www.localgallerybooks.com/about"
     },
     {
+      "title": "Tacoche",
+      "score": 8.6,
+      "differentiated_score": 9.98,
+      "visual_fit_score": 3.25,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "http://tacoche.com/"
+    },
+    {
       "title": "Art Book Fairs",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -494,23 +511,6 @@
         "zine"
       ],
       "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
-    },
-    {
-      "title": "Tacoche",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "zine_print",
-      "country": "",
-      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "http://tacoche.com/"
     },
     {
       "title": "Books Ruhe",
@@ -623,7 +623,7 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -1480,55 +1480,6 @@
       "source": "https://bookandsons.com/"
     },
     {
-      "title": "Youkobo Art Space",
-      "score": 8.6,
-      "differentiated_score": 9.61,
-      "visual_fit_score": 0.9,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
-      "visual_hits": [
-        "memory",
-        "Tokyo-based"
-      ],
-      "source": "https://www.youkobo.co.jp/en/"
-    },
-    {
-      "title": "Tokyo Wonder Site / TOKAS Residency",
-      "score": 8.6,
-      "differentiated_score": 9.61,
-      "visual_fit_score": 0.9,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
-      "visual_hits": [
-        "watercolor",
-        "memory"
-      ],
-      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
-    },
-    {
-      "title": "Comitia",
-      "score": 8.6,
-      "differentiated_score": 9.56,
-      "visual_fit_score": 0.75,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
-      "visual_hits": [
-        "watercolor",
-        "zine",
-        "commercial_illustration"
-      ],
-      "source": "https://www.comitia.co.jp/"
-    },
-    {
       "title": "SCCP Guest Artist",
       "score": 8.8,
       "differentiated_score": 9.5,
@@ -1540,21 +1491,6 @@
       "why": "SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.",
       "visual_hits": [],
       "source": "https://www.sccp.jp/air-en/application/guest-artist/"
-    },
-    {
-      "title": "reload Shimokitazawa",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "market_event",
-      "country": "",
-      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "source": "https://reload-shimokita.com/"
     },
     {
       "title": "BankART1929",
@@ -1572,68 +1508,6 @@
       "source": "https://bankart1929.com/"
     },
     {
-      "title": "AIR 3331",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://residence.3331.jp/"
-    },
-    {
-      "title": "AIT Residency",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://www.a-i-t.net/en/"
-    },
-    {
-      "title": "Tokyo Arts and Space",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "institutional",
-      "country": "",
-      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://www.tokyoartsandspace.jp/en/"
-    },
-    {
-      "title": "HandMade In Japan Fes",
-      "score": 8.6,
-      "differentiated_score": 9.33,
-      "visual_fit_score": 0.1,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.",
-      "visual_hits": [
-        "watercolor",
-        "contemporary watercolor",
-        "craft_market"
-      ],
-      "source": "https://hmj-fes.jp/"
-    },
-    {
       "title": "3331 Arts Chiyoda",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -1647,19 +1521,6 @@
       "source": "https://www.3331.jp/"
     },
     {
-      "title": "BONUS TRACK",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "market_event",
-      "country": "",
-      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
-      "visual_hits": [],
-      "source": "https://bonus-track.net/"
-    },
-    {
       "title": "Koganecho Area Management Center",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -1671,84 +1532,6 @@
       "why": "Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.",
       "visual_hits": [],
       "source": "https://koganecho.net/"
-    },
-    {
-      "title": "Aoyama Farmers Market",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
-      "visual_hits": [],
-      "source": "https://farmersmarkets.jp/"
-    },
-    {
-      "title": "Design Festa",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
-      "visual_hits": [],
-      "source": "https://designfesta.com/"
-    },
-    {
-      "title": "Cafe Mame-Hico",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
-      "visual_hits": [],
-      "source": "https://www.mamehico.com/"
-    },
-    {
-      "title": "Yonchome Cafe",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
-      "visual_hits": [],
-      "source": "https://www.yonchome.com/"
-    },
-    {
-      "title": "Cafe Cross Point",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
-      "visual_hits": [],
-      "source": "https://cafecrosspoint.jp/"
-    },
-    {
-      "title": "Cafe Gallery HATTIFNATT",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
-      "visual_hits": [],
-      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "DESIGN FESTA GALLERY",
@@ -1855,17 +1638,49 @@
       "source": "https://galleryconceal.wixsite.com/gconceal"
     },
     {
-      "title": "Open Call for the International Creator Residency Program 2026",
+      "title": "BONUS TRACK",
       "score": 8.6,
-      "differentiated_score": 9.2,
+      "differentiated_score": 9.3,
       "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
+      "visual_hits": [],
+      "source": "https://bonus-track.net/"
+    },
+    {
+      "title": "Youkobo Art Space",
+      "score": 8.2,
+      "differentiated_score": 9.21,
+      "visual_fit_score": 0.9,
       "verification": "partial",
       "url_status": "ok",
       "category": "residency",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html"
+      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
+      "visual_hits": [
+        "memory",
+        "Tokyo-based"
+      ],
+      "source": "https://www.youkobo.co.jp/en/"
+    },
+    {
+      "title": "Tokyo Wonder Site / TOKAS Residency",
+      "score": 8.2,
+      "differentiated_score": 9.21,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
+      "visual_hits": [
+        "watercolor",
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
     },
     {
       "title": "Jinny Street Gallery Open Call",
@@ -1907,6 +1722,36 @@
       "source": "https://www.art-belladonna.jp/youkou"
     },
     {
+      "title": "Open Call for the International Creator Residency Program 2026",
+      "score": 8.6,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html"
+    },
+    {
+      "title": "Comitia",
+      "score": 8.2,
+      "differentiated_score": 9.16,
+      "visual_fit_score": 0.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "watercolor",
+        "zine",
+        "commercial_illustration"
+      ],
+      "source": "https://www.comitia.co.jp/"
+    },
+    {
       "title": "POST",
       "score": 8.0,
       "differentiated_score": 9.09,
@@ -1923,30 +1768,17 @@
       "source": "https://post-books.info/"
     },
     {
-      "title": "Hayama Artist Residency Submission Manager - Submittable",
+      "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
       "score": 8.6,
       "differentiated_score": 9.08,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
       "visual_hits": [],
-      "source": "https://hayamaartistresidency.submittable.com/submit"
-    },
-    {
-      "title": "Hayama Artist Residency",
-      "score": 8.6,
-      "differentiated_score": 9.08,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Hayama Artist Residency may matter later if her portfolio package and project statement become strong enough.",
-      "visual_hits": [],
-      "source": "https://hayamaartistresidency.submittable.com/submit"
+      "source": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457"
     },
     {
       "title": "Clavis Publishing Submissions",
@@ -1962,17 +1794,64 @@
       "source": "https://www.clavis-publishing.com/submit"
     },
     {
-      "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
-      "score": 8.6,
-      "differentiated_score": 9.08,
-      "visual_fit_score": 0.0,
+      "title": "reload Shimokitazawa",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "ok",
-      "category": "photo_open_call",
-      "country": "Global",
-      "why": "Possible fit based on link text: open call",
-      "visual_hits": [],
-      "source": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457"
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://reload-shimokita.com/"
+    },
+    {
+      "title": "AIR 3331",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://residence.3331.jp/"
+    },
+    {
+      "title": "AIT Residency",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.a-i-t.net/en/"
+    },
+    {
+      "title": "Tokyo Arts and Space",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "institutional",
+      "country": "",
+      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/"
     },
     {
       "title": "Open Calls for Artists",
@@ -1999,58 +1878,6 @@
       "why": "Open Call For Artists is worth checking because open calls can turn existing portfolio work into a concrete application.",
       "visual_hits": [],
       "source": "https://opencallforartists.com/listing/784"
-    },
-    {
-      "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://air-j.info/en/program/lair2026/"
-    },
-    {
-      "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://air-j.info/en/program/"
-    },
-    {
-      "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency"
-    },
-    {
-      "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://kiac.jp/en/article/2927/"
     },
     {
       "title": "Shoto Museum Open Call",
@@ -2183,9 +2010,156 @@
       "source": "https://en.410gallery.org/exhibition-open-call"
     },
     {
+      "title": "HandMade In Japan Fes",
+      "score": 8.2,
+      "differentiated_score": 8.93,
+      "visual_fit_score": 0.1,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.",
+      "visual_hits": [
+        "watercolor",
+        "contemporary watercolor",
+        "craft_market"
+      ],
+      "source": "https://hmj-fes.jp/"
+    },
+    {
+      "title": "Aoyama Farmers Market",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
+      "visual_hits": [],
+      "source": "https://farmersmarkets.jp/"
+    },
+    {
+      "title": "Design Festa",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
+      "visual_hits": [],
+      "source": "https://designfesta.com/"
+    },
+    {
+      "title": "Cafe Mame-Hico",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
+      "visual_hits": [],
+      "source": "https://www.mamehico.com/"
+    },
+    {
+      "title": "Yonchome Cafe",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
+      "visual_hits": [],
+      "source": "https://www.yonchome.com/"
+    },
+    {
+      "title": "Cafe Cross Point",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
+      "visual_hits": [],
+      "source": "https://cafecrosspoint.jp/"
+    },
+    {
+      "title": "Cafe Gallery HATTIFNATT",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
+      "visual_hits": [],
+      "source": "https://www.hattifnatt.jp/"
+    },
+    {
+      "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://air-j.info/en/program/lair2026/"
+    },
+    {
+      "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://air-j.info/en/program/"
+    },
+    {
+      "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency"
+    },
+    {
+      "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://kiac.jp/en/article/2927/"
+    },
+    {
       "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "score": 8.4,
+      "differentiated_score": 8.76,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
@@ -2197,8 +2171,8 @@
     },
     {
       "title": "Kyoto Art Center Residency",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "score": 8.4,
+      "differentiated_score": 8.76,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
@@ -2210,8 +2184,8 @@
     },
     {
       "title": "AIR_J Open Calls",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "score": 8.4,
+      "differentiated_score": 8.76,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
@@ -2223,8 +2197,8 @@
     },
     {
       "title": "NEW AIR",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "score": 8.4,
+      "differentiated_score": 8.76,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
@@ -2236,8 +2210,8 @@
     },
     {
       "title": "【公募】2026年度レジデンス・プログラム公募開始",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "score": 8.4,
+      "differentiated_score": 8.76,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
@@ -2249,8 +2223,8 @@
     },
     {
       "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "score": 8.4,
+      "differentiated_score": 8.76,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
@@ -2259,6 +2233,32 @@
       "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
       "visual_hits": [],
       "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+    },
+    {
+      "title": "Hayama Artist Residency Submission Manager - Submittable",
+      "score": 8.2,
+      "differentiated_score": 8.68,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://hayamaartistresidency.submittable.com/submit"
+    },
+    {
+      "title": "Hayama Artist Residency",
+      "score": 8.2,
+      "differentiated_score": 8.68,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Hayama Artist Residency may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://hayamaartistresidency.submittable.com/submit"
     }
   ],
   "publication_targets": [
@@ -2707,6 +2707,23 @@
       "source": "https://www.localgallerybooks.com/about"
     },
     {
+      "title": "Tacoche",
+      "score": 8.6,
+      "differentiated_score": 9.98,
+      "visual_fit_score": 3.25,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "http://tacoche.com/"
+    },
+    {
       "title": "Art Book Fairs",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -2756,23 +2773,6 @@
         "zine"
       ],
       "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
-    },
-    {
-      "title": "Tacoche",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "zine_print",
-      "country": "",
-      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "http://tacoche.com/"
     },
     {
       "title": "Books Ruhe",
@@ -2931,30 +2931,13 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
         "artist_book"
       ],
       "source": "https://dergreif.org/"
-    },
-    {
-      "title": "Comitia",
-      "score": 8.6,
-      "differentiated_score": 9.56,
-      "visual_fit_score": 0.75,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
-      "visual_hits": [
-        "watercolor",
-        "zine",
-        "commercial_illustration"
-      ],
-      "source": "https://www.comitia.co.jp/"
     },
     {
       "title": "NADiff a/p/a/r/t",
@@ -3070,21 +3053,6 @@
       "source": "https://www.eventeny.com/events/vendor/?id=39232"
     },
     {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-      "score": 8.6,
-      "differentiated_score": 9.29,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
-    },
-    {
       "title": "Book Obscura",
       "score": 8.0,
       "differentiated_score": 9.29,
@@ -3118,6 +3086,23 @@
         "artist_book"
       ],
       "source": "https://www.the-container.com/"
+    },
+    {
+      "title": "Comitia",
+      "score": 8.2,
+      "differentiated_score": 9.16,
+      "visual_fit_score": 0.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "watercolor",
+        "zine",
+        "commercial_illustration"
+      ],
+      "source": "https://www.comitia.co.jp/"
     },
     {
       "title": "POST",
@@ -3440,6 +3425,21 @@
         "zine"
       ],
       "source": "https://sozoroshobou.stores.jp/"
+    },
+    {
+      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+      "score": 7.8,
+      "differentiated_score": 8.49,
+      "visual_fit_score": 1.3,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [
+        "zine"
+      ],
+      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "日記屋 月日",
@@ -4127,6 +4127,23 @@
       "source": "https://www.localgallerybooks.com/about"
     },
     {
+      "title": "Tacoche",
+      "score": 8.6,
+      "differentiated_score": 9.98,
+      "visual_fit_score": 3.25,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "http://tacoche.com/"
+    },
+    {
       "title": "Art Book Fairs",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -4176,23 +4193,6 @@
         "zine"
       ],
       "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
-    },
-    {
-      "title": "Tacoche",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "zine_print",
-      "country": "",
-      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "http://tacoche.com/"
     },
     {
       "title": "Books Ruhe",
@@ -4351,30 +4351,13 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
         "artist_book"
       ],
       "source": "https://dergreif.org/"
-    },
-    {
-      "title": "Comitia",
-      "score": 8.6,
-      "differentiated_score": 9.56,
-      "visual_fit_score": 0.75,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
-      "visual_hits": [
-        "watercolor",
-        "zine",
-        "commercial_illustration"
-      ],
-      "source": "https://www.comitia.co.jp/"
     },
     {
       "title": "NADiff a/p/a/r/t",
@@ -4490,21 +4473,6 @@
       "source": "https://www.eventeny.com/events/vendor/?id=39232"
     },
     {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-      "score": 8.6,
-      "differentiated_score": 9.29,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
-    },
-    {
       "title": "Book Obscura",
       "score": 8.0,
       "differentiated_score": 9.29,
@@ -4538,6 +4506,23 @@
         "artist_book"
       ],
       "source": "https://www.the-container.com/"
+    },
+    {
+      "title": "Comitia",
+      "score": 8.2,
+      "differentiated_score": 9.16,
+      "visual_fit_score": 0.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "watercolor",
+        "zine",
+        "commercial_illustration"
+      ],
+      "source": "https://www.comitia.co.jp/"
     },
     {
       "title": "POST",
@@ -4860,6 +4845,21 @@
         "zine"
       ],
       "source": "https://sozoroshobou.stores.jp/"
+    },
+    {
+      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+      "score": 7.8,
+      "differentiated_score": 8.49,
+      "visual_fit_score": 1.3,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [
+        "zine"
+      ],
+      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "日記屋 月日",
@@ -5332,45 +5332,13 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
         "artist_book"
       ],
       "source": "https://dergreif.org/"
-    },
-    {
-      "title": "Youkobo Art Space",
-      "score": 8.6,
-      "differentiated_score": 9.61,
-      "visual_fit_score": 0.9,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
-      "visual_hits": [
-        "memory",
-        "Tokyo-based"
-      ],
-      "source": "https://www.youkobo.co.jp/en/"
-    },
-    {
-      "title": "Tokyo Wonder Site / TOKAS Residency",
-      "score": 8.6,
-      "differentiated_score": 9.61,
-      "visual_fit_score": 0.9,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
-      "visual_hits": [
-        "watercolor",
-        "memory"
-      ],
-      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
     },
     {
       "title": "American Watercolor Society Annual International Exhibition",
@@ -5421,21 +5389,6 @@
       "source": "https://bankart1929.com/"
     },
     {
-      "title": "AIT Residency",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://www.a-i-t.net/en/"
-    },
-    {
       "title": "Home - Printed Matter",
       "score": 8.0,
       "differentiated_score": 9.4,
@@ -5453,19 +5406,6 @@
         "zine"
       ],
       "source": "https://www.printedmatter.org/"
-    },
-    {
-      "title": "Design Festa",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
-      "visual_hits": [],
-      "source": "https://designfesta.com/"
     },
     {
       "title": "SCAI The Bathhouse",
@@ -5537,6 +5477,38 @@
       "source": "https://www.the-container.com/"
     },
     {
+      "title": "Youkobo Art Space",
+      "score": 8.2,
+      "differentiated_score": 9.21,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
+      "visual_hits": [
+        "memory",
+        "Tokyo-based"
+      ],
+      "source": "https://www.youkobo.co.jp/en/"
+    },
+    {
+      "title": "Tokyo Wonder Site / TOKAS Residency",
+      "score": 8.2,
+      "differentiated_score": 9.21,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
+      "visual_hits": [
+        "watercolor",
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
+    },
+    {
       "title": "Open Call for the International Creator Residency Program 2026",
       "score": 8.6,
       "differentiated_score": 9.2,
@@ -5563,17 +5535,19 @@
       "source": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457"
     },
     {
-      "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
+      "title": "AIT Residency",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "ok",
       "category": "residency",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://air-j.info/en/program/"
+      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.a-i-t.net/en/"
     },
     {
       "title": "Open calls - Online Database of Artist in Residence Programs in Japan",
@@ -5600,6 +5574,19 @@
       "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
       "visual_hits": [],
       "source": "https://en.410gallery.org/exhibition-open-call"
+    },
+    {
+      "title": "Design Festa",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
+      "visual_hits": [],
+      "source": "https://designfesta.com/"
     },
     {
       "title": "Bologna Children's Book Fair Illustrators Exhibition",
@@ -5870,6 +5857,19 @@
       "source": "https://www.vogue.com/photovogue"
     },
     {
+      "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://air-j.info/en/program/"
+    },
+    {
       "title": "Asian Cultural Council Fellowship",
       "score": 7.8,
       "differentiated_score": 8.38,
@@ -5965,6 +5965,19 @@
         "memory"
       ],
       "source": "https://www.boji-hair.com/"
+    },
+    {
+      "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+      "score": 6.1,
+      "differentiated_score": 6.58,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839"
     }
   ],
   "easy_wins": [
@@ -6379,6 +6392,23 @@
       "source": "https://www.localgallerybooks.com/about"
     },
     {
+      "title": "Tacoche",
+      "score": 8.6,
+      "differentiated_score": 9.98,
+      "visual_fit_score": 3.25,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "http://tacoche.com/"
+    },
+    {
       "title": "Art Book Fairs",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -6428,23 +6458,6 @@
         "zine"
       ],
       "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
-    },
-    {
-      "title": "Tacoche",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "zine_print",
-      "country": "",
-      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "http://tacoche.com/"
     },
     {
       "title": "Books Ruhe",
@@ -6553,62 +6566,13 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
         "artist_book"
       ],
       "source": "https://dergreif.org/"
-    },
-    {
-      "title": "Youkobo Art Space",
-      "score": 8.6,
-      "differentiated_score": 9.61,
-      "visual_fit_score": 0.9,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
-      "visual_hits": [
-        "memory",
-        "Tokyo-based"
-      ],
-      "source": "https://www.youkobo.co.jp/en/"
-    },
-    {
-      "title": "Tokyo Wonder Site / TOKAS Residency",
-      "score": 8.6,
-      "differentiated_score": 9.61,
-      "visual_fit_score": 0.9,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
-      "visual_hits": [
-        "watercolor",
-        "memory"
-      ],
-      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
-    },
-    {
-      "title": "Comitia",
-      "score": 8.6,
-      "differentiated_score": 9.56,
-      "visual_fit_score": 0.75,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
-      "visual_hits": [
-        "watercolor",
-        "zine",
-        "commercial_illustration"
-      ],
-      "source": "https://www.comitia.co.jp/"
     },
     {
       "title": "NADiff a/p/a/r/t",
@@ -6641,21 +6605,6 @@
       "source": "https://www.sccp.jp/air-en/application/guest-artist/"
     },
     {
-      "title": "reload Shimokitazawa",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "market_event",
-      "country": "",
-      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "source": "https://reload-shimokita.com/"
-    },
-    {
       "title": "BankART1929",
       "score": 8.6,
       "differentiated_score": 9.46,
@@ -6669,51 +6618,6 @@
         "memory"
       ],
       "source": "https://bankart1929.com/"
-    },
-    {
-      "title": "AIR 3331",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://residence.3331.jp/"
-    },
-    {
-      "title": "AIT Residency",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://www.a-i-t.net/en/"
-    },
-    {
-      "title": "Tokyo Arts and Space",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "institutional",
-      "country": "",
-      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://www.tokyoartsandspace.jp/en/"
     },
     {
       "title": "Home - Printed Matter",
@@ -6735,23 +6639,6 @@
       "source": "https://www.printedmatter.org/"
     },
     {
-      "title": "HandMade In Japan Fes",
-      "score": 8.6,
-      "differentiated_score": 9.33,
-      "visual_fit_score": 0.1,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.",
-      "visual_hits": [
-        "watercolor",
-        "contemporary watercolor",
-        "craft_market"
-      ],
-      "source": "https://hmj-fes.jp/"
-    },
-    {
       "title": "3331 Arts Chiyoda",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -6765,19 +6652,6 @@
       "source": "https://www.3331.jp/"
     },
     {
-      "title": "BONUS TRACK",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "market_event",
-      "country": "",
-      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
-      "visual_hits": [],
-      "source": "https://bonus-track.net/"
-    },
-    {
       "title": "Koganecho Area Management Center",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -6789,84 +6663,6 @@
       "why": "Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.",
       "visual_hits": [],
       "source": "https://koganecho.net/"
-    },
-    {
-      "title": "Aoyama Farmers Market",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
-      "visual_hits": [],
-      "source": "https://farmersmarkets.jp/"
-    },
-    {
-      "title": "Design Festa",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
-      "visual_hits": [],
-      "source": "https://designfesta.com/"
-    },
-    {
-      "title": "Cafe Mame-Hico",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
-      "visual_hits": [],
-      "source": "https://www.mamehico.com/"
-    },
-    {
-      "title": "Yonchome Cafe",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
-      "visual_hits": [],
-      "source": "https://www.yonchome.com/"
-    },
-    {
-      "title": "Cafe Cross Point",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
-      "visual_hits": [],
-      "source": "https://cafecrosspoint.jp/"
-    },
-    {
-      "title": "Cafe Gallery HATTIFNATT",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
-      "visual_hits": [],
-      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "DESIGN FESTA GALLERY",
@@ -6973,6 +6769,19 @@
       "source": "https://galleryconceal.wixsite.com/gconceal"
     },
     {
+      "title": "BONUS TRACK",
+      "score": 8.6,
+      "differentiated_score": 9.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
+      "visual_hits": [],
+      "source": "https://bonus-track.net/"
+    },
+    {
       "title": "Zines Fair at CP+",
       "score": 8.6,
       "differentiated_score": 9.29,
@@ -7033,21 +6842,6 @@
       "source": "https://www.eventeny.com/events/vendor/?id=39232"
     },
     {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-      "score": 8.6,
-      "differentiated_score": 9.29,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
-    },
-    {
       "title": "Book Obscura",
       "score": 8.0,
       "differentiated_score": 9.29,
@@ -7083,17 +6877,36 @@
       "source": "https://www.the-container.com/"
     },
     {
-      "title": "Open Call for the International Creator Residency Program 2026",
-      "score": 8.6,
-      "differentiated_score": 9.2,
-      "visual_fit_score": 0.0,
+      "title": "Youkobo Art Space",
+      "score": 8.2,
+      "differentiated_score": 9.21,
+      "visual_fit_score": 0.9,
       "verification": "partial",
       "url_status": "ok",
       "category": "residency",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html"
+      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
+      "visual_hits": [
+        "memory",
+        "Tokyo-based"
+      ],
+      "source": "https://www.youkobo.co.jp/en/"
+    },
+    {
+      "title": "Tokyo Wonder Site / TOKAS Residency",
+      "score": 8.2,
+      "differentiated_score": 9.21,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
+      "visual_hits": [
+        "watercolor",
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
     },
     {
       "title": "Jinny Street Gallery Open Call",
@@ -7135,6 +6948,36 @@
       "source": "https://www.art-belladonna.jp/youkou"
     },
     {
+      "title": "Open Call for the International Creator Residency Program 2026",
+      "score": 8.6,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html"
+    },
+    {
+      "title": "Comitia",
+      "score": 8.2,
+      "differentiated_score": 9.16,
+      "visual_fit_score": 0.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "watercolor",
+        "zine",
+        "commercial_illustration"
+      ],
+      "source": "https://www.comitia.co.jp/"
+    },
+    {
       "title": "POST",
       "score": 8.0,
       "differentiated_score": 9.09,
@@ -7151,30 +6994,17 @@
       "source": "https://post-books.info/"
     },
     {
-      "title": "Hayama Artist Residency Submission Manager - Submittable",
+      "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
       "score": 8.6,
       "differentiated_score": 9.08,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
       "visual_hits": [],
-      "source": "https://hayamaartistresidency.submittable.com/submit"
-    },
-    {
-      "title": "Hayama Artist Residency",
-      "score": 8.6,
-      "differentiated_score": 9.08,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Hayama Artist Residency may matter later if her portfolio package and project statement become strong enough.",
-      "visual_hits": [],
-      "source": "https://hayamaartistresidency.submittable.com/submit"
+      "source": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457"
     },
     {
       "title": "Clavis Publishing Submissions",
@@ -7190,17 +7020,64 @@
       "source": "https://www.clavis-publishing.com/submit"
     },
     {
-      "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
-      "score": 8.6,
-      "differentiated_score": 9.08,
-      "visual_fit_score": 0.0,
+      "title": "reload Shimokitazawa",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "ok",
-      "category": "photo_open_call",
-      "country": "Global",
-      "why": "Possible fit based on link text: open call",
-      "visual_hits": [],
-      "source": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457"
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://reload-shimokita.com/"
+    },
+    {
+      "title": "AIR 3331",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://residence.3331.jp/"
+    },
+    {
+      "title": "AIT Residency",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.a-i-t.net/en/"
+    },
+    {
+      "title": "Tokyo Arts and Space",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "institutional",
+      "country": "",
+      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/"
     },
     {
       "title": "Open Calls for Artists",
@@ -7227,58 +7104,6 @@
       "why": "Open Call For Artists is worth checking because open calls can turn existing portfolio work into a concrete application.",
       "visual_hits": [],
       "source": "https://opencallforartists.com/listing/784"
-    },
-    {
-      "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://air-j.info/en/program/lair2026/"
-    },
-    {
-      "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://air-j.info/en/program/"
-    },
-    {
-      "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency"
-    },
-    {
-      "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://kiac.jp/en/article/2927/"
     },
     {
       "title": "Shoto Museum Open Call",
@@ -7411,82 +7236,99 @@
       "source": "https://en.410gallery.org/exhibition-open-call"
     },
     {
-      "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
+      "title": "HandMade In Japan Fes",
+      "score": 8.2,
+      "differentiated_score": 8.93,
+      "visual_fit_score": 0.1,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "fair_popup",
       "country": "",
-      "why": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\" may matter later if her portfolio package and project statement become strong enough.",
-      "visual_hits": [],
-      "source": "https://tokyobiennale.jp/en/archives/news/6152"
+      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.",
+      "visual_hits": [
+        "watercolor",
+        "contemporary watercolor",
+        "craft_market"
+      ],
+      "source": "https://hmj-fes.jp/"
     },
     {
-      "title": "Kyoto Art Center Residency",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "title": "Aoyama Farmers Market",
+      "score": 8.2,
+      "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "fair_popup",
       "country": "",
-      "why": "Kyoto Art Center Residency may matter later if her portfolio package and project statement become strong enough.",
+      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
       "visual_hits": [],
-      "source": "https://kiac.jp/en/article/2927/"
+      "source": "https://farmersmarkets.jp/"
     },
     {
-      "title": "AIR_J Open Calls",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "title": "Design Festa",
+      "score": 8.2,
+      "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "fair_popup",
       "country": "",
-      "why": "AIR_J Open Calls may matter later if her portfolio package and project statement become strong enough.",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
       "visual_hits": [],
-      "source": "https://air-j.info/en/program/"
+      "source": "https://designfesta.com/"
     },
     {
-      "title": "NEW AIR",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "title": "Cafe Mame-Hico",
+      "score": 8.2,
+      "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "cafe_gallery",
       "country": "",
-      "why": "NEW AIR may matter later if her portfolio package and project statement become strong enough.",
+      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
       "visual_hits": [],
-      "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+      "source": "https://www.mamehico.com/"
     },
     {
-      "title": "【公募】2026年度レジデンス・プログラム公募開始",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "title": "Yonchome Cafe",
+      "score": 8.2,
+      "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "cafe_gallery",
       "country": "",
-      "why": "【公募】2026年度レジデンス・プログラム公募開始 may matter later if her portfolio package and project statement become strong enough.",
+      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
       "visual_hits": [],
-      "source": "https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html"
+      "source": "https://www.yonchome.com/"
     },
     {
-      "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "title": "Cafe Cross Point",
+      "score": 8.2,
+      "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "cafe_gallery",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
       "visual_hits": [],
-      "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+      "source": "https://cafecrosspoint.jp/"
+    },
+    {
+      "title": "Cafe Gallery HATTIFNATT",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
+      "visual_hits": [],
+      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "Bologna Children's Book Fair Illustrators Exhibition",
@@ -7804,6 +7646,162 @@
       "source": "https://www.vogue.com/photovogue"
     },
     {
+      "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://air-j.info/en/program/lair2026/"
+    },
+    {
+      "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://air-j.info/en/program/"
+    },
+    {
+      "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency"
+    },
+    {
+      "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://kiac.jp/en/article/2927/"
+    },
+    {
+      "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\" may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://tokyobiennale.jp/en/archives/news/6152"
+    },
+    {
+      "title": "Kyoto Art Center Residency",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Kyoto Art Center Residency may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://kiac.jp/en/article/2927/"
+    },
+    {
+      "title": "AIR_J Open Calls",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "AIR_J Open Calls may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://air-j.info/en/program/"
+    },
+    {
+      "title": "NEW AIR",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "NEW AIR may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+    },
+    {
+      "title": "【公募】2026年度レジデンス・プログラム公募開始",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "【公募】2026年度レジデンス・プログラム公募開始 may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html"
+    },
+    {
+      "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+    },
+    {
+      "title": "Hayama Artist Residency Submission Manager - Submittable",
+      "score": 8.2,
+      "differentiated_score": 8.68,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://hayamaartistresidency.submittable.com/submit"
+    },
+    {
+      "title": "Hayama Artist Residency",
+      "score": 8.2,
+      "differentiated_score": 8.68,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Hayama Artist Residency may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://hayamaartistresidency.submittable.com/submit"
+    },
+    {
       "title": "そぞろ書房",
       "score": 7.5,
       "differentiated_score": 8.64,
@@ -7821,21 +7819,6 @@
       "source": "https://sozoroshobou.stores.jp/"
     },
     {
-      "title": "RAW TOKYO",
-      "score": 7.9,
-      "differentiated_score": 8.54,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "error",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
-      "visual_hits": [
-        "Tokyo-based"
-      ],
-      "source": "https://rawtokyo.jp/"
-    },
-    {
       "title": "Creative Space Hayashi",
       "score": 7.9,
       "differentiated_score": 8.54,
@@ -7849,6 +7832,21 @@
         "memory"
       ],
       "source": "https://csh.yokohama/"
+    },
+    {
+      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+      "score": 7.8,
+      "differentiated_score": 8.49,
+      "visual_fit_score": 1.3,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [
+        "zine"
+      ],
+      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "日記屋 月日",
@@ -8058,30 +8056,19 @@
       "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.artworkarchive.com%2Fcall%2Dfor%2Dentry%2Fshowcase%2Dyour%2Dart%2Din%2Dtokyo%2Djapan%2D2025&rut=18e7fc33851de86764219ed41599c81337554ed1fdd5f8259da21271f6657e1c"
     },
     {
-      "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
-      "score": 7.5,
-      "differentiated_score": 7.62,
-      "visual_fit_score": 0.0,
+      "title": "RAW TOKYO",
+      "score": 7.1,
+      "differentiated_score": 7.74,
+      "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "error",
-      "category": "residency",
+      "category": "fair_popup",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/"
-    },
-    {
-      "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
-      "score": 7.5,
-      "differentiated_score": 7.62,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "error",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/"
+      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
+      "visual_hits": [
+        "Tokyo-based"
+      ],
+      "source": "https://rawtokyo.jp/"
     }
   ],
   "relationship_builders": [
@@ -8478,6 +8465,23 @@
       "source": "https://www.localgallerybooks.com/about"
     },
     {
+      "title": "Tacoche",
+      "score": 8.6,
+      "differentiated_score": 9.98,
+      "visual_fit_score": 3.25,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "http://tacoche.com/"
+    },
+    {
       "title": "Art Book Fairs",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -8527,23 +8531,6 @@
         "zine"
       ],
       "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
-    },
-    {
-      "title": "Tacoche",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "zine_print",
-      "country": "",
-      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "http://tacoche.com/"
     },
     {
       "title": "Books Ruhe",
@@ -8662,23 +8649,6 @@
       "source": "https://selfpublishbehappy.com/"
     },
     {
-      "title": "Comitia",
-      "score": 8.6,
-      "differentiated_score": 9.56,
-      "visual_fit_score": 0.75,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
-      "visual_hits": [
-        "watercolor",
-        "zine",
-        "commercial_illustration"
-      ],
-      "source": "https://www.comitia.co.jp/"
-    },
-    {
       "title": "NADiff a/p/a/r/t",
       "score": 7.9,
       "differentiated_score": 9.52,
@@ -8696,38 +8666,6 @@
       "source": "https://www.nadiff.com/"
     },
     {
-      "title": "reload Shimokitazawa",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "market_event",
-      "country": "",
-      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "source": "https://reload-shimokita.com/"
-    },
-    {
-      "title": "HandMade In Japan Fes",
-      "score": 8.6,
-      "differentiated_score": 9.33,
-      "visual_fit_score": 0.1,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.",
-      "visual_hits": [
-        "watercolor",
-        "contemporary watercolor",
-        "craft_market"
-      ],
-      "source": "https://hmj-fes.jp/"
-    },
-    {
       "title": "3331 Arts Chiyoda",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -8741,19 +8679,6 @@
       "source": "https://www.3331.jp/"
     },
     {
-      "title": "BONUS TRACK",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "market_event",
-      "country": "",
-      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
-      "visual_hits": [],
-      "source": "https://bonus-track.net/"
-    },
-    {
       "title": "Koganecho Area Management Center",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -8765,84 +8690,6 @@
       "why": "Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.",
       "visual_hits": [],
       "source": "https://koganecho.net/"
-    },
-    {
-      "title": "Aoyama Farmers Market",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
-      "visual_hits": [],
-      "source": "https://farmersmarkets.jp/"
-    },
-    {
-      "title": "Design Festa",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
-      "visual_hits": [],
-      "source": "https://designfesta.com/"
-    },
-    {
-      "title": "Cafe Mame-Hico",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
-      "visual_hits": [],
-      "source": "https://www.mamehico.com/"
-    },
-    {
-      "title": "Yonchome Cafe",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
-      "visual_hits": [],
-      "source": "https://www.yonchome.com/"
-    },
-    {
-      "title": "Cafe Cross Point",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
-      "visual_hits": [],
-      "source": "https://cafecrosspoint.jp/"
-    },
-    {
-      "title": "Cafe Gallery HATTIFNATT",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
-      "visual_hits": [],
-      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "DESIGN FESTA GALLERY",
@@ -8869,6 +8716,19 @@
       "why": "The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.",
       "visual_hits": [],
       "source": "https://www.scaithebathhouse.com/"
+    },
+    {
+      "title": "BONUS TRACK",
+      "score": 8.6,
+      "differentiated_score": 9.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
+      "visual_hits": [],
+      "source": "https://bonus-track.net/"
     },
     {
       "title": "Zines Fair at CP+",
@@ -8931,21 +8791,6 @@
       "source": "https://www.eventeny.com/events/vendor/?id=39232"
     },
     {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-      "score": 8.6,
-      "differentiated_score": 9.29,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
-    },
-    {
       "title": "Book Obscura",
       "score": 8.0,
       "differentiated_score": 9.29,
@@ -8977,6 +8822,23 @@
       "source": "https://www.citedesartsparis.net/"
     },
     {
+      "title": "Comitia",
+      "score": 8.2,
+      "differentiated_score": 9.16,
+      "visual_fit_score": 0.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "watercolor",
+        "zine",
+        "commercial_illustration"
+      ],
+      "source": "https://www.comitia.co.jp/"
+    },
+    {
       "title": "POST",
       "score": 8.0,
       "differentiated_score": 9.09,
@@ -8991,6 +8853,116 @@
         "zine"
       ],
       "source": "https://post-books.info/"
+    },
+    {
+      "title": "reload Shimokitazawa",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://reload-shimokita.com/"
+    },
+    {
+      "title": "HandMade In Japan Fes",
+      "score": 8.2,
+      "differentiated_score": 8.93,
+      "visual_fit_score": 0.1,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.",
+      "visual_hits": [
+        "watercolor",
+        "contemporary watercolor",
+        "craft_market"
+      ],
+      "source": "https://hmj-fes.jp/"
+    },
+    {
+      "title": "Aoyama Farmers Market",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
+      "visual_hits": [],
+      "source": "https://farmersmarkets.jp/"
+    },
+    {
+      "title": "Design Festa",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
+      "visual_hits": [],
+      "source": "https://designfesta.com/"
+    },
+    {
+      "title": "Cafe Mame-Hico",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
+      "visual_hits": [],
+      "source": "https://www.mamehico.com/"
+    },
+    {
+      "title": "Yonchome Cafe",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
+      "visual_hits": [],
+      "source": "https://www.yonchome.com/"
+    },
+    {
+      "title": "Cafe Cross Point",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
+      "visual_hits": [],
+      "source": "https://cafecrosspoint.jp/"
+    },
+    {
+      "title": "Cafe Gallery HATTIFNATT",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
+      "visual_hits": [],
+      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "そぞろ書房",
@@ -9010,19 +8982,19 @@
       "source": "https://sozoroshobou.stores.jp/"
     },
     {
-      "title": "RAW TOKYO",
-      "score": 7.9,
-      "differentiated_score": 8.54,
-      "visual_fit_score": 0.45,
+      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+      "score": 7.8,
+      "differentiated_score": 8.49,
+      "visual_fit_score": 1.3,
       "verification": "partial",
-      "url_status": "error",
+      "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
       "visual_hits": [
-        "Tokyo-based"
+        "zine"
       ],
-      "source": "https://rawtokyo.jp/"
+      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "日記屋 月日",
@@ -9072,6 +9044,21 @@
       "source": ""
     },
     {
+      "title": "RAW TOKYO",
+      "score": 7.1,
+      "differentiated_score": 7.74,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
+      "visual_hits": [
+        "Tokyo-based"
+      ],
+      "source": "https://rawtokyo.jp/"
+    },
+    {
       "title": "Book Culture Club",
       "score": 6.5,
       "differentiated_score": 7.64,
@@ -9090,8 +9077,8 @@
     },
     {
       "title": "Spiral",
-      "score": 4.2,
-      "differentiated_score": 4.9,
+      "score": 3.8,
+      "differentiated_score": 4.5,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
@@ -9136,19 +9123,6 @@
       "source": "https://www.instagram.com/digaholezines/"
     },
     {
-      "title": "MADO Café",
-      "score": 3.4,
-      "differentiated_score": 4.1,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
-      "visual_hits": [],
-      "source": "https://www.instagram.com/madocafe/"
-    },
-    {
       "title": "ZINE FARM TOKYO",
       "score": 3.0,
       "differentiated_score": 3.85,
@@ -9163,6 +9137,19 @@
         "zine"
       ],
       "source": "https://www.instagram.com/zinefarmtokyo/"
+    },
+    {
+      "title": "MADO Café",
+      "score": 2.6,
+      "differentiated_score": 3.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/madocafe/"
     }
   ],
   "needs_research": [
@@ -9611,6 +9598,23 @@
       "source": "https://www.localgallerybooks.com/about"
     },
     {
+      "title": "Tacoche",
+      "score": 8.6,
+      "differentiated_score": 9.98,
+      "visual_fit_score": 3.25,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "zine_print",
+      "country": "",
+      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "http://tacoche.com/"
+    },
+    {
       "title": "Art Book Fairs",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -9660,23 +9664,6 @@
         "zine"
       ],
       "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
-    },
-    {
-      "title": "Tacoche",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "zine_print",
-      "country": "",
-      "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "http://tacoche.com/"
     },
     {
       "title": "Books Ruhe",
@@ -9835,62 +9822,13 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
         "artist_book"
       ],
       "source": "https://dergreif.org/"
-    },
-    {
-      "title": "Youkobo Art Space",
-      "score": 8.6,
-      "differentiated_score": 9.61,
-      "visual_fit_score": 0.9,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
-      "visual_hits": [
-        "memory",
-        "Tokyo-based"
-      ],
-      "source": "https://www.youkobo.co.jp/en/"
-    },
-    {
-      "title": "Tokyo Wonder Site / TOKAS Residency",
-      "score": 8.6,
-      "differentiated_score": 9.61,
-      "visual_fit_score": 0.9,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
-      "visual_hits": [
-        "watercolor",
-        "memory"
-      ],
-      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
-    },
-    {
-      "title": "Comitia",
-      "score": 8.6,
-      "differentiated_score": 9.56,
-      "visual_fit_score": 0.75,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
-      "visual_hits": [
-        "watercolor",
-        "zine",
-        "commercial_illustration"
-      ],
-      "source": "https://www.comitia.co.jp/"
     },
     {
       "title": "American Watercolor Society Annual International Exhibition",
@@ -9956,21 +9894,6 @@
       "source": "https://www.printedmatter.org/"
     },
     {
-      "title": "reload Shimokitazawa",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "market_event",
-      "country": "",
-      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "source": "https://reload-shimokita.com/"
-    },
-    {
       "title": "BankART1929",
       "score": 8.6,
       "differentiated_score": 9.46,
@@ -9984,51 +9907,6 @@
         "memory"
       ],
       "source": "https://bankart1929.com/"
-    },
-    {
-      "title": "AIR 3331",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://residence.3331.jp/"
-    },
-    {
-      "title": "AIT Residency",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://www.a-i-t.net/en/"
-    },
-    {
-      "title": "Tokyo Arts and Space",
-      "score": 8.6,
-      "differentiated_score": 9.46,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "institutional",
-      "country": "",
-      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://www.tokyoartsandspace.jp/en/"
     },
     {
       "title": "Home - Printed Matter",
@@ -10050,23 +9928,6 @@
       "source": "https://www.printedmatter.org/"
     },
     {
-      "title": "HandMade In Japan Fes",
-      "score": 8.6,
-      "differentiated_score": 9.33,
-      "visual_fit_score": 0.1,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.",
-      "visual_hits": [
-        "watercolor",
-        "contemporary watercolor",
-        "craft_market"
-      ],
-      "source": "https://hmj-fes.jp/"
-    },
-    {
       "title": "3331 Arts Chiyoda",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -10080,19 +9941,6 @@
       "source": "https://www.3331.jp/"
     },
     {
-      "title": "BONUS TRACK",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "market_event",
-      "country": "",
-      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
-      "visual_hits": [],
-      "source": "https://bonus-track.net/"
-    },
-    {
       "title": "Koganecho Area Management Center",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -10104,84 +9952,6 @@
       "why": "Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.",
       "visual_hits": [],
       "source": "https://koganecho.net/"
-    },
-    {
-      "title": "Aoyama Farmers Market",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
-      "visual_hits": [],
-      "source": "https://farmersmarkets.jp/"
-    },
-    {
-      "title": "Design Festa",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
-      "visual_hits": [],
-      "source": "https://designfesta.com/"
-    },
-    {
-      "title": "Cafe Mame-Hico",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
-      "visual_hits": [],
-      "source": "https://www.mamehico.com/"
-    },
-    {
-      "title": "Yonchome Cafe",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
-      "visual_hits": [],
-      "source": "https://www.yonchome.com/"
-    },
-    {
-      "title": "Cafe Cross Point",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
-      "visual_hits": [],
-      "source": "https://cafecrosspoint.jp/"
-    },
-    {
-      "title": "Cafe Gallery HATTIFNATT",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
-      "visual_hits": [],
-      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "DESIGN FESTA GALLERY",
@@ -10288,6 +10058,19 @@
       "source": "https://galleryconceal.wixsite.com/gconceal"
     },
     {
+      "title": "BONUS TRACK",
+      "score": 8.6,
+      "differentiated_score": 9.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
+      "visual_hits": [],
+      "source": "https://bonus-track.net/"
+    },
+    {
       "title": "Zines Fair at CP+",
       "score": 8.6,
       "differentiated_score": 9.29,
@@ -10348,21 +10131,6 @@
       "source": "https://www.eventeny.com/events/vendor/?id=39232"
     },
     {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-      "score": 8.6,
-      "differentiated_score": 9.29,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
-    },
-    {
       "title": "Book Obscura",
       "score": 8.0,
       "differentiated_score": 9.29,
@@ -10411,17 +10179,36 @@
       "source": "https://www.the-container.com/"
     },
     {
-      "title": "Open Call for the International Creator Residency Program 2026",
-      "score": 8.6,
-      "differentiated_score": 9.2,
-      "visual_fit_score": 0.0,
+      "title": "Youkobo Art Space",
+      "score": 8.2,
+      "differentiated_score": 9.21,
+      "visual_fit_score": 0.9,
       "verification": "partial",
       "url_status": "ok",
       "category": "residency",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html"
+      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
+      "visual_hits": [
+        "memory",
+        "Tokyo-based"
+      ],
+      "source": "https://www.youkobo.co.jp/en/"
+    },
+    {
+      "title": "Tokyo Wonder Site / TOKAS Residency",
+      "score": 8.2,
+      "differentiated_score": 9.21,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
+      "visual_hits": [
+        "watercolor",
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
     },
     {
       "title": "Jinny Street Gallery Open Call",
@@ -10463,6 +10250,36 @@
       "source": "https://www.art-belladonna.jp/youkou"
     },
     {
+      "title": "Open Call for the International Creator Residency Program 2026",
+      "score": 8.6,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html"
+    },
+    {
+      "title": "Comitia",
+      "score": 8.2,
+      "differentiated_score": 9.16,
+      "visual_fit_score": 0.75,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "visual_hits": [
+        "watercolor",
+        "zine",
+        "commercial_illustration"
+      ],
+      "source": "https://www.comitia.co.jp/"
+    },
+    {
       "title": "POST",
       "score": 8.0,
       "differentiated_score": 9.09,
@@ -10479,30 +10296,17 @@
       "source": "https://post-books.info/"
     },
     {
-      "title": "Hayama Artist Residency Submission Manager - Submittable",
+      "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
       "score": 8.6,
       "differentiated_score": 9.08,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
       "visual_hits": [],
-      "source": "https://hayamaartistresidency.submittable.com/submit"
-    },
-    {
-      "title": "Hayama Artist Residency",
-      "score": 8.6,
-      "differentiated_score": 9.08,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Hayama Artist Residency may matter later if her portfolio package and project statement become strong enough.",
-      "visual_hits": [],
-      "source": "https://hayamaartistresidency.submittable.com/submit"
+      "source": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457"
     },
     {
       "title": "Clavis Publishing Submissions",
@@ -10518,17 +10322,64 @@
       "source": "https://www.clavis-publishing.com/submit"
     },
     {
-      "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
-      "score": 8.6,
-      "differentiated_score": 9.08,
-      "visual_fit_score": 0.0,
+      "title": "reload Shimokitazawa",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "ok",
-      "category": "photo_open_call",
-      "country": "Global",
-      "why": "Possible fit based on link text: open call",
-      "visual_hits": [],
-      "source": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457"
+      "category": "market_event",
+      "country": "",
+      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://reload-shimokita.com/"
+    },
+    {
+      "title": "AIR 3331",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://residence.3331.jp/"
+    },
+    {
+      "title": "AIT Residency",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.a-i-t.net/en/"
+    },
+    {
+      "title": "Tokyo Arts and Space",
+      "score": 8.2,
+      "differentiated_score": 9.06,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "institutional",
+      "country": "",
+      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://www.tokyoartsandspace.jp/en/"
     },
     {
       "title": "Open Calls for Artists",
@@ -10555,58 +10406,6 @@
       "why": "Open Call For Artists is worth checking because open calls can turn existing portfolio work into a concrete application.",
       "visual_hits": [],
       "source": "https://opencallforartists.com/listing/784"
-    },
-    {
-      "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://air-j.info/en/program/lair2026/"
-    },
-    {
-      "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://air-j.info/en/program/"
-    },
-    {
-      "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency"
-    },
-    {
-      "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://kiac.jp/en/article/2927/"
     },
     {
       "title": "Shoto Museum Open Call",
@@ -10739,82 +10538,99 @@
       "source": "https://en.410gallery.org/exhibition-open-call"
     },
     {
-      "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
-      "score": 8.6,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
+      "title": "HandMade In Japan Fes",
+      "score": 8.2,
+      "differentiated_score": 8.93,
+      "visual_fit_score": 0.1,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "fair_popup",
       "country": "",
-      "why": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\" may matter later if her portfolio package and project statement become strong enough.",
-      "visual_hits": [],
-      "source": "https://tokyobiennale.jp/en/archives/news/6152"
+      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.",
+      "visual_hits": [
+        "watercolor",
+        "contemporary watercolor",
+        "craft_market"
+      ],
+      "source": "https://hmj-fes.jp/"
     },
     {
-      "title": "Kyoto Art Center Residency",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "title": "Aoyama Farmers Market",
+      "score": 8.2,
+      "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "fair_popup",
       "country": "",
-      "why": "Kyoto Art Center Residency may matter later if her portfolio package and project statement become strong enough.",
+      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
       "visual_hits": [],
-      "source": "https://kiac.jp/en/article/2927/"
+      "source": "https://farmersmarkets.jp/"
     },
     {
-      "title": "AIR_J Open Calls",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "title": "Design Festa",
+      "score": 8.2,
+      "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "fair_popup",
       "country": "",
-      "why": "AIR_J Open Calls may matter later if her portfolio package and project statement become strong enough.",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
       "visual_hits": [],
-      "source": "https://air-j.info/en/program/"
+      "source": "https://designfesta.com/"
     },
     {
-      "title": "NEW AIR",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "title": "Cafe Mame-Hico",
+      "score": 8.2,
+      "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "cafe_gallery",
       "country": "",
-      "why": "NEW AIR may matter later if her portfolio package and project statement become strong enough.",
+      "why": "Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.",
       "visual_hits": [],
-      "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+      "source": "https://www.mamehico.com/"
     },
     {
-      "title": "【公募】2026年度レジデンス・プログラム公募開始",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "title": "Yonchome Cafe",
+      "score": 8.2,
+      "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "cafe_gallery",
       "country": "",
-      "why": "【公募】2026年度レジデンス・プログラム公募開始 may matter later if her portfolio package and project statement become strong enough.",
+      "why": "Japan location only - no other alignment with practice goals or preferred opportunity structure",
       "visual_hits": [],
-      "source": "https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html"
+      "source": "https://www.yonchome.com/"
     },
     {
-      "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
-      "score": 8.6,
-      "differentiated_score": 8.96,
+      "title": "Cafe Cross Point",
+      "score": 8.2,
+      "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
-      "category": "residency",
+      "category": "cafe_gallery",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
       "visual_hits": [],
-      "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+      "source": "https://cafecrosspoint.jp/"
+    },
+    {
+      "title": "Cafe Gallery HATTIFNATT",
+      "score": 8.2,
+      "differentiated_score": 8.9,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
+      "visual_hits": [],
+      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "Bologna Children's Book Fair Illustrators Exhibition",
@@ -11132,6 +10948,162 @@
       "source": "https://www.vogue.com/photovogue"
     },
     {
+      "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://air-j.info/en/program/lair2026/"
+    },
+    {
+      "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://air-j.info/en/program/"
+    },
+    {
+      "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency"
+    },
+    {
+      "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://kiac.jp/en/article/2927/"
+    },
+    {
+      "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\" may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://tokyobiennale.jp/en/archives/news/6152"
+    },
+    {
+      "title": "Kyoto Art Center Residency",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Kyoto Art Center Residency may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://kiac.jp/en/article/2927/"
+    },
+    {
+      "title": "AIR_J Open Calls",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "AIR_J Open Calls may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://air-j.info/en/program/"
+    },
+    {
+      "title": "NEW AIR",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "NEW AIR may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+    },
+    {
+      "title": "【公募】2026年度レジデンス・プログラム公募開始",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "【公募】2026年度レジデンス・プログラム公募開始 may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html"
+    },
+    {
+      "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
+      "score": 8.4,
+      "differentiated_score": 8.76,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+    },
+    {
+      "title": "Hayama Artist Residency Submission Manager - Submittable",
+      "score": 8.2,
+      "differentiated_score": 8.68,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://hayamaartistresidency.submittable.com/submit"
+    },
+    {
+      "title": "Hayama Artist Residency",
+      "score": 8.2,
+      "differentiated_score": 8.68,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency",
+      "country": "",
+      "why": "Hayama Artist Residency may matter later if her portfolio package and project statement become strong enough.",
+      "visual_hits": [],
+      "source": "https://hayamaartistresidency.submittable.com/submit"
+    },
+    {
       "title": "そぞろ書房",
       "score": 7.5,
       "differentiated_score": 8.64,
@@ -11149,21 +11121,6 @@
       "source": "https://sozoroshobou.stores.jp/"
     },
     {
-      "title": "RAW TOKYO",
-      "score": 7.9,
-      "differentiated_score": 8.54,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "error",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
-      "visual_hits": [
-        "Tokyo-based"
-      ],
-      "source": "https://rawtokyo.jp/"
-    },
-    {
       "title": "Creative Space Hayashi",
       "score": 7.9,
       "differentiated_score": 8.54,
@@ -11177,6 +11134,21 @@
         "memory"
       ],
       "source": "https://csh.yokohama/"
+    },
+    {
+      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+      "score": 7.8,
+      "differentiated_score": 8.49,
+      "visual_fit_score": 1.3,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [
+        "zine"
+      ],
+      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "日記屋 月日",
@@ -11486,6 +11458,21 @@
       "source": ""
     },
     {
+      "title": "RAW TOKYO",
+      "score": 7.1,
+      "differentiated_score": 7.74,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "fair_popup",
+      "country": "",
+      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
+      "visual_hits": [
+        "Tokyo-based"
+      ],
+      "source": "https://rawtokyo.jp/"
+    },
+    {
       "title": "Book Culture Club",
       "score": 6.5,
       "differentiated_score": 7.64,
@@ -11501,32 +11488,6 @@
         "zine"
       ],
       "source": ""
-    },
-    {
-      "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
-      "score": 7.5,
-      "differentiated_score": 7.62,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "error",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/"
-    },
-    {
-      "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
-      "score": 7.5,
-      "differentiated_score": 7.62,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "error",
-      "category": "residency",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [],
-      "source": "https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/"
     },
     {
       "title": "Communication Arts Illustration Competition",
@@ -11630,6 +11591,45 @@
       "source": "https://www.boji-hair.com/"
     },
     {
+      "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
+      "score": 6.7,
+      "differentiated_score": 6.82,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/"
+    },
+    {
+      "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
+      "score": 6.7,
+      "differentiated_score": 6.82,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "error",
+      "category": "residency",
+      "country": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "visual_hits": [],
+      "source": "https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/"
+    },
+    {
+      "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+      "score": 6.1,
+      "differentiated_score": 6.58,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839"
+    },
+    {
       "title": "twelvebooks",
       "score": 6.5,
       "differentiated_score": 6.5,
@@ -11644,8 +11644,8 @@
     },
     {
       "title": "Picaresque Gallery",
-      "score": 4.7,
-      "differentiated_score": 5.56,
+      "score": 4.3,
+      "differentiated_score": 5.16,
       "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "ok",
@@ -11659,8 +11659,8 @@
     },
     {
       "title": "Spiral",
-      "score": 4.2,
-      "differentiated_score": 4.9,
+      "score": 3.8,
+      "differentiated_score": 4.5,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
@@ -11705,19 +11705,6 @@
       "source": "https://www.instagram.com/digaholezines/"
     },
     {
-      "title": "MADO Café",
-      "score": 3.4,
-      "differentiated_score": 4.1,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
-      "visual_hits": [],
-      "source": "https://www.instagram.com/madocafe/"
-    },
-    {
       "title": "ZINE FARM TOKYO",
       "score": 3.0,
       "differentiated_score": 3.85,
@@ -11732,13 +11719,26 @@
         "zine"
       ],
       "source": "https://www.instagram.com/zinefarmtokyo/"
+    },
+    {
+      "title": "MADO Café",
+      "score": 2.6,
+      "differentiated_score": 3.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/madocafe/"
     }
   ],
   "low_priority": [
     {
       "title": "Picaresque Gallery",
-      "score": 4.7,
-      "differentiated_score": 5.56,
+      "score": 4.3,
+      "differentiated_score": 5.16,
       "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "ok",
@@ -11752,8 +11752,8 @@
     },
     {
       "title": "Spiral",
-      "score": 4.2,
-      "differentiated_score": 4.9,
+      "score": 3.8,
+      "differentiated_score": 4.5,
       "visual_fit_score": 0.0,
       "verification": "partial",
       "url_status": "ok",
@@ -11798,19 +11798,6 @@
       "source": "https://www.instagram.com/digaholezines/"
     },
     {
-      "title": "MADO Café",
-      "score": 3.4,
-      "differentiated_score": 4.1,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "cafe_gallery",
-      "country": "",
-      "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
-      "visual_hits": [],
-      "source": "https://www.instagram.com/madocafe/"
-    },
-    {
       "title": "ZINE FARM TOKYO",
       "score": 3.0,
       "differentiated_score": 3.85,
@@ -11825,6 +11812,19 @@
         "zine"
       ],
       "source": "https://www.instagram.com/zinefarmtokyo/"
+    },
+    {
+      "title": "MADO Café",
+      "score": 2.6,
+      "differentiated_score": 3.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "",
+      "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/madocafe/"
     }
   ]
 }

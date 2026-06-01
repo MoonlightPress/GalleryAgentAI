@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin submission process.
+- Research Gallery IRO submission process.
+- Research World Illustration Awards submission process.
+- Research Jackson's Art Prize submission process.
+- Research Bologna Children's Book Fair Illustrators Exhibition submission process.
 - Research 3x3 International Illustration Awards submission process.
-- Research Society of Women Artists submission process.
-- Research Aperture | Photography submission process.
-- Research American Illustration submission process.
-- Compare OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  to similar institutions.
-- Compare American Watercolor Society Annual International Exhibition to similar institutions.
-- Compare DER GREIF to similar institutions.
+- Compare HB Gallery to similar institutions.
+- Compare Printed Matter Art Book Fairs to similar institutions.
+- Compare PhotoVogue to similar institutions.

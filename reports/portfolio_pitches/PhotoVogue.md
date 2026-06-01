@@ -7,7 +7,7 @@ General Portfolio
 A concise selection of her strongest current work.
 
 ## Opportunity Fit
-Potential fit based on source context and keyword overlap: open call, submission, exhibition
+Potential fit based on source context and keyword overlap: open call, submission, exhibition, illustration
 
 ## Match Signals
 No strong keyword match stored yet.

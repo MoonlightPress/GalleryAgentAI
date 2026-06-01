@@ -9,13 +9,11 @@ This report caps scores when the explanation contradicts the ranking.
 - capped_negative_explanation: 37
 - capped_wrong_medium: 1
 - hidden: 4
-- ok: 118
+- ok: 119
 - reject: 4
 
 ## Score Caps Applied
 
-- **Fukuoka Art Book Fair** — 10.0 → 2.5 — hidden
-  - hidden recommendation
 - **B&B Shimokitazawa** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **flotsam books** — 10.0 → 6.4 — capped_negative_explanation
@@ -23,6 +21,8 @@ This report caps scores when the explanation contradicts the ranking.
 - **Comitia** — 10.0 → 6.0 — capped_context_mismatch
   - negative explanation: it doesn't, would pull you away
   - self-publishing/doujinshi context may conflict with positioning
+- **NADiff a/p/a/r/t** — 10.0 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
 - **Jimbocho Zine Fair** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Zines Fair at CP+** — 10.0 → 6.4 — capped_negative_explanation
@@ -31,28 +31,36 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear
 - **ZINEイベント** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **Youkobo Art Space** — 10.0 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **HandMade In Japan Fes** — 10.0 → 6.4 — capped_negative_explanation
+  - negative explanation: it doesn't, undermine your positioning
+- **tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...** — 10.0 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **Fukuoka Art Book Fair** — 10.0 → 2.5 — hidden
+  - hidden recommendation
 - **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — 10.0 → 2.5 — hidden
   - negative explanation: unclear
   - hidden recommendation
-- **NADiff a/p/a/r/t** — 10.0 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **Youkobo Art Space** — 10.0 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...** — 10.0 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
 - **Applications — Little Tokyo Zine Fest** — 9.88 → 2.5 — hidden
   - hidden recommendation
-- **The Container** — 9.85 → 6.4 — capped_negative_explanation
+- **VACANT** — 9.82 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **The Container** — 9.75 → 6.4 — capped_negative_explanation
   - negative explanation: question mark
 - **Gallery IRO** — 9.7 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **AIT Residency** — 9.67 → 6.4 — capped_negative_explanation
   - negative explanation: doesn't fit, unclear, lack of clear
+- **DESIGN FESTA GALLERY** — 9.59 → 6.4 — capped_negative_explanation
+  - negative explanation: it doesn't, doesn't fit, unlikely
 - **Gallery HANA Shimokitazawa** — 9.59 → 6.4 — capped_negative_explanation
   - negative explanation: not strategic, unlikely
 - **Open Calls for Artists** — 9.48 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Open Call For Artists** — 9.48 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **Cafe Mame-Hico** — 9.47 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Shoto Museum Open Call** — 9.36 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
@@ -62,12 +70,14 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear
 - **公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...** — 9.36 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **Zushi Art Gallery** — 9.35 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear, question mark
 - **Cafe Cross Point** — 9.35 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **SCCP Guest Artist** — 9.25 → 2.5 — hidden
   - hidden recommendation
-- **HandMade In Japan Fes** — 9.19 → 6.4 — capped_negative_explanation
-  - negative explanation: it doesn't, undermine your positioning
+- **Cafe Gallery HATTIFNATT** — 9.12 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
 - **Tokyo Arts and Space** — 9.11 → 6.4 — capped_negative_explanation
   - negative explanation: unclear, requires significant investigative work
 - **Design Festa** — 9.07 → 5.8 — capped_market_format
@@ -75,6 +85,8 @@ This report caps scores when the explanation contradicts the ranking.
   - market format risk
 - **Open Call for Artists! Tokyo Biennale 2025 "Social Dive"** — 9.01 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **Gallery Conceal Shibuya** — 9.0 → 6.4 — capped_negative_explanation
+  - negative explanation: it doesn't, unclear
 - **Kyoto Art Center Residency** — 8.89 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **AIR_J Open Calls** — 8.89 → 6.4 — capped_negative_explanation
@@ -83,25 +95,13 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear
 - **【公募】2026年度レジデンス・プログラム公募開始** — 8.89 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **VACANT** — 8.82 → 6.4 — capped_negative_explanation
+- **reload Shimokitazawa** — 8.89 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **PhotoVogue** — 8.77 → 5.8 — capped_wrong_medium
+  - photography-only risk: photovogue
 - **BONUS TRACK** — 8.72 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **DESIGN FESTA GALLERY** — 8.59 → 6.4 — capped_negative_explanation
-  - negative explanation: it doesn't, doesn't fit, unlikely
-- **Cafe Mame-Hico** — 8.47 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **PhotoVogue** — 8.47 → 5.8 — capped_wrong_medium
-  - photography-only risk: photovogue
-- **Zushi Art Gallery** — 8.35 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear, question mark
-- **Cafe Gallery HATTIFNATT** — 8.12 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **Gallery Conceal Shibuya** — 8.0 → 6.4 — capped_negative_explanation
-  - negative explanation: it doesn't, unclear
-- **reload Shimokitazawa** — 7.89 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **RAW TOKYO** — 7.83 → 6.4 — capped_negative_explanation
+- **RAW TOKYO** — 7.73 → 6.4 — capped_negative_explanation
   - negative explanation: lack of clear
 - **loneliness books** — 2.52 → 2.5 — reject
   - hidden recommendation

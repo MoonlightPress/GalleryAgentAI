@@ -2,30 +2,6 @@
 
 These are opportunities/venues with missing verification details.
 
-## TOKYO ART BOOK FAIR
-- Priority: medium
-- Source: https://tokyoartbookfair.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Fukuoka Art Book Fair
-- Priority: medium
-- Source: https://fukuokaartbookfair.com/application/
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Applications — Little Tokyo Zine Fest
-- Priority: medium
-- Source: https://www.ltzinefest.org/applications
-- Missing: fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Open Call for the International Creator Residency Program 2026
-- Priority: medium
-- Source: https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Jinny Street Gallery Open Call
 - Priority: medium
 - Source: https://www.jinnystreetgallery.com/open-call
@@ -44,10 +20,22 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
+## Applications — Little Tokyo Zine Fest
+- Priority: medium
+- Source: https://www.ltzinefest.org/applications
+- Missing: fees
+- Recommended action: Research venue website or send inquiry draft.
+
 ## SCCP Guest Artist
 - Priority: medium
 - Source: https://www.sccp.jp/air-en/application/guest-artist/
 - Missing: fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## TOKYO ART BOOK FAIR
+- Priority: medium
+- Source: https://tokyoartbookfair.com/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Open Calls for Artists
@@ -59,30 +47,6 @@ These are opportunities/venues with missing verification details.
 ## Open Call For Artists
 - Priority: high
 - Source: https://opencallforartists.com/listing/784
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info
-- Priority: high
-- Source: https://air-j.info/en/program/lair2026/
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...
-- Priority: high
-- Source: https://air-j.info/en/program/
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Kyoto Retreat Artist Residency 2026 - Open Call
-- Priority: high
-- Source: https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## OPEN CALL for the Artist-In-Residence Program 2025/2026
-- Priority: high
-- Source: https://kiac.jp/en/article/2927/
 - Missing: contact, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -146,42 +110,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Open Call for Artists! Tokyo Biennale 2025 "Social Dive"
-- Priority: high
-- Source: https://tokyobiennale.jp/en/archives/news/6152
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Kyoto Art Center Residency
-- Priority: high
-- Source: https://kiac.jp/en/article/2927/
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## AIR_J Open Calls
-- Priority: high
-- Source: https://air-j.info/en/program/
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## NEW AIR
-- Priority: high
-- Source: https://artcenter-new.jp/en/event/new-air-2026-opencall/
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## 【公募】2026年度レジデンス・プログラム公募開始
-- Priority: high
-- Source: https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW
-- Priority: high
-- Source: https://artcenter-new.jp/en/event/new-air-2026-opencall/
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
 ## UTRECHT
 - Priority: medium
 - Source: https://utrecht.jp/
@@ -224,30 +152,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Youkobo Art Space
-- Priority: medium
-- Source: https://www.youkobo.co.jp/en/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Tokyo Arts and Space
-- Priority: medium
-- Source: https://www.tokyoartsandspace.jp/en/archive/residence/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## COMITIA
-- Priority: medium
-- Source: https://www.comitia.co.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## reload
-- Priority: medium
-- Source: https://reload-shimokita.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
 ## BankART1929
 - Priority: medium
 - Source: https://bankart1929.com/
@@ -256,67 +160,13 @@ These are opportunities/venues with missing verification details.
 
 ## 3331 Arts Chiyoda
 - Priority: medium
-- Source: https://residence.3331.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Arts Initiative Tokyo
-- Priority: medium
-- Source: https://www.a-i-t.net/en/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Creema
-- Priority: medium
-- Source: https://hmj-fes.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## BONUS TRACK
-- Priority: medium
-- Source: https://bonus-track.net/
+- Source: https://www.3331.jp/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Koganecho
 - Priority: medium
 - Source: https://koganecho.net/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Farmer's Market @ UNU
-- Priority: medium
-- Source: https://farmersmarkets.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Design Festa
-- Priority: medium
-- Source: https://designfesta.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Cafe Cross Point
-- Priority: medium
-- Source: https://cafecrosspoint.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Cafe Mame-Hico
-- Priority: medium
-- Source: https://www.mamehico.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Yonchome Cafe
-- Priority: medium
-- Source: https://www.yonchome.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## HATTIFNATT
-- Priority: medium
-- Source: https://www.hattifnatt.jp/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -338,6 +188,12 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
+## VACANT
+- Priority: medium
+- Source: https://www.vacant.vc/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
 ## Gallery IRO
 - Priority: high
 - Source: https://1-6.jp/iro/
@@ -347,12 +203,6 @@ These are opportunities/venues with missing verification details.
 ## Gallery HANA Shimokitazawa
 - Priority: medium
 - Source: https://www.g-hana.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## VACANT
-- Priority: medium
-- Source: https://www.vacant.vc/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -368,28 +218,22 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Hayama Artist Residency Submission Manager - Submittable
-- Priority: high
-- Source: https://hayamaartistresidency.submittable.com/submit
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Hayama Artist Residency
-- Priority: high
-- Source: https://hayamaartistresidency.submittable.com/submit
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Clavis Publishing Submissions
 - Priority: high
 - Source: https://www.clavis-publishing.com/submit
 - Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## Aperture
-- Priority: high
-- Source: https://aperture.org/
-- Missing: contact, deadline, fees, submission process
+## Fukuoka Art Book Fair
+- Priority: medium
+- Source: https://fukuokaartbookfair.com/application/
+- Missing: contact, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## Open Call for the International Creator Residency Program 2026
+- Priority: medium
+- Source: https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html
+- Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## » 21 Terrific Small Presses Open to Direct Submissions
@@ -476,24 +320,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Art Book Fairs
-- Priority: high
-- Source: https://www.artbookfairs.com/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Jimbocho Zine Fair
-- Priority: high
-- Source: https://tcha.jp/post-3262/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...
-- Priority: high
-- Source: https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Tacoche
 - Priority: high
 - Source: http://tacoche.com/
@@ -548,36 +374,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Zines Fair at CP+
-- Priority: high
-- Source: https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## ZINEフェス東京
-- Priority: high
-- Source: https://x.com/zinefarmtokyo/status/2030078129293938743
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## ZINEイベント
-- Priority: high
-- Source: https://zindies.co/events?locale=ja
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Full-Table - Little Tokyo Zine Fest 2026 - Eventeny
-- Priority: high
-- Source: https://www.eventeny.com/events/vendor/?id=39232
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat
-- Priority: high
-- Source: https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Cité Internationale des Arts
 - Priority: high
 - Source: https://www.citedesartsparis.net/
@@ -596,6 +392,156 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
+## L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info
+- Priority: high
+- Source: https://air-j.info/en/program/lair2026/
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...
+- Priority: high
+- Source: https://air-j.info/en/program/
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Kyoto Retreat Artist Residency 2026 - Open Call
+- Priority: high
+- Source: https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## OPEN CALL for the Artist-In-Residence Program 2025/2026
+- Priority: high
+- Source: https://kiac.jp/en/article/2927/
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Open Call for Artists! Tokyo Biennale 2025 "Social Dive"
+- Priority: high
+- Source: https://tokyobiennale.jp/en/archives/news/6152
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Kyoto Art Center Residency
+- Priority: high
+- Source: https://kiac.jp/en/article/2927/
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## AIR_J Open Calls
+- Priority: high
+- Source: https://air-j.info/en/program/
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## NEW AIR
+- Priority: high
+- Source: https://artcenter-new.jp/en/event/new-air-2026-opencall/
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## 【公募】2026年度レジデンス・プログラム公募開始
+- Priority: high
+- Source: https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW
+- Priority: high
+- Source: https://artcenter-new.jp/en/event/new-air-2026-opencall/
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Youkobo Art Space
+- Priority: medium
+- Source: https://www.youkobo.co.jp/en/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Tokyo Arts and Space
+- Priority: medium
+- Source: https://www.tokyoartsandspace.jp/en/archive/residence/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## COMITIA
+- Priority: medium
+- Source: https://www.comitia.co.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## reload
+- Priority: medium
+- Source: https://reload-shimokita.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Arts Initiative Tokyo
+- Priority: medium
+- Source: https://www.a-i-t.net/en/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Creema
+- Priority: medium
+- Source: https://hmj-fes.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## BONUS TRACK
+- Priority: medium
+- Source: https://bonus-track.net/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Farmer's Market @ UNU
+- Priority: medium
+- Source: https://farmersmarkets.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Design Festa
+- Priority: medium
+- Source: https://designfesta.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Cafe Mame-Hico
+- Priority: medium
+- Source: https://www.mamehico.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Yonchome Cafe
+- Priority: medium
+- Source: https://www.yonchome.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Cafe Cross Point
+- Priority: medium
+- Source: https://cafecrosspoint.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## HATTIFNATT
+- Priority: medium
+- Source: https://www.hattifnatt.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Hayama Artist Residency Submission Manager - Submittable
+- Priority: high
+- Source: https://hayamaartistresidency.submittable.com/submit
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## Hayama Artist Residency
+- Priority: high
+- Source: https://hayamaartistresidency.submittable.com/submit
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
 ## NADiff
 - Priority: medium
 - Source: https://www.nadiff.com/
@@ -611,12 +557,6 @@ These are opportunities/venues with missing verification details.
 ## POST
 - Priority: medium
 - Source: https://post-books.info/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## RAW TOKYO
-- Priority: medium
-- Source: https://rawtokyo.jp/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -666,6 +606,60 @@ These are opportunities/venues with missing verification details.
 - Priority: high
 - Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013
 - Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## Aperture
+- Priority: high
+- Source: https://aperture.org/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Art Book Fairs
+- Priority: high
+- Source: https://www.artbookfairs.com/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Jimbocho Zine Fair
+- Priority: high
+- Source: https://tcha.jp/post-3262/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...
+- Priority: high
+- Source: https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Zines Fair at CP+
+- Priority: high
+- Source: https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## ZINEフェス東京
+- Priority: high
+- Source: https://x.com/zinefarmtokyo/status/2030078129293938743
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## ZINEイベント
+- Priority: high
+- Source: https://zindies.co/events?locale=ja
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Full-Table - Little Tokyo Zine Fest 2026 - Eventeny
+- Priority: high
+- Source: https://www.eventeny.com/events/vendor/?id=39232
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat
+- Priority: high
+- Source: https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28
+- Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Bologna Children's Book Fair Illustrators Exhibition
@@ -818,21 +812,15 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
-- Priority: high
-- Source: https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...
-- Priority: high
-- Source: https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Mochi Career System
 - Priority: high
 - Missing: contact, deadline, official/source website, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## RAW TOKYO
+- Priority: medium
+- Source: https://rawtokyo.jp/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
 ## torch press
@@ -858,6 +846,18 @@ These are opportunities/venues with missing verification details.
 ## twelvebooks
 - Priority: high
 - Missing: contact, deadline, fees, official/source website, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
+- Priority: high
+- Source: https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/
+- Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...
+- Priority: high
+- Source: https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/
+- Missing: contact, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Communication Arts Illustration Competition
@@ -902,12 +902,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## MADO Café
-- Priority: medium
-- Source: https://www.instagram.com/madocafe/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
 ## loneliness books
 - Priority: high
 - Source: https://www.instagram.com/lonelinessbooks/
@@ -924,4 +918,10 @@ These are opportunities/venues with missing verification details.
 - Priority: high
 - Source: https://www.instagram.com/zinefarmtokyo/
 - Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## MADO Café
+- Priority: medium
+- Source: https://www.instagram.com/madocafe/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.

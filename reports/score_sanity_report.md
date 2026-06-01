@@ -3,7 +3,6 @@
 This report caps inflated scores when verification is weak.
 
 - Tokyo Art Book Fair: 10.0 → 8.6
-- Home - Printed Matter: 10.0 → 8.0
 - UTRECHT: 10.0 → 8.6
 - Offprint: 10.0 → 8.6
 - Fukuoka Art Book Fair: 10.0 → 8.6
@@ -11,32 +10,19 @@ This report caps inflated scores when verification is weak.
 - Book and Sons: 9.9 → 8.6
 - Center for Book Arts Opportunities: 9.8 → 8.6
 - B&B Shimokitazawa: 9.8 → 8.6
-- BONUS TRACK: 9.65 → 8.6
 - Koganecho Area Management Center: 9.65 → 8.6
 - Self Publish, Be Happy: 9.6 → 8.0
-- Applications — Little Tokyo Zine Fest: 9.6 → 8.8
-- Open Call for the International Creator Residency Program 2026: 9.6 → 8.6
 - Jinny Street Gallery Open Call: 9.6 → 8.6
 - TOKAS Open Call: 9.6 → 8.6
 - Belladonna Art Competition: 9.6 → 8.6
-- SCCP Guest Artist: 9.6 → 8.8
 - Printed Matter Art Book Fairs: 9.5 → 8.0
 - LOCAL Gallery・Books: 9.5 → 8.6
-- Art Book Fairs: 9.4 → 8.6
-- Aperture | Photography: 9.4 → 8.6
-- Jimbocho Zine Fair: 9.4 → 8.6
-- tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...: 9.4 → 8.6
-- Zines Fair at CP+: 9.4 → 8.6
-- ZINEフェス東京: 9.4 → 8.6
-- ZINEイベント: 9.4 → 8.6
-- Full-Table - Little Tokyo Zine Fest 2026 - Eventeny: 9.4 → 8.6
+- Applications — Little Tokyo Zine Fest: 9.4 → 8.8
 - Tacoche: 9.4 → 8.6
+- SCCP Guest Artist: 9.4 → 8.8
+- Home - Printed Matter: 9.2 → 8.0
 - Open Calls for Artists: 9.2 → 8.6
 - Open Call For Artists: 9.2 → 8.6
-- L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info: 9.2 → 8.6
-- Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...: 9.2 → 8.6
-- Kyoto Retreat Artist Residency 2026 - Open Call: 9.2 → 8.6
-- OPEN CALL for the Artist-In-Residence Program 2025/2026: 9.2 → 8.6
 - Shoto Museum Open Call: 9.2 → 8.6
 - Art公募: 9.2 → 8.6
 - 公募展: 9.2 → 8.6
@@ -47,47 +33,27 @@ This report caps inflated scores when verification is weak.
 - 【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...: 9.2 → 8.6
 - 2026 松濤美術館公募展｜渋谷区立松濤美術館: 9.2 → 8.6
 - International Open Call: 9.2 → 8.6
-- Open Call for Artists! Tokyo Biennale 2025 "Social Dive": 9.2 → 8.6
-- Kyoto Art Center Residency: 9.2 → 8.6
-- AIR_J Open Calls: 9.2 → 8.6
-- NEW AIR: 9.2 → 8.6
-- 【公募】2026年度レジデンス・プログラム公募開始: 9.2 → 8.6
-- NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW: 9.2 → 8.6
-- HandMade In Japan Fes: 9.0 → 8.6
-- Aoyama Farmers Market: 9.0 → 8.6
-- Design Festa: 9.0 → 8.6
-- Comitia: 9.0 → 8.6
-- reload Shimokitazawa: 9.0 → 8.6
 - Zines / Artist Books — Battle Plan: 9.0 → 6.5
 - Submissions — Clavis Publishing: 9.0 → 8.6
 - flotsam books: 9.0 → 8.6
-- Cafe Mame-Hico: 9.0 → 8.6
-- Yonchome Cafe: 9.0 → 8.6
-- Cafe Cross Point: 9.0 → 8.6
-- Cafe Gallery HATTIFNATT: 9.0 → 8.6
 - MOUNT ZINE: 9.0 → 8.6
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin: 9.0 → 8.6
-- Youkobo Art Space: 9.0 → 8.6
+- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at : 9.0 → 8.6
 - BankART1929: 9.0 → 8.6
-- Tokyo Wonder Site / TOKAS Residency: 9.0 → 8.6
 - DESIGN FESTA GALLERY: 9.0 → 8.6
-- AIR 3331: 9.0 → 8.6
 - SCAI The Bathhouse: 9.0 → 8.6
-- AIT Residency: 9.0 → 8.6
-- Tokyo Arts and Space: 9.0 → 8.6
 - TAV Gallery: 9.0 → 8.6
 - VACANT: 9.0 → 8.6
 - Gallery IRO: 9.0 → 8.6
 - Gallery HANA Shimokitazawa: 9.0 → 8.6
-- Hayama Artist Residency Submission Manager - Submittable: 9.0 → 8.6
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou: 9.0 → 8.6
 - Zushi Art Gallery: 9.0 → 8.6
-- Hayama Artist Residency: 9.0 → 8.6
 - Clavis Publishing Submissions: 9.0 → 8.6
 - Gallery Conceal Shibuya: 9.0 → 8.6
 - Publishing / Artist Books — Battle Plan: 8.9 → 6.5
-- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at : 8.9 → 8.6
-- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou: 8.9 → 8.6
+- BONUS TRACK: 8.85 → 8.6
 - POST: 8.8 → 8.0
+- Open Call for the International Creator Residency Program 2026: 8.8 → 8.6
 - 日記屋 月日: 8.4 → 8.0
 - Book Obscura: 8.3 → 8.0
 - torch press: 7.1 → 6.5

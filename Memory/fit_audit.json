@@ -495,6 +495,28 @@
     "country": null
   },
   {
+    "title": "Tacoche",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Nakano, Tokyo",
+    "country": null
+  },
+  {
     "title": "Art Book Fairs",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -558,28 +580,6 @@
     ],
     "category": "Markets / Popups / Booths",
     "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "Tacoche",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.8"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Nakano, Tokyo",
     "country": null
   },
   {
@@ -789,54 +789,6 @@
     "country": "Global"
   },
   {
-    "title": "Youkobo Art Space",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Tokyo Wonder Site / TOKAS Residency",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Comitia",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
     "title": "American Watercolor Society Annual International Exhibition",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -916,22 +868,6 @@
     "country": "USA"
   },
   {
-    "title": "reload Shimokitazawa",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Shimokitazawa",
-    "country": null
-  },
-  {
     "title": "BankART1929",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -945,54 +881,6 @@
     ],
     "category": "Artist Spaces",
     "city": "Yokohama",
-    "country": null
-  },
-  {
-    "title": "AIR 3331",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "AIT Residency",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Tokyo Arts and Space",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Tokyo",
     "country": null
   },
   {
@@ -1018,22 +906,6 @@
     "country": "Global"
   },
   {
-    "title": "HandMade In Japan Fes",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
     "title": "3331 Arts Chiyoda",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -1052,24 +924,6 @@
     "country": null
   },
   {
-    "title": "BONUS TRACK",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.65"
-    ],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Shimokitazawa",
-    "country": null
-  },
-  {
     "title": "Koganecho Area Management Center",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -1085,102 +939,6 @@
     ],
     "category": "Artist Spaces",
     "city": "Yokohama",
-    "country": null
-  },
-  {
-    "title": "Aoyama Farmers Market",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Design Festa",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Cafe Mame-Hico",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Yonchome Cafe",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
-    "country": null
-  },
-  {
-    "title": "Cafe Cross Point",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
-    "country": null
-  },
-  {
-    "title": "Cafe Gallery HATTIFNATT",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
     "country": null
   },
   {
@@ -1312,6 +1070,24 @@
     "country": null
   },
   {
+    "title": "BONUS TRACK",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.65"
+    ],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Shimokitazawa",
+    "country": null
+  },
+  {
     "title": "Zines Fair at CP+",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -1400,26 +1176,6 @@
     "country": null
   },
   {
-    "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
     "title": "Book Obscura",
     "score": 8.0,
     "confidence_grade": "needs review",
@@ -1478,8 +1234,8 @@
     "country": null
   },
   {
-    "title": "Open Call for the International Creator Residency Program 2026",
-    "score": 8.6,
+    "title": "Youkobo Art Space",
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -1487,11 +1243,26 @@
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "fees",
       "contact"
     ],
     "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Tokyo Wonder Site / TOKAS Residency",
+    "score": 8.2,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Tokyo",
     "country": null
   },
   {
@@ -1546,6 +1317,39 @@
     "country": null
   },
   {
+    "title": "Open Call for the International Creator Residency Program 2026",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Comitia",
+    "score": 8.2,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
     "title": "POST",
     "score": 8.0,
     "confidence_grade": "needs review",
@@ -1564,7 +1368,7 @@
     "country": null
   },
   {
-    "title": "Hayama Artist Residency Submission Manager - Submittable",
+    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
     "score": 8.6,
     "confidence_grade": "needs review",
     "positive_reasons": [],
@@ -1578,28 +1382,9 @@
       "fees",
       "contact"
     ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "Hayama Artist Residency",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
   },
   {
     "title": "Clavis Publishing Submissions",
@@ -1621,23 +1406,68 @@
     "country": null
   },
   {
-    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
-    "score": 8.6,
+    "title": "reload Shimokitazawa",
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: deadline, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "deadline",
-      "fees",
       "contact"
     ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
+    "category": "Markets / Popups / Booths",
+    "city": "Shimokitazawa",
+    "country": null
+  },
+  {
+    "title": "AIR 3331",
+    "score": 8.2,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "AIT Residency",
+    "score": 8.2,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Tokyo Arts and Space",
+    "score": 8.2,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Institutional / Grants",
+    "city": "Tokyo",
+    "country": null
   },
   {
     "title": "Open Calls for Artists",
@@ -1674,82 +1504,6 @@
       "contact"
     ],
     "category": "Galleries / Exhibition Calls",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
     "city": "Japan / Tokyo / Online",
     "country": null
   },
@@ -1944,117 +1698,115 @@
     "country": null
   },
   {
-    "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
-    "score": 8.6,
+    "title": "HandMade In Japan Fes",
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission",
-      "fees",
       "contact"
     ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
     "country": null
   },
   {
-    "title": "Kyoto Art Center Residency",
-    "score": 8.6,
+    "title": "Aoyama Farmers Market",
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission",
-      "fees",
       "contact"
     ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
     "country": null
   },
   {
-    "title": "AIR_J Open Calls",
-    "score": 8.6,
+    "title": "Design Festa",
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission",
-      "fees",
       "contact"
     ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
     "country": null
   },
   {
-    "title": "NEW AIR",
-    "score": 8.6,
+    "title": "Cafe Mame-Hico",
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission",
-      "fees",
       "contact"
     ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Tokyo",
     "country": null
   },
   {
-    "title": "【公募】2026年度レジデンス・プログラム公募開始",
-    "score": 8.6,
+    "title": "Yonchome Cafe",
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission",
-      "fees",
       "contact"
     ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
     "country": null
   },
   {
-    "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
-    "score": 8.6,
+    "title": "Cafe Cross Point",
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission",
-      "fees",
       "contact"
     ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
+    "country": null
+  },
+  {
+    "title": "Cafe Gallery HATTIFNATT",
+    "score": 8.2,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
     "country": null
   },
   {
@@ -2404,6 +2156,234 @@
     "country": "Global"
   },
   {
+    "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Kyoto Art Center Residency",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "AIR_J Open Calls",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "NEW AIR",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "【公募】2026年度レジデンス・プログラム公募開始",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Hayama Artist Residency Submission Manager - Submittable",
+    "score": 8.2,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Hayama Artist Residency",
+    "score": 8.2,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
     "title": "そぞろ書房",
     "score": 7.5,
     "confidence_grade": "needs review",
@@ -2422,19 +2402,6 @@
     "country": null
   },
   {
-    "title": "RAW TOKYO",
-    "score": 7.9,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
     "title": "Creative Space Hayashi",
     "score": 7.9,
     "confidence_grade": "normal",
@@ -2445,6 +2412,24 @@
     ],
     "category": "Galleries / Exhibition Calls",
     "city": "Yokohama",
+    "country": null
+  },
+  {
+    "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
     "country": null
   },
   {
@@ -2799,6 +2784,19 @@
     "country": null
   },
   {
+    "title": "RAW TOKYO",
+    "score": 7.1,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
     "title": "Book Culture Club",
     "score": 6.5,
     "confidence_grade": "normal",
@@ -2815,40 +2813,6 @@
     ],
     "category": "Print / Zines / Bookstores",
     "city": "Kichijoji, Tokyo",
-    "country": null
-  },
-  {
-    "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
-    "score": 7.5,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
-    "score": 7.5,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
     "country": null
   },
   {
@@ -2961,6 +2925,57 @@
     "country": "Tokyo"
   },
   {
+    "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
+    "score": 6.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
+    "score": 6.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "score": 6.1,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
     "title": "twelvebooks",
     "score": 6.5,
     "confidence_grade": "normal",
@@ -2981,7 +2996,7 @@
   },
   {
     "title": "Picaresque Gallery",
-    "score": 4.7,
+    "score": 4.3,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -2994,7 +3009,7 @@
   },
   {
     "title": "Spiral",
-    "score": 4.2,
+    "score": 3.8,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -3042,19 +3057,6 @@
     "country": null
   },
   {
-    "title": "MADO Café",
-    "score": 3.4,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
-    "country": null
-  },
-  {
     "title": "ZINE FARM TOKYO",
     "score": 3.0,
     "confidence_grade": "normal",
@@ -3070,6 +3072,19 @@
     ],
     "category": "Print / Zines / Bookstores",
     "city": "Kichijoji, Tokyo",
+    "country": null
+  },
+  {
+    "title": "MADO Café",
+    "score": 2.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
     "country": null
   }
 ]

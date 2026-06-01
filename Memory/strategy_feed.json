@@ -101,16 +101,6 @@
       "image": ""
     },
     {
-      "title": "BONUS TRACK",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Markets / Popups / Booths",
-      "city": "Shimokitazawa",
-      "image": ""
-    },
-    {
       "title": "Koganecho Area Management Center",
       "bucket": "easy_win",
       "score": 8.6,
@@ -118,6 +108,16 @@
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Artist Spaces",
       "city": "Yokohama",
+      "image": ""
+    },
+    {
+      "title": "Jinny Street Gallery Open Call",
+      "bucket": "easy_win",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Galleries / Exhibition Calls",
+      "city": "Japan / Tokyo / Online",
       "image": ""
     }
   ],
@@ -203,16 +203,6 @@
       "image": ""
     },
     {
-      "title": "BONUS TRACK",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Markets / Popups / Booths",
-      "city": "Shimokitazawa",
-      "image": ""
-    },
-    {
       "title": "Koganecho Area Management Center",
       "bucket": "easy_win",
       "score": 8.6,
@@ -223,17 +213,27 @@
       "image": ""
     },
     {
-      "title": "Open Call for the International Creator Residency Program 2026",
+      "title": "Jinny Street Gallery Open Call",
       "bucket": "easy_win",
       "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Residencies / Longer Projects",
+      "category": "Galleries / Exhibition Calls",
       "city": "Japan / Tokyo / Online",
       "image": ""
     },
     {
-      "title": "Jinny Street Gallery Open Call",
+      "title": "TOKAS Open Call",
+      "bucket": "easy_win",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Galleries / Exhibition Calls",
+      "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
+      "title": "Belladonna Art Competition",
       "bucket": "easy_win",
       "score": 8.6,
       "confidence": "High",
@@ -389,9 +389,19 @@
   ],
   "community_builders": [
     {
+      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+      "bucket": "community_builder",
+      "score": 7.8,
+      "confidence": "Medium",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
       "title": "RAW TOKYO",
       "bucket": "community_builder",
-      "score": 7.9,
+      "score": 7.1,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -401,7 +411,7 @@
     {
       "title": "MADO Café",
       "bucket": "community_builder",
-      "score": 3.4,
+      "score": 2.6,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -433,17 +443,6 @@
       "image": ""
     },
     {
-      "title": "Aperture | Photography",
-      "bucket": "global_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Photobook",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
       "bucket": "global_targets",
       "score": 8.6,
@@ -472,6 +471,17 @@
       "confidence": "Medium",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Aperture | Photography",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Photobook",
       "city": "Online",
       "country": "Global",
       "image": ""
@@ -565,17 +575,6 @@
       "image": ""
     },
     {
-      "title": "Home - Printed Matter",
-      "bucket": "global_targets",
-      "score": 8.0,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Photobook",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
       "title": "Self Publish, Be Happy",
       "bucket": "global_targets",
       "score": 8.0,
@@ -595,6 +594,17 @@
       "category": "Global Art Book Fair",
       "city": "New York / Los Angeles",
       "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "Home - Printed Matter",
+      "bucket": "global_targets",
+      "score": 8.0,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Photobook",
+      "city": "Online",
+      "country": "Global",
       "image": ""
     },
     {
@@ -677,17 +687,6 @@
       "image": ""
     },
     {
-      "title": "Aperture | Photography",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Global Photobook",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
       "title": "Tacoche",
       "bucket": "publication_targets",
       "score": 8.6,
@@ -743,17 +742,6 @@
       "image": ""
     },
     {
-      "title": "Clavis Publishing Submissions",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Book Publishing",
-      "city": "Japan / Tokyo / Online",
-      "country": "",
-      "image": ""
-    },
-    {
       "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
       "bucket": "publication_targets",
       "score": 8.6,
@@ -771,6 +759,28 @@
       "confidence": "Medium",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Clavis Publishing Submissions",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "Aperture | Photography",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Photobook",
       "city": "Online",
       "country": "Global",
       "image": ""
