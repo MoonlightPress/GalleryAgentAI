@@ -52,6 +52,9 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.6. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - URL: https://www.jinnystreetgallery.com/open-call
   - Next: verify current submission/contact details.
+- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 9.6. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.
+  - URL: https://www.nwws.org/annual-international-open/
+  - Next: verify current submission/contact details.
 - **Communication Arts Illustration Competition** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
   - URL: https://www.commarts.com/competitions/illustration
   - Next: verify current submission/contact details.
@@ -75,9 +78,6 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
   - Next: verify current submission/contact details.
 - **Self Publish, Be Happy** — 9.6. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
   - URL: https://selfpublishbehappy.com/
-  - Next: verify current submission/contact details.
-- **Book Obscura** — 9.6. Artist Book / Watercolor Sequence specialist. Useful benchmark if her work moves toward artist book / watercolor sequence/artist-book sequencing.
-  - URL: https://bookobscura.com/
   - Next: verify current submission/contact details.
 
 ## First Practical Plan

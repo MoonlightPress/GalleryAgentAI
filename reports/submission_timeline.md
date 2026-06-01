@@ -4,6 +4,7 @@ Suggested strategic pacing for outreach and applications.
 
 ## Immediate Targets
 
+- Northwest Watercolor Society 2026 Annual International Open Exhibition (9.4/10)
 - Applications — Little Tokyo Zine Fest (8.8/10)
 - SCCP Guest Artist (8.8/10)
 - Tokyo Art Book Fair (8.6/10)
@@ -23,7 +24,6 @@ Suggested strategic pacing for outreach and applications.
 - Publishers & Publishing Services in Japan - PublishersGlobal.com (8.6/10)
 - Submissions - Little Press Publishing (8.6/10)
 - 3 Top Book Publishers in Tokyo in 2026 (8.6/10)
-- submissions — porkbelly press (8.6/10)
 
 ## Build Toward
 

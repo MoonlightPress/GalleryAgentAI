@@ -169,7 +169,7 @@ A portfolio sequence centered on vernacular architecture, domestic structures, s
 - **Aperture | Photography** — 8.6 / 10.13. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - **Browse opportunities | CuratorSpace** — 8.6 / 10.13. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Top Artist Opportunities for 2026 | ArtConnect** — 8.6 / 9.98. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
-- **DER GREIF** — 8.6 / 9.68. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+- **DER GREIF** — 8.6 / 9.68. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
 - **BankART1929** — 8.6 / 9.46. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
 
 ### First Action

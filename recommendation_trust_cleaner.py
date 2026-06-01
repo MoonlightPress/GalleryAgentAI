@@ -19,13 +19,18 @@ BAD_TITLE_BITS = [
 ]
 
 BAD_PHRASES = {
-    "illustrative work": "photographic work",
-    "illustrator": "photographer",
-    "illustrators": "photographers",
-    "painter": "photographer",
-    "painters": "photographers",
-    "painting": "photography",
-    "paintings": "photographs",
+    # Remove photography framing from AI-generated descriptions.
+    # GEGYjiji is a watercolor painter — these replacements correct
+    # copy that mis-describes her medium as photography.
+    "photographic work": "watercolor work",
+    "photographer": "watercolor artist",
+    "photographers": "watercolor artists",
+    "photographerly": "watercolor artistly",
+    "photography": "watercolor",
+    "photographs": "paintings",
+    "illustrator": "artist",
+    "illustrators": "artists",
+    "illustrative work": "watercolor work",
     "technical skill would shine": "the work could translate well",
     "decorative": "surface-level",
 }

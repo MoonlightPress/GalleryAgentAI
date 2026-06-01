@@ -27,9 +27,7 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Royal Watercolour Society Open Exhibition: 8.6 → 7.6
 - LOCAL Gallery・Books: 8.6 → 7.6
 - Tacoche: 8.6 → 7.6
-- Art Book Fairs: 8.6 → 7.6
 - Jimbocho Zine Fair: 8.6 → 7.6
-- tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...: 8.6 → 7.6
 - Books Ruhe: 8.6 → 7.6
 - tata bookshop/gallery: 8.6 → 7.6
 - 本店・本屋の実験室: 8.6 → 7.6
@@ -40,6 +38,7 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - DER GREIF: 8.6 → 7.6
 - American Watercolor Society Annual International Exhibition: 8.6 → 7.6
 - BankART1929: 8.6 → 7.6
+- Shimokitazawa Arts: 8.6 → 8.2
 - 3331 Arts Chiyoda: 8.6 → 7.6
 - Koganecho Area Management Center: 8.6 → 7.6
 - DESIGN FESTA GALLERY: 8.6 → 7.6
@@ -51,7 +50,6 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Zushi Art Gallery: 8.6 → 7.6
 - Gallery Conceal Shibuya: 8.6 → 7.6
 - BONUS TRACK: 8.6 → 7.6
-- Zines Fair at CP+: 8.6 → 7.6
 - ZINEフェス東京: 8.6 → 7.6
 - ZINEイベント: 8.6 → 7.6
 - Full-Table - Little Tokyo Zine Fest 2026 - Eventeny: 8.6 → 7.6
@@ -76,6 +74,8 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - International Open Call: 8.6 → 8.2
 - ARTE VENT Press: 8.6 → 7.6
 - PhotoVogue: 8.6 → 7.6
+- Sunny Boy Books: 8.4 → 7.6
+- Platform China BIAP Artist Residency: 8.4 → 8.2
 - L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info: 8.4 → 8.2
 - Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...: 8.4 → 8.2
 - Kyoto Retreat Artist Residency 2026 - Open Call: 8.4 → 8.2
@@ -135,7 +135,6 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - CuratorSpace: 7.8 → 7.6
 - Society of Women Artists: 7.8 → 7.6
 - Royal Watercolour Society: 7.8 → 7.6
-- Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat: 7.8 → 7.6
 - Asian Cultural Council Fellowship: 7.8 → 7.6
 - そぞろ書房: 7.5 → 6.5
 - Japan Watercolor Society Annual Exhibition: 7.5 → 6.5

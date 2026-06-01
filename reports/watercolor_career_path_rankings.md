@@ -26,7 +26,7 @@ This ranks opportunities by practical career path instead of one universal score
 - **Society of Women Artists** — path score 13.0; signals: works on paper, drawing, watercolor, open exhibition, paper. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
 - **Royal Watercolour Society Open Exhibition** — path score 12.4; signals: works on paper, watercolor, open exhibition, paper. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 - **Gallery IYN** — path score 12.4; signals: works on paper, watercolor, open call, paper. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- **DER GREIF** — path score 12.4; signals: works on paper, watercolor, open call, paper. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+- **DER GREIF** — path score 12.4; signals: works on paper, watercolor, open call, paper. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
 
 ## Bookstore / Artist Book Translation
 
@@ -36,10 +36,10 @@ This ranks opportunities by practical career path instead of one universal score
 - **Tokyo Art Book Fair** — path score 11.8; signals: artist book, zine, book fair. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **Books Ruhe** — path score 11.8; signals: bookstore, artist book, zine. Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.
 - **本店・本屋の実験室** — path score 11.8; signals: bookstore, artist book, zine. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
-- **Art Book Fairs** — path score 11.8; signals: artist book, zine, book fair. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **そぞろ書房** — path score 11.48; signals: bookstore, artist book, zine. Small local bookstore target. Useful for building a compact Koenji route.
 - **Browse opportunities | CuratorSpace** — path score 11.2; signals: artist book, zine. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Offprint** — path score 11.2; signals: artist book, printed matter. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
+- **Self Publish, Be Happy** — path score 11.2; signals: artist book, zine. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
 
 ## Low-Pressure Local Visibility
 
@@ -60,9 +60,9 @@ This ranks opportunities by practical career path instead of one universal score
 - **Tokyo Wonder Site / TOKAS Residency** — path score 11.2; signals: residency, institution. TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.
 - **Browse opportunities | CuratorSpace** — path score 10.6; signals: open exhibition. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Royal Watercolour Society Open Exhibition** — path score 10.6; signals: open exhibition. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
+- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — path score 10.6; signals: open exhibition. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — path score 10.6; signals: residency. Possible fit based on link text: zine, open call, residency
 - **Top Artist Opportunities for 2026 | ArtConnect** — path score 10.6; signals: residency. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
-- **DER GREIF** — path score 10.6; signals: portfolio review. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+- **DER GREIF** — path score 10.6; signals: portfolio review. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
 - **ArtConnect Open Calls** — path score 10.6; signals: residency. Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
 - **CuratorSpace** — path score 10.6; signals: residency. Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
-- **Society of Women Artists** — path score 10.6; signals: open exhibition. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
-- **BankART1929** — path score 10.6; signals: contemporary art. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.

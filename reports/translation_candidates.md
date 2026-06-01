@@ -1,7 +1,7 @@
 # Translation Candidates
 
 These are not native watercolor opportunities, but may be useful if watercolor work is translated into a book, zine, edition, or printed sequence.
-Total translation candidates: 80
+Total translation candidates: 78
 
 - **Tokyo Art Book Fair** — native: mixed; signals: artist book, zine, book fair, publication
 - **UTRECHT** — native: mixed; signals: artist book, zine, printed matter, bookstore
@@ -12,6 +12,7 @@ Total translation candidates: 80
 - **Home - Printed Matter** — native: mixed; signals: artist book, zine, printed matter, book fair, works on paper, drawing
 - **MOUNT ZINE** — native: mixed; signals: artist book, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — native: mixed; signals: artist book, zine
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — native: mixed; signals: artist book, zine
 - **Book and Sons** — native: mixed; signals: zine, bookstore
 - **» 21 Terrific Small Presses Open to Direct Submissions** — native: mixed; signals: artist book, small press
 - **LOCAL Gallery・Books** — native: mixed; signals: artist book, zine
@@ -20,7 +21,6 @@ Total translation candidates: 80
 - **tata bookshop/gallery** — native: mixed; signals: artist book, zine
 - **本店・本屋の実験室** — native: mixed; signals: artist book, zine, bookstore
 - **Top Artist Opportunities for 2026 | ArtConnect** — native: mixed; signals: artist book, zine
-- **Art Book Fairs** — native: mixed; signals: artist book, zine, book fair
 - **Printed Matter Art Book Fairs** — native: mixed; signals: artist book, zine, printed matter, book fair, edition, calendar
 - **DER GREIF** — native: photography; signals: artist book, works on paper
 - **Aperture | Photography** — native: photography; signals: artist book, zine, works on paper
@@ -54,23 +54,21 @@ Total translation candidates: 80
 - **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — native: unknown; signals: works on paper, drawing
 - **New Power展 | ギャラリー自由が丘で作家デビュー** — native: unknown; signals: works on paper, drawing
 - **Call for Entry: Showcase your art in Tokyo, Japan** — native: unknown; signals: works on paper, drawing
-- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — native: mixed; signals: artist book, zine
 - **そぞろ書房** — native: mixed; signals: artist book, zine, bookstore
 - **Publishing / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine, publication, edition
 - **POST** — native: mixed; signals: zine, bookstore
 - **日記屋 月日** — native: mixed; signals: zine, bookstore
 - **Zines / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine
+- **Sunny Boy Books** — native: mixed; signals: bookstore
 - **shashasha** — native: unknown; signals: artist book, edition, works on paper
 - **Komiyama Tokyo** — native: unknown; signals: artist book, zine
 - **Boji Hair+Gallery** — native: unknown; signals: works on paper
 - **Book Culture Club** — native: mixed; signals: artist book, zine
 - **torch press** — native: unknown; signals: artist book, zine, small press
-- **Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat** — native: mixed; signals: zine
 - **B&B Shimokitazawa** — native: mixed; signals: artist book, zine, bookstore, publication
 - **flotsam books** — native: mixed; signals: artist book, zine, bookstore, works on paper
 - **NADiff a/p/a/r/t** — native: mixed; signals: artist book, zine, bookstore
 - **Jimbocho Zine Fair** — native: mixed; signals: artist book, zine, edition
-- **Zines Fair at CP+** — native: mixed; signals: zine, edition
 - **ZINEフェス東京** — native: mixed; signals: zine, edition
 - **ZINEイベント** — native: mixed; signals: zine, edition
 - **HandMade In Japan Fes** — native: unknown; signals: works on paper

@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-01
 # Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 8.6/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Residencies / Longer Projects  

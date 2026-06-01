@@ -1,6 +1,6 @@
 # Candidate Quality Gate Report
 
-Approved: 4
+Approved: 5
 Rejected: 115
 
 ## Rejected
@@ -87,12 +87,12 @@ Rejected: 115
 - View Detail Page — generic page without opportunity language
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
-- Magazine — strong: open call, zine, score too low: 2
-- Residency — strong: open call, residency, score too low: 2
-- bipoc artist residency program — strong: open call, residency, weak: artist, score too low: 3
-- call for proposals for solo exhibitions — strong: open call, call for, weak: exhibition, gallery, score too low: 4
+- Magazine — strong: zine, open call, score too low: 2
+- Residency — strong: residency, open call, score too low: 2
+- bipoc artist residency program — strong: residency, open call, weak: artist, score too low: 3
+- call for proposals for solo exhibitions — strong: call for, open call, weak: exhibition, gallery, score too low: 4
 - Open Call — strong: open call, has submission link, score too low: 3
-- Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever — strong: zine, weak: artist, score too low: 1
+- The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -123,7 +123,8 @@ Rejected: 115
 
 ## Approved
 
-- Home - Printed Matter — strong: book fair, photobook, printed matter, zine, weak: book, exhibition
-- Browse opportunities | CuratorSpace — strong: open call, submission, zine, weak: exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, submission, residency, zine, weak: exhibition, artist
-- Callback Open Call G George invites you to submit to Callback, a series of contemporary ar — strong: submit, open call, has submission link
+- Home - Printed Matter — strong: printed matter, book fair, photobook, zine, weak: exhibition, book
+- Browse opportunities | CuratorSpace — strong: submission, residency, zine, open call, weak: exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, residency, zine, open call, weak: artist, exhibition
+- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — strong: call for, residency, zine, open call, weak: artist, has submission link
+- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod — strong: open call, weak: artist, exhibition, has submission link

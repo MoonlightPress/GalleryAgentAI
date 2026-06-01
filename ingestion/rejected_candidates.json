@@ -3345,7 +3345,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call, zine",
+      "strong: zine, open call",
       "score too low: 2"
     ]
   },
@@ -3386,7 +3386,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call, residency",
+      "strong: residency, open call",
       "score too low: 2"
     ]
   },
@@ -3427,7 +3427,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call, residency",
+      "strong: residency, open call",
       "weak: artist",
       "score too low: 3"
     ]
@@ -3469,7 +3469,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call, call for",
+      "strong: call for, open call",
       "weak: exhibition, gallery",
       "score too low: 4"
     ]
@@ -3517,9 +3517,9 @@
     ]
   },
   {
-    "title": "Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever",
+    "title": "The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport",
     "organization": "CuratorSpace",
-    "category": "zine_print",
+    "category": "gallery_event",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -3528,21 +3528,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: zine"
+      "Keyword hits: exhibition"
     ],
     "fit_keyword_hits": [
-      "zine"
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3553,9 +3553,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: zine",
-      "weak: artist",
-      "score too low: 1"
+      "generic page without opportunity language"
     ]
   },
   {

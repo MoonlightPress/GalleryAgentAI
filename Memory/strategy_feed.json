@@ -1,6 +1,16 @@
 {
   "featured": [
     {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Global Watercolor Open Call",
+      "city": "Online / Seattle",
+      "image": ""
+    },
+    {
       "title": "Applications — Little Tokyo Zine Fest",
       "bucket": "easy_win",
       "score": 8.8,
@@ -109,19 +119,19 @@
       "category": "Artist Spaces",
       "city": "Yokohama",
       "image": ""
-    },
-    {
-      "title": "Jinny Street Gallery Open Call",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Galleries / Exhibition Calls",
-      "city": "Japan / Tokyo / Online",
-      "image": ""
     }
   ],
   "easy_wins": [
+    {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Global Watercolor Open Call",
+      "city": "Online / Seattle",
+      "image": ""
+    },
     {
       "title": "Applications — Little Tokyo Zine Fest",
       "bucket": "easy_win",
@@ -224,16 +234,6 @@
     },
     {
       "title": "TOKAS Open Call",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Galleries / Exhibition Calls",
-      "city": "Japan / Tokyo / Online",
-      "image": ""
-    },
-    {
-      "title": "Belladonna Art Competition",
       "bucket": "easy_win",
       "score": 8.6,
       "confidence": "High",
@@ -389,13 +389,13 @@
   ],
   "community_builders": [
     {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+      "title": "Clouds Art + Coffee",
       "bucket": "community_builder",
-      "score": 7.8,
+      "score": 7.6,
       "confidence": "Medium",
       "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Japan / Tokyo / Online",
+      "category": "Cafe / Local Wall Spaces",
+      "city": "Tokyo",
       "image": ""
     },
     {
@@ -420,6 +420,17 @@
     }
   ],
   "global_targets": [
+    {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Watercolor Open Call",
+      "city": "Online / Seattle",
+      "country": "USA",
+      "image": ""
+    },
     {
       "title": "Offprint",
       "bucket": "global_targets",
@@ -575,47 +586,36 @@
       "image": ""
     },
     {
-      "title": "Self Publish, Be Happy",
+      "title": "CSPWC Annual Open Water International Exhibition",
       "bucket": "global_targets",
-      "score": 8.0,
-      "confidence": "Medium",
+      "score": 8.6,
+      "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Artist Book Platform",
-      "city": "London / Online",
-      "country": "UK / Global",
+      "category": "Global Watercolor Open Call",
+      "city": "Toronto",
+      "country": "Canada",
       "image": ""
     },
     {
-      "title": "Printed Matter Art Book Fairs",
+      "title": "Platform China BIAP Artist Residency",
       "bucket": "global_targets",
-      "score": 8.0,
-      "confidence": "Medium",
+      "score": 8.4,
+      "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Art Book Fair",
-      "city": "New York / Los Angeles",
+      "category": "Residency Beijing",
+      "city": "Beijing",
+      "country": "China",
+      "image": ""
+    },
+    {
+      "title": "National Watercolor Society International Open Exhibition",
+      "bucket": "global_targets",
+      "score": 8.1,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Watercolor Open Call",
+      "city": "California / Online",
       "country": "USA",
-      "image": ""
-    },
-    {
-      "title": "Home - Printed Matter",
-      "bucket": "global_targets",
-      "score": 8.0,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Photobook",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "Bologna Children's Book Fair Illustrators Exhibition",
-      "bucket": "global_targets",
-      "score": 7.8,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Global",
       "image": ""
     }
   ],

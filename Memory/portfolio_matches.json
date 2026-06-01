@@ -403,6 +403,7 @@
       ]
     }
   ],
+  "Northwest Watercolor Society 2026 Annual International Open Exhibition": [],
   "Koganecho Area Management Center": [
     {
       "body_id": "community_local_visibility",
@@ -1447,56 +1448,6 @@
       ]
     }
   ],
-  "Art Book Fairs": [
-    {
-      "body_id": "artist_book_printed_matter",
-      "title": "Artist Book / Printed Matter",
-      "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
-      "score": 4,
-      "hits": [
-        "zine",
-        "book fair"
-      ],
-      "best_formats": [
-        "book fair",
-        "zine fair",
-        "bookstore",
-        "small press",
-        "publication"
-      ]
-    },
-    {
-      "body_id": "community_local_visibility",
-      "title": "Community / Local Visibility",
-      "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
-      "score": 4,
-      "hits": [
-        "market",
-        "popup"
-      ],
-      "best_formats": [
-        "cafe wall",
-        "market",
-        "popup",
-        "group show",
-        "local event"
-      ]
-    },
-    {
-      "body_id": "architecture_memory",
-      "title": "Architecture / Memory / Place",
-      "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
-      "score": 1,
-      "hits": [],
-      "best_formats": [
-        "photobook",
-        "zine",
-        "small gallery",
-        "artist statement",
-        "publication"
-      ]
-    }
-  ],
   "Aperture | Photography": [
     {
       "body_id": "artist_book_printed_matter",
@@ -1779,59 +1730,6 @@
       ]
     }
   ],
-  "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...": [
-    {
-      "body_id": "artist_book_printed_matter",
-      "title": "Artist Book / Printed Matter",
-      "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
-      "score": 4,
-      "hits": [
-        "zine",
-        "edition",
-        "paper"
-      ],
-      "best_formats": [
-        "book fair",
-        "zine fair",
-        "bookstore",
-        "small press",
-        "publication"
-      ]
-    },
-    {
-      "body_id": "community_local_visibility",
-      "title": "Community / Local Visibility",
-      "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
-      "score": 4,
-      "hits": [
-        "market",
-        "popup"
-      ],
-      "best_formats": [
-        "cafe wall",
-        "market",
-        "popup",
-        "group show",
-        "local event"
-      ]
-    },
-    {
-      "body_id": "architecture_memory",
-      "title": "Architecture / Memory / Place",
-      "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
-      "score": 2,
-      "hits": [
-        "quiet"
-      ],
-      "best_formats": [
-        "photobook",
-        "zine",
-        "small gallery",
-        "artist statement",
-        "publication"
-      ]
-    }
-  ],
   "DER GREIF": [
     {
       "body_id": "artist_book_printed_matter",
@@ -1898,59 +1796,6 @@
         "small publication",
         "photobook",
         "artist-run space"
-      ]
-    }
-  ],
-  "Zines Fair at CP+": [
-    {
-      "body_id": "community_local_visibility",
-      "title": "Community / Local Visibility",
-      "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
-      "score": 4,
-      "hits": [
-        "market",
-        "popup"
-      ],
-      "best_formats": [
-        "cafe wall",
-        "market",
-        "popup",
-        "group show",
-        "local event"
-      ]
-    },
-    {
-      "body_id": "artist_book_printed_matter",
-      "title": "Artist Book / Printed Matter",
-      "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
-      "score": 3,
-      "hits": [
-        "zine",
-        "edition",
-        "paper"
-      ],
-      "best_formats": [
-        "book fair",
-        "zine fair",
-        "bookstore",
-        "small press",
-        "publication"
-      ]
-    },
-    {
-      "body_id": "architecture_memory",
-      "title": "Architecture / Memory / Place",
-      "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
-      "score": 2,
-      "hits": [
-        "quiet"
-      ],
-      "best_formats": [
-        "photobook",
-        "zine",
-        "small gallery",
-        "artist statement",
-        "publication"
       ]
     }
   ],
@@ -2279,8 +2124,25 @@
       ]
     }
   ],
+  "Shimokitazawa Arts": [
+    {
+      "body_id": "architecture_memory",
+      "title": "Architecture / Memory / Place",
+      "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+      "score": 1,
+      "hits": [],
+      "best_formats": [
+        "photobook",
+        "zine",
+        "small gallery",
+        "artist statement",
+        "publication"
+      ]
+    }
+  ],
   "ARTE VENT Press": [],
   "PhotoVogue": [],
+  "CSPWC Annual Open Water International Exhibition": [],
   "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info": [],
   "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...": [],
   "Kyoto Retreat Artist Residency 2026 - Open Call": [],
@@ -2336,11 +2198,60 @@
       ]
     }
   ],
+  "Sunny Boy Books": [
+    {
+      "body_id": "daily_poetic_photography",
+      "title": "Daily Poetic Photography",
+      "description": "A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.",
+      "score": 2,
+      "hits": [
+        "intimate"
+      ],
+      "best_formats": [
+        "online feature",
+        "zine",
+        "small publication",
+        "photobook",
+        "artist-run space"
+      ]
+    },
+    {
+      "body_id": "artist_book_printed_matter",
+      "title": "Artist Book / Printed Matter",
+      "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+      "score": 2,
+      "hits": [
+        "zine"
+      ],
+      "best_formats": [
+        "book fair",
+        "zine fair",
+        "bookstore",
+        "small press",
+        "publication"
+      ]
+    },
+    {
+      "body_id": "architecture_memory",
+      "title": "Architecture / Memory / Place",
+      "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+      "score": 1,
+      "hits": [],
+      "best_formats": [
+        "photobook",
+        "zine",
+        "small gallery",
+        "artist statement",
+        "publication"
+      ]
+    }
+  ],
   "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"": [],
   "Kyoto Art Center Residency": [],
   "AIR_J Open Calls": [],
   "NEW AIR": [],
   "【公募】2026年度レジデンス・プログラム公募開始": [],
+  "Platform China BIAP Artist Residency": [],
   "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW": [],
   "Book Obscura": [
     {
@@ -2778,6 +2689,25 @@
         "cafe",
         "local",
         "wall"
+      ],
+      "best_formats": [
+        "cafe wall",
+        "market",
+        "popup",
+        "group show",
+        "local event"
+      ]
+    }
+  ],
+  "National Watercolor Society International Open Exhibition": [],
+  "Japan International Watercolor Institute Online Exhibition": [
+    {
+      "body_id": "community_local_visibility",
+      "title": "Community / Local Visibility",
+      "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+      "score": 1,
+      "hits": [
+        "accessible"
       ],
       "best_formats": [
         "cafe wall",
@@ -3227,6 +3157,7 @@
       ]
     }
   ],
+  "Shangyuan International Residency Programme": [],
   "Gallery IYN": [
     {
       "body_id": "artist_book_printed_matter",
@@ -3536,15 +3467,17 @@
     }
   ],
   "Asian Cultural Council Fellowship": [],
-  "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat": [
+  "Clouds Art + Coffee": [
     {
       "body_id": "community_local_visibility",
       "title": "Community / Local Visibility",
       "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
       "score": 4,
       "hits": [
-        "market",
-        "popup"
+        "community",
+        "cafe",
+        "local",
+        "wall"
       ],
       "best_formats": [
         "cafe wall",
@@ -3555,33 +3488,19 @@
       ]
     },
     {
-      "body_id": "artist_book_printed_matter",
-      "title": "Artist Book / Printed Matter",
-      "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
-      "score": 2,
+      "body_id": "daily_poetic_photography",
+      "title": "Daily Poetic Photography",
+      "description": "A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.",
+      "score": 1,
       "hits": [
-        "zine"
+        "intimate"
       ],
       "best_formats": [
-        "book fair",
-        "zine fair",
-        "bookstore",
-        "small press",
-        "publication"
-      ]
-    },
-    {
-      "body_id": "architecture_memory",
-      "title": "Architecture / Memory / Place",
-      "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
-      "score": 1,
-      "hits": [],
-      "best_formats": [
-        "photobook",
+        "online feature",
         "zine",
-        "small gallery",
-        "artist statement",
-        "publication"
+        "small publication",
+        "photobook",
+        "artist-run space"
       ]
     }
   ],
@@ -3905,6 +3824,7 @@
       ]
     }
   ],
+  "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar": [],
   "Komiyama Tokyo": [
     {
       "body_id": "artist_book_printed_matter",
@@ -4121,6 +4041,7 @@
     }
   ],
   "twelvebooks": [],
+  "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod": [],
   "Communication Arts Illustration Competition": [
     {
       "body_id": "artist_book_printed_matter",
@@ -4139,8 +4060,6 @@
       ]
     }
   ],
-  "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...": [],
-  "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...": [],
   "Mall Galleries Open Exhibitions": [
     {
       "body_id": "artist_book_printed_matter",
@@ -4227,7 +4146,8 @@
       ]
     }
   ],
-  "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar": [],
+  "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...": [],
+  "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...": [],
   "Picaresque Gallery": [
     {
       "body_id": "architecture_memory",

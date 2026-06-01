@@ -462,23 +462,6 @@
       "source": "http://tacoche.com/"
     },
     {
-      "title": "Art Book Fairs",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://www.artbookfairs.com/"
-    },
-    {
       "title": "Jimbocho Zine Fair",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -494,23 +477,6 @@
         "zine"
       ],
       "source": "https://tcha.jp/post-3262/"
-    },
-    {
-      "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3... fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
     },
     {
       "title": "Books Ruhe",
@@ -623,7 +589,7 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -1416,6 +1382,21 @@
       "source": "https://fukuokaartbookfair.com/application/"
     },
     {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "USA",
+      "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://www.nwws.org/annual-international-open/"
+    },
+    {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
       "score": 8.6,
       "differentiated_score": 10.22,
@@ -1506,6 +1487,51 @@
         "memory"
       ],
       "source": "https://bankart1929.com/"
+    },
+    {
+      "title": "CSPWC Annual Open Water International Exhibition",
+      "score": 8.6,
+      "differentiated_score": 9.46,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "Canada",
+      "why": "International juried show specifically in transparent watercolour. Exhibition is September 2026 so submission window may still be open — check cspwc.ca urgently.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://cspwc.ca/"
+    },
+    {
+      "title": "Shimokitazawa Arts",
+      "score": 8.6,
+      "differentiated_score": 9.36,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_small",
+      "country": "Japan",
+      "why": "Monthly solo exhibitions by younger Japanese artists. Shimokitazawa location. No public open call — direct email inquiry. Good Tier 2 networking target.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://shimokitazawaarts.tokyo/en/home-english/"
+    },
+    {
+      "title": "Sunny Boy Books",
+      "score": 8.4,
+      "differentiated_score": 9.34,
+      "visual_fit_score": 1.3,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "Japan",
+      "why": "Tokyo indie bookshop stocking handmade, small-run, and foreign books with its own publishing arm. Strong fit for artist-book and print consignment.",
+      "visual_hits": [
+        "zine"
+      ],
+      "source": "https://www.instagram.com/sunnyboybooks/"
     },
     {
       "title": "3331 Arts Chiyoda",
@@ -1750,6 +1776,19 @@
         "commercial_illustration"
       ],
       "source": "https://www.comitia.co.jp/"
+    },
+    {
+      "title": "Platform China BIAP Artist Residency",
+      "score": 8.4,
+      "differentiated_score": 9.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.",
+      "visual_hits": [],
+      "source": "https://www.transartists.org/en/air/platform-china"
     },
     {
       "title": "POST",
@@ -2008,6 +2047,36 @@
       "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
       "visual_hits": [],
       "source": "https://en.410gallery.org/exhibition-open-call"
+    },
+    {
+      "title": "Japan International Watercolor Institute Online Exhibition",
+      "score": 8.1,
+      "differentiated_score": 8.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "japan_watercolor_open_call",
+      "country": "Japan",
+      "why": "Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
+    },
+    {
+      "title": "National Watercolor Society International Open Exhibition",
+      "score": 8.1,
+      "differentiated_score": 8.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "USA",
+      "why": "One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://nationalwatercolorsociety.org/exhibits"
     },
     {
       "title": "HandMade In Japan Fes",
@@ -2724,23 +2793,6 @@
       "source": "http://tacoche.com/"
     },
     {
-      "title": "Art Book Fairs",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://www.artbookfairs.com/"
-    },
-    {
       "title": "Jimbocho Zine Fair",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -2756,23 +2808,6 @@
         "zine"
       ],
       "source": "https://tcha.jp/post-3262/"
-    },
-    {
-      "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3... fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
     },
     {
       "title": "Books Ruhe",
@@ -2931,7 +2966,7 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -2993,19 +3028,19 @@
       "source": "https://www.printedmatter.org/"
     },
     {
-      "title": "Zines Fair at CP+",
-      "score": 8.6,
-      "differentiated_score": 9.29,
+      "title": "Sunny Boy Books",
+      "score": 8.4,
+      "differentiated_score": 9.34,
       "visual_fit_score": 1.3,
       "verification": "partial",
       "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Zines Fair at CP+ fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "category": "bookstore_gallery",
+      "country": "Japan",
+      "why": "Tokyo indie bookshop stocking handmade, small-run, and foreign books with its own publishing arm. Strong fit for artist-book and print consignment.",
       "visual_hits": [
         "zine"
       ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
+      "source": "https://www.instagram.com/sunnyboybooks/"
     },
     {
       "title": "ZINEフェス東京",
@@ -3425,21 +3460,6 @@
         "zine"
       ],
       "source": "https://sozoroshobou.stores.jp/"
-    },
-    {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-      "score": 7.8,
-      "differentiated_score": 8.49,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "日記屋 月日",
@@ -4144,23 +4164,6 @@
       "source": "http://tacoche.com/"
     },
     {
-      "title": "Art Book Fairs",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://www.artbookfairs.com/"
-    },
-    {
       "title": "Jimbocho Zine Fair",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -4176,23 +4179,6 @@
         "zine"
       ],
       "source": "https://tcha.jp/post-3262/"
-    },
-    {
-      "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3... fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
     },
     {
       "title": "Books Ruhe",
@@ -4351,7 +4337,7 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -4413,19 +4399,19 @@
       "source": "https://www.printedmatter.org/"
     },
     {
-      "title": "Zines Fair at CP+",
-      "score": 8.6,
-      "differentiated_score": 9.29,
+      "title": "Sunny Boy Books",
+      "score": 8.4,
+      "differentiated_score": 9.34,
       "visual_fit_score": 1.3,
       "verification": "partial",
       "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Zines Fair at CP+ fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "category": "bookstore_gallery",
+      "country": "Japan",
+      "why": "Tokyo indie bookshop stocking handmade, small-run, and foreign books with its own publishing arm. Strong fit for artist-book and print consignment.",
       "visual_hits": [
         "zine"
       ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
+      "source": "https://www.instagram.com/sunnyboybooks/"
     },
     {
       "title": "ZINEフェス東京",
@@ -4847,21 +4833,6 @@
       "source": "https://sozoroshobou.stores.jp/"
     },
     {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-      "score": 7.8,
-      "differentiated_score": 8.49,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
-    },
-    {
       "title": "日記屋 月日",
       "score": 8.0,
       "differentiated_score": 8.46,
@@ -5120,6 +5091,21 @@
       "source": "https://fukuokaartbookfair.com/application/"
     },
     {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "USA",
+      "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://www.nwws.org/annual-international-open/"
+    },
+    {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
       "score": 8.6,
       "differentiated_score": 10.22,
@@ -5332,7 +5318,7 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -5387,6 +5373,21 @@
         "memory"
       ],
       "source": "https://bankart1929.com/"
+    },
+    {
+      "title": "CSPWC Annual Open Water International Exhibition",
+      "score": 8.6,
+      "differentiated_score": 9.46,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "Canada",
+      "why": "International juried show specifically in transparent watercolour. Exhibition is September 2026 so submission window may still be open — check cspwc.ca urgently.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://cspwc.ca/"
     },
     {
       "title": "Home - Printed Matter",
@@ -5522,6 +5523,19 @@
       "source": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html"
     },
     {
+      "title": "Platform China BIAP Artist Residency",
+      "score": 8.4,
+      "differentiated_score": 9.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.",
+      "visual_hits": [],
+      "source": "https://www.transartists.org/en/air/platform-china"
+    },
+    {
       "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
       "score": 8.6,
       "differentiated_score": 9.08,
@@ -5574,6 +5588,36 @@
       "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
       "visual_hits": [],
       "source": "https://en.410gallery.org/exhibition-open-call"
+    },
+    {
+      "title": "Japan International Watercolor Institute Online Exhibition",
+      "score": 8.1,
+      "differentiated_score": 8.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "japan_watercolor_open_call",
+      "country": "Japan",
+      "why": "Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
+    },
+    {
+      "title": "National Watercolor Society International Open Exhibition",
+      "score": 8.1,
+      "differentiated_score": 8.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "USA",
+      "why": "One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://nationalwatercolorsociety.org/exhibits"
     },
     {
       "title": "Design Festa",
@@ -5870,6 +5914,19 @@
       "source": "https://air-j.info/en/program/"
     },
     {
+      "title": "Shangyuan International Residency Programme",
+      "score": 7.9,
+      "differentiated_score": 8.6,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing-based residency directly relevant to Chinese identity and home country. Prestigious, no restrictions. Apply October for next year cycle.",
+      "visual_hits": [],
+      "source": "http://www.syartmuseum.com/english/"
+    },
+    {
       "title": "Asian Cultural Council Fellowship",
       "score": 7.8,
       "differentiated_score": 8.38,
@@ -5881,6 +5938,32 @@
       "why": "Directly designed for artists from Asia building international careers — a fellowship would fund research travel, residency, and international network-building at exactly the right career stage.",
       "visual_hits": [],
       "source": "https://www.asianculturalcouncil.org/"
+    },
+    {
+      "title": "Clouds Art + Coffee",
+      "score": 7.6,
+      "differentiated_score": 8.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Rotating exhibitions, welcomes emerging local and international artists, Koenji neighbourhood. Tier 1 ambient visibility — café prints and wall display.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/clouds_koenji/"
+    },
+    {
+      "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+      "score": 7.5,
+      "differentiated_score": 7.98,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839"
     },
     {
       "title": "Communication Arts Illustration Competition",
@@ -5951,6 +6034,19 @@
       "source": "https://www.mallgalleries.org.uk/open-exhibitions"
     },
     {
+      "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+      "score": 6.8,
+      "differentiated_score": 7.28,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call, exhibition",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594"
+    },
+    {
       "title": "Boji Hair+Gallery",
       "score": 6.7,
       "differentiated_score": 7.02,
@@ -5965,19 +6061,6 @@
         "memory"
       ],
       "source": "https://www.boji-hair.com/"
-    },
-    {
-      "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
-      "score": 6.1,
-      "differentiated_score": 6.58,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "photo_open_call",
-      "country": "Global",
-      "why": "Possible fit based on link text: open call",
-      "visual_hits": [],
-      "source": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839"
     }
   ],
   "easy_wins": [
@@ -6105,6 +6188,21 @@
         "zine"
       ],
       "source": "https://fukuokaartbookfair.com/application/"
+    },
+    {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "USA",
+      "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://www.nwws.org/annual-international-open/"
     },
     {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -6409,23 +6507,6 @@
       "source": "http://tacoche.com/"
     },
     {
-      "title": "Art Book Fairs",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://www.artbookfairs.com/"
-    },
-    {
       "title": "Jimbocho Zine Fair",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -6441,23 +6522,6 @@
         "zine"
       ],
       "source": "https://tcha.jp/post-3262/"
-    },
-    {
-      "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3... fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
     },
     {
       "title": "Books Ruhe",
@@ -6566,7 +6630,7 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -6620,6 +6684,21 @@
       "source": "https://bankart1929.com/"
     },
     {
+      "title": "CSPWC Annual Open Water International Exhibition",
+      "score": 8.6,
+      "differentiated_score": 9.46,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "Canada",
+      "why": "International juried show specifically in transparent watercolour. Exhibition is September 2026 so submission window may still be open — check cspwc.ca urgently.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://cspwc.ca/"
+    },
+    {
       "title": "Home - Printed Matter",
       "score": 8.0,
       "differentiated_score": 9.4,
@@ -6637,6 +6716,36 @@
         "zine"
       ],
       "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Shimokitazawa Arts",
+      "score": 8.6,
+      "differentiated_score": 9.36,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_small",
+      "country": "Japan",
+      "why": "Monthly solo exhibitions by younger Japanese artists. Shimokitazawa location. No public open call — direct email inquiry. Good Tier 2 networking target.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://shimokitazawaarts.tokyo/en/home-english/"
+    },
+    {
+      "title": "Sunny Boy Books",
+      "score": 8.4,
+      "differentiated_score": 9.34,
+      "visual_fit_score": 1.3,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "Japan",
+      "why": "Tokyo indie bookshop stocking handmade, small-run, and foreign books with its own publishing arm. Strong fit for artist-book and print consignment.",
+      "visual_hits": [
+        "zine"
+      ],
+      "source": "https://www.instagram.com/sunnyboybooks/"
     },
     {
       "title": "3331 Arts Chiyoda",
@@ -6780,21 +6889,6 @@
       "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
       "visual_hits": [],
       "source": "https://bonus-track.net/"
-    },
-    {
-      "title": "Zines Fair at CP+",
-      "score": 8.6,
-      "differentiated_score": 9.29,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Zines Fair at CP+ fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "ZINEフェス東京",
@@ -6976,6 +7070,19 @@
         "commercial_illustration"
       ],
       "source": "https://www.comitia.co.jp/"
+    },
+    {
+      "title": "Platform China BIAP Artist Residency",
+      "score": 8.4,
+      "differentiated_score": 9.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.",
+      "visual_hits": [],
+      "source": "https://www.transartists.org/en/air/platform-china"
     },
     {
       "title": "POST",
@@ -7234,6 +7341,36 @@
       "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
       "visual_hits": [],
       "source": "https://en.410gallery.org/exhibition-open-call"
+    },
+    {
+      "title": "Japan International Watercolor Institute Online Exhibition",
+      "score": 8.1,
+      "differentiated_score": 8.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "japan_watercolor_open_call",
+      "country": "Japan",
+      "why": "Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
+    },
+    {
+      "title": "National Watercolor Society International Open Exhibition",
+      "score": 8.1,
+      "differentiated_score": 8.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "USA",
+      "why": "One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://nationalwatercolorsociety.org/exhibits"
     },
     {
       "title": "HandMade In Japan Fes",
@@ -7819,6 +7956,19 @@
       "source": "https://sozoroshobou.stores.jp/"
     },
     {
+      "title": "Shangyuan International Residency Programme",
+      "score": 7.9,
+      "differentiated_score": 8.6,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing-based residency directly relevant to Chinese identity and home country. Prestigious, no restrictions. Apply October for next year cycle.",
+      "visual_hits": [],
+      "source": "http://www.syartmuseum.com/english/"
+    },
+    {
       "title": "Creative Space Hayashi",
       "score": 7.9,
       "differentiated_score": 8.54,
@@ -7832,21 +7982,6 @@
         "memory"
       ],
       "source": "https://csh.yokohama/"
-    },
-    {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-      "score": 7.8,
-      "differentiated_score": 8.49,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "日記屋 月日",
@@ -7974,6 +8109,32 @@
         "memory"
       ],
       "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013"
+    },
+    {
+      "title": "Clouds Art + Coffee",
+      "score": 7.6,
+      "differentiated_score": 8.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Rotating exhibitions, welcomes emerging local and international artists, Koenji neighbourhood. Tier 1 ambient visibility — café prints and wall display.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/clouds_koenji/"
+    },
+    {
+      "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+      "score": 7.5,
+      "differentiated_score": 7.98,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839"
     },
     {
       "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
@@ -8482,23 +8643,6 @@
       "source": "http://tacoche.com/"
     },
     {
-      "title": "Art Book Fairs",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://www.artbookfairs.com/"
-    },
-    {
       "title": "Jimbocho Zine Fair",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -8514,23 +8658,6 @@
         "zine"
       ],
       "source": "https://tcha.jp/post-3262/"
-    },
-    {
-      "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3... fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
     },
     {
       "title": "Books Ruhe",
@@ -8666,6 +8793,21 @@
       "source": "https://www.nadiff.com/"
     },
     {
+      "title": "Sunny Boy Books",
+      "score": 8.4,
+      "differentiated_score": 9.34,
+      "visual_fit_score": 1.3,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "Japan",
+      "why": "Tokyo indie bookshop stocking handmade, small-run, and foreign books with its own publishing arm. Strong fit for artist-book and print consignment.",
+      "visual_hits": [
+        "zine"
+      ],
+      "source": "https://www.instagram.com/sunnyboybooks/"
+    },
+    {
       "title": "3331 Arts Chiyoda",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -8729,21 +8871,6 @@
       "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
       "visual_hits": [],
       "source": "https://bonus-track.net/"
-    },
-    {
-      "title": "Zines Fair at CP+",
-      "score": 8.6,
-      "differentiated_score": 9.29,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Zines Fair at CP+ fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "ZINEフェス東京",
@@ -8870,6 +8997,21 @@
       "source": "https://reload-shimokita.com/"
     },
     {
+      "title": "Japan International Watercolor Institute Online Exhibition",
+      "score": 8.1,
+      "differentiated_score": 8.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "japan_watercolor_open_call",
+      "country": "Japan",
+      "why": "Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
+    },
+    {
       "title": "HandMade In Japan Fes",
       "score": 8.2,
       "differentiated_score": 8.93,
@@ -8982,21 +9124,6 @@
       "source": "https://sozoroshobou.stores.jp/"
     },
     {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-      "score": 7.8,
-      "differentiated_score": 8.49,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
-    },
-    {
       "title": "日記屋 月日",
       "score": 8.0,
       "differentiated_score": 8.46,
@@ -9010,6 +9137,19 @@
         "zine"
       ],
       "source": "https://tsukihi.stores.jp/"
+    },
+    {
+      "title": "Clouds Art + Coffee",
+      "score": 7.6,
+      "differentiated_score": 8.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Rotating exhibitions, welcomes emerging local and international artists, Koenji neighbourhood. Tier 1 ambient visibility — café prints and wall display.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/clouds_koenji/"
     },
     {
       "title": "Japan Watercolor Society Annual Exhibition",
@@ -9076,19 +9216,6 @@
       "source": ""
     },
     {
-      "title": "Spiral",
-      "score": 3.8,
-      "differentiated_score": 4.5,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "gallery_event",
-      "country": "",
-      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
-      "visual_hits": [],
-      "source": "https://www.spiral.co.jp/"
-    },
-    {
       "title": "loneliness books",
       "score": 3.0,
       "differentiated_score": 4.38,
@@ -9121,6 +9248,19 @@
         "zine"
       ],
       "source": "https://www.instagram.com/digaholezines/"
+    },
+    {
+      "title": "Spiral",
+      "score": 3.4,
+      "differentiated_score": 4.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_event",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
+      "visual_hits": [],
+      "source": "https://www.spiral.co.jp/"
     },
     {
       "title": "ZINE FARM TOKYO",
@@ -9277,6 +9417,21 @@
         "zine"
       ],
       "source": "https://fukuokaartbookfair.com/application/"
+    },
+    {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "score": 9.4,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "USA",
+      "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://www.nwws.org/annual-international-open/"
     },
     {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -9615,23 +9770,6 @@
       "source": "http://tacoche.com/"
     },
     {
-      "title": "Art Book Fairs",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://www.artbookfairs.com/"
-    },
-    {
       "title": "Jimbocho Zine Fair",
       "score": 8.6,
       "differentiated_score": 9.98,
@@ -9647,23 +9785,6 @@
         "zine"
       ],
       "source": "https://tcha.jp/post-3262/"
-    },
-    {
-      "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
-      "score": 8.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3... fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
     },
     {
       "title": "Books Ruhe",
@@ -9822,7 +9943,7 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -9909,6 +10030,21 @@
       "source": "https://bankart1929.com/"
     },
     {
+      "title": "CSPWC Annual Open Water International Exhibition",
+      "score": 8.6,
+      "differentiated_score": 9.46,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "Canada",
+      "why": "International juried show specifically in transparent watercolour. Exhibition is September 2026 so submission window may still be open — check cspwc.ca urgently.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://cspwc.ca/"
+    },
+    {
       "title": "Home - Printed Matter",
       "score": 8.0,
       "differentiated_score": 9.4,
@@ -9926,6 +10062,36 @@
         "zine"
       ],
       "source": "https://www.printedmatter.org/"
+    },
+    {
+      "title": "Shimokitazawa Arts",
+      "score": 8.6,
+      "differentiated_score": 9.36,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_small",
+      "country": "Japan",
+      "why": "Monthly solo exhibitions by younger Japanese artists. Shimokitazawa location. No public open call — direct email inquiry. Good Tier 2 networking target.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://shimokitazawaarts.tokyo/en/home-english/"
+    },
+    {
+      "title": "Sunny Boy Books",
+      "score": 8.4,
+      "differentiated_score": 9.34,
+      "visual_fit_score": 1.3,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "bookstore_gallery",
+      "country": "Japan",
+      "why": "Tokyo indie bookshop stocking handmade, small-run, and foreign books with its own publishing arm. Strong fit for artist-book and print consignment.",
+      "visual_hits": [
+        "zine"
+      ],
+      "source": "https://www.instagram.com/sunnyboybooks/"
     },
     {
       "title": "3331 Arts Chiyoda",
@@ -10069,21 +10235,6 @@
       "why": "Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit",
       "visual_hits": [],
       "source": "https://bonus-track.net/"
-    },
-    {
-      "title": "Zines Fair at CP+",
-      "score": 8.6,
-      "differentiated_score": 9.29,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Zines Fair at CP+ fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "ZINEフェス東京",
@@ -10278,6 +10429,19 @@
         "commercial_illustration"
       ],
       "source": "https://www.comitia.co.jp/"
+    },
+    {
+      "title": "Platform China BIAP Artist Residency",
+      "score": 8.4,
+      "differentiated_score": 9.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.",
+      "visual_hits": [],
+      "source": "https://www.transartists.org/en/air/platform-china"
     },
     {
       "title": "POST",
@@ -10536,6 +10700,36 @@
       "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
       "visual_hits": [],
       "source": "https://en.410gallery.org/exhibition-open-call"
+    },
+    {
+      "title": "Japan International Watercolor Institute Online Exhibition",
+      "score": 8.1,
+      "differentiated_score": 8.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "japan_watercolor_open_call",
+      "country": "Japan",
+      "why": "Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
+    },
+    {
+      "title": "National Watercolor Society International Open Exhibition",
+      "score": 8.1,
+      "differentiated_score": 8.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "USA",
+      "why": "One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://nationalwatercolorsociety.org/exhibits"
     },
     {
       "title": "HandMade In Japan Fes",
@@ -11121,6 +11315,19 @@
       "source": "https://sozoroshobou.stores.jp/"
     },
     {
+      "title": "Shangyuan International Residency Programme",
+      "score": 7.9,
+      "differentiated_score": 8.6,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing-based residency directly relevant to Chinese identity and home country. Prestigious, no restrictions. Apply October for next year cycle.",
+      "visual_hits": [],
+      "source": "http://www.syartmuseum.com/english/"
+    },
+    {
       "title": "Creative Space Hayashi",
       "score": 7.9,
       "differentiated_score": 8.54,
@@ -11134,21 +11341,6 @@
         "memory"
       ],
       "source": "https://csh.yokohama/"
-    },
-    {
-      "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-      "score": 7.8,
-      "differentiated_score": 8.49,
-      "visual_fit_score": 1.3,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "fair_popup",
-      "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "visual_hits": [
-        "zine"
-      ],
-      "source": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
     },
     {
       "title": "日記屋 月日",
@@ -11291,6 +11483,19 @@
       "source": "https://www.asianculturalcouncil.org/"
     },
     {
+      "title": "Clouds Art + Coffee",
+      "score": 7.6,
+      "differentiated_score": 8.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Rotating exhibitions, welcomes emerging local and international artists, Koenji neighbourhood. Tier 1 ambient visibility — café prints and wall display.",
+      "visual_hits": [],
+      "source": "https://www.instagram.com/clouds_koenji/"
+    },
+    {
       "title": "Japan Watercolor Society Annual Exhibition",
       "score": 7.5,
       "differentiated_score": 8.03,
@@ -11304,6 +11509,19 @@
         "watercolor"
       ],
       "source": "https://nihon-suisai.com/"
+    },
+    {
+      "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+      "score": 7.5,
+      "differentiated_score": 7.98,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839"
     },
     {
       "title": "Publishing / Artist Books — Battle Plan",
@@ -11575,6 +11793,19 @@
       "source": ""
     },
     {
+      "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+      "score": 6.8,
+      "differentiated_score": 7.28,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call, exhibition",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594"
+    },
+    {
       "title": "Boji Hair+Gallery",
       "score": 6.7,
       "differentiated_score": 7.02,
@@ -11617,19 +11848,6 @@
       "source": "https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/"
     },
     {
-      "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
-      "score": 6.1,
-      "differentiated_score": 6.58,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "photo_open_call",
-      "country": "Global",
-      "why": "Possible fit based on link text: open call",
-      "visual_hits": [],
-      "source": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839"
-    },
-    {
       "title": "twelvebooks",
       "score": 6.5,
       "differentiated_score": 6.5,
@@ -11644,8 +11862,8 @@
     },
     {
       "title": "Picaresque Gallery",
-      "score": 4.3,
-      "differentiated_score": 5.16,
+      "score": 3.9,
+      "differentiated_score": 4.76,
       "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "ok",
@@ -11656,19 +11874,6 @@
         "memory"
       ],
       "source": "https://picaresquejpn.com/"
-    },
-    {
-      "title": "Spiral",
-      "score": 3.8,
-      "differentiated_score": 4.5,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "gallery_event",
-      "country": "",
-      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
-      "visual_hits": [],
-      "source": "https://www.spiral.co.jp/"
     },
     {
       "title": "loneliness books",
@@ -11703,6 +11908,19 @@
         "zine"
       ],
       "source": "https://www.instagram.com/digaholezines/"
+    },
+    {
+      "title": "Spiral",
+      "score": 3.4,
+      "differentiated_score": 4.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_event",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
+      "visual_hits": [],
+      "source": "https://www.spiral.co.jp/"
     },
     {
       "title": "ZINE FARM TOKYO",
@@ -11737,8 +11955,8 @@
   "low_priority": [
     {
       "title": "Picaresque Gallery",
-      "score": 4.3,
-      "differentiated_score": 5.16,
+      "score": 3.9,
+      "differentiated_score": 4.76,
       "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "ok",
@@ -11749,19 +11967,6 @@
         "memory"
       ],
       "source": "https://picaresquejpn.com/"
-    },
-    {
-      "title": "Spiral",
-      "score": 3.8,
-      "differentiated_score": 4.5,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "gallery_event",
-      "country": "",
-      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
-      "visual_hits": [],
-      "source": "https://www.spiral.co.jp/"
     },
     {
       "title": "loneliness books",
@@ -11796,6 +12001,19 @@
         "zine"
       ],
       "source": "https://www.instagram.com/digaholezines/"
+    },
+    {
+      "title": "Spiral",
+      "score": 3.4,
+      "differentiated_score": 4.1,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_event",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
+      "visual_hits": [],
+      "source": "https://www.spiral.co.jp/"
     },
     {
       "title": "ZINE FARM TOKYO",

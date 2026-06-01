@@ -5,19 +5,19 @@
       16
     ],
     [
+      "Japan",
+      6
+    ],
+    [
+      "USA",
+      5
+    ],
+    [
       "Tokyo",
       5
     ],
     [
-      "Japan",
-      3
-    ],
-    [
       "UK",
-      3
-    ],
-    [
-      "USA",
       3
     ],
     [
@@ -29,7 +29,15 @@
       1
     ],
     [
+      "Canada",
+      1
+    ],
+    [
       "France",
+      1
+    ],
+    [
+      "China",
       1
     ],
     [
@@ -43,19 +51,15 @@
       15
     ],
     [
-      "fair_popup",
-      14
-    ],
-    [
       "book_publishing",
       14
     ],
     [
-      "zine_print",
+      "fair_popup",
       11
     ],
     [
-      "residency",
+      "zine_print",
       11
     ],
     [
@@ -63,7 +67,15 @@
       8
     ],
     [
+      "residency",
+      7
+    ],
+    [
       "bookstore_gallery",
+      6
+    ],
+    [
+      "global_watercolor_open_call",
       5
     ],
     [
@@ -87,10 +99,6 @@
       2
     ],
     [
-      "global_watercolor_open_call",
-      2
-    ],
-    [
       "market_event",
       2
     ],
@@ -111,11 +119,11 @@
       1
     ],
     [
-      "event_space",
+      "gallery_small",
       1
     ],
     [
-      "global_residency",
+      "event_space",
       1
     ]
   ],
@@ -130,10 +138,22 @@
     ],
     [
       "global",
-      8
+      11
+    ],
+    [
+      "open_call",
+      7
+    ],
+    [
+      "watercolor",
+      6
     ],
     [
       "low",
+      5
+    ],
+    [
+      "prestige",
       5
     ],
     [
@@ -149,11 +169,7 @@
       3
     ],
     [
-      "open_call",
-      3
-    ],
-    [
-      "prestige",
+      "residency",
       3
     ],
     [
@@ -161,15 +177,23 @@
       3
     ],
     [
-      "watercolor",
-      2
-    ],
-    [
-      "residency",
-      2
-    ],
-    [
       "portfolio_builder",
+      2
+    ],
+    [
+      "zine",
+      2
+    ],
+    [
+      "tokyo",
+      2
+    ],
+    [
+      "relationship_target",
+      2
+    ],
+    [
+      "watch_next_cycle",
       2
     ],
     [
@@ -182,6 +206,10 @@
     ],
     [
       "Low barrier to entry, unclear exhibition pathway",
+      1
+    ],
+    [
+      "currently_open",
       1
     ],
     [
@@ -221,11 +249,35 @@
       1
     ],
     [
-      "zine",
+      "high_information_gathering",
       1
     ],
     [
-      "high_information_gathering",
+      "check_deadline",
+      1
+    ],
+    [
+      "gallery",
+      1
+    ],
+    [
+      "shimokitazawa",
+      1
+    ],
+    [
+      "tier_2",
+      1
+    ],
+    [
+      "bookstore",
+      1
+    ],
+    [
+      "tier_1",
+      1
+    ],
+    [
+      "gakugeidaigaku",
       1
     ],
     [
@@ -234,50 +286,6 @@
     ],
     [
       "extremely_high",
-      1
-    ],
-    [
-      "Indeterminate - no visible application pathway",
-      1
-    ],
-    [
-      "high_friction",
-      1
-    ],
-    [
-      "high_ambiguity",
-      1
-    ],
-    [
-      "unknown_but_likely_low",
-      1
-    ],
-    [
-      "high_friction_low_value",
-      1
-    ],
-    [
-      "Low barrier but unclear utility",
-      1
-    ],
-    [
-      "paris",
-      1
-    ],
-    [
-      "medium_high",
-      1
-    ],
-    [
-      "very_high",
-      1
-    ],
-    [
-      "low_moderate",
-      1
-    ],
-    [
-      "unclear",
       1
     ]
   ]

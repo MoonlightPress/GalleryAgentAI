@@ -1,0 +1,35 @@
+{
+  "venue_name": "Shangyuan Art Museum",
+  "venue_slug": "shangyuan_art_museum",
+  "venue_type": "residency",
+  "city": "Beijing",
+  "country": "",
+  "website": "http://www.syartmuseum.com/english/",
+  "source_links": [
+    "http://www.syartmuseum.com/english/"
+  ],
+  "categories_seen": [
+    "Residency Beijing"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact"
+  ],
+  "opportunity_titles": [
+    "Shangyuan International Residency Programme"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-01",
+  "updated_at": "2026-06-01"
+}

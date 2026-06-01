@@ -6,10 +6,10 @@ This report caps scores when the explanation contradicts the ranking.
 
 - capped_context_mismatch: 1
 - capped_market_format: 1
-- capped_negative_explanation: 37
+- capped_negative_explanation: 35
 - capped_wrong_medium: 1
-- hidden: 4
-- ok: 119
+- hidden: 7
+- ok: 124
 - reject: 4
 
 ## Score Caps Applied
@@ -25,8 +25,6 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear
 - **Jimbocho Zine Fair** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **Zines Fair at CP+** — 10.0 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
 - **ZINEフェス東京** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **ZINEイベント** — 10.0 → 6.4 — capped_negative_explanation
@@ -35,8 +33,6 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear
 - **HandMade In Japan Fes** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: it doesn't, undermine your positioning
-- **tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...** — 10.0 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
 - **Fukuoka Art Book Fair** — 10.0 → 2.5 — hidden
   - hidden recommendation
 - **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — 10.0 → 2.5 — hidden
@@ -56,6 +52,8 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: it doesn't, doesn't fit, unlikely
 - **Gallery HANA Shimokitazawa** — 9.59 → 6.4 — capped_negative_explanation
   - negative explanation: not strategic, unlikely
+- **SCCP Guest Artist** — 9.55 → 2.5 — hidden
+  - hidden recommendation
 - **Open Calls for Artists** — 9.48 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Open Call For Artists** — 9.48 → 6.4 — capped_negative_explanation
@@ -74,8 +72,6 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear, question mark
 - **Cafe Cross Point** — 9.35 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **SCCP Guest Artist** — 9.25 → 2.5 — hidden
-  - hidden recommendation
 - **Cafe Gallery HATTIFNATT** — 9.12 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Tokyo Arts and Space** — 9.11 → 6.4 — capped_negative_explanation
@@ -101,6 +97,12 @@ This report caps scores when the explanation contradicts the ranking.
   - photography-only risk: photovogue
 - **BONUS TRACK** — 8.72 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **National Watercolor Society International Open Exhibition** — 8.38 → 2.5 — hidden
+  - hidden recommendation
+- **Japan International Watercolor Institute Online Exhibition** — 8.38 → 2.5 — hidden
+  - hidden recommendation
+- **Shangyuan International Residency Programme** — 8.18 → 2.5 — hidden
+  - hidden recommendation
 - **RAW TOKYO** — 7.73 → 6.4 — capped_negative_explanation
   - negative explanation: lack of clear
 - **loneliness books** — 2.52 → 2.5 — reject

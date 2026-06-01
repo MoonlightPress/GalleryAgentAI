@@ -48,12 +48,6 @@
 - Code: 403
 - Detail: https://sozoroshobou.stores.jp/
 
-## RAW TOKYO
-- URL: https://rawtokyo.jp/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='rawtokyo.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FA
-
 ## Creative Space Hayashi
 - URL: https://csh.yokohama/
 - Status: error
@@ -168,23 +162,17 @@
 - Code: 0
 - Detail: 
 
+## RAW TOKYO
+- URL: https://rawtokyo.jp/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='rawtokyo.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FA
+
 ## Book Culture Club
 - URL: missing
 - Status: missing
 - Code: 0
 - Detail: 
-
-## 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
-- URL: https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='resartis.org', port=443): Max retries exceeded with url: /open-call/%E3%80%90open-call%E3%80%91-kyoto-art-center-artist-in-residence-p
-
-## 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...
-- URL: https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='resartis.org', port=443): Max retries exceeded with url: /open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-
 
 ## Communication Arts Illustration Competition
 - URL: https://www.commarts.com/competitions/illustration
@@ -221,6 +209,18 @@
 - Status: error
 - Code: 0
 - Detail: HTTPSConnectionPool(host='www.boji-hair.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.boji-hair.co
+
+## 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
+- URL: https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='resartis.org', port=443): Max retries exceeded with url: /open-call/%E3%80%90open-call%E3%80%91-kyoto-art-center-artist-in-residence-p
+
+## 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...
+- URL: https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='resartis.org', port=443): Max retries exceeded with url: /open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-
 
 ## twelvebooks
 - URL: missing

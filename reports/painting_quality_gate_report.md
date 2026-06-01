@@ -1,6 +1,6 @@
 # Painting Quality Gate Report
 
-Promoted: 57
+Promoted: 61
 Demoted: 5
 ## Changes
 
@@ -20,6 +20,7 @@ Demoted: 5
 - **Jackson's Art Prize** — 10.0 → 9.6 — promoted
 - **Royal Watercolour Society** — 10.0 → 9.6 — promoted
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.83 → 9.6 — promoted
+- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 9.8 → 9.6 — promoted
 - **Mall Galleries Open Exhibitions** — 9.37 → 9.6 — promoted
 - **Pastel Society Open Exhibition** — 9.37 → 9.6 — promoted
 - **Tokyo Art Book Fair** — 9.0 → 9.6 — promoted
@@ -32,6 +33,10 @@ Demoted: 5
 - **Home - Printed Matter** — 9.0 → 9.6 — promoted
 - **Japan Watercolor Society Annual Exhibition** — 8.9 → 9.6 — promoted
 - **Royal Institute of Painters in Water Colours** — 8.62 → 9.42 — promoted
+- **CSPWC Annual Open Water International Exhibition** — 8.6 → 9.4 — promoted
+- **Sunny Boy Books** — 8.4 → 5.5 — demoted
+- **National Watercolor Society International Open Exhibition** — 8.1 → 8.9 — promoted
+- **Japan International Watercolor Institute Online Exhibition** — 8.1 → 8.9 — promoted
 - **DER GREIF** — 7.2 → 8.0 — promoted
 - **Aperture | Photography** — 7.2 → 8.0 — promoted
 - **Tokyo Wonder Site / TOKAS Residency** — 7.0 → 7.8 — promoted
@@ -60,7 +65,6 @@ Demoted: 5
 - **B&B Shimokitazawa** — 6.75 → 7.55 — promoted
 - **flotsam books** — 6.75 → 7.55 — promoted
 - **HandMade In Japan Fes** — 6.4 → 5.5 — demoted
-- **tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...** — 6.4 → 5.5 — demoted
 - **RAW TOKYO** — 6.4 → 5.5 — demoted
 - **Comitia** — 6.0 → 6.8 — promoted
 - **PhotoVogue** — 5.8 → 5.5 — demoted

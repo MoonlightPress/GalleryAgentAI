@@ -48,6 +48,13 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
+### Northwest Watercolor Society 2026 Annual International Open Exhibition — 9.4/10 — needs review
+Positive reasons:
+- tag: global
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 8.6/10 — needs review
 Risks:
 - many missing verification fields: deadline, fees, contact
@@ -177,23 +184,7 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Art Book Fairs — 8.6/10 — needs review
-Positive reasons:
-- aesthetic lineage +0.8
-Risks:
-- many missing verification fields: submission, deadline, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 ### Jimbocho Zine Fair — 8.6/10 — needs review
-Positive reasons:
-- aesthetic lineage +0.8
-Risks:
-- many missing verification fields: submission, deadline, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3... — 8.6/10 — needs review
 Positive reasons:
 - aesthetic lineage +0.8
 Risks:
@@ -280,6 +271,11 @@ Positive reasons:
 - tag: global
 Risks:
 - many missing verification fields: submission, deadline, fees, contact
+- high score but still needs verification
+
+### SCCP Guest Artist — 8.8/10 — needs review
+Risks:
+- high score but few clear supporting reasons
 - high score but still needs verification
 
 

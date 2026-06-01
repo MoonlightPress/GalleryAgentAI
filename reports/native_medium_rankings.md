@@ -14,16 +14,16 @@ This report separates native watercolor/works-on-paper opportunities from photog
 - **World Illustration Awards** — 10. native painting/works-on-paper boost. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **3x3 International Illustration Awards** — 10. native painting/works-on-paper boost. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **American Illustration** — 10. native painting/works-on-paper boost. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 10. native painting/works-on-paper boost. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.
 - **Jackson's Art Prize** — 10. native painting/works-on-paper boost. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
 - **Bologna Children's Book Fair Illustrators Exhibition** — 10. native painting/works-on-paper boost. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Royal Watercolour Society** — 10. native painting/works-on-paper boost. Native watercolor context. Strong medium fit if requirements and dates are current.
 - **American Watercolor Society Annual International Exhibition** — 10. native painting/works-on-paper boost. Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice.
 - **Jinny Street Gallery Open Call** — 10. native painting/works-on-paper boost. Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
+- **CSPWC Annual Open Water International Exhibition** — 9.86. native painting/works-on-paper boost. International juried show specifically in transparent watercolour. Exhibition is September 2026 so submission window may still be open — check cspwc.ca urgently.
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.83. native painting/works-on-paper boost. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **Communication Arts Illustration Competition** — 9.6. native painting/works-on-paper boost. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Mall Galleries Open Exhibitions** — 9.37. native painting/works-on-paper boost. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
-- **Pastel Society Open Exhibition** — 9.37. native painting/works-on-paper boost. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
-- **Japan Watercolor Society Annual Exhibition** — 8.9. native painting/works-on-paper boost. The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 
 ## Mixed / Artist Book / Bookstore Ecosystem
 
@@ -36,6 +36,7 @@ This report separates native watercolor/works-on-paper opportunities from photog
 - **Home - Printed Matter** — 9.0. mixed medium / possible translation. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
 - **MOUNT ZINE** — 9.0. mixed medium / possible translation. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 9.0. mixed medium / possible translation. Possible fit based on link text: zine, open call
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — 9.0. mixed medium / possible translation. Possible fit based on link text: zine, open call, residency
 - **Book and Sons** — 9.0. mixed medium / possible translation. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
 - **» 21 Terrific Small Presses Open to Direct Submissions** — 9.0. mixed medium / possible translation. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **LOCAL Gallery・Books** — 9.0. mixed medium / possible translation. Local Koenji book/gallery target; useful for a quiet works-on-paper artist and local relationship building.
@@ -44,19 +45,19 @@ This report separates native watercolor/works-on-paper opportunities from photog
 - **tata bookshop/gallery** — 9.0. mixed medium / possible translation. Bookshop/gallery hybrid in Koenji; good bridge between books, prints, and exhibition context.
 - **本店・本屋の実験室** — 9.0. mixed medium / possible translation. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
 - **Top Artist Opportunities for 2026 | ArtConnect** — 9.0. mixed medium / possible translation. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
-- **Art Book Fairs** — 9.0. mixed medium / possible translation. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **Printed Matter Art Book Fairs** — 9.0. mixed medium / possible translation. Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
-- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — 9.0. mixed medium / possible translation. Possible fit based on link text: zine, open call, residency
+- **そぞろ書房** — 9.0. mixed medium / possible translation. Small local bookstore target. Useful for building a compact Koenji route.
 
 ## Translation Candidates
 
-- **DER GREIF** — 7.2. photography source capped as translation candidate. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+- **DER GREIF** — 7.2. photography source capped as translation candidate. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
 - **Aperture | Photography** — 7.2. photography source capped as translation candidate. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - **PhotoVogue** — 5.8. photography source capped as translation candidate. Potential fit based on source context and keyword overlap: open call, submission, exhibition, illustration
 
 ## Photography-Only Demoted
 
 - **Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou** — 5.4. photography-only source demoted. Possible fit based on link text: open call
+- **Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod** — 5.4. photography-only source demoted. Possible fit based on link text: open call, exhibition
 - **Callback Open Call G George invites you to submit to Callback, a series of contemporary ar** — 5.4. photography-only source demoted. Possible fit based on link text: open call
 
 ## Unknown Medium

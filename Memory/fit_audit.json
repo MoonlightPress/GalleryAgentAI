@@ -124,6 +124,24 @@
     "country": null
   },
   {
+    "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+    "score": 9.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "tag: global"
+    ],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Global Watercolor Open Call",
+    "city": "Online / Seattle",
+    "country": "USA"
+  },
+  {
     "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -517,51 +535,7 @@
     "country": null
   },
   {
-    "title": "Art Book Fairs",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.8"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
     "title": "Jimbocho Zine Fair",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.8"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
     "score": 8.6,
     "confidence_grade": "needs review",
     "positive_reasons": [
@@ -884,6 +858,24 @@
     "country": null
   },
   {
+    "title": "CSPWC Annual Open Water International Exhibition",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "tag: global"
+    ],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Global Watercolor Open Call",
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
     "title": "Home - Printed Matter",
     "score": 8.0,
     "confidence_grade": "needs review",
@@ -904,6 +896,44 @@
     "category": "Global Photobook",
     "city": "Online",
     "country": "Global"
+  },
+  {
+    "title": "Shimokitazawa Arts",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees"
+    ],
+    "category": "Gallery Small",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "title": "Sunny Boy Books",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "tag: zine"
+    ],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Tokyo",
+    "country": "Japan"
   },
   {
     "title": "3331 Arts Chiyoda",
@@ -1085,28 +1115,6 @@
     ],
     "category": "Markets / Popups / Booths",
     "city": "Shimokitazawa",
-    "country": null
-  },
-  {
-    "title": "Zines Fair at CP+",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.8"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
     "country": null
   },
   {
@@ -1348,6 +1356,22 @@
     "category": "Markets / Popups / Booths",
     "city": "Tokyo",
     "country": null
+  },
+  {
+    "title": "Platform China BIAP Artist Residency",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Residency Beijing",
+    "city": "Beijing",
+    "country": "China"
   },
   {
     "title": "POST",
@@ -1696,6 +1720,37 @@
     "category": "Galleries / Exhibition Calls",
     "city": "Japan / Tokyo / Online",
     "country": null
+  },
+  {
+    "title": "Japan International Watercolor Institute Online Exhibition",
+    "score": 8.1,
+    "confidence_grade": "possibly inflated",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons"
+    ],
+    "missing_fields": [],
+    "category": "Japan Watercolor Open Call",
+    "city": "Online / Niigata",
+    "country": "Japan"
+  },
+  {
+    "title": "National Watercolor Society International Open Exhibition",
+    "score": 8.1,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "tag: global"
+    ],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Global Watercolor Open Call",
+    "city": "California / Online",
+    "country": "USA"
   },
   {
     "title": "HandMade In Japan Fes",
@@ -2402,6 +2457,17 @@
     "country": null
   },
   {
+    "title": "Shangyuan International Residency Programme",
+    "score": 7.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Residency Beijing",
+    "city": "Beijing",
+    "country": "China"
+  },
+  {
     "title": "Creative Space Hayashi",
     "score": 7.9,
     "confidence_grade": "normal",
@@ -2412,24 +2478,6 @@
     ],
     "category": "Galleries / Exhibition Calls",
     "city": "Yokohama",
-    "country": null
-  },
-  {
-    "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
-    "score": 7.8,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
     "country": null
   },
   {
@@ -2596,6 +2644,23 @@
     "country": "USA / Global"
   },
   {
+    "title": "Clouds Art + Coffee",
+    "score": 7.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
     "title": "Japan Watercolor Society Annual Exhibition",
     "score": 7.5,
     "confidence_grade": "needs review",
@@ -2614,6 +2679,23 @@
     "category": "Japan Watercolor Institution",
     "city": "Tokyo",
     "country": "Japan"
+  },
+  {
+    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "score": 7.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
   },
   {
     "title": "Publishing / Artist Books — Battle Plan",
@@ -2907,6 +2989,23 @@
     "country": null
   },
   {
+    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+    "score": 6.8,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
     "title": "Boji Hair+Gallery",
     "score": 6.7,
     "confidence_grade": "normal",
@@ -2959,23 +3058,6 @@
     "country": null
   },
   {
-    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
-    "score": 6.1,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
     "title": "twelvebooks",
     "score": 6.5,
     "confidence_grade": "normal",
@@ -2996,20 +3078,7 @@
   },
   {
     "title": "Picaresque Gallery",
-    "score": 4.3,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Spiral",
-    "score": 3.8,
+    "score": 3.9,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -3054,6 +3123,19 @@
     ],
     "category": "Print / Zines / Bookstores",
     "city": "Koenji, Tokyo",
+    "country": null
+  },
+  {
+    "title": "Spiral",
+    "score": 3.4,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
     "country": null
   },
   {

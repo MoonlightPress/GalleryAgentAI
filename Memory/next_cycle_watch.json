@@ -30,5 +30,28 @@
     "next_cycle_check": "2026-08-01",
     "email": "air.shigaraki@sccp.jp",
     "source_url": "https://www.sccp.jp/air-en/application/guest-artist/"
+  },
+  {
+    "title": "National Watercolor Society International Open Exhibition",
+    "status": "closed_2026",
+    "cycle_note": "2026 deadline was May 22. Annual. $70 non-member, $40,000+ awards.",
+    "next_cycle_check": "2027-01-01",
+    "source_url": "https://nationalwatercolorsociety.org/exhibits"
+  },
+  {
+    "title": "Japan International Watercolor Institute Online Exhibition",
+    "status": "closed_2026",
+    "cycle_note": "2026 deadlines March-April. Annual. 2000 yen entry. Anyone eligible.",
+    "next_cycle_check": "2027-01-15",
+    "source_url": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/",
+    "contact_email": "jiwi2026@iacn.jp"
+  },
+  {
+    "title": "Shangyuan International Residency Programme",
+    "status": "closed_2026",
+    "cycle_note": "2026 cycle results announced January 2026. Apply October 2026 for 2027.",
+    "next_cycle_check": "2026-10-01",
+    "source_url": "http://www.syartmuseum.com/english/",
+    "contact_email": "shangyuanart@gmail.com"
   }
 ]

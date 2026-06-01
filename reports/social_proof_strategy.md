@@ -62,6 +62,12 @@ These opportunities may create disproportionate reputation value.
 - Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## Northwest Watercolor Society 2026 Annual International Open Exhibition
+
+- Prestige: None
+- Why: Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## Applications — Little Tokyo Zine Fest
 
 - Prestige: None
@@ -141,12 +147,6 @@ These opportunities may create disproportionate reputation value.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## » 21 Terrific Small Presses Open to Direct Submissions
-
-- Prestige: None
-- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## SUBMISSIONS - marblepress.com
 
 - Prestige: None
 - Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.

@@ -2,10 +2,10 @@
 
 ## Counts
 
-- mixed: 41
-- painting: 21
-- photography: 5
-- unknown: 100
+- mixed: 38
+- painting: 25
+- photography: 6
+- unknown: 104
 
 ## Classified Opportunities
 
@@ -29,6 +29,8 @@
   - hits: painting: illustration
 - **American Illustration** — painting
   - hits: painting: illustration
+- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — painting
+  - hits: painting: watercolor, open exhibition
 - **Tokyo Art Book Fair** — mixed
   - hits: mixed: book fair, tokyo art book fair
 - **UTRECHT** — mixed
@@ -47,6 +49,8 @@
   - hits: mixed: zine, bookstore, mount zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — mixed
   - hits: mixed: zine, bookstore
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — mixed
+  - hits: mixed: zine, bookstore
 - **Book and Sons** — mixed
   - hits: mixed: zine, bookstore, book and sons
 - **» 21 Terrific Small Presses Open to Direct Submissions** — mixed
@@ -63,8 +67,6 @@
   - hits: mixed: zine, bookstore
 - **Top Artist Opportunities for 2026 | ArtConnect** — mixed
   - hits: mixed: zine, bookstore
-- **Art Book Fairs** — mixed
-  - hits: mixed: book fair
 - **Printed Matter Art Book Fairs** — mixed
   - hits: mixed: zine, printed matter, book fair
 - **DER GREIF** — photography
@@ -115,8 +117,6 @@
 - **American Watercolor Society Annual International Exhibition** — painting
   - hits: painting: watercolor
 - **TAV Gallery** — unknown
-- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — mixed
-  - hits: mixed: zine, bookstore
 - **Cité Internationale des Arts Artist Residency** — unknown
 - **そぞろ書房** — mixed
   - hits: mixed: zine, bookstore
@@ -138,7 +138,12 @@
 - **OPEN CALL for the Artist-In-Residence Program 2025/2026** — unknown
 - **Yonchome Cafe** — unknown
 - **3331 Arts Chiyoda** — unknown
+- **Platform China BIAP Artist Residency** — unknown
+- **Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou** — photography
+  - hits: photography: photo
 - **Asian Cultural Council Fellowship** — unknown
+- **CSPWC Annual Open Water International Exhibition** — painting
+  - hits: painting: watercolor
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — painting
   - hits: painting: gallery open call
 - **Osaka Open Call For Artists. - ARRIVAL** — unknown
@@ -150,9 +155,12 @@
 - **【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...** — unknown
 - **2026 松濤美術館公募展｜渋谷区立松濤美術館** — unknown
 - **International Open Call** — unknown
+- **Sunny Boy Books** — mixed
+  - hits: mixed: zine, bookstore
 - **shashasha** — unknown
 - **Communication Arts Illustration Competition** — painting
   - hits: painting: illustration
+- **Shimokitazawa Arts** — unknown
 - **Clavis Publishing Submissions** — unknown
 - **Komiyama Tokyo** — unknown
 - **ARTE VENT Press** — unknown
@@ -167,15 +175,14 @@
   - hits: painting: watercolor
 - **Book Culture Club** — mixed
   - hits: mixed: zine, bookstore
-- **Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou** — photography
-  - hits: photography: photo
 - **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** — unknown
 - **2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...** — unknown
 - **Royal Institute of Painters in Water Colours** — painting
   - hits: painting: watercolor
+- **Clouds Art + Coffee** — unknown
 - **torch press** — unknown
-- **Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat** — mixed
-  - hits: mixed: zine
+- **Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod** — photography
+  - hits: photography: photo
 - **B&B Shimokitazawa** — mixed
   - hits: mixed: zine, bookstore
 - **flotsam books** — mixed
@@ -184,16 +191,12 @@
   - hits: mixed: zine, bookstore, nadiff
 - **Jimbocho Zine Fair** — mixed
   - hits: mixed: zine, post
-- **Zines Fair at CP+** — mixed
-  - hits: mixed: zine
 - **ZINEフェス東京** — mixed
   - hits: mixed: zine
 - **ZINEイベント** — mixed
   - hits: mixed: zine
 - **Youkobo Art Space** — unknown
 - **HandMade In Japan Fes** — unknown
-- **tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...** — mixed
-  - hits: photography: camera | mixed: zine, post
 - **VACANT** — unknown
 - **The Container** — unknown
 - **Gallery IRO** — unknown
@@ -236,6 +239,11 @@
 - **Applications — Little Tokyo Zine Fest** — mixed
   - hits: mixed: zine
 - **SCCP Guest Artist** — unknown
+- **National Watercolor Society International Open Exhibition** — painting
+  - hits: painting: watercolor, open exhibition
+- **Japan International Watercolor Institute Online Exhibition** — painting
+  - hits: painting: watercolor
+- **Shangyuan International Residency Programme** — unknown
 - **loneliness books** — mixed
   - hits: mixed: zine, bookstore
 - **Dig A Hole Zines** — mixed

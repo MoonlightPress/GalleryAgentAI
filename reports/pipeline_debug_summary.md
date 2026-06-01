@@ -1,11 +1,11 @@
 # Pipeline Debug Summary
 
-- opportunities: 167
-- candidates: 119
-- approved_candidates: 4
+- opportunities: 173
+- candidates: 120
+- approved_candidates: 5
 - rejected_candidates: 115
 - strategy_feed: 7
-- fit_audit: 167
+- fit_audit: 173
 
 ## Top 15 Opportunities
 
@@ -16,6 +16,7 @@
 - MOUNT ZINE — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - Submissions — Clavis Publishing — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - Fukuoka Art Book Fair — 8.2/10 — partial — ok — Capped at 8.2 due to verification strength.
+- Northwest Watercolor Society 2026 Annual International Open Exhibition — 9.4/10 — partial — ok — 
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - Aperture | Photography — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
@@ -23,14 +24,14 @@
 - » 21 Terrific Small Presses Open to Direct Submissions — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - SUBMISSIONS - marblepress.com — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide] — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- Publishers & Publishing Services in Japan - PublishersGlobal.com — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 
 ## Approved Candidate Sample
 
-- Home - Printed Matter — 8.5 — approved — strong: book fair, photobook, printed matter, zine, weak: book, exhibition
-- Browse opportunities | CuratorSpace — 7.65 — approved — strong: open call, submission, zine, weak: exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: open call, submission, residency, zine, weak: exhibition, artist
-- Callback Open Call G George invites you to submit to Callback, a series of contemporary ar — 4.7 — approved — strong: submit, open call, has submission link
+- Home - Printed Matter — 8.5 — approved — strong: printed matter, book fair, photobook, zine, weak: exhibition, book
+- Browse opportunities | CuratorSpace — 8.1 — approved — strong: submission, residency, zine, open call, weak: exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: submission, residency, zine, open call, weak: artist, exhibition
+- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — 6.1 — approved — strong: call for, residency, zine, open call, weak: artist, has submission link
+- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod — 5.4 — approved — strong: open call, weak: artist, exhibition, has submission link
 
 ## Rejected Candidate Sample
 

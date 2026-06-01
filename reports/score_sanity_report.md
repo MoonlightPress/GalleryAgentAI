@@ -10,6 +10,7 @@ This report caps inflated scores when verification is weak.
 - Book and Sons: 9.9 → 8.6
 - Center for Book Arts Opportunities: 9.8 → 8.6
 - B&B Shimokitazawa: 9.8 → 8.6
+- Northwest Watercolor Society 2026 Annual International Open Exhibition: 9.8 → 9.4
 - Koganecho Area Management Center: 9.65 → 8.6
 - Self Publish, Be Happy: 9.6 → 8.0
 - Jinny Street Gallery Open Call: 9.6 → 8.6

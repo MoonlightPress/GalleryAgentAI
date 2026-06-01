@@ -51,7 +51,7 @@
     "category": "zine_print",
     "city": "Online",
     "country": "Global",
-    "overall_score": 7.65,
+    "overall_score": 8.1,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "medium",
@@ -63,17 +63,18 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, exhibition, place, painting, open exhibition",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition, place, painting, open exhibition",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: zine, open call, submission, exhibition, place, painting, open exhibition"
+      "Keyword hits: zine, open call, submission, residency, exhibition, place, painting, open exhibition"
     ],
     "fit_keyword_hits": [
       "zine",
       "open call",
       "submission",
+      "residency",
       "exhibition",
       "place",
       "painting",
@@ -198,6 +199,44 @@
       "watercolour",
       "painting",
       "paper"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+    "organization": "CuratorSpace",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 6.1,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: zine, open call, residency",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: zine, open call, residency"
+    ],
+    "fit_keyword_hits": [
+      "zine",
+      "open call",
+      "residency"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -521,6 +560,43 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: open call, exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: open call, exhibition"
+    ],
+    "fit_keyword_hits": [
+      "open call",
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+    "organization": "CuratorSpace",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
     "why_this_fits_short": "Possible fit based on link text: open call, exhibition",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
@@ -3282,9 +3358,9 @@
     ]
   },
   {
-    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "title": "The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport",
     "organization": "CuratorSpace",
-    "category": "photo_open_call",
+    "category": "gallery_event",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -3293,57 +3369,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: open call",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: open call"
-    ],
-    "fit_keyword_hits": [
-      "open call"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever",
-    "organization": "CuratorSpace",
-    "category": "zine_print",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: zine"
+      "Keyword hits: exhibition"
     ],
     "fit_keyword_hits": [
-      "zine"
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,

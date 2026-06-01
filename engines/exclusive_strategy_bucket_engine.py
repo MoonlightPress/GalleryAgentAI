@@ -110,7 +110,8 @@ def choose_bucket(opp):
     ]
 
     # Tier 1 — Ambient Visibility: zine/bookshop ecosystem, art book fairs.
-    # Weight higher for current phase. Route to immediate or japan_book_ecosystem.
+    # Also includes currently-open watercolor open calls (NWWS etc.) that are
+    # actionable right now. Route to immediate or japan_book_ecosystem.
     tier_1_terms = [
         "tokyo art book fair",
         "mount zine",
@@ -126,6 +127,14 @@ def choose_bucket(opp):
         "zine fair",
         "fugensha",
         "akaaka",
+        # New Tokyo relationship targets
+        "sunny boy books",
+        "clouds art",
+        "shimokitazawa arts",
+        # Currently-open international watercolor calls
+        "northwest watercolor society",
+        "cspwc",
+        "canadian society of painters",
     ]
 
     # Tier 1-2 publication / artist-book terms

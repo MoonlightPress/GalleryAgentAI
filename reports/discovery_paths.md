@@ -2,6 +2,9 @@
 
 This report suggests adjacent institutions and ecosystems.
 
+## Northwest Watercolor Society 2026 Annual International Open Exhibition
+
+
 ## Applications — Little Tokyo Zine Fest
 
 
@@ -53,7 +56,4 @@ This report suggests adjacent institutions and ecosystems.
 
 
 ## » 21 Terrific Small Presses Open to Direct Submissions
-
-
-## SUBMISSIONS - marblepress.com
 

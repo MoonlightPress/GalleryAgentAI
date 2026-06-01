@@ -34,4 +34,3 @@ Potential long-term artistic trajectories suggested by current recommendation pa
 - Home - Printed Matter (signal 2)
 - Fukuoka Art Book Fair (signal 2)
 - B&B Shimokitazawa (signal 2)
-- Art Book Fairs (signal 2)
