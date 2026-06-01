@@ -188,6 +188,21 @@
   ],
   "publication_targets": [
     {
+      "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+      "score": 9.2,
+      "differentiated_score": 10.8,
+      "visual_fit_score": 3.5,
+      "verification_bucket": null,
+      "verification_score": "",
+      "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.",
+      "source": "https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/",
+      "visual_hits": [],
+      "opportunity_type": "group_publication",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "Submissions — Clavis Publishing",
       "score": 7.6,
       "differentiated_score": 10.38,
@@ -1094,6 +1109,21 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "score": 7.8,
+      "differentiated_score": 8.6,
+      "visual_fit_score": 2.0,
+      "verification_bucket": null,
+      "verification_score": "",
+      "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+      "source": "https://www.womenunitedartmovement.com/artmagazine",
+      "visual_hits": [],
+      "opportunity_type": "group_publication",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "日記屋 月日",
       "score": 6.5,
       "differentiated_score": 8.46,
@@ -1472,6 +1502,51 @@
     }
   ],
   "relationship_builders": [
+    {
+      "title": "CLOUDS Gallery+Coffee Koenji",
+      "score": 8.6,
+      "differentiated_score": 9.8,
+      "visual_fit_score": 3.5,
+      "verification_bucket": null,
+      "verification_score": "",
+      "why": "Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.",
+      "source": "https://www.cloudsgallerypluscoffee.com/",
+      "visual_hits": [],
+      "opportunity_type": "relationship_target",
+      "action_type": "contact_and_propose",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "BALLOND'ESSAI Shimokitazawa",
+      "score": 8.4,
+      "differentiated_score": 9.5,
+      "visual_fit_score": 3.0,
+      "verification_bucket": null,
+      "verification_score": "",
+      "why": "Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.",
+      "source": "http://ballondessai.com/gallery/",
+      "visual_hits": [],
+      "opportunity_type": "relationship_target",
+      "action_type": "contact_and_propose",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "HATTIFNATT Koenji Cafe Gallery",
+      "score": 8.2,
+      "differentiated_score": 9.4,
+      "visual_fit_score": 4.5,
+      "verification_bucket": null,
+      "verification_score": "",
+      "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.",
+      "source": "https://www.hattifnatt.jp/",
+      "visual_hits": [],
+      "opportunity_type": "relationship_target",
+      "action_type": "contact_and_propose",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
     {
       "title": "3331 Arts Chiyoda",
       "score": 7.6,
