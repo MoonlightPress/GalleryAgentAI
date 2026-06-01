@@ -1115,7 +1115,7 @@
     ],
     "career_category": "zines",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "closed",
     "fit_score": 95,
     "actionability_score": 100,
     "risk_score": 2,
@@ -1147,10 +1147,12 @@
     ],
     "photo_only_risk_hits": [],
     "watercolor_adjusted_score": 10,
-    "truth_alignment_verdict": "ok",
-    "truth_alignment_reasons": [],
-    "truth_aligned_score": 10.0,
-    "score_capped_by_truth_checker": false,
+    "truth_alignment_verdict": "hidden",
+    "truth_alignment_reasons": [
+      "hidden recommendation"
+    ],
+    "truth_aligned_score": 2.5,
+    "score_capped_by_truth_checker": true,
     "native_medium": "mixed",
     "native_medium_hits": {
       "painting": [],
@@ -1166,8 +1168,8 @@
       "book fair",
       "edition"
     ],
-    "source_purity_score": 9.0,
-    "source_purity_reason": "mixed medium / possible translation",
+    "source_purity_score": 2.5,
+    "source_purity_reason": "hidden/rejected",
     "dna_adjusted_score": 10,
     "dna_score_delta": 0.6,
     "dna_match_hits": [
@@ -1273,10 +1275,12 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 8.2 due to verification strength."
+    "final_score_guard_note": "Capped at 8.2 due to verification strength.",
+    "cycle_note": "Application deadline was 2026-05-29 — check for 2027 cycle",
+    "next_cycle_check": "2026-10-01"
   },
   {
     "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -1446,6 +1450,180 @@
     "recommendation_visibility": "show",
     "exclusive_primary_bucket": "publication_targets",
     "uncapped_score": 9.0,
+    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength."
+  },
+  {
+    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+    "organization": "CuratorSpace",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 7.6,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "Medium",
+    "verification_status": "partial",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: zine, open call, residency",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: zine, open call, residency"
+    ],
+    "fit_keyword_hits": [
+      "zine",
+      "open call",
+      "residency"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: residency, zine, call for, open call",
+      "weak: artist",
+      "has submission link"
+    ],
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
+    "verification_summary": "Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "category_label": "Print / Zines / Bookstores",
+    "painting_priority_score": 8.41,
+    "watercolor_fit_hits": [
+      "residency",
+      "zine"
+    ],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 8.18,
+    "truth_alignment_verdict": "ok",
+    "truth_alignment_reasons": [],
+    "truth_aligned_score": 8.18,
+    "score_capped_by_truth_checker": false,
+    "native_medium": "mixed",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": [
+        "zine",
+        "bookstore"
+      ]
+    },
+    "translation_candidate": true,
+    "translation_candidate_hits": [
+      "artist book",
+      "zine"
+    ],
+    "source_purity_score": 8.53,
+    "source_purity_reason": "mixed medium / possible translation",
+    "dna_adjusted_score": 9.24,
+    "dna_score_delta": 0.12,
+    "dna_match_hits": [
+      "artist book"
+    ],
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "artist_book_printed_matter",
+        "title": "Artist Book / Printed Matter",
+        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+        "score": 2,
+        "hits": [
+          "zine"
+        ],
+        "best_formats": [
+          "book fair",
+          "zine fair",
+          "bookstore",
+          "small press",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 1,
+        "hits": [],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "daily_poetic_photography",
+        "title": "Daily Poetic Photography",
+        "description": "A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.",
+        "score": 1,
+        "hits": [],
+        "best_formats": [
+          "online feature",
+          "zine",
+          "small publication",
+          "photobook",
+          "artist-run space"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Artist Book / Printed Matter",
+    "portfolio_match_score": 2,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "visual_fit_score": 3.25,
+    "visual_fit_hits": [
+      "artist book",
+      "artist_book",
+      "zine"
+    ],
+    "career_buckets": [
+      "career_changing",
+      "high_confidence",
+      "publication_targets",
+      "book_zine_targets",
+      "global_reach",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "career_changing",
+    "differentiated_score": 10.22,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 1,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "publication_ecosystem",
+    "curator_patterns": [],
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "publication_targets",
+    "uncapped_score": 8.9,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Capped at 7.6 due to verification strength."
@@ -5334,6 +5512,171 @@
     "exclusive_primary_bucket": "publication_targets"
   },
   {
+    "title": "Applications — Little Tokyo Zine Fest",
+    "name": "Applications — Little Tokyo Zine Fest",
+    "organization": "Applications — Little Tokyo Zine Fest",
+    "category": "fair_popup",
+    "city": "Japan / Tokyo / Online",
+    "overall_score": 8.8,
+    "one_sentence": "Art Book & Zine Fairs lead found through targeted research; useful if requirements and fit check out.",
+    "suggested_display_summary": "Art Book & Zine Fairs lead. Needs source review for details.",
+    "why_this_fits_short": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+    "quick_action": "Check exhibitor/application requirements, booth fee, and next event date.",
+    "source_url": "https://www.ltzinefest.org/applications",
+    "source_link": "https://www.ltzinefest.org/applications",
+    "official_website": "https://www.ltzinefest.org/applications",
+    "submission_page": "https://www.ltzinefest.org/applications",
+    "deadline": "Check source",
+    "fees": "",
+    "difficulty": "medium",
+    "three_bullets": [
+      "Source category: Art Book & Zine Fairs.",
+      "Search group: art_book_zine_fairs.",
+      "First action: Check exhibitor/application requirements, booth fee, and next event date.",
+      "Detected signals: deadline signal, application/form signal."
+    ],
+    "career_category": "zines",
+    "opportunity_type": "art_book_zine_fairs",
+    "status": "closed",
+    "confidence": 82,
+    "import_source": "multi_ingress_sprint_v1",
+    "source_candidate_id": "MULTI-0062",
+    "imported_at": "2026-05-31",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.ltzinefest.org/applications",
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Contact. Needs checking: Fees.",
+    "verification_status": "partial",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": true,
+    "fees_verified": false,
+    "deadline_verified": true,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "fees"
+    ],
+    "category_label": "Markets / Popups / Booths",
+    "painting_priority_score": 9.0,
+    "watercolor_fit_hits": [
+      "zine"
+    ],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 9.88,
+    "truth_alignment_verdict": "hidden",
+    "truth_alignment_reasons": [
+      "hidden recommendation"
+    ],
+    "truth_aligned_score": 2.5,
+    "score_capped_by_truth_checker": true,
+    "native_medium": "mixed",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": [
+        "zine"
+      ]
+    },
+    "translation_candidate": true,
+    "translation_candidate_hits": [
+      "zine"
+    ],
+    "source_purity_score": 2.5,
+    "source_purity_reason": "hidden/rejected",
+    "dna_adjusted_score": 9.6,
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "community_local_visibility",
+        "title": "Community / Local Visibility",
+        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+        "score": 4,
+        "hits": [
+          "market",
+          "popup"
+        ],
+        "best_formats": [
+          "cafe wall",
+          "market",
+          "popup",
+          "group show",
+          "local event"
+        ]
+      },
+      {
+        "body_id": "artist_book_printed_matter",
+        "title": "Artist Book / Printed Matter",
+        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+        "score": 2,
+        "hits": [
+          "zine"
+        ],
+        "best_formats": [
+          "book fair",
+          "zine fair",
+          "bookstore",
+          "small press",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 1,
+        "hits": [],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Community / Local Visibility",
+    "portfolio_match_score": 4,
+    "submission_strategy": "publication_pitch",
+    "submission_tone": "focused and editorial",
+    "uncapped_score": 9.6,
+    "score_sanity_note": "Score capped at 8.8 because source/verification strength is limited.",
+    "visual_fit_score": 1.3,
+    "visual_fit_hits": [
+      "zine"
+    ],
+    "career_buckets": [
+      "high_confidence",
+      "publication_targets",
+      "book_zine_targets",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 9.96,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 1,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "publication_ecosystem",
+    "curator_patterns": [],
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 8.2 due to verification strength.",
+    "cycle_note": "Application deadline was 2026-01-31 (Eventeny confirmed) — check for 2027 cycle",
+    "next_cycle_check": "2026-11-01",
+    "email": "lt.zinefest@gmail.com"
+  },
+  {
     "title": "Center for Book Arts Opportunities",
     "organization": "Center for Book Arts",
     "category": "global_book_arts",
@@ -5868,7 +6211,7 @@
     "confidence_level": "Medium",
     "one_sentence": "International artist book / watercolor sequence platform and community focused on self-published watercolor / works on paper, books, workshops, and artist visibility.",
     "why_this_fits_short": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.",
-    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.",
+    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.",
     "source_url": "https://selfpublishbehappy.com/",
     "submission_page": "",
     "fees": "",
@@ -6083,12 +6426,12 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from Der Greif. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper, watercolor / works on paper",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: open call, portfolio review for works on paper for works on paper for works on paper, watercolor / works on paper"
+      "Keyword hits: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
     ],
     "fit_keyword_hits": [
       "open call",
@@ -6127,10 +6470,10 @@
       "paper"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 8.96,
+    "watercolor_adjusted_score": 9.96,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 8.96,
+    "truth_aligned_score": 9.96,
     "score_capped_by_truth_checker": false,
     "native_medium": "photography",
     "native_medium_hits": {
@@ -6149,7 +6492,7 @@
     ],
     "source_purity_score": 7.2,
     "source_purity_reason": "photography source capped as translation candidate",
-    "dna_adjusted_score": 9.12,
+    "dna_adjusted_score": 9.92,
     "dna_score_delta": 0.24,
     "dna_match_hits": [
       "soft color restraint",
@@ -6214,167 +6557,6 @@
     ],
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Capped at 7.6 due to verification strength."
-  },
-  {
-    "title": "Applications — Little Tokyo Zine Fest",
-    "name": "Applications — Little Tokyo Zine Fest",
-    "organization": "Applications — Little Tokyo Zine Fest",
-    "category": "fair_popup",
-    "city": "Japan / Tokyo / Online",
-    "overall_score": 8.2,
-    "one_sentence": "Art Book & Zine Fairs lead found through targeted research; useful if requirements and fit check out.",
-    "suggested_display_summary": "Art Book & Zine Fairs lead. Needs source review for details.",
-    "why_this_fits_short": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-    "quick_action": "Check exhibitor/application requirements, booth fee, and next event date.",
-    "source_url": "https://www.ltzinefest.org/applications",
-    "source_link": "https://www.ltzinefest.org/applications",
-    "official_website": "https://www.ltzinefest.org/applications",
-    "submission_page": "https://www.ltzinefest.org/applications",
-    "deadline": "Check source",
-    "fees": "",
-    "difficulty": "medium",
-    "three_bullets": [
-      "Source category: Art Book & Zine Fairs.",
-      "Search group: art_book_zine_fairs.",
-      "First action: Check exhibitor/application requirements, booth fee, and next event date.",
-      "Detected signals: deadline signal, application/form signal."
-    ],
-    "career_category": "zines",
-    "opportunity_type": "art_book_zine_fairs",
-    "status": "research_next",
-    "confidence": 82,
-    "import_source": "multi_ingress_sprint_v1",
-    "source_candidate_id": "MULTI-0062",
-    "imported_at": "2026-05-31",
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://www.ltzinefest.org/applications",
-    "confidence_level": "High",
-    "verification_summary": "Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": true,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": true,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "fees",
-      "contact"
-    ],
-    "category_label": "Markets / Popups / Booths",
-    "painting_priority_score": 9.0,
-    "watercolor_fit_hits": [
-      "zine"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.88,
-    "truth_alignment_verdict": "ok",
-    "truth_alignment_reasons": [],
-    "truth_aligned_score": 9.88,
-    "score_capped_by_truth_checker": false,
-    "native_medium": "mixed",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": [
-        "zine"
-      ]
-    },
-    "translation_candidate": true,
-    "translation_candidate_hits": [
-      "zine"
-    ],
-    "source_purity_score": 9.0,
-    "source_purity_reason": "mixed medium / possible translation",
-    "dna_adjusted_score": 9.6,
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [
-      {
-        "body_id": "community_local_visibility",
-        "title": "Community / Local Visibility",
-        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
-        "score": 4,
-        "hits": [
-          "market",
-          "popup"
-        ],
-        "best_formats": [
-          "cafe wall",
-          "market",
-          "popup",
-          "group show",
-          "local event"
-        ]
-      },
-      {
-        "body_id": "artist_book_printed_matter",
-        "title": "Artist Book / Printed Matter",
-        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
-        "score": 2,
-        "hits": [
-          "zine"
-        ],
-        "best_formats": [
-          "book fair",
-          "zine fair",
-          "bookstore",
-          "small press",
-          "publication"
-        ]
-      },
-      {
-        "body_id": "architecture_memory",
-        "title": "Architecture / Memory / Place",
-        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
-        "score": 1,
-        "hits": [],
-        "best_formats": [
-          "photobook",
-          "zine",
-          "small gallery",
-          "artist statement",
-          "publication"
-        ]
-      }
-    ],
-    "recommended_body_of_work": "Community / Local Visibility",
-    "portfolio_match_score": 4,
-    "submission_strategy": "publication_pitch",
-    "submission_tone": "focused and editorial",
-    "uncapped_score": 9.6,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
-    "visual_fit_score": 1.3,
-    "visual_fit_hits": [
-      "zine"
-    ],
-    "career_buckets": [
-      "high_confidence",
-      "publication_targets",
-      "book_zine_targets",
-      "easy_wins",
-      "relationship_builders",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 9.65,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 1,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "publication_ecosystem",
-    "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed",
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 8.2 due to verification strength."
   },
   {
     "title": "Youkobo Art Space",
@@ -6582,10 +6764,10 @@
       "residency"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.9,
+    "watercolor_adjusted_score": 10,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 9.9,
+    "truth_aligned_score": 10.0,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -6729,7 +6911,7 @@
       "paper"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 8.98,
+    "watercolor_adjusted_score": 10,
     "truth_alignment_verdict": "capped_context_mismatch",
     "truth_alignment_reasons": [
       "negative explanation: it doesn't, would pull you away",
@@ -7075,7 +7257,7 @@
       "bookstore"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.62,
+    "watercolor_adjusted_score": 10,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: unclear"
@@ -7100,7 +7282,7 @@
     ],
     "source_purity_score": 6.75,
     "source_purity_reason": "mixed medium / possible translation",
-    "dna_adjusted_score": 9.86,
+    "dna_adjusted_score": 9.76,
     "dna_score_delta": 0.24,
     "dna_match_hits": [
       "artist book",
@@ -7190,6 +7372,120 @@
     "score_sanity_note": "Score capped at 8.0 because source/verification strength is limited.",
     "pre_final_guard_score": 7.9,
     "final_score_guard_note": "Capped at 6.5 due to verification strength."
+  },
+  {
+    "title": "SCCP Guest Artist",
+    "name": "SCCP Guest Artist",
+    "organization": "SCCP Guest Artist",
+    "category": "residency",
+    "city": "Japan / Tokyo / Online",
+    "overall_score": 8.8,
+    "one_sentence": "SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.",
+    "suggested_display_summary": "SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.",
+    "why_this_fits_short": "SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.",
+    "quick_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+    "source_url": "https://www.sccp.jp/air-en/application/guest-artist/",
+    "source_link": "https://www.sccp.jp/air-en/application/guest-artist/",
+    "official_website": "https://www.sccp.jp/air-en/application/guest-artist/",
+    "submission_page": "https://www.sccp.jp/air-en/application/guest-artist/",
+    "deadline": "Check source",
+    "fees": "",
+    "difficulty": "medium",
+    "three_bullets": [
+      "Fit score: 78.",
+      "Actionability score: 100.",
+      "Risk score: 11.",
+      "Risk: Only one source found so far."
+    ],
+    "career_category": "residencies",
+    "opportunity_type": "enriched_opportunity",
+    "status": "closed",
+    "fit_score": 78,
+    "actionability_score": 100,
+    "risk_score": 11,
+    "import_source": "opportunity_intelligence_sprint_v1",
+    "imported_at": "2026-05-31",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.sccp.jp/air-en/application/guest-artist/",
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Contact. Needs checking: Fees.",
+    "verification_status": "partial",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": true,
+    "fees_verified": false,
+    "deadline_verified": true,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "fees"
+    ],
+    "category_label": "Residencies / Longer Projects",
+    "painting_priority_score": 7.0,
+    "watercolor_fit_hits": [
+      "residency"
+    ],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 9.25,
+    "truth_alignment_verdict": "hidden",
+    "truth_alignment_reasons": [
+      "hidden recommendation"
+    ],
+    "truth_aligned_score": 2.5,
+    "score_capped_by_truth_checker": true,
+    "native_medium": "unknown",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": []
+    },
+    "translation_candidate": false,
+    "translation_candidate_hits": [],
+    "source_purity_score": 2.5,
+    "source_purity_reason": "hidden/rejected",
+    "dna_adjusted_score": 8.97,
+    "dna_score_delta": -0.23,
+    "dna_match_hits": [
+      "artist book",
+      "anti:single-image contest logic unless the image is unusually strong"
+    ],
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [],
+    "recommended_body_of_work": "General Portfolio",
+    "portfolio_match_score": 0,
+    "submission_strategy": "formal_application",
+    "submission_tone": "clear and professional",
+    "uncapped_score": 9.6,
+    "score_sanity_note": "Score capped at 8.8 because source/verification strength is limited.",
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "high_confidence",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 9.5,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 8.2 due to verification strength.",
+    "cycle_note": "Application closed October 31 2025 — check for next annual cycle",
+    "next_cycle_check": "2026-08-01",
+    "email": "air.shigaraki@sccp.jp"
   },
   {
     "title": "Printed Matter Art Book Fairs",
@@ -7430,10 +7726,10 @@
       "contact"
     ],
     "category_label": "Markets / Popups / Booths",
-    "painting_priority_score": 4.81,
+    "painting_priority_score": 6.4,
     "watercolor_fit_hits": [],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 6.49,
+    "watercolor_adjusted_score": 7.89,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: unclear"
@@ -7450,7 +7746,7 @@
     "translation_candidate_hits": [],
     "source_purity_score": 6.4,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 7.89,
+    "dna_adjusted_score": 8.89,
     "dna_score_delta": -0.57,
     "dna_match_hits": [
       "plants in urban/domestic spaces",
@@ -7737,10 +8033,10 @@
       "contemporary art"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 10,
+    "watercolor_adjusted_score": 9.68,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 10.0,
+    "truth_aligned_score": 9.68,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -7815,6 +8111,137 @@
     "final_score_guard_note": "Capped at 7.6 due to verification strength."
   },
   {
+    "title": "AIT Residency",
+    "category": "residency",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 7.6,
+    "difficulty": "Very High",
+    "recommendation_strength": "Low - Information insufficient, likely poor fit",
+    "one_sentence": "Tokyo contemporary art residency with unclear programming details and likely conceptual art emphasis unsuited to your practice approach.",
+    "three_bullets": [
+      "Website provides minimal residency details - would require significant research to understand fit",
+      "AIT known for international contemporary discourse and theory-heavy programming",
+      "Tokyo location less aligned with traditional architecture focus than Kyoto opportunities"
+    ],
+    "quick_action": "Skip unless you specifically want Tokyo contemporary art network exposure and are prepared for conceptual framework expectations",
+    "why_this_fits_short": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 0,
+    "emotional_fit": 3,
+    "submission_score": 2,
+    "official_website": "https://www.a-i-t.net/en/",
+    "submission_page": "https://www.a-i-t.net/en/",
+    "source_url": "https://www.a-i-t.net/en/",
+    "organization": "Arts Initiative Tokyo",
+    "tags": [
+      "secondary",
+      "",
+      "Very High"
+    ],
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.a-i-t.net/en/",
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Residencies / Longer Projects",
+    "painting_priority_score": 6.4,
+    "watercolor_fit_hits": [
+      "residency",
+      "contemporary art"
+    ],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 9.67,
+    "truth_alignment_verdict": "capped_negative_explanation",
+    "truth_alignment_reasons": [
+      "negative explanation: doesn't fit, unclear, lack of clear"
+    ],
+    "truth_aligned_score": 6.4,
+    "score_capped_by_truth_checker": true,
+    "native_medium": "unknown",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": []
+    },
+    "translation_candidate": false,
+    "translation_candidate_hits": [],
+    "source_purity_score": 6.4,
+    "source_purity_reason": "unknown native medium capped",
+    "dna_adjusted_score": 9.11,
+    "dna_score_delta": -0.35,
+    "dna_match_hits": [
+      "anti:heavy conceptual overstatement"
+    ],
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 1,
+        "hits": [
+          "architecture"
+        ],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Architecture / Memory / Place",
+    "portfolio_match_score": 1,
+    "submission_strategy": "quiet_high_prestige",
+    "submission_tone": "restrained and confident",
+    "visual_fit_score": 0.45,
+    "visual_fit_hits": [
+      "memory"
+    ],
+    "career_buckets": [
+      "high_confidence",
+      "global_reach",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 9.46,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "research_needed",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
+    "uncapped_score": 9.0,
+    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited."
+  },
+  {
     "title": "Tokyo Arts and Space",
     "category": "institutional",
     "city": "Tokyo",
@@ -7867,7 +8294,7 @@
     "painting_priority_score": 6.4,
     "watercolor_fit_hits": [],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.71,
+    "watercolor_adjusted_score": 9.11,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: unclear, requires significant investigative work"
@@ -7956,137 +8383,6 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Capped at 7.6 due to verification strength."
-  },
-  {
-    "title": "AIT Residency",
-    "category": "residency",
-    "city": "Tokyo",
-    "priority": "C",
-    "overall_score": 7.6,
-    "difficulty": "Very High",
-    "recommendation_strength": "Low - Information insufficient, likely poor fit",
-    "one_sentence": "Tokyo contemporary art residency with unclear programming details and likely conceptual art emphasis unsuited to your practice approach.",
-    "three_bullets": [
-      "Website provides minimal residency details - would require significant research to understand fit",
-      "AIT known for international contemporary discourse and theory-heavy programming",
-      "Tokyo location less aligned with traditional architecture focus than Kyoto opportunities"
-    ],
-    "quick_action": "Skip unless you specifically want Tokyo contemporary art network exposure and are prepared for conceptual framework expectations",
-    "why_this_fits_short": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
-    "deadline": "Unknown",
-    "fees": "Unknown",
-    "predatory_risk": 0,
-    "emotional_fit": 3,
-    "submission_score": 2,
-    "official_website": "https://www.a-i-t.net/en/",
-    "submission_page": "https://www.a-i-t.net/en/",
-    "source_url": "https://www.a-i-t.net/en/",
-    "organization": "Arts Initiative Tokyo",
-    "tags": [
-      "secondary",
-      "",
-      "Very High"
-    ],
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://www.a-i-t.net/en/",
-    "confidence_level": "High",
-    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": true,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": false,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Residencies / Longer Projects",
-    "painting_priority_score": 6.4,
-    "watercolor_fit_hits": [
-      "residency",
-      "contemporary art"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 8.27,
-    "truth_alignment_verdict": "capped_negative_explanation",
-    "truth_alignment_reasons": [
-      "negative explanation: doesn't fit, unclear, lack of clear"
-    ],
-    "truth_aligned_score": 6.4,
-    "score_capped_by_truth_checker": true,
-    "native_medium": "unknown",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 6.4,
-    "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.11,
-    "dna_score_delta": -0.35,
-    "dna_match_hits": [
-      "anti:heavy conceptual overstatement"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [
-      {
-        "body_id": "architecture_memory",
-        "title": "Architecture / Memory / Place",
-        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
-        "score": 1,
-        "hits": [
-          "architecture"
-        ],
-        "best_formats": [
-          "photobook",
-          "zine",
-          "small gallery",
-          "artist statement",
-          "publication"
-        ]
-      }
-    ],
-    "recommended_body_of_work": "Architecture / Memory / Place",
-    "portfolio_match_score": 1,
-    "submission_strategy": "quiet_high_prestige",
-    "submission_tone": "restrained and confident",
-    "visual_fit_score": 0.45,
-    "visual_fit_hits": [
-      "memory"
-    ],
-    "career_buckets": [
-      "high_confidence",
-      "global_reach",
-      "easy_wins",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 9.46,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed",
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
-    "uncapped_score": 9.0,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited."
   },
   {
     "title": "Home - Printed Matter",
@@ -8384,7 +8680,7 @@
       "paper"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.8,
+    "watercolor_adjusted_score": 9.19,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: it doesn't, undermine your positioning"
@@ -8403,7 +8699,7 @@
     ],
     "source_purity_score": 6.4,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.35,
+    "dna_adjusted_score": 9.35,
     "dna_score_delta": 0.02,
     "dna_match_hits": [
       "plants in urban/domestic spaces",
@@ -8556,10 +8852,10 @@
     "painting_priority_score": 7.0,
     "watercolor_fit_hits": [],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 10,
+    "watercolor_adjusted_score": 9.31,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 10.0,
+    "truth_aligned_score": 9.31,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -8724,7 +9020,7 @@
     "painting_priority_score": 6.4,
     "watercolor_fit_hits": [],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.52,
+    "watercolor_adjusted_score": 8.72,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: unclear"
@@ -9034,10 +9330,10 @@
     "painting_priority_score": 5.5,
     "watercolor_fit_hits": [],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.67,
+    "watercolor_adjusted_score": 9.07,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 7.67,
+    "truth_aligned_score": 9.07,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -9160,7 +9456,7 @@
     "painting_priority_score": 5.8,
     "watercolor_fit_hits": [],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 8.67,
+    "watercolor_adjusted_score": 9.07,
     "truth_alignment_verdict": "capped_market_format",
     "truth_alignment_reasons": [
       "negative explanation: commercial pop-up format conflicts",
@@ -9238,137 +9534,6 @@
     "final_score_guard_note": "Capped at 7.6 due to verification strength."
   },
   {
-    "title": "Cafe Cross Point",
-    "category": "cafe_gallery",
-    "city": "Koenji",
-    "priority": "C",
-    "overall_score": 7.6,
-    "difficulty": "Low",
-    "recommendation_strength": "Skip",
-    "one_sentence": "A Koenji cafe gallery with minimal verifiable information and unclear exhibition standards or curatorial vision.",
-    "three_bullets": [
-      "Very limited institutional weight; primarily a cafe with wall space",
-      "May offer low-pressure exhibition experience in culturally appropriate Tokyo neighborhood",
-      "Insufficient information available to assess curatorial quality or audience engagement"
-    ],
-    "quick_action": "Visit website to verify if they actually host curated exhibitions vs. casual rotating decor",
-    "why_this_fits_short": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
-    "deadline": "Unknown",
-    "fees": "Unknown",
-    "predatory_risk": 2,
-    "emotional_fit": 7,
-    "submission_score": 4,
-    "official_website": "https://cafecrosspoint.jp/",
-    "submission_page": "https://cafecrosspoint.jp/",
-    "source_url": "https://cafecrosspoint.jp/",
-    "organization": "Cafe Cross Point",
-    "tags": [
-      "secondary",
-      "",
-      "Low"
-    ],
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://cafecrosspoint.jp/",
-    "confidence_level": "High",
-    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": true,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": false,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Cafe / Local Wall Spaces",
-    "painting_priority_score": 6.4,
-    "watercolor_fit_hits": [
-      "gallery"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.95,
-    "truth_alignment_verdict": "capped_negative_explanation",
-    "truth_alignment_reasons": [
-      "negative explanation: unclear"
-    ],
-    "truth_aligned_score": 6.4,
-    "score_capped_by_truth_checker": true,
-    "native_medium": "unknown",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 6.4,
-    "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.07,
-    "dna_score_delta": -0.23,
-    "dna_match_hits": [
-      "bookstore/gallery hybrid presentation",
-      "anti:spectacle-driven exhibition"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [
-      {
-        "body_id": "community_local_visibility",
-        "title": "Community / Local Visibility",
-        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
-        "score": 3,
-        "hits": [
-          "cafe",
-          "local",
-          "wall"
-        ],
-        "best_formats": [
-          "cafe wall",
-          "market",
-          "popup",
-          "group show",
-          "local event"
-        ]
-      }
-    ],
-    "recommended_body_of_work": "Community / Local Visibility",
-    "portfolio_match_score": 3,
-    "submission_strategy": "soft_intro",
-    "submission_tone": "gentle and curious",
-    "visual_fit_score": 0.0,
-    "visual_fit_hits": [],
-    "career_buckets": [
-      "high_confidence",
-      "easy_wins",
-      "relationship_builders",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 9.3,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "relationship_builders",
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
-    "uncapped_score": 9.0,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited."
-  },
-  {
     "title": "Cafe Mame-Hico",
     "category": "cafe_gallery",
     "city": "Tokyo",
@@ -9418,12 +9583,12 @@
       "contact"
     ],
     "category_label": "Cafe / Local Wall Spaces",
-    "painting_priority_score": 5.67,
+    "painting_priority_score": 6.4,
     "watercolor_fit_hits": [
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.07,
+    "watercolor_adjusted_score": 8.47,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: unclear"
@@ -9440,7 +9605,7 @@
     "translation_candidate_hits": [],
     "source_purity_score": 6.4,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.19,
+    "dna_adjusted_score": 9.19,
     "dna_score_delta": -0.11,
     "dna_match_hits": [
       "small press sequence",
@@ -9550,15 +9715,15 @@
       "contact"
     ],
     "category_label": "Cafe / Local Wall Spaces",
-    "painting_priority_score": 5.55,
+    "painting_priority_score": 6.95,
     "watercolor_fit_hits": [
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 6.95,
+    "watercolor_adjusted_score": 8.35,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 6.95,
+    "truth_aligned_score": 8.35,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -9568,9 +9733,9 @@
     },
     "translation_candidate": false,
     "translation_candidate_hits": [],
-    "source_purity_score": 6.95,
+    "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.07,
+    "dna_adjusted_score": 9.07,
     "dna_score_delta": -0.23,
     "dna_match_hits": [
       "bookstore/gallery hybrid presentation",
@@ -9630,6 +9795,137 @@
     "final_score_guard_note": "Capped at 7.6 due to verification strength."
   },
   {
+    "title": "Cafe Cross Point",
+    "category": "cafe_gallery",
+    "city": "Koenji",
+    "priority": "C",
+    "overall_score": 7.6,
+    "difficulty": "Low",
+    "recommendation_strength": "Skip",
+    "one_sentence": "A Koenji cafe gallery with minimal verifiable information and unclear exhibition standards or curatorial vision.",
+    "three_bullets": [
+      "Very limited institutional weight; primarily a cafe with wall space",
+      "May offer low-pressure exhibition experience in culturally appropriate Tokyo neighborhood",
+      "Insufficient information available to assess curatorial quality or audience engagement"
+    ],
+    "quick_action": "Visit website to verify if they actually host curated exhibitions vs. casual rotating decor",
+    "why_this_fits_short": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 2,
+    "emotional_fit": 7,
+    "submission_score": 4,
+    "official_website": "https://cafecrosspoint.jp/",
+    "submission_page": "https://cafecrosspoint.jp/",
+    "source_url": "https://cafecrosspoint.jp/",
+    "organization": "Cafe Cross Point",
+    "tags": [
+      "secondary",
+      "",
+      "Low"
+    ],
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://cafecrosspoint.jp/",
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Cafe / Local Wall Spaces",
+    "painting_priority_score": 6.4,
+    "watercolor_fit_hits": [
+      "gallery"
+    ],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 9.35,
+    "truth_alignment_verdict": "capped_negative_explanation",
+    "truth_alignment_reasons": [
+      "negative explanation: unclear"
+    ],
+    "truth_aligned_score": 6.4,
+    "score_capped_by_truth_checker": true,
+    "native_medium": "unknown",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": []
+    },
+    "translation_candidate": false,
+    "translation_candidate_hits": [],
+    "source_purity_score": 6.4,
+    "source_purity_reason": "unknown native medium capped",
+    "dna_adjusted_score": 9.07,
+    "dna_score_delta": -0.23,
+    "dna_match_hits": [
+      "bookstore/gallery hybrid presentation",
+      "anti:spectacle-driven exhibition"
+    ],
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "community_local_visibility",
+        "title": "Community / Local Visibility",
+        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+        "score": 3,
+        "hits": [
+          "cafe",
+          "local",
+          "wall"
+        ],
+        "best_formats": [
+          "cafe wall",
+          "market",
+          "popup",
+          "group show",
+          "local event"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Community / Local Visibility",
+    "portfolio_match_score": 3,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "high_confidence",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 9.3,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "relationship_builders",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
+    "uncapped_score": 9.0,
+    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited."
+  },
+  {
     "title": "Cafe Gallery HATTIFNATT",
     "category": "cafe_gallery",
     "city": "Koenji",
@@ -9679,12 +9975,12 @@
       "contact"
     ],
     "category_label": "Cafe / Local Wall Spaces",
-    "painting_priority_score": 5.32,
+    "painting_priority_score": 6.4,
     "watercolor_fit_hits": [
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 6.72,
+    "watercolor_adjusted_score": 8.12,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: unclear"
@@ -9701,7 +9997,7 @@
     "translation_candidate_hits": [],
     "source_purity_score": 6.4,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 7.84,
+    "dna_adjusted_score": 8.84,
     "dna_score_delta": -0.46,
     "dna_match_hits": [
       "small press sequence",
@@ -9812,12 +10108,12 @@
       "contact"
     ],
     "category_label": "Galleries / Exhibition Calls",
-    "painting_priority_score": 5.79,
+    "painting_priority_score": 6.4,
     "watercolor_fit_hits": [
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.19,
+    "watercolor_adjusted_score": 8.59,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: it doesn't, doesn't fit, unlikely"
@@ -9834,7 +10130,7 @@
     "translation_candidate_hits": [],
     "source_purity_score": 6.4,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.31,
+    "dna_adjusted_score": 9.31,
     "dna_score_delta": 0.01,
     "dna_match_hits": [
       "plants in urban/domestic spaces",
@@ -9944,16 +10240,16 @@
       "contact"
     ],
     "category_label": "Galleries / Exhibition Calls",
-    "painting_priority_score": 6.42,
+    "painting_priority_score": 7.0,
     "watercolor_fit_hits": [
       "gallery",
       "contemporary art"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.82,
+    "watercolor_adjusted_score": 9.22,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 7.82,
+    "truth_aligned_score": 9.22,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -9965,7 +10261,7 @@
     "translation_candidate_hits": [],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.66,
+    "dna_adjusted_score": 9.66,
     "dna_score_delta": 0.36,
     "dna_match_hits": [
       "human trace rather than direct portraiture",
@@ -10079,10 +10375,10 @@
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 8.42,
+    "watercolor_adjusted_score": 9.82,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 8.42,
+    "truth_aligned_score": 9.82,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -10132,6 +10428,117 @@
     "final_score_guard_note": "Capped at 7.6 due to verification strength.",
     "uncapped_score": 9.0,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited."
+  },
+  {
+    "title": "VACANT",
+    "category": "event_space",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 7.6,
+    "difficulty": "Indeterminate - no visible application pathway",
+    "recommendation_strength": "Skip unless specific intel emerges",
+    "one_sentence": "VACANT is a Tokyo event/gallery/pop-up space with no visible artist application process or programming information.",
+    "three_bullets": [
+      "Website exists but shows no open calls, exhibition schedules, or artist program details",
+      "Event space categorization suggests commercial venue use rather than curated artist exhibitions",
+      "Would require cold outreach to determine if artist opportunities exist, with unclear odds of response or fit"
+    ],
+    "quick_action": "Archive unless you receive direct recommendation from artist who exhibited there successfully",
+    "why_this_fits_short": "Tokyo location theoretically aligns with Asia-Pacific focus, but lack of visible programming makes actual fit impossible to assess",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 4,
+    "emotional_fit": 3,
+    "submission_score": 1,
+    "official_website": "https://www.vacant.vc/",
+    "submission_page": "https://www.vacant.vc/",
+    "source_url": "https://www.vacant.vc/",
+    "organization": "VACANT",
+    "tags": [
+      "secondary",
+      "",
+      "Indeterminate - no visible application pathway"
+    ],
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.vacant.vc/",
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Artist Spaces",
+    "painting_priority_score": 6.4,
+    "watercolor_fit_hits": [
+      "gallery"
+    ],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 8.82,
+    "truth_alignment_verdict": "capped_negative_explanation",
+    "truth_alignment_reasons": [
+      "negative explanation: unclear"
+    ],
+    "truth_aligned_score": 6.4,
+    "score_capped_by_truth_checker": true,
+    "native_medium": "unknown",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": []
+    },
+    "translation_candidate": false,
+    "translation_candidate_hits": [],
+    "source_purity_score": 6.4,
+    "source_purity_reason": "unknown native medium capped",
+    "dna_adjusted_score": 9.54,
+    "dna_score_delta": 0.24,
+    "dna_match_hits": [
+      "artist book",
+      "bookstore/gallery hybrid presentation"
+    ],
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [],
+    "recommended_body_of_work": "General Portfolio",
+    "portfolio_match_score": 0,
+    "submission_strategy": "quiet_high_prestige",
+    "submission_tone": "restrained and confident",
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "high_confidence",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 9.3,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "research_needed",
+    "uncapped_score": 9.0,
+    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength."
   },
   {
     "title": "Gallery IRO",
@@ -10188,7 +10595,7 @@
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 8.3,
+    "watercolor_adjusted_score": 9.7,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: unclear"
@@ -10298,7 +10705,7 @@
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 8.19,
+    "watercolor_adjusted_score": 9.59,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: not strategic, unlikely"
@@ -10358,117 +10765,6 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited."
   },
   {
-    "title": "VACANT",
-    "category": "event_space",
-    "city": "Tokyo",
-    "priority": "C",
-    "overall_score": 7.6,
-    "difficulty": "Indeterminate - no visible application pathway",
-    "recommendation_strength": "Skip unless specific intel emerges",
-    "one_sentence": "VACANT is a Tokyo event/gallery/pop-up space with no visible artist application process or programming information.",
-    "three_bullets": [
-      "Website exists but shows no open calls, exhibition schedules, or artist program details",
-      "Event space categorization suggests commercial venue use rather than curated artist exhibitions",
-      "Would require cold outreach to determine if artist opportunities exist, with unclear odds of response or fit"
-    ],
-    "quick_action": "Archive unless you receive direct recommendation from artist who exhibited there successfully",
-    "why_this_fits_short": "Tokyo location theoretically aligns with Asia-Pacific focus, but lack of visible programming makes actual fit impossible to assess",
-    "deadline": "Unknown",
-    "fees": "Unknown",
-    "predatory_risk": 4,
-    "emotional_fit": 3,
-    "submission_score": 1,
-    "official_website": "https://www.vacant.vc/",
-    "submission_page": "https://www.vacant.vc/",
-    "source_url": "https://www.vacant.vc/",
-    "organization": "VACANT",
-    "tags": [
-      "secondary",
-      "",
-      "Indeterminate - no visible application pathway"
-    ],
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://www.vacant.vc/",
-    "confidence_level": "High",
-    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": true,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": false,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Artist Spaces",
-    "painting_priority_score": 6.02,
-    "watercolor_fit_hits": [
-      "gallery"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.42,
-    "truth_alignment_verdict": "capped_negative_explanation",
-    "truth_alignment_reasons": [
-      "negative explanation: unclear"
-    ],
-    "truth_aligned_score": 6.4,
-    "score_capped_by_truth_checker": true,
-    "native_medium": "unknown",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 6.4,
-    "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.54,
-    "dna_score_delta": 0.24,
-    "dna_match_hits": [
-      "artist book",
-      "bookstore/gallery hybrid presentation"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [],
-    "recommended_body_of_work": "General Portfolio",
-    "portfolio_match_score": 0,
-    "submission_strategy": "quiet_high_prestige",
-    "submission_tone": "restrained and confident",
-    "visual_fit_score": 0.0,
-    "visual_fit_hits": [],
-    "career_buckets": [
-      "high_confidence",
-      "easy_wins",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 9.3,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed",
-    "uncapped_score": 9.0,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 7.6 due to verification strength."
-  },
-  {
     "title": "Zushi Art Gallery",
     "category": "gallery",
     "city": "Kanagawa",
@@ -10518,12 +10814,12 @@
       "contact"
     ],
     "category_label": "Galleries / Exhibition Calls",
-    "painting_priority_score": 5.55,
+    "painting_priority_score": 6.4,
     "watercolor_fit_hits": [
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 6.95,
+    "watercolor_adjusted_score": 8.35,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: unclear, question mark"
@@ -10540,7 +10836,7 @@
     "translation_candidate_hits": [],
     "source_purity_score": 6.4,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.07,
+    "dna_adjusted_score": 9.07,
     "dna_score_delta": -0.23,
     "dna_match_hits": [
       "bookstore/gallery hybrid presentation",
@@ -10630,12 +10926,12 @@
       "contact"
     ],
     "category_label": "Galleries / Exhibition Calls",
-    "painting_priority_score": 5.2,
+    "painting_priority_score": 6.4,
     "watercolor_fit_hits": [
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 6.6,
+    "watercolor_adjusted_score": 8.0,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: it doesn't, unclear"
@@ -10652,7 +10948,7 @@
     "translation_candidate_hits": [],
     "source_purity_score": 6.4,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 7.72,
+    "dna_adjusted_score": 8.72,
     "dna_score_delta": -0.58,
     "dna_match_hits": [
       "bookstore/gallery hybrid presentation",
@@ -11270,7 +11566,7 @@
     ],
     "career_category": "zines",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "closed",
     "fit_score": 87,
     "actionability_score": 61,
     "risk_score": 26,
@@ -11304,11 +11600,12 @@
     ],
     "photo_only_risk_hits": [],
     "watercolor_adjusted_score": 10,
-    "truth_alignment_verdict": "capped_negative_explanation",
+    "truth_alignment_verdict": "hidden",
     "truth_alignment_reasons": [
-      "negative explanation: unclear"
+      "negative explanation: unclear",
+      "hidden recommendation"
     ],
-    "truth_aligned_score": 6.4,
+    "truth_aligned_score": 2.5,
     "score_capped_by_truth_checker": true,
     "native_medium": "mixed",
     "native_medium_hits": {
@@ -11323,8 +11620,8 @@
       "zine",
       "edition"
     ],
-    "source_purity_score": 6.75,
-    "source_purity_reason": "mixed medium / possible translation",
+    "source_purity_score": 2.5,
+    "source_purity_reason": "hidden/rejected",
     "dna_adjusted_score": 9.77,
     "dna_score_delta": 0.48,
     "dna_match_hits": [
@@ -11425,8 +11722,10 @@
     "curator_patterns": [],
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Capped at 7.6 due to verification strength.",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed"
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
+    "cycle_note": "Application deadline was Jan 31 2026 — past",
+    "next_cycle_check": "2026-11-01"
   },
   {
     "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
@@ -11959,7 +12258,7 @@
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.05,
+    "watercolor_adjusted_score": 9.85,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: question mark"
@@ -11978,7 +12277,7 @@
     ],
     "source_purity_score": 6.4,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.57,
+    "dna_adjusted_score": 9.47,
     "dna_score_delta": 0.25,
     "dna_match_hits": [
       "small businesses and local spaces",
@@ -12210,10 +12509,10 @@
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.8,
+    "watercolor_adjusted_score": 9.6,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 9.8,
+    "truth_aligned_score": 9.6,
     "score_capped_by_truth_checker": false,
     "native_medium": "painting",
     "native_medium_hits": {
@@ -12291,7 +12590,7 @@
     ],
     "career_category": "contests",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "check_manually",
     "fit_score": 100,
     "actionability_score": 100,
     "risk_score": 0,
@@ -12321,10 +12620,10 @@
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.8,
+    "watercolor_adjusted_score": 9.6,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 9.8,
+    "truth_aligned_score": 9.6,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -12372,7 +12671,8 @@
     "recommendation_visibility": "show",
     "exclusive_primary_bucket": "research_needed",
     "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 8.2 due to verification strength."
+    "final_score_guard_note": "Capped at 8.2 due to verification strength.",
+    "verification_note": "TOKAS runs rolling programs — Apr 30 2026 date may be past, check site for currently open calls"
   },
   {
     "title": "Belladonna Art Competition",
@@ -12430,10 +12730,10 @@
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.8,
+    "watercolor_adjusted_score": 9.6,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 9.8,
+    "truth_aligned_score": 9.6,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -12482,284 +12782,6 @@
     "exclusive_primary_bucket": "research_needed",
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Capped at 8.2 due to verification strength."
-  },
-  {
-    "title": "SCCP Guest Artist",
-    "name": "SCCP Guest Artist",
-    "organization": "SCCP Guest Artist",
-    "category": "residency",
-    "city": "Japan / Tokyo / Online",
-    "overall_score": 8.2,
-    "one_sentence": "SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.",
-    "suggested_display_summary": "SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.",
-    "why_this_fits_short": "SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.",
-    "quick_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
-    "source_url": "https://www.sccp.jp/air-en/application/guest-artist/",
-    "source_link": "https://www.sccp.jp/air-en/application/guest-artist/",
-    "official_website": "https://www.sccp.jp/air-en/application/guest-artist/",
-    "submission_page": "https://www.sccp.jp/air-en/application/guest-artist/",
-    "deadline": "Check source",
-    "fees": "",
-    "difficulty": "medium",
-    "three_bullets": [
-      "Fit score: 78.",
-      "Actionability score: 100.",
-      "Risk score: 11.",
-      "Risk: Only one source found so far."
-    ],
-    "career_category": "residencies",
-    "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
-    "fit_score": 78,
-    "actionability_score": 100,
-    "risk_score": 11,
-    "import_source": "opportunity_intelligence_sprint_v1",
-    "imported_at": "2026-05-31",
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://www.sccp.jp/air-en/application/guest-artist/",
-    "confidence_level": "High",
-    "verification_summary": "Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": true,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": true,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "fees",
-      "contact"
-    ],
-    "category_label": "Residencies / Longer Projects",
-    "painting_priority_score": 7.0,
-    "watercolor_fit_hits": [
-      "residency"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.45,
-    "truth_alignment_verdict": "ok",
-    "truth_alignment_reasons": [],
-    "truth_aligned_score": 9.45,
-    "score_capped_by_truth_checker": false,
-    "native_medium": "unknown",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 7.0,
-    "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.97,
-    "dna_score_delta": -0.23,
-    "dna_match_hits": [
-      "artist book",
-      "anti:single-image contest logic unless the image is unusually strong"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [],
-    "recommended_body_of_work": "General Portfolio",
-    "portfolio_match_score": 0,
-    "submission_strategy": "formal_application",
-    "submission_tone": "clear and professional",
-    "uncapped_score": 9.6,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
-    "visual_fit_score": 0.0,
-    "visual_fit_hits": [],
-    "career_buckets": [
-      "high_confidence",
-      "easy_wins",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 9.2,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed",
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 8.2 due to verification strength."
-  },
-  {
-    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-    "organization": "CuratorSpace",
-    "category": "zine_print",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 7.5,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "Medium",
-    "verification_status": "partial",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine, open call, residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: zine, open call, residency"
-    ],
-    "fit_keyword_hits": [
-      "zine",
-      "open call",
-      "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: residency, zine, call for, open call",
-      "weak: artist",
-      "has submission link"
-    ],
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "verification_summary": "Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "submission_process_known": true,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": false,
-    "source_quality": "official_or_listing",
-    "category_label": "Print / Zines / Bookstores",
-    "painting_priority_score": 7.5,
-    "watercolor_fit_hits": [
-      "residency",
-      "zine"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 8.06,
-    "truth_alignment_verdict": "ok",
-    "truth_alignment_reasons": [],
-    "truth_aligned_score": 8.06,
-    "score_capped_by_truth_checker": false,
-    "native_medium": "mixed",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": [
-        "zine",
-        "bookstore"
-      ]
-    },
-    "translation_candidate": true,
-    "translation_candidate_hits": [
-      "zine"
-    ],
-    "source_purity_score": 8.41,
-    "source_purity_reason": "mixed medium / possible translation",
-    "dna_adjusted_score": 7.62,
-    "dna_score_delta": 0.12,
-    "dna_match_hits": [
-      "artist book"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [
-      {
-        "body_id": "artist_book_printed_matter",
-        "title": "Artist Book / Printed Matter",
-        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
-        "score": 2,
-        "hits": [
-          "zine"
-        ],
-        "best_formats": [
-          "book fair",
-          "zine fair",
-          "bookstore",
-          "small press",
-          "publication"
-        ]
-      },
-      {
-        "body_id": "architecture_memory",
-        "title": "Architecture / Memory / Place",
-        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
-        "score": 1,
-        "hits": [],
-        "best_formats": [
-          "photobook",
-          "zine",
-          "small gallery",
-          "artist statement",
-          "publication"
-        ]
-      },
-      {
-        "body_id": "daily_poetic_photography",
-        "title": "Daily Poetic Photography",
-        "description": "A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.",
-        "score": 1,
-        "hits": [],
-        "best_formats": [
-          "online feature",
-          "zine",
-          "small publication",
-          "photobook",
-          "artist-run space"
-        ]
-      }
-    ],
-    "recommended_body_of_work": "Artist Book / Printed Matter",
-    "portfolio_match_score": 2,
-    "submission_strategy": "soft_intro",
-    "submission_tone": "gentle and curious",
-    "visual_fit_score": 3.25,
-    "visual_fit_hits": [
-      "artist book",
-      "artist_book",
-      "zine"
-    ],
-    "career_buckets": [
-      "career_changing",
-      "publication_targets",
-      "book_zine_targets",
-      "global_reach",
-      "easy_wins",
-      "relationship_builders",
-      "needs_research"
-    ],
-    "primary_bucket": "career_changing",
-    "differentiated_score": 9.12,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 1,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "publication_ecosystem",
-    "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets"
   },
   {
     "title": "POST",
@@ -12817,10 +12839,10 @@
       "bookstore"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 10,
+    "watercolor_adjusted_score": 9.42,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 10.0,
+    "truth_aligned_score": 9.42,
     "score_capped_by_truth_checker": false,
     "native_medium": "mixed",
     "native_medium_hits": {
@@ -13265,6 +13287,118 @@
     "curator_patterns": [],
     "recommendation_visibility": "show",
     "exclusive_primary_bucket": "research_needed",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength."
+  },
+  {
+    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+    "organization": "CuratorSpace",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 7.6,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "Medium",
+    "verification_status": "partial",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: open call",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: open call"
+    ],
+    "fit_keyword_hits": [
+      "open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: open call, call for",
+      "weak: artist",
+      "has submission link"
+    ],
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "verification_summary": "Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "category_label": "Photo Open Call",
+    "painting_priority_score": 5.4,
+    "watercolor_fit_hits": [],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 6.7,
+    "truth_alignment_verdict": "ok",
+    "truth_alignment_reasons": [],
+    "truth_aligned_score": 6.7,
+    "score_capped_by_truth_checker": false,
+    "native_medium": "photography",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [
+        "photo"
+      ],
+      "mixed": []
+    },
+    "translation_candidate": false,
+    "translation_candidate_hits": [],
+    "source_purity_score": 5.4,
+    "source_purity_reason": "photography-only source demoted",
+    "dna_adjusted_score": 8.1,
+    "dna_score_delta": 0.12,
+    "dna_match_hits": [
+      "artist book"
+    ],
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [],
+    "recommended_body_of_work": "General Portfolio",
+    "portfolio_match_score": 0,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "high_confidence",
+      "global_reach",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 9.08,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "research_needed",
+    "uncapped_score": 8.9,
+    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Capped at 7.6 due to verification strength."
   },
@@ -18058,13 +18192,13 @@
       "contact"
     ],
     "category_label": "Book Publishing",
-    "painting_priority_score": 6.83,
+    "painting_priority_score": 7.0,
     "watercolor_fit_hits": [],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.83,
+    "watercolor_adjusted_score": 8.73,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 7.83,
+    "truth_aligned_score": 8.73,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -18178,7 +18312,7 @@
       "illustration"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.47,
+    "watercolor_adjusted_score": 8.47,
     "truth_alignment_verdict": "capped_wrong_medium",
     "truth_alignment_reasons": [
       "photography-only risk: photovogue"
@@ -18202,7 +18336,7 @@
     ],
     "source_purity_score": 5.8,
     "source_purity_reason": "photography source capped as translation candidate",
-    "dna_adjusted_score": 8.19,
+    "dna_adjusted_score": 8.49,
     "dna_score_delta": -0.35,
     "dna_match_hits": [
       "anti:spectacle-driven exhibition"
@@ -18466,10 +18600,10 @@
     "painting_gate_hits": [
       "raw tokyo"
     ],
-    "painting_priority_score": 5.13,
+    "painting_priority_score": 5.5,
     "watercolor_fit_hits": [],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 6.53,
+    "watercolor_adjusted_score": 7.83,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: lack of clear"
@@ -18486,7 +18620,7 @@
     "translation_candidate_hits": [],
     "source_purity_score": 6.4,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 7.83,
+    "dna_adjusted_score": 7.73,
     "dna_score_delta": -0.81,
     "dna_match_hits": [
       "human trace rather than direct portraiture",
@@ -18614,15 +18748,15 @@
       "contact"
     ],
     "category_label": "Galleries / Exhibition Calls",
-    "painting_priority_score": 6.11,
+    "painting_priority_score": 7.0,
     "watercolor_fit_hits": [
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.51,
+    "watercolor_adjusted_score": 8.81,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 7.51,
+    "truth_aligned_score": 8.81,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -18634,7 +18768,7 @@
     "translation_candidate_hits": [],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.53,
+    "dna_adjusted_score": 8.43,
     "dna_score_delta": -0.11,
     "dna_match_hits": [
       "artist book",
@@ -18956,7 +19090,7 @@
     ],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.27,
+    "dna_adjusted_score": 9.18,
     "dna_score_delta": 0.72,
     "dna_match_hits": [
       "quiet streets and lived-in places",
@@ -19136,7 +19270,7 @@
     ],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.27,
+    "dna_adjusted_score": 9.18,
     "dna_score_delta": 0.72,
     "dna_match_hits": [
       "quiet streets and lived-in places",
@@ -19316,7 +19450,7 @@
     ],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.27,
+    "dna_adjusted_score": 9.18,
     "dna_score_delta": 0.72,
     "dna_match_hits": [
       "quiet streets and lived-in places",
@@ -19496,7 +19630,7 @@
     ],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.27,
+    "dna_adjusted_score": 9.18,
     "dna_score_delta": 0.72,
     "dna_match_hits": [
       "quiet streets and lived-in places",
@@ -19676,7 +19810,7 @@
     ],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.27,
+    "dna_adjusted_score": 9.18,
     "dna_score_delta": 0.72,
     "dna_match_hits": [
       "quiet streets and lived-in places",
@@ -19856,7 +19990,7 @@
     ],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.27,
+    "dna_adjusted_score": 9.18,
     "dna_score_delta": 0.72,
     "dna_match_hits": [
       "quiet streets and lived-in places",
@@ -20036,7 +20170,7 @@
     ],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.27,
+    "dna_adjusted_score": 9.18,
     "dna_score_delta": 0.72,
     "dna_match_hits": [
       "quiet streets and lived-in places",
@@ -20377,113 +20511,6 @@
     "curator_patterns": [],
     "pre_final_guard_score": 7.5,
     "final_score_guard_note": "Capped at 6.5 due to verification strength.",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed"
-  },
-  {
-    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
-    "organization": "CuratorSpace",
-    "category": "photo_open_call",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 7.5,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "Medium",
-    "verification_status": "partial",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: open call",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: open call"
-    ],
-    "fit_keyword_hits": [
-      "open call"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: open call, call for",
-      "weak: artist",
-      "has submission link"
-    ],
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
-    "verification_summary": "Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "submission_process_known": true,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": false,
-    "source_quality": "official_or_listing",
-    "category_label": "Photo Open Call",
-    "painting_priority_score": 5.4,
-    "watercolor_fit_hits": [],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 6.22,
-    "truth_alignment_verdict": "ok",
-    "truth_alignment_reasons": [],
-    "truth_aligned_score": 6.22,
-    "score_capped_by_truth_checker": false,
-    "native_medium": "photography",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [
-        "photo"
-      ],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 5.4,
-    "source_purity_reason": "photography-only source demoted",
-    "dna_adjusted_score": 6.7,
-    "dna_score_delta": 0.12,
-    "dna_match_hits": [
-      "artist book"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [],
-    "recommended_body_of_work": "General Portfolio",
-    "portfolio_match_score": 0,
-    "submission_strategy": "soft_intro",
-    "submission_tone": "gentle and curious",
-    "visual_fit_score": 0.0,
-    "visual_fit_hits": [],
-    "career_buckets": [
-      "global_reach",
-      "easy_wins",
-      "needs_research"
-    ],
-    "primary_bucket": "global_reach",
-    "differentiated_score": 7.98,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
     "recommendation_visibility": "show",
     "exclusive_primary_bucket": "research_needed"
   },
@@ -22942,7 +22969,7 @@
       "works on paper",
       "open exhibition"
     ],
-    "painting_priority_score": 9.6,
+    "painting_priority_score": 9.42,
     "photo_only_risk_hits": [],
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
@@ -23216,8 +23243,8 @@
     "translation_candidate": true,
     "overall_score": 6.5,
     "differentiated_score": 7.02,
-    "watercolor_adjusted_score": 8.52,
-    "truth_aligned_score": 8.52,
+    "watercolor_adjusted_score": 8.62,
+    "truth_aligned_score": 8.62,
     "source_purity_score": 7.0,
     "verification_bucket": "research_needed",
     "verification_status": "partial",
@@ -23453,7 +23480,7 @@
     "category": "gallery",
     "city": "Tokyo",
     "priority": "C",
-    "overall_score": 3.3,
+    "overall_score": 2.9000000000000004,
     "difficulty": "medium",
     "recommendation_strength": "weak_consider",
     "one_sentence": "Tokyo gallery/shop with art goods focus—uncertain positioning between commercial and exhibition space with limited information available.",
@@ -23498,15 +23525,15 @@
       "contact"
     ],
     "category_label": "Galleries / Exhibition Calls",
-    "painting_priority_score": 6.51,
+    "painting_priority_score": 6.11,
     "watercolor_fit_hits": [
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 6.11,
+    "watercolor_adjusted_score": 5.71,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 6.11,
+    "truth_aligned_score": 5.71,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -23516,9 +23543,9 @@
     },
     "translation_candidate": false,
     "translation_candidate_hits": [],
-    "source_purity_score": 6.11,
+    "source_purity_score": 5.71,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 5.43,
+    "dna_adjusted_score": 5.03,
     "dna_score_delta": -0.93,
     "dna_match_hits": [
       "bookstore/gallery hybrid presentation",
@@ -23576,7 +23603,7 @@
       "low_priority"
     ],
     "primary_bucket": "needs_research",
-    "differentiated_score": 5.96,
+    "differentiated_score": 5.56,
     "curator_personality_scores": {
       "quiet_poetic": 0,
       "independent_experimental": 0,
@@ -23594,7 +23621,7 @@
     "category": "gallery_event",
     "city": "Tokyo",
     "priority": "C",
-    "overall_score": 2.8,
+    "overall_score": 2.4000000000000004,
     "difficulty": "High uncertainty, medium-high friction",
     "recommendation_strength": "Not recommended - insufficient information and likely poor fit",
     "one_sentence": "Spiral is a prominent Tokyo design/art venue, but this listing lacks essential details and the space skews commercial/design-forward rather than fine art focused.",
@@ -23639,17 +23666,17 @@
       "contact"
     ],
     "category_label": "Galleries / Exhibition Calls",
-    "painting_priority_score": 6.4,
+    "painting_priority_score": 6.27,
     "watercolor_fit_hits": [
       "gallery"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 6.27,
+    "watercolor_adjusted_score": 5.87,
     "truth_alignment_verdict": "capped_negative_explanation",
     "truth_alignment_reasons": [
       "negative explanation: poor match, complete lack"
     ],
-    "truth_aligned_score": 6.27,
+    "truth_aligned_score": 5.87,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -23659,9 +23686,9 @@
     },
     "translation_candidate": false,
     "translation_candidate_hits": [],
-    "source_purity_score": 6.27,
+    "source_purity_score": 5.87,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 5.59,
+    "dna_adjusted_score": 5.19,
     "dna_score_delta": -0.11,
     "dna_match_hits": [
       "human trace rather than direct portraiture",
@@ -23701,7 +23728,7 @@
       "low_priority"
     ],
     "primary_bucket": "relationship_builders",
-    "differentiated_score": 5.3,
+    "differentiated_score": 4.9,
     "curator_personality_scores": {
       "quiet_poetic": 0,
       "independent_experimental": 0,

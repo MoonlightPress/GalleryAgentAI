@@ -167,15 +167,13 @@
         "why": "Possible fit based on link text: zine, open call"
       },
       {
-        "title": "Aperture | Photography",
+        "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
         "score": 8.6,
-        "differentiated_score": 10.13,
+        "differentiated_score": 10.22,
         "hits": [
-          "photobook",
-          "zine",
-          "artist book"
+          "zine"
         ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+        "why": "Possible fit based on link text: zine, open call, residency"
       }
     ]
   },
@@ -512,6 +510,15 @@
         "why": "Possible fit based on link text: zine, open call"
       },
       {
+        "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+        "score": 8.6,
+        "differentiated_score": 10.22,
+        "hits": [
+          "open call"
+        ],
+        "why": "Possible fit based on link text: zine, open call, residency"
+      },
+      {
         "title": "Aperture | Photography",
         "score": 8.6,
         "differentiated_score": 10.13,
@@ -546,7 +553,7 @@
           "portfolio review",
           "open call"
         ],
-        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper, watercolor / works on paper"
+        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
       },
       {
         "title": "reload Shimokitazawa",
@@ -556,15 +563,6 @@
           "urban vernacular"
         ],
         "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning."
-      },
-      {
-        "title": "BankART1929",
-        "score": 8.6,
-        "differentiated_score": 9.46,
-        "hits": [
-          "architecture"
-        ],
-        "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally."
       }
     ]
   }

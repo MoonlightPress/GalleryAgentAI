@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-01
 # Spiral
 
 ## 1. Quick Judgment
-**Fit score:** 4.2/10  
-**Fit band:** Possible, but not urgent  
+**Fit score:** 3.8/10  
+**Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  

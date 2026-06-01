@@ -1,6 +1,26 @@
 {
   "featured": [
     {
+      "title": "Applications — Little Tokyo Zine Fest",
+      "bucket": "easy_win",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
+      "title": "SCCP Guest Artist",
+      "bucket": "easy_win",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Residencies / Longer Projects",
+      "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
       "title": "Tokyo Art Book Fair",
       "bucket": "easy_win",
       "score": 8.6,
@@ -99,11 +119,13 @@
       "category": "Artist Spaces",
       "city": "Yokohama",
       "image": ""
-    },
+    }
+  ],
+  "easy_wins": [
     {
       "title": "Applications — Little Tokyo Zine Fest",
       "bucket": "easy_win",
-      "score": 8.6,
+      "score": 8.8,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
@@ -111,17 +133,15 @@
       "image": ""
     },
     {
-      "title": "Open Call for the International Creator Residency Program 2026",
+      "title": "SCCP Guest Artist",
       "bucket": "easy_win",
-      "score": 8.6,
+      "score": 8.8,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Residencies / Longer Projects",
       "city": "Japan / Tokyo / Online",
       "image": ""
-    }
-  ],
-  "easy_wins": [
+    },
     {
       "title": "Tokyo Art Book Fair",
       "bucket": "easy_win",
@@ -203,16 +223,6 @@
       "image": ""
     },
     {
-      "title": "Applications — Little Tokyo Zine Fest",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Markets / Popups / Booths",
-      "city": "Japan / Tokyo / Online",
-      "image": ""
-    },
-    {
       "title": "Open Call for the International Creator Residency Program 2026",
       "bucket": "easy_win",
       "score": 8.6,
@@ -224,16 +234,6 @@
     },
     {
       "title": "Jinny Street Gallery Open Call",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Galleries / Exhibition Calls",
-      "city": "Japan / Tokyo / Online",
-      "image": ""
-    },
-    {
-      "title": "TOKAS Open Call",
       "bucket": "easy_win",
       "score": 8.6,
       "confidence": "High",
@@ -334,16 +334,6 @@
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
       "city": "Koenji, Tokyo",
-      "image": ""
-    },
-    {
-      "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-      "bucket": "portfolio_builder",
-      "score": 7.5,
-      "confidence": "Medium",
-      "reason": "Good opportunity for publication history and portfolio depth.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Online",
       "image": ""
     },
     {
@@ -465,6 +455,28 @@
       "image": ""
     },
     {
+      "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
       "title": "Browse opportunities | CuratorSpace",
       "bucket": "global_targets",
       "score": 8.6,
@@ -520,17 +532,6 @@
       "image": ""
     },
     {
-      "title": "Cité Internationale des Arts Artist Residency",
-      "bucket": "global_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Residency",
-      "city": "Paris",
-      "country": "France",
-      "image": ""
-    },
-    {
       "title": "DER GREIF",
       "bucket": "global_targets",
       "score": 8.6,
@@ -539,6 +540,17 @@
       "category": "Photo Open Call",
       "city": "Online",
       "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Cité Internationale des Arts Artist Residency",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Residency",
+      "city": "Paris",
+      "country": "France",
       "image": ""
     },
     {
@@ -594,28 +606,6 @@
       "category": "Other",
       "city": null,
       "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "HB Gallery",
-      "bucket": "global_targets",
-      "score": 7.8,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "OPA Gallery",
-      "bucket": "global_targets",
-      "score": 7.8,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Tokyo",
       "image": ""
     }
   ],
@@ -764,6 +754,28 @@
       "image": ""
     },
     {
+      "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
       "title": "Browse opportunities | CuratorSpace",
       "bucket": "publication_targets",
       "score": 8.6,
@@ -793,28 +805,6 @@
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Print / Zines / Bookstores",
       "city": "Kichijoji, Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "SUBMISSIONS - marblepress.com",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Book Publishing",
-      "city": "Japan / Tokyo / Online",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Book Publishing",
-      "city": "Japan / Tokyo / Online",
       "country": "",
       "image": ""
     }

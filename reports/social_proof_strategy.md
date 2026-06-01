@@ -62,6 +62,18 @@ These opportunities may create disproportionate reputation value.
 - Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## Applications — Little Tokyo Zine Fest
+
+- Prestige: None
+- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## SCCP Guest Artist
+
+- Prestige: None
+- Why: SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## Tokyo Art Book Fair
 
 - Prestige: None
@@ -110,6 +122,12 @@ These opportunities may create disproportionate reputation value.
 - Why: Possible fit based on link text: zine, open call
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at 
+
+- Prestige: 0
+- Why: Possible fit based on link text: zine, open call, residency
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## Aperture | Photography
 
 - Prestige: 0
@@ -129,24 +147,6 @@ These opportunities may create disproportionate reputation value.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## SUBMISSIONS - marblepress.com
-
-- Prestige: None
-- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]
-
-- Prestige: None
-- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Publishers & Publishing Services in Japan - PublishersGlobal.com
-
-- Prestige: None
-- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Submissions - Little Press Publishing
 
 - Prestige: None
 - Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.

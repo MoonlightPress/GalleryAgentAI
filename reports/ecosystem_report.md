@@ -134,7 +134,7 @@ This is the long-horizon ecosystem for international publication legitimacy.
 - **Offprint** — score 8.6, differentiated 10.04; matched: Offprint
 - **Self Publish, Be Happy** — score 8.0, differentiated 9.7; matched: Self Publish, Be Happy
 - **Gallery Conceal Shibuya** — score 8.6, differentiated 9.3; matched: VOID
-- **Picaresque Gallery** — score 5.1, differentiated 5.96; matched: VOID
+- **Picaresque Gallery** — score 4.7, differentiated 5.56; matched: VOID
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.

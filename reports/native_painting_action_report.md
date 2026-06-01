@@ -31,9 +31,6 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 - **Gallery IYN** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
   - URL: https://www.gallery-iyn.com/
   - Next: verify current submission/contact details.
-- **Jackson's Art Prize** — 9.6. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
-  - URL: https://www.jacksonsart.com/paintingprize/
-  - Next: verify current submission/contact details.
 - **Tokyo Illustrators Society** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
   - URL: https://www.tis-home.com/
   - Next: verify current submission/contact details.
@@ -46,8 +43,14 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 - **American Illustration** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
   - URL: https://www.ai-ap.com/
   - Next: verify current submission/contact details.
+- **Jackson's Art Prize** — 9.6. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
+  - URL: https://www.jacksonsart.com/paintingprize/
+  - Next: verify current submission/contact details.
 - **Royal Watercolour Society** — 9.6. Native watercolor context. Strong medium fit if requirements and dates are current.
   - URL: https://www.royalwatercoloursociety.co.uk/
+  - Next: verify current submission/contact details.
+- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.6. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - URL: https://www.jinnystreetgallery.com/open-call
   - Next: verify current submission/contact details.
 - **Communication Arts Illustration Competition** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
   - URL: https://www.commarts.com/competitions/illustration
@@ -57,15 +60,6 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
   - Next: verify current submission/contact details.
 - **Pastel Society Open Exhibition** — 9.6. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
   - URL: https://www.mallgalleries.org.uk/open-exhibitions
-  - Next: verify current submission/contact details.
-- **Royal Institute of Painters in Water Colours** — 9.6. Native watercolor context. Strong medium fit if requirements and dates are current.
-  - URL: https://www.mallgalleries.org.uk/open-exhibitions
-  - Next: verify current submission/contact details.
-- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.6. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - URL: https://www.jinnystreetgallery.com/open-call
-  - Next: verify current submission/contact details.
-- **Japan Watercolor Society Annual Exhibition** — 9.6. The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
-  - URL: https://nihon-suisai.com/
   - Next: verify current submission/contact details.
 - **Tokyo Art Book Fair** — 9.6. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
   - URL: https://tokyoartbookfair.com/
@@ -78,6 +72,12 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
   - Next: verify current submission/contact details.
 - **Aesthetica Art Prize** — 9.6. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
   - URL: https://aestheticamagazine.com/art-prize/
+  - Next: verify current submission/contact details.
+- **Self Publish, Be Happy** — 9.6. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
+  - URL: https://selfpublishbehappy.com/
+  - Next: verify current submission/contact details.
+- **Home - Printed Matter** — 9.6. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
+  - URL: https://www.printedmatter.org/
   - Next: verify current submission/contact details.
 
 ## First Practical Plan

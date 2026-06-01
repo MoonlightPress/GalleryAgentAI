@@ -10,7 +10,6 @@ Total translation candidates: 80
 - **Self Publish, Be Happy** — native: mixed; signals: artist book, zine, works on paper
 - **Home - Printed Matter** — native: mixed; signals: artist book, zine, printed matter, book fair, works on paper, drawing
 - **Book Obscura** — native: mixed; signals: artist book, zine
-- **Fukuoka Art Book Fair** — native: mixed; signals: artist book, zine, book fair, edition
 - **MOUNT ZINE** — native: mixed; signals: artist book, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — native: mixed; signals: artist book, zine
 - **Book and Sons** — native: mixed; signals: zine, bookstore
@@ -22,7 +21,6 @@ Total translation candidates: 80
 - **tata bookshop/gallery** — native: mixed; signals: artist book, zine
 - **本店・本屋の実験室** — native: mixed; signals: artist book, zine, bookstore
 - **Top Artist Opportunities for 2026 | ArtConnect** — native: mixed; signals: artist book, zine
-- **POST** — native: mixed; signals: zine, bookstore
 - **Printed Matter Art Book Fairs** — native: mixed; signals: artist book, zine, printed matter, book fair, edition, calendar
 - **Aperture | Photography** — native: photography; signals: artist book, zine, works on paper
 - **グループ展参加アーティスト募集中 - Gallery and Links81** — native: unknown; signals: works on paper, drawing
@@ -50,22 +48,22 @@ Total translation candidates: 80
 - **Japan Book Publishers Association - JBPA** — native: unknown; signals: artist book, small press
 - **ART BOX Publishing** — native: unknown; signals: artist book, small press
 - **Center for Book Arts Opportunities** — native: unknown; signals: artist book, printed matter
+- **DER GREIF** — native: photography; signals: artist book, works on paper
 - **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — native: unknown; signals: works on paper, drawing
 - **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — native: unknown; signals: works on paper, drawing
 - **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — native: unknown; signals: works on paper, drawing
 - **New Power展 | ギャラリー自由が丘で作家デビュー** — native: unknown; signals: works on paper, drawing
 - **Call for Entry: Showcase your art in Tokyo, Japan** — native: unknown; signals: works on paper, drawing
-- **Applications — Little Tokyo Zine Fest** — native: mixed; signals: zine
 - **そぞろ書房** — native: mixed; signals: artist book, zine, bookstore
 - **Publishing / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine, publication, edition
+- **POST** — native: mixed; signals: zine, bookstore
 - **日記屋 月日** — native: mixed; signals: zine, bookstore
 - **Zines / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine
-- **DER GREIF** — native: photography; signals: artist book, works on paper
 - **shashasha** — native: unknown; signals: artist book, edition, works on paper
 - **Komiyama Tokyo** — native: unknown; signals: artist book, zine
 - **Boji Hair+Gallery** — native: unknown; signals: works on paper
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — native: mixed; signals: artist book, zine
 - **Book Culture Club** — native: mixed; signals: artist book, zine
-- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — native: mixed; signals: zine
 - **torch press** — native: unknown; signals: artist book, zine, small press
 - **Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat** — native: mixed; signals: zine
 - **B&B Shimokitazawa** — native: mixed; signals: artist book, zine, bookstore, publication
@@ -74,12 +72,14 @@ Total translation candidates: 80
 - **Zines Fair at CP+** — native: mixed; signals: zine, edition
 - **ZINEフェス東京** — native: mixed; signals: zine, edition
 - **ZINEイベント** — native: mixed; signals: zine, edition
-- **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — native: mixed; signals: zine, edition
 - **NADiff a/p/a/r/t** — native: mixed; signals: artist book, zine, bookstore
 - **The Container** — native: unknown; signals: artist book
 - **HandMade In Japan Fes** — native: unknown; signals: works on paper
 - **Comitia** — native: unknown; signals: zine, works on paper, illustration
 - **PhotoVogue** — native: photography; signals: illustration
+- **Fukuoka Art Book Fair** — native: mixed; signals: artist book, zine, book fair, edition
+- **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — native: mixed; signals: zine, edition
+- **Applications — Little Tokyo Zine Fest** — native: mixed; signals: zine
 - **loneliness books** — native: mixed; signals: artist book, zine
 - **Dig A Hole Zines** — native: mixed; signals: artist book, zine
 - **ZINE FARM TOKYO** — native: mixed; signals: zine

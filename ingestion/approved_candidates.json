@@ -46,7 +46,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: zine, book fair, printed matter, photobook",
+      "strong: zine, book fair, photobook, printed matter",
       "weak: exhibition, book"
     ]
   },
@@ -56,7 +56,7 @@
     "category": "zine_print",
     "city": "Online",
     "country": "Global",
-    "overall_score": 8.5,
+    "overall_score": 7.65,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "medium",
@@ -68,20 +68,18 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition, artist-run, place, painting",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, exhibition, place, painting, open exhibition",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: zine, open call, submission, residency, exhibition, artist-run, place, painting, open exhibition"
+      "Keyword hits: zine, open call, submission, exhibition, place, painting, open exhibition"
     ],
     "fit_keyword_hits": [
       "zine",
       "open call",
       "submission",
-      "residency",
       "exhibition",
-      "artist-run",
       "place",
       "painting",
       "open exhibition"
@@ -96,8 +94,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: residency, zine, submission, open call",
-      "weak: exhibition, artist"
+      "strong: zine, open call, submission",
+      "weak: exhibition"
     ]
   },
   {
@@ -142,52 +140,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: residency, zine, submission, open call",
+      "strong: residency, zine, open call, submission",
       "weak: exhibition, artist"
-    ]
-  },
-  {
-    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-    "organization": "CuratorSpace",
-    "category": "zine_print",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 6.1,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine, open call, residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: zine, open call, residency"
-    ],
-    "fit_keyword_hits": [
-      "zine",
-      "open call",
-      "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: residency, zine, call for, open call",
-      "weak: artist",
-      "has submission link"
     ]
   },
   {
@@ -228,7 +182,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: zine, submit, call for, open call",
+      "strong: call for, zine, submit, open call",
       "weak: artist",
       "has submission link"
     ]

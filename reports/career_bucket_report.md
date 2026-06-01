@@ -22,6 +22,8 @@ High-upside opportunities that could meaningfully change her reputation, network
   - Visual match signals: artist book, artist_book, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
   - Visual match signals: artist book, artist_book, zine
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
+  - Visual match signals: artist book, artist_book, zine
 - **Aperture | Photography** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
@@ -33,8 +35,6 @@ High-upside opportunities that could meaningfully change her reputation, network
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions - Little Press Publishing** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 
 ## High-Confidence Matches
@@ -57,9 +57,11 @@ Strong matches with better verification.
   - Visual match signals: artist book, artist_book, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
   - Visual match signals: artist book, artist_book, zine
-- **Book and Sons** — score 8.6, differentiated 9.75, visual fit 1.3. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
+  - Visual match signals: artist book, artist_book, zine
+- **Applications — Little Tokyo Zine Fest** — score 8.8, differentiated 9.96, visual fit 1.3. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: zine
-- **Applications — Little Tokyo Zine Fest** — score 8.6, differentiated 9.65, visual fit 1.3. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **Book and Sons** — score 8.6, differentiated 9.75, visual fit 1.3. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
   - Visual match signals: zine
 - **Youkobo Art Space** — score 8.6, differentiated 9.61, visual fit 0.9. Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.
   - Visual match signals: memory, Tokyo-based
@@ -67,10 +69,7 @@ Strong matches with better verification.
   - Visual match signals: watercolor, memory
 - **Comitia** — score 8.6, differentiated 9.56, visual fit 0.75. It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.
   - Visual match signals: watercolor, zine, commercial_illustration
-- **reload Shimokitazawa** — score 8.6, differentiated 9.46, visual fit 0.45. Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.
-  - Visual match signals: watercolor
-- **BankART1929** — score 8.6, differentiated 9.46, visual fit 0.45. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
-  - Visual match signals: memory
+- **SCCP Guest Artist** — score 8.8, differentiated 9.5, visual fit 0.0. SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.
 
 ## Publication Targets
 
@@ -92,6 +91,8 @@ Places where the work can become visible as printed matter, editorial sequence, 
   - Visual match signals: artist book, artist_book, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
   - Visual match signals: artist book, artist_book, zine
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
+  - Visual match signals: artist book, artist_book, zine
 - **Aperture | Photography** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
@@ -103,8 +104,6 @@ Places where the work can become visible as printed matter, editorial sequence, 
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions - Little Press Publishing** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Book / Zine / Photobook Targets
@@ -127,6 +126,8 @@ The strongest match for her current visual language: quiet sequences, small pres
   - Visual match signals: artist book, artist_book, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
   - Visual match signals: artist book, artist_book, zine
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
+  - Visual match signals: artist book, artist_book, zine
 - **Aperture | Photography** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
@@ -139,8 +140,6 @@ The strongest match for her current visual language: quiet sequences, small pres
   - Visual match signals: artist book, small press, artist_book, small_press
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions - Little Press Publishing** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Global Reach
 
@@ -149,6 +148,8 @@ International opportunities that expand beyond local Tokyo/Japan visibility.
 - **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
+  - Visual match signals: artist book, artist_book, zine
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
   - Visual match signals: artist book, artist_book, zine
 - **Aperture | Photography** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
@@ -170,12 +171,10 @@ International opportunities that expand beyond local Tokyo/Japan visibility.
   - Visual match signals: zine
 - **Self Publish, Be Happy** — score 8.0, differentiated 9.7, visual fit 3.7. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **DER GREIF** — score 8.6, differentiated 9.68, visual fit 2.4. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper, watercolor / works on paper
+- **DER GREIF** — score 8.6, differentiated 9.68, visual fit 2.4. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
   - Visual match signals: watercolor, artist book, artist_book
 - **Youkobo Art Space** — score 8.6, differentiated 9.61, visual fit 0.9. Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.
   - Visual match signals: memory, Tokyo-based
-- **Tokyo Wonder Site / TOKAS Residency** — score 8.6, differentiated 9.61, visual fit 0.9. TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.
-  - Visual match signals: watercolor, memory
 
 ## Easy Wins
 
@@ -197,6 +196,8 @@ Lower-friction opportunities that may create momentum without heavy emotional or
   - Visual match signals: artist book, artist_book, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
   - Visual match signals: artist book, artist_book, zine
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
+  - Visual match signals: artist book, artist_book, zine
 - **Aperture | Photography** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
@@ -208,8 +209,6 @@ Lower-friction opportunities that may create momentum without heavy emotional or
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions - Little Press Publishing** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Relationship Builders
@@ -232,6 +231,8 @@ Local or community spaces useful for soft contact, small steps, and future famil
   - Visual match signals: artist book, artist_book, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
   - Visual match signals: artist book, artist_book, zine
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
+  - Visual match signals: artist book, artist_book, zine
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
@@ -243,8 +244,6 @@ Local or community spaces useful for soft contact, small steps, and future famil
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **Submissions - Little Press Publishing** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **3 Top Book Publishers in Tokyo in 2026** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Needs Research
@@ -267,6 +266,8 @@ Potentially useful, but not actionable until submission details, fee, deadline, 
   - Visual match signals: artist book, artist_book, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
   - Visual match signals: artist book, artist_book, zine
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
+  - Visual match signals: artist book, artist_book, zine
 - **Aperture | Photography** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
@@ -279,16 +280,14 @@ Potentially useful, but not actionable until submission details, fee, deadline, 
   - Visual match signals: artist book, small press, artist_book, small_press
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions - Little Press Publishing** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Low Priority
 
 Weak fit or low evidence. Keep but do not foreground.
 
-- **Picaresque Gallery** — score 5.1, differentiated 5.96, visual fit 0.45. Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
+- **Picaresque Gallery** — score 4.7, differentiated 5.56, visual fit 0.45. Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
   - Visual match signals: memory
-- **Spiral** — score 4.6, differentiated 5.3, visual fit 0.0. Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
+- **Spiral** — score 4.2, differentiated 4.9, visual fit 0.0. Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
 - **loneliness books** — score 3.0, differentiated 4.38, visual fit 3.25. Independent book/zine signal near Nakano. Possible secondary local target after Tacoche.
   - Visual match signals: artist book, artist_book, zine
 - **Dig A Hole Zines** — score 3.0, differentiated 4.38, visual fit 3.25. Direct zine-shop target in/near Koenji. Strong match for a first local distribution attempt.

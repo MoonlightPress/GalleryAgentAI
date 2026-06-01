@@ -34,7 +34,6 @@ This report separates native watercolor/works-on-paper opportunities from photog
 - **Self Publish, Be Happy** — 9.0. mixed medium / possible translation. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
 - **Home - Printed Matter** — 9.0. mixed medium / possible translation. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
 - **Book Obscura** — 9.0. mixed medium / possible translation. Artist Book / Watercolor Sequence specialist. Useful benchmark if her work moves toward artist book / watercolor sequence/artist-book sequencing.
-- **Fukuoka Art Book Fair** — 9.0. mixed medium / possible translation. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
 - **MOUNT ZINE** — 9.0. mixed medium / possible translation. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 9.0. mixed medium / possible translation. Possible fit based on link text: zine, open call
 - **Book and Sons** — 9.0. mixed medium / possible translation. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
@@ -46,12 +45,13 @@ This report separates native watercolor/works-on-paper opportunities from photog
 - **tata bookshop/gallery** — 9.0. mixed medium / possible translation. Bookshop/gallery hybrid in Koenji; good bridge between books, prints, and exhibition context.
 - **本店・本屋の実験室** — 9.0. mixed medium / possible translation. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
 - **Top Artist Opportunities for 2026 | ArtConnect** — 9.0. mixed medium / possible translation. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
-- **POST** — 9.0. mixed medium / possible translation. Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.
+- **Printed Matter Art Book Fairs** — 9.0. mixed medium / possible translation. Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
+- **そぞろ書房** — 9.0. mixed medium / possible translation. Small local bookstore target. Useful for building a compact Koenji route.
 
 ## Translation Candidates
 
 - **Aperture | Photography** — 7.2. photography source capped as translation candidate. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
-- **DER GREIF** — 7.2. photography source capped as translation candidate. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper, watercolor / works on paper
+- **DER GREIF** — 7.2. photography source capped as translation candidate. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
 - **PhotoVogue** — 5.8. photography source capped as translation candidate. Potential fit based on source context and keyword overlap: open call, submission, exhibition, illustration
 
 ## Photography-Only Demoted
@@ -60,6 +60,7 @@ This report separates native watercolor/works-on-paper opportunities from photog
 
 ## Unknown Medium
 
+- **Tokyo Wonder Site / TOKAS Residency** — 7.0. unknown native medium capped. TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.
 - **グループ展参加アーティスト募集中 - Gallery and Links81** — 7.0. unknown native medium capped. グループ展参加アーティスト募集中 - Gallery and Links81 may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
 - **【biscuit gallery】初の公募企画「grid next : Emerging ...** — 7.0. unknown native medium capped. 【biscuit gallery】初の公募企画「grid next : Emerging ... may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
 - **219公募展6募集 >> Gallery219 ギャラリーニイク** — 7.0. unknown native medium capped. 219公募展6募集 >> Gallery219 ギャラリーニイク may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
@@ -75,8 +76,7 @@ This report separates native watercolor/works-on-paper opportunities from photog
 - **Society of Women Artists** — 7.0. unknown native medium capped. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
 - **Submissions — Clavis Publishing** — 7.0. unknown native medium capped. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **BankART1929** — 7.0. unknown native medium capped. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
-- **AIR 3331** — 7.0. unknown native medium capped. Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type
 - **Koganecho Area Management Center** — 7.0. unknown native medium capped. Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
-- **3331 Arts Chiyoda** — 7.0. unknown native medium capped. Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach
 - **SUBMISSIONS - marblepress.com** — 7.0. unknown native medium capped. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — 7.0. unknown native medium capped. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **Publishers & Publishing Services in Japan - PublishersGlobal.com** — 7.0. unknown native medium capped. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.

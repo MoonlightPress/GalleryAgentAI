@@ -4,6 +4,8 @@ Suggested strategic pacing for outreach and applications.
 
 ## Immediate Targets
 
+- Applications — Little Tokyo Zine Fest (8.8/10)
+- SCCP Guest Artist (8.8/10)
 - Tokyo Art Book Fair (8.6/10)
 - UTRECHT (8.6/10)
 - B&B Shimokitazawa (8.6/10)
@@ -12,6 +14,7 @@ Suggested strategic pacing for outreach and applications.
 - Submissions — Clavis Publishing (8.6/10)
 - Fukuoka Art Book Fair (8.6/10)
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin (8.6/10)
+- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  (8.6/10)
 - Aperture | Photography (8.6/10)
 - Browse opportunities | CuratorSpace (8.6/10)
 - » 21 Terrific Small Presses Open to Direct Submissions (8.6/10)
@@ -21,9 +24,6 @@ Suggested strategic pacing for outreach and applications.
 - Submissions - Little Press Publishing (8.6/10)
 - 3 Top Book Publishers in Tokyo in 2026 (8.6/10)
 - submissions — porkbelly press (8.6/10)
-- 3 Top Book Publishers in Japan in 2026 (8.6/10)
-- Become an Author - Tuttle Publishing (8.6/10)
-- Japan Book Publishers Association - JBPA (8.6/10)
 
 ## Build Toward
 

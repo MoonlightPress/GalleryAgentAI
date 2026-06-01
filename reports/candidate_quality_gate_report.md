@@ -1,7 +1,7 @@
 # Candidate Quality Gate Report
 
-Approved: 5
-Rejected: 115
+Approved: 4
+Rejected: 116
 
 ## Rejected
 
@@ -16,7 +16,6 @@ Rejected: 115
 - Phoebe Barnicoat Snake Meet watercolour Unframed Artwork: 14.5 x 10.5cm — generic page without opportunity language
 - Anne Marlow A Safe Place watercolour & pastel Unframed Artwork: 23.5 x 24cm — generic page without opportunity language
 - exhibition open call: 2026–27 season — strong: open call, weak: exhibition, has submission link, score too low: 4
-- RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus — strong: residency, weak: artist, score too low: 1
 - Art Events and Exhibitions｜Tokyo Art Beat — generic page without opportunity language
 - TOKYO ART BOOK FAIR — strong: book fair, weak: book, score too low: 3
 - Jackson's Art Prize — generic page without opportunity language
@@ -26,7 +25,7 @@ Rejected: 115
 - Requests to List Exhibitions and Events — generic page without opportunity language
 - Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
 - Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — strong: zine, printed matter, score too low: 2
-- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: photography, exhibition, gallery, score too low: 3
+- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: exhibition, gallery, photography, score too low: 3
 - See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
 - Skip to main content — generic page without opportunity language
@@ -93,6 +92,8 @@ Rejected: 115
 - bipoc artist residency program — strong: residency, open call, weak: artist, score too low: 3
 - call for proposals for solo exhibitions — strong: call for, open call, weak: exhibition, gallery, score too low: 4
 - Open Call — strong: open call, has submission link, score too low: 3
+- Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever — strong: zine, weak: artist, score too low: 1
+- The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -123,8 +124,7 @@ Rejected: 115
 
 ## Approved
 
-- Home - Printed Matter — strong: zine, book fair, printed matter, photobook, weak: exhibition, book
-- Browse opportunities | CuratorSpace — strong: residency, zine, submission, open call, weak: exhibition, artist
-- Top Artist Opportunities for 2026 | ArtConnect — strong: residency, zine, submission, open call, weak: exhibition, artist
-- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — strong: residency, zine, call for, open call, weak: artist, has submission link
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — strong: zine, submit, call for, open call, weak: artist, has submission link
+- Home - Printed Matter — strong: zine, book fair, photobook, printed matter, weak: exhibition, book
+- Browse opportunities | CuratorSpace — strong: zine, open call, submission, weak: exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — strong: residency, zine, open call, submission, weak: exhibition, artist
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — strong: call for, zine, submit, open call, weak: artist, has submission link

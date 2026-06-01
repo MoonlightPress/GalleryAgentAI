@@ -17,7 +17,7 @@ These are opportunities/venues with missing verification details.
 ## Applications — Little Tokyo Zine Fest
 - Priority: medium
 - Source: https://www.ltzinefest.org/applications
-- Missing: contact, fees
+- Missing: fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Open Call for the International Creator Residency Program 2026
@@ -47,7 +47,7 @@ These are opportunities/venues with missing verification details.
 ## SCCP Guest Artist
 - Priority: medium
 - Source: https://www.sccp.jp/air-en/application/guest-artist/
-- Missing: contact, fees
+- Missing: fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Open Calls for Artists
@@ -242,6 +242,12 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
+## reload
+- Priority: medium
+- Source: https://reload-shimokita.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
 ## BankART1929
 - Priority: medium
 - Source: https://bankart1929.com/
@@ -260,6 +266,12 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
+## Creema
+- Priority: medium
+- Source: https://hmj-fes.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
 ## BONUS TRACK
 - Priority: medium
 - Source: https://bonus-track.net/
@@ -272,69 +284,21 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Design Festa
-- Priority: medium
-- Source: https://designfesta.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Farmer's Market @ UNU
 - Priority: medium
 - Source: https://farmersmarkets.jp/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
+## Design Festa
+- Priority: medium
+- Source: https://designfesta.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
 ## Cafe Cross Point
 - Priority: medium
 - Source: https://cafecrosspoint.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## TAV Gallery
-- Priority: medium
-- Source: https://tavgallery.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Gallery IRO
-- Priority: high
-- Source: https://1-6.jp/iro/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Gallery HANA Shimokitazawa
-- Priority: medium
-- Source: https://www.g-hana.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Hayama Artist Residency Submission Manager - Submittable
-- Priority: high
-- Source: https://hayamaartistresidency.submittable.com/submit
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Hayama Artist Residency
-- Priority: high
-- Source: https://hayamaartistresidency.submittable.com/submit
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Clavis Publishing Submissions
-- Priority: high
-- Source: https://www.clavis-publishing.com/submit
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## reload
-- Priority: medium
-- Source: https://reload-shimokita.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Creema
-- Priority: medium
-- Source: https://hmj-fes.jp/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -368,6 +332,24 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
+## TAV Gallery
+- Priority: medium
+- Source: https://tavgallery.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Gallery IRO
+- Priority: high
+- Source: https://1-6.jp/iro/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Gallery HANA Shimokitazawa
+- Priority: medium
+- Source: https://www.g-hana.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
 ## VACANT
 - Priority: medium
 - Source: https://www.vacant.vc/
@@ -384,6 +366,24 @@ These are opportunities/venues with missing verification details.
 - Priority: medium
 - Source: https://galleryconceal.wixsite.com/gconceal
 - Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Hayama Artist Residency Submission Manager - Submittable
+- Priority: high
+- Source: https://hayamaartistresidency.submittable.com/submit
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## Hayama Artist Residency
+- Priority: high
+- Source: https://hayamaartistresidency.submittable.com/submit
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## Clavis Publishing Submissions
+- Priority: high
+- Source: https://www.clavis-publishing.com/submit
+- Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Aperture
@@ -536,6 +536,12 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
+## Der Greif
+- Priority: high
+- Source: https://dergreif.org/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
 ## American Watercolor Society
 - Priority: high
 - Source: https://www.americanwatercolorsociety.org/
@@ -575,12 +581,6 @@ These are opportunities/venues with missing verification details.
 ## Cité Internationale des Arts
 - Priority: high
 - Source: https://www.citedesartsparis.net/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Der Greif
-- Priority: high
-- Source: https://dergreif.org/
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -710,12 +710,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Jackson's Art Prize
-- Priority: high
-- Source: https://www.jacksonsart.com/paintingprize/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Tokyo Illustrators Society
 - Priority: high
 - Source: https://www.tis-home.com/
@@ -737,6 +731,12 @@ These are opportunities/venues with missing verification details.
 ## American Illustration
 - Priority: high
 - Source: https://www.ai-ap.com/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Jackson's Art Prize
+- Priority: high
+- Source: https://www.jacksonsart.com/paintingprize/
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 

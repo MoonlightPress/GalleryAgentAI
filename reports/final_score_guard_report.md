@@ -9,6 +9,7 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Submissions — Clavis Publishing: 8.6 → 7.6
 - Fukuoka Art Book Fair: 8.6 → 8.2
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin: 8.6 → 7.6
+- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at : 8.6 → 7.6
 - Aperture | Photography: 8.6 → 7.6
 - Browse opportunities | CuratorSpace: 8.6 → 7.6
 - » 21 Terrific Small Presses Open to Direct Submissions: 8.6 → 7.6
@@ -37,7 +38,6 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Aesthetica Art Prize: 8.6 → 7.6
 - Book and Sons: 8.6 → 7.6
 - DER GREIF: 8.6 → 7.6
-- Applications — Little Tokyo Zine Fest: 8.6 → 8.2
 - Youkobo Art Space: 8.6 → 7.6
 - Tokyo Wonder Site / TOKAS Residency: 8.6 → 7.6
 - Comitia: 8.6 → 7.6
@@ -45,24 +45,24 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - reload Shimokitazawa: 8.6 → 7.6
 - BankART1929: 8.6 → 7.6
 - AIR 3331: 8.6 → 7.6
-- Tokyo Arts and Space: 8.6 → 7.6
 - AIT Residency: 8.6 → 7.6
+- Tokyo Arts and Space: 8.6 → 7.6
 - HandMade In Japan Fes: 8.6 → 7.6
 - 3331 Arts Chiyoda: 8.6 → 7.6
 - BONUS TRACK: 8.6 → 7.6
 - Koganecho Area Management Center: 8.6 → 7.6
 - Aoyama Farmers Market: 8.6 → 7.6
 - Design Festa: 8.6 → 7.6
-- Cafe Cross Point: 8.6 → 7.6
 - Cafe Mame-Hico: 8.6 → 7.6
 - Yonchome Cafe: 8.6 → 7.6
+- Cafe Cross Point: 8.6 → 7.6
 - Cafe Gallery HATTIFNATT: 8.6 → 7.6
 - DESIGN FESTA GALLERY: 8.6 → 7.6
 - SCAI The Bathhouse: 8.6 → 7.6
 - TAV Gallery: 8.6 → 7.6
+- VACANT: 8.6 → 7.6
 - Gallery IRO: 8.6 → 7.6
 - Gallery HANA Shimokitazawa: 8.6 → 7.6
-- VACANT: 8.6 → 7.6
 - Zushi Art Gallery: 8.6 → 7.6
 - Gallery Conceal Shibuya: 8.6 → 7.6
 - Zines Fair at CP+: 8.6 → 7.6
@@ -75,10 +75,10 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Jinny Street Gallery Open Call: 8.6 → 8.2
 - TOKAS Open Call: 8.6 → 8.2
 - Belladonna Art Competition: 8.6 → 8.2
-- SCCP Guest Artist: 8.6 → 8.2
 - Hayama Artist Residency Submission Manager - Submittable: 8.6 → 7.6
 - Hayama Artist Residency: 8.6 → 7.6
 - Clavis Publishing Submissions: 8.6 → 7.6
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou: 8.6 → 7.6
 - Open Calls for Artists: 8.6 → 8.2
 - Open Call For Artists: 8.6 → 8.2
 - L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info: 8.6 → 8.2

@@ -54,6 +54,12 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
+### OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — 8.6/10 — needs review
+Risks:
+- many missing verification fields: deadline, fees, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### Aperture | Photography — 8.6/10 — needs review
 Positive reasons:
 - aesthetic lineage +0.8
@@ -219,6 +225,11 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
+### Applications — Little Tokyo Zine Fest — 8.8/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### Center for Book Arts Opportunities — 8.6/10 — needs review
 Positive reasons:
 - aesthetic lineage +1.2
@@ -262,17 +273,7 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Applications — Little Tokyo Zine Fest — 8.6/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 ### Youkobo Art Space — 8.6/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Tokyo Wonder Site / TOKAS Residency — 8.6/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification

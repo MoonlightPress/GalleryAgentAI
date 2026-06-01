@@ -87,6 +87,10 @@
       2
     ],
     [
+      "photo_open_call",
+      2
+    ],
+    [
       "market_event",
       2
     ],
@@ -104,10 +108,6 @@
     ],
     [
       "global_artist_book_platform",
-      1
-    ],
-    [
-      "photo_open_call",
       1
     ],
     [
@@ -257,11 +257,11 @@
       1
     ],
     [
-      "Low",
+      "Unknown (likely low barrier but unclear process)",
       1
     ],
     [
-      "Unknown (likely low barrier but unclear process)",
+      "Low",
       1
     ],
     [
@@ -273,11 +273,11 @@
       1
     ],
     [
-      "high_friction",
+      "Indeterminate - no visible application pathway",
       1
     ],
     [
-      "high_ambiguity",
+      "high_friction",
       1
     ]
   ]

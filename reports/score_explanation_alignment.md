@@ -21,7 +21,6 @@ Scores now follow the explanation. A high score should not appear beside a warni
 - **Self Publish, Be Happy** — 10.0 — strong. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
 - **Home - Printed Matter** — 10.0 — strong. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
 - **Book Obscura** — 10.0 — strong. Artist Book / Watercolor Sequence specialist. Useful benchmark if her work moves toward artist book / watercolor sequence/artist-book sequencing.
-- **Fukuoka Art Book Fair** — 10.0 — strong. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
 - **MOUNT ZINE** — 10.0 — strong. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 10.0 — strong. Possible fit based on link text: zine, open call
 - **Book and Sons** — 10.0 — strong. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
@@ -29,3 +28,4 @@ Scores now follow the explanation. A high score should not appear beside a warni
 - **LOCAL Gallery・Books** — 10.0 — strong. Local Koenji book/gallery target; useful for a quiet works-on-paper artist and local relationship building.
 - **Art Book Fairs** — 10.0 — strong. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **Tacoche** — 10.0 — strong. Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.
+- **Books Ruhe** — 10.0 — strong. Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.

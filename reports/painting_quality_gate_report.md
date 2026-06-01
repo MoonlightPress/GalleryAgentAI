@@ -13,18 +13,15 @@ Demoted: 5
 - **OPA Gallery** — 10.0 → 9.6 — promoted
 - **Pinpoint Gallery** — 10.0 → 9.6 — promoted
 - **Gallery IYN** — 10.0 → 9.6 — promoted
-- **Jackson's Art Prize** — 10.0 → 9.6 — promoted
 - **Tokyo Illustrators Society** — 10.0 → 9.6 — promoted
 - **World Illustration Awards** — 10.0 → 9.6 — promoted
 - **3x3 International Illustration Awards** — 10.0 → 9.6 — promoted
 - **American Illustration** — 10.0 → 9.6 — promoted
+- **Jackson's Art Prize** — 10.0 → 9.6 — promoted
 - **Royal Watercolour Society** — 10.0 → 9.6 — promoted
-- **Communication Arts Illustration Competition** — 10.0 → 9.6 — promoted
-- **Mall Galleries Open Exhibitions** — 10.0 → 9.6 — promoted
-- **Pastel Society Open Exhibition** — 10.0 → 9.6 — promoted
-- **Royal Institute of Painters in Water Colours** — 9.92 → 9.6 — promoted
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.83 → 9.6 — promoted
-- **Japan Watercolor Society Annual Exhibition** — 9.4 → 9.6 — promoted
+- **Mall Galleries Open Exhibitions** — 9.37 → 9.6 — promoted
+- **Pastel Society Open Exhibition** — 9.37 → 9.6 — promoted
 - **Tokyo Art Book Fair** — 9.0 → 9.6 — promoted
 - **UTRECHT** — 9.0 → 9.6 — promoted
 - **Offprint** — 9.0 → 9.6 — promoted
@@ -33,9 +30,12 @@ Demoted: 5
 - **Home - Printed Matter** — 9.0 → 9.6 — promoted
 - **Book Obscura** — 9.0 → 9.6 — promoted
 - **Publishing / Artist Books — Battle Plan** — 9.0 → 9.6 — promoted
+- **Japan Watercolor Society Annual Exhibition** — 8.9 → 9.6 — promoted
+- **Royal Institute of Painters in Water Colours** — 8.62 → 9.42 — promoted
 - **Aperture | Photography** — 7.2 → 8.0 — promoted
 - **DER GREIF** — 7.2 → 8.0 — promoted
 - **Tokyo Wonder Site / TOKAS Residency** — 7.0 → 7.8 — promoted
+- **Aoyama Farmers Market** — 7.0 → 5.5 — demoted
 - **グループ展参加アーティスト募集中 - Gallery and Links81** — 7.0 → 7.8 — promoted
 - **【biscuit gallery】初の公募企画「grid next : Emerging ...** — 7.0 → 7.8 — promoted
 - **219公募展6募集 >> Gallery219 ギャラリーニイク** — 7.0 → 7.8 — promoted
@@ -59,8 +59,8 @@ Demoted: 5
 - **Boji Hair+Gallery** — 7.0 → 7.8 — promoted
 - **B&B Shimokitazawa** — 6.75 → 7.55 — promoted
 - **flotsam books** — 6.75 → 7.55 — promoted
+- **HandMade In Japan Fes** — 6.4 → 5.5 — demoted
 - **tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...** — 6.4 → 5.5 — demoted
-- **Aoyama Farmers Market** — 6.27 → 5.5 — demoted
-- **HandMade In Japan Fes** — 6.08 → 5.5 — demoted
+- **RAW TOKYO** — 6.4 → 5.5 — demoted
 - **Comitia** — 6.0 → 6.8 — promoted
 - **PhotoVogue** — 5.8 → 5.5 — demoted

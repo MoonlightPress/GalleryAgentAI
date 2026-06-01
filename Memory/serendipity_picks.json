@@ -1,38 +1,38 @@
 [
   {
-    "title": "Book Obscura",
-    "name": "Book Obscura",
-    "organization": "Book Obscura",
+    "title": "そぞろ書房",
+    "name": "そぞろ書房",
+    "organization": "そぞろ書房",
     "category": "zine_print",
-    "city": "Kichijoji, Tokyo",
-    "overall_score": 8.0,
-    "one_sentence": "Artist Book / Watercolor Sequence specialist. Useful benchmark if her work moves toward artist book / watercolor sequence/artist-book sequencing.",
-    "suggested_display_summary": "Photobook specialist. Useful benchmark if her work moves toward photobook/artist-book sequencing.",
-    "why_this_fits_short": "Artist Book / Watercolor Sequence specialist. Useful benchmark if her work moves toward artist book / watercolor sequence/artist-book sequencing.",
-    "quick_action": "Use as reference and possible later target, not first placement.",
-    "source_url": "https://bookobscura.com/",
-    "source_link": "https://bookobscura.com/",
-    "official_website": "https://bookobscura.com/",
+    "city": "Koenji, Tokyo",
+    "overall_score": 7.5,
+    "one_sentence": "Small local bookstore target. Useful for building a compact Koenji route.",
+    "suggested_display_summary": "Small local bookstore target. Useful for building a compact Koenji route.",
+    "why_this_fits_short": "Small local bookstore target. Useful for building a compact Koenji route.",
+    "quick_action": "Verify current stock, hours, and whether they handle self-published work.",
+    "source_url": "https://sozoroshobou.stores.jp/",
+    "source_link": "https://sozoroshobou.stores.jp/",
+    "official_website": "https://sozoroshobou.stores.jp/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "difficulty": "low",
     "three_bullets": [
-      "Type: artist book / watercolor sequence store.",
-      "Location: Kichijoji, Tokyo.",
-      "First action: Use as reference and possible later target, not first placement."
+      "Type: independent bookstore.",
+      "Location: Koenji, Tokyo.",
+      "First action: Verify current stock, hours, and whether they handle self-published work."
     ],
     "career_category": "zines",
-    "opportunity_type": "photobook_store",
-    "neighborhood": "Kichijoji",
+    "opportunity_type": "independent_bookstore",
+    "neighborhood": "Koenji",
     "tier": 2,
-    "confidence": 58,
+    "confidence": 61,
     "status": "needs_confirmation",
     "import_source": "zine_category_import_v1",
     "imported_at": "2026-05-31",
     "url_verification_status": "bad",
     "url_status_code": 403,
-    "url_final": "https://bookobscura.com/",
+    "url_final": "https://sozoroshobou.stores.jp/",
     "confidence_level": "Medium",
     "verification_summary": "Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.",
     "verification_status": "partial",
@@ -51,17 +51,16 @@
       "contact"
     ],
     "category_label": "Print / Zines / Bookstores",
-    "painting_priority_score": 9.6,
+    "painting_priority_score": 9.0,
     "watercolor_fit_hits": [
-      "watercolor",
-      "artist book",
+      "bookstore",
       "zine"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 10,
+    "watercolor_adjusted_score": 9.68,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 10.0,
+    "truth_aligned_score": 9.68,
     "score_capped_by_truth_checker": false,
     "native_medium": "mixed",
     "native_medium_hits": {
@@ -75,34 +74,29 @@
     "translation_candidate": true,
     "translation_candidate_hits": [
       "artist book",
-      "zine"
+      "zine",
+      "bookstore"
     ],
     "source_purity_score": 9.0,
     "source_purity_reason": "mixed medium / possible translation",
-    "dna_adjusted_score": 9.65,
-    "dna_score_delta": 0.36,
+    "dna_adjusted_score": 9.12,
+    "dna_score_delta": 0.48,
     "dna_match_hits": [
-      "soft color restraint",
+      "small businesses and local spaces",
       "artist book",
-      "small press sequence"
+      "small press sequence",
+      "bookstore/gallery hybrid presentation"
     ],
-    "lineage_matches": [
-      {
-        "name": "Contemporary Printed Matter",
-        "hits": 2,
-        "boost": 0.8
-      }
-    ],
-    "lineage_score": 0.8,
+    "lineage_matches": [],
+    "lineage_score": 0,
     "corporate_penalty": 0,
     "portfolio_matches": [
       {
         "body_id": "artist_book_printed_matter",
         "title": "Artist Book / Printed Matter",
         "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
-        "score": 3,
+        "score": 2,
         "hits": [
-          "artist book",
           "zine"
         ],
         "best_formats": [
@@ -117,10 +111,8 @@
         "body_id": "architecture_memory",
         "title": "Architecture / Memory / Place",
         "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
-        "score": 2,
-        "hits": [
-          "place"
-        ],
+        "score": 1,
+        "hits": [],
         "best_formats": [
           "photobook",
           "zine",
@@ -145,18 +137,13 @@
       }
     ],
     "recommended_body_of_work": "Artist Book / Printed Matter",
-    "portfolio_match_score": 3,
-    "submission_strategy": "publication_pitch",
-    "submission_tone": "focused and editorial",
-    "painting_gate_status": "promoted",
-    "painting_gate_hits": [
-      "watercolor"
-    ],
-    "uncapped_score": 8.3,
+    "portfolio_match_score": 2,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "uncapped_score": 8.1,
     "score_sanity_note": "Score capped at 8.0 because source/verification strength is limited.",
-    "visual_fit_score": 3.7,
+    "visual_fit_score": 3.25,
     "visual_fit_hits": [
-      "watercolor",
       "artist book",
       "artist_book",
       "zine"
@@ -170,7 +157,975 @@
       "needs_research"
     ],
     "primary_bucket": "career_changing",
-    "differentiated_score": 9.29,
+    "differentiated_score": 8.64,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 1,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "publication_ecosystem",
+    "curator_patterns": [],
+    "pre_final_guard_score": 7.5,
+    "final_score_guard_note": "Capped at 6.5 due to verification strength.",
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "publication_targets"
+  },
+  {
+    "title": "Koganecho Area Management Center",
+    "category": "artist_space",
+    "city": "Yokohama",
+    "priority": "C",
+    "overall_score": 8.6,
+    "difficulty": "high",
+    "recommendation_strength": "moderate_conditional",
+    "one_sentence": "Established artist-run center in Yokohama focused on site-responsive practice and community engagement, with residency programs that would suit your documentation approach.",
+    "three_bullets": [
+      "Strong fit for cultural preservation themes - neighborhood revitalization focus aligns with disappearing spaces work",
+      "Requires significant research into current programs and cold outreach in Japanese context",
+      "Competitive AIR programs likely emphasize community engagement and site-specific projects over studio practice"
+    ],
+    "quick_action": "Visit website to understand current programming cycle before investing energy in application preparation",
+    "why_this_fits_short": "Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 1,
+    "emotional_fit": 5,
+    "submission_score": 3,
+    "official_website": "https://koganecho.net/",
+    "submission_page": "https://koganecho.net/",
+    "source_url": "https://koganecho.net/",
+    "organization": "Koganecho",
+    "tags": [
+      "secondary",
+      "",
+      "high"
+    ],
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://koganecho.net/",
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Artist Spaces",
+    "painting_priority_score": 7.0,
+    "watercolor_fit_hits": [
+      "residency"
+    ],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 10,
+    "truth_alignment_verdict": "ok",
+    "truth_alignment_reasons": [],
+    "truth_aligned_score": 10.0,
+    "score_capped_by_truth_checker": false,
+    "native_medium": "unknown",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": []
+    },
+    "translation_candidate": false,
+    "translation_candidate_hits": [],
+    "source_purity_score": 7.0,
+    "source_purity_reason": "unknown native medium capped",
+    "dna_adjusted_score": 9.78,
+    "dna_score_delta": 0.48,
+    "dna_match_hits": [
+      "plants in urban/domestic spaces",
+      "small businesses and local spaces",
+      "quiet observation",
+      "artist book"
+    ],
+    "lineage_matches": [
+      {
+        "name": "Independent Artist-Run Space",
+        "hits": 2,
+        "boost": 0.65
+      }
+    ],
+    "lineage_score": 0.65,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "community_local_visibility",
+        "title": "Community / Local Visibility",
+        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+        "score": 2,
+        "hits": [
+          "community",
+          "artist-run"
+        ],
+        "best_formats": [
+          "cafe wall",
+          "market",
+          "popup",
+          "group show",
+          "local event"
+        ]
+      },
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 1,
+        "hits": [
+          "urban"
+        ],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "daily_poetic_photography",
+        "title": "Daily Poetic Photography",
+        "description": "A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.",
+        "score": 1,
+        "hits": [
+          "observation"
+        ],
+        "best_formats": [
+          "online feature",
+          "zine",
+          "small publication",
+          "photobook",
+          "artist-run space"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Community / Local Visibility",
+    "portfolio_match_score": 2,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "uncapped_score": 9.65,
+    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
+    "visual_fit_score": 0.0,
+    "visual_fit_hits": [],
+    "career_buckets": [
+      "high_confidence",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 9.3,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 1,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "independent_experimental",
+    "curator_patterns": [
+      "community_space"
+    ],
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "relationship_builders",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength."
+  },
+  {
+    "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
+    "name": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
+    "organization": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
+    "category": "book_publishing",
+    "city": "Japan / Tokyo / Online",
+    "overall_score": 8.6,
+    "one_sentence": "Publishing / Small Press lead found through targeted research; useful if requirements and fit check out.",
+    "suggested_display_summary": "Publishing / Small Press lead. Needs source review for details.",
+    "why_this_fits_short": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference.",
+    "source_url": "https://www.publishersglobal.com/directory/japan/",
+    "source_link": "https://www.publishersglobal.com/directory/japan/",
+    "official_website": "https://www.publishersglobal.com/directory/japan/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "difficulty": "medium",
+    "three_bullets": [
+      "Source category: Publishing / Small Press.",
+      "Search group: publishing_small_press.",
+      "First action: Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
+    ],
+    "career_category": "publishing",
+    "opportunity_type": "publishing_small_press",
+    "status": "research_next",
+    "confidence": 53,
+    "import_source": "multi_ingress_sprint_v1",
+    "source_candidate_id": "MULTI-0169",
+    "imported_at": "2026-05-31",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.publishersglobal.com/directory/japan/",
+    "confidence_level": "Medium",
+    "verification_summary": "Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": false,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Book Publishing",
+    "painting_priority_score": 7.0,
+    "watercolor_fit_hits": [],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 10,
+    "truth_alignment_verdict": "ok",
+    "truth_alignment_reasons": [],
+    "truth_aligned_score": 10.0,
+    "score_capped_by_truth_checker": false,
+    "native_medium": "unknown",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": []
+    },
+    "translation_candidate": true,
+    "translation_candidate_hits": [
+      "artist book",
+      "small press"
+    ],
+    "source_purity_score": 7.0,
+    "source_purity_reason": "unknown native medium capped",
+    "dna_adjusted_score": 10,
+    "dna_score_delta": 0.36,
+    "dna_match_hits": [
+      "small businesses and local spaces",
+      "artist book",
+      "small press sequence"
+    ],
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "artist_book_printed_matter",
+        "title": "Artist Book / Printed Matter",
+        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+        "score": 3,
+        "hits": [
+          "small press"
+        ],
+        "best_formats": [
+          "book fair",
+          "zine fair",
+          "bookstore",
+          "small press",
+          "publication"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Artist Book / Printed Matter",
+    "portfolio_match_score": 3,
+    "submission_strategy": "soft_intro",
+    "submission_tone": "gentle and curious",
+    "visual_fit_score": 3.7,
+    "visual_fit_hits": [
+      "artist book",
+      "small press",
+      "artist_book",
+      "small_press"
+    ],
+    "career_buckets": [
+      "career_changing",
+      "publication_targets",
+      "book_zine_targets",
+      "global_reach",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "career_changing",
+    "differentiated_score": 10.13,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 1,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "publication_ecosystem",
+    "curator_patterns": [],
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "publication_targets",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength."
+  },
+  {
+    "title": "Japan Watercolor Society Annual Exhibition",
+    "organization": "日本水彩画会 (Japan Watercolor Society)",
+    "category": "japan_watercolor_institution",
+    "city": "Tokyo",
+    "country": "Japan",
+    "overall_score": 7.5,
+    "prestige_score": 7.5,
+    "difficulty_score": 6.0,
+    "confidence_level": "Medium",
+    "one_sentence": "Japan's primary professional watercolor society, holding annual exhibitions at major Tokyo venues open to non-member entries.",
+    "why_this_fits_short": "The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.",
+    "quick_action": "Research current membership structure, open entry process, exhibition dates, and submission requirements in Japanese.",
+    "source_url": "https://nihon-suisai.com/",
+    "submission_page": "",
+    "fees": "",
+    "deadline": "",
+    "three_bullets": [
+      "Core professional watercolor institution in Japan — presence here matters locally.",
+      "Accessible with N2 Japanese and Tokyo residency.",
+      "Builds the peer and professional relationships needed for the long term."
+    ],
+    "tags": [
+      "japan",
+      "watercolor",
+      "professional_association",
+      "local_credibility"
+    ],
+    "source_type": "global_seed",
+    "added_by": "global_opportunity_expander",
+    "added_at": "2026-06-01",
+    "verification_status": "partial",
+    "manual_review_needed": true,
+    "research_priority": "high",
+    "submission_process_known": false,
+    "deadline_verified": false,
+    "fees_verified": false,
+    "contact_verified": false,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "url_verification_status": "error",
+    "url_status_code": 0,
+    "url_final": "HTTPSConnectionPool(host='nihon-suisai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='nihon-suisai.com'",
+    "verification_summary": "Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.",
+    "last_verified": "2026-06-01",
+    "source_quality": "official_or_listing",
+    "category_label": "Japan Watercolor Institution",
+    "painting_gate_status": "promoted",
+    "painting_gate_hits": [
+      "watercolor"
+    ],
+    "painting_priority_score": 9.6,
+    "watercolor_fit_hits": [
+      "watercolor"
+    ],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 8.2,
+    "truth_alignment_verdict": "ok",
+    "truth_alignment_reasons": [],
+    "truth_aligned_score": 8.2,
+    "score_capped_by_truth_checker": false,
+    "native_medium": "painting",
+    "native_medium_hits": {
+      "painting": [
+        "watercolor"
+      ],
+      "photography": [],
+      "mixed": []
+    },
+    "translation_candidate": false,
+    "translation_candidate_hits": [],
+    "source_purity_score": 8.9,
+    "source_purity_reason": "native painting/works-on-paper boost",
+    "dna_adjusted_score": 7.92,
+    "dna_score_delta": -0.11,
+    "dna_match_hits": [
+      "small businesses and local spaces",
+      "soft color restraint",
+      "anti:spectacle-driven exhibition"
+    ],
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "community_local_visibility",
+        "title": "Community / Local Visibility",
+        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+        "score": 2,
+        "hits": [
+          "local",
+          "accessible"
+        ],
+        "best_formats": [
+          "cafe wall",
+          "market",
+          "popup",
+          "group show",
+          "local event"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Community / Local Visibility",
+    "portfolio_match_score": 2,
+    "submission_strategy": "formal_application",
+    "submission_tone": "clear and professional",
+    "uncapped_score": 9.0,
+    "score_sanity_note": "Score capped at 8.0 because source/verification strength is limited.",
+    "visual_fit_score": 0.45,
+    "visual_fit_hits": [
+      "watercolor"
+    ],
+    "career_buckets": [
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "relationship_builders",
+    "differentiated_score": 8.03,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 1,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "institutional_formal",
+    "curator_patterns": [],
+    "pre_final_guard_score": 7.5,
+    "final_score_guard_note": "Capped at 6.5 due to verification strength.",
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "research_needed"
+  },
+  {
+    "title": "Tokyo Arts and Space",
+    "category": "institutional",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 8.6,
+    "difficulty": "high",
+    "recommendation_strength": "investigate_when_ready",
+    "one_sentence": "Legitimate Tokyo government-funded arts institution with residencies and exhibitions, but currently no accessible application information.",
+    "three_bullets": [
+      "Established institutional venue operating multiple spaces across Tokyo—genuine credential if accepted",
+      "Strong thematic fit for work engaging Asian urban spaces and cultural documentation",
+      "High research burden: no visible current calls, unclear programming cycles, may require navigating Japanese-language resources"
+    ],
+    "quick_action": "Bookmark for systematic research later—not urgent without active deadline",
+    "why_this_fits_short": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 0,
+    "emotional_fit": 4,
+    "submission_score": 3,
+    "official_website": "https://www.tokyoartsandspace.jp/en/",
+    "submission_page": "https://www.tokyoartsandspace.jp/en/",
+    "source_url": "https://www.tokyoartsandspace.jp/en/",
+    "organization": "Tokyo Arts and Space",
+    "tags": [
+      "secondary",
+      "",
+      "high"
+    ],
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://www.tokyoartsandspace.jp/en/",
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Institutional / Grants",
+    "painting_priority_score": 6.4,
+    "watercolor_fit_hits": [],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 9.11,
+    "truth_alignment_verdict": "capped_negative_explanation",
+    "truth_alignment_reasons": [
+      "negative explanation: unclear, requires significant investigative work"
+    ],
+    "truth_aligned_score": 6.4,
+    "score_capped_by_truth_checker": true,
+    "native_medium": "unknown",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": []
+    },
+    "translation_candidate": false,
+    "translation_candidate_hits": [],
+    "source_purity_score": 6.4,
+    "source_purity_reason": "unknown native medium capped",
+    "dna_adjusted_score": 9.11,
+    "dna_score_delta": -0.35,
+    "dna_match_hits": [
+      "anti:spectacle-driven exhibition"
+    ],
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 1,
+        "hits": [
+          "urban"
+        ],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "community_local_visibility",
+        "title": "Community / Local Visibility",
+        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+        "score": 1,
+        "hits": [
+          "accessible"
+        ],
+        "best_formats": [
+          "cafe wall",
+          "market",
+          "popup",
+          "group show",
+          "local event"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Architecture / Memory / Place",
+    "portfolio_match_score": 1,
+    "submission_strategy": "formal_application",
+    "submission_tone": "clear and professional",
+    "visual_fit_score": 0.45,
+    "visual_fit_hits": [
+      "memory"
+    ],
+    "career_buckets": [
+      "high_confidence",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "high_confidence",
+    "differentiated_score": 9.46,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 1,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "institutional_formal",
+    "curator_patterns": [],
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "research_needed",
+    "uncapped_score": 9.0,
+    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength."
+  },
+  {
+    "title": "UTRECHT",
+    "category": "bookstore_gallery",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 8.6,
+    "difficulty": "low",
+    "recommendation_strength": "recommended",
+    "one_sentence": "Tokyo independent art bookstore with gallery space focused on zines and artist books—low-pressure venue where your work could exist as printed matter alongside exhibition.",
+    "three_bullets": [
+      "Perfect fit for work that bridges illustration and fine art without needing heavy conceptual framing",
+      "Bookstore context means your atmospheric architectural documentation could be presented as publications/zines",
+      "Located in Tokyo, minimal submission pressure, culturally appropriate context for Asian urban subject matter"
+    ],
+    "quick_action": "Visit their website to see current exhibitions and publications, get a feel for the space before considering a zine or small publication project",
+    "why_this_fits_short": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 1,
+    "emotional_fit": 9,
+    "submission_score": 9,
+    "official_website": "https://utrecht.jp/",
+    "submission_page": "https://utrecht.jp/",
+    "source_url": "https://utrecht.jp/",
+    "organization": "UTRECHT",
+    "tags": [
+      "secondary",
+      "",
+      "low"
+    ],
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://utrecht.jp/",
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Print / Zines / Bookstores",
+    "painting_priority_score": 9.6,
+    "watercolor_fit_hits": [
+      "watercolor",
+      "gallery",
+      "bookstore",
+      "artist book",
+      "zine"
+    ],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 10,
+    "truth_alignment_verdict": "ok",
+    "truth_alignment_reasons": [],
+    "truth_aligned_score": 10.0,
+    "score_capped_by_truth_checker": false,
+    "native_medium": "mixed",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": [
+        "zine",
+        "bookstore",
+        "utrecht"
+      ]
+    },
+    "translation_candidate": true,
+    "translation_candidate_hits": [
+      "artist book",
+      "zine",
+      "printed matter",
+      "bookstore"
+    ],
+    "source_purity_score": 9.0,
+    "source_purity_reason": "mixed medium / possible translation",
+    "dna_adjusted_score": 10,
+    "dna_score_delta": -0.22,
+    "dna_match_hits": [
+      "soft color restraint",
+      "artist book",
+      "small press sequence",
+      "bookstore/gallery hybrid presentation",
+      "anti:spectacle-driven exhibition",
+      "anti:heavy conceptual overstatement"
+    ],
+    "lineage_matches": [
+      {
+        "name": "Contemporary Printed Matter",
+        "hits": 3,
+        "boost": 1.2
+      }
+    ],
+    "lineage_score": 1.2,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "artist_book_printed_matter",
+        "title": "Artist Book / Printed Matter",
+        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+        "score": 6,
+        "hits": [
+          "artist book",
+          "zine",
+          "printed matter",
+          "publication"
+        ],
+        "best_formats": [
+          "book fair",
+          "zine fair",
+          "bookstore",
+          "small press",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 4,
+        "hits": [
+          "urban",
+          "atmospheric"
+        ],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "daily_poetic_photography",
+        "title": "Daily Poetic Photography",
+        "description": "A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.",
+        "score": 2,
+        "hits": [
+          "atmospheric"
+        ],
+        "best_formats": [
+          "online feature",
+          "zine",
+          "small publication",
+          "photobook",
+          "artist-run space"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Artist Book / Printed Matter",
+    "portfolio_match_score": 6,
+    "submission_strategy": "publication_pitch",
+    "submission_tone": "focused and editorial",
+    "uncapped_score": 10.0,
+    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
+    "visual_fit_score": 3.7,
+    "visual_fit_hits": [
+      "watercolor",
+      "artist book",
+      "artist_book",
+      "zine"
+    ],
+    "career_buckets": [
+      "career_changing",
+      "high_confidence",
+      "publication_targets",
+      "book_zine_targets",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "career_changing",
+    "differentiated_score": 10.59,
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 1,
+      "publication_ecosystem": 3,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "publication_ecosystem",
+    "curator_patterns": [
+      "photobook"
+    ],
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "japan_book_ecosystem",
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
+    "painting_gate_status": "promoted",
+    "painting_gate_hits": [
+      "watercolor"
+    ]
+  },
+  {
+    "title": "B&B Shimokitazawa",
+    "category": "bookstore_event",
+    "city": "Tokyo",
+    "priority": "C",
+    "overall_score": 8.6,
+    "difficulty": "low_effort_but_unclear_pathway",
+    "recommendation_strength": "low_priority_background_option",
+    "one_sentence": "A Tokyo bookstore event space that hosts artist talks and zine releases, but requires substantial context-building to determine actual fit.",
+    "three_bullets": [
+      "Low-pressure cultural venue in Shimokitazawa neighborhood with book/beer format",
+      "No clear submission pathway visible - would require cold outreach in Japanese",
+      "Better suited for artists with existing Japan presence or publication-based work"
+    ],
+    "quick_action": "Research current programming to see if they feature visual artists or primarily authors/watercolor artists, then decide if worth pursuing",
+    "why_this_fits_short": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+    "deadline": "Unknown",
+    "fees": "Unknown",
+    "predatory_risk": 1,
+    "emotional_fit": 6,
+    "submission_score": 2,
+    "official_website": "https://bookandbeer.com/",
+    "submission_page": "https://bookandbeer.com/",
+    "source_url": "https://bookandbeer.com/",
+    "organization": "Bookstore B&B",
+    "tags": [
+      "secondary",
+      "",
+      "low_effort_but_unclear_pathway"
+    ],
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://bookandbeer.com/",
+    "confidence_level": "High",
+    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
+    "verification_status": "partial",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "submission_process_known": true,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Print / Zines / Bookstores",
+    "painting_priority_score": 7.55,
+    "watercolor_fit_hits": [
+      "watercolor",
+      "bookstore",
+      "zine"
+    ],
+    "photo_only_risk_hits": [],
+    "watercolor_adjusted_score": 10,
+    "truth_alignment_verdict": "capped_negative_explanation",
+    "truth_alignment_reasons": [
+      "negative explanation: unclear"
+    ],
+    "truth_aligned_score": 6.4,
+    "score_capped_by_truth_checker": true,
+    "native_medium": "mixed",
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": [
+        "zine",
+        "bookstore"
+      ]
+    },
+    "translation_candidate": true,
+    "translation_candidate_hits": [
+      "artist book",
+      "zine",
+      "bookstore",
+      "publication"
+    ],
+    "source_purity_score": 6.75,
+    "source_purity_reason": "mixed medium / possible translation",
+    "dna_adjusted_score": 10,
+    "dna_score_delta": 0.6,
+    "dna_match_hits": [
+      "plants in urban/domestic spaces",
+      "small businesses and local spaces",
+      "soft color restraint",
+      "artist book",
+      "bookstore/gallery hybrid presentation"
+    ],
+    "lineage_matches": [
+      {
+        "name": "Contemporary Printed Matter",
+        "hits": 2,
+        "boost": 0.8
+      }
+    ],
+    "lineage_score": 0.8,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "artist_book_printed_matter",
+        "title": "Artist Book / Printed Matter",
+        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+        "score": 4,
+        "hits": [
+          "zine",
+          "publication"
+        ],
+        "best_formats": [
+          "book fair",
+          "zine fair",
+          "bookstore",
+          "small press",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "architecture_memory",
+        "title": "Architecture / Memory / Place",
+        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
+        "score": 2,
+        "hits": [],
+        "best_formats": [
+          "photobook",
+          "zine",
+          "small gallery",
+          "artist statement",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "daily_poetic_photography",
+        "title": "Daily Poetic Photography",
+        "description": "A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.",
+        "score": 1,
+        "hits": [],
+        "best_formats": [
+          "online feature",
+          "zine",
+          "small publication",
+          "photobook",
+          "artist-run space"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Artist Book / Printed Matter",
+    "portfolio_match_score": 4,
+    "submission_strategy": "publication_pitch",
+    "submission_tone": "focused and editorial",
+    "visual_fit_score": 3.7,
+    "visual_fit_hits": [
+      "watercolor",
+      "artist book",
+      "artist_book",
+      "zine"
+    ],
+    "career_buckets": [
+      "career_changing",
+      "high_confidence",
+      "publication_targets",
+      "book_zine_targets",
+      "easy_wins",
+      "relationship_builders",
+      "needs_research"
+    ],
+    "primary_bucket": "career_changing",
+    "differentiated_score": 10.59,
     "curator_personality_scores": {
       "quiet_poetic": 0,
       "independent_experimental": 0,
@@ -180,46 +1135,52 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "pre_final_guard_score": 8.0,
-    "final_score_guard_note": "Capped at 6.5 due to verification strength.",
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets"
+    "exclusive_primary_bucket": "publication_targets",
+    "uncapped_score": 9.8,
+    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
+    "painting_gate_status": "promoted",
+    "painting_gate_hits": [
+      "watercolor"
+    ],
+    "pre_final_guard_score": 8.6,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength."
   },
   {
-    "title": "219公募展6募集 >> Gallery219 ギャラリーニイク",
-    "name": "219公募展6募集 >> Gallery219 ギャラリーニイク",
-    "organization": "219公募展6募集 >> Gallery219 ギャラリーニイク",
+    "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
+    "name": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
+    "organization": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
     "category": "gallery",
     "city": "Tokyo",
     "overall_score": 7.9,
-    "one_sentence": "219公募展6募集 >> Gallery219 ギャラリーニイク may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.",
-    "suggested_display_summary": "219公募展6募集 >> Gallery219 ギャラリーニイク may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes.",
-    "why_this_fits_short": "219公募展6募集 >> Gallery219 ギャラリーニイク may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.",
+    "one_sentence": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ... may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.",
+    "suggested_display_summary": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ... may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes.",
+    "why_this_fits_short": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ... may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.",
     "quick_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
-    "source_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7",
-    "source_link": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7",
-    "official_website": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7",
-    "submission_page": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7",
+    "source_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013",
+    "source_link": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013",
+    "official_website": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013",
+    "submission_page": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013",
     "deadline": "",
     "fees": "",
     "difficulty": "medium",
     "three_bullets": [
       "Fit score: 78.",
-      "Actionability score: 100.",
-      "Risk score: 11.",
+      "Actionability score: 92.",
+      "Risk score: 15.",
       "Risk: Only one source found so far."
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
     "status": "research_next",
     "fit_score": 78,
-    "actionability_score": 100,
-    "risk_score": 11,
+    "actionability_score": 92,
+    "risk_score": 15,
     "import_source": "opportunity_intelligence_sprint_v1",
     "imported_at": "2026-05-31",
     "url_verification_status": "error",
     "url_status_code": 0,
-    "url_final": "Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf7",
+    "url_final": "Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da101",
     "confidence_level": "Medium",
     "verification_summary": "Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.",
     "verification_status": "partial",
@@ -270,7 +1231,7 @@
     ],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.27,
+    "dna_adjusted_score": 9.18,
     "dna_score_delta": 0.72,
     "dna_match_hits": [
       "quiet streets and lived-in places",
@@ -360,7 +1321,7 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "pre_final_guard_score": 8.0,
+    "pre_final_guard_score": 7.9,
     "final_score_guard_note": "Capped at 6.5 due to verification strength.",
     "recommendation_visibility": "show",
     "exclusive_primary_bucket": "research_needed"
@@ -418,13 +1379,13 @@
       "contact"
     ],
     "category_label": "Book Publishing",
-    "painting_priority_score": 6.83,
+    "painting_priority_score": 7.0,
     "watercolor_fit_hits": [],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.83,
+    "watercolor_adjusted_score": 8.73,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 7.83,
+    "truth_aligned_score": 8.73,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -472,856 +1433,6 @@
     "exclusive_primary_bucket": "research_needed",
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Capped at 7.6 due to verification strength."
-  },
-  {
-    "title": "Bologna Children's Book Fair Illustrators Exhibition",
-    "organization": "Bologna Children's Book Fair Illustrators Exhibition",
-    "official_website": "https://www.bolognachildrensbookfair.com/",
-    "source_url": "https://www.bolognachildrensbookfair.com/",
-    "source_type": "illustration_exhibition",
-    "region": "Global",
-    "country": "Global",
-    "native_medium": "painting",
-    "translation_candidate": false,
-    "overall_score": 7.8,
-    "differentiated_score": 8.88,
-    "watercolor_adjusted_score": 9.89,
-    "truth_aligned_score": 9.89,
-    "source_purity_score": 10,
-    "verification_bucket": "research_needed",
-    "verification_status": "partial",
-    "recommendation_visibility": "show",
-    "watercolor_fit_hits": [
-      "watercolor",
-      "works on paper",
-      "illustration",
-      "paper"
-    ],
-    "why_this_fits_short": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.",
-    "one_sentence": "Bologna Children's Book Fair Watercolor Artists Exhibition is a illustration exhibition source in Global for watercolor / works on paper research.",
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending.",
-    "manual_review_needed": true,
-    "import_status": "painting_discovery_seed",
-    "painting_gate_status": "promoted",
-    "painting_gate_hits": [
-      "watercolor",
-      "works on paper"
-    ],
-    "painting_priority_score": 9.6,
-    "photo_only_risk_hits": [],
-    "truth_alignment_verdict": "ok",
-    "truth_alignment_reasons": [],
-    "score_capped_by_truth_checker": false,
-    "native_medium_hits": {
-      "painting": [
-        "illustration"
-      ],
-      "photography": [],
-      "mixed": [
-        "book fair"
-      ]
-    },
-    "translation_candidate_hits": [
-      "artist book",
-      "book fair",
-      "works on paper",
-      "illustration"
-    ],
-    "source_purity_reason": "native painting/works-on-paper boost",
-    "dna_adjusted_score": 8.77,
-    "dna_score_delta": -0.11,
-    "dna_match_hits": [
-      "soft color restraint",
-      "artist book",
-      "anti:spectacle-driven exhibition"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [
-      {
-        "body_id": "artist_book_printed_matter",
-        "title": "Artist Book / Printed Matter",
-        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
-        "score": 3,
-        "hits": [
-          "book fair",
-          "paper"
-        ],
-        "best_formats": [
-          "book fair",
-          "zine fair",
-          "bookstore",
-          "small press",
-          "publication"
-        ]
-      }
-    ],
-    "recommended_body_of_work": "Artist Book / Printed Matter",
-    "portfolio_match_score": 3,
-    "submission_strategy": "publication_pitch",
-    "submission_tone": "focused and editorial",
-    "uncapped_score": 8.2,
-    "score_sanity_note": "Score capped at 8.0 because source/verification strength is limited.",
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://www.bolognachildrensbookfair.com/home/878.html",
-    "confidence_level": "Medium",
-    "verification_summary": "Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "submission_process_known": false,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": false,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Other",
-    "visual_fit_score": 2.4,
-    "visual_fit_hits": [
-      "watercolor",
-      "artist book",
-      "artist_book"
-    ],
-    "career_buckets": [
-      "career_changing",
-      "publication_targets",
-      "book_zine_targets",
-      "global_reach",
-      "easy_wins",
-      "needs_research"
-    ],
-    "primary_bucket": "career_changing",
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "pre_final_guard_score": 7.8,
-    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
-    "exclusive_primary_bucket": "publication_targets"
-  },
-  {
-    "title": "Hayama Artist Residency Submission Manager - Submittable",
-    "name": "Hayama Artist Residency Submission Manager - Submittable",
-    "organization": "Hayama Artist Residency Submission Manager - Submittable",
-    "category": "residency",
-    "city": "Japan / Tokyo / Online",
-    "overall_score": 8.6,
-    "one_sentence": "Residencies lead found through targeted research; useful if requirements and fit check out.",
-    "suggested_display_summary": "Residencies lead. Needs source review for details.",
-    "why_this_fits_short": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-    "quick_action": "Confirm deadline, duration, cost, location, and whether visual artists are eligible.",
-    "source_url": "https://hayamaartistresidency.submittable.com/submit",
-    "source_link": "https://hayamaartistresidency.submittable.com/submit",
-    "official_website": "https://hayamaartistresidency.submittable.com/submit",
-    "submission_page": "https://hayamaartistresidency.submittable.com/submit",
-    "deadline": "",
-    "fees": "",
-    "difficulty": "medium",
-    "three_bullets": [
-      "Source category: Residencies.",
-      "Search group: residencies.",
-      "First action: Confirm deadline, duration, cost, location, and whether visual artists are eligible.",
-      "Detected signals: application/form signal."
-    ],
-    "career_category": "residencies",
-    "opportunity_type": "residencies",
-    "status": "research_next",
-    "confidence": 73,
-    "import_source": "multi_ingress_sprint_v1",
-    "source_candidate_id": "MULTI-0158",
-    "imported_at": "2026-05-31",
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://hayamaartistresidency.submittable.com/submit",
-    "confidence_level": "Medium",
-    "verification_summary": "Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": true,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": false,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Residencies / Longer Projects",
-    "painting_priority_score": 7.0,
-    "watercolor_fit_hits": [
-      "residency"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.48,
-    "truth_alignment_verdict": "ok",
-    "truth_alignment_reasons": [],
-    "truth_aligned_score": 9.48,
-    "score_capped_by_truth_checker": false,
-    "native_medium": "unknown",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 7.0,
-    "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.2,
-    "dna_score_delta": 0.12,
-    "dna_match_hits": [
-      "artist book"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [],
-    "recommended_body_of_work": "General Portfolio",
-    "portfolio_match_score": 0,
-    "submission_strategy": "formal_application",
-    "submission_tone": "clear and professional",
-    "uncapped_score": 9.0,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
-    "visual_fit_score": 0.0,
-    "visual_fit_hits": [],
-    "career_buckets": [
-      "high_confidence",
-      "easy_wins",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 9.08,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed",
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 7.6 due to verification strength."
-  },
-  {
-    "title": "Cafe Cross Point",
-    "category": "cafe_gallery",
-    "city": "Koenji",
-    "priority": "C",
-    "overall_score": 8.6,
-    "difficulty": "Low",
-    "recommendation_strength": "Skip",
-    "one_sentence": "A Koenji cafe gallery with minimal verifiable information and unclear exhibition standards or curatorial vision.",
-    "three_bullets": [
-      "Very limited institutional weight; primarily a cafe with wall space",
-      "May offer low-pressure exhibition experience in culturally appropriate Tokyo neighborhood",
-      "Insufficient information available to assess curatorial quality or audience engagement"
-    ],
-    "quick_action": "Visit website to verify if they actually host curated exhibitions vs. casual rotating decor",
-    "why_this_fits_short": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
-    "deadline": "Unknown",
-    "fees": "Unknown",
-    "predatory_risk": 2,
-    "emotional_fit": 7,
-    "submission_score": 4,
-    "official_website": "https://cafecrosspoint.jp/",
-    "submission_page": "https://cafecrosspoint.jp/",
-    "source_url": "https://cafecrosspoint.jp/",
-    "organization": "Cafe Cross Point",
-    "tags": [
-      "secondary",
-      "",
-      "Low"
-    ],
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://cafecrosspoint.jp/",
-    "confidence_level": "High",
-    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": true,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": false,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Cafe / Local Wall Spaces",
-    "painting_priority_score": 6.4,
-    "watercolor_fit_hits": [
-      "gallery"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 7.95,
-    "truth_alignment_verdict": "capped_negative_explanation",
-    "truth_alignment_reasons": [
-      "negative explanation: unclear"
-    ],
-    "truth_aligned_score": 6.4,
-    "score_capped_by_truth_checker": true,
-    "native_medium": "unknown",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 6.4,
-    "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.07,
-    "dna_score_delta": -0.23,
-    "dna_match_hits": [
-      "bookstore/gallery hybrid presentation",
-      "anti:spectacle-driven exhibition"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [
-      {
-        "body_id": "community_local_visibility",
-        "title": "Community / Local Visibility",
-        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
-        "score": 3,
-        "hits": [
-          "cafe",
-          "local",
-          "wall"
-        ],
-        "best_formats": [
-          "cafe wall",
-          "market",
-          "popup",
-          "group show",
-          "local event"
-        ]
-      }
-    ],
-    "recommended_body_of_work": "Community / Local Visibility",
-    "portfolio_match_score": 3,
-    "submission_strategy": "soft_intro",
-    "submission_tone": "gentle and curious",
-    "visual_fit_score": 0.0,
-    "visual_fit_hits": [],
-    "career_buckets": [
-      "high_confidence",
-      "easy_wins",
-      "relationship_builders",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 9.3,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "relationship_builders",
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
-    "uncapped_score": 9.0,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited."
-  },
-  {
-    "title": "2026 松濤美術館公募展｜渋谷区立松濤美術館",
-    "name": "2026 松濤美術館公募展｜渋谷区立松濤美術館",
-    "organization": "2026 松濤美術館公募展｜渋谷区立松濤美術館",
-    "category": "gallery_event",
-    "city": "Japan / Tokyo / Online",
-    "overall_score": 8.6,
-    "one_sentence": "Open Calls / Contests lead found through targeted research; useful if requirements and fit check out.",
-    "suggested_display_summary": "Open Calls / Contests lead. Needs source review for details.",
-    "why_this_fits_short": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-    "quick_action": "Open the source and confirm deadline, fee, eligibility, and required image files.",
-    "source_url": "https://shoto-museum.jp/exhibitions/2026koubo/",
-    "source_link": "https://shoto-museum.jp/exhibitions/2026koubo/",
-    "official_website": "https://shoto-museum.jp/exhibitions/2026koubo/",
-    "submission_page": "",
-    "deadline": "Check source",
-    "fees": "",
-    "difficulty": "medium",
-    "three_bullets": [
-      "Source category: Open Calls / Contests.",
-      "Search group: open_calls_contests.",
-      "First action: Open the source and confirm deadline, fee, eligibility, and required image files.",
-      "Detected signals: deadline signal."
-    ],
-    "career_category": "contests",
-    "opportunity_type": "open_calls_contests",
-    "status": "research_next",
-    "confidence": 76,
-    "import_source": "multi_ingress_sprint_v1",
-    "source_candidate_id": "MULTI-0029",
-    "imported_at": "2026-05-31",
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://shoto-museum.jp/exhibitions/2026koubo/",
-    "confidence_level": "Medium",
-    "verification_summary": "Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": false,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": true,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "submission process",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Galleries / Exhibition Calls",
-    "painting_priority_score": 7.0,
-    "watercolor_fit_hits": [
-      "gallery"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.01,
-    "truth_alignment_verdict": "ok",
-    "truth_alignment_reasons": [],
-    "truth_aligned_score": 9.01,
-    "score_capped_by_truth_checker": false,
-    "native_medium": "unknown",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 7.0,
-    "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.73,
-    "dna_score_delta": -0.23,
-    "dna_match_hits": [
-      "bookstore/gallery hybrid presentation",
-      "anti:single-image contest logic unless the image is unusually strong"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [],
-    "recommended_body_of_work": "General Portfolio",
-    "portfolio_match_score": 0,
-    "submission_strategy": "quiet_high_prestige",
-    "submission_tone": "restrained and confident",
-    "uncapped_score": 9.2,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
-    "visual_fit_score": 0.0,
-    "visual_fit_hits": [],
-    "career_buckets": [
-      "high_confidence",
-      "easy_wins",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 8.96,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 8.2 due to verification strength.",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed"
-  },
-  {
-    "title": "Tokyo Wonder Site / TOKAS Residency",
-    "category": "residency",
-    "city": "Tokyo",
-    "priority": "C",
-    "overall_score": 8.6,
-    "difficulty": "very_high",
-    "recommendation_strength": "strong_but_not_actionable",
-    "one_sentence": "TOKAS is a highly respected Tokyo residency that would be excellent for your practice, but this listing is a program archive, not an active call—deadline and application details are unavailable.",
-    "three_bullets": [
-      "Strong institutional fit: government-funded program supporting international artists working with Japanese cultural contexts",
-      "Aligns well with your research into Asian urbanism and disappearing spaces, particularly if focused on Tokyo's vernacular architecture",
-      "Cannot be pursued currently—you would need to monitor their website for when the next open call is announced"
-    ],
-    "quick_action": "Bookmark their residency page and check quarterly for new calls, or subscribe to their announcements if available",
-    "why_this_fits_short": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
-    "deadline": "Unknown",
-    "fees": "Unknown",
-    "predatory_risk": 0,
-    "emotional_fit": 4,
-    "submission_score": 2,
-    "official_website": "https://www.tokyoartsandspace.jp/en/archive/residence/",
-    "submission_page": "https://www.tokyoartsandspace.jp/en/archive/residence/",
-    "source_url": "https://www.tokyoartsandspace.jp/en/archive/residence/",
-    "organization": "Tokyo Arts and Space",
-    "tags": [
-      "secondary",
-      "",
-      "very_high"
-    ],
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://www.tokyoartsandspace.jp/en/archive/residence/",
-    "confidence_level": "High",
-    "verification_summary": "Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": true,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": false,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Residencies / Longer Projects",
-    "painting_priority_score": 7.8,
-    "watercolor_fit_hits": [
-      "watercolor",
-      "residency"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.9,
-    "truth_alignment_verdict": "ok",
-    "truth_alignment_reasons": [],
-    "truth_aligned_score": 9.9,
-    "score_capped_by_truth_checker": false,
-    "native_medium": "unknown",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 7.0,
-    "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.74,
-    "dna_score_delta": 0.13,
-    "dna_match_hits": [
-      "human trace rather than direct portraiture",
-      "soft color restraint",
-      "place as emotional subject",
-      "artist book",
-      "anti:craft-fair positioning"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [
-      {
-        "body_id": "architecture_memory",
-        "title": "Architecture / Memory / Place",
-        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
-        "score": 2,
-        "hits": [
-          "architecture",
-          "urban"
-        ],
-        "best_formats": [
-          "photobook",
-          "zine",
-          "small gallery",
-          "artist statement",
-          "publication"
-        ]
-      }
-    ],
-    "recommended_body_of_work": "Architecture / Memory / Place",
-    "portfolio_match_score": 2,
-    "submission_strategy": "formal_application",
-    "submission_tone": "clear and professional",
-    "visual_fit_score": 0.9,
-    "visual_fit_hits": [
-      "watercolor",
-      "memory"
-    ],
-    "career_buckets": [
-      "high_confidence",
-      "global_reach",
-      "easy_wins",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 9.61,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 2,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "institutional_formal",
-    "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed",
-    "painting_gate_status": "promoted",
-    "painting_gate_hits": [
-      "watercolor"
-    ],
-    "uncapped_score": 9.0,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 7.6 due to verification strength."
-  },
-  {
-    "title": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
-    "name": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
-    "organization": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
-    "category": "gallery_event",
-    "city": "Japan / Tokyo / Online",
-    "overall_score": 8.6,
-    "one_sentence": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ... is worth checking because open calls can turn existing portfolio work into a concrete application.",
-    "suggested_display_summary": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ... is worth checking because open calls can turn existing portfolio work into a concrete application.",
-    "why_this_fits_short": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ... is worth checking because open calls can turn existing portfolio work into a concrete application.",
-    "quick_action": "Confirm deadline, fee, eligibility, required images, and application form.",
-    "source_url": "http://toten.jp.net/",
-    "source_link": "http://toten.jp.net/",
-    "official_website": "http://toten.jp.net/",
-    "submission_page": "",
-    "deadline": "Check source",
-    "fees": "",
-    "difficulty": "medium",
-    "three_bullets": [
-      "Fit score: 83.",
-      "Actionability score: 88.",
-      "Risk score: 14.",
-      "Risk: Application route may be unclear.; Only one source found so far."
-    ],
-    "career_category": "contests",
-    "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
-    "fit_score": 83,
-    "actionability_score": 88,
-    "risk_score": 14,
-    "import_source": "opportunity_intelligence_sprint_v1",
-    "imported_at": "2026-05-31",
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://toten.jp.net/",
-    "confidence_level": "Medium",
-    "verification_summary": "Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": false,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": true,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "submission process",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Galleries / Exhibition Calls",
-    "painting_priority_score": 6.4,
-    "watercolor_fit_hits": [
-      "gallery"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.36,
-    "truth_alignment_verdict": "capped_negative_explanation",
-    "truth_alignment_reasons": [
-      "negative explanation: unclear"
-    ],
-    "truth_aligned_score": 6.4,
-    "score_capped_by_truth_checker": true,
-    "native_medium": "unknown",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 6.4,
-    "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.08,
-    "dna_score_delta": 0.12,
-    "dna_match_hits": [
-      "bookstore/gallery hybrid presentation"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [],
-    "recommended_body_of_work": "General Portfolio",
-    "portfolio_match_score": 0,
-    "submission_strategy": "quiet_high_prestige",
-    "submission_tone": "restrained and confident",
-    "uncapped_score": 9.2,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
-    "visual_fit_score": 0.0,
-    "visual_fit_hits": [],
-    "career_buckets": [
-      "high_confidence",
-      "easy_wins",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 8.96,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 8.2 due to verification strength.",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed"
-  },
-  {
-    "title": "NEW AIR",
-    "name": "NEW AIR",
-    "organization": "NEW AIR",
-    "category": "residency",
-    "city": "Japan / Tokyo / Online",
-    "overall_score": 8.6,
-    "one_sentence": "NEW AIR may matter later if her portfolio package and project statement become strong enough.",
-    "suggested_display_summary": "NEW AIR may matter later if her portfolio package and project statement become strong enough.",
-    "why_this_fits_short": "NEW AIR may matter later if her portfolio package and project statement become strong enough.",
-    "quick_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
-    "source_url": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
-    "source_link": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
-    "official_website": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
-    "submission_page": "",
-    "deadline": "Check source",
-    "fees": "",
-    "difficulty": "medium",
-    "three_bullets": [
-      "Fit score: 70.",
-      "Actionability score: 88.",
-      "Risk score: 21.",
-      "Risk: Application route may be unclear.; Only one source found so far."
-    ],
-    "career_category": "residencies",
-    "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
-    "fit_score": 70,
-    "actionability_score": 88,
-    "risk_score": 21,
-    "import_source": "opportunity_intelligence_sprint_v1",
-    "imported_at": "2026-05-31",
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
-    "confidence_level": "Medium",
-    "verification_summary": "Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": false,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": true,
-    "source_quality": "official_or_listing",
-    "missing_fields": [
-      "submission process",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Residencies / Longer Projects",
-    "painting_priority_score": 6.4,
-    "watercolor_fit_hits": [
-      "residency"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 8.89,
-    "truth_alignment_verdict": "capped_negative_explanation",
-    "truth_alignment_reasons": [
-      "negative explanation: unclear"
-    ],
-    "truth_aligned_score": 6.4,
-    "score_capped_by_truth_checker": true,
-    "native_medium": "unknown",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": []
-    },
-    "translation_candidate": false,
-    "translation_candidate_hits": [],
-    "source_purity_score": 6.4,
-    "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 8.61,
-    "dna_score_delta": -0.35,
-    "dna_match_hits": [
-      "anti:single-image contest logic unless the image is unusually strong"
-    ],
-    "lineage_matches": [],
-    "lineage_score": 0,
-    "corporate_penalty": 0,
-    "portfolio_matches": [],
-    "recommended_body_of_work": "General Portfolio",
-    "portfolio_match_score": 0,
-    "submission_strategy": "formal_application",
-    "submission_tone": "clear and professional",
-    "uncapped_score": 9.2,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
-    "visual_fit_score": 0.0,
-    "visual_fit_hits": [],
-    "career_buckets": [
-      "high_confidence",
-      "easy_wins",
-      "needs_research"
-    ],
-    "primary_bucket": "high_confidence",
-    "differentiated_score": 8.96,
-    "curator_personality_scores": {
-      "quiet_poetic": 0,
-      "independent_experimental": 0,
-      "publication_ecosystem": 0,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 8.2 due to verification strength.",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed"
   },
   {
     "title": "Jackson's Art Prize",
@@ -1472,65 +1583,65 @@
     "exclusive_primary_bucket": "publication_targets"
   },
   {
-    "title": "Belladonna Art Competition",
-    "name": "Belladonna Art Competition",
-    "organization": "Belladonna Art Competition",
-    "category": "gallery_event",
+    "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+    "name": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+    "organization": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+    "category": "residency",
     "city": "Japan / Tokyo / Online",
     "overall_score": 8.6,
-    "one_sentence": "Belladonna Art Competition is worth checking because open calls can turn existing portfolio work into a concrete application.",
-    "suggested_display_summary": "Belladonna Art Competition is worth checking because open calls can turn existing portfolio work into a concrete application.",
-    "why_this_fits_short": "Belladonna Art Competition is worth checking because open calls can turn existing portfolio work into a concrete application.",
-    "quick_action": "Confirm deadline, fee, eligibility, required images, and application form.",
-    "source_url": "https://www.art-belladonna.jp/youkou",
-    "source_link": "https://www.art-belladonna.jp/youkou",
-    "official_website": "https://www.art-belladonna.jp/youkou",
-    "submission_page": "https://www.art-belladonna.jp/youkou",
+    "one_sentence": "Residencies lead found through targeted research; useful if requirements and fit check out.",
+    "suggested_display_summary": "Residencies lead. Needs source review for details.",
+    "why_this_fits_short": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+    "quick_action": "Confirm deadline, duration, cost, location, and whether visual artists are eligible.",
+    "source_url": "https://kiac.jp/en/article/2927/",
+    "source_link": "https://kiac.jp/en/article/2927/",
+    "official_website": "https://kiac.jp/en/article/2927/",
+    "submission_page": "",
     "deadline": "Check source",
     "fees": "",
     "difficulty": "medium",
     "three_bullets": [
-      "Fit score: 91.",
-      "Actionability score: 100.",
-      "Risk score: 4.",
-      "Risk: Only one source found so far."
+      "Source category: Residencies.",
+      "Search group: residencies.",
+      "First action: Confirm deadline, duration, cost, location, and whether visual artists are eligible.",
+      "Detected signals: deadline signal."
     ],
-    "career_category": "contests",
-    "opportunity_type": "enriched_opportunity",
+    "career_category": "residencies",
+    "opportunity_type": "residencies",
     "status": "research_next",
-    "fit_score": 91,
-    "actionability_score": 100,
-    "risk_score": 4,
-    "import_source": "opportunity_intelligence_sprint_v1",
+    "confidence": 70,
+    "import_source": "multi_ingress_sprint_v1",
+    "source_candidate_id": "MULTI-0126",
     "imported_at": "2026-05-31",
     "url_verification_status": "ok",
     "url_status_code": 200,
-    "url_final": "https://www.art-belladonna.jp/youkou",
-    "confidence_level": "High",
-    "verification_summary": "Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.",
+    "url_final": "https://kiac.jp/en/article/2927/",
+    "confidence_level": "Medium",
+    "verification_summary": "Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.",
     "verification_status": "partial",
     "last_verified": "2026-06-01",
     "research_priority": "high",
     "manual_review_needed": true,
-    "submission_process_known": true,
+    "submission_process_known": false,
     "contact_verified": false,
     "fees_verified": false,
     "deadline_verified": true,
     "source_quality": "official_or_listing",
     "missing_fields": [
+      "submission process",
       "fees",
       "contact"
     ],
-    "category_label": "Galleries / Exhibition Calls",
+    "category_label": "Residencies / Longer Projects",
     "painting_priority_score": 7.0,
     "watercolor_fit_hits": [
-      "gallery"
+      "residency"
     ],
     "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 9.8,
+    "watercolor_adjusted_score": 9.36,
     "truth_alignment_verdict": "ok",
     "truth_alignment_reasons": [],
-    "truth_aligned_score": 9.8,
+    "truth_aligned_score": 9.36,
     "score_capped_by_truth_checker": false,
     "native_medium": "unknown",
     "native_medium_hits": {
@@ -1542,10 +1653,10 @@
     "translation_candidate_hits": [],
     "source_purity_score": 7.0,
     "source_purity_reason": "unknown native medium capped",
-    "dna_adjusted_score": 9.32,
+    "dna_adjusted_score": 9.08,
     "dna_score_delta": 0.12,
     "dna_match_hits": [
-      "bookstore/gallery hybrid presentation"
+      "artist book"
     ],
     "lineage_matches": [],
     "lineage_score": 0,
@@ -1553,9 +1664,9 @@
     "portfolio_matches": [],
     "recommended_body_of_work": "General Portfolio",
     "portfolio_match_score": 0,
-    "submission_strategy": "quiet_high_prestige",
-    "submission_tone": "restrained and confident",
-    "uncapped_score": 9.6,
+    "submission_strategy": "formal_application",
+    "submission_tone": "clear and professional",
+    "uncapped_score": 9.2,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "visual_fit_score": 0.0,
     "visual_fit_hits": [],
@@ -1565,7 +1676,7 @@
       "needs_research"
     ],
     "primary_bucket": "high_confidence",
-    "differentiated_score": 9.2,
+    "differentiated_score": 8.96,
     "curator_personality_scores": {
       "quiet_poetic": 0,
       "independent_experimental": 0,
@@ -1575,9 +1686,154 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed",
     "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 8.2 due to verification strength."
+    "final_score_guard_note": "Capped at 8.2 due to verification strength.",
+    "recommendation_visibility": "show",
+    "exclusive_primary_bucket": "research_needed"
+  },
+  {
+    "title": "Gallery IRO",
+    "organization": "Gallery IRO",
+    "official_website": "https://1-6.jp/",
+    "source_url": "https://1-6.jp/",
+    "source_type": "local_gallery",
+    "region": "Tokyo",
+    "country": "Tokyo",
+    "native_medium": "unknown",
+    "translation_candidate": true,
+    "overall_score": 7.8,
+    "differentiated_score": 8.88,
+    "watercolor_adjusted_score": 10,
+    "truth_aligned_score": 10.0,
+    "source_purity_score": 7.0,
+    "verification_bucket": "research_needed",
+    "verification_status": "partial",
+    "recommendation_visibility": "show",
+    "watercolor_fit_hits": [
+      "watercolor",
+      "works on paper",
+      "gallery",
+      "paper"
+    ],
+    "why_this_fits_short": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.",
+    "one_sentence": "Gallery IRO is a local gallery source in Tokyo for watercolor / works on paper research.",
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending.",
+    "manual_review_needed": true,
+    "import_status": "painting_discovery_seed",
+    "painting_gate_status": "promoted",
+    "painting_gate_hits": [
+      "watercolor",
+      "works on paper"
+    ],
+    "painting_priority_score": 7.8,
+    "photo_only_risk_hits": [],
+    "truth_alignment_verdict": "ok",
+    "truth_alignment_reasons": [],
+    "score_capped_by_truth_checker": false,
+    "native_medium_hits": {
+      "painting": [],
+      "photography": [],
+      "mixed": []
+    },
+    "translation_candidate_hits": [
+      "artist book",
+      "works on paper"
+    ],
+    "source_purity_reason": "unknown native medium capped",
+    "dna_adjusted_score": 9.36,
+    "dna_score_delta": 0.48,
+    "dna_match_hits": [
+      "small businesses and local spaces",
+      "soft color restraint",
+      "artist book",
+      "bookstore/gallery hybrid presentation"
+    ],
+    "lineage_matches": [],
+    "lineage_score": 0,
+    "corporate_penalty": 0,
+    "portfolio_matches": [
+      {
+        "body_id": "artist_book_printed_matter",
+        "title": "Artist Book / Printed Matter",
+        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
+        "score": 1,
+        "hits": [
+          "paper"
+        ],
+        "best_formats": [
+          "book fair",
+          "zine fair",
+          "bookstore",
+          "small press",
+          "publication"
+        ]
+      },
+      {
+        "body_id": "community_local_visibility",
+        "title": "Community / Local Visibility",
+        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
+        "score": 1,
+        "hits": [
+          "local"
+        ],
+        "best_formats": [
+          "cafe wall",
+          "market",
+          "popup",
+          "group show",
+          "local event"
+        ]
+      }
+    ],
+    "recommended_body_of_work": "Artist Book / Printed Matter",
+    "portfolio_match_score": 1,
+    "submission_strategy": "quiet_high_prestige",
+    "submission_tone": "restrained and confident",
+    "url_verification_status": "ok",
+    "url_status_code": 200,
+    "url_final": "https://1-6.jp/",
+    "confidence_level": "Medium",
+    "verification_summary": "Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.",
+    "last_verified": "2026-06-01",
+    "research_priority": "high",
+    "submission_process_known": false,
+    "contact_verified": false,
+    "fees_verified": false,
+    "deadline_verified": false,
+    "source_quality": "official_or_listing",
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category_label": "Other",
+    "visual_fit_score": 2.4,
+    "visual_fit_hits": [
+      "watercolor",
+      "artist book",
+      "artist_book"
+    ],
+    "career_buckets": [
+      "career_changing",
+      "publication_targets",
+      "book_zine_targets",
+      "global_reach",
+      "easy_wins",
+      "needs_research"
+    ],
+    "primary_bucket": "career_changing",
+    "curator_personality_scores": {
+      "quiet_poetic": 0,
+      "independent_experimental": 0,
+      "publication_ecosystem": 0,
+      "institutional_formal": 0,
+      "commercial_surface": 0
+    },
+    "dominant_curator_personality": "quiet_poetic",
+    "curator_patterns": [],
+    "pre_final_guard_score": 7.8,
+    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
+    "exclusive_primary_bucket": "publication_targets"
   }
 ]

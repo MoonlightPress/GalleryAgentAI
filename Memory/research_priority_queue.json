@@ -132,7 +132,7 @@
       "contact_email",
       "official_website"
     ],
-    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
+    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
   },
   {
     "title": "Japan Watercolor Society Annual Exhibition",
@@ -225,6 +225,32 @@
     "research_priority_score": 11.3,
     "country": "Global",
     "category": "zine_print",
+    "missing_fields": [
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Open and verify whether this is current and relevant."
+  },
+  {
+    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+    "score": 8.6,
+    "research_priority_score": 11.3,
+    "country": "Global",
+    "category": "zine_print",
+    "missing_fields": [
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Open and verify whether this is current and relevant."
+  },
+  {
+    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+    "score": 8.6,
+    "research_priority_score": 11.3,
+    "country": "Global",
+    "category": "photo_open_call",
     "missing_fields": [
       "fees",
       "deadline",
@@ -528,34 +554,6 @@
   },
   {
     "title": "3 Top Book Publishers in Tokyo in 2026",
-    "score": 8.6,
-    "research_priority_score": 10.2,
-    "country": null,
-    "category": "book_publishing",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
-  },
-  {
-    "title": "submissions — porkbelly press",
-    "score": 8.6,
-    "research_priority_score": 10.2,
-    "country": null,
-    "category": "book_publishing",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
-  },
-  {
-    "title": "3 Top Book Publishers in Japan in 2026",
     "score": 8.6,
     "research_priority_score": 10.2,
     "country": null,

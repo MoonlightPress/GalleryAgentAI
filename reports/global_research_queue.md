@@ -10,6 +10,14 @@ These are global or international opportunities that need verification before be
 - Missing: deadline, fees, contact
 - Next: Open and verify whether this is current and relevant.
 
+## OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at 
+- Score: 8.6/10
+- Country: Global
+- Category: zine_print
+- Source: https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235
+- Missing: deadline, fees, contact
+- Next: Open and verify whether this is current and relevant.
+
 ## Aperture | Photography
 - Score: 8.6/10
 - Country: Global
@@ -90,6 +98,14 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Research application routes (often via home country cultural institutions or direct application), eligibility, and current availability.
 
+## Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou
+- Score: 8.6/10
+- Country: Global
+- Category: photo_open_call
+- Source: https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457
+- Missing: deadline, fees, contact
+- Next: Open and verify whether this is current and relevant.
+
 ## PhotoVogue
 - Score: 8.6/10
 - Country: Global
@@ -104,7 +120,7 @@ These are global or international opportunities that need verification before be
 - Category: global_artist_book_platform
 - Source: https://selfpublishbehappy.com/
 - Missing: submission process, deadline, fees, contact
-- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
+- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
 
 ## Printed Matter Art Book Fairs
 - Score: 8.0/10
@@ -250,14 +266,6 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Research current fellowship categories, eligibility (Chinese national based in Japan qualifies), application cycle, and past recipients in watercolor / works on paper/works on paper.
 
-## OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at 
-- Score: 7.5/10
-- Country: Global
-- Category: zine_print
-- Source: https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235
-- Missing: deadline, fees, contact
-- Next: Open and verify whether this is current and relevant.
-
 ## Japan Watercolor Society Annual Exhibition
 - Score: 7.5/10
 - Country: Japan
@@ -265,14 +273,6 @@ These are global or international opportunities that need verification before be
 - Source: https://nihon-suisai.com/
 - Missing: submission process, deadline, fees, contact
 - Next: Research current membership structure, open entry process, exhibition dates, and submission requirements in Japanese.
-
-## Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou
-- Score: 7.5/10
-- Country: Global
-- Category: photo_open_call
-- Source: https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457
-- Missing: deadline, fees, contact
-- Next: Open and verify whether this is current and relevant.
 
 ## Communication Arts Illustration Competition
 - Score: 6.7/10

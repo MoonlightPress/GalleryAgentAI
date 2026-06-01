@@ -143,6 +143,25 @@
     "country": "Global"
   },
   {
+    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
     "title": "Aperture | Photography",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -644,6 +663,22 @@
     "country": "Global"
   },
   {
+    "title": "Applications — Little Tokyo Zine Fest",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
     "title": "Center for Book Arts Opportunities",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -754,23 +789,6 @@
     "country": "Global"
   },
   {
-    "title": "Applications — Little Tokyo Zine Fest",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
     "title": "Youkobo Art Space",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -855,6 +873,22 @@
     "country": null
   },
   {
+    "title": "SCCP Guest Artist",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
     "title": "Printed Matter Art Book Fairs",
     "score": 8.0,
     "confidence_grade": "needs review",
@@ -930,22 +964,6 @@
     "country": null
   },
   {
-    "title": "Tokyo Arts and Space",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
     "title": "AIT Residency",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -958,6 +976,22 @@
       "contact"
     ],
     "category": "Residencies / Longer Projects",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Tokyo Arts and Space",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Institutional / Grants",
     "city": "Tokyo",
     "country": null
   },
@@ -1086,22 +1120,6 @@
     "country": null
   },
   {
-    "title": "Cafe Cross Point",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
-    "country": null
-  },
-  {
     "title": "Cafe Mame-Hico",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -1119,6 +1137,22 @@
   },
   {
     "title": "Yonchome Cafe",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
+    "country": null
+  },
+  {
+    "title": "Cafe Cross Point",
     "score": 8.6,
     "confidence_grade": "needs review",
     "positive_reasons": [],
@@ -1198,6 +1232,22 @@
     "country": null
   },
   {
+    "title": "VACANT",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Artist Spaces",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
     "title": "Gallery IRO",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -1226,22 +1276,6 @@
       "contact"
     ],
     "category": "Galleries / Exhibition Calls",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "VACANT",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Artist Spaces",
     "city": "Tokyo",
     "country": null
   },
@@ -1512,40 +1546,6 @@
     "country": null
   },
   {
-    "title": "SCCP Guest Artist",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-    "score": 7.5,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
     "title": "POST",
     "score": 8.0,
     "confidence_grade": "needs review",
@@ -1619,6 +1619,25 @@
     "category": "Book Publishing",
     "city": "Japan / Tokyo / Online",
     "country": null
+  },
+  {
+    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
   },
   {
     "title": "Open Calls for Artists",
@@ -2612,23 +2631,6 @@
     "country": "Japan"
   },
   {
-    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
-    "score": 7.5,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
     "title": "Publishing / Artist Books — Battle Plan",
     "score": 6.5,
     "confidence_grade": "normal",
@@ -2979,7 +2981,7 @@
   },
   {
     "title": "Picaresque Gallery",
-    "score": 5.1,
+    "score": 4.7,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -2992,7 +2994,7 @@
   },
   {
     "title": "Spiral",
-    "score": 4.6,
+    "score": 4.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],

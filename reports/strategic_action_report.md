@@ -15,8 +15,8 @@ Strong places to research if the work becomes a sequence, zine, or photobook.
 
 1. **B&B Shimokitazawa** — score 7.6, visual 3.7, verification . Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 2. **Submissions — Clavis Publishing** — score 7.6, visual 3.7, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-3. **Fukuoka Art Book Fair** — score 8.2, visual 3.25, verification . Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
-4. **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 7.6, visual 3.25, verification . Possible fit based on link text: zine, open call
+3. **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 7.6, visual 3.25, verification . Possible fit based on link text: zine, open call
+4. **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 7.6, visual 3.25, verification . Possible fit based on link text: zine, open call, residency
 5. **Browse opportunities | CuratorSpace** — score 7.6, visual 3.7, verification . Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 6. **» 21 Terrific Small Presses Open to Direct Submissions** — score 7.6, visual 3.7, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 7. **SUBMISSIONS - marblepress.com** — score 7.6, visual 3.7, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
@@ -49,9 +49,9 @@ Lower-pressure spaces useful for familiarity, soft outreach, or small first step
 2. **3331 Arts Chiyoda** — score 7.6, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach
 3. **BONUS TRACK** — score 7.6, visual 0.0, verification . Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit
 4. **Koganecho Area Management Center** — score 7.6, visual 0.0, verification . Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
-5. **Cafe Cross Point** — score 7.6, visual 0.0, verification . Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.
-6. **Cafe Mame-Hico** — score 7.6, visual 0.0, verification . Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.
-7. **Yonchome Cafe** — score 7.6, visual 0.0, verification . Japan location only - no other alignment with practice goals or preferred opportunity structure
+5. **Cafe Mame-Hico** — score 7.6, visual 0.0, verification . Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.
+6. **Yonchome Cafe** — score 7.6, visual 0.0, verification . Japan location only - no other alignment with practice goals or preferred opportunity structure
+7. **Cafe Cross Point** — score 7.6, visual 0.0, verification . Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.
 8. **Cafe Gallery HATTIFNATT** — score 7.6, visual 0.0, verification . Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.
 
 ## Needs Research
@@ -59,17 +59,17 @@ Lower-pressure spaces useful for familiarity, soft outreach, or small first step
 Do not recommend yet. These need submission/contact/deadline verification.
 
 1. **Aesthetica Art Prize** — score 7.6, visual 1.75, verification . Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
-2. **Applications — Little Tokyo Zine Fest** — score 8.2, visual 1.3, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-3. **Youkobo Art Space** — score 7.6, visual 0.9, verification . Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.
-4. **Tokyo Wonder Site / TOKAS Residency** — score 7.6, visual 0.9, verification . TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.
-5. **Comitia** — score 7.6, visual 0.75, verification . It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.
-6. **American Watercolor Society Annual International Exhibition** — score 7.6, visual 0.9, verification . Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice.
-7. **BankART1929** — score 7.6, visual 0.45, verification . Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
-8. **AIR 3331** — score 7.6, visual 0.45, verification . Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type
+2. **Youkobo Art Space** — score 7.6, visual 0.9, verification . Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.
+3. **Tokyo Wonder Site / TOKAS Residency** — score 7.6, visual 0.9, verification . TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.
+4. **Comitia** — score 7.6, visual 0.75, verification . It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.
+5. **American Watercolor Society Annual International Exhibition** — score 7.6, visual 0.9, verification . Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice.
+6. **BankART1929** — score 7.6, visual 0.45, verification . Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
+7. **AIR 3331** — score 7.6, visual 0.45, verification . Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type
+8. **AIT Residency** — score 7.6, visual 0.45, verification . Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.
 
 ## Low Priority
 
 Keep out of the main UI unless specifically requested.
 
-1. **Picaresque Gallery** — score 3.3, visual 0.45, verification . Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
-2. **Spiral** — score 2.8, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
+1. **Picaresque Gallery** — score 2.9000000000000004, visual 0.45, verification . Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
+2. **Spiral** — score 2.4000000000000004, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.

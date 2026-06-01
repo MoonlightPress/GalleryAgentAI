@@ -2,6 +2,12 @@
 
 This report suggests adjacent institutions and ecosystems.
 
+## Applications — Little Tokyo Zine Fest
+
+
+## SCCP Guest Artist
+
+
 ## Tokyo Art Book Fair
 
 - Offprint (similarity 4)
@@ -35,6 +41,9 @@ This report suggests adjacent institutions and ecosystems.
 ## AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin
 
 
+## OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at 
+
+
 ## Aperture | Photography
 
 - Self Publish, Be Happy (similarity 3)
@@ -47,13 +56,4 @@ This report suggests adjacent institutions and ecosystems.
 
 
 ## SUBMISSIONS - marblepress.com
-
-
-## 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]
-
-
-## Publishers & Publishing Services in Japan - PublishersGlobal.com
-
-
-## Submissions - Little Press Publishing
 

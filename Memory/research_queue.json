@@ -25,7 +25,6 @@
     "venue_slug": "applications_little_tokyo_zine_fest",
     "priority": "medium",
     "missing": [
-      "contact",
       "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
@@ -80,7 +79,6 @@
     "venue_slug": "sccp_guest_artist",
     "priority": "medium",
     "missing": [
-      "contact",
       "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
@@ -456,6 +454,16 @@
     "source": "https://www.comitia.co.jp/"
   },
   {
+    "venue_name": "reload",
+    "venue_slug": "reload",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://reload-shimokita.com/"
+  },
+  {
     "venue_name": "BankART1929",
     "venue_slug": "bankart1929",
     "priority": "medium",
@@ -486,6 +494,16 @@
     "source": "https://www.a-i-t.net/en/"
   },
   {
+    "venue_name": "Creema",
+    "venue_slug": "creema",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://hmj-fes.jp/"
+  },
+  {
     "venue_name": "BONUS TRACK",
     "venue_slug": "bonus_track",
     "priority": "medium",
@@ -506,16 +524,6 @@
     "source": "https://koganecho.net/"
   },
   {
-    "venue_name": "Design Festa",
-    "venue_slug": "design_festa",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://designfesta.com/"
-  },
-  {
     "venue_name": "Farmer's Market @ UNU",
     "venue_slug": "farmer_s_market_unu",
     "priority": "medium",
@@ -526,6 +534,16 @@
     "source": "https://farmersmarkets.jp/"
   },
   {
+    "venue_name": "Design Festa",
+    "venue_slug": "design_festa",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://designfesta.com/"
+  },
+  {
     "venue_name": "Cafe Cross Point",
     "venue_slug": "cafe_cross_point",
     "priority": "medium",
@@ -534,95 +552,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://cafecrosspoint.jp/"
-  },
-  {
-    "venue_name": "TAV Gallery",
-    "venue_slug": "tav_gallery",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tavgallery.com/"
-  },
-  {
-    "venue_name": "Gallery IRO",
-    "venue_slug": "gallery_iro",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://1-6.jp/iro/"
-  },
-  {
-    "venue_name": "Gallery HANA Shimokitazawa",
-    "venue_slug": "gallery_hana_shimokitazawa",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.g-hana.jp/"
-  },
-  {
-    "venue_name": "Hayama Artist Residency Submission Manager - Submittable",
-    "venue_slug": "hayama_artist_residency_submission_manager_submittable",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://hayamaartistresidency.submittable.com/submit"
-  },
-  {
-    "venue_name": "Hayama Artist Residency",
-    "venue_slug": "hayama_artist_residency",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://hayamaartistresidency.submittable.com/submit"
-  },
-  {
-    "venue_name": "Clavis Publishing Submissions",
-    "venue_slug": "clavis_publishing_submissions",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.clavis-publishing.com/submit"
-  },
-  {
-    "venue_name": "reload",
-    "venue_slug": "reload",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://reload-shimokita.com/"
-  },
-  {
-    "venue_name": "Creema",
-    "venue_slug": "creema",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://hmj-fes.jp/"
   },
   {
     "venue_name": "Cafe Mame-Hico",
@@ -675,6 +604,39 @@
     "source": "https://www.scaithebathhouse.com/"
   },
   {
+    "venue_name": "TAV Gallery",
+    "venue_slug": "tav_gallery",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://tavgallery.com/"
+  },
+  {
+    "venue_name": "Gallery IRO",
+    "venue_slug": "gallery_iro",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://1-6.jp/iro/"
+  },
+  {
+    "venue_name": "Gallery HANA Shimokitazawa",
+    "venue_slug": "gallery_hana_shimokitazawa",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.g-hana.jp/"
+  },
+  {
     "venue_name": "VACANT",
     "venue_slug": "vacant",
     "priority": "medium",
@@ -703,6 +665,42 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://galleryconceal.wixsite.com/gconceal"
+  },
+  {
+    "venue_name": "Hayama Artist Residency Submission Manager - Submittable",
+    "venue_slug": "hayama_artist_residency_submission_manager_submittable",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://hayamaartistresidency.submittable.com/submit"
+  },
+  {
+    "venue_name": "Hayama Artist Residency",
+    "venue_slug": "hayama_artist_residency",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://hayamaartistresidency.submittable.com/submit"
+  },
+  {
+    "venue_name": "Clavis Publishing Submissions",
+    "venue_slug": "clavis_publishing_submissions",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.clavis-publishing.com/submit"
   },
   {
     "venue_name": "Aperture",
@@ -1030,6 +1028,19 @@
     "source": "https://aestheticamagazine.com/art-prize/"
   },
   {
+    "venue_name": "Der Greif",
+    "venue_slug": "der_greif",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://dergreif.org/"
+  },
+  {
     "venue_name": "American Watercolor Society",
     "venue_slug": "american_watercolor_society",
     "priority": "high",
@@ -1119,19 +1130,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.citedesartsparis.net/"
-  },
-  {
-    "venue_name": "Der Greif",
-    "venue_slug": "der_greif",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://dergreif.org/"
   },
   {
     "venue_name": "ARTE VENT Press",
@@ -1385,19 +1383,6 @@
     "source": "https://artaraqasia.com/"
   },
   {
-    "venue_name": "Jackson's Art Prize",
-    "venue_slug": "jackson_s_art_prize",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.jacksonsart.com/paintingprize/"
-  },
-  {
     "venue_name": "Tokyo Illustrators Society",
     "venue_slug": "tokyo_illustrators_society",
     "priority": "high",
@@ -1448,6 +1433,19 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.ai-ap.com/"
+  },
+  {
+    "venue_name": "Jackson's Art Prize",
+    "venue_slug": "jackson_s_art_prize",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.jacksonsart.com/paintingprize/"
   },
   {
     "venue_name": "Society of Women Artists",

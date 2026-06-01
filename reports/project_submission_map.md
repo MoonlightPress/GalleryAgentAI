@@ -79,9 +79,9 @@ This turns project concepts into concrete submission paths.
 ### Best First Targets
 - Tokyo Art Book Fair
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin
+- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at 
 - Aperture | Photography
 - Browse opportunities | CuratorSpace
-- Top Artist Opportunities for 2026 | ArtConnect
 
 ### What To Prepare
 - 12–20 image edit

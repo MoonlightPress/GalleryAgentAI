@@ -1,5 +1,37 @@
 [
   {
+    "key": "applications — little tokyo zine fest::applications — little tokyo zine fest",
+    "title": "Applications — Little Tokyo Zine Fest",
+    "organization": "Applications — Little Tokyo Zine Fest",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "fees"
+    ],
+    "recommended_action": "Research missing details: fees."
+  },
+  {
+    "key": "sccp guest artist::sccp guest artist",
+    "title": "SCCP Guest Artist",
+    "organization": "SCCP Guest Artist",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "fees"
+    ],
+    "recommended_action": "Research missing details: fees."
+  },
+  {
     "key": "tokyo art book fair::tokyo art book fair",
     "title": "Tokyo Art Book Fair",
     "organization": "TOKYO ART BOOK FAIR",
@@ -19,23 +51,6 @@
     "key": "fukuoka art book fair::fukuoka art book fair",
     "title": "Fukuoka Art Book Fair",
     "organization": "Fukuoka Art Book Fair",
-    "score": 8.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: fees, contact."
-  },
-  {
-    "key": "applications — little tokyo zine fest::applications — little tokyo zine fest",
-    "title": "Applications — Little Tokyo Zine Fest",
-    "organization": "Applications — Little Tokyo Zine Fest",
     "score": 8.2,
     "priority": "high",
     "status": "new",
@@ -104,23 +119,6 @@
     "key": "belladonna art competition::belladonna art competition",
     "title": "Belladonna Art Competition",
     "organization": "Belladonna Art Competition",
-    "score": 8.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: fees, contact."
-  },
-  {
-    "key": "sccp guest artist::sccp guest artist",
-    "title": "SCCP Guest Artist",
-    "organization": "SCCP Guest Artist",
     "score": 8.2,
     "priority": "high",
     "status": "new",
@@ -615,6 +613,24 @@
   {
     "key": "aura: open call open call for artists and writers to submit their work to a feminist onlin::curatorspace",
     "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+    "organization": "CuratorSpace",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "open call for artist residency we are seeking a multimedia artist to be a resident for at ::curatorspace",
+    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
     "organization": "CuratorSpace",
     "score": 7.6,
     "priority": "high",
@@ -1275,9 +1291,9 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "tokyo arts and space::tokyo arts and space",
-    "title": "Tokyo Arts and Space",
-    "organization": "Tokyo Arts and Space",
+    "key": "ait residency::arts initiative tokyo",
+    "title": "AIT Residency",
+    "organization": "Arts Initiative Tokyo",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -1291,9 +1307,9 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "ait residency::arts initiative tokyo",
-    "title": "AIT Residency",
-    "organization": "Arts Initiative Tokyo",
+    "key": "tokyo arts and space::tokyo arts and space",
+    "title": "Tokyo Arts and Space",
+    "organization": "Tokyo Arts and Space",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -1403,22 +1419,6 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "cafe cross point::cafe cross point",
-    "title": "Cafe Cross Point",
-    "organization": "Cafe Cross Point",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
     "key": "cafe mame-hico::cafe mame-hico",
     "title": "Cafe Mame-Hico",
     "organization": "Cafe Mame-Hico",
@@ -1438,6 +1438,22 @@
     "key": "yonchome cafe::yonchome cafe",
     "title": "Yonchome Cafe",
     "organization": "Yonchome Cafe",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "cafe cross point::cafe cross point",
+    "title": "Cafe Cross Point",
+    "organization": "Cafe Cross Point",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -1515,6 +1531,22 @@
     "recommended_action": "Research missing details: contact."
   },
   {
+    "key": "vacant::vacant",
+    "title": "VACANT",
+    "organization": "VACANT",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
     "key": "gallery iro::gallery iro",
     "title": "Gallery IRO",
     "organization": "Gallery IRO",
@@ -1534,22 +1566,6 @@
     "key": "gallery hana shimokitazawa::gallery hana shimokitazawa",
     "title": "Gallery HANA Shimokitazawa",
     "organization": "Gallery HANA Shimokitazawa",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "vacant::vacant",
-    "title": "VACANT",
-    "organization": "VACANT",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -1748,6 +1764,24 @@
     "key": "clavis publishing submissions::clavis publishing submissions",
     "title": "Clavis Publishing Submissions",
     "organization": "Clavis Publishing Submissions",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "open call for digital works open call for artists. send us your digital work to show in ou::curatorspace",
+    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+    "organization": "CuratorSpace",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -2141,42 +2175,6 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "open call for artist residency we are seeking a multimedia artist to be a resident for at ::curatorspace",
-    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-    "organization": "CuratorSpace",
-    "score": 7.5,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
-    "key": "open call for digital works open call for artists. send us your digital work to show in ou::curatorspace",
-    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
-    "organization": "CuratorSpace",
-    "score": 7.5,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
     "key": "self publish, be happy::self publish, be happy",
@@ -2942,7 +2940,7 @@
     "key": "picaresque gallery::picaresque gallery",
     "title": "Picaresque Gallery",
     "organization": "Picaresque Gallery",
-    "score": 3.3,
+    "score": 2.9000000000000004,
     "priority": "medium",
     "status": "new",
     "saved": false,
@@ -2958,7 +2956,7 @@
     "key": "spiral::spiral",
     "title": "Spiral",
     "organization": "Spiral",
-    "score": 2.8,
+    "score": 2.4000000000000004,
     "priority": "medium",
     "status": "new",
     "saved": false,

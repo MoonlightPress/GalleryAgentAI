@@ -458,49 +458,6 @@
     ]
   },
   {
-    "title": "RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus",
-    "organization": "CuratorSpace",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 5.4,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: residency, artist-run",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: residency, artist-run"
-    ],
-    "fit_keyword_hits": [
-      "residency",
-      "artist-run"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: residency",
-      "weak: artist",
-      "score too low: 1"
-    ]
-  },
-  {
     "title": "Art Events and Exhibitions｜Tokyo Art Beat",
     "organization": "Tokyo Art Beat",
     "category": "gallery_event",
@@ -907,7 +864,7 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "strong: printed matter",
-      "weak: photography, exhibition, gallery",
+      "weak: exhibition, gallery, photography",
       "score too low: 3"
     ]
   },
@@ -3557,6 +3514,88 @@
       "strong: open call",
       "has submission link",
       "score too low: 3"
+    ]
+  },
+  {
+    "title": "Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever",
+    "organization": "CuratorSpace",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: zine",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: zine"
+    ],
+    "fit_keyword_hits": [
+      "zine"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "strong: zine",
+      "weak: artist",
+      "score too low: 1"
+    ]
+  },
+  {
+    "title": "The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
     ]
   },
   {

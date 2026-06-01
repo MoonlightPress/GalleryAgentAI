@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-05-29
+REPORT GENERATED: 2026-06-01
 
 # MOUNT ZINE
 
@@ -21,6 +21,8 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Print / Zines / Bookstores.
+- Artist themes to compare against this venue: urban atmosphere, domestic stillness, cats, interior light, memory, quiet life.
+- Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
 Tokyo-based zine platform offering a low-pressure publishing ecosystem for artists, potentially good for modest visibility in Japan's alternative art scene.
@@ -48,5 +50,5 @@ Visit website to understand current submission process and whether they accept i
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-05-29_
+_Last generated: 2026-06-01_
 
