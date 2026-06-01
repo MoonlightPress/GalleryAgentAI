@@ -18,8 +18,8 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Institutional / Grants.
-- Artist themes to compare against this venue: quiet photography, daily life, memory, urban vernacular, neighborhood documentary, human trace.
-- Visual-language fit signals: quiet, observational, intimate, melancholic but restrained, attentive, daily-life oriented.
+- Artist themes to compare against this venue: urban atmosphere, domestic stillness, cats, interior light, memory, quiet life.
+- Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
 Legitimate Tokyo government-funded arts institution with residencies and exhibitions, but currently no accessible application information.
@@ -47,4 +47,4 @@ Bookmark for systematic research later—not urgent without active deadline
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-05-29_
+_Last generated: 2026-06-01_

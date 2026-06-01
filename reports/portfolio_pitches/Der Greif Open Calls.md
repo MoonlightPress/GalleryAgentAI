@@ -1,16 +1,16 @@
 # Portfolio Pitch — Der Greif Open Calls
 
 ## Recommended Body of Work
-Architecture / Memory / Place
+Artist Book / Printed Matter
 
 ## Why This Body Fits
-Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
+Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Potential fit for poetic, atmospheric photography if her work is sequenced around a strong theme.
+Potential fit for poetic, atmospheric watercolor / works on paper if her work is sequenced around a strong theme.
 
 ## Match Signals
-atmospheric
+publication, paper
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

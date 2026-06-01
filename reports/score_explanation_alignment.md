@@ -4,28 +4,28 @@ Scores now follow the explanation. A high score should not appear beside a warni
 
 ## Top Truth-Aligned Opportunities
 
-- **TOKYO ART BOOK FAIR** — 10.0 — strong. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
-- **UTRECHT** — 10.0 — strong. This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- **MOUNT ZINE** — 10.0 — strong. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
-- **Book and Sons** — 10.0 — strong. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
-- **Photobook Cafe** — 10.0 — strong. Potentially strong for a quiet artist book / watercolor sequence-oriented artist seeking community, visibility, and publication context.
-- **AIR 3331** — 10.0 — strong. Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type
-- **Offprint** — 10.0 — strong. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet painterly publications.
-- **BankART1929** — 10.0 — strong. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
-- **Tokyo Wonder Site / TOKAS Residency** — 10.0 — strong. TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.
-- **Aperture | Photography** — 10.0 — strong. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
-- **The Photographers' Gallery** — 10.0 — strong. Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references.
-- **Koganecho Area Management Center** — 10.0 — strong. Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
-- **3331 Arts Chiyoda** — 10.0 — strong. Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach
-- **SCAI The Bathhouse** — 10.0 — strong. The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.
-- **TAV Gallery** — 10.0 — strong. Tokyo location aligns with your Japan interest and Asian architectural subject matter, but fit depends entirely on information not yet available
-- **Aperture Portfolio Prize / Opportunities** — 10.0 — strong. Very high-prestige but difficult; useful as a long-term benchmark and possible stretch opportunity.
+- **Jinny Street Gallery Open Call** — 10.0 — strong. Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
+- **Browse opportunities | CuratorSpace** — 10.0 — strong. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
+- **Royal Watercolour Society Open Exhibition** — 10.0 — strong. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
+- **HB Gallery** — 10.0 — strong. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
+- **OPA Gallery** — 10.0 — strong. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
+- **Pinpoint Gallery** — 10.0 — strong. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
+- **Aesthetica Art Prize** — 10.0 — strong. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
 - **Self Publish, Be Happy** — 10.0 — strong. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
+- **UTRECHT** — 10.0 — strong. This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
+- **Fukuoka Art Book Fair** — 10.0 — strong. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+- **LOCAL Gallery・Books** — 10.0 — strong. Local Koenji book/gallery target; useful for a quiet works-on-paper artist and local relationship building.
+- **Tacoche** — 10.0 — strong. Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.
+- **本店・本屋の実験室** — 10.0 — strong. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
+- **Offprint** — 10.0 — strong. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
+- **Book and Sons** — 10.0 — strong. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
+- **Tokyo Art Book Fair** — 10.0 — strong. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **POST** — 10.0 — strong. Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.
-- **Center for Book Arts Opportunities** — 10.0 — strong. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
-- **Yonchome Cafe** — 10.0 — strong. Japan location only - no other alignment with practice goals or preferred opportunity structure
-- **Printed Matter Art Book Fairs** — 10.0 — strong. Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
-- **www.futures-photography.com** — 9.91 — strong. Possible fit based on link text: watercolor / works on paper
-- **Aoyama Farmers Market** — 9.87 — strong. Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals
-- **PhotoVogue Open Calls** — 9.78 — strong. Useful for international exposure if her work can be framed as poetic documentary, memory, place, or contemporary visual storytelling.
-- **Home - Printed Matter** — 9.69 — strong. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
+- **グループ展参加アーティスト募集中 - Gallery and Links81** — 10.0 — strong. グループ展参加アーティスト募集中 - Gallery and Links81 may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
+- **【biscuit gallery】初の公募企画「grid next : Emerging ...** — 10.0 — strong. 【biscuit gallery】初の公募企画「grid next : Emerging ... may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
+- **219公募展6募集 >> Gallery219 ギャラリーニイク** — 10.0 — strong. 219公募展6募集 >> Gallery219 ギャラリーニイク may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
+- **公募プログラム - トーキョーアーツアンドスペース** — 10.0 — strong. 公募プログラム - トーキョーアーツアンドスペース may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
+- **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — 10.0 — strong. 公募企画「grid next : 2025 - Emerging Artists Showcase ... may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
+- **Open Calls for Artists | Exhibit Worldwide** — 10.0 — strong. Open Calls for Artists | Exhibit Worldwide may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
+- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — 10.0 — strong. Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ... may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
+- **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — 10.0 — strong. 若手アーティストの登竜門となるアートフェア「Independent Tokyo ... may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.

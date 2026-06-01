@@ -1,0 +1,16 @@
+{
+  "venue_name": "The Holy Art Gallery - Tokyo Open Call for Artist",
+  "venue_slug": "the_holy_art_gallery_tokyo_open_call_for_artist",
+  "memory_version": 1,
+  "summary": "Venue type: gallery Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-06-01",
+  "confidence": "low",
+  "future_research": [
+    "contact",
+    "fees",
+    "submission process"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}

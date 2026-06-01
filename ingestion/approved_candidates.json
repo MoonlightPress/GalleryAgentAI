@@ -5,7 +5,7 @@
     "category": "global_photobook",
     "city": "Online",
     "country": "Global",
-    "overall_score": 8.1,
+    "overall_score": 8.5,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "medium",
@@ -22,7 +22,7 @@
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture"
+      "Keyword hits: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture, watercolor, drawing"
     ],
     "fit_keyword_hits": [
       "photobook",
@@ -32,7 +32,11 @@
       "book fair",
       "exhibition",
       "memory",
-      "architecture"
+      "architecture",
+      "watercolor",
+      "drawing",
+      "painting",
+      "paper"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -44,8 +48,146 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: photobook, zine, book fair, printed matter",
-      "weak: photography, exhibition, book"
+      "strong: book fair, photobook, zine, printed matter",
+      "weak: book, photography, exhibition"
+    ]
+  },
+  {
+    "title": "Browse opportunities | CuratorSpace",
+    "organization": "CuratorSpace",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 7.2,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities",
+    "official_website": "https://www.curatorspace.com/opportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, exhibition, place, painting, open exhibition",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: open call, submission, exhibition, place, painting, open exhibition"
+    ],
+    "fit_keyword_hits": [
+      "open call",
+      "submission",
+      "exhibition",
+      "place",
+      "painting",
+      "open exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: open call, submission",
+      "weak: exhibition"
+    ]
+  },
+  {
+    "title": "Top Artist Opportunities for 2026 | ArtConnect",
+    "organization": "ArtConnect Open Calls",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 6.75,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.artconnect.com/opportunities",
+    "official_website": "https://www.artconnect.com/opportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from ArtConnect Open Calls. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: zine, open call, submission, residency, exhibition"
+    ],
+    "fit_keyword_hits": [
+      "zine",
+      "open call",
+      "submission",
+      "residency",
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: open call, residency, submission, zine",
+      "weak: artist, exhibition"
+    ]
+  },
+  {
+    "title": "PhotoVogue",
+    "organization": "PhotoVogue",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 6.3,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.vogue.com/photovogue",
+    "official_website": "https://www.vogue.com/photovogue",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from PhotoVogue. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, exhibition, illustration",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: open call, submission, exhibition, illustration"
+    ],
+    "fit_keyword_hits": [
+      "open call",
+      "submission",
+      "exhibition",
+      "illustration"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: open call, submission",
+      "weak: exhibition"
     ]
   },
   {
@@ -90,51 +232,7 @@
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
       "strong: photobook, zine",
-      "weak: photography, exhibition, book"
-    ]
-  },
-  {
-    "title": "PhotoVogue",
-    "organization": "PhotoVogue",
-    "category": "photo_open_call",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 5.85,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://www.vogue.com/photovogue",
-    "official_website": "https://www.vogue.com/photovogue",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate discovered from PhotoVogue. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, exhibition",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
-    "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: open call, submission, exhibition"
-    ],
-    "fit_keyword_hits": [
-      "open call",
-      "submission",
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: submission, open call",
-      "weak: exhibition"
+      "weak: book, photography, exhibition"
     ]
   },
   {

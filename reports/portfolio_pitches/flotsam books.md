@@ -10,7 +10,7 @@ Work that can become books, zines, calendars, small editions, paper objects, or 
 Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
 
 ## Match Signals
-zine
+zine, paper
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

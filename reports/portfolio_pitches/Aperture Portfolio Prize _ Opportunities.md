@@ -10,7 +10,7 @@ Work that can become books, zines, calendars, small editions, paper objects, or 
 Very high-prestige but difficult; useful as a long-term benchmark and possible stretch opportunity.
 
 ## Match Signals
-publication
+publication, paper
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

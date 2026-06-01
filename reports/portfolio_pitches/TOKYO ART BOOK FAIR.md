@@ -1,4 +1,4 @@
-# Portfolio Pitch — TOKYO ART BOOK FAIR
+# Portfolio Pitch — Tokyo Art Book Fair
 
 ## Recommended Body of Work
 Artist Book / Printed Matter
@@ -7,10 +7,10 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.
+Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 
 ## Match Signals
-artist book, photobook, zine, publication, book fair, edition
+artist book, zine, publication, book fair, edition, paper
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

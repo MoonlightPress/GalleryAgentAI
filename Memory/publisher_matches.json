@@ -11,7 +11,7 @@
       "zine",
       "small press"
     ],
-    "fit_score": 5.4
+    "fit_score": 4.0
   },
   {
     "name": "Self Publish, Be Happy",
@@ -25,7 +25,7 @@
       "zine",
       "community"
     ],
-    "fit_score": 4.4
+    "fit_score": 3.0
   },
   {
     "name": "AKAAKA",
@@ -39,33 +39,7 @@
       "quiet sequence",
       "serious publication"
     ],
-    "fit_score": 2.7
-  },
-  {
-    "name": "VOID",
-    "region": "Europe",
-    "match_strength": "medium-high",
-    "why": "Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.",
-    "best_use": "publisher benchmark",
-    "fit_tags": [
-      "photobook",
-      "sequence",
-      "Europe"
-    ],
-    "fit_score": 2.6
-  },
-  {
-    "name": "T&M Projects",
-    "region": "Japan",
-    "match_strength": "medium-high",
-    "why": "Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.",
-    "best_use": "publisher research / benchmark",
-    "fit_tags": [
-      "photobook",
-      "Japan",
-      "printed matter"
-    ],
-    "fit_score": 2.1
+    "fit_score": 2.0
   },
   {
     "name": "Aperture",
@@ -82,6 +56,32 @@
     "fit_score": 1.8
   },
   {
+    "name": "T&M Projects",
+    "region": "Japan",
+    "match_strength": "medium-high",
+    "why": "Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.",
+    "best_use": "publisher research / benchmark",
+    "fit_tags": [
+      "photobook",
+      "Japan",
+      "printed matter"
+    ],
+    "fit_score": 1.4
+  },
+  {
+    "name": "VOID",
+    "region": "Europe",
+    "match_strength": "medium-high",
+    "why": "Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.",
+    "best_use": "publisher benchmark",
+    "fit_tags": [
+      "photobook",
+      "sequence",
+      "Europe"
+    ],
+    "fit_score": 1.4
+  },
+  {
     "name": "MACK",
     "region": "UK",
     "match_strength": "stretch",
@@ -92,6 +92,6 @@
       "prestige",
       "stretch"
     ],
-    "fit_score": 1.5
+    "fit_score": 0.8
   }
 ]

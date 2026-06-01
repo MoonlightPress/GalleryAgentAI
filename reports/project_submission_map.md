@@ -11,11 +11,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- TOKYO ART BOOK FAIR
-- UTRECHT
-- B&B Shimokitazawa
+- Tokyo Art Book Fair
 - MOUNT ZINE
-- Comitia
+- B&B Shimokitazawa
+- UTRECHT
+- Fukuoka Art Book Fair
 
 ### What To Prepare
 - 12–20 image edit
@@ -33,11 +33,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- TOKYO ART BOOK FAIR
+- Tokyo Art Book Fair
 - UTRECHT
-- Offprint
 - BankART1929
-- Center for Book Arts Opportunities
+- Offprint
+- Tacoche
 
 ### What To Prepare
 - 12–20 image edit
@@ -55,10 +55,10 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- TOKYO ART BOOK FAIR
-- UTRECHT
-- B&B Shimokitazawa
+- Tokyo Art Book Fair
 - MOUNT ZINE
+- B&B Shimokitazawa
+- UTRECHT
 - flotsam books
 
 ### What To Prepare
@@ -77,11 +77,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- TOKYO ART BOOK FAIR
-- flotsam books
-- Comitia
-- Photobook Cafe
-- reload Shimokitazawa
+- Tokyo Art Book Fair
+- BankART1929
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin
+- Browse opportunities | CuratorSpace
+- Top Artist Opportunities for 2026 | ArtConnect
 
 ### What To Prepare
 - 12–20 image edit

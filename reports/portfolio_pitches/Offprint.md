@@ -7,7 +7,7 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications.
+Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
 
 ## Match Signals
 artist book, printed matter, publication, book fair

@@ -1,16 +1,16 @@
 # Portfolio Pitch — LensCulture Awards / Open Calls
 
 ## Recommended Body of Work
-General Portfolio
+Artist Book / Printed Matter
 
 ## Why This Body Fits
-A concise selection of her strongest current work.
+Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
 Potentially useful if her strongest body of work can be shaped into a coherent photo series with a clear statement.
 
 ## Match Signals
-No strong keyword match stored yet.
+paper
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

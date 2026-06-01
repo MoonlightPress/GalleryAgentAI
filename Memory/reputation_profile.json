@@ -13,23 +13,14 @@
     "cafe_gallery": 0,
     "gallery_event": 0,
     "event_space": 0,
-    "global_photobook_platform": 0,
+    "global_artist_book_platform": 0,
     "global_art_book_fair": 0,
-    "global_online_feature": 0,
-    "global_photobook_space": 0,
-    "global_photo_institution": 0,
-    "global_photo_publication": 0,
-    "global_book_arts": 0,
-    "global_photo_open_call": 0
+    "global_book_arts": 0
   },
   "country_reputation": {
     "": 0,
     "UK / Global": 0,
     "USA": 0,
-    "Global": 0,
-    "France / UK": 0,
-    "UK": 0,
-    "USA / Global": 0,
-    "Germany / Global": 0
+    "France / UK": 0
   }
 }

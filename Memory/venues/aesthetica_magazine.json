@@ -1,0 +1,38 @@
+{
+  "venue_name": "Aesthetica Magazine",
+  "venue_slug": "aesthetica_magazine",
+  "venue_type": "artist opportunity venue",
+  "city": "York / Online",
+  "country": "",
+  "website": "https://aestheticamagazine.com/art-prize/",
+  "source_links": [
+    "https://aestheticamagazine.com/art-prize/"
+  ],
+  "categories_seen": [
+    "Global Open Call"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "Aesthetica Art Prize"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-01",
+  "updated_at": "2026-06-01"
+}

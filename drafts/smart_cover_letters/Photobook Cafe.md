@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.
+Potentially strong for a quiet artist book / watercolor sequence-oriented artist seeking community, visibility, and publication context.
 
 Draft Structure:
 

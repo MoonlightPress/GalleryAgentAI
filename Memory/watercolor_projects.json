@@ -16,77 +16,80 @@
     "first_action": "Choose 12 finished or nearly finished watercolors. Group them by place, plant life, architecture, and human trace.",
     "opportunity_targets": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Jinny Street Gallery Open Call",
         "score": 10,
         "hits": [
-          "watercolor"
+          "gallery"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
+        "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application."
       },
       {
-        "title": "UTRECHT",
-        "score": 10,
-        "hits": [
-          "gallery",
-          "bookstore"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "bookstore"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
-      },
-      {
-        "title": "flotsam books",
+        "title": "Browse opportunities | CuratorSpace",
         "score": 10,
         "hits": [
           "watercolor",
           "works on paper",
-          "gallery",
-          "bookstore"
+          "painting"
         ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
       },
       {
-        "title": "Comitia",
+        "title": "Royal Watercolour Society Open Exhibition",
         "score": 10,
         "hits": [
           "watercolor",
           "works on paper"
         ],
-        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building."
+        "why": "Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone."
       },
       {
-        "title": "Book and Sons",
+        "title": "HB Gallery",
         "score": 10,
         "hits": [
-          "gallery",
-          "bookstore"
+          "watercolor",
+          "works on paper",
+          "gallery"
         ],
-        "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility."
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "NADiff a/p/a/r/t",
+        "title": "OPA Gallery",
         "score": 10,
         "hits": [
-          "gallery",
-          "bookstore"
+          "watercolor",
+          "works on paper",
+          "gallery"
         ],
-        "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all"
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Photobook Cafe",
+        "title": "Pinpoint Gallery",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "works on paper",
+          "gallery"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
+        "title": "Aesthetica Art Prize",
         "score": 10,
         "hits": [
           "watercolor",
           "works on paper"
         ],
-        "why": "Potentially strong for a quiet artist book / watercolor sequence-oriented artist seeking community, visibility, and publication context."
+        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
+      },
+      {
+        "title": "Self Publish, Be Happy",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "works on paper",
+          "gallery"
+        ],
+        "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
       }
     ]
   },
@@ -107,73 +110,71 @@
     "first_action": "Write a 90-word statement and select 8–12 works that all show indirect human presence.",
     "opportunity_targets": [
       {
-        "title": "flotsam books",
-        "score": 10,
-        "hits": [
-          "works on paper"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
-      },
-      {
-        "title": "Comitia",
-        "score": 10,
-        "hits": [
-          "works on paper"
-        ],
-        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building."
-      },
-      {
-        "title": "Photobook Cafe",
-        "score": 10,
-        "hits": [
-          "works on paper"
-        ],
-        "why": "Potentially strong for a quiet artist book / watercolor sequence-oriented artist seeking community, visibility, and publication context."
-      },
-      {
-        "title": "AIR 3331",
-        "score": 10,
-        "hits": [
-          "residency",
-          "memory"
-        ],
-        "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type"
-      },
-      {
-        "title": "BankART1929",
-        "score": 10,
-        "hits": [
-          "architecture",
-          "memory"
-        ],
-        "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally."
-      },
-      {
-        "title": "Youkobo Art Space",
-        "score": 10,
-        "hits": [
-          "residency",
-          "memory"
-        ],
-        "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility."
-      },
-      {
-        "title": "Tokyo Wonder Site / TOKAS Residency",
-        "score": 10,
-        "hits": [
-          "residency",
-          "memory"
-        ],
-        "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist."
-      },
-      {
-        "title": "Aperture | Photography",
+        "title": "Browse opportunities | CuratorSpace",
         "score": 10,
         "hits": [
           "works on paper",
+          "painting",
+          "open exhibition"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
+      },
+      {
+        "title": "Royal Watercolour Society Open Exhibition",
+        "score": 10,
+        "hits": [
+          "works on paper",
+          "open exhibition"
+        ],
+        "why": "Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone."
+      },
+      {
+        "title": "HB Gallery",
+        "score": 10,
+        "hits": [
+          "works on paper"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
+        "title": "OPA Gallery",
+        "score": 10,
+        "hits": [
+          "works on paper"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
+        "title": "Pinpoint Gallery",
+        "score": 10,
+        "hits": [
+          "works on paper"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
+        "title": "Aesthetica Art Prize",
+        "score": 10,
+        "hits": [
+          "works on paper"
+        ],
+        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
+      },
+      {
+        "title": "Self Publish, Be Happy",
+        "score": 10,
+        "hits": [
+          "works on paper"
+        ],
+        "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
+      },
+      {
+        "title": "POST",
+        "score": 10,
+        "hits": [
           "memory"
         ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+        "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
       }
     ]
   },
@@ -194,75 +195,73 @@
     "first_action": "Prepare a compact PDF: title, 10 images, dimensions, prices if available, and a 3-line artist note.",
     "opportunity_targets": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Jinny Street Gallery Open Call",
         "score": 10,
         "hits": [
-          "watercolor"
-        ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
-      },
-      {
-        "title": "UTRECHT",
-        "score": 10,
-        "hits": [
-          "bookstore",
           "gallery"
         ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+        "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application."
       },
       {
-        "title": "B&B Shimokitazawa",
+        "title": "Browse opportunities | CuratorSpace",
         "score": 10,
         "hits": [
-          "bookstore",
+          "watercolor",
+          "painting"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
+      },
+      {
+        "title": "Royal Watercolour Society Open Exhibition",
+        "score": 10,
+        "hits": [
           "watercolor"
         ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
+        "why": "Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone."
       },
       {
-        "title": "flotsam books",
+        "title": "HB Gallery",
         "score": 10,
         "hits": [
-          "bookstore",
           "gallery",
           "watercolor"
         ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Comitia",
+        "title": "OPA Gallery",
+        "score": 10,
+        "hits": [
+          "gallery",
+          "watercolor"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
+        "title": "Pinpoint Gallery",
+        "score": 10,
+        "hits": [
+          "gallery",
+          "watercolor"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
+        "title": "Aesthetica Art Prize",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building."
+        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
       },
       {
-        "title": "Book and Sons",
+        "title": "Self Publish, Be Happy",
         "score": 10,
         "hits": [
-          "bookstore",
-          "gallery"
-        ],
-        "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility."
-      },
-      {
-        "title": "NADiff a/p/a/r/t",
-        "score": 10,
-        "hits": [
-          "bookstore",
-          "gallery"
-        ],
-        "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all"
-      },
-      {
-        "title": "Photobook Cafe",
-        "score": 10,
-        "hits": [
-          "cafe",
+          "gallery",
           "watercolor"
         ],
-        "why": "Potentially strong for a quiet artist book / watercolor sequence-oriented artist seeking community, visibility, and publication context."
+        "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
       }
     ]
   },
@@ -283,15 +282,71 @@
     "first_action": "Make a 16-page PDF mockup using existing watercolor images. Do not overexplain it.",
     "opportunity_targets": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Browse opportunities | CuratorSpace",
         "score": 10,
         "hits": [
           "artist book",
           "zine",
-          "book fair",
           "watercolor"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
+      },
+      {
+        "title": "Royal Watercolour Society Open Exhibition",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone."
+      },
+      {
+        "title": "HB Gallery",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "illustration",
+          "watercolor"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
+        "title": "OPA Gallery",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "illustration",
+          "watercolor"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
+        "title": "Pinpoint Gallery",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "illustration",
+          "watercolor"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
+        "title": "Aesthetica Art Prize",
+        "score": 10,
+        "hits": [
+          "zine",
+          "watercolor"
+        ],
+        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
+      },
+      {
+        "title": "Self Publish, Be Happy",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "zine",
+          "watercolor"
+        ],
+        "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
       },
       {
         "title": "UTRECHT",
@@ -302,62 +357,6 @@
           "printed matter"
         ],
         "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "zine",
-          "watercolor"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
-      },
-      {
-        "title": "MOUNT ZINE",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "zine"
-        ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
-      },
-      {
-        "title": "flotsam books",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "zine",
-          "watercolor"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
-      },
-      {
-        "title": "Comitia",
-        "score": 10,
-        "hits": [
-          "zine",
-          "illustration",
-          "watercolor"
-        ],
-        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building."
-      },
-      {
-        "title": "Book and Sons",
-        "score": 10,
-        "hits": [
-          "zine"
-        ],
-        "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility."
-      },
-      {
-        "title": "NADiff a/p/a/r/t",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "zine"
-        ],
-        "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all"
       }
     ]
   }

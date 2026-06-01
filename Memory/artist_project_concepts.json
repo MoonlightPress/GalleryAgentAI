@@ -39,7 +39,7 @@
     "publisher_targets": [
       {
         "name": "Printed Matter",
-        "fit_score": 5.4,
+        "fit_score": 4.0,
         "match_strength": "high",
         "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
         "hits": [
@@ -51,7 +51,7 @@
       },
       {
         "name": "Self Publish, Be Happy",
-        "fit_score": 4.4,
+        "fit_score": 3.0,
         "match_strength": "high",
         "why": "Strong match for independent photobook and zine culture.",
         "hits": [
@@ -61,7 +61,7 @@
       },
       {
         "name": "AKAAKA",
-        "fit_score": 2.7,
+        "fit_score": 2.0,
         "match_strength": "high",
         "why": "Japanese photobook publisher with serious photography context; useful for quiet, sequence-driven work.",
         "hits": [
@@ -69,17 +69,8 @@
         ]
       },
       {
-        "name": "VOID",
-        "fit_score": 2.6,
-        "match_strength": "medium-high",
-        "why": "Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.",
-        "hits": [
-          "photobook"
-        ]
-      },
-      {
         "name": "T&M Projects",
-        "fit_score": 2.1,
+        "fit_score": 1.4,
         "match_strength": "medium-high",
         "why": "Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.",
         "hits": [
@@ -88,8 +79,17 @@
         ]
       },
       {
+        "name": "VOID",
+        "fit_score": 1.4,
+        "match_strength": "medium-high",
+        "why": "Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.",
+        "hits": [
+          "photobook"
+        ]
+      },
+      {
         "name": "MACK",
-        "fit_score": 1.5,
+        "fit_score": 0.8,
         "match_strength": "stretch",
         "why": "Major photobook publisher; probably not immediate, but useful as a long-horizon benchmark.",
         "hits": [
@@ -99,83 +99,82 @@
     ],
     "opportunity_targets": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Tokyo Art Book Fair",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "hits": [
-          "photobook",
           "zine",
           "artist book",
           "book fair"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you."
-      },
-      {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "zine",
-          "artist book",
-          "printed matter"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "zine"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program photographers without publication angle"
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
         "title": "MOUNT ZINE",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "hits": [
           "zine"
         ],
         "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
       },
       {
-        "title": "Comitia",
+        "title": "B&B Shimokitazawa",
         "score": 9.4,
-        "differentiated_score": 10.85,
+        "differentiated_score": 11.39,
         "hits": [
           "zine"
         ],
-        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building."
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
       },
       {
-        "title": "Photobook Cafe",
-        "score": 7.6,
-        "differentiated_score": 10.6,
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.24,
         "hits": [
-          "photobook"
-        ],
-        "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context."
-      },
-      {
-        "title": "Offprint",
-        "score": 7.6,
-        "differentiated_score": 10.3,
-        "hits": [
+          "zine",
           "artist book",
           "printed matter"
         ],
-        "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications."
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
       },
       {
-        "title": "Aperture | Photography",
-        "score": 7.6,
-        "differentiated_score": 10.24,
+        "title": "Fukuoka Art Book Fair",
+        "score": 8.8,
+        "differentiated_score": 10.54,
         "hits": [
-          "photobook",
+          "zine",
+          "book fair"
+        ],
+        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+      },
+      {
+        "title": "Submissions — Clavis Publishing",
+        "score": 8.6,
+        "differentiated_score": 10.38,
+        "hits": [
+          "small press"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+      },
+      {
+        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+        "score": 8.6,
+        "differentiated_score": 10.22,
+        "hits": [
           "zine"
         ],
-        "why": "Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition"
+        "why": "Possible fit based on link text: zine, open call"
+      },
+      {
+        "title": "Browse opportunities | CuratorSpace",
+        "score": 8.6,
+        "differentiated_score": 10.13,
+        "hits": [
+          "zine",
+          "place"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
       }
     ]
   },
@@ -213,7 +212,7 @@
     "publisher_targets": [
       {
         "name": "Printed Matter",
-        "fit_score": 5.4,
+        "fit_score": 4.0,
         "match_strength": "high",
         "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
         "hits": [
@@ -223,32 +222,23 @@
     ],
     "opportunity_targets": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Tokyo Art Book Fair",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "hits": [
           "documentary",
           "artist book"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you."
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
         "title": "UTRECHT",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.24,
         "hits": [
           "artist book"
         ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
-        "title": "Offprint",
-        "score": 7.6,
-        "differentiated_score": 10.3,
-        "hits": [
-          "artist book"
-        ],
-        "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications."
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
       },
       {
         "title": "BankART1929",
@@ -260,42 +250,49 @@
         "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally."
       },
       {
+        "title": "Offprint",
+        "score": 8.6,
+        "differentiated_score": 10.04,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications."
+      },
+      {
+        "title": "Tacoche",
+        "score": 8.6,
+        "differentiated_score": 9.98,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works."
+      },
+      {
         "title": "Center for Book Arts Opportunities",
-        "score": 7.6,
-        "differentiated_score": 10.18,
+        "score": 8.6,
+        "differentiated_score": 9.91,
         "hits": [
           "artist book"
         ],
         "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
       },
       {
-        "title": "Printed Matter Art Book Fairs",
-        "score": 6.5,
-        "differentiated_score": 9.73,
+        "title": "Self Publish, Be Happy",
+        "score": 8.0,
+        "differentiated_score": 9.7,
         "hits": [
           "artist book"
         ],
-        "why": "Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target."
+        "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
       },
       {
-        "title": "PhotoVogue Open Calls",
-        "score": 7.6,
-        "differentiated_score": 9.42,
+        "title": "Aperture | Photography",
+        "score": 8.1,
+        "differentiated_score": 9.63,
         "hits": [
-          "memory",
-          "documentary"
+          "artist book"
         ],
-        "why": "Useful for international exposure if her work can be framed as poetic documentary, memory, place, or contemporary visual storytelling."
-      },
-      {
-        "title": "Home - Printed Matter",
-        "score": 6.5,
-        "differentiated_score": 9.4,
-        "hits": [
-          "memory",
-          "architecture"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture"
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       }
     ]
   },
@@ -334,7 +331,7 @@
     "publisher_targets": [
       {
         "name": "Printed Matter",
-        "fit_score": 5.4,
+        "fit_score": 4.0,
         "match_strength": "high",
         "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
         "hits": [
@@ -345,7 +342,7 @@
       },
       {
         "name": "Self Publish, Be Happy",
-        "fit_score": 4.4,
+        "fit_score": 3.0,
         "match_strength": "high",
         "why": "Strong match for independent photobook and zine culture.",
         "hits": [
@@ -355,81 +352,82 @@
     ],
     "opportunity_targets": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Tokyo Art Book Fair",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "hits": [
           "zine",
           "book fair",
           "artist book"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you."
-      },
-      {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "zine",
-          "bookstore"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program photographers without publication angle"
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
         "title": "MOUNT ZINE",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "hits": [
           "zine"
         ],
         "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
       },
       {
-        "title": "flotsam books",
+        "title": "B&B Shimokitazawa",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
+        "hits": [
+          "zine",
+          "bookstore"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+      },
+      {
+        "title": "flotsam books",
+        "score": 9.2,
+        "differentiated_score": 11.19,
         "hits": [
           "bookstore"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
-        "title": "Comitia",
-        "score": 9.4,
-        "differentiated_score": 10.85,
-        "hits": [
-          "zine"
-        ],
-        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building."
-      },
-      {
         "title": "Book and Sons",
         "score": 9.4,
-        "differentiated_score": 10.75,
+        "differentiated_score": 10.55,
         "hits": [
           "bookstore"
         ],
         "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility."
       },
       {
-        "title": "NADiff a/p/a/r/t",
+        "title": "Fukuoka Art Book Fair",
         "score": 8.8,
-        "differentiated_score": 10.68,
+        "differentiated_score": 10.54,
         "hits": [
-          "bookstore"
+          "zine",
+          "book fair"
         ],
-        "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all"
+        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+      },
+      {
+        "title": "Submissions — Clavis Publishing",
+        "score": 8.6,
+        "differentiated_score": 10.38,
+        "hits": [
+          "small press"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
       }
     ]
   },
@@ -467,18 +465,9 @@
     "publisher_targets": [
       {
         "name": "AKAAKA",
-        "fit_score": 2.7,
+        "fit_score": 2.0,
         "match_strength": "high",
         "why": "Japanese photobook publisher with serious photography context; useful for quiet, sequence-driven work.",
-        "hits": [
-          "photography"
-        ]
-      },
-      {
-        "name": "T&M Projects",
-        "fit_score": 2.1,
-        "match_strength": "medium-high",
-        "why": "Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.",
         "hits": [
           "photography"
         ]
@@ -491,53 +480,26 @@
         "hits": [
           "photography"
         ]
+      },
+      {
+        "name": "T&M Projects",
+        "fit_score": 1.4,
+        "match_strength": "medium-high",
+        "why": "Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.",
+        "hits": [
+          "photography"
+        ]
       }
     ],
     "opportunity_targets": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Tokyo Art Book Fair",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "hits": [
           "documentary"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you."
-      },
-      {
-        "title": "flotsam books",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hits": [
-          "photography"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
-      },
-      {
-        "title": "Comitia",
-        "score": 9.4,
-        "differentiated_score": 10.85,
-        "hits": [
-          "photography"
-        ],
-        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building."
-      },
-      {
-        "title": "Photobook Cafe",
-        "score": 7.6,
-        "differentiated_score": 10.6,
-        "hits": [
-          "photography"
-        ],
-        "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context."
-      },
-      {
-        "title": "reload Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 10.26,
-        "hits": [
-          "urban vernacular"
-        ],
-        "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning."
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
         "title": "BankART1929",
@@ -549,23 +511,58 @@
         "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally."
       },
       {
+        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+        "score": 8.6,
+        "differentiated_score": 10.22,
+        "hits": [
+          "open call"
+        ],
+        "why": "Possible fit based on link text: zine, open call"
+      },
+      {
+        "title": "Browse opportunities | CuratorSpace",
+        "score": 8.6,
+        "differentiated_score": 10.13,
+        "hits": [
+          "open call"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
+      },
+      {
+        "title": "Top Artist Opportunities for 2026 | ArtConnect",
+        "score": 8.6,
+        "differentiated_score": 9.98,
+        "hits": [
+          "open call"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition"
+      },
+      {
         "title": "Aperture | Photography",
-        "score": 7.6,
-        "differentiated_score": 10.24,
+        "score": 8.1,
+        "differentiated_score": 9.63,
         "hits": [
           "photography"
         ],
-        "why": "Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition"
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
-        "title": "The Photographers' Gallery",
-        "score": 7.6,
-        "differentiated_score": 10.12,
+        "title": "Open Call for the International Creator Residency Program 2026",
+        "score": 8.8,
+        "differentiated_score": 9.4,
         "hits": [
-          "photography",
           "open call"
         ],
-        "why": "Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references."
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+      },
+      {
+        "title": "Jinny Street Gallery Open Call",
+        "score": 8.8,
+        "differentiated_score": 9.4,
+        "hits": [
+          "open call"
+        ],
+        "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application."
       }
     ]
   }

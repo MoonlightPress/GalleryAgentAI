@@ -2,16 +2,10 @@
 
 These opportunities may create disproportionate reputation value.
 
-## Aperture Portfolio Prize / Opportunities
+## Royal Watercolour Society Open Exhibition
 
-- Prestige: 9.2
-- Why: Very high-prestige but difficult; useful as a long-term benchmark and possible stretch opportunity.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## The Photographers' Gallery
-
-- Prestige: 9.0
-- Why: Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references.
+- Prestige: 9.5
+- Why: Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Printed Matter Art Book Fairs
@@ -20,22 +14,34 @@ These opportunities may create disproportionate reputation value.
 - Why: Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## PhotoVogue Open Calls
+## American Watercolor Society Annual International Exhibition
 
-- Prestige: 8.5
-- Why: Useful for international exposure if her work can be framed as poetic documentary, memory, place, or contemporary visual storytelling.
+- Prestige: 8.8
+- Why: Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Asian Cultural Council Fellowship
+
+- Prestige: 8.7
+- Why: Directly designed for artists from Asia building international careers — a fellowship would fund research travel, residency, and international network-building at exactly the right career stage.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Cité Internationale des Arts Artist Residency
+
+- Prestige: 8.6
+- Why: Prestigious, Paris-based, and actively accessible to artists from Asia — a residency here would be a major career milestone and exposure to the European gallery ecosystem.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Offprint
 
 - Prestige: 8.3
-- Why: Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications.
+- Why: Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Self Publish, Be Happy
 
 - Prestige: 8.0
-- Why: Strong fit for an artist whose work can live as quiet photobook or zine sequences rather than conventional gallery proposals.
+- Why: Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Center for Book Arts Opportunities
@@ -44,40 +50,22 @@ These opportunities may create disproportionate reputation value.
 - Why: Potential fit if her work becomes more explicitly book-oriented or object/paper based.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## Der Greif Open Calls
+## Aesthetica Art Prize
 
-- Prestige: 7.7
-- Why: Potential fit for poetic, atmospheric photography if her work is sequenced around a strong theme.
+- Prestige: 7.6
+- Why: Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## LensCulture Awards / Open Calls
+## Japan Watercolor Society Annual Exhibition
 
 - Prestige: 7.5
-- Why: Potentially useful if her strongest body of work can be shaped into a coherent photo series with a clear statement.
+- Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## Photobook Cafe
-
-- Prestige: 7.2
-- Why: Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## TOKYO ART BOOK FAIR
+## Tokyo Art Book Fair
 
 - Prestige: None
-- Why: Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## UTRECHT
-
-- Prestige: None
-- Why: This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## B&B Shimokitazawa
-
-- Prestige: None
-- Why: Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle
+- Why: Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## MOUNT ZINE
@@ -86,16 +74,16 @@ These opportunities may create disproportionate reputation value.
 - Why: Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## flotsam books
+## B&B Shimokitazawa
 
 - Prestige: None
-- Why: Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- Why: Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## Comitia
+## UTRECHT
 
 - Prestige: None
-- Why: It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.
+- Why: This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Book and Sons
@@ -104,22 +92,40 @@ These opportunities may create disproportionate reputation value.
 - Why: Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## BankART1929
+
+- Prestige: None
+- Why: Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## AIR 3331
 
 - Prestige: None
 - Why: Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## reload Shimokitazawa
+## BONUS TRACK
 
 - Prestige: None
-- Why: Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.
+- Why: Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## BankART1929
+## Koganecho Area Management Center
 
 - Prestige: None
-- Why: Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
+- Why: Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## 3331 Arts Chiyoda
+
+- Prestige: None
+- Why: Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## flotsam books
+
+- Prestige: None
+- Why: Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Youkobo Art Space
@@ -128,26 +134,20 @@ These opportunities may create disproportionate reputation value.
 - Why: Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## Tokyo Wonder Site / TOKAS Residency
-
-- Prestige: None
-- Why: TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than illustrator.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
 ## Tokyo Arts and Space
 
 - Prestige: None
 - Why: Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## AIT Residency
+## Fukuoka Art Book Fair
 
 - Prestige: None
-- Why: Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.
+- Why: Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## BONUS TRACK
+## POST
 
 - Prestige: None
-- Why: Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit
+- Why: Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

@@ -2,13 +2,13 @@
 
 Short, low-pressure emails connected to actual project concepts.
 
-## TOKYO ART BOOK FAIR — Quiet Neighborhood Memory
+## Tokyo Art Book Fair — Quiet Neighborhood Memory
 
 **Subject:** Photography / artist book inquiry — Quiet Neighborhood Memory
 
 Hello,
 
-I am researching whether TOKYO ART BOOK FAIR is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether Tokyo Art Book Fair is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Quiet Neighborhood Memory." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
@@ -16,13 +16,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## UTRECHT — Quiet Neighborhood Memory
+## MOUNT ZINE — Quiet Neighborhood Memory
 
 **Subject:** Photography / artist book inquiry — Quiet Neighborhood Memory
 
 Hello,
 
-I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether MOUNT ZINE is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Quiet Neighborhood Memory." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
@@ -44,13 +44,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## TOKYO ART BOOK FAIR — Human Trace Study
+## Tokyo Art Book Fair — Human Trace Study
 
 **Subject:** Photography / artist book inquiry — Human Trace Study
 
 Hello,
 
-I am researching whether TOKYO ART BOOK FAIR is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether Tokyo Art Book Fair is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Human Trace Study." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
@@ -58,13 +58,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## UTRECHT — Human Trace Study
+## MOUNT ZINE — Human Trace Study
 
 **Subject:** Photography / artist book inquiry — Human Trace Study
 
 Hello,
 
-I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether MOUNT ZINE is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Human Trace Study." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
@@ -86,13 +86,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## TOKYO ART BOOK FAIR — Small Press City Walk
+## Tokyo Art Book Fair — Small Press City Walk
 
 **Subject:** Photography / artist book inquiry — Small Press City Walk
 
 Hello,
 
-I am researching whether TOKYO ART BOOK FAIR is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether Tokyo Art Book Fair is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Small Press City Walk." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
@@ -100,13 +100,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## UTRECHT — Small Press City Walk
+## MOUNT ZINE — Small Press City Walk
 
 **Subject:** Photography / artist book inquiry — Small Press City Walk
 
 Hello,
 
-I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether MOUNT ZINE is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Small Press City Walk." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 

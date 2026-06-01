@@ -4,8 +4,9 @@
   "venue_type": "gallery",
   "city": "Tokyo",
   "country": "",
-  "website": "https://1-6.jp/iro/",
+  "website": "https://1-6.jp/",
   "source_links": [
+    "https://1-6.jp/",
     "https://1-6.jp/iro/"
   ],
   "categories_seen": [
@@ -24,12 +25,16 @@
     "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
-    "contact"
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
   ],
   "opportunity_titles": [
+    "Gallery IRO",
     "Gallery IRO"
   ],
   "last_researched": "",
-  "created_at": "2026-05-29",
-  "updated_at": "2026-05-29"
+  "created_at": "2026-06-01",
+  "updated_at": "2026-06-01"
 }

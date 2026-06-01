@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications.
+Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
 
 Draft Structure:
 

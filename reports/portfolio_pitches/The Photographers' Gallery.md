@@ -10,7 +10,7 @@ Work that can become books, zines, calendars, small editions, paper objects, or 
 Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references.
 
 ## Match Signals
-publication
+publication, paper
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

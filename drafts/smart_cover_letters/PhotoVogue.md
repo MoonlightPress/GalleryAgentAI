@@ -7,7 +7,7 @@ Recommended Body of Work:
 General Portfolio
 
 Core Fit:
-Potential fit based on source context and keyword overlap: open call, submission, exhibition
+Potential fit based on source context and keyword overlap: open call, submission, exhibition, illustration
 
 Draft Structure:
 

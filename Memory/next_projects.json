@@ -30,47 +30,22 @@
     "first_action": "Make a 20-image edit and title it provisionally. Do not write the full statement yet.",
     "best_opportunity_targets": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Tokyo Art Book Fair",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "verification": "partial",
         "hits": [
-          "photobook",
           "zine",
           "artist book",
           "book fair"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
         "source": "https://tokyoartbookfair.com/"
-      },
-      {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
-        "source": "https://utrecht.jp/"
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program photographers without publication angle",
-        "source": "https://bookandbeer.com/"
       },
       {
         "title": "MOUNT ZINE",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "verification": "partial",
         "hits": [
           "zine",
@@ -80,9 +55,33 @@
         "source": "https://zine.mount.co.jp/"
       },
       {
-        "title": "flotsam books",
+        "title": "B&B Shimokitazawa",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+        "source": "https://bookandbeer.com/"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographerly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+        "source": "https://utrecht.jp/"
+      },
+      {
+        "title": "flotsam books",
+        "score": 9.2,
+        "differentiated_score": 11.19,
         "verification": "partial",
         "hits": [
           "zine",
@@ -92,20 +91,9 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "Comitia",
-        "score": 9.4,
-        "differentiated_score": 10.85,
-        "verification": "partial",
-        "hits": [
-          "zine"
-        ],
-        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
-        "source": "https://www.comitia.co.jp/"
-      },
-      {
         "title": "Book and Sons",
         "score": 9.4,
-        "differentiated_score": 10.75,
+        "differentiated_score": 10.55,
         "verification": "partial",
         "hits": [
           "zine"
@@ -114,22 +102,35 @@
         "source": "https://bookandsons.com/"
       },
       {
-        "title": "NADiff a/p/a/r/t",
+        "title": "Fukuoka Art Book Fair",
         "score": 8.8,
-        "differentiated_score": 10.68,
+        "differentiated_score": 10.54,
         "verification": "partial",
         "hits": [
           "zine",
-          "artist book"
+          "artist book",
+          "book fair"
         ],
-        "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
-        "source": "https://www.nadiff.com/"
+        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+        "source": "https://fukuokaartbookfair.com/application/"
+      },
+      {
+        "title": "Submissions — Clavis Publishing",
+        "score": 8.6,
+        "differentiated_score": 10.38,
+        "verification": "partial",
+        "hits": [
+          "artist book",
+          "small press"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+        "source": "https://www.clavis-publishing.com/submit"
       }
     ],
     "best_publisher_targets": [
       {
         "name": "Printed Matter",
-        "fit_score": 5.4,
+        "fit_score": 4.0,
         "match_strength": "high",
         "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
         "hits": [
@@ -140,7 +141,7 @@
       },
       {
         "name": "Self Publish, Be Happy",
-        "fit_score": 4.4,
+        "fit_score": 3.0,
         "match_strength": "high",
         "why": "Strong match for independent photobook and zine culture.",
         "hits": [
@@ -150,7 +151,7 @@
       },
       {
         "name": "AKAAKA",
-        "fit_score": 2.7,
+        "fit_score": 2.0,
         "match_strength": "high",
         "why": "Japanese photobook publisher with serious photography context; useful for quiet, sequence-driven work.",
         "hits": [
@@ -158,17 +159,8 @@
         ]
       },
       {
-        "name": "VOID",
-        "fit_score": 2.6,
-        "match_strength": "medium-high",
-        "why": "Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.",
-        "hits": [
-          "photobook"
-        ]
-      },
-      {
         "name": "T&M Projects",
-        "fit_score": 2.1,
+        "fit_score": 1.4,
         "match_strength": "medium-high",
         "why": "Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.",
         "hits": [
@@ -176,8 +168,17 @@
         ]
       },
       {
+        "name": "VOID",
+        "fit_score": 1.4,
+        "match_strength": "medium-high",
+        "why": "Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.",
+        "hits": [
+          "photobook"
+        ]
+      },
+      {
         "name": "MACK",
-        "fit_score": 1.5,
+        "fit_score": 0.8,
         "match_strength": "stretch",
         "why": "Major photobook publisher; probably not immediate, but useful as a long-horizon benchmark.",
         "hits": [
@@ -238,43 +239,21 @@
     "first_action": "Build the edit as a PDF contact sheet first, then reduce it by half.",
     "best_opportunity_targets": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Tokyo Art Book Fair",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "verification": "partial",
         "hits": [
           "documentary",
           "artist book"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
         "source": "https://tokyoartbookfair.com/"
-      },
-      {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "verification": "partial",
-        "hits": [
-          "artist book"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
-        "source": "https://utrecht.jp/"
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "verification": "partial",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program photographers without publication angle",
-        "source": "https://bookandbeer.com/"
       },
       {
         "title": "MOUNT ZINE",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "verification": "partial",
         "hits": [
           "artist book"
@@ -283,9 +262,31 @@
         "source": "https://zine.mount.co.jp/"
       },
       {
-        "title": "flotsam books",
+        "title": "B&B Shimokitazawa",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+        "source": "https://bookandbeer.com/"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographerly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+        "source": "https://utrecht.jp/"
+      },
+      {
+        "title": "flotsam books",
+        "score": 9.2,
+        "differentiated_score": 11.19,
         "verification": "partial",
         "hits": [
           "artist book"
@@ -294,43 +295,44 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "NADiff a/p/a/r/t",
+        "title": "Fukuoka Art Book Fair",
         "score": 8.8,
-        "differentiated_score": 10.68,
+        "differentiated_score": 10.54,
         "verification": "partial",
         "hits": [
           "artist book"
         ],
-        "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
-        "source": "https://www.nadiff.com/"
+        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+        "source": "https://fukuokaartbookfair.com/application/"
       },
       {
-        "title": "Photobook Cafe",
-        "score": 7.6,
-        "differentiated_score": 10.6,
+        "title": "Submissions — Clavis Publishing",
+        "score": 8.6,
+        "differentiated_score": 10.38,
         "verification": "partial",
         "hits": [
           "artist book"
         ],
-        "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.",
-        "source": "https://www.photobookcafe.co.uk/"
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+        "source": "https://www.clavis-publishing.com/submit"
       },
       {
-        "title": "AIR 3331",
+        "title": "BankART1929",
         "score": 9.4,
-        "differentiated_score": 10.41,
+        "differentiated_score": 10.26,
         "verification": "partial",
         "hits": [
-          "memory"
+          "memory",
+          "architecture"
         ],
-        "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
-        "source": "https://residence.3331.jp/"
+        "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.",
+        "source": "https://bankart1929.com/"
       }
     ],
     "best_publisher_targets": [
       {
         "name": "Printed Matter",
-        "fit_score": 5.4,
+        "fit_score": 4.0,
         "match_strength": "high",
         "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
         "hits": [
@@ -391,9 +393,9 @@
     "first_action": "Create a 12-image version first. This is the easiest thing to make real.",
     "best_opportunity_targets": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Tokyo Art Book Fair",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "verification": "partial",
         "hits": [
           "zine",
@@ -401,39 +403,13 @@
           "artist book",
           "independent publishing"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.",
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
         "source": "https://tokyoartbookfair.com/"
-      },
-      {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
-        "source": "https://utrecht.jp/"
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program photographers without publication angle",
-        "source": "https://bookandbeer.com/"
       },
       {
         "title": "MOUNT ZINE",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "verification": "partial",
         "hits": [
           "zine",
@@ -444,9 +420,35 @@
         "source": "https://zine.mount.co.jp/"
       },
       {
-        "title": "flotsam books",
+        "title": "B&B Shimokitazawa",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+        "source": "https://bookandbeer.com/"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographerly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+        "source": "https://utrecht.jp/"
+      },
+      {
+        "title": "flotsam books",
+        "score": 9.2,
+        "differentiated_score": 11.19,
         "verification": "partial",
         "hits": [
           "zine",
@@ -457,20 +459,9 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "Comitia",
-        "score": 9.4,
-        "differentiated_score": 10.85,
-        "verification": "partial",
-        "hits": [
-          "zine"
-        ],
-        "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
-        "source": "https://www.comitia.co.jp/"
-      },
-      {
         "title": "Book and Sons",
         "score": 9.4,
-        "differentiated_score": 10.75,
+        "differentiated_score": 10.55,
         "verification": "partial",
         "hits": [
           "zine",
@@ -480,23 +471,35 @@
         "source": "https://bookandsons.com/"
       },
       {
-        "title": "NADiff a/p/a/r/t",
+        "title": "Fukuoka Art Book Fair",
         "score": 8.8,
-        "differentiated_score": 10.68,
+        "differentiated_score": 10.54,
         "verification": "partial",
         "hits": [
           "zine",
-          "bookstore",
+          "book fair",
           "artist book"
         ],
-        "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
-        "source": "https://www.nadiff.com/"
+        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+        "source": "https://fukuokaartbookfair.com/application/"
+      },
+      {
+        "title": "Submissions — Clavis Publishing",
+        "score": 8.6,
+        "differentiated_score": 10.38,
+        "verification": "partial",
+        "hits": [
+          "small press",
+          "artist book"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+        "source": "https://www.clavis-publishing.com/submit"
       }
     ],
     "best_publisher_targets": [
       {
         "name": "Printed Matter",
-        "fit_score": 5.4,
+        "fit_score": 4.0,
         "match_strength": "high",
         "why": "Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.",
         "hits": [
@@ -507,7 +510,7 @@
       },
       {
         "name": "Self Publish, Be Happy",
-        "fit_score": 4.4,
+        "fit_score": 3.0,
         "match_strength": "high",
         "why": "Strong match for independent photobook and zine culture.",
         "hits": [

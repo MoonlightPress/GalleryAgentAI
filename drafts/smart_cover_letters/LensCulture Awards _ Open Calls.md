@@ -4,7 +4,7 @@ Tone:
 restrained and confident
 
 Recommended Body of Work:
-General Portfolio
+Artist Book / Printed Matter
 
 Core Fit:
 Potentially useful if her strongest body of work can be shaped into a coherent photo series with a clear statement.

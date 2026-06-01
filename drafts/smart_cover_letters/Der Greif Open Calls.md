@@ -4,10 +4,10 @@ Tone:
 focused and editorial
 
 Recommended Body of Work:
-Architecture / Memory / Place
+Artist Book / Printed Matter
 
 Core Fit:
-Potential fit for poetic, atmospheric photography if her work is sequenced around a strong theme.
+Potential fit for poetic, atmospheric watercolor / works on paper if her work is sequenced around a strong theme.
 
 Draft Structure:
 

@@ -1,33 +1,33 @@
 # Watercolor Opportunity Conversion Report
 
-Converted text fields: 57
-Boosted watercolor/works-on-paper matches: 51
-Demoted photography-only matches: 11
+Converted text fields: 72
+Boosted watercolor/works-on-paper matches: 151
+Demoted photography-only matches: 0
 
 ## Top Watercolor-Adjusted Opportunities
 
-- **TOKYO ART BOOK FAIR** — watercolor score 10; hits: artist book, zine
+- **Jinny Street Gallery Open Call** — watercolor score 10; hits: gallery
+- **Browse opportunities | CuratorSpace** — watercolor score 10; hits: watercolor, works on paper, zine, paper
+- **Royal Watercolour Society Open Exhibition** — watercolor score 10; hits: watercolor, watercolour
+- **HB Gallery** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, illustration, paper
+- **OPA Gallery** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, illustration, paper
+- **Pinpoint Gallery** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, illustration, paper
+- **Aesthetica Art Prize** — watercolor score 10; hits: watercolor, works on paper, zine, paper
+- **Self Publish, Be Happy** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, zine, paper
 - **UTRECHT** — watercolor score 10; hits: gallery, bookstore, artist book, zine
-- **B&B Shimokitazawa** — watercolor score 10; hits: bookstore, zine
-- **MOUNT ZINE** — watercolor score 10; hits: zine
-- **flotsam books** — watercolor score 10; hits: gallery, bookstore
-- **Comitia** — watercolor score 10; hits: zine, illustration
-- **Book and Sons** — watercolor score 10; hits: gallery, bookstore
-- **NADiff a/p/a/r/t** — watercolor score 10; hits: gallery, bookstore
-- **Photobook Cafe** — watercolor score 10; hits: 
-- **AIR 3331** — watercolor score 10; hits: residency, contemporary art
+- **Fukuoka Art Book Fair** — watercolor score 10; hits: zine, paper
+- **LOCAL Gallery・Books** — watercolor score 10; hits: gallery, zine, paper
+- **Tacoche** — watercolor score 10; hits: artist book, zine
+- **本店・本屋の実験室** — watercolor score 10; hits: bookstore, zine
 - **Offprint** — watercolor score 10; hits: artist book
-- **BankART1929** — watercolor score 10; hits: contemporary art
-- **Youkobo Art Space** — watercolor score 10; hits: residency
-- **Tokyo Wonder Site / TOKAS Residency** — watercolor score 10; hits: residency
-- **Aperture | Photography** — watercolor score 10; hits: zine
-- **The Photographers' Gallery** — watercolor score 10; hits: gallery
-- **Koganecho Area Management Center** — watercolor score 10; hits: residency
-- **3331 Arts Chiyoda** — watercolor score 10; hits: 
-- **DESIGN FESTA GALLERY** — watercolor score 10; hits: gallery
-- **SCAI The Bathhouse** — watercolor score 10; hits: gallery, contemporary art
-- **Gallery IRO** — watercolor score 10; hits: gallery
-- **Gallery HANA Shimokitazawa** — watercolor score 10; hits: gallery
-- **TAV Gallery** — watercolor score 10; hits: gallery
-- **VACANT** — watercolor score 10; hits: gallery
-- **Aperture Portfolio Prize / Opportunities** — watercolor score 10; hits: 
+- **Book and Sons** — watercolor score 10; hits: gallery, bookstore
+- **Tokyo Art Book Fair** — watercolor score 10; hits: watercolor, artist book, zine
+- **POST** — watercolor score 10; hits: gallery, bookstore
+- **グループ展参加アーティスト募集中 - Gallery and Links81** — watercolor score 10; hits: drawing, gallery
+- **【biscuit gallery】初の公募企画「grid next : Emerging ...** — watercolor score 10; hits: drawing, gallery
+- **219公募展6募集 >> Gallery219 ギャラリーニイク** — watercolor score 10; hits: drawing, gallery
+- **公募プログラム - トーキョーアーツアンドスペース** — watercolor score 10; hits: drawing, gallery
+- **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — watercolor score 10; hits: drawing, gallery
+- **Open Calls for Artists | Exhibit Worldwide** — watercolor score 10; hits: drawing, gallery
+- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — watercolor score 10; hits: drawing, gallery
+- **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — watercolor score 10; hits: drawing, gallery

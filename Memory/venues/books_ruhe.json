@@ -1,0 +1,38 @@
+{
+  "venue_name": "Books Ruhe",
+  "venue_slug": "books_ruhe",
+  "venue_type": "bookstore / print space",
+  "city": "Kichijoji, Tokyo",
+  "country": "",
+  "website": "https://www.books-ruhe.co.jp/",
+  "source_links": [
+    "https://www.books-ruhe.co.jp/"
+  ],
+  "categories_seen": [
+    "Print / Zines / Bookstores"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "Books Ruhe"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-01",
+  "updated_at": "2026-06-01"
+}

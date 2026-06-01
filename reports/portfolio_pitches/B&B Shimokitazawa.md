@@ -7,7 +7,7 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle
+Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 
 ## Match Signals
 zine, publication

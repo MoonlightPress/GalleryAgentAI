@@ -4,10 +4,10 @@ Tone:
 focused and editorial
 
 Recommended Body of Work:
-Architecture / Memory / Place
+Artist Book / Printed Matter
 
 Core Fit:
-Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition
+Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 
 Draft Structure:
 

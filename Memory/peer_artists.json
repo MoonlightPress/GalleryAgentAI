@@ -1,24 +1,5 @@
 [
   {
-    "name": "Rinko Kawauchi",
-    "region": "Japan",
-    "fit_reason": "quiet observation, soft attention to ordinary life, poetic sequencing",
-    "shared_traits": [
-      "quiet photography",
-      "daily life",
-      "memory",
-      "sequence",
-      "soft atmosphere"
-    ],
-    "use_as": "tone reference, not direct stylistic imitation",
-    "fit_score": 5.2,
-    "overlap_terms": [
-      "daily life",
-      "memory",
-      "quiet photography"
-    ]
-  },
-  {
     "name": "Yoshiyuki Okuyama",
     "region": "Japan",
     "fit_reason": "youthful everyday scenes, memory, light, quiet personal atmosphere",
@@ -31,24 +12,25 @@
     "use_as": "reference for accessible poetic sequencing",
     "fit_score": 4.0,
     "overlap_terms": [
-      "daily life",
+      "intimate scale",
       "memory"
     ]
   },
   {
-    "name": "Alec Soth",
-    "region": "USA",
-    "fit_reason": "narrative sequencing, place, human trace, photographic storytelling through accumulation",
+    "name": "Rinko Kawauchi",
+    "region": "Japan",
+    "fit_reason": "quiet observation, soft attention to ordinary life, poetic sequencing",
     "shared_traits": [
+      "quiet photography",
+      "daily life",
+      "memory",
       "sequence",
-      "place",
-      "human trace",
-      "photobook"
+      "soft atmosphere"
     ],
-    "use_as": "reference for project structure",
-    "fit_score": 2.2,
+    "use_as": "tone reference, not direct stylistic imitation",
+    "fit_score": 2.8,
     "overlap_terms": [
-      "human trace"
+      "memory"
     ]
   },
   {
@@ -68,22 +50,6 @@
     ]
   },
   {
-    "name": "Takashi Homma",
-    "region": "Japan",
-    "fit_reason": "ordinary architecture, suburbs, place-based observation, understated photographic language",
-    "shared_traits": [
-      "architecture",
-      "urban vernacular",
-      "daily place",
-      "cool restraint"
-    ],
-    "use_as": "reference for place and built environment",
-    "fit_score": 1.9,
-    "overlap_terms": [
-      "urban vernacular"
-    ]
-  },
-  {
     "name": "Batia Suter",
     "region": "Europe",
     "fit_reason": "book-oriented image sequencing and associative visual thinking",
@@ -98,6 +64,34 @@
     "overlap_terms": [
       "artist book"
     ]
+  },
+  {
+    "name": "Alec Soth",
+    "region": "USA",
+    "fit_reason": "narrative sequencing, place, human trace, photographic storytelling through accumulation",
+    "shared_traits": [
+      "sequence",
+      "place",
+      "human trace",
+      "photobook"
+    ],
+    "use_as": "reference for project structure",
+    "fit_score": 1.0,
+    "overlap_terms": []
+  },
+  {
+    "name": "Takashi Homma",
+    "region": "Japan",
+    "fit_reason": "ordinary architecture, suburbs, place-based observation, understated photographic language",
+    "shared_traits": [
+      "architecture",
+      "urban vernacular",
+      "daily place",
+      "cool restraint"
+    ],
+    "use_as": "reference for place and built environment",
+    "fit_score": 0.7,
+    "overlap_terms": []
   },
   {
     "name": "Mark Ruwedel",

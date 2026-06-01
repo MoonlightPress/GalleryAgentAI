@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle
+Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 
 Draft Structure:
 

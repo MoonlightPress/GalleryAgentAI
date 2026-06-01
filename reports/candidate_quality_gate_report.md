@@ -1,18 +1,32 @@
 # Candidate Quality Gate Report
 
-Approved: 4
-Rejected: 40
+Approved: 6
+Rejected: 145
 
 ## Rejected
 
+- Royal Watercolour Society — generic page without opportunity language
+- Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 1 — generic page without opportunity language
 - LensCulture - Contemporary Photography — strong: zine, weak: photography, exhibition, score too low: 4
-- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026 — strong: printed matter, weak: photography, gallery, exhibition, score too low: 3
+- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: photography, gallery, exhibition, score too low: 3
+- Exhibitions — junk title: exhibitions
+- RWS GALLERY AT WHITCOMB STREET Open Tuesday - Saturday, 11am - 5pm — generic page without opportunity language
+- Exhibitions Royal Watercolour Society at the RWS Gallery Final days to visit 10 April - 31 — generic page without opportunity language
+- Exhibitions The Chemistry of Water Modupeola Fadugba 5 - 27 June 2026 LEARN MORE — generic page without opportunity language
+- LEARN MORE — generic page without opportunity language
+- Phoebe Barnicoat Three Sisters watercolour Unframed Artwork: 10.5 x 14.5cm — generic page without opportunity language
+- Phoebe Barnicoat Snake Meet watercolour Unframed Artwork: 14.5 x 10.5cm — generic page without opportunity language
+- Anne Marlow A Safe Place watercolour & pastel Unframed Artwork: 23.5 x 24cm — generic page without opportunity language
+- exhibition open call: 2026–27 season — strong: open call, weak: exhibition, has submission link, score too low: 4
 - Art Events and Exhibitions｜Tokyo Art Beat — generic page without opportunity language
 - TOKYO ART BOOK FAIR — strong: book fair, weak: book, score too low: 3
+- Jackson's Art Prize — generic page without opportunity language
+- 【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society — generic page without opportunity language
+- DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
 - Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
-- Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00 — strong: zine, printed matter, score too low: 2
+- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — strong: zine, printed matter, score too low: 2
 - See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
 - exhibitions — junk title: exhibitions
@@ -21,7 +35,7 @@ Rejected: 40
 - Instagram — junk title: instagram
 - Tiktok — junk title: tiktok
 - Submission Amendment — junk title: submission amendment
-- Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today × — strong: award, deadline, weak: photography, score too low: 3
+- Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today × — strong: deadline, award, weak: photography, score too low: 3
 - Learn — junk title: learn
 - Exhibitions — junk title: exhibitions
 - Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho — strong: award, weak: photography, score too low: 1
@@ -45,10 +59,103 @@ Rejected: 40
 - PhotoBook Awards — strong: photobook, award, weak: book, score too low: 3
 - All Issues — strong: zine, score too low: 0
 - aperture.org — strong: photobook, weak: book, score too low: 1
+- Skip to main content — generic page without opportunity language
+- Menu — generic page without opportunity language
+- Artists — generic page without opportunity language
+- EVENTS — generic page without opportunity language
+- Opportunities — generic page without opportunity language
+- Visit — generic page without opportunity language
+- About — generic page without opportunity language
+- Galleries — generic page without opportunity language
+- Support — generic page without opportunity language
+- Our History — generic page without opportunity language
+- Whitcomb Street Project — generic page without opportunity language
+- Venue Hire — generic page without opportunity language
+- Sign up to our newsletter (function($) {window.fnames = new Array(); window.ftypes = new A — generic page without opportunity language
+- New Available Artworks — generic page without opportunity language
+- Lottie Cole Interior with Sunset at Sea watercolour & gouache Framed Artwork: 36 x 26cm Fr — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Caroline Cornelius Erica's Autumn Walk watercolour & colour pencil Unframed Artwork: 26 x  — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Caroline Cornelius Green Floral Sunlounger III watercolour & colour pencil Unframed Artwor — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Caroline Cornelius Someone Broke a Glass in the Guacamole watercolour & colour pencil Unfr — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Francis Bowyer Celebrating Low Tide watercolour Framed Artwork: 18 x 27cm Frame: 38 x 46cm — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Francis Bowyer Dusk watercolour Unframed with mount Artwork: 16 x 20cm Mount: 32 x 34cm — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Francis Bowyer Moonlit Night watercolour Unframed with mount Artwork: 18 x 21cm Mount: 30  — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Chloë Cheese Texture of an Afternoon watercolour & pencil Unframed Artwork: 19 x 23.5cm — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Jill Leman Butterflies & Tulips watercolour & acrylic Framed Artwork: 40 x 44cm Frame: 47  — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Akash Bhatt Eklo (Alone) watercolour Framed Artwork: 24 x 28cm Frame: 39 x 43cm — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Annie Williams The Blue Table watercolour Framed Artwork: 38 x 47cm Frame: 59 x 67cm — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Annie Williams Pots and Doodles watercolour Framed Artwork: 27 x 36cm Frame: 45 x 55cm — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Annie Williams Still Life with a Touch of Green watercolour & gouache Framed Artwork: 30 x — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Anne Marlow Seathrift watercolour & pastel Unframed Artwork: 24 x 26.5cm — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
+- Magazine — strong: open call, zine, score too low: 2
+- Residency — strong: open call, residency, score too low: 2
+- bipoc artist residency program — strong: open call, residency, weak: artist, score too low: 3
+- call for proposals for solo exhibitions — strong: open call, call for, weak: gallery, exhibition, score too low: 4
+- Open Call — strong: open call, has submission link, score too low: 3
+- 展覧会 — bad/missing title
+- 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
+- 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
+- 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
+- 展覧会 2025.05.16 Illustration Works 1 — generic page without opportunity language
+- 展覧会 2025.04.18 「110人のイラストレーターが描く 宮沢 — generic page without opportunity language
+- これから開催の展示 — generic page without opportunity language
+- これまで開催の展示 — generic page without opportunity language
+- 〒530-0015 — generic page without opportunity language
+- DFG MURAL PROJECT 2026 — generic page without opportunity language
+- PUNK PUNK PUNK 2 — generic page without opportunity language
+- ボタニカ展 — generic page without opportunity language
+- GuroKawa Exhibition2 — generic page without opportunity language
+- 原宿カワイイ展 〜キラキラフィーバー！〜 — generic page without opportunity language
+- 青空展 — bad/missing title
+- 2026年4月22日 【企画展】『GuroKawa Exhibition2』出展者募集中！🎨 — generic page without opportunity language
+- ericknoza solo exhibition — generic page without opportunity language
+- pinpointgallery.com — generic page without opportunity language
+- pinpointgallery.com — generic page without opportunity language
+- pinpointgallery.com — generic page without opportunity language
+- pinpointgallery.com — generic page without opportunity language
+- pinpointgallery.com — generic page without opportunity language
+- pinpointgallery.com — generic page without opportunity language
+- Gallery IYN｜大阪市北区中崎町｜ギャラリー — generic page without opportunity language
+- HB Galleryã®ãã¼ã ãã¼ã¸ã¸ãããã — generic page without opportunity language
+- OPA galleryã»shop — generic page without opportunity language
+- Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。 — generic page without opportunity language
 
 ## Approved
 
-- Home - Printed Matter — strong: photobook, zine, book fair, printed matter, weak: photography, exhibition, book
-- Aperture | Photography — strong: photobook, zine, weak: photography, exhibition, book
-- PhotoVogue — strong: submission, open call, weak: exhibition
+- Home - Printed Matter — strong: book fair, photobook, zine, printed matter, weak: book, photography, exhibition
+- Browse opportunities | CuratorSpace — strong: open call, submission, weak: exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, residency, submission, zine, weak: artist, exhibition
+- PhotoVogue — strong: open call, submission, weak: exhibition
+- Aperture | Photography — strong: photobook, zine, weak: book, photography, exhibition
 - DER GREIF — strong: portfolio review, open call, weak: photography

@@ -2,54 +2,56 @@
 
 This report suggests adjacent institutions and ecosystems.
 
-## TOKYO ART BOOK FAIR
+## Tokyo Art Book Fair
 
-- Photobook Cafe (similarity 4)
 - Offprint (similarity 4)
 - Self Publish, Be Happy (similarity 4)
 - UTRECHT (similarity 3)
+- Tacoche (similarity 3)
 - Printed Matter Art Book Fairs (similarity 3)
 - Home - Printed Matter (similarity 3)
-
-## UTRECHT
-
-- TOKYO ART BOOK FAIR (similarity 3)
-
-## B&B Shimokitazawa
-
+- Publishing / Artist Books — Battle Plan (similarity 3)
 
 ## MOUNT ZINE
 
 
-## flotsam books
+## B&B Shimokitazawa
 
 
-## Comitia
+## UTRECHT
 
+- Tokyo Art Book Fair (similarity 3)
+- Tacoche (similarity 3)
 
 ## Book and Sons
-
-
-## AIR 3331
-
-
-## reload Shimokitazawa
 
 
 ## BankART1929
 
 
+## AIR 3331
+
+
+## BONUS TRACK
+
+
+## Koganecho Area Management Center
+
+
+## 3331 Arts Chiyoda
+
+
+## flotsam books
+
+
 ## Youkobo Art Space
-
-
-## Tokyo Wonder Site / TOKAS Residency
 
 
 ## Tokyo Arts and Space
 
 
-## AIT Residency
+## Fukuoka Art Book Fair
 
 
-## BONUS TRACK
+## POST
 

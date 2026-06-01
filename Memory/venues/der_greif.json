@@ -2,21 +2,14 @@
   "venue_name": "Der Greif",
   "venue_slug": "der_greif",
   "venue_type": "artist opportunity venue",
-  "city": "Online, Online / Germany",
+  "city": "Online",
   "country": "",
-  "website": "https://dergreif.org/open-call",
+  "website": "https://dergreif.org/",
   "source_links": [
-    "https://dergreif.org/open-call",
-    "https://dergreif.org/",
-    "https://www.facebook.com/dergreif.photography/",
-    "https://dergreif.org/article/the-everyday-street-photography-of-svilen-nachev",
-    "https://www.futures-photography.com"
+    "https://dergreif.org/"
   ],
   "categories_seen": [
-    "Global Photo Open Call",
-    "Global Photobook",
-    "Photo Open Call",
-    "Photo Publication"
+    "Photo Open Call"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -37,14 +30,9 @@
     "submission process"
   ],
   "opportunity_titles": [
-    "Open Calls",
-    "DER GREIF",
-    "www.facebook.com",
-    "Continue Reading",
-    "www.futures-photography.com",
-    "Der Greif Open Calls"
+    "DER GREIF"
   ],
   "last_researched": "",
-  "created_at": "2026-05-29",
-  "updated_at": "2026-05-29"
+  "created_at": "2026-06-01",
+  "updated_at": "2026-06-01"
 }

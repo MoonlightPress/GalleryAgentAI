@@ -34,19 +34,19 @@ A quiet photographic sequence about ordinary neighborhoods, lived-in architectur
 - **Printed Matter** — high — Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.
 - **Self Publish, Be Happy** — high — Strong match for independent photobook and zine culture.
 - **AKAAKA** — high — Japanese photobook publisher with serious photography context; useful for quiet, sequence-driven work.
-- **VOID** — medium-high — Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.
 - **T&M Projects** — medium-high — Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.
+- **VOID** — medium-high — Photobook publisher with strong visual sequencing culture; good benchmark for atmospheric projects.
 - **MACK** — stretch — Major photobook publisher; probably not immediate, but useful as a long-horizon benchmark.
 
 ### Current Opportunity Targets
-- **TOKYO ART BOOK FAIR** — 9.4 / 11.5. Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.
-- **UTRECHT** — 9.4 / 11.5. This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- **B&B Shimokitazawa** — 9.4 / 11.5. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program photographers without publication angle
-- **MOUNT ZINE** — 9.4 / 11.5. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
-- **Comitia** — 9.4 / 10.85. It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.
-- **Photobook Cafe** — 7.6 / 10.6. Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.
-- **Offprint** — 7.6 / 10.3. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications.
-- **Aperture | Photography** — 7.6 / 10.24. Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition
+- **Tokyo Art Book Fair** — 9.4 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- **MOUNT ZINE** — 9.4 / 11.39. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
+- **B&B Shimokitazawa** — 9.4 / 11.39. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+- **UTRECHT** — 9.4 / 11.24. This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
+- **Fukuoka Art Book Fair** — 8.8 / 10.54. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+- **Submissions — Clavis Publishing** — 8.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 8.6 / 10.22. Possible fit based on link text: zine, open call
+- **Browse opportunities | CuratorSpace** — 8.6 / 10.13. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -79,14 +79,14 @@ A focused body of work about indirect human presence: fences, laundry, paths, wi
 - **Printed Matter** — high — Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.
 
 ### Current Opportunity Targets
-- **TOKYO ART BOOK FAIR** — 9.4 / 11.5. Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.
-- **UTRECHT** — 9.4 / 11.5. This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- **Offprint** — 7.6 / 10.3. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications.
+- **Tokyo Art Book Fair** — 9.4 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- **UTRECHT** — 9.4 / 11.24. This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **BankART1929** — 9.4 / 10.26. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
-- **Center for Book Arts Opportunities** — 7.6 / 10.18. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
-- **Printed Matter Art Book Fairs** — 6.5 / 9.73. Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
-- **PhotoVogue Open Calls** — 7.6 / 9.42. Useful for international exposure if her work can be framed as poetic documentary, memory, place, or contemporary visual storytelling.
-- **Home - Printed Matter** — 6.5 / 9.4. Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture
+- **Offprint** — 8.6 / 10.04. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
+- **Tacoche** — 8.6 / 9.98. Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.
+- **Center for Book Arts Opportunities** — 8.6 / 9.91. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+- **Self Publish, Be Happy** — 8.0 / 9.7. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
+- **Aperture | Photography** — 8.1 / 9.63. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -121,14 +121,14 @@ A compact, low-pressure zine built from a walk through a neighborhood, edited as
 - **Self Publish, Be Happy** — high — Strong match for independent photobook and zine culture.
 
 ### Current Opportunity Targets
-- **TOKYO ART BOOK FAIR** — 9.4 / 11.5. Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.
-- **UTRECHT** — 9.4 / 11.5. This sidesteps your strategic risk entirely—bookstore galleries celebrate photographic work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- **B&B Shimokitazawa** — 9.4 / 11.5. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program photographers without publication angle
-- **MOUNT ZINE** — 9.4 / 11.5. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
-- **flotsam books** — 9.4 / 11.5. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
-- **Comitia** — 9.4 / 10.85. It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.
-- **Book and Sons** — 9.4 / 10.75. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
-- **NADiff a/p/a/r/t** — 8.8 / 10.68. Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all
+- **Tokyo Art Book Fair** — 9.4 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- **MOUNT ZINE** — 9.4 / 11.39. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
+- **B&B Shimokitazawa** — 9.4 / 11.39. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+- **UTRECHT** — 9.4 / 11.24. This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
+- **flotsam books** — 9.2 / 11.19. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **Book and Sons** — 9.4 / 10.55. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
+- **Fukuoka Art Book Fair** — 8.8 / 10.54. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+- **Submissions — Clavis Publishing** — 8.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -159,18 +159,18 @@ A portfolio sequence centered on vernacular architecture, domestic structures, s
 
 ### Publisher / Platform Targets
 - **AKAAKA** — high — Japanese photobook publisher with serious photography context; useful for quiet, sequence-driven work.
-- **T&M Projects** — medium-high — Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.
 - **Aperture** — stretch — High-prestige photography institution and publication ecosystem; useful for awards, references, and benchmark artists.
+- **T&M Projects** — medium-high — Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.
 
 ### Current Opportunity Targets
-- **TOKYO ART BOOK FAIR** — 9.4 / 11.5. Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.
-- **flotsam books** — 9.4 / 11.5. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
-- **Comitia** — 9.4 / 10.85. It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.
-- **Photobook Cafe** — 7.6 / 10.6. Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.
-- **reload Shimokitazawa** — 9.4 / 10.26. Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.
+- **Tokyo Art Book Fair** — 9.4 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **BankART1929** — 9.4 / 10.26. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
-- **Aperture | Photography** — 7.6 / 10.24. Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition
-- **The Photographers' Gallery** — 7.6 / 10.12. Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references.
+- **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 8.6 / 10.22. Possible fit based on link text: zine, open call
+- **Browse opportunities | CuratorSpace** — 8.6 / 10.13. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
+- **Top Artist Opportunities for 2026 | ArtConnect** — 8.6 / 9.98. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
+- **Aperture | Photography** — 8.1 / 9.63. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
+- **Open Call for the International Creator Residency Program 2026** — 8.8 / 9.4. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **Jinny Street Gallery Open Call** — 8.8 / 9.4. Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.

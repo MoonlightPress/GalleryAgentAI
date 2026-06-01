@@ -1,25 +1,10 @@
 [
   {
-    "title": "Aperture Portfolio Prize / Opportunities",
+    "title": "Royal Watercolour Society Open Exhibition",
     "score": 8.6,
-    "research_priority_score": 15.32,
-    "country": "USA / Global",
-    "category": "global_photo_publication",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email",
-      "official_website"
-    ],
-    "quick_action": "Research current open opportunities and compare her work to recent selected artists."
-  },
-  {
-    "title": "The Photographers' Gallery",
-    "score": 8.6,
-    "research_priority_score": 15.25,
+    "research_priority_score": 15.42,
     "country": "UK",
-    "category": "global_photo_institution",
+    "category": "global_watercolor_open_call",
     "missing_fields": [
       "submission_page",
       "fees",
@@ -27,14 +12,14 @@
       "contact_email",
       "official_website"
     ],
-    "quick_action": "Do not pitch cold immediately; research shop, events, open calls, and comparable artists first."
+    "quick_action": "Research current open call dates, submission fees, accepted formats, and previous selected works to gauge aesthetic fit."
   },
   {
-    "title": "PhotoVogue Open Calls",
+    "title": "American Watercolor Society Annual International Exhibition",
     "score": 8.6,
-    "research_priority_score": 15.07,
-    "country": "Global",
-    "category": "global_online_feature",
+    "research_priority_score": 15.18,
+    "country": "USA",
+    "category": "global_watercolor_open_call",
     "missing_fields": [
       "submission_page",
       "fees",
@@ -42,7 +27,22 @@
       "contact_email",
       "official_website"
     ],
-    "quick_action": "Check current open calls and archive previous selected projects to judge aesthetic fit."
+    "quick_action": "Check current open call window, digital vs. physical submission requirements, fees, and accepted paper sizes."
+  },
+  {
+    "title": "Cité Internationale des Arts Artist Residency",
+    "score": 8.6,
+    "research_priority_score": 15.11,
+    "country": "France",
+    "category": "global_residency",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email",
+      "official_website"
+    ],
+    "quick_action": "Research application routes (often via home country cultural institutions or direct application), eligibility, and current availability."
   },
   {
     "title": "Offprint",
@@ -75,11 +75,11 @@
     "quick_action": "Check current opportunities, eligibility, and whether international artists may apply."
   },
   {
-    "title": "Der Greif Open Calls",
+    "title": "Aesthetica Art Prize",
     "score": 8.6,
-    "research_priority_score": 14.79,
-    "country": "Germany / Global",
-    "category": "global_photo_open_call",
+    "research_priority_score": 14.76,
+    "country": "UK / Global",
+    "category": "global_open_call",
     "missing_fields": [
       "submission_page",
       "fees",
@@ -87,22 +87,7 @@
       "contact_email",
       "official_website"
     ],
-    "quick_action": "Check current calls, previous themes, selected artists, and submission fees."
-  },
-  {
-    "title": "LensCulture Awards / Open Calls",
-    "score": 8.6,
-    "research_priority_score": 14.72,
-    "country": "Global",
-    "category": "global_photo_open_call",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email",
-      "official_website"
-    ],
-    "quick_action": "Check current award themes, fees, previous winners, and whether the fee/reward balance is worth it."
+    "quick_action": "Check current open call, entry fees, accepted categories, and whether works on paper / watercolor have historically been selected."
   },
   {
     "title": "Printed Matter Art Book Fairs",
@@ -120,11 +105,11 @@
     "quick_action": "Research fair exhibitor criteria and identify comparable small publishers or artists first."
   },
   {
-    "title": "Photobook Cafe",
-    "score": 8.6,
-    "research_priority_score": 14.62,
-    "country": "UK",
-    "category": "global_photobook_space",
+    "title": "Asian Cultural Council Fellowship",
+    "score": 7.8,
+    "research_priority_score": 14.34,
+    "country": "USA / Global",
+    "category": "global_grant_fellowship",
     "missing_fields": [
       "submission_page",
       "fees",
@@ -132,14 +117,14 @@
       "contact_email",
       "official_website"
     ],
-    "quick_action": "Research whether they accept consignments, events, submissions, or artist-book inquiries."
+    "quick_action": "Research current fellowship categories, eligibility (Chinese national based in Japan qualifies), application cycle, and past recipients in watercolor / works on paper/works on paper."
   },
   {
     "title": "Self Publish, Be Happy",
     "score": 8.0,
     "research_priority_score": 14.3,
     "country": "UK / Global",
-    "category": "global_photobook_platform",
+    "category": "global_artist_book_platform",
     "missing_fields": [
       "submission_page",
       "fees",
@@ -147,14 +132,29 @@
       "contact_email",
       "official_website"
     ],
-    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review or newsletter visibility is available."
+    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper or newsletter visibility is available."
   },
   {
-    "title": "Aperture | Photography",
+    "title": "Japan Watercolor Society Annual Exhibition",
+    "score": 7.5,
+    "research_priority_score": 12.12,
+    "country": "Japan",
+    "category": "japan_watercolor_institution",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email",
+      "official_website"
+    ],
+    "quick_action": "Research current membership structure, open entry process, exhibition dates, and submission requirements in Japanese."
+  },
+  {
+    "title": "Browse opportunities | CuratorSpace",
     "score": 8.6,
     "research_priority_score": 11.7,
     "country": "Global",
-    "category": "global_photobook",
+    "category": "zine_print",
     "missing_fields": [
       "submission_page",
       "fees",
@@ -164,11 +164,11 @@
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
-    "title": "DER GREIF",
+    "title": "Top Artist Opportunities for 2026 | ArtConnect",
     "score": 8.6,
     "research_priority_score": 11.7,
     "country": "Global",
-    "category": "global_photobook",
+    "category": "zine_print",
     "missing_fields": [
       "submission_page",
       "fees",
@@ -178,129 +178,31 @@
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
-    "title": "www.facebook.com",
-    "score": 8.6,
-    "research_priority_score": 11.7,
-    "country": "Global",
-    "category": "photo_publication",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "Continue Reading",
-    "score": 8.6,
-    "research_priority_score": 11.7,
-    "country": "Global",
-    "category": "photo_publication",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "www.futures-photography.com",
-    "score": 8.6,
-    "research_priority_score": 11.7,
-    "country": "Global",
-    "category": "photo_publication",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×",
-    "score": 8.6,
-    "research_priority_score": 11.7,
-    "country": "Global",
-    "category": "photo_open_call",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "Learn",
-    "score": 8.6,
-    "research_priority_score": 11.7,
-    "country": "Global",
-    "category": "photo_open_call",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho",
-    "score": 8.6,
-    "research_priority_score": 11.7,
-    "country": "Global",
-    "category": "photo_open_call",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c",
-    "score": 8.6,
-    "research_priority_score": 11.7,
-    "country": "Global",
-    "category": "photo_open_call",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "PhotoVogue",
-    "score": 8.6,
-    "research_priority_score": 11.7,
-    "country": "Global",
-    "category": "photo_open_call",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
-  },
-  {
-    "title": "Open Calls",
+    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
     "score": 8.6,
     "research_priority_score": 11.3,
     "country": "Global",
-    "category": "photo_open_call",
+    "category": "zine_print",
     "missing_fields": [
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
+    "quick_action": "Open and verify whether this is current and relevant."
+  },
+  {
+    "title": "Aperture | Photography",
+    "score": 8.1,
+    "research_priority_score": 11.2,
+    "country": "Global",
+    "category": "global_photobook",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
     "title": "Home - Printed Matter",
@@ -317,95 +219,221 @@
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
-    "title": "X",
+    "title": "Bologna Children's Book Fair Illustrators Exhibition",
     "score": 7.8,
     "research_priority_score": 10.9,
     "country": "Global",
-    "category": "zine_print",
+    "category": null,
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
-    "title": "Pinterest",
+    "title": "HB Gallery",
     "score": 7.8,
     "research_priority_score": 10.9,
-    "country": "Global",
-    "category": "zine_print",
+    "country": "Tokyo",
+    "category": null,
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
-    "title": "Instagram",
+    "title": "OPA Gallery",
     "score": 7.8,
     "research_priority_score": 10.9,
-    "country": "Global",
-    "category": "zine_print",
+    "country": "Tokyo",
+    "category": null,
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
-    "title": "Tiktok",
+    "title": "Pinpoint Gallery",
     "score": 7.8,
     "research_priority_score": 10.9,
-    "country": "Global",
-    "category": "zine_print",
+    "country": "Tokyo",
+    "category": null,
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
-    "title": "Magazine Subscribers",
+    "title": "Jackson's Art Prize",
     "score": 7.8,
     "research_priority_score": 10.9,
     "country": "Global",
-    "category": "zine_print",
+    "category": null,
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
-    "title": "Magazine Subscription",
+    "title": "ArtConnect Open Calls",
     "score": 7.8,
     "research_priority_score": 10.9,
     "country": "Global",
-    "category": "zine_print",
+    "category": null,
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
-    "title": "LensCulture - Contemporary Photography",
+    "title": "CuratorSpace",
     "score": 7.8,
     "research_priority_score": 10.9,
     "country": "Global",
-    "category": "zine_print",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "Society of Women Artists",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "UK",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "Gallery IRO",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Tokyo",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "Royal Watercolour Society",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "UK",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "The Artcomplex Center of Tokyo",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Tokyo",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "AAA Gallery Yokohama",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Yokohama",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "World Illustration Awards",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Global",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "3x3 International Illustration Awards",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Global",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "American Illustration",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Global",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "PhotoVogue",
+    "score": 7.3,
+    "research_priority_score": 10.4,
+    "country": "Global",
+    "category": "photo_open_call",
     "missing_fields": [
       "submission_page",
       "fees",
@@ -415,10 +443,10 @@
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
-    "title": "Browse Printed Matter Editions",
-    "score": 7.5,
-    "research_priority_score": 10.6,
-    "country": "Global",
+    "title": "LOCAL Gallery・Books",
+    "score": 8.6,
+    "research_priority_score": 10.2,
+    "country": null,
     "category": "zine_print",
     "missing_fields": [
       "submission_page",
@@ -426,128 +454,118 @@
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
+    "quick_action": "Verify current location/contact and visit with a sample zine."
   },
   {
-    "title": "Printed Matter, Inc.",
-    "score": 7.5,
-    "research_priority_score": 10.6,
-    "country": "Global",
-    "category": "zine_print",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00",
-    "score": 7.5,
-    "research_priority_score": 10.6,
-    "country": "Global",
-    "category": "zine_print",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
-    "score": 7.5,
-    "research_priority_score": 10.6,
-    "country": "Global",
-    "category": "gallery_event",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "See all exhibitions",
-    "score": 7.5,
-    "research_priority_score": 10.6,
-    "country": "Global",
-    "category": "gallery_event",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify source page, current status, submission process, deadline, fees, and contact before recommending."
-  },
-  {
-    "title": "TOKYO ART BOOK FAIR",
-    "score": 9.4,
-    "research_priority_score": 9.8,
+    "title": "Art Book Fairs",
+    "score": 8.6,
+    "research_priority_score": 10.2,
     "country": null,
     "category": "fair_popup",
     "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
       "contact_email"
     ],
-    "quick_action": "Ask yourself if creating an artist book or zine series about vernacular architecture genuinely interests you as a medium, separate from the appeal of the Tokyo location."
+    "quick_action": "Check exhibitor/application requirements, booth fee, and next event date."
   },
   {
-    "title": "UTRECHT",
-    "score": 9.4,
-    "research_priority_score": 9.8,
-    "country": null,
-    "category": "bookstore_gallery",
-    "missing_fields": [
-      "contact_email"
-    ],
-    "quick_action": "Visit their website to see current exhibitions and publications, get a feel for the space before considering a zine or small publication project"
-  },
-  {
-    "title": "B&B Shimokitazawa",
-    "score": 9.4,
-    "research_priority_score": 9.8,
-    "country": null,
-    "category": "bookstore_event",
-    "missing_fields": [
-      "contact_email"
-    ],
-    "quick_action": "Research current programming to see if they feature visual artists or primarily authors/illustrators, then decide if worth pursuing"
-  },
-  {
-    "title": "MOUNT ZINE",
-    "score": 9.4,
-    "research_priority_score": 9.8,
-    "country": null,
-    "category": "zine_print",
-    "missing_fields": [
-      "contact_email"
-    ],
-    "quick_action": "Visit website to understand current submission process and whether they accept international submissions or primarily local artists"
-  },
-  {
-    "title": "flotsam books",
-    "score": 9.4,
-    "research_priority_score": 9.8,
-    "country": null,
-    "category": "bookstore_gallery",
-    "missing_fields": [
-      "contact_email"
-    ],
-    "quick_action": "Visit if in Tokyo to assess space and build relationship naturally; not worth cold outreach from distance"
-  },
-  {
-    "title": "Comitia",
-    "score": 9.4,
-    "research_priority_score": 9.8,
+    "title": "Jimbocho Zine Fair",
+    "score": 8.6,
+    "research_priority_score": 10.2,
     "country": null,
     "category": "fair_popup",
     "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
       "contact_email"
     ],
-    "quick_action": "Skip—this isn't aligned with your practice model or strategic direction."
+    "quick_action": "Check application window, booth/table fee, required images, and whether a finished zine is required."
+  },
+  {
+    "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+    "score": 8.6,
+    "research_priority_score": 10.2,
+    "country": null,
+    "category": "fair_popup",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Check application window, booth/table fee, required images, and whether a finished zine is required."
+  },
+  {
+    "title": "Tacoche",
+    "score": 8.6,
+    "research_priority_score": 10.2,
+    "country": null,
+    "category": "zine_print",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Review shop/site and confirm whether they accept consignment or submissions."
+  },
+  {
+    "title": "tata bookshop/gallery",
+    "score": 8.6,
+    "research_priority_score": 10.2,
+    "country": null,
+    "category": "zine_print",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Visit/research fit and see whether quiet works-on-paper books would sit naturally there."
+  },
+  {
+    "title": "本店・本屋の実験室",
+    "score": 8.6,
+    "research_priority_score": 10.2,
+    "country": null,
+    "category": "zine_print",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Check event/submission pages and whether zine participation is possible."
+  },
+  {
+    "title": "Zines Fair at CP+",
+    "score": 8.6,
+    "research_priority_score": 10.2,
+    "country": null,
+    "category": "fair_popup",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Check application window, booth/table fee, required images, and whether a finished zine is required."
+  },
+  {
+    "title": "ZINEフェス東京",
+    "score": 8.6,
+    "research_priority_score": 10.2,
+    "country": null,
+    "category": "fair_popup",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Check application window, booth/table fee, required images, and whether a finished zine is required."
   }
 ]

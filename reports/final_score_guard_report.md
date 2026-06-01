@@ -2,36 +2,104 @@
 
 This runs at the end of the pipeline so later scoring scripts cannot inflate weakly verified opportunities.
 
-- Photobook Cafe: 8.6 → 7.6
+- Browse opportunities | CuratorSpace: 8.6 → 7.6
 - Offprint: 8.6 → 7.6
-- Aperture | Photography: 8.6 → 7.6
+- Royal Watercolour Society Open Exhibition: 8.6 → 7.6
+- LOCAL Gallery・Books: 8.6 → 7.6
+- Art Book Fairs: 8.6 → 7.6
+- Jimbocho Zine Fair: 8.6 → 7.6
+- tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...: 8.6 → 7.6
+- Tacoche: 8.6 → 7.6
+- tata bookshop/gallery: 8.6 → 7.6
+- 本店・本屋の実験室: 8.6 → 7.6
+- Top Artist Opportunities for 2026 | ArtConnect: 8.6 → 7.6
 - Center for Book Arts Opportunities: 8.6 → 7.6
-- The Photographers' Gallery: 8.6 → 7.6
-- Aperture Portfolio Prize / Opportunities: 8.6 → 7.6
-- DER GREIF: 8.6 → 7.6
-- www.facebook.com: 8.6 → 7.6
-- Continue Reading: 8.6 → 7.6
-- www.futures-photography.com: 8.6 → 7.6
-- PhotoVogue Open Calls: 8.6 → 7.6
-- Der Greif Open Calls: 8.6 → 7.6
-- LensCulture Awards / Open Calls: 8.6 → 7.6
-- Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×: 8.6 → 7.6
-- Learn: 8.6 → 7.6
-- Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho: 8.6 → 7.6
-- Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c: 8.6 → 7.6
-- PhotoVogue: 8.6 → 7.6
+- Aesthetica Art Prize: 8.6 → 7.6
+- American Watercolor Society Annual International Exhibition: 8.6 → 7.6
+- Zines Fair at CP+: 8.6 → 7.6
+- ZINEフェス東京: 8.6 → 7.6
+- ZINEイベント: 8.6 → 7.6
+- Full-Table - Little Tokyo Zine Fest 2026 - Eventeny: 8.6 → 7.6
+- Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat: 8.6 → 7.6
+- Cité Internationale des Arts Artist Residency: 8.6 → 7.6
+- Open Calls for Artists: 8.6 → 8.2
+- Open Call For Artists: 8.6 → 8.2
+- The Holy Art Gallery - Tokyo Open Call for Artist: 8.6 → 8.2
+- L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info: 8.6 → 8.2
+- Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...: 8.6 → 8.2
+- Kyoto Retreat Artist Residency 2026 - Open Call: 8.6 → 8.2
+- OPEN CALL for the Artist-In-Residence Program 2025/2026: 8.6 → 8.2
+- Shoto Museum Open Call: 8.6 → 8.2
+- Art公募: 8.6 → 8.2
+- 公募展: 8.6 → 8.2
+- 公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...: 8.6 → 8.2
+- OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery: 8.6 → 8.2
+- Osaka Open Call For Artists. - ARRIVAL: 8.6 → 8.2
+- Open calls - Online Database of Artist in Residence Programs in Japan: 8.6 → 8.2
+- 【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...: 8.6 → 8.2
+- 2026 松濤美術館公募展｜渋谷区立松濤美術館: 8.6 → 8.2
+- International Open Call: 8.6 → 8.2
+- Open Call for Artists! Tokyo Biennale 2025 "Social Dive": 8.6 → 8.2
+- Kyoto Art Center Residency: 8.6 → 8.2
+- AIR_J Open Calls: 8.6 → 8.2
+- NEW AIR: 8.6 → 8.2
+- 【公募】2026年度レジデンス・プログラム公募開始: 8.6 → 8.2
+- NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW: 8.6 → 8.2
+- Books Ruhe: 8.4 → 7.6
+- » 21 Terrific Small Presses Open to Direct Submissions: 8.3 → 7.6
+- SUBMISSIONS - marblepress.com: 8.3 → 7.6
+- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]: 8.3 → 7.6
+- Publishers & Publishing Services in Japan - PublishersGlobal.com: 8.3 → 7.6
+- Submissions - Little Press Publishing: 8.3 → 7.6
+- 3 Top Book Publishers in Tokyo in 2026: 8.3 → 7.6
+- submissions — porkbelly press: 8.3 → 7.6
+- 3 Top Book Publishers in Japan in 2026: 8.3 → 7.6
+- Become an Author - Tuttle Publishing: 8.3 → 7.6
+- Japan Book Publishers Association - JBPA: 8.3 → 7.6
+- ART BOX Publishing: 8.3 → 7.6
+- Aperture | Photography: 8.1 → 7.6
 - Self Publish, Be Happy: 8.0 → 6.5
 - Printed Matter Art Book Fairs: 8.0 → 6.5
 - Home - Printed Matter: 8.0 → 6.5
-- X: 7.8 → 7.6
-- Pinterest: 7.8 → 7.6
-- Instagram: 7.8 → 7.6
-- Tiktok: 7.8 → 7.6
-- Magazine Subscribers: 7.8 → 7.6
-- Magazine Subscription: 7.8 → 7.6
-- LensCulture - Contemporary Photography: 7.8 → 7.6
-- Browse Printed Matter Editions: 7.5 → 6.5
-- Printed Matter, Inc.: 7.5 → 6.5
-- Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00: 7.5 → 6.5
-- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026: 7.5 → 6.5
-- See all exhibitions: 7.5 → 6.5
+- Book Obscura: 8.0 → 6.5
+- グループ展参加アーティスト募集中 - Gallery and Links81: 8.0 → 7.6
+- 【biscuit gallery】初の公募企画「grid next : Emerging ...: 8.0 → 7.6
+- 219公募展6募集 >> Gallery219 ギャラリーニイク: 8.0 → 7.6
+- 公募プログラム - トーキョーアーツアンドスペース: 8.0 → 7.6
+- 公募企画「grid next : 2025 - Emerging Artists Showcase ...: 8.0 → 7.6
+- Open Calls for Artists | Exhibit Worldwide: 8.0 → 7.6
+- Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...: 8.0 → 7.6
+- 日記屋 月日: 8.0 → 6.5
+- Bologna Children's Book Fair Illustrators Exhibition: 7.8 → 7.6
+- HB Gallery: 7.8 → 7.6
+- OPA Gallery: 7.8 → 7.6
+- Pinpoint Gallery: 7.8 → 7.6
+- Jackson's Art Prize: 7.8 → 7.6
+- ArtConnect Open Calls: 7.8 → 7.6
+- CuratorSpace: 7.8 → 7.6
+- Society of Women Artists: 7.8 → 7.6
+- Gallery IRO: 7.8 → 7.6
+- Royal Watercolour Society: 7.8 → 7.6
+- Gallery IYN: 7.8 → 7.6
+- The Artcomplex Center of Tokyo: 7.8 → 7.6
+- AAA Gallery Yokohama: 7.8 → 7.6
+- Tokyo Illustrators Society: 7.8 → 7.6
+- World Illustration Awards: 7.8 → 7.6
+- 3x3 International Illustration Awards: 7.8 → 7.6
+- American Illustration: 7.8 → 7.6
+- Asian Cultural Council Fellowship: 7.8 → 7.6
+- ARTE VENT Press: 7.7 → 7.6
+- そぞろ書房: 7.5 → 6.5
+- Japan Watercolor Society Annual Exhibition: 7.5 → 6.5
+- 若手アーティストの登竜門となるアートフェア「Independent Tokyo ...: 7.5 → 6.5
+- 【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...: 7.5 → 6.5
+- 現代アート販売の@Gallery Tagboat|@Gallery Tagboat: 7.5 → 6.5
+- New Power展 | ギャラリー自由が丘で作家デビュー: 7.5 → 6.5
+- Call for Entry: Showcase your art in Tokyo, Japan: 7.5 → 6.5
+- 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...: 7.5 → 6.5
+- 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...: 7.5 → 6.5
+- Mall Galleries Open Exhibitions: 6.7 → 6.5
+- Pastel Society Open Exhibition: 6.7 → 6.5
+- Communication Arts Illustration Competition: 6.7 → 6.5
+- Royal Institute of Painters in Water Colours: 6.7 → 6.5
+- Boji Hair+Gallery: 6.6 → 6.5

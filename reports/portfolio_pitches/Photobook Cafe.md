@@ -7,10 +7,10 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context.
+Potentially strong for a quiet artist book / watercolor sequence-oriented artist seeking community, visibility, and publication context.
 
 ## Match Signals
-photobook, publication
+artist book, photobook, publication, paper
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

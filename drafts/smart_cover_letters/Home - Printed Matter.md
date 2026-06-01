@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture
+Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
 
 Draft Structure:
 

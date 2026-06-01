@@ -1,11 +1,5 @@
 {
-  "TOKYO ART BOOK FAIR": [
-    {
-      "title": "Photobook Cafe",
-      "score": 4,
-      "country": "UK",
-      "category": "global_photobook_space"
-    },
+  "Tokyo Art Book Fair": [
     {
       "title": "Offprint",
       "score": 4,
@@ -16,13 +10,19 @@
       "title": "Self Publish, Be Happy",
       "score": 4,
       "country": "UK / Global",
-      "category": "global_photobook_platform"
+      "category": "global_artist_book_platform"
     },
     {
       "title": "UTRECHT",
       "score": 3,
       "country": "",
       "category": "bookstore_gallery"
+    },
+    {
+      "title": "Tacoche",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
     },
     {
       "title": "Printed Matter Art Book Fairs",
@@ -35,145 +35,357 @@
       "score": 3,
       "country": "Global",
       "category": "global_photobook"
-    }
-  ],
-  "UTRECHT": [
+    },
     {
-      "title": "TOKYO ART BOOK FAIR",
+      "title": "Publishing / Artist Books — Battle Plan",
       "score": 3,
       "country": "",
-      "category": "fair_popup"
+      "category": "book_publishing"
     }
   ],
-  "B&B Shimokitazawa": [],
   "MOUNT ZINE": [],
-  "flotsam books": [],
-  "Comitia": [],
-  "Book and Sons": [],
-  "NADiff a/p/a/r/t": [],
-  "Photobook Cafe": [
+  "B&B Shimokitazawa": [],
+  "UTRECHT": [
     {
-      "title": "TOKYO ART BOOK FAIR",
-      "score": 4,
+      "title": "Tokyo Art Book Fair",
+      "score": 3,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
+    {
+      "title": "Tacoche",
+      "score": 3,
       "country": "",
+      "category": "zine_print"
+    }
+  ],
+  "flotsam books": [],
+  "Book and Sons": [],
+  "Fukuoka Art Book Fair": [],
+  "Submissions — Clavis Publishing": [],
+  "BankART1929": [],
+  "AIR 3331": [],
+  "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin": [],
+  "Youkobo Art Space": [],
+  "Browse opportunities | CuratorSpace": [],
+  "BONUS TRACK": [],
+  "Koganecho Area Management Center": [],
+  "3331 Arts Chiyoda": [],
+  "Tokyo Arts and Space": [],
+  "Offprint": [
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 4,
+      "country": "Japan",
       "category": "fair_popup"
     },
     {
       "title": "Self Publish, Be Happy",
-      "score": 4,
+      "score": 3,
       "country": "UK / Global",
-      "category": "global_photobook_platform"
+      "category": "global_artist_book_platform"
+    },
+    {
+      "title": "Publishing / Artist Books — Battle Plan",
+      "score": 3,
+      "country": "",
+      "category": "book_publishing"
+    }
+  ],
+  "Royal Watercolour Society Open Exhibition": [],
+  "LOCAL Gallery・Books": [],
+  "Art Book Fairs": [],
+  "Jimbocho Zine Fair": [],
+  "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...": [],
+  "Tacoche": [
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 3,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 3,
+      "country": "",
+      "category": "bookstore_gallery"
+    }
+  ],
+  "tata bookshop/gallery": [],
+  "本店・本屋の実験室": [],
+  "Top Artist Opportunities for 2026 | ArtConnect": [],
+  "Center for Book Arts Opportunities": [],
+  "POST": [],
+  "出展お申込み": [],
+  "Applications — Little Tokyo Zine Fest": [],
+  "Clone of Japan Fair 2025 - Exhibitor Application Form": [],
+  "» 21 Terrific Small Presses Open to Direct Submissions": [],
+  "SUBMISSIONS - marblepress.com": [],
+  "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]": [],
+  "Publishers & Publishing Services in Japan - PublishersGlobal.com": [],
+  "Submissions - Little Press Publishing": [],
+  "3 Top Book Publishers in Tokyo in 2026": [],
+  "submissions — porkbelly press": [],
+  "3 Top Book Publishers in Japan in 2026": [],
+  "Become an Author - Tuttle Publishing": [],
+  "Japan Book Publishers Association - JBPA": [],
+  "ART BOX Publishing": [],
+  "Aesthetica Art Prize": [],
+  "Books Ruhe": [],
+  "Self Publish, Be Happy": [
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 4,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
+    {
+      "title": "Publishing / Artist Books — Battle Plan",
+      "score": 4,
+      "country": "",
+      "category": "book_publishing"
     },
     {
       "title": "Offprint",
       "score": 3,
       "country": "France / UK",
       "category": "global_art_book_fair"
-    }
-  ],
-  "AIR 3331": [],
-  "Offprint": [
-    {
-      "title": "TOKYO ART BOOK FAIR",
-      "score": 4,
-      "country": "",
-      "category": "fair_popup"
     },
     {
-      "title": "Photobook Cafe",
+      "title": "Aperture | Photography",
       "score": 3,
-      "country": "UK",
-      "category": "global_photobook_space"
-    }
-  ],
-  "reload Shimokitazawa": [],
-  "BankART1929": [],
-  "Youkobo Art Space": [],
-  "Tokyo Wonder Site / TOKAS Residency": [],
-  "Tokyo Arts and Space": [],
-  "AIT Residency": [],
-  "Aperture | Photography": [],
-  "POST": [],
-  "Center for Book Arts Opportunities": [],
-  "The Photographers' Gallery": [],
-  "BONUS TRACK": [],
-  "Design Festa": [],
-  "Aoyama Farmers Market": [],
-  "Cafe Cross Point": [],
-  "MADO Café": [],
-  "Cafe Gallery HATTIFNATT": [],
-  "Cafe Mame-Hico": [],
-  "Yonchome Cafe": [],
-  "Koganecho Area Management Center": [],
-  "3331 Arts Chiyoda": [],
-  "DESIGN FESTA GALLERY": [],
-  "SCAI The Bathhouse": [],
-  "Gallery IRO": [],
-  "Gallery HANA Shimokitazawa": [],
-  "TAV Gallery": [],
-  "VACANT": [],
-  "Gallery Conceal Shibuya": [],
-  "Zushi Art Gallery": [],
-  "Aperture Portfolio Prize / Opportunities": [],
-  "DER GREIF": [],
-  "Self Publish, Be Happy": [
-    {
-      "title": "TOKYO ART BOOK FAIR",
-      "score": 4,
-      "country": "",
-      "category": "fair_popup"
+      "country": "Global",
+      "category": "global_photobook"
     },
     {
-      "title": "Photobook Cafe",
-      "score": 4,
-      "country": "UK",
-      "category": "global_photobook_space"
+      "title": "Home - Printed Matter",
+      "score": 3,
+      "country": "Global",
+      "category": "global_photobook"
+    },
+    {
+      "title": "Zines / Artist Books — Battle Plan",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
     }
   ],
-  "www.facebook.com": [],
-  "Continue Reading": [],
-  "www.futures-photography.com": [],
-  "HandMade In Japan Fes": [],
+  "Aperture | Photography": [
+    {
+      "title": "Self Publish, Be Happy",
+      "score": 3,
+      "country": "UK / Global",
+      "category": "global_artist_book_platform"
+    },
+    {
+      "title": "Home - Printed Matter",
+      "score": 3,
+      "country": "Global",
+      "category": "global_photobook"
+    }
+  ],
+  "American Watercolor Society Annual International Exhibition": [],
   "Printed Matter Art Book Fairs": [
     {
-      "title": "TOKYO ART BOOK FAIR",
+      "title": "Tokyo Art Book Fair",
       "score": 3,
-      "country": "",
+      "country": "Japan",
       "category": "fair_popup"
+    },
+    {
+      "title": "Home - Printed Matter",
+      "score": 3,
+      "country": "Global",
+      "category": "global_photobook"
     }
   ],
-  "Creative Space Hayashi": [],
-  "X": [],
-  "Pinterest": [],
-  "Instagram": [],
-  "Tiktok": [],
-  "Magazine Subscribers": [],
-  "Magazine Subscription": [],
-  "LensCulture - Contemporary Photography": [],
-  "PhotoVogue Open Calls": [],
+  "PDF International Creator Residency Program 2026 Application Outline": [],
+  "2026年度 リサーチ・レジデンス・プログラム": [],
+  "Open Call for the International Creator Residency Program 2026": [],
+  "Jinny Street Gallery Open Call": [],
+  "TOKAS Open Call": [],
+  "Belladonna Art Competition": [],
+  "Open Call Guest Artist": [],
+  "SCCP Guest Artist": [],
+  "Open Call": [],
+  "Open Call - Tokyo Arts and Space": [],
+  "公募": [],
+  "全国美術公募団体 ベラドンナ・アート｜応募要項": [],
+  "About Open Call Programs - Tokyo Arts and Space": [],
+  "TOKAS Residency": [],
   "Home - Printed Matter": [
     {
-      "title": "TOKYO ART BOOK FAIR",
+      "title": "Tokyo Art Book Fair",
       "score": 3,
-      "country": "",
+      "country": "Japan",
       "category": "fair_popup"
+    },
+    {
+      "title": "Self Publish, Be Happy",
+      "score": 3,
+      "country": "UK / Global",
+      "category": "global_artist_book_platform"
+    },
+    {
+      "title": "Aperture | Photography",
+      "score": 3,
+      "country": "Global",
+      "category": "global_photobook"
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "score": 3,
+      "country": "USA",
+      "category": "global_art_book_fair"
     }
   ],
-  "Der Greif Open Calls": [],
+  "Zines Fair at CP+": [],
+  "ZINEフェス東京": [],
+  "ZINEイベント": [],
+  "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny": [],
+  "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat": [],
+  "Book Obscura": [],
+  "Cité Internationale des Arts Artist Residency": [],
+  "Tokyo Wonder Site / TOKAS Residency": [],
+  "Hayama Artist Residency Submission Manager - Submittable": [],
+  "Hayama Artist Residency": [],
+  "Clavis Publishing Submissions": [],
+  "Open Calls for Artists": [],
+  "Open Call For Artists": [],
+  "The Holy Art Gallery - Tokyo Open Call for Artist": [],
+  "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info": [],
+  "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...": [],
+  "Kyoto Retreat Artist Residency 2026 - Open Call": [],
+  "OPEN CALL for the Artist-In-Residence Program 2025/2026": [],
+  "Shoto Museum Open Call": [],
+  "Art公募": [],
+  "公募展": [],
+  "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...": [],
+  "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery": [],
+  "Osaka Open Call For Artists. - ARRIVAL": [],
+  "Open calls - Online Database of Artist in Residence Programs in Japan": [],
+  "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...": [],
+  "2026 松濤美術館公募展｜渋谷区立松濤美術館": [],
+  "International Open Call": [],
+  "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"": [],
+  "Kyoto Art Center Residency": [],
+  "AIR_J Open Calls": [],
+  "NEW AIR": [],
+  "【公募】2026年度レジデンス・プログラム公募開始": [],
+  "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW": [],
+  "Design Festa": [],
+  "Bologna Children's Book Fair Illustrators Exhibition": [],
+  "HB Gallery": [],
+  "OPA Gallery": [],
+  "Pinpoint Gallery": [],
+  "Jackson's Art Prize": [],
+  "ArtConnect Open Calls": [],
+  "CuratorSpace": [],
+  "Society of Women Artists": [],
+  "Gallery IRO": [],
+  "Royal Watercolour Society": [],
+  "Gallery IYN": [],
+  "The Artcomplex Center of Tokyo": [],
+  "AAA Gallery Yokohama": [],
+  "Tokyo Illustrators Society": [],
+  "World Illustration Awards": [],
+  "3x3 International Illustration Awards": [],
+  "American Illustration": [],
+  "NADiff a/p/a/r/t": [],
+  "そぞろ書房": [],
+  "グループ展参加アーティスト募集中 - Gallery and Links81": [],
+  "【biscuit gallery】初の公募企画「grid next : Emerging ...": [],
+  "219公募展6募集 >> Gallery219 ギャラリーニイク": [],
+  "公募プログラム - トーキョーアーツアンドスペース": [],
+  "公募企画「grid next : 2025 - Emerging Artists Showcase ...": [],
+  "Open Calls for Artists | Exhibit Worldwide": [],
+  "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...": [],
   "The Container": [],
-  "RAW TOKYO": [],
-  "LensCulture Awards / Open Calls": [],
-  "Open Calls": [],
-  "Browse Printed Matter Editions": [],
-  "Printed Matter, Inc.": [],
-  "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00": [],
-  "Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×": [],
-  "Learn": [],
-  "Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho": [],
-  "Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c": [],
+  "日記屋 月日": [],
+  "Asian Cultural Council Fellowship": [],
+  "Comitia": [],
+  "AIT Residency": [],
+  "Japan Watercolor Society Annual Exhibition": [],
+  "ARTE VENT Press": [],
+  "Publishing / Artist Books — Battle Plan": [
+    {
+      "title": "Self Publish, Be Happy",
+      "score": 4,
+      "country": "UK / Global",
+      "category": "global_artist_book_platform"
+    },
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 3,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
+    {
+      "title": "Offprint",
+      "score": 3,
+      "country": "France / UK",
+      "category": "global_art_book_fair"
+    },
+    {
+      "title": "Zines / Artist Books — Battle Plan",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    }
+  ],
+  "Aoyama Farmers Market": [],
+  "Cafe Cross Point": [],
+  "TAV Gallery": [],
+  "Gallery HANA Shimokitazawa": [],
+  "torch press": [],
+  "DER GREIF": [],
+  "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...": [],
+  "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...": [],
+  "現代アート販売の@Gallery Tagboat|@Gallery Tagboat": [],
+  "New Power展 | ギャラリー自由が丘で作家デビュー": [],
+  "Call for Entry: Showcase your art in Tokyo, Japan": [],
+  "Komiyama Tokyo": [],
+  "Zines / Artist Books — Battle Plan": [
+    {
+      "title": "Self Publish, Be Happy",
+      "score": 3,
+      "country": "UK / Global",
+      "category": "global_artist_book_platform"
+    },
+    {
+      "title": "Publishing / Artist Books — Battle Plan",
+      "score": 3,
+      "country": "",
+      "category": "book_publishing"
+    }
+  ],
+  "Book Culture Club": [],
+  "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...": [],
+  "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...": [],
   "PhotoVogue": [],
-  "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026": [],
-  "See all exhibitions": [],
+  "Mall Galleries Open Exhibitions": [],
+  "Pastel Society Open Exhibition": [],
+  "Communication Arts Illustration Competition": [],
+  "Royal Institute of Painters in Water Colours": [],
+  "RAW TOKYO": [],
+  "Creative Space Hayashi": [],
+  "shashasha": [],
+  "reload Shimokitazawa": [],
+  "HandMade In Japan Fes": [],
+  "Boji Hair+Gallery": [],
+  "Cafe Mame-Hico": [],
+  "Yonchome Cafe": [],
+  "Cafe Gallery HATTIFNATT": [],
+  "DESIGN FESTA GALLERY": [],
+  "SCAI The Bathhouse": [],
+  "VACANT": [],
+  "Zushi Art Gallery": [],
+  "Gallery Conceal Shibuya": [],
   "Picaresque Gallery": [],
-  "Spiral": []
+  "twelvebooks": [],
+  "Spiral": [],
+  "loneliness books": [],
+  "Dig A Hole Zines": [],
+  "MADO Café": [],
+  "ZINE FARM TOKYO": []
 }

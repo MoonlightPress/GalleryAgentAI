@@ -1,4 +1,4 @@
-# Smart Cover Letter — TOKYO ART BOOK FAIR
+# Smart Cover Letter — Tokyo Art Book Fair
 
 Tone:
 focused and editorial
@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you.
+Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 
 Draft Structure:
 

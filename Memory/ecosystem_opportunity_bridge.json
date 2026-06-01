@@ -4,36 +4,36 @@
     "why_it_matters": "This is the strongest immediate ecosystem for her visual language: quiet photography, sequences, books, zines, and small-scale cultural visibility.",
     "matched_opportunities": [
       {
-        "title": "TOKYO ART BOOK FAIR",
+        "title": "Tokyo Art Book Fair",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "hit_nodes": [
           "TOKYO ART BOOK FAIR"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to photobook or artist book format if that medium interests you."
-      },
-      {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hit_nodes": [
-          "UTRECHT"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively."
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
         "title": "MOUNT ZINE",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "hit_nodes": [
           "MOUNT ZINE"
         ],
         "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
       },
       {
-        "title": "flotsam books",
+        "title": "UTRECHT",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.24,
+        "hit_nodes": [
+          "UTRECHT"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+      },
+      {
+        "title": "flotsam books",
+        "score": 9.2,
+        "differentiated_score": 11.19,
         "hit_nodes": [
           "flotsam books"
         ],
@@ -42,11 +42,20 @@
       {
         "title": "POST",
         "score": 8.8,
-        "differentiated_score": 10.19,
+        "differentiated_score": 9.89,
         "hit_nodes": [
           "POST"
         ],
         "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
+      },
+      {
+        "title": "shashasha",
+        "score": 6.5,
+        "differentiated_score": 7.34,
+        "hit_nodes": [
+          "Shashasha"
+        ],
+        "why": "Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere."
       }
     ]
   },
@@ -55,94 +64,49 @@
     "why_it_matters": "This is the long-horizon ecosystem for international publication legitimacy.",
     "matched_opportunities": [
       {
-        "title": "Photobook Cafe",
-        "score": 8.6,
-        "differentiated_score": 10.6,
-        "hit_nodes": [
-          "Photobook Cafe"
-        ],
-        "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context."
-      },
-      {
         "title": "Offprint",
         "score": 8.6,
-        "differentiated_score": 10.3,
+        "differentiated_score": 10.04,
         "hit_nodes": [
           "Offprint"
         ],
-        "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet photographic publications."
+        "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications."
+      },
+      {
+        "title": "Self Publish, Be Happy",
+        "score": 8.0,
+        "differentiated_score": 9.7,
+        "hit_nodes": [
+          "Self Publish, Be Happy"
+        ],
+        "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
       },
       {
         "title": "Aperture | Photography",
-        "score": 8.6,
-        "differentiated_score": 10.24,
+        "score": 8.1,
+        "differentiated_score": 9.63,
         "hit_nodes": [
           "Aperture"
         ],
-        "why": "Potential fit based on source context and keyword overlap: photobook, zine, photography, exhibition"
-      },
-      {
-        "title": "The Photographers' Gallery",
-        "score": 8.6,
-        "differentiated_score": 10.12,
-        "hit_nodes": [
-          "The Photographers' Gallery"
-        ],
-        "why": "Likely difficult, but valuable as a benchmark institution and possible source of open calls, bookshop leads, talks, and artist references."
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
         "title": "Gallery Conceal Shibuya",
-        "score": 9.4,
-        "differentiated_score": 10.1,
+        "score": 6.2,
+        "differentiated_score": 6.9,
         "hit_nodes": [
           "VOID"
         ],
         "why": "It doesn't. This conflicts with your strategic goal to avoid pay-to-play venues that dilute positioning, and offers no clear institutional or career benefit."
       },
       {
-        "title": "Aperture Portfolio Prize / Opportunities",
-        "score": 8.6,
-        "differentiated_score": 10.06,
-        "hit_nodes": [
-          "Aperture"
-        ],
-        "why": "Very high-prestige but difficult; useful as a long-term benchmark and possible stretch opportunity."
-      },
-      {
-        "title": "Self Publish, Be Happy",
-        "score": 8.0,
-        "differentiated_score": 9.8,
-        "hit_nodes": [
-          "Self Publish, Be Happy"
-        ],
-        "why": "Strong fit for an artist whose work can live as quiet photobook or zine sequences rather than conventional gallery proposals."
-      },
-      {
-        "title": "Magazine Subscribers",
-        "score": 7.8,
-        "differentiated_score": 9.44,
-        "hit_nodes": [
-          "Aperture"
-        ],
-        "why": "Possible fit based on link text: zine"
-      },
-      {
-        "title": "Magazine Subscription",
-        "score": 7.8,
-        "differentiated_score": 9.44,
-        "hit_nodes": [
-          "Aperture"
-        ],
-        "why": "Possible fit based on link text: zine"
-      },
-      {
         "title": "Picaresque Gallery",
-        "score": 4.6,
-        "differentiated_score": 5.46,
+        "score": 5.9,
+        "differentiated_score": 6.76,
         "hit_nodes": [
           "VOID"
         ],
-        "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/decorative perception you're trying to avoid."
+        "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid."
       }
     ]
   },
@@ -156,54 +120,45 @@
     "why_it_matters": "These are useful for soft visibility and relationship-building before major applications.",
     "matched_opportunities": [
       {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hit_nodes": [
-          "UTRECHT"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.5,
-        "hit_nodes": [
-          "B&B Shimokitazawa"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program painters without publication angle"
-      },
-      {
         "title": "MOUNT ZINE",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
         "hit_nodes": [
           "MOUNT ZINE"
         ],
         "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
       },
       {
-        "title": "flotsam books",
+        "title": "B&B Shimokitazawa",
         "score": 9.4,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.39,
+        "hit_nodes": [
+          "B&B Shimokitazawa"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hit_nodes": [
+          "UTRECHT"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+      },
+      {
+        "title": "flotsam books",
+        "score": 9.2,
+        "differentiated_score": 11.19,
         "hit_nodes": [
           "flotsam books"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
-        "title": "Photobook Cafe",
-        "score": 8.6,
-        "differentiated_score": 10.6,
-        "hit_nodes": [
-          "Photobook Cafe"
-        ],
-        "why": "Potentially strong for a quiet photobook-oriented artist seeking community, visibility, and publication context."
-      },
-      {
         "title": "POST",
         "score": 8.8,
-        "differentiated_score": 10.19,
+        "differentiated_score": 9.89,
         "hit_nodes": [
           "POST"
         ],

@@ -1,56 +1,58 @@
 # Painting Quality Gate Report
 
-Promoted: 47
-Demoted: 15
+Promoted: 50
+Demoted: 5
 ## Changes
 
-- **TOKYO ART BOOK FAIR** — 9.0 → 9.6 — promoted
+- **Jinny Street Gallery Open Call** — 10.0 → 9.6 — promoted
+- **Browse opportunities | CuratorSpace** — 10.0 → 9.6 — promoted
+- **American Watercolor Society Annual International Exhibition** — 10.0 → 9.6 — promoted
+- **Royal Watercolour Society Open Exhibition** — 10.0 → 9.6 — promoted
+- **Bologna Children's Book Fair Illustrators Exhibition** — 10.0 → 9.6 — promoted
+- **HB Gallery** — 10.0 → 9.6 — promoted
+- **OPA Gallery** — 10.0 → 9.6 — promoted
+- **Pinpoint Gallery** — 10.0 → 9.6 — promoted
+- **Jackson's Art Prize** — 10.0 → 9.6 — promoted
+- **Mall Galleries Open Exhibitions** — 10.0 → 9.6 — promoted
+- **Pastel Society Open Exhibition** — 10.0 → 9.6 — promoted
+- **Royal Institute of Painters in Water Colours** — 9.96 → 9.6 — promoted
+- **Royal Watercolour Society** — 9.89 → 9.6 — promoted
+- **Gallery IYN** — 9.84 → 9.6 — promoted
+- **Tokyo Illustrators Society** — 9.72 → 9.6 — promoted
+- **World Illustration Awards** — 9.72 → 9.6 — promoted
+- **3x3 International Illustration Awards** — 9.72 → 9.6 — promoted
+- **American Illustration** — 9.72 → 9.6 — promoted
+- **Communication Arts Illustration Competition** — 9.72 → 9.6 — promoted
+- **Japan Watercolor Society Annual Exhibition** — 9.67 → 9.6 — promoted
+- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.47 → 9.6 — promoted
+- **Aesthetica Art Prize** — 9.0 → 9.6 — promoted
 - **Self Publish, Be Happy** — 9.0 → 9.6 — promoted
-- **Home - Printed Matter** — 9.0 → 9.6 — promoted
-- **Jackson's Art Prize** — 9.0 → 9.6 — promoted
-- **Royal Institute of Painters in Water Colours** — 9.0 → 9.6 — promoted
-- **Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026** — 8.97 → 9.6 — promoted
-- **HB Gallery** — 8.9 → 9.6 — promoted
-- **OPA Gallery** — 8.9 → 9.6 — promoted
-- **Pinpoint Gallery** — 8.9 → 9.6 — promoted
-- **Royal Watercolour Society** — 8.3 → 9.1 — promoted
-- **Mall Galleries Open Exhibitions** — 8.3 → 9.1 — promoted
-- **Society of Women Artists** — 8.3 → 9.1 — promoted
-- **Pastel Society Open Exhibition** — 8.3 → 9.1 — promoted
-- **ArtConnect Open Calls** — 8.2 → 9.0 — promoted
-- **CuratorSpace** — 8.2 → 9.0 — promoted
-- **Bologna Children's Book Fair Illustrators Exhibition** — 8.2 → 9.0 — promoted
-- **Gallery IYN** — 7.5 → 8.3 — promoted
-- **Gallery IRO** — 7.5 → 8.3 — promoted
-- **The Artcomplex Center of Tokyo** — 7.5 → 8.3 — promoted
-- **AAA Gallery Yokohama** — 7.5 → 8.3 — promoted
-- **Tokyo Illustrators Society** — 7.5 → 8.3 — promoted
-- **World Illustration Awards** — 7.5 → 8.3 — promoted
-- **Communication Arts Illustration Competition** — 7.5 → 8.3 — promoted
-- **3x3 International Illustration Awards** — 7.5 → 8.3 — promoted
-- **American Illustration** — 7.5 → 8.3 — promoted
-- **Photobook Cafe** — 7.2 → 8.0 — promoted
-- **Aperture | Photography** — 7.2 → 8.0 — promoted
-- **The Photographers' Gallery** — 7.2 → 8.0 — promoted
-- **Aperture Portfolio Prize / Opportunities** — 7.2 → 8.0 — promoted
-- **www.futures-photography.com** — 7.2 → 8.0 — promoted
-- **PhotoVogue Open Calls** — 7.2 → 5.5 — demoted
-- **DER GREIF** — 7.2 → 8.0 — promoted
-- **Der Greif Open Calls** — 7.2 → 8.0 — promoted
-- **Tokyo Wonder Site / TOKAS Residency** — 7.0 → 7.8 — promoted
-- **Aoyama Farmers Market** — 7.0 → 5.5 — demoted
-- **B&B Shimokitazawa** — 6.75 → 7.55 — promoted
+- **Publishing / Artist Books — Battle Plan** — 9.0 → 9.6 — promoted
+- **Book Obscura** — 8.35 → 9.15 — promoted
+- **Tokyo Art Book Fair** — 7.31 → 8.11 — promoted
+- **PhotoVogue** — 7.3 → 5.5 — demoted
+- **グループ展参加アーティスト募集中 - Gallery and Links81** — 7.0 → 7.8 — promoted
+- **【biscuit gallery】初の公募企画「grid next : Emerging ...** — 7.0 → 7.8 — promoted
+- **219公募展6募集 >> Gallery219 ギャラリーニイク** — 7.0 → 7.8 — promoted
+- **公募プログラム - トーキョーアーツアンドスペース** — 7.0 → 7.8 — promoted
+- **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — 7.0 → 7.8 — promoted
+- **Open Calls for Artists | Exhibit Worldwide** — 7.0 → 7.8 — promoted
+- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — 7.0 → 7.8 — promoted
+- **ArtConnect Open Calls** — 7.0 → 7.8 — promoted
+- **CuratorSpace** — 7.0 → 7.8 — promoted
+- **Society of Women Artists** — 7.0 → 7.8 — promoted
+- **Gallery IRO** — 7.0 → 7.8 — promoted
+- **The Artcomplex Center of Tokyo** — 7.0 → 7.8 — promoted
+- **AAA Gallery Yokohama** — 7.0 → 7.8 — promoted
+- **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — 7.0 → 7.8 — promoted
+- **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — 7.0 → 7.8 — promoted
+- **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — 7.0 → 7.8 — promoted
+- **New Power展 | ギャラリー自由が丘で作家デビュー** — 7.0 → 7.8 — promoted
+- **Call for Entry: Showcase your art in Tokyo, Japan** — 7.0 → 7.8 — promoted
+- **Komiyama Tokyo** — 7.0 → 7.8 — promoted
+- **shashasha** — 7.0 → 7.8 — promoted
+- **Boji Hair+Gallery** — 7.0 → 7.8 — promoted
 - **flotsam books** — 6.75 → 7.55 — promoted
-- **HandMade In Japan Fes** — 6.4 → 5.5 — demoted
-- **RAW TOKYO** — 6.4 → 5.5 — demoted
-- **Boji Hair+Gallery** — 6.2 → 7.0 — promoted
-- **Comitia** — 6.0 → 6.8 — promoted
-- **X** — 5.8 → 5.5 — demoted
-- **LensCulture - Contemporary Photography** — 5.2 → 5.5 — demoted
-- **LensCulture Awards / Open Calls** — 5.2 → 5.5 — demoted
-- **Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×** — 5.2 → 5.5 — demoted
-- **Learn** — 5.2 → 5.5 — demoted
-- **Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho** — 5.2 → 5.5 — demoted
-- **Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c** — 5.2 → 5.5 — demoted
-- **www.facebook.com** — 2.12 → 2.92 — promoted
-- **Continue Reading** — 2.12 → 2.92 — promoted
+- **tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...** — 6.4 → 5.5 — demoted
+- **Comitia** — 4.89 → 5.69 — promoted
+- **HandMade In Japan Fes** — 3.46 → 4.26 — demoted

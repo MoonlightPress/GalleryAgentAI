@@ -1,6 +1,6 @@
 [
   {
-    "title": "TOKYO ART BOOK FAIR",
+    "title": "Tokyo Art Book Fair",
     "score": 9.4,
     "confidence_grade": "needs review",
     "positive_reasons": [
@@ -15,15 +15,13 @@
     ],
     "category": "Markets / Popups / Booths",
     "city": "Tokyo",
-    "country": null
+    "country": "Japan"
   },
   {
-    "title": "UTRECHT",
+    "title": "MOUNT ZINE",
     "score": 9.4,
     "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +1.2"
-    ],
+    "positive_reasons": [],
     "risks": [
       "high score but few clear supporting reasons",
       "high score but still needs verification"
@@ -54,10 +52,12 @@
     "country": null
   },
   {
-    "title": "MOUNT ZINE",
+    "title": "UTRECHT",
     "score": 9.4,
     "confidence_grade": "needs review",
-    "positive_reasons": [],
+    "positive_reasons": [
+      "aesthetic lineage +1.2"
+    ],
     "risks": [
       "high score but few clear supporting reasons",
       "high score but still needs verification"
@@ -71,7 +71,7 @@
   },
   {
     "title": "flotsam books",
-    "score": 9.4,
+    "score": 9.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -82,22 +82,6 @@
       "contact"
     ],
     "category": "Print / Zines / Bookstores",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Comitia",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
     "city": "Tokyo",
     "country": null
   },
@@ -120,100 +104,41 @@
     "country": null
   },
   {
-    "title": "NADiff a/p/a/r/t",
+    "title": "Fukuoka Art Book Fair",
     "score": 8.8,
     "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Photobook Cafe",
-    "score": 8.6,
-    "confidence_grade": "needs review",
     "positive_reasons": [
-      "aesthetic lineage +2.0",
-      "global/international target",
-      "tag: photobook",
-      "tag: global"
+      "aesthetic lineage +1.2"
     ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Global Photobook Space",
-    "city": "London",
-    "country": "UK"
-  },
-  {
-    "title": "AIR 3331",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
     "risks": [
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Offprint",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +3.15",
-      "high prestige",
-      "global/international target",
-      "tag: publication",
-      "tag: global"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
       "fees",
-      "contact"
-    ],
-    "category": "Global Art Book Fair",
-    "city": "Paris / London",
-    "country": "France / UK"
-  },
-  {
-    "title": "reload Shimokitazawa",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
       "contact"
     ],
     "category": "Markets / Popups / Booths",
-    "city": "Shimokitazawa",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Submissions — Clavis Publishing",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
     "country": null
   },
   {
@@ -233,7 +158,7 @@
     "country": null
   },
   {
-    "title": "Youkobo Art Space",
+    "title": "AIR 3331",
     "score": 9.4,
     "confidence_grade": "needs review",
     "positive_reasons": [],
@@ -249,80 +174,29 @@
     "country": null
   },
   {
-    "title": "Tokyo Wonder Site / TOKAS Residency",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Tokyo Arts and Space",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "AIT Residency",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Aperture | Photography",
+    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
     "score": 8.6,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
+      "many missing verification fields: deadline, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission",
       "deadline",
       "fees",
       "contact"
     ],
-    "category": "Global Photobook",
+    "category": "Print / Zines / Bookstores",
     "city": "Online",
     "country": "Global"
   },
   {
-    "title": "POST",
-    "score": 8.8,
+    "title": "Youkobo Art Space",
+    "score": 9.2,
     "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.9"
-    ],
+    "positive_reasons": [],
     "risks": [
       "high score but few clear supporting reasons",
       "high score but still needs verification"
@@ -330,22 +204,18 @@
     "missing_fields": [
       "contact"
     ],
-    "category": "Print / Zines / Bookstores",
+    "category": "Residencies / Longer Projects",
     "city": "Tokyo",
     "country": null
   },
   {
-    "title": "Center for Book Arts Opportunities",
+    "title": "Browse opportunities | CuratorSpace",
     "score": 8.6,
     "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +1.2",
-      "global/international target",
-      "tag: publication",
-      "tag: global"
-    ],
+    "positive_reasons": [],
     "risks": [
       "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
@@ -354,33 +224,9 @@
       "fees",
       "contact"
     ],
-    "category": "Global Book Arts",
-    "city": "New York",
-    "country": "USA"
-  },
-  {
-    "title": "The Photographers' Gallery",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "high prestige",
-      "global/international target",
-      "tag: global"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high difficulty",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Global Photo Institution",
-    "city": "London",
-    "country": "UK"
+    "category": "Print / Zines / Bookstores",
+    "city": "Online",
+    "country": "Global"
   },
   {
     "title": "BONUS TRACK",
@@ -398,118 +244,6 @@
     ],
     "category": "Markets / Popups / Booths",
     "city": "Shimokitazawa",
-    "country": null
-  },
-  {
-    "title": "Design Festa",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Aoyama Farmers Market",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Cafe Cross Point",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
-    "country": null
-  },
-  {
-    "title": "MADO Café",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
-    "country": null
-  },
-  {
-    "title": "Cafe Gallery HATTIFNATT",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
-    "country": null
-  },
-  {
-    "title": "Cafe Mame-Hico",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Yonchome Cafe",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
     "country": null
   },
   {
@@ -549,8 +283,8 @@
     "country": null
   },
   {
-    "title": "DESIGN FESTA GALLERY",
-    "score": 9.4,
+    "title": "Tokyo Arts and Space",
+    "score": 9.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -560,130 +294,42 @@
     "missing_fields": [
       "contact"
     ],
-    "category": "Galleries / Exhibition Calls",
+    "category": "Institutional / Grants",
     "city": "Tokyo",
     "country": null
   },
   {
-    "title": "SCAI The Bathhouse",
-    "score": 9.4,
+    "title": "Offprint",
+    "score": 8.6,
     "confidence_grade": "needs review",
-    "positive_reasons": [],
+    "positive_reasons": [
+      "aesthetic lineage +3.15",
+      "high prestige",
+      "global/international target",
+      "tag: publication",
+      "tag: global"
+    ],
     "risks": [
-      "high score but few clear supporting reasons",
+      "many missing verification fields: submission, deadline, fees, contact",
       "high score but still needs verification"
     ],
     "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
       "contact"
     ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Tokyo",
-    "country": null
+    "category": "Global Art Book Fair",
+    "city": "Paris / London",
+    "country": "France / UK"
   },
   {
-    "title": "Gallery IRO",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Gallery HANA Shimokitazawa",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "TAV Gallery",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "VACANT",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Artist Spaces",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Gallery Conceal Shibuya",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Zushi Art Gallery",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Kanagawa",
-    "country": null
-  },
-  {
-    "title": "Aperture Portfolio Prize / Opportunities",
+    "title": "Royal Watercolour Society Open Exhibition",
     "score": 8.6,
     "confidence_grade": "needs review",
     "positive_reasons": [
       "high prestige",
       "global/international target",
-      "tag: publication",
       "tag: global"
     ],
     "risks": [
@@ -697,12 +343,122 @@
       "fees",
       "contact"
     ],
-    "category": "Global Photo Publication",
-    "city": "New York / Online",
-    "country": "USA / Global"
+    "category": "Global Watercolor Open Call",
+    "city": "London",
+    "country": "UK"
   },
   {
-    "title": "DER GREIF",
+    "title": "LOCAL Gallery・Books",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.9"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Koenji, Tokyo",
+    "country": null
+  },
+  {
+    "title": "Art Book Fairs",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Jimbocho Zine Fair",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Tacoche",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Nakano, Tokyo",
+    "country": null
+  },
+  {
+    "title": "tata bookshop/gallery",
     "score": 8.6,
     "confidence_grade": "needs review",
     "positive_reasons": [],
@@ -717,16 +473,411 @@
       "fees",
       "contact"
     ],
-    "category": "Global Photobook",
+    "category": "Print / Zines / Bookstores",
+    "city": "Koenji, Tokyo",
+    "country": null
+  },
+  {
+    "title": "本店・本屋の実験室",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Koenji, Tokyo",
+    "country": null
+  },
+  {
+    "title": "Top Artist Opportunities for 2026 | ArtConnect",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
     "city": "Online",
     "country": "Global"
+  },
+  {
+    "title": "Center for Book Arts Opportunities",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +1.2",
+      "global/international target",
+      "tag: publication",
+      "tag: global"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Global Book Arts",
+    "city": "New York",
+    "country": "USA"
+  },
+  {
+    "title": "POST",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.9"
+    ],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "出展お申込み",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Applications — Little Tokyo Zine Fest",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Clone of Japan Fair 2025 - Exhibitor Application Form",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "» 21 Terrific Small Presses Open to Direct Submissions",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "SUBMISSIONS - marblepress.com",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Submissions - Little Press Publishing",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "3 Top Book Publishers in Tokyo in 2026",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "submissions — porkbelly press",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "3 Top Book Publishers in Japan in 2026",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Become an Author - Tuttle Publishing",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Japan Book Publishers Association - JBPA",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "ART BOX Publishing",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Aesthetica Art Prize",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "global/international target",
+      "tag: global"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Global Open Call",
+    "city": "York / Online",
+    "country": "UK / Global"
+  },
+  {
+    "title": "Books Ruhe",
+    "score": 8.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Kichijoji, Tokyo",
+    "country": null
   },
   {
     "title": "Self Publish, Be Happy",
     "score": 8.0,
     "confidence_grade": "needs review",
     "positive_reasons": [
-      "aesthetic lineage +1.7",
+      "aesthetic lineage +2.1",
       "high prestige",
       "global/international target",
       "tag: photobook",
@@ -743,15 +894,17 @@
       "fees",
       "contact"
     ],
-    "category": "Global Photobook Platform",
+    "category": "Global Artist Book Platform",
     "city": "London / Online",
     "country": "UK / Global"
   },
   {
-    "title": "www.facebook.com",
-    "score": 8.6,
+    "title": "Aperture | Photography",
+    "score": 8.1,
     "confidence_grade": "needs review",
-    "positive_reasons": [],
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
     "risks": [
       "many missing verification fields: submission, deadline, fees, contact",
       "high score but few clear supporting reasons",
@@ -763,18 +916,21 @@
       "fees",
       "contact"
     ],
-    "category": "Photo Publication",
+    "category": "Global Photobook",
     "city": "Online",
     "country": "Global"
   },
   {
-    "title": "Continue Reading",
+    "title": "American Watercolor Society Annual International Exhibition",
     "score": 8.6,
     "confidence_grade": "needs review",
-    "positive_reasons": [],
+    "positive_reasons": [
+      "high prestige",
+      "global/international target",
+      "tag: global"
+    ],
     "risks": [
       "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
@@ -783,45 +939,9 @@
       "fees",
       "contact"
     ],
-    "category": "Photo Publication",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "www.futures-photography.com",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Photo Publication",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "HandMade In Japan Fes",
-    "score": 9.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Tokyo",
-    "country": null
+    "category": "Global Watercolor Open Call",
+    "city": "New York",
+    "country": "USA"
   },
   {
     "title": "Printed Matter Art Book Fairs",
@@ -851,7 +971,7 @@
     "country": "USA"
   },
   {
-    "title": "Creative Space Hayashi",
+    "title": "PDF International Creator Residency Program 2026 Application Outline",
     "score": 8.8,
     "confidence_grade": "needs review",
     "positive_reasons": [],
@@ -860,168 +980,240 @@
       "high score but still needs verification"
     ],
     "missing_fields": [
+      "fees",
       "contact"
     ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Yokohama",
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
     "country": null
   },
   {
-    "title": "X",
-    "score": 7.8,
+    "title": "2026年度 リサーチ・レジデンス・プログラム",
+    "score": 8.8,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Pinterest",
-    "score": 7.8,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Instagram",
-    "score": 7.8,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Tiktok",
-    "score": 7.8,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Magazine Subscribers",
-    "score": 7.8,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Magazine Subscription",
-    "score": 7.8,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "LensCulture - Contemporary Photography",
-    "score": 7.8,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "PhotoVogue Open Calls",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +1.65",
-      "high prestige",
-      "global/international target",
-      "tag: global"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission",
-      "deadline",
       "fees",
       "contact"
     ],
-    "category": "Global Online Feature",
-    "city": "Online",
-    "country": "Global"
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open Call for the International Creator Residency Program 2026",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Jinny Street Gallery Open Call",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "TOKAS Open Call",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Belladonna Art Competition",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open Call Guest Artist",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "SCCP Guest Artist",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open Call",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open Call - Tokyo Arts and Space",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "公募",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "全国美術公募団体 ベラドンナ・アート｜応募要項",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "About Open Call Programs - Tokyo Arts and Space",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "TOKAS Residency",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
   },
   {
     "title": "Home - Printed Matter",
     "score": 8.0,
     "confidence_grade": "needs review",
     "positive_reasons": [
-      "aesthetic lineage +2.1"
+      "aesthetic lineage +2.5"
     ],
     "risks": [
       "many missing verification fields: submission, deadline, fees, contact",
@@ -1039,13 +1231,142 @@
     "country": "Global"
   },
   {
-    "title": "Der Greif Open Calls",
+    "title": "Zines Fair at CP+",
     "score": 8.6,
     "confidence_grade": "needs review",
     "positive_reasons": [
-      "aesthetic lineage +0.9",
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "ZINEフェス東京",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "ZINEイベント",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Book Obscura",
+    "score": 8.0,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Kichijoji, Tokyo",
+    "country": null
+  },
+  {
+    "title": "Cité Internationale des Arts Artist Residency",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "high prestige",
       "global/international target",
-      "tag: publication",
       "tag: global"
     ],
     "risks": [
@@ -1058,13 +1379,13 @@
       "fees",
       "contact"
     ],
-    "category": "Global Photo Open Call",
-    "city": "Online / Germany",
-    "country": "Germany / Global"
+    "category": "Global Residency",
+    "city": "Paris",
+    "country": "France"
   },
   {
-    "title": "The Container",
-    "score": 8.8,
+    "title": "Tokyo Wonder Site / TOKAS Residency",
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -1074,13 +1395,507 @@
     "missing_fields": [
       "contact"
     ],
-    "category": "Galleries / Exhibition Calls",
+    "category": "Residencies / Longer Projects",
     "city": "Tokyo",
     "country": null
   },
   {
-    "title": "RAW TOKYO",
-    "score": 8.8,
+    "title": "Hayama Artist Residency Submission Manager - Submittable",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Hayama Artist Residency",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Clavis Publishing Submissions",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open Calls for Artists",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open Call For Artists",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "The Holy Art Gallery - Tokyo Open Call for Artist",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Shoto Museum Open Call",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Art公募",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "公募展",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Osaka Open Call For Artists. - ARRIVAL",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open calls - Online Database of Artist in Residence Programs in Japan",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "2026 松濤美術館公募展｜渋谷区立松濤美術館",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "International Open Call",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Kyoto Art Center Residency",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "AIR_J Open Calls",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "NEW AIR",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "【公募】2026年度レジデンス・プログラム公募開始",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Design Festa",
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -1095,16 +1910,12 @@
     "country": null
   },
   {
-    "title": "LensCulture Awards / Open Calls",
-    "score": 8.6,
+    "title": "Bologna Children's Book Fair Illustrators Exhibition",
+    "score": 7.8,
     "confidence_grade": "needs review",
-    "positive_reasons": [
-      "global/international target",
-      "tag: global"
-    ],
+    "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but still needs verification"
+      "many missing verification fields: submission, deadline, fees, contact"
     ],
     "missing_fields": [
       "submission",
@@ -1112,13 +1923,332 @@
       "fees",
       "contact"
     ],
-    "category": "Global Photo Open Call",
-    "city": "Online",
+    "category": "Other",
+    "city": null,
     "country": "Global"
   },
   {
-    "title": "Open Calls",
-    "score": 8.6,
+    "title": "HB Gallery",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Tokyo"
+  },
+  {
+    "title": "OPA Gallery",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Tokyo"
+  },
+  {
+    "title": "Pinpoint Gallery",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Tokyo"
+  },
+  {
+    "title": "Jackson's Art Prize",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Global"
+  },
+  {
+    "title": "ArtConnect Open Calls",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Global"
+  },
+  {
+    "title": "CuratorSpace",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Global"
+  },
+  {
+    "title": "Society of Women Artists",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "UK"
+  },
+  {
+    "title": "Gallery IRO",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Tokyo"
+  },
+  {
+    "title": "Royal Watercolour Society",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "UK"
+  },
+  {
+    "title": "Gallery IYN",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Japan"
+  },
+  {
+    "title": "The Artcomplex Center of Tokyo",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Tokyo"
+  },
+  {
+    "title": "AAA Gallery Yokohama",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Yokohama"
+  },
+  {
+    "title": "Tokyo Illustrators Society",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Japan"
+  },
+  {
+    "title": "World Illustration Awards",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Global"
+  },
+  {
+    "title": "3x3 International Illustration Awards",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Global"
+  },
+  {
+    "title": "American Illustration",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Global"
+  },
+  {
+    "title": "NADiff a/p/a/r/t",
+    "score": 7.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "そぞろ書房",
+    "score": 7.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Koenji, Tokyo",
+    "country": null
+  },
+  {
+    "title": "グループ展参加アーティスト募集中 - Gallery and Links81",
+    "score": 8.0,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -1131,209 +2261,127 @@
       "fees",
       "contact"
     ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
   },
   {
-    "title": "Browse Printed Matter Editions",
-    "score": 7.5,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.8"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Printed Matter, Inc.",
-    "score": 7.5,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.8"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Liam Campbell Elska Magazine No. 58 (Saskatchewan) Periodicals $22.00",
-    "score": 7.5,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.8"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×",
-    "score": 8.6,
+    "title": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
+    "score": 8.0,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
+      "many missing verification fields: deadline, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Learn",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "PhotoVogue",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
-    "score": 7.5,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
       "deadline",
       "fees",
       "contact"
     ],
     "category": "Galleries / Exhibition Calls",
-    "city": "Online",
-    "country": "Global"
+    "city": "Tokyo",
+    "country": null
   },
   {
-    "title": "See all exhibitions",
-    "score": 7.5,
+    "title": "219公募展6募集 >> Gallery219 ギャラリーニイク",
+    "score": 8.0,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission",
       "deadline",
       "fees",
       "contact"
     ],
     "category": "Galleries / Exhibition Calls",
-    "city": "Online",
-    "country": "Global"
+    "city": "Tokyo",
+    "country": null
   },
   {
-    "title": "Picaresque Gallery",
-    "score": 4.6,
+    "title": "公募プログラム - トーキョーアーツアンドスペース",
+    "score": 8.0,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
+    "score": 8.0,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Open Calls for Artists | Exhibit Worldwide",
+    "score": 8.0,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
+    "score": 8.0,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "The Container",
+    "score": 7.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -1345,8 +2393,162 @@
     "country": null
   },
   {
-    "title": "Spiral",
-    "score": 4.6,
+    "title": "日記屋 月日",
+    "score": 8.0,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.9"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Shimokitazawa, Tokyo",
+    "country": null
+  },
+  {
+    "title": "Asian Cultural Council Fellowship",
+    "score": 7.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "high prestige",
+      "global/international target",
+      "tag: global"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Global Grant Fellowship",
+    "city": "New York / Global",
+    "country": "USA / Global"
+  },
+  {
+    "title": "Comitia",
+    "score": 7.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "AIT Residency",
+    "score": 7.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Japan Watercolor Society Annual Exhibition",
+    "score": 7.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "global/international target"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Japan Watercolor Institution",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "title": "ARTE VENT Press",
+    "score": 7.7,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Publishing / Artist Books — Battle Plan",
+    "score": 6.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [
+      "aesthetic lineage +1.6"
+    ],
+    "risks": [
+      "many missing verification fields: source, submission, deadline, contact"
+    ],
+    "missing_fields": [
+      "source",
+      "submission",
+      "deadline",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Aoyama Farmers Market",
+    "score": 7.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Cafe Cross Point",
+    "score": 7.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
+    "country": null
+  },
+  {
+    "title": "TAV Gallery",
+    "score": 7.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -1355,6 +2557,646 @@
     ],
     "category": "Galleries / Exhibition Calls",
     "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Gallery IRO",
+    "score": 7.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Gallery HANA Shimokitazawa",
+    "score": 7.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "torch press",
+    "score": 6.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: source, submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "source",
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "DER GREIF",
+    "score": 6.8,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
+    "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
+    "score": 7.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...",
+    "score": 7.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "現代アート販売の@Gallery Tagboat|@Gallery Tagboat",
+    "score": 7.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "New Power展 | ギャラリー自由が丘で作家デビュー",
+    "score": 7.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Call for Entry: Showcase your art in Tokyo, Japan",
+    "score": 7.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Komiyama Tokyo",
+    "score": 6.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: source, submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "source",
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Zines / Artist Books — Battle Plan",
+    "score": 6.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [
+      "aesthetic lineage +1.7"
+    ],
+    "risks": [
+      "many missing verification fields: source, submission, deadline, contact"
+    ],
+    "missing_fields": [
+      "source",
+      "submission",
+      "deadline",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Book Culture Club",
+    "score": 6.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: source, submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "source",
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Kichijoji, Tokyo",
+    "country": null
+  },
+  {
+    "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
+    "score": 7.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
+    "score": 7.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "PhotoVogue",
+    "score": 7.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "score": 6.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "UK"
+  },
+  {
+    "title": "Pastel Society Open Exhibition",
+    "score": 6.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "UK"
+  },
+  {
+    "title": "Communication Arts Illustration Competition",
+    "score": 6.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Global"
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "score": 6.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "UK"
+  },
+  {
+    "title": "RAW TOKYO",
+    "score": 6.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Creative Space Hayashi",
+    "score": 6.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Yokohama",
+    "country": null
+  },
+  {
+    "title": "shashasha",
+    "score": 6.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: source, submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "source",
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "reload Shimokitazawa",
+    "score": 6.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Shimokitazawa",
+    "country": null
+  },
+  {
+    "title": "HandMade In Japan Fes",
+    "score": 6.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Boji Hair+Gallery",
+    "score": 6.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Tokyo"
+  },
+  {
+    "title": "Cafe Mame-Hico",
+    "score": 6.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Yonchome Cafe",
+    "score": 6.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
+    "country": null
+  },
+  {
+    "title": "Cafe Gallery HATTIFNATT",
+    "score": 6.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
+    "country": null
+  },
+  {
+    "title": "DESIGN FESTA GALLERY",
+    "score": 6.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "SCAI The Bathhouse",
+    "score": 6.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "VACANT",
+    "score": 6.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Artist Spaces",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Zushi Art Gallery",
+    "score": 6.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Kanagawa",
+    "country": null
+  },
+  {
+    "title": "Gallery Conceal Shibuya",
+    "score": 6.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Picaresque Gallery",
+    "score": 5.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "twelvebooks",
+    "score": 6.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: source, submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "source",
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Spiral",
+    "score": 5.4,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "loneliness books",
+    "score": 3.0,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Nakano, Tokyo",
+    "country": null
+  },
+  {
+    "title": "Dig A Hole Zines",
+    "score": 3.0,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Koenji, Tokyo",
+    "country": null
+  },
+  {
+    "title": "MADO Café",
+    "score": 3.4,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
+    "country": null
+  },
+  {
+    "title": "ZINE FARM TOKYO",
+    "score": 3.0,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Kichijoji, Tokyo",
     "country": null
   }
 ]

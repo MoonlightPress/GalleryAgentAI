@@ -1,0 +1,18 @@
+{
+  "venue_name": "shashasha",
+  "venue_slug": "shashasha",
+  "memory_version": 1,
+  "summary": "Venue type: bookstore / print space Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-06-01",
+  "confidence": "low",
+  "future_research": [
+    "contact",
+    "deadline",
+    "fees",
+    "official/source website",
+    "submission process"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}
