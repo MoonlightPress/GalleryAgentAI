@@ -15,9 +15,9 @@ Best current options: good fit, useful direction, and worth acting on first.
    > 🇯🇵 _件名：水彩画作品の展示・お取り扱いについてのご相談 / はじめまして。東京在住の水彩画家、GEGYjijiと申します。_
 5. **MOUNT ZINE** — score 7.6, visual 3.7, verification . Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
 6. **Northwest Watercolor Society 2026 Annual International Open Exhibition** — score 8.8, visual 0.45, verification . Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
-7. **Jimbocho Zine Fair** — score 7.6, visual 3.25, verification . Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
-8. **Book and Sons** — score 7.6, visual 1.3. **Action: Contact and propose**. Art and design bookstore with exhibition space. Artist-book consignment or show inquiry.
+7. **Book and Sons** — score 7.6, visual 1.3. **Action: Contact and propose**. Art and design bookstore with exhibition space. Artist-book consignment or show inquiry.
    > 🇯🇵 _件名：水彩画作品のお取り扱いについてのご相談 / はじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。_
+8. **NADiff a/p/a/r/t** — score 6.5, visual 3.25, verification . Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all
 
 ## Publication Targets
 

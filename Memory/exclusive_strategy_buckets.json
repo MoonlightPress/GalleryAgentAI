@@ -118,25 +118,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "Jimbocho Zine Fair",
-      "score": 7.6,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "source": "https://tcha.jp/post-3262/",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "opportunity_type": "enriched_opportunity",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "Book and Sons",
       "score": 7.6,
       "differentiated_score": 9.75,
@@ -2807,6 +2788,25 @@
       "verification_score": "",
       "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
       "source": "https://fukuokaartbookfair.com/application/",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "opportunity_type": "enriched_opportunity",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "Zine & Book フェス in 神保町 (Jimbocho)",
+      "score": 7.6,
+      "differentiated_score": 9.98,
+      "visual_fit_score": 3.25,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "source": "https://jimbocho-zine-book-fes.com/",
       "visual_hits": [
         "artist book",
         "artist_book",
