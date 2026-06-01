@@ -1,5 +1,6 @@
 
 import base64
+import html as _html
 import json
 import os
 from datetime import datetime
@@ -53,6 +54,18 @@ def score_num(value):
         return 0.0
 
 
+def best_score(opp):
+    """Return the most meaningful composite score available."""
+    for field in ("watercolor_adjusted_score", "truth_aligned_score", "overall_score"):
+        v = opp.get(field)
+        if v is not None:
+            try:
+                return float(v)
+            except Exception:
+                continue
+    return 0.0
+
+
 def get_title(opp):
     return opp.get("title") or opp.get("name") or "Unknown"
 
@@ -87,15 +100,23 @@ def score_label(score):
     return "Low priority"
 
 
-def effort_label(raw):
+def display_score(opp):
+    """Return (numeric, display_string) using the best available score, capped at 10."""
+    s = best_score(opp)
+    return min(s, 10.0), f"{min(s, 10.0):.1f}"
+
+
+def effort_label(raw, opp=None):
     text = str(raw or "").lower()
+    if not text and opp:
+        text = str(opp.get("research_priority") or "").lower()
     if "low" in text or "easy" in text:
         return "Easy"
     if "medium" in text or "moderate" in text:
         return "Medium"
     if "high" in text or "heavy" in text or "demand" in text:
         return "Heavy"
-    return "Check"
+    return "—"
 
 
 def category_label(raw):
@@ -392,11 +413,12 @@ textarea {
 
 def render_compact_card(opp, key_prefix):
     title = get_title(opp)
-    score = opp.get("overall_score", "?")
+    s_num, s_str = display_score(opp)
     city = clean_value(opp.get("city"), "City not listed")
     summary = opp.get("one_sentence", "") or opp.get("suggested_display_summary", "")
     category = category_label(opp.get("category"))
     stamp = image_data_uri(image_for_category(opp.get("category")))
+    effort = effort_label(opp.get("difficulty"), opp)
 
     badge_html = ""
     for status, label in verification_badges(opp)[:3]:
@@ -404,16 +426,20 @@ def render_compact_card(opp, key_prefix):
         badge_html += f'<span class="{cls}">{label}</span>'
 
     img_html = f'<img class="card-stamp" src="{stamp}">' if stamp else ""
+    safe_title = _html.escape(title)
+    safe_city = _html.escape(city)
+    safe_category = _html.escape(category)
+    safe_summary = _html.escape(summary[:190])
 
     st.markdown(f"""
 <div class="compact-card">
   <div class="card-topline">
     {img_html}
     <div class="card-main">
-      <div class="card-title">{title}</div>
-      <div class="card-meta">{city} · {category} · {score}/10 · {score_label(score)} · {effort_label(opp.get("difficulty"))}</div>
+      <div class="card-title">{safe_title}</div>
+      <div class="card-meta">{safe_city} · {safe_category} · {s_str}/10 · {score_label(s_num)} · {effort}</div>
       <div>{badge_html}</div>
-      <div class="card-summary">{summary[:190]}</div>
+      <div class="card-summary">{safe_summary}</div>
     </div>
   </div>
 </div>
@@ -530,40 +556,37 @@ def render_homepage_section():
     focus_rows_html = ""
     for i, item in enumerate(focus_raw):
         icon, label, time_hint = tier_meta[i]
-        name = _focus_display_name(item.get("name", ""))
-        action = item.get("next_action", "")[:88].strip()
+        name = _html.escape(_focus_display_name(item.get("name", "")))
+        action = _html.escape(item.get("next_action", "")[:88].strip())
         deadline_raw = item.get("deadline", "").strip()
         dl_html = ""
         if deadline_raw and len(deadline_raw) < 70:
-            dl_html = f'<span class="focus-dl">⏰ {deadline_raw[:55]}</span>'
-        focus_rows_html += f"""
-        <div class="focus-row">
-          <div class="focus-ico">{icon}</div>
-          <div class="focus-body">
-            <div class="focus-tier">{label} <span class="focus-time">· {time_hint}</span></div>
-            <div class="focus-name">{name}</div>
-            <div class="focus-hint">{action}</div>
-            {dl_html}
-          </div>
-        </div>"""
+            dl_html = f'<span class="focus-dl">&#x23F0; {_html.escape(deadline_raw[:55])}</span>'
+        focus_rows_html += (
+            f'<div class="focus-row">'
+            f'<div class="focus-ico">{icon}</div>'
+            f'<div class="focus-body">'
+            f'<div class="focus-tier">{label} <span class="focus-time">&middot; {time_hint}</span></div>'
+            f'<div class="focus-name">{name}</div>'
+            f'<div class="focus-hint">{action}</div>'
+            f'{dl_html}'
+            f'</div></div>'
+        )
 
+    # ── Step 1: Inject hero background as its own CSS call (keeps the 2.6 MB
+    #   base64 blob isolated so it cannot corrupt the HTML render below).
     hero_uri = image_data_uri("static/assets/headers/mochi_hero.png")
-    hero_bg = (
-        f'background-image: url("{hero_uri}"); background-size: cover; background-position: center 18%;'
-        if hero_uri else
-        "background: #f0e3cc;"
-    )
+    if hero_uri:
+        st.markdown(
+            f'<style>.hp-hero {{ background-image: url("{hero_uri}"); '
+            f'background-size: cover; background-position: center 18%; }}</style>',
+            unsafe_allow_html=True,
+        )
 
-    cat_html = ""
-    svg_path = "static/assets/mochi/hero_cat.svg"
-    if os.path.exists(svg_path):
-        with open(svg_path, "r", encoding="utf-8") as f:
-            cat_html = f'<div class="mochi-bar-portrait">{f.read()}</div>'
-
-    st.markdown(f"""
+    # ── Step 2: Inject all other CSS (no base64 blobs).
+    st.markdown("""
 <style>
-/* ─── Hero ──────────────────────────────────────────────────── */
-.hp-hero {{
+.hp-hero {
   position: relative;
   width: 100%;
   min-height: 500px;
@@ -572,10 +595,10 @@ def render_homepage_section():
   margin-bottom: 24px;
   border: 1px solid #dcc19b;
   box-shadow: 0 14px 40px rgba(70,44,20,.13);
-  {hero_bg}
-}}
+  background: #f0e3cc;
+}
 
-.hp-panel {{
+.hp-panel {
   position: absolute;
   top: 28px;
   left: 28px;
@@ -585,26 +608,26 @@ def render_homepage_section():
   border-radius: 20px;
   padding: 20px 20px 16px 20px;
   box-shadow: 0 8px 28px rgba(70,44,20,.11);
-}}
+}
 
-.hp-greeting {{
+.hp-greeting {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.55rem;
   color: #3f3027;
   font-weight: bold;
   line-height: 1.05;
   margin-bottom: 2px;
-}}
+}
 
-.hp-sub {{
+.hp-sub {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.88rem;
   color: #7a6352;
   font-style: italic;
   margin-bottom: 13px;
-}}
+}
 
-.hp-focus-label {{
+.hp-focus-label {
   font-size: 0.68rem;
   color: #9a8070;
   text-transform: uppercase;
@@ -613,41 +636,41 @@ def render_homepage_section():
   margin-bottom: 10px;
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(220,193,155,0.5);
-}}
+}
 
-.focus-row {{
+.focus-row {
   display: flex;
   align-items: flex-start;
   gap: 8px;
   margin-bottom: 10px;
-}}
+}
 
-.focus-ico {{
+.focus-ico {
   font-size: 0.92rem;
   flex-shrink: 0;
   width: 18px;
   text-align: center;
   margin-top: 2px;
-}}
+}
 
-.focus-body {{ flex: 1; min-width: 0; }}
+.focus-body { flex: 1; min-width: 0; }
 
-.focus-tier {{
+.focus-tier {
   font-size: 0.67rem;
   color: #9a8070;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 1px;
-}}
+}
 
-.focus-time {{
+.focus-time {
   font-weight: normal;
   text-transform: none;
   letter-spacing: 0;
-}}
+}
 
-.focus-name {{
+.focus-name {
   font-size: 0.80rem;
   color: #3f3027;
   font-weight: 600;
@@ -656,15 +679,15 @@ def render_homepage_section():
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}}
+}
 
-.focus-hint {{
+.focus-hint {
   font-size: 0.70rem;
   color: #7a6352;
   line-height: 1.3;
-}}
+}
 
-.focus-dl {{
+.focus-dl {
   display: inline-block;
   margin-top: 3px;
   font-size: 0.67rem;
@@ -672,26 +695,25 @@ def render_homepage_section():
   background: #fcecd8;
   border-radius: 6px;
   padding: 1px 6px;
-}}
+}
 
-.focus-see-all {{
+.focus-see-all {
   display: block;
   margin-top: 10px;
   font-size: 0.73rem;
   color: #9a8070;
   font-style: italic;
   text-align: right;
-}}
+}
 
-/* ─── Section Cards ──────────────────────────────────────────── */
-.sc-row {{
+.sc-row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 14px;
   margin-bottom: 28px;
-}}
+}
 
-.sc-card {{
+.sc-card {
   background: rgba(255, 250, 242, 0.96);
   border: 1px solid #e0ccaa;
   border-radius: 18px;
@@ -701,40 +723,39 @@ def render_homepage_section():
   flex-direction: column;
   min-height: 136px;
   transition: box-shadow 0.18s ease, transform 0.14s ease;
-}}
+}
 
-.sc-card:hover {{
+.sc-card:hover {
   box-shadow: 0 8px 24px rgba(70,44,20,.11);
   transform: translateY(-2px);
-}}
+}
 
-.sc-icon {{ font-size: 1.5rem; margin-bottom: 6px; }}
+.sc-icon { font-size: 1.5rem; margin-bottom: 6px; }
 
-.sc-title {{
+.sc-title {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.88rem;
   color: #3f3027;
   font-weight: bold;
   margin-bottom: 5px;
-}}
+}
 
-.sc-desc {{
+.sc-desc {
   font-size: 0.71rem;
   color: #7a6352;
   line-height: 1.38;
   flex: 1;
-}}
+}
 
-.sc-link {{
+.sc-link {
   display: block;
   font-size: 0.71rem;
   color: #9a7d5e;
   margin-top: 9px;
   font-style: italic;
-}}
+}
 
-/* ─── Mochi Status Bar ───────────────────────────────────────── */
-.mochi-bar {{
+.mochi-bar {
   display: flex;
   align-items: center;
   gap: 14px;
@@ -744,104 +765,62 @@ def render_homepage_section():
   padding: 13px 20px;
   margin-bottom: 20px;
   box-shadow: 0 3px 12px rgba(70,44,20,.07);
-}}
+}
 
-.mochi-bar-portrait {{
-  width: 44px;
-  height: 44px;
-  flex-shrink: 0;
-}}
+.mochi-bar-portrait { width: 44px; height: 44px; flex-shrink: 0; }
+.mochi-bar-portrait svg { width: 44px; height: 44px; }
+.mochi-bar-id { flex-shrink: 0; }
 
-.mochi-bar-portrait svg {{
-  width: 44px;
-  height: 44px;
-}}
-
-.mochi-bar-id {{ flex-shrink: 0; }}
-
-.mochi-bar-name {{
+.mochi-bar-name {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.95rem;
   color: #3f3027;
   font-weight: bold;
-}}
+}
 
-.mochi-bar-status {{
-  font-size: 0.70rem;
-  color: #9a8070;
-  margin-top: 2px;
-}}
+.mochi-bar-status { font-size: 0.70rem; color: #9a8070; margin-top: 2px; }
 
-.mochi-bar-msg {{
+.mochi-bar-msg {
   font-size: 0.82rem;
   color: #7a6352;
   font-style: italic;
   flex: 1;
   line-height: 1.4;
-}}
+}
 </style>
-
-<div class="hp-hero">
-  <div class="hp-panel">
-    <div class="hp-greeting">{greeting}</div>
-    <div class="hp-sub">{sub}</div>
-    <div class="hp-focus-label">Today's Focus</div>
-    {focus_rows_html}
-    <span class="focus-see-all">See all →</span>
-  </div>
-</div>
-
-<div class="sc-row">
-  <div class="sc-card">
-    <div class="sc-icon">🏛️</div>
-    <div class="sc-title">Opportunities</div>
-    <div class="sc-desc">Galleries, open calls, residencies, zine shops, and more.</div>
-    <span class="sc-link">View all →</span>
-  </div>
-  <div class="sc-card">
-    <div class="sc-icon">🌿</div>
-    <div class="sc-title">Suggested Peers</div>
-    <div class="sc-desc">Artists to follow, connect with, and learn from.</div>
-    <span class="sc-link">Explore →</span>
-  </div>
-  <div class="sc-card">
-    <div class="sc-icon">✉️</div>
-    <div class="sc-title">Outreach</div>
-    <div class="sc-desc">Track conversations and manage your outreach.</div>
-    <span class="sc-link">Open →</span>
-  </div>
-  <div class="sc-card">
-    <div class="sc-icon">📋</div>
-    <div class="sc-title">Quests</div>
-    <div class="sc-desc">Daily and weekly goals to keep your practice moving.</div>
-    <span class="sc-link">See quests →</span>
-  </div>
-  <div class="sc-card">
-    <div class="sc-icon">📓</div>
-    <div class="sc-title">Journal</div>
-    <div class="sc-desc">Capture ideas, reflections, and inspiration.</div>
-    <span class="sc-link">Open →</span>
-  </div>
-  <div class="sc-card">
-    <div class="sc-icon">📊</div>
-    <div class="sc-title">Analytics</div>
-    <div class="sc-desc">See your progress and patterns over time.</div>
-    <span class="sc-link">View →</span>
-  </div>
-</div>
-
-<div class="mochi-bar">
-  {cat_html}
-  <div class="mochi-bar-id">
-    <div class="mochi-bar-name">Mochi ♥</div>
-    <div class="mochi-bar-status">Happy · Full · Content</div>
-  </div>
-  <div class="mochi-bar-msg">
-    Mochi has been watching the light change all afternoon.<br>
-    She found three things worth your attention today.
-  </div>
-</div>
 """, unsafe_allow_html=True)
+
+    # ── Step 3: Render HTML content (no base64 blobs, all user data escaped).
+    cat_html = ""
+    svg_path = "static/assets/mochi/hero_cat.svg"
+    if os.path.exists(svg_path):
+        with open(svg_path, "r", encoding="utf-8") as f:
+            cat_html = f'<div class="mochi-bar-portrait">{f.read()}</div>'
+
+    st.markdown(
+        f'<div class="hp-hero">'
+        f'<div class="hp-panel">'
+        f'<div class="hp-greeting">{_html.escape(greeting)}</div>'
+        f'<div class="hp-sub">{_html.escape(sub)}</div>'
+        f'<div class="hp-focus-label">Today\'s Focus</div>'
+        f'{focus_rows_html}'
+        f'<span class="focus-see-all">See all &rarr;</span>'
+        f'</div></div>'
+        f'<div class="sc-row">'
+        f'<div class="sc-card"><div class="sc-icon">&#x1F3DB;</div><div class="sc-title">Opportunities</div><div class="sc-desc">Galleries, open calls, residencies, zine shops, and more.</div><span class="sc-link">View all &rarr;</span></div>'
+        f'<div class="sc-card"><div class="sc-icon">&#x1F33F;</div><div class="sc-title">Suggested Peers</div><div class="sc-desc">Artists to follow, connect with, and learn from.</div><span class="sc-link">Explore &rarr;</span></div>'
+        f'<div class="sc-card"><div class="sc-icon">&#x2709;&#xFE0F;</div><div class="sc-title">Outreach</div><div class="sc-desc">Track conversations and manage your outreach.</div><span class="sc-link">Open &rarr;</span></div>'
+        f'<div class="sc-card"><div class="sc-icon">&#x1F4CB;</div><div class="sc-title">Quests</div><div class="sc-desc">Daily and weekly goals to keep your practice moving.</div><span class="sc-link">See quests &rarr;</span></div>'
+        f'<div class="sc-card"><div class="sc-icon">&#x1F4D3;</div><div class="sc-title">Journal</div><div class="sc-desc">Capture ideas, reflections, and inspiration.</div><span class="sc-link">Open &rarr;</span></div>'
+        f'<div class="sc-card"><div class="sc-icon">&#x1F4CA;</div><div class="sc-title">Analytics</div><div class="sc-desc">See your progress and patterns over time.</div><span class="sc-link">View &rarr;</span></div>'
+        f'</div>'
+        f'<div class="mochi-bar">'
+        f'{cat_html}'
+        f'<div class="mochi-bar-id"><div class="mochi-bar-name">Mochi &#x2665;</div><div class="mochi-bar-status">Happy &middot; Full &middot; Content</div></div>'
+        f'<div class="mochi-bar-msg">Mochi has been watching the light change all afternoon.<br>She found three things worth your attention today.</div>'
+        f'</div>',
+        unsafe_allow_html=True,
+    )
 
 
 # ── Main app ─────────────────────────────────────────────────────────────────
