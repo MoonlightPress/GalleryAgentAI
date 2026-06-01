@@ -6,6 +6,7 @@ from ui.strategy_homepage_components import render_strategy_homepage
 from ui.zine_opportunity_section import render_zine_section
 from ui.best_moves_streamlit_section import render_best_moves_section
 from ui.category_context_streamlit_section import render_category_context_section
+from ui.opportunity_review_sections import render_opportunity_review_sections
 from ui.publishing_opportunity_section import render_publishing_section
 from collections import defaultdict
 from ui.report_ui_components import *
@@ -655,6 +656,8 @@ with tabs[0]:
     render_zine_section(render_compact_card)
     st.markdown("---")
     render_category_context_section()
+    st.markdown("---")
+    render_opportunity_review_sections()
     st.markdown("---")
     render_publishing_section(render_compact_card)
     st.markdown("---")

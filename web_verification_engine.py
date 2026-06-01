@@ -25,6 +25,30 @@ CONTACT_WORDS = [
     "お問い合わせ", "問合せ", "連絡", "会社概要"
 ]
 
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9,ja;q=0.8,zh;q=0.7",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+}
+
+
+def fetch_with_fallback(url):
+    r = requests.get(url, timeout=20, headers=BROWSER_HEADERS)
+    if r.status_code < 400:
+        return r
+    parsed = urlparse(url)
+    root = f"{parsed.scheme}://{parsed.netloc}/"
+    if root.rstrip("/") != url.rstrip("/"):
+        try:
+            r2 = requests.get(root, timeout=20, headers=BROWSER_HEADERS)
+            if r2.status_code < 400:
+                return r2
+        except Exception:
+            pass
+    return r
+
 
 def load_json(path, fallback):
     p = Path(path)
@@ -124,7 +148,7 @@ def verify_one(item):
         return row
 
     try:
-        r = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
+        r = fetch_with_fallback(url)
         row["http_status"] = r.status_code
 
         if r.status_code >= 400:
