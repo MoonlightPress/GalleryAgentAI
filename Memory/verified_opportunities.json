@@ -125,15 +125,652 @@
     "url": "https://www.printedmatter.org/",
     "score": 9.6,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": 403,
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
     "date_candidates": [],
-    "relevant_links": []
+    "relevant_links": [
+      {
+        "label": "Submit Mail Art",
+        "url": "https://www.printedmatter.org/mail-art/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "See all exhibitions",
+        "url": "https://www.printedmatter.org/programs/1-exhibitions",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2250",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Archive Exhibition",
+        "url": "https://www.printedmatter.org/services/archive-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Submit a book",
+        "url": "https://www.printedmatter.org/services/submit-your-book",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Artist Opportunities",
+        "url": "https://www.printedmatter.org/services/the-bulletin/artist-opportunities",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "About",
+        "url": "https://www.printedmatter.org/about",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Contact us",
+        "url": "https://www.printedmatter.org/contact-us",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Press inquiries",
+        "url": "https://www.printedmatter.org/press-inquiries",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Learn More About Memberships",
+        "url": "https://www.printedmatter.org/support/membership",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Printed Matter, Inc.",
+        "url": "https://www.printedmatter.org/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Your cart",
+        "url": "https://www.printedmatter.org/#",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Chance",
+        "url": "https://www.printedmatter.org/#tabs-568-999-chance",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "PM Artist Editions",
+        "url": "https://www.printedmatter.org/#tabs-568-999-product-category",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Rare and special interest",
+        "url": "https://www.printedmatter.org/#tabs-568-999-rare_and_special_interest",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Recent arrivals",
+        "url": "https://www.printedmatter.org/#tabs-568-999-recent_arrivals",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Catalog",
+        "url": "https://www.printedmatter.org/catalog",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Barbara Kruger Plenty Ought To Be Enough [Tote Bag] PM Artist Editions $1,400.00",
+        "url": "https://www.printedmatter.org/catalog/20357",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Friend $60",
+        "url": "https://www.printedmatter.org/catalog/35259",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Supporter $250",
+        "url": "https://www.printedmatter.org/catalog/35261",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Advocate $500",
+        "url": "https://www.printedmatter.org/catalog/35262",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Book Circle $1000",
+        "url": "https://www.printedmatter.org/catalog/35263",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Benefactor $2000",
+        "url": "https://www.printedmatter.org/catalog/37898",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Contributor $100",
+        "url": "https://www.printedmatter.org/catalog/37899",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Institutional Member Institutional ($250)",
+        "url": "https://www.printedmatter.org/catalog/53287",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Takako Masuki Asian Lunchbox Books $39.50 Back In Stock",
+        "url": "https://www.printedmatter.org/catalog/55851",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Marley Freeman like a ruined sunrise (2024) PM Artist Editions $500.00",
+        "url": "https://www.printedmatter.org/catalog/67363",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Todd Hido #2424-a, #2479-a, #3878 [Full Set], 2024 PM Artist Editions $500.00",
+        "url": "https://www.printedmatter.org/catalog/67494",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Shannon Ebner RAINING, [Print] PM Artist Editions $600.00",
+        "url": "https://www.printedmatter.org/catalog/68271",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Shannon Ebner REINING. [Print] PM Artist Editions $600.00",
+        "url": "https://www.printedmatter.org/catalog/68272",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Shannon Ebner RAINING, REINING. [Two Print Set] PM Artist Editions $1,000.00",
+        "url": "https://www.printedmatter.org/catalog/68273",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Mario Ayala Arroyo Seco Towing, 2025 PM Artist Editions $500.00",
+        "url": "https://www.printedmatter.org/catalog/68341",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Paul Pfeiffer The Pure Products Go Crazy and Fragment of a Crucifixion (After Francis Bacon), 2025 PM Artist Editions $1,000.00",
+        "url": "https://www.printedmatter.org/catalog/68348",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Marley Freeman stripped of his thunderbolts and swans (2025) PM Artist Editions $500.00",
+        "url": "https://www.printedmatter.org/catalog/68383",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Richard Tuttle The 2nd Merlyn, 2025 PM Artist Editions $800.00",
+        "url": "https://www.printedmatter.org/catalog/69056",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Huma Bhabha Untitled (2025) PM Artist Editions $3,500.00",
+        "url": "https://www.printedmatter.org/catalog/69160",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "ASIAN FOOD DESIGN Asian Food Travel Vol. 2 Books $37.00 Back In Stock",
+        "url": "https://www.printedmatter.org/catalog/70678",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Deanna Templeton and Ed Templeton Sophia at a Crossroads, 2026 PM Artist Editions $250.00",
+        "url": "https://www.printedmatter.org/catalog/71015",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "DAP Chapbook Voice + Vision Books $15.00",
+        "url": "https://www.printedmatter.org/catalog/71117",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "RIKUKA Japan’s regression to modernity and China’s shortcut Books $30.00",
+        "url": "https://www.printedmatter.org/catalog/71118",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Ingo Giezendanner GRR104/105/106 Books $25.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71127",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Frédéric Acquaviva Musique Cabalistique Books $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71128",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Frédéric Acquaviva Musique Cabalistique [Set of 14 Posters] Posters $100.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71129",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Frédéric Acquaviva Exercice Spirituel Books $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71130",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Frédéric Acquaviva SEMINAL [CD in DVD digipack] Audio & Video $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71132",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Frédéric Acquaviva SEMINAL [CD in Record Sleeve] Audio & Video $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71133",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Margaux Bigou Passion Poisson Books $20.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71134",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Noor Shoresh Someone Cares for You Books $18.00 Recent Arrival Signed",
+        "url": "https://www.printedmatter.org/catalog/71135",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Kevin Hatt Chloë and Harmony ‘94 Books $15.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71136",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press Freak Out! Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71137",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press Gutenberg Never Did This Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71138",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Raquel Weinberg and Kimberly Jao Surface Tension Books $15.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71139",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press Why Can’t I Touch It? Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71140",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press The Medium is the Machine Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71141",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press Rip Off Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71142",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press I ♥ Tools Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71143",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press ROE-ZEE Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71144",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Yanan Recipes for June Ephemera $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71145",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Yanan Into the Islánd: Fragments of Documents [Second Edition] Books $20.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71146",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Yanan Into the Islánd: Interrogation and Poem [Second Edition] Books $20.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71147",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Yanan Everything Everywhere all in Fried Rice Books $30.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71148",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71149",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Kimberly Jao ISDA! Books $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71150",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Kimberly Jao and Mick Gaw The Manila File Books $26.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71151",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Kimberly Jao and Yong-Yu Huang Notes on Beachgrass Books $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71152",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Nynnmah The Language of Dying Things Books $10.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71154",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Daylon Orr Who is Sir Lady Java? Books $10.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71155",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Douglas Lucas Flux Us Books $8.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71157",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Douglas Lucas Invisible World Books $8.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71158",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Douglas Lucas Imaginary Mirrors Books $8.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71159",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "EMERGENC(Y): Afghan Lives Beyond the Forever War Books $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71160",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Olivia Spring, editor SICK Issue 7 Periodicals $18.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71161",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Browse Printed Matter Editions",
+        "url": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Digital downloads",
+        "url": "https://www.printedmatter.org/catalog/digital-downloads",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "See all events",
+        "url": "https://www.printedmatter.org/events",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Jobs & internships",
+        "url": "https://www.printedmatter.org/jobs-internships",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://www.printedmatter.org/locations",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Log in",
+        "url": "https://www.printedmatter.org/login",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Subscribe to email",
+        "url": "https://www.printedmatter.org/mailing-list",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Programs",
+        "url": "https://www.printedmatter.org/programs",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Window Present Tense Window installation by sgp April 30 - June 23, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2261",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Event Chelsea Welcome to the Other Side Launch of The Silver Moon, Issue No. 1 June 18, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2263",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Event The Axe Will Survive the Master Book signing with Matthew Connors June 13, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2266",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Event Chelsea Insider Trading Panel with Eli Rosenbloom, Nathalie Nguyen, Camille Okhio, and Nick Sethi June 24, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2267",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Services",
+        "url": "https://www.printedmatter.org/services",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Bibliographic Services",
+        "url": "https://www.printedmatter.org/services/bibliographic-services",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Distribution Services",
+        "url": "https://www.printedmatter.org/services/distribution-services",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Education Services",
+        "url": "https://www.printedmatter.org/services/education-services",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "For Libraries & Institutions",
+        "url": "https://www.printedmatter.org/services/libraries-and-institutions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "The Bulletin",
+        "url": "https://www.printedmatter.org/services/the-bulletin",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Bookstores",
+        "url": "https://www.printedmatter.org/services/the-bulletin/all-bookstores",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Audio & Video Resources",
+        "url": "https://www.printedmatter.org/services/the-bulletin/audio-video-resources",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Book & Zine Fairs",
+        "url": "https://www.printedmatter.org/services/the-bulletin/book-and-zine-fairs",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Printing & Binding Glossary",
+        "url": "https://www.printedmatter.org/services/the-bulletin/glossary",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Other Useful Links",
+        "url": "https://www.printedmatter.org/services/the-bulletin/other-useful-links",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Printing & Binding Resources",
+        "url": "https://www.printedmatter.org/services/the-bulletin/printing-and-binding",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "For Wholesalers",
+        "url": "https://www.printedmatter.org/services/wholesalers",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Support",
+        "url": "https://www.printedmatter.org/support",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Donate",
+        "url": "https://www.printedmatter.org/support/donate",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Buy a gift certificate",
+        "url": "https://www.printedmatter.org/support/gift-certificates",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Join our book circle",
+        "url": "https://www.printedmatter.org/support/membership/book-circle",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Instagram",
+        "url": "http://instagram.com/printedmatterinc/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "LA Art Book Fair",
+        "url": "http://laartbookfair.net/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "NY Art Book Fair",
+        "url": "http://nyartbookfair.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/printedmatter",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/printedmatterinc/",
+        "kind": "other",
+        "same_domain": false
+      }
+    ]
   },
   {
     "title": "Jackson's Art Prize",
@@ -144,41 +781,704 @@
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": 403,
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
     "date_candidates": [],
-    "relevant_links": []
+    "relevant_links": [
+      {
+        "label": "About",
+        "url": "https://www.jacksonsart.com/artprize/about/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Contact",
+        "url": "https://www.jacksonsart.com/artprize/contact/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "JACKSON’S ART SUPPLIES",
+        "url": "https://www.jacksonsart.com/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://www.jacksonsart.com/artprize/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2023",
+        "url": "https://www.jacksonsart.com/artprize/2023-3/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Past Competitions",
+        "url": "https://www.jacksonsart.com/artprize/2024-2/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2025",
+        "url": "https://www.jacksonsart.com/artprize/2025-2/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2026",
+        "url": "https://www.jacksonsart.com/artprize/2026-2/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "here",
+        "url": "https://www.jacksonsart.com/artprize/enter-2026/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "FAQs",
+        "url": "https://www.jacksonsart.com/artprize/faqs/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Newsletter",
+        "url": "https://www.jacksonsart.com/artprize/newsletter/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2016",
+        "url": "https://www.jacksonsart.com/artprize/past-competitions/2016-competition/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2017",
+        "url": "https://www.jacksonsart.com/artprize/past-competitions/2017-competition/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2018",
+        "url": "https://www.jacksonsart.com/artprize/past-competitions/2018-competition/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2019",
+        "url": "https://www.jacksonsart.com/artprize/past-competitions/2019-competition/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2020",
+        "url": "https://www.jacksonsart.com/artprize/past-competitions/jpp-2020/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2021",
+        "url": "https://www.jacksonsart.com/artprize/past-competitions/jpp-2021/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2022",
+        "url": "https://www.jacksonsart.com/artprize/past-competitions/past-competitions-2022/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://www.jacksonsart.com/blog/2026/03/27/jacksons-art-prize-2026-first-prize-winner-announced/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Connect",
+        "url": "https://www.jacksonsart.com/paintingprize/#",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Buy Artwork",
+        "url": "https://gallery.jacksonsart.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.instagram.com/jacksons_art_prize/",
+        "kind": "other",
+        "same_domain": false
+      }
+    ]
   },
   {
     "title": "Royal Institute of Painters in Water Colours",
     "url": "https://www.mallgalleries.org.uk/open-exhibitions",
     "score": 9.6,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": 404,
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
     "date_candidates": [],
-    "relevant_links": []
+    "relevant_links": [
+      {
+        "label": "Exhibitions & Events",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Art For Youth London 2026 4 Nov 2026 to 6 Nov 2026 Art for Youth London was established in 1988 by Diana Brooks MBE as a...",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/art-youth-london-2026-0",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition David Shepherd Wildlife Foundation | Wildlife Artist of the Year 2026 8 Sep 2026 to 12 Sep 2026 Internationally renowned wildlife art competition and exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/david-shepherd-wildlife-foundation-wildlife-artist-year-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "FBA Fundraiser | Support Us",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/fundraiser-fba-editions",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Home Sweet Home, Huaicun Zhang FRSA, Hon RBA 23 Jul 2026 to 15 Aug 2026 Transforming the galleries into an immersive, story-led environment...",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/home-sweet-home-huaicun-zhang-frsa-hon-rba",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition New English Art Club | 140th Anniversary 11 Jun 2026 to 20 Jun 2026 , 10am to 5pm An opportunity to see some of the best artists painting today",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/new-english-art-club-140th-anniversary",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Royal Society of Marine Artists | Annual Exhibition 2026 16 Sep 2026 to 26 Sep 2026 , 10am to 5pm A Celebration of Marine Art",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/royal-society-marine-artists-annual-exhibition-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Society of Wildlife Artists | The Natural Eye 2026 1 Oct 2026 to 10 Oct 2026 , 10am to 5pm Art inspired by the natural world",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/society-wildlife-artists-natural-eye-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition The Society of Women Artists | 165th Annual Open Exhibition 23 Jun 2026 to 27 Jun 2026 The Society of Women Artists returns for their 165th Annual Exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/society-women-artists-165th-annual-open-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition UAL Awarding Body Origins Creatives 2026 15 Jul 2026 to 18 Jul 2026 Platforming the next generation of creatives",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/ual-awarding-body-origins-creatives-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Upcoming Exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/world-food-photography-awards-sponsored-tenderstemrbimirbroccolini-0",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Interview: First-Time Exhibitors at the RP Annual Exhibition 2026 29 Apr 2026 Three artists describe their individually crafted approach to...",
+        "url": "https://www.mallgalleries.org.uk/news/interview-first-time-exhibitors-rp-annual-exhibition-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Royal Society of Portrait Painters 2026 | In the Artist's Words 7 May 2026 Artists at the RP Annual Exhibition offer insights into their artworks",
+        "url": "https://www.mallgalleries.org.uk/news/royal-society-portrait-painters-2026-artists-words",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Royal Society of Portrait Painters Annual Exhibition 2026 | Award Winners 6 May 2026 Award winning artists at the RP Annual Exhibition 2026",
+        "url": "https://www.mallgalleries.org.uk/news/royal-society-portrait-painters-annual-exhibition-2026-award-winners",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Royal Society of Marine Artists Artists are invited to submit work for the RSMA Annual Exhibition",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Society of Wildlife Artists Artists are invited to submit work for The Natural Eye",
+        "url": "https://www.mallgalleries.org.uk/open-calls/society-wildlife-artists",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Skip to main content",
+        "url": "https://www.mallgalleries.org.uk/open-exhibitions#main-content",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Hire Mall Galleries is an iconic venue in Central London with three unique galleries available to hire.",
+        "url": "https://www.mallgalleries.org.uk/venue-hire/exhibition-hire",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "The Mall, London SW1",
+        "url": "https://www.google.com/maps/place/Mall+Galleries/@51.5066819,-0.1325739,17z/data=!3m1!5s0x487604d039d5bcfd:0x3aa456dd775f3a5b!4m14!1m7!3m6!1s0x487604d02553b3f5:0x125d286126732599!2sMall+Galleries!8m2!3d51.5066786!4d-0.129999!16s%2Fg%2F1s04g8dqr!3m5!1s0x487604d02553b3f5:0x125d286126732599!8m2!3d51.5066786!4d-0.129999!16s%2Fg%2F1s04g8dqr?entry=ttu",
+        "kind": "submission_candidate",
+        "same_domain": false
+      },
+      {
+        "label": "About Us",
+        "url": "https://www.mallgalleries.org.uk/about-us",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "EDI Policy",
+        "url": "https://www.mallgalleries.org.uk/about-us/edi-policy",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Working Here",
+        "url": "https://www.mallgalleries.org.uk/about-us/our-team/working-here",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Contact us",
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://www.mallgalleries.org.uk/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Art Consultancy",
+        "url": "https://www.mallgalleries.org.uk/art-consultancy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Become a Friend",
+        "url": "https://www.mallgalleries.org.uk/become-friend",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Cookies Policy",
+        "url": "https://www.mallgalleries.org.uk/cookies-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Data Protection Policy",
+        "url": "https://www.mallgalleries.org.uk/data-protection-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Explore Artists",
+        "url": "https://www.mallgalleries.org.uk/explore-artists",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Join and Support",
+        "url": "https://www.mallgalleries.org.uk/join-and-support",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "News",
+        "url": "https://www.mallgalleries.org.uk/news",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Interview: First-Time Exhibitors at the New English Art Club 140th Anniversary 20 May 2026 Meet three first-time exhibitors with the NEAC",
+        "url": "https://www.mallgalleries.org.uk/news/interview-first-time-exhibitors-new-english-art-club-140th-anniversary",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://www.mallgalleries.org.uk/privacy-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Terms and Conditions",
+        "url": "https://www.mallgalleries.org.uk/terms-and-conditions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Venue Hire",
+        "url": "https://www.mallgalleries.org.uk/venue-hire",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Event Hire The venue's size, unique physical features makes it ideal for hosting a wide range of events.",
+        "url": "https://www.mallgalleries.org.uk/venue-hire/event-hire",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Visit Us",
+        "url": "https://www.mallgalleries.org.uk/visit-us",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Access",
+        "url": "https://www.mallgalleries.org.uk/visit-us/access",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Admission",
+        "url": "https://www.mallgalleries.org.uk/visit-us/admission",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Buy Art",
+        "url": "https://buyart.mallgalleries.org.uk/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://instagram.com/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Find Out More",
+        "url": "https://live-mall-galleries.pantheonsite.io/art-consultancy",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Find Out More",
+        "url": "https://live-mall-galleries.pantheonsite.io/venue-hire",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "SIGN UP NOW",
+        "url": "https://mallgalleries.us6.list-manage.com/subscribe?u=a2de14de88e9e046de50e1662&id=4c7d067c41",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://twitter.com/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Un.titled",
+        "url": "https://un.titled.co.uk",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.facebook.com/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.youtube.com/user/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      }
+    ]
   },
   {
     "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
     "url": "https://www.printedmatter.org/programs/events/2250",
     "score": 9.6,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": 403,
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
     "date_candidates": [],
-    "relevant_links": []
+    "relevant_links": [
+      {
+        "label": "Exhibitions",
+        "url": "https://www.printedmatter.org/programs/1-exhibitions",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Submit a book",
+        "url": "https://www.printedmatter.org/services/submit-your-book",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "About",
+        "url": "https://www.printedmatter.org/about",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Contact us",
+        "url": "https://www.printedmatter.org/contact-us",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Press inquiries",
+        "url": "https://www.printedmatter.org/press-inquiries",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Printed Matter, Inc.",
+        "url": "https://www.printedmatter.org/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Catalog",
+        "url": "https://www.printedmatter.org/catalog",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "here",
+        "url": "https://www.printedmatter.org/catalog/67472/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Digital downloads",
+        "url": "https://www.printedmatter.org/catalog/digital-downloads",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Jobs & internships",
+        "url": "https://www.printedmatter.org/jobs-internships",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://www.printedmatter.org/locations",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Log in",
+        "url": "https://www.printedmatter.org/login",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Subscribe to email",
+        "url": "https://www.printedmatter.org/mailing-list",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Programs",
+        "url": "https://www.printedmatter.org/programs",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Events",
+        "url": "https://www.printedmatter.org/programs/2-events",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Window Installations",
+        "url": "https://www.printedmatter.org/programs/3-window-installations",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Art Book Fairs",
+        "url": "https://www.printedmatter.org/programs/4-art-book-fairs",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Offsite",
+        "url": "https://www.printedmatter.org/programs/5-offsite",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Announcements",
+        "url": "https://www.printedmatter.org/programs/6-announcements",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Online Programming",
+        "url": "https://www.printedmatter.org/programs/8-online-programming",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Critical Essays",
+        "url": "https://www.printedmatter.org/programs/critical-essays",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Curated Shelves",
+        "url": "https://www.printedmatter.org/programs/curated-shelves",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Your cart",
+        "url": "https://www.printedmatter.org/programs/events/2250#",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Details",
+        "url": "https://www.printedmatter.org/programs/events/2251",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Publishing",
+        "url": "https://www.printedmatter.org/programs/pm-publishing",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Services",
+        "url": "https://www.printedmatter.org/services",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "For libraries & institutions",
+        "url": "https://www.printedmatter.org/services/libraries-and-institutions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "For wholesalers",
+        "url": "https://www.printedmatter.org/services/wholesalers",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Support",
+        "url": "https://www.printedmatter.org/support",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Donate",
+        "url": "https://www.printedmatter.org/support/donate",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Instagram",
+        "url": "http://instagram.com/printedmatterinc/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "LA Art Book Fair",
+        "url": "http://laartbookfair.net/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "NY Art Book Fair",
+        "url": "http://nyartbookfair.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/printedmatter",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.printedmatter.org/programs/events/2250",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Fugitive Materials",
+        "url": "https://www.fugitivematerials.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/printedmatterinc/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Tweet",
+        "url": "https://www.twitter.com/home?status=https://www.printedmatter.org/programs/events/2250 @printedmatter",
+        "kind": "other",
+        "same_domain": false
+      }
+    ]
   },
   {
     "title": "HB Gallery",
@@ -1422,15 +2722,316 @@
     "url": "https://www.mallgalleries.org.uk/open-exhibitions",
     "score": 9.1,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": 404,
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
     "date_candidates": [],
-    "relevant_links": []
+    "relevant_links": [
+      {
+        "label": "Exhibitions & Events",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Art For Youth London 2026 4 Nov 2026 to 6 Nov 2026 Art for Youth London was established in 1988 by Diana Brooks MBE as a...",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/art-youth-london-2026-0",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition David Shepherd Wildlife Foundation | Wildlife Artist of the Year 2026 8 Sep 2026 to 12 Sep 2026 Internationally renowned wildlife art competition and exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/david-shepherd-wildlife-foundation-wildlife-artist-year-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "FBA Fundraiser | Support Us",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/fundraiser-fba-editions",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Home Sweet Home, Huaicun Zhang FRSA, Hon RBA 23 Jul 2026 to 15 Aug 2026 Transforming the galleries into an immersive, story-led environment...",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/home-sweet-home-huaicun-zhang-frsa-hon-rba",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition New English Art Club | 140th Anniversary 11 Jun 2026 to 20 Jun 2026 , 10am to 5pm An opportunity to see some of the best artists painting today",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/new-english-art-club-140th-anniversary",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Royal Society of Marine Artists | Annual Exhibition 2026 16 Sep 2026 to 26 Sep 2026 , 10am to 5pm A Celebration of Marine Art",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/royal-society-marine-artists-annual-exhibition-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Society of Wildlife Artists | The Natural Eye 2026 1 Oct 2026 to 10 Oct 2026 , 10am to 5pm Art inspired by the natural world",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/society-wildlife-artists-natural-eye-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition The Society of Women Artists | 165th Annual Open Exhibition 23 Jun 2026 to 27 Jun 2026 The Society of Women Artists returns for their 165th Annual Exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/society-women-artists-165th-annual-open-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition UAL Awarding Body Origins Creatives 2026 15 Jul 2026 to 18 Jul 2026 Platforming the next generation of creatives",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/ual-awarding-body-origins-creatives-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Upcoming Exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/world-food-photography-awards-sponsored-tenderstemrbimirbroccolini-0",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Interview: First-Time Exhibitors at the RP Annual Exhibition 2026 29 Apr 2026 Three artists describe their individually crafted approach to...",
+        "url": "https://www.mallgalleries.org.uk/news/interview-first-time-exhibitors-rp-annual-exhibition-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Royal Society of Portrait Painters 2026 | In the Artist's Words 7 May 2026 Artists at the RP Annual Exhibition offer insights into their artworks",
+        "url": "https://www.mallgalleries.org.uk/news/royal-society-portrait-painters-2026-artists-words",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Royal Society of Portrait Painters Annual Exhibition 2026 | Award Winners 6 May 2026 Award winning artists at the RP Annual Exhibition 2026",
+        "url": "https://www.mallgalleries.org.uk/news/royal-society-portrait-painters-annual-exhibition-2026-award-winners",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Royal Society of Marine Artists Artists are invited to submit work for the RSMA Annual Exhibition",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Society of Wildlife Artists Artists are invited to submit work for The Natural Eye",
+        "url": "https://www.mallgalleries.org.uk/open-calls/society-wildlife-artists",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Skip to main content",
+        "url": "https://www.mallgalleries.org.uk/open-exhibitions#main-content",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Hire Mall Galleries is an iconic venue in Central London with three unique galleries available to hire.",
+        "url": "https://www.mallgalleries.org.uk/venue-hire/exhibition-hire",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "The Mall, London SW1",
+        "url": "https://www.google.com/maps/place/Mall+Galleries/@51.5066819,-0.1325739,17z/data=!3m1!5s0x487604d039d5bcfd:0x3aa456dd775f3a5b!4m14!1m7!3m6!1s0x487604d02553b3f5:0x125d286126732599!2sMall+Galleries!8m2!3d51.5066786!4d-0.129999!16s%2Fg%2F1s04g8dqr!3m5!1s0x487604d02553b3f5:0x125d286126732599!8m2!3d51.5066786!4d-0.129999!16s%2Fg%2F1s04g8dqr?entry=ttu",
+        "kind": "submission_candidate",
+        "same_domain": false
+      },
+      {
+        "label": "About Us",
+        "url": "https://www.mallgalleries.org.uk/about-us",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "EDI Policy",
+        "url": "https://www.mallgalleries.org.uk/about-us/edi-policy",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Working Here",
+        "url": "https://www.mallgalleries.org.uk/about-us/our-team/working-here",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Contact us",
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://www.mallgalleries.org.uk/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Art Consultancy",
+        "url": "https://www.mallgalleries.org.uk/art-consultancy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Become a Friend",
+        "url": "https://www.mallgalleries.org.uk/become-friend",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Cookies Policy",
+        "url": "https://www.mallgalleries.org.uk/cookies-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Data Protection Policy",
+        "url": "https://www.mallgalleries.org.uk/data-protection-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Explore Artists",
+        "url": "https://www.mallgalleries.org.uk/explore-artists",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Join and Support",
+        "url": "https://www.mallgalleries.org.uk/join-and-support",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "News",
+        "url": "https://www.mallgalleries.org.uk/news",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Interview: First-Time Exhibitors at the New English Art Club 140th Anniversary 20 May 2026 Meet three first-time exhibitors with the NEAC",
+        "url": "https://www.mallgalleries.org.uk/news/interview-first-time-exhibitors-new-english-art-club-140th-anniversary",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://www.mallgalleries.org.uk/privacy-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Terms and Conditions",
+        "url": "https://www.mallgalleries.org.uk/terms-and-conditions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Venue Hire",
+        "url": "https://www.mallgalleries.org.uk/venue-hire",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Event Hire The venue's size, unique physical features makes it ideal for hosting a wide range of events.",
+        "url": "https://www.mallgalleries.org.uk/venue-hire/event-hire",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Visit Us",
+        "url": "https://www.mallgalleries.org.uk/visit-us",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Access",
+        "url": "https://www.mallgalleries.org.uk/visit-us/access",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Admission",
+        "url": "https://www.mallgalleries.org.uk/visit-us/admission",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Buy Art",
+        "url": "https://buyart.mallgalleries.org.uk/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://instagram.com/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Find Out More",
+        "url": "https://live-mall-galleries.pantheonsite.io/art-consultancy",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Find Out More",
+        "url": "https://live-mall-galleries.pantheonsite.io/venue-hire",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "SIGN UP NOW",
+        "url": "https://mallgalleries.us6.list-manage.com/subscribe?u=a2de14de88e9e046de50e1662&id=4c7d067c41",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://twitter.com/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Un.titled",
+        "url": "https://un.titled.co.uk",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.facebook.com/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.youtube.com/user/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      }
+    ]
   },
   {
     "title": "Society of Women Artists",
@@ -1662,15 +3263,316 @@
     "url": "https://www.mallgalleries.org.uk/open-exhibitions",
     "score": 9.1,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": 404,
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
     "date_candidates": [],
-    "relevant_links": []
+    "relevant_links": [
+      {
+        "label": "Exhibitions & Events",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Art For Youth London 2026 4 Nov 2026 to 6 Nov 2026 Art for Youth London was established in 1988 by Diana Brooks MBE as a...",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/art-youth-london-2026-0",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition David Shepherd Wildlife Foundation | Wildlife Artist of the Year 2026 8 Sep 2026 to 12 Sep 2026 Internationally renowned wildlife art competition and exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/david-shepherd-wildlife-foundation-wildlife-artist-year-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "FBA Fundraiser | Support Us",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/fundraiser-fba-editions",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Home Sweet Home, Huaicun Zhang FRSA, Hon RBA 23 Jul 2026 to 15 Aug 2026 Transforming the galleries into an immersive, story-led environment...",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/home-sweet-home-huaicun-zhang-frsa-hon-rba",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition New English Art Club | 140th Anniversary 11 Jun 2026 to 20 Jun 2026 , 10am to 5pm An opportunity to see some of the best artists painting today",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/new-english-art-club-140th-anniversary",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Royal Society of Marine Artists | Annual Exhibition 2026 16 Sep 2026 to 26 Sep 2026 , 10am to 5pm A Celebration of Marine Art",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/royal-society-marine-artists-annual-exhibition-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Society of Wildlife Artists | The Natural Eye 2026 1 Oct 2026 to 10 Oct 2026 , 10am to 5pm Art inspired by the natural world",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/society-wildlife-artists-natural-eye-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition The Society of Women Artists | 165th Annual Open Exhibition 23 Jun 2026 to 27 Jun 2026 The Society of Women Artists returns for their 165th Annual Exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/society-women-artists-165th-annual-open-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition UAL Awarding Body Origins Creatives 2026 15 Jul 2026 to 18 Jul 2026 Platforming the next generation of creatives",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/ual-awarding-body-origins-creatives-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Upcoming Exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/world-food-photography-awards-sponsored-tenderstemrbimirbroccolini-0",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Interview: First-Time Exhibitors at the RP Annual Exhibition 2026 29 Apr 2026 Three artists describe their individually crafted approach to...",
+        "url": "https://www.mallgalleries.org.uk/news/interview-first-time-exhibitors-rp-annual-exhibition-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Royal Society of Portrait Painters 2026 | In the Artist's Words 7 May 2026 Artists at the RP Annual Exhibition offer insights into their artworks",
+        "url": "https://www.mallgalleries.org.uk/news/royal-society-portrait-painters-2026-artists-words",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Royal Society of Portrait Painters Annual Exhibition 2026 | Award Winners 6 May 2026 Award winning artists at the RP Annual Exhibition 2026",
+        "url": "https://www.mallgalleries.org.uk/news/royal-society-portrait-painters-annual-exhibition-2026-award-winners",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Open Calls",
+        "url": "https://www.mallgalleries.org.uk/open-calls",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Royal Society of Marine Artists Artists are invited to submit work for the RSMA Annual Exhibition",
+        "url": "https://www.mallgalleries.org.uk/open-calls/royal-society-marine-artists",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Society of Wildlife Artists Artists are invited to submit work for The Natural Eye",
+        "url": "https://www.mallgalleries.org.uk/open-calls/society-wildlife-artists",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Skip to main content",
+        "url": "https://www.mallgalleries.org.uk/open-exhibitions#main-content",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Hire Mall Galleries is an iconic venue in Central London with three unique galleries available to hire.",
+        "url": "https://www.mallgalleries.org.uk/venue-hire/exhibition-hire",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "The Mall, London SW1",
+        "url": "https://www.google.com/maps/place/Mall+Galleries/@51.5066819,-0.1325739,17z/data=!3m1!5s0x487604d039d5bcfd:0x3aa456dd775f3a5b!4m14!1m7!3m6!1s0x487604d02553b3f5:0x125d286126732599!2sMall+Galleries!8m2!3d51.5066786!4d-0.129999!16s%2Fg%2F1s04g8dqr!3m5!1s0x487604d02553b3f5:0x125d286126732599!8m2!3d51.5066786!4d-0.129999!16s%2Fg%2F1s04g8dqr?entry=ttu",
+        "kind": "submission_candidate",
+        "same_domain": false
+      },
+      {
+        "label": "About Us",
+        "url": "https://www.mallgalleries.org.uk/about-us",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "EDI Policy",
+        "url": "https://www.mallgalleries.org.uk/about-us/edi-policy",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Working Here",
+        "url": "https://www.mallgalleries.org.uk/about-us/our-team/working-here",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Contact us",
+        "url": "https://www.mallgalleries.org.uk/contact-us",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://www.mallgalleries.org.uk/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Art Consultancy",
+        "url": "https://www.mallgalleries.org.uk/art-consultancy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Become a Friend",
+        "url": "https://www.mallgalleries.org.uk/become-friend",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Cookies Policy",
+        "url": "https://www.mallgalleries.org.uk/cookies-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Data Protection Policy",
+        "url": "https://www.mallgalleries.org.uk/data-protection-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Explore Artists",
+        "url": "https://www.mallgalleries.org.uk/explore-artists",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Join and Support",
+        "url": "https://www.mallgalleries.org.uk/join-and-support",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "News",
+        "url": "https://www.mallgalleries.org.uk/news",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Interview: First-Time Exhibitors at the New English Art Club 140th Anniversary 20 May 2026 Meet three first-time exhibitors with the NEAC",
+        "url": "https://www.mallgalleries.org.uk/news/interview-first-time-exhibitors-new-english-art-club-140th-anniversary",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://www.mallgalleries.org.uk/privacy-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Terms and Conditions",
+        "url": "https://www.mallgalleries.org.uk/terms-and-conditions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Venue Hire",
+        "url": "https://www.mallgalleries.org.uk/venue-hire",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Event Hire The venue's size, unique physical features makes it ideal for hosting a wide range of events.",
+        "url": "https://www.mallgalleries.org.uk/venue-hire/event-hire",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Visit Us",
+        "url": "https://www.mallgalleries.org.uk/visit-us",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Access",
+        "url": "https://www.mallgalleries.org.uk/visit-us/access",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Admission",
+        "url": "https://www.mallgalleries.org.uk/visit-us/admission",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Buy Art",
+        "url": "https://buyart.mallgalleries.org.uk/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://instagram.com/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Find Out More",
+        "url": "https://live-mall-galleries.pantheonsite.io/art-consultancy",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Find Out More",
+        "url": "https://live-mall-galleries.pantheonsite.io/venue-hire",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "SIGN UP NOW",
+        "url": "https://mallgalleries.us6.list-manage.com/subscribe?u=a2de14de88e9e046de50e1662&id=4c7d067c41",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://twitter.com/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Un.titled",
+        "url": "https://un.titled.co.uk",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.facebook.com/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.linkedin.com/company/mall-galleries-federation-of-british-artists/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.youtube.com/user/mallgalleries",
+        "kind": "other",
+        "same_domain": false
+      }
+    ]
   },
   {
     "title": "UTRECHT",
@@ -1791,7 +3693,7 @@
         "same_domain": true
       },
       {
-        "label": "Inside SINA: The Society for Indecency to Naked Animals ¥6,500",
+        "label": "Out of stock Inside SINA: The Society for Indecency to Naked Animals ¥6,500",
         "url": "https://utrecht.jp/collections/all/products/inside-sina-the-society-for-indecency-to-naked-animals",
         "kind": "other",
         "same_domain": true
@@ -2060,73 +3962,73 @@
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/107",
+        "url": "https://zine.mount.co.jp/111",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/109",
+        "url": "https://zine.mount.co.jp/113",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/116",
+        "url": "https://zine.mount.co.jp/12",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/132",
+        "url": "https://zine.mount.co.jp/120",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/17",
+        "url": "https://zine.mount.co.jp/122",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/23",
+        "url": "https://zine.mount.co.jp/131",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/49",
+        "url": "https://zine.mount.co.jp/138",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/52",
+        "url": "https://zine.mount.co.jp/139",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/64",
+        "url": "https://zine.mount.co.jp/141",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/79",
+        "url": "https://zine.mount.co.jp/36",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/88",
+        "url": "https://zine.mount.co.jp/53",
         "kind": "other",
         "same_domain": true
       },
       {
         "label": "",
-        "url": "https://zine.mount.co.jp/96",
+        "url": "https://zine.mount.co.jp/84",
         "kind": "other",
         "same_domain": true
       },
@@ -3057,29 +4959,1093 @@
     "url": "https://www.printedmatter.org/",
     "score": 9.0,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": 403,
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
     "date_candidates": [],
-    "relevant_links": []
+    "relevant_links": [
+      {
+        "label": "Submit Mail Art",
+        "url": "https://www.printedmatter.org/mail-art/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "See all exhibitions",
+        "url": "https://www.printedmatter.org/programs/1-exhibitions",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2250",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Archive Exhibition",
+        "url": "https://www.printedmatter.org/services/archive-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Submit a book",
+        "url": "https://www.printedmatter.org/services/submit-your-book",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Artist Opportunities",
+        "url": "https://www.printedmatter.org/services/the-bulletin/artist-opportunities",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "About",
+        "url": "https://www.printedmatter.org/about",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Contact us",
+        "url": "https://www.printedmatter.org/contact-us",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Press inquiries",
+        "url": "https://www.printedmatter.org/press-inquiries",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Learn More About Memberships",
+        "url": "https://www.printedmatter.org/support/membership",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Printed Matter, Inc.",
+        "url": "https://www.printedmatter.org/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Your cart",
+        "url": "https://www.printedmatter.org/#",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Chance",
+        "url": "https://www.printedmatter.org/#tabs-568-999-chance",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "PM Artist Editions",
+        "url": "https://www.printedmatter.org/#tabs-568-999-product-category",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Rare and special interest",
+        "url": "https://www.printedmatter.org/#tabs-568-999-rare_and_special_interest",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Recent arrivals",
+        "url": "https://www.printedmatter.org/#tabs-568-999-recent_arrivals",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Catalog",
+        "url": "https://www.printedmatter.org/catalog",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Barbara Kruger Plenty Ought To Be Enough [Tote Bag] PM Artist Editions $1,400.00",
+        "url": "https://www.printedmatter.org/catalog/20357",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Friend $60",
+        "url": "https://www.printedmatter.org/catalog/35259",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Supporter $250",
+        "url": "https://www.printedmatter.org/catalog/35261",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Advocate $500",
+        "url": "https://www.printedmatter.org/catalog/35262",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Book Circle $1000",
+        "url": "https://www.printedmatter.org/catalog/35263",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Benefactor $2000",
+        "url": "https://www.printedmatter.org/catalog/37898",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Contributor $100",
+        "url": "https://www.printedmatter.org/catalog/37899",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Institutional Member Institutional ($250)",
+        "url": "https://www.printedmatter.org/catalog/53287",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Takako Masuki Asian Lunchbox Books $39.50 Back In Stock",
+        "url": "https://www.printedmatter.org/catalog/55851",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Marley Freeman like a ruined sunrise (2024) PM Artist Editions $500.00",
+        "url": "https://www.printedmatter.org/catalog/67363",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Todd Hido #2424-a, #2479-a, #3878 [Full Set], 2024 PM Artist Editions $500.00",
+        "url": "https://www.printedmatter.org/catalog/67494",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Shannon Ebner RAINING, [Print] PM Artist Editions $600.00",
+        "url": "https://www.printedmatter.org/catalog/68271",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Shannon Ebner REINING. [Print] PM Artist Editions $600.00",
+        "url": "https://www.printedmatter.org/catalog/68272",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Shannon Ebner RAINING, REINING. [Two Print Set] PM Artist Editions $1,000.00",
+        "url": "https://www.printedmatter.org/catalog/68273",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Mario Ayala Arroyo Seco Towing, 2025 PM Artist Editions $500.00",
+        "url": "https://www.printedmatter.org/catalog/68341",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Paul Pfeiffer The Pure Products Go Crazy and Fragment of a Crucifixion (After Francis Bacon), 2025 PM Artist Editions $1,000.00",
+        "url": "https://www.printedmatter.org/catalog/68348",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Marley Freeman stripped of his thunderbolts and swans (2025) PM Artist Editions $500.00",
+        "url": "https://www.printedmatter.org/catalog/68383",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Richard Tuttle The 2nd Merlyn, 2025 PM Artist Editions $800.00",
+        "url": "https://www.printedmatter.org/catalog/69056",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Huma Bhabha Untitled (2025) PM Artist Editions $3,500.00",
+        "url": "https://www.printedmatter.org/catalog/69160",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "ASIAN FOOD DESIGN Asian Food Travel Vol. 2 Books $37.00 Back In Stock",
+        "url": "https://www.printedmatter.org/catalog/70678",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Deanna Templeton and Ed Templeton Sophia at a Crossroads, 2026 PM Artist Editions $250.00",
+        "url": "https://www.printedmatter.org/catalog/71015",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "DAP Chapbook Voice + Vision Books $15.00",
+        "url": "https://www.printedmatter.org/catalog/71117",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "RIKUKA Japan’s regression to modernity and China’s shortcut Books $30.00",
+        "url": "https://www.printedmatter.org/catalog/71118",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Ingo Giezendanner GRR104/105/106 Books $25.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71127",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Frédéric Acquaviva Musique Cabalistique Books $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71128",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Frédéric Acquaviva Musique Cabalistique [Set of 14 Posters] Posters $100.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71129",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Frédéric Acquaviva Exercice Spirituel Books $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71130",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Frédéric Acquaviva SEMINAL [CD in DVD digipack] Audio & Video $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71132",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Frédéric Acquaviva SEMINAL [CD in Record Sleeve] Audio & Video $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71133",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Margaux Bigou Passion Poisson Books $20.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71134",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Noor Shoresh Someone Cares for You Books $18.00 Recent Arrival Signed",
+        "url": "https://www.printedmatter.org/catalog/71135",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Kevin Hatt Chloë and Harmony ‘94 Books $15.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71136",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press Freak Out! Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71137",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press Gutenberg Never Did This Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71138",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Raquel Weinberg and Kimberly Jao Surface Tension Books $15.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71139",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press Why Can’t I Touch It? Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71140",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press The Medium is the Machine Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71141",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press Rip Off Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71142",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press I ♥ Tools Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71143",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lemonade Press ROE-ZEE Periodicals $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71144",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Yanan Recipes for June Ephemera $12.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71145",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Yanan Into the Islánd: Fragments of Documents [Second Edition] Books $20.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71146",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Yanan Into the Islánd: Interrogation and Poem [Second Edition] Books $20.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71147",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Yanan Everything Everywhere all in Fried Rice Books $30.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71148",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Featured at LAABF Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71149",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Kimberly Jao ISDA! Books $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71150",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Kimberly Jao and Mick Gaw The Manila File Books $26.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71151",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Kimberly Jao and Yong-Yu Huang Notes on Beachgrass Books $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71152",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Nynnmah The Language of Dying Things Books $10.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71154",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Daylon Orr Who is Sir Lady Java? Books $10.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71155",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Douglas Lucas Flux Us Books $8.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71157",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Douglas Lucas Invisible World Books $8.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71158",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Douglas Lucas Imaginary Mirrors Books $8.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71159",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "EMERGENC(Y): Afghan Lives Beyond the Forever War Books $20.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71160",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Olivia Spring, editor SICK Issue 7 Periodicals $18.00 Recent Arrival",
+        "url": "https://www.printedmatter.org/catalog/71161",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Browse Printed Matter Editions",
+        "url": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Digital downloads",
+        "url": "https://www.printedmatter.org/catalog/digital-downloads",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "See all events",
+        "url": "https://www.printedmatter.org/events",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Jobs & internships",
+        "url": "https://www.printedmatter.org/jobs-internships",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://www.printedmatter.org/locations",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Log in",
+        "url": "https://www.printedmatter.org/login",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Subscribe to email",
+        "url": "https://www.printedmatter.org/mailing-list",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Programs",
+        "url": "https://www.printedmatter.org/programs",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Window Present Tense Window installation by sgp April 30 - June 23, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2261",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Event Chelsea Welcome to the Other Side Launch of The Silver Moon, Issue No. 1 June 18, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2263",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Event The Axe Will Survive the Master Book signing with Matthew Connors June 13, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2266",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Event Chelsea Insider Trading Panel with Eli Rosenbloom, Nathalie Nguyen, Camille Okhio, and Nick Sethi June 24, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2267",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Services",
+        "url": "https://www.printedmatter.org/services",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Bibliographic Services",
+        "url": "https://www.printedmatter.org/services/bibliographic-services",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Distribution Services",
+        "url": "https://www.printedmatter.org/services/distribution-services",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Education Services",
+        "url": "https://www.printedmatter.org/services/education-services",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "For Libraries & Institutions",
+        "url": "https://www.printedmatter.org/services/libraries-and-institutions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "The Bulletin",
+        "url": "https://www.printedmatter.org/services/the-bulletin",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Bookstores",
+        "url": "https://www.printedmatter.org/services/the-bulletin/all-bookstores",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Audio & Video Resources",
+        "url": "https://www.printedmatter.org/services/the-bulletin/audio-video-resources",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Book & Zine Fairs",
+        "url": "https://www.printedmatter.org/services/the-bulletin/book-and-zine-fairs",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Printing & Binding Glossary",
+        "url": "https://www.printedmatter.org/services/the-bulletin/glossary",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Other Useful Links",
+        "url": "https://www.printedmatter.org/services/the-bulletin/other-useful-links",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Printing & Binding Resources",
+        "url": "https://www.printedmatter.org/services/the-bulletin/printing-and-binding",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "For Wholesalers",
+        "url": "https://www.printedmatter.org/services/wholesalers",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Support",
+        "url": "https://www.printedmatter.org/support",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Donate",
+        "url": "https://www.printedmatter.org/support/donate",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Buy a gift certificate",
+        "url": "https://www.printedmatter.org/support/gift-certificates",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Join our book circle",
+        "url": "https://www.printedmatter.org/support/membership/book-circle",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Instagram",
+        "url": "http://instagram.com/printedmatterinc/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "LA Art Book Fair",
+        "url": "http://laartbookfair.net/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "NY Art Book Fair",
+        "url": "http://nyartbookfair.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/printedmatter",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/printedmatterinc/",
+        "kind": "other",
+        "same_domain": false
+      }
+    ]
   },
   {
     "title": "Browse Printed Matter Editions",
     "url": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions",
     "score": 9.0,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": 403,
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
     "date_candidates": [],
-    "relevant_links": []
+    "relevant_links": [
+      {
+        "label": "Submit a book",
+        "url": "https://www.printedmatter.org/services/submit-your-book",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "About",
+        "url": "https://www.printedmatter.org/about",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Contact us",
+        "url": "https://www.printedmatter.org/contact-us",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Press inquiries",
+        "url": "https://www.printedmatter.org/press-inquiries",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Printed Matter, Inc.",
+        "url": "https://www.printedmatter.org/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Catalog",
+        "url": "https://www.printedmatter.org/catalog",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Barbara Kruger Plenty Ought To Be Enough [Tote Bag] PM Artist Editions $1,400.00",
+        "url": "https://www.printedmatter.org/catalog/20357",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Max Schumann WE WILL ATTACK PM Artist Editions $500.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/62565",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Elizabeth Peyton Elio, Oliver (Call me by Your Name) PM Artist Editions $1,500.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/62662",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Alvaro Barrington Sky’s the limit going back back to LALA PM Artist Editions $1,000.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/62763",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Yusuf Hassan Ebonics 2023 - work in progress PM Artist Editions $250.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/62815",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Nina Hartmann Triangle Logick (Print Edition) PM Artist Editions $40.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/62816",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Eddie Perrote Guided by Starfire PM Artist Editions $30.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/62817",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Alake Shilling Spotty Dotty Dog House PM Artist Editions $400.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/63006",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Sonya Sombreuil STAR BABIES Tote Bag PM Artist Editions $65.00",
+        "url": "https://www.printedmatter.org/catalog/63042",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Marley Freeman no life be hostage of my comfort (2024) PM Artist Editions $500.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/65134",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Carla Williams Untitled (knots undone) / (braids) #6, 1990-1991 / 2024 PM Artist Editions $250.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/65345",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Raque Ford the last person I want to speak to., 2024 [Red/Yellow] PM Artist Editions $100.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/65346",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Raque Ford the last person I want to speak to., 2024 [Purple/Burgundy] PM Artist Editions $100.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/65347",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Trevor Shimizu Olaf, 2024 PM Artist Editions $500.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/65348",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Tamar Ettun The Demon of Growing Pains (2024) PM Artist Editions $111.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/65349",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Gabriel Abascal After Everything, I Must Confess, I Need You PM Artist Editions $40.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/65912",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Iman Raad The World Is Ugly and The People Are Sad PM Artist Editions $300.00",
+        "url": "https://www.printedmatter.org/catalog/65913",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Todd Hido #2479-a, from the series House Hunting, 1999 PM Artist Editions $300.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/66701",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Todd Hido #3878, 2005 (from the series Between the Two) PM Artist Editions $100.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/67054",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Marley Freeman like a ruined sunrise (2024) PM Artist Editions $500.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/67363",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Todd Hido #2424-a, #2479-a, #3878 [Full Set], 2024 PM Artist Editions $500.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/67494",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Shannon Ebner RAINING, [Print] PM Artist Editions $600.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/68271",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Shannon Ebner REINING. [Print] PM Artist Editions $600.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/68272",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Shannon Ebner RAINING, REINING. [Two Print Set] PM Artist Editions $1,000.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/68273",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Mario Ayala Arroyo Seco Towing, 2025 PM Artist Editions $500.00 Featured at LAABF Signed",
+        "url": "https://www.printedmatter.org/catalog/68341",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Paul Pfeiffer The Pure Products Go Crazy and Fragment of a Crucifixion (After Francis Bacon), 2025 PM Artist Editions $1,000.00",
+        "url": "https://www.printedmatter.org/catalog/68348",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Marley Freeman stripped of his thunderbolts and swans (2025) PM Artist Editions $500.00 Signed",
+        "url": "https://www.printedmatter.org/catalog/68383",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Richard Tuttle The 2nd Merlyn, 2025 PM Artist Editions $800.00",
+        "url": "https://www.printedmatter.org/catalog/69056",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Huma Bhabha Untitled (2025) PM Artist Editions $3,500.00",
+        "url": "https://www.printedmatter.org/catalog/69160",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Deanna Templeton and Ed Templeton Sophia at a Crossroads, 2026 PM Artist Editions $250.00 Featured at LAABF Only at Printed Matter Signed",
+        "url": "https://www.printedmatter.org/catalog/71015",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "By Artist",
+        "url": "https://www.printedmatter.org/catalog/artists",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Best Sellers",
+        "url": "https://www.printedmatter.org/catalog/bestsellers",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Books",
+        "url": "https://www.printedmatter.org/catalog/category/1-books",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Out of Print",
+        "url": "https://www.printedmatter.org/catalog/category/11-out-of-print",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "PM Publications",
+        "url": "https://www.printedmatter.org/catalog/category/14-pm-publications",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "PM Artist Editions",
+        "url": "https://www.printedmatter.org/catalog/category/15-pm-artist-editions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Your cart",
+        "url": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions#",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Next Page",
+        "url": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions?page=2&sort_order=desc",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "PM Ticket Editions",
+        "url": "https://www.printedmatter.org/catalog/category/16-pm-ticket-editions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Periodicals",
+        "url": "https://www.printedmatter.org/catalog/category/2-periodicals",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Editions",
+        "url": "https://www.printedmatter.org/catalog/category/3-editions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Audio & Video",
+        "url": "https://www.printedmatter.org/catalog/category/4-audio-video",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Posters",
+        "url": "https://www.printedmatter.org/catalog/category/5-posters",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Postcards",
+        "url": "https://www.printedmatter.org/catalog/category/6-postcards",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Ephemera",
+        "url": "https://www.printedmatter.org/catalog/category/7-ephemera",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Buttons",
+        "url": "https://www.printedmatter.org/catalog/category/8-buttons",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Apparel",
+        "url": "https://www.printedmatter.org/catalog/category/9-apparel",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Digital downloads",
+        "url": "https://www.printedmatter.org/catalog/digital-downloads",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "By Publisher",
+        "url": "https://www.printedmatter.org/catalog/publishers",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Tables",
+        "url": "https://www.printedmatter.org/catalog/tables",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Jobs & internships",
+        "url": "https://www.printedmatter.org/jobs-internships",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://www.printedmatter.org/locations",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Log in",
+        "url": "https://www.printedmatter.org/login",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Subscribe to email",
+        "url": "https://www.printedmatter.org/mailing-list",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Programs",
+        "url": "https://www.printedmatter.org/programs",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Services",
+        "url": "https://www.printedmatter.org/services",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "For libraries & institutions",
+        "url": "https://www.printedmatter.org/services/libraries-and-institutions",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "For wholesalers",
+        "url": "https://www.printedmatter.org/services/wholesalers",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Support",
+        "url": "https://www.printedmatter.org/support",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Donate",
+        "url": "https://www.printedmatter.org/support/donate",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Instagram",
+        "url": "http://instagram.com/printedmatterinc/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "LA Art Book Fair",
+        "url": "http://laartbookfair.net/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "NY Art Book Fair",
+        "url": "http://nyartbookfair.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/printedmatter",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/printedmatterinc/",
+        "kind": "other",
+        "same_domain": false
+      }
+    ]
   }
 ]

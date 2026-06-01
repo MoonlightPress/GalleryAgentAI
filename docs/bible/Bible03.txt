@@ -1,0 +1,383 @@
+# MOCHI BIBLE
+
+## Volume III — The Artist Model
+
+### Why the Artist Model Exists
+
+Most recommendation systems begin with opportunities.
+
+Mochi eventually concluded that this is backwards.
+
+The quality of a recommendation depends less on understanding the opportunity and more on understanding the artist.
+
+A weak understanding of the opportunity can sometimes be corrected.
+
+A weak understanding of the artist poisons the entire pipeline.
+
+This realization led to the Artist Model becoming one of the foundational components of the project.
+
+The project gradually adopted the principle:
+
+The artist is the primary source of truth.
+
+Not the opportunity.
+
+Not the gallery.
+
+Not the competition.
+
+The artist.
+
+---
+
+### The Difference Between Medium and Identity
+
+One of the earliest mistakes was treating artistic medium as identity.
+
+For example:
+
+```text
+Watercolor
+```
+
+is not an identity.
+
+Thousands of artists work in watercolor.
+
+Their careers may have almost nothing in common.
+
+Similarly:
+
+```text
+Oil Painter
+Photographer
+Illustrator
+```
+
+describe tools.
+
+Not people.
+
+The project gradually learned to separate:
+
+Medium
+
+from
+
+Identity.
+
+This became one of the most important conceptual shifts in the system.
+
+---
+
+### The Original Test Artist
+
+The original test case was a watercolor painter.
+
+However, the important characteristics were not:
+
+```text
+Watercolor
+```
+
+The important characteristics were:
+
+```text
+Urban environments
+Architecture
+Memory
+Atmosphere
+Absence
+Observation
+Quiet emotion
+```
+
+Those characteristics repeatedly appeared throughout the work.
+
+They formed a recognizable visual personality.
+
+The project became increasingly interested in identifying these deeper patterns.
+
+---
+
+### Atmosphere As Data
+
+One unusual aspect of the project is that it attempts to model atmosphere.
+
+Most recommendation systems focus on measurable facts:
+
+* medium
+* dimensions
+* subject matter
+* geography
+
+Mochi attempts to model something more abstract.
+
+Examples:
+
+```text
+Loneliness
+Stillness
+Memory
+Distance
+Quietness
+Presence
+Absence
+```
+
+These are difficult concepts.
+
+Yet they strongly influence artistic fit.
+
+Two opportunities may appear identical on paper.
+
+One may resonate deeply with an artist.
+
+The other may feel entirely wrong.
+
+Atmosphere often explains that difference.
+
+---
+
+### Architecture
+
+Architecture became an unexpectedly important signal.
+
+The original artist repeatedly engaged with:
+
+* buildings
+* streets
+* urban geometry
+* constructed spaces
+
+The project gradually recognized architecture as more than subject matter.
+
+Architecture functioned as emotional context.
+
+Buildings became memory containers.
+
+Streets became narratives.
+
+Spaces became emotional objects.
+
+This realization influenced later recommendation strategies.
+
+---
+
+### Memory
+
+Memory emerged as one of the strongest recurring themes.
+
+The project eventually treated memory as a first-class signal.
+
+Examples:
+
+* nostalgia
+* traces of human presence
+* vanished people
+* emotional residue
+* remembered places
+
+Many opportunities initially appeared unrelated until viewed through this lens.
+
+The memory signal often produced better matches than medium alone.
+
+---
+
+### Absence
+
+Absence became another recurring theme.
+
+Many images communicated through what was missing rather than what was present.
+
+Empty streets.
+
+Quiet spaces.
+
+Signs of life without visible people.
+
+The project eventually recognized absence as a meaningful artistic characteristic.
+
+This is not something traditional recommendation systems model.
+
+It became part of the DNA approach.
+
+---
+
+### The Problem With Categories
+
+Traditional art systems rely heavily on categories.
+
+Examples:
+
+```text
+Landscape
+Portrait
+Urban
+Watercolor
+Contemporary
+```
+
+These categories are useful.
+
+They are also crude.
+
+The project repeatedly encountered situations where:
+
+Two artists shared categories.
+
+Yet had almost nothing in common.
+
+Or:
+
+Two artists appeared unrelated.
+
+Yet clearly belonged in the same artistic conversation.
+
+This observation pushed the system toward deeper aesthetic modeling.
+
+---
+
+### Artist DNA
+
+Artist DNA became the project's attempt to represent artistic identity.
+
+The goal was not perfect classification.
+
+The goal was useful approximation.
+
+The system attempted to answer:
+
+```text
+What kind of artist is this?
+```
+
+rather than:
+
+```text
+What medium do they use?
+```
+
+Outputs included:
+
+* medium
+* themes
+* recurring motifs
+* visual tendencies
+* emotional tendencies
+* aesthetic affinities
+
+This became one of the strongest subsystems in Mochi.
+
+---
+
+### Visual Similarity Is Dangerous
+
+The project learned that visual similarity alone can be misleading.
+
+This lesson emerged directly from the photography problem.
+
+Example:
+
+A watercolor painting of an empty urban street may resemble a photograph.
+
+Visually:
+
+They share:
+
+* composition
+* atmosphere
+* subject matter
+
+Professionally:
+
+They belong to different worlds.
+
+Different publications.
+
+Different galleries.
+
+Different competitions.
+
+Different communities.
+
+This became one of the central lessons of the project.
+
+Similarity is not identity.
+
+---
+
+### Professional Identity
+
+Eventually the project became interested in a different question.
+
+Not:
+
+```text
+What does this artist make?
+```
+
+But:
+
+```text
+Where does this artist belong?
+```
+
+This introduced professional identity.
+
+Examples:
+
+* gallery ecosystems
+* publication ecosystems
+* residency ecosystems
+* collector ecosystems
+
+The same artwork may exist inside multiple professional worlds.
+
+Understanding those worlds became increasingly important.
+
+---
+
+### The Artist As A Dynamic System
+
+The project does not assume artists remain static.
+
+An artist evolves.
+
+Themes evolve.
+
+Mediums evolve.
+
+Goals evolve.
+
+Communities evolve.
+
+The artist model must therefore be revisable.
+
+The goal is not to freeze identity.
+
+The goal is to understand identity well enough to provide useful guidance.
+
+---
+
+### Long-Term Goal
+
+The ultimate purpose of the Artist Model is not classification.
+
+It is recommendation quality.
+
+Every component should support a larger question:
+
+```text
+What opportunities genuinely fit this artist?
+```
+
+And eventually:
+
+```text
+What should this artist do next?
+```
+
+The Artist Model exists to make that answer more accurate.
+
+## End of Volume III

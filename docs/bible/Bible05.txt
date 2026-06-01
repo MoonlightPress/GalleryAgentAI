@@ -1,0 +1,480 @@
+# MOCHI BIBLE
+
+## Volume V — Lessons Learned, Failed Ideas, and Hard-Won Truths
+
+### Introduction
+
+This volume may be the most important document in the entire project.
+
+Most systems preserve successes.
+
+Very few preserve failures.
+
+Mochi was shaped more by failures than successes.
+
+Many of the strongest architectural components exist because earlier assumptions proved wrong.
+
+Future developers and future AI systems should study this section carefully.
+
+The purpose of this volume is not historical completeness.
+
+The purpose is preventing the repetition of expensive mistakes.
+
+---
+
+# Lesson 1
+
+## More Opportunities Does Not Create More Value
+
+This was one of the earliest discoveries.
+
+The project initially assumed:
+
+```text
+More opportunities = better recommendations
+```
+
+This turned out to be false.
+
+Artists are already overwhelmed.
+
+Adding more opportunities often increased cognitive burden.
+
+The system eventually learned:
+
+```text
+100 mediocre opportunities
+```
+
+is often less useful than:
+
+```text
+3 excellent opportunities
+```
+
+Future development should optimize for usefulness rather than volume.
+
+---
+
+# Lesson 2
+
+## Discovery Is Easy
+
+Finding opportunities turned out to be easier than expected.
+
+The internet contains enormous quantities of information.
+
+The difficult problem is not collection.
+
+The difficult problem is evaluation.
+
+The difficult problem is prioritization.
+
+The difficult problem is determining:
+
+```text
+What matters?
+```
+
+Future development should focus on judgment rather than collection.
+
+---
+
+# Lesson 3
+
+## Artists Do Not Need More Information
+
+This became one of the defining observations of the project.
+
+The original assumption:
+
+```text
+Artists lack information.
+```
+
+Reality:
+
+```text
+Artists drown in information.
+```
+
+The bottleneck is not awareness.
+
+The bottleneck is decision-making.
+
+Mochi gradually evolved from an information system into a decision-support system.
+
+This distinction should never be forgotten.
+
+---
+
+# Lesson 4
+
+## The Photography Disaster
+
+This failure shaped almost everything.
+
+The original artist was a watercolor painter.
+
+Yet recommendations repeatedly drifted toward:
+
+* photography contests
+* photography magazines
+* photobooks
+* photography galleries
+
+The machine was not entirely wrong.
+
+The visual themes genuinely overlapped.
+
+The machine confused:
+
+```text
+Aesthetic similarity
+```
+
+with:
+
+```text
+Professional similarity
+```
+
+This mistake created:
+
+* Watercolor Layer
+* Source Purity Layer
+* Truth Alignment Layer
+
+One failure generated multiple major systems.
+
+Future development should remain suspicious of visual similarity alone.
+
+---
+
+# Lesson 5
+
+## Medium Matters More Than Expected
+
+Early versions treated medium as secondary.
+
+This proved incorrect.
+
+The difference between:
+
+```text
+Watercolor
+Photography
+Illustration
+Oil Painting
+```
+
+is not merely technical.
+
+Each medium exists inside different ecosystems.
+
+Different publications.
+
+Different galleries.
+
+Different opportunities.
+
+Different communities.
+
+Future systems should respect medium.
+
+---
+
+# Lesson 6
+
+## Atmosphere Matters More Than Expected
+
+One surprising discovery was that atmosphere often predicted fit better than category.
+
+Examples:
+
+```text
+Memory
+Distance
+Stillness
+Absence
+Observation
+```
+
+These concepts repeatedly appeared in successful recommendations.
+
+Traditional systems often ignore atmosphere.
+
+Mochi should continue treating atmosphere as meaningful.
+
+---
+
+# Lesson 7
+
+## Reports Multiply Faster Than Insight
+
+This became a recurring problem.
+
+Every new idea generated:
+
+* reports
+* summaries
+* dashboards
+* rankings
+
+The quantity of reports grew rapidly.
+
+Understanding did not.
+
+Future development should resist creating reports unless they genuinely increase clarity.
+
+A new report should solve a problem.
+
+Not merely display data.
+
+---
+
+# Lesson 8
+
+## Score Inflation Is Dangerous
+
+The project repeatedly observed score inflation.
+
+Everything became highly ranked.
+
+Everything appeared promising.
+
+Everything looked important.
+
+Reality disagreed.
+
+Future systems should remain skeptical of scoring systems.
+
+Evidence should always outweigh confidence.
+
+---
+
+# Lesson 9
+
+## Verification Is More Important Than Ranking
+
+This may be the single most important lesson.
+
+A perfectly ranked opportunity is useless if:
+
+* submissions are closed
+* deadlines have passed
+* contact information is unavailable
+* the organization is inactive
+
+Verification became increasingly central.
+
+Future development should prioritize:
+
+```text
+Reality
+```
+
+over:
+
+```text
+Prediction
+```
+
+---
+
+# Lesson 10
+
+## Information About Opportunities Is Not Opportunity
+
+This lesson produced Source Purity.
+
+Examples:
+
+Not opportunities:
+
+* archives
+* catalogs
+* product listings
+* social media pages
+
+Potential opportunities:
+
+* open calls
+* contests
+* residencies
+* gallery submissions
+
+The distinction seems obvious.
+
+The machine repeatedly failed to make it.
+
+Future systems must maintain this separation.
+
+---
+
+# Lesson 11
+
+## Actionability Is The Real Product
+
+The project began as discovery.
+
+It evolved toward actionability.
+
+The real question became:
+
+```text
+What should the artist do next?
+```
+
+Every future feature should be evaluated against this question.
+
+If a feature does not improve actionability, it should be viewed skeptically.
+
+---
+
+# Lesson 12
+
+## Emotional Burden Is Real
+
+This lesson emerged from working with a real artist rather than a hypothetical one.
+
+Artists do not merely process information.
+
+They experience:
+
+* uncertainty
+* rejection
+* overwhelm
+* self-doubt
+* fatigue
+
+Many systems ignore these realities.
+
+Mochi should not.
+
+Reducing emotional burden is a legitimate design objective.
+
+---
+
+# Lesson 13
+
+## Relationship Management Matters
+
+Careers are built through relationships.
+
+Not only through opportunities.
+
+Future systems should remember:
+
+* who was contacted
+* when
+* what happened
+* when to follow up
+
+This is one reason the CRM concept became important.
+
+---
+
+# Lesson 14
+
+## Context Eventually Becomes The Bottleneck
+
+This lesson emerged late.
+
+Initially:
+
+The bottleneck was discovery.
+
+Later:
+
+The bottleneck was ranking.
+
+Later:
+
+The bottleneck was verification.
+
+Eventually:
+
+The bottleneck became understanding.
+
+The repository accumulated history.
+
+The creator understood the history.
+
+The code did not explain itself.
+
+This realization directly motivated documentation and migration efforts.
+
+---
+
+# Failed Idea: More Rankings
+
+Several times the project responded to weak recommendations by adding additional ranking systems.
+
+Sometimes this helped.
+
+Sometimes it merely increased complexity.
+
+Future development should be cautious about introducing new ranking layers.
+
+Often the underlying problem is data quality rather than scoring.
+
+---
+
+# Failed Idea: Report-Driven Development
+
+There were periods where progress was measured through report generation.
+
+This created activity.
+
+Not necessarily value.
+
+Future development should prioritize capabilities rather than reports.
+
+---
+
+# Failed Idea: Generic Artist Models
+
+The project repeatedly discovered that generic artist descriptions produced weak recommendations.
+
+Specificity produced better results.
+
+The artist model should remain detailed.
+
+---
+
+# Hard Truth
+
+The project is not trying to answer:
+
+```text
+What exists?
+```
+
+The project is trying to answer:
+
+```text
+What matters?
+```
+
+This distinction should guide future development.
+
+---
+
+# Final Lesson
+
+The system should never lose sight of why it exists.
+
+The original motivation was helping a real artist navigate a difficult profession.
+
+That motivation produced many of the project's best ideas.
+
+Future versions may serve many artists.
+
+The original purpose should remain visible.
+
+The goal is not software.
+
+The goal is helping artists make better decisions.
+
+## End of Volume V

@@ -1,0 +1,507 @@
+# MOCHI BIBLE
+
+## Volume VII — Current State, Technical Debt, and the Claude Migration
+
+### Introduction
+
+This volume describes the state of the project at the time of migration.
+
+It should be treated as a snapshot rather than a permanent truth.
+
+The project is evolving rapidly.
+
+Many observations in this document may become outdated.
+
+The purpose is to preserve understanding during a transition period.
+
+---
+
+# The Current State Of Mochi
+
+At the time of writing, Mochi exists in an unusual state.
+
+The project is simultaneously:
+
+* functional
+* useful
+* incomplete
+* unstable
+
+This is not a contradiction.
+
+Several core systems are working.
+
+Several critical systems remain unfinished.
+
+The project is beyond prototype status.
+
+It is not yet production-ready.
+
+A useful mental model is:
+
+```text
+The foundation exists.
+The structure exists.
+Many rooms remain unfinished.
+```
+
+---
+
+# What Is Working
+
+The strongest systems currently include:
+
+### Opportunity Discovery
+
+The system can find opportunities.
+
+This was once a major challenge.
+
+It is no longer the primary bottleneck.
+
+---
+
+### Artist DNA
+
+The system can analyze artwork.
+
+It can identify:
+
+* themes
+* medium
+* tendencies
+* visual identity
+
+This remains one of the strongest architectural components.
+
+---
+
+### Painting Alignment
+
+The system has learned to distinguish painters from photographers.
+
+This required significant effort.
+
+The resulting recommendations are substantially better than earlier generations.
+
+---
+
+### Source Purity
+
+The system is increasingly capable of distinguishing:
+
+```text
+Opportunity
+```
+
+from:
+
+```text
+Information about opportunity
+```
+
+This dramatically improved quality.
+
+---
+
+### Truth Alignment
+
+The project now contains mechanisms that reward evidence over speculation.
+
+This remains one of the most important philosophical improvements.
+
+---
+
+# What Is Partially Working
+
+### Verification
+
+Verification exists.
+
+Verification does not yet dominate the system.
+
+Current capabilities include:
+
+* website validation
+* contact extraction
+* homepage verification
+
+Current limitations include:
+
+* submission discovery
+* deadline extraction
+* application requirement extraction
+
+Verification is one of the highest-priority future investments.
+
+---
+
+### Recommendation Quality
+
+Recommendations are significantly better than earlier versions.
+
+However:
+
+False positives still exist.
+
+Noise still exists.
+
+The system remains imperfect.
+
+---
+
+# What Barely Exists
+
+### CRM
+
+Relationship tracking remains largely conceptual.
+
+Future goals include:
+
+* organization history
+* contact history
+* follow-up scheduling
+* response tracking
+
+The need is understood.
+
+Implementation remains limited.
+
+---
+
+### Career Planning
+
+The system can identify opportunities.
+
+It cannot yet reliably construct career strategy.
+
+This remains one of the largest opportunities for future growth.
+
+---
+
+### Action Planning
+
+The system still struggles to answer:
+
+```text
+What should this artist do today?
+```
+
+This is one of the central unsolved problems.
+
+---
+
+# The Technical Debt Story
+
+Technical debt did not emerge because of negligence.
+
+It emerged because of speed.
+
+The project developed rapidly.
+
+Each problem was solved as it appeared.
+
+Each solution was reasonable.
+
+The cumulative result was complexity.
+
+---
+
+# Patch Accumulation
+
+Many files exist because they solved a real problem.
+
+Examples include:
+
+* temporary scripts
+* migration scripts
+* ranking patches
+* verification patches
+* report generators
+
+Individually:
+
+Reasonable.
+
+Collectively:
+
+Difficult to understand.
+
+---
+
+# Runner Proliferation
+
+One recurring issue involved runners.
+
+Examples:
+
+```text
+run_x.py
+run_y.py
+run_z.py
+```
+
+Each runner emerged for a specific purpose.
+
+Over time:
+
+The number of runners increased.
+
+The relationship between runners became less obvious.
+
+Future auditing should identify:
+
+* active runners
+* obsolete runners
+* duplicate runners
+
+---
+
+# Report Explosion
+
+This became one of the defining characteristics of the project.
+
+Every subsystem generated reports.
+
+Examples:
+
+* ranking reports
+* DNA reports
+* verification reports
+* recommendation reports
+* debug reports
+
+The project became increasingly capable of generating information.
+
+It became less capable of explaining which information mattered.
+
+Future consolidation is strongly recommended.
+
+---
+
+# Folder Reorganization
+
+At one stage the project underwent major reorganization.
+
+Files moved.
+
+Directories changed.
+
+References broke.
+
+Some scripts continued functioning.
+
+Others did not.
+
+The project survived.
+
+However:
+
+Residual confusion remains.
+
+Future audits should identify:
+
+* broken paths
+* outdated references
+* duplicate implementations
+
+---
+
+# The Context Crisis
+
+This may be the most important section in the entire document.
+
+Eventually the primary bottleneck stopped being technical.
+
+The primary bottleneck became understanding.
+
+The creator understood:
+
+* why systems existed
+* why patches existed
+* why reports existed
+* why architectural decisions were made
+
+The repository did not.
+
+This produced a dangerous situation.
+
+The project could function.
+
+Yet future developers might unknowingly remove important systems or repeat solved mistakes.
+
+The Context Crisis directly motivated documentation efforts.
+
+---
+
+# Why Claude Is Being Introduced
+
+The migration to Claude is not primarily about model quality.
+
+The migration is about context preservation.
+
+The project has accumulated:
+
+* architecture
+* history
+* lessons
+* failures
+* philosophy
+
+A large portion of that knowledge exists outside the repository.
+
+Claude is being introduced to help absorb and preserve institutional memory.
+
+The objective is not merely:
+
+```text
+Better coding
+```
+
+The objective is:
+
+```text
+Better understanding
+```
+
+---
+
+# What Claude Must Understand
+
+Before modifying code, Claude should understand:
+
+### Why Artist DNA Exists
+
+Because generic artist models produced weak recommendations.
+
+---
+
+### Why Watercolor Corrections Exist
+
+Because photography overwhelmed painting.
+
+---
+
+### Why Source Purity Exists
+
+Because information about opportunities repeatedly masqueraded as opportunities.
+
+---
+
+### Why Truth Alignment Exists
+
+Because ranking confidence drifted away from reality.
+
+---
+
+### Why Verification Exists
+
+Because useful opportunities must be actionable.
+
+---
+
+### Why The Human Story Matters
+
+Because the project was shaped by helping a real artist rather than a hypothetical user.
+
+---
+
+# What Claude Should Do First
+
+Before adding features:
+
+### Step 1
+
+Understand the project.
+
+---
+
+### Step 2
+
+Map the architecture.
+
+---
+
+### Step 3
+
+Identify active systems.
+
+---
+
+### Step 4
+
+Identify obsolete systems.
+
+---
+
+### Step 5
+
+Identify duplicate systems.
+
+---
+
+### Step 6
+
+Produce an audit report.
+
+---
+
+# What Claude Should Not Do First
+
+Do not immediately:
+
+* add features
+* add reports
+* add scoring systems
+* add ranking layers
+
+The project already contains significant complexity.
+
+Understanding should precede expansion.
+
+---
+
+# Honest Assessment
+
+Approximate maturity:
+
+```text
+Discovery            80%
+Artist DNA           80%
+Painting Fit         75%
+Source Purity        70%
+Truth Alignment      70%
+Verification         30%
+Career Planning      20%
+CRM                   5%
+```
+
+Overall:
+
+```text
+55-65% complete
+```
+
+The project is no longer a toy.
+
+It is not yet a finished system.
+
+The next stage is consolidation.
+
+Not expansion.
+
+---
+
+# Migration Goal
+
+The purpose of the migration is simple.
+
+Preserve understanding.
+
+Stabilize architecture.
+
+Continue development without losing the lessons already paid for.
+
+That is the objective of this document.
+
+## End of Volume VII

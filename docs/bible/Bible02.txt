@@ -1,0 +1,450 @@
+# MOCHI BIBLE
+
+## Volume II — Development History
+
+### The Discovery Era
+
+The first version of Mochi was fundamentally a discovery engine.
+
+The assumption was simple:
+
+If artists knew about more opportunities, they would have better careers.
+
+The earliest work focused on collecting information.
+
+The system searched for:
+
+* galleries
+* contests
+* open calls
+* publications
+* residencies
+* book fairs
+* artist organizations
+
+The initial goal was scale.
+
+More sources.
+
+More opportunities.
+
+More recommendations.
+
+The system succeeded at this.
+
+It became increasingly capable of finding opportunities.
+
+Unfortunately, usefulness did not increase at the same rate.
+
+This became the first major lesson.
+
+Discovery and usefulness are not the same thing.
+
+A database can be large while remaining unhelpful.
+
+An artist does not benefit from finding one hundred opportunities if ninety-five of them are poor matches.
+
+This insight would eventually drive almost every major architectural decision that followed.
+
+---
+
+### The Ranking Era
+
+The obvious response to discovery overload was ranking.
+
+If there were too many opportunities, perhaps they could simply be sorted.
+
+Scoring systems were introduced.
+
+Opportunities received scores based on relevance.
+
+The assumption was:
+
+Discovery plus ranking equals value.
+
+At first this appeared reasonable.
+
+The system became increasingly sophisticated.
+
+Scores improved.
+
+Reports improved.
+
+Rankings became more detailed.
+
+Yet something remained wrong.
+
+The highest ranked opportunities often did not feel right.
+
+The machine was identifying relationships.
+
+It was not understanding the artist.
+
+This distinction became critical.
+
+The system could identify similarity.
+
+It could not identify fit.
+
+---
+
+### The Artist DNA Breakthrough
+
+Artist DNA was one of the first major breakthroughs.
+
+Instead of focusing primarily on opportunities, the project began focusing on the artist.
+
+This represented a philosophical shift.
+
+The question changed from:
+
+"What opportunities exist?"
+
+to:
+
+"Who is this artist?"
+
+Image analysis became central.
+
+The goal was to build a machine-readable representation of an artist's visual identity.
+
+The system began extracting:
+
+* medium
+* subjects
+* themes
+* moods
+* recurring motifs
+* aesthetic tendencies
+
+This immediately improved recommendation quality.
+
+For the first time, recommendations were being filtered through the identity of the artist rather than through generic categories.
+
+This became one of the strongest systems in the project.
+
+Many later systems depended upon it.
+
+---
+
+### The Photography Disaster
+
+This was one of the most important failures in the history of the project.
+
+The artist was a watercolor painter.
+
+Yet recommendations repeatedly drifted toward:
+
+* photography magazines
+* photography contests
+* photography galleries
+* photobooks
+* zines
+
+The machine was not entirely wrong.
+
+The artist's work shared characteristics with photography.
+
+Urban scenes.
+
+Architecture.
+
+Atmosphere.
+
+Memory.
+
+Observation.
+
+The system detected these similarities.
+
+The problem was that it ignored medium.
+
+As a result:
+
+Urban watercolor became urban photography.
+
+Architecture painting became architecture photography.
+
+Atmosphere became photobooks.
+
+The machine was recognizing aesthetic overlap while ignoring artistic practice.
+
+This created a flood of recommendations that looked reasonable but felt wrong.
+
+The project spent significant effort understanding this problem.
+
+This single failure eventually produced multiple architectural layers.
+
+---
+
+### Watercolor Correction
+
+The Watercolor Layer emerged directly from the photography problem.
+
+Its purpose was simple:
+
+Protect painters from being overwhelmed by photography.
+
+The system began explicitly accounting for medium.
+
+Watercolor became meaningful.
+
+Painting became meaningful.
+
+The recommendation engine started asking:
+
+"What kind of artist is this?"
+
+instead of merely asking:
+
+"What subjects appear in the work?"
+
+This dramatically improved results.
+
+Painting opportunities became visible again.
+
+Many later successes can be traced back to this correction.
+
+---
+
+### Source Purity
+
+A second problem emerged.
+
+Even after improving medium matching, recommendations remained noisy.
+
+Many highly ranked results were not opportunities.
+
+Examples included:
+
+* book listings
+* catalogs
+* social media pages
+* informational resources
+* archive pages
+
+The system had become skilled at finding things related to opportunities.
+
+It was less skilled at finding actual opportunities.
+
+This distinction became known as Source Purity.
+
+The project began distinguishing:
+
+Opportunity
+
+from
+
+Information about opportunity.
+
+This sounds trivial.
+
+It was not.
+
+The distinction became foundational.
+
+Many later ranking improvements relied upon it.
+
+---
+
+### Truth Alignment
+
+As ranking systems became more sophisticated, a new problem emerged.
+
+Score inflation.
+
+Everything began looking good.
+
+Many opportunities received high scores.
+
+Many reports appeared convincing.
+
+Yet reality frequently disagreed.
+
+The project realized something uncomfortable.
+
+A recommendation system can become increasingly confident while becoming increasingly wrong.
+
+Truth Alignment emerged as a corrective mechanism.
+
+The goal was to anchor recommendations to evidence.
+
+The system became increasingly skeptical.
+
+Evidence became more important than theory.
+
+Verification became more important than prediction.
+
+This represented one of the largest philosophical shifts in the project.
+
+---
+
+### The Verification Revolution
+
+Eventually a fundamental realization occurred.
+
+A perfect ranking is worthless if the opportunity no longer exists.
+
+A perfect ranking is worthless if submissions are closed.
+
+A perfect ranking is worthless if contact information cannot be found.
+
+Verification became unavoidable.
+
+The project began pursuing:
+
+* website verification
+* contact discovery
+* deadline discovery
+* submission discovery
+* application requirement discovery
+
+This was the beginning of a new phase.
+
+The project was no longer merely interpreting information.
+
+It was attempting to validate reality.
+
+This remains one of the least mature systems.
+
+It is also one of the most important.
+
+---
+
+### The Shift Toward Career Thinking
+
+As the project matured, the focus expanded.
+
+Opportunity discovery alone was insufficient.
+
+Artists need strategy.
+
+Artists need prioritization.
+
+Artists need sequencing.
+
+Artists need relationship management.
+
+The project began moving toward a broader question:
+
+"How does an artist build a career?"
+
+This was the beginning of the Career Layer.
+
+The eventual goal became:
+
+* daily actions
+* weekly goals
+* monthly priorities
+* long-term planning
+
+The project started moving away from databases and toward decision support.
+
+---
+
+### Report Explosion
+
+As development accelerated, the number of reports multiplied.
+
+Every new idea produced:
+
+* reports
+* rankings
+* summaries
+* dashboards
+
+This created a new problem.
+
+Information overload within the project itself.
+
+The system designed to reduce complexity began generating complexity.
+
+This became a recurring theme.
+
+A lesson emerged:
+
+Reports are easy to generate.
+
+Clarity is difficult.
+
+This lesson remains relevant.
+
+---
+
+### Patch Accumulation
+
+Rapid experimentation produced many patches.
+
+Each patch solved a real problem.
+
+Collectively they created technical debt.
+
+Over time the project accumulated:
+
+* alternate runners
+* alternate reports
+* alternate scoring systems
+* temporary fixes
+* experimental branches
+
+The codebase became increasingly difficult to understand.
+
+Not because it lacked capability.
+
+Because it contained history.
+
+---
+
+### The Context Crisis
+
+Eventually the greatest challenge was no longer technical.
+
+The challenge became understanding.
+
+The project had reached a point where:
+
+The creator understood the system.
+
+The repository did not explain itself.
+
+The architecture existed.
+
+The reasoning behind the architecture was scattered across conversations, experiments, reports, and decisions.
+
+This realization directly motivated migration efforts.
+
+The goal was no longer simply preserving code.
+
+The goal was preserving institutional memory.
+
+Without that memory, future systems would likely repeat old mistakes.
+
+---
+
+### Current Position
+
+At present, Mochi sits between two stages.
+
+It is no longer an opportunity finder.
+
+It is not yet a complete career operating system.
+
+The strongest areas are:
+
+* discovery
+* artist DNA
+* painting alignment
+* recommendation logic
+
+The weakest areas are:
+
+* verification
+* CRM
+* relationship management
+* action planning
+
+The next phase is not about finding more opportunities.
+
+The next phase is about becoming more useful.
+
+## End of Volume II

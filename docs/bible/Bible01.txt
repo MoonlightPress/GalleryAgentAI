@@ -1,0 +1,218 @@
+# MOCHI BIBLE
+
+## Volume I — Origins, Purpose, and Philosophy
+
+### What Mochi Is
+
+Mochi is an AI-assisted artist career support system.
+
+It is not a portfolio website.
+
+It is not a CRM.
+
+It is not an opportunity database.
+
+It is not a recommendation engine.
+
+Those things exist inside the project, but none of them are the purpose of the project.
+
+The purpose of the project is to reduce the friction between artists and meaningful career opportunities.
+
+The project exists because modern artists spend enormous amounts of time performing administrative and research tasks that have little to do with making art.
+
+Artists search for galleries.
+
+Artists search for open calls.
+
+Artists search for residencies.
+
+Artists search for grants.
+
+Artists search for publications.
+
+Artists search for collaborators.
+
+Artists search for communities.
+
+Artists search for validation.
+
+Most of this work is repetitive.
+
+Most of this work is emotionally exhausting.
+
+Most of this work is poorly supported by existing software.
+
+Mochi was created to address that problem.
+
+The long-term vision is an Artist Career Operating System.
+
+The project should eventually help an artist determine:
+
+* What should I do today?
+* What should I do this week?
+* What should I do this month?
+* Which opportunities matter?
+* Which opportunities do not matter?
+* Who should I contact?
+* Who should I ignore?
+* Where should I invest my energy?
+
+The project is advisory.
+
+Humans remain responsible for all decisions.
+
+The system should never automatically conduct outreach without human review.
+
+---
+
+### Why This Project Exists
+
+The project began with a specific artist.
+
+This is important.
+
+Many systems are designed around hypothetical users.
+
+Mochi was designed around a real artist.
+
+The artist was a watercolor painter.
+
+Her work contained recurring themes:
+
+* urban environments
+* architecture
+* memory
+* absence
+* atmosphere
+* quiet observation
+
+The project originally existed because the creator wanted to help her.
+
+This is not merely personal history.
+
+It is architectural history.
+
+Many of the most important design decisions emerged because recommendations that appeared reasonable to a machine were obviously wrong when viewed through the lens of a real artist.
+
+The creator cared deeply about the artist.
+
+That emotional investment altered the project's development trajectory.
+
+The project continued evolving long after a simple recommendation engine would have been considered finished.
+
+Because the objective was not simply finding opportunities.
+
+The objective was helping someone navigate a difficult career.
+
+That distinction shaped everything that followed.
+
+---
+
+### The Hidden Problem
+
+At the beginning, it appeared that the problem was information scarcity.
+
+This turned out to be false.
+
+Artists are not suffering from a lack of information.
+
+Artists are drowning in information.
+
+The real problem is prioritization.
+
+The real problem is uncertainty.
+
+The real problem is emotional burden.
+
+The real problem is deciding where to spend limited time and energy.
+
+This realization became one of the most important turning points in the project.
+
+The goal shifted from:
+
+"Find opportunities."
+
+to:
+
+"Help artists decide what to do."
+
+This distinction is subtle but fundamental.
+
+An opportunity database answers:
+
+"What exists?"
+
+A career system answers:
+
+"What matters?"
+
+Mochi increasingly moved toward the second question.
+
+---
+
+### Core Design Principles
+
+Principle 1:
+
+Actionability is more valuable than information.
+
+Principle 2:
+
+Verification is more valuable than ranking.
+
+Principle 3:
+
+Understanding the artist is more valuable than understanding the opportunity.
+
+Principle 4:
+
+Reducing cognitive burden is as important as increasing opportunity discovery.
+
+Principle 5:
+
+Humans remain responsible for final decisions.
+
+Principle 6:
+
+The system should optimize for long-term career growth rather than short-term activity.
+
+Principle 7:
+
+The purpose of the system is not to maximize submissions.
+
+The purpose is to maximize meaningful progress.
+
+---
+
+### The Long-Term Vision
+
+The final form of Mochi is not a search engine.
+
+It is not a dashboard.
+
+It is not a recommendation engine.
+
+The final form resembles an operating system for an artist's professional life.
+
+Potential future capabilities include:
+
+* opportunity discovery
+* gallery relationship management
+* submission planning
+* portfolio guidance
+* artist statement guidance
+* exhibition strategy
+* publication strategy
+* networking support
+* collaboration support
+* daily quests
+* weekly goals
+* long-term planning
+
+The project should always be evaluated against a single question:
+
+"Does this help the artist decide what to do next?"
+
+If the answer is no, the feature is probably unnecessary.
+
+## End of Volume I

@@ -1,0 +1,460 @@
+# MOCHI BIBLE
+
+## Volume IV — Architecture
+
+### Introduction
+
+The architecture of Mochi did not emerge from a top-down design process.
+
+It emerged through repeated confrontation with failure.
+
+Almost every major layer exists because a previous layer proved insufficient.
+
+This means the architecture is historical.
+
+To understand why a layer exists, it is often necessary to understand what problem it was attempting to solve.
+
+The system gradually evolved from:
+
+```text
+Discovery Engine
+```
+
+into:
+
+```text
+Artist Career Intelligence System
+```
+
+The architecture reflects that transition.
+
+---
+
+# Discovery Layer
+
+### Purpose
+
+Find opportunities.
+
+This is the oldest layer in the project.
+
+Without discovery there is no database.
+
+Without a database there is nothing to rank.
+
+The discovery layer searches for:
+
+* galleries
+* open calls
+* contests
+* publications
+* residencies
+* fairs
+* organizations
+
+The output is raw opportunity data.
+
+---
+
+### Strengths
+
+The layer can find opportunities at scale.
+
+Discovery is no longer the primary weakness of the project.
+
+Large numbers of opportunities can be collected.
+
+---
+
+### Weaknesses
+
+Discovery alone creates noise.
+
+Discovery is not intelligence.
+
+Discovery does not understand fit.
+
+Discovery does not understand quality.
+
+Discovery does not understand timing.
+
+The project eventually learned:
+
+Finding opportunities is the easiest part.
+
+---
+
+# Ranking Layer
+
+### Purpose
+
+Sort opportunities.
+
+The ranking layer emerged because discovery produced too much information.
+
+The objective was:
+
+```text
+What should appear first?
+```
+
+---
+
+### Strengths
+
+The layer can identify broad relevance.
+
+It can dramatically reduce search space.
+
+---
+
+### Weaknesses
+
+The layer initially lacked reality checks.
+
+A highly-ranked opportunity was not necessarily useful.
+
+This eventually led to:
+
+* Truth Alignment
+* Verification
+
+---
+
+# Artist DNA Layer
+
+### Purpose
+
+Understand the artist.
+
+The Artist DNA Layer changed the direction of the project.
+
+Rather than beginning with opportunities, it begins with the artist.
+
+Inputs include:
+
+* artwork
+* visual tendencies
+* recurring themes
+* medium
+* emotional tone
+
+Outputs include:
+
+* artist profile
+* thematic profile
+* aesthetic profile
+
+---
+
+### Importance
+
+This became one of the strongest systems in the project.
+
+Many later systems depend upon it.
+
+Without Artist DNA, recommendations tend to become generic.
+
+---
+
+# Watercolor Layer
+
+### Origin
+
+The Watercolor Layer exists because of failure.
+
+Specifically:
+
+The Photography Problem.
+
+---
+
+### Purpose
+
+Prevent painters from being overwhelmed by photography opportunities.
+
+The layer increases sensitivity to medium.
+
+It explicitly values:
+
+* painting
+* watercolor
+* fine art contexts
+
+This was one of the most successful corrective layers.
+
+---
+
+# Source Purity Layer
+
+### Purpose
+
+Distinguish opportunities from noise.
+
+The system discovered that many highly-ranked results were not opportunities.
+
+Examples:
+
+* product listings
+* archives
+* catalogs
+* social media pages
+
+The Source Purity Layer attempts to identify:
+
+```text
+Real opportunity
+```
+
+versus:
+
+```text
+Information adjacent to opportunity
+```
+
+---
+
+### Importance
+
+This layer dramatically improved recommendation quality.
+
+Many poor recommendations disappeared after its introduction.
+
+---
+
+# Truth Alignment Layer
+
+### Purpose
+
+Anchor recommendations to reality.
+
+The project repeatedly encountered situations where:
+
+The ranking looked good.
+
+Reality disagreed.
+
+Truth Alignment attempts to reward evidence.
+
+Examples:
+
+* verified organizations
+* confirmed opportunities
+* observable signals
+
+The layer reduces speculative recommendations.
+
+---
+
+### Philosophy
+
+Truth Alignment represents a major philosophical shift.
+
+The project became increasingly skeptical of pure scoring.
+
+Evidence became more important than prediction.
+
+---
+
+# Verification Layer
+
+### Purpose
+
+Confirm reality.
+
+The Verification Layer emerged from a simple realization:
+
+A recommendation is worthless if it cannot be acted upon.
+
+Verification attempts to answer:
+
+* Does this organization exist?
+* Is the website functional?
+* Is contact information available?
+* Are submissions open?
+* Are deadlines visible?
+
+---
+
+### Current Status
+
+Partially functional.
+
+Current capabilities:
+
+* homepage verification
+* HTTP validation
+* some contact extraction
+
+Current weaknesses:
+
+* submission discovery
+* requirement discovery
+* deadline discovery
+
+This remains one of the highest-priority systems.
+
+---
+
+# Reporting Layer
+
+### Purpose
+
+Communicate findings.
+
+Reports became one of the dominant outputs of the system.
+
+Examples:
+
+* rankings
+* summaries
+* dashboards
+* recommendations
+
+---
+
+### Problem
+
+Report generation became extremely easy.
+
+Eventually the project accumulated:
+
+* duplicate reports
+* overlapping reports
+* obsolete reports
+
+The Reporting Layer requires consolidation.
+
+---
+
+# Career Layer
+
+### Purpose
+
+Transform opportunities into strategy.
+
+This layer is still immature.
+
+Its objective is to answer:
+
+```text
+What should the artist do next?
+```
+
+rather than:
+
+```text
+What opportunities exist?
+```
+
+This is one of the most important future directions.
+
+---
+
+# CRM Layer
+
+### Purpose
+
+Remember relationships.
+
+Future examples:
+
+```text
+Gallery contacted
+Date contacted
+Response received
+Follow-up date
+Current status
+```
+
+Many artistic careers depend on relationships.
+
+The CRM layer exists to support that reality.
+
+---
+
+# Quest Layer
+
+### Future Concept
+
+One of the most ambitious future ideas.
+
+The observation:
+
+Artists often know what they should do.
+
+The difficulty is execution.
+
+Large goals are overwhelming.
+
+Example:
+
+```text
+Apply to twenty galleries.
+```
+
+This is psychologically difficult.
+
+The Quest Layer breaks large goals into manageable actions.
+
+Examples:
+
+```text
+Send one email today.
+Research one gallery today.
+Prepare one submission image today.
+```
+
+The purpose is not gamification.
+
+The purpose is reducing friction.
+
+---
+
+# Opportunity Intelligence Layer
+
+### Future Direction
+
+Eventually the system should become capable of reasoning about opportunities.
+
+Not merely finding them.
+
+Examples:
+
+```text
+This gallery fits aesthetically but not professionally.
+
+This contest is prestigious but unlikely.
+
+This publication is realistic and high-value.
+
+This opportunity should be ignored.
+```
+
+This layer does not yet exist in mature form.
+
+It represents one of the major future goals.
+
+---
+
+# Architectural Principle
+
+Every layer exists because a previous layer failed.
+
+Discovery failed to prioritize.
+
+Ranking failed to understand.
+
+Artist DNA failed to respect medium.
+
+Watercolor corrections failed to distinguish noise.
+
+Source Purity failed to verify reality.
+
+Verification failed to provide strategy.
+
+Career systems emerged to fill the gap.
+
+The architecture is therefore best understood as a sequence of lessons learned.
+
+## End of Volume IV

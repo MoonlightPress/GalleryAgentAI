@@ -1,9 +1,5 @@
+import runpy
+from pathlib import Path
 
-from smart_pipeline_runner import run_pipeline
-
-run_pipeline([
-"artist_profile_purge.py",
-"opportunity_verification_engine.py",
-"bucket_deduplicator.py",
-"pipeline_debug_summary.py"
-])
+target = Path(r"scripts/runners/run_verification_upgrade.py")
+runpy.run_path(str(target), run_name="__main__")

@@ -1,13 +1,5 @@
+import runpy
+from pathlib import Path
 
-from smart_pipeline_runner import run_pipeline
-
-PIPELINE = [
-    "artist_ecosystem_mapper.py",
-    "peer_artist_engine.py",
-    "publisher_match_engine.py",
-    "ecosystem_opportunity_bridge.py",
-    "ecosystem_report.py",
-    "pipeline_debug_summary.py",
-]
-
-run_pipeline(PIPELINE)
+target = Path(r"scripts/runners/run_artist_intelligence_v2.py")
+runpy.run_path(str(target), run_name="__main__")
