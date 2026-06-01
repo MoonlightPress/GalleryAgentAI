@@ -94,62 +94,80 @@ def choose_bucket(opp):
     if has(title, ["facebook", "instagram", "pinterest", "tiktok", "continue reading"]):
         return "reject"
 
-    stretch_names = [
+    # Tier 4 — Prestige Targets: always stretch_targets, never immediate_best_moves.
+    # These are future goals for the deep-work year at ~30, not current actions.
+    tier_4_terms = [
+        "royal watercolour society",
+        "american watercolor society",
+        "cité internationale des arts",
+        "cite internationale des arts",
+        "asian cultural council",
+        "printed matter art book fairs",
+        "center for book arts",
+        "offprint",
         "aperture",
         "mack",
-        "photographers' gallery",
-        "photovogue",
-        "portfolio prize",
-        "void",
     ]
 
+    # Tier 1 — Ambient Visibility: zine/bookshop ecosystem, art book fairs.
+    # Weight higher for current phase. Route to immediate or japan_book_ecosystem.
+    tier_1_terms = [
+        "tokyo art book fair",
+        "mount zine",
+        "utrecht",
+        "book and sons",
+        "flotsam",
+        "b&b shimokitazawa",
+        "bookandbeer",
+        "nadiff",
+        "shashasha",
+        "torch press",
+        "zine fest",
+        "zine fair",
+        "fugensha",
+        "akaaka",
+    ]
+
+    # Tier 1-2 publication / artist-book terms
     publication_terms = [
-        "photobook",
-        "photo book",
         "artist book",
         "printed matter",
         "publication",
         "small press",
         "self publish",
-        "offprint",
+        "zine",
     ]
 
-    japan_book_terms = [
-        "utrecht",
-        "mount zine",
-        "flotsam",
-        "post",
-        "nadiff",
-        "tokyo art book fair",
-        "book and sons",
-        "shashasha",
-        "fugensha",
-        "akaaka",
-        "t&m",
-    ]
-
+    # Tier 2 — Networking: artist-run spaces and relationship venues
     relationship_terms = [
         "cafe",
         "bookstore",
         "shimokitazawa",
         "bonus track",
-        "photobook cafe",
         "gallery wall",
         "community",
+        "artist-run",
     ]
 
-    if has(title, stretch_names):
+    # Tier 4 check is first — prestige targets never reach immediate_best_moves
+    if has(text, tier_4_terms):
         return "stretch_targets"
 
-    if has(text, ["tokyo art book fair"]) or (visual >= 5 and has(text, publication_terms)):
-        return "immediate_best_moves"
-
-    if has(text, japan_book_terms):
+    # Tier 1 ambient visibility — immediate or japan book ecosystem
+    if has(text, tier_1_terms):
+        if visual >= 3 or score >= 7.5:
+            return "immediate_best_moves"
         return "japan_book_ecosystem"
 
+    # High visual fit + publication angle → immediate
+    if visual >= 5 and has(text, publication_terms):
+        return "immediate_best_moves"
+
+    # Tier 1-2 publication targets
     if has(text, publication_terms):
         return "publication_targets"
 
+    # Tier 2 relationship / networking venues
     if has(text, relationship_terms):
         return "relationship_builders"
 

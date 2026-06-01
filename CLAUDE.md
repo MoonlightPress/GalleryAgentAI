@@ -150,6 +150,23 @@ Every word in the interface should be gentle and encouraging. The system is a co
 - The Mochi status bar persists across all pages
 - Today's Focus is always three items — the pipeline must surface exactly three actionable items, not a ranked list of fifty
 
+## Career Strategy Framework
+
+GEGYjiji's career is structured in four tiers. **She is currently in Tier 1-2.** All opportunity scoring, bucketing, and recommendations must reflect this.
+
+| Tier | Label | What It Is | Current Phase |
+|---|---|---|---|
+| **1** | Ambient Visibility | Zine shops, bookshop consignment, café prints, art book fairs, self-publishing. Low-barrier presence-building — work enters circulation without requiring pitching. | **Yes** |
+| **2** | Networking | Group shows, artist-run spaces, open calls at accessible Tokyo galleries, community events. Active relationship-building with the people who will matter in 3-5 years. | **Yes** |
+| **3** | Credibility | Small institutional shows (TOKAS, BankART1929, Youkobo), juried open calls (Jinny Street, Belladonna, Shoto Museum), Japan Watercolor Society. CV weight. | Not yet |
+| **4** | Prestige Targets | Royal Watercolour Society, American Watercolor Society, Cité Internationale des Arts, Asian Cultural Council, Printed Matter, Offprint. For the deep-work year at 30 and beyond. | Not yet |
+
+**Scoring rule:** Tier 1-2 opportunities score at ×1.3–1.4 weight for immediate recommendations. Tier 4 entries are always routed to `stretch_targets` — they must **never** appear in Immediate Best Moves. Tier 4 exists to be tracked and prepared for, not acted on now.
+
+**Why this matters for code:** Any engine that surfaces "what to do today" must respect the current phase. Recommending an RWS open exhibition to a 26-year-old building her first exhibition history is worse than useless — it sets the wrong expectation and wastes attention. The tier framework is the primary guard against this.
+
+The full tier definitions live in `memory/artist_master_profile.json` under `career_strategy`.
+
 ## Critical Lessons (Do Not Repeat)
 
 - **More opportunities ≠ more value.** 3 excellent > 100 mediocre. Don't optimize for volume.
