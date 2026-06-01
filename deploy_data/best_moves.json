@@ -1,0 +1,283 @@
+{
+  "title": "Best Next Moves",
+  "summary": "Compressed recommendations generated from the current opportunity research. Reports remain in the background.",
+  "global_best_moves": [
+    {
+      "name": "中野・ギャラリー冬青で「謎の新人作家」H.jさん写真展 - 中野 ...",
+      "category": "galleries",
+      "score": 120,
+      "confidence": 77,
+      "reason": "Good gallery target: submission route, emerging-artist signal, local west-Tokyo target.",
+      "next_action": "Review past artists, confirm curated vs rental, then shortlist for contact.",
+      "url": "https://nakano.keizai.biz/headline/2926/",
+      "deadline": "",
+      "fee": "",
+      "source": "gallery_fit_analysis"
+    },
+    {
+      "name": "Applications — Little Tokyo Zine Fest",
+      "category": "fairs_events",
+      "score": 117,
+      "confidence": 75,
+      "reason": "zine / art-book fair target; beginner friendliness: high.",
+      "next_action": "Check application window, booth fee, table requirements, and whether prints/zines are ready.",
+      "url": "https://www.ltzinefest.org/applications",
+      "deadline": "",
+      "fee": "",
+      "source": "fair_ecosystem"
+    },
+    {
+      "name": "Tokyo Art Book Fair",
+      "category": "zines",
+      "score": 116,
+      "confidence": 80,
+      "reason": "Strong zine/art-book ecosystem target with clear relevance to printed work.",
+      "next_action": "Confirm deadline and fee, then match it to the two-zine plan.",
+      "url": "https://tokyoartbookfair.com/en/application/",
+      "deadline": "Deadline eadline for the application is end of day (JST) June 7th (Sun), 2026. Applicants",
+      "fee": "¥1,000",
+      "source": "fair_ecosystem"
+    },
+    {
+      "name": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
+      "category": "galleries",
+      "score": 116,
+      "confidence": 69,
+      "reason": "Good gallery target: submission route, emerging-artist signal, prestige signal.",
+      "next_action": "Review past artists, confirm curated vs rental, then shortlist for contact.",
+      "url": "https://biscuitgallery.com/grid-next-news/",
+      "deadline": "",
+      "fee": "",
+      "source": "gallery_fit_analysis"
+    },
+    {
+      "name": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
+      "category": "galleries",
+      "score": 116,
+      "confidence": 69,
+      "reason": "Good gallery target: submission route, emerging-artist signal, prestige signal.",
+      "next_action": "Review past artists, confirm curated vs rental, then shortlist for contact.",
+      "url": "https://biscuitgallery.com/gridnext-2025/",
+      "deadline": "",
+      "fee": "",
+      "source": "gallery_fit_analysis"
+    }
+  ],
+  "categories": [
+    {
+      "title": "Galleries",
+      "summary": "77 gallery profiles found; 32 show direct submission signals; 26 are emerging-friendly.",
+      "best_moves": [
+        {
+          "name": "中野・ギャラリー冬青で「謎の新人作家」H.jさん写真展 - 中野 ...",
+          "category": "galleries",
+          "score": 120,
+          "confidence": 77,
+          "reason": "Good gallery target: submission route, emerging-artist signal, local west-Tokyo target.",
+          "next_action": "Review past artists, confirm curated vs rental, then shortlist for contact.",
+          "url": "https://nakano.keizai.biz/headline/2926/",
+          "deadline": "",
+          "fee": "",
+          "source": "gallery_fit_analysis"
+        },
+        {
+          "name": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
+          "category": "galleries",
+          "score": 116,
+          "confidence": 69,
+          "reason": "Good gallery target: submission route, emerging-artist signal, prestige signal.",
+          "next_action": "Review past artists, confirm curated vs rental, then shortlist for contact.",
+          "url": "https://biscuitgallery.com/grid-next-news/",
+          "deadline": "",
+          "fee": "",
+          "source": "gallery_fit_analysis"
+        },
+        {
+          "name": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
+          "category": "galleries",
+          "score": 116,
+          "confidence": 69,
+          "reason": "Good gallery target: submission route, emerging-artist signal, prestige signal.",
+          "next_action": "Review past artists, confirm curated vs rental, then shortlist for contact.",
+          "url": "https://biscuitgallery.com/gridnext-2025/",
+          "deadline": "",
+          "fee": "",
+          "source": "gallery_fit_analysis"
+        }
+      ],
+      "see_more_label": "See more gallery targets"
+    },
+    {
+      "title": "Competitions",
+      "summary": "40 competitions verified; 31 currently look actionable.",
+      "best_moves": [
+        {
+          "name": "国内最大級の学生向けアートアワード「Caf賞2026」が作品募集 ...",
+          "category": "competitions",
+          "score": 107,
+          "confidence": 80,
+          "reason": "Actionable competition with an extracted application route and deadline signal.",
+          "next_action": "Open source, confirm deadline/fee, then decide if it fits the current portfolio.",
+          "url": "https://bijutsutecho.com/magazine/news/promotion/32444",
+          "deadline": "応募締切",
+          "fee": "出品料",
+          "source": "verified_competitions"
+        },
+        {
+          "name": "若手アーティスト募集。36歳以下対象の「第2回 Mimoca ...",
+          "category": "competitions",
+          "score": 107,
+          "confidence": 80,
+          "reason": "Actionable competition with an extracted application route and deadline signal.",
+          "next_action": "Open source, confirm deadline/fee, then decide if it fits the current portfolio.",
+          "url": "https://koubo.jp/article/82409",
+          "deadline": "締切 募 全公募賞金あり！腰を据えて作った渾身の映像で勝負しよう 2026/05/13 動画・ビデオ・ショート動画 映像・映画・ショートフィルム テーマ別公募 お出かけ不要・SNS応募OKで気軽に挑戦！フォ",
+          "fee": "出品料 担です",
+          "source": "verified_competitions"
+        },
+        {
+          "name": "第22回世界絵画大賞展 2026 応募要項 - sekaido.co.jp",
+          "category": "competitions",
+          "score": 107,
+          "confidence": 80,
+          "reason": "Actionable competition with an extracted application route and deadline signal.",
+          "next_action": "Open source, confirm deadline/fee, then decide if it fits the current portfolio.",
+          "url": "https://www.sekaido.co.jp/taishoten/22th/Require/",
+          "deadline": "2026年 3月1日 2026",
+          "fee": "出品料 出品料 (税込)】 ※お支払方法：現金 (クレジット不可) 1点 … 7,000 円 2点 … 9,000 円 【 応募資格・応募点数 】 ・資格…不問（ 国籍・年齢を問わず）※ただし未成年者の応募は",
+          "source": "verified_competitions"
+        }
+      ],
+      "see_more_label": "See more competitions"
+    },
+    {
+      "title": "Zines / Art Books",
+      "summary": "31 zine/art-book fair targets found. Best used after two small zines exist.",
+      "best_moves": [
+        {
+          "name": "Tokyo Art Book Fair",
+          "category": "zines",
+          "score": 116,
+          "confidence": 80,
+          "reason": "Strong zine/art-book ecosystem target with clear relevance to printed work.",
+          "next_action": "Confirm deadline and fee, then match it to the two-zine plan.",
+          "url": "https://tokyoartbookfair.com/en/application/",
+          "deadline": "Deadline eadline for the application is end of day (JST) June 7th (Sun), 2026. Applicants",
+          "fee": "¥1,000",
+          "source": "fair_ecosystem"
+        },
+        {
+          "name": "Applications — Little Tokyo Zine Fest",
+          "category": "zines",
+          "score": 112,
+          "confidence": 80,
+          "reason": "Strong zine/art-book ecosystem target with clear relevance to printed work.",
+          "next_action": "Confirm deadline and fee, then match it to the two-zine plan.",
+          "url": "https://www.ltzinefest.org/applications",
+          "deadline": "",
+          "fee": "",
+          "source": "fair_ecosystem"
+        },
+        {
+          "name": "Fukuoka Art Book Fair",
+          "category": "zines",
+          "score": 108,
+          "confidence": 80,
+          "reason": "Strong zine/art-book ecosystem target with clear relevance to printed work.",
+          "next_action": "Confirm deadline and fee, then match it to the two-zine plan.",
+          "url": "https://fukuokaartbookfair.com/application/",
+          "deadline": "2026年5月29日 2026",
+          "fee": "",
+          "source": "fair_ecosystem"
+        }
+      ],
+      "see_more_label": "See more zine/art-book targets"
+    },
+    {
+      "title": "Fairs / Events",
+      "summary": "114 fairs/events mapped; 20 beginner-friendly; 7 high-prestige.",
+      "best_moves": [
+        {
+          "name": "Applications — Little Tokyo Zine Fest",
+          "category": "fairs_events",
+          "score": 117,
+          "confidence": 75,
+          "reason": "zine / art-book fair target; beginner friendliness: high.",
+          "next_action": "Check application window, booth fee, table requirements, and whether prints/zines are ready.",
+          "url": "https://www.ltzinefest.org/applications",
+          "deadline": "",
+          "fee": "",
+          "source": "fair_ecosystem"
+        },
+        {
+          "name": "Tokyo Art Book Fair",
+          "category": "fairs_events",
+          "score": 116,
+          "confidence": 75,
+          "reason": "zine / art-book fair target; beginner friendliness: medium; prestige: high.",
+          "next_action": "Check application window, booth fee, table requirements, and whether prints/zines are ready.",
+          "url": "https://tokyoartbookfair.com/en/application/",
+          "deadline": "Deadline eadline for the application is end of day (JST) June 7th (Sun), 2026. Applicants",
+          "fee": "¥1,000",
+          "source": "fair_ecosystem"
+        },
+        {
+          "name": "Fukuoka Art Book Fair",
+          "category": "fairs_events",
+          "score": 110,
+          "confidence": 75,
+          "reason": "zine / art-book fair target; prestige: medium.",
+          "next_action": "Check application window, booth fee, table requirements, and whether prints/zines are ready.",
+          "url": "https://fukuokaartbookfair.com/application/",
+          "deadline": "2026年5月29日 2026",
+          "fee": "",
+          "source": "fair_ecosystem"
+        }
+      ],
+      "see_more_label": "See more fairs/events"
+    },
+    {
+      "title": "Open Calls",
+      "summary": "32 verified open-call/application records; 14 actionable.",
+      "best_moves": [
+        {
+          "name": "TOKAS Open Call",
+          "category": "open_calls",
+          "score": 114,
+          "confidence": 80,
+          "reason": "Verified call/application record with actionable source data.",
+          "next_action": "Confirm deadline, fee, eligibility, and required files.",
+          "url": "https://www.tokyoartsandspace.jp/en/application/index.html",
+          "deadline": "Apr 30, 2026",
+          "fee": "",
+          "source": "verified_open_calls"
+        },
+        {
+          "name": "Belladonna Art Competition",
+          "category": "open_calls",
+          "score": 114,
+          "confidence": 80,
+          "reason": "Verified call/application record with actionable source data.",
+          "next_action": "Confirm deadline, fee, eligibility, and required files.",
+          "url": "https://www.art-belladonna.jp/youkou",
+          "deadline": "2026年4月18日 2026",
+          "fee": "3,850円",
+          "source": "verified_open_calls"
+        },
+        {
+          "name": "Hayama Artist Residency",
+          "category": "open_calls",
+          "score": 111,
+          "confidence": 80,
+          "reason": "Verified call/application record with actionable source data.",
+          "next_action": "Confirm deadline, fee, eligibility, and required files.",
+          "url": "https://hayamaartistresidency.submittable.com/submit",
+          "deadline": "application deadline 59pm Eastern Time on September 30, 2026. We will notify the selected artists by ",
+          "fee": "application fee tion will be reviewed by our director and Selection Committee - a cohort of inte",
+          "source": "verified_open_calls"
+        }
+      ],
+      "see_more_label": "See more open calls"
+    }
+  ]
+}

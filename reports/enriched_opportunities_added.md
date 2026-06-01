@@ -1,0 +1,44 @@
+# Enriched Opportunities Added
+
+- Added: 40
+
+- TOKAS Open Call
+- Jinny Street Gallery Open Call
+- Fukuoka Art Book Fair
+- Belladonna Art Competition
+- TOKAS Residency
+- SCCP Guest Artist
+- グループ展参加アーティスト募集中 - Gallery and Links81
+- 【biscuit gallery】初の公募企画「grid next : Emerging ...
+- 219公募展6募集 >> Gallery219 ギャラリーニイク
+- 公募プログラム - トーキョーアーツアンドスペース
+- 公募企画「grid next : 2025 - Emerging Artists Showcase ...
+- Shoto Museum Open Call
+- Kyoto Art Center Residency
+- AIR_J Open Calls
+- Hayama Artist Residency
+- Art公募
+- 公募展
+- Open Calls for Artists
+- Open Call For Artists
+- The Holy Art Gallery - Tokyo Open Call for Artist
+- 公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...
+- Open Calls for Artists | Exhibit Worldwide
+- Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...
+- Zines Fair at CP+
+- 若手アーティストの登竜門となるアートフェア「Independent Tokyo ...
+- 【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...
+- 現代アート販売の@Gallery Tagboat|@Gallery Tagboat
+- New Power展 | ギャラリー自由が丘で作家デビュー
+- Open Call for Artists! Tokyo Biennale 2025 "Social Dive"
+- NEW AIR
+- 【公募】2026年度レジデンス・プログラム公募開始
+- Jimbocho Zine Fair
+- Call for Entry: Showcase your art in Tokyo, Japan
+- ZINEフェス東京
+- ZINEイベント
+- Full-Table - Little Tokyo Zine Fest 2026 - Eventeny
+- tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...
+- Kyotographie Photobook Fair
+- Clavis Publishing Submissions
+- ARTE VENT Press

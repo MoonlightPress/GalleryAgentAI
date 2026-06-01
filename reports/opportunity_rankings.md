@@ -1,0 +1,265 @@
+# Opportunity Rankings / Heat Map
+
+## highest_actionability
+
+- Tokyo Art Book Fair — zines — score 100
+  - Verified application/call data.
+  - https://tokyoartbookfair.com/en/application/
+- TOKAS Open Call — contests — score 100
+  - Verified application/call data.
+  - https://www.tokyoartsandspace.jp/en/application/index.html
+- Fukuoka Art Book Fair — zines — score 100
+  - Verified application/call data.
+  - https://fukuokaartbookfair.com/application/
+- Belladonna Art Competition — contests — score 100
+  - Verified application/call data.
+  - https://www.art-belladonna.jp/youkou
+- SCCP Guest Artist — residencies — score 100
+  - Verified application/call data.
+  - https://www.sccp.jp/air-en/application/guest-artist/
+- Applications — Little Tokyo Zine Fest — zines — score 100
+  - Verified application/call data.
+  - https://www.ltzinefest.org/applications
+- Jinny Street Gallery Open Call — contests — score 100
+  - Verified application/call data.
+  - https://www.jinnystreetgallery.com/open-call
+- 公募プログラム - トーキョーアーツアンドスペース — galleries — score 100
+  - Verified application/call data.
+  - //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tokyoartsandspace.jp%2Fapplication%2Fabout_opencall.html&rut=dfbe1d186f3c4ab32c7fd12bde11eb0833c5498641b3ce3c152d0ec43918c688
+- AIR_J Open Calls — residencies — score 100
+  - Verified application/call data.
+  - https://air-j.info/en/program/
+- TOKAS Residency — residencies — score 100
+  - Verified application/call data.
+  - https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf
+- グループ展参加アーティスト募集中 - Gallery and Links81 — galleries — score 100
+  - Verified application/call data.
+  - //duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a
+- 【biscuit gallery】初の公募企画「grid next : Emerging ... — galleries — score 100
+  - Verified application/call data.
+  - //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f
+- 219公募展6募集 >> Gallery219 ギャラリーニイク — galleries — score 100
+  - Verified application/call data.
+  - //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7
+- 公募企画「grid next : 2025 - Emerging Artists Showcase ... — galleries — score 100
+  - Verified application/call data.
+  - //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672
+- Hayama Artist Residency — residencies — score 97
+  - Verified application/call data.
+  - https://hayamaartistresidency.submittable.com/submit
+
+## closest_to_koenji
+
+- Uptown Koenji Gallery|スギナミ・ウェブ・ミュージアム — galleries — score 83
+  - Neighborhood: Koenji
+  - https://www.suginamiart.tokyo/webmuseum/gallery/uptown-koenji-gallery.html
+- Gallery - M.A.P. Maniac Artist Port | 東京都杉並区高円寺のギャラリーカフェ&タフティング・スタジオ — galleries — score 83
+  - Neighborhood: Koenji
+  - https://map-koenji.com/gallery/
+- About - Clouds — galleries — score 83
+  - Neighborhood: Koenji
+  - https://www.cloudsgallerypluscoffee.com/about
+- アート | 日本 | Uptown Koenji Gallery — galleries — score 83
+  - Neighborhood: Koenji
+  - https://gallerymaru33.wixsite.com/mysite
+- BnA HOTEL Koenji - Meet Tokyo's Art Community — galleries — score 83
+  - Neighborhood: Koenji
+  - https://www.bna-koenji.com/
+- Home | BLANK — galleries — score 83
+  - Neighborhood: Koenji
+  - https://www.blank-koenji.com/
+- ナカノギンザギャラリー（NGG）公式アカウント (@NGG201804) / Posts / X — galleries — score 83
+  - Neighborhood: Nakano
+  - https://x.com/NGG201804
+- キチジョウジギャラリー | 吉祥寺・井の頭公園の貸しギャラリー — galleries — score 83
+  - Neighborhood: Kichijoji
+  - http://kichijojigallery.com/
+- 下北沢アーツ Shimokitazawa Arts | 下北沢のアートギャラリー Art Gallery in Shimokitazawa — galleries — score 83
+  - Neighborhood: Shimokitazawa
+  - https://shimokitazawaarts.tokyo/en/home-english/
+- Espace Shimokitazawa Mona：下北沢 貸ギャラリー — galleries — score 83
+  - Neighborhood: Shimokitazawa
+  - https://shimokita-gallery.com/
+- 下北沢アーツ Shimokitazawa Arts (@shimokitazawaarts) - Instagram — galleries — score 83
+  - Neighborhood: Shimokitazawa
+  - https://www.instagram.com/shimokitazawaarts/
+- Shimokitazawa, Tokyo - 17 Things To Do + Photos - Plan My Japan — galleries — score 83
+  - Neighborhood: Shimokitazawa
+  - https://www.planmyjapan.com/shimokitazawa-tokyo-things-to-do/
+- Shimokitazawa Arts | Japan Live & Exhibits — galleries — score 83
+  - Neighborhood: Shimokitazawa
+  - https://www.japan-live-exhibits.com/g_tkstg_shimokitazawa-arts/
+- Exhibition | Gallery Cafe＆Bar オンディーヌ │東高円寺の ... — galleries — score 83
+  - Neighborhood: Koenji
+  - https://ondine.official.ec/p/00001
+- Gallery | Local — galleries — score 83
+  - Neighborhood: Koenji
+  - https://www.localgallerybooks.com/gallery
+
+## best_for_emerging_artists
+
+- グループ展参加アーティスト募集中 - Gallery and Links81 — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://galleryandlinks81.jp/recruiting/
+- 若手アーティストの登竜門となるアートフェア「Independent Tokyo ... — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://prtimes.jp/main/html/rd/p/000000087.000042448.html
+- 【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ... — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://picaresquejpn.com/staff-letter/tokyo-artgallery-artist-wanted-picaresque/
+- 【biscuit gallery】初の公募企画「grid next : Emerging ... — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://biscuitgallery.com/grid-next-news/
+- 現代アート販売の@Gallery Tagboat|@Gallery Tagboat — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.tagboat.com/artevent/independenttokyo2025/
+- 219公募展6募集 >> Gallery219 ギャラリーニイク — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.gallery219.com/219kouboten/koubo2025.html
+- 公募プログラム - トーキョーアーツアンドスペース — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.tokyoartsandspace.jp/application/about_opencall.html
+- New Power展 | ギャラリー自由が丘で作家デビュー — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.gallery-jiyugaoka.com/newpower-application
+- 公募企画「grid next : 2025 - Emerging Artists Showcase ... — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://biscuitgallery.com/gridnext-2025/
+- Open Calls for Artists | Exhibit Worldwide — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.theholyart.com/tokyo-open-art
+- Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ... — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.jinnystreetgallery.com/open-call
+- Open Call - Tokyo Arts and Space — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.tokyoartsandspace.jp/en/application/index.html
+- Apply Now - Tokyo Gendai — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://tokyogendai.com/apply/
+- Apply to Exhibit — Tokyo International Art Fair — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.tokyoartfair.com/apply-to-exhibit-tokyo-art-fair
+- Open Call for Artists! Tokyo Biennale 2025 "Social Dive" — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://tokyobiennale.jp/en/archives/news/6152
+- The Holy Art Gallery - Tokyo Open Call for Artist | ForPhotographersOnly — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.forphotographersonly.com/event-details/the-holy-art-gallery-tokyo-open-call-for-artist
+- Open Call for Artists! Tokyo Biennale 2025 "Social Dive" — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://resartis.org/news-listing/open-call-for-artists-tokyo-biennale-2025-social-dive/
+- Art公募 | 美術公募展のポータルサイト【アート公募 ... — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.artkoubo.jp/
+- 次世代アーティストを応援する公募展 「Brillia Art Award Cube ... — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.atpress.ne.jp/news/552746
+- 公募 ｜ 公募 ｜ トーキョーアーツアンドスペース | 東京から ... — galleries — score 100
+  - Emerging/submission/gallery signal.
+  - https://www.tokyoartsandspace.jp/application/index.html
+
+## highest_prestige
+
+- Tokyo Art Book Fair — fairs_events — score 100
+  - High-prestige fair/event signal.
+  - https://tokyoartbookfair.com/en/application/
+- TOKAS Open Call — contests — score 100
+  - High-prestige open-call/residency candidate.
+  - https://www.tokyoartsandspace.jp/en/application/index.html
+- TOKAS Residency — residencies — score 100
+  - High-prestige open-call/residency candidate.
+  - https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf
+- Hayama Artist Residency — residencies — score 97
+  - High-prestige open-call/residency candidate.
+  - https://hayamaartistresidency.submittable.com/submit
+- Kyoto Art Center Residency — residencies — score 96
+  - High-prestige open-call/residency candidate.
+  - https://kiac.jp/en/article/2927/
+- Shoto Museum Open Call — contests — score 94
+  - High-prestige open-call/residency candidate.
+  - https://shoto-museum.jp/exhibitions/2026koubo/
+- Kyoto Retreat Artist Residency 2026 - Open Call — residencies — score 88
+  - High-prestige open-call/residency candidate.
+  - https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency
+- Tokyo International Art Fair — fairs_events — score 81
+  - High-prestige fair/event signal.
+  - https://www.tokyoartfair.com/apply-to-exhibit-tokyo-art-fair
+- Independent Tokyo — fairs_events — score 79
+  - High-prestige fair/event signal.
+  - https://prtimes.jp/main/html/rd/p/000000087.000042448.html
+- Art Fair Tokyo — fairs_events — score 76
+  - High-prestige fair/event signal.
+  - https://artfairtokyo.com/public_notices/282
+- SICF — fairs_events — score 74
+  - High-prestige fair/event signal.
+  - https://www.sicf.jp/
+- Art Fair Tokyo 2026 Dates, Tickets, Exhibitors & Guide | ArtExpoWorld — fairs_events — score 62
+  - High-prestige fair/event signal.
+  - https://artexpoworld.com/art_fair_tokyo_2026
+- Art Fair Tokyo 2026: 8 Standout Artists To Watch — fairs_events — score 62
+  - High-prestige fair/event signal.
+  - https://www.tokyoweekender.com/art_and_culture/art-fair-tokyo-2026-guide/
+
+## best_for_prints_and_zines
+
+- Tokyo Art Book Fair — fairs_events — score 100
+  - zine / art-book fair
+  - https://tokyoartbookfair.com/en/application/
+- Fukuoka Art Book Fair — fairs_events — score 100
+  - zine / art-book fair
+  - https://fukuokaartbookfair.com/application/
+- Applications — Little Tokyo Zine Fest — fairs_events — score 99
+  - zine / art-book fair
+  - https://www.ltzinefest.org/applications
+- Design Festa — fairs_events — score 90
+  - creator market / illustration fair
+  - https://designfesta.com/app-booth/
+- Clone of Japan Fair 2025 - Exhibitor Application Form — fairs_events — score 79
+  - zine art book
+  - https://form.jotform.com/253215140594149
+- COMITIA — fairs_events — score 78
+  - creator market / illustration fair
+  - https://www.comitia.co.jp/html/schedule.html
+- Craft Fairs in Tokyo | Best Handmade Markets & Design Events - Refer Japan — fairs_events — score 74
+  - creator market / illustration fair
+  - https://referjapan.com/craft-fairs-in-tokyo/
+- HandMade In Japan Fes — fairs_events — score 74
+  - creator market / illustration fair
+  - https://hmj-fes.jp/en
+- Creators Market — fairs_events — score 74
+  - creator market / illustration fair
+  - https://creator.line.me/ja/
+- SICF — fairs_events — score 74
+  - creator market / illustration fair
+  - https://www.sicf.jp/
+- Zines Fair at CP+ — fairs_events — score 70
+  - zine / art-book fair
+  - https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28
+- Art Book Fairs — fairs_events — score 64
+  - zine / art-book fair
+  - https://www.artbookfairs.com/
+- Jimbocho Zine Fair — fairs_events — score 62
+  - zine / art-book fair
+  - https://tcha.jp/post-3262/
+- ZINEフェス東京 — fairs_events — score 61
+  - zine / art-book fair
+  - https://x.com/zinefarmtokyo/status/2030078129293938743
+- ZINEイベント — fairs_events — score 60
+  - zine / art-book fair
+  - https://zindies.co/events?locale=ja
+- Full-Table - Little Tokyo Zine Fest 2026 - Eventeny — fairs_events — score 58
+  - zine / art-book fair
+  - https://www.eventeny.com/events/vendor/?id=39232
+- tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3... — fairs_events — score 58
+  - zine / art-book fair
+  - https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3
+- Kyotographie Photobook Fair — fairs_events — score 58
+  - zine / art-book fair
+  - https://www.kyotographie.jp/en/photobook_fair/
+- Zine＆Book Stand Fesの出店者を募集します! — fairs_events — score 58
+  - zine / art-book fair
+  - https://www.hakushindo.jp/news/2025/09/zine-fes2025_boshu/
+- 「Kitakagaya Zine'S Fair 2025」開催決定＆出展者募集開始! — fairs_events — score 58
+  - zine / art-book fair
+  - https://insec2.com/「kitakagaya-zines-fair-2025」開催決定＆出展者募集開始！　/

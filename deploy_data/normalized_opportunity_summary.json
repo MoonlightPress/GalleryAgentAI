@@ -1,0 +1,155 @@
+{
+  "verified_opportunities_estimate": 85,
+  "by_neighborhood": {
+    "Nakano": 6,
+    "Kichijoji": 7,
+    "Koenji": 15,
+    "Shimokitazawa": 13,
+    "Tokyo": 44
+  },
+  "by_category": {
+    "zine_shop": 58,
+    "independent_bookstore": 13,
+    "artist_book_store": 6,
+    "small_press_publisher": 7,
+    "photobook_store": 1
+  },
+  "highest_impact_targets": [
+    {
+      "canonical_name": "Tacoche",
+      "category": "zine_shop",
+      "neighborhood": "Nakano",
+      "confidence": 100,
+      "source_count": 5,
+      "websites": [
+        "http://tacoche.com/",
+        "https://taco.shop-pro.jp/"
+      ],
+      "article_references": [
+        "https://brutus.jp/post-483326/",
+        "https://trilltrill.jp/articles/4591823"
+      ],
+      "other_references": [],
+      "source_candidate_ids": [
+        "BIZ-0016",
+        "BIZ-0017",
+        "BIZ-0021",
+        "BIZ-0063",
+        "BIZ-0091"
+      ],
+      "status": "needs_review"
+    },
+    {
+      "canonical_name": "ZINE FARM TOKYO",
+      "category": "zine_shop",
+      "neighborhood": "Kichijoji",
+      "confidence": 90,
+      "source_count": 5,
+      "websites": [
+        "https://www.instagram.com/zinefarmtokyo/"
+      ],
+      "article_references": [
+        "https://san-tatsu.jp/spots/205878/",
+        "https://kj-weekly.jp/spot/zine-farm-tokyo/"
+      ],
+      "other_references": [
+        "https://x.com/zinefarmtokyo",
+        "https://readyfor.jp/projects/zinefarmtokyo"
+      ],
+      "source_candidate_ids": [
+        "BIZ-0043",
+        "BIZ-0111",
+        "BIZ-0121",
+        "BIZ-0127",
+        "BIZ-0045"
+      ],
+      "status": "needs_review"
+    },
+    {
+      "canonical_name": "LOCAL Gallery・Books",
+      "category": "zine_shop",
+      "neighborhood": "Koenji",
+      "confidence": 90,
+      "source_count": 5,
+      "websites": [
+        "https://www.localgallerybooks.com/about"
+      ],
+      "article_references": [
+        "https://jw-webmagazine.com/tips/shimokitazawa-local-guide/",
+        "https://jw-webmagazine.com/tips/the-perfect-day-in-kichijoji/"
+      ],
+      "other_references": [
+        "https://koenji-depart.com/shop_info/local/",
+        "https://zindies.co/events?locale=ja"
+      ],
+      "source_candidate_ids": [
+        "BIZ-0051",
+        "BIZ-0052",
+        "BIZ-0039",
+        "BIZ-0116",
+        "BIZ-0153"
+      ],
+      "status": "needs_review"
+    },
+    {
+      "canonical_name": "Book Culture Club",
+      "category": "zine_shop",
+      "neighborhood": "Kichijoji",
+      "confidence": 80,
+      "source_count": 5,
+      "websites": [],
+      "article_references": [
+        "https://kj-weekly.jp/2024/07/20/book-culture-club/",
+        "https://note.com/bookcultureclub/n/n6ead299d5947",
+        "https://note.com/bookcultureclub/n/nd460d9a36da6",
+        "https://note.com/bookcultureclub/n/n14764ff42f86"
+      ],
+      "other_references": [
+        "https://ja.wikipedia.org/wiki/BOOK_CULTURE_CLUB"
+      ],
+      "source_candidate_ids": [
+        "BIZ-0044",
+        "BIZ-0049",
+        "BIZ-0161",
+        "BIZ-0046",
+        "BIZ-0151"
+      ],
+      "status": "needs_review"
+    },
+    {
+      "canonical_name": "Dig A Hole Zines",
+      "category": "zine_shop",
+      "neighborhood": "Koenji",
+      "confidence": 77,
+      "source_count": 4,
+      "websites": [
+        "https://www.instagram.com/digaholezines/"
+      ],
+      "article_references": [],
+      "other_references": [
+        "https://noboruvalley.blogspot.com/2023/10/launch-at-dig-hole-zines.html",
+        "https://ra.co/clubs/230487",
+        "https://x.com/tsukiji14/status/1616697991552962560"
+      ],
+      "source_candidate_ids": [
+        "BIZ-0082",
+        "BIZ-0008",
+        "BIZ-0010",
+        "BIZ-0081"
+      ],
+      "status": "needs_review"
+    }
+  ],
+  "phase_1_targets": [
+    "Tacoche",
+    "LOCAL Gallery・Books",
+    "Dig A Hole Zines",
+    "本店・本屋の実験室"
+  ],
+  "practical_recommendation": {
+    "current_reach": "0 stores",
+    "target": "5 stores",
+    "phase_1": "Koenji + Nakano",
+    "action": "Create two zines, print 20 copies each, and approach the phase 1 targets first."
+  }
+}

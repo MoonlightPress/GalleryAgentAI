@@ -1,0 +1,67 @@
+# Ecosystem Summary v2
+
+## Galleries
+- profiles: 77
+- direct_submission: 32
+- emerging_friendly: 26
+
+### Top
+- 中野・ギャラリー冬青で「謎の新人作家」H.jさん写真展 - 中野 ...
+- 【biscuit gallery】初の公募企画「grid next : Emerging ...
+- 公募企画「grid next : 2025 - Emerging Artists Showcase ...
+- Open Call - Tokyo Arts and Space
+- Tokyo Arts and Space
+- グループ展参加アーティスト募集中 - Gallery and Links81
+- 若手アーティストの登竜門となるアートフェア「Independent Tokyo ...
+- 【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...
+- 219公募展6募集 >> Gallery219 ギャラリーニイク
+- 公募プログラム - トーキョーアーツアンドスペース
+
+## Competitions
+- verified: 40
+- actionable: 31
+
+### Top
+- Schedule ｜ Open Call ｜ Tokyo Arts and Space
+- 【東京】Tokyo Contemporary Art Award 2026-2028 募集 - artscape
+- TOKAS-Emerging 2026 ｜ Open Call ｜ Archives ｜ Tokyo Arts and Space
+- KAIKA TOKYO AWARD 2026: A Showcase for Emerging Artists Starting ...
+- トーキョーアーツアンドスペース｜Tokyo Arts and Space | 【 #公募 】 TOKAS-Emerging 2026｜本日6/ ...
+- International Creator Residency Program 2026｜TOKAS Residency Programs ...
+- 「TOKAS-Emerging 2026」 （トーキョーアーツアンドスペース本郷） ｜Tokyo Art Beat
+- 国内最大級の学生向けアートアワード「Caf賞2026」が作品募集 ...
+- 若手アーティスト募集。36歳以下対象の「第2回 Mimoca ...
+- 第22回世界絵画大賞展 2026 応募要項 - sekaido.co.jp
+
+## Fairs / Events
+- targets: 114
+- beginner_friendly: 20
+- high_prestige: 7
+
+### Top
+- Tokyo Art Book Fair
+- Fukuoka Art Book Fair
+- Applications — Little Tokyo Zine Fest
+- Design Festa
+- BOOTH - The International Indie Art Marketplace
+- Tokyo Exhibition - Art Number 23
+- Tokyo International Art Fair
+- Independent Tokyo
+- Clone of Japan Fair 2025 - Exhibitor Application Form
+- Art Fair Asia Fukuoka
+
+## Open Calls
+- verified: 32
+- actionable: 14
+
+### Top
+- Tokyo Art Book Fair
+- TOKAS Open Call
+- Fukuoka Art Book Fair
+- Belladonna Art Competition
+- SCCP Guest Artist
+- Hayama Artist Residency
+- Clone of Japan Fair 2025 - Exhibitor Application Form
+- Kyoto Art Center Residency
+- Shoto Museum Open Call
+- Osaka Open Call For Artists. - ARRIVAL

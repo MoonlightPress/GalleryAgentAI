@@ -1,0 +1,54 @@
+# Multi-Ingress Opportunities Added
+
+- Compact source: memory\compact_opportunities.json
+- Raw candidates: 230
+- Selected candidates: 48
+- Added opportunities: 45
+- Skipped duplicates: 3
+
+## Added
+- Open Call
+- Open Call - Tokyo Arts and Space
+- 公募
+- 全国美術公募団体 ベラドンナ・アート｜応募要項
+- About Open Call Programs - Tokyo Arts and Space
+- 【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...
+- 2026 松濤美術館公募展｜渋谷区立松濤美術館
+- OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery
+- Osaka Open Call For Artists. - ARRIVAL
+- International Open Call
+- Open calls - Online Database of Artist in Residence Programs in Japan
+- Application - Tokyo Art Book Fair
+- 出展お申込み
+- Applications — Little Tokyo Zine Fest
+- Tokyo Art Book Fair Open for Booth Applications - EastEast
+- Clone of Japan Fair 2025 - Exhibitor Application Form
+- Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat
+- Art Book Fairs
+- Tokio Art Book Fair トキオアートブックフェア
+- TOKYO ART BOOK FAIR 2025
+- PDF TOKYO ART BOOK FAIR 2024 - mot-art-museum.jp
+- PDF International Creator Residency Program 2026 Application Outline
+- 2026年度 リサーチ・レジデンス・プログラム
+- Open Call for the International Creator Residency Program 2026
+- Open Call Guest Artist
+- L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info
+- Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...
+- Hayama Artist Residency Submission Manager - Submittable
+- NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW
+- Kyoto Retreat Artist Residency 2026 - Open Call
+- OPEN CALL for the Artist-In-Residence Program 2025/2026
+- 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
+- 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...
+- Submissions — Clavis Publishing
+- » 21 Terrific Small Presses Open to Direct Submissions
+- SUBMISSIONS - marblepress.com
+- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]
+- Publishers & Publishing Services in Japan - PublishersGlobal.com
+- Submissions - Little Press Publishing
+- 3 Top Book Publishers in Tokyo in 2026
+- submissions — porkbelly press
+- 3 Top Book Publishers in Japan in 2026
+- Become an Author - Tuttle Publishing
+- Japan Book Publishers Association - JBPA
+- ART BOX Publishing

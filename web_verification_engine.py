@@ -1,214 +1,186 @@
 
 import json
 import re
-import time
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
 
-QUEUE = "memory/verification_queue.json"
-OUT = "memory/verified_opportunities.json"
-REPORT = "reports/web_verification_report.md"
+QUEUE_PATH = "memory/verification_queue.json"
+OUT_PATH = "memory/verified_opportunities.json"
 
-EMAIL_RE = r"[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}"
-DATE_RE = [
-    r"\b20[2-9][0-9][-/\.][0-9]{1,2}[-/\.][0-9]{1,2}\b",
-    r"\b20[2-9][0-9]年\s*[0-9]{1,2}月\s*[0-9]{1,2}日\b",
+EMAIL_RE = r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
+DATE_RE = r"20[2-9][0-9][-/\.][0-9]{1,2}[-/\.][0-9]{1,2}"
+
+SUBMISSION_WORDS = [
+    "submit", "submission", "apply", "application", "entry",
+    "open call", "artist call", "opportunity", "opportunities",
+    "contest", "award", "exhibition",
+    "応募", "公募", "募集", "出展", "申し込み", "申込"
 ]
 
-SUBMISSION_TERMS = [
-    "open call", "submission", "submit", "apply", "application", "entry",
-    "artist call", "opportunity", "exhibition", "contest", "award",
-    "応募", "公募", "募集", "申込", "エントリー"
+CONTACT_WORDS = [
+    "contact", "about", "inquiry", "inquiries",
+    "お問い合わせ", "問合せ", "連絡", "会社概要"
 ]
 
-CONTACT_TERMS = [
-    "contact", "about", "inquiry", "お問い合わせ", "問合せ", "アクセス"
-]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (MochiVerifier/2.0)"}
-
-
-def load(path, fallback):
-    if Path(path).exists():
-        return json.load(open(path, encoding="utf-8"))
+def load_json(path, fallback):
+    p = Path(path)
+    if p.exists():
+        return json.loads(p.read_text(encoding="utf-8"))
     return fallback
 
 
-def save(path, data):
-    Path(path).parent.mkdir(parents=True, exist_ok=True)
-    json.dump(data, open(path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-
-
-def normalize_url(url):
-    url = str(url or "").strip()
-    if url and not url.startswith(("http://", "https://")):
-        url = "https://" + url
-    return url
+def save_json(path, data):
+    p = Path(path)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 def same_domain(a, b):
     try:
-        return urlparse(a).netloc.replace("www.", "") == urlparse(b).netloc.replace("www.", "")
+        da = urlparse(a).netloc.lower().replace("www.", "")
+        db = urlparse(b).netloc.lower().replace("www.", "")
+        return da == db
     except Exception:
         return False
 
 
-def fetch(url):
-    try:
-        r = requests.get(url, timeout=15, headers=HEADERS, allow_redirects=True)
-        response.encoding = response.apparent_encoding
-        return r.status_code, r.text, r.url, None
-    except Exception as e:
-        return None, "", url, str(e)
+def classify_link(label, href):
+    blob = f"{label} {href}".lower()
+
+    if any(word in blob for word in SUBMISSION_WORDS):
+        return "submission_candidate"
+
+    if any(word in blob for word in CONTACT_WORDS):
+        return "contact_candidate"
+
+    return "other"
 
 
-def extract_links(html, base_url):
+def extract_links(html, base_url, limit=250):
     soup = BeautifulSoup(html, "html.parser")
     links = []
+    seen = set()
 
     for a in soup.find_all("a", href=True):
-        href = urljoin(base_url, a.get("href", ""))
+        href = urljoin(base_url, a.get("href", "").strip())
         label = " ".join(a.get_text(" ", strip=True).split())
+
         if not href.startswith(("http://", "https://")):
             continue
 
-        blob = (label + " " + href).lower()
+        if href in seen:
+            continue
 
-        link_type = "other"
-        if any(t in blob for t in SUBMISSION_TERMS):
-            link_type = "submission"
-        elif any(t in blob for t in CONTACT_TERMS):
-            link_type = "contact"
+        seen.add(href)
+
+        kind = classify_link(label, href)
 
         links.append({
-            "label": label[:160],
+            "label": label[:180],
             "url": href,
-            "type": link_type,
+            "kind": kind,
             "same_domain": same_domain(base_url, href),
         })
 
-    out = []
-    seen = set()
-    for link in links:
-        if link["url"] in seen:
-            continue
-        seen.add(link["url"])
-        out.append(link)
+    priority = {
+        "submission_candidate": 0,
+        "contact_candidate": 1,
+        "other": 2,
+    }
 
-    out.sort(key=lambda x: (
-        0 if x["type"] == "submission" else 1 if x["type"] == "contact" else 2,
-        0 if x["same_domain"] else 1,
-        x["url"]
-    ))
-
-    return out[:200]
+    links.sort(key=lambda x: (priority.get(x["kind"], 9), not x["same_domain"], x["url"]))
+    return links[:limit]
 
 
-def extract_emails(text):
-    emails = list(dict.fromkeys(re.findall(EMAIL_RE, text)))
-    return [e for e in emails if not e.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))][:10]
-
-
-def extract_dates(text):
-    dates = []
-    for pat in DATE_RE:
-        dates.extend(re.findall(pat, text))
-    return list(dict.fromkeys(dates))[:20]
-
-
-def visible_text(html):
+def extract_text(html):
     soup = BeautifulSoup(html, "html.parser")
+
     for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
+
     return " ".join(soup.get_text(" ", strip=True).split())
 
 
-def submission_signal(text, links):
-    blob = (text[:50000] + " " + " ".join([l["label"] + " " + l["url"] for l in links])).lower()
-    return "possible" if any(t in blob for t in SUBMISSION_TERMS) else "unknown"
+def verify_one(item):
+    row = dict(item)
+
+    url = row.get("url") or row.get("source_url") or row.get("official_website")
+
+    row["verified"] = False
+    row["http_status"] = "not_checked"
+    row.setdefault("contact", "unknown")
+    row.setdefault("deadline", "unknown")
+    row.setdefault("submission_open", "unknown")
+    row["contact_candidates"] = []
+    row["date_candidates"] = []
+    row["relevant_links"] = []
+
+    if not url:
+        row["http_status"] = "missing_url"
+        return row
+
+    try:
+        r = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
+        row["http_status"] = r.status_code
+
+        if r.status_code >= 400:
+            return row
+
+        html = r.text
+        text = extract_text(html)
+        low = text.lower()
+
+        emails = list(dict.fromkeys(re.findall(EMAIL_RE, html)))
+        dates = list(dict.fromkeys(re.findall(DATE_RE, text)))
+        links = extract_links(html, url)
+
+        row["verified"] = True
+        row["relevant_links"] = links
+        row["contact_candidates"] = emails[:10]
+        row["date_candidates"] = dates[:10]
+
+        if emails:
+            row["contact"] = emails[0]
+
+        if dates:
+            row["deadline"] = dates[0]
+
+        if any(word in low for word in SUBMISSION_WORDS) or any(
+            link["kind"] == "submission_candidate" for link in links
+        ):
+            row["submission_open"] = "possible"
+        else:
+            row["submission_open"] = "unknown"
+
+    except Exception as e:
+        row["http_status"] = "error"
+        row["error"] = str(e)
+
+    return row
 
 
 def main():
-    queue = load(QUEUE, [])
+    queue = load_json(QUEUE_PATH, [])
+
     if not queue:
         raise SystemExit("Missing or empty memory/verification_queue.json")
 
     results = []
 
-    for i, item in enumerate(queue[:20], 1):
-        title = item.get("title", "Unknown")
-        url = normalize_url(item.get("url"))
-        print(f"[{i}/20] {title}")
+    for i, item in enumerate(queue[:20], start=1):
+        print(f"[{i}/20] {item.get('title')}")
+        results.append(verify_one(item))
 
-        row = dict(item)
-        row["url"] = url
-        row["verified"] = False
-        row["http_status"] = None
-        row["submission_open"] = "unknown"
-        row["deadline"] = "unknown"
-        row["contact"] = "unknown"
-        row["relevant_links"] = []
-        row["date_candidates"] = []
-        row["contact_candidates"] = []
+    save_json(OUT_PATH, results)
 
-        if not url:
-            row["error"] = "missing url"
-            results.append(row)
-            continue
-
-        status, html, final_url, error = fetch(url)
-        row["http_status"] = status
-        row["final_url"] = final_url
-
-        if error or not html:
-            row["error"] = error or "empty response"
-            results.append(row)
-            continue
-
-        text = visible_text(html)
-        links = extract_links(html, final_url)
-        emails = extract_emails(text)
-        dates = extract_dates(text)
-
-        row["verified"] = bool(status and status < 400)
-        row["relevant_links"] = links
-        row["contact_candidates"] = emails
-        row["date_candidates"] = dates
-        row["contact"] = emails[0] if emails else "unknown"
-        row["deadline"] = dates[0] if dates else "unknown"
-        row["submission_open"] = submission_signal(text, links)
-        row["last_checked"] = time.strftime("%Y-%m-%d")
-
-        results.append(row)
-
-    save(OUT, results)
-
-    lines = ["# Web Verification Report", "", f"Verified records: {len(results)}", ""]
-    for row in results:
-        lines.append(f"## {row.get('title')}")
-        lines.append(f"- URL: {row.get('url')}")
-        lines.append(f"- Verified: {row.get('verified')}")
-        lines.append(f"- HTTP: {row.get('http_status')}")
-        lines.append(f"- Submission signal: {row.get('submission_open')}")
-        lines.append(f"- Contact: {row.get('contact')}")
-        lines.append(f"- Deadline: {row.get('deadline')}")
-        lines.append(f"- Relevant links stored: {len(row.get('relevant_links', []))}")
-        sublinks = [l for l in row.get("relevant_links", []) if l.get("type") == "submission"][:8]
-        if sublinks:
-            lines.append("- Submission-like links:")
-            for link in sublinks:
-                lines.append(f"  - {link.get('label') or '[no label]'} — {link.get('url')}")
-        lines.append("")
-
-    Path("reports").mkdir(exist_ok=True)
-    Path(REPORT).write_text("\n".join(lines), encoding="utf-8")
-
-    print("Verified:", len(results))
-    print("Relevant links added to memory/verified_opportunities.json")
-    print("Wrote", REPORT)
+    print(f"Wrote {OUT_PATH}")
+    if results:
+        print("First record keys:", sorted(results[0].keys()))
+        print("First record link count:", len(results[0].get("relevant_links", [])))
 
 
 if __name__ == "__main__":

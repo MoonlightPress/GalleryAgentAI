@@ -4,33 +4,112 @@
     "url": "https://tokyoartbookfair.com/",
     "score": 9.6,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
-    "final_url": "https://tokyoartbookfair.com/",
-    "error": "name 'response' is not defined",
-    "submission_links": [
+    "date_candidates": [],
+    "relevant_links": [
       {
-        "label": "Application",
+        "label": "APPLICATION",
         "url": "https://tokyoartbookfair.com/application/",
-        "same_domain": true,
-        "submission_link_score": 10,
-        "application_link_score": 10
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "ABOUT",
+        "url": "https://tokyoartbookfair.com/about/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "CONTACT",
+        "url": "https://tokyoartbookfair.com/contact/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://tokyoartbookfair.com",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "HOME",
+        "url": "https://tokyoartbookfair.com/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "ACCESS",
+        "url": "https://tokyoartbookfair.com/access/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "ARCHIVES",
+        "url": "https://tokyoartbookfair.com/archives/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "COMMUNITY AGREEMENT",
+        "url": "https://tokyoartbookfair.com/community-agreement/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "EN",
+        "url": "https://tokyoartbookfair.com/en/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "PRIVACY POLICY",
+        "url": "https://tokyoartbookfair.com/privacy-policy/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://twitter.com/tabf_info",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.facebook.com/tokyoartbookfair/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.instagram.com/tokyoartbookfair/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.threads.net/@tokyoartbookfair",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.youtube.com/channel/UClbcwdHlOtB2SpDnqgxpeeA",
+        "kind": "other",
+        "same_domain": false
       }
     ],
-    "ranked_submission_links": [
+    "submission_links": [
       {
-        "label": "Application",
+        "label": "APPLICATION",
         "url": "https://tokyoartbookfair.com/application/",
-        "same_domain": true,
-        "submission_link_score": 10,
-        "application_link_score": 10
+        "kind": "submission_candidate",
+        "same_domain": true
       }
     ]
   },
@@ -44,14 +123,11 @@
     "contact": "unknown",
     "fee": "unknown",
     "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "http_status": 522,
     "contact_candidates": [],
-    "final_url": "https://selfpublishbehappy.com/",
-    "error": "HTTPSConnectionPool(host='selfpublishbehappy.com', port=443): Read timed out. (read timeout=15)",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "date_candidates": [],
+    "relevant_links": [],
+    "submission_links": []
   },
   {
     "title": "Home - Printed Matter",
@@ -63,14 +139,11 @@
     "contact": "unknown",
     "fee": "unknown",
     "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "http_status": 403,
     "contact_candidates": [],
-    "final_url": "https://www.printedmatter.org/",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "date_candidates": [],
+    "relevant_links": [],
+    "submission_links": []
   },
   {
     "title": "Jackson's Art Prize",
@@ -82,30 +155,11 @@
     "contact": "unknown",
     "fee": "unknown",
     "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "http_status": 403,
     "contact_candidates": [],
-    "final_url": "https://www.jacksonsart.com/paintingprize/",
-    "error": "name 'response' is not defined",
-    "submission_links": [
-      {
-        "label": "Jackson's Art Prize",
-        "url": "https://www.jacksonsart.com/paintingprize/",
-        "same_domain": true,
-        "submission_link_score": 1,
-        "application_link_score": 1
-      }
-    ],
-    "ranked_submission_links": [
-      {
-        "label": "Jackson's Art Prize",
-        "url": "https://www.jacksonsart.com/paintingprize/",
-        "same_domain": true,
-        "submission_link_score": 1,
-        "application_link_score": 1
-      }
-    ]
+    "date_candidates": [],
+    "relevant_links": [],
+    "submission_links": []
   },
   {
     "title": "Royal Institute of Painters in Water Colours",
@@ -117,30 +171,11 @@
     "contact": "unknown",
     "fee": "unknown",
     "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "http_status": 404,
     "contact_candidates": [],
-    "final_url": "https://www.mallgalleries.org.uk/open-exhibitions",
-    "error": "name 'response' is not defined",
-    "submission_links": [
-      {
-        "label": "Mall Galleries Open Calls",
-        "url": "https://www.mallgalleries.org.uk/open-calls",
-        "same_domain": true,
-        "submission_link_score": 14,
-        "application_link_score": 14
-      }
-    ],
-    "ranked_submission_links": [
-      {
-        "label": "Mall Galleries Open Calls",
-        "url": "https://www.mallgalleries.org.uk/open-calls",
-        "same_domain": true,
-        "submission_link_score": 14,
-        "application_link_score": 14
-      }
-    ]
+    "date_candidates": [],
+    "relevant_links": [],
+    "submission_links": []
   },
   {
     "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
@@ -152,14 +187,11 @@
     "contact": "unknown",
     "fee": "unknown",
     "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "http_status": 403,
     "contact_candidates": [],
-    "final_url": "https://www.printedmatter.org/programs/events/2250",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "date_candidates": [],
+    "relevant_links": [],
+    "submission_links": []
   },
   {
     "title": "HB Gallery",
@@ -170,15 +202,73 @@
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
-    "final_url": "https://hbgallery.com/",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "date_candidates": [],
+    "relevant_links": [
+      {
+        "label": "",
+        "url": "https://hbgallery.com/about.html",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://hbgallery.com/contact.html",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "http://hbgallery.com/blog/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://hbgallery.com/compe.html",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://hbgallery.com/map.html",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://hbgallery.com/news.php",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://hbgallery.com/rental.html",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://hbgallery.com/schedule/index.php",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "http://hbgallery.shop-pro.jp/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "http://www.hbc.ne.jp/",
+        "kind": "other",
+        "same_domain": false
+      }
+    ],
+    "submission_links": []
   },
   {
     "title": "OPA Gallery",
@@ -187,50 +277,350 @@
     "status": "unverified",
     "submission_open": "unknown",
     "deadline": "unknown",
-    "contact": "unknown",
+    "contact": "mail@opagallery.net",
     "fee": "unknown",
-    "verified": false,
-    "http_status": null,
-    "relevant_links": [],
+    "verified": true,
+    "http_status": 200,
+    "contact_candidates": [
+      "mail@opagallery.net"
+    ],
     "date_candidates": [],
-    "contact_candidates": [],
-    "final_url": "https://opagallery.net/",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "relevant_links": [
+      {
+        "label": "",
+        "url": "https://opagallery.net/about.html",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://opagallery.net/NEWS.html",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://opagallery.net/RENTAL.html",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://opagallery.net/access.html",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://opagallery.net/galllery.html",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://opagallery.net/index.html",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://opagallery.net/pg519.html",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://opagallery.net/shop.html",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://opastore.stores.jp",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Twitter",
+        "url": "https://twitter.com/opagallery",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/opagalleyshop/?modal=admin_todo_tour",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/opagallery/",
+        "kind": "other",
+        "same_domain": false
+      }
+    ],
+    "submission_links": []
   },
   {
     "title": "Pinpoint Gallery",
     "url": "https://pinpointgallery.com/",
     "score": 9.6,
     "status": "unverified",
-    "submission_open": "unknown",
-    "deadline": "unknown",
+    "submission_open": "possible",
+    "deadline": "2026.5.23",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
-    "final_url": "https://pinpointgallery.com/",
-    "error": "name 'response' is not defined",
-    "submission_links": [
+    "date_candidates": [
+      "2026.5.23",
+      "2026.5.12",
+      "2026.5.7",
+      "2026.4.8"
+    ],
+    "relevant_links": [
       {
-        "label": "Competition / Application",
-        "url": "https://pinpointgallery.com/competition/",
-        "same_domain": true,
-        "submission_link_score": 17,
-        "application_link_score": 17
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/27thcompetiton_exhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/higamikumikoexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/katsuhikotamuraexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/kiepinokoexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/sakatokumiyukiexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/tetsujiyamaguchiexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "応募要項",
+        "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/",
+        "kind": "submission_candidate",
+        "same_domain": false
+      },
+      {
+        "label": "ピンポイントギャラリーについて",
+        "url": "https://pinpointgallery.com/about/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "About&Access",
+        "url": "https://pinpointgallery.com/aboutaccess/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "お問い合わせ",
+        "url": "https://pinpointgallery.com/contact-2/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "NEW: 第27回ピンポイント絵本コンペの審査結果",
+        "url": "https://pinpointgallery.com/news/newsabout_27thcompetitionresult/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "NEW: 第27回ピンポイント絵本コンペが終了しました",
+        "url": "https://pinpointgallery.com/news/newsaboutcompetition_1/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "NEW: 第21回ピンポイント絵本コンペ受賞作品が刊行されました",
+        "url": "https://pinpointgallery.com/news/newsaboutkanko_shiritori/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2026年ピンポイント絵本コンペの受付が始まります！",
+        "url": "https://pinpointgallery.com/news/newsaboutppbc2026_1/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Contact",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfP5F6aKG7jU25NHBbsH1_i2L8GZM_AMavRpLKDzqAxpJR9Ng/viewform?usp=publish-editor",
+        "kind": "contact_candidate",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "http://pinpointgallery.com/access/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "http://pinpointgallery.com/schedule/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "http://pinpointgallery.com/space/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "menu",
+        "url": "https://pinpointgallery.com/#",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "PAGE TOP",
+        "url": "https://pinpointgallery.com/#body",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "ギャラリーまでの行き方",
+        "url": "https://pinpointgallery.com/access/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "RSS",
+        "url": "https://pinpointgallery.com/feed/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "NEWS一覧",
+        "url": "https://pinpointgallery.com/news/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "NEW：絵本コンペの審査結果に審査員講評を追加しました",
+        "url": "https://pinpointgallery.com/news/ppbccompetitionkohyo2026/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "OnlineStore",
+        "url": "https://pinpointgallery.com/onlinestore/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Schedule",
+        "url": "https://pinpointgallery.com/schedule/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "ギャラリーレンタルについて",
+        "url": "https://pinpointgallery.com/space/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "オンラインストア",
+        "url": "https://pinpoint.official.ec/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Competition",
+        "url": "https://www.develop.pinpointgallery.com/competiton/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "ピンポイント絵本コンペとは？",
+        "url": "https://www.develop.pinpointgallery.com/competiton/competitionpolicy/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/pinpointgallerystaff/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/pinpointgallery_1988/",
+        "kind": "other",
+        "same_domain": false
       }
     ],
-    "ranked_submission_links": [
+    "submission_links": [
       {
-        "label": "Competition / Application",
-        "url": "https://pinpointgallery.com/competition/",
-        "same_domain": true,
-        "submission_link_score": 17,
-        "application_link_score": 17
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/27thcompetiton_exhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/higamikumikoexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/katsuhikotamuraexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/kiepinokoexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/sakatokumiyukiexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/tetsujiyamaguchiexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "応募要項",
+        "url": "https://www.develop.pinpointgallery.com/competiton/ouboyokocompetition_the26/",
+        "kind": "submission_candidate",
+        "same_domain": false
       }
     ]
   },
@@ -239,19 +629,890 @@
     "url": "https://www.royalwatercoloursociety.co.uk/",
     "score": 9.1,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
-    "contact": "unknown",
+    "contact": "info@royalwatercoloursociety.com",
     "fee": "unknown",
-    "verified": false,
-    "http_status": null,
-    "relevant_links": [],
+    "verified": true,
+    "http_status": 200,
+    "contact_candidates": [
+      "info@royalwatercoloursociety.com"
+    ],
     "date_candidates": [],
-    "contact_candidates": [],
-    "final_url": "https://www.royalwatercoloursociety.co.uk/",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "relevant_links": [
+      {
+        "label": "Exhibitions",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibitions Royal Watercolour Society at the RWS Gallery Final days to visit 10 April - 31 December 2026 LEARN MORE",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "RWS GALLERY AT WHITCOMB STREET Open Tuesday - Saturday, 11am - 5pm",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/overview/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibitions The Chemistry of Water Modupeola Fadugba 5 - 27 June 2026 LEARN MORE",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/106-the-chemistry-of-water-modupeola-fadugba/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "LEARN MORE",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/106-the-chemistry-of-water-modupeola-fadugba/overview/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Opportunities",
+        "url": "https://www.royalwatercoloursociety.co.uk/opportunities/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "About",
+        "url": "https://www.royalwatercoloursociety.co.uk/about/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Royal Watercolour Society",
+        "url": "https://www.royalwatercoloursociety.co.uk/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Menu",
+        "url": "https://www.royalwatercoloursociety.co.uk/#",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Skip to main content",
+        "url": "https://www.royalwatercoloursociety.co.uk/#main_content",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Artists",
+        "url": "https://www.royalwatercoloursociety.co.uk/artists/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13072/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13334/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13335/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13336/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13377/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13379/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13380/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13382/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13384/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13388/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13396/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13397/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13399/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13401/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13402/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13404/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13405/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13406/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13408/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13419/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13420/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13421/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13429/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13439/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13440/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13441/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13445/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13446/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13447/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13449/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13451/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13452/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13453/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13470/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13471/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13473/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13482/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13484/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13492/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13493/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13532/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13534/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13535/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13536/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13540/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13541/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13542/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13543/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13549/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13553/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13554/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13556/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13558/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "View Detail Page",
+        "url": "https://www.royalwatercoloursociety.co.uk/content/feature/181/artworks_standalone13610/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Find Out More",
+        "url": "https://www.royalwatercoloursociety.co.uk/cookie-policy/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Copyright Notice",
+        "url": "https://www.royalwatercoloursociety.co.uk/copyright/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "EVENTS",
+        "url": "https://www.royalwatercoloursociety.co.uk/events/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Galleries",
+        "url": "https://www.royalwatercoloursociety.co.uk/galleries/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Our History",
+        "url": "https://www.royalwatercoloursociety.co.uk/history",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Whitcomb Street Project",
+        "url": "https://www.royalwatercoloursociety.co.uk/history/whitcomb-street-project/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Sign up to our newsletter (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='L",
+        "url": "https://www.royalwatercoloursociety.co.uk/mailing-list/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "New Available Artworks",
+        "url": "https://www.royalwatercoloursociety.co.uk/new-available-artworks",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Press",
+        "url": "https://www.royalwatercoloursociety.co.uk/press",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://www.royalwatercoloursociety.co.uk/privacy-policy/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Venue Hire",
+        "url": "https://www.royalwatercoloursociety.co.uk/rws-gallery-hire",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Venue Hire",
+        "url": "https://www.royalwatercoloursociety.co.uk/rws-gallery-hire/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Sales Policy",
+        "url": "https://www.royalwatercoloursociety.co.uk/sales-policy/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Support",
+        "url": "https://www.royalwatercoloursociety.co.uk/support/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Visit",
+        "url": "https://www.royalwatercoloursociety.co.uk/visit",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Visit",
+        "url": "https://www.royalwatercoloursociety.co.uk/visit/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Site by Artlogic",
+        "url": "https://artlogic.net/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Annie Williams The Blue Table watercolour Framed Artwork: 38 x 47cm Frame: 59 x 67cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/02/0267112780974a88a9bfedc8ae9d13d3/the-blue-table.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Claire Denny Broughton Grange Garden Beds acrylic & ink Unframed with a double mount Artwork: 29 x 29cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/04/04c1186a889a4f2d80b9904acb7b0ae3/broughton-grange-garden-beds.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Annie Williams Still Life with a Touch of Green watercolour & gouache Framed Artwork: 30 x 39cm Frame: 52 x 59cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/09/09c3429518904fddab7efdd9f4f8dd09/still-life-with-a-touch-of-green.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Jim Hunter Orange Purbeck watercolour & ink Unframed in window mount Artwork: 15 x 20cm Mount: 24 x 30cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/0a/0a39d7f7ad8d4f7f9c905ae661cf1bcf/orange-purbeck.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Mike Middleton Trees near the Villa acrylic Unframed Artwork: 22 x 17cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/0c/0c8a66b5e79e4e678079bde7bd4e6a54/trees-near-the-villa.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Mark Raggett Rocky Landscape mixed media Framed Artwork: 28 x 38cm Frame: 49 x 59cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/0f/0fffc77ce37c49938905cdb29a896c42/rocky-landscape.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Phoebe Barnicoat Three Sisters watercolour Unframed Artwork: 10.5 x 14.5cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/15/157086e27dd3410c95f3fe24185df157/three-sisters_14.5cm-x-10.5cm_watercolour-on-paper_2025_phoebe-barnicoat_-520.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Caroline Cornelius Someone Broke a Glass in the Guacamole watercolour & colour pencil Unframed Artwork: 28.5 x 38.5cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/18/186d524afafb4f32a61f51a9d5543dc9/someone_broke_a_glass_in_the_guacamole-copy.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Sarah Holliday The Hiss of Receding Waves watercolour Framed Artwork: 15 x 15cm Frame: 20 x 20cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/1c/1cb810d17c234568839f358cd6dc2e11/rws-the-hiss-of-the-receding-waves.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Mike Middleton Bitonto watercolour Unframed Artwork: 25 x 20",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/20/20caa0a736d04227a7a4dbd746225d38/bitonto.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Myrtle Glanville Treasure Hunt Gang ink Unframed Artwork: 29 x 84cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/23/2300ad465a9a4970bf447d7e8fc1c585/glanville_myrtle_treasure-hunt-gang.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Olivia Adamczyk O'Sullivan French Field in May watercolour & pencil Unframed Artwork: 31 x 42cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/24/24a5955090924fd2867a70935c3840ea/french-field-in-may-olivia-a-osullivan.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Jill Leman Coastal Memories acrylic on card Framed Artwork: 25 x 25cm Frame: 33 x 33cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/27/2715cbac59154ab0bead99ab23e84b04/jill-leman-coastal-memories.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Myrtle Glanville Devoted to the Game ink & collage Unframed Artwork: 59 x 84cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/34/34a438a591ff421eb654f90daa5e49e5/glanville_myrtle_devoted-to-the-game.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Akash Bhatt Raath I (Night) acrylic & ink Framed Artwork: 30 x 35cm Frame: 46 x 50cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/3d/3d7f3416a015491b9ab3b19ac96e7595/img_3419-1-.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Bridget Moore Pink Thames gouache Framed Artwork: 24.5 x 16.5cm Frame: 44.5 x 36.5cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/4a/4a5132dd167740e885fc0a5d076e2350/bridget-moore-pink-thames-gouache.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Mark Raggett The Bay mixed media Framed Artwork: 25 x 37cm Frame: 45 x 58cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/52/524d5f847ba749c29863dab65afc330f/the-bay.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Jim Hunter Corfe 10 watercolour & collage Unframed in window mount Artwork: 15 x 20cm Mount: 24 x 30cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/62/62d415f165954e3ea22075a7e46f4ece/corfe-10.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Jim Hunter Corfe 11 watercolour & collage Unframed in window mount Artwork: 15 x 20cm Mount: 24 x 30cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/64/64f827fb3e774ad5bee9894863b79dfd/corfe-11.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Bridget Moore Slinky Walk gouache Framed Artwork: 15 x 21.5cm Frame: 42 x 47cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/68/684db6a9e1c94b42a356efe4e9ea7fef/bridget-moore-slinky-walk-gouache-15cms-x-21.5cms.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Mark Raggett Sheltered Bay mixed media Framed Artwork: 10 x 21cm Frame: 28 x 40cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/74/744d7b93f64d4ae49d1dd069b433f572/sheltered-bay.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Richard Sorrell Holiday acrylic Framed Artwork: 41 x 48cm Frame: 57 x 64cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/7c/7c5e30f30c1d4efe8c784aadaac0c874/richard-sorrell-holiday.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/81/811f11a1e3574f0abbc2ccbcd6f8488b/waiting-for-the-ark.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Jill Leman Full Moon Over Barnsbury acrylic Framed Artwork: 36 x 46cm Frame: 43 x 53cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/82/8227ac1ab6994fc9a65ad9cd8dd7d621/jill-leman-full-moon-over-barnsbury.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 14.5cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/84/84d201cb973b400b85cd3425fb0a4fb8/gabriella-painting-me-painting-her_14.5cm-x-10.5cm_watercolour-on-paper_phoebe-barnicoat_-520.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Myrtle Glanville Strange View Through My Eye ink , gesso & collage Unframed Artwork: 83.5 x 114cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/93/93fe0c02efcf4f31829c99df79735b8a/glanville_myrtle_strange-view-through-my-eye.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Peter Quinn Kiosk , Cap Malheureux , Mauritius watercolour Framed Artwork: 19 x 17cm Frame: 39 x 37cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/96/9606fe52d66d4b22b3d23051b2da537f/kiosk-cap-malheureux-mauritius.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Francis Bowyer Moonlit Night watercolour Unframed with mount Artwork: 18 x 21cm Mount: 30 x 33cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/97/97e0a65417a74600bd3e8c34618dbcb5/moonlit-night.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Bridget Moore Two Girls gouache Framed Artwork: 15.5 x 22.5cm Frame: 36 x 42cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/9a/9a83df6f4fba437b9b62ca7f720cb192/moore-bridget-two-girls-gouache-framed-size-36.5-x-42-cms-image-size-15.5-x-22.5-cms.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Sarah Holliday Finding Light Through the Reeds watercolour Framed Artwork: 15 x 15cm Frame: 20 x 20cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/9b/9b46a6717ad442ba96351b05c557fc7e/rws-7.24-finding-light-through-the-reeds-sarah-holliday.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Richard Sorrell A Knowing Smile acrylic Framed Artwork: 39 x 28cm Frame: 55 x 44cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/9f/9f97ba0b15f94ddf857952fc6f3f6962/richard-sorrell-a-knowing-smile.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Jill Leman Butterflies & Tulips watercolour & acrylic Framed Artwork: 40 x 44cm Frame: 47 x 52cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/a0/a0e2f1573ab34d81a1bb1172a4c60194/jill-leman-butterflies-tulips.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Claire Denny Sir Hans Sloane , Chelsea Physic Garden gouache & ink Unframed with a double mount Artwork: 20 x 20cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/ab/ab5882d7924343d59d7e313222705ca0/sir-hans-sloane-chelsea-physic-garden.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Francis Bowyer Dusk watercolour Unframed with mount Artwork: 16 x 20cm Mount: 32 x 34cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/ac/ac45f562c374477a8e9b88b9c11ffda1/dusk.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Annie Williams Pots and Doodles watercolour Framed Artwork: 27 x 36cm Frame: 45 x 55cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/b9/b9849bf11c2f466da26347c7681bb126/pots-and-doodles.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Claire Denny The Walled Garden at Broughton Grange watercolour & ink Unframed with a double mount Artwork: 29 x 29cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/bc/bc68f6002c6e425c9c7fe6df19e2c025/the-walled-garden-at-broughton-gate-.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Peter Quinn Small Shop , Rodrigues , Mauritius watercolour Framed Artwork: 100 x 40cm Frame: 120 x 68cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/bd/bdc3d6f480b74904a7ebeaf96a2d1f71/small-shop-rodrigues-mauritius.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Caroline Cornelius Erica's Autumn Walk watercolour & colour pencil Unframed Artwork: 26 x 17cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/be/be2c8ca7ae924193a47477ca6a93b8d2/cornelius_caroline_erica-s-autumn-walk.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Francis Bowyer Celebrating Low Tide watercolour Framed Artwork: 18 x 27cm Frame: 38 x 46cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/be/be3ba21a476846b79b2949f3d43a087d/celebrating-low-tide-.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Olivia Adamczyk O'Sullivan French Field #26 acrylic Unframed Artwork: 31 x 42cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/c3/c3e1056932004d04a92bf11ae508f661/olivia-a-os-2-french-field-26.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Mike Middleton Cotswold Landscape acrylic Unframed Artwork: 20 x 31cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/c8/c8d88348b5404b499ec72463e6e40840/the-cotswold-landscape.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Jim Hunter Corfe 1 watercolour & collage Unframed in window mount Artwork: 15 x 20cm Mount: 24 x 30cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/ce/ce41ecb28f2f4b92ab2081bff88c9fde/corfe-1.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Akash Bhatt Eklo (Alone) watercolour Framed Artwork: 24 x 28cm Frame: 39 x 43cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/cf/cff5593990de44e6961a489148743103/eklo-alone-.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Sarah Holliday Listening to the Rippling Water watercolour Framed Artwork: 15 x 15cm Frame: 20 x 20cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/d2/d2c3a9cd384647d390e7c26f615595ab/rws-7.24-listen-to-the-rippling-water-sarah-holliday.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Chloë Cheese Texture of an Afternoon watercolour & pencil Unframed Artwork: 19 x 23.5cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/d6/d6854110fb14471eb4dfaa047ba93498/texture-of-an-afternoon-cc.jpeg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Akash Bhatt Khanderao Market II acrylic Framed Artwork: 14 x 20cm Frame: 32 x 38cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/d8/d8113b3b80e44cc9abad3cf87bc281f9/khanderao-market-ll.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Richard Sorrell Two Women Walking and Laughing acrylic Framed Artwork: 56 x 37cm Frame: 72 x 53cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/df/df3f0e4fa828473e9d08a59f3ee76da4/richard-sorrell-two-women-walking-and-laughing.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Peter Quinn Frying Fish , Mahebourg , Mauritius watercolour Framed Artwork: 56 x 75cm Frame: 70 x 85cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/e4/e447c9e300624dc7b1be32fb4f4456ee/frying-fish-mahebourg-mauritius.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Anne Marlow Seathrift watercolour & pastel Unframed Artwork: 24 x 26.5cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/e6/e68398e3669d4e45b18f9ea08d9d404f/seathrift.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Lottie Cole Interior with Sunset at Sea watercolour & gouache Framed Artwork: 36 x 26cm Frame: 43 x 33cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/ec/ec30a3b92e064a109cd4004a269f6368/lottie-cole_03_interior-with-sunset-at-sea-watercolour-and-gouache-2024_36x26-cm.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Anne Marlow A Safe Place watercolour & pastel Unframed Artwork: 23.5 x 24cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/f4/f42bf06e819741689a24710be246ea2a/a-safe-place.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Caroline Cornelius Green Floral Sunlounger III watercolour & colour pencil Unframed Artwork: 28.5 x 20cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/f5/f52413f929d7481cbb43b443fe0e9b02/cornelius_caroline_green-floral-sunlounger.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Phoebe Barnicoat Snake Meet watercolour Unframed Artwork: 14.5 x 10.5cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/fa/fafcf4d171fd4247bc478214dcf3a9ac/snake-meet_14.5cm-x-10.5cm_watercolour-on-paper_2025_phoebe-barnicoat_-520.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Myrtle Glanville Hide and Seek ink & glass varnish Unframed Artwork: 83.5 x 114cm",
+        "url": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy/ws-rws/usr/images/artworks/main_image/items/fc/fcfb0bcbeb3c497292d419ce20f8147f/glanville_myrtle_hide-and-seek.jpg",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Pinterest , opens in a new tab.",
+        "url": "https://uk.pinterest.com/royalwatercoloursociety/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Facebook , opens in a new tab.",
+        "url": "https://www.facebook.com/RoyalWatercolourSociety",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Instagram , opens in a new tab.",
+        "url": "https://www.instagram.com/royalwatercoloursociety/",
+        "kind": "other",
+        "same_domain": false
+      }
+    ],
+    "submission_links": [
+      {
+        "label": "Exhibitions",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibitions Royal Watercolour Society at the RWS Gallery Final days to visit 10 April - 31 December 2026 LEARN MORE",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "RWS GALLERY AT WHITCOMB STREET Open Tuesday - Saturday, 11am - 5pm",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/overview/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibitions The Chemistry of Water Modupeola Fadugba 5 - 27 June 2026 LEARN MORE",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/106-the-chemistry-of-water-modupeola-fadugba/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "LEARN MORE",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/106-the-chemistry-of-water-modupeola-fadugba/overview/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Opportunities",
+        "url": "https://www.royalwatercoloursociety.co.uk/opportunities/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ]
   },
   {
     "title": "Mall Galleries Open Exhibitions",
@@ -263,49 +1524,328 @@
     "contact": "unknown",
     "fee": "unknown",
     "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "http_status": 404,
     "contact_candidates": [],
-    "final_url": "https://www.mallgalleries.org.uk/open-exhibitions",
-    "error": "name 'response' is not defined",
-    "submission_links": [
-      {
-        "label": "Mall Galleries Open Calls",
-        "url": "https://www.mallgalleries.org.uk/open-calls",
-        "same_domain": true,
-        "submission_link_score": 14,
-        "application_link_score": 14
-      }
-    ],
-    "ranked_submission_links": [
-      {
-        "label": "Mall Galleries Open Calls",
-        "url": "https://www.mallgalleries.org.uk/open-calls",
-        "same_domain": true,
-        "submission_link_score": 14,
-        "application_link_score": 14
-      }
-    ]
+    "date_candidates": [],
+    "relevant_links": [],
+    "submission_links": []
   },
   {
     "title": "Society of Women Artists",
     "url": "https://www.society-women-artists.org.uk/",
     "score": 9.1,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
-    "contact": "unknown",
+    "contact": "info@society-women-artists.org.uk",
     "fee": "unknown",
-    "verified": false,
-    "http_status": null,
-    "relevant_links": [],
+    "verified": true,
+    "http_status": 200,
+    "contact_candidates": [
+      "info@society-women-artists.org.uk",
+      "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+      "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+      "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+      "18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com",
+      "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+      "ed436f5053144538958ad06a5005e99a@sentry.wixpress.com",
+      "baf30a2b91654c5a840931f0137bed30@sentry.wixpress.com",
+      "0e6a29e4756740a8a63493e912ba2174@sentry.wixpress.com",
+      "8c4075d5481d476e945486754f783364@sentry.io"
+    ],
     "date_candidates": [],
-    "contact_candidates": [],
-    "final_url": "https://www.society-women-artists.org.uk/",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "relevant_links": [
+      {
+        "label": "THE SOCIETY OF WOMEN ARTISTS - 2019 EXHIBITION",
+        "url": "https://www.society-women-artists.org.uk",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2016 155th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2016-155th-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2017 156th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2017-156th-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2018 157th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2018-157th-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2019 158th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2019-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2020 159th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2020-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2021 160th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2021-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2022 161st Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2022-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2023 162nd Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2023-162nd-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2024 163rd Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2024-163rd-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2025 164th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2025-164th-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "EXHIBITOR INFORMATION",
+        "url": "https://www.society-women-artists.org.uk/2026-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "ANNUAL EXHIBITIONS",
+        "url": "https://www.society-women-artists.org.uk/exhibition-information",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "RA Summer Exhibition Selection for Chrissie Birchall PVP,SWA",
+        "url": "https://www.society-women-artists.org.uk/post/ra-summer-exhibition-selection-for-chrissie-birchall-pvp-swa",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Soraya French PPSWA Exhibition",
+        "url": "https://www.society-women-artists.org.uk/post/soraya-french-ppswa-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "ABOUT",
+        "url": "https://www.society-women-artists.org.uk/about-the-swa",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "CONTACT",
+        "url": "https://www.society-women-artists.org.uk/contact",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "AFFORDABLE ART",
+        "url": "https://www.society-women-artists.org.uk/affordable-art-initiative",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Friends of the SWA",
+        "url": "https://www.society-women-artists.org.uk/becoming-a-friend-of-the-swa",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "2026 Selection Results",
+        "url": "https://www.society-women-artists.org.uk/copy-of-2026-selection-results",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Becoming a Member",
+        "url": "https://www.society-women-artists.org.uk/copy-of-all-members",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Officers and Council",
+        "url": "https://www.society-women-artists.org.uk/copy-of-members",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "SPONSORS",
+        "url": "https://www.society-women-artists.org.uk/copy-of-sponsors",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "HISTORY",
+        "url": "https://www.society-women-artists.org.uk/history",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "ALL MEMBERS",
+        "url": "https://www.society-women-artists.org.uk/members-list",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "NEWS",
+        "url": "https://www.society-women-artists.org.uk/news",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "The SWA at Stephenson's Gallery, York",
+        "url": "https://www.society-women-artists.org.uk/post/the-swa-at-stephenson-s-gallery-york",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "PRIVACY POLICY",
+        "url": "https://www.society-women-artists.org.uk/privacy-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "SWA Playing Cards",
+        "url": "https://www.society-women-artists.org.uk/swa-playing-cards",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "http://pinterest.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://twitter.com/SWAinfo",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.facebook.com/SWABritain/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.instagram.com/swainfo/",
+        "kind": "other",
+        "same_domain": false
+      }
+    ],
+    "submission_links": [
+      {
+        "label": "THE SOCIETY OF WOMEN ARTISTS - 2019 EXHIBITION",
+        "url": "https://www.society-women-artists.org.uk",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2016 155th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2016-155th-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2017 156th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2017-156th-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2018 157th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2018-157th-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2019 158th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2019-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2020 159th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2020-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2021 160th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2021-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2022 161st Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2022-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2023 162nd Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2023-162nd-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2024 163rd Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2024-163rd-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2025 164th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2025-164th-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "EXHIBITOR INFORMATION",
+        "url": "https://www.society-women-artists.org.uk/2026-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "ANNUAL EXHIBITIONS",
+        "url": "https://www.society-women-artists.org.uk/exhibition-information",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "RA Summer Exhibition Selection for Chrissie Birchall PVP,SWA",
+        "url": "https://www.society-women-artists.org.uk/post/ra-summer-exhibition-selection-for-chrissie-birchall-pvp-swa",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Soraya French PPSWA Exhibition",
+        "url": "https://www.society-women-artists.org.uk/post/soraya-french-ppswa-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ]
   },
   {
     "title": "Pastel Society Open Exhibition",
@@ -317,49 +1857,366 @@
     "contact": "unknown",
     "fee": "unknown",
     "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "http_status": 404,
     "contact_candidates": [],
-    "final_url": "https://www.mallgalleries.org.uk/open-exhibitions",
-    "error": "name 'response' is not defined",
-    "submission_links": [
-      {
-        "label": "Mall Galleries Open Calls",
-        "url": "https://www.mallgalleries.org.uk/open-calls",
-        "same_domain": true,
-        "submission_link_score": 14,
-        "application_link_score": 14
-      }
-    ],
-    "ranked_submission_links": [
-      {
-        "label": "Mall Galleries Open Calls",
-        "url": "https://www.mallgalleries.org.uk/open-calls",
-        "same_domain": true,
-        "submission_link_score": 14,
-        "application_link_score": 14
-      }
-    ]
+    "date_candidates": [],
+    "relevant_links": [],
+    "submission_links": []
   },
   {
     "title": "UTRECHT",
     "url": "https://utrecht.jp/",
     "score": 9.0,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
-    "contact": "unknown",
+    "contact": "info@utrecht.jp",
     "fee": "unknown",
-    "verified": false,
-    "http_status": null,
-    "relevant_links": [],
+    "verified": true,
+    "http_status": 200,
+    "contact_candidates": [
+      "info@utrecht.jp"
+    ],
     "date_candidates": [],
-    "contact_candidates": [],
-    "final_url": "https://utrecht.jp/",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "relevant_links": [
+      {
+        "label": "OF & ABOUT POSTERS THE LAWRENCE WEINER POSTER ARCHIVE (1965-2021) / Lawrence Weiner ¥14,000",
+        "url": "https://utrecht.jp/collections/restock/products/of-about-posters-the-lawrence-weiner-poster-archive-1965-2021-lawrence-weiner",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "About",
+        "url": "https://utrecht.jp/pages/about",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Utrecht",
+        "url": "https://utrecht.jp/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Subscribe to our newsletter",
+        "url": "https://utrecht.jp/#",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Log in",
+        "url": "https://utrecht.jp/account/login",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "News",
+        "url": "https://utrecht.jp/blogs/news",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Events / イベント",
+        "url": "https://utrecht.jp/blogs/news/tagged/events",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Information / お知らせ",
+        "url": "https://utrecht.jp/blogs/news/tagged/information",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Works / ワークス",
+        "url": "https://utrecht.jp/blogs/news/tagged/works",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Cart ( 0 )",
+        "url": "https://utrecht.jp/cart",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "アートワーク / Art Works",
+        "url": "https://utrecht.jp/collections/%E3%82%A2%E3%83%BC%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF-art-works",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "グッズ / Goods",
+        "url": "https://utrecht.jp/collections/%E3%82%B0%E3%83%83%E3%82%BA-goods",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "本 / Books",
+        "url": "https://utrecht.jp/collections/%E6%9C%AC-books",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "All Products",
+        "url": "https://utrecht.jp/collections/all",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Birthday Calendar / Karel Martens ¥8,500",
+        "url": "https://utrecht.jp/collections/all/products/birthday-calendar-karel-martens",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Fluxus New York And Elsewhere ¥7,500",
+        "url": "https://utrecht.jp/collections/all/products/fluxus-new-york-and-elsewhere",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "HAKAGE / Jochen Lempert ¥2,909",
+        "url": "https://utrecht.jp/collections/all/products/hakage-jochen-lempert",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Inside SINA: The Society for Indecency to Naked Animals ¥6,500",
+        "url": "https://utrecht.jp/collections/all/products/inside-sina-the-society-for-indecency-to-naked-animals",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "P La Narts /Takahiro Murahashi ¥2,400",
+        "url": "https://utrecht.jp/collections/all/products/p-la-narts-takahiro-murahashi",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "(Signed) DEAD LEAVES 枯れ葉 / 立花文穂 *球体號外付 ¥4,546",
+        "url": "https://utrecht.jp/collections/all/products/signed-dead-leaves-fumio-tachibana",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Out of stock Statement And Counter-Statement (Notes on Experimental Jetset) Vol. 1 / Experimental Jetset ¥7,000",
+        "url": "https://utrecht.jp/collections/all/products/statement-and-counter-statement-notes-on-experimental-jetset-vol-1-experimental-jetset",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Statement And Counter-Statement (Notes on Experimental Jetset) Vol. 2 / Experimental Jetset ¥7,000",
+        "url": "https://utrecht.jp/collections/all/products/statement-and-counter-statement-notes-on-experimental-jetset-vol-2-experimental-jetset-%E3%82%B3%E3%83%94%E3%83%BC",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "The Best Dutch Book Designs 2024 ¥8,000",
+        "url": "https://utrecht.jp/collections/all/products/the-best-dutch-book-designs-2024",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "To Akira (ハングル語訳) / 黒木 晃 ¥1,000",
+        "url": "https://utrecht.jp/collections/all/products/to-akira-%E9%BB%92%E6%9C%A8-%E6%99%83-%E3%83%8F%E3%83%B3%E3%82%B0%E3%83%AB%E8%AA%9E%E8%A8%B3",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Ryuto Miyake × UTRECHT Bandana 2026 ¥2,200",
+        "url": "https://utrecht.jp/collections/all/products/utrecht-ryuto-miyake-bandana-2026",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "XEROGRAFIA / Bruno Munari ¥6,400",
+        "url": "https://utrecht.jp/collections/all/products/xerografia-bruno-munari",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Atelier HOKO",
+        "url": "https://utrecht.jp/collections/atelier-hoko",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Dent-De-Leone",
+        "url": "https://utrecht.jp/collections/dent-de-leone",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Hato Press",
+        "url": "https://utrecht.jp/collections/hato-press",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "mono.kultur",
+        "url": "https://utrecht.jp/collections/mono-kultur",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Nieves",
+        "url": "https://utrecht.jp/collections/nieves",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "PIYO PIYO PRESS",
+        "url": "https://utrecht.jp/collections/piyo-piyo-press",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "目であるく、かたちをきく、さわってみる。／マーシャ・ブラウン ¥1,500",
+        "url": "https://utrecht.jp/collections/restock/products/%E7%9B%AE%E3%81%A7%E3%81%82%E3%82%8B%E3%81%8F-%E3%81%8B%E3%81%9F%E3%81%A1%E3%82%92%E3%81%8D%E3%81%8F-%E3%81%95%E3%82%8F%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Ken Kagami × UTRECHT TOTE 2025_2 ¥2,000",
+        "url": "https://utrecht.jp/collections/restock/products/2-colors-ken-kagami-utrecht-tote-2025-_2",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "(2nd Edition) Book of Plants / Anne Geene ¥11,000",
+        "url": "https://utrecht.jp/collections/restock/products/2nd-editionbook-of-plants-anne-geene",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Herman De Vries - Publisher / Herman De Vries ¥13,000",
+        "url": "https://utrecht.jp/collections/restock/products/herman-de-vries-publisher-herman-de-vries",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "KIYOSATO MUSEUM OF CONTEMPORARY ART. ARCHIVE II: FLUXUS AND ITS SURROUNDINGS ¥5,000",
+        "url": "https://utrecht.jp/collections/restock/products/kiyosato-museum-of-contemporary-art-archive-fluxus",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "NOTHING COULD HAVE PREPARED US – EVERYTHING COULD HAVE PREPARED US / Wolfgang Tillmans ¥9,400",
+        "url": "https://utrecht.jp/collections/restock/products/nothing-could-have-prepared-us-everything-could-have-prepared-us-wolfgang-tillmans",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "PIG 05049 (2022 7th Edition) / Christien Meindertsma ¥7,200",
+        "url": "https://utrecht.jp/collections/restock/products/pig05049-christien-meindertsma",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "(Signed) This Is Not My Cat / Takashi Homma ¥3,600",
+        "url": "https://utrecht.jp/collections/restock/products/this-is-not-my-cat-takashi-homma",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Sale",
+        "url": "https://utrecht.jp/collections/sale",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "UTRECHT",
+        "url": "https://utrecht.jp/collections/utrecht",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "卸販売について / Wholesale",
+        "url": "https://utrecht.jp/collections/wholesale",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Access",
+        "url": "https://utrecht.jp/pages/access",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "プライバシーポリシー / Privacy Policy",
+        "url": "https://utrecht.jp/pages/privacy-policy",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "返品・交換について / Returns & Exchanges",
+        "url": "https://utrecht.jp/pages/returns-exchanges",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "特定商取引法に基づく表示 / Rules",
+        "url": "https://utrecht.jp/pages/rules",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "配送について / Shipping",
+        "url": "https://utrecht.jp/pages/shipping",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "http://deepseaadventures.tumblr.com/",
+        "url": "http://deepseaadventures.tumblr.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "http://quentinchambry.com/",
+        "url": "http://quentinchambry.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "http://yotashiraishi.org/",
+        "url": "http://yotashiraishi.org/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "→ グーグルマップで見る / View on Google Maps",
+        "url": "https://goo.gl/maps/4V696n2hia72",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Twitter",
+        "url": "https://twitter.com/UT_IDEA",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "https://www.instagram.com/alexis_poline/",
+        "url": "https://www.instagram.com/alexis_poline/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "https://www.instagram.com/quentinchambry/",
+        "url": "https://www.instagram.com/quentinchambry/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/utrecht_nowidea/",
+        "kind": "other",
+        "same_domain": false
+      }
+    ],
+    "submission_links": []
   },
   {
     "title": "MOUNT ZINE",
@@ -370,53 +2227,1569 @@
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
-    "final_url": "https://zine.mount.co.jp/",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "date_candidates": [],
+    "relevant_links": [
+      {
+        "label": "ABOUT",
+        "url": "https://zine.mount.co.jp/about/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "CONTACT",
+        "url": "https://mount.co.jp/contact/",
+        "kind": "contact_candidate",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/107",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/109",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/116",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/132",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/17",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/23",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/49",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/52",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/64",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/79",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/88",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/96",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://zine.mount.co.jp/cart/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "EVENT",
+        "url": "https://zine.mount.co.jp/event/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "MZ30",
+        "url": "https://zine.mount.co.jp/mz30/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "SCHOOL",
+        "url": "https://zine.mount.co.jp/school/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "SHOP",
+        "url": "https://zine.mount.co.jp/shop/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "ONLINE STORE",
+        "url": "https://zine.mount.co.jp/store/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "MT",
+        "url": "https://mount.co.jp",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "LOG OUT",
+        "url": "https://mount.co.jp/account/logout",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "SETTINGS",
+        "url": "https://mount.co.jp/account/settings",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "COMPANY",
+        "url": "https://mount.co.jp/company/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://twitter.com/mountzine",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.facebook.com/mountzine/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.instagram.com/mountzine/",
+        "kind": "other",
+        "same_domain": false
+      }
+    ],
+    "submission_links": []
   },
   {
     "title": "Book and Sons",
     "url": "https://bookandsons.com/",
     "score": 9.0,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
     "contact": "unknown",
     "fee": "unknown",
-    "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "verified": true,
+    "http_status": 200,
     "contact_candidates": [],
-    "final_url": "https://bookandsons.com/",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "date_candidates": [],
+    "relevant_links": [
+      {
+        "label": "Exhibition",
+        "url": "https://bookandsons.com/exhibition/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Rinko Kawauchi",
+        "url": "https://bookandsons.com/exhibition/110/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "sloap",
+        "url": "https://bookandsons.com/exhibition/113/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Eisuke Fukumochi",
+        "url": "https://bookandsons.com/exhibition/114/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yu Kawasaki",
+        "url": "https://bookandsons.com/exhibition/115/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Ryo Tsuchida",
+        "url": "https://bookandsons.com/exhibition/117/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shizuka Tatsuno",
+        "url": "https://bookandsons.com/exhibition/118/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Carmencita Film Lab",
+        "url": "https://bookandsons.com/exhibition/119/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Rohan Hutchinson",
+        "url": "https://bookandsons.com/exhibition/121/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "utsusu",
+        "url": "https://bookandsons.com/exhibition/122/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Jun Ishibashi",
+        "url": "https://bookandsons.com/exhibition/123/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Sodai Yokoyama",
+        "url": "https://bookandsons.com/exhibition/125/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Alice Ishiguro Tosey",
+        "url": "https://bookandsons.com/exhibition/126/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Naoyuki Obayashi",
+        "url": "https://bookandsons.com/exhibition/127/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasuhide Kuge",
+        "url": "https://bookandsons.com/exhibition/129/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Saki Omi",
+        "url": "https://bookandsons.com/exhibition/130/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hideaki Hamada",
+        "url": "https://bookandsons.com/exhibition/131/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kisshomaru Shimamura",
+        "url": "https://bookandsons.com/exhibition/133/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Eye Ohashi",
+        "url": "https://bookandsons.com/exhibition/134/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Jun Imajo",
+        "url": "https://bookandsons.com/exhibition/135/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Masahiro Shimazaki",
+        "url": "https://bookandsons.com/exhibition/137/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kazuho Maruo",
+        "url": "https://bookandsons.com/exhibition/138/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Masaya Tanaka",
+        "url": "https://bookandsons.com/exhibition/139/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yuri Suzuki / Huwie Ishizaki",
+        "url": "https://bookandsons.com/exhibition/141/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Osamu Yokonami",
+        "url": "https://bookandsons.com/exhibition/143/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yuji Hamada",
+        "url": "https://bookandsons.com/exhibition/145/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasuyuki Takagi",
+        "url": "https://bookandsons.com/exhibition/146/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Momo Yamanishi",
+        "url": "https://bookandsons.com/exhibition/350/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Haruyuki Shirai",
+        "url": "https://bookandsons.com/exhibition/358/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "KAZ ARAHAMA",
+        "url": "https://bookandsons.com/exhibition/359/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Tomoki Qwajima",
+        "url": "https://bookandsons.com/exhibition/360/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "The Most Beautiful Swiss Books / FormSWISS",
+        "url": "https://bookandsons.com/exhibition/361/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasuhide Kuge",
+        "url": "https://bookandsons.com/exhibition/362/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shun Komiyama",
+        "url": "https://bookandsons.com/exhibition/363/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shinnosuke Yoshimori",
+        "url": "https://bookandsons.com/exhibition/364/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Piczo",
+        "url": "https://bookandsons.com/exhibition/365/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Lula BOOKS / Non",
+        "url": "https://bookandsons.com/exhibition/366/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Masumi Ishida / Kaho",
+        "url": "https://bookandsons.com/exhibition/367/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Haruka Fujita",
+        "url": "https://bookandsons.com/exhibition/368/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Nia Delfau",
+        "url": "https://bookandsons.com/exhibition/369/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Mitsuyuki Nakajima",
+        "url": "https://bookandsons.com/exhibition/370/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Jimi Franklin",
+        "url": "https://bookandsons.com/exhibition/420/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yuki Kumagai",
+        "url": "https://bookandsons.com/exhibition/421/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Takeshi Kojima",
+        "url": "https://bookandsons.com/exhibition/422/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Osamu Yokonami",
+        "url": "https://bookandsons.com/exhibition/423/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kazuya Sudo",
+        "url": "https://bookandsons.com/exhibition/424/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasuyuki Takagi",
+        "url": "https://bookandsons.com/exhibition/425/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kazumasa Harada",
+        "url": "https://bookandsons.com/exhibition/426/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Nanako Koyama,Ayaka Itou",
+        "url": "https://bookandsons.com/exhibition/427/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Takeshi Sumi",
+        "url": "https://bookandsons.com/exhibition/428/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Keita Noguchi",
+        "url": "https://bookandsons.com/exhibition/429/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shinzo Maeda",
+        "url": "https://bookandsons.com/exhibition/430/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Melissa Schriek",
+        "url": "https://bookandsons.com/exhibition/431/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasuhide Kuge",
+        "url": "https://bookandsons.com/exhibition/432/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Eri Kawamura",
+        "url": "https://bookandsons.com/exhibition/433/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Rumi Ando",
+        "url": "https://bookandsons.com/exhibition/434/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shota Matsumoto",
+        "url": "https://bookandsons.com/exhibition/435/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Isao Nishiyama",
+        "url": "https://bookandsons.com/exhibition/436/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kazuhei Kimura",
+        "url": "https://bookandsons.com/exhibition/511/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Koga Hirano",
+        "url": "https://bookandsons.com/exhibition/514/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Akio Tomari",
+        "url": "https://bookandsons.com/exhibition/515/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Naoyuki Obayashi",
+        "url": "https://bookandsons.com/exhibition/516/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Chikashi Kasai",
+        "url": "https://bookandsons.com/exhibition/517/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Haruka Fujita",
+        "url": "https://bookandsons.com/exhibition/518/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Mari Sarai",
+        "url": "https://bookandsons.com/exhibition/519/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Lean lui",
+        "url": "https://bookandsons.com/exhibition/520/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hideaki Hamada",
+        "url": "https://bookandsons.com/exhibition/521/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Megumi Yamakoshi",
+        "url": "https://bookandsons.com/exhibition/523/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shinnosuke Yoshimori",
+        "url": "https://bookandsons.com/exhibition/524/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Osamu Yokonami",
+        "url": "https://bookandsons.com/exhibition/525/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yang Seungwoo",
+        "url": "https://bookandsons.com/exhibition/526/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Mahito Toka",
+        "url": "https://bookandsons.com/exhibition/527/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Wakako Kikuchi",
+        "url": "https://bookandsons.com/exhibition/590/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "MIKI*",
+        "url": "https://bookandsons.com/exhibition/599/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shohei Takenaka",
+        "url": "https://bookandsons.com/exhibition/600/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hasui Mikio",
+        "url": "https://bookandsons.com/exhibition/601/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hiroshi Sumiyama",
+        "url": "https://bookandsons.com/exhibition/603/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kousuke Teramura",
+        "url": "https://bookandsons.com/exhibition/604/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Tenten",
+        "url": "https://bookandsons.com/exhibition/628/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hideaki Hamada",
+        "url": "https://bookandsons.com/exhibition/632/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Seishi Shirakawa",
+        "url": "https://bookandsons.com/exhibition/660/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "tino grass",
+        "url": "https://bookandsons.com/exhibition/665/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Momoka Omote",
+        "url": "https://bookandsons.com/exhibition/668/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yachiyo Katsuyama",
+        "url": "https://bookandsons.com/exhibition/669/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Osamu Yokonami",
+        "url": "https://bookandsons.com/exhibition/670/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yukari Bunya",
+        "url": "https://bookandsons.com/exhibition/671/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hideaki Hamada",
+        "url": "https://bookandsons.com/exhibition/683/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shohei Takenaka",
+        "url": "https://bookandsons.com/exhibition/689/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Syoin Kajii",
+        "url": "https://bookandsons.com/exhibition/701/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yumi Tohyama",
+        "url": "https://bookandsons.com/exhibition/707/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Karen Sato",
+        "url": "https://bookandsons.com/exhibition/963/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasutomo Ebisu",
+        "url": "https://bookandsons.com/exhibition/971/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Contact",
+        "url": "https://bookandsons.com/contact/",
+        "kind": "contact_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://bookandsons.com/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Access",
+        "url": "https://bookandsons.com/access/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "BAS BOOK CLUB",
+        "url": "https://bookandsons.com/bas-book-club/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Film Scanning",
+        "url": "https://bookandsons.com/film-scanning/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "News",
+        "url": "https://bookandsons.com/news/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Shop Info",
+        "url": "https://bookandsons.com/news_cat/shop-info/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://bookandsons.com/privacy-policy/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Overseas Distribution",
+        "url": "https://btob.bookandsons.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Online Store",
+        "url": "https://store.bookandsons.com/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Typography",
+        "url": "https://store.bookandsons.com/?mode=cate&csid=0&cbid=1896391&sort=n",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Graphic",
+        "url": "https://store.bookandsons.com/?mode=cate&csid=0&cbid=1999679&sort=n",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Goods",
+        "url": "https://store.bookandsons.com/?mode=cate&csid=0&cbid=1999680&sort=n",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Poster",
+        "url": "https://store.bookandsons.com/?mode=cate&csid=0&cbid=2274231&sort=n",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Photo",
+        "url": "https://store.bookandsons.com/?mode=cate&csid=0&cbid=2407617&sort=n",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Art",
+        "url": "https://store.bookandsons.com/?mode=cate&csid=0&cbid=2483675&sort=n",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Fashion",
+        "url": "https://store.bookandsons.com/?mode=cate&csid=0&cbid=2782332&sort=n",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Interior",
+        "url": "https://store.bookandsons.com/?mode=cate&csid=0&cbid=2782334&sort=n",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Magazine",
+        "url": "https://store.bookandsons.com/?mode=grp&gid=2395869",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "MACK",
+        "url": "https://store.bookandsons.com/?mode=grp&gid=3167829",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Thames & Hudson",
+        "url": "https://store.bookandsons.com/?mode=grp&gid=3167831",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Libaryman",
+        "url": "https://store.bookandsons.com/?mode=grp&gid=3167832",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "PHAIDON",
+        "url": "https://store.bookandsons.com/?mode=grp&gid=3167834",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Re-stock",
+        "url": "https://store.bookandsons.com/?mode=srh&sort=n&keyword=%BA%C6%C6%FE%B2%D9",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "THE BOOK END ( KOBE )",
+        "url": "https://the-book-end.com/?from=tokyo",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "メール配信サービス",
+        "url": "https://www.benchmarkemail.com/jp",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/bookandsons/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "X",
+        "url": "https://x.com/bookandsons",
+        "kind": "other",
+        "same_domain": false
+      }
+    ],
+    "submission_links": [
+      {
+        "label": "Exhibition",
+        "url": "https://bookandsons.com/exhibition/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Rinko Kawauchi",
+        "url": "https://bookandsons.com/exhibition/110/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "sloap",
+        "url": "https://bookandsons.com/exhibition/113/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Eisuke Fukumochi",
+        "url": "https://bookandsons.com/exhibition/114/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yu Kawasaki",
+        "url": "https://bookandsons.com/exhibition/115/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Ryo Tsuchida",
+        "url": "https://bookandsons.com/exhibition/117/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shizuka Tatsuno",
+        "url": "https://bookandsons.com/exhibition/118/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Carmencita Film Lab",
+        "url": "https://bookandsons.com/exhibition/119/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Rohan Hutchinson",
+        "url": "https://bookandsons.com/exhibition/121/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "utsusu",
+        "url": "https://bookandsons.com/exhibition/122/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Jun Ishibashi",
+        "url": "https://bookandsons.com/exhibition/123/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Sodai Yokoyama",
+        "url": "https://bookandsons.com/exhibition/125/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Alice Ishiguro Tosey",
+        "url": "https://bookandsons.com/exhibition/126/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Naoyuki Obayashi",
+        "url": "https://bookandsons.com/exhibition/127/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasuhide Kuge",
+        "url": "https://bookandsons.com/exhibition/129/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Saki Omi",
+        "url": "https://bookandsons.com/exhibition/130/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hideaki Hamada",
+        "url": "https://bookandsons.com/exhibition/131/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kisshomaru Shimamura",
+        "url": "https://bookandsons.com/exhibition/133/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Eye Ohashi",
+        "url": "https://bookandsons.com/exhibition/134/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Jun Imajo",
+        "url": "https://bookandsons.com/exhibition/135/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Masahiro Shimazaki",
+        "url": "https://bookandsons.com/exhibition/137/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kazuho Maruo",
+        "url": "https://bookandsons.com/exhibition/138/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Masaya Tanaka",
+        "url": "https://bookandsons.com/exhibition/139/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yuri Suzuki / Huwie Ishizaki",
+        "url": "https://bookandsons.com/exhibition/141/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Osamu Yokonami",
+        "url": "https://bookandsons.com/exhibition/143/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yuji Hamada",
+        "url": "https://bookandsons.com/exhibition/145/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasuyuki Takagi",
+        "url": "https://bookandsons.com/exhibition/146/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Momo Yamanishi",
+        "url": "https://bookandsons.com/exhibition/350/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Haruyuki Shirai",
+        "url": "https://bookandsons.com/exhibition/358/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "KAZ ARAHAMA",
+        "url": "https://bookandsons.com/exhibition/359/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Tomoki Qwajima",
+        "url": "https://bookandsons.com/exhibition/360/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "The Most Beautiful Swiss Books / FormSWISS",
+        "url": "https://bookandsons.com/exhibition/361/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasuhide Kuge",
+        "url": "https://bookandsons.com/exhibition/362/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shun Komiyama",
+        "url": "https://bookandsons.com/exhibition/363/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shinnosuke Yoshimori",
+        "url": "https://bookandsons.com/exhibition/364/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Piczo",
+        "url": "https://bookandsons.com/exhibition/365/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Lula BOOKS / Non",
+        "url": "https://bookandsons.com/exhibition/366/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Masumi Ishida / Kaho",
+        "url": "https://bookandsons.com/exhibition/367/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Haruka Fujita",
+        "url": "https://bookandsons.com/exhibition/368/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Nia Delfau",
+        "url": "https://bookandsons.com/exhibition/369/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Mitsuyuki Nakajima",
+        "url": "https://bookandsons.com/exhibition/370/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Jimi Franklin",
+        "url": "https://bookandsons.com/exhibition/420/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yuki Kumagai",
+        "url": "https://bookandsons.com/exhibition/421/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Takeshi Kojima",
+        "url": "https://bookandsons.com/exhibition/422/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Osamu Yokonami",
+        "url": "https://bookandsons.com/exhibition/423/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kazuya Sudo",
+        "url": "https://bookandsons.com/exhibition/424/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasuyuki Takagi",
+        "url": "https://bookandsons.com/exhibition/425/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kazumasa Harada",
+        "url": "https://bookandsons.com/exhibition/426/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Nanako Koyama,Ayaka Itou",
+        "url": "https://bookandsons.com/exhibition/427/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Takeshi Sumi",
+        "url": "https://bookandsons.com/exhibition/428/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Keita Noguchi",
+        "url": "https://bookandsons.com/exhibition/429/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shinzo Maeda",
+        "url": "https://bookandsons.com/exhibition/430/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Melissa Schriek",
+        "url": "https://bookandsons.com/exhibition/431/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasuhide Kuge",
+        "url": "https://bookandsons.com/exhibition/432/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Eri Kawamura",
+        "url": "https://bookandsons.com/exhibition/433/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Rumi Ando",
+        "url": "https://bookandsons.com/exhibition/434/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shota Matsumoto",
+        "url": "https://bookandsons.com/exhibition/435/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Isao Nishiyama",
+        "url": "https://bookandsons.com/exhibition/436/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kazuhei Kimura",
+        "url": "https://bookandsons.com/exhibition/511/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Koga Hirano",
+        "url": "https://bookandsons.com/exhibition/514/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Akio Tomari",
+        "url": "https://bookandsons.com/exhibition/515/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Naoyuki Obayashi",
+        "url": "https://bookandsons.com/exhibition/516/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Chikashi Kasai",
+        "url": "https://bookandsons.com/exhibition/517/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Haruka Fujita",
+        "url": "https://bookandsons.com/exhibition/518/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Mari Sarai",
+        "url": "https://bookandsons.com/exhibition/519/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Lean lui",
+        "url": "https://bookandsons.com/exhibition/520/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hideaki Hamada",
+        "url": "https://bookandsons.com/exhibition/521/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Megumi Yamakoshi",
+        "url": "https://bookandsons.com/exhibition/523/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shinnosuke Yoshimori",
+        "url": "https://bookandsons.com/exhibition/524/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Osamu Yokonami",
+        "url": "https://bookandsons.com/exhibition/525/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yang Seungwoo",
+        "url": "https://bookandsons.com/exhibition/526/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Mahito Toka",
+        "url": "https://bookandsons.com/exhibition/527/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Wakako Kikuchi",
+        "url": "https://bookandsons.com/exhibition/590/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "MIKI*",
+        "url": "https://bookandsons.com/exhibition/599/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shohei Takenaka",
+        "url": "https://bookandsons.com/exhibition/600/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hasui Mikio",
+        "url": "https://bookandsons.com/exhibition/601/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hiroshi Sumiyama",
+        "url": "https://bookandsons.com/exhibition/603/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Kousuke Teramura",
+        "url": "https://bookandsons.com/exhibition/604/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Tenten",
+        "url": "https://bookandsons.com/exhibition/628/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hideaki Hamada",
+        "url": "https://bookandsons.com/exhibition/632/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Seishi Shirakawa",
+        "url": "https://bookandsons.com/exhibition/660/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "tino grass",
+        "url": "https://bookandsons.com/exhibition/665/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Momoka Omote",
+        "url": "https://bookandsons.com/exhibition/668/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yachiyo Katsuyama",
+        "url": "https://bookandsons.com/exhibition/669/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Osamu Yokonami",
+        "url": "https://bookandsons.com/exhibition/670/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yukari Bunya",
+        "url": "https://bookandsons.com/exhibition/671/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Hideaki Hamada",
+        "url": "https://bookandsons.com/exhibition/683/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Shohei Takenaka",
+        "url": "https://bookandsons.com/exhibition/689/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Syoin Kajii",
+        "url": "https://bookandsons.com/exhibition/701/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yumi Tohyama",
+        "url": "https://bookandsons.com/exhibition/707/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Karen Sato",
+        "url": "https://bookandsons.com/exhibition/963/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Yasutomo Ebisu",
+        "url": "https://bookandsons.com/exhibition/971/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ]
   },
   {
     "title": "Offprint",
     "url": "https://offprint.org/",
     "score": 9.0,
     "status": "unverified",
-    "submission_open": "unknown",
+    "submission_open": "possible",
     "deadline": "unknown",
-    "contact": "unknown",
+    "contact": "flemouel@luma-arles.org",
     "fee": "unknown",
-    "verified": false,
-    "http_status": null,
-    "relevant_links": [],
+    "verified": true,
+    "http_status": 200,
+    "contact_candidates": [
+      "flemouel@luma-arles.org"
+    ],
     "date_candidates": [],
-    "contact_candidates": [],
-    "final_url": "https://offprint.org/",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "relevant_links": [
+      {
+        "label": "180 Studios",
+        "url": "https://www.180studios.com/exhibitions-and-performances",
+        "kind": "submission_candidate",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://offprint.org/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Français",
+        "url": "https://www.offprint.org",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "English",
+        "url": "https://www.offprint.org/en/",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Infos pratiques",
+        "url": "https://www.offprint.org/infos-pratiques-offprint-londres-26",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Lieu",
+        "url": "https://www.offprint.org/lieu-offprint-londres-26",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Participant·es",
+        "url": "https://www.offprint.org/participants-offprint-londres-26",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Politique de confidentialité",
+        "url": "https://www.offprint.org/politique-de-confidentialité",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "Programme",
+        "url": "https://www.offprint.org/programme-offprint-londres-26",
+        "kind": "other",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://www.facebook.com/offprintprojects/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "",
+        "url": "https://www.instagram.com/offprint_projects/",
+        "kind": "other",
+        "same_domain": false
+      },
+      {
+        "label": "LUMA Arles",
+        "url": "https://www.luma.org/arles.html",
+        "kind": "other",
+        "same_domain": false
+      }
+    ],
+    "submission_links": [
+      {
+        "label": "180 Studios",
+        "url": "https://www.180studios.com/exhibitions-and-performances",
+        "kind": "submission_candidate",
+        "same_domain": false
+      }
+    ]
   },
   {
     "title": "POST",
@@ -428,14 +3801,12 @@
     "contact": "unknown",
     "fee": "unknown",
     "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "http_status": "error",
     "contact_candidates": [],
-    "final_url": "https://post-books.info/",
+    "date_candidates": [],
+    "relevant_links": [],
     "error": "HTTPSConnectionPool(host='post-books.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'post-books.info'. (_ssl.c:1081)\")))",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "submission_links": []
   },
   {
     "title": "Printed Matter Art Book Fairs",
@@ -447,14 +3818,11 @@
     "contact": "unknown",
     "fee": "unknown",
     "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "http_status": 403,
     "contact_candidates": [],
-    "final_url": "https://www.printedmatter.org/",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "date_candidates": [],
+    "relevant_links": [],
+    "submission_links": []
   },
   {
     "title": "Browse Printed Matter Editions",
@@ -466,13 +3834,10 @@
     "contact": "unknown",
     "fee": "unknown",
     "verified": false,
-    "http_status": null,
-    "relevant_links": [],
-    "date_candidates": [],
+    "http_status": 403,
     "contact_candidates": [],
-    "final_url": "https://www.printedmatter.org/catalog/category/15-pm-fundraising-editions",
-    "error": "name 'response' is not defined",
-    "submission_links": [],
-    "ranked_submission_links": []
+    "date_candidates": [],
+    "relevant_links": [],
+    "submission_links": []
   }
 ]

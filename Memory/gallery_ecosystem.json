@@ -1,0 +1,1254 @@
+{
+  "category": "galleries",
+  "target_count": 77,
+  "direct_submission_count": 22,
+  "local_target_count": 36,
+  "targets": [
+    {
+      "name": "グループ展参加アーティスト募集中 - Gallery and Links81",
+      "url": "https://galleryandlinks81.jp/recruiting/",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "emerging artists",
+        "group exhibitions"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0060",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
+      "url": "https://prtimes.jp/main/html/rd/p/000000087.000042448.html",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "emerging artists"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal.",
+        "Explicit emerging-artist signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0061",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...",
+      "url": "https://picaresquejpn.com/staff-letter/tokyo-artgallery-artist-wanted-picaresque/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "emerging artists"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0062",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
+      "url": "https://biscuitgallery.com/grid-next-news/",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "emerging artists"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal.",
+        "Explicit emerging-artist signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0063",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "現代アート販売の@Gallery Tagboat|@Gallery Tagboat",
+      "url": "https://www.tagboat.com/artevent/independenttokyo2025/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "emerging artists",
+        "contemporary art"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0064",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "219公募展6募集 >> Gallery219 ギャラリーニイク",
+      "url": "https://www.gallery219.com/219kouboten/koubo2025.html",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "emerging artists"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0065",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "公募プログラム - トーキョーアーツアンドスペース",
+      "url": "https://www.tokyoartsandspace.jp/application/about_opencall.html",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "emerging artists"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0066",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "New Power展 | ギャラリー自由が丘で作家デビュー",
+      "url": "https://www.gallery-jiyugaoka.com/newpower-application",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "emerging artists"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0067",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
+      "url": "https://biscuitgallery.com/gridnext-2025/",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "emerging artists"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal.",
+        "Explicit emerging-artist signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0075",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "Call for Entry: Showcase your art in Tokyo, Japan",
+      "url": "https://www.artworkarchive.com/call-for-entry/showcase-your-art-in-tokyo-japan-2025",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0009",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Open Calls for Artists | Exhibit Worldwide",
+      "url": "https://www.theholyart.com/tokyo-open-art",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0010",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
+      "url": "https://www.jinnystreetgallery.com/open-call",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0011",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "Open Call - Tokyo Arts and Space",
+      "url": "https://www.tokyoartsandspace.jp/en/application/index.html",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0012",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "東京画廊 + Btap Tokyo Gallery + Beijing Tokyo Art Projects",
+      "url": "https://www.tokyo-gallery.com/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0013",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Apply Now - Tokyo Gendai",
+      "url": "https://tokyogendai.com/apply/",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0014",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "Call for Artists | Exhibit in Tokyo, Japan | Tokyo | | Art Jobs",
+      "url": "https://www.artjobs.com/open-calls/call-artists/japan/41817/exhibit-tokyo-japan",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0015",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Apply to Exhibit — Tokyo International Art Fair",
+      "url": "https://www.tokyoartfair.com/apply-to-exhibit-tokyo-art-fair",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0016",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+      "url": "https://tokyobiennale.jp/en/archives/news/6152",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0017",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "The Holy Art Gallery - Tokyo Open Call for Artist | ForPhotographersOnly",
+      "url": "https://www.forphotographersonly.com/event-details/the-holy-art-gallery-tokyo-open-call-for-artist",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0018",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+      "url": "https://resartis.org/news-listing/open-call-for-artists-tokyo-biennale-2025-social-dive/",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0019",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "Calls for Entry | Artwork Archive",
+      "url": "https://www.artworkarchive.com/call-for-entry/tokyo-open-art",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0020",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "マンションブランドBrilliaによる次世代アーティスト応援 平面 ...",
+      "url": "https://tatemono.com/news/20260512-2.html",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0068",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Art公募 | 美術公募展のポータルサイト【アート公募 ...",
+      "url": "https://www.artkoubo.jp/",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0069",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "次世代アーティストを応援する公募展 「Brillia Art Award Cube ...",
+      "url": "https://www.atpress.ne.jp/news/552746",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0070",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "公募 ｜ 公募 ｜ トーキョーアーツアンドスペース | 東京から ...",
+      "url": "https://www.tokyoartsandspace.jp/application/index.html",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0071",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "T's gallery（人形町）グランドオープン記念公募展 アーティスト ...",
+      "url": "https://soshare.info/archives/news/ts-gallery（人形町）グランドオープン記念公募展　ア",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0072",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "東京5美大 公募展「ここから」8/21より開幕!ご来場の皆様の一 ...",
+      "url": "https://www.gallery-kunitachi.com/post/2025-08-21",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0073",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "国際公募展 作品募集中 | 空間芸術toram",
+      "url": "https://www.toram.info/exhibition-open-call",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0074",
+      "bucket": "direct_opportunity",
+      "status": "research_next"
+    },
+    {
+      "name": "nca | nichido contemporary art",
+      "url": "https://www.nca-g.com/en/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "emerging artists",
+        "contemporary art"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 100,
+      "source_candidate_id": "GAL-0007",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo's Art Scene: Galleries, Museums & Emerging Artists",
+      "url": "https://thestandardjapan.com/art/tokyo-art-scene",
+      "neighborhood": "Tokyo",
+      "submission_signal": true,
+      "artist_type": [
+        "emerging artists",
+        "contemporary art"
+      ],
+      "fit_notes": [
+        "Has a direct submission/open-call signal.",
+        "Explicit emerging-artist signal."
+      ],
+      "score": 90,
+      "source_candidate_id": "GAL-0006",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "10 Best Contemporary Art Galleries in Tokyo: Where to See Modern ...",
+      "url": "https://tokyocandies.com/best-contemporary-art-galleries-in-tokyo/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "emerging artists",
+        "contemporary art"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 85,
+      "source_candidate_id": "GAL-0004",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Uptown Koenji Gallery|スギナミ・ウェブ・ミュージアム",
+      "url": "https://www.suginamiart.tokyo/webmuseum/gallery/uptown-koenji-gallery.html",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0022",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Gallery - M.A.P. Maniac Artist Port | 東京都杉並区高円寺のギャラリーカフェ&タフティング・スタジオ",
+      "url": "https://map-koenji.com/gallery/",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery cafe"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0023",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "About - Clouds",
+      "url": "https://www.cloudsgallerypluscoffee.com/about",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0025",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "アート | 日本 | Uptown Koenji Gallery",
+      "url": "https://gallerymaru33.wixsite.com/mysite",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0026",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "BnA HOTEL Koenji - Meet Tokyo's Art Community",
+      "url": "https://www.bna-koenji.com/",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0027",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Home | BLANK",
+      "url": "https://www.blank-koenji.com/",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0028",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "ナカノギンザギャラリー（NGG）公式アカウント (@NGG201804) / Posts / X",
+      "url": "https://x.com/NGG201804",
+      "neighborhood": "Nakano",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Nakano."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0030",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "キチジョウジギャラリー | 吉祥寺・井の頭公園の貸しギャラリー",
+      "url": "http://kichijojigallery.com/",
+      "neighborhood": "Kichijoji",
+      "submission_signal": false,
+      "artist_type": [
+        "contemporary art"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Kichijoji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0037",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "下北沢アーツ Shimokitazawa Arts | 下北沢のアートギャラリー Art Gallery in Shimokitazawa",
+      "url": "https://shimokitazawaarts.tokyo/en/home-english/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0045",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Espace Shimokitazawa Mona：下北沢 貸ギャラリー",
+      "url": "https://shimokita-gallery.com/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0047",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "下北沢アーツ Shimokitazawa Arts (@shimokitazawaarts) - Instagram",
+      "url": "https://www.instagram.com/shimokitazawaarts/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0049",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Shimokitazawa, Tokyo - 17 Things To Do + Photos - Plan My Japan",
+      "url": "https://www.planmyjapan.com/shimokitazawa-tokyo-things-to-do/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0051",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Shimokitazawa Arts | Japan Live & Exhibits",
+      "url": "https://www.japan-live-exhibits.com/g_tkstg_shimokitazawa-arts/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0052",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Exhibition | Gallery Cafe＆Bar オンディーヌ │東高円寺の ...",
+      "url": "https://ondine.official.ec/p/00001",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery cafe"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0076",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Gallery | Local",
+      "url": "https://www.localgallerybooks.com/gallery",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0077",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "About - Mogi",
+      "url": "https://mogi-shop.com/pages/mogi-shop",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0078",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Gallery Rustico | 高円寺のギャラリー",
+      "url": "https://gallery-rustico.com/",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0079",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "GALLERY33｜EXHIBITION",
+      "url": "https://www.gallery33official.com/exhibition/",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0080",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "ギャルリー・ジュイエ - Galerie Juillet",
+      "url": "https://juillet.jp/",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0081",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "知られざる作品や作家との巡り合いが生まれる高円寺の ...",
+      "url": "https://casabrutus.com/categories/culture/404794",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0082",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "M.A.P. - Maniac Artist Port",
+      "url": "https://map-koenji.com/",
+      "neighborhood": "Koenji",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Koenji."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0083",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "\"meee\" Gallery Tokyo 東京中野のレンタルギャラリー",
+      "url": "https://meee.jp/",
+      "neighborhood": "Nakano",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Nakano."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0084",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "レンタルギャラリーアトラス | Rental Gallery ATLAS | 中野の ...",
+      "url": "https://atlas-nakano.com/",
+      "neighborhood": "Nakano",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Nakano."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0085",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Gallery Niepce - niepce-tokyo",
+      "url": "https://www.niepce-tokyo.net/",
+      "neighborhood": "Nakano",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Nakano."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0086",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "ギャラリー楽 / Gallery RAKU | 東京都中野区新井にある ...",
+      "url": "http://gallery-raku.tokyo/",
+      "neighborhood": "Nakano",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Nakano."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0087",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "【まるっと中野】＜写大ギャラリー＞静かな時間を過ごしたい ...",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/machiaruki/shadaigallery.html",
+      "neighborhood": "Nakano",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Nakano."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0088",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "中野のアートシーン：地元のギャラリーとイベントを深掘りする",
+      "url": "https://www.city-tokyo-nakano.jp/nakano-art-scene-galleries-events/",
+      "neighborhood": "Nakano",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Nakano."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0089",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "中野・ギャラリー冬青で「謎の新人作家」H.jさん写真展 - 中野 ...",
+      "url": "https://nakano.keizai.biz/headline/2926/",
+      "neighborhood": "Nakano",
+      "submission_signal": false,
+      "artist_type": [
+        "emerging artists"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Nakano."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0090",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "nakano yuji - glass - ギャラリーマミカ",
+      "url": "https://mamica-m.com/artist/777",
+      "neighborhood": "Nakano",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Nakano."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0091",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "About - Dddart",
+      "url": "https://dddart.jp/about/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0092",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "ギャラリーHANA",
+      "url": "https://www.g-hana.jp/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0093",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "下北沢アーツ Shimokitazawa Arts | 下北沢のアートギャラリー ...",
+      "url": "https://shimokitazawaarts.tokyo/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0094",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Such As, Gallery",
+      "url": "http://www.suchas.gallery/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0095",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "感性を刺激する街 下北沢で芸術スポット巡り｜おでかけ ...",
+      "url": "https://www.odakyu-voice.jp/trip/2020_12_web/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0096",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Espace Shimokitazawa MONA | レンタルギャラリー・貸し画廊 ...",
+      "url": "https://rental-gallery.jp/espace-shimokitazawa-mona/",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0097",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Dddart - タイムアウト東京",
+      "url": "https://www.timeout.jp/tokyo/ja/アート/ディーディーディーアート",
+      "neighborhood": "Shimokitazawa",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Local-west Tokyo target: Shimokitazawa."
+      ],
+      "score": 83,
+      "source_candidate_id": "GAL-0098",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo Contemporary Art - Galleries, Museums & Exhibitions | 1 Cubic Meter",
+      "url": "https://1cubicmeter.com/tokyo/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "emerging artists",
+        "contemporary art"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 80,
+      "source_candidate_id": "GAL-0001",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "AWASE gallery | 新宿のギャラリー・アートスペース",
+      "url": "https://awase-gallery.com/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 70,
+      "source_candidate_id": "GAL-0054",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "home | artist-run-space merdre",
+      "url": "https://uma-merdre.com/en/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 70,
+      "source_candidate_id": "GAL-0055",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Artist Run Space - chimpom.jp",
+      "url": "http://www.chimpom.jp/artistrunspace/en.html",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 70,
+      "source_candidate_id": "GAL-0056",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo Arts and Space",
+      "url": "https://www.tokyoartsandspace.jp/en/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 70,
+      "source_candidate_id": "GAL-0057",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "[Official] teamLab Planets TOKYO, Toyosu",
+      "url": "https://www.teamlab.art/e/planets/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "gallery / exhibition target"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 70,
+      "source_candidate_id": "GAL-0059",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo's Pulse: Your Ultimate Guide to Contemporary Art",
+      "url": "https://www.zenmuseum.com/finder/page/contemporary-art-in-tokyo/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "emerging artists",
+        "contemporary art"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 65,
+      "source_candidate_id": "GAL-0002",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "11 best contemporary art galleries in Tokyo - Time Out",
+      "url": "https://www.timeout.com/tokyo/art/best-contemporary-art-galleries-in-tokyo",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "emerging artists",
+        "contemporary art"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 65,
+      "source_candidate_id": "GAL-0003",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "24 Best Tokyo Art Galleries | Ocula",
+      "url": "https://ocula.com/cities/japan/tokyo-art-galleries/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "emerging artists",
+        "contemporary art"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 65,
+      "source_candidate_id": "GAL-0005",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    },
+    {
+      "name": "Japan Art Guide: Best Galleries, Exhibits & Collector Circles in Tokyo",
+      "url": "https://goconnect.jp/2025/08/18/japan-art-guide-best-galleries-exhibits-collector-circles-in-tokyo/",
+      "neighborhood": "Tokyo",
+      "submission_signal": false,
+      "artist_type": [
+        "emerging artists",
+        "contemporary art"
+      ],
+      "fit_notes": [
+        "Needs review of current/past artists before outreach."
+      ],
+      "score": 65,
+      "source_candidate_id": "GAL-0008",
+      "bucket": "gallery_target",
+      "status": "research_next"
+    }
+  ]
+}

@@ -1,75 +1,50 @@
 
 import json
-from urllib.parse import urlparse
+from pathlib import Path
 
 SRC = "memory/verified_opportunities.json"
 OUT = "memory/submission_targets.json"
+REPORT = "reports/submission_link_report.md"
 
 KEYWORDS = [
-    "submit", "submission", "apply", "application", "entry", "open call",
-    "artist call", "opportunity", "contest", "award", "exhibition",
-    "応募", "公募", "募集", "申込", "エントリー"
+    "submit", "submission", "apply", "application", "entry",
+    "open call", "artist call", "opportunity", "opportunities",
+    "contest", "award", "exhibition",
+    "応募", "公募", "募集", "出展", "申し込み", "申込"
 ]
 
-BAD_DOMAINS = [
-    "google.com", "maps.google", "facebook.com", "instagram.com",
-    "x.com", "twitter.com", "youtube.com", "youtu.be", "tiktok.com",
-    "linkedin.com", "pinterest.com"
+data = json.loads(Path(SRC).read_text(encoding="utf-8"))
+
+lines = [
+    "# Submission Link Report",
+    "",
 ]
 
-BAD_LABELS = [
-    "map", "maps", "google map", "the mall, london", "directions",
-    "facebook", "instagram", "youtube", "twitter", "x", "tiktok"
-]
+for item in data:
+    found = []
 
-def bad_link(link):
-    url = str(link.get("url", "")).lower()
-    label = str(link.get("label", "")).lower().strip()
-    domain = urlparse(url).netloc.lower()
+    for link in item.get("relevant_links", []):
+        blob = f"{link.get('label', '')} {link.get('url', '')} {link.get('kind', '')}".lower()
 
-    if any(bad in domain or bad in url for bad in BAD_DOMAINS):
-        return True
-    if any(bad in label for bad in BAD_LABELS):
-        return True
-    if url.startswith("mailto:") or url.startswith("tel:"):
-        return True
-    return False
+        if link.get("kind") == "submission_candidate" or any(k in blob for k in KEYWORDS):
+            found.append(link)
 
-def score_link(link):
-    blob = (str(link.get("label", "")) + " " + str(link.get("url", ""))).lower()
-    score = 0
-    for k in KEYWORDS:
-        if k in blob:
-            score += 2
-    if link.get("same_domain"):
-        score += 1
-    if "open-call" in blob or "open_calls" in blob or "open-calls" in blob:
-        score += 4
-    if "contact" in blob:
-        score -= 1
-    return score
+    item["submission_links"] = found
 
-def main():
-    data = json.load(open(SRC, encoding="utf-8"))
-    results = []
+    lines.append(f"## {item.get('title')}")
+    lines.append(f"- Submission links found: {len(found)}")
 
-    for item in data:
-        found = []
-        for link in item.get("relevant_links", []):
-            if bad_link(link):
-                continue
-            blob = (str(link.get("label", "")) + " " + str(link.get("url", ""))).lower()
-            if any(k in blob for k in KEYWORDS):
-                link = dict(link)
-                link["submission_link_score"] = score_link(link)
-                found.append(link)
+    for link in found[:10]:
+        label = link.get("label") or "[no label]"
+        lines.append(f"  - {label} — {link.get('url')}")
 
-        found.sort(key=lambda x: x.get("submission_link_score", 0), reverse=True)
-        item["submission_links"] = found[:10]
-        results.append(item)
+    lines.append("")
 
-    json.dump(results, open(OUT, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    print("Wrote", OUT)
+Path(OUT).parent.mkdir(parents=True, exist_ok=True)
+Path(OUT).write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
-if __name__ == "__main__":
-    main()
+Path("reports").mkdir(exist_ok=True)
+Path(REPORT).write_text("\n".join(lines), encoding="utf-8")
+
+print(f"Wrote {OUT}")
+print(f"Wrote {REPORT}")

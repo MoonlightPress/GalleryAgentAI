@@ -1,0 +1,1857 @@
+{
+  "category": "fairs_events",
+  "target_count": 114,
+  "targets": [
+    {
+      "name": "Tokyo Art Book Fair",
+      "score": 100,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "medium",
+      "prestige": "high",
+      "application_url": "https://tokyoartbookfair.com/en/application/",
+      "deadline": "Deadline eadline for the application is end of day (JST) June 7th (Sun), 2026. Applicants",
+      "fee": "¥1,000",
+      "application_route": "form",
+      "source_count": 1,
+      "sources": [
+        "https://tokyoartbookfair.com/en/application/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Fukuoka Art Book Fair",
+      "score": 100,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "medium",
+      "application_url": "https://fukuokaartbookfair.com/application/",
+      "deadline": "2026年5月29日 2026",
+      "fee": "",
+      "application_route": "application_page",
+      "source_count": 1,
+      "sources": [
+        "https://fukuokaartbookfair.com/application/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Applications — Little Tokyo Zine Fest",
+      "score": 99,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://www.ltzinefest.org/applications",
+      "deadline": "",
+      "fee": "",
+      "application_route": "email_possible",
+      "source_count": 1,
+      "sources": [
+        "https://www.ltzinefest.org/applications"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Design Festa",
+      "score": 90,
+      "fair_type": "creator market / illustration fair",
+      "beginner_friendliness": "high",
+      "prestige": "medium",
+      "application_url": "https://designfesta.com/app-booth/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 9,
+      "sources": [
+        "https://designfesta.com/app-booth/",
+        "http://designfesta.sakura.ne.jp/download/62_Application.pdf",
+        "https://designfestagallery.com/booth-finder/",
+        "https://tokyolovedistrict.com/design-festa-vol-63-artist-showcase/",
+        "https://designfesta.com/",
+        "https://designfestagallery.com/",
+        "https://bmstokyo.com/2025/09/02/designfesta62audition/",
+        "https://popii-land.jp/en/design-festa-vol63-2026-en/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "BOOTH - The International Indie Art Marketplace",
+      "score": 82,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://booth.pm/en",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://booth.pm/en"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo Exhibition - Art Number 23",
+      "score": 82,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.artnumber23.uk/tokyo",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.artnumber23.uk/tokyo"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo International Art Fair",
+      "score": 81,
+      "fair_type": "art fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "high",
+      "application_url": "https://www.tokyoartfair.com/apply-to-exhibit-tokyo-art-fair",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 8,
+      "sources": [
+        "https://www.tokyoartfair.com/apply-to-exhibit-tokyo-art-fair",
+        "https://form.jotform.com/253432830379359",
+        "https://www.forphotographersonly.com/event-details/tokyo-international-art-fair-open-call-2026",
+        "https://jasumo.com/listing/tokyo-international-art-fair/",
+        "https://www.tokyoartfair.com/",
+        "https://www.instagram.com/p/DKt30WACVSF/",
+        "https://theartguide.com/callforartist/tokyo-international-art-fair/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Independent Tokyo",
+      "score": 79,
+      "fair_type": "art fair",
+      "beginner_friendliness": "medium",
+      "prestige": "high",
+      "application_url": "https://prtimes.jp/main/html/rd/p/000000087.000042448.html",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 6,
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000087.000042448.html",
+        "https://tokyo.publishing.3rd-in.co.jp/article/352afbf2-a335-11f0-b9e7-9ca3ba0a67df",
+        "https://third-news.com/article/bb24e4d8-a336-11f0-a3e9-9ca3ba0a67df",
+        "https://koubo.jp/article/47299"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Clone of Japan Fair 2025 - Exhibitor Application Form",
+      "score": 79,
+      "fair_type": "zine art book",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://form.jotform.com/253215140594149",
+      "deadline": "January 31, 2026",
+      "fee": "fee onal Corner Boothe Fee, $380) No Do you need to order Power Drops for your booth",
+      "application_route": "form",
+      "source_count": 1,
+      "sources": [
+        "https://form.jotform.com/253215140594149"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Art Fair Asia Fukuoka",
+      "score": 78,
+      "fair_type": "art fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "medium",
+      "application_url": "https://artfair.asia/en/news/20260305/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 5,
+      "sources": [
+        "https://artfair.asia/en/news/20260305/",
+        "https://straightpress.jp/20250701/1366442",
+        "http://mng.artne.jp/news/2386",
+        "https://prtimes.jp/main/html/rd/p/000000022.000104125.html",
+        "https://www.fukuoka-now.com/en/event/art-fair-asia-fukuoka-2025/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "COMITIA",
+      "score": 78,
+      "fair_type": "creator market / illustration fair",
+      "beginner_friendliness": "high",
+      "prestige": "medium",
+      "application_url": "https://www.comitia.co.jp/html/schedule.html",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 5,
+      "sources": [
+        "https://www.comitia.co.jp/html/schedule.html",
+        "https://ksd-illust.com/comitia",
+        "https://www.k-comitia.com/",
+        "https://www.to-bi.ac.jp/2023/12/12/comitia/",
+        "https://n-comitia.com/participating-circle/circle-entry/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Art Fair Tokyo",
+      "score": 76,
+      "fair_type": "art fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "high",
+      "application_url": "https://artfairtokyo.com/public_notices/282",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 3,
+      "sources": [
+        "https://artfairtokyo.com/public_notices/282",
+        "https://artfairtokyo.com/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Instagram",
+      "score": 75,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.instagram.com/p/DVfzl-oCIo4/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 2,
+      "sources": [
+        "https://www.instagram.com/p/DVfzl-oCIo4/",
+        "https://www.instagram.com/reel/DI0CMczyImP/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "JIMTOF 2026 The 33rd JAPAN INTERNATIONAL MACHINE TOOL FAIR",
+      "score": 75,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.jimtof.org/en/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 2,
+      "sources": [
+        "https://www.jimtof.org/en/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "PDF Application Conditions for Tokyo Art & Craft 2026 The 9th Conditions ...",
+      "score": 74,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://tartk.or.jp/The 9th International Tokyo Art & Craft  fair 2026 English.pdf",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://tartk.or.jp/The 9th International Tokyo Art & Craft  fair 2026 English.pdf"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Fully Funded Japan Artist Residency Tokyo 2027, Airfare, Housing & Funding",
+      "score": 74,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://contemporaryperformance.com/2026/05/29/japan-artist-residency-tokas-2027/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://contemporaryperformance.com/2026/05/29/japan-artist-residency-tokas-2027/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo Artist Visa - Practical Help for Japanese Artist Visa Application",
+      "score": 74,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://tokyoartistvisa.com/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://tokyoartistvisa.com/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "現代アート販売の@Gallery Tagboat|@Gallery Tagboat",
+      "score": 74,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.tagboat.com/artevent/independenttokyo2026/index.php",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.tagboat.com/artevent/independenttokyo2026/index.php"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "福岡アジア美術館",
+      "score": 74,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://faam.city.fukuoka.lg.jp/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://faam.city.fukuoka.lg.jp/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Art Fair Japan — Fukuoka Edition 2026: Dates, Tickets, Exhibition ...",
+      "score": 74,
+      "fair_type": "art fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "medium",
+      "application_url": "https://artexpoworld.com/art_fair_japan_—_fukuoka_edition_2026",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://artexpoworld.com/art_fair_japan_—_fukuoka_edition_2026"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Art公募 | 美術公募展のポータルサイト【アート公募 ...",
+      "score": 74,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.artkoubo.jp/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.artkoubo.jp/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "絵画・アート - コンテスト 公募 コンペ の [登竜門]",
+      "score": 74,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://compe.japandesign.ne.jp/category/art/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://compe.japandesign.ne.jp/category/art/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "アート・絵画・工芸 | 公募/コンテスト/コンペ情報なら「Koubo」",
+      "score": 74,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://koubo.jp/category/art/all",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://koubo.jp/category/art/all"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo Gendai (東京現代)",
+      "score": 74,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://tokyogendai.com/ja/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://tokyogendai.com/ja/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "グループ展参加アーティスト募集中 - Gallery and Links81",
+      "score": 74,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://galleryandlinks81.jp/recruiting/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "TIS【東京イラストレーターズ・ソサエティ】Tokyo Illustrators Society",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://tis-home.com/koubo/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://tis-home.com/koubo/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Art Jobs in Japan: How to Find and Apply - ArtfulJapan",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://artfuljapan.com/post/art-jobs-in-japan-how-to-find-and-apply/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://artfuljapan.com/post/art-jobs-in-japan-how-to-find-and-apply/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "AIR_J : Online Database of Artist in Residence Programs in Japan",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://air-j.info/en/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://air-j.info/en/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo Creative Jobs and Japan Tech Jobs for Designers, Engineers ...",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://creativetokyo.com/jobs",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://creativetokyo.com/jobs"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "About Open Call Programs - Tokyo Arts and Space",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.tokyoartsandspace.jp/en/application/about_opencall.html",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.tokyoartsandspace.jp/en/application/about_opencall.html"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.jinnystreetgallery.com/open-call"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Manga Artist / Illustrator Recruitment - Sideranch Inc.",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://sideranch.co.jp/en/artist-contact/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://sideranch.co.jp/en/artist-contact/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "International illustration online competition",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://jpn-illust.com/english/compe/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://jpn-illust.com/english/compe/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Call for entries \"JIA Illustration Award 2025\" - artjobs.com",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.artjobs.com/open-calls/call-entries/日本/26432/call-entries-“jia-illustration-award-2025”",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.artjobs.com/open-calls/call-entries/日本/26432/call-entries-“jia-illustration-award-2025”"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "JIA Illustration Award - artinfo",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://artinfoland.com/opportunities/jia-illustration-award/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://artinfoland.com/opportunities/jia-illustration-award/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Exhibitor application｜Japan's largest textiles and fashion OEM/ODM fair ...",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.asiafashionfair.jp/exhibitor-en/apply.html",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.asiafashionfair.jp/exhibitor-en/apply.html"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo Illustrators Society（TIS）",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "http://en.tis-home.com/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "http://en.tis-home.com/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Trade Shows Worldwide - Japan - 2026/2027",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.eventseye.com/fairs/c1_trade-shows_japan.html",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.eventseye.com/fairs/c1_trade-shows_japan.html"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "見逃すな!全国のイラストレーターが集う! 一次創作イベント ...",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://note.com/aimslab/n/ndf3537de3014",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://note.com/aimslab/n/ndf3537de3014"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "コミティア156（2026夏）完全ガイド | 日程・サークル参加方法",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://nextage-tech.com/blog/2026/04/06/post-5349/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://nextage-tech.com/blog/2026/04/06/post-5349/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "コミティアのサークル参加完全ガイド｜申し込みから本制作 ...",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://memo-note.jp/comia-circle/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://memo-note.jp/comia-circle/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "デザインフェスタvol.63｜東京都 5月24日(日)開催｜fmfm.jp",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://fmfm.jp/event/detail/15188",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://fmfm.jp/event/detail/15188"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "【2026年最新】デザフェス出展初心者必見!準備から当日運営 ...",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://original-factory.jp/note/column/designfesta-first/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://original-factory.jp/note/column/designfesta-first/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "デザインフェスタギャラリー 原宿 (@DFGHarajuku) / Posts / X",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://x.com/DFGHarajuku",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://x.com/DFGHarajuku"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "デザインフェスタ申し込み〜出展まで・参加される方のご参考 ...",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://note.com/catchips/n/n217fd82e807d",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://note.com/catchips/n/n217fd82e807d"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "東京都のマルシェ・朝市開催情報・出店募集情報｜fmfm.jp",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://fmfm.jp/event/marche/tokyo",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://fmfm.jp/event/marche/tokyo"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "イベント出店者募集情報 - Tagged \"13_東京都\" - Hotdogger",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://hotdogger.jp/blogs/eventshop/tagged/13_東京都",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://hotdogger.jp/blogs/eventshop/tagged/13_東京都"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "東京都の出店者募集｜イベント情報｜ジモティー",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://jmty.jp/tokyo/eve-kw-出店者募集",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://jmty.jp/tokyo/eve-kw-出店者募集"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "渋谷デザイナーズマーケット Sdm｜自由をデザインするクリエイ ...",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://shibuyacast.jp/shibuya_designers_market/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://shibuyacast.jp/shibuya_designers_market/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "【出展者募集】約50組の出展者によるイラストレーターズ ... - Peatix",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://peatix.com/event/4451800",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://peatix.com/event/4451800"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "出店募集イベント特集 - こくちーずプロ",
+      "score": 74,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.kokuchpro.com/feature/出店募集/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.kokuchpro.com/feature/出店募集/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Little Tokyo Artist Alley Application - JotForm",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://form.jotform.com/242242130848047",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://form.jotform.com/242242130848047"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Craft Fairs in Tokyo | Best Handmade Markets & Design Events - Refer Japan",
+      "score": 74,
+      "fair_type": "creator market / illustration fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://referjapan.com/craft-fairs-in-tokyo/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://referjapan.com/craft-fairs-in-tokyo/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Little Tokyo Flea Market Official: TikTok, Instagram | Linktree",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://linktr.ee/littletokyofleamarket",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://linktr.ee/littletokyofleamarket"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "ZAPPlication",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.zapplication.org/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.zapplication.org/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Vendor — Japan Fes",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.japanfes.com/vendor",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.japanfes.com/vendor"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Event Applications - Little Tokyo Flea Market",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.littletokyofleamarket.com/pages/event-applications",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.littletokyofleamarket.com/pages/event-applications"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Apply - Markets for Makers",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.marketsformakers.com/apply/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.marketsformakers.com/apply/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "出展申込とガイド - TOKYOハンドメイド祭 -HanSai-",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://tokyohandmade.com/entry",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://tokyohandmade.com/entry"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "出店作家情報 | 東京ハンドメイドマルシェ2026秋",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://tokyo.handmade-marche.jp/creators/list_creators/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://tokyo.handmade-marche.jp/creators/list_creators/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "HandMade In Japan Fes",
+      "score": 74,
+      "fair_type": "creator market / illustration fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://hmj-fes.jp/en",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://hmj-fes.jp/en"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "出展までの流れ | 出展概要 | クリエーターズマーケット",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.creatorsmarket.com/exhibition/flow/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.creatorsmarket.com/exhibition/flow/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "クリエーターズマーケット 出展申込みサイト",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://creatorsmarket.easy-myshop.jp/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://creatorsmarket.easy-myshop.jp/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Creators Market",
+      "score": 74,
+      "fair_type": "creator market / illustration fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://creator.line.me/ja/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://creator.line.me/ja/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "SICF",
+      "score": 74,
+      "fair_type": "creator market / illustration fair",
+      "beginner_friendliness": "medium",
+      "prestige": "high",
+      "application_url": "https://www.sicf.jp/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.sicf.jp/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "【同業者向け】クリエイターズマーケット出展 売上も含めて ...",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://note.com/financierie_h/n/nd8f0fd48793f",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://note.com/financierie_h/n/nd8f0fd48793f"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "【出店者募集】KYOTOクリエイターズマーケット2026 in ...",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://tagstationery.kyoto/exhibition/event_list/202601isetan/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://tagstationery.kyoto/exhibition/event_list/202601isetan/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "クリエイターズマーケット | プロジェクトセカイ クリエイ ...",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://pjsekai.sega.jp/creatorsfesta2026/creators-market/index.html",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://pjsekai.sega.jp/creatorsfesta2026/creators-market/index.html"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "出店案内 | 手づくりアートマーケット",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://tezukuri-art.jp/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://tezukuri-art.jp/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "ハンドメイドインジャパンフェス 東京ビッグサイト 2026年7月 ...",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://hmj-fes.jp/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://hmj-fes.jp/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "アートフェア東京2025の結果発表と次回開催の出展募集開始 ...",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://news.3rd-in.co.jp/article/a0a9fb30-312a-11f0-97de-9ca3ba083d71",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://news.3rd-in.co.jp/article/a0a9fb30-312a-11f0-97de-9ca3ba083d71"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "わふっとまーけっと｜東京で出展者募集中",
+      "score": 74,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://waftto-market.com/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://waftto-market.com/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Zines Fair at CP+",
+      "score": 70,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28",
+      "deadline": "",
+      "fee": "Fee //www.cpplus.jp/entrance/ Venue Pacifico Yokohama http://www.pacifico.co.jp/engl",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Art Book Fairs",
+      "score": 64,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.artbookfairs.com/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.artbookfairs.com/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Art Fair Tokyo 2026 Dates, Tickets, Exhibitors & Guide | ArtExpoWorld",
+      "score": 62,
+      "fair_type": "art fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "high",
+      "application_url": "https://artexpoworld.com/art_fair_tokyo_2026",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://artexpoworld.com/art_fair_tokyo_2026"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Art Fair Tokyo 2026: 8 Standout Artists To Watch",
+      "score": 62,
+      "fair_type": "art fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "high",
+      "application_url": "https://www.tokyoweekender.com/art_and_culture/art-fair-tokyo-2026-guide/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.tokyoweekender.com/art_and_culture/art-fair-tokyo-2026-guide/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Japan Artist Visa - Complete Guide for Foreign Artists",
+      "score": 62,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://lawoffice-yokoyama.com/english/artistvisa/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://lawoffice-yokoyama.com/english/artistvisa/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "出店募集中のクラフトフェア一覧 - いちごよみ｜全国の ...",
+      "score": 62,
+      "fair_type": "art fairs",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://1543.life/出店募集中のクラフトフェア/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://1543.life/出店募集中のクラフトフェア/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "デザインフェスタとは？次回の開催日程や出展方法を徹底解説",
+      "score": 62,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://crexgroup.com/ja/travel/niche/design-festa-guide/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://crexgroup.com/ja/travel/niche/design-festa-guide/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "出店におすすめ!東京近郊のフリーマーケットまとめ",
+      "score": 62,
+      "fair_type": "illustration markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://shopcounter.jp/magazine/area-guide/free-market-in-tokyo-201601",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://shopcounter.jp/magazine/area-guide/free-market-in-tokyo-201601"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "全国クラフトフェア一覧 (つう工房) - gozaru.jp",
+      "score": 62,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://tsukoubow.gozaru.jp/craft50onlist.html",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://tsukoubow.gozaru.jp/craft50onlist.html"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "2026年1～6月開催ハンドメイド出店募集期間まとめ｜クラフト ...",
+      "score": 62,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://fmfm.jp/eventpickup/craftfair/detail/324",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://fmfm.jp/eventpickup/craftfair/detail/324"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "東京でマルシェ出店したい方必見!2026年開催情報まとめ",
+      "score": 62,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://note.com/holdhands_marche/n/n38de046ceb22",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://note.com/holdhands_marche/n/n38de046ceb22"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Jimbocho Zine Fair",
+      "score": 62,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://tcha.jp/post-3262/",
+      "deadline": "2021年4月25日 2021",
+      "fee": "参加費",
+      "application_route": "form",
+      "source_count": 1,
+      "sources": [
+        "https://tcha.jp/post-3262/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "ZINEフェス東京",
+      "score": 61,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://x.com/zinefarmtokyo/status/2030078129293938743",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 2,
+      "sources": [
+        "https://x.com/zinefarmtokyo/status/2030078129293938743",
+        "https://note.com/bookcultureclub/n/n14764ff42f86"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "ZINEイベント",
+      "score": 60,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://zindies.co/events?locale=ja",
+      "deadline": "2026年6月 6 2026",
+      "fee": "参加費 1,800円 こども：1,300円 6月 20 土 名古屋の知らんかった！ことおしえます 『名古屋知らんかったがや紀行』刊行記念トーク＆サイン会 著者イベント ",
+      "application_route": "email_possible",
+      "source_count": 1,
+      "sources": [
+        "https://zindies.co/events?locale=ja"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
+      "score": 58,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://www.eventeny.com/events/vendor/?id=39232",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.eventeny.com/events/vendor/?id=39232"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+      "score": 58,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Kyotographie Photobook Fair",
+      "score": 58,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "medium",
+      "application_url": "https://www.kyotographie.jp/en/photobook_fair/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.kyotographie.jp/en/photobook_fair/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Zine＆Book Stand Fesの出店者を募集します!",
+      "score": 58,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://www.hakushindo.jp/news/2025/09/zine-fes2025_boshu/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.hakushindo.jp/news/2025/09/zine-fes2025_boshu/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "「Kitakagaya Zine'S Fair 2025」開催決定＆出展者募集開始!",
+      "score": 58,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://insec2.com/「kitakagaya-zines-fair-2025」開催決定＆出展者募集開始！　/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://insec2.com/「kitakagaya-zines-fair-2025」開催決定＆出展者募集開始！　/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "PDF Zine フェスティバ",
+      "score": 58,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://www.bungakukan.pref.yamanashi.jp/event/2025.7.20.form.pdf",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.bungakukan.pref.yamanashi.jp/event/2025.7.20.form.pdf"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Independent Publishers Expo: A Unique Book Fair Coming in January",
+      "score": 58,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://japandaily.jp/independent-publishers-expo-a-unique-book-fair-coming-in-january/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://japandaily.jp/independent-publishers-expo-a-unique-book-fair-coming-in-january/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Risograph Printing: Zines and Small Publishing",
+      "score": 58,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://sva.edu/features/risograph-printing-zines-and-small-publishing",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://sva.edu/features/risograph-printing-zines-and-small-publishing"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo Arts & Crafts Market - [NANIKA]",
+      "score": 52,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://nanikajapan.com/tokyo-arts-crafts-market/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://nanikajapan.com/tokyo-arts-crafts-market/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Artistbooths | Modular Artist Alley Booth Setup & Display Kits",
+      "score": 52,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://artistbooths.com/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://artistbooths.com/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo Gendai Best Booths 2025 - ARTnews.com",
+      "score": 52,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.artnews.com/list/art-news/market/tokyo-gendai-best-booths-1234751636/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.artnews.com/list/art-news/market/tokyo-gendai-best-booths-1234751636/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "The count-down is on for Tokyo's most vibrant art event this year 29-30 ...",
+      "score": 52,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.tokyoartfair.com/artistinterviews/the-count-down-is-on-for-tokyos-most-vibrant-art-event-this-year-tokyo-international-art-fair-2024",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.tokyoartfair.com/artistinterviews/the-count-down-is-on-for-tokyos-most-vibrant-art-event-this-year-tokyo-international-art-fair-2024"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Artist Alleys/Artisan Markets : r/JapanTravelTips - Reddit",
+      "score": 52,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.reddit.com/r/JapanTravelTips/comments/1co1rri/artist_alleysartisan_markets/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.reddit.com/r/JapanTravelTips/comments/1co1rri/artist_alleysartisan_markets/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo Art Beat｜Your pulse on art and design in Japan and beyond ...",
+      "score": 52,
+      "fair_type": "artist markets",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.tokyoartbeat.com/en",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.tokyoartbeat.com/en"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Zineが買える全国のイベント（即売会）まとめ【2026年5月8日更新】 - やーはちのブログ",
+      "score": 50,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://ya-hachi.com/zine-event/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://ya-hachi.com/zine-event/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "素人も参加可能なzineのイベント一覧!それぞれの出店料や販売手数料も紹介 - Zineメーカー",
+      "score": 50,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://zine.sasmagazine.jp/2024/05/11/zine-event-list/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://zine.sasmagazine.jp/2024/05/11/zine-event-list/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "素人も参加可能なzineのイベント一覧!それぞれの出店料や販売 ...",
+      "score": 50,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://zine.sasmagazine.jp/2024/05/11/zine-event-list/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://zine.sasmagazine.jp/2024/05/11/zine-event-list/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "全国のzineイベント一覧 - Diy Books",
+      "score": 50,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "high",
+      "prestige": "unknown",
+      "application_url": "https://diybooks.jp/pages/zine-event-all",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://diybooks.jp/pages/zine-event-all"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "TOP of artbookosaka",
+      "score": 44,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://artbookosaka.com/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://artbookosaka.com/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Exhibitors",
+      "score": 44,
+      "fair_type": "zine art book",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.tokioartbookfair.com/exhibitors/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.tokioartbookfair.com/exhibitors/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "PDF Promotion guide - mfjp-files.com",
+      "score": 38,
+      "fair_type": "zine art book",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "http://mfjp-files.com/documents/ilt2025/promotionguide_en.pdf",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "http://mfjp-files.com/documents/ilt2025/promotionguide_en.pdf"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Connecting Japan and the World Through Art Books What is the TOKYO ART ...",
+      "score": 38,
+      "fair_type": "zine / art-book fair",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://deeptokyo.jp/en/culture/2808/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://deeptokyo.jp/en/culture/2808/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "studio zezezaza",
+      "score": 38,
+      "fair_type": "zine art book",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.studiozezezaza.com/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.studiozezezaza.com/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "The View From Tokyo: the fascinating origins, and triumphant resurgence ...",
+      "score": 38,
+      "fair_type": "zine art book",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.itsnicethat.com/articles/the-view-from-tokyo-risograph-in-japan-print-graphic-design-261124",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.itsnicethat.com/articles/the-view-from-tokyo-risograph-in-japan-print-graphic-design-261124"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Workshop",
+      "score": 38,
+      "fair_type": "zine art book",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://handsawpresstokyo.com/workshop.html",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://handsawpresstokyo.com/workshop.html"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "PageMasters",
+      "score": 38,
+      "fair_type": "zine art book",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.pagemasters.co/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.pagemasters.co/"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "RISO studio - Space Utility TOKYO",
+      "score": 38,
+      "fair_type": "zine art book",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://www.space-utility.com/risostudio",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://www.space-utility.com/risostudio"
+      ],
+      "status": "research_next"
+    },
+    {
+      "name": "Tokyo's Coolest Art Workshop? Try Risograph Printing in Harajuku",
+      "score": 30,
+      "fair_type": "zine art book",
+      "beginner_friendliness": "unknown",
+      "prestige": "unknown",
+      "application_url": "https://blog.gaijinpot.com/how-to-join-a-risograph-printing-workshop-in-tokyo/",
+      "deadline": "",
+      "fee": "",
+      "application_route": "check_source",
+      "source_count": 1,
+      "sources": [
+        "https://blog.gaijinpot.com/how-to-join-a-risograph-printing-workshop-in-tokyo/"
+      ],
+      "status": "research_next"
+    }
+  ]
+}

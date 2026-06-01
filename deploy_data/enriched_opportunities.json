@@ -1,0 +1,2142 @@
+{
+  "enriched_count": 54,
+  "opportunities": [
+    {
+      "canonical_name": "Tokyo Art Book Fair",
+      "career_category": "zines",
+      "score": 100,
+      "source_count": 17,
+      "best_url": "https://tokyoartbookfair.com/en/application/",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://tokyoartbookfair.com/en/application/",
+          "title": "Tokyo Art Book Fair",
+          "kind": "application",
+          "score": 88,
+          "candidate_id": "MULTI-0070",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://tokyoartbookfair.com/application/",
+          "title": "Application - Tokyo Art Book Fair",
+          "kind": "application",
+          "score": 88,
+          "candidate_id": "MULTI-0091",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://easteast.world/posts/625",
+          "title": "Tokyo Art Book Fair Open for Booth Applications - EastEast",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0071",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://tokioartbookfair.com/",
+          "title": "Tokio Art Book Fair トキオアートブックフェア",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0072",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.mot-art-museum.jp/en/exhibitions/tokyo-art-book-fair-2025/",
+          "title": "TOKYO ART BOOK FAIR 2025",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0074",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.mot-art-museum.jp/en/TABF2024vol1_EN.pdf",
+          "title": "PDF TOKYO ART BOOK FAIR 2024 - mot-art-museum.jp",
+          "kind": "pdf",
+          "score": 61,
+          "candidate_id": "MULTI-0106",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://tokyoartbookfair.com/en/about/",
+          "title": "Tokyo Art Book Fair",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0109",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://photoandculture-tokyo.com/contents.php?i=3843",
+          "title": "TOKYO ART BOOK FAIR2024、出展者募集中：Photo & Culture, Tokyo",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0073",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://x.com/tabf_info",
+          "title": "TOKYO ART BOOK FAIR (@tabf_info) / Posts / X - x.com",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0075",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://stackmagazines.com/everything/tokyo-art-book-fair-2025/",
+          "title": "Tokyo Art Book Fair 2025 - STACK magazines",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0103",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.tokyoweekender.com/event/tokyo-art-book-fair-2024/",
+          "title": "Tokyo Art Book Fair 2024",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0105",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://printroom.org/2026/01/23/31-1-26-printrooms-picks-from-the-tokyo-art-book-fair/",
+          "title": "31.1.26 PrintRoom's Picks from the Tokyo Art Book Fair!",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0107",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://jaapan.de/tokyo-art-book-fair-2024-more-than-books/",
+          "title": "Tokyo Art Book Fair 2024: More than Books - Ja (a)pan",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0108",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.riso.co.jp/english/company/risoart/works/20221029_TABF2022_eng.html",
+          "title": "RISO KAGAKU CORPORATION cosponsored \"TOKYO ART BOOK FAIR 2022",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0113",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://tokyoartbookfair.com/",
+          "title": "Tokyo Art Book Fair",
+          "kind": "reference",
+          "score": 41,
+          "candidate_id": "MULTI-0217",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.mot-art-museum.jp/en/pr_TABF20205_vol.1_EN.pdf",
+          "title": "PDF Tokyo Art Book Fair 2025",
+          "kind": "pdf",
+          "score": 41,
+          "candidate_id": "MULTI-0228",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://ave-cornerprinting.com/tabf-12112025/",
+          "title": "「Tokyo Art Book Fair 2025」東京・清澄白河 東京都 ...",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0218",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 100,
+      "actionability_score": 100,
+      "risk_score": 0,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Main risk is fit and competitiveness."
+      ],
+      "why_for_nin": "Tokyo Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "Applications — Little Tokyo Zine Fest",
+      "career_category": "zines",
+      "score": 98,
+      "source_count": 1,
+      "best_url": "https://www.ltzinefest.org/applications",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.ltzinefest.org/applications",
+          "title": "Applications — Little Tokyo Zine Fest",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0062",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 100,
+      "actionability_score": 100,
+      "risk_score": 0,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Applications — Little Tokyo Zine Fest fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "TOKAS Open Call",
+      "career_category": "contests",
+      "score": 100,
+      "source_count": 3,
+      "best_url": "https://www.tokyoartsandspace.jp/en/application/index.html",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokyoartsandspace.jp/en/application/index.html",
+          "title": "Open Call - Tokyo Arts and Space",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0001",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.tokyoartsandspace.jp/application/index.html",
+          "title": "公募",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0031",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.tokyoartsandspace.jp/en/application/about_opencall.html",
+          "title": "About Open Call Programs - Tokyo Arts and Space",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0052",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 100,
+      "actionability_score": 100,
+      "risk_score": 0,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Main risk is fit and competitiveness."
+      ],
+      "why_for_nin": "TOKAS Open Call is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "Jinny Street Gallery Open Call",
+      "career_category": "contests",
+      "score": 100,
+      "source_count": 1,
+      "best_url": "https://www.jinnystreetgallery.com/open-call",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.jinnystreetgallery.com/open-call",
+          "title": "Open Call",
+          "kind": "application",
+          "score": 88,
+          "candidate_id": "MULTI-0006",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 96,
+      "actionability_score": 100,
+      "risk_score": 2,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "Fukuoka Art Book Fair",
+      "career_category": "zines",
+      "score": 100,
+      "source_count": 1,
+      "best_url": "https://fukuokaartbookfair.com/application/",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://fukuokaartbookfair.com/application/",
+          "title": "出展お申込み",
+          "kind": "application",
+          "score": 88,
+          "candidate_id": "MULTI-0094",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 95,
+      "actionability_score": 100,
+      "risk_score": 2,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "Clone of Japan Fair 2025 - Exhibitor Application Form",
+      "career_category": "zines",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://form.jotform.com/253215140594149",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://form.jotform.com/253215140594149",
+          "title": "Clone of Japan Fair 2025 - Exhibitor Application Form",
+          "kind": "application",
+          "score": 62,
+          "candidate_id": "MULTI-0082",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 95,
+      "actionability_score": 96,
+      "risk_score": 4,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Clone of Japan Fair 2025 - Exhibitor Application Form fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "Belladonna Art Competition",
+      "career_category": "contests",
+      "score": 98,
+      "source_count": 1,
+      "best_url": "https://www.art-belladonna.jp/youkou",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.art-belladonna.jp/youkou",
+          "title": "全国美術公募団体 ベラドンナ・アート｜応募要項",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0047",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 91,
+      "actionability_score": 100,
+      "risk_score": 4,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Belladonna Art Competition is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "TOKAS Residency",
+      "career_category": "residencies",
+      "score": 100,
+      "source_count": 7,
+      "best_url": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf",
+          "title": "PDF International Creator Residency Program 2026 Application Outline",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0122",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.tokyoartsandspace.jp/archive/application/2025/20250513-295.html",
+          "title": "2026年度 リサーチ・レジデンス・プログラム",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0148",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html",
+          "title": "Open Call for the International Creator Residency Program 2026",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0154",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.transartists.org/en/news/tokas-residency-programs-2026",
+          "title": "TOKAS Residency Programs 2026 - transartists.org",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0128",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://resartis.org/open-call/international-creator-residency-program-2026｜tokas-residency-programs/",
+          "title": "International Creator Residency Program 2026｜TOKAS Residency Programs",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0131",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://artres.moc.gov.tw/en/calls/content/ff80818196c95f3b0196e675e523000f",
+          "title": "TOKAS Residency Programs 2026: International Creator Residency Program ...",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0133",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://air-j.info/en/program/tokas2026creator/",
+          "title": "International Creator Residency Program 2026｜TOKAS Residency Programs ...",
+          "kind": "reference",
+          "score": 41,
+          "candidate_id": "MULTI-0008",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 88,
+      "actionability_score": 100,
+      "risk_score": 6,
+      "recommended_next_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+      "risks": [
+        "Main risk is fit and competitiveness."
+      ],
+      "why_for_nin": "TOKAS Residency may matter later if her portfolio package and project statement become strong enough."
+    },
+    {
+      "canonical_name": "SCCP Guest Artist",
+      "career_category": "residencies",
+      "score": 98,
+      "source_count": 1,
+      "best_url": "https://www.sccp.jp/air-en/application/guest-artist/",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.sccp.jp/air-en/application/guest-artist/",
+          "title": "Open Call Guest Artist",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0165",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 78,
+      "actionability_score": 100,
+      "risk_score": 11,
+      "recommended_next_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough."
+    },
+    {
+      "canonical_name": "グループ展参加アーティスト募集中 - Gallery and Links81",
+      "career_category": "galleries",
+      "score": 90,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a",
+      "best_source_kind": "reference",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a",
+          "title": "グループ展参加アーティスト募集中 - Gallery and Links81",
+          "kind": "reference",
+          "score": 90,
+          "candidate_id": "GAL-0060"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 78,
+      "actionability_score": 100,
+      "risk_score": 11,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "グループ展参加アーティスト募集中 - Gallery and Links81 may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
+      "career_category": "galleries",
+      "score": 90,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f",
+      "best_source_kind": "reference",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f",
+          "title": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
+          "kind": "reference",
+          "score": 90,
+          "candidate_id": "GAL-0063"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 78,
+      "actionability_score": 100,
+      "risk_score": 11,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "【biscuit gallery】初の公募企画「grid next : Emerging ... may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "219公募展6募集 >> Gallery219 ギャラリーニイク",
+      "career_category": "galleries",
+      "score": 90,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7",
+      "best_source_kind": "reference",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7",
+          "title": "219公募展6募集 >> Gallery219 ギャラリーニイク",
+          "kind": "reference",
+          "score": 90,
+          "candidate_id": "GAL-0065"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 78,
+      "actionability_score": 100,
+      "risk_score": 11,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "219公募展6募集 >> Gallery219 ギャラリーニイク may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "公募プログラム - トーキョーアーツアンドスペース",
+      "career_category": "galleries",
+      "score": 90,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tokyoartsandspace.jp%2Fapplication%2Fabout_opencall.html&rut=dfbe1d186f3c4ab32c7fd12bde11eb0833c5498641b3ce3c152d0ec43918c688",
+      "best_source_kind": "reference",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tokyoartsandspace.jp%2Fapplication%2Fabout_opencall.html&rut=dfbe1d186f3c4ab32c7fd12bde11eb0833c5498641b3ce3c152d0ec43918c688",
+          "title": "公募プログラム - トーキョーアーツアンドスペース",
+          "kind": "reference",
+          "score": 90,
+          "candidate_id": "GAL-0066"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 78,
+      "actionability_score": 100,
+      "risk_score": 11,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "公募プログラム - トーキョーアーツアンドスペース may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
+      "career_category": "galleries",
+      "score": 90,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672",
+      "best_source_kind": "reference",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672",
+          "title": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
+          "kind": "reference",
+          "score": 90,
+          "candidate_id": "GAL-0075"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 78,
+      "actionability_score": 100,
+      "risk_score": 11,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "公募企画「grid next : 2025 - Emerging Artists Showcase ... may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "Shoto Museum Open Call",
+      "career_category": "contests",
+      "score": 84,
+      "source_count": 1,
+      "best_url": "https://shoto-museum.jp/exhibitions/2026koubo/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://shoto-museum.jp/exhibitions/2026koubo/",
+          "title": "2026 松濤美術館公募展｜渋谷区立松濤美術館",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0029",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 83,
+      "actionability_score": 94,
+      "risk_score": 12,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Shoto Museum Open Call is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "Osaka Open Call For Artists. - ARRIVAL",
+      "career_category": "contests",
+      "score": 84,
+      "source_count": 1,
+      "best_url": "https://www.arrivalgallery.com/osaka",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.arrivalgallery.com/osaka",
+          "title": "Osaka Open Call For Artists. - ARRIVAL",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0055",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 83,
+      "actionability_score": 94,
+      "risk_score": 12,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Osaka Open Call For Artists. - ARRIVAL is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "International Open Call",
+      "career_category": "contests",
+      "score": 84,
+      "source_count": 1,
+      "best_url": "https://en.410gallery.org/exhibition-open-call",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://en.410gallery.org/exhibition-open-call",
+          "title": "International Open Call",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0056",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 83,
+      "actionability_score": 94,
+      "risk_score": 12,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "International Open Call is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "Kyoto Art Center Residency",
+      "career_category": "residencies",
+      "score": 86,
+      "source_count": 5,
+      "best_url": "https://kiac.jp/en/article/2927/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://kiac.jp/en/article/2927/",
+          "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0126",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/",
+          "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0127",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://kiac.jp/article/3451/",
+          "title": "2026年度「アーティスト・イン・レジデンス プログラム」公募 ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0139",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.kac.or.jp/en/program/3066/",
+          "title": "Artist-in-Residence Program",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0155",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://artres.moc.gov.tw/en/calls/content/ff8081819883f7610198c0f7f79c0034",
+          "title": "Kyoto Art Center Artist In Residence Program 2026 Visual Arts - Arts ...",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0153",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 80,
+      "actionability_score": 96,
+      "risk_score": 12,
+      "recommended_next_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+      "risks": [
+        "Application route may be unclear."
+      ],
+      "why_for_nin": "Kyoto Art Center Residency may matter later if her portfolio package and project statement become strong enough."
+    },
+    {
+      "canonical_name": "AIR_J Open Calls",
+      "career_category": "residencies",
+      "score": 92,
+      "source_count": 4,
+      "best_url": "https://air-j.info/en/program/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://air-j.info/en/program/",
+          "title": "Open calls - Online Database of Artist in Residence Programs in Japan",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0057",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://air-j.info/en/program/lair2026/",
+          "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0121",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://air-j.info/en/",
+          "title": "AIR_J : Online Database of Artist in Residence Programs in Japan",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0134",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://air-j.info/",
+          "title": "AIR_J：日本全国のアーティスト・イン・レジデンス総合サイト",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0138",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 75,
+      "actionability_score": 100,
+      "risk_score": 12,
+      "recommended_next_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+      "risks": [
+        "Application route may be unclear."
+      ],
+      "why_for_nin": "AIR_J Open Calls may matter later if her portfolio package and project statement become strong enough."
+    },
+    {
+      "canonical_name": "Hayama Artist Residency",
+      "career_category": "residencies",
+      "score": 85,
+      "source_count": 2,
+      "best_url": "https://hayamaartistresidency.submittable.com/submit",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://hayamaartistresidency.submittable.com/submit",
+          "title": "Hayama Artist Residency Submission Manager - Submittable",
+          "kind": "application",
+          "score": 73,
+          "candidate_id": "MULTI-0158",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.hayamaresidency.com/",
+          "title": "International Artist Residency in Hayama, Japan",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0136",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 78,
+      "actionability_score": 97,
+      "risk_score": 12,
+      "recommended_next_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+      "risks": [
+        "Deadline needs manual confirmation."
+      ],
+      "why_for_nin": "Hayama Artist Residency may matter later if her portfolio package and project statement become strong enough."
+    },
+    {
+      "canonical_name": "Art公募",
+      "career_category": "contests",
+      "score": 80,
+      "source_count": 1,
+      "best_url": "https://www.artkoubo.jp/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artkoubo.jp/",
+          "title": "Art公募",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0024",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 83,
+      "actionability_score": 90,
+      "risk_score": 14,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Art公募 is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "公募展",
+      "career_category": "contests",
+      "score": 80,
+      "source_count": 2,
+      "best_url": "https://www.nact.jp/exhibition_public/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.nact.jp/exhibition_public/",
+          "title": "公募展",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0025",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://koubo.yumegazai.com/category/koubo/",
+          "title": "公募展",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0026",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 83,
+      "actionability_score": 90,
+      "risk_score": 14,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Application route may be unclear."
+      ],
+      "why_for_nin": "公募展 is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "Open Calls for Artists",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.theholyart.com/tokyo-open-art",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.theholyart.com/tokyo-open-art",
+          "title": "Open Calls for Artists",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0002",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 83,
+      "actionability_score": 88,
+      "risk_score": 14,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Open Calls for Artists is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "Open Call For Artists",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://opencallforartists.com/listing/784",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://opencallforartists.com/listing/784",
+          "title": "Open Call For Artists",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0004",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 83,
+      "actionability_score": 88,
+      "risk_score": 14,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Open Call For Artists is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "The Holy Art Gallery - Tokyo Open Call for Artist",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.forphotographersonly.com/event-details/the-holy-art-gallery-tokyo-open-call-for-artist",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.forphotographersonly.com/event-details/the-holy-art-gallery-tokyo-open-call-for-artist",
+          "title": "The Holy Art Gallery - Tokyo Open Call for Artist",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0022",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 83,
+      "actionability_score": 88,
+      "risk_score": 14,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "The Holy Art Gallery - Tokyo Open Call for Artist is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "http://toten.jp.net/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "http://toten.jp.net/",
+          "title": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0028",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 83,
+      "actionability_score": 88,
+      "risk_score": 14,
+      "recommended_next_action": "Confirm deadline, fee, eligibility, required images, and application form.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ... is worth checking because open calls can turn existing portfolio work into a concrete application."
+    },
+    {
+      "canonical_name": "Open Calls for Artists | Exhibit Worldwide",
+      "career_category": "galleries",
+      "score": 80,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537",
+      "best_source_kind": "reference",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537",
+          "title": "Open Calls for Artists | Exhibit Worldwide",
+          "kind": "reference",
+          "score": 80,
+          "candidate_id": "GAL-0010"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 78,
+      "actionability_score": 92,
+      "risk_score": 15,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Open Calls for Artists | Exhibit Worldwide may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
+      "career_category": "galleries",
+      "score": 80,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013",
+      "best_source_kind": "reference",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013",
+          "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
+          "kind": "reference",
+          "score": 80,
+          "candidate_id": "GAL-0011"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 78,
+      "actionability_score": 92,
+      "risk_score": 15,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ... may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "Zines Fair at CP+",
+      "career_category": "zines",
+      "score": 69,
+      "source_count": 4,
+      "best_url": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28",
+          "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0065",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.cpplus.jp/zinesfair/",
+          "title": "ZINES FAIR at CP＋｜CP+2026 カメラと写真映像のワールドプレミアショー「CP+（シーピープラス）」",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0064",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://note.com/flotsambooks/n/n78edeb0a815d",
+          "title": "ZINES FAIR at CP+ 2026 募集要項｜flotsambooks - note（ノート）",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0067",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.ephemere.tokyo/events/zines-fair-at-cp-plus-2026",
+          "title": "Ephemere at Zines Fair at CP+ 2026 — Ephemere",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0068",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 92,
+      "actionability_score": 73,
+      "risk_score": 18,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Application route may be unclear.",
+        "Deadline needs manual confirmation."
+      ],
+      "why_for_nin": "Zines Fair at CP+ fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
+      "career_category": "galleries",
+      "score": 90,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fprtimes.jp%2Fmain%2Fhtml%2Frd%2Fp%2F000000087.000042448.html&rut=f1fbec36411d2c34876c4651b45aff89b534df7647b722dd0665a14a74cfb318",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fprtimes.jp%2Fmain%2Fhtml%2Frd%2Fp%2F000000087.000042448.html&rut=f1fbec36411d2c34876c4651b45aff89b534df7647b722dd0665a14a74cfb318",
+          "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
+          "kind": "reference",
+          "score": 90,
+          "candidate_id": "GAL-0061"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 70,
+      "actionability_score": 94,
+      "risk_score": 18,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ... may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...",
+      "career_category": "galleries",
+      "score": 90,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fpicaresquejpn.com%2Fstaff%2Dletter%2Ftokyo%2Dartgallery%2Dartist%2Dwanted%2Dpicaresque%2F&rut=406152ece7c95b979e6aa762794afac5d273960fa17fe89aad49bc74d43cacca",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fpicaresquejpn.com%2Fstaff%2Dletter%2Ftokyo%2Dartgallery%2Dartist%2Dwanted%2Dpicaresque%2F&rut=406152ece7c95b979e6aa762794afac5d273960fa17fe89aad49bc74d43cacca",
+          "title": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...",
+          "kind": "reference",
+          "score": 90,
+          "candidate_id": "GAL-0062"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 70,
+      "actionability_score": 94,
+      "risk_score": 18,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ... may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "現代アート販売の@Gallery Tagboat|@Gallery Tagboat",
+      "career_category": "galleries",
+      "score": 90,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tagboat.com%2Fartevent%2Findependenttokyo2025%2F&rut=9b822b771e0836f673f3d19ae53daad1ba6736fa2d403c1a1d889634c9a47dca",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tagboat.com%2Fartevent%2Findependenttokyo2025%2F&rut=9b822b771e0836f673f3d19ae53daad1ba6736fa2d403c1a1d889634c9a47dca",
+          "title": "現代アート販売の@Gallery Tagboat|@Gallery Tagboat",
+          "kind": "reference",
+          "score": 90,
+          "candidate_id": "GAL-0064"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 70,
+      "actionability_score": 94,
+      "risk_score": 18,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "現代アート販売の@Gallery Tagboat|@Gallery Tagboat may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "New Power展 | ギャラリー自由が丘で作家デビュー",
+      "career_category": "galleries",
+      "score": 90,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery%2Djiyugaoka.com%2Fnewpower%2Dapplication&rut=b653d4d84da197b9ca45bc99ef7dc6fb0682fe91fcb1c6cea589a694c266b701",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery%2Djiyugaoka.com%2Fnewpower%2Dapplication&rut=b653d4d84da197b9ca45bc99ef7dc6fb0682fe91fcb1c6cea589a694c266b701",
+          "title": "New Power展 | ギャラリー自由が丘で作家デビュー",
+          "kind": "reference",
+          "score": 90,
+          "candidate_id": "GAL-0067"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 70,
+      "actionability_score": 94,
+      "risk_score": 18,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "New Power展 | ギャラリー自由が丘で作家デビュー may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+      "career_category": "residencies",
+      "score": 80,
+      "source_count": 2,
+      "best_url": "https://tokyobiennale.jp/en/archives/news/6152",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://tokyobiennale.jp/en/archives/news/6152",
+          "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0023",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://resartis.org/news-listing/open-call-for-artists-tokyo-biennale-2025-social-dive/",
+          "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+          "kind": "requirements",
+          "score": 50,
+          "candidate_id": "MULTI-0161",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 70,
+      "actionability_score": 90,
+      "risk_score": 20,
+      "recommended_next_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+      "risks": [
+        "Application route may be unclear."
+      ],
+      "why_for_nin": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\" may matter later if her portfolio package and project statement become strong enough."
+    },
+    {
+      "canonical_name": "NEW AIR",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
+          "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0123",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 70,
+      "actionability_score": 88,
+      "risk_score": 21,
+      "recommended_next_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "NEW AIR may matter later if her portfolio package and project statement become strong enough."
+    },
+    {
+      "canonical_name": "Kyoto Retreat Artist Residency 2026 - Open Call",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency",
+          "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0125",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 70,
+      "actionability_score": 88,
+      "risk_score": 21,
+      "recommended_next_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Kyoto Retreat Artist Residency 2026 - Open Call may matter later if her portfolio package and project statement become strong enough."
+    },
+    {
+      "canonical_name": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/",
+          "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0137",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 70,
+      "actionability_score": 88,
+      "risk_score": 21,
+      "recommended_next_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ... may matter later if her portfolio package and project statement become strong enough."
+    },
+    {
+      "canonical_name": "【公募】2026年度レジデンス・プログラム公募開始",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html",
+          "title": "【公募】2026年度レジデンス・プログラム公募開始",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0142",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 70,
+      "actionability_score": 88,
+      "risk_score": 21,
+      "recommended_next_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements.",
+      "risks": [
+        "Application route may be unclear.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "【公募】2026年度レジデンス・プログラム公募開始 may matter later if her portfolio package and project statement become strong enough."
+    },
+    {
+      "canonical_name": "Jimbocho Zine Fair",
+      "career_category": "zines",
+      "score": 61,
+      "source_count": 3,
+      "best_url": "https://tcha.jp/post-3262/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://tcha.jp/post-3262/",
+          "title": "Jimbocho Zine Fair in ひじりばし博覧会2025 出展者募集中 - 東京文化資源会議",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0078",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://jimbocho.site/jimbocho-zine-fair-in-ひじりばし博覧会2025出展者募集中/",
+          "title": "Jimbocho Zine Fair in ひじりばし博覧会2025出展者募集中",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0079",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://jimbocho.site/zinefair2025/",
+          "title": "Jimbocho Zine Fair in ひじりばし博覧会2025",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0086",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 92,
+      "actionability_score": 65,
+      "risk_score": 22,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Application route may be unclear.",
+        "Deadline needs manual confirmation."
+      ],
+      "why_for_nin": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "Call for Entry: Showcase your art in Tokyo, Japan",
+      "career_category": "galleries",
+      "score": 80,
+      "source_count": 1,
+      "best_url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.artworkarchive.com%2Fcall%2Dfor%2Dentry%2Fshowcase%2Dyour%2Dart%2Din%2Dtokyo%2Djapan%2D2025&rut=18e7fc33851de86764219ed41599c81337554ed1fdd5f8259da21271f6657e1c",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.artworkarchive.com%2Fcall%2Dfor%2Dentry%2Fshowcase%2Dyour%2Dart%2Din%2Dtokyo%2Djapan%2D2025&rut=18e7fc33851de86764219ed41599c81337554ed1fdd5f8259da21271f6657e1c",
+          "title": "Call for Entry: Showcase your art in Tokyo, Japan",
+          "kind": "reference",
+          "score": 80,
+          "candidate_id": "GAL-0009"
+        }
+      ],
+      "status": "gallery_candidate",
+      "neighborhood": "Tokyo",
+      "fit_score": 70,
+      "actionability_score": 84,
+      "risk_score": 23,
+      "recommended_next_action": "Review current/past artists and check whether submissions, contact email, or open calls are visible.",
+      "risks": [
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Call for Entry: Showcase your art in Tokyo, Japan may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes."
+    },
+    {
+      "canonical_name": "ZINEフェス東京",
+      "career_category": "zines",
+      "score": 59,
+      "source_count": 2,
+      "best_url": "https://x.com/zinefarmtokyo/status/2030078129293938743",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://x.com/zinefarmtokyo/status/2030078129293938743",
+          "title": "Zineフェス東京開催します! 今回は650名の方にご出展いただきます。当日はみんなでzineを楽しみましょう! Zineフェス東京 日時 ...",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0084",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://indigoproducts.hateblo.jp/entry/2026/05/28/154312",
+          "title": "【イベント出展】7/11 ZINEフェス東京 in 東京都立産業貿易センター台東館 - INDIGO PRODUCTS",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0088",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 87,
+      "actionability_score": 63,
+      "risk_score": 25,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Application route may be unclear.",
+        "Deadline needs manual confirmation."
+      ],
+      "why_for_nin": "ZINEフェス東京 fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "ZINEイベント",
+      "career_category": "zines",
+      "score": 59,
+      "source_count": 1,
+      "best_url": "https://zindies.co/events?locale=ja",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://zindies.co/events?locale=ja",
+          "title": "ZINEイベント",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0085",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 87,
+      "actionability_score": 63,
+      "risk_score": 25,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Application route may be unclear.",
+        "Deadline needs manual confirmation.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "ZINEイベント fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "Art Book Fairs",
+      "career_category": "zines",
+      "score": 63,
+      "source_count": 1,
+      "best_url": "https://www.artbookfairs.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artbookfairs.com/",
+          "title": "Art Book Fairs",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0069",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 82,
+      "actionability_score": 67,
+      "risk_score": 26,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Application route may be unclear.",
+        "Deadline needs manual confirmation.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Art Book Fairs fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.eventeny.com/events/vendor/?id=39232",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.eventeny.com/events/vendor/?id=39232",
+          "title": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0063",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 87,
+      "actionability_score": 61,
+      "risk_score": 26,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Application route may be unclear.",
+        "Deadline needs manual confirmation.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3",
+          "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0066",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 87,
+      "actionability_score": 61,
+      "risk_score": 26,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Application route may be unclear.",
+        "Deadline needs manual confirmation.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3... fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "Kyotographie Photobook Fair",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.kyotographie.jp/en/photobook_fair/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.kyotographie.jp/en/photobook_fair/",
+          "title": "Kyotographie Photobook Fair 2026",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0081",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 82,
+      "actionability_score": 61,
+      "risk_score": 28,
+      "recommended_next_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
+      "risks": [
+        "Application route may be unclear.",
+        "Deadline needs manual confirmation.",
+        "Only one source found so far."
+      ],
+      "why_for_nin": "Kyotographie Photobook Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+    },
+    {
+      "canonical_name": "Clavis Publishing Submissions",
+      "career_category": "publishing",
+      "score": 75,
+      "source_count": 1,
+      "best_url": "https://www.clavis-publishing.com/submit",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.clavis-publishing.com/submit",
+          "title": "Submissions — Clavis Publishing",
+          "kind": "application",
+          "score": 65,
+          "candidate_id": "MULTI-0176",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 63,
+      "actionability_score": 77,
+      "risk_score": 30,
+      "recommended_next_action": "Decide whether this is a real target, benchmark, directory, or self-publishing service.",
+      "risks": [
+        "Only one source found so far.",
+        "Publishing results are noisy; verify that this is not only a directory or service."
+      ],
+      "why_for_nin": "Clavis Publishing Submissions is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions."
+    },
+    {
+      "canonical_name": "ARTE VENT Press",
+      "career_category": "publishing",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.arte-vent.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.arte-vent.com/",
+          "title": "株式会社アルテヴァン ARTE VENT Press Inc, アート系書籍、図録の出版・編集",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0190",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 43,
+      "actionability_score": 51,
+      "risk_score": 53,
+      "recommended_next_action": "Decide whether this is a real target, benchmark, directory, or self-publishing service.",
+      "risks": [
+        "Only one source found so far.",
+        "Publishing results are noisy; verify that this is not only a directory or service."
+      ],
+      "why_for_nin": "ARTE VENT Press is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions."
+    },
+    {
+      "canonical_name": "» 21 Terrific Small Presses Open to Direct Submissions",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/",
+          "title": "» 21 Terrific Small Presses Open to Direct Submissions",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0166",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 43,
+      "actionability_score": 49,
+      "risk_score": 54,
+      "recommended_next_action": "Decide whether this is a real target, benchmark, directory, or self-publishing service.",
+      "risks": [
+        "Only one source found so far.",
+        "Publishing results are noisy; verify that this is not only a directory or service."
+      ],
+      "why_for_nin": "» 21 Terrific Small Presses Open to Direct Submissions is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions."
+    },
+    {
+      "canonical_name": "SUBMISSIONS - marblepress.com",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://marblepress.com/submissions/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://marblepress.com/submissions/",
+          "title": "SUBMISSIONS - marblepress.com",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0167",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 43,
+      "actionability_score": 49,
+      "risk_score": 54,
+      "recommended_next_action": "Decide whether this is a real target, benchmark, directory, or self-publishing service.",
+      "risks": [
+        "Only one source found so far.",
+        "Publishing results are noisy; verify that this is not only a directory or service."
+      ],
+      "why_for_nin": "SUBMISSIONS - marblepress.com is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions."
+    },
+    {
+      "canonical_name": "Submissions - Little Press Publishing",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://littlepresspublishing.com/submissions",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://littlepresspublishing.com/submissions",
+          "title": "Submissions - Little Press Publishing",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0170",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 43,
+      "actionability_score": 49,
+      "risk_score": 54,
+      "recommended_next_action": "Decide whether this is a real target, benchmark, directory, or self-publishing service.",
+      "risks": [
+        "Only one source found so far.",
+        "Publishing results are noisy; verify that this is not only a directory or service."
+      ],
+      "why_for_nin": "Submissions - Little Press Publishing is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions."
+    },
+    {
+      "canonical_name": "3 Top Book Publishers in Tokyo in 2026",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://reedsy.com/resources/publishers/jp/tokyo/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://reedsy.com/resources/publishers/jp/tokyo/",
+          "title": "3 Top Book Publishers in Tokyo in 2026",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0171",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 43,
+      "actionability_score": 49,
+      "risk_score": 54,
+      "recommended_next_action": "Decide whether this is a real target, benchmark, directory, or self-publishing service.",
+      "risks": [
+        "Only one source found so far.",
+        "Publishing results are noisy; verify that this is not only a directory or service."
+      ],
+      "why_for_nin": "3 Top Book Publishers in Tokyo in 2026 is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions."
+    },
+    {
+      "canonical_name": "submissions — porkbelly press",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://porkbellypress.com/subs/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://porkbellypress.com/subs/",
+          "title": "submissions — porkbelly press",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0172",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 43,
+      "actionability_score": 49,
+      "risk_score": 54,
+      "recommended_next_action": "Decide whether this is a real target, benchmark, directory, or self-publishing service.",
+      "risks": [
+        "Only one source found so far.",
+        "Publishing results are noisy; verify that this is not only a directory or service."
+      ],
+      "why_for_nin": "submissions — porkbelly press is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions."
+    },
+    {
+      "canonical_name": "3 Top Book Publishers in Japan in 2026",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://reedsy.com/resources/publishers/jp/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://reedsy.com/resources/publishers/jp/",
+          "title": "3 Top Book Publishers in Japan in 2026",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0174",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized",
+      "fit_score": 43,
+      "actionability_score": 49,
+      "risk_score": 54,
+      "recommended_next_action": "Decide whether this is a real target, benchmark, directory, or self-publishing service.",
+      "risks": [
+        "Only one source found so far.",
+        "Publishing results are noisy; verify that this is not only a directory or service."
+      ],
+      "why_for_nin": "3 Top Book Publishers in Japan in 2026 is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions."
+    }
+  ]
+}

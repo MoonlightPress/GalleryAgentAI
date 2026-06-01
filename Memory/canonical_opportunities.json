@@ -1,0 +1,4674 @@
+{
+  "source_candidate_count": 230,
+  "canonical_opportunity_count": 177,
+  "opportunities": [
+    {
+      "canonical_name": "Jinny Street Gallery Open Call",
+      "career_category": "contests",
+      "score": 100,
+      "source_count": 1,
+      "best_url": "https://www.jinnystreetgallery.com/open-call",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.jinnystreetgallery.com/open-call",
+          "title": "Open Call",
+          "kind": "application",
+          "score": 88,
+          "candidate_id": "MULTI-0006",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Tokyo Art Book Fair",
+      "career_category": "zines",
+      "score": 100,
+      "source_count": 17,
+      "best_url": "https://tokyoartbookfair.com/en/application/",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://tokyoartbookfair.com/en/application/",
+          "title": "Tokyo Art Book Fair",
+          "kind": "application",
+          "score": 88,
+          "candidate_id": "MULTI-0070",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://tokyoartbookfair.com/application/",
+          "title": "Application - Tokyo Art Book Fair",
+          "kind": "application",
+          "score": 88,
+          "candidate_id": "MULTI-0091",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://easteast.world/posts/625",
+          "title": "Tokyo Art Book Fair Open for Booth Applications - EastEast",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0071",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://tokioartbookfair.com/",
+          "title": "Tokio Art Book Fair トキオアートブックフェア",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0072",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.mot-art-museum.jp/en/exhibitions/tokyo-art-book-fair-2025/",
+          "title": "TOKYO ART BOOK FAIR 2025",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0074",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.mot-art-museum.jp/en/TABF2024vol1_EN.pdf",
+          "title": "PDF TOKYO ART BOOK FAIR 2024 - mot-art-museum.jp",
+          "kind": "pdf",
+          "score": 61,
+          "candidate_id": "MULTI-0106",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://tokyoartbookfair.com/en/about/",
+          "title": "Tokyo Art Book Fair",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0109",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://photoandculture-tokyo.com/contents.php?i=3843",
+          "title": "TOKYO ART BOOK FAIR2024、出展者募集中：Photo & Culture, Tokyo",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0073",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://x.com/tabf_info",
+          "title": "TOKYO ART BOOK FAIR (@tabf_info) / Posts / X - x.com",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0075",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://stackmagazines.com/everything/tokyo-art-book-fair-2025/",
+          "title": "Tokyo Art Book Fair 2025 - STACK magazines",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0103",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.tokyoweekender.com/event/tokyo-art-book-fair-2024/",
+          "title": "Tokyo Art Book Fair 2024",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0105",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://printroom.org/2026/01/23/31-1-26-printrooms-picks-from-the-tokyo-art-book-fair/",
+          "title": "31.1.26 PrintRoom's Picks from the Tokyo Art Book Fair!",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0107",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://jaapan.de/tokyo-art-book-fair-2024-more-than-books/",
+          "title": "Tokyo Art Book Fair 2024: More than Books - Ja (a)pan",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0108",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.riso.co.jp/english/company/risoart/works/20221029_TABF2022_eng.html",
+          "title": "RISO KAGAKU CORPORATION cosponsored \"TOKYO ART BOOK FAIR 2022",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0113",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://tokyoartbookfair.com/",
+          "title": "Tokyo Art Book Fair",
+          "kind": "reference",
+          "score": 41,
+          "candidate_id": "MULTI-0217",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.mot-art-museum.jp/en/pr_TABF20205_vol.1_EN.pdf",
+          "title": "PDF Tokyo Art Book Fair 2025",
+          "kind": "pdf",
+          "score": 41,
+          "candidate_id": "MULTI-0228",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://ave-cornerprinting.com/tabf-12112025/",
+          "title": "「Tokyo Art Book Fair 2025」東京・清澄白河 東京都 ...",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0218",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Fukuoka Art Book Fair",
+      "career_category": "zines",
+      "score": 100,
+      "source_count": 1,
+      "best_url": "https://fukuokaartbookfair.com/application/",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://fukuokaartbookfair.com/application/",
+          "title": "出展お申込み",
+          "kind": "application",
+          "score": 88,
+          "candidate_id": "MULTI-0094",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "TOKAS Open Call",
+      "career_category": "contests",
+      "score": 100,
+      "source_count": 3,
+      "best_url": "https://www.tokyoartsandspace.jp/en/application/index.html",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokyoartsandspace.jp/en/application/index.html",
+          "title": "Open Call - Tokyo Arts and Space",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0001",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.tokyoartsandspace.jp/application/index.html",
+          "title": "公募",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0031",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.tokyoartsandspace.jp/en/application/about_opencall.html",
+          "title": "About Open Call Programs - Tokyo Arts and Space",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0052",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "TOKAS Residency",
+      "career_category": "residencies",
+      "score": 100,
+      "source_count": 7,
+      "best_url": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf",
+          "title": "PDF International Creator Residency Program 2026 Application Outline",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0122",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.tokyoartsandspace.jp/archive/application/2025/20250513-295.html",
+          "title": "2026年度 リサーチ・レジデンス・プログラム",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0148",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html",
+          "title": "Open Call for the International Creator Residency Program 2026",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0154",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.transartists.org/en/news/tokas-residency-programs-2026",
+          "title": "TOKAS Residency Programs 2026 - transartists.org",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0128",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://resartis.org/open-call/international-creator-residency-program-2026｜tokas-residency-programs/",
+          "title": "International Creator Residency Program 2026｜TOKAS Residency Programs",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0131",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://artres.moc.gov.tw/en/calls/content/ff80818196c95f3b0196e675e523000f",
+          "title": "TOKAS Residency Programs 2026: International Creator Residency Program ...",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0133",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://air-j.info/en/program/tokas2026creator/",
+          "title": "International Creator Residency Program 2026｜TOKAS Residency Programs ...",
+          "kind": "reference",
+          "score": 41,
+          "candidate_id": "MULTI-0008",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Belladonna Art Competition",
+      "career_category": "contests",
+      "score": 98,
+      "source_count": 1,
+      "best_url": "https://www.art-belladonna.jp/youkou",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.art-belladonna.jp/youkou",
+          "title": "全国美術公募団体 ベラドンナ・アート｜応募要項",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0047",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Applications — Little Tokyo Zine Fest",
+      "career_category": "zines",
+      "score": 98,
+      "source_count": 1,
+      "best_url": "https://www.ltzinefest.org/applications",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.ltzinefest.org/applications",
+          "title": "Applications — Little Tokyo Zine Fest",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0062",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "SCCP Guest Artist",
+      "career_category": "residencies",
+      "score": 98,
+      "source_count": 1,
+      "best_url": "https://www.sccp.jp/air-en/application/guest-artist/",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.sccp.jp/air-en/application/guest-artist/",
+          "title": "Open Call Guest Artist",
+          "kind": "application",
+          "score": 82,
+          "candidate_id": "MULTI-0165",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "AIR_J Open Calls",
+      "career_category": "residencies",
+      "score": 92,
+      "source_count": 4,
+      "best_url": "https://air-j.info/en/program/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://air-j.info/en/program/",
+          "title": "Open calls - Online Database of Artist in Residence Programs in Japan",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0057",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://air-j.info/en/program/lair2026/",
+          "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0121",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://air-j.info/en/",
+          "title": "AIR_J : Online Database of Artist in Residence Programs in Japan",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0134",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://air-j.info/",
+          "title": "AIR_J：日本全国のアーティスト・イン・レジデンス総合サイト",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0138",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Kyoto Art Center Residency",
+      "career_category": "residencies",
+      "score": 86,
+      "source_count": 5,
+      "best_url": "https://kiac.jp/en/article/2927/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://kiac.jp/en/article/2927/",
+          "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0126",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/",
+          "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0127",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://kiac.jp/article/3451/",
+          "title": "2026年度「アーティスト・イン・レジデンス プログラム」公募 ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0139",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.kac.or.jp/en/program/3066/",
+          "title": "Artist-in-Residence Program",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0155",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://artres.moc.gov.tw/en/calls/content/ff8081819883f7610198c0f7f79c0034",
+          "title": "Kyoto Art Center Artist In Residence Program 2026 Visual Arts - Arts ...",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0153",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Hayama Artist Residency",
+      "career_category": "residencies",
+      "score": 85,
+      "source_count": 2,
+      "best_url": "https://hayamaartistresidency.submittable.com/submit",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://hayamaartistresidency.submittable.com/submit",
+          "title": "Hayama Artist Residency Submission Manager - Submittable",
+          "kind": "application",
+          "score": 73,
+          "candidate_id": "MULTI-0158",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": true
+        },
+        {
+          "url": "https://www.hayamaresidency.com/",
+          "title": "International Artist Residency in Hayama, Japan",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0136",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Shoto Museum Open Call",
+      "career_category": "contests",
+      "score": 84,
+      "source_count": 1,
+      "best_url": "https://shoto-museum.jp/exhibitions/2026koubo/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://shoto-museum.jp/exhibitions/2026koubo/",
+          "title": "2026 松濤美術館公募展｜渋谷区立松濤美術館",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0029",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Osaka Open Call For Artists. - ARRIVAL",
+      "career_category": "contests",
+      "score": 84,
+      "source_count": 1,
+      "best_url": "https://www.arrivalgallery.com/osaka",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.arrivalgallery.com/osaka",
+          "title": "Osaka Open Call For Artists. - ARRIVAL",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0055",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "International Open Call",
+      "career_category": "contests",
+      "score": 84,
+      "source_count": 1,
+      "best_url": "https://en.410gallery.org/exhibition-open-call",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://en.410gallery.org/exhibition-open-call",
+          "title": "International Open Call",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0056",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+      "career_category": "residencies",
+      "score": 80,
+      "source_count": 2,
+      "best_url": "https://tokyobiennale.jp/en/archives/news/6152",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://tokyobiennale.jp/en/archives/news/6152",
+          "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0023",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://resartis.org/news-listing/open-call-for-artists-tokyo-biennale-2025-social-dive/",
+          "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+          "kind": "requirements",
+          "score": 50,
+          "candidate_id": "MULTI-0161",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Art公募",
+      "career_category": "contests",
+      "score": 80,
+      "source_count": 1,
+      "best_url": "https://www.artkoubo.jp/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artkoubo.jp/",
+          "title": "Art公募",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0024",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "公募展",
+      "career_category": "contests",
+      "score": 80,
+      "source_count": 2,
+      "best_url": "https://www.nact.jp/exhibition_public/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.nact.jp/exhibition_public/",
+          "title": "公募展",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0025",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://koubo.yumegazai.com/category/koubo/",
+          "title": "公募展",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0026",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Open Calls for Artists",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.theholyart.com/tokyo-open-art",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.theholyart.com/tokyo-open-art",
+          "title": "Open Calls for Artists",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0002",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Open Call For Artists",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://opencallforartists.com/listing/784",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://opencallforartists.com/listing/784",
+          "title": "Open Call For Artists",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0004",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "The Holy Art Gallery - Tokyo Open Call for Artist",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.forphotographersonly.com/event-details/the-holy-art-gallery-tokyo-open-call-for-artist",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.forphotographersonly.com/event-details/the-holy-art-gallery-tokyo-open-call-for-artist",
+          "title": "The Holy Art Gallery - Tokyo Open Call for Artist",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0022",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "http://toten.jp.net/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "http://toten.jp.net/",
+          "title": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0028",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "イラスト・マンガ - コンテスト 公募 コンペ の [登竜門]",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://compe.japandesign.ne.jp/category/comic/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://compe.japandesign.ne.jp/category/comic/",
+          "title": "イラスト・マンガ - コンテスト 公募 コンペ の [登竜門]",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0032",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "イラスト・ぬり絵・CGなどのコンテスト・コンペ・公募情報",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://kobonabi.com/category/illustration/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://kobonabi.com/category/illustration/",
+          "title": "イラスト・ぬり絵・CGなどのコンテスト・コンペ・公募情報",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0038",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "国際公募東京アート工芸 - 一般社団法人 東京アート工芸",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://tartk.or.jp/kokusaikoubotokyoartkogei2026youkou.html",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://tartk.or.jp/kokusaikoubotokyoartkogei2026youkou.html",
+          "title": "国際公募東京アート工芸 - 一般社団法人 東京アート工芸",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0040",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "第9回 国際公募 東京アート工芸2026｜展覧会情報検索 アートコモンズ｜国立新美術館 the National Art Center, Tokyo",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.nact.jp/artcommons/user/detail/81914",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.nact.jp/artcommons/user/detail/81914",
+          "title": "第9回 国際公募 東京アート工芸2026｜展覧会情報検索 アートコモンズ｜国立新美術館 the National Art Center, Tokyo",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0041",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "絵画・アート - コンテスト 公募 コンペ の [登竜門]",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://compe.japandesign.ne.jp/category/art/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://compe.japandesign.ne.jp/category/art/",
+          "title": "絵画・アート - コンテスト 公募 コンペ の [登竜門]",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0043",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "第9回 国際公募 東京アート工芸2026",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://koubo.jp/contest/281469",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://koubo.jp/contest/281469",
+          "title": "第9回 国際公募 東京アート工芸2026",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0044",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Open Call — Osaka, Japan (16-19 October 2026)",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://racc.org/resources/listings/open-call-osaka-japan-16-19-october-2026/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://racc.org/resources/listings/open-call-osaka-japan-16-19-october-2026/",
+          "title": "Open Call — Osaka, Japan (16-19 October 2026)",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0058",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Open Call — Osaka, Japan (October 16-19, 2026)",
+      "career_category": "contests",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.aaartsalliance.org/opportunities/open-call-osaka-japan-16-19-october-2026",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.aaartsalliance.org/opportunities/open-call-osaka-japan-16-19-october-2026",
+          "title": "Open Call — Osaka, Japan (October 16-19, 2026)",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0059",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "NEW AIR",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
+          "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0123",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Kyoto Retreat Artist Residency 2026 - Open Call",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency",
+          "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0125",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/",
+          "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0137",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "【公募】2026年度レジデンス・プログラム公募開始",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html",
+          "title": "【公募】2026年度レジデンス・プログラム公募開始",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0142",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "公募・助成・レジデンス - 東山 アーティスツ・プレイスメント ...",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://haps-kyoto.com/about/support/open-calls/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://haps-kyoto.com/about/support/open-calls/",
+          "title": "公募・助成・レジデンス - 東山 アーティスツ・プレイスメント ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0144",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "【公募】日本在住クリエーター対象「2026年度レジデンス ...",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://compe.sterfield.jp/tokyoartsandspace-2026-2/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://compe.sterfield.jp/tokyoartsandspace-2026-2/",
+          "title": "【公募】日本在住クリエーター対象「2026年度レジデンス ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0151",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "OPEN CALL : Kyoto Artist Residency 2026",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.allaboutcurating.com/external-opportunities/open-call-:-kyoto-artist-residency-2026",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.allaboutcurating.com/external-opportunities/open-call-:-kyoto-artist-residency-2026",
+          "title": "OPEN CALL : Kyoto Artist Residency 2026",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0156",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "InteractiveTaiwa - Art (Dialogue Art) 2026 A.I.R. open call for artists ...",
+      "career_category": "residencies",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://www.transartists.org/en/news/interactivetaiwa-art-dialogue-art-2026-air-open-call-artists-matsumoto-japan",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.transartists.org/en/news/interactivetaiwa-art-dialogue-art-2026-air-open-call-artists-matsumoto-japan",
+          "title": "InteractiveTaiwa - Art (Dialogue Art) 2026 A.I.R. open call for artists ...",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0163",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Clone of Japan Fair 2025 - Exhibitor Application Form",
+      "career_category": "zines",
+      "score": 78,
+      "source_count": 1,
+      "best_url": "https://form.jotform.com/253215140594149",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://form.jotform.com/253215140594149",
+          "title": "Clone of Japan Fair 2025 - Exhibitor Application Form",
+          "kind": "application",
+          "score": 62,
+          "candidate_id": "MULTI-0082",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "幼児・小学生が応募できるコンテスト・コンクール 2026年",
+      "career_category": "contests",
+      "score": 77,
+      "source_count": 1,
+      "best_url": "https://oyako-event.com/contest-2025/",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://oyako-event.com/contest-2025/",
+          "title": "幼児・小学生が応募できるコンテスト・コンクール 2026年",
+          "kind": "application",
+          "score": 67,
+          "candidate_id": "MULTI-0036",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
+      "career_category": "contests",
+      "score": 76,
+      "source_count": 1,
+      "best_url": "https://www.tokyoartbeat.com/events/eventCategoryId/6OBA1ojctRfcVU5LTcZPPC",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokyoartbeat.com/events/eventCategoryId/6OBA1ojctRfcVU5LTcZPPC",
+          "title": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
+          "kind": "requirements",
+          "score": 76,
+          "candidate_id": "MULTI-0027",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Clavis Publishing Submissions",
+      "career_category": "publishing",
+      "score": 75,
+      "source_count": 1,
+      "best_url": "https://www.clavis-publishing.com/submit",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.clavis-publishing.com/submit",
+          "title": "Submissions — Clavis Publishing",
+          "kind": "application",
+          "score": 65,
+          "candidate_id": "MULTI-0176",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "イラスト・ぬり絵の公募・コンテスト一覧 - 公募データベース",
+      "career_category": "contests",
+      "score": 70,
+      "source_count": 1,
+      "best_url": "https://koubodatabase.com/archives/category/logo/illustration",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://koubodatabase.com/archives/category/logo/illustration",
+          "title": "イラスト・ぬり絵の公募・コンテスト一覧 - 公募データベース",
+          "kind": "requirements",
+          "score": 70,
+          "candidate_id": "MULTI-0033",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Zines Fair at CP+",
+      "career_category": "zines",
+      "score": 69,
+      "source_count": 4,
+      "best_url": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28",
+          "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0065",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.cpplus.jp/zinesfair/",
+          "title": "ZINES FAIR at CP＋｜CP+2026 カメラと写真映像のワールドプレミアショー「CP+（シーピープラス）」",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0064",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://note.com/flotsambooks/n/n78edeb0a815d",
+          "title": "ZINES FAIR at CP+ 2026 募集要項｜flotsambooks - note（ノート）",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0067",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.ephemere.tokyo/events/zines-fair-at-cp-plus-2026",
+          "title": "Ephemere at Zines Fair at CP+ 2026 — Ephemere",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0068",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Art Book Fairs",
+      "career_category": "zines",
+      "score": 63,
+      "source_count": 1,
+      "best_url": "https://www.artbookfairs.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artbookfairs.com/",
+          "title": "Art Book Fairs",
+          "kind": "reference",
+          "score": 61,
+          "candidate_id": "MULTI-0069",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Apply to Exhibit — Tokyo International Art Fair",
+      "career_category": "contests",
+      "score": 63,
+      "source_count": 1,
+      "best_url": "https://www.tokyoartfair.com/apply-to-exhibit-tokyo-art-fair",
+      "best_source_kind": "application",
+      "has_application": true,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokyoartfair.com/apply-to-exhibit-tokyo-art-fair",
+          "title": "Apply to Exhibit — Tokyo International Art Fair",
+          "kind": "application",
+          "score": 53,
+          "candidate_id": "MULTI-0005",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": true
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Jimbocho Zine Fair",
+      "career_category": "zines",
+      "score": 61,
+      "source_count": 3,
+      "best_url": "https://tcha.jp/post-3262/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://tcha.jp/post-3262/",
+          "title": "Jimbocho Zine Fair in ひじりばし博覧会2025 出展者募集中 - 東京文化資源会議",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0078",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://jimbocho.site/jimbocho-zine-fair-in-ひじりばし博覧会2025出展者募集中/",
+          "title": "Jimbocho Zine Fair in ひじりばし博覧会2025出展者募集中",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0079",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://jimbocho.site/zinefair2025/",
+          "title": "Jimbocho Zine Fair in ひじりばし博覧会2025",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0086",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "ZINEフェス東京",
+      "career_category": "zines",
+      "score": 59,
+      "source_count": 2,
+      "best_url": "https://x.com/zinefarmtokyo/status/2030078129293938743",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://x.com/zinefarmtokyo/status/2030078129293938743",
+          "title": "Zineフェス東京開催します! 今回は650名の方にご出展いただきます。当日はみんなでzineを楽しみましょう! Zineフェス東京 日時 ...",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0084",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://indigoproducts.hateblo.jp/entry/2026/05/28/154312",
+          "title": "【イベント出展】7/11 ZINEフェス東京 in 東京都立産業貿易センター台東館 - INDIGO PRODUCTS",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0088",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "ZINEイベント",
+      "career_category": "zines",
+      "score": 59,
+      "source_count": 1,
+      "best_url": "https://zindies.co/events?locale=ja",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://zindies.co/events?locale=ja",
+          "title": "ZINEイベント",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0085",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Japan",
+      "career_category": "residencies",
+      "score": 59,
+      "source_count": 2,
+      "best_url": "https://culture360.asef.org/opportunities/japan-tokyo-arts-and-space-international-creators-residency-programme-20262027/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://culture360.asef.org/opportunities/japan-tokyo-arts-and-space-international-creators-residency-programme-20262027/",
+          "title": "Japan",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0132",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://culture360.asef.org/opportunities/japan-hayama-international-artist-residency-2026/",
+          "title": "Japan",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0157",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "イラスト",
+      "career_category": "contests",
+      "score": 58,
+      "source_count": 1,
+      "best_url": "https://koubo.jp/category/illustration/illustration",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://koubo.jp/category/illustration/illustration",
+          "title": "イラスト",
+          "kind": "requirements",
+          "score": 50,
+          "candidate_id": "MULTI-0035",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "絵画",
+      "career_category": "contests",
+      "score": 58,
+      "source_count": 1,
+      "best_url": "https://koubo.yumegazai.com/category/koubo/genre/picture/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://koubo.yumegazai.com/category/koubo/genre/picture/",
+          "title": "絵画",
+          "kind": "requirements",
+          "score": 50,
+          "candidate_id": "MULTI-0049",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "ARCUS Project Open Call",
+      "career_category": "residencies",
+      "score": 58,
+      "source_count": 1,
+      "best_url": "https://www.arcus-project.com/en/open-call/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.arcus-project.com/en/open-call/",
+          "title": "Open Call",
+          "kind": "requirements",
+          "score": 50,
+          "candidate_id": "MULTI-0124",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Open Calls - Res Artis",
+      "career_category": "residencies",
+      "score": 58,
+      "source_count": 1,
+      "best_url": "https://resartis.org/open-calls/",
+      "best_source_kind": "requirements",
+      "has_application": false,
+      "has_deadline_signal": true,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://resartis.org/open-calls/",
+          "title": "Open Calls - Res Artis",
+          "kind": "requirements",
+          "score": 50,
+          "candidate_id": "MULTI-0160",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Art Japan - Call for Entries for Art and Photography USA and ...",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.callforentries.com/category/art/location/japan/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.callforentries.com/category/art/location/japan/",
+          "title": "Art Japan - Call for Entries for Art and Photography USA and ...",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0007",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Call for Entries",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.artjobs.com/open-calls/call-entries/japan/26432/call-entries-“jia-illustration-award-2026”",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artjobs.com/open-calls/call-entries/japan/26432/call-entries-“jia-illustration-award-2026”",
+          "title": "Call for Entries",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0009",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "International illustration online competition",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://jpn-illust.com/english/compe/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://jpn-illust.com/english/compe/",
+          "title": "International illustration online competition",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0010",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "JIA Illustration Award 2026 - 2026 ART Competitions - Competitions",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://intercompetition.com/ad/international-art-contests,1/jia-illustration-award-2026,3579",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://intercompetition.com/ad/international-art-contests,1/jia-illustration-award-2026,3579",
+          "title": "JIA Illustration Award 2026 - 2026 ART Competitions - Competitions",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0011",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "JIA Illustration Award 2026 - International Competition",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.infodesigners.eu/competitions/jia-illustration-award-2026",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.infodesigners.eu/competitions/jia-illustration-award-2026",
+          "title": "JIA Illustration Award 2026 - International Competition",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0013",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "JIA Illustration Award 2026",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://graphiccompetitions.com/illustration/jia-illustration-award-2026/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://graphiccompetitions.com/illustration/jia-illustration-award-2026/",
+          "title": "JIA Illustration Award 2026",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0014",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Joint Manga Contest 2026",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://mangaplus.shueisha.co.jp/web_pages/2225/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://mangaplus.shueisha.co.jp/web_pages/2225/",
+          "title": "Joint Manga Contest 2026",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0015",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Joint Manga Contest 2026 - ART AND ART CONTESTS",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.art-artcontests.com/joint-manga-contest-2026/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.art-artcontests.com/joint-manga-contest-2026/",
+          "title": "Joint Manga Contest 2026 - ART AND ART CONTESTS",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0016",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "World's Largest Anime Art Contest",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://thegianthunt.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://thegianthunt.com/",
+          "title": "World's Largest Anime Art Contest",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0017",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Art Contest 2026 — Japan Parade NYC",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.japanparadenyc.org/art-contest-2026",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.japanparadenyc.org/art-contest-2026",
+          "title": "Art Contest 2026 — Japan Parade NYC",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0018",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Japan Parade 2026 Art Contest",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.artconnect.com/opportunity/kkNiplWxo3QSR4C2o__zz",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artconnect.com/opportunity/kkNiplWxo3QSR4C2o__zz",
+          "title": "Japan Parade 2026 Art Contest",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0019",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Call for entries \"JIA Illustration Award 2026\" - artjobs.com",
+      "career_category": "contests",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.artjobs.com/open-calls/call-entries/japan/26432/call-entries-“jia-illustration-award-2026”",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artjobs.com/open-calls/call-entries/japan/26432/call-entries-“jia-illustration-award-2026”",
+          "title": "Call for entries \"JIA Illustration Award 2026\" - artjobs.com",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0020",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.eventeny.com/events/vendor/?id=39232",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.eventeny.com/events/vendor/?id=39232",
+          "title": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0063",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3",
+          "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0066",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Kyotographie Photobook Fair",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.kyotographie.jp/en/photobook_fair/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.kyotographie.jp/en/photobook_fair/",
+          "title": "Kyotographie Photobook Fair 2026",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0081",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Zine＆Book Stand Fesの出店者を募集します!",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.hakushindo.jp/news/2025/09/zine-fes2025_boshu/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.hakushindo.jp/news/2025/09/zine-fes2025_boshu/",
+          "title": "Zine＆Book Stand Fesの出店者を募集します!",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0090",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "「Kitakagaya Zine'S Fair 2025」開催決定＆出展者募集開始!",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://insec2.com/「kitakagaya-zines-fair-2025」開催決定＆出展者募集開始！　/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://insec2.com/「kitakagaya-zines-fair-2025」開催決定＆出展者募集開始！　/",
+          "title": "「Kitakagaya Zine'S Fair 2025」開催決定＆出展者募集開始!",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0099",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "PDF Zine フェスティバ",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.bungakukan.pref.yamanashi.jp/event/2025.7.20.form.pdf",
+      "best_source_kind": "pdf",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.bungakukan.pref.yamanashi.jp/event/2025.7.20.form.pdf",
+          "title": "PDF Zine フェスティバ",
+          "kind": "pdf",
+          "score": 55,
+          "candidate_id": "MULTI-0100",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Independent Publishers Expo: A Unique Book Fair Coming in January",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://japandaily.jp/independent-publishers-expo-a-unique-book-fair-coming-in-january/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://japandaily.jp/independent-publishers-expo-a-unique-book-fair-coming-in-january/",
+          "title": "Independent Publishers Expo: A Unique Book Fair Coming in January",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0102",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Risograph Printing: Zines and Small Publishing",
+      "career_category": "zines",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://sva.edu/features/risograph-printing-zines-and-small-publishing",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://sva.edu/features/risograph-printing-zines-and-small-publishing",
+          "title": "Risograph Printing: Zines and Small Publishing",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0119",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Fully Funded Japan Artist Residency Tokyo 2027, Airfare, Housing & Funding",
+      "career_category": "residencies",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://contemporaryperformance.com/2026/05/29/japan-artist-residency-tokas-2027/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://contemporaryperformance.com/2026/05/29/japan-artist-residency-tokas-2027/",
+          "title": "Fully Funded Japan Artist Residency Tokyo 2027, Airfare, Housing & Funding",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0129",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Tokyo Arts and Space Residency 2026-2027 in Japan",
+      "career_category": "residencies",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://oyaop.com/opportunity/exchange-programs/tokyo-arts-and-space-residency-2026-2027-in-japan-fully-funded-artist-residency/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://oyaop.com/opportunity/exchange-programs/tokyo-arts-and-space-residency-2026-2027-in-japan-fully-funded-artist-residency/",
+          "title": "Tokyo Arts and Space Residency 2026-2027 in Japan",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0130",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Call for Entry: Hayama Artist Residency",
+      "career_category": "residencies",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.artworkarchive.com/call-for-entry/hayama-artist-residency-2025",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artworkarchive.com/call-for-entry/hayama-artist-residency-2025",
+          "title": "Call for Entry: Hayama Artist Residency",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0135",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "2026年度滞在アーティスト 募集要項｜Performance Residence ...",
+      "career_category": "residencies",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://note.com/sam_anj_air/n/n163aea0c8167",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://note.com/sam_anj_air/n/n163aea0c8167",
+          "title": "2026年度滞在アーティスト 募集要項｜Performance Residence ...",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0140",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "アーティスト・イン・レジデンス型地域協働支援事業",
+      "career_category": "residencies",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.bunka.go.jp/seisaku/geijutsubunka/chiiki/93992702.html",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.bunka.go.jp/seisaku/geijutsubunka/chiiki/93992702.html",
+          "title": "アーティスト・イン・レジデンス型地域協働支援事業",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0141",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "公益財団法人 セゾン文化財団 » セゾン・アーティスト・イン ...",
+      "career_category": "residencies",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.saison.or.jp/air",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.saison.or.jp/air",
+          "title": "公益財団法人 セゾン文化財団 » セゾン・アーティスト・イン ...",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0145",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Air 3331",
+      "career_category": "residencies",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://residence.3331.jp/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://residence.3331.jp/",
+          "title": "Air 3331",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0146",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "東京 - Finnish Institute in Japan",
+      "career_category": "residencies",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://finstitute.jp/ja/文化/レジデンス/東京/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://finstitute.jp/ja/文化/レジデンス/東京/",
+          "title": "東京 - Finnish Institute in Japan",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0149",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Art Center NEW: AIR 2026 for Artists Based in Asia (Japan)",
+      "career_category": "residencies",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://on-the-move.org/news/art-center-new-air-2026-artists-based-asia-japan",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://on-the-move.org/news/art-center-new-air-2026-artists-based-asia-japan",
+          "title": "Art Center NEW: AIR 2026 for Artists Based in Asia (Japan)",
+          "kind": "reference",
+          "score": 55,
+          "candidate_id": "MULTI-0162",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "ARTE VENT Press",
+      "career_category": "publishing",
+      "score": 57,
+      "source_count": 1,
+      "best_url": "https://www.arte-vent.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.arte-vent.com/",
+          "title": "株式会社アルテヴァン ARTE VENT Press Inc, アート系書籍、図録の出版・編集",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0190",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "日本国内のアーティストインレジデンス（AIR）一覧 - thisismedia",
+      "career_category": "residencies",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://media.thisisgallery.com/20244932",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://media.thisisgallery.com/20244932",
+          "title": "日本国内のアーティストインレジデンス（AIR）一覧 - thisismedia",
+          "kind": "article_or_directory",
+          "score": 61,
+          "candidate_id": "MULTI-0147",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "» 21 Terrific Small Presses Open to Direct Submissions",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/",
+          "title": "» 21 Terrific Small Presses Open to Direct Submissions",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0166",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "SUBMISSIONS - marblepress.com",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://marblepress.com/submissions/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://marblepress.com/submissions/",
+          "title": "SUBMISSIONS - marblepress.com",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0167",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Submissions - Little Press Publishing",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://littlepresspublishing.com/submissions",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://littlepresspublishing.com/submissions",
+          "title": "Submissions - Little Press Publishing",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0170",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "3 Top Book Publishers in Tokyo in 2026",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://reedsy.com/resources/publishers/jp/tokyo/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://reedsy.com/resources/publishers/jp/tokyo/",
+          "title": "3 Top Book Publishers in Tokyo in 2026",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0171",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "submissions — porkbelly press",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://porkbellypress.com/subs/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://porkbellypress.com/subs/",
+          "title": "submissions — porkbelly press",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0172",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "3 Top Book Publishers in Japan in 2026",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://reedsy.com/resources/publishers/jp/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://reedsy.com/resources/publishers/jp/",
+          "title": "3 Top Book Publishers in Japan in 2026",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0174",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Become an Author - Tuttle Publishing",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://www.tuttlepublishing.com/become-an-author",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tuttlepublishing.com/become-an-author",
+          "title": "Become an Author - Tuttle Publishing",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0175",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Japan Book Publishers Association - JBPA",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://www.jbpa.or.jp/en/index.html",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.jbpa.or.jp/en/index.html",
+          "title": "Japan Book Publishers Association - JBPA",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0178",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "ART BOX Publishing",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "http://www.artbox-int.co.jp/en/publish/index.html",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "http://www.artbox-int.co.jp/en/publish/index.html",
+          "title": "ART BOX Publishing",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0179",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Submissions - Sakura Publishing",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://theofficialsakurapublishingwebsite.wordpress.com/submissions/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://theofficialsakurapublishingwebsite.wordpress.com/submissions/",
+          "title": "Submissions - Sakura Publishing",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0181",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Photobook Japan: Layflat Photo Books and Custom Photo Gifts",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://www.photobookjapan.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.photobookjapan.com/",
+          "title": "Photobook Japan: Layflat Photo Books and Custom Photo Gifts",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0186",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "SEIGENSHA Art Publishing",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://www.seigensha.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.seigensha.com/",
+          "title": "青幻舎 SEIGENSHA Art Publishing, Inc.",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0189",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Case Publishing",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://case-publishing.jp/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://case-publishing.jp/",
+          "title": "Case Publishing - The book as a medium of expression",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0194",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "はじめてのリトルプレス",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://www.otegarushuppan.com/lp/littlepress/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.otegarushuppan.com/lp/littlepress/",
+          "title": "はじめてのリトルプレス",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0198",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Zine/リトルプレス/自費出版 (新刊扱い)",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://100hyakunen.thebase.in/categories/99812",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://100hyakunen.thebase.in/categories/99812",
+          "title": "Zine/リトルプレス/自費出版 (新刊扱い)",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0199",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Zine／リトルプレス／少部数出版 - とほん通販",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://tohon.shop-pro.jp/?mode=grp&gid=2395673&sort=n",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://tohon.shop-pro.jp/?mode=grp&gid=2395673&sort=n",
+          "title": "Zine／リトルプレス／少部数出版 - とほん通販",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0203",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "shashasha Publishers",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://www.shashasha.co/jp/publishers",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.shashasha.co/jp/publishers",
+          "title": "出版社",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0205",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "商業出版の持ち込み前に確認したい流れ・ポイント",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://www.pubxecutive.com/faq/bring-your-own.html",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.pubxecutive.com/faq/bring-your-own.html",
+          "title": "商業出版の持ち込み前に確認したい流れ・ポイント",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0208",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "図録・画集・写真集 専門pod出版・電子出版社｜自費出版代行 ...",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://www.vividcontent.co.jp/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.vividcontent.co.jp/",
+          "title": "図録・画集・写真集 専門pod出版・電子出版社｜自費出版代行 ...",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0209",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "出版企画・出版原稿の持ち込み方法と基礎知識",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://nihonbashi-pub.co.jp/8447",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://nihonbashi-pub.co.jp/8447",
+          "title": "出版企画・出版原稿の持ち込み方法と基礎知識",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0210",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "写真集を出版したい!難しいのは分かってるけど写真集を商業 ...",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://www.focusonmi.com/photo-book-pub/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.focusonmi.com/photo-book-pub/",
+          "title": "写真集を出版したい!難しいのは分かってるけど写真集を商業 ...",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0211",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "「トキオアートブックフェア 2026」芝パークホテルに国内外 ...",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://www.fashion-press.net/news/145229",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.fashion-press.net/news/145229",
+          "title": "「トキオアートブックフェア 2026」芝パークホテルに国内外 ...",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0216",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Risograph Printing: Why Indie Publishers and Artists Are Obsessed",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://prints.org/risograph-printing-why-indie-publishers-and-artists-are-obsessed/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://prints.org/risograph-printing-why-indie-publishers-and-artists-are-obsessed/",
+          "title": "Risograph Printing: Why Indie Publishers and Artists Are Obsessed",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0222",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "People of Print: Hand Saw Press",
+      "career_category": "publishing",
+      "score": 55,
+      "source_count": 1,
+      "best_url": "https://peopleofprint.com/risograph-publishers/hand-saw-press/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://peopleofprint.com/risograph-publishers/hand-saw-press/",
+          "title": "People of Print: Hand Saw Press",
+          "kind": "reference",
+          "score": 53,
+          "candidate_id": "MULTI-0223",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "【2026年5月】開催中のイラストコンテスト情報まとめ",
+      "career_category": "contests",
+      "score": 49,
+      "source_count": 1,
+      "best_url": "https://kyotokeynote.com/blog/illust-contests/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://kyotokeynote.com/blog/illust-contests/",
+          "title": "【2026年5月】開催中のイラストコンテスト情報まとめ",
+          "kind": "article_or_directory",
+          "score": 55,
+          "candidate_id": "MULTI-0037",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "ZINEフェス開催日程一覧（随時更新）イベント開催一覧",
+      "career_category": "zines",
+      "score": 49,
+      "source_count": 1,
+      "best_url": "https://note.com/bookcultureclub/n/n14764ff42f86",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://note.com/bookcultureclub/n/n14764ff42f86",
+          "title": "ZINEフェス開催日程一覧（随時更新）イベント開催一覧",
+          "kind": "article_or_directory",
+          "score": 55,
+          "candidate_id": "MULTI-0080",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Zineが買える全国のイベント（即売会）まとめ【2026年5月8日更新】 - やーはちのブログ",
+      "career_category": "zines",
+      "score": 49,
+      "source_count": 1,
+      "best_url": "https://ya-hachi.com/zine-event/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://ya-hachi.com/zine-event/",
+          "title": "Zineが買える全国のイベント（即売会）まとめ【2026年5月8日更新】 - やーはちのブログ",
+          "kind": "article_or_directory",
+          "score": 55,
+          "candidate_id": "MULTI-0087",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "素人も参加可能なzineのイベント一覧!それぞれの出店料や販売手数料も紹介 - Zineメーカー",
+      "career_category": "zines",
+      "score": 49,
+      "source_count": 1,
+      "best_url": "https://zine.sasmagazine.jp/2024/05/11/zine-event-list/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://zine.sasmagazine.jp/2024/05/11/zine-event-list/",
+          "title": "素人も参加可能なzineのイベント一覧!それぞれの出店料や販売手数料も紹介 - Zineメーカー",
+          "kind": "article_or_directory",
+          "score": 55,
+          "candidate_id": "MULTI-0089",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "素人も参加可能なzineのイベント一覧!それぞれの出店料や販売 ...",
+      "career_category": "zines",
+      "score": 49,
+      "source_count": 1,
+      "best_url": "https://zine.sasmagazine.jp/2024/05/11/zine-event-list/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://zine.sasmagazine.jp/2024/05/11/zine-event-list/",
+          "title": "素人も参加可能なzineのイベント一覧!それぞれの出店料や販売 ...",
+          "kind": "article_or_directory",
+          "score": 55,
+          "candidate_id": "MULTI-0097",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "全国のzineイベント一覧 - Diy Books",
+      "career_category": "zines",
+      "score": 49,
+      "source_count": 1,
+      "best_url": "https://diybooks.jp/pages/zine-event-all",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://diybooks.jp/pages/zine-event-all",
+          "title": "全国のzineイベント一覧 - Diy Books",
+          "kind": "article_or_directory",
+          "score": 55,
+          "candidate_id": "MULTI-0101",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
+      "career_category": "publishing",
+      "score": 47,
+      "source_count": 1,
+      "best_url": "https://www.adeptghostwriting.com/blog/small-publishers-accepting-submissions/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.adeptghostwriting.com/blog/small-publishers-accepting-submissions/",
+          "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
+          "kind": "article_or_directory",
+          "score": 53,
+          "candidate_id": "MULTI-0168",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
+      "career_category": "publishing",
+      "score": 47,
+      "source_count": 1,
+      "best_url": "https://www.publishersglobal.com/directory/japan/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.publishersglobal.com/directory/japan/",
+          "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
+          "kind": "article_or_directory",
+          "score": 53,
+          "candidate_id": "MULTI-0169",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "The Huge List of International Photobook Publishers - FotoRoom",
+      "career_category": "publishing",
+      "score": 47,
+      "source_count": 1,
+      "best_url": "https://fotoroom.co/international-photobook-publishers/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://fotoroom.co/international-photobook-publishers/",
+          "title": "The Huge List of International Photobook Publishers - FotoRoom",
+          "kind": "article_or_directory",
+          "score": 53,
+          "candidate_id": "MULTI-0185",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Publishers & Publishing Services in Japan",
+      "career_category": "publishing",
+      "score": 47,
+      "source_count": 1,
+      "best_url": "https://www.publishersglobal.com/directory/japan/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.publishersglobal.com/directory/japan/",
+          "title": "Publishers & Publishing Services in Japan",
+          "kind": "article_or_directory",
+          "score": 53,
+          "candidate_id": "MULTI-0187",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "List of Art Publishers in Japan",
+      "career_category": "publishing",
+      "score": 47,
+      "source_count": 1,
+      "best_url": "https://www.publishersglobal.com/directory/japan/subject/art-publishers/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.publishersglobal.com/directory/japan/subject/art-publishers/",
+          "title": "List of Art Publishers in Japan",
+          "kind": "article_or_directory",
+          "score": 53,
+          "candidate_id": "MULTI-0191",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Top 10 Best Book Publishers in Tokyo 2026 - nexusghostwriting.com",
+      "career_category": "publishing",
+      "score": 47,
+      "source_count": 1,
+      "best_url": "https://www.nexusghostwriting.com/blog/top-10-best-book-publishers-in-tokyo/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.nexusghostwriting.com/blog/top-10-best-book-publishers-in-tokyo/",
+          "title": "Top 10 Best Book Publishers in Tokyo 2026 - nexusghostwriting.com",
+          "kind": "article_or_directory",
+          "score": 53,
+          "candidate_id": "MULTI-0192",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "本を出版したい人のための出版社一覧 リストまとめ",
+      "career_category": "publishing",
+      "score": 47,
+      "source_count": 1,
+      "best_url": "https://masterpublish.com/how-to7/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://masterpublish.com/how-to7/",
+          "title": "本を出版したい人のための出版社一覧 リストまとめ",
+          "kind": "article_or_directory",
+          "score": 53,
+          "candidate_id": "MULTI-0204",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "持ち込み可能な出版社一覧｜自費出版なら【玄武書房】",
+      "career_category": "publishing",
+      "score": 47,
+      "source_count": 1,
+      "best_url": "https://genbu-shobo.com/column/list-publication-bringing/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://genbu-shobo.com/column/list-publication-bringing/",
+          "title": "持ち込み可能な出版社一覧｜自費出版なら【玄武書房】",
+          "kind": "article_or_directory",
+          "score": 53,
+          "candidate_id": "MULTI-0207",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "List of Book Publishers in Tokyo, Japan",
+      "career_category": "publishing",
+      "score": 47,
+      "source_count": 1,
+      "best_url": "https://www.publishersglobal.com/directory/japan/publishers-of-tokyo/media/book-publishers",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.publishersglobal.com/directory/japan/publishers-of-tokyo/media/book-publishers",
+          "title": "List of Book Publishers in Tokyo, Japan",
+          "kind": "article_or_directory",
+          "score": 53,
+          "candidate_id": "MULTI-0227",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "【Face展2026】",
+      "career_category": "contests",
+      "score": 43,
+      "source_count": 1,
+      "best_url": "https://www.sompo-museum.org/exhibitions/2024/face2026/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.sompo-museum.org/exhibitions/2024/face2026/",
+          "title": "【Face展2026】",
+          "kind": "reference",
+          "score": 41,
+          "candidate_id": "MULTI-0051",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "TOP of artbookosaka",
+      "career_category": "zines",
+      "score": 43,
+      "source_count": 1,
+      "best_url": "https://artbookosaka.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://artbookosaka.com/",
+          "title": "TOP of artbookosaka",
+          "kind": "reference",
+          "score": 41,
+          "candidate_id": "MULTI-0093",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Art Fair Tokyo",
+      "career_category": "zines",
+      "score": 43,
+      "source_count": 1,
+      "best_url": "https://artfairtokyo.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://artfairtokyo.com/",
+          "title": "Art Fair Tokyo",
+          "kind": "reference",
+          "score": 41,
+          "candidate_id": "MULTI-0096",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Exhibitors",
+      "career_category": "zines",
+      "score": 43,
+      "source_count": 1,
+      "best_url": "https://www.tokioartbookfair.com/exhibitors/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tokioartbookfair.com/exhibitors/",
+          "title": "Exhibitors",
+          "kind": "reference",
+          "score": 41,
+          "candidate_id": "MULTI-0104",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "artbook事務局",
+      "career_category": "publishing",
+      "score": 43,
+      "source_count": 1,
+      "best_url": "https://www.artbook-jp.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artbook-jp.com/",
+          "title": "artbook事務局",
+          "kind": "reference",
+          "score": 41,
+          "candidate_id": "MULTI-0214",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Rbooks",
+      "career_category": "publishing",
+      "score": 39,
+      "source_count": 2,
+      "best_url": "https://rbooks.wixsite.com/japan",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://rbooks.wixsite.com/japan",
+          "title": "Rbooks",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0182",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        },
+        {
+          "url": "https://www.rbooksjapan.com/",
+          "title": "Rbooks",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0184",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Calls for Entry",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.artworkarchive.com/call-for-entry/tokyo-open-art",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artworkarchive.com/call-for-entry/tokyo-open-art",
+          "title": "Calls for Entry",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0003",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "JIA Illustration Award 2026 (Japan) - artinfoland.com",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://artinfoland.com/opportunities/jia-illustration-award-2026/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://artinfoland.com/opportunities/jia-illustration-award-2026/",
+          "title": "JIA Illustration Award 2026 (Japan) - artinfoland.com",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0012",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Call for Artists",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.artjobs.com/open-calls/call-artists/japan/41817/exhibit-tokyo-japan",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artjobs.com/open-calls/call-artists/japan/41817/exhibit-tokyo-japan",
+          "title": "Call for Artists",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0021",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "PDF 東京都美術館 令和8(2026年",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.tobikan.jp/media/pdf/2025/citizens_session_2026.pdf",
+      "best_source_kind": "pdf",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.tobikan.jp/media/pdf/2025/citizens_session_2026.pdf",
+          "title": "PDF 東京都美術館 令和8(2026年",
+          "kind": "pdf",
+          "score": 35,
+          "candidate_id": "MULTI-0030",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Genseki - イラストコンテスト",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://genseki.me/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://genseki.me/",
+          "title": "Genseki - イラストコンテスト",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0034",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "イラストコンテスト2026♪ テーマは「春」!",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://thewonder.it/fes/3000256/description/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://thewonder.it/fes/3000256/description/",
+          "title": "イラストコンテスト2026♪ テーマは「春」!",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0039",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "2026年度 ライフウィズアート助成 - アーツカウンシル東京",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.artscouncil-tokyo.jp/grants/life-with-art-grant-program/27434/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artscouncil-tokyo.jp/grants/life-with-art-grant-program/27434/",
+          "title": "2026年度 ライフウィズアート助成 - アーツカウンシル東京",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0046",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "2026年に開催される注目の展覧会20選!",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.artagenda.jp/feature/news/20260102",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artagenda.jp/feature/news/20260102",
+          "title": "2026年に開催される注目の展覧会20選!",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0048",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "受賞9作品発表!グランプリは吉田茉莉子さん 「Face展2026 ...",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://artexhibition.jp/topics/news/20251114-AEJ2780996/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://artexhibition.jp/topics/news/20251114-AEJ2780996/",
+          "title": "受賞9作品発表!グランプリは吉田茉莉子さん 「Face展2026 ...",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0050",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Call for Submissions",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.artjobs.com/open-calls/call-submissions/japan/90524/arrival-gallery-calling-all-artists-—-osaka-2026-awaits",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artjobs.com/open-calls/call-submissions/japan/90524/arrival-gallery-calling-all-artists-—-osaka-2026-awaits",
+          "title": "Call for Submissions",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0054",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Osaka Showcase: Art Exhibition (Japan) - Call For Artists",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://sidearts.com/2026/04/osaka-showcase/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://sidearts.com/2026/04/osaka-showcase/",
+          "title": "Osaka Showcase: Art Exhibition (Japan) - Call For Artists",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0060",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "2026 Calls for Artists - Largest Free Database (CaFE & 1165+ More)",
+      "career_category": "contests",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://app.entrythingy.com/calls_list/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://app.entrythingy.com/calls_list/",
+          "title": "2026 Calls for Artists - Largest Free Database (CaFE & 1165+ More)",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0061",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Instagram",
+      "career_category": "zines",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.instagram.com/reel/DI0CMczyImP/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.instagram.com/reel/DI0CMczyImP/",
+          "title": "Instagram",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0076",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "JIMTOF 2026 The 33rd JAPAN INTERNATIONAL MACHINE TOOL FAIR",
+      "career_category": "zines",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.jimtof.org/en/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.jimtof.org/en/",
+          "title": "JIMTOF 2026 The 33rd JAPAN INTERNATIONAL MACHINE TOOL FAIR",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0077",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "PDF Promotion guide - mfjp-files.com",
+      "career_category": "zines",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "http://mfjp-files.com/documents/ilt2025/promotionguide_en.pdf",
+      "best_source_kind": "pdf",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "http://mfjp-files.com/documents/ilt2025/promotionguide_en.pdf",
+          "title": "PDF Promotion guide - mfjp-files.com",
+          "kind": "pdf",
+          "score": 35,
+          "candidate_id": "MULTI-0083",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Connecting Japan and the World Through Art Books What is the TOKYO ART ...",
+      "career_category": "zines",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://deeptokyo.jp/en/culture/2808/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://deeptokyo.jp/en/culture/2808/",
+          "title": "Connecting Japan and the World Through Art Books What is the TOKYO ART ...",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0112",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "studio zezezaza",
+      "career_category": "zines",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.studiozezezaza.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.studiozezezaza.com/",
+          "title": "studio zezezaza",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0115",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "The View From Tokyo: the fascinating origins, and triumphant resurgence ...",
+      "career_category": "zines",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.itsnicethat.com/articles/the-view-from-tokyo-risograph-in-japan-print-graphic-design-261124",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.itsnicethat.com/articles/the-view-from-tokyo-risograph-in-japan-print-graphic-design-261124",
+          "title": "The View From Tokyo: the fascinating origins, and triumphant resurgence ...",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0116",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Workshop",
+      "career_category": "zines",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://handsawpresstokyo.com/workshop.html",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://handsawpresstokyo.com/workshop.html",
+          "title": "Workshop",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0117",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "PageMasters",
+      "career_category": "zines",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.pagemasters.co/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.pagemasters.co/",
+          "title": "PageMasters",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0118",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "RISO studio - Space Utility TOKYO",
+      "career_category": "zines",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.space-utility.com/risostudio",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.space-utility.com/risostudio",
+          "title": "RISO studio - Space Utility TOKYO",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0120",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "2026アーティスト募集 - Google Sites",
+      "career_category": "residencies",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://sites.google.com/view/mizunogeijyutusai/news/opencall2026",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://sites.google.com/view/mizunogeijyutusai/news/opencall2026",
+          "title": "2026アーティスト募集 - Google Sites",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0143",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "RESIDENCE｜Art Center Ongoing",
+      "career_category": "residencies",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.ongoing.jp/residence/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.ongoing.jp/residence/",
+          "title": "RESIDENCE｜Art Center Ongoing",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0150",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Japan TOKAS International Creators Program 2027 - FDP Zone",
+      "career_category": "residencies",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://fdpzone.com/japan-tokas-international-creators-program-2027/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://fdpzone.com/japan-tokas-international-creators-program-2027/",
+          "title": "Japan TOKAS International Creators Program 2027 - FDP Zone",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0159",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Submissions - Chronicle Books",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.chroniclebooks.com/pages/submissions",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.chroniclebooks.com/pages/submissions",
+          "title": "Submissions - Chronicle Books",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0173",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Kadokawa World Manga Atelier",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://kadokawaworldmanga.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://kadokawaworldmanga.com/",
+          "title": "Kadokawa World Manga Atelier",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0177",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Submission",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.ukiyoto.com/submission",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.ukiyoto.com/submission",
+          "title": "Submission",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0180",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "shashasha - Photography & art in books",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.shashasha.co/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.shashasha.co/",
+          "title": "shashasha - Photography & art in books",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0183",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "ABOUT - twelvebooks",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://twelve-books.com/pages/about",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://twelve-books.com/pages/about",
+          "title": "ABOUT - twelvebooks",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0188",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Members of JBPA",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.jbpa.or.jp/en/members/index.html",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.jbpa.or.jp/en/members/index.html",
+          "title": "Members of JBPA",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0193",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "POST",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "http://www.post-books.jp/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "http://www.post-books.jp/",
+          "title": "POST",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0195",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "ビーナイスの本屋さん",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://benice-books.stores.jp/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://benice-books.stores.jp/",
+          "title": "ビーナイスの本屋さん",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0196",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "書籍,リトルプレス",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.keibunsha-books.com/shopbrand/b_lit/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.keibunsha-books.com/shopbrand/b_lit/",
+          "title": "書籍,リトルプレス",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0197",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "ambooks",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://ambooks.theshop.jp/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://ambooks.theshop.jp/",
+          "title": "ambooks",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0200",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "グラフィック社",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.graphicsha.co.jp/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.graphicsha.co.jp/",
+          "title": "グラフィック社",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0201",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Zine・リトルプレスが買える本屋さんリンク集（全国23店舗 ...",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://onimaga.jp/zine-shoplist.html",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://onimaga.jp/zine-shoplist.html",
+          "title": "Zine・リトルプレスが買える本屋さんリンク集（全国23店舗 ...",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0202",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "ワニブックスオフィシャルサイト",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.wani.co.jp/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.wani.co.jp/",
+          "title": "ワニブックスオフィシャルサイト",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0206",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Art Diver",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://artdiver.tokyo/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://artdiver.tokyo/",
+          "title": "Art Diver",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0212",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "twelvebooks - 美術手帖",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://bijutsutecho.com/museums-galleries/926",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://bijutsutecho.com/museums-galleries/926",
+          "title": "twelvebooks - 美術手帖",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0213",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Works：Riso Art｜Riso",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.riso.co.jp/english/company/risoart/works.html",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.riso.co.jp/english/company/risoart/works.html",
+          "title": "Works：Riso Art｜Riso",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0219",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "'Even more beautiful than I imagined': the nifty Japanese printing ...",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.theguardian.com/artanddesign/2026/apr/07/nifty-japanese-printing-gadget-risograph-riso-club-gabriella-marcella",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/artanddesign/2026/apr/07/nifty-japanese-printing-gadget-risograph-riso-club-gabriella-marcella",
+          "title": "'Even more beautiful than I imagined': the nifty Japanese printing ...",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0220",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "The Daily Heller: You Are Entering a Non-Digital World Called RISO",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.printmag.com/daily-heller/the-daily-heller-josh-gosfield-riso/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.printmag.com/daily-heller/the-daily-heller-josh-gosfield-riso/",
+          "title": "The Daily Heller: You Are Entering a Non-Digital World Called RISO",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0221",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Japan Travel Risograph Zine - On Waverly",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.onwaverly.com/products/japan-travel-risograph-zine",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.onwaverly.com/products/japan-travel-risograph-zine",
+          "title": "Japan Travel Risograph Zine - On Waverly",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0224",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "mo'des book",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://modes.tokyo/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://modes.tokyo/",
+          "title": "mo'des book",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0225",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "YOKOTA TOKYO｜Artists",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://yokotatokyo.com/en/artists.html",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://yokotatokyo.com/en/artists.html",
+          "title": "YOKOTA TOKYO｜Artists",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0229",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Home - Perimeter Books",
+      "career_category": "publishing",
+      "score": 37,
+      "source_count": 1,
+      "best_url": "https://www.perimeterbooks.com/",
+      "best_source_kind": "reference",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.perimeterbooks.com/",
+          "title": "Home - Perimeter Books",
+          "kind": "reference",
+          "score": 35,
+          "candidate_id": "MULTI-0230",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "EOS ART BOOKS, Tokyo: ARTBOOK Recommended Bookstores, Museum Shops ...",
+      "career_category": "publishing",
+      "score": 35,
+      "source_count": 1,
+      "best_url": "https://www.artbook.com/eos.html",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://www.artbook.com/eos.html",
+          "title": "EOS ART BOOKS, Tokyo: ARTBOOK Recommended Bookstores, Museum Shops ...",
+          "kind": "article_or_directory",
+          "score": 41,
+          "candidate_id": "MULTI-0226",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    },
+    {
+      "canonical_name": "Tokyo's Coolest Art Workshop? Try Risograph Printing in Harajuku",
+      "career_category": "zines",
+      "score": 29,
+      "source_count": 1,
+      "best_url": "https://blog.gaijinpot.com/how-to-join-a-risograph-printing-workshop-in-tokyo/",
+      "best_source_kind": "article_or_directory",
+      "has_application": false,
+      "has_deadline_signal": false,
+      "has_fee_signal": false,
+      "sources": [
+        {
+          "url": "https://blog.gaijinpot.com/how-to-join-a-risograph-printing-workshop-in-tokyo/",
+          "title": "Tokyo's Coolest Art Workshop? Try Risograph Printing in Harajuku",
+          "kind": "article_or_directory",
+          "score": 35,
+          "candidate_id": "MULTI-0114",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false
+        }
+      ],
+      "status": "canonicalized"
+    }
+  ]
+}

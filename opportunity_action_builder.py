@@ -2,31 +2,37 @@
 import json
 from pathlib import Path
 
-SRC = "memory/submission_requirements.json"
-OUT = "reports/actionable_opportunities.md"
+SRC = "memory/submission_targets.json"
+REPORT = "reports/actionable_opportunities.md"
 
-data = json.load(open(SRC, encoding="utf-8"))
+data = json.loads(Path(SRC).read_text(encoding="utf-8"))
 
-lines = ["# Artist Action Targets", ""]
+lines = [
+    "# Artist Action Targets",
+    "",
+    "This report uses saved homepage links to identify possible submission/contact paths.",
+    "",
+]
 
 for item in data[:20]:
-    lines.append(f"## {item.get('title')}")
-    lines.append(f"- Contact: {item.get('contact','unknown')}")
     links = item.get("submission_links", [])
+
+    lines.append(f"## {item.get('title')}")
+    lines.append(f"- Contact: {item.get('contact', 'unknown')}")
     lines.append(f"- Submission links found: {len(links)}")
-    lines.append(f"- Requirements: {', '.join(item.get('estimated_requirements',[]))}")
+    lines.append(f"- Submission signal: {item.get('submission_open', 'unknown')}")
+    lines.append(f"- Deadline/date candidate: {item.get('deadline', 'unknown')}")
 
     if links:
-        lines.append("")
-        lines.append("### Submission / Application Links")
-        for link in links[:6]:
+        lines.append("- Best submission/action links:")
+        for link in links[:5]:
             label = link.get("label") or "[no label]"
-            url = link.get("url")
-            score = link.get("submission_link_score", "")
-            lines.append(f"- {label} — {url} — score {score}")
+            lines.append(f"  - {label} — {link.get('url')}")
 
+    lines.append("- Default requirements to prepare: portfolio PDF, artist statement, images of work")
     lines.append("")
 
 Path("reports").mkdir(exist_ok=True)
-Path(OUT).write_text("\n".join(lines), encoding="utf-8")
-print("Wrote", OUT)
+Path(REPORT).write_text("\n".join(lines), encoding="utf-8")
+
+print(f"Wrote {REPORT}")

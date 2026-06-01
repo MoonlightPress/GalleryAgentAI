@@ -1,0 +1,496 @@
+{
+  "title": "Category Context",
+  "source_candidate_count": 230,
+  "categories": [
+    {
+      "category_id": "zines",
+      "title": "Art Book & Zine Fairs",
+      "opportunities_found": 59,
+      "high_priority": 6,
+      "medium_priority": 40,
+      "low_priority": 13,
+      "items_with_forms": 7,
+      "items_with_deadlines": 7,
+      "actionability_score": 100,
+      "estimated_cost": "¥10,000–¥50,000",
+      "estimated_effort": "1–2 days to prepare fair/application research; 1–3 weeks if printing new work",
+      "timeline": "1–6 months",
+      "why_this_matters": "Zine and art-book fairs connect directly to the existing zine/shop path and give a finished printed object a public destination.",
+      "recommendation": "Keep shop placement as Phase 1 and use fairs as Phase 2 once two zines exist.",
+      "battle_plan": [
+        "Confirm the next application windows for major fairs.",
+        "Prepare two small zines or one polished artist-book prototype.",
+        "Track booth fee, deadline, required images, and table size.",
+        "Apply to one realistic fair and visit one major fair for research.",
+        "Use shop placements as support material for fair applications."
+      ],
+      "best_first_move": {
+        "title": "Tokyo Art Book Fair",
+        "score": 88,
+        "url": "https://tokyoartbookfair.com/en/application/",
+        "quick_action": "Check exhibitor/application requirements, booth fee, and next event date."
+      },
+      "best_moves": [
+        {
+          "title": "Tokyo Art Book Fair",
+          "score": 88,
+          "url": "https://tokyoartbookfair.com/en/application/",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0070"
+        },
+        {
+          "title": "Application - Tokyo Art Book Fair",
+          "score": 88,
+          "url": "https://tokyoartbookfair.com/application/",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0091"
+        },
+        {
+          "title": "出展お申込み",
+          "score": 88,
+          "url": "https://fukuokaartbookfair.com/application/",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0094"
+        },
+        {
+          "title": "Applications — Little Tokyo Zine Fest",
+          "score": 82,
+          "url": "https://www.ltzinefest.org/applications",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0062"
+        },
+        {
+          "title": "Tokyo Art Book Fair Open for Booth Applications - EastEast",
+          "score": 82,
+          "url": "https://easteast.world/posts/625",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0071"
+        },
+        {
+          "title": "Clone of Japan Fair 2025 - Exhibitor Application Form",
+          "score": 62,
+          "url": "https://form.jotform.com/253215140594149",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0082"
+        },
+        {
+          "title": "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat",
+          "score": 61,
+          "url": "https://www.tokyoartbeat.com/en/events/-/Zines-Fair-at-CP-2026/3-B7-EC-1-B4/2026-02-28",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0065"
+        },
+        {
+          "title": "Art Book Fairs",
+          "score": 61,
+          "url": "https://www.artbookfairs.com/",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0069"
+        },
+        {
+          "title": "Tokio Art Book Fair トキオアートブックフェア",
+          "score": 61,
+          "url": "https://tokioartbookfair.com/",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0072"
+        },
+        {
+          "title": "TOKYO ART BOOK FAIR 2025",
+          "score": 61,
+          "url": "https://www.mot-art-museum.jp/en/exhibitions/tokyo-art-book-fair-2025/",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0074"
+        }
+      ]
+    },
+    {
+      "category_id": "contests",
+      "title": "Open Calls / Contests",
+      "opportunities_found": 61,
+      "high_priority": 12,
+      "medium_priority": 32,
+      "low_priority": 17,
+      "items_with_forms": 8,
+      "items_with_deadlines": 32,
+      "actionability_score": 100,
+      "estimated_cost": "¥0–¥10,000",
+      "estimated_effort": "2–4 hours for first review; 1–2 days for a full submission",
+      "timeline": "1–2 months",
+      "why_this_matters": "Open calls have clear actions: verify deadline, prepare files, submit. They are the cleanest way to turn research into applications.",
+      "recommendation": "Review the top five, then choose two with clear fit and manageable requirements.",
+      "battle_plan": [
+        "Open the top five sources.",
+        "Confirm deadline, fee, eligibility, image requirements, and application form.",
+        "Reject anything with poor fit or unclear terms.",
+        "Prepare one reusable application package.",
+        "Submit to two high-fit opportunities."
+      ],
+      "best_first_move": {
+        "title": "Open Call",
+        "score": 88,
+        "url": "https://www.jinnystreetgallery.com/open-call",
+        "quick_action": "Confirm deadline, fee, eligibility, and application requirements."
+      },
+      "best_moves": [
+        {
+          "title": "Open Call",
+          "score": 88,
+          "url": "https://www.jinnystreetgallery.com/open-call",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0006"
+        },
+        {
+          "title": "Open Call - Tokyo Arts and Space",
+          "score": 82,
+          "url": "https://www.tokyoartsandspace.jp/en/application/index.html",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0001"
+        },
+        {
+          "title": "公募",
+          "score": 82,
+          "url": "https://www.tokyoartsandspace.jp/application/index.html",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0031"
+        },
+        {
+          "title": "全国美術公募団体 ベラドンナ・アート｜応募要項",
+          "score": 82,
+          "url": "https://www.art-belladonna.jp/youkou",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0047"
+        },
+        {
+          "title": "About Open Call Programs - Tokyo Arts and Space",
+          "score": 82,
+          "url": "https://www.tokyoartsandspace.jp/en/application/about_opencall.html",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0052"
+        },
+        {
+          "title": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
+          "score": 76,
+          "url": "https://www.tokyoartbeat.com/events/eventCategoryId/6OBA1ojctRfcVU5LTcZPPC",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0027"
+        },
+        {
+          "title": "2026 松濤美術館公募展｜渋谷区立松濤美術館",
+          "score": 76,
+          "url": "https://shoto-museum.jp/exhibitions/2026koubo/",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0029"
+        },
+        {
+          "title": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
+          "score": 76,
+          "url": "https://www.jinnystreetgallery.com/open-call",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0053"
+        },
+        {
+          "title": "Osaka Open Call For Artists. - ARRIVAL",
+          "score": 76,
+          "url": "https://www.arrivalgallery.com/osaka",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0055"
+        },
+        {
+          "title": "International Open Call",
+          "score": 76,
+          "url": "https://en.410gallery.org/exhibition-open-call",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0056"
+        }
+      ]
+    },
+    {
+      "category_id": "residencies",
+      "title": "Residencies",
+      "opportunities_found": 45,
+      "high_priority": 6,
+      "medium_priority": 32,
+      "low_priority": 7,
+      "items_with_forms": 6,
+      "items_with_deadlines": 21,
+      "actionability_score": 96,
+      "estimated_cost": "Varies widely; often travel/time cost is larger than application cost",
+      "estimated_effort": "4–8 hours to evaluate; several days for a serious application",
+      "timeline": "3–12 months",
+      "why_this_matters": "Residencies can be career-changing, but they are higher effort and usually require a stronger statement, portfolio, and project proposal.",
+      "recommendation": "Monitor now. Apply only to unusually strong fits until the portfolio package is stronger.",
+      "battle_plan": [
+        "Identify the top three realistic residency programs.",
+        "Check eligibility, duration, language, cost, and housing.",
+        "Prepare a reusable artist statement and project proposal outline.",
+        "Do not apply broadly; choose only high-fit programs.",
+        "Revisit monthly as deadlines change."
+      ],
+      "best_first_move": {
+        "title": "PDF International Creator Residency Program 2026 Application Outline",
+        "score": 82,
+        "url": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf",
+        "quick_action": "Confirm eligibility, duration, cost, housing, and project proposal requirements."
+      },
+      "best_moves": [
+        {
+          "title": "PDF International Creator Residency Program 2026 Application Outline",
+          "score": 82,
+          "url": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0122"
+        },
+        {
+          "title": "2026年度 リサーチ・レジデンス・プログラム",
+          "score": 82,
+          "url": "https://www.tokyoartsandspace.jp/archive/application/2025/20250513-295.html",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0148"
+        },
+        {
+          "title": "Open Call for the International Creator Residency Program 2026",
+          "score": 82,
+          "url": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0154"
+        },
+        {
+          "title": "Open Call Guest Artist",
+          "score": 82,
+          "url": "https://www.sccp.jp/air-en/application/guest-artist/",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0165"
+        },
+        {
+          "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
+          "score": 76,
+          "url": "https://air-j.info/en/program/lair2026/",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0121"
+        },
+        {
+          "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
+          "score": 76,
+          "url": "https://air-j.info/en/program/",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0152"
+        },
+        {
+          "title": "Hayama Artist Residency Submission Manager - Submittable",
+          "score": 73,
+          "url": "https://hayamaartistresidency.submittable.com/submit",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0158"
+        },
+        {
+          "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
+          "score": 70,
+          "url": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0123"
+        },
+        {
+          "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
+          "score": 70,
+          "url": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0125"
+        },
+        {
+          "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+          "score": 70,
+          "url": "https://kiac.jp/en/article/2927/",
+          "deadline_signal": true,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0126"
+        }
+      ]
+    },
+    {
+      "category_id": "publishing",
+      "title": "Publishing / Small Press",
+      "opportunities_found": 65,
+      "high_priority": 0,
+      "medium_priority": 1,
+      "low_priority": 64,
+      "items_with_forms": 1,
+      "items_with_deadlines": 0,
+      "actionability_score": 52,
+      "estimated_cost": "¥0–¥5,000",
+      "estimated_effort": "2–4 hours to research; longer once a proposal is ready",
+      "timeline": "2–6 months",
+      "why_this_matters": "Publishing is high-value but noisy. It becomes practical after a finished zine, artist book, or strong PDF pitch exists.",
+      "recommendation": "Use publishing research to benchmark, not to spam submissions. Approach carefully after the printed object exists.",
+      "battle_plan": [
+        "Separate real publishers from articles, directories, and self-publishing services.",
+        "Choose three publisher/platform references.",
+        "Compare her work against similar books.",
+        "Prepare one concise PDF pitch.",
+        "Send at most two careful outreach messages."
+      ],
+      "best_first_move": {
+        "title": "Submissions — Clavis Publishing",
+        "score": 65,
+        "url": "https://www.clavis-publishing.com/submit",
+        "quick_action": "Decide whether this is a real publisher/platform or only a reference source."
+      },
+      "best_moves": [
+        {
+          "title": "Submissions — Clavis Publishing",
+          "score": 65,
+          "url": "https://www.clavis-publishing.com/submit",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": true,
+          "candidate_id": "MULTI-0176"
+        },
+        {
+          "title": "» 21 Terrific Small Presses Open to Direct Submissions",
+          "score": 53,
+          "url": "https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0166"
+        },
+        {
+          "title": "SUBMISSIONS - marblepress.com",
+          "score": 53,
+          "url": "https://marblepress.com/submissions/",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0167"
+        },
+        {
+          "title": "Submissions - Little Press Publishing",
+          "score": 53,
+          "url": "https://littlepresspublishing.com/submissions",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0170"
+        },
+        {
+          "title": "3 Top Book Publishers in Tokyo in 2026",
+          "score": 53,
+          "url": "https://reedsy.com/resources/publishers/jp/tokyo/",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0171"
+        },
+        {
+          "title": "submissions — porkbelly press",
+          "score": 53,
+          "url": "https://porkbellypress.com/subs/",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0172"
+        },
+        {
+          "title": "3 Top Book Publishers in Japan in 2026",
+          "score": 53,
+          "url": "https://reedsy.com/resources/publishers/jp/",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0174"
+        },
+        {
+          "title": "Become an Author - Tuttle Publishing",
+          "score": 53,
+          "url": "https://www.tuttlepublishing.com/become-an-author",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0175"
+        },
+        {
+          "title": "Japan Book Publishers Association - JBPA",
+          "score": 53,
+          "url": "https://www.jbpa.or.jp/en/index.html",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0178"
+        },
+        {
+          "title": "ART BOX Publishing",
+          "score": 53,
+          "url": "http://www.artbox-int.co.jp/en/publish/index.html",
+          "deadline_signal": false,
+          "fee_signal": false,
+          "form_signal": false,
+          "candidate_id": "MULTI-0179"
+        }
+      ]
+    }
+  ],
+  "recommended_order": [
+    "zines",
+    "contests",
+    "residencies",
+    "publishing"
+  ]
+}

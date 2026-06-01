@@ -1,0 +1,170 @@
+# Gallery Tiers
+
+## A - direct emerging opportunity (15)
+
+- グループ展参加アーティスト募集中 - Gallery and Links81 — score 100 — submission route, emerging friendly, curated/exhibition
+  - https://galleryandlinks81.jp/recruiting/
+- 若手アーティストの登竜門となるアートフェア「Independent Tokyo ... — score 100 — submission route, emerging friendly, curated/exhibition
+  - https://prtimes.jp/main/html/rd/p/000000087.000042448.html
+- 【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ... — score 100 — submission route, emerging friendly, curated/exhibition
+  - https://picaresquejpn.com/staff-letter/tokyo-artgallery-artist-wanted-picaresque/
+- 【biscuit gallery】初の公募企画「grid next : Emerging ... — score 100 — prestige, submission route, emerging friendly, curated/exhibition
+  - https://biscuitgallery.com/grid-next-news/
+- 219公募展6募集 >> Gallery219 ギャラリーニイク — score 100 — submission route, emerging friendly, curated/exhibition
+  - https://www.gallery219.com/219kouboten/koubo2025.html
+- 公募プログラム - トーキョーアーツアンドスペース — score 100 — submission route, emerging friendly, curated/exhibition
+  - https://www.tokyoartsandspace.jp/application/about_opencall.html
+- New Power展 | ギャラリー自由が丘で作家デビュー — score 100 — submission route, emerging friendly, curated/exhibition
+  - https://www.gallery-jiyugaoka.com/newpower-application
+- 公募企画「grid next : 2025 - Emerging Artists Showcase ... — score 100 — prestige, submission route, emerging friendly, curated/exhibition
+  - https://biscuitgallery.com/gridnext-2025/
+- Open Call - Tokyo Arts and Space — score 100 — prestige, submission route, emerging friendly, curated/exhibition
+  - https://www.tokyoartsandspace.jp/en/application/index.html
+- 公募 ｜ 公募 ｜ トーキョーアーツアンドスペース | 東京から ... — score 100 — submission route, emerging friendly, curated/exhibition
+  - https://www.tokyoartsandspace.jp/application/index.html
+- 東京5美大 公募展「ここから」8/21より開幕!ご来場の皆様の一 ... — score 100 — submission route, emerging friendly, curated/exhibition
+  - https://www.gallery-kunitachi.com/post/2025-08-21
+- Tokyo's Art Scene: Galleries, Museums & Emerging Artists — score 100 — submission route, emerging friendly, curated/exhibition
+  - https://thestandardjapan.com/art/tokyo-art-scene
+- 中野・ギャラリー冬青で「謎の新人作家」H.jさん写真展 - 中野 ... — score 100 — submission route, emerging friendly, local west Tokyo, curated/exhibition
+  - https://nakano.keizai.biz/headline/2926/
+- Tokyo Contemporary Art - Galleries, Museums & Exhibitions | 1 Cubic Meter — score 98 — submission route, emerging friendly, curated/exhibition
+  - https://1cubicmeter.com/tokyo/
+- Tokyo Arts and Space — score 88 — prestige, submission route, emerging friendly, curated/exhibition
+  - https://www.tokyoartsandspace.jp/en/
+
+## A - prestige application (1)
+
+- Apply Now - Tokyo Gendai — score 100 — prestige, submission route, curated/exhibition
+  - https://tokyogendai.com/apply/
+
+## B - local ecosystem target (35)
+
+- Exhibition | Gallery Cafe＆Bar オンディーヌ │東高円寺の ... — score 93 — submission route, gallery cafe, local west Tokyo, curated/exhibition
+  - https://ondine.official.ec/p/00001
+- Gallery Niepce - niepce-tokyo — score 91 — emerging friendly, local west Tokyo, curated/exhibition
+  - https://www.niepce-tokyo.net/
+- About - Dddart — score 91 — emerging friendly, local west Tokyo, curated/exhibition
+  - https://dddart.jp/about/
+- 感性を刺激する街 下北沢で芸術スポット巡り｜おでかけ ... — score 91 — emerging friendly, gallery cafe, local west Tokyo, curated/exhibition
+  - https://www.odakyu-voice.jp/trip/2020_12_web/
+- キチジョウジギャラリー | 吉祥寺・井の頭公園の貸しギャラリー — score 89 — submission route, rental, gallery cafe, local west Tokyo, curated/exhibition
+  - http://kichijojigallery.com/
+- Uptown Koenji Gallery|スギナミ・ウェブ・ミュージアム — score 87 — local west Tokyo, curated/exhibition
+  - https://www.suginamiart.tokyo/webmuseum/gallery/uptown-koenji-gallery.html
+- 下北沢アーツ Shimokitazawa Arts | 下北沢のアートギャラリー Art Gallery in Shimokitazawa — score 87 — local west Tokyo, curated/exhibition
+  - https://shimokitazawaarts.tokyo/en/home-english/
+- About - Mogi — score 87 — local west Tokyo, curated/exhibition
+  - https://mogi-shop.com/pages/mogi-shop
+- 【まるっと中野】＜写大ギャラリー＞静かな時間を過ごしたい ... — score 87 — gallery cafe, local west Tokyo, curated/exhibition
+  - https://www.city.tokyo-nakano.lg.jp/kanko/machiaruki/shadaigallery.html
+- ギャラリーHANA — score 87 — local west Tokyo, curated/exhibition
+  - https://www.g-hana.jp/
+- 下北沢アーツ Shimokitazawa Arts | 下北沢のアートギャラリー ... — score 87 — local west Tokyo, curated/exhibition
+  - https://shimokitazawaarts.tokyo/
+- Gallery - M.A.P. Maniac Artist Port | 東京都杉並区高円寺のギャラリーカフェ&タフティング・スタジオ — score 83 — gallery cafe, local west Tokyo, curated/exhibition
+  - https://map-koenji.com/gallery/
+- About - Clouds — score 83 — local west Tokyo, curated/exhibition
+  - https://www.cloudsgallerypluscoffee.com/about
+- アート | 日本 | Uptown Koenji Gallery — score 83 — local west Tokyo, curated/exhibition
+  - https://gallerymaru33.wixsite.com/mysite
+- BnA HOTEL Koenji - Meet Tokyo's Art Community — score 83 — local west Tokyo, curated/exhibition
+  - https://www.bna-koenji.com/
+- Home | BLANK — score 83 — local west Tokyo, curated/exhibition
+  - https://www.blank-koenji.com/
+- ナカノギンザギャラリー（NGG）公式アカウント (@NGG201804) / Posts / X — score 83 — local west Tokyo, curated/exhibition
+  - https://x.com/NGG201804
+- 下北沢アーツ Shimokitazawa Arts (@shimokitazawaarts) - Instagram — score 83 — local west Tokyo, curated/exhibition
+  - https://www.instagram.com/shimokitazawaarts/
+- Shimokitazawa, Tokyo - 17 Things To Do + Photos - Plan My Japan — score 83 — gallery cafe, local west Tokyo, curated/exhibition
+  - https://www.planmyjapan.com/shimokitazawa-tokyo-things-to-do/
+- Shimokitazawa Arts | Japan Live & Exhibits — score 83 — local west Tokyo, curated/exhibition
+  - https://www.japan-live-exhibits.com/g_tkstg_shimokitazawa-arts/
+- Gallery | Local — score 83 — local west Tokyo, curated/exhibition
+  - https://www.localgallerybooks.com/gallery
+- Gallery Rustico | 高円寺のギャラリー — score 83 — local west Tokyo, curated/exhibition
+  - https://gallery-rustico.com/
+- GALLERY33｜EXHIBITION — score 83 — local west Tokyo, curated/exhibition
+  - https://www.gallery33official.com/exhibition/
+- 知られざる作品や作家との巡り合いが生まれる高円寺の ... — score 83 — local west Tokyo, curated/exhibition
+  - https://casabrutus.com/categories/culture/404794
+- M.A.P. - Maniac Artist Port — score 83 — gallery cafe, local west Tokyo, curated/exhibition
+  - https://map-koenji.com/
+- "meee" Gallery Tokyo 東京中野のレンタルギャラリー — score 83 — emerging friendly, rental, local west Tokyo, curated/exhibition
+  - https://meee.jp/
+- 中野のアートシーン：地元のギャラリーとイベントを深掘りする — score 83 — local west Tokyo, curated/exhibition
+  - https://www.city-tokyo-nakano.jp/nakano-art-scene-galleries-events/
+- nakano yuji - glass - ギャラリーマミカ — score 83 — local west Tokyo, curated/exhibition
+  - https://mamica-m.com/artist/777
+- Dddart - タイムアウト東京 — score 83 — gallery cafe, local west Tokyo, curated/exhibition
+  - https://www.timeout.jp/tokyo/ja/アート/ディーディーディーアート
+- ギャラリー楽 / Gallery RAKU | 東京都中野区新井にある ... — score 79 — rental, local west Tokyo, curated/exhibition
+  - http://gallery-raku.tokyo/
+- Such As, Gallery — score 79 — rental, local west Tokyo, curated/exhibition
+  - http://www.suchas.gallery/
+- Espace Shimokitazawa MONA | レンタルギャラリー・貸し画廊 ... — score 79 — rental, gallery cafe, local west Tokyo, curated/exhibition
+  - https://rental-gallery.jp/espace-shimokitazawa-mona/
+- Espace Shimokitazawa Mona：下北沢 貸ギャラリー — score 75 — rental, local west Tokyo, curated/exhibition
+  - https://shimokita-gallery.com/
+- ギャルリー・ジュイエ - Galerie Juillet — score 75 — rental, local west Tokyo, curated/exhibition
+  - https://juillet.jp/
+- レンタルギャラリーアトラス | Rental Gallery ATLAS | 中野の ... — score 75 — rental, local west Tokyo, curated/exhibition
+  - https://atlas-nakano.com/
+
+## B - promising target (18)
+
+- 現代アート販売の@Gallery Tagboat|@Gallery Tagboat — score 100 — prestige, emerging friendly, curated/exhibition
+  - https://www.tagboat.com/artevent/independenttokyo2025/
+- Call for Entry: Showcase your art in Tokyo, Japan — score 100 — submission route, curated/exhibition
+  - https://www.artworkarchive.com/call-for-entry/showcase-your-art-in-tokyo-japan-2025
+- Open Calls for Artists | Exhibit Worldwide — score 100 — submission route, curated/exhibition
+  - https://www.theholyart.com/tokyo-open-art
+- Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ... — score 100 — submission route, curated/exhibition
+  - https://www.jinnystreetgallery.com/open-call
+- 東京画廊 + Btap Tokyo Gallery + Beijing Tokyo Art Projects — score 100 — prestige, curated/exhibition
+  - https://www.tokyo-gallery.com/
+- Call for Artists | Exhibit in Tokyo, Japan | Tokyo | | Art Jobs — score 100 — submission route, curated/exhibition
+  - https://www.artjobs.com/open-calls/call-artists/japan/41817/exhibit-tokyo-japan
+- Apply to Exhibit — Tokyo International Art Fair — score 100 — submission route, curated/exhibition
+  - https://www.tokyoartfair.com/apply-to-exhibit-tokyo-art-fair
+- Open Call for Artists! Tokyo Biennale 2025 "Social Dive" — score 100 — submission route, curated/exhibition
+  - https://tokyobiennale.jp/en/archives/news/6152
+- The Holy Art Gallery - Tokyo Open Call for Artist | ForPhotographersOnly — score 100 — submission route, curated/exhibition
+  - https://www.forphotographersonly.com/event-details/the-holy-art-gallery-tokyo-open-call-for-artist
+- Open Call for Artists! Tokyo Biennale 2025 "Social Dive" — score 100 — submission route, curated/exhibition
+  - https://resartis.org/news-listing/open-call-for-artists-tokyo-biennale-2025-social-dive/
+- Calls for Entry | Artwork Archive — score 100 — submission route, curated/exhibition
+  - https://www.artworkarchive.com/call-for-entry/tokyo-open-art
+- マンションブランドBrilliaによる次世代アーティスト応援 平面 ... — score 100 — submission route, curated/exhibition
+  - https://tatemono.com/news/20260512-2.html
+- Art公募 | 美術公募展のポータルサイト【アート公募 ... — score 100 — submission route, curated/exhibition
+  - https://www.artkoubo.jp/
+- 次世代アーティストを応援する公募展 「Brillia Art Award Cube ... — score 100 — submission route, gallery cafe, curated/exhibition
+  - https://www.atpress.ne.jp/news/552746
+- T's gallery（人形町）グランドオープン記念公募展 アーティスト ... — score 100 — submission route, curated/exhibition
+  - https://soshare.info/archives/news/ts-gallery（人形町）グランドオープン記念公募展　ア
+- 国際公募展 作品募集中 | 空間芸術toram — score 100 — submission route, curated/exhibition
+  - https://www.toram.info/exhibition-open-call
+- nca | nichido contemporary art — score 100 — prestige, emerging friendly, curated/exhibition
+  - https://www.nca-g.com/en/
+- 10 Best Contemporary Art Galleries in Tokyo: Where to See Modern ... — score 93 — emerging friendly, curated/exhibition
+  - https://tokyocandies.com/best-contemporary-art-galleries-in-tokyo/
+
+## C - research later (8)
+
+- Tokyo's Pulse: Your Ultimate Guide to Contemporary Art — score 77 — emerging friendly, curated/exhibition
+  - https://www.zenmuseum.com/finder/page/contemporary-art-in-tokyo/
+- 11 best contemporary art galleries in Tokyo - Time Out — score 73 — emerging friendly, curated/exhibition
+  - https://www.timeout.com/tokyo/art/best-contemporary-art-galleries-in-tokyo
+- Japan Art Guide: Best Galleries, Exhibits & Collector Circles in Tokyo — score 73 — emerging friendly, curated/exhibition
+  - https://goconnect.jp/2025/08/18/japan-art-guide-best-galleries-exhibits-collector-circles-in-tokyo/
+- AWASE gallery | 新宿のギャラリー・アートスペース — score 70 — gallery cafe, curated/exhibition
+  - https://awase-gallery.com/
+- home | artist-run-space merdre — score 70 — gallery cafe, curated/exhibition
+  - https://uma-merdre.com/en/
+- Artist Run Space - chimpom.jp — score 70 — curated/exhibition
+  - http://www.chimpom.jp/artistrunspace/en.html
+- [Official] teamLab Planets TOKYO, Toyosu — score 70 — gallery cafe, curated/exhibition
+  - https://www.teamlab.art/e/planets/
+- 24 Best Tokyo Art Galleries | Ocula — score 65 — emerging friendly
+  - https://ocula.com/cities/japan/tokyo-art-galleries/

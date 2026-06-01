@@ -1,0 +1,271 @@
+{
+  "title": "Zine / Artist Book Battle Plan",
+  "current_position": {
+    "placements": 0,
+    "known_targets": 12,
+    "high_priority_targets": 6,
+    "local_targets": 7
+  },
+  "score": 100,
+  "difficulty": "easy",
+  "cost": "low",
+  "speed": "fast",
+  "estimated_cost": "¥10,000–¥25,000",
+  "expected_timeline": "1-3 months",
+  "success_condition": "Two finished zines, five outreach attempts, one accepted placement.",
+  "best_route": "Koenji + Nakano",
+  "phase_1_targets": [
+    {
+      "career_category": "zines",
+      "opportunity_type": "zine_shop",
+      "display_name": "Tacoche",
+      "neighborhood": "Nakano",
+      "tier": 1,
+      "why_it_matters": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.",
+      "first_action": "Review shop/site and confirm whether they accept consignment or submissions.",
+      "canonical_name": "Tacoche",
+      "confidence": 100,
+      "source_count": 5,
+      "websites": [
+        "http://tacoche.com/",
+        "https://taco.shop-pro.jp/"
+      ],
+      "article_references": [
+        "https://brutus.jp/post-483326/",
+        "https://trilltrill.jp/articles/4591823"
+      ],
+      "status": "needs_review",
+      "show_on_website": true
+    },
+    {
+      "career_category": "zines",
+      "opportunity_type": "bookstore_gallery",
+      "display_name": "LOCAL Gallery・Books",
+      "neighborhood": "Koenji",
+      "tier": 1,
+      "why_it_matters": "Local Koenji book/gallery target; useful for a quiet works-on-paper artist and local relationship building.",
+      "first_action": "Verify current location/contact and visit with a sample zine.",
+      "canonical_name": "LOCAL Gallery・Books",
+      "confidence": 90,
+      "source_count": 5,
+      "websites": [
+        "https://www.localgallerybooks.com/about"
+      ],
+      "article_references": [
+        "https://jw-webmagazine.com/tips/shimokitazawa-local-guide/",
+        "https://jw-webmagazine.com/tips/the-perfect-day-in-kichijoji/"
+      ],
+      "status": "needs_review",
+      "show_on_website": true
+    },
+    {
+      "career_category": "zines",
+      "opportunity_type": "zine_shop",
+      "display_name": "Dig A Hole Zines",
+      "neighborhood": "Koenji",
+      "tier": 1,
+      "why_it_matters": "Direct zine-shop target in/near Koenji. Strong match for a first local distribution attempt.",
+      "first_action": "Check Instagram, confirm hours/location, and prepare a sample copy.",
+      "canonical_name": "Dig A Hole Zines",
+      "confidence": 77,
+      "source_count": 4,
+      "websites": [
+        "https://www.instagram.com/digaholezines/"
+      ],
+      "article_references": [],
+      "status": "needs_review",
+      "show_on_website": true
+    },
+    {
+      "career_category": "zines",
+      "opportunity_type": "independent_bookstore_event_space",
+      "display_name": "本店・本屋の実験室",
+      "neighborhood": "Koenji",
+      "tier": 1,
+      "why_it_matters": "Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.",
+      "first_action": "Check event/submission pages and whether zine participation is possible.",
+      "canonical_name": "本店・本屋の実験室",
+      "confidence": 76,
+      "source_count": 2,
+      "websites": [
+        "https://honnonagaya-honten.com/",
+        "https://honnonagaya-honten.com/event/557/"
+      ],
+      "article_references": [],
+      "status": "needs_review",
+      "show_on_website": true
+    },
+    {
+      "career_category": "zines",
+      "opportunity_type": "independent_bookstore",
+      "display_name": "そぞろ書房",
+      "neighborhood": "Koenji",
+      "tier": 2,
+      "why_it_matters": "Small local bookstore target. Useful for building a compact Koenji route.",
+      "first_action": "Verify current stock, hours, and whether they handle self-published work.",
+      "canonical_name": "そぞろ書房",
+      "confidence": 61,
+      "source_count": 2,
+      "websites": [
+        "https://sozoroshobou.stores.jp/"
+      ],
+      "article_references": [],
+      "status": "needs_review",
+      "show_on_website": true
+    }
+  ],
+  "phase_2_targets": [
+    {
+      "career_category": "zines",
+      "opportunity_type": "zine_shop",
+      "display_name": "ZINE FARM TOKYO",
+      "neighborhood": "Kichijoji",
+      "tier": 1,
+      "why_it_matters": "Zine-focused Kichijoji target. Strong place to benchmark presentation and potential placement.",
+      "first_action": "Confirm current activity and whether they sell/accept outside zines.",
+      "canonical_name": "ZINE FARM TOKYO",
+      "confidence": 90,
+      "source_count": 5,
+      "websites": [
+        "https://www.instagram.com/zinefarmtokyo/"
+      ],
+      "article_references": [
+        "https://san-tatsu.jp/spots/205878/",
+        "https://kj-weekly.jp/spot/zine-farm-tokyo/"
+      ],
+      "status": "needs_review",
+      "show_on_website": true
+    },
+    {
+      "career_category": "zines",
+      "opportunity_type": "zine_fair_book_community",
+      "display_name": "Book Culture Club",
+      "neighborhood": "Kichijoji",
+      "tier": 1,
+      "why_it_matters": "Book/zine community and event signal. Useful for fairs, local network, and creator-to-creator visibility.",
+      "first_action": "Review upcoming zine fair/event schedule.",
+      "canonical_name": "Book Culture Club",
+      "confidence": 80,
+      "source_count": 5,
+      "websites": [],
+      "article_references": [
+        "https://kj-weekly.jp/2024/07/20/book-culture-club/",
+        "https://note.com/bookcultureclub/n/n6ead299d5947",
+        "https://note.com/bookcultureclub/n/nd460d9a36da6",
+        "https://note.com/bookcultureclub/n/n14764ff42f86"
+      ],
+      "status": "needs_review",
+      "show_on_website": true
+    },
+    {
+      "career_category": "zines",
+      "opportunity_type": "bookstore_gallery",
+      "display_name": "tata bookshop/gallery",
+      "neighborhood": "Koenji",
+      "tier": 2,
+      "why_it_matters": "Bookshop/gallery hybrid in Koenji; good bridge between books, prints, and exhibition context.",
+      "first_action": "Visit/research fit and see whether quiet works-on-paper books would sit naturally there.",
+      "canonical_name": "tata bookshop/gallery",
+      "confidence": 66,
+      "source_count": 2,
+      "websites": [
+        "https://tata-books.com/"
+      ],
+      "article_references": [
+        "https://www.tokyoartbeat.com/venues/-/4E17543D"
+      ],
+      "status": "needs_review",
+      "show_on_website": true
+    },
+    {
+      "career_category": "zines",
+      "opportunity_type": "independent_books_zines",
+      "display_name": "loneliness books",
+      "neighborhood": "Nakano",
+      "tier": 2,
+      "why_it_matters": "Independent book/zine signal near Nakano. Possible secondary local target after Tacoche.",
+      "first_action": "Verify whether it is active and whether it has a physical sales route.",
+      "canonical_name": "loneliness books",
+      "confidence": 61,
+      "source_count": 2,
+      "websites": [
+        "https://www.instagram.com/lonelinessbooks/"
+      ],
+      "article_references": [],
+      "status": "needs_review",
+      "show_on_website": true
+    },
+    {
+      "career_category": "zines",
+      "opportunity_type": "photobook_store",
+      "display_name": "Book Obscura",
+      "neighborhood": "Kichijoji",
+      "tier": 2,
+      "why_it_matters": "Photobook specialist. Useful benchmark if her work moves toward photobook/artist-book sequencing.",
+      "first_action": "Use as reference and possible later target, not first placement.",
+      "canonical_name": "Book Obscura",
+      "confidence": 58,
+      "source_count": 1,
+      "websites": [
+        "https://bookobscura.com/"
+      ],
+      "article_references": [],
+      "status": "needs_review",
+      "show_on_website": true
+    },
+    {
+      "career_category": "zines",
+      "opportunity_type": "independent_bookstore",
+      "display_name": "日記屋 月日",
+      "neighborhood": "Shimokitazawa",
+      "tier": 2,
+      "why_it_matters": "Independent bookstore with quiet writing/book culture. Potential fit for intimate printed work.",
+      "first_action": "Research whether visual zines are appropriate or whether it is more text-focused.",
+      "canonical_name": "日記屋 月日",
+      "confidence": 58,
+      "source_count": 1,
+      "websites": [
+        "https://tsukihi.stores.jp/"
+      ],
+      "article_references": [],
+      "status": "needs_review",
+      "show_on_website": true
+    },
+    {
+      "career_category": "zines",
+      "opportunity_type": "independent_bookstore",
+      "display_name": "Books Ruhe",
+      "neighborhood": "Kichijoji",
+      "tier": 3,
+      "why_it_matters": "Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.",
+      "first_action": "Research stock and whether zines/artist books are represented.",
+      "canonical_name": "Books Ruhe",
+      "confidence": 58,
+      "source_count": 1,
+      "websites": [
+        "https://www.books-ruhe.co.jp/"
+      ],
+      "article_references": [],
+      "status": "needs_review",
+      "show_on_website": true
+    }
+  ],
+  "steps": [
+    "Select one coherent body of work.",
+    "Create two small zines: one image-led, one quieter narrative/atmosphere sequence.",
+    "Print 20 copies of each.",
+    "Visit or contact the five Phase 1 targets.",
+    "Track whether each accepts consignment, direct purchase, event participation, or no submissions.",
+    "Use any placement as proof-of-activity for fairs, publishers, and galleries."
+  ],
+  "tracking_fields": [
+    "target",
+    "contacted",
+    "visited",
+    "accepts_consignment",
+    "copies_placed",
+    "copies_sold",
+    "follow_up_date",
+    "notes"
+  ]
+}
