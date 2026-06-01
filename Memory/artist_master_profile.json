@@ -58,6 +58,7 @@
     ],
     "pace": "slow and deliberate",
     "scale": "intimate — small to medium works",
+    "medium": "watercolor (primary), occasional ink",
     "best_formats": [
       "gallery group exhibitions with atmospheric or quiet-life themes",
       "solo exhibitions in intimate Tokyo venues",
@@ -66,7 +67,8 @@
       "residency programs (international, prestigious)",
       "small press and independent publishing",
       "open calls — watercolor or works on paper",
-      "bookshop gallery exhibitions in Tokyo"
+      "bookshop gallery exhibitions in Tokyo",
+      "zine fairs and art book fairs"
     ],
     "bad_fit_contexts": [
       "photography-dominated calls",
@@ -150,11 +152,6 @@
     "attentive",
     "quietly melancholic",
     "warm but never saccharine",
-    "quiet",
-    "observational",
-    "melancholic but restrained",
-    "daily-life oriented",
-    "memory-driven",
     "precise emotional observation"
   ],
   "core_themes": [
@@ -168,17 +165,6 @@
     "cross-cultural seeing",
     "watercolor transparency",
     "slow observation",
-    "quiet photography",
-    "daily life",
-    "urban vernacular",
-    "neighborhood documentary",
-    "human trace",
-    "lived-in architecture",
-    "photobook sequence",
-    "artist book",
-    "small press",
-    "independent publishing",
-    "slow documentary",
     "watercolor",
     "domestic interior",
     "stillness",
@@ -194,24 +180,79 @@
     "solo exhibition in intimate Tokyo venue",
     "art book and zine publication",
     "international residency (prestigious)",
-    "open call — watercolor / works on paper",
+    "open call — watercolor or works on paper",
     "bookshop gallery exhibition",
     "artist-run space exhibition",
-    "small press / independent publishing",
-    "photobook",
-    "artist book",
-    "zine",
-    "small press publication",
-    "independent bookstore display",
-    "quiet photography platform",
-    "artist-run publication ecosystem",
-    "small group exhibition with strong thematic fit",
-    "gallery group exhibitions with atmospheric or quiet-life themes",
-    "solo exhibitions in intimate Tokyo venues",
-    "artist-run space exhibitions",
-    "residency programs (international, prestigious)",
     "small press and independent publishing",
-    "open calls — watercolor or works on paper",
-    "bookshop gallery exhibitions in Tokyo"
-  ]
+    "zine fair (exhibiting)",
+    "café print consignment"
+  ],
+  "career_strategy": {
+    "framework_version": 1,
+    "current_phase": "Tier 1-2",
+    "phase_note": "Age 26, planning a deep-work year around 30. The next 4 years are for accumulation: exhibition history, publishing relationships, peer network, body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now and pursued later.",
+    "scoring_instruction": "Weight Tier 1-2 opportunities higher for immediate recommendations. Tier 3 is neutral. Tier 4 entries must route to stretch_targets and never appear in Immediate Best Moves — they are future goals, not current actions.",
+    "tiers": {
+      "tier_1": {
+        "label": "Ambient Visibility",
+        "description": "Low-barrier, low-pressure presence-building. Work enters circulation without requiring the artist to pitch or perform. Builds name recognition passively over time.",
+        "examples": [
+          "zine shop consignment (Tacoche, Dig A Hole, etc.)",
+          "bookshop display and consignment (UTRECHT, Book and Sons, B&B, flotsam books)",
+          "café print sales and wall display",
+          "art book fairs and zine fairs (exhibiting, not just attending)",
+          "self-publishing and small press releases",
+          "online artist-book platforms"
+        ],
+        "immediate_score_weight": 1.4,
+        "bucket_routing": "immediate_best_moves or japan_book_ecosystem",
+        "is_current_phase": true
+      },
+      "tier_2": {
+        "label": "Networking",
+        "description": "Active community engagement. Building relationships with peer artists, gallery owners, publishers, and spaces that will matter in 3-5 years. Presence and visibility in the Tokyo art community.",
+        "examples": [
+          "group shows in artist-run spaces (3331, Design Festa Gallery, Gallery IYN)",
+          "open calls at accessible local galleries",
+          "community exhibitions and collaborative projects",
+          "artist talks, workshops, events",
+          "Tokyo watercolor and illustration community participation"
+        ],
+        "immediate_score_weight": 1.3,
+        "bucket_routing": "immediate_best_moves or relationship_builders",
+        "is_current_phase": true
+      },
+      "tier_3": {
+        "label": "Credibility",
+        "description": "Institutional legitimacy. Exhibition history that carries weight on a CV and in future applications to Tier 4 opportunities.",
+        "examples": [
+          "small institutional exhibitions (TOKAS, BankART1929, Youkobo Art Space)",
+          "café exhibitions with documentation or catalogue",
+          "regional gallery shows with curatorial framing",
+          "legitimate juried open calls (Jinny Street Gallery, Belladonna Art, Shoto Museum)",
+          "Japan Watercolor Society annual exhibition"
+        ],
+        "immediate_score_weight": 1.0,
+        "bucket_routing": "publication_targets or research_needed",
+        "is_current_phase": false
+      },
+      "tier_4": {
+        "label": "Prestige Targets",
+        "description": "High-difficulty, high-reward opportunities. Not for immediate pursuit — for the deep-work year at 30 and beyond. Track now so the application is informed when the time comes.",
+        "examples": [
+          "Royal Watercolour Society Open Exhibition (UK)",
+          "American Watercolor Society Annual International Exhibition (USA)",
+          "Cité Internationale des Arts Residency (Paris)",
+          "Asian Cultural Council Fellowship",
+          "Printed Matter Art Book Fairs (NYC/LA)",
+          "Offprint (Paris/London)",
+          "Center for Book Arts (NYC)",
+          "Significant international galleries and institutions"
+        ],
+        "immediate_score_weight": 0.6,
+        "bucket_routing": "always stretch_targets — never immediate_best_moves",
+        "is_current_phase": false
+      }
+    }
+  }
 }
