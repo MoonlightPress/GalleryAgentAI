@@ -458,6 +458,49 @@
     ]
   },
   {
+    "title": "RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus",
+    "organization": "CuratorSpace",
+    "category": "residency",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: residency, artist-run",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: residency, artist-run"
+    ],
+    "fit_keyword_hits": [
+      "residency",
+      "artist-run"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "strong: residency",
+      "weak: artist",
+      "score too low: 1"
+    ]
+  },
+  {
     "title": "Art Events and Exhibitions｜Tokyo Art Beat",
     "organization": "Tokyo Art Beat",
     "category": "gallery_event",
@@ -781,7 +824,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: printed matter, zine",
+      "strong: zine, printed matter",
       "score too low: 2"
     ]
   },
@@ -822,7 +865,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: printed matter, zine",
+      "strong: zine, printed matter",
       "score too low: 2"
     ]
   },
@@ -864,7 +907,7 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "strong: printed matter",
-      "weak: exhibition, photography, gallery",
+      "weak: photography, exhibition, gallery",
       "score too low: 3"
     ]
   },
@@ -3469,7 +3512,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call, call for",
+      "strong: call for, open call",
       "weak: exhibition, gallery",
       "score too low: 4"
     ]

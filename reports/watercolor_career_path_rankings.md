@@ -24,40 +24,40 @@ This ranks opportunities by practical career path instead of one universal score
 - **ArtConnect Open Calls** — path score 13.0; signals: works on paper, drawing, watercolor, open call, paper. Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
 - **CuratorSpace** — path score 13.0; signals: works on paper, drawing, watercolor, open call, paper. Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
 - **Society of Women Artists** — path score 13.0; signals: works on paper, drawing, watercolor, open exhibition, paper. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
-- **Mall Galleries Open Exhibitions** — path score 12.97; signals: works on paper, drawing, watercolor, open exhibition, paper. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
-- **Pastel Society Open Exhibition** — path score 12.97; signals: works on paper, drawing, watercolor, open exhibition, paper. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
 - **Royal Watercolour Society Open Exhibition** — path score 12.4; signals: works on paper, watercolor, open exhibition, paper. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
+- **Gallery IYN** — path score 12.4; signals: works on paper, watercolor, open call, paper. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **グループ展参加アーティスト募集中 - Gallery and Links81** — path score 12.4; signals: works on paper, drawing, watercolor, paper. グループ展参加アーティスト募集中 - Gallery and Links81 may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
 
 ## Bookstore / Artist Book Translation
 
-- **Home - Printed Matter** — path score 12.4; signals: artist book, zine, printed matter, book fair. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
 - **UTRECHT** — path score 12.4; signals: bookstore, artist book, zine, printed matter. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
+- **Home - Printed Matter** — path score 12.4; signals: artist book, zine, printed matter, book fair. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
 - **Printed Matter Art Book Fairs** — path score 12.4; signals: artist book, zine, printed matter, book fair. Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
 - **Tokyo Art Book Fair** — path score 11.8; signals: artist book, zine, book fair. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **Fukuoka Art Book Fair** — path score 11.8; signals: artist book, zine, book fair. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
-- **本店・本屋の実験室** — path score 11.8; signals: bookstore, artist book, zine. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
-- **そぞろ書房** — path score 11.8; signals: bookstore, artist book, zine. Small local bookstore target. Useful for building a compact Koenji route.
 - **Art Book Fairs** — path score 11.8; signals: artist book, zine, book fair. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- **Books Ruhe** — path score 11.5; signals: bookstore, artist book, zine. Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.
+- **Books Ruhe** — path score 11.8; signals: bookstore, artist book, zine. Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.
+- **本店・本屋の実験室** — path score 11.8; signals: bookstore, artist book, zine. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
+- **そぞろ書房** — path score 11.48; signals: bookstore, artist book, zine. Small local bookstore target. Useful for building a compact Koenji route.
 - **Browse opportunities | CuratorSpace** — path score 11.2; signals: artist book, zine. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 
 ## Low-Pressure Local Visibility
 
 - **UTRECHT** — path score 11.2; signals: bookstore, gallery. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **Book and Sons** — path score 11.2; signals: bookstore, gallery. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
-- **POST** — path score 11.2; signals: bookstore, gallery. Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.
 - **LOCAL Gallery・Books** — path score 11.2; signals: local, gallery. Local Koenji book/gallery target; useful for a quiet works-on-paper artist and local relationship building.
+- **Books Ruhe** — path score 11.2; signals: bookstore, local. Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.
 - **本店・本屋の実験室** — path score 11.2; signals: bookstore, local. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
-- **そぞろ書房** — path score 11.2; signals: bookstore, local. Small local bookstore target. Useful for building a compact Koenji route.
+- **POST** — path score 11.2; signals: bookstore, gallery. Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.
 - **Gallery IRO** — path score 11.2; signals: local, gallery. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- **Books Ruhe** — path score 10.9; signals: bookstore, local. Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.
+- **そぞろ書房** — path score 10.88; signals: bookstore, local. Small local bookstore target. Useful for building a compact Koenji route.
 - **HB Gallery** — path score 10.6; signals: gallery. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **OPA Gallery** — path score 10.6; signals: gallery. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 
 ## Stretch / Benchmark
 
-- **Asian Cultural Council Fellowship** — path score 11.18; signals: residency, grant. Directly designed for artists from Asia building international careers — a fellowship would fund research travel, residency, and international network-building at exactly the right career stage.
-- **AIR 3331** — path score 11.18; signals: residency, contemporary art, institution. Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type
+- **AIR 3331** — path score 11.8; signals: residency, contemporary art, institution. Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type
+- **Tokyo Wonder Site / TOKAS Residency** — path score 11.1; signals: residency, institution. TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.
 - **Browse opportunities | CuratorSpace** — path score 10.6; signals: open exhibition. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Royal Watercolour Society Open Exhibition** — path score 10.6; signals: open exhibition. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 - **Top Artist Opportunities for 2026 | ArtConnect** — path score 10.6; signals: residency. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition

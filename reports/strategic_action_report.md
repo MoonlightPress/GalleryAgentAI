@@ -45,14 +45,14 @@ Prestige or difficult targets. Useful as benchmarks even if not immediate.
 
 Lower-pressure spaces useful for familiarity, soft outreach, or small first steps.
 
-1. **BONUS TRACK** — score 7.6, visual 0.0, verification . Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit
-2. **Koganecho Area Management Center** — score 7.6, visual 0.0, verification . Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
-3. **3331 Arts Chiyoda** — score 7.6, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach
-4. **Cafe Cross Point** — score 7.6, visual 0.0, verification . Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.
-5. **Gallery HANA Shimokitazawa** — score 7.6, visual 0.0, verification . Tokyo location appeals, but lack of verifiable program information creates backward investment—you'd spend energy investigating whether it's worth investigating. Not strategic.
-6. **reload Shimokitazawa** — score 7.6, visual 0.45, verification . Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.
-7. **日記屋 月日** — score 6.5, visual 1.3, verification . Independent bookstore with quiet writing/book culture. Potential fit for intimate printed work.
-8. **Cafe Mame-Hico** — score 7.6, visual 0.0, verification . Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.
+1. **reload Shimokitazawa** — score 7.6, visual 0.45, verification . Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.
+2. **3331 Arts Chiyoda** — score 7.6, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach
+3. **BONUS TRACK** — score 7.6, visual 0.0, verification . Shimokitazawa's alternative cultural energy could align with your work, but this needs investigation before determining actual fit
+4. **Koganecho Area Management Center** — score 7.6, visual 0.0, verification . Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
+5. **Cafe Cross Point** — score 7.6, visual 0.0, verification . Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.
+6. **Cafe Mame-Hico** — score 7.6, visual 0.0, verification . Tokyo location and potential low-pressure environment match preferences, but lack of information makes assessment impossible.
+7. **Yonchome Cafe** — score 7.6, visual 0.0, verification . Japan location only - no other alignment with practice goals or preferred opportunity structure
+8. **Cafe Gallery HATTIFNATT** — score 7.6, visual 0.0, verification . Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.
 
 ## Needs Research
 
@@ -71,5 +71,5 @@ Do not recommend yet. These need submission/contact/deadline verification.
 
 Keep out of the main UI unless specifically requested.
 
-1. **Picaresque Gallery** — score 3.7, visual 0.45, verification . Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
-2. **Spiral** — score 3.2, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
+1. **Picaresque Gallery** — score 3.3, visual 0.45, verification . Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
+2. **Spiral** — score 2.8, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.

@@ -10,116 +10,6 @@
     "source": "https://tokyoartbookfair.com/"
   },
   {
-    "venue_name": "MOUNT ZINE",
-    "venue_slug": "mount_zine",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://zine.mount.co.jp/"
-  },
-  {
-    "venue_name": "Bookstore B&B",
-    "venue_slug": "bookstore_b_b",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://bookandbeer.com/"
-  },
-  {
-    "venue_name": "UTRECHT",
-    "venue_slug": "utrecht",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://utrecht.jp/"
-  },
-  {
-    "venue_name": "Book and Sons",
-    "venue_slug": "book_and_sons",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://bookandsons.com/"
-  },
-  {
-    "venue_name": "BankART1929",
-    "venue_slug": "bankart1929",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://bankart1929.com/"
-  },
-  {
-    "venue_name": "3331 Arts Chiyoda",
-    "venue_slug": "3331_arts_chiyoda",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://residence.3331.jp/"
-  },
-  {
-    "venue_name": "BONUS TRACK",
-    "venue_slug": "bonus_track",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://bonus-track.net/"
-  },
-  {
-    "venue_name": "Koganecho",
-    "venue_slug": "koganecho",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://koganecho.net/"
-  },
-  {
-    "venue_name": "flotsam books",
-    "venue_slug": "flotsam_books",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.flotsambooks.com/"
-  },
-  {
-    "venue_name": "Youkobo Art Space",
-    "venue_slug": "youkobo_art_space",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.youkobo.co.jp/en/"
-  },
-  {
-    "venue_name": "Tokyo Arts and Space",
-    "venue_slug": "tokyo_arts_and_space",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.tokyoartsandspace.jp/en/"
-  },
-  {
     "venue_name": "Fukuoka Art Book Fair",
     "venue_slug": "fukuoka_art_book_fair",
     "priority": "medium",
@@ -131,16 +21,6 @@
     "source": "https://fukuokaartbookfair.com/application/"
   },
   {
-    "venue_name": "POST",
-    "venue_slug": "post",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://post-books.info/"
-  },
-  {
     "venue_name": "Applications — Little Tokyo Zine Fest",
     "venue_slug": "applications_little_tokyo_zine_fest",
     "priority": "medium",
@@ -150,28 +30,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.ltzinefest.org/applications"
-  },
-  {
-    "venue_name": "PDF International Creator Residency Program 2026 Application Outline",
-    "venue_slug": "pdf_international_creator_residency_program_2026_application_outline",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf"
-  },
-  {
-    "venue_name": "2026年度 リサーチ・レジデンス・プログラム",
-    "venue_slug": "2026",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.tokyoartsandspace.jp/archive/application/2025/20250513-295.html"
   },
   {
     "venue_name": "Open Call for the International Creator Residency Program 2026",
@@ -218,17 +76,6 @@
     "source": "https://www.art-belladonna.jp/youkou"
   },
   {
-    "venue_name": "Open Call Guest Artist",
-    "venue_slug": "open_call_guest_artist",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.sccp.jp/air-en/application/guest-artist/"
-  },
-  {
     "venue_name": "SCCP Guest Artist",
     "venue_slug": "sccp_guest_artist",
     "priority": "medium",
@@ -238,143 +85,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.sccp.jp/air-en/application/guest-artist/"
-  },
-  {
-    "venue_name": "Open Call",
-    "venue_slug": "open_call",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.jinnystreetgallery.com/open-call"
-  },
-  {
-    "venue_name": "Open Call - Tokyo Arts and Space",
-    "venue_slug": "open_call_tokyo_arts_and_space",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.tokyoartsandspace.jp/en/application/index.html"
-  },
-  {
-    "venue_name": "公募",
-    "venue_slug": "unknown",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.tokyoartsandspace.jp/application/index.html"
-  },
-  {
-    "venue_name": "全国美術公募団体 ベラドンナ・アート｜応募要項",
-    "venue_slug": "unknown",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.art-belladonna.jp/youkou"
-  },
-  {
-    "venue_name": "About Open Call Programs - Tokyo Arts and Space",
-    "venue_slug": "about_open_call_programs_tokyo_arts_and_space",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.tokyoartsandspace.jp/en/application/about_opencall.html"
-  },
-  {
-    "venue_name": "TOKAS Residency",
-    "venue_slug": "tokas_residency",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf"
-  },
-  {
-    "venue_name": "Submissions — Clavis Publishing",
-    "venue_slug": "submissions_clavis_publishing",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.clavis-publishing.com/submit"
-  },
-  {
-    "venue_name": "CuratorSpace",
-    "venue_slug": "curatorspace",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198"
-  },
-  {
-    "venue_name": "Hayama Artist Residency Submission Manager - Submittable",
-    "venue_slug": "hayama_artist_residency_submission_manager_submittable",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://hayamaartistresidency.submittable.com/submit"
-  },
-  {
-    "venue_name": "Hayama Artist Residency",
-    "venue_slug": "hayama_artist_residency",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://hayamaartistresidency.submittable.com/submit"
-  },
-  {
-    "venue_name": "Clavis Publishing Submissions",
-    "venue_slug": "clavis_publishing_submissions",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.clavis-publishing.com/submit"
-  },
-  {
-    "venue_name": "Design Festa",
-    "venue_slug": "design_festa",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://designfesta.com/"
   },
   {
     "venue_name": "Open Calls for Artists",
@@ -399,18 +109,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://opencallforartists.com/listing/784"
-  },
-  {
-    "venue_name": "The Holy Art Gallery - Tokyo Open Call for Artist",
-    "venue_slug": "the_holy_art_gallery_tokyo_open_call_for_artist",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.forphotographersonly.com/event-details/the-holy-art-gallery-tokyo-open-call-for-artist"
   },
   {
     "venue_name": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
@@ -653,8 +351,48 @@
     "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
   },
   {
-    "venue_name": "グループ展参加アーティスト募集中 - Gallery and Links81",
-    "venue_slug": "gallery_and_links81",
+    "venue_name": "UTRECHT",
+    "venue_slug": "utrecht",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://utrecht.jp/"
+  },
+  {
+    "venue_name": "Bookstore B&B",
+    "venue_slug": "bookstore_b_b",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://bookandbeer.com/"
+  },
+  {
+    "venue_name": "flotsam books",
+    "venue_slug": "flotsam_books",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.flotsambooks.com/"
+  },
+  {
+    "venue_name": "MOUNT ZINE",
+    "venue_slug": "mount_zine",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://zine.mount.co.jp/"
+  },
+  {
+    "venue_name": "Submissions — Clavis Publishing",
+    "venue_slug": "submissions_clavis_publishing",
     "priority": "high",
     "missing": [
       "contact",
@@ -662,11 +400,177 @@
       "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a"
+    "source": "https://www.clavis-publishing.com/submit"
   },
   {
-    "venue_name": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
-    "venue_slug": "biscuit_gallery_grid_next_emerging",
+    "venue_name": "CuratorSpace",
+    "venue_slug": "curatorspace",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198"
+  },
+  {
+    "venue_name": "Book and Sons",
+    "venue_slug": "book_and_sons",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://bookandsons.com/"
+  },
+  {
+    "venue_name": "Youkobo Art Space",
+    "venue_slug": "youkobo_art_space",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.youkobo.co.jp/en/"
+  },
+  {
+    "venue_name": "Tokyo Arts and Space",
+    "venue_slug": "tokyo_arts_and_space",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
+  },
+  {
+    "venue_name": "COMITIA",
+    "venue_slug": "comitia",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.comitia.co.jp/"
+  },
+  {
+    "venue_name": "BankART1929",
+    "venue_slug": "bankart1929",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://bankart1929.com/"
+  },
+  {
+    "venue_name": "3331 Arts Chiyoda",
+    "venue_slug": "3331_arts_chiyoda",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://residence.3331.jp/"
+  },
+  {
+    "venue_name": "Arts Initiative Tokyo",
+    "venue_slug": "arts_initiative_tokyo",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.a-i-t.net/en/"
+  },
+  {
+    "venue_name": "BONUS TRACK",
+    "venue_slug": "bonus_track",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://bonus-track.net/"
+  },
+  {
+    "venue_name": "Koganecho",
+    "venue_slug": "koganecho",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://koganecho.net/"
+  },
+  {
+    "venue_name": "Design Festa",
+    "venue_slug": "design_festa",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://designfesta.com/"
+  },
+  {
+    "venue_name": "Farmer's Market @ UNU",
+    "venue_slug": "farmer_s_market_unu",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://farmersmarkets.jp/"
+  },
+  {
+    "venue_name": "Cafe Cross Point",
+    "venue_slug": "cafe_cross_point",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://cafecrosspoint.jp/"
+  },
+  {
+    "venue_name": "TAV Gallery",
+    "venue_slug": "tav_gallery",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://tavgallery.com/"
+  },
+  {
+    "venue_name": "Gallery IRO",
+    "venue_slug": "gallery_iro",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://1-6.jp/iro/"
+  },
+  {
+    "venue_name": "Gallery HANA Shimokitazawa",
+    "venue_slug": "gallery_hana_shimokitazawa",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.g-hana.jp/"
+  },
+  {
+    "venue_name": "Hayama Artist Residency Submission Manager - Submittable",
+    "venue_slug": "hayama_artist_residency_submission_manager_submittable",
     "priority": "high",
     "missing": [
       "contact",
@@ -674,11 +578,11 @@
       "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f"
+    "source": "https://hayamaartistresidency.submittable.com/submit"
   },
   {
-    "venue_name": "219公募展6募集 >> Gallery219 ギャラリーニイク",
-    "venue_slug": "219_6_gallery219",
+    "venue_name": "Hayama Artist Residency",
+    "venue_slug": "hayama_artist_residency",
     "priority": "high",
     "missing": [
       "contact",
@@ -686,11 +590,11 @@
       "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7"
+    "source": "https://hayamaartistresidency.submittable.com/submit"
   },
   {
-    "venue_name": "公募プログラム - トーキョーアーツアンドスペース",
-    "venue_slug": "unknown",
+    "venue_name": "Clavis Publishing Submissions",
+    "venue_slug": "clavis_publishing_submissions",
     "priority": "high",
     "missing": [
       "contact",
@@ -698,125 +602,111 @@
       "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tokyoartsandspace.jp%2Fapplication%2Fabout_opencall.html&rut=dfbe1d186f3c4ab32c7fd12bde11eb0833c5498641b3ce3c152d0ec43918c688"
+    "source": "https://www.clavis-publishing.com/submit"
   },
   {
-    "venue_name": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
-    "venue_slug": "grid_next_2025_emerging_artists_showcase",
-    "priority": "high",
+    "venue_name": "reload",
+    "venue_slug": "reload",
+    "priority": "medium",
     "missing": [
-      "contact",
-      "deadline",
-      "fees"
+      "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672"
+    "source": "https://reload-shimokita.com/"
   },
   {
-    "venue_name": "Open Calls for Artists | Exhibit Worldwide",
-    "venue_slug": "open_calls_for_artists_exhibit_worldwide",
-    "priority": "high",
+    "venue_name": "Creema",
+    "venue_slug": "creema",
+    "priority": "medium",
     "missing": [
-      "contact",
-      "deadline",
-      "fees"
+      "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537"
+    "source": "https://hmj-fes.jp/"
   },
   {
-    "venue_name": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
-    "venue_slug": "open_call_submit_your_work_explore_art_in_the_streets_of_tokyo_at",
-    "priority": "high",
+    "venue_name": "Cafe Mame-Hico",
+    "venue_slug": "cafe_mame_hico",
+    "priority": "medium",
     "missing": [
-      "contact",
-      "deadline",
-      "fees"
+      "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013"
+    "source": "https://www.mamehico.com/"
   },
   {
-    "venue_name": "Offprint",
-    "venue_slug": "offprint",
-    "priority": "high",
+    "venue_name": "Yonchome Cafe",
+    "venue_slug": "yonchome_cafe",
+    "priority": "medium",
     "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
+      "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://offprint.org/"
+    "source": "https://www.yonchome.com/"
   },
   {
-    "venue_name": "Royal Watercolour Society",
-    "venue_slug": "royal_watercolour_society",
-    "priority": "high",
+    "venue_name": "HATTIFNATT",
+    "venue_slug": "hattifnatt",
+    "priority": "medium",
     "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
+      "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://royalwatercoloursociety.co.uk/"
+    "source": "https://www.hattifnatt.jp/"
   },
   {
-    "venue_name": "LOCAL Gallery・Books",
-    "venue_slug": "local_gallery_books",
-    "priority": "high",
+    "venue_name": "Design Festa Gallery",
+    "venue_slug": "design_festa_gallery",
+    "priority": "medium",
     "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
+      "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.localgallerybooks.com/about"
+    "source": "https://designfestagallery.com/"
   },
   {
-    "venue_name": "Art Book Fairs",
-    "venue_slug": "art_book_fairs",
-    "priority": "high",
+    "venue_name": "SCAI The Bathhouse",
+    "venue_slug": "scai_the_bathhouse",
+    "priority": "medium",
     "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
+      "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.artbookfairs.com/"
+    "source": "https://www.scaithebathhouse.com/"
   },
   {
-    "venue_name": "Jimbocho Zine Fair",
-    "venue_slug": "jimbocho_zine_fair",
-    "priority": "high",
+    "venue_name": "VACANT",
+    "venue_slug": "vacant",
+    "priority": "medium",
     "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
+      "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tcha.jp/post-3262/"
+    "source": "https://www.vacant.vc/"
   },
   {
-    "venue_name": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
-    "venue_slug": "tokyo_camera_style_cp_zine_fair_2026_yokohama_repainted_leica_m3",
-    "priority": "high",
+    "venue_name": "Zushi Art Gallery",
+    "venue_slug": "zushi_art_gallery",
+    "priority": "medium",
     "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
+      "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
+    "source": "https://zushi-art.com/"
   },
   {
-    "venue_name": "Tacoche",
-    "venue_slug": "tacoche",
+    "venue_name": "Gallery Conceal Shibuya",
+    "venue_slug": "gallery_conceal_shibuya",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://galleryconceal.wixsite.com/gconceal"
+  },
+  {
+    "venue_name": "Aperture",
+    "venue_slug": "aperture",
     "priority": "high",
     "missing": [
       "contact",
@@ -825,59 +715,7 @@
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "http://tacoche.com/"
-  },
-  {
-    "venue_name": "tata bookshop/gallery",
-    "venue_slug": "tata_bookshop_gallery",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tata-books.com/"
-  },
-  {
-    "venue_name": "本店・本屋の実験室",
-    "venue_slug": "unknown",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://honnonagaya-honten.com/"
-  },
-  {
-    "venue_name": "ArtConnect Open Calls",
-    "venue_slug": "artconnect_open_calls",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.artconnect.com/opportunities"
-  },
-  {
-    "venue_name": "Center for Book Arts",
-    "venue_slug": "center_for_book_arts",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://centerforbookarts.org/"
+    "source": "https://aperture.org/"
   },
   {
     "venue_name": "» 21 Terrific Small Presses Open to Direct Submissions",
@@ -1023,8 +861,8 @@
     "source": "http://www.artbox-int.co.jp/en/publish/index.html"
   },
   {
-    "venue_name": "Aesthetica Magazine",
-    "venue_slug": "aesthetica_magazine",
+    "venue_name": "Offprint",
+    "venue_slug": "offprint",
     "priority": "high",
     "missing": [
       "contact",
@@ -1033,7 +871,85 @@
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://aestheticamagazine.com/art-prize/"
+    "source": "https://offprint.org/"
+  },
+  {
+    "venue_name": "Royal Watercolour Society",
+    "venue_slug": "royal_watercolour_society",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://royalwatercoloursociety.co.uk/"
+  },
+  {
+    "venue_name": "LOCAL Gallery・Books",
+    "venue_slug": "local_gallery_books",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.localgallerybooks.com/about"
+  },
+  {
+    "venue_name": "Art Book Fairs",
+    "venue_slug": "art_book_fairs",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.artbookfairs.com/"
+  },
+  {
+    "venue_name": "Jimbocho Zine Fair",
+    "venue_slug": "jimbocho_zine_fair",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://tcha.jp/post-3262/"
+  },
+  {
+    "venue_name": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+    "venue_slug": "tokyo_camera_style_cp_zine_fair_2026_yokohama_repainted_leica_m3",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3"
+  },
+  {
+    "venue_name": "Tacoche",
+    "venue_slug": "tacoche",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "http://tacoche.com/"
   },
   {
     "venue_name": "Books Ruhe",
@@ -1049,8 +965,8 @@
     "source": "https://www.books-ruhe.co.jp/"
   },
   {
-    "venue_name": "Aperture",
-    "venue_slug": "aperture",
+    "venue_name": "tata bookshop/gallery",
+    "venue_slug": "tata_bookshop_gallery",
     "priority": "high",
     "missing": [
       "contact",
@@ -1059,7 +975,59 @@
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://aperture.org/"
+    "source": "https://tata-books.com/"
+  },
+  {
+    "venue_name": "本店・本屋の実験室",
+    "venue_slug": "unknown",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://honnonagaya-honten.com/"
+  },
+  {
+    "venue_name": "ArtConnect Open Calls",
+    "venue_slug": "artconnect_open_calls",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.artconnect.com/opportunities"
+  },
+  {
+    "venue_name": "Center for Book Arts",
+    "venue_slug": "center_for_book_arts",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://centerforbookarts.org/"
+  },
+  {
+    "venue_name": "Aesthetica Magazine",
+    "venue_slug": "aesthetica_magazine",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://aestheticamagazine.com/art-prize/"
   },
   {
     "venue_name": "American Watercolor Society",
@@ -1153,6 +1121,19 @@
     "source": "https://www.citedesartsparis.net/"
   },
   {
+    "venue_name": "Der Greif",
+    "venue_slug": "der_greif",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://dergreif.org/"
+  },
+  {
     "venue_name": "ARTE VENT Press",
     "venue_slug": "arte_vent_press",
     "priority": "high",
@@ -1164,6 +1145,19 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.arte-vent.com/"
+  },
+  {
+    "venue_name": "PhotoVogue",
+    "venue_slug": "photovogue",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.vogue.com/photovogue"
   },
   {
     "venue_name": "NADiff",
@@ -1186,90 +1180,14 @@
     "source": "https://www.the-container.com/"
   },
   {
-    "venue_name": "COMITIA",
-    "venue_slug": "comitia",
+    "venue_name": "POST",
+    "venue_slug": "post",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.comitia.co.jp/"
-  },
-  {
-    "venue_name": "Arts Initiative Tokyo",
-    "venue_slug": "arts_initiative_tokyo",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.a-i-t.net/en/"
-  },
-  {
-    "venue_name": "Farmer's Market @ UNU",
-    "venue_slug": "farmer_s_market_unu",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://farmersmarkets.jp/"
-  },
-  {
-    "venue_name": "Cafe Cross Point",
-    "venue_slug": "cafe_cross_point",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://cafecrosspoint.jp/"
-  },
-  {
-    "venue_name": "TAV Gallery",
-    "venue_slug": "tav_gallery",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tavgallery.com/"
-  },
-  {
-    "venue_name": "Gallery IRO",
-    "venue_slug": "gallery_iro",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://1-6.jp/iro/"
-  },
-  {
-    "venue_name": "Gallery HANA Shimokitazawa",
-    "venue_slug": "gallery_hana_shimokitazawa",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.g-hana.jp/"
-  },
-  {
-    "venue_name": "PhotoVogue",
-    "venue_slug": "photovogue",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.vogue.com/photovogue"
+    "source": "https://post-books.info/"
   },
   {
     "venue_name": "RAW TOKYO",
@@ -1290,6 +1208,90 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://csh.yokohama/"
+  },
+  {
+    "venue_name": "グループ展参加アーティスト募集中 - Gallery and Links81",
+    "venue_slug": "gallery_and_links81",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a"
+  },
+  {
+    "venue_name": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
+    "venue_slug": "biscuit_gallery_grid_next_emerging",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f"
+  },
+  {
+    "venue_name": "219公募展6募集 >> Gallery219 ギャラリーニイク",
+    "venue_slug": "219_6_gallery219",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7"
+  },
+  {
+    "venue_name": "公募プログラム - トーキョーアーツアンドスペース",
+    "venue_slug": "unknown",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tokyoartsandspace.jp%2Fapplication%2Fabout_opencall.html&rut=dfbe1d186f3c4ab32c7fd12bde11eb0833c5498641b3ce3c152d0ec43918c688"
+  },
+  {
+    "venue_name": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
+    "venue_slug": "grid_next_2025_emerging_artists_showcase",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672"
+  },
+  {
+    "venue_name": "Open Calls for Artists | Exhibit Worldwide",
+    "venue_slug": "open_calls_for_artists_exhibit_worldwide",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537"
+  },
+  {
+    "venue_name": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
+    "venue_slug": "open_call_submit_your_work_explore_art_in_the_streets_of_tokyo_at",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013"
   },
   {
     "venue_name": "Bologna Children's Book Fair Illustrators Exhibition",
@@ -1344,32 +1346,6 @@
     "source": "https://pinpointgallery.com/"
   },
   {
-    "venue_name": "Jackson's Art Prize",
-    "venue_slug": "jackson_s_art_prize",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.jacksonsart.com/paintingprize/"
-  },
-  {
-    "venue_name": "Society of Women Artists",
-    "venue_slug": "society_of_women_artists",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.society-women-artists.org.uk/"
-  },
-  {
     "venue_name": "Gallery IYN",
     "venue_slug": "gallery_iyn",
     "priority": "high",
@@ -1407,6 +1383,19 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://artaraqasia.com/"
+  },
+  {
+    "venue_name": "Jackson's Art Prize",
+    "venue_slug": "jackson_s_art_prize",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.jacksonsart.com/paintingprize/"
   },
   {
     "venue_name": "Tokyo Illustrators Society",
@@ -1461,6 +1450,19 @@
     "source": "https://www.ai-ap.com/"
   },
   {
+    "venue_name": "Society of Women Artists",
+    "venue_slug": "society_of_women_artists",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.society-women-artists.org.uk/"
+  },
+  {
     "venue_name": "Asian Cultural Council",
     "venue_slug": "asian_cultural_council",
     "priority": "high",
@@ -1472,119 +1474,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.asianculturalcouncil.org/"
-  },
-  {
-    "venue_name": "Der Greif",
-    "venue_slug": "der_greif",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://dergreif.org/"
-  },
-  {
-    "venue_name": "reload",
-    "venue_slug": "reload",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://reload-shimokita.com/"
-  },
-  {
-    "venue_name": "Creema",
-    "venue_slug": "creema",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://hmj-fes.jp/"
-  },
-  {
-    "venue_name": "Cafe Mame-Hico",
-    "venue_slug": "cafe_mame_hico",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.mamehico.com/"
-  },
-  {
-    "venue_name": "Yonchome Cafe",
-    "venue_slug": "yonchome_cafe",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.yonchome.com/"
-  },
-  {
-    "venue_name": "HATTIFNATT",
-    "venue_slug": "hattifnatt",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.hattifnatt.jp/"
-  },
-  {
-    "venue_name": "Design Festa Gallery",
-    "venue_slug": "design_festa_gallery",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://designfestagallery.com/"
-  },
-  {
-    "venue_name": "SCAI The Bathhouse",
-    "venue_slug": "scai_the_bathhouse",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.scaithebathhouse.com/"
-  },
-  {
-    "venue_name": "VACANT",
-    "venue_slug": "vacant",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.vacant.vc/"
-  },
-  {
-    "venue_name": "Zushi Art Gallery",
-    "venue_slug": "zushi_art_gallery",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://zushi-art.com/"
-  },
-  {
-    "venue_name": "Gallery Conceal Shibuya",
-    "venue_slug": "gallery_conceal_shibuya",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://galleryconceal.wixsite.com/gconceal"
   },
   {
     "venue_name": "Self Publish, Be Happy",
@@ -1837,6 +1726,19 @@
     "source": ""
   },
   {
+    "venue_name": "Communication Arts Illustration Competition",
+    "venue_slug": "communication_arts_illustration_competition",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.commarts.com/competitions/illustration"
+  },
+  {
     "venue_name": "Mall Galleries Open Exhibitions",
     "venue_slug": "mall_galleries_open_exhibitions",
     "priority": "high",
@@ -1861,19 +1763,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.mallgalleries.org.uk/open-exhibitions"
-  },
-  {
-    "venue_name": "Communication Arts Illustration Competition",
-    "venue_slug": "communication_arts_illustration_competition",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.commarts.com/competitions/illustration"
   },
   {
     "venue_name": "Royal Institute of Painters in Water Colours",

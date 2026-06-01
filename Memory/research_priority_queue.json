@@ -132,7 +132,7 @@
       "contact_email",
       "official_website"
     ],
-    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
+    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
   },
   {
     "title": "Japan Watercolor Society Annual Exhibition",
@@ -192,9 +192,23 @@
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
+    "title": "DER GREIF",
+    "score": 8.6,
+    "research_priority_score": 11.7,
+    "country": "Global",
+    "category": "photo_open_call",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
+  },
+  {
     "title": "PhotoVogue",
-    "score": 8.3,
-    "research_priority_score": 11.4,
+    "score": 8.6,
+    "research_priority_score": 11.7,
     "country": "Global",
     "category": "photo_open_call",
     "missing_fields": [
@@ -331,20 +345,6 @@
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
-    "title": "Jackson's Art Prize",
-    "score": 7.8,
-    "research_priority_score": 10.9,
-    "country": "Global",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
     "title": "World Illustration Awards",
     "score": 7.8,
     "research_priority_score": 10.9,
@@ -374,6 +374,20 @@
   },
   {
     "title": "American Illustration",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Global",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "Jackson's Art Prize",
     "score": 7.8,
     "research_priority_score": 10.9,
     "country": "Global",
@@ -441,20 +455,6 @@
       "contact_email"
     ],
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "DER GREIF",
-    "score": 7.8,
-    "research_priority_score": 10.9,
-    "country": "Global",
-    "category": "photo_open_call",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
     "title": "» 21 Terrific Small Presses Open to Direct Submissions",

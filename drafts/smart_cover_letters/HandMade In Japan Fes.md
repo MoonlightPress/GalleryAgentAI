@@ -7,7 +7,7 @@ Recommended Body of Work:
 Community / Local Visibility
 
 Core Fit:
-It doesn't. This is a craft fair that would undermine your positioning as a contemporary painter documenting disappearing spaces, despite your work having visual appeal.
+It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.
 
 Draft Structure:
 

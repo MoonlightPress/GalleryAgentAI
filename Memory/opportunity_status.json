@@ -2108,5 +2108,15 @@
     "follow_up_date": "",
     "notes": "",
     "last_updated": "2026-06-01"
+  },
+  "open call for artist residency we are seeking a multimedia artist to be a resident for at ::curatorspace": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-01"
   }
 }

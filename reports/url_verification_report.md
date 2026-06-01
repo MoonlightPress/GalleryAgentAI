@@ -1,10 +1,64 @@
 # URL Verification Report
 
+## Self Publish, Be Happy
+- URL: https://selfpublishbehappy.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='selfpublishbehappy.com', port=443): Read timed out. (read timeout=10)
+
+## NADiff a/p/a/r/t
+- URL: https://www.nadiff.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='www.nadiff.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl
+
+## Printed Matter Art Book Fairs
+- URL: https://www.printedmatter.org/
+- Status: bad
+- Code: 403
+- Detail: https://www.printedmatter.org/
+
+## Home - Printed Matter
+- URL: https://www.printedmatter.org/
+- Status: bad
+- Code: 403
+- Detail: https://www.printedmatter.org/
+
+## The Container
+- URL: https://www.the-container.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='the-container.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VER
+
+## Book Obscura
+- URL: https://bookobscura.com/
+- Status: bad
+- Code: 403
+- Detail: https://bookobscura.com/
+
 ## POST
 - URL: https://post-books.info/
 - Status: error
 - Code: 0
 - Detail: HTTPSConnectionPool(host='post-books.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIF
+
+## RAW TOKYO
+- URL: https://rawtokyo.jp/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='rawtokyo.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FA
+
+## Creative Space Hayashi
+- URL: https://csh.yokohama/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='csh.yokohama', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='csh.yokohama', port=4
+
+## そぞろ書房
+- URL: https://sozoroshobou.stores.jp/
+- Status: bad
+- Code: 403
+- Detail: https://sozoroshobou.stores.jp/
 
 ## グループ展参加アーティスト募集中 - Gallery and Links81
 - URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a
@@ -47,60 +101,6 @@
 - Status: error
 - Code: 0
 - Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da101
-
-## NADiff a/p/a/r/t
-- URL: https://www.nadiff.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='www.nadiff.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl
-
-## The Container
-- URL: https://www.the-container.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='the-container.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VER
-
-## RAW TOKYO
-- URL: https://rawtokyo.jp/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='rawtokyo.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FA
-
-## Creative Space Hayashi
-- URL: https://csh.yokohama/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='csh.yokohama', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='csh.yokohama', port=4
-
-## Self Publish, Be Happy
-- URL: https://selfpublishbehappy.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='selfpublishbehappy.com', port=443): Read timed out. (read timeout=10)
-
-## Printed Matter Art Book Fairs
-- URL: https://www.printedmatter.org/
-- Status: bad
-- Code: 403
-- Detail: https://www.printedmatter.org/
-
-## Home - Printed Matter
-- URL: https://www.printedmatter.org/
-- Status: bad
-- Code: 403
-- Detail: https://www.printedmatter.org/
-
-## Book Obscura
-- URL: https://bookobscura.com/
-- Status: bad
-- Code: 403
-- Detail: https://bookobscura.com/
-
-## そぞろ書房
-- URL: https://sozoroshobou.stores.jp/
-- Status: bad
-- Code: 403
-- Detail: https://sozoroshobou.stores.jp/
 
 ## 日記屋 月日
 - URL: https://tsukihi.stores.jp/
@@ -186,6 +186,12 @@
 - Code: 0
 - Detail: HTTPSConnectionPool(host='resartis.org', port=443): Max retries exceeded with url: /open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-
 
+## Communication Arts Illustration Competition
+- URL: https://www.commarts.com/competitions/illustration
+- Status: bad
+- Code: 404
+- Detail: https://www.commarts.com/competitions/illustration
+
 ## Mall Galleries Open Exhibitions
 - URL: https://www.mallgalleries.org.uk/open-exhibitions
 - Status: bad
@@ -197,12 +203,6 @@
 - Status: bad
 - Code: 404
 - Detail: https://www.mallgalleries.org.uk/open-exhibitions
-
-## Communication Arts Illustration Competition
-- URL: https://www.commarts.com/competitions/illustration
-- Status: bad
-- Code: 404
-- Detail: https://www.commarts.com/competitions/illustration
 
 ## Royal Institute of Painters in Water Colours
 - URL: https://www.mallgalleries.org.uk/open-exhibitions

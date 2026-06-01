@@ -65,25 +65,26 @@
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Jackson's Art Prize",
+        "title": "Gallery IYN",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "works on paper",
+          "gallery"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Tokyo Illustrators Society",
         "score": 10,
         "hits": [
           "watercolor",
           "works on paper"
         ],
-        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "Royal Watercolour Society",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "works on paper"
-        ],
-        "why": "Native watercolor context. Strong medium fit if requirements and dates are current."
-      },
-      {
-        "title": "Bologna Children's Book Fair Illustrators Exhibition",
+        "title": "World Illustration Awards",
         "score": 10,
         "hits": [
           "watercolor",
@@ -153,23 +154,23 @@
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Jackson's Art Prize",
+        "title": "Gallery IYN",
         "score": 10,
         "hits": [
           "works on paper"
         ],
-        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "Royal Watercolour Society",
+        "title": "Tokyo Illustrators Society",
         "score": 10,
         "hits": [
           "works on paper"
         ],
-        "why": "Native watercolor context. Strong medium fit if requirements and dates are current."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "Bologna Children's Book Fair Illustrators Exhibition",
+        "title": "World Illustration Awards",
         "score": 10,
         "hits": [
           "works on paper"
@@ -239,23 +240,24 @@
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Jackson's Art Prize",
+        "title": "Gallery IYN",
+        "score": 10,
+        "hits": [
+          "gallery",
+          "watercolor"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Tokyo Illustrators Society",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "Royal Watercolour Society",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Native watercolor context. Strong medium fit if requirements and dates are current."
-      },
-      {
-        "title": "Bologna Children's Book Fair Illustrators Exhibition",
+        "title": "World Illustration Awards",
         "score": 10,
         "hits": [
           "watercolor"
@@ -330,29 +332,29 @@
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Jackson's Art Prize",
+        "title": "Gallery IYN",
         "score": 10,
         "hits": [
           "artist book",
           "watercolor"
         ],
-        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "Royal Watercolour Society",
+        "title": "Tokyo Illustrators Society",
         "score": 10,
         "hits": [
           "artist book",
+          "illustration",
           "watercolor"
         ],
-        "why": "Native watercolor context. Strong medium fit if requirements and dates are current."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "Bologna Children's Book Fair Illustrators Exhibition",
+        "title": "World Illustration Awards",
         "score": 10,
         "hits": [
           "artist book",
-          "book fair",
           "illustration",
           "watercolor"
         ],

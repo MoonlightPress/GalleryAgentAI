@@ -168,9 +168,9 @@ A portfolio sequence centered on vernacular architecture, domestic structures, s
 - **Aperture | Photography** — 8.6 / 10.13. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - **Browse opportunities | CuratorSpace** — 8.6 / 10.13. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Top Artist Opportunities for 2026 | ArtConnect** — 8.6 / 9.98. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
+- **DER GREIF** — 8.6 / 9.68. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper, watercolor / works on paper
+- **reload Shimokitazawa** — 8.6 / 9.46. Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.
 - **BankART1929** — 8.6 / 9.46. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
-- **Home - Printed Matter** — 8.0 / 9.4. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
-- **Open Call for the International Creator Residency Program 2026** — 8.6 / 9.2. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.

@@ -16,9 +16,9 @@ A coherent series of small watercolors based on ordinary neighborhoods, plants, 
 - **HB Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **OPA Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Pinpoint Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-- **Jackson's Art Prize** — watercolor score 10. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
-- **Royal Watercolour Society** — watercolor score 10. Native watercolor context. Strong medium fit if requirements and dates are current.
-- **Bologna Children's Book Fair Illustrators Exhibition** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Gallery IYN** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Tokyo Illustrators Society** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **World Illustration Awards** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ### First Action
 Choose 12 finished or nearly finished watercolors. Group them by place, plant life, architecture, and human trace.
@@ -37,9 +37,9 @@ A tighter project about indirect human presence: domestic edges, plants, walls, 
 - **HB Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **OPA Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Pinpoint Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-- **Jackson's Art Prize** — watercolor score 10. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
-- **Royal Watercolour Society** — watercolor score 10. Native watercolor context. Strong medium fit if requirements and dates are current.
-- **Bologna Children's Book Fair Illustrators Exhibition** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Gallery IYN** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Tokyo Illustrators Society** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **World Illustration Awards** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ### First Action
 Write a 90-word statement and select 8–12 works that all show indirect human presence.
@@ -58,9 +58,9 @@ A soft, accessible series of small watercolor paintings about small local places
 - **HB Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **OPA Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Pinpoint Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-- **Jackson's Art Prize** — watercolor score 10. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
-- **Royal Watercolour Society** — watercolor score 10. Native watercolor context. Strong medium fit if requirements and dates are current.
-- **Bologna Children's Book Fair Illustrators Exhibition** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Gallery IYN** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Tokyo Illustrators Society** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **World Illustration Awards** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ### First Action
 Prepare a compact PDF: title, 10 images, dimensions, prices if available, and a 3-line artist note.
@@ -79,9 +79,9 @@ A printed sequence of watercolor works, using photobook logic but keeping painti
 - **HB Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **OPA Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Pinpoint Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-- **Jackson's Art Prize** — watercolor score 10. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
-- **Royal Watercolour Society** — watercolor score 10. Native watercolor context. Strong medium fit if requirements and dates are current.
-- **Bologna Children's Book Fair Illustrators Exhibition** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Gallery IYN** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Tokyo Illustrators Society** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **World Illustration Awards** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ### First Action
 Make a 16-page PDF mockup using existing watercolor images. Do not overexplain it.

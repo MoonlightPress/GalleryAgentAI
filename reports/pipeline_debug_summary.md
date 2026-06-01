@@ -1,11 +1,11 @@
 # Pipeline Debug Summary
 
-- opportunities: 175
-- candidates: 118
-- approved_candidates: 4
-- rejected_candidates: 114
+- opportunities: 166
+- candidates: 120
+- approved_candidates: 5
+- rejected_candidates: 115
 - strategy_feed: 7
-- fit_audit: 175
+- fit_audit: 166
 
 ## Top 15 Opportunities
 
@@ -27,10 +27,11 @@
 
 ## Approved Candidate Sample
 
-- Home - Printed Matter — 8.5 — approved — strong: photobook, book fair, printed matter, zine, weak: exhibition, book
-- Browse opportunities | CuratorSpace — 7.2 — approved — strong: submission, open call, weak: exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: submission, residency, zine, open call, weak: exhibition, artist
-- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — 4.7 — approved — strong: open call, call for, weak: artist, has submission link
+- Home - Printed Matter — 8.5 — approved — strong: zine, book fair, printed matter, photobook, weak: exhibition, book
+- Browse opportunities | CuratorSpace — 8.5 — approved — strong: residency, zine, submission, open call, weak: exhibition, artist
+- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: residency, zine, submission, open call, weak: exhibition, artist
+- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — 6.1 — approved — strong: residency, zine, call for, open call, weak: artist, has submission link
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 5.4 — approved — strong: zine, submit, call for, open call, weak: artist, has submission link
 
 ## Rejected Candidate Sample
 
@@ -45,6 +46,7 @@
 - Phoebe Barnicoat Snake Meet watercolour Unframed Artwork: 14.5 x 10.5cm — 5.4 — rejected — generic page without opportunity language
 - Anne Marlow A Safe Place watercolour & pastel Unframed Artwork: 23.5 x 24cm — 5.4 — rejected — generic page without opportunity language
 - exhibition open call: 2026–27 season — 5.4 — rejected — strong: open call, weak: exhibition, has submission link, score too low: 4
+- RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus — 5.4 — rejected — strong: residency, weak: artist, score too low: 1
 - Art Events and Exhibitions｜Tokyo Art Beat — 4.95 — rejected — generic page without opportunity language
 - TOKYO ART BOOK FAIR — 4.95 — rejected — strong: book fair, weak: book, score too low: 3
 - Jackson's Art Prize — 4.95 — rejected — generic page without opportunity language
@@ -52,5 +54,4 @@
 - DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — 4.95 — rejected — generic page without opportunity language
 - Exhibitions — 4.7 — rejected — junk title: exhibitions
 - Requests to List Exhibitions and Events — 4.7 — rejected — generic page without opportunity language
-- Printed Matter, Inc. — 4.7 — rejected — strong: printed matter, zine, score too low: 2
-- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — 4.7 — rejected — strong: printed matter, zine, score too low: 2
+- Printed Matter, Inc. — 4.7 — rejected — strong: zine, printed matter, score too low: 2

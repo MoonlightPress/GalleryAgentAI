@@ -7,7 +7,7 @@ Community / Local Visibility
 Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.
 
 ## Opportunity Fit
-It doesn't. This is a craft fair that would undermine your positioning as a contemporary painter documenting disappearing spaces, despite your work having visual appeal.
+It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.
 
 ## Match Signals
 market, popup

@@ -1,13 +1,13 @@
 # Smart Cover Letter — DER GREIF
 
 Tone:
-focused and editorial
+gentle and curious
 
 Recommended Body of Work:
-Architecture / Memory / Place
+Artist Book / Printed Matter
 
 Core Fit:
-Potential fit based on source context and keyword overlap: photobook, open call, portfolio review, photography, exhibition
+Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper, watercolor / works on paper
 
 Draft Structure:
 

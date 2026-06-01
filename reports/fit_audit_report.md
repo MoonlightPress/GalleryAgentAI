@@ -256,12 +256,13 @@ Risks:
 - many missing verification fields: submission, deadline, fees, contact
 - high score but still needs verification
 
-### Applications — Little Tokyo Zine Fest — 8.6/10 — needs review
+### DER GREIF — 8.6/10 — needs review
 Risks:
+- many missing verification fields: submission, deadline, fees, contact
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### NADiff a/p/a/r/t — 8.0/10 — needs review
+### Applications — Little Tokyo Zine Fest — 8.6/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification

@@ -9,7 +9,7 @@ This is not a generic top list. It asks where the next project could plausibly b
 - **Tokyo Art Book Fair** — 8.6 / 10.59. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **B&B Shimokitazawa** — 7.6 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 - **Self Publish, Be Happy** — 6.5 / 9.7. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
-- **NADiff a/p/a/r/t** — 6.5 / 9.62. Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all
+- **NADiff a/p/a/r/t** — 6.5 / 9.52. Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all
 - **Aperture | Photography** — 7.6 / 10.13. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - **LOCAL Gallery・Books** — 7.6 / 9.98. Local Koenji book/gallery target; useful for a quiet works-on-paper artist and local relationship building.
 - **Books Ruhe** — 7.6 / 9.98. Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.

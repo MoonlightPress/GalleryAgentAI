@@ -1,31 +1,32 @@
 # Painting Quality Gate Report
 
-Promoted: 56
+Promoted: 57
 Demoted: 5
 ## Changes
 
 - **Jinny Street Gallery Open Call** — 10.0 → 9.6 — promoted
-- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 10.0 → 9.6 — promoted
 - **Browse opportunities | CuratorSpace** — 10.0 → 9.6 — promoted
 - **Royal Watercolour Society Open Exhibition** — 10.0 → 9.6 — promoted
 - **American Watercolor Society Annual International Exhibition** — 10.0 → 9.6 — promoted
+- **Bologna Children's Book Fair Illustrators Exhibition** — 10.0 → 9.6 — promoted
 - **HB Gallery** — 10.0 → 9.6 — promoted
 - **OPA Gallery** — 10.0 → 9.6 — promoted
 - **Pinpoint Gallery** — 10.0 → 9.6 — promoted
+- **Gallery IYN** — 10.0 → 9.6 — promoted
 - **Jackson's Art Prize** — 10.0 → 9.6 — promoted
+- **Tokyo Illustrators Society** — 10.0 → 9.6 — promoted
+- **World Illustration Awards** — 10.0 → 9.6 — promoted
+- **3x3 International Illustration Awards** — 10.0 → 9.6 — promoted
+- **American Illustration** — 10.0 → 9.6 — promoted
+- **Royal Watercolour Society** — 10.0 → 9.6 — promoted
+- **Communication Arts Illustration Competition** — 10.0 → 9.6 — promoted
 - **Mall Galleries Open Exhibitions** — 10.0 → 9.6 — promoted
 - **Pastel Society Open Exhibition** — 10.0 → 9.6 — promoted
-- **Royal Institute of Painters in Water Colours** — 9.96 → 9.6 — promoted
-- **Royal Watercolour Society** — 9.89 → 9.6 — promoted
-- **Japan Watercolor Society Annual Exhibition** — 9.87 → 9.6 — promoted
-- **Bologna Children's Book Fair Illustrators Exhibition** — 9.79 → 9.6 — promoted
-- **Gallery IYN** — 9.56 → 9.6 — promoted
-- **Tokyo Illustrators Society** — 9.44 → 9.6 — promoted
-- **World Illustration Awards** — 9.44 → 9.6 — promoted
-- **3x3 International Illustration Awards** — 9.44 → 9.6 — promoted
-- **American Illustration** — 9.44 → 9.6 — promoted
-- **Communication Arts Illustration Competition** — 9.44 → 9.6 — promoted
+- **Royal Institute of Painters in Water Colours** — 9.92 → 9.6 — promoted
+- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.83 → 9.6 — promoted
+- **Japan Watercolor Society Annual Exhibition** — 9.4 → 9.6 — promoted
 - **Tokyo Art Book Fair** — 9.0 → 9.6 — promoted
+- **UTRECHT** — 9.0 → 9.6 — promoted
 - **Offprint** — 9.0 → 9.6 — promoted
 - **Aesthetica Art Prize** — 9.0 → 9.6 — promoted
 - **Self Publish, Be Happy** — 9.0 → 9.6 — promoted
@@ -33,6 +34,8 @@ Demoted: 5
 - **Book Obscura** — 9.0 → 9.6 — promoted
 - **Publishing / Artist Books — Battle Plan** — 9.0 → 9.6 — promoted
 - **Aperture | Photography** — 7.2 → 8.0 — promoted
+- **DER GREIF** — 7.2 → 8.0 — promoted
+- **Tokyo Wonder Site / TOKAS Residency** — 7.0 → 7.8 — promoted
 - **グループ展参加アーティスト募集中 - Gallery and Links81** — 7.0 → 7.8 — promoted
 - **【biscuit gallery】初の公募企画「grid next : Emerging ...** — 7.0 → 7.8 — promoted
 - **219公募展6募集 >> Gallery219 ギャラリーニイク** — 7.0 → 7.8 — promoted
@@ -40,12 +43,12 @@ Demoted: 5
 - **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — 7.0 → 7.8 — promoted
 - **Open Calls for Artists | Exhibit Worldwide** — 7.0 → 7.8 — promoted
 - **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — 7.0 → 7.8 — promoted
-- **ArtConnect Open Calls** — 7.0 → 7.8 — promoted
-- **CuratorSpace** — 7.0 → 7.8 — promoted
-- **Society of Women Artists** — 7.0 → 7.8 — promoted
 - **Gallery IRO** — 7.0 → 7.8 — promoted
 - **The Artcomplex Center of Tokyo** — 7.0 → 7.8 — promoted
 - **AAA Gallery Yokohama** — 7.0 → 7.8 — promoted
+- **ArtConnect Open Calls** — 7.0 → 7.8 — promoted
+- **CuratorSpace** — 7.0 → 7.8 — promoted
+- **Society of Women Artists** — 7.0 → 7.8 — promoted
 - **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — 7.0 → 7.8 — promoted
 - **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — 7.0 → 7.8 — promoted
 - **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — 7.0 → 7.8 — promoted
@@ -54,12 +57,10 @@ Demoted: 5
 - **Komiyama Tokyo** — 7.0 → 7.8 — promoted
 - **shashasha** — 7.0 → 7.8 — promoted
 - **Boji Hair+Gallery** — 7.0 → 7.8 — promoted
-- **Tokyo Wonder Site / TOKAS Residency** — 6.97 → 7.77 — promoted
-- **DER GREIF** — 6.8 → 7.6 — promoted
 - **B&B Shimokitazawa** — 6.75 → 7.55 — promoted
 - **flotsam books** — 6.75 → 7.55 — promoted
 - **tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...** — 6.4 → 5.5 — demoted
+- **Aoyama Farmers Market** — 6.27 → 5.5 — demoted
+- **HandMade In Japan Fes** — 6.08 → 5.5 — demoted
 - **Comitia** — 6.0 → 6.8 — promoted
 - **PhotoVogue** — 5.8 → 5.5 — demoted
-- **Aoyama Farmers Market** — 5.57 → 5.5 — demoted
-- **HandMade In Japan Fes** — 4.58 → 5.38 — demoted

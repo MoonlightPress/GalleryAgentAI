@@ -8,99 +8,15 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## MOUNT ZINE
-- Priority: medium
-- Source: https://zine.mount.co.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Bookstore B&B
-- Priority: medium
-- Source: https://bookandbeer.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## UTRECHT
-- Priority: medium
-- Source: https://utrecht.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Book and Sons
-- Priority: medium
-- Source: https://bookandsons.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## BankART1929
-- Priority: medium
-- Source: https://bankart1929.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## 3331 Arts Chiyoda
-- Priority: medium
-- Source: https://residence.3331.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## BONUS TRACK
-- Priority: medium
-- Source: https://bonus-track.net/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Koganecho
-- Priority: medium
-- Source: https://koganecho.net/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## flotsam books
-- Priority: medium
-- Source: https://www.flotsambooks.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Youkobo Art Space
-- Priority: medium
-- Source: https://www.youkobo.co.jp/en/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Tokyo Arts and Space
-- Priority: medium
-- Source: https://www.tokyoartsandspace.jp/en/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Fukuoka Art Book Fair
 - Priority: medium
 - Source: https://fukuokaartbookfair.com/application/
 - Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## POST
-- Priority: medium
-- Source: https://post-books.info/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Applications — Little Tokyo Zine Fest
 - Priority: medium
 - Source: https://www.ltzinefest.org/applications
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## PDF International Creator Residency Program 2026 Application Outline
-- Priority: medium
-- Source: https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## 2026年度 リサーチ・レジデンス・プログラム
-- Priority: medium
-- Source: https://www.tokyoartsandspace.jp/archive/application/2025/20250513-295.html
 - Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -128,88 +44,10 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## Open Call Guest Artist
-- Priority: medium
-- Source: https://www.sccp.jp/air-en/application/guest-artist/
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
 ## SCCP Guest Artist
 - Priority: medium
 - Source: https://www.sccp.jp/air-en/application/guest-artist/
 - Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Open Call
-- Priority: medium
-- Source: https://www.jinnystreetgallery.com/open-call
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Open Call - Tokyo Arts and Space
-- Priority: medium
-- Source: https://www.tokyoartsandspace.jp/en/application/index.html
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## 公募
-- Priority: medium
-- Source: https://www.tokyoartsandspace.jp/application/index.html
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## 全国美術公募団体 ベラドンナ・アート｜応募要項
-- Priority: medium
-- Source: https://www.art-belladonna.jp/youkou
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## About Open Call Programs - Tokyo Arts and Space
-- Priority: medium
-- Source: https://www.tokyoartsandspace.jp/en/application/about_opencall.html
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## TOKAS Residency
-- Priority: medium
-- Source: https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Submissions — Clavis Publishing
-- Priority: high
-- Source: https://www.clavis-publishing.com/submit
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## CuratorSpace
-- Priority: high
-- Source: https://www.curatorspace.com/opportunities/detail/aura-open-call/6198
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Hayama Artist Residency Submission Manager - Submittable
-- Priority: high
-- Source: https://hayamaartistresidency.submittable.com/submit
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Hayama Artist Residency
-- Priority: high
-- Source: https://hayamaartistresidency.submittable.com/submit
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Clavis Publishing Submissions
-- Priority: high
-- Source: https://www.clavis-publishing.com/submit
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Design Festa
-- Priority: medium
-- Source: https://designfesta.com/
-- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Open Calls for Artists
@@ -221,12 +59,6 @@ These are opportunities/venues with missing verification details.
 ## Open Call For Artists
 - Priority: high
 - Source: https://opencallforartists.com/listing/784
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## The Holy Art Gallery - Tokyo Open Call for Artist
-- Priority: high
-- Source: https://www.forphotographersonly.com/event-details/the-holy-art-gallery-tokyo-open-call-for-artist
 - Missing: contact, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -350,111 +182,213 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## グループ展参加アーティスト募集中 - Gallery and Links81
+## UTRECHT
+- Priority: medium
+- Source: https://utrecht.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Bookstore B&B
+- Priority: medium
+- Source: https://bookandbeer.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## flotsam books
+- Priority: medium
+- Source: https://www.flotsambooks.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## MOUNT ZINE
+- Priority: medium
+- Source: https://zine.mount.co.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Submissions — Clavis Publishing
 - Priority: high
-- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a
+- Source: https://www.clavis-publishing.com/submit
 - Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## 【biscuit gallery】初の公募企画「grid next : Emerging ...
+## CuratorSpace
 - Priority: high
-- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f
+- Source: https://www.curatorspace.com/opportunities/detail/aura-open-call/6198
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Book and Sons
+- Priority: medium
+- Source: https://bookandsons.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Youkobo Art Space
+- Priority: medium
+- Source: https://www.youkobo.co.jp/en/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Tokyo Arts and Space
+- Priority: medium
+- Source: https://www.tokyoartsandspace.jp/en/archive/residence/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## COMITIA
+- Priority: medium
+- Source: https://www.comitia.co.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## BankART1929
+- Priority: medium
+- Source: https://bankart1929.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## 3331 Arts Chiyoda
+- Priority: medium
+- Source: https://residence.3331.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Arts Initiative Tokyo
+- Priority: medium
+- Source: https://www.a-i-t.net/en/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## BONUS TRACK
+- Priority: medium
+- Source: https://bonus-track.net/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Koganecho
+- Priority: medium
+- Source: https://koganecho.net/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Design Festa
+- Priority: medium
+- Source: https://designfesta.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Farmer's Market @ UNU
+- Priority: medium
+- Source: https://farmersmarkets.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Cafe Cross Point
+- Priority: medium
+- Source: https://cafecrosspoint.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## TAV Gallery
+- Priority: medium
+- Source: https://tavgallery.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Gallery IRO
+- Priority: high
+- Source: https://1-6.jp/iro/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Gallery HANA Shimokitazawa
+- Priority: medium
+- Source: https://www.g-hana.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Hayama Artist Residency Submission Manager - Submittable
+- Priority: high
+- Source: https://hayamaartistresidency.submittable.com/submit
 - Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## 219公募展6募集 >> Gallery219 ギャラリーニイク
+## Hayama Artist Residency
 - Priority: high
-- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7
+- Source: https://hayamaartistresidency.submittable.com/submit
 - Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## 公募プログラム - トーキョーアーツアンドスペース
+## Clavis Publishing Submissions
 - Priority: high
-- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tokyoartsandspace.jp%2Fapplication%2Fabout_opencall.html&rut=dfbe1d186f3c4ab32c7fd12bde11eb0833c5498641b3ce3c152d0ec43918c688
+- Source: https://www.clavis-publishing.com/submit
 - Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## 公募企画「grid next : 2025 - Emerging Artists Showcase ...
-- Priority: high
-- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672
-- Missing: contact, deadline, fees
+## reload
+- Priority: medium
+- Source: https://reload-shimokita.com/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Open Calls for Artists | Exhibit Worldwide
-- Priority: high
-- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537
-- Missing: contact, deadline, fees
+## Creema
+- Priority: medium
+- Source: https://hmj-fes.jp/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...
-- Priority: high
-- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013
-- Missing: contact, deadline, fees
+## Cafe Mame-Hico
+- Priority: medium
+- Source: https://www.mamehico.com/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Offprint
-- Priority: high
-- Source: https://offprint.org/
-- Missing: contact, deadline, fees, submission process
+## Yonchome Cafe
+- Priority: medium
+- Source: https://www.yonchome.com/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Royal Watercolour Society
-- Priority: high
-- Source: https://royalwatercoloursociety.co.uk/
-- Missing: contact, deadline, fees, submission process
+## HATTIFNATT
+- Priority: medium
+- Source: https://www.hattifnatt.jp/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## LOCAL Gallery・Books
-- Priority: high
-- Source: https://www.localgallerybooks.com/about
-- Missing: contact, deadline, fees, submission process
+## Design Festa Gallery
+- Priority: medium
+- Source: https://designfestagallery.com/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Art Book Fairs
-- Priority: high
-- Source: https://www.artbookfairs.com/
-- Missing: contact, deadline, fees, submission process
+## SCAI The Bathhouse
+- Priority: medium
+- Source: https://www.scaithebathhouse.com/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Jimbocho Zine Fair
-- Priority: high
-- Source: https://tcha.jp/post-3262/
-- Missing: contact, deadline, fees, submission process
+## VACANT
+- Priority: medium
+- Source: https://www.vacant.vc/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...
-- Priority: high
-- Source: https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3
-- Missing: contact, deadline, fees, submission process
+## Zushi Art Gallery
+- Priority: medium
+- Source: https://zushi-art.com/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Tacoche
-- Priority: high
-- Source: http://tacoche.com/
-- Missing: contact, deadline, fees, submission process
+## Gallery Conceal Shibuya
+- Priority: medium
+- Source: https://galleryconceal.wixsite.com/gconceal
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## tata bookshop/gallery
+## Aperture
 - Priority: high
-- Source: https://tata-books.com/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## 本店・本屋の実験室
-- Priority: high
-- Source: https://honnonagaya-honten.com/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## ArtConnect Open Calls
-- Priority: high
-- Source: https://www.artconnect.com/opportunities
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Center for Book Arts
-- Priority: high
-- Source: https://centerforbookarts.org/
+- Source: https://aperture.org/
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -524,9 +458,45 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Aesthetica Magazine
+## Offprint
 - Priority: high
-- Source: https://aestheticamagazine.com/art-prize/
+- Source: https://offprint.org/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Royal Watercolour Society
+- Priority: high
+- Source: https://royalwatercoloursociety.co.uk/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## LOCAL Gallery・Books
+- Priority: high
+- Source: https://www.localgallerybooks.com/about
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Art Book Fairs
+- Priority: high
+- Source: https://www.artbookfairs.com/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Jimbocho Zine Fair
+- Priority: high
+- Source: https://tcha.jp/post-3262/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...
+- Priority: high
+- Source: https://tokyocamerastyle.com/post/811309921700282368/cp-zine-fair-2026-yokohama-repainted-leica-m3
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Tacoche
+- Priority: high
+- Source: http://tacoche.com/
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -536,9 +506,33 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Aperture
+## tata bookshop/gallery
 - Priority: high
-- Source: https://aperture.org/
+- Source: https://tata-books.com/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## 本店・本屋の実験室
+- Priority: high
+- Source: https://honnonagaya-honten.com/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## ArtConnect Open Calls
+- Priority: high
+- Source: https://www.artconnect.com/opportunities
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Center for Book Arts
+- Priority: high
+- Source: https://centerforbookarts.org/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Aesthetica Magazine
+- Priority: high
+- Source: https://aestheticamagazine.com/art-prize/
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -584,9 +578,21 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
+## Der Greif
+- Priority: high
+- Source: https://dergreif.org/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
 ## ARTE VENT Press
 - Priority: high
 - Source: https://www.arte-vent.com/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## PhotoVogue
+- Priority: high
+- Source: https://www.vogue.com/photovogue
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -602,52 +608,10 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## COMITIA
+## POST
 - Priority: medium
-- Source: https://www.comitia.co.jp/
+- Source: https://post-books.info/
 - Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Arts Initiative Tokyo
-- Priority: medium
-- Source: https://www.a-i-t.net/en/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Farmer's Market @ UNU
-- Priority: medium
-- Source: https://farmersmarkets.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Cafe Cross Point
-- Priority: medium
-- Source: https://cafecrosspoint.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## TAV Gallery
-- Priority: medium
-- Source: https://tavgallery.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Gallery IRO
-- Priority: high
-- Source: https://1-6.jp/iro/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Gallery HANA Shimokitazawa
-- Priority: medium
-- Source: https://www.g-hana.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## PhotoVogue
-- Priority: high
-- Source: https://www.vogue.com/photovogue
-- Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
 ## RAW TOKYO
@@ -660,6 +624,48 @@ These are opportunities/venues with missing verification details.
 - Priority: medium
 - Source: https://csh.yokohama/
 - Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## グループ展参加アーティスト募集中 - Gallery and Links81
+- Priority: high
+- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## 【biscuit gallery】初の公募企画「grid next : Emerging ...
+- Priority: high
+- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## 219公募展6募集 >> Gallery219 ギャラリーニイク
+- Priority: high
+- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## 公募プログラム - トーキョーアーツアンドスペース
+- Priority: high
+- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tokyoartsandspace.jp%2Fapplication%2Fabout_opencall.html&rut=dfbe1d186f3c4ab32c7fd12bde11eb0833c5498641b3ce3c152d0ec43918c688
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## 公募企画「grid next : 2025 - Emerging Artists Showcase ...
+- Priority: high
+- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## Open Calls for Artists | Exhibit Worldwide
+- Priority: high
+- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...
+- Priority: high
+- Source: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013
+- Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Bologna Children's Book Fair Illustrators Exhibition
@@ -686,18 +692,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Jackson's Art Prize
-- Priority: high
-- Source: https://www.jacksonsart.com/paintingprize/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Society of Women Artists
-- Priority: high
-- Source: https://www.society-women-artists.org.uk/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Gallery IYN
 - Priority: high
 - Source: https://www.gallery-iyn.com/
@@ -713,6 +707,12 @@ These are opportunities/venues with missing verification details.
 ## AAA Gallery Yokohama
 - Priority: high
 - Source: https://artaraqasia.com/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Jackson's Art Prize
+- Priority: high
+- Source: https://www.jacksonsart.com/paintingprize/
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -740,76 +740,16 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
+## Society of Women Artists
+- Priority: high
+- Source: https://www.society-women-artists.org.uk/
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
 ## Asian Cultural Council
 - Priority: high
 - Source: https://www.asianculturalcouncil.org/
 - Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Der Greif
-- Priority: high
-- Source: https://dergreif.org/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## reload
-- Priority: medium
-- Source: https://reload-shimokita.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Creema
-- Priority: medium
-- Source: https://hmj-fes.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Cafe Mame-Hico
-- Priority: medium
-- Source: https://www.mamehico.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Yonchome Cafe
-- Priority: medium
-- Source: https://www.yonchome.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## HATTIFNATT
-- Priority: medium
-- Source: https://www.hattifnatt.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Design Festa Gallery
-- Priority: medium
-- Source: https://designfestagallery.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## SCAI The Bathhouse
-- Priority: medium
-- Source: https://www.scaithebathhouse.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## VACANT
-- Priority: medium
-- Source: https://www.vacant.vc/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Zushi Art Gallery
-- Priority: medium
-- Source: https://zushi-art.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Gallery Conceal Shibuya
-- Priority: medium
-- Source: https://galleryconceal.wixsite.com/gconceal
-- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Self Publish, Be Happy
@@ -920,6 +860,12 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, official/source website, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
+## Communication Arts Illustration Competition
+- Priority: high
+- Source: https://www.commarts.com/competitions/illustration
+- Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
 ## Mall Galleries Open Exhibitions
 - Priority: high
 - Source: https://www.mallgalleries.org.uk/open-exhibitions
@@ -929,12 +875,6 @@ These are opportunities/venues with missing verification details.
 ## Pastel Society Open Exhibition
 - Priority: high
 - Source: https://www.mallgalleries.org.uk/open-exhibitions
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Communication Arts Illustration Competition
-- Priority: high
-- Source: https://www.commarts.com/competitions/illustration
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
