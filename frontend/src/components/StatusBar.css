@@ -1,0 +1,190 @@
+.status-bar {
+  background: var(--paper);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0;
+  min-height: 88px;
+  flex-shrink: 0;
+}
+
+/* ── Left column ── */
+.status-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  border-right: 1px solid var(--border);
+  min-width: 280px;
+  flex-shrink: 0;
+}
+
+.status-cat-thumb {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-image: url('/mochi_hero.png');
+  background-size: 300% auto;
+  background-position: 38% 60%;
+  border: 2px solid var(--border);
+  flex-shrink: 0;
+}
+
+.status-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.status-name {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--ink);
+}
+
+.status-heart {
+  color: var(--rose);
+}
+
+.status-mood-pills {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mood-pill {
+  font-size: 10px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-family: Georgia, serif;
+}
+
+.mood-happy  { background: #fde8e8; color: #c0524a; }
+.mood-full   { background: #fef5e4; color: #a07828; }
+.mood-content { background: #e8f5ec; color: #4a8c5c; }
+
+.mood-sep {
+  color: var(--ink-muted);
+  font-size: 10px;
+}
+
+.status-bar-track {
+  width: 120px;
+  height: 5px;
+  background: #f0e8d8;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.status-bar-fill {
+  width: 72%;
+  height: 100%;
+  background: linear-gradient(90deg, #e8a89a 0%, #d4897a 100%);
+  border-radius: 999px;
+}
+
+/* ── Center column ── */
+.status-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  text-align: center;
+  gap: 3px;
+}
+
+.status-message {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  color: var(--ink-medium);
+  font-style: italic;
+}
+
+.status-sub {
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+.status-sprig {
+  font-size: 18px;
+  margin-top: 4px;
+  opacity: 0.7;
+}
+
+/* ── Right column ── */
+.status-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-left: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+/* Mini calendar */
+.mini-calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mini-cal-month {
+  font-size: 10px;
+  font-weight: bold;
+  color: var(--ink-muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mini-cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 18px);
+  gap: 1px;
+  text-align: center;
+}
+
+.mini-cal-header {
+  font-size: 9px;
+  color: var(--ink-muted);
+  font-weight: bold;
+  padding: 2px 0;
+}
+
+.mini-cal-day {
+  font-size: 9.5px;
+  color: var(--ink-medium);
+  padding: 2px 0;
+  border-radius: 3px;
+  line-height: 1.3;
+}
+
+.mini-cal-day.today {
+  background: var(--gold);
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.mini-cal-day.empty {
+  color: transparent;
+}
+
+/* Sticky note */
+.sticky-note {
+  background: #fef9c3;
+  border: 1px solid #f0d96c;
+  border-radius: 3px;
+  padding: 8px 10px;
+  font-size: 11px;
+  color: #6b5a1e;
+  font-style: italic;
+  max-width: 110px;
+  line-height: 1.4;
+  box-shadow: 2px 3px 6px rgba(80, 55, 30, 0.1);
+  transform: rotate(1.5deg);
+}
