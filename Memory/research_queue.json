@@ -10,6 +10,48 @@
     "source": "https://www.nwws.org/annual-international-open/"
   },
   {
+    "venue_name": "Canadian Society of Painters in Water Colour",
+    "venue_slug": "canadian_society_of_painters_in_water_colour",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://cspwc.ca/"
+  },
+  {
+    "venue_name": "Japan International Watercolor Institute",
+    "venue_slug": "japan_international_watercolor_institute",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
+  },
+  {
+    "venue_name": "National Watercolor Society (NWS)",
+    "venue_slug": "national_watercolor_society_nws",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://nationalwatercolorsociety.org/exhibits"
+  },
+  {
+    "venue_name": "Shimokitazawa Arts",
+    "venue_slug": "shimokitazawa_arts",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://shimokitazawaarts.tokyo/en/home-english/"
+  },
+  {
     "venue_name": "Jinny Street Gallery Open Call",
     "venue_slug": "jinny_street_gallery_open_call",
     "priority": "medium",
@@ -43,6 +85,16 @@
     "source": "https://www.art-belladonna.jp/youkou"
   },
   {
+    "venue_name": "Platform China Contemporary Art Institute",
+    "venue_slug": "platform_china_contemporary_art_institute",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.transartists.org/en/air/platform-china"
+  },
+  {
     "venue_name": "Applications — Little Tokyo Zine Fest",
     "venue_slug": "applications_little_tokyo_zine_fest",
     "priority": "medium",
@@ -61,6 +113,26 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.sccp.jp/air-en/application/guest-artist/"
+  },
+  {
+    "venue_name": "BOOK CULTURE CLUB",
+    "venue_slug": "book_culture_club",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://note.com/bookcultureclub/"
+  },
+  {
+    "venue_name": "Shangyuan Art Museum",
+    "venue_slug": "shangyuan_art_museum",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "http://www.syartmuseum.com/english/"
   },
   {
     "venue_name": "TOKYO ART BOOK FAIR",
@@ -245,16 +317,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.flotsambooks.com/"
-  },
-  {
-    "venue_name": "MOUNT ZINE",
-    "venue_slug": "mount_zine",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://zine.mount.co.jp/"
   },
   {
     "venue_name": "Submissions — Clavis Publishing",
@@ -777,28 +839,6 @@
     "source": "https://www.vogue.com/photovogue"
   },
   {
-    "venue_name": "Shimokitazawa Arts",
-    "venue_slug": "shimokitazawa_arts",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://shimokitazawaarts.tokyo/en/home-english/"
-  },
-  {
-    "venue_name": "Canadian Society of Painters in Water Colour",
-    "venue_slug": "canadian_society_of_painters_in_water_colour",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://cspwc.ca/"
-  },
-  {
     "venue_name": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
     "venue_slug": "l_air_2026_artist_residency_s1_s4_open_call_air_j_air_j_info",
     "priority": "high",
@@ -919,26 +959,15 @@
     "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
   },
   {
-    "venue_name": "Sunny Boy Books",
-    "venue_slug": "sunny_boy_books",
-    "priority": "high",
+    "venue_name": "Jimbocho Zine Fair",
+    "venue_slug": "jimbocho_zine_fair",
+    "priority": "medium",
     "missing": [
       "contact",
-      "deadline",
       "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.instagram.com/sunnyboybooks/"
-  },
-  {
-    "venue_name": "Platform China Contemporary Art Institute",
-    "venue_slug": "platform_china_contemporary_art_institute",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.transartists.org/en/air/platform-china"
+    "source": "https://tcha.jp/post-3262/"
   },
   {
     "venue_name": "BONUS TRACK",
@@ -1095,26 +1124,6 @@
     "source": "https://hayamaartistresidency.submittable.com/submit"
   },
   {
-    "venue_name": "National Watercolor Society (NWS)",
-    "venue_slug": "national_watercolor_society_nws",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://nationalwatercolorsociety.org/exhibits"
-  },
-  {
-    "venue_name": "Japan International Watercolor Institute",
-    "venue_slug": "japan_international_watercolor_institute",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
-  },
-  {
     "venue_name": "NADiff",
     "venue_slug": "nadiff",
     "priority": "medium",
@@ -1239,16 +1248,6 @@
     "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013"
   },
   {
-    "venue_name": "Shangyuan Art Museum",
-    "venue_slug": "shangyuan_art_museum",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "http://www.syartmuseum.com/english/"
-  },
-  {
     "venue_name": "Aperture",
     "venue_slug": "aperture",
     "priority": "high",
@@ -1260,32 +1259,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://aperture.org/"
-  },
-  {
-    "venue_name": "Jimbocho Zine Fair",
-    "venue_slug": "jimbocho_zine_fair",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tcha.jp/post-3262/"
-  },
-  {
-    "venue_name": "ZINEフェス東京",
-    "venue_slug": "zine",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://x.com/zinefarmtokyo/status/2030078129293938743"
   },
   {
     "venue_name": "ZINEイベント",
@@ -1494,18 +1467,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.asianculturalcouncil.org/"
-  },
-  {
-    "venue_name": "Clouds Art + Coffee",
-    "venue_slug": "clouds_art_coffee",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.instagram.com/clouds_koenji/"
   },
   {
     "venue_name": "Self Publish, Be Happy",
@@ -1843,14 +1804,16 @@
     "source": "https://picaresquejpn.com/"
   },
   {
-    "venue_name": "Spiral",
-    "venue_slug": "spiral",
-    "priority": "medium",
+    "venue_name": "Sunny Boy Books",
+    "venue_slug": "sunny_boy_books",
+    "priority": "high",
     "missing": [
-      "contact"
+      "contact",
+      "deadline",
+      "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.spiral.co.jp/"
+    "source": "https://www.instagram.com/sunnyboybooks/"
   },
   {
     "venue_name": "loneliness books",
@@ -1890,6 +1853,28 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.instagram.com/zinefarmtokyo/"
+  },
+  {
+    "venue_name": "Spiral",
+    "venue_slug": "spiral",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.spiral.co.jp/"
+  },
+  {
+    "venue_name": "Clouds Art + Coffee",
+    "venue_slug": "clouds_art_coffee",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.instagram.com/clouds_koenji/"
   },
   {
     "venue_name": "MADO Café",

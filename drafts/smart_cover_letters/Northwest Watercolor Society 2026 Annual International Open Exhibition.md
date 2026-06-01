@@ -7,7 +7,7 @@ Recommended Body of Work:
 General Portfolio
 
 Core Fit:
-Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.
+Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
 
 Draft Structure:
 

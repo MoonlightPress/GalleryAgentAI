@@ -2,7 +2,7 @@
   "dominant_countries": [
     [
       "Global",
-      16
+      17
     ],
     [
       "Japan",
@@ -25,19 +25,19 @@
       2
     ],
     [
-      "France / UK",
-      1
+      "China",
+      2
     ],
     [
       "Canada",
       1
     ],
     [
-      "France",
+      "France / UK",
       1
     ],
     [
-      "China",
+      "France",
       1
     ],
     [
@@ -56,11 +56,11 @@
     ],
     [
       "fair_popup",
-      11
+      10
     ],
     [
       "zine_print",
-      11
+      10
     ],
     [
       "gallery",
@@ -68,23 +68,23 @@
     ],
     [
       "residency",
-      7
+      6
     ],
     [
       "bookstore_gallery",
-      6
+      5
     ],
     [
       "global_watercolor_open_call",
       5
     ],
     [
-      "cafe_gallery",
+      "photo_open_call",
       4
     ],
     [
-      "photo_open_call",
-      3
+      "cafe_gallery",
+      4
     ],
     [
       "artist_space",
@@ -99,11 +99,23 @@
       2
     ],
     [
+      "residency_beijing",
+      2
+    ],
+    [
       "market_event",
       2
     ],
     [
+      "zine_fair_booth",
+      1
+    ],
+    [
       "bookstore_event",
+      1
+    ],
+    [
+      "zine_shop_consignment",
       1
     ],
     [
@@ -112,18 +124,6 @@
     ],
     [
       "global_open_call",
-      1
-    ],
-    [
-      "global_artist_book_platform",
-      1
-    ],
-    [
-      "gallery_small",
-      1
-    ],
-    [
-      "event_space",
       1
     ]
   ],
@@ -161,6 +161,10 @@
       4
     ],
     [
+      "residency",
+      4
+    ],
+    [
       "high",
       4
     ],
@@ -169,32 +173,48 @@
       3
     ],
     [
-      "residency",
-      3
-    ],
-    [
       "medium",
       3
-    ],
-    [
-      "portfolio_builder",
-      2
-    ],
-    [
-      "zine",
-      2
     ],
     [
       "tokyo",
       2
     ],
     [
-      "relationship_target",
+      "currently_open",
       2
     ],
     [
       "watch_next_cycle",
       2
+    ],
+    [
+      "portfolio_builder",
+      2
+    ],
+    [
+      "beijing",
+      2
+    ],
+    [
+      "china",
+      2
+    ],
+    [
+      "zine_fair",
+      1
+    ],
+    [
+      "booth",
+      1
+    ],
+    [
+      "recurring",
+      1
+    ],
+    [
+      "tier_1",
+      1
     ],
     [
       "Medium-High",
@@ -209,7 +229,7 @@
       1
     ],
     [
-      "currently_open",
+      "check_deadline",
       1
     ],
     [
@@ -241,6 +261,14 @@
       1
     ],
     [
+      "japan",
+      1
+    ],
+    [
+      "accessible",
+      1
+    ],
+    [
       "Unknown/High effort for unclear benefit",
       1
     ],
@@ -249,43 +277,15 @@
       1
     ],
     [
+      "zine",
+      1
+    ],
+    [
       "high_information_gathering",
       1
     ],
     [
-      "check_deadline",
-      1
-    ],
-    [
       "gallery",
-      1
-    ],
-    [
-      "shimokitazawa",
-      1
-    ],
-    [
-      "tier_2",
-      1
-    ],
-    [
-      "bookstore",
-      1
-    ],
-    [
-      "tier_1",
-      1
-    ],
-    [
-      "gakugeidaigaku",
-      1
-    ],
-    [
-      "Cannot assess - insufficient information",
-      1
-    ],
-    [
-      "extremely_high",
       1
     ]
   ]

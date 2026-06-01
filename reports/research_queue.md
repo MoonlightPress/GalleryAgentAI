@@ -8,6 +8,30 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
+## Canadian Society of Painters in Water Colour
+- Priority: medium
+- Source: https://cspwc.ca/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Japan International Watercolor Institute
+- Priority: medium
+- Source: https://iwf.iacn.jp/international-watercolor-exhibition-japan/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## National Watercolor Society (NWS)
+- Priority: medium
+- Source: https://nationalwatercolorsociety.org/exhibits
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Shimokitazawa Arts
+- Priority: high
+- Source: https://shimokitazawaarts.tokyo/en/home-english/
+- Missing: contact, deadline, fees
+- Recommended action: Research venue website or send inquiry draft.
+
 ## Jinny Street Gallery Open Call
 - Priority: medium
 - Source: https://www.jinnystreetgallery.com/open-call
@@ -26,6 +50,12 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
+## Platform China Contemporary Art Institute
+- Priority: medium
+- Source: https://www.transartists.org/en/air/platform-china
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
 ## Applications — Little Tokyo Zine Fest
 - Priority: medium
 - Source: https://www.ltzinefest.org/applications
@@ -36,6 +66,18 @@ These are opportunities/venues with missing verification details.
 - Priority: medium
 - Source: https://www.sccp.jp/air-en/application/guest-artist/
 - Missing: fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## BOOK CULTURE CLUB
+- Priority: medium
+- Source: https://note.com/bookcultureclub/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Shangyuan Art Museum
+- Priority: medium
+- Source: http://www.syartmuseum.com/english/
+- Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
 ## TOKYO ART BOOK FAIR
@@ -131,12 +173,6 @@ These are opportunities/venues with missing verification details.
 ## flotsam books
 - Priority: medium
 - Source: https://www.flotsambooks.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## MOUNT ZINE
-- Priority: medium
-- Source: https://zine.mount.co.jp/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -398,18 +434,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Shimokitazawa Arts
-- Priority: high
-- Source: https://shimokitazawaarts.tokyo/en/home-english/
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Canadian Society of Painters in Water Colour
-- Priority: medium
-- Source: https://cspwc.ca/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
 ## L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info
 - Priority: high
 - Source: https://air-j.info/en/program/lair2026/
@@ -470,16 +494,10 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Sunny Boy Books
-- Priority: high
-- Source: https://www.instagram.com/sunnyboybooks/
-- Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Platform China Contemporary Art Institute
+## Jimbocho Zine Fair
 - Priority: medium
-- Source: https://www.transartists.org/en/air/platform-china
-- Missing: contact
+- Source: https://tcha.jp/post-3262/
+- Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## BONUS TRACK
@@ -572,18 +590,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## National Watercolor Society (NWS)
-- Priority: medium
-- Source: https://nationalwatercolorsociety.org/exhibits
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Japan International Watercolor Institute
-- Priority: medium
-- Source: https://iwf.iacn.jp/international-watercolor-exhibition-japan/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
 ## NADiff
 - Priority: medium
 - Source: https://www.nadiff.com/
@@ -650,27 +656,9 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## Shangyuan Art Museum
-- Priority: medium
-- Source: http://www.syartmuseum.com/english/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Aperture
 - Priority: high
 - Source: https://aperture.org/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Jimbocho Zine Fair
-- Priority: high
-- Source: https://tcha.jp/post-3262/
-- Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## ZINEフェス東京
-- Priority: high
-- Source: https://x.com/zinefarmtokyo/status/2030078129293938743
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -768,12 +756,6 @@ These are opportunities/venues with missing verification details.
 - Priority: high
 - Source: https://www.asianculturalcouncil.org/
 - Missing: contact, deadline, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## Clouds Art + Coffee
-- Priority: high
-- Source: https://www.instagram.com/clouds_koenji/
-- Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Self Publish, Be Happy
@@ -926,10 +908,10 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## Spiral
-- Priority: medium
-- Source: https://www.spiral.co.jp/
-- Missing: contact
+## Sunny Boy Books
+- Priority: high
+- Source: https://www.instagram.com/sunnyboybooks/
+- Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## loneliness books
@@ -948,6 +930,18 @@ These are opportunities/venues with missing verification details.
 - Priority: high
 - Source: https://www.instagram.com/zinefarmtokyo/
 - Missing: contact, deadline, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Spiral
+- Priority: medium
+- Source: https://www.spiral.co.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Clouds Art + Coffee
+- Priority: high
+- Source: https://www.instagram.com/clouds_koenji/
+- Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## MADO Café

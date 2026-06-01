@@ -54,12 +54,12 @@ Total translation candidates: 78
 - **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — native: unknown; signals: works on paper, drawing
 - **New Power展 | ギャラリー自由が丘で作家デビュー** — native: unknown; signals: works on paper, drawing
 - **Call for Entry: Showcase your art in Tokyo, Japan** — native: unknown; signals: works on paper, drawing
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — native: mixed; signals: zine
 - **そぞろ書房** — native: mixed; signals: artist book, zine, bookstore
 - **Publishing / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine, publication, edition
 - **POST** — native: mixed; signals: zine, bookstore
 - **日記屋 月日** — native: mixed; signals: zine, bookstore
 - **Zines / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine
-- **Sunny Boy Books** — native: mixed; signals: bookstore
 - **shashasha** — native: unknown; signals: artist book, edition, works on paper
 - **Komiyama Tokyo** — native: unknown; signals: artist book, zine
 - **Boji Hair+Gallery** — native: unknown; signals: works on paper
@@ -68,16 +68,16 @@ Total translation candidates: 78
 - **B&B Shimokitazawa** — native: mixed; signals: artist book, zine, bookstore, publication
 - **flotsam books** — native: mixed; signals: artist book, zine, bookstore, works on paper
 - **NADiff a/p/a/r/t** — native: mixed; signals: artist book, zine, bookstore
-- **Jimbocho Zine Fair** — native: mixed; signals: artist book, zine, edition
-- **ZINEフェス東京** — native: mixed; signals: zine, edition
 - **ZINEイベント** — native: mixed; signals: zine, edition
 - **HandMade In Japan Fes** — native: unknown; signals: works on paper
 - **The Container** — native: unknown; signals: artist book
 - **Comitia** — native: unknown; signals: zine, works on paper, illustration
 - **PhotoVogue** — native: photography; signals: illustration
+- **Zine & Book フェス in 神保町 (Jimbocho)** — native: mixed; signals: artist book, zine, edition
 - **Fukuoka Art Book Fair** — native: mixed; signals: artist book, zine, book fair, edition
 - **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — native: mixed; signals: zine, edition
 - **Applications — Little Tokyo Zine Fest** — native: mixed; signals: zine
+- **Sunny Boy Books** — native: mixed; signals: zine, bookstore
 - **loneliness books** — native: mixed; signals: artist book, zine
 - **Dig A Hole Zines** — native: mixed; signals: artist book, zine
 - **ZINE FARM TOKYO** — native: mixed; signals: zine

@@ -2,8 +2,24 @@
 
 These are global or international opportunities that need verification before being presented as fully actionable.
 
-## Northwest Watercolor Society 2026 Annual International Open Exhibition
+## CSPWC Annual Open Water International Exhibition
 - Score: 9.4/10
+- Country: Canada
+- Category: global_watercolor_open_call
+- Source: https://cspwc.ca/
+- Missing: contact
+- Next: Download the Terms and Conditions prospectus from open-water-2026.artcall.org. Create an ArtCall account and submit before June 30, 2026 at 2 PM EDT. Medium must be transparent watercolour only. Email info@cspwc.ca with questions.
+
+## National Watercolor Society International Open Exhibition
+- Score: 9.4/10
+- Country: USA
+- Category: global_watercolor_open_call
+- Source: https://nationalwatercolorsociety.org/exhibits
+- Missing: contact
+- Next: Add to 2027 calendar. Check nationalwatercolorsociety.org from January 2027.
+
+## Northwest Watercolor Society 2026 Annual International Open Exhibition
+- Score: 8.8/10
 - Country: USA
 - Category: global_watercolor_open_call
 - Source: https://www.nwws.org/annual-international-open/
@@ -98,13 +114,21 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Check current open call window, digital vs. physical submission requirements, fees, and accepted paper sizes.
 
-## CSPWC Annual Open Water International Exhibition
+## Platform China BIAP Artist Residency
 - Score: 8.6/10
-- Country: Canada
-- Category: global_watercolor_open_call
-- Source: https://cspwc.ca/
+- Country: China
+- Category: residency_beijing
+- Source: https://www.transartists.org/en/air/platform-china
 - Missing: contact
-- Next: Check cspwc.ca immediately for 2026 submission deadline and entry requirements.
+- Next: Email Platform China BIAP directly: No. 319-1 East End Art-A, Caochangdi Village, Chaoyang District, Beijing. Tel: +86-10-6432-0091.
+
+## Shangyuan International Residency Programme
+- Score: 8.6/10
+- Country: China
+- Category: residency_beijing
+- Source: http://www.syartmuseum.com/english/
+- Missing: contact
+- Next: Apply October 2026 for 2027 cycle. Send portfolio images to shangyuanart@gmail.com.
 
 ## Cité Internationale des Arts Artist Residency
 - Score: 8.6/10
@@ -122,6 +146,14 @@ These are global or international opportunities that need verification before be
 - Missing: deadline, fees, contact
 - Next: Open and verify whether this is current and relevant.
 
+## Callback Open Call G George invites you to submit to Callback, a series of contemporary ar
+- Score: 8.6/10
+- Country: Global
+- Category: photo_open_call
+- Source: https://www.curatorspace.com/opportunities/detail/callback-open-call/839
+- Missing: deadline, fees, contact
+- Next: Open and verify whether this is current and relevant.
+
 ## PhotoVogue
 - Score: 8.6/10
 - Country: Global
@@ -130,21 +162,13 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
 
-## Platform China BIAP Artist Residency
-- Score: 8.4/10
-- Country: China
-- Category: residency_beijing
-- Source: https://www.transartists.org/en/air/platform-china
-- Missing: contact
-- Next: Email Platform China BIAP directly: No. 319-1 East End Art-A, Caochangdi Village, Chaoyang District, Beijing. Tel: +86-10-6432-0091.
-
-## National Watercolor Society International Open Exhibition
-- Score: 8.1/10
-- Country: USA
-- Category: global_watercolor_open_call
-- Source: https://nationalwatercolorsociety.org/exhibits
-- Missing: contact
-- Next: Add to 2027 calendar. Check nationalwatercolorsociety.org from January 2027.
+## Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod
+- Score: 8.2/10
+- Country: Global
+- Category: photo_open_call
+- Source: https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594
+- Missing: deadline, fees, contact
+- Next: Open and verify whether this is current and relevant.
 
 ## Self Publish, Be Happy
 - Score: 8.0/10
@@ -152,7 +176,7 @@ These are global or international opportunities that need verification before be
 - Category: global_artist_book_platform
 - Source: https://selfpublishbehappy.com/
 - Missing: submission process, deadline, fees, contact
-- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
+- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
 
 ## Printed Matter Art Book Fairs
 - Score: 8.0/10
@@ -169,14 +193,6 @@ These are global or international opportunities that need verification before be
 - Source: https://www.printedmatter.org/
 - Missing: submission process, deadline, fees, contact
 - Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
-
-## Shangyuan International Residency Programme
-- Score: 7.9/10
-- Country: China
-- Category: residency_beijing
-- Source: http://www.syartmuseum.com/english/
-- Missing: contact
-- Next: Apply October 2026 for 2027 cycle. Send portfolio images to shangyuanart@gmail.com.
 
 ## Bologna Children's Book Fair Illustrators Exhibition
 - Score: 7.8/10
@@ -313,22 +329,6 @@ These are global or international opportunities that need verification before be
 - Source: https://nihon-suisai.com/
 - Missing: submission process, deadline, fees, contact
 - Next: Research current membership structure, open entry process, exhibition dates, and submission requirements in Japanese.
-
-## Callback Open Call G George invites you to submit to Callback, a series of contemporary ar
-- Score: 7.5/10
-- Country: Global
-- Category: photo_open_call
-- Source: https://www.curatorspace.com/opportunities/detail/callback-open-call/839
-- Missing: deadline, fees, contact
-- Next: Open and verify whether this is current and relevant.
-
-## Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod
-- Score: 6.8/10
-- Country: Global
-- Category: photo_open_call
-- Source: https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594
-- Missing: deadline, fees, contact
-- Next: Open and verify whether this is current and relevant.
 
 ## Communication Arts Illustration Competition
 - Score: 6.7/10

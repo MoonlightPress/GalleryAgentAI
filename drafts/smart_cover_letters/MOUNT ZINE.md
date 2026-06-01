@@ -1,13 +1,13 @@
 # Smart Cover Letter — MOUNT ZINE
 
 Tone:
-gentle and curious
+focused and editorial
 
 Recommended Body of Work:
-Artist Book / Printed Matter
+Architecture / Memory / Place
 
 Core Fit:
-Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
+Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 
 Draft Structure:
 

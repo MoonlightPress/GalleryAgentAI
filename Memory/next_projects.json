@@ -30,6 +30,18 @@
     "first_action": "Make a 20-image edit and title it provisionally. Do not write the full statement yet.",
     "best_opportunity_targets": [
       {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
+        "source": "https://note.com/bookcultureclub/"
+      },
+      {
         "title": "Tokyo Art Book Fair",
         "score": 8.6,
         "differentiated_score": 10.59,
@@ -80,14 +92,14 @@
       },
       {
         "title": "MOUNT ZINE",
-        "score": 7.6,
-        "differentiated_score": 10.59,
-        "verification": "partial",
+        "score": 9.2,
+        "differentiated_score": 10.51,
+        "verification": "verified",
         "hits": [
           "zine",
-          "artist book"
+          "memory"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
         "source": "https://zine.mount.co.jp/"
       },
       {
@@ -114,18 +126,6 @@
         ],
         "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
         "source": "https://fukuokaartbookfair.com/application/"
-      },
-      {
-        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-        "score": 7.6,
-        "differentiated_score": 10.22,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Possible fit based on link text: zine, open call",
-        "source": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198"
       }
     ],
     "best_publisher_targets": [
@@ -240,6 +240,17 @@
     "first_action": "Build the edit as a PDF contact sheet first, then reduce it by half.",
     "best_opportunity_targets": [
       {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
+        "source": "https://note.com/bookcultureclub/"
+      },
+      {
         "title": "Tokyo Art Book Fair",
         "score": 8.6,
         "differentiated_score": 10.59,
@@ -286,13 +297,13 @@
       },
       {
         "title": "MOUNT ZINE",
-        "score": 7.6,
-        "differentiated_score": 10.59,
-        "verification": "partial",
+        "score": 9.2,
+        "differentiated_score": 10.51,
+        "verification": "verified",
         "hits": [
-          "artist book"
+          "memory"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
         "source": "https://zine.mount.co.jp/"
       },
       {
@@ -316,17 +327,6 @@
         ],
         "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
         "source": "https://fukuokaartbookfair.com/application/"
-      },
-      {
-        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-        "score": 7.6,
-        "differentiated_score": 10.22,
-        "verification": "partial",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Possible fit based on link text: zine, open call",
-        "source": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198"
       }
     ],
     "best_publisher_targets": [
@@ -393,6 +393,18 @@
     "first_action": "Create a 12-image version first. This is the easiest thing to make real.",
     "best_opportunity_targets": [
       {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
+        "source": "https://note.com/bookcultureclub/"
+      },
+      {
         "title": "Tokyo Art Book Fair",
         "score": 8.6,
         "differentiated_score": 10.59,
@@ -447,15 +459,13 @@
       },
       {
         "title": "MOUNT ZINE",
-        "score": 7.6,
-        "differentiated_score": 10.59,
-        "verification": "partial",
+        "score": 9.2,
+        "differentiated_score": 10.51,
+        "verification": "verified",
         "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
+          "zine"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
         "source": "https://zine.mount.co.jp/"
       },
       {
@@ -482,19 +492,6 @@
         ],
         "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
         "source": "https://fukuokaartbookfair.com/application/"
-      },
-      {
-        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-        "score": 7.6,
-        "differentiated_score": 10.22,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
-        ],
-        "why": "Possible fit based on link text: zine, open call",
-        "source": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198"
       }
     ],
     "best_publisher_targets": [

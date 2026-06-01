@@ -123,7 +123,7 @@ This is the strongest immediate ecosystem for her visual language: quiet photogr
 - **Tokyo Art Book Fair** — score 8.6, differentiated 10.59; matched: TOKYO ART BOOK FAIR
 - **UTRECHT** — score 8.6, differentiated 10.59; matched: UTRECHT
 - **flotsam books** — score 8.6, differentiated 10.59; matched: flotsam books
-- **MOUNT ZINE** — score 8.6, differentiated 10.59; matched: MOUNT ZINE
+- **MOUNT ZINE** — score 9.2, differentiated 10.51; matched: MOUNT ZINE
 - **POST** — score 8.0, differentiated 9.09; matched: POST
 - **shashasha** — score 6.5, differentiated 7.34; matched: Shashasha
 
@@ -134,7 +134,7 @@ This is the long-horizon ecosystem for international publication legitimacy.
 - **Offprint** — score 8.6, differentiated 10.04; matched: Offprint
 - **Self Publish, Be Happy** — score 8.0, differentiated 9.7; matched: Self Publish, Be Happy
 - **Gallery Conceal Shibuya** — score 8.6, differentiated 9.3; matched: VOID
-- **Picaresque Gallery** — score 3.9, differentiated 4.76; matched: VOID
+- **Picaresque Gallery** — score 3.5, differentiated 4.36; matched: VOID
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.
@@ -147,5 +147,5 @@ These are useful for soft visibility and relationship-building before major appl
 - **UTRECHT** — score 8.6, differentiated 10.59; matched: UTRECHT
 - **B&B Shimokitazawa** — score 8.6, differentiated 10.59; matched: B&B Shimokitazawa
 - **flotsam books** — score 8.6, differentiated 10.59; matched: flotsam books
-- **MOUNT ZINE** — score 8.6, differentiated 10.59; matched: MOUNT ZINE
+- **MOUNT ZINE** — score 9.2, differentiated 10.51; matched: MOUNT ZINE
 - **POST** — score 8.0, differentiated 9.09; matched: POST

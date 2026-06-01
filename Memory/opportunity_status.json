@@ -2218,5 +2218,25 @@
     "follow_up_date": "",
     "notes": "",
     "last_updated": "2026-06-01"
+  },
+  "zineフェス東京 (zine fest tokyo)::book culture club": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-01"
+  },
+  "zine & book フェス in 神保町 (jimbocho)::jimbocho zine fair": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-01"
   }
 }

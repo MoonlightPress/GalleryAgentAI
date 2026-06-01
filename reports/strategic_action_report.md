@@ -6,18 +6,18 @@ This is the cleaner action report: each opportunity appears in one primary role 
 
 Best current options: good fit, useful direction, and worth acting on first.
 
-1. **Tokyo Art Book Fair** — score 8.6, visual 3.7, verification . Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
-2. **UTRECHT** — score 7.6, visual 3.7. **Action: Contact and propose**. Tokyo art bookstore specialising in zines and artist books. Consignment or small exhibition in their gallery space.
+1. **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, visual 3.25, verification . Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+2. **Tokyo Art Book Fair** — score 8.6, visual 3.7, verification . Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+3. **UTRECHT** — score 7.6, visual 3.7. **Action: Contact and propose**. Tokyo art bookstore specialising in zines and artist books. Consignment or small exhibition in their gallery space.
    > 🇯🇵 _件名：水彩画作品のお取り扱いについてのご相談 / はじめまして。東京在住の水彩画家、GEGYjijiと申します。_
-3. **B&B Shimokitazawa** — score 7.6, visual 3.7. **Action: Contact and propose**. Shimokitazawa bookstore and event space. Exhibition or print display inquiry.
+4. **B&B Shimokitazawa** — score 7.6, visual 3.7. **Action: Contact and propose**. Shimokitazawa bookstore and event space. Exhibition or print display inquiry.
    > 🇯🇵 _件名：水彩画の展示についてのご相談 / はじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。_
-4. **flotsam books** — score 7.6, visual 3.7. **Action: Contact and propose**. Tokyo bookshop and gallery hybrid. Consignment or exhibition inquiry.
+5. **flotsam books** — score 7.6, visual 3.7. **Action: Contact and propose**. Tokyo bookshop and gallery hybrid. Consignment or exhibition inquiry.
    > 🇯🇵 _件名：水彩画作品の展示・お取り扱いについてのご相談 / はじめまして。東京在住の水彩画家、GEGYjijiと申します。_
-5. **MOUNT ZINE** — score 7.6, visual 3.7, verification . Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
-6. **Northwest Watercolor Society 2026 Annual International Open Exhibition** — score 8.8, visual 0.45, verification . Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
-7. **Book and Sons** — score 7.6, visual 1.3. **Action: Contact and propose**. Art and design bookstore with exhibition space. Artist-book consignment or show inquiry.
+6. **MOUNT ZINE** — score 9.2, visual 1.75, verification . Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
+7. **CSPWC Annual Open Water International Exhibition** — score 9.4, visual 0.45, verification . International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+8. **Book and Sons** — score 7.6, visual 1.3. **Action: Contact and propose**. Art and design bookstore with exhibition space. Artist-book consignment or show inquiry.
    > 🇯🇵 _件名：水彩画作品のお取り扱いについてのご相談 / はじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。_
-8. **NADiff a/p/a/r/t** — score 6.5, visual 3.25, verification . Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all
 
 ## Publication Targets
 
@@ -69,17 +69,17 @@ Lower-pressure spaces useful for familiarity, soft outreach, or small first step
 Do not recommend yet. These need submission/contact/deadline verification.
 
 1. **BankART1929** — score 7.6, visual 0.45, verification . Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
-2. **DESIGN FESTA GALLERY** — score 7.6, visual 0.0, verification . It doesn't fit. This matches two specific categories you've identified as harmful: tourist-focused exhibition spaces and pay-to-play gallery models. Tokyo location alone doesn't override the structural mismatch.
-3. **SCAI The Bathhouse** — score 7.6, visual 0.0, verification . The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.
-4. **TAV Gallery** — score 7.6, visual 0.0, verification . Tokyo location aligns with your Japan interest and Asian architectural subject matter, but fit depends entirely on information not yet available
-5. **VACANT** — score 7.6, visual 0.0, verification . Tokyo location theoretically aligns with Asia-Pacific focus, but lack of visible programming makes actual fit impossible to assess
-6. **Gallery IRO** — score 7.6, visual 0.0, verification . Tokyo location aligns with Japan focus, but business model uncertainty creates risk of misaligned investment.
-7. **Zushi Art Gallery** — score 7.6, visual 0.0, verification . Geographic location matches interest in Japan, but everything else is a question mark.
-8. **Gallery Conceal Shibuya** — score 7.6, visual 0.0, verification . It doesn't. This conflicts with your strategic goal to avoid pay-to-play venues that dilute positioning, and offers no clear institutional or career benefit.
+2. **Platform China BIAP Artist Residency** — score 8.2, visual 0.0, verification . Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.
+3. **DESIGN FESTA GALLERY** — score 7.6, visual 0.0, verification . It doesn't fit. This matches two specific categories you've identified as harmful: tourist-focused exhibition spaces and pay-to-play gallery models. Tokyo location alone doesn't override the structural mismatch.
+4. **SCAI The Bathhouse** — score 7.6, visual 0.0, verification . The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.
+5. **TAV Gallery** — score 7.6, visual 0.0, verification . Tokyo location aligns with your Japan interest and Asian architectural subject matter, but fit depends entirely on information not yet available
+6. **VACANT** — score 7.6, visual 0.0, verification . Tokyo location theoretically aligns with Asia-Pacific focus, but lack of visible programming makes actual fit impossible to assess
+7. **Gallery IRO** — score 7.6, visual 0.0, verification . Tokyo location aligns with Japan focus, but business model uncertainty creates risk of misaligned investment.
+8. **Zushi Art Gallery** — score 7.6, visual 0.0, verification . Geographic location matches interest in Japan, but everything else is a question mark.
 
 ## Low Priority
 
 Keep out of the main UI unless specifically requested.
 
-1. **Picaresque Gallery** — score 2.0999999999999996, visual 0.45, verification . Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
-2. **Spiral** — score 1.5999999999999999, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
+1. **Picaresque Gallery** — score 1.7, visual 0.45, verification . Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
+2. **Spiral** — score 1.2, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.

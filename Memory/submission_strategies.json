@@ -39,6 +39,26 @@
       "Mention publication intentions."
     ]
   },
+  "Northwest Watercolor Society 2026 Annual International Open Exhibition": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "CSPWC Annual Open Water International Exhibition": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
   "3331 Arts Chiyoda": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -79,7 +99,17 @@
       "Mention publication intentions."
     ]
   },
-  "Northwest Watercolor Society 2026 Annual International Open Exhibition": {
+  "Japan International Watercolor Institute Online Exhibition": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "National Watercolor Society International Open Exhibition": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -109,6 +139,16 @@
       "Mention publication intentions."
     ]
   },
+  "Shimokitazawa Arts": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
   "Jinny Street Gallery Open Call": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
@@ -130,6 +170,16 @@
     ]
   },
   "Belladonna Art Competition": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Platform China BIAP Artist Residency": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -179,6 +229,16 @@
       "Mention publication intentions."
     ]
   },
+  "ZINEフェス東京 (ZINE Fest Tokyo)": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
   "SCCP Guest Artist": {
     "strategy": "formal_application",
     "tone": "clear and professional",
@@ -189,7 +249,27 @@
       "Demonstrate seriousness."
     ]
   },
+  "Shangyuan International Residency Programme": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
   "Home - Printed Matter": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "MOUNT ZINE": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
     "advice": [
@@ -319,6 +399,16 @@
       "Signal artistic clarity."
     ]
   },
+  "Zine & Book フェス in 神保町 (Jimbocho)": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
   "Zines / Artist Books — Battle Plan": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
@@ -340,16 +430,6 @@
     ]
   },
   "flotsam books": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "MOUNT ZINE": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -499,6 +579,16 @@
       "Mention publication intentions."
     ]
   },
+  "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
   "BONUS TRACK": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -530,26 +620,6 @@
     ]
   },
   "Aperture | Photography": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Jimbocho Zine Fair": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "ZINEフェス東京": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
     "advice": [
@@ -789,16 +859,6 @@
       "Signal artistic clarity."
     ]
   },
-  "Shimokitazawa Arts": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
   "ARTE VENT Press": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -819,27 +879,7 @@
       "Focus on mutual fit."
     ]
   },
-  "CSPWC Annual Open Water International Exhibition": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
   "日記屋 月日": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Sunny Boy Books": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -937,16 +977,6 @@
       "Answer requirements directly.",
       "Avoid emotional language.",
       "Demonstrate seriousness."
-    ]
-  },
-  "Platform China BIAP Artist Residency": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
     ]
   },
   "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW": {
@@ -1129,24 +1159,14 @@
       "Demonstrate seriousness."
     ]
   },
-  "Japan International Watercolor Institute Online Exhibition": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
+  "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
     "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "National Watercolor Society International Open Exhibition": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
     ]
   },
   "NADiff a/p/a/r/t": {
@@ -1240,16 +1260,6 @@
     ]
   },
   "Creative Space Hayashi": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Shangyuan International Residency Programme": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1429,16 +1439,6 @@
       "Signal artistic clarity."
     ]
   },
-  "Clouds Art + Coffee": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
   "そぞろ書房": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -1509,16 +1509,6 @@
       "Demonstrate seriousness."
     ]
   },
-  "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
   "torch press": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -1570,16 +1560,6 @@
     ]
   },
   "twelvebooks": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -1669,6 +1649,16 @@
       "Signal artistic clarity."
     ]
   },
+  "Sunny Boy Books": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
   "Spiral": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
@@ -1700,6 +1690,16 @@
     ]
   },
   "ZINE FARM TOKYO": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Clouds Art + Coffee": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [

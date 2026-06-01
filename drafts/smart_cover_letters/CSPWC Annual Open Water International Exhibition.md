@@ -7,7 +7,7 @@ Recommended Body of Work:
 General Portfolio
 
 Core Fit:
-International juried show specifically in transparent watercolour. Exhibition is September 2026 so submission window may still be open — check cspwc.ca urgently.
+International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
 
 Draft Structure:
 

@@ -46,8 +46,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: printed matter, book fair, photobook, zine",
-      "weak: exhibition, book"
+      "strong: photobook, zine, book fair, printed matter",
+      "weak: book, exhibition"
     ]
   },
   {
@@ -95,7 +95,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: submission, residency, zine, open call",
+      "strong: residency, submission, open call, zine",
       "weak: exhibition"
     ]
   },
@@ -141,8 +141,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: submission, residency, zine, open call",
-      "weak: artist, exhibition"
+      "strong: residency, submission, open call, zine",
+      "weak: exhibition, artist"
     ]
   },
   {
@@ -184,15 +184,15 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: call for, residency, zine, open call",
+      "strong: residency, call for, open call, zine",
       "weak: artist",
       "has submission link"
     ]
   },
   {
-    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
     "organization": "CuratorSpace",
-    "category": "photo_open_call",
+    "category": "zine_print",
     "city": "Online",
     "country": "Global",
     "overall_score": 5.4,
@@ -201,22 +201,22 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: open call, exhibition",
+    "why_this_fits_short": "Possible fit based on link text: zine, open call",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: open call, exhibition"
+      "Keyword hits: zine, open call"
     ],
     "fit_keyword_hits": [
-      "open call",
-      "exhibition"
+      "zine",
+      "open call"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -227,8 +227,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: open call",
-      "weak: artist, exhibition",
+      "strong: call for, open call, zine, submit",
+      "weak: artist",
       "has submission link"
     ]
   }

@@ -1,16 +1,16 @@
 # Portfolio Pitch — MOUNT ZINE
 
 ## Recommended Body of Work
-Artist Book / Printed Matter
+Architecture / Memory / Place
 
 ## Why This Body Fits
-Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
+Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
 
 ## Opportunity Fit
-Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
+Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 
 ## Match Signals
-zine
+No strong keyword match stored yet.
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

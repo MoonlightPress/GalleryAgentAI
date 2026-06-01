@@ -16,7 +16,6 @@ Demoted photography-only matches: 0
 - **World Illustration Awards** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
 - **3x3 International Illustration Awards** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
 - **American Illustration** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
-- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — watercolor score 10; hits: watercolor
 - **Tokyo Art Book Fair** — watercolor score 10; hits: watercolor, artist book, zine
 - **UTRECHT** — watercolor score 10; hits: watercolor, gallery, bookstore, artist book, zine
 - **Offprint** — watercolor score 10; hits: watercolor, artist book
@@ -31,3 +30,4 @@ Demoted photography-only matches: 0
 - **» 21 Terrific Small Presses Open to Direct Submissions** — watercolor score 10; hits: 
 - **LOCAL Gallery・Books** — watercolor score 10; hits: gallery, zine, paper
 - **Tacoche** — watercolor score 10; hits: artist book, zine
+- **Books Ruhe** — watercolor score 10; hits: bookstore, zine

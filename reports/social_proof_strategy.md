@@ -62,16 +62,46 @@ These opportunities may create disproportionate reputation value.
 - Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## Northwest Watercolor Society 2026 Annual International Open Exhibition
+## ZINEフェス東京 (ZINE Fest Tokyo)
 
 - Prestige: None
-- Why: Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.
+- Why: Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## CSPWC Annual Open Water International Exhibition
+
+- Prestige: None
+- Why: International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## National Watercolor Society International Open Exhibition
+
+- Prestige: None
+- Why: One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## MOUNT ZINE
+
+- Prestige: None
+- Why: Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Applications — Little Tokyo Zine Fest
 
 - Prestige: None
 - Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Northwest Watercolor Society 2026 Annual International Open Exhibition
+
+- Prestige: None
+- Why: Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Japan International Watercolor Institute Online Exhibition
+
+- Prestige: None
+- Why: Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## SCCP Guest Artist
@@ -104,12 +134,6 @@ These opportunities may create disproportionate reputation value.
 - Why: Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## MOUNT ZINE
-
-- Prestige: None
-- Why: Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
 ## Submissions — Clavis Publishing
 
 - Prestige: None
@@ -122,32 +146,8 @@ These opportunities may create disproportionate reputation value.
 - Why: Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin
-
-- Prestige: 0
-- Why: Possible fit based on link text: zine, open call
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at 
-
-- Prestige: 0
-- Why: Possible fit based on link text: zine, open call, residency
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Aperture | Photography
-
-- Prestige: 0
-- Why: Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Browse opportunities | CuratorSpace
-
-- Prestige: 0
-- Why: Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## » 21 Terrific Small Presses Open to Direct Submissions
+## Zine & Book フェス in 神保町 (Jimbocho)
 
 - Prestige: None
-- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- Why: Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

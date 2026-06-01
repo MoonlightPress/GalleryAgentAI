@@ -6,21 +6,27 @@ This report caps inflated scores when verification is weak.
 - UTRECHT: 10.0 → 8.6
 - Offprint: 10.0 → 8.6
 - Fukuoka Art Book Fair: 10.0 → 8.6
+- Northwest Watercolor Society 2026 Annual International Open Exhibition: 10.0 → 8.8
+- CSPWC Annual Open Water International Exhibition: 10.0 → 9.4
 - 3331 Arts Chiyoda: 9.98 → 8.6
 - Book and Sons: 9.9 → 8.6
 - Center for Book Arts Opportunities: 9.8 → 8.6
 - B&B Shimokitazawa: 9.8 → 8.6
-- Northwest Watercolor Society 2026 Annual International Open Exhibition: 9.8 → 9.4
+- Japan International Watercolor Institute Online Exhibition: 9.7 → 8.8
+- National Watercolor Society International Open Exhibition: 9.7 → 9.4
 - Koganecho Area Management Center: 9.65 → 8.6
 - Self Publish, Be Happy: 9.6 → 8.0
+- Shimokitazawa Arts: 9.6 → 8.6
 - Jinny Street Gallery Open Call: 9.6 → 8.6
 - TOKAS Open Call: 9.6 → 8.6
 - Belladonna Art Competition: 9.6 → 8.6
+- Platform China BIAP Artist Residency: 9.6 → 8.6
 - Printed Matter Art Book Fairs: 9.5 → 8.0
 - LOCAL Gallery・Books: 9.5 → 8.6
 - Applications — Little Tokyo Zine Fest: 9.4 → 8.8
 - Tacoche: 9.4 → 8.6
 - SCCP Guest Artist: 9.4 → 8.8
+- Shangyuan International Residency Programme: 9.3 → 8.6
 - Home - Printed Matter: 9.2 → 8.0
 - Open Calls for Artists: 9.2 → 8.6
 - Open Call For Artists: 9.2 → 8.6
@@ -34,10 +40,10 @@ This report caps inflated scores when verification is weak.
 - 【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...: 9.2 → 8.6
 - 2026 松濤美術館公募展｜渋谷区立松濤美術館: 9.2 → 8.6
 - International Open Call: 9.2 → 8.6
+- Zine & Book フェス in 神保町 (Jimbocho): 9.0 → 8.6
 - Zines / Artist Books — Battle Plan: 9.0 → 6.5
 - Submissions — Clavis Publishing: 9.0 → 8.6
 - flotsam books: 9.0 → 8.6
-- MOUNT ZINE: 9.0 → 8.6
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin: 9.0 → 8.6
 - OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at : 9.0 → 8.6
 - BankART1929: 9.0 → 8.6
@@ -52,6 +58,7 @@ This report caps inflated scores when verification is weak.
 - Clavis Publishing Submissions: 9.0 → 8.6
 - Gallery Conceal Shibuya: 9.0 → 8.6
 - Publishing / Artist Books — Battle Plan: 8.9 → 6.5
+- Callback Open Call G George invites you to submit to Callback, a series of contemporary ar: 8.9 → 8.6
 - BONUS TRACK: 8.85 → 8.6
 - POST: 8.8 → 8.0
 - Open Call for the International Creator Residency Program 2026: 8.8 → 8.6

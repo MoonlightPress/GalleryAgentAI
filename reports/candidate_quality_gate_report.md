@@ -1,7 +1,7 @@
 # Candidate Quality Gate Report
 
 Approved: 5
-Rejected: 115
+Rejected: 114
 
 ## Rejected
 
@@ -23,9 +23,9 @@ Rejected: 115
 - DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
-- Printed Matter, Inc. — strong: printed matter, zine, score too low: 2
-- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — strong: printed matter, zine, score too low: 2
-- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: exhibition, gallery, photography, score too low: 3
+- Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
+- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — strong: zine, printed matter, score too low: 2
+- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: exhibition, photography, gallery, score too low: 3
 - See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
 - Skip to main content — generic page without opportunity language
@@ -87,12 +87,11 @@ Rejected: 115
 - View Detail Page — generic page without opportunity language
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
-- Magazine — strong: zine, open call, score too low: 2
+- Magazine — strong: open call, zine, score too low: 2
 - Residency — strong: residency, open call, score too low: 2
 - bipoc artist residency program — strong: residency, open call, weak: artist, score too low: 3
 - call for proposals for solo exhibitions — strong: call for, open call, weak: exhibition, gallery, score too low: 4
 - Open Call — strong: open call, has submission link, score too low: 3
-- The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -123,8 +122,8 @@ Rejected: 115
 
 ## Approved
 
-- Home - Printed Matter — strong: printed matter, book fair, photobook, zine, weak: exhibition, book
-- Browse opportunities | CuratorSpace — strong: submission, residency, zine, open call, weak: exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, residency, zine, open call, weak: artist, exhibition
-- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — strong: call for, residency, zine, open call, weak: artist, has submission link
-- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod — strong: open call, weak: artist, exhibition, has submission link
+- Home - Printed Matter — strong: photobook, zine, book fair, printed matter, weak: book, exhibition
+- Browse opportunities | CuratorSpace — strong: residency, submission, open call, zine, weak: exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — strong: residency, submission, open call, zine, weak: exhibition, artist
+- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — strong: residency, call for, open call, zine, weak: artist, has submission link
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — strong: call for, open call, zine, submit, weak: artist, has submission link

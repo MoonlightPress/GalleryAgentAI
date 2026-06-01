@@ -7,7 +7,7 @@ General Portfolio
 A concise selection of her strongest current work.
 
 ## Opportunity Fit
-International juried show specifically in transparent watercolour. Exhibition is September 2026 so submission window may still be open — check cspwc.ca urgently.
+International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
 
 ## Match Signals
 No strong keyword match stored yet.

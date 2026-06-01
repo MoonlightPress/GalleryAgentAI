@@ -4,6 +4,9 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 
 ## Top Native Painting / Works on Paper Targets
 
+- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 9.6. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
+  - URL: https://www.nwws.org/annual-international-open/
+  - Next: verify current submission/contact details.
 - **Jinny Street Gallery Open Call** — 9.6. Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
   - URL: https://www.jinnystreetgallery.com/open-call
   - Next: verify current submission/contact details.
@@ -49,11 +52,11 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 - **Royal Watercolour Society** — 9.6. Native watercolor context. Strong medium fit if requirements and dates are current.
   - URL: https://www.royalwatercoloursociety.co.uk/
   - Next: verify current submission/contact details.
+- **CSPWC Annual Open Water International Exhibition** — 9.6. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+  - URL: https://cspwc.ca/
+  - Next: verify current submission/contact details.
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.6. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - URL: https://www.jinnystreetgallery.com/open-call
-  - Next: verify current submission/contact details.
-- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 9.6. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor painter — unusually apt cultural fit for GEGYjiji.
-  - URL: https://www.nwws.org/annual-international-open/
   - Next: verify current submission/contact details.
 - **Communication Arts Illustration Competition** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
   - URL: https://www.commarts.com/competitions/illustration
@@ -75,9 +78,6 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
   - Next: verify current submission/contact details.
 - **Aesthetica Art Prize** — 9.6. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
   - URL: https://aestheticamagazine.com/art-prize/
-  - Next: verify current submission/contact details.
-- **Self Publish, Be Happy** — 9.6. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
-  - URL: https://selfpublishbehappy.com/
   - Next: verify current submission/contact details.
 
 ## First Practical Plan

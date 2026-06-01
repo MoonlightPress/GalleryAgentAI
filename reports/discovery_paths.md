@@ -2,10 +2,25 @@
 
 This report suggests adjacent institutions and ecosystems.
 
-## Northwest Watercolor Society 2026 Annual International Open Exhibition
+## ZINEフェス東京 (ZINE Fest Tokyo)
+
+
+## CSPWC Annual Open Water International Exhibition
+
+
+## National Watercolor Society International Open Exhibition
+
+
+## MOUNT ZINE
 
 
 ## Applications — Little Tokyo Zine Fest
+
+
+## Northwest Watercolor Society 2026 Annual International Open Exhibition
+
+
+## Japan International Watercolor Institute Online Exhibition
 
 
 ## SCCP Guest Artist
@@ -32,28 +47,11 @@ This report suggests adjacent institutions and ecosystems.
 ## flotsam books
 
 
-## MOUNT ZINE
-
-
 ## Submissions — Clavis Publishing
 
 
 ## Fukuoka Art Book Fair
 
 
-## AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin
-
-
-## OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at 
-
-
-## Aperture | Photography
-
-- Self Publish, Be Happy (similarity 3)
-- Home - Printed Matter (similarity 3)
-
-## Browse opportunities | CuratorSpace
-
-
-## » 21 Terrific Small Presses Open to Direct Submissions
+## Zine & Book フェス in 神保町 (Jimbocho)
 

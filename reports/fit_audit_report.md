@@ -4,6 +4,11 @@ This report checks whether high-scoring opportunities are actually supported by 
 
 ## Needs Review
 
+### ZINEフェス東京 (ZINE Fest Tokyo) — 9.4/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### Tokyo Art Book Fair — 8.6/10 — needs review
 Positive reasons:
 - aesthetic lineage +2.58
@@ -30,10 +35,9 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### MOUNT ZINE — 8.6/10 — needs review
+### MOUNT ZINE — 9.2/10 — possibly inflated
 Risks:
 - high score but few clear supporting reasons
-- high score but still needs verification
 
 ### Submissions — Clavis Publishing — 8.6/10 — needs review
 Risks:
@@ -48,7 +52,20 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Northwest Watercolor Society 2026 Annual International Open Exhibition — 9.4/10 — needs review
+### Zine & Book フェス in 神保町 (Jimbocho) — 8.6/10 — needs review
+Positive reasons:
+- aesthetic lineage +0.8
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### CSPWC Annual Open Water International Exhibition — 9.4/10 — possibly inflated
+Positive reasons:
+- tag: global
+Risks:
+- high score but few clear supporting reasons
+
+### National Watercolor Society International Open Exhibition — 9.4/10 — needs review
 Positive reasons:
 - tag: global
 Risks:
@@ -184,14 +201,6 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Jimbocho Zine Fair — 8.6/10 — needs review
-Positive reasons:
-- aesthetic lineage +0.8
-Risks:
-- many missing verification fields: submission, deadline, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 ### Books Ruhe — 8.6/10 — needs review
 Risks:
 - many missing verification fields: submission, deadline, fees, contact
@@ -261,20 +270,6 @@ Risks:
 ### DER GREIF — 8.6/10 — needs review
 Risks:
 - many missing verification fields: submission, deadline, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### American Watercolor Society Annual International Exhibition — 8.6/10 — needs review
-Positive reasons:
-- high prestige
-- global/international target
-- tag: global
-Risks:
-- many missing verification fields: submission, deadline, fees, contact
-- high score but still needs verification
-
-### SCCP Guest Artist — 8.8/10 — needs review
-Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 

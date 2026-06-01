@@ -1,7 +1,7 @@
 # Picaresque Gallery
 
 ## 1. Quick Judgment
-**Fit score:** 3.5/10  
+**Fit score:** 3.1/10  
 **Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  

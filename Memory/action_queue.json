@@ -1,8 +1,8 @@
 [
   {
-    "key": "northwest watercolor society 2026 annual international open exhibition::northwest watercolor society (nwws)",
-    "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-    "organization": "Northwest Watercolor Society (NWWS)",
+    "key": "zineフェス東京 (zine fest tokyo)::book culture club",
+    "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+    "organization": "BOOK CULTURE CLUB",
     "score": 9.4,
     "priority": "high",
     "status": "new",
@@ -14,6 +14,52 @@
       "contact"
     ],
     "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "cspwc annual open water international exhibition::canadian society of painters in water colour",
+    "title": "CSPWC Annual Open Water International Exhibition",
+    "organization": "Canadian Society of Painters in Water Colour",
+    "score": 9.4,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "national watercolor society international open exhibition::national watercolor society (nws)",
+    "title": "National Watercolor Society International Open Exhibition",
+    "organization": "National Watercolor Society (NWS)",
+    "score": 9.4,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "mount zine::mount zine",
+    "title": "MOUNT ZINE",
+    "organization": "MOUNT ZINE",
+    "score": 9.2,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [],
+    "recommended_action": "High-fit opportunity. Review report and prepare outreach."
   },
   {
     "key": "applications — little tokyo zine fest::applications — little tokyo zine fest",
@@ -30,6 +76,38 @@
       "fees"
     ],
     "recommended_action": "Research missing details: fees."
+  },
+  {
+    "key": "northwest watercolor society 2026 annual international open exhibition::northwest watercolor society (nwws)",
+    "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+    "organization": "Northwest Watercolor Society (NWWS)",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "japan international watercolor institute online exhibition::japan international watercolor institute",
+    "title": "Japan International Watercolor Institute Online Exhibition",
+    "organization": "Japan International Watercolor Institute",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
   },
   {
     "key": "sccp guest artist::sccp guest artist",
@@ -64,9 +142,9 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "cspwc annual open water international exhibition::canadian society of painters in water colour",
-    "title": "CSPWC Annual Open Water International Exhibition",
-    "organization": "Canadian Society of Painters in Water Colour",
+    "key": "shangyuan international residency programme::shangyuan art museum",
+    "title": "Shangyuan International Residency Programme",
+    "organization": "Shangyuan Art Museum",
     "score": 8.6,
     "priority": "high",
     "status": "new",
@@ -97,6 +175,23 @@
     "recommended_action": "Research missing details: fees, contact."
   },
   {
+    "key": "zine & book フェス in 神保町 (jimbocho)::jimbocho zine fair",
+    "title": "Zine & Book フェス in 神保町 (Jimbocho)",
+    "organization": "Jimbocho Zine Fair",
+    "score": 8.2,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: fees, contact."
+  },
+  {
     "key": "shimokitazawa arts::shimokitazawa arts",
     "title": "Shimokitazawa Arts",
     "organization": "Shimokitazawa Arts",
@@ -113,6 +208,22 @@
       "contact"
     ],
     "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "platform china biap artist residency::platform china contemporary art institute",
+    "title": "Platform China BIAP Artist Residency",
+    "organization": "Platform China Contemporary Art Institute",
+    "score": 8.2,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
   },
   {
     "key": "jinny street gallery open call::jinny street gallery open call",
@@ -181,22 +292,6 @@
       "contact"
     ],
     "recommended_action": "Research missing details: fees, contact."
-  },
-  {
-    "key": "platform china biap artist residency::platform china contemporary art institute",
-    "title": "Platform China BIAP Artist Residency",
-    "organization": "Platform China Contemporary Art Institute",
-    "score": 8.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
   },
   {
     "key": "open calls for artists::open calls for artists",
@@ -595,54 +690,6 @@
     "recommended_action": "Research missing details: submission process, fees, contact."
   },
   {
-    "key": "japan international watercolor institute online exhibition::japan international watercolor institute",
-    "title": "Japan International Watercolor Institute Online Exhibition",
-    "organization": "Japan International Watercolor Institute",
-    "score": 8.1,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "national watercolor society international open exhibition::national watercolor society (nws)",
-    "title": "National Watercolor Society International Open Exhibition",
-    "organization": "National Watercolor Society (NWS)",
-    "score": 8.1,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "shangyuan international residency programme::shangyuan art museum",
-    "title": "Shangyuan International Residency Programme",
-    "organization": "Shangyuan Art Museum",
-    "score": 7.9,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
     "key": "utrecht::utrecht",
     "title": "UTRECHT",
     "organization": "UTRECHT",
@@ -678,22 +725,6 @@
     "key": "flotsam books::flotsam books",
     "title": "flotsam books",
     "organization": "flotsam books",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "mount zine::mount zine",
-    "title": "MOUNT ZINE",
-    "organization": "MOUNT ZINE",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -1084,25 +1115,6 @@
     "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "jimbocho zine fair::jimbocho zine fair",
-    "title": "Jimbocho Zine Fair",
-    "organization": "Jimbocho Zine Fair",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
     "key": "books ruhe::books ruhe",
     "title": "Books Ruhe",
     "organization": "Books Ruhe",
@@ -1463,25 +1475,6 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "zineフェス東京::zineフェス東京",
-    "title": "ZINEフェス東京",
-    "organization": "ZINEフェス東京",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
     "key": "zineイベント::zineイベント",
     "title": "ZINEイベント",
     "organization": "ZINEイベント",
@@ -1608,6 +1601,24 @@
     "key": "clavis publishing submissions::clavis publishing submissions",
     "title": "Clavis Publishing Submissions",
     "organization": "Clavis Publishing Submissions",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "callback open call g george invites you to submit to callback, a series of contemporary ar::curatorspace",
+    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "organization": "CuratorSpace",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -2196,6 +2207,24 @@
     "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
+    "key": "audio work required - artists and friends podcast - open call artists and friends is a pod::curatorspace",
+    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+    "organization": "CuratorSpace",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
     "key": "asian cultural council fellowship::asian cultural council",
     "title": "Asian Cultural Council Fellowship",
     "organization": "Asian Cultural Council",
@@ -2213,42 +2242,6 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "callback open call g george invites you to submit to callback, a series of contemporary ar::curatorspace",
-    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
-    "organization": "CuratorSpace",
-    "score": 7.5,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
-    "key": "audio work required - artists and friends podcast - open call artists and friends is a pod::curatorspace",
-    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
-    "organization": "CuratorSpace",
-    "score": 6.8,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
     "key": "self publish, be happy::self publish, be happy",
@@ -2892,24 +2885,6 @@
     "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
-    "key": "clouds art + coffee::clouds art + coffee",
-    "title": "Clouds Art + Coffee",
-    "organization": "Clouds Art + Coffee",
-    "score": 2.0,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
     "key": "loneliness books::loneliness books",
     "title": "loneliness books",
     "organization": "loneliness books",
@@ -2965,6 +2940,24 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "clouds art + coffee::clouds art + coffee",
+    "title": "Clouds Art + Coffee",
+    "organization": "Clouds Art + Coffee",
+    "score": 2.0,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
     "key": "nadiff a/p/a/r/t::nadiff",
@@ -3047,22 +3040,6 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "picaresque gallery::picaresque gallery",
-    "title": "Picaresque Gallery",
-    "organization": "Picaresque Gallery",
-    "score": 2.0999999999999996,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
     "key": "mado café::mado café",
     "title": "MADO Café",
     "organization": "MADO Café",
@@ -3079,10 +3056,26 @@
     "recommended_action": "Research missing details: contact."
   },
   {
+    "key": "picaresque gallery::picaresque gallery",
+    "title": "Picaresque Gallery",
+    "organization": "Picaresque Gallery",
+    "score": 1.7,
+    "priority": "medium",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
     "key": "spiral::spiral",
     "title": "Spiral",
     "organization": "Spiral",
-    "score": 1.5999999999999999,
+    "score": 1.2,
     "priority": "medium",
     "status": "new",
     "saved": false,

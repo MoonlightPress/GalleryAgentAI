@@ -11,11 +11,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
+- ZINEフェス東京 (ZINE Fest Tokyo)
 - Tokyo Art Book Fair
 - UTRECHT
 - B&B Shimokitazawa
 - MOUNT ZINE
-- Submissions — Clavis Publishing
 
 ### What To Prepare
 - 12–20 image edit
@@ -55,11 +55,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
+- ZINEフェス東京 (ZINE Fest Tokyo)
 - Tokyo Art Book Fair
 - UTRECHT
 - B&B Shimokitazawa
 - flotsam books
-- MOUNT ZINE
 
 ### What To Prepare
 - 12–20 image edit

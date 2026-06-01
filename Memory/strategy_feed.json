@@ -1,13 +1,63 @@
 {
   "featured": [
     {
-      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "title": "CSPWC Annual Open Water International Exhibition",
       "bucket": "easy_win",
       "score": 9.4,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Global Watercolor Open Call",
+      "city": "Toronto",
+      "image": ""
+    },
+    {
+      "title": "National Watercolor Society International Open Exhibition",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Global Watercolor Open Call",
+      "city": "California / Online",
+      "image": ""
+    },
+    {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Zine Fair Booth",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "MOUNT ZINE",
+      "bucket": "easy_win",
+      "score": 9.2,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Zine Shop Consignment",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "bucket": "easy_win",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Global Watercolor Open Call",
       "city": "Online / Seattle",
+      "image": ""
+    },
+    {
+      "title": "Japan International Watercolor Institute Online Exhibition",
+      "bucket": "easy_win",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Japan Watercolor Open Call",
+      "city": "Online / Niigata",
       "image": ""
     },
     {
@@ -69,67 +119,67 @@
       "category": "Markets / Popups / Booths",
       "city": "Japan / Tokyo / Online",
       "image": ""
-    },
-    {
-      "title": "3331 Arts Chiyoda",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Book and Sons",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Center for Book Arts Opportunities",
-      "bucket": "general",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Potentially useful depending on current strategic goals.",
-      "category": "Global Book Arts",
-      "city": "New York",
-      "image": ""
-    },
-    {
-      "title": "B&B Shimokitazawa",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Koganecho Area Management Center",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
-      "image": ""
     }
   ],
   "easy_wins": [
     {
-      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "title": "CSPWC Annual Open Water International Exhibition",
       "bucket": "easy_win",
       "score": 9.4,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Global Watercolor Open Call",
+      "city": "Toronto",
+      "image": ""
+    },
+    {
+      "title": "National Watercolor Society International Open Exhibition",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Global Watercolor Open Call",
+      "city": "California / Online",
+      "image": ""
+    },
+    {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Zine Fair Booth",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "MOUNT ZINE",
+      "bucket": "easy_win",
+      "score": 9.2,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Zine Shop Consignment",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "bucket": "easy_win",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Global Watercolor Open Call",
       "city": "Online / Seattle",
+      "image": ""
+    },
+    {
+      "title": "Japan International Watercolor Institute Online Exhibition",
+      "bucket": "easy_win",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Japan Watercolor Open Call",
+      "city": "Online / Niigata",
       "image": ""
     },
     {
@@ -190,56 +240,6 @@
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Artist Spaces",
       "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Book and Sons",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "B&B Shimokitazawa",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Koganecho Area Management Center",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
-      "image": ""
-    },
-    {
-      "title": "Jinny Street Gallery Open Call",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Galleries / Exhibition Calls",
-      "city": "Japan / Tokyo / Online",
-      "image": ""
-    },
-    {
-      "title": "TOKAS Open Call",
-      "bucket": "easy_win",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Galleries / Exhibition Calls",
-      "city": "Japan / Tokyo / Online",
       "image": ""
     }
   ],
@@ -357,6 +357,16 @@
       "image": ""
     },
     {
+      "title": "Sunny Boy Books",
+      "bucket": "portfolio_builder",
+      "score": 3.4,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
       "title": "loneliness books",
       "bucket": "portfolio_builder",
       "score": 3.0,
@@ -389,22 +399,22 @@
   ],
   "community_builders": [
     {
-      "title": "Clouds Art + Coffee",
-      "bucket": "community_builder",
-      "score": 7.6,
-      "confidence": "Medium",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Cafe / Local Wall Spaces",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
       "title": "RAW TOKYO",
       "bucket": "community_builder",
       "score": 7.1,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Clouds Art + Coffee",
+      "bucket": "community_builder",
+      "score": 2.6,
+      "confidence": "Medium",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Cafe / Local Wall Spaces",
       "city": "Tokyo",
       "image": ""
     },
@@ -421,9 +431,31 @@
   ],
   "global_targets": [
     {
-      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "title": "CSPWC Annual Open Water International Exhibition",
       "bucket": "global_targets",
       "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Watercolor Open Call",
+      "city": "Toronto",
+      "country": "Canada",
+      "image": ""
+    },
+    {
+      "title": "National Watercolor Society International Open Exhibition",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Watercolor Open Call",
+      "city": "California / Online",
+      "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "bucket": "global_targets",
+      "score": 8.8,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Global Watercolor Open Call",
@@ -454,6 +486,28 @@
       "image": ""
     },
     {
+      "title": "Platform China BIAP Artist Residency",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Residency Beijing",
+      "city": "Beijing",
+      "country": "China",
+      "image": ""
+    },
+    {
+      "title": "Shangyuan International Residency Programme",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Residency Beijing",
+      "city": "Beijing",
+      "country": "China",
+      "image": ""
+    },
+    {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
       "bucket": "global_targets",
       "score": 8.6,
@@ -477,6 +531,17 @@
     },
     {
       "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
       "bucket": "global_targets",
       "score": 8.6,
       "confidence": "Medium",
@@ -562,64 +627,31 @@
       "city": "Online",
       "country": "Global",
       "image": ""
-    },
-    {
-      "title": "Cité Internationale des Arts Artist Residency",
-      "bucket": "global_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Residency",
-      "city": "Paris",
-      "country": "France",
-      "image": ""
-    },
-    {
-      "title": "PhotoVogue",
-      "bucket": "global_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Photo Open Call",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "CSPWC Annual Open Water International Exhibition",
-      "bucket": "global_targets",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Watercolor Open Call",
-      "city": "Toronto",
-      "country": "Canada",
-      "image": ""
-    },
-    {
-      "title": "Platform China BIAP Artist Residency",
-      "bucket": "global_targets",
-      "score": 8.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Residency Beijing",
-      "city": "Beijing",
-      "country": "China",
-      "image": ""
-    },
-    {
-      "title": "National Watercolor Society International Open Exhibition",
-      "bucket": "global_targets",
-      "score": 8.1,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Watercolor Open Call",
-      "city": "California / Online",
-      "country": "USA",
-      "image": ""
     }
   ],
   "publication_targets": [
+    {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Zine Fair Booth",
+      "city": "Tokyo",
+      "country": "Japan",
+      "image": ""
+    },
+    {
+      "title": "MOUNT ZINE",
+      "bucket": "publication_targets",
+      "score": 9.2,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Zine Shop Consignment",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
     {
       "title": "UTRECHT",
       "bucket": "publication_targets",
@@ -720,17 +752,6 @@
       "image": ""
     },
     {
-      "title": "MOUNT ZINE",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
       "bucket": "publication_targets",
       "score": 8.6,
@@ -775,6 +796,17 @@
       "image": ""
     },
     {
+      "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
       "title": "Aperture | Photography",
       "bucket": "publication_targets",
       "score": 8.6,
@@ -794,28 +826,6 @@
       "category": "Print / Zines / Bookstores",
       "city": "Online",
       "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "» 21 Terrific Small Presses Open to Direct Submissions",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Book Publishing",
-      "city": "Japan / Tokyo / Online",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "Books Ruhe",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Kichijoji, Tokyo",
-      "country": "",
       "image": ""
     }
   ]

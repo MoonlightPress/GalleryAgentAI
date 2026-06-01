@@ -4,26 +4,26 @@ Suggested strategic pacing for outreach and applications.
 
 ## Immediate Targets
 
-- Northwest Watercolor Society 2026 Annual International Open Exhibition (9.4/10)
+- ZINEフェス東京 (ZINE Fest Tokyo) (9.4/10)
+- CSPWC Annual Open Water International Exhibition (9.4/10)
+- National Watercolor Society International Open Exhibition (9.4/10)
+- MOUNT ZINE (9.2/10)
 - Applications — Little Tokyo Zine Fest (8.8/10)
+- Northwest Watercolor Society 2026 Annual International Open Exhibition (8.8/10)
+- Japan International Watercolor Institute Online Exhibition (8.8/10)
 - SCCP Guest Artist (8.8/10)
 - Tokyo Art Book Fair (8.6/10)
 - UTRECHT (8.6/10)
 - B&B Shimokitazawa (8.6/10)
 - flotsam books (8.6/10)
-- MOUNT ZINE (8.6/10)
 - Submissions — Clavis Publishing (8.6/10)
 - Fukuoka Art Book Fair (8.6/10)
+- Zine & Book フェス in 神保町 (Jimbocho) (8.6/10)
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin (8.6/10)
 - OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  (8.6/10)
 - Aperture | Photography (8.6/10)
 - Browse opportunities | CuratorSpace (8.6/10)
 - » 21 Terrific Small Presses Open to Direct Submissions (8.6/10)
-- SUBMISSIONS - marblepress.com (8.6/10)
-- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide] (8.6/10)
-- Publishers & Publishing Services in Japan - PublishersGlobal.com (8.6/10)
-- Submissions - Little Press Publishing (8.6/10)
-- 3 Top Book Publishers in Tokyo in 2026 (8.6/10)
 
 ## Build Toward
 

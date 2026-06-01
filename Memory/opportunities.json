@@ -3916,14 +3916,14 @@
     "submission_page": "https://www.nadiff.com/",
     "source_url": "https://www.nadiff.com/",
     "source_link": "https://www.nadiff.com/",
-    "source_status": "verified_link_present",
+    "source_status": "venue_closed",
     "deadline": "Check current schedule",
     "fees": "Check source",
-    "status": "needs_review",
-    "visibility": "secondary",
-    "priority": "C",
+    "status": "permanently_closed",
+    "visibility": "hidden",
+    "priority": "REMOVE",
     "friction_level": "low",
-    "notes": "Art bookstore/gallery; useful for art book ecosystem mapping.",
+    "notes": "PERMANENTLY CLOSED March 31, 2025. Ebisu flagship shut after 17 years. Website down (ECONNREFUSED). Confirmed by Tokyo Art Beat [Closed] marker and multiple press sources. Surviving NADiff branches are CCC-operated museum shops — not equivalent. Not an actionable opportunity at any career stage.",
     "last_seen": "2026-05-26",
     "needs_council_review": false,
     "council_review": {
@@ -4061,7 +4061,10 @@
       "danger_if_pursued_too_early": "The primary danger is establishing a dysfunctional research pattern: spending energy investigating venues without transparent processes before building career foundation. This trains the artist to chase ambiguous international leads rather than developing local visibility and structured opportunities. Emotional risk for artist with low tolerance for cold outreach ambiguity—pursuing this creates exactly the friction pattern they want to avoid. Practical danger is time waste: hours spent researching whether submission is possible, potential awkward cold outreach, managing cross-cultural communication uncertainty, all with high probability of no response or 'we don't accept submissions.' Reinforces scarcity mindset that obscure international venues matter more than accessible local ones.",
       "best_timing": "Only after: (1) Artist has publication-based work or artist books that justify bookstore context; (2) Artist has established Tokyo connections through structured programs that might facilitate warm introduction; (3) Artist has confirmed NADiff actually accepts artist submissions through direct research or peer intelligence; (4) Artist is planning Tokyo visit and can conduct in-person research rather than remote cold outreach. Essentially: never pursue as standalone cold opportunity. Only relevant as secondary channel after Tokyo ecosystem entry through other means, or if artist spontaneously develops publication practice and seeks distribution channels. Current timing is 'not applicable'—this isn't an opportunity to time, it's a business to be aware of if specific conditions emerge."
     },
-    "compound_career_score": 1.0
+    "compound_career_score": 1.0,
+    "closure_date": "2026-03-31",
+    "closure_confirmed": true,
+    "last_researched": "2026-06-01"
   },
   {
     "id": "e08ae3e52a88",

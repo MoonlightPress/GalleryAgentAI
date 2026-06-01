@@ -1,7 +1,7 @@
 # Spiral
 
 ## 1. Quick Judgment
-**Fit score:** 3.0/10  
+**Fit score:** 2.6/10  
 **Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  

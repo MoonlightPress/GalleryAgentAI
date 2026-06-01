@@ -99,6 +99,15 @@
     ],
     "opportunity_targets": [
       {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine"
+        ],
+        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year."
+      },
+      {
         "title": "Tokyo Art Book Fair",
         "score": 8.6,
         "differentiated_score": 10.59,
@@ -131,12 +140,12 @@
       },
       {
         "title": "MOUNT ZINE",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "score": 9.2,
+        "differentiated_score": 10.51,
         "hits": [
           "zine"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
       },
       {
         "title": "Submissions — Clavis Publishing",
@@ -158,22 +167,13 @@
         "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
       },
       {
-        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+        "title": "Zine & Book フェス in 神保町 (Jimbocho)",
         "score": 8.6,
-        "differentiated_score": 10.22,
+        "differentiated_score": 10.34,
         "hits": [
           "zine"
         ],
-        "why": "Possible fit based on link text: zine, open call"
-      },
-      {
-        "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-        "score": 8.6,
-        "differentiated_score": 10.22,
-        "hits": [
-          "zine"
-        ],
-        "why": "Possible fit based on link text: zine, open call, residency"
+        "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
       }
     ]
   },
@@ -351,6 +351,15 @@
     ],
     "opportunity_targets": [
       {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine"
+        ],
+        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year."
+      },
+      {
         "title": "Tokyo Art Book Fair",
         "score": 8.6,
         "differentiated_score": 10.59,
@@ -393,12 +402,12 @@
       },
       {
         "title": "MOUNT ZINE",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "score": 9.2,
+        "differentiated_score": 10.51,
         "hits": [
           "zine"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
       },
       {
         "title": "Submissions — Clavis Publishing",
@@ -418,15 +427,6 @@
           "book fair"
         ],
         "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
-      },
-      {
-        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-        "score": 8.6,
-        "differentiated_score": 10.22,
-        "hits": [
-          "zine"
-        ],
-        "why": "Possible fit based on link text: zine, open call"
       }
     ]
   },
@@ -553,7 +553,7 @@
           "portfolio review",
           "open call"
         ],
-        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
+        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
       },
       {
         "title": "BankART1929",

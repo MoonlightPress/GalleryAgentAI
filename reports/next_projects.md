@@ -23,14 +23,14 @@ This report answers the question: what should she actually make or submit next?
 - End with an image that feels unresolved rather than final.
 
 ### Best Opportunity Targets
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — 9.4 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 - **Tokyo Art Book Fair** — 8.6 / 10.59. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 7.6 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **B&B Shimokitazawa** — 7.6 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 - **flotsam books** — 7.6 / 10.59. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
-- **MOUNT ZINE** — 7.6 / 10.59. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
+- **MOUNT ZINE** — 9.2 / 10.51. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - **Submissions — Clavis Publishing** — 7.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **Fukuoka Art Book Fair** — 8.2 / 10.34. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
-- **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 7.6 / 10.22. Possible fit based on link text: zine, open call
 
 ### Best Publisher / Platform Targets
 - **Printed Matter** — high — Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.
@@ -64,14 +64,14 @@ Make a 20-image edit and title it provisionally. Do not write the full statement
 - End with the quietest image, not the most dramatic one.
 
 ### Best Opportunity Targets
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — 9.4 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 - **Tokyo Art Book Fair** — 8.6 / 10.59. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 7.6 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **B&B Shimokitazawa** — 7.6 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 - **flotsam books** — 7.6 / 10.59. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
-- **MOUNT ZINE** — 7.6 / 10.59. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
+- **MOUNT ZINE** — 9.2 / 10.51. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - **Submissions — Clavis Publishing** — 7.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **Fukuoka Art Book Fair** — 8.2 / 10.34. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
-- **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 7.6 / 10.22. Possible fit based on link text: zine, open call
 
 ### Best Publisher / Platform Targets
 - **Printed Matter** — high — Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.
@@ -100,14 +100,14 @@ Build the edit as a PDF contact sheet first, then reduce it by half.
 - Close with something modest but memorable.
 
 ### Best Opportunity Targets
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — 9.4 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 - **Tokyo Art Book Fair** — 8.6 / 10.59. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 7.6 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **B&B Shimokitazawa** — 7.6 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 - **flotsam books** — 7.6 / 10.59. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
-- **MOUNT ZINE** — 7.6 / 10.59. Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
+- **MOUNT ZINE** — 9.2 / 10.51. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - **Submissions — Clavis Publishing** — 7.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **Fukuoka Art Book Fair** — 8.2 / 10.34. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
-- **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 7.6 / 10.22. Possible fit based on link text: zine, open call
 
 ### Best Publisher / Platform Targets
 - **Printed Matter** — high — Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.

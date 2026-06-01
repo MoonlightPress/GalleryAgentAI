@@ -1,37 +1,37 @@
 # Pipeline Debug Summary
 
 - opportunities: 173
-- candidates: 120
+- candidates: 119
 - approved_candidates: 5
-- rejected_candidates: 115
+- rejected_candidates: 114
 - strategy_feed: 7
 - fit_audit: 173
 
 ## Top 15 Opportunities
 
+- ZINEフェス東京 (ZINE Fest Tokyo) — 9.4/10 — partial — ok — 
 - Tokyo Art Book Fair — 8.6/10 — partial — ok — 
 - UTRECHT — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - B&B Shimokitazawa — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - flotsam books — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- MOUNT ZINE — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- MOUNT ZINE — 9.2/10 — verified — ok — Capped at 7.6 due to verification strength.
 - Submissions — Clavis Publishing — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - Fukuoka Art Book Fair — 8.2/10 — partial — ok — Capped at 8.2 due to verification strength.
-- Northwest Watercolor Society 2026 Annual International Open Exhibition — 9.4/10 — partial — ok — 
+- Zine & Book フェス in 神保町 (Jimbocho) — 8.2/10 — partial — ok — Capped at 8.2 due to verification strength.
+- CSPWC Annual Open Water International Exhibition — 9.4/10 — partial — ok — 
+- National Watercolor Society International Open Exhibition — 9.4/10 — partial — ok — 
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - Aperture | Photography — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - Browse opportunities | CuratorSpace — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- » 21 Terrific Small Presses Open to Direct Submissions — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- SUBMISSIONS - marblepress.com — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide] — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 
 ## Approved Candidate Sample
 
-- Home - Printed Matter — 8.5 — approved — strong: printed matter, book fair, photobook, zine, weak: exhibition, book
-- Browse opportunities | CuratorSpace — 8.1 — approved — strong: submission, residency, zine, open call, weak: exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: submission, residency, zine, open call, weak: artist, exhibition
-- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — 6.1 — approved — strong: call for, residency, zine, open call, weak: artist, has submission link
-- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod — 5.4 — approved — strong: open call, weak: artist, exhibition, has submission link
+- Home - Printed Matter — 8.5 — approved — strong: photobook, zine, book fair, printed matter, weak: book, exhibition
+- Browse opportunities | CuratorSpace — 8.1 — approved — strong: residency, submission, open call, zine, weak: exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: residency, submission, open call, zine, weak: exhibition, artist
+- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — 6.1 — approved — strong: residency, call for, open call, zine, weak: artist, has submission link
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 5.4 — approved — strong: call for, open call, zine, submit, weak: artist, has submission link
 
 ## Rejected Candidate Sample
 
@@ -53,5 +53,5 @@
 - DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — 4.95 — rejected — generic page without opportunity language
 - Exhibitions — 4.7 — rejected — junk title: exhibitions
 - Requests to List Exhibitions and Events — 4.7 — rejected — generic page without opportunity language
-- Printed Matter, Inc. — 4.7 — rejected — strong: printed matter, zine, score too low: 2
-- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — 4.7 — rejected — strong: printed matter, zine, score too low: 2
+- Printed Matter, Inc. — 4.7 — rejected — strong: zine, printed matter, score too low: 2
+- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — 4.7 — rejected — strong: zine, printed matter, score too low: 2
