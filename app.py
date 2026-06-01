@@ -2,6 +2,8 @@
 import base64
 import json
 import os
+import re
+from datetime import datetime, date as _date
 from ui.strategy_homepage_components import render_strategy_homepage
 from ui.zine_opportunity_section import render_zine_section
 from ui.best_moves_streamlit_section import render_best_moves_section
@@ -554,62 +556,277 @@ def render_detail(opp):
     st.markdown("</div>", unsafe_allow_html=True)
 
 
-def render_hero():
-    hero_path = "static/assets/headers/mochi_hero.png"
+def _parse_deadline_app(text):
+    """Lightweight deadline parser: returns a date or None."""
+    if not text:
+        return None
+    s = str(text).strip().lower()
+    if s in {"unknown", "check source", "check current schedule", "n/a", "tbd", "varies", ""}:
+        return None
+    month_map = {"jan":1,"feb":2,"mar":3,"apr":4,"may":5,"jun":6,
+                 "jul":7,"aug":8,"sep":9,"oct":10,"nov":11,"dec":12}
+    today = _date.today()
+    candidates = []
+    # Full: "June 30, 2026" / "Jun 30 2026"
+    for m in re.finditer(
+        r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\w*\.?\s+(\d{1,2}),?\s+(20\d{2})",
+        text, re.I,
+    ):
+        try:
+            candidates.append(_date(int(m.group(3)), month_map[m.group(1).lower()[:3]], int(m.group(2))))
+        except (ValueError, KeyError):
+            pass
+    # ISO: 2026-06-30
+    for m in re.finditer(r"(20\d{2})-(\d{2})-(\d{2})", text):
+        try:
+            candidates.append(_date(int(m.group(1)), int(m.group(2)), int(m.group(3))))
+        except ValueError:
+            pass
+    # Partial: "June 27" (no year)
+    for m in re.finditer(
+        r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\w*\.?\s+(\d{1,2})\b(?!\s*,?\s*20\d{2})",
+        text, re.I,
+    ):
+        try:
+            month = month_map[m.group(1).lower()[:3]]
+            d = _date(today.year, month, int(m.group(2)))
+            if d < today:
+                d = _date(today.year + 1, month, int(m.group(2)))
+            candidates.append(d)
+        except (ValueError, KeyError):
+            pass
+    if not candidates:
+        return None
+    future = [d for d in candidates if d >= today]
+    return min(future) if future else None
 
-    if os.path.exists(hero_path):
-        with open(hero_path, "rb") as f:
-            hero_b64 = base64.b64encode(f.read()).decode()
 
-        st.markdown(f"""
-        <style>
-        .hero-box {{
-            position: relative;
-            height: 430px;
-            margin-bottom: 24px;
-            border-radius: 28px;
-            overflow: hidden;
-            border: 1px solid #dcc19b;
-            box-shadow: 0 14px 34px rgba(70,44,20,.12);
-            background-image: url("data:image/png;base64,{hero_b64}");
-            background-size: cover;
-            background-position: center center;
-        }}
+def _render_section_cards():
+    """Six section mini-cards beneath the hero."""
+    sections = [
+        ("static/assets/cards/stamp_gallery.png",   "🏛️", "Opportunities",    "Galleries, open calls, and residencies"),
+        ("static/assets/cards/stamp_bookstore.png",  "📖", "Zines & Print",     "Art book fairs, zine shops, self-publishing"),
+        ("static/assets/cards/stamp_cafe.png",       "✉️", "Outreach",          "Conversations and ready-to-send drafts"),
+        ("static/assets/cards/stamp_market.png",     "🐭", "Peppercorn",        "Goals, questlines, and your artist voice"),
+        ("static/assets/cards/stamp_residency.png",  "🐦", "Saffron",           "Market context and comparable artists"),
+        ("",                                          "🗄️", "Archive",           "Complete history and all opportunities"),
+    ]
+    cols = st.columns(6, gap="small")
+    for col, (stamp_path, fallback_icon, title, desc) in zip(cols, sections):
+        with col:
+            stamp_uri = image_data_uri(stamp_path) if stamp_path else ""
+            icon_html = (
+                f'<img src="{stamp_uri}" style="width:44px;height:44px;object-fit:contain;opacity:.9;">'
+                if stamp_uri else
+                f'<span style="font-size:1.8rem;line-height:1">{fallback_icon}</span>'
+            )
+            st.markdown(
+                f"""
+<div style="background:rgba(255,252,245,.95);border:1px solid #dcc19b;
+            border-radius:18px;padding:16px 12px 14px;text-align:center;
+            min-height:148px;box-shadow:0 4px 14px rgba(70,44,20,.07);
+            display:flex;flex-direction:column;align-items:center;gap:7px;
+            transition:box-shadow .15s;">
+  {icon_html}
+  <div style="font-family:Georgia,serif;font-size:.86rem;font-weight:700;
+              color:#3f3027;line-height:1.2;margin-top:2px">{title}</div>
+  <div style="font-size:.72rem;color:#7a6250;line-height:1.35">{desc}</div>
+</div>""",
+                unsafe_allow_html=True,
+            )
 
-        .hero-box .hero-title {{
-            position: absolute;
-            top: 130px;
-            left: 58px;
-            font-family: Georgia, "Times New Roman", serif;
-            font-size: 3.2rem;
-            color: #3f3027;
-            line-height: 1;
-        }}
 
-        .hero-box .hero-subtitle {{
-            position: absolute;
-            top: 190px;
-            left: 58px;
-            max-width: 470px;
-            font-size: 1.12rem;
-            line-height: 1.45;
-            color: #5e4d3d;
-            background: rgba(255,248,240,.72);
-            padding: 12px 16px;
-            border-radius: 14px;
-        }}
-        </style>
-
-        <div class="hero-box">
-            <div class="hero-title">Mochi's Atelier</div>
-            <div class="hero-subtitle">
-                Gentle opportunity browsing, source links,
-                and ready-to-edit outreach drafts.
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+def render_mochi_statusbar():
+    """Persistent status bar at the bottom of every page."""
+    hour = datetime.now().hour
+    if hour < 12:
+        mood = "☀️ Bright-eyed + Curious"
+        message = "Mochi woke up early and checked for new opportunities."
+    elif hour < 17:
+        mood = "🌿 Happy + Full + Content"
+        message = "Mochi is happily napping in the sun. Come back later to feed and play!"
     else:
-        st.error(f"Hero image not found: {hero_path}")
+        mood = "🕯 Cozy + Settled + Warm"
+        message = "Mochi is dozing by the warm lamplight, dreaming of new shows."
+
+    ibm_data = load_json("memory/exclusive_strategy_buckets.json", {})
+    ibm_count = len(ibm_data.get("immediate_best_moves", []))
+    note = f"{ibm_count} things worth your attention today." if ibm_count else "You've got beautiful things to make."
+
+    cat_uri = image_data_uri("static/assets/header_cat.png")
+    cat_html = (
+        f'<img src="{cat_uri}" style="width:52px;height:52px;object-fit:cover;'
+        f'border-radius:50%;border:2px solid #dcc19b;flex:0 0 auto;">'
+        if cat_uri else '<span style="font-size:2.2rem">🐱</span>'
+    )
+
+    st.markdown(
+        f"""
+<div style="display:flex;align-items:center;gap:20px;
+            background:#f7efe2;border:1px solid #dcc19b;border-radius:20px;
+            padding:14px 24px;margin-top:28px;
+            box-shadow:0 4px 14px rgba(70,44,20,.07);">
+  {cat_html}
+  <div style="flex:1;min-width:0;">
+    <div style="font-family:Georgia,serif;font-size:.92rem;
+                font-weight:700;color:#3f3027;">Mochi ♥</div>
+    <div style="font-size:.76rem;color:#7a6250;margin-top:1px;">{mood}</div>
+    <div style="font-size:.83rem;color:#5e4d3d;margin-top:3px;">{message}</div>
+  </div>
+  <div style="background:#fffdf4;border:1px solid #dcc19b;border-radius:14px;
+              padding:10px 18px;font-size:.80rem;color:#5e4d3d;
+              font-style:italic;flex:0 0 auto;max-width:220px;
+              text-align:center;line-height:1.45;">
+    {note}
+  </div>
+</div>""",
+        unsafe_allow_html=True,
+    )
+
+
+def render_homepage():
+    """Hero section: full-width image, time-aware greeting, Today's Focus, section cards."""
+
+    # ── Greeting ──────────────────────────────────────────────────────────
+    hour = datetime.now().hour
+    if hour < 12:
+        greeting, sub = "Good morning", "☕ a fresh start today."
+    elif hour < 17:
+        greeting, sub = "Good afternoon", "🌿 let's grow today."
+    else:
+        greeting, sub = "Good evening", "🕯 time for reflection."
+
+    # ── Load IBM + deadline data ──────────────────────────────────────────
+    ibm_raw  = load_json("memory/exclusive_strategy_buckets.json", {})
+    deploy   = load_json("deploy_data/compact_opportunities.json", [])
+    by_name  = {(o.get("name") or o.get("title") or "").strip().lower(): o for o in deploy}
+    ibm      = ibm_raw.get("immediate_best_moves", [])
+    today    = _date.today()
+
+    enriched = []
+    for entry in ibm:
+        name   = entry.get("title") or entry.get("name") or ""
+        detail = by_name.get(name.lower(), {})
+        dl_raw = detail.get("deadline") or ""
+        dl_dt  = _parse_deadline_app(dl_raw)
+        delta  = (dl_dt - today).days if dl_dt else None
+        enriched.append({
+            "name":   name,
+            "dl_raw": dl_raw,
+            "delta":  delta,
+            "link":   (detail.get("submission_page") or detail.get("source_url")
+                       or entry.get("source") or ""),
+            "atype":  entry.get("action_type", "apply"),
+            "why":    (entry.get("why") or "")[:90],
+        })
+
+    # ── Assign three focus slots ──────────────────────────────────────────
+    # Quick Win  → soonest-deadline apply item
+    # High Impact → second apply item
+    # Stretch    → first contact/propose item (or third apply if none)
+    apply_dl  = sorted([e for e in enriched if e["atype"] == "apply" and e["delta"] is not None],
+                       key=lambda x: x["delta"])
+    contact   = [e for e in enriched if e["atype"] in ("contact_and_propose", "submit_when_open")]
+    apply_ndl = [e for e in enriched if e["atype"] == "apply" and e["delta"] is None]
+    pool      = apply_dl + contact + apply_ndl
+
+    slot_meta = [
+        ("🌿", "Quick Win",        "5 min"),
+        ("✉️", "High Impact Move", "30–60 min"),
+        ("🔭", "Stretch Goal",     "longer term"),
+    ]
+    used, cards = set(), []
+    for i, (icon, label, hint) in enumerate(slot_meta):
+        # Stretch slot prefers contact/propose
+        candidates = (contact or pool) if i == 2 else pool
+        chosen = next((e for e in candidates if e["name"] not in used), None)
+        if chosen:
+            used.add(chosen["name"])
+            cards.append((icon, label, hint, chosen))
+
+    # ── Build focus-item HTML ─────────────────────────────────────────────
+    focus_html = ""
+    for icon, label, hint, item in cards:
+        display = item["name"][:44] + ("…" if len(item["name"]) > 44 else "")
+        if item["delta"] is not None:
+            d   = item["delta"]
+            clr = "#b03030" if d <= 7 else "#8a6010" if d <= 30 else "#4a7040"
+            badge = f'<span style="font-size:.68rem;font-weight:700;color:{clr};"> — {d}d</span>'
+        else:
+            badge = ""
+        focus_html += f"""
+<div style="display:flex;align-items:flex-start;gap:8px;
+            padding:6px 0;border-bottom:1px solid rgba(220,193,155,.45);">
+  <span style="font-size:.95rem;flex:0 0 auto;margin-top:3px;">{icon}</span>
+  <div style="min-width:0;">
+    <div style="font-size:.66rem;color:#9a7d63;font-weight:700;
+                text-transform:uppercase;letter-spacing:.05em;line-height:1.1;">
+      {label} <span style="font-weight:400;text-transform:none;letter-spacing:0;">({hint})</span>
+    </div>
+    <div style="font-size:.83rem;color:#3f3027;line-height:1.25;margin-top:1px;
+                word-break:break-word;">{display}{badge}</div>
+  </div>
+</div>"""
+
+    # Remove last border
+    focus_html = focus_html.rstrip()
+
+    # ── Hero background ───────────────────────────────────────────────────
+    hero_path = "static/assets/headers/mochi_hero.png"
+    if os.path.exists(hero_path):
+        with open(hero_path, "rb") as fh:
+            hero_b64 = base64.b64encode(fh.read()).decode()
+        bg = f'background-image:url("data:image/png;base64,{hero_b64}");background-size:cover;background-position:center 18%;'
+    else:
+        bg = "background:linear-gradient(135deg,#f0e6d0 0%,#d8c49a 100%);"
+
+    # ── Render hero ───────────────────────────────────────────────────────
+    st.markdown(
+        f"""
+<div style="position:relative;width:100%;height:460px;border-radius:28px;
+            overflow:hidden;border:1px solid #dcc19b;
+            box-shadow:0 14px 34px rgba(70,44,20,.13);
+            margin-bottom:24px;{bg}">
+
+  <!-- warm veil fades right so cat illustration shows through -->
+  <div style="position:absolute;inset:0;
+              background:linear-gradient(to right,
+                rgba(247,239,226,.96) 0%,
+                rgba(247,239,226,.90) 24%,
+                rgba(247,239,226,.40) 50%,
+                rgba(247,239,226,0)  66%);"></div>
+
+  <!-- left column: greeting + focus card -->
+  <div style="position:absolute;top:0;left:0;bottom:0;width:330px;
+              padding:38px 30px 30px;display:flex;flex-direction:column;gap:18px;">
+
+    <!-- greeting -->
+    <div>
+      <div style="font-family:Georgia,'Times New Roman',serif;
+                  font-size:2.0rem;font-weight:700;color:#3f3027;line-height:1.1;">
+        {greeting}, Mochi</div>
+      <div style="font-size:.98rem;color:#7a6250;margin-top:4px;">{sub}</div>
+    </div>
+
+    <!-- Today's Focus card -->
+    <div style="background:rgba(255,252,245,.88);border:1px solid rgba(220,193,155,.75);
+                border-radius:18px;padding:13px 15px 11px;
+                backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);">
+      <div style="font-family:Georgia,serif;font-size:.86rem;font-weight:700;
+                  color:#3f3027;letter-spacing:.03em;margin-bottom:9px;">
+        Today's Focus</div>
+      {focus_html}
+      <div style="font-size:.72rem;color:#8b6914;font-weight:600;margin-top:8px;">
+        See all quests →</div>
+    </div>
+
+  </div>
+</div>""",
+        unsafe_allow_html=True,
+    )
+
+    # ── Section cards ─────────────────────────────────────────────────────
+    _render_section_cards()
 
 
 opps = load_json(
@@ -620,7 +837,7 @@ relationship_memory = load_json(
     "memory/relationship_memory.json",
     {}
 )
-render_hero()
+render_homepage()
 
 selected_title = st.session_state.get("selected_title")
 
@@ -681,3 +898,5 @@ with tabs[4]:
 
 st.markdown("---")
 render_portfolio_match_panel()
+
+render_mochi_statusbar()
