@@ -1,8 +1,11 @@
 
 import json
 import os
+import sys
 from pathlib import Path
 from datetime import date
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 OPP_PATH = "deploy_data/compact_opportunities.json"
 SEED_PATH = "global_opportunity_seeds.json"

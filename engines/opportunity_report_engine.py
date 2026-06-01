@@ -7,6 +7,9 @@ def safe_filename(name):
     name = re.sub(r'[<>:"/\\|?*]', '_', name)
     name = re.sub(r'\s+', ' ', name).strip()
     return name[:80]
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from datetime import date
 from utils_filename import safe_filename
 

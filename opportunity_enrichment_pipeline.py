@@ -1,7 +1,8 @@
 
-import json, os
+import json, os, sys
 from datetime import date
 from pathlib import Path
+sys.path.insert(0, "engines")
 from opportunity_report_engine import load_json, upgraded_score, confidence_level, verification_summary, get_source, category_label
 
 OPP_PATH = "deploy_data/compact_opportunities.json"

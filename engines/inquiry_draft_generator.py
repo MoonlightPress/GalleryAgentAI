@@ -1,5 +1,7 @@
 
+import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from opportunity_report_engine import load_json
 from utils_filename import safe_filename
 

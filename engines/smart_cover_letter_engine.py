@@ -1,7 +1,9 @@
 
 import json
 import os
+import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from utils_filename import safe_filename
 
 OPP_PATH = "deploy_data/compact_opportunities.json"
