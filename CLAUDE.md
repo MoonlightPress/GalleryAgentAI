@@ -112,12 +112,18 @@ The system has three pages, each anchored by a companion animal. Navigation betw
 | Companion | Page | Mode | Answers |
 |---|---|---|---|
 | **Mochi** (cat) | Action | Opportunity hunting, legwork done, ready to act | "What should I do today?" |
-| **The Mouse** | Input | Artist goals, statement, preferences, feedback | "Is this system understanding me correctly?" |
-| **The Bird** | Observatory | Market view, statistics, comparable artists, context | "What does the bigger picture look like?" |
+| **Peppercorn** (mouse) | Input | Artist goals, statement, preferences, feedback | "Is this system understanding me correctly?" |
+| **Saffron** (bird) | Observatory | Market view, statistics, comparable artists, context | "What does the bigger picture look like?" |
 
 **Mochi's status bar** ("Mochi is happy and full") persists across all three pages — she is the emotional anchor of the whole system.
 
 ### Mochi — The Cat (Page 1: Action)
+
+**Today's Focus structure — always exactly three items:**
+1. **Quick Win** (5 min) — Tier 1 action. Something completable right now: a message sent, a deadline confirmed, a consignment venue checked.
+2. **High Impact Move** (30-60 min) — Tier 2-3 action. The most important thing today: drafting an intro email, preparing a submission, researching an open call.
+3. **Stretch Goal** (longer term) — Tier 4 action. One step toward a future target: RWS criteria research, artist statement draft, portfolio body prep.
+
 
 Mochi has done the legwork while the artist was away. The pipeline has run. Opportunities are sorted. Emails are drafted. When the artist arrives, three things are ready.
 
@@ -128,7 +134,7 @@ Mochi has done the legwork while the artist was away. The pipeline has run. Oppo
 
 The current `app.py` is a working prototype of this page.
 
-### The Mouse — Artist Input (Page 2: Reflection)
+### Peppercorn — The Mouse (Page 2: Reflection)
 
 The Mouse is where the artist's voice enters the system. Without this page the system is a monologue. The Mouse asks quiet questions and remembers the answers.
 
@@ -139,7 +145,7 @@ The Mouse is where the artist's voice enters the system. Without this page the s
 
 This page does not exist yet.
 
-### The Bird — Observatory (Page 3: Context)
+### Saffron — The Bird (Page 3: Context)
 
 The Bird sees patterns the artist cannot see from the ground. Non-interventionist. Reports without judging.
 
@@ -158,8 +164,8 @@ Warm watercolor atelier across all three pages, with palette variations per comp
 
 - The three-companion structure supersedes the six-card single-page layout described in earlier versions of this file
 - The current `app.py` becomes Mochi's page when the rebuild happens — do not conflate it with the whole system
-- The Mouse is the missing feedback loop; nothing should be built that assumes the system knows the artist's preferences without it
-- The Bird is the missing market context; statistics and analytics belong there, not on Mochi's action page
+- Peppercorn is the missing feedback loop; nothing should be built that assumes the system knows the artist's preferences without it
+- Saffron is the missing market context; statistics and analytics belong there, not on Mochi's action page
 - The Mochi status bar persists across all three pages
 - Today's Focus is always three items — the pipeline must surface exactly three actionable items, not a ranked list of fifty
 - Never introduce cold blue/grey colour schemes, dense tables, or aggressive CTAs on any of the three pages

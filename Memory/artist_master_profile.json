@@ -193,11 +193,57 @@
     "open calls — watercolor or works on paper",
     "bookshop gallery exhibitions in Tokyo"
   ],
+  "ui_companions": {
+    "mochi": {
+      "animal": "cat",
+      "page": "action",
+      "role": "Opportunity hunting. Legwork done. Ready to act.",
+      "palette": "cream, amber, ochre, aged paper — warmest of the three"
+    },
+    "peppercorn": {
+      "animal": "mouse",
+      "page": "input_and_reflection",
+      "role": "Artist input layer. Goals, statement, preferences, feedback.",
+      "palette": "pale paper-white, dusty rose, pencil-grey, soft green"
+    },
+    "saffron": {
+      "animal": "bird",
+      "page": "observatory",
+      "role": "Market view. Statistics. Context. Comparable artists.",
+      "palette": "silver-grey, pale blue, morning mist — coolest of the three"
+    }
+  },
   "career_strategy": {
     "framework_version": 1,
     "current_phase": "Tier 1-2",
     "phase_note": "Age 26, planning a deep-work year around 30. The next 4 years are for accumulation: exhibition history, publishing relationships, peer network, body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now and pursued later.",
     "scoring_instruction": "Weight Tier 1-2 opportunities higher for immediate recommendations. Tier 3 is neutral. Tier 4 entries must route to stretch_targets and never appear in Immediate Best Moves — they are future goals, not current actions.",
+    "daily_structure": {
+      "description": "Today's Focus on Mochi's page always contains exactly three items. Each maps to a tier.",
+      "items": [
+        {
+          "slot": 1,
+          "label": "Quick Win",
+          "time": "5 minutes",
+          "description": "Something completable right now. Low barrier. Builds momentum. Typically a Tier 1 action: sending a message, checking a venue's consignment policy, confirming a deadline.",
+          "tier_alignment": "Tier 1"
+        },
+        {
+          "slot": 2,
+          "label": "High Impact Move",
+          "time": "30-60 minutes",
+          "description": "The most important action today. Requires real attention. Typically a Tier 2-3 action: drafting an introduction email to a relationship target, preparing a submission package, researching a specific open call.",
+          "tier_alignment": "Tier 2-3"
+        },
+        {
+          "slot": 3,
+          "label": "Stretch Goal",
+          "time": "longer term — one step today",
+          "description": "One step toward a future target. Not urgent but strategically important. Typically a Tier 4 action or long-range move: researching RWS criteria, drafting an artist statement, preparing a portfolio body for a residency application.",
+          "tier_alignment": "Tier 4"
+        }
+      ]
+    },
     "tiers": {
       "tier_1": {
         "label": "Ambient Visibility",

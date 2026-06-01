@@ -5,10 +5,10 @@ Bible Entry 08 — Written 2026-06-01
 
 THE STRUCTURE IN ONE SENTENCE
 
-The system has three companion animals — a cat, a mouse, and a bird — each
-representing a different mode of engagement with an artist's career. Together
-they replace the single-page dashboard structure. Nothing is built yet.
-This document is the vision.
+The system has three companion animals — Mochi the cat, Peppercorn the mouse,
+and Saffron the bird — each representing a different mode of engagement with
+an artist's career. Together they replace the single-page dashboard structure.
+Nothing is built yet. This document is the vision.
 
 ─────────────────────────────────────────────────────────────────────
 
@@ -32,7 +32,7 @@ content. The navigation between them is visual — you click the relevant animal
 not a text menu item.
 
 The current single-page structure is a prototype of page 1 (Mochi). Pages 2
-and 3 do not exist yet. This document defines all three.
+and 3 — Peppercorn and Saffron — do not exist yet. This document defines all three.
 
 ─────────────────────────────────────────────────────────────────────
 
@@ -81,7 +81,29 @@ Mochi is napping in the sun") belongs here and only here.
 
 CONTENT
 
-  - Today's Focus: three specific actions, always exactly three
+  - Today's Focus: three specific actions, always exactly three, in this structure:
+
+      1. Quick Win (5 minutes)
+         Something completable right now. Low barrier. Builds momentum. Typically
+         a Tier 1 action: sending a message, checking a consignment venue's website,
+         updating a profile link, confirming a submission deadline.
+
+      2. High Impact Move (30-60 minutes)
+         The most important action today. Requires real attention. Typically a Tier 2
+         or Tier 3 action: drafting an introduction email to a relationship target,
+         preparing a submission package, researching a specific open call.
+
+      3. Stretch Goal (longer term)
+         One step toward a future target. Not urgent, but strategically important.
+         Typically a Tier 4 action or a long-range move: researching the RWS open
+         call criteria, drafting an artist statement, preparing a portfolio body
+         for a future residency application.
+
+    The three-item structure maps to the career tier framework. Quick wins keep Tier 1
+    always running. High impact moves build Tier 2-3 presence. Stretch goals prepare
+    for Tier 4. The pipeline must surface exactly these three — not a ranked list of
+    fifty, not a generic to-do list.
+
   - Immediate Best Moves: open calls + relationship targets, mixed
   - Submission queue: what has been drafted, what is pending artist review
   - Next email drafts: ready for review and sending
@@ -99,14 +121,14 @@ NAVIGATION LABEL: "Mochi" — or simply the cat illustration
 
 ─────────────────────────────────────────────────────────────────────
 
-PAGE TWO: THE MOUSE
-The artist input layer. Goals, statement, refinement. The place the artist speaks.
+PAGE TWO: PEPPERCORN
+The mouse. Artist input layer. Goals, statement, refinement. The place the artist speaks.
 
 ROLE
 
-The Mouse is where the artist's voice enters the system. Without this page, the
+Peppercorn is where the artist's voice enters the system. Without this page, the
 system is a monologue — it produces recommendations without ever asking whether
-they fit. The Mouse changes that. She asks quiet questions. She remembers the
+they fit. Peppercorn changes that. She asks quiet questions. She remembers the
 answers. She adjusts the system's understanding of who the artist is and what
 she wants.
 
@@ -114,13 +136,13 @@ This page answers: "Is this system understanding me correctly?"
 
 PERSONALITY
 
-Small, curious, thorough, a little shy but persistent. The mouse forages in
+Small, curious, thorough, a little shy but persistent. Peppercorn forages in
 margins where others do not look. She finds things by being attentive rather
 than bold. She asks the question the artist did not think to ask. She notices
 what went in the pockets: what the artist lingered on, what she skipped, what
 made her say "not this, but more like that."
 
-The mouse does not rush. She is comfortable with silence and small increments.
+Peppercorn does not rush. She is comfortable with silence and small increments.
 She is the reason the system gets smarter over time without the artist having
 to do much work.
 
@@ -130,7 +152,7 @@ Introspection without pressure.
 
 This page should feel like a journal or a sketchbook — a private space to think
 out loud. Not a settings panel. Not a form. There should be no sense that the
-artist is being assessed or evaluated. The Mouse is interested in what the
+artist is being assessed or evaluated. Peppercorn is interested in what the
 artist thinks, not what the artist produces. The right feeling is a quiet
 afternoon with a notebook.
 
@@ -163,16 +185,16 @@ TONE EXAMPLES
   "Your artist statement hasn't changed in 60 days. Does it still feel accurate?"
   "You skipped five gallery open calls last month. Should I stop surfacing them?"
 
-NAVIGATION LABEL: "Mouse" — or the mouse illustration
+NAVIGATION LABEL: "Peppercorn" — or the mouse illustration
 
 ─────────────────────────────────────────────────────────────────────
 
-PAGE THREE: THE BIRD
-The observatory. Market view. Statistics. Context. Comparable artists.
+PAGE THREE: SAFFRON
+The bird. Observatory. Market view. Statistics. Context. Comparable artists.
 
 ROLE
 
-The Bird sees patterns the artist cannot see from the ground. She watches from
+Saffron sees patterns the artist cannot see from the ground. She watches from
 above — not intervening, not advising, just describing what she observes. Who
 else is doing this kind of work. What institutions are active. How this career
 looks in the context of others like it. What the landscape looks like from
@@ -182,8 +204,8 @@ This page answers: "What does the bigger picture look like?"
 
 PERSONALITY
 
-Observant, non-judgmental, long-horizon. Birds do not rush. They perch and
-watch. The Bird does not have opinions about what the artist should do — she
+Observant, non-judgmental, long-horizon. Saffron does not rush. She perches and
+watches. She does not have opinions about what the artist should do — she
 reports what she sees. She is the most objective voice in the system. She does
 not root for anything. She just describes the territory.
 
@@ -200,16 +222,16 @@ cheerful. Just: from up here, here is what the landscape looks like. The
 artist should finish reading this page feeling more informed and more
 contextualized — neither pressured nor falsely reassured.
 
-The Bird does not compare the artist to others to shame her. She compares
+Saffron does not compare the artist to others to shame her. She compares
 in order to orient. There is a meaningful difference and the copy must
 hold it.
 
 VISUAL BRANDING
 
-A small bird — a grey-blue thrush or warbler, echoing Mochi's grey colouring
-but in a cooler, higher register. Perched at a window or on a high ledge,
-looking out over mist or a city at dawn. The view is wide. The bird is small
-against it.
+Saffron is a small bird — a grey-blue thrush or warbler, echoing Mochi's grey
+colouring but in a cooler, higher register. Perched at a window or on a high
+ledge, looking out over mist or a city at dawn. The view is wide. Saffron is
+small against it.
 
 Palette: the coolest of the three — silver-grey, pale blue, morning mist,
 thin watercolour washes. Still warm paper texture, still Georgia serif, but
@@ -234,7 +256,7 @@ TONE EXAMPLES
   "Artists at a similar stage typically have 1-3 exhibition credits. You have one."
   "TOKAS has run its open call every May for the past four years."
 
-NAVIGATION LABEL: "Bird" — or the bird illustration
+NAVIGATION LABEL: "Saffron" — or the bird illustration
 
 ─────────────────────────────────────────────────────────────────────
 
@@ -250,7 +272,7 @@ character before the artist reads a single word.
 
 The Mochi status bar ("Mochi is happy and full") appears at the bottom of all
 three pages, not just Mochi's page — she is the emotional anchor of the whole
-system, even when the artist is on the Bird or Mouse pages.
+system, even when the artist is on Peppercorn's or Saffron's pages.
 
 ─────────────────────────────────────────────────────────────────────
 
@@ -262,14 +284,14 @@ structure, Today's Focus hero, correct tone.
 
 What it lacks:
 
-  - The Mouse: no place for the artist to speak, refine, or give feedback
-  - The Bird: no observatory, no market context, no comparable artists
+  - Peppercorn: no place for the artist to speak, refine, or give feedback
+  - Saffron: no observatory, no market context, no comparable artists
   - The structure: all content is on one page, which eventually becomes cluttered
 
 When the UI is rebuilt:
 
   - The current app.py structure becomes Mochi's page, cleaned up
-  - Mouse and Bird are built as new pages
+  - Peppercorn and Saffron are built as new pages
   - Navigation between them is visual, animal-based
   - The status bar persists across all three
 
@@ -286,7 +308,7 @@ artist's career is hard, slow, and full of uncertainty — and the right
 response to that is not a productivity dashboard but a set of quiet,
 competent companions who each do one thing well.
 
-Mochi handles the legwork. The Mouse handles reflection. The Bird handles
+Mochi handles the legwork. Peppercorn handles reflection. Saffron handles
 context. The artist makes the decisions.
 
 ─────────────────────────────────────────────────────────────────────
