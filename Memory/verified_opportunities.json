@@ -103,7 +103,38 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "APPLICATION",
+        "url": "https://tokyoartbookfair.com/application/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://tokyoartbookfair.com/application/",
+          "label": "APPLICATION",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [
+            "2027年1月21日",
+            "2027年1月29日"
+          ],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [],
+      "all_dates": [
+        "2027年1月21日",
+        "2027年1月29日"
+      ],
+      "all_fees": []
+    }
   },
   {
     "title": "Self Publish, Be Happy",
@@ -118,7 +149,15 @@
     "http_status": 522,
     "contact_candidates": [],
     "date_candidates": [],
-    "relevant_links": []
+    "relevant_links": [],
+    "submission_links": [],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [],
+      "all_emails": [],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "Home - Printed Matter",
@@ -770,7 +809,86 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "Submit Mail Art",
+        "url": "https://www.printedmatter.org/mail-art/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "See all exhibitions",
+        "url": "https://www.printedmatter.org/programs/1-exhibitions",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2250",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://www.printedmatter.org/mail-art/",
+          "label": "Submit Mail Art",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.printedmatter.org/programs/1-exhibitions",
+          "label": "See all exhibitions",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [
+            "June 6, 2026",
+            "March 8, 2026",
+            "November 22, 2025",
+            "January 11, 2026",
+            "November 16, 2025",
+            "August 24, 2025",
+            "May 25, 2025",
+            "March 2, 2025",
+            "December 6, 2024",
+            "January 6, 2025"
+          ],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.printedmatter.org/programs/events/2250",
+          "label": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [
+            "June 6, 2026"
+          ],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [],
+      "all_dates": [
+        "June 6, 2026",
+        "March 8, 2026",
+        "November 22, 2025",
+        "January 11, 2026",
+        "November 16, 2025",
+        "August 24, 2025",
+        "May 25, 2025",
+        "March 2, 2025",
+        "December 6, 2024",
+        "January 6, 2025"
+      ],
+      "all_fees": []
+    }
   },
   {
     "title": "Jackson's Art Prize",
@@ -918,7 +1036,15 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [],
+      "all_emails": [],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "Royal Institute of Painters in Water Colours",
@@ -1234,7 +1360,62 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "Exhibitions & Events",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Art For Youth London 2026 4 Nov 2026 to 6 Nov 2026 Art for Youth London was established in 1988 by Diana Brooks MBE as a...",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/art-youth-london-2026-0",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition David Shepherd Wildlife Foundation | Wildlife Artist of the Year 2026 8 Sep 2026 to 12 Sep 2026 Internationally renowned wildlife art competition and exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/david-shepherd-wildlife-foundation-wildlife-artist-year-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://www.mallgalleries.org.uk/exhibitions-events",
+          "label": "Exhibitions & Events",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.mallgalleries.org.uk/exhibitions-events/art-youth-london-2026-0",
+          "label": "Exhibition Art For Youth London 2026 4 Nov 2026 to 6 Nov 2026 Art for Youth London was established in 1988 by Diana Brooks MBE as a...",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.mallgalleries.org.uk/exhibitions-events/david-shepherd-wildlife-foundation-wildlife-artist-year-2026",
+          "label": "Exhibition David Shepherd Wildlife Foundation | Wildlife Artist of the Year 2026 8 Sep 2026 to 12 Sep 2026 Internationally renowned wildlife art competition and exhibition",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026",
@@ -1478,7 +1659,75 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "Exhibitions",
+        "url": "https://www.printedmatter.org/programs/1-exhibitions",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Submit a book",
+        "url": "https://www.printedmatter.org/services/submit-your-book",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://www.printedmatter.org/programs/1-exhibitions",
+          "label": "Exhibitions",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [
+            "June 6, 2026",
+            "March 8, 2026",
+            "November 22, 2025",
+            "January 11, 2026",
+            "November 16, 2025",
+            "August 24, 2025",
+            "May 25, 2025",
+            "March 2, 2025",
+            "December 6, 2024",
+            "January 6, 2025"
+          ],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.printedmatter.org/services/submit-your-book",
+          "label": "Submit a book",
+          "status": "ok",
+          "emails": [
+            "finance@printedmatter.org",
+            "craig@printedmatter.org"
+          ],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [
+        "finance@printedmatter.org",
+        "craig@printedmatter.org"
+      ],
+      "all_dates": [
+        "June 6, 2026",
+        "March 8, 2026",
+        "November 22, 2025",
+        "January 11, 2026",
+        "November 16, 2025",
+        "August 24, 2025",
+        "May 25, 2025",
+        "March 2, 2025",
+        "December 6, 2024",
+        "January 6, 2025"
+      ],
+      "all_fees": []
+    }
   },
   {
     "title": "HB Gallery",
@@ -1554,7 +1803,15 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [],
+      "all_emails": [],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "OPA Gallery",
@@ -1644,7 +1901,15 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [],
+      "all_emails": [],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "Pinpoint Gallery",
@@ -1863,7 +2128,69 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/27thcompetiton_exhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/higamikumikoexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "",
+        "url": "https://pinpointgallery.com/schedule/katsuhikotamuraexhibition2026/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://pinpointgallery.com/schedule/27thcompetiton_exhibition2026/",
+          "label": "",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [
+            "2026年6月29日"
+          ],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://pinpointgallery.com/schedule/higamikumikoexhibition2026/",
+          "label": "",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [
+            "2026年6月15日"
+          ],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://pinpointgallery.com/schedule/katsuhikotamuraexhibition2026/",
+          "label": "",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [],
+      "all_dates": [
+        "2026年6月29日",
+        "2026年6月15日"
+      ],
+      "all_fees": []
+    }
   },
   {
     "title": "Royal Watercolour Society",
@@ -2715,7 +3042,70 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "Exhibitions",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibitions Royal Watercolour Society at the RWS Gallery Final days to visit 10 April - 31 December 2026 LEARN MORE",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "RWS GALLERY AT WHITCOMB STREET Open Tuesday - Saturday, 11am - 5pm",
+        "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/overview/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/",
+          "label": "Exhibitions",
+          "status": "ok",
+          "emails": [
+            "info@royalwatercoloursociety.com"
+          ],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/",
+          "label": "Exhibitions Royal Watercolour Society at the RWS Gallery Final days to visit 10 April - 31 December 2026 LEARN MORE",
+          "status": "ok",
+          "emails": [
+            "info@royalwatercoloursociety.com"
+          ],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.royalwatercoloursociety.co.uk/exhibitions/105-royal-watercolour-society-at-the-rws-gallery/overview/",
+          "label": "RWS GALLERY AT WHITCOMB STREET Open Tuesday - Saturday, 11am - 5pm",
+          "status": "ok",
+          "emails": [
+            "info@royalwatercoloursociety.com"
+          ],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [
+        "info@royalwatercoloursociety.com"
+      ],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "Mall Galleries Open Exhibitions",
@@ -3031,7 +3421,62 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "Exhibitions & Events",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Art For Youth London 2026 4 Nov 2026 to 6 Nov 2026 Art for Youth London was established in 1988 by Diana Brooks MBE as a...",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/art-youth-london-2026-0",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition David Shepherd Wildlife Foundation | Wildlife Artist of the Year 2026 8 Sep 2026 to 12 Sep 2026 Internationally renowned wildlife art competition and exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/david-shepherd-wildlife-foundation-wildlife-artist-year-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://www.mallgalleries.org.uk/exhibitions-events",
+          "label": "Exhibitions & Events",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.mallgalleries.org.uk/exhibitions-events/art-youth-london-2026-0",
+          "label": "Exhibition Art For Youth London 2026 4 Nov 2026 to 6 Nov 2026 Art for Youth London was established in 1988 by Diana Brooks MBE as a...",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.mallgalleries.org.uk/exhibitions-events/david-shepherd-wildlife-foundation-wildlife-artist-year-2026",
+          "label": "Exhibition David Shepherd Wildlife Foundation | Wildlife Artist of the Year 2026 8 Sep 2026 to 12 Sep 2026 Internationally renowned wildlife art competition and exhibition",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "Society of Women Artists",
@@ -3256,7 +3701,106 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "THE SOCIETY OF WOMEN ARTISTS - 2019 EXHIBITION",
+        "url": "https://www.society-women-artists.org.uk",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2016 155th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2016-155th-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "2017 156th Exhibition",
+        "url": "https://www.society-women-artists.org.uk/2017-156th-exhibition",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://www.society-women-artists.org.uk",
+          "label": "THE SOCIETY OF WOMEN ARTISTS - 2019 EXHIBITION",
+          "status": "ok",
+          "emails": [
+            "info@society-women-artists.org.uk",
+            "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+            "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+            "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+            "18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com",
+            "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+            "ed436f5053144538958ad06a5005e99a@sentry.wixpress.com",
+            "baf30a2b91654c5a840931f0137bed30@sentry.wixpress.com",
+            "0e6a29e4756740a8a63493e912ba2174@sentry.wixpress.com",
+            "8c4075d5481d476e945486754f783364@sentry.io"
+          ],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.society-women-artists.org.uk/2016-155th-exhibition",
+          "label": "2016 155th Exhibition",
+          "status": "ok",
+          "emails": [
+            "info@society-women-artists.org.uk",
+            "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+            "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+            "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+            "18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com",
+            "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+            "ed436f5053144538958ad06a5005e99a@sentry.wixpress.com",
+            "baf30a2b91654c5a840931f0137bed30@sentry.wixpress.com",
+            "0e6a29e4756740a8a63493e912ba2174@sentry.wixpress.com",
+            "8c4075d5481d476e945486754f783364@sentry.io"
+          ],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.society-women-artists.org.uk/2017-156th-exhibition",
+          "label": "2017 156th Exhibition",
+          "status": "ok",
+          "emails": [
+            "info@society-women-artists.org.uk",
+            "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+            "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+            "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+            "18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com",
+            "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+            "ed436f5053144538958ad06a5005e99a@sentry.wixpress.com",
+            "baf30a2b91654c5a840931f0137bed30@sentry.wixpress.com",
+            "0e6a29e4756740a8a63493e912ba2174@sentry.wixpress.com",
+            "8c4075d5481d476e945486754f783364@sentry.io"
+          ],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [
+        "info@society-women-artists.org.uk",
+        "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+        "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+        "18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com",
+        "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+        "ed436f5053144538958ad06a5005e99a@sentry.wixpress.com",
+        "baf30a2b91654c5a840931f0137bed30@sentry.wixpress.com",
+        "0e6a29e4756740a8a63493e912ba2174@sentry.wixpress.com",
+        "8c4075d5481d476e945486754f783364@sentry.io"
+      ],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "Pastel Society Open Exhibition",
@@ -3572,7 +4116,62 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "Exhibitions & Events",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition Art For Youth London 2026 4 Nov 2026 to 6 Nov 2026 Art for Youth London was established in 1988 by Diana Brooks MBE as a...",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/art-youth-london-2026-0",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition David Shepherd Wildlife Foundation | Wildlife Artist of the Year 2026 8 Sep 2026 to 12 Sep 2026 Internationally renowned wildlife art competition and exhibition",
+        "url": "https://www.mallgalleries.org.uk/exhibitions-events/david-shepherd-wildlife-foundation-wildlife-artist-year-2026",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://www.mallgalleries.org.uk/exhibitions-events",
+          "label": "Exhibitions & Events",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.mallgalleries.org.uk/exhibitions-events/art-youth-london-2026-0",
+          "label": "Exhibition Art For Youth London 2026 4 Nov 2026 to 6 Nov 2026 Art for Youth London was established in 1988 by Diana Brooks MBE as a...",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.mallgalleries.org.uk/exhibitions-events/david-shepherd-wildlife-foundation-wildlife-artist-year-2026",
+          "label": "Exhibition David Shepherd Wildlife Foundation | Wildlife Artist of the Year 2026 8 Sep 2026 to 12 Sep 2026 Internationally renowned wildlife art competition and exhibition",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "UTRECHT",
@@ -3926,7 +4525,15 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [],
+      "all_emails": [],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "MOUNT ZINE",
@@ -4110,7 +4717,15 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [],
+      "all_emails": [],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "Book and Sons",
@@ -4846,7 +5461,75 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "Exhibition",
+        "url": "https://bookandsons.com/exhibition/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Rinko Kawauchi",
+        "url": "https://bookandsons.com/exhibition/110/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "sloap",
+        "url": "https://bookandsons.com/exhibition/113/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://bookandsons.com/exhibition/",
+          "label": "Exhibition",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://bookandsons.com/exhibition/110/",
+          "label": "Rinko Kawauchi",
+          "status": "ok",
+          "emails": [
+            "shop@bookandsons.com"
+          ],
+          "date_candidates": [
+            "2025年1月9日"
+          ],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://bookandsons.com/exhibition/113/",
+          "label": "sloap",
+          "status": "ok",
+          "emails": [
+            "shop@bookandsons.com"
+          ],
+          "date_candidates": [
+            "2024年4月4日"
+          ],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [
+        "shop@bookandsons.com"
+      ],
+      "all_dates": [
+        "2025年1月9日",
+        "2024年4月4日"
+      ],
+      "all_fees": []
+    }
   },
   {
     "title": "Offprint",
@@ -4936,7 +5619,38 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "180 Studios",
+        "url": "https://www.180studios.com/exhibitions-and-performances",
+        "kind": "submission_candidate",
+        "same_domain": false
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://www.180studios.com/exhibitions-and-performances",
+          "label": "180 Studios",
+          "status": "ok",
+          "emails": [
+            "info@180studios.com",
+            "hire@180studios.com"
+          ],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [
+        "info@180studios.com",
+        "hire@180studios.com"
+      ],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "POST",
@@ -4952,7 +5666,15 @@
     "contact_candidates": [],
     "date_candidates": [],
     "relevant_links": [],
-    "error": "HTTPSConnectionPool(host='post-books.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'post-books.info'. (_ssl.c:1081)\")))"
+    "error": "HTTPSConnectionPool(host='post-books.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'post-books.info'. (_ssl.c:1081)\")))",
+    "submission_links": [],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [],
+      "all_emails": [],
+      "all_dates": [],
+      "all_fees": []
+    }
   },
   {
     "title": "Printed Matter Art Book Fairs",
@@ -5604,7 +6326,86 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "Submit Mail Art",
+        "url": "https://www.printedmatter.org/mail-art/",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "See all exhibitions",
+        "url": "https://www.printedmatter.org/programs/1-exhibitions",
+        "kind": "submission_candidate",
+        "same_domain": true
+      },
+      {
+        "label": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026",
+        "url": "https://www.printedmatter.org/programs/events/2250",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://www.printedmatter.org/mail-art/",
+          "label": "Submit Mail Art",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.printedmatter.org/programs/1-exhibitions",
+          "label": "See all exhibitions",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [
+            "June 6, 2026",
+            "March 8, 2026",
+            "November 22, 2025",
+            "January 11, 2026",
+            "November 16, 2025",
+            "August 24, 2025",
+            "May 25, 2025",
+            "March 2, 2025",
+            "December 6, 2024",
+            "January 6, 2025"
+          ],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        },
+        {
+          "url": "https://www.printedmatter.org/programs/events/2250",
+          "label": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026",
+          "status": "ok",
+          "emails": [],
+          "date_candidates": [
+            "June 6, 2026"
+          ],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [],
+      "all_dates": [
+        "June 6, 2026",
+        "March 8, 2026",
+        "November 22, 2025",
+        "January 11, 2026",
+        "November 16, 2025",
+        "August 24, 2025",
+        "May 25, 2025",
+        "March 2, 2025",
+        "December 6, 2024",
+        "January 6, 2025"
+      ],
+      "all_fees": []
+    }
   },
   {
     "title": "Browse Printed Matter Editions",
@@ -6046,6 +6847,37 @@
         "kind": "other",
         "same_domain": false
       }
-    ]
+    ],
+    "submission_links": [
+      {
+        "label": "Submit a book",
+        "url": "https://www.printedmatter.org/services/submit-your-book",
+        "kind": "submission_candidate",
+        "same_domain": true
+      }
+    ],
+    "submission_page_data": {
+      "fetched_at": "2026-06-01",
+      "pages": [
+        {
+          "url": "https://www.printedmatter.org/services/submit-your-book",
+          "label": "Submit a book",
+          "status": "ok",
+          "emails": [
+            "finance@printedmatter.org",
+            "craig@printedmatter.org"
+          ],
+          "date_candidates": [],
+          "fee_candidates": [],
+          "requirements_excerpt": []
+        }
+      ],
+      "all_emails": [
+        "finance@printedmatter.org",
+        "craig@printedmatter.org"
+      ],
+      "all_dates": [],
+      "all_fees": []
+    }
   }
 ]
