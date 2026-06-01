@@ -776,7 +776,7 @@ def render_homepage():
     if os.path.exists(hero_path):
         with open(hero_path, "rb") as fh:
             hero_b64 = base64.b64encode(fh.read()).decode()
-        bg = f'background-image:url("data:image/png;base64,{hero_b64}");background-size:cover;background-position:center 18%;'
+        bg = f"background-image:url('data:image/png;base64,{hero_b64}');background-size:cover;background-position:center 18%;"
     else:
         bg = "background:linear-gradient(135deg,#f0e6d0 0%,#d8c49a 100%);"
 
