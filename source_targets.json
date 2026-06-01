@@ -24,37 +24,10 @@
     {
       "name": "Self Publish Be Happy",
       "url": "https://selfpublishbehappy.com/",
-      "source_type": "photobook",
+      "source_type": "artist_book",
       "region": "Global",
-      "priority": "high"
-    },
-    {
-      "name": "PhotoVogue",
-      "url": "https://www.vogue.com/photovogue",
-      "source_type": "photo_feature",
-      "region": "Global",
-      "priority": "medium"
-    },
-    {
-      "name": "LensCulture",
-      "url": "https://www.lensculture.com/",
-      "source_type": "photo_open_call",
-      "region": "Global",
-      "priority": "medium"
-    },
-    {
-      "name": "Der Greif",
-      "url": "https://dergreif.org/",
-      "source_type": "photo_publication",
-      "region": "Global",
-      "priority": "medium"
-    },
-    {
-      "name": "Aperture",
-      "url": "https://aperture.org/",
-      "source_type": "photo_publication",
-      "region": "Global",
-      "priority": "medium"
+      "priority": "high",
+      "fit_reason": "Independent publishing platform for artist books, zines, and printed matter."
     },
     {
       "name": "Jackson's Art Prize",
@@ -146,7 +119,6 @@
     }
   ],
   "fit_keywords": [
-    "photobook",
     "zine",
     "artist book",
     "printed matter",
@@ -154,7 +126,6 @@
     "submission",
     "residency",
     "portfolio review",
-    "photography",
     "independent publishing",
     "book fair",
     "small press",
