@@ -1,0 +1,303 @@
+PEPPERCORN: THE QUESTLINE SYSTEM
+Bible Entry 09 — Written 2026-06-01
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT THIS DOCUMENT IS
+
+Bible08 defined the three-companion architecture: Mochi the cat, Peppercorn the
+mouse, Saffron the bird. It established what each page is for and what each
+companion's personality and role are.
+
+This document goes deeper on Peppercorn. Specifically: his second function,
+which Bible08 did not fully develop.
+
+Peppercorn has two functions, not one.
+
+The first function is already described in Bible08: the input layer. Peppercorn
+is where the artist speaks. She refines her statement, updates her goals, gives
+feedback on recommendations, corrects what the system has gotten wrong. Without
+Peppercorn, the system is a monologue. He is the feedback loop.
+
+The second function is the subject of this document: the questline tracker. A
+structured map of major career goals, broken into concrete milestones, with
+progress tracked automatically where data exists and prompted where it does not.
+
+─────────────────────────────────────────────────────────────────────
+
+WHY QUESTLINES
+
+The system produces daily actions. Mochi presents three things worth doing
+today. This is the right level of granularity for a decision about what to do
+in the next hour. It is the wrong level of granularity for understanding where
+those actions are going.
+
+An artist can follow Mochi's suggestions faithfully for months and still lose
+the thread. The submissions accumulate. The connections build slowly. But without
+a map of what all this is building toward, the daily actions feel like maintenance
+rather than progress. The difference between maintenance and progress is knowing
+what you are progressing toward.
+
+Questlines provide that map.
+
+A questline is a structured path toward a major career milestone. It names the
+goal, defines the prerequisite conditions, and tracks how many of those conditions
+have been met. It does not advise the artist on whether the goal is right for her
+— Saffron handles context. It does not tell her what to do today — Mochi handles
+that. It shows her where she is on a path she has chosen.
+
+The name is borrowed deliberately from games. In a game, a questline shows you
+the complete arc of what you are trying to accomplish, the sub-objectives that
+unlock progress, and your current position in the sequence. Careers do not have
+experience points, but they do have prerequisites. The questline concept maps
+cleanly to the reality of how a career in visual art actually accumulates.
+
+─────────────────────────────────────────────────────────────────────
+
+THE STRUCTURE OF A QUESTLINE
+
+Each questline has:
+
+  - A NAME: the goal, stated concisely. "Published by a major press." "First
+    solo show at a Tokyo gallery." "Accepted to a international juried watercolor
+    exhibition." "Japan Watercolor Society member."
+
+  - A COMPLETION CONDITION: what "done" actually means. Usually a single
+    concrete event — the acceptance letter, the exhibition opening, the
+    publication date. Not a score, not a feeling. An event.
+
+  - PREREQUISITES: the conditions that make the completion condition reachable.
+    These are the milestones. They are not arbitrary — they are derived from
+    how careers in this specific field actually work, informed by Saffron's
+    market data and the curator intelligence the pipeline accumulates.
+
+  - A CURRENT POSITION: how many prerequisites have been met. Which ones are
+    still open. Which are in progress.
+
+  - A HORIZON: when this questline is realistic to attempt. Early questlines
+    (Tier 1-2) are active now. Later questlines (Tier 3-4) are visible but
+    locked — the artist can see them, but Peppercorn does not pressure her
+    toward them until the prerequisites from earlier questlines are in place.
+
+─────────────────────────────────────────────────────────────────────
+
+EXAMPLE: THE MAJOR PRESS PATH
+
+This is a real questline, not a hypothetical. It reflects how an artist building
+toward publication by a press like torch press actually gets there.
+
+  QUESTLINE: Published by a major art/photo book press
+
+  COMPLETION CONDITION:
+    Signed agreement with an independent press for a monograph or artist book
+
+  PREREQUISITES:
+    □  10 anthology / group publication credits (zines, journals, artist books)
+    □   5 group exhibition credits with documented curatorial framing
+    □   2 solo exhibition credits
+    □   1 small press monograph or self-published artist book (completed)
+    □   Established presence in Tokyo art book ecosystem (TABF, zine fairs)
+    □   Active relationship with at least one distributor or stockist (shashasha,
+        Dashwood, moom bookshop, etc.)
+
+  CURRENT POSITION (as of first questline setup):
+    All prerequisites unmet — questline is newly created. Mochi's daily actions
+    will begin generating progress toward the earliest prerequisites.
+
+  HORIZON:
+    Tier 3-4. Not active now. Visible. Peppercorn holds this in view so the
+    artist understands why the Tier 1 actions (zine fairs, consignment shops)
+    are not just ambient presence-building — they are the foundation of this
+    questline.
+
+The prerequisite list is not invented. The numbers are informed by what presses
+like torch press actually require before they will take a meeting. The pipeline
+accumulates curator intelligence. Peppercorn uses it.
+
+─────────────────────────────────────────────────────────────────────
+
+HOW PROGRESS IS TRACKED
+
+Progress tracking operates at two levels: automatic and prompted.
+
+AUTOMATIC TRACKING
+
+Some milestones can be inferred from data the system already has:
+
+  - Exhibition credits: if the pipeline has found and verified a show the artist
+    participated in, that credit is recorded automatically
+  - Social following: the system tracks follower counts as reported metrics
+  - Application count: the pipeline tracks what has been submitted
+  - Publication credits: if a verified opportunity has a confirmed outcome,
+    that outcome is recorded
+  - Deadline dates: the system knows which questline prerequisites have
+    approaching windows
+
+Where data exists, Peppercorn updates the questline without asking. The artist
+should never have to manually enter something the system already knows.
+
+PROMPTED TRACKING
+
+Some milestones cannot be inferred from pipeline data:
+
+  - The outcome of a submission (accepted / rejected / waitlisted) — the
+    system can track that it was submitted but not what happened after
+  - The artist's own completed works, works in progress, or bodies of work
+    the system does not yet know about
+  - Relationships initiated outside the pipeline (in-person introductions,
+    word-of-mouth referrals, etc.)
+  - Private decisions: deciding to withdraw from a category, change direction,
+    abandon a questline
+
+For these, Peppercorn asks. Quietly. One question, not a form. "Did your
+submission to the CSPWC Open Water result in an acceptance?" He does not ask
+every day. He asks when the context makes it relevant — typically when a deadline
+has passed or when a questline milestone is the only thing blocking the next level.
+
+─────────────────────────────────────────────────────────────────────
+
+SOCIAL FOLLOWING AS A TRACKED METRIC
+
+Social following is a real prerequisite for certain questlines and a real
+signal about career momentum. Peppercorn tracks it.
+
+Current state (as of 2026-06-01):
+
+  Twitter/X:    90,000 followers
+  Instagram:    21,000 followers
+  Posts (IG):   35
+
+The disparity between Twitter and Instagram is the kind of pattern Peppercorn
+is designed to surface. A visual artist with 90k on Twitter and 21k on Instagram
+is carrying an unusual distribution. The gap is not explained by content quality.
+It is explained by volume: 35 posts on Instagram means the account has barely
+been used. The audience that already exists on Twitter has no equivalent
+Instagram presence to follow.
+
+Peppercorn's role here is not to say "you need more followers." It is to say:
+you already have an audience. You are not reaching them on the platform most
+suited to visual work.
+
+This is an actionable insight with a specific path. Peppercorn surfaces it as:
+
+  INSTAGRAM QUESTLINE (active)
+  Current: 21k followers, 35 posts
+  Pattern: Twitter audience (90k) not mirrored on Instagram — likely due to
+           posting frequency, not content quality
+  Milestone: 100 posts (consistency baseline)
+  Milestone: 30k followers (parity with expected conversion from Twitter base)
+  Next action: Post 3 times this week. Document in-progress work, not just
+               finished pieces. Story content — process, materials, the view
+               from the window you paint — converts Twitter followers who are
+               already interested.
+
+Peppercorn does not frame this as a weakness to correct. He frames it as
+an asymmetry that has a clear resolution. The audience is already there.
+
+─────────────────────────────────────────────────────────────────────
+
+THE THREE COMPANIONS AS A SYSTEM
+
+The companions are not three separate features that share a UI frame. They are
+a system with a specific information flow.
+
+SAFFRON SEES THE LANDSCAPE
+
+Saffron's observatory reports what the market looks like: which institutions
+are active, what comparable artists are doing, where the opportunities are
+clustering, what prerequisites major goals actually require. She does not
+advise — she describes.
+
+Her data is the raw material for questline design. When Peppercorn lists the
+prerequisites for the Major Press questline, those numbers came from Saffron.
+When Peppercorn tells the artist that her Instagram underperformance is unusual
+for a visual artist at her follower tier, that context came from Saffron.
+
+PEPPERCORN MAPS THE PATH
+
+Peppercorn translates Saffron's landscape into a set of structured paths. He
+takes the reality of how careers accumulate — the prerequisites, the milestones,
+the sequencing — and makes it visible as something the artist can navigate.
+
+He also holds the artist's own knowledge of herself: what she wants, what she
+does not want, which questlines she has chosen to pursue and which she has set
+aside. Without Peppercorn, the system does not know what to optimize for.
+With him, every daily action has a place in a larger structure the artist has
+approved.
+
+MOCHI WALKS IT ONE STEP AT A TIME
+
+Mochi operates at the level of today. She does not know about questlines
+directly — she knows about individual opportunities, actions, and submissions.
+But the actions she surfaces are not random. They are informed by which
+questline prerequisites are currently unmet and which have approaching windows.
+
+The connection is this: when Mochi tells the artist that today's High Impact
+Move is to prepare a submission for the CSPWC Open Water, she is not just
+surfacing a high-scoring opportunity. She is surfacing the action that advances
+the "International Juried Exhibition Credit" prerequisite of the "Japan
+Watercolor Society Member" questline. The artist sees the action. Peppercorn
+shows her what it builds toward.
+
+Together the information flow is:
+
+  Saffron sees the landscape
+  ↓
+  Peppercorn maps the path through it
+  ↓
+  Mochi walks that path one action at a time
+
+None of the three companions is redundant. Mochi without Peppercorn produces
+actions without direction. Peppercorn without Saffron produces paths without
+grounding. Saffron without Peppercorn and Mochi produces context without
+consequence. The system is complete only when all three are present.
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT THIS MEANS FOR CODE
+
+Questlines are data, not logic. They are defined as structured objects — a name,
+a completion condition, a list of prerequisites each with a type (automatic vs
+prompted), a current state, and a horizon tier. They live in memory/ as JSON.
+
+The pipeline populates them. As exhibitions are confirmed, submissions are made,
+social metrics are recorded, the questline objects are updated. The update logic
+lives in Peppercorn's engine — it reads the latest pipeline output and advances
+any prerequisites that can be automatically resolved.
+
+The UI reads the questline objects and renders them as progress structures.
+It does not recompute them.
+
+Prompted updates arrive through Peppercorn's input interface: a question,
+the artist's answer, a write to the questline object. No inference, no
+approximation — just the artist's own account of what happened.
+
+Questlines are never generated automatically. They are authored. When a new
+questline is added to the system, it reflects a real decision about how a
+career in this specific field actually accumulates. The numbers come from
+research. The structure comes from understanding. Neither can be automated.
+
+Social metrics are stored in memory/artist_master_profile.json under a
+social_following section. They are updated by the pipeline when available
+and prompted by Peppercorn when not. They feed both questline progress
+(follower milestones) and Saffron's context layer (market comparison).
+
+─────────────────────────────────────────────────────────────────────
+
+A NOTE ON TONE
+
+Questlines could easily become a productivity trap. "You have completed 2 of 10
+anthology credits. You are 20% of the way to your goal." This framing is wrong.
+
+An artist is not 20% of the way to anything. She is making work. She is making
+decisions. She is in the middle of a career that does not reduce to a progress
+bar. The questline system exists to help her see the structure of her own
+choices, not to measure her against an external standard.
+
+Peppercorn's questline copy does not show percentages. It does not use the word
+"progress." It does not compare the artist to a timeline or tell her she is
+behind. It shows what has been built and what is still to build — in the same
+register that a good map shows terrain. Here is where you are. Here is where
+the path goes. That is all.
+
+─────────────────────────────────────────────────────────────────────
