@@ -203,7 +203,8 @@
     "recommendation_visibility": "show",
     "exclusive_primary_bucket": "immediate_best_moves",
     "name": "Tokyo Art Book Fair",
-    "country": "Japan"
+    "country": "Japan",
+    "next_cycle_note": "2027 application window appears to be January 21-29 2027 — check tokyoartbookfair.com/application/"
   },
   {
     "title": "UTRECHT",
@@ -1306,8 +1307,8 @@
     "overall_score": 9.4,
     "visual_fit_score": 0.45,
     "source_url": "https://www.nwws.org/annual-international-open/",
-    "submission_page": "https://www.nwws.org/2026-open-prospectus_final/",
-    "deadline": "July 8, 2026",
+    "submission_page": "https://www.nwws.org/annual-international-open/",
+    "deadline": "July 8, 2026 — 11:59 PM Pacific",
     "fees": "Member reduced / non-member — check prospectus",
     "one_sentence": "Prestigious annual international watercolor exhibition open to all artists worldwide, $15,000+ in awards, juror Dongfeng Li (Chinese-American watercolor watercolor artist). Deadline July 8 2026.",
     "why_this_fits_short": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.",
@@ -1412,7 +1413,15 @@
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "immediate_best_moves"
+    "exclusive_primary_bucket": "immediate_best_moves",
+    "accepted_media": "Watercolor, acrylic, gouache, egg tempera, and mixed media (water media)",
+    "exhibition_timeline": {
+      "entry_deadline": "July 8, 2026",
+      "results_posted": "August 12, 2026",
+      "exhibition_opening": "October 30, 2026",
+      "exhibition_closes": "December 11, 2026"
+    },
+    "international_eligible": true
   },
   {
     "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -4573,7 +4582,8 @@
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Capped at 7.6 due to verification strength.",
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "immediate_best_moves"
+    "exclusive_primary_bucket": "immediate_best_moves",
+    "verification_note": "Most recent dates found are April-May 2025 — may be annual. Verify 2026 edition."
   },
   {
     "title": "Books Ruhe",
@@ -7075,7 +7085,8 @@
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "immediate_best_moves"
+    "exclusive_primary_bucket": "immediate_best_moves",
+    "verification_note": "Homepage minimal — check cspwc.ca/open-water for 2026 submission deadline. Exhibition Sept 1-19 2026."
   },
   {
     "title": "BankART1929",
