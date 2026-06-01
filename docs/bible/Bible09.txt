@@ -254,6 +254,130 @@ consequence. The system is complete only when all three are present.
 
 ─────────────────────────────────────────────────────────────────────
 
+ADDENDUM — Written 2026-06-01
+
+TWO MODES, ONE PAGE
+
+Peppercorn's page has two distinct operating modes. They are not separate
+sections. They are not tabs. They are two states of the same page, available
+at different points in the artist's relationship with the system.
+
+MODE 1: THE QA MINIGAME (first visit and periodic refresh)
+
+On first visit, Peppercorn runs a short intake: 20-30 quick, playful questions
+that build the artist's initial profile. This is not a settings form. It is not
+a survey. It is a conversation designed to feel like the early minutes of getting
+to know someone — curious, light, unhurried.
+
+The questions are chosen because they reveal things about working style, values,
+and ambition that the pipeline cannot infer from public data alone. They are not
+asked all at once. Peppercorn asks a handful, waits, comes back with more. The
+feel is accumulated over several visits, not front-loaded.
+
+Example questions:
+
+  "Would you prefer to be known for your skill or your perspective?"
+  "Famous, or financially stable?"
+  "Do you prefer working alone or in community?"
+  "Does critical recognition matter to you, or is it secondary to the work?"
+  "Would you rather be ahead of the market or recognized by it?"
+  "Does it matter to you which country or city your work is shown in?"
+  "Do you find artist statements useful or constraining?"
+  "Is your practice primarily personal or primarily communicative?"
+
+These are not trick questions. There are no wrong answers. Each answer feeds
+directly into two things: opportunity scoring weights (an artist who answers
+"financially stable" over "famous" gets different recommendations than one who
+answers the reverse) and outreach tone (the language Mochi uses when drafting
+an inquiry shifts depending on what Peppercorn has learned about how the artist
+wants to present herself).
+
+The minigame is the entry point to the whole Peppercorn layer. Without it,
+the system is guessing. With it, the system is advised.
+
+MODE 2: QUESTLINES (ongoing, after minigame is complete)
+
+Once the initial intake is done, Peppercorn's page becomes the questline
+tracker described earlier in this document. The minigame recedes — it can be
+revisited to update answers, but it is no longer foregrounded. What the artist
+sees is the map of the paths she has chosen.
+
+The transition from Mode 1 to Mode 2 is not a menu item or a button. It is
+a natural consequence of completion. When Peppercorn has enough information
+to operate, he shows the artist what he can now do with it.
+
+The questline mode is described fully in the preceding sections of this
+document.
+
+─────────────────────────────────────────────────────────────────────
+
+THE ARTIST STATEMENT FIELD
+
+Alongside both modes sits a single persistent field: the artist statement.
+
+This is not part of the minigame. It is not a questline milestone. It occupies
+its own space on Peppercorn's page at all times, accessible regardless of which
+mode is active. The artist can read it, edit it, and leave it. Peppercorn
+remembers when it was last changed and prompts when it has been untouched for
+more than 60 days.
+
+The artist statement feeds two downstream systems:
+
+  1. The description generator: when the pipeline generates opportunity briefs,
+     portfolio pitches, or contextual descriptions of the artist's work, it draws
+     from the statement. The statement is the artist's own voice, offered once,
+     used consistently.
+
+  2. The outreach email tone: when Mochi drafts an inquiry or cover letter, the
+     statement provides the register. An artist who describes herself in spare,
+     precise language gets drafts in spare, precise language. An artist whose
+     statement is warm and narrative gets that. The email does not impose a house
+     style. It extends the artist's existing voice.
+
+The statement is the permanent record. The minigame answers can change.
+Questline progress accumulates. But the statement is what remains constant —
+the artist's own account of what she is doing and why. Everything else
+Peppercorn does is built on top of it.
+
+─────────────────────────────────────────────────────────────────────
+
+THE THREE ELEMENTS TOGETHER
+
+The minigame, the questlines, and the artist statement are not three separate
+features sharing a page. They are three layers of the same thing: Peppercorn's
+attempt to understand the artist well enough to be genuinely useful.
+
+  THE MINIGAME is the entry point. It establishes the artist's values, working
+  style, and priorities as she articulates them directly — not as the system
+  has guessed them from behavioral data. It happens once, primarily, and is
+  refreshed over time as answers evolve. Its output is not stored as answers
+  to questions. It is stored as weights and orientations that shape everything
+  the system does subsequently.
+
+  THE QUESTLINES are the ongoing tracker. They take the artist's stated goals
+  and the career landscape Saffron describes, combine them, and produce a
+  structured map of where the artist is and where she is going. They are always
+  live. Progress is updated automatically or prompted, depending on what the
+  system can infer on its own.
+
+  THE ARTIST STATEMENT is the permanent record. It is the artist's own voice,
+  present in every outreach email, every opportunity description, every moment
+  when the system needs to describe who this artist is and what she makes.
+
+Together they give Peppercorn what he needs to generate meaningful career path
+recommendations — not ranked lists of scored opportunities (that is Mochi's
+output, derived from the pipeline), but genuine guidance about which paths are
+worth walking and why, phrased in language that fits the artist rather than
+the system.
+
+Without the minigame, Peppercorn is operating on assumptions.
+Without the questlines, Peppercorn has no structure to map progress onto.
+Without the artist statement, Peppercorn has no voice to speak in.
+
+All three are necessary. None substitutes for the others.
+
+─────────────────────────────────────────────────────────────────────
+
 WHAT THIS MEANS FOR CODE
 
 Questlines are data, not logic. They are defined as structured objects — a name,
