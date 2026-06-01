@@ -16,14 +16,6 @@
     "first_action": "Choose 12 finished or nearly finished watercolors. Group them by place, plant life, architecture, and human trace.",
     "opportunity_targets": [
       {
-        "title": "Jinny Street Gallery Open Call",
-        "score": 10,
-        "hits": [
-          "gallery"
-        ],
-        "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application."
-      },
-      {
         "title": "Browse opportunities | CuratorSpace",
         "score": 10,
         "hits": [
@@ -73,23 +65,31 @@
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Aesthetica Art Prize",
+        "title": "Jackson's Art Prize",
         "score": 10,
         "hits": [
           "watercolor",
           "works on paper"
         ],
-        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
       },
       {
-        "title": "Self Publish, Be Happy",
+        "title": "Royal Watercolour Society",
         "score": 10,
         "hits": [
           "watercolor",
-          "works on paper",
-          "gallery"
+          "works on paper"
         ],
-        "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
+        "why": "Native watercolor context. Strong medium fit if requirements and dates are current."
+      },
+      {
+        "title": "Bologna Children's Book Fair Illustrators Exhibition",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "works on paper"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       }
     ]
   },
@@ -153,28 +153,28 @@
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Aesthetica Art Prize",
+        "title": "Jackson's Art Prize",
         "score": 10,
         "hits": [
           "works on paper"
         ],
-        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
       },
       {
-        "title": "Self Publish, Be Happy",
+        "title": "Royal Watercolour Society",
         "score": 10,
         "hits": [
           "works on paper"
         ],
-        "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
+        "why": "Native watercolor context. Strong medium fit if requirements and dates are current."
       },
       {
-        "title": "POST",
+        "title": "Bologna Children's Book Fair Illustrators Exhibition",
         "score": 10,
         "hits": [
-          "memory"
+          "works on paper"
         ],
-        "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       }
     ]
   },
@@ -194,14 +194,6 @@
     ],
     "first_action": "Prepare a compact PDF: title, 10 images, dimensions, prices if available, and a 3-line artist note.",
     "opportunity_targets": [
-      {
-        "title": "Jinny Street Gallery Open Call",
-        "score": 10,
-        "hits": [
-          "gallery"
-        ],
-        "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application."
-      },
       {
         "title": "Browse opportunities | CuratorSpace",
         "score": 10,
@@ -247,21 +239,28 @@
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Aesthetica Art Prize",
+        "title": "Jackson's Art Prize",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
       },
       {
-        "title": "Self Publish, Be Happy",
+        "title": "Royal Watercolour Society",
         "score": 10,
         "hits": [
-          "gallery",
           "watercolor"
         ],
-        "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
+        "why": "Native watercolor context. Strong medium fit if requirements and dates are current."
+      },
+      {
+        "title": "Bologna Children's Book Fair Illustrators Exhibition",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       }
     ]
   },
@@ -295,6 +294,7 @@
         "title": "Royal Watercolour Society Open Exhibition",
         "score": 10,
         "hits": [
+          "artist book",
           "watercolor"
         ],
         "why": "Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone."
@@ -330,33 +330,33 @@
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Aesthetica Art Prize",
-        "score": 10,
-        "hits": [
-          "zine",
-          "watercolor"
-        ],
-        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
-      },
-      {
-        "title": "Self Publish, Be Happy",
+        "title": "Jackson's Art Prize",
         "score": 10,
         "hits": [
           "artist book",
-          "zine",
           "watercolor"
         ],
-        "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
       },
       {
-        "title": "UTRECHT",
+        "title": "Royal Watercolour Society",
         "score": 10,
         "hits": [
           "artist book",
-          "zine",
-          "printed matter"
+          "watercolor"
         ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+        "why": "Native watercolor context. Strong medium fit if requirements and dates are current."
+      },
+      {
+        "title": "Bologna Children's Book Fair Illustrators Exhibition",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "book fair",
+          "illustration",
+          "watercolor"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       }
     ]
   }

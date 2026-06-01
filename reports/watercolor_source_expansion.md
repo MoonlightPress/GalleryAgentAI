@@ -1,7 +1,7 @@
 # Watercolor Source Expansion
 
 Added sources: 0
-Total sources: 19
+Total sources: 15
 
 ## Added Sources
 

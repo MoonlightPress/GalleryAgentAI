@@ -2,7 +2,26 @@
 
 This runs at the end of the pipeline so later scoring scripts cannot inflate weakly verified opportunities.
 
+- UTRECHT: 8.6 → 7.6
+- B&B Shimokitazawa: 8.6 → 7.6
+- flotsam books: 8.6 → 7.6
+- MOUNT ZINE: 8.6 → 7.6
+- Submissions — Clavis Publishing: 8.6 → 7.6
+- Fukuoka Art Book Fair: 8.6 → 8.2
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin: 8.6 → 7.6
+- Aperture | Photography: 8.6 → 7.6
 - Browse opportunities | CuratorSpace: 8.6 → 7.6
+- » 21 Terrific Small Presses Open to Direct Submissions: 8.6 → 7.6
+- SUBMISSIONS - marblepress.com: 8.6 → 7.6
+- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]: 8.6 → 7.6
+- Publishers & Publishing Services in Japan - PublishersGlobal.com: 8.6 → 7.6
+- Submissions - Little Press Publishing: 8.6 → 7.6
+- 3 Top Book Publishers in Tokyo in 2026: 8.6 → 7.6
+- submissions — porkbelly press: 8.6 → 7.6
+- 3 Top Book Publishers in Japan in 2026: 8.6 → 7.6
+- Become an Author - Tuttle Publishing: 8.6 → 7.6
+- Japan Book Publishers Association - JBPA: 8.6 → 7.6
+- ART BOX Publishing: 8.6 → 7.6
 - Offprint: 8.6 → 7.6
 - Royal Watercolour Society Open Exhibition: 8.6 → 7.6
 - LOCAL Gallery・Books: 8.6 → 7.6
@@ -10,18 +29,54 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Jimbocho Zine Fair: 8.6 → 7.6
 - tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...: 8.6 → 7.6
 - Tacoche: 8.6 → 7.6
+- Books Ruhe: 8.6 → 7.6
 - tata bookshop/gallery: 8.6 → 7.6
 - 本店・本屋の実験室: 8.6 → 7.6
 - Top Artist Opportunities for 2026 | ArtConnect: 8.6 → 7.6
 - Center for Book Arts Opportunities: 8.6 → 7.6
 - Aesthetica Art Prize: 8.6 → 7.6
+- Book and Sons: 8.6 → 7.6
+- Applications — Little Tokyo Zine Fest: 8.6 → 8.2
+- Youkobo Art Space: 8.6 → 7.6
+- Tokyo Wonder Site / TOKAS Residency: 8.6 → 7.6
+- Comitia: 8.6 → 7.6
 - American Watercolor Society Annual International Exhibition: 8.6 → 7.6
+- BankART1929: 8.6 → 7.6
+- AIR 3331: 8.6 → 7.6
+- Tokyo Arts and Space: 8.6 → 7.6
+- AIT Residency: 8.6 → 7.6
+- BONUS TRACK: 8.6 → 7.6
+- Koganecho Area Management Center: 8.6 → 7.6
+- 3331 Arts Chiyoda: 8.6 → 7.6
+- Design Festa: 8.6 → 7.6
+- Aoyama Farmers Market: 8.6 → 7.6
+- Cafe Cross Point: 8.6 → 7.6
+- TAV Gallery: 8.6 → 7.6
+- Gallery IRO: 8.6 → 7.6
+- Gallery HANA Shimokitazawa: 8.6 → 7.6
 - Zines Fair at CP+: 8.6 → 7.6
 - ZINEフェス東京: 8.6 → 7.6
 - ZINEイベント: 8.6 → 7.6
 - Full-Table - Little Tokyo Zine Fest 2026 - Eventeny: 8.6 → 7.6
 - Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat: 8.6 → 7.6
 - Cité Internationale des Arts Artist Residency: 8.6 → 7.6
+- PDF International Creator Residency Program 2026 Application Outline: 8.6 → 8.2
+- 2026年度 リサーチ・レジデンス・プログラム: 8.6 → 8.2
+- Open Call for the International Creator Residency Program 2026: 8.6 → 8.2
+- Jinny Street Gallery Open Call: 8.6 → 8.2
+- TOKAS Open Call: 8.6 → 8.2
+- Belladonna Art Competition: 8.6 → 8.2
+- Open Call Guest Artist: 8.6 → 8.2
+- SCCP Guest Artist: 8.6 → 8.2
+- Open Call: 8.6 → 8.2
+- Open Call - Tokyo Arts and Space: 8.6 → 8.2
+- 公募: 8.6 → 8.2
+- 全国美術公募団体 ベラドンナ・アート｜応募要項: 8.6 → 8.2
+- About Open Call Programs - Tokyo Arts and Space: 8.6 → 8.2
+- TOKAS Residency: 8.6 → 8.2
+- Hayama Artist Residency Submission Manager - Submittable: 8.6 → 7.6
+- Hayama Artist Residency: 8.6 → 7.6
+- Clavis Publishing Submissions: 8.6 → 7.6
 - Open Calls for Artists: 8.6 → 8.2
 - Open Call For Artists: 8.6 → 8.2
 - The Holy Art Gallery - Tokyo Open Call for Artist: 8.6 → 8.2
@@ -45,50 +100,44 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - NEW AIR: 8.6 → 8.2
 - 【公募】2026年度レジデンス・プログラム公募開始: 8.6 → 8.2
 - NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW: 8.6 → 8.2
-- Books Ruhe: 8.4 → 7.6
-- » 21 Terrific Small Presses Open to Direct Submissions: 8.3 → 7.6
-- SUBMISSIONS - marblepress.com: 8.3 → 7.6
-- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]: 8.3 → 7.6
-- Publishers & Publishing Services in Japan - PublishersGlobal.com: 8.3 → 7.6
-- Submissions - Little Press Publishing: 8.3 → 7.6
-- 3 Top Book Publishers in Tokyo in 2026: 8.3 → 7.6
-- submissions — porkbelly press: 8.3 → 7.6
-- 3 Top Book Publishers in Japan in 2026: 8.3 → 7.6
-- Become an Author - Tuttle Publishing: 8.3 → 7.6
-- Japan Book Publishers Association - JBPA: 8.3 → 7.6
-- ART BOX Publishing: 8.3 → 7.6
-- Aperture | Photography: 8.1 → 7.6
+- ARTE VENT Press: 8.6 → 7.6
+- PhotoVogue: 8.3 → 7.6
 - Self Publish, Be Happy: 8.0 → 6.5
+- NADiff a/p/a/r/t: 8.0 → 6.5
 - Printed Matter Art Book Fairs: 8.0 → 6.5
 - Home - Printed Matter: 8.0 → 6.5
+- The Container: 8.0 → 6.5
 - Book Obscura: 8.0 → 6.5
-- グループ展参加アーティスト募集中 - Gallery and Links81: 8.0 → 7.6
-- 【biscuit gallery】初の公募企画「grid next : Emerging ...: 8.0 → 7.6
-- 219公募展6募集 >> Gallery219 ギャラリーニイク: 8.0 → 7.6
-- 公募プログラム - トーキョーアーツアンドスペース: 8.0 → 7.6
-- 公募企画「grid next : 2025 - Emerging Artists Showcase ...: 8.0 → 7.6
-- Open Calls for Artists | Exhibit Worldwide: 8.0 → 7.6
-- Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...: 8.0 → 7.6
+- POST: 8.0 → 6.5
+- RAW TOKYO: 8.0 → 6.5
+- Creative Space Hayashi: 8.0 → 6.5
+- グループ展参加アーティスト募集中 - Gallery and Links81: 8.0 → 6.5
+- 【biscuit gallery】初の公募企画「grid next : Emerging ...: 8.0 → 6.5
+- 219公募展6募集 >> Gallery219 ギャラリーニイク: 8.0 → 6.5
+- 公募プログラム - トーキョーアーツアンドスペース: 8.0 → 6.5
+- 公募企画「grid next : 2025 - Emerging Artists Showcase ...: 8.0 → 6.5
+- Open Calls for Artists | Exhibit Worldwide: 8.0 → 6.5
+- Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...: 8.0 → 6.5
 - 日記屋 月日: 8.0 → 6.5
 - Bologna Children's Book Fair Illustrators Exhibition: 7.8 → 7.6
 - HB Gallery: 7.8 → 7.6
 - OPA Gallery: 7.8 → 7.6
 - Pinpoint Gallery: 7.8 → 7.6
-- Jackson's Art Prize: 7.8 → 7.6
-- ArtConnect Open Calls: 7.8 → 7.6
-- CuratorSpace: 7.8 → 7.6
-- Society of Women Artists: 7.8 → 7.6
 - Gallery IRO: 7.8 → 7.6
-- Royal Watercolour Society: 7.8 → 7.6
 - Gallery IYN: 7.8 → 7.6
 - The Artcomplex Center of Tokyo: 7.8 → 7.6
 - AAA Gallery Yokohama: 7.8 → 7.6
+- Jackson's Art Prize: 7.8 → 7.6
 - Tokyo Illustrators Society: 7.8 → 7.6
 - World Illustration Awards: 7.8 → 7.6
 - 3x3 International Illustration Awards: 7.8 → 7.6
 - American Illustration: 7.8 → 7.6
+- ArtConnect Open Calls: 7.8 → 7.6
+- CuratorSpace: 7.8 → 7.6
+- Society of Women Artists: 7.8 → 7.6
+- Royal Watercolour Society: 7.8 → 7.6
+- DER GREIF: 7.8 → 7.6
 - Asian Cultural Council Fellowship: 7.8 → 7.6
-- ARTE VENT Press: 7.7 → 7.6
 - そぞろ書房: 7.5 → 6.5
 - Japan Watercolor Society Annual Exhibition: 7.5 → 6.5
 - 若手アーティストの登竜門となるアートフェア「Independent Tokyo ...: 7.5 → 6.5
@@ -98,8 +147,8 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Call for Entry: Showcase your art in Tokyo, Japan: 7.5 → 6.5
 - 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...: 7.5 → 6.5
 - 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...: 7.5 → 6.5
+- Communication Arts Illustration Competition: 6.7 → 6.5
 - Mall Galleries Open Exhibitions: 6.7 → 6.5
 - Pastel Society Open Exhibition: 6.7 → 6.5
-- Communication Arts Illustration Competition: 6.7 → 6.5
 - Royal Institute of Painters in Water Colours: 6.7 → 6.5
-- Boji Hair+Gallery: 6.6 → 6.5
+- Boji Hair+Gallery: 6.7 → 6.5

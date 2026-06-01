@@ -5,44 +5,44 @@
     "matched_opportunities": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hit_nodes": [
           "TOKYO ART BOOK FAIR"
         ],
         "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hit_nodes": [
-          "MOUNT ZINE"
-        ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
-      },
-      {
         "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.24,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hit_nodes": [
           "UTRECHT"
         ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
       },
       {
         "title": "flotsam books",
-        "score": 9.2,
-        "differentiated_score": 11.19,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hit_nodes": [
           "flotsam books"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
+        "title": "MOUNT ZINE",
+        "score": 8.6,
+        "differentiated_score": 10.59,
+        "hit_nodes": [
+          "MOUNT ZINE"
+        ],
+        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
+      },
+      {
         "title": "POST",
-        "score": 8.8,
-        "differentiated_score": 9.89,
+        "score": 8.0,
+        "differentiated_score": 9.09,
         "hit_nodes": [
           "POST"
         ],
@@ -64,6 +64,15 @@
     "why_it_matters": "This is the long-horizon ecosystem for international publication legitimacy.",
     "matched_opportunities": [
       {
+        "title": "Aperture | Photography",
+        "score": 8.6,
+        "differentiated_score": 10.13,
+        "hit_nodes": [
+          "Aperture"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+      },
+      {
         "title": "Offprint",
         "score": 8.6,
         "differentiated_score": 10.04,
@@ -82,18 +91,9 @@
         "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
       },
       {
-        "title": "Aperture | Photography",
-        "score": 8.1,
-        "differentiated_score": 9.63,
-        "hit_nodes": [
-          "Aperture"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
-      },
-      {
         "title": "Gallery Conceal Shibuya",
-        "score": 6.2,
-        "differentiated_score": 6.9,
+        "score": 7.6,
+        "differentiated_score": 8.3,
         "hit_nodes": [
           "VOID"
         ],
@@ -101,8 +101,8 @@
       },
       {
         "title": "Picaresque Gallery",
-        "score": 5.9,
-        "differentiated_score": 6.76,
+        "score": 5.5,
+        "differentiated_score": 6.36,
         "hit_nodes": [
           "VOID"
         ],
@@ -120,45 +120,45 @@
     "why_it_matters": "These are useful for soft visibility and relationship-building before major applications.",
     "matched_opportunities": [
       {
-        "title": "MOUNT ZINE",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "title": "UTRECHT",
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hit_nodes": [
-          "MOUNT ZINE"
+          "UTRECHT"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
       },
       {
         "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hit_nodes": [
           "B&B Shimokitazawa"
         ],
         "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
       },
       {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.24,
-        "hit_nodes": [
-          "UTRECHT"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
         "title": "flotsam books",
-        "score": 9.2,
-        "differentiated_score": 11.19,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hit_nodes": [
           "flotsam books"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
+        "title": "MOUNT ZINE",
+        "score": 8.6,
+        "differentiated_score": 10.59,
+        "hit_nodes": [
+          "MOUNT ZINE"
+        ],
+        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
+      },
+      {
         "title": "POST",
-        "score": 8.8,
-        "differentiated_score": 9.89,
+        "score": 8.0,
+        "differentiated_score": 9.09,
         "hit_nodes": [
           "POST"
         ],

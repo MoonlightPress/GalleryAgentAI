@@ -10,6 +10,14 @@ These are global or international opportunities that need verification before be
 - Missing: deadline, fees, contact
 - Next: Open and verify whether this is current and relevant.
 
+## Aperture | Photography
+- Score: 8.6/10
+- Country: Global
+- Category: global_photobook
+- Source: https://aperture.org/
+- Missing: submission process, deadline, fees, contact
+- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
+
 ## Browse opportunities | CuratorSpace
 - Score: 8.6/10
 - Country: Global
@@ -74,11 +82,11 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Research application routes (often via home country cultural institutions or direct application), eligibility, and current availability.
 
-## Aperture | Photography
-- Score: 8.1/10
+## PhotoVogue
+- Score: 8.3/10
 - Country: Global
-- Category: global_photobook
-- Source: https://aperture.org/
+- Category: photo_open_call
+- Source: https://www.vogue.com/photovogue
 - Missing: submission process, deadline, fees, contact
 - Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
 
@@ -88,7 +96,7 @@ These are global or international opportunities that need verification before be
 - Category: global_artist_book_platform
 - Source: https://selfpublishbehappy.com/
 - Missing: submission process, deadline, fees, contact
-- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper or newsletter visibility is available.
+- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
 
 ## Printed Matter Art Book Fairs
 - Score: 8.0/10
@@ -138,51 +146,11 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
-## Jackson's Art Prize
-- Score: 7.8/10
-- Country: Global
-- Category: 
-- Source: https://www.jacksonsart.com/paintingprize/
-- Missing: submission process, deadline, fees, contact
-- Next: Verify current submission, exhibition, or contact details before recommending.
-
-## ArtConnect Open Calls
-- Score: 7.8/10
-- Country: Global
-- Category: 
-- Source: https://www.artconnect.com/opportunities
-- Missing: submission process, deadline, fees, contact
-- Next: Verify current submission, exhibition, or contact details before recommending.
-
-## CuratorSpace
-- Score: 7.8/10
-- Country: Global
-- Category: 
-- Source: https://www.curatorspace.com/opportunities
-- Missing: submission process, deadline, fees, contact
-- Next: Verify current submission, exhibition, or contact details before recommending.
-
-## Society of Women Artists
-- Score: 7.8/10
-- Country: UK
-- Category: 
-- Source: https://www.society-women-artists.org.uk/
-- Missing: submission process, deadline, fees, contact
-- Next: Verify current submission, exhibition, or contact details before recommending.
-
 ## Gallery IRO
 - Score: 7.8/10
 - Country: Tokyo
 - Category: 
 - Source: https://1-6.jp/
-- Missing: submission process, deadline, fees, contact
-- Next: Verify current submission, exhibition, or contact details before recommending.
-
-## Royal Watercolour Society
-- Score: 7.8/10
-- Country: UK
-- Category: 
-- Source: https://www.royalwatercoloursociety.co.uk/
 - Missing: submission process, deadline, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
@@ -199,6 +167,14 @@ These are global or international opportunities that need verification before be
 - Country: Yokohama
 - Category: 
 - Source: https://artaraqasia.com/
+- Missing: submission process, deadline, fees, contact
+- Next: Verify current submission, exhibition, or contact details before recommending.
+
+## Jackson's Art Prize
+- Score: 7.8/10
+- Country: Global
+- Category: 
+- Source: https://www.jacksonsart.com/paintingprize/
 - Missing: submission process, deadline, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
@@ -226,6 +202,46 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
+## ArtConnect Open Calls
+- Score: 7.8/10
+- Country: Global
+- Category: 
+- Source: https://www.artconnect.com/opportunities
+- Missing: submission process, deadline, fees, contact
+- Next: Verify current submission, exhibition, or contact details before recommending.
+
+## CuratorSpace
+- Score: 7.8/10
+- Country: Global
+- Category: 
+- Source: https://www.curatorspace.com/opportunities
+- Missing: submission process, deadline, fees, contact
+- Next: Verify current submission, exhibition, or contact details before recommending.
+
+## Society of Women Artists
+- Score: 7.8/10
+- Country: UK
+- Category: 
+- Source: https://www.society-women-artists.org.uk/
+- Missing: submission process, deadline, fees, contact
+- Next: Verify current submission, exhibition, or contact details before recommending.
+
+## Royal Watercolour Society
+- Score: 7.8/10
+- Country: UK
+- Category: 
+- Source: https://www.royalwatercoloursociety.co.uk/
+- Missing: submission process, deadline, fees, contact
+- Next: Verify current submission, exhibition, or contact details before recommending.
+
+## DER GREIF
+- Score: 7.8/10
+- Country: Global
+- Category: photo_open_call
+- Source: https://dergreif.org/
+- Missing: submission process, deadline, fees, contact
+- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
+
 ## Asian Cultural Council Fellowship
 - Score: 7.8/10
 - Country: USA / Global
@@ -242,21 +258,13 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Research current membership structure, open entry process, exhibition dates, and submission requirements in Japanese.
 
-## PhotoVogue
-- Score: 7.3/10
+## Communication Arts Illustration Competition
+- Score: 6.7/10
 - Country: Global
-- Category: photo_open_call
-- Source: https://www.vogue.com/photovogue
+- Category: 
+- Source: https://www.commarts.com/competitions/illustration
 - Missing: submission process, deadline, fees, contact
-- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
-
-## DER GREIF
-- Score: 6.8/10
-- Country: Global
-- Category: photo_open_call
-- Source: https://dergreif.org/
-- Missing: submission process, deadline, fees, contact
-- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
+- Next: Verify current submission, exhibition, or contact details before recommending.
 
 ## Mall Galleries Open Exhibitions
 - Score: 6.7/10
@@ -274,14 +282,6 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
-## Communication Arts Illustration Competition
-- Score: 6.7/10
-- Country: Global
-- Category: 
-- Source: https://www.commarts.com/competitions/illustration
-- Missing: submission process, deadline, fees, contact
-- Next: Verify current submission, exhibition, or contact details before recommending.
-
 ## Royal Institute of Painters in Water Colours
 - Score: 6.7/10
 - Country: UK
@@ -291,9 +291,17 @@ These are global or international opportunities that need verification before be
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
 ## Boji Hair+Gallery
-- Score: 6.6/10
+- Score: 6.7/10
 - Country: Tokyo
 - Category: 
 - Source: https://www.boji-hair.com/
 - Missing: submission process, deadline, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
+
+## Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou
+- Score: 6.1/10
+- Country: Global
+- Category: photo_open_call
+- Source: https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457
+- Missing: deadline, fees, contact
+- Next: Open and verify whether this is current and relevant.

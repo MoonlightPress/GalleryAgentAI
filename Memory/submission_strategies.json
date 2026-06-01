@@ -19,7 +19,7 @@
       "Mention publication intentions."
     ]
   },
-  "UTRECHT": {
+  "Offprint": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
     "advice": [
@@ -29,7 +29,7 @@
       "Mention publication intentions."
     ]
   },
-  "Offprint": {
+  "UTRECHT": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
     "advice": [
@@ -59,7 +59,7 @@
       "Focus on mutual fit."
     ]
   },
-  "出展お申込み": {
+  "B&B Shimokitazawa": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
     "advice": [
@@ -70,16 +70,6 @@
     ]
   },
   "Applications — Little Tokyo Zine Fest": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Clone of Japan Fair 2025 - Exhibitor Application Form": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
     "advice": [
@@ -109,7 +99,27 @@
       "Focus on mutual fit."
     ]
   },
-  "Koganecho Area Management Center": {
+  "flotsam books": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "MOUNT ZINE": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -129,7 +139,7 @@
       "Focus on mutual fit."
     ]
   },
-  "POST": {
+  "Koganecho Area Management Center": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -147,6 +157,46 @@
       "Do not over-explain the work.",
       "Lead with atmosphere and sincerity.",
       "Focus on mutual fit."
+    ]
+  },
+  "Youkobo Art Space": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "AIR 3331": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "POST": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Tokyo Arts and Space": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
     ]
   },
   "PDF International Creator Residency Program 2026 Application Outline": {
@@ -329,26 +379,6 @@
       "Mention publication intentions."
     ]
   },
-  "MOUNT ZINE": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "AIR 3331": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
   "Self Publish, Be Happy": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
@@ -359,17 +389,7 @@
       "Mention publication intentions."
     ]
   },
-  "B&B Shimokitazawa": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin": {
+  "Design Festa": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -377,6 +397,16 @@
       "Do not over-explain the work.",
       "Lead with atmosphere and sincerity.",
       "Focus on mutual fit."
+    ]
+  },
+  "Tokyo Wonder Site / TOKAS Residency": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
     ]
   },
   "Printed Matter Art Book Fairs": {
@@ -469,7 +499,7 @@
       "Mention publication intentions."
     ]
   },
-  "Tacoche": {
+  "Aperture | Photography": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
     "advice": [
@@ -479,34 +509,14 @@
       "Mention publication intentions."
     ]
   },
-  "flotsam books": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
+  "Tacoche": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
     "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Youkobo Art Space": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Tokyo Arts and Space": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
     ]
   },
   "Open Calls for Artists": {
@@ -829,6 +839,26 @@
       "Mention publication intentions."
     ]
   },
+  "Aoyama Farmers Market": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Comitia": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
   "Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
@@ -849,76 +879,6 @@
       "Focus on mutual fit."
     ]
   },
-  "tata bookshop/gallery": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "本店・本屋の実験室": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Top Artist Opportunities for 2026 | ArtConnect": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Aesthetica Art Prize": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "American Watercolor Society Annual International Exhibition": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Royal Watercolour Society Open Exhibition": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Cité Internationale des Arts Artist Residency": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
   "Books Ruhe": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -927,26 +887,6 @@
       "Do not over-explain the work.",
       "Lead with atmosphere and sincerity.",
       "Focus on mutual fit."
-    ]
-  },
-  "日記屋 月日": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Book Obscura": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
     ]
   },
   "» 21 Terrific Small Presses Open to Direct Submissions": {
@@ -1059,7 +999,7 @@
       "Focus on mutual fit."
     ]
   },
-  "Design Festa": {
+  "tata bookshop/gallery": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -1069,17 +1009,157 @@
       "Focus on mutual fit."
     ]
   },
-  "Tokyo Wonder Site / TOKAS Residency": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
+  "Cafe Cross Point": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
     "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
     ]
   },
-  "Aperture | Photography": {
+  "本店・本屋の実験室": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Top Artist Opportunities for 2026 | ArtConnect": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Aesthetica Art Prize": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "American Watercolor Society Annual International Exhibition": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "NADiff a/p/a/r/t": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Royal Watercolour Society Open Exhibition": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Cité Internationale des Arts Artist Residency": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "The Container": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "AIT Residency": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "TAV Gallery": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Gallery IRO": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Gallery HANA Shimokitazawa": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "ARTE VENT Press": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "日記屋 月日": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Book Obscura": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
     "advice": [
@@ -1087,6 +1167,36 @@
       "Emphasize visual consistency.",
       "Include sequencing logic.",
       "Mention publication intentions."
+    ]
+  },
+  "PhotoVogue": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "RAW TOKYO": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Creative Space Hayashi": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
     ]
   },
   "Bologna Children's Book Fair Illustrators Exhibition": {
@@ -1129,66 +1239,6 @@
       "Signal artistic clarity."
     ]
   },
-  "Jackson's Art Prize": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "ArtConnect Open Calls": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "CuratorSpace": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Society of Women Artists": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Gallery IRO": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Royal Watercolour Society": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
   "Gallery IYN": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
@@ -1217,6 +1267,16 @@
       "Let the work speak.",
       "Keep materials minimal and elegant.",
       "Signal artistic clarity."
+    ]
+  },
+  "Jackson's Art Prize": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
     ]
   },
   "Tokyo Illustrators Society": {
@@ -1259,87 +1319,7 @@
       "Focus on mutual fit."
     ]
   },
-  "Asian Cultural Council Fellowship": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "ARTE VENT Press": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "そぞろ書房": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "現代アート販売の@Gallery Tagboat|@Gallery Tagboat": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "New Power展 | ギャラリー自由が丘で作家デビュー": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Call for Entry: Showcase your art in Tokyo, Japan": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Japan Watercolor Society Annual Exhibition": {
+  "ArtConnect Open Calls": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -1349,7 +1329,7 @@
       "Demonstrate seriousness."
     ]
   },
-  "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...": {
+  "CuratorSpace": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -1359,17 +1339,7 @@
       "Demonstrate seriousness."
     ]
   },
-  "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "PhotoVogue": {
+  "Society of Women Artists": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -1379,127 +1349,7 @@
       "Focus on mutual fit."
     ]
   },
-  "Aoyama Farmers Market": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Comitia": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Cafe Cross Point": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "NADiff a/p/a/r/t": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "AIT Residency": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "The Container": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "TAV Gallery": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Gallery HANA Shimokitazawa": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "torch press": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Book Culture Club": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "shashasha": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Komiyama Tokyo": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "twelvebooks": {
+  "Royal Watercolour Society": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -1519,67 +1369,7 @@
       "Focus on mutual fit."
     ]
   },
-  "RAW TOKYO": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Mall Galleries Open Exhibitions": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Pastel Society Open Exhibition": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Communication Arts Illustration Competition": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Royal Institute of Painters in Water Colours": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Creative Space Hayashi": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Boji Hair+Gallery": {
+  "Asian Cultural Council Fellowship": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1687,6 +1477,206 @@
       "Let the work speak.",
       "Keep materials minimal and elegant.",
       "Signal artistic clarity."
+    ]
+  },
+  "そぞろ書房": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "現代アート販売の@Gallery Tagboat|@Gallery Tagboat": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "New Power展 | ギャラリー自由が丘で作家デビュー": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Call for Entry: Showcase your art in Tokyo, Japan": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Japan Watercolor Society Annual Exhibition": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "torch press": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Book Culture Club": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "shashasha": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "Komiyama Tokyo": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "twelvebooks": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Communication Arts Illustration Competition": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Mall Galleries Open Exhibitions": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Pastel Society Open Exhibition": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Boji Hair+Gallery": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Royal Institute of Painters in Water Colours": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
     ]
   },
   "Picaresque Gallery": {

@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-01
 # Spiral
 
 ## 1. Quick Judgment
-**Fit score:** 5.0/10  
+**Fit score:** 4.6/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  

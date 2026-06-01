@@ -7,7 +7,7 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
+This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 
 ## Match Signals
 artist book, zine, printed matter, publication

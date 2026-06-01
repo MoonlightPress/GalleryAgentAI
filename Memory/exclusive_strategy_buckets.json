@@ -2,8 +2,8 @@
   "immediate_best_moves": [
     {
       "title": "Tokyo Art Book Fair",
-      "score": 9.4,
-      "differentiated_score": 11.39,
+      "score": 8.6,
+      "differentiated_score": 10.59,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
       "verification_score": "",
@@ -37,8 +37,8 @@
   "publication_targets": [
     {
       "title": "B&B Shimokitazawa",
-      "score": 9.4,
-      "differentiated_score": 11.39,
+      "score": 7.6,
+      "differentiated_score": 10.59,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
       "verification_score": "",
@@ -52,23 +52,8 @@
       ]
     },
     {
-      "title": "Fukuoka Art Book Fair",
-      "score": 8.8,
-      "differentiated_score": 10.54,
-      "visual_fit_score": 3.25,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "source": "https://fukuokaartbookfair.com/application/",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ]
-    },
-    {
       "title": "Submissions — Clavis Publishing",
-      "score": 8.6,
+      "score": 7.6,
       "differentiated_score": 10.38,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -83,8 +68,23 @@
       ]
     },
     {
+      "title": "Fukuoka Art Book Fair",
+      "score": 8.2,
+      "differentiated_score": 10.34,
+      "visual_fit_score": 3.25,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "source": "https://fukuokaartbookfair.com/application/",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ]
+    },
+    {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-      "score": 8.6,
+      "score": 7.6,
       "differentiated_score": 10.22,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
@@ -111,6 +111,182 @@
         "artist book",
         "artist_book",
         "zine"
+      ]
+    },
+    {
+      "title": "» 21 Terrific Small Presses Open to Direct Submissions",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
+      ]
+    },
+    {
+      "title": "SUBMISSIONS - marblepress.com",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://marblepress.com/submissions/",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
+      ]
+    },
+    {
+      "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.adeptghostwriting.com/blog/small-publishers-accepting-submissions/",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
+      ]
+    },
+    {
+      "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.publishersglobal.com/directory/japan/",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
+      ]
+    },
+    {
+      "title": "Submissions - Little Press Publishing",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://littlepresspublishing.com/submissions",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
+      ]
+    },
+    {
+      "title": "3 Top Book Publishers in Tokyo in 2026",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://reedsy.com/resources/publishers/jp/tokyo/",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
+      ]
+    },
+    {
+      "title": "submissions — porkbelly press",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://porkbellypress.com/subs/",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
+      ]
+    },
+    {
+      "title": "3 Top Book Publishers in Japan in 2026",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://reedsy.com/resources/publishers/jp/",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
+      ]
+    },
+    {
+      "title": "Become an Author - Tuttle Publishing",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.tuttlepublishing.com/become-an-author",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
+      ]
+    },
+    {
+      "title": "Japan Book Publishers Association - JBPA",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.jbpa.or.jp/en/index.html",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
+      ]
+    },
+    {
+      "title": "ART BOX Publishing",
+      "score": 7.6,
+      "differentiated_score": 10.13,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "http://www.artbox-int.co.jp/en/publish/index.html",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "small_press"
       ]
     },
     {
@@ -219,6 +395,21 @@
       ]
     },
     {
+      "title": "Books Ruhe",
+      "score": 7.6,
+      "differentiated_score": 9.98,
+      "visual_fit_score": 3.25,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.",
+      "source": "https://www.books-ruhe.co.jp/",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ]
+    },
+    {
       "title": "tata bookshop/gallery",
       "score": 7.6,
       "differentiated_score": 9.98,
@@ -278,197 +469,6 @@
       ]
     },
     {
-      "title": "» 21 Terrific Small Presses Open to Direct Submissions",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "SUBMISSIONS - marblepress.com",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://marblepress.com/submissions/",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.adeptghostwriting.com/blog/small-publishers-accepting-submissions/",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.publishersglobal.com/directory/japan/",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "Submissions - Little Press Publishing",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://littlepresspublishing.com/submissions",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "3 Top Book Publishers in Tokyo in 2026",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://reedsy.com/resources/publishers/jp/tokyo/",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "submissions — porkbelly press",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://porkbellypress.com/subs/",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "3 Top Book Publishers in Japan in 2026",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://reedsy.com/resources/publishers/jp/",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "Become an Author - Tuttle Publishing",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.tuttlepublishing.com/become-an-author",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "Japan Book Publishers Association - JBPA",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.jbpa.or.jp/en/index.html",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "ART BOX Publishing",
-      "score": 7.6,
-      "differentiated_score": 9.84,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "http://www.artbox-int.co.jp/en/publish/index.html",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "small_press"
-      ]
-    },
-    {
-      "title": "Books Ruhe",
-      "score": 7.6,
-      "differentiated_score": 9.78,
-      "visual_fit_score": 3.25,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.",
-      "source": "https://www.books-ruhe.co.jp/",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ]
-    },
-    {
       "title": "Self Publish, Be Happy",
       "score": 6.5,
       "differentiated_score": 9.7,
@@ -514,6 +514,21 @@
         "artist book",
         "artist_book",
         "zine"
+      ]
+    },
+    {
+      "title": "The Container",
+      "score": 6.5,
+      "differentiated_score": 9.32,
+      "visual_fit_score": 2.4,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but everything else is a question mark requiring energy-intensive investigation.",
+      "source": "https://www.the-container.com/",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book"
       ]
     },
     {
@@ -593,66 +608,6 @@
       ]
     },
     {
-      "title": "Jackson's Art Prize",
-      "score": 7.6,
-      "differentiated_score": 8.88,
-      "visual_fit_score": 2.4,
-      "verification_bucket": "research_needed",
-      "verification_score": "",
-      "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.",
-      "source": "https://www.jacksonsart.com/paintingprize/",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book"
-      ]
-    },
-    {
-      "title": "ArtConnect Open Calls",
-      "score": 7.6,
-      "differentiated_score": 8.88,
-      "visual_fit_score": 2.4,
-      "verification_bucket": "research_needed",
-      "verification_score": "",
-      "why": "Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.",
-      "source": "https://www.artconnect.com/opportunities",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book"
-      ]
-    },
-    {
-      "title": "CuratorSpace",
-      "score": 7.6,
-      "differentiated_score": 8.88,
-      "visual_fit_score": 2.4,
-      "verification_bucket": "research_needed",
-      "verification_score": "",
-      "why": "Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.",
-      "source": "https://www.curatorspace.com/opportunities",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book"
-      ]
-    },
-    {
-      "title": "Society of Women Artists",
-      "score": 7.6,
-      "differentiated_score": 8.88,
-      "visual_fit_score": 2.4,
-      "verification_bucket": "research_needed",
-      "verification_score": "",
-      "why": "Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.",
-      "source": "https://www.society-women-artists.org.uk/",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book"
-      ]
-    },
-    {
       "title": "Gallery IRO",
       "score": 7.6,
       "differentiated_score": 8.88,
@@ -661,21 +616,6 @@
       "verification_score": "",
       "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.",
       "source": "https://1-6.jp/",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book"
-      ]
-    },
-    {
-      "title": "Royal Watercolour Society",
-      "score": 7.6,
-      "differentiated_score": 8.88,
-      "visual_fit_score": 2.4,
-      "verification_bucket": "research_needed",
-      "verification_score": "",
-      "why": "Native watercolor context. Strong medium fit if requirements and dates are current.",
-      "source": "https://www.royalwatercoloursociety.co.uk/",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -721,6 +661,21 @@
       "verification_score": "",
       "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.",
       "source": "https://artaraqasia.com/",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book"
+      ]
+    },
+    {
+      "title": "Jackson's Art Prize",
+      "score": 7.6,
+      "differentiated_score": 8.88,
+      "visual_fit_score": 2.4,
+      "verification_bucket": "research_needed",
+      "verification_score": "",
+      "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.",
+      "source": "https://www.jacksonsart.com/paintingprize/",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -788,6 +743,81 @@
       ]
     },
     {
+      "title": "ArtConnect Open Calls",
+      "score": 7.6,
+      "differentiated_score": 8.88,
+      "visual_fit_score": 2.4,
+      "verification_bucket": "research_needed",
+      "verification_score": "",
+      "why": "Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.",
+      "source": "https://www.artconnect.com/opportunities",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book"
+      ]
+    },
+    {
+      "title": "CuratorSpace",
+      "score": 7.6,
+      "differentiated_score": 8.88,
+      "visual_fit_score": 2.4,
+      "verification_bucket": "research_needed",
+      "verification_score": "",
+      "why": "Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.",
+      "source": "https://www.curatorspace.com/opportunities",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book"
+      ]
+    },
+    {
+      "title": "Society of Women Artists",
+      "score": 7.6,
+      "differentiated_score": 8.88,
+      "visual_fit_score": 2.4,
+      "verification_bucket": "research_needed",
+      "verification_score": "",
+      "why": "Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.",
+      "source": "https://www.society-women-artists.org.uk/",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book"
+      ]
+    },
+    {
+      "title": "Royal Watercolour Society",
+      "score": 7.6,
+      "differentiated_score": 8.88,
+      "visual_fit_score": 2.4,
+      "verification_bucket": "research_needed",
+      "verification_score": "",
+      "why": "Native watercolor context. Strong medium fit if requirements and dates are current.",
+      "source": "https://www.royalwatercoloursociety.co.uk/",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book"
+      ]
+    },
+    {
+      "title": "DER GREIF",
+      "score": 7.6,
+      "differentiated_score": 8.88,
+      "visual_fit_score": 2.4,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper, watercolor / works on paper",
+      "source": "https://dergreif.org/",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book"
+      ]
+    },
+    {
       "title": "そぞろ書房",
       "score": 6.5,
       "differentiated_score": 8.64,
@@ -800,21 +830,6 @@
         "artist book",
         "artist_book",
         "zine"
-      ]
-    },
-    {
-      "title": "The Container",
-      "score": 7.2,
-      "differentiated_score": 8.52,
-      "visual_fit_score": 2.4,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Tokyo location aligns with your Asia-Pacific focus, but everything else is a question mark requiring energy-intensive investigation.",
-      "source": "https://www.the-container.com/",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book"
       ]
     },
     {
@@ -831,21 +846,6 @@
         "artist book",
         "artist_book",
         "zine"
-      ]
-    },
-    {
-      "title": "DER GREIF",
-      "score": 6.8,
-      "differentiated_score": 7.88,
-      "visual_fit_score": 2.4,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper, watercolor / works on paper",
-      "source": "https://dergreif.org/",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book"
       ]
     },
     {
@@ -895,6 +895,21 @@
       ]
     },
     {
+      "title": "Communication Arts Illustration Competition",
+      "score": 6.5,
+      "differentiated_score": 7.54,
+      "visual_fit_score": 2.4,
+      "verification_bucket": "research_needed",
+      "verification_score": "",
+      "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.",
+      "source": "https://www.commarts.com/competitions/illustration",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book"
+      ]
+    },
+    {
       "title": "Mall Galleries Open Exhibitions",
       "score": 6.5,
       "differentiated_score": 7.54,
@@ -925,21 +940,6 @@
       ]
     },
     {
-      "title": "Communication Arts Illustration Competition",
-      "score": 6.5,
-      "differentiated_score": 7.54,
-      "visual_fit_score": 2.4,
-      "verification_bucket": "research_needed",
-      "verification_score": "",
-      "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.",
-      "source": "https://www.commarts.com/competitions/illustration",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book"
-      ]
-    },
-    {
       "title": "Royal Institute of Painters in Water Colours",
       "score": 6.5,
       "differentiated_score": 7.54,
@@ -957,31 +957,16 @@
   ],
   "japan_book_ecosystem": [
     {
-      "title": "MOUNT ZINE",
-      "score": 9.4,
-      "differentiated_score": 11.39,
+      "title": "UTRECHT",
+      "score": 7.6,
+      "differentiated_score": 10.59,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
-      "source": "https://zine.mount.co.jp/",
-      "visual_hits": [
-        "artist book",
-        "Tokyo-based",
-        "artist_book",
-        "zine"
-      ]
-    },
-    {
-      "title": "UTRECHT",
-      "score": 9.4,
-      "differentiated_score": 11.24,
-      "visual_fit_score": 3.25,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographerly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
       "source": "https://utrecht.jp/",
       "visual_hits": [
+        "watercolor",
         "artist book",
         "artist_book",
         "zine"
@@ -989,8 +974,8 @@
     },
     {
       "title": "flotsam books",
-      "score": 9.2,
-      "differentiated_score": 11.19,
+      "score": 7.6,
+      "differentiated_score": 10.59,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
       "verification_score": "",
@@ -1004,9 +989,25 @@
       ]
     },
     {
+      "title": "MOUNT ZINE",
+      "score": 7.6,
+      "differentiated_score": 10.59,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+      "source": "https://zine.mount.co.jp/",
+      "visual_hits": [
+        "artist book",
+        "Tokyo-based",
+        "artist_book",
+        "zine"
+      ]
+    },
+    {
       "title": "Book and Sons",
-      "score": 9.4,
-      "differentiated_score": 10.55,
+      "score": 7.6,
+      "differentiated_score": 9.75,
       "visual_fit_score": 1.3,
       "verification_bucket": "",
       "verification_score": "",
@@ -1017,23 +1018,9 @@
       ]
     },
     {
-      "title": "POST",
-      "score": 8.8,
-      "differentiated_score": 9.89,
-      "visual_fit_score": 1.75,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.",
-      "source": "https://post-books.info/",
-      "visual_hits": [
-        "memory",
-        "zine"
-      ]
-    },
-    {
       "title": "NADiff a/p/a/r/t",
-      "score": 7.2,
-      "differentiated_score": 8.82,
+      "score": 6.5,
+      "differentiated_score": 9.62,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
       "verification_score": "",
@@ -1042,6 +1029,20 @@
       "visual_hits": [
         "artist book",
         "artist_book",
+        "zine"
+      ]
+    },
+    {
+      "title": "POST",
+      "score": 6.5,
+      "differentiated_score": 9.09,
+      "visual_fit_score": 1.75,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.",
+      "source": "https://post-books.info/",
+      "visual_hits": [
+        "memory",
         "zine"
       ]
     },
@@ -1065,7 +1066,7 @@
     {
       "title": "Aperture | Photography",
       "score": 7.6,
-      "differentiated_score": 9.63,
+      "differentiated_score": 10.13,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
       "verification_score": "",
@@ -1080,8 +1081,8 @@
     },
     {
       "title": "PhotoVogue",
-      "score": 7.3,
-      "differentiated_score": 7.54,
+      "score": 7.6,
+      "differentiated_score": 8.54,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
@@ -1093,8 +1094,8 @@
   "relationship_builders": [
     {
       "title": "BONUS TRACK",
-      "score": 9.4,
-      "differentiated_score": 10.1,
+      "score": 7.6,
+      "differentiated_score": 9.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
@@ -1104,8 +1105,8 @@
     },
     {
       "title": "Koganecho Area Management Center",
-      "score": 9.4,
-      "differentiated_score": 10.1,
+      "score": 7.6,
+      "differentiated_score": 9.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
@@ -1115,14 +1116,49 @@
     },
     {
       "title": "3331 Arts Chiyoda",
-      "score": 9.4,
-      "differentiated_score": 10.1,
+      "score": 7.6,
+      "differentiated_score": 9.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
       "why": "Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach",
       "source": "https://www.3331.jp/",
       "visual_hits": []
+    },
+    {
+      "title": "Cafe Cross Point",
+      "score": 7.6,
+      "differentiated_score": 9.3,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
+      "source": "https://cafecrosspoint.jp/",
+      "visual_hits": []
+    },
+    {
+      "title": "Gallery HANA Shimokitazawa",
+      "score": 7.6,
+      "differentiated_score": 9.3,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Tokyo location appeals, but lack of verifiable program information creates backward investment—you'd spend energy investigating whether it's worth investigating. Not strategic.",
+      "source": "https://www.g-hana.jp/",
+      "visual_hits": []
+    },
+    {
+      "title": "reload Shimokitazawa",
+      "score": 7.6,
+      "differentiated_score": 8.46,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
+      "source": "https://reload-shimokita.com/",
+      "visual_hits": [
+        "watercolor"
+      ]
     },
     {
       "title": "日記屋 月日",
@@ -1138,44 +1174,9 @@
       ]
     },
     {
-      "title": "Cafe Cross Point",
-      "score": 7.2,
-      "differentiated_score": 7.9,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
-      "source": "https://cafecrosspoint.jp/",
-      "visual_hits": []
-    },
-    {
-      "title": "Gallery HANA Shimokitazawa",
-      "score": 7.2,
-      "differentiated_score": 7.9,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Tokyo location appeals, but lack of verifiable program information creates backward investment—you'd spend energy investigating whether it's worth investigating. Not strategic.",
-      "source": "https://www.g-hana.jp/",
-      "visual_hits": []
-    },
-    {
-      "title": "reload Shimokitazawa",
-      "score": 6.2,
-      "differentiated_score": 7.06,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Shimokitazawa location aligns with urban vernacular interests, but retail market format conflicts with need for curatorial framing and institutional positioning.",
-      "source": "https://reload-shimokita.com/",
-      "visual_hits": [
-        "watercolor"
-      ]
-    },
-    {
       "title": "Cafe Mame-Hico",
-      "score": 6.2,
-      "differentiated_score": 6.9,
+      "score": 7.6,
+      "differentiated_score": 8.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
@@ -1185,8 +1186,8 @@
     },
     {
       "title": "Yonchome Cafe",
-      "score": 6.2,
-      "differentiated_score": 6.9,
+      "score": 7.6,
+      "differentiated_score": 8.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
@@ -1196,8 +1197,8 @@
     },
     {
       "title": "Cafe Gallery HATTIFNATT",
-      "score": 6.2,
-      "differentiated_score": 6.9,
+      "score": 7.6,
+      "differentiated_score": 8.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
@@ -1207,98 +1208,6 @@
     }
   ],
   "research_needed": [
-    {
-      "title": "BankART1929",
-      "score": 9.4,
-      "differentiated_score": 10.26,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.",
-      "source": "https://bankart1929.com/",
-      "visual_hits": [
-        "memory"
-      ]
-    },
-    {
-      "title": "AIR 3331",
-      "score": 9.4,
-      "differentiated_score": 10.26,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
-      "source": "https://residence.3331.jp/",
-      "visual_hits": [
-        "memory"
-      ]
-    },
-    {
-      "title": "Youkobo Art Space",
-      "score": 9.2,
-      "differentiated_score": 10.21,
-      "visual_fit_score": 0.9,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
-      "source": "https://www.youkobo.co.jp/en/",
-      "visual_hits": [
-        "memory",
-        "Tokyo-based"
-      ]
-    },
-    {
-      "title": "Tokyo Arts and Space",
-      "score": 9.2,
-      "differentiated_score": 10.06,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
-      "source": "https://www.tokyoartsandspace.jp/en/",
-      "visual_hits": [
-        "memory"
-      ]
-    },
-    {
-      "title": "出展お申込み",
-      "score": 8.8,
-      "differentiated_score": 9.86,
-      "visual_fit_score": 1.3,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://fukuokaartbookfair.com/application/",
-      "visual_hits": [
-        "zine"
-      ]
-    },
-    {
-      "title": "Applications — Little Tokyo Zine Fest",
-      "score": 8.8,
-      "differentiated_score": 9.86,
-      "visual_fit_score": 1.3,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.ltzinefest.org/applications",
-      "visual_hits": [
-        "zine"
-      ]
-    },
-    {
-      "title": "Clone of Japan Fair 2025 - Exhibitor Application Form",
-      "score": 8.8,
-      "differentiated_score": 9.86,
-      "visual_fit_score": 1.3,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://form.jotform.com/253215140594149",
-      "visual_hits": [
-        "zine"
-      ]
-    },
     {
       "title": "Aesthetica Art Prize",
       "score": 7.6,
@@ -1311,6 +1220,62 @@
       "visual_hits": [
         "watercolor",
         "zine"
+      ]
+    },
+    {
+      "title": "Applications — Little Tokyo Zine Fest",
+      "score": 8.2,
+      "differentiated_score": 9.65,
+      "visual_fit_score": 1.3,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.ltzinefest.org/applications",
+      "visual_hits": [
+        "zine"
+      ]
+    },
+    {
+      "title": "Youkobo Art Space",
+      "score": 7.6,
+      "differentiated_score": 9.61,
+      "visual_fit_score": 0.9,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.",
+      "source": "https://www.youkobo.co.jp/en/",
+      "visual_hits": [
+        "memory",
+        "Tokyo-based"
+      ]
+    },
+    {
+      "title": "Tokyo Wonder Site / TOKAS Residency",
+      "score": 7.6,
+      "differentiated_score": 9.61,
+      "visual_fit_score": 0.9,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
+      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/",
+      "visual_hits": [
+        "watercolor",
+        "memory"
+      ]
+    },
+    {
+      "title": "Comitia",
+      "score": 7.6,
+      "differentiated_score": 9.56,
+      "visual_fit_score": 0.75,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
+      "source": "https://www.comitia.co.jp/",
+      "visual_hits": [
+        "watercolor",
+        "zine",
+        "commercial_illustration"
       ]
     },
     {
@@ -1328,157 +1293,99 @@
       ]
     },
     {
-      "title": "PDF International Creator Residency Program 2026 Application Outline",
-      "score": 8.8,
-      "differentiated_score": 9.4,
+      "title": "BankART1929",
+      "score": 7.6,
+      "differentiated_score": 9.46,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.",
+      "source": "https://bankart1929.com/",
+      "visual_hits": [
+        "memory"
+      ]
+    },
+    {
+      "title": "AIR 3331",
+      "score": 7.6,
+      "differentiated_score": 9.46,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Tokyo location directly supports documentation of Asian urban spaces; established venue provides institutional credibility without elite-level conceptual demands; research-oriented context matches your preferred residency type",
+      "source": "https://residence.3331.jp/",
+      "visual_hits": [
+        "memory"
+      ]
+    },
+    {
+      "title": "Tokyo Arts and Space",
+      "score": 7.6,
+      "differentiated_score": 9.46,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Culturally appropriate institutional context for your practice themes and geographic focus, but requires significant investigative work to identify actual opportunities.",
+      "source": "https://www.tokyoartsandspace.jp/en/",
+      "visual_hits": [
+        "memory"
+      ]
+    },
+    {
+      "title": "AIT Residency",
+      "score": 7.6,
+      "differentiated_score": 9.46,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
+      "source": "https://www.a-i-t.net/en/",
+      "visual_hits": [
+        "memory"
+      ]
+    },
+    {
+      "title": "Design Festa",
+      "score": 7.6,
+      "differentiated_score": 9.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf",
+      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
+      "source": "https://designfesta.com/",
       "visual_hits": []
     },
     {
-      "title": "2026年度 リサーチ・レジデンス・プログラム",
-      "score": 8.8,
-      "differentiated_score": 9.4,
+      "title": "Aoyama Farmers Market",
+      "score": 7.6,
+      "differentiated_score": 9.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.tokyoartsandspace.jp/archive/application/2025/20250513-295.html",
+      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
+      "source": "https://farmersmarkets.jp/",
       "visual_hits": []
     },
     {
-      "title": "Open Call for the International Creator Residency Program 2026",
-      "score": 8.8,
-      "differentiated_score": 9.4,
+      "title": "TAV Gallery",
+      "score": 7.6,
+      "differentiated_score": 9.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html",
+      "why": "Tokyo location aligns with your Japan interest and Asian architectural subject matter, but fit depends entirely on information not yet available",
+      "source": "https://tavgallery.com/",
       "visual_hits": []
     },
     {
-      "title": "Jinny Street Gallery Open Call",
-      "score": 8.8,
-      "differentiated_score": 9.4,
+      "title": "Gallery IRO",
+      "score": 7.6,
+      "differentiated_score": 9.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
-      "source": "https://www.jinnystreetgallery.com/open-call",
-      "visual_hits": []
-    },
-    {
-      "title": "TOKAS Open Call",
-      "score": 8.8,
-      "differentiated_score": 9.4,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "TOKAS Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
-      "source": "https://www.tokyoartsandspace.jp/en/application/index.html",
-      "visual_hits": []
-    },
-    {
-      "title": "Belladonna Art Competition",
-      "score": 8.8,
-      "differentiated_score": 9.4,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Belladonna Art Competition is worth checking because open calls can turn existing portfolio work into a concrete application.",
-      "source": "https://www.art-belladonna.jp/youkou",
-      "visual_hits": []
-    },
-    {
-      "title": "Open Call Guest Artist",
-      "score": 8.8,
-      "differentiated_score": 9.4,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.sccp.jp/air-en/application/guest-artist/",
-      "visual_hits": []
-    },
-    {
-      "title": "SCCP Guest Artist",
-      "score": 8.8,
-      "differentiated_score": 9.4,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.",
-      "source": "https://www.sccp.jp/air-en/application/guest-artist/",
-      "visual_hits": []
-    },
-    {
-      "title": "Open Call",
-      "score": 8.8,
-      "differentiated_score": 9.4,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.jinnystreetgallery.com/open-call",
-      "visual_hits": []
-    },
-    {
-      "title": "Open Call - Tokyo Arts and Space",
-      "score": 8.8,
-      "differentiated_score": 9.4,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.tokyoartsandspace.jp/en/application/index.html",
-      "visual_hits": []
-    },
-    {
-      "title": "公募",
-      "score": 8.8,
-      "differentiated_score": 9.4,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.tokyoartsandspace.jp/application/index.html",
-      "visual_hits": []
-    },
-    {
-      "title": "全国美術公募団体 ベラドンナ・アート｜応募要項",
-      "score": 8.8,
-      "differentiated_score": 9.4,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.art-belladonna.jp/youkou",
-      "visual_hits": []
-    },
-    {
-      "title": "About Open Call Programs - Tokyo Arts and Space",
-      "score": 8.8,
-      "differentiated_score": 9.4,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.tokyoartsandspace.jp/en/application/about_opencall.html",
-      "visual_hits": []
-    },
-    {
-      "title": "TOKAS Residency",
-      "score": 8.8,
-      "differentiated_score": 9.4,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "TOKAS Residency may matter later if her portfolio package and project statement become strong enough.",
-      "source": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf",
+      "why": "Tokyo location aligns with Japan focus, but business model uncertainty creates risk of misaligned investment.",
+      "source": "https://1-6.jp/iro/",
       "visual_hits": []
     },
     {
@@ -1558,22 +1465,162 @@
       "visual_hits": []
     },
     {
-      "title": "Tokyo Wonder Site / TOKAS Residency",
+      "title": "PDF International Creator Residency Program 2026 Application Outline",
       "score": 8.2,
-      "differentiated_score": 9.21,
-      "visual_fit_score": 0.9,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.",
-      "source": "https://www.tokyoartsandspace.jp/en/archive/residence/",
-      "visual_hits": [
-        "watercolor",
-        "memory"
-      ]
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf",
+      "visual_hits": []
+    },
+    {
+      "title": "2026年度 リサーチ・レジデンス・プログラム",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.tokyoartsandspace.jp/archive/application/2025/20250513-295.html",
+      "visual_hits": []
+    },
+    {
+      "title": "Open Call for the International Creator Residency Program 2026",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html",
+      "visual_hits": []
+    },
+    {
+      "title": "Jinny Street Gallery Open Call",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
+      "source": "https://www.jinnystreetgallery.com/open-call",
+      "visual_hits": []
+    },
+    {
+      "title": "TOKAS Open Call",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "TOKAS Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
+      "source": "https://www.tokyoartsandspace.jp/en/application/index.html",
+      "visual_hits": []
+    },
+    {
+      "title": "Belladonna Art Competition",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Belladonna Art Competition is worth checking because open calls can turn existing portfolio work into a concrete application.",
+      "source": "https://www.art-belladonna.jp/youkou",
+      "visual_hits": []
+    },
+    {
+      "title": "Open Call Guest Artist",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.sccp.jp/air-en/application/guest-artist/",
+      "visual_hits": []
+    },
+    {
+      "title": "SCCP Guest Artist",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.",
+      "source": "https://www.sccp.jp/air-en/application/guest-artist/",
+      "visual_hits": []
+    },
+    {
+      "title": "Open Call",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.jinnystreetgallery.com/open-call",
+      "visual_hits": []
+    },
+    {
+      "title": "Open Call - Tokyo Arts and Space",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.tokyoartsandspace.jp/en/application/index.html",
+      "visual_hits": []
+    },
+    {
+      "title": "公募",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.tokyoartsandspace.jp/application/index.html",
+      "visual_hits": []
+    },
+    {
+      "title": "全国美術公募団体 ベラドンナ・アート｜応募要項",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.art-belladonna.jp/youkou",
+      "visual_hits": []
+    },
+    {
+      "title": "About Open Call Programs - Tokyo Arts and Space",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.tokyoartsandspace.jp/en/application/about_opencall.html",
+      "visual_hits": []
+    },
+    {
+      "title": "TOKAS Residency",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "TOKAS Residency may matter later if her portfolio package and project statement become strong enough.",
+      "source": "https://www.tokyoartsandspace.jp/static/file/open call/Residency/2026/Outline_ICR2026.pdf",
+      "visual_hits": []
     },
     {
       "title": "Hayama Artist Residency Submission Manager - Submittable",
-      "score": 8.6,
+      "score": 7.6,
       "differentiated_score": 9.08,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -1584,7 +1631,7 @@
     },
     {
       "title": "Hayama Artist Residency",
-      "score": 8.6,
+      "score": 7.6,
       "differentiated_score": 9.08,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -1595,7 +1642,7 @@
     },
     {
       "title": "Clavis Publishing Submissions",
-      "score": 8.6,
+      "score": 7.6,
       "differentiated_score": 9.08,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -1858,19 +1905,45 @@
       "visual_hits": []
     },
     {
-      "title": "Design Festa",
-      "score": 8.2,
-      "differentiated_score": 8.9,
+      "title": "ARTE VENT Press",
+      "score": 7.6,
+      "differentiated_score": 8.84,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "Japan location and potential sales visibility align with geographic interests, but the commercial pop-up format conflicts with your preferred structured, curatorial contexts and moderate social energy tolerance.",
-      "source": "https://designfesta.com/",
+      "why": "ARTE VENT Press is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions.",
+      "source": "https://www.arte-vent.com/",
       "visual_hits": []
     },
     {
+      "title": "RAW TOKYO",
+      "score": 6.5,
+      "differentiated_score": 8.64,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
+      "source": "https://rawtokyo.jp/",
+      "visual_hits": [
+        "Tokyo-based"
+      ]
+    },
+    {
+      "title": "Creative Space Hayashi",
+      "score": 6.5,
+      "differentiated_score": 8.64,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Geographic location in Japan aligns with your interest in Asia-Pacific opportunities, but that's the only clear fit element.",
+      "source": "https://csh.yokohama/",
+      "visual_hits": [
+        "memory"
+      ]
+    },
+    {
       "title": "グループ展参加アーティスト募集中 - Gallery and Links81",
-      "score": 7.6,
+      "score": 6.5,
       "differentiated_score": 8.55,
       "visual_fit_score": 0.9,
       "verification_bucket": "",
@@ -1884,7 +1957,7 @@
     },
     {
       "title": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
-      "score": 7.6,
+      "score": 6.5,
       "differentiated_score": 8.55,
       "visual_fit_score": 0.9,
       "verification_bucket": "",
@@ -1898,7 +1971,7 @@
     },
     {
       "title": "219公募展6募集 >> Gallery219 ギャラリーニイク",
-      "score": 7.6,
+      "score": 6.5,
       "differentiated_score": 8.55,
       "visual_fit_score": 0.9,
       "verification_bucket": "",
@@ -1912,7 +1985,7 @@
     },
     {
       "title": "公募プログラム - トーキョーアーツアンドスペース",
-      "score": 7.6,
+      "score": 6.5,
       "differentiated_score": 8.55,
       "visual_fit_score": 0.9,
       "verification_bucket": "",
@@ -1926,7 +1999,7 @@
     },
     {
       "title": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
-      "score": 7.6,
+      "score": 6.5,
       "differentiated_score": 8.55,
       "visual_fit_score": 0.9,
       "verification_bucket": "",
@@ -1940,7 +2013,7 @@
     },
     {
       "title": "Open Calls for Artists | Exhibit Worldwide",
-      "score": 7.6,
+      "score": 6.5,
       "differentiated_score": 8.55,
       "visual_fit_score": 0.9,
       "verification_bucket": "",
@@ -1954,7 +2027,7 @@
     },
     {
       "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
-      "score": 7.6,
+      "score": 6.5,
       "differentiated_score": 8.55,
       "visual_fit_score": 0.9,
       "verification_bucket": "",
@@ -1978,32 +2051,74 @@
       "visual_hits": []
     },
     {
-      "title": "Comitia",
-      "score": 7.2,
-      "differentiated_score": 8.16,
-      "visual_fit_score": 0.75,
+      "title": "HandMade In Japan Fes",
+      "score": 7.6,
+      "differentiated_score": 8.33,
+      "visual_fit_score": 0.1,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "It doesn't. This is a doujinshi/self-publishing event that would pull you away from the institutional and research-oriented positioning you're building.",
-      "source": "https://www.comitia.co.jp/",
+      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.",
+      "source": "https://hmj-fes.jp/",
       "visual_hits": [
         "watercolor",
-        "zine",
-        "commercial_illustration"
+        "contemporary watercolor",
+        "craft_market"
       ]
     },
     {
-      "title": "AIT Residency",
-      "score": 7.2,
-      "differentiated_score": 8.06,
-      "visual_fit_score": 0.45,
+      "title": "DESIGN FESTA GALLERY",
+      "score": 7.6,
+      "differentiated_score": 8.3,
+      "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "Doesn't fit well - AIT emphasizes contemporary discourse and international dialogue over cultural documentation, and the lack of clear residency information creates unnecessary research burden for likely mismatched context.",
-      "source": "https://www.a-i-t.net/en/",
-      "visual_hits": [
-        "memory"
-      ]
+      "why": "It doesn't fit. This matches two specific categories you've identified as harmful: tourist-focused exhibition spaces and pay-to-play gallery models. Tokyo location alone doesn't override the structural mismatch.",
+      "source": "https://designfestagallery.com/",
+      "visual_hits": []
+    },
+    {
+      "title": "SCAI The Bathhouse",
+      "score": 7.6,
+      "differentiated_score": 8.3,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.",
+      "source": "https://www.scaithebathhouse.com/",
+      "visual_hits": []
+    },
+    {
+      "title": "VACANT",
+      "score": 7.6,
+      "differentiated_score": 8.3,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Tokyo location theoretically aligns with Asia-Pacific focus, but lack of visible programming makes actual fit impossible to assess",
+      "source": "https://www.vacant.vc/",
+      "visual_hits": []
+    },
+    {
+      "title": "Zushi Art Gallery",
+      "score": 7.6,
+      "differentiated_score": 8.3,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Geographic location matches interest in Japan, but everything else is a question mark.",
+      "source": "https://zushi-art.com/",
+      "visual_hits": []
+    },
+    {
+      "title": "Gallery Conceal Shibuya",
+      "score": 7.6,
+      "differentiated_score": 8.3,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "It doesn't. This conflicts with your strategic goal to avoid pay-to-play venues that dilute positioning, and offers no clear institutional or career benefit.",
+      "source": "https://galleryconceal.wixsite.com/gconceal",
+      "visual_hits": []
     },
     {
       "title": "Japan Watercolor Society Annual Exhibition",
@@ -2017,50 +2132,6 @@
       "visual_hits": [
         "watercolor"
       ]
-    },
-    {
-      "title": "ARTE VENT Press",
-      "score": 7.6,
-      "differentiated_score": 7.94,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "ARTE VENT Press is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions.",
-      "source": "https://www.arte-vent.com/",
-      "visual_hits": []
-    },
-    {
-      "title": "Aoyama Farmers Market",
-      "score": 7.2,
-      "differentiated_score": 7.9,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Low-pressure Tokyo location aligns with geographic interests, but venue context doesn't match your practice goals",
-      "source": "https://farmersmarkets.jp/",
-      "visual_hits": []
-    },
-    {
-      "title": "TAV Gallery",
-      "score": 7.2,
-      "differentiated_score": 7.9,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Tokyo location aligns with your Japan interest and Asian architectural subject matter, but fit depends entirely on information not yet available",
-      "source": "https://tavgallery.com/",
-      "visual_hits": []
-    },
-    {
-      "title": "Gallery IRO",
-      "score": 7.2,
-      "differentiated_score": 7.9,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Tokyo location aligns with Japan focus, but business model uncertainty creates risk of misaligned investment.",
-      "source": "https://1-6.jp/iro/",
-      "visual_hits": []
     },
     {
       "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
@@ -2155,50 +2226,9 @@
       "visual_hits": []
     },
     {
-      "title": "RAW TOKYO",
-      "score": 6.7,
-      "differentiated_score": 7.34,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.",
-      "source": "https://rawtokyo.jp/",
-      "visual_hits": [
-        "Tokyo-based"
-      ]
-    },
-    {
-      "title": "Creative Space Hayashi",
-      "score": 6.7,
-      "differentiated_score": 7.34,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Geographic location in Japan aligns with your interest in Asia-Pacific opportunities, but that's the only clear fit element.",
-      "source": "https://csh.yokohama/",
-      "visual_hits": [
-        "memory"
-      ]
-    },
-    {
-      "title": "HandMade In Japan Fes",
-      "score": 6.2,
-      "differentiated_score": 6.94,
-      "visual_fit_score": 0.1,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "It doesn't. This is a craft fair that would undermine your positioning as a contemporary watercolor artist documenting disappearing spaces, despite your work having visual appeal.",
-      "source": "https://hmj-fes.jp/",
-      "visual_hits": [
-        "watercolor",
-        "contemporary watercolor",
-        "craft_market"
-      ]
-    },
-    {
       "title": "Boji Hair+Gallery",
       "score": 6.5,
-      "differentiated_score": 6.92,
+      "differentiated_score": 7.02,
       "visual_fit_score": 0.9,
       "verification_bucket": "research_needed",
       "verification_score": "",
@@ -2210,72 +2240,15 @@
       ]
     },
     {
-      "title": "DESIGN FESTA GALLERY",
-      "score": 6.2,
-      "differentiated_score": 6.9,
+      "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+      "score": 6.1,
+      "differentiated_score": 6.58,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "It doesn't fit. This matches two specific categories you've identified as harmful: tourist-focused exhibition spaces and pay-to-play gallery models. Tokyo location alone doesn't override the structural mismatch.",
-      "source": "https://designfestagallery.com/",
+      "why": "Possible fit based on link text: open call",
+      "source": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
       "visual_hits": []
-    },
-    {
-      "title": "SCAI The Bathhouse",
-      "score": 6.2,
-      "differentiated_score": 6.9,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.",
-      "source": "https://www.scaithebathhouse.com/",
-      "visual_hits": []
-    },
-    {
-      "title": "VACANT",
-      "score": 6.2,
-      "differentiated_score": 6.9,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Tokyo location theoretically aligns with Asia-Pacific focus, but lack of visible programming makes actual fit impossible to assess",
-      "source": "https://www.vacant.vc/",
-      "visual_hits": []
-    },
-    {
-      "title": "Zushi Art Gallery",
-      "score": 6.2,
-      "differentiated_score": 6.9,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Geographic location matches interest in Japan, but everything else is a question mark.",
-      "source": "https://zushi-art.com/",
-      "visual_hits": []
-    },
-    {
-      "title": "Gallery Conceal Shibuya",
-      "score": 6.2,
-      "differentiated_score": 6.9,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "It doesn't. This conflicts with your strategic goal to avoid pay-to-play venues that dilute positioning, and offers no clear institutional or career benefit.",
-      "source": "https://galleryconceal.wixsite.com/gconceal",
-      "visual_hits": []
-    },
-    {
-      "title": "Picaresque Gallery",
-      "score": 4.1000000000000005,
-      "differentiated_score": 6.76,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.",
-      "source": "https://picaresquejpn.com/",
-      "visual_hits": [
-        "memory"
-      ]
     },
     {
       "title": "twelvebooks",
@@ -2291,9 +2264,22 @@
   ],
   "low_priority": [
     {
+      "title": "Picaresque Gallery",
+      "score": 3.7,
+      "differentiated_score": 6.36,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.",
+      "source": "https://picaresquejpn.com/",
+      "visual_hits": [
+        "memory"
+      ]
+    },
+    {
       "title": "Spiral",
-      "score": 3.6000000000000005,
-      "differentiated_score": 6.1,
+      "score": 3.2,
+      "differentiated_score": 5.7,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
       "verification_score": "",

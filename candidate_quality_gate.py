@@ -23,6 +23,12 @@ BAD_TITLE_EXACT = {
     "browse printed matter editions",
     "exhibitions",
     "submission amendment",
+    # Japanese generic form-page titles
+    "出展お申込み",
+    "お申込み",
+    "申込み",
+    "申し込み",
+    "お申し込み",
 }
 
 BAD_TITLE_CONTAINS = [
@@ -37,6 +43,11 @@ BAD_TITLE_CONTAINS = [
     "magazine subscribers",
     "see all exhibitions",
     "browse printed matter editions",
+    # Form-page artifacts
+    "clone of",
+    "exhibitor application form",
+    "entry form",
+    "application form -",
 ]
 
 BAD_HOSTS = {

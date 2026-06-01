@@ -22,10 +22,26 @@ def source_strength(opp):
     return 0
 
 
+JUNK_VALUES = {"unknown", "n/a", "none", "null", "not publicly listed", "unverified", ""}
+
+
+def is_real(value):
+    return bool(value) and str(value).strip().lower() not in JUNK_VALUES
+
+
+def has_distinct_submission_page(opp):
+    sub = (opp.get("submission_page") or "").strip().rstrip("/")
+    src = (opp.get("source_url") or "").strip().rstrip("/")
+    official = (opp.get("official_website") or "").strip().rstrip("/")
+    return is_real(sub) and sub != src and sub != official
+
+
 def verification_strength(opp):
     points = 0
-    for key in ["submission_page", "deadline", "fees", "contact", "email", "contact_url"]:
-        if opp.get(key):
+    if has_distinct_submission_page(opp):
+        points += 1
+    for key in ["deadline", "fees", "contact", "email", "contact_url"]:
+        if is_real(opp.get(key)):
             points += 1
     return points
 

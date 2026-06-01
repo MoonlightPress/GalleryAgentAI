@@ -2098,5 +2098,15 @@
     "follow_up_date": "",
     "notes": "",
     "last_updated": "2026-06-01"
+  },
+  "open call for digital works open call for artists. send us your digital work to show in ou::curatorspace": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-01"
   }
 }

@@ -4,7 +4,7 @@ Tone:
 restrained and confident
 
 Recommended Body of Work:
-General Portfolio
+Artist Book / Printed Matter
 
 Core Fit:
 Tokyo location aligns with your Asia-Pacific focus, but everything else is a question mark requiring energy-intensive investigation.

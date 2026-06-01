@@ -2,7 +2,7 @@
   "dominant_countries": [
     [
       "Global",
-      12
+      11
     ],
     [
       "Tokyo",
@@ -10,10 +10,6 @@
     ],
     [
       "Japan",
-      3
-    ],
-    [
-      "UK",
       3
     ],
     [
@@ -29,6 +25,10 @@
       1
     ],
     [
+      "UK",
+      1
+    ],
+    [
       "France",
       1
     ],
@@ -40,7 +40,7 @@
   "dominant_categories": [
     [
       "residency",
-      21
+      22
     ],
     [
       "gallery_event",
@@ -56,15 +56,23 @@
     ],
     [
       "zine_print",
-      11
+      10
     ],
     [
       "bookstore_gallery",
       5
     ],
     [
+      "gallery",
+      4
+    ],
+    [
       "artist_space",
       3
+    ],
+    [
+      "global_photobook",
+      2
     ],
     [
       "global_art_book_fair",
@@ -75,23 +83,7 @@
       2
     ],
     [
-      "global_photobook",
-      2
-    ],
-    [
-      "gallery",
-      2
-    ],
-    [
       "bookstore_event",
-      1
-    ],
-    [
-      "market_event",
-      1
-    ],
-    [
-      "institutional",
       1
     ],
     [
@@ -107,6 +99,18 @@
       1
     ],
     [
+      "institutional",
+      1
+    ],
+    [
+      "market_event",
+      1
+    ],
+    [
+      "cafe_gallery",
+      1
+    ],
+    [
       "global_residency",
       1
     ]
@@ -114,11 +118,11 @@
   "dominant_tags": [
     [
       "secondary",
-      17
+      25
     ],
     [
       "",
-      17
+      25
     ],
     [
       "global",
@@ -127,6 +131,14 @@
     [
       "career_changing",
       4
+    ],
+    [
+      "high",
+      4
+    ],
+    [
+      "low",
+      3
     ],
     [
       "publication",
@@ -141,14 +153,6 @@
       3
     ],
     [
-      "low",
-      2
-    ],
-    [
-      "high",
-      2
-    ],
-    [
       "watercolor",
       2
     ],
@@ -158,6 +162,10 @@
     ],
     [
       "portfolio_builder",
+      2
+    ],
+    [
+      "medium",
       2
     ],
     [
@@ -173,30 +181,6 @@
       1
     ],
     [
-      "Low-Medium",
-      1
-    ],
-    [
-      "high_information_gathering",
-      1
-    ],
-    [
-      "medium-high",
-      1
-    ],
-    [
-      "medium_high",
-      1
-    ],
-    [
-      "Low barrier but unclear utility",
-      1
-    ],
-    [
-      "Cannot assess - insufficient information",
-      1
-    ],
-    [
       "art_book",
       1
     ],
@@ -209,10 +193,6 @@
       1
     ],
     [
-      "low_moderate",
-      1
-    ],
-    [
       "all_media",
       1
     ],
@@ -221,7 +201,23 @@
       1
     ],
     [
+      "Low-Medium",
+      1
+    ],
+    [
       "photobook",
+      1
+    ],
+    [
+      "Unknown/High effort for unclear benefit",
+      1
+    ],
+    [
+      "medium_high",
+      1
+    ],
+    [
+      "very_high",
       1
     ],
     [
@@ -233,19 +229,43 @@
       1
     ],
     [
+      "high_information_gathering",
+      1
+    ],
+    [
+      "medium-high",
+      1
+    ],
+    [
+      "Very High",
+      1
+    ],
+    [
+      "Low barrier but unclear utility",
+      1
+    ],
+    [
+      "Cannot assess - insufficient information",
+      1
+    ],
+    [
+      "Low",
+      1
+    ],
+    [
+      "high_friction",
+      1
+    ],
+    [
+      "high_ambiguity",
+      1
+    ],
+    [
       "paris",
       1
     ],
     [
-      "very_high",
-      1
-    ],
-    [
-      "medium",
-      1
-    ],
-    [
-      "Unknown/High effort for unclear benefit",
+      "low_moderate",
       1
     ]
   ]

@@ -120,21 +120,21 @@ Major photobook publisher; probably not immediate, but useful as a long-horizon 
 ### Japan Photobook / Artist Book
 This is the strongest immediate ecosystem for her visual language: quiet photography, sequences, books, zines, and small-scale cultural visibility.
 
-- **Tokyo Art Book Fair** — score 9.4, differentiated 11.39; matched: TOKYO ART BOOK FAIR
-- **MOUNT ZINE** — score 9.4, differentiated 11.39; matched: MOUNT ZINE
-- **UTRECHT** — score 9.4, differentiated 11.24; matched: UTRECHT
-- **flotsam books** — score 9.2, differentiated 11.19; matched: flotsam books
-- **POST** — score 8.8, differentiated 9.89; matched: POST
+- **Tokyo Art Book Fair** — score 8.6, differentiated 10.59; matched: TOKYO ART BOOK FAIR
+- **UTRECHT** — score 8.6, differentiated 10.59; matched: UTRECHT
+- **flotsam books** — score 8.6, differentiated 10.59; matched: flotsam books
+- **MOUNT ZINE** — score 8.6, differentiated 10.59; matched: MOUNT ZINE
+- **POST** — score 8.0, differentiated 9.09; matched: POST
 - **shashasha** — score 6.5, differentiated 7.34; matched: Shashasha
 
 ### International Photobook Publishing
 This is the long-horizon ecosystem for international publication legitimacy.
 
+- **Aperture | Photography** — score 8.6, differentiated 10.13; matched: Aperture
 - **Offprint** — score 8.6, differentiated 10.04; matched: Offprint
 - **Self Publish, Be Happy** — score 8.0, differentiated 9.7; matched: Self Publish, Be Happy
-- **Aperture | Photography** — score 8.1, differentiated 9.63; matched: Aperture
-- **Gallery Conceal Shibuya** — score 6.2, differentiated 6.9; matched: VOID
-- **Picaresque Gallery** — score 5.9, differentiated 6.76; matched: VOID
+- **Gallery Conceal Shibuya** — score 7.6, differentiated 8.3; matched: VOID
+- **Picaresque Gallery** — score 5.5, differentiated 6.36; matched: VOID
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.
@@ -144,8 +144,8 @@ _No current opportunities connected to this ecosystem yet._
 ### Low-Pressure Local Relationship Building
 These are useful for soft visibility and relationship-building before major applications.
 
-- **MOUNT ZINE** — score 9.4, differentiated 11.39; matched: MOUNT ZINE
-- **B&B Shimokitazawa** — score 9.4, differentiated 11.39; matched: B&B Shimokitazawa
-- **UTRECHT** — score 9.4, differentiated 11.24; matched: UTRECHT
-- **flotsam books** — score 9.2, differentiated 11.19; matched: flotsam books
-- **POST** — score 8.8, differentiated 9.89; matched: POST
+- **UTRECHT** — score 8.6, differentiated 10.59; matched: UTRECHT
+- **B&B Shimokitazawa** — score 8.6, differentiated 10.59; matched: B&B Shimokitazawa
+- **flotsam books** — score 8.6, differentiated 10.59; matched: flotsam books
+- **MOUNT ZINE** — score 8.6, differentiated 10.59; matched: MOUNT ZINE
+- **POST** — score 8.0, differentiated 9.09; matched: POST

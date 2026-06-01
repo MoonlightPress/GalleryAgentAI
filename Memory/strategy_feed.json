@@ -3,7 +3,7 @@
     {
       "title": "Tokyo Art Book Fair",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
@@ -11,9 +11,19 @@
       "image": ""
     },
     {
+      "title": "Offprint",
+      "bucket": "career_changing",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "High-prestige opportunity with strong long-term impact.",
+      "category": "Global Art Book Fair",
+      "city": "Paris / London",
+      "image": ""
+    },
+    {
       "title": "UTRECHT",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -21,9 +31,19 @@
       "image": ""
     },
     {
+      "title": "Fukuoka Art Book Fair",
+      "bucket": "easy_win",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
       "title": "BONUS TRACK",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
@@ -31,9 +51,9 @@
       "image": ""
     },
     {
-      "title": "Book and Sons",
+      "title": "B&B Shimokitazawa",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -41,39 +61,49 @@
       "image": ""
     },
     {
-      "title": "Koganecho Area Management Center",
+      "title": "Applications — Little Tokyo Zine Fest",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
+      "category": "Markets / Popups / Booths",
+      "city": "Japan / Tokyo / Online",
       "image": ""
     },
     {
-      "title": "BankART1929",
+      "title": "Book and Sons",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
       "image": ""
     },
     {
-      "title": "3331 Arts Chiyoda",
+      "title": "Submissions — Clavis Publishing",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
+      "title": "flotsam books",
+      "bucket": "easy_win",
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
+      "category": "Print / Zines / Bookstores",
       "city": "Tokyo",
       "image": ""
     },
     {
       "title": "MOUNT ZINE",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -81,43 +111,13 @@
       "image": ""
     },
     {
-      "title": "AIR 3331",
+      "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
       "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Residencies / Longer Projects",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "B&B Shimokitazawa",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
+      "score": 8.6,
+      "confidence": "Medium",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "flotsam books",
-      "bucket": "easy_win",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Youkobo Art Space",
-      "bucket": "easy_win",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Residencies / Longer Projects",
-      "city": "Tokyo",
+      "city": "Online",
       "image": ""
     }
   ],
@@ -125,7 +125,7 @@
     {
       "title": "Tokyo Art Book Fair",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
@@ -135,7 +135,7 @@
     {
       "title": "UTRECHT",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -143,9 +143,19 @@
       "image": ""
     },
     {
+      "title": "Fukuoka Art Book Fair",
+      "bucket": "easy_win",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
       "title": "BONUS TRACK",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
@@ -153,9 +163,9 @@
       "image": ""
     },
     {
-      "title": "Book and Sons",
+      "title": "B&B Shimokitazawa",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -163,39 +173,49 @@
       "image": ""
     },
     {
-      "title": "Koganecho Area Management Center",
+      "title": "Applications — Little Tokyo Zine Fest",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
+      "category": "Markets / Popups / Booths",
+      "city": "Japan / Tokyo / Online",
       "image": ""
     },
     {
-      "title": "BankART1929",
+      "title": "Book and Sons",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
       "image": ""
     },
     {
-      "title": "3331 Arts Chiyoda",
+      "title": "Submissions — Clavis Publishing",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
+      "title": "flotsam books",
+      "bucket": "easy_win",
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
+      "category": "Print / Zines / Bookstores",
       "city": "Tokyo",
       "image": ""
     },
     {
       "title": "MOUNT ZINE",
       "bucket": "easy_win",
-      "score": 9.4,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
@@ -203,43 +223,23 @@
       "image": ""
     },
     {
-      "title": "AIR 3331",
+      "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
       "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Residencies / Longer Projects",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "B&B Shimokitazawa",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
+      "score": 8.6,
+      "confidence": "Medium",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
+      "city": "Online",
       "image": ""
     },
     {
-      "title": "flotsam books",
+      "title": "BankART1929",
       "bucket": "easy_win",
-      "score": 9.2,
+      "score": 8.6,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Youkobo Art Space",
-      "bucket": "easy_win",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Residencies / Longer Projects",
-      "city": "Tokyo",
+      "category": "Artist Spaces",
+      "city": "Yokohama",
       "image": ""
     }
   ],
@@ -327,16 +327,6 @@
       "image": ""
     },
     {
-      "title": "NADiff a/p/a/r/t",
-      "bucket": "portfolio_builder",
-      "score": 7.2,
-      "confidence": "High",
-      "reason": "Good opportunity for publication history and portfolio depth.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
       "title": "Zines / Artist Books — Battle Plan",
       "bucket": "portfolio_builder",
       "score": 6.5,
@@ -389,49 +379,9 @@
   ],
   "community_builders": [
     {
-      "title": "Aoyama Farmers Market",
-      "bucket": "community_builder",
-      "score": 7.2,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Comitia",
-      "bucket": "community_builder",
-      "score": 7.2,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Cafe Cross Point",
-      "bucket": "community_builder",
-      "score": 7.2,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Cafe / Local Wall Spaces",
-      "city": "Koenji",
-      "image": ""
-    },
-    {
-      "title": "RAW TOKYO",
-      "bucket": "community_builder",
-      "score": 6.7,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
       "title": "HandMade In Japan Fes",
       "bucket": "community_builder",
-      "score": 6.2,
+      "score": 7.6,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -441,7 +391,7 @@
     {
       "title": "reload Shimokitazawa",
       "bucket": "community_builder",
-      "score": 6.2,
+      "score": 7.6,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -451,7 +401,7 @@
     {
       "title": "Cafe Mame-Hico",
       "bucket": "community_builder",
-      "score": 6.2,
+      "score": 7.6,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -461,7 +411,7 @@
     {
       "title": "Yonchome Cafe",
       "bucket": "community_builder",
-      "score": 6.2,
+      "score": 7.6,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -471,7 +421,7 @@
     {
       "title": "Cafe Gallery HATTIFNATT",
       "bucket": "community_builder",
-      "score": 6.2,
+      "score": 7.6,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -502,6 +452,17 @@
       "image": ""
     },
     {
+      "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+      "bucket": "global_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
       "title": "Center for Book Arts Opportunities",
       "bucket": "global_targets",
       "score": 8.6,
@@ -513,12 +474,12 @@
       "image": ""
     },
     {
-      "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+      "title": "Aperture | Photography",
       "bucket": "global_targets",
       "score": 8.6,
       "confidence": "Medium",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Print / Zines / Bookstores",
+      "category": "Global Photobook",
       "city": "Online",
       "country": "Global",
       "image": ""
@@ -590,12 +551,12 @@
       "image": ""
     },
     {
-      "title": "Aperture | Photography",
+      "title": "PhotoVogue",
       "bucket": "global_targets",
-      "score": 8.1,
+      "score": 8.3,
       "confidence": "Medium",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Photobook",
+      "category": "Photo Open Call",
       "city": "Online",
       "country": "Global",
       "image": ""
@@ -676,86 +637,9 @@
       "city": null,
       "country": "Tokyo",
       "image": ""
-    },
-    {
-      "title": "Jackson's Art Prize",
-      "bucket": "global_targets",
-      "score": 7.8,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Global",
-      "image": ""
     }
   ],
   "publication_targets": [
-    {
-      "title": "UTRECHT",
-      "bucket": "publication_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "Book and Sons",
-      "bucket": "publication_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "MOUNT ZINE",
-      "bucket": "publication_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "B&B Shimokitazawa",
-      "bucket": "publication_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "flotsam books",
-      "bucket": "publication_targets",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "POST",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
     {
       "title": "Offprint",
       "bucket": "publication_targets",
@@ -768,6 +652,39 @@
       "image": ""
     },
     {
+      "title": "UTRECHT",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "Book and Sons",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
       "title": "Submissions — Clavis Publishing",
       "bucket": "publication_targets",
       "score": 8.6,
@@ -776,6 +693,39 @@
       "category": "Book Publishing",
       "city": "Japan / Tokyo / Online",
       "country": "",
+      "image": ""
+    },
+    {
+      "title": "flotsam books",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "MOUNT ZINE",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "country": "Global",
       "image": ""
     },
     {
@@ -801,17 +751,6 @@
       "image": ""
     },
     {
-      "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
       "title": "LOCAL Gallery・Books",
       "bucket": "publication_targets",
       "score": 8.6,
@@ -820,6 +759,17 @@
       "category": "Print / Zines / Bookstores",
       "city": "Koenji, Tokyo",
       "country": "",
+      "image": ""
+    },
+    {
+      "title": "Aperture | Photography",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Photobook",
+      "city": "Online",
+      "country": "Global",
       "image": ""
     },
     {
@@ -845,46 +795,46 @@
       "image": ""
     },
     {
-      "title": "tata bookshop/gallery",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Koenji, Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "本店・本屋の実験室",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Koenji, Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "Top Artist Opportunities for 2026 | ArtConnect",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
       "title": "Books Ruhe",
       "bucket": "publication_targets",
-      "score": 8.4,
+      "score": 8.6,
       "confidence": "Medium",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Print / Zines / Bookstores",
       "city": "Kichijoji, Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "» 21 Terrific Small Presses Open to Direct Submissions",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "SUBMISSIONS - marblepress.com",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
       "country": "",
       "image": ""
     }

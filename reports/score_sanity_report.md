@@ -2,44 +2,47 @@
 
 This report caps inflated scores when verification is weak.
 
-- Tokyo Art Book Fair: 10.0 → 9.4
+- Tokyo Art Book Fair: 10.0 → 8.6
 - Home - Printed Matter: 10.0 → 8.0
-- UTRECHT: 10.0 → 9.4
 - Offprint: 10.0 → 8.6
-- Fukuoka Art Book Fair: 10.0 → 8.8
-- BONUS TRACK: 10.0 → 9.4
-- 出展お申込み: 10.0 → 8.8
-- Applications — Little Tokyo Zine Fest: 10.0 → 8.8
-- Clone of Japan Fair 2025 - Exhibitor Application Form: 10.0 → 8.8
-- Book and Sons: 10.0 → 9.4
+- UTRECHT: 10.0 → 8.6
+- Fukuoka Art Book Fair: 10.0 → 8.6
+- BONUS TRACK: 10.0 → 8.6
+- B&B Shimokitazawa: 10.0 → 8.6
+- Applications — Little Tokyo Zine Fest: 10.0 → 8.6
+- Book and Sons: 10.0 → 8.6
 - Submissions — Clavis Publishing: 10.0 → 8.6
-- Koganecho Area Management Center: 10.0 → 9.4
-- BankART1929: 10.0 → 9.4
-- POST: 10.0 → 8.8
-- 3331 Arts Chiyoda: 10.0 → 9.4
-- PDF International Creator Residency Program 2026 Application Outline: 10.0 → 8.8
-- 2026年度 リサーチ・レジデンス・プログラム: 10.0 → 8.8
-- Open Call for the International Creator Residency Program 2026: 10.0 → 8.8
-- Jinny Street Gallery Open Call: 10.0 → 8.8
-- TOKAS Open Call: 10.0 → 8.8
-- Belladonna Art Competition: 10.0 → 8.8
-- Open Call Guest Artist: 10.0 → 8.8
+- flotsam books: 10.0 → 8.6
+- MOUNT ZINE: 10.0 → 8.6
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin: 10.0 → 8.6
+- BankART1929: 10.0 → 8.6
+- Koganecho Area Management Center: 10.0 → 8.6
+- 3331 Arts Chiyoda: 10.0 → 8.6
+- Youkobo Art Space: 10.0 → 8.6
+- AIR 3331: 10.0 → 8.6
+- POST: 10.0 → 8.0
+- Tokyo Arts and Space: 10.0 → 8.6
+- PDF International Creator Residency Program 2026 Application Outline: 10.0 → 8.6
+- 2026年度 リサーチ・レジデンス・プログラム: 10.0 → 8.6
+- Open Call for the International Creator Residency Program 2026: 10.0 → 8.6
+- Jinny Street Gallery Open Call: 10.0 → 8.6
+- TOKAS Open Call: 10.0 → 8.6
+- Belladonna Art Competition: 10.0 → 8.6
+- Open Call Guest Artist: 10.0 → 8.6
 - Hayama Artist Residency Submission Manager - Submittable: 10.0 → 8.6
-- SCCP Guest Artist: 10.0 → 8.8
-- Open Call: 10.0 → 8.8
-- Open Call - Tokyo Arts and Space: 10.0 → 8.8
-- 公募: 10.0 → 8.8
-- 全国美術公募団体 ベラドンナ・アート｜応募要項: 10.0 → 8.8
-- About Open Call Programs - Tokyo Arts and Space: 10.0 → 8.8
-- TOKAS Residency: 10.0 → 8.8
+- SCCP Guest Artist: 10.0 → 8.6
+- Open Call: 10.0 → 8.6
+- Open Call - Tokyo Arts and Space: 10.0 → 8.6
+- 公募: 10.0 → 8.6
+- 全国美術公募団体 ベラドンナ・アート｜応募要項: 10.0 → 8.6
+- About Open Call Programs - Tokyo Arts and Space: 10.0 → 8.6
+- TOKAS Residency: 10.0 → 8.6
 - Hayama Artist Residency: 10.0 → 8.6
 - Clavis Publishing Submissions: 10.0 → 8.6
 - Center for Book Arts Opportunities: 9.8 → 8.6
-- MOUNT ZINE: 9.7 → 9.4
-- AIR 3331: 9.7 → 9.4
 - Self Publish, Be Happy: 9.6 → 8.0
-- B&B Shimokitazawa: 9.6 → 9.4
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin: 9.6 → 8.6
+- Design Festa: 9.6 → 8.6
+- Tokyo Wonder Site / TOKAS Residency: 9.6 → 8.6
 - Printed Matter Art Book Fairs: 9.5 → 8.0
 - LOCAL Gallery・Books: 9.5 → 8.6
 - Art Book Fairs: 9.4 → 8.6
@@ -49,6 +52,7 @@ This report caps inflated scores when verification is weak.
 - ZINEフェス東京: 9.4 → 8.6
 - ZINEイベント: 9.4 → 8.6
 - Full-Table - Little Tokyo Zine Fest 2026 - Eventeny: 9.4 → 8.6
+- Aperture | Photography: 9.4 → 8.6
 - Tacoche: 9.4 → 8.6
 - Open Calls for Artists: 9.2 → 8.6
 - Open Call For Artists: 9.2 → 8.6
@@ -82,8 +86,12 @@ This report caps inflated scores when verification is weak.
 - Open Calls for Artists | Exhibit Worldwide: 9.0 → 8.0
 - Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...: 9.0 → 8.0
 - Publishing / Artist Books — Battle Plan: 8.9 → 6.5
+- NADiff a/p/a/r/t: 8.6 → 8.0
+- The Container: 8.6 → 8.0
 - 日記屋 月日: 8.4 → 8.0
 - Book Obscura: 8.3 → 8.0
+- RAW TOKYO: 8.1 → 8.0
+- Creative Space Hayashi: 8.1 → 8.0
 - torch press: 7.1 → 6.5
 - Book Culture Club: 7.1 → 6.5
 - shashasha: 7.1 → 6.5

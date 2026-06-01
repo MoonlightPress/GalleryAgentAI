@@ -12,10 +12,10 @@ This turns project concepts into concrete submission paths.
 
 ### Best First Targets
 - Tokyo Art Book Fair
-- MOUNT ZINE
-- B&B Shimokitazawa
 - UTRECHT
-- Fukuoka Art Book Fair
+- B&B Shimokitazawa
+- MOUNT ZINE
+- Submissions — Clavis Publishing
 
 ### What To Prepare
 - 12–20 image edit
@@ -35,7 +35,7 @@ This turns project concepts into concrete submission paths.
 ### Best First Targets
 - Tokyo Art Book Fair
 - UTRECHT
-- BankART1929
+- Aperture | Photography
 - Offprint
 - Tacoche
 
@@ -56,10 +56,10 @@ This turns project concepts into concrete submission paths.
 
 ### Best First Targets
 - Tokyo Art Book Fair
-- MOUNT ZINE
-- B&B Shimokitazawa
 - UTRECHT
+- B&B Shimokitazawa
 - flotsam books
+- MOUNT ZINE
 
 ### What To Prepare
 - 12–20 image edit
@@ -78,8 +78,8 @@ This turns project concepts into concrete submission paths.
 
 ### Best First Targets
 - Tokyo Art Book Fair
-- BankART1929
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin
+- Aperture | Photography
 - Browse opportunities | CuratorSpace
 - Top Artist Opportunities for 2026 | ArtConnect
 

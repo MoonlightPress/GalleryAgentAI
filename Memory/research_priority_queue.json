@@ -132,7 +132,7 @@
       "contact_email",
       "official_website"
     ],
-    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper or newsletter visibility is available."
+    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
   },
   {
     "title": "Japan Watercolor Society Annual Exhibition",
@@ -148,6 +148,20 @@
       "official_website"
     ],
     "quick_action": "Research current membership structure, open entry process, exhibition dates, and submission requirements in Japanese."
+  },
+  {
+    "title": "Aperture | Photography",
+    "score": 8.6,
+    "research_priority_score": 11.7,
+    "country": "Global",
+    "category": "global_photobook",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
     "title": "Browse opportunities | CuratorSpace",
@@ -178,6 +192,20 @@
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
+    "title": "PhotoVogue",
+    "score": 8.3,
+    "research_priority_score": 11.4,
+    "country": "Global",
+    "category": "photo_open_call",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
+  },
+  {
     "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
     "score": 8.6,
     "research_priority_score": 11.3,
@@ -189,20 +217,6 @@
       "contact_email"
     ],
     "quick_action": "Open and verify whether this is current and relevant."
-  },
-  {
-    "title": "Aperture | Photography",
-    "score": 8.1,
-    "research_priority_score": 11.2,
-    "country": "Global",
-    "category": "global_photobook",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
     "title": "Home - Printed Matter",
@@ -275,7 +289,91 @@
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
+    "title": "Gallery IRO",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Tokyo",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "The Artcomplex Center of Tokyo",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Tokyo",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "AAA Gallery Yokohama",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Yokohama",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
     "title": "Jackson's Art Prize",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Global",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "World Illustration Awards",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Global",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "3x3 International Illustration Awards",
+    "score": 7.8,
+    "research_priority_score": 10.9,
+    "country": "Global",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "American Illustration",
     "score": 7.8,
     "research_priority_score": 10.9,
     "country": "Global",
@@ -331,20 +429,6 @@
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
-    "title": "Gallery IRO",
-    "score": 7.8,
-    "research_priority_score": 10.9,
-    "country": "Tokyo",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
     "title": "Royal Watercolour Society",
     "score": 7.8,
     "research_priority_score": 10.9,
@@ -359,79 +443,9 @@
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
-    "title": "The Artcomplex Center of Tokyo",
+    "title": "DER GREIF",
     "score": 7.8,
     "research_priority_score": 10.9,
-    "country": "Tokyo",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "AAA Gallery Yokohama",
-    "score": 7.8,
-    "research_priority_score": 10.9,
-    "country": "Yokohama",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "World Illustration Awards",
-    "score": 7.8,
-    "research_priority_score": 10.9,
-    "country": "Global",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "3x3 International Illustration Awards",
-    "score": 7.8,
-    "research_priority_score": 10.9,
-    "country": "Global",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "American Illustration",
-    "score": 7.8,
-    "research_priority_score": 10.9,
-    "country": "Global",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "PhotoVogue",
-    "score": 7.3,
-    "research_priority_score": 10.4,
     "country": "Global",
     "category": "photo_open_call",
     "missing_fields": [
@@ -443,129 +457,115 @@
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
-    "title": "LOCAL Gallery・Books",
+    "title": "» 21 Terrific Small Presses Open to Direct Submissions",
     "score": 8.6,
     "research_priority_score": 10.2,
     "country": null,
-    "category": "zine_print",
+    "category": "book_publishing",
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Verify current location/contact and visit with a sample zine."
+    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
   },
   {
-    "title": "Art Book Fairs",
+    "title": "SUBMISSIONS - marblepress.com",
     "score": 8.6,
     "research_priority_score": 10.2,
     "country": null,
-    "category": "fair_popup",
+    "category": "book_publishing",
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Check exhibitor/application requirements, booth fee, and next event date."
+    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
   },
   {
-    "title": "Jimbocho Zine Fair",
+    "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
     "score": 8.6,
     "research_priority_score": 10.2,
     "country": null,
-    "category": "fair_popup",
+    "category": "book_publishing",
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Check application window, booth/table fee, required images, and whether a finished zine is required."
+    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
   },
   {
-    "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+    "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
     "score": 8.6,
     "research_priority_score": 10.2,
     "country": null,
-    "category": "fair_popup",
+    "category": "book_publishing",
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Check application window, booth/table fee, required images, and whether a finished zine is required."
+    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
   },
   {
-    "title": "Tacoche",
+    "title": "Submissions - Little Press Publishing",
     "score": 8.6,
     "research_priority_score": 10.2,
     "country": null,
-    "category": "zine_print",
+    "category": "book_publishing",
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Review shop/site and confirm whether they accept consignment or submissions."
+    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
   },
   {
-    "title": "tata bookshop/gallery",
+    "title": "3 Top Book Publishers in Tokyo in 2026",
     "score": 8.6,
     "research_priority_score": 10.2,
     "country": null,
-    "category": "zine_print",
+    "category": "book_publishing",
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Visit/research fit and see whether quiet works-on-paper books would sit naturally there."
+    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
   },
   {
-    "title": "本店・本屋の実験室",
+    "title": "submissions — porkbelly press",
     "score": 8.6,
     "research_priority_score": 10.2,
     "country": null,
-    "category": "zine_print",
+    "category": "book_publishing",
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Check event/submission pages and whether zine participation is possible."
+    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
   },
   {
-    "title": "Zines Fair at CP+",
+    "title": "3 Top Book Publishers in Japan in 2026",
     "score": 8.6,
     "research_priority_score": 10.2,
     "country": null,
-    "category": "fair_popup",
+    "category": "book_publishing",
     "missing_fields": [
       "submission_page",
       "fees",
       "deadline",
       "contact_email"
     ],
-    "quick_action": "Check application window, booth/table fee, required images, and whether a finished zine is required."
-  },
-  {
-    "title": "ZINEフェス東京",
-    "score": 8.6,
-    "research_priority_score": 10.2,
-    "country": null,
-    "category": "fair_popup",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Check application window, booth/table fee, required images, and whether a finished zine is required."
+    "quick_action": "Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference."
   }
 ]

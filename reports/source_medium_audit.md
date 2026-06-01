@@ -4,13 +4,11 @@
 
 - mixed: 40
 - painting: 21
-- photography: 4
-- unknown: 111
+- photography: 5
+- unknown: 109
 
 ## Classified Opportunities
 
-- **Jinny Street Gallery Open Call** — painting
-  - hits: painting: gallery open call
 - **Browse opportunities | CuratorSpace** — painting
   - hits: painting: painting, open exhibition | photography: photography, photo | mixed: zine, bookstore
 - **Royal Watercolour Society Open Exhibition** — painting
@@ -21,120 +19,14 @@
   - hits: painting: illustration, opa gallery
 - **Pinpoint Gallery** — painting
   - hits: painting: illustration, pinpoint gallery
-- **Aesthetica Art Prize** — mixed
-  - hits: mixed: zine
-- **Self Publish, Be Happy** — mixed
-  - hits: photography: photo, photobook | mixed: artist book, self publish
-- **UTRECHT** — mixed
-  - hits: mixed: zine, bookstore, utrecht
-- **Fukuoka Art Book Fair** — mixed
-  - hits: mixed: book fair
-- **LOCAL Gallery・Books** — mixed
-  - hits: mixed: zine, bookstore
-- **Tacoche** — mixed
-  - hits: mixed: zine, bookstore
-- **本店・本屋の実験室** — mixed
-  - hits: mixed: zine, bookstore
-- **Offprint** — mixed
-  - hits: mixed: book fair
-- **Book and Sons** — mixed
-  - hits: mixed: zine, bookstore, book and sons
-- **Tokyo Art Book Fair** — mixed
-  - hits: mixed: book fair, tokyo art book fair
-- **POST** — mixed
-  - hits: mixed: zine, bookstore, post
-- **グループ展参加アーティスト募集中 - Gallery and Links81** — unknown
-- **【biscuit gallery】初の公募企画「grid next : Emerging ...** — unknown
-- **219公募展6募集 >> Gallery219 ギャラリーニイク** — unknown
-- **公募プログラム - トーキョーアーツアンドスペース** — unknown
-- **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — unknown
-- **Open Calls for Artists | Exhibit Worldwide** — unknown
-- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — unknown
-- **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — unknown
-- **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — unknown
-- **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — unknown
-- **New Power展 | ギャラリー自由が丘で作家デビュー** — unknown
-- **Call for Entry: Showcase your art in Tokyo, Japan** — unknown
-- **Koganecho Area Management Center** — unknown
-- **出展お申込み** — unknown
-- **TOKAS Open Call** — unknown
-- **Belladonna Art Competition** — unknown
-- **Open Call Guest Artist** — unknown
-- **SCCP Guest Artist** — unknown
-- **Open Call** — unknown
-- **Open Call - Tokyo Arts and Space** — unknown
-- **公募** — unknown
-- **全国美術公募団体 ベラドンナ・アート｜応募要項** — unknown
-- **About Open Call Programs - Tokyo Arts and Space** — unknown
-- **Hayama Artist Residency Submission Manager - Submittable** — unknown
-- **Hayama Artist Residency** — unknown
-- **L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info** — unknown
-- **Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...** — unknown
-- **Cité Internationale des Arts Artist Residency** — unknown
 - **Jackson's Art Prize** — painting
   - hits: painting: painting, jackson
-- **TOKAS Residency** — unknown
-- **Center for Book Arts Opportunities** — unknown
-- **American Watercolor Society Annual International Exhibition** — painting
-  - hits: painting: watercolor
-- **Applications — Little Tokyo Zine Fest** — mixed
-  - hits: mixed: zine
-- **PDF International Creator Residency Program 2026 Application Outline** — unknown
-- **2026年度 リサーチ・レジデンス・プログラム** — unknown
-- **Open Call for the International Creator Residency Program 2026** — unknown
-- **Book Obscura** — mixed
-  - hits: mixed: zine, bookstore
-- **Home - Printed Matter** — mixed
-  - hits: painting: watercolor, painting, drawing, paper | photography: photography, photo, photobook | mixed: zine, printed matter, book fair
-- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — painting
-  - hits: painting: gallery open call
-- **Osaka Open Call For Artists. - ARRIVAL** — unknown
-- **Open calls - Online Database of Artist in Residence Programs in Japan** — unknown
-- **ArtConnect Open Calls** — unknown
-- **CuratorSpace** — unknown
-- **Printed Matter Art Book Fairs** — mixed
-  - hits: mixed: zine, printed matter, book fair
-- **【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...** — unknown
-- **2026 松濤美術館公募展｜渋谷区立松濤美術館** — unknown
-- **International Open Call** — unknown
-- **日記屋 月日** — mixed
-  - hits: mixed: zine, bookstore
-- **Asian Cultural Council Fellowship** — unknown
-- **Clavis Publishing Submissions** — unknown
-- **BankART1929** — unknown
-- **Submissions — Clavis Publishing** — unknown
-- **Society of Women Artists** — unknown
-- **Kyoto Retreat Artist Residency 2026 - Open Call** — unknown
-- **OPEN CALL for the Artist-In-Residence Program 2025/2026** — unknown
-- **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** — unknown
-- **2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...** — unknown
-- **Mall Galleries Open Exhibitions** — painting
-  - hits: painting: open exhibition, mall galleries
-- **Pastel Society Open Exhibition** — painting
-  - hits: painting: open exhibition, paper
-- **Royal Institute of Painters in Water Colours** — painting
-  - hits: painting: watercolor
 - **Royal Watercolour Society** — painting
   - hits: painting: watercolor, watercolour, royal watercolour society
-- **Japan Watercolor Society Annual Exhibition** — painting
-  - hits: painting: watercolor
-- **Top Artist Opportunities for 2026 | ArtConnect** — mixed
-  - hits: mixed: zine, bookstore
 - **Bologna Children's Book Fair Illustrators Exhibition** — painting
   - hits: painting: illustration | mixed: book fair
-- **そぞろ書房** — mixed
-  - hits: mixed: zine, bookstore
-- **Gallery IRO** — unknown
-- **tata bookshop/gallery** — mixed
-  - hits: mixed: zine, bookstore
 - **Gallery IYN** — painting
   - hits: painting: gallery iyn
-- **Publishing / Artist Books — Battle Plan** — mixed
-  - hits: mixed: artist book
-- **The Artcomplex Center of Tokyo** — unknown
-- **AAA Gallery Yokohama** — unknown
-- **MOUNT ZINE** — mixed
-  - hits: mixed: zine, bookstore, mount zine
 - **Tokyo Illustrators Society** — painting
   - hits: painting: illustration
 - **World Illustration Awards** — painting
@@ -143,25 +35,112 @@
   - hits: painting: illustration
 - **American Illustration** — painting
   - hits: painting: illustration
-- **Communication Arts Illustration Competition** — painting
-  - hits: painting: illustration
-- **Zines / Artist Books — Battle Plan** — mixed
-  - hits: mixed: artist book, zine, bookstore
+- **Tokyo Art Book Fair** — mixed
+  - hits: mixed: book fair, tokyo art book fair
+- **Offprint** — mixed
+  - hits: mixed: book fair
+- **Aesthetica Art Prize** — mixed
+  - hits: mixed: zine
+- **Self Publish, Be Happy** — mixed
+  - hits: photography: photo, photobook | mixed: artist book, self publish
+- **Home - Printed Matter** — mixed
+  - hits: painting: watercolor, painting, drawing, paper | photography: photography, photo, photobook | mixed: zine, printed matter, book fair
+- **Book Obscura** — mixed
+  - hits: mixed: zine, bookstore
+- **MOUNT ZINE** — mixed
+  - hits: mixed: zine, bookstore, mount zine
+- **UTRECHT** — mixed
+  - hits: mixed: zine, bookstore, utrecht
+- **Book and Sons** — mixed
+  - hits: mixed: zine, bookstore, book and sons
+- **Fukuoka Art Book Fair** — mixed
+  - hits: mixed: book fair
+- **POST** — mixed
+  - hits: mixed: zine, bookstore, post
+- **LOCAL Gallery・Books** — mixed
+  - hits: mixed: zine, bookstore
+- **Tacoche** — mixed
+  - hits: mixed: zine, bookstore
+- **tata bookshop/gallery** — mixed
+  - hits: mixed: zine, bookstore
+- **本店・本屋の実験室** — mixed
+  - hits: mixed: zine, bookstore
+- **Top Artist Opportunities for 2026 | ArtConnect** — mixed
+  - hits: mixed: zine, bookstore
+- **Printed Matter Art Book Fairs** — mixed
+  - hits: mixed: zine, printed matter, book fair
+- **そぞろ書房** — mixed
+  - hits: mixed: zine, bookstore
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — mixed
   - hits: mixed: zine, bookstore
-- **AIR 3331** — unknown
-- **NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW** — unknown
+- **グループ展参加アーティスト募集中 - Gallery and Links81** — unknown
+- **【biscuit gallery】初の公募企画「grid next : Emerging ...** — unknown
+- **219公募展6募集 >> Gallery219 ギャラリーニイク** — unknown
+- **公募プログラム - トーキョーアーツアンドスペース** — unknown
+- **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — unknown
+- **Open Calls for Artists | Exhibit Worldwide** — unknown
+- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — unknown
+- **ArtConnect Open Calls** — unknown
+- **CuratorSpace** — unknown
+- **Society of Women Artists** — unknown
+- **Gallery IRO** — unknown
+- **The Artcomplex Center of Tokyo** — unknown
+- **AAA Gallery Yokohama** — unknown
+- **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — unknown
+- **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — unknown
+- **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — unknown
+- **New Power展 | ギャラリー自由が丘で作家デビュー** — unknown
+- **Call for Entry: Showcase your art in Tokyo, Japan** — unknown
+- **Art Book Fairs** — mixed
+  - hits: mixed: book fair
+- **BankART1929** — unknown
+- **Koganecho Area Management Center** — unknown
+- **Submissions — Clavis Publishing** — unknown
+- **Center for Book Arts Opportunities** — unknown
+- **American Watercolor Society Annual International Exhibition** — painting
+  - hits: painting: watercolor
+- **Asian Cultural Council Fellowship** — unknown
+- **Mall Galleries Open Exhibitions** — painting
+  - hits: painting: open exhibition, mall galleries
+- **Pastel Society Open Exhibition** — painting
+  - hits: painting: open exhibition, paper
+- **Communication Arts Illustration Competition** — painting
+  - hits: painting: illustration
+- **Applications — Little Tokyo Zine Fest** — mixed
+  - hits: mixed: zine
+- **PDF International Creator Residency Program 2026 Application Outline** — unknown
+- **2026年度 リサーチ・レジデンス・プログラム** — unknown
+- **Open Call for the International Creator Residency Program 2026** — unknown
+- **Jinny Street Gallery Open Call** — painting
+  - hits: painting: gallery open call
+- **TOKAS Open Call** — unknown
+- **Belladonna Art Competition** — unknown
+- **Open Call Guest Artist** — unknown
+- **Cité Internationale des Arts Artist Residency** — unknown
 - **Books Ruhe** — mixed
   - hits: mixed: zine, bookstore
-- **Komiyama Tokyo** — unknown
-- **shashasha** — unknown
-- **Clone of Japan Fair 2025 - Exhibitor Application Form** — unknown
 - **3331 Arts Chiyoda** — unknown
-- **Boji Hair+Gallery** — unknown
+- **Publishing / Artist Books — Battle Plan** — mixed
+  - hits: mixed: artist book
+- **Hayama Artist Residency Submission Manager - Submittable** — unknown
+- **SCCP Guest Artist** — unknown
+- **Open Call** — unknown
+- **Open Call - Tokyo Arts and Space** — unknown
+- **公募** — unknown
+- **全国美術公募団体 ベラドンナ・アート｜応募要項** — unknown
+- **About Open Call Programs - Tokyo Arts and Space** — unknown
+- **日記屋 月日** — mixed
+  - hits: mixed: zine, bookstore
+- **AIR 3331** — unknown
+- **L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info** — unknown
+- **Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...** — unknown
+- **Kyoto Retreat Artist Residency 2026 - Open Call** — unknown
+- **OPEN CALL for the Artist-In-Residence Program 2025/2026** — unknown
+- **TOKAS Residency** — unknown
 - **» 21 Terrific Small Presses Open to Direct Submissions** — mixed
   - hits: mixed: small press
-- **Aperture | Photography** — photography
-  - hits: photography: photography, photo, photobook, aperture | mixed: zine
+- **Royal Institute of Painters in Water Colours** — painting
+  - hits: painting: watercolor
 - **SUBMISSIONS - marblepress.com** — unknown
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — unknown
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — unknown
@@ -172,18 +151,43 @@
 - **Become an Author - Tuttle Publishing** — unknown
 - **Japan Book Publishers Association - JBPA** — unknown
 - **ART BOX Publishing** — unknown
+- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — painting
+  - hits: painting: gallery open call
+- **Hayama Artist Residency** — unknown
+- **Osaka Open Call For Artists. - ARRIVAL** — unknown
+- **Open calls - Online Database of Artist in Residence Programs in Japan** — unknown
+- **Zines / Artist Books — Battle Plan** — mixed
+  - hits: mixed: artist book, zine, bookstore
+- **【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...** — unknown
+- **2026 松濤美術館公募展｜渋谷区立松濤美術館** — unknown
+- **International Open Call** — unknown
+- **shashasha** — unknown
+- **Clavis Publishing Submissions** — unknown
+- **Aperture | Photography** — photography
+  - hits: photography: photography, photo, photobook, aperture | mixed: zine
+- **Komiyama Tokyo** — unknown
+- **Japan Watercolor Society Annual Exhibition** — painting
+  - hits: painting: watercolor
+- **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** — unknown
+- **2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...** — unknown
+- **Tokyo Wonder Site / TOKAS Residency** — unknown
+- **Boji Hair+Gallery** — unknown
+- **NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW** — unknown
 - **Book Culture Club** — mixed
   - hits: mixed: zine, bookstore
-- **Art Book Fairs** — mixed
-  - hits: mixed: book fair
-- **Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat** — mixed
-  - hits: mixed: zine
 - **torch press** — unknown
-- **twelvebooks** — unknown
-- **Tokyo Wonder Site / TOKAS Residency** — unknown
 - **DER GREIF** — photography
   - hits: photography: photography, photo, der greif
+- **Zines Fair at CP+ 2026 （Pacifico Yokohama） ｜Tokyo Art Beat** — mixed
+  - hits: mixed: zine
+- **TAV Gallery** — unknown
 - **ARTE VENT Press** — unknown
+- **Picaresque Gallery** — unknown
+- **SCAI The Bathhouse** — unknown
+- **B&B Shimokitazawa** — mixed
+  - hits: mixed: zine, bookstore
+- **flotsam books** — mixed
+  - hits: mixed: zine, bookstore, flotsam
 - **Jimbocho Zine Fair** — mixed
   - hits: mixed: zine, post
 - **Zines Fair at CP+** — mixed
@@ -194,59 +198,55 @@
   - hits: mixed: zine
 - **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — mixed
   - hits: mixed: zine
+- **tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...** — mixed
+  - hits: photography: camera | mixed: zine, post
 - **Open Calls for Artists** — unknown
 - **Open Call For Artists** — unknown
+- **The Holy Art Gallery - Tokyo Open Call for Artist** — photography
+  - hits: photography: photographer, photographers, photo
+- **Youkobo Art Space** — unknown
 - **Shoto Museum Open Call** — unknown
 - **Art公募** — unknown
 - **公募展** — unknown
 - **公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...** — unknown
-- **tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...** — mixed
-  - hits: photography: camera | mixed: zine, post
-- **The Holy Art Gallery - Tokyo Open Call for Artist** — photography
-  - hits: photography: photographer, photographers, photo
 - **Open Call for Artists! Tokyo Biennale 2025 "Social Dive"** — unknown
 - **Kyoto Art Center Residency** — unknown
 - **AIR_J Open Calls** — unknown
 - **NEW AIR** — unknown
 - **【公募】2026年度レジデンス・プログラム公募開始** — unknown
-- **flotsam books** — mixed
-  - hits: mixed: zine, bookstore, flotsam
-- **Youkobo Art Space** — unknown
-- **B&B Shimokitazawa** — mixed
-  - hits: mixed: zine, bookstore
 - **Tokyo Arts and Space** — unknown
 - **BONUS TRACK** — unknown
 - **NADiff a/p/a/r/t** — mixed
   - hits: mixed: zine, bookstore, nadiff
-- **TAV Gallery** — unknown
 - **Gallery IRO** — unknown
-- **Gallery HANA Shimokitazawa** — unknown
-- **The Container** — unknown
 - **AIT Residency** — unknown
-- **Comitia** — unknown
+- **Gallery HANA Shimokitazawa** — unknown
 - **Spiral** — unknown
+- **The Container** — unknown
 - **Cafe Cross Point** — unknown
-- **PhotoVogue** — photography
-  - hits: painting: illustration | photography: photo, photovogue
-- **Design Festa** — unknown
-- **SCAI The Bathhouse** — unknown
-- **Picaresque Gallery** — unknown
+- **twelvebooks** — unknown
 - **Aoyama Farmers Market** — unknown
 - **Creative Space Hayashi** — unknown
+- **Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou** — photography
+  - hits: photography: photo
+- **HandMade In Japan Fes** — unknown
 - **VACANT** — unknown
+- **Comitia** — unknown
+- **Design Festa** — unknown
+- **PhotoVogue** — photography
+  - hits: painting: illustration | photography: photo, photovogue
 - **DESIGN FESTA GALLERY** — unknown
 - **Cafe Mame-Hico** — unknown
 - **Yonchome Cafe** — unknown
 - **Zushi Art Gallery** — unknown
 - **Cafe Gallery HATTIFNATT** — unknown
-- **HandMade In Japan Fes** — unknown
 - **Gallery Conceal Shibuya** — unknown
 - **RAW TOKYO** — unknown
 - **reload Shimokitazawa** — unknown
+- **loneliness books** — mixed
+  - hits: mixed: zine, bookstore
+- **MADO Café** — unknown
 - **Dig A Hole Zines** — mixed
   - hits: mixed: zine, bookstore
 - **ZINE FARM TOKYO** — mixed
   - hits: mixed: zine, bookstore
-- **loneliness books** — mixed
-  - hits: mixed: zine, bookstore
-- **MADO Café** — unknown

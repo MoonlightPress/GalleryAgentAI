@@ -3,199 +3,7 @@
     "key": "tokyo art book fair::tokyo art book fair",
     "title": "Tokyo Art Book Fair",
     "organization": "TOKYO ART BOOK FAIR",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "mount zine::mount zine",
-    "title": "MOUNT ZINE",
-    "organization": "MOUNT ZINE",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "b&b shimokitazawa::bookstore b&b",
-    "title": "B&B Shimokitazawa",
-    "organization": "Bookstore B&B",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "utrecht::utrecht",
-    "title": "UTRECHT",
-    "organization": "UTRECHT",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "book and sons::book and sons",
-    "title": "Book and Sons",
-    "organization": "Book and Sons",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "bankart1929::bankart1929",
-    "title": "BankART1929",
-    "organization": "BankART1929",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "air 3331::3331 arts chiyoda",
-    "title": "AIR 3331",
-    "organization": "3331 Arts Chiyoda",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "bonus track::bonus track",
-    "title": "BONUS TRACK",
-    "organization": "BONUS TRACK",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "koganecho area management center::koganecho",
-    "title": "Koganecho Area Management Center",
-    "organization": "Koganecho",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "3331 arts chiyoda::3331 arts chiyoda",
-    "title": "3331 Arts Chiyoda",
-    "organization": "3331 Arts Chiyoda",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "flotsam books::flotsam books",
-    "title": "flotsam books",
-    "organization": "flotsam books",
-    "score": 9.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "youkobo art space::youkobo art space",
-    "title": "Youkobo Art Space",
-    "organization": "Youkobo Art Space",
-    "score": 9.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "tokyo arts and space::tokyo arts and space",
-    "title": "Tokyo Arts and Space",
-    "organization": "Tokyo Arts and Space",
-    "score": 9.2,
+    "score": 8.6,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -211,40 +19,7 @@
     "key": "fukuoka art book fair::fukuoka art book fair",
     "title": "Fukuoka Art Book Fair",
     "organization": "Fukuoka Art Book Fair",
-    "score": 8.8,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: fees, contact."
-  },
-  {
-    "key": "post::post",
-    "title": "POST",
-    "organization": "POST",
-    "score": 8.8,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "出展お申込み::出展お申込み",
-    "title": "出展お申込み",
-    "organization": "出展お申込み",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -261,24 +36,7 @@
     "key": "applications — little tokyo zine fest::applications — little tokyo zine fest",
     "title": "Applications — Little Tokyo Zine Fest",
     "organization": "Applications — Little Tokyo Zine Fest",
-    "score": 8.8,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: fees, contact."
-  },
-  {
-    "key": "clone of japan fair 2025 - exhibitor application form::clone of japan fair 2025 - exhibitor application form",
-    "title": "Clone of Japan Fair 2025 - Exhibitor Application Form",
-    "organization": "Clone of Japan Fair 2025 - Exhibitor Application Form",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -295,7 +53,7 @@
     "key": "pdf international creator residency program 2026 application outline::pdf international creator residency program 2026 application outline",
     "title": "PDF International Creator Residency Program 2026 Application Outline",
     "organization": "PDF International Creator Residency Program 2026 Application Outline",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -312,7 +70,7 @@
     "key": "2026年度 リサーチ・レジデンス・プログラム::2026年度 リサーチ・レジデンス・プログラム",
     "title": "2026年度 リサーチ・レジデンス・プログラム",
     "organization": "2026年度 リサーチ・レジデンス・プログラム",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -329,7 +87,7 @@
     "key": "open call for the international creator residency program 2026::open call for the international creator residency program 2026",
     "title": "Open Call for the International Creator Residency Program 2026",
     "organization": "Open Call for the International Creator Residency Program 2026",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -346,7 +104,7 @@
     "key": "jinny street gallery open call::jinny street gallery open call",
     "title": "Jinny Street Gallery Open Call",
     "organization": "Jinny Street Gallery Open Call",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -363,7 +121,7 @@
     "key": "tokas open call::tokas open call",
     "title": "TOKAS Open Call",
     "organization": "TOKAS Open Call",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -380,7 +138,7 @@
     "key": "belladonna art competition::belladonna art competition",
     "title": "Belladonna Art Competition",
     "organization": "Belladonna Art Competition",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -397,7 +155,7 @@
     "key": "open call guest artist::open call guest artist",
     "title": "Open Call Guest Artist",
     "organization": "Open Call Guest Artist",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -414,7 +172,7 @@
     "key": "sccp guest artist::sccp guest artist",
     "title": "SCCP Guest Artist",
     "organization": "SCCP Guest Artist",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -431,7 +189,7 @@
     "key": "open call::open call",
     "title": "Open Call",
     "organization": "Open Call",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -448,7 +206,7 @@
     "key": "open call - tokyo arts and space::open call - tokyo arts and space",
     "title": "Open Call - Tokyo Arts and Space",
     "organization": "Open Call - Tokyo Arts and Space",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -465,7 +223,7 @@
     "key": "公募::公募",
     "title": "公募",
     "organization": "公募",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -482,7 +240,7 @@
     "key": "全国美術公募団体 ベラドンナ・アート｜応募要項::全国美術公募団体 ベラドンナ・アート｜応募要項",
     "title": "全国美術公募団体 ベラドンナ・アート｜応募要項",
     "organization": "全国美術公募団体 ベラドンナ・アート｜応募要項",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -499,7 +257,7 @@
     "key": "about open call programs - tokyo arts and space::about open call programs - tokyo arts and space",
     "title": "About Open Call Programs - Tokyo Arts and Space",
     "organization": "About Open Call Programs - Tokyo Arts and Space",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -516,7 +274,7 @@
     "key": "tokas residency::tokas residency",
     "title": "TOKAS Residency",
     "organization": "TOKAS Residency",
-    "score": 8.8,
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -528,112 +286,6 @@
       "contact"
     ],
     "recommended_action": "Research missing details: fees, contact."
-  },
-  {
-    "key": "submissions — clavis publishing::submissions — clavis publishing",
-    "title": "Submissions — Clavis Publishing",
-    "organization": "Submissions — Clavis Publishing",
-    "score": 8.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
-    "key": "aura: open call open call for artists and writers to submit their work to a feminist onlin::curatorspace",
-    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-    "organization": "CuratorSpace",
-    "score": 8.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
-    "key": "hayama artist residency submission manager - submittable::hayama artist residency submission manager - submittable",
-    "title": "Hayama Artist Residency Submission Manager - Submittable",
-    "organization": "Hayama Artist Residency Submission Manager - Submittable",
-    "score": 8.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
-    "key": "hayama artist residency::hayama artist residency",
-    "title": "Hayama Artist Residency",
-    "organization": "Hayama Artist Residency",
-    "score": 8.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
-    "key": "clavis publishing submissions::clavis publishing submissions",
-    "title": "Clavis Publishing Submissions",
-    "organization": "Clavis Publishing Submissions",
-    "score": 8.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
-    "key": "tokyo wonder site / tokas residency::tokyo arts and space",
-    "title": "Tokyo Wonder Site / TOKAS Residency",
-    "organization": "Tokyo Arts and Space",
-    "score": 8.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
   },
   {
     "key": "open calls for artists::open calls for artists",
@@ -1050,10 +702,10 @@
     "recommended_action": "Research missing details: submission process, fees, contact."
   },
   {
-    "key": "design festa::design festa",
-    "title": "Design Festa",
-    "organization": "Design Festa",
-    "score": 8.2,
+    "key": "utrecht::utrecht",
+    "title": "UTRECHT",
+    "organization": "UTRECHT",
+    "score": 7.6,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -1066,8 +718,74 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "browse opportunities | curatorspace::curatorspace",
-    "title": "Browse opportunities | CuratorSpace",
+    "key": "b&b shimokitazawa::bookstore b&b",
+    "title": "B&B Shimokitazawa",
+    "organization": "Bookstore B&B",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "flotsam books::flotsam books",
+    "title": "flotsam books",
+    "organization": "flotsam books",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "mount zine::mount zine",
+    "title": "MOUNT ZINE",
+    "organization": "MOUNT ZINE",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "submissions — clavis publishing::submissions — clavis publishing",
+    "title": "Submissions — Clavis Publishing",
+    "organization": "Submissions — Clavis Publishing",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "aura: open call open call for artists and writers to submit their work to a feminist onlin::curatorspace",
+    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
     "organization": "CuratorSpace",
     "score": 7.6,
     "priority": "high",
@@ -1077,17 +795,16 @@
     "response_received": false,
     "follow_up_date": "",
     "missing": [
-      "submission process",
       "deadline",
       "fees",
       "contact"
     ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
+    "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
-    "key": "offprint::offprint",
-    "title": "Offprint",
-    "organization": "Offprint",
+    "key": "aperture | photography::aperture",
+    "title": "Aperture | Photography",
+    "organization": "Aperture",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -1104,180 +821,9 @@
     "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "royal watercolour society open exhibition::royal watercolour society",
-    "title": "Royal Watercolour Society Open Exhibition",
-    "organization": "Royal Watercolour Society",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "local gallery・books::local gallery・books",
-    "title": "LOCAL Gallery・Books",
-    "organization": "LOCAL Gallery・Books",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "art book fairs::art book fairs",
-    "title": "Art Book Fairs",
-    "organization": "Art Book Fairs",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "jimbocho zine fair::jimbocho zine fair",
-    "title": "Jimbocho Zine Fair",
-    "organization": "Jimbocho Zine Fair",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "tokyo camera style - cp+ zine fair 2026, yokohama repainted leica m3...::tokyo camera style - cp+ zine fair 2026, yokohama repainted leica m3...",
-    "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
-    "organization": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "tacoche::tacoche",
-    "title": "Tacoche",
-    "organization": "Tacoche",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "tata bookshop/gallery::tata bookshop/gallery",
-    "title": "tata bookshop/gallery",
-    "organization": "tata bookshop/gallery",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "本店・本屋の実験室::本店・本屋の実験室",
-    "title": "本店・本屋の実験室",
-    "organization": "本店・本屋の実験室",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "top artist opportunities for 2026 | artconnect::artconnect open calls",
-    "title": "Top Artist Opportunities for 2026 | ArtConnect",
-    "organization": "ArtConnect Open Calls",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "center for book arts opportunities::center for book arts",
-    "title": "Center for Book Arts Opportunities",
-    "organization": "Center for Book Arts",
+    "key": "browse opportunities | curatorspace::curatorspace",
+    "title": "Browse opportunities | CuratorSpace",
+    "organization": "CuratorSpace",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -1503,9 +1049,123 @@
     "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "aesthetica art prize::aesthetica magazine",
-    "title": "Aesthetica Art Prize",
-    "organization": "Aesthetica Magazine",
+    "key": "offprint::offprint",
+    "title": "Offprint",
+    "organization": "Offprint",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "royal watercolour society open exhibition::royal watercolour society",
+    "title": "Royal Watercolour Society Open Exhibition",
+    "organization": "Royal Watercolour Society",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "local gallery・books::local gallery・books",
+    "title": "LOCAL Gallery・Books",
+    "organization": "LOCAL Gallery・Books",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "art book fairs::art book fairs",
+    "title": "Art Book Fairs",
+    "organization": "Art Book Fairs",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "jimbocho zine fair::jimbocho zine fair",
+    "title": "Jimbocho Zine Fair",
+    "organization": "Jimbocho Zine Fair",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "tokyo camera style - cp+ zine fair 2026, yokohama repainted leica m3...::tokyo camera style - cp+ zine fair 2026, yokohama repainted leica m3...",
+    "title": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+    "organization": "tokyo camera style - CP+ Zine Fair 2026, Yokohama Repainted Leica M3...",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "tacoche::tacoche",
+    "title": "Tacoche",
+    "organization": "Tacoche",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -1541,9 +1201,9 @@
     "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "aperture | photography::aperture",
-    "title": "Aperture | Photography",
-    "organization": "Aperture",
+    "key": "tata bookshop/gallery::tata bookshop/gallery",
+    "title": "tata bookshop/gallery",
+    "organization": "tata bookshop/gallery",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -1558,6 +1218,146 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "本店・本屋の実験室::本店・本屋の実験室",
+    "title": "本店・本屋の実験室",
+    "organization": "本店・本屋の実験室",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "top artist opportunities for 2026 | artconnect::artconnect open calls",
+    "title": "Top Artist Opportunities for 2026 | ArtConnect",
+    "organization": "ArtConnect Open Calls",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "center for book arts opportunities::center for book arts",
+    "title": "Center for Book Arts Opportunities",
+    "organization": "Center for Book Arts",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "aesthetica art prize::aesthetica magazine",
+    "title": "Aesthetica Art Prize",
+    "organization": "Aesthetica Magazine",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "book and sons::book and sons",
+    "title": "Book and Sons",
+    "organization": "Book and Sons",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "youkobo art space::youkobo art space",
+    "title": "Youkobo Art Space",
+    "organization": "Youkobo Art Space",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "tokyo wonder site / tokas residency::tokyo arts and space",
+    "title": "Tokyo Wonder Site / TOKAS Residency",
+    "organization": "Tokyo Arts and Space",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "comitia::comitia",
+    "title": "Comitia",
+    "organization": "COMITIA",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
   },
   {
     "key": "american watercolor society annual international exhibition::american watercolor society",
@@ -1577,6 +1377,214 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "bankart1929::bankart1929",
+    "title": "BankART1929",
+    "organization": "BankART1929",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "air 3331::3331 arts chiyoda",
+    "title": "AIR 3331",
+    "organization": "3331 Arts Chiyoda",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "tokyo arts and space::tokyo arts and space",
+    "title": "Tokyo Arts and Space",
+    "organization": "Tokyo Arts and Space",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "ait residency::arts initiative tokyo",
+    "title": "AIT Residency",
+    "organization": "Arts Initiative Tokyo",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "bonus track::bonus track",
+    "title": "BONUS TRACK",
+    "organization": "BONUS TRACK",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "koganecho area management center::koganecho",
+    "title": "Koganecho Area Management Center",
+    "organization": "Koganecho",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "3331 arts chiyoda::3331 arts chiyoda",
+    "title": "3331 Arts Chiyoda",
+    "organization": "3331 Arts Chiyoda",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "design festa::design festa",
+    "title": "Design Festa",
+    "organization": "Design Festa",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "aoyama farmers market::farmer's market @ unu",
+    "title": "Aoyama Farmers Market",
+    "organization": "Farmer's Market @ UNU",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "cafe cross point::cafe cross point",
+    "title": "Cafe Cross Point",
+    "organization": "Cafe Cross Point",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "tav gallery::tav gallery",
+    "title": "TAV Gallery",
+    "organization": "TAV Gallery",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "gallery iro::gallery iro",
+    "title": "Gallery IRO",
+    "organization": "Gallery IRO",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "gallery hana shimokitazawa::gallery hana shimokitazawa",
+    "title": "Gallery HANA Shimokitazawa",
+    "organization": "Gallery HANA Shimokitazawa",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
   },
   {
     "key": "zines fair at cp+::zines fair at cp+",
@@ -1693,6 +1701,60 @@
     "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
+    "key": "hayama artist residency submission manager - submittable::hayama artist residency submission manager - submittable",
+    "title": "Hayama Artist Residency Submission Manager - Submittable",
+    "organization": "Hayama Artist Residency Submission Manager - Submittable",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "hayama artist residency::hayama artist residency",
+    "title": "Hayama Artist Residency",
+    "organization": "Hayama Artist Residency",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "clavis publishing submissions::clavis publishing submissions",
+    "title": "Clavis Publishing Submissions",
+    "organization": "Clavis Publishing Submissions",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
     "key": "bologna children's book fair illustrators exhibition::bologna children's book fair illustrators exhibition",
     "title": "Bologna Children's Book Fair Illustrators Exhibition",
     "organization": "Bologna Children's Book Fair Illustrators Exhibition",
@@ -1769,104 +1831,9 @@
     "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "jackson's art prize::jackson's art prize",
-    "title": "Jackson's Art Prize",
-    "organization": "Jackson's Art Prize",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "artconnect open calls::artconnect open calls",
-    "title": "ArtConnect Open Calls",
-    "organization": "ArtConnect Open Calls",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "curatorspace::curatorspace",
-    "title": "CuratorSpace",
-    "organization": "CuratorSpace",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "society of women artists::society of women artists",
-    "title": "Society of Women Artists",
-    "organization": "Society of Women Artists",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
     "key": "gallery iro::gallery iro",
     "title": "Gallery IRO",
     "organization": "Gallery IRO",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "royal watercolour society::royal watercolour society",
-    "title": "Royal Watercolour Society",
-    "organization": "Royal Watercolour Society",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -1924,6 +1891,25 @@
     "key": "aaa gallery yokohama::aaa gallery yokohama",
     "title": "AAA Gallery Yokohama",
     "organization": "AAA Gallery Yokohama",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "jackson's art prize::jackson's art prize",
+    "title": "Jackson's Art Prize",
+    "organization": "Jackson's Art Prize",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -2016,9 +2002,9 @@
     "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "グループ展参加アーティスト募集中 - gallery and links81::グループ展参加アーティスト募集中 - gallery and links81",
-    "title": "グループ展参加アーティスト募集中 - Gallery and Links81",
-    "organization": "グループ展参加アーティスト募集中 - Gallery and Links81",
+    "key": "artconnect open calls::artconnect open calls",
+    "title": "ArtConnect Open Calls",
+    "organization": "ArtConnect Open Calls",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -2027,16 +2013,17 @@
     "response_received": false,
     "follow_up_date": "",
     "missing": [
+      "submission process",
       "deadline",
       "fees",
       "contact"
     ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
+    "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "【biscuit gallery】初の公募企画「grid next : emerging ...::【biscuit gallery】初の公募企画「grid next : emerging ...",
-    "title": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
-    "organization": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
+    "key": "curatorspace::curatorspace",
+    "title": "CuratorSpace",
+    "organization": "CuratorSpace",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -2045,16 +2032,17 @@
     "response_received": false,
     "follow_up_date": "",
     "missing": [
+      "submission process",
       "deadline",
       "fees",
       "contact"
     ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
+    "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "219公募展6募集 >> gallery219 ギャラリーニイク::219公募展6募集 >> gallery219 ギャラリーニイク",
-    "title": "219公募展6募集 >> Gallery219 ギャラリーニイク",
-    "organization": "219公募展6募集 >> Gallery219 ギャラリーニイク",
+    "key": "society of women artists::society of women artists",
+    "title": "Society of Women Artists",
+    "organization": "Society of Women Artists",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -2063,16 +2051,17 @@
     "response_received": false,
     "follow_up_date": "",
     "missing": [
+      "submission process",
       "deadline",
       "fees",
       "contact"
     ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
+    "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "公募プログラム - トーキョーアーツアンドスペース::公募プログラム - トーキョーアーツアンドスペース",
-    "title": "公募プログラム - トーキョーアーツアンドスペース",
-    "organization": "公募プログラム - トーキョーアーツアンドスペース",
+    "key": "royal watercolour society::royal watercolour society",
+    "title": "Royal Watercolour Society",
+    "organization": "Royal Watercolour Society",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -2081,70 +2070,17 @@
     "response_received": false,
     "follow_up_date": "",
     "missing": [
+      "submission process",
       "deadline",
       "fees",
       "contact"
     ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
+    "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "公募企画「grid next : 2025 - emerging artists showcase ...::公募企画「grid next : 2025 - emerging artists showcase ...",
-    "title": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
-    "organization": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
-    "key": "open calls for artists | exhibit worldwide::open calls for artists | exhibit worldwide",
-    "title": "Open Calls for Artists | Exhibit Worldwide",
-    "organization": "Open Calls for Artists | Exhibit Worldwide",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
-    "key": "open call | submit your work — explore art in the streets of tokyo at ...::open call | submit your work — explore art in the streets of tokyo at ...",
-    "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
-    "organization": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
-    "key": "asian cultural council fellowship::asian cultural council",
-    "title": "Asian Cultural Council Fellowship",
-    "organization": "Asian Cultural Council",
+    "key": "der greif::der greif",
+    "title": "DER GREIF",
+    "organization": "Der Greif",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -2183,7 +2119,7 @@
     "key": "photovogue::photovogue",
     "title": "PhotoVogue",
     "organization": "PhotoVogue",
-    "score": 7.3,
+    "score": 7.6,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -2199,10 +2135,10 @@
     "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "nadiff a/p/a/r/t::nadiff",
-    "title": "NADiff a/p/a/r/t",
-    "organization": "NADiff",
-    "score": 7.2,
+    "key": "reload shimokitazawa::reload",
+    "title": "reload Shimokitazawa",
+    "organization": "reload",
+    "score": 7.6,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -2215,138 +2151,10 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "the container::the container",
-    "title": "The Container",
-    "organization": "The Container",
-    "score": 7.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "comitia::comitia",
-    "title": "Comitia",
-    "organization": "COMITIA",
-    "score": 7.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "ait residency::arts initiative tokyo",
-    "title": "AIT Residency",
-    "organization": "Arts Initiative Tokyo",
-    "score": 7.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "aoyama farmers market::farmer's market @ unu",
-    "title": "Aoyama Farmers Market",
-    "organization": "Farmer's Market @ UNU",
-    "score": 7.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "cafe cross point::cafe cross point",
-    "title": "Cafe Cross Point",
-    "organization": "Cafe Cross Point",
-    "score": 7.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "tav gallery::tav gallery",
-    "title": "TAV Gallery",
-    "organization": "TAV Gallery",
-    "score": 7.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "gallery iro::gallery iro",
-    "title": "Gallery IRO",
-    "organization": "Gallery IRO",
-    "score": 7.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "gallery hana shimokitazawa::gallery hana shimokitazawa",
-    "title": "Gallery HANA Shimokitazawa",
-    "organization": "Gallery HANA Shimokitazawa",
-    "score": 7.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "der greif::der greif",
-    "title": "DER GREIF",
-    "organization": "Der Greif",
-    "score": 6.8,
+    "key": "asian cultural council fellowship::asian cultural council",
+    "title": "Asian Cultural Council Fellowship",
+    "organization": "Asian Cultural Council",
+    "score": 7.6,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -2360,6 +2168,150 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "handmade in japan fes::creema",
+    "title": "HandMade In Japan Fes",
+    "organization": "Creema",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "cafe mame-hico::cafe mame-hico",
+    "title": "Cafe Mame-Hico",
+    "organization": "Cafe Mame-Hico",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "yonchome cafe::yonchome cafe",
+    "title": "Yonchome Cafe",
+    "organization": "Yonchome Cafe",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "cafe gallery hattifnatt::hattifnatt",
+    "title": "Cafe Gallery HATTIFNATT",
+    "organization": "HATTIFNATT",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "design festa gallery::design festa gallery",
+    "title": "DESIGN FESTA GALLERY",
+    "organization": "Design Festa Gallery",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "scai the bathhouse::scai the bathhouse",
+    "title": "SCAI The Bathhouse",
+    "organization": "SCAI The Bathhouse",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "vacant::vacant",
+    "title": "VACANT",
+    "organization": "VACANT",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "zushi art gallery::zushi art gallery",
+    "title": "Zushi Art Gallery",
+    "organization": "Zushi Art Gallery",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "gallery conceal shibuya::gallery conceal shibuya",
+    "title": "Gallery Conceal Shibuya",
+    "organization": "Gallery Conceal Shibuya",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
   },
   {
     "key": "self publish, be happy::self publish, be happy",
@@ -2455,6 +2407,132 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "グループ展参加アーティスト募集中 - gallery and links81::グループ展参加アーティスト募集中 - gallery and links81",
+    "title": "グループ展参加アーティスト募集中 - Gallery and Links81",
+    "organization": "グループ展参加アーティスト募集中 - Gallery and Links81",
+    "score": 6.5,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "【biscuit gallery】初の公募企画「grid next : emerging ...::【biscuit gallery】初の公募企画「grid next : emerging ...",
+    "title": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
+    "organization": "【biscuit gallery】初の公募企画「grid next : Emerging ...",
+    "score": 6.5,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "219公募展6募集 >> gallery219 ギャラリーニイク::219公募展6募集 >> gallery219 ギャラリーニイク",
+    "title": "219公募展6募集 >> Gallery219 ギャラリーニイク",
+    "organization": "219公募展6募集 >> Gallery219 ギャラリーニイク",
+    "score": 6.5,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "公募プログラム - トーキョーアーツアンドスペース::公募プログラム - トーキョーアーツアンドスペース",
+    "title": "公募プログラム - トーキョーアーツアンドスペース",
+    "organization": "公募プログラム - トーキョーアーツアンドスペース",
+    "score": 6.5,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "公募企画「grid next : 2025 - emerging artists showcase ...::公募企画「grid next : 2025 - emerging artists showcase ...",
+    "title": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
+    "organization": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
+    "score": 6.5,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "open calls for artists | exhibit worldwide::open calls for artists | exhibit worldwide",
+    "title": "Open Calls for Artists | Exhibit Worldwide",
+    "organization": "Open Calls for Artists | Exhibit Worldwide",
+    "score": 6.5,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "open call | submit your work — explore art in the streets of tokyo at ...::open call | submit your work — explore art in the streets of tokyo at ...",
+    "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
+    "organization": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
+    "score": 6.5,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
     "key": "日記屋 月日::日記屋 月日",
@@ -2724,6 +2802,25 @@
     "recommended_action": "Research missing details: submission process, fees, contact."
   },
   {
+    "key": "communication arts illustration competition::communication arts illustration competition",
+    "title": "Communication Arts Illustration Competition",
+    "organization": "Communication Arts Illustration Competition",
+    "score": 6.5,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
     "key": "mall galleries open exhibitions::mall galleries open exhibitions",
     "title": "Mall Galleries Open Exhibitions",
     "organization": "Mall Galleries Open Exhibitions",
@@ -2746,25 +2843,6 @@
     "key": "pastel society open exhibition::pastel society open exhibition",
     "title": "Pastel Society Open Exhibition",
     "organization": "Pastel Society Open Exhibition",
-    "score": 6.5,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "communication arts illustration competition::communication arts illustration competition",
-    "title": "Communication Arts Illustration Competition",
-    "organization": "Communication Arts Illustration Competition",
     "score": 6.5,
     "priority": "high",
     "status": "new",
@@ -2859,6 +2937,24 @@
     "recommended_action": "Research missing details: source, submission process, deadline."
   },
   {
+    "key": "open call for digital works open call for artists. send us your digital work to show in ou::curatorspace",
+    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+    "organization": "CuratorSpace",
+    "score": 6.1,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
     "key": "loneliness books::loneliness books",
     "title": "loneliness books",
     "organization": "loneliness books",
@@ -2916,10 +3012,58 @@
     "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
+    "key": "nadiff a/p/a/r/t::nadiff",
+    "title": "NADiff a/p/a/r/t",
+    "organization": "NADiff",
+    "score": 6.5,
+    "priority": "medium",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "the container::the container",
+    "title": "The Container",
+    "organization": "The Container",
+    "score": 6.5,
+    "priority": "medium",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "post::post",
+    "title": "POST",
+    "organization": "POST",
+    "score": 6.5,
+    "priority": "medium",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
     "key": "raw tokyo::raw tokyo",
     "title": "RAW TOKYO",
     "organization": "RAW TOKYO",
-    "score": 6.7,
+    "score": 6.5,
     "priority": "medium",
     "status": "new",
     "saved": false,
@@ -2935,167 +3079,7 @@
     "key": "creative space hayashi::creative space hayashi",
     "title": "Creative Space Hayashi",
     "organization": "Creative Space Hayashi",
-    "score": 6.7,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "reload shimokitazawa::reload",
-    "title": "reload Shimokitazawa",
-    "organization": "reload",
-    "score": 6.2,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "handmade in japan fes::creema",
-    "title": "HandMade In Japan Fes",
-    "organization": "Creema",
-    "score": 6.2,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "cafe mame-hico::cafe mame-hico",
-    "title": "Cafe Mame-Hico",
-    "organization": "Cafe Mame-Hico",
-    "score": 6.2,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "yonchome cafe::yonchome cafe",
-    "title": "Yonchome Cafe",
-    "organization": "Yonchome Cafe",
-    "score": 6.2,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "cafe gallery hattifnatt::hattifnatt",
-    "title": "Cafe Gallery HATTIFNATT",
-    "organization": "HATTIFNATT",
-    "score": 6.2,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "design festa gallery::design festa gallery",
-    "title": "DESIGN FESTA GALLERY",
-    "organization": "Design Festa Gallery",
-    "score": 6.2,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "scai the bathhouse::scai the bathhouse",
-    "title": "SCAI The Bathhouse",
-    "organization": "SCAI The Bathhouse",
-    "score": 6.2,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "vacant::vacant",
-    "title": "VACANT",
-    "organization": "VACANT",
-    "score": 6.2,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "zushi art gallery::zushi art gallery",
-    "title": "Zushi Art Gallery",
-    "organization": "Zushi Art Gallery",
-    "score": 6.2,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "gallery conceal shibuya::gallery conceal shibuya",
-    "title": "Gallery Conceal Shibuya",
-    "organization": "Gallery Conceal Shibuya",
-    "score": 6.2,
+    "score": 6.5,
     "priority": "medium",
     "status": "new",
     "saved": false,
@@ -3111,7 +3095,7 @@
     "key": "picaresque gallery::picaresque gallery",
     "title": "Picaresque Gallery",
     "organization": "Picaresque Gallery",
-    "score": 4.1000000000000005,
+    "score": 3.7,
     "priority": "medium",
     "status": "new",
     "saved": false,
@@ -3127,7 +3111,7 @@
     "key": "spiral::spiral",
     "title": "Spiral",
     "organization": "Spiral",
-    "score": 3.6000000000000005,
+    "score": 3.2,
     "priority": "medium",
     "status": "new",
     "saved": false,

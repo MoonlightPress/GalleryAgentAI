@@ -28,7 +28,7 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 Tokyo independent art bookstore with gallery space focused on zines and artist books—low-pressure venue where your work could exist as printed matter alongside exhibition.
 
 ## 5. Existing Fit Notes
-This sidesteps your strategic risk entirely—bookstore galleries celebrate illustrative work, your technical skill would shine in print format, and there's no pressure to perform conceptually or network aggressively.
+This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 
 ## 6. Key Points
 - Perfect fit for work that bridges illustration and fine art without needing heavy conceptual framing

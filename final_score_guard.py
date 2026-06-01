@@ -14,22 +14,36 @@ def load_json(path, fallback):
     return fallback
 
 
+JUNK_VALUES = {"unknown", "n/a", "none", "null", "not publicly listed", "unverified", ""}
+
+
+def is_real(value):
+    return bool(value) and str(value).strip().lower() not in JUNK_VALUES
+
+
+def has_distinct_submission_page(opp):
+    sub = (opp.get("submission_page") or "").strip().rstrip("/")
+    src = (opp.get("source_url") or "").strip().rstrip("/")
+    official = (opp.get("official_website") or "").strip().rstrip("/")
+    return is_real(sub) and sub != src and sub != official
+
+
 def verification_points(opp):
     points = 0
 
     if opp.get("url_verification_status") == "ok":
         points += 2
 
-    if opp.get("submission_page"):
+    if has_distinct_submission_page(opp):
         points += 2
 
-    if opp.get("deadline"):
+    if is_real(opp.get("deadline")):
         points += 1
 
-    if opp.get("fees"):
+    if is_real(opp.get("fees")):
         points += 1
 
-    if opp.get("contact") or opp.get("email") or opp.get("contact_url") or opp.get("contact_email"):
+    if is_real(opp.get("contact") or opp.get("email") or opp.get("contact_url") or opp.get("contact_email")):
         points += 1
 
     return points

@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
+This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 
 Draft Structure:
 

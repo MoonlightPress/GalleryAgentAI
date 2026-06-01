@@ -7,7 +7,7 @@ Architecture / Memory / Place
 Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
 
 ## Opportunity Fit
-TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than illustrator.
+TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.
 
 ## Match Signals
 architecture, urban

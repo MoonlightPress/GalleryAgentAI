@@ -100,8 +100,8 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
           "zine",
           "artist book",
@@ -110,43 +110,33 @@
         "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "title": "UTRECHT",
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
-          "zine"
+          "zine",
+          "artist book",
+          "printed matter"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
       },
       {
         "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
           "zine"
         ],
         "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
       },
       {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.24,
+        "title": "MOUNT ZINE",
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
-          "zine",
-          "artist book",
-          "printed matter"
+          "zine"
         ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
-        "title": "Fukuoka Art Book Fair",
-        "score": 8.8,
-        "differentiated_score": 10.54,
-        "hits": [
-          "zine",
-          "book fair"
-        ],
-        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
       },
       {
         "title": "Submissions — Clavis Publishing",
@@ -158,6 +148,16 @@
         "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
       },
       {
+        "title": "Fukuoka Art Book Fair",
+        "score": 8.6,
+        "differentiated_score": 10.34,
+        "hits": [
+          "zine",
+          "book fair"
+        ],
+        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+      },
+      {
         "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
         "score": 8.6,
         "differentiated_score": 10.22,
@@ -167,14 +167,15 @@
         "why": "Possible fit based on link text: zine, open call"
       },
       {
-        "title": "Browse opportunities | CuratorSpace",
+        "title": "Aperture | Photography",
         "score": 8.6,
         "differentiated_score": 10.13,
         "hits": [
+          "photobook",
           "zine",
-          "place"
+          "artist book"
         ],
-        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       }
     ]
   },
@@ -223,8 +224,8 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
           "documentary",
           "artist book"
@@ -233,21 +234,21 @@
       },
       {
         "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.24,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
           "artist book"
         ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
       },
       {
-        "title": "BankART1929",
-        "score": 9.4,
-        "differentiated_score": 10.26,
+        "title": "Aperture | Photography",
+        "score": 8.6,
+        "differentiated_score": 10.13,
         "hits": [
-          "architecture"
+          "artist book"
         ],
-        "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally."
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
         "title": "Offprint",
@@ -286,13 +287,13 @@
         "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
       },
       {
-        "title": "Aperture | Photography",
-        "score": 8.1,
-        "differentiated_score": 9.63,
+        "title": "Printed Matter Art Book Fairs",
+        "score": 8.0,
+        "differentiated_score": 9.47,
         "hits": [
           "artist book"
         ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+        "why": "Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target."
       }
     ]
   },
@@ -353,8 +354,8 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
           "zine",
           "book fair",
@@ -363,18 +364,20 @@
         "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "title": "UTRECHT",
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
-          "zine"
+          "zine",
+          "bookstore",
+          "artist book"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
       },
       {
         "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
           "zine",
           "bookstore"
@@ -382,43 +385,22 @@
         "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
       },
       {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.24,
-        "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate painterly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
         "title": "flotsam books",
-        "score": 9.2,
-        "differentiated_score": 11.19,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
           "bookstore"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
-        "title": "Book and Sons",
-        "score": 9.4,
-        "differentiated_score": 10.55,
+        "title": "MOUNT ZINE",
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
-          "bookstore"
+          "zine"
         ],
-        "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility."
-      },
-      {
-        "title": "Fukuoka Art Book Fair",
-        "score": 8.8,
-        "differentiated_score": 10.54,
-        "hits": [
-          "zine",
-          "book fair"
-        ],
-        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest"
       },
       {
         "title": "Submissions — Clavis Publishing",
@@ -428,6 +410,25 @@
           "small press"
         ],
         "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+      },
+      {
+        "title": "Fukuoka Art Book Fair",
+        "score": 8.6,
+        "differentiated_score": 10.34,
+        "hits": [
+          "zine",
+          "book fair"
+        ],
+        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
+      },
+      {
+        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+        "score": 8.6,
+        "differentiated_score": 10.22,
+        "hits": [
+          "zine"
+        ],
+        "why": "Possible fit based on link text: zine, open call"
       }
     ]
   },
@@ -494,21 +495,12 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
           "documentary"
         ],
         "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
-      },
-      {
-        "title": "BankART1929",
-        "score": 9.4,
-        "differentiated_score": 10.26,
-        "hits": [
-          "architecture"
-        ],
-        "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally."
       },
       {
         "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -518,6 +510,15 @@
           "open call"
         ],
         "why": "Possible fit based on link text: zine, open call"
+      },
+      {
+        "title": "Aperture | Photography",
+        "score": 8.6,
+        "differentiated_score": 10.13,
+        "hits": [
+          "photography"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
         "title": "Browse opportunities | CuratorSpace",
@@ -538,31 +539,31 @@
         "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition"
       },
       {
-        "title": "Aperture | Photography",
-        "score": 8.1,
-        "differentiated_score": 9.63,
+        "title": "BankART1929",
+        "score": 8.6,
+        "differentiated_score": 9.46,
         "hits": [
-          "photography"
+          "architecture"
         ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+        "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally."
+      },
+      {
+        "title": "Home - Printed Matter",
+        "score": 8.0,
+        "differentiated_score": 9.4,
+        "hits": [
+          "architecture"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture"
       },
       {
         "title": "Open Call for the International Creator Residency Program 2026",
-        "score": 8.8,
-        "differentiated_score": 9.4,
+        "score": 8.6,
+        "differentiated_score": 9.2,
         "hits": [
           "open call"
         ],
         "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
-      },
-      {
-        "title": "Jinny Street Gallery Open Call",
-        "score": 8.8,
-        "differentiated_score": 9.4,
-        "hits": [
-          "open call"
-        ],
-        "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application."
       }
     ]
   }

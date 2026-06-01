@@ -1,45 +1,41 @@
 # Pipeline Debug Summary
 
-- opportunities: 176
-- candidates: 151
-- approved_candidates: 6
-- rejected_candidates: 145
+- opportunities: 175
+- candidates: 118
+- approved_candidates: 4
+- rejected_candidates: 114
 - strategy_feed: 7
-- fit_audit: 176
+- fit_audit: 175
 
 ## Top 15 Opportunities
 
-- Tokyo Art Book Fair — 9.4/10 — partial — ok — 
-- MOUNT ZINE — 9.4/10 — partial — ok — 
-- B&B Shimokitazawa — 9.4/10 — partial — ok — 
-- UTRECHT — 9.4/10 — partial — ok — 
-- flotsam books — 9.2/10 — partial — ok — 
-- Book and Sons — 9.4/10 — partial — ok — 
-- Fukuoka Art Book Fair — 8.8/10 — partial — ok — 
-- Submissions — Clavis Publishing — 8.6/10 — partial — ok — 
-- BankART1929 — 9.4/10 — partial — ok — 
-- AIR 3331 — 9.4/10 — partial — ok — 
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 8.6/10 — partial — ok — 
-- Youkobo Art Space — 9.2/10 — partial — ok — 
+- Tokyo Art Book Fair — 8.6/10 — partial — ok — 
+- UTRECHT — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- B&B Shimokitazawa — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- flotsam books — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- MOUNT ZINE — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- Submissions — Clavis Publishing — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- Fukuoka Art Book Fair — 8.2/10 — partial — ok — Capped at 8.2 due to verification strength.
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- Aperture | Photography — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 - Browse opportunities | CuratorSpace — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- BONUS TRACK — 9.4/10 — partial — ok — 
-- Koganecho Area Management Center — 9.4/10 — partial — ok — 
+- » 21 Terrific Small Presses Open to Direct Submissions — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- SUBMISSIONS - marblepress.com — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide] — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- Publishers & Publishing Services in Japan - PublishersGlobal.com — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- Submissions - Little Press Publishing — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
 
 ## Approved Candidate Sample
 
-- Home - Printed Matter — 8.5 — approved — strong: book fair, photobook, zine, printed matter, weak: book, photography, exhibition
-- Browse opportunities | CuratorSpace — 7.2 — approved — strong: open call, submission, weak: exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: open call, residency, submission, zine, weak: artist, exhibition
-- PhotoVogue — 6.3 — approved — strong: open call, submission, weak: exhibition
-- Aperture | Photography — 6.3 — approved — strong: photobook, zine, weak: book, photography, exhibition
-- DER GREIF — 5.85 — approved — strong: portfolio review, open call, weak: photography
+- Home - Printed Matter — 8.5 — approved — strong: photobook, book fair, printed matter, zine, weak: exhibition, book
+- Browse opportunities | CuratorSpace — 7.2 — approved — strong: submission, open call, weak: exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: submission, residency, zine, open call, weak: exhibition, artist
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — 4.7 — approved — strong: open call, call for, weak: artist, has submission link
 
 ## Rejected Candidate Sample
 
 - Royal Watercolour Society — 6.3 — rejected — generic page without opportunity language
 - Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 1 — 6.1 — rejected — generic page without opportunity language
-- LensCulture - Contemporary Photography — 5.85 — rejected — strong: zine, weak: photography, exhibition, score too low: 4
-- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — 5.4 — rejected — strong: printed matter, weak: photography, gallery, exhibition, score too low: 3
 - Exhibitions — 5.4 — rejected — junk title: exhibitions
 - RWS GALLERY AT WHITCOMB STREET Open Tuesday - Saturday, 11am - 5pm — 5.4 — rejected — generic page without opportunity language
 - Exhibitions Royal Watercolour Society at the RWS Gallery Final days to visit 10 April - 31 — 5.4 — rejected — generic page without opportunity language
@@ -56,3 +52,5 @@
 - DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — 4.95 — rejected — generic page without opportunity language
 - Exhibitions — 4.7 — rejected — junk title: exhibitions
 - Requests to List Exhibitions and Events — 4.7 — rejected — generic page without opportunity language
+- Printed Matter, Inc. — 4.7 — rejected — strong: printed matter, zine, score too low: 2
+- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — 4.7 — rejected — strong: printed matter, zine, score too low: 2

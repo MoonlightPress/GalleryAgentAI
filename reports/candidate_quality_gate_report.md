@@ -1,14 +1,12 @@
 # Candidate Quality Gate Report
 
-Approved: 6
-Rejected: 145
+Approved: 4
+Rejected: 114
 
 ## Rejected
 
 - Royal Watercolour Society — generic page without opportunity language
 - Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 1 — generic page without opportunity language
-- LensCulture - Contemporary Photography — strong: zine, weak: photography, exhibition, score too low: 4
-- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: photography, gallery, exhibition, score too low: 3
 - Exhibitions — junk title: exhibitions
 - RWS GALLERY AT WHITCOMB STREET Open Tuesday - Saturday, 11am - 5pm — generic page without opportunity language
 - Exhibitions Royal Watercolour Society at the RWS Gallery Final days to visit 10 April - 31 — generic page without opportunity language
@@ -25,40 +23,11 @@ Rejected: 145
 - DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
-- Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
-- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — strong: zine, printed matter, score too low: 2
+- Printed Matter, Inc. — strong: printed matter, zine, score too low: 2
+- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — strong: printed matter, zine, score too low: 2
+- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: exhibition, photography, gallery, score too low: 3
 - See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
-- exhibitions — junk title: exhibitions
-- X — bad/missing title
-- Pinterest — junk title: pinterest
-- Instagram — junk title: instagram
-- Tiktok — junk title: tiktok
-- Submission Amendment — junk title: submission amendment
-- Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today × — strong: deadline, award, weak: photography, score too low: 3
-- Learn — junk title: learn
-- Exhibitions — junk title: exhibitions
-- Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid pho — strong: award, weak: photography, score too low: 1
-- Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography c — generic page without opportunity language
-- Open Calls — strong: open call, has submission link, score too low: 3
-- www.facebook.com — junk title contains: facebook
-- Continue Reading — junk title: continue reading
-- www.futures-photography.com — generic page without opportunity language
-- Magazine Subscribers — junk title: magazine subscribers
-- Magazine Subscription — junk title: magazine subscription
-- Photobooks — strong: photobook, weak: book, score too low: 1
-- Aperture Magazine — strong: zine, score too low: 0
-- Current Issue — strong: zine, score too low: 0
-- All Issues — strong: zine, score too low: 0
-- Aperture Magazine — strong: zine, score too low: 0
-- Exhibitions — junk title: exhibitions
-- Current — generic page without opportunity language
-- Upcoming — generic page without opportunity language
-- Past — generic page without opportunity language
-- Aperture PhotoBook Club — strong: photobook, weak: book, score too low: 1
-- PhotoBook Awards — strong: photobook, award, weak: book, score too low: 3
-- All Issues — strong: zine, score too low: 0
-- aperture.org — strong: photobook, weak: book, score too low: 1
 - Skip to main content — generic page without opportunity language
 - Menu — generic page without opportunity language
 - Artists — generic page without opportunity language
@@ -118,10 +87,10 @@ Rejected: 145
 - View Detail Page — generic page without opportunity language
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
-- Magazine — strong: open call, zine, score too low: 2
-- Residency — strong: open call, residency, score too low: 2
-- bipoc artist residency program — strong: open call, residency, weak: artist, score too low: 3
-- call for proposals for solo exhibitions — strong: open call, call for, weak: gallery, exhibition, score too low: 4
+- Magazine — strong: zine, open call, score too low: 2
+- Residency — strong: residency, open call, score too low: 2
+- bipoc artist residency program — strong: residency, open call, weak: artist, score too low: 3
+- call for proposals for solo exhibitions — strong: open call, call for, weak: exhibition, gallery, score too low: 4
 - Open Call — strong: open call, has submission link, score too low: 3
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
@@ -153,9 +122,7 @@ Rejected: 145
 
 ## Approved
 
-- Home - Printed Matter — strong: book fair, photobook, zine, printed matter, weak: book, photography, exhibition
-- Browse opportunities | CuratorSpace — strong: open call, submission, weak: exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, residency, submission, zine, weak: artist, exhibition
-- PhotoVogue — strong: open call, submission, weak: exhibition
-- Aperture | Photography — strong: photobook, zine, weak: book, photography, exhibition
-- DER GREIF — strong: portfolio review, open call, weak: photography
+- Home - Printed Matter — strong: photobook, book fair, printed matter, zine, weak: exhibition, book
+- Browse opportunities | CuratorSpace — strong: submission, open call, weak: exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, residency, zine, open call, weak: exhibition, artist
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — strong: open call, call for, weak: artist, has submission link

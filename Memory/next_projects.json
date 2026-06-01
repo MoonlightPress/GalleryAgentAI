@@ -31,8 +31,8 @@
     "best_opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "zine",
@@ -43,21 +43,21 @@
         "source": "https://tokyoartbookfair.com/"
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "title": "UTRECHT",
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "zine",
           "artist book"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
-        "source": "https://zine.mount.co.jp/"
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+        "source": "https://utrecht.jp/"
       },
       {
         "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "zine",
@@ -67,21 +67,9 @@
         "source": "https://bookandbeer.com/"
       },
       {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.24,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographerly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
-        "source": "https://utrecht.jp/"
-      },
-      {
         "title": "flotsam books",
-        "score": 9.2,
-        "differentiated_score": 11.19,
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "zine",
@@ -91,20 +79,33 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "Book and Sons",
-        "score": 9.4,
-        "differentiated_score": 10.55,
+        "title": "MOUNT ZINE",
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
-          "zine"
+          "zine",
+          "artist book"
         ],
-        "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
-        "source": "https://bookandsons.com/"
+        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+        "source": "https://zine.mount.co.jp/"
+      },
+      {
+        "title": "Submissions — Clavis Publishing",
+        "score": 7.6,
+        "differentiated_score": 10.38,
+        "verification": "partial",
+        "hits": [
+          "artist book",
+          "small press"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+        "source": "https://www.clavis-publishing.com/submit"
       },
       {
         "title": "Fukuoka Art Book Fair",
-        "score": 8.8,
-        "differentiated_score": 10.54,
+        "score": 8.2,
+        "differentiated_score": 10.34,
         "verification": "partial",
         "hits": [
           "zine",
@@ -115,16 +116,16 @@
         "source": "https://fukuokaartbookfair.com/application/"
       },
       {
-        "title": "Submissions — Clavis Publishing",
-        "score": 8.6,
-        "differentiated_score": 10.38,
+        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+        "score": 7.6,
+        "differentiated_score": 10.22,
         "verification": "partial",
         "hits": [
-          "artist book",
-          "small press"
+          "zine",
+          "artist book"
         ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-        "source": "https://www.clavis-publishing.com/submit"
+        "why": "Possible fit based on link text: zine, open call",
+        "source": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198"
       }
     ],
     "best_publisher_targets": [
@@ -240,8 +241,8 @@
     "best_opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "documentary",
@@ -251,20 +252,20 @@
         "source": "https://tokyoartbookfair.com/"
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "title": "UTRECHT",
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "artist book"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
-        "source": "https://zine.mount.co.jp/"
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+        "source": "https://utrecht.jp/"
       },
       {
         "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "artist book"
@@ -273,20 +274,9 @@
         "source": "https://bookandbeer.com/"
       },
       {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.24,
-        "verification": "partial",
-        "hits": [
-          "artist book"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographerly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
-        "source": "https://utrecht.jp/"
-      },
-      {
         "title": "flotsam books",
-        "score": 9.2,
-        "differentiated_score": 11.19,
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "artist book"
@@ -295,19 +285,19 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "Fukuoka Art Book Fair",
-        "score": 8.8,
-        "differentiated_score": 10.54,
+        "title": "MOUNT ZINE",
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "artist book"
         ],
-        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-        "source": "https://fukuokaartbookfair.com/application/"
+        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+        "source": "https://zine.mount.co.jp/"
       },
       {
         "title": "Submissions — Clavis Publishing",
-        "score": 8.6,
+        "score": 7.6,
         "differentiated_score": 10.38,
         "verification": "partial",
         "hits": [
@@ -317,16 +307,26 @@
         "source": "https://www.clavis-publishing.com/submit"
       },
       {
-        "title": "BankART1929",
-        "score": 9.4,
-        "differentiated_score": 10.26,
+        "title": "Fukuoka Art Book Fair",
+        "score": 8.2,
+        "differentiated_score": 10.34,
         "verification": "partial",
         "hits": [
-          "memory",
-          "architecture"
+          "artist book"
         ],
-        "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.",
-        "source": "https://bankart1929.com/"
+        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+        "source": "https://fukuokaartbookfair.com/application/"
+      },
+      {
+        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+        "score": 7.6,
+        "differentiated_score": 10.22,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Possible fit based on link text: zine, open call",
+        "source": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198"
       }
     ],
     "best_publisher_targets": [
@@ -394,8 +394,8 @@
     "best_opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "zine",
@@ -407,22 +407,22 @@
         "source": "https://tokyoartbookfair.com/"
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "title": "UTRECHT",
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "zine",
           "bookstore",
           "artist book"
         ],
-        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
-        "source": "https://zine.mount.co.jp/"
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+        "source": "https://utrecht.jp/"
       },
       {
         "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "zine",
@@ -433,22 +433,9 @@
         "source": "https://bookandbeer.com/"
       },
       {
-        "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.24,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate photographerly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
-        "source": "https://utrecht.jp/"
-      },
-      {
         "title": "flotsam books",
-        "score": 9.2,
-        "differentiated_score": 11.19,
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "zine",
@@ -459,21 +446,34 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "Book and Sons",
-        "score": 9.4,
-        "differentiated_score": 10.55,
+        "title": "MOUNT ZINE",
+        "score": 7.6,
+        "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
           "zine",
-          "bookstore"
+          "bookstore",
+          "artist book"
         ],
-        "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
-        "source": "https://bookandsons.com/"
+        "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+        "source": "https://zine.mount.co.jp/"
+      },
+      {
+        "title": "Submissions — Clavis Publishing",
+        "score": 7.6,
+        "differentiated_score": 10.38,
+        "verification": "partial",
+        "hits": [
+          "small press",
+          "artist book"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+        "source": "https://www.clavis-publishing.com/submit"
       },
       {
         "title": "Fukuoka Art Book Fair",
-        "score": 8.8,
-        "differentiated_score": 10.54,
+        "score": 8.2,
+        "differentiated_score": 10.34,
         "verification": "partial",
         "hits": [
           "zine",
@@ -484,16 +484,17 @@
         "source": "https://fukuokaartbookfair.com/application/"
       },
       {
-        "title": "Submissions — Clavis Publishing",
-        "score": 8.6,
-        "differentiated_score": 10.38,
+        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+        "score": 7.6,
+        "differentiated_score": 10.22,
         "verification": "partial",
         "hits": [
-          "small press",
+          "zine",
+          "bookstore",
           "artist book"
         ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-        "source": "https://www.clavis-publishing.com/submit"
+        "why": "Possible fit based on link text: zine, open call",
+        "source": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198"
       }
     ],
     "best_publisher_targets": [

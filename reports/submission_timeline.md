@@ -4,26 +4,26 @@ Suggested strategic pacing for outreach and applications.
 
 ## Immediate Targets
 
-- Tokyo Art Book Fair (9.4/10)
-- MOUNT ZINE (9.4/10)
-- B&B Shimokitazawa (9.4/10)
-- UTRECHT (9.4/10)
-- Book and Sons (9.4/10)
-- BankART1929 (9.4/10)
-- AIR 3331 (9.4/10)
-- BONUS TRACK (9.4/10)
-- Koganecho Area Management Center (9.4/10)
-- 3331 Arts Chiyoda (9.4/10)
-- flotsam books (9.2/10)
-- Youkobo Art Space (9.2/10)
-- Tokyo Arts and Space (9.2/10)
-- Fukuoka Art Book Fair (8.8/10)
-- POST (8.8/10)
-- 出展お申込み (8.8/10)
-- Applications — Little Tokyo Zine Fest (8.8/10)
-- Clone of Japan Fair 2025 - Exhibitor Application Form (8.8/10)
-- PDF International Creator Residency Program 2026 Application Outline (8.8/10)
-- 2026年度 リサーチ・レジデンス・プログラム (8.8/10)
+- Tokyo Art Book Fair (8.6/10)
+- UTRECHT (8.6/10)
+- B&B Shimokitazawa (8.6/10)
+- flotsam books (8.6/10)
+- MOUNT ZINE (8.6/10)
+- Submissions — Clavis Publishing (8.6/10)
+- Fukuoka Art Book Fair (8.6/10)
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin (8.6/10)
+- Aperture | Photography (8.6/10)
+- Browse opportunities | CuratorSpace (8.6/10)
+- » 21 Terrific Small Presses Open to Direct Submissions (8.6/10)
+- SUBMISSIONS - marblepress.com (8.6/10)
+- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide] (8.6/10)
+- Publishers & Publishing Services in Japan - PublishersGlobal.com (8.6/10)
+- Submissions - Little Press Publishing (8.6/10)
+- 3 Top Book Publishers in Tokyo in 2026 (8.6/10)
+- submissions — porkbelly press (8.6/10)
+- 3 Top Book Publishers in Japan in 2026 (8.6/10)
+- Become an Author - Tuttle Publishing (8.6/10)
+- Japan Book Publishers Association - JBPA (8.6/10)
 
 ## Build Toward
 
@@ -33,8 +33,6 @@ Suggested strategic pacing for outreach and applications.
 - Aesthetica Art Prize (8.6/10)
 - American Watercolor Society Annual International Exhibition (8.6/10)
 - Cité Internationale des Arts Artist Residency (8.6/10)
-- Self Publish, Be Happy (8.0/10)
-- Printed Matter Art Book Fairs (8.0/10)
 
 ## Longer-Term / Experimental
 

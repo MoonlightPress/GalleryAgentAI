@@ -538,1049 +538,13 @@
     "source_url": "https://selfpublishbehappy.com/",
     "final_url": "https://selfpublishbehappy.com/",
     "status_code": 0,
-    "source_type": "photobook",
+    "source_type": "artist_book",
     "region": "Global",
     "priority": "high",
     "title": "",
     "text": "",
     "links": [],
     "error": "FETCH_ERROR: HTTPSConnectionPool(host='selfpublishbehappy.com', port=443): Read timed out. (read timeout=14)"
-  },
-  {
-    "source_name": "PhotoVogue",
-    "source_url": "https://www.vogue.com/photovogue",
-    "final_url": "https://www.vogue.com/photovogue",
-    "status_code": 200,
-    "source_type": "photo_feature",
-    "region": "Global",
-    "priority": "medium",
-    "title": "PhotoVogue",
-    "text": "PhotoVogue Skip to main content About Photos Photographers Editorial festival exhibitions Open Navigation Menu Menu PhotoVogue Connecting artists, community and commerce through Condé Nast's global creative networks, we champion talent and influence visual literacy to help foster a more just, ethical and inclusive world. PIC OF THE DAY SEE ALL PICS OF THE DAY Best of Photovogue Best of PhotoVogue By Eeshandeep Hazarika May 19, 2025 Best of PhotoVogue By Juanito García Can May 19, 2025 Best of PhotoVogue By Chiron Duong May 19, 2025 Best of PhotoVogue By Chiron Duong May 19, 2025 Best of PhotoVogue By Vincent Zhou May 19, 2025 Best of PhotoVogue By Chiron Duong May 19, 2025 Best of PhotoVogue By Vincent Zhou May 19, 2025 Pic of the Day By Julia Fullerton-Batten May 19, 2025 See All Best Of We’re excited to open up contributions to video, illustration and digital art in the near future Spotlight Photographers aart verrips Spotlight Johannesburg, South Africa 101 Photos By aart verrips Abhishek Khedekar Spotlight New Delhi, India 4 Photos By Abhishek Khedekar Adeolu Osibodu Spotlight London, United Kingdom 109 Photos By Adeolu Osibodu Aki Sinikoski Spotlight Helsinki, Finland 12 Photos By Aki Sinikoski Alana Celii Spotlight Brooklyn, United States of America 19 Photos By Alana Celii alec iatan Spotlight Madrid, Spain 10 Photos By alec iatan See All Photographers news News MENA Panorama: A Regional Open Call by PhotoVogue May 21, 2026 News Photo London 2026: A New Chapter at Olympia May 14, 2026 News Brave New Visions: Creativity as Rebellion. A Global Open Call by PhotoVogue May 14, 2026 News Discover the 6 photographers of the 10th Season of Google Creator Labs May 14, 2026 See All News Photovogue by the numbers Photos 873,071 Photos selected by the editors Photographers 411,044 Participating photographers Nationalities 250 Countries represented A global platform for the new voices that will shape our future Facebook X Pinterest Instagram Tiktok More from Vogue Newsletter Manage Account Verify Subscription Contact us FAQ About Vogue How We Test Careers Projects Vogue Archive Forces of Fashion Vogue College of Fashion Subscribe Photovogue About Photos Photographers Editorial Featured Festival My Profile Submission Amendment User Agreement Privacy Policy Your California Privacy Rights Accessibility Help Masthead Visual Stories Site Map © 2026 Condé Nast. All rights reserved. Vogue may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast. Ad Choices CN Fashion & Beauty Select international site United States LargeChevron Adria Arabia Australia Brasil Britain China Czechoslovakia España France Germany Greece Hong Kong India Italia Japan Korea México Nederland Philippines Polska Portugal Scandinavia Singapore Taiwan Thailand Türkiye Ukraine",
-    "links": [
-      {
-        "label": "Skip to main content",
-        "url": "https://www.vogue.com/photovogue#main-content"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue"
-      },
-      {
-        "label": "About",
-        "url": "https://www.vogue.com/photovogue/about"
-      },
-      {
-        "label": "Photos",
-        "url": "https://www.vogue.com/photovogue/photos"
-      },
-      {
-        "label": "Photographers",
-        "url": "https://www.vogue.com/photovogue/photographers"
-      },
-      {
-        "label": "Editorial",
-        "url": "https://www.vogue.com/photovogue/editorial"
-      },
-      {
-        "label": "festival",
-        "url": "https://www.vogue.com/photovogue/festival"
-      },
-      {
-        "label": "exhibitions",
-        "url": "https://www.vogue.com/photovogue/exhibitions"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photos/gallery#5646742"
-      },
-      {
-        "label": "Best of PhotoVogue",
-        "url": "https://www.vogue.com/photovogue/photos/best"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photos/gallery#5646637"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photos/gallery#5646401"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photos/gallery#5646378"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photos/gallery#5646371"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photos/gallery#5646368"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photos/gallery#5646240"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photos/gallery#5646024"
-      },
-      {
-        "label": "Pic of the Day",
-        "url": "https://www.vogue.com/photovogue/photos/pic-of-the-day"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photographers/298535"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photographers/283507"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photographers/177981"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photographers/268044"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photographers/283194"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/photovogue/photographers/154466"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/article/mena-panorama-a-regional-open-call-by-photovogue"
-      },
-      {
-        "label": "News",
-        "url": "https://www.vogue.com/photos?count=8&isArchive=true&locale=en-us&order_by=DESC&page=0&type_ids=2"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/article/photo-london-2026-starts-today-a-new-chapter-at-olympia"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/article/brave-new-visions-creativity-as-rebellion-a-global-open-call-by-photovogue"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/article/discover-the-6-photographers-of-the-10th-season-of-google-creator-labs"
-      },
-      {
-        "label": "",
-        "url": "https://www.vogue.com/"
-      },
-      {
-        "label": "Facebook",
-        "url": "https://www.facebook.com/vogue"
-      },
-      {
-        "label": "X",
-        "url": "https://twitter.com/voguemagazine"
-      },
-      {
-        "label": "Pinterest",
-        "url": "https://pinterest.com/voguemagazine/"
-      },
-      {
-        "label": "Instagram",
-        "url": "https://www.instagram.com/voguemagazine/"
-      },
-      {
-        "label": "Tiktok",
-        "url": "https://www.tiktok.com/@voguemagazine?lang=en"
-      },
-      {
-        "label": "Newsletter",
-        "url": "https://www.vogue.com/newsletter"
-      },
-      {
-        "label": "Manage Account",
-        "url": "https://www.vogue.com/account/profile"
-      },
-      {
-        "label": "Verify Subscription",
-        "url": "https://www.vogue.com/auth/initiate?redirectURL=https://www.vogue.com/account/link"
-      },
-      {
-        "label": "Contact us",
-        "url": "https://www.vogue.com/contact"
-      },
-      {
-        "label": "FAQ",
-        "url": "https://www.vogue.com/about/faq"
-      },
-      {
-        "label": "About Vogue",
-        "url": "https://www.vogue.com/about-us"
-      },
-      {
-        "label": "How We Test",
-        "url": "https://www.vogue.com/info/how-we-test"
-      },
-      {
-        "label": "Careers",
-        "url": "https://www.condenast.com/careers"
-      },
-      {
-        "label": "Projects",
-        "url": "https://www.vogue.com/tag/misc/special-projects"
-      },
-      {
-        "label": "Vogue Archive",
-        "url": "https://archive.vogue.com"
-      },
-      {
-        "label": "Forces of Fashion",
-        "url": "https://www.vogueforcesoffashion.com/"
-      },
-      {
-        "label": "Vogue College of Fashion",
-        "url": "https://www.voguecollege.com/"
-      },
-      {
-        "label": "Subscribe",
-        "url": "https://www.vogue.com/subscribe"
-      },
-      {
-        "label": "Featured",
-        "url": "https://www.vogue.com/photovogue/featured"
-      },
-      {
-        "label": "My Profile",
-        "url": "https://photovogue.vogue.com"
-      },
-      {
-        "label": "Submission Amendment",
-        "url": "https://www.vogue.com/photovogue/submission-amendment"
-      },
-      {
-        "label": "User Agreement",
-        "url": "https://www.condenast.com/user-agreement/"
-      },
-      {
-        "label": "Privacy Policy",
-        "url": "http://www.condenast.com/privacy-policy#privacypolicy"
-      },
-      {
-        "label": "Your California Privacy Rights",
-        "url": "http://www.condenast.com/privacy-policy#privacypolicy-california"
-      },
-      {
-        "label": "Accessibility Help",
-        "url": "https://www.vogue.com/accessibility-help"
-      },
-      {
-        "label": "Masthead",
-        "url": "https://www.vogue.com/masthead"
-      },
-      {
-        "label": "Visual Stories",
-        "url": "https://www.vogue.com/tag/misc/visual-stories"
-      },
-      {
-        "label": "Site Map",
-        "url": "https://www.vogue.com/sitemap"
-      },
-      {
-        "label": "Ad Choices",
-        "url": "http://www.aboutads.info"
-      },
-      {
-        "label": "Adria",
-        "url": "https://vogueadria.com/"
-      },
-      {
-        "label": "Arabia",
-        "url": "https://en.vogue.me/"
-      },
-      {
-        "label": "Australia",
-        "url": "https://www.vogue.com.au/"
-      },
-      {
-        "label": "Brasil",
-        "url": "https://vogue.globo.com/"
-      },
-      {
-        "label": "Britain",
-        "url": "https://www.vogue.co.uk/"
-      },
-      {
-        "label": "China",
-        "url": "https://www.vogue.com.cn/"
-      },
-      {
-        "label": "Czechoslovakia",
-        "url": "https://www.vogue.cz/"
-      },
-      {
-        "label": "España",
-        "url": "https://www.vogue.es/"
-      },
-      {
-        "label": "France",
-        "url": "https://www.vogue.fr/"
-      },
-      {
-        "label": "Germany",
-        "url": "https://www.vogue.de/"
-      },
-      {
-        "label": "Greece",
-        "url": "https://vogue.gr/"
-      },
-      {
-        "label": "Hong Kong",
-        "url": "https://www.voguehk.com/zh/"
-      },
-      {
-        "label": "India",
-        "url": "https://www.vogue.in/"
-      },
-      {
-        "label": "Italia",
-        "url": "https://www.vogue.it/"
-      },
-      {
-        "label": "Japan",
-        "url": "https://www.vogue.co.jp/"
-      },
-      {
-        "label": "Korea",
-        "url": "https://www.vogue.co.kr/"
-      },
-      {
-        "label": "México",
-        "url": "https://www.vogue.mx/"
-      },
-      {
-        "label": "Nederland",
-        "url": "https://www.vogue.nl/"
-      },
-      {
-        "label": "Philippines",
-        "url": "https://vogue.ph/"
-      },
-      {
-        "label": "Polska",
-        "url": "https://www.vogue.pl/"
-      },
-      {
-        "label": "Portugal",
-        "url": "https://www.vogue.pt/"
-      }
-    ],
-    "error": ""
-  },
-  {
-    "source_name": "LensCulture",
-    "source_url": "https://www.lensculture.com/",
-    "final_url": "https://www.lensculture.com/",
-    "status_code": 200,
-    "source_type": "photo_open_call",
-    "region": "Global",
-    "priority": "medium",
-    "title": "LensCulture - Contemporary Photography",
-    "text": "LensCulture - Contemporary Photography Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today × Magazine Newest Interviews Book Reviews Video Interviews Explore LensCulture Discoveries Winners Galleries Festival Videos Learn Free Guides About Us About Us Jury Members Exhibitions Festivals Press Partner with Us More About Us Jury Members Exhibitions Festivals Press Partner with Us SPOTLIGHT Homo Faber and Divine Providence Camera in hand, Swiss photographer Matthias Forster sets out to find moments of tension, surprise, and humor in the landscapes we often overlook. Photographs by Matthias Forster Essay by Magali Duzant Read More Recent Feature The Waves Came in Like Horses Stephanie O'Connor Through layered composites of landscapes, negatives, and organic forms, Stephanie O’Connor creates chimeric images that blur boundaries between self and other — capturing the uncanny sensations of pregnancy, where cellular exchange creates lasting... Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid photographs of people taking short breaks far from the chaos of the bustling urban activity in Taipei’s Wanhua District. Feature You Can’t Enter the Same River Twice Francisco Gonzalez Camacho In striking and luminous black and white images, Francisco Gonzalez Camacho conjures landscapes alive in transformation to reflect the experience of rerooting in another country. Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography connects us with humanity in all its forms, and in turn, allows us to be and feel more human in our day to day lives—here are many, many inspiring examples from cultures around the world. Enjoy! Call for Entries! LensCulture Street Photography Awards 2026 Calling All Street Photographers! We are searching for vibrant and compelling street photography from around the world. Share your best work today to expand your visibility and recognition. Single-image entries are free. Feature Oracle Andrea Koesters In her tender portrayal of desert life in Arizona, Andrea Koester records her evolving relationship to the people, plants and animals that make up its rich ecosystem. © Peter Hinsmann Street Photography Awards 2026 This photography competition is your opportunity to be recognized worldwide. Top Awards include: An Exhibition in London, International Media Exposure, Cash Prizes, Solo Feature on LensCulture Enter Awards Deadline: June 17, 2026 See more articles × © Peyton Fulford Stay connected to the global photography community Receive industry news, advice from editors & gallerists, exclusive deadlines, access to the best photography events and more on a weekly basis. You have been subscribed! LensCulture is a leading global photography platform known for its international photography awards, exhibitions, and editorial coverage of contemporary photography and visual culture. Awards Magazine Explore Learn Advertise with Us Press Free Guides About Us Help Contact RSS Legal Get our weekly newsletter You are subscribed. Thank you. © 2026 LensCulture, Inc. Photographs © of their respective owners.",
-    "links": [
-      {
-        "label": "Street Photography Awards 2026 – Deadline June 17, 2026 Enter Today ×",
-        "url": "https://www.lensculture.com/photo-competitions/street-photography-awards"
-      },
-      {
-        "label": "",
-        "url": "https://www.lensculture.com/"
-      },
-      {
-        "label": "",
-        "url": "https://www.lensculture.com/#"
-      },
-      {
-        "label": "Interviews",
-        "url": "https://www.lensculture.com/interviews"
-      },
-      {
-        "label": "Book Reviews",
-        "url": "https://www.lensculture.com/book-reviews"
-      },
-      {
-        "label": "Video Interviews",
-        "url": "https://www.lensculture.com/video-interviews"
-      },
-      {
-        "label": "Explore",
-        "url": "https://www.lensculture.com/explore/award-winners"
-      },
-      {
-        "label": "Winners Galleries",
-        "url": "https://www.lensculture.com/photo-contest-award-winners-galleries"
-      },
-      {
-        "label": "Festival Videos",
-        "url": "https://www.lensculture.com/watch-festival-videos"
-      },
-      {
-        "label": "Learn",
-        "url": "https://www.lensculture.com/photography-free-guides"
-      },
-      {
-        "label": "About Us",
-        "url": "https://www.lensculture.com/about"
-      },
-      {
-        "label": "Jury Members",
-        "url": "https://www.lensculture.com/jurors"
-      },
-      {
-        "label": "Exhibitions",
-        "url": "https://www.lensculture.com/exhibitions"
-      },
-      {
-        "label": "Festivals",
-        "url": "https://www.lensculture.com/festivals"
-      },
-      {
-        "label": "Press",
-        "url": "https://www.lensculture.com/press"
-      },
-      {
-        "label": "Partner with Us",
-        "url": "https://www.lensculture.com/advertising"
-      },
-      {
-        "label": "",
-        "url": "https://instagram.com/lensculture"
-      },
-      {
-        "label": "",
-        "url": "https://www.lensculture.com/articles/matthias-forster-homo-faber-and-divine-providence"
-      },
-      {
-        "label": "Feature The Waves Came in Like Horses Stephanie O'Connor Through layered composites of landscapes, negatives, and organic forms, Stephanie O’Connor creates chimeric images that blu",
-        "url": "https://www.lensculture.com/articles/stephanie-o-connor-the-waves-came-in-like-horses"
-      },
-      {
-        "label": "Award winner Characters — Subtle Street Photography from Taiwan Vladimir Khorev Candid photographs of people taking short breaks far from the chaos of the bustling urban activity i",
-        "url": "https://www.lensculture.com/articles/vladimir-khorev-characters-subtle-street-photography-from-taiwan"
-      },
-      {
-        "label": "Feature You Can’t Enter the Same River Twice Francisco Gonzalez Camacho In striking and luminous black and white images, Francisco Gonzalez Camacho conjures landscapes alive in tra",
-        "url": "https://www.lensculture.com/articles/francisco-gonzalez-camacho-you-can-t-enter-the-same-river-twice"
-      },
-      {
-        "label": "Feature ​21st Century Street Photography: 250 New Examples Jim Casper Street photography connects us with humanity in all its forms, and in turn, allows us to be and feel more huma",
-        "url": "https://www.lensculture.com/articles/jim-casper-21st-century-street-photography-250-new-examples"
-      },
-      {
-        "label": "Feature Oracle Andrea Koesters In her tender portrayal of desert life in Arizona, Andrea Koester records her evolving relationship to the people, plants and animals that make up it",
-        "url": "https://www.lensculture.com/articles/andrea-koesters-oracle"
-      },
-      {
-        "label": "",
-        "url": "https://www.facebook.com/lensculture"
-      },
-      {
-        "label": "Awards",
-        "url": "https://www.lensculture.com/awards"
-      },
-      {
-        "label": "Help",
-        "url": "https://lensculture.zendesk.com"
-      },
-      {
-        "label": "Contact",
-        "url": "https://www.lensculture.com/contact"
-      },
-      {
-        "label": "RSS",
-        "url": "https://www.lensculture.com/feeds/feed.rss"
-      },
-      {
-        "label": "Legal",
-        "url": "https://www.lensculture.com/legal"
-      }
-    ],
-    "error": ""
-  },
-  {
-    "source_name": "Der Greif",
-    "source_url": "https://dergreif.org/",
-    "final_url": "https://dergreif.org/",
-    "status_code": 200,
-    "source_type": "photo_publication",
-    "region": "Global",
-    "priority": "medium",
-    "title": "DER GREIF",
-    "text": "DER GREIF Main Partner Print Partner Regulars Artist Feature Spread the Dialogue Guest Room Articles Products and Community Shop Open Calls Face-to-Face Events Contributors The Organization About Der Greif Circle Contact Partners Subscribe to the Newsletter Your cart is empty Shop now Shuffle Der Greif is an award-winning platform for contemporary photography that champions diverse voices and emerging talent. We use crowdsourcing to create accessible entry points for visual artists, photographers and image makers worldwide, breaking down barriers to participation in the art world. Through our unique approach, Der Greif is the primary platform for our global community to create visibility, support with network and financial resources, at a career stage where other organizations can't provide our level of support. \"Zonke\", Washington DC, 2025 © Zanele Muholi, Ivory Coast, 2024 \"II Parktown\", Johannesburg, 2016 \"Manzi I\", West Coast Cape Town, 2022 \"Faces and Phases, 2007-13 “I am because of you, Mother Earth”: Zanele Muholi’s call for images and texts where “you cannot tell where the body ends and the land begins” Articles May 28, 2026 Behind the upcoming Der Greif issue 19 guest edited by Zanele Muholi and supported by Alexander Tutsek-Stiftung For decades, perhaps since its inception, traditional documentary photography has operated on extraction, entering marginalized spaces to record suffering before leaving the story framed by an outside gaze. In the upcoming Der Greif Issue 19, guest editor and world-renowned South ... Continue Reading Explore the new Face-to-Face portfolio reviews Der Greif Face-to-Face is our online educational program designed to support artists at all stages, whether seeking in-depth guidance on long-term projects or quick, constructive feedback on their portfolios. Find out more \"Summerland\", United States, 2007 \"5. Stage: My present\", Berlin, Germany, 2025 From the series \"Experimentations With My Representation\", Chicago, United States, 2022 \"Mnemosyne\", NY, United States, 2025 \"Vatnajökull\", Iceland, 2024 \"Singers\", West Bengal, India, 2026 \"S Hewitt Street\", Los Ángeles, United States, 2018 From the series \"Night Swimming\", Sebastopol, United States, 2022 \"Dad takes me to the airport\", Moscow, Russia, 2021 \"Diogo dressed as his drag character - 'Co Kendrah'\", London , United Kingdom, 2023 \"The Promise\", Ningbo, China, 2026 \"Norton Island Web I\", Norton Island, Maine, United States, 2025 \"Creature#1, 生物#1\", American Museum of Natural History, NYC, United States, 2024 From the series \"M/Other\", SF Bay Area, United States, 2023 From the series \"Kosmogonía\", Berlin Grunewald, Germany From the series \"DO IT TO YOURSELF DO IT TO YOURSELF\" Oslo, Norway, 2025 \"Their Hair\", Milan, NY, United States \"Animal Dancing\", Boston, MA, United States From the series \"The Stranger I Am\", Greece \"Knappe Angelegenheit, Magical Rage\", Berlin, Germany, 2023 \"Untitled (my mother, my reflection)\", Friday Harbor, WA, United States, 2021 \"Swamp witch\", Kirov, Russian Federation, 2024 \"IC XC\", Hong Kong, 2025 From the series \"Come una Montagna / Tutto ciò che ci rimane di sacro\", Italy, 2024 From the series \"New Intimacies\", Rochester, NY, United States, 2021 From the series \"I want to believe\", Spain, 2024 From the series \"Fleeting moments (an extract)\" The Islands of Siphnos and Seriphos, Greece, 2023 From the series \"Fervor, The Very Powerful San Simón\", The Mayan Highlands, Guatemala, 2022 From the series \"EL CLOT\", Valencia, Spain From the series \" Compost\", Ile-Ife, Nigeria, 2024 \"Kevin y Pajarito\", Santo Domingo, Dominican Republic, 2022 From the series \"Ysanthem\", United States, 2025 \"He Carried the Light\", Abuja, Nigeria From the series \"Hypocrisy\", Kyiv, Ukraine, 2025 From the series \"offSET\", LA, United States From the series \"The Magicians Project\", Milwaukee, WI, United States \"Slinky\", Connecticut, United States, 2026 \"still life\", Xi'an, China, 2025 \"Man with Shadow\" SOMA, SF, California, United States, 2009 \"Telling You\", United States, 2022 From the series \"Training in the yards\", Germany, 2025 From the series \"AFRICAN CUP 2025 WILL STAY HERE\", Morocco, 2026 \"Stepping Aside\", Brooklyn, NY, United States, 2025 \"The Contortionist\", New Haven, Connecticut, United States, 2021 From the series \"Pharmakon\", Viarigi, Italy, 2025 Shana Lopes & Aspen Mays Guest Room May 02, 2026 Guest Room is a format that fosters collaboration and sparks creative exchange. For this edition, Assistant Curator of Photography at SFMOMA Shana Lopes and artist Aspen Mays introduce the theme \"A Little Bit of Magic\". \"Since its invention in 1839, photography has been called a 'magic mirror' and even a form of 'natural magic.' The earliest viewers struggled to explain how light, chemistry, and ... Continue Reading New Issue: Der Greif 18 — \"Tomorrow Is Today\" by Hank Willis Thomas Der Greif proudly presents Issue 18, guest-edited by acclaimed conceptual artist Hank Willis Thomas, with the support of Alexander Tutsek-Stiftung. This issue asks us to pause at the edge of now and look toward what comes next. If tomorrow arrived today, how would we choose? Would we lean into love, into action, into community? Order Now Subscribe to our Newsletter Don't miss out on updates on new opportunities, community insights, as well as events and print products. Subscribe to the Newsletter \"Those Hidden Behind Its Glory\" \"Stagnant\" \"There was it alive\" \"When they migrate from the roots\" \"A Twig of Lightning\" \"Explorer\" \"Confluent\" \"Where we are standing\" \"A light track in the Museum Mile\" \"Creature #1\" \"Creature #3\" \"A Milky Way Galaxy Model\" \"A Wooden Box of Working Bee\" \"A Cabinet of Drawers That Say “Explore!” \"An Artificial Whirlpool\" \"Where Stars Become Coordinates, after Angela Palmer’s Searching for Goldilocks\" \"Meditator\" \"Sacrifice\" \"A picture of fake rocks\" \"That has contained hope\" Zhu Gaocanyue Artist Feature May 27, 2026 Named after a line from Hui Shi’s “Ten Paradoxes” in the “Zhuangzi” – a foundational",
-    "links": [
-      {
-        "label": "",
-        "url": "https://dergreif.org/"
-      },
-      {
-        "label": "",
-        "url": "https://dergreif.org/partners"
-      },
-      {
-        "label": "",
-        "url": "http://www.longo.media/"
-      },
-      {
-        "label": "Artist Feature",
-        "url": "https://dergreif.org/artist-feature"
-      },
-      {
-        "label": "Spread the Dialogue",
-        "url": "https://dergreif.org/artist-blog"
-      },
-      {
-        "label": "Guest Room",
-        "url": "https://dergreif.org/guest-room"
-      },
-      {
-        "label": "Articles",
-        "url": "https://dergreif.org/article"
-      },
-      {
-        "label": "Shop",
-        "url": "https://dergreif.org/shop"
-      },
-      {
-        "label": "Open Calls",
-        "url": "https://dergreif.org/open-call"
-      },
-      {
-        "label": "Face-to-Face",
-        "url": "https://dergreif.org/face-to-face"
-      },
-      {
-        "label": "Events",
-        "url": "https://dergreif.org/event"
-      },
-      {
-        "label": "Contributors",
-        "url": "https://dergreif.org/contributors"
-      },
-      {
-        "label": "About",
-        "url": "https://dergreif.org/about"
-      },
-      {
-        "label": "Der Greif Circle",
-        "url": "https://dergreif.org/der-greif-circle"
-      },
-      {
-        "label": "Contact",
-        "url": "https://dergreif.org/contact"
-      },
-      {
-        "label": "",
-        "url": "https://www.instagram.com/der_greif/"
-      },
-      {
-        "label": "",
-        "url": "https://www.facebook.com/dergreif.photography/"
-      },
-      {
-        "label": "",
-        "url": "https://www.linkedin.com/company/der-greif/about/"
-      },
-      {
-        "label": "",
-        "url": "https://dergreif.org/artist-blog/spread-the-dialogue-maryam-touzani--mauro-macchioni-in-conversation-with-caroline-von-courten"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/article/i-am-because-of-you-mother-earth-zanele-muholi-s-call-for-images-and-texts"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/guest-room/shana-lopes--aspen-mays"
-      },
-      {
-        "label": "Order Now",
-        "url": "https://dergreif.org/shop/products/der-greif-18-tomorrow-is-today-hank-willis-thomas"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/zhu-gaocanyue"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/dominika-glowala"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/article/greif-alumni-reimagining-at-this-year-s-photoespana"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/felix-schoeppner"
-      },
-      {
-        "label": "Submit",
-        "url": "https://site.picter.com/der-greif-queer-quintessential"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/article/in-focus-mit-euren-spuren"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/lauren-kaigg"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/marianne-wasowska"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/article/the-everyday-street-photography-of-svilen-nachev"
-      },
-      {
-        "label": "Submit",
-        "url": "https://site.picter.com/der-greif-guest-room-dekker-schavemaker/timeline"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/aakash-gulzar"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/yuri-segalerba"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/article/greif-alumni-roxana-rios-on-the-body-and-the-shattered-mirror-of-art-history"
-      },
-      {
-        "label": "Apply by June 7 at 11:59 CET",
-        "url": "https://site.picter.com/der-greif-face-to-face-arles-edition-2026"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/antoine-grenzen"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/constanze-han"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/damian-wis"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/tomasz-kawecki-earth"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/elena-aya-bundurakis"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/joel-jimenez-jara"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/-luciana-demichelis"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/kaya-and-blank"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/anastasia-miseyko"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/ivar-veermae"
-      },
-      {
-        "label": "Continue Reading",
-        "url": "https://dergreif.org/artist-feature/sara-wayra"
-      },
-      {
-        "label": "",
-        "url": "https://www.longo.media/"
-      },
-      {
-        "label": "",
-        "url": "https://www.futures-photography.com"
-      },
-      {
-        "label": "",
-        "url": "http://www.kulturstaatsministerin.de"
-      },
-      {
-        "label": "",
-        "url": "https://www.kulturgemeinschaften.de/"
-      },
-      {
-        "label": "",
-        "url": "https://www.kulturstiftung.de/"
-      },
-      {
-        "label": "",
-        "url": "http://www.kulturstaatsministerin.de/neustartkultur"
-      },
-      {
-        "label": "Terms of Use",
-        "url": "https://dergreif.org/terms-of-use"
-      },
-      {
-        "label": "Privacy Policy",
-        "url": "https://dergreif.org/privacy-policy"
-      },
-      {
-        "label": "Imprint",
-        "url": "https://dergreif.org/imprint"
-      }
-    ],
-    "error": ""
-  },
-  {
-    "source_name": "Aperture",
-    "source_url": "https://aperture.org/",
-    "final_url": "https://aperture.org/",
-    "status_code": 200,
-    "source_type": "photo_publication",
-    "region": "Global",
-    "priority": "medium",
-    "title": "Aperture | Photography",
-    "text": "Aperture | Photography Skip to content Advertisement About Contact Newsletters Log in Aperture.org Aperture Archive Magazine Subscribers My account Aperture Store Magazine Subscription Aperture Archive Empty Cart Read The Latest Column 1 All Articles Interviews Essays Reviews Column 2 Portfolios Photobooks Introducing Featured Aperture Magazine Current Issue All Issues Archive Subscribe Renew Shop Featured Memorial Day Sale New Releases Coming Soon Spotlight Aperture Magazine Subscribe Current Issue Back Issues Digital Archive Books New in Books Bestsellers Limited Editions View All Prints New in Prints Portfolios Book & Print Sets View All Experience Exhibitions Current Upcoming Past Events & Programs Aperture PhotoBook Club Aperture Conversations Member Events View All Education Aperture On Sight Educational Resources Internships Calls for Entry Portfolio Prize PhotoBook Awards Support Become a Member Friend Connect Council Patron Circle View All Attend an Event 2026 Gala 2026 Paris Photo Past Benefit Events Member Events Support Aperture Tax-Smart Ways to Give Annual Fund Capital Campaign Corporate Partnerships Vision & Justice Book Series Subscribe Search Subscribe Read The Latest Interviews Essays Reviews Portfolios Photobooks Introducing Featured View All Aperture Magazine Current Issue All Issues Archive Subscribe Renew Shop Featured New Releases Coming Soon Spotlight Aperture Magazine Subscribe Current Issue Back Issues Digital Archive Books New in Books Bestsellers Limited Editions View All Prints New in Prints Portfolios Book & Print Sets View All Experience Exhibitions Current Upcoming Past Events & Programs Aperture PhotoBook Club Aperture Conversations Member Events View All Education Aperture On Sight Educational Resources Internships Calls for Entry Portfolio Prize PhotoBook Awards Support Become A Member Friend Connect Council Patron Circle View All Attend An Event 2026 Gala 2026 Paris Photo Past Benefit Events Member Events Support Aperture Tax-Smart Ways to Give Annual Fund Capital Campaign Corporate Partnerships Vision & Justice Book Series About Us Contact Log In Search Reviews A Dizzying Snapshot of the Human Condition At the New Museum, New Humans: Memories of the Future whirls through a century of human and humanoid evolution—and plenty of photography. Advertisement Interviews A Modern Vision of Black Life in Texas In a new photo essay, Rahim Fortune responds to the legacy of Black photographers who documented Texas throughout the twentieth century. Interviews Dionne Lee Is Reinventing the Landscape Photograph In a conversation from her new book, the artist speaks about the interwoven histories of land, power, survival, and Black identity. Interviews Takashi Homma on His Photobook Philosophy Essays Why an Influential Stylist Turned to AI Portfolios The Everyday Miracles of Rinko Kawauchi Upcoming Events View All Aperture PhotoBook Club Aperture PhotoBook Club Loves New York Tuesday, June 2, 6:00 p.m. EDT Special Event Artist Talk: Katayama Mari and Tawada Yuki Wednesday, June 24, 6:30 p.m. - 7:45 p.m. EDT Member Events Aperture’s Patron Trip to Paris Photo 2026 Wednesday, November 11 - Saturday, November 14 View All The Latest Introducing Fe Avila Seeks the Liberation of Desire The Brazilian photographer makes a utopian world encompassing moments of raw, unmediated freedom. Interviews A War Photographer Returns to the Battlefield Emanuele Satolli speaks about documenting conflict zones in Ukraine and the Middle East—and why it’s essential to see difficult images in a photobook. Reviews A Houston Biennial Looks Back to Look Forward The twentieth FotoFest Biennial charts a sprawling history of global photography. Portfolio Prize Aaryan Sinha’s Iconoclastic Views of India Winner of the 2026 Aperture Portfolio Prize, the photographer twists familiar clichés into an exploration of what it means to feel estranged from one’s homeland. View All Articles Advertisement Watch Now Black Frontiers: Rahim Fortune and Nicole R. Fleetwood in Conversation At the Limits of the Gaze | Aperture Conversations Hal Fischer: Seminal Works | Aperture PhotoBook Club Alejandro Cartagena: Ground Rules | Aperture PhotoBook Club Coreen Simpson: A Monograph | Aperture PhotoBook Club Photography and the Guggenheim Fellowship | Photo Assembly Alana Perino and Ariel Goldberg | Aperture Conversations Melissa O’Shaughnessy and Alex Webb | Aperture Conversations Finding a Father Figure: Exploring Estrangement Across Borders | Aperture Conversations Richard Misrach: Cargo | Aperture PhotoBook Club On Small Books: With Jason Fulford, Kris Graves, and Carmen Winant | Aperture PhotoBook Club An-My Lê: Small Wars | Aperture PhotoBook Club Trevor Paglen and Noam M. Elcott: The Past, Present, and Future of AI | Aperture Conversations The Power of Images: A Conversation about Race Stories | Aperture Conversations Tina Barney: Family Ties | Aperture PhotoBook Club Exploring the Canon of Japanese Women Photographers | Aperture Conversations Arielle Bobb-Willis: Keep the Kid Alive | Aperture PhotoBook Club On the Legacy of Louis Carlos Bernal | Aperture Conversations Between Reality and Dreams: Avion Pearce and Elle Pérez in Conversation | Aperture Conversations Reframing Histories | Aperture Conversations Rediscovering the Photographs of Ernest Cole | Aperture Conversations New Releases View All Book Josef Koudelka Bundle: Diaries & Next $88.00 Print Wendy Red Star: Indian Woman Standing, 2005 $3000.00 Book Josef Koudelka: Diaries $60.00 Book Dionne Lee: Currents $65.00 Book Lee Friedlander: Life Still $65.00 Book Hal Fischer: Seminal Works $65.00 Book At the Limits of the Gaze $29.95 Book Kinship & Community: Selections from the Texas African American Photography Archive $65.00 Advertisement Aperture is a nonprofit publisher dedicated to creating insight, community, and understanding through photography. 212-505-5555 customerservice@aperture.org About Aperture Staff Board of Trustees Advertising Jobs Distribut",
-    "links": [
-      {
-        "label": "Skip to content",
-        "url": "https://aperture.org/#fl-main-content"
-      },
-      {
-        "label": "About",
-        "url": "https://aperture.org/about/"
-      },
-      {
-        "label": "Contact",
-        "url": "https://aperture.org/contact/"
-      },
-      {
-        "label": "Newsletters",
-        "url": "https://mailchi.mp/aperture/all-aperture"
-      },
-      {
-        "label": "Log in",
-        "url": "https://aperture.org/my-account/"
-      },
-      {
-        "label": "Aperture Archive",
-        "url": "https://archive.aperture.org/"
-      },
-      {
-        "label": "Magazine Subscribers",
-        "url": "https://www.ezsubscription.com/ape/MYSUBSCRIPTION"
-      },
-      {
-        "label": "Magazine Subscription",
-        "url": "https://www.ezsubscription.com/ape/subscribe?type=full"
-      },
-      {
-        "label": "Empty Cart",
-        "url": "https://aperture.org/cart"
-      },
-      {
-        "label": "",
-        "url": "https://aperture.org/cart/"
-      },
-      {
-        "label": "",
-        "url": "http://aperture.org/"
-      },
-      {
-        "label": "Read",
-        "url": "https://aperture.org/editorial/"
-      },
-      {
-        "label": "Column 1",
-        "url": "https://aperture.org/#"
-      },
-      {
-        "label": "Interviews",
-        "url": "https://aperture.org/editorial/interviews/"
-      },
-      {
-        "label": "Essays",
-        "url": "https://aperture.org/editorial/essays"
-      },
-      {
-        "label": "Reviews",
-        "url": "https://aperture.org/editorial/reviews/"
-      },
-      {
-        "label": "Portfolios",
-        "url": "https://aperture.org/category/portfolios/"
-      },
-      {
-        "label": "Photobooks",
-        "url": "https://aperture.org/editorial/photobooks/"
-      },
-      {
-        "label": "Introducing",
-        "url": "https://aperture.org/category/introducing"
-      },
-      {
-        "label": "Featured",
-        "url": "https://aperture.org/editorial/featured/"
-      },
-      {
-        "label": "Aperture Magazine",
-        "url": "https://aperture.org/magazine/"
-      },
-      {
-        "label": "Current Issue",
-        "url": "https://aperture.org/magazines/aperture-no-262/"
-      },
-      {
-        "label": "All Issues",
-        "url": "https://store.aperture.org/collections/magazines"
-      },
-      {
-        "label": "Subscribe",
-        "url": "https://www.ezsubscription.com/ape/subscribe.asp?type=full"
-      },
-      {
-        "label": "Renew",
-        "url": "https://www.ezsubscription.com/ape/subscribe?type=renew"
-      },
-      {
-        "label": "Shop",
-        "url": "https://aperture.org/shop/"
-      },
-      {
-        "label": "Featured",
-        "url": "https://store.aperture.org/"
-      },
-      {
-        "label": "Memorial Day Sale",
-        "url": "https://store.aperture.org/pages/memorial-day-sale-2026"
-      },
-      {
-        "label": "New Releases",
-        "url": "https://store.aperture.org/collections/new-releases"
-      },
-      {
-        "label": "Coming Soon",
-        "url": "https://aperture.org/coming-soon/"
-      },
-      {
-        "label": "Spotlight",
-        "url": "https://store.aperture.org/pages/spotlight"
-      },
-      {
-        "label": "Aperture Magazine",
-        "url": "https://aperture.org/magazines/"
-      },
-      {
-        "label": "Back Issues",
-        "url": "https://store.aperture.org/collections/back-issues"
-      },
-      {
-        "label": "Books",
-        "url": "https://aperture.org/books/"
-      },
-      {
-        "label": "New in Books",
-        "url": "https://store.aperture.org/collections/new-in-books"
-      },
-      {
-        "label": "Bestsellers",
-        "url": "https://store.aperture.org/collections/bestsellers"
-      },
-      {
-        "label": "Limited Editions",
-        "url": "https://store.aperture.org/collections/limited-editions"
-      },
-      {
-        "label": "View All",
-        "url": "https://store.aperture.org/collections/books-view-all"
-      },
-      {
-        "label": "Prints",
-        "url": "https://aperture.org/prints/"
-      },
-      {
-        "label": "New in Prints",
-        "url": "https://store.aperture.org/collections/new-in-prints"
-      },
-      {
-        "label": "Portfolios",
-        "url": "https://store.aperture.org/collections/portfolio-prints"
-      },
-      {
-        "label": "Book & Print Sets",
-        "url": "https://store.aperture.org/collections/book-print-sets"
-      },
-      {
-        "label": "View All",
-        "url": "https://store.aperture.org/collections/prints-view-all"
-      },
-      {
-        "label": "Experience",
-        "url": "https://aperture.org/experience/"
-      },
-      {
-        "label": "Exhibitions",
-        "url": "https://aperture.org/exhibitions/"
-      },
-      {
-        "label": "Current",
-        "url": "https://aperture.org/exhibitions/#exhibition-tab-1"
-      },
-      {
-        "label": "Upcoming",
-        "url": "https://aperture.org/exhibitions/#exhibition-tab-2"
-      },
-      {
-        "label": "Past",
-        "url": "https://aperture.org/exhibitions/#exhibition-tab-3"
-      },
-      {
-        "label": "Events & Programs",
-        "url": "https://aperture.org/experience/events/"
-      },
-      {
-        "label": "Aperture PhotoBook Club",
-        "url": "https://aperture.org/events/categories/aperture-photobook-club/"
-      },
-      {
-        "label": "Aperture Conversations",
-        "url": "https://aperture.org/events/categories/aperture-conversations/"
-      },
-      {
-        "label": "Member Events",
-        "url": "https://aperture.org/events/categories/member-event/"
-      },
-      {
-        "label": "Education",
-        "url": "https://aperture.org/experience/education/"
-      },
-      {
-        "label": "Aperture On Sight",
-        "url": "https://aperture.org/curriculum/aperture-on-sight/"
-      },
-      {
-        "label": "Educational Resources",
-        "url": "https://aperture.org/free-educational-resources/"
-      },
-      {
-        "label": "Internships",
-        "url": "https://aperture.org/education/internships/"
-      },
-      {
-        "label": "Calls for Entry",
-        "url": "https://aperture.org/calls-for-entry/"
-      },
-      {
-        "label": "Portfolio Prize",
-        "url": "https://aperture.org/calls-for-entry/portfolio-prize/"
-      },
-      {
-        "label": "PhotoBook Awards",
-        "url": "https://aperture.org/calls-for-entry/photobook-awards/"
-      },
-      {
-        "label": "Support",
-        "url": "https://aperture.org/support/"
-      },
-      {
-        "label": "Become a Member",
-        "url": "https://store.aperture.org/pages/memberships"
-      },
-      {
-        "label": "Friend",
-        "url": "https://store.aperture.org/products/friend"
-      },
-      {
-        "label": "Connect Council",
-        "url": "https://store.aperture.org/products/connect-council-membership-annual"
-      },
-      {
-        "label": "Patron Circle",
-        "url": "https://store.aperture.org/products/patron-membership"
-      },
-      {
-        "label": "2026 Gala",
-        "url": "https://aperture.org/gala-2026"
-      },
-      {
-        "label": "2026 Paris Photo",
-        "url": "https://aperture.org/events/aperture-paris-photo-2026-patron-trip/"
-      },
-      {
-        "label": "Past Benefit Events",
-        "url": "https://aperture.org/events/categories/benefit-events/"
-      },
-      {
-        "label": "Tax-Smart Ways to Give",
-        "url": "https://aperture.org/other-ways-to-give/"
-      },
-      {
-        "label": "Annual Fund",
-        "url": "https://aperture.org/annual-fund/"
-      },
-      {
-        "label": "Capital Campaign",
-        "url": "https://aperture.org/aperture-capital-campaign/"
-      },
-      {
-        "label": "Corporate Partnerships",
-        "url": "https://aperture.org/corporate-partnership/"
-      },
-      {
-        "label": "Vision & Justice Book Series",
-        "url": "https://aperture.org/vision-and-justice-book-series/"
-      },
-      {
-        "label": "Current Issue",
-        "url": "https://aperture.org/product/aperture-no-261/"
-      },
-      {
-        "label": "All Issues",
-        "url": "https://aperture.org/product-category/magazines/"
-      },
-      {
-        "label": "Coming Soon",
-        "url": "https://store.aperture.org/collections/coming-soon"
-      },
-      {
-        "label": "About Us",
-        "url": "https://aperture.org/about"
-      },
-      {
-        "label": "A Dizzying Snapshot of the Human Condition",
-        "url": "https://aperture.org/editorial/a-dizzying-snapshot-of-the-human-condition/"
-      },
-      {
-        "label": "",
-        "url": "https://aperture.org/editorial/a-modern-vision-of-black-life-in-texas/"
-      },
-      {
-        "label": "",
-        "url": "https://aperture.org/editorial/dionne-lee-is-reinventing-the-landscape-photograph/"
-      },
-      {
-        "label": "",
-        "url": "https://aperture.org/editorial/takashi-homma-on-his-photobook-philosophy/"
-      }
-    ],
-    "error": ""
   },
   {
     "source_name": "Jackson's Art Prize",
@@ -2374,7 +1338,7 @@
     "region": "Global",
     "priority": "high",
     "title": "Browse opportunities | CuratorSpace",
-    "text": "Browse opportunities | CuratorSpace Toggle navigation Home About us Subscribe Opportunities Events Curators Artists Need help? Log in Register Upcoming opportunities You can now favourite opportunities. Just login or register , then \"bookmark\" the opportunity, and we'll save it for you on your favourites pages . We'll even send you reminders when the opportunity deadline is approaching or the opportunities details are changed (unless you've asked us not to , of course). « < 1 2 3 4 5 6 7 > » Order by Deadline Latest Summer Makers' Fair 2026 Report this? Deadline: 01/06/2026 City: ILKLEY | Country: United Kingdom | Andreea Chitan Attention all talented crafters and makers! We would like to invite you to submit your application to be a part of the enchanting Ilkley Manor House Summer Makers’ Fair, happening on the last weekend of July. More details Wayfarers Contemporary Art Fair Report this? Deadline: 01/06/2026 City: Southport | Country: United Kingdom | Play On Productions Southport’s elegant Edwardian Wayfarers Arcade is hosting a brand new art fair. That will open with a special preview on Thursday 16th July 2026 at 5pm and be open to the public for free from Friday the 17th to Saturday 18th of July 2026 between 10am and 5pm. The fair will take place when Royal Birkdale hosts the Open Golf championship, that will bring a quarter of a million visitors to Southport from across the globe. We will use this to showcase and celebrate UK creative talent, including the best of fine art, design, food and drink. More details Guest Posts Report this? Deadline: 01/06/2026 ProminentPainting.com Guest Post on ProminentPainting.com More details OPEN call for artists and writers on the theme of the liminality of time Report this? Deadline: 01/06/2026 City: Online and across our social media network of 15k followers | Jenna Fox Art and written open call submissions on the theme of THE LIMINALITY OF TIME for Issue 72 of Haus-a-rest More details 'No Tears' Summer 2025 Issue Report this? Deadline: 01/06/2026 City: Bristol | Region: Somerset | Country: United Kingdom | Valentine Kesterton No Tears is a project revolving around gothic subculture and the beauty in darkness. The prompt is “What makes you wanna dance?” More details Lansbury Estate at 75: Lead Artist and Community Workshop Facilitator Report this? Deadline: 01/06/2026 City: London | Region: London | Country: United Kingdom | Julia Shannahan Paid opportunity Lansbury Estate at 75 is seeking a freelance Lead Artist and Community Workshop Facilitator to lead eight community art workshops on the Lansbury Estate (London, E14), appoint and coordinate an Assistant Facilitator and support a public exhibition. More details 35 Year Anniversary Show - Cupola Contemporary Art Report this? Deadline: 03/06/2026 City: Sheffield | Region: South Yorkshire | Country: United Kingdom | Karen Sherwood Established in 1991 Cupola remains one of the most respected contemporary galleries for the sale and exhibition of fine art & fine craft in the north of England. This year is our 35th Anniversary 1991 - 2026 and we think that’s bloody amazing! We are inviting artists old and new to submit to be part of our 35th celebration open exhibition. We wish to celebrate the diversity of work and talent of artists whose work we have had the honour of exhibiting over all this time. More details Sculpture & 3D Art/ Special Edition Report this? Deadline: 03/06/2026 City: Tbilisi | Country: Georgia | Collect Art This open call invites artists, working in 3-dimensional art, such as sculpture, Installation art, assemblage, relief, kinetic art, land art, ceramic art, glass art, textile, fiber art, digital 3d Art, mixed media sculptures, environmental art, and more… More details Summer show Report this? Deadline: 05/06/2026 City: Newton Le Willows | Region: Merseyside | Country: United Kingdom | Bren Archive ☀️ SUMMER SHOW ☀️ Open Call for Artists Be part of the very first exhibition at Earlestown Arts Club We’re welcoming local artists to exhibit at Arts Club, a vibrant bar in Earlestown, located between Manchester, Liverpool, Warrington and beyond. More details New Voices- Call For Artists Report this? Deadline: 05/06/2026 City: London | Region: Greater London | Country: United Kingdom | Boomer Gallery What is the direction contemporary art is heading? Can we still call it contemporary, or are we moving into a new era? More details « < 1 2 3 4 5 6 7 > » Search opportunities Opportunity name Created by Reset Subscribe to our newsletter Get the latest CuratorSpace news, updates about new opportunities, upcoming deadlines, and art-related promotions. Name * Email * Check this box to indicate you have read and agree to our terms and conditions and privacy policy and are happy for us to send you our newsletter Please click in the box below * Ongoing opportunities No 7 Museum Street: Artists' Studio Space Culture Warrington has created a space for affordable studios attached to Warrington Museum &... Feature on The FLUX Reiew Complimentary Opportunity - Feature a Q&A on The Flux Review website. Carre Gallery, Sleaford Established in 2010, the Carre Gallery is Sleaford's only visual arts gallery, and is operated... Manage your opportunities Are you organising an exhibition, fair or other creative opportunity? Need help with managing your submissions? CuratorSpace makes it easy to manage your opportunity, allowing you to review your submissions, make decisions, and communicate with your applicants all using our easy-to-use interface. Register © 2026 by CuratorSpace Terms and conditions | Privacy policy",
+    "text": "Browse opportunities | CuratorSpace Toggle navigation Home About us Subscribe Opportunities Events Curators Artists Need help? Log in Register Upcoming opportunities You can now favourite opportunities. Just login or register , then \"bookmark\" the opportunity, and we'll save it for you on your favourites pages . We'll even send you reminders when the opportunity deadline is approaching or the opportunities details are changed (unless you've asked us not to , of course). « < 1 2 3 4 5 6 7 > » Order by Deadline Latest Summer Makers' Fair 2026 Report this? Deadline: 01/06/2026 City: ILKLEY | Country: United Kingdom | Andreea Chitan Attention all talented crafters and makers! We would like to invite you to submit your application to be a part of the enchanting Ilkley Manor House Summer Makers’ Fair, happening on the last weekend of July. More details Wayfarers Contemporary Art Fair Report this? Deadline: 01/06/2026 City: Southport | Country: United Kingdom | Play On Productions Southport’s elegant Edwardian Wayfarers Arcade is hosting a brand new art fair. That will open with a special preview on Thursday 16th July 2026 at 5pm and be open to the public for free from Friday the 17th to Saturday 18th of July 2026 between 10am and 5pm. The fair will take place when Royal Birkdale hosts the Open Golf championship, that will bring a quarter of a million visitors to Southport from across the globe. We will use this to showcase and celebrate UK creative talent, including the best of fine art, design, food and drink. More details Guest Posts Report this? Deadline: 01/06/2026 ProminentPainting.com Guest Post on ProminentPainting.com More details OPEN call for artists and writers on the theme of the liminality of time Report this? Deadline: 01/06/2026 City: Online and across our social media network of 15k followers | Jenna Fox Art and written open call submissions on the theme of THE LIMINALITY OF TIME for Issue 72 of Haus-a-rest More details 'No Tears' Summer 2025 Issue Report this? Deadline: 01/06/2026 City: Bristol | Region: Somerset | Country: United Kingdom | Valentine Kesterton No Tears is a project revolving around gothic subculture and the beauty in darkness. The prompt is “What makes you wanna dance?” More details Lansbury Estate at 75: Lead Artist and Community Workshop Facilitator Report this? Deadline: 01/06/2026 City: London | Region: London | Country: United Kingdom | Julia Shannahan Paid opportunity Lansbury Estate at 75 is seeking a freelance Lead Artist and Community Workshop Facilitator to lead eight community art workshops on the Lansbury Estate (London, E14), appoint and coordinate an Assistant Facilitator and support a public exhibition. More details 35 Year Anniversary Show - Cupola Contemporary Art Report this? Deadline: 03/06/2026 City: Sheffield | Region: South Yorkshire | Country: United Kingdom | Karen Sherwood Established in 1991 Cupola remains one of the most respected contemporary galleries for the sale and exhibition of fine art & fine craft in the north of England. This year is our 35th Anniversary 1991 - 2026 and we think that’s bloody amazing! We are inviting artists old and new to submit to be part of our 35th celebration open exhibition. We wish to celebrate the diversity of work and talent of artists whose work we have had the honour of exhibiting over all this time. More details Sculpture & 3D Art/ Special Edition Report this? Deadline: 03/06/2026 City: Tbilisi | Country: Georgia | Collect Art This open call invites artists, working in 3-dimensional art, such as sculpture, Installation art, assemblage, relief, kinetic art, land art, ceramic art, glass art, textile, fiber art, digital 3d Art, mixed media sculptures, environmental art, and more… More details Summer show Report this? Deadline: 05/06/2026 City: Newton Le Willows | Region: Merseyside | Country: United Kingdom | Bren Archive ☀️ SUMMER SHOW ☀️ Open Call for Artists Be part of the very first exhibition at Earlestown Arts Club We’re welcoming local artists to exhibit at Arts Club, a vibrant bar in Earlestown, located between Manchester, Liverpool, Warrington and beyond. More details New Voices- Call For Artists Report this? Deadline: 05/06/2026 City: London | Region: Greater London | Country: United Kingdom | Boomer Gallery What is the direction contemporary art is heading? Can we still call it contemporary, or are we moving into a new era? More details « < 1 2 3 4 5 6 7 > » Search opportunities Opportunity name Created by Reset Advertisement Subscribe to our newsletter Get the latest CuratorSpace news, updates about new opportunities, upcoming deadlines, and art-related promotions. Name * Email * Check this box to indicate you have read and agree to our terms and conditions and privacy policy and are happy for us to send you our newsletter Please click in the box below * Ongoing opportunities Show Your Work With BobCat Gallery in Putney BobCat Gallery has taken over a retail unit in Putney Exchange Shopping Centre, SW15. I’m... Available Temporary Studio Space - Doncaster We have a number of spaces available in an ex-office space in central Doncaster only a 5min walk... Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in our gallery. Manage your opportunities Are you organising an exhibition, fair or other creative opportunity? Need help with managing your submissions? CuratorSpace makes it easy to manage your opportunity, allowing you to review your submissions, make decisions, and communicate with your applicants all using our easy-to-use interface. Register © 2026 by CuratorSpace Terms and conditions | Privacy policy",
     "links": [
       {
         "label": "",
@@ -2565,6 +1529,10 @@
         "url": "https://www.curatorspace.com/profiles/boomergallery"
       },
       {
+        "label": "",
+        "url": "https://www.curatorspace.com/advert/click?id=131"
+      },
+      {
         "label": "terms and conditions",
         "url": "https://www.curatorspace.com/legal/terms-and-conditions"
       },
@@ -2573,16 +1541,16 @@
         "url": "https://www.curatorspace.com/legal/privacy-policy"
       },
       {
-        "label": "No 7 Museum Street: Artists' Studio Space Culture Warrington has created a space for affordable studios attached to Warrington Museum &...",
-        "url": "https://www.curatorspace.com/opportunities/detail/no--artists-studio-space/3215"
+        "label": "Show Your Work With BobCat Gallery in Putney BobCat Gallery has taken over a retail unit in Putney Exchange Shopping Centre, SW15. I’m...",
+        "url": "https://www.curatorspace.com/opportunities/detail/show-your-work-with-bobcat-gallery-in-putney/8725"
       },
       {
-        "label": "Feature on The FLUX Reiew Complimentary Opportunity - Feature a Q&A on The Flux Review website.",
-        "url": "https://www.curatorspace.com/opportunities/detail/feature-on-the-flux-reiew/10658"
+        "label": "Available Temporary Studio Space - Doncaster We have a number of spaces available in an ex-office space in central Doncaster only a 5min walk...",
+        "url": "https://www.curatorspace.com/opportunities/detail/available-temporary-studio-space-doncaster/6025"
       },
       {
-        "label": "Carre Gallery, Sleaford Established in 2010, the Carre Gallery is Sleaford's only visual arts gallery, and is operated...",
-        "url": "https://www.curatorspace.com/opportunities/detail/carre-gallery-sleaford/8116"
+        "label": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in our gallery.",
+        "url": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457"
       }
     ],
     "error": ""
@@ -2596,7 +1564,7 @@
     "region": "Japan",
     "priority": "medium",
     "title": "【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society",
-    "text": "【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society CONTENTS MENU TISについて 会員一覧 ニュース 公募 展覧会 コラム ショップ 会員用ログイン OFFICIAL 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーターによるベストワーク展 macco macco Takako Takako Yukako Ohde おおで ゆかこ Nobutsuna Watanabe 渡邊伸綱 Tatsuro Kiuchi 木内達朗 Yasuko Shindo 進藤やす子 moriyuu 森優 Kanae Sato 佐藤香苗 chiaki takasugi 高杉千明 oogo mari 大庫真理 MATSUNO Miho 松野美穂 Matsuki Naoki 松木直紀 Yokoyama Yu 横山 雄 kimura keiko 木村桂子 Misaki Kihara 木原未沙紀 yasuyuki sakuma 佐久間誉之 miura yumiko 三浦由美子 Kunio Sato 佐藤邦雄 Ayumi Takahashi 髙橋あゆみ Matsumoto Saki 松本沙希 takamatsu kanae たかまつかなえ Lola Zhang Lola Zhang Yoshioka Yuko 吉岡ゆうこ MASARU SHIMOMURA 下村 勝 ayako kubo くぼあやこ AYUMI SHIMODA 霜田あゆ美 Hiroshi Abe あべ弘士 Yamasaki Takashi 山﨑たかし hinano 日菜乃 Moriya Reiko 守屋玲子 会員作家一覧 展覧会 2026.06.01 Tokyo Illustrators S 公募 2026.05.11 第21回TIS作品募集終了！ 展覧会 2026.04.28 Tokyo Illustrators S 公募 2026.03.02 第21回TIS公募ページ公開！ TISニュース 2026.04.17 TIS事務局GW休業のお知らせ TISニュース 2026.04.02 一般社団法人東京イラストレーターズ・ソサ TISニュース 2026.01.01 2026年新会員のお知らせ TISニュース 2026.01.01 2026年 新年のご挨拶 TISニュース 2025.12.24 年末年始 冬季休業のお知らせ 公募 2025.09.09 第20回TIS公募WEB展覧会公開 TISニュース 2025.10.29 「鈴木成一書店」とトークイベントのお知ら 展覧会 2025.07.30 東京ミッドタウン・デザインハブ特別展 I 展覧会 2025.08.04 Illustration Talks v 展覧会 2025.08.04 Illustration Talks v 公募 2025.08.01 第20回TIS公募結果発表！ TISニュース 2025.06.11 TIS会員になるには 展覧会 2025.05.16 Illustration Works 1 TISニュース 2023.10.31 AdobexTIS Trend & Il TISニュース 2023.12.14 香港イラストクリエイティブショー6（HK 展覧会 2025.04.18 「110人のイラストレーターが描く 宮沢 TISニュース 2025.04.14 コンクール等の応募要領に関する声明文につ ニュース一覧 会員の個展 caco個展 「海と地とブルー」 2026.06.06(土) - 2026.06.13(土) 牧角春那個展「惑う星のひかり」 2026.06.12(金) - 2026.06.17(水) 「どっちでもポテト」丸山一葉 2026.06.15(月) - 2026.06.20(土) ondo gallery STORE 「ツルモトマイ特集」 2026.05.15(金) - 2026.06.21(日) 近藤みか 個展「Sweet moments」 2026.06.11(木) - 2026.06.21(日) 「あまやどり」発売記念展示 2026.06.25(木) - 2026.07.07(火) 「映画を見ればわかること」原画展 2026.05.01(金) - 2026.11.23(月) 一覧を見る TISについて 特定商取引法に基づく表記 SHARE CONTENTS MENU OFFICIAL 会員用ログイン 当ウェブサイトに掲載されているコンテンツは、権利者の許可なく複製、転用等する事は法律で禁止されています。 Copyright (C) Tokyo Illustrators Society General Incorporated Association. All Rights Reserved.",
+    "text": "【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society CONTENTS MENU TISについて 会員一覧 ニュース 公募 展覧会 コラム ショップ 会員用ログイン OFFICIAL 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーターによるベストワーク展 toshinori yonemura 米村知倫 Kawai Mako マコカワイ Daimon Nao ダイモンナオ Amano Kotobuki 天野 寿 Goto Megumi 後藤 恵 Shigeyuki Sakata さかたしげゆき yurie takaya タカヤ ユリエ Kenji Asazuma 浅妻健司 Ai Okino 沖野 愛 Mana Kawasaki 川﨑真奈 Takayuki Ino 伊野孝行 Shigehisa Kitatani 北谷しげひさ MARIE ASABA アサバマリエ Matsuki Naoki 松木直紀 Bioletti Alessandro ビオレッティ・アレッサンドロ sugiyama maiko 杉山真依子 Marron Marron Rina Yoshioka 吉岡里奈 TAKAYUKI WATANABE 渡邉孝行 Tomoyuki Aida 相田智之 Horishita Yohey Yohey Horishita Hitomi Itoh いとう瞳 Makisumi Haruna 牧角春那 Satomi Sakurai 櫻井砂冬美 chiaki takasugi 高杉千明 Yoko Hasegawa 長谷川洋子 Yoshioka Yuko 吉岡ゆうこ Nobutsuna Watanabe 渡邊伸綱 Sato Masami 佐藤昌美 hiromichiito ヒロミチイト 会員作家一覧 展覧会 2026.06.01 Tokyo Illustrators S 公募 2026.05.11 第21回TIS作品募集終了！ 展覧会 2026.04.28 Tokyo Illustrators S 公募 2026.03.02 第21回TIS公募ページ公開！ TISニュース 2026.04.17 TIS事務局GW休業のお知らせ TISニュース 2026.04.02 一般社団法人東京イラストレーターズ・ソサ TISニュース 2026.01.01 2026年新会員のお知らせ TISニュース 2026.01.01 2026年 新年のご挨拶 TISニュース 2025.12.24 年末年始 冬季休業のお知らせ 公募 2025.09.09 第20回TIS公募WEB展覧会公開 TISニュース 2025.10.29 「鈴木成一書店」とトークイベントのお知ら 展覧会 2025.07.30 東京ミッドタウン・デザインハブ特別展 I 展覧会 2025.08.04 Illustration Talks v 展覧会 2025.08.04 Illustration Talks v 公募 2025.08.01 第20回TIS公募結果発表！ TISニュース 2025.06.11 TIS会員になるには 展覧会 2025.05.16 Illustration Works 1 TISニュース 2023.10.31 AdobexTIS Trend & Il TISニュース 2023.12.14 香港イラストクリエイティブショー6（HK 展覧会 2025.04.18 「110人のイラストレーターが描く 宮沢 TISニュース 2025.04.14 コンクール等の応募要領に関する声明文につ ニュース一覧 会員の個展 caco個展 「海と地とブルー」 2026.06.06(土) - 2026.06.13(土) 牧角春那個展「惑う星のひかり」 2026.06.12(金) - 2026.06.17(水) 「どっちでもポテト」丸山一葉 2026.06.15(月) - 2026.06.20(土) ondo gallery STORE 「ツルモトマイ特集」 2026.05.15(金) - 2026.06.21(日) 近藤みか 個展「Sweet moments」 2026.06.11(木) - 2026.06.21(日) 「あまやどり」発売記念展示 2026.06.25(木) - 2026.07.07(火) 「映画を見ればわかること」原画展 2026.05.01(金) - 2026.11.23(月) 一覧を見る TISについて 特定商取引法に基づく表記 SHARE CONTENTS MENU OFFICIAL 会員用ログイン 当ウェブサイトに掲載されているコンテンツは、権利者の許可なく複製、転用等する事は法律で禁止されています。 Copyright (C) Tokyo Illustrators Society General Incorporated Association. All Rights Reserved.",
     "links": [
       {
         "label": "",
@@ -2659,124 +1627,124 @@
         "url": "https://www.tis-home.com/news/detail.html?id=4412&code=2"
       },
       {
-        "label": "macco macco",
-        "url": "https://www.tis-home.com/macco/"
+        "label": "toshinori yonemura 米村知倫",
+        "url": "https://www.tis-home.com/toshinori-yonemura/"
       },
       {
-        "label": "Takako Takako",
-        "url": "https://www.tis-home.com/Takako/"
+        "label": "Kawai Mako マコカワイ",
+        "url": "https://www.tis-home.com/Kawai-Mako/"
       },
       {
-        "label": "Yukako Ohde おおで ゆかこ",
-        "url": "https://www.tis-home.com/YukakoOhde/"
+        "label": "Daimon Nao ダイモンナオ",
+        "url": "https://www.tis-home.com/Daimon-Nao/"
       },
       {
-        "label": "Nobutsuna Watanabe 渡邊伸綱",
-        "url": "https://www.tis-home.com/Nobutsuna-Watanabe/"
+        "label": "Amano Kotobuki 天野 寿",
+        "url": "https://www.tis-home.com/amano-kotobuki/"
       },
       {
-        "label": "Tatsuro Kiuchi 木内達朗",
-        "url": "https://www.tis-home.com/tatsurokiuchi/"
+        "label": "Goto Megumi 後藤 恵",
+        "url": "https://www.tis-home.com/Goto-Megumi/"
       },
       {
-        "label": "Yasuko Shindo 進藤やす子",
-        "url": "https://www.tis-home.com/Yasuko-Shindo/"
+        "label": "Shigeyuki Sakata さかたしげゆき",
+        "url": "https://www.tis-home.com/shigeyuki-sakata/"
       },
       {
-        "label": "moriyuu 森優",
-        "url": "https://www.tis-home.com/moriyuu/"
+        "label": "yurie takaya タカヤ ユリエ",
+        "url": "https://www.tis-home.com/takayayurie/"
       },
       {
-        "label": "Kanae Sato 佐藤香苗",
-        "url": "https://www.tis-home.com/kanae-sato/"
+        "label": "Kenji Asazuma 浅妻健司",
+        "url": "https://www.tis-home.com/kenji-asazuma/"
       },
       {
-        "label": "chiaki takasugi 高杉千明",
-        "url": "https://www.tis-home.com/chiaki-takasugi/"
+        "label": "Ai Okino 沖野 愛",
+        "url": "https://www.tis-home.com/Ai-Okino/"
       },
       {
-        "label": "oogo mari 大庫真理",
-        "url": "https://www.tis-home.com/oogo-mari/"
+        "label": "Mana Kawasaki 川﨑真奈",
+        "url": "https://www.tis-home.com/Mana-Kawasaki/"
       },
       {
-        "label": "MATSUNO Miho 松野美穂",
-        "url": "https://www.tis-home.com/MATSUNO-Miho/"
+        "label": "Takayuki Ino 伊野孝行",
+        "url": "https://www.tis-home.com/Takayuki-Ino/"
+      },
+      {
+        "label": "Shigehisa Kitatani 北谷しげひさ",
+        "url": "https://www.tis-home.com/kitatani-shigehisa/"
+      },
+      {
+        "label": "MARIE ASABA アサバマリエ",
+        "url": "https://www.tis-home.com/MARIE-ASABA/"
       },
       {
         "label": "Matsuki Naoki 松木直紀",
         "url": "https://www.tis-home.com/naokisan/"
       },
       {
-        "label": "Yokoyama Yu 横山 雄",
-        "url": "https://www.tis-home.com/Yokoyama-Yu/"
+        "label": "Bioletti Alessandro ビオレッティ・アレッサンドロ",
+        "url": "https://www.tis-home.com/Bioletti-Alessandro/"
       },
       {
-        "label": "kimura keiko 木村桂子",
-        "url": "https://www.tis-home.com/kimura-keiko/"
+        "label": "sugiyama maiko 杉山真依子",
+        "url": "https://www.tis-home.com/sugiyama-maiko/"
       },
       {
-        "label": "Misaki Kihara 木原未沙紀",
-        "url": "https://www.tis-home.com/kihara-misaki/"
+        "label": "Marron Marron",
+        "url": "https://www.tis-home.com/Marron/"
       },
       {
-        "label": "yasuyuki sakuma 佐久間誉之",
-        "url": "https://www.tis-home.com/yasuyuki-sakuma/"
+        "label": "Rina Yoshioka 吉岡里奈",
+        "url": "https://www.tis-home.com/http-wwwtis-homecom/"
       },
       {
-        "label": "miura yumiko 三浦由美子",
-        "url": "https://www.tis-home.com/miura-yumiko/"
+        "label": "TAKAYUKI WATANABE 渡邉孝行",
+        "url": "https://www.tis-home.com/TAKAYUKI-WATANABE/"
       },
       {
-        "label": "Kunio Sato 佐藤邦雄",
-        "url": "https://www.tis-home.com/kunio-sato/"
+        "label": "Tomoyuki Aida 相田智之",
+        "url": "https://www.tis-home.com/Tomoyuki-Aida/"
       },
       {
-        "label": "Ayumi Takahashi 髙橋あゆみ",
-        "url": "https://www.tis-home.com/ayumi-takahashi/"
+        "label": "Horishita Yohey Yohey Horishita",
+        "url": "https://www.tis-home.com/YoheyHorishita/"
       },
       {
-        "label": "Matsumoto Saki 松本沙希",
-        "url": "https://www.tis-home.com/Matsumoto-Saki/"
+        "label": "Hitomi Itoh いとう瞳",
+        "url": "https://www.tis-home.com/hitomi-itoh/"
       },
       {
-        "label": "takamatsu kanae たかまつかなえ",
-        "url": "https://www.tis-home.com/takamatsu-kanae/"
+        "label": "Makisumi Haruna 牧角春那",
+        "url": "https://www.tis-home.com/harunamakisumi/"
       },
       {
-        "label": "Lola Zhang Lola Zhang",
-        "url": "https://www.tis-home.com/LolaZhang/"
+        "label": "Satomi Sakurai 櫻井砂冬美",
+        "url": "https://www.tis-home.com/satomi-sakurai/"
+      },
+      {
+        "label": "chiaki takasugi 高杉千明",
+        "url": "https://www.tis-home.com/chiaki-takasugi/"
+      },
+      {
+        "label": "Yoko Hasegawa 長谷川洋子",
+        "url": "https://www.tis-home.com/Yoko-Hasegawa/"
       },
       {
         "label": "Yoshioka Yuko 吉岡ゆうこ",
         "url": "https://www.tis-home.com/Yoshioka-Yuko/"
       },
       {
-        "label": "MASARU SHIMOMURA 下村 勝",
-        "url": "https://www.tis-home.com/masaru-shimomura/"
+        "label": "Nobutsuna Watanabe 渡邊伸綱",
+        "url": "https://www.tis-home.com/Nobutsuna-Watanabe/"
       },
       {
-        "label": "ayako kubo くぼあやこ",
-        "url": "https://www.tis-home.com/ayako-kubo/"
+        "label": "Sato Masami 佐藤昌美",
+        "url": "https://www.tis-home.com/sato-masami/"
       },
       {
-        "label": "AYUMI SHIMODA 霜田あゆ美",
-        "url": "https://www.tis-home.com/ayumi-shimoda/"
-      },
-      {
-        "label": "Hiroshi Abe あべ弘士",
-        "url": "https://www.tis-home.com/abe-hiroshi/"
-      },
-      {
-        "label": "Yamasaki Takashi 山﨑たかし",
-        "url": "https://www.tis-home.com/Yamasaki-Takashi/"
-      },
-      {
-        "label": "hinano 日菜乃",
-        "url": "https://www.tis-home.com/hinano/"
-      },
-      {
-        "label": "Moriya Reiko 守屋玲子",
-        "url": "https://www.tis-home.com/Moriya-Reiko/"
+        "label": "hiromichiito ヒロミチイト",
+        "url": "https://www.tis-home.com/hiromichiito/"
       },
       {
         "label": "公募 2026.05.11 第21回TIS作品募集終了！",
