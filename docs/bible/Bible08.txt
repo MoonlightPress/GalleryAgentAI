@@ -76,8 +76,10 @@ eyes, sitting on the desk among art supplies, papers, small plants. Large,
 central, warm. The palette is the warmest of the three — cream, amber, ochre,
 aged paper. Georgia serif headings. No hard edges anywhere.
 
-The Mochi status bar at the bottom of the page ("Mochi is happy and full /
-Mochi is napping in the sun") belongs here and only here.
+The Mochi status bar ("Mochi is happy and full / Mochi is napping in the sun")
+persists across all three pages, not just this one. She is the emotional anchor
+of the whole system. Even when the artist is on Peppercorn's or Saffron's page,
+Mochi is present at the bottom.
 
 CONTENT
 
@@ -128,8 +130,8 @@ ROLE
 
 Peppercorn is where the artist's voice enters the system. Without this page, the
 system is a monologue — it produces recommendations without ever asking whether
-they fit. Peppercorn changes that. She asks quiet questions. She remembers the
-answers. She adjusts the system's understanding of who the artist is and what
+they fit. Peppercorn changes that. He asks quiet questions. He remembers the
+answers. He adjusts the system's understanding of who the artist is and what
 she wants.
 
 This page answers: "Is this system understanding me correctly?"
@@ -137,13 +139,13 @@ This page answers: "Is this system understanding me correctly?"
 PERSONALITY
 
 Small, curious, thorough, a little shy but persistent. Peppercorn forages in
-margins where others do not look. She finds things by being attentive rather
-than bold. She asks the question the artist did not think to ask. She notices
+margins where others do not look. He finds things by being attentive rather
+than bold. He asks the question the artist did not think to ask. He notices
 what went in the pockets: what the artist lingered on, what she skipped, what
 made her say "not this, but more like that."
 
-Peppercorn does not rush. She is comfortable with silence and small increments.
-She is the reason the system gets smarter over time without the artist having
+Peppercorn does not rush. He is comfortable with silence and small increments.
+He is the reason the system gets smarter over time without the artist having
 to do much work.
 
 EMOTIONAL REGISTER
@@ -156,15 +158,18 @@ artist is being assessed or evaluated. Peppercorn is interested in what the
 artist thinks, not what the artist produces. The right feeling is a quiet
 afternoon with a notebook.
 
+Peppercorn is a black mouse. This is his physical identity. His illustration
+and the visual style of his page are not yet designed — do not invent or assume
+specific colours, palettes, or illustration details. The character (black mouse,
+small, curious, attentive) is fixed. The visual execution is TBD.
+
 VISUAL BRANDING
 
-A small mouse: near a candle or a pressed flower, surrounded by paper scraps
-and tiny handwritten notes. More delicate than Mochi's warm solidity — pencil-
-drawn aesthetic, finer lines, more intimate scale.
-
-Palette: pale paper-white, dusty rose, soft pencil-grey, very pale green. Still
-warm paper texture, but quieter and more intimate than Mochi's amber richness.
-Slightly smaller type. More white space. Nothing that demands attention.
+Peppercorn is a black mouse. His physical identity is established; everything
+else about his visual presentation — illustration style, palette, page
+composition — is to be determined. Do not invent or assume these details.
+When the time comes to design this page, start from the character (black mouse,
+small, curious, private) and build outward from there.
 
 CONTENT
 
@@ -228,15 +233,11 @@ hold it.
 
 VISUAL BRANDING
 
-Saffron is a small bird — a grey-blue thrush or warbler, echoing Mochi's grey
-colouring but in a cooler, higher register. Perched at a window or on a high
-ledge, looking out over mist or a city at dawn. The view is wide. Saffron is
-small against it.
-
-Palette: the coolest of the three — silver-grey, pale blue, morning mist,
-thin watercolour washes. Still warm paper texture, still Georgia serif, but
-airier and wider than the atelier warmth of Mochi's page. Less amber, more
-grey-blue. The feeling of early morning before anyone else is awake.
+Saffron is a red or yellow bird. Her physical identity is established; everything
+else about her visual presentation — illustration style, palette, page
+composition — is to be determined. Do not invent or assume these details.
+When the time comes to design this page, start from the character (red or yellow
+bird, perched high, wide view, observant) and build outward from there.
 
 CONTENT
 
@@ -262,17 +263,20 @@ NAVIGATION LABEL: "Saffron" — or the bird illustration
 
 NAVIGATION DESIGN
 
-The three companions should be navigable by illustration, not by text tab.
-At the top or left side of every page, the three animals appear as small
-watercolour illustrations. The current page's animal is larger or highlighted.
-Clicking an animal takes you to their page.
+The animals are the navigation. This is not a metaphor. There are no text tabs,
+no hamburger menus, no labelled buttons. The three companion illustrations —
+Mochi, Peppercorn, and Saffron — appear on every page. Clicking one takes you
+to their page. The active companion is distinguished (larger, highlighted, or
+otherwise foregrounded — the exact treatment is TBD). The system's character
+is established before the artist reads a single word.
 
-This is not decorative. The animals are navigation. They establish the system's
-character before the artist reads a single word.
+There is no other primary navigation structure. The animals are it.
 
-The Mochi status bar ("Mochi is happy and full") appears at the bottom of all
-three pages, not just Mochi's page — she is the emotional anchor of the whole
-system, even when the artist is on Peppercorn's or Saffron's pages.
+Mochi's status bar ("Mochi is happy and full") persists at the bottom of all
+three pages as the emotional anchor of the whole system. Even when the artist
+is on Peppercorn's or Saffron's page, Mochi is present. Her mood and message
+are always visible. This is not optional — it is part of what makes the system
+feel safe rather than demanding.
 
 ─────────────────────────────────────────────────────────────────────
 

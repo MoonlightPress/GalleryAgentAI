@@ -107,7 +107,7 @@ Agents call Claude via the Anthropic SDK. Model calls are not cached by default 
 
 ### The Three Companions
 
-The system has three pages, each anchored by a companion animal. Navigation between them is visual — the animal illustrations are the nav, not text tabs.
+The system has three pages, each anchored by a companion animal. **The animals are the navigation** — clicking a companion illustration takes you to their page. There are no text tabs, no labelled buttons. Mochi's status bar persists across all three pages as the emotional anchor of the system.
 
 | Companion | Page | Mode | Answers |
 |---|---|---|---|
@@ -136,29 +136,31 @@ The current `app.py` is a working prototype of this page.
 
 ### Peppercorn — The Mouse (Page 2: Reflection)
 
-The Mouse is where the artist's voice enters the system. Without this page the system is a monologue. The Mouse asks quiet questions and remembers the answers.
+Peppercorn is a black mouse. He is where the artist's voice enters the system. Without this page the system is a monologue. He asks quiet questions and remembers the answers.
 
 - **Personality:** Small, thorough, shy but persistent. Notices what the artist lingered on, skipped, pushed away.
 - **Content:** Artist statement, monthly goals, career phase, recommendation feedback ("not this kind / more like this"), portfolio body definitions, preference review, private notes
-- **Palette:** Cooler and more intimate — pale paper-white, dusty rose, pencil-grey, soft green. Delicate pencil-drawn aesthetic.
+- **Visual style:** TBD. Do not invent palettes or illustration details. Start from the character — black mouse, small, curious, private — when the time comes to design.
 - **Tone:** *"Does this kind of opportunity feel right to you?"* / *"You skipped five gallery calls last month. Should I stop surfacing them?"*
 
 This page does not exist yet.
 
 ### Saffron — The Bird (Page 3: Context)
 
-The Bird sees patterns the artist cannot see from the ground. Non-interventionist. Reports without judging.
+Saffron is a red or yellow bird. She sees patterns the artist cannot see from the ground. Non-interventionist. Reports without judging.
 
 - **Personality:** Observant, patient, long-horizon. Perches and watches. Does not advise — describes.
 - **Content:** Comparable artists, opportunity landscape, market context, career statistics, score trends, peer activity
-- **Palette:** Coolest of the three — silver-grey, pale blue, morning mist. Still warm paper texture but wider and airier.
+- **Visual style:** TBD. Do not invent palettes or illustration details. Start from the character — red or yellow bird, perched high, wide view, observant — when the time comes to design.
 - **Tone:** *"From up here, here are three artists doing similar work in Tokyo right now."* / *"TOKAS has run its open call every May for the past four years."*
 
 This page does not exist yet.
 
 ### The Aesthetic (All Three Pages)
 
-Warm watercolor atelier across all three pages, with palette variations per companion. The CSS design tokens named in `mochi_app.py` (archived) — `--paper`, `--ink`, `--muted`, `--gold`, `--leaf`, `--rose` — remain correct for Mochi's page. Georgia serif headings throughout. No hard edges, no cold greys, nothing that feels like a SaaS dashboard.
+Warm watercolor atelier overall. The CSS design tokens from `mochi_app.py` (archived) — `--paper`, `--ink`, `--muted`, `--gold`, `--leaf`, `--rose` — are confirmed for Mochi's page. Georgia serif headings throughout. No hard edges, no cold greys, nothing that feels like a SaaS dashboard.
+
+**Peppercorn and Saffron's visual styles are TBD.** Do not invent palettes, illustration styles, or page layouts for them. Their physical identities are fixed (black mouse; red or yellow bird). Everything else waits for a real design pass.
 
 ### What This Means for Code
 
