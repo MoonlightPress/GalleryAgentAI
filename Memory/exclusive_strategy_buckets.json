@@ -8,7 +8,7 @@
       "verification_bucket": "",
       "verification_score": "",
       "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
-      "source": "https://note.com/bookcultureclub/",
+      "source": "https://note.com/bookcultureclub/n/n053a24287fc2",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -169,25 +169,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "NADiff a/p/a/r/t",
-      "score": 6.5,
-      "differentiated_score": 9.52,
-      "visual_fit_score": 3.25,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
-      "source": "https://www.nadiff.com/",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "Shimokitazawa Arts",
       "score": 8.2,
       "differentiated_score": 9.36,
@@ -203,27 +184,6 @@
       "action_type": "contact_and_propose",
       "relationship_note": "Small gallery in Shimokitazawa showing younger Japanese artists monthly. Direct proposal by email to info@shimokitazawaarts.tokyo.",
       "draft_introduction_ja": "件名：水彩画作品の展示についてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の大気感、室内の光、猋などをテーマに、静かで親密な水彩作品を制作しています。\n下北沢アーツさんで作品をご紹介できる機会について、ご相談できれば大変嫌しく思います。\nポートフォリオをお送りすることも可能ですので、どうぞよろしくお願いいたします。"
-    },
-    {
-      "title": "torch press",
-      "score": 6.5,
-      "differentiated_score": 7.9,
-      "visual_fit_score": 5.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Potential fit if her work is presented as a coherent printed project rather than loose portfolio images.",
-      "source": "",
-      "visual_hits": [
-        "artist book",
-        "small press",
-        "artist_book",
-        "zine",
-        "small_press"
-      ],
-      "opportunity_type": "small_press_publisher",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
     }
   ],
   "publication_targets": [
@@ -1485,6 +1445,27 @@
       "source": "https://www.asianculturalcouncil.org/",
       "visual_hits": [],
       "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "torch press",
+      "score": 6.5,
+      "differentiated_score": 7.9,
+      "visual_fit_score": 5.0,
+      "verification_bucket": "stretch_targets",
+      "verification_score": "",
+      "why": "Invitation-only publisher — no submissions. Tier 4 watch target. Approach only after established Tokyo art book ecosystem presence.",
+      "source": "",
+      "visual_hits": [
+        "artist book",
+        "small press",
+        "artist_book",
+        "zine",
+        "small_press"
+      ],
+      "opportunity_type": "small_press_publisher",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -2862,6 +2843,25 @@
       "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/",
       "visual_hits": [
         "watercolor"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "NADiff a/p/a/r/t",
+      "score": 6.5,
+      "differentiated_score": 9.52,
+      "visual_fit_score": 3.25,
+      "verification_bucket": "reject",
+      "verification_score": "",
+      "why": "PERMANENTLY CLOSED March 31 2025. Website down. Not actionable.",
+      "source": "https://www.nadiff.com/",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
       ],
       "opportunity_type": "open_call",
       "action_type": "apply",

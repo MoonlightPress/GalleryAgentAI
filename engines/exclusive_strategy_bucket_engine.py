@@ -88,6 +88,11 @@ def choose_bucket(opp):
     if opp.get("verification_bucket") == "reject":
         return "reject"
 
+    # Data-level bucket override — lets individual records pin to a bucket
+    # without requiring engine changes (e.g. invitation-only publishers → stretch_targets)
+    if opp.get("verification_bucket") == "stretch_targets":
+        return "stretch_targets"
+
     # Only use dscore for low_priority check when it is actually set (>0)
     if score <= 4 or (dscore > 0 and dscore <= 4):
         return "low_priority"
@@ -108,6 +113,8 @@ def choose_bucket(opp):
         "offprint",
         "aperture",
         "mack",
+        # torch press: invitation-only label; no submissions; Tier 4 aspirational target
+        "torch press",
     ]
 
     # Tier 1 — Ambient Visibility: zine/bookshop ecosystem, art book fairs.
@@ -121,9 +128,7 @@ def choose_bucket(opp):
         "flotsam",
         "b&b shimokitazawa",
         "bookandbeer",
-        "nadiff",
         "shashasha",
-        "torch press",
         "zine fest",
         "zine fair",
         "fugensha",
