@@ -1,0 +1,292 @@
+THREE COMPANIONS: THE UI VISION
+Bible Entry 08 — Written 2026-06-01
+
+─────────────────────────────────────────────────────────────────────
+
+THE STRUCTURE IN ONE SENTENCE
+
+The system has three companion animals — a cat, a mouse, and a bird — each
+representing a different mode of engagement with an artist's career. Together
+they replace the single-page dashboard structure. Nothing is built yet.
+This document is the vision.
+
+─────────────────────────────────────────────────────────────────────
+
+WHY THREE PAGES
+
+The current app.py Streamlit dashboard organizes itself by feature: Opportunities,
+Outreach, Peers, Analytics. This is a reasonable starting point. It is not the
+right long-term structure.
+
+Artists don't navigate by feature. They navigate by mental mode.
+
+When an artist opens this system, they are in one of three states:
+
+  1. "What should I do today?" — ready to act, looking for direction
+  2. "Is this system understanding me correctly?" — reflective, calibrating
+  3. "What does the bigger picture look like?" — stepping back, seeking context
+
+The three-page structure maps directly to these three modes. Each page has one
+companion animal, one personality, one emotional register, and one set of
+content. The navigation between them is visual — you click the relevant animal,
+not a text menu item.
+
+The current single-page structure is a prototype of page 1 (Mochi). Pages 2
+and 3 do not exist yet. This document defines all three.
+
+─────────────────────────────────────────────────────────────────────
+
+PAGE ONE: MOCHI
+The cat. Opportunity hunting. Legwork done. Ready to act.
+
+ROLE
+
+Mochi has been doing the work while the artist was away. The pipeline has run.
+Opportunities have been found, scored, verified. Relationships have been
+identified. Emails have been drafted. When the artist arrives, Mochi is already
+on the desk with the relevant things sorted. The action is ready. The artist
+just needs to decide.
+
+This page answers: "What should I do today?"
+
+PERSONALITY
+
+Cats do not chase carelessly. They watch, they wait, and when they move they
+move with precision. Mochi is not anxious. She does not produce fifty options
+and ask the artist to sort through them. She produces three. She is comfortable
+in the atelier because she has already done the difficult part. Her composure
+is the result of thoroughness, not laziness.
+
+She has no opinion about whether the artist acts today. She will be here
+tomorrow. The work will still be ready.
+
+EMOTIONAL REGISTER
+
+Safety. Readiness. Calm competence.
+
+The artist opens this page and feels: things are prepared. There is no pile of
+undone tasks. There is a small, curated set of good options, presented without
+drama. The right feeling is arriving at a studio where someone has laid your
+materials out neatly and made tea.
+
+VISUAL BRANDING
+
+The existing Mochi illustration is correct: a fluffy grey tabby, half-closed
+eyes, sitting on the desk among art supplies, papers, small plants. Large,
+central, warm. The palette is the warmest of the three — cream, amber, ochre,
+aged paper. Georgia serif headings. No hard edges anywhere.
+
+The Mochi status bar at the bottom of the page ("Mochi is happy and full /
+Mochi is napping in the sun") belongs here and only here.
+
+CONTENT
+
+  - Today's Focus: three specific actions, always exactly three
+  - Immediate Best Moves: open calls + relationship targets, mixed
+  - Submission queue: what has been drafted, what is pending artist review
+  - Next email drafts: ready for review and sending
+  - Recently verified opportunities: new things that passed verification
+  - Watch list: closed opportunities with next-cycle dates
+
+TONE EXAMPLES
+
+  "Mochi found three things worth your attention today."
+  "Your application to the Tokyo Art Book Fair is almost ready."
+  "B&B Shimokitazawa is waiting for a message."
+  "Nothing urgent. Come back tomorrow."
+
+NAVIGATION LABEL: "Mochi" — or simply the cat illustration
+
+─────────────────────────────────────────────────────────────────────
+
+PAGE TWO: THE MOUSE
+The artist input layer. Goals, statement, refinement. The place the artist speaks.
+
+ROLE
+
+The Mouse is where the artist's voice enters the system. Without this page, the
+system is a monologue — it produces recommendations without ever asking whether
+they fit. The Mouse changes that. She asks quiet questions. She remembers the
+answers. She adjusts the system's understanding of who the artist is and what
+she wants.
+
+This page answers: "Is this system understanding me correctly?"
+
+PERSONALITY
+
+Small, curious, thorough, a little shy but persistent. The mouse forages in
+margins where others do not look. She finds things by being attentive rather
+than bold. She asks the question the artist did not think to ask. She notices
+what went in the pockets: what the artist lingered on, what she skipped, what
+made her say "not this, but more like that."
+
+The mouse does not rush. She is comfortable with silence and small increments.
+She is the reason the system gets smarter over time without the artist having
+to do much work.
+
+EMOTIONAL REGISTER
+
+Introspection without pressure.
+
+This page should feel like a journal or a sketchbook — a private space to think
+out loud. Not a settings panel. Not a form. There should be no sense that the
+artist is being assessed or evaluated. The Mouse is interested in what the
+artist thinks, not what the artist produces. The right feeling is a quiet
+afternoon with a notebook.
+
+VISUAL BRANDING
+
+A small mouse: near a candle or a pressed flower, surrounded by paper scraps
+and tiny handwritten notes. More delicate than Mochi's warm solidity — pencil-
+drawn aesthetic, finer lines, more intimate scale.
+
+Palette: pale paper-white, dusty rose, soft pencil-grey, very pale green. Still
+warm paper texture, but quieter and more intimate than Mochi's amber richness.
+Slightly smaller type. More white space. Nothing that demands attention.
+
+CONTENT
+
+  - Artist statement: read, edit, refine
+  - Current goals: what matters this month, this season, this year
+  - Career phase: where are you in the four-tier framework?
+  - Feedback on recommendations: "this fits" / "not this kind" / "more like this"
+  - Portfolio body definitions: which bodies of work are active, which are forming
+  - Preference learning: review what the system has learned about your taste
+  - Notes and reflections: private, not surfaced anywhere else
+  - Profile completeness: what would make recommendations better if filled in
+
+TONE EXAMPLES
+
+  "What do you want to focus on this month?"
+  "Does this kind of opportunity feel right to you?"
+  "The system has learned three things about your preferences. Here's what it thinks."
+  "Your artist statement hasn't changed in 60 days. Does it still feel accurate?"
+  "You skipped five gallery open calls last month. Should I stop surfacing them?"
+
+NAVIGATION LABEL: "Mouse" — or the mouse illustration
+
+─────────────────────────────────────────────────────────────────────
+
+PAGE THREE: THE BIRD
+The observatory. Market view. Statistics. Context. Comparable artists.
+
+ROLE
+
+The Bird sees patterns the artist cannot see from the ground. She watches from
+above — not intervening, not advising, just describing what she observes. Who
+else is doing this kind of work. What institutions are active. How this career
+looks in the context of others like it. What the landscape looks like from
+a longer view.
+
+This page answers: "What does the bigger picture look like?"
+
+PERSONALITY
+
+Observant, non-judgmental, long-horizon. Birds do not rush. They perch and
+watch. The Bird does not have opinions about what the artist should do — she
+reports what she sees. She is the most objective voice in the system. She does
+not root for anything. She just describes the territory.
+
+She is also the most patient. The patterns she tracks take months to become
+meaningful. She is not useful every day. She is useful once a month, once a
+season — when the artist needs to step back and reorient.
+
+EMOTIONAL REGISTER
+
+Curiosity and perspective.
+
+Not anxiety-inducing. Not "you are behind, here is a graph." Not falsely
+cheerful. Just: from up here, here is what the landscape looks like. The
+artist should finish reading this page feeling more informed and more
+contextualized — neither pressured nor falsely reassured.
+
+The Bird does not compare the artist to others to shame her. She compares
+in order to orient. There is a meaningful difference and the copy must
+hold it.
+
+VISUAL BRANDING
+
+A small bird — a grey-blue thrush or warbler, echoing Mochi's grey colouring
+but in a cooler, higher register. Perched at a window or on a high ledge,
+looking out over mist or a city at dawn. The view is wide. The bird is small
+against it.
+
+Palette: the coolest of the three — silver-grey, pale blue, morning mist,
+thin watercolour washes. Still warm paper texture, still Georgia serif, but
+airier and wider than the atelier warmth of Mochi's page. Less amber, more
+grey-blue. The feeling of early morning before anyone else is awake.
+
+CONTENT
+
+  - Comparable artists: who is doing similar work, where they are showing
+  - Opportunity landscape: what is open, what is closing, what is new
+  - Market context: which institutions have been active, trends in open calls
+  - Career statistics: applications made, relationships initiated, response rates
+  - Score and quality trends: is the pipeline improving over time?
+  - Peer activity: what artists in adjacent spaces have been doing
+  - Career phase context: where are artists like this typically at this stage?
+
+TONE EXAMPLES
+
+  "From up here, here are three artists doing similar work in Tokyo right now."
+  "Twelve watercolor open calls have closed since your last visit. Two new ones opened."
+  "Your pipeline has found 163 opportunities. 4 are currently actionable."
+  "Artists at a similar stage typically have 1-3 exhibition credits. You have one."
+  "TOKAS has run its open call every May for the past four years."
+
+NAVIGATION LABEL: "Bird" — or the bird illustration
+
+─────────────────────────────────────────────────────────────────────
+
+NAVIGATION DESIGN
+
+The three companions should be navigable by illustration, not by text tab.
+At the top or left side of every page, the three animals appear as small
+watercolour illustrations. The current page's animal is larger or highlighted.
+Clicking an animal takes you to their page.
+
+This is not decorative. The animals are navigation. They establish the system's
+character before the artist reads a single word.
+
+The Mochi status bar ("Mochi is happy and full") appears at the bottom of all
+three pages, not just Mochi's page — she is the emotional anchor of the whole
+system, even when the artist is on the Bird or Mouse pages.
+
+─────────────────────────────────────────────────────────────────────
+
+RELATIONSHIP TO THE CURRENT APP
+
+The current app.py Streamlit dashboard is a working prototype of Mochi's page.
+It has the right aesthetic: cream, warm, cat illustration, six-card section
+structure, Today's Focus hero, correct tone.
+
+What it lacks:
+
+  - The Mouse: no place for the artist to speak, refine, or give feedback
+  - The Bird: no observatory, no market context, no comparable artists
+  - The structure: all content is on one page, which eventually becomes cluttered
+
+When the UI is rebuilt:
+
+  - The current app.py structure becomes Mochi's page, cleaned up
+  - Mouse and Bird are built as new pages
+  - Navigation between them is visual, animal-based
+  - The status bar persists across all three
+
+Nothing is built yet. This document is the vision. The current phase is
+stabilization, not construction. When the time comes to build, start here.
+
+─────────────────────────────────────────────────────────────────────
+
+THE TONE RULE THAT SPANS ALL THREE PAGES
+
+The companions are not managers. They do not judge the artist. They do not
+measure productivity or make the artist feel behind. They exist because an
+artist's career is hard, slow, and full of uncertainty — and the right
+response to that is not a productivity dashboard but a set of quiet,
+competent companions who each do one thing well.
+
+Mochi handles the legwork. The Mouse handles reflection. The Bird handles
+context. The artist makes the decisions.
+
+─────────────────────────────────────────────────────────────────────

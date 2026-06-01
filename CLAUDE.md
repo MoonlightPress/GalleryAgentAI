@@ -101,54 +101,69 @@ Agents call Claude via the Anthropic SDK. Model calls are not cached by default 
 
 ## UI Vision
 
-**This is the north star for all future UI development.** Reference mockups: `Content/ChatGPT Image May 24, 2026, 09_07_39 PM.png` and `09_07_43 PM.png`.
+**The north star for all future UI development is the Three Companions architecture.** Full specification: `docs/bible/Bible08.txt`. Reference mockups: `Content/ChatGPT Image May 24, 2026, 09_07_39 PM.png` and `09_07_43 PM.png`.
 
-### The Aesthetic
+**Do not build yet.** The current phase is stabilization. The vision is documented here so all future work is oriented correctly.
 
-Warm watercolor atelier. The visual language is a cozy artist's studio — cream and warm beige backgrounds, soft botanical illustrations, natural light, books, art supplies, open sketchbooks. Every colour and texture should feel like it belongs in a watercolour painting. The CSS design tokens in `mochi_app.py` (archived) named this palette correctly: `--paper`, `--ink`, `--muted`, `--gold`, `--leaf`, `--rose`. Rounded corners throughout. Georgia serif for headings. No hard edges, no cold greys, nothing that feels like a SaaS dashboard.
+### The Three Companions
 
-### Mochi the Cat
+The system has three pages, each anchored by a companion animal. Navigation between them is visual — the animal illustrations are the nav, not text tabs.
 
-Mochi is a fluffy grey tabby who lives in the atelier. She is the emotional anchor of the interface. She appears as a large watercolour illustration in the hero — sitting on the desk, eyes half-closed, surrounded by art supplies and plants. She has a persistent status bar at the bottom of every page showing her current mood (`Happy + Full + Content`) and a short message (`Mochi is happily napping in the sun. Come back later to feed and play.`). Her presence exists to reduce anxiety. She is not a mascot or gamification trick — she is the reason the interface feels safe rather than demanding.
+| Companion | Page | Mode | Answers |
+|---|---|---|---|
+| **Mochi** (cat) | Action | Opportunity hunting, legwork done, ready to act | "What should I do today?" |
+| **The Mouse** | Input | Artist goals, statement, preferences, feedback | "Is this system understanding me correctly?" |
+| **The Bird** | Observatory | Market view, statistics, comparable artists, context | "What does the bigger picture look like?" |
 
-### Today's Focus — The Hero Section
+**Mochi's status bar** ("Mochi is happy and full") persists across all three pages — she is the emotional anchor of the whole system.
 
-The most important element on the homepage. Sits in the top-left above the fold alongside the Mochi illustration. Contains exactly **three specific daily actions** — not suggestions, not a list of fifty things, three things the artist can actually do today:
+### Mochi — The Cat (Page 1: Action)
 
-1. Explore 3 new opportunities
-2. Draft 1 outreach email
-3. Research 1 artist
+Mochi has done the legwork while the artist was away. The pipeline has run. Opportunities are sorted. Emails are drafted. When the artist arrives, three things are ready.
 
-A "See all quests →" link leads to the full Quests section. This section is the answer to "What should I do today?" and must never be cluttered. Three actions maximum.
+- **Personality:** Watchful, patient, precise. Does not chase carelessly. Produces three options, not fifty.
+- **Content:** Today's Focus (always exactly 3 actions), Immediate Best Moves (open calls + relationship targets), submission queue, next email drafts, watch list
+- **Palette:** Warmest of the three — cream, amber, ochre, aged paper. The existing Mochi illustration (grey tabby, desk, art supplies) is correct.
+- **Tone:** *"Mochi found three things worth your attention today."* / *"Nothing urgent. Come back tomorrow."*
 
-The greeting is time-aware and personal: *"Good afternoon, Mochi / let's grow today."*
+The current `app.py` is a working prototype of this page.
 
-### Section Cards
+### The Mouse — Artist Input (Page 2: Reflection)
 
-Six cards beneath the hero, in this order:
+The Mouse is where the artist's voice enters the system. Without this page the system is a monologue. The Mouse asks quiet questions and remembers the answers.
 
-| Section | Purpose |
-|---|---|
-| **Opportunities** | Discover galleries, residencies, open calls, and more |
-| **Suggested Peers** | Artists to follow, connect with, and learn from |
-| **Outreach** | Track conversations and manage your outreach |
-| **Quests** | Daily and weekly goals to keep your practice moving |
-| **Journal** | Capture ideas, reflections, and inspiration |
-| **Analytics** | See your progress and patterns over time |
+- **Personality:** Small, thorough, shy but persistent. Notices what the artist lingered on, skipped, pushed away.
+- **Content:** Artist statement, monthly goals, career phase, recommendation feedback ("not this kind / more like this"), portfolio body definitions, preference review, private notes
+- **Palette:** Cooler and more intimate — pale paper-white, dusty rose, pencil-grey, soft green. Delicate pencil-drawn aesthetic.
+- **Tone:** *"Does this kind of opportunity feel right to you?"* / *"You skipped five gallery calls last month. Should I stop surfacing them?"*
 
-Each card has a small watercolour illustration, a one-line description, and a single action link. Cards are equal-width, same height, gentle shadow.
+This page does not exist yet.
 
-### Tone
+### The Bird — Observatory (Page 3: Context)
 
-Every word in the interface should be gentle and encouraging. The system is a companion, not a manager. Examples from the mockup: *"let's grow today"*, *"You've got beautiful things to make."* The interface should never make the artist feel behind, overwhelmed, or judged. If a section is empty, the empty state is warm — not a red warning, not a productivity guilt trip.
+The Bird sees patterns the artist cannot see from the ground. Non-interventionist. Reports without judging.
+
+- **Personality:** Observant, patient, long-horizon. Perches and watches. Does not advise — describes.
+- **Content:** Comparable artists, opportunity landscape, market context, career statistics, score trends, peer activity
+- **Palette:** Coolest of the three — silver-grey, pale blue, morning mist. Still warm paper texture but wider and airier.
+- **Tone:** *"From up here, here are three artists doing similar work in Tokyo right now."* / *"TOKAS has run its open call every May for the past four years."*
+
+This page does not exist yet.
+
+### The Aesthetic (All Three Pages)
+
+Warm watercolor atelier across all three pages, with palette variations per companion. The CSS design tokens named in `mochi_app.py` (archived) — `--paper`, `--ink`, `--muted`, `--gold`, `--leaf`, `--rose` — remain correct for Mochi's page. Georgia serif headings throughout. No hard edges, no cold greys, nothing that feels like a SaaS dashboard.
 
 ### What This Means for Code
 
-- Never introduce cold blue/grey colour schemes, dense tables, or aggressive CTAs
-- Empty states get warm copy and a small illustration, not "No data found"
-- New UI sections follow the card pattern — title, one-line description, watercolour icon, single action link
-- The Mochi status bar persists across all pages
+- The three-companion structure supersedes the six-card single-page layout described in earlier versions of this file
+- The current `app.py` becomes Mochi's page when the rebuild happens — do not conflate it with the whole system
+- The Mouse is the missing feedback loop; nothing should be built that assumes the system knows the artist's preferences without it
+- The Bird is the missing market context; statistics and analytics belong there, not on Mochi's action page
+- The Mochi status bar persists across all three pages
 - Today's Focus is always three items — the pipeline must surface exactly three actionable items, not a ranked list of fifty
+- Never introduce cold blue/grey colour schemes, dense tables, or aggressive CTAs on any of the three pages
+- Empty states get warm copy and a small illustration, not "No data found"
 
 ## Career Strategy Framework
 
