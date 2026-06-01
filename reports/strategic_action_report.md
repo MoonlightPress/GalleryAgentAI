@@ -13,7 +13,7 @@ Best current options: good fit, useful direction, and worth acting on first.
    > 🇯🇵 _件名：水彩画の展示についてのご相談 / はじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。_
 4. **flotsam books** — score 7.6, visual 3.7. **Action: Contact and propose**. Tokyo bookshop and gallery hybrid. Consignment or exhibition inquiry.
    > 🇯🇵 _件名：水彩画作品の展示・お取り扱いについてのご相談 / はじめまして。東京在住の水彩画家、GEGYjijiと申します。_
-5. **MOUNT ZINE** — score 7.6, visual 3.7, verification . Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest
+5. **MOUNT ZINE** — score 7.6, visual 3.7, verification . Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 6. **Northwest Watercolor Society 2026 Annual International Open Exhibition** — score 8.8, visual 0.45, verification . Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
 7. **Book and Sons** — score 7.6, visual 1.3. **Action: Contact and propose**. Art and design bookstore with exhibition space. Artist-book consignment or show inquiry.
    > 🇯🇵 _件名：水彩画作品のお取り扱いについてのご相談 / はじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。_

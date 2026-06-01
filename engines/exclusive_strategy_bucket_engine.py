@@ -88,7 +88,8 @@ def choose_bucket(opp):
     if opp.get("verification_bucket") == "reject":
         return "reject"
 
-    if score <= 4 or dscore <= 4:
+    # Only use dscore for low_priority check when it is actually set (>0)
+    if score <= 4 or (dscore > 0 and dscore <= 4):
         return "low_priority"
 
     if has(title, ["facebook", "instagram", "pinterest", "tiktok", "continue reading"]):
@@ -131,6 +132,10 @@ def choose_bucket(opp):
         "sunny boy books",
         "clouds art",
         "shimokitazawa arts",
+        # Recurring Tokyo zine fairs
+        "zinefes",
+        "zineフェス",
+        "zine fest tokyo",
         # Currently-open international watercolor calls
         "northwest watercolor society",
         "cspwc",

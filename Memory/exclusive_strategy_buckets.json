@@ -87,7 +87,7 @@
       "visual_fit_score": 3.7,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
+      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
       "source": "https://zine.mount.co.jp/",
       "visual_hits": [
         "artist book",
@@ -95,10 +95,10 @@
         "artist_book",
         "zine"
       ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
+      "opportunity_type": "relationship_target",
+      "action_type": "submit_when_open",
+      "relationship_note": "Zine shop near Komazawa University. Accepts submissions during spring/autumn recruitment periods — no fee, no juried selection. Monitor @mountzine for autumn 2026 window.",
+      "draft_introduction_ja": "※ 応募期間中にウェブサイト（zine.mount.co.jp）からご応募ください。\n申し込みの際には以下の情報をご準備ください：\n- ZINEのタイトル・内容説明\n- 販売希望価格\n- サンプル画像\n\n《自己紹介文の例》\n東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光、猫などをテーマとした水彩画と、アーティストブックを制作しています。\nぜひご検討よろしくお願いいたします。"
     },
     {
       "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
@@ -204,6 +204,21 @@
         "small_press"
       ],
       "opportunity_type": "small_press_publisher",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "score": 7.8,
+      "differentiated_score": null,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
+      "source": "https://note.com/bookcultureclub/",
+      "visual_hits": [],
+      "opportunity_type": "open_call",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -696,23 +711,6 @@
         "zine"
       ],
       "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "ZINEフェス東京",
-      "score": 7.6,
-      "differentiated_score": 9.29,
-      "visual_fit_score": 1.3,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "ZINEフェス東京 fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "source": "https://x.com/zinefarmtokyo/status/2030078129293938743",
-      "visual_hits": [
-        "zine"
-      ],
-      "opportunity_type": "enriched_opportunity",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""

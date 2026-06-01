@@ -4413,6 +4413,52 @@
     "curator_patterns": []
   },
   {
+    "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+    "name": "ZINEフェス東京 (ZINE Fest Tokyo)",
+    "organization": "BOOK CULTURE CLUB",
+    "category": "zine_fair_booth",
+    "city": "Tokyo",
+    "country": "Japan",
+    "overall_score": 7.8,
+    "visual_fit_score": 3.7,
+    "source_url": "https://note.com/bookcultureclub/",
+    "submission_page": "https://note.com/bookcultureclub/n/n14764ff42f86",
+    "deadline": "Rolling — 2 weeks before each event. Next Tokyo: July 11 2026 (deadline ~June 27)",
+    "fees": "¥5,200 (1 person, with promotion) / ¥6,200 (1 person, no promotion)",
+    "deadline_verified": true,
+    "one_sentence": "Monthly Tokyo zine fair organized by BOOK CULTURE CLUB — 90cm half-table booth, ¥5,200-6,200 fee, applications close 2 weeks before each event. Next Tokyo date: July 11 2026.",
+    "why_this_fits_short": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
+    "quick_action": "Check note.com/bookcultureclub for the July 11 2026 Tokyo event application page. Apply via STORES payment link before ~June 27. Booth: 90cm x 90cm half-table. Bring self-created zines/artist books only (no consignment).",
+    "three_bullets": [
+      "Next Tokyo date: July 11 2026 — deadline approximately June 27 (~10 days away).",
+      "Booth fee: ¥5,200-6,200 for a 90cm half-table.",
+      "Also: September 26 2026 Tokyo date. Multiple events throughout 2026."
+    ],
+    "tags": [
+      "tokyo",
+      "zine_fair",
+      "booth",
+      "recurring",
+      "tier_1",
+      "currently_open"
+    ],
+    "exhibition_timeline": {
+      "next_tokyo_event": "July 11, 2026",
+      "application_deadline_approx": "June 27, 2026 (2 weeks before)",
+      "second_tokyo_event": "September 26, 2026",
+      "venue": "Tokyo Metropolitan Industrial Trade Center, Taito Building (Asakusa Station, 5 min walk)"
+    },
+    "opportunity_type": "open_call",
+    "action_type": "apply",
+    "verification_status": "partial",
+    "url_verification_status": "ok",
+    "research_priority": "high",
+    "manual_review_needed": true,
+    "added_at": "2026-06-01",
+    "source_type": "discovery_search",
+    "exclusive_primary_bucket": "immediate_best_moves"
+  },
+  {
     "title": "UTRECHT",
     "category": "bookstore_gallery",
     "city": "Tokyo",
@@ -5005,22 +5051,22 @@
   },
   {
     "title": "MOUNT ZINE",
-    "category": "zine_print",
+    "category": "zine_shop_consignment",
     "city": "Tokyo",
     "priority": "C",
     "overall_score": 7.6,
     "difficulty": "low",
     "recommendation_strength": "mild_positive",
-    "one_sentence": "Tokyo-based zine platform offering a low-pressure publishing ecosystem for artists, potentially good for modest visibility in Japan's alternative art scene.",
+    "one_sentence": "Tokyo zine shop near Komazawa University that accepts zine submissions twice yearly (spring and autumn) with no fees and no screening — good Tier 1 ambient visibility target for artist-book and print work.",
     "three_bullets": [
-      "Very low friction: zine format removes institutional art world pressure and competitive application stress",
-      "Japan location aligns with your regional interest and subject matter cultural context",
-      "Limited career impact but safe exploration of print publishing without significant time/financial investment"
+      "Permanent Tokyo zine shop, not a fair — work stays in stock.",
+      "No fees, no screening — accepts all genres.",
+      "Twice-yearly open recruitment windows (spring/autumn). Watch @mountzine for autumn 2026 announcement."
     ],
-    "quick_action": "Visit website to understand current submission process and whether they accept international submissions or primarily local artists",
-    "why_this_fits_short": "Matches your preference for low-pressure opportunities in Japan with clear guidelines, though impact is modest",
-    "deadline": "Unknown",
-    "fees": "Unknown",
+    "quick_action": "Watch @mountzine on Twitter/X and Instagram for autumn 2026 submission recruitment announcement (typically September-October). Apply via zine.mount.co.jp when the window opens. No fee required.",
+    "why_this_fits_short": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
+    "deadline": "Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window",
+    "fees": "No fee",
     "predatory_risk": 1,
     "emotional_fit": 8,
     "submission_score": 7,
@@ -5171,7 +5217,15 @@
     "uncapped_score": 9.0,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 7.6 due to verification strength."
+    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
+    "name": "MOUNT ZINE",
+    "opportunity_type": "relationship_target",
+    "action_type": "submit_when_open",
+    "relationship_note": "Zine shop near Komazawa University. Accepts submissions during spring/autumn recruitment periods — no fee, no juried selection. Monitor @mountzine for autumn 2026 window.",
+    "draft_introduction_ja": "※ 応募期間中にウェブサイト（zine.mount.co.jp）からご応募ください。\n申し込みの際には以下の情報をご準備ください：\n- ZINEのタイトル・内容説明\n- 販売希望価格\n- サンプル画像\n\n《自己紹介文の例》\n東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光、猫などをテーマとした水彩画と、アーティストブックを制作しています。\nぜひご検討よろしくお願いいたします。",
+    "draft_introduction_en": "Note: Apply via the website (zine.mount.co.jp) during the open recruitment period.\n\nBrief artist description for the application:\nGEGYjiji is a watercolor artist based in Tokyo. I make intimate watercolor paintings and artist books focused on urban stillness, interior light, and cats.",
+    "contact_url": "https://mount.co.jp/contact/",
+    "verification_note": "MOUNT ZINE is a permanent shop not a fair. Twice-yearly submission windows. Spring 2026 status unknown — check for autumn window (typically September-October)."
   },
   {
     "title": "Submissions — Clavis Publishing",
@@ -11555,190 +11609,6 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Capped at 7.6 due to verification strength."
-  },
-  {
-    "title": "ZINEフェス東京",
-    "name": "ZINEフェス東京",
-    "organization": "ZINEフェス東京",
-    "category": "fair_popup",
-    "city": "Japan / Tokyo / Online",
-    "overall_score": 7.6,
-    "one_sentence": "ZINEフェス東京 fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-    "suggested_display_summary": "ZINEフェス東京 fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-    "why_this_fits_short": "ZINEフェス東京 fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-    "quick_action": "Check application window, booth/table fee, required images, and whether a finished zine is required.",
-    "source_url": "https://x.com/zinefarmtokyo/status/2030078129293938743",
-    "source_link": "https://x.com/zinefarmtokyo/status/2030078129293938743",
-    "official_website": "https://x.com/zinefarmtokyo/status/2030078129293938743",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "difficulty": "medium",
-    "three_bullets": [
-      "Fit score: 87.",
-      "Actionability score: 63.",
-      "Risk score: 25.",
-      "Risk: Application route may be unclear.; Deadline needs manual confirmation."
-    ],
-    "career_category": "zines",
-    "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
-    "fit_score": 87,
-    "actionability_score": 63,
-    "risk_score": 25,
-    "import_source": "opportunity_intelligence_sprint_v1",
-    "imported_at": "2026-05-31",
-    "url_verification_status": "ok",
-    "url_status_code": 200,
-    "url_final": "https://x.com/zinefarmtokyo/status/2030078129293938743",
-    "confidence_level": "Medium",
-    "verification_summary": "Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.",
-    "verification_status": "partial",
-    "last_verified": "2026-06-01",
-    "research_priority": "high",
-    "manual_review_needed": true,
-    "submission_process_known": false,
-    "contact_verified": false,
-    "fees_verified": false,
-    "deadline_verified": false,
-    "source_quality": "social",
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category_label": "Markets / Popups / Booths",
-    "painting_priority_score": 6.75,
-    "watercolor_fit_hits": [
-      "zine",
-      "paper"
-    ],
-    "photo_only_risk_hits": [],
-    "watercolor_adjusted_score": 10,
-    "truth_alignment_verdict": "capped_negative_explanation",
-    "truth_alignment_reasons": [
-      "negative explanation: unclear"
-    ],
-    "truth_aligned_score": 6.4,
-    "score_capped_by_truth_checker": true,
-    "native_medium": "mixed",
-    "native_medium_hits": {
-      "painting": [],
-      "photography": [],
-      "mixed": [
-        "zine"
-      ]
-    },
-    "translation_candidate": true,
-    "translation_candidate_hits": [
-      "zine",
-      "edition"
-    ],
-    "source_purity_score": 6.75,
-    "source_purity_reason": "mixed medium / possible translation",
-    "dna_adjusted_score": 9.77,
-    "dna_score_delta": 0.48,
-    "dna_match_hits": [
-      "quiet streets and lived-in places",
-      "small businesses and local spaces",
-      "quiet observation",
-      "small press sequence"
-    ],
-    "lineage_matches": [
-      {
-        "name": "Contemporary Printed Matter",
-        "hits": 2,
-        "boost": 0.8
-      }
-    ],
-    "lineage_score": 0.8,
-    "corporate_penalty": 0,
-    "portfolio_matches": [
-      {
-        "body_id": "community_local_visibility",
-        "title": "Community / Local Visibility",
-        "description": "Approachable work suitable for cafes, artist-run rooms, small walls, local markets, and gentle public visibility.",
-        "score": 4,
-        "hits": [
-          "market",
-          "popup"
-        ],
-        "best_formats": [
-          "cafe wall",
-          "market",
-          "popup",
-          "group show",
-          "local event"
-        ]
-      },
-      {
-        "body_id": "artist_book_printed_matter",
-        "title": "Artist Book / Printed Matter",
-        "description": "Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.",
-        "score": 3,
-        "hits": [
-          "zine",
-          "edition",
-          "paper"
-        ],
-        "best_formats": [
-          "book fair",
-          "zine fair",
-          "bookstore",
-          "small press",
-          "publication"
-        ]
-      },
-      {
-        "body_id": "architecture_memory",
-        "title": "Architecture / Memory / Place",
-        "description": "Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.",
-        "score": 2,
-        "hits": [
-          "quiet"
-        ],
-        "best_formats": [
-          "photobook",
-          "zine",
-          "small gallery",
-          "artist statement",
-          "publication"
-        ]
-      }
-    ],
-    "recommended_body_of_work": "Community / Local Visibility",
-    "portfolio_match_score": 4,
-    "submission_strategy": "publication_pitch",
-    "submission_tone": "focused and editorial",
-    "uncapped_score": 9.4,
-    "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
-    "visual_fit_score": 1.3,
-    "visual_fit_hits": [
-      "zine"
-    ],
-    "career_buckets": [
-      "publication_targets",
-      "book_zine_targets",
-      "easy_wins",
-      "relationship_builders",
-      "needs_research"
-    ],
-    "primary_bucket": "publication_targets",
-    "differentiated_score": 9.29,
-    "curator_personality_scores": {
-      "quiet_poetic": 1,
-      "independent_experimental": 0,
-      "publication_ecosystem": 1,
-      "institutional_formal": 0,
-      "commercial_surface": 0
-    },
-    "dominant_curator_personality": "quiet_poetic",
-    "curator_patterns": [],
-    "pre_final_guard_score": 8.6,
-    "final_score_guard_note": "Capped at 7.6 due to verification strength.",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets"
   },
   {
     "title": "ZINEイベント",
