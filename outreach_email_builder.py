@@ -26,9 +26,9 @@ def build_email(p):
 
     body = f"""Hello,
 
-I am writing to ask whether {target} is currently open to watercolor, drawing, or works-on-paper submissions.
+I am writing to ask whether {target} is currently open to watercolor or works-on-paper submissions from an artist based in Tokyo.
 
-The artist's work is a quiet watercolor practice focused on ordinary architecture, plants, local places, and traces of daily life. I am preparing a compact portfolio PDF and wanted to confirm the appropriate submission path before sending materials.
+The artist is a watercolor painter based in Tokyo whose work focuses on urban atmosphere, interior light, domestic stillness, and quiet city neighborhoods. I am preparing a compact portfolio PDF and wanted to confirm the appropriate submission path before sending materials.
 
 I found this page while researching:
 {page}

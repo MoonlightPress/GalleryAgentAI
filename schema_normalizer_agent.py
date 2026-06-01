@@ -113,6 +113,11 @@ def infer_city(opp):
         "new york": "New York",
         "aomori": "Aomori",
         "ibaraki": "Ibaraki",
+        "changsha": "Changsha",
+        "beijing": "Beijing",
+        "shanghai": "Shanghai",
+        "london": "London",
+        "paris": "Paris",
     }
 
     for key, value in city_map.items():
@@ -132,8 +137,14 @@ def normalize_one(opp):
 
         if any(x in text for x in ["tokyo", "kyoto", "japan", "fujiyoshida", "itoshima", "aomori", "ibaraki"]):
             opp["country"] = "Japan"
+        elif any(x in text for x in ["changsha", "beijing", "shanghai", "china"]):
+            opp["country"] = "China"
         elif "new york" in text:
             opp["country"] = "United States"
+        elif "london" in text:
+            opp["country"] = "United Kingdom"
+        elif "paris" in text:
+            opp["country"] = "France"
         else:
             opp["country"] = ""
 
