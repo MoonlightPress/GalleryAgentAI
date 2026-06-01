@@ -7,6 +7,7 @@ PIPELINE = [
     "approved_candidate_importer.py",
     "url_verification_engine.py",
     "global_opportunity_expander.py",
+    "submission_link_hunter.py",
     "opportunity_enrichment_pipeline.py",
     "venue_intelligence_builder.py",
     "venue_memory_engine.py",
@@ -79,6 +80,7 @@ PIPELINE = [
     "pipeline_debug_summary.py",
     "project_folder_audit.py",
     "opportunity_status_engine.py",
+    "daily_digest_report.py",
 ]
 
 run_pipeline(PIPELINE)
