@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <HeroSection />
+      {page === 'discover' && <HeroSection />}
       <Nav activePage={page} onNav={setPage} />
       {page === 'discover' && <OpportunitiesSection />}
       {page === 'refine'   && <PeppercornPage />}
