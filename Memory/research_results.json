@@ -1,0 +1,1059 @@
+{
+  "run_at": "2026-06-02T19:15:13.268832",
+  "total": 70,
+  "updated": 1,
+  "not_found": 69,
+  "results": [
+    {
+      "name": "Royal Watercolour Society Open Exhibition",
+      "slug": "royal_watercolour_society_open_exhibition",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:10:36.332053"
+    },
+    {
+      "name": "American Watercolor Society Annual International Exhibition",
+      "slug": "american_watercolor_society_annual_international_exhibition",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "May 13, 2026",
+        "fees": "$15",
+        "submission_page": "https://artist.callforentry.org/festivals_unique_info.php?ID=16102",
+        "is_active": false
+      },
+      "timestamp": "2026-06-02T19:10:39.854712",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Cité Internationale des Arts Artist Residency",
+      "slug": "cité_internationale_des_arts_artist_residency",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "October 31, 2025"
+      },
+      "timestamp": "2026-06-02T19:10:43.446172",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Offprint",
+      "slug": "offprint",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "8 July 2026",
+        "submission_page": "https://www.entrythingy.com/blog/open-calls-for-printmakers"
+      },
+      "timestamp": "2026-06-02T19:10:47.000498",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Center for Book Arts Opportunities",
+      "slug": "center_for_book_arts_opportunities",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {
+        "contact_email": "development@centerforbookarts.org",
+        "submission_page": "https://centerforbookarts.submittable.com"
+      },
+      "timestamp": "2026-06-02T19:10:51.243278",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Aesthetica Art Prize",
+      "slug": "aesthetica_art_prize",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "11 October 2026",
+        "fees": "$75,000 in awards",
+        "submission_page": "https://shop.aestheticamagazine.com/products/aesthetica-art-prize-entry"
+      },
+      "timestamp": "2026-06-02T19:10:55.561430",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Printed Matter Art Book Fairs",
+      "slug": "printed_matter_art_book_fairs",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "March 1, 2026",
+        "fees": "$5000 to publish one artist’s book on the topic of book banni"
+      },
+      "timestamp": "2026-06-02T19:11:00.334946",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Asian Cultural Council Fellowship",
+      "slug": "asian_cultural_council_fellowship",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "October 1, 2025",
+        "submission_page": "https://www.artasiapacific.com/now-open-for-applications-asian-cultural-council-2026-grants-and-fellowships"
+      },
+      "timestamp": "2026-06-02T19:11:04.733840",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Self Publish, Be Happy",
+      "slug": "self_publish,_be_happy",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:11:09.840313"
+    },
+    {
+      "name": "Japan Watercolor Society Annual Exhibition",
+      "slug": "japan_watercolor_society_annual_exhibition",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:11:14.096557"
+    },
+    {
+      "name": "National Watercolor Society International Open Exhibition",
+      "slug": "national_watercolor_society_international_open_exhibition",
+      "missing": [
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:11:14.396989"
+    },
+    {
+      "name": "Aperture | Photography",
+      "slug": "aperture_|_photography",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "fees": "$1,000 CASH PRIZES",
+        "submission_page": "https://aperture.org/calls-for-entry/portfolio-prize",
+        "is_active": false
+      },
+      "timestamp": "2026-06-02T19:11:18.561810",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Browse opportunities | CuratorSpace",
+      "slug": "browse_opportunities_|_curatorspace",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "June 15, 2026"
+      },
+      "timestamp": "2026-06-02T19:11:22.793234",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Top Artist Opportunities for 2026 | ArtConnect",
+      "slug": "top_artist_opportunities_for_2026_|_artconnect",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "fees": "$4,500 Artist Grants****Featured**"
+      },
+      "timestamp": "2026-06-02T19:11:27.000390",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "DER GREIF",
+      "slug": "der_greif",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "September 1, 2026",
+        "fees": "€ Der Greif Guest Room Scholarship and have your work seen by"
+      },
+      "timestamp": "2026-06-02T19:11:31.921675",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "PhotoVogue",
+      "slug": "photovogue",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "September 11, 2026"
+      },
+      "timestamp": "2026-06-02T19:11:36.177183",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "CSPWC Annual Open Water International Exhibition",
+      "slug": "cspwc_annual_open_water_international_exhibition",
+      "missing": [
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:11:36.477392"
+    },
+    {
+      "name": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+      "slug": "aura:_open_call_open_call_for_artists_and_writers_to_submit_their_work_to_a_feminist_onlin",
+      "missing": [
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "submission_page": "https://app.entrythingy.com/calls_list"
+      },
+      "timestamp": "2026-06-02T19:11:41.695471",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+      "slug": "open_call_for_artist_residency_we_are_seeking_a_multimedia_artist_to_be_a_resident_for_at_",
+      "missing": [
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "June 30, 2026"
+      },
+      "timestamp": "2026-06-02T19:11:46.653493",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+      "slug": "open_call_for_digital_works_open_call_for_artists._send_us_your_digital_work_to_show_in_ou",
+      "missing": [
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "March 1, 2026",
+        "fees": "$10,000 CAD in annual cash grants and exclusive awards, along",
+        "submission_page": "https://www.facebook.com/DigitalGraffitiFestival/posts/digital-graffiti-2026-call-for-entries-now-open-the-alys-foundation-is-pleased-t/1328998168796497"
+      },
+      "timestamp": "2026-06-02T19:11:51.339907",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+      "slug": "audio_work_required_-_artists_and_friends_podcast_-_open_call_artists_and_friends_is_a_pod",
+      "missing": [
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "submission_page": "https://www.ilikeyourworkpodcast.com/submitwork"
+      },
+      "timestamp": "2026-06-02T19:11:56.934598",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+      "slug": "callback_open_call_g_george_invites_you_to_submit_to_callback,_a_series_of_contemporary_ar",
+      "missing": [
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:12:01.823120"
+    },
+    {
+      "name": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "slug": "northwest_watercolor_society_2026_annual_international_open_exhibition",
+      "missing": [
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:12:02.123408"
+    },
+    {
+      "name": "Home - Printed Matter",
+      "slug": "home_-_printed_matter",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "submission_page": "https://www.entrythingy.com/blog/open-calls-for-printmakers"
+      },
+      "timestamp": "2026-06-02T19:12:06.675819",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Platform China BIAP Artist Residency",
+      "slug": "platform_china_biap_artist_residency",
+      "missing": [
+        "contact_email",
+        "official_website"
+      ],
+      "source": "",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:12:06.976099"
+    },
+    {
+      "name": "Bologna Children's Book Fair Illustrators Exhibition",
+      "slug": "bologna_children's_book_fair_illustrators_exhibition",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "submission_page": "https://www.bolognachildrensbookfair.com/en/focus-on/illustrators/the-illustrators-exhibition/2026-illustrators-exhibition-how-to-take-part/2026-rules-of-entry/1042.html"
+      },
+      "timestamp": "2026-06-02T19:12:11.438059",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "HB Gallery",
+      "slug": "hb_gallery",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "contact_email": "submissions@opensourcegallery.org",
+        "is_active": false
+      },
+      "timestamp": "2026-06-02T19:12:16.099334",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "OPA Gallery",
+      "slug": "opa_gallery",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "June 12, 2026",
+        "fees": "$20,000 in cash and merchandise awards will be presented"
+      },
+      "timestamp": "2026-06-02T19:12:20.265502",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Pinpoint Gallery",
+      "slug": "pinpoint_gallery",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "August 12, 2026",
+        "submission_page": "https://app.entrythingy.com/calls_list?month=5"
+      },
+      "timestamp": "2026-06-02T19:12:24.488783",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Gallery IRO",
+      "slug": "gallery_iro",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "August 12, 2026",
+        "contact_email": "submissions@opensourcegallery.org",
+        "is_active": false
+      },
+      "timestamp": "2026-06-02T19:12:28.820161",
+      "patched": [
+        "contact_email",
+        "status→closed"
+      ]
+    },
+    {
+      "name": "The Artcomplex Center of Tokyo",
+      "slug": "the_artcomplex_center_of_tokyo",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "July 20, 2026",
+        "submission_page": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260219-316.html"
+      },
+      "timestamp": "2026-06-02T19:12:33.147683",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "AAA Gallery Yokohama",
+      "slug": "aaa_gallery_yokohama",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "June 21, 2026"
+      },
+      "timestamp": "2026-06-02T19:12:37.455035",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "World Illustration Awards",
+      "slug": "world_illustration_awards",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "February 17, 2026",
+        "submission_page": "https://app.entrythingy.com/calls/external/world-illustration-awards-2026"
+      },
+      "timestamp": "2026-06-02T19:12:41.600067",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "3x3 International Illustration Awards",
+      "slug": "3x3_international_illustration_awards",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "March 27, 2026",
+        "fees": "$1,500** and all Gold medal winners receive inclusion in the"
+      },
+      "timestamp": "2026-06-02T19:12:46.042531",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "American Illustration",
+      "slug": "american_illustration",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "June 7, 2026",
+        "contact_email": "info@ai-ap.com",
+        "fees": "€20",
+        "submission_page": "https://www.facebook.com/AmericanIllustration/posts/american-illustration-45-call-for-entriesdeadline-march-6-2026american-illustrat/1418350879662001"
+      },
+      "timestamp": "2026-06-02T19:12:50.188560",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Jackson's Art Prize",
+      "slug": "jackson's_art_prize",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "12 November 2025",
+        "fees": "£10,000 in prizes to be won, our open",
+        "submission_page": "https://makingamark.blogspot.com/2026/02/last-call-for-entries-jacksons-art-prize-2026.html"
+      },
+      "timestamp": "2026-06-02T19:12:54.381316",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "ArtConnect Open Calls",
+      "slug": "artconnect_open_calls",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "submission_page": "https://www.artconnect.com/opportunities/calls-for-entry"
+      },
+      "timestamp": "2026-06-02T19:12:58.620253",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "CuratorSpace",
+      "slug": "curatorspace",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "8 December 2025"
+      },
+      "timestamp": "2026-06-02T19:13:03.110167",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Society of Women Artists",
+      "slug": "society_of_women_artists",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "June 21, 2026"
+      },
+      "timestamp": "2026-06-02T19:13:07.339260",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Royal Watercolour Society",
+      "slug": "royal_watercolour_society",
+      "missing": [
+        "submission_page",
+        "fees",
+        "deadline",
+        "contact_email"
+      ],
+      "source": "",
+      "extracted": {
+        "deadline": "3 February 2026"
+      },
+      "timestamp": "2026-06-02T19:13:11.784859",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Shimokitazawa Arts",
+      "slug": "shimokitazawa_arts",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees"
+      ],
+      "source": "https://shimokitazawaarts.tokyo/en/home-english/",
+      "extracted": {
+        "deadline": "May 4, 2026",
+        "contact_email": "info@shimokitazawaarts.tokyo",
+        "is_active": false
+      },
+      "timestamp": "2026-06-02T19:13:15.326137",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Open Calls for Artists",
+      "slug": "open_calls_for_artists",
+      "missing": [
+        "contact",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.theholyart.com/tokyo-open-art",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:13:18.870255"
+    },
+    {
+      "name": "Open Call For Artists",
+      "slug": "open_call_for_artists",
+      "missing": [
+        "contact",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://opencallforartists.com/listing/784",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:13:22.408278"
+    },
+    {
+      "name": "Shoto Museum Open Call",
+      "slug": "shoto_museum_open_call",
+      "missing": [
+        "contact",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://shoto-museum.jp/exhibitions/2026koubo/",
+      "extracted": {
+        "deadline": "2026-03-08"
+      },
+      "timestamp": "2026-06-02T19:13:25.937570",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Art公募",
+      "slug": "art",
+      "missing": [
+        "contact",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.artkoubo.jp/",
+      "extracted": {
+        "submission_page": "https://b.hatena.ne.jp/entry/s/www.artkoubo.jp/index.php"
+      },
+      "timestamp": "2026-06-02T19:13:29.459765",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "公募展",
+      "slug": "unknown",
+      "missing": [
+        "contact",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.nact.jp/exhibition_public/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:13:33.002941"
+    },
+    {
+      "name": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
+      "slug": "open_call_for_artists_jinny_street_gallery",
+      "missing": [
+        "contact",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.jinnystreetgallery.com/open-call",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:13:36.550555"
+    },
+    {
+      "name": "Osaka Open Call For Artists. - ARRIVAL",
+      "slug": "osaka_open_call_for_artists_arrival",
+      "missing": [
+        "contact",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.arrivalgallery.com/osaka",
+      "extracted": {
+        "deadline": "19 October 2026"
+      },
+      "timestamp": "2026-06-02T19:13:40.078345",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Open calls - Online Database of Artist in Residence Programs in Japan",
+      "slug": "open_calls_online_database_of_artist_in_residence_programs_in_japan",
+      "missing": [
+        "contact",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://air-j.info/en/program/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:13:43.601564"
+    },
+    {
+      "name": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
+      "slug": "2026",
+      "missing": [
+        "contact",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.tokyoartbeat.com/events/eventCategoryId/6OBA1ojctRfcVU5LTcZPPC",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:13:47.738157"
+    },
+    {
+      "name": "International Open Call",
+      "slug": "international_open_call",
+      "missing": [
+        "contact",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://en.410gallery.org/exhibition-open-call",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:13:51.276220"
+    },
+    {
+      "name": "Submissions — Clavis Publishing",
+      "slug": "submissions_clavis_publishing",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees"
+      ],
+      "source": "https://www.clavis-publishing.com/submit",
+      "extracted": {
+        "deadline": "2025/06/16",
+        "contact_email": "acquisitie@clavisbooks.com"
+      },
+      "timestamp": "2026-06-02T19:13:54.869855",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Clavis Publishing Submissions",
+      "slug": "clavis_publishing_submissions",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees"
+      ],
+      "source": "https://www.clavis-publishing.com/submit",
+      "extracted": {
+        "deadline": "2025/06/16",
+        "contact_email": "acquisitie@clavisbooks.com"
+      },
+      "timestamp": "2026-06-02T19:13:58.433993",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "» 21 Terrific Small Presses Open to Direct Submissions",
+      "slug": "21_terrific_small_presses_open_to_direct_submissions",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:02.568803"
+    },
+    {
+      "name": "SUBMISSIONS - marblepress.com",
+      "slug": "submissions_marblepress_com",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://marblepress.com/submissions/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:06.941690"
+    },
+    {
+      "name": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
+      "slug": "35_small_publishers_accepting_submissions_in_2026_complete_guide",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.adeptghostwriting.com/blog/small-publishers-accepting-submissions/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:11.337164"
+    },
+    {
+      "name": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
+      "slug": "publishers_publishing_services_in_japan_publishersglobal_com",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.publishersglobal.com/directory/japan/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:15.696350"
+    },
+    {
+      "name": "Submissions - Little Press Publishing",
+      "slug": "submissions_little_press_publishing",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://littlepresspublishing.com/submissions",
+      "extracted": {
+        "is_active": false
+      },
+      "timestamp": "2026-06-02T19:14:20.551373",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "3 Top Book Publishers in Tokyo in 2026",
+      "slug": "3_top_book_publishers_in_tokyo_in_2026",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://reedsy.com/resources/publishers/jp/tokyo/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:24.768373"
+    },
+    {
+      "name": "submissions — porkbelly press",
+      "slug": "submissions_porkbelly_press",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://porkbellypress.com/subs/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:28.957463"
+    },
+    {
+      "name": "3 Top Book Publishers in Japan in 2026",
+      "slug": "3_top_book_publishers_in_japan_in_2026",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://reedsy.com/resources/publishers/jp/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:33.144105"
+    },
+    {
+      "name": "Become an Author - Tuttle Publishing",
+      "slug": "become_an_author_tuttle_publishing",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.tuttlepublishing.com/become-an-author",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:37.491557"
+    },
+    {
+      "name": "Japan Book Publishers Association - JBPA",
+      "slug": "japan_book_publishers_association_jbpa",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.jbpa.or.jp/en/index.html",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:41.793247"
+    },
+    {
+      "name": "ART BOX Publishing",
+      "slug": "art_box_publishing",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "http://www.artbox-int.co.jp/en/publish/index.html",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:46.532395"
+    },
+    {
+      "name": "LOCAL Gallery・Books",
+      "slug": "local_gallery_books",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.localgallerybooks.com/about",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:50.799271"
+    },
+    {
+      "name": "Tacoche",
+      "slug": "tacoche",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "http://tacoche.com/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:55.207762"
+    },
+    {
+      "name": "Books Ruhe",
+      "slug": "books_ruhe",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://www.books-ruhe.co.jp/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:14:59.975293"
+    },
+    {
+      "name": "tata bookshop/gallery",
+      "slug": "tata_bookshop_gallery",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://tata-books.com/",
+      "extracted": {},
+      "timestamp": "2026-06-02T19:15:04.429525"
+    },
+    {
+      "name": "Center for Book Arts",
+      "slug": "center_for_book_arts",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://centerforbookarts.org/",
+      "extracted": {
+        "fees": "$525 + a $25 materials fee"
+      },
+      "timestamp": "2026-06-02T19:15:08.784359",
+      "note": "No matching opportunity record found"
+    },
+    {
+      "name": "Aesthetica Magazine",
+      "slug": "aesthetica_magazine",
+      "missing": [
+        "contact",
+        "deadline",
+        "fees",
+        "submission process"
+      ],
+      "source": "https://aestheticamagazine.com/art-prize/",
+      "extracted": {
+        "fees": "£10,000 prize money, opportunities for exhibition at a major",
+        "submission_page": "https://shop.aestheticamagazine.com/products/aesthetica-art-prize-entry"
+      },
+      "timestamp": "2026-06-02T19:15:12.968341",
+      "note": "No matching opportunity record found"
+    }
+  ]
+}
