@@ -486,3 +486,39 @@ Nothing in this entry is implemented. This is the specification. When the time
 comes to build, start here.
 
 ─────────────────────────────────────────────────────────────────────
+
+ADDENDUM: PEPPERCORN ALTERNATIVE CONCEPT — ANIMATED CARTOON
+
+There is a second visual direction for Peppercorn that is worth preserving even
+though it is not the current plan.
+
+The alternative concept: Peppercorn as a fully illustrated cartoon character,
+animated, shown doing different activities based on time of day. He is cooking
+in the morning. He is playing guitar in the afternoon. He is reading in the
+evening. He is sleeping at night. The activities change on their own. The page
+feels inhabited — you arrive and find him mid-something, rather than posed.
+
+This is a meaningful departure from the watercolor atelier aesthetic that governs
+the current system. The watercolor approach treats all three companions as part
+of the same visual world — warm, analogue, painterly. Animated cartoon Peppercorn
+would have his own register entirely: more playful, more expressive, potentially
+more endearing to a specific kind of user who responds to character animation
+over illustration.
+
+The two approaches are not compatible within the same interface. Choosing the
+cartoon direction for Peppercorn would mean either extending that register to
+Mochi and Saffron (a larger commitment) or accepting a visual discontinuity
+between the three pages (probably wrong).
+
+The current plan is the watercolor version. Build that first. The watercolor
+approach is coherent with the existing Mochi illustration, with the established
+CSS palette, and with the quiet observational tone the system has throughout.
+It is the lower-risk path and the more consistent one.
+
+The cartoon concept is documented here so it is not lost. If the watercolor
+Peppercorn page is built and it feels too static — if the artist opens it and
+does not feel that Peppercorn is present, only depicted — the animated direction
+is the right thing to revisit. The test is whether the page feels inhabited.
+The watercolor version should clear that bar. If it does not, come back to this.
+
+─────────────────────────────────────────────────────────────────────
