@@ -99,9 +99,27 @@
     ],
     "opportunity_targets": [
       {
-        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 8.8,
+        "differentiated_score": 10.79,
+        "hits": [
+          "zine"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "MOUNT ZINE",
         "score": 9.4,
-        "differentiated_score": 11.24,
+        "differentiated_score": 10.71,
+        "hits": [
+          "zine"
+        ],
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
+      },
+      {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 8.8,
+        "differentiated_score": 10.64,
         "hits": [
           "zine"
         ],
@@ -139,15 +157,6 @@
         "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.2,
-        "differentiated_score": 10.51,
-        "hits": [
-          "zine"
-        ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
         "title": "Submissions — Clavis Publishing",
         "score": 8.6,
         "differentiated_score": 10.38,
@@ -165,15 +174,6 @@
           "book fair"
         ],
         "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
-      },
-      {
-        "title": "Zine & Book フェス in 神保町 (Jimbocho)",
-        "score": 8.6,
-        "differentiated_score": 10.34,
-        "hits": [
-          "zine"
-        ],
-        "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
       }
     ]
   },
@@ -351,9 +351,27 @@
     ],
     "opportunity_targets": [
       {
-        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 8.8,
+        "differentiated_score": 10.79,
+        "hits": [
+          "zine"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "MOUNT ZINE",
         "score": 9.4,
-        "differentiated_score": 11.24,
+        "differentiated_score": 10.71,
+        "hits": [
+          "zine"
+        ],
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
+      },
+      {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 8.8,
+        "differentiated_score": 10.64,
         "hits": [
           "zine"
         ],
@@ -401,15 +419,6 @@
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.2,
-        "differentiated_score": 10.51,
-        "hits": [
-          "zine"
-        ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
         "title": "Submissions — Clavis Publishing",
         "score": 8.6,
         "differentiated_score": 10.38,
@@ -417,16 +426,6 @@
           "small press"
         ],
         "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
-      },
-      {
-        "title": "Fukuoka Art Book Fair",
-        "score": 8.6,
-        "differentiated_score": 10.34,
-        "hits": [
-          "zine",
-          "book fair"
-        ],
-        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
       }
     ]
   },
@@ -553,7 +552,7 @@
           "portfolio review",
           "open call"
         ],
-        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
+        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
       },
       {
         "title": "BankART1929",

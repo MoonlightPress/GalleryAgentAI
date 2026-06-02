@@ -1,94 +1,37 @@
 {
   "venue_name": "torch press",
   "venue_slug": "torch_press",
-  "venue_type": "independent art book label",
-  "city": "Tokyo (Yoyogi, Shibuya-ku)",
-  "country": "Japan",
-  "website": "https://www.torchpress.net/en/",
-  "address": "4-24-5 #401, Yoyogi, Shibuya-ku, Tokyo 151-0053, Japan",
-  "source_links": [
-    "https://www.torchpress.net/en/",
-    "https://www.shashasha.co/en/publisher/torch-press",
-    "https://www.printedmatter.org/catalog/publisher/11653"
-  ],
+  "venue_type": "bookstore / print space",
+  "city": "Tokyo",
+  "country": "",
+  "website": "",
+  "source_links": [],
   "categories_seen": [
-    "Book Publishing",
-    "Art Books",
-    "Photobooks"
+    "Book Publishing"
   ],
-  "founded": "December 2013",
-  "founder_editor": "Nao Amino",
-  "contact": {
-    "email": "order@torchpress.net",
-    "note": "Sales/order email — NOT an editorial submissions address",
-    "instagram": "https://www.instagram.com/torch_press/",
-    "twitter_founder": "https://x.com/naoamino"
-  },
-  "accepts_unsolicited_work": false,
-  "submission_style": "Invitation/relationship only. No submissions page. No open calls. Editor (Nao Amino) initiates all projects.",
-  "typical_artists": [
-    "Rinko Kawauchi (photographer — luminous, domestic, everyday)",
-    "Yasumasa Morimura (conceptual art)",
-    "Tomoo Gokita (painter — illustration/painting, Tokyo)",
-    "Hiroshi Sugito (abstract painter)",
-    "Akane Nakajima (light/atmospheric painting)",
-    "Fleur van Dodewaard (photographer)",
-    "Ho Tzu Nyen (video/performance)",
-    "Aki Sasamoto (performance)",
-    "SIDE CORE (urban intervention)",
-    "Masahiro Sambe (still life photography)",
-    "Cy Twombly, Carl Andre (blue-chip Western)"
-  ],
-  "typical_mediums": [
-    "Photography (dominant)",
-    "Painting",
-    "Conceptual / performance documentation",
-    "Exhibition catalogs"
-  ],
-  "known_aesthetic": [
-    "Quiet observation",
-    "Light as primary subject",
-    "Intimate and domestic",
-    "Presence and absence",
-    "High production values — book as aesthetic object",
-    "Atmospheric, contemplative",
-    "Memory and materiality"
-  ],
-  "distribution": {
-    "europe": "Idea Books (Netherlands)",
-    "uk": "Art Data",
-    "usa": "Dashwood Books (New York)",
-    "asia": ["shashasha", "Bananafish Books (China)", "moom bookshop (Taiwan)", "IRASUN (Korea)"]
-  },
-  "fit_for_artist": "High aesthetic fit. Quiet, atmospheric, light-focused work aligns closely with catalog sensibility. They publish painters (Gokita, Sugito, Nakajima). Tokyo-based, Japan-rooted. Access model requires established reputation — not actionable at Tier 1-2.",
-  "career_tier_target": 4,
-  "recommended_action": "Watch list. Track new releases via Instagram. Note presence at TABF (MOT, Nov/Dec). Do not approach until: significant exhibition history, prior publications with respected smaller presses, and a warm introduction pathway exists.",
-  "price_level": "premium",
-  "risk_notes": [
-    "Not an open-submission publisher — cold contact would be inappropriate",
-    "Roster includes blue-chip international names; bar for new artists is high",
-    "Single editor (Nao Amino) is the gatekeeper — relationship is everything"
-  ],
-  "fit_notes": [
-    "Visual fit score is accurate: the aesthetic is genuinely aligned",
-    "Rinko Kawauchi's photographic sensibility is the closest photographic equivalent to GEGYjiji's watercolor approach",
-    "They publish painters — medium is not a barrier",
-    "Geographic alignment: Tokyo-based Japanese publisher"
-  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
   "verification_notes": [
-    "Researched 2026-06-01 — full in-depth research, not auto-generated",
-    "Website live, publications current through 2026",
-    "No submissions page confirmed after thorough search",
-    "Pipeline venue_memory_engine overwrote this file on 2026-06-01 run — restored manually"
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
-    "TABF participation — not confirmed in search results, likely but unverified",
-    "Whether Nao Amino has any public submission or pitch pathway not found online"
+    "contact",
+    "deadline",
+    "fees",
+    "official/source website",
+    "submission process"
   ],
   "opportunity_titles": [
     "torch press"
   ],
-  "last_researched": "2026-06-01",
-  "created_at": "2026-06-01",
-  "updated_at": "2026-06-01"
+  "last_researched": "",
+  "created_at": "2026-06-02",
+  "updated_at": "2026-06-02"
 }

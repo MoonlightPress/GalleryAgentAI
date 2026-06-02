@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-02
 
 # National Watercolor Society International Open Exhibition
 
@@ -50,5 +50,5 @@ Add to 2027 calendar. Check nationalwatercolorsociety.org from January 2027.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-02_
 

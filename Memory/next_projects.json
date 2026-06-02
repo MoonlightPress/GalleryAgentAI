@@ -30,16 +30,40 @@
     "first_action": "Make a 20-image edit and title it provisionally. Do not write the full statement yet.",
     "best_opportunity_targets": [
       {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 8.8,
+        "differentiated_score": 10.79,
+        "verification": null,
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+        "source": "https://www.womenunitedartmovement.com/artmagazine"
+      },
+      {
+        "title": "MOUNT ZINE",
+        "score": 9.2,
+        "differentiated_score": 10.71,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "memory"
+        ],
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
+        "source": "https://zine.mount.co.jp/"
+      },
+      {
         "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 9.4,
-        "differentiated_score": 11.24,
+        "score": 8.8,
+        "differentiated_score": 10.64,
         "verification": "partial",
         "hits": [
           "zine",
           "artist book"
         ],
         "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
-        "source": "https://note.com/bookcultureclub/"
+        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
       },
       {
         "title": "Tokyo Art Book Fair",
@@ -91,18 +115,6 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.2,
-        "differentiated_score": 10.51,
-        "verification": "verified",
-        "hits": [
-          "zine",
-          "memory"
-        ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
-        "source": "https://zine.mount.co.jp/"
-      },
-      {
         "title": "Submissions — Clavis Publishing",
         "score": 7.6,
         "differentiated_score": 10.38,
@@ -113,19 +125,6 @@
         ],
         "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
         "source": "https://www.clavis-publishing.com/submit"
-      },
-      {
-        "title": "Fukuoka Art Book Fair",
-        "score": 8.2,
-        "differentiated_score": 10.34,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "artist book",
-          "book fair"
-        ],
-        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-        "source": "https://fukuokaartbookfair.com/application/"
       }
     ],
     "best_publisher_targets": [
@@ -240,15 +239,37 @@
     "first_action": "Build the edit as a PDF contact sheet first, then reduce it by half.",
     "best_opportunity_targets": [
       {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 8.8,
+        "differentiated_score": 10.79,
+        "verification": null,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+        "source": "https://www.womenunitedartmovement.com/artmagazine"
+      },
+      {
+        "title": "MOUNT ZINE",
+        "score": 9.2,
+        "differentiated_score": 10.71,
+        "verification": "verified",
+        "hits": [
+          "memory"
+        ],
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
+        "source": "https://zine.mount.co.jp/"
+      },
+      {
         "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 9.4,
-        "differentiated_score": 11.24,
+        "score": 8.8,
+        "differentiated_score": 10.64,
         "verification": "partial",
         "hits": [
           "artist book"
         ],
         "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
-        "source": "https://note.com/bookcultureclub/"
+        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
       },
       {
         "title": "Tokyo Art Book Fair",
@@ -296,17 +317,6 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.2,
-        "differentiated_score": 10.51,
-        "verification": "verified",
-        "hits": [
-          "memory"
-        ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
-        "source": "https://zine.mount.co.jp/"
-      },
-      {
         "title": "Submissions — Clavis Publishing",
         "score": 7.6,
         "differentiated_score": 10.38,
@@ -316,17 +326,6 @@
         ],
         "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
         "source": "https://www.clavis-publishing.com/submit"
-      },
-      {
-        "title": "Fukuoka Art Book Fair",
-        "score": 8.2,
-        "differentiated_score": 10.34,
-        "verification": "partial",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-        "source": "https://fukuokaartbookfair.com/application/"
       }
     ],
     "best_publisher_targets": [
@@ -393,16 +392,39 @@
     "first_action": "Create a 12-image version first. This is the easiest thing to make real.",
     "best_opportunity_targets": [
       {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 8.8,
+        "differentiated_score": 10.79,
+        "verification": null,
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+        "source": "https://www.womenunitedartmovement.com/artmagazine"
+      },
+      {
+        "title": "MOUNT ZINE",
+        "score": 9.2,
+        "differentiated_score": 10.71,
+        "verification": "verified",
+        "hits": [
+          "zine"
+        ],
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
+        "source": "https://zine.mount.co.jp/"
+      },
+      {
         "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 9.4,
-        "differentiated_score": 11.24,
+        "score": 8.8,
+        "differentiated_score": 10.64,
         "verification": "partial",
         "hits": [
           "zine",
           "artist book"
         ],
         "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
-        "source": "https://note.com/bookcultureclub/"
+        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
       },
       {
         "title": "Tokyo Art Book Fair",
@@ -458,17 +480,6 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "MOUNT ZINE",
-        "score": 9.2,
-        "differentiated_score": 10.51,
-        "verification": "verified",
-        "hits": [
-          "zine"
-        ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
-        "source": "https://zine.mount.co.jp/"
-      },
-      {
         "title": "Submissions — Clavis Publishing",
         "score": 7.6,
         "differentiated_score": 10.38,
@@ -479,19 +490,6 @@
         ],
         "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
         "source": "https://www.clavis-publishing.com/submit"
-      },
-      {
-        "title": "Fukuoka Art Book Fair",
-        "score": 8.2,
-        "differentiated_score": 10.34,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "book fair",
-          "artist book"
-        ],
-        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-        "source": "https://fukuokaartbookfair.com/application/"
       }
     ],
     "best_publisher_targets": [

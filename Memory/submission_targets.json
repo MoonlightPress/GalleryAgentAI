@@ -152,10 +152,12 @@
     "relevant_links": [],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-01",
+      "fetched_at": "2026-06-02",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
+      "all_deadline_candidates": [],
+      "all_event_date_candidates": [],
       "all_fees": []
     }
   },
@@ -1039,10 +1041,12 @@
     ],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-01",
+      "fetched_at": "2026-06-02",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
+      "all_deadline_candidates": [],
+      "all_event_date_candidates": [],
       "all_fees": []
     }
   },
@@ -1806,10 +1810,12 @@
     ],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-01",
+      "fetched_at": "2026-06-02",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
+      "all_deadline_candidates": [],
+      "all_event_date_candidates": [],
       "all_fees": []
     }
   },
@@ -1904,10 +1910,12 @@
     ],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-01",
+      "fetched_at": "2026-06-02",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
+      "all_deadline_candidates": [],
+      "all_event_date_candidates": [],
       "all_fees": []
     }
   },
@@ -4528,10 +4536,12 @@
     ],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-01",
+      "fetched_at": "2026-06-02",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
+      "all_deadline_candidates": [],
+      "all_event_date_candidates": [],
       "all_fees": []
     }
   },
@@ -4720,10 +4730,12 @@
     ],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-01",
+      "fetched_at": "2026-06-02",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
+      "all_deadline_candidates": [],
+      "all_event_date_candidates": [],
       "all_fees": []
     }
   },
@@ -5669,10 +5681,12 @@
     "error": "HTTPSConnectionPool(host='post-books.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'post-books.info'. (_ssl.c:1081)\")))",
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-01",
+      "fetched_at": "2026-06-02",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
+      "all_deadline_candidates": [],
+      "all_event_date_candidates": [],
       "all_fees": []
     }
   },

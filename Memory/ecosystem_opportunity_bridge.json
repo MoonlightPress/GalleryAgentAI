@@ -4,6 +4,15 @@
     "why_it_matters": "This is the strongest immediate ecosystem for her visual language: quiet photography, sequences, books, zines, and small-scale cultural visibility.",
     "matched_opportunities": [
       {
+        "title": "MOUNT ZINE",
+        "score": 9.4,
+        "differentiated_score": 10.71,
+        "hit_nodes": [
+          "MOUNT ZINE"
+        ],
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
+      },
+      {
         "title": "Tokyo Art Book Fair",
         "score": 8.6,
         "differentiated_score": 10.59,
@@ -29,15 +38,6 @@
           "flotsam books"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
-      },
-      {
-        "title": "MOUNT ZINE",
-        "score": 9.2,
-        "differentiated_score": 10.51,
-        "hit_nodes": [
-          "MOUNT ZINE"
-        ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
       },
       {
         "title": "POST",
@@ -101,8 +101,8 @@
       },
       {
         "title": "Picaresque Gallery",
-        "score": 3.5,
-        "differentiated_score": 4.36,
+        "score": 1.9,
+        "differentiated_score": 2.76,
         "hit_nodes": [
           "VOID"
         ],
@@ -119,6 +119,15 @@
     "cluster": "Low-Pressure Local Relationship Building",
     "why_it_matters": "These are useful for soft visibility and relationship-building before major applications.",
     "matched_opportunities": [
+      {
+        "title": "MOUNT ZINE",
+        "score": 9.4,
+        "differentiated_score": 10.71,
+        "hit_nodes": [
+          "MOUNT ZINE"
+        ],
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
+      },
       {
         "title": "UTRECHT",
         "score": 8.6,
@@ -145,15 +154,6 @@
           "flotsam books"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
-      },
-      {
-        "title": "MOUNT ZINE",
-        "score": 9.2,
-        "differentiated_score": 10.51,
-        "hit_nodes": [
-          "MOUNT ZINE"
-        ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
       },
       {
         "title": "POST",

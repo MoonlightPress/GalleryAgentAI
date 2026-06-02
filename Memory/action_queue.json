@@ -1,21 +1,5 @@
 [
   {
-    "key": "zineフェス東京 (zine fest tokyo)::book culture club",
-    "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-    "organization": "BOOK CULTURE CLUB",
-    "score": 9.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
     "key": "cspwc annual open water international exhibition::canadian society of painters in water colour",
     "title": "CSPWC Annual Open Water International Exhibition",
     "organization": "Canadian Society of Painters in Water Colour",
@@ -62,6 +46,54 @@
     "recommended_action": "High-fit opportunity. Review report and prepare outreach."
   },
   {
+    "key": "women united art magazine issue xiv summer 2026::women united art movement",
+    "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+    "organization": "Women United ART MOVEMENT",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "zineフェス東京 (zine fest tokyo)::book culture club",
+    "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+    "organization": "BOOK CULTURE CLUB",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "booooooom 2026 art & photo book award::booooooom",
+    "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+    "organization": "Booooooom",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
     "key": "applications — little tokyo zine fest::applications — little tokyo zine fest",
     "title": "Applications — Little Tokyo Zine Fest",
     "organization": "Applications — Little Tokyo Zine Fest",
@@ -76,6 +108,38 @@
       "fees"
     ],
     "recommended_action": "Research missing details: fees."
+  },
+  {
+    "key": "hattifnatt koenji cafe gallery::hattifnatt",
+    "title": "HATTIFNATT Koenji Cafe Gallery",
+    "organization": "HATTIFNATT",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "japan international watercolor institute online exhibition::japan international watercolor institute",
+    "title": "Japan International Watercolor Institute Online Exhibition",
+    "organization": "Japan International Watercolor Institute",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
   },
   {
     "key": "northwest watercolor society 2026 annual international open exhibition::northwest watercolor society (nwws)",
@@ -94,9 +158,25 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "japan international watercolor institute online exhibition::japan international watercolor institute",
-    "title": "Japan International Watercolor Institute Online Exhibition",
-    "organization": "Japan International Watercolor Institute",
+    "key": "ballond'essai shimokitazawa::ballond'essai",
+    "title": "BALLOND'ESSAI Shimokitazawa",
+    "organization": "BALLOND'ESSAI",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "clouds gallery+coffee koenji::clouds gallery+coffee",
+    "title": "CLOUDS Gallery+Coffee Koenji",
+    "organization": "CLOUDS Gallery+Coffee",
     "score": 8.8,
     "priority": "high",
     "status": "new",
@@ -1616,6 +1696,24 @@
     "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
+    "key": "audio work required - artists and friends podcast - open call artists and friends is a pod::curatorspace",
+    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+    "organization": "CuratorSpace",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
     "key": "callback open call g george invites you to submit to callback, a series of contemporary ar::curatorspace",
     "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
     "organization": "CuratorSpace",
@@ -2207,24 +2305,6 @@
     "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
-    "key": "audio work required - artists and friends podcast - open call artists and friends is a pod::curatorspace",
-    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
-    "organization": "CuratorSpace",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
-  },
-  {
     "key": "asian cultural council fellowship::asian cultural council",
     "title": "Asian Cultural Council Fellowship",
     "organization": "Asian Cultural Council",
@@ -2242,6 +2322,24 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, deadline, fees."
+  },
+  {
+    "key": "vault collective ** open call** rolling deadline **open call** vault collective ** rolling::curatorspace",
+    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
+    "organization": "CuratorSpace",
+    "score": 7.5,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
     "key": "self publish, be happy::self publish, be happy",
@@ -3059,7 +3157,7 @@
     "key": "picaresque gallery::picaresque gallery",
     "title": "Picaresque Gallery",
     "organization": "Picaresque Gallery",
-    "score": 1.7,
+    "score": 0.09999999999999987,
     "priority": "medium",
     "status": "new",
     "saved": false,
@@ -3075,7 +3173,7 @@
     "key": "spiral::spiral",
     "title": "Spiral",
     "organization": "Spiral",
-    "score": 1.2,
+    "score": 0.0,
     "priority": "medium",
     "status": "new",
     "saved": false,

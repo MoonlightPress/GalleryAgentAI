@@ -1072,7 +1072,7 @@
     "source_status": "verified_link_present",
     "deadline": "Check current schedule",
     "fees": "Check source",
-    "status": "needs_review",
+    "status": "permanently_closed",
     "visibility": "secondary",
     "priority": "C",
     "friction_level": "low",
@@ -1239,7 +1239,7 @@
     "source_status": "verified_link_present",
     "deadline": "Check current schedule",
     "fees": "Check source",
-    "status": "needs_review",
+    "status": "permanently_closed",
     "visibility": "secondary",
     "priority": "C",
     "friction_level": "medium",
@@ -1748,7 +1748,8 @@
       "danger_if_pursued_too_early": "Multiple serious risks that could actively harm career development: (1) Signals fundamental misunderstanding of professional art world hierarchy and progression norms, potentially flagging artist to other professionals as naive or poorly advised, (2) Wastes limited emotional capital and application energy on statistically impossible target when those resources could build actual foundation through appropriate-tier opportunities, (3) Creates discouragement spiral through inevitable rejection or silence that may undermine motivation for pursuing realistic pathways that would actually advance position, (4) Establishes negative first impression that could complicate future legitimate approach years later when actually qualified, (5) Gallery may internally note premature inquiry, creating awkward dynamic for later appropriate contact, (6) Most critically: fixation on unreachable tier prevents seeing and pursuing accessible opportunities that would create actual progression - emerging artists pursuing blue-chip galleries often miss the regional galleries, project spaces, and institutional group shows that would build toward eventual readiness. Attempting contact now demonstrates inability to assess one's own career position accurately, which is red flag for galleries evaluating long-term artist relationships.",
       "best_timing": "After minimum 5-10 years of sustained professional practice with extensive prerequisite validation: multiple solo exhibitions at recognized regional or national institutions, established gallery representation at accessible tier first, documented collector base with consistent sales, significant group exhibitions at museum-level spaces, critical coverage in legitimate art publications, international exhibition history demonstrating practice beyond single market, and preferably warm introduction through mutual connection (curator, collector, or represented artist who can vouch for practice). Correct sequence: build foundation through accessible local/regional opportunities → establish regional institutional presence → develop national gallery representation → gain international group show experience → accumulate institutional validation → cultivate curatorial relationships → receive warm introduction when practice has sufficient credentials to warrant serious consideration. SCAI becomes realistic conversation only AFTER building extensive stepping-stone history that demonstrates sustained practice, market viability, and institutional interest. Ideal timing: when you no longer need to ask whether you're ready, because the prerequisites are self-evident in CV and the introduction comes through established relationship rather than cold outreach."
     },
-    "compound_career_score": 9.5
+    "compound_career_score": 9.5,
+    "contact_email": "info@scaithebathhouse.com"
   },
   {
     "id": "fe396249d912",
@@ -2425,9 +2426,9 @@
     "source_url": "https://bookandbeer.com/",
     "source_link": "https://bookandbeer.com/",
     "source_status": "verified_link_present",
-    "deadline": "Check current schedule",
+    "deadline": "May 4, 2026",
     "fees": "Check source",
-    "status": "needs_review",
+    "status": "permanently_closed",
     "visibility": "secondary",
     "priority": "C",
     "friction_level": "low",
@@ -2579,7 +2580,8 @@
       "danger_if_pursued_too_early": "Pursuing this without clear strategic context trains inefficient opportunity-selection habits: chasing 'sounds cool' leads over structured pathways. The undefined submission process means significant research/outreach energy for uncertain outcome, teaching the wrong lesson about where to invest attention. If attempted before establishing what format would be presented (talk? exhibition? publication launch?), it forces premature content development for low-return venue. For artists outside Tokyo, pursuing this before stronger institutional foundation means spending international coordination effort on venue that doesn't build credibility needed for higher-tier opportunities. Creates false sense of progress ('I'm applying to things!') while avoiding harder work of institutional relationship-building.",
       "best_timing": "Only pursue after: (1) confirming artist works with publications or can develop book/zine component authentically, (2) establishing Tokyo presence (living there or extended visit planned), (3) researching venue's current programming for 3-6 months to confirm visual artist fit, (4) building 2-3 institutional exhibitions that create legitimate foundation for any outreach, (5) developing warm introduction through Tokyo arts contacts rather than cold pitch. If these conditions don't naturally align, this opportunity never becomes appropriate—forcing it means misallocating energy. Best case: artist already in Tokyo for residency/exhibition, has artist book ready, and meets B&B staff organically through other cultural events. Becomes natural extension of existing momentum rather than isolated cold outreach."
     },
-    "compound_career_score": 4.0
+    "compound_career_score": 4.0,
+    "contact_email": "info@shimokitazawaarts.tokyo"
   },
   {
     "id": "f1be7892923b",
@@ -3605,7 +3607,7 @@
     "source_status": "verified_link_present",
     "deadline": "Check current schedule",
     "fees": "Check source",
-    "status": "needs_review",
+    "status": "permanently_closed",
     "visibility": "secondary",
     "priority": "C",
     "friction_level": "low",
@@ -4409,9 +4411,9 @@
     "source_url": "https://1-6.jp/iro/",
     "source_link": "https://1-6.jp/iro/",
     "source_status": "verified_link_present",
-    "deadline": "Check current schedule",
+    "deadline": "August 12, 2026",
     "fees": "Check source",
-    "status": "needs_review",
+    "status": "permanently_closed",
     "visibility": "secondary",
     "priority": "C",
     "friction_level": "medium",
@@ -4558,7 +4560,8 @@
       "danger_if_pursued_too_early": "If rental model: establishes pattern of paying for validation rather than earning it, depletes resources needed for legitimate career-building, creates CV line that signals amateur status to informed viewers. If legitimate but pursued without exhibition readiness: burns Tokyo bridge before work is mature, wastes geographic/linguistic advantage on premature approach, risks poor reception that forecloses future opportunities in small interconnected Tokyo scene. The double unknown (artist profile + venue legitimacy) creates compounded early-pursuit risk—attempting this without knowing either your readiness or their worthiness is pure speculation, likely resulting in mismatched expectations, wasted effort, or financial loss.",
       "best_timing": "Only after: (1) Artist has established exhibition history demonstrating readiness for commercial representation, (2) Tokyo presence confirmed as strategic necessity (not aspirational preference), (3) Gallery IRO business model verified as legitimate representation with documented artist success stories, (4) Alternative Tokyo venues researched to confirm this is appropriate tier for current career stage, (5) Professional portfolio and exhibition proposal ready in Japanese or English depending on venue norms. If all conditions met, still low priority unless gallery actively solicits submissions or comes recommended by trusted Tokyo art community member. More likely scenario: better Tokyo opportunities with transparent practices emerge through proper ecosystem research, making this venue irrelevant to pursue."
     },
-    "compound_career_score": 1.0
+    "compound_career_score": 1.0,
+    "contact_email": "submissions@opensourcegallery.org"
   },
   {
     "id": "e232e2f10924",
@@ -5482,8 +5485,8 @@
     "source_url": "https://tavgallery.com/",
     "source_link": "https://tavgallery.com/",
     "source_status": "verified_link_present",
-    "deadline": "Check current schedule",
-    "fees": "Check source",
+    "deadline": "June 12, 2026",
+    "fees": "$20,000 in cash and merchandise awards will be presented",
     "status": "needs_review",
     "visibility": "secondary",
     "priority": "C",
@@ -5772,7 +5775,8 @@
       "danger_if_pursued_too_early": "At early career stages, artists may lack frameworks to distinguish rental venues from curated galleries, making them particularly vulnerable to exploitation. Limited budgets amplify financial harm (rental fees, shipping, installation costs). Early CV entries establish pattern recognition for future reviewers—rental gallery participation becomes a persistent negative signal that's difficult to overcome. The opportunity cost is severe: time and money spent here cannot be invested in building genuine curatorial relationships, developing work quality, or pursuing venues with transparent peer-reviewed selection. The reputational damage may be irreversible, as some institutional gatekeepers automatically filter out CVs with pay-to-exhibit credits.",
       "best_timing": "Never. This is not a timing question—it's a categorical exclusion. At no career stage does rental gallery participation function as an ecosystem bridge. Early-career artists need curatorial validation to build credibility. Mid-career artists need institutional relationships to advance. Established artists need venues that reflect their standing. Rental galleries provide none of these. The high friction (unclear terms, language barriers, investigation time required) combined with zero strategic value and active reputational risk means this opportunity should be permanently removed from consideration. Resources should flow exclusively toward venues with documented curatorial programs, transparent selection processes, and legitimate institutional standing."
     },
-    "compound_career_score": 0.0
+    "compound_career_score": 0.0,
+    "contact_email": "conceal@renovationplanning.co.jp"
   },
   {
     "id": "342384eacba8",

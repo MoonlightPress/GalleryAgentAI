@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-01",
+  "date": "2026-06-02",
   "ibm_names": [
     "ZINEフェス東京 (ZINE Fest Tokyo)",
     "CSPWC Annual Open Water International Exhibition",
@@ -13,7 +13,7 @@
     "Book and Sons"
   ],
   "ibm_scores": {
-    "ZINEフェス東京 (ZINE Fest Tokyo)": 9.4,
+    "ZINEフェス東京 (ZINE Fest Tokyo)": 8.8,
     "CSPWC Annual Open Water International Exhibition": 9.4,
     "Northwest Watercolor Society 2026 Annual International Open Exhibition": 8.8,
     "MOUNT ZINE": 9.2,
@@ -24,5 +24,5 @@
     "flotsam books": 7.6,
     "Book and Sons": 7.6
   },
-  "opportunity_count": 173
+  "opportunity_count": 179
 }

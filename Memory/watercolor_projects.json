@@ -16,6 +16,38 @@
     "first_action": "Choose 12 finished or nearly finished watercolors. Group them by place, plant life, architecture, and human trace.",
     "opportunity_targets": [
       {
+        "title": "CSPWC Annual Open Water International Exhibition",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
+      },
+      {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+        "score": 10,
+        "hits": [
+          "painting"
+        ],
+        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
+      },
+      {
+        "title": "HATTIFNATT Koenji Cafe Gallery",
+        "score": 10,
+        "hits": [
+          "gallery"
+        ],
+        "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category."
+      },
+      {
         "title": "Browse opportunities | CuratorSpace",
         "score": 10,
         "hits": [
@@ -53,44 +85,6 @@
           "gallery"
         ],
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
-      },
-      {
-        "title": "Pinpoint Gallery",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "works on paper",
-          "gallery"
-        ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
-      },
-      {
-        "title": "Gallery IYN",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "works on paper",
-          "gallery"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "Tokyo Illustrators Society",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "works on paper"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "World Illustration Awards",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "works on paper"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       }
     ]
   },
@@ -110,6 +104,15 @@
     ],
     "first_action": "Write a 90-word statement and select 8–12 works that all show indirect human presence.",
     "opportunity_targets": [
+      {
+        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+        "score": 10,
+        "hits": [
+          "painting",
+          "memory"
+        ],
+        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
+      },
       {
         "title": "Browse opportunities | CuratorSpace",
         "score": 10,
@@ -168,14 +171,6 @@
           "works on paper"
         ],
         "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "World Illustration Awards",
-        "score": 10,
-        "hits": [
-          "works on paper"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       }
     ]
   },
@@ -195,6 +190,39 @@
     ],
     "first_action": "Prepare a compact PDF: title, 10 images, dimensions, prices if available, and a 3-line artist note.",
     "opportunity_targets": [
+      {
+        "title": "CSPWC Annual Open Water International Exhibition",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
+      },
+      {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+        "score": 10,
+        "hits": [
+          "painting"
+        ],
+        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
+      },
+      {
+        "title": "HATTIFNATT Koenji Cafe Gallery",
+        "score": 10,
+        "hits": [
+          "cafe",
+          "gallery"
+        ],
+        "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category."
+      },
       {
         "title": "Browse opportunities | CuratorSpace",
         "score": 10,
@@ -229,40 +257,6 @@
           "watercolor"
         ],
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
-      },
-      {
-        "title": "Pinpoint Gallery",
-        "score": 10,
-        "hits": [
-          "gallery",
-          "watercolor"
-        ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
-      },
-      {
-        "title": "Gallery IYN",
-        "score": 10,
-        "hits": [
-          "gallery",
-          "watercolor"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "Tokyo Illustrators Society",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "World Illustration Awards",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       }
     ]
   },
@@ -282,6 +276,33 @@
     ],
     "first_action": "Make a 16-page PDF mockup using existing watercolor images. Do not overexplain it.",
     "opportunity_targets": [
+      {
+        "title": "CSPWC Annual Open Water International Exhibition",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
+      },
+      {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "zine",
+          "watercolor"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+        "score": 10,
+        "hits": [
+          "zine",
+          "illustration"
+        ],
+        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
+      },
       {
         "title": "Browse opportunities | CuratorSpace",
         "score": 10,
@@ -330,35 +351,6 @@
           "watercolor"
         ],
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
-      },
-      {
-        "title": "Gallery IYN",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "watercolor"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "Tokyo Illustrators Society",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "illustration",
-          "watercolor"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "World Illustration Awards",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "illustration",
-          "watercolor"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       }
     ]
   }

@@ -1,25 +1,14 @@
 {
-  "venue_name": "NADiff a/p/a/r/t",
+  "venue_name": "NADiff",
   "venue_slug": "nadiff",
-  "memory_version": 2,
-  "summary": "PERMANENTLY CLOSED March 31, 2025. 17-year run: Omotesando 1997–2008, Ebisu 2008–2025. NADiff company survives as three museum-embedded shops (CCC-operated), none equivalent to the independent flagship. Not an actionable opportunity.",
-  "last_updated": "2026-06-01",
-  "confidence": "high",
-  "status": "PERMANENTLY_CLOSED",
-  "closure_date": "2026-03-31",
-  "how_we_found_out": "Pipeline crawl returned unreachable. Manual research 2026-06-01 confirmed: Tokyo Art Beat [Closed] marker, nadiff.com ECONNREFUSED, multiple closure announcements from January 2025.",
-  "surviving_branches": [
-    "NADiff contemporary — MOT, email: nadiff_contemporary@ccc.co.jp, tel: 03-5875-9959",
-    "NADiff BAITEN — Tokyo Metropolitan Museum of Photography, email: nadiff_baiten@ccc.co.jp, tel: 03-6447-7684",
-    "ART RECTANGLE KYOTO — Kyoto City Kyocera Museum of Art"
+  "memory_version": 1,
+  "summary": "Venue type: bookstore / print space Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-06-02",
+  "confidence": "low",
+  "future_research": [
+    "contact"
   ],
-  "future_research": [],
   "curatorial_direction": [],
   "artist_overlap_signals": [],
-  "notes": [
-    "Crawl failure in pipeline was accurate — site is down because venue is closed, not a transient network error.",
-    "Do not re-add as active opportunity without a completely new independent NADiff venue opening.",
-    "If NADiff contemporary (MOT) becomes relevant at Tier 3 career stage, create a separate venue record for it — it is a different entity with different operations.",
-    "Pipeline venue_memory_engine overwrote this file on 2026-06-01 run — restored manually."
-  ]
+  "notes": []
 }

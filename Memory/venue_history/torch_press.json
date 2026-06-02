@@ -1,42 +1,18 @@
 {
   "venue_name": "torch press",
   "venue_slug": "torch_press",
-  "memory_version": 2,
-  "summary": "Independent Tokyo art book / photobook label, est. 2013. Founder/editor: Nao Amino. High visual fit — quiet, atmospheric, light-focused aesthetic. Publishes both photographers (Kawauchi) and painters (Gokita, Sugito). No submissions; invitation-only. Tier 4 target — requires established reputation and warm introduction.",
-  "last_updated": "2026-06-01",
-  "confidence": "high",
-  "status": "active",
-  "how_we_found_out": "Flagged by system as highest visual fit score in dataset. Full research conducted 2026-06-01.",
-  "key_facts": [
-    "Website: torchpress.net — live, current publications through 2026",
-    "Founder Nao Amino is sole editor; all projects are initiated by him",
-    "Catalog includes photographers (Kawauchi x3), painters (Gokita, Sugito, Nakajima), conceptual artists",
-    "Contact email order@torchpress.net is sales only — not editorial",
-    "No submissions page exists; not an open-call publisher",
-    "European distribution via Idea Books; US via Dashwood Books",
-    "TABF (MOT) participation likely but unconfirmed"
-  ],
+  "memory_version": 1,
+  "summary": "Venue type: bookstore / print space Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-06-02",
+  "confidence": "low",
   "future_research": [
-    "Confirm TABF participation in 2026 exhibitor list (November/December, MOT)",
-    "Monitor Instagram @torch_press for new artist directions",
-    "Identify who in GEGYjiji's eventual network might know Nao Amino"
+    "contact",
+    "deadline",
+    "fees",
+    "official/source website",
+    "submission process"
   ],
-  "curatorial_direction": [
-    "Photography as primary medium, but painters increasingly included",
-    "Aesthetic: quiet, luminous, atmospheric, memory, everyday objects",
-    "Tokyo-rooted but international distribution and roster",
-    "Book as high-value aesthetic object — production quality is a value signal"
-  ],
-  "artist_overlap_signals": [
-    "Rinko Kawauchi — closest photographic equivalent to atmospheric watercolor (luminous, quiet, everyday)",
-    "Hiroshi Sugito — abstract painter, shows they work with painting as a medium",
-    "Tomoo Gokita — Japanese painter, confirms painting monographs are in scope"
-  ],
-  "notes": [
-    "System's high visual fit score is accurate — the aesthetic is genuinely aligned with GEGYjiji's described work.",
-    "Access model makes this a Tier 4 target despite aesthetic fit. High fit + low access = watch list, not action list.",
-    "Do not route to Immediate Best Moves at any career stage below Tier 3.",
-    "The pathway runs through TABF ecosystem, not cold email.",
-    "Pipeline venue_memory_engine overwrote this file on 2026-06-01 run — restored manually."
-  ]
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
 }

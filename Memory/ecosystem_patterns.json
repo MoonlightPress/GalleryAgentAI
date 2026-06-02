@@ -2,23 +2,23 @@
   "dominant_countries": [
     [
       "Global",
-      17
+      15
     ],
     [
       "Japan",
-      6
+      9
     ],
     [
       "USA",
-      5
+      6
     ],
     [
       "Tokyo",
       5
     ],
     [
-      "UK",
-      3
+      "Canada",
+      2
     ],
     [
       "UK / Global",
@@ -29,11 +29,11 @@
       2
     ],
     [
-      "Canada",
+      "France / UK",
       1
     ],
     [
-      "France / UK",
+      "UK",
       1
     ],
     [
@@ -52,7 +52,7 @@
     ],
     [
       "book_publishing",
-      14
+      13
     ],
     [
       "fair_popup",
@@ -65,6 +65,10 @@
     [
       "gallery",
       8
+    ],
+    [
+      "cafe_gallery",
+      7
     ],
     [
       "residency",
@@ -83,12 +87,12 @@
       4
     ],
     [
-      "cafe_gallery",
-      4
-    ],
-    [
       "artist_space",
       3
+    ],
+    [
+      "group_publication_open_call",
+      2
     ],
     [
       "global_photobook",
@@ -107,6 +111,10 @@
       2
     ],
     [
+      "zine_shop_consignment",
+      1
+    ],
+    [
       "zine_fair_booth",
       1
     ],
@@ -115,15 +123,7 @@
       1
     ],
     [
-      "zine_shop_consignment",
-      1
-    ],
-    [
       "global_book_arts",
-      1
-    ],
-    [
-      "global_open_call",
       1
     ]
   ],
@@ -149,12 +149,24 @@
       6
     ],
     [
+      "publication",
+      5
+    ],
+    [
       "low",
+      5
+    ],
+    [
+      "tokyo",
       5
     ],
     [
       "prestige",
       5
+    ],
+    [
+      "tier_1",
+      4
     ],
     [
       "career_changing",
@@ -169,7 +181,7 @@
       4
     ],
     [
-      "publication",
+      "cafe_gallery",
       3
     ],
     [
@@ -177,11 +189,15 @@
       3
     ],
     [
-      "tokyo",
+      "international",
       2
     ],
     [
       "currently_open",
+      2
+    ],
+    [
+      "zine",
       2
     ],
     [
@@ -193,12 +209,40 @@
       2
     ],
     [
+      "koenji",
+      2
+    ],
+    [
+      "shimokitazawa",
+      2
+    ],
+    [
+      "exhibition",
+      2
+    ],
+    [
       "beijing",
       2
     ],
     [
       "china",
       2
+    ],
+    [
+      "magazine",
+      1
+    ],
+    [
+      "women_only",
+      1
+    ],
+    [
+      "watercolor_ok",
+      1
+    ],
+    [
+      "near_deadline",
+      1
     ],
     [
       "zine_fair",
@@ -210,10 +254,6 @@
     ],
     [
       "recurring",
-      1
-    ],
-    [
-      "tier_1",
       1
     ],
     [
@@ -229,63 +269,23 @@
       1
     ],
     [
+      "book",
+      1
+    ],
+    [
+      "painting_ok",
+      1
+    ],
+    [
+      "urgent",
+      1
+    ],
+    [
+      "free_option",
+      1
+    ],
+    [
       "check_deadline",
-      1
-    ],
-    [
-      "art_book",
-      1
-    ],
-    [
-      "fair",
-      1
-    ],
-    [
-      "book_arts",
-      1
-    ],
-    [
-      "all_media",
-      1
-    ],
-    [
-      "emerging_artist",
-      1
-    ],
-    [
-      "Low-Medium",
-      1
-    ],
-    [
-      "photobook",
-      1
-    ],
-    [
-      "japan",
-      1
-    ],
-    [
-      "accessible",
-      1
-    ],
-    [
-      "Unknown/High effort for unclear benefit",
-      1
-    ],
-    [
-      "artist_book",
-      1
-    ],
-    [
-      "zine",
-      1
-    ],
-    [
-      "high_information_gathering",
-      1
-    ],
-    [
-      "gallery",
       1
     ]
   ]
