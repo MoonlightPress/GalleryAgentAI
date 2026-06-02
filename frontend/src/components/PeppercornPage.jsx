@@ -197,62 +197,68 @@ function ExhibitionPathwaySection({ isOpen, onToggle, sectionRef }) {
       isOpen={isOpen}
       onToggle={onToggle}
     >
-      <div className="pp-pathway-record">
-        <div className="pp-pathway-show-title">Tide from China Part 1</div>
-        <div className="pp-pathway-show-meta">ACG_Labo · Harajuku, Tokyo · February 2023 · Group show, 6 Chinese illustrators</div>
-        <div className="pp-pathway-show-note">First Japan exhibition on record.</div>
-      </div>
+      <div className="pp-pathway-grid">
+        <div>
+          <div className="pp-pathway-record">
+            <div className="pp-pathway-show-title">Tide from China Part 1</div>
+            <div className="pp-pathway-show-meta">ACG_Labo · Harajuku, Tokyo · February 2023 · Group show, 6 Chinese illustrators</div>
+            <div className="pp-pathway-show-note">First Japan exhibition on record.</div>
+          </div>
 
-      <div className="pp-threshold-list pp-threshold-list--shows">
-        <div className="pp-threshold-row pp-threshold-row--done">
-          <div className="pp-threshold-marker pp-threshold-marker--done">1 ✓</div>
-          <p className="pp-threshold-desc">Established presence. A credible starting point. Not yet a pattern.</p>
+          <div className="pp-threshold-list pp-threshold-list--shows">
+            <div className="pp-threshold-row pp-threshold-row--done">
+              <div className="pp-threshold-marker pp-threshold-marker--done">1 ✓</div>
+              <p className="pp-threshold-desc">Established presence. A credible starting point. Not yet a pattern.</p>
+            </div>
+            <div className="pp-threshold-row">
+              <div className="pp-threshold-marker pp-threshold-marker--next">2</div>
+              <p className="pp-threshold-desc">
+                Pattern begins. The perception of "one lucky group show" dissolves.
+                She is someone who exhibits, not someone who exhibited.
+              </p>
+            </div>
+            <div className="pp-threshold-row">
+              <div className="pp-threshold-marker pp-threshold-marker--key">3</div>
+              <p className="pp-threshold-desc">
+                The blocking milestone. Most Tokyo galleries consider 3 group show credits
+                the minimum before discussing a solo show. Getting to 3 unlocks the next
+                stage of the career arc.
+              </p>
+            </div>
+            <div className="pp-threshold-row">
+              <div className="pp-threshold-marker">5</div>
+              <p className="pp-threshold-desc">
+                Strong exhibition CV. Residency applications become competitive. Institutional
+                open calls — TOKAS, BankART1929, Youkobo — become realistic rather than aspirational.
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="pp-threshold-row">
-          <div className="pp-threshold-marker pp-threshold-marker--next">2</div>
-          <p className="pp-threshold-desc">
-            Pattern begins. The perception of "one lucky group show" dissolves.
-            She is someone who exhibits, not someone who exhibited.
+
+        <div>
+          <div className="pp-next-targets">
+            <div className="pp-block-label">Next targets worth watching</div>
+            <div className="pp-target-row">
+              <div className="pp-target-name">3331 Arts Chiyoda</div>
+              <p className="pp-target-desc">Open calls on regular cycle. Artist-run feel. Accessible for international artists based in Tokyo.</p>
+            </div>
+            <div className="pp-target-row">
+              <div className="pp-target-name">Design Festa Gallery</div>
+              <p className="pp-target-desc">Active curated program, illustration-adjacent. Harajuku location builds on the ACG_Labo connection.</p>
+            </div>
+            <div className="pp-target-row">
+              <div className="pp-target-name">Gallery IYN</div>
+              <p className="pp-target-desc">Smaller, emerging-artist focused. Realistic first repeat venue.</p>
+            </div>
+          </div>
+
+          <p className="pp-timeline-note">
+            At a realistic application pace — 3 to 5 submissions per year, acceptance rate 20–30% —
+            reaching 3 confirmed shows takes approximately 2–3 years from mid-2026.
+            This is not slow. This is normal.
           </p>
         </div>
-        <div className="pp-threshold-row">
-          <div className="pp-threshold-marker pp-threshold-marker--key">3</div>
-          <p className="pp-threshold-desc">
-            The blocking milestone. Most Tokyo galleries consider 3 group show credits
-            the minimum before discussing a solo show. Getting to 3 unlocks the next
-            stage of the career arc.
-          </p>
-        </div>
-        <div className="pp-threshold-row">
-          <div className="pp-threshold-marker">5</div>
-          <p className="pp-threshold-desc">
-            Strong exhibition CV. Residency applications become competitive. Institutional
-            open calls — TOKAS, BankART1929, Youkobo — become realistic rather than aspirational.
-          </p>
-        </div>
       </div>
-
-      <div className="pp-next-targets">
-        <div className="pp-block-label">Next targets worth watching</div>
-        <div className="pp-target-row">
-          <div className="pp-target-name">3331 Arts Chiyoda</div>
-          <p className="pp-target-desc">Open calls on regular cycle. Artist-run feel. Accessible for international artists based in Tokyo.</p>
-        </div>
-        <div className="pp-target-row">
-          <div className="pp-target-name">Design Festa Gallery</div>
-          <p className="pp-target-desc">Active curated program, illustration-adjacent. Harajuku location builds on the ACG_Labo connection.</p>
-        </div>
-        <div className="pp-target-row">
-          <div className="pp-target-name">Gallery IYN</div>
-          <p className="pp-target-desc">Smaller, emerging-artist focused. Realistic first repeat venue.</p>
-        </div>
-      </div>
-
-      <p className="pp-timeline-note">
-        At a realistic application pace — 3 to 5 submissions per year, acceptance rate 20–30% —
-        reaching 3 confirmed shows takes approximately 2–3 years from mid-2026.
-        This is not slow. This is normal.
-      </p>
     </SectionShell>
   )
 }
@@ -325,14 +331,94 @@ function ArtistStatementSection({ data, onSave, isOpen, onToggle, sectionRef }) 
 // ── Saffron's questions section ───────────────────────────────────────────
 
 const QUESTIONS = [
-  { key: 'posting_frequency',         text: 'How often do you post to Instagram? Any goals for this?',                              why: 'Posting cadence is the most controllable variable for closing the Instagram/Twitter gap.' },
-  { key: 'audience_geography',        text: 'Where are most of your followers — Tokyo, China, or spread globally?',                  why: 'Whether your audience is primarily Chinese-language changes the geographic expansion strategy entirely.' },
-  { key: 'has_sold_work',             text: 'Have you sold work before? Through which channels — fairs, online, prints, originals?', why: 'Sales history reveals which formats and price points convert, which shapes which fairs are worth entering.' },
-  { key: 'new_publication_planned',   text: 'Is a new publication or zine in the works, even loosely?',                              why: 'If one is already planned, the system should support it — not recommend it as a new idea.' },
-  { key: 'has_artist_statement',      text: 'Do you have an artist statement written anywhere — in any language?',                   why: 'Most open calls require one. If none exists, this is the most urgent gap before any submissions.' },
-  { key: 'tide_china_contact',        text: 'Are you still in touch with anyone from the Tide from China show?',                     why: 'Those five artists are the most natural group show partners. If they have dispersed, the network needs rebuilding.' },
-  { key: 'second_exhibition_planned', text: 'Is there a second Japan exhibition already planned or in conversation?',                 why: 'The system assumes 2–3 more group shows are needed, but one may already be underway.' },
-  { key: 'price_points',              text: 'What do you charge for originals and prints?',                                          why: 'Pricing determines which collector tier and which fairs are appropriate. Under-pricing affects how galleries perceive the work.' },
+  {
+    key: 'posting_frequency',
+    text: 'How often do you post to Instagram? Any goals for this?',
+    why: 'Posting cadence is the most controllable variable for closing the Instagram/Twitter gap.',
+    options: [
+      'Daily — it\'s part of my diary practice',
+      'A few times a week, no specific goal',
+      'Rarely, maybe once or twice a month',
+      'I\'d like to post more consistently but haven\'t yet',
+    ],
+  },
+  {
+    key: 'audience_geography',
+    text: 'Where are most of your followers — Tokyo, China, or spread globally?',
+    why: 'Whether your audience is primarily Chinese-language changes the geographic expansion strategy entirely.',
+    options: [
+      'Mostly Chinese-speaking — China, Taiwan, overseas Chinese communities',
+      'Mix of Tokyo-based and Chinese-speaking followers',
+      'Spread globally — I don\'t really know the breakdown',
+      'Primarily Japanese audience in Tokyo',
+    ],
+  },
+  {
+    key: 'has_sold_work',
+    text: 'Have you sold work before? Through which channels — fairs, online, prints, originals?',
+    why: 'Sales history reveals which formats and price points convert, which shapes which fairs are worth entering.',
+    options: [
+      'Yes — mostly prints, through online shops',
+      'Yes — originals and prints at art fairs',
+      'A few pieces informally, nothing systematic',
+      'Not yet — I haven\'t set up a selling structure',
+    ],
+  },
+  {
+    key: 'new_publication_planned',
+    text: 'Is a new publication or zine in the works, even loosely?',
+    why: 'If one is already planned, the system should support it — not recommend it as a new idea.',
+    options: [
+      'Yes — something is loosely in progress',
+      'I have ideas but nothing concrete yet',
+      'No current plans for a new publication',
+      'I\'d like to, but I\'m not sure what format',
+    ],
+  },
+  {
+    key: 'has_artist_statement',
+    text: 'Do you have an artist statement written anywhere — in any language?',
+    why: 'Most open calls require one. If none exists, this is the most urgent gap before any submissions.',
+    options: [
+      'Yes, in Chinese — nothing in English or Japanese yet',
+      'I have rough notes but nothing written formally',
+      'Yes, I have a draft in English or Japanese',
+      'No — I\'ve never written one',
+    ],
+  },
+  {
+    key: 'tide_china_contact',
+    text: 'Are you still in touch with anyone from the Tide from China show?',
+    why: 'Those five artists are the most natural group show partners. If they have dispersed, the network needs rebuilding.',
+    options: [
+      'Yes, I\'m still in touch with some of them',
+      'Loosely — we follow each other but haven\'t spoken recently',
+      'No, we\'ve lost touch since the show',
+      'I know who they are but never connected closely',
+    ],
+  },
+  {
+    key: 'second_exhibition_planned',
+    text: 'Is there a second Japan exhibition already planned or in conversation?',
+    why: 'The system assumes 2–3 more group shows are needed, but one may already be underway.',
+    options: [
+      'Yes — something is in early conversation',
+      'Nothing confirmed, but I\'m actively looking',
+      'I have a show I\'m interested in but haven\'t applied',
+      'No — I haven\'t started looking yet',
+    ],
+  },
+  {
+    key: 'price_points',
+    text: 'What do you charge for originals and prints?',
+    why: 'Pricing determines which collector tier and which fairs are appropriate. Under-pricing affects how galleries perceive the work.',
+    options: [
+      'Originals ¥30,000–¥80,000 · prints ¥3,000–¥8,000',
+      'I haven\'t set formal prices yet',
+      'I price by feel depending on size and buyer',
+      'Lower than I should — I tend to undercharge',
+    ],
+  },
 ]
 
 function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
@@ -365,15 +451,16 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
     if (next !== -1) { setActiveIdx(next); setDraft(answers[QUESTIONS[next].key] || '') }
   }
 
+  const remaining = QUESTIONS.length - answeredCount
   const subtitle = allAnswered
     ? 'Saffron has everything she needs for now. Check back after your next exhibition.'
-    : `Saffron left ${QUESTIONS.length - answeredCount} question${QUESTIONS.length - answeredCount !== 1 ? 's' : ''} — whenever you have a moment.`
+    : `Saffron left ${remaining} note${remaining !== 1 ? 's' : ''} — whenever you have a moment.`
 
   return (
     <SectionShell
       id="saffron-questions"
       sectionRef={sectionRef}
-      title="Saffron's Questions"
+      title="Notes from Saffron"
       subtitle={subtitle}
       isOpen={isOpen}
       onToggle={onToggle}
@@ -400,12 +487,19 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
             <div className="pp-q-num">Question {activeIdx + 1}</div>
             <p className="pp-q-text">{currentQ.text}</p>
             <p className="pp-q-why">{currentQ.why}</p>
+            {currentQ.options && (
+              <div className="pp-q-options">
+                {currentQ.options.map((opt, i) => (
+                  <button key={i} className="pp-q-option" onClick={() => setDraft(opt)}>{opt}</button>
+                ))}
+              </div>
+            )}
             <textarea
               className="pp-q-input"
               value={draft}
               onChange={e => setDraft(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && e.metaKey && saveAnswer()}
-              placeholder="Your answer…"
+              placeholder="Your answer — or pick one above…"
               rows={3}
             />
             <div className="pp-q-actions">
@@ -755,7 +849,7 @@ function buildCarouselCards(profile) {
     {
       id: 'qs',
       sectionId: 'saffron-questions',
-      name: "Saffron's Questions",
+      name: 'Notes from Saffron',
       current: `${answeredCount}/8`,
       next: '8/8',
       ratio: answeredCount / 8,
@@ -777,7 +871,10 @@ function buildCarouselCards(profile) {
     },
   ]
 
-  return cards.sort((a, b) => b.ratio - a.ratio)
+  const tw   = cards.find(c => c.id === 'tw')
+  const qs   = cards.find(c => c.id === 'qs')
+  const rest = cards.filter(c => c.id !== 'tw' && c.id !== 'qs').sort((a, b) => b.ratio - a.ratio)
+  return [tw, qs, ...rest].filter(Boolean)
 }
 
 function computeSectionOrder(profile) {

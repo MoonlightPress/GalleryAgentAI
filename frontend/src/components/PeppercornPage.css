@@ -418,6 +418,17 @@
 
 /* ── Exhibition pathway section ─────────────────────────────────────────── */
 
+.pp-pathway-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+@media (max-width: 680px) {
+  .pp-pathway-grid { grid-template-columns: 1fr; gap: 24px; }
+}
+
 .pp-pathway-record {
   background: #fdfcf7;
   border: 1px solid #dce8cc;
@@ -692,6 +703,33 @@
 .pp-check--less:checked { background: #8a5a4a; border-color: #8a5a4a; }
 
 /* ── Saffron's questions section ────────────────────────────────────────── */
+
+.pp-q-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 12px;
+}
+
+.pp-q-option {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #5a6a4a;
+  background: #eef5e8;
+  border: 1px solid #cdd8be;
+  border-radius: 20px;
+  padding: 5px 13px;
+  cursor: pointer;
+  transition: background 0.14s, border-color 0.14s, color 0.14s;
+  line-height: 1.3;
+}
+
+.pp-q-option:hover {
+  background: #d8ecc8;
+  border-color: #6a8a5a;
+  color: #2e3a2e;
+}
 
 .pp-q-dots {
   display: flex;
