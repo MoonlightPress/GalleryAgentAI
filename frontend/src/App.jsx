@@ -13,10 +13,10 @@ export default function App() {
   return (
     <div className="app">
       {page === 'discover' && <HeroSection />}
-      <Nav activePage={page} onNav={setPage} />
-      {page === 'discover' && <OpportunitiesSection />}
       {page === 'refine'   && <PeppercornPage />}
       {page === 'observe'  && <SaffronPage />}
+      <Nav activePage={page} onNav={setPage} />
+      {page === 'discover' && <OpportunitiesSection />}
       <StatusBar />
     </div>
   )
