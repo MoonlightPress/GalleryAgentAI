@@ -6,12 +6,17 @@
     "age": 26,
     "nationality": "Chinese",
     "hometown": "Changsha, China",
-    "current_city": "Tokyo, Japan",
+    "current_city": "Tokyo, Japan / Beijing, China (based between both)",
     "japanese_proficiency": "JLPT N2",
     "primary_language": "Chinese (Simplified)",
     "working_language": "Japanese",
     "medium": "watercolor (primary), occasional ink",
-    "summary": "GEGYjiji is a 26-year-old Chinese watercolor artist based in Tokyo. Originally from Changsha, she paints urban atmosphere, domestic stillness, cats, interior light, and the quiet accumulation of memory. Her work is intimate in scale and emotionally precise. She has N2 Japanese and 90k Twitter followers, and is actively seeking gallery exhibition opportunities and publishing collaborations. She needs a mix of prestigious international opportunities and intimate local Tokyo venues.",
+    "education": {
+      "institution": "Beijing Fashion Institute (北京服装学院 / BIFT)",
+      "background": "Illustration and design — not classical fine arts",
+      "note": "Specialist design/illustration university, not a traditional fine arts academy. Her formation is illustrator-community rooted, not gallery-track. This is confirmed; graduation year is unconfirmed but approximate c.2021–2023."
+    },
+    "summary": "GEGYjiji is a 26-year-old Chinese watercolor artist based between Tokyo and Beijing. Originally from Changsha (Hunan Province), she studied illustration and design at Beijing Fashion Institute. She paints urban atmosphere, domestic stillness, cats, interior light, and the quiet accumulation of memory. Her practice is illustration-community rooted — zine shops, art book publishers, and illustration fairs are her primary ecosystem; fine art galleries are secondary. She has N2 Japanese and ~90k Twitter followers, and is actively building toward publication collaborations and Tokyo exhibition presence.",
     "dominant_subjects": [
       "urban atmosphere and streetscapes",
       "domestic interiors and interior light",
@@ -122,15 +127,20 @@
       }
     ],
     "opportunity_weighting": {
-      "gallery_exhibition_international": 1.4,
-      "gallery_exhibition_tokyo": 1.3,
-      "residency_prestigious": 1.4,
-      "residency_japan": 1.2,
-      "artist_book": 1.5,
-      "zine": 1.3,
-      "small_press": 1.3,
-      "bookshop_gallery_tokyo": 1.3,
+      "_note": "Illustration/publishing ecosystem is PRIMARY (1.6–1.8). Fine art galleries are SECONDARY (1.1–1.3). Her formation is illustration-community rooted — publisher and zine ecosystem should surface above gallery calls at equivalent quality.",
+      "artist_book": 1.8,
+      "illustration_publisher": 1.8,
+      "zine_fair_tabling": 1.7,
+      "zine": 1.7,
+      "small_press": 1.6,
+      "bookshop_consignment": 1.6,
+      "bookshop_gallery_tokyo": 1.5,
       "open_call_watercolor": 1.5,
+      "illustration_exhibition": 1.5,
+      "residency_prestigious": 1.4,
+      "gallery_exhibition_international": 1.3,
+      "gallery_exhibition_tokyo": 1.2,
+      "residency_japan": 1.2,
       "open_call_general": 1.0,
       "artist_run_space": 1.1,
       "cafe_wall": 0.5,
@@ -141,6 +151,20 @@
       "tech_art": -2.0,
       "nft": -2.0
     }
+  },
+  "practice_context": {
+    "community_root": "illustration",
+    "primary_ecosystem": "zine / artist book / illustration publisher / illustration fair",
+    "secondary_ecosystem": "fine art gallery / open call / watercolor society",
+    "explanation": "GEGYjiji's formation is at Beijing Fashion Institute (design/illustration), not a fine arts academy. Her online presence, publications, and first Japan exhibition (a group show organized by a Chinese ACG/illustration company) are all illustration-community contexts. Her 90k Twitter following is an illustrator-community following, not a fine art collector following. This does not make fine art galleries wrong for her — her work is genuinely suited to gallery contexts — but it means the illustration/publishing ecosystem is her native territory and the higher-probability near-term path. Gallery track is a parallel development, not the primary one.",
+    "scoring_instruction": "When two opportunities have equivalent pipeline scores, the one in the illustration/publishing ecosystem should surface first. Gallery calls should not be suppressed — they remain valid and aspirationally correct — but artist book publishers, zine distros, illustration fairs, and bookshop galleries should consistently rank ahead of equivalent gallery open calls in Immediate Best Moves.",
+    "what_this_changes": [
+      "artist_book and zine/publishing weights raised above gallery_exhibition weights",
+      "illustration_publisher and zine_fair_tabling added as explicit scoring categories",
+      "bookshop_consignment raised to reflect it is primary-ecosystem, not secondary",
+      "gallery_exhibition_international lowered from 1.4 to 1.3 (still high — secondary, not suppressed)",
+      "gallery_exhibition_tokyo lowered from 1.3 to 1.2"
+    ]
   },
   "visual_language": [
     "still",
