@@ -44,7 +44,7 @@ function deadlineIsReal(dl) {
 
 export default function OppCard({ opp, sectionKey }) {
   const [open, setOpen] = useState(false)
-  const [emailTab, setEmailTab] = useState('ja')
+  const [emailTab, setEmailTab] = useState('zh')
 
   const verifyNeeded = !deadlineIsReal(opp.deadline)
 
@@ -157,6 +157,12 @@ export default function OppCard({ opp, sectionKey }) {
                   <span className="opp-block-label">Email draft</span>
                   <div className="opp-email-tabs">
                     <button
+                      className={`opp-email-tab${emailTab === 'zh' ? ' active' : ''}`}
+                      onClick={() => setEmailTab('zh')}
+                    >
+                      中文
+                    </button>
+                    <button
                       className={`opp-email-tab${emailTab === 'ja' ? ' active' : ''}`}
                       onClick={() => setEmailTab('ja')}
                     >
@@ -171,12 +177,12 @@ export default function OppCard({ opp, sectionKey }) {
                   </div>
                 </div>
                 <pre className="opp-email-body">
-                  {emailTab === 'ja' ? opp.email_ja : opp.email_en}
+                  {emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en}
                 </pre>
                 <button
                   className="opp-copy-btn"
                   onClick={() => navigator.clipboard?.writeText(
-                    emailTab === 'ja' ? opp.email_ja : opp.email_en
+                    emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en
                   )}
                 >
                   Copy draft

@@ -2,7 +2,7 @@
 .opp-card {
   background: var(--paper);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 16px;
   overflow: hidden;
   transition: box-shadow 0.16s ease;
 }
@@ -21,8 +21,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 10px 14px;
+  gap: 16px;
+  padding: 16px 20px;
   background: none;
   border: none;
   cursor: pointer;
@@ -39,9 +39,9 @@
 .opp-card-left {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 14px;
   flex-shrink: 0;
-  min-width: 200px;
+  min-width: 240px;
 }
 
 /* Score badge */
@@ -49,10 +49,10 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
   flex-shrink: 0;
 }
@@ -63,33 +63,33 @@
 .opp-card-name-block {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 3px;
 }
 
 .opp-card-name {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: var(--ink);
   line-height: 1.2;
 }
 
 .opp-card-location {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--ink-muted);
 }
 
 .opp-card-right {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   flex: 1;
   overflow: hidden;
 }
 
 /* Category pill */
 .opp-cat-pill {
-  font-size: 10.5px;
-  padding: 2px 8px;
+  font-size: 11px;
+  padding: 3px 10px;
   border-radius: 999px;
   background: #f0e8d8;
   color: var(--ink-medium);
@@ -100,8 +100,8 @@
 
 /* Effort pill */
 .opp-effort-pill {
-  font-size: 10.5px;
-  padding: 2px 8px;
+  font-size: 11px;
+  padding: 3px 10px;
   border-radius: 999px;
   white-space: nowrap;
   flex-shrink: 0;
@@ -112,7 +112,7 @@
 .effort-check  { background: #f0ebe4; color: #8a7563; }
 
 .opp-card-summary-text {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink-muted);
   font-style: italic;
   overflow: hidden;

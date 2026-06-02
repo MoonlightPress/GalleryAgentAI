@@ -59,6 +59,33 @@ def effort_label(raw: str) -> str:
     return "Check"
 
 
+def email_zh(organization: str, category: str) -> str:
+    is_zine = category in {"zine_print", "bookstore_gallery", "bookstore_event"}
+    is_residency = category in {"residency", "institutional"}
+
+    if is_zine:
+        ask = "艺术书籍或ZINE的寄售合作"
+    elif is_residency:
+        ask = "驻留项目及申请方式"
+    else:
+        ask = "展览提案或公开征集"
+
+    return f"""主题：艺术家合作咨询
+
+{organization} 负责人您好，
+
+您好！我是GEGYjiji，一位旅居东京的水彩艺术家。我的创作主要关注城市风景、建筑空间、日常室内环境与光线，以及那些静谧的、承载记忆的空间氛围。
+
+我对贵方的空间与项目很感兴趣，希望进一步了解{ask}相关的合作可能。
+
+您可以在Twitter（@GEGYjiji）上看到我的近期作品。如需作品集PDF或艺术家简介，我可以随时发送。
+
+期待您的回复，感谢您的时间。
+
+GEGYjiji
+[portfolio link]"""
+
+
 def email_ja(organization: str, category: str) -> str:
     is_zine = category in {"zine_print", "bookstore_gallery", "bookstore_event"}
     is_residency = category in {"residency", "institutional"}
@@ -145,7 +172,8 @@ def shape_card(opp: dict) -> dict:
         "next_action": aim.get("suggested_next_action", ""),
         "soft_warning": pv.get("softer_summary", ""),
         "bullets": cc.get("three_bullets", []),
-        # Email drafts
+        # Email drafts (Chinese first — artist's primary language)
+        "email_zh": email_zh(opp.get("organization") or opp.get("name", ""), category),
         "email_ja": email_ja(opp.get("organization") or opp.get("name", ""), category),
         "email_en": email_en(opp.get("organization") or opp.get("name", ""), category),
     }

@@ -81,5 +81,5 @@
 .opp-cards-list {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 10px;
 }
