@@ -1,0 +1,488 @@
+THE LIVING INTERFACE AND SAFFRON'S THREE INTELLIGENCE LAYERS
+Bible Entry 11 — Written 2026-06-02
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT THIS DOCUMENT COVERS
+
+Two things, which connect.
+
+The first is the hero image system — how each companion's page greets the artist
+when she arrives, and why that greeting should change. The second is the full
+specification of Saffron's page: not just what she shows, but how her three
+intelligence layers work and how they depend on each other.
+
+These are not unrelated. The hero rotation system is about what the interface
+feels like to arrive at. Saffron's layers are about what she has gathered while
+the artist was away. Both are expressions of the same conviction: the system
+should be alive. It should feel like visiting somewhere, not opening a file.
+
+─────────────────────────────────────────────────────────────────────
+
+PART ONE: THE LIVING HERO SYSTEM
+
+─────────────────────────────────────────────────────────────────────
+
+THE PROBLEM WITH A STATIC BANNER
+
+A hero image that never changes is wallpaper. The artist sees it the first time
+and it registers. She sees it the second time and it is familiar. She sees it
+the tenth time and she does not see it anymore.
+
+This matters more than it sounds. The companions are not features. They are
+characters in a relationship. Characters in a relationship change. They have
+moods. They look different in morning light than in evening light. The atelier
+in January is not the atelier in September. A static banner makes the companions
+feel like product mascots instead of presences.
+
+The solution is not cosmetic variety for its own sake. The images should respond
+to context: time of day, season, weather. An artist opening the page at six in
+the morning should feel something different than opening it at eleven at night.
+The system should seem to know what time it is.
+
+─────────────────────────────────────────────────────────────────────
+
+THE FOLDER STRUCTURE
+
+Each companion has its own image pool. Images live at:
+
+  frontend/src/assets/heroes/mochi/
+  frontend/src/assets/heroes/peppercorn/
+  frontend/src/assets/heroes/saffron/
+
+Adding an image to a folder immediately includes it in rotation. No registration,
+no configuration, no code change. The system discovers images from the folder
+contents at build time using import.meta.glob.
+
+Current state: one image per companion. This is the starting condition. It is
+enough to establish the system. The value grows as the pool grows.
+
+Target: 3-5 images per companion within the first months of use. 100 per
+companion eventually. At 100, the rotation is rich enough that the artist rarely
+sees the same image twice in a week. The early images establish what good looks
+like. Each addition should meet the same standard.
+
+─────────────────────────────────────────────────────────────────────
+
+THE SELECTION ALGORITHM
+
+Selection is not random. Random is artless. Selection is weighted by context.
+
+The algorithm works in four layers, applied in order:
+
+  1. ROTATION COMPLETENESS
+     No image repeats until the full pool has been shown once. This is the base
+     constraint. Even with weighting, the rotation completes a full cycle before
+     any image appears twice. The artist will eventually see everything.
+
+  2. TIME-OF-DAY BIAS
+     Images are tagged by filename as morning, midday, afternoon, evening, or
+     night. The algorithm weights toward images matching the current time bracket.
+     A dawn image surfaces more often before nine in the morning. An evening image
+     surfaces more often after seven at night. Images without time tags are eligible
+     at all hours with neutral weight.
+
+  3. SEASONAL WEIGHT
+     Images tagged by season — spring, summer, autumn, winter — are weighted up
+     when the current calendar month matches. A snowbound interior appears more
+     often in December and January. A warm afternoon light image appears more
+     often in July and August. Untagged images remain eligible throughout the year.
+
+  4. WEATHER AWARENESS (CONDITIONAL)
+     If a weather API is available, images tagged to weather conditions — clear,
+     overcast, rain, snow — receive a weight multiplier when the local forecast
+     matches. On a grey overcast morning, overcast-tagged images are favored over
+     bright summer images. This layer is optional. The system degrades gracefully
+     when no weather data is present. Weather tagging is low priority until the
+     pool is large enough to make it meaningful; with five images, it is noise.
+
+─────────────────────────────────────────────────────────────────────
+
+FILE NAMING CONVENTION
+
+Tags are embedded in the filename, separated by underscores:
+
+  mochi_morning_spring_01.png
+  mochi_evening_02.png
+  mochi_winter_overcast_01.png
+  mochi_03.png                    ← no tags, eligible always
+
+The selection system reads the filename, extracts recognized tags from a fixed
+vocabulary, and applies weights accordingly. Unknown tokens are ignored. The
+convention is additive — more specific images get narrower but more contextually
+resonant placement.
+
+Recognized time-of-day tags: morning, midday, afternoon, evening, night
+Recognized season tags:       spring, summer, autumn, winter
+Recognized weather tags:      clear, overcast, rain, snow
+
+Tag order within the filename does not matter.
+
+─────────────────────────────────────────────────────────────────────
+
+NO TEXT ON THE HERO IMAGE. EVER.
+
+This is an absolute rule, not a preference.
+
+The hero image belongs to the companion. It is the companion's face, their mood,
+their light. No text overlay, no caption, no UI element sits on top of it. No
+greeting text. No status message. No card. Nothing.
+
+Text overlays on hero images are a compromise. They emerge from the assumption
+that the banner is wasted space unless it carries information. This assumption
+is wrong. The image carries information — it carries the feeling of arriving
+somewhere. Text placed on top of it fights the image for attention and always
+degrades the image more than the text is worth.
+
+Mochi's current page places a focus card overlaid on the hero. That focus card
+should migrate below the banner, not sit on top of it. The card's content is
+important and correct. Its placement on the image is not. When the Three
+Companions rebuild happens, the hero is clean on all three pages.
+
+Saffron's page is already correct on this point. Peppercorn's page is not.
+This rule holds even when the pool is small. Even with one image, the image
+is clean. Clean is the standard from the first image to the hundredth.
+
+─────────────────────────────────────────────────────────────────────
+
+PART TWO: SAFFRON'S THREE INTELLIGENCE LAYERS
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT SAFFRON IS NOT
+
+Before describing what Saffron does, it is useful to describe what she is not.
+
+Saffron is not a dashboard. She is not a row of metric cards — "163 opportunities
+found, 4 actionable, 12 applications submitted." She is not a comparison engine
+that measures the artist against benchmarks and implies she is behind. She is not
+a content aggregator that surfaces art world news for its own sake.
+
+These are things an analytics tab might do. Saffron is not an analytics tab.
+
+Saffron sees patterns from altitude. A statistic at ground level tells you how
+many. A pattern from altitude tells you what it means. Saffron's value is in
+interpretation — not false interpretation, not invented significance, but the
+kind of context that only becomes visible when you step back far enough.
+
+She does not advise. She describes. The artist looks at what Saffron describes
+and draws her own conclusions. Saffron sees the patterns from above so the
+artist does not have to.
+
+─────────────────────────────────────────────────────────────────────
+
+THE THREE LAYERS
+
+Saffron's page is organized into three intelligence layers. They are not tabs.
+They are successive depths of context — each one deeper than the last, each one
+building on the previous. They can be read in sequence or navigated by depth,
+but they are not independent modules. They tell one story in three chapters.
+
+─────────────────────────────────────────────────────────────────────
+
+LAYER ONE: MARKET INTELLIGENCE
+
+What it answers: "What kind of world is this artist working in?"
+
+Market Intelligence describes the opportunity landscape as a shape, not a list.
+The content:
+
+  CATEGORY BREAKDOWN
+  What kinds of opportunities dominate the current landscape? Open calls versus
+  residencies versus consignment venues versus fairs versus prizes. How has the
+  mix shifted over the last six months? Is there a category that has grown
+  recently or gone quiet?
+
+  TOKYO VS. INTERNATIONAL SPLIT
+  How many actionable opportunities exist in Tokyo, in Japan outside Tokyo, and
+  internationally? For this artist at this career stage, Tokyo is primary. The
+  international picture matters for context and for stretch targets — Cité
+  Internationale des Arts, the RWS open exhibition, Printed Matter — which
+  are tracked here even when they are not yet actionable.
+
+  SEASONAL PATTERNS IN OPEN CALLS
+  Which institutions announce their calls in March? Which have a reliable autumn
+  window? Saffron builds this picture over time. After two years of pipeline data
+  she can say with genuine confidence: expect three new watercolor open calls to
+  open in September — they arrive every year. The seasonality becomes a planning
+  tool: the artist can prepare in August for what arrives in September.
+
+  TREND DETECTION
+  Are more or fewer residencies becoming available in Japan? Is the Tokyo
+  watercolor community growing its exhibition presence? Is interest in quiet
+  observational work rising or receding in the institutions she targets? These
+  are slow-moving patterns that only become visible over months. Saffron
+  watches for them without being asked.
+
+What this layer does for the artist: she arrives knowing the shape of the
+landscape. She does not need to discover that October has more open calls than
+July — Saffron has already watched for that. The artist spends her attention on
+decisions, not on orientation.
+
+─────────────────────────────────────────────────────────────────────
+
+LAYER TWO: ARTIST INTELLIGENCE
+
+What it answers: "How does my work and career fit into the larger picture?"
+
+Artist Intelligence describes the artist in context, not in isolation. This is
+the most sensitive layer. It requires Saffron to draw comparisons — and
+comparisons can feel like judgments. The tone must hold the distinction
+consistently: comparisons are for orientation, not evaluation. Saffron describes.
+She does not rank. She does not say "you are behind." She says "here are artists
+doing adjacent work in similar circumstances."
+
+The content:
+
+  COMPARABLE ARTISTS
+  Three to five artists doing similar work in similar career circumstances.
+  Not necessarily the same medium or geography, but the same kind of career:
+  emerging, building exhibition history, working in a quiet and observational
+  mode, engaged with urban environments or interiority. Not superstars. Peers.
+
+  Saffron describes what these artists are doing. Where they are showing. What
+  their recent trajectory looks like. Not to induce comparison anxiety — to
+  answer the question the artist rarely gets to ask: am I unusual, or is what I
+  am doing a recognizable path?
+
+  CAREER TRAJECTORY ANALYSIS
+  At this career stage, with this exhibition history, with this kind of work —
+  what do the next two years typically look like for an artist in this position?
+  Not a prescription. A description of what has happened for others who started
+  where she is starting. The trajectory is drawn from real careers Saffron has
+  observed, not from a generalized model of artist career development.
+
+  HER WORK IN CONTEXT
+  What is the critical and curatorial conversation around work like hers? Urban
+  environments, architecture, memory, absence, atmosphere, quiet observation —
+  is there a movement, an emerging curatorial interest, a set of peer institutions
+  that have been programming this kind of work? Saffron does not evaluate the
+  work. She reports on the context the work exists in. This is the intelligence
+  a gallerist friend would give the artist over coffee.
+
+  SCORE TRENDS
+  Is the pipeline's understanding of her work improving? Are the opportunities
+  surfaced this quarter more relevant than last quarter? Are the fit scores
+  drifting up or down? This is diagnostic more than intelligence — but Saffron
+  is the right place for it. She is the one with the long view.
+
+─────────────────────────────────────────────────────────────────────
+
+LAYER THREE: STRATEGIC PATHWAYS
+
+What it answers: "If I want to get somewhere specific, what does that path look like?"
+
+This is the deepest and most ambitious layer. It is also the most dependent on
+Peppercorn — without the artist's stated goals and preferences, the pathways
+cannot be personalized. Generic pathways are listicles. Personalized pathways
+are maps.
+
+THE STRUCTURE OF A PATHWAY
+
+A pathway is not a to-do list. A to-do list says: do this, then this, then this.
+It implies the path is known and the only question is execution. Pathways
+acknowledge that the path is not fixed — it has several routes, several timescales,
+several dependencies that are partly under the artist's control and partly not.
+
+A pathway surfaces:
+
+  - The current position: what the artist has and has not yet done that is
+    relevant to this goal
+  - The milestones: intermediate markers that have historically preceded this
+    kind of outcome for artists in similar positions
+  - The dependencies: what needs to be true for the next milestone to be
+    reachable — which may include things the system cannot control
+  - The realistic timeframe: not a deadline, but a range derived from comparable
+    careers, with the factors that affect where in the range she lands
+  - What would accelerate it: specific actions with specific leverage on the
+    timeline, ranked by impact
+
+THE THREE SPECIFIED PATHWAYS
+
+Three pathways are specified by the artist:
+
+  1. PATH TO 1M INSTAGRAM FOLLOWERS
+     This is a distribution and visibility pathway, not a gallery pathway. It
+     requires different activities: consistent posting rhythm, community
+     engagement, an identifiable visual voice across bodies of work, meaningful
+     engagement with adjacent accounts. The pipeline is not optimized for this —
+     Instagram growth is not an opportunity in the traditional sense. But Saffron
+     can model it: what artists with similar work have done to build large
+     followings, what the realistic timeframes look like at different levels of
+     posting consistency, and how Instagram visibility intersects with exhibition
+     opportunity. The path to 1M is not separate from the path to a major gallery —
+     they share the visibility layer.
+
+  2. PATH TO MAJOR GALLERY BY 30
+     This is a long-horizon institutional pathway. Major gallery means here a
+     well-regarded commercial gallery with an international program and artist
+     roster — not just a respected local venue. The path runs through: group
+     exhibition history at institutional spaces, residency or fellowship credits,
+     publication presence, relationship building with curators and collectors over
+     several years. Saffron models this as a four-to-six year arc from the current
+     position. She is not describing a sequence of deterministic steps. She is
+     describing the territory between here and there, and marking which sections
+     require relationships that cannot be rushed.
+
+  3. PATH TO FIRST PUBLICATION
+     The most near-term of the three. A zine or artist book — not a major
+     monograph, but a real publication that enters circulation and lives in shops
+     and collections. The milestones include identifying distribution venues for
+     consignment (Daikanyama T-Site, POST, Village Vanguard, international
+     distros like Printed Matter and Idea Books), selecting or developing a body
+     of work suitable for print format, navigating short-run printing logistics,
+     and submitting to an artist book fair such as Offprint Tokyo. This is
+     achievable within the current tier framework without waiting for
+     institutional credentialing. It is the right first publication move.
+
+These three are not the only pathways Saffron can hold. They are the first three —
+the ones the artist has named. New pathways can be defined through Peppercorn, or
+suggested by Saffron when she observes that the artist's recent activity implies
+a direction she has not yet named.
+
+─────────────────────────────────────────────────────────────────────
+
+HOW PEPPERCORN FEEDS SAFFRON
+
+Strategic Pathways are Saffron's most personalized content. They cannot be
+generic. A generic pathway to a major gallery by 30 is a listicle. A personalized
+pathway is built from this body of work, this exhibition history, these
+relationship targets already tracked in the system, this specific city and
+community, these specific venues the artist has already followed or dismissed.
+
+The personalization comes from Peppercorn.
+
+Every time the artist answers a question on Peppercorn's page — clarifies a goal,
+confirms a preference, records a milestone — Peppercorn writes to shared state.
+Saffron reads that state when building pathways. The cycle:
+
+  1. The artist tells Peppercorn her goal: "I want to show at a major gallery
+     by 30."
+  2. Peppercorn records the goal with target date and current career state.
+  3. Saffron reads the goal, the current exhibition history, the submission
+     record, the followed venues, and the not-for-me dismissals.
+  4. Saffron builds a pathway: here is the gap between where you are and where
+     you want to be, here are the intermediate milestones that have preceded this
+     kind of outcome, here is what the timeline looks like given your current
+     position.
+  5. Mochi surfaces the next actionable step from the pathway in Today's Focus.
+
+The loop is: Peppercorn collects the artist's voice. Saffron interprets it from
+altitude. Mochi acts on it at ground level. The three companions are not
+independent pages. They are a single system with three entry points.
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT SAFFRON NEVER DOES IN PATHWAYS
+
+Saffron does not tell the artist whether her goals are realistic. She describes
+what the path looks like. The artist decides whether to walk it.
+
+Saffron does not compare the artist unfavorably to others on the same path.
+"Artists who reached a major gallery by 30 typically had X" is information.
+"You don't have X" is a judgment. Saffron provides the former only.
+
+Saffron does not generate urgency. No countdowns, no "you have 847 days until
+your 30th birthday." Timescales exist as context, not pressure.
+
+Saffron does not revise the artist's goals without being asked. If the artist
+said she wants a major gallery by 30, that is what Saffron models. She might
+note when a pathway requires acceleration to remain realistic — but she does
+not quietly update the goal to something more achievable and model that instead.
+
+─────────────────────────────────────────────────────────────────────
+
+THE RELATIONSHIP BETWEEN THE THREE LAYERS
+
+The layers compound.
+
+Market Intelligence describes the landscape. Artist Intelligence describes where
+the artist stands in it. Strategic Pathways describe how to move through it
+toward a named destination.
+
+An artist looking at a pathway without market context does not know if she is
+looking at a realistic path or an idealized one. An artist looking at comparable
+careers without her own position in view cannot tell whether the comparison is
+flattering or concerning or simply informative. The layers are designed to be
+read in sequence, or navigated by depth — but reading only one layer without
+the others is reading a chapter without the book.
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT THIS MEANS FOR CODE
+
+HERO IMAGE SYSTEM
+
+The hero rotation utility exists at:
+
+  frontend/src/utils/heroImages.js
+
+Currently it uses import.meta.glob with eager loading and a single random pick.
+The next iteration of this utility adds:
+
+  - Filename tag parsing: extract recognized tags from the filename string
+  - Time-of-day bracket detection: client-side, using Date.getHours()
+  - Weighted selection: replace pure random with a weighted pick where matching
+    tags multiply the probability of selection
+  - Rotation completeness tracking: use sessionStorage to record which images
+    have been shown; reset on true page load, not navigation
+  - Weather weight multiplier: deferred until the pool is large enough to
+    benefit; irrelevant with three images per folder
+
+The function signature stays the same from the consumer's perspective. The
+named exports — mochiHero, peppercornHero, saffronHero — remain. Weighting is
+internal. Components do not need to change when the algorithm improves.
+
+SAFFRON'S THREE LAYERS
+
+None of the three layers exist in code yet. Implementation follows the data
+dependency chain:
+
+  Market Intelligence is the most pipeline-adjacent. Much of the raw data
+  already exists in memory/opportunities.json and the pipeline output files.
+  A new engine reads those files and produces a structured market summary.
+  This is buildable without new data sources. It is the right first Saffron step.
+
+  Artist Intelligence requires the comparable artists system and the submission
+  history (which depends on the Applied card action specified in Bible Entry 10).
+  It cannot be fully built until Applied has accumulated data. Stub the UI now;
+  populate it later.
+
+  Strategic Pathways require Peppercorn's goal intake to exist. They cannot be
+  personalized without the artist's stated goals. Build the goal intake in
+  Peppercorn first. Build Pathway generation in Saffron second. Build the
+  Mochi surfacing of pathway actions third. The three steps are one feature
+  split across three pages.
+
+The Saffron page currently shows a clean hero banner with no content below it.
+That is correct. Do not add placeholder content for the three layers until the
+data layer is ready. A placeholder with no real data is worse than a beautiful
+empty page. Saffron has nothing to report until she has something to report.
+The empty page is honest. Fake data is not.
+
+─────────────────────────────────────────────────────────────────────
+
+A NOTE ON SEQUENCE
+
+Bible Entry 08 described the Three Companions architecture and established the
+companion characters. Bible Entry 10 described the four card feedback actions
+and how they route to each companion. This entry describes the living hero system
+and the full specification of what Saffron sees.
+
+Together they define what the system becomes.
+
+The right build order, given all three entries:
+
+  1. Applied (Bible 10) first — submission history begins to accumulate
+  2. Market Intelligence (this entry) second — pipeline data is already present
+  3. Peppercorn goal intake — artist's voice enters the system
+  4. Artist Intelligence — comparable artists, trajectory analysis
+  5. Strategic Pathways — the three layers are now connected
+  6. Hero pool growth to 3-5 per companion — the living interface begins
+  7. Weighted selection with time-of-day and seasonal bias
+  8. Hero pool growth to 100 per companion — the rotation is fully alive
+
+Nothing in this entry is implemented. This is the specification. When the time
+comes to build, start here.
+
+─────────────────────────────────────────────────────────────────────
