@@ -84,9 +84,14 @@ def choose_target_bucket(item: dict) -> str:
 
 # ── search ────────────────────────────────────────────────────────────────────
 
+_JAPAN_COUNTRIES  = {"", "japan", "jp"}
+_CHINA_COUNTRIES  = {"china", "cn", "china (beijing)", "china (shanghai)"}
+
+
 def build_queries(item: dict) -> list[tuple[str, list[str]]]:
-    title  = item.get("title", "").strip()
-    source = item.get("source", "")
+    title   = item.get("title", "").strip()
+    source  = item.get("source", "")
+    country = str(item.get("country", "")).lower().strip()
     t = f'"{title}"'
 
     queries = [
@@ -94,13 +99,16 @@ def build_queries(item: dict) -> list[tuple[str, list[str]]]:
         (f"{t} deadline submission 2025 2026",       []),
         (f"{t} apply entry fee cost",                []),
         (f"{t} contact email submissions open call", []),
-        # Japanese — X / Twitter
-        (f"{t} 締切 公募 展示 申し込み",               ["x.com", "twitter.com"]),
-        # Japanese — note.com
-        (f"{t} 公募 締切 展覧会",                      ["note.com"]),
-        # Chinese — Weibo / Lofter / zcool
-        (f"{t} 截止日期 申请 展览",                    ["weibo.com", "lofter.com", "zcool.com.cn"]),
     ]
+
+    # Japanese queries only for Japan-country or unknown-country items
+    if country in _JAPAN_COUNTRIES:
+        queries.append((f"{t} 締切 公募 展示 申し込み", ["x.com", "twitter.com"]))
+        queries.append((f"{t} 公募 締切 展覧会",         ["note.com"]))
+
+    # Chinese queries only for China-country items
+    if country in _CHINA_COUNTRIES:
+        queries.append((f"{t} 截止日期 申请 展览", ["weibo.com", "lofter.com", "zcool.com.cn"]))
 
     if source:
         try:
@@ -114,7 +122,12 @@ def build_queries(item: dict) -> list[tuple[str, list[str]]]:
     return queries
 
 
-def run_query(query: str, include_domains: list[str] | None = None) -> str:
+# Sentinel returned when Tavily quota is exhausted — caller must not cache result
+_QUOTA_ERROR = None
+
+
+def run_query(query: str, include_domains: list[str] | None = None) -> str | None:
+    """Return text snippets, empty string (no results), or None (quota exhausted)."""
     kwargs: dict = {"search_depth": "basic", "max_results": 5}
     if include_domains:
         kwargs["include_domains"] = include_domains
@@ -131,6 +144,9 @@ def run_query(query: str, include_domains: list[str] | None = None) -> str:
             return "\n\n".join(parts)
         except Exception as exc:
             msg = str(exc)
+            if "usage limit" in msg.lower() or "plan" in msg.lower():
+                print(f"    Tavily quota exhausted — stopping searches.")
+                return _QUOTA_ERROR
             if "rate" in msg.lower() or "excessive" in msg.lower():
                 wait = 20 * (attempt + 1)
                 print(f"    rate-limited — waiting {wait}s")
@@ -259,12 +275,21 @@ def main() -> None:
         searched += 1
         print(f"[{i+1:03d}/{total}] {title[:65]}")
 
-        queries  = build_queries(item)
-        all_text = ""
+        queries   = build_queries(item)
+        all_text  = ""
+        quota_hit = False
         for q, domains in queries:
             snippet = run_query(q, domains or None)
+            if snippet is _QUOTA_ERROR:
+                quota_hit = True
+                break
             if snippet:
                 all_text += snippet + "\n\n"
+
+        if quota_hit:
+            print(f"  → skipped (Tavily quota exhausted — not cached)\n")
+            searched -= 1  # don't count against --max; abort remaining items
+            break
 
         facts = extract_facts(title, all_text)
 
