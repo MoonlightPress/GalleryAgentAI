@@ -1,6 +1,7 @@
 import sys
 import json
 import hashlib
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from fastapi import FastAPI, HTTPException
@@ -13,7 +14,10 @@ app = FastAPI(title="Mochi API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=[
+        "http://localhost:5173", "http://127.0.0.1:5173",
+        "http://localhost:5174", "http://127.0.0.1:5174",
+    ],
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
@@ -325,6 +329,198 @@ def post_feedback(payload: FeedbackPayload):
 
     feedback_path.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
     return {"ok": True, "opp_id": payload.opp_id, "action": payload.action}
+
+
+@app.get("/api/saffron")
+def get_saffron():
+    # ── Career position (confirmed research, 2026-06-02) ──────────────────────
+    career_position = {
+        "exhibitions": [
+            {
+                "title": "Tide from China Part 1",
+                "venue": "ACG_Labo, Harajuku, Tokyo",
+                "date": "February 2023",
+                "type": "Group show — 6 Chinese illustrators",
+                "note": "First Japan exhibition",
+            }
+        ],
+        "publications": [
+            {
+                "title": "Colour Diary",
+                "year": "2021",
+                "type": "Solo illustration collection",
+            },
+            {
+                "title": "defined Definition 02: A Documented Journey",
+                "year": None,
+                "type": "Group publication, contributor",
+            },
+        ],
+        "social": [
+            {"platform": "Twitter / X", "handle": "@GegYjiji", "followers": "~90k", "posts": None},
+            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "21k",  "posts": 35},
+        ],
+        "education": {
+            "institution": "Beijing Fashion Institute",
+            "field": "Illustration & design",
+            "note": "Not a classical fine arts track",
+        },
+        "base": "Tokyo, Japan / Beijing, China",
+    }
+
+    # ── Market landscape (computed from compact_opportunities.json) ───────────
+    opps_path = DEPLOY_DIR / "compact_opportunities.json"
+    opps = json.loads(opps_path.read_text(encoding="utf-8")) if opps_path.exists() else []
+
+    CAT_GROUPS = {
+        "Zines & Books": {
+            "zine_print", "book_publishing", "bookstore_gallery", "bookstore_event",
+            "zine_shop_consignment", "global_artist_book_platform", "global_art_book_fair",
+        },
+        "Galleries": {
+            "gallery", "gallery_small", "gallery_event", "artist_space", "event_space",
+        },
+        "Residencies": {
+            "residency", "global_residency", "global_grant_fellowship", "residency_beijing",
+        },
+        "Open Calls & Fairs": {
+            "fair_popup", "global_open_call", "global_watercolor_open_call",
+            "japan_watercolor_open_call", "japan_watercolor_institution",
+            "zine_fair_booth", "group_publication_open_call", "photo_open_call",
+            "global_photobook",
+        },
+        "Cafés & Bookshop Spaces": {"cafe_gallery"},
+    }
+
+    cat_counts = {k: 0 for k in CAT_GROUPS}
+    cat_counts["Other"] = 0
+    for opp in opps:
+        cat = opp.get("category", "")
+        placed = False
+        for group, members in CAT_GROUPS.items():
+            if cat in members:
+                cat_counts[group] += 1
+                placed = True
+                break
+        if not placed:
+            cat_counts["Other"] += 1
+
+    category_breakdown = sorted(
+        [{"label": k, "count": v} for k, v in cat_counts.items() if v > 0],
+        key=lambda x: x["count"],
+        reverse=True,
+    )
+
+    TOKYO_KEYWORDS = ["tokyo", "japan", "yokohama", "shimokitazawa", "koenji",
+                      "kichijoji", "nakano", "harajuku", "shinjuku", "shibuya"]
+    tokyo_count = sum(
+        1 for o in opps
+        if any(kw in (o.get("city") or "").lower() for kw in TOKYO_KEYWORDS)
+    )
+
+    bucket_counts = Counter(o.get("exclusive_primary_bucket", "") for o in opps)
+    actionability = [
+        {"label": "Immediate Best Moves", "count": bucket_counts.get("immediate_best_moves", 0), "tier": "high"},
+        {"label": "Publication Targets",  "count": bucket_counts.get("publication_targets", 0),  "tier": "medium"},
+        {"label": "Relationship Builders","count": bucket_counts.get("relationship_builders", 0),"tier": "medium"},
+        {"label": "Stretch Targets",      "count": bucket_counts.get("stretch_targets", 0),      "tier": "stretch"},
+        {"label": "Needs Research",       "count": bucket_counts.get("research_needed", 0),      "tier": "low"},
+    ]
+
+    market_landscape = {
+        "total": len(opps),
+        "category_breakdown": category_breakdown,
+        "tokyo_vs_international": {
+            "tokyo":         tokyo_count,
+            "international": len(opps) - tokyo_count,
+        },
+        "actionability": actionability,
+    }
+
+    # ── Peer artists ──────────────────────────────────────────────────────────
+    peer_path = DATA_DIR / "peer_artists.json"
+    raw_peers = json.loads(peer_path.read_text(encoding="utf-8")) if peer_path.exists() else []
+    peer_artists = sorted(
+        [
+            {
+                "name":         a.get("name", ""),
+                "region":       a.get("region", ""),
+                "fit_reason":   a.get("fit_reason", ""),
+                "shared_traits":a.get("shared_traits", []),
+                "use_as":       a.get("use_as", ""),
+                "fit_score":    a.get("fit_score", 0),
+            }
+            for a in raw_peers
+        ],
+        key=lambda x: x["fit_score"],
+        reverse=True,
+    )
+
+    # ── Strategic pathway ─────────────────────────────────────────────────────
+    pathway = {
+        "goal": "First Solo Show in Tokyo",
+        "timeline_estimate": "18–36 months from mid-2026",
+        "steps": [
+            {
+                "n": 1,
+                "label": "First publication credit",
+                "done": True,
+                "blocking": False,
+                "detail": "Colour Diary (2021) and contribution to defined Definition 02. Publication history established.",
+            },
+            {
+                "n": 2,
+                "label": "First group show in Japan",
+                "done": True,
+                "blocking": False,
+                "detail": "Tide from China Part 1, ACG_Labo Harajuku, February 2023. First confirmed Japan exhibition on record.",
+            },
+            {
+                "n": 3,
+                "label": "2–3 more Tokyo group shows",
+                "done": False,
+                "blocking": True,
+                "detail": "Artist-run spaces are the natural path: 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN. Each show builds credibility and introduces her work to gallery directors.",
+            },
+            {
+                "n": 4,
+                "label": "Bookshop gallery exhibition",
+                "done": False,
+                "blocking": False,
+                "detail": "UTRECHT, Book and Sons, or flotsam books. Bridges illustration community into gallery context — a natural fit given her publication background.",
+            },
+            {
+                "n": 5,
+                "label": "Second publication or new zine",
+                "done": False,
+                "blocking": False,
+                "detail": "Builds presence in the Tokyo zine and book ecosystem. Creates a natural entrypoint for bookshop gallery conversations and strengthens the publication half of her CV.",
+            },
+            {
+                "n": 6,
+                "label": "Gallery relationship building",
+                "done": False,
+                "blocking": False,
+                "detail": "Attend openings at target venues consistently. The invitation to a solo show comes from a relationship, not a cold submission — this step runs in parallel with everything else.",
+            },
+            {
+                "n": 7,
+                "label": "Solo show application or invitation",
+                "done": False,
+                "blocking": False,
+                "detail": "Target: an intimate Tokyo gallery with a track record of solo shows by international artists at similar career stages. Youkobo Art Space, Gallery Denn, or a bookshop gallery context are realistic first targets.",
+            },
+        ],
+        "blocking_now": "Only 1 confirmed group show in Japan. Most Tokyo galleries consider 2–3 group exhibition credits a minimum before a solo conversation. The next group show is the highest-leverage move right now.",
+        "next_move": "Apply for a second group show at a Tokyo artist-run space. 3331 Arts Chiyoda open calls, Design Festa Gallery curated shows, and Gallery IYN open submissions are the realistic near-term entries. Any of these, confirmed and attended, advances the pathway.",
+    }
+
+    return {
+        "career_position": career_position,
+        "market_landscape": market_landscape,
+        "peer_artists": peer_artists,
+        "pathway": pathway,
+    }
 
 
 @app.get("/api/health")
