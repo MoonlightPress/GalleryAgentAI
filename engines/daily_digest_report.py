@@ -137,6 +137,7 @@ def main():
         name = entry.get("title") or entry.get("name") or ""
         detail = deploy_by_name.get(name.lower(), {})
         deadline_raw = detail.get("deadline") or ""
+        event_date_raw = detail.get("event_date") or ""
         fees_raw = detail.get("fees") or ""
         # Prefer submission_page over source_url for the action link
         link = detail.get("submission_page") or detail.get("source_url") or entry.get("source") or ""
@@ -146,6 +147,7 @@ def main():
             "name": name,
             "score": entry.get("score"),
             "deadline_raw": deadline_raw,
+            "event_date_raw": event_date_raw,
             "deadline_date": deadline_date,
             "delta": delta,
             "fees": fees_raw,
@@ -244,11 +246,13 @@ def main():
 
         if delta is not None:
             label = days_label(delta)
-            lines.append(f"- **Deadline:** {e['deadline_raw']} — _{label}_")
+            lines.append(f"- **Apply by:** {e['deadline_raw']} — _{label}_")
         elif e["deadline_raw"]:
-            lines.append(f"- **Deadline:** {e['deadline_raw']}")
+            lines.append(f"- **Apply by:** {e['deadline_raw']}")
         else:
-            lines.append(f"- **Deadline:** — _(contact / propose)_")
+            lines.append(f"- **Apply by:** — _(contact / propose)_")
+        if e.get("event_date_raw"):
+            lines.append(f"- **Event date:** {e['event_date_raw']}")
 
         if e["fees"]:
             lines.append(f"- **Fee:** {e['fees']}")

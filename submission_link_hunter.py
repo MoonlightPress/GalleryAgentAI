@@ -45,6 +45,63 @@ DATE_PATTERNS = [
     re.compile(r"20[2-9][0-9]年\s*[0-9]{1,2}月\s*[0-9]{1,2}日"),
 ]
 
+_DATE_PAT = re.compile(
+    r"\b(?:20\d{2}[-/\.]\d{1,2}[-/\.]\d{1,2}"
+    r"|\d{1,2}[-/\.]\d{1,2}[-/\.]20\d{2}"
+    r"|(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\w*\.?\s+\d{1,2},?\s+20\d{2}"
+    r"|20\d{2}年\s*\d{1,2}月\s*\d{1,2}日)\b",
+    re.I,
+)
+
+# Phrases that indicate an application deadline (when to submit by)
+_DEADLINE_SIGNALS = [
+    "deadline", "apply by", "apply before", "application deadline",
+    "submit by", "submission deadline", "applications close", "applications due",
+    "entry deadline", "entry closes", "last day to apply", "application due",
+    "応募締切", "締切", "申込締切", "受付締切",
+]
+
+# Phrases that indicate event/exhibition dates (when the show happens)
+_EVENT_DATE_SIGNALS = [
+    "exhibition date", "exhibition period", "exhibition runs", "on view",
+    "event date", "event dates", "fair date", "fair dates", "show dates",
+    "opening night", "opening reception", "runs from", "runs through",
+    "会期", "開催期間", "開催日", "展示期間",
+]
+
+
+def _classify_date_hit(text, start, end):
+    """Return 'deadline', 'event_date', or 'unknown' based on surrounding text."""
+    window = text[max(0, start - 200): end + 200].lower()
+    for sig in _DEADLINE_SIGNALS:
+        if sig in window:
+            return "deadline"
+    for sig in _EVENT_DATE_SIGNALS:
+        if sig in window:
+            return "event_date"
+    return "unknown"
+
+
+def extract_classified_dates(text):
+    """
+    Scan page text for dates and classify as deadline vs event_date by context.
+    Returns lists of classified date strings.
+    """
+    deadlines = []
+    event_dates = []
+    seen = set()
+    for m in _DATE_PAT.finditer(text):
+        val = m.group(0)
+        if val in seen:
+            continue
+        seen.add(val)
+        kind = _classify_date_hit(text, m.start(), m.end())
+        if kind == "deadline":
+            deadlines.append(val)
+        elif kind == "event_date":
+            event_dates.append(val)
+    return {"deadlines": deadlines[:5], "event_dates": event_dates[:5]}
+
 # Matches currency amounts near fee-related words, or explicit free-entry phrases
 FEE_CONTEXT_RE = re.compile(
     r"(?:fee|entry|submission|cost|charge)[^.]{0,80}?(?:£|€|\$|¥|USD|GBP|EUR|JPY)\s*[\d,]+"
@@ -151,6 +208,8 @@ def crawl_opportunity(item):
             "status": status,
             "emails": [],
             "date_candidates": [],
+            "deadline_candidates": [],
+            "event_date_candidates": [],
             "fee_candidates": [],
             "requirements_excerpt": [],
         }
@@ -159,6 +218,9 @@ def crawl_opportunity(item):
             text = parse_text(html)
             page["emails"] = extract_emails(html)
             page["date_candidates"] = extract_dates(text)
+            classified = extract_classified_dates(text)
+            page["deadline_candidates"] = classified["deadlines"]
+            page["event_date_candidates"] = classified["event_dates"]
             page["fee_candidates"] = extract_fees(text)
             page["requirements_excerpt"] = extract_requirements(text)
 
@@ -169,6 +231,8 @@ def crawl_opportunity(item):
         "pages": pages,
         "all_emails": list(dict.fromkeys(e for p in pages for e in p["emails"])),
         "all_dates": list(dict.fromkeys(d for p in pages for d in p["date_candidates"])),
+        "all_deadline_candidates": list(dict.fromkeys(d for p in pages for d in p["deadline_candidates"])),
+        "all_event_date_candidates": list(dict.fromkeys(d for p in pages for d in p["event_date_candidates"])),
         "all_fees": list(dict.fromkeys(f for p in pages for f in p["fee_candidates"])),
     }
 

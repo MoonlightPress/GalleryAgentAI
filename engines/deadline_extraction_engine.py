@@ -23,12 +23,36 @@ DATE_PATTERNS = [
 DEADLINE_WORDS = [
     "deadline",
     "apply by",
+    "apply before",
+    "application deadline",
+    "submit by",
     "applications close",
+    "applications due",
+    "entry deadline",
+    "entry closes",
+    "last day to apply",
     "closes",
     "due",
     "until",
     "submission deadline",
-    "entry deadline"
+    "応募締切", "締切", "申込締切", "受付締切",
+]
+
+EVENT_DATE_WORDS = [
+    "exhibition date",
+    "exhibition period",
+    "exhibition runs",
+    "event date",
+    "event dates",
+    "fair date",
+    "fair dates",
+    "show dates",
+    "on view",
+    "opening night",
+    "opening reception",
+    "runs from",
+    "runs through",
+    "会期", "開催期間", "開催日", "展示期間",
 ]
 
 
@@ -57,15 +81,22 @@ def extract_deadline_snippets(text):
     text = re.sub(r"\s+", " ", text or "")
     lower = text.lower()
 
-    snippets = []
+    deadline_snippets = []
+    event_date_snippets = []
 
     for word in DEADLINE_WORDS:
         start = lower.find(word)
         if start == -1:
             continue
-
         snippet = text[max(0, start - 180): min(len(text), start + 360)]
-        snippets.append(snippet)
+        deadline_snippets.append(snippet)
+
+    for word in EVENT_DATE_WORDS:
+        start = lower.find(word)
+        if start == -1:
+            continue
+        snippet = text[max(0, start - 180): min(len(text), start + 360)]
+        event_date_snippets.append(snippet)
 
     date_hits = []
 
@@ -74,18 +105,22 @@ def extract_deadline_snippets(text):
             date_hits.append(match.group(0))
             start = match.start()
             snippet = text[max(0, start - 180): min(len(text), start + 260)]
-            snippets.append(snippet)
+            deadline_snippets.append(snippet)
 
-    # dedupe
-    seen = set()
-    unique = []
+    def dedupe(lst):
+        seen = set()
+        out = []
+        for s in lst:
+            if s not in seen:
+                seen.add(s)
+                out.append(s)
+        return out
 
-    for s in snippets:
-        if s not in seen:
-            seen.add(s)
-            unique.append(s)
-
-    return unique[:8], list(dict.fromkeys(date_hits))[:12]
+    return (
+        dedupe(deadline_snippets)[:8],
+        list(dict.fromkeys(date_hits))[:12],
+        dedupe(event_date_snippets)[:4],
+    )
 
 
 def main():
@@ -98,13 +133,14 @@ def main():
 
     for record in records:
         name = source_name(record)
-        snippets, dates = extract_deadline_snippets(text_of(record))
+        snippets, dates, event_snippets = extract_deadline_snippets(text_of(record))
 
-        if snippets or dates:
+        if snippets or dates or event_snippets:
             evidence[name] = {
                 "source_name": name,
                 "source_url": record.get("final_url") or record.get("source_url") or record.get("url") or "",
                 "deadline_snippets": snippets,
+                "event_date_snippets": event_snippets,
                 "date_hits": dates,
                 "confidence": "medium" if dates else "low"
             }

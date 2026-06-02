@@ -25,6 +25,60 @@ CONTACT_WORDS = [
     "お問い合わせ", "問合せ", "連絡", "会社概要"
 ]
 
+# Phrases that indicate an application deadline (when to submit by)
+_DEADLINE_SIGNALS = [
+    "deadline", "apply by", "apply before", "application deadline",
+    "submit by", "submission deadline", "applications close", "applications due",
+    "entry deadline", "entry closes", "last day to apply", "application due",
+    "応募締切", "締切", "申込締切", "受付締切",
+]
+
+# Phrases that indicate event/exhibition dates (when the show happens)
+_EVENT_DATE_SIGNALS = [
+    "exhibition date", "exhibition period", "exhibition runs", "on view",
+    "event date", "event dates", "fair date", "fair dates", "show dates",
+    "opening night", "opening reception", "runs from", "runs through",
+    "会期", "開催期間", "開催日", "展示期間",
+]
+
+_DATE_PAT = re.compile(
+    r"\b(?:20\d{2}[-/\.]\d{1,2}[-/\.]\d{1,2}"
+    r"|\d{1,2}[-/\.]\d{1,2}[-/\.]20\d{2}"
+    r"|(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\w*\.?\s+\d{1,2},?\s+20\d{2}"
+    r"|20\d{2}年\s*\d{1,2}月\s*\d{1,2}日)\b",
+    re.I,
+)
+
+
+def _classify_date_hit(text, start, end):
+    """Return 'deadline', 'event_date', or 'unknown' based on surrounding text."""
+    window = text[max(0, start - 200): end + 200].lower()
+    for sig in _DEADLINE_SIGNALS:
+        if sig in window:
+            return "deadline"
+    for sig in _EVENT_DATE_SIGNALS:
+        if sig in window:
+            return "event_date"
+    return "unknown"
+
+
+def classify_dates_in_text(text):
+    """
+    Scan text for dates and classify as 'deadline' or 'event_date' based on context.
+    Returns dict with first matched string for each class.
+    """
+    deadline = None
+    event_date = None
+    for m in _DATE_PAT.finditer(text):
+        kind = _classify_date_hit(text, m.start(), m.end())
+        if kind == "deadline" and deadline is None:
+            deadline = m.group(0)
+        elif kind == "event_date" and event_date is None:
+            event_date = m.group(0)
+        if deadline and event_date:
+            break
+    return {"deadline": deadline, "event_date": event_date}
+
 BROWSER_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
@@ -170,8 +224,13 @@ def verify_one(item):
         if emails:
             row["contact"] = emails[0]
 
-        if dates:
+        classified = classify_dates_in_text(text)
+        if classified["deadline"]:
+            row["deadline"] = classified["deadline"]
+        elif dates:
             row["deadline"] = dates[0]
+        if classified["event_date"]:
+            row["event_date"] = classified["event_date"]
 
         if any(word in low for word in SUBMISSION_WORDS) or any(
             link["kind"] == "submission_candidate" for link in links
