@@ -213,10 +213,19 @@ function StrategicPathway({ data }) {
 
 // ── New sections ───────────────────────────────────────────────────────────
 
+function parseFollowers(str) {
+  if (str == null) return null
+  const s = String(str).replace(/~/g, '').trim()
+  const n = s.toLowerCase().endsWith('k') ? parseFloat(s) * 1000 : parseFloat(s)
+  return isNaN(n) ? null : n
+}
+
 function InstagramStrategy({ data }) {
   const tw = data.platforms.find(p => p.name.startsWith('Twitter'))
   const ig = data.platforms.find(p => p.name === 'Instagram')
-  const ratio = tw && ig ? Math.round(parseInt(tw.followers) / parseInt(ig.followers)) : null
+  const twN = parseFollowers(tw?.followers)
+  const igN = parseFollowers(ig?.followers)
+  const ratio = twN && igN ? Math.round(twN / igN) : null
 
   return (
     <SectionShell
