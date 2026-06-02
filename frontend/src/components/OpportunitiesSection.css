@@ -1,6 +1,6 @@
 .opps-root {
   background: var(--parchment);
-  padding: 0 24px 48px;
+  padding: 0 28px 56px;
 }
 
 .opps-loading,
@@ -12,13 +12,11 @@
   color: var(--ink-muted);
   font-size: 15px;
 }
-
 .opps-loading .opps-paw {
   display: block;
   font-size: 28px;
   margin-bottom: 10px;
 }
-
 .opps-error code {
   font-family: monospace;
   background: rgba(0,0,0,0.06);
@@ -29,13 +27,14 @@
 /* ── Section wrapper ── */
 .opp-section {
   max-width: 1400px;
-  margin: 0 auto 40px;
+  margin: 0 auto 52px;
 }
 
+/* ── Section header ── */
 .opp-section-header {
-  padding: 24px 0 12px;
+  padding: 28px 0 16px;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .opp-section-title-row {
@@ -46,40 +45,69 @@
 }
 
 .opp-section-icon {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1;
 }
 
 .opp-section-title {
   font-family: Georgia, serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
   color: var(--ink);
   letter-spacing: 0.01em;
+  margin: 0;
 }
 
 .opp-section-count {
-  background: var(--parchment);
+  background: rgba(230, 212, 184, 0.5);
   border: 1px solid var(--border);
   border-radius: 999px;
   font-size: 11px;
   color: var(--ink-muted);
-  padding: 1px 8px;
-  margin-left: 2px;
+  padding: 1px 9px;
   font-family: Georgia, serif;
 }
 
 .opp-section-desc {
   font-style: italic;
   color: var(--ink-muted);
-  font-size: 13px;
+  font-size: 13.5px;
   margin: 0;
   line-height: 1.5;
 }
 
-/* ── Cards list ── */
-.opp-cards-list {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+/* ── 3-column card grid ── */
+.opp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 960px) {
+  .opp-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .opp-grid { grid-template-columns: 1fr; }
+}
+
+/* ── Show more button ── */
+.opp-show-more {
+  display: block;
+  margin: 20px auto 0;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 10px 28px;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: background 0.14s, color 0.14s, border-color 0.14s;
+}
+
+.opp-show-more:hover {
+  background: #f0e8d8;
+  color: var(--ink);
+  border-color: #c9a86c;
 }

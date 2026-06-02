@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './OppCard.css'
 
-const CAT_LABELS = {
+export const CAT_LABELS = {
   gallery:           'Gallery',
   cafe_gallery:      'Café Gallery',
   artist_space:      'Artist Space',
@@ -16,193 +16,81 @@ const CAT_LABELS = {
   gallery_event:     'Gallery Event',
 }
 
-const EFFORT_COLOR = {
-  Easy:   'effort-easy',
-  Medium: 'effort-medium',
-  Heavy:  'effort-heavy',
-  Check:  'effort-check',
+const CAT_STYLE = {
+  gallery:           { bg: 'linear-gradient(155deg,#f8e8dc 0%,#f0d8c8 100%)', emoji: '🖼' },
+  cafe_gallery:      { bg: 'linear-gradient(155deg,#f8ead8 0%,#eedcc8 100%)', emoji: '☕' },
+  artist_space:      { bg: 'linear-gradient(155deg,#e4f0e0 0%,#d8e8d4 100%)', emoji: '🏛' },
+  fair_popup:        { bg: 'linear-gradient(155deg,#f8dcd8 0%,#f0d0c8 100%)', emoji: '🎪' },
+  bookstore_gallery: { bg: 'linear-gradient(155deg,#dce4f0 0%,#d0dce8 100%)', emoji: '📖' },
+  bookstore_event:   { bg: 'linear-gradient(155deg,#dce4f0 0%,#d0dce8 100%)', emoji: '📚' },
+  zine_print:        { bg: 'linear-gradient(155deg,#e8dce8 0%,#e0d4e0 100%)', emoji: '📰' },
+  market_event:      { bg: 'linear-gradient(155deg,#f8ecd8 0%,#f0e0c8 100%)', emoji: '🌿' },
+  residency:         { bg: 'linear-gradient(155deg,#e0e4f0 0%,#d8dce8 100%)', emoji: '🏡' },
+  institutional:     { bg: 'linear-gradient(155deg,#e4e8e0 0%,#dce0d8 100%)', emoji: '🏛' },
+  event_space:       { bg: 'linear-gradient(155deg,#f8e4d8 0%,#f0d8cc 100%)', emoji: '✨' },
+  gallery_event:     { bg: 'linear-gradient(155deg,#f4e0e4 0%,#ecd8dc 100%)', emoji: '🎨' },
 }
 
-const SCORE_COLOR = {
-  high:   'score-high',
-  mid:    'score-mid',
-  low:    'score-low',
-}
+const DEFAULT_STYLE = { bg: 'linear-gradient(155deg,#f0e8d8 0%,#e8e0d0 100%)', emoji: '•' }
 
-function scoreClass(score) {
+export function scoreClass(score) {
   const s = parseFloat(score) || 0
-  if (s >= 10) return SCORE_COLOR.high
-  if (s >= 5)  return SCORE_COLOR.mid
-  return SCORE_COLOR.low
+  if (s >= 7) return 'score-high'
+  if (s >= 4) return 'score-mid'
+  return 'score-low'
 }
 
-function deadlineIsReal(dl) {
-  if (!dl) return false
-  const low = dl.toLowerCase()
-  return !low.includes('check') && !low.includes('tbd') && !low.includes('n/a')
-}
-
-export default function OppCard({ opp, sectionKey }) {
-  const [open, setOpen] = useState(false)
-  const [emailTab, setEmailTab] = useState('zh')
-
-  const verifyNeeded = !deadlineIsReal(opp.deadline)
+export default function OppCard({ opp, isOpen, onDetails }) {
+  const [reported, setReported] = useState(false)
+  const style = CAT_STYLE[opp.category] || DEFAULT_STYLE
 
   return (
-    <div className={`opp-card${open ? ' opp-card--open' : ''}`}>
-      {/* ── Collapsed row ── */}
-      <button
-        className="opp-card-row"
-        onClick={() => setOpen(v => !v)}
-        aria-expanded={open}
-      >
-        <div className="opp-card-left">
-          <span className={`opp-score ${scoreClass(opp.score)}`}>
-            {opp.overall_score || '—'}
+    <div className={`opp-card${isOpen ? ' opp-card--open' : ''}`}>
+      {/* Image / illustration area */}
+      <div className="opp-card-image" style={{ background: style.bg }}>
+        <span className="opp-card-emoji">{style.emoji}</span>
+        {opp.overall_score > 0 && (
+          <span className={`opp-card-score-badge ${scoreClass(opp.overall_score)}`}>
+            {opp.overall_score}
           </span>
-          <div className="opp-card-name-block">
-            <span className="opp-card-name">{opp.name}</span>
-            <span className="opp-card-location">{opp.city}{opp.country && opp.country !== 'Japan' ? `, ${opp.country}` : ''}</span>
-          </div>
-        </div>
-        <div className="opp-card-right">
-          <span className="opp-cat-pill">{CAT_LABELS[opp.category] || opp.category}</span>
-          {opp.effort && (
-            <span className={`opp-effort-pill ${EFFORT_COLOR[opp.effort] || ''}`}>{opp.effort}</span>
+        )}
+      </div>
+
+      {/* Card body */}
+      <div className="opp-card-body">
+        <h3 className="opp-card-title">{opp.name}</h3>
+
+        <div className="opp-card-pills">
+          <span className="opp-pill opp-pill-cat">
+            {CAT_LABELS[opp.category] || opp.category}
+          </span>
+          {opp.city && (
+            <span className="opp-pill opp-pill-loc">{opp.city}</span>
           )}
-          <span className="opp-card-summary-text">{opp.summary}</span>
-          <span className="opp-chevron">{open ? '▲' : '▼'}</span>
+          {opp.effort && opp.effort !== 'Check' && (
+            <span className={`opp-pill opp-pill-effort opp-effort-${opp.effort.toLowerCase()}`}>
+              {opp.effort}
+            </span>
+          )}
         </div>
-      </button>
 
-      {/* ── Expanded body ── */}
-      {open && (
-        <div className="opp-card-body">
-          {/* Header row */}
-          <div className="opp-body-header">
-            <div>
-              <h3 className="opp-body-title">{opp.name}</h3>
-              <div className="opp-body-meta">
-                {opp.deadline && (
-                  <span className={`opp-meta-chip${verifyNeeded ? ' chip-warn' : ''}`}>
-                    📅 {verifyNeeded ? 'Deadline: verify' : opp.deadline}
-                  </span>
-                )}
-                {opp.fees && (
-                  <span className="opp-meta-chip">
-                    💴 {opp.fees.toLowerCase().includes('check') ? 'Fees: verify' : opp.fees}
-                  </span>
-                )}
-                {opp.official_website && (
-                  <a
-                    className="opp-meta-chip opp-meta-link"
-                    href={opp.official_website}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    🔗 Website ↗
-                  </a>
-                )}
-              </div>
-            </div>
-          </div>
+        <p className="opp-card-desc">{opp.summary}</p>
 
-          <div className="opp-body-grid">
-            {/* Left column */}
-            <div className="opp-body-left">
-              {opp.overview && (
-                <div className="opp-body-block">
-                  <div className="opp-block-label">Venue overview</div>
-                  <p>{opp.overview}</p>
-                </div>
-              )}
-
-              {opp.why_it_fits && (
-                <div className="opp-body-block">
-                  <div className="opp-block-label">Why it fits</div>
-                  <p>{opp.why_it_fits}</p>
-                </div>
-              )}
-
-              {opp.bullets && opp.bullets.length > 0 && (
-                <div className="opp-body-block">
-                  <div className="opp-block-label">Key points</div>
-                  <ul className="opp-bullets">
-                    {opp.bullets.map((b, i) => (
-                      <li key={i}>{b}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              {opp.next_action && (
-                <div className="opp-body-block">
-                  <div className="opp-block-label">How to apply</div>
-                  <p>{opp.next_action}</p>
-                </div>
-              )}
-
-              {opp.soft_warning && (
-                <div className="opp-body-block opp-soft-warning">
-                  <div className="opp-block-label">Mochi notes</div>
-                  <p>{opp.soft_warning}</p>
-                </div>
-              )}
-            </div>
-
-            {/* Right column: email drafts */}
-            <div className="opp-body-right">
-              <div className="opp-email-panel">
-                <div className="opp-email-header">
-                  <span className="opp-block-label">Email draft</span>
-                  <div className="opp-email-tabs">
-                    <button
-                      className={`opp-email-tab${emailTab === 'zh' ? ' active' : ''}`}
-                      onClick={() => setEmailTab('zh')}
-                    >
-                      中文
-                    </button>
-                    <button
-                      className={`opp-email-tab${emailTab === 'ja' ? ' active' : ''}`}
-                      onClick={() => setEmailTab('ja')}
-                    >
-                      日本語
-                    </button>
-                    <button
-                      className={`opp-email-tab${emailTab === 'en' ? ' active' : ''}`}
-                      onClick={() => setEmailTab('en')}
-                    >
-                      English
-                    </button>
-                  </div>
-                </div>
-                <pre className="opp-email-body">
-                  {emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en}
-                </pre>
-                <button
-                  className="opp-copy-btn"
-                  onClick={() => navigator.clipboard?.writeText(
-                    emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en
-                  )}
-                >
-                  Copy draft
-                </button>
-              </div>
-
-              {opp.what_to_verify && opp.what_to_verify.length > 0 && (
-                <div className="opp-body-block opp-verify-block">
-                  <div className="opp-block-label">Verify first</div>
-                  <ul className="opp-verify-list">
-                    {opp.what_to_verify.slice(0, 3).map((v, i) => (
-                      <li key={i}>{v}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
-          </div>
+        <div className="opp-card-actions">
+          <button
+            className={`opp-btn-details${isOpen ? ' opp-btn-details--active' : ''}`}
+            onClick={onDetails}
+          >
+            {isOpen ? 'Close' : 'Details'}
+          </button>
+          <button
+            className={`opp-btn-report${reported ? ' opp-btn-report--done' : ''}`}
+            onClick={() => setReported(v => !v)}
+          >
+            {reported ? '✓ Noted' : 'Report'}
+          </button>
         </div>
-      )}
+      </div>
     </div>
   )
 }
