@@ -2,8 +2,8 @@ import './Nav.css'
 
 const COMPANIONS = [
   { label: 'Discover', key: 'discover' },
-  { label: 'Refine',   key: 'refine'   },
   { label: 'Observe',  key: 'observe'  },
+  { label: 'Refine',   key: 'refine'   },
 ]
 
 const QUICK_NAV = [
