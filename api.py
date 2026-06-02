@@ -1,8 +1,10 @@
 import sys
 import json
+from datetime import datetime, timezone
 from pathlib import Path
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -11,7 +13,7 @@ app = FastAPI(title="Mochi API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
-    allow_methods=["GET"],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
@@ -218,6 +220,37 @@ def get_opportunities():
         "sections": buckets,
         "total": sum(len(v) for v in buckets.values()),
     }
+
+
+VALID_ACTIONS = {"follow", "applied", "maybe_later", "not_for_me"}
+
+
+class FeedbackPayload(BaseModel):
+    opp_id: str
+    action: str
+
+
+@app.post("/api/feedback")
+def post_feedback(payload: FeedbackPayload):
+    if payload.action not in VALID_ACTIONS:
+        raise HTTPException(status_code=400, detail=f"Invalid action: {payload.action}")
+
+    feedback_path = DATA_DIR / "feedback.json"
+    if feedback_path.exists():
+        records = json.loads(feedback_path.read_text(encoding="utf-8"))
+    else:
+        records = []
+
+    # Remove any prior entry for the same opp so state is always current
+    records = [r for r in records if r.get("opp_id") != payload.opp_id]
+    records.append({
+        "opp_id":    payload.opp_id,
+        "action":    payload.action,
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+    })
+
+    feedback_path.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "opp_id": payload.opp_id, "action": payload.action}
 
 
 @app.get("/api/health")

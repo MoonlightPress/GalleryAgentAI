@@ -18,7 +18,6 @@ export const CAT_LABELS = {
 
 const BASE = '/assets/illustrations/'
 
-// Maps category → SVG illustration file
 const CAT_ILLUS = {
   gallery:           BASE + 'galleries.svg',
   gallery_event:     BASE + 'galleries.svg',
@@ -34,7 +33,6 @@ const CAT_ILLUS = {
   residency:         BASE + 'watch_list.svg',
 }
 
-// Fallback gradient bg per category (shown while SVG loads)
 const CAT_BG = {
   gallery:           '#f5e8dc',
   gallery_event:     '#f5e8dc',
@@ -57,20 +55,44 @@ export function scoreClass(score) {
   return 'score-low'
 }
 
+const FEEDBACK_ACTIONS = [
+  { id: 'follow',       label: 'Follow',       icon: '★' },
+  { id: 'applied',      label: 'Applied',       icon: '✓' },
+  { id: 'maybe_later',  label: 'Maybe Later',   icon: '◷' },
+  { id: 'not_for_me',   label: 'Not for Me',    icon: '✕' },
+]
+
+async function saveFeedback(oppId, action) {
+  try {
+    await fetch('/api/feedback', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ opp_id: oppId, action }),
+    })
+  } catch (_) {
+    // silently fail — feedback is best-effort
+  }
+}
+
 export default function OppCard({ opp, isOpen, onDetails }) {
-  const [reported, setReported] = useState(false)
+  const [feedback, setFeedback] = useState(null)
   const illus = CAT_ILLUS[opp.category]
   const bg    = CAT_BG[opp.category] || '#f0e8d8'
 
-  // Use star illustration for section immediate_best_moves if passed via prop
   const imgSrc = opp._section === 'immediate_best_moves'
     ? BASE + 'immediate_best_moves.svg'
     : illus
 
+  function handleFeedback(actionId) {
+    const next = feedback === actionId ? null : actionId
+    setFeedback(next)
+    if (next) saveFeedback(opp.id, next)
+  }
+
   return (
     <div className={`opp-card${isOpen ? ' opp-card--open' : ''}`}>
-      {/* Image / illustration area */}
-      <div className="opp-card-image" style={{ background: bg }}>
+      {/* Thumbnail — left strip */}
+      <div className="opp-card-thumb" style={{ background: bg }}>
         {imgSrc
           ? <img src={imgSrc} alt="" className="opp-card-illus" />
           : <span className="opp-card-emoji">•</span>
@@ -82,7 +104,7 @@ export default function OppCard({ opp, isOpen, onDetails }) {
         )}
       </div>
 
-      {/* Card body */}
+      {/* Content — right column */}
       <div className="opp-card-body">
         <h3 className="opp-card-title">{opp.name}</h3>
 
@@ -102,6 +124,7 @@ export default function OppCard({ opp, isOpen, onDetails }) {
 
         <p className="opp-card-desc">{opp.summary}</p>
 
+        {/* Primary action */}
         <div className="opp-card-actions">
           <button
             className={`opp-btn-details${isOpen ? ' opp-btn-details--active' : ''}`}
@@ -109,13 +132,24 @@ export default function OppCard({ opp, isOpen, onDetails }) {
           >
             {isOpen ? 'Close' : 'Details'}
           </button>
-          <button
-            className={`opp-btn-report${reported ? ' opp-btn-report--done' : ''}`}
-            onClick={() => setReported(v => !v)}
-          >
-            {reported ? '✓ Noted' : 'Report'}
-          </button>
         </div>
+
+        {/* Feedback row — visible only when card is open */}
+        {isOpen && (
+          <div className="opp-feedback-row">
+            {FEEDBACK_ACTIONS.map(a => (
+              <button
+                key={a.id}
+                className={`opp-feedback-btn opp-feedback-${a.id}${feedback === a.id ? ' opp-feedback-btn--active' : ''}`}
+                onClick={() => handleFeedback(a.id)}
+                title={a.label}
+              >
+                <span className="opp-feedback-icon">{a.icon}</span>
+                <span className="opp-feedback-label">{a.label}</span>
+              </button>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   )
