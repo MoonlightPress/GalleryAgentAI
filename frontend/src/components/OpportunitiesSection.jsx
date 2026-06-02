@@ -55,6 +55,7 @@ export default function OpportunitiesSection() {
         return (
           <OppSection
             key={key}
+            sectionKey={key}
             label={m.label || key}
             description={m.description || ''}
             icon={SECTION_ICONS[key] || '•'}
@@ -66,7 +67,7 @@ export default function OpportunitiesSection() {
   )
 }
 
-function OppSection({ label, description, icon, items }) {
+function OppSection({ sectionKey, label, description, icon, items }) {
   const [showAll, setShowAll]     = useState(false)
   const [activeId, setActiveId]   = useState(null)
 
@@ -79,7 +80,7 @@ function OppSection({ label, description, icon, items }) {
   }
 
   return (
-    <section className="opp-section">
+    <section id={sectionKey} className="opp-section">
       {/* Section header */}
       <div className="opp-section-header">
         <div className="opp-section-title-row">
