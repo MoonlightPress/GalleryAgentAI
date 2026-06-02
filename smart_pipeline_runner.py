@@ -15,6 +15,7 @@ SEARCH_DIRS = [
 OPTIONAL_SCRIPTS = {
     "strategy_explainer_generator.py",
     "deep_match_scoring_engine.py",
+    "rumor_mill_engine.py",
 }
 
 

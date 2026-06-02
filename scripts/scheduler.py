@@ -56,6 +56,7 @@ WEEKLY_PIPELINE = [
     "submission_timeline_engine.py",
     "painting_discovery_engine.py",
     "discovery_engine.py",
+    "rumor_mill_engine.py",
     "research_priority_engine.py",
     "global_research_queue_builder.py",
     "daily_digest_report.py",

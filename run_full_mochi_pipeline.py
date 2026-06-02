@@ -36,6 +36,7 @@ PIPELINE = [
     "portfolio_match_engine.py",
     "submission_strategy_engine.py",
     "score_sanity_engine.py",
+    "rumor_mill_engine.py",
     "career_strategy_engine.py",
     "global_strategy_rebalance.py",
     "opportunity_differentiation_engine.py",
