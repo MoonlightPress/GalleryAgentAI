@@ -213,6 +213,82 @@
       "palette": "silver-grey, pale blue, morning mist — coolest of the three"
     }
   },
+  "career_history": {
+    "research_date": "2026-06-02",
+    "legal_name": "unconfirmed (user-suggested: Ren Jiawei / 任佳薇, not verified in any source)",
+    "online_handles": {
+      "primary": "GEGYjiji / GEGY挤挤",
+      "twitter_x": "@GegYjiji",
+      "weibo": "GEGY挤挤 (weibo.com/u/5738959306)",
+      "instagram": "@gegyjiji"
+    },
+    "education": {
+      "institution": "Beijing Fashion Institute (北京服装学院 / Beijing Institute of Fashion Technology, BIFT)",
+      "field": "Illustration / design — not classical fine arts",
+      "graduation_year": "approximate c.2021–2023 (not stated in sources)",
+      "confidence": "confirmed — ACG Gateway bio: 北京服装学院卒業"
+    },
+    "base": "Between Tokyo and Beijing (not exclusively Tokyo)",
+    "daily_practice": {
+      "name": "diary",
+      "started": "2020",
+      "description": "Daily watercolor sketches posted to social media. Full 2020 diary posted January 2021."
+    },
+    "publications": [
+      {
+        "title": "Colour Diary (色彩日記)",
+        "type": "solo illustration collection",
+        "date": "October 2021",
+        "notes": "First solo published work. Grew from daily diary practice.",
+        "publisher": "unconfirmed",
+        "confidence": "confirmed"
+      },
+      {
+        "title": "defined Definition 02: A Documented Journey",
+        "type": "group publication, contributed work",
+        "date": "unknown",
+        "notes": "Listed among key works in ACG bio. Publication details unverified.",
+        "confidence": "participation confirmed, details unverified"
+      }
+    ],
+    "exhibitions": [
+      {
+        "title": "Tide from China Part1",
+        "type": "group show (6 Chinese illustrators)",
+        "venue": "ACG_Labo, 2F, 4-25-7 Jingumae, Shibuya-ku, Tokyo (Harajuku)",
+        "dates": "February 4–13, 2023",
+        "organizer": "Company ACG (株式会社ACG) / RainForest Publishing",
+        "significance": "First exhibition in Japan (stated explicitly in exhibition materials)",
+        "co_exhibitors": ["富大貴", "邦乔彦 (Bang Joy)", "TUOER", "HJL", "Doakmoon"],
+        "admission": "free",
+        "confidence": "confirmed",
+        "source": "https://www.acgateway.com/ex_tide1/"
+      },
+      {
+        "title": "Group exhibitions with Kinoko Kingdom",
+        "type": "offline group exhibitions",
+        "venue": "unknown (possibly China-based)",
+        "dates": "unknown",
+        "confidence": "mentioned in ACG bio, details unconfirmed"
+      }
+    ],
+    "gallery_representation": "none confirmed",
+    "residencies": "none found",
+    "awards": "none found",
+    "press": [
+      {
+        "outlet": "Bored Panda",
+        "type": "work feature (no biographical depth)",
+        "url": "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji/"
+      },
+      {
+        "outlet": "Bored Panda",
+        "type": "work feature part 2",
+        "url": "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji-part-2/"
+      }
+    ],
+    "career_stage_note": "Confirmed record is solidly Tier 1–2. One group show in Japan (2023, first Japan show). One solo illustration collection (2021). Strong illustrator-community social following (~70–90k Twitter). No institutional exhibition history, no residency, no gallery representation found. Profile career phase assessment is accurate."
+  },
   "career_strategy": {
     "framework_version": 1,
     "current_phase": "Tier 1-2",
