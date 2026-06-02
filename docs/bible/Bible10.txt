@@ -1,0 +1,399 @@
+CARD FEEDBACK: THE FOUR ACTIONS
+Bible Entry 10 — Written 2026-06-02
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT THIS DOCUMENT IS
+
+The opportunity cards in Mochi's page present venues and open calls. Each card
+can be read, expanded, and dismissed. But a card that is only read generates no
+signal. It leaves the system as ignorant as it was before the artist opened it.
+
+This document defines the four feedback actions that can be taken on any card.
+Each action routes to a different companion. Together they close the loop between
+what Mochi surfaces and what the system learns from the artist's response to it.
+
+The four actions are:
+
+  FOLLOW       → Saffron tracks the venue long-term
+  NOT FOR ME   → Peppercorn learns to filter
+  APPLIED      → Submission history is recorded
+  MAYBE LATER  → The card moves to the watch list
+
+Nothing in this document is implemented yet. This is the specification.
+
+─────────────────────────────────────────────────────────────────────
+
+THE PROBLEM A CARD WITHOUT FEEDBACK CREATES
+
+Every card the artist opens is an implicit answer to a question: does this fit?
+The artist already knows. She reads the card and she knows — yes, this is
+interesting; no, this is not my world; I've already submitted; I'm not ready
+yet. That knowledge exists the moment she reads the card. Without a feedback
+mechanism, it evaporates. The system resurfaces the same card in a week.
+
+This is not a bug in a narrow sense. The opportunity did not change. The score
+did not change. The system has no reason to treat it differently. But the artist
+has already made a decision about it, and that decision is more accurate than any
+score the pipeline produced. The system is less intelligent than the artist about
+her own work. The feedback loop is the mechanism by which that reverses over time.
+
+More specifically: the system currently has no memory of what the artist has
+already seen, already dismissed, already tried. The pipeline resurfaces the same
+forty opportunities repeatedly. BankART1929 appears in Immediate Best Moves every
+time the artist opens the page. It has appeared there since the pipeline first
+found it. Whether the artist has already contacted them, already decided they are
+not the right fit, already submitted and been declined — the system does not know.
+
+This is the problem the four actions solve.
+
+─────────────────────────────────────────────────────────────────────
+
+ACTION ONE: FOLLOW
+
+WHAT IT DOES
+
+The artist taps Follow on a card. The venue is added to Saffron's tracking list.
+
+From that point forward, Saffron monitors the venue independently of the
+opportunity pipeline. She watches for:
+
+  - Open call announcements and submission windows
+  - Changes in programming direction or curatorial focus
+  - Exhibition outcomes for artists in the artist's peer network
+  - Indication of what kind of work they have historically accepted
+  - How long from first contact to first show for artists at similar career stages
+  - Whether the venue accepts unsolicited proposals or works exclusively through
+    relationships and referrals
+
+None of this monitoring requires action from the artist. It runs in the background.
+Saffron accumulates the intelligence over time. The value grows the longer the
+venue is followed.
+
+WHAT SAFFRON DOES WITH FOLLOW DATA
+
+Saffron's venue intelligence is not a set of static facts. It is a model of how
+a venue actually works — built from public sources, pipeline data, and whatever
+the artist has contributed through her own interactions with the space.
+
+The intelligence takes the form of a venue brief, updated continuously, surfaced
+on Saffron's page. It answers the questions that matter before an approach:
+
+  - Is this venue currently active? Do they have a pattern of programming, or
+    have they gone quiet?
+  - What kind of work do they program? Not their stated mission — their actual
+    programming history.
+  - What is the realistic path in? Direct submission, referral, relationship
+    first, juried selection only?
+  - Where is the artist in relation to the venue's typical entry point? Is she
+    ready now? Not yet? What would make her ready?
+
+EXAMPLE: BANKART1929
+
+The artist follows BankART1929 in June 2026. She has no relationship with them.
+They appear in Immediate Best Moves because they score well on the pipeline's
+fit metrics. She is not ready to approach them yet — she knows this — but she
+wants the system to keep watching.
+
+Three months later, Saffron's brief reads:
+
+  BankART1929 — followed 3 months
+
+  Programming pattern: 4-6 group exhibitions per year, typically anchored by
+  Yokohama artists with 1-2 international or Tokyo-based participants per show.
+  Solo shows reserved for artists with prior group show credits at the space or
+  at peer institutions (Koganecho, 3331, VACANT).
+
+  Realistic entry path: group show invitation, likely requires existing
+  relationship with a Yokohama curator or a warm referral from an artist who
+  has shown there. Direct submission has not historically been the path in.
+
+  Current timing: BankART historically announces their April-June program in
+  February. If you want to be considered for spring programming, November is
+  when relationships need to be active.
+
+  Recommendation: Apply after your next group exhibition credit. The profile
+  needs one more institutional show — 3331 or Koganecho would serve this — before
+  BankART becomes a realistic target. Follow those venues too.
+
+This is the kind of intelligence a gallerist friend would give you over coffee.
+The system builds it from public data, from what the pipeline accumulates, and
+from the signal the Follow action produces: this venue matters to this artist.
+Pay attention to it.
+
+WHAT FOLLOW IS NOT
+
+Follow is not an expression of intent to apply. The artist may follow a venue
+for years before approaching it. She may follow it and decide never to approach
+it. Follow means: I want to understand this venue better. It does not commit her
+to anything. Saffron watches. The artist decides when and whether to act.
+
+─────────────────────────────────────────────────────────────────────
+
+ACTION TWO: NOT FOR ME
+
+WHAT IT DOES
+
+The artist taps Not For Me on a card. The card is immediately removed from her
+view and routed to Peppercorn.
+
+Peppercorn records the decision. He does not ask why. Not now. He notes the
+venue, the category, the score the pipeline assigned it, and the fact that the
+artist declined it without elaboration.
+
+If a pattern emerges — several venues from the same category declined, several
+venues with a similar profile declined — Peppercorn surfaces the pattern. Quietly.
+Without accusation.
+
+  "You've marked five café gallery opportunities as not for me. Should I stop
+   surfacing them?"
+
+The artist can answer yes, no, or say nothing. If she says yes, Peppercorn
+adjusts the pipeline weights. That category recedes from Immediate Best Moves.
+It does not disappear — she can always navigate to it directly — but it stops
+competing for the three daily recommendation slots.
+
+If she says nothing, Peppercorn notes the non-answer. He does not ask again
+immediately. He asks again if the pattern continues. He is persistent but
+unhurried.
+
+WHAT PEPPERCORN LEARNS
+
+Not For Me is one of two feedback signals Peppercorn uses to refine the pipeline.
+The other is explicit preference-setting in his intake questionnaire. The
+difference is that the intake is deliberate and periodic, while Not For Me is
+continuous and low-friction. Every dismissed card is a data point.
+
+Over time, Peppercorn's model of what the artist does not want becomes as
+precise as his model of what she does want. The two models together are more
+accurate than either alone. An artist who enthusiastically follows galleries but
+marks every fair and market as Not For Me is telling the system something
+important about what kind of career she is building. Peppercorn listens.
+
+WHAT NOT FOR ME IS NOT
+
+Not For Me is not permanent. The artist can undo it. Venues she dismissed in
+2026 may become relevant in 2028. Peppercorn does not treat a Not For Me as a
+lifetime exclusion — he treats it as a preference signal from the artist at a
+specific career stage. Tier matters. What is not for me at Tier 1 may become
+exactly right at Tier 3.
+
+Peppercorn holds the dismissed venues in a recoverable archive. He does not
+resurface them automatically — but if the artist asks to review what she has
+set aside, she can. Nothing is deleted.
+
+─────────────────────────────────────────────────────────────────────
+
+ACTION THREE: APPLIED
+
+WHAT IT DOES
+
+The artist taps Applied on a card. The system records a submission event: venue,
+date, category, and the current state of the artist's career at the time of
+submission (career stage, recent credits, materials submitted).
+
+Applied is the entry point to submission history. It is how the system learns
+what has actually happened, as opposed to what it has recommended. The pipeline
+produces recommendations. Applied produces the historical record of what was
+acted on.
+
+WHAT IS TRACKED
+
+  - Date of submission
+  - Venue and opportunity type
+  - Materials submitted (as the artist reports them: statement, portfolio,
+    CV, project proposal — whatever was required)
+  - Outcome: pending, accepted, waitlisted, declined, no response
+
+Outcome is not asked at the moment of submission. It is asked later. Peppercorn
+notes the submission date and checks back when a response window has passed.
+He asks once. If there is no answer, he marks the outcome as unknown and does
+not ask again unless the artist initiates.
+
+HOW APPLIED CONNECTS TO QUESTLINES
+
+Applied is the primary source of questline progress. Most questline prerequisites
+involve submissions: group exhibition applications, open call entries, residency
+proposals, juried competitions. When the artist marks a card as Applied, Peppercorn
+checks whether the submission advances any open questline prerequisites.
+
+If BankART1929 is a milestone venue on the "First Institutional Group Show"
+questline, and the artist marks BankART as Applied, Peppercorn records the
+attempt. If the outcome is acceptance, the prerequisite is met. If the outcome
+is decline, the submission is still recorded — it is evidence of activity, not
+failure, and it informs how Peppercorn calibrates the timing on a second attempt.
+
+APPLIED AS A CAREER RECORD
+
+Over several years, the Applied history becomes something significant: a
+complete record of what the artist tried, when, and what happened. This is
+the kind of record most artists maintain poorly or not at all. They remember
+acceptances. They forget or suppress rejections. The system maintains the full
+picture without judgment.
+
+Saffron uses the Applied history. When she describes what a venue's realistic
+entry path looks like, she can compare that path to what the artist has actually
+tried. She knows if the artist has already approached a venue and been declined.
+She adjusts her venue brief accordingly. "You submitted to BankART in October
+2026. They did not respond. This is not unusual — their programming cycle means
+unsolicited submissions in that window have a low response rate. The February
+window is more active."
+
+─────────────────────────────────────────────────────────────────────
+
+ACTION FOUR: MAYBE LATER
+
+WHAT IT DOES
+
+The artist taps Maybe Later on a card. The card leaves Immediate Best Moves and
+moves to the Watch List section. It does not disappear. It does not get scored
+down. It waits.
+
+Maybe Later is the lightest of the four actions. It requires no follow-through.
+It is the system equivalent of setting something aside on a desk rather than
+filing it or throwing it away.
+
+WHAT THE WATCH LIST IS
+
+The Watch List is a holding area. It contains:
+
+  - Venues and opportunities the artist has explicitly deferred
+  - Residencies and institutional targets that are correct in the future but
+    not at the current career stage (these arrive via pipeline routing logic,
+    not the Maybe Later action)
+  - Opportunities with unconfirmed deadlines that the artist wants to monitor
+
+The Watch List is visible on Mochi's page, below the active sections. It is not
+prominent. It does not generate Today's Focus actions. It is present so the
+artist can see what she has set aside and decide, on her own timeline, whether
+any of it has become relevant.
+
+Mochi periodically nudges items from the Watch List back into view. Not urgently —
+once per month, for items that have been sitting for more than 60 days. She does
+not move them back to Immediate Best Moves automatically. She surfaces them in
+a soft prompt: "You set BankART aside 60 days ago. Still not the right time?"
+The artist can confirm, move it to Follow, or leave it where it is.
+
+─────────────────────────────────────────────────────────────────────
+
+HOW THE FOUR ACTIONS FIT THE THREE COMPANIONS
+
+Each action routes to a different part of the system. The routing is not
+arbitrary — it follows the companions' existing roles.
+
+  FOLLOW → SAFFRON
+  Saffron's role is to observe and describe the landscape. A followed venue is
+  a venue Saffron watches on the artist's behalf. Her venue intelligence is built
+  from the Follow list. The longer a venue is followed, the richer the brief.
+
+  NOT FOR ME → PEPPERCORN
+  Peppercorn's role is to understand what the artist wants. Not For Me is a
+  direct input to that understanding. He is the only companion who can use
+  negative preference signals — Saffron describes the world as it is; Mochi acts
+  on what is recommended; only Peppercorn can learn what to stop recommending.
+
+  APPLIED → ALL THREE (submission history is shared state)
+  A submission event is not owned by one companion. Mochi needs to know not to
+  resurface a venue already applied to. Peppercorn needs to advance questline
+  prerequisites. Saffron needs to factor application history into her venue briefs.
+  Applied writes to shared state. All three companions read it.
+
+  MAYBE LATER → MOCHI (watch list management)
+  The watch list is Mochi's holding area. She manages it. She decides when to
+  surface deferred items and when to leave them alone. Moving a card to Maybe
+  Later is telling Mochi: you found this, and I'm not discarding it, but it's
+  not for today.
+
+─────────────────────────────────────────────────────────────────────
+
+WHY FOUR ACTIONS, NOT MORE
+
+The temptation is to add more feedback states. Love it. Interesting but wrong
+medium. Not now but check deadline. Already have a relationship. Wrong city.
+Not accepting submissions. Reviewed and declined.
+
+These states are real. They are all things the artist might want to express.
+They are not all things the artist will actually express at the moment she is
+looking at a card on a Tuesday morning.
+
+The cost of a feedback system is friction. Every additional option is a decision
+the artist has to make. Four is already asking a lot. The four actions are
+chosen because they map to the four things the artist actually does with a card
+she has read: she commits to watching it, she dismisses it, she acts on it, or
+she defers it. Everything else is a variant of one of these four.
+
+The system should receive more signal over time, not less. But that signal should
+come from the artist doing fewer things, not more. Follow, Not For Me, Applied,
+and Maybe Later are the minimum viable feedback system. They are also probably
+the right feedback system.
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT THIS MEANS FOR CODE
+
+The card actions are UI first. They can be added as buttons to the existing
+card design. The backend consequences are:
+
+  FOLLOW
+  Writes venue ID and follow date to a new file: memory/followed_venues.json
+  The Saffron intelligence engine reads from this file. It does not yet exist.
+  The pipeline equivalent will be a new step in run_full_mochi_pipeline.py:
+  "saffron_venue_intelligence_builder.py" or similar. That step runs on
+  followed venues only, not all opportunities.
+
+  NOT FOR ME
+  Writes venue ID, category, and timestamp to memory/not_for_me.json.
+  The opportunity bucketing logic in api.py reads from this file and excludes
+  any venue with a not-for-me record from Immediate Best Moves. The pattern
+  detection (5+ dismissals in a category) is a Peppercorn engine function —
+  not yet built.
+
+  APPLIED
+  Writes a submission event to memory/submission_history.json. This file is
+  the authoritative record of what has been applied to. Peppercorn's questline
+  engine reads it. Saffron's venue intelligence engine reads it. Mochi's
+  bucketing logic reads it to suppress already-applied venues from the active
+  sections. The outcome field is updated later, prompted by Peppercorn.
+
+  MAYBE LATER
+  Writes venue ID and timestamp to memory/watch_list.json. The api.py bucketing
+  logic already routes some items to the Watch List by category. Maybe Later is
+  the user-directed version of the same mechanism. The watch list section in the
+  UI reads from both sources — pipeline-routed and artist-deferred — and displays
+  them together.
+
+The current UI has a "Report" button on each card. That button is the placeholder
+for this system. The four actions replace it. The current "Report" state (which
+toggles to "✓ Noted") is a visual prototype with no backend consequence. The
+four-action system gives it consequence.
+
+─────────────────────────────────────────────────────────────────────
+
+A NOTE ON SEQUENCE
+
+The four actions are described here as if they are equally ready to implement.
+They are not. The right build order is:
+
+  1. APPLIED first. Submission history is the most concrete and most needed.
+     The pipeline already surfaces opportunities. The artist already applies to
+     them. The system just does not know. Recording applications closes the most
+     consequential gap in the current system.
+
+  2. MAYBE LATER second. The Watch List exists in the UI already as a pipeline-
+     routed section. Artist-directed deferral is a small addition to existing
+     logic.
+
+  3. NOT FOR ME third. Preference learning is more powerful than deferral but
+     requires Peppercorn's pattern detection to be useful. Without the pattern
+     detection, it is just a permanent exclude list.
+
+  4. FOLLOW last. Saffron's venue intelligence is the most ambitious of the four
+     consequences. It requires a new pipeline engine and a new output format.
+     The action itself is simple. What it triggers is not.
+
+Build in this order. The value compounds from left to right, but each step
+is independently useful without the subsequent steps. Applied alone is worth
+building. All four together are a feedback system that genuinely teaches the
+system what the artist needs.
+
+─────────────────────────────────────────────────────────────────────
