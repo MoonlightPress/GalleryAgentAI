@@ -188,24 +188,27 @@ def load_opportunities() -> list:
     return [x for x in items if x.get("visibility") != "hidden"]
 
 
+def by_display_score(cards: list) -> list:
+    return sorted(cards, key=lambda c: float(c.get("overall_score") or 0), reverse=True)
+
+
 def bucket(items: list) -> dict:
     scored = sorted(items, key=lambda x: float(x.get("compound_career_score") or 0), reverse=True)
 
     used: set[str] = set()
 
-    # Immediate best moves: top 5 by score, any category
+    # Immediate best moves: top 5 by compound score, then re-sort by displayed overall_score
     best = scored[:5]
     used.update(x["id"] for x in best)
-
-    buckets: dict[str, list] = {"immediate_best_moves": [shape_card(x) for x in best]}
+    buckets: dict[str, list] = {"immediate_best_moves": by_display_score([shape_card(x) for x in best])}
 
     for key, cats in SECTION_CATEGORIES.items():
         section = [x for x in scored if x.get("category") in cats and x["id"] not in used]
         used.update(x["id"] for x in section)
-        buckets[key] = [shape_card(x) for x in section]
+        buckets[key] = by_display_score([shape_card(x) for x in section])
 
     # Anything not bucketed → watch list too
-    leftover = [shape_card(x) for x in scored if x["id"] not in used]
+    leftover = by_display_score([shape_card(x) for x in scored if x["id"] not in used])
     buckets["watch_list"] = buckets.get("watch_list", []) + leftover
 
     return buckets

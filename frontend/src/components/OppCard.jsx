@@ -91,17 +91,19 @@ export default function OppCard({ opp, isOpen, onDetails }) {
 
   return (
     <div className={`opp-card${isOpen ? ' opp-card--open' : ''}`}>
+      {/* Score badge — top-right of card, outside thumbnail */}
+      {opp.overall_score > 0 && (
+        <span className={`opp-card-score-badge ${scoreClass(opp.overall_score)}`}>
+          {opp.overall_score}
+        </span>
+      )}
+
       {/* Thumbnail — left strip */}
       <div className="opp-card-thumb" style={{ background: bg }}>
         {imgSrc
           ? <img src={imgSrc} alt="" className="opp-card-illus" />
           : <span className="opp-card-emoji">•</span>
         }
-        {opp.overall_score > 0 && (
-          <span className={`opp-card-score-badge ${scoreClass(opp.overall_score)}`}>
-            {opp.overall_score}
-          </span>
-        )}
       </div>
 
       {/* Content — right column */}

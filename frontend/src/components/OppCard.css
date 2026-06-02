@@ -1,5 +1,6 @@
 /* ── Horizontal card shell ── */
 .opp-card {
+  position: relative; /* anchor for score badge */
   background: #FFFCF7;
   border: 1px solid #e2cfa8;
   border-radius: 16px;
@@ -49,15 +50,15 @@
 
 .opp-card-score-badge {
   position: absolute;
-  bottom: 7px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 8px;
+  right: 10px;
   font-size: 10px;
   font-weight: bold;
   padding: 2px 7px;
   border-radius: 999px;
   font-family: Georgia, serif;
   white-space: nowrap;
+  z-index: 1;
 }
 .score-high { background: #d4eddb; color: #2d6a4f; }
 .score-mid  { background: #fef3d0; color: #92660a; }
