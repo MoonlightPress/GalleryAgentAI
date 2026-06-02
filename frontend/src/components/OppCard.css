@@ -1,0 +1,341 @@
+/* ── Card shell ── */
+.opp-card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: box-shadow 0.16s ease;
+}
+
+.opp-card:hover {
+  box-shadow: var(--shadow-sm);
+}
+
+.opp-card--open {
+  box-shadow: var(--shadow);
+  border-color: #d4c0a0;
+}
+
+/* ── Collapsed row ── */
+.opp-card-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: Georgia, serif;
+  color: var(--ink);
+  transition: background 0.12s;
+}
+
+.opp-card-row:hover {
+  background: rgba(230, 212, 184, 0.18);
+}
+
+.opp-card-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  min-width: 200px;
+}
+
+/* Score badge */
+.opp-score {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+.score-high { background: #d4eddb; color: #2d6a4f; }
+.score-mid  { background: #fef3d0; color: #92660a; }
+.score-low  { background: #f0ebe4; color: #8a7563; }
+
+.opp-card-name-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.opp-card-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.opp-card-location {
+  font-size: 11px;
+  color: var(--ink-muted);
+}
+
+.opp-card-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Category pill */
+.opp-cat-pill {
+  font-size: 10.5px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #f0e8d8;
+  color: var(--ink-medium);
+  white-space: nowrap;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+}
+
+/* Effort pill */
+.opp-effort-pill {
+  font-size: 10.5px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.effort-easy   { background: #d4eddb; color: #2d6a4f; }
+.effort-medium { background: #fef3d0; color: #92660a; }
+.effort-heavy  { background: #fde8e8; color: #b94040; }
+.effort-check  { background: #f0ebe4; color: #8a7563; }
+
+.opp-card-summary-text {
+  font-size: 12px;
+  color: var(--ink-muted);
+  font-style: italic;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 0;
+}
+
+.opp-chevron {
+  font-size: 10px;
+  color: var(--ink-muted);
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+/* ── Expanded body ── */
+.opp-card-body {
+  border-top: 1px solid var(--border);
+  background: linear-gradient(180deg, #fffdf8 0%, #fff7ea 100%);
+  padding: 20px 20px 24px;
+}
+
+.opp-body-header {
+  margin-bottom: 16px;
+}
+
+.opp-body-title {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
+.opp-body-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.opp-meta-chip {
+  font-size: 11.5px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(230, 212, 184, 0.5);
+  border: 1px solid var(--border);
+  color: var(--ink-medium);
+}
+
+.opp-meta-chip.chip-warn {
+  background: #fff3cd;
+  border-color: #f0c940;
+  color: #7a5a10;
+}
+
+.opp-meta-link {
+  text-decoration: none;
+  transition: background 0.12s;
+}
+.opp-meta-link:hover {
+  background: rgba(230, 212, 184, 0.85);
+}
+
+/* Two-column grid inside the expanded body */
+.opp-body-grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .opp-body-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Content blocks ── */
+.opp-body-block {
+  margin-bottom: 14px;
+}
+
+.opp-block-label {
+  font-size: 10.5px;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 5px;
+}
+
+.opp-body-block p {
+  font-size: 13px;
+  color: var(--ink-medium);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.opp-bullets {
+  padding-left: 16px;
+  list-style: disc;
+  margin: 0;
+}
+
+.opp-bullets li {
+  font-size: 13px;
+  color: var(--ink-medium);
+  line-height: 1.55;
+  margin-bottom: 4px;
+}
+
+/* Soft warning block */
+.opp-soft-warning {
+  background: #fffbef;
+  border: 1px solid #f0e0a0;
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.opp-soft-warning .opp-block-label {
+  color: #8a6a20;
+}
+
+.opp-soft-warning p {
+  color: #6b5010;
+}
+
+/* ── Email panel ── */
+.opp-email-panel {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.opp-email-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px 8px;
+  border-bottom: 1px solid var(--border);
+  background: #fdf8f0;
+}
+
+.opp-email-tabs {
+  display: flex;
+  gap: 4px;
+}
+
+.opp-email-tab {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--ink-muted);
+  cursor: pointer;
+  font-family: Georgia, serif;
+  transition: background 0.12s, color 0.12s;
+}
+
+.opp-email-tab.active {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: white;
+}
+
+.opp-email-tab:not(.active):hover {
+  background: rgba(230, 212, 184, 0.4);
+}
+
+.opp-email-body {
+  font-family: 'Courier New', monospace;
+  font-size: 11.5px;
+  line-height: 1.65;
+  color: var(--ink-medium);
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+  padding: 14px;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.opp-copy-btn {
+  display: block;
+  width: 100%;
+  padding: 8px 14px;
+  border: none;
+  border-top: 1px solid var(--border);
+  background: #fdf8f0;
+  color: var(--ink-muted);
+  font-size: 11.5px;
+  font-family: Georgia, serif;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.12s, color 0.12s;
+}
+
+.opp-copy-btn:hover {
+  background: rgba(230, 212, 184, 0.5);
+  color: var(--ink);
+}
+
+/* Verify checklist */
+.opp-verify-block {
+  background: #f8f6f2;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.opp-verify-list {
+  padding-left: 16px;
+  list-style: disc;
+  margin: 0;
+}
+
+.opp-verify-list li {
+  font-size: 12px;
+  color: var(--ink-muted);
+  line-height: 1.5;
+  margin-bottom: 4px;
+}

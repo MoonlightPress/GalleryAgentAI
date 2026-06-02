@@ -1,0 +1,85 @@
+.opps-root {
+  background: var(--parchment);
+  padding: 0 24px 48px;
+}
+
+.opps-loading,
+.opps-error {
+  text-align: center;
+  padding: 40px 24px;
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: var(--ink-muted);
+  font-size: 15px;
+}
+
+.opps-loading .opps-paw {
+  display: block;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.opps-error code {
+  font-family: monospace;
+  background: rgba(0,0,0,0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* ── Section wrapper ── */
+.opp-section {
+  max-width: 1400px;
+  margin: 0 auto 40px;
+}
+
+.opp-section-header {
+  padding: 24px 0 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+.opp-section-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.opp-section-icon {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.opp-section-title {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--ink);
+  letter-spacing: 0.01em;
+}
+
+.opp-section-count {
+  background: var(--parchment);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 11px;
+  color: var(--ink-muted);
+  padding: 1px 8px;
+  margin-left: 2px;
+  font-family: Georgia, serif;
+}
+
+.opp-section-desc {
+  font-style: italic;
+  color: var(--ink-muted);
+  font-size: 13px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ── Cards list ── */
+.opp-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
