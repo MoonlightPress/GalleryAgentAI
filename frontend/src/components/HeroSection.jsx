@@ -1,4 +1,5 @@
 import './HeroSection.css'
+import { mochiHero } from '../utils/heroImages'
 
 const focusItems = [
   { icon: '⭐', text: 'Explore 3 new opportunities' },
@@ -10,7 +11,7 @@ export default function HeroSection() {
   return (
     <section className="hero">
       <img
-        src="/mochi_hero.png"
+        src={mochiHero}
         alt="Mochi's watercolor atelier"
         className="hero-img"
       />

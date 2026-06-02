@@ -1,5 +1,5 @@
 import './PeppercornPage.css'
-import peppercornHero from '../assets/peppercorn_hero.png'
+import { peppercornHero } from '../utils/heroImages'
 
 export default function PeppercornPage() {
   return (
