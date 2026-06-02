@@ -21,6 +21,7 @@ import json
 import os
 import re
 import time
+import argparse
 from pathlib import Path
 from datetime import datetime
 
@@ -56,22 +57,31 @@ claude = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 # ── search ────────────────────────────────────────────────────────────────────
 
-def build_queries(venue: str, city: str, country: str) -> list[str]:
+def build_queries(venue: str, city: str, country: str) -> list[tuple[str, list[str]]]:
+    """Returns list of (query_string, include_domains) tuples.
+
+    Tavily does not support Google-style site: or boolean OR operators.
+    Use include_domains for domain-restricted searches instead.
+    """
     v = venue.strip('"')
     return [
-        f'site:x.com OR site:twitter.com "{v}" 展示 OR ギャラリー OR 公募',
-        f'site:note.com "{v}" 展覧会 OR 公募 OR 体験',
-        f'site:lofter.com OR site:zcool.com.cn OR site:weibo.com "{v}"',
-        f'site:reddit.com "{v}" artist gallery "open call"',
-        f'"{v}" artist experience review "open call" OR exhibition OR residency',
+        (f'"{v}" 展示 ギャラリー 公募',                    ["twitter.com", "x.com"]),
+        (f'"{v}" 展覧会 公募 体験',                          ["note.com"]),
+        (f'"{v}" artist',                                   ["lofter.com", "zcool.com.cn", "weibo.com"]),
+        (f'"{v}" artist gallery open call review',          ["reddit.com"]),
+        (f'"{v}" artist experience review open call exhibition residency', []),
     ]
 
 
-def run_query(query: str) -> str:
+def run_query(query: str, include_domains: list[str] | None = None) -> str:
     """Return concatenated snippets from one Tavily search, or empty string."""
+    kwargs: dict = {"search_depth": "basic", "max_results": 5}
+    if include_domains:
+        kwargs["include_domains"] = include_domains
+
     for attempt in range(3):
         try:
-            res = tavily.search(query, search_depth="basic", max_results=5)
+            res = tavily.search(query, **kwargs)
             parts = [
                 f"[{r.get('url', '')}]\n{r.get('content', '')[:SNIPPET_CHARS]}"
                 for r in res.get("results", [])
@@ -210,8 +220,19 @@ def cached_and_fresh(venue: str, existing: dict) -> bool:
 # ── main ──────────────────────────────────────────────────────────────────────
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Rumor Mill Engine")
+    parser.add_argument("--venue", metavar="NAME",
+                        help="Research only this venue (bypasses cache, case-insensitive substring match)")
+    parser.add_argument("--force", action="store_true",
+                        help="Bypass cache and re-research all venues")
+    args = parser.parse_args()
+
     print("=== Rumor Mill Engine ===")
     print(f"Started: {datetime.now().isoformat()}\n")
+    if args.venue:
+        print(f"Mode: single venue — '{args.venue}' (cache bypassed)\n")
+    elif args.force:
+        print("Mode: force re-research all venues\n")
 
     opps = load_json(OPP_PATH, [])
     if not opps:
@@ -243,7 +264,11 @@ def main() -> None:
             continue
         seen_venues.add(vname)
 
-        if cached_and_fresh(vname, results):
+        # --venue filter: skip everything that doesn't match
+        if args.venue and args.venue.lower() not in vname.lower():
+            continue
+
+        if not args.venue and not args.force and cached_and_fresh(vname, results):
             prior_ts = results[vname].get("researched_at", "?")[:10]
             print(f"[{i+1:02d}/{TOP_N}] {vname[:55]} — cached {prior_ts}")
             continue
@@ -252,9 +277,10 @@ def main() -> None:
         queries   = build_queries(vname, city, country)
         all_text  = ""
 
-        for q in queries:
-            print(f"    {q[:90]}")
-            snippet = run_query(q)
+        for q, domains in queries:
+            domain_hint = f" [{','.join(domains)}]" if domains else ""
+            print(f"    {q[:80]}{domain_hint}")
+            snippet = run_query(q, domains or None)
             if snippet:
                 all_text += snippet + "\n\n"
 
