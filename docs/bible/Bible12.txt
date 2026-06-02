@@ -1,0 +1,674 @@
+THE PEPPERCORN PAGE — FULL SPECIFICATION
+Bible Entry 12 — Written 2026-06-02
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT THIS DOCUMENT COVERS
+
+The complete specification for the Peppercorn page: its philosophy, its
+primary interactive element (the carousel), its section structure and
+ordering logic, its visual design, and its tone.
+
+Peppercorn is the second companion. He is a black mouse. His page is
+where the artist's voice enters the system. Without it, Mochi is a
+monologue — a system that issues recommendations without ever having
+asked what the artist actually wants. Peppercorn closes that loop.
+
+This document supersedes any earlier descriptions of Peppercorn's page
+in prior Bible entries. The current implementation (as of 2026-06-02)
+has five sections in fixed order. This specification replaces that with
+a carousel-driven, dynamically ordered page that is substantially more
+considered.
+
+─────────────────────────────────────────────────────────────────────
+
+PART ONE: PHILOSOPHY
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT PEPPERCORN IS NOT
+
+Peppercorn is not a form. He is not a dashboard. He is not a settings
+panel or a profile editor or a productivity tool.
+
+These are the failure modes. A form demands completion. A dashboard
+implies surveillance. A settings panel belongs to software, not to a
+relationship. The moment the page feels like a form that needs to be
+filled out, the artist stops visiting. She visits once, finds it
+incomplete, feels the gap between where she is and where she should be,
+and does not come back.
+
+The system should not make the artist feel behind.
+
+WHAT PEPPERCORN IS
+
+Peppercorn is a small creature who has been paying attention. He notices
+things. He keeps track quietly. He leaves gentle notes when he thinks
+something is worth the artist's time.
+
+Coming to Peppercorn should feel optional and rewarding, never
+obligatory. The page should feel like a cozy corner where things
+accumulate naturally over time — where a returning visit is pleasant
+because there is something new, and a first visit is pleasant because
+there is something waiting.
+
+Nothing on the page should be phrased as a requirement. Nothing should
+have a red indicator for "incomplete." Nothing should count down toward
+a deadline or make visible a gap between where she is and where she
+should be.
+
+The progress system (the carousel) works in the opposite direction: it
+shows what is almost done, not what is missing. The almost-done items
+float to the front. The far-off items stay at the back, visible but not
+confrontational. She reaches for the low fruit first, and the act of
+reaching feels good, and she comes back.
+
+THE COZY CORNER PRINCIPLE
+
+A useful image: the inside of a very organized mouse's home. Everything
+in its place. Small scale. Cozy. Purposeful. Nothing oversized. No
+empty tables waiting to be filled. Items accumulate into their places
+rather than appearing as vacancies.
+
+This image should inform every visual and copy decision on the page.
+When in doubt, ask: does this feel like a vacancy, or does it feel like
+something that belongs here and will become more itself over time?
+
+─────────────────────────────────────────────────────────────────────
+
+PART TWO: THE CAROUSEL
+
+─────────────────────────────────────────────────────────────────────
+
+THE CAROUSEL IS THE MOST IMPORTANT ELEMENT ON THE PAGE
+
+It appears at the top, below the hero image and above all sections. It
+is the first thing seen and the primary navigation mechanism. Everything
+else on the page is accessed through it or scrolled to beneath it.
+
+The carousel is a horizontal scrolling row of progress cards. Each card
+represents one measurable dimension of the artist's career or profile.
+Cards are ordered by proximity to the next meaningful threshold — the
+card closest to completion appears leftmost.
+
+This ordering creates a satisfying sense of almost-there progress. The
+question the carousel answers is not "how much is left to do?" but
+"where would a small effort have the most impact right now?" The artist
+sees the nearly-complete items first and feels capable. The incomplete
+items exist but do not dominate.
+
+CAROUSEL ORDERING LOGIC
+
+Sort by: (current_value / next_threshold), descending.
+
+Examples:
+  Twitter followers:    90,000 / 100,000 = 0.90  →  sorts first
+  Instagram followers:  21,000 / 25,000  = 0.84  →  sorts second
+  Group shows:          1 / 3            = 0.33  →  sorts later
+  Career goals entered: 0 / 1            = 0.00  →  sorts last
+
+The result: easy wins at the front, most-work items at the back. She
+can complete the near-threshold items and feel progress without ever
+being confronted with how much is missing overall.
+
+CARD ANATOMY
+
+Each card contains exactly five elements. Nothing more.
+
+  1. Metric name — e.g. "Twitter / X", "Group Shows", "Artist Statement"
+  2. Current value — displayed prominently
+  3. Next threshold value — displayed alongside current, e.g. "90k / 100k"
+  4. Progress arc — a small circular or partial-arc indicator (not a bar)
+  5. One-line threshold description — why this threshold matters
+
+No buttons. No secondary labels. No completion percentages as numbers.
+The arc is the number made visual.
+
+The arc should feel organic, not corporate. A full circle progress
+indicator or a thin bar feels like a loading spinner or a file transfer.
+A partial arc — think of the way a door swings open, or the way a moon
+waxes — feels like growth. Use sage green fill on cream background.
+The arc does not need to be animated. It is a state, not a process.
+
+CARD TYPES AND THRESHOLDS
+
+─ Twitter / X Followers
+  Current: ~90,000
+  Thresholds:
+    100k — symbolic milestone; press mentions increase; credibility
+            marker in curator and gallerist conversations
+  Completion ratio: 0.90 — should appear near the front of the carousel.
+  Click action: scrolls to social analysis within Instagram Strategy section.
+
+─ Instagram Followers
+  Current: 21,000
+  Thresholds:
+    25k  — algorithm begins treating account as established; print buyer
+            discovery increases; first meaningful visibility threshold
+    50k  — gallery directors and curators begin treating social following
+            as a signal of market viability; consignment conversations
+            become easier to open
+    100k — major threshold: press interest, collector attention, potential
+            for brand collaboration income, speaking invitations at art events
+  Show: current value and next threshold only. Do not display all three
+  thresholds at once — it will feel overwhelming.
+  Click action: scrolls to Instagram Strategy section.
+
+─ Group Shows
+  Current: 1 (Tide from China Part 1, ACG_Labo, February 2023)
+  Thresholds:
+    2 — shows consistent practice; reduces perception of a single
+        lucky break
+    3 — minimum threshold most Tokyo galleries use before discussing
+        solo shows; this is the blocking milestone
+    5 — strong exhibition CV; residency applications become competitive;
+        institutional open calls become realistic
+  Click action: scrolls to Exhibition Pathway section.
+
+─ Publications
+  Current: 2 (Colour Diary, 2021; defined Definition 02, contributor)
+  Thresholds:
+    3 — establishes a pattern; no longer a single project artist
+    5 — strong publication CV; positions her as a prolific presence
+        in the Tokyo illustration/zine ecosystem
+    First major press feature — qualitative threshold, not numeric:
+    Bijutsu Techo, It's Nice That, or equivalent
+  Click action: scrolls to publication landscape (Saffron section, or
+  linked view).
+
+─ Artist Statement
+  Current: draft exists, unrefined
+  Threshold: refined draft (feeds all outreach emails, cover letters,
+  and opportunity descriptions Mochi generates — the better this is,
+  the better everything downstream)
+  Progress: binary or a simple three-state (none / draft / refined)
+  shown as arc completion: 0%, 50%, 100%
+  Click action: scrolls to Artist Statement section, which expands.
+
+─ Saffron's Questions
+  Current: 0 of 8 answered
+  Thresholds: each answered question is a threshold (1, 2, 3 ... 8)
+  Show: X / 8 as the progress value
+  The threshold description changes per card state:
+    0/8 — "Saffron is working with incomplete context"
+    4/8 — "Saffron has enough for a partial analysis"
+    8/8 — "Saffron has everything she needs for now"
+  Click action: scrolls to Saffron's Questions section.
+
+─ Career Goals
+  Current: 0 entered
+  Thresholds:
+    1 — unlocks basic pathway analysis in Saffron
+    3 — full strategic picture; Saffron can weight recommendations
+        toward stated goals rather than assumed ones
+  Click action: scrolls to Career Goals section.
+
+─ Peppercorn Profile Completeness
+  A composite score across all dimensions. This card is different from
+  the others: it does not show a number.
+
+  Instead it shows Peppercorn's door.
+
+  Fully closed: just starting. A drawing of a small round door, shut.
+  Slightly ajar: some context in the system. Door open a crack, warm
+  light visible inside.
+  Half open: meaningful profile. Door clearly open, Peppercorn visible
+  as a silhouette.
+  Wide open: Peppercorn fully briefed. Door open, Peppercorn present
+  and looking outward.
+
+  This card should sort last — it is always the least complete relative
+  to its final state — and it serves as a summary of the whole page's
+  state. It does not click through to a section; it is a reflection.
+
+CLICKING A CARD
+
+Smooth scroll to the relevant section below the carousel. The section
+expands automatically if it is closed. The clicked card gets a subtle
+active state: slightly raised (box-shadow increase), border more
+prominent in sage green. No page navigation. No modal. No new page.
+Everything lives on one scrollable page.
+
+The active card state persists as long as the user is within that
+section's scroll region. When they scroll away, the card returns to
+neutral. This gives a sense of "I am here, in this section" orientation.
+
+─────────────────────────────────────────────────────────────────────
+
+PART THREE: SECTIONS BELOW THE CAROUSEL
+
+─────────────────────────────────────────────────────────────────────
+
+DYNAMIC ORDERING
+
+The sections below the carousel are ordered by completion level,
+descending — most complete at the top, least complete at the bottom.
+
+The logic: a returning user sees their completed work first. That is
+satisfying. Their remaining work appears last. That is not confrontational.
+A first-time user sees everything at a low completion state, but the
+carousel at the top tells them exactly where to start. The sections
+below are the detail; the carousel is the map.
+
+This ordering recalculates on each page load. It does not animate on
+the current visit — that would be disorienting. It is a server-side
+ordering decision that reflects where she is today.
+
+SECTION: INSTAGRAM STRATEGY ANALYSIS
+
+Accessible via: clicking the Instagram Followers carousel card, or
+scrolling directly.
+
+What this section shows:
+
+  Current follower count (21k) and what it means professionally right
+  now — not a judgment, just a description. "21k means you are visible
+  to the Tokyo illustration community and to print buyers doing light
+  research. Gallery directors may glance. Major curators are not yet
+  watching."
+
+  What changes at 25k:
+  The algorithm begins treating the account as established. Discovery
+  increases. Print buyers and zine collectors who find work through
+  Instagram rather than through active search begin to encounter her
+  work. This is the first threshold worth actively pursuing.
+
+  What changes at 50k:
+  Gallery directors and curators in the Tokyo scene begin treating
+  social following as a signal of market viability. Consignment
+  conversations become easier to open — a gallery owner checking an
+  artist's Instagram before agreeing to a show is standard practice.
+  50k says "people have decided this work is worth following."
+
+  What changes at 100k:
+  The major threshold. Press interest increases organically. Collector
+  attention expands beyond the illustration community. Potential for
+  brand collaboration income (art licensing, limited edition products).
+  Speaking invitations at art events become plausible. This is a
+  medium-term goal, not a near-term one.
+
+  Specific tactics for her practice:
+  Daily diary posts perform well for this kind of urban-atmospheric
+  work — the accumulation effect (seeing the practice daily) builds
+  attachment faster than occasional large posts. Urban architecture,
+  quiet spaces, and cats are documented high-performing subject matter
+  for Japanese Instagram audiences. Consistent Japanese/Chinese
+  bilingual captions reach both communities without fragmenting either.
+  Story reposts of Tokyo urban observations build local audience faster
+  than feed posts alone.
+
+  What Peppercorn needs to know (surfaced as gentle questions, not a
+  form):
+    — Current posting frequency
+    — Whether she wants to actively grow Instagram, or use it primarily
+      as a portfolio archive (the strategy differs completely — growth
+      requires consistent posting and engagement; archive mode requires
+      good organization and no pressure)
+    — Engagement rate context (visible from outside but unreliable
+      without reach data, which only she can see)
+
+SECTION: EXHIBITION PATHWAY
+
+Accessible via: clicking the Group Shows carousel card.
+
+What this section shows:
+
+  Current record: 1 group show — Tide from China Part 1, ACG_Labo,
+  Harajuku, Tokyo, February 2023. Six Chinese illustrators. First Japan
+  exhibition on record.
+
+  What 1 show means:
+  Established presence. A credible starting point. Not yet enough for
+  solo show conversations with any Tokyo gallery of standing. The single
+  show shows she can execute and be part of a group context in Japan.
+  It does not yet show a pattern.
+
+  What 2 shows means:
+  Pattern begins. The perception of "one lucky group show" dissolves.
+  She is someone who exhibits, not someone who exhibited.
+
+  What 3 shows means:
+  The informal minimum threshold that most Tokyo galleries use before
+  discussing a solo show. This is the blocking milestone — the number
+  the pathway section of Saffron's page identifies as the primary next
+  target. Getting to 3 unlocks the next stage of the career arc.
+
+  What 5 shows means:
+  Strong exhibition CV. Residency applications become competitive at
+  this level. Institutional open calls — TOKAS, BankART1929, Youkobo —
+  become realistic rather than aspirational.
+
+  Specific next targets:
+    — 3331 Arts Chiyoda open calls (runs on regular cycle; artist-run
+      feel; accessible for international artists based in Tokyo)
+    — Design Festa Gallery curated shows (active program; known for
+      illustration-adjacent work; Harajuku location builds on existing
+      ACG_Labo relationship in that neighborhood)
+    — Gallery IYN open submissions (smaller; emerging-artist focused;
+      realistic first repeat venue)
+
+  Timeline estimate:
+  At a realistic application pace — 3 to 5 applications per year,
+  acceptance rate 20–30% — reaching 3 confirmed shows takes
+  approximately 2–3 years from mid-2026. This is not slow. This is
+  normal. The page should say so plainly.
+
+SECTION: ARTIST STATEMENT
+
+Accessible via: clicking the Artist Statement carousel card, or
+scrolling directly.
+
+What this section shows:
+
+  An editable textarea, pre-populated from profile phrases in
+  artist_master_profile.json. The text is clearly marked as a working
+  draft — not a final document, not a requirement, just a starting
+  point she can edit freely.
+
+  Why this section matters — stated explicitly, not buried:
+  This text feeds every outreach email Mochi drafts. Every submission
+  cover letter. Every opportunity description the system generates. The
+  better this text is, the better everything downstream becomes. A
+  generic statement produces generic outreach. A specific, true
+  statement produces outreach that sounds like her.
+
+  Show a concrete before/after illustration:
+    Generic: "I am an artist working with watercolor, exploring themes
+    of memory and urban space."
+    Specific: "My paintings are slow observations of urban places
+    between moments — the alley before anyone arrives, the café after
+    everyone has left. I work in watercolor because it captures what
+    memory does to architecture: softened edges, color that breathes,
+    forms that are almost but not quite precise."
+  Then show how the same email draft changes. This is not decorative —
+  it demonstrates the actual stakes of the text field.
+
+  Save behavior: persists to memory/peppercorn_profile.json immediately
+  on save. Updates the API. The status indicator ("Saved") appears
+  quietly at the top of the page, not in a toast popup.
+
+SECTION: SAFFRON'S QUESTIONS
+
+Accessible via: clicking the Saffron's Questions carousel card.
+
+What this section shows:
+
+  Eight questions, surfaced one at a time. Not a list — a card. The
+  card shows:
+    — The question itself, in Saffron's voice (observational, patient)
+    — Why Saffron is asking: what analysis it would unlock, what
+      recommendation quality it would improve
+    — A free-text answer field (no dropdown, no multiple choice — free
+      text only, because the answers contain nuance the system should
+      hear)
+    — "Skip for now" is always visible and always available. No question
+      is mandatory. The skip button should not say "Skip" in a tone that
+      implies reluctance — it should say something like "Come back to
+      this" or "Not now."
+
+  Progress indicator: dots at the top of the section, one per question.
+  Unanswered: muted cream circle. Answered: sage green fill. Active:
+  slightly larger, dark ink.
+
+  Answered questions appear below the active card as a compact list.
+  Each answered item is clickable to revisit and edit.
+
+  The eight questions (as of this specification):
+    1. How often do you post to Instagram? Any goals for this?
+       Why: posting cadence is the most controllable variable for
+       closing the Instagram/Twitter gap.
+
+    2. Where are most of your followers — Tokyo, China, or spread
+       globally?
+       Why: whether the audience is primarily Chinese-language changes
+       the geographic expansion strategy entirely.
+
+    3. Have you sold work before? Through which channels — fairs,
+       online, prints, originals?
+       Why: sales history reveals which formats and price points
+       convert, which shapes which fairs are worth entering.
+
+    4. Is a new publication or zine in the works, even loosely?
+       Why: if one is already planned, the system should support it —
+       not recommend it as a new idea.
+
+    5. Do you have an artist statement written anywhere — in any
+       language?
+       Why: most open calls require one. If none exists, this is the
+       most urgent gap before any submissions.
+
+    6. Are you still in touch with anyone from the Tide from China
+       show?
+       Why: those five artists are the most natural group show partners.
+       If they have dispersed, that network is dormant and needs to be
+       rebuilt differently.
+
+    7. Is there a second Japan exhibition already planned or in
+       conversation?
+       Why: the system assumes 2–3 more group shows are needed, but one
+       may already be underway that is not in the data.
+
+    8. What do you charge for originals and prints?
+       Why: pricing determines which collector tier and which fairs are
+       appropriate. Under-pricing affects how galleries perceive the
+       work.
+
+  When all 8 are answered:
+  Peppercorn leaves a note, not a completion badge. The note reads:
+  "Saffron has everything she needs for now. Check back after your next
+  exhibition." The section collapses softly. The carousel card shows
+  8/8 with a full arc.
+
+SECTION: CAREER GOALS
+
+Accessible via: clicking the Career Goals carousel card.
+
+What this section shows:
+
+  A simple add/complete/remove list. Free text. No structure imposed.
+  The artist writes whatever she wants — there is no template, no
+  required format, no category selection.
+
+  The system reads the goals and uses them to weight recommendations,
+  but does not require a specific format to do so. The goals are
+  interpreted, not parsed.
+
+  Placeholder examples shown in the empty input field (rotating, not
+  all at once):
+    "Table at Tokyo Art Book Fair"
+    "First solo show before 30"
+    "Get featured in It's Nice That"
+    "Collaborate with a Tokyo bookshop"
+    "Sell 20 prints in a single month"
+
+  Each goal she enters unlocks a corresponding pathway note in Saffron.
+  This connection should be made visible once: a small note on the first
+  goal saved — "Saffron will use this to sharpen her analysis" — and
+  then never repeated.
+
+  Goals are marked complete with a soft toggle (circle → filled circle
+  with check). Completed goals do not disappear — they become struck
+  through and move to the bottom of the list. They are evidence of
+  progress. They should not be erased.
+
+SECTION: PREFERENCES
+
+Accessible via: scrolling directly, or via a future carousel card if
+completeness metrics are added.
+
+This section is the least urgent and should float toward the bottom of
+the dynamic ordering in almost all states, because the defaults are
+already reasonable. The artist should only come here if something feels
+wrong about what Mochi is surfacing.
+
+Contents (current implementation, already working):
+  — Geographic focus: Tokyo first / Japan (beyond Tokyo) / International
+    equally
+  — Fee tolerance: free only / up to ¥5,000 / up to ¥15,000 / any fee
+  — Category weighting: more / less per category (surface grid)
+
+The section tone should acknowledge that the defaults are good:
+"These are Peppercorn's current settings. The defaults are reasonable
+for where you are now — only change them if something feels off."
+
+─────────────────────────────────────────────────────────────────────
+
+PART FOUR: VISUAL DESIGN
+
+─────────────────────────────────────────────────────────────────────
+
+PALETTE
+
+  Background:  #f6f5f0  — cool cream, slightly cooler than Mochi's
+                          warm amber-tinted paper
+  Paper:       #fdfcf7  — card and input background
+  Accent:      #6a8a5a  — sage green; Peppercorn's signature color
+  Text:        #2e3a2e  — dark forest green-black; not pure black
+  Muted:       #6a7a5a  — secondary text
+  Border:      #cdd8be  — soft sage border
+  Input bg:    #f2f5ee  — slightly green-tinted input fields
+
+All three companions have distinct palettes. Mochi is warm amber and
+ochre. Saffron's palette is TBD. Peppercorn is sage green — organic,
+slightly cooler than Mochi, grounded. The palette should feel like
+pressed herbs, old paper, handwritten notes in a small notebook.
+
+TYPOGRAPHY
+
+Slightly smaller than Mochi and Saffron. This is an intimate page. It
+is not broadcasting. The body text of 14px on Mochi's page might be
+13.5px here. Headings are correspondingly smaller. The page should feel
+like reading notes rather than reading announcements.
+
+Georgia serif throughout, consistent with the system-wide aesthetic.
+No sans-serif elements. Italic for Peppercorn's voice (the notes he
+leaves). Regular weight for data and facts.
+
+PROGRESS ARCS
+
+Circular or partial-arc indicators only. No bars. The specific
+reasoning: a bar is a loading indicator and carries connotations of
+progress toward a fixed endpoint. An arc is a phase — like the moon,
+like an open door, like something that is becoming. Arcs feel more
+alive and less like a checklist.
+
+Arcs use sage green (#6a8a5a) fill on cream (#fdfcf7) background track.
+The unfilled portion of the arc is the track, not a void. Arc stroke
+width: substantial enough to read at small size, not so thick it
+dominates the card.
+
+PEPPERCORN'S PRESENCE
+
+He appears at the top of the page — small, curious, peeking out. Not
+large. Not a mascot banner. A presence in the corner of the frame. His
+expression is attentive but undemanding.
+
+He does not appear again within the page body. One appearance,
+established at the top, is enough. The rest of the page is his
+influence — the tone, the color, the scale — without repeated literal
+presence.
+
+BORDERS AND SHAPE
+
+No harsh borders. Rounded corners on everything. Cards in the carousel
+have a soft shadow — not a drop shadow, more like a subtle lift from the
+page. Section dividers are soft horizontal rules, not hard lines.
+
+Nothing on this page should feel sharp, demanding, or urgent.
+
+─────────────────────────────────────────────────────────────────────
+
+PART FIVE: TONE
+
+─────────────────────────────────────────────────────────────────────
+
+PEPPERCORN'S VOICE
+
+Every label, description, and status message on this page should sound
+like Peppercorn leaving a note — not a system demanding input.
+
+The distinction is not subtle. It is the difference between a form and
+a relationship.
+
+EXAMPLES OF WRONG TONE vs. RIGHT TONE
+
+  Wrong: "Instagram profile incomplete."
+  Right: "Peppercorn noticed your Instagram hasn't been updated recently
+         — worth a thought?"
+
+  Wrong: "3 questions unanswered."
+  Right: "Saffron left 3 questions — whenever you have a moment."
+
+  Wrong: "Artist statement required."
+  Right: "Your artist statement is a working draft — edit whenever it
+         feels right."
+
+  Wrong: "0 career goals entered."
+  Right: "Peppercorn hasn't heard your goals yet. What are you working
+         toward?"
+
+  Wrong: "Complete your profile to unlock full recommendations."
+  Right: "The more Peppercorn knows, the sharper Saffron's analysis
+         becomes — but there's no rush."
+
+  Wrong: "Section incomplete."
+  Right: (No label. The carousel card shows the arc. The state is
+         visible. No additional judgment is needed.)
+
+THE PAGE NEVER MAKES HER FEEL BEHIND
+
+This is the single most important tonal rule. The page makes her feel
+like someone small and attentive has been keeping track so she doesn't
+have to. When she arrives, things are in order. When she contributes
+something — an answer, a goal, an edit to her statement — the page
+receives it quietly and says "thank you" in the smallest possible way
+(a brief "Saved" indicator, nothing more).
+
+The page does not congratulate her excessively. It does not have a
+celebration animation when she completes all 8 questions. It has
+Peppercorn's note: "Saffron has everything she needs for now." That is
+sufficient. The satisfaction is in the substance, not the performance.
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT THIS MEANS FOR IMPLEMENTATION
+
+─────────────────────────────────────────────────────────────────────
+
+The current Peppercorn page (as of 2026-06-02) has the five sections
+in fixed order, no carousel, and working save/persist infrastructure.
+That infrastructure is correct and should be preserved.
+
+The implementation order for the redesign:
+
+  1. Carousel component — the cards, the arc indicators, the ordering
+     logic. This is the most visible change and the most important.
+
+  2. Dynamic section ordering — sections re-sort by completion on load.
+     This requires reading completion state from the API and passing it
+     to the section ordering logic.
+
+  3. Expanded section content — Instagram Strategy and Exhibition
+     Pathway sections currently do not exist as standalone sections.
+     They need to be written and added.
+
+  4. Tone pass — review every label, placeholder, and status message
+     on the page against the tone guidelines in Part Five. This is not
+     cosmetic. It is part of what makes the page feel like Peppercorn
+     and not like a form.
+
+  5. Peppercorn's door illustration — the composite card. This requires
+     a small illustration asset (the door at four states). Do not build
+     this with CSS alone — it needs a real illustration. Defer until
+     the asset exists.
+
+The Preferences section is already complete and working. It should not
+be rebuilt — only reordered to the bottom and given a tone pass.
+
+The Goals and Statement sections are already complete and working. They
+need the tone pass and the carousel cards, but their functionality does
+not need to change.
+
+─────────────────────────────────────────────────────────────────────
+
+END OF BIBLE ENTRY 12
