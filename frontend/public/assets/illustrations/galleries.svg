@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+
+  <defs>
+    <filter id="wc" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035 0.028"
+                    numOctaves="4" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="7"
+                         xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="wash" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="crisp" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06 0.05"
+                    numOctaves="3" seed="12" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"
+                         xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="200" cy="148" rx="130" ry="100" fill="#f5d870" opacity="0.18" filter="url(#wash)"/>
+  <ellipse cx="200" cy="160" rx="90"  ry="70"  fill="#f0c850" opacity="0.14" filter="url(#wash)"/>
+
+  <g filter="url(#wc)">
+    <rect x="100" y="68" width="42" height="140" rx="6" fill="#c8b898" opacity="0.70"/>
+    <rect x="258" y="68" width="42" height="140" rx="6" fill="#c8b898" opacity="0.70"/>
+    <path d="M100 120 Q100 50 200 50 Q300 50 300 120" fill="#c8b898" opacity="0.70"/>
+    <path d="M142 120 Q142 78 200 72 Q258 78 258 120 L258 210 L142 210 Z"
+          fill="#f5e8c0" opacity="0.72" filter="url(#soft)"/>
+    <ellipse cx="200" cy="56" rx="14" ry="10" fill="#b8a888" opacity="0.75"/>
+  </g>
+
+  <ellipse cx="200" cy="155" rx="60" ry="65" fill="#f8e8a0" opacity="0.25" filter="url(#wash)"/>
+
+  <g filter="url(#crisp)" opacity="0.55">
+    <rect x="155" y="105" width="18" height="24" rx="1" fill="#d4a060"/>
+    <rect x="227" y="108" width="16" height="20" rx="1" fill="#c8897a"/>
+  </g>
+
+  <ellipse cx="200" cy="208" rx="70" ry="8" fill="#b8a888" opacity="0.22" filter="url(#soft)"/>
+
+</svg>

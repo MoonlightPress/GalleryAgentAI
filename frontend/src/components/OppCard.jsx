@@ -16,22 +16,39 @@ export const CAT_LABELS = {
   gallery_event:     'Gallery Event',
 }
 
-const CAT_STYLE = {
-  gallery:           { bg: 'linear-gradient(155deg,#f8e8dc 0%,#f0d8c8 100%)', emoji: '🖼' },
-  cafe_gallery:      { bg: 'linear-gradient(155deg,#f8ead8 0%,#eedcc8 100%)', emoji: '☕' },
-  artist_space:      { bg: 'linear-gradient(155deg,#e4f0e0 0%,#d8e8d4 100%)', emoji: '🏛' },
-  fair_popup:        { bg: 'linear-gradient(155deg,#f8dcd8 0%,#f0d0c8 100%)', emoji: '🎪' },
-  bookstore_gallery: { bg: 'linear-gradient(155deg,#dce4f0 0%,#d0dce8 100%)', emoji: '📖' },
-  bookstore_event:   { bg: 'linear-gradient(155deg,#dce4f0 0%,#d0dce8 100%)', emoji: '📚' },
-  zine_print:        { bg: 'linear-gradient(155deg,#e8dce8 0%,#e0d4e0 100%)', emoji: '📰' },
-  market_event:      { bg: 'linear-gradient(155deg,#f8ecd8 0%,#f0e0c8 100%)', emoji: '🌿' },
-  residency:         { bg: 'linear-gradient(155deg,#e0e4f0 0%,#d8dce8 100%)', emoji: '🏡' },
-  institutional:     { bg: 'linear-gradient(155deg,#e4e8e0 0%,#dce0d8 100%)', emoji: '🏛' },
-  event_space:       { bg: 'linear-gradient(155deg,#f8e4d8 0%,#f0d8cc 100%)', emoji: '✨' },
-  gallery_event:     { bg: 'linear-gradient(155deg,#f4e0e4 0%,#ecd8dc 100%)', emoji: '🎨' },
+const BASE = '/assets/illustrations/'
+
+// Maps category → SVG illustration file
+const CAT_ILLUS = {
+  gallery:           BASE + 'galleries.svg',
+  gallery_event:     BASE + 'galleries.svg',
+  artist_space:      BASE + 'galleries.svg',
+  event_space:       BASE + 'galleries.svg',
+  cafe_gallery:      BASE + 'cafes.svg',
+  zine_print:        BASE + 'zines_and_print.svg',
+  bookstore_gallery: BASE + 'zines_and_print.svg',
+  bookstore_event:   BASE + 'zines_and_print.svg',
+  fair_popup:        BASE + 'open_calls.svg',
+  institutional:     BASE + 'open_calls.svg',
+  market_event:      BASE + 'open_calls.svg',
+  residency:         BASE + 'watch_list.svg',
 }
 
-const DEFAULT_STYLE = { bg: 'linear-gradient(155deg,#f0e8d8 0%,#e8e0d0 100%)', emoji: '•' }
+// Fallback gradient bg per category (shown while SVG loads)
+const CAT_BG = {
+  gallery:           '#f5e8dc',
+  gallery_event:     '#f5e8dc',
+  artist_space:      '#e8f0e0',
+  event_space:       '#f5e4d8',
+  cafe_gallery:      '#f5ead8',
+  zine_print:        '#e8dce8',
+  bookstore_gallery: '#dce4f0',
+  bookstore_event:   '#dce4f0',
+  fair_popup:        '#f5dcd8',
+  institutional:     '#e4e8e0',
+  market_event:      '#f5ecd8',
+  residency:         '#e0e4f0',
+}
 
 export function scoreClass(score) {
   const s = parseFloat(score) || 0
@@ -42,13 +59,22 @@ export function scoreClass(score) {
 
 export default function OppCard({ opp, isOpen, onDetails }) {
   const [reported, setReported] = useState(false)
-  const style = CAT_STYLE[opp.category] || DEFAULT_STYLE
+  const illus = CAT_ILLUS[opp.category]
+  const bg    = CAT_BG[opp.category] || '#f0e8d8'
+
+  // Use star illustration for section immediate_best_moves if passed via prop
+  const imgSrc = opp._section === 'immediate_best_moves'
+    ? BASE + 'immediate_best_moves.svg'
+    : illus
 
   return (
     <div className={`opp-card${isOpen ? ' opp-card--open' : ''}`}>
       {/* Image / illustration area */}
-      <div className="opp-card-image" style={{ background: style.bg }}>
-        <span className="opp-card-emoji">{style.emoji}</span>
+      <div className="opp-card-image" style={{ background: bg }}>
+        {imgSrc
+          ? <img src={imgSrc} alt="" className="opp-card-illus" />
+          : <span className="opp-card-emoji">•</span>
+        }
         {opp.overall_score > 0 && (
           <span className={`opp-card-score-badge ${scoreClass(opp.overall_score)}`}>
             {opp.overall_score}

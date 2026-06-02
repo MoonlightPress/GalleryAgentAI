@@ -96,7 +96,7 @@ function OppSection({ sectionKey, label, description, icon, items }) {
         {visible.map(opp => (
           <OppCard
             key={opp.id}
-            opp={opp}
+            opp={{ ...opp, _section: sectionKey }}
             isOpen={opp.id === activeId}
             onDetails={() => handleDetails(opp)}
           />
