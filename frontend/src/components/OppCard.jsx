@@ -17,9 +17,8 @@ export const CAT_LABELS = {
 }
 
 const ICONS = '/assets/icons/'
-const ILLUS = '/assets/illustrations/'
 
-const CAT_ILLUS = {
+const CAT_ICON = {
   // ── Galleries & spaces ───────────────────────────────────────────────
   gallery:                        ICONS + 'icon_gallery.png',
   gallery_small:                  ICONS + 'icon_gallery_small.png',
@@ -57,20 +56,7 @@ const CAT_ILLUS = {
   residency_beijing:              ICONS + 'icon_residency.png',
 }
 
-const CAT_BG = {
-  gallery:           '#f5e8dc',
-  gallery_event:     '#f5e8dc',
-  artist_space:      '#e8f0e0',
-  event_space:       '#f5e4d8',
-  cafe_gallery:      '#f5ead8',
-  zine_print:        '#e8dce8',
-  bookstore_gallery: '#dce4f0',
-  bookstore_event:   '#dce4f0',
-  fair_popup:        '#f5dcd8',
-  institutional:     '#e4e8e0',
-  market_event:      '#f5ecd8',
-  residency:         '#e0e4f0',
-}
+const DEFAULT_ICON = ICONS + 'icon_open_call.png'
 
 export function scoreClass(score) {
   const s = parseFloat(score) || 0
@@ -80,10 +66,10 @@ export function scoreClass(score) {
 }
 
 const FEEDBACK_ACTIONS = [
-  { id: 'follow',       label: 'Follow',       icon: '★' },
-  { id: 'applied',      label: 'Applied',       icon: '✓' },
-  { id: 'maybe_later',  label: 'Maybe Later',   icon: '◷' },
-  { id: 'not_for_me',   label: 'Not for Me',    icon: '✕' },
+  { id: 'follow',       label: 'Follow',     icon: '★' },
+  { id: 'applied',      label: 'Applied',    icon: '✓' },
+  { id: 'maybe_later',  label: 'Maybe Later',icon: '◷' },
+  { id: 'not_for_me',   label: 'Not for Me', icon: '✕' },
 ]
 
 async function saveFeedback(oppId, action) {
@@ -100,12 +86,7 @@ async function saveFeedback(oppId, action) {
 
 export default function OppCard({ opp, isOpen, onDetails }) {
   const [feedback, setFeedback] = useState(null)
-  const illus = CAT_ILLUS[opp.category]
-  const bg    = CAT_BG[opp.category] || '#f0e8d8'
-
-  const imgSrc = opp._section === 'immediate_best_moves'
-    ? ILLUS + 'immediate_best_moves.svg'
-    : illus
+  const iconSrc = CAT_ICON[opp.category] || DEFAULT_ICON
 
   function handleFeedback(actionId) {
     const next = feedback === actionId ? null : actionId
@@ -115,25 +96,23 @@ export default function OppCard({ opp, isOpen, onDetails }) {
 
   return (
     <div className={`opp-card${isOpen ? ' opp-card--open' : ''}`}>
-      {/* Score badge — top-right of card, outside thumbnail */}
+
+      {/* Score badge — absolute top-right */}
       {opp.overall_score > 0 && (
         <span className={`opp-card-score-badge ${scoreClass(opp.overall_score)}`}>
           {opp.overall_score}
         </span>
       )}
 
-      {/* Thumbnail — left strip */}
-      <div className="opp-card-thumb" style={{ background: bg }}>
-        {imgSrc
-          ? <img src={imgSrc} alt="" className="opp-card-illus" />
-          : <span className="opp-card-emoji">•</span>
-        }
-      </div>
-
-      {/* Content — right column */}
       <div className="opp-card-body">
-        <h3 className="opp-card-title">{opp.name}</h3>
 
+        {/* Header: 40×40 icon + title */}
+        <div className="opp-card-header">
+          <img src={iconSrc} alt="" className="opp-card-icon" />
+          <h3 className="opp-card-title">{opp.name}</h3>
+        </div>
+
+        {/* Tags */}
         <div className="opp-card-pills">
           <span className="opp-pill opp-pill-cat">
             {CAT_LABELS[opp.category] || opp.category}
@@ -148,6 +127,7 @@ export default function OppCard({ opp, isOpen, onDetails }) {
           )}
         </div>
 
+        {/* Description */}
         <p className="opp-card-desc">{opp.summary}</p>
 
         {/* Primary action */}
@@ -176,6 +156,7 @@ export default function OppCard({ opp, isOpen, onDetails }) {
             ))}
           </div>
         )}
+
       </div>
     </div>
   )
