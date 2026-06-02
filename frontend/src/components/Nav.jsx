@@ -1,9 +1,9 @@
 import './Nav.css'
 
 const COMPANIONS = [
-  { label: 'Discover', key: 'discover', active: true  },
-  { label: 'Refine',   key: 'refine',   active: false },
-  { label: 'Observe',  key: 'observe',  active: false },
+  { label: 'Discover', key: 'discover' },
+  { label: 'Refine',   key: 'refine'   },
+  { label: 'Observe',  key: 'observe'  },
 ]
 
 const QUICK_NAV = [
@@ -20,7 +20,7 @@ function scrollTo(id) {
   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
-export default function Nav() {
+export default function Nav({ activePage, onNav }) {
   return (
     <nav className="site-nav">
       {/* ── Three companion page buttons ── */}
@@ -28,29 +28,32 @@ export default function Nav() {
         {COMPANIONS.map(c => (
           <button
             key={c.key}
-            className={`companion-btn${c.active ? ' companion-btn--active' : ''}`}
+            className={`companion-btn${activePage === c.key ? ' companion-btn--active' : ''}`}
+            onClick={() => onNav(c.key)}
           >
             {c.label}
           </button>
         ))}
       </div>
 
-      {/* ── Horizontal category quick-nav ── */}
-      <div className="quick-nav-row">
-        {QUICK_NAV.map((item, i) => (
-          <span key={item.label} className="quick-nav-group">
-            <button
-              className="quick-nav-item"
-              onClick={() => scrollTo(item.target)}
-            >
-              {item.label}
-            </button>
-            {i < QUICK_NAV.length - 1 && (
-              <span className="quick-nav-sep">·</span>
-            )}
-          </span>
-        ))}
-      </div>
+      {/* ── Quick-nav only on Discover page ── */}
+      {activePage === 'discover' && (
+        <div className="quick-nav-row">
+          {QUICK_NAV.map((item, i) => (
+            <span key={item.label} className="quick-nav-group">
+              <button
+                className="quick-nav-item"
+                onClick={() => scrollTo(item.target)}
+              >
+                {item.label}
+              </button>
+              {i < QUICK_NAV.length - 1 && (
+                <span className="quick-nav-sep">·</span>
+              )}
+            </span>
+          ))}
+        </div>
+      )}
     </nav>
   )
 }

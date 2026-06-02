@@ -1,0 +1,92 @@
+.saffron-page {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+  padding: 72px 48px;
+  background: #fdf6ec;
+}
+
+.saffron-swatch {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(145deg, #fef3d8 0%, #fde8bb 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:
+    0 2px 20px rgba(192, 57, 43, 0.12),
+    inset 0 1px 3px rgba(255,255,255,0.7);
+}
+
+.saffron-text {
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.saffron-title {
+  font-family: 'Caveat', cursive;
+  font-size: 48px;
+  font-weight: 600;
+  color: #b83a1a;
+  margin: 0;
+  letter-spacing: 0.01em;
+  line-height: 1;
+}
+
+.saffron-companion {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-style: italic;
+  color: #c47a35;
+  margin: 0;
+}
+
+.saffron-desc {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  color: #4a2e14;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.saffron-coming {
+  margin: 4px 0 0 18px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.saffron-coming li {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  font-style: italic;
+  color: #8b5e2a;
+  line-height: 1.4;
+}
+
+.saffron-note {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #c4953a;
+  font-style: italic;
+  margin: 8px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid #f0d8a8;
+}
+
+@media (max-width: 680px) {
+  .saffron-page {
+    flex-direction: column;
+    padding: 48px 28px;
+    gap: 32px;
+    text-align: center;
+  }
+  .saffron-coming { align-items: center; list-style: none; margin-left: 0; }
+}
