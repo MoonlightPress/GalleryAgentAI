@@ -16,21 +16,45 @@ export const CAT_LABELS = {
   gallery_event:     'Gallery Event',
 }
 
-const BASE = '/assets/illustrations/'
+const ICONS = '/assets/icons/'
+const ILLUS = '/assets/illustrations/'
 
 const CAT_ILLUS = {
-  gallery:           BASE + 'galleries.svg',
-  gallery_event:     BASE + 'galleries.svg',
-  artist_space:      BASE + 'galleries.svg',
-  event_space:       BASE + 'galleries.svg',
-  cafe_gallery:      BASE + 'cafes.svg',
-  zine_print:        BASE + 'zines_and_print.svg',
-  bookstore_gallery: BASE + 'zines_and_print.svg',
-  bookstore_event:   BASE + 'zines_and_print.svg',
-  fair_popup:        BASE + 'open_calls.svg',
-  institutional:     BASE + 'open_calls.svg',
-  market_event:      BASE + 'open_calls.svg',
-  residency:         BASE + 'watch_list.svg',
+  // ── Galleries & spaces ───────────────────────────────────────────────
+  gallery:                        ICONS + 'icon_gallery.png',
+  gallery_small:                  ICONS + 'icon_gallery_small.png',
+  gallery_event:                  ICONS + 'icon_studio.png',
+  artist_space:                   ICONS + 'icon_artist_space.png',
+  event_space:                    ICONS + 'icon_studio.png',
+  // ── Cafés & bookshops ────────────────────────────────────────────────
+  cafe_gallery:                   ICONS + 'icon_cafe_gallery.png',
+  bookstore_gallery:              ICONS + 'icon_reading_nook.png',
+  bookstore_event:                ICONS + 'icon_bookstore.png',
+  // ── Zines, books & publishing ────────────────────────────────────────
+  zine_print:                     ICONS + 'icon_zines.png',
+  book_publishing:                ICONS + 'icon_zines.png',
+  global_artist_book_platform:    ICONS + 'icon_bookstore.png',
+  global_art_book_fair:           ICONS + 'icon_fair.png',
+  global_book_arts:               ICONS + 'icon_zines.png',
+  zine_shop_consignment:          ICONS + 'icon_bookstore.png',
+  group_publication_open_call:    ICONS + 'icon_submission.png',
+  // ── Fairs & markets ──────────────────────────────────────────────────
+  fair_popup:                     ICONS + 'icon_fair.png',
+  zine_fair_booth:                ICONS + 'icon_fair.png',
+  market_event:                   ICONS + 'icon_art_market.png',
+  // ── Open calls & competitions ────────────────────────────────────────
+  institutional:                  ICONS + 'icon_open_call.png',
+  global_open_call:               ICONS + 'icon_open_call.png',
+  global_watercolor_open_call:    ICONS + 'icon_open_call.png',
+  japan_watercolor_open_call:     ICONS + 'icon_open_call.png',
+  japan_watercolor_institution:   ICONS + 'icon_open_call.png',
+  photo_open_call:                ICONS + 'icon_open_call.png',
+  global_photobook:               ICONS + 'icon_submission.png',
+  // ── Residencies & fellowships ────────────────────────────────────────
+  residency:                      ICONS + 'icon_residency.png',
+  global_residency:               ICONS + 'icon_residency_intl.png',
+  global_grant_fellowship:        ICONS + 'icon_residency_intl.png',
+  residency_beijing:              ICONS + 'icon_residency.png',
 }
 
 const CAT_BG = {
@@ -80,7 +104,7 @@ export default function OppCard({ opp, isOpen, onDetails }) {
   const bg    = CAT_BG[opp.category] || '#f0e8d8'
 
   const imgSrc = opp._section === 'immediate_best_moves'
-    ? BASE + 'immediate_best_moves.svg'
+    ? ILLUS + 'immediate_best_moves.svg'
     : illus
 
   function handleFeedback(actionId) {
