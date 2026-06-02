@@ -10,10 +10,14 @@ try:
 except Exception:
     pass
 
-BUCKET_PATH = "memory/exclusive_strategy_buckets.json"
-DEPLOY_PATH = "deploy_data/compact_opportunities.json"
-SNAPSHOT_PATH = "memory/daily_digest_snapshot.json"
-REPORT_PATH = "reports/daily_digest.md"
+BUCKET_PATH      = "memory/exclusive_strategy_buckets.json"
+DEPLOY_PATH      = "deploy_data/compact_opportunities.json"
+SNAPSHOT_PATH    = "memory/daily_digest_snapshot.json"
+REPORT_PATH      = "reports/daily_digest.md"
+WATCH_PATH       = "memory/next_cycle_watch.json"
+
+URGENT_DAYS      = 3   # deadline within this many days → promote to IBM regardless of bucket
+WATCH_DAYS       = 90  # deadline window for stretch/research watch list
 
 MONTH_MAP = {
     "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
@@ -127,9 +131,9 @@ def main():
         if name:
             deploy_by_name[name.lower()] = o
 
-    ibm = buckets.get("immediate_best_moves", [])
+    ibm     = buckets.get("immediate_best_moves", [])
     stretch = buckets.get("stretch_targets", [])
-    research = buckets.get("research_needed", [])
+    research= buckets.get("research_needed", [])
 
     # Enrich IBM entries with deadline/fee/link from deploy_data
     ibm_enriched = []
@@ -156,6 +160,42 @@ def main():
             "why": (entry.get("why") or "")[:140],
         })
 
+    # Emergency deadline promotion: any item in any non-IBM bucket with a
+    # deadline within URGENT_DAYS days is pulled into IBM regardless of bucket.
+    SKIP_BUCKETS = {"immediate_best_moves", "reject", "low_priority"}
+    ibm_names_lower = {e["name"].lower() for e in ibm_enriched}
+    for bucket_name, entries in buckets.items():
+        if bucket_name in SKIP_BUCKETS or not isinstance(entries, list):
+            continue
+        for entry in entries:
+            name = entry.get("title") or entry.get("name") or ""
+            if not name or name.lower() in ibm_names_lower:
+                continue
+            detail = deploy_by_name.get(name.lower(), {})
+            deadline_raw = detail.get("deadline") or ""
+            if not deadline_raw:
+                continue
+            deadline_date = parse_deadline(deadline_raw)
+            if deadline_date is None:
+                continue
+            delta = (deadline_date - today).days
+            if 0 <= delta <= URGENT_DAYS:
+                bucket_label = bucket_name.replace("_", " ").title()
+                ibm_enriched.append({
+                    "name": name,
+                    "score": entry.get("score"),
+                    "deadline_raw": deadline_raw,
+                    "event_date_raw": detail.get("event_date") or "",
+                    "deadline_date": deadline_date,
+                    "delta": delta,
+                    "fees": detail.get("fees") or "",
+                    "link": detail.get("submission_page") or detail.get("source_url") or entry.get("source") or "",
+                    "action_type": entry.get("action_type", "apply"),
+                    "why": (entry.get("why") or "")[:140],
+                    "promoted_from": bucket_label,
+                })
+                ibm_names_lower.add(name.lower())
+
     # Sort: soonest deadline first, then no-deadline entries by score
     def sort_key(e):
         if e["delta"] is not None:
@@ -164,26 +204,52 @@ def main():
 
     ibm_enriched.sort(key=sort_key)
 
-    # Watch list: items outside IBM with deadlines in the next 90 days
+    # Watch list part 1: stretch/research items with confirmed deadlines ≤90 days
     watch_items = []
+    already_in_ibm = {e["name"].lower() for e in ibm_enriched}
     for bucket_name, entries in [("stretch_targets", stretch), ("research_needed", research)]:
         for entry in entries:
             name = entry.get("title") or entry.get("name") or ""
+            if not name or name.lower() in already_in_ibm:
+                continue
             detail = deploy_by_name.get(name.lower(), {})
             deadline_raw = detail.get("deadline") or ""
             deadline_date = parse_deadline(deadline_raw)
             if deadline_date is None:
                 continue
             delta = (deadline_date - today).days
-            if 0 <= delta <= 90:
+            if 0 <= delta <= WATCH_DAYS:
                 watch_items.append({
                     "name": name,
                     "deadline_raw": deadline_raw,
                     "deadline_date": deadline_date,
                     "delta": delta,
                     "bucket": bucket_name,
+                    "note": "",
                 })
     watch_items.sort(key=lambda x: x["delta"])
+
+    # Watch list part 2: next_cycle_watch.json — closed opportunities to re-check
+    next_cycle_raw = load_json(WATCH_PATH, [])
+    next_cycle_items = []
+    for item in next_cycle_raw:
+        name = item.get("title") or ""
+        check_str = item.get("next_cycle_check") or ""
+        if not name or not check_str:
+            continue
+        try:
+            check_date = date.fromisoformat(check_str)
+        except ValueError:
+            continue
+        delta = (check_date - today).days
+        next_cycle_items.append({
+            "name": name,
+            "check_date": check_date,
+            "delta": delta,
+            "cycle_note": item.get("cycle_note") or "",
+            "source_url": item.get("source_url") or "",
+        })
+    next_cycle_items.sort(key=lambda x: x["delta"])
 
     # Diff against previous snapshot
     curr_ibm_names = [e["name"] for e in ibm_enriched]
@@ -258,13 +324,17 @@ def main():
             lines.append(f"- **Fee:** {e['fees']}")
         if e["link"]:
             lines.append(f"- **Link:** {e['link']}")
+        if e.get("promoted_from"):
+            lines.append(f"- _⚠ Deadline-promoted from {e['promoted_from']} — {e['delta']}d remaining_")
         if e["why"]:
             lines.append(f"- _{e['why']}_")
         lines.append("")
 
     # Watch list
-    lines += ["## Watch List — Deadlines Within 90 Days", ""]
+    lines += ["## Watch List", ""]
     if watch_items:
+        lines.append("### Confirmed Deadlines Within 90 Days")
+        lines.append("")
         for w in watch_items:
             delta = w["delta"]
             bucket_label = "Stretch" if w["bucket"] == "stretch_targets" else "Research"
@@ -272,9 +342,20 @@ def main():
                 f"- **{w['name']}** — {w['deadline_raw']} "
                 f"({delta}d) [{bucket_label}]"
             )
+        lines.append("")
     else:
         lines.append("_No items outside IBM with confirmed deadlines in the next 90 days._")
-    lines.append("")
+        lines.append("")
+
+    if next_cycle_items:
+        lines.append("### Next Cycle — Check Dates")
+        lines.append("")
+        for nc in next_cycle_items:
+            delta_label = f"{nc['delta']}d" if nc["delta"] >= 0 else f"PAST ({abs(nc['delta'])}d ago)"
+            lines.append(f"- **{nc['name']}** — check by {nc['check_date'].strftime('%Y-%m-%d')} ({delta_label})")
+            if nc["cycle_note"]:
+                lines.append(f"  - _{nc['cycle_note']}_")
+        lines.append("")
 
     # Write outputs
     Path("reports").mkdir(exist_ok=True)
