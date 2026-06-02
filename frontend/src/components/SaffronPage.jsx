@@ -2,22 +2,35 @@ import { useState, useEffect } from 'react'
 import './SaffronPage.css'
 import { saffronHero } from '../utils/heroImages'
 
-function SectionHeader({ title, subtitle }) {
+function SectionShell({ title, subtitle, summary, defaultOpen = false, children }) {
+  const [open, setOpen] = useState(defaultOpen)
   return (
-    <div className="sf-section-header">
-      <h2 className="sf-section-title">{title}</h2>
-      {subtitle && <p className="sf-section-subtitle">{subtitle}</p>}
-    </div>
+    <section className={`sf-section${open ? '' : ' sf-section--closed'}`}>
+      <button className="sf-toggle-header" onClick={() => setOpen(o => !o)}>
+        <div className="sf-toggle-text">
+          <h2 className="sf-section-title">{title}</h2>
+          {open
+            ? subtitle && <p className="sf-section-subtitle">{subtitle}</p>
+            : summary  && <p className="sf-section-summary">{summary}</p>
+          }
+        </div>
+        <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
+      </button>
+      {open && <div className="sf-section-body">{children}</div>}
+    </section>
   )
 }
 
 function CareerPosition({ data }) {
+  const ig = data.social.find(s => s.platform === 'Instagram')
+  const summary = `${data.exhibitions.length} exhibition · ${data.publications.length} publications · Instagram ${ig?.followers ?? '—'} · ${data.base}`
   return (
-    <section className="sf-section sf-career">
-      <SectionHeader
-        title="Career Position"
-        subtitle="Where she actually is right now — confirmed facts only."
-      />
+    <SectionShell
+      title="Career Position"
+      subtitle="Where she actually is right now — confirmed facts only."
+      summary={summary}
+      defaultOpen={true}
+    >
       <div className="sf-career-grid">
 
         <div className="sf-career-block">
@@ -76,7 +89,7 @@ function CareerPosition({ data }) {
         </div>
 
       </div>
-    </section>
+    </SectionShell>
   )
 }
 
@@ -84,13 +97,14 @@ function MarketLandscape({ data }) {
   const maxCat = Math.max(...data.category_breakdown.map(c => c.count), 1)
   const geoTotal = data.tokyo_vs_international.tokyo + data.tokyo_vs_international.international
   const tokyoPct = Math.round((data.tokyo_vs_international.tokyo / geoTotal) * 100)
+  const summary = `${data.total} opportunities — ${data.tokyo_vs_international.tokyo} Tokyo / Japan, ${data.tokyo_vs_international.international} international`
 
   return (
-    <section className="sf-section sf-market">
-      <SectionHeader
-        title="Market Landscape"
-        subtitle={`${data.total} opportunities in the current pipeline.`}
-      />
+    <SectionShell
+      title="Market Landscape"
+      subtitle={`${data.total} opportunities in the current pipeline.`}
+      summary={summary}
+    >
       <div className="sf-market-grid">
 
         <div className="sf-market-block">
@@ -138,18 +152,19 @@ function MarketLandscape({ data }) {
         </div>
 
       </div>
-    </section>
+    </SectionShell>
   )
 }
 
 function ComparableArtists({ artists }) {
   const top = artists.slice(0, 4)
+  const summary = `${top.length} artists working in adjacent territory — orientation points, not direct comparisons`
   return (
-    <section className="sf-section sf-peers">
-      <SectionHeader
-        title="Comparable Artists"
-        subtitle="Artists working in adjacent territory — orientation points, not direct comparisons."
-      />
+    <SectionShell
+      title="Comparable Artists"
+      subtitle="Artists working in adjacent territory — orientation points, not direct comparisons."
+      summary={summary}
+    >
       <p className="sf-peers-caveat">
         The pipeline finds peers by thematic and formal overlap. Most here are photographers —
         an artifact of shared subjects (quiet observation, memory, domestic space), not a category error.
@@ -170,18 +185,19 @@ function ComparableArtists({ artists }) {
           </div>
         ))}
       </div>
-    </section>
+    </SectionShell>
   )
 }
 
 function StrategicPathway({ data }) {
+  const done = data.steps.filter(s => s.done).length
+  const summary = `${data.goal} · ${done} of ${data.steps.length} steps complete`
   return (
-    <section className="sf-section sf-pathway">
-      <SectionHeader
-        title={`Pathway: ${data.goal}`}
-        subtitle={`Estimated timeline: ${data.timeline_estimate}`}
-      />
-
+    <SectionShell
+      title={`Pathway: ${data.goal}`}
+      subtitle={`Estimated timeline: ${data.timeline_estimate}`}
+      summary={summary}
+    >
       <div className="sf-steps">
         {data.steps.map((step) => (
           <div
@@ -208,7 +224,7 @@ function StrategicPathway({ data }) {
         <div className="sf-callout-label">Single most important next move</div>
         <p className="sf-callout-text">{data.next_move}</p>
       </div>
-    </section>
+    </SectionShell>
   )
 }
 
