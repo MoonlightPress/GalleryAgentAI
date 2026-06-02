@@ -522,3 +522,67 @@ is the right thing to revisit. The test is whether the page feels inhabited.
 The watercolor version should clear that bar. If it does not, come back to this.
 
 ─────────────────────────────────────────────────────────────────────
+
+ADDENDUM: SAFFRON INTENDED FINAL VISUAL STYLE — CLEAN VECTOR
+
+Unlike the Peppercorn cartoon concept, which is an alternative to consider later,
+the vector direction for Saffron is the intended final style. This is not a
+"maybe." It is a "not yet."
+
+The concept: clean vector illustration, editorial in feel, flat warm colors built
+from geometric forms. Sophisticated and somewhat abstract — closer to a well-art-
+directed magazine spread than to the warm painterly atelier of Mochi's page.
+Saffron herself as an elegant vector silhouette: precise, composed, high above
+everything, looking out. The page feels like a well-designed annual report made
+by someone with genuine taste — structured, clear, unhurried.
+
+Data visualizations on this page are native to the aesthetic, not clinical
+intrusions. A category breakdown does not look like a default Chart.js bar chart
+dropped into a warm interface and hoping nobody notices. It looks like it was
+drawn by the same hand that drew Saffron. Flat geometric forms, warm palette,
+information that reads as designed rather than generated. The difference matters
+because Saffron's page is the most data-heavy of the three, and data that looks
+out of place makes the whole page feel unstable.
+
+WHY THIS DIVERGES FROM MOCHI
+
+Mochi's page is an atelier. It is warm, painterly, domestic — the artist arrives
+and things are prepared. That aesthetic is correct for a page whose emotional
+register is safety and readiness. It would be wrong for Saffron.
+
+Saffron is the observatory. She perches above the landscape. Her page should feel
+like altitude — clear air, wide view, clean geometry. The warmth is still present
+in the palette (this is not a cold minimal tech aesthetic), but the visual
+language shifts from brushstroke to vector, from domestic to elevated. The shift
+is intentional. Each companion page should feel distinct, not like three tabs of
+the same interface.
+
+The watercolor placeholder currently on Saffron's page is correct for now. It
+establishes the space. It is not the final answer.
+
+WHAT SAFFRON THE SILHOUETTE LOOKS LIKE
+
+A vector bird silhouette, not a detailed illustration. The silhouette is
+immediately recognizable as a bird — the posture of a perched raptor or large
+songbird, head turned slightly, alert — but rendered in clean flat geometry
+rather than illustrated feathers. Warm red or amber, the colors established in
+Bible Entry 08. The silhouette is large enough to be a presence on the page, not
+a logo tucked into a corner.
+
+The data visualizations, the three intelligence layers, and the silhouette share
+the same visual vocabulary. Geometric, flat, warm, editorial. Nothing on this
+page should look like it came from a charting library or a UI component kit
+without modification.
+
+PRIORITY
+
+Current priority is content, not styling. Saffron's three intelligence layers —
+Market Intelligence, Artist Intelligence, Strategic Pathways — do not exist in
+code yet. Building them is the work. The vector visual treatment is the final
+layer, applied after the content is real and the page is alive with actual data.
+
+The sequence: build the content first, style it last. Do not let the styling
+ambition block the content work, and do not let the placeholder styling become
+permanent through inertia.
+
+─────────────────────────────────────────────────────────────────────
