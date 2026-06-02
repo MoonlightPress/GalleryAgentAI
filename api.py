@@ -5,7 +5,7 @@ import hashlib
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -992,6 +992,58 @@ def get_saffron():
         "venue_tracker":         venue_tracker,
         "open_questions":        open_questions,
     }
+
+
+@app.get("/api/peppercorn")
+def get_peppercorn():
+    ppath = DATA_DIR / "peppercorn_profile.json"
+    if ppath.exists():
+        return json.loads(ppath.read_text(encoding="utf-8"))
+    # Build defaults from artist_master_profile
+    mpath = DATA_DIR / "artist_master_profile.json"
+    master = json.loads(mpath.read_text(encoding="utf-8")) if mpath.exists() else {}
+    vp = master.get("visual_profile", {})
+    return {
+        "last_updated": None,
+        "priorities": {
+            "active_tiers": [1, 2],
+            "primary_track": "hybrid",
+            "avoid": [],
+        },
+        "artist_statement": (
+            "My work is about stillness as subject — the atmosphere of ordinary places, "
+            "interior light and the texture of daily life. "
+            "I return to memory held in domestic space, to the city seen through quiet attention. "
+            "Watercolor as a medium of slow observation. "
+            "Cross-cultural seeing: a Chinese artist in Tokyo."
+        ),
+        "goals": [],
+        "preferences": {
+            "geo_focus": ["tokyo", "international"],
+            "fee_tolerance": "low",
+            "surface_more": ["zines_books", "open_calls"],
+            "surface_less": [],
+        },
+        "saffron_answers": {
+            "posting_frequency":       None,
+            "audience_geography":      None,
+            "has_sold_work":           None,
+            "new_publication_planned": None,
+            "has_artist_statement":    None,
+            "tide_china_contact":      None,
+            "second_exhibition_planned": None,
+            "price_points":            None,
+        },
+    }
+
+
+@app.post("/api/peppercorn")
+async def save_peppercorn(request: Request):
+    payload = await request.json()
+    payload["last_updated"] = datetime.now(timezone.utc).isoformat()
+    ppath = DATA_DIR / "peppercorn_profile.json"
+    ppath.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "last_updated": payload["last_updated"]}
 
 
 @app.get("/api/health")
