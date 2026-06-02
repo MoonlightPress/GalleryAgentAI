@@ -1,3 +1,4 @@
+import re
 import sys
 import json
 import hashlib
@@ -515,11 +516,481 @@ def get_saffron():
         "next_move": "Apply for a second group show at a Tokyo artist-run space. 3331 Arts Chiyoda open calls, Design Festa Gallery curated shows, and Gallery IYN open submissions are the realistic near-term entries. Any of these, confirmed and attended, advances the pathway.",
     }
 
+    # ── Instagram strategy ────────────────────────────────────────────────────
+    instagram_strategy = {
+        "platforms": [
+            {
+                "name": "Twitter / X",
+                "handle": "@GegYjiji",
+                "followers": "~90k",
+                "posts": None,
+                "note": "4× larger than Instagram — illustration community following built through daily diary practice since 2020",
+            },
+            {
+                "name": "Instagram",
+                "handle": "@gegyjiji",
+                "followers": "21k",
+                "posts": 35,
+                "note": "Primary visual portfolio platform — significantly underdeveloped relative to Twitter presence",
+            },
+        ],
+        "gap": {
+            "twitter": 90000,
+            "instagram": 21000,
+            "analysis": "Instagram is the platform galleries, publishers, and curators actually use for discovery. The 4× gap is not about reach — it's about platform-native strategy. The audience exists. The Instagram presence doesn't reflect it yet.",
+        },
+        "known": {
+            "content_type": "Urban environments, cats, domestic life, travel fragments — high-performing Instagram subject matter",
+            "diary_practice": "Daily watercolor sketches since 2020. Content exists; the question is posting cadence and curation, not production.",
+        },
+        "missing": [
+            {
+                "field": "Posting frequency",
+                "reason": "Cannot be observed from public data. Peppercorn needs to ask: how often does she post to Instagram?",
+            },
+            {
+                "field": "Engagement rate",
+                "reason": "Likes and comments are visible but unreliable without knowing reach. Peppercorn should ask for Insights access or a screenshot.",
+            },
+            {
+                "field": "Posting goals",
+                "reason": "Does she want to grow Instagram, or is it a portfolio archive? The strategy changes entirely depending on the answer.",
+            },
+        ],
+    }
+
+    # ── Audience geography ────────────────────────────────────────────────────
+    audience_geography = {
+        "available": False,
+        "reason": "Instagram Insights and Twitter Analytics are not accessible without the artist's credentials. Geographic audience data cannot be observed from public sources.",
+        "why_it_matters": "Whether her 90k+ following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.",
+        "hypothesis": "Based on the ACG/illustration community context and parallel Weibo presence, the Twitter following likely skews toward Chinese-language users. Instagram may be more globally distributed. This is unconfirmed.",
+        "what_peppercorn_should_ask": "Can you share a screenshot of your Instagram Audience Insights (country/city breakdown) and Twitter Analytics follower demographics?",
+    }
+
+    # ── Career benchmarks ─────────────────────────────────────────────────────
+    career_benchmarks = {
+        "artist_record": {
+            "exhibitions": 1,
+            "publications": 2,
+            "instagram": "21k",
+            "twitter": "~90k",
+            "age_approx": 26,
+            "years_active": "~6 (daily practice from 2020, first publication 2021)",
+        },
+        "peer_range": [
+            {
+                "dimension": "Group exhibitions",
+                "artist_value": "1 confirmed",
+                "peer_low": 1,
+                "peer_typical": "3–5",
+                "peer_high": "8+",
+                "assessment": "below_typical",
+                "note": "Expected at this stage — but the gap needs closing before gallery conversations are realistic",
+            },
+            {
+                "dimension": "Publications",
+                "artist_value": "2 (1 solo, 1 group)",
+                "peer_low": 1,
+                "peer_typical": "1–3",
+                "peer_high": "5+",
+                "assessment": "on_track",
+                "note": "Solid for this stage, especially with a solo collection at 21",
+            },
+            {
+                "dimension": "Instagram followers",
+                "artist_value": "21k",
+                "peer_low": "5k",
+                "peer_typical": "15–50k",
+                "peer_high": "100k+",
+                "assessment": "on_track",
+                "note": "Mid-range for illustrators 3 years into practice",
+            },
+            {
+                "dimension": "Twitter / X followers",
+                "artist_value": "~90k",
+                "peer_low": "2k",
+                "peer_typical": "10–30k",
+                "peer_high": "50k+",
+                "assessment": "strong",
+                "note": "Top percentile for this career stage — an unusually strong asset",
+            },
+        ],
+        "summary": "Exhibition history is the weakest dimension. Social presence (especially Twitter) is a genuine asset. The gap between audience size and exhibition count is larger than typical — the audience exists, the CV is still thin.",
+    }
+
+    # ── Seasonal opportunity calendar ─────────────────────────────────────────
+    MONTH_NAMES = [
+        "January","February","March","April","May","June",
+        "July","August","September","October","November","December",
+    ]
+
+    def _parse_month(dl_str):
+        if not dl_str:
+            return None
+        for m in MONTH_NAMES:
+            if m.lower() in dl_str.lower():
+                return m
+        return None
+
+    monthly: dict[str, list] = {m: [] for m in MONTH_NAMES}
+    rolling_opps = []
+    unknown_dl_count = 0
+
+    for opp in opps:
+        dl = (opp.get("deadline") or "").strip()
+        if re.search(r"rolling|ongoing|open|anytime", dl, re.IGNORECASE):
+            rolling_opps.append({
+                "name": opp.get("name", ""),
+                "category": opp.get("category_label", ""),
+            })
+            continue
+        month = _parse_month(dl)
+        if month:
+            monthly[month].append({
+                "name": opp.get("name", ""),
+                "deadline": dl,
+                "category": opp.get("category_label", ""),
+            })
+        else:
+            unknown_dl_count += 1
+
+    calendar_months = [
+        {"month": m, "opportunities": monthly[m]}
+        for m in MONTH_NAMES
+        if monthly[m]
+    ]
+
+    seasonal_calendar = {
+        "months": calendar_months,
+        "rolling": rolling_opps,
+        "unknown_deadline_count": unknown_dl_count,
+        "total_opportunities": len(opps),
+        "coverage_note": f"{unknown_dl_count} of {len(opps)} opportunities have no confirmed deadline — the calendar is partial and reflects only verified dates.",
+        "preparation_lead_times": {
+            "open_calls": "2–4 weeks before deadline for portfolio selection and statement",
+            "residencies": "4–8 weeks for full application (proposal, references, CV)",
+            "book_fairs": "2–3 months for production of zines or publications to sell",
+            "gallery_submissions": "Varies — research the specific venue's submission window first",
+        },
+    }
+
+    # ── Press & features ──────────────────────────────────────────────────────
+    press_features = {
+        "confirmed": [
+            {
+                "outlet": "Bored Panda",
+                "type": "Work feature",
+                "url": "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji/",
+                "note": "Visual feature of watercolor work — large general audience, no biographical depth",
+            },
+            {
+                "outlet": "Bored Panda",
+                "type": "Work feature (part 2)",
+                "url": "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji-part-2/",
+                "note": "Follow-up feature of the same body of work",
+            },
+        ],
+        "art_press": {
+            "available": False,
+            "reason": "No features found in art-specific publications. Bored Panda reaches a general audience; art press — Bijutsu Techo, Pen Magazine, It's Nice That — is a different circuit.",
+        },
+        "japan_coverage": {
+            "available": False,
+            "reason": "No confirmed features in Japanese-language media. Coverage in Japanese art and design media would meaningfully support gallery and venue relationships in Tokyo.",
+        },
+        "pitch_targets": [
+            {"outlet": "Bijutsu Techo (美術手帖)", "why": "Japan's most significant contemporary art publication"},
+            {"outlet": "Pen Magazine", "why": "Design and art, illustration-friendly, Tokyo readership"},
+            {"outlet": "It's Nice That", "why": "Primary English-language illustrator discovery platform globally"},
+            {"outlet": "Apartamento", "why": "Domestic interiors and everyday life — directly aligned with her subject matter"},
+            {"outlet": "BOOOOOOOM", "why": "Large illustration/photography community; annual book prize she could enter"},
+        ],
+    }
+
+    # ── Collector ecosystem ───────────────────────────────────────────────────
+    collector_ecosystem = {
+        "available": False,
+        "reason": "The pipeline tracks opportunities and venues, not buyers. No collector-specific data exists in the system.",
+        "why_it_matters": "Knowing who buys illustration and watercolor work at her price point determines which fairs, platforms, and venues are commercially worthwhile — not just aesthetically aligned.",
+        "fairs_in_pipeline": [
+            "Tokyo Art Book Fair",
+            "Design Festa",
+            "Comitia",
+            "HandMade In Japan Fes",
+            "ZINEフェス東京",
+        ],
+        "known_gap": "No data on what price points, formats (print vs. original), or collector profiles actually convert at these events.",
+        "what_peppercorn_should_ask": "Has she sold work? At what price points? Through which channels? Which formats (prints, originals, zines) have sold vs. remained unsold?",
+    }
+
+    # ── Collaboration map ─────────────────────────────────────────────────────
+    collaboration_map = {
+        "known_co_exhibitors": [
+            {"name": "富大貴",            "context": "Tide from China Part 1, Tokyo 2023", "current_status": "unknown"},
+            {"name": "邦乔彦 (Bang Joy)", "context": "Tide from China Part 1, Tokyo 2023", "current_status": "unknown"},
+            {"name": "TUOER",            "context": "Tide from China Part 1, Tokyo 2023", "current_status": "unknown"},
+            {"name": "HJL",              "context": "Tide from China Part 1, Tokyo 2023", "current_status": "unknown"},
+            {"name": "Doakmoon",         "context": "Tide from China Part 1, Tokyo 2023", "current_status": "unknown"},
+        ],
+        "peer_network": {
+            "available": False,
+            "reason": "No Tokyo-based peer artist data in the pipeline. The system tracks venues and open calls, not individual artists.",
+            "why_it_matters": "Group show invitations at artist-run spaces typically come from peer networks, not cold submissions. 3–5 Tokyo-based illustrators at a similar stage are the most direct path to group show opportunities.",
+        },
+        "note": "The 5 co-exhibitors from Tide from China are the strongest existing collaboration seeds. Their current Tokyo presence and active practice is unconfirmed — Peppercorn should ask whether she's stayed in contact with any of them.",
+    }
+
+    # ── Geographic expansion ──────────────────────────────────────────────────
+    country_counts: Counter = Counter()
+    for opp in opps:
+        c = (opp.get("country") or "").strip()
+        if c and c.lower() not in ("unknown", ""):
+            country_counts[c] += 1
+
+    uk_count  = sum(v for k, v in country_counts.items() if "uk" in k.lower() or "france" in k.lower() or "germany" in k.lower() or "netherlands" in k.lower())
+    us_count  = sum(v for k, v in country_counts.items() if "usa" in k.lower() or "canada" in k.lower() or "us /" in k.lower())
+    jp_count  = sum(v for k, v in country_counts.items() if k.lower() in ("japan", "tokyo", "yokohama"))
+    global_ct = country_counts.get("Global", 0)
+
+    geographic_expansion = {
+        "current_base": "Tokyo, Japan / Beijing, China",
+        "pipeline_by_country": [
+            {"country": k, "count": v}
+            for k, v in sorted(country_counts.items(), key=lambda x: x[1], reverse=True)
+            if k not in ("unknown",)
+        ],
+        "regions": [
+            {
+                "name": "Japan / Tokyo",
+                "pipeline_count": jp_count,
+                "status": "primary_base",
+                "note": "Core operating territory. The question here is depth, not entry.",
+                "entry_point": None,
+            },
+            {
+                "name": "Europe (UK, France, etc.)",
+                "pipeline_count": uk_count,
+                "status": "medium_term",
+                "note": "Strong art book and zine fair ecosystem — Offprint Paris and London are the natural entry points.",
+                "entry_point": "Offprint Paris or London — low barrier, direct access to European curators and collectors who buy artist books",
+            },
+            {
+                "name": "North America",
+                "pipeline_count": us_count,
+                "status": "medium_term",
+                "note": "NYC zine culture (Printed Matter) and LA illustration scene. Already in pipeline.",
+                "entry_point": "Printed Matter NY Art Book Fair — the highest-profile artist book platform in North America",
+            },
+            {
+                "name": "Global / International (open calls)",
+                "pipeline_count": global_ct,
+                "status": "active",
+                "note": "International open calls and online platforms that accept globally. Actionable now without travel.",
+                "entry_point": None,
+            },
+        ],
+    }
+
+    # ── Publication landscape ─────────────────────────────────────────────────
+    PUB_CATS = {
+        "book_publishing", "zine_print", "bookstore_gallery", "global_artist_book_platform",
+        "global_art_book_fair", "zine_shop_consignment", "group_publication_open_call",
+        "global_book_arts",
+    }
+    pub_opps = [o for o in opps if o.get("category", "") in PUB_CATS]
+    top_pub_opps = sorted(pub_opps, key=lambda x: x.get("watercolor_adjusted_score", 0), reverse=True)[:10]
+    pub_sample = [
+        {
+            "name": o.get("name", ""),
+            "category": o.get("category_label", ""),
+            "country": o.get("country", ""),
+            "score": round(o.get("watercolor_adjusted_score", 0), 1),
+        }
+        for o in top_pub_opps
+    ]
+
+    publication_landscape = {
+        "artist_publications": [
+            {
+                "title": "Colour Diary (色彩日記)",
+                "year": "2021",
+                "type": "Solo illustration collection",
+                "note": "First solo published work, grew from daily diary practice",
+            },
+            {
+                "title": "defined Definition 02: A Documented Journey",
+                "year": "unknown",
+                "type": "Group publication, contributor",
+                "note": "Participation confirmed, publication details unverified",
+            },
+        ],
+        "pipeline_count": len(pub_opps),
+        "top_targets": pub_sample,
+        "tiers": [
+            {
+                "tier": "Self-publish / zine",
+                "barrier": "low",
+                "examples": ["Tacoche", "Dig A Hole Zines", "MOUNT ZINE", "ZINEフェス東京"],
+                "note": "Tokyo zine culture is active and illustrator-friendly. Fastest route to a new publication credit.",
+            },
+            {
+                "tier": "Bookshop gallery",
+                "barrier": "medium",
+                "examples": ["UTRECHT", "Book and Sons", "flotsam books", "日記屋 月日"],
+                "note": "Accept work from illustrators without gallery representation. Bridges publication and gallery worlds.",
+            },
+            {
+                "tier": "Art book fairs",
+                "barrier": "medium",
+                "examples": ["Tokyo Art Book Fair", "Fukuoka Art Book Fair", "Offprint"],
+                "note": "Table fees required but direct access to collectors and curators who buy artist books.",
+            },
+            {
+                "tier": "Major publishers",
+                "barrier": "high",
+                "examples": ["torch press", "twelvebooks", "Clavis Publishing"],
+                "note": "Relationship-first. Cold submissions rarely land at this level — build toward these over 2–3 years.",
+            },
+        ],
+    }
+
+    # ── Long-term scenarios ───────────────────────────────────────────────────
+    long_term_scenarios = {
+        "horizon": "Age 30 (approximately 4 years from now)",
+        "scenarios": [
+            {
+                "name": "Gallery Track",
+                "tagline": "Primary identity as a gallery artist.",
+                "description": "Solo shows, institutional open calls, gallery representation by 30.",
+                "requires_now": [
+                    "3–5 Tokyo group shows by 2027 — artist-run spaces first (3331, Design Festa Gallery, Gallery IYN)",
+                    "One institutional open call (TOKAS, Youkobo, BankART) by 2028",
+                    "Consistent gallery attendance — build relationships before cold submissions",
+                    "Artist statement developed and refined",
+                ],
+                "probability": "moderate",
+                "bottleneck": "Exhibition history is thin. 2–3 more group shows are required before any gallery will discuss a solo show.",
+                "best_fit_signal": "Right if she's primarily motivated by the physical exhibition experience and gallery community.",
+            },
+            {
+                "name": "Publication Track",
+                "tagline": "Primary identity as an illustrator and artist-book maker.",
+                "description": "Second solo book, international distribution, major book fairs by 30.",
+                "requires_now": [
+                    "New self-published zine or small book within 12 months — the daily diary content already exists",
+                    "Table at Tokyo Art Book Fair 2026 or 2027",
+                    "Submission to Offprint or NY Art Book Fair by 2028",
+                    "Publisher relationship with torch press or equivalent — start with introduction, not submission",
+                ],
+                "probability": "high",
+                "bottleneck": "No new publication since 2021. The content exists — it needs packaging.",
+                "best_fit_signal": "Right if she's motivated by the book as object and the publishing community. Her formation already points here.",
+            },
+            {
+                "name": "Hybrid Track",
+                "tagline": "Artist-publisher: books and gallery shows running in parallel.",
+                "description": "The book practice feeds the gallery presence and vice versa. Bookshop gallery shows bridge both worlds.",
+                "requires_now": [
+                    "All Publication Track steps",
+                    "2–3 Tokyo group shows in parallel",
+                    "Bookshop gallery show as the bridge (UTRECHT or Book and Sons) — satisfies both tracks simultaneously",
+                ],
+                "probability": "high",
+                "bottleneck": "Requires more energy and time management than either single track.",
+                "best_fit_signal": "The most natural fit given her existing practice. The daily diary is simultaneously publication material and gallery-worthy work.",
+            },
+        ],
+        "saffron_view": "The Hybrid Track is the best structural fit. The bookshop gallery show is the single highest-leverage action — it advances both tracks with one move.",
+    }
+
+    # ── Venue relationship tracker ────────────────────────────────────────────
+    crm_path = DATA_DIR / "contact_memory.json"
+    crm_raw  = json.loads(crm_path.read_text(encoding="utf-8")) if crm_path.exists() else {}
+    crm_list = crm_raw.get("contacts", []) if isinstance(crm_raw, dict) else crm_raw
+
+    venue_tracker = {
+        "tracked": [
+            {
+                "name":           c.get("name", ""),
+                "type":           c.get("type", ""),
+                "city":           c.get("city", ""),
+                "status":         c.get("status", ""),
+                "last_contacted": c.get("last_contacted"),
+                "priority":       (c.get("crm_analysis") or {}).get("priority", ""),
+                "next_action":    (c.get("crm_analysis") or {}).get("next_action", ""),
+            }
+            for c in crm_list
+        ],
+        "total": len(crm_list),
+        "gap_note": "Only 1 venue tracked. A working relationship map needs 15–20 entries — galleries, bookshops, cafés, and artist spaces. Each group show, fair, and bookshop visit is a relationship seed that should land here." if len(crm_list) < 5 else None,
+    }
+
+    # ── Open questions ────────────────────────────────────────────────────────
+    open_questions = {
+        "questions": [
+            {
+                "question": "What is her current Instagram posting frequency?",
+                "why_it_matters": "Cadence is the most controllable variable for growing the platform gap. Without knowing current frequency, no posting strategy can be recommended.",
+                "routed_to": "Peppercorn",
+            },
+            {
+                "question": "Where is her audience located geographically?",
+                "why_it_matters": "A primarily Chinese-language following changes the geographic expansion strategy entirely — it suggests China reentry before European expansion.",
+                "routed_to": "Peppercorn",
+            },
+            {
+                "question": "Has she sold work, and through which channels?",
+                "why_it_matters": "Sales history reveals which formats and price points convert — this shapes which fairs and platforms are worth prioritising.",
+                "routed_to": "Peppercorn",
+            },
+            {
+                "question": "Is a new publication or zine in progress?",
+                "why_it_matters": "If she's already planning one, the system should support it — not recommend it as a new idea.",
+                "routed_to": "Peppercorn",
+            },
+            {
+                "question": "Does she have a current artist statement in any language?",
+                "why_it_matters": "Most open calls and gallery submissions require one. If none exists, this is the most urgent gap before any submissions.",
+                "routed_to": "Peppercorn",
+            },
+            {
+                "question": "Is she still in contact with her Tide from China co-exhibitors?",
+                "why_it_matters": "If those 5 artists are Tokyo-based and active, they are the most natural group show partners. If they've dispersed, that network is dormant.",
+                "routed_to": "Peppercorn",
+            },
+            {
+                "question": "Does she have a second Japan exhibition in progress?",
+                "why_it_matters": "The system assumes she needs 2–3 more group shows, but she may already have one underway that hasn't been reported.",
+                "routed_to": "Peppercorn",
+            },
+            {
+                "question": "What price points does she use for originals and prints?",
+                "why_it_matters": "Pricing determines which collector tier and which fairs are appropriate. Under-pricing is common at this stage and affects how galleries perceive the work.",
+                "routed_to": "Peppercorn",
+            },
+        ],
+        "count": 8,
+        "note": "These cannot be answered by observation — only by asking directly. They are flagged for Peppercorn.",
+    }
+
     return {
-        "career_position": career_position,
-        "market_landscape": market_landscape,
-        "peer_artists": peer_artists,
-        "pathway": pathway,
+        "career_position":       career_position,
+        "market_landscape":      market_landscape,
+        "peer_artists":          peer_artists,
+        "pathway":               pathway,
+        "instagram_strategy":    instagram_strategy,
+        "audience_geography":    audience_geography,
+        "career_benchmarks":     career_benchmarks,
+        "seasonal_calendar":     seasonal_calendar,
+        "press_features":        press_features,
+        "collector_ecosystem":   collector_ecosystem,
+        "collaboration_map":     collaboration_map,
+        "geographic_expansion":  geographic_expansion,
+        "publication_landscape": publication_landscape,
+        "long_term_scenarios":   long_term_scenarios,
+        "venue_tracker":         venue_tracker,
+        "open_questions":        open_questions,
     }
 
 
