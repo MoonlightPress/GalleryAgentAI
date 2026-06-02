@@ -29,7 +29,16 @@ def main():
         print("artist_visual_profile_template.json is still blank. Fill it after image analysis.")
         return
 
-    master["visual_profile"] = visual
+    # Merge template into existing visual_profile rather than replacing it.
+    # Fields listed in PROTECTED are manually curated and must never be
+    # overwritten by a pipeline regeneration.
+    PROTECTED = {"education", "opportunity_weighting", "current_city", "summary"}
+    existing_vp = master.get("visual_profile", {})
+    merged_vp = {**existing_vp, **visual}
+    for key in PROTECTED:
+        if key in existing_vp:
+            merged_vp[key] = existing_vp[key]
+    master["visual_profile"] = merged_vp
 
     # Merge useful fields into existing profile.
     for key in ["emotional_tone", "curatorial_keywords", "best_formats"]:

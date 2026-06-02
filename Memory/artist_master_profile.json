@@ -283,7 +283,13 @@
         "dates": "February 4–13, 2023",
         "organizer": "Company ACG (株式会社ACG) / RainForest Publishing",
         "significance": "First exhibition in Japan (stated explicitly in exhibition materials)",
-        "co_exhibitors": ["富大貴", "邦乔彦 (Bang Joy)", "TUOER", "HJL", "Doakmoon"],
+        "co_exhibitors": [
+          "富大貴",
+          "邦乔彦 (Bang Joy)",
+          "TUOER",
+          "HJL",
+          "Doakmoon"
+        ],
         "admission": "free",
         "confidence": "confirmed",
         "source": "https://www.acgateway.com/ex_tide1/"
