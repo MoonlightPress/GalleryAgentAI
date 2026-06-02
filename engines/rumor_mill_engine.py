@@ -2,8 +2,10 @@
 Rumor Mill Engine — Needs Research processor.
 
 For each opportunity in the needs_research bucket:
-  - Searches community and official sources for missing factual data:
+  - Searches English, Japanese, and Chinese sources for missing factual data:
     deadline, entry fee, contact email, submission URL
+  - Japanese sources: x.com/twitter.com (締切/公募/展示), note.com (公募/締切/展覧会)
+  - Chinese sources: weibo.com, lofter.com, zcool.com.cn (截止日期/申请/展览)
   - If any data found: populates fields, moves opportunity to the appropriate bucket
   - If nothing found: logs "searched YYYY-MM-DD, no data found", leaves in place
 
@@ -88,9 +90,16 @@ def build_queries(item: dict) -> list[tuple[str, list[str]]]:
     t = f'"{title}"'
 
     queries = [
+        # English — factual data
         (f"{t} deadline submission 2025 2026",       []),
         (f"{t} apply entry fee cost",                []),
         (f"{t} contact email submissions open call", []),
+        # Japanese — X / Twitter
+        (f"{t} 締切 公募 展示 申し込み",               ["x.com", "twitter.com"]),
+        # Japanese — note.com
+        (f"{t} 公募 締切 展覧会",                      ["note.com"]),
+        # Chinese — Weibo / Lofter / zcool
+        (f"{t} 截止日期 申请 展览",                    ["weibo.com", "lofter.com", "zcool.com.cn"]),
     ]
 
     if source:
