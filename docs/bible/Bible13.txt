@@ -1,0 +1,301 @@
+THE DESK METAPHOR
+Bible Entry 13 — Written 2026-06-02
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT THIS DOCUMENT COVERS
+
+The psychological model behind the three-page architecture. Not the
+technical structure, not the data flow — the felt experience of using
+the system. Why the artist never feels like she is navigating software.
+Why each companion feels different from the others without requiring
+explanation. Why the desk is the right image.
+
+─────────────────────────────────────────────────────────────────────
+
+PART ONE: THE ARTIST IS ALWAYS AT HER DESK
+
+─────────────────────────────────────────────────────────────────────
+
+THE CORE CLAIM
+
+The artist does not go anywhere. The companions come to her.
+
+This is not a metaphor layered onto an existing structure after the
+fact. It is the structure. Everything about the three-page architecture
+— why there are three pages, why they feel different, what each page's
+job is — follows from this single image.
+
+The artist is at her desk. She is working, or she is thinking about
+working, or she is procrastinating. The desk is her place. It has her
+materials on it, her calendar, her coffee. The window is open. The
+baseboards are old wood with small gaps. This is where she lives her
+working life.
+
+The system does not ask her to go somewhere. It does not ask her to
+open a dashboard, enter a workspace, consult an interface. Those are
+all words for leaving the desk and entering a different kind of room —
+a room that belongs to the software, not to her. The desk belongs to
+her. The companions visit. She stays.
+
+WHY THIS MATTERS
+
+The alternative — the dashboard model — puts the artist inside the
+software. She becomes a user navigating a product. Her attention is
+managed by tabs, menus, information architecture. The system is in
+charge of the space.
+
+The desk model reverses this. She is in charge of the space. The
+companions arrive when they have something. She can pay attention to
+them or not. They do not demand. They bring things and wait.
+
+This is the correct psychological relationship between an artist and a
+support system. She has the work. The system has information that may
+or may not be useful to her right now. The system should make itself
+available without making itself important.
+
+─────────────────────────────────────────────────────────────────────
+
+PART TWO: THE THREE COMPANIONS AT THE DESK
+
+─────────────────────────────────────────────────────────────────────
+
+MOCHI — THE CAT IN THE WINDOW
+
+Mochi is a grey tabby. She jumps through the open window and drops
+things on the desk.
+
+This is not a gentle arrival. It is feline and purposeful. Mochi has
+been out — she has been hunting, searching, finding — and she returns
+with something in her mouth. She puts it down in front of the artist
+and waits to see what happens. Then she sits nearby and watches.
+
+What she brings: opportunities. Specific, actionable, ranked. Mochi
+has done the legwork. She has been through the city at night — the
+open calls, the gallery newsletters, the submission deadlines — and she
+has brought back the things that matter. Three things. Not fifty.
+
+The things on the desk are ready to act on. This is what distinguishes
+Mochi from the other companions. She does not report. She does not
+observe. She delivers. The question her page answers is: what should I
+do today?
+
+When the artist sits down and looks at the desk, Mochi's offerings are
+the first things she sees. They are concrete. They have deadlines. They
+have addresses. They have draft emails that are almost ready to send.
+The work of deciding and researching has already been done. The artist's
+job is to act or not act. That is all.
+
+Mochi is the most action-oriented of the three companions. She is not
+interested in context or history or long-term thinking. She is
+interested in the next thing. She has no patience for hesitation but
+no anxiety either — she has done her job, the opportunity is on the
+table, what happens next is not her department.
+
+The warmth of Mochi's page — the cream and amber, the aged paper — is
+the warmth of a working studio in the afternoon. This is where things
+get done.
+
+SAFFRON — THE BIRD ON THE WINDOWSILL
+
+Saffron is a red or yellow bird. She lands on the windowsill and
+chirps observations.
+
+She does not come inside. She stays at the edge — perched where she
+can see both out and in, where she can report on the wider world
+without disrupting the desk. Her visit is quieter than Mochi's. She
+did not hunt. She watched. She has been very high up, and from up
+there she saw patterns that are invisible from the desk.
+
+What she brings: context. The shape of the landscape. What comparable
+artists are doing. What the market looks like from altitude. Where the
+opportunities cluster. What the statistics say about careers at this
+stage. Saffron does not advise — she describes. She is scrupulous about
+this distinction. She reports what she saw. What the artist does with
+it is the artist's business.
+
+Saffron's chirps are not urgent. She is not bringing a deadline. She
+is not saying do this now. She is saying: from up there, here is what
+I noticed. Take it or leave it. She will still be on the windowsill
+tomorrow.
+
+This quality — patient, long-horizon, non-interventionist — is why
+Saffron's page is for reading, not for acting. The artist comes to
+Saffron when she wants to understand the bigger picture, not when she
+wants to know what to do next. Saffron never tells her what to do.
+
+The bird does not come inside partly because she could not fit at the
+desk — she sees too much, her information is too wide, her field of
+view is the whole city not the current project — and partly because she
+respects that the desk belongs to the artist. She offers what she has
+from where she stands.
+
+PEPPERCORN — THE MOUSE IN THE BASEBOARD
+
+Peppercorn is a black mouse. He lives in the mousehole in the
+baseboard. The desk is his home too.
+
+Of the three companions, Peppercorn is the most intimate. He did not
+arrive from somewhere else. He has always been here. He has been
+watching the artist work for months. He knows which stacks on the desk
+she returns to and which she ignores. He notices when she stays late.
+He has heard her muttering to herself about shows she wants to apply
+for and problems she is not sure how to solve.
+
+What he wants: to know more. Peppercorn does not bring things to the
+desk. He asks questions from beside it. Small, careful questions that
+he has thought about for a while before asking. Questions whose answers
+would help him understand her better. Questions that, once answered,
+would make Mochi's deliveries more accurate and Saffron's observations
+more relevant.
+
+He also notices things. He notices that the artist's statement has not
+been updated in six months. He notices that she has mentioned Tokyo
+Art Book Fair three times without doing anything about it. He does not
+say: you should do this. He says: Peppercorn noticed. Worth a thought?
+
+Peppercorn's page is the only page where the artist's voice enters the
+system. Without it, the system is a monologue — two companions
+delivering information to an artist who has never been asked what she
+wants. Peppercorn closes this loop. He is the system listening.
+
+The cozy corner aesthetic of his page — the sage green, the small
+scale, the intimate typography — is the aesthetic of the baseboard
+world. Not small as in unimportant. Small as in close. Small as in
+everything in its place, quiet attention, long memory.
+
+─────────────────────────────────────────────────────────────────────
+
+PART THREE: NAVIGATION IS ATTENTION, NOT TRAVEL
+
+─────────────────────────────────────────────────────────────────────
+
+THE WRONG MODEL
+
+The wrong model for navigation is rooms. Three rooms in a house, each
+belonging to a different companion. The artist walks from one room to
+another. She enters Mochi's room, then Saffron's room, then
+Peppercorn's room.
+
+This model is wrong because it moves the artist. She leaves her desk.
+She is now in the software's space, not her own. Each page becomes a
+destination rather than a companion. The experience becomes
+administrative — going somewhere to do something, rather than paying
+attention to whoever is nearby.
+
+The wrong model also implies that only one companion is present at a
+time. That the others disappear when she is not looking at them. That
+each visit is a complete and separate event.
+
+THE RIGHT MODEL
+
+The right model is focus. The artist is at her desk. All three
+companions are present at all times — Mochi on the desk with her
+offerings, Saffron on the windowsill, Peppercorn at the baseboard.
+Navigation between pages is not travel. It is the artist deciding
+which companion to pay attention to right now.
+
+She is not going anywhere. She is turning her head.
+
+When she looks toward the desk, she sees what Mochi brought. When she
+looks toward the window, she hears what Saffron noticed from above.
+When she looks toward the baseboard, she sees what Peppercorn has left
+out for her — or she answers one of his questions. Then she looks back
+at her work.
+
+This model preserves the continuity of the workspace. It explains why
+Mochi's status bar persists across all three pages — because Mochi is
+always on the desk even when the artist is talking to Peppercorn. The
+status bar is Mochi's ambient presence. She is still there. She is
+just not the current focus.
+
+This model also explains why there are three companions and not four,
+not two. Three is the right number of things a person can hold in
+peripheral awareness while working. One is too few — there is no
+texture. Two is sparse. Four becomes background noise. Three feels
+like a lived-in space.
+
+─────────────────────────────────────────────────────────────────────
+
+PART FOUR: IMPLICATIONS FOR DESIGN
+
+─────────────────────────────────────────────────────────────────────
+
+THE DESK IS NOT THE INTERFACE
+
+The interface should never feel like the primary environment. It should
+feel like a window into a slightly magical version of the artist's
+own studio. She recognizes the space. It belongs to her. The companions
+are guests — welcome guests, trusted guests, but guests.
+
+This has a practical consequence: the interface should never expand to
+fill the screen in a way that makes the artist feel contained by it.
+It should feel like looking at something, not being inside something.
+Modals, full-screen takeovers, and complex navigation hierarchies all
+work against this. They make the software feel like a room.
+
+THE COMPANIONS HAVE ROLES, NOT FEATURES
+
+The desk metaphor clarifies what each page is for and, equally
+importantly, what it is not for.
+
+Mochi's page is for action. It does not belong to context or history
+or statistics. Those belong to Saffron. Putting career statistics on
+Mochi's page would be like Mochi sitting at the desk giving a lecture
+instead of dropping something to act on. It is wrong for her character.
+
+Saffron's page is for observation. It does not belong to action items
+or deadlines or draft emails. Those belong to Mochi. Saffron reports
+what she saw. She does not place things on the desk. She has no hands.
+
+Peppercorn's page is for listening. It does not belong to analysis or
+recommendations. Those emerge from what Peppercorn knows, but they
+belong to Mochi and Saffron. Peppercorn's page is the input channel,
+not the output channel. He is the one asking. Not the one telling.
+
+When a feature is proposed, the question is always: which companion
+does this belong to? If the answer is unclear, the feature does not
+have a clear role. A feature that could belong to any of the three
+companions probably belongs to none of them.
+
+THE ARRIVAL MATTERS
+
+Each companion has a characteristic mode of arrival. Mochi jumps
+through the window — sudden, purposeful, physical. Saffron lands on
+the sill — lighter, quieter, external. Peppercorn is already there —
+he did not arrive, he has been here, he emerged from the baseboard
+when the moment was right.
+
+These different modes of arrival should be felt in how each page
+opens. Mochi's page should feel like something has been delivered —
+the content is ready and waiting. Saffron's page should feel like
+looking out — wide, contextual, patient. Peppercorn's page should feel
+like settling in — cozy, close, unhurried.
+
+This is a design brief for animation, loading states, and first
+impressions. It has not been implemented yet. But the model is here
+so that when it is implemented, it is implemented correctly.
+
+THE ARTIST NEVER ASKS FOR HELP
+
+This is a subtle but important implication of the desk metaphor.
+In the desk model, the artist is the primary presence. She is working.
+The companions offer things. She accepts or ignores.
+
+The interface should never frame itself as helping the artist. Helping
+implies that she needed help and asked for it. She did not ask for it.
+The companions noticed she was working and brought what they thought
+might be useful.
+
+This distinction shapes every piece of copy in the system. Mochi does
+not say: here are some opportunities for you. She says: I found these.
+Saffron does not say: let me show you the market. She says: from up
+here, I noticed. Peppercorn does not say: please complete your profile.
+He says: I was wondering.
+
+The artist retains all the agency. The companions have all the
+initiative. This is the correct distribution.
+
+─────────────────────────────────────────────────────────────────────
+
+END OF BIBLE ENTRY 13
