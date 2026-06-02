@@ -9,43 +9,59 @@
   gap: 18px;
 }
 
-/* ── Companion buttons ── */
+/* ── Companion labels (painted text, no pill shape) ── */
 .companion-row {
   display: flex;
-  gap: 12px;
-  align-items: center;
+  gap: 28px;
+  align-items: baseline;
 }
 
 .companion-btn {
-  font-family: Georgia, serif;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  padding: 10px 32px;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: background 0.16s, color 0.16s, box-shadow 0.16s, transform 0.12s;
-  border: 1.5px solid var(--border);
-  background: var(--paper);
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
   color: var(--ink-muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 6px 10px;
+  position: relative;
+  transition: color 0.2s;
+  line-height: 1;
 }
+
+/* Tiny per-label tilt — hand-lettered feel */
+.companion-btn:nth-child(1) { transform: rotate(-0.6deg); }
+.companion-btn:nth-child(2) { transform: rotate( 0.4deg); }
+.companion-btn:nth-child(3) { transform: rotate(-0.3deg); }
 
 .companion-btn:hover {
-  background: #f5ead8;
   color: var(--ink);
-  border-color: #c9a86c;
 }
 
+/* Active: warm watercolor wash behind + blurry brush-stroke underline */
 .companion-btn--active {
-  background: var(--ink);
-  color: #fff;
-  border-color: var(--ink);
-  box-shadow: 0 3px 12px rgba(61, 43, 32, 0.22);
+  color: var(--ink);
+  font-weight: 600;
+  background: radial-gradient(
+    ellipse 90% 55% at 50% 85%,
+    rgba(196, 154, 62, 0.16) 0%,
+    transparent 100%
+  );
 }
 
-.companion-btn--active:hover {
-  background: #5d4b3b;
-  border-color: #5d4b3b;
-  transform: translateY(-1px);
+.companion-btn--active::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 5%;
+  width: 90%;
+  height: 5px;
+  background: rgba(196, 154, 62, 0.45);
+  border-radius: 50%;
+  filter: blur(2px);
+  pointer-events: none;
 }
 
 /* ── Quick-nav row ── */
