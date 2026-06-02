@@ -1,20 +1,15 @@
 """
-Rumor Mill Engine
-Community intelligence pass — searches social and community sources for
-reputation data on the top-30 opportunities by score.
+Rumor Mill Engine — Needs Research processor.
 
-Sources searched per venue:
-  - Japanese Twitter/X:        x.com/twitter.com + venue + 展示 OR ギャラリー OR 公募
-  - Japanese note.com:         note.com + venue + 展覧会 OR 公募 OR 体験
-  - Chinese illustration hubs: lofter.com / zcool.com.cn / weibo.com + venue
-  - Reddit art communities:    reddit.com + venue + r/ImmigrantArtists OR r/Art OR r/japanlife
-  - English art community:     venue + "artist experience" OR "open call" review
+For each opportunity in the needs_research bucket:
+  - Searches community and official sources for missing factual data:
+    deadline, entry fee, contact email, submission URL
+  - If any data found: populates fields, moves opportunity to the appropriate bucket
+  - If nothing found: logs "searched YYYY-MM-DD, no data found", leaves in place
 
-Extracts: sentiment, artist-treatment notes, legitimacy flags, key quotes.
-
-Reads:  deploy_data/compact_opportunities.json
-Writes: memory/rumor_mill.json
-        deploy_data/compact_opportunities.json  (adds rumor_mill_score / rumor_mill_sentiment)
+Reads/Writes: memory/opportunity_buckets.json
+Log/cache:    memory/rumor_mill.json
+Schedule:     weekly
 """
 import sys
 import json
@@ -37,44 +32,80 @@ load_dotenv(Path(__file__).parent.parent / ".env")
 import anthropic
 from tavily import TavilyClient
 
-ROOT     = Path(__file__).parent.parent
-MEM      = ROOT / "memory"
-OPP_PATH = ROOT / "deploy_data" / "compact_opportunities.json"
-OUT_PATH = MEM / "rumor_mill.json"
+ROOT         = Path(__file__).parent.parent
+MEM          = ROOT / "memory"
+BUCKET_PATH  = MEM / "opportunity_buckets.json"
+LOG_PATH     = MEM / "rumor_mill.json"
 
-TOP_N          = 30
-CACHE_DAYS     = 7    # skip venues researched within this many days
-QUERY_PAUSE    = 3.5  # seconds between Tavily calls
-SNIPPET_CHARS  = 500  # characters to keep per result
-MAX_TEXT_CHARS = 4000 # cap passed to Claude per venue
-
-
-# ── clients ───────────────────────────────────────────────────────────────────
+CACHE_DAYS   = 7
+QUERY_PAUSE  = 3.5
+SNIPPET_CHARS = 500
+MAX_TEXT_CHARS = 4000
 
 tavily = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
 claude = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 
+# ── bucket assignment ──────────────────────────────────────────────────────────
+
+_BOOK_CATS = {
+    "book_publishing", "zine_print", "global_photobook", "global_book_arts",
+    "global_artist_book_platform", "zine_fair_booth", "global_art_book_fair",
+    "bookstore_gallery", "bookstore_event",
+}
+_PUB_CATS = {"group_publication_open_call"}
+_RESIDENCY_CATS = {"residency", "residency_beijing", "global_residency", "global_grant_fellowship"}
+_EASY_CATS = {"cafe_gallery", "market_event", "gallery_small", "fair_popup", "cafe"}
+
+
+def choose_target_bucket(item: dict) -> str:
+    cat     = item.get("category", "")
+    score   = float(item.get("score", 0) or 0)
+    country = str(item.get("country", "Japan")).lower()
+
+    if cat in _BOOK_CATS:
+        return "book_zine_targets"
+    if cat in _PUB_CATS:
+        return "publication_targets"
+    if cat in _RESIDENCY_CATS:
+        return "global_reach" if country not in ("", "japan") else "high_confidence"
+    if score >= 8.5:
+        return "career_changing"
+    if score >= 8.0:
+        return "high_confidence"
+    if cat in _EASY_CATS:
+        return "easy_wins"
+    if score >= 7.0:
+        return "relationship_builders"
+    return "low_priority"
+
+
 # ── search ────────────────────────────────────────────────────────────────────
 
-def build_queries(venue: str, city: str, country: str) -> list[tuple[str, list[str]]]:
-    """Returns list of (query_string, include_domains) tuples.
+def build_queries(item: dict) -> list[tuple[str, list[str]]]:
+    title  = item.get("title", "").strip()
+    source = item.get("source", "")
+    t = f'"{title}"'
 
-    Tavily does not support Google-style site: or boolean OR operators.
-    Use include_domains for domain-restricted searches instead.
-    """
-    v = venue.strip('"')
-    return [
-        (f'"{v}" 展示 ギャラリー 公募',                    ["twitter.com", "x.com"]),
-        (f'"{v}" 展覧会 公募 体験',                          ["note.com"]),
-        (f'"{v}" artist',                                   ["lofter.com", "zcool.com.cn", "weibo.com"]),
-        (f'"{v}" artist gallery open call review',          ["reddit.com"]),
-        (f'"{v}" artist experience review open call exhibition residency', []),
+    queries = [
+        (f"{t} deadline submission 2025 2026",       []),
+        (f"{t} apply entry fee cost",                []),
+        (f"{t} contact email submissions open call", []),
     ]
+
+    if source:
+        try:
+            from urllib.parse import urlparse
+            domain = urlparse(source).netloc
+            if domain:
+                queries.append((f"{title} deadline open call submit", [domain]))
+        except Exception:
+            pass
+
+    return queries
 
 
 def run_query(query: str, include_domains: list[str] | None = None) -> str:
-    """Return concatenated snippets from one Tavily search, or empty string."""
     kwargs: dict = {"search_depth": "basic", "max_results": 5}
     if include_domains:
         kwargs["include_domains"] = include_domains
@@ -101,95 +132,55 @@ def run_query(query: str, include_domains: list[str] | None = None) -> str:
     return ""
 
 
-# ── Claude sentiment extraction ───────────────────────────────────────────────
+# ── Claude fact extraction ─────────────────────────────────────────────────────
 
 _SYSTEM = (
-    "You are an art-world intelligence analyst. You read raw search snippets "
-    "from social media and community forums and extract structured reputation "
-    "data about galleries, residencies, and open calls. Be concise and strictly "
-    "evidence-based. Only report what is actually in the text — never invent "
-    "sentiment. Content may be in Japanese, Chinese, or English."
+    "You are a research assistant extracting factual data from web search results "
+    "about art opportunities. Extract only what is explicitly stated in the text — "
+    "never infer or fabricate. Return null for any field not found."
 )
 
 _EXTRACT_PROMPT = """\
-Venue: {venue}
+Opportunity: {title}
 
-Raw search snippets (may include unrelated content — filter by relevance):
+Search results:
 ---
 {text}
 ---
 
-Return a single JSON object with exactly these keys:
-  "sentiment"            — "positive" | "negative" | "mixed" | "no_data"
-  "sentiment_confidence" — "high" | "medium" | "low"
-  "score_delta"          — float −1.0 (serious red flags) … +0.5 (strong praise); 0.0 if no_data or mixed
-  "artist_treatment"     — one sentence on how artists describe being treated, or null
-  "legitimacy_flags"     — list of any prestige-washing / scam concerns; [] if none
-  "praise_points"        — list of specific positives mentioned; [] if none
-  "concern_points"       — list of specific negatives mentioned; [] if none
-  "key_quotes"           — up to 3 short direct quotes from snippets; [] if none
-  "sources_hit"          — list of domain names that had relevant content; [] if none
+Extract factual data about this opportunity. Return a single JSON object with these keys:
+  "deadline"       — exact date (YYYY-MM-DD) or descriptive text (e.g. "Rolling", "June 2026"), null if not found
+  "fee"            — entry fee as text (e.g. "Free", "$25", "3,000 yen per piece"), null if not found
+  "contact_email"  — contact email address, null if not found
+  "submission_url" — direct URL to the application/submission page (not homepage), null if not found
+  "data_found"     — true if ANY of the above fields has a value, false if all are null
 
 Return only valid JSON, no code fences, no commentary.\
 """
 
 
-def extract_sentiment(venue: str, raw_text: str) -> dict:
-    empty = {
-        "sentiment": "no_data",
-        "sentiment_confidence": "low",
-        "score_delta": 0.0,
-        "artist_treatment": None,
-        "legitimacy_flags": [],
-        "praise_points": [],
-        "concern_points": [],
-        "key_quotes": [],
-        "sources_hit": [],
-    }
+def extract_facts(title: str, raw_text: str) -> dict:
+    empty = {"deadline": None, "fee": None, "contact_email": None,
+             "submission_url": None, "data_found": False}
     if not raw_text.strip():
         return empty
 
-    prompt = _EXTRACT_PROMPT.format(venue=venue, text=raw_text[:MAX_TEXT_CHARS])
-
+    prompt = _EXTRACT_PROMPT.format(title=title, text=raw_text[:MAX_TEXT_CHARS])
     try:
         resp = claude.messages.create(
             model="claude-haiku-4-5-20251001",
-            max_tokens=700,
-            system=[
-                {
-                    "type": "text",
-                    "text": _SYSTEM,
-                    "cache_control": {"type": "ephemeral"},
-                }
-            ],
+            max_tokens=400,
+            system=[{"type": "text", "text": _SYSTEM,
+                     "cache_control": {"type": "ephemeral"}}],
             messages=[{"role": "user", "content": prompt}],
         )
         text = resp.content[0].text.strip()
         text = re.sub(r"^```(?:json)?\s*", "", text)
         text = re.sub(r"\s*```$", "", text)
-        parsed = json.loads(text)
-        # Clamp delta to safe range
-        parsed["score_delta"] = max(-1.0, min(0.5, float(parsed.get("score_delta", 0.0) or 0.0)))
-        return parsed
+        return json.loads(text)
     except Exception as exc:
         print(f"    Claude error: {exc}")
         return empty
-
-
-# ── venue name normalisation ──────────────────────────────────────────────────
-
-_STRIP_SUFFIXES = re.compile(
-    r"\s+(open call|annual exhibition|open exhibition|residency program|"
-    r"international exhibition|members exhibition|juried exhibition)$",
-    re.IGNORECASE,
-)
-
-def venue_name(opp: dict) -> str:
-    org = (opp.get("organization") or "").strip()
-    if org:
-        return org
-    title = (opp.get("title") or "Unknown").strip()
-    return _STRIP_SUFFIXES.sub("", title).strip()
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
@@ -205,9 +196,9 @@ def save_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def cached_and_fresh(venue: str, existing: dict) -> bool:
-    rec = existing.get(venue, {})
-    ts = rec.get("researched_at")
+def is_fresh(title: str, log: dict) -> bool:
+    entry = log.get(title, {})
+    ts = entry.get("searched_at")
     if not ts:
         return False
     try:
@@ -220,142 +211,102 @@ def cached_and_fresh(venue: str, existing: dict) -> bool:
 # ── main ──────────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Rumor Mill Engine")
-    parser.add_argument("--venue", metavar="NAME",
-                        help="Research only this venue (bypasses cache, case-insensitive substring match)")
+    parser = argparse.ArgumentParser(description="Rumor Mill Engine — Needs Research processor")
     parser.add_argument("--force", action="store_true",
-                        help="Bypass cache and re-research all venues")
+                        help="Re-search all items, ignoring the 7-day cache")
+    parser.add_argument("--max", type=int, default=0,
+                        help="Maximum items to process this run (0 = unlimited)")
     args = parser.parse_args()
 
     print("=== Rumor Mill Engine ===")
     print(f"Started: {datetime.now().isoformat()}\n")
-    if args.venue:
-        print(f"Mode: single venue — '{args.venue}' (cache bypassed)\n")
-    elif args.force:
-        print("Mode: force re-research all venues\n")
 
-    opps = load_json(OPP_PATH, [])
-    if not opps:
-        print("No opportunities found — exiting.")
-        return
+    all_buckets   = load_json(BUCKET_PATH, {})
+    needs_research = list(all_buckets.get("needs_research", []))
+    log            = load_json(LOG_PATH, {}).get("entries", {}) if LOG_PATH.exists() else {}
 
-    top30 = sorted(
-        opps,
-        key=lambda x: float(x.get("overall_score", 0) or 0),
-        reverse=True,
-    )[:TOP_N]
+    total = len(needs_research)
+    print(f"needs_research: {total} items")
+    if args.force:
+        print("Mode: --force (ignoring cache)\n")
+    if args.max:
+        print(f"Limit: {args.max} items this run\n")
 
-    # Load previous results so we can skip fresh venues
-    prior_doc  = load_json(OUT_PATH, {})
-    prior_data = prior_doc.get("venues", {}) if isinstance(prior_doc, dict) else {}
-    results: dict = dict(prior_data)
+    moved:    list[tuple[dict, str]] = []
+    searched: int = 0
 
-    # Deduplicate venues — multiple opportunities can share an org
-    seen_venues: set[str] = set()
+    for i, item in enumerate(needs_research):
+        title = item.get("title", f"item_{i}")
 
-    for i, opp in enumerate(top30):
-        vname = venue_name(opp)
-        city    = opp.get("city", "")
-        country = opp.get("country", "")
-        score   = opp.get("overall_score", "?")
-
-        if vname in seen_venues:
-            print(f"[{i+1:02d}/{TOP_N}] {vname[:55]} — dedup skip")
-            continue
-        seen_venues.add(vname)
-
-        # --venue filter: skip everything that doesn't match
-        if args.venue and args.venue.lower() not in vname.lower():
+        if not args.force and is_fresh(title, log):
+            cached_date = log[title].get("searched_at", "?")[:10]
+            print(f"[{i+1:03d}/{total}] {title[:65]} — cached {cached_date}")
             continue
 
-        if not args.venue and not args.force and cached_and_fresh(vname, results):
-            prior_ts = results[vname].get("researched_at", "?")[:10]
-            print(f"[{i+1:02d}/{TOP_N}] {vname[:55]} — cached {prior_ts}")
-            continue
+        if args.max and searched >= args.max:
+            print(f"\nLimit of {args.max} reached — stopping.")
+            break
 
-        print(f"[{i+1:02d}/{TOP_N}] {vname[:55]}  (score={score})")
-        queries   = build_queries(vname, city, country)
-        all_text  = ""
+        searched += 1
+        print(f"[{i+1:03d}/{total}] {title[:65]}")
 
+        queries  = build_queries(item)
+        all_text = ""
         for q, domains in queries:
-            domain_hint = f" [{','.join(domains)}]" if domains else ""
-            print(f"    {q[:80]}{domain_hint}")
             snippet = run_query(q, domains or None)
             if snippet:
                 all_text += snippet + "\n\n"
 
-        chars = len(all_text)
-        print(f"    Extracted {chars} chars — running sentiment analysis …")
+        facts = extract_facts(title, all_text)
 
-        analysis = extract_sentiment(vname, all_text)
-        analysis["venue"]         = vname
-        analysis["researched_at"] = datetime.now().isoformat()
-        analysis["queries_run"]   = len(queries)
-        analysis["text_chars"]    = chars
-        results[vname] = analysis
+        today = datetime.now().strftime("%Y-%m-%d")
+        log[title] = {
+            "title":       title,
+            "searched_at": datetime.now().isoformat(),
+            "data_found":  facts.get("data_found", False),
+            "found":       {k: v for k, v in facts.items()
+                            if k not in ("data_found",) and v is not None},
+        }
 
-        delta = analysis.get("score_delta", 0.0)
-        print(
-            f"    → sentiment={analysis.get('sentiment')}  "
-            f"confidence={analysis.get('sentiment_confidence')}  "
-            f"delta={delta:+.2f}"
-        )
-        flags = analysis.get("legitimacy_flags", [])
-        if flags:
-            print(f"    ⚠ legitimacy flags: {flags}")
+        if facts.get("data_found"):
+            for field in ("deadline", "fee", "contact_email", "submission_url"):
+                if facts.get(field) is not None:
+                    item[field] = facts[field]
+
+            target = choose_target_bucket(item)
+            moved.append((item, target))
+            found_summary = ", ".join(
+                f"{k}={v!r}" for k, v in facts.items()
+                if k not in ("data_found",) and v is not None
+            )
+            print(f"  found: {found_summary}")
+            print(f"  → moving to {target}")
+        else:
+            item["search_log"] = f"searched {today}, no data found"
+            print(f"  → no data found")
+
         print()
 
-    # Persist rumor mill data
-    out_doc = {
-        "generated_at":      datetime.now().isoformat(),
-        "venues_researched": len(results),
-        "venues":            results,
-    }
-    save_json(OUT_PATH, out_doc)
-    print(f"Saved {OUT_PATH}  ({len(results)} venues)\n")
-
-    # Patch compact_opportunities.json
-    patched = 0
-    for opp in opps:
-        vname = venue_name(opp)
-        rec   = results.get(vname)
-        if not rec:
-            continue
-
-        delta     = float(rec.get("score_delta", 0.0) or 0.0)
-        old_score = float(opp.get("overall_score", 0.0) or 0.0)
-
-        opp["rumor_mill_sentiment"] = rec.get("sentiment", "no_data")
-        opp["rumor_mill_score"]     = delta
-
-        if delta != 0.0 and old_score > 0:
-            opp["overall_score"] = round(old_score + delta, 2)
-
-        patched += 1
-
-    save_json(OPP_PATH, opps)
-    print(f"Patched {patched} opportunity records.\n")
-
-    # Summary
-    sentiments = [v.get("sentiment", "no_data") for v in results.values()]
-    all_flags  = [
-        (v["venue"], v["legitimacy_flags"])
-        for v in results.values()
-        if v.get("legitimacy_flags")
+    # Apply moves: remove from needs_research, add to target buckets
+    moved_titles = {item["title"] for item, _ in moved}
+    all_buckets["needs_research"] = [
+        item for item in needs_research
+        if item.get("title") not in moved_titles
     ]
+    for item, target in moved:
+        all_buckets.setdefault(target, []).append(item)
 
-    print("=== Summary ===")
-    print(f"Venues researched (all-time): {len(results)}")
-    for label in ("positive", "negative", "mixed", "no_data"):
-        n = sentiments.count(label)
-        if n:
-            print(f"  {label}: {n}")
+    save_json(BUCKET_PATH, all_buckets)
+    save_json(LOG_PATH, {
+        "updated_at": datetime.now().isoformat(),
+        "entries":    log,
+    })
 
-    if all_flags:
-        print("\n⚠ Legitimacy concerns flagged:")
-        for vname, flags in all_flags:
-            print(f"  {vname}: {flags}")
-
+    remaining = len(all_buckets["needs_research"])
+    print(f"=== Summary ===")
+    print(f"Searched: {searched}  Moved out: {len(moved)}  Remaining in needs_research: {remaining}")
+    print(f"Saved {BUCKET_PATH}")
+    print(f"Saved {LOG_PATH}")
     print("\nDone.")
 
 
