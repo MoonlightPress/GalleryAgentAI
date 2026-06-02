@@ -74,6 +74,22 @@ def has(text, terms):
     return any(t in text for t in terms)
 
 
+_PASSED_MARKERS = ("passed", "closed", "cycle closed", "deadline was", "deadline passed")
+_RECURRING_MARKERS = ("annual", "recurring", "watch", "2027", "2028", "next cycle")
+
+
+def _deadline_confirmed_passed(opp):
+    deadline = str(opp.get("deadline") or "").lower()
+    cycle_note = str(opp.get("cycle_note") or "").lower()
+    return any(m in deadline or m in cycle_note for m in _PASSED_MARKERS)
+
+
+def _is_recurring(opp):
+    deadline = str(opp.get("deadline") or "").lower()
+    cycle_note = str(opp.get("cycle_note") or "").lower()
+    return any(m in deadline or m in cycle_note for m in _RECURRING_MARKERS)
+
+
 def choose_bucket(opp):
     text = text_blob(opp)
     title = str(opp.get("title") or opp.get("name") or "").lower()
@@ -92,6 +108,10 @@ def choose_bucket(opp):
     # without requiring engine changes (e.g. invitation-only publishers → stretch_targets)
     if opp.get("verification_bucket") == "stretch_targets":
         return "stretch_targets"
+
+    # Confirmed passed deadline: recurring → watch (stretch_targets), one-off → reject
+    if _deadline_confirmed_passed(opp):
+        return "stretch_targets" if _is_recurring(opp) else "reject"
 
     # Only use dscore for low_priority check when it is actually set (>0)
     if score <= 4 or (dscore > 0 and dscore <= 4):

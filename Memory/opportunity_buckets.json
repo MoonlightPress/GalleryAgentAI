@@ -1,9 +1,27 @@
 {
   "career_changing": [
     {
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "score": 8.8,
+      "differentiated_score": 10.79,
+      "visual_fit_score": 3.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "USA",
+      "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.womenunitedartmovement.com/artmagazine"
+    },
+    {
       "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-      "score": 9.4,
-      "differentiated_score": 11.24,
+      "score": 8.8,
+      "differentiated_score": 10.64,
       "visual_fit_score": 3.25,
       "verification": "partial",
       "url_status": "ok",
@@ -15,7 +33,7 @@
         "artist_book",
         "zine"
       ],
-      "source": "https://note.com/bookcultureclub/"
+      "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
     },
     {
       "title": "Tokyo Art Book Fair",
@@ -26,7 +44,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "Japan",
-      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+      "why": "Japan's most prominent artist book fair, held annually at the Museum of Contemporary Art Tokyo in Kiyosumi-shirakawa. A TABF table puts GEGYjiji's printed work in front of Tokyo curators, international collectors, and the artists who form the Japanese art-book ecosystem — all in a single weekend. Both table applications and consignment submissions are accepted.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -44,7 +62,7 @@
       "url_status": "ok",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "why": "Independent art bookstore in Harajuku, one of the few Tokyo shops that actively stocks watercolor-adjacent artist books and limited print editions by Japanese artists. GEGYjiji's quiet architecture work fits their curation directly. Consignment requests can be made by email; visiting the shop first to understand their current stock is recommended.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -98,7 +116,7 @@
       "url_status": "ok",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Belgian illustrated-book publisher with an open, unsolicited submissions portal — rare among publishers of their scale. Their list skews toward picture books and quiet narrative illustration, which is a direct match for watercolor work built around atmosphere, interior light, and everyday observation. A no-intermediary path to international print publication that does not require an agent.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -116,7 +134,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Curated art book fair in Fukuoka (Kyushu) — smaller and more accessible than TABF, but professionally run and a credible first fair-booth credit before attempting the Tokyo fair. Reaching outside Tokyo builds GEGYjiji's visibility in Japan's regional art scene and keeps her from being purely a Tokyo artist. Application is direct via their website; booth fees are modest.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -133,7 +151,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Held in Jimbocho — Tokyo's historic bookseller district — this fair places artist zines and prints in front of people who buy books as a habit, not as a special event. Different from art-fair audiences: these are book people who discover visual work through browsing. A natural first booth for GEGYjiji given that Jimbocho's bookshop culture is already her kind of environment.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -588,7 +606,7 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -621,7 +639,7 @@
       "url_status": "error",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "why": "PERMANENTLY CLOSED March 31 2025. Website down. Not actionable.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -1072,7 +1090,7 @@
       "url_status": "missing",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit if her work is presented as a coherent printed project rather than loose portfolio images.",
+      "why": "Invitation-only publisher — no submissions. Tier 4 watch target. Approach only after established Tokyo art book ecosystem presence.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -1256,9 +1274,43 @@
   ],
   "high_confidence": [
     {
-      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "score": 8.8,
+      "differentiated_score": 10.79,
+      "visual_fit_score": 3.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "USA",
+      "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.womenunitedartmovement.com/artmagazine"
+    },
+    {
+      "title": "MOUNT ZINE",
       "score": 9.4,
-      "differentiated_score": 11.24,
+      "differentiated_score": 10.71,
+      "visual_fit_score": 1.75,
+      "verification": "verified",
+      "url_status": "ok",
+      "category": "zine_shop_consignment",
+      "country": "",
+      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
+      "visual_hits": [
+        "memory",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "score": 8.8,
+      "differentiated_score": 10.64,
       "visual_fit_score": 3.25,
       "verification": "partial",
       "url_status": "ok",
@@ -1270,7 +1322,7 @@
         "artist_book",
         "zine"
       ],
-      "source": "https://note.com/bookcultureclub/"
+      "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
     },
     {
       "title": "Tokyo Art Book Fair",
@@ -1281,7 +1333,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "Japan",
-      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+      "why": "Japan's most prominent artist book fair, held annually at the Museum of Contemporary Art Tokyo in Kiyosumi-shirakawa. A TABF table puts GEGYjiji's printed work in front of Tokyo curators, international collectors, and the artists who form the Japanese art-book ecosystem — all in a single weekend. Both table applications and consignment submissions are accepted.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -1299,7 +1351,7 @@
       "url_status": "ok",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "why": "Independent art bookstore in Harajuku, one of the few Tokyo shops that actively stocks watercolor-adjacent artist books and limited print editions by Japanese artists. GEGYjiji's quiet architecture work fits their curation directly. Consignment requests can be made by email; visiting the shop first to understand their current stock is recommended.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -1345,22 +1397,6 @@
       "source": "https://www.flotsambooks.com/"
     },
     {
-      "title": "MOUNT ZINE",
-      "score": 9.2,
-      "differentiated_score": 10.51,
-      "visual_fit_score": 1.75,
-      "verification": "verified",
-      "url_status": "ok",
-      "category": "zine_shop_consignment",
-      "country": "",
-      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
-      "visual_hits": [
-        "memory",
-        "zine"
-      ],
-      "source": "https://zine.mount.co.jp/"
-    },
-    {
       "title": "Submissions — Clavis Publishing",
       "score": 8.6,
       "differentiated_score": 10.38,
@@ -1369,7 +1405,7 @@
       "url_status": "ok",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Belgian illustrated-book publisher with an open, unsolicited submissions portal — rare among publishers of their scale. Their list skews toward picture books and quiet narrative illustration, which is a direct match for watercolor work built around atmosphere, interior light, and everyday observation. A no-intermediary path to international print publication that does not require an agent.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -1387,7 +1423,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Curated art book fair in Fukuoka (Kyushu) — smaller and more accessible than TABF, but professionally run and a credible first fair-booth credit before attempting the Tokyo fair. Reaching outside Tokyo builds GEGYjiji's visibility in Japan's regional art scene and keeps her from being purely a Tokyo artist. Application is direct via their website; booth fees are modest.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -1404,13 +1440,30 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Held in Jimbocho — Tokyo's historic bookseller district — this fair places artist zines and prints in front of people who buy books as a habit, not as a special event. Different from art-fair audiences: these are book people who discover visual work through browsing. A natural first booth for GEGYjiji given that Jimbocho's bookshop culture is already her kind of environment.",
       "visual_hits": [
         "artist book",
         "artist_book",
         "zine"
       ],
       "source": "https://jimbocho-zine-book-fes.com/"
+    },
+    {
+      "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+      "score": 8.8,
+      "differentiated_score": 10.27,
+      "visual_fit_score": 2.2,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "Canada",
+      "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.",
+      "visual_hits": [
+        "urban atmosphere",
+        "memory",
+        "zine"
+      ],
+      "source": "https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/"
     },
     {
       "title": "CSPWC Annual Open Water International Exhibition",
@@ -1485,11 +1538,27 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Los Angeles zine fair centered on Asian and Asian-American creative communities. International artists are accepted and applications are handled online — no travel required to apply. The audience already leans toward Japanese visual culture and quiet, print-focused work, which maps well to GEGYjiji's watercolor zine ambitions.",
       "visual_hits": [
         "zine"
       ],
       "source": "https://www.ltzinefest.org/applications"
+    },
+    {
+      "title": "HATTIFNATT Koenji Cafe Gallery",
+      "score": 8.8,
+      "differentiated_score": 9.81,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.",
+      "visual_hits": [
+        "cats",
+        "interior light"
+      ],
+      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "Book and Sons",
@@ -1507,6 +1576,21 @@
       "source": "https://bookandsons.com/"
     },
     {
+      "title": "Japan International Watercolor Institute Online Exhibition",
+      "score": 8.8,
+      "differentiated_score": 9.66,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "japan_watercolor_open_call",
+      "country": "Japan",
+      "why": "Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
+    },
+    {
       "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
       "score": 8.8,
       "differentiated_score": 9.66,
@@ -1522,19 +1606,32 @@
       "source": "https://www.nwws.org/annual-international-open/"
     },
     {
-      "title": "Japan International Watercolor Institute Online Exhibition",
+      "title": "BALLOND'ESSAI Shimokitazawa",
       "score": 8.8,
       "differentiated_score": 9.66,
       "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "ok",
-      "category": "japan_watercolor_open_call",
+      "category": "cafe_gallery",
       "country": "Japan",
-      "why": "Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.",
+      "why": "Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.",
       "visual_hits": [
-        "watercolor"
+        "intimate scale"
       ],
-      "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
+      "source": "http://ballondessai.com/gallery/"
+    },
+    {
+      "title": "CLOUDS Gallery+Coffee Koenji",
+      "score": 8.8,
+      "differentiated_score": 9.5,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.",
+      "visual_hits": [],
+      "source": "https://www.cloudsgallerypluscoffee.com/"
     },
     {
       "title": "SCCP Guest Artist",
@@ -1580,6 +1677,19 @@
       "source": "https://shimokitazawaarts.tokyo/en/home-english/"
     },
     {
+      "title": "Shangyuan International Residency Programme",
+      "score": 8.6,
+      "differentiated_score": 9.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing-based residency directly relevant to Chinese identity and home country. Prestigious, no restrictions. Apply October for next year cycle.",
+      "visual_hits": [],
+      "source": "http://www.syartmuseum.com/english/"
+    },
+    {
       "title": "3331 Arts Chiyoda",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -1617,19 +1727,6 @@
       "why": "Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.",
       "visual_hits": [],
       "source": "https://www.transartists.org/en/air/platform-china"
-    },
-    {
-      "title": "Shangyuan International Residency Programme",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency_beijing",
-      "country": "China",
-      "why": "Beijing-based residency directly relevant to Chinese identity and home country. Prestigious, no restrictions. Apply October for next year cycle.",
-      "visual_hits": [],
-      "source": "http://www.syartmuseum.com/english/"
     },
     {
       "title": "DESIGN FESTA GALLERY",
@@ -1890,6 +1987,19 @@
       "why": "Clavis Publishing Submissions is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions.",
       "visual_hits": [],
       "source": "https://www.clavis-publishing.com/submit"
+    },
+    {
+      "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+      "score": 8.6,
+      "differentiated_score": 9.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call, exhibition",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594"
     },
     {
       "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
@@ -2370,26 +2480,47 @@
       "why": "Hayama Artist Residency may matter later if her portfolio package and project statement become strong enough.",
       "visual_hits": [],
       "source": "https://hayamaartistresidency.submittable.com/submit"
-    },
-    {
-      "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
-      "score": 8.2,
-      "differentiated_score": 8.68,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "photo_open_call",
-      "country": "Global",
-      "why": "Possible fit based on link text: open call, exhibition",
-      "visual_hits": [],
-      "source": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594"
     }
   ],
   "publication_targets": [
     {
-      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "score": 8.8,
+      "differentiated_score": 10.79,
+      "visual_fit_score": 3.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "USA",
+      "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.womenunitedartmovement.com/artmagazine"
+    },
+    {
+      "title": "MOUNT ZINE",
       "score": 9.4,
-      "differentiated_score": 11.24,
+      "differentiated_score": 10.71,
+      "visual_fit_score": 1.75,
+      "verification": "verified",
+      "url_status": "ok",
+      "category": "zine_shop_consignment",
+      "country": "",
+      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
+      "visual_hits": [
+        "memory",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "score": 8.8,
+      "differentiated_score": 10.64,
       "visual_fit_score": 3.25,
       "verification": "partial",
       "url_status": "ok",
@@ -2401,7 +2532,7 @@
         "artist_book",
         "zine"
       ],
-      "source": "https://note.com/bookcultureclub/"
+      "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
     },
     {
       "title": "Tokyo Art Book Fair",
@@ -2412,7 +2543,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "Japan",
-      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+      "why": "Japan's most prominent artist book fair, held annually at the Museum of Contemporary Art Tokyo in Kiyosumi-shirakawa. A TABF table puts GEGYjiji's printed work in front of Tokyo curators, international collectors, and the artists who form the Japanese art-book ecosystem — all in a single weekend. Both table applications and consignment submissions are accepted.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -2430,7 +2561,7 @@
       "url_status": "ok",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "why": "Independent art bookstore in Harajuku, one of the few Tokyo shops that actively stocks watercolor-adjacent artist books and limited print editions by Japanese artists. GEGYjiji's quiet architecture work fits their curation directly. Consignment requests can be made by email; visiting the shop first to understand their current stock is recommended.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -2476,22 +2607,6 @@
       "source": "https://www.flotsambooks.com/"
     },
     {
-      "title": "MOUNT ZINE",
-      "score": 9.2,
-      "differentiated_score": 10.51,
-      "visual_fit_score": 1.75,
-      "verification": "verified",
-      "url_status": "ok",
-      "category": "zine_shop_consignment",
-      "country": "",
-      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
-      "visual_hits": [
-        "memory",
-        "zine"
-      ],
-      "source": "https://zine.mount.co.jp/"
-    },
-    {
       "title": "Submissions — Clavis Publishing",
       "score": 8.6,
       "differentiated_score": 10.38,
@@ -2500,7 +2615,7 @@
       "url_status": "ok",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Belgian illustrated-book publisher with an open, unsolicited submissions portal — rare among publishers of their scale. Their list skews toward picture books and quiet narrative illustration, which is a direct match for watercolor work built around atmosphere, interior light, and everyday observation. A no-intermediary path to international print publication that does not require an agent.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -2518,7 +2633,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Curated art book fair in Fukuoka (Kyushu) — smaller and more accessible than TABF, but professionally run and a credible first fair-booth credit before attempting the Tokyo fair. Reaching outside Tokyo builds GEGYjiji's visibility in Japan's regional art scene and keeps her from being purely a Tokyo artist. Application is direct via their website; booth fees are modest.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -2535,13 +2650,30 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Held in Jimbocho — Tokyo's historic bookseller district — this fair places artist zines and prints in front of people who buy books as a habit, not as a special event. Different from art-fair audiences: these are book people who discover visual work through browsing. A natural first booth for GEGYjiji given that Jimbocho's bookshop culture is already her kind of environment.",
       "visual_hits": [
         "artist book",
         "artist_book",
         "zine"
       ],
       "source": "https://jimbocho-zine-book-fes.com/"
+    },
+    {
+      "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+      "score": 8.8,
+      "differentiated_score": 10.27,
+      "visual_fit_score": 2.2,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "Canada",
+      "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.",
+      "visual_hits": [
+        "urban atmosphere",
+        "memory",
+        "zine"
+      ],
+      "source": "https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/"
     },
     {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -2956,7 +3088,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Los Angeles zine fair centered on Asian and Asian-American creative communities. International artists are accepted and applications are handled online — no travel required to apply. The audience already leans toward Japanese visual culture and quiet, print-focused work, which maps well to GEGYjiji's watercolor zine ambitions.",
       "visual_hits": [
         "zine"
       ],
@@ -3036,7 +3168,7 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -3053,7 +3185,7 @@
       "url_status": "error",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "why": "PERMANENTLY CLOSED March 31 2025. Website down. Not actionable.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -3543,7 +3675,7 @@
       "url_status": "missing",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit if her work is presented as a coherent printed project rather than loose portfolio images.",
+      "why": "Invitation-only publisher — no submissions. Tier 4 watch target. Approach only after established Tokyo art book ecosystem presence.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -3758,9 +3890,43 @@
   ],
   "book_zine_targets": [
     {
-      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "score": 8.8,
+      "differentiated_score": 10.79,
+      "visual_fit_score": 3.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "USA",
+      "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.womenunitedartmovement.com/artmagazine"
+    },
+    {
+      "title": "MOUNT ZINE",
       "score": 9.4,
-      "differentiated_score": 11.24,
+      "differentiated_score": 10.71,
+      "visual_fit_score": 1.75,
+      "verification": "verified",
+      "url_status": "ok",
+      "category": "zine_shop_consignment",
+      "country": "",
+      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
+      "visual_hits": [
+        "memory",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "score": 8.8,
+      "differentiated_score": 10.64,
       "visual_fit_score": 3.25,
       "verification": "partial",
       "url_status": "ok",
@@ -3772,7 +3938,7 @@
         "artist_book",
         "zine"
       ],
-      "source": "https://note.com/bookcultureclub/"
+      "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
     },
     {
       "title": "Tokyo Art Book Fair",
@@ -3783,7 +3949,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "Japan",
-      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+      "why": "Japan's most prominent artist book fair, held annually at the Museum of Contemporary Art Tokyo in Kiyosumi-shirakawa. A TABF table puts GEGYjiji's printed work in front of Tokyo curators, international collectors, and the artists who form the Japanese art-book ecosystem — all in a single weekend. Both table applications and consignment submissions are accepted.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -3801,7 +3967,7 @@
       "url_status": "ok",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "why": "Independent art bookstore in Harajuku, one of the few Tokyo shops that actively stocks watercolor-adjacent artist books and limited print editions by Japanese artists. GEGYjiji's quiet architecture work fits their curation directly. Consignment requests can be made by email; visiting the shop first to understand their current stock is recommended.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -3847,22 +4013,6 @@
       "source": "https://www.flotsambooks.com/"
     },
     {
-      "title": "MOUNT ZINE",
-      "score": 9.2,
-      "differentiated_score": 10.51,
-      "visual_fit_score": 1.75,
-      "verification": "verified",
-      "url_status": "ok",
-      "category": "zine_shop_consignment",
-      "country": "",
-      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
-      "visual_hits": [
-        "memory",
-        "zine"
-      ],
-      "source": "https://zine.mount.co.jp/"
-    },
-    {
       "title": "Submissions — Clavis Publishing",
       "score": 8.6,
       "differentiated_score": 10.38,
@@ -3871,7 +4021,7 @@
       "url_status": "ok",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Belgian illustrated-book publisher with an open, unsolicited submissions portal — rare among publishers of their scale. Their list skews toward picture books and quiet narrative illustration, which is a direct match for watercolor work built around atmosphere, interior light, and everyday observation. A no-intermediary path to international print publication that does not require an agent.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -3889,7 +4039,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Curated art book fair in Fukuoka (Kyushu) — smaller and more accessible than TABF, but professionally run and a credible first fair-booth credit before attempting the Tokyo fair. Reaching outside Tokyo builds GEGYjiji's visibility in Japan's regional art scene and keeps her from being purely a Tokyo artist. Application is direct via their website; booth fees are modest.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -3906,13 +4056,30 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Held in Jimbocho — Tokyo's historic bookseller district — this fair places artist zines and prints in front of people who buy books as a habit, not as a special event. Different from art-fair audiences: these are book people who discover visual work through browsing. A natural first booth for GEGYjiji given that Jimbocho's bookshop culture is already her kind of environment.",
       "visual_hits": [
         "artist book",
         "artist_book",
         "zine"
       ],
       "source": "https://jimbocho-zine-book-fes.com/"
+    },
+    {
+      "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+      "score": 8.8,
+      "differentiated_score": 10.27,
+      "visual_fit_score": 2.2,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "Canada",
+      "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.",
+      "visual_hits": [
+        "urban atmosphere",
+        "memory",
+        "zine"
+      ],
+      "source": "https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/"
     },
     {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -4327,7 +4494,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Los Angeles zine fair centered on Asian and Asian-American creative communities. International artists are accepted and applications are handled online — no travel required to apply. The audience already leans toward Japanese visual culture and quiet, print-focused work, which maps well to GEGYjiji's watercolor zine ambitions.",
       "visual_hits": [
         "zine"
       ],
@@ -4407,7 +4574,7 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -4424,7 +4591,7 @@
       "url_status": "error",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "why": "PERMANENTLY CLOSED March 31 2025. Website down. Not actionable.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -4914,7 +5081,7 @@
       "url_status": "missing",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit if her work is presented as a coherent printed project rather than loose portfolio images.",
+      "why": "Invitation-only publisher — no submissions. Tier 4 watch target. Approach only after established Tokyo art book ecosystem presence.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -5129,6 +5296,24 @@
   ],
   "global_reach": [
     {
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "score": 8.8,
+      "differentiated_score": 10.79,
+      "visual_fit_score": 3.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "USA",
+      "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.womenunitedartmovement.com/artmagazine"
+    },
+    {
       "title": "Fukuoka Art Book Fair",
       "score": 8.6,
       "differentiated_score": 10.34,
@@ -5137,13 +5322,30 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Curated art book fair in Fukuoka (Kyushu) — smaller and more accessible than TABF, but professionally run and a credible first fair-booth credit before attempting the Tokyo fair. Reaching outside Tokyo builds GEGYjiji's visibility in Japan's regional art scene and keeps her from being purely a Tokyo artist. Application is direct via their website; booth fees are modest.",
       "visual_hits": [
         "artist book",
         "artist_book",
         "zine"
       ],
       "source": "https://fukuokaartbookfair.com/application/"
+    },
+    {
+      "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+      "score": 8.8,
+      "differentiated_score": 10.27,
+      "visual_fit_score": 2.2,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "Canada",
+      "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.",
+      "visual_hits": [
+        "urban atmosphere",
+        "memory",
+        "zine"
+      ],
+      "source": "https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/"
     },
     {
       "title": "CSPWC Annual Open Water International Exhibition",
@@ -5388,28 +5590,13 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
         "artist_book"
       ],
       "source": "https://dergreif.org/"
-    },
-    {
-      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-      "score": 8.8,
-      "differentiated_score": 9.66,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "global_watercolor_open_call",
-      "country": "USA",
-      "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "source": "https://www.nwws.org/annual-international-open/"
     },
     {
       "title": "Japan International Watercolor Institute Online Exhibition",
@@ -5427,6 +5614,21 @@
       "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
     },
     {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "score": 8.8,
+      "differentiated_score": 9.66,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "USA",
+      "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://www.nwws.org/annual-international-open/"
+    },
+    {
       "title": "American Watercolor Society Annual International Exhibition",
       "score": 8.6,
       "differentiated_score": 9.53,
@@ -5441,6 +5643,19 @@
         "intimate scale"
       ],
       "source": "https://www.americanwatercolorsociety.org/"
+    },
+    {
+      "title": "CLOUDS Gallery+Coffee Koenji",
+      "score": 8.8,
+      "differentiated_score": 9.5,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.",
+      "visual_hits": [],
+      "source": "https://www.cloudsgallerypluscoffee.com/"
     },
     {
       "title": "Printed Matter Art Book Fairs",
@@ -5494,19 +5709,6 @@
       "source": "https://www.printedmatter.org/"
     },
     {
-      "title": "Platform China BIAP Artist Residency",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency_beijing",
-      "country": "China",
-      "why": "Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.",
-      "visual_hits": [],
-      "source": "https://www.transartists.org/en/air/platform-china"
-    },
-    {
       "title": "Shangyuan International Residency Programme",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -5518,6 +5720,19 @@
       "why": "Beijing-based residency directly relevant to Chinese identity and home country. Prestigious, no restrictions. Apply October for next year cycle.",
       "visual_hits": [],
       "source": "http://www.syartmuseum.com/english/"
+    },
+    {
+      "title": "Platform China BIAP Artist Residency",
+      "score": 8.6,
+      "differentiated_score": 9.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.",
+      "visual_hits": [],
+      "source": "https://www.transartists.org/en/air/platform-china"
     },
     {
       "title": "SCAI The Bathhouse",
@@ -5645,6 +5860,19 @@
       "why": "Possible fit based on link text: open call",
       "visual_hits": [],
       "source": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457"
+    },
+    {
+      "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+      "score": 8.6,
+      "differentiated_score": 9.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call, exhibition",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594"
     },
     {
       "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
@@ -5995,19 +6223,6 @@
       "source": "https://air-j.info/en/program/"
     },
     {
-      "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
-      "score": 8.2,
-      "differentiated_score": 8.68,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "photo_open_call",
-      "country": "Global",
-      "why": "Possible fit based on link text: open call, exhibition",
-      "visual_hits": [],
-      "source": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594"
-    },
-    {
       "title": "Asian Cultural Council Fellowship",
       "score": 7.8,
       "differentiated_score": 8.38,
@@ -6120,9 +6335,43 @@
   ],
   "easy_wins": [
     {
-      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "score": 8.8,
+      "differentiated_score": 10.79,
+      "visual_fit_score": 3.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "USA",
+      "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.womenunitedartmovement.com/artmagazine"
+    },
+    {
+      "title": "MOUNT ZINE",
       "score": 9.4,
-      "differentiated_score": 11.24,
+      "differentiated_score": 10.71,
+      "visual_fit_score": 1.75,
+      "verification": "verified",
+      "url_status": "ok",
+      "category": "zine_shop_consignment",
+      "country": "",
+      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
+      "visual_hits": [
+        "memory",
+        "zine"
+      ],
+      "source": "https://zine.mount.co.jp/"
+    },
+    {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "score": 8.8,
+      "differentiated_score": 10.64,
       "visual_fit_score": 3.25,
       "verification": "partial",
       "url_status": "ok",
@@ -6134,7 +6383,7 @@
         "artist_book",
         "zine"
       ],
-      "source": "https://note.com/bookcultureclub/"
+      "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
     },
     {
       "title": "Tokyo Art Book Fair",
@@ -6145,7 +6394,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "Japan",
-      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+      "why": "Japan's most prominent artist book fair, held annually at the Museum of Contemporary Art Tokyo in Kiyosumi-shirakawa. A TABF table puts GEGYjiji's printed work in front of Tokyo curators, international collectors, and the artists who form the Japanese art-book ecosystem — all in a single weekend. Both table applications and consignment submissions are accepted.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -6163,7 +6412,7 @@
       "url_status": "ok",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "why": "Independent art bookstore in Harajuku, one of the few Tokyo shops that actively stocks watercolor-adjacent artist books and limited print editions by Japanese artists. GEGYjiji's quiet architecture work fits their curation directly. Consignment requests can be made by email; visiting the shop first to understand their current stock is recommended.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -6209,22 +6458,6 @@
       "source": "https://www.flotsambooks.com/"
     },
     {
-      "title": "MOUNT ZINE",
-      "score": 9.2,
-      "differentiated_score": 10.51,
-      "visual_fit_score": 1.75,
-      "verification": "verified",
-      "url_status": "ok",
-      "category": "zine_shop_consignment",
-      "country": "",
-      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
-      "visual_hits": [
-        "memory",
-        "zine"
-      ],
-      "source": "https://zine.mount.co.jp/"
-    },
-    {
       "title": "Submissions — Clavis Publishing",
       "score": 8.6,
       "differentiated_score": 10.38,
@@ -6233,7 +6466,7 @@
       "url_status": "ok",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Belgian illustrated-book publisher with an open, unsolicited submissions portal — rare among publishers of their scale. Their list skews toward picture books and quiet narrative illustration, which is a direct match for watercolor work built around atmosphere, interior light, and everyday observation. A no-intermediary path to international print publication that does not require an agent.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -6251,7 +6484,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Curated art book fair in Fukuoka (Kyushu) — smaller and more accessible than TABF, but professionally run and a credible first fair-booth credit before attempting the Tokyo fair. Reaching outside Tokyo builds GEGYjiji's visibility in Japan's regional art scene and keeps her from being purely a Tokyo artist. Application is direct via their website; booth fees are modest.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -6268,13 +6501,30 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Held in Jimbocho — Tokyo's historic bookseller district — this fair places artist zines and prints in front of people who buy books as a habit, not as a special event. Different from art-fair audiences: these are book people who discover visual work through browsing. A natural first booth for GEGYjiji given that Jimbocho's bookshop culture is already her kind of environment.",
       "visual_hits": [
         "artist book",
         "artist_book",
         "zine"
       ],
       "source": "https://jimbocho-zine-book-fes.com/"
+    },
+    {
+      "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+      "score": 8.8,
+      "differentiated_score": 10.27,
+      "visual_fit_score": 2.2,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "Canada",
+      "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.",
+      "visual_hits": [
+        "urban atmosphere",
+        "memory",
+        "zine"
+      ],
+      "source": "https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/"
     },
     {
       "title": "CSPWC Annual Open Water International Exhibition",
@@ -6685,11 +6935,27 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Los Angeles zine fair centered on Asian and Asian-American creative communities. International artists are accepted and applications are handled online — no travel required to apply. The audience already leans toward Japanese visual culture and quiet, print-focused work, which maps well to GEGYjiji's watercolor zine ambitions.",
       "visual_hits": [
         "zine"
       ],
       "source": "https://www.ltzinefest.org/applications"
+    },
+    {
+      "title": "HATTIFNATT Koenji Cafe Gallery",
+      "score": 8.8,
+      "differentiated_score": 9.81,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.",
+      "visual_hits": [
+        "cats",
+        "interior light"
+      ],
+      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "Book and Sons",
@@ -6715,28 +6981,13 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
         "artist_book"
       ],
       "source": "https://dergreif.org/"
-    },
-    {
-      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-      "score": 8.8,
-      "differentiated_score": 9.66,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "global_watercolor_open_call",
-      "country": "USA",
-      "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "source": "https://www.nwws.org/annual-international-open/"
     },
     {
       "title": "Japan International Watercolor Institute Online Exhibition",
@@ -6754,6 +7005,36 @@
       "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
     },
     {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "score": 8.8,
+      "differentiated_score": 9.66,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "global_watercolor_open_call",
+      "country": "USA",
+      "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://www.nwws.org/annual-international-open/"
+    },
+    {
+      "title": "BALLOND'ESSAI Shimokitazawa",
+      "score": 8.8,
+      "differentiated_score": 9.66,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.",
+      "visual_hits": [
+        "intimate scale"
+      ],
+      "source": "http://ballondessai.com/gallery/"
+    },
+    {
       "title": "NADiff a/p/a/r/t",
       "score": 7.9,
       "differentiated_score": 9.52,
@@ -6762,13 +7043,26 @@
       "url_status": "error",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "why": "PERMANENTLY CLOSED March 31 2025. Website down. Not actionable.",
       "visual_hits": [
         "artist book",
         "artist_book",
         "zine"
       ],
       "source": "https://www.nadiff.com/"
+    },
+    {
+      "title": "CLOUDS Gallery+Coffee Koenji",
+      "score": 8.8,
+      "differentiated_score": 9.5,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.",
+      "visual_hits": [],
+      "source": "https://www.cloudsgallerypluscoffee.com/"
     },
     {
       "title": "SCCP Guest Artist",
@@ -6833,6 +7127,19 @@
       "source": "https://shimokitazawaarts.tokyo/en/home-english/"
     },
     {
+      "title": "Shangyuan International Residency Programme",
+      "score": 8.6,
+      "differentiated_score": 9.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing-based residency directly relevant to Chinese identity and home country. Prestigious, no restrictions. Apply October for next year cycle.",
+      "visual_hits": [],
+      "source": "http://www.syartmuseum.com/english/"
+    },
+    {
       "title": "3331 Arts Chiyoda",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -6870,19 +7177,6 @@
       "why": "Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.",
       "visual_hits": [],
       "source": "https://www.transartists.org/en/air/platform-china"
-    },
-    {
-      "title": "Shangyuan International Residency Programme",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency_beijing",
-      "country": "China",
-      "why": "Beijing-based residency directly relevant to Chinese identity and home country. Prestigious, no restrictions. Apply October for next year cycle.",
-      "visual_hits": [],
-      "source": "http://www.syartmuseum.com/english/"
     },
     {
       "title": "DESIGN FESTA GALLERY",
@@ -7208,6 +7502,19 @@
       "why": "Clavis Publishing Submissions is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions.",
       "visual_hits": [],
       "source": "https://www.clavis-publishing.com/submit"
+    },
+    {
+      "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+      "score": 8.6,
+      "differentiated_score": 9.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call, exhibition",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594"
     },
     {
       "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
@@ -8003,19 +8310,6 @@
       "why": "Hayama Artist Residency may matter later if her portfolio package and project statement become strong enough.",
       "visual_hits": [],
       "source": "https://hayamaartistresidency.submittable.com/submit"
-    },
-    {
-      "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
-      "score": 8.2,
-      "differentiated_score": 8.68,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "photo_open_call",
-      "country": "Global",
-      "why": "Possible fit based on link text: open call, exhibition",
-      "visual_hits": [],
-      "source": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594"
     },
     {
       "title": "そぞろ書房",
@@ -8282,7 +8576,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "Japan",
-      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+      "why": "Japan's most prominent artist book fair, held annually at the Museum of Contemporary Art Tokyo in Kiyosumi-shirakawa. A TABF table puts GEGYjiji's printed work in front of Tokyo curators, international collectors, and the artists who form the Japanese art-book ecosystem — all in a single weekend. Both table applications and consignment submissions are accepted.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -8300,7 +8594,7 @@
       "url_status": "ok",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "why": "Independent art bookstore in Harajuku, one of the few Tokyo shops that actively stocks watercolor-adjacent artist books and limited print editions by Japanese artists. GEGYjiji's quiet architecture work fits their curation directly. Consignment requests can be made by email; visiting the shop first to understand their current stock is recommended.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -8354,7 +8648,7 @@
       "url_status": "ok",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Belgian illustrated-book publisher with an open, unsolicited submissions portal — rare among publishers of their scale. Their list skews toward picture books and quiet narrative illustration, which is a direct match for watercolor work built around atmosphere, interior light, and everyday observation. A no-intermediary path to international print publication that does not require an agent.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -8372,7 +8666,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Curated art book fair in Fukuoka (Kyushu) — smaller and more accessible than TABF, but professionally run and a credible first fair-booth credit before attempting the Tokyo fair. Reaching outside Tokyo builds GEGYjiji's visibility in Japan's regional art scene and keeps her from being purely a Tokyo artist. Application is direct via their website; booth fees are modest.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -8389,7 +8683,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Held in Jimbocho — Tokyo's historic bookseller district — this fair places artist zines and prints in front of people who buy books as a habit, not as a special event. Different from art-fair audiences: these are book people who discover visual work through browsing. A natural first booth for GEGYjiji given that Jimbocho's bookshop culture is already her kind of environment.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -8758,11 +9052,27 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Los Angeles zine fair centered on Asian and Asian-American creative communities. International artists are accepted and applications are handled online — no travel required to apply. The audience already leans toward Japanese visual culture and quiet, print-focused work, which maps well to GEGYjiji's watercolor zine ambitions.",
       "visual_hits": [
         "zine"
       ],
       "source": "https://www.ltzinefest.org/applications"
+    },
+    {
+      "title": "HATTIFNATT Koenji Cafe Gallery",
+      "score": 8.8,
+      "differentiated_score": 9.81,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.",
+      "visual_hits": [
+        "cats",
+        "interior light"
+      ],
+      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "Book and Sons",
@@ -8813,6 +9123,21 @@
       "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
     },
     {
+      "title": "BALLOND'ESSAI Shimokitazawa",
+      "score": 8.8,
+      "differentiated_score": 9.66,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.",
+      "visual_hits": [
+        "intimate scale"
+      ],
+      "source": "http://ballondessai.com/gallery/"
+    },
+    {
       "title": "NADiff a/p/a/r/t",
       "score": 7.9,
       "differentiated_score": 9.52,
@@ -8821,13 +9146,26 @@
       "url_status": "error",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "why": "PERMANENTLY CLOSED March 31 2025. Website down. Not actionable.",
       "visual_hits": [
         "artist book",
         "artist_book",
         "zine"
       ],
       "source": "https://www.nadiff.com/"
+    },
+    {
+      "title": "CLOUDS Gallery+Coffee Koenji",
+      "score": 8.8,
+      "differentiated_score": 9.5,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.",
+      "visual_hits": [],
+      "source": "https://www.cloudsgallerypluscoffee.com/"
     },
     {
       "title": "3331 Arts Chiyoda",
@@ -9260,19 +9598,6 @@
       "source": "https://www.instagram.com/zinefarmtokyo/"
     },
     {
-      "title": "Spiral",
-      "score": 3.0,
-      "differentiated_score": 3.7,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "gallery_event",
-      "country": "",
-      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
-      "visual_hits": [],
-      "source": "https://www.spiral.co.jp/"
-    },
-    {
       "title": "MADO Café",
       "score": 2.6,
       "differentiated_score": 3.3,
@@ -9284,6 +9609,19 @@
       "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
       "visual_hits": [],
       "source": "https://www.instagram.com/madocafe/"
+    },
+    {
+      "title": "Spiral",
+      "score": 2.6,
+      "differentiated_score": 3.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_event",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
+      "visual_hits": [],
+      "source": "https://www.spiral.co.jp/"
     },
     {
       "title": "Clouds Art + Coffee",
@@ -9301,9 +9639,27 @@
   ],
   "needs_research": [
     {
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "score": 8.8,
+      "differentiated_score": 10.79,
+      "visual_fit_score": 3.7,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "USA",
+      "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "source": "https://www.womenunitedartmovement.com/artmagazine"
+    },
+    {
       "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-      "score": 9.4,
-      "differentiated_score": 11.24,
+      "score": 8.8,
+      "differentiated_score": 10.64,
       "visual_fit_score": 3.25,
       "verification": "partial",
       "url_status": "ok",
@@ -9315,7 +9671,7 @@
         "artist_book",
         "zine"
       ],
-      "source": "https://note.com/bookcultureclub/"
+      "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
     },
     {
       "title": "Tokyo Art Book Fair",
@@ -9326,7 +9682,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "Japan",
-      "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+      "why": "Japan's most prominent artist book fair, held annually at the Museum of Contemporary Art Tokyo in Kiyosumi-shirakawa. A TABF table puts GEGYjiji's printed work in front of Tokyo curators, international collectors, and the artists who form the Japanese art-book ecosystem — all in a single weekend. Both table applications and consignment submissions are accepted.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -9344,7 +9700,7 @@
       "url_status": "ok",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
+      "why": "Independent art bookstore in Harajuku, one of the few Tokyo shops that actively stocks watercolor-adjacent artist books and limited print editions by Japanese artists. GEGYjiji's quiet architecture work fits their curation directly. Consignment requests can be made by email; visiting the shop first to understand their current stock is recommended.",
       "visual_hits": [
         "watercolor",
         "artist book",
@@ -9398,7 +9754,7 @@
       "url_status": "ok",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Belgian illustrated-book publisher with an open, unsolicited submissions portal — rare among publishers of their scale. Their list skews toward picture books and quiet narrative illustration, which is a direct match for watercolor work built around atmosphere, interior light, and everyday observation. A no-intermediary path to international print publication that does not require an agent.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -9416,7 +9772,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Curated art book fair in Fukuoka (Kyushu) — smaller and more accessible than TABF, but professionally run and a credible first fair-booth credit before attempting the Tokyo fair. Reaching outside Tokyo builds GEGYjiji's visibility in Japan's regional art scene and keeps her from being purely a Tokyo artist. Application is direct via their website; booth fees are modest.",
       "visual_hits": [
         "artist book",
         "artist_book",
@@ -9433,13 +9789,30 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "why": "Held in Jimbocho — Tokyo's historic bookseller district — this fair places artist zines and prints in front of people who buy books as a habit, not as a special event. Different from art-fair audiences: these are book people who discover visual work through browsing. A natural first booth for GEGYjiji given that Jimbocho's bookshop culture is already her kind of environment.",
       "visual_hits": [
         "artist book",
         "artist_book",
         "zine"
       ],
       "source": "https://jimbocho-zine-book-fes.com/"
+    },
+    {
+      "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+      "score": 8.8,
+      "differentiated_score": 10.27,
+      "visual_fit_score": 2.2,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "group_publication_open_call",
+      "country": "Canada",
+      "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.",
+      "visual_hits": [
+        "urban atmosphere",
+        "memory",
+        "zine"
+      ],
+      "source": "https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/"
     },
     {
       "title": "CSPWC Annual Open Water International Exhibition",
@@ -9884,7 +10257,7 @@
       "url_status": "ok",
       "category": "fair_popup",
       "country": "",
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "why": "Los Angeles zine fair centered on Asian and Asian-American creative communities. International artists are accepted and applications are handled online — no travel required to apply. The audience already leans toward Japanese visual culture and quiet, print-focused work, which maps well to GEGYjiji's watercolor zine ambitions.",
       "visual_hits": [
         "zine"
       ],
@@ -9921,6 +10294,22 @@
         "zine"
       ],
       "source": "https://aestheticamagazine.com/art-prize/"
+    },
+    {
+      "title": "HATTIFNATT Koenji Cafe Gallery",
+      "score": 8.8,
+      "differentiated_score": 9.81,
+      "visual_fit_score": 0.9,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.",
+      "visual_hits": [
+        "cats",
+        "interior light"
+      ],
+      "source": "https://www.hattifnatt.jp/"
     },
     {
       "title": "Book and Sons",
@@ -9964,13 +10353,28 @@
       "url_status": "ok",
       "category": "photo_open_call",
       "country": "Global",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "visual_hits": [
         "watercolor",
         "artist book",
         "artist_book"
       ],
       "source": "https://dergreif.org/"
+    },
+    {
+      "title": "Japan International Watercolor Institute Online Exhibition",
+      "score": 8.8,
+      "differentiated_score": 9.66,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "japan_watercolor_open_call",
+      "country": "Japan",
+      "why": "Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
     },
     {
       "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
@@ -9988,19 +10392,19 @@
       "source": "https://www.nwws.org/annual-international-open/"
     },
     {
-      "title": "Japan International Watercolor Institute Online Exhibition",
+      "title": "BALLOND'ESSAI Shimokitazawa",
       "score": 8.8,
       "differentiated_score": 9.66,
       "visual_fit_score": 0.45,
       "verification": "partial",
       "url_status": "ok",
-      "category": "japan_watercolor_open_call",
+      "category": "cafe_gallery",
       "country": "Japan",
-      "why": "Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.",
+      "why": "Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.",
       "visual_hits": [
-        "watercolor"
+        "intimate scale"
       ],
-      "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
+      "source": "http://ballondessai.com/gallery/"
     },
     {
       "title": "American Watercolor Society Annual International Exhibition",
@@ -10027,13 +10431,26 @@
       "url_status": "error",
       "category": "bookstore_gallery",
       "country": "",
-      "why": "Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all",
+      "why": "PERMANENTLY CLOSED March 31 2025. Website down. Not actionable.",
       "visual_hits": [
         "artist book",
         "artist_book",
         "zine"
       ],
       "source": "https://www.nadiff.com/"
+    },
+    {
+      "title": "CLOUDS Gallery+Coffee Koenji",
+      "score": 8.8,
+      "differentiated_score": 9.5,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "cafe_gallery",
+      "country": "Japan",
+      "why": "Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.",
+      "visual_hits": [],
+      "source": "https://www.cloudsgallerypluscoffee.com/"
     },
     {
       "title": "SCCP Guest Artist",
@@ -10115,6 +10532,19 @@
       "source": "https://shimokitazawaarts.tokyo/en/home-english/"
     },
     {
+      "title": "Shangyuan International Residency Programme",
+      "score": 8.6,
+      "differentiated_score": 9.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "residency_beijing",
+      "country": "China",
+      "why": "Beijing-based residency directly relevant to Chinese identity and home country. Prestigious, no restrictions. Apply October for next year cycle.",
+      "visual_hits": [],
+      "source": "http://www.syartmuseum.com/english/"
+    },
+    {
       "title": "3331 Arts Chiyoda",
       "score": 8.6,
       "differentiated_score": 9.3,
@@ -10152,19 +10582,6 @@
       "why": "Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.",
       "visual_hits": [],
       "source": "https://www.transartists.org/en/air/platform-china"
-    },
-    {
-      "title": "Shangyuan International Residency Programme",
-      "score": 8.6,
-      "differentiated_score": 9.3,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "residency_beijing",
-      "country": "China",
-      "why": "Beijing-based residency directly relevant to Chinese identity and home country. Prestigious, no restrictions. Apply October for next year cycle.",
-      "visual_hits": [],
-      "source": "http://www.syartmuseum.com/english/"
     },
     {
       "title": "DESIGN FESTA GALLERY",
@@ -10503,6 +10920,19 @@
       "why": "Clavis Publishing Submissions is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions.",
       "visual_hits": [],
       "source": "https://www.clavis-publishing.com/submit"
+    },
+    {
+      "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+      "score": 8.6,
+      "differentiated_score": 9.08,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "photo_open_call",
+      "country": "Global",
+      "why": "Possible fit based on link text: open call, exhibition",
+      "visual_hits": [],
+      "source": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594"
     },
     {
       "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
@@ -11300,19 +11730,6 @@
       "source": "https://hayamaartistresidency.submittable.com/submit"
     },
     {
-      "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
-      "score": 8.2,
-      "differentiated_score": 8.68,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "photo_open_call",
-      "country": "Global",
-      "why": "Possible fit based on link text: open call, exhibition",
-      "visual_hits": [],
-      "source": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594"
-    },
-    {
       "title": "そぞろ書房",
       "score": 7.5,
       "differentiated_score": 8.64,
@@ -11526,7 +11943,7 @@
       "url_status": "missing",
       "category": "book_publishing",
       "country": "",
-      "why": "Potential fit if her work is presented as a coherent printed project rather than loose portfolio images.",
+      "why": "Invitation-only publisher — no submissions. Tier 4 watch target. Approach only after established Tokyo art book ecosystem presence.",
       "visual_hits": [
         "artist book",
         "small press",
@@ -11858,21 +12275,6 @@
       "source": "https://www.instagram.com/digaholezines/"
     },
     {
-      "title": "Picaresque Gallery",
-      "score": 3.5,
-      "differentiated_score": 4.36,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "gallery",
-      "country": "",
-      "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://picaresquejpn.com/"
-    },
-    {
       "title": "Sunny Boy Books",
       "score": 3.4,
       "differentiated_score": 4.33,
@@ -11886,6 +12288,21 @@
         "zine"
       ],
       "source": "https://www.instagram.com/sunnyboybooks/"
+    },
+    {
+      "title": "Picaresque Gallery",
+      "score": 3.1,
+      "differentiated_score": 3.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://picaresquejpn.com/"
     },
     {
       "title": "ZINE FARM TOKYO",
@@ -11904,19 +12321,6 @@
       "source": "https://www.instagram.com/zinefarmtokyo/"
     },
     {
-      "title": "Spiral",
-      "score": 3.0,
-      "differentiated_score": 3.7,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "gallery_event",
-      "country": "",
-      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
-      "visual_hits": [],
-      "source": "https://www.spiral.co.jp/"
-    },
-    {
       "title": "MADO Café",
       "score": 2.6,
       "differentiated_score": 3.3,
@@ -11928,6 +12332,19 @@
       "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
       "visual_hits": [],
       "source": "https://www.instagram.com/madocafe/"
+    },
+    {
+      "title": "Spiral",
+      "score": 2.6,
+      "differentiated_score": 3.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_event",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
+      "visual_hits": [],
+      "source": "https://www.spiral.co.jp/"
     },
     {
       "title": "Clouds Art + Coffee",
@@ -11979,21 +12396,6 @@
       "source": "https://www.instagram.com/digaholezines/"
     },
     {
-      "title": "Picaresque Gallery",
-      "score": 3.5,
-      "differentiated_score": 4.36,
-      "visual_fit_score": 0.45,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "gallery",
-      "country": "",
-      "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.",
-      "visual_hits": [
-        "memory"
-      ],
-      "source": "https://picaresquejpn.com/"
-    },
-    {
       "title": "Sunny Boy Books",
       "score": 3.4,
       "differentiated_score": 4.33,
@@ -12007,6 +12409,21 @@
         "zine"
       ],
       "source": "https://www.instagram.com/sunnyboybooks/"
+    },
+    {
+      "title": "Picaresque Gallery",
+      "score": 3.1,
+      "differentiated_score": 3.96,
+      "visual_fit_score": 0.45,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery",
+      "country": "",
+      "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.",
+      "visual_hits": [
+        "memory"
+      ],
+      "source": "https://picaresquejpn.com/"
     },
     {
       "title": "ZINE FARM TOKYO",
@@ -12025,19 +12442,6 @@
       "source": "https://www.instagram.com/zinefarmtokyo/"
     },
     {
-      "title": "Spiral",
-      "score": 3.0,
-      "differentiated_score": 3.7,
-      "visual_fit_score": 0.0,
-      "verification": "partial",
-      "url_status": "ok",
-      "category": "gallery_event",
-      "country": "",
-      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
-      "visual_hits": [],
-      "source": "https://www.spiral.co.jp/"
-    },
-    {
       "title": "MADO Café",
       "score": 2.6,
       "differentiated_score": 3.3,
@@ -12049,6 +12453,19 @@
       "why": "Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.",
       "visual_hits": [],
       "source": "https://www.instagram.com/madocafe/"
+    },
+    {
+      "title": "Spiral",
+      "score": 2.6,
+      "differentiated_score": 3.3,
+      "visual_fit_score": 0.0,
+      "verification": "partial",
+      "url_status": "ok",
+      "category": "gallery_event",
+      "country": "",
+      "why": "Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.",
+      "visual_hits": [],
+      "source": "https://www.spiral.co.jp/"
     },
     {
       "title": "Clouds Art + Coffee",
