@@ -12,8 +12,8 @@
 - Tokyo Art Book Fair — 9.2/10 — partial — ok — Rescored 8.8 → 9.2 (verification_points=5, composite=10.08)
 - ZINEフェス東京 (ZINE Fest Tokyo) — 9.2/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.2)
 - Women United ART MAGAZINE Issue XIV Summer 2026 — 8.8/10 — partial — ok — 
-- MOUNT ZINE — 9.2/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=9.98)
 - Aperture | Photography — 8.8/10 — partial — ok — Rescored 8.7 → 8.8 (verification_points=4, composite=9.43)
+- MOUNT ZINE — 9.2/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=9.98)
 - CSPWC Annual Open Water International Exhibition — 9.6/10 — partial — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=10.06)
 - submissions — porkbelly press — 8.6/10 — partial — ok — Rescored 7.6 → 8.5 (verification_points=4, composite=9.15)
 - BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — partial — ok — 

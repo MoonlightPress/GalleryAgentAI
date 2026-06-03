@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-04
 # SCCP Guest Artist
 
 ## 1. Quick Judgment
-**Fit score:** 6.1/10  
-**Fit band:** Promising  
+**Fit score:** 3.6/10  
+**Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
 **City:** Japan / Tokyo / Online  

@@ -67,6 +67,19 @@
         "source": "https://www.womenunitedartmovement.com/artmagazine"
       },
       {
+        "title": "Aperture | Photography",
+        "score": 8.8,
+        "differentiated_score": 10.58,
+        "verification": "partial",
+        "hits": [
+          "photobook",
+          "zine",
+          "artist book"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition",
+        "source": "https://aperture.org/"
+      },
+      {
         "title": "MOUNT ZINE",
         "score": 9.2,
         "differentiated_score": 10.51,
@@ -77,19 +90,6 @@
         ],
         "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
         "source": "https://zine.mount.co.jp/"
-      },
-      {
-        "title": "Aperture | Photography",
-        "score": 8.8,
-        "differentiated_score": 10.47,
-        "verification": "partial",
-        "hits": [
-          "photobook",
-          "zine",
-          "artist book"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition",
-        "source": "https://aperture.org/"
       },
       {
         "title": "submissions — porkbelly press",
@@ -274,6 +274,17 @@
         "source": "https://www.womenunitedartmovement.com/artmagazine"
       },
       {
+        "title": "Aperture | Photography",
+        "score": 8.8,
+        "differentiated_score": 10.58,
+        "verification": "partial",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition",
+        "source": "https://aperture.org/"
+      },
+      {
         "title": "MOUNT ZINE",
         "score": 9.2,
         "differentiated_score": 10.51,
@@ -283,17 +294,6 @@
         ],
         "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
         "source": "https://zine.mount.co.jp/"
-      },
-      {
-        "title": "Aperture | Photography",
-        "score": 8.8,
-        "differentiated_score": 10.47,
-        "verification": "partial",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition",
-        "source": "https://aperture.org/"
       },
       {
         "title": "submissions — porkbelly press",
@@ -431,6 +431,18 @@
         "source": "https://www.womenunitedartmovement.com/artmagazine"
       },
       {
+        "title": "Aperture | Photography",
+        "score": 8.8,
+        "differentiated_score": 10.58,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition",
+        "source": "https://aperture.org/"
+      },
+      {
         "title": "MOUNT ZINE",
         "score": 9.2,
         "differentiated_score": 10.51,
@@ -440,18 +452,6 @@
         ],
         "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
         "source": "https://zine.mount.co.jp/"
-      },
-      {
-        "title": "Aperture | Photography",
-        "score": 8.8,
-        "differentiated_score": 10.47,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition",
-        "source": "https://aperture.org/"
       },
       {
         "title": "submissions — porkbelly press",

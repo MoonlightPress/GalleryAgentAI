@@ -14,16 +14,16 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 
-### MOUNT ZINE — 9.2/10 — possibly inflated
-Risks:
-- high score but few clear supporting reasons
-
-### Aperture | Photography — 8.7/10 — needs review
+### Aperture | Photography — 8.8/10 — needs review
 Positive reasons:
 - aesthetic lineage +0.8
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
+
+### MOUNT ZINE — 9.2/10 — possibly inflated
+Risks:
+- high score but few clear supporting reasons
 
 ### CSPWC Annual Open Water International Exhibition — 9.6/10 — possibly inflated
 Positive reasons:
@@ -63,12 +63,12 @@ Positive reasons:
 Risks:
 - high score but few clear supporting reasons
 
-### 水彩アートの祭典 (Watercolor Art Festival) — 8.8/10 — needs review
+### 第113回 日本水彩展 — 9.2/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### 第113回 日本水彩展 — 9.2/10 — needs review
+### 水彩アートの祭典 (Watercolor Art Festival) — 8.8/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
@@ -113,30 +113,6 @@ Risks:
 - high difficulty
 - high score but still needs verification
 
-### TOKIO ART BOOK FAIR 2026 — 8.1/10 — needs review
-Positive reasons:
-- aesthetic lineage +0.8
-Risks:
-- many missing verification fields: submission, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### SUBMISSIONS - marblepress.com — 7.9/10 — needs review
-Risks:
-- many missing verification fields: submission, deadline, fees
-
-### 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide] — 7.9/10 — needs review
-Risks:
-- many missing verification fields: submission, fees, contact
-
-### Japan Book Publishers Association - JBPA — 7.9/10 — needs review
-Risks:
-- many missing verification fields: submission, deadline, fees
-
-### ART BOX Publishing — 7.9/10 — needs review
-Risks:
-- many missing verification fields: submission, fees, contact
-
 ### Aesthetica Art Prize — 8.2/10 — needs review
 Positive reasons:
 - global/international target
@@ -159,6 +135,12 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
+
+### TOKIO ART BOOK FAIR 2026 — 7.9/10 — needs review
+Positive reasons:
+- aesthetic lineage +0.8
+Risks:
+- many missing verification fields: submission, fees, contact
 
 ### OPA Gallery — 8.2/10 — needs review
 Risks:
@@ -196,34 +178,46 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Book and Sons — 8.2/10 — possibly inflated
-Positive reasons:
-- aesthetic lineage +0.9
+### SUBMISSIONS - marblepress.com — 7.7/10 — needs review
 Risks:
-- high score but few clear supporting reasons
+- many missing verification fields: submission, deadline, fees
+
+### 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide] — 7.7/10 — needs review
+Risks:
+- many missing verification fields: submission, fees, contact
+
+### Japan Book Publishers Association - JBPA — 7.7/10 — needs review
+Risks:
+- many missing verification fields: submission, deadline, fees
+
+### ART BOX Publishing — 7.7/10 — needs review
+Risks:
+- many missing verification fields: submission, fees, contact
 
 ### 多摩ゆかりの作家による公募展 — 8.7/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Ark Art Award 2024 — 8.6/10 — needs review
+### Book and Sons — 8.1/10 — possibly inflated
+Positive reasons:
+- aesthetic lineage +0.9
+Risks:
+- high score but few clear supporting reasons
+
+### OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery — 8.7/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Center for Book Arts Opportunities — 7.8/10 — needs review
-Positive reasons:
-- aesthetic lineage +1.2
-- global/international target
-- tag: publication
-- tag: global
+### Ark Art Award 2024 — 8.5/10 — needs review
 Risks:
-- many missing verification fields: submission, fees, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
 
-### AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 7.6/10 — needs review
+### Browse opportunities | CuratorSpace — 7.6/10 — needs review
 Risks:
-- many missing verification fields: deadline, fees, contact
+- many missing verification fields: submission, deadline, fees, contact
 
 
 ## Top Solid Matches

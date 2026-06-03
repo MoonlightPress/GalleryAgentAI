@@ -14,8 +14,8 @@ This turns project concepts into concrete submission paths.
 - Tokyo Art Book Fair
 - ZINEフェス東京 (ZINE Fest Tokyo)
 - Women United ART MAGAZINE Issue XIV Summer 2026
-- MOUNT ZINE
 - Aperture | Photography
+- MOUNT ZINE
 
 ### What To Prepare
 - 12–20 image edit
@@ -58,8 +58,8 @@ This turns project concepts into concrete submission paths.
 - Tokyo Art Book Fair
 - ZINEフェス東京 (ZINE Fest Tokyo)
 - Women United ART MAGAZINE Issue XIV Summer 2026
-- MOUNT ZINE
 - Aperture | Photography
+- MOUNT ZINE
 
 ### What To Prepare
 - 12–20 image edit

@@ -1,7 +1,7 @@
 # CLOUDS Gallery+Coffee Koenji
 
 ## 1. Quick Judgment
-**Fit score:** 9.0/10  
+**Fit score:** 8.8/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  

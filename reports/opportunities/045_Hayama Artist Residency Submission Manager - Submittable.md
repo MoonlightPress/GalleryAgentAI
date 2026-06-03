@@ -1,7 +1,7 @@
 # Hayama Artist Residency Submission Manager - Submittable
 
 ## 1. Quick Judgment
-**Fit score:** 8.6/10  
+**Fit score:** 8.4/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  

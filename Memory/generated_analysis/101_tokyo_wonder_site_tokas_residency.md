@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-03
+REPORT GENERATED: 2026-06-04
 
 # Tokyo Wonder Site / TOKAS Residency
 
 ## 1. Quick Judgment
-**Fit score:** 8.8/10  
-**Fit band:** Excellent fit  
+**Fit score:** 7.2/10  
+**Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
 **City:** Tokyo  
@@ -50,5 +50,5 @@ Bookmark their residency page and check quarterly for new calls, or subscribe to
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-03_
+_Last generated: 2026-06-04_
 

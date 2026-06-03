@@ -33,9 +33,9 @@ Strong places to research if the work becomes a sequence, zine, or photobook.
 
 Local book/zine/art-book spaces that fit her visual language and are plausible relationship targets.
 
-1. **Shimokitazawa Arts** — score 7.2, visual 0.45. **Action: Contact and propose**. Small gallery in Shimokitazawa showing younger Japanese artists monthly. Direct proposal by email to info@shimokitazawaarts.tokyo.
+1. **Shimokitazawa Arts** — score 7.1, visual 0.45. **Action: Contact and propose**. Small gallery in Shimokitazawa showing younger Japanese artists monthly. Direct proposal by email to info@shimokitazawaarts.tokyo.
    > 🇯🇵 _件名：水彩画作品の展示についてのご相談 / はじめまして。東京在住の水彩画家、GEGYjijiと申します。_
-2. **shashasha** — score 5.6, visual 2.4, verification . Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere.
+2. **shashasha** — score 5.5, visual 2.4, verification . Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere.
 
 ## Stretch Targets
 
@@ -44,10 +44,10 @@ Prestige or difficult targets. Useful as benchmarks even if not immediate.
 1. **American Watercolor Society Annual International Exhibition** — score 8.8, visual 0.9, verification . Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice.
 2. **Royal Watercolour Society Open Exhibition** — score 8.2, visual 2.4, verification . Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 3. **Royal Watercolour Society** — score 8.2, visual 2.4, verification research_needed. Native watercolor context. Strong medium fit if requirements and dates are current.
-4. **Center for Book Arts Opportunities** — score 7.6, visual 1.95, verification . Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+4. **Center for Book Arts Opportunities** — score 7.5, visual 1.95, verification . Potential fit if her work becomes more explicitly book-oriented or object/paper based.
 5. **Offprint** — score 7.5, visual 2.4, verification . Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
-6. **Cité Internationale des Arts Artist Residency** — score 7.2, visual 0.0, verification . Prestigious, Paris-based, and actively accessible to artists from Asia — a residency here would be a major career milestone and exposure to the European gallery ecosystem.
-7. **Printed Matter Art Book Fairs** — score 6.5, visual 3.25, verification . Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
+6. **Printed Matter Art Book Fairs** — score 6.5, visual 3.25, verification . Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
+7. **Cité Internationale des Arts Artist Residency** — score 7.1, visual 0.0, verification . Prestigious, Paris-based, and actively accessible to artists from Asia — a residency here would be a major career milestone and exposure to the European gallery ecosystem.
 8. **torch press** — score 6.1, visual 5.0, verification stretch_targets. Invitation-only publisher — no submissions. Tier 4 watch target. Approach only after established Tokyo art book ecosystem presence.
 
 ## Relationship Builders
@@ -56,12 +56,12 @@ Lower-pressure spaces useful for familiarity, soft outreach, or small first step
 
 1. **HATTIFNATT Koenji Cafe Gallery** — score 8.8, visual 0.9. **Action: Contact and propose**. The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
 2. **True Beauty - 2026** — score 8.2, visual 0.45, verification needs_research. 5th Juried Annual Exhibition accepting watercolor and illustration work with promotion and sales opportunities.
-3. **BALLOND'ESSAI Shimokitazawa** — score 8.1, visual 0.45. **Action: Contact and propose**. Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.
-4. **CLOUDS Gallery+Coffee Koenji** — score 8.0, visual 0.0. **Action: Contact and propose**. Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.
-5. **水性繪畫展覽 (Watercolor Exhibition)** — score 7.0, visual 1.95, verification needs_research. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
-6. **Gallery 456 Exhibition Open Call 2026** — score 7.4, visual 0.45, verification needs_research. Open call for contemporary artists emphasizing Chinese and Asian heritage work; accepts multiple mediums including watercolor.
-7. **Art Vancouver 2026** — score 7.3, visual 0.0, verification needs_research. Major art fair on Canada's West Coast presenting contemporary art and design works, accessible to international artists and galleries.
-8. **OPEN SITE 11** — score 6.6, visual 0.45, verification needs_research. Project proposal call for artist projects at TOKAS Hongo, a Tokyo-based artist-run space.
+3. **BALLOND'ESSAI Shimokitazawa** — score 8.0, visual 0.45. **Action: Contact and propose**. Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.
+4. **CLOUDS Gallery+Coffee Koenji** — score 7.9, visual 0.0. **Action: Contact and propose**. Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.
+5. **Gallery 456 Exhibition Open Call 2026** — score 7.2, visual 0.45, verification needs_research. Open call for contemporary artists emphasizing Chinese and Asian heritage work; accepts multiple mediums including watercolor.
+6. **水性繪畫展覽 (Watercolor Exhibition)** — score 6.9, visual 1.95, verification needs_research. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
+7. **Art Vancouver 2026** — score 7.2, visual 0.0, verification needs_research. Major art fair on Canada's West Coast presenting contemporary art and design works, accessible to international artists and galleries.
+8. **OPEN SITE 11** — score 6.5, visual 0.45, verification needs_research. Project proposal call for artist projects at TOKAS Hongo, a Tokyo-based artist-run space.
 
 ## Needs Research
 
@@ -73,18 +73,18 @@ Do not recommend yet. These need submission/contact/deadline verification.
 4. **Aquarelle 18 - アクワレル** — score 8.8, visual 0.45, verification needs_research. Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
 5. **コピックアワード2026** — score 8.8, visual 0.45, verification needs_research. Illustration and watercolor award accepting submissions via social media, relevant to her illustration practice.
 6. **多摩ゆかりの作家による公募展** — score 8.7, visual 0.45, verification needs_research. Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions.
-7. **Ark Art Award 2024** — score 8.5, visual 0.45, verification needs_research. Open call specifically welcoming watercolor artists at all levels to participate in a curated award exhibition.
-8. **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — score 8.7, visual 0.0, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+7. **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — score 8.7, visual 0.0, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+8. **Ark Art Award 2024** — score 8.5, visual 0.45, verification needs_research. Open call specifically welcoming watercolor artists at all levels to participate in a curated award exhibition.
 
 ## Low Priority
 
 Keep out of the main UI unless specifically requested.
 
-1. **Spiral** — score 3.6, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
-2. **Picaresque Gallery** — score 3.2, visual 0.45, verification . Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
-3. **RAW TOKYO** — score 3.3, visual 0.45, verification . Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.
-4. **2026 Kyoto Museum International Art Grand Exhibition** — score 3.7, visual 0.45, verification needs_research. International art competition hosted in Japan (Kyoto); relevant for Tokyo-based artist seeking regional opportunities.
-5. **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** — score 3.9, visual 0.0, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-6. **2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...** — score 3.9, visual 0.0, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-7. **Muninova Artist Award** — score 3.8, visual 0.0, verification needs_research. Art open call for introducing artwork to the public, accepting diverse visual art submissions.
-8. **twelvebooks** — score 3.0, visual 0.0, verification . Relevant if the work develops into an artist-book object with strong sequencing and physical presentation.
+1. **Golden Key International Art Competition** — score 3.9, visual 0.0, verification needs_research. International art competition accepting submissions from diverse artists.
+2. **2026「OPEN World Exhibition」** — score 4.0, visual 0.0, verification needs_research. Cross-cultural artistic dialogue exhibition at Toyosu Civic Center, April 17-22, 2026, accepting artists from diverse backgrounds.
+3. **Spiral** — score 3.3, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
+4. **2026 Kyoto Museum International Art Grand Exhibition** — score 3.6, visual 0.45, verification needs_research. International art competition hosted in Japan (Kyoto); relevant for Tokyo-based artist seeking regional opportunities.
+5. **Picaresque Gallery** — score 2.9, visual 0.45, verification . Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
+6. **Muninova Artist Award** — score 3.7, visual 0.0, verification needs_research. Art open call for introducing artwork to the public, accepting diverse visual art submissions.
+7. **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** — score 3.8, visual 0.0, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+8. **2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...** — score 3.8, visual 0.0, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.

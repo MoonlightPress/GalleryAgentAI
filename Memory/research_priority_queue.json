@@ -27,21 +27,6 @@
     "quick_action": "Check current open call window, digital vs. physical submission requirements, fees, and accepted paper sizes."
   },
   {
-    "title": "Offprint",
-    "score": 7.6,
-    "research_priority_score": 14.0,
-    "country": "France / UK",
-    "category": "global_art_book_fair",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email",
-      "official_website"
-    ],
-    "quick_action": "Research exhibitor criteria, fees, and past participants before treating this as actionable."
-  },
-  {
     "title": "Aesthetica Art Prize",
     "score": 8.2,
     "research_priority_score": 13.96,
@@ -56,9 +41,24 @@
     "quick_action": "Check current open call, entry fees, accepted categories, and whether works on paper / watercolor have historically been selected."
   },
   {
+    "title": "Offprint",
+    "score": 7.5,
+    "research_priority_score": 13.91,
+    "country": "France / UK",
+    "category": "global_art_book_fair",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email",
+      "official_website"
+    ],
+    "quick_action": "Research exhibitor criteria, fees, and past participants before treating this as actionable."
+  },
+  {
     "title": "Center for Book Arts Opportunities",
-    "score": 7.8,
-    "research_priority_score": 13.63,
+    "score": 7.6,
+    "research_priority_score": 13.43,
     "country": "USA",
     "category": "global_book_arts",
     "missing_fields": [
@@ -71,8 +71,8 @@
   },
   {
     "title": "Cité Internationale des Arts Artist Residency",
-    "score": 7.5,
-    "research_priority_score": 13.61,
+    "score": 7.2,
+    "research_priority_score": 13.31,
     "country": "France",
     "category": "global_residency",
     "missing_fields": [
@@ -85,8 +85,8 @@
   },
   {
     "title": "Asian Cultural Council Fellowship",
-    "score": 6.9,
-    "research_priority_score": 13.04,
+    "score": 6.7,
+    "research_priority_score": 12.84,
     "country": "USA / Global",
     "category": "global_grant_fellowship",
     "missing_fields": [
@@ -149,6 +149,18 @@
     "quick_action": "Download 2026 prospectus from nwws.org, confirm entry fee and size requirements, submit before July 8 2026."
   },
   {
+    "title": "Aperture | Photography",
+    "score": 8.8,
+    "research_priority_score": 11.1,
+    "country": "Global",
+    "category": "global_photobook",
+    "missing_fields": [
+      "submission_page",
+      "fees"
+    ],
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
+  },
+  {
     "title": "Bologna Children's Book Fair Illustrators Exhibition",
     "score": 8.8,
     "research_priority_score": 11.1,
@@ -171,18 +183,6 @@
       "fees"
     ],
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "Aperture | Photography",
-    "score": 8.7,
-    "research_priority_score": 11.0,
-    "country": "Global",
-    "category": "global_photobook",
-    "missing_fields": [
-      "submission_page",
-      "fees"
-    ],
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
     "title": "OPA Gallery",
@@ -323,23 +323,9 @@
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
-    "title": "Top Artist Opportunities for 2026 | ArtConnect",
-    "score": 7.6,
-    "research_priority_score": 10.7,
-    "country": "Global",
-    "category": "zine_print",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
-  },
-  {
     "title": "HB Gallery",
-    "score": 7.6,
-    "research_priority_score": 10.7,
+    "score": 7.5,
+    "research_priority_score": 10.6,
     "country": "Tokyo",
     "category": null,
     "missing_fields": [
@@ -351,14 +337,15 @@
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
-    "title": "DER GREIF",
-    "score": 7.9,
-    "research_priority_score": 10.6,
+    "title": "Top Artist Opportunities for 2026 | ArtConnect",
+    "score": 7.4,
+    "research_priority_score": 10.5,
     "country": "Global",
-    "category": "photo_open_call",
+    "category": "zine_print",
     "missing_fields": [
       "submission_page",
       "fees",
+      "deadline",
       "contact_email"
     ],
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
@@ -377,32 +364,6 @@
     "quick_action": "Verify submission page and deadline before applying."
   },
   {
-    "title": "ArtConnect Open Calls",
-    "score": 7.7,
-    "research_priority_score": 10.4,
-    "country": "Global",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "Society of Women Artists",
-    "score": 7.7,
-    "research_priority_score": 10.4,
-    "country": "UK",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
     "title": "Aquarium - 2026",
     "score": 8.4,
     "research_priority_score": 10.3,
@@ -414,9 +375,22 @@
     "quick_action": "Verify submission page and deadline before applying."
   },
   {
-    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+    "title": "DER GREIF",
     "score": 7.6,
     "research_priority_score": 10.3,
+    "country": "Global",
+    "category": "photo_open_call",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "contact_email"
+    ],
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
+  },
+  {
+    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+    "score": 7.5,
+    "research_priority_score": 10.2,
     "country": "Global",
     "category": "zine_print",
     "missing_fields": [
@@ -428,8 +402,8 @@
   },
   {
     "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-    "score": 7.6,
-    "research_priority_score": 10.3,
+    "score": 7.5,
+    "research_priority_score": 10.2,
     "country": "Global",
     "category": "zine_print",
     "missing_fields": [
@@ -440,53 +414,39 @@
     "quick_action": "Open and verify whether this is current and relevant."
   },
   {
-    "title": "True Beauty - 2026",
-    "score": 8.3,
+    "title": "ArtConnect Open Calls",
+    "score": 7.5,
     "research_priority_score": 10.2,
+    "country": "Global",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "Society of Women Artists",
+    "score": 7.5,
+    "research_priority_score": 10.2,
+    "country": "UK",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "True Beauty - 2026",
+    "score": 8.2,
+    "research_priority_score": 10.1,
     "country": "International",
     "category": "global_open_call",
     "missing_fields": [
       "fees"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "NY公募展2026夏（NY Open Call Exhibition Summer 2026）",
-    "score": 7.9,
-    "research_priority_score": 10.2,
-    "country": "United States",
-    "category": "global_open_call",
-    "missing_fields": [
-      "fees",
-      "contact_email"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "Japan Watercolor Society Annual Exhibition",
-    "score": 5.5,
-    "research_priority_score": 10.12,
-    "country": "Japan",
-    "category": "japan_watercolor_institution",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email",
-      "official_website"
-    ],
-    "quick_action": "Research current membership structure, open entry process, exhibition dates, and submission requirements in Japanese."
-  },
-  {
-    "title": "水性繪畫展覽 (Watercolor Exhibition)",
-    "score": 7.4,
-    "research_priority_score": 10.1,
-    "country": "International",
-    "category": "global_watercolor_open_call",
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "contact_email"
     ],
     "quick_action": "Verify submission page and deadline before applying."
   },
@@ -506,6 +466,44 @@
     "title": "コピックアワード2026",
     "score": 8.8,
     "research_priority_score": 10.0,
+    "country": "Japan",
+    "category": "japan_watercolor_open_call",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "contact_email"
+    ],
+    "quick_action": "Verify submission page and deadline before applying."
+  },
+  {
+    "title": "多摩ゆかりの作家による公募展",
+    "score": 8.7,
+    "research_priority_score": 9.9,
+    "country": "Japan",
+    "category": "japan_watercolor_open_call",
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "contact_email"
+    ],
+    "quick_action": "Verify submission page and deadline before applying."
+  },
+  {
+    "title": "NY公募展2026夏（NY Open Call Exhibition Summer 2026）",
+    "score": 7.6,
+    "research_priority_score": 9.9,
+    "country": "United States",
+    "category": "global_open_call",
+    "missing_fields": [
+      "fees",
+      "contact_email"
+    ],
+    "quick_action": "Verify submission page and deadline before applying."
+  },
+  {
+    "title": "Ark Art Award 2024",
+    "score": 8.5,
+    "research_priority_score": 9.7,
     "country": "Japan",
     "category": "japan_watercolor_open_call",
     "missing_fields": [

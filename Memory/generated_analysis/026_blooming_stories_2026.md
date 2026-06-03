@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-04
 # Blooming Stories 2026
 
 ## 1. Quick Judgment
-**Fit score:** 9.4/10  
+**Fit score:** 9.3/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Japan Watercolor Open Call  

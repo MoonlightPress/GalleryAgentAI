@@ -110,6 +110,12 @@ These opportunities may create disproportionate reputation value.
 - Why: Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## Aperture | Photography
+
+- Prestige: 0
+- Why: Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## BOOOOOOOM 2026 Art & Photo Book Award
 
 - Prestige: None
@@ -144,10 +150,4 @@ These opportunities may create disproportionate reputation value.
 
 - Prestige: None
 - Why: The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Jinny Street Gallery Open Call
-
-- Prestige: None
-- Why: Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

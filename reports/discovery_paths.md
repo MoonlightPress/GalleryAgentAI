@@ -33,6 +33,11 @@ This report suggests adjacent institutions and ecosystems.
 ## Women United ART MAGAZINE Issue XIV Summer 2026
 
 
+## Aperture | Photography
+
+- Self Publish, Be Happy (similarity 3)
+- Home - Printed Matter (similarity 3)
+
 ## BOOOOOOOM 2026 Art & Photo Book Award
 
 
@@ -49,7 +54,4 @@ This report suggests adjacent institutions and ecosystems.
 
 
 ## 水彩アートの祭典 (Watercolor Art Festival)
-
-
-## HATTIFNATT Koenji Cafe Gallery
 

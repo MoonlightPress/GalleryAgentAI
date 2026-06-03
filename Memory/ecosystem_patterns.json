@@ -2,7 +2,7 @@
   "dominant_countries": [
     [
       "Japan",
-      28
+      27
     ],
     [
       "Global",
@@ -13,6 +13,10 @@
       7
     ],
     [
+      "Canada",
+      6
+    ],
+    [
       "USA",
       5
     ],
@@ -21,19 +25,11 @@
       5
     ],
     [
-      "Canada",
-      4
-    ],
-    [
       "UK",
       3
     ],
     [
       "UK / Global",
-      2
-    ],
-    [
-      "Singapore",
       2
     ],
     [
@@ -45,11 +41,15 @@
       1
     ],
     [
-      "China",
+      "Singapore",
       1
     ],
     [
       "France",
+      1
+    ],
+    [
+      "China",
       1
     ],
     [
@@ -64,35 +64,27 @@
   "dominant_categories": [
     [
       "book_publishing",
-      14
+      15
     ],
     [
       "zine_print",
-      12
+      13
     ],
     [
       "japan_watercolor_open_call",
-      11
-    ],
-    [
-      "gallery",
-      9
+      10
     ],
     [
       "global_open_call",
       8
     ],
     [
+      "gallery",
+      8
+    ],
+    [
       "global_watercolor_open_call",
       6
-    ],
-    [
-      "residency",
-      5
-    ],
-    [
-      "artist_space",
-      5
     ],
     [
       "bookstore_gallery",
@@ -103,7 +95,19 @@
       4
     ],
     [
+      "residency",
+      4
+    ],
+    [
+      "institutional",
+      4
+    ],
+    [
       "cafe_gallery",
+      3
+    ],
+    [
+      "artist_space",
       3
     ],
     [
@@ -127,10 +131,6 @@
       2
     ],
     [
-      "global_residency",
-      2
-    ],
-    [
       "zine_shop_consignment",
       1
     ],
@@ -146,35 +146,35 @@
   "dominant_tags": [
     [
       "jp",
-      20
+      19
     ],
     [
       "japanese_source",
-      20
+      19
     ],
     [
       "japan",
-      20
+      19
     ],
     [
       "has_deadline",
-      15
+      17
     ],
     [
       "has_submission_url",
-      15
-    ],
-    [
-      "secondary",
-      14
-    ],
-    [
-      "",
       14
     ],
     [
       "watercolor_ok",
-      14
+      13
+    ],
+    [
+      "secondary",
+      12
+    ],
+    [
+      "",
+      12
     ],
     [
       "global",
@@ -182,11 +182,15 @@
     ],
     [
       "diaspora",
-      10
+      11
     ],
     [
       "diaspora_community",
-      10
+      11
+    ],
+    [
+      "chinese_source",
+      6
     ],
     [
       "tokyo",
@@ -214,10 +218,6 @@
     ],
     [
       "watercolor",
-      4
-    ],
-    [
-      "chinese_source",
       4
     ],
     [

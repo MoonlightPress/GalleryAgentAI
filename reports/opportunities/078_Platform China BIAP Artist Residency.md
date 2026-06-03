@@ -1,7 +1,7 @@
 # Platform China BIAP Artist Residency
 
 ## 1. Quick Judgment
-**Fit score:** 9.8/10  
+**Fit score:** 8.6/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Residency Beijing  
@@ -47,4 +47,4 @@ Email Platform China BIAP directly: No. 319-1 East End Art-A, Caochangdi Village
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_

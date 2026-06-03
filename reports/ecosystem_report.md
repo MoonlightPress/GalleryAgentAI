@@ -123,19 +123,19 @@ This is the strongest immediate ecosystem for her visual language: quiet photogr
 - **Tokyo Art Book Fair** — score 9.2, differentiated 11.19; matched: TOKYO ART BOOK FAIR
 - **MOUNT ZINE** — score 9.2, differentiated 10.51; matched: MOUNT ZINE
 - **UTRECHT** — score 8.2, differentiated 10.19; matched: UTRECHT
-- **TOKIO ART BOOK FAIR 2026** — score 8.1, differentiated 9.6; matched: TOKYO ART BOOK FAIR
-- **flotsam books** — score 7.1, differentiated 9.09; matched: flotsam books
-- **POST** — score 6.5, differentiated 7.71; matched: POST
-- **shashasha** — score 5.8, differentiated 6.76; matched: Shashasha
+- **TOKIO ART BOOK FAIR 2026** — score 7.9, differentiated 9.4; matched: TOKYO ART BOOK FAIR
+- **flotsam books** — score 6.6, differentiated 8.59; matched: flotsam books
+- **POST** — score 6.4, differentiated 7.61; matched: POST
+- **shashasha** — score 5.6, differentiated 6.56; matched: Shashasha
 
 ### International Photobook Publishing
 This is the long-horizon ecosystem for international publication legitimacy.
 
-- **Aperture | Photography** — score 8.7, differentiated 10.47; matched: Aperture
-- **Offprint** — score 7.6, differentiated 9.04; matched: Offprint
+- **Aperture | Photography** — score 8.8, differentiated 10.58; matched: Aperture
+- **Offprint** — score 7.5, differentiated 8.93; matched: Offprint
 - **Self Publish, Be Happy** — score 6.5, differentiated 8.31; matched: Self Publish, Be Happy
-- **Gallery Conceal Shibuya** — score 6.0, differentiated 6.7; matched: VOID
-- **Picaresque Gallery** — score 4.0, differentiated 4.86; matched: VOID
+- **Gallery Conceal Shibuya** — score 5.2, differentiated 5.9; matched: VOID
+- **Picaresque Gallery** — score 3.2, differentiated 4.06; matched: VOID
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.
@@ -147,6 +147,6 @@ These are useful for soft visibility and relationship-building before major appl
 
 - **MOUNT ZINE** — score 9.2, differentiated 10.51; matched: MOUNT ZINE
 - **UTRECHT** — score 8.2, differentiated 10.19; matched: UTRECHT
-- **B&B Shimokitazawa** — score 7.1, differentiated 9.09; matched: B&B Shimokitazawa
-- **flotsam books** — score 7.1, differentiated 9.09; matched: flotsam books
-- **POST** — score 6.5, differentiated 7.71; matched: POST
+- **B&B Shimokitazawa** — score 6.6, differentiated 8.59; matched: B&B Shimokitazawa
+- **flotsam books** — score 6.6, differentiated 8.59; matched: flotsam books
+- **POST** — score 6.4, differentiated 7.61; matched: POST

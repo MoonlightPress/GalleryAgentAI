@@ -1,7 +1,7 @@
 # Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition
 
 ## 1. Quick Judgment
-**Fit score:** 8.8/10  
+**Fit score:** 8.4/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Global Open Call  

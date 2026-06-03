@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-04
 
 # Aperture | Photography
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 9.0/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Global Photobook  
 **City:** Online  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
 
 - **Official/source website**: https://aperture.org/ (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: Call Closed: 2026 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -36,7 +36,7 @@ Potential fit based on source context and keyword overlap: artist book / waterco
 - Keyword hits: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** Call Closed: 2026
 - **Fees:** Not publicly listed
 - **Submission page:** Not publicly listed
 - **Source:** https://aperture.org/
@@ -50,5 +50,5 @@ Open source, verify current opportunities, submission process, fees, deadline, a
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_
 

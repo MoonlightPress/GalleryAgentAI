@@ -1,7 +1,7 @@
 # DESIGN FESTA GALLERY
 
 ## 1. Quick Judgment
-**Fit score:** 7.6/10  
+**Fit score:** 7.2/10  
 **Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
@@ -47,4 +47,4 @@ Skip—this conflicts directly with your stated positioning goals and avoidance 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_

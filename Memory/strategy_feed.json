@@ -11,22 +11,22 @@
       "image": ""
     },
     {
-      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-      "bucket": "easy_win",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Zine Fair Booth",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
       "title": "Tokyo Art Book Fair",
       "bucket": "easy_win",
       "score": 9.2,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "bucket": "easy_win",
+      "score": 9.2,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Zine Fair Booth",
       "city": "Tokyo",
       "image": ""
     },
@@ -81,6 +81,16 @@
       "image": ""
     },
     {
+      "title": "Aperture | Photography",
+      "bucket": "easy_win",
+      "score": 8.8,
+      "confidence": "Medium",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Global Photobook",
+      "city": "Online",
+      "image": ""
+    },
+    {
       "title": "BOOOOOOOM 2026 Art & Photo Book Award",
       "bucket": "easy_win",
       "score": 8.8,
@@ -92,16 +102,6 @@
     },
     {
       "title": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
-      "bucket": "easy_win",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Japan Watercolor Open Call",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "水彩アートの祭典 (Watercolor Art Festival)",
       "bucket": "easy_win",
       "score": 8.8,
       "confidence": "High",
@@ -133,22 +133,22 @@
       "image": ""
     },
     {
-      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-      "bucket": "easy_win",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Zine Fair Booth",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
       "title": "Tokyo Art Book Fair",
       "bucket": "easy_win",
       "score": 9.2,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "bucket": "easy_win",
+      "score": 9.2,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Zine Fair Booth",
       "city": "Tokyo",
       "image": ""
     },
@@ -203,6 +203,16 @@
       "image": ""
     },
     {
+      "title": "Aperture | Photography",
+      "bucket": "easy_win",
+      "score": 8.8,
+      "confidence": "Medium",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Global Photobook",
+      "city": "Online",
+      "image": ""
+    },
+    {
       "title": "BOOOOOOOM 2026 Art & Photo Book Award",
       "bucket": "easy_win",
       "score": 8.8,
@@ -214,16 +224,6 @@
     },
     {
       "title": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
-      "bucket": "easy_win",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Japan Watercolor Open Call",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "水彩アートの祭典 (Watercolor Art Festival)",
       "bucket": "easy_win",
       "score": 8.8,
       "confidence": "High",
@@ -267,7 +267,7 @@
     {
       "title": "Offprint",
       "bucket": "career_changing",
-      "score": 7.6,
+      "score": 7.5,
       "confidence": "Medium",
       "reason": "High-prestige opportunity with strong long-term impact.",
       "category": "Global Art Book Fair",
@@ -277,7 +277,7 @@
     {
       "title": "Cité Internationale des Arts Artist Residency",
       "bucket": "career_changing",
-      "score": 7.5,
+      "score": 7.2,
       "confidence": "Medium",
       "reason": "High-prestige opportunity with strong long-term impact.",
       "category": "Global Residency",
@@ -286,26 +286,6 @@
     }
   ],
   "portfolio_builders": [
-    {
-      "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-      "bucket": "portfolio_builder",
-      "score": 7.6,
-      "confidence": "Medium",
-      "reason": "Good opportunity for publication history and portfolio depth.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Online",
-      "image": ""
-    },
-    {
-      "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-      "bucket": "portfolio_builder",
-      "score": 7.6,
-      "confidence": "Medium",
-      "reason": "Good opportunity for publication history and portfolio depth.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Online",
-      "image": ""
-    },
     {
       "title": "Browse opportunities | CuratorSpace",
       "bucket": "portfolio_builder",
@@ -317,9 +297,29 @@
       "image": ""
     },
     {
+      "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+      "bucket": "portfolio_builder",
+      "score": 7.5,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+      "bucket": "portfolio_builder",
+      "score": 7.5,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
       "title": "LOCAL Gallery・Books",
       "bucket": "portfolio_builder",
-      "score": 7.6,
+      "score": 7.4,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -329,7 +329,7 @@
     {
       "title": "Tacoche",
       "bucket": "portfolio_builder",
-      "score": 7.6,
+      "score": 7.4,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -339,7 +339,7 @@
     {
       "title": "Books Ruhe",
       "bucket": "portfolio_builder",
-      "score": 7.6,
+      "score": 7.4,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -349,7 +349,7 @@
     {
       "title": "tata bookshop/gallery",
       "bucket": "portfolio_builder",
-      "score": 7.6,
+      "score": 7.4,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -359,7 +359,7 @@
     {
       "title": "本店・本屋の実験室",
       "bucket": "portfolio_builder",
-      "score": 7.6,
+      "score": 7.4,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -369,7 +369,7 @@
     {
       "title": "Top Artist Opportunities for 2026 | ArtConnect",
       "bucket": "portfolio_builder",
-      "score": 7.6,
+      "score": 7.4,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -379,7 +379,7 @@
     {
       "title": "日記屋 月日",
       "bucket": "portfolio_builder",
-      "score": 7.3,
+      "score": 7.0,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -389,7 +389,7 @@
     {
       "title": "flotsam books",
       "bucket": "portfolio_builder",
-      "score": 7.1,
+      "score": 6.6,
       "confidence": "High",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -411,7 +411,17 @@
     {
       "title": "Art Vancouver 2026",
       "bucket": "community_builder",
-      "score": 7.6,
+      "score": 7.3,
+      "confidence": "Medium",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Vancouver",
+      "image": ""
+    },
+    {
+      "title": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
+      "bucket": "community_builder",
+      "score": 6.0,
       "confidence": "Medium",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -421,7 +431,7 @@
     {
       "title": "Yonchome Cafe",
       "bucket": "community_builder",
-      "score": 6.5,
+      "score": 5.9,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -431,8 +441,28 @@
     {
       "title": "ART FAIR TOKYO 21",
       "bucket": "community_builder",
-      "score": 6.4,
+      "score": 5.9,
       "confidence": "High",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Aoyama Farmers Market",
+      "bucket": "community_builder",
+      "score": 5.6,
+      "confidence": "High",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Tokyo Gendai 2026",
+      "bucket": "community_builder",
+      "score": 5.5,
+      "confidence": "Medium",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
       "city": "Tokyo",
@@ -441,7 +471,7 @@
     {
       "title": "ZINEイベント",
       "bucket": "community_builder",
-      "score": 6.1,
+      "score": 5.3,
       "confidence": "Medium",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -449,29 +479,9 @@
       "image": ""
     },
     {
-      "title": "Aoyama Farmers Market",
-      "bucket": "community_builder",
-      "score": 6.1,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
-      "bucket": "community_builder",
-      "score": 6.1,
-      "confidence": "Medium",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Vancouver",
-      "image": ""
-    },
-    {
       "title": "BONUS TRACK",
       "bucket": "community_builder",
-      "score": 6.0,
+      "score": 5.2,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -481,7 +491,7 @@
     {
       "title": "reload Shimokitazawa",
       "bucket": "community_builder",
-      "score": 5.7,
+      "score": 5.2,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -489,9 +499,19 @@
       "image": ""
     },
     {
+      "title": "ART SG 2026",
+      "bucket": "community_builder",
+      "score": 5.2,
+      "confidence": "Medium",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Singapore",
+      "image": ""
+    },
+    {
       "title": "Cafe Mame-Hico",
       "bucket": "community_builder",
-      "score": 5.6,
+      "score": 5.1,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -501,31 +521,11 @@
     {
       "title": "Cafe Cross Point",
       "bucket": "community_builder",
-      "score": 5.6,
+      "score": 5.1,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
       "city": "Koenji",
-      "image": ""
-    },
-    {
-      "title": "Cafe Gallery HATTIFNATT",
-      "bucket": "community_builder",
-      "score": 5.6,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Cafe / Local Wall Spaces",
-      "city": "Koenji",
-      "image": ""
-    },
-    {
-      "title": "Tokyo Gendai 2026",
-      "bucket": "community_builder",
-      "score": 5.6,
-      "confidence": "Medium",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
       "image": ""
     }
   ],
@@ -561,6 +561,17 @@
       "category": "Group Publication Open Call",
       "city": "International",
       "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "Aperture | Photography",
+      "bucket": "global_targets",
+      "score": 8.8,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Photobook",
+      "city": "Online",
+      "country": "Global",
       "image": ""
     },
     {
@@ -608,17 +619,6 @@
       "image": ""
     },
     {
-      "title": "Aperture | Photography",
-      "bucket": "global_targets",
-      "score": 8.7,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Photobook",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
       "title": "Still Life - 2026",
       "bucket": "global_targets",
       "score": 8.5,
@@ -644,17 +644,6 @@
       "title": "Aquarium - 2026",
       "bucket": "global_targets",
       "score": 8.4,
-      "confidence": "Medium",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Open Call",
-      "city": "International",
-      "country": "International",
-      "image": ""
-    },
-    {
-      "title": "True Beauty - 2026",
-      "bucket": "global_targets",
-      "score": 8.3,
       "confidence": "Medium",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Global Open Call",
@@ -727,6 +716,17 @@
       "city": null,
       "country": "Global",
       "image": ""
+    },
+    {
+      "title": "Jackson's Art Prize",
+      "bucket": "global_targets",
+      "score": 8.2,
+      "confidence": "Medium",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Other",
+      "city": null,
+      "country": "Global",
+      "image": ""
     }
   ],
   "publication_targets": [
@@ -764,6 +764,17 @@
       "image": ""
     },
     {
+      "title": "Aperture | Photography",
+      "bucket": "publication_targets",
+      "score": 8.8,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Photobook",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
       "title": "BOOOOOOOM 2026 Art & Photo Book Award",
       "bucket": "publication_targets",
       "score": 8.8,
@@ -772,17 +783,6 @@
       "category": "Group Publication Open Call",
       "city": "Vancouver (international)",
       "country": "Canada",
-      "image": ""
-    },
-    {
-      "title": "Aperture | Photography",
-      "bucket": "publication_targets",
-      "score": 8.7,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Global Photobook",
-      "city": "Online",
-      "country": "Global",
       "image": ""
     },
     {
@@ -821,7 +821,7 @@
     {
       "title": "Book and Sons",
       "bucket": "publication_targets",
-      "score": 8.2,
+      "score": 8.1,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Print / Zines / Bookstores",
@@ -832,7 +832,7 @@
     {
       "title": "TOKIO ART BOOK FAIR 2026",
       "bucket": "publication_targets",
-      "score": 8.1,
+      "score": 7.9,
       "confidence": "Medium",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Zine Fair Booth",
@@ -843,7 +843,7 @@
     {
       "title": "SUBMISSIONS - marblepress.com",
       "bucket": "publication_targets",
-      "score": 7.9,
+      "score": 7.7,
       "confidence": "Medium",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Book Publishing",
@@ -854,7 +854,7 @@
     {
       "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
       "bucket": "publication_targets",
-      "score": 7.9,
+      "score": 7.7,
       "confidence": "Medium",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Book Publishing",
@@ -865,7 +865,7 @@
     {
       "title": "Japan Book Publishers Association - JBPA",
       "bucket": "publication_targets",
-      "score": 7.9,
+      "score": 7.7,
       "confidence": "Medium",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Book Publishing",
@@ -876,7 +876,7 @@
     {
       "title": "ART BOX Publishing",
       "bucket": "publication_targets",
-      "score": 7.9,
+      "score": 7.7,
       "confidence": "Medium",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Book Publishing",
@@ -885,20 +885,9 @@
       "image": ""
     },
     {
-      "title": "DER GREIF",
-      "bucket": "publication_targets",
-      "score": 7.9,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Photo Open Call",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
       "title": "Center for Book Arts Opportunities",
       "bucket": "publication_targets",
-      "score": 7.8,
+      "score": 7.6,
       "confidence": "Medium",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Global Book Arts",
@@ -907,7 +896,7 @@
       "image": ""
     },
     {
-      "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+      "title": "Browse opportunities | CuratorSpace",
       "bucket": "publication_targets",
       "score": 7.6,
       "confidence": "Medium",
@@ -918,9 +907,20 @@
       "image": ""
     },
     {
-      "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+      "title": "DER GREIF",
       "bucket": "publication_targets",
       "score": 7.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+      "bucket": "publication_targets",
+      "score": 7.5,
       "confidence": "Medium",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Print / Zines / Bookstores",

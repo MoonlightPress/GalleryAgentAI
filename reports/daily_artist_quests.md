@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin submission process.
-- Research OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  submission process.
-- Research Bologna Children's Book Fair Illustrators Exhibition submission process.
-- Research Top Artist Opportunities for 2026 | ArtConnect submission process.
-- Research Cité Internationale des Arts Artist Residency submission process.
-- Compare BOOOOOOOM 2026 Art & Photo Book Award to similar institutions.
+- Research Self Publish, Be Happy submission process.
+- Research Society of Women Artists submission process.
+- Research Royal Watercolour Society Open Exhibition submission process.
+- Research Women United ART MAGAZINE Issue XIV Summer 2026 submission process.
+- Research Still Life - 2026 submission process.
 - Compare Printed Matter Art Book Fairs to similar institutions.
-- Compare Center for Book Arts Opportunities to similar institutions.
+- Compare World Illustration Awards to similar institutions.
+- Compare OPA Gallery to similar institutions.

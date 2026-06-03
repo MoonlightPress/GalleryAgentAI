@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-04
 
 # Komiyama Tokyo
 
 ## 1. Quick Judgment
-**Fit score:** 7.1/10  
-**Fit band:** Strong fit  
+**Fit score:** 6.4/10  
+**Fit band:** Promising  
 **Confidence:** Low  
 **Type:** Book Publishing  
 **City:** Tokyo  
@@ -50,5 +50,5 @@ Use as a benchmark for book quality, subject matter, pricing, and presentation.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_
 

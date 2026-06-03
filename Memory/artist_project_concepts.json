@@ -128,6 +128,17 @@
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
       },
       {
+        "title": "Aperture | Photography",
+        "score": 8.8,
+        "differentiated_score": 10.58,
+        "hits": [
+          "photobook",
+          "zine",
+          "artist book"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+      },
+      {
         "title": "MOUNT ZINE",
         "score": 9.2,
         "differentiated_score": 10.51,
@@ -135,17 +146,6 @@
           "zine"
         ],
         "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
-        "title": "Aperture | Photography",
-        "score": 8.7,
-        "differentiated_score": 10.47,
-        "hits": [
-          "photobook",
-          "zine",
-          "artist book"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
         "title": "submissions — porkbelly press",
@@ -233,8 +233,8 @@
       },
       {
         "title": "Aperture | Photography",
-        "score": 8.7,
-        "differentiated_score": 10.47,
+        "score": 8.8,
+        "differentiated_score": 10.58,
         "hits": [
           "artist book"
         ],
@@ -269,8 +269,8 @@
       },
       {
         "title": "Center for Book Arts Opportunities",
-        "score": 7.8,
-        "differentiated_score": 9.23,
+        "score": 7.6,
+        "differentiated_score": 9.03,
         "hits": [
           "artist book"
         ],
@@ -278,8 +278,8 @@
       },
       {
         "title": "Offprint",
-        "score": 7.6,
-        "differentiated_score": 9.04,
+        "score": 7.5,
+        "differentiated_score": 8.93,
         "hits": [
           "artist book"
         ],
@@ -287,8 +287,8 @@
       },
       {
         "title": "Tacoche",
-        "score": 7.6,
-        "differentiated_score": 8.98,
+        "score": 7.4,
+        "differentiated_score": 8.78,
         "hits": [
           "artist book"
         ],
@@ -381,6 +381,16 @@
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
       },
       {
+        "title": "Aperture | Photography",
+        "score": 8.8,
+        "differentiated_score": 10.58,
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+      },
+      {
         "title": "MOUNT ZINE",
         "score": 9.2,
         "differentiated_score": 10.51,
@@ -388,16 +398,6 @@
           "zine"
         ],
         "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
-        "title": "Aperture | Photography",
-        "score": 8.7,
-        "differentiated_score": 10.47,
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
         "title": "submissions — porkbelly press",
@@ -502,8 +502,8 @@
       },
       {
         "title": "Aperture | Photography",
-        "score": 8.7,
-        "differentiated_score": 10.47,
+        "score": 8.8,
+        "differentiated_score": 10.58,
         "hits": [
           "photography"
         ],
@@ -546,22 +546,22 @@
         "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
       },
       {
+        "title": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
+        "score": 8.7,
+        "differentiated_score": 9.18,
+        "hits": [
+          "open call"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+      },
+      {
         "title": "Ark Art Award 2024",
-        "score": 8.6,
-        "differentiated_score": 9.24,
+        "score": 8.5,
+        "differentiated_score": 9.14,
         "hits": [
           "open call"
         ],
         "why": "Open call specifically welcoming watercolor artists at all levels to participate in a curated award exhibition."
-      },
-      {
-        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-        "score": 7.6,
-        "differentiated_score": 9.22,
-        "hits": [
-          "open call"
-        ],
-        "why": "Possible fit based on link text: zine, open call"
       }
     ]
   }
