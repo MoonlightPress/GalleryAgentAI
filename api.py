@@ -211,6 +211,7 @@ def shape_card(opp: dict) -> dict:
     org      = opp.get("organization") or _opp_name(opp)
     name     = _opp_name(opp)
     score    = _overall_score(opp)
+    summary  = opp.get("one_sentence", "")
 
     return {
         "id":              _opp_id(opp),
@@ -225,10 +226,15 @@ def shape_card(opp: dict) -> dict:
         "overall_score":   score,
         "official_website": opp.get("official_website", ""),
         "submission_page": opp.get("submission_page", ""),
-        "effort":          "",   # compact_opportunities doesn't carry effort
-        # Card text
-        "summary":         opp.get("one_sentence", "")[:180],
-        "overview":        opp.get("one_sentence", ""),
+        "contact":         opp.get("contact") or opp.get("contact_email") or "",
+        "contact_url":     opp.get("contact_url", ""),
+        "contact_note":    opp.get("contact_note", ""),
+        "effort":          "",
+        # Card text — English source + pre-translated variants
+        "summary":         summary[:180],
+        "summary_zh":      opp.get("summary_zh", ""),
+        "summary_ja":      opp.get("summary_ja", ""),
+        "overview":        summary,
         "why_it_fits":     opp.get("why_this_fits_short", ""),
         "next_action":     opp.get("quick_action", ""),
         "soft_warning":    opp.get("verification_summary", ""),

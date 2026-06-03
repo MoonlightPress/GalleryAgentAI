@@ -30,44 +30,43 @@ def has_distinct_submission_page(opp):
 
 def verification_points(opp):
     points = 0
-
     if opp.get("url_verification_status") == "ok":
         points += 2
-
     if has_distinct_submission_page(opp):
         points += 2
-
     if is_real(opp.get("deadline")):
         points += 1
-
     if is_real(opp.get("fees")):
         points += 1
-
     if is_real(opp.get("contact") or opp.get("email") or opp.get("contact_url") or opp.get("contact_email")):
         points += 1
-
     return points
 
 
-def cap_for(opp):
-    points = verification_points(opp)
+# Tier ceilings: verified entries earn higher max scores.
+TIER_CEILINGS = {0: 6.5, 1: 6.5, 2: 7.6, 3: 8.2, 4: 8.8, 5: 9.2, 6: 9.6, 7: 9.6}
 
-    if points <= 1:
-        return 6.5
+# Verification weight: how much to trust raw scores at each verification level.
+# Calibrated so a quality composite of ~9.5 hits the tier ceiling.
+V_WEIGHTS = {0: 0.68, 1: 0.74, 2: 0.80, 3: 0.86, 4: 0.93, 5: 0.97, 6: 1.0, 7: 1.0}
 
-    if points == 2:
-        return 7.6
 
-    if points == 3:
-        return 8.2
+def quality_composite(opp):
+    """Weighted blend of quality signals. Uses fallback chain so missing fields don't zero-out."""
+    d = float(opp.get("differentiated_score") or opp.get("overall_score") or 0)
+    t = float(opp.get("truth_aligned_score") or d)
+    p = float(opp.get("source_purity_score") or d)
+    pp = float(opp.get("painting_priority_score") or d)
+    return 0.40 * d + 0.30 * t + 0.20 * p + 0.10 * pp
 
-    if points == 4:
-        return 8.8
 
-    if points == 5:
-        return 9.2
-
-    return 9.6
+def guarded_score(opp):
+    pts = min(verification_points(opp), 7)
+    ceiling = TIER_CEILINGS[pts]
+    weight = V_WEIGHTS[pts]
+    composite = quality_composite(opp)
+    raw = composite * weight
+    return round(min(raw, ceiling), 1)
 
 
 def main():
@@ -76,7 +75,8 @@ def main():
     lines = [
         "# Final Score Guard Report",
         "",
-        "This runs at the end of the pipeline so later scoring scripts cannot inflate weakly verified opportunities.",
+        "Scores now reflect BOTH verification strength AND quality signals,",
+        "eliminating the hard-cap clustering problem.",
         "",
     ]
 
@@ -84,14 +84,21 @@ def main():
 
     for opp in opps:
         old = float(opp.get("overall_score", 0) or 0)
-        cap = cap_for(opp)
+        new = guarded_score(opp)
 
-        if old > cap:
+        if abs(old - new) >= 0.05:
             opp["pre_final_guard_score"] = old
-            opp["overall_score"] = cap
-            opp["final_score_guard_note"] = f"Capped at {cap} due to verification strength."
+            opp["overall_score"] = new
+            opp["final_score_guard_note"] = (
+                f"Rescored {old} → {new} "
+                f"(verification_points={verification_points(opp)}, "
+                f"composite={round(quality_composite(opp), 2)})"
+            )
             changed += 1
-            lines.append(f"- {opp.get('title')}: {old} → {cap}")
+            name = opp.get("title") or opp.get("name") or "?"
+            lines.append(f"- {name}: {old} → {new}")
+        else:
+            opp["overall_score"] = new  # apply minor rounding fix even if same
 
     opps.sort(key=lambda x: float(x.get("overall_score", 0) or 0), reverse=True)
 
@@ -101,7 +108,7 @@ def main():
     Path(REPORT_PATH).parent.mkdir(parents=True, exist_ok=True)
     Path(REPORT_PATH).write_text("\n".join(lines), encoding="utf-8")
 
-    print(f"Final score guard capped {changed} opportunities.")
+    print(f"Rescored {changed} opportunities.")
     print(f"Wrote {REPORT_PATH}")
 
 
