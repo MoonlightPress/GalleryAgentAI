@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import OppCard from './OppCard'
 import OppDetailPanel from './OppDetailPanel'
 import './OpportunitiesSection.css'
+import { useLanguage } from '../i18n/LanguageContext'
 
 const SECTION_ORDER = [
   'immediate_best_moves',
@@ -24,6 +25,7 @@ const GRID_PAGE = 3
 export default function OpportunitiesSection() {
   const [data, setData]   = useState(null)
   const [error, setError] = useState(null)
+  const { t } = useLanguage()
 
   useEffect(() => {
     fetch('/api/opportunities')
@@ -34,13 +36,13 @@ export default function OpportunitiesSection() {
 
   if (error) return (
     <div className="opps-error">
-      🐾 Could not reach the Mochi API — is <code>python api.py</code> running?
+      🐾 {t('opps.error')}
     </div>
   )
 
   if (!data) return (
     <div className="opps-loading">
-      <span className="opps-paw">🐾</span> Mochi is sorting opportunities…
+      <span className="opps-paw">🐾</span> {t('opps.loading')}
     </div>
   )
 
@@ -70,6 +72,7 @@ export default function OpportunitiesSection() {
 function OppSection({ sectionKey, label, description, icon, items }) {
   const [showAll, setShowAll]     = useState(false)
   const [activeId, setActiveId]   = useState(null)
+  const { t } = useLanguage()
 
   const visible   = showAll ? items : items.slice(0, GRID_PAGE)
   const remaining = items.length - GRID_PAGE
@@ -117,7 +120,7 @@ function OppSection({ sectionKey, label, description, icon, items }) {
           className="opp-show-more"
           onClick={() => setShowAll(true)}
         >
-          Show more · {remaining} more
+          {t('opps.showMore')} · {t('opps.moreCount', { n: remaining })}
         </button>
       )}
     </section>

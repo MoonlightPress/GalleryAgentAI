@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './SaffronPage.css'
 import { saffronHero } from '../utils/heroImages'
+import { useLanguage } from '../i18n/LanguageContext'
 
 // ── Shared primitives ──────────────────────────────────────────────────────
 
@@ -27,25 +28,25 @@ function EmptyState({ message }) {
   return <p className="sf-empty-state">{message}</p>
 }
 
-function MissingTag({ label }) {
-  return <span className="sf-missing-tag">{label} — ask Peppercorn</span>
+function MissingTag({ label, t }) {
+  return <span className="sf-missing-tag">{t('sf.missing.askPepper', { label })}</span>
 }
 
 // ── Original four sections ─────────────────────────────────────────────────
 
-function CareerPosition({ data }) {
+function CareerPosition({ data, t }) {
   const ig = data.social.find(s => s.platform === 'Instagram')
-  const summary = `${data.exhibitions.length} exhibition · ${data.publications.length} publications · Instagram ${ig?.followers ?? '—'} · ${data.base}`
+  const summary = `${data.exhibitions.length} · ${data.publications.length} · Instagram ${ig?.followers ?? '—'} · ${data.base}`
   return (
     <SectionShell
-      title="Career Position"
-      subtitle="Where she actually is right now — confirmed facts only."
+      title={t('sf.sec.careerPosition')}
+      subtitle={t('sf.sub.careerPosition')}
       summary={summary}
       defaultOpen={true}
     >
       <div className="sf-career-grid">
         <div className="sf-career-block">
-          <div className="sf-block-label">Exhibitions</div>
+          <div className="sf-block-label">{t('sf.label.exhibitions')}</div>
           {data.exhibitions.map((ex, i) => (
             <div key={i} className="sf-career-row">
               <span className="sf-check">✓</span>
@@ -58,7 +59,7 @@ function CareerPosition({ data }) {
           ))}
         </div>
         <div className="sf-career-block">
-          <div className="sf-block-label">Publications</div>
+          <div className="sf-block-label">{t('sf.label.publications')}</div>
           {data.publications.map((pub, i) => (
             <div key={i} className="sf-career-row">
               <span className="sf-check">✓</span>
@@ -70,7 +71,7 @@ function CareerPosition({ data }) {
           ))}
         </div>
         <div className="sf-career-block">
-          <div className="sf-block-label">Social Presence</div>
+          <div className="sf-block-label">{t('sf.label.social')}</div>
           <table className="sf-social-table">
             <tbody>
               {data.social.map((s, i) => (
@@ -85,10 +86,10 @@ function CareerPosition({ data }) {
           </table>
         </div>
         <div className="sf-career-block">
-          <div className="sf-block-label">Education</div>
+          <div className="sf-block-label">{t('sf.label.education')}</div>
           <div className="sf-row-title">{data.education.institution}</div>
           <div className="sf-row-meta">{data.education.field} · {data.education.note}</div>
-          <div className="sf-block-label" style={{ marginTop: '18px' }}>Base</div>
+          <div className="sf-block-label" style={{ marginTop: '18px' }}>{t('sf.label.base')}</div>
           <div className="sf-row-title">{data.base}</div>
         </div>
       </div>
@@ -96,21 +97,21 @@ function CareerPosition({ data }) {
   )
 }
 
-function MarketLandscape({ data }) {
+function MarketLandscape({ data, t }) {
   const maxCat  = Math.max(...data.category_breakdown.map(c => c.count), 1)
   const geoTotal = data.tokyo_vs_international.tokyo + data.tokyo_vs_international.international
   const tokyoPct = Math.round((data.tokyo_vs_international.tokyo / geoTotal) * 100)
-  const summary  = `${data.total} opportunities — ${data.tokyo_vs_international.tokyo} Tokyo / Japan, ${data.tokyo_vs_international.international} international`
+  const summary  = `${data.total} — ${data.tokyo_vs_international.tokyo} Tokyo / Japan, ${data.tokyo_vs_international.international} international`
 
   return (
     <SectionShell
-      title="Market Landscape"
-      subtitle={`${data.total} opportunities in the current pipeline.`}
+      title={t('sf.sec.market')}
+      subtitle={t('sf.sub.market', { n: data.total })}
       summary={summary}
     >
       <div className="sf-market-grid">
         <div className="sf-market-block">
-          <div className="sf-block-label">By category</div>
+          <div className="sf-block-label">{t('sf.label.byCategory')}</div>
           <div className="sf-bars">
             {data.category_breakdown.map((cat, i) => (
               <div key={i} className="sf-bar-row">
@@ -124,16 +125,16 @@ function MarketLandscape({ data }) {
           </div>
         </div>
         <div className="sf-market-block">
-          <div className="sf-block-label">Tokyo / Japan vs. international</div>
+          <div className="sf-block-label">{t('sf.label.tokyoVsIntl')}</div>
           <div className="sf-geo-bar">
             <div className="sf-geo-tokyo" style={{ width: `${tokyoPct}%` }} />
             <div className="sf-geo-intl"  style={{ width: `${100 - tokyoPct}%` }} />
           </div>
           <div className="sf-geo-legend">
-            <span className="sf-geo-label sf-geo-label-tokyo">Tokyo / Japan — {data.tokyo_vs_international.tokyo}</span>
-            <span className="sf-geo-label sf-geo-label-intl">International — {data.tokyo_vs_international.international}</span>
+            <span className="sf-geo-label sf-geo-label-tokyo">{t('sf.label.tokyo')} — {data.tokyo_vs_international.tokyo}</span>
+            <span className="sf-geo-label sf-geo-label-intl">{t('sf.label.international')} — {data.tokyo_vs_international.international}</span>
           </div>
-          <div className="sf-block-label" style={{ marginTop: '28px' }}>By actionability</div>
+          <div className="sf-block-label" style={{ marginTop: '28px' }}>{t('sf.label.byAction')}</div>
           <div className="sf-action-list">
             {data.actionability.map((a, i) => (
               <div key={i} className={`sf-action-row sf-action-${a.tier}`}>
@@ -148,20 +149,16 @@ function MarketLandscape({ data }) {
   )
 }
 
-function ComparableArtists({ artists }) {
+function ComparableArtists({ artists, t }) {
   const top     = artists.slice(0, 4)
-  const summary = `${top.length} artists working in adjacent territory — orientation points, not direct comparisons`
+  const summary = t('sf.sum.peers', { n: top.length })
   return (
     <SectionShell
-      title="Comparable Artists"
-      subtitle="Artists working in adjacent territory — orientation points, not direct comparisons."
+      title={t('sf.sec.peers')}
+      subtitle={t('sf.sub.peers')}
       summary={summary}
     >
-      <p className="sf-peers-caveat">
-        The pipeline finds peers by thematic and formal overlap. Most here are photographers —
-        an artifact of shared subjects (quiet observation, memory, domestic space), not a category error.
-        The watercolor-specific peer set is underdeveloped and will improve as more targeted data enters the system.
-      </p>
+      <p className="sf-peers-caveat">{t('sf.label.peersCaveat')}</p>
       <div className="sf-peers-grid">
         {top.map((a, i) => (
           <div key={i} className="sf-peer-card">
@@ -169,7 +166,7 @@ function ComparableArtists({ artists }) {
             <div className="sf-peer-region">{a.region}</div>
             <div className="sf-peer-reason">{a.fit_reason}</div>
             <div className="sf-peer-traits">
-              {a.shared_traits.map((t, j) => <span key={j} className="sf-trait">{t}</span>)}
+              {a.shared_traits.map((tr, j) => <span key={j} className="sf-trait">{tr}</span>)}
             </div>
             <div className="sf-peer-use">Use as: {a.use_as}</div>
           </div>
@@ -179,13 +176,13 @@ function ComparableArtists({ artists }) {
   )
 }
 
-function StrategicPathway({ data }) {
+function StrategicPathway({ data, t }) {
   const done    = data.steps.filter(s => s.done).length
-  const summary = `${data.goal} · ${done} of ${data.steps.length} steps complete`
+  const summary = `${data.goal} · ${done} / ${data.steps.length}`
   return (
     <SectionShell
-      title={`Pathway: ${data.goal}`}
-      subtitle={`Estimated timeline: ${data.timeline_estimate}`}
+      title={t('sf.sec.pathway', { goal: data.goal })}
+      subtitle={t('sf.sub.pathway', { timeline: data.timeline_estimate })}
       summary={summary}
     >
       <div className="sf-steps">
@@ -200,11 +197,11 @@ function StrategicPathway({ data }) {
         ))}
       </div>
       <div className="sf-pathway-callout sf-pathway-blocking">
-        <div className="sf-callout-label">What's blocking right now</div>
+        <div className="sf-callout-label">{t('sf.label.whatBlocking')}</div>
         <p className="sf-callout-text">{data.blocking_now}</p>
       </div>
       <div className="sf-pathway-callout sf-pathway-next">
-        <div className="sf-callout-label">Single most important next move</div>
+        <div className="sf-callout-label">{t('sf.label.nextMove')}</div>
         <p className="sf-callout-text">{data.next_move}</p>
       </div>
     </SectionShell>
@@ -220,7 +217,7 @@ function parseFollowers(str) {
   return isNaN(n) ? null : n
 }
 
-function InstagramStrategy({ data }) {
+function InstagramStrategy({ data, t }) {
   const tw = data.platforms.find(p => p.name.startsWith('Twitter'))
   const ig = data.platforms.find(p => p.name === 'Instagram')
   const twN = parseFollowers(tw?.followers)
@@ -229,13 +226,13 @@ function InstagramStrategy({ data }) {
 
   return (
     <SectionShell
-      title="Instagram Strategy"
-      subtitle="Platform presence, the audience gap, and what's needed to close it."
-      summary={`Instagram ${ig?.followers ?? '—'} · Twitter ${tw?.followers ?? '—'} — 4× gap to close`}
+      title={t('sf.sec.instagram')}
+      subtitle={t('sf.sub.instagram')}
+      summary={`Instagram ${ig?.followers ?? '—'} · Twitter ${tw?.followers ?? '—'}`}
     >
       <div className="sf-two-col">
         <div>
-          <div className="sf-block-label">Platform comparison</div>
+          <div className="sf-block-label">{t('pp.ig.platComp')}</div>
           {data.platforms.map((p, i) => (
             <div key={i} className="sf-platform-row">
               <div className="sf-platform-name">{p.name}</div>
@@ -246,19 +243,19 @@ function InstagramStrategy({ data }) {
           ))}
           {ratio && (
             <div className="sf-insight-callout">
-              Twitter is {ratio}× larger. Instagram is the platform galleries and publishers use for discovery — the gap matters.
+              {t('pp.ig.ratio', { n: ratio })}
             </div>
           )}
         </div>
         <div>
-          <div className="sf-block-label">What's known</div>
+          <div className="sf-block-label">{t('pp.ig.known')}</div>
           <div className="sf-row-title" style={{ marginBottom: 6 }}>{data.known.diary_practice}</div>
           <div className="sf-row-meta">{data.known.content_type}</div>
 
-          <div className="sf-block-label" style={{ marginTop: 24 }}>What's missing</div>
+          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('pp.ig.missing')}</div>
           {data.missing.map((m, i) => (
             <div key={i} className="sf-missing-row">
-              <MissingTag label={m.field} />
+              <MissingTag label={m.field} t={t} />
               <p className="sf-missing-reason">{m.reason}</p>
             </div>
           ))}
@@ -268,46 +265,50 @@ function InstagramStrategy({ data }) {
   )
 }
 
-function AudienceGeography({ data }) {
+function AudienceGeography({ data, t }) {
   return (
     <SectionShell
-      title="Audience Geography"
-      subtitle="Where her followers are, which markets are engaged, where opportunities align."
-      summary="No audience location data yet — Peppercorn needs to ask"
+      title={t('sf.sec.audienceGeo')}
+      subtitle={t('sf.sub.audienceGeo')}
+      summary={t('sf.sum.audienceGeo')}
     >
       <EmptyState message={data.reason} />
       <div className="sf-info-block">
-        <div className="sf-block-label">Why it matters</div>
+        <div className="sf-block-label">{t('sf.label.whyMatters')}</div>
         <p className="sf-info-text">{data.why_it_matters}</p>
-        <div className="sf-block-label" style={{ marginTop: 18 }}>Working hypothesis</div>
+        <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.hypothesis')}</div>
         <p className="sf-info-text sf-hypothesis">{data.hypothesis}</p>
-        <div className="sf-block-label" style={{ marginTop: 18 }}>What Peppercorn should ask</div>
+        <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.askPepper')}</div>
         <p className="sf-info-text">{data.what_peppercorn_should_ask}</p>
       </div>
     </SectionShell>
   )
 }
 
-const ASSESSMENT_STYLE = {
-  strong:       { color: '#5a7a30', label: 'Strong' },
-  on_track:     { color: '#7a9a40', label: 'On track' },
-  below_typical:{ color: '#c47a35', label: 'Below typical' },
-  weak:         { color: '#b03020', label: 'Weak' },
+const ASSESSMENT_KEYS = {
+  strong:        'sf.assess.strong',
+  on_track:      'sf.assess.on_track',
+  below_typical: 'sf.assess.below_typical',
+  weak:          'sf.assess.weak',
+}
+const ASSESSMENT_COLORS = {
+  strong: '#5a7a30', on_track: '#7a9a40', below_typical: '#c47a35', weak: '#b03020',
 }
 
-function CareerBenchmarks({ data }) {
+function CareerBenchmarks({ data, t }) {
   const rec = data.artist_record
-  const summary = `${rec.exhibitions} exhibition · ${rec.publications} publications · Instagram ${rec.instagram} · Twitter ${rec.twitter}`
+  const summary = `${rec.exhibitions} · ${rec.publications} · Instagram ${rec.instagram} · Twitter ${rec.twitter}`
   return (
     <SectionShell
-      title="Career Benchmarks"
-      subtitle="Where she sits relative to artists at a comparable stage."
+      title={t('sf.sec.benchmarks')}
+      subtitle={t('sf.sub.benchmarks')}
       summary={summary}
     >
       <p className="sf-peers-caveat">{data.summary}</p>
       <div className="sf-benchmark-grid">
         {data.peer_range.map((row, i) => {
-          const style = ASSESSMENT_STYLE[row.assessment] || ASSESSMENT_STYLE.on_track
+          const color = ASSESSMENT_COLORS[row.assessment] || ASSESSMENT_COLORS.on_track
+          const label = t(ASSESSMENT_KEYS[row.assessment] || 'sf.assess.on_track')
           return (
             <div key={i} className="sf-benchmark-row">
               <div className="sf-benchmark-dimension">{row.dimension}</div>
@@ -316,7 +317,7 @@ function CareerBenchmarks({ data }) {
                 <span className="sf-range-label">Peers: </span>
                 {row.peer_low} → {row.peer_typical} → {row.peer_high}
               </div>
-              <div className="sf-benchmark-tag" style={{ color: style.color }}>{style.label}</div>
+              <div className="sf-benchmark-tag" style={{ color }}>{label}</div>
               <div className="sf-benchmark-note">{row.note}</div>
             </div>
           )
@@ -326,17 +327,17 @@ function CareerBenchmarks({ data }) {
   )
 }
 
-function SeasonalCalendar({ data }) {
+function SeasonalCalendar({ data, t }) {
   const known = data.months.reduce((n, m) => n + m.opportunities.length, 0)
-  const summary = `${known} opportunities with confirmed deadlines · ${data.unknown_deadline_count} dates unknown`
+  const summary = `${known} · ${data.unknown_deadline_count} unknown`
   return (
     <SectionShell
-      title="Seasonal Opportunity Calendar"
-      subtitle="Which opportunities open when, and when to prepare."
+      title={t('sf.sec.calendar')}
+      subtitle={t('sf.sub.calendar')}
       summary={summary}
     >
       {data.months.length === 0 ? (
-        <EmptyState message="No confirmed deadline dates in the current pipeline. Most opportunities list deadlines as unknown or rolling — the calendar will fill as verification improves." />
+        <EmptyState message={t('sf.empty.calendar')} />
       ) : (
         <div className="sf-calendar">
           {data.months.map((m, i) => (
@@ -357,7 +358,7 @@ function SeasonalCalendar({ data }) {
       )}
       {data.rolling.length > 0 && (
         <div style={{ marginTop: 28 }}>
-          <div className="sf-block-label">Rolling / open deadlines ({data.rolling.length})</div>
+          <div className="sf-block-label">{t('sf.label.rolling', { n: data.rolling.length })}</div>
           <div className="sf-cal-rolling">
             {data.rolling.map((o, i) => (
               <div key={i} className="sf-cal-opp sf-cal-opp--rolling">
@@ -370,7 +371,7 @@ function SeasonalCalendar({ data }) {
       )}
       <div className="sf-cal-note">{data.coverage_note}</div>
       <div style={{ marginTop: 24 }}>
-        <div className="sf-block-label">Preparation lead times</div>
+        <div className="sf-block-label">{t('sf.label.prepLeadTimes')}</div>
         <div className="sf-lead-times">
           {Object.entries(data.preparation_lead_times).map(([k, v], i) => (
             <div key={i} className="sf-lead-row">
@@ -384,18 +385,18 @@ function SeasonalCalendar({ data }) {
   )
 }
 
-function PressFeatures({ data }) {
+function PressFeatures({ data, t }) {
   const total   = data.confirmed.length
-  const summary = `${total} online feature${total !== 1 ? 's' : ''} (Bored Panda) — no art press coverage yet`
+  const summary = `${total} online feature${total !== 1 ? 's' : ''}`
   return (
     <SectionShell
-      title="Press & Features"
-      subtitle="Publications and blogs that have featured her work, and who to pitch next."
+      title={t('sf.sec.press')}
+      subtitle={t('sf.sub.press')}
       summary={summary}
     >
       <div className="sf-two-col">
         <div>
-          <div className="sf-block-label">Confirmed features</div>
+          <div className="sf-block-label">{t('sf.label.confirmed')}</div>
           {data.confirmed.map((f, i) => (
             <div key={i} className="sf-press-row">
               <div className="sf-press-outlet">{f.outlet}</div>
@@ -404,20 +405,20 @@ function PressFeatures({ data }) {
             </div>
           ))}
           <div style={{ marginTop: 24 }}>
-            <div className="sf-block-label">Art press</div>
+            <div className="sf-block-label">{t('sf.label.artPress')}</div>
             <EmptyState message={data.art_press.reason} />
           </div>
           <div style={{ marginTop: 16 }}>
-            <div className="sf-block-label">Japanese media</div>
+            <div className="sf-block-label">{t('sf.label.japanMedia')}</div>
             <EmptyState message={data.japan_coverage.reason} />
           </div>
         </div>
         <div>
-          <div className="sf-block-label">Pitch targets</div>
-          {data.pitch_targets.map((t, i) => (
+          <div className="sf-block-label">{t('sf.label.pitchTargets')}</div>
+          {data.pitch_targets.map((pt, i) => (
             <div key={i} className="sf-pitch-row">
-              <div className="sf-pitch-outlet">{t.outlet}</div>
-              <div className="sf-pitch-why">{t.why}</div>
+              <div className="sf-pitch-outlet">{pt.outlet}</div>
+              <div className="sf-pitch-why">{pt.why}</div>
             </div>
           ))}
         </div>
@@ -426,40 +427,40 @@ function PressFeatures({ data }) {
   )
 }
 
-function CollectorEcosystem({ data }) {
+function CollectorEcosystem({ data, t }) {
   return (
     <SectionShell
-      title="Collector Ecosystem"
-      subtitle="Who buys illustration and watercolor work at her price point, and through which channels."
-      summary="No collector data yet — sales history needed"
+      title={t('sf.sec.collector')}
+      subtitle={t('sf.sub.collector')}
+      summary={t('sf.sum.collector')}
     >
       <EmptyState message={data.reason} />
       <div className="sf-info-block">
-        <div className="sf-block-label">Why it matters</div>
+        <div className="sf-block-label">{t('sf.label.whyMatters')}</div>
         <p className="sf-info-text">{data.why_it_matters}</p>
-        <div className="sf-block-label" style={{ marginTop: 18 }}>Fairs in the pipeline that attract buyers</div>
+        <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.fairsPipeline')}</div>
         <div className="sf-tag-list">
           {data.fairs_in_pipeline.map((f, i) => <span key={i} className="sf-trait">{f}</span>)}
         </div>
         <p className="sf-info-text" style={{ marginTop: 12 }}>{data.known_gap}</p>
-        <div className="sf-block-label" style={{ marginTop: 18 }}>What Peppercorn should ask</div>
+        <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.askPepper')}</div>
         <p className="sf-info-text">{data.what_peppercorn_should_ask}</p>
       </div>
     </SectionShell>
   )
 }
 
-function CollaborationMap({ data }) {
-  const summary = `${data.known_co_exhibitors.length} known co-exhibitors from Tide from China · peer network data missing`
+function CollaborationMap({ data, t }) {
+  const summary = `${data.known_co_exhibitors.length} co-exhibitors`
   return (
     <SectionShell
-      title="Collaboration Map"
-      subtitle="Tokyo-based artists with complementary practices and potential group show partners."
+      title={t('sf.sec.collab')}
+      subtitle={t('sf.sub.collab')}
       summary={summary}
     >
       <div className="sf-two-col">
         <div>
-          <div className="sf-block-label">Known co-exhibitors</div>
+          <div className="sf-block-label">{t('sf.label.knownCoExhib')}</div>
           {data.known_co_exhibitors.map((a, i) => (
             <div key={i} className="sf-collab-row">
               <span className="sf-collab-name">{a.name}</span>
@@ -470,9 +471,9 @@ function CollaborationMap({ data }) {
           <p className="sf-info-text" style={{ marginTop: 14 }}>{data.note}</p>
         </div>
         <div>
-          <div className="sf-block-label">Tokyo peer network</div>
+          <div className="sf-block-label">{t('sf.label.tokyoPeerNet')}</div>
           <EmptyState message={data.peer_network.reason} />
-          <div className="sf-block-label" style={{ marginTop: 18 }}>Why it matters</div>
+          <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.whyMatters')}</div>
           <p className="sf-info-text">{data.peer_network.why_it_matters}</p>
         </div>
       </div>
@@ -480,13 +481,12 @@ function CollaborationMap({ data }) {
   )
 }
 
-function GeographicExpansion({ data }) {
-  const intl = data.regions.find(r => r.name.startsWith('Europe')) || {}
-  const summary = `Primary: Tokyo / Beijing · ${data.regions.filter(r => r.status === 'medium_term').length} medium-term expansion markets`
+function GeographicExpansion({ data, t }) {
+  const summary = `Primary: Tokyo / Beijing`
   return (
     <SectionShell
-      title="Geographic Expansion"
-      subtitle="Beyond Tokyo and Beijing — which ecosystems fit her work and when to enter them."
+      title={t('sf.sec.geoExpansion')}
+      subtitle={t('sf.sub.geoExpansion')}
       summary={summary}
     >
       <div className="sf-geo-regions">
@@ -494,8 +494,10 @@ function GeographicExpansion({ data }) {
           <div key={i} className={`sf-geo-region sf-geo-region--${r.status}`}>
             <div className="sf-geo-region-header">
               <span className="sf-geo-region-name">{r.name}</span>
-              <span className="sf-geo-region-count">{r.pipeline_count > 0 ? `${r.pipeline_count} in pipeline` : ''}</span>
-              <span className="sf-geo-status-tag">{r.status.replace(/_/g, ' ')}</span>
+              <span className="sf-geo-region-count">
+                {r.pipeline_count > 0 ? t('sf.inPipeline', { n: r.pipeline_count }) : ''}
+              </span>
+              <span className="sf-geo-status-tag">{t(`sf.geo.${r.status}`) || r.status.replace(/_/g, ' ')}</span>
             </div>
             <p className="sf-geo-region-note">{r.note}</p>
             {r.entry_point && (
@@ -508,17 +510,17 @@ function GeographicExpansion({ data }) {
   )
 }
 
-function PublicationLandscape({ data }) {
-  const summary = `${data.pipeline_count} publication opportunities in pipeline · ${data.artist_publications.length} personal publications`
+function PublicationLandscape({ data, t }) {
+  const summary = `${data.pipeline_count} · ${data.artist_publications.length}`
   return (
     <SectionShell
-      title="Publication Landscape"
-      subtitle="Full map of publishers, from zines to art books — where she is and where to go."
+      title={t('sf.sec.publication')}
+      subtitle={t('sf.sub.publication')}
       summary={summary}
     >
       <div className="sf-two-col">
         <div>
-          <div className="sf-block-label">Her publications</div>
+          <div className="sf-block-label">{t('sf.label.herPubs')}</div>
           {data.artist_publications.map((p, i) => (
             <div key={i} className="sf-press-row">
               <div className="sf-press-outlet">{p.title}{p.year ? ` · ${p.year}` : ''}</div>
@@ -527,20 +529,22 @@ function PublicationLandscape({ data }) {
             </div>
           ))}
 
-          <div className="sf-block-label" style={{ marginTop: 24 }}>Publication tiers</div>
-          {data.tiers.map((t, i) => (
+          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.label.pubTiers')}</div>
+          {data.tiers.map((tier, i) => (
             <div key={i} className="sf-pub-tier">
               <div className="sf-pub-tier-header">
-                <span className="sf-pub-tier-name">{t.tier}</span>
-                <span className={`sf-pub-barrier sf-pub-barrier--${t.barrier}`}>{t.barrier} barrier</span>
+                <span className="sf-pub-tier-name">{tier.tier}</span>
+                <span className={`sf-pub-barrier sf-pub-barrier--${tier.barrier}`}>
+                  {t(`sf.barrier.${tier.barrier}`) || tier.barrier}
+                </span>
               </div>
-              <div className="sf-pub-examples">{t.examples.join(' · ')}</div>
-              <div className="sf-pub-note">{t.note}</div>
+              <div className="sf-pub-examples">{tier.examples.join(' · ')}</div>
+              <div className="sf-pub-note">{tier.note}</div>
             </div>
           ))}
         </div>
         <div>
-          <div className="sf-block-label">Top targets in pipeline ({data.top_targets.length})</div>
+          <div className="sf-block-label">{t('sf.label.topTargets', { n: data.top_targets.length })}</div>
           {data.top_targets.map((o, i) => (
             <div key={i} className="sf-pub-target">
               <span className="sf-pub-target-name">{o.name}</span>
@@ -553,14 +557,13 @@ function PublicationLandscape({ data }) {
   )
 }
 
-const PROB_STYLE = { high: '#5a7a30', moderate: '#c47a35', low: '#b03020' }
-
-function LongTermScenarios({ data }) {
-  const summary = `3 paths at ${data.horizon} — gallery, publication, hybrid`
+function LongTermScenarios({ data, t }) {
+  const PROB_COLORS = { high: '#5a7a30', moderate: '#c47a35', low: '#b03020' }
+  const summary = `3 paths · ${data.horizon}`
   return (
     <SectionShell
-      title="Long-term Scenarios"
-      subtitle={`Three career paths at ${data.horizon}. What each requires starting now.`}
+      title={t('sf.sec.longTerm')}
+      subtitle={t('sf.sub.longTerm', { horizon: data.horizon })}
       summary={summary}
     >
       <div className="sf-scenarios">
@@ -573,68 +576,73 @@ function LongTermScenarios({ data }) {
               </div>
               <span
                 className="sf-scenario-prob"
-                style={{ color: PROB_STYLE[s.probability] || '#7a5030' }}
+                style={{ color: PROB_COLORS[s.probability] || '#7a5030' }}
               >
-                {s.probability} probability
+                {t(`sf.prob.${s.probability}`) || s.probability}
               </span>
             </div>
             <p className="sf-scenario-desc">{s.description}</p>
-            <div className="sf-block-label" style={{ marginTop: 14 }}>Requires now</div>
+            <div className="sf-block-label" style={{ marginTop: 14 }}>{t('sf.label.requiresNow')}</div>
             <ul className="sf-scenario-requires">
               {s.requires_now.map((r, j) => <li key={j}>{r}</li>)}
             </ul>
             <div className="sf-scenario-footer">
               <div className="sf-scenario-bottleneck">
-                <strong>Bottleneck:</strong> {s.bottleneck}
+                <strong>{t('sf.label.bottleneck')}</strong> {s.bottleneck}
               </div>
               <div className="sf-scenario-signal">
-                <strong>Right if:</strong> {s.best_fit_signal}
+                <strong>{t('sf.label.rightIf')}</strong> {s.best_fit_signal}
               </div>
             </div>
           </div>
         ))}
       </div>
       <div className="sf-pathway-callout sf-pathway-next" style={{ marginTop: 28 }}>
-        <div className="sf-callout-label">Saffron's view</div>
+        <div className="sf-callout-label">{t('sf.label.saffronView')}</div>
         <p className="sf-callout-text">{data.saffron_view}</p>
       </div>
     </SectionShell>
   )
 }
 
-const STATUS_LABEL = {
-  ready_to_review:  { label: 'Ready to review', color: '#c47a35' },
-  ready_to_contact: { label: 'Ready to contact', color: '#5a7a30' },
-  contacted:        { label: 'Contacted',         color: '#3a6a20' },
-  not_contacted:    { label: 'Not contacted',      color: '#9a7040' },
+const STATUS_KEYS = {
+  ready_to_review:  'sf.status.readyReview',
+  ready_to_contact: 'sf.status.readyContact',
+  contacted:        'sf.status.contacted',
+  not_contacted:    'sf.status.notContacted',
+}
+const STATUS_COLORS = {
+  ready_to_review: '#c47a35', ready_to_contact: '#5a7a30',
+  contacted: '#3a6a20', not_contacted: '#9a7040',
 }
 
-function VenueTracker({ data }) {
-  const summary = `${data.total} venue${data.total !== 1 ? 's' : ''} tracked · 0 active relationships`
+function VenueTracker({ data, t }) {
+  const summary = t('sf.sum.venues', { n: data.total, s: data.total !== 1 ? 's' : '' })
   return (
     <SectionShell
-      title="Venue Relationship Tracker"
-      subtitle="Venues she's in contact with, their status, and suggested next actions."
+      title={t('sf.sec.venues')}
+      subtitle={t('sf.sub.venues')}
       summary={summary}
     >
       {data.tracked.length === 0 ? (
-        <EmptyState message="No venues tracked yet. This section will populate as venues are added to the CRM." />
+        <EmptyState message={t('sf.empty.venues')} />
       ) : (
         <div className="sf-venue-list">
           {data.tracked.map((v, i) => {
-            const s = STATUS_LABEL[v.status] || { label: v.status, color: '#9a7040' }
+            const color = STATUS_COLORS[v.status] || '#9a7040'
+            const label = t(STATUS_KEYS[v.status] || 'sf.status.notContacted')
             return (
               <div key={i} className="sf-venue-row">
                 <div className="sf-venue-header">
                   <span className="sf-venue-name">{v.name}</span>
                   <span className="sf-venue-type">{v.type} · {v.city}</span>
-                  <span className="sf-venue-status" style={{ color: s.color }}>{s.label}</span>
+                  <span className="sf-venue-status" style={{ color }}>{label}</span>
                   {v.priority && <span className="sf-venue-priority">Priority {v.priority}</span>}
                 </div>
                 <div className="sf-venue-last">
                   {v.last_contacted
-                    ? `Last contacted: ${v.last_contacted}`
-                    : 'Not yet contacted'}
+                    ? t('sf.venue.lastContacted', { date: v.last_contacted })
+                    : t('sf.venue.notContacted')}
                 </div>
                 {v.next_action && (
                   <div className="sf-venue-next">{v.next_action}</div>
@@ -651,15 +659,15 @@ function VenueTracker({ data }) {
   )
 }
 
-function OpenQuestions({ data }) {
-  const summary = `${data.count} open questions that would change this analysis`
+function OpenQuestions({ data, t }) {
+  const summary = `${data.count}`
   return (
     <SectionShell
-      title="Open Questions"
-      subtitle="Things Saffron doesn't know yet that would change the analysis."
+      title={t('sf.sec.openQs')}
+      subtitle={t('sf.sub.openQs')}
       summary={summary}
     >
-      <p className="sf-info-text" style={{ marginBottom: 24 }}>{data.note}</p>
+      <p className="sf-info-text" style={{ marginBottom: 24 }}>{t('sf.label.openQNote')}</p>
       <div className="sf-questions">
         {data.questions.map((q, i) => (
           <div key={i} className="sf-question-row">
@@ -681,6 +689,7 @@ function OpenQuestions({ data }) {
 export default function SaffronPage() {
   const [data,  setData]  = useState(null)
   const [error, setError] = useState(null)
+  const { t } = useLanguage()
 
   useEffect(() => {
     fetch('/api/saffron')
@@ -695,32 +704,32 @@ export default function SaffronPage() {
         <img src={saffronHero} alt="Saffron's wide view" className="saffron-hero-img" />
       </section>
 
-      {!data && !error && <div className="sf-loading">Saffron is watching…</div>}
+      {!data && !error && <div className="sf-loading">{t('sf.loading')}</div>}
 
       {error && (
         <div className="sf-error">
-          Saffron needs the Mochi API — <code>python api.py</code>
+          {t('sf.error')} — <code>python api.py</code>
         </div>
       )}
 
       {data && (
         <div className="sf-content">
-          <CareerPosition     data={data.career_position} />
-          <MarketLandscape    data={data.market_landscape} />
-          <ComparableArtists  artists={data.peer_artists} />
-          <StrategicPathway   data={data.pathway} />
-          <InstagramStrategy  data={data.instagram_strategy} />
-          <AudienceGeography  data={data.audience_geography} />
-          <CareerBenchmarks   data={data.career_benchmarks} />
-          <SeasonalCalendar   data={data.seasonal_calendar} />
-          <PressFeatures      data={data.press_features} />
-          <CollectorEcosystem data={data.collector_ecosystem} />
-          <CollaborationMap   data={data.collaboration_map} />
-          <GeographicExpansion data={data.geographic_expansion} />
-          <PublicationLandscape data={data.publication_landscape} />
-          <LongTermScenarios  data={data.long_term_scenarios} />
-          <VenueTracker       data={data.venue_tracker} />
-          <OpenQuestions      data={data.open_questions} />
+          <CareerPosition      data={data.career_position}    t={t} />
+          <MarketLandscape     data={data.market_landscape}   t={t} />
+          <ComparableArtists   artists={data.peer_artists}    t={t} />
+          <StrategicPathway    data={data.pathway}            t={t} />
+          <InstagramStrategy   data={data.instagram_strategy} t={t} />
+          <AudienceGeography   data={data.audience_geography} t={t} />
+          <CareerBenchmarks    data={data.career_benchmarks}  t={t} />
+          <SeasonalCalendar    data={data.seasonal_calendar}  t={t} />
+          <PressFeatures       data={data.press_features}     t={t} />
+          <CollectorEcosystem  data={data.collector_ecosystem}t={t} />
+          <CollaborationMap    data={data.collaboration_map}  t={t} />
+          <GeographicExpansion data={data.geographic_expansion} t={t} />
+          <PublicationLandscape data={data.publication_landscape} t={t} />
+          <LongTermScenarios   data={data.long_term_scenarios} t={t} />
+          <VenueTracker        data={data.venue_tracker}      t={t} />
+          <OpenQuestions       data={data.open_questions}     t={t} />
         </div>
       )}
     </div>

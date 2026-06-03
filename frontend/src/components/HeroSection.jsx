@@ -1,13 +1,16 @@
 import './HeroSection.css'
 import { mochiHero } from '../utils/heroImages'
-
-const focusItems = [
-  { icon: '⭐', text: 'Explore 3 new opportunities' },
-  { icon: '✉', text: 'Draft 1 outreach email' },
-  { icon: '🔍', text: 'Research 1 artist' },
-]
+import { useLanguage } from '../i18n/LanguageContext'
 
 export default function HeroSection() {
+  const { t } = useLanguage()
+
+  const focusItems = [
+    { icon: '⭐', text: t('hero.focus.0') },
+    { icon: '✉',  text: t('hero.focus.1') },
+    { icon: '🔍', text: t('hero.focus.2') },
+  ]
+
   return (
     <section className="hero">
       <img
@@ -17,11 +20,11 @@ export default function HeroSection() {
       />
       <div className="hero-overlay">
         <div className="greeting">
-          <div className="greeting-main">Good afternoon,</div>
-          <div className="greeting-sub">🌱 let's grow today.</div>
+          <div className="greeting-main">{t('hero.greeting')}</div>
+          <div className="greeting-sub">{t('hero.sub')}</div>
         </div>
         <div className="focus-card">
-          <div className="focus-card-title">Today's Focus</div>
+          <div className="focus-card-title">{t('hero.focusTitle')}</div>
           <ul className="focus-list">
             {focusItems.map((item, i) => (
               <li key={i} className="focus-item">
@@ -30,7 +33,7 @@ export default function HeroSection() {
               </li>
             ))}
           </ul>
-          <a href="#" className="focus-see-all">See all quests →</a>
+          <a href="#" className="focus-see-all">{t('hero.seeAll')}</a>
         </div>
       </div>
     </section>

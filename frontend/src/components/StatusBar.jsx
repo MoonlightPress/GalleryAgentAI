@@ -1,9 +1,7 @@
 import './StatusBar.css'
+import { useLanguage } from '../i18n/LanguageContext'
 
 const JUNE_2026 = {
-  month: 'June 2026',
-  days: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
-  // June 1, 2026 is a Monday
   dates: [
     [1, 2, 3, 4, 5, 6, 7],
     [8, 9, 10, 11, 12, 13, 14],
@@ -15,6 +13,9 @@ const JUNE_2026 = {
 }
 
 export default function StatusBar() {
+  const { t } = useLanguage()
+  const days = t('status.days')
+
   return (
     <div className="status-bar">
       {/* Left: Mochi identity + mood */}
@@ -22,14 +23,14 @@ export default function StatusBar() {
         <div className="status-cat-thumb" />
         <div className="status-info">
           <div className="status-name">
-            Mochi <span className="status-heart">♡</span>
+            {t('status.name')} <span className="status-heart">♡</span>
           </div>
           <div className="status-mood-pills">
-            <span className="mood-pill mood-happy">Happy</span>
+            <span className="mood-pill mood-happy">{t('status.mood.happy')}</span>
             <span className="mood-sep">•</span>
-            <span className="mood-pill mood-full">Full</span>
+            <span className="mood-pill mood-full">{t('status.mood.full')}</span>
             <span className="mood-sep">•</span>
-            <span className="mood-pill mood-content">Content</span>
+            <span className="mood-pill mood-content">{t('status.mood.content')}</span>
           </div>
           <div className="status-bar-track">
             <div className="status-bar-fill" />
@@ -39,17 +40,17 @@ export default function StatusBar() {
 
       {/* Center: status message */}
       <div className="status-center">
-        <div className="status-message">Mochi is happily napping in the sun.</div>
-        <div className="status-sub">Come back later to feed and play!</div>
+        <div className="status-message">{t('status.message')}</div>
+        <div className="status-sub">{t('status.sub')}</div>
         <div className="status-sprig">🌿</div>
       </div>
 
       {/* Right: mini calendar + sticky note */}
       <div className="status-right">
         <div className="mini-calendar">
-          <div className="mini-cal-month">{JUNE_2026.month}</div>
+          <div className="mini-cal-month">{t('status.calMonth')}</div>
           <div className="mini-cal-grid">
-            {JUNE_2026.days.map((d, i) => (
+            {days.map((d, i) => (
               <div key={i} className="mini-cal-header">{d}</div>
             ))}
             {JUNE_2026.dates.flat().map((d, i) => (
@@ -63,7 +64,7 @@ export default function StatusBar() {
           </div>
         </div>
         <div className="sticky-note">
-          You've got beautiful things to make.
+          {t('status.sticky')}
         </div>
       </div>
     </div>

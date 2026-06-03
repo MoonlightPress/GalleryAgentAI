@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import './PeppercornPage.css'
 import { peppercornHero } from '../utils/heroImages'
+import { useLanguage } from '../i18n/LanguageContext'
 
 // ── SVG progress arc ──────────────────────────────────────────────────────
 
@@ -72,9 +73,10 @@ function SectionShell({ id, title, subtitle, isOpen, onToggle, sectionRef, child
 }
 
 function SaveBtn({ onSave, saved }) {
+  const { t } = useLanguage()
   return (
     <button className={`pp-save${saved ? ' pp-save--done' : ''}`} onClick={onSave}>
-      {saved ? 'Saved ✓' : 'Save'}
+      {saved ? t('pp.saved.done') : t('pp.save')}
     </button>
   )
 }
@@ -88,12 +90,13 @@ function useSaved() {
 // ── Instagram / Social strategy section ──────────────────────────────────
 
 function InstagramStrategySection({ isOpen, onToggle, sectionRef }) {
+  const { t } = useLanguage()
   return (
     <SectionShell
       id="instagram-strategy"
       sectionRef={sectionRef}
-      title="Social Presence"
-      subtitle="Instagram and Twitter — what each threshold means, and what's worth noticing."
+      title={t('pp.sec.instagram')}
+      subtitle={t('pp.sub.instagram')}
       isOpen={isOpen}
       onToggle={onToggle}
     >
@@ -188,12 +191,13 @@ function InstagramStrategySection({ isOpen, onToggle, sectionRef }) {
 // ── Exhibition pathway section ────────────────────────────────────────────
 
 function ExhibitionPathwaySection({ isOpen, onToggle, sectionRef }) {
+  const { t } = useLanguage()
   return (
     <SectionShell
       id="exhibition-pathway"
       sectionRef={sectionRef}
-      title="Exhibition Pathway"
-      subtitle="Where one confirmed show sits on the road to a Tokyo solo."
+      title={t('pp.sec.exhibition')}
+      subtitle={t('pp.sub.exhibition')}
       isOpen={isOpen}
       onToggle={onToggle}
     >
@@ -202,7 +206,7 @@ function ExhibitionPathwaySection({ isOpen, onToggle, sectionRef }) {
           <div className="pp-pathway-record">
             <div className="pp-pathway-show-title">Tide from China Part 1</div>
             <div className="pp-pathway-show-meta">ACG_Labo · Harajuku, Tokyo · February 2023 · Group show, 6 Chinese illustrators</div>
-            <div className="pp-pathway-show-note">First Japan exhibition on record.</div>
+            <div className="pp-pathway-show-note">{t('pp.shows.record.label')}</div>
           </div>
 
           <div className="pp-threshold-list pp-threshold-list--shows">
@@ -237,7 +241,7 @@ function ExhibitionPathwaySection({ isOpen, onToggle, sectionRef }) {
 
         <div>
           <div className="pp-next-targets">
-            <div className="pp-block-label">Next targets worth watching</div>
+            <div className="pp-block-label">{t('pp.shows.nextTargets')}</div>
             <div className="pp-target-row">
               <div className="pp-target-name">3331 Arts Chiyoda</div>
               <p className="pp-target-desc">Open calls on regular cycle. Artist-run feel. Accessible for international artists based in Tokyo.</p>
@@ -252,11 +256,7 @@ function ExhibitionPathwaySection({ isOpen, onToggle, sectionRef }) {
             </div>
           </div>
 
-          <p className="pp-timeline-note">
-            At a realistic application pace — 3 to 5 submissions per year, acceptance rate 20–30% —
-            reaching 3 confirmed shows takes approximately 2–3 years from mid-2026.
-            This is not slow. This is normal.
-          </p>
+          <p className="pp-timeline-note">{t('pp.shows.timeline')}</p>
         </div>
       </div>
     </SectionShell>
@@ -267,22 +267,23 @@ function ExhibitionPathwaySection({ isOpen, onToggle, sectionRef }) {
 
 function StatementExample() {
   const [show, setShow] = useState(false)
+  const { t } = useLanguage()
   return (
     <div className="pp-stmt-example">
       <button className="pp-example-toggle" onClick={() => setShow(s => !s)}>
-        {show ? 'Hide example ↑' : 'Why does this matter? See an example ↓'}
+        {show ? t('pp.exToggle.hide') : t('pp.exToggle.show')}
       </button>
       {show && (
         <div className="pp-example-body">
           <div className="pp-example-col">
-            <div className="pp-example-label">Generic</div>
+            <div className="pp-example-label">{t('pp.ex.generic')}</div>
             <p className="pp-example-text pp-example-text--generic">
               "I am an artist working with watercolor, exploring themes of memory and urban space."
             </p>
           </div>
           <div className="pp-example-vs">→</div>
           <div className="pp-example-col">
-            <div className="pp-example-label">Specific</div>
+            <div className="pp-example-label">{t('pp.ex.specific')}</div>
             <p className="pp-example-text pp-example-text--specific">
               "My paintings are slow observations of urban places between moments — the alley
               before anyone arrives, the café after everyone has left. I work in watercolor because
@@ -299,28 +300,25 @@ function StatementExample() {
 function ArtistStatementSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [text, setText] = useState(data || '')
   const [saved, flash] = useSaved()
+  const { t } = useLanguage()
   useEffect(() => { setText(data || '') }, [data])
 
   return (
     <SectionShell
       id="artist-statement"
       sectionRef={sectionRef}
-      title="Artist Statement"
-      subtitle="A working draft — edit freely, whenever it feels right."
+      title={t('pp.sec.statement')}
+      subtitle={t('pp.sub.statement')}
       isOpen={isOpen}
       onToggle={onToggle}
     >
-      <p className="pp-section-note">
-        This text feeds every outreach email Mochi drafts, every cover letter, every
-        opportunity description the system generates. A specific, true statement produces
-        outreach that sounds like you. A generic one produces generic outreach.
-      </p>
+      <p className="pp-section-note">{t('pp.stmt.note')}</p>
       <StatementExample />
       <textarea
         className="pp-statement"
         value={text}
         onChange={e => setText(e.target.value)}
-        placeholder="Write a short statement about your practice…"
+        placeholder={t('pp.stmt.placeholder')}
         rows={7}
       />
       <SaveBtn saved={saved} onSave={() => { onSave(text); flash() }} />
@@ -423,6 +421,7 @@ const QUESTIONS = [
 
 function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [answers, setAnswers] = useState(data || {})
+  const { t } = useLanguage()
   useEffect(() => { setAnswers(data || {}) }, [data])
 
   const answeredCount    = QUESTIONS.filter(q => answers[q.key]).length
@@ -453,21 +452,21 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
 
   const remaining = QUESTIONS.length - answeredCount
   const subtitle = allAnswered
-    ? 'Saffron has everything she needs for now. Check back after your next exhibition.'
-    : `Saffron left ${remaining} note${remaining !== 1 ? 's' : ''} — whenever you have a moment.`
+    ? t('pp.sub.saffronQs.done')
+    : t('pp.sub.saffronQs.rem', { n: remaining, s: remaining !== 1 ? 's' : '' })
 
   return (
     <SectionShell
       id="saffron-questions"
       sectionRef={sectionRef}
-      title="Notes from Saffron"
+      title={t('pp.sec.saffronQs')}
       subtitle={subtitle}
       isOpen={isOpen}
       onToggle={onToggle}
     >
       {allAnswered ? (
         <p className="pp-section-note pp-section-note--gentle">
-          Saffron has everything she needs for now. Come back after your next exhibition or publication.
+          {t('pp.sub.saffronQs.done')}
         </p>
       ) : (
         <>
@@ -484,7 +483,7 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
           </div>
 
           <div className="pp-q-card">
-            <div className="pp-q-num">Question {activeIdx + 1}</div>
+            <div className="pp-q-num">{t('pp.question', { n: activeIdx + 1 })}</div>
             <p className="pp-q-text">{currentQ.text}</p>
             <p className="pp-q-why">{currentQ.why}</p>
             {currentQ.options && (
@@ -504,13 +503,13 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
             />
             <div className="pp-q-actions">
               <button className="pp-save pp-save--answer" onClick={saveAnswer} disabled={!draft.trim()}>
-                Save answer
+                {t('pp.saveAnswer')}
               </button>
               {!answers[currentQ.key] && (
-                <button className="pp-skip" onClick={skipQ}>Come back to this</button>
+                <button className="pp-skip" onClick={skipQ}>{t('pp.comeBack')}</button>
               )}
               {answers[currentQ.key] && (
-                <button className="pp-skip" onClick={() => clearAnswer(currentQ.key)}>Clear answer</button>
+                <button className="pp-skip" onClick={() => clearAnswer(currentQ.key)}>{t('pp.clearAnswer')}</button>
               )}
             </div>
           </div>
@@ -519,7 +518,7 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
 
       {answeredCount > 0 && (
         <div className="pp-q-done-list">
-          <div className="pp-block-label">{answeredCount} answered</div>
+          <div className="pp-block-label">{t('pp.answered', { n: answeredCount })}</div>
           {QUESTIONS.filter(q => answers[q.key]).map(q => (
             <div key={q.key} className="pp-q-done-row" onClick={() => selectQ(QUESTIONS.indexOf(q))}>
               <span className="pp-q-done-check">✓</span>
@@ -551,6 +550,7 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [saved,  flash]     = useSaved()
   const [phIdx]             = useState(() => Math.floor(Math.random() * GOAL_PLACEHOLDERS.length))
   const [shownFirstNote, setShownFirstNote] = useState((data || []).length > 0)
+  const { t } = useLanguage()
   useEffect(() => { setGoals(data || []) }, [data])
 
   function addGoal() {
@@ -575,15 +575,13 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
     <SectionShell
       id="career-goals"
       sectionRef={sectionRef}
-      title="Career Goals"
-      subtitle="What are you working toward? No format needed — Peppercorn will figure it out."
+      title={t('pp.sec.goals')}
+      subtitle={t('pp.sub.goals')}
       isOpen={isOpen}
       onToggle={onToggle}
     >
       {goals.length === 0 && (
-        <p className="pp-section-note">
-          Peppercorn hasn't heard your goals yet. What are you working toward?
-        </p>
+        <p className="pp-section-note">{t('pp.goals.empty')}</p>
       )}
 
       {active.length > 0 && (
@@ -606,11 +604,11 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
           onKeyDown={e => e.key === 'Enter' && addGoal()}
           placeholder={GOAL_PLACEHOLDERS[phIdx] + '…'}
         />
-        <button className="pp-add-btn" onClick={addGoal}>Add</button>
+        <button className="pp-add-btn" onClick={addGoal}>{t('pp.add')}</button>
       </div>
 
       {shownFirstNote && goals.length === 1 && (
-        <p className="pp-first-goal-note">Saffron will use this to sharpen her analysis.</p>
+        <p className="pp-first-goal-note">{t('pp.goals.firstNote')}</p>
       )}
 
       {done.length > 0 && (
@@ -630,46 +628,24 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
 
 // ── Preferences section ───────────────────────────────────────────────────
 
-const TIERS = [
-  { n: 1, label: 'Tier 1 — Ambient Visibility', desc: 'Zine shops, consignment, café prints, book fairs' },
-  { n: 2, label: 'Tier 2 — Networking',         desc: 'Group shows, artist-run spaces, community events' },
-  { n: 3, label: 'Tier 3 — Credibility',        desc: 'Institutional open calls, juried shows, TOKAS' },
-  { n: 4, label: 'Tier 4 — Prestige',           desc: 'RWS, ACC, Cité des Arts — future targets only' },
-]
-const TRACKS = [
-  { id: 'publication', label: 'Publication & illustration ecosystem', desc: 'Zines, artist books, illustration fairs, publishers' },
-  { id: 'gallery',     label: 'Gallery & exhibition track',           desc: 'Group shows, open calls, gallery relationships' },
-  { id: 'hybrid',      label: 'Both — running in parallel',          desc: 'The natural fit given her existing practice' },
-]
-const AVOID_OPTIONS = [
-  { id: 'photography_calls',    label: 'Photography-heavy open calls' },
-  { id: 'high_fees',            label: 'Entry fees over ¥10,000 / $60' },
-  { id: 'international_travel', label: 'Opportunities requiring international travel now' },
-  { id: 'digital_only',         label: 'Digital-only submissions' },
-  { id: 'large_group',          label: 'Group shows with 20+ artists' },
-]
-const GEO_OPTIONS = [
-  { id: 'tokyo',         label: 'Tokyo first',           desc: 'Prioritise opportunities within Tokyo' },
-  { id: 'japan',         label: 'Japan (beyond Tokyo)',  desc: 'Include Osaka, Kyoto, Yokohama, etc.' },
-  { id: 'international', label: 'International equally', desc: 'Global open calls, overseas fairs, residencies' },
-]
-const FEE_OPTIONS = [
-  { id: 'free',   label: 'Free only' },
-  { id: 'low',    label: 'Up to ¥5,000 / $30' },
-  { id: 'medium', label: 'Up to ¥15,000 / $80' },
-  { id: 'any',    label: 'Any fee — judge case by case' },
-]
-const SURFACE_OPTIONS = [
-  { id: 'zines_books',     label: 'Zines, artist books & publishing' },
-  { id: 'gallery_shows',   label: 'Gallery exhibitions & open calls' },
-  { id: 'residencies',     label: 'Residencies & fellowships' },
-  { id: 'cafes_bookshops', label: 'Café & bookshop spaces' },
-  { id: 'art_fairs',       label: 'Art fairs & markets' },
-]
+const TIER_NS     = [1, 2, 3, 4]
+const TRACK_IDS   = ['publication', 'gallery', 'hybrid']
+const AVOID_IDS   = ['photography_calls', 'high_fees', 'international_travel', 'digital_only', 'large_group']
+const GEO_IDS     = ['tokyo', 'japan', 'international']
+const FEE_IDS     = ['free', 'low', 'medium', 'any']
+const SURFACE_IDS = ['zines_books', 'gallery_shows', 'residencies', 'cafes_bookshops', 'art_fairs']
 
 function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
+  const { t } = useLanguage()
   const pri  = (data || {}).priorities  || {}
   const pref = (data || {}).preferences || {}
+
+  const TIERS = TIER_NS.map(n => ({ n, label: t(`pp.tier.${n}.label`), desc: t(`pp.tier.${n}.desc`) }))
+  const TRACKS = TRACK_IDS.map(id => ({ id, label: t(`pp.track.${id}.label`), desc: t(`pp.track.${id}.desc`) }))
+  const AVOID_OPTIONS = AVOID_IDS.map(id => ({ id, label: t(`pp.avoid.${id}`) }))
+  const GEO_OPTIONS = GEO_IDS.map(id => ({ id, label: t(`pp.geo.${id}.label`), desc: t(`pp.geo.${id}.desc`) }))
+  const FEE_OPTIONS = FEE_IDS.map(id => ({ id, label: t(`pp.fee.${id}`) }))
+  const SURFACE_OPTIONS = SURFACE_IDS.map(id => ({ id, label: t(`pp.surface.${id}`) }))
 
   const [tiers, setTiers] = useState(pri.active_tiers   || [1, 2])
   const [track, setTrack] = useState(pri.primary_track   || 'hybrid')
@@ -707,19 +683,16 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
     <SectionShell
       id="preferences"
       sectionRef={sectionRef}
-      title="Preferences"
-      subtitle="Peppercorn's current settings. The defaults are reasonable — only change them if something feels off."
+      title={t('pp.sec.preferences')}
+      subtitle={t('pp.sub.preferences')}
       isOpen={isOpen}
       onToggle={onToggle}
     >
-      <p className="pp-section-note">
-        The more Peppercorn knows, the sharper Saffron's analysis becomes — but there's no rush.
-        Changes take effect on the next pipeline run.
-      </p>
+      <p className="pp-section-note">{t('pp.prefs.note')}</p>
 
       <div className="pp-group">
-        <div className="pp-group-label">Active tiers</div>
-        <p className="pp-group-hint">Check the tiers you are actively building toward. Tier 1–2 should almost always be checked.</p>
+        <div className="pp-group-label">{t('pp.group.activeTiers')}</div>
+        <p className="pp-group-hint">{t('pp.group.tiersHint')}</p>
         {TIERS.map(t => (
           <label key={t.n} className="pp-check-row">
             <input type="checkbox" className="pp-check" checked={tiers.includes(t.n)} onChange={() => toggleTier(t.n)} />
@@ -729,7 +702,7 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
       </div>
 
       <div className="pp-group">
-        <div className="pp-group-label">Primary track</div>
+        <div className="pp-group-label">{t('pp.group.primaryTrack')}</div>
         {TRACKS.map(tr => (
           <label key={tr.id} className="pp-radio-row">
             <input type="radio" className="pp-radio" name="pp-track" value={tr.id} checked={track === tr.id} onChange={() => setTrack(tr.id)} />
@@ -739,7 +712,7 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
       </div>
 
       <div className="pp-group">
-        <div className="pp-group-label">Avoid surfacing</div>
+        <div className="pp-group-label">{t('pp.group.avoid')}</div>
         {AVOID_OPTIONS.map(opt => (
           <label key={opt.id} className="pp-check-row">
             <input type="checkbox" className="pp-check" checked={avoid.includes(opt.id)} onChange={() => toggleAvoid(opt.id)} />
@@ -749,7 +722,7 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
       </div>
 
       <div className="pp-group">
-        <div className="pp-group-label">Geographic focus</div>
+        <div className="pp-group-label">{t('pp.group.geoFocus')}</div>
         {GEO_OPTIONS.map(opt => (
           <label key={opt.id} className="pp-check-row">
             <input type="checkbox" className="pp-check" checked={geo.includes(opt.id)} onChange={() => toggleGeo(opt.id)} />
@@ -759,7 +732,7 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
       </div>
 
       <div className="pp-group">
-        <div className="pp-group-label">Fee tolerance</div>
+        <div className="pp-group-label">{t('pp.group.feeTolerance')}</div>
         {FEE_OPTIONS.map(opt => (
           <label key={opt.id} className="pp-radio-row">
             <input type="radio" className="pp-radio" name="pp-fee" value={opt.id} checked={fee === opt.id} onChange={() => setFee(opt.id)} />
@@ -769,13 +742,13 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
       </div>
 
       <div className="pp-group">
-        <div className="pp-group-label">Category weighting</div>
-        <p className="pp-group-hint">Surface more ↑ or less ↓ of each category. Leaving a category blank keeps the pipeline's current weighting.</p>
+        <div className="pp-group-label">{t('pp.group.catWeighting')}</div>
+        <p className="pp-group-hint">{t('pp.group.catHint')}</p>
         <div className="pp-surface-grid">
           <div className="pp-surface-header">
             <span />
-            <span className="pp-surface-col-label">More ↑</span>
-            <span className="pp-surface-col-label">Less ↓</span>
+            <span className="pp-surface-col-label">{t('pp.group.more')}</span>
+            <span className="pp-surface-col-label">{t('pp.group.less')}</span>
           </div>
           {SURFACE_OPTIONS.map(opt => (
             <div key={opt.id} className="pp-surface-row">
@@ -904,6 +877,7 @@ export default function PeppercornPage() {
   const [statusMsg,   setStatusMsg]   = useState('')
   const [openSections,setOpenSections]= useState(new Set(['instagram-strategy']))
   const [activeCard,  setActiveCard]  = useState(null)
+  const { t } = useLanguage()
 
   const sectionRefs   = useRef({})
   const carouselCards = profile ? buildCarouselCards(profile) : []
@@ -931,13 +905,13 @@ export default function PeppercornPage() {
   async function saveSection(updates) {
     const next = { ...profile, ...updates }
     setProfile(next)
-    setStatusMsg('Saving…')
+    setStatusMsg(t('pp.saving'))
     await fetch('/api/peppercorn', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(next),
     })
-    setStatusMsg('Saved')
+    setStatusMsg(t('pp.saved'))
     setTimeout(() => setStatusMsg(''), 2000)
   }
 
@@ -1037,7 +1011,7 @@ export default function PeppercornPage() {
         </div>
       )}
 
-      {!profile && <div className="pp-loading">Peppercorn is listening…</div>}
+      {!profile && <div className="pp-loading">{t('pp.loading')}</div>}
 
       {profile && (
         <>

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './OppCard.css'
+import { useLanguage } from '../i18n/LanguageContext'
 
 export const CAT_LABELS = {
   gallery:           'Gallery',
@@ -65,11 +66,11 @@ export function scoreClass(score) {
   return 'score-low'
 }
 
-const FEEDBACK_ACTIONS = [
-  { id: 'follow',       label: 'Follow',     icon: '★' },
-  { id: 'applied',      label: 'Applied',    icon: '✓' },
-  { id: 'maybe_later',  label: 'Maybe Later',icon: '◷' },
-  { id: 'not_for_me',   label: 'Not for Me', icon: '✕' },
+const FEEDBACK_IDS = [
+  { id: 'follow',      key: 'card.feedback.follow',   icon: '★' },
+  { id: 'applied',     key: 'card.feedback.applied',  icon: '✓' },
+  { id: 'maybe_later', key: 'card.feedback.maybe',    icon: '◷' },
+  { id: 'not_for_me',  key: 'card.feedback.notForMe', icon: '✕' },
 ]
 
 async function saveFeedback(oppId, action) {
@@ -86,6 +87,7 @@ async function saveFeedback(oppId, action) {
 
 export default function OppCard({ opp, isOpen, onDetails }) {
   const [feedback, setFeedback] = useState(null)
+  const { t } = useLanguage()
   const iconSrc = CAT_ICON[opp.category] || DEFAULT_ICON
 
   function handleFeedback(actionId) {
@@ -115,7 +117,7 @@ export default function OppCard({ opp, isOpen, onDetails }) {
         {/* Tags */}
         <div className="opp-card-pills">
           <span className="opp-pill opp-pill-cat">
-            {CAT_LABELS[opp.category] || opp.category}
+            {t(`cat.${opp.category}`) !== `cat.${opp.category}` ? t(`cat.${opp.category}`) : (CAT_LABELS[opp.category] || opp.category)}
           </span>
           {opp.city && (
             <span className="opp-pill opp-pill-loc">{opp.city}</span>
@@ -136,22 +138,22 @@ export default function OppCard({ opp, isOpen, onDetails }) {
             className={`opp-btn-details${isOpen ? ' opp-btn-details--active' : ''}`}
             onClick={onDetails}
           >
-            {isOpen ? 'Close' : 'Details'}
+            {isOpen ? t('card.close') : t('card.details')}
           </button>
         </div>
 
         {/* Feedback row — visible only when card is open */}
         {isOpen && (
           <div className="opp-feedback-row">
-            {FEEDBACK_ACTIONS.map(a => (
+            {FEEDBACK_IDS.map(a => (
               <button
                 key={a.id}
                 className={`opp-feedback-btn opp-feedback-${a.id}${feedback === a.id ? ' opp-feedback-btn--active' : ''}`}
                 onClick={() => handleFeedback(a.id)}
-                title={a.label}
+                title={t(a.key)}
               >
                 <span className="opp-feedback-icon">{a.icon}</span>
-                <span className="opp-feedback-label">{a.label}</span>
+                <span className="opp-feedback-label">{t(a.key)}</span>
               </button>
             ))}
           </div>
