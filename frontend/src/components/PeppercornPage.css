@@ -15,19 +15,22 @@
   min-height: 100vh;
 }
 
-/* ── Ambient mouse illustration ─────────────────────────────────────────── */
+/* ── Hero banner (2560×640 landscape image) ────────────────────────────── */
 
 .pp-mouse-ambient {
-  display: flex;
-  justify-content: center;
-  padding: 28px 0 4px;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 
 .pp-mouse-img {
-  width: 200px;
-  height: auto;
-  border-radius: 14px;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
 }
 
 /* ── Status bar ─────────────────────────────────────────────────────────── */

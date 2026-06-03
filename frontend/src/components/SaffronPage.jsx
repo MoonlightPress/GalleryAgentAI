@@ -79,7 +79,7 @@ function CareerPosition({ data, t }) {
                   <td className="sf-social-platform">{s.platform}</td>
                   <td className="sf-social-handle">{s.handle}</td>
                   <td className="sf-social-followers">{s.followers}</td>
-                  {s.posts != null ? <td className="sf-social-posts">{s.posts} posts</td> : <td />}
+                  {s.posts != null ? <td className="sf-social-posts">{s.posts} {t('sf.label.posts')}</td> : <td />}
                 </tr>
               ))}
             </tbody>
@@ -101,7 +101,7 @@ function MarketLandscape({ data, t }) {
   const maxCat  = Math.max(...data.category_breakdown.map(c => c.count), 1)
   const geoTotal = data.tokyo_vs_international.tokyo + data.tokyo_vs_international.international
   const tokyoPct = Math.round((data.tokyo_vs_international.tokyo / geoTotal) * 100)
-  const summary  = `${data.total} — ${data.tokyo_vs_international.tokyo} Tokyo / Japan, ${data.tokyo_vs_international.international} international`
+  const summary  = `${data.total} — ${data.tokyo_vs_international.tokyo} ${t('sf.label.tokyo')}, ${data.tokyo_vs_international.international} ${t('sf.label.international')}`
 
   return (
     <SectionShell
@@ -168,7 +168,7 @@ function ComparableArtists({ artists, t }) {
             <div className="sf-peer-traits">
               {a.shared_traits.map((tr, j) => <span key={j} className="sf-trait">{tr}</span>)}
             </div>
-            <div className="sf-peer-use">Use as: {a.use_as}</div>
+            <div className="sf-peer-use">{t('sf.label.useAs')} {a.use_as}</div>
           </div>
         ))}
       </div>
@@ -314,7 +314,7 @@ function CareerBenchmarks({ data, t }) {
               <div className="sf-benchmark-dimension">{row.dimension}</div>
               <div className="sf-benchmark-artist">{row.artist_value}</div>
               <div className="sf-benchmark-range">
-                <span className="sf-range-label">Peers: </span>
+                <span className="sf-range-label">{t('sf.label.peers')} </span>
                 {row.peer_low} → {row.peer_typical} → {row.peer_high}
               </div>
               <div className="sf-benchmark-tag" style={{ color }}>{label}</div>
@@ -465,7 +465,7 @@ function CollaborationMap({ data, t }) {
             <div key={i} className="sf-collab-row">
               <span className="sf-collab-name">{a.name}</span>
               <span className="sf-collab-context">{a.context}</span>
-              <span className="sf-collab-status">Current status: {a.current_status}</span>
+              <span className="sf-collab-status">{t('sf.label.currentStatus')} {a.current_status}</span>
             </div>
           ))}
           <p className="sf-info-text" style={{ marginTop: 14 }}>{data.note}</p>
@@ -501,7 +501,7 @@ function GeographicExpansion({ data, t }) {
             </div>
             <p className="sf-geo-region-note">{r.note}</p>
             {r.entry_point && (
-              <div className="sf-geo-entry">Entry point: {r.entry_point}</div>
+              <div className="sf-geo-entry">{t('sf.label.entryPoint')} {r.entry_point}</div>
             )}
           </div>
         ))}

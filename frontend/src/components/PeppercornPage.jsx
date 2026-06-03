@@ -106,45 +106,30 @@ function InstagramStrategySection({ isOpen, onToggle, sectionRef }) {
           <div className="pp-platform-header">
             <span className="pp-platform-name">Instagram</span>
             <span className="pp-platform-handle">@gegyjiji</span>
-            <span className="pp-platform-count">21k followers</span>
+            <span className="pp-platform-count">{t('pp.ig.count')}</span>
           </div>
-          <p className="pp-analysis-note">
-            21k means you are visible to the Tokyo illustration community and to print buyers
-            doing light research. Gallery directors may glance. Major curators are not yet watching.
-          </p>
+          <p className="pp-analysis-note">{t('pp.ig.analysis.21k')}</p>
           <div className="pp-threshold-list">
             <div className="pp-threshold-row">
               <div className="pp-threshold-marker pp-threshold-marker--next">25k</div>
-              <p className="pp-threshold-desc">
-                Algorithm begins treating the account as established. Print buyer and zine
-                collector discovery increases — people who find work through browsing start
-                encountering it. The first threshold worth actively pursuing.
-              </p>
+              <p className="pp-threshold-desc">{t('pp.ig.thresh.25k')}</p>
             </div>
             <div className="pp-threshold-row">
               <div className="pp-threshold-marker">50k</div>
-              <p className="pp-threshold-desc">
-                Gallery directors begin treating social following as a signal of market viability.
-                Consignment conversations become easier to open — checking an artist's Instagram
-                before agreeing to a show is standard practice at this level.
-              </p>
+              <p className="pp-threshold-desc">{t('pp.ig.thresh.50k')}</p>
             </div>
             <div className="pp-threshold-row">
               <div className="pp-threshold-marker">100k</div>
-              <p className="pp-threshold-desc">
-                Press interest increases organically. Collector attention expands beyond the
-                illustration community. Speaking invitations at art events become plausible.
-                A medium-term goal, not a near-term one.
-              </p>
+              <p className="pp-threshold-desc">{t('pp.ig.thresh.100k')}</p>
             </div>
           </div>
           <div className="pp-tactics-block">
-            <div className="pp-block-label">What tends to work for this kind of practice</div>
+            <div className="pp-block-label">{t('pp.ig.tactics.label')}</div>
             <ul className="pp-tactics-list">
-              <li>Daily diary posts build attachment faster than occasional large posts — the accumulation effect</li>
-              <li>Urban architecture, quiet spaces, and cats are high-performing for Japanese audiences</li>
-              <li>Consistent Japanese/Chinese bilingual captions reach both communities without fragmenting either</li>
-              <li>Story reposts of Tokyo urban observations build local audience faster than feed posts alone</li>
+              <li>{t('pp.ig.tactics.0')}</li>
+              <li>{t('pp.ig.tactics.1')}</li>
+              <li>{t('pp.ig.tactics.2')}</li>
+              <li>{t('pp.ig.tactics.3')}</li>
             </ul>
           </div>
         </div>
@@ -153,32 +138,22 @@ function InstagramStrategySection({ isOpen, onToggle, sectionRef }) {
           <div className="pp-platform-header">
             <span className="pp-platform-name">Twitter / X</span>
             <span className="pp-platform-handle">@GegYjiji</span>
-            <span className="pp-platform-count">~90k followers</span>
+            <span className="pp-platform-count">{t('pp.tw.count')}</span>
           </div>
-          <p className="pp-analysis-note">
-            Almost at 100k — a symbolic threshold. The illustration community following built
-            through daily diary practice since 2020 is genuine and hard-won.
-          </p>
+          <p className="pp-analysis-note">{t('pp.tw.analysis')}</p>
           <div className="pp-threshold-list">
             <div className="pp-threshold-row">
               <div className="pp-threshold-marker pp-threshold-marker--next">100k</div>
-              <p className="pp-threshold-desc">
-                Symbolic milestone. Credibility marker in curator and gallerist conversations.
-                Press mentions increase. Almost there.
-              </p>
+              <p className="pp-threshold-desc">{t('pp.tw.thresh.100k')}</p>
             </div>
           </div>
-          <div className="pp-insight-box">
-            Twitter is roughly 4× larger than Instagram. The gap matters because galleries
-            and publishers use Instagram for discovery — it's where they look when they
-            encounter a name. Twitter's audience doesn't bridge automatically.
-          </div>
+          <div className="pp-insight-box">{t('pp.tw.insight')}</div>
           <div className="pp-gentle-questions">
-            <div className="pp-block-label">Peppercorn was wondering</div>
+            <div className="pp-block-label">{t('pp.tw.wondering.label')}</div>
             <ul className="pp-wondering-list">
-              <li>How often do you post to Instagram at the moment?</li>
-              <li>Do you want to grow it, or use it mainly as a portfolio archive? The approach is completely different.</li>
-              <li>If you can share your Instagram Insights screenshot, Peppercorn can see where your audience actually is.</li>
+              <li>{t('pp.tw.wondering.0')}</li>
+              <li>{t('pp.tw.wondering.1')}</li>
+              <li>{t('pp.tw.wondering.2')}</li>
             </ul>
           </div>
         </div>
@@ -205,36 +180,26 @@ function ExhibitionPathwaySection({ isOpen, onToggle, sectionRef }) {
         <div>
           <div className="pp-pathway-record">
             <div className="pp-pathway-show-title">Tide from China Part 1</div>
-            <div className="pp-pathway-show-meta">ACG_Labo · Harajuku, Tokyo · February 2023 · Group show, 6 Chinese illustrators</div>
+            <div className="pp-pathway-show-meta">{t('pp.shows.meta')}</div>
             <div className="pp-pathway-show-note">{t('pp.shows.record.label')}</div>
           </div>
 
           <div className="pp-threshold-list pp-threshold-list--shows">
             <div className="pp-threshold-row pp-threshold-row--done">
               <div className="pp-threshold-marker pp-threshold-marker--done">1 ✓</div>
-              <p className="pp-threshold-desc">Established presence. A credible starting point. Not yet a pattern.</p>
+              <p className="pp-threshold-desc">{t('pp.shows.thresh.1')}</p>
             </div>
             <div className="pp-threshold-row">
               <div className="pp-threshold-marker pp-threshold-marker--next">2</div>
-              <p className="pp-threshold-desc">
-                Pattern begins. The perception of "one lucky group show" dissolves.
-                She is someone who exhibits, not someone who exhibited.
-              </p>
+              <p className="pp-threshold-desc">{t('pp.shows.thresh.2')}</p>
             </div>
             <div className="pp-threshold-row">
               <div className="pp-threshold-marker pp-threshold-marker--key">3</div>
-              <p className="pp-threshold-desc">
-                The blocking milestone. Most Tokyo galleries consider 3 group show credits
-                the minimum before discussing a solo show. Getting to 3 unlocks the next
-                stage of the career arc.
-              </p>
+              <p className="pp-threshold-desc">{t('pp.shows.thresh.3')}</p>
             </div>
             <div className="pp-threshold-row">
               <div className="pp-threshold-marker">5</div>
-              <p className="pp-threshold-desc">
-                Strong exhibition CV. Residency applications become competitive. Institutional
-                open calls — TOKAS, BankART1929, Youkobo — become realistic rather than aspirational.
-              </p>
+              <p className="pp-threshold-desc">{t('pp.shows.thresh.5')}</p>
             </div>
           </div>
         </div>
@@ -244,15 +209,15 @@ function ExhibitionPathwaySection({ isOpen, onToggle, sectionRef }) {
             <div className="pp-block-label">{t('pp.shows.nextTargets')}</div>
             <div className="pp-target-row">
               <div className="pp-target-name">3331 Arts Chiyoda</div>
-              <p className="pp-target-desc">Open calls on regular cycle. Artist-run feel. Accessible for international artists based in Tokyo.</p>
+              <p className="pp-target-desc">{t('pp.shows.3331.desc')}</p>
             </div>
             <div className="pp-target-row">
               <div className="pp-target-name">Design Festa Gallery</div>
-              <p className="pp-target-desc">Active curated program, illustration-adjacent. Harajuku location builds on the ACG_Labo connection.</p>
+              <p className="pp-target-desc">{t('pp.shows.dfg.desc')}</p>
             </div>
             <div className="pp-target-row">
               <div className="pp-target-name">Gallery IYN</div>
-              <p className="pp-target-desc">Smaller, emerging-artist focused. Realistic first repeat venue.</p>
+              <p className="pp-target-desc">{t('pp.shows.iyn.desc')}</p>
             </div>
           </div>
 
@@ -328,104 +293,36 @@ function ArtistStatementSection({ data, onSave, isOpen, onToggle, sectionRef }) 
 
 // ── Saffron's questions section ───────────────────────────────────────────
 
-const QUESTIONS = [
-  {
-    key: 'posting_frequency',
-    text: 'How often do you post to Instagram? Any goals for this?',
-    why: 'Posting cadence is the most controllable variable for closing the Instagram/Twitter gap.',
-    options: [
-      'Daily — it\'s part of my diary practice',
-      'A few times a week, no specific goal',
-      'Rarely, maybe once or twice a month',
-      'I\'d like to post more consistently but haven\'t yet',
-    ],
-  },
-  {
-    key: 'audience_geography',
-    text: 'Where are most of your followers — Tokyo, China, or spread globally?',
-    why: 'Whether your audience is primarily Chinese-language changes the geographic expansion strategy entirely.',
-    options: [
-      'Mostly Chinese-speaking — China, Taiwan, overseas Chinese communities',
-      'Mix of Tokyo-based and Chinese-speaking followers',
-      'Spread globally — I don\'t really know the breakdown',
-      'Primarily Japanese audience in Tokyo',
-    ],
-  },
-  {
-    key: 'has_sold_work',
-    text: 'Have you sold work before? Through which channels — fairs, online, prints, originals?',
-    why: 'Sales history reveals which formats and price points convert, which shapes which fairs are worth entering.',
-    options: [
-      'Yes — mostly prints, through online shops',
-      'Yes — originals and prints at art fairs',
-      'A few pieces informally, nothing systematic',
-      'Not yet — I haven\'t set up a selling structure',
-    ],
-  },
-  {
-    key: 'new_publication_planned',
-    text: 'Is a new publication or zine in the works, even loosely?',
-    why: 'If one is already planned, the system should support it — not recommend it as a new idea.',
-    options: [
-      'Yes — something is loosely in progress',
-      'I have ideas but nothing concrete yet',
-      'No current plans for a new publication',
-      'I\'d like to, but I\'m not sure what format',
-    ],
-  },
-  {
-    key: 'has_artist_statement',
-    text: 'Do you have an artist statement written anywhere — in any language?',
-    why: 'Most open calls require one. If none exists, this is the most urgent gap before any submissions.',
-    options: [
-      'Yes, in Chinese — nothing in English or Japanese yet',
-      'I have rough notes but nothing written formally',
-      'Yes, I have a draft in English or Japanese',
-      'No — I\'ve never written one',
-    ],
-  },
-  {
-    key: 'tide_china_contact',
-    text: 'Are you still in touch with anyone from the Tide from China show?',
-    why: 'Those five artists are the most natural group show partners. If they have dispersed, the network needs rebuilding.',
-    options: [
-      'Yes, I\'m still in touch with some of them',
-      'Loosely — we follow each other but haven\'t spoken recently',
-      'No, we\'ve lost touch since the show',
-      'I know who they are but never connected closely',
-    ],
-  },
-  {
-    key: 'second_exhibition_planned',
-    text: 'Is there a second Japan exhibition already planned or in conversation?',
-    why: 'The system assumes 2–3 more group shows are needed, but one may already be underway.',
-    options: [
-      'Yes — something is in early conversation',
-      'Nothing confirmed, but I\'m actively looking',
-      'I have a show I\'m interested in but haven\'t applied',
-      'No — I haven\'t started looking yet',
-    ],
-  },
-  {
-    key: 'price_points',
-    text: 'What do you charge for originals and prints?',
-    why: 'Pricing determines which collector tier and which fairs are appropriate. Under-pricing affects how galleries perceive the work.',
-    options: [
-      'Originals ¥30,000–¥80,000 · prints ¥3,000–¥8,000',
-      'I haven\'t set formal prices yet',
-      'I price by feel depending on size and buyer',
-      'Lower than I should — I tend to undercharge',
-    ],
-  },
+// Static keys for logic (answeredCount, ordering) — language-independent
+const QUESTION_KEYS = [
+  'posting_frequency',
+  'audience_geography',
+  'has_sold_work',
+  'new_publication_planned',
+  'has_artist_statement',
+  'tide_china_contact',
+  'second_exhibition_planned',
+  'price_points',
 ]
+
+function buildQuestions(t) {
+  return QUESTION_KEYS.map((key, i) => ({
+    key,
+    text: t(`pp.q.${i}.text`),
+    why:  t(`pp.q.${i}.why`),
+    options: [0, 1, 2, 3].map(j => t(`pp.q.${i}.opt.${j}`)),
+  }))
+}
 
 function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [answers, setAnswers] = useState(data || {})
   const { t } = useLanguage()
   useEffect(() => { setAnswers(data || {}) }, [data])
 
-  const answeredCount    = QUESTIONS.filter(q => answers[q.key]).length
-  const allAnswered      = answeredCount === QUESTIONS.length
+  const QUESTIONS = buildQuestions(t)
+
+  const answeredCount    = QUESTION_KEYS.filter(k => answers[k]).length
+  const allAnswered      = answeredCount === QUESTION_KEYS.length
   const firstUnanswered  = QUESTIONS.findIndex(q => !answers[q.key])
   const startIdx         = firstUnanswered === -1 ? 0 : firstUnanswered
   const [activeIdx, setActiveIdx] = useState(startIdx)
@@ -498,7 +395,7 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
               value={draft}
               onChange={e => setDraft(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && e.metaKey && saveAnswer()}
-              placeholder="Your answer — or pick one above…"
+              placeholder={t('pp.q.input.placeholder')}
               rows={3}
             />
             <div className="pp-q-actions">
@@ -767,80 +664,80 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
 
 // ── Carousel data builders ────────────────────────────────────────────────
 
-function buildCarouselCards(profile) {
+function buildCarouselCards(profile, t) {
   const answers      = profile.saffron_answers || {}
-  const answeredCount= QUESTIONS.filter(q => answers[q.key]).length
+  const answeredCount= QUESTION_KEYS.filter(k => answers[k]).length
   const goalsCount   = (profile.goals || []).filter(g => !g.done).length
   const hasText      = (profile.artist_statement || '').length > 30
+
+  const qsDesc = answeredCount === 0 ? t('pp.carousel.qs.desc.0')
+    : answeredCount < 4  ? t('pp.carousel.qs.desc.building', { n: answeredCount })
+    : answeredCount < 8  ? t('pp.carousel.qs.desc.partial')
+    :                      t('pp.carousel.qs.desc.done')
 
   const cards = [
     {
       id: 'tw',
       sectionId: 'instagram-strategy',
-      name: 'Twitter / X',
+      name: t('pp.carousel.tw.name'),
       current: '~90k',
       next: '100k',
       ratio: 90 / 100,
-      desc: 'Symbolic milestone — credibility marker in curator conversations',
+      desc: t('pp.carousel.tw.desc'),
     },
     {
       id: 'ig',
       sectionId: 'instagram-strategy',
-      name: 'Instagram',
+      name: t('pp.carousel.ig.name'),
       current: '21k',
       next: '25k',
       ratio: 21 / 25,
-      desc: 'Algorithm visibility increases at 25k — print buyer discovery begins',
+      desc: t('pp.carousel.ig.desc'),
     },
     {
       id: 'pub',
       sectionId: null,
-      name: 'Publications',
+      name: t('pp.carousel.pub.name'),
       current: '2',
       next: '3',
       ratio: 2 / 3,
-      desc: 'A third publication establishes a pattern — see Saffron for the full landscape',
+      desc: t('pp.carousel.pub.desc'),
     },
     {
       id: 'stmt',
       sectionId: 'artist-statement',
-      name: 'Artist Statement',
-      current: hasText ? 'draft' : 'none',
-      next: 'refined',
+      name: t('pp.carousel.stmt.name'),
+      current: hasText ? t('pp.carousel.stmt.current.draft') : t('pp.carousel.stmt.current.none'),
+      next: t('pp.carousel.stmt.next'),
       ratio: hasText ? 0.5 : 0,
-      desc: 'This text feeds every email Mochi drafts — the better it is, the better everything is',
+      desc: t('pp.carousel.stmt.desc'),
     },
     {
       id: 'shows',
       sectionId: 'exhibition-pathway',
-      name: 'Group Shows',
+      name: t('pp.carousel.shows.name'),
       current: '1',
       next: '3',
       ratio: 1 / 3,
-      desc: 'Tokyo galleries consider 3 shows minimum before solo show conversations',
+      desc: t('pp.carousel.shows.desc'),
     },
     {
       id: 'qs',
       sectionId: 'saffron-questions',
-      name: 'Notes from Saffron',
+      name: t('pp.carousel.qs.name'),
       current: `${answeredCount}/8`,
       next: '8/8',
       ratio: answeredCount / 8,
-      desc: answeredCount === 0 ? 'Saffron is working with incomplete context'
-          : answeredCount < 4  ? `${answeredCount} answered — Saffron is building a picture`
-          : answeredCount < 8  ? 'Saffron has enough for a partial analysis'
-          :                      'Saffron has everything she needs for now',
+      desc: qsDesc,
     },
     {
       id: 'goals',
       sectionId: 'career-goals',
-      name: 'Career Goals',
+      name: t('pp.carousel.goals.name'),
       current: String(goalsCount),
       next: goalsCount < 1 ? '1' : '3',
       ratio: goalsCount === 0 ? 0 : Math.min(goalsCount / 3, 1),
-      desc: goalsCount === 0
-        ? "Peppercorn hasn't heard your goals yet"
-        : 'Saffron uses these to weight recommendations toward what you want',
+      desc: goalsCount === 0 ? t('pp.carousel.goals.desc.empty') : t('pp.carousel.goals.desc.has'),
     },
   ]
 
@@ -852,7 +749,7 @@ function buildCarouselCards(profile) {
 
 function computeSectionOrder(profile) {
   const answers      = profile.saffron_answers || {}
-  const answeredCount= QUESTIONS.filter(q => answers[q.key]).length
+  const answeredCount= QUESTION_KEYS.filter(k => answers[k]).length
   const goalsCount   = (profile.goals || []).length
   const hasText      = (profile.artist_statement || '').length > 30
 
@@ -880,7 +777,7 @@ export default function PeppercornPage() {
   const { t } = useLanguage()
 
   const sectionRefs   = useRef({})
-  const carouselCards = profile ? buildCarouselCards(profile) : []
+  const carouselCards = profile ? buildCarouselCards(profile, t) : []
   const sectionOrder  = profile ? computeSectionOrder(profile) : []
 
   useEffect(() => {
