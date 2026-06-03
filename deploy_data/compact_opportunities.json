@@ -285,7 +285,7 @@
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "immediate_best_moves",
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "pre_final_guard_score": 9.4,
@@ -302,10 +302,8 @@
     "rumor_mill_score": 0.4,
     "summary_zh": "东京驹泽大学附近的小杂志店，每年春秋两季接受投稿，无费用无审查，是艺术书籍和印刷品的优秀曝光渠道。",
     "summary_ja": "東京駒沢大学近くのジン専門店、年2回（春秋）の投稿受付、無料無審査、アーティストブックとプリントの優れた露出機会。",
-    "confirmation_gate_status": "needs_confirmation",
-    "confirmation_gate_signal": null,
-    "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
-    "pre_gate_bucket": "immediate_best_moves"
+    "confirmation_gate_status": "confirmed",
+    "confirmation_gate_signal": "text:zine"
   },
   {
     "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
@@ -3646,7 +3644,7 @@
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "immediate_best_moves",
     "pre_final_guard_score": 7.6,
     "final_score_guard_note": "Rescored 7.6 → 8.2 (verification_points=3, composite=9.6)",
     "opportunity_type": "relationship_target",
@@ -3658,10 +3656,8 @@
     "contact_note": "No public email. Use B2B contact form or Instagram @bookandsons_distribution",
     "summary_zh": "【Book and Sons】东京艺术/设计书店，拥有展览空间和文化素养高、书籍爱好者观众，可能欣赏氛围纪录作品。",
     "summary_ja": "【Book and Sons】東京の美術・デザイン書店。展示空間を備え、文化的素養と本への関心を持つ観客が、大気的なドキュメンテーション作品を鑑賞する可能性。",
-    "confirmation_gate_status": "needs_confirmation",
-    "confirmation_gate_signal": null,
-    "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
-    "pre_gate_bucket": "immediate_best_moves"
+    "confirmation_gate_status": "confirmed",
+    "confirmation_gate_signal": "text:zine"
   },
   {
     "title": "OPA Gallery",
@@ -12350,15 +12346,13 @@
     "pre_final_guard_score": 6.5,
     "final_score_guard_note": "Rescored 6.5 → 7.1 (verification_points=2, composite=8.9)",
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "publication_targets",
     "fee": "4,800 yen + 20% of sales",
     "contact_email": "hello@tsukihi.jp",
     "summary_zh": "【日記屋 月日】独立书店，拥有安静的写作/书籍文化氛围，可能适合亲密的印刷作品展示。",
     "summary_ja": "【日記屋 月日】静かな執筆・書籍文化を持つ独立書店。親密な印刷作品に適した可能性がある。",
-    "confirmation_gate_status": "needs_confirmation",
-    "confirmation_gate_signal": null,
-    "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
-    "pre_gate_bucket": "publication_targets"
+    "confirmation_gate_status": "confirmed",
+    "confirmation_gate_signal": "text:zine"
   },
   {
     "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
@@ -15538,16 +15532,14 @@
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "publication_targets",
     "pre_final_guard_score": 8.0,
     "final_score_guard_note": "Capped at 6.5 due to verification strength.",
     "contact_email": "contact@kushartgallery.com",
     "summary_zh": "【POST】东京艺术书店/画廊，出版导向观众重视视觉氛围与文化记录。",
     "summary_ja": "【POST】東京のアートブックショップ/ギャラリー。出版志向の観客が視覚的な作品と文化的記録を重視。",
-    "confirmation_gate_status": "needs_confirmation",
-    "confirmation_gate_signal": null,
-    "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
-    "pre_gate_bucket": "publication_targets"
+    "confirmation_gate_status": "confirmed",
+    "confirmation_gate_signal": "text:zine"
   },
   {
     "title": "Publishing / Artist Books — Battle Plan",
@@ -19267,13 +19259,11 @@
     "pre_final_guard_score": 7.6,
     "final_score_guard_note": "Rescored 7.6 → 6.1 (verification_points=2, composite=7.66)",
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "publication_targets",
     "summary_zh": "ZINE活动适合因为杂志和艺术书籍环境适合静谧的纸上作品、小版本、氛围和视觉序列。",
     "summary_ja": "ZINEイベントはジン・アートブック文脈が静寂的な紙上作品、小版、雰囲気、視覚的配列に適合するため適している。",
-    "confirmation_gate_status": "needs_confirmation",
-    "confirmation_gate_signal": null,
-    "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
-    "pre_gate_bucket": "publication_targets"
+    "confirmation_gate_status": "confirmed",
+    "confirmation_gate_signal": "text:zine"
   },
   {
     "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
@@ -30322,9 +30312,8 @@
     "submission_url": "https://www.eventeny.com/events/vendor?id=39232",
     "summary_zh": "[Full-Table - Little Tokyo Zine Fest 2026 - Eventeny] 小东京Zine节，适合纸张作品、小版本、氛围营造及视觉叙事的展示。",
     "summary_ja": "[Full-Table - Little Tokyo Zine Fest 2026 - Eventeny] Little Tokyo Zine Fest。静謐な紙作品、小版本、雰囲気、ビジュアルシーケンスに最適。",
-    "confirmation_gate_status": "needs_confirmation",
-    "confirmation_gate_signal": null,
-    "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity."
+    "confirmation_gate_status": "confirmed",
+    "confirmation_gate_signal": "text:zine"
   },
   {
     "title": "twelvebooks",
@@ -31357,9 +31346,8 @@
     "exclusive_primary_bucket": "reject",
     "summary_zh": "[Sunny Boy Books] 学芸大学附近亲密型独立书店，拥有4000册藏书、自有出版社及定期艺术家活动——强一级寄售目标。",
     "summary_ja": "[Sunny Boy Books] 学芸大学付近のインティメートなインディー書店。4,000冊、独自の出版レーベル、定期的なアーティストイベント。第1層コンサイメント有力ターゲット。",
-    "confirmation_gate_status": "needs_confirmation",
-    "confirmation_gate_signal": null,
-    "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity."
+    "confirmation_gate_status": "confirmed",
+    "confirmation_gate_signal": "text:zine"
   },
   {
     "title": "Picaresque Gallery",
@@ -31995,9 +31983,8 @@
     "exclusive_primary_bucket": "reject",
     "summary_zh": "ZINE FARM TOKYO - 吉祥寺以自印书为中心的目标场地。评估呈现方式和潜在合作的理想位置。",
     "summary_ja": "ZINE FARM TOKYO - 吉祥寺のジン専門施設。プレゼンテーションと潜在的な展示の可能性を検証するのに適した場所。",
-    "confirmation_gate_status": "needs_confirmation",
-    "confirmation_gate_signal": null,
-    "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity."
+    "confirmation_gate_status": "confirmed",
+    "confirmation_gate_signal": "text:zine"
   },
   {
     "title": "MADO Café",

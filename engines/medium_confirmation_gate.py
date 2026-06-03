@@ -56,6 +56,7 @@ CONFIRM_PATTERNS = [
     (re.compile(r'\bartist\s+books?\b', re.I),                   'artist book'),
     (re.compile(r'\bart\s+books?\b', re.I),                      'art book'),
     (re.compile(r'\bmixed\s+media\b', re.I),                     'mixed media'),
+    (re.compile(r'\bzines?\b|\bzine\s+fair\b|\bzine\s+shop\b|\bzine\s+fest\b', re.I), 'zine'),
 ]
 
 # ── Category-level bypass ──────────────────────────────────────────────────
@@ -124,6 +125,10 @@ def main():
             opp['confirmation_gate_status'] = 'confirmed'
             opp['confirmation_gate_signal'] = signal
             opp.pop('confirmation_gate_note', None)  # clear stale note if re-run
+            # Restore original bucket if this entry was previously rerouted by the gate
+            prior = opp.pop('pre_gate_bucket', None)
+            if prior is not None and opp.get('exclusive_primary_bucket') == 'needs_research':
+                opp['exclusive_primary_bucket'] = prior
             confirmed += 1
         else:
             opp['confirmation_gate_status'] = 'needs_confirmation'
@@ -160,7 +165,7 @@ def main():
         "",
         "An opportunity passes only when one of these signals is present:",
         "watercolor, painting, works on paper, illustration, visual art, fine art,",
-        "printmaking, drawing, gouache, artist book, art book, mixed media —",
+        "printmaking, drawing, gouache, artist book, art book, mixed media, zine —",
         "found in accepted_media, name, one_sentence, why_this_fits_short, or other",
         "text fields. Failures route to needs_research; bucket is preserved in",
         "pre_gate_bucket for reversal if richer data is added later.",
