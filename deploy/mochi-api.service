@@ -1,0 +1,19 @@
+[Unit]
+Description=Mochi API (FastAPI + uvicorn)
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/mochi
+EnvironmentFile=/opt/mochi/.env
+ExecStart=/opt/mochi/venv/bin/uvicorn api:app --host 127.0.0.1 --port 8001 --workers 1
+Restart=on-failure
+RestartSec=5s
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=mochi-api
+
+[Install]
+WantedBy=multi-user.target
