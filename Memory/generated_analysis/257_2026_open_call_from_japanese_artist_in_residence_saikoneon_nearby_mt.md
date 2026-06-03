@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-04
 # 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...
 
 ## 1. Quick Judgment
-**Fit score:** 4.5/10  
+**Fit score:** 4.2/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Residencies / Longer Projects  

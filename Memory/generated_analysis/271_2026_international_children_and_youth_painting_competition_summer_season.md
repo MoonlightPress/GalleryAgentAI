@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-04
 # 2026 International Children and Youth Painting Competition Summer Season
 
 ## 1. Quick Judgment
-**Fit score:** 6.0/10  
-**Fit band:** Promising  
+**Fit score:** 4.0/10  
+**Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Global Open Call  
 **City:** International  

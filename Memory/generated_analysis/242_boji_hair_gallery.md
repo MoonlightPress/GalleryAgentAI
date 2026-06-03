@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-04
 # Boji Hair+Gallery
 
 ## 1. Quick Judgment
-**Fit score:** 5.5/10  
-**Fit band:** Promising  
+**Fit score:** 5.4/10  
+**Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Other  
 **City:** City not listed  

@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-04
 # » 21 Terrific Small Presses Open to Direct Submissions
 
 ## 1. Quick Judgment
-**Fit score:** 9.2/10  
+**Fit score:** 9.6/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Book Publishing  

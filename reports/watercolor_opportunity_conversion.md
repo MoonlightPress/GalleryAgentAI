@@ -10,12 +10,12 @@ Demoted photography-only matches: 0
 - **Northwest Watercolor Society 2026 Annual International Open Exhibition** — watercolor score 10; hits: watercolor
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — watercolor score 10; hits: watercolor, zine
 - **BOOOOOOOM 2026 Art & Photo Book Award** — watercolor score 10; hits: painting, zine, illustration
-- **HATTIFNATT Koenji Cafe Gallery** — watercolor score 10; hits: gallery
-- **Browse opportunities | CuratorSpace** — watercolor score 10; hits: watercolor, works on paper, zine, paper
 - **American Watercolor Society Annual International Exhibition** — watercolor score 10; hits: watercolor
+- **HATTIFNATT Koenji Cafe Gallery** — watercolor score 10; hits: gallery
 - **Royal Watercolour Society Open Exhibition** — watercolor score 10; hits: watercolor, watercolour, works on paper, paper
 - **Bologna Children's Book Fair Illustrators Exhibition** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
 - **American Illustration** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
+- **Browse opportunities | CuratorSpace** — watercolor score 10; hits: watercolor, works on paper, zine, paper
 - **OPA Gallery** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, illustration, paper
 - **Pinpoint Gallery** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, illustration, paper
 - **World Illustration Awards** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
@@ -25,9 +25,9 @@ Demoted photography-only matches: 0
 - **HB Gallery** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, illustration, paper
 - **Gallery IYN** — watercolor score 10; hits: watercolor, works on paper, gallery, paper
 - **Tokyo Illustrators Society** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
-- **UTRECHT** — watercolor score 10; hits: watercolor, gallery, bookstore, artist book, zine
-- **Offprint** — watercolor score 10; hits: watercolor, artist book
-- **Aesthetica Art Prize** — watercolor score 10; hits: watercolor, works on paper, zine, paper
 - **Tokyo Art Book Fair** — watercolor score 10; hits: watercolor, artist book, zine
+- **UTRECHT** — watercolor score 10; hits: watercolor, gallery, bookstore, artist book, zine
+- **Aesthetica Art Prize** — watercolor score 10; hits: watercolor, works on paper, zine, paper
+- **Offprint** — watercolor score 10; hits: watercolor, artist book
 - **Self Publish, Be Happy** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, zine, paper
 - **Book Obscura** — watercolor score 10; hits: watercolor, artist book, zine

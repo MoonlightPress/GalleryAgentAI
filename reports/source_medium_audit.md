@@ -17,18 +17,18 @@
   - hits: painting: watercolor | mixed: zine
 - **BOOOOOOOM 2026 Art & Photo Book Award** — painting
   - hits: painting: painting | photography: photo | mixed: zine
-- **HATTIFNATT Koenji Cafe Gallery** — painting
-  - hits: painting: illustration
-- **Browse opportunities | CuratorSpace** — painting
-  - hits: painting: painting, open exhibition | photography: photography, photo | mixed: zine, bookstore
 - **American Watercolor Society Annual International Exhibition** — painting
   - hits: painting: watercolor
+- **HATTIFNATT Koenji Cafe Gallery** — painting
+  - hits: painting: illustration
 - **Royal Watercolour Society Open Exhibition** — painting
   - hits: painting: watercolor, watercolour, open exhibition, royal watercolour society
 - **Bologna Children's Book Fair Illustrators Exhibition** — painting
   - hits: painting: illustration | mixed: book fair
 - **American Illustration** — painting
   - hits: painting: illustration
+- **Browse opportunities | CuratorSpace** — painting
+  - hits: painting: painting, open exhibition | photography: photography, photo | mixed: zine, bookstore
 - **OPA Gallery** — painting
   - hits: painting: illustration, opa gallery
 - **Pinpoint Gallery** — painting
@@ -47,14 +47,14 @@
   - hits: painting: gallery iyn
 - **Tokyo Illustrators Society** — painting
   - hits: painting: illustration
-- **UTRECHT** — mixed
-  - hits: mixed: zine, bookstore, utrecht
-- **Offprint** — mixed
-  - hits: mixed: book fair
-- **Aesthetica Art Prize** — mixed
-  - hits: mixed: zine
 - **Tokyo Art Book Fair** — mixed
   - hits: mixed: book fair, tokyo art book fair
+- **UTRECHT** — mixed
+  - hits: mixed: zine, bookstore, utrecht
+- **Aesthetica Art Prize** — mixed
+  - hits: mixed: zine
+- **Offprint** — mixed
+  - hits: mixed: book fair
 - **Self Publish, Be Happy** — mixed
   - hits: photography: photo, photobook | mixed: artist book, self publish
 - **Book Obscura** — mixed
@@ -67,6 +67,8 @@
   - hits: mixed: zine, mount zine
 - **Book and Sons** — mixed
   - hits: mixed: zine, bookstore, book and sons
+- **» 21 Terrific Small Presses Open to Direct Submissions** — mixed
+  - hits: mixed: small press
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — mixed
   - hits: mixed: zine, bookstore
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — mixed
@@ -75,8 +77,6 @@
   - hits: mixed: zine, bookstore
 - **Tacoche** — mixed
   - hits: mixed: zine, bookstore
-- **» 21 Terrific Small Presses Open to Direct Submissions** — mixed
-  - hits: mixed: small press
 - **Books Ruhe** — mixed
   - hits: mixed: zine, bookstore
 - **tata bookshop/gallery** — mixed
@@ -87,40 +87,40 @@
   - hits: mixed: zine, bookstore
 - **Printed Matter Art Book Fairs** — mixed
   - hits: mixed: zine, printed matter, book fair
-- **DER GREIF** — photography
-  - hits: photography: photography, photo, der greif
 - **Aperture | Photography** — photography
   - hits: photography: photography, photo, photobook, aperture | mixed: zine
+- **DER GREIF** — photography
+  - hits: photography: photography, photo, der greif
+- **The Artcomplex Center of Tokyo** — unknown
+- **ArtConnect Open Calls** — unknown
+- **Society of Women Artists** — unknown
 - **【biscuit gallery】初の公募企画「grid next : Emerging ...** — unknown
 - **219公募展6募集 >> Gallery219 ギャラリーニイク** — unknown
 - **公募プログラム - トーキョーアーツアンドスペース** — unknown
 - **Open Calls for Artists | Exhibit Worldwide** — unknown
-- **The Artcomplex Center of Tokyo** — unknown
-- **ArtConnect Open Calls** — unknown
-- **Society of Women Artists** — unknown
-- **Submissions — Clavis Publishing** — unknown
-- **Koganecho Area Management Center** — unknown
-- **SCAI The Bathhouse** — unknown
-- **Platform China BIAP Artist Residency** — unknown
-- **BankART1929** — unknown
-- **Center for Book Arts Opportunities** — unknown
 - **submissions — porkbelly press** — unknown
 - **SUBMISSIONS - marblepress.com** — unknown
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — unknown
 - **Japan Book Publishers Association - JBPA** — unknown
 - **ART BOX Publishing** — unknown
+- **Center for Book Arts Opportunities** — unknown
+- **SCAI The Bathhouse** — unknown
+- **Platform China BIAP Artist Residency** — unknown
+- **Submissions — Clavis Publishing** — unknown
+- **BankART1929** — unknown
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — unknown
 - **3 Top Book Publishers in Tokyo in 2026** — unknown
 - **3 Top Book Publishers in Japan in 2026** — unknown
 - **Become an Author - Tuttle Publishing** — unknown
+- **Koganecho Area Management Center** — unknown
 - **CuratorSpace** — unknown
 - **第113回 日本水彩展** — painting
   - hits: painting: watercolor
 - **Shimokitazawa Arts** — unknown
+- **Gallery IRO** — unknown
 - **グループ展参加アーティスト募集中 - Gallery and Links81** — unknown
 - **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — unknown
 - **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — unknown
-- **Gallery IRO** — unknown
 - **Open Call for the International Creator Residency Program 2026** — unknown
 - **BALLOND'ESSAI Shimokitazawa** — unknown
 - **CLOUDS Gallery+Coffee Koenji** — unknown
@@ -216,8 +216,8 @@
 - **True Beauty - 2026** — unknown
 - **Laugh & Peace Art Competition 2026** — unknown
 - **Boji Hair+Gallery** — unknown
-- **INSTINC 2026/2027 Artist-in-Residence Program** — unknown
 - **Aquarium - 2026** — unknown
+- **INSTINC 2026/2027 Artist-in-Residence Program** — unknown
 - **東京芸術劇場 ギャラリー1 ウォーターカラー展覧会** — painting
   - hits: painting: watercolor
 - **ARTE VENT Press** — unknown
@@ -352,8 +352,8 @@
 - **In-dividual Theater：BUG Screen Week 2026** — mixed
   - hits: mixed: zine
 - **ART SG 2026** — unknown
-- **Golden Key International Art Competition** — unknown
 - **2026 ART CAPITAL Paris Grand Palais International Youth Academic Award** — unknown
+- **Golden Key International Art Competition** — unknown
 - **RAW TOKYO** — unknown
 - **2026 第37回 美浜美術展** — unknown
 - **KAMIHANGA国際プリント展2026** — unknown

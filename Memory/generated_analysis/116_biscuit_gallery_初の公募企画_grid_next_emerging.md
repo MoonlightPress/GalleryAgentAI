@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-04
 
 # 【biscuit gallery】初の公募企画「grid next : Emerging ...
 
 ## 1. Quick Judgment
-**Fit score:** 9.4/10  
+**Fit score:** 8.6/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
 
 - **Official/source website**: //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f (verified)
 - **Submission process**: //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f (verified)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2026-04-30 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -25,10 +25,10 @@ Verified: Official/source website, Submission process. Needs checking: Deadline,
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-【biscuit gallery】初の公募企画「grid next : Emerging ... may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes.
+【biscuit gallery】初の公募企画「grid next : Emerging ... may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
 
 ## 5. Existing Fit Notes
-【biscuit gallery】初の公募企画「grid next : Emerging ... may fit if its past artists show quiet contemporary work, painting, drawing, atmosphere, or place-based themes.
+【biscuit gallery】初の公募企画「grid next : Emerging ... may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.
 
 ## 6. Key Points
 - Fit score: 78.
@@ -37,7 +37,7 @@ Verified: Official/source website, Submission process. Needs checking: Deadline,
 - Risk: Only one source found so far.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** 2026-04-30
 - **Fees:** Not publicly listed
 - **Submission page:** //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f
 - **Source:** //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f
@@ -51,5 +51,5 @@ Review current/past artists and check whether submissions, contact email, or ope
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_
 

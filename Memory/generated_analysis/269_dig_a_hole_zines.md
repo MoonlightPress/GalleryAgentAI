@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-04
 # Dig A Hole Zines
 
 ## 1. Quick Judgment
-**Fit score:** 3.0/10  
-**Fit band:** Low priority  
+**Fit score:** 4.0/10  
+**Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Print / Zines / Bookstores  
 **City:** Koenji, Tokyo  

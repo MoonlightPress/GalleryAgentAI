@@ -62,18 +62,6 @@ These opportunities may create disproportionate reputation value.
 - Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## CSPWC Annual Open Water International Exhibition
-
-- Prestige: None
-- Why: International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Tokyo Art Book Fair
-
-- Prestige: None
-- Why: Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
 ## ZINEフェス東京 (ZINE Fest Tokyo)
 
 - Prestige: None
@@ -86,16 +74,16 @@ These opportunities may create disproportionate reputation value.
 - Why: Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## CSPWC Annual Open Water International Exhibition
+
+- Prestige: None
+- Why: International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## Northwest Watercolor Society 2026 Annual International Open Exhibition
 
 - Prestige: None
 - Why: Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 第113回 日本水彩展
-
-- Prestige: None
-- Why: Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## 水彩アートの祭典
@@ -104,16 +92,16 @@ These opportunities may create disproportionate reputation value.
 - Why: Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## Tokyo Art Book Fair
+
+- Prestige: None
+- Why: Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## Women United ART MAGAZINE Issue XIV Summer 2026
 
 - Prestige: None
 - Why: Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Aperture | Photography
-
-- Prestige: 0
-- Why: Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## BOOOOOOOM 2026 Art & Photo Book Award
@@ -122,22 +110,22 @@ These opportunities may create disproportionate reputation value.
 - Why: URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## Still Life - 2026
+
+- Prestige: None
+- Why: 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Aquarium - 2026
+
+- Prestige: None
+- Why: 4th Annual Juried Exhibition with publication and sales opportunities for visual artists.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
 
 - Prestige: None
 - Why: Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Bologna Children's Book Fair Illustrators Exhibition
-
-- Prestige: None
-- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## American Illustration
-
-- Prestige: None
-- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## 水彩アートの祭典 (Watercolor Art Festival)
@@ -150,4 +138,16 @@ These opportunities may create disproportionate reputation value.
 
 - Prestige: None
 - Why: The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## True Beauty - 2026
+
+- Prestige: None
+- Why: 5th Juried Annual Exhibition accepting watercolor and illustration work with promotion and sales opportunities.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## BALLOND'ESSAI Shimokitazawa
+
+- Prestige: None
+- Why: Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

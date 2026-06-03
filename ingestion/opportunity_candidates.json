@@ -3964,9 +3964,9 @@
     ]
   },
   {
-    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+    "title": "The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport",
     "organization": "CuratorSpace",
-    "category": "photo_open_call",
+    "category": "gallery_event",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -3975,21 +3975,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
+    "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: open call",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: open call"
+      "Keyword hits: exhibition"
     ],
     "fit_keyword_hits": [
-      "open call"
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -4314,6 +4314,42 @@
     ],
     "fit_keyword_hits": [
       "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "『記憶の欠片』展",
+    "organization": "Gallery IYN",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.gallery-iyn.com/post/fragments-of-memory",
+    "official_website": "https://www.gallery-iyn.com/post/fragments-of-memory",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Gallery IYN.",
+    "why_this_fits_short": "Possible fit based on link text: memory",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: memory"
+    ],
+    "fit_keyword_hits": [
+      "memory"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,

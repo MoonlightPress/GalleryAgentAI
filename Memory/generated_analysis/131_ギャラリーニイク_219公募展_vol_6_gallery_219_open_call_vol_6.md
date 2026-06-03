@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-04
 # ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)
 
 ## 1. Quick Judgment
-**Fit score:** 7.7/10  
+**Fit score:** 7.9/10  
 **Fit band:** Strong fit  
 **Confidence:** Medium  
 **Type:** Galleries / Exhibition Calls  

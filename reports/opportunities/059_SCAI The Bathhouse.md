@@ -1,7 +1,7 @@
 # SCAI The Bathhouse
 
 ## 1. Quick Judgment
-**Fit score:** 10/10  
+**Fit score:** 9.9/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
@@ -47,4 +47,4 @@ Bookmark for future awareness; focus energy elsewhere
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_

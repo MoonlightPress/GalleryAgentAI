@@ -1,8 +1,8 @@
 # Tokyo Open Call for Artists & Creatives
 
 ## 1. Quick Judgment
-**Fit score:** 6.0/10  
-**Fit band:** Promising  
+**Fit score:** 4.0/10  
+**Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  

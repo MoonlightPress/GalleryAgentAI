@@ -1,270 +1,270 @@
 # DNA Recommendation Boost Report
 
-- CSPWC Annual Open Water International Exhibition: 10.26 → 10; soft color restraint, anti:spectacle-driven exhibition
-- Northwest Watercolor Society 2026 Annual International Open Exhibition: 10.26 → 9.92; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition, anti:single-image contest logic unless the image is unusually strong
+- CSPWC Annual Open Water International Exhibition: 10.46 → 10; soft color restraint, anti:spectacle-driven exhibition
+- Northwest Watercolor Society 2026 Annual International Open Exhibition: 10.06 → 9.72; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition, anti:single-image contest logic unless the image is unusually strong
 - Women United ART MAGAZINE Issue XIV Summer 2026: 10.79 → 10; soft color restraint, artist book
 - BOOOOOOOM 2026 Art & Photo Book Award: 10.27 → 10; plants in urban/domestic spaces, artist book
-- 第113回 日本水彩展: 9.56 → 9.33; soft color restraint, anti:spectacle-driven exhibition
-- Jinny Street Gallery Open Call: 9.3 → 9.42; bookstore/gallery hybrid presentation
-- 水彩アートの祭典 (Watercolor Art Festival): 9.26 → 9.38; soft color restraint
-- 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026): 9.42 → 9.31; plants in urban/domestic spaces, soft color restraint, anti:spectacle-driven exhibition
+- 第113回 日本水彩展: 9.96 → 9.73; soft color restraint, anti:spectacle-driven exhibition
+- Jinny Street Gallery Open Call: 9.5 → 9.62; bookstore/gallery hybrid presentation
+- 水彩アートの祭典 (Watercolor Art Festival): 9.96 → 10; soft color restraint
+- 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026): 10.12 → 10; plants in urban/domestic spaces, soft color restraint, anti:spectacle-driven exhibition
+- American Watercolor Society Annual International Exhibition: 9.97 → 9.98; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
 - HATTIFNATT Koenji Cafe Gallery: 9.81 → 10; human trace rather than direct portraiture, artist book, bookstore/gallery hybrid presentation
-- Browse opportunities | CuratorSpace: 10.13 → 10; soft color restraint, place as emotional subject, artist book, anti:spectacle-driven exhibition
-- American Watercolor Society Annual International Exhibition: 9.77 → 9.78; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
-- Royal Watercolour Society Open Exhibition: 10.15 → 10; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
-- Bologna Children's Book Fair Illustrators Exhibition: 9.92 → 9.81; soft color restraint, artist book, anti:spectacle-driven exhibition
-- American Illustration: 9.92 → 10; soft color restraint, artist book
-- OPA Gallery: 9.6 → 9.73; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- Pinpoint Gallery: 9.6 → 9.73; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- World Illustration Awards: 9.6 → 9.84; soft color restraint, artist book
-- 3x3 International Illustration Awards: 9.6 → 9.84; soft color restraint, artist book
-- Jackson's Art Prize: 9.6 → 9.84; soft color restraint, artist book
-- Royal Watercolour Society: 9.6 → 9.49; soft color restraint, artist book, anti:single-image contest logic unless the image is unusually strong
-- HB Gallery: 8.88 → 9.01; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- Gallery IYN: 8.88 → 9.24; soft color restraint, artist book, bookstore/gallery hybrid presentation
-- Tokyo Illustrators Society: 8.88 → 9.12; soft color restraint, artist book
-- Communication Arts Illustration Competition: 8.18 → 8.42; soft color restraint, artist book
-- OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery: 9.08 → 8.97; artist book, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- コピックアワード2026: 8.54 → 8.66; soft color restraint
-- Aquarelle 18 - アクワレル: 8.74 → 8.51; soft color restraint, anti:spectacle-driven exhibition
-- 多摩ゆかりの作家による公募展: 8.24 → 8.48; soft color restraint, artist book
-- 桜をテーマとするイラスト・絵画作品募集: 7.92 → 8.16; quiet observation, soft color restraint
-- Ark Art Award 2024: 8.54 → 8.43; soft color restraint, artist book, anti:spectacle-driven exhibition
-- Mall Galleries Open Exhibitions: 7.46 → 7.47; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
-- Pastel Society Open Exhibition: 7.46 → 7.47; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
-- Blooming Stories 2026: 7.62 → 7.86; quiet observation, soft color restraint
-- 水彩アートの祭典: 8.36 → 8.13; soft color restraint, anti:spectacle-driven exhibition
-- 2026春季二科展「NIKA nika/S20号」コンクール: 7.92 → 8.04; soft color restraint
-- UTRECHT: 10.59 → 10; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- ZINEフェス東京 (ZINE Fest Tokyo): 11.24 → 10; artist book
-- MOUNT ZINE: 10.71 → 10; artist book
-- Book and Sons: 9.75 → 10; plants in urban/domestic spaces, small businesses and local spaces, quiet observation, low-spectacle documentary attention, bookstore/gallery hybrid presentation
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin: 10.22 → 10; artist book
-- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at : 10.22 → 10; artist book
-- Offprint: 10.04 → 10; quiet streets and lived-in places, quiet observation, soft color restraint, artist book
-- Aesthetica Art Prize: 9.95 → 9.84; soft color restraint, artist book, anti:single-image contest logic unless the image is unusually strong
-- LOCAL Gallery・Books: 9.98 → 10; quiet streets and lived-in places, small businesses and local spaces, quiet observation, artist book, bookstore/gallery hybrid presentation
-- Tacoche: 9.98 → 9.99; small businesses and local spaces, artist book, small press sequence, anti:single-image contest logic unless the image is unusually strong
-- » 21 Terrific Small Presses Open to Direct Submissions: 10.25 → 10; human trace rather than direct portraiture, small businesses and local spaces, artist book, small press sequence
-- Books Ruhe: 9.98 → 10; small businesses and local spaces, artist book, bookstore/gallery hybrid presentation
-- tata bookshop/gallery: 9.98 → 9.87; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- 本店・本屋の実験室: 9.98 → 10; small businesses and local spaces, artist book, bookstore/gallery hybrid presentation
-- Top Artist Opportunities for 2026 | ArtConnect: 9.98 → 9.75; artist book, anti:spectacle-driven exhibition
-- TOKIO ART BOOK FAIR 2026: 8.48 → 8.6; artist book
-- Tokyo Art Book Fair: 10.79 → 10; plants in urban/domestic spaces, small businesses and local spaces, soft color restraint, low-spectacle documentary attention, artist book
-- POST: 9.21 → 8.98; bookstore/gallery hybrid presentation, anti:heavy conceptual overstatement
-- Self Publish, Be Happy: 9.81 → 10; quiet streets and lived-in places, human trace rather than direct portraiture, quiet observation, soft color restraint, photobook
-- Book Obscura: 9.41 → 9.77; soft color restraint, artist book, small press sequence
-- Printed Matter Art Book Fairs: 9.59 → 9.72; human trace rather than direct portraiture, small businesses and local spaces, artist book, small press sequence, anti:single-image contest logic unless the image is unusually strong
-- 日記屋 月日: 8.7 → 9.06; quiet streets and lived-in places, quiet observation, bookstore/gallery hybrid presentation
-- そぞろ書房: 8.34 → 8.82; small businesses and local spaces, artist book, small press sequence, bookstore/gallery hybrid presentation
-- Home - Printed Matter: 9.52 → 9.77; ordinary architecture, soft color restraint, photobook, artist book, small press sequence
+- Royal Watercolour Society Open Exhibition: 9.75 → 9.76; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
+- Bologna Children's Book Fair Illustrators Exhibition: 10.12 → 10; soft color restraint, artist book, anti:spectacle-driven exhibition
+- American Illustration: 10.12 → 10; soft color restraint, artist book
+- Browse opportunities | CuratorSpace: 9.13 → 9.14; soft color restraint, place as emotional subject, artist book, anti:spectacle-driven exhibition
+- OPA Gallery: 9.4 → 9.53; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- Pinpoint Gallery: 9.4 → 9.53; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- World Illustration Awards: 9.4 → 9.64; soft color restraint, artist book
+- 3x3 International Illustration Awards: 9.4 → 9.64; soft color restraint, artist book
+- Jackson's Art Prize: 9.4 → 9.64; soft color restraint, artist book
+- Royal Watercolour Society: 9.4 → 9.29; soft color restraint, artist book, anti:single-image contest logic unless the image is unusually strong
+- HB Gallery: 8.58 → 8.71; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- Gallery IYN: 8.58 → 8.94; soft color restraint, artist book, bookstore/gallery hybrid presentation
+- Tokyo Illustrators Society: 8.58 → 8.82; soft color restraint, artist book
+- Communication Arts Illustration Competition: 8.48 → 8.72; soft color restraint, artist book
+- OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery: 9.18 → 9.07; artist book, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- コピックアワード2026: 9.44 → 9.56; soft color restraint
+- Aquarelle 18 - アクワレル: 9.44 → 9.21; soft color restraint, anti:spectacle-driven exhibition
+- 多摩ゆかりの作家による公募展: 9.34 → 9.58; soft color restraint, artist book
+- 桜をテーマとするイラスト・絵画作品募集: 8.22 → 8.46; quiet observation, soft color restraint
+- Ark Art Award 2024: 9.14 → 9.03; soft color restraint, artist book, anti:spectacle-driven exhibition
+- Mall Galleries Open Exhibitions: 7.06 → 7.07; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
+- Pastel Society Open Exhibition: 7.06 → 7.07; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
+- Blooming Stories 2026: 8.94 → 9.18; quiet observation, soft color restraint
+- 水彩アートの祭典: 9.76 → 9.53; soft color restraint, anti:spectacle-driven exhibition
+- 2026春季二科展「NIKA nika/S20号」コンクール: 8.84 → 8.96; soft color restraint
+- ZINEフェス東京 (ZINE Fest Tokyo): 11.04 → 10; artist book
+- MOUNT ZINE: 10.51 → 10; artist book
+- Tokyo Art Book Fair: 11.19 → 10; plants in urban/domestic spaces, small businesses and local spaces, soft color restraint, low-spectacle documentary attention, artist book
+- UTRECHT: 10.19 → 9.97; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Book and Sons: 9.25 → 9.5; plants in urban/domestic spaces, small businesses and local spaces, quiet observation, low-spectacle documentary attention, bookstore/gallery hybrid presentation
+- Aesthetica Art Prize: 9.55 → 9.44; soft color restraint, artist book, anti:single-image contest logic unless the image is unusually strong
+- » 21 Terrific Small Presses Open to Direct Submissions: 9.85 → 10; human trace rather than direct portraiture, small businesses and local spaces, artist book, small press sequence
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin: 9.12 → 9.24; artist book
+- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at : 9.12 → 9.24; artist book
+- TOKIO ART BOOK FAIR 2026: 9.4 → 9.52; artist book
+- Offprint: 8.93 → 9.41; quiet streets and lived-in places, quiet observation, soft color restraint, artist book
+- LOCAL Gallery・Books: 8.78 → 9.38; quiet streets and lived-in places, small businesses and local spaces, quiet observation, artist book, bookstore/gallery hybrid presentation
+- Tacoche: 8.78 → 8.79; small businesses and local spaces, artist book, small press sequence, anti:single-image contest logic unless the image is unusually strong
+- Books Ruhe: 8.78 → 9.14; small businesses and local spaces, artist book, bookstore/gallery hybrid presentation
+- tata bookshop/gallery: 8.78 → 8.67; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- 本店・本屋の実験室: 8.78 → 9.14; small businesses and local spaces, artist book, bookstore/gallery hybrid presentation
+- Top Artist Opportunities for 2026 | ArtConnect: 8.78 → 8.55; artist book, anti:spectacle-driven exhibition
+- 日記屋 月日: 7.7 → 8.06; quiet streets and lived-in places, quiet observation, bookstore/gallery hybrid presentation
+- POST: 7.61 → 7.38; bookstore/gallery hybrid presentation, anti:heavy conceptual overstatement
+- Self Publish, Be Happy: 8.31 → 8.92; quiet streets and lived-in places, human trace rather than direct portraiture, quiet observation, soft color restraint, photobook
+- Book Obscura: 7.92 → 8.28; soft color restraint, artist book, small press sequence
+- Printed Matter Art Book Fairs: 8.09 → 8.22; human trace rather than direct portraiture, small businesses and local spaces, artist book, small press sequence, anti:single-image contest logic unless the image is unusually strong
 - Publishing / Artist Books — Battle Plan: 7.92 → 8.64; quiet streets and lived-in places, small businesses and local spaces, quiet observation, soft color restraint, artist book
-- Zines / Artist Books — Battle Plan: 7.76 → 8.24; quiet streets and lived-in places, quiet observation, place as emotional subject, artist book
-- 第九屆水主題國際評審藝術比賽: 7.64 → 8.0; human trace rather than direct portraiture, soft color restraint, artist book
-- Book Culture Club: 7.76 → 8.0; small businesses and local spaces, artist book
-- 東京芸術劇場 ギャラリー1 ウォーターカラー展覧会: 7.22 → 7.23; soft color restraint, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- Royal Institute of Painters in Water Colours: 7.16 → 6.7; soft color restraint, artist book, anti:spectacle-driven exhibition, anti:single-image contest logic unless the image is unusually strong
-- 水性繪畫展覽 (Watercolor Exhibition): 7.44 → 7.21; soft color restraint, anti:spectacle-driven exhibition
-- Japan Watercolor Society Annual Exhibition: 7.23 → 7.12; small businesses and local spaces, soft color restraint, anti:spectacle-driven exhibition
-- 2026 3rd Annual Illustration Summit Challenge (IlloBoom!): 6.68 → 6.8; artist book
-- 咲き誇れ桜よ: 7.06 → 6.83; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- マイ・ディア・テディ (My Dear Teddy): 7.06 → 6.83; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- アートオリンピア2026: 6.9 → 6.67; soft color restraint, anti:spectacle-driven exhibition
-- START Box ササハタハツ・START Box 白鬚 2026年度利用者募集: 6.5 → 6.74; soft color restraint, artist book
-- ローズ・ローズ・ローズ: 6.3 → 6.31; soft color restraint, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- スクエア・ワールド2026: 6.3 → 6.19; soft color restraint, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Zines / Artist Books — Battle Plan: 7.56 → 8.04; quiet streets and lived-in places, quiet observation, place as emotional subject, artist book
+- Home - Printed Matter: 8.02 → 8.27; ordinary architecture, soft color restraint, photobook, artist book, small press sequence
+- そぞろ書房: 6.84 → 7.32; small businesses and local spaces, artist book, small press sequence, bookstore/gallery hybrid presentation
+- 第九屆水主題國際評審藝術比賽: 8.16 → 8.52; human trace rather than direct portraiture, soft color restraint, artist book
+- Book Culture Club: 7.16 → 7.4; small businesses and local spaces, artist book
+- 東京芸術劇場 ギャラリー1 ウォーターカラー展覧会: 7.52 → 7.53; soft color restraint, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Royal Institute of Painters in Water Colours: 6.56 → 6.1; soft color restraint, artist book, anti:spectacle-driven exhibition, anti:single-image contest logic unless the image is unusually strong
+- 水性繪畫展覽 (Watercolor Exhibition): 8.04 → 7.81; soft color restraint, anti:spectacle-driven exhibition
+- Japan Watercolor Society Annual Exhibition: 5.43 → 5.32; small businesses and local spaces, soft color restraint, anti:spectacle-driven exhibition
+- 2026 3rd Annual Illustration Summit Challenge (IlloBoom!): 7.2 → 7.32; artist book
+- 咲き誇れ桜よ: 6.76 → 6.53; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- マイ・ディア・テディ (My Dear Teddy): 6.76 → 6.53; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- START Box ササハタハツ・START Box 白鬚 2026年度利用者募集: 7.02 → 7.26; soft color restraint, artist book
+- アートオリンピア2026: 6.92 → 6.69; soft color restraint, anti:spectacle-driven exhibition
+- ローズ・ローズ・ローズ: 6.2 → 6.21; soft color restraint, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- スクエア・ワールド2026: 6.1 → 5.99; soft color restraint, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
 - オープンコール・プロジェクト: 6.29 → 6.41; artist book
-- 2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition): 5.8 → 5.69; soft color restraint, artist book, anti:spectacle-driven exhibition
-- DER GREIF: 9.8 → 10; soft color restraint, artist book
-- Aperture | Photography: 10.38 → 10; soft color restraint, photobook, artist book, small press sequence, anti:spectacle-driven exhibition
-- Submissions — Clavis Publishing: 10.38 → 10; small businesses and local spaces, artist book, small press sequence
-- Koganecho Area Management Center: 9.3 → 9.78; plants in urban/domestic spaces, small businesses and local spaces, quiet observation, artist book
-- SCAI The Bathhouse: 9.3 → 9.66; human trace rather than direct portraiture, artist book, bookstore/gallery hybrid presentation
-- Platform China BIAP Artist Residency: 9.3 → 9.19; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- BankART1929: 9.36 → 9.84; ordinary architecture, plants in urban/domestic spaces, small businesses and local spaces, artist book
-- Shimokitazawa Arts: 9.36 → 9.61; human trace rather than direct portraiture, small businesses and local spaces, artist book, small press sequence, bookstore/gallery hybrid presentation
-- Belladonna Art Competition: 9.3 → 9.42; bookstore/gallery hybrid presentation
-- TAV Gallery: 9.1 → 9.34; place as emotional subject, bookstore/gallery hybrid presentation
-- TOKAS Open Call: 9.2 → 9.32; bookstore/gallery hybrid presentation
-- 2026年美の起原展: 8.04 → 8.28; soft color restraint, bookstore/gallery hybrid presentation
-- 3331 Arts Chiyoda: 9.3 → 9.31; quiet streets and lived-in places, quiet observation, artist book, anti:heavy conceptual overstatement
-- Still Life - 2026: 8.22 → 8.11; soft color restraint, artist book, anti:spectacle-driven exhibition
-- Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition: 8.18 → 8.3; artist book
-- Clavis Publishing Submissions: 8.58 → 8.35; artist book, anti:single-image contest logic unless the image is unusually strong
-- OPEN SITE 11: 8.09 → 8.21; artist book
-- MICRO/MACRO: 7.86 → 7.87; plants in urban/domestic spaces, quiet observation, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- ギャラリーへ行こう2026: 7.78 → 7.67; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- True Beauty - 2026: 7.54 → 7.31; soft color restraint, anti:spectacle-driven exhibition
-- INSTINC 2026/2027 Artist-in-Residence Program: 7.43 → 7.55; artist book
-- Aquarium - 2026: 8.06 → 7.83; artist book, anti:spectacle-driven exhibition
-- NY公募展2026夏（NY Open Call Exhibition Summer 2026）: 7.9 → 7.67; artist book, anti:spectacle-driven exhibition
-- Gallery 456 Exhibition Open Call 2026: 7.12 → 7.13; soft color restraint, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- 金风车插画大赛2026: 6.68 → 6.92; artist book, small press sequence
-- Center for Book Arts Opportunities: 10.03 → 9.8; artist book, anti:spectacle-driven exhibition
+- 2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition): 6.42 → 6.31; soft color restraint, artist book, anti:spectacle-driven exhibition
+- Aperture | Photography: 10.58 → 10; soft color restraint, photobook, artist book, small press sequence, anti:spectacle-driven exhibition
+- DER GREIF: 8.8 → 9.04; soft color restraint, artist book
+- Still Life - 2026: 9.94 → 9.83; soft color restraint, artist book, anti:spectacle-driven exhibition
+- Aquarium - 2026: 9.78 → 9.55; artist book, anti:spectacle-driven exhibition
 - submissions — porkbelly press: 10.38 → 10; small businesses and local spaces, artist book, small press sequence
-- SUBMISSIONS - marblepress.com: 10.25 → 10; small businesses and local spaces, artist book, small press sequence
-- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]: 10.25 → 10; small businesses and local spaces, artist book, small press sequence
-- Japan Book Publishers Association - JBPA: 10.25 → 10; small businesses and local spaces, artist book, small press sequence
-- ART BOX Publishing: 10.25 → 10; small businesses and local spaces, artist book, small press sequence
-- Publishers & Publishing Services in Japan - PublishersGlobal.com: 9.84 → 10; small businesses and local spaces, artist book, small press sequence
-- 3 Top Book Publishers in Tokyo in 2026: 9.84 → 10; small businesses and local spaces, artist book, small press sequence
-- 3 Top Book Publishers in Japan in 2026: 9.84 → 10; small businesses and local spaces, artist book, small press sequence
-- Become an Author - Tuttle Publishing: 9.84 → 10; small businesses and local spaces, artist book, small press sequence
-- BALLOND'ESSAI Shimokitazawa: 9.66 → 9.55; human trace rather than direct portraiture, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- CLOUDS Gallery+Coffee Koenji: 9.5 → 9.51; small businesses and local spaces, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- Cité Internationale des Arts Artist Residency: 9.29 → 9.18; artist book, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- Osaka Open Call For Artists. - ARRIVAL: 8.56 → 8.45; artist book, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- Open calls - Online Database of Artist in Residence Programs in Japan: 8.56 → 8.45; artist book, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- 【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...: 8.56 → 8.33; bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- 2026 松濤美術館公募展｜渋谷区立松濤美術館: 8.56 → 8.33; bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- International Open Call: 8.56 → 8.33; bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- True Beauty - 2026: 9.06 → 8.83; soft color restraint, anti:spectacle-driven exhibition
+- Belladonna Art Competition: 8.6 → 8.72; bookstore/gallery hybrid presentation
+- 2026年美の起原展: 8.54 → 8.78; soft color restraint, bookstore/gallery hybrid presentation
+- ギャラリーへ行こう2026: 8.2 → 8.09; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- NY公募展2026夏（NY Open Call Exhibition Summer 2026）: 8.2 → 7.97; artist book, anti:spectacle-driven exhibition
+- BALLOND'ESSAI Shimokitazawa: 8.96 → 8.85; human trace rather than direct portraiture, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- The Artcomplex Center of Tokyo: 9.82 → 10; soft color restraint, artist book, bookstore/gallery hybrid presentation
+- CLOUDS Gallery+Coffee Koenji: 8.7 → 8.71; small businesses and local spaces, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- SUBMISSIONS - marblepress.com: 9.36 → 9.72; small businesses and local spaces, artist book, small press sequence
+- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]: 9.36 → 9.72; small businesses and local spaces, artist book, small press sequence
+- Japan Book Publishers Association - JBPA: 9.36 → 9.72; small businesses and local spaces, artist book, small press sequence
+- ART BOX Publishing: 9.36 → 9.72; small businesses and local spaces, artist book, small press sequence
+- Center for Book Arts Opportunities: 9.03 → 8.8; artist book, anti:spectacle-driven exhibition
+- SCAI The Bathhouse: 7.9 → 8.26; human trace rather than direct portraiture, artist book, bookstore/gallery hybrid presentation
+- Platform China BIAP Artist Residency: 7.9 → 7.79; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Shimokitazawa Arts: 7.96 → 8.21; human trace rather than direct portraiture, small businesses and local spaces, artist book, small press sequence, bookstore/gallery hybrid presentation
+- Gallery 456 Exhibition Open Call 2026: 8.04 → 8.05; soft color restraint, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Submissions — Clavis Publishing: 8.78 → 9.14; small businesses and local spaces, artist book, small press sequence
+- TOKAS Open Call: 7.6 → 7.72; bookstore/gallery hybrid presentation
+- Hayama Artist Residency Submission Manager - Submittable: 8.5 → 8.62; artist book
+- Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition: 8.28 → 8.4; artist book
+- Cité Internationale des Arts Artist Residency: 7.99 → 7.88; artist book, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- Hayama Artist Residency: 8.3 → 8.07; artist book, anti:single-image contest logic unless the image is unusually strong
+- クリスマスアート展: 7.84 → 7.73; soft color restraint, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- BankART1929: 7.46 → 7.94; ordinary architecture, plants in urban/domestic spaces, small businesses and local spaces, artist book
+- OPEN SITE 11: 7.36 → 7.48; artist book
+- Publishers & Publishing Services in Japan - PublishersGlobal.com: 8.44 → 8.8; small businesses and local spaces, artist book, small press sequence
+- 3 Top Book Publishers in Tokyo in 2026: 8.44 → 8.8; small businesses and local spaces, artist book, small press sequence
+- 3 Top Book Publishers in Japan in 2026: 8.44 → 8.8; small businesses and local spaces, artist book, small press sequence
+- Become an Author - Tuttle Publishing: 8.44 → 8.8; small businesses and local spaces, artist book, small press sequence
+- Koganecho Area Management Center: 7.3 → 7.78; plants in urban/domestic spaces, small businesses and local spaces, quiet observation, artist book
+- MICRO/MACRO: 7.36 → 7.37; plants in urban/domestic spaces, quiet observation, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Art Vancouver 2026: 7.9 → 8.02; artist book
+- Submissions - Little Press Publishing: 8.33 → 8.69; small businesses and local spaces, artist book, small press sequence
+- TAV Gallery: 7.2 → 7.44; place as emotional subject, bookstore/gallery hybrid presentation
+- ArtConnect Open Calls: 8.7 → 8.94; soft color restraint, artist book
+- Society of Women Artists: 8.7 → 8.71; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
+- 3331 Arts Chiyoda: 7.0 → 7.01; quiet streets and lived-in places, quiet observation, artist book, anti:heavy conceptual overstatement
+- INSTINC 2026/2027 Artist-in-Residence Program: 7.0 → 7.12; artist book
+- Osaka Open Call For Artists. - ARRIVAL: 6.96 → 6.85; artist book, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- Open calls - Online Database of Artist in Residence Programs in Japan: 6.96 → 6.85; artist book, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- 【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...: 6.96 → 6.73; bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- 2026 松濤美術館公募展｜渋谷区立松濤美術館: 6.96 → 6.73; bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- International Open Call: 6.96 → 6.73; bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- 金风车插画大赛2026: 6.8 → 7.04; artist book, small press sequence
 - Laugh & Peace Art Competition 2026: 7.02 → 7.03; soft color restraint, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- ギャラリー自由展示: 7.06 → 6.83; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- 【biscuit gallery】初の公募企画「grid next : Emerging ...: 8.38 → 9.1; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- 219公募展6募集 >> Gallery219 ギャラリーニイク: 8.38 → 9.1; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- 公募プログラム - トーキョーアーツアンドスペース: 8.38 → 9.1; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- Open Calls for Artists | Exhibit Worldwide: 8.38 → 9.1; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- グループ展参加アーティスト募集中 - Gallery and Links81: 7.76 → 8.48; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- 公募企画「grid next : 2025 - Emerging Artists Showcase ...: 7.76 → 8.48; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...: 7.76 → 8.48; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- Creative Space Hayashi: 7.54 → 7.43; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- PARK GALLERY 夏の公募企画展（3テーマ）: 7.06 → 6.83; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- 第五回公募展「境界」-edge-: 7.06 → 6.95; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- 第四回公募展「食卓」: 7.06 → 6.83; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- 第六回公募展「鳥」-bird-: 7.06 → 6.83; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- OM SYSTEM PLAZA 2026年2月～3月開催分: 7.06 → 6.83; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- OM SYSTEM PLAZA 2026年4月～6月開催分: 7.06 → 6.83; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- ARTE VENT Press: 7.84 → 7.73; artist book, small press sequence, anti:single-image contest logic unless the image is unusually strong
-- クリスマスアート展: 6.82 → 6.71; soft color restraint, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- Hayama Artist Residency Submission Manager - Submittable: 9.0 → 9.12; artist book
-- Hayama Artist Residency: 8.9 → 8.67; artist book, anti:single-image contest logic unless the image is unusually strong
-- 若手アーティストの登竜門となるアートフェア「Independent Tokyo ...: 7.54 → 8.26; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- New Power展 | ギャラリー自由が丘で作家デビュー: 7.54 → 8.26; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- Call for Entry: Showcase your art in Tokyo, Japan: 7.54 → 8.26; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- Submissions - Little Press Publishing: 9.29 → 9.65; small businesses and local spaces, artist book, small press sequence
-- [展覧会]秀彩会小品展2026: 6.5 → 6.63; small businesses and local spaces, soft color restraint, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- 2026国际大学生数字艺术设计大赛: 6.36 → 6.48; artist book
-- The Artcomplex Center of Tokyo: 9.62 → 9.98; soft color restraint, artist book, bookstore/gallery hybrid presentation
-- 第23届「跨越国界之美2026」国际公募展: 6.4 → 6.29; soft color restraint, artist book, anti:spectacle-driven exhibition
-- Tokyo Wonder Site / TOKAS Residency: 8.71 → 8.84; human trace rather than direct portraiture, soft color restraint, place as emotional subject, artist book, anti:craft-fair positioning
-- 【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...: 6.92 → 7.64; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- 現代アート販売の@Gallery Tagboat|@Gallery Tagboat: 6.92 → 7.64; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
-- AIR 3331: 8.26 → 7.92; plants in urban/domestic spaces, human trace rather than direct portraiture, small businesses and local spaces, anti:single-image contest logic unless the image is unusually strong, anti:heavy conceptual overstatement
-- Art Vancouver 2026: 6.88 → 7.0; artist book
-- Yonchome Cafe: 8.0 → 7.77; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- ArtConnect Open Calls: 8.9 → 9.14; soft color restraint, artist book
-- Society of Women Artists: 8.9 → 8.91; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
-- Aoyama Farmers Market: 7.8 → 7.57; small press sequence, anti:generic commercial art market
-- Asian Cultural Council Fellowship: 8.0 → 8.24; human trace rather than direct portraiture, artist book
-- CuratorSpace: 8.28 → 8.52; soft color restraint, artist book
-- Gallery IRO: 8.28 → 8.76; small businesses and local spaces, soft color restraint, artist book, bookstore/gallery hybrid presentation
-- AAA Gallery Yokohama: 8.28 → 8.64; soft color restraint, artist book, bookstore/gallery hybrid presentation
-- L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info: 7.76 → 7.88; artist book
-- Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...: 7.76 → 7.88; artist book
-- Kyoto Retreat Artist Residency 2026 - Open Call: 7.76 → 7.88; artist book
-- OPEN CALL for the Artist-In-Residence Program 2025/2026: 7.76 → 7.88; artist book
-- Komiyama Tokyo: 7.92 → 8.4; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation
-- shashasha: 7.36 → 7.84; soft color restraint, place as emotional subject, artist book, small press sequence
-- torch press: 8.14 → 8.15; small businesses and local spaces, artist book, small press sequence, anti:craft-fair positioning
-- 絵画展（滋賀県愛荘町開催）: 6.42 → 6.54; soft color restraint
-- Art Fair Tokyo 2026: 6.2 → 6.56; soft color restraint, artist book, bookstore/gallery hybrid presentation
-- 滋賀県愛荘町絵画展: 6.22 → 6.46; soft color restraint, artist book
-- Boji Hair+Gallery: 6.24 → 6.72; small businesses and local spaces, soft color restraint, small press sequence, bookstore/gallery hybrid presentation
-- FACE展2026: 6.22 → 6.34; artist book
-- りんごろごろごろ: 6.14 → 6.03; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6): 6.14 → 6.38; artist book, bookstore/gallery hybrid presentation
-- 空色ターコイズ: 6.14 → 5.91; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- B&B Shimokitazawa: 10.59 → 10; plants in urban/domestic spaces, small businesses and local spaces, soft color restraint, artist book, bookstore/gallery hybrid presentation
-- flotsam books: 10.49 → 10; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- ZINEイベント: 7.79 → 8.27; quiet streets and lived-in places, small businesses and local spaces, quiet observation, small press sequence
-- ART FAIR TOKYO 21: 6.6 → 6.72; artist book
-- 2026 Chinese New Year Celebration Art Show: 5.92 → 6.16; soft color restraint, artist book
-- アートの交差展 vol.6 (Art Intersection Exhibition vol.6): 6.14 → 6.03; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- IlloBoom! 2026 第三屆插畫巔峰賽: 5.84 → 5.96; artist book
-- 「公募－日本の絵画2026－」: 5.7 → 5.71; soft color restraint, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- Spring Flora and Fauna Art Exhibition 2026: 6.08 → 6.21; ordinary architecture, plants in urban/domestic spaces, quiet observation, soft color restraint, anti:spectacle-driven exhibition
-- 7月～12月企画展 参加者募集: 6.02 → 5.91; soft color restraint, artist book, anti:spectacle-driven exhibition
-- Brillia Art Award Wall 2026: 5.66 → 5.9; soft color restraint, artist book
-- 「国際創作者駐村計畫」: 6.04 → 6.16; artist book
-- DESIGN FESTA GALLERY: 8.6 → 8.61; plants in urban/domestic spaces, small businesses and local spaces, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- VACANT: 8.1 → 8.34; artist book, bookstore/gallery hybrid presentation
-- Gallery IRO: 8.1 → 8.22; bookstore/gallery hybrid presentation
-- Gallery HANA Shimokitazawa: 8.1 → 8.11; small businesses and local spaces, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- Zushi Art Gallery: 8.1 → 7.87; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- Gallery Conceal Shibuya: 8.1 → 7.52; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition, anti:craft-fair positioning
-- Open Calls for Artists: 7.76 → 8.0; artist book, bookstore/gallery hybrid presentation
-- Open Call For Artists: 7.76 → 8.0; artist book, bookstore/gallery hybrid presentation
-- 公募展: 7.76 → 7.88; bookstore/gallery hybrid presentation
-- Shoto Museum Open Call: 7.76 → 7.88; bookstore/gallery hybrid presentation
-- Art公募: 7.76 → 7.88; bookstore/gallery hybrid presentation
-- 公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...: 7.76 → 7.88; bookstore/gallery hybrid presentation
-- The Container: 7.82 → 8.07; small businesses and local spaces, soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation
-- BONUS TRACK: 7.95 → 7.37; artist book, anti:spectacle-driven exhibition, anti:generic commercial art market
-- AIT Residency: 7.86 → 7.51; anti:heavy conceptual overstatement
-- Youkobo Art Space: 7.62 → 7.98; small businesses and local spaces, place as emotional subject, artist book
-- Tokyo Arts and Space: 7.46 → 7.11; anti:spectacle-driven exhibition
-- reload Shimokitazawa: 7.46 → 6.89; plants in urban/domestic spaces, human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
-- Cafe Mame-Hico: 7.2 → 7.09; small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- Cafe Cross Point: 7.2 → 6.97; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- Cafe Gallery HATTIFNATT: 7.3 → 6.84; small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition, anti:craft-fair positioning
-- HandMade In Japan Fes: 7.24 → 7.26; plants in urban/domestic spaces, human trace rather than direct portraiture, small businesses and local spaces, soft color restraint, place as emotional subject
-- Open Call for Artists! Tokyo Biennale 2025 "Social Dive": 6.86 → 6.63; artist book, anti:single-image contest logic unless the image is unusually strong
-- Kyoto Art Center Residency: 6.86 → 6.51; anti:single-image contest logic unless the image is unusually strong
-- AIR_J Open Calls: 6.86 → 6.51; anti:single-image contest logic unless the image is unusually strong
-- NEW AIR: 6.86 → 6.51; anti:single-image contest logic unless the image is unusually strong
-- 【公募】2026年度レジデンス・プログラム公募開始: 6.86 → 6.51; anti:single-image contest logic unless the image is unusually strong
-- FACE Exhibition 2026: 6.48 → 6.37; artist book, small press sequence, anti:spectacle-driven exhibition
-- Gallery 191 Exhibition 2026: 6.04 → 5.93; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
-- 2026春季二科展「NIKA+nika/S20号」コンクール: 5.66 → 5.55; soft color restraint, artist book, anti:spectacle-driven exhibition
-- 2026 Asian Heritage Culture Art Show: 5.92 → 5.81; soft color restraint, artist book, anti:spectacle-driven exhibition
-- TOKAS レジデンシー 4つのレジデンス・プログラム公募: 5.34 → 5.46; artist book
-- 臺南市美術館 2026「TAM+展覽計畫」: 5.96 → 5.73; artist book, anti:spectacle-driven exhibition
-- Idemitsu Art Award 2026: 5.94 → 6.06; artist book
-- 秀彩会小品展2026: 5.7 → 5.47; soft color restraint, anti:spectacle-driven exhibition
-- 全國插畫徵集-2026台灣VC文化賞: 5.6 → 5.72; artist book
-- Comitia: 7.46 → 6.88; soft color restraint, anti:generic commercial art market, anti:craft-fair positioning
-- 世界堂絵画展2026: 6.06 → 5.71; anti:spectacle-driven exhibition
-- 「公募－日本の絵画2026－」入賞・入選発表展: 5.5 → 5.39; human trace rather than direct portraiture, soft color restraint, anti:spectacle-driven exhibition
-- 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...: 5.52 → 5.64; artist book
-- 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...: 5.52 → 5.64; artist book
-- 第9回 国際公募 東京アート工芸2026: 6.24 → 5.89; anti:spectacle-driven exhibition
-- Tokyo Gendai 2026: 5.44 → 5.56; bookstore/gallery hybrid presentation
-- 第92回旺玄展: 5.5 → 5.27; soft color restraint, anti:spectacle-driven exhibition
-- PhotoVogue: 7.98 → 7.63; anti:spectacle-driven exhibition
-- Design Festa: 6.9 → 6.67; human trace rather than direct portraiture, anti:generic commercial art market
-- SICF Fukuoka 2026: 5.3 → 5.19; soft color restraint, artist book, anti:spectacle-driven exhibition
-- In-dividual Theater：BUG Screen Week 2026: 5.34 → 5.11; artist book, anti:spectacle-driven exhibition
-- Art on Climate インターナショナル・イラストレーション・コンテスト 2026: 5.64 → 5.41; artist book, anti:single-image contest logic unless the image is unusually strong
-- 第29回 アート未来展: 5.5 → 5.27; soft color restraint, anti:spectacle-driven exhibition
-- 2026 OCAA Ladies Art Exhibition: 5.76 → 5.53; artist book, anti:spectacle-driven exhibition
-- 2026「OPEN World Exhibition」: 5.64 → 5.41; artist book, anti:spectacle-driven exhibition
-- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou: 8.28 → 8.4; artist book
-- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod: 8.18 → 7.95; artist book, anti:spectacle-driven exhibition
-- ART SG 2026: 5.2 → 5.32; artist book
-- Golden Key International Art Competition: 5.14 → 5.26; artist book
-- 2026 ART CAPITAL Paris Grand Palais International Youth Academic Award: 5.14 → 5.26; artist book
-- RAW TOKYO: 5.94 → 5.13; human trace rather than direct portraiture, place as emotional subject, anti:spectacle-driven exhibition, anti:generic commercial art market, anti:craft-fair positioning
-- 2026 第37回 美浜美術展: 5.34 → 5.11; artist book, anti:spectacle-driven exhibition
-- KAMIHANGA国際プリント展2026: 5.14 → 4.79; anti:spectacle-driven exhibition
-- Muninova Artist Award: 4.84 → 4.96; artist book
-- twelvebooks: 5.0 → 4.89; artist book, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- 2026 Kyoto Museum International Art Grand Exhibition: 5.0 → 4.77; artist book, anti:spectacle-driven exhibition
-- Spiral: 3.9 → 3.79; human trace rather than direct portraiture, bookstore/gallery hybrid presentation, anti:generic commercial art market
+- 【biscuit gallery】初の公募企画「grid next : Emerging ...: 6.58 → 7.3; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- 219公募展6募集 >> Gallery219 ギャラリーニイク: 6.58 → 7.3; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- 公募プログラム - トーキョーアーツアンドスペース: 6.58 → 7.3; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- Open Calls for Artists | Exhibit Worldwide: 6.58 → 7.3; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- [展覧会]秀彩会小品展2026: 6.92 → 7.05; small businesses and local spaces, soft color restraint, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Clavis Publishing Submissions: 6.38 → 6.15; artist book, anti:single-image contest logic unless the image is unusually strong
+- ギャラリー自由展示: 6.66 → 6.43; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Tokyo Wonder Site / TOKAS Residency: 7.62 → 7.75; human trace rather than direct portraiture, soft color restraint, place as emotional subject, artist book, anti:craft-fair positioning
+- PARK GALLERY 夏の公募企画展（3テーマ）: 6.56 → 6.33; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- 絵画展（滋賀県愛荘町開催）: 7.44 → 7.56; soft color restraint
+- 第五回公募展「境界」-edge-: 6.46 → 6.35; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- 第四回公募展「食卓」: 6.46 → 6.23; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- 第六回公募展「鳥」-bird-: 6.46 → 6.23; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- OM SYSTEM PLAZA 2026年2月～3月開催分: 6.46 → 6.23; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- OM SYSTEM PLAZA 2026年4月～6月開催分: 6.46 → 6.23; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- 2026国际大学生数字艺术设计大赛: 6.56 → 6.68; artist book
+- 滋賀県愛荘町絵画展: 7.34 → 7.58; soft color restraint, artist book
+- CuratorSpace: 7.68 → 7.92; soft color restraint, artist book
+- Gallery IRO: 7.68 → 8.16; small businesses and local spaces, soft color restraint, artist book, bookstore/gallery hybrid presentation
+- Asian Cultural Council Fellowship: 7.4 → 7.64; human trace rather than direct portraiture, artist book
+- AAA Gallery Yokohama: 7.68 → 8.04; soft color restraint, artist book, bookstore/gallery hybrid presentation
+- torch press: 7.74 → 7.75; small businesses and local spaces, artist book, small press sequence, anti:craft-fair positioning
+- 若手アーティストの登竜門となるアートフェア「Independent Tokyo ...: 6.24 → 6.96; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- New Power展 | ギャラリー自由が丘で作家デビュー: 6.24 → 6.96; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- Call for Entry: Showcase your art in Tokyo, Japan: 6.24 → 6.96; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- グループ展参加アーティスト募集中 - Gallery and Links81: 5.76 → 6.48; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- 公募企画「grid next : 2025 - Emerging Artists Showcase ...: 5.76 → 6.48; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...: 5.76 → 6.48; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- AIR 3331: 6.96 → 6.62; plants in urban/domestic spaces, human trace rather than direct portraiture, small businesses and local spaces, anti:single-image contest logic unless the image is unusually strong, anti:heavy conceptual overstatement
+- L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info: 6.66 → 6.78; artist book
+- Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...: 6.66 → 6.78; artist book
+- Kyoto Retreat Artist Residency 2026 - Open Call: 6.66 → 6.78; artist book
+- OPEN CALL for the Artist-In-Residence Program 2025/2026: 6.66 → 6.78; artist book
+- ARTE VENT Press: 5.94 → 5.83; artist book, small press sequence, anti:single-image contest logic unless the image is unusually strong
+- 第23届「跨越国界之美2026」国际公募展: 6.0 → 5.89; soft color restraint, artist book, anti:spectacle-driven exhibition
+- Komiyama Tokyo: 7.21 → 7.69; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation
+- Yonchome Cafe: 6.6 → 6.37; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- shashasha: 6.56 → 7.04; soft color restraint, place as emotional subject, artist book, small press sequence
+- Aoyama Farmers Market: 6.3 → 6.07; small press sequence, anti:generic commercial art market
+- Creative Space Hayashi: 5.24 → 5.13; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- 【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...: 5.22 → 5.94; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- 現代アート販売の@Gallery Tagboat|@Gallery Tagboat: 5.22 → 5.94; quiet streets and lived-in places, quiet observation, soft color restraint, place as emotional subject, artist book
+- Art Fair Tokyo 2026: 5.62 → 5.98; soft color restraint, artist book, bookstore/gallery hybrid presentation
+- Boji Hair+Gallery: 5.54 → 6.02; small businesses and local spaces, soft color restraint, small press sequence, bookstore/gallery hybrid presentation
+- FACE展2026: 7.04 → 7.16; artist book
+- ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6): 6.46 → 6.7; artist book, bookstore/gallery hybrid presentation
+- りんごろごろごろ: 5.54 → 5.43; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- 空色ターコイズ: 5.44 → 5.21; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- B&B Shimokitazawa: 8.59 → 9.19; plants in urban/domestic spaces, small businesses and local spaces, soft color restraint, artist book, bookstore/gallery hybrid presentation
+- flotsam books: 8.59 → 8.72; soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- ZINEイベント: 6.0 → 6.48; quiet streets and lived-in places, small businesses and local spaces, quiet observation, small press sequence
+- 2026 Chinese New Year Celebration Art Show: 7.14 → 7.38; soft color restraint, artist book
+- ART FAIR TOKYO 21: 6.5 → 6.62; artist book
+- IlloBoom! 2026 第三屆插畫巔峰賽: 5.96 → 6.08; artist book
+- アートの交差展 vol.6 (Art Intersection Exhibition vol.6): 5.44 → 5.33; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- 「公募－日本の絵画2026－」: 6.12 → 6.13; soft color restraint, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Spring Flora and Fauna Art Exhibition 2026: 7.2 → 7.33; ordinary architecture, plants in urban/domestic spaces, quiet observation, soft color restraint, anti:spectacle-driven exhibition
+- 7月～12月企画展 参加者募集: 6.12 → 6.01; soft color restraint, artist book, anti:spectacle-driven exhibition
+- Brillia Art Award Wall 2026: 6.28 → 6.52; soft color restraint, artist book
+- 「国際創作者駐村計畫」: 5.96 → 6.08; artist book
+- DESIGN FESTA GALLERY: 6.5 → 6.51; plants in urban/domestic spaces, small businesses and local spaces, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- VACANT: 5.9 → 6.14; artist book, bookstore/gallery hybrid presentation
+- Gallery IRO: 5.9 → 6.02; bookstore/gallery hybrid presentation
+- Gallery HANA Shimokitazawa: 5.9 → 5.91; small businesses and local spaces, small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Open Calls for Artists: 5.96 → 6.2; artist book, bookstore/gallery hybrid presentation
+- Open Call For Artists: 5.96 → 6.2; artist book, bookstore/gallery hybrid presentation
+- 公募展: 5.96 → 6.08; bookstore/gallery hybrid presentation
+- Shoto Museum Open Call: 5.96 → 6.08; bookstore/gallery hybrid presentation
+- Art公募: 5.96 → 6.08; bookstore/gallery hybrid presentation
+- 公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...: 5.96 → 6.08; bookstore/gallery hybrid presentation
+- Zushi Art Gallery: 5.9 → 5.67; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Gallery Conceal Shibuya: 5.9 → 5.32; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition, anti:craft-fair positioning
+- AIT Residency: 6.66 → 6.31; anti:heavy conceptual overstatement
+- Youkobo Art Space: 6.22 → 6.58; small businesses and local spaces, place as emotional subject, artist book
+- The Container: 5.72 → 5.97; small businesses and local spaces, soft color restraint, artist book, small press sequence, bookstore/gallery hybrid presentation
+- BONUS TRACK: 5.9 → 5.32; artist book, anti:spectacle-driven exhibition, anti:generic commercial art market
+- Tokyo Arts and Space: 6.06 → 5.71; anti:spectacle-driven exhibition
+- reload Shimokitazawa: 6.06 → 5.49; plants in urban/domestic spaces, human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
+- Cafe Mame-Hico: 5.8 → 5.69; small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Cafe Cross Point: 5.8 → 5.57; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- Cafe Gallery HATTIFNATT: 5.8 → 5.34; small press sequence, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition, anti:craft-fair positioning
+- Open Call for Artists! Tokyo Biennale 2025 "Social Dive": 5.76 → 5.53; artist book, anti:single-image contest logic unless the image is unusually strong
+- Kyoto Art Center Residency: 5.76 → 5.41; anti:single-image contest logic unless the image is unusually strong
+- AIR_J Open Calls: 5.76 → 5.41; anti:single-image contest logic unless the image is unusually strong
+- NEW AIR: 5.76 → 5.41; anti:single-image contest logic unless the image is unusually strong
+- 【公募】2026年度レジデンス・プログラム公募開始: 5.76 → 5.41; anti:single-image contest logic unless the image is unusually strong
+- HandMade In Japan Fes: 5.74 → 5.76; plants in urban/domestic spaces, human trace rather than direct portraiture, small businesses and local spaces, soft color restraint, place as emotional subject
+- FACE Exhibition 2026: 6.2 → 6.09; artist book, small press sequence, anti:spectacle-driven exhibition
+- Gallery 191 Exhibition 2026: 5.14 → 5.03; artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
+- 2026春季二科展「NIKA+nika/S20号」コンクール: 6.79 → 6.68; soft color restraint, artist book, anti:spectacle-driven exhibition
+- 2026 Asian Heritage Culture Art Show: 6.64 → 6.53; soft color restraint, artist book, anti:spectacle-driven exhibition
+- TOKAS レジデンシー 4つのレジデンス・プログラム公募: 5.36 → 5.48; artist book
+- 臺南市美術館 2026「TAM+展覽計畫」: 5.36 → 5.13; artist book, anti:spectacle-driven exhibition
+- Idemitsu Art Award 2026: 5.66 → 5.78; artist book
+- 秀彩会小品展2026: 5.82 → 5.59; soft color restraint, anti:spectacle-driven exhibition
+- Comitia: 5.96 → 5.38; soft color restraint, anti:generic commercial art market, anti:craft-fair positioning
+- 全國插畫徵集-2026台灣VC文化賞: 4.94 → 5.06; artist book
+- 世界堂絵画展2026: 6.38 → 6.03; anti:spectacle-driven exhibition
+- 「公募－日本の絵画2026－」入賞・入選発表展: 5.72 → 5.61; human trace rather than direct portraiture, soft color restraint, anti:spectacle-driven exhibition
+- 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...: 4.02 → 4.14; artist book
+- 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...: 4.02 → 4.14; artist book
+- 第9回 国際公募 東京アート工芸2026: 5.66 → 5.31; anti:spectacle-driven exhibition
+- Tokyo Gendai 2026: 5.98 → 6.1; bookstore/gallery hybrid presentation
+- 第92回旺玄展: 5.62 → 5.39; soft color restraint, anti:spectacle-driven exhibition
+- PhotoVogue: 6.28 → 5.93; anti:spectacle-driven exhibition
+- Design Festa: 5.4 → 5.17; human trace rather than direct portraiture, anti:generic commercial art market
+- SICF Fukuoka 2026: 5.52 → 5.41; soft color restraint, artist book, anti:spectacle-driven exhibition
+- In-dividual Theater：BUG Screen Week 2026: 4.44 → 4.21; artist book, anti:spectacle-driven exhibition
+- Art on Climate インターナショナル・イラストレーション・コンテスト 2026: 5.46 → 5.23; artist book, anti:single-image contest logic unless the image is unusually strong
+- 第29回 アート未来展: 4.8 → 4.57; soft color restraint, anti:spectacle-driven exhibition
+- 2026 OCAA Ladies Art Exhibition: 5.78 → 5.55; artist book, anti:spectacle-driven exhibition
+- 2026「OPEN World Exhibition」: 4.34 → 4.11; artist book, anti:spectacle-driven exhibition
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou: 5.88 → 6.0; artist book
+- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod: 5.78 → 5.55; artist book, anti:spectacle-driven exhibition
+- ART SG 2026: 5.84 → 5.96; artist book
+- 2026 ART CAPITAL Paris Grand Palais International Youth Academic Award: 5.06 → 5.18; artist book
+- Golden Key International Art Competition: 4.44 → 4.56; artist book
+- RAW TOKYO: 3.94 → 3.13; human trace rather than direct portraiture, place as emotional subject, anti:spectacle-driven exhibition, anti:generic commercial art market, anti:craft-fair positioning
+- 2026 第37回 美浜美術展: 4.76 → 4.53; artist book, anti:spectacle-driven exhibition
+- KAMIHANGA国際プリント展2026: 5.68 → 5.33; anti:spectacle-driven exhibition
+- Muninova Artist Award: 4.04 → 4.16; artist book
+- twelvebooks: 3.0 → 2.89; artist book, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
+- 2026 Kyoto Museum International Art Grand Exhibition: 4.1 → 3.87; artist book, anti:spectacle-driven exhibition
+- Spiral: 4.3 → 4.19; human trace rather than direct portraiture, bookstore/gallery hybrid presentation, anti:generic commercial art market
 - Picaresque Gallery: 4.06 → 3.13; bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition, anti:generic commercial art market, anti:craft-fair positioning
-- National Watercolor Society International Open Exhibition: 8.16 → 7.93; soft color restraint, anti:spectacle-driven exhibition
-- Japan International Watercolor Institute Online Exhibition: 7.76 → 7.53; soft color restraint, anti:spectacle-driven exhibition
-- Fukuoka Art Book Fair: 8.34 → 8.94; quiet streets and lived-in places, small businesses and local spaces, quiet observation, artist book, small press sequence
-- Shangyuan International Residency Programme: 7.0 → 7.24; human trace rather than direct portraiture, artist book
-- Zine & Book フェス in 神保町 (Jimbocho): 7.94 → 8.54; quiet streets and lived-in places, small businesses and local spaces, quiet observation, artist book, small press sequence
-- NADiff a/p/a/r/t: 6.62 → 6.86; artist book, bookstore/gallery hybrid presentation
+- National Watercolor Society International Open Exhibition: 5.06 → 4.83; soft color restraint, anti:spectacle-driven exhibition
+- Japan International Watercolor Institute Online Exhibition: 4.76 → 4.53; soft color restraint, anti:spectacle-driven exhibition
+- Shangyuan International Residency Programme: 4.1 → 4.34; human trace rather than direct portraiture, artist book
+- Fukuoka Art Book Fair: 5.24 → 5.84; quiet streets and lived-in places, small businesses and local spaces, quiet observation, artist book, small press sequence
+- Zine & Book フェス in 神保町 (Jimbocho): 5.24 → 5.84; quiet streets and lived-in places, small businesses and local spaces, quiet observation, artist book, small press sequence
+- NADiff a/p/a/r/t: 4.02 → 4.26; artist book, bookstore/gallery hybrid presentation
+- SCCP Guest Artist: 3.7 → 3.47; artist book, anti:single-image contest logic unless the image is unusually strong
 - Sunny Boy Books: 2.0 → 2.13; small businesses and local spaces, artist book, small press sequence, bookstore/gallery hybrid presentation, anti:single-image contest logic unless the image is unusually strong
-- Full-Table - Little Tokyo Zine Fest 2026 - Eventeny: 6.32 → 6.8; quiet streets and lived-in places, small businesses and local spaces, quiet observation, small press sequence
-- SCCP Guest Artist: 6.2 → 5.97; artist book, anti:single-image contest logic unless the image is unusually strong
 - 2026 International Children and Youth Painting Competition Summer Season: 2.0 → 2.24; soft color restraint, small press sequence
 - 日本透明水彩会 2026: 2.0 → 2.01; soft color restraint, artist book, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
 - loneliness books: 2.0 → 2.24; small businesses and local spaces, artist book
 - Tokyo Open Call for Artists & Creatives: 2.0 → 2.24; artist book, bookstore/gallery hybrid presentation
+- Full-Table - Little Tokyo Zine Fest 2026 - Eventeny: 3.71 → 4.19; quiet streets and lived-in places, small businesses and local spaces, quiet observation, small press sequence
 - kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026): 2.0 → 1.89; soft color restraint, bookstore/gallery hybrid presentation, anti:spectacle-driven exhibition
 - 上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works): 2.0 → 2.01; human trace rather than direct portraiture, soft color restraint, artist book, anti:spectacle-driven exhibition
 - NEW AIR 2026: 2.0 → 2.12; artist book

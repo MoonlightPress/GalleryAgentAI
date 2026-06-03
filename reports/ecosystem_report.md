@@ -120,22 +120,22 @@ Major photobook publisher; probably not immediate, but useful as a long-horizon 
 ### Japan Photobook / Artist Book
 This is the strongest immediate ecosystem for her visual language: quiet photography, sequences, books, zines, and small-scale cultural visibility.
 
-- **Tokyo Art Book Fair** — score 9.2, differentiated 11.19; matched: TOKYO ART BOOK FAIR
-- **MOUNT ZINE** — score 9.2, differentiated 10.51; matched: MOUNT ZINE
-- **UTRECHT** — score 8.2, differentiated 10.19; matched: UTRECHT
-- **TOKIO ART BOOK FAIR 2026** — score 7.9, differentiated 9.4; matched: TOKYO ART BOOK FAIR
-- **flotsam books** — score 6.6, differentiated 8.59; matched: flotsam books
-- **POST** — score 6.4, differentiated 7.61; matched: POST
-- **shashasha** — score 5.6, differentiated 6.56; matched: Shashasha
+- **Tokyo Art Book Fair** — score 8.8, differentiated 10.79; matched: TOKYO ART BOOK FAIR
+- **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
+- **UTRECHT** — score 8.6, differentiated 10.59; matched: UTRECHT
+- **TOKIO ART BOOK FAIR 2026** — score 8.6, differentiated 10.1; matched: TOKYO ART BOOK FAIR
+- **flotsam books** — score 7.8, differentiated 9.79; matched: flotsam books
+- **POST** — score 8.0, differentiated 9.21; matched: POST
+- **shashasha** — score 6.1, differentiated 7.06; matched: Shashasha
 
 ### International Photobook Publishing
 This is the long-horizon ecosystem for international publication legitimacy.
 
-- **Aperture | Photography** — score 8.8, differentiated 10.58; matched: Aperture
-- **Offprint** — score 7.5, differentiated 8.93; matched: Offprint
-- **Self Publish, Be Happy** — score 6.5, differentiated 8.31; matched: Self Publish, Be Happy
-- **Gallery Conceal Shibuya** — score 5.2, differentiated 5.9; matched: VOID
-- **Picaresque Gallery** — score 3.2, differentiated 4.06; matched: VOID
+- **Aperture | Photography** — score 8.6, differentiated 10.38; matched: Aperture
+- **Offprint** — score 8.6, differentiated 10.04; matched: Offprint
+- **Self Publish, Be Happy** — score 8.0, differentiated 9.81; matched: Self Publish, Be Happy
+- **Gallery Conceal Shibuya** — score 6.4, differentiated 7.1; matched: VOID
+- **Picaresque Gallery** — score 4.3, differentiated 5.16; matched: VOID
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.
@@ -145,8 +145,8 @@ _No current opportunities connected to this ecosystem yet._
 ### Low-Pressure Local Relationship Building
 These are useful for soft visibility and relationship-building before major applications.
 
-- **MOUNT ZINE** — score 9.2, differentiated 10.51; matched: MOUNT ZINE
-- **UTRECHT** — score 8.2, differentiated 10.19; matched: UTRECHT
-- **B&B Shimokitazawa** — score 6.6, differentiated 8.59; matched: B&B Shimokitazawa
-- **flotsam books** — score 6.6, differentiated 8.59; matched: flotsam books
-- **POST** — score 6.4, differentiated 7.61; matched: POST
+- **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
+- **UTRECHT** — score 8.6, differentiated 10.59; matched: UTRECHT
+- **B&B Shimokitazawa** — score 8.6, differentiated 10.59; matched: B&B Shimokitazawa
+- **flotsam books** — score 7.8, differentiated 9.79; matched: flotsam books
+- **POST** — score 8.0, differentiated 9.21; matched: POST

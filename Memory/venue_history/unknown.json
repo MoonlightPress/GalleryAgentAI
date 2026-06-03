@@ -1,5 +1,5 @@
 {
-  "venue_name": "水彩アートのみ展示イベント",
+  "venue_name": "上野之森美術館",
   "venue_slug": "unknown",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
@@ -7,7 +7,6 @@
   "confidence": "low",
   "future_research": [
     "contact",
-    "deadline",
     "fees",
     "submission process"
   ],

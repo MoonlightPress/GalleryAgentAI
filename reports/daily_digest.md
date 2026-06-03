@@ -4,13 +4,16 @@
 
 _Previous run: 2026-06-04_
 
-- **Score change:** 金风车插画大赛2026 6.2 → 6.0 ↓
-- **Score change:** DER GREIF 7.6 → 7.5 ↓
-- **Score change:** TOKIO ART BOOK FAIR 2026 7.9 → 7.8 ↓
-- **Score change:** B&B Shimokitazawa 6.6 → 6.4 ↓
-- **Score change:** flotsam books 6.6 → 6.4 ↓
+- **Added to Immediate Best Moves:** Shimokitazawa Arts
+- **Score change:** FACE展2026 6.0 → 6.1 ↑
+- **Score change:** 金风车插画大赛2026 6.0 → 6.4 ↑
+- **Score change:** DER GREIF 7.5 → 7.8 ↑
+- **Score change:** TOKIO ART BOOK FAIR 2026 7.8 → 8.1 ↑
+- **Score change:** Book and Sons 8.1 → 8.2 ↑
+- **Score change:** B&B Shimokitazawa 6.4 → 7.1 ↑
+- **Score change:** flotsam books 6.4 → 6.8 ↑
 
-## Immediate Best Moves (17)
+## Immediate Best Moves (18)
 
 ### **BOOOOOOOM 2026 Art & Photo Book Award**
 - **Apply by:** June 5, 2026 — 11:59 PM PST (June 6 at 15:59 JST) — _1d — this week_
@@ -102,6 +105,11 @@ _Previous run: 2026-06-04_
 - **Fee:** Unknown
 - **Link:** https://bookandsons.com/
 - _Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to_
+
+### Shimokitazawa Arts
+- **Apply by:** — _(contact / propose)_
+- **Link:** https://shimokitazawaarts.tokyo/en/home-english/
+- _Monthly solo exhibitions by younger Japanese artists. Shimokitazawa location. No public open call — direct email inquiry. Good Tier 2 networ_
 
 ### B&B Shimokitazawa
 - **Apply by:** Unknown

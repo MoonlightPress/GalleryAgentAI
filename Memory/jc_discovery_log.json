@@ -205,6 +205,20 @@
       "new_opps": 0,
       "quota_hit": false,
       "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-04T02:52:25.540226",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-04T02:59:12.259945",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
     }
   ]
 }

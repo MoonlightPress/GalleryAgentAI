@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-04
 # 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
 
 ## 1. Quick Judgment
-**Fit score:** 4.5/10  
+**Fit score:** 4.2/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Residencies / Longer Projects  

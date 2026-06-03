@@ -1,7 +1,7 @@
 # Cafe Mame-Hico
 
 ## 1. Quick Judgment
-**Fit score:** 5.7/10  
+**Fit score:** 6.1/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  
