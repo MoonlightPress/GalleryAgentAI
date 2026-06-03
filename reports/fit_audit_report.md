@@ -30,9 +30,15 @@ Positive reasons:
 Risks:
 - high score but few clear supporting reasons
 
-### flotsam books — 8.5/10 — possibly inflated
+### flotsam books — 8.6/10 — possibly inflated
 Risks:
 - high score but few clear supporting reasons
+
+### Submissions — Clavis Publishing — 8.6/10 — needs review
+Risks:
+- many missing verification fields: deadline, fees, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
 
 ### Aperture | Photography — 8.6/10 — needs review
 Positive reasons:
@@ -46,9 +52,10 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Submissions — Clavis Publishing — 8.6/10 — needs review
+### Fukuoka Art Book Fair — 8.6/10 — needs review
+Positive reasons:
+- aesthetic lineage +1.2
 Risks:
-- many missing verification fields: deadline, fees, contact
 - high score but few clear supporting reasons
 - high score but still needs verification
 
@@ -59,6 +66,12 @@ Risks:
 - high score but few clear supporting reasons
 
 ### Northwest Watercolor Society 2026 Annual International Open Exhibition — 9.4/10 — possibly inflated
+Positive reasons:
+- tag: global
+Risks:
+- high score but few clear supporting reasons
+
+### National Watercolor Society International Open Exhibition — 9.4/10 — possibly inflated
 Positive reasons:
 - tag: global
 Risks:
@@ -122,6 +135,49 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
+### Publishers & Publishing Services in Japan - PublishersGlobal.com — 8.6/10 — needs review
+Risks:
+- many missing verification fields: submission, deadline, fees, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### 3 Top Book Publishers in Tokyo in 2026 — 8.6/10 — needs review
+Risks:
+- many missing verification fields: submission, deadline, fees, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### 3 Top Book Publishers in Japan in 2026 — 8.6/10 — needs review
+Risks:
+- many missing verification fields: submission, deadline, fees, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### Become an Author - Tuttle Publishing — 8.6/10 — needs review
+Risks:
+- many missing verification fields: submission, deadline, fees, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### Submissions - Little Press Publishing — 8.6/10 — needs review
+Risks:
+- many missing verification fields: submission, deadline, fees, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026) — 8.8/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### TOKIO ART BOOK FAIR 2026 — 8.6/10 — needs review
+Positive reasons:
+- aesthetic lineage +0.8
+Risks:
+- many missing verification fields: submission, fees, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### Offprint — 8.6/10 — needs review
 Positive reasons:
 - aesthetic lineage +3.15
@@ -131,6 +187,11 @@ Positive reasons:
 - tag: global
 Risks:
 - many missing verification fields: submission, deadline, fees, contact
+- high score but still needs verification
+
+### Still Life - 2026 — 8.6/10 — needs review
+Risks:
+- high score but few clear supporting reasons
 - high score but still needs verification
 
 ### Center for Book Arts Opportunities — 8.6/10 — needs review
@@ -159,6 +220,11 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
+### Aquarium - 2026 — 8.6/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### Books Ruhe — 8.6/10 — needs review
 Risks:
 - many missing verification fields: submission, deadline, fees, contact
@@ -183,78 +249,7 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Aesthetica Art Prize — 8.6/10 — needs review
-Positive reasons:
-- global/international target
-- tag: global
-Risks:
-- many missing verification fields: submission, fees, contact
-- high score but still needs verification
-
-### Bologna Children's Book Fair Illustrators Exhibition — 8.6/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### American Illustration — 8.6/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Publishers & Publishing Services in Japan - PublishersGlobal.com — 8.3/10 — needs review
-Risks:
-- many missing verification fields: submission, deadline, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### 3 Top Book Publishers in Tokyo in 2026 — 8.3/10 — needs review
-Risks:
-- many missing verification fields: submission, deadline, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### 3 Top Book Publishers in Japan in 2026 — 8.3/10 — needs review
-Risks:
-- many missing verification fields: submission, deadline, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Become an Author - Tuttle Publishing — 8.3/10 — needs review
-Risks:
-- many missing verification fields: submission, deadline, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### HATTIFNATT Koenji Cafe Gallery — 8.8/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Self Publish, Be Happy — 8.0/10 — needs review
-Positive reasons:
-- aesthetic lineage +2.1
-- high prestige
-- global/international target
-- tag: photobook
-- tag: publication
-- tag: global
-Risks:
-- many missing verification fields: submission, deadline, fees
-- high score but still needs verification
-
-### DER GREIF — 8.6/10 — needs review
-Risks:
-- many missing verification fields: submission, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Book and Sons — 8.6/10 — possibly inflated
-Positive reasons:
-- aesthetic lineage +0.9
-Risks:
-- high score but few clear supporting reasons
-
-### BALLOND'ESSAI Shimokitazawa — 8.8/10 — needs review
+### 水彩アートの祭典 (Watercolor Art Festival) — 8.8/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification

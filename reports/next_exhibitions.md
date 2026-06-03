@@ -5,7 +5,7 @@ This is not a generic top list. It asks where the next project could plausibly b
 ## Best Immediate Visibility Targets
 
 - **UTRECHT** — 8.2 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- **flotsam books** — 7.1 / 10.49. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — 7.1 / 10.59. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
 - **Tokyo Art Book Fair** — 9.2 / 10.79. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **Self Publish, Be Happy** — 6.5 / 9.81. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
 - **B&B Shimokitazawa** — 7.1 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle

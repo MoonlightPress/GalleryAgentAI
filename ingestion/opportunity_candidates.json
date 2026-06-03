@@ -4000,9 +4000,9 @@
     ]
   },
   {
-    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "title": "The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e",
     "organization": "CuratorSpace",
-    "category": "photo_open_call",
+    "category": "gallery_event",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -4011,21 +4011,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
+    "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: open call",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: open call"
+      "Keyword hits: exhibition"
     ],
     "fit_keyword_hits": [
-      "open call"
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,

@@ -45,8 +45,8 @@ A quiet photographic sequence about ordinary neighborhoods, lived-in architectur
 - **MOUNT ZINE** — 9.4 / 10.71. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - **UTRECHT** — 8.6 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **B&B Shimokitazawa** — 8.6 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+- **Submissions — Clavis Publishing** — 8.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **Aperture | Photography** — 8.6 / 10.38. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
-- **submissions — porkbelly press** — 8.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -86,7 +86,7 @@ A focused body of work about indirect human presence: fences, laundry, paths, wi
 - **Center for Book Arts Opportunities** — 8.6 / 10.03. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
 - **Tacoche** — 8.6 / 9.98. Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.
 - **Self Publish, Be Happy** — 8.0 / 9.81. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
-- **OPA Gallery** — 8.4 / 9.6. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
+- **OPA Gallery** — 8.6 / 9.8. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -127,8 +127,8 @@ A compact, low-pressure zine built from a walk through a neighborhood, edited as
 - **MOUNT ZINE** — 9.4 / 10.71. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - **UTRECHT** — 8.6 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **B&B Shimokitazawa** — 8.6 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-- **flotsam books** — 8.5 / 10.49. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
-- **Aperture | Photography** — 8.6 / 10.38. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
+- **flotsam books** — 8.6 / 10.59. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **Submissions — Clavis Publishing** — 8.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -169,8 +169,8 @@ A portfolio sequence centered on vernacular architecture, domestic structures, s
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — 8.6 / 10.22. Possible fit based on link text: zine, open call, residency
 - **Browse opportunities | CuratorSpace** — 8.6 / 10.13. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Top Artist Opportunities for 2026 | ArtConnect** — 8.6 / 9.98. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
-- **DER GREIF** — 8.6 / 9.8. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
-- **Home - Printed Matter** — 8.0 / 9.52. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
+- **水彩アートの祭典 (Watercolor Art Festival)** — 8.8 / 9.96. Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
+- **Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition** — 8.6 / 9.88. Open call for Singapore Art Week featuring multiple venues and formats suitable for illustration and contemporary practice.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.

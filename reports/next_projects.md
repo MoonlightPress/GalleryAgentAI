@@ -29,7 +29,7 @@ This report answers the question: what should she actually make or submit next?
 - **MOUNT ZINE** — 9.2 / 10.71. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - **UTRECHT** — 8.2 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **B&B Shimokitazawa** — 7.1 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-- **flotsam books** — 7.1 / 10.49. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — 7.1 / 10.59. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
 - **Aperture | Photography** — 8.7 / 10.38. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 
 ### Best Publisher / Platform Targets
@@ -70,7 +70,7 @@ Make a 20-image edit and title it provisionally. Do not write the full statement
 - **MOUNT ZINE** — 9.2 / 10.71. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - **UTRECHT** — 8.2 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **B&B Shimokitazawa** — 7.1 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-- **flotsam books** — 7.1 / 10.49. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — 7.1 / 10.59. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
 - **Aperture | Photography** — 8.7 / 10.38. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 
 ### Best Publisher / Platform Targets
@@ -106,7 +106,7 @@ Build the edit as a PDF contact sheet first, then reduce it by half.
 - **MOUNT ZINE** — 9.2 / 10.71. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - **UTRECHT** — 8.2 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **B&B Shimokitazawa** — 7.1 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-- **flotsam books** — 7.1 / 10.49. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — 7.1 / 10.59. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
 - **Aperture | Photography** — 8.7 / 10.38. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 
 ### Best Publisher / Platform Targets

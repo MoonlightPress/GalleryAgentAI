@@ -8,11 +8,11 @@
 **City:** London  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
 
 - **Official/source website**: https://royalwatercoloursociety.co.uk/ (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2025-12-01 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -33,7 +33,7 @@ Direct medium match — the RWS open exhibition is the most prestigious internat
 - Directly strengthens the CV ahead of the deep-work year at 30.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** 2025-12-01
 - **Fees:** Not publicly listed
 - **Submission page:** Not publicly listed
 - **Source:** https://royalwatercoloursociety.co.uk/
@@ -47,4 +47,4 @@ Research current open call dates, submission fees, accepted formats, and previou
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-03_
+_Last generated: 2026-06-04_

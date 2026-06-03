@@ -2,24 +2,16 @@
 
 ## What Changed Since Last Run
 
-_Previous run: 2026-06-03_
+_Previous run: 2026-06-04_
 
-- **Added to Immediate Best Moves:** DER GREIF
-- **Added to Immediate Best Moves:** 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
-- **Added to Immediate Best Moves:** 水彩アートの祭典 (Watercolor Art Festival)
-- **Added to Immediate Best Moves:** TOKIO ART BOOK FAIR 2026
-- **Score change:** ZINEフェス東京 (ZINE Fest Tokyo) 8.8 → 9.2 ↑
-- **Score change:** CSPWC Annual Open Water International Exhibition 9.4 → 9.6 ↑
-- **Score change:** Northwest Watercolor Society 2026 Annual International Open Exhibition 8.8 → 9.2 ↑
-- **Score change:** Tokyo Art Book Fair 8.6 → 9.2 ↑
-- **Score change:** UTRECHT 7.6 → 8.2 ↑
-- **Score change:** Book and Sons 7.6 → 8.2 ↑
-- **Score change:** Shimokitazawa Arts 8.2 → 7.6 ↓
-- **Score change:** B&B Shimokitazawa 7.6 → 7.1 ↓
-- **Score change:** flotsam books 7.6 → 7.1 ↓
-- **Opportunity count:** 179 → 286 (+107)
+- **Added to Immediate Best Moves:** FACE展2026
+- **Added to Immediate Best Moves:** 金风车插画大赛2026
+- **Added to Immediate Best Moves:** 「公募－日本の絵画2026－」
+- **Score change:** TOKIO ART BOOK FAIR 2026 6.6 → 8.1 ↑
+- **Score change:** 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026) 8.6 → 8.8 ↑
+- **Score change:** 水彩アートの祭典 (Watercolor Art Festival) 8.6 → 8.8 ↑
 
-## Immediate Best Moves (15)
+## Immediate Best Moves (18)
 
 ### **BOOOOOOOM 2026 Art & Photo Book Award**
 - **Apply by:** June 5, 2026 — 11:59 PM PST (June 6 at 15:59 JST) — _1d — this week_
@@ -28,11 +20,34 @@ _Previous run: 2026-06-03_
 - _⚠ Deadline-promoted from Publication Targets — 1d remaining_
 - _URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist owners_
 
+### **FACE展2026**
+- **Apply by:** June 5, 2026 — _1d — this week_
+- **Link:** https://bijutsutecho.com/magazine/news/exhibition/32221?page=8
+- _⚠ Deadline-promoted from Publication Targets — 1d remaining_
+- _National open call for contemporary painting (14th edition) at SOMPO Museum in Shinjuku, Tokyo; accepts all ages and affiliations._
+
+### **金风车插画大赛2026**
+- **Apply by:** 2026-06-05 — _1d — this week_
+- **Link:** https://www.ccbfgoldenpinwheel.com.cn/cn/index/GoldenPinwheel-News/detail!2026-call-for-entries
+- _⚠ Deadline-promoted from Research Needed — 1d remaining_
+- _Global illustration competition open to all artists working with visual storytelling and creative expression._
+
+### **「公募－日本の絵画2026－」**
+- **Apply by:** 2026-06-05 — _1d — this week_
+- **Link:** https://koubo.yumegazai.com
+- _⚠ Deadline-promoted from Research Needed — 1d remaining_
+- _Open call for watercolor paintings (among other media) with exhibition at Matsuzakaya Ueno Gallery in Tokyo; fits watercolor artist profile._
+
 ### **DER GREIF**
 - **Apply by:** Multiple deadlines: September 1, 2026 at 11:59 PM CET; April 8, 2026; March 31, 2026; May 31, 2026; April 9, 2026; June 6, 2026 — _2d — this week_
 - **Link:** https://dergreif.org/
 - _⚠ Deadline-promoted from Publication Targets — 2d remaining_
 - _Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on pa_
+
+### **TOKIO ART BOOK FAIR 2026**
+- **Apply by:** June 7, 2026 — _3d — this week_
+- **Link:** https://tokioartbookfair.com
+- _Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibit_
 
 ### ZINEフェス東京 (ZINE Fest Tokyo)
 - **Apply by:** 2026-06-27 — _23d_
@@ -106,14 +121,16 @@ _Previous run: 2026-06-03_
 - **Link:** https://www.flotsambooks.com/
 - _Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts_
 
-### TOKIO ART BOOK FAIR 2026
-- **Apply by:** — _(contact / propose)_
-- **Link:** https://tokioartbookfair.com
-- _Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibit_
-
 ## Watch List
 
-_No items outside IBM with confirmed deadlines in the next 90 days._
+### Confirmed Deadlines Within 90 Days
+
+- **SICF Fukuoka 2026** — 2026-06-11 (7d) [Research]
+- **ギャラリーへ行こう2026** — Entry period: June 15 - July 1, 2025; Submission dates: July 2-4, 2025 (11d) [Research]
+- **Brillia Art Award Wall 2026** — 2026-07-08 (34d) [Research]
+- **アートオリンピア2026** — 2026-07-31 (57d) [Research]
+- **Art on Climate インターナショナル・イラストレーション・コンテスト 2026** — 2026-07-31 (57d) [Research]
+- **KAMIHANGA国際プリント展2026** — Domestic: September 4, 2026 (Monday); International: August 14, 2026 (Thursday) (71d) [Research]
 
 ### Next Cycle — Check Dates
 

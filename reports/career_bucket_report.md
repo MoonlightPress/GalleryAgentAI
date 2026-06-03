@@ -16,14 +16,16 @@ High-upside opportunities that could meaningfully change her reputation, network
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **B&B Shimokitazawa** — score 8.6, differentiated 10.59, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **flotsam books** — score 8.5, differentiated 10.49, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
 - **Aperture | Photography** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **submissions — porkbelly press** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
+- **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+  - Visual match signals: artist book, artist_book, zine
 - **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **SUBMISSIONS - marblepress.com** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
@@ -34,8 +36,6 @@ High-upside opportunities that could meaningfully change her reputation, network
   - Visual match signals: artist book, small press, artist_book, small_press
 - **ART BOX Publishing** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
-  - Visual match signals: artist book, artist_book, zine
 
 ## High-Confidence Matches
 
@@ -53,24 +53,24 @@ Strong matches with better verification.
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **B&B Shimokitazawa** — score 8.6, differentiated 10.59, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **flotsam books** — score 8.5, differentiated 10.49, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
 - **Aperture | Photography** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **submissions — porkbelly press** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
+- **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+  - Visual match signals: artist book, artist_book, zine
 - **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
   - Visual match signals: urban atmosphere, memory, zine
 - **CSPWC Annual Open Water International Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
   - Visual match signals: watercolor
 - **Northwest Watercolor Society 2026 Annual International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
   - Visual match signals: watercolor
-- **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **SUBMISSIONS - marblepress.com** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
+- **National Watercolor Society International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
+  - Visual match signals: watercolor
 
 ## Publication Targets
 
@@ -88,14 +88,16 @@ Places where the work can become visible as printed matter, editorial sequence, 
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **B&B Shimokitazawa** — score 8.6, differentiated 10.59, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **flotsam books** — score 8.5, differentiated 10.49, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
 - **Aperture | Photography** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **submissions — porkbelly press** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
+- **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+  - Visual match signals: artist book, artist_book, zine
 - **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
   - Visual match signals: urban atmosphere, memory, zine
 - **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
@@ -103,8 +105,6 @@ Places where the work can become visible as printed matter, editorial sequence, 
 - **SUBMISSIONS - marblepress.com** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **Japan Book Publishers Association - JBPA** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Book / Zine / Photobook Targets
@@ -123,14 +123,16 @@ The strongest match for her current visual language: quiet sequences, small pres
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **B&B Shimokitazawa** — score 8.6, differentiated 10.59, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **flotsam books** — score 8.5, differentiated 10.49, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
 - **Aperture | Photography** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **submissions — porkbelly press** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
+- **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+  - Visual match signals: artist book, artist_book, zine
 - **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
   - Visual match signals: urban atmosphere, memory, zine
 - **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
@@ -138,8 +140,6 @@ The strongest match for her current visual language: quiet sequences, small pres
 - **SUBMISSIONS - marblepress.com** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **Japan Book Publishers Association - JBPA** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Global Reach
@@ -150,11 +150,15 @@ International opportunities that expand beyond local Tokyo/Japan visibility.
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **Aperture | Photography** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+  - Visual match signals: artist book, artist_book, zine
 - **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
   - Visual match signals: urban atmosphere, memory, zine
 - **CSPWC Annual Open Water International Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
   - Visual match signals: watercolor
 - **Northwest Watercolor Society 2026 Annual International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
+  - Visual match signals: watercolor
+- **National Watercolor Society International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
   - Visual match signals: watercolor
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
   - Visual match signals: artist book, artist_book, zine
@@ -164,17 +168,13 @@ International opportunities that expand beyond local Tokyo/Japan visibility.
   - Visual match signals: watercolor, artist book, artist_book
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **TOKIO ART BOOK FAIR 2026** — score 8.6, differentiated 10.1, visual fit 3.25. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
+  - Visual match signals: artist book, artist_book, zine
 - **Offprint** — score 8.6, differentiated 10.04, visual fit 2.4. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
   - Visual match signals: watercolor, artist book, artist_book
-- **Center for Book Arts Opportunities** — score 8.6, differentiated 10.03, visual fit 1.95. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
-  - Visual match signals: artist book, artist_book
-- **Top Artist Opportunities for 2026 | ArtConnect** — score 8.6, differentiated 9.98, visual fit 3.25. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
-  - Visual match signals: artist book, artist_book, zine
-- **Aesthetica Art Prize** — score 8.6, differentiated 9.95, visual fit 1.75. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
-  - Visual match signals: watercolor, zine
-- **Bologna Children's Book Fair Illustrators Exhibition** — score 8.6, differentiated 9.92, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **American Illustration** — score 8.6, differentiated 9.92, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Still Life - 2026** — score 8.6, differentiated 10.04, visual fit 2.4. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
   - Visual match signals: watercolor, artist book, artist_book
 
 ## Easy Wins
@@ -193,24 +193,24 @@ Lower-friction opportunities that may create momentum without heavy emotional or
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **B&B Shimokitazawa** — score 8.6, differentiated 10.59, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **flotsam books** — score 8.5, differentiated 10.49, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
 - **Aperture | Photography** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **submissions — porkbelly press** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
+- **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+  - Visual match signals: artist book, artist_book, zine
 - **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
   - Visual match signals: urban atmosphere, memory, zine
 - **CSPWC Annual Open Water International Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
   - Visual match signals: watercolor
 - **Northwest Watercolor Society 2026 Annual International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
   - Visual match signals: watercolor
-- **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **SUBMISSIONS - marblepress.com** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
+- **National Watercolor Society International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
+  - Visual match signals: watercolor
 
 ## Relationship Builders
 
@@ -222,12 +222,14 @@ Local or community spaces useful for soft contact, small steps, and future famil
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **B&B Shimokitazawa** — score 8.6, differentiated 10.59, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **flotsam books** — score 8.5, differentiated 10.49, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **submissions — porkbelly press** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
 - **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
+- **submissions — porkbelly press** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+  - Visual match signals: artist book, artist_book, zine
 - **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **SUBMISSIONS - marblepress.com** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
@@ -244,8 +246,6 @@ Local or community spaces useful for soft contact, small steps, and future famil
   - Visual match signals: artist book, artist_book, zine
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **LOCAL Gallery・Books** — score 8.6, differentiated 9.98, visual fit 3.25. Local Koenji book/gallery target; useful for a quiet works-on-paper artist and local relationship building.
-  - Visual match signals: artist book, artist_book, zine
 
 ## Needs Research
 
@@ -259,27 +259,27 @@ Potentially useful, but not actionable until submission details, fee, deadline, 
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **B&B Shimokitazawa** — score 8.6, differentiated 10.59, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **flotsam books** — score 8.5, differentiated 10.49, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
 - **Aperture | Photography** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **submissions — porkbelly press** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
+- **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+  - Visual match signals: artist book, artist_book, zine
 - **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
   - Visual match signals: urban atmosphere, memory, zine
 - **CSPWC Annual Open Water International Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+  - Visual match signals: watercolor
+- **National Watercolor Society International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
   - Visual match signals: watercolor
 - **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **SUBMISSIONS - marblepress.com** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **Japan Book Publishers Association - JBPA** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **ART BOX Publishing** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Low Priority
@@ -288,28 +288,24 @@ Weak fit or low evidence. Keep but do not foreground.
 
 - **Applications — Little Tokyo Zine Fest** — score 5.7, differentiated 6.86, visual fit 1.3. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: zine
-- **NADiff a/p/a/r/t** — score 5.0, differentiated 6.62, visual fit 3.25. PERMANENTLY CLOSED March 31 2025. Website down. Not actionable.
+- **loneliness books** — score 5.0, differentiated 6.62, visual fit 3.25. Independent book/zine signal near Nakano. Possible secondary local target after Tacoche.
   - Visual match signals: artist book, artist_book, zine
-- **絵画展（滋賀県愛荘町開催）** — score 5.9, differentiated 6.42, visual fit 0.45. Open call for landscape and figure paintings in watercolor and other media; accepts national submissions with awards.
+- **Tokyo Gendai 2026** — score 5.9, differentiated 6.38, visual fit 0.0. Fourth edition art fair in Tokyo, September 11-13, 2026, with gallery applications open.
+- **Dig A Hole Zines** — score 5.0, differentiated 6.38, visual fit 3.25. Direct zine-shop target in/near Koenji. Strong match for a first local distribution attempt.
+  - Visual match signals: artist book, artist_book, zine
+- **SICF Fukuoka 2026** — score 5.8, differentiated 6.32, visual fit 0.45. Creator exhibition opportunity for artists and artists; fits illustration/watercolor artist looking for exhibition venues.
   - Visual match signals: watercolor
-- **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — score 5.5, differentiated 6.32, visual fit 1.3. Full-Table - Little Tokyo Zine Fest 2026 - Eventeny fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
-  - Visual match signals: zine
-- **ローズ・ローズ・ローズ** — score 5.9, differentiated 6.3, visual fit 0.45. Gallery open call exhibition relevant to watercolor and illustration artists.
+- **第29回 アート未来展** — score 5.9, differentiated 6.3, visual fit 0.45. Art exhibition held at National Art Center Tokyo in June 2026, likely accepting multiple mediums including watercolor
   - Visual match signals: watercolor
-- **日本透明水彩会 2026** — score 5.9, differentiated 6.3, visual fit 0.45. Watercolor-focused exhibition in Japan with demonstration events for transparent watercolor artists
-  - Visual match signals: watercolor
-- **スクエア・ワールド2026** — score 5.9, differentiated 6.3, visual fit 0.45. Public call exhibition accepting submissions matching her watercolor and illustration work.
-  - Visual match signals: watercolor
-- **オープンコール・プロジェクト** — score 5.7, differentiated 6.29, visual fit 1.0. General open call for contemporary artists; has been running since 2015 with published works, fits illustration and visual art submissions.
-  - Visual match signals: open_call_general
-- **Boji Hair+Gallery** — score 5.8, differentiated 6.24, visual fit 0.9. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, memory
-- **滋賀県愛荘町絵画展** — score 5.7, differentiated 6.22, visual fit 0.45. Open call accepting watercolor and other painting techniques from nationwide artists with awards
-  - Visual match signals: watercolor
-- **FACE展2026** — score 5.3, differentiated 6.22, visual fit 1.95. National open call for contemporary painting (14th edition) at SOMPO Museum in Shinjuku, Tokyo; accepts all ages and affiliations.
-  - Visual match signals: artist book, artist_book
-- **Art Fair Tokyo 2026** — score 5.8, differentiated 6.2, visual fit 0.45. Contemporary art fair in Tokyo featuring emerging and established artists; relevant for illustration and watercolor artists seeking gallery representation
-  - Visual match signals: watercolor
+- **TOKAS レジデンシー 4つのレジデンス・プログラム公募** — score 5.9, differentiated 6.26, visual fit 0.0. Residency program in Tokyo supporting visual artists with studio, living expenses, and production costs; encourages cross-cultural creative exchange and research.
 - **SCCP Guest Artist** — score 5.5, differentiated 6.2, visual fit 0.0. SCCP Guest Artist may matter later if her portfolio package and project statement become strong enough.
-- **ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)** — score 5.9, differentiated 6.14, visual fit 0.0. Tokyo gallery open call suitable for illustration and mixed media artists.
-- **りんごろごろごろ** — score 5.9, differentiated 6.14, visual fit 0.0. Public call exhibition for artists working in illustration and visual art.
+- **In-dividual Theater：BUG Screen Week 2026** — score 5.9, differentiated 6.14, visual fit 0.0. Open call exhibition themed on intergenerational exchange with grand prize offering exhibition opportunity; suits emerging illustration and visual artists.
+- **ART SG 2026** — score 5.5, differentiated 6.14, visual fit 0.45. Major Singapore art fair in 2026 featuring Chinese artists and contemporary work; relevant for diaspora artist visibility in Asia.
+  - Visual match signals: Chinese artist
+- **2026 第37回 美浜美術展** — score 5.7, differentiated 6.06, visual fit 0.0. Regional art exhibition open to painters and artists across Japan.
+- **ZINE FARM TOKYO** — score 5.0, differentiated 5.85, visual fit 1.75. Zine-focused Kichijoji target. Strong place to benchmark presentation and potential placement.
+  - Visual match signals: memory, zine
+- **twelvebooks** — score 5.8, differentiated 5.8, visual fit 0.0. Relevant if the work develops into an artist-book object with strong sequencing and physical presentation.
+- **2026 Kyoto Museum International Art Grand Exhibition** — score 5.3, differentiated 5.7, visual fit 0.45. International art competition hosted in Japan (Kyoto); relevant for Tokyo-based artist seeking regional opportunities.
+  - Visual match signals: Tokyo-based
+- **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** — score 5.4, differentiated 5.52, visual fit 0.0. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.

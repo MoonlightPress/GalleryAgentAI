@@ -1,12 +1,16 @@
 {
   "dominant_countries": [
     [
-      "Global",
-      19
+      "Japan",
+      24
     ],
     [
-      "Japan",
-      18
+      "Global",
+      16
+    ],
+    [
+      "International",
+      8
     ],
     [
       "USA",
@@ -14,22 +18,26 @@
     ],
     [
       "Tokyo",
-      5
+      4
+    ],
+    [
+      "Canada",
+      3
     ],
     [
       "UK",
       3
     ],
     [
-      "Canada",
-      2
-    ],
-    [
       "UK / Global",
       2
     ],
     [
-      "International",
+      "Singapore",
+      2
+    ],
+    [
+      "United States",
       2
     ],
     [
@@ -37,57 +45,49 @@
       1
     ],
     [
-      "China",
-      1
-    ],
-    [
       "France",
       1
     ],
     [
-      "Yokohama",
-      1
-    ],
-    [
-      "Singapore",
+      "China",
       1
     ]
   ],
   "dominant_categories": [
     [
-      "book_publishing",
-      14
+      "gallery",
+      13
     ],
     [
-      "zine_print",
+      "book_publishing",
       12
     ],
     [
-      "gallery",
-      11
-    ],
-    [
-      "gallery_event",
-      9
+      "zine_print",
+      10
     ],
     [
       "japan_watercolor_open_call",
-      7
+      10
+    ],
+    [
+      "global_open_call",
+      9
     ],
     [
       "global_watercolor_open_call",
-      6
+      7
     ],
     [
-      "photo_open_call",
-      5
-    ],
-    [
-      "residency",
-      5
+      "fair_popup",
+      4
     ],
     [
       "bookstore_gallery",
+      4
+    ],
+    [
+      "residency",
       4
     ],
     [
@@ -95,19 +95,19 @@
       4
     ],
     [
-      "global_open_call",
-      3
-    ],
-    [
       "cafe_gallery",
       3
     ],
     [
-      "zine_fair_booth",
-      2
+      "photo_open_call",
+      3
     ],
     [
-      "fair_popup",
+      "gallery_event",
+      3
+    ],
+    [
+      "zine_fair_booth",
       2
     ],
     [
@@ -127,53 +127,65 @@
       2
     ],
     [
-      "zine_shop_consignment",
-      1
+      "global_residency",
+      2
     ],
     [
-      "bookstore_event",
+      "zine_shop_consignment",
       1
     ]
   ],
   "dominant_tags": [
     [
       "secondary",
-      20
+      22
     ],
     [
       "",
-      20
+      22
+    ],
+    [
+      "japan",
+      16
+    ],
+    [
+      "jp",
+      15
+    ],
+    [
+      "japanese_source",
+      15
+    ],
+    [
+      "has_submission_url",
+      15
+    ],
+    [
+      "has_deadline",
+      14
+    ],
+    [
+      "watercolor_ok",
+      12
     ],
     [
       "global",
       11
     ],
     [
-      "japan",
-      10
-    ],
-    [
-      "watercolor_ok",
+      "diaspora",
       9
     ],
     [
-      "jp",
+      "diaspora_community",
       9
-    ],
-    [
-      "japanese_source",
-      9
-    ],
-    [
-      "has_deadline",
-      8
     ],
     [
       "open_call",
-      6
+      7
     ],
     [
-      "has_submission_url",
+      "watercolor",
       6
     ],
     [
@@ -185,11 +197,11 @@
       5
     ],
     [
-      "watercolor",
+      "prestige",
       5
     ],
     [
-      "prestige",
+      "chinese_source",
       5
     ],
     [
@@ -201,11 +213,7 @@
       4
     ],
     [
-      "diaspora",
-      4
-    ],
-    [
-      "diaspora_community",
+      "cn",
       4
     ],
     [
@@ -221,6 +229,10 @@
       3
     ],
     [
+      "high",
+      3
+    ],
+    [
       "currently_open",
       2
     ],
@@ -230,6 +242,10 @@
     ],
     [
       "zine",
+      2
+    ],
+    [
+      "watch_next_cycle",
       2
     ],
     [
@@ -246,10 +262,6 @@
     ],
     [
       "exhibition",
-      2
-    ],
-    [
-      "high",
       2
     ],
     [
@@ -282,18 +294,6 @@
     ],
     [
       "low_effort_but_unclear_pathway",
-      1
-    ],
-    [
-      "Low barrier to entry, unclear exhibition pathway",
-      1
-    ],
-    [
-      "book",
-      1
-    ],
-    [
-      "painting_ok",
       1
     ]
   ]

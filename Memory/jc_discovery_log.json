@@ -177,6 +177,34 @@
       "new_opps": 0,
       "quota_hit": false,
       "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-04T01:37:48.446791",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-04T01:55:30.198431",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-04T02:06:08.117333",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-04T02:26:40.313410",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
     }
   ]
 }

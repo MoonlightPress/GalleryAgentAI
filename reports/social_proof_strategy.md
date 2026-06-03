@@ -86,6 +86,12 @@ These opportunities may create disproportionate reputation value.
 - Why: Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## National Watercolor Society International Open Exhibition
+
+- Prestige: None
+- Why: One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## Tokyo Art Book Fair
 
 - Prestige: None
@@ -104,10 +110,28 @@ These opportunities may create disproportionate reputation value.
 - Why: URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
+
+- Prestige: None
+- Why: Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## 水彩アートの祭典 (Watercolor Art Festival)
+
+- Prestige: None
+- Why: Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## HATTIFNATT Koenji Cafe Gallery
 
 - Prestige: None
 - Why: The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## 水彩アートの祭典
+
+- Prestige: None
+- Why: Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## BALLOND'ESSAI Shimokitazawa
@@ -116,38 +140,14 @@ These opportunities may create disproportionate reputation value.
 - Why: Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## Japan International Watercolor Institute Online Exhibition
+
+- Prestige: None
+- Why: Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## 第113回 日本水彩展
 
 - Prestige: None
 - Why: Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## CLOUDS Gallery+Coffee Koenji
-
-- Prestige: None
-- Why: Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## UTRECHT
-
-- Prestige: None
-- Why: This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## B&B Shimokitazawa
-
-- Prestige: None
-- Why: Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Aperture | Photography
-
-- Prestige: 0
-- Why: Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## submissions — porkbelly press
-
-- Prestige: None
-- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

@@ -157,6 +157,15 @@
         "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
       },
       {
+        "title": "Submissions — Clavis Publishing",
+        "score": 8.6,
+        "differentiated_score": 10.38,
+        "hits": [
+          "small press"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+      },
+      {
         "title": "Aperture | Photography",
         "score": 8.6,
         "differentiated_score": 10.38,
@@ -166,15 +175,6 @@
           "artist book"
         ],
         "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
-      },
-      {
-        "title": "submissions — porkbelly press",
-        "score": 8.6,
-        "differentiated_score": 10.38,
-        "hits": [
-          "small press"
-        ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
       }
     ]
   },
@@ -287,8 +287,8 @@
       },
       {
         "title": "OPA Gallery",
-        "score": 8.4,
-        "differentiated_score": 9.6,
+        "score": 8.6,
+        "differentiated_score": 9.8,
         "hits": [
           "artist book"
         ],
@@ -412,22 +412,21 @@
       },
       {
         "title": "flotsam books",
-        "score": 8.5,
-        "differentiated_score": 10.49,
+        "score": 8.6,
+        "differentiated_score": 10.59,
         "hits": [
           "bookstore"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
-        "title": "Aperture | Photography",
+        "title": "Submissions — Clavis Publishing",
         "score": 8.6,
         "differentiated_score": 10.38,
         "hits": [
-          "zine",
-          "artist book"
+          "small press"
         ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
       }
     ]
   },
@@ -547,23 +546,22 @@
         "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition"
       },
       {
-        "title": "DER GREIF",
-        "score": 8.6,
-        "differentiated_score": 9.8,
+        "title": "水彩アートの祭典 (Watercolor Art Festival)",
+        "score": 8.8,
+        "differentiated_score": 9.96,
         "hits": [
-          "portfolio review",
           "open call"
         ],
-        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
+        "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
       },
       {
-        "title": "Home - Printed Matter",
-        "score": 8.0,
-        "differentiated_score": 9.52,
+        "title": "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition",
+        "score": 8.6,
+        "differentiated_score": 9.88,
         "hits": [
-          "architecture"
+          "open call"
         ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture"
+        "why": "Open call for Singapore Art Week featuring multiple venues and formats suitable for illustration and contemporary practice."
       }
     ]
   }

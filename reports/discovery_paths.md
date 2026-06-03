@@ -14,6 +14,9 @@ This report suggests adjacent institutions and ecosystems.
 ## Northwest Watercolor Society 2026 Annual International Open Exhibition
 
 
+## National Watercolor Society International Open Exhibition
+
+
 ## Tokyo Art Book Fair
 
 - Offprint (similarity 4)
@@ -30,30 +33,23 @@ This report suggests adjacent institutions and ecosystems.
 ## BOOOOOOOM 2026 Art & Photo Book Award
 
 
+## 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
+
+
+## 水彩アートの祭典 (Watercolor Art Festival)
+
+
 ## HATTIFNATT Koenji Cafe Gallery
+
+
+## 水彩アートの祭典
 
 
 ## BALLOND'ESSAI Shimokitazawa
 
 
+## Japan International Watercolor Institute Online Exhibition
+
+
 ## 第113回 日本水彩展
-
-
-## CLOUDS Gallery+Coffee Koenji
-
-
-## UTRECHT
-
-- Tokyo Art Book Fair (similarity 3)
-- Tacoche (similarity 3)
-
-## B&B Shimokitazawa
-
-
-## Aperture | Photography
-
-- Self Publish, Be Happy (similarity 3)
-- Home - Printed Matter (similarity 3)
-
-## submissions — porkbelly press
 

@@ -1,0 +1,51 @@
+# Open Call for Artists! Tokyo Biennale 2025 "Social Dive"
+
+## 1. Quick Judgment
+**Fit score:** 6.5/10  
+**Fit band:** Promising  
+**Confidence:** Medium  
+**Type:** Residencies / Longer Projects  
+**City:** Japan / Tokyo / Online  
+
+## 2. Verification Status
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+
+- **Official/source website**: https://tokyobiennale.jp/en/archives/news/6152 (verified)
+- **Submission process**: Not publicly listed (needs_inquiry)
+- **Deadline**: Check source (verified)
+- **Fees**: Not publicly listed (needs_inquiry)
+- **Contact**: Not publicly listed (needs_inquiry)
+
+## 3. Why This May Fit the Artist
+- Opportunity type: Residencies / Longer Projects.
+- Artist themes to compare against this venue: urban atmosphere, domestic stillness, cats, interior light, memory, quiet life.
+- Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
+
+## 4. Public Opportunity Summary
+Open Call for Artists! Tokyo Biennale 2025 "Social Dive" may matter later if her portfolio package and project statement become strong enough.
+
+## 5. Existing Fit Notes
+Open Call for Artists! Tokyo Biennale 2025 "Social Dive" may matter later if her portfolio package and project statement become strong enough.
+
+## 6. Key Points
+- Fit score: 70.
+- Actionability score: 90.
+- Risk score: 20.
+- Risk: Application route may be unclear.
+
+## 7. Submission / Logistics
+- **Deadline:** Check source
+- **Fees:** Not publicly listed
+- **Submission page:** Not publicly listed
+- **Source:** https://tokyobiennale.jp/en/archives/news/6152
+
+## 8. Risk / Unknowns
+No hard dealbreaker recorded. Manual verification recommended.
+
+## 9. Recommended Next Step
+Confirm eligibility, duration, cost, housing, and project proposal requirements.
+
+## 10. Inquiry Need
+If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
+
+_Last generated: 2026-06-04_

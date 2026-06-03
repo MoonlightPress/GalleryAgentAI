@@ -950,7 +950,7 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "strong: printed matter",
-      "weak: photography, gallery, exhibition",
+      "weak: gallery, photography, exhibition",
       "score too low: 3"
     ]
   },
@@ -3471,7 +3471,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call, zine",
+      "strong: zine, open call",
       "score too low: 2"
     ]
   },
@@ -3512,7 +3512,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call, call for",
+      "strong: call for, open call",
       "weak: gallery, exhibition",
       "score too low: 4"
     ]
@@ -3596,7 +3596,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call, residency",
+      "strong: residency, open call",
       "score too low: 2"
     ]
   },
@@ -3637,7 +3637,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call, residency",
+      "strong: residency, open call",
       "score too low: 2"
     ]
   },
@@ -3678,7 +3678,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: open call, residency",
+      "strong: residency, open call",
       "score too low: 2"
     ]
   },
@@ -3720,7 +3720,7 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "strong: open call",
-      "weak: photography, gallery, exhibition",
+      "weak: gallery, photography, exhibition",
       "score too low: 3"
     ]
   },
@@ -4051,7 +4051,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "weak: photography, gallery, exhibition",
+      "weak: gallery, photography, exhibition",
       "has submission link",
       "score too low: 4"
     ]
@@ -4093,7 +4093,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "weak: photography, gallery, exhibition",
+      "weak: gallery, photography, exhibition",
       "has submission link",
       "score too low: 4"
     ]
@@ -4260,6 +4260,46 @@
       "weak: gallery, exhibition",
       "has submission link",
       "score too low: 3"
+    ]
+  },
+  {
+    "title": "The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
     ]
   },
   {

@@ -44,11 +44,11 @@ Prestige or difficult targets. Useful as benchmarks even if not immediate.
 1. **Royal Watercolour Society Open Exhibition** — score 8.2, visual 2.4, verification . Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 2. **Offprint** — score 7.6, visual 2.4, verification . Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
 3. **Center for Book Arts Opportunities** — score 7.8, visual 1.95, verification . Potential fit if her work becomes more explicitly book-oriented or object/paper based.
-4. **American Watercolor Society Annual International Exhibition** — score 8.8, visual 0.9, verification . Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice.
-5. **Royal Watercolour Society** — score 8.2, visual 2.4, verification research_needed. Native watercolor context. Strong medium fit if requirements and dates are current.
+4. **Royal Watercolour Society** — score 8.2, visual 2.4, verification research_needed. Native watercolor context. Strong medium fit if requirements and dates are current.
+5. **American Watercolor Society Annual International Exhibition** — score 8.8, visual 0.9, verification . Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice.
 6. **Printed Matter Art Book Fairs** — score 6.5, visual 3.25, verification . Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
 7. **Cité Internationale des Arts Artist Residency** — score 7.5, visual 0.0, verification . Prestigious, Paris-based, and actively accessible to artists from Asia — a residency here would be a major career milestone and exposure to the European gallery ecosystem.
-8. **torch press** — score 6.2, visual 5.0, verification stretch_targets. Invitation-only publisher — no submissions. Tier 4 watch target. Approach only after established Tokyo art book ecosystem presence.
+8. **Asian Cultural Council Fellowship** — score 6.9, visual 0.0, verification . Directly designed for artists from Asia building international careers — a fellowship would fund research travel, residency, and international network-building at exactly the right career stage.
 
 ## Relationship Builders
 
@@ -56,30 +56,30 @@ Lower-pressure spaces useful for familiarity, soft outreach, or small first step
 
 1. **HATTIFNATT Koenji Cafe Gallery** — score 8.8, visual 0.9. **Action: Contact and propose**. The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
 2. **BALLOND'ESSAI Shimokitazawa** — score 8.3, visual 0.45. **Action: Contact and propose**. Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.
-3. **CLOUDS Gallery+Coffee Koenji** — score 8.2, visual 0.0. **Action: Contact and propose**. Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.
-4. **Koganecho Area Management Center** — score 7.1, visual 0.0, verification . Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
-5. **3331 Arts Chiyoda** — score 6.9, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus and the space has credibility, but the networking-intensive culture and conceptual emphasis may not suit your work's quieter approach
-6. **Gallery HANA Shimokitazawa** — score 5.7, visual 0.0, verification . Tokyo location appeals, but lack of verifiable program information creates backward investment—you'd spend energy investigating whether it's worth investigating. Not strategic.
-7. **OPEN SITE 11** — score 6.2, visual 0.45, verification needs_research. Project proposal call for artist projects at TOKAS Hongo, a Tokyo-based artist-run space.
-8. **Yonchome Cafe** — score 6.4, visual 0.0, verification . Japan location only - no other alignment with practice goals or preferred opportunity structure
+3. **水性繪畫展覽 (Watercolor Exhibition)** — score 7.4, visual 1.95, verification needs_research. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
+4. **CLOUDS Gallery+Coffee Koenji** — score 8.2, visual 0.0. **Action: Contact and propose**. Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.
+5. **True Beauty - 2026** — score 8.3, visual 0.45, verification needs_research. 5th Juried Annual Exhibition accepting watercolor and illustration work with promotion and sales opportunities.
+6. **OPEN SITE 11** — score 7.1, visual 0.45, verification needs_research. Project proposal call for artist projects at TOKAS Hongo, a Tokyo-based artist-run space.
+7. **MICRO/MACRO** — score 7.1, visual 0.45, verification needs_research. Group exhibition exploring micro and macro perspectives, relevant to GEGYjiji's urban observation and architectural focus.
+8. **Koganecho Area Management Center** — score 7.1, visual 0.0, verification . Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
 
 ## Needs Research
 
 Do not recommend yet. These need submission/contact/deadline verification.
 
-1. **第113回 日本水彩展** — score 9.2, visual 0.45, verification needs_research. Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum
-2. **BankART1929** — score 7.1, visual 0.45, verification . Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
-3. **Jinny Street Gallery Open Call** — score 8.8, visual 0.0, verification . Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
-4. **Belladonna Art Competition** — score 8.1, visual 0.0, verification . Belladonna Art Competition is worth checking because open calls can turn existing portfolio work into a concrete application.
-5. **SCAI The Bathhouse** — score 7.6, visual 0.0, verification . The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.
-6. **Platform China BIAP Artist Residency** — score 7.6, visual 0.0, verification . Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.
-7. **TOKAS Open Call** — score 7.4, visual 0.0, verification . TOKAS Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
-8. **TAV Gallery** — score 6.9, visual 0.0, verification . Tokyo location aligns with your Japan interest and Asian architectural subject matter, but fit depends entirely on information not yet available
+1. **水彩アートの祭典** — score 8.9, visual 0.45, verification needs_research. Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
+2. **Tokyo Wonder Site / TOKAS Residency** — score 7.1, visual 0.9, verification . TOKAS supports serious cultural research in Tokyo, which matches your documentation-based practice and subject matter. The institutional legitimacy would strengthen your positioning as a researcher rather than watercolor artist.
+3. **第113回 日本水彩展** — score 9.2, visual 0.45, verification needs_research. Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum
+4. **BankART1929** — score 7.1, visual 0.45, verification . Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
+5. **Aquarelle 18 - アクワレル** — score 8.8, visual 0.45, verification needs_research. Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
+6. **コピックアワード2026** — score 8.8, visual 0.45, verification needs_research. Illustration and watercolor award accepting submissions via social media, relevant to her illustration practice.
+7. **多摩ゆかりの作家による公募展** — score 8.7, visual 0.45, verification needs_research. Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions.
+8. **Ark Art Award 2024** — score 8.6, visual 0.45, verification needs_research. Open call specifically welcoming watercolor artists at all levels to participate in a curated award exhibition.
 
 ## Low Priority
 
 Keep out of the main UI unless specifically requested.
 
-1. **twelvebooks** — score 4.0, visual 0.0, verification . Relevant if the work develops into an artist-book object with strong sequencing and physical presentation.
-2. **Picaresque Gallery** — score 2.2, visual 0.45, verification . Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
-3. **Spiral** — score 2.3, visual 0.0, verification . Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
+1. **Picaresque Gallery** — score 4.0, visual 0.45, verification . Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
+2. **RAW TOKYO** — score 3.9, visual 0.45, verification . Tokyo location and apparent low barriers align with preferences, but market context conflicts with strategic positioning needs.
+3. **twelvebooks** — score 3.6, visual 0.0, verification . Relevant if the work develops into an artist-book object with strong sequencing and physical presentation.

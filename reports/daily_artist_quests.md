@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research AAA Gallery Yokohama submission process.
-- Research Northwest Watercolor Society 2026 Annual International Open Exhibition submission process.
-- Research American Illustration submission process.
-- Research Aperture | Photography submission process.
-- Research OPA Gallery submission process.
-- Compare World Illustration Awards to similar institutions.
-- Compare Bologna Children's Book Fair Illustrators Exhibition to similar institutions.
-- Compare Browse opportunities | CuratorSpace to similar institutions.
+- Research CSPWC Annual Open Water International Exhibition submission process.
+- Research Self Publish, Be Happy submission process.
+- Research Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod submission process.
+- Research American Watercolor Society Annual International Exhibition submission process.
+- Research Aesthetica Art Prize submission process.
+- Compare Aperture | Photography to similar institutions.
+- Compare DER GREIF to similar institutions.
+- Compare 水性繪畫展覽 (Watercolor Exhibition) to similar institutions.
