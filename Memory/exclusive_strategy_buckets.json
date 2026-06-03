@@ -683,7 +683,7 @@
       "visual_fit_score": 2.4,
       "verification_bucket": "",
       "verification_score": "",
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
       "source": "https://dergreif.org/",
       "visual_hits": [
         "watercolor",
@@ -1622,6 +1622,21 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "Cafe Gallery HATTIFNATT",
+      "score": 7.6,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
+      "source": "https://www.hattifnatt.jp/",
+      "visual_hits": [],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "reload Shimokitazawa",
       "score": 7.6,
       "differentiated_score": 9.06,
@@ -1677,21 +1692,6 @@
       "verification_score": "",
       "why": "Low-stakes Tokyo venue in appropriate cultural context, but offers minimal career advancement or meaningful visibility.",
       "source": "https://cafecrosspoint.jp/",
-      "visual_hits": [],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "Cafe Gallery HATTIFNATT",
-      "score": 7.6,
-      "differentiated_score": 8.9,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Low-pressure atmosphere matches your comfort level, and Koenji has authentic neighborhood character, but the cafe gallery format undermines the cultural preservation research framing you need to develop.",
-      "source": "https://www.hattifnatt.jp/",
       "visual_hits": [],
       "opportunity_type": "open_call",
       "action_type": "apply",
@@ -1874,21 +1874,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "Jinny Street Gallery Open Call",
-      "score": 8.2,
-      "differentiated_score": 9.2,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
-      "source": "https://www.jinnystreetgallery.com/open-call",
-      "visual_hits": [],
-      "opportunity_type": "enriched_opportunity",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "TOKAS Open Call",
       "score": 8.2,
       "differentiated_score": 9.2,
@@ -1897,6 +1882,21 @@
       "verification_score": "",
       "why": "TOKAS Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
       "source": "https://www.tokyoartsandspace.jp/en/application/index.html",
+      "visual_hits": [],
+      "opportunity_type": "enriched_opportunity",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "Jinny Street Gallery Open Call",
+      "score": 8.2,
+      "differentiated_score": 9.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
+      "source": "https://www.jinnystreetgallery.com/open-call",
       "visual_hits": [],
       "opportunity_type": "enriched_opportunity",
       "action_type": "apply",
@@ -1994,6 +1994,21 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
+      "score": 7.6,
+      "differentiated_score": 9.08,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "Possible fit based on link text: open call",
+      "source": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
+      "visual_hits": [],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "AIR 3331",
       "score": 7.6,
       "differentiated_score": 9.06,
@@ -2060,6 +2075,21 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "公募展",
+      "score": 8.2,
+      "differentiated_score": 8.96,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": "",
+      "why": "公募展 is worth checking because open calls can turn existing portfolio work into a concrete application.",
+      "source": "https://www.nact.jp/exhibition_public/",
+      "visual_hits": [],
+      "opportunity_type": "enriched_opportunity",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "Open Call For Artists",
       "score": 8.2,
       "differentiated_score": 8.96,
@@ -2098,21 +2128,6 @@
       "verification_score": "",
       "why": "Art公募 is worth checking because open calls can turn existing portfolio work into a concrete application.",
       "source": "https://www.artkoubo.jp/",
-      "visual_hits": [],
-      "opportunity_type": "enriched_opportunity",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "公募展",
-      "score": 8.2,
-      "differentiated_score": 8.96,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "公募展 is worth checking because open calls can turn existing portfolio work into a concrete application.",
-      "source": "https://www.nact.jp/exhibition_public/",
       "visual_hits": [],
       "opportunity_type": "enriched_opportunity",
       "action_type": "apply",
@@ -2644,21 +2659,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
-      "score": 7.5,
-      "differentiated_score": 7.98,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": "",
-      "why": "Possible fit based on link text: open call",
-      "source": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
-      "visual_hits": [],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
       "score": 6.5,
       "differentiated_score": 7.82,
@@ -2832,8 +2832,8 @@
   "low_priority": [
     {
       "title": "Picaresque Gallery",
-      "score": 0.09999999999999987,
-      "differentiated_score": 2.76,
+      "score": 0,
+      "differentiated_score": 2.26,
       "visual_fit_score": 0.45,
       "verification_bucket": "",
       "verification_score": "",

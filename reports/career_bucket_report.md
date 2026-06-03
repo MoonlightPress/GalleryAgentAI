@@ -6,7 +6,9 @@ This report separates opportunities by strategic role instead of forcing everyth
 
 High-upside opportunities that could meaningfully change her reputation, network, or publication history.
 
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 8.8, differentiated 10.79, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 8.8, differentiated 10.64, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
   - Visual match signals: artist book, artist_book, zine
 - **Tokyo Art Book Fair** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
   - Visual match signals: watercolor, artist book, artist_book, zine
@@ -34,14 +36,16 @@ High-upside opportunities that could meaningfully change her reputation, network
   - Visual match signals: artist book, small press, artist_book, small_press
 - **SUBMISSIONS - marblepress.com** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
 
 ## High-Confidence Matches
 
 Strong matches with better verification.
 
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 8.8, differentiated 10.79, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **MOUNT ZINE** — score 9.4, differentiated 10.71, visual fit 1.75. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
+  - Visual match signals: memory, zine
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 8.8, differentiated 10.64, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
   - Visual match signals: artist book, artist_book, zine
 - **Tokyo Art Book Fair** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
   - Visual match signals: watercolor, artist book, artist_book, zine
@@ -51,14 +55,14 @@ Strong matches with better verification.
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **MOUNT ZINE** — score 9.2, differentiated 10.51, visual fit 1.75. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
-  - Visual match signals: memory, zine
 - **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
 - **Zine & Book フェス in 神保町 (Jimbocho)** — score 8.6, differentiated 10.34, visual fit 3.25. Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
+- **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+  - Visual match signals: urban atmosphere, memory, zine
 - **CSPWC Annual Open Water International Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
   - Visual match signals: watercolor
 - **National Watercolor Society International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
@@ -67,16 +71,16 @@ Strong matches with better verification.
   - Visual match signals: artist book, artist_book, zine
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
   - Visual match signals: artist book, artist_book, zine
-- **Applications — Little Tokyo Zine Fest** — score 8.8, differentiated 9.96, visual fit 1.3. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: zine
-- **Book and Sons** — score 8.6, differentiated 9.75, visual fit 1.3. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
-  - Visual match signals: zine
 
 ## Publication Targets
 
 Places where the work can become visible as printed matter, editorial sequence, or publication history.
 
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 8.8, differentiated 10.79, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **MOUNT ZINE** — score 9.4, differentiated 10.71, visual fit 1.75. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
+  - Visual match signals: memory, zine
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 8.8, differentiated 10.64, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
   - Visual match signals: artist book, artist_book, zine
 - **Tokyo Art Book Fair** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
   - Visual match signals: watercolor, artist book, artist_book, zine
@@ -86,14 +90,14 @@ Places where the work can become visible as printed matter, editorial sequence, 
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **MOUNT ZINE** — score 9.2, differentiated 10.51, visual fit 1.75. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
-  - Visual match signals: memory, zine
 - **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
 - **Zine & Book フェス in 神保町 (Jimbocho)** — score 8.6, differentiated 10.34, visual fit 3.25. Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
+- **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+  - Visual match signals: urban atmosphere, memory, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
   - Visual match signals: artist book, artist_book, zine
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
@@ -102,16 +106,16 @@ Places where the work can become visible as printed matter, editorial sequence, 
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **SUBMISSIONS - marblepress.com** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Book / Zine / Photobook Targets
 
 The strongest match for her current visual language: quiet sequences, small press, books, zines, and artist-book contexts.
 
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 8.8, differentiated 10.79, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **MOUNT ZINE** — score 9.4, differentiated 10.71, visual fit 1.75. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
+  - Visual match signals: memory, zine
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 8.8, differentiated 10.64, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
   - Visual match signals: artist book, artist_book, zine
 - **Tokyo Art Book Fair** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
   - Visual match signals: watercolor, artist book, artist_book, zine
@@ -121,14 +125,14 @@ The strongest match for her current visual language: quiet sequences, small pres
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **MOUNT ZINE** — score 9.2, differentiated 10.51, visual fit 1.75. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
-  - Visual match signals: memory, zine
 - **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
 - **Zine & Book フェス in 神保町 (Jimbocho)** — score 8.6, differentiated 10.34, visual fit 3.25. Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
+- **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+  - Visual match signals: urban atmosphere, memory, zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call
   - Visual match signals: artist book, artist_book, zine
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
@@ -137,17 +141,17 @@ The strongest match for her current visual language: quiet sequences, small pres
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **SUBMISSIONS - marblepress.com** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Global Reach
 
 International opportunities that expand beyond local Tokyo/Japan visibility.
 
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 8.8, differentiated 10.79, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+  - Visual match signals: watercolor, artist book, artist_book, zine
 - **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
+- **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+  - Visual match signals: urban atmosphere, memory, zine
 - **CSPWC Annual Open Water International Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
   - Visual match signals: watercolor
 - **National Watercolor Society International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
@@ -172,16 +176,16 @@ International opportunities that expand beyond local Tokyo/Japan visibility.
   - Visual match signals: artist book, artist_book
 - **Aesthetica Art Prize** — score 8.6, differentiated 9.83, visual fit 1.75. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
   - Visual match signals: watercolor, zine
-- **Book and Sons** — score 8.6, differentiated 9.75, visual fit 1.3. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
-  - Visual match signals: zine
-- **Self Publish, Be Happy** — score 8.0, differentiated 9.7, visual fit 3.7. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
-  - Visual match signals: watercolor, artist book, artist_book, zine
 
 ## Easy Wins
 
 Lower-friction opportunities that may create momentum without heavy emotional or application burden.
 
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 8.8, differentiated 10.79, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **MOUNT ZINE** — score 9.4, differentiated 10.71, visual fit 1.75. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
+  - Visual match signals: memory, zine
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 8.8, differentiated 10.64, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
   - Visual match signals: artist book, artist_book, zine
 - **Tokyo Art Book Fair** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
   - Visual match signals: watercolor, artist book, artist_book, zine
@@ -191,14 +195,14 @@ Lower-friction opportunities that may create momentum without heavy emotional or
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **flotsam books** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **MOUNT ZINE** — score 9.2, differentiated 10.51, visual fit 1.75. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
-  - Visual match signals: memory, zine
 - **Submissions — Clavis Publishing** — score 8.6, differentiated 10.38, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
 - **Fukuoka Art Book Fair** — score 8.6, differentiated 10.34, visual fit 3.25. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
 - **Zine & Book フェス in 神保町 (Jimbocho)** — score 8.6, differentiated 10.34, visual fit 3.25. Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
+- **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+  - Visual match signals: urban atmosphere, memory, zine
 - **CSPWC Annual Open Water International Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
   - Visual match signals: watercolor
 - **National Watercolor Society International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
@@ -207,10 +211,6 @@ Lower-friction opportunities that may create momentum without heavy emotional or
   - Visual match signals: artist book, artist_book, zine
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 8.6, differentiated 10.22, visual fit 3.25. Possible fit based on link text: zine, open call, residency
   - Visual match signals: artist book, artist_book, zine
-- **Aperture | Photography** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
-  - Visual match signals: watercolor, artist book, artist_book, zine
 
 ## Relationship Builders
 
@@ -251,7 +251,9 @@ Local or community spaces useful for soft contact, small steps, and future famil
 
 Potentially useful, but not actionable until submission details, fee, deadline, or contact are verified.
 
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 9.4, differentiated 11.24, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — score 8.8, differentiated 10.79, visual fit 3.7. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — score 8.8, differentiated 10.64, visual fit 3.25. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
   - Visual match signals: artist book, artist_book, zine
 - **Tokyo Art Book Fair** — score 8.6, differentiated 10.59, visual fit 3.7. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
   - Visual match signals: watercolor, artist book, artist_book, zine
@@ -267,6 +269,8 @@ Potentially useful, but not actionable until submission details, fee, deadline, 
   - Visual match signals: artist book, artist_book, zine
 - **Zine & Book フェス in 神保町 (Jimbocho)** — score 8.6, differentiated 10.34, visual fit 3.25. Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
   - Visual match signals: artist book, artist_book, zine
+- **BOOOOOOOM 2026 Art & Photo Book Award** — score 8.8, differentiated 10.27, visual fit 2.2. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+  - Visual match signals: urban atmosphere, memory, zine
 - **CSPWC Annual Open Water International Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
   - Visual match signals: watercolor
 - **National Watercolor Society International Open Exhibition** — score 9.4, differentiated 10.26, visual fit 0.45. One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
@@ -277,10 +281,6 @@ Potentially useful, but not actionable until submission details, fee, deadline, 
   - Visual match signals: artist book, artist_book, zine
 - **Aperture | Photography** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
-  - Visual match signals: watercolor, artist book, artist_book, zine
-- **» 21 Terrific Small Presses Open to Direct Submissions** — score 8.6, differentiated 10.13, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Low Priority
 
@@ -290,12 +290,12 @@ Weak fit or low evidence. Keep but do not foreground.
   - Visual match signals: artist book, artist_book, zine
 - **Dig A Hole Zines** — score 3.0, differentiated 4.38, visual fit 3.25. Direct zine-shop target in/near Koenji. Strong match for a first local distribution attempt.
   - Visual match signals: artist book, artist_book, zine
-- **Picaresque Gallery** — score 3.5, differentiated 4.36, visual fit 0.45. Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
-  - Visual match signals: memory
 - **Sunny Boy Books** — score 3.4, differentiated 4.33, visual fit 1.3. Tokyo indie bookshop stocking handmade, small-run, and foreign books with its own publishing arm. Strong fit for artist-book and print consignment.
   - Visual match signals: zine
 - **ZINE FARM TOKYO** — score 3.0, differentiated 3.85, visual fit 1.75. Zine-focused Kichijoji target. Strong place to benchmark presentation and potential placement.
   - Visual match signals: memory, zine
-- **Spiral** — score 3.0, differentiated 3.7, visual fit 0.0. Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.
 - **MADO Café** — score 2.6, differentiated 3.3, visual fit 0.0. Geographic alignment with Japan interest and low-pressure venue, but minimal career advancement potential and ambiguous positioning.
 - **Clouds Art + Coffee** — score 2.6, differentiated 3.08, visual fit 0.0. Rotating exhibitions, welcomes emerging local and international artists, Koenji neighbourhood. Tier 1 ambient visibility — café prints and wall display.
+- **Picaresque Gallery** — score 1.4, differentiated 2.26, visual fit 0.45. Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid.
+  - Visual match signals: memory
+- **Spiral** — score 1.4, differentiated 2.1, visual fit 0.0. Tokyo location aligns with your Asia-Pacific focus, but the venue's design-commercial orientation and complete lack of submission details make this a poor match for your research-oriented practice.

@@ -1383,7 +1383,7 @@
     "country": null
   },
   {
-    "title": "Jinny Street Gallery Open Call",
+    "title": "TOKAS Open Call",
     "score": 8.6,
     "confidence_grade": "needs review",
     "positive_reasons": [],
@@ -1400,7 +1400,7 @@
     "country": null
   },
   {
-    "title": "TOKAS Open Call",
+    "title": "Jinny Street Gallery Open Call",
     "score": 8.6,
     "confidence_grade": "needs review",
     "positive_reasons": [],
@@ -1448,6 +1448,22 @@
     ],
     "category": "Residencies / Longer Projects",
     "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Cafe Gallery HATTIFNATT",
+    "score": 8.5,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
     "country": null
   },
   {
@@ -1561,6 +1577,25 @@
     "country": "Global"
   },
   {
+    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
     "title": "reload Shimokitazawa",
     "score": 8.2,
     "confidence_grade": "needs review",
@@ -1644,6 +1679,25 @@
     "country": null
   },
   {
+    "title": "公募展",
+    "score": 8.6,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
     "title": "Open Call For Artists",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -1683,25 +1737,6 @@
   },
   {
     "title": "Art公募",
-    "score": 8.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "公募展",
     "score": 8.6,
     "confidence_grade": "needs review",
     "positive_reasons": [],
@@ -1934,22 +1969,6 @@
   },
   {
     "title": "Cafe Cross Point",
-    "score": 8.2,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
-    "country": null
-  },
-  {
-    "title": "Cafe Gallery HATTIFNATT",
     "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
@@ -2753,23 +2772,6 @@
     "country": "Japan"
   },
   {
-    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
-    "score": 7.5,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
     "title": "Publishing / Artist Books — Battle Plan",
     "score": 6.5,
     "confidence_grade": "normal",
@@ -3236,7 +3238,7 @@
   },
   {
     "title": "Picaresque Gallery",
-    "score": 1.9,
+    "score": 1.4,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],

@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-02
+REPORT GENERATED: 2026-06-03
 
 # Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou
 
@@ -50,5 +50,5 @@ Open and verify whether this is current and relevant.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-02_
+_Last generated: 2026-06-03_
 

@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-02
+REPORT GENERATED: 2026-06-03
 
 # UTRECHT
 
@@ -50,5 +50,5 @@ Visit their website to see current exhibitions and publications, get a feel for 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-02_
+_Last generated: 2026-06-03_
 

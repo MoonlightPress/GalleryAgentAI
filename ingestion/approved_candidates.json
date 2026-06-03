@@ -17,12 +17,12 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from Printed Matter. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, printed matter, book fair, exhibition, memory, architecture, watercolor, drawing",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, printed matter, book fair, exhibition, memory, architecture, place, watercolor",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: zine, printed matter, book fair, exhibition, memory, architecture, watercolor, drawing, painting, paper"
+      "Keyword hits: zine, printed matter, book fair, exhibition, memory, architecture, place, watercolor, drawing, painting"
     ],
     "fit_keyword_hits": [
       "zine",
@@ -31,6 +31,7 @@
       "exhibition",
       "memory",
       "architecture",
+      "place",
       "watercolor",
       "drawing",
       "painting",
@@ -47,16 +48,64 @@
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
       "strong: photobook, zine, book fair, printed matter",
-      "weak: book, exhibition"
+      "weak: exhibition, book"
+    ]
+  },
+  {
+    "title": "Top Artist Opportunities for 2026 | ArtConnect",
+    "organization": "ArtConnect Open Calls",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 7.65,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.artconnect.com/opportunities",
+    "official_website": "https://www.artconnect.com/opportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from ArtConnect Open Calls. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition, place, gallery open call",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: zine, open call, submission, residency, exhibition, place, gallery open call"
+    ],
+    "fit_keyword_hits": [
+      "zine",
+      "open call",
+      "submission",
+      "residency",
+      "exhibition",
+      "place",
+      "gallery open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: open call, zine, submission, residency",
+      "weak: artist, exhibition, gallery"
     ]
   },
   {
     "title": "Browse opportunities | CuratorSpace",
     "organization": "CuratorSpace",
-    "category": "zine_print",
+    "category": "photo_open_call",
     "city": "Online",
     "country": "Global",
-    "overall_score": 8.1,
+    "overall_score": 7.2,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "medium",
@@ -68,21 +117,19 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition, place, painting, open exhibition",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, exhibition, memory, place, open exhibition",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: zine, open call, submission, residency, exhibition, place, painting, open exhibition"
+      "Keyword hits: open call, submission, exhibition, memory, place, open exhibition"
     ],
     "fit_keyword_hits": [
-      "zine",
       "open call",
       "submission",
-      "residency",
       "exhibition",
+      "memory",
       "place",
-      "painting",
       "open exhibition"
     ],
     "reject_keyword_hits": [],
@@ -95,127 +142,36 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: residency, submission, open call, zine",
+      "strong: open call, submission",
       "weak: exhibition"
     ]
   },
   {
-    "title": "Top Artist Opportunities for 2026 | ArtConnect",
-    "organization": "ArtConnect Open Calls",
-    "category": "zine_print",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 6.75,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://www.artconnect.com/opportunities",
-    "official_website": "https://www.artconnect.com/opportunities",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate discovered from ArtConnect Open Calls. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
-    "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: zine, open call, submission, residency, exhibition"
-    ],
-    "fit_keyword_hits": [
-      "zine",
-      "open call",
-      "submission",
-      "residency",
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: residency, submission, open call, zine",
-      "weak: exhibition, artist"
-    ]
-  },
-  {
-    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
     "organization": "CuratorSpace",
-    "category": "zine_print",
+    "category": "photo_open_call",
     "city": "Online",
     "country": "Global",
-    "overall_score": 6.1,
+    "overall_score": 4.7,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine, open call, residency",
+    "why_this_fits_short": "Possible fit based on link text: open call",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: zine, open call, residency"
+      "Keyword hits: open call"
     ],
     "fit_keyword_hits": [
-      "zine",
-      "open call",
-      "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: residency, call for, open call, zine",
-      "weak: artist",
-      "has submission link"
-    ]
-  },
-  {
-    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-    "organization": "CuratorSpace",
-    "category": "zine_print",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 5.4,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine, open call",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: zine, open call"
-    ],
-    "fit_keyword_hits": [
-      "zine",
       "open call"
     ],
     "reject_keyword_hits": [],
@@ -227,7 +183,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: call for, open call, zine, submit",
+      "strong: call for, open call",
       "weak: artist",
       "has submission link"
     ]

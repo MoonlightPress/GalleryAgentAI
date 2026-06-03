@@ -6,11 +6,11 @@ This report caps scores when the explanation contradicts the ranking.
 
 - capped_context_mismatch: 1
 - capped_market_format: 1
-- capped_negative_explanation: 33
+- capped_negative_explanation: 32
 - capped_wrong_medium: 1
 - hidden: 8
-- ok: 123
-- reject: 6
+- ok: 129
+- reject: 7
 
 ## Score Caps Applied
 
@@ -18,15 +18,19 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear
 - **flotsam books** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **ZINEイベント** — 10.0 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **National Watercolor Society International Open Exhibition** — 10.0 → 2.5 — hidden
+  - hidden recommendation
+- **Fukuoka Art Book Fair** — 10.0 → 2.5 — hidden
+  - hidden recommendation
 - **Zine & Book フェス in 神保町 (Jimbocho)** — 10.0 → 2.5 — hidden
   - negative explanation: unclear
   - hidden recommendation
-- **NADiff a/p/a/r/t** — 10.0 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **ZINEイベント** — 10.0 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **Fukuoka Art Book Fair** — 10.0 → 2.5 — hidden
+- **NADiff a/p/a/r/t** — 10.0 → 2.5 — reject
+  - negative explanation: not actionable
   - hidden recommendation
+  - verification rejected
 - **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — 10.0 → 2.5 — hidden
   - negative explanation: unclear
   - hidden recommendation
@@ -39,10 +43,14 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear
 - **VACANT** — 9.82 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **Shangyuan International Residency Programme** — 9.82 → 2.5 — hidden
+  - hidden recommendation
 - **HandMade In Japan Fes** — 9.79 → 6.4 — capped_negative_explanation
   - negative explanation: it doesn't, undermine your positioning
 - **The Container** — 9.75 → 6.4 — capped_negative_explanation
   - negative explanation: question mark
+- **Japan International Watercolor Institute Online Exhibition** — 9.71 → 2.5 — hidden
+  - hidden recommendation
 - **Gallery IRO** — 9.7 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **DESIGN FESTA GALLERY** — 9.59 → 6.4 — capped_negative_explanation
@@ -55,11 +63,11 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear
 - **Open Call For Artists** — 9.48 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **公募展** — 9.36 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
 - **Shoto Museum Open Call** — 9.36 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Art公募** — 9.36 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
-- **公募展** — 9.36 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...** — 9.36 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
@@ -67,9 +75,6 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear, question mark
 - **AIT Residency** — 9.27 → 6.4 — capped_negative_explanation
   - negative explanation: doesn't fit, unclear, lack of clear
-- **Sunny Boy Books** — 9.09 → 2.5 — reject
-  - hidden recommendation
-  - verification rejected
 - **Cafe Mame-Hico** — 9.07 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Gallery Conceal Shibuya** — 9.0 → 6.4 — capped_negative_explanation
@@ -80,9 +85,9 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear
 - **PhotoVogue** — 8.77 → 5.8 — capped_wrong_medium
   - photography-only risk: photovogue
-- **BONUS TRACK** — 8.72 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
 - **Cafe Gallery HATTIFNATT** — 8.72 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **BONUS TRACK** — 8.72 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Tokyo Arts and Space** — 8.71 → 6.4 — capped_negative_explanation
   - negative explanation: unclear, requires significant investigative work
@@ -99,17 +104,11 @@ This report caps scores when the explanation contradicts the ranking.
   - market format risk
 - **reload Shimokitazawa** — 8.49 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **Shangyuan International Residency Programme** — 8.42 → 2.5 — hidden
-  - hidden recommendation
-- **Japan International Watercolor Institute Online Exhibition** — 8.15 → 2.5 — hidden
-  - hidden recommendation
-- **National Watercolor Society International Open Exhibition** — 8.15 → 2.5 — hidden
-  - hidden recommendation
-- **Clouds Art + Coffee** — 7.54 → 2.5 — reject
-  - hidden recommendation
-  - verification rejected
 - **RAW TOKYO** — 6.93 → 6.4 — capped_negative_explanation
   - negative explanation: lack of clear
+- **Sunny Boy Books** — 2.69 → 2.5 — reject
+  - hidden recommendation
+  - verification rejected
 - **loneliness books** — 2.52 → 2.5 — reject
   - hidden recommendation
   - verification rejected

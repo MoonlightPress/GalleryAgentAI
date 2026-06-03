@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-02
 
 # NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 8.6/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Residencies / Longer Projects  
@@ -51,5 +51,5 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-02_
 

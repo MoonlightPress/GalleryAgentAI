@@ -27,10 +27,12 @@ Potential long-term artistic trajectories suggested by current recommendation pa
 ## International Small Press Artist
 
 - Tokyo Art Book Fair (signal 3)
+- Women United ART MAGAZINE Issue XIV Summer 2026 (signal 2)
 - Self Publish, Be Happy (signal 2)
 - Publishing / Artist Books — Battle Plan (signal 2)
 - Printed Matter Art Book Fairs (signal 2)
 - Offprint (signal 2)
 - Home - Printed Matter (signal 2)
 - Fukuoka Art Book Fair (signal 2)
+- BOOOOOOOM 2026 Art & Photo Book Award (signal 2)
 - B&B Shimokitazawa (signal 2)

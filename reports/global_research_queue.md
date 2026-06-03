@@ -18,6 +18,22 @@ These are global or international opportunities that need verification before be
 - Missing: contact
 - Next: Add to 2027 calendar. Check nationalwatercolorsociety.org from January 2027.
 
+## Women United ART MAGAZINE Issue XIV Summer 2026
+- Score: 8.8/10
+- Country: USA
+- Category: group_publication_open_call
+- Source: https://www.womenunitedartmovement.com/artmagazine
+- Missing: contact
+- Next: Submit work images at womenunitedartmovement.com before June 10. $25 fee. Hardship waiver available.
+
+## BOOOOOOOM 2026 Art & Photo Book Award
+- Score: 8.8/10
+- Country: Canada
+- Category: group_publication_open_call
+- Source: https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/
+- Missing: contact
+- Next: Submit 10 images from one cohesive body of work + proposal paragraph at booooooom.com by June 5 11:59 PM PST.
+
 ## Northwest Watercolor Society 2026 Annual International Open Exhibition
 - Score: 8.8/10
 - Country: USA
@@ -114,14 +130,6 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Check current open call window, digital vs. physical submission requirements, fees, and accepted paper sizes.
 
-## Platform China BIAP Artist Residency
-- Score: 8.6/10
-- Country: China
-- Category: residency_beijing
-- Source: https://www.transartists.org/en/air/platform-china
-- Missing: contact
-- Next: Email Platform China BIAP directly: No. 319-1 East End Art-A, Caochangdi Village, Chaoyang District, Beijing. Tel: +86-10-6432-0091.
-
 ## Shangyuan International Residency Programme
 - Score: 8.6/10
 - Country: China
@@ -129,6 +137,14 @@ These are global or international opportunities that need verification before be
 - Source: http://www.syartmuseum.com/english/
 - Missing: contact
 - Next: Apply October 2026 for 2027 cycle. Send portfolio images to shangyuanart@gmail.com.
+
+## Platform China BIAP Artist Residency
+- Score: 8.6/10
+- Country: China
+- Category: residency_beijing
+- Source: https://www.transartists.org/en/air/platform-china
+- Missing: contact
+- Next: Email Platform China BIAP directly: No. 319-1 East End Art-A, Caochangdi Village, Chaoyang District, Beijing. Tel: +86-10-6432-0091.
 
 ## Cité Internationale des Arts Artist Residency
 - Score: 8.6/10
@@ -146,11 +162,27 @@ These are global or international opportunities that need verification before be
 - Missing: deadline, fees, contact
 - Next: Open and verify whether this is current and relevant.
 
+## Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod
+- Score: 8.6/10
+- Country: Global
+- Category: photo_open_call
+- Source: https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594
+- Missing: deadline, fees, contact
+- Next: Open and verify whether this is current and relevant.
+
 ## Callback Open Call G George invites you to submit to Callback, a series of contemporary ar
 - Score: 8.6/10
 - Country: Global
 - Category: photo_open_call
 - Source: https://www.curatorspace.com/opportunities/detail/callback-open-call/839
+- Missing: deadline, fees, contact
+- Next: Open and verify whether this is current and relevant.
+
+## Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING
+- Score: 8.6/10
+- Country: Global
+- Category: photo_open_call
+- Source: https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071
 - Missing: deadline, fees, contact
 - Next: Open and verify whether this is current and relevant.
 
@@ -162,21 +194,13 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees, contact
 - Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
 
-## Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod
-- Score: 8.2/10
-- Country: Global
-- Category: photo_open_call
-- Source: https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594
-- Missing: deadline, fees, contact
-- Next: Open and verify whether this is current and relevant.
-
 ## Self Publish, Be Happy
 - Score: 8.0/10
 - Country: UK / Global
 - Category: global_artist_book_platform
 - Source: https://selfpublishbehappy.com/
 - Missing: submission process, deadline, fees, contact
-- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
+- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
 
 ## Printed Matter Art Book Fairs
 - Score: 8.0/10

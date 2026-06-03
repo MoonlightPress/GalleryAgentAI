@@ -9,13 +9,13 @@ This is not a generic top list. It asks where the next project could plausibly b
 - **Tokyo Art Book Fair** — 8.6 / 10.59. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **B&B Shimokitazawa** — 7.6 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 - **Self Publish, Be Happy** — 6.5 / 9.7. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — 9.4 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
-- **NADiff a/p/a/r/t** — 6.5 / 9.52. Geographic fit with Tokyo location and art book culture, but unclear if they accept artist submissions at all
 - **Aperture | Photography** — 7.6 / 10.13. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — 8.8 / 10.79. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **LOCAL Gallery・Books** — 7.6 / 9.98. Local Koenji book/gallery target; useful for a quiet works-on-paper artist and local relationship building.
 - **Books Ruhe** — 7.6 / 9.98. Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.
 - **tata bookshop/gallery** — 7.6 / 9.98. Bookshop/gallery hybrid in Koenji; good bridge between books, prints, and exhibition context.
 - **本店・本屋の実験室** — 7.6 / 9.98. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — 8.8 / 10.64. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 
 ## How To Use These
 

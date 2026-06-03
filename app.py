@@ -2,6 +2,7 @@
 import base64
 import json
 import os
+from ui.best_moves_streamlit_section import deadline_badge_html
 from ui.strategy_homepage_components import render_strategy_homepage
 from ui.zine_opportunity_section import render_zine_section
 from ui.best_moves_streamlit_section import render_best_moves_section
@@ -454,6 +455,7 @@ def render_compact_card(opp, key_prefix):
         cls = "badge-ok" if status == "verified" else "badge-need"
         badge_html += f'<span class="{cls}">{label}</span>'
 
+    urgency_html = deadline_badge_html(opp.get("deadline", ""))
     img_html = f'<img class="card-stamp" src="{stamp}">' if stamp else ""
 
     st.markdown(
@@ -462,7 +464,7 @@ def render_compact_card(opp, key_prefix):
   <div class="card-topline">
     {img_html}
     <div class="card-main">
-      <div class="card-title">{title}</div>
+      <div class="card-title">{title}{urgency_html}</div>
       <div class="card-meta">{city} · {category} · {score}/10 · {score_label(score)} · {effort_label(opp.get("difficulty"))}</div>
       <div>{badge_html}</div>
       <div class="card-summary">{summary[:190]}</div>

@@ -4,8 +4,20 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 
 ## Top Native Painting / Works on Paper Targets
 
+- **CSPWC Annual Open Water International Exhibition** — 9.6. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+  - URL: https://cspwc.ca/
+  - Next: verify current submission/contact details.
+- **BOOOOOOOM 2026 Art & Photo Book Award** — 9.6. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+  - URL: https://www.booooooom.com/
+  - Next: verify current submission/contact details.
 - **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 9.6. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
   - URL: https://www.nwws.org/annual-international-open/
+  - Next: verify current submission/contact details.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — 9.6. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+  - URL: https://www.womenunitedartmovement.com/
+  - Next: verify current submission/contact details.
+- **HATTIFNATT Koenji Cafe Gallery** — 9.6. The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
+  - URL: https://www.hattifnatt.jp/
   - Next: verify current submission/contact details.
 - **Jinny Street Gallery Open Call** — 9.6. Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
   - URL: https://www.jinnystreetgallery.com/open-call
@@ -52,9 +64,6 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 - **Royal Watercolour Society** — 9.6. Native watercolor context. Strong medium fit if requirements and dates are current.
   - URL: https://www.royalwatercoloursociety.co.uk/
   - Next: verify current submission/contact details.
-- **CSPWC Annual Open Water International Exhibition** — 9.6. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
-  - URL: https://cspwc.ca/
-  - Next: verify current submission/contact details.
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.6. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - URL: https://www.jinnystreetgallery.com/open-call
   - Next: verify current submission/contact details.
@@ -69,15 +78,6 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
   - Next: verify current submission/contact details.
 - **Tokyo Art Book Fair** — 9.6. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
   - URL: https://tokyoartbookfair.com/
-  - Next: verify current submission/contact details.
-- **UTRECHT** — 9.6. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-  - URL: https://utrecht.jp/
-  - Next: verify current submission/contact details.
-- **Offprint** — 9.6. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
-  - URL: https://offprint.org/
-  - Next: verify current submission/contact details.
-- **Aesthetica Art Prize** — 9.6. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
-  - URL: https://aestheticamagazine.com/art-prize/
   - Next: verify current submission/contact details.
 
 ## First Practical Plan

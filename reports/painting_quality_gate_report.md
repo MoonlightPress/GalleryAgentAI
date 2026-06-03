@@ -1,10 +1,14 @@
 # Painting Quality Gate Report
 
-Promoted: 61
+Promoted: 64
 Demoted: 5
 ## Changes
 
+- **CSPWC Annual Open Water International Exhibition** — 10.0 → 9.6 — promoted
+- **BOOOOOOOM 2026 Art & Photo Book Award** — 10.0 → 9.6 — promoted
 - **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 10.0 → 9.6 — promoted
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — 10.0 → 9.6 — promoted
+- **HATTIFNATT Koenji Cafe Gallery** — 10.0 → 9.6 — promoted
 - **Jinny Street Gallery Open Call** — 10.0 → 9.6 — promoted
 - **Browse opportunities | CuratorSpace** — 10.0 → 9.6 — promoted
 - **Royal Watercolour Society Open Exhibition** — 10.0 → 9.6 — promoted
@@ -20,7 +24,6 @@ Demoted: 5
 - **American Illustration** — 10.0 → 9.6 — promoted
 - **Jackson's Art Prize** — 10.0 → 9.6 — promoted
 - **Royal Watercolour Society** — 10.0 → 9.6 — promoted
-- **CSPWC Annual Open Water International Exhibition** — 9.86 → 9.6 — promoted
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 9.83 → 9.6 — promoted
 - **Mall Galleries Open Exhibitions** — 9.37 → 9.6 — promoted
 - **Pastel Society Open Exhibition** — 9.37 → 9.6 — promoted
@@ -32,7 +35,6 @@ Demoted: 5
 - **Book Obscura** — 9.0 → 9.6 — promoted
 - **Publishing / Artist Books — Battle Plan** — 9.0 → 9.6 — promoted
 - **Home - Printed Matter** — 9.0 → 9.6 — promoted
-- **Sunny Boy Books** — 9.0 → 5.5 — demoted
 - **Japan Watercolor Society Annual Exhibition** — 8.9 → 9.6 — promoted
 - **Royal Institute of Painters in Water Colours** — 8.62 → 9.42 — promoted
 - **DER GREIF** — 7.2 → 8.0 — promoted
@@ -66,5 +68,5 @@ Demoted: 5
 - **RAW TOKYO** — 6.4 → 5.5 — demoted
 - **Comitia** — 6.0 → 6.8 — promoted
 - **PhotoVogue** — 5.8 → 5.5 — demoted
-- **Japan International Watercolor Institute Online Exhibition** — 2.5 → 3.3 — promoted
 - **National Watercolor Society International Open Exhibition** — 2.5 → 3.3 — promoted
+- **Japan International Watercolor Institute Online Exhibition** — 2.5 → 3.3 — promoted

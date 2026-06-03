@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-02
+REPORT GENERATED: 2026-06-03
 
 # Zines / Artist Books — Battle Plan
 
@@ -50,5 +50,5 @@ Start with Tacoche, LOCAL Gallery・Books, Dig A Hole Zines, 本店・本屋の�
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-02_
+_Last generated: 2026-06-03_
 

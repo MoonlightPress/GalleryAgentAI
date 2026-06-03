@@ -11,11 +11,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
+- Women United ART MAGAZINE Issue XIV Summer 2026
+- MOUNT ZINE
 - ZINEフェス東京 (ZINE Fest Tokyo)
 - Tokyo Art Book Fair
 - UTRECHT
-- B&B Shimokitazawa
-- MOUNT ZINE
 
 ### What To Prepare
 - 12–20 image edit
@@ -55,11 +55,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
+- Women United ART MAGAZINE Issue XIV Summer 2026
+- MOUNT ZINE
 - ZINEフェス東京 (ZINE Fest Tokyo)
 - Tokyo Art Book Fair
 - UTRECHT
-- B&B Shimokitazawa
-- flotsam books
 
 ### What To Prepare
 - 12–20 image edit

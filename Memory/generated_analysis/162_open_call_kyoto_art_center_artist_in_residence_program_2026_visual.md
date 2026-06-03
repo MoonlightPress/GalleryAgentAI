@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-02
+REPORT GENERATED: 2026-06-03
 
 # 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
 
@@ -51,5 +51,5 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-02_
+_Last generated: 2026-06-03_
 

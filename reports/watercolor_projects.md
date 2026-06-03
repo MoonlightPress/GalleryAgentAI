@@ -11,14 +11,14 @@ A coherent series of small watercolors based on ordinary neighborhoods, plants, 
 **Portfolio use:** Best for works-on-paper open calls, bookstore/gallery spaces, and small gallery submissions.
 
 ### Best Targets
+- **CSPWC Annual Open Water International Exhibition** — watercolor score 10. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+- **BOOOOOOOM 2026 Art & Photo Book Award** — watercolor score 10. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — watercolor score 10. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+- **HATTIFNATT Koenji Cafe Gallery** — watercolor score 10. The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
 - **Browse opportunities | CuratorSpace** — watercolor score 10. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Royal Watercolour Society Open Exhibition** — watercolor score 10. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 - **HB Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **OPA Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-- **Pinpoint Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-- **Gallery IYN** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- **Tokyo Illustrators Society** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- **World Illustration Awards** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ### First Action
 Choose 12 finished or nearly finished watercolors. Group them by place, plant life, architecture, and human trace.
@@ -32,6 +32,7 @@ A tighter project about indirect human presence: domestic edges, plants, walls, 
 **Portfolio use:** Best for group shows, open exhibitions, and residencies where the work needs a clearer conceptual statement.
 
 ### Best Targets
+- **BOOOOOOOM 2026 Art & Photo Book Award** — watercolor score 10. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
 - **Browse opportunities | CuratorSpace** — watercolor score 10. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Royal Watercolour Society Open Exhibition** — watercolor score 10. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 - **HB Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
@@ -39,7 +40,6 @@ A tighter project about indirect human presence: domestic edges, plants, walls, 
 - **Pinpoint Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Gallery IYN** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Tokyo Illustrators Society** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- **World Illustration Awards** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ### First Action
 Write a 90-word statement and select 8–12 works that all show indirect human presence.
@@ -53,14 +53,14 @@ A soft, accessible series of small watercolor paintings about small local places
 **Portfolio use:** Best for local galleries, cafes, bookstores, and low-pressure first exhibitions.
 
 ### Best Targets
+- **CSPWC Annual Open Water International Exhibition** — watercolor score 10. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+- **BOOOOOOOM 2026 Art & Photo Book Award** — watercolor score 10. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — watercolor score 10. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+- **HATTIFNATT Koenji Cafe Gallery** — watercolor score 10. The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
 - **Browse opportunities | CuratorSpace** — watercolor score 10. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Royal Watercolour Society Open Exhibition** — watercolor score 10. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 - **HB Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **OPA Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-- **Pinpoint Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-- **Gallery IYN** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- **Tokyo Illustrators Society** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- **World Illustration Awards** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ### First Action
 Prepare a compact PDF: title, 10 images, dimensions, prices if available, and a 3-line artist note.
@@ -74,14 +74,14 @@ A printed sequence of watercolor works, using photobook logic but keeping painti
 **Portfolio use:** Best for TOKYO ART BOOK FAIR, UTRECHT, MOUNT ZINE, flotsam books, and artist-book ecosystems.
 
 ### Best Targets
+- **CSPWC Annual Open Water International Exhibition** — watercolor score 10. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+- **BOOOOOOOM 2026 Art & Photo Book Award** — watercolor score 10. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — watercolor score 10. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **Browse opportunities | CuratorSpace** — watercolor score 10. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Royal Watercolour Society Open Exhibition** — watercolor score 10. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 - **HB Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **OPA Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Pinpoint Gallery** — watercolor score 10. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-- **Gallery IYN** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- **Tokyo Illustrators Society** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- **World Illustration Awards** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ### First Action
 Make a 16-page PDF mockup using existing watercolor images. Do not overexplain it.

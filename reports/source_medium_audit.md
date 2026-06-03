@@ -3,12 +3,20 @@
 ## Counts
 
 - mixed: 38
-- painting: 25
-- photography: 6
-- unknown: 104
+- painting: 28
+- photography: 7
+- unknown: 106
 
 ## Classified Opportunities
 
+- **CSPWC Annual Open Water International Exhibition** — painting
+  - hits: painting: watercolor
+- **BOOOOOOOM 2026 Art & Photo Book Award** — painting
+  - hits: painting: painting | photography: photo | mixed: zine
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — painting
+  - hits: painting: watercolor | mixed: zine
+- **HATTIFNATT Koenji Cafe Gallery** — painting
+  - hits: painting: illustration
 - **Browse opportunities | CuratorSpace** — painting
   - hits: painting: painting, open exhibition | photography: photography, photo | mixed: zine, bookstore
 - **Royal Watercolour Society Open Exhibition** — painting
@@ -45,6 +53,8 @@
   - hits: painting: watercolor, painting, drawing, paper | photography: photography, photo, photobook | mixed: zine, printed matter, book fair
 - **MOUNT ZINE** — mixed
   - hits: mixed: zine, mount zine
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — mixed
+  - hits: mixed: zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — mixed
   - hits: mixed: zine, bookstore
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — mixed
@@ -84,6 +94,7 @@
 - **ArtConnect Open Calls** — unknown
 - **CuratorSpace** — unknown
 - **Society of Women Artists** — unknown
+- **Platform China BIAP Artist Residency** — unknown
 - **Submissions — Clavis Publishing** — unknown
 - **BankART1929** — unknown
 - **Koganecho Area Management Center** — unknown
@@ -111,17 +122,18 @@
   - hits: painting: illustration | mixed: book fair
 - **Royal Watercolour Society** — painting
   - hits: painting: watercolor, watercolour, royal watercolour society
+- **Shimokitazawa Arts** — unknown
 - **Open Call for the International Creator Residency Program 2026** — unknown
+- **BALLOND'ESSAI Shimokitazawa** — unknown
 - **American Watercolor Society Annual International Exhibition** — painting
   - hits: painting: watercolor
 - **TAV Gallery** — unknown
-- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — painting
-  - hits: painting: watercolor, open exhibition
+- **CLOUDS Gallery+Coffee Koenji** — unknown
 - **Cité Internationale des Arts Artist Residency** — unknown
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — mixed
-  - hits: mixed: zine
 - **そぞろ書房** — mixed
   - hits: mixed: zine, bookstore
+- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — painting
+  - hits: painting: watercolor, open exhibition
 - **Jinny Street Gallery Open Call** — painting
   - hits: painting: gallery open call
 - **TOKAS Open Call** — unknown
@@ -143,8 +155,6 @@
 - **OPEN CALL for the Artist-In-Residence Program 2025/2026** — unknown
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — painting
   - hits: painting: gallery open call
-- **Shimokitazawa Arts** — unknown
-- **Platform China BIAP Artist Residency** — unknown
 - **Osaka Open Call For Artists. - ARRIVAL** — unknown
 - **Open calls - Online Database of Artist in Residence Programs in Japan** — unknown
 - **Zines / Artist Books — Battle Plan** — mixed
@@ -155,11 +165,11 @@
 - **International Open Call** — unknown
 - **Yonchome Cafe** — unknown
 - **shashasha** — unknown
-- **CSPWC Annual Open Water International Exhibition** — painting
-  - hits: painting: watercolor
 - **Communication Arts Illustration Competition** — painting
   - hits: painting: illustration
 - **Clavis Publishing Submissions** — unknown
+- **Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod** — photography
+  - hits: photography: photo
 - **Komiyama Tokyo** — unknown
 - **ARTE VENT Press** — unknown
 - **Hayama Artist Residency** — unknown
@@ -180,14 +190,10 @@
 - **torch press** — unknown
 - **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** — unknown
 - **2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...** — unknown
-- **Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod** — photography
-  - hits: photography: photo
 - **B&B Shimokitazawa** — mixed
   - hits: mixed: zine, bookstore
 - **flotsam books** — mixed
   - hits: mixed: zine, bookstore, flotsam
-- **NADiff a/p/a/r/t** — mixed
-  - hits: mixed: zine, bookstore, nadiff
 - **ZINEイベント** — mixed
   - hits: mixed: zine
 - **Youkobo Art Space** — unknown
@@ -199,9 +205,9 @@
 - **Gallery HANA Shimokitazawa** — unknown
 - **Open Calls for Artists** — unknown
 - **Open Call For Artists** — unknown
+- **公募展** — unknown
 - **Shoto Museum Open Call** — unknown
 - **Art公募** — unknown
-- **公募展** — unknown
 - **公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...** — unknown
 - **Zushi Art Gallery** — unknown
 - **AIT Residency** — unknown
@@ -209,8 +215,8 @@
 - **Gallery Conceal Shibuya** — unknown
 - **Cafe Cross Point** — unknown
 - **Open Call for Artists! Tokyo Biennale 2025 "Social Dive"** — unknown
-- **BONUS TRACK** — unknown
 - **Cafe Gallery HATTIFNATT** — unknown
+- **BONUS TRACK** — unknown
 - **Tokyo Arts and Space** — unknown
 - **Kyoto Art Center Residency** — unknown
 - **AIR_J Open Calls** — unknown
@@ -221,33 +227,37 @@
 - **twelvebooks** — unknown
 - **Callback Open Call G George invites you to submit to Callback, a series of contemporary ar** — photography
   - hits: photography: photo
+- **Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING** — photography
+  - hits: photography: photo
 - **Comitia** — unknown
 - **PhotoVogue** — photography
   - hits: painting: illustration | photography: photo, photovogue
 - **Design Festa** — unknown
-- **Spiral** — unknown
-- **Picaresque Gallery** — unknown
-- **Zine & Book フェス in 神保町 (Jimbocho)** — mixed
-  - hits: mixed: zine, post
+- **National Watercolor Society International Open Exhibition** — painting
+  - hits: painting: watercolor, open exhibition
 - **Fukuoka Art Book Fair** — mixed
   - hits: mixed: book fair
+- **Zine & Book フェス in 神保町 (Jimbocho)** — mixed
+  - hits: mixed: zine, post
+- **NADiff a/p/a/r/t** — mixed
+  - hits: mixed: zine, bookstore, nadiff
 - **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — mixed
   - hits: mixed: zine
 - **Applications — Little Tokyo Zine Fest** — mixed
   - hits: mixed: zine
-- **SCCP Guest Artist** — unknown
-- **Sunny Boy Books** — mixed
-  - hits: mixed: zine, bookstore
 - **Shangyuan International Residency Programme** — unknown
 - **Japan International Watercolor Institute Online Exhibition** — painting
   - hits: painting: watercolor
-- **National Watercolor Society International Open Exhibition** — painting
-  - hits: painting: watercolor, open exhibition
-- **Clouds Art + Coffee** — unknown
+- **SCCP Guest Artist** — unknown
+- **Sunny Boy Books** — mixed
+  - hits: mixed: zine, bookstore
 - **loneliness books** — mixed
   - hits: mixed: zine, bookstore
 - **Dig A Hole Zines** — mixed
   - hits: mixed: zine, bookstore
 - **MADO Café** — unknown
+- **Spiral** — unknown
 - **ZINE FARM TOKYO** — mixed
   - hits: mixed: zine, bookstore
+- **Picaresque Gallery** — unknown
+- **Clouds Art + Coffee** — unknown

@@ -2,7 +2,7 @@
 
 This report suggests adjacent institutions and ecosystems.
 
-## ZINEフェス東京 (ZINE Fest Tokyo)
+## MOUNT ZINE
 
 
 ## CSPWC Annual Open Water International Exhibition
@@ -11,16 +11,31 @@ This report suggests adjacent institutions and ecosystems.
 ## National Watercolor Society International Open Exhibition
 
 
-## MOUNT ZINE
+## Women United ART MAGAZINE Issue XIV Summer 2026
+
+
+## ZINEフェス東京 (ZINE Fest Tokyo)
+
+
+## BOOOOOOOM 2026 Art & Photo Book Award
 
 
 ## Applications — Little Tokyo Zine Fest
 
 
-## Northwest Watercolor Society 2026 Annual International Open Exhibition
+## HATTIFNATT Koenji Cafe Gallery
 
 
 ## Japan International Watercolor Institute Online Exhibition
+
+
+## Northwest Watercolor Society 2026 Annual International Open Exhibition
+
+
+## BALLOND'ESSAI Shimokitazawa
+
+
+## CLOUDS Gallery+Coffee Koenji
 
 
 ## SCCP Guest Artist
@@ -40,18 +55,3 @@ This report suggests adjacent institutions and ecosystems.
 
 - Tokyo Art Book Fair (similarity 3)
 - Tacoche (similarity 3)
-
-## B&B Shimokitazawa
-
-
-## flotsam books
-
-
-## Submissions — Clavis Publishing
-
-
-## Fukuoka Art Book Fair
-
-
-## Zine & Book フェス in 神保町 (Jimbocho)
-

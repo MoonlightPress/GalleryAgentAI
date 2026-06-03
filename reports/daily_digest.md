@@ -2,9 +2,9 @@
 
 ## What Changed Since Last Run
 
-_Previous run: 2026-06-02_
+_Previous run: 2026-06-03_
 
-- **Added to Immediate Best Moves:** BOOOOOOOM 2026 Art & Photo Book Award
+No changes detected.
 
 ## Immediate Best Moves (11)
 

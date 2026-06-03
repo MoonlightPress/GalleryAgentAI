@@ -47,4 +47,4 @@ Confirm current activity and whether they sell/accept outside zines.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-03_

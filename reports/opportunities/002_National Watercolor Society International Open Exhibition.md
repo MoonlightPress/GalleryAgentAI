@@ -47,4 +47,4 @@ Add to 2027 calendar. Check nationalwatercolorsociety.org from January 2027.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-03_

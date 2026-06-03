@@ -132,7 +132,7 @@
       "contact_email",
       "official_website"
     ],
-    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
+    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
   },
   {
     "title": "Japan Watercolor Society Annual Exhibition",
@@ -296,6 +296,19 @@
   },
   {
     "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "score": 8.6,
+    "research_priority_score": 11.3,
+    "country": "Global",
+    "category": "photo_open_call",
+    "missing_fields": [
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Open and verify whether this is current and relevant."
+  },
+  {
+    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
     "score": 8.6,
     "research_priority_score": 11.3,
     "country": "Global",
@@ -529,20 +542,6 @@
   },
   {
     "title": "Society of Women Artists",
-    "score": 7.8,
-    "research_priority_score": 10.9,
-    "country": "UK",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "Royal Watercolour Society",
     "score": 7.8,
     "research_priority_score": 10.9,
     "country": "UK",

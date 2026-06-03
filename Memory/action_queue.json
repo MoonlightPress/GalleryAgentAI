@@ -306,9 +306,9 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "jinny street gallery open call::jinny street gallery open call",
-    "title": "Jinny Street Gallery Open Call",
-    "organization": "Jinny Street Gallery Open Call",
+    "key": "tokas open call::tokas open call",
+    "title": "TOKAS Open Call",
+    "organization": "TOKAS Open Call",
     "score": 8.2,
     "priority": "high",
     "status": "new",
@@ -323,9 +323,9 @@
     "recommended_action": "Research missing details: fees, contact."
   },
   {
-    "key": "tokas open call::tokas open call",
-    "title": "TOKAS Open Call",
-    "organization": "TOKAS Open Call",
+    "key": "jinny street gallery open call::jinny street gallery open call",
+    "title": "Jinny Street Gallery Open Call",
+    "organization": "Jinny Street Gallery Open Call",
     "score": 8.2,
     "priority": "high",
     "status": "new",
@@ -392,6 +392,24 @@
     "recommended_action": "Research missing details: submission process, fees, contact."
   },
   {
+    "key": "公募展::公募展",
+    "title": "公募展",
+    "organization": "公募展",
+    "score": 8.2,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, fees, contact."
+  },
+  {
     "key": "open call for artists::open call for artists",
     "title": "Open Call For Artists",
     "organization": "Open Call For Artists",
@@ -431,24 +449,6 @@
     "key": "art公募::art公募",
     "title": "Art公募",
     "organization": "Art公募",
-    "score": 8.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, fees, contact."
-  },
-  {
-    "key": "公募展::公募展",
-    "title": "公募展",
-    "organization": "公募展",
     "score": 8.2,
     "priority": "high",
     "status": "new",
@@ -1644,6 +1644,22 @@
     "recommended_action": "Research missing details: contact."
   },
   {
+    "key": "cafe gallery hattifnatt::hattifnatt",
+    "title": "Cafe Gallery HATTIFNATT",
+    "organization": "HATTIFNATT",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
     "key": "comitia::comitia",
     "title": "Comitia",
     "organization": "COMITIA",
@@ -1716,6 +1732,24 @@
   {
     "key": "callback open call g george invites you to submit to callback, a series of contemporary ar::curatorspace",
     "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "organization": "CuratorSpace",
+    "score": 7.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: deadline, fees, contact."
+  },
+  {
+    "key": "vault collective ** open call** rolling deadline **open call** vault collective ** rolling::curatorspace",
+    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
     "organization": "CuratorSpace",
     "score": 7.6,
     "priority": "high",
@@ -1879,22 +1913,6 @@
     "key": "cafe cross point::cafe cross point",
     "title": "Cafe Cross Point",
     "organization": "Cafe Cross Point",
-    "score": 7.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "cafe gallery hattifnatt::hattifnatt",
-    "title": "Cafe Gallery HATTIFNATT",
-    "organization": "HATTIFNATT",
     "score": 7.6,
     "priority": "high",
     "status": "new",
@@ -2322,24 +2340,6 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
-    "key": "vault collective ** open call** rolling deadline **open call** vault collective ** rolling::curatorspace",
-    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
-    "organization": "CuratorSpace",
-    "score": 7.5,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: deadline, fees, contact."
   },
   {
     "key": "self publish, be happy::self publish, be happy",
@@ -3157,7 +3157,7 @@
     "key": "picaresque gallery::picaresque gallery",
     "title": "Picaresque Gallery",
     "organization": "Picaresque Gallery",
-    "score": 0.09999999999999987,
+    "score": 0.0,
     "priority": "medium",
     "status": "new",
     "saved": false,

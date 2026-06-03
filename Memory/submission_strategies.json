@@ -39,7 +39,7 @@
       "Mention publication intentions."
     ]
   },
-  "Women United ART MAGAZINE Issue XIV Summer 2026": {
+  "BOOOOOOOM 2026 Art & Photo Book Award": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
     "advice": [
@@ -49,7 +49,7 @@
       "Mention publication intentions."
     ]
   },
-  "BOOOOOOOM 2026 Art & Photo Book Award": {
+  "Women United ART MAGAZINE Issue XIV Summer 2026": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
     "advice": [
@@ -129,6 +129,16 @@
       "Signal artistic clarity."
     ]
   },
+  "TOKAS Open Call": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
   "3331 Arts Chiyoda": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -139,6 +149,26 @@
       "Focus on mutual fit."
     ]
   },
+  "HATTIFNATT Koenji Cafe Gallery": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Zine & Book フェス in 神保町 (Jimbocho)": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
   "Book and Sons": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -147,6 +177,26 @@
       "Do not over-explain the work.",
       "Lead with atmosphere and sincerity.",
       "Focus on mutual fit."
+    ]
+  },
+  "BALLOND'ESSAI Shimokitazawa": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Shimokitazawa Arts": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
     ]
   },
   "Center for Book Arts Opportunities": {
@@ -189,36 +239,6 @@
       "Mention publication intentions."
     ]
   },
-  "HATTIFNATT Koenji Cafe Gallery": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Zine & Book フェス in 神保町 (Jimbocho)": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "BALLOND'ESSAI Shimokitazawa": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
   "CLOUDS Gallery+Coffee Koenji": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
@@ -229,27 +249,7 @@
       "Signal artistic clarity."
     ]
   },
-  "Shimokitazawa Arts": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
   "Jinny Street Gallery Open Call": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "TOKAS Open Call": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -299,6 +299,16 @@
       "Focus on mutual fit."
     ]
   },
+  "Open Calls for Artists": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
   "Applications — Little Tokyo Zine Fest": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
@@ -329,6 +339,16 @@
       "Demonstrate seriousness."
     ]
   },
+  "公募展": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
   "Home - Printed Matter": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
@@ -337,16 +357,6 @@
       "Emphasize visual consistency.",
       "Include sequencing logic.",
       "Mention publication intentions."
-    ]
-  },
-  "Open Calls for Artists": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
     ]
   },
   "Open Call For Artists": {
@@ -370,16 +380,6 @@
     ]
   },
   "Art公募": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "公募展": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -630,6 +630,16 @@
     ]
   },
   "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -939,6 +949,16 @@
       "Focus on mutual fit."
     ]
   },
+  "Cafe Gallery HATTIFNATT": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
   "日記屋 月日": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -1130,16 +1150,6 @@
     ]
   },
   "Cafe Cross Point": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Cafe Gallery HATTIFNATT": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -1559,16 +1569,6 @@
       "Demonstrate seriousness."
     ]
   },
-  "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
   "torch press": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -1759,7 +1759,7 @@
       "Focus on mutual fit."
     ]
   },
-  "Picaresque Gallery": {
+  "Spiral": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1769,7 +1769,7 @@
       "Signal artistic clarity."
     ]
   },
-  "Spiral": {
+  "Picaresque Gallery": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [

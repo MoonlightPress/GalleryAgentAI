@@ -62,10 +62,10 @@ These opportunities may create disproportionate reputation value.
 - Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## ZINEフェス東京 (ZINE Fest Tokyo)
+## MOUNT ZINE
 
 - Prestige: None
-- Why: Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- Why: Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## CSPWC Annual Open Water International Exhibition
@@ -80,10 +80,22 @@ These opportunities may create disproportionate reputation value.
 - Why: One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## MOUNT ZINE
+## Women United ART MAGAZINE Issue XIV Summer 2026
 
 - Prestige: None
-- Why: Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
+- Why: Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## ZINEフェス東京 (ZINE Fest Tokyo)
+
+- Prestige: None
+- Why: Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## BOOOOOOOM 2026 Art & Photo Book Award
+
+- Prestige: None
+- Why: URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Applications — Little Tokyo Zine Fest
@@ -92,16 +104,34 @@ These opportunities may create disproportionate reputation value.
 - Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## Northwest Watercolor Society 2026 Annual International Open Exhibition
+## HATTIFNATT Koenji Cafe Gallery
 
 - Prestige: None
-- Why: Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
+- Why: The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Japan International Watercolor Institute Online Exhibition
 
 - Prestige: None
 - Why: Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Northwest Watercolor Society 2026 Annual International Open Exhibition
+
+- Prestige: None
+- Why: Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## BALLOND'ESSAI Shimokitazawa
+
+- Prestige: None
+- Why: Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## CLOUDS Gallery+Coffee Koenji
+
+- Prestige: None
+- Why: Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## SCCP Guest Artist
@@ -120,34 +150,4 @@ These opportunities may create disproportionate reputation value.
 
 - Prestige: None
 - Why: This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## B&B Shimokitazawa
-
-- Prestige: None
-- Why: Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## flotsam books
-
-- Prestige: None
-- Why: Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Submissions — Clavis Publishing
-
-- Prestige: None
-- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Fukuoka Art Book Fair
-
-- Prestige: None
-- Why: Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Zine & Book フェス in 神保町 (Jimbocho)
-
-- Prestige: None
-- Why: Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

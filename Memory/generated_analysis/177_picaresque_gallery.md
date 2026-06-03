@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-02
+REPORT GENERATED: 2026-06-03
 
 # Picaresque Gallery
 
 ## 1. Quick Judgment
-**Fit score:** 1.5/10  
+**Fit score:** 1.4/10  
 **Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
@@ -50,5 +50,5 @@ Research thoroughly before any contact: review past exhibitions, artist roster q
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-02_
+_Last generated: 2026-06-03_
 

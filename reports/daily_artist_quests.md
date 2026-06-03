@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
+- Research Society of Women Artists submission process.
+- Research Royal Watercolour Society Open Exhibition submission process.
+- Research AAA Gallery Yokohama submission process.
 - Research Bologna Children's Book Fair Illustrators Exhibition submission process.
-- Research Jackson's Art Prize submission process.
-- Research Cité Internationale des Arts Artist Residency submission process.
-- Research PhotoVogue submission process.
-- Research HB Gallery submission process.
-- Compare Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod to similar institutions.
-- Compare Asian Cultural Council Fellowship to similar institutions.
-- Compare Browse opportunities | CuratorSpace to similar institutions.
+- Research Printed Matter Art Book Fairs submission process.
+- Compare Home - Printed Matter to similar institutions.
+- Compare Gallery IRO to similar institutions.
+- Compare Aperture | Photography to similar institutions.

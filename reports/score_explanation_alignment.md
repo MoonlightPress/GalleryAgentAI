@@ -4,6 +4,10 @@ Scores now follow the explanation. A high score should not appear beside a warni
 
 ## Top Truth-Aligned Opportunities
 
+- **CSPWC Annual Open Water International Exhibition** — 10.0 — strong. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+- **BOOOOOOOM 2026 Art & Photo Book Award** — 10.0 — strong. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — 10.0 — strong. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+- **HATTIFNATT Koenji Cafe Gallery** — 10.0 — strong. The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
 - **Browse opportunities | CuratorSpace** — 10.0 — strong. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Royal Watercolour Society Open Exhibition** — 10.0 — strong. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 - **HB Gallery** — 10.0 — strong. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
@@ -22,10 +26,6 @@ Scores now follow the explanation. A high score should not appear beside a warni
 - **Book Obscura** — 10.0 — strong. Artist Book / Watercolor Sequence specialist. Useful benchmark if her work moves toward artist book / watercolor sequence/artist-book sequencing.
 - **Home - Printed Matter** — 10.0 — strong. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
 - **MOUNT ZINE** — 10.0 — strong. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — 10.0 — strong. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 10.0 — strong. Possible fit based on link text: zine, open call
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — 10.0 — strong. Possible fit based on link text: zine, open call, residency
-- **Book and Sons** — 10.0 — strong. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
-- **» 21 Terrific Small Presses Open to Direct Submissions** — 10.0 — strong. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- **LOCAL Gallery・Books** — 10.0 — strong. Local Koenji book/gallery target; useful for a quiet works-on-paper artist and local relationship building.
-- **Tacoche** — 10.0 — strong. Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.
-- **Books Ruhe** — 10.0 — strong. Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.

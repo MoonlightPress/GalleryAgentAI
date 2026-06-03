@@ -2,9 +2,9 @@
 
 These are opportunities/venues with missing verification details.
 
-## Northwest Watercolor Society (NWWS)
+## National Watercolor Society (NWS)
 - Priority: medium
-- Source: https://www.nwws.org/annual-international-open/
+- Source: https://nationalwatercolorsociety.org/exhibits
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -14,15 +14,57 @@ These are opportunities/venues with missing verification details.
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
+## BOOK CULTURE CLUB
+- Priority: medium
+- Source: https://note.com/bookcultureclub/n/n053a24287fc2
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Booooooom
+- Priority: medium
+- Source: https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Northwest Watercolor Society (NWWS)
+- Priority: medium
+- Source: https://www.nwws.org/annual-international-open/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Shangyuan Art Museum
+- Priority: medium
+- Source: http://www.syartmuseum.com/english/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Women United ART MOVEMENT
+- Priority: medium
+- Source: https://www.womenunitedartmovement.com/artmagazine
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
 ## Japan International Watercolor Institute
 - Priority: medium
 - Source: https://iwf.iacn.jp/international-watercolor-exhibition-japan/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
-## National Watercolor Society (NWS)
+## TOKAS Open Call
 - Priority: medium
-- Source: https://nationalwatercolorsociety.org/exhibits
+- Source: https://www.tokyoartsandspace.jp/en/application/index.html
+- Missing: contact, fees
+- Recommended action: Research venue website or send inquiry draft.
+
+## HATTIFNATT
+- Priority: medium
+- Source: https://www.hattifnatt.jp/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## BALLOND'ESSAI
+- Priority: medium
+- Source: http://ballondessai.com/gallery/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -32,15 +74,27 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
+## TOKYO ART BOOK FAIR
+- Priority: medium
+- Source: https://tokyoartbookfair.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## CLOUDS Gallery+Coffee
+- Priority: medium
+- Source: https://www.cloudsgallerypluscoffee.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Platform China Contemporary Art Institute
+- Priority: medium
+- Source: https://www.transartists.org/en/air/platform-china
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
 ## Jinny Street Gallery Open Call
 - Priority: medium
 - Source: https://www.jinnystreetgallery.com/open-call
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## TOKAS Open Call
-- Priority: medium
-- Source: https://www.tokyoartsandspace.jp/en/application/index.html
 - Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -50,10 +104,10 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## Platform China Contemporary Art Institute
-- Priority: medium
-- Source: https://www.transartists.org/en/air/platform-china
-- Missing: contact
+## Open Calls for Artists
+- Priority: high
+- Source: https://www.theholyart.com/tokyo-open-art
+- Missing: contact, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Applications — Little Tokyo Zine Fest
@@ -68,28 +122,16 @@ These are opportunities/venues with missing verification details.
 - Missing: fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## BOOK CULTURE CLUB
-- Priority: medium
-- Source: https://note.com/bookcultureclub/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Shangyuan Art Museum
-- Priority: medium
-- Source: http://www.syartmuseum.com/english/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## TOKYO ART BOOK FAIR
-- Priority: medium
-- Source: https://tokyoartbookfair.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## Open Calls for Artists
+## 公募展
 - Priority: high
-- Source: https://www.theholyart.com/tokyo-open-art
+- Source: https://www.nact.jp/exhibition_public/
 - Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Fukuoka Art Book Fair
+- Priority: medium
+- Source: https://fukuokaartbookfair.com/application/
+- Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Open Call For Artists
@@ -107,12 +149,6 @@ These are opportunities/venues with missing verification details.
 ## Art公募
 - Priority: high
 - Source: https://www.artkoubo.jp/
-- Missing: contact, fees, submission process
-- Recommended action: Research venue website or send inquiry draft.
-
-## 公募展
-- Priority: high
-- Source: https://www.nact.jp/exhibition_public/
 - Missing: contact, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -156,6 +192,12 @@ These are opportunities/venues with missing verification details.
 - Priority: high
 - Source: https://en.410gallery.org/exhibition-open-call
 - Missing: contact, fees, submission process
+- Recommended action: Research venue website or send inquiry draft.
+
+## Jimbocho Zine Fair
+- Priority: medium
+- Source: https://tcha.jp/post-3262/
+- Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## UTRECHT
@@ -264,12 +306,6 @@ These are opportunities/venues with missing verification details.
 - Priority: high
 - Source: https://www.clavis-publishing.com/submit
 - Missing: contact, deadline, fees
-- Recommended action: Research venue website or send inquiry draft.
-
-## Fukuoka Art Book Fair
-- Priority: medium
-- Source: https://fukuokaartbookfair.com/application/
-- Missing: contact, fees
 - Recommended action: Research venue website or send inquiry draft.
 
 ## Open Call for the International Creator Residency Program 2026
@@ -494,12 +530,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Jimbocho Zine Fair
-- Priority: medium
-- Source: https://tcha.jp/post-3262/
-- Missing: contact, fees
-- Recommended action: Research venue website or send inquiry draft.
-
 ## BONUS TRACK
 - Priority: medium
 - Source: https://bonus-track.net/
@@ -569,12 +599,6 @@ These are opportunities/venues with missing verification details.
 ## Cafe Cross Point
 - Priority: medium
 - Source: https://cafecrosspoint.jp/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
-## HATTIFNATT
-- Priority: medium
-- Source: https://www.hattifnatt.jp/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -902,12 +926,6 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Picaresque Gallery
-- Priority: medium
-- Source: https://picaresquejpn.com/
-- Missing: contact
-- Recommended action: Research venue website or send inquiry draft.
-
 ## Sunny Boy Books
 - Priority: high
 - Source: https://www.instagram.com/sunnyboybooks/
@@ -932,9 +950,9 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees, submission process
 - Recommended action: Research venue website or send inquiry draft.
 
-## Spiral
+## MADO Café
 - Priority: medium
-- Source: https://www.spiral.co.jp/
+- Source: https://www.instagram.com/madocafe/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.
 
@@ -944,8 +962,14 @@ These are opportunities/venues with missing verification details.
 - Missing: contact, deadline, fees
 - Recommended action: Research venue website or send inquiry draft.
 
-## MADO Café
+## Picaresque Gallery
 - Priority: medium
-- Source: https://www.instagram.com/madocafe/
+- Source: https://picaresquejpn.com/
+- Missing: contact
+- Recommended action: Research venue website or send inquiry draft.
+
+## Spiral
+- Priority: medium
+- Source: https://www.spiral.co.jp/
 - Missing: contact
 - Recommended action: Research venue website or send inquiry draft.

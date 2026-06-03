@@ -13,7 +13,7 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 - **Official/source website**: https://cspwc.ca/ (verified)
 - **Submission process**: https://open-water-2026.artcall.org/ (verified)
 - **Deadline**: June 30, 2026 — 2:00 PM Eastern Daylight Time (verified)
-- **Fees**: Check open-water-2026.artcall.org — not listed on homepage (verified)
+- **Fees**: CAD $55 (non-members) / CAD $40 (CSPWC members) — up to 2 entries, non-refundable (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -34,7 +34,7 @@ International transparent watercolour exhibition with confirmed June 30 deadline
 
 ## 7. Submission / Logistics
 - **Deadline:** June 30, 2026 — 2:00 PM Eastern Daylight Time
-- **Fees:** Check open-water-2026.artcall.org — not listed on homepage
+- **Fees:** CAD $55 (non-members) / CAD $40 (CSPWC members) — up to 2 entries, non-refundable
 - **Submission page:** https://open-water-2026.artcall.org/
 - **Source:** https://cspwc.ca/
 
@@ -47,4 +47,4 @@ Download the Terms and Conditions prospectus from open-water-2026.artcall.org. C
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-03_

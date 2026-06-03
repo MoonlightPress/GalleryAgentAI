@@ -1,11 +1,15 @@
 # Watercolor Opportunity Conversion Report
 
 Converted text fields: 3
-Boosted watercolor/works-on-paper matches: 147
+Boosted watercolor/works-on-paper matches: 152
 Demoted photography-only matches: 0
 
 ## Top Watercolor-Adjusted Opportunities
 
+- **CSPWC Annual Open Water International Exhibition** — watercolor score 10; hits: watercolor, watercolour
+- **BOOOOOOOM 2026 Art & Photo Book Award** — watercolor score 10; hits: painting, zine, illustration
+- **Women United ART MAGAZINE Issue XIV Summer 2026** — watercolor score 10; hits: watercolor, zine
+- **HATTIFNATT Koenji Cafe Gallery** — watercolor score 10; hits: gallery
 - **Browse opportunities | CuratorSpace** — watercolor score 10; hits: watercolor, works on paper, zine, paper
 - **Royal Watercolour Society Open Exhibition** — watercolor score 10; hits: watercolor, watercolour, works on paper, paper
 - **HB Gallery** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, illustration, paper
@@ -24,10 +28,6 @@ Demoted photography-only matches: 0
 - **Book Obscura** — watercolor score 10; hits: watercolor, artist book, zine
 - **Home - Printed Matter** — watercolor score 10; hits: watercolor, works on paper, artist book, zine, paper
 - **MOUNT ZINE** — watercolor score 10; hits: zine
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — watercolor score 10; hits: zine
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — watercolor score 10; hits: zine
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — watercolor score 10; hits: residency, zine
-- **Book and Sons** — watercolor score 10; hits: gallery, bookstore
-- **» 21 Terrific Small Presses Open to Direct Submissions** — watercolor score 10; hits: 
-- **LOCAL Gallery・Books** — watercolor score 10; hits: gallery, zine, paper
-- **Tacoche** — watercolor score 10; hits: artist book, zine
-- **Books Ruhe** — watercolor score 10; hits: bookstore, zine

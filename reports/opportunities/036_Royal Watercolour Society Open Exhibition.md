@@ -47,4 +47,4 @@ Research current open call dates, submission fees, accepted formats, and previou
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-03_

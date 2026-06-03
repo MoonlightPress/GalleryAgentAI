@@ -1,21 +1,17 @@
 # Candidate Quality Gate Report
 
-Approved: 5
-Rejected: 114
+Approved: 4
+Rejected: 135
 
 ## Rejected
 
 - Royal Watercolour Society — generic page without opportunity language
 - Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 1 — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
-- RWS GALLERY AT WHITCOMB STREET Open Tuesday - Saturday, 11am - 5pm — generic page without opportunity language
-- Exhibitions Royal Watercolour Society at the RWS Gallery Final days to visit 10 April - 31 — generic page without opportunity language
-- Exhibitions The Chemistry of Water Modupeola Fadugba 5 - 27 June 2026 LEARN MORE — generic page without opportunity language
-- LEARN MORE — generic page without opportunity language
+- OUR ARTISTS The finest practitioners of water-based media on paper — generic page without opportunity language
 - Phoebe Barnicoat Three Sisters watercolour Unframed Artwork: 10.5 x 14.5cm — generic page without opportunity language
 - Phoebe Barnicoat Snake Meet watercolour Unframed Artwork: 14.5 x 10.5cm — generic page without opportunity language
 - Anne Marlow A Safe Place watercolour & pastel Unframed Artwork: 23.5 x 24cm — generic page without opportunity language
-- exhibition open call: 2026–27 season — strong: open call, weak: exhibition, has submission link, score too low: 4
 - Art Events and Exhibitions｜Tokyo Art Beat — generic page without opportunity language
 - TOKYO ART BOOK FAIR — strong: book fair, weak: book, score too low: 3
 - Jackson's Art Prize — generic page without opportunity language
@@ -24,8 +20,14 @@ Rejected: 114
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
 - Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
-- Adam Marnie and Tuomas Korpijaakko F Magazine Issue 15: IN MEMORIAM Periodicals $25.00 Fea — strong: zine, printed matter, score too low: 2
-- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: exhibition, photography, gallery, score too low: 3
+- Daniel Shepard Straffon All Lover the Place: NYC [Poster] Posters $70.00 Recent Arrival Si — strong: printed matter, weak: book, score too low: 1
+- Daniel Shepard Straffon All Lover the Place: Japan [Poster] Posters $70.00 Recent Arrival  — strong: printed matter, weak: book, score too low: 1
+- Daniel Shepard Straffon All Lover the Place: Indonesia [Poster] Posters $70.00 Recent Arri — strong: printed matter, weak: book, score too low: 1
+- Daniel Shepard Straffon All Lover the Place: Mexico [Poster] Posters $70.00 Recent Arrival — strong: printed matter, weak: book, score too low: 1
+- Daniel Shepard Straffon All Lover the Place: Thailand [Poster] Posters $70.00 Recent Arriv — strong: printed matter, weak: book, score too low: 1
+- Daniel Shepard Straffon All Lover the Place: Sticker Pack Ephemera $18.00 Recent Arrival — strong: printed matter, weak: book, score too low: 1
+- Daniel Shepard Straffon All Lover the Place: Chicago [Poster] Posters $70.00 Recent Arriva — strong: printed matter, weak: book, score too low: 1
+- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: exhibition, gallery, photography, score too low: 3
 - See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
 - Skip to main content — generic page without opportunity language
@@ -87,11 +89,30 @@ Rejected: 114
 - View Detail Page — generic page without opportunity language
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
+- View Detail Page — generic page without opportunity language
 - Magazine — strong: open call, zine, score too low: 2
-- Residency — strong: residency, open call, score too low: 2
-- bipoc artist residency program — strong: residency, open call, weak: artist, score too low: 3
+- Residency — strong: open call, residency, score too low: 2
+- bipoc artist residency program — strong: open call, residency, weak: artist, score too low: 3
 - call for proposals for solo exhibitions — strong: call for, open call, weak: exhibition, gallery, score too low: 4
 - Open Call — strong: open call, has submission link, score too low: 3
+- summer exhibition 2026 — strong: open call, weak: exhibition, gallery, score too low: 2
+- oceania pacific arts residency — strong: open call, residency, score too low: 2
+- urban arts residency in mexico — strong: open call, residency, score too low: 2
+- transitional art project: indoor photography exhibition — strong: open call, weak: exhibition, gallery, photography, score too low: 3
+- Open Calls — strong: open call, has submission link, score too low: 3
+- www.curatorspace.com — generic page without opportunity language
+- Report this? — generic page without opportunity language
+- www.curatorspace.com — weak: exhibition, gallery, has submission link, score too low: 3
+- Report this? — weak: exhibition, gallery, has submission link, score too low: 3
+- www.curatorspace.com — weak: exhibition, gallery, has submission link, score too low: 3
+- Report this? — weak: exhibition, gallery, has submission link, score too low: 3
+- www.curatorspace.com — weak: exhibition, gallery, photography, has submission link, score too low: 4
+- Report this? — weak: exhibition, gallery, photography, has submission link, score too low: 4
+- www.curatorspace.com — generic page without opportunity language
+- Report this? — generic page without opportunity language
+- www.curatorspace.com — weak: exhibition, gallery, has submission link, score too low: 3
+- Report this? — weak: exhibition, gallery, has submission link, score too low: 3
+- The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -122,8 +143,7 @@ Rejected: 114
 
 ## Approved
 
-- Home - Printed Matter — strong: photobook, zine, book fair, printed matter, weak: book, exhibition
-- Browse opportunities | CuratorSpace — strong: residency, submission, open call, zine, weak: exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — strong: residency, submission, open call, zine, weak: exhibition, artist
-- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — strong: residency, call for, open call, zine, weak: artist, has submission link
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — strong: call for, open call, zine, submit, weak: artist, has submission link
+- Home - Printed Matter — strong: photobook, zine, book fair, printed matter, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, zine, submission, residency, weak: artist, exhibition, gallery
+- Browse opportunities | CuratorSpace — strong: open call, submission, weak: exhibition
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — strong: call for, open call, weak: artist, has submission link

@@ -4,7 +4,11 @@ This report checks whether high-scoring opportunities are actually supported by 
 
 ## Needs Review
 
-### ZINEフェス東京 (ZINE Fest Tokyo) — 9.4/10 — needs review
+### MOUNT ZINE — 9.4/10 — possibly inflated
+Risks:
+- high score but few clear supporting reasons
+
+### ZINEフェス東京 (ZINE Fest Tokyo) — 8.8/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
@@ -34,10 +38,6 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
-
-### MOUNT ZINE — 9.2/10 — possibly inflated
-Risks:
-- high score but few clear supporting reasons
 
 ### Submissions — Clavis Publishing — 8.6/10 — needs review
 Risks:
@@ -248,6 +248,11 @@ Risks:
 - many missing verification fields: submission, deadline, fees, contact
 - high score but still needs verification
 
+### HATTIFNATT Koenji Cafe Gallery — 8.8/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### Book and Sons — 8.6/10 — needs review
 Positive reasons:
 - aesthetic lineage +0.9
@@ -267,11 +272,7 @@ Risks:
 - many missing verification fields: submission, deadline, fees, contact
 - high score but still needs verification
 
-### DER GREIF — 8.6/10 — needs review
-Risks:
-- many missing verification fields: submission, deadline, fees, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 
 ## Top Solid Matches
+
+- BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — aesthetic lineage +0.8, tag: publication, tag: zine

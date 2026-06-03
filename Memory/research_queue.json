@@ -1,15 +1,5 @@
 [
   {
-    "venue_name": "Canadian Society of Painters in Water Colour",
-    "venue_slug": "canadian_society_of_painters_in_water_colour",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://cspwc.ca/"
-  },
-  {
     "venue_name": "National Watercolor Society (NWS)",
     "venue_slug": "national_watercolor_society_nws",
     "priority": "medium",
@@ -20,14 +10,14 @@
     "source": "https://nationalwatercolorsociety.org/exhibits"
   },
   {
-    "venue_name": "Women United ART MOVEMENT",
-    "venue_slug": "women_united_art_movement",
+    "venue_name": "Canadian Society of Painters in Water Colour",
+    "venue_slug": "canadian_society_of_painters_in_water_colour",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.womenunitedartmovement.com/artmagazine"
+    "source": "https://cspwc.ca/"
   },
   {
     "venue_name": "BOOK CULTURE CLUB",
@@ -50,16 +40,6 @@
     "source": "https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/"
   },
   {
-    "venue_name": "Japan International Watercolor Institute",
-    "venue_slug": "japan_international_watercolor_institute",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
-  },
-  {
     "venue_name": "Northwest Watercolor Society (NWWS)",
     "venue_slug": "northwest_watercolor_society_nwws",
     "priority": "medium",
@@ -78,6 +58,37 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "http://www.syartmuseum.com/english/"
+  },
+  {
+    "venue_name": "Women United ART MOVEMENT",
+    "venue_slug": "women_united_art_movement",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.womenunitedartmovement.com/artmagazine"
+  },
+  {
+    "venue_name": "Japan International Watercolor Institute",
+    "venue_slug": "japan_international_watercolor_institute",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://iwf.iacn.jp/international-watercolor-exhibition-japan/"
+  },
+  {
+    "venue_name": "TOKAS Open Call",
+    "venue_slug": "tokas_open_call",
+    "priority": "medium",
+    "missing": [
+      "contact",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.tokyoartsandspace.jp/en/application/index.html"
   },
   {
     "venue_name": "HATTIFNATT",
@@ -100,16 +111,6 @@
     "source": "http://ballondessai.com/gallery/"
   },
   {
-    "venue_name": "CLOUDS Gallery+Coffee",
-    "venue_slug": "clouds_gallery_coffee",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.cloudsgallerypluscoffee.com/"
-  },
-  {
     "venue_name": "Shimokitazawa Arts",
     "venue_slug": "shimokitazawa_arts",
     "priority": "high",
@@ -120,6 +121,26 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://shimokitazawaarts.tokyo/en/home-english/"
+  },
+  {
+    "venue_name": "TOKYO ART BOOK FAIR",
+    "venue_slug": "tokyo_art_book_fair",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://tokyoartbookfair.com/"
+  },
+  {
+    "venue_name": "CLOUDS Gallery+Coffee",
+    "venue_slug": "clouds_gallery_coffee",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.cloudsgallerypluscoffee.com/"
   },
   {
     "venue_name": "Platform China Contemporary Art Institute",
@@ -143,17 +164,6 @@
     "source": "https://www.jinnystreetgallery.com/open-call"
   },
   {
-    "venue_name": "TOKAS Open Call",
-    "venue_slug": "tokas_open_call",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.tokyoartsandspace.jp/en/application/index.html"
-  },
-  {
     "venue_name": "Belladonna Art Competition",
     "venue_slug": "belladonna_art_competition",
     "priority": "medium",
@@ -163,6 +173,18 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.art-belladonna.jp/youkou"
+  },
+  {
+    "venue_name": "Open Calls for Artists",
+    "venue_slug": "open_calls_for_artists",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.theholyart.com/tokyo-open-art"
   },
   {
     "venue_name": "Applications — Little Tokyo Zine Fest",
@@ -185,18 +207,8 @@
     "source": "https://www.sccp.jp/air-en/application/guest-artist/"
   },
   {
-    "venue_name": "TOKYO ART BOOK FAIR",
-    "venue_slug": "tokyo_art_book_fair",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tokyoartbookfair.com/"
-  },
-  {
-    "venue_name": "Open Calls for Artists",
-    "venue_slug": "open_calls_for_artists",
+    "venue_name": "公募展",
+    "venue_slug": "unknown",
     "priority": "high",
     "missing": [
       "contact",
@@ -204,7 +216,18 @@
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.theholyart.com/tokyo-open-art"
+    "source": "https://www.nact.jp/exhibition_public/"
+  },
+  {
+    "venue_name": "Fukuoka Art Book Fair",
+    "venue_slug": "fukuoka_art_book_fair",
+    "priority": "medium",
+    "missing": [
+      "contact",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://fukuokaartbookfair.com/application/"
   },
   {
     "venue_name": "Open Call For Artists",
@@ -241,18 +264,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.artkoubo.jp/"
-  },
-  {
-    "venue_name": "公募展",
-    "venue_slug": "unknown",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.nact.jp/exhibition_public/"
   },
   {
     "venue_name": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
@@ -337,6 +348,17 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://en.410gallery.org/exhibition-open-call"
+  },
+  {
+    "venue_name": "Jimbocho Zine Fair",
+    "venue_slug": "jimbocho_zine_fair",
+    "priority": "medium",
+    "missing": [
+      "contact",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://tcha.jp/post-3262/"
   },
   {
     "venue_name": "UTRECHT",
@@ -527,28 +549,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.clavis-publishing.com/submit"
-  },
-  {
-    "venue_name": "Fukuoka Art Book Fair",
-    "venue_slug": "fukuoka_art_book_fair",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://fukuokaartbookfair.com/application/"
-  },
-  {
-    "venue_name": "Jimbocho Zine Fair",
-    "venue_slug": "jimbocho_zine_fair",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tcha.jp/post-3262/"
   },
   {
     "venue_name": "Open Call for the International Creator Residency Program 2026",

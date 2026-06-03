@@ -2,6 +2,7 @@
 
 This runs at the end of the pipeline so later scoring scripts cannot inflate weakly verified opportunities.
 
+- MOUNT ZINE: 9.4 → 9.2
 - UTRECHT: 8.6 → 7.6
 - B&B Shimokitazawa: 8.6 → 7.6
 - flotsam books: 8.6 → 7.6
@@ -53,18 +54,20 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - ZINEイベント: 8.6 → 7.6
 - Full-Table - Little Tokyo Zine Fest 2026 - Eventeny: 8.6 → 7.6
 - Cité Internationale des Arts Artist Residency: 8.6 → 7.6
-- Jinny Street Gallery Open Call: 8.6 → 8.2
 - TOKAS Open Call: 8.6 → 8.2
+- Jinny Street Gallery Open Call: 8.6 → 8.2
 - Belladonna Art Competition: 8.6 → 8.2
 - Open Call for the International Creator Residency Program 2026: 8.6 → 8.2
 - Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou: 8.6 → 7.6
 - Clavis Publishing Submissions: 8.6 → 7.6
+- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod: 8.6 → 7.6
 - Callback Open Call G George invites you to submit to Callback, a series of contemporary ar: 8.6 → 7.6
+- Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING: 8.6 → 7.6
 - Open Calls for Artists: 8.6 → 8.2
+- 公募展: 8.6 → 8.2
 - Open Call For Artists: 8.6 → 8.2
 - Shoto Museum Open Call: 8.6 → 8.2
 - Art公募: 8.6 → 8.2
-- 公募展: 8.6 → 8.2
 - 公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...: 8.6 → 8.2
 - OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery: 8.6 → 8.2
 - Osaka Open Call For Artists. - ARRIVAL: 8.6 → 8.2
@@ -74,6 +77,7 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - International Open Call: 8.6 → 8.2
 - ARTE VENT Press: 8.6 → 7.6
 - PhotoVogue: 8.6 → 7.6
+- Cafe Gallery HATTIFNATT: 8.5 → 7.6
 - L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info: 8.4 → 8.2
 - Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...: 8.4 → 8.2
 - Kyoto Retreat Artist Residency 2026 - Open Call: 8.4 → 8.2
@@ -97,10 +101,8 @@ This runs at the end of the pipeline so later scoring scripts cannot inflate wea
 - Cafe Mame-Hico: 8.2 → 7.6
 - Yonchome Cafe: 8.2 → 7.6
 - Cafe Cross Point: 8.2 → 7.6
-- Cafe Gallery HATTIFNATT: 8.2 → 7.6
 - Hayama Artist Residency Submission Manager - Submittable: 8.2 → 7.6
 - Hayama Artist Residency: 8.2 → 7.6
-- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod: 8.2 → 7.6
 - Self Publish, Be Happy: 8.0 → 6.5
 - Printed Matter Art Book Fairs: 8.0 → 6.5
 - Home - Printed Matter: 8.0 → 6.5

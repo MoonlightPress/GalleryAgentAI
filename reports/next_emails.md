@@ -2,6 +2,34 @@
 
 Short, low-pressure emails connected to actual project concepts.
 
+## Women United ART MAGAZINE Issue XIV Summer 2026 — Quiet Neighborhood Memory
+
+**Subject:** Photography / artist book inquiry — Quiet Neighborhood Memory
+
+Hello,
+
+I am researching whether Women United ART MAGAZINE Issue XIV Summer 2026 is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+
+The project I am considering is titled "Quiet Neighborhood Memory." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
+
+Could you let me know whether there is a current submission process, open call, or appropriate contact for this kind of work?
+
+Thank you.
+
+## MOUNT ZINE — Quiet Neighborhood Memory
+
+**Subject:** Photography / artist book inquiry — Quiet Neighborhood Memory
+
+Hello,
+
+I am researching whether MOUNT ZINE is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+
+The project I am considering is titled "Quiet Neighborhood Memory." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
+
+Could you let me know whether there is a current submission process, open call, or appropriate contact for this kind of work?
+
+Thank you.
+
 ## ZINEフェス東京 (ZINE Fest Tokyo) — Quiet Neighborhood Memory
 
 **Subject:** Photography / artist book inquiry — Quiet Neighborhood Memory
@@ -16,29 +44,29 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## Tokyo Art Book Fair — Quiet Neighborhood Memory
+## Women United ART MAGAZINE Issue XIV Summer 2026 — Human Trace Study
 
-**Subject:** Photography / artist book inquiry — Quiet Neighborhood Memory
+**Subject:** Photography / artist book inquiry — Human Trace Study
 
 Hello,
 
-I am researching whether Tokyo Art Book Fair is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether Women United ART MAGAZINE Issue XIV Summer 2026 is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
-The project I am considering is titled "Quiet Neighborhood Memory." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
+The project I am considering is titled "Human Trace Study." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
 Could you let me know whether there is a current submission process, open call, or appropriate contact for this kind of work?
 
 Thank you.
 
-## UTRECHT — Quiet Neighborhood Memory
+## MOUNT ZINE — Human Trace Study
 
-**Subject:** Photography / artist book inquiry — Quiet Neighborhood Memory
+**Subject:** Photography / artist book inquiry — Human Trace Study
 
 Hello,
 
-I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether MOUNT ZINE is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
-The project I am considering is titled "Quiet Neighborhood Memory." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
+The project I am considering is titled "Human Trace Study." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
 Could you let me know whether there is a current submission process, open call, or appropriate contact for this kind of work?
 
@@ -58,29 +86,29 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## Tokyo Art Book Fair — Human Trace Study
+## Women United ART MAGAZINE Issue XIV Summer 2026 — Small Press City Walk
 
-**Subject:** Photography / artist book inquiry — Human Trace Study
+**Subject:** Photography / artist book inquiry — Small Press City Walk
 
 Hello,
 
-I am researching whether Tokyo Art Book Fair is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether Women United ART MAGAZINE Issue XIV Summer 2026 is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
-The project I am considering is titled "Human Trace Study." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
+The project I am considering is titled "Small Press City Walk." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
 Could you let me know whether there is a current submission process, open call, or appropriate contact for this kind of work?
 
 Thank you.
 
-## UTRECHT — Human Trace Study
+## MOUNT ZINE — Small Press City Walk
 
-**Subject:** Photography / artist book inquiry — Human Trace Study
+**Subject:** Photography / artist book inquiry — Small Press City Walk
 
 Hello,
 
-I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether MOUNT ZINE is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
-The project I am considering is titled "Human Trace Study." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
+The project I am considering is titled "Small Press City Walk." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
 Could you let me know whether there is a current submission process, open call, or appropriate contact for this kind of work?
 
@@ -93,34 +121,6 @@ Thank you.
 Hello,
 
 I am researching whether ZINEフェス東京 (ZINE Fest Tokyo) is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
-
-The project I am considering is titled "Small Press City Walk." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
-
-Could you let me know whether there is a current submission process, open call, or appropriate contact for this kind of work?
-
-Thank you.
-
-## Tokyo Art Book Fair — Small Press City Walk
-
-**Subject:** Photography / artist book inquiry — Small Press City Walk
-
-Hello,
-
-I am researching whether Tokyo Art Book Fair is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
-
-The project I am considering is titled "Small Press City Walk." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
-
-Could you let me know whether there is a current submission process, open call, or appropriate contact for this kind of work?
-
-Thank you.
-
-## UTRECHT — Small Press City Walk
-
-**Subject:** Photography / artist book inquiry — Small Press City Walk
-
-Hello,
-
-I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Small Press City Walk." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
