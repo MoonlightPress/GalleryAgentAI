@@ -7,6 +7,7 @@ PIPELINE = [
     "approved_candidate_importer.py",
     "url_verification_engine.py",
     "global_opportunity_expander.py",
+    "japanese_chinese_discovery_engine.py",
     "submission_link_hunter.py",
     "opportunity_enrichment_pipeline.py",
     "venue_intelligence_builder.py",
