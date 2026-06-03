@@ -101,12 +101,12 @@ export default function OppDetailPanel({ opp, onClose }) {
               </div>
             </div>
             <pre className="detail-email-body">
-              {emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en}
+              {(emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en) || ''}
             </pre>
             <button
               className="detail-copy-btn"
               onClick={() => navigator.clipboard?.writeText(
-                emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en
+                (emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en) || ''
               )}
             >
               {t('detail.copyDraft')}

@@ -528,7 +528,7 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
 const TIER_NS     = [1, 2, 3, 4]
 const TRACK_IDS   = ['publication', 'gallery', 'hybrid']
 const AVOID_IDS   = ['photography_calls', 'high_fees', 'international_travel', 'digital_only', 'large_group']
-const GEO_IDS     = ['tokyo', 'japan', 'international']
+const GEO_IDS     = ['tokyo', 'japan', 'beijing', 'international']
 const FEE_IDS     = ['free', 'low', 'medium', 'any']
 const SURFACE_IDS = ['zines_books', 'gallery_shows', 'residencies', 'cafes_bookshops', 'art_fairs']
 
@@ -772,6 +772,8 @@ function computeSectionOrder(profile) {
 export default function PeppercornPage() {
   const [profile,     setProfile]     = useState(null)
   const [statusMsg,   setStatusMsg]   = useState('')
+  const [isSaved,     setIsSaved]     = useState(false)
+  const [fetchError,  setFetchError]  = useState(null)
   const [openSections,setOpenSections]= useState(new Set(['instagram-strategy']))
   const [activeCard,  setActiveCard]  = useState(null)
   const { t } = useLanguage()
@@ -782,8 +784,9 @@ export default function PeppercornPage() {
 
   useEffect(() => {
     fetch('/api/peppercorn')
-      .then(r => r.json())
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json() })
       .then(p => { setProfile(p); setOpenSections(new Set(['instagram-strategy'])) })
+      .catch(e => setFetchError(e.message))
   }, [])
 
   // Track active card via IntersectionObserver
@@ -803,13 +806,21 @@ export default function PeppercornPage() {
     const next = { ...profile, ...updates }
     setProfile(next)
     setStatusMsg(t('pp.saving'))
-    await fetch('/api/peppercorn', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(next),
-    })
-    setStatusMsg(t('pp.saved'))
-    setTimeout(() => setStatusMsg(''), 2000)
+    setIsSaved(false)
+    try {
+      const r = await fetch('/api/peppercorn', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(next),
+      })
+      if (!r.ok) throw new Error(r.status)
+      setStatusMsg(t('pp.saved'))
+      setIsSaved(true)
+      setTimeout(() => { setStatusMsg(''); setIsSaved(false) }, 2000)
+    } catch {
+      setStatusMsg(t('pp.saveError'))
+      setTimeout(() => setStatusMsg(''), 3000)
+    }
   }
 
   function handleCardClick(card) {
@@ -903,12 +914,13 @@ export default function PeppercornPage() {
 
       {/* Status bar */}
       {statusMsg && (
-        <div className={`pp-status-bar${statusMsg === 'Saved' ? ' pp-status-bar--saved' : ''}`}>
+        <div className={`pp-status-bar${isSaved ? ' pp-status-bar--saved' : ''}`}>
           {statusMsg}
         </div>
       )}
 
-      {!profile && <div className="pp-loading">{t('pp.loading')}</div>}
+      {!profile && !fetchError && <div className="pp-loading">{t('pp.loading')}</div>}
+      {fetchError && <div className="pp-loading">{t('sf.error')}</div>}
 
       {profile && (
         <>

@@ -34,6 +34,13 @@ const zh = {
   'hero.focus.2':            '研究1位艺术家',
   'hero.seeAll':             '查看所有任务 →',
 
+  // ── Hero tier labels ──────────────────────────────────────────────────────
+  'hero.tier.quickWin':        '快速行动',
+  'hero.tier.quickWin.time':   '5分钟',
+  'hero.tier.highImpact':      '重点任务',
+  'hero.tier.highImpact.time': '30–60分钟',
+  'hero.tier.stretch':         '延伸目标',
+
   // ── Opportunities section ─────────────────────────────────────────────────
   'opps.loading':            '猫饼正在整理机会…',
   'opps.error':              '无法连接猫饼API — python api.py 是否正在运行？',
@@ -171,6 +178,7 @@ const zh = {
   'pp.loading':              '胡椒粒正在倾听…',
   'pp.saving':               '保存中…',
   'pp.saved':                '已保存',
+  'pp.saveError':            '保存失败，请重试',
 
   'pp.sec.instagram':        '社交媒体',
   'pp.sub.instagram':        'Instagram 与 Twitter — 每个里程碑意味着什么，以及值得关注的事。',
@@ -245,6 +253,8 @@ const zh = {
   'pp.geo.japan.desc':          '包括大阪、京都、横滨等',
   'pp.geo.international.label': '同等重视国际',
   'pp.geo.international.desc':  '全球公开征集、海外博览会、驻留项目',
+  'pp.geo.beijing.label':       '北京优先',
+  'pp.geo.beijing.desc':        '在北京生态系统中构建存在感',
 
   'pp.fee.free':   '仅限免费',
   'pp.fee.low':    '5,000日元 / $30以内',
@@ -433,6 +443,13 @@ const ja = {
   'hero.focus.2':            'アーティストを1人調べる',
   'hero.seeAll':             'すべてのタスクを見る →',
 
+  // ── Hero tier labels ──────────────────────────────────────────────────────
+  'hero.tier.quickWin':        'クイックウィン',
+  'hero.tier.quickWin.time':   '5分',
+  'hero.tier.highImpact':      '重要タスク',
+  'hero.tier.highImpact.time': '30〜60分',
+  'hero.tier.stretch':         'ストレッチ',
+
   // ── Opportunities ─────────────────────────────────────────────────────────
   'opps.loading':            'モチが機会を整理しています…',
   'opps.error':              'Mochi APIに接続できません — python api.py は起動していますか？',
@@ -570,6 +587,7 @@ const ja = {
   'pp.loading':              'ペッパーコーンが聞いています…',
   'pp.saving':               '保存中…',
   'pp.saved':                '保存しました',
+  'pp.saveError':            '保存に失敗しました — もう一度お試しください',
 
   'pp.sec.instagram':        'ソーシャルメディア',
   'pp.sub.instagram':        'Instagram と Twitter — 各閾値の意味と注目すべきこと。',
@@ -644,6 +662,8 @@ const ja = {
   'pp.geo.japan.desc':          '大阪、京都、横浜なども含む',
   'pp.geo.international.label': '海外も同様に',
   'pp.geo.international.desc':  'グローバル公募、海外フェア、レジデンシー',
+  'pp.geo.beijing.label':       '北京',
+  'pp.geo.beijing.desc':        '北京のエコシステムでのプレゼンス構築',
 
   'pp.fee.free':   '無料のみ',
   'pp.fee.low':    '5,000円 / $30まで',
@@ -829,6 +849,13 @@ const en = {
   'hero.focus.2':            'Research 1 artist',
   'hero.seeAll':             'See all quests →',
 
+  // ── Hero tier labels ──────────────────────────────────────────────────────
+  'hero.tier.quickWin':        'Quick Win',
+  'hero.tier.quickWin.time':   '5 min',
+  'hero.tier.highImpact':      'High Impact',
+  'hero.tier.highImpact.time': '30–60 min',
+  'hero.tier.stretch':         'Stretch Goal',
+
   'opps.loading':            'Mochi is sorting opportunities…',
   'opps.error':              'Could not reach the Mochi API — is python api.py running?',
   'opps.showMore':           'Show more',
@@ -961,6 +988,7 @@ const en = {
   'pp.loading':              'Peppercorn is listening…',
   'pp.saving':               'Saving…',
   'pp.saved':                'Saved',
+  'pp.saveError':            'Save failed — please try again',
 
   'pp.sec.instagram':        'Social Presence',
   'pp.sub.instagram':        'Instagram and Twitter — what each threshold means, and what\'s worth noticing.',
@@ -1035,6 +1063,8 @@ const en = {
   'pp.geo.japan.desc':          'Include Osaka, Kyoto, Yokohama, etc.',
   'pp.geo.international.label': 'International equally',
   'pp.geo.international.desc':  'Global open calls, overseas fairs, residencies',
+  'pp.geo.beijing.label':       'Beijing',
+  'pp.geo.beijing.desc':        'Building presence in Beijing\'s ecosystem',
 
   'pp.fee.free':   'Free only',
   'pp.fee.low':    'Up to ¥5,000 / $30',

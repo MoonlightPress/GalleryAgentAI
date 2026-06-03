@@ -1,15 +1,42 @@
+import { useState, useEffect } from 'react'
 import './HeroSection.css'
 import { mochiHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
 
+const TIERS = [
+  {
+    icon:      '⭐',
+    labelKey:  'hero.tier.quickWin',
+    timeKey:   'hero.tier.quickWin.time',
+    bucket:    'immediate_best_moves',
+    fallback:  0,
+  },
+  {
+    icon:      '✉',
+    labelKey:  'hero.tier.highImpact',
+    timeKey:   'hero.tier.highImpact.time',
+    bucket:    'open_calls',
+    fallback:  1,
+  },
+  {
+    icon:      '🔍',
+    labelKey:  'hero.tier.stretch',
+    timeKey:   null,
+    bucket:    'watch_list',
+    fallback:  2,
+  },
+]
+
 export default function HeroSection() {
   const { t } = useLanguage()
+  const [sections, setSections] = useState(null)
 
-  const focusItems = [
-    { icon: '⭐', text: t('hero.focus.0') },
-    { icon: '✉',  text: t('hero.focus.1') },
-    { icon: '🔍', text: t('hero.focus.2') },
-  ]
+  useEffect(() => {
+    fetch('/api/opportunities')
+      .then(r => r.ok ? r.json() : null)
+      .then(d => { if (d?.sections) setSections(d.sections) })
+      .catch(() => {})
+  }, [])
 
   return (
     <section className="hero">
@@ -26,14 +53,31 @@ export default function HeroSection() {
         <div className="focus-card">
           <div className="focus-card-title">{t('hero.focusTitle')}</div>
           <ul className="focus-list">
-            {focusItems.map((item, i) => (
-              <li key={i} className="focus-item">
-                <span className="focus-item-icon">{item.icon}</span>
-                <span>{item.text}</span>
-              </li>
-            ))}
+            {TIERS.map((tier, i) => {
+              const opp = sections?.[tier.bucket]?.[0]
+              return (
+                <li key={i} className="focus-item">
+                  <span className="focus-item-icon">{tier.icon}</span>
+                  {opp ? (
+                    <div className="focus-item-body">
+                      <div className="focus-item-tier">
+                        {t(tier.labelKey)}
+                        {tier.timeKey && (
+                          <span className="focus-item-time">· {t(tier.timeKey)}</span>
+                        )}
+                      </div>
+                      <div className="focus-item-name">{opp.name}</div>
+                    </div>
+                  ) : (
+                    <span>{t(`hero.focus.${tier.fallback}`)}</span>
+                  )}
+                </li>
+              )
+            })}
           </ul>
-          <a href="#" className="focus-see-all">{t('hero.seeAll')}</a>
+          <a href="#immediate_best_moves" className="focus-see-all">
+            {t('hero.seeAll')}
+          </a>
         </div>
       </div>
     </section>
