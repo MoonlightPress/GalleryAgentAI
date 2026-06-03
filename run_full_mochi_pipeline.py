@@ -23,6 +23,7 @@ PIPELINE = [
     "watercolor_opportunity_converter.py",
     "opportunity_truth_checker.py",
     "source_medium_classifier.py",
+    "medium_confirmation_gate.py",
     "translation_candidate_detector.py",
     "source_purity_enforcer.py",
     "native_medium_ranker.py",
