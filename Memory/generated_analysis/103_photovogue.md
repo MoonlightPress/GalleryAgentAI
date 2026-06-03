@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-04
 
 # PhotoVogue
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 8.5/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Photo Open Call  
 **City:** Online  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
 
 - **Official/source website**: https://www.vogue.com/photovogue (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2026-09-11 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -36,7 +36,7 @@ Potential fit based on source context and keyword overlap: open call, submission
 - Keyword hits: open call, submission, exhibition, illustration
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** 2026-09-11
 - **Fees:** Not publicly listed
 - **Submission page:** Not publicly listed
 - **Source:** https://www.vogue.com/photovogue
@@ -50,5 +50,5 @@ Open source, verify current opportunities, submission process, fees, deadline, a
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_
 

@@ -1,657 +1,365 @@
-import base64
-import html as _html
+import streamlit as st
 import json
 import os
-from datetime import datetime
-from pathlib import Path
-import streamlit as st
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Page config — must be first Streamlit call
-# ─────────────────────────────────────────────────────────────────────────────
-st.set_page_config(page_title="Mochi's Atelier", layout="wide")
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Data helpers
-# ─────────────────────────────────────────────────────────────────────────────
-_OPP_CACHE = None
+import base64
 
 
-def load_json(path, default):
-    p = Path(path)
-    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else default
+st.set_page_config(
+    page_title="Mochi's Atelier",
+    layout="wide"
+)
 
 
-def _opps():
-    global _OPP_CACHE
-    if _OPP_CACHE is None:
-        _OPP_CACHE = load_json("deploy_data/compact_opportunities.json", [])
-    return _OPP_CACHE
+def load_json(path, fallback):
+    if not os.path.exists(path):
+        return fallback
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-def image_data_uri(path):
+def img64(path):
     if not os.path.exists(path):
         return ""
-    ext = os.path.splitext(path)[1].lower().lstrip(".")
-    mime = "jpeg" if ext in {"jpg", "jpeg"} else ext
     with open(path, "rb") as f:
-        return f"data:image/{mime};base64,{base64.b64encode(f.read()).decode()}"
+        return base64.b64encode(f.read()).decode()
 
 
-def get_title(opp):
-    return opp.get("title") or opp.get("name") or "Untitled"
+def asset(path):
+    b64 = img64(path)
+    if not b64:
+        return ""
+    return f"data:image/svg+xml;base64,{b64}"
 
 
-def get_source(opp):
-    return (
-        opp.get("source_url")
-        or opp.get("official_website")
-        or opp.get("submission_page")
-        or ""
-    )
+opps = load_json("memory/compact_opportunities.json", [])
+materials = load_json("memory/materials_memory.json", {})
 
-
-def best_score(opp):
-    for field in ("watercolor_adjusted_score", "truth_aligned_score", "overall_score"):
-        v = opp.get(field)
-        if v is not None:
-            try:
-                return min(float(v), 10.0)
-            except Exception:
-                continue
-    return 0.0
-
-
-def clean_val(v, fallback="—"):
-    if not v:
-        return fallback
-    s = str(v).strip()
-    return fallback if s.lower() in ("unknown", "none", "null", "n/a", "not publicly listed", "") else s
-
-
-def _has_real_deadline(opp):
-    return clean_val(opp.get("deadline")) != "—"
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Email drafts
-# ─────────────────────────────────────────────────────────────────────────────
-def email_draft_ja(opp):
-    if opp.get("draft_introduction_ja"):
-        return opp["draft_introduction_ja"]
-    org = clean_val(opp.get("organization"), get_title(opp))
-    return (
-        "件名：水彩画作品についてのご相談\n\n"
-        "はじめまして。東京在住の水彩画家、GEGYjijiと申します。\n"
-        "都市の風景、建築、記憶といった日常の静けさをテーマに水彩画を制作しております。\n\n"
-        f"{org}様のお取り組みに関心を持ち、作品のご紹介や展示・販売について\n"
-        "ご相談できればと思い、ご連絡いたしました。\n\n"
-        "ポートフォリオ：[portfolio link]\n\n"
-        "どうぞよろしくお願いいたします。\n"
-        "GEGYjiji"
-    )
-
-
-def email_draft_en(opp):
-    if opp.get("draft_introduction_en"):
-        return opp["draft_introduction_en"]
-    org = clean_val(opp.get("organization"), get_title(opp))
-    return (
-        "Subject: Inquiry from watercolor artist GEGYjiji\n\n"
-        "Hello,\n\n"
-        "My name is GEGYjiji, a watercolor painter based in Tokyo.\n"
-        "I work with themes of urban landscapes, architecture, memory, and quiet everyday spaces.\n\n"
-        f"I am writing to enquire whether {org} might be open to discussing\n"
-        "exhibitions, consignment, or submissions.\n\n"
-        "Portfolio: [portfolio link]\n\n"
-        "Thank you,\n"
-        "GEGYjiji"
-    )
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Section data getters
-# ─────────────────────────────────────────────────────────────────────────────
-def get_immediate_best_moves():
-    items = [o for o in _opps() if o.get("exclusive_primary_bucket") == "immediate_best_moves"]
-    items.sort(key=best_score, reverse=True)
-    return items[:5]
-
-
-def get_open_calls():
-    items = [
-        o for o in _opps()
-        if _has_real_deadline(o)
-        and o.get("exclusive_primary_bucket") not in ("reject", "stretch_targets", "low_priority")
-    ]
-    items.sort(key=best_score, reverse=True)
-    return items[:5]
-
-
-def get_zines_and_print():
-    zine_cats = {
-        "zine_print", "bookstore_gallery", "bookstore_event",
-        "zine_shop_consignment", "zine_fair_booth",
-    }
-    items = [
-        o for o in _opps()
-        if (
-            o.get("exclusive_primary_bucket") == "publication_targets"
-            or o.get("category") in zine_cats
-        )
-        and o.get("exclusive_primary_bucket") != "reject"
-    ]
-    items.sort(key=best_score, reverse=True)
-    return items[:5]
-
-
-def get_relationship_targets():
-    items = [o for o in _opps() if o.get("exclusive_primary_bucket") == "relationship_builders"]
-    items.sort(key=best_score, reverse=True)
-    return items[:5]
-
-
-def get_watch_list():
-    items = [o for o in _opps() if o.get("exclusive_primary_bucket") == "stretch_targets"]
-    items.sort(key=best_score, reverse=True)
-    return items[:5]
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# CSS
-# ─────────────────────────────────────────────────────────────────────────────
-def inject_css():
-    # Hero background isolated — the 1.9 MB PNG becomes a 2.6 MB base64 blob.
-    # Keeping it in its own st.markdown() call prevents it from corrupting the
-    # HTML renderer when combined with other content.
-    hero_uri = image_data_uri("static/assets/headers/mochi_hero.png")
-    if hero_uri:
-        st.markdown(
-            f'<style>.hp-hero {{ background-image: url("{hero_uri}"); '
-            f'background-size: cover; background-position: center 18%; }}</style>',
-            unsafe_allow_html=True,
-        )
-
-    st.markdown("""
+st.markdown("""
 <style>
-/* ─ Page base ─────────────────────────────────────────────── */
 :root {
-  --paper:      #f7efe2;
-  --paper-soft: #fffaf2;
-  --ink:        #3f3027;
-  --ink-soft:   #6f5d4c;
-  --line:       #dcc19b;
-  --line-soft:  #ead8bd;
-  --gold:       #b87d3a;
+    --paper: #fbf4e8;
+    --ink: #49382c;
+    --muted: #7c6a55;
+    --gold: #c9a96b;
+    --leaf: #8fa77d;
+    --rose: #c98370;
 }
 
-.stApp { background-color: var(--paper); }
-.block-container { max-width: 1400px; padding-top: 1rem; padding-bottom: 3rem; }
-div[data-testid="stHeader"] { background: #0e1117 !important; }
-
-h1, h2, h3, h4, h5, h6 { color: var(--ink); font-family: Georgia, "Times New Roman", serif; }
-p, li { color: var(--ink-soft); }
-
-/* ─ Hero ───────────────────────────────────────────────────── */
-.hp-hero {
-  position: relative;
-  width: 100%;
-  min-height: 500px;
-  border-radius: 28px;
-  overflow: hidden;
-  margin-bottom: 24px;
-  border: 1px solid var(--line);
-  box-shadow: 0 14px 40px rgba(70,44,20,.13);
-  background: #f0e3cc;
+.stApp {
+    background: #fbf5ea;
 }
-
-.hp-panel {
-  position: absolute;
-  top: 28px; left: 28px;
-  width: 292px;
-  background: rgba(255, 249, 237, 0.91);
-  border: 1px solid rgba(220, 193, 155, 0.65);
-  border-radius: 20px;
-  padding: 20px 20px 16px 20px;
-  box-shadow: 0 8px 28px rgba(70,44,20,.11);
+.block-container {
+    padding-top: 1.4rem;
+    max-width: 1400px;
 }
-
-.hp-greeting {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.55rem; color: var(--ink);
-  font-weight: bold; line-height: 1.05; margin-bottom: 2px;
+.mochi-card {
+    background:
+        linear-gradient(#fffdf8, #fff9ef),
+        radial-gradient(circle at top left, rgba(190,130,98,.12), transparent 30%);
+    border: 1px solid #d9c19a;
+    border-radius: 22px;
+    padding: 16px;
+    min-height: 220px;
+    box-shadow:
+        0 8px 20px rgba(84, 57, 29, .10),
+        inset 0 0 0 1px rgba(255,255,255,.65);
+    position: relative;
 }
-.hp-sub {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.88rem; color: #7a6352;
-  font-style: italic; margin-bottom: 13px;
+.mochi-card-title {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: #4a372b;
+    line-height: 1.22;
 }
-.hp-focus-label {
-  font-size: 0.68rem; color: #9a8070;
-  text-transform: uppercase; letter-spacing: 0.08em;
-  font-weight: bold; margin-bottom: 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid rgba(220,193,155,0.5);
+.mochi-meta {
+    color: #7d6d5d;
+    font-size: .82rem;
 }
-.focus-row { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
-.focus-ico { font-size: 0.92rem; flex-shrink: 0; width: 18px; text-align: center; margin-top: 2px; }
-.focus-body { flex: 1; min-width: 0; }
-.focus-tier {
-  font-size: 0.67rem; color: #9a8070; font-weight: bold;
-  text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1px;
+.mochi-chip {
+    display: inline-block;
+    background: #efe2cb;
+    border: 1px solid #dfc7a7;
+    border-radius: 999px;
+    padding: 2px 8px;
+    margin-right: 5px;
+    font-size: .78rem;
+    color: #5f4e3f;
 }
-.focus-time { font-weight: normal; text-transform: none; letter-spacing: 0; }
-.focus-name {
-  font-size: 0.80rem; color: var(--ink); font-weight: 600;
-  line-height: 1.25; margin-bottom: 1px;
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+.section-img {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #e2ceb0;
+    margin: 20px 0 10px 0;
 }
-.focus-hint { font-size: 0.70rem; color: #7a6352; line-height: 1.3; }
-.focus-dl {
-  display: inline-block; margin-top: 3px;
-  font-size: 0.67rem; color: #8a5e3c;
-  background: #fcecd8; border-radius: 6px; padding: 1px 6px;
+.detail-box {
+    background:
+        linear-gradient(180deg, #fffdf8 0%, #fff7ea 100%);
+    border: 1px solid #d6bb91;
+    border-radius: 28px;
+    padding: 24px;
+    margin-top: 18px;
+    box-shadow: 0 12px 32px rgba(84, 57, 29, .13);
 }
-.focus-see-all {
-  display: block; margin-top: 10px;
-  font-size: 0.73rem; color: #9a8070; font-style: italic; text-align: right;
-}
-
-/* ─ Section headers ─────────────────────────────────────────── */
-.sec-header {
-  border-left: 4px solid var(--gold);
-  padding-left: 14px;
-  margin: 36px 0 10px 0;
-}
-.sec-header-title {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.1rem; color: var(--ink);
-  font-weight: bold; margin: 0 0 3px 0;
-}
-.sec-header-desc {
-  font-size: 0.81rem; color: var(--ink-soft);
-  font-style: italic; margin: 0;
-}
-
-/* ─ Opportunity cards ───────────────────────────────────────── */
-.opp-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 12px 14px;
-  background: var(--paper-soft);
-  border: 1px solid var(--line-soft);
-  border-radius: 14px;
-  margin-bottom: 2px;
-  box-shadow: 0 2px 8px rgba(70,44,20,.05);
-}
-.opp-title {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.95rem; color: var(--ink);
-  font-weight: bold; line-height: 1.2; margin-bottom: 3px;
-}
-.opp-oneliner { font-size: 0.77rem; color: var(--ink-soft); line-height: 1.35; }
-.opp-meta { font-size: 0.69rem; color: #9a8070; margin-top: 4px; }
-.score-pill {
-  font-size: 0.76rem; font-weight: bold;
-  border-radius: 8px; padding: 3px 9px;
-  white-space: nowrap; flex-shrink: 0;
-  margin-top: 2px;
-}
-
-.detail-label {
-  font-size: 0.70rem; text-transform: uppercase;
-  letter-spacing: 0.07em; color: #9a8070;
-  font-weight: bold; margin: 12px 0 4px 0;
-  border-bottom: 1px solid var(--line-soft);
-  padding-bottom: 3px;
-}
-
-/* ─ Section nav cards ───────────────────────────────────────── */
-.sc-row {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 14px;
-  margin: 36px 0 20px 0;
-}
-.sc-card {
-  background: var(--paper-soft);
-  border: 1px solid #e0ccaa; border-radius: 18px;
-  padding: 18px 14px 14px 14px;
-  box-shadow: 0 4px 14px rgba(70,44,20,.06);
-  display: flex; flex-direction: column; min-height: 136px;
-  transition: box-shadow 0.18s ease, transform 0.14s ease;
-}
-.sc-card:hover { box-shadow: 0 8px 24px rgba(70,44,20,.11); transform: translateY(-2px); }
-.sc-icon { font-size: 1.5rem; margin-bottom: 6px; }
-.sc-title {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.88rem; color: var(--ink); font-weight: bold; margin-bottom: 5px;
-}
-.sc-desc { font-size: 0.71rem; color: #7a6352; line-height: 1.38; flex: 1; }
-.sc-link { display: block; font-size: 0.71rem; color: #9a7d5e; margin-top: 9px; font-style: italic; }
-
-/* ─ Mochi status bar ────────────────────────────────────────── */
-.mochi-bar {
-  display: flex; align-items: center; gap: 14px;
-  background: rgba(255, 249, 237, 0.95);
-  border: 1px solid var(--line); border-radius: 18px;
-  padding: 13px 20px; margin: 28px 0 20px 0;
-  box-shadow: 0 3px 12px rgba(70,44,20,.07);
-}
-.mochi-bar-portrait { width: 44px; height: 44px; flex-shrink: 0; }
-.mochi-bar-portrait svg { width: 44px; height: 44px; }
-.mochi-bar-id { flex-shrink: 0; }
-.mochi-bar-name {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.95rem; color: var(--ink); font-weight: bold;
-}
-.mochi-bar-status { font-size: 0.70rem; color: #9a8070; margin-top: 2px; }
-.mochi-bar-msg { font-size: 0.82rem; color: #7a6352; font-style: italic; flex: 1; line-height: 1.4; }
-
-/* ─ Streamlit element overrides ─────────────────────────────── */
-.stButton > button {
-  background: var(--paper-soft) !important; color: var(--ink) !important;
-  border: 1px solid var(--line) !important; border-radius: 10px !important;
-  box-shadow: none !important; font-weight: 600 !important;
-}
-.stButton > button:hover { background: #f3e3ca !important; border-color: #caa978 !important; }
-.stLinkButton a {
-  background: var(--paper-soft) !important; color: var(--ink) !important;
-  border: 1px solid var(--line) !important; border-radius: 10px !important; font-weight: 600 !important;
-}
-textarea { background: #fffdf8 !important; color: var(--ink) !important; border-radius: 14px !important; }
-[data-testid="stExpander"] { background: var(--paper-soft) !important; border-color: var(--line-soft) !important; border-radius: 12px !important; }
 </style>
 """, unsafe_allow_html=True)
 
+hero = asset("assets/mochi/hero_cat.svg")
+if hero:
+    st.image(hero, use_container_width=True)
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Hero + Today's Focus
-# ─────────────────────────────────────────────────────────────────────────────
-def _focus_display_name(raw):
-    name = raw.split(" - ")[0].strip()
-    return (name[:50].rstrip() + "…") if len(name) > 52 else name
+st.markdown("## Today's Suggestions")
+
+top = sorted(
+    opps,
+    key=lambda x: -float(x.get("overall_score", 0) or 0)
+)[:3]
+
+top_cols = st.columns(3)
+for col, opp in zip(top_cols, top):
+    with col:
+        with st.container(border=True):
+            st.markdown(f"**{opp.get('title', 'Unknown')}**")
+            st.caption(f"{opp.get('overall_score', 0)} · {opp.get('city', '')}")
+            st.write(opp.get("one_sentence", "")[:160])
+            if st.button("Open", key=f"today_{opp.get('title')}"):
+                st.session_state["selected"] = opp
+
+st.markdown("---")
 
 
-def render_homepage_section():
-    hour = datetime.now().hour
-    if hour < 12:
-        greeting, sub = "Good morning", "let's make something today."
-    elif hour < 17:
-        greeting, sub = "Good afternoon", "let's grow today."
-    else:
-        greeting, sub = "Good evening", "let's reflect and plan."
+SECTION_MAP = {
+    "Print / Zines / Bookstores": {
+        "categories": ["zine_print", "bookstore_gallery", "bookstore_event"],
+        "image": "assets/mochi/zines.svg",
+    },
+    "Cafe / Local Wall Spaces": {
+        "categories": ["cafe_gallery"],
+        "image": "assets/mochi/cafe.svg",
+    },
+    "Markets / Popups / Booths": {
+        "categories": ["fair_popup", "market_event"],
+        "image": "assets/mochi/market.svg",
+    },
+    "Galleries": {
+        "categories": ["gallery", "artist_space", "event_space", "gallery_event"],
+        "image": "assets/mochi/gallery.svg",
+    },
+    "Residencies / Institutional": {
+        "categories": ["residency", "institutional"],
+        "image": "assets/mochi/residency.svg",
+    },
+}
 
-    focus_raw = load_json("memory/best_moves.json", {}).get("global_best_moves", [])[:3]
-    tier_meta = [
-        ("🔍", "Quick Win", "5 min"),
-        ("✉️", "High Impact", "30–60 min"),
-        ("🌱", "Stretch Goal", "longer term"),
+
+def score_dot(score):
+    try:
+        score = float(score)
+    except Exception:
+        return "○"
+    if score >= 7:
+        return "●"
+    if score >= 5:
+        return "◐"
+    return "○"
+
+
+def effort_label(raw):
+    d = str(raw).lower()
+    if "low" in d or "easy" in d:
+        return "Easy"
+    if "medium" in d or "moderate" in d:
+        return "Medium"
+    if "high" in d or "demand" in d:
+        return "Heavy"
+    return "Check"
+
+
+def readiness():
+    rows = [
+        ("Artist Statement", materials.get("artist_statements")),
+        ("Short Bio", materials.get("artist_bios")),
+        ("CV", materials.get("cv_versions")),
+        ("Portfolio Set", materials.get("portfolio_sets")),
+        ("Image Specs", materials.get("image_specs")),
+        ("Translations", materials.get("translations")),
+    ]
+    ready = sum(1 for _, v in rows if v)
+    return ready, len(rows), rows
+
+
+def email_drafts(organization):
+    zh = f"""您好，
+
+我想询问一下，{organization} 目前是否接受艺术家投稿、展览提案，或艺术书 / ZINE 相关的作品提案。
+
+我的创作主要关注建筑、场所、记忆，以及日常空间中的安静氛围。如果我的作品有可能适合贵方的项目或空间，我会很高兴进一步了解。
+
+作品集：
+[portfolio link]
+
+谢谢。
+
+[artist name]"""
+
+    en = f"""Hello,
+
+I am writing to ask whether {organization} is currently accepting artist submissions, exhibition proposals, or artist book/zine proposals.
+
+I am an artist working with atmospheric images of architecture, place, memory, and everyday spaces. I would be interested in learning whether my work might fit your programming.
+
+Portfolio:
+[portfolio link]
+
+Thank you,
+[artist name]"""
+
+    return zh, en
+
+
+def render_detail(opp):
+    st.markdown('<div class="detail-box">', unsafe_allow_html=True)
+
+    left, right = st.columns([1, 1.25])
+
+    with left:
+        st.markdown(f"### {opp.get('title', 'Unknown')}")
+        st.markdown(
+            f"""
+<span class="mochi-chip">Fit {opp.get('overall_score', 0)}</span>
+<span class="mochi-chip">{effort_label(opp.get('difficulty', ''))}</span>
+<span class="mochi-chip">{opp.get('city', '')}</span>
+""",
+            unsafe_allow_html=True
+        )
+
+        source = (
+            opp.get("source_link")
+            or opp.get("source_url")
+            or opp.get("official_website")
+        )
+
+        if source:
+            st.link_button("Open source", source)
+
+        st.markdown("#### Evidence")
+        st.write("**Deadline:**", opp.get("deadline", "Check source"))
+        st.write("**Fees:**", opp.get("fees", "Check source"))
+        st.write("**Organization:**", opp.get("organization", ""))
+
+        ready, total, rows = readiness()
+        st.markdown(f"#### Submission Readiness: {ready}/{total}")
+        for label, value in rows:
+            mark = "✅" if value else "⬜"
+            st.write(f"{mark} {label}")
+
+        st.markdown("#### Immediate Next Step")
+        st.info(opp.get("quick_action", "No action available."))
+
+    with right:
+        st.markdown("#### Why this might fit")
+        st.write(opp.get("why_this_fits_short", ""))
+
+        st.markdown("#### Key points")
+        for bullet in opp.get("three_bullets", []):
+            st.write(f"- {bullet}")
+
+        st.markdown("#### Drafts")
+        organization = opp.get("organization", opp.get("title", ""))
+        zh, en = email_drafts(organization)
+
+        tabs = st.tabs(["中文", "English", "Deep report"])
+        with tabs[0]:
+            st.text_area("Chinese draft", zh, height=210, key=f"zh_{opp.get('title')}")
+        with tabs[1]:
+            st.text_area("English draft", en, height=210, key=f"en_{opp.get('title')}")
+        with tabs[2]:
+            st.write("Deep report should load full council notes from opportunities_master.json in the next pass.")
+            st.json(opp)
+
+    if st.button("Close detail"):
+        st.session_state["selected"] = None
+        st.rerun()
+
+    st.markdown("</div>", unsafe_allow_html=True)
+
+
+for section, config in SECTION_MAP.items():
+    st.markdown(
+        f"""
+        <div style="
+            margin-top: 28px;
+            margin-bottom: 14px;
+            padding: 18px 22px;
+            border-radius: 24px;
+            border: 1px solid #d9bf96;
+            background:
+                radial-gradient(circle at 8% 18%, rgba(190,130,98,.20), transparent 18%),
+                radial-gradient(circle at 92% 24%, rgba(130,160,115,.20), transparent 16%),
+                linear-gradient(135deg, #fffaf0 0%, #f3e4ce 100%);
+            box-shadow: 0 8px 24px rgba(78, 55, 30, .10);
+            position: relative;
+        ">
+            <div style="
+                font-family: Georgia, serif;
+                font-size: 1.45rem;
+                font-weight: 700;
+                color: #4f3c2f;
+                letter-spacing: .01em;
+            ">{section}</div>
+            <div style="
+                margin-top: 4px;
+                color: #7b6a55;
+                font-size: .94rem;
+            ">Curated opportunities, source links, and ready-to-send drafts.</div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    section_opps = [
+        o for o in opps
+        if o.get("category") in config["categories"]
     ]
 
-    rows_html = ""
-    for i, item in enumerate(focus_raw):
-        icon, label, hint = tier_meta[i]
-        name = _html.escape(_focus_display_name(item.get("name", "")))
-        action = _html.escape(item.get("next_action", "")[:88].strip())
-        dl_raw = item.get("deadline", "").strip()
-        dl_html = (
-            f'<span class="focus-dl">&#x23F0; {_html.escape(dl_raw[:55])}</span>'
-            if dl_raw and len(dl_raw) < 70 else ""
-        )
-        rows_html += (
-            f'<div class="focus-row">'
-            f'<div class="focus-ico">{icon}</div>'
-            f'<div class="focus-body">'
-            f'<div class="focus-tier">{label} <span class="focus-time">&middot; {hint}</span></div>'
-            f'<div class="focus-name">{name}</div>'
-            f'<div class="focus-hint">{action}</div>'
-            f'{dl_html}'
-            f'</div></div>'
-        )
-
-    st.markdown(
-        f'<div class="hp-hero"><div class="hp-panel">'
-        f'<div class="hp-greeting">{_html.escape(greeting)}</div>'
-        f'<div class="hp-sub">{_html.escape(sub)}</div>'
-        f'<div class="hp-focus-label">Today\'s Focus</div>'
-        f'{rows_html}'
-        f'<span class="focus-see-all">See all &rarr;</span>'
-        f'</div></div>',
-        unsafe_allow_html=True,
+    section_opps = sorted(
+        section_opps,
+        key=lambda x: -float(x.get("overall_score", 0) or 0)
     )
 
+    if not section_opps:
+        continue
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Opportunity card
-# ─────────────────────────────────────────────────────────────────────────────
-def render_card(opp, key_prefix):
-    title = get_title(opp)
-    score = best_score(opp)
-    city = clean_val(opp.get("city"), "")
-    deadline = clean_val(opp.get("deadline"))
-    one_liner = clean_val(opp.get("one_sentence"), clean_val(opp.get("why_this_fits_short"), ""))
+    cols = st.columns(4)
 
-    # Score pill colour
-    pill_color = "#4a7c3a" if score >= 9 else ("#a07030" if score >= 7 else "#8a7060")
-
-    meta_parts = [city] if city else []
-    if deadline != "—":
-        meta_parts.append(f"DL: {deadline[:50]}")
-    meta_html = (
-        f'<div class="opp-meta">{_html.escape(" · ".join(meta_parts))}</div>'
-        if meta_parts else ""
-    )
-    oneliner_html = (
-        f'<div class="opp-oneliner">{_html.escape(one_liner[:115])}</div>'
-        if one_liner else ""
-    )
-
-    # Always-visible header
-    st.markdown(
-        f'<div class="opp-header">'
-        f'<div style="flex:1;min-width:0;">'
-        f'<div class="opp-title">{_html.escape(title)}</div>'
-        f'{oneliner_html}'
-        f'{meta_html}'
-        f'</div>'
-        f'<span class="score-pill" style="background:{pill_color};color:#fff;">{score:.1f}</span>'
-        f'</div>',
-        unsafe_allow_html=True,
-    )
-
-    # Expandable details
-    with st.expander("Details + email draft", expanded=False):
-        # Venue overview
-        venue = clean_val(opp.get("one_sentence"), clean_val(opp.get("relationship_note"), ""))
-        if venue:
-            st.markdown('<div class="detail-label">Venue</div>', unsafe_allow_html=True)
-            st.write(venue)
-
-        # Why it fits
-        fit = clean_val(opp.get("why_this_fits_short"), "")
-        if fit:
-            st.markdown('<div class="detail-label">Why it fits</div>', unsafe_allow_html=True)
-            st.write(fit)
-
-        # What they're looking for
-        bullets = [b for b in (opp.get("three_bullets") or []) if b]
-        if bullets:
-            st.markdown('<div class="detail-label">What they\'re looking for</div>', unsafe_allow_html=True)
-            for b in bullets:
-                st.markdown(f"- {b}")
-
-        # How to apply
-        st.markdown('<div class="detail-label">How to apply</div>', unsafe_allow_html=True)
-        col_dl, col_fee = st.columns(2)
-        col_dl.markdown(f"**Deadline:** {deadline}")
-        col_fee.markdown(f"**Fee:** {clean_val(opp.get('fees'))}")
-
-        action = clean_val(opp.get("quick_action"), "")
-        if action:
-            st.info(action)
-
-        url = opp.get("submission_page") or get_source(opp)
-        if url:
-            st.link_button("Visit →", url)
-
-        # Email drafts
-        st.markdown('<div class="detail-label">Sample email</div>', unsafe_allow_html=True)
-        tab_ja, tab_en = st.tabs(["日本語", "English"])
-        with tab_ja:
-            st.text_area(
-                "ja",
-                email_draft_ja(opp),
-                height=200,
-                key=f"{key_prefix}_ja",
-                label_visibility="collapsed",
+    for idx, opp in enumerate(section_opps[:4]):
+        with cols[idx]:
+            st.markdown('<div class="mochi-card">', unsafe_allow_html=True)
+            st.markdown(
+                f"<div class='mochi-card-title'>{score_dot(opp.get('overall_score'))} {opp.get('title', 'Unknown')}</div>",
+                unsafe_allow_html=True
             )
-        with tab_en:
-            st.text_area(
-                "en",
-                email_draft_en(opp),
-                height=200,
-                key=f"{key_prefix}_en",
-                label_visibility="collapsed",
+            st.markdown(
+                f"<div class='mochi-meta'>{opp.get('overall_score', 0)} · {effort_label(opp.get('difficulty'))} · {opp.get('city', '')}</div>",
+                unsafe_allow_html=True
             )
+            st.write(opp.get("one_sentence", "")[:150])
+            if st.button("More", key=f"more_{section}_{idx}_{opp.get('title')}"):
+                st.session_state["selected"] = opp
+                st.session_state["selected_section"] = section
+                st.rerun()
+            st.markdown("</div>", unsafe_allow_html=True)
 
+    if st.session_state.get("selected") and st.session_state.get("selected_section") == section:
+        render_detail(st.session_state["selected"])
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Opportunity sections
-# ─────────────────────────────────────────────────────────────────────────────
-def render_section(title, description, items, key_prefix):
-    st.markdown(
-        f'<div class="sec-header">'
-        f'<div class="sec-header-title">{_html.escape(title)}</div>'
-        f'<div class="sec-header-desc">{_html.escape(description)}</div>'
-        f'</div>',
-        unsafe_allow_html=True,
-    )
-    if not items:
-        st.caption("Nothing in this category yet.")
-        return
-    for i, opp in enumerate(items):
-        render_card(opp, f"{key_prefix}_{i}")
-
-
-SECTIONS = [
-    (
-        "Immediate Best Moves",
-        "Mochi ranked these first. High confidence, right career phase, and something actionable today.",
-        get_immediate_best_moves,
-        "imm",
-    ),
-    (
-        "Open Calls — by Deadline",
-        "Time-sensitive. These have known deadlines. A closed call with a perfect score is worthless.",
-        get_open_calls,
-        "open",
-    ),
-    (
-        "Zines and Print",
-        "Bookstores, zine shops, and publications. The most friction-free path to getting work into circulation.",
-        get_zines_and_print,
-        "zine",
-    ),
-    (
-        "Relationship Targets",
-        "Cafes, galleries, and spaces that suit a quiet personal introduction. No deadline pressure — just the right moment.",
-        get_relationship_targets,
-        "rel",
-    ),
-    (
-        "Watch List",
-        "Tier 3–4 targets — institutional, prestigious, not yet appropriate. Track them now. Do not apply yet.",
-        get_watch_list,
-        "watch",
-    ),
-]
-
-
-def render_opportunity_sections():
-    for title, description, getter, key_prefix in SECTIONS:
-        render_section(title, description, getter(), key_prefix)
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Section nav cards
-# ─────────────────────────────────────────────────────────────────────────────
-def render_section_cards():
-    st.markdown("""
-<div class="sc-row">
-  <div class="sc-card">
-    <div class="sc-icon">&#x1F3DB;</div>
-    <div class="sc-title">Opportunities</div>
-    <div class="sc-desc">All galleries, open calls, residencies, and more.</div>
-    <span class="sc-link">View all &rarr;</span>
-  </div>
-  <div class="sc-card">
-    <div class="sc-icon">&#x1F33F;</div>
-    <div class="sc-title">Suggested Peers</div>
-    <div class="sc-desc">Artists to follow, connect with, and learn from.</div>
-    <span class="sc-link">Explore &rarr;</span>
-  </div>
-  <div class="sc-card">
-    <div class="sc-icon">&#x2709;&#xFE0F;</div>
-    <div class="sc-title">Outreach</div>
-    <div class="sc-desc">Track conversations and manage your outreach.</div>
-    <span class="sc-link">Open &rarr;</span>
-  </div>
-  <div class="sc-card">
-    <div class="sc-icon">&#x1F4CB;</div>
-    <div class="sc-title">Quests</div>
-    <div class="sc-desc">Daily and weekly goals to keep your practice moving.</div>
-    <span class="sc-link">See quests &rarr;</span>
-  </div>
-  <div class="sc-card">
-    <div class="sc-icon">&#x1F4D3;</div>
-    <div class="sc-title">Journal</div>
-    <div class="sc-desc">Capture ideas, reflections, and inspiration.</div>
-    <span class="sc-link">Open &rarr;</span>
-  </div>
-  <div class="sc-card">
-    <div class="sc-icon">&#x1F4CA;</div>
-    <div class="sc-title">Analytics</div>
-    <div class="sc-desc">See your progress and patterns over time.</div>
-    <span class="sc-link">View &rarr;</span>
-  </div>
-</div>
-""", unsafe_allow_html=True)
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Mochi status bar
-# ─────────────────────────────────────────────────────────────────────────────
-def render_mochi_status_bar():
-    cat_html = ""
-    svg_path = "static/assets/mochi/hero_cat.svg"
-    if os.path.exists(svg_path):
-        with open(svg_path, "r", encoding="utf-8") as f:
-            cat_html = f'<div class="mochi-bar-portrait">{f.read()}</div>'
-
-    st.markdown(
-        f'<div class="mochi-bar">'
-        f'{cat_html}'
-        f'<div class="mochi-bar-id">'
-        f'<div class="mochi-bar-name">Mochi &#x2665;</div>'
-        f'<div class="mochi-bar-status">Happy &middot; Full &middot; Content</div>'
-        f'</div>'
-        f'<div class="mochi-bar-msg">'
-        f'Mochi has been watching the light change all afternoon.<br>'
-        f'She found five things worth your attention today.'
-        f'</div>'
-        f'</div>',
-        unsafe_allow_html=True,
-    )
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Main
-# ─────────────────────────────────────────────────────────────────────────────
-inject_css()
-render_homepage_section()
-render_opportunity_sections()
-render_section_cards()
-render_mochi_status_bar()
+    with st.expander(f"More {section}"):
+        extra_cols = st.columns(4)
+        for idx, opp in enumerate(section_opps[4:8]):
+            with extra_cols[idx]:
+                st.write(f"**{opp.get('title')}**")
+                st.caption(f"{opp.get('overall_score')} · {effort_label(opp.get('difficulty'))}")
+                if st.button("Open", key=f"extra_{section}_{idx}_{opp.get('title')}"):
+                    st.session_state["selected"] = opp
+                    st.session_state["selected_section"] = section
+                    st.rerun()

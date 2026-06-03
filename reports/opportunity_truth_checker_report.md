@@ -9,7 +9,7 @@ This report caps scores when the explanation contradicts the ranking.
 - capped_negative_explanation: 32
 - capped_wrong_medium: 1
 - hidden: 8
-- ok: 129
+- ok: 236
 - reject: 7
 
 ## Score Caps Applied
@@ -85,9 +85,9 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: unclear
 - **PhotoVogue** — 8.77 → 5.8 — capped_wrong_medium
   - photography-only risk: photovogue
-- **Cafe Gallery HATTIFNATT** — 8.72 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
 - **BONUS TRACK** — 8.72 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **Cafe Gallery HATTIFNATT** — 8.72 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Tokyo Arts and Space** — 8.71 → 6.4 — capped_negative_explanation
   - negative explanation: unclear, requires significant investigative work

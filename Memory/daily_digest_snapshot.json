@@ -1,30 +1,38 @@
 {
-  "date": "2026-06-03",
+  "date": "2026-06-04",
   "ibm_names": [
     "BOOOOOOOM 2026 Art & Photo Book Award",
+    "DER GREIF",
     "ZINEフェス東京 (ZINE Fest Tokyo)",
     "CSPWC Annual Open Water International Exhibition",
     "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-    "MOUNT ZINE",
     "Tokyo Art Book Fair",
-    "Shimokitazawa Arts",
+    "MOUNT ZINE",
+    "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
+    "水彩アートの祭典 (Watercolor Art Festival)",
     "UTRECHT",
+    "Book and Sons",
+    "Shimokitazawa Arts",
     "B&B Shimokitazawa",
     "flotsam books",
-    "Book and Sons"
+    "TOKIO ART BOOK FAIR 2026"
   ],
   "ibm_scores": {
     "BOOOOOOOM 2026 Art & Photo Book Award": 8.8,
-    "ZINEフェス東京 (ZINE Fest Tokyo)": 8.8,
-    "CSPWC Annual Open Water International Exhibition": 9.4,
-    "Northwest Watercolor Society 2026 Annual International Open Exhibition": 8.8,
+    "DER GREIF": 7.9,
+    "ZINEフェス東京 (ZINE Fest Tokyo)": 9.2,
+    "CSPWC Annual Open Water International Exhibition": 9.6,
+    "Northwest Watercolor Society 2026 Annual International Open Exhibition": 9.2,
+    "Tokyo Art Book Fair": 9.2,
     "MOUNT ZINE": 9.2,
-    "Tokyo Art Book Fair": 8.6,
-    "Shimokitazawa Arts": 8.2,
-    "UTRECHT": 7.6,
-    "B&B Shimokitazawa": 7.6,
-    "flotsam books": 7.6,
-    "Book and Sons": 7.6
+    "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)": 8.6,
+    "水彩アートの祭典 (Watercolor Art Festival)": 8.6,
+    "UTRECHT": 8.2,
+    "Book and Sons": 8.2,
+    "Shimokitazawa Arts": 7.6,
+    "B&B Shimokitazawa": 7.1,
+    "flotsam books": 7.1,
+    "TOKIO ART BOOK FAIR 2026": 6.6
   },
-  "opportunity_count": 179
+  "opportunity_count": 286
 }

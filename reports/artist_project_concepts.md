@@ -39,14 +39,14 @@ A quiet photographic sequence about ordinary neighborhoods, lived-in architectur
 - **MACK** — stretch — Major photobook publisher; probably not immediate, but useful as a long-horizon benchmark.
 
 ### Current Opportunity Targets
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — 9.4 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **Tokyo Art Book Fair** — 8.8 / 10.79. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 8.8 / 10.79. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **MOUNT ZINE** — 9.4 / 10.71. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — 8.8 / 10.64. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
-- **Tokyo Art Book Fair** — 8.6 / 10.59. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 8.6 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **B&B Shimokitazawa** — 8.6 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-- **Submissions — Clavis Publishing** — 8.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- **Fukuoka Art Book Fair** — 8.6 / 10.34. Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+- **Aperture | Photography** — 8.6 / 10.38. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
+- **submissions — porkbelly press** — 8.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -79,14 +79,14 @@ A focused body of work about indirect human presence: fences, laundry, paths, wi
 - **Printed Matter** — high — Artist book and printed matter ecosystem; strong fit if her work becomes book/zine oriented.
 
 ### Current Opportunity Targets
-- **Tokyo Art Book Fair** — 8.6 / 10.59. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- **Tokyo Art Book Fair** — 8.8 / 10.79. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 8.6 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- **Aperture | Photography** — 8.6 / 10.13. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
+- **Aperture | Photography** — 8.6 / 10.38. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - **Offprint** — 8.6 / 10.04. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
+- **Center for Book Arts Opportunities** — 8.6 / 10.03. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
 - **Tacoche** — 8.6 / 9.98. Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.
-- **Center for Book Arts Opportunities** — 8.6 / 9.91. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
-- **Self Publish, Be Happy** — 8.0 / 9.7. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
-- **Printed Matter Art Book Fairs** — 8.0 / 9.47. Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
+- **Self Publish, Be Happy** — 8.0 / 9.81. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
+- **OPA Gallery** — 8.4 / 9.6. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -121,14 +121,14 @@ A compact, low-pressure zine built from a walk through a neighborhood, edited as
 - **Self Publish, Be Happy** — high — Strong match for independent photobook and zine culture.
 
 ### Current Opportunity Targets
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — 9.4 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- **Tokyo Art Book Fair** — 8.8 / 10.79. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 8.8 / 10.79. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **MOUNT ZINE** — 9.4 / 10.71. Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
-- **ZINEフェス東京 (ZINE Fest Tokyo)** — 8.8 / 10.64. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
-- **Tokyo Art Book Fair** — 8.6 / 10.59. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 8.6 / 10.59. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **B&B Shimokitazawa** — 8.6 / 10.59. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-- **flotsam books** — 8.6 / 10.59. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
-- **Submissions — Clavis Publishing** — 8.6 / 10.38. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **flotsam books** — 8.5 / 10.49. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- **Aperture | Photography** — 8.6 / 10.38. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -163,14 +163,14 @@ A portfolio sequence centered on vernacular architecture, domestic structures, s
 - **T&M Projects** — medium-high — Japanese photobook publisher; useful ecosystem reference for publication-oriented photography.
 
 ### Current Opportunity Targets
-- **Tokyo Art Book Fair** — 8.6 / 10.59. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- **Tokyo Art Book Fair** — 8.8 / 10.79. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- **Aperture | Photography** — 8.6 / 10.38. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 8.6 / 10.22. Possible fit based on link text: zine, open call
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — 8.6 / 10.22. Possible fit based on link text: zine, open call, residency
-- **Aperture | Photography** — 8.6 / 10.13. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - **Browse opportunities | CuratorSpace** — 8.6 / 10.13. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Top Artist Opportunities for 2026 | ArtConnect** — 8.6 / 9.98. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
-- **DER GREIF** — 8.6 / 9.68. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
-- **BankART1929** — 8.6 / 9.46. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
+- **DER GREIF** — 8.6 / 9.8. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+- **Home - Printed Matter** — 8.0 / 9.52. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.

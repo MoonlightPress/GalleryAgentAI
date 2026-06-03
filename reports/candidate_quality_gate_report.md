@@ -1,7 +1,7 @@
 # Candidate Quality Gate Report
 
-Approved: 4
-Rejected: 135
+Approved: 6
+Rejected: 132
 
 ## Rejected
 
@@ -27,7 +27,7 @@ Rejected: 135
 - Daniel Shepard Straffon All Lover the Place: Thailand [Poster] Posters $70.00 Recent Arriv — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Sticker Pack Ephemera $18.00 Recent Arrival — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Chicago [Poster] Posters $70.00 Recent Arriva — strong: printed matter, weak: book, score too low: 1
-- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: exhibition, gallery, photography, score too low: 3
+- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: photography, gallery, exhibition, score too low: 3
 - See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
 - Skip to main content — generic page without opportunity language
@@ -91,28 +91,25 @@ Rejected: 135
 - View Detail Page — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
 - Magazine — strong: open call, zine, score too low: 2
-- Residency — strong: open call, residency, score too low: 2
-- bipoc artist residency program — strong: open call, residency, weak: artist, score too low: 3
-- call for proposals for solo exhibitions — strong: call for, open call, weak: exhibition, gallery, score too low: 4
+- call for proposals for solo exhibitions — strong: open call, call for, weak: gallery, exhibition, score too low: 4
 - Open Call — strong: open call, has submission link, score too low: 3
-- summer exhibition 2026 — strong: open call, weak: exhibition, gallery, score too low: 2
 - oceania pacific arts residency — strong: open call, residency, score too low: 2
+- Residency — strong: open call, residency, score too low: 2
 - urban arts residency in mexico — strong: open call, residency, score too low: 2
-- transitional art project: indoor photography exhibition — strong: open call, weak: exhibition, gallery, photography, score too low: 3
+- transitional art project: indoor photography exhibition — strong: open call, weak: photography, gallery, exhibition, score too low: 3
 - Open Calls — strong: open call, has submission link, score too low: 3
 - www.curatorspace.com — generic page without opportunity language
 - Report this? — generic page without opportunity language
-- www.curatorspace.com — weak: exhibition, gallery, has submission link, score too low: 3
-- Report this? — weak: exhibition, gallery, has submission link, score too low: 3
-- www.curatorspace.com — weak: exhibition, gallery, has submission link, score too low: 3
-- Report this? — weak: exhibition, gallery, has submission link, score too low: 3
-- www.curatorspace.com — weak: exhibition, gallery, photography, has submission link, score too low: 4
-- Report this? — weak: exhibition, gallery, photography, has submission link, score too low: 4
+- www.curatorspace.com — weak: gallery, exhibition, has submission link, score too low: 3
+- Report this? — weak: gallery, exhibition, has submission link, score too low: 3
+- www.curatorspace.com — weak: gallery, exhibition, has submission link, score too low: 3
+- Report this? — weak: gallery, exhibition, has submission link, score too low: 3
+- www.curatorspace.com — weak: photography, gallery, exhibition, has submission link, score too low: 4
+- Report this? — weak: photography, gallery, exhibition, has submission link, score too low: 4
 - www.curatorspace.com — generic page without opportunity language
 - Report this? — generic page without opportunity language
-- www.curatorspace.com — weak: exhibition, gallery, has submission link, score too low: 3
-- Report this? — weak: exhibition, gallery, has submission link, score too low: 3
-- The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport — generic page without opportunity language
+- www.curatorspace.com — weak: gallery, exhibition, has submission link, score too low: 3
+- Report this? — weak: gallery, exhibition, has submission link, score too low: 3
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -143,7 +140,9 @@ Rejected: 135
 
 ## Approved
 
-- Home - Printed Matter — strong: photobook, zine, book fair, printed matter, weak: exhibition, book
-- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, zine, submission, residency, weak: artist, exhibition, gallery
+- Home - Printed Matter — strong: photobook, zine, book fair, printed matter, weak: book, exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, submission, zine, residency, weak: artist, gallery, exhibition
 - Browse opportunities | CuratorSpace — strong: open call, submission, weak: exhibition
-- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — strong: call for, open call, weak: artist, has submission link
+- Art Submissions — strong: open call, submission, has submission link
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — strong: open call, call for, weak: artist, has submission link
+- Callback Open Call G George invites you to submit to Callback, a series of contemporary ar — strong: submit, open call, has submission link

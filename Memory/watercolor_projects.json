@@ -24,14 +24,6 @@
         "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
       },
       {
-        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
-        "score": 10,
-        "hits": [
-          "painting"
-        ],
-        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 10,
         "hits": [
@@ -40,22 +32,20 @@
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
       },
       {
+        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+        "score": 10,
+        "hits": [
+          "painting"
+        ],
+        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
+      },
+      {
         "title": "HATTIFNATT Koenji Cafe Gallery",
         "score": 10,
         "hits": [
           "gallery"
         ],
         "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category."
-      },
-      {
-        "title": "Browse opportunities | CuratorSpace",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "works on paper",
-          "painting"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
       },
       {
         "title": "Royal Watercolour Society Open Exhibition",
@@ -67,14 +57,23 @@
         "why": "Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone."
       },
       {
-        "title": "HB Gallery",
+        "title": "American Illustration",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "works on paper"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Browse opportunities | CuratorSpace",
         "score": 10,
         "hits": [
           "watercolor",
           "works on paper",
-          "gallery"
+          "painting"
         ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
       },
       {
         "title": "OPA Gallery",
@@ -114,16 +113,6 @@
         "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
       },
       {
-        "title": "Browse opportunities | CuratorSpace",
-        "score": 10,
-        "hits": [
-          "works on paper",
-          "painting",
-          "open exhibition"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
-      },
-      {
         "title": "Royal Watercolour Society Open Exhibition",
         "score": 10,
         "hits": [
@@ -133,12 +122,22 @@
         "why": "Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone."
       },
       {
-        "title": "HB Gallery",
+        "title": "American Illustration",
         "score": 10,
         "hits": [
           "works on paper"
         ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Browse opportunities | CuratorSpace",
+        "score": 10,
+        "hits": [
+          "works on paper",
+          "painting",
+          "open exhibition"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
       },
       {
         "title": "OPA Gallery",
@@ -157,7 +156,7 @@
         "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
-        "title": "Gallery IYN",
+        "title": "World Illustration Awards",
         "score": 10,
         "hits": [
           "works on paper"
@@ -165,7 +164,7 @@
         "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "Tokyo Illustrators Society",
+        "title": "3x3 International Illustration Awards",
         "score": 10,
         "hits": [
           "works on paper"
@@ -199,20 +198,20 @@
         "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
       },
       {
-        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
-        "score": 10,
-        "hits": [
-          "painting"
-        ],
-        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 10,
         "hits": [
           "watercolor"
         ],
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+        "score": 10,
+        "hits": [
+          "painting"
+        ],
+        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
       },
       {
         "title": "HATTIFNATT Koenji Cafe Gallery",
@@ -224,15 +223,6 @@
         "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category."
       },
       {
-        "title": "Browse opportunities | CuratorSpace",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "painting"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
-      },
-      {
         "title": "Royal Watercolour Society Open Exhibition",
         "score": 10,
         "hits": [
@@ -241,13 +231,21 @@
         "why": "Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone."
       },
       {
-        "title": "HB Gallery",
+        "title": "American Illustration",
         "score": 10,
         "hits": [
-          "gallery",
           "watercolor"
         ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Browse opportunities | CuratorSpace",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "painting"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
       },
       {
         "title": "OPA Gallery",
@@ -285,15 +283,6 @@
         "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
       },
       {
-        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
-        "score": 10,
-        "hits": [
-          "zine",
-          "illustration"
-        ],
-        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 10,
         "hits": [
@@ -304,14 +293,13 @@
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
       },
       {
-        "title": "Browse opportunities | CuratorSpace",
+        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
         "score": 10,
         "hits": [
-          "artist book",
           "zine",
-          "watercolor"
+          "illustration"
         ],
-        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
+        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
       },
       {
         "title": "Royal Watercolour Society Open Exhibition",
@@ -323,14 +311,24 @@
         "why": "Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone."
       },
       {
-        "title": "HB Gallery",
+        "title": "American Illustration",
         "score": 10,
         "hits": [
           "artist book",
           "illustration",
           "watercolor"
         ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Browse opportunities | CuratorSpace",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "zine",
+          "watercolor"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
       },
       {
         "title": "OPA Gallery",

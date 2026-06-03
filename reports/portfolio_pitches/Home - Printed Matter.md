@@ -7,10 +7,10 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Potential fit based on source context and keyword overlap: photobook, zine, printed matter, photography, book fair, exhibition, memory, architecture
+Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
 
 ## Match Signals
-photobook, zine, printed matter, book fair
+artist book, photobook, zine, printed matter, book fair, paper
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

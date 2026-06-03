@@ -1,36 +1,38 @@
 # Pipeline Debug Summary
 
-- opportunities: 179
-- candidates: 139
-- approved_candidates: 4
-- rejected_candidates: 135
+- opportunities: 286
+- candidates: 138
+- approved_candidates: 6
+- rejected_candidates: 132
 - strategy_feed: 7
-- fit_audit: 179
+- fit_audit: 286
 
 ## Top 15 Opportunities
 
+- ZINEフェス東京 (ZINE Fest Tokyo) — 9.2/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.2)
+- Tokyo Art Book Fair — 9.2/10 — partial — ok — Rescored 8.8 → 9.2 (verification_points=5, composite=10.08)
 - Women United ART MAGAZINE Issue XIV Summer 2026 — 8.8/10 — partial — ok — 
-- MOUNT ZINE — 9.2/10 — verified — ok — Capped at 9.2 due to verification strength.
-- ZINEフェス東京 (ZINE Fest Tokyo) — 8.8/10 — partial — ok — 
-- Tokyo Art Book Fair — 8.6/10 — partial — ok — 
-- UTRECHT — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- B&B Shimokitazawa — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- flotsam books — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- Submissions — Clavis Publishing — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- Fukuoka Art Book Fair — 8.2/10 — partial — ok — Capped at 8.2 due to verification strength.
-- Zine & Book フェス in 神保町 (Jimbocho) — 8.2/10 — partial — ok — Capped at 8.2 due to verification strength.
+- MOUNT ZINE — 9.2/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=9.98)
+- UTRECHT — 8.2/10 — partial — ok — Rescored 8.6 → 8.2 (verification_points=3, composite=10.0)
+- B&B Shimokitazawa — 7.1/10 — partial — ok — Rescored 8.6 → 7.1 (verification_points=3, composite=8.26)
+- flotsam books — 7.1/10 — partial — ok — Rescored 8.5 → 7.1 (verification_points=3, composite=8.22)
+- Aperture | Photography — 8.7/10 — partial — ok — Rescored 8.6 → 8.7 (verification_points=4, composite=9.39)
+- submissions — porkbelly press — 8.6/10 — partial — ok — Rescored 7.6 → 8.5 (verification_points=4, composite=9.15)
+- Submissions — Clavis Publishing — 7.4/10 — partial — ok — Rescored 8.6 → 7.4 (verification_points=2, composite=9.25)
 - BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — partial — ok — 
-- CSPWC Annual Open Water International Exhibition — 9.4/10 — partial — ok — 
-- National Watercolor Society International Open Exhibition — 9.4/10 — partial — ok — 
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
-- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — 7.6/10 — partial — ok — Capped at 7.6 due to verification strength.
+- CSPWC Annual Open Water International Exhibition — 9.6/10 — partial — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=10.06)
+- Northwest Watercolor Society 2026 Annual International Open Exhibition — 9.2/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=9.94)
+- » 21 Terrific Small Presses Open to Direct Submissions — 8.2/10 — partial — ok — Rescored 8.6 → 8.2 (verification_points=3, composite=9.8)
+- SUBMISSIONS - marblepress.com — 7.9/10 — partial — ok — Rescored 8.6 → 7.9 (verification_points=3, composite=9.2)
 
 ## Approved Candidate Sample
 
-- Home - Printed Matter — 8.5 — approved — strong: photobook, zine, book fair, printed matter, weak: exhibition, book
-- Top Artist Opportunities for 2026 | ArtConnect — 7.65 — approved — strong: open call, zine, submission, residency, weak: artist, exhibition, gallery
+- Home - Printed Matter — 8.5 — approved — strong: photobook, zine, book fair, printed matter, weak: book, exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — 7.65 — approved — strong: open call, submission, zine, residency, weak: artist, gallery, exhibition
 - Browse opportunities | CuratorSpace — 7.2 — approved — strong: open call, submission, weak: exhibition
-- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — 4.7 — approved — strong: call for, open call, weak: artist, has submission link
+- Art Submissions — 4.7 — approved — strong: open call, submission, has submission link
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — 4.7 — approved — strong: open call, call for, weak: artist, has submission link
+- Callback Open Call G George invites you to submit to Callback, a series of contemporary ar — 4.7 — approved — strong: submit, open call, has submission link
 
 ## Rejected Candidate Sample
 

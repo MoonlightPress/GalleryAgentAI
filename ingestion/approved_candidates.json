@@ -48,7 +48,7 @@
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
       "strong: photobook, zine, book fair, printed matter",
-      "weak: exhibition, book"
+      "weak: book, exhibition"
     ]
   },
   {
@@ -95,8 +95,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: open call, zine, submission, residency",
-      "weak: artist, exhibition, gallery"
+      "strong: open call, submission, zine, residency",
+      "weak: artist, gallery, exhibition"
     ]
   },
   {
@@ -147,6 +147,47 @@
     ]
   },
   {
+    "title": "Art Submissions",
+    "organization": "ArtConnect Open Calls",
+    "category": "open_call_index",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunities/art-submissions",
+    "official_website": "https://www.artconnect.com/opportunities/art-submissions",
+    "submission_page": "https://www.artconnect.com/opportunities/art-submissions",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: submission",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: submission"
+    ],
+    "fit_keyword_hits": [
+      "submission"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: open call, submission",
+      "has submission link"
+    ]
+  },
+  {
     "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
     "organization": "CuratorSpace",
     "category": "photo_open_call",
@@ -183,8 +224,49 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: call for, open call",
+      "strong: open call, call for",
       "weak: artist",
+      "has submission link"
+    ]
+  },
+  {
+    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "organization": "CuratorSpace",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: open call",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: open call"
+    ],
+    "fit_keyword_hits": [
+      "open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: submit, open call",
       "has submission link"
     ]
   }

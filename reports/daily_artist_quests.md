@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research Society of Women Artists submission process.
-- Research Royal Watercolour Society Open Exhibition submission process.
 - Research AAA Gallery Yokohama submission process.
-- Research Bologna Children's Book Fair Illustrators Exhibition submission process.
-- Research Printed Matter Art Book Fairs submission process.
-- Compare Home - Printed Matter to similar institutions.
-- Compare Gallery IRO to similar institutions.
-- Compare Aperture | Photography to similar institutions.
+- Research Northwest Watercolor Society 2026 Annual International Open Exhibition submission process.
+- Research American Illustration submission process.
+- Research Aperture | Photography submission process.
+- Research OPA Gallery submission process.
+- Compare World Illustration Awards to similar institutions.
+- Compare Bologna Children's Book Fair Illustrators Exhibition to similar institutions.
+- Compare Browse opportunities | CuratorSpace to similar institutions.

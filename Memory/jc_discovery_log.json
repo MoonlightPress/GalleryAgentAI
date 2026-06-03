@@ -1,0 +1,182 @@
+{
+  "queries": {
+    "jp_twitter_koubo_watercolor": {
+      "last_run": "2026-06-03T10:55:50.006077",
+      "found": 5,
+      "added": 5
+    },
+    "jp_twitter_gallery_koubo": {
+      "last_run": "2026-06-03T10:56:00.829424",
+      "found": 6,
+      "added": 6
+    },
+    "jp_twitter_artist_recruit": {
+      "last_run": "2026-06-03T10:56:09.948564",
+      "found": 4,
+      "added": 4
+    },
+    "jp_note_koubo_artist": {
+      "last_run": "2026-06-03T10:56:18.624085",
+      "found": 3,
+      "added": 3
+    },
+    "jp_note_gallery_open": {
+      "last_run": "2026-06-03T10:56:34.512381",
+      "found": 10,
+      "added": 10
+    },
+    "jp_bijutsutecho_koubo": {
+      "last_run": "2026-06-03T10:56:41.823291",
+      "found": 2,
+      "added": 1
+    },
+    "jp_bijutsutecho_open_call": {
+      "last_run": "2026-06-03T10:56:52.592675",
+      "found": 4,
+      "added": 4
+    },
+    "jp_tokyo_gallery_watercolor": {
+      "last_run": "2026-06-03T10:57:07.990518",
+      "found": 8,
+      "added": 8
+    },
+    "jp_watercolor_open_call": {
+      "last_run": "2026-06-03T10:57:21.708477",
+      "found": 5,
+      "added": 4
+    },
+    "jp_illustration_open_call": {
+      "last_run": "2026-06-03T10:57:38.514653",
+      "found": 10,
+      "added": 9
+    },
+    "jp_zine_fair_artist": {
+      "last_run": "2026-06-03T10:57:45.963300",
+      "found": 2,
+      "added": 2
+    },
+    "jp_cafe_gallery_recruit": {
+      "last_run": "2026-06-03T10:57:58.148904",
+      "found": 5,
+      "added": 5
+    },
+    "cn_weibo_zhengao_watercolor": {
+      "last_run": "2026-06-03T10:58:02.400756",
+      "found": 0
+    },
+    "cn_weibo_exhibition_open": {
+      "last_run": "2026-06-03T10:58:07.481121",
+      "found": 0
+    },
+    "cn_weibo_illustration_call": {
+      "last_run": "2026-06-03T10:58:12.757233",
+      "found": 0,
+      "added": 0
+    },
+    "cn_lofter_watercolor": {
+      "last_run": "2026-06-03T10:58:16.964708",
+      "found": 0
+    },
+    "cn_lofter_art_recruit": {
+      "last_run": "2026-06-03T10:58:21.298377",
+      "found": 0
+    },
+    "cn_zcool_illustration_call": {
+      "last_run": "2026-06-03T10:58:26.757960",
+      "found": 0,
+      "added": 0
+    },
+    "cn_zcool_open_call": {
+      "last_run": "2026-06-03T10:58:31.959221",
+      "found": 0,
+      "added": 0
+    },
+    "cn_broad_watercolor_exhibition": {
+      "last_run": "2026-06-03T10:58:52.071507",
+      "found": 0,
+      "added": 0
+    },
+    "cn_illustration_magazine_call": {
+      "last_run": "2026-06-03T10:59:06.141505",
+      "found": 6,
+      "added": 6
+    },
+    "cn_art_competition": {
+      "last_run": "2026-06-03T10:59:18.666549",
+      "found": 7,
+      "added": 7
+    },
+    "diaspora_tokyo_chinese_art": {
+      "last_run": "2026-06-03T10:59:30.272276",
+      "found": 6,
+      "added": 6
+    },
+    "diaspora_tokyo_chinese_gallery": {
+      "last_run": "2026-06-03T10:59:38.668928",
+      "found": 4,
+      "added": 4
+    },
+    "diaspora_tokyo_illustration": {
+      "last_run": "2026-06-03T10:59:48.815978",
+      "found": 3,
+      "added": 3
+    },
+    "diaspora_sg_art_call": {
+      "last_run": "2026-06-03T10:59:57.380115",
+      "found": 3,
+      "added": 3
+    },
+    "diaspora_sg_chinese": {
+      "last_run": "2026-06-03T11:00:06.410359",
+      "found": 2,
+      "added": 2
+    },
+    "diaspora_van_open_call": {
+      "last_run": "2026-06-03T11:00:16.048375",
+      "found": 4,
+      "added": 4
+    },
+    "diaspora_van_chinese": {
+      "last_run": "2026-06-03T11:00:25.093937",
+      "found": 2,
+      "added": 2
+    },
+    "diaspora_tor_open_call": {
+      "last_run": "2026-06-03T11:00:32.862593",
+      "found": 2,
+      "added": 2
+    },
+    "diaspora_tor_chinese": {
+      "last_run": "2026-06-03T11:00:45.176006",
+      "found": 6,
+      "added": 6
+    }
+  },
+  "runs": [
+    {
+      "run_at": "2026-06-03T11:00:45.189311",
+      "queries_run": 31,
+      "new_opps": 106,
+      "quota_hit": false,
+      "group_breakdown": {
+        "JP": 61,
+        "CN": 13,
+        "DIASPORA": 32
+      }
+    },
+    {
+      "run_at": "2026-06-04T01:02:49.010319",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-04T01:09:28.185894",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
+    }
+  ]
+}

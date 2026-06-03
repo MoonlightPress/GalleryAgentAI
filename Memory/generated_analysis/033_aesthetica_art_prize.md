@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-04
 
 # Aesthetica Art Prize
 
@@ -11,11 +11,11 @@ REPORT GENERATED: 2026-06-01
 **City:** York / Online  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
 
 - **Official/source website**: https://aestheticamagazine.com/art-prize/ (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2026-10-11 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -36,7 +36,7 @@ Open to watercolor and works on paper, internationally recognized, and has a tra
 - Fee/value ratio and past winners should be checked before submitting.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** 2026-10-11
 - **Fees:** Not publicly listed
 - **Submission page:** Not publicly listed
 - **Source:** https://aestheticamagazine.com/art-prize/
@@ -50,5 +50,5 @@ Check current open call, entry fees, accepted categories, and whether works on p
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_
 

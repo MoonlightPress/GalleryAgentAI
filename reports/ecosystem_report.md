@@ -120,21 +120,22 @@ Major photobook publisher; probably not immediate, but useful as a long-horizon 
 ### Japan Photobook / Artist Book
 This is the strongest immediate ecosystem for her visual language: quiet photography, sequences, books, zines, and small-scale cultural visibility.
 
+- **Tokyo Art Book Fair** — score 8.8, differentiated 10.79; matched: TOKYO ART BOOK FAIR
 - **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
-- **Tokyo Art Book Fair** — score 8.6, differentiated 10.59; matched: TOKYO ART BOOK FAIR
 - **UTRECHT** — score 8.6, differentiated 10.59; matched: UTRECHT
-- **flotsam books** — score 8.6, differentiated 10.59; matched: flotsam books
-- **POST** — score 8.0, differentiated 9.09; matched: POST
-- **shashasha** — score 6.5, differentiated 7.34; matched: Shashasha
+- **flotsam books** — score 8.5, differentiated 10.49; matched: flotsam books
+- **POST** — score 8.0, differentiated 9.21; matched: POST
+- **TOKIO ART BOOK FAIR 2026** — score 7.1, differentiated 8.48; matched: TOKYO ART BOOK FAIR
+- **shashasha** — score 6.4, differentiated 7.36; matched: Shashasha
 
 ### International Photobook Publishing
 This is the long-horizon ecosystem for international publication legitimacy.
 
-- **Aperture | Photography** — score 8.6, differentiated 10.13; matched: Aperture
+- **Aperture | Photography** — score 8.6, differentiated 10.38; matched: Aperture
 - **Offprint** — score 8.6, differentiated 10.04; matched: Offprint
-- **Self Publish, Be Happy** — score 8.0, differentiated 9.7; matched: Self Publish, Be Happy
-- **Gallery Conceal Shibuya** — score 8.6, differentiated 9.3; matched: VOID
-- **Picaresque Gallery** — score 1.4, differentiated 2.26; matched: VOID
+- **Self Publish, Be Happy** — score 8.0, differentiated 9.81; matched: Self Publish, Be Happy
+- **Gallery Conceal Shibuya** — score 7.4, differentiated 8.1; matched: VOID
+- **Picaresque Gallery** — score 3.2, differentiated 4.06; matched: VOID
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.
@@ -147,5 +148,5 @@ These are useful for soft visibility and relationship-building before major appl
 - **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
 - **UTRECHT** — score 8.6, differentiated 10.59; matched: UTRECHT
 - **B&B Shimokitazawa** — score 8.6, differentiated 10.59; matched: B&B Shimokitazawa
-- **flotsam books** — score 8.6, differentiated 10.59; matched: flotsam books
-- **POST** — score 8.0, differentiated 9.09; matched: POST
+- **flotsam books** — score 8.5, differentiated 10.49; matched: flotsam books
+- **POST** — score 8.0, differentiated 9.21; matched: POST

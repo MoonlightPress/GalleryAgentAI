@@ -36,7 +36,7 @@ This is a cleanup planning report. It does not move files.
 ### UI component scripts — 0
 
 
-### README files — 70
+### README files — 71
 
 - README.md
 - README_ACTIONABLE_TARGET_BUILDER.md
@@ -55,6 +55,7 @@ This is a cleanup planning report. It does not move files.
 - README_CATEGORY_CONTEXT_ENGINE_V1.md
 - README_CATEGORY_METRICS_V1.md
 - README_CONFIG_PATH_REPAIR.md
+- README_DEPLOY.md
 - README_ECOSYSTEM_EXPANSION_SPRINT_V1.md
 - README_GALLERY_INTELLIGENCE_SPRINT_V1.md
 - README_GOOGLE_MAPS_CANDIDATE_EXTRACTOR_V1.md

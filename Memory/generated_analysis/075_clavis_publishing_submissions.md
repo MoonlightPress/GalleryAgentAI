@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-04
 
 # Clavis Publishing Submissions
 
 ## 1. Quick Judgment
-**Fit score:** 10/10  
+**Fit score:** 9.5/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Book Publishing  
@@ -51,5 +51,5 @@ Decide whether this is a real target, benchmark, directory, or self-publishing s
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_
 

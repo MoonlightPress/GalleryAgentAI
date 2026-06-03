@@ -2,79 +2,56 @@
 
 This report caps inflated scores when verification is weak.
 
-- Tokyo Art Book Fair: 10.0 → 8.6
+- Tokyo Art Book Fair: 10.0 → 8.8
 - UTRECHT: 10.0 → 8.6
 - Offprint: 10.0 → 8.6
-- Fukuoka Art Book Fair: 10.0 → 8.6
-- BOOOOOOOM 2026 Art & Photo Book Award: 10.0 → 8.8
+- Center for Book Arts Opportunities: 10.0 → 8.6
 - Women United ART MAGAZINE Issue XIV Summer 2026: 10.0 → 8.8
-- ZINEフェス東京 (ZINE Fest Tokyo): 10.0 → 8.8
+- BOOOOOOOM 2026 Art & Photo Book Award: 10.0 → 8.8
+- Book and Sons: 10.0 → 8.6
+- ZINEフェス東京 (ZINE Fest Tokyo): 10.0 → 9.4
 - MOUNT ZINE: 10.0 → 9.4
-- Japan International Watercolor Institute Online Exhibition: 10.0 → 8.8
 - CSPWC Annual Open Water International Exhibition: 10.0 → 9.4
-- National Watercolor Society International Open Exhibition: 10.0 → 9.4
-- Shangyuan International Residency Programme: 10.0 → 8.6
-- Northwest Watercolor Society 2026 Annual International Open Exhibition: 10.0 → 8.8
-- TOKAS Open Call: 10.0 → 8.6
-- 3331 Arts Chiyoda: 9.98 → 8.6
-- HATTIFNATT Koenji Cafe Gallery: 9.9 → 8.8
-- Zine & Book フェス in 神保町 (Jimbocho): 9.9 → 8.6
-- Book and Sons: 9.9 → 8.6
-- BALLOND'ESSAI Shimokitazawa: 9.9 → 8.8
-- Shimokitazawa Arts: 9.9 → 8.6
-- Center for Book Arts Opportunities: 9.8 → 8.6
-- B&B Shimokitazawa: 9.8 → 8.6
-- Koganecho Area Management Center: 9.65 → 8.6
+- Northwest Watercolor Society 2026 Annual International Open Exhibition: 10.0 → 9.4
+- Jinny Street Gallery Open Call: 10.0 → 8.6
+- American Watercolor Society Annual International Exhibition: 9.8 → 8.6
 - Self Publish, Be Happy: 9.6 → 8.0
-- CLOUDS Gallery+Coffee Koenji: 9.6 → 8.8
-- Jinny Street Gallery Open Call: 9.6 → 8.6
-- Belladonna Art Competition: 9.6 → 8.6
-- Platform China BIAP Artist Residency: 9.6 → 8.6
+- HATTIFNATT Koenji Cafe Gallery: 9.6 → 8.8
+- Aperture | Photography: 9.6 → 8.6
+- OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery: 9.6 → 8.6
 - Printed Matter Art Book Fairs: 9.5 → 8.0
 - LOCAL Gallery・Books: 9.5 → 8.6
-- Open Calls for Artists: 9.5 → 8.6
-- Applications — Little Tokyo Zine Fest: 9.4 → 8.8
+- submissions — porkbelly press: 9.5 → 8.6
+- Belladonna Art Competition: 9.5 → 8.6
 - Tacoche: 9.4 → 8.6
-- SCCP Guest Artist: 9.4 → 8.8
-- 公募展: 9.3 → 8.6
+- B&B Shimokitazawa: 9.3 → 8.6
+- 3331 Arts Chiyoda: 9.28 → 8.6
 - Home - Printed Matter: 9.2 → 8.0
-- Open Call For Artists: 9.2 → 8.6
-- Shoto Museum Open Call: 9.2 → 8.6
-- Art公募: 9.2 → 8.6
-- 公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...: 9.2 → 8.6
-- OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery: 9.2 → 8.6
-- Osaka Open Call For Artists. - ARRIVAL: 9.2 → 8.6
-- Open calls - Online Database of Artist in Residence Programs in Japan: 9.2 → 8.6
-- 【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...: 9.2 → 8.6
-- 2026 松濤美術館公募展｜渋谷区立松濤美術館: 9.2 → 8.6
-- International Open Call: 9.2 → 8.6
-- Zines / Artist Books — Battle Plan: 9.0 → 6.5
-- Submissions — Clavis Publishing: 9.0 → 8.6
-- flotsam books: 9.0 → 8.6
+- » 21 Terrific Small Presses Open to Direct Submissions: 9.2 → 8.6
+- Aesthetica Art Prize: 9.2 → 8.6
+- Royal Watercolour Society Open Exhibition: 9.2 → 8.6
+- Koganecho Area Management Center: 9.15 → 8.6
+- BALLOND'ESSAI Shimokitazawa: 9.1 → 8.8
+- CLOUDS Gallery+Coffee Koenji: 9.0 → 8.8
+- 日記屋 月日: 9.0 → 8.0
+- Bologna Children's Book Fair Illustrators Exhibition: 9.0 → 8.6
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin: 9.0 → 8.6
 - OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at : 9.0 → 8.6
-- BankART1929: 9.0 → 8.6
-- DESIGN FESTA GALLERY: 9.0 → 8.6
 - SCAI The Bathhouse: 9.0 → 8.6
-- TAV Gallery: 9.0 → 8.6
-- VACANT: 9.0 → 8.6
-- Gallery IRO: 9.0 → 8.6
-- Gallery HANA Shimokitazawa: 9.0 → 8.6
-- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou: 9.0 → 8.6
-- Zushi Art Gallery: 9.0 → 8.6
-- Clavis Publishing Submissions: 9.0 → 8.6
-- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod: 9.0 → 8.6
-- Gallery Conceal Shibuya: 9.0 → 8.6
-- Callback Open Call G George invites you to submit to Callback, a series of contemporary ar: 9.0 → 8.6
-- Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING: 9.0 → 8.6
+- Shimokitazawa Arts: 9.0 → 8.6
+- American Illustration: 9.0 → 8.6
+- Platform China BIAP Artist Residency: 9.0 → 8.6
 - Publishing / Artist Books — Battle Plan: 8.9 → 6.5
-- BONUS TRACK: 8.85 → 8.6
+- SUBMISSIONS - marblepress.com: 8.9 → 8.6
+- 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]: 8.9 → 8.6
+- Japan Book Publishers Association - JBPA: 8.9 → 8.6
+- ART BOX Publishing: 8.9 → 8.6
+- Zines / Artist Books — Battle Plan: 8.8 → 6.5
+- Submissions — Clavis Publishing: 8.8 → 8.6
 - POST: 8.8 → 8.0
-- Open Call for the International Creator Residency Program 2026: 8.8 → 8.6
-- 日記屋 月日: 8.4 → 8.0
+- DER GREIF: 8.8 → 8.6
+- TOKAS Open Call: 8.8 → 8.6
+- Submissions - Little Press Publishing: 8.3 → 8.0
 - Book Obscura: 8.3 → 8.0
-- torch press: 7.1 → 6.5
-- Book Culture Club: 7.1 → 6.5
-- shashasha: 7.1 → 6.5
-- Komiyama Tokyo: 7.1 → 6.5
-- twelvebooks: 7.1 → 6.5
+- torch press: 6.7 → 6.5
+- Book Culture Club: 6.6 → 6.5

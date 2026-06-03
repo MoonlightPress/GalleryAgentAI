@@ -3244,78 +3244,6 @@
     ]
   },
   {
-    "title": "Residency",
-    "organization": "ArtConnect Open Calls",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
-    "official_website": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: residency"
-    ],
-    "fit_keyword_hits": [
-      "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "bipoc artist residency program",
-    "organization": "ArtConnect Open Calls",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/HI8pucIb6PzwGrcsGJcrT",
-    "official_website": "https://www.artconnect.com/opportunity/HI8pucIb6PzwGrcsGJcrT",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: residency"
-    ],
-    "fit_keyword_hits": [
-      "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
     "title": "call for proposals for solo exhibitions",
     "organization": "ArtConnect Open Calls",
     "category": "gallery_event",
@@ -3388,42 +3316,6 @@
     ]
   },
   {
-    "title": "summer exhibition 2026",
-    "organization": "ArtConnect Open Calls",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/rPkdW7WVPJeNeN6jqd8MY",
-    "official_website": "https://www.artconnect.com/opportunity/rPkdW7WVPJeNeN6jqd8MY",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
     "title": "oceania pacific arts residency",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
@@ -3437,6 +3329,42 @@
     "source_type": "scraped_link_candidate",
     "source_url": "https://www.artconnect.com/opportunity/9ucCcf7lck5hKaajb7uyr",
     "official_website": "https://www.artconnect.com/opportunity/9ucCcf7lck5hKaajb7uyr",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: residency",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: residency"
+    ],
+    "fit_keyword_hits": [
+      "residency"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Residency",
+    "organization": "ArtConnect Open Calls",
+    "category": "residency",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
+    "official_website": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3558,6 +3486,42 @@
     ],
     "fit_keyword_hits": [
       "open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Art Submissions",
+    "organization": "ArtConnect Open Calls",
+    "category": "open_call_index",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunities/art-submissions",
+    "official_website": "https://www.artconnect.com/opportunities/art-submissions",
+    "submission_page": "https://www.artconnect.com/opportunities/art-submissions",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: submission",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: submission"
+    ],
+    "fit_keyword_hits": [
+      "submission"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -4000,42 +3964,6 @@
     ]
   },
   {
-    "title": "The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
     "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
     "organization": "CuratorSpace",
     "category": "photo_open_call",
@@ -4050,6 +3978,42 @@
     "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
     "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
     "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: open call",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: open call"
+    ],
+    "fit_keyword_hits": [
+      "open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "organization": "CuratorSpace",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",

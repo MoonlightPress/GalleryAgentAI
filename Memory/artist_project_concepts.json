@@ -99,6 +99,26 @@
     ],
     "opportunity_targets": [
       {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine"
+        ],
+        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year."
+      },
+      {
+        "title": "Tokyo Art Book Fair",
+        "score": 8.8,
+        "differentiated_score": 10.79,
+        "hits": [
+          "zine",
+          "artist book",
+          "book fair"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
+      },
+      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 8.8,
         "differentiated_score": 10.79,
@@ -115,26 +135,6 @@
           "zine"
         ],
         "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
-        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 8.8,
-        "differentiated_score": 10.64,
-        "hits": [
-          "zine"
-        ],
-        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year."
-      },
-      {
-        "title": "Tokyo Art Book Fair",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "hits": [
-          "zine",
-          "artist book",
-          "book fair"
-        ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
         "title": "UTRECHT",
@@ -157,23 +157,24 @@
         "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
       },
       {
-        "title": "Submissions — Clavis Publishing",
+        "title": "Aperture | Photography",
+        "score": 8.6,
+        "differentiated_score": 10.38,
+        "hits": [
+          "photobook",
+          "zine",
+          "artist book"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+      },
+      {
+        "title": "submissions — porkbelly press",
         "score": 8.6,
         "differentiated_score": 10.38,
         "hits": [
           "small press"
         ],
         "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
-      },
-      {
-        "title": "Fukuoka Art Book Fair",
-        "score": 8.6,
-        "differentiated_score": 10.34,
-        "hits": [
-          "zine",
-          "book fair"
-        ],
-        "why": "Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing."
       }
     ]
   },
@@ -222,8 +223,8 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "score": 8.8,
+        "differentiated_score": 10.79,
         "hits": [
           "documentary",
           "artist book"
@@ -242,7 +243,7 @@
       {
         "title": "Aperture | Photography",
         "score": 8.6,
-        "differentiated_score": 10.13,
+        "differentiated_score": 10.38,
         "hits": [
           "artist book"
         ],
@@ -258,6 +259,15 @@
         "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications."
       },
       {
+        "title": "Center for Book Arts Opportunities",
+        "score": 8.6,
+        "differentiated_score": 10.03,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
+      },
+      {
         "title": "Tacoche",
         "score": 8.6,
         "differentiated_score": 9.98,
@@ -267,31 +277,22 @@
         "why": "Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works."
       },
       {
-        "title": "Center for Book Arts Opportunities",
-        "score": 8.6,
-        "differentiated_score": 9.91,
-        "hits": [
-          "artist book"
-        ],
-        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
-      },
-      {
         "title": "Self Publish, Be Happy",
         "score": 8.0,
-        "differentiated_score": 9.7,
+        "differentiated_score": 9.81,
         "hits": [
           "artist book"
         ],
         "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
       },
       {
-        "title": "Printed Matter Art Book Fairs",
-        "score": 8.0,
-        "differentiated_score": 9.47,
+        "title": "OPA Gallery",
+        "score": 8.4,
+        "differentiated_score": 9.6,
         "hits": [
           "artist book"
         ],
-        "why": "Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target."
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       }
     ]
   },
@@ -351,6 +352,26 @@
     ],
     "opportunity_targets": [
       {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine"
+        ],
+        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year."
+      },
+      {
+        "title": "Tokyo Art Book Fair",
+        "score": 8.8,
+        "differentiated_score": 10.79,
+        "hits": [
+          "zine",
+          "book fair",
+          "artist book"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
+      },
+      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 8.8,
         "differentiated_score": 10.79,
@@ -367,26 +388,6 @@
           "zine"
         ],
         "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
-        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 8.8,
-        "differentiated_score": 10.64,
-        "hits": [
-          "zine"
-        ],
-        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year."
-      },
-      {
-        "title": "Tokyo Art Book Fair",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "hits": [
-          "zine",
-          "book fair",
-          "artist book"
-        ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
         "title": "UTRECHT",
@@ -411,21 +412,22 @@
       },
       {
         "title": "flotsam books",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "score": 8.5,
+        "differentiated_score": 10.49,
         "hits": [
           "bookstore"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
-        "title": "Submissions — Clavis Publishing",
+        "title": "Aperture | Photography",
         "score": 8.6,
         "differentiated_score": 10.38,
         "hits": [
-          "small press"
+          "zine",
+          "artist book"
         ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       }
     ]
   },
@@ -492,12 +494,21 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "score": 8.8,
+        "differentiated_score": 10.79,
         "hits": [
           "documentary"
         ],
         "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
+      },
+      {
+        "title": "Aperture | Photography",
+        "score": 8.6,
+        "differentiated_score": 10.38,
+        "hits": [
+          "photography"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
         "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -516,15 +527,6 @@
           "open call"
         ],
         "why": "Possible fit based on link text: zine, open call, residency"
-      },
-      {
-        "title": "Aperture | Photography",
-        "score": 8.6,
-        "differentiated_score": 10.13,
-        "hits": [
-          "photography"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
         "title": "Browse opportunities | CuratorSpace",
@@ -547,21 +549,21 @@
       {
         "title": "DER GREIF",
         "score": 8.6,
-        "differentiated_score": 9.68,
+        "differentiated_score": 9.8,
         "hits": [
           "portfolio review",
           "open call"
         ],
-        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
+        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
       },
       {
-        "title": "BankART1929",
-        "score": 8.6,
-        "differentiated_score": 9.46,
+        "title": "Home - Printed Matter",
+        "score": 8.0,
+        "differentiated_score": 9.52,
         "hits": [
           "architecture"
         ],
-        "why": "Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally."
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture"
       }
     ]
   }

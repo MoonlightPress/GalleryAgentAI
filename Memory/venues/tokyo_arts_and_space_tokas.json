@@ -1,0 +1,37 @@
+{
+  "venue_name": "Tokyo Arts and Space (TOKAS)",
+  "venue_slug": "tokyo_arts_and_space_tokas",
+  "venue_type": "artist opportunity venue",
+  "city": "Tokyo",
+  "country": "",
+  "website": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260219-316.html",
+  "source_links": [
+    "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260219-316.html"
+  ],
+  "categories_seen": [
+    "Artist Spaces"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees"
+  ],
+  "opportunity_titles": [
+    "OPEN SITE 11"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-04",
+  "updated_at": "2026-06-04"
+}

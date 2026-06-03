@@ -8,13 +8,13 @@
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
-- **Official/source website**: https://note.com/bookcultureclub/ (verified)
-- **Submission process**: https://note.com/bookcultureclub/n/n14764ff42f86 (verified)
-- **Deadline**: Rolling — 2 weeks before each event. Next Tokyo: July 11 2026 (deadline ~June 27) (verified)
+- **Official/source website**: https://note.com/bookcultureclub/n/n053a24287fc2 (verified)
+- **Submission process**: https://note.com/bookcultureclub/n/n053a24287fc2 (verified)
+- **Deadline**: 2026-06-27 (verified)
 - **Fees**: ¥5,200 (1 person, with promotion) / ¥6,200 (1 person, no promotion) (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: bookcultureclub81@gmail.com (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Zine Fair Booth.
@@ -33,10 +33,10 @@ Recurring Tokyo zine fair with very accessible fees and rolling applications. Ne
 - Also: September 26 2026 Tokyo date. Multiple events throughout 2026.
 
 ## 7. Submission / Logistics
-- **Deadline:** Rolling — 2 weeks before each event. Next Tokyo: July 11 2026 (deadline ~June 27)
+- **Deadline:** 2026-06-27
 - **Fees:** ¥5,200 (1 person, with promotion) / ¥6,200 (1 person, no promotion)
-- **Submission page:** https://note.com/bookcultureclub/n/n14764ff42f86
-- **Source:** https://note.com/bookcultureclub/
+- **Submission page:** https://note.com/bookcultureclub/n/n053a24287fc2
+- **Source:** https://note.com/bookcultureclub/n/n053a24287fc2
 
 ## 8. Risk / Unknowns
 No hard dealbreaker recorded. Manual verification recommended.
@@ -47,4 +47,4 @@ Check note.com/bookcultureclub for the July 11 2026 Tokyo event application page
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_

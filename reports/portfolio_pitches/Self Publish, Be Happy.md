@@ -1,16 +1,16 @@
 # Portfolio Pitch — Self Publish, Be Happy
 
 ## Recommended Body of Work
-Architecture / Memory / Place
+Artist Book / Printed Matter
 
 ## Why This Body Fits
-Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
+Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Strong fit for an artist whose work can live as quiet photobook or zine sequences rather than conventional gallery proposals.
+Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
 
 ## Match Signals
-quiet
+artist book, photobook, zine, publication, paper
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

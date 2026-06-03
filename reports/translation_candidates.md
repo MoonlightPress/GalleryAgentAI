@@ -1,82 +1,120 @@
 # Translation Candidates
 
 These are not native watercolor opportunities, but may be useful if watercolor work is translated into a book, zine, edition, or printed sequence.
-Total translation candidates: 78
+Total translation candidates: 116
 
-- **Tokyo Art Book Fair** — native: mixed; signals: artist book, zine, book fair, publication
-- **UTRECHT** — native: mixed; signals: artist book, zine, printed matter, bookstore
-- **Offprint** — native: mixed; signals: artist book, printed matter, publication
-- **Aesthetica Art Prize** — native: mixed; signals: zine, works on paper
-- **Self Publish, Be Happy** — native: mixed; signals: artist book, zine, works on paper
-- **Book Obscura** — native: mixed; signals: artist book, zine
-- **Home - Printed Matter** — native: mixed; signals: artist book, zine, printed matter, book fair, works on paper, drawing
 - **MOUNT ZINE** — native: mixed; signals: zine
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — native: mixed; signals: artist book, zine
+- **Tokyo Art Book Fair** — native: mixed; signals: artist book, zine, book fair, publication
+- **UTRECHT** — native: mixed; signals: artist book, zine, printed matter, bookstore
+- **Book and Sons** — native: mixed; signals: zine, bookstore
+- **submissions — porkbelly press** — native: unknown; signals: artist book, small press
+- **Aesthetica Art Prize** — native: mixed; signals: zine, works on paper
+- **» 21 Terrific Small Presses Open to Direct Submissions** — native: mixed; signals: artist book, small press
 - **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — native: mixed; signals: artist book, zine
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — native: mixed; signals: artist book, zine
-- **Book and Sons** — native: mixed; signals: zine, bookstore
-- **» 21 Terrific Small Presses Open to Direct Submissions** — native: mixed; signals: artist book, small press
+- **SUBMISSIONS - marblepress.com** — native: unknown; signals: artist book, small press
+- **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — native: unknown; signals: artist book, small press
+- **Japan Book Publishers Association - JBPA** — native: unknown; signals: artist book, small press
+- **ART BOX Publishing** — native: unknown; signals: artist book, small press
+- **Aperture | Photography** — native: photography; signals: artist book, zine, works on paper
+- **DER GREIF** — native: photography; signals: artist book, works on paper
+- **Center for Book Arts Opportunities** — native: unknown; signals: artist book, printed matter
+- **Submissions — Clavis Publishing** — native: unknown; signals: artist book, small press
+- **Offprint** — native: mixed; signals: artist book, printed matter, publication
 - **LOCAL Gallery・Books** — native: mixed; signals: artist book, zine
 - **Tacoche** — native: mixed; signals: artist book, zine
 - **Books Ruhe** — native: mixed; signals: artist book, zine, bookstore
 - **tata bookshop/gallery** — native: mixed; signals: artist book, zine
 - **本店・本屋の実験室** — native: mixed; signals: artist book, zine, bookstore
 - **Top Artist Opportunities for 2026 | ArtConnect** — native: mixed; signals: artist book, zine
-- **Printed Matter Art Book Fairs** — native: mixed; signals: artist book, zine, printed matter, book fair, edition, calendar
-- **DER GREIF** — native: photography; signals: artist book, works on paper
-- **Aperture | Photography** — native: photography; signals: artist book, zine, works on paper
-- **グループ展参加アーティスト募集中 - Gallery and Links81** — native: unknown; signals: works on paper, drawing
-- **【biscuit gallery】初の公募企画「grid next : Emerging ...** — native: unknown; signals: works on paper, drawing
-- **219公募展6募集 >> Gallery219 ギャラリーニイク** — native: unknown; signals: works on paper, drawing
-- **公募プログラム - トーキョーアーツアンドスペース** — native: unknown; signals: works on paper, drawing
-- **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — native: unknown; signals: works on paper, drawing
-- **Open Calls for Artists | Exhibit Worldwide** — native: unknown; signals: works on paper, drawing
-- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — native: unknown; signals: works on paper, drawing
-- **Gallery IRO** — native: unknown; signals: artist book, works on paper
+- **B&B Shimokitazawa** — native: mixed; signals: artist book, zine, bookstore, publication
+- **flotsam books** — native: mixed; signals: artist book, zine, bookstore, works on paper
 - **The Artcomplex Center of Tokyo** — native: unknown; signals: artist book, works on paper
-- **AAA Gallery Yokohama** — native: unknown; signals: artist book, works on paper
-- **ArtConnect Open Calls** — native: unknown; signals: artist book, works on paper, drawing
-- **CuratorSpace** — native: unknown; signals: artist book, works on paper, drawing
-- **Society of Women Artists** — native: unknown; signals: artist book, works on paper, drawing
-- **Submissions — Clavis Publishing** — native: unknown; signals: artist book, small press
-- **SUBMISSIONS - marblepress.com** — native: unknown; signals: artist book, small press
-- **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — native: unknown; signals: artist book, small press
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — native: unknown; signals: artist book, small press
 - **Submissions - Little Press Publishing** — native: unknown; signals: artist book, small press
 - **3 Top Book Publishers in Tokyo in 2026** — native: unknown; signals: artist book, small press
-- **submissions — porkbelly press** — native: unknown; signals: artist book, small press
 - **3 Top Book Publishers in Japan in 2026** — native: unknown; signals: artist book, small press
 - **Become an Author - Tuttle Publishing** — native: unknown; signals: artist book, small press
-- **Japan Book Publishers Association - JBPA** — native: unknown; signals: artist book, small press
-- **ART BOX Publishing** — native: unknown; signals: artist book, small press
-- **Center for Book Arts Opportunities** — native: unknown; signals: artist book, printed matter
+- **日記屋 月日** — native: mixed; signals: zine, bookstore
+- **POST** — native: mixed; signals: zine, bookstore
+- **ArtConnect Open Calls** — native: unknown; signals: artist book, works on paper, drawing
+- **Society of Women Artists** — native: unknown; signals: artist book, works on paper, drawing
+- **【biscuit gallery】初の公募企画「grid next : Emerging ...** — native: unknown; signals: works on paper, drawing
+- **219公募展6募集 >> Gallery219 ギャラリーニイク** — native: unknown; signals: works on paper, drawing
+- **公募プログラム - トーキョーアーツアンドスペース** — native: unknown; signals: works on paper, drawing
+- **Open Calls for Artists | Exhibit Worldwide** — native: unknown; signals: works on paper, drawing
+- **Self Publish, Be Happy** — native: mixed; signals: artist book, zine, works on paper
+- **Book Obscura** — native: mixed; signals: artist book, zine
+- **Printed Matter Art Book Fairs** — native: mixed; signals: artist book, zine, printed matter, book fair, edition, calendar
+- **PhotoVogue** — native: photography; signals: illustration
+- **2026年美の起原展** — native: unknown; signals: illustration
+- **Publishing / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine, publication, edition
+- **Gallery IRO** — native: unknown; signals: artist book, works on paper
+- **AAA Gallery Yokohama** — native: unknown; signals: artist book, works on paper
+- **CuratorSpace** — native: unknown; signals: artist book, works on paper, drawing
+- **グループ展参加アーティスト募集中 - Gallery and Links81** — native: unknown; signals: works on paper, drawing
+- **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — native: unknown; signals: works on paper, drawing
+- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — native: unknown; signals: works on paper, drawing
+- **そぞろ書房** — native: mixed; signals: artist book, zine, bookstore
 - **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — native: unknown; signals: works on paper, drawing
-- **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — native: unknown; signals: works on paper, drawing
-- **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — native: unknown; signals: works on paper, drawing
 - **New Power展 | ギャラリー自由が丘で作家デビュー** — native: unknown; signals: works on paper, drawing
 - **Call for Entry: Showcase your art in Tokyo, Japan** — native: unknown; signals: works on paper, drawing
-- **そぞろ書房** — native: mixed; signals: artist book, zine, bookstore
-- **Publishing / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine, publication, edition
-- **POST** — native: mixed; signals: zine, bookstore
-- **日記屋 月日** — native: mixed; signals: zine, bookstore
 - **Zines / Artist Books — Battle Plan** — native: mixed; signals: artist book, zine
-- **shashasha** — native: unknown; signals: artist book, edition, works on paper
-- **Komiyama Tokyo** — native: unknown; signals: artist book, zine
-- **Boji Hair+Gallery** — native: unknown; signals: works on paper
-- **Book Culture Club** — native: mixed; signals: artist book, zine
+- **Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition** — native: unknown; signals: edition, illustration
+- **True Beauty - 2026** — native: unknown; signals: illustration
+- **Still Life - 2026** — native: unknown; signals: publication, illustration
+- **Aquarium - 2026** — native: unknown; signals: publication
+- **Home - Printed Matter** — native: mixed; signals: artist book, zine, printed matter, book fair, works on paper, drawing
+- **咲き誇れ桜よ** — native: mixed; signals: zine, illustration
+- **マイ・ディア・テディ (My Dear Teddy)** — native: mixed; signals: zine, illustration
+- **PARK GALLERY 夏の公募企画展（3テーマ）** — native: unknown; signals: illustration
 - **torch press** — native: unknown; signals: artist book, zine, small press
-- **B&B Shimokitazawa** — native: mixed; signals: artist book, zine, bookstore, publication
-- **flotsam books** — native: mixed; signals: artist book, zine, bookstore, works on paper
-- **ZINEイベント** — native: mixed; signals: zine, edition
+- **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — native: unknown; signals: works on paper, drawing
+- **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — native: unknown; signals: works on paper, drawing
+- **kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)** — native: unknown; signals: illustration
+- **Book Culture Club** — native: mixed; signals: artist book, zine
+- **Komiyama Tokyo** — native: unknown; signals: artist book, zine
+- **Laugh & Peace Art Competition 2026** — native: unknown; signals: illustration
 - **HandMade In Japan Fes** — native: unknown; signals: works on paper
 - **The Container** — native: unknown; signals: artist book
 - **Comitia** — native: unknown; signals: zine, works on paper, illustration
-- **PhotoVogue** — native: photography; signals: illustration
+- **shashasha** — native: unknown; signals: artist book, edition, works on paper
+- **TOKIO ART BOOK FAIR 2026** — native: mixed; signals: zine, book fair
+- **クリスマスアート展** — native: unknown; signals: illustration
+- **ZINEイベント** — native: mixed; signals: zine, edition
+- **金风车插画大赛2026** — native: unknown; signals: illustration
+- **START Box ササハタハツ・START Box 白鬚 2026年度利用者募集** — native: mixed; signals: zine, illustration
+- **第23届「跨越国界之美2026」国际公募展** — native: unknown; signals: illustration
+- **2026国际大学生数字艺术设计大赛** — native: unknown; signals: illustration, drawing
+- **スクエア・ワールド2026** — native: mixed; signals: zine, illustration
+- **ローズ・ローズ・ローズ** — native: mixed; signals: zine, illustration
+- **ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)** — native: unknown; signals: illustration
+- **空色ターコイズ** — native: mixed; signals: zine, illustration
+- **りんごろごろごろ** — native: mixed; signals: zine, illustration
+- **Art Fair Tokyo 2026** — native: unknown; signals: illustration
+- **Boji Hair+Gallery** — native: unknown; signals: works on paper
+- **オープンコール・プロジェクト** — native: mixed; signals: zine, illustration
+- **Applications — Little Tokyo Zine Fest** — native: mixed; signals: zine
+- **臺南市美術館 2026「TAM+展覽計畫」** — native: mixed; signals: zine
+- **IlloBoom! 2026 第三屆插畫巔峰賽** — native: mixed; signals: illustration
+- **全國插畫徵集-2026台灣VC文化賞** — native: unknown; signals: illustration
+- **7月～12月企画展 参加者募集** — native: unknown; signals: illustration
+- **5th Singapore Chinese Art Exhibition 2026** — native: mixed; signals: illustration
+- **第10屆溫哥華藝術博覽會 (Art Vancouver 2026)** — native: unknown; signals: edition
+- **Art on Climate インターナショナル・イラストレーション・コンテスト 2026** — native: unknown; signals: illustration
 - **Fukuoka Art Book Fair** — native: mixed; signals: artist book, zine, book fair, edition
 - **Zine & Book フェス in 神保町 (Jimbocho)** — native: mixed; signals: artist book, zine, edition
+- **FACE展2026** — native: mixed; signals: zine, edition
+- **Tokyo Gendai 2026** — native: unknown; signals: edition
+- **Brillia Art Award Wall 2026** — native: unknown; signals: illustration
+- **TOKAS レジデンシー 4つのレジデンス・プログラム公募** — native: mixed; signals: zine
+- **In-dividual Theater：BUG Screen Week 2026** — native: mixed; signals: zine, illustration
 - **NADiff a/p/a/r/t** — native: mixed; signals: artist book, zine, bookstore
+- **SICF Fukuoka 2026** — native: unknown; signals: illustration
+- **KAMIHANGA国際プリント展2026** — native: unknown; signals: illustration
+- **南京插画艺术家展览 2026年3月** — native: unknown; signals: illustration
 - **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — native: mixed; signals: zine, edition
-- **Applications — Little Tokyo Zine Fest** — native: mixed; signals: zine
 - **Sunny Boy Books** — native: mixed; signals: zine, bookstore
 - **loneliness books** — native: mixed; signals: artist book, zine
 - **Dig A Hole Zines** — native: mixed; signals: artist book, zine

@@ -20,6 +20,7 @@ Potential long-term artistic trajectories suggested by current recommendation pa
 ## Artist-Run Community Builder
 
 - Tokyo Art Book Fair (signal 2)
+- OPEN SITE 11 (signal 2)
 - Koganecho Area Management Center (signal 2)
 - BONUS TRACK (signal 2)
 - 3331 Arts Chiyoda (signal 2)
@@ -28,6 +29,7 @@ Potential long-term artistic trajectories suggested by current recommendation pa
 
 - Tokyo Art Book Fair (signal 3)
 - Women United ART MAGAZINE Issue XIV Summer 2026 (signal 2)
+- TOKIO ART BOOK FAIR 2026 (signal 2)
 - Self Publish, Be Happy (signal 2)
 - Publishing / Artist Books — Battle Plan (signal 2)
 - Printed Matter Art Book Fairs (signal 2)

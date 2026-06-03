@@ -4,6 +4,15 @@
     "why_it_matters": "This is the strongest immediate ecosystem for her visual language: quiet photography, sequences, books, zines, and small-scale cultural visibility.",
     "matched_opportunities": [
       {
+        "title": "Tokyo Art Book Fair",
+        "score": 8.8,
+        "differentiated_score": 10.79,
+        "hit_nodes": [
+          "TOKYO ART BOOK FAIR"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
+      },
+      {
         "title": "MOUNT ZINE",
         "score": 9.4,
         "differentiated_score": 10.71,
@@ -11,15 +20,6 @@
           "MOUNT ZINE"
         ],
         "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
-        "title": "Tokyo Art Book Fair",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "hit_nodes": [
-          "TOKYO ART BOOK FAIR"
-        ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
         "title": "UTRECHT",
@@ -32,8 +32,8 @@
       },
       {
         "title": "flotsam books",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "score": 8.5,
+        "differentiated_score": 10.49,
         "hit_nodes": [
           "flotsam books"
         ],
@@ -42,16 +42,25 @@
       {
         "title": "POST",
         "score": 8.0,
-        "differentiated_score": 9.09,
+        "differentiated_score": 9.21,
         "hit_nodes": [
           "POST"
         ],
         "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
       },
       {
+        "title": "TOKIO ART BOOK FAIR 2026",
+        "score": 7.1,
+        "differentiated_score": 8.48,
+        "hit_nodes": [
+          "TOKYO ART BOOK FAIR"
+        ],
+        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
+      },
+      {
         "title": "shashasha",
-        "score": 6.5,
-        "differentiated_score": 7.34,
+        "score": 6.4,
+        "differentiated_score": 7.36,
         "hit_nodes": [
           "Shashasha"
         ],
@@ -66,7 +75,7 @@
       {
         "title": "Aperture | Photography",
         "score": 8.6,
-        "differentiated_score": 10.13,
+        "differentiated_score": 10.38,
         "hit_nodes": [
           "Aperture"
         ],
@@ -84,7 +93,7 @@
       {
         "title": "Self Publish, Be Happy",
         "score": 8.0,
-        "differentiated_score": 9.7,
+        "differentiated_score": 9.81,
         "hit_nodes": [
           "Self Publish, Be Happy"
         ],
@@ -92,8 +101,8 @@
       },
       {
         "title": "Gallery Conceal Shibuya",
-        "score": 8.6,
-        "differentiated_score": 9.3,
+        "score": 7.4,
+        "differentiated_score": 8.1,
         "hit_nodes": [
           "VOID"
         ],
@@ -101,8 +110,8 @@
       },
       {
         "title": "Picaresque Gallery",
-        "score": 1.4,
-        "differentiated_score": 2.26,
+        "score": 3.2,
+        "differentiated_score": 4.06,
         "hit_nodes": [
           "VOID"
         ],
@@ -148,8 +157,8 @@
       },
       {
         "title": "flotsam books",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "score": 8.5,
+        "differentiated_score": 10.49,
         "hit_nodes": [
           "flotsam books"
         ],
@@ -158,7 +167,7 @@
       {
         "title": "POST",
         "score": 8.0,
-        "differentiated_score": 9.09,
+        "differentiated_score": 9.21,
         "hit_nodes": [
           "POST"
         ],

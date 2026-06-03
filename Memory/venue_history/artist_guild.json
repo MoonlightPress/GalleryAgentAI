@@ -1,0 +1,16 @@
+{
+  "venue_name": "ARTIST GUILD",
+  "venue_slug": "artist_guild",
+  "memory_version": 1,
+  "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-06-04",
+  "confidence": "low",
+  "future_research": [
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}

@@ -1,0 +1,37 @@
+{
+  "venue_name": "SOMPO Museum of Art",
+  "venue_slug": "sompo_museum_of_art",
+  "venue_type": "artist opportunity venue",
+  "city": "Tokyo",
+  "country": "",
+  "website": "https://www.iwafu.com/en/events/1062957",
+  "source_links": [
+    "https://www.iwafu.com/en/events/1062957"
+  ],
+  "categories_seen": [
+    "Institutional / Grants"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "fees"
+  ],
+  "opportunity_titles": [
+    "FACE Exhibition 2026"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-04",
+  "updated_at": "2026-06-04"
+}

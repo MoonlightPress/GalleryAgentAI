@@ -11,10 +11,10 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- Women United ART MAGAZINE Issue XIV Summer 2026
-- MOUNT ZINE
 - ZINEフェス東京 (ZINE Fest Tokyo)
 - Tokyo Art Book Fair
+- Women United ART MAGAZINE Issue XIV Summer 2026
+- MOUNT ZINE
 - UTRECHT
 
 ### What To Prepare
@@ -37,7 +37,7 @@ This turns project concepts into concrete submission paths.
 - UTRECHT
 - Aperture | Photography
 - Offprint
-- Tacoche
+- Center for Book Arts Opportunities
 
 ### What To Prepare
 - 12–20 image edit
@@ -55,10 +55,10 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- Women United ART MAGAZINE Issue XIV Summer 2026
-- MOUNT ZINE
 - ZINEフェス東京 (ZINE Fest Tokyo)
 - Tokyo Art Book Fair
+- Women United ART MAGAZINE Issue XIV Summer 2026
+- MOUNT ZINE
 - UTRECHT
 
 ### What To Prepare
@@ -78,9 +78,9 @@ This turns project concepts into concrete submission paths.
 
 ### Best First Targets
 - Tokyo Art Book Fair
+- Aperture | Photography
 - AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin
 - OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at 
-- Aperture | Photography
 - Browse opportunities | CuratorSpace
 
 ### What To Prepare

@@ -30,6 +30,31 @@
     "first_action": "Make a 20-image edit and title it provisionally. Do not write the full statement yet.",
     "best_opportunity_targets": [
       {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 9.2,
+        "differentiated_score": 11.24,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
+        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
+      },
+      {
+        "title": "Tokyo Art Book Fair",
+        "score": 9.2,
+        "differentiated_score": 10.79,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "artist book",
+          "book fair"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+        "source": "https://tokyoartbookfair.com/"
+      },
+      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 8.8,
         "differentiated_score": 10.79,
@@ -54,33 +79,8 @@
         "source": "https://zine.mount.co.jp/"
       },
       {
-        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 8.8,
-        "differentiated_score": 10.64,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
-        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
-      },
-      {
-        "title": "Tokyo Art Book Fair",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "artist book",
-          "book fair"
-        ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
-        "source": "https://tokyoartbookfair.com/"
-      },
-      {
         "title": "UTRECHT",
-        "score": 7.6,
+        "score": 8.2,
         "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
@@ -92,7 +92,7 @@
       },
       {
         "title": "B&B Shimokitazawa",
-        "score": 7.6,
+        "score": 7.1,
         "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
@@ -104,8 +104,8 @@
       },
       {
         "title": "flotsam books",
-        "score": 7.6,
-        "differentiated_score": 10.59,
+        "score": 7.1,
+        "differentiated_score": 10.49,
         "verification": "partial",
         "hits": [
           "zine",
@@ -115,16 +115,17 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "Submissions — Clavis Publishing",
-        "score": 7.6,
+        "title": "Aperture | Photography",
+        "score": 8.7,
         "differentiated_score": 10.38,
         "verification": "partial",
         "hits": [
-          "artist book",
-          "small press"
+          "photobook",
+          "zine",
+          "artist book"
         ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-        "source": "https://www.clavis-publishing.com/submit"
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition",
+        "source": "https://aperture.org/"
       }
     ],
     "best_publisher_targets": [
@@ -239,6 +240,29 @@
     "first_action": "Build the edit as a PDF contact sheet first, then reduce it by half.",
     "best_opportunity_targets": [
       {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 9.2,
+        "differentiated_score": 11.24,
+        "verification": "verified",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
+        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
+      },
+      {
+        "title": "Tokyo Art Book Fair",
+        "score": 9.2,
+        "differentiated_score": 10.79,
+        "verification": "partial",
+        "hits": [
+          "documentary",
+          "artist book"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+        "source": "https://tokyoartbookfair.com/"
+      },
+      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 8.8,
         "differentiated_score": 10.79,
@@ -261,31 +285,8 @@
         "source": "https://zine.mount.co.jp/"
       },
       {
-        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 8.8,
-        "differentiated_score": 10.64,
-        "verification": "partial",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
-        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
-      },
-      {
-        "title": "Tokyo Art Book Fair",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "verification": "partial",
-        "hits": [
-          "documentary",
-          "artist book"
-        ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
-        "source": "https://tokyoartbookfair.com/"
-      },
-      {
         "title": "UTRECHT",
-        "score": 7.6,
+        "score": 8.2,
         "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
@@ -296,7 +297,7 @@
       },
       {
         "title": "B&B Shimokitazawa",
-        "score": 7.6,
+        "score": 7.1,
         "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
@@ -307,8 +308,8 @@
       },
       {
         "title": "flotsam books",
-        "score": 7.6,
-        "differentiated_score": 10.59,
+        "score": 7.1,
+        "differentiated_score": 10.49,
         "verification": "partial",
         "hits": [
           "artist book"
@@ -317,15 +318,15 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "Submissions — Clavis Publishing",
-        "score": 7.6,
+        "title": "Aperture | Photography",
+        "score": 8.7,
         "differentiated_score": 10.38,
         "verification": "partial",
         "hits": [
           "artist book"
         ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-        "source": "https://www.clavis-publishing.com/submit"
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition",
+        "source": "https://aperture.org/"
       }
     ],
     "best_publisher_targets": [
@@ -392,6 +393,32 @@
     "first_action": "Create a 12-image version first. This is the easiest thing to make real.",
     "best_opportunity_targets": [
       {
+        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+        "score": 9.2,
+        "differentiated_score": 11.24,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
+        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
+      },
+      {
+        "title": "Tokyo Art Book Fair",
+        "score": 9.2,
+        "differentiated_score": 10.79,
+        "verification": "partial",
+        "hits": [
+          "zine",
+          "book fair",
+          "artist book",
+          "independent publishing"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+        "source": "https://tokyoartbookfair.com/"
+      },
+      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 8.8,
         "differentiated_score": 10.79,
@@ -415,34 +442,8 @@
         "source": "https://zine.mount.co.jp/"
       },
       {
-        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 8.8,
-        "differentiated_score": 10.64,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
-        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
-      },
-      {
-        "title": "Tokyo Art Book Fair",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "verification": "partial",
-        "hits": [
-          "zine",
-          "book fair",
-          "artist book",
-          "independent publishing"
-        ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
-        "source": "https://tokyoartbookfair.com/"
-      },
-      {
         "title": "UTRECHT",
-        "score": 7.6,
+        "score": 8.2,
         "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
@@ -455,7 +456,7 @@
       },
       {
         "title": "B&B Shimokitazawa",
-        "score": 7.6,
+        "score": 7.1,
         "differentiated_score": 10.59,
         "verification": "partial",
         "hits": [
@@ -468,8 +469,8 @@
       },
       {
         "title": "flotsam books",
-        "score": 7.6,
-        "differentiated_score": 10.59,
+        "score": 7.1,
+        "differentiated_score": 10.49,
         "verification": "partial",
         "hits": [
           "zine",
@@ -480,16 +481,16 @@
         "source": "https://www.flotsambooks.com/"
       },
       {
-        "title": "Submissions — Clavis Publishing",
-        "score": 7.6,
+        "title": "Aperture | Photography",
+        "score": 8.7,
         "differentiated_score": 10.38,
         "verification": "partial",
         "hits": [
-          "small press",
+          "zine",
           "artist book"
         ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-        "source": "https://www.clavis-publishing.com/submit"
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition",
+        "source": "https://aperture.org/"
       }
     ],
     "best_publisher_targets": [

@@ -950,7 +950,7 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "strong: printed matter",
-      "weak: exhibition, gallery, photography",
+      "weak: photography, gallery, exhibition",
       "score too low: 3"
     ]
   },
@@ -3476,89 +3476,6 @@
     ]
   },
   {
-    "title": "Residency",
-    "organization": "ArtConnect Open Calls",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
-    "official_website": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: residency"
-    ],
-    "fit_keyword_hits": [
-      "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: open call, residency",
-      "score too low: 2"
-    ]
-  },
-  {
-    "title": "bipoc artist residency program",
-    "organization": "ArtConnect Open Calls",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/HI8pucIb6PzwGrcsGJcrT",
-    "official_website": "https://www.artconnect.com/opportunity/HI8pucIb6PzwGrcsGJcrT",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: residency"
-    ],
-    "fit_keyword_hits": [
-      "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: open call, residency",
-      "weak: artist",
-      "score too low: 3"
-    ]
-  },
-  {
     "title": "call for proposals for solo exhibitions",
     "organization": "ArtConnect Open Calls",
     "category": "gallery_event",
@@ -3595,8 +3512,8 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: call for, open call",
-      "weak: exhibition, gallery",
+      "strong: open call, call for",
+      "weak: gallery, exhibition",
       "score too low: 4"
     ]
   },
@@ -3643,48 +3560,6 @@
     ]
   },
   {
-    "title": "summer exhibition 2026",
-    "organization": "ArtConnect Open Calls",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/rPkdW7WVPJeNeN6jqd8MY",
-    "official_website": "https://www.artconnect.com/opportunity/rPkdW7WVPJeNeN6jqd8MY",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: open call",
-      "weak: exhibition, gallery",
-      "score too low: 2"
-    ]
-  },
-  {
     "title": "oceania pacific arts residency",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
@@ -3698,6 +3573,47 @@
     "source_type": "scraped_link_candidate",
     "source_url": "https://www.artconnect.com/opportunity/9ucCcf7lck5hKaajb7uyr",
     "official_website": "https://www.artconnect.com/opportunity/9ucCcf7lck5hKaajb7uyr",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: residency",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: residency"
+    ],
+    "fit_keyword_hits": [
+      "residency"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "strong: open call, residency",
+      "score too low: 2"
+    ]
+  },
+  {
+    "title": "Residency",
+    "organization": "ArtConnect Open Calls",
+    "category": "residency",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
+    "official_website": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3804,7 +3720,7 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "strong: open call",
-      "weak: exhibition, gallery, photography",
+      "weak: photography, gallery, exhibition",
       "score too low: 3"
     ]
   },
@@ -3967,7 +3883,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "weak: exhibition, gallery",
+      "weak: gallery, exhibition",
       "has submission link",
       "score too low: 3"
     ]
@@ -4009,7 +3925,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "weak: exhibition, gallery",
+      "weak: gallery, exhibition",
       "has submission link",
       "score too low: 3"
     ]
@@ -4051,7 +3967,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "weak: exhibition, gallery",
+      "weak: gallery, exhibition",
       "has submission link",
       "score too low: 3"
     ]
@@ -4093,7 +4009,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "weak: exhibition, gallery",
+      "weak: gallery, exhibition",
       "has submission link",
       "score too low: 3"
     ]
@@ -4135,7 +4051,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "weak: exhibition, gallery, photography",
+      "weak: photography, gallery, exhibition",
       "has submission link",
       "score too low: 4"
     ]
@@ -4177,7 +4093,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "weak: exhibition, gallery, photography",
+      "weak: photography, gallery, exhibition",
       "has submission link",
       "score too low: 4"
     ]
@@ -4299,7 +4215,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "weak: exhibition, gallery",
+      "weak: gallery, exhibition",
       "has submission link",
       "score too low: 3"
     ]
@@ -4341,49 +4257,9 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "weak: exhibition, gallery",
+      "weak: gallery, exhibition",
       "has submission link",
       "score too low: 3"
-    ]
-  },
-  {
-    "title": "The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
     ]
   },
   {

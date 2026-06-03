@@ -1,0 +1,37 @@
+{
+  "venue_name": "Tainan Art Museum",
+  "venue_slug": "tainan_art_museum",
+  "venue_type": "artist opportunity venue",
+  "city": "Tainan",
+  "country": "",
+  "website": "https://www.artist-magazine.com/edcontent.php?lang=tw&tb=5",
+  "source_links": [
+    "https://www.artist-magazine.com/edcontent.php?lang=tw&tb=5"
+  ],
+  "categories_seen": [
+    "Institutional / Grants"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "fees",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "臺南市美術館 2026「TAM+展覽計畫」"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-04",
+  "updated_at": "2026-06-04"
+}
