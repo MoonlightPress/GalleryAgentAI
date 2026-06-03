@@ -78,6 +78,27 @@
   background: rgba(230, 212, 184, 0.8);
 }
 
+/* Primary contact/apply action — filled amber, stands out from passive chips */
+.detail-chip-action {
+  background: var(--gold, #b8892a);
+  border-color: var(--gold, #b8892a);
+  color: #fff;
+  font-weight: 600;
+}
+.detail-chip-action:hover {
+  background: #9a7020;
+  border-color: #9a7020;
+  color: #fff;
+}
+
+/* Contact note — dim secondary text under the chips */
+.detail-contact-note {
+  font-size: 11px;
+  color: var(--ink-muted);
+  margin: 6px 0 0;
+  line-height: 1.5;
+}
+
 /* ── Two-column grid ── */
 .detail-panel-grid {
   display: grid;

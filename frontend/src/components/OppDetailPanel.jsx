@@ -8,10 +8,20 @@ function deadlineIsReal(dl) {
   return !low.includes('check') && !low.includes('tbd') && !low.includes('n/a')
 }
 
+function isDistinctUrl(a, b) {
+  if (!a || !b) return !!a
+  return a.replace(/\/$/, '') !== b.replace(/\/$/, '')
+}
+
 export default function OppDetailPanel({ opp, onClose }) {
   const [emailTab, setEmailTab] = useState('zh')
   const { t } = useLanguage()
   const verifyNeeded = !deadlineIsReal(opp.deadline)
+
+  // Determine which contact action to surface
+  const hasEmail     = !!(opp.contact && opp.contact.includes('@'))
+  const hasFormUrl   = !!(opp.contact_url && !hasEmail)
+  const hasApplyPage = !!(opp.submission_page && isDistinctUrl(opp.submission_page, opp.official_website))
 
   return (
     <div className="detail-panel">
@@ -42,7 +52,42 @@ export default function OppDetailPanel({ opp, onClose }) {
               🔗 {t('detail.website')}
             </a>
           )}
+
+          {/* ── Primary contact action — always give a path forward ── */}
+          {hasApplyPage && (
+            <a
+              className="detail-chip detail-chip-link detail-chip-action"
+              href={opp.submission_page}
+              target="_blank"
+              rel="noreferrer"
+            >
+              ✦ {t('detail.apply')}
+            </a>
+          )}
+          {hasEmail && (
+            <a
+              className="detail-chip detail-chip-link detail-chip-action"
+              href={`mailto:${opp.contact}`}
+            >
+              ✉ {t('detail.contact.email')}
+            </a>
+          )}
+          {hasFormUrl && (
+            <a
+              className="detail-chip detail-chip-link detail-chip-action"
+              href={opp.contact_url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              ✦ {t('detail.contact.form')}
+            </a>
+          )}
         </div>
+
+        {/* Contact note — shown when there's no direct email (portal/form-only path) */}
+        {opp.contact_note && (
+          <p className="detail-contact-note">{opp.contact_note}</p>
+        )}
       </div>
 
       {/* Two-column body */}
