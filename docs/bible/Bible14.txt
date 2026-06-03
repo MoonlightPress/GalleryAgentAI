@@ -1,0 +1,281 @@
+LANGUAGE AND INTERNATIONALIZATION
+Bible Entry 14 — Written 2026-06-03
+
+─────────────────────────────────────────────────────────────────────
+
+WHAT THIS DOCUMENT COVERS
+
+The internationalization architecture for Mochi's interface. Which
+surfaces switch language, which do not, and why. How the language
+toggle works across the three-companion structure. Implementation
+priority order. What to avoid.
+
+─────────────────────────────────────────────────────────────────────
+
+PART ONE: THE PROBLEM THIS SOLVES
+
+─────────────────────────────────────────────────────────────────────
+
+THE ARTIST'S LANGUAGE SITUATION
+
+The artist is a Chinese-speaking person living in Tokyo who submits
+work to galleries and open calls in Japanese and English. Her working
+day involves all three languages. Her emails shift between them. Her
+professional materials exist in multiple versions. The system was
+built in English, which is her third working language.
+
+This is backwards. A system that advises an artist in her third
+language is a system that keeps a slight distance. The surface
+friction is small — she reads English — but the friction is there.
+Analysis that arrives in Chinese lands differently than the same
+analysis in English. Copy written in the language the artist thinks
+in does not feel like software output. It feels like a companion
+talking.
+
+The language of the interface is not a localization detail. It is
+part of the relationship between the artist and the system.
+
+WHY THREE LANGUAGES
+
+English, Japanese, and Chinese are not arbitrary choices.
+
+Chinese is the language the artist thinks in. It is the language of
+her interior life, her private notes, her first instinct when she
+reads something. The system should be able to reach her there.
+
+Japanese is the language of the professional environment she is
+building her career in. Gallery names, venue addresses, curator
+names, cultural context — all of this lives in Japanese. A
+recommendation for a Tokyo gallery that arrives in Japanese feels
+less like a translation and more like it belongs.
+
+English is the lingua franca of the international art world. Open
+calls from European and American institutions are written in English.
+The RWS, Offprint, BOOOOOOOM — these speak English. When the artist
+is thinking internationally, she is probably thinking in English.
+
+The three languages match the three spheres of her professional life.
+The toggle lets her choose which sphere she is currently operating in.
+
+─────────────────────────────────────────────────────────────────────
+
+PART TWO: WHAT SWITCHES AND WHAT DOES NOT
+
+─────────────────────────────────────────────────────────────────────
+
+SURFACES THAT SWITCH LANGUAGE
+
+Everything the system writes. Not just labels — the full text of
+every surface where Mochi produces prose.
+
+    UI chrome: navigation labels, section headers, button text,
+    status messages, empty states, error messages, loading copy.
+
+    Companion voice copy: Mochi's "I found three things" messages,
+    Saffron's observation text, Peppercorn's questions. The companions
+    speak in the selected language.
+
+    Analysis sections: opportunity descriptions, match rationale,
+    scoring explanations, career strategy text, recommendation
+    summaries. This is the most important category. Analysis that
+    arrives in the artist's primary language is analysis that she
+    can absorb without translation overhead.
+
+    Status bar: Mochi's persistent status message across all three
+    pages switches with the rest.
+
+    Actionable items: the text of Today's Focus items, Immediate Best
+    Moves descriptions, watch list entries. Any prose the system
+    generates as a recommendation.
+
+    Email drafts: email drafts already exist in three languages.
+    The draft displayed by default should match the current interface
+    language. All three versions remain available — the language toggle
+    sets the default, not an exclusive view.
+
+SURFACES THAT DO NOT SWITCH LANGUAGE
+
+Proper nouns. Gallery names, venue names, artist names, city names,
+institution names. These are not translated. "TOKAS" is "TOKAS" in
+all three languages. "Youkobo Art Space" is "Youkobo Art Space."
+Translating proper nouns introduces errors and makes opportunities
+harder to research.
+
+External content. The text of an open call fetched from a third-party
+website is not translated. The system can note the original language
+of a source, but it does not rewrite external text.
+
+Data fields. Dates, URLs, deadlines, submission requirements, fee
+amounts. These are universal.
+
+JSON memory. The underlying data in memory/ does not change language.
+The artist profile, opportunity records, and contact memory are stored
+in their source language (predominantly English) and remain that way.
+Language switching is a presentation layer, not a data layer.
+
+─────────────────────────────────────────────────────────────────────
+
+PART THREE: IMPLEMENTATION
+
+─────────────────────────────────────────────────────────────────────
+
+PRIORITY ORDER
+
+The priority order is not alphabetical or the order in which the
+toggle appears. It reflects the artist's actual language hierarchy.
+
+    1. Chinese (Simplified)
+    2. Japanese
+    3. English
+
+Chinese is implemented first. It is the artist's primary language.
+The system in Chinese is the most useful version of the system.
+Japanese follows because the professional environment is Japanese.
+English is already the default — it ships for free.
+
+IMPLEMENTATION APPROACH
+
+Language switching is a session-level setting stored in Streamlit
+session state. On first load, the default is Chinese. The artist
+can toggle to Japanese or English. The selection persists for the
+session and is written to a user preference file so it persists
+across sessions.
+
+The toggle lives in the persistent header or sidebar — visible from
+all three companion pages. It does not belong to any single companion.
+It is infrastructure, not content.
+
+All system-generated prose passes through a language-aware text
+layer before rendering. This layer:
+
+    — accepts a content key or template string
+    — looks up the appropriate translation
+    — falls back to English if the translation is missing
+    — never silently renders an untranslated key
+
+The translation layer is not a machine translation wrapper.
+Translations are written strings, not generated on the fly. The
+companion voice is the most important surface — Mochi, Saffron, and
+Peppercorn should sound like themselves in each language, not like
+a translated script. Their voices are assets to be written, not
+strings to be processed.
+
+For analysis sections generated by Claude API calls, the language
+parameter is passed in the prompt. The model generates analysis
+directly in the target language. This is preferred over translating
+English output after the fact — direct generation in Chinese or
+Japanese produces better prose.
+
+TRANSLATION SURFACE INVENTORY
+
+Before implementation begins, produce a complete inventory of every
+string that must be translated. Categories:
+
+    Companion voice lines (Mochi, Saffron, Peppercorn)
+    Status bar messages
+    Section and subsection headers
+    Empty state copy
+    Error and loading messages
+    Button and action labels
+    Today's Focus structure labels (Quick Win, High Impact Move,
+    Stretch Goal)
+    Analysis section headers
+    Tier labels and descriptions
+    Career strategy copy
+    Scoring rationale templates
+
+This inventory is the scope of the translation work. It will be
+larger than expected. Do not underestimate it.
+
+THE TOGGLE IN CONTEXT OF THE THREE COMPANIONS
+
+Language is not a companion-specific setting. Mochi does not speak
+Chinese while Peppercorn speaks Japanese. All three companions speak
+the same language because they are all part of the same system
+talking to the same artist.
+
+The toggle is available on all three pages because the artist may
+want to change language while reading Saffron's market observations
+or while answering Peppercorn's questions. The transition between
+languages should be immediate and feel like flipping a register, not
+reloading a page.
+
+─────────────────────────────────────────────────────────────────────
+
+PART FOUR: WHAT TO AVOID
+
+─────────────────────────────────────────────────────────────────────
+
+DO NOT MACHINE-TRANSLATE THE COMPANION VOICE
+
+The companion voice is the most carefully designed element of the
+interface. Mochi does not say "I have found the following items
+for you." She says "I found these." Peppercorn does not say "Please
+provide your artist statement." He says "I was wondering."
+
+If machine translation is used on this copy without curation, the
+voice is lost. The companions become generic software output that
+happens to be in Chinese. This is worse than leaving it in English —
+at least English copy sounds intentional.
+
+The companion voice must be written by a native speaker or carefully
+reviewed by one. It is not a localization cost to minimize. It is
+core product quality.
+
+DO NOT DEFAULT TO ENGLISH WITHOUT A PREFERENCE CHECK
+
+On first load, English is not the right default. Chinese is the
+right default for this artist. If the system is ever deployed for
+other artists, the default language should be determined by artist
+profile, not by what is easiest to ship.
+
+An artist who opens a system that defaults to her third language
+will change the setting once and never think about it again — but
+the first impression was wrong, and first impressions leave marks.
+
+DO NOT TREAT THIS AS COSMETIC
+
+The temptation is to treat language switching as a UI polish feature:
+something to add after the important work is done. This framing is
+wrong. For this specific artist, Chinese is not a cosmetic preference.
+It is the difference between a system that feels like her own and a
+system that feels borrowed.
+
+Language switching belongs in the current development phase. It is
+not a stretch goal. It is not Tier 4.
+
+DO NOT PARTIALLY TRANSLATE
+
+A partially translated interface is worse than an untranslated one.
+If the headers are in Chinese but the analysis is in English, the
+mixed-language experience reads as broken, not multilingual. The
+fallback to English for missing translations is an engineering
+safety net, not a design choice. Every string in the inventory must
+be translated before a language is marked as available in the toggle.
+
+─────────────────────────────────────────────────────────────────────
+
+PART FIVE: RELATION TO OTHER BIBLE ENTRIES
+
+─────────────────────────────────────────────────────────────────────
+
+Bible08 defined the three-companion architecture. The language toggle
+is a layer on top of that architecture, not a change to it. The
+companions are who they are regardless of language. Mochi is still
+purposeful and feline. Saffron is still patient and wide-seeing.
+Peppercorn is still intimate and careful. Language is how they
+speak, not who they are.
+
+Bible13 defined the desk metaphor — that the artist is always at her
+desk and the companions come to her. The language toggle is the
+artist's right as the owner of the desk. The companions speak her
+language because they are guests. Guests adapt. The desk belongs to
+her.
+
+The email drafting system already generates in three languages. This
+spec catches the rest of the interface up to the standard that email
+drafts already meet.
+
+─────────────────────────────────────────────────────────────────────
+
+END OF BIBLE ENTRY 14
