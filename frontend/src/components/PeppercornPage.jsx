@@ -769,7 +769,7 @@ function computeSectionOrder(profile) {
 
 // ── Page root ──────────────────────────────────────────────────────────────
 
-export default function PeppercornPage() {
+export default function PeppercornPage({ nav }) {
   const [profile,     setProfile]     = useState(null)
   const [statusMsg,   setStatusMsg]   = useState('')
   const [isSaved,     setIsSaved]     = useState(false)
@@ -911,6 +911,8 @@ export default function PeppercornPage() {
       <div className="pp-mouse-ambient">
         <img src={peppercornHero} alt="Peppercorn" className="pp-mouse-img" />
       </div>
+
+      {nav}
 
       {/* Status bar */}
       {statusMsg && (

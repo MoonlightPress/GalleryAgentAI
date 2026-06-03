@@ -20,7 +20,8 @@
 .pp-mouse-ambient {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 56vh;
+  min-height: 340px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -118,6 +119,8 @@
 
 .pp-card-arc {
   margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
 }
 
 .pp-card-name {

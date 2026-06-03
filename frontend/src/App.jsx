@@ -10,15 +10,16 @@ import StatusBar from './components/StatusBar'
 
 export default function App() {
   const [page, setPage] = useState('discover')
+  const nav = <Nav activePage={page} onNav={setPage} />
 
   return (
     <LanguageProvider>
       <div className="app">
         {page === 'discover' && <HeroSection />}
-        <Nav activePage={page} onNav={setPage} />
+        {page === 'discover' && nav}
         {page === 'discover' && <OpportunitiesSection />}
-        {page === 'observe'  && <SaffronPage />}
-        {page === 'refine'   && <PeppercornPage />}
+        {page === 'observe'  && <SaffronPage nav={nav} />}
+        {page === 'refine'   && <PeppercornPage nav={nav} />}
         <StatusBar />
       </div>
     </LanguageProvider>

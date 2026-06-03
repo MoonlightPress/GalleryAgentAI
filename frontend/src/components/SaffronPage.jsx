@@ -686,7 +686,7 @@ function OpenQuestions({ data, t }) {
 
 // ── Page root ──────────────────────────────────────────────────────────────
 
-export default function SaffronPage() {
+export default function SaffronPage({ nav }) {
   const [data,  setData]  = useState(null)
   const [error, setError] = useState(null)
   const { t } = useLanguage()
@@ -703,6 +703,7 @@ export default function SaffronPage() {
       <section className="saffron-hero">
         <img src={saffronHero} alt="Saffron's wide view" className="saffron-hero-img" />
       </section>
+      {nav}
 
       {!data && !error && <div className="sf-loading">{t('sf.loading')}</div>}
 
