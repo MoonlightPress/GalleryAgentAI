@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-04
 # TOKIO ART BOOK FAIR 2026
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 9.1/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Zine Fair Booth  

@@ -1,8 +1,8 @@
 # loneliness books
 
 ## 1. Quick Judgment
-**Fit score:** 6.0/10  
-**Fit band:** Promising  
+**Fit score:** 3.0/10  
+**Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Print / Zines / Bookstores  
 **City:** Nakano, Tokyo  

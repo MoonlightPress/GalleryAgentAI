@@ -11,7 +11,6 @@
     "gallery": 0,
     "bookstore_event": 0,
     "cafe_gallery": 0,
-    "": 0,
     "gallery_event": 0,
     "event_space": 0,
     "global_artist_book_platform": 0,
@@ -20,7 +19,6 @@
   },
   "country_reputation": {
     "": 0,
-    "Tokyo": 0,
     "UK / Global": 0,
     "USA": 0,
     "France / UK": 0

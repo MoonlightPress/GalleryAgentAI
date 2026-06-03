@@ -9,21 +9,21 @@
 
 ## Top 15 Opportunities
 
-- ZINEフェス東京 (ZINE Fest Tokyo) — 9.2/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.2)
 - Tokyo Art Book Fair — 9.2/10 — partial — ok — Rescored 8.8 → 9.2 (verification_points=5, composite=10.08)
+- ZINEフェス東京 (ZINE Fest Tokyo) — 9.2/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.2)
 - Women United ART MAGAZINE Issue XIV Summer 2026 — 8.8/10 — partial — ok — 
 - MOUNT ZINE — 9.2/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=9.98)
-- UTRECHT — 8.2/10 — partial — ok — Rescored 8.6 → 8.2 (verification_points=3, composite=10.0)
-- B&B Shimokitazawa — 7.1/10 — partial — ok — Rescored 8.6 → 7.1 (verification_points=3, composite=8.26)
-- flotsam books — 7.1/10 — partial — ok — Rescored 8.6 → 7.1 (verification_points=3, composite=8.26)
-- Aperture | Photography — 8.7/10 — partial — ok — Rescored 8.6 → 8.7 (verification_points=4, composite=9.39)
-- submissions — porkbelly press — 8.6/10 — partial — ok — Rescored 7.6 → 8.5 (verification_points=4, composite=9.15)
-- Submissions — Clavis Publishing — 7.4/10 — partial — ok — Rescored 8.6 → 7.4 (verification_points=2, composite=9.25)
-- Fukuoka Art Book Fair — 4.8/10 — partial — ok — Rescored 8.6 → 4.8 (verification_points=3, composite=5.64)
-- BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — partial — ok — 
+- Aperture | Photography — 8.8/10 — partial — ok — Rescored 8.7 → 8.8 (verification_points=4, composite=9.43)
 - CSPWC Annual Open Water International Exhibition — 9.6/10 — partial — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=10.06)
+- submissions — porkbelly press — 8.6/10 — partial — ok — Rescored 7.6 → 8.5 (verification_points=4, composite=9.15)
+- BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — partial — ok — 
+- UTRECHT — 8.2/10 — partial — ok — Rescored 8.6 → 8.2 (verification_points=3, composite=10.0)
+- 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026) — 8.8/10 — partial — ok — Rescored 8.1 → 8.6 (verification_points=4, composite=9.29)
+- Bologna Children's Book Fair Illustrators Exhibition — 8.8/10 — partial — ok — Rescored 8.6 → 8.8 (verification_points=4, composite=9.93)
+- American Illustration — 8.8/10 — partial — ok — Rescored 8.6 → 8.8 (verification_points=4, composite=9.93)
 - Northwest Watercolor Society 2026 Annual International Open Exhibition — 9.2/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.06)
-- National Watercolor Society International Open Exhibition — 5.7/10 — partial — ok — Rescored 9.4 → 5.7 (verification_points=7, composite=5.68)
+- American Watercolor Society Annual International Exhibition — 8.8/10 — partial — ok — Rescored 8.6 → 8.8 (verification_points=4, composite=9.87)
+- 第113回 日本水彩展 — 9.2/10 — partial — ok — Rescored 8.8 → 9.2 (verification_points=5, composite=9.75)
 
 ## Approved Candidate Sample
 

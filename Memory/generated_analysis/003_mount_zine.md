@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-04
 
 # MOUNT ZINE
 
@@ -50,5 +50,5 @@ Watch @mountzine on Twitter/X and Instagram for autumn 2026 submission recruitme
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_
 

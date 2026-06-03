@@ -1,23 +1,23 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-04
 
 # Book and Sons
 
 ## 1. Quick Judgment
-**Fit score:** 10/10  
+**Fit score:** 9.6/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Print / Zines / Bookstores  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://bookandsons.com/ (verified)
 - **Submission process**: https://bookandsons.com/ (verified)
 - **Deadline**: Not publicly listed (verified)
 - **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: https://btob.bookandsons.com/pages/contact (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Print / Zines / Bookstores.
@@ -50,5 +50,5 @@ Visit website to understand current exhibition programming and whether unsolicit
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_
 

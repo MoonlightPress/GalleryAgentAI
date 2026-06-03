@@ -2,19 +2,7 @@
 
 This report suggests adjacent institutions and ecosystems.
 
-## ZINEフェス東京 (ZINE Fest Tokyo)
-
-
-## MOUNT ZINE
-
-
 ## CSPWC Annual Open Water International Exhibition
-
-
-## Northwest Watercolor Society 2026 Annual International Open Exhibition
-
-
-## National Watercolor Society International Open Exhibition
 
 
 ## Tokyo Art Book Fair
@@ -27,6 +15,21 @@ This report suggests adjacent institutions and ecosystems.
 - Home - Printed Matter (similarity 3)
 - Publishing / Artist Books — Battle Plan (similarity 3)
 
+## ZINEフェス東京 (ZINE Fest Tokyo)
+
+
+## MOUNT ZINE
+
+
+## Northwest Watercolor Society 2026 Annual International Open Exhibition
+
+
+## 第113回 日本水彩展
+
+
+## 水彩アートの祭典
+
+
 ## Women United ART MAGAZINE Issue XIV Summer 2026
 
 
@@ -36,20 +39,17 @@ This report suggests adjacent institutions and ecosystems.
 ## 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
 
 
+## Bologna Children's Book Fair Illustrators Exhibition
+
+
+## American Illustration
+
+
+## American Watercolor Society Annual International Exhibition
+
+
 ## 水彩アートの祭典 (Watercolor Art Festival)
 
 
 ## HATTIFNATT Koenji Cafe Gallery
-
-
-## 水彩アートの祭典
-
-
-## BALLOND'ESSAI Shimokitazawa
-
-
-## Japan International Watercolor Institute Online Exhibition
-
-
-## 第113回 日本水彩展
 

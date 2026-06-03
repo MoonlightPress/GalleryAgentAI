@@ -62,6 +62,18 @@ These opportunities may create disproportionate reputation value.
 - Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## CSPWC Annual Open Water International Exhibition
+
+- Prestige: None
+- Why: International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Tokyo Art Book Fair
+
+- Prestige: None
+- Why: Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## ZINEフェス東京 (ZINE Fest Tokyo)
 
 - Prestige: None
@@ -74,28 +86,22 @@ These opportunities may create disproportionate reputation value.
 - Why: Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## CSPWC Annual Open Water International Exhibition
-
-- Prestige: None
-- Why: International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
 ## Northwest Watercolor Society 2026 Annual International Open Exhibition
 
 - Prestige: None
 - Why: Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## National Watercolor Society International Open Exhibition
+## 第113回 日本水彩展
 
 - Prestige: None
-- Why: One of the most prestigious watercolor exhibitions globally. 2026 deadline passed but recurs annually. $70 non-member entry, $40,000+ awards.
+- Why: Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## Tokyo Art Book Fair
+## 水彩アートの祭典
 
 - Prestige: None
-- Why: Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- Why: Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Women United ART MAGAZINE Issue XIV Summer 2026
@@ -116,6 +122,18 @@ These opportunities may create disproportionate reputation value.
 - Why: Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## Bologna Children's Book Fair Illustrators Exhibition
+
+- Prestige: None
+- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## American Illustration
+
+- Prestige: None
+- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## 水彩アートの祭典 (Watercolor Art Festival)
 
 - Prestige: None
@@ -128,26 +146,8 @@ These opportunities may create disproportionate reputation value.
 - Why: The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## 水彩アートの祭典
+## Jinny Street Gallery Open Call
 
 - Prestige: None
-- Why: Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## BALLOND'ESSAI Shimokitazawa
-
-- Prestige: None
-- Why: Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Japan International Watercolor Institute Online Exhibition
-
-- Prestige: None
-- Why: Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 第113回 日本水彩展
-
-- Prestige: None
-- Why: Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum
+- Why: Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

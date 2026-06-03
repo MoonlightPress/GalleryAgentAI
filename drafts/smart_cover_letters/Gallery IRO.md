@@ -4,10 +4,10 @@ Tone:
 restrained and confident
 
 Recommended Body of Work:
-General Portfolio
+Artist Book / Printed Matter
 
 Core Fit:
-Tokyo location aligns with Japan focus, but business model uncertainty creates risk of misaligned investment.
+Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 Draft Structure:
 
