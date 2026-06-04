@@ -77,7 +77,7 @@ QUERIES = [
         "id": "jp_twitter_gallery_koubo",
         "group": "JP",
         "lang": "ja",
-        "q": "ギャラリー 公募 展示 東京 2026",
+        "q": "ギャラリー 公募 展示 絵画 水彩 東京 2026",
         "domains": ["x.com", "twitter.com"],
     },
     {
@@ -109,14 +109,14 @@ QUERIES = [
         "id": "jp_bijutsutecho_koubo",
         "group": "JP",
         "lang": "ja",
-        "q": "公募 展覧会 水彩 2026 東京",
+        "q": "公募 展覧会 水彩 絵画 2026 東京",
         "domains": ["bijutsutecho.com"],
     },
     {
         "id": "jp_bijutsutecho_open_call",
         "group": "JP",
         "lang": "ja",
-        "q": "アーティスト 公募 open call 募集 2026",
+        "q": "アーティスト 公募 絵画 水彩 イラスト 募集 2026",
         "domains": ["bijutsutecho.com"],
     },
 
@@ -192,7 +192,7 @@ QUERIES = [
         "id": "cn_lofter_art_recruit",
         "group": "CN",
         "lang": "zh",
-        "q": "艺术家 征集 公募 展示 2026",
+        "q": "艺术家 水彩 绘画 插画 征集 展示 2026",
         "domains": ["lofter.com"],
     },
 
@@ -208,7 +208,7 @@ QUERIES = [
         "id": "cn_zcool_open_call",
         "group": "CN",
         "lang": "zh",
-        "q": "艺术家 公开征集 展示 2026 截止",
+        "q": "水彩 插画 绘画 公开征集 展示 2026 截止",
         "domains": ["zcool.com.cn"],
     },
 
@@ -224,7 +224,7 @@ QUERIES = [
         "id": "cn_illustration_magazine_call",
         "group": "CN",
         "lang": "zh",
-        "q": "插画 杂志 征稿 艺术家 2026",
+        "q": "插画 绘画 展览 征稿 艺术家 2026",
         "domains": [],
     },
     {
@@ -240,14 +240,14 @@ QUERIES = [
         "id": "diaspora_tokyo_chinese_art",
         "group": "DIASPORA",
         "lang": "mixed",
-        "q": "在日华人 艺术 展览 公募 东京 2026",
+        "q": "在日华人 水彩 绘画 插画 展览 公募 东京 2026",
         "domains": [],
     },
     {
         "id": "diaspora_tokyo_chinese_gallery",
         "group": "DIASPORA",
         "lang": "mixed",
-        "q": "Tokyo Chinese artist exhibition open call gallery 2026",
+        "q": "Tokyo Chinese artist watercolor illustration exhibition open call gallery 2026",
         "domains": [],
     },
     {
@@ -270,7 +270,7 @@ QUERIES = [
         "id": "diaspora_sg_chinese",
         "group": "DIASPORA",
         "lang": "mixed",
-        "q": "新加坡 华人 艺术家 征稿 展览 2026",
+        "q": "新加坡 华人 水彩 插画 艺术家 征稿 展览 2026",
         "domains": [],
     },
 
@@ -286,7 +286,7 @@ QUERIES = [
         "id": "diaspora_van_chinese",
         "group": "DIASPORA",
         "lang": "mixed",
-        "q": "温哥华 华人艺术家 征稿 展览 2026",
+        "q": "温哥华 华人艺术家 水彩 插画 征稿 展览 2026",
         "domains": [],
     },
 
