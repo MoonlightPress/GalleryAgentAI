@@ -33,6 +33,7 @@ PIPELINE = [
     "dna_recommendation_booster.py",
     "deep_match_scoring_engine.py",
     "lineage_scoring_engine.py",
+    "tier_scoring_engine.py",
     "feedback_learning_engine.py",
     "preference_rescoring_engine.py",
     "portfolio_match_engine.py",

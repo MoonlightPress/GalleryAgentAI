@@ -1,124 +1,154 @@
 [
   {
-    "name": "Yoshiyuki Okuyama",
-    "region": "Japan",
-    "fit_reason": "youthful everyday scenes, memory, light, quiet personal atmosphere",
+    "name": "Thomas W. Schaller",
+    "region": "USA",
+    "medium": "watercolor",
+    "fit_reason": "architectural watercolor — buildings, urban light, atmosphere, quiet structural observation",
     "shared_traits": [
-      "daily life",
-      "memory",
-      "intimate scale",
-      "photobook culture"
+      "architecture",
+      "urban environments",
+      "atmospheric light",
+      "watercolor medium",
+      "quiet observation"
     ],
-    "use_as": "reference for accessible poetic sequencing",
+    "use_as": "primary reference for architectural watercolor practice and career path",
+    "fit_score": 4.5,
+    "overlap_terms": [
+      "architecture",
+      "atmosphere",
+      "urban"
+    ]
+  },
+  {
+    "name": "Chien Chung-Wei (簡忠威)",
+    "region": "Taiwan",
+    "medium": "watercolor",
+    "fit_reason": "atmospheric watercolor, quiet scenes, respected throughout Asian watercolor communities — career path relevant",
+    "shared_traits": [
+      "atmosphere",
+      "quiet observation",
+      "watercolor medium",
+      "Asia-based career",
+      "international recognition from regional base"
+    ],
+    "use_as": "reference for building Asian watercolor credibility and international reach",
+    "fit_score": 4.2,
+    "overlap_terms": [
+      "atmosphere",
+      "watercolor",
+      "Asia"
+    ]
+  },
+  {
+    "name": "Keiko Tanabe",
+    "region": "Japan / USA",
+    "medium": "watercolor",
+    "fit_reason": "Japanese watercolor painter, urban and travel subjects, light and understated atmosphere — Japan-connected career",
+    "shared_traits": [
+      "Japan-connected",
+      "urban subjects",
+      "watercolor medium",
+      "quiet palette",
+      "travel and place"
+    ],
+    "use_as": "reference for Japan-rooted watercolor practice with international visibility",
     "fit_score": 4.0,
     "overlap_terms": [
-      "intimate scale",
-      "memory"
+      "Japan",
+      "urban",
+      "watercolor"
     ]
   },
   {
-    "name": "Rinko Kawauchi",
-    "region": "Japan",
-    "fit_reason": "quiet observation, soft attention to ordinary life, poetic sequencing",
+    "name": "Cathy Read",
+    "region": "UK",
+    "medium": "watercolor",
+    "fit_reason": "architectural watercolor, buildings and urban environments — direct medium and subject overlap",
     "shared_traits": [
-      "quiet photography",
-      "daily life",
-      "memory",
-      "sequence",
-      "soft atmosphere"
+      "architecture",
+      "urban environments",
+      "watercolor medium",
+      "buildings",
+      "structural observation"
     ],
-    "use_as": "tone reference, not direct stylistic imitation",
-    "fit_score": 2.8,
+    "use_as": "reference for architectural watercolor subject matter and exhibition pathway",
+    "fit_score": 3.8,
     "overlap_terms": [
-      "memory"
+      "architecture",
+      "urban",
+      "watercolor"
     ]
   },
   {
-    "name": "Sophie Calle",
-    "region": "France",
-    "fit_reason": "trace, absence, narrative fragments, emotional residue",
+    "name": "Alvaro Castagnet",
+    "region": "Uruguay / Australia",
+    "medium": "watercolor",
+    "fit_reason": "urban watercolor, atmospheric loose style, strong international exhibition record from non-Western base",
     "shared_traits": [
-      "absence",
-      "trace",
-      "narrative fragments",
-      "memory"
+      "urban scenes",
+      "atmosphere",
+      "watercolor medium",
+      "international career from regional base"
     ],
-    "use_as": "reference for conceptual framing, not visual style",
-    "fit_score": 2.0,
+    "use_as": "reference for building international watercolor exhibition record",
+    "fit_score": 3.2,
     "overlap_terms": [
-      "memory"
+      "urban",
+      "atmosphere",
+      "watercolor"
     ]
   },
   {
-    "name": "Batia Suter",
-    "region": "Europe",
-    "fit_reason": "book-oriented image sequencing and associative visual thinking",
-    "shared_traits": [
-      "artist book",
-      "sequence",
-      "visual association",
-      "printed matter"
-    ],
-    "use_as": "reference for book logic",
-    "fit_score": 1.2,
-    "overlap_terms": [
-      "artist book"
-    ]
-  },
-  {
-    "name": "Alec Soth",
+    "name": "John Salminen",
     "region": "USA",
-    "fit_reason": "narrative sequencing, place, human trace, photographic storytelling through accumulation",
+    "medium": "watercolor",
+    "fit_reason": "architectural watercolor, urban subjects, strong draftsmanship — different tone but relevant subject matter",
     "shared_traits": [
-      "sequence",
-      "place",
-      "human trace",
-      "photobook"
+      "architecture",
+      "urban environments",
+      "watercolor medium",
+      "precision observation"
     ],
-    "use_as": "reference for project structure",
-    "fit_score": 1.0,
-    "overlap_terms": []
+    "use_as": "reference for architectural precision in watercolor",
+    "fit_score": 3.0,
+    "overlap_terms": [
+      "architecture",
+      "urban",
+      "watercolor"
+    ]
   },
   {
-    "name": "Takashi Homma",
+    "name": "Jean Haines",
+    "region": "UK",
+    "medium": "watercolor",
+    "fit_reason": "prominent watercolor practitioner and teacher — career community reference, stylistically different from Nin",
+    "shared_traits": [
+      "watercolor medium",
+      "international watercolor community"
+    ],
+    "use_as": "watercolor community reference only — style does not match Nin s quiet urban work",
+    "fit_score": 1.8,
+    "overlap_terms": [
+      "watercolor"
+    ]
+  },
+  {
+    "name": "Japan Watercolor Society (日本水彩画会) exhibitors",
     "region": "Japan",
-    "fit_reason": "ordinary architecture, suburbs, place-based observation, understated photographic language",
+    "medium": "watercolor",
+    "fit_reason": "annual national exhibition, Tier 3 credibility target — contemporary Japanese watercolor practitioners working at the level Nin is building toward",
     "shared_traits": [
-      "architecture",
-      "urban vernacular",
-      "daily place",
-      "cool restraint"
+      "Japan-based",
+      "watercolor medium",
+      "annual exhibition culture",
+      "national credibility"
     ],
-    "use_as": "reference for place and built environment",
-    "fit_score": 0.7,
-    "overlap_terms": []
-  },
-  {
-    "name": "Mark Ruwedel",
-    "region": "USA",
-    "fit_reason": "quiet documentary attention to traces in landscape and built space",
-    "shared_traits": [
-      "trace",
-      "architecture",
-      "absence",
-      "documentary restraint"
-    ],
-    "use_as": "reference for human absence and place",
-    "fit_score": 0.7,
-    "overlap_terms": []
-  },
-  {
-    "name": "Toshio Shibata",
-    "region": "Japan",
-    "fit_reason": "infrastructure, built environment, restrained photographic observation",
-    "shared_traits": [
-      "infrastructure",
-      "architecture",
-      "quiet form",
-      "Japan"
-    ],
-    "use_as": "reference for built structures",
-    "fit_score": 0.7,
-    "overlap_terms": []
+    "use_as": "reference ecosystem for Japan active watercolor exhibition community; individual exhibitors to research as Nin approaches Tier 3",
+    "fit_score": 3.5,
+    "overlap_terms": [
+      "Japan",
+      "watercolor",
+      "annual exhibition"
+    ]
   }
 ]
