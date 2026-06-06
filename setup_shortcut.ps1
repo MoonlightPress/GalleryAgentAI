@@ -13,7 +13,7 @@ $ErrorActionPreference = "Stop"
 $ProjectRoot  = "C:\ScottStuff\GalleryAgentAI"
 $IconPath     = "$ProjectRoot\static\mochi_icon.ico"
 $VbsPath      = "$ProjectRoot\launch_mochi.vbs"
-$ShortcutPath = "$env:USERPROFILE\Desktop\Mochi Atelier.lnk"
+$ShortcutPath = [System.IO.Path]::Combine([Environment]::GetFolderPath("Desktop"), "Mochi Atelier.lnk")
 
 Write-Host ""
 Write-Host "  Mochi Atelier — Shortcut Installer" -ForegroundColor Yellow
