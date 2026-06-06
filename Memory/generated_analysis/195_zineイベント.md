@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-04
 # ZINEイベント
 
 ## 1. Quick Judgment
-**Fit score:** 6.3/10  
+**Fit score:** 6.5/10  
 **Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Markets / Popups / Booths  

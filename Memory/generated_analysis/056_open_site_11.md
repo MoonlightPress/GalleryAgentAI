@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-04
 # OPEN SITE 11
 
 ## 1. Quick Judgment
-**Fit score:** 10.0/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Artist Spaces  

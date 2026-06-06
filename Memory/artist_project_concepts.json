@@ -511,15 +511,6 @@
         "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
-        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-        "score": 8.6,
-        "differentiated_score": 10.22,
-        "hits": [
-          "open call"
-        ],
-        "why": "Possible fit based on link text: zine, open call"
-      },
-      {
         "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
         "score": 8.6,
         "differentiated_score": 10.22,
@@ -527,6 +518,15 @@
           "open call"
         ],
         "why": "Possible fit based on link text: zine, open call, residency"
+      },
+      {
+        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+        "score": 8.6,
+        "differentiated_score": 10.22,
+        "hits": [
+          "open call"
+        ],
+        "why": "Possible fit based on link text: zine, open call"
       },
       {
         "title": "Browse opportunities | CuratorSpace",
@@ -538,6 +538,15 @@
         "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
       },
       {
+        "title": "Top Artist Opportunities for 2026 | ArtConnect",
+        "score": 8.6,
+        "differentiated_score": 9.98,
+        "hits": [
+          "open call"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition"
+      },
+      {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
         "score": 8.8,
         "differentiated_score": 9.96,
@@ -547,23 +556,13 @@
         "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
       },
       {
-        "title": "Top Artist Opportunities for 2026 | ArtConnect",
-        "score": 8.4,
-        "differentiated_score": 9.78,
+        "title": "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition",
+        "score": 8.6,
+        "differentiated_score": 9.88,
         "hits": [
           "open call"
         ],
-        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition"
-      },
-      {
-        "title": "DER GREIF",
-        "score": 8.5,
-        "differentiated_score": 9.7,
-        "hits": [
-          "portfolio review",
-          "open call"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
+        "why": "Open call for Singapore Art Week featuring multiple venues and formats suitable for illustration and contemporary practice."
       }
     ]
   }

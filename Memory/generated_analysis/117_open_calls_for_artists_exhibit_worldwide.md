@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-04
 
 # Open Calls for Artists | Exhibit Worldwide
 
 ## 1. Quick Judgment
-**Fit score:** 9.3/10  
+**Fit score:** 9.0/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
 
 - **Official/source website**: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537 (verified)
-- **Submission process**: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537 (verified)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://www.theholyart.com/tokyo-open-art (verified)
+- **Deadline**: October 26, 2025 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -37,9 +37,9 @@ Open Calls for Artists | Exhibit Worldwide may fit if its past artists show quie
 - Risk: Only one source found so far.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** October 26, 2025
 - **Fees:** Not publicly listed
-- **Submission page:** //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537
+- **Submission page:** https://www.theholyart.com/tokyo-open-art
 - **Source:** //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537
 
 ## 8. Risk / Unknowns
@@ -51,5 +51,5 @@ Review current/past artists and check whether submissions, contact email, or ope
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_
 

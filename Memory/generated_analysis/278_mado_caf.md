@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-04
 # MADO Café
 
 ## 1. Quick Judgment
-**Fit score:** 4.4/10  
-**Fit band:** Possible, but not urgent  
+**Fit score:** 3.2/10  
+**Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  
 **City:** Koenji  

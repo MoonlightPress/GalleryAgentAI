@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-03
+REPORT GENERATED: 2026-06-04
 
 # Japan Book Publishers Association - JBPA
 
@@ -50,5 +50,5 @@ Review recent titles and decide whether this is a publisher, distributor, bookst
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-03_
+_Last generated: 2026-06-04_
 

@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-04
 
 # Asian Cultural Council Fellowship
 
 ## 1. Quick Judgment
-**Fit score:** 8.0/10  
-**Fit band:** Excellent fit  
+**Fit score:** 7.1/10  
+**Fit band:** Strong fit  
 **Confidence:** Medium  
 **Type:** Global Grant Fellowship  
 **City:** New York / Global  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
 
 - **Official/source website**: https://www.asianculturalcouncil.org/ (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2025-11-19 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -36,7 +36,7 @@ Directly designed for artists from Asia building international careers — a fel
 - Fellowship support could fund the deep-work year or international residency she is planning.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** 2025-11-19
 - **Fees:** Not publicly listed
 - **Submission page:** Not publicly listed
 - **Source:** https://www.asianculturalcouncil.org/
@@ -50,5 +50,5 @@ Research current fellowship categories, eligibility (Chinese national based in J
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-04_
 

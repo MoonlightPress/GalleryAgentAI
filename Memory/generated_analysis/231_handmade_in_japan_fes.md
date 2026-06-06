@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-04
 # HandMade In Japan Fes
 
 ## 1. Quick Judgment
-**Fit score:** 6.1/10  
+**Fit score:** 6.2/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  

@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-04
 # 上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)
 
 ## 1. Quick Judgment
-**Fit score:** 2.8/10  
+**Fit score:** 2.4/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Institutional / Grants  

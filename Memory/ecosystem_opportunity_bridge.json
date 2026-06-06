@@ -31,6 +31,15 @@
         "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
       },
       {
+        "title": "flotsam books",
+        "score": 8.2,
+        "differentiated_score": 10.19,
+        "hit_nodes": [
+          "flotsam books"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
+      },
+      {
         "title": "TOKIO ART BOOK FAIR 2026",
         "score": 8.6,
         "differentiated_score": 10.1,
@@ -38,15 +47,6 @@
           "TOKYO ART BOOK FAIR"
         ],
         "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
-      },
-      {
-        "title": "flotsam books",
-        "score": 7.8,
-        "differentiated_score": 9.79,
-        "hit_nodes": [
-          "flotsam books"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
         "title": "POST",
@@ -59,8 +59,8 @@
       },
       {
         "title": "shashasha",
-        "score": 6.1,
-        "differentiated_score": 7.06,
+        "score": 6.3,
+        "differentiated_score": 7.26,
         "hit_nodes": [
           "Shashasha"
         ],
@@ -101,8 +101,8 @@
       },
       {
         "title": "Gallery Conceal Shibuya",
-        "score": 6.4,
-        "differentiated_score": 7.1,
+        "score": 6.7,
+        "differentiated_score": 7.4,
         "hit_nodes": [
           "VOID"
         ],
@@ -110,8 +110,8 @@
       },
       {
         "title": "Picaresque Gallery",
-        "score": 4.3,
-        "differentiated_score": 5.16,
+        "score": 4.7,
+        "differentiated_score": 5.56,
         "hit_nodes": [
           "VOID"
         ],
@@ -157,8 +157,8 @@
       },
       {
         "title": "flotsam books",
-        "score": 7.8,
-        "differentiated_score": 9.79,
+        "score": 8.2,
+        "differentiated_score": 10.19,
         "hit_nodes": [
           "flotsam books"
         ],
