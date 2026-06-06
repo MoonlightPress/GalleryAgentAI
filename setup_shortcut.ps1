@@ -152,30 +152,46 @@ Write-Host "  [2/3] Writing launcher..."
 
 $vbs = @'
 ' launch_mochi.vbs — silent launcher for Mochi Atelier
-' Checks whether Streamlit is already running on :8501.
-' If not, starts it silently. Then opens the browser.
+' Checks :5177 (React/Vite) and :8001 (FastAPI). Starts both if needed. Opens browser.
 
-Dim objShell, objHTTP, running
+Dim objShell, objHTTP, frontendRunning, apiRunning
 
 Set objShell = CreateObject("WScript.Shell")
 Set objHTTP  = CreateObject("MSXML2.XMLHTTP")
+Dim root : root = "C:\ScottStuff\GalleryAgentAI"
 
-running = False
+frontendRunning = False
 On Error Resume Next
-objHTTP.Open "GET", "http://localhost:8501", False
+objHTTP.Open "GET", "http://localhost:5177", False
 objHTTP.Send
 If Err.Number = 0 Then
-    If objHTTP.Status = 200 Then running = True
+    If objHTTP.Status > 0 Then frontendRunning = True
 End If
+Err.Clear
 On Error GoTo 0
 
-If Not running Then
-    ' Start Streamlit with no visible window (0 = hidden, False = don't wait)
-    objShell.Run "cmd /c cd /d C:\ScottStuff\GalleryAgentAI && python -m streamlit run app.py --server.headless true", 0, False
-    WScript.Sleep 4000
+apiRunning = False
+On Error Resume Next
+objHTTP.Open "GET", "http://localhost:8001/api/health", False
+objHTTP.Send
+If Err.Number = 0 Then
+    If objHTTP.Status = 200 Then apiRunning = True
+End If
+Err.Clear
+On Error GoTo 0
+
+If Not apiRunning Then
+    objShell.Run "cmd /c cd /d " & root & " && python api.py", 0, False
 End If
 
-objShell.Run "http://localhost:8501"
+If Not frontendRunning Then
+    objShell.Run "cmd /c cd /d " & root & "\frontend && npm run dev", 0, False
+    WScript.Sleep 5000
+ElseIf Not apiRunning Then
+    WScript.Sleep 2000
+End If
+
+objShell.Run "http://localhost:5177"
 '@
 
 [System.IO.File]::WriteAllText($VbsPath, $vbs, [System.Text.Encoding]::ASCII)
