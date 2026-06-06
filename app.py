@@ -2,6 +2,7 @@
 import base64
 import json
 import os
+from opportunity_status_engine import key_for, mark_saved, mark_not_for_me, load_json as _load_statuses
 from ui.best_moves_streamlit_section import deadline_badge_html
 from ui.strategy_homepage_components import render_strategy_homepage
 from ui.zine_opportunity_section import render_zine_section
@@ -476,21 +477,36 @@ def render_compact_card(opp, key_prefix):
         unsafe_allow_html=True,
     )
 
-    b1, b2, b3 = st.columns([1, 1, 1.2])
+    opp_key = key_for(opp)
+    statuses = _load_statuses("memory/opportunity_status.json", {})
+    status = statuses.get(opp_key, {})
+    is_saved = status.get("saved", False)
+    is_dismissed = status.get("rejected", False)
+
+    b1, b2, b3, b4 = st.columns([1.2, 1, 1, 1])
     with b1:
         if st.button("Details", key=f"{key_prefix}_details"):
             st.session_state["selected_title"] = title
             st.session_state["selected_mode"] = "details"
             st.rerun()
     with b2:
-        if st.button("Report", key=f"{key_prefix}_report"):
-            st.session_state["selected_title"] = title
-            st.session_state["selected_mode"] = "report"
-            st.rerun()
-    with b3:
         source = get_source(opp)
         if source:
             st.link_button("Source", source)
+    with b3:
+        if is_saved:
+            st.button("Saved ✓", key=f"{key_prefix}_save", disabled=True)
+        elif not is_dismissed:
+            if st.button("Save", key=f"{key_prefix}_save"):
+                mark_saved(opp_key)
+                st.rerun()
+    with b4:
+        if is_dismissed:
+            st.button("Dismissed", key=f"{key_prefix}_nfm", disabled=True)
+        elif not is_saved:
+            if st.button("Not for me", key=f"{key_prefix}_nfm"):
+                mark_not_for_me(opp_key, "Dismissed from card view")
+                st.rerun()
 
 
 def render_submission_prep(opp):
@@ -690,13 +706,12 @@ with tabs[0]:
     st.markdown("---")
     render_zine_section(render_compact_card)
     st.markdown("---")
-    render_category_context_section()
-    st.markdown("---")
-    render_opportunity_review_sections()
-    st.markdown("---")
     render_publishing_section(render_compact_card)
     st.markdown("---")
     render_strategy_homepage()
+    st.markdown("---")
+    with st.expander("Opportunity Context", expanded=False):
+        render_category_context_section()
 
 with tabs[1]:
     render_feedback_learning_panel()
@@ -705,8 +720,7 @@ with tabs[2]:
     render_peppercorn_page()
 
 with tabs[3]:
-    st.header("Observatory")
-    st.write("Reports, market positioning, and long-form analysis will go here next.")
+    render_opportunity_review_sections()
 
 with tabs[4]:
     st.header("Archive")

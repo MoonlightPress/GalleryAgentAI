@@ -4,6 +4,9 @@ import os
 from pathlib import Path
 import base64
 import streamlit as st
+from opportunity_status_engine import mark_saved, mark_not_for_me, load_json as _load_statuses
+
+STATUS_PATH = "memory/opportunity_status.json"
 
 STRATEGY_PATH = "Memory/strategy_feed.json"
 
@@ -132,7 +135,14 @@ def render_strategy_card(item, key):
   </div>
 </div>
 ''', unsafe_allow_html=True)
-    c1, c2 = st.columns(2)
+    title_key = title.strip().lower()
+    statuses = _load_statuses(STATUS_PATH, {})
+    opp_key = next((k for k in statuses if k.startswith(title_key + "::")), title_key + "::")
+    status = statuses.get(opp_key, {})
+    is_saved = status.get("saved", False)
+    is_dismissed = status.get("rejected", False)
+
+    c1, c2, c3, c4 = st.columns([1.2, 1, 1, 1])
     with c1:
         if st.button("Details", key=f"{key}_details"):
             st.session_state["selected_title"] = title
@@ -143,6 +153,20 @@ def render_strategy_card(item, key):
             st.session_state["selected_title"] = title
             st.session_state["selected_mode"] = "report"
             st.rerun()
+    with c3:
+        if is_saved:
+            st.button("Saved ✓", key=f"{key}_save", disabled=True)
+        elif not is_dismissed:
+            if st.button("Save", key=f"{key}_save"):
+                mark_saved(opp_key)
+                st.rerun()
+    with c4:
+        if is_dismissed:
+            st.button("Dismissed", key=f"{key}_nfm", disabled=True)
+        elif not is_saved:
+            if st.button("Not for me", key=f"{key}_nfm"):
+                mark_not_for_me(opp_key, "Dismissed from strategy card")
+                st.rerun()
 
 def render_strategy_section(feed, key):
     items = feed.get(key, [])
