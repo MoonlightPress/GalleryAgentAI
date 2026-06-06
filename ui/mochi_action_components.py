@@ -11,6 +11,7 @@ from opportunity_status_engine import (
     key_for,
     mark_saved,
     mark_rejected,
+    mark_not_for_me,
     mark_contacted,
     mark_response_received,
     build_action_queue,
@@ -44,7 +45,7 @@ def render_status_controls(opp, key_prefix="status"):
         f"Follow-up: {status.get('follow_up_date') or 'not set'}"
     )
 
-    c1, c2, c3, c4 = st.columns(4)
+    c1, c2, c3 = st.columns(3)
 
     with c1:
         if st.button("Save", key=f"{key_prefix}_save_{key}"):
@@ -64,9 +65,24 @@ def render_status_controls(opp, key_prefix="status"):
             build_action_queue()
             st.rerun()
 
-    with c4:
-        if st.button("Reject", key=f"{key_prefix}_reject_{key}"):
-            mark_rejected(key, "Rejected from app UI.")
+    # "Not for Me" — adds to IBM suppression list; pipeline will exclude on next run
+    not_for_me_key = f"{key_prefix}_nfm_{key}"
+    if st.toggle("Not for Me", key=not_for_me_key):
+        NOT_FOR_ME_REASONS = [
+            "Wrong type of opportunity",
+            "Already applied / submitted",
+            "Too early in career",
+            "Outside my location range",
+            "Doesn't fit my work right now",
+            "Other",
+        ]
+        reason = st.selectbox(
+            "Reason (optional)",
+            NOT_FOR_ME_REASONS,
+            key=f"{not_for_me_key}_reason",
+        )
+        if st.button("Confirm — suppress from recommendations", key=f"{not_for_me_key}_confirm"):
+            mark_not_for_me(key, reason)
             build_action_queue()
             st.rerun()
 

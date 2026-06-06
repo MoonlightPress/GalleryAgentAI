@@ -15,6 +15,7 @@ import streamlit as st
 from ui.portfolio_match_ui_components import render_portfolio_match_panel
 from ui.feedback_ui_components import render_feedback_learning_panel
 from ui.relationship_ui_components import *
+from ui.peppercorn_components import render_peppercorn_page
 from visual_card_system import *
 from report_layout_upgrade import *
 from pathlib import Path
@@ -492,6 +493,35 @@ def render_compact_card(opp, key_prefix):
             st.link_button("Source", source)
 
 
+def render_submission_prep(opp):
+    profile = load_json("memory/artist_master_profile.json", {})
+    has_statement = bool(
+        profile.get("visual_profile", {}).get("artist_statement", "").strip()
+        or profile.get("visual_profile", {}).get("artist_statement_phrases")
+    )
+    has_portfolio_bodies = bool(
+        profile.get("visual_profile", {}).get("portfolio_bodies_to_create")
+    )
+
+    def row(label, ready, note=""):
+        icon = "✓" if ready else "✗"
+        color = "#5a7a4a" if ready else "#a05a3a"
+        suffix = f" — {note}" if note else ""
+        st.markdown(
+            f'<span style="color:{color};font-weight:600;">{icon}</span> {label}{suffix}',
+            unsafe_allow_html=True,
+        )
+
+    st.markdown("#### Submission prep")
+    row("Source URL", bool(opp.get("source_url") or opp.get("official_website") or opp.get("source_link")))
+    row("Submission page", bool(opp.get("submission_page")), "" if opp.get("submission_page") else "check source manually")
+    row("Deadline known", bool(opp.get("deadline") and opp.get("deadline") not in ("", "check current schedule", "unknown")), "" if opp.get("deadline") and opp.get("deadline") not in ("", "check current schedule", "unknown") else opp.get("deadline") or "not listed")
+    row("Fee info", bool(opp.get("fees") and opp.get("fees") not in ("", "unknown", "not listed")))
+    row("Contact info", bool(opp.get("contact") or opp.get("contact_email") or opp.get("contact_url") or opp.get("email")))
+    row("Artist statement", has_statement, "" if has_statement else "add via Peppercorn tab")
+    row("Portfolio body defined", has_portfolio_bodies)
+
+
 def render_detail(opp):
     render_pretty_report(opp)
     mode = st.session_state.get("selected_mode", "details")
@@ -527,6 +557,9 @@ def render_detail(opp):
                 f"""<div class="soft-box">{clean_value(opp.get('quick_action'), 'Verify current public submission/contact details.')}</div>""",
                 unsafe_allow_html=True,
             )
+
+            st.markdown("")
+            render_submission_prep(opp)
 
         with right:
             st.markdown("#### Why this might fit")
@@ -669,8 +702,7 @@ with tabs[1]:
     render_feedback_learning_panel()
 
 with tabs[2]:
-    st.header("Mousehole")
-    st.write("Career pathways and task progress will go here next.")
+    render_peppercorn_page()
 
 with tabs[3]:
     st.header("Observatory")

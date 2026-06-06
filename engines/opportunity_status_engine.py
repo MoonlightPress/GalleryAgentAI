@@ -8,6 +8,7 @@ from pathlib import Path
 OPP_PATH = "deploy_data/compact_opportunities.json"
 STATUS_PATH = "memory/opportunity_status.json"
 ACTION_QUEUE_PATH = "memory/action_queue.json"
+SUPPRESSION_PATH = "memory/ibm_suppression.json"
 
 
 DEFAULT_STATUS = {
@@ -169,6 +170,22 @@ def mark_saved(title_key):
 
 def mark_rejected(title_key, reason=""):
     update_status(title_key, status="rejected", rejected=True, notes=reason)
+
+
+def load_suppression():
+    data = load_json(SUPPRESSION_PATH, {})
+    return data.get("suppressed", {})
+
+
+def mark_not_for_me(title_key, reason=""):
+    """Mark as rejected and add to IBM suppression list so pipeline excludes it."""
+    update_status(title_key, status="not_for_me", rejected=True, notes=reason)
+    data = load_json(SUPPRESSION_PATH, {"suppressed": {}})
+    data.setdefault("suppressed", {})[title_key] = {
+        "reason": reason,
+        "date": date.today().isoformat(),
+    }
+    save_json(SUPPRESSION_PATH, data)
 
 
 def mark_contacted(title_key, follow_up_days=14):

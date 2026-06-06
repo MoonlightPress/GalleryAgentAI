@@ -5,6 +5,7 @@ from pathlib import Path
 
 OPP_PATH = "deploy_data/compact_opportunities.json"
 OUT_PATH = "memory/exclusive_strategy_buckets.json"
+SUPPRESSION_PATH = "memory/ibm_suppression.json"
 
 BUCKET_ORDER = [
     "immediate_best_moves",
@@ -243,12 +244,26 @@ def compact(opp):
     }
 
 
+def load_suppression():
+    data = load_json(SUPPRESSION_PATH, {})
+    return set(data.get("suppressed", {}).keys())
+
+
 def main():
     opps = load_json(OPP_PATH, [])
+    suppressed = load_suppression()
 
     buckets = {key: [] for key in BUCKET_ORDER}
 
     for opp in opps:
+        title = (opp.get("title") or opp.get("name") or "").strip().lower()
+        org = str(opp.get("organization") or "").strip().lower()
+        key = f"{title}::{org}"
+        if key in suppressed:
+            opp["exclusive_primary_bucket"] = "reject"
+            buckets["reject"].append(compact(opp))
+            continue
+
         bucket = choose_bucket(opp)
         opp["exclusive_primary_bucket"] = bucket
         buckets.setdefault(bucket, []).append(compact(opp))
