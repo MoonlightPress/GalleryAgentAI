@@ -36,6 +36,20 @@ def extract_emails(text: str) -> list[str]:
     return re.findall(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", text)
 
 
+def extract_phone(text: str) -> str | None:
+    # Japanese landline/mobile: 03-XXXX-XXXX, 090-XXXX-XXXX, TEL：XX etc.
+    patterns = [
+        r"(?:TEL|Tel|tel)[：: ]*(\d[\d\-－ー]{8,})",
+        r"(\d{2,4}[-－ー]\d{2,4}[-－ー]\d{3,4})",
+        r"(\(\d{2,4}\)\s*\d{2,4}[-\s]\d{3,4})",
+    ]
+    for pat in patterns:
+        m = re.search(pat, text)
+        if m:
+            return m.group(1) if m.lastindex else m.group(0)
+    return None
+
+
 def extract_fees(text: str) -> list[str]:
     yen_ranges = re.findall(
         r"¥[\d,]+(?:\s*[–\-~]\s*¥?[\d,]+)?", text
@@ -86,14 +100,20 @@ def harvest_opportunity(opp: dict) -> dict:
 
     changes = []
 
-    # Contact / email
+    # Contact / email / phone
     if not opp.get("contact_verified", False):
         emails = extract_emails(text)
+        phone = extract_phone(text)
         if emails:
             opp["contact"] = emails[0]
             opp["contact_verified"] = True
             opp["contact_source"] = "harvested_from_submission_page"
             changes.append(f"contact={emails[0]}")
+        elif phone:
+            opp["contact"] = f"TEL: {phone}"
+            opp["contact_verified"] = True
+            opp["contact_source"] = "harvested_from_submission_page"
+            changes.append(f"contact=TEL:{phone}")
 
     # Fees
     if not opp.get("fees_verified", False):
