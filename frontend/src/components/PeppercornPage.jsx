@@ -810,6 +810,172 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
   )
 }
 
+// ── Venue / CRM log section ───────────────────────────────────────────────
+
+const VENUE_STATUS_OPTIONS = [
+  { value: 'cold',       label: 'Cold — not yet contacted' },
+  { value: 'in_contact', label: 'In contact' },
+  { value: 'applied',    label: 'Applied' },
+  { value: 'ongoing',    label: 'Ongoing relationship' },
+]
+
+const VENUE_TYPE_OPTIONS = [
+  { value: 'gallery',         label: 'Gallery' },
+  { value: 'cafe_gallery',    label: 'Café gallery' },
+  { value: 'bookshop',        label: 'Bookshop' },
+  { value: 'zine_shop',       label: 'Zine shop' },
+  { value: 'artist_space',    label: 'Artist space / run space' },
+  { value: 'fair',            label: 'Art fair / market' },
+  { value: 'institution',     label: 'Institution / museum' },
+  { value: 'other',           label: 'Other' },
+]
+
+const STATUS_COLORS = {
+  cold:       { bg: '#f5f5f5', border: '#ccc',    text: '#555' },
+  in_contact: { bg: '#f0f6ff', border: '#90aee0', text: '#1a3a80' },
+  applied:    { bg: '#fffbef', border: '#e8d890', text: '#7a6010' },
+  ongoing:    { bg: '#f0fbee', border: '#8fc98a', text: '#2e6626' },
+}
+
+function VenueLogSection({ isOpen, onToggle, sectionRef }) {
+  const { t } = useLanguage()
+  const [contacts, setContacts] = useState([])
+  const [form, setForm] = useState({ name: '', type: 'gallery', city: 'Tokyo', last_visited: '', status: 'cold', notes: '' })
+  const [saving, setSaving] = useState(false)
+  const [saved, flash] = useSaved()
+
+  useEffect(() => {
+    fetch('/api/contacts')
+      .then(r => r.ok ? r.json() : [])
+      .then(data => setContacts(Array.isArray(data) ? data : []))
+      .catch(() => {})
+  }, [])
+
+  function setField(k, v) { setForm(f => ({ ...f, [k]: v })) }
+
+  async function submitContact() {
+    if (!form.name.trim()) return
+    setSaving(true)
+    try {
+      const r = await fetch('/api/contacts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      if (r.ok) {
+        const updated = await fetch('/api/contacts').then(r2 => r2.json())
+        setContacts(Array.isArray(updated) ? updated : [])
+        setForm({ name: '', type: 'gallery', city: 'Tokyo', last_visited: '', status: 'cold', notes: '' })
+        flash()
+      }
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  const sorted = [...contacts].sort((a, b) => (b.last_visited || b.logged_at || '').localeCompare(a.last_visited || a.logged_at || ''))
+
+  return (
+    <SectionShell
+      id="venue-log"
+      sectionRef={sectionRef}
+      title="Venue Contact Log"
+      subtitle={contacts.length === 0 ? 'No venues logged yet' : `${contacts.length} venue${contacts.length !== 1 ? 's' : ''} on record`}
+      isOpen={isOpen}
+      onToggle={onToggle}
+    >
+      <p className="pp-section-note">Keep track of galleries, shops, and spaces you have visited or contacted. The system uses this to suggest next steps.</p>
+
+      <div className="pp-sub-form">
+        <div className="pp-sub-form-row">
+          <div className="pp-sub-field pp-sub-field--wide">
+            <label className="pp-sub-label">Venue name</label>
+            <input
+              type="text"
+              className="pp-sub-input"
+              value={form.name}
+              onChange={e => setField('name', e.target.value)}
+              placeholder="Gallery name, bookshop, café…"
+            />
+          </div>
+          <div className="pp-sub-field">
+            <label className="pp-sub-label">Type</label>
+            <select className="pp-sub-select" value={form.type} onChange={e => setField('type', e.target.value)}>
+              {VENUE_TYPE_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+            </select>
+          </div>
+        </div>
+        <div className="pp-sub-form-row">
+          <div className="pp-sub-field">
+            <label className="pp-sub-label">City</label>
+            <input
+              type="text"
+              className="pp-sub-input"
+              value={form.city}
+              onChange={e => setField('city', e.target.value)}
+              placeholder="Tokyo"
+            />
+          </div>
+          <div className="pp-sub-field">
+            <label className="pp-sub-label">Last visited</label>
+            <input
+              type="date"
+              className="pp-sub-input"
+              value={form.last_visited}
+              onChange={e => setField('last_visited', e.target.value)}
+            />
+          </div>
+          <div className="pp-sub-field">
+            <label className="pp-sub-label">Status</label>
+            <select className="pp-sub-select" value={form.status} onChange={e => setField('status', e.target.value)}>
+              {VENUE_STATUS_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+            </select>
+          </div>
+        </div>
+        <div className="pp-sub-field">
+          <label className="pp-sub-label">Notes (optional)</label>
+          <input
+            type="text"
+            className="pp-sub-input"
+            value={form.notes}
+            onChange={e => setField('notes', e.target.value)}
+            placeholder="Spoke with owner, showed portfolio, follow-up in March…"
+          />
+        </div>
+        <button
+          className={`pp-save${saved ? ' pp-save--done' : ''}`}
+          onClick={submitContact}
+          disabled={saving || !form.name.trim()}
+        >
+          {saved ? 'Logged ✓' : 'Log venue'}
+        </button>
+      </div>
+
+      {sorted.length > 0 && (
+        <div className="pp-sub-list">
+          {sorted.map((c, i) => {
+            const colors = STATUS_COLORS[c.status] || STATUS_COLORS.cold
+            return (
+              <div key={c.logged_at || i} className="pp-sub-row" style={{ borderLeft: `3px solid ${colors.border}` }}>
+                <div className="pp-sub-row-header">
+                  <span className="pp-sub-venue">{c.name}</span>
+                  <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
+                    {VENUE_STATUS_OPTIONS.find(o => o.value === c.status)?.label || c.status}
+                  </span>
+                  {c.city && <span className="pp-sub-date">{c.city}</span>}
+                  {c.last_visited && <span className="pp-sub-date">{c.last_visited}</span>}
+                </div>
+                {c.type && <div className="pp-sub-what">{VENUE_TYPE_OPTIONS.find(o => o.value === c.type)?.label || c.type}</div>}
+                {c.notes && <div className="pp-sub-notes">{c.notes}</div>}
+              </div>
+            )
+          })}
+        </div>
+      )}
+    </SectionShell>
+  )
+}
+
 // ── Carousel data builders ────────────────────────────────────────────────
 
 function buildCarouselCards(profile, t) {
@@ -906,6 +1072,7 @@ function computeSectionOrder(profile) {
     'artist-statement':   hasText ? 0.50 : 0.05,
     'exhibition-pathway': 0.40,
     'submission-log':     0.35,
+    'venue-log':          0.30,
     'preferences':        0.20,
     'career-goals':       Math.min(goalsCount / 3, 0.75),
     'saffron-questions':  answeredCount / 8,
@@ -1057,6 +1224,14 @@ export default function PeppercornPage({ nav }) {
         isOpen={openSections.has('submission-log')}
         onToggle={() => toggleSection('submission-log')}
         sectionRef={setSectionRef('submission-log')}
+      />
+    ),
+    'venue-log': (
+      <VenueLogSection
+        key="venue-log"
+        isOpen={openSections.has('venue-log')}
+        onToggle={() => toggleSection('venue-log')}
+        sectionRef={setSectionRef('venue-log')}
       />
     ),
   }

@@ -26,8 +26,9 @@ app.add_middleware(
 
 DATA_DIR        = Path(__file__).parent / "memory"
 DEPLOY_DIR      = Path(__file__).parent / "deploy_data"
-SUPPRESSED_PATH = DATA_DIR / "suppressed_opportunities.json"
+SUPPRESSED_PATH  = DATA_DIR / "suppressed_opportunities.json"
 SUBMISSIONS_PATH = DATA_DIR / "submission_log.json"
+CONTACTS_PATH    = DATA_DIR / "contact_memory.json"
 
 
 def _load_suppressed() -> set:
@@ -447,6 +448,43 @@ def add_submission(entry: SubmissionEntry):
     })
     SUBMISSIONS_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
     return {"ok": True, "count": len(records)}
+
+
+class ContactEntry(BaseModel):
+    name: str
+    type: str = ""
+    city: str = ""
+    last_visited: str = ""
+    status: str = "cold"
+    notes: str = ""
+
+
+@app.get("/api/contacts")
+def get_contacts():
+    if CONTACTS_PATH.exists():
+        data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
+        return data.get("contacts", []) if isinstance(data, dict) else data
+    return []
+
+
+@app.post("/api/contacts")
+def add_contact(entry: ContactEntry):
+    if CONTACTS_PATH.exists():
+        data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
+        contacts = data.get("contacts", []) if isinstance(data, dict) else data
+    else:
+        contacts = []
+    contacts.append({
+        "name":         entry.name,
+        "type":         entry.type,
+        "city":         entry.city,
+        "last_visited": entry.last_visited,
+        "status":       entry.status,
+        "notes":        entry.notes,
+        "logged_at":    datetime.now(timezone.utc).isoformat(),
+    })
+    CONTACTS_PATH.write_text(json.dumps({"contacts": contacts}, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "count": len(contacts)}
 
 
 @app.get("/api/saffron")
