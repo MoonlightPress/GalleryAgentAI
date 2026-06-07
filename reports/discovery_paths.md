@@ -2,21 +2,6 @@
 
 This report suggests adjacent institutions and ecosystems.
 
-## ZINEフェス東京 (ZINE Fest Tokyo)
-
-
-## MOUNT ZINE
-
-
-## CSPWC Annual Open Water International Exhibition
-
-
-## Northwest Watercolor Society 2026 Annual International Open Exhibition
-
-
-## 水彩アートの祭典
-
-
 ## Tokyo Art Book Fair
 
 - Offprint (similarity 4)
@@ -27,29 +12,46 @@ This report suggests adjacent institutions and ecosystems.
 - Home - Printed Matter (similarity 3)
 - Publishing / Artist Books — Battle Plan (similarity 3)
 
+## UTRECHT
+
+- Tokyo Art Book Fair (similarity 3)
+- Tacoche (similarity 3)
+
 ## Women United ART MAGAZINE Issue XIV Summer 2026
 
 
-## BOOOOOOOM 2026 Art & Photo Book Award
+## SUBMISSIONS - marblepress.com
+
+
+## submissions — porkbelly press
+
+
+## TOKIO ART BOOK FAIR 2026
+
+
+## ZINEフェス東京 (ZINE Fest Tokyo)
+
+
+## Center for Book Arts Opportunities
+
+
+## Aesthetica Art Prize
 
 
 ## Still Life - 2026
 
 
-## Aquarium - 2026
+## American Illustration
 
 
-## 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
+## The Artcomplex Center of Tokyo
 
 
-## 水彩アートの祭典 (Watercolor Art Festival)
+## DER GREIF
 
 
-## HATTIFNATT Koenji Cafe Gallery
+## World Illustration Awards
 
 
-## True Beauty - 2026
-
-
-## BALLOND'ESSAI Shimokitazawa
+## Jackson's Art Prize
 

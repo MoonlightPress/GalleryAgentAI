@@ -8,11 +8,11 @@
 **City:** Japan / Tokyo / Online  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
 
 - **Official/source website**: http://www.artbox-int.co.jp/en/publish/index.html (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: April 15 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -33,7 +33,7 @@ Potential fit because it belongs to a structured opportunity category where requ
 - First action: Review recent titles and decide whether this is a publisher, distributor, bookstore, or article reference.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** April 15
 - **Fees:** Not publicly listed
 - **Submission page:** Not publicly listed
 - **Source:** http://www.artbox-int.co.jp/en/publish/index.html
@@ -47,4 +47,4 @@ Review recent titles and decide whether this is a publisher, distributor, bookst
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-03_
+_Last generated: 2026-06-04_

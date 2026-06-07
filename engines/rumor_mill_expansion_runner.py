@@ -123,7 +123,9 @@ def extract_with_claude(client: anthropic.Anthropic, title: str, org: str, snipp
         return None
 
 
-def apply_extracted(opp: dict, extracted: dict) -> list[str]:
+def apply_extracted(opp: dict, extracted) -> list[str]:
+    if not isinstance(extracted, dict):
+        return []
     changes = []
 
     deadline = extracted.get("deadline")

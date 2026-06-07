@@ -1,7 +1,7 @@
 # Cité Internationale des Arts Artist Residency
 
 ## 1. Quick Judgment
-**Fit score:** 8.5/10  
+**Fit score:** 9.4/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Global Residency  

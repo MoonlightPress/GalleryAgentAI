@@ -1,7 +1,7 @@
 # Shimokitazawa Arts
 
 ## 1. Quick Judgment
-**Fit score:** 9.9/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Gallery Small  

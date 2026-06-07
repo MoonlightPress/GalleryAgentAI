@@ -51,7 +51,7 @@
     "name": "Cathy Read",
     "region": "UK",
     "medium": "watercolor",
-    "fit_reason": "British architectural watercolorist known for Edinburgh and UK urban scenes — buildings, street life, architectural detail. Works primarily in watercolor with occasional mixed media. Has exhibited in London and internationally, and sells through her own channels and galleries. Career stage slightly ahead of GEGYjiji but structurally comparable.",
+    "fit_reason": "British architectural watercolorist known for Edinburgh and UK urban scenes — buildings, street life, architectural detail. Works primarily in watercolor with occasional mixed media. Has exhibited in London and internationally, and sells through her own channels and galleries.",
     "shared_traits": [
       "architecture and urban buildings",
       "watercolor medium",
@@ -67,7 +67,7 @@
     "name": "Lian Quan Zhen",
     "region": "USA (Chinese-American)",
     "medium": "watercolor",
-    "fit_reason": "Chinese-born watercolorist working in California, known for integrating Chinese ink painting sensibility with Western watercolor technique. AWS (American Watercolor Society) member. Has published instructional books on watercolor. Relevant as a model of cross-cultural practice — Chinese artistic formation applied to Western exhibition context.",
+    "fit_reason": "Chinese-born watercolorist working in California, known for integrating Chinese ink painting sensibility with Western watercolor technique. AWS (American Watercolor Society) member. Has published instructional books on watercolor.",
     "shared_traits": [
       "Chinese artistic formation",
       "Western watercolor practice",
@@ -83,7 +83,7 @@
     "name": "Japan Watercolor Society (日本水彩画会) exhibitors",
     "region": "Japan",
     "medium": "watercolor",
-    "fit_reason": "Annual national exhibition (日本水彩展) held in Tokyo — Tier 3 credibility target for GEGYjiji. Exhibitors are contemporary Japanese watercolor practitioners working at the level she is building toward. Membership requires juried acceptance; the exhibition represents the Japanese institutional watercolor community.",
+    "fit_reason": "Annual national exhibition (日本水彩展) held in Tokyo — Tier 3 credibility target for GEGYjiji. Exhibitors are contemporary Japanese watercolor practitioners working at the level she is building toward.",
     "shared_traits": [
       "Japan-based",
       "watercolor medium",
@@ -91,7 +91,7 @@
       "national institutional credibility",
       "juried competition model"
     ],
-    "use_as": "Reference ecosystem for Japan active watercolor exhibition community. Research individual exhibitors whose subject matter (urban, architectural, atmospheric) aligns with GEGYjiji to identify peer contacts and jury taste.",
+    "use_as": "Reference ecosystem for Japan active watercolor exhibition community. Research individual exhibitors whose subject matter aligns with GEGYjiji to identify peer contacts and jury taste.",
     "fit_score": 3.5,
     "overlap_terms": ["Japan", "watercolor", "annual exhibition", "institutional"]
   },
@@ -114,7 +114,7 @@
     "name": "Huang Zeng Yuan (黄增源)",
     "region": "China / international",
     "medium": "watercolor",
-    "fit_reason": "Contemporary Chinese watercolorist known in IWS (International Watercolour Society) circles for atmospheric, figure-and-space work. Represents the strand of the contemporary Chinese watercolor scene that works internationally through open calls and watercolor society exhibitions rather than through the Chinese gallery system.",
+    "fit_reason": "Contemporary Chinese watercolorist known in IWS (International Watercolour Society) circles for atmospheric, figure-and-space work. Represents the strand of the contemporary Chinese watercolor scene that works internationally through open calls and watercolor society exhibitions.",
     "shared_traits": [
       "contemporary Chinese watercolor",
       "atmospheric approach",
@@ -129,7 +129,7 @@
     "name": "John Salminen",
     "region": "USA",
     "medium": "watercolor",
-    "fit_reason": "Architectural urban watercolor with precise draftsmanship. AWS signature member. Subject matter aligns (buildings, streets, structured observation) though his palette and scale are larger and more saturated than GEGYjiji's quiet register.",
+    "fit_reason": "Architectural urban watercolor with precise draftsmanship. AWS signature member. Subject matter aligns though his palette and scale are larger and more saturated than GEGYjiji's quiet register.",
     "shared_traits": [
       "architecture and urban environments",
       "watercolor medium",
@@ -144,15 +144,15 @@
     "name": "Jean Haines",
     "region": "UK",
     "medium": "watercolor",
-    "fit_reason": "Prominent UK watercolor practitioner and author; books include Splash of Aquarius and Flowers in Watercolour. Style is loose, expressive, nature-focused — very different from GEGYjiji's quiet urban register. Useful only as a community reference point for the UK/international watercolor teaching world.",
+    "fit_reason": "Prominent UK watercolor practitioner and author; books include Splash of Aquarius and Flowers in Watercolour. Style is loose, expressive, nature-focused — very different from GEGYjiji's quiet urban register. Useful only as a community reference point.",
     "shared_traits": [
       "watercolor medium",
       "international watercolor community",
       "publishing and teaching path"
     ],
-    "use_as": "Community reference only — not a subject or style match. Track only for awareness of the UK watercolor teaching/publishing world. Do NOT use as a stylistic reference or aesthetic comparison.",
+    "use_as": "Community reference only — not a subject or style match. Do NOT use as a stylistic reference or aesthetic comparison.",
     "fit_score": 1.8,
     "overlap_terms": ["watercolor", "UK", "community"],
-    "note": "Stylistically opposite to GEGYjiji. Included only for community awareness, not for aesthetic comparison."
+    "note": "Stylistically opposite to GEGYjiji. Included only for community awareness."
   }
 ]

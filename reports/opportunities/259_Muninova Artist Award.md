@@ -1,7 +1,7 @@
 # Muninova Artist Award
 
 ## 1. Quick Judgment
-**Fit score:** 4.3/10  
+**Fit score:** 4.1/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Institutional / Grants  

@@ -1,7 +1,7 @@
 # Zine & Book フェス in 神保町 (Jimbocho)
 
 ## 1. Quick Judgment
-**Fit score:** 5.1/10  
+**Fit score:** 5.4/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  

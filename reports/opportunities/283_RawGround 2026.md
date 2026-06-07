@@ -1,7 +1,7 @@
 # RawGround 2026
 
 ## 1. Quick Judgment
-**Fit score:** 2.8/10  
+**Fit score:** 2.4/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Markets / Popups / Booths  

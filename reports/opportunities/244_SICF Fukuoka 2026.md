@@ -1,7 +1,7 @@
 # SICF Fukuoka 2026
 
 ## 1. Quick Judgment
-**Fit score:** 5.3/10  
+**Fit score:** 5.4/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Markets / Popups / Booths  

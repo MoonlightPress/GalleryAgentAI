@@ -1,67 +1,67 @@
 # Verification Status Report
-Generated: 2026-06-06
+Generated: 2026-06-07
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
-| Verified (score 8-10) | 43 |
-| Strong partial (5-7) | 113 |
-| Partial (3-4) | 107 |
-| Research needed (<3) | 23 |
-| **Total** | **286** |
+| Verified (score 8-10) | 70 |
+| Strong partial (5-7) | 107 |
+| Partial (3-4) | 84 |
+| Research needed (<3) | 26 |
+| **Total** | **287** |
 
 ### Field Coverage
 
 | Field | Verified count |
 |-------|----------------|
-| URL ok | 246 |
-| Deadline verified | 193 |
-| Contact verified | 50 |
-| Fees verified | 72 |
-| Submission process known | 101 |
-| Medium confirmed | 185 |
+| URL ok | 247 |
+| Deadline verified | 203 |
+| Contact verified | 76 |
+| Fees verified | 106 |
+| Submission process known | 129 |
+| Medium confirmed | 171 |
 
 ---
 
 ## Top 20 Highest-Verification Opportunities
 
-### 1. ZINEフェス東京 (ZINE Fest Tokyo)
+### 1. Tokyo Art Book Fair
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 2. MOUNT ZINE
+### 2. UTRECHT
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 3. Tokyo Art Book Fair
+### 3. HATTIFNATT Koenji Cafe Gallery
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 4. 水彩アートの祭典
+### 4. Women United ART MAGAZINE Issue XIV Summer 2026
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 5. UTRECHT
+### 5. ZINEフェス東京 (ZINE Fest Tokyo)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 6. CSPWC Annual Open Water International Exhibition
+### 6. Still Life - 2026
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 7. Still Life - 2026
+### 7. MOUNT ZINE
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 8. Aquarium - 2026
+### 8. DER GREIF
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
@@ -71,60 +71,60 @@ Generated: 2026-06-06
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 10. Women United ART MAGAZINE Issue XIV Summer 2026
+### 10. 桜をテーマとするイラスト・絵画作品募集
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 11. Northwest Watercolor Society 2026 Annual International Open Exhibition
+### 11. ArtConnect Open Calls
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 12. 2026 3rd Annual Illustration Summit Challenge (IlloBoom!)
+### 12. 水性繪畫展覽 (Watercolor Exhibition)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 13. B&B Shimokitazawa
-- **Verification score:** 9/10
-- **Confirmed:** URL ok, deadline, contact, submission process, confirmed
-- **Missing:** fees
+### 13. Society of Women Artists
+- **Verification score:** 10/10
+- **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
+- **Missing:** none
 
-### 14. Art Vancouver 2026
-- **Verification score:** 9/10
-- **Confirmed:** URL ok, deadline, contact, fees, submission process
-- **Missing:** medium confirmation
+### 14. Japan International Watercolor Institute Online Exhibition
+- **Verification score:** 10/10
+- **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
+- **Missing:** none
 
-### 15. Hayama Artist Residency Submission Manager - Submittable
-- **Verification score:** 9/10
-- **Confirmed:** URL ok, deadline, contact, fees, submission process
-- **Missing:** medium confirmation
+### 15. 水彩アートの祭典
+- **Verification score:** 10/10
+- **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
+- **Missing:** none
 
-### 16. Hayama Artist Residency
-- **Verification score:** 9/10
-- **Confirmed:** URL ok, deadline, contact, fees, submission process
-- **Missing:** medium confirmation
+### 16. CSPWC Annual Open Water International Exhibition
+- **Verification score:** 10/10
+- **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
+- **Missing:** none
 
-### 17. MICRO/MACRO
-- **Verification score:** 9/10
-- **Confirmed:** URL ok, deadline, contact, fees, submission process
-- **Missing:** medium confirmation
+### 17. 水彩アートの祭典 (Watercolor Art Festival)
+- **Verification score:** 10/10
+- **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
+- **Missing:** none
 
-### 18. Koganecho Area Management Center
-- **Verification score:** 9/10
-- **Confirmed:** URL ok, deadline, contact, fees, submission process
-- **Missing:** medium confirmation
+### 18. 多摩ゆかりの作家による公募展
+- **Verification score:** 10/10
+- **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
+- **Missing:** none
 
-### 19. Applications — Little Tokyo Zine Fest
-- **Verification score:** 9/10
-- **Confirmed:** URL ok, deadline, contact, submission process, confirmed
-- **Missing:** fees
+### 19. 2026年美の起原展
+- **Verification score:** 10/10
+- **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
+- **Missing:** none
 
-### 20. HATTIFNATT Koenji Cafe Gallery
-- **Verification score:** 8/10
-- **Confirmed:** URL ok, deadline, fees, submission process, confirmed
-- **Missing:** contact
+### 20. クリスマスアート展
+- **Verification score:** 10/10
+- **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
+- **Missing:** none
 
 ---
 
@@ -132,42 +132,42 @@ Generated: 2026-06-06
 
 High-scored opportunities (overall_score >= 8) that are not yet fully verified.
 
-### 1. TOKIO ART BOOK FAIR 2026
-- **Overall score:** 9.7  |  **Verification score:** 5/10  |  **Status:** strong_partial
-- **Missing verification:** contact, fees, submission process
-
-### 2. Book and Sons
-- **Overall score:** 9.7  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** deadline, fees
-
-### 3. BALLOND'ESSAI Shimokitazawa
-- **Overall score:** 9.6  |  **Verification score:** 7/10  |  **Status:** strong_partial
+### 1. ギャラリーへ行こう2026
+- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 4. CLOUDS Gallery+Coffee Koenji
-- **Overall score:** 9.5  |  **Verification score:** 7/10  |  **Status:** strong_partial
+### 2. NY公募展2026夏（NY Open Call Exhibition Summer 2026）
+- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 5. Jinny Street Gallery Open Call
-- **Overall score:** 9.3  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** contact, fees
+### 3. Osaka Open Call For Artists. - ARRIVAL
+- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
 
-### 6. 第113回 日本水彩展
-- **Overall score:** 9.2  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** deadline, fees
-
-### 7. OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery
-- **Overall score:** 9.2  |  **Verification score:** 5/10  |  **Status:** strong_partial
-- **Missing verification:** contact, fees, submission process
-
-### 8. 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
+### 4. Aperture | Photography
 - **Overall score:** 8.8  |  **Verification score:** 6/10  |  **Status:** strong_partial
 - **Missing verification:** contact, submission process
 
-### 9. 水彩アートの祭典 (Watercolor Art Festival)
-- **Overall score:** 8.8  |  **Verification score:** 6/10  |  **Status:** strong_partial
-- **Missing verification:** contact, submission process
+### 5. ART FAIR TOKYO 21
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
 
-### 10. American Illustration
+### 6. Submissions — Clavis Publishing
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** deadline, medium confirmation
+
+### 7. BALLOND'ESSAI Shimokitazawa
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
+
+### 8. CLOUDS Gallery+Coffee Koenji
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
+
+### 9. Cafe Mame-Hico
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
+
+### 10. kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)
 - **Overall score:** 8.8  |  **Verification score:** 6/10  |  **Status:** strong_partial
-- **Missing verification:** contact, submission process
+- **Missing verification:** deadline, submission process

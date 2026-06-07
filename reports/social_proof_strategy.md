@@ -62,40 +62,16 @@ These opportunities may create disproportionate reputation value.
 - Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## ZINEフェス東京 (ZINE Fest Tokyo)
-
-- Prestige: None
-- Why: Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## MOUNT ZINE
-
-- Prestige: None
-- Why: Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## CSPWC Annual Open Water International Exhibition
-
-- Prestige: None
-- Why: International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Northwest Watercolor Society 2026 Annual International Open Exhibition
-
-- Prestige: None
-- Why: Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 水彩アートの祭典
-
-- Prestige: None
-- Why: Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
 ## Tokyo Art Book Fair
 
 - Prestige: None
 - Why: Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## UTRECHT
+
+- Prestige: None
+- Why: This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Women United ART MAGAZINE Issue XIV Summer 2026
@@ -104,10 +80,28 @@ These opportunities may create disproportionate reputation value.
 - Why: Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## BOOOOOOOM 2026 Art & Photo Book Award
+## SUBMISSIONS - marblepress.com
 
 - Prestige: None
-- Why: URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## submissions — porkbelly press
+
+- Prestige: None
+- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## TOKIO ART BOOK FAIR 2026
+
+- Prestige: None
+- Why: Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## ZINEフェス東京 (ZINE Fest Tokyo)
+
+- Prestige: None
+- Why: Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Still Life - 2026
@@ -116,38 +110,44 @@ These opportunities may create disproportionate reputation value.
 - Why: 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## Aquarium - 2026
+## American Illustration
 
 - Prestige: None
-- Why: 4th Annual Juried Exhibition with publication and sales opportunities for visual artists.
+- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
+## The Artcomplex Center of Tokyo
 
 - Prestige: None
-- Why: Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style.
+- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## 水彩アートの祭典 (Watercolor Art Festival)
+## DER GREIF
 
-- Prestige: None
-- Why: Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
+- Prestige: 0
+- Why: Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## HATTIFNATT Koenji Cafe Gallery
+## World Illustration Awards
 
 - Prestige: None
-- Why: The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
+- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## True Beauty - 2026
+## Jackson's Art Prize
 
 - Prestige: None
-- Why: 5th Juried Annual Exhibition accepting watercolor and illustration work with promotion and sales opportunities.
+- Why: Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## BALLOND'ESSAI Shimokitazawa
+## ArtConnect Open Calls
 
 - Prestige: None
-- Why: Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.
+- Why: Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Society of Women Artists
+
+- Prestige: None
+- Why: Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

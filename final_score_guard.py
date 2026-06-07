@@ -22,7 +22,8 @@ def is_real(value):
 
 
 def has_distinct_submission_page(opp):
-    sub = (opp.get("submission_page") or "").strip().rstrip("/")
+    raw_sub = opp.get("submission_page") or ""
+    sub = (raw_sub[0] if isinstance(raw_sub, list) else raw_sub).strip().rstrip("/")
     src = (opp.get("source_url") or "").strip().rstrip("/")
     official = (opp.get("official_website") or "").strip().rstrip("/")
     return is_real(sub) and sub != src and sub != official

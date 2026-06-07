@@ -1,8 +1,8 @@
 # Japan International Watercolor Institute Online Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 6.9/10  
-**Fit band:** Promising  
+**Fit score:** 7.0/10  
+**Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Japan Watercolor Open Call  
 **City:** Online / Niigata  

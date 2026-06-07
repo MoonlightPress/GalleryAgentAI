@@ -1,7 +1,7 @@
 # 上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)
 
 ## 1. Quick Judgment
-**Fit score:** 2.4/10  
+**Fit score:** 3.2/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Institutional / Grants  
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_
