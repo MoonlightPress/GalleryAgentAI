@@ -1163,6 +1163,71 @@ async def save_peppercorn(request: Request):
     return {"ok": True, "last_updated": payload["last_updated"]}
 
 
+@app.get("/api/today")
+def get_today():
+    items = load_opportunities()
+
+    # ── High Impact Move: highest-scoring IBM-eligible ────────────────────────
+    ibm = [
+        x for x in sorted(items, key=_overall_score, reverse=True)
+        if x.get("exclusive_primary_bucket") == "immediate_best_moves"
+        and _ibm_eligible(x)
+    ]
+    high_impact_raw = ibm[0] if ibm else None
+
+    # ── Quick Win: IBM-eligible relationship-type with confirmed contact/email ─
+    qw_candidates = [
+        x for x in ibm
+        if x.get("category") in _RELATIONSHIP_CATS
+        and (
+            (x.get("contact") and "@" in str(x.get("contact", "")))
+            or x.get("contact_verified")
+        )
+        and (high_impact_raw is None or _opp_id(x) != _opp_id(high_impact_raw))
+    ]
+    # If no relationship IBM, widen to any low-effort verified contact
+    if not qw_candidates:
+        qw_candidates = [
+            x for x in items
+            if x.get("category") in _RELATIONSHIP_CATS
+            and x.get("contact") and "@" in str(x.get("contact", ""))
+            and (high_impact_raw is None or _opp_id(x) != _opp_id(high_impact_raw))
+        ]
+    qw_candidates.sort(key=_overall_score, reverse=True)
+    quick_win_raw = qw_candidates[0] if qw_candidates else None
+
+    used_ids = {_opp_id(x) for x in [high_impact_raw, quick_win_raw] if x}
+
+    # ── Stretch Goal: highest-scoring stretch_target ──────────────────────────
+    stretch_candidates = sorted(
+        [x for x in items if x.get("exclusive_primary_bucket") == "stretch_targets" and _opp_id(x) not in used_ids],
+        key=_overall_score, reverse=True,
+    )
+    # Fallback: highest-scoring watch-list item
+    if not stretch_candidates:
+        stretch_candidates = sorted(
+            [x for x in items if _opp_id(x) not in used_ids],
+            key=_overall_score, reverse=True,
+        )
+    stretch_raw = stretch_candidates[0] if stretch_candidates else None
+
+    def _card(opp, role, label, time_est):
+        if opp is None:
+            return None
+        c = shape_card(opp)
+        c["today_role"]  = role
+        c["today_label"] = label
+        c["time_est"]    = time_est
+        return c
+
+    return {
+        "quick_win":    _card(quick_win_raw,  "quick_win",    "Quick Win",          "5 min"),
+        "high_impact":  _card(high_impact_raw,"high_impact",  "High Impact Move",   "30–60 min"),
+        "stretch_goal": _card(stretch_raw,    "stretch_goal", "Stretch Goal",       "longer term"),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+    }
+
+
 @app.get("/api/health")
 def health():
     return {"status": "ok"}
