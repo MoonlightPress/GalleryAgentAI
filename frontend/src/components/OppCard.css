@@ -229,3 +229,18 @@
   color: #9b3535;
   border-color: #d48a8a;
 }
+
+/* Applied toast confirmation */
+.opp-applied-toast {
+  background: #f0fbee;
+  color: #2e6626;
+  border-color: #8fc98a;
+  font-size: 0.78rem;
+  pointer-events: none;
+  animation: opp-fade-in 0.2s ease;
+}
+
+@keyframes opp-fade-in {
+  from { opacity: 0; transform: translateY(2px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

@@ -385,6 +385,9 @@ VALID_ACTIONS = {"follow", "applied", "maybe_later", "not_for_me"}
 class FeedbackPayload(BaseModel):
     opp_id: str
     action: str
+    opp_name: str = ""      # venue name for submission log
+    opp_title: str = ""     # submission title/what
+    opp_website: str = ""   # official_website for reference
 
 
 @app.post("/api/feedback")
@@ -412,6 +415,51 @@ def post_feedback(payload: FeedbackPayload):
         if payload.opp_id not in suppressed:
             suppressed.append(payload.opp_id)
         SUPPRESSED_PATH.write_text(json.dumps(suppressed, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # Auto-create submission log entry when artist marks Applied
+    if payload.action == "applied":
+        venue_name = payload.opp_name or payload.opp_id
+        what = payload.opp_title or venue_name
+        # Look up opp in compact_opportunities.json for richer data if names weren't passed
+        if not payload.opp_name:
+            opp_data_path = DEPLOY_DIR / "compact_opportunities.json"
+            if opp_data_path.exists():
+                all_opps = json.loads(opp_data_path.read_text(encoding="utf-8"))
+                opp_id_lower = payload.opp_id.lower()
+                for o in all_opps:
+                    if (o.get("title", "").lower() == opp_id_lower or
+                            o.get("name", "").lower() == opp_id_lower):
+                        venue_name = o.get("name") or o.get("title") or payload.opp_id
+                        what = o.get("title") or venue_name
+                        break
+
+        sub_records = []
+        if SUBMISSIONS_PATH.exists():
+            sub_records = json.loads(SUBMISSIONS_PATH.read_text(encoding="utf-8"))
+
+        # Don't duplicate — check if same venue already logged today
+        today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        already_logged = any(
+            r.get("venue", "").lower() == venue_name.lower() and
+            r.get("date", "") == today_str
+            for r in sub_records
+        )
+
+        if not already_logged:
+            sub_records.append({
+                "id":          hashlib.md5(f"{today_str}{venue_name}".encode()).hexdigest()[:8],
+                "date":        today_str,
+                "venue":       venue_name,
+                "what":        what,
+                "outcome":     "pending",
+                "notes":       "Auto-logged from Applied action",
+                "logged_at":   datetime.now(timezone.utc).isoformat(),
+                "auto_logged": True,
+            })
+            SUBMISSIONS_PATH.write_text(
+                json.dumps(sub_records, ensure_ascii=False, indent=2),
+                encoding="utf-8"
+            )
 
     return {"ok": True, "opp_id": payload.opp_id, "action": payload.action}
 

@@ -73,12 +73,18 @@ const FEEDBACK_IDS = [
   { id: 'not_for_me',  key: 'card.feedback.notForMe', icon: '✕' },
 ]
 
-async function saveFeedback(oppId, action) {
+async function saveFeedback(opp, action) {
   try {
     await fetch('/api/feedback', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ opp_id: oppId, action }),
+      body: JSON.stringify({
+        opp_id:      opp.title || opp.name || opp.id,
+        action,
+        opp_name:    opp.name  || opp.title || '',
+        opp_title:   opp.title || opp.name  || '',
+        opp_website: opp.official_website   || '',
+      }),
     })
   } catch (_) {
     // silently fail — feedback is best-effort
@@ -87,15 +93,20 @@ async function saveFeedback(oppId, action) {
 
 export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
   const [feedback, setFeedback] = useState(null)
+  const [appliedToast, setAppliedToast] = useState(false)
   const { t } = useLanguage()
   const iconSrc = CAT_ICON[opp.category] || DEFAULT_ICON
 
-  function handleFeedback(actionId) {
+  async function handleFeedback(actionId) {
     const next = feedback === actionId ? null : actionId
     setFeedback(next)
     if (next) {
-      saveFeedback(opp.id, next)
+      await saveFeedback(opp, next)
       if (next === 'not_for_me' && onSuppressed) onSuppressed(opp.id)
+      if (next === 'applied') {
+        setAppliedToast(true)
+        setTimeout(() => setAppliedToast(false), 2500)
+      }
     }
   }
 
@@ -164,6 +175,11 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
                 <span className="opp-feedback-label">{t(a.key)}</span>
               </button>
             ))}
+            {appliedToast && (
+              <span className="opp-feedback-btn opp-applied-toast">
+                ✓ added to submission log
+              </span>
+            )}
           </div>
         )}
 
