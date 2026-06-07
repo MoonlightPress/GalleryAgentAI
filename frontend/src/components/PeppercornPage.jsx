@@ -1170,6 +1170,64 @@ function computeSectionOrder(profile) {
     .map(([id]) => id)
 }
 
+// ── Dismissal insight banner ──────────────────────────────────────────────
+
+function DismissalInsightBanner() {
+  const { lang } = useLanguage()
+  const [insights, setInsights] = useState(null)
+  const [dismissed, setDismissed] = useState(false)
+  const [saved, setSaved] = useState(false)
+
+  useEffect(() => {
+    fetch('/api/feedback/insights')
+      .then(r => r.ok ? r.json() : null)
+      .then(d => setInsights(d))
+      .catch(() => {})
+  }, [])
+
+  if (!insights || dismissed || saved) return null
+  const entries = Object.entries(insights.dismissals || {})
+  if (entries.length === 0) return null
+
+  // Pick the category with most dismissals
+  const [topCategory, topCount] = entries.sort((a, b) => b[1] - a[1])[0]
+
+  // Human-readable category name
+  const categoryLabel = topCategory.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+
+  async function suppress() {
+    await fetch('/api/feedback/suppress-category', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ category: topCategory }),
+    })
+    setSaved(true)
+  }
+
+  return (
+    <div className="pp-dismissal-insight">
+      <span className="pp-dismissal-icon">🐭</span>
+      <div className="pp-dismissal-body">
+        <span className="pp-dismissal-text">
+          {lang === 'ja'
+            ? `${categoryLabel}の機会を${topCount}件スキップしています。今後は減らしましょうか？`
+            : lang === 'zh'
+            ? `您已跳过了${topCount}个${categoryLabel}机会。要减少此类推荐吗？`
+            : `You've passed on ${topCount} ${categoryLabel} calls. Should I surface fewer of these?`}
+        </span>
+        <div className="pp-dismissal-actions">
+          <button className="pp-dismissal-confirm" onClick={suppress}>
+            {lang === 'ja' ? 'はい、減らして' : lang === 'zh' ? '好的，减少' : 'Yes, show fewer'}
+          </button>
+          <button className="pp-dismissal-skip" onClick={() => setDismissed(true)}>
+            {lang === 'ja' ? 'このまま続ける' : lang === 'zh' ? '继续显示' : 'Keep showing'}
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function PeppercornPage({ nav }) {
@@ -1345,6 +1403,11 @@ export default function PeppercornPage({ nav }) {
 
       {profile && (
         <>
+          {/* Dismissal insight */}
+          <div className="pp-content">
+            <DismissalInsightBanner />
+          </div>
+
           {/* Carousel */}
           <div className="pp-carousel-wrap">
             <div className="pp-carousel">

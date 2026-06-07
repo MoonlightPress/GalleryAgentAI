@@ -464,6 +464,71 @@ def post_feedback(payload: FeedbackPayload):
     return {"ok": True, "opp_id": payload.opp_id, "action": payload.action}
 
 
+@app.get("/api/feedback/insights")
+def get_feedback_insights():
+    """Returns patterns from feedback data — dismissal counts by category, boosted categories."""
+    feedback_path = DATA_DIR / "feedback.json"
+    if not feedback_path.exists():
+        return {"dismissals": {}, "boosts": {}, "total": 0}
+
+    records = json.loads(feedback_path.read_text(encoding="utf-8"))
+
+    # Load opp data for category lookup
+    opp_path = Path(__file__).parent / "deploy_data" / "compact_opportunities.json"
+    opp_by_id = {}
+    if opp_path.exists():
+        all_opps = json.loads(opp_path.read_text(encoding="utf-8"))
+        for o in all_opps:
+            key = (o.get("title") or o.get("name") or "").lower()
+            if key:
+                opp_by_id[key] = o
+
+    dismissals = {}   # category → count
+    boosts = {}       # category → count (applied + follow)
+
+    for r in records:
+        opp_key = r.get("opp_id", "").lower()
+        opp = opp_by_id.get(opp_key, {})
+        category = opp.get("category") or opp.get("exclusive_primary_bucket") or "unknown"
+
+        action = r.get("action", "")
+        if action == "not_for_me":
+            dismissals[category] = dismissals.get(category, 0) + 1
+        elif action in ("applied", "follow"):
+            boosts[category] = boosts.get(category, 0) + 1
+
+    # Only return dismissals with 3+ threshold
+    significant_dismissals = {k: v for k, v in dismissals.items() if v >= 3}
+
+    return {
+        "dismissals": significant_dismissals,
+        "all_dismissals": dismissals,
+        "boosts": boosts,
+        "total": len(records),
+    }
+
+
+@app.post("/api/feedback/suppress-category")
+def suppress_category(payload: dict):
+    category = payload.get("category", "")
+    if not category:
+        raise HTTPException(status_code=400, detail="category required")
+
+    prefs_path = DATA_DIR / "learned_preferences.json"
+    prefs = {}
+    if prefs_path.exists():
+        prefs = json.loads(prefs_path.read_text(encoding="utf-8"))
+
+    suppressed = prefs.get("suppressed_categories", [])
+    if category not in suppressed:
+        suppressed.append(category)
+    prefs["suppressed_categories"] = suppressed
+    prefs["last_updated"] = datetime.now(timezone.utc).isoformat()
+
+    prefs_path.write_text(json.dumps(prefs, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "suppressed_categories": suppressed}
+
+
 class SubmissionEntry(BaseModel):
     date: str
     venue: str
