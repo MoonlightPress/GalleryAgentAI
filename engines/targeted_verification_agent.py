@@ -133,8 +133,13 @@ def main():
 
     for i, opp in enumerate(targets, 1):
         name = opp.get("name") or opp.get("title") or "?"
-        site = opp.get("official_website", "")
-        sub  = opp.get("submission_page", "")
+        site = opp.get("official_website", "") or ""
+        sub  = opp.get("submission_page", "") or ""
+        # submission_page is occasionally stored as a list — take first element
+        if isinstance(sub, list):
+            sub = sub[0] if sub else ""
+        if isinstance(site, list):
+            site = site[0] if site else ""
 
         print(f"[{i:3d}/{len(targets)}] {name[:55]:<55}", end=" ", flush=True)
 
