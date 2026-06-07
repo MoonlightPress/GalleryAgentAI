@@ -165,6 +165,20 @@ export default function OppDetailPanel({ opp, onClose }) {
           </div>
         )}
 
+        {/* Prerequisites */}
+        {opp.prerequisites && opp.prerequisites.length > 0 && (
+          <div className="detail-prerequisites">
+            <span className="prereq-label">{t('prereq.label')}</span>
+            <div className="prereq-chips">
+              {opp.prerequisites.map(p => (
+                <span key={p} className="prereq-chip">
+                  {t(`prereq.${p}`) || p}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Contact note — shown when there's no direct email (portal/form-only path) */}
         {opp.contact_note && (
           <p className="detail-contact-note">{opp.contact_note}</p>

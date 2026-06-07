@@ -323,6 +323,16 @@ const zh = {
   'detail.copyDraft':        '复制草稿',
   'detail.label.verifyFirst':'申请前请核实',
 
+  // ── Prerequisites ──────────────────────────────────────────────────────────
+  'prereq.label':                  '前提条件',
+  'prereq.gallery_representation': '需要画廊代理',
+  'prereq.exhibition_credits_3':   '需要至少3次展览经历',
+  'prereq.exhibition_credits_5':   '需要至少5次展览经历',
+  'prereq.gallery_cv':             '需要专业展览简历',
+  'prereq.invitation_only':        '仅限受邀艺术家',
+  'prereq.japanese_residency':     '需要日本居住资格',
+  'prereq.publication_history':    '需要出版记录',
+
   // ── Saffron straggler labels ───────────────────────────────────────────────
   'sf.label.peers':          '同类：',
   'sf.label.useAs':          '参照用途：',
@@ -886,6 +896,16 @@ const ja = {
   'detail.copyDraft':        '下書きをコピー',
   'detail.label.verifyFirst':'応募前に確認',
 
+  // ── Prerequisites ──────────────────────────────────────────────────────────
+  'prereq.label':                  '前提条件',
+  'prereq.gallery_representation': 'ギャラリーの代理が必要',
+  'prereq.exhibition_credits_3':   '展覧会歴3回以上が必要',
+  'prereq.exhibition_credits_5':   '展覧会歴5回以上が必要',
+  'prereq.gallery_cv':             '展覧会CVが必要',
+  'prereq.invitation_only':        '招待制のみ',
+  'prereq.japanese_residency':     '日本在住が必要',
+  'prereq.publication_history':    '出版履歴が必要',
+
   // ── Saffron straggler labels ───────────────────────────────────────────────
   'sf.label.peers':          'ピア比較：',
   'sf.label.useAs':          '参照用途：',
@@ -1440,6 +1460,16 @@ const en = {
   'detail.label.emailDraft': 'Email draft',
   'detail.copyDraft':        'Copy draft',
   'detail.label.verifyFirst':'Verify first',
+
+  // ── Prerequisites ──────────────────────────────────────────────────────────
+  'prereq.label':                  'Prerequisites',
+  'prereq.gallery_representation': 'Requires gallery representation',
+  'prereq.exhibition_credits_3':   'Requires 3+ documented exhibitions',
+  'prereq.exhibition_credits_5':   'Requires 5+ documented exhibitions',
+  'prereq.gallery_cv':             'Requires professional exhibition CV',
+  'prereq.invitation_only':        'By invitation only',
+  'prereq.japanese_residency':     'Requires Japan residency',
+  'prereq.publication_history':    'Requires publication history',
 
   // ── Saffron straggler labels ───────────────────────────────────────────────
   'sf.label.peers':          'Peers:',

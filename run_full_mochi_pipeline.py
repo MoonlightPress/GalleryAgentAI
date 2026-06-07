@@ -83,6 +83,7 @@ PIPELINE = [
     "tier_scoring_engine.py",
     "recommendation_trust_cleaner.py",
     "exclusive_strategy_bucket_engine.py",
+    "prerequisite_detection_engine.py",
     "strategic_action_report.py",
     "next_project_engine.py",
     "dna_project_refiner.py",
