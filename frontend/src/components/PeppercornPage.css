@@ -1100,3 +1100,16 @@
   margin-top: 4px;
   font-style: italic;
 }
+
+.pp-edit-btn {
+  margin-left: auto;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  background: transparent;
+  border: 1px solid var(--ink-faint, #ccc);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--muted, #888);
+}
+.pp-edit-btn:hover { border-color: var(--gold, #c8962a); color: var(--gold, #c8962a); }
+.pp-inline-edit { padding: 8px 0 4px; border-top: 1px solid #eee; margin-top: 6px; }

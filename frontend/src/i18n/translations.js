@@ -453,6 +453,10 @@ const zh = {
   'pp.venuelog.status.in_contact': '联系中',
   'pp.venuelog.status.applied':    '已申请',
   'pp.venuelog.status.ongoing':    '持续关系',
+  'pp.venuelog.status.researching':   '调研中',
+  'pp.venuelog.status.submitted':     '已提交',
+  'pp.venuelog.status.rejected':      '未通过',
+  'pp.venuelog.lastContacted':        '最近联系',
   'pp.venueType.gallery':          '画廊',
   'pp.venueType.cafe_gallery':     '咖啡画廊',
   'pp.venueType.bookshop':         '书店',
@@ -460,6 +464,7 @@ const zh = {
   'pp.venueType.artist_space':     '艺术家空间',
   'pp.venueType.fair':             '艺术博览会 / 市集',
   'pp.venueType.institution':      '机构 / 美术馆',
+  'pp.venueType.residency':           '驻留项目',
   'pp.venueType.other':            '其他',
 
   // ── Today's Focus ───────────────────────────────────────────────────────
@@ -933,6 +938,10 @@ const ja = {
   'pp.venuelog.status.in_contact': '連絡中',
   'pp.venuelog.status.applied':    '申請済み',
   'pp.venuelog.status.ongoing':    '継続関係',
+  'pp.venuelog.status.researching':   '調査中',
+  'pp.venuelog.status.submitted':     '提出済み',
+  'pp.venuelog.status.rejected':      '不採択',
+  'pp.venuelog.lastContacted':        '最終連絡',
   'pp.venueType.gallery':          'ギャラリー',
   'pp.venueType.cafe_gallery':     'カフェギャラリー',
   'pp.venueType.bookshop':         '書店',
@@ -940,6 +949,7 @@ const ja = {
   'pp.venueType.artist_space':     'アーティストスペース',
   'pp.venueType.fair':             'アートフェア / マーケット',
   'pp.venueType.institution':      '機関 / 美術館',
+  'pp.venueType.residency':           'レジデンス',
   'pp.venueType.other':            'その他',
 
   // ── Today's Focus ───────────────────────────────────────────────────────
@@ -1405,6 +1415,10 @@ const en = {
   'pp.venuelog.status.in_contact': 'In contact',
   'pp.venuelog.status.applied':    'Applied',
   'pp.venuelog.status.ongoing':    'Ongoing relationship',
+  'pp.venuelog.status.researching':   'Researching',
+  'pp.venuelog.status.submitted':     'Submitted',
+  'pp.venuelog.status.rejected':      'Rejected',
+  'pp.venuelog.lastContacted':        'Last contacted',
   'pp.venueType.gallery':          'Gallery',
   'pp.venueType.cafe_gallery':     'Café gallery',
   'pp.venueType.bookshop':         'Bookshop',
@@ -1412,6 +1426,7 @@ const en = {
   'pp.venueType.artist_space':     'Artist space / run space',
   'pp.venueType.fair':             'Art fair / market',
   'pp.venueType.institution':      'Institution / museum',
+  'pp.venueType.residency':           'Residency',
   'pp.venueType.other':            'Other',
 
   // ── Today's Focus ───────────────────────────────────────────────────────

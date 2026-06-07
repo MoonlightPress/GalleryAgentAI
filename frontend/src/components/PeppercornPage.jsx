@@ -814,9 +814,11 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
 
 const VENUE_STATUS_OPTIONS = [
   { value: 'cold' },
+  { value: 'researching' },
   { value: 'in_contact' },
-  { value: 'applied' },
+  { value: 'submitted' },
   { value: 'ongoing' },
+  { value: 'rejected' },
 ]
 
 const VENUE_TYPE_OPTIONS = [
@@ -827,20 +829,104 @@ const VENUE_TYPE_OPTIONS = [
   { value: 'artist_space' },
   { value: 'fair' },
   { value: 'institution' },
+  { value: 'residency' },
   { value: 'other' },
 ]
 
 const STATUS_COLORS = {
   cold:       { bg: '#f5f5f5', border: '#ccc',    text: '#555' },
+  researching:{ bg: '#fdf5e8', border: '#e8c878', text: '#7a5010' },
   in_contact: { bg: '#f0f6ff', border: '#90aee0', text: '#1a3a80' },
-  applied:    { bg: '#fffbef', border: '#e8d890', text: '#7a6010' },
+  submitted:  { bg: '#fff8ef', border: '#e8b870', text: '#804a10' },
   ongoing:    { bg: '#f0fbee', border: '#8fc98a', text: '#2e6626' },
+  rejected:   { bg: '#fef5f5', border: '#e8b0b0', text: '#8b2a2a' },
+}
+
+function VenueContactCard({ contact: c, onUpdate }) {
+  const { t } = useLanguage()
+  const [editing, setEditing] = useState(false)
+  const [editStatus, setEditStatus] = useState(c.status || 'cold')
+  const [editNotes, setEditNotes] = useState(c.notes || '')
+  const [editLastContacted, setEditLastContacted] = useState(c.last_contacted || '')
+  const [saving, setSaving] = useState(false)
+
+  const colors = STATUS_COLORS[c.status] || STATUS_COLORS.cold
+
+  async function saveEdit() {
+    setSaving(true)
+    try {
+      const r = await fetch('/api/contacts/update', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: c.name,
+          status: editStatus,
+          notes: editNotes,
+          last_contacted: editLastContacted,
+        }),
+      })
+      if (r.ok) {
+        const res = await r.json()
+        onUpdate(res.contact)
+        setEditing(false)
+      }
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  return (
+    <div className="pp-sub-row" style={{ borderLeft: `3px solid ${colors.border}` }}>
+      <div className="pp-sub-row-header">
+        <span className="pp-sub-venue">{c.name}</span>
+        <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
+          {t('pp.venuelog.status.' + c.status) || c.status}
+        </span>
+        {c.city && <span className="pp-sub-date">{c.city}</span>}
+        {c.last_contacted && <span className="pp-sub-date">contacted {c.last_contacted}</span>}
+        {!editing && (
+          <button className="pp-edit-btn" onClick={() => { setEditing(true); setEditStatus(c.status || 'cold'); setEditNotes(c.notes || ''); setEditLastContacted(c.last_contacted || '') }}>
+            Edit
+          </button>
+        )}
+      </div>
+      {c.type && !editing && <div className="pp-sub-what">{t('pp.venueType.' + c.type) || c.type}</div>}
+      {c.notes && !editing && <div className="pp-sub-notes">{c.notes}</div>}
+
+      {editing && (
+        <div className="pp-inline-edit">
+          <div className="pp-sub-form-row">
+            <div className="pp-sub-field">
+              <label className="pp-sub-label">Status</label>
+              <select className="pp-sub-select" value={editStatus} onChange={e => setEditStatus(e.target.value)}>
+                {VENUE_STATUS_OPTIONS.map(o => (
+                  <option key={o.value} value={o.value}>{t('pp.venuelog.status.' + o.value) || o.value}</option>
+                ))}
+              </select>
+            </div>
+            <div className="pp-sub-field">
+              <label className="pp-sub-label">Last contacted</label>
+              <input type="date" className="pp-sub-input" value={editLastContacted} onChange={e => setEditLastContacted(e.target.value)} />
+            </div>
+          </div>
+          <div className="pp-sub-field">
+            <label className="pp-sub-label">Notes</label>
+            <input type="text" className="pp-sub-input" value={editNotes} onChange={e => setEditNotes(e.target.value)} />
+          </div>
+          <div className="pp-q-actions">
+            <button className="pp-save" onClick={saveEdit} disabled={saving}>Save</button>
+            <button className="pp-skip" onClick={() => setEditing(false)}>Cancel</button>
+          </div>
+        </div>
+      )}
+    </div>
+  )
 }
 
 function VenueLogSection({ isOpen, onToggle, sectionRef }) {
   const { t } = useLanguage()
   const [contacts, setContacts] = useState([])
-  const [form, setForm] = useState({ name: '', type: 'gallery', city: 'Tokyo', last_visited: '', status: 'cold', notes: '' })
+  const [form, setForm] = useState({ name: '', type: 'gallery', city: 'Tokyo', last_visited: '', last_contacted: '', status: 'cold', notes: '' })
   const [saving, setSaving] = useState(false)
   const [saved, flash] = useSaved()
 
@@ -865,7 +951,7 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
       if (r.ok) {
         const updated = await fetch('/api/contacts').then(r2 => r2.json())
         setContacts(Array.isArray(updated) ? updated : [])
-        setForm({ name: '', type: 'gallery', city: 'Tokyo', last_visited: '', status: 'cold', notes: '' })
+        setForm({ name: '', type: 'gallery', city: 'Tokyo', last_visited: '', last_contacted: '', status: 'cold', notes: '' })
         flash()
       }
     } finally {
@@ -926,6 +1012,15 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
             />
           </div>
           <div className="pp-sub-field">
+            <label className="pp-sub-label">{t('pp.venuelog.lastContacted')}</label>
+            <input
+              type="date"
+              className="pp-sub-input"
+              value={form.last_contacted}
+              onChange={e => setField('last_contacted', e.target.value)}
+            />
+          </div>
+          <div className="pp-sub-field">
             <label className="pp-sub-label">{t('pp.venuelog.status')}</label>
             <select className="pp-sub-select" value={form.status} onChange={e => setField('status', e.target.value)}>
               {VENUE_STATUS_OPTIONS.map(o => <option key={o.value} value={o.value}>{t('pp.venuelog.status.' + o.value)}</option>)}
@@ -953,23 +1048,15 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
 
       {sorted.length > 0 && (
         <div className="pp-sub-list">
-          {sorted.map((c, i) => {
-            const colors = STATUS_COLORS[c.status] || STATUS_COLORS.cold
-            return (
-              <div key={c.logged_at || i} className="pp-sub-row" style={{ borderLeft: `3px solid ${colors.border}` }}>
-                <div className="pp-sub-row-header">
-                  <span className="pp-sub-venue">{c.name}</span>
-                  <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
-                    {t('pp.venuelog.status.' + c.status) || c.status}
-                  </span>
-                  {c.city && <span className="pp-sub-date">{c.city}</span>}
-                  {c.last_visited && <span className="pp-sub-date">{c.last_visited}</span>}
-                </div>
-                {c.type && <div className="pp-sub-what">{t('pp.venueType.' + c.type) || c.type}</div>}
-                {c.notes && <div className="pp-sub-notes">{c.notes}</div>}
-              </div>
-            )
-          })}
+          {sorted.map((c, i) => (
+            <VenueContactCard
+              key={c.logged_at || i}
+              contact={c}
+              onUpdate={updated => {
+                setContacts(prev => prev.map(x => (x.name === updated.name ? updated : x)))
+              }}
+            />
+          ))}
         </div>
       )}
     </SectionShell>
