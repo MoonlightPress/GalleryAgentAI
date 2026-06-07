@@ -19,6 +19,7 @@ TIER2_CATEGORIES = frozenset([
     'event_space',
     'gallery_event',
     'fair_popup',
+    'market_event',
 ])
 
 TIER3_CATEGORIES = frozenset([
@@ -43,12 +44,15 @@ TIER4_TITLE_SIGNALS = [
 ]
 
 # Score adjustment per tier for an artist currently in Tier 1-2.
-# Tier 1-2 opportunities get a boost; Tier 4 gets a penalty.
+# Tier 1-2 opportunities get a strong boost; international open calls (Tier 3)
+# get a modest penalty so local consignment/café venues rank above them.
+# The gap between Tier 1 and Tier 3 must be large enough to overcome
+# higher base scores on well-documented international open calls.
 TIER_ADJUSTMENTS = {
-    1: +1.5,
-    2: +0.5,
-    3:  0.0,
-    4: -1.5,
+    1: +2.5,
+    2: +1.0,
+    3: -0.5,
+    4: -2.0,
 }
 
 
