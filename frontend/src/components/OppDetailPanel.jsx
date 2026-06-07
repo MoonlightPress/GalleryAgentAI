@@ -98,7 +98,7 @@ export default function OppDetailPanel({ opp, onClose }) {
 
           {crmContact && (
             <span className={`detail-chip detail-chip-crm detail-chip-crm--${crmContact.status || 'cold'}`}>
-              🤝 {crmContact.status?.replace('_', ' ') || 'tracked'}
+              🤝 {crmContact.status?.replace('_', ' ') || t('detail.crmTracked')}
               {crmContact.last_contacted && ` · ${crmContact.last_contacted}`}
             </span>
           )}
@@ -107,7 +107,7 @@ export default function OppDetailPanel({ opp, onClose }) {
             className="detail-chip detail-chip-link detail-chip-log"
             onClick={() => setShowLogForm(s => !s)}
           >
-            {showLogForm ? '✕ cancel' : '+ log contact'}
+            {showLogForm ? t('detail.logCancel') : t('detail.logContact')}
           </button>
         </div>
 
@@ -120,7 +120,7 @@ export default function OppDetailPanel({ opp, onClose }) {
                 onChange={e => setLogForm(f => ({ ...f, status: e.target.value }))}
               >
                 {['cold','researching','in_contact','submitted','ongoing','rejected'].map(s => (
-                  <option key={s} value={s}>{s.replace('_', ' ')}</option>
+                  <option key={s} value={s}>{t('pp.venuelog.status.' + s) || s.replace('_', ' ')}</option>
                 ))}
               </select>
               <input
@@ -133,7 +133,7 @@ export default function OppDetailPanel({ opp, onClose }) {
             <input
               type="text"
               className="detail-log-input detail-log-input--wide"
-              placeholder="Notes (optional)"
+              placeholder={t('detail.notes')}
               value={logForm.notes}
               onChange={e => setLogForm(f => ({ ...f, notes: e.target.value }))}
             />
@@ -160,7 +160,7 @@ export default function OppDetailPanel({ opp, onClose }) {
                 }
               }}
             >
-              {logSaved ? 'Saved ✓' : (crmContact ? 'Update' : 'Add to CRM')}
+              {logSaved ? t('detail.savedCheck') : (crmContact ? t('detail.update') : t('detail.addToCrm'))}
             </button>
           </div>
         )}

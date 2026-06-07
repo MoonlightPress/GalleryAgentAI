@@ -883,10 +883,10 @@ function VenueContactCard({ contact: c, onUpdate }) {
           {t('pp.venuelog.status.' + c.status) || c.status}
         </span>
         {c.city && <span className="pp-sub-date">{c.city}</span>}
-        {c.last_contacted && <span className="pp-sub-date">contacted {c.last_contacted}</span>}
+        {c.last_contacted && <span className="pp-sub-date">{t('pp.crm.contactedOn', { date: c.last_contacted })}</span>}
         {!editing && (
           <button className="pp-edit-btn" onClick={() => { setEditing(true); setEditStatus(c.status || 'cold'); setEditNotes(c.notes || ''); setEditLastContacted(c.last_contacted || '') }}>
-            Edit
+            {t('pp.crm.edit')}
           </button>
         )}
       </div>
@@ -897,7 +897,7 @@ function VenueContactCard({ contact: c, onUpdate }) {
         <div className="pp-inline-edit">
           <div className="pp-sub-form-row">
             <div className="pp-sub-field">
-              <label className="pp-sub-label">Status</label>
+              <label className="pp-sub-label">{t('pp.crm.status')}</label>
               <select className="pp-sub-select" value={editStatus} onChange={e => setEditStatus(e.target.value)}>
                 {VENUE_STATUS_OPTIONS.map(o => (
                   <option key={o.value} value={o.value}>{t('pp.venuelog.status.' + o.value) || o.value}</option>
@@ -905,17 +905,17 @@ function VenueContactCard({ contact: c, onUpdate }) {
               </select>
             </div>
             <div className="pp-sub-field">
-              <label className="pp-sub-label">Last contacted</label>
+              <label className="pp-sub-label">{t('pp.crm.lastContacted')}</label>
               <input type="date" className="pp-sub-input" value={editLastContacted} onChange={e => setEditLastContacted(e.target.value)} />
             </div>
           </div>
           <div className="pp-sub-field">
-            <label className="pp-sub-label">Notes</label>
+            <label className="pp-sub-label">{t('pp.crm.notes')}</label>
             <input type="text" className="pp-sub-input" value={editNotes} onChange={e => setEditNotes(e.target.value)} />
           </div>
           <div className="pp-q-actions">
-            <button className="pp-save" onClick={saveEdit} disabled={saving}>Save</button>
-            <button className="pp-skip" onClick={() => setEditing(false)}>Cancel</button>
+            <button className="pp-save" onClick={saveEdit} disabled={saving}>{t('pp.crm.save')}</button>
+            <button className="pp-skip" onClick={() => setEditing(false)}>{t('pp.crm.cancel')}</button>
           </div>
         </div>
       )}

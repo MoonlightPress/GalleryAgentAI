@@ -4,22 +4,28 @@ import './TodaysFocus.css'
 
 const ROLE_CONFIG = {
   quick_win: {
-    icon:    '⚡',
-    accent:  '#6a8a3a',
-    bgLight: '#f4faef',
-    border:  '#b8d898',
+    icon:      '⚡',
+    accent:    '#6a8a3a',
+    bgLight:   '#f4faef',
+    border:    '#b8d898',
+    labelKey:  'tf.role.quickWin',
+    timeKey:   'tf.time.min5',
   },
   high_impact: {
-    icon:    '✦',
-    accent:  '#b8892a',
-    bgLight: '#fdf8ef',
-    border:  '#e8c878',
+    icon:      '✦',
+    accent:    '#b8892a',
+    bgLight:   '#fdf8ef',
+    border:    '#e8c878',
+    labelKey:  'tf.role.highImpact',
+    timeKey:   'tf.time.min3060',
   },
   stretch_goal: {
-    icon:    '◎',
-    accent:  '#6a7ab8',
-    bgLight: '#f2f4fc',
-    border:  '#b8c4e8',
+    icon:      '◎',
+    accent:    '#6a7ab8',
+    bgLight:   '#f2f4fc',
+    border:    '#b8c4e8',
+    labelKey:  'tf.role.stretchGoal',
+    timeKey:   'tf.time.longer',
   },
 }
 
@@ -36,8 +42,8 @@ function TodayCard({ card, role }) {
     >
       <div className="tf-role-badge">
         <span className="tf-role-icon">{cfg.icon}</span>
-        <span className="tf-role-label">{card.today_label}</span>
-        <span className="tf-time-est">{card.time_est}</span>
+        <span className="tf-role-label">{cfg.labelKey ? tFn(cfg.labelKey) : (card.today_label || '')}</span>
+        <span className="tf-time-est">{cfg.timeKey ? tFn(cfg.timeKey) : (card.time_est || '')}</span>
       </div>
 
       <h3 className="tf-name">{card.name}</h3>
@@ -94,7 +100,16 @@ export default function TodaysFocus() {
   }, [])
 
   if (loading) return null
-  if (!today || (!today.quick_win && !today.high_impact && !today.stretch_goal)) return null
+  if (!today || (!today.quick_win && !today.high_impact && !today.stretch_goal)) {
+    return (
+      <section className="tf-section">
+        <div className="tf-header">
+          <h2 className="tf-section-title">{t('tf.title')}</h2>
+          <p className="tf-section-sub">{t('tf.noItems')}</p>
+        </div>
+      </section>
+    )
+  }
 
   return (
     <section className="tf-section">

@@ -637,7 +637,7 @@ function VenueTracker({ data, t }) {
                   <span className="sf-venue-name">{v.name}</span>
                   <span className="sf-venue-type">{v.type} · {v.city}</span>
                   <span className="sf-venue-status" style={{ color }}>{label}</span>
-                  {v.priority && <span className="sf-venue-priority">Priority {v.priority}</span>}
+                  {v.priority && <span className="sf-venue-priority">{t('sf.venue.priority', { n: v.priority })}</span>}
                 </div>
                 <div className="sf-venue-last">
                   {v.last_contacted
