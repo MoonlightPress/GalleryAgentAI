@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './OppDetailPanel.css'
 import { useLanguage } from '../i18n/LanguageContext'
 
@@ -17,6 +17,19 @@ export default function OppDetailPanel({ opp, onClose }) {
   const [emailTab, setEmailTab] = useState('zh')
   const { t } = useLanguage()
   const verifyNeeded = !deadlineIsReal(opp.deadline)
+
+  const [crmContact, setCrmContact] = useState(null)
+  const [showLogForm, setShowLogForm] = useState(false)
+  const [logForm, setLogForm] = useState({ status: 'in_contact', notes: '', last_contacted: new Date().toISOString().slice(0, 10) })
+  const [logSaved, setLogSaved] = useState(false)
+
+  useEffect(() => {
+    if (!opp.name) return
+    fetch(`/api/contacts/lookup?name=${encodeURIComponent(opp.name)}`)
+      .then(r => r.ok ? r.json() : null)
+      .then(c => setCrmContact(c))
+      .catch(() => {})
+  }, [opp.name])
 
   // Determine which contact action to surface
   const hasEmail     = !!(opp.contact && opp.contact.includes('@'))
@@ -82,7 +95,75 @@ export default function OppDetailPanel({ opp, onClose }) {
               ✦ {t('detail.contact.form')}
             </a>
           )}
+
+          {crmContact && (
+            <span className={`detail-chip detail-chip-crm detail-chip-crm--${crmContact.status || 'cold'}`}>
+              🤝 {crmContact.status?.replace('_', ' ') || 'tracked'}
+              {crmContact.last_contacted && ` · ${crmContact.last_contacted}`}
+            </span>
+          )}
+
+          <button
+            className="detail-chip detail-chip-link detail-chip-log"
+            onClick={() => setShowLogForm(s => !s)}
+          >
+            {showLogForm ? '✕ cancel' : '+ log contact'}
+          </button>
         </div>
+
+        {showLogForm && (
+          <div className="detail-log-form">
+            <div className="detail-log-row">
+              <select
+                className="detail-log-select"
+                value={logForm.status}
+                onChange={e => setLogForm(f => ({ ...f, status: e.target.value }))}
+              >
+                {['cold','researching','in_contact','submitted','ongoing','rejected'].map(s => (
+                  <option key={s} value={s}>{s.replace('_', ' ')}</option>
+                ))}
+              </select>
+              <input
+                type="date"
+                className="detail-log-input"
+                value={logForm.last_contacted}
+                onChange={e => setLogForm(f => ({ ...f, last_contacted: e.target.value }))}
+              />
+            </div>
+            <input
+              type="text"
+              className="detail-log-input detail-log-input--wide"
+              placeholder="Notes (optional)"
+              value={logForm.notes}
+              onChange={e => setLogForm(f => ({ ...f, notes: e.target.value }))}
+            />
+            <button
+              className="detail-log-btn"
+              onClick={async () => {
+                // If contact exists, update; otherwise create new
+                const endpoint = crmContact ? '/api/contacts/update' : '/api/contacts'
+                const method = crmContact ? 'PATCH' : 'POST'
+                const body = crmContact
+                  ? { name: opp.name, status: logForm.status, notes: logForm.notes, last_contacted: logForm.last_contacted }
+                  : { name: opp.name, type: opp.category || '', city: opp.city || 'Tokyo', status: logForm.status, notes: logForm.notes, last_contacted: logForm.last_contacted, last_visited: '' }
+                const r = await fetch(endpoint, {
+                  method,
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify(body),
+                })
+                if (r.ok) {
+                  const result = await r.json()
+                  setCrmContact(crmContact ? result.contact : { ...body })
+                  setShowLogForm(false)
+                  setLogSaved(true)
+                  setTimeout(() => setLogSaved(false), 2000)
+                }
+              }}
+            >
+              {logSaved ? 'Saved ✓' : (crmContact ? 'Update' : 'Add to CRM')}
+            </button>
+          </div>
+        )}
 
         {/* Contact note — shown when there's no direct email (portal/form-only path) */}
         {opp.contact_note && (

@@ -309,3 +309,59 @@
 .checklist-note {
   color: var(--ink-muted);
 }
+
+/* ── CRM status badge ── */
+.detail-chip-crm {
+  font-weight: 500;
+}
+.detail-chip-crm--in_contact { background: #f0f6ff; color: #1a3a80; border-color: #90aee0; }
+.detail-chip-crm--ongoing    { background: #f0fbee; color: #2e6626; border-color: #8fc98a; }
+.detail-chip-crm--submitted  { background: #fff8ef; color: #804a10; border-color: #e8b870; }
+.detail-chip-crm--cold       { background: #f5f5f5; color: #555;    border-color: #ccc; }
+.detail-chip-crm--rejected   { background: #fef5f5; color: #8b2a2a; border-color: #e8b0b0; }
+
+/* ── Log Contact button ── */
+.detail-chip-log {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #c8962a;
+  color: #c8962a;
+  font-size: 0.78rem;
+}
+.detail-chip-log:hover { background: #fdf8ef; }
+
+/* ── Log Contact inline form ── */
+.detail-log-form {
+  padding: 10px 0 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-top: 1px solid #eee;
+  margin-top: 8px;
+}
+.detail-log-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.detail-log-select, .detail-log-input {
+  font-size: 0.82rem;
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: Georgia, serif;
+  background: #fafaf8;
+}
+.detail-log-input--wide { width: 100%; }
+.detail-log-btn {
+  align-self: flex-start;
+  padding: 5px 16px;
+  background: #c8962a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-family: Georgia, serif;
+}
+.detail-log-btn:hover { background: #a87820; }
