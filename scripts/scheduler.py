@@ -49,8 +49,9 @@ DAILY_PIPELINE = [
 
 # ── Weekly: verification + submission crawling + light discovery ──────────────
 WEEKLY_PIPELINE = [
-    "url_verification_engine.py",
-    "opportunity_verification_engine.py",
+    "targeted_verification_weekly.py",   # HEAD+GET check on all opps (replaces url_verification_engine)
+    "deep_verification_agent.py",        # Claude extracts contact/fees/process from venue pages
+    "verification_report_engine.py",     # recomputes verification_status from all fields
     "submission_link_hunter.py",
     "submission_strategy_engine.py",
     "submission_timeline_engine.py",

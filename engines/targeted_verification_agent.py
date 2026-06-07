@@ -170,7 +170,11 @@ def main():
         opp_id = _opp_id(opp)
         by_id[opp_id]["url_verification_status"]  = url_status
         by_id[opp_id]["site_http_code"]            = site_code
-        by_id[opp_id]["deadline_verified"]         = dl_verified
+        # Only promote deadline_verified; never downgrade a previously confirmed True
+        if dl_verified:
+            by_id[opp_id]["deadline_verified"] = True
+        elif not by_id[opp_id].get("deadline_verified"):
+            by_id[opp_id]["deadline_verified"] = False
         by_id[opp_id]["last_verified"]             = now_ts
 
         results.append({

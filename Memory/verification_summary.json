@@ -1,14 +1,14 @@
 {
   "total": 297,
-  "verified": 82,
-  "strong_partial": 122,
-  "partial": 65,
-  "research_needed": 28,
-  "url_ok": 251,
-  "deadline_verified": 211,
-  "contact_verified": 85,
-  "fees_verified": 133,
-  "submission_process_known": 159,
+  "verified": 90,
+  "strong_partial": 146,
+  "partial": 30,
+  "research_needed": 31,
+  "url_ok": 262,
+  "deadline_verified": 191,
+  "contact_verified": 114,
+  "fees_verified": 144,
+  "submission_process_known": 176,
   "medium_confirmed": 179,
   "generated_at": "2026-06-07"
 }
