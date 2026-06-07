@@ -35,6 +35,312 @@
       "official_website": "https://www.kayokoyuki.com/en/",
       "submission_page": "",
       "date_updated": "2026-05-24 10:37"
+    },
+    {
+      "name": "UTRECHT",
+      "type": "bookstore_gallery",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "https://utrecht.jp/",
+      "contact_email": "",
+      "status": "researching",
+      "notes": "Top-tier Tokyo art bookshop. Colour Diary consignment target. Research submission/consignment process first.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "A"
+      }
+    },
+    {
+      "name": "flotsam books",
+      "type": "bookshop",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "https://flotsambooks.com/",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Independent bookshop, strong illustration/zine focus. Colour Diary and diary series fit well.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "A"
+      }
+    },
+    {
+      "name": "B&B Shimokitazawa",
+      "type": "bookstore_gallery",
+      "city": "Shimokitazawa, Tokyo",
+      "country": "Japan",
+      "official_website": "https://bookandbeer.com/",
+      "contact_email": "",
+      "status": "researching",
+      "notes": "Books + beer + events. High community fit. Key Shimokitazawa relationship target. Check event/consignment inquiry process.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "A"
+      }
+    },
+    {
+      "name": "HATTIFNATT Koenji",
+      "type": "cafe_gallery",
+      "city": "Koenji, Tokyo",
+      "country": "Japan",
+      "official_website": "https://www.hattifnatt.jp/",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Cafe gallery known for illustration and watercolor exhibitions. Strong aesthetic fit for daily diary series.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "A"
+      }
+    },
+    {
+      "name": "MOUNT ZINE",
+      "type": "zine_shop",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "https://mountzine.com/",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Tokyo's leading zine shop. Colour Diary consignment target. Seriality of daily practice is strong pitch angle.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "A"
+      }
+    },
+    {
+      "name": "Book and Sons",
+      "type": "bookshop",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "https://bookandsons.com/",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Art/design book specialist. Colour Diary and future publications fit. Connection to Tokyo art book community.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "B"
+      }
+    },
+    {
+      "name": "COW BOOKS Nakameguro",
+      "type": "bookshop",
+      "city": "Nakameguro, Tokyo",
+      "country": "Japan",
+      "official_website": "https://www.cowbooks.jp/",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Curated secondhand/art bookshop. Slow, observational aesthetic matches her work. Walk-in pitch appropriate.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "B"
+      }
+    },
+    {
+      "name": "Tokyo Art Book Fair",
+      "type": "fair",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "https://tokyoartbookfair.com/",
+      "contact_email": "",
+      "status": "researching",
+      "notes": "Premier Tokyo art book fair. Table/booth target for 2026. Research application process and deadlines for 2026 edition.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "A"
+      }
+    },
+    {
+      "name": "ZINEフェス東京",
+      "type": "fair",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "ZINE Fest Tokyo booth application. Deadline June 27 2026. Tier 1 high-priority action.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "A"
+      }
+    },
+    {
+      "name": "Yonchome Cafe",
+      "type": "cafe_gallery",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Local Tokyo cafe gallery. Short-term exhibition venue for watercolor diary series.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "C"
+      }
+    },
+    {
+      "name": "SUZURI",
+      "type": "other",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "https://suzuri.jp/",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "POD platform - Tshirts, totes, postcards. Setup target: 2-3 hours. Passive income from 90k Twitter following.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "A"
+      }
+    },
+    {
+      "name": "Design Festa Gallery",
+      "type": "gallery",
+      "city": "Harajuku, Tokyo",
+      "country": "Japan",
+      "official_website": "https://designfestagallery.com/",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Open application gallery space. Used by many emerging Tokyo illustrators. Low barrier, high visibility.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "B"
+      }
+    },
+    {
+      "name": "tata bookshop/gallery",
+      "type": "bookstore_gallery",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Small bookshop with gallery component. Contact info confirmed via deep verification.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "C"
+      }
+    },
+    {
+      "name": "reload Shimokitazawa",
+      "type": "artist_space",
+      "city": "Shimokitazawa, Tokyo",
+      "country": "Japan",
+      "official_website": "",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Multi-use arts space in Shimokitazawa. Gallery/event inquiry possible.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "C"
+      }
+    },
+    {
+      "name": "Tacoche",
+      "type": "zine_shop",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Zine/indie print shop. Consignment target for Colour Diary and future zines.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "C"
+      }
+    },
+    {
+      "name": "Gallery 456",
+      "type": "gallery",
+      "city": "New York",
+      "country": "USA",
+      "official_website": "",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "International gallery. Open call contact/fees/process confirmed via verification pass.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "C"
+      }
+    },
+    {
+      "name": "ART BOX Publishing",
+      "type": "book_publishing",
+      "city": "International",
+      "country": "Japan",
+      "official_website": "http://www.artbox-int.co.jp/en/publish/index.html",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Art book publisher. Submission process confirmed. For when Colour Diary 2 is ready.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "C"
+      }
+    },
+    {
+      "name": "Books Ruhe",
+      "type": "bookshop",
+      "city": "Tokyo",
+      "country": "Japan",
+      "official_website": "",
+      "contact_email": "",
+      "status": "cold",
+      "notes": "Independent bookshop. Contact info confirmed. Colour Diary consignment potential.",
+      "last_contacted": null,
+      "last_visited": null,
+      "date_added": "2026-06-07",
+      "source": "ibm_pipeline",
+      "crm_analysis": {
+        "priority": "C"
+      }
     }
   ]
 }
