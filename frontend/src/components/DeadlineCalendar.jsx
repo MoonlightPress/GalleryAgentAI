@@ -39,11 +39,8 @@ function parseDeadline(str) {
   return null
 }
 
-const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-const MONTHS   = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-
-function formatDate(date) {
-  return `${MONTHS[date.getMonth()]} ${date.getDate()} · ${WEEKDAYS[date.getDay()]}`
+function formatDate(date, months, weekdays) {
+  return `${months[date.getMonth()]} ${date.getDate()} · ${weekdays[date.getDay()]}`
 }
 
 function urgencyClass(days) {
@@ -54,6 +51,8 @@ function urgencyClass(days) {
 
 export default function DeadlineCalendar() {
   const { t } = useLanguage()
+  const calWeekdays = t('cal.weekdays')
+  const calMonths   = t('cal.months')
   const [data, setData]           = useState(null)
   const [activeId, setActiveId]   = useState(null)
   const [suppressed, setSuppressed] = useState(new Set())
@@ -128,7 +127,7 @@ export default function DeadlineCalendar() {
           return (
             <div key={key} className="cal-date-group">
               <div className="cal-date-header">
-                <span className="cal-date-label">{formatDate(date)}</span>
+                <span className="cal-date-label">{formatDate(date, calMonths, calWeekdays)}</span>
                 <span className={`cal-days-chip ${urgencyClass(daysLeft)}`}>{chipLabel}</span>
                 {opps.length > 1 && (
                   <span className="cal-count">{opps.length}</span>

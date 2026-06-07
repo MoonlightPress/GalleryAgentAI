@@ -433,19 +433,19 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
 
 // ── Career goals section ──────────────────────────────────────────────────
 
-const GOAL_PLACEHOLDERS = [
-  'Table at Tokyo Art Book Fair',
-  'First solo show before 30',
-  "Get featured in It's Nice That",
-  'Collaborate with a Tokyo bookshop',
-  'Sell 20 prints in a single month',
+const GOAL_PLACEHOLDER_KEYS = [
+  'pp.goal.ph.0',
+  'pp.goal.ph.1',
+  'pp.goal.ph.2',
+  'pp.goal.ph.3',
+  'pp.goal.ph.4',
 ]
 
 function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [goals,  setGoals]  = useState(data || [])
   const [input,  setInput]  = useState('')
   const [saved,  flash]     = useSaved()
-  const [phIdx]             = useState(() => Math.floor(Math.random() * GOAL_PLACEHOLDERS.length))
+  const [phIdx]             = useState(() => Math.floor(Math.random() * GOAL_PLACEHOLDER_KEYS.length))
   const [shownFirstNote, setShownFirstNote] = useState((data || []).length > 0)
   const { t } = useLanguage()
   useEffect(() => { setGoals(data || []) }, [data])
@@ -485,9 +485,9 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
         <div className="pp-goal-list">
           {active.map(g => (
             <div key={g.id} className="pp-goal-row">
-              <button className="pp-goal-toggle" onClick={() => toggleDone(g.id)} title="Mark complete">○</button>
+              <button className="pp-goal-toggle" onClick={() => toggleDone(g.id)} title={t('pp.goal.markDone')}>○</button>
               <span className="pp-goal-text">{g.text}</span>
-              <button className="pp-goal-remove" onClick={() => removeGoal(g.id)} title="Remove">×</button>
+              <button className="pp-goal-remove" onClick={() => removeGoal(g.id)} title={t('pp.goal.remove')}>×</button>
             </div>
           ))}
         </div>
@@ -499,7 +499,7 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
           value={input}
           onChange={e => setInput(e.target.value)}
           onKeyDown={e => e.key === 'Enter' && addGoal()}
-          placeholder={GOAL_PLACEHOLDERS[phIdx] + '…'}
+          placeholder={t(GOAL_PLACEHOLDER_KEYS[phIdx]) + '…'}
         />
         <button className="pp-add-btn" onClick={addGoal}>{t('pp.add')}</button>
       </div>
@@ -512,9 +512,9 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
         <div className="pp-goal-list pp-goal-list--done">
           {done.map(g => (
             <div key={g.id} className="pp-goal-row pp-goal-row--done">
-              <button className="pp-goal-toggle" onClick={() => toggleDone(g.id)} title="Reopen">✓</button>
+              <button className="pp-goal-toggle" onClick={() => toggleDone(g.id)} title={t('pp.goal.reopen')}>✓</button>
               <span className="pp-goal-text">{g.text}</span>
-              <button className="pp-goal-remove" onClick={() => removeGoal(g.id)} title="Remove">×</button>
+              <button className="pp-goal-remove" onClick={() => removeGoal(g.id)} title={t('pp.goal.remove')}>×</button>
             </div>
           ))}
         </div>
@@ -1173,7 +1173,7 @@ function computeSectionOrder(profile) {
 // ── Dismissal insight banner ──────────────────────────────────────────────
 
 function DismissalInsightBanner() {
-  const { lang } = useLanguage()
+  const { t, lang } = useLanguage()
   const [insights, setInsights] = useState(null)
   const [dismissed, setDismissed] = useState(false)
   const [saved, setSaved] = useState(false)
@@ -1192,8 +1192,10 @@ function DismissalInsightBanner() {
   // Pick the category with most dismissals
   const [topCategory, topCount] = entries.sort((a, b) => b[1] - a[1])[0]
 
-  // Human-readable category name
-  const categoryLabel = topCategory.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+  // Human-readable category name — use translation key, fall back to slug
+  const categoryLabel = t(`cat.${topCategory}`) !== `cat.${topCategory}`
+    ? t(`cat.${topCategory}`)
+    : topCategory.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
 
   async function suppress() {
     await fetch('/api/feedback/suppress-category', {
@@ -1209,18 +1211,14 @@ function DismissalInsightBanner() {
       <span className="pp-dismissal-icon">🐭</span>
       <div className="pp-dismissal-body">
         <span className="pp-dismissal-text">
-          {lang === 'ja'
-            ? `${categoryLabel}の機会を${topCount}件スキップしています。今後は減らしましょうか？`
-            : lang === 'zh'
-            ? `您已跳过了${topCount}个${categoryLabel}机会。要减少此类推荐吗？`
-            : `You've passed on ${topCount} ${categoryLabel} calls. Should I surface fewer of these?`}
+          {t('pp.dismissal.text', { n: topCount, cat: categoryLabel })}
         </span>
         <div className="pp-dismissal-actions">
           <button className="pp-dismissal-confirm" onClick={suppress}>
-            {lang === 'ja' ? 'はい、減らして' : lang === 'zh' ? '好的，减少' : 'Yes, show fewer'}
+            {t('pp.dismissal.confirm')}
           </button>
           <button className="pp-dismissal-skip" onClick={() => setDismissed(true)}>
-            {lang === 'ja' ? 'このまま続ける' : lang === 'zh' ? '继续显示' : 'Keep showing'}
+            {t('pp.dismissal.skip')}
           </button>
         </div>
       </div>

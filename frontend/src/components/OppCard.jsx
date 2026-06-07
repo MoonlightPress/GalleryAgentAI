@@ -138,7 +138,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
           )}
           {opp.effort && opp.effort !== 'Check' && (
             <span className={`opp-pill opp-pill-effort opp-effort-${opp.effort.toLowerCase()}`}>
-              {opp.effort}
+              {t(`card.effort.${opp.effort.toLowerCase()}`) || opp.effort}
             </span>
           )}
         </div>
@@ -177,7 +177,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
             ))}
             {appliedToast && (
               <span className="opp-feedback-btn opp-applied-toast">
-                ✓ added to submission log
+                {t('card.toast.logged')}
               </span>
             )}
           </div>

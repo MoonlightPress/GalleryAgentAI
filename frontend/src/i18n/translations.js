@@ -54,6 +54,21 @@ const zh = {
   'card.feedback.applied':   '已申请',
   'card.feedback.maybe':     '以后考虑',
   'card.feedback.notForMe':  '不合适',
+  'card.toast.logged':       '✓ 已加入提交记录',
+
+  // ── Effort labels ─────────────────────────────────────────────────────────
+  'card.effort.low':         '低门槛',
+  'card.effort.medium':      '中门槛',
+  'card.effort.high':        '高门槛',
+  'card.effort.check':       '待确认',
+
+  // ── CRM status labels ──────────────────────────────────────────────────────
+  'crm.status.cold':         '未接触',
+  'crm.status.researching':  '调研中',
+  'crm.status.in_contact':   '联系中',
+  'crm.status.submitted':    '已提交',
+  'crm.status.ongoing':      '持续关系',
+  'crm.status.rejected':     '未通过',
 
   // ── Category labels ───────────────────────────────────────────────────────
   'cat.gallery':             '画廊',
@@ -507,10 +522,47 @@ const zh = {
   'cal.today':       '今天',
   'cal.tomorrow':    '明天',
   'cal.daysLeft':    '{n}天后',
+  'cal.weekdays':    ['日','一','二','三','四','五','六'],
+  'cal.months':      ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
 
   // ── View toggle ──────────────────────────────────────────────────────────
   'view.cards':      '分类视图',
   'view.calendar':   '日历视图',
+
+  // ── Dismissal insight banner ──────────────────────────────────────────────
+  'pp.dismissal.text':    '您已跳过了{n}个{cat}机会。要减少此类推荐吗？',
+  'pp.dismissal.confirm': '好的，减少',
+  'pp.dismissal.skip':    '继续显示',
+
+  // ── Goal input tooltips & placeholders ────────────────────────────────────
+  'pp.goal.markDone':     '标记完成',
+  'pp.goal.reopen':       '重新开启',
+  'pp.goal.remove':       '删除',
+  'pp.goal.ph.0':         '参加东京艺术书博览会',
+  'pp.goal.ph.1':         '30岁前办个展',
+  'pp.goal.ph.2':         '被 It\'s Nice That 报道',
+  'pp.goal.ph.3':         '与东京书店合作',
+  'pp.goal.ph.4':         '单月售出20件印刷品',
+
+  // ── Section cards (Mochi page placeholder cards) ──────────────────────────
+  'sc.opps.title':   '机会',
+  'sc.opps.desc':    '发现画廊、驻留项目、公开征集等更多资源。',
+  'sc.opps.link':    '查看全部',
+  'sc.peers.title':  '同类艺术家',
+  'sc.peers.desc':   '值得关注、联系和学习的艺术家。',
+  'sc.peers.link':   '探索',
+  'sc.outreach.title': '联络跟进',
+  'sc.outreach.desc':  '追踪对话，管理你的联络工作。',
+  'sc.outreach.link':  '打开',
+  'sc.quests.title': '任务',
+  'sc.quests.desc':  '每日和每周目标，推动你的创作前行。',
+  'sc.quests.link':  '查看任务',
+  'sc.journal.title': '日记',
+  'sc.journal.desc':  '记录想法、感受与灵感。',
+  'sc.journal.link':  '打开',
+  'sc.analytics.title': '数据分析',
+  'sc.analytics.desc':  '查看你的成长与规律。',
+  'sc.analytics.link':  '查看',
 }
 
 const ja = {
@@ -565,6 +617,21 @@ const ja = {
   'card.feedback.applied':   '申請済み',
   'card.feedback.maybe':     '後で考える',
   'card.feedback.notForMe':  '合わない',
+  'card.toast.logged':       '✓ 提出記録に追加',
+
+  // ── Effort labels ─────────────────────────────────────────────────────────
+  'card.effort.low':         '低難度',
+  'card.effort.medium':      '中難度',
+  'card.effort.high':        '高難度',
+  'card.effort.check':       '要確認',
+
+  // ── CRM status labels ──────────────────────────────────────────────────────
+  'crm.status.cold':         '未接触',
+  'crm.status.researching':  '調査中',
+  'crm.status.in_contact':   '連絡中',
+  'crm.status.submitted':    '提出済み',
+  'crm.status.ongoing':      '継続関係',
+  'crm.status.rejected':     '不採択',
 
   // ── Category labels ───────────────────────────────────────────────────────
   'cat.gallery':             'ギャラリー',
@@ -1018,10 +1085,47 @@ const ja = {
   'cal.today':       '今日',
   'cal.tomorrow':    '明日',
   'cal.daysLeft':    '{n}日後',
+  'cal.weekdays':    ['日','月','火','水','木','金','土'],
+  'cal.months':      ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
 
   // ── View toggle ──────────────────────────────────────────────────────────
   'view.cards':      'カード表示',
   'view.calendar':   'カレンダー',
+
+  // ── Dismissal insight banner ──────────────────────────────────────────────
+  'pp.dismissal.text':    '{cat}の機会を{n}件スキップしています。今後は減らしましょうか？',
+  'pp.dismissal.confirm': 'はい、減らして',
+  'pp.dismissal.skip':    'このまま続ける',
+
+  // ── Goal input tooltips & placeholders ────────────────────────────────────
+  'pp.goal.markDone':     '完了にする',
+  'pp.goal.reopen':       '再開する',
+  'pp.goal.remove':       '削除',
+  'pp.goal.ph.0':         '東京アートブックフェアに出展',
+  'pp.goal.ph.1':         '30歳までに初の個展',
+  'pp.goal.ph.2':         'It\'s Nice That に掲載',
+  'pp.goal.ph.3':         '東京の書店とコラボ',
+  'pp.goal.ph.4':         '1ヶ月で20点のプリントを販売',
+
+  // ── Section cards ────────────────────────────────────────────────────────
+  'sc.opps.title':   '機会',
+  'sc.opps.desc':    'ギャラリー、レジデンシー、公募などを発見する。',
+  'sc.opps.link':    'すべて見る',
+  'sc.peers.title':  '同世代アーティスト',
+  'sc.peers.desc':   'フォロー、交流、学ぶべきアーティスト。',
+  'sc.peers.link':   '探す',
+  'sc.outreach.title': '連絡管理',
+  'sc.outreach.desc':  '会話を追跡し、連絡を管理する。',
+  'sc.outreach.link':  '開く',
+  'sc.quests.title': 'タスク',
+  'sc.quests.desc':  '毎日・毎週の目標で制作を続ける。',
+  'sc.quests.link':  'タスクを見る',
+  'sc.journal.title': 'ジャーナル',
+  'sc.journal.desc':  'アイデア、感想、インスピレーションを記録する。',
+  'sc.journal.link':  '開く',
+  'sc.analytics.title': '分析',
+  'sc.analytics.desc':  '成長とパターンを確認する。',
+  'sc.analytics.link':  '見る',
 }
 
 const en = {
@@ -1071,6 +1175,21 @@ const en = {
   'card.feedback.applied':   'Applied',
   'card.feedback.maybe':     'Maybe Later',
   'card.feedback.notForMe':  'Not for Me',
+  'card.toast.logged':       '✓ added to submission log',
+
+  // ── Effort labels ─────────────────────────────────────────────────────────
+  'card.effort.low':         'Low effort',
+  'card.effort.medium':      'Medium effort',
+  'card.effort.high':        'High effort',
+  'card.effort.check':       'Check',
+
+  // ── CRM status labels ──────────────────────────────────────────────────────
+  'crm.status.cold':         'Not yet contacted',
+  'crm.status.researching':  'Researching',
+  'crm.status.in_contact':   'In contact',
+  'crm.status.submitted':    'Submitted',
+  'crm.status.ongoing':      'Ongoing',
+  'crm.status.rejected':     'Rejected',
 
   'cat.gallery':             'Gallery',
   'cat.cafe_gallery':        'Café Gallery',
@@ -1521,10 +1640,47 @@ const en = {
   'cal.today':       'Today',
   'cal.tomorrow':    'Tomorrow',
   'cal.daysLeft':    'in {n} days',
+  'cal.weekdays':    ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],
+  'cal.months':      ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
 
   // ── View toggle ──────────────────────────────────────────────────────────
   'view.cards':      'By section',
   'view.calendar':   'By deadline',
+
+  // ── Dismissal insight banner ──────────────────────────────────────────────
+  'pp.dismissal.text':    "You've passed on {n} {cat} calls. Should I surface fewer of these?",
+  'pp.dismissal.confirm': 'Yes, show fewer',
+  'pp.dismissal.skip':    'Keep showing',
+
+  // ── Goal input tooltips & placeholders ────────────────────────────────────
+  'pp.goal.markDone':     'Mark complete',
+  'pp.goal.reopen':       'Reopen',
+  'pp.goal.remove':       'Remove',
+  'pp.goal.ph.0':         'Table at Tokyo Art Book Fair',
+  'pp.goal.ph.1':         'First solo show before 30',
+  'pp.goal.ph.2':         "Get featured in It's Nice That",
+  'pp.goal.ph.3':         'Collaborate with a Tokyo bookshop',
+  'pp.goal.ph.4':         'Sell 20 prints in a single month',
+
+  // ── Section cards ────────────────────────────────────────────────────────
+  'sc.opps.title':   'Opportunities',
+  'sc.opps.desc':    'Discover galleries, residencies, open calls and more.',
+  'sc.opps.link':    'View all',
+  'sc.peers.title':  'Suggested Peers',
+  'sc.peers.desc':   'Artists to follow, connect with, and learn from.',
+  'sc.peers.link':   'Explore',
+  'sc.outreach.title': 'Outreach',
+  'sc.outreach.desc':  'Track conversations and manage your outreach.',
+  'sc.outreach.link':  'Open',
+  'sc.quests.title': 'Quests',
+  'sc.quests.desc':  'Daily and weekly goals to keep your practice moving.',
+  'sc.quests.link':  'See quests',
+  'sc.journal.title': 'Journal',
+  'sc.journal.desc':  'Capture ideas, reflections, and inspiration.',
+  'sc.journal.link':  'Open',
+  'sc.analytics.title': 'Analytics',
+  'sc.analytics.desc':  'See your progress and patterns over time.',
+  'sc.analytics.link':  'View',
 }
 
 export const LANGUAGES = ['zh', 'ja', 'en']

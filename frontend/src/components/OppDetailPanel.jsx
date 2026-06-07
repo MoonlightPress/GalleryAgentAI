@@ -98,7 +98,7 @@ export default function OppDetailPanel({ opp, onClose }) {
 
           {crmContact && (
             <span className={`detail-chip detail-chip-crm detail-chip-crm--${crmContact.status || 'cold'}`}>
-              🤝 {crmContact.status?.replace('_', ' ') || t('detail.crmTracked')}
+              🤝 {crmContact.status ? (t(`crm.status.${crmContact.status}`) || crmContact.status.replace('_', ' ')) : t('detail.crmTracked')}
               {crmContact.last_contacted && ` · ${crmContact.last_contacted}`}
             </span>
           )}
