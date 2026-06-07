@@ -817,6 +817,23 @@
   ],
   "stretch_targets": [
     {
+      "title": "ART SG 2026",
+      "score": 6.0,
+      "differentiated_score": 10.26,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "stretch_targets",
+      "verification_score": 7,
+      "why": "Gallery-only commercial art fair (Singapore). All sectors — GALLERIES, FOCUS, FUTURES — require a gallery as the applicant. No path for individual unrepresented artists.",
+      "source": "https://asiaartcenter.org/cn/art-fairs/45-2026-art-sg-bc07/overview",
+      "visual_hits": [
+        "Chinese artist"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "Gallery-only. Participation requires gallery representation — all three sectors (GALLERIES, FOCUS, FUTURES) accept galleries as applicants, not individual artists. FUTURES is specifically for galleries under 10 years old. Researched June 2026.",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "Offprint",
       "score": 6.2,
       "differentiated_score": 10.15,
@@ -1445,23 +1462,6 @@
       "source": "https://artatthecave.com/open-calls-1",
       "visual_hits": [
         "memory"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "ART SG 2026",
-      "score": 9.5,
-      "differentiated_score": 10.26,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "needs_research",
-      "verification_score": 7,
-      "why": "Major Singapore art fair in 2026 featuring Chinese artists and contemporary work; relevant for diaspora artist visibility in Asia.",
-      "source": "https://asiaartcenter.org/cn/art-fairs/45-2026-art-sg-bc07/overview",
-      "visual_hits": [
-        "Chinese artist"
       ],
       "opportunity_type": "open_call",
       "action_type": "apply",
