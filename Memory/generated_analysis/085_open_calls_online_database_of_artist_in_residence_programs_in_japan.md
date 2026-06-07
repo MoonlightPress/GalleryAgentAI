@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-08
 
 # Open calls - Online Database of Artist in Residence Programs in Japan
 
@@ -51,5 +51,5 @@ Open the source and confirm deadline, fee, eligibility, and required image files
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_
 

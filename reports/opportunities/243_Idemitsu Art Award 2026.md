@@ -1,8 +1,8 @@
 # Idemitsu Art Award 2026
 
 ## 1. Quick Judgment
-**Fit score:** 5.6/10  
-**Fit band:** Promising  
+**Fit score:** 5.2/10  
+**Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Global Open Call  
 **City:** Tokyo  
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

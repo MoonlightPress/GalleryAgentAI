@@ -1,8 +1,8 @@
 # True Beauty - 2026
 
 ## 1. Quick Judgment
-**Fit score:** 7.0/10  
-**Fit band:** Strong fit  
+**Fit score:** 6.9/10  
+**Fit band:** Promising  
 **Confidence:** High  
 **Type:** Global Open Call  
 **City:** International  

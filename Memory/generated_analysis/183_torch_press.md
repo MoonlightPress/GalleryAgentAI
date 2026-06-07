@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-07
 # torch press
 
 ## 1. Quick Judgment
-**Fit score:** 6.9/10  
+**Fit score:** 6.8/10  
 **Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Book Publishing  

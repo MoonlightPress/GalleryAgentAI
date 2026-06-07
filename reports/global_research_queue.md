@@ -82,6 +82,14 @@ These are global or international opportunities that need verification before be
 - Missing: none
 - Next: Verify submission page and deadline before applying.
 
+## ART SG 2026
+- Score: 9.4/10
+- Country: Singapore
+- Category: fair_popup
+- Source: https://asiaartcenter.org/cn/art-fairs/45-2026-art-sg-bc07/overview
+- Missing: contact
+- Next: Verify submission page and deadline before applying.
+
 ## MICRO/MACRO
 - Score: 9.4/10
 - Country: Canada
@@ -97,6 +105,14 @@ These are global or international opportunities that need verification before be
 - Source: https://cspwc.ca/
 - Missing: none
 - Next: Download the Terms and Conditions prospectus from open-water-2026.artcall.org. Create an ArtCall account and submit before June 30, 2026 at 2 PM EDT. Medium must be transparent watercolour only. Email info@cspwc.ca with questions.
+
+## Art Vancouver 2026
+- Score: 9.4/10
+- Country: Canada
+- Category: fair_popup
+- Source: https://www.artvancouver.net
+- Missing: none
+- Next: Verify submission page and deadline before applying.
 
 ## 2026 3rd Annual Illustration Summit Challenge (IlloBoom!)
 - Score: 9.4/10
@@ -123,7 +139,7 @@ These are global or international opportunities that need verification before be
 - Next: Verify submission page and deadline before applying.
 
 ## KAMIHANGA国際プリント展2026
-- Score: 9.3/10
+- Score: 9.4/10
 - Country: International
 - Category: global_open_call
 - Source: https://note.com/kamihanga_2025/n/n9c3bd3d5feaf
@@ -146,8 +162,16 @@ These are global or international opportunities that need verification before be
 - Missing: submission process
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
-## AAA Gallery Yokohama
+## 臺南市美術館 2026「TAM+展覽計畫」
 - Score: 9.1/10
+- Country: Taiwan
+- Category: institutional
+- Source: https://www.artist-magazine.com/edcontent.php?lang=tw&tb=5
+- Missing: none
+- Next: Verify submission page and deadline before applying.
+
+## AAA Gallery Yokohama
+- Score: 9.0/10
 - Country: Yokohama
 - Category: 
 - Source: https://artaraqasia.com/
@@ -234,14 +258,6 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
-## 2026 Chinese New Year Celebration Art Show
-- Score: 8.7/10
-- Country: Canada
-- Category: institutional
-- Source: http://ocaa.info
-- Missing: submission process
-- Next: Verify submission page and deadline before applying.
-
 ## Browse opportunities | CuratorSpace
 - Score: 8.6/10
 - Country: Global
@@ -258,6 +274,14 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, deadline, fees
 - Next: Research exhibitor criteria, fees, and past participants before treating this as actionable.
 
+## 2026 Chinese New Year Celebration Art Show
+- Score: 8.6/10
+- Country: Canada
+- Category: institutional
+- Source: http://ocaa.info
+- Missing: submission process
+- Next: Verify submission page and deadline before applying.
+
 ## Gallery 191 Exhibition 2026
 - Score: 8.6/10
 - Country: United States
@@ -266,21 +290,21 @@ These are global or international opportunities that need verification before be
 - Missing: deadline, contact
 - Next: Verify submission page and deadline before applying.
 
-## submissions for the 2026 set film festival are now open
-- Score: 8.3/10
-- Country: Global
-- Category: open_call_index
-- Source: https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K
-- Missing: contact
-- Next: Open and verify whether this is current and relevant.
-
 ## 金风车插画大赛2026
-- Score: 8.3/10
+- Score: 8.2/10
 - Country: International
 - Category: global_open_call
 - Source: https://www.ccbfgoldenpinwheel.com.cn/cn/index/GoldenPinwheel-News/detail!2026-call-for-entries
 - Missing: fees, contact
 - Next: Verify submission page and deadline before applying.
+
+## submissions for the 2026 set film festival are now open
+- Score: 8.1/10
+- Country: Global
+- Category: open_call_index
+- Source: https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K
+- Missing: contact
+- Next: Open and verify whether this is current and relevant.
 
 ## Self Publish, Be Happy
 - Score: 8.0/10
@@ -288,7 +312,7 @@ These are global or international opportunities that need verification before be
 - Category: global_artist_book_platform
 - Source: https://selfpublishbehappy.com/
 - Missing: submission process, deadline, fees, contact
-- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
+- Next: Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available.
 
 ## Royal Watercolour Society Open Exhibition
 - Score: 8.0/10
@@ -298,14 +322,6 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, contact
 - Next: Research current open call dates, submission fees, accepted formats, and previous selected works to gauge aesthetic fit.
 
-## Art Submissions
-- Score: 8.0/10
-- Country: Global
-- Category: open_call_index
-- Source: https://www.artconnect.com/opportunities/art-submissions
-- Missing: contact
-- Next: Open and verify whether this is current and relevant.
-
 ## OPA Gallery
 - Score: 7.9/10
 - Country: Tokyo
@@ -314,21 +330,13 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
-## 臺南市美術館 2026「TAM+展覽計畫」
-- Score: 7.8/10
-- Country: Taiwan
-- Category: institutional
-- Source: https://www.artist-magazine.com/edcontent.php?lang=tw&tb=5
-- Missing: none
-- Next: Verify submission page and deadline before applying.
-
-## 2026国际大学生数字艺术设计大赛
+## Art Submissions
 - Score: 7.6/10
-- Country: International
-- Category: global_open_call
-- Source: https://www.shejijingsai.com/2026/01/1480873.html
-- Missing: submission process, fees, contact
-- Next: Verify submission page and deadline before applying.
+- Country: Global
+- Category: open_call_index
+- Source: https://www.artconnect.com/opportunities/art-submissions
+- Missing: contact
+- Next: Open and verify whether this is current and relevant.
 
 ## Printed Matter Art Book Fairs
 - Score: 7.5/10
@@ -338,8 +346,32 @@ These are global or international opportunities that need verification before be
 - Missing: submission process, fees, contact
 - Next: Research fair exhibitor criteria and identify comparable small publishers or artists first.
 
+## 第10屆溫哥華藝術博覽會 (Art Vancouver 2026)
+- Score: 7.5/10
+- Country: Canada
+- Category: fair_popup
+- Source: https://ccue.singtao.ca/2026-05-29/2026%E6%BA%AB%E5%93%A5%E8%97%9D%E8%A1%93%E5%8D%9A%E8%A6%BD%E6%9C%83%E9%96%8B%E5%B9%95-%E5%91%88%E7%8F%BE%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%9A%E5%85%83%E6%97%8F%E8%A3%94%E8%89%B2%E5%BD%A9/1096922
+- Missing: submission process, fees, contact
+- Next: Verify submission page and deadline before applying.
+
+## 2026国际大学生数字艺术设计大赛
+- Score: 7.3/10
+- Country: International
+- Category: global_open_call
+- Source: https://www.shejijingsai.com/2026/01/1480873.html
+- Missing: submission process, fees, contact
+- Next: Verify submission page and deadline before applying.
+
+## American Watercolor Society Annual International Exhibition
+- Score: 7.0/10
+- Country: USA
+- Category: global_watercolor_open_call
+- Source: https://www.americanwatercolorsociety.org/
+- Missing: submission process, fees, contact
+- Next: Check current open call window, digital vs. physical submission requirements, fees, and accepted paper sizes.
+
 ## HB Gallery
-- Score: 7.1/10
+- Score: 7.0/10
 - Country: Tokyo
 - Category: 
 - Source: https://hbgallery.com/
@@ -347,143 +379,111 @@ These are global or international opportunities that need verification before be
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
 ## Communication Arts Illustration Competition
-- Score: 7.0/10
+- Score: 6.9/10
 - Country: Global
 - Category: 
 - Source: https://www.commarts.com/competitions/illustration
 - Missing: submission process, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
-## American Watercolor Society Annual International Exhibition
-- Score: 6.9/10
-- Country: USA
-- Category: global_watercolor_open_call
-- Source: https://www.americanwatercolorsociety.org/
-- Missing: submission process, fees, contact
-- Next: Check current open call window, digital vs. physical submission requirements, fees, and accepted paper sizes.
-
-## ART SG 2026
-- Score: 6.8/10
-- Country: Singapore
-- Category: fair_popup
-- Source: https://asiaartcenter.org/cn/art-fairs/45-2026-art-sg-bc07/overview
-- Missing: contact
-- Next: Verify submission page and deadline before applying.
-
-## Art Vancouver 2026
-- Score: 6.8/10
-- Country: Canada
-- Category: fair_popup
-- Source: https://www.artvancouver.net
-- Missing: none
-- Next: Verify submission page and deadline before applying.
-
-## INSTINC 2026/2027 Artist-in-Residence Program
-- Score: 6.75/10
-- Country: Singapore
-- Category: global_residency
-- Source: https://sagg.info/event/opencall-2026-and-2027
-- Missing: fees, contact
-- Next: Verify submission page and deadline before applying.
-
 ## Cité Internationale des Arts Artist Residency
-- Score: 6.3/10
+- Score: 6.7/10
 - Country: France
 - Category: global_residency
 - Source: https://www.citedesartsparis.net/
 - Missing: fees, contact
 - Next: Research application routes (often via home country cultural institutions or direct application), eligibility, and current availability.
 
-## DER GREIF
-- Score: 6.2/10
-- Country: Global
-- Category: photo_open_call
-- Source: https://dergreif.org/
-- Missing: none
-- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
-
-## Mall Galleries Open Exhibitions
-- Score: 6.2/10
-- Country: UK
-- Category: 
-- Source: https://www.mallgalleries.org.uk/open-exhibitions
-- Missing: submission process, fees, contact
-- Next: Verify current submission, exhibition, or contact details before recommending.
-
-## 第10屆溫哥華藝術博覽會 (Art Vancouver 2026)
-- Score: 6.2/10
-- Country: Canada
-- Category: fair_popup
-- Source: https://ccue.singtao.ca/2026-05-29/2026%E6%BA%AB%E5%93%A5%E8%97%9D%E8%A1%93%E5%8D%9A%E8%A6%BD%E6%9C%83%E9%96%8B%E5%B9%95-%E5%91%88%E7%8F%BE%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%9A%E5%85%83%E6%97%8F%E8%A3%94%E8%89%B2%E5%BD%A9/1096922
-- Missing: submission process, fees, contact
+## INSTINC 2026/2027 Artist-in-Residence Program
+- Score: 6.35/10
+- Country: Singapore
+- Category: global_residency
+- Source: https://sagg.info/event/opencall-2026-and-2027
+- Missing: fees, contact
 - Next: Verify submission page and deadline before applying.
 
-## Royal Institute of Painters in Water Colours
-- Score: 6.1/10
-- Country: UK
-- Category: 
-- Source: https://www.mallgalleries.org.uk/open-exhibitions
-- Missing: submission process, fees, contact
-- Next: Verify current submission, exhibition, or contact details before recommending.
-
 ## The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S
-- Score: 6.1/10
+- Score: 5.9/10
 - Country: Global
 - Category: photo_open_call
 - Source: https://www.curatorspace.com/opportunities/detail/the-light-frame-gallery/9757
 - Missing: deadline, fees, contact
 - Next: Open and verify whether this is current and relevant.
 
-## Aquarium - 2026
-- Score: 6.0/10
-- Country: International
-- Category: global_open_call
-- Source: https://artist.callforentry.org/festivals.php
-- Missing: none
-- Next: Verify submission page and deadline before applying.
-
-## 全國插畫徵集-2026台灣VC文化賞
-- Score: 6.0/10
-- Country: Taiwan
-- Category: global_open_call
-- Source: https://ed.arte.gov.tw/ch/content/m_news_content_2.aspx?AE_SNID=34895
-- Missing: submission process, fees, contact
-- Next: Verify submission page and deadline before applying.
-
 ## Gallery IRO
-- Score: 5.9/10
+- Score: 5.7/10
 - Country: Tokyo
 - Category: 
 - Source: https://1-6.jp/
 - Missing: submission process, deadline, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
-## True Beauty - 2026
-- Score: 5.7/10
-- Country: International
-- Category: global_open_call
-- Source: https://artist.callforentry.org/festivals.php
-- Missing: none
-- Next: Verify submission page and deadline before applying.
-
-## Golden Key International Art Competition
-- Score: 5.7/10
-- Country: International
-- Category: global_open_call
-- Source: https://www.ociyac.com
-- Missing: submission process, deadline, fees, contact
-- Next: Verify submission page and deadline before applying.
-
 ## Mall Galleries Open Exhibitions
-- Score: 5.5/10
+- Score: 5.7/10
 - Country: UK
 - Category: 
 - Source: https://www.mallgalleries.org.uk/open-exhibitions
 - Missing: submission process, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
-## Callback Open Call G George invites you to submit to Callback, a series of contemporary ar
+## 全國插畫徵集-2026台灣VC文化賞
+- Score: 5.7/10
+- Country: Taiwan
+- Category: global_open_call
+- Source: https://ed.arte.gov.tw/ch/content/m_news_content_2.aspx?AE_SNID=34895
+- Missing: submission process, fees, contact
+- Next: Verify submission page and deadline before applying.
+
+## DER GREIF
+- Score: 5.5/10
+- Country: Global
+- Category: photo_open_call
+- Source: https://dergreif.org/
+- Missing: none
+- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
+
+## Golden Key International Art Competition
+- Score: 5.4/10
+- Country: International
+- Category: global_open_call
+- Source: https://www.ociyac.com
+- Missing: submission process, deadline, fees, contact
+- Next: Verify submission page and deadline before applying.
+
+## Aquarium - 2026
 - Score: 5.3/10
+- Country: International
+- Category: global_open_call
+- Source: https://artist.callforentry.org/festivals.php
+- Missing: none
+- Next: Verify submission page and deadline before applying.
+
+## Mall Galleries Open Exhibitions
+- Score: 5.2/10
+- Country: UK
+- Category: 
+- Source: https://www.mallgalleries.org.uk/open-exhibitions
+- Missing: submission process, fees, contact
+- Next: Verify current submission, exhibition, or contact details before recommending.
+
+## Royal Institute of Painters in Water Colours
+- Score: 5.2/10
+- Country: UK
+- Category: 
+- Source: https://www.mallgalleries.org.uk/open-exhibitions
+- Missing: submission process, fees, contact
+- Next: Verify current submission, exhibition, or contact details before recommending.
+
+## True Beauty - 2026
+- Score: 5.1/10
+- Country: International
+- Category: global_open_call
+- Source: https://artist.callforentry.org/festivals.php
+- Missing: none
+- Next: Verify submission page and deadline before applying.
+
+## Callback Open Call G George invites you to submit to Callback, a series of contemporary ar
+- Score: 4.7/10
 - Country: Global
 - Category: photo_open_call
 - Source: https://www.curatorspace.com/opportunities/detail/callback-open-call/839
@@ -491,7 +491,7 @@ These are global or international opportunities that need verification before be
 - Next: Open and verify whether this is current and relevant.
 
 ## OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at 
-- Score: 5.1/10
+- Score: 4.6/10
 - Country: Global
 - Category: zine_print
 - Source: https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235
@@ -499,7 +499,7 @@ These are global or international opportunities that need verification before be
 - Next: Open and verify whether this is current and relevant.
 
 ## Japan Watercolor Society Annual Exhibition
-- Score: 5.1/10
+- Score: 4.6/10
 - Country: Japan
 - Category: japan_watercolor_institution
 - Source: https://nihon-suisai.com/
@@ -507,31 +507,31 @@ These are global or international opportunities that need verification before be
 - Next: Research current membership structure, open entry process, exhibition dates, and submission requirements in Japanese.
 
 ## Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING
-- Score: 5.0/10
+- Score: 4.4/10
 - Country: Global
 - Category: photo_open_call
 - Source: https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071
 - Missing: contact
 - Next: Open and verify whether this is current and relevant.
 
-## Shangyuan International Residency Programme
-- Score: 4.6/10
-- Country: China
-- Category: residency_beijing
-- Source: http://www.syartmuseum.com/english/
-- Missing: contact
-- Next: Apply October 2026 for 2027 cycle. Send portfolio images to shangyuanart@gmail.com.
-
 ## ArtConnect Open Calls
-- Score: 4.5/10
+- Score: 4.2/10
 - Country: Global
 - Category: 
 - Source: https://www.artconnect.com/opportunities
 - Missing: none
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
+## Shangyuan International Residency Programme
+- Score: 4.1/10
+- Country: China
+- Category: residency_beijing
+- Source: http://www.syartmuseum.com/english/
+- Missing: contact
+- Next: Apply October 2026 for 2027 cycle. Send portfolio images to shangyuanart@gmail.com.
+
 ## Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou
-- Score: 4.5/10
+- Score: 4.0/10
 - Country: Global
 - Category: photo_open_call
 - Source: https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457
@@ -539,60 +539,44 @@ These are global or international opportunities that need verification before be
 - Next: Open and verify whether this is current and relevant.
 
 ## Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod
-- Score: 4.5/10
+- Score: 4.0/10
 - Country: Global
 - Category: photo_open_call
 - Source: https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594
 - Missing: deadline, contact
 - Next: Open and verify whether this is current and relevant.
 
-## PhotoVogue
-- Score: 4.4/10
-- Country: Global
-- Category: photo_open_call
-- Source: https://www.vogue.com/photovogue
-- Missing: submission process, contact
-- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
-
 ## AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin
-- Score: 4.3/10
+- Score: 3.9/10
 - Country: Global
 - Category: zine_print
 - Source: https://www.curatorspace.com/opportunities/detail/aura-open-call/6198
 - Missing: deadline, fees, contact
 - Next: Open and verify whether this is current and relevant.
 
+## PhotoVogue
+- Score: 3.9/10
+- Country: Global
+- Category: photo_open_call
+- Source: https://www.vogue.com/photovogue
+- Missing: submission process, contact
+- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
+
 ## Boji Hair+Gallery
-- Score: 4.2/10
+- Score: 3.9/10
 - Country: Tokyo
 - Category: 
 - Source: https://www.boji-hair.com/
 - Missing: submission process, fees, contact
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
-## Home - Printed Matter
-- Score: 4.1/10
-- Country: Global
-- Category: global_photobook
-- Source: https://www.printedmatter.org/
-- Missing: submission process, fees, contact
-- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
-
 ## Art on Climate インターナショナル・イラストレーション・コンテスト 2026
-- Score: 4.1/10
+- Score: 3.6/10
 - Country: International
 - Category: global_open_call
 - Source: https://compe.japandesign.ne.jp/category/art
 - Missing: submission process, contact
 - Next: Verify submission page and deadline before applying.
-
-## Top Artist Opportunities for 2026 | ArtConnect
-- Score: 3.5/10
-- Country: Global
-- Category: zine_print
-- Source: https://www.artconnect.com/opportunities
-- Missing: submission process, deadline, fees, contact
-- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
 
 ## Watercolor Open Call Exhibition
 - Score: 3.4/10
@@ -610,16 +594,24 @@ These are global or international opportunities that need verification before be
 - Missing: fees, contact
 - Next: Verify submission page and deadline before applying.
 
-## National Watercolor Society International Open Exhibition
+## Home - Printed Matter
+- Score: 3.3/10
+- Country: Global
+- Category: global_photobook
+- Source: https://www.printedmatter.org/
+- Missing: submission process, fees, contact
+- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
+
+## Top Artist Opportunities for 2026 | ArtConnect
 - Score: 3.2/10
-- Country: USA
-- Category: global_watercolor_open_call
-- Source: https://nationalwatercolorsociety.org/exhibits
-- Missing: contact
-- Next: Add to 2027 calendar. Check nationalwatercolorsociety.org from January 2027.
+- Country: Global
+- Category: zine_print
+- Source: https://www.artconnect.com/opportunities
+- Missing: submission process, deadline, fees, contact
+- Next: Open source, verify current opportunities, submission process, fees, deadline, and contact.
 
 ## CuratorSpace
-- Score: 3.1/10
+- Score: 3.0/10
 - Country: Global
 - Category: 
 - Source: https://www.curatorspace.com/opportunities
@@ -627,7 +619,7 @@ These are global or international opportunities that need verification before be
 - Next: Verify current submission, exhibition, or contact details before recommending.
 
 ## 2026 Asian Heritage Culture Art Show
-- Score: 3.0/10
+- Score: 2.9/10
 - Country: Canada
 - Category: institutional
 - Source: http://ocaa.info
@@ -642,16 +634,16 @@ These are global or international opportunities that need verification before be
 - Missing: contact
 - Next: Verify submission page and deadline before applying.
 
-## Royal Watercolour Society
-- Score: 2.5/10
-- Country: UK
-- Category: 
-- Source: https://www.royalwatercoloursociety.co.uk/
-- Missing: submission process, fees, contact
-- Next: Verify current submission, exhibition, or contact details before recommending.
+## National Watercolor Society International Open Exhibition
+- Score: 2.6/10
+- Country: USA
+- Category: global_watercolor_open_call
+- Source: https://nationalwatercolorsociety.org/exhibits
+- Missing: contact
+- Next: Add to 2027 calendar. Check nationalwatercolorsociety.org from January 2027.
 
 ## Spring Flora and Fauna Art Exhibition 2026
-- Score: 2.5/10
+- Score: 2.4/10
 - Country: Canada
 - Category: institutional
 - Source: http://ocaa.info
@@ -667,15 +659,23 @@ These are global or international opportunities that need verification before be
 - Next: Verify submission page and deadline before applying.
 
 ## 南京插画艺术家展览 2026年3月
-- Score: 2.3/10
+- Score: 2.2/10
 - Country: China
 - Category: institutional
 - Source: https://www.instagram.com/p/DTKU_w0EThh
 - Missing: submission process, contact
 - Next: Verify submission page and deadline before applying.
 
-## 2026 OCAA Ladies Art Exhibition
+## Royal Watercolour Society
 - Score: 2.1/10
+- Country: UK
+- Category: 
+- Source: https://www.royalwatercoloursociety.co.uk/
+- Missing: submission process, fees, contact
+- Next: Verify current submission, exhibition, or contact details before recommending.
+
+## 2026 OCAA Ladies Art Exhibition
+- Score: 2.0/10
 - Country: Canada
 - Category: institutional
 - Source: http://ocaa.info

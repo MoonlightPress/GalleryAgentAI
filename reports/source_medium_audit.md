@@ -59,10 +59,10 @@
   - hits: painting: gallery iyn
 - **3x3 International Illustration Awards** — painting
   - hits: painting: illustration
+- **Royal Watercolour Society Open Exhibition** — painting
+  - hits: painting: watercolor, watercolour, open exhibition, royal watercolour society
 - **OPA Gallery** — painting
   - hits: painting: illustration, opa gallery
-- **Mall Galleries Open Exhibitions** — painting
-  - hits: painting: open exhibition, mall galleries
 - **Tokyo Art Book Fair** — mixed
   - hits: mixed: book fair, tokyo art book fair
 - **UTRECHT** — mixed
@@ -122,6 +122,7 @@
 - **AAA Gallery Yokohama** — unknown
 - **第23届「跨越国界之美2026」国际公募展** — unknown
 - **Tokyo Wonder Site / TOKAS Residency** — unknown
+- **2026 Chinese New Year Celebration Art Show** — unknown
 - **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — unknown
 - **New Power展 | ギャラリー自由が丘で作家デビュー** — unknown
 - **Call for Entry: Showcase your art in Tokyo, Japan** — unknown
@@ -133,6 +134,7 @@
 - **Yonchome Cafe** — unknown
 - **MICRO/MACRO** — unknown
 - **Koganecho Area Management Center** — unknown
+- **Tokyo Gendai 2026** — unknown
 - **Shimokitazawa Arts** — unknown
 - **Center for Book Arts Opportunities** — unknown
 - **SUBMISSIONS - marblepress.com** — unknown
@@ -141,16 +143,14 @@
 - **Platform China BIAP Artist Residency** — unknown
 - **Submissions - Little Press Publishing** — unknown
 - **Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition** — unknown
+- **Kyoto Retreat Artist Residency 2026 - Open Call** — unknown
 - **Hayama Artist Residency Submission Manager - Submittable** — unknown
 - **ART BOX Publishing** — unknown
-- **ART SG 2026** — unknown
-- **Art Vancouver 2026** — unknown
-- **Tokyo Gendai 2026** — unknown
 - **International Open Call** — photography
   - hits: photography: photo
-- **2026 Chinese New Year Celebration Art Show** — unknown
 - **tata bookshop/gallery** — mixed
   - hits: mixed: zine, bookstore
+- **Art Fair Tokyo 2026** — unknown
 - **Belladonna Art Competition** — unknown
 - **第113回 日本水彩展** — painting
   - hits: painting: watercolor
@@ -161,6 +161,7 @@
 - **2026春季二科展「NIKA nika/S20号」コンクール** — painting
   - hits: painting: watercolor
 - **BALLOND'ESSAI Shimokitazawa** — unknown
+- **KAMIHANGA国際プリント展2026** — unknown
 - **TAV Gallery** — unknown
 - **IlloBoom! 2026 第三屆插畫巔峰賽** — mixed
   - hits: mixed: post
@@ -169,29 +170,25 @@
   - hits: mixed: zine, printed matter, book fair
 - **OPEN SITE 11** — unknown
 - **ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)** — unknown
-- **Royal Watercolour Society Open Exhibition** — painting
-  - hits: painting: watercolor, watercolour, open exhibition, royal watercolour society
-- **HB Gallery** — painting
-  - hits: painting: illustration, hb gallery
 - **Jinny Street Gallery Open Call** — painting
   - hits: painting: gallery open call
-- **Art Fair Tokyo 2026** — unknown
+- **Brillia Art Award Wall 2026** — unknown
 - **日記屋 月日** — mixed
   - hits: mixed: zine, bookstore
 - **ART FAIR TOKYO 21** — unknown
+- **HB Gallery** — painting
+  - hits: painting: illustration, hb gallery
 - **Northwest Watercolor Society 2026 Annual International Open Exhibition** — painting
   - hits: painting: watercolor, open exhibition
 - **TOKAS Open Call** — unknown
 - **Open calls - Online Database of Artist in Residence Programs in Japan** — unknown
-- **Communication Arts Illustration Competition** — painting
-  - hits: painting: illustration
 - **POST** — mixed
   - hits: mixed: zine, bookstore, post
 - **2026 ART CAPITAL Paris Grand Palais International Youth Academic Award** — unknown
 - **3331 Arts Chiyoda** — unknown
 - **Gallery 191 Exhibition 2026** — unknown
-- **Royal Institute of Painters in Water Colours** — painting
-  - hits: painting: watercolor
+- **Communication Arts Illustration Competition** — painting
+  - hits: painting: illustration
 - **金风车插画大赛2026** — unknown
 - **咲き誇れ桜よ** — mixed
   - hits: mixed: zine
@@ -199,57 +196,60 @@
   - hits: mixed: zine
 - **ギャラリー自由展示** — unknown
 - **PARK GALLERY 夏の公募企画展（3テーマ）** — unknown
-- **KAMIHANGA国際プリント展2026** — unknown
-- **Brillia Art Award Wall 2026** — unknown
-- **Kyoto Retreat Artist Residency 2026 - Open Call** — unknown
 - **Nantoka Bar Koenji** — mixed
   - hits: mixed: zine
 - **【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...** — unknown
 - **2026 松濤美術館公募展｜渋谷区立松濤美術館** — unknown
-- **Gallery IRO** — unknown
+- **第29回 アート未来展** — unknown
 - **Picaresque Gallery** — unknown
-- **そぞろ書房** — mixed
-  - hits: mixed: zine, bookstore
+- **L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info** — unknown
+- **Creative Space Hayashi** — unknown
 - **オープンコール・プロジェクト** — mixed
   - hits: mixed: zine
-- **絵画展（滋賀県愛荘町開催）** — unknown
-- **Creative Space Hayashi** — unknown
-- **2026国际大学生数字艺术设计大赛** — unknown
+- **Mall Galleries Open Exhibitions** — painting
+  - hits: painting: open exhibition, mall galleries
+- **Koenji SANAGI** — unknown
+- **Gallery IRO** — unknown
+- **臺南市美術館 2026「TAM+展覽計畫」** — mixed
+  - hits: mixed: zine
+- **Aoyama Farmers Market** — unknown
 - **FACE展2026** — mixed
   - hits: mixed: zine
-- **Koenji SANAGI** — unknown
-- **Aoyama Farmers Market** — unknown
-- **Komiyama Tokyo** — unknown
-- **shashasha** — unknown
-- **2026春季二科展「NIKA+nika/S20号」コンクール** — unknown
-- **L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info** — unknown
-- **NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW** — unknown
-- **AIR 3331** — unknown
-- **Mall Galleries Open Exhibitions** — painting
-  - hits: painting: watercolour, open exhibition, mall galleries
-- **torch press** — unknown
-- **Book Culture Club** — mixed
+- **そぞろ書房** — mixed
   - hits: mixed: zine, bookstore
-- **2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)** — painting
-  - hits: painting: painting
+- **2026国际大学生数字艺术设计大赛** — unknown
+- **絵画展（滋賀県愛荘町開催）** — unknown
+- **NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW** — unknown
+- **2026春季二科展「NIKA+nika/S20号」コンクール** — unknown
+- **Komiyama Tokyo** — unknown
 - **American Watercolor Society Annual International Exhibition** — painting
   - hits: painting: watercolor
+- **shashasha** — unknown
+- **Art Vancouver 2026** — unknown
 - **ERA Shimokitazawa** — unknown
+- **torch press** — unknown
+- **ART SG 2026** — unknown
+- **AIR 3331** — unknown
+- **世界堂絵画展2026** — unknown
+- **2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)** — painting
+  - hits: painting: painting
+- **Book Culture Club** — mixed
+  - hits: mixed: zine, bookstore
+- **Cité Internationale des Arts Artist Residency** — unknown
+- **Mall Galleries Open Exhibitions** — painting
+  - hits: painting: watercolour, open exhibition, mall galleries
 - **Applied Arts 2026 Illustration Awards** — painting
   - hits: painting: illustration
 - **第10屆溫哥華藝術博覽會 (Art Vancouver 2026)** — unknown
-- **世界堂絵画展2026** — unknown
-- **第29回 アート未来展** — unknown
-- **FACE Exhibition 2026** — unknown
-- **臺南市美術館 2026「TAM+展覽計畫」** — mixed
+- **Royal Institute of Painters in Water Colours** — painting
+  - hits: painting: watercolor
+- **In-dividual Theater：BUG Screen Week 2026** — mixed
   - hits: mixed: zine
 - **INSTINC 2026/2027 Artist-in-Residence Program** — unknown
+- **The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S** — photography
+  - hits: photography: photography, photo
+- **FACE Exhibition 2026** — unknown
 - **第9回 国際公募 東京アート工芸2026** — unknown
-- **全國插畫徵集-2026台灣VC文化賞** — unknown
-- **Boji Hair+Gallery** — unknown
-- **Cité Internationale des Arts Artist Residency** — unknown
-- **7月～12月企画展 参加者募集** — unknown
-- **ARTE VENT Press** — unknown
 - **B&B Shimokitazawa** — mixed
   - hits: mixed: zine, bookstore
 - **flotsam books** — mixed
@@ -259,56 +259,51 @@
 - **Gallery IRO** — unknown
 - **VACANT** — unknown
 - **Gallery HANA Shimokitazawa** — unknown
-- **Cafe Mame-Hico** — unknown
 - **ZINEイベント** — mixed
   - hits: mixed: zine
+- **Cafe Mame-Hico** — unknown
 - **Cafe Cross Point** — unknown
 - **The Container** — unknown
 - **Open Calls for Artists** — unknown
 - **Open Call For Artists** — unknown
 - **Zushi Art Gallery** — unknown
-- **Gallery Conceal Shibuya** — unknown
 - **公募展** — unknown
 - **公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...** — unknown
+- **Gallery Conceal Shibuya** — unknown
 - **BONUS TRACK** — unknown
 - **HandMade In Japan Fes** — unknown
-- **AIT Residency** — unknown
 - **reload Shimokitazawa** — unknown
+- **AIT Residency** — unknown
 - **Tokyo Arts and Space** — unknown
 - **Youkobo Art Space** — unknown
-- **Japan Watercolor Society Annual Exhibition** — painting
-  - hits: painting: watercolor
-- **The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S** — photography
-  - hits: photography: photography, photo
-- **Golden Key International Art Competition** — unknown
-- **OPEN CALL for the Artist-In-Residence Program 2025/2026** — unknown
+- **全國插畫徵集-2026台灣VC文化賞** — unknown
+- **「国際創作者駐村計畫」** — unknown
+- **7月～12月企画展 参加者募集** — unknown
+- **Boji Hair+Gallery** — unknown
 - **Open Call for Artists! Tokyo Biennale 2025 "Social Dive"** — unknown
 - **submissions for the 2026 set film festival are now open** — unknown
 - **Art Submissions** — unknown
-- **In-dividual Theater：BUG Screen Week 2026** — mixed
-  - hits: mixed: zine
 - **Comitia** — unknown
+- **Golden Key International Art Competition** — unknown
 - **【公募】2026年度レジデンス・プログラム公募開始** — unknown
 - **Design Festa** — unknown
+- **ARTE VENT Press** — unknown
+- **OPEN CALL for the Artist-In-Residence Program 2025/2026** — unknown
+- **Japan Watercolor Society Annual Exhibition** — painting
+  - hits: painting: watercolor
+- **RAW TOKYO** — unknown
 - **TOKAS レジデンシー 4つのレジデンス・プログラム公募** — mixed
   - hits: mixed: zine
-- **RAW TOKYO** — unknown
-- **「国際創作者駐村計畫」** — unknown
 - **Royal Watercolour Society** — painting
   - hits: painting: watercolor, watercolour, royal watercolour society
 - **2026 Kyoto Museum International Art Grand Exhibition** — unknown
-- **Muninova Artist Award** — unknown
-- **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** — unknown
-- **2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...** — unknown
-- **2026「OPEN World Exhibition」** — unknown
-- **twelvebooks** — unknown
 - **TOKIO ART BOOK FAIR 2026** — mixed
   - hits: mixed: zine, book fair, tokyo art book fair
 - **Fukuoka Art Book Fair** — mixed
   - hits: mixed: book fair
-- **Applications — Little Tokyo Zine Fest** — mixed
-  - hits: mixed: zine
 - **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — mixed
+  - hits: mixed: zine
+- **Applications — Little Tokyo Zine Fest** — mixed
   - hits: mixed: zine
 - **NADiff a/p/a/r/t** — mixed
   - hits: mixed: zine, bookstore, nadiff
@@ -321,52 +316,52 @@
   - hits: mixed: zine
 - **Publishing / Artist Books — Battle Plan** — mixed
   - hits: mixed: artist book
-- **ArtConnect Open Calls** — unknown
 - **Submissions — Clavis Publishing** — unknown
 - **Zines / Artist Books — Battle Plan** — mixed
   - hits: mixed: artist book, zine, bookstore
 - **Cafe Gallery HATTIFNATT** — unknown
+- **ArtConnect Open Calls** — unknown
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — mixed
   - hits: mixed: zine, bookstore
-- **Publishers & Publishing Services in Japan - PublishersGlobal.com** — unknown
 - **スクエア・ワールド2026** — mixed
   - hits: mixed: zine
+- **Publishers & Publishing Services in Japan - PublishersGlobal.com** — unknown
 - **SICF Fukuoka 2026** — unknown
 - **東京芸術劇場 ギャラリー1 ウォーターカラー展覧会** — painting
   - hits: painting: watercolor
-- **Become an Author - Tuttle Publishing** — unknown
 - **Aquarium - 2026** — unknown
+- **Become an Author - Tuttle Publishing** — unknown
+- **OM SYSTEM PLAZA 2026年4月～6月開催分** — unknown
 - **Home - Printed Matter** — mixed
   - hits: painting: watercolor, painting, drawing, paper | photography: photography, photo, photobook | mixed: zine, printed matter, book fair
-- **OM SYSTEM PLAZA 2026年4月～6月開催分** — unknown
-- **True Beauty - 2026** — unknown
 - **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — painting
   - hits: painting: gallery open call
+- **True Beauty - 2026** — unknown
 - **第五回公募展「境界」-edge-** — unknown
-- **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — mixed
-  - hits: mixed: zine, bookstore
-- **Japan International Watercolor Institute Online Exhibition** — painting
-  - hits: painting: watercolor
 - **Callback Open Call G George invites you to submit to Callback, a series of contemporary ar** — photography
   - hits: photography: photo
 - **Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING** — photography
   - hits: photography: photo
-- **CuratorSpace** — unknown
 - **Shoto Museum Open Call** — unknown
 - **Art公募** — unknown
-- **» 21 Terrific Small Presses Open to Direct Submissions** — mixed
-  - hits: mixed: small press
+- **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — mixed
+  - hits: mixed: zine, bookstore
+- **Japan International Watercolor Institute Online Exhibition** — painting
+  - hits: painting: watercolor
+- **CuratorSpace** — unknown
 - **水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)** — painting
   - hits: painting: watercolor
-- **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — unknown
+- **» 21 Terrific Small Presses Open to Direct Submissions** — mixed
+  - hits: mixed: small press
 - **Japan Book Publishers Association - JBPA** — unknown
+- **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — unknown
 - **第四回公募展「食卓」** — unknown
 - **第六回公募展「鳥」-bird-** — unknown
 - **OM SYSTEM PLAZA 2026年2月～3月開催分** — unknown
-- **Shangyuan International Residency Programme** — unknown
 - **りんごろごろごろ** — mixed
   - hits: mixed: zine
 - **アートの交差展 vol.6 (Art Intersection Exhibition vol.6)** — unknown
+- **Shangyuan International Residency Programme** — unknown
 - **空色ターコイズ** — mixed
   - hits: mixed: zine
 - **Clavis Publishing Submissions** — unknown
@@ -374,54 +369,55 @@
 - **3 Top Book Publishers in Japan in 2026** — unknown
 - **Top Artist Opportunities for 2026 | ArtConnect** — mixed
   - hits: mixed: zine, bookstore
-- **Idemitsu Art Award 2026** — unknown
 - **Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou** — photography
   - hits: photography: photo
+- **Idemitsu Art Award 2026** — unknown
+- **Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...** — unknown
 - **PhotoVogue** — photography
   - hits: painting: illustration | photography: photo, photovogue
-- **Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...** — unknown
 - **Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod** — photography
   - hits: photography: photo
-- **Hayama Artist Residency** — unknown
 - **Art on Climate インターナショナル・イラストレーション・コンテスト 2026** — unknown
+- **Hayama Artist Residency** — unknown
 - **「公募－日本の絵画2026－」** — unknown
-- **滋賀県愛荘町絵画展** — unknown
 - **2026 Asian Heritage Culture Art Show** — unknown
-- **Spring Flora and Fauna Art Exhibition 2026** — unknown
-- **「公募－日本の絵画2026－」入賞・入選発表展** — unknown
+- **AIR_J Open Calls** — unknown
 - **Pastel Society Open Exhibition** — painting
   - hits: painting: open exhibition, paper
-- **AIR_J Open Calls** — unknown
-- **SCCP Guest Artist** — unknown
+- **滋賀県愛荘町絵画展** — unknown
 - **National Watercolor Society International Open Exhibition** — painting
   - hits: painting: watercolor, open exhibition
+- **「公募－日本の絵画2026－」入賞・入選発表展** — unknown
+- **SCCP Guest Artist** — unknown
+- **Spring Flora and Fauna Art Exhibition 2026** — unknown
 - **第92回旺玄展** — unknown
-- **Royal Institute of Painters in Water Colours** — painting
-  - hits: painting: watercolor, watercolour
 - **2026 International Children and Youth Painting Competition Summer Season** — painting
   - hits: painting: painting
-- **秀彩会小品展2026** — unknown
-- **Kyoto Art Center Residency** — unknown
+- **Royal Institute of Painters in Water Colours** — painting
+  - hits: painting: watercolor, watercolour
+- **2026 第37回 美浜美術展** — unknown
 - **上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)** — painting
   - hits: painting: paper
+- **Kyoto Art Center Residency** — unknown
+- **秀彩会小品展2026** — unknown
 - **kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)** — unknown
 - **Sunny Boy Books** — mixed
   - hits: mixed: zine, bookstore
-- **2026 第37回 美浜美術展** — unknown
 - **日本透明水彩会 2026** — painting
   - hits: painting: watercolor
-- **2026 OCAA Ladies Art Exhibition** — unknown
 - **Tokyo Open Call for Artists & Creatives** — unknown
 - **loneliness books** — mixed
   - hits: mixed: zine, bookstore
+- **Muninova Artist Award** — unknown
 - **NEW AIR 2026** — unknown
-- **Asian Cultural Council Fellowship** — unknown
+- **2026 OCAA Ladies Art Exhibition** — unknown
 - **5th Singapore Chinese Art Exhibition 2026** — mixed
   - hits: mixed: post
 - **Dig A Hole Zines** — mixed
   - hits: mixed: zine, bookstore
 - **MADO Café** — unknown
-- **NEW AIR** — unknown
+- **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** — unknown
+- **2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...** — unknown
 - **ZINE FARM TOKYO** — mixed
   - hits: mixed: zine, bookstore
 - **水彩アートのみ展示イベント** — painting
@@ -432,4 +428,8 @@
   - hits: mixed: post
 - **南京插画艺术家展览 2026年3月** — unknown
 - **Clouds Art + Coffee** — unknown
+- **2026「OPEN World Exhibition」** — unknown
+- **NEW AIR** — unknown
 - **2026国际艺术大赏展** — unknown
+- **Asian Cultural Council Fellowship** — unknown
+- **twelvebooks** — unknown

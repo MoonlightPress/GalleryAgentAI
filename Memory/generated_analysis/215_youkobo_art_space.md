@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-08
 
 # Youkobo Art Space
 
 ## 1. Quick Judgment
-**Fit score:** 8.3/10  
-**Fit band:** Excellent fit  
+**Fit score:** 5.8/10  
+**Fit band:** Promising  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
 **City:** Tokyo  
@@ -50,5 +50,5 @@ Visit website to assess: program duration options, cost breakdown, selection cri
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_
 

@@ -1,7 +1,7 @@
 # Top Artist Opportunities for 2026 | ArtConnect
 
 ## 1. Quick Judgment
-**Fit score:** 5.2/10  
+**Fit score:** 4.2/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Print / Zines / Bookstores  
@@ -47,4 +47,4 @@ Open source, verify current opportunities, submission process, fees, deadline, a
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

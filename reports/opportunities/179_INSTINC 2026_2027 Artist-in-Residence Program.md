@@ -1,7 +1,7 @@
 # INSTINC 2026/2027 Artist-in-Residence Program
 
 ## 1. Quick Judgment
-**Fit score:** 8.2/10  
+**Fit score:** 8.1/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Global Residency  
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

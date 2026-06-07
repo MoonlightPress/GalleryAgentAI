@@ -66,12 +66,6 @@
 - Code: 0
 - Detail: HTTPSConnectionPool(host='sanagi.koenji.jp', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='sanagi.koenji.jp'
 
-## Art Fair Tokyo 2026
-- URL: https://www.artsy.net/fair/art-fair-tokyo-2026
-- Status: bad
-- Code: 403
-- Detail: https://www.artsy.net/fair/art-fair-tokyo-2026
-
 ## 若手アーティストの登竜門となるアートフェア「Independent Tokyo ...
 - URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fprtimes.jp%2Fmain%2Fhtml%2Frd%2Fp%2F000000087.000042448.html&rut=f1fbec36411d2c34876c4651b45aff89b534df7647b722dd0665a14a74cfb318
 - Status: error
@@ -90,6 +84,12 @@
 - Code: 0
 - Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.artworkarchive.com%2Fcall%2Dfor%2Dentry%2Fshowcase%2Dyour%2Dart%2Din%2Dtokyo%2Djapan%2D2025&rut=18e7fc33
 
+## Art Fair Tokyo 2026
+- URL: https://www.artsy.net/fair/art-fair-tokyo-2026
+- Status: bad
+- Code: 403
+- Detail: https://www.artsy.net/fair/art-fair-tokyo-2026
+
 ## 日記屋 月日
 - URL: https://tsukihi.stores.jp/
 - Status: bad
@@ -101,6 +101,12 @@
 - Status: error
 - Code: 0
 - Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da101
+
+## ERA Shimokitazawa
+- URL: https://era.shimokitazawa.jp/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='era.shimokitazawa.jp', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='era.shimokita
 
 ## Communication Arts Illustration Competition
 - URL: https://www.commarts.com/competitions/illustration
@@ -120,29 +126,11 @@
 - Code: 0
 - Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tagboat.com%2Fartevent%2Findependenttokyo2025%2F&rut=9b822b771e0836f673f3d19ae53daad1ba6736fa2d403c1a1d8
 
-## ERA Shimokitazawa
-- URL: https://era.shimokitazawa.jp/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='era.shimokitazawa.jp', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='era.shimokita
-
 ## Creative Space Hayashi
 - URL: https://csh.yokohama/
 - Status: error
 - Code: 0
 - Detail: HTTPSConnectionPool(host='csh.yokohama', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='csh.yokohama', port=4
-
-## NADiff a/p/a/r/t
-- URL: https://www.nadiff.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='www.nadiff.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl
-
-## The Container
-- URL: https://www.the-container.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='the-container.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VER
 
 ## Self Publish, Be Happy
 - URL: https://selfpublishbehappy.com/
@@ -156,19 +144,31 @@
 - Code: 403
 - Detail: https://bookobscura.com/
 
+## NADiff a/p/a/r/t
+- URL: https://www.nadiff.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='www.nadiff.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl
+
+## The Container
+- URL: https://www.the-container.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='the-container.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VER
+
+## torch press
+- URL: missing
+- Status: missing
+- Code: 0
+- Detail: 
+
 ## Mall Galleries Open Exhibitions
 - URL: https://www.mallgalleries.org.uk/open-exhibitions
 - Status: bad
 - Code: 404
 - Detail: https://www.mallgalleries.org.uk/open-exhibitions
 
-## Royal Institute of Painters in Water Colours
-- URL: https://www.mallgalleries.org.uk/open-exhibitions
-- Status: bad
-- Code: 404
-- Detail: https://www.mallgalleries.org.uk/open-exhibitions
-
-## torch press
+## Book Culture Club
 - URL: missing
 - Status: missing
 - Code: 0
@@ -180,17 +180,17 @@
 - Code: 403
 - Detail: https://sozoroshobou.stores.jp/
 
-## Book Culture Club
-- URL: missing
-- Status: missing
-- Code: 0
-- Detail: 
-
 ## Komiyama Tokyo
 - URL: missing
 - Status: missing
 - Code: 0
 - Detail: 
+
+## Royal Institute of Painters in Water Colours
+- URL: https://www.mallgalleries.org.uk/open-exhibitions
+- Status: bad
+- Code: 404
+- Detail: https://www.mallgalleries.org.uk/open-exhibitions
 
 ## Mall Galleries Open Exhibitions
 - URL: https://www.mallgalleries.org.uk/open-exhibitions
@@ -204,17 +204,17 @@
 - Code: 0
 - Detail: 
 
-## 全國插畫徵集-2026台灣VC文化賞
-- URL: https://ed.arte.gov.tw/ch/content/m_news_content_2.aspx?AE_SNID=34895
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='ed.arte.gov.tw', port=443): Max retries exceeded with url: /ch/content/m_news_content_2.aspx?AE_SNID=34895 (Caused by SSLError(SSLCert
-
 ## RAW TOKYO
 - URL: https://rawtokyo.jp/
 - Status: error
 - Code: 0
 - Detail: HTTPSConnectionPool(host='rawtokyo.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FA
+
+## 全國插畫徵集-2026台灣VC文化賞
+- URL: https://ed.arte.gov.tw/ch/content/m_news_content_2.aspx?AE_SNID=34895
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='ed.arte.gov.tw', port=443): Max retries exceeded with url: /ch/content/m_news_content_2.aspx?AE_SNID=34895 (Caused by SSLError(SSLCert
 
 ## Printed Matter Art Book Fairs
 - URL: https://www.printedmatter.org/
@@ -222,17 +222,23 @@
 - Code: 403
 - Detail: https://www.printedmatter.org/
 
-## Japan Watercolor Society Annual Exhibition
-- URL: https://nihon-suisai.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='nihon-suisai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='nihon-suisai.com'
+## 空色ターコイズ
+- URL: https://note.com/gallerydioxazine/n/nae41d746f93d
+- Status: bad
+- Code: 503
+- Detail: https://note.com/gallerydioxazine/n/nae41d746f93d
 
 ## Boji Hair+Gallery
 - URL: https://www.boji-hair.com/
 - Status: error
 - Code: 0
 - Detail: HTTPSConnectionPool(host='www.boji-hair.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.boji-hair.co
+
+## Japan Watercolor Society Annual Exhibition
+- URL: https://nihon-suisai.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='nihon-suisai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='nihon-suisai.com'
 
 ## Publishing / Artist Books — Battle Plan
 - URL: missing
@@ -246,17 +252,11 @@
 - Code: 0
 - Detail: 
 
-## 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
-- URL: https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/
+## 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]
+- URL: https://www.adeptghostwriting.com/blog/small-publishers-accepting-submissions/
 - Status: error
 - Code: 0
-- Detail: HTTPSConnectionPool(host='resartis.org', port=443): Max retries exceeded with url: /open-call/%E3%80%90open-call%E3%80%91-kyoto-art-center-artist-in-residence-p
-
-## 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...
-- URL: https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='resartis.org', port=443): Max retries exceeded with url: /open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-
+- Detail: HTTPSConnectionPool(host='www.adeptghostwriting.com', port=443): Read timed out. (read timeout=10)
 
 ## Pastel Society Open Exhibition
 - URL: https://www.mallgalleries.org.uk/open-exhibitions
@@ -270,14 +270,26 @@
 - Code: 404
 - Detail: https://www.mallgalleries.org.uk/open-exhibitions
 
-## Home - Printed Matter
-- URL: https://www.printedmatter.org/
-- Status: bad
-- Code: 403
-- Detail: https://www.printedmatter.org/
+## 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
+- URL: https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='resartis.org', port=443): Max retries exceeded with url: /open-call/%E3%80%90open-call%E3%80%91-kyoto-art-center-artist-in-residence-p
+
+## 2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...
+- URL: https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='resartis.org', port=443): Max retries exceeded with url: /open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-
 
 ## twelvebooks
 - URL: missing
 - Status: missing
 - Code: 0
 - Detail: 
+
+## Home - Printed Matter
+- URL: https://www.printedmatter.org/
+- Status: bad
+- Code: 403
+- Detail: https://www.printedmatter.org/

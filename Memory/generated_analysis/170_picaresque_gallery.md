@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-07
 
 # Picaresque Gallery
 
 ## 1. Quick Judgment
-**Fit score:** 5.5/10  
-**Fit band:** Promising  
+**Fit score:** 8.4/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  
@@ -16,7 +16,7 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 - **Official/source website**: https://picaresquejpn.com/ (verified)
 - **Submission process**: https://picaresquejpn.com/ (verified)
 - **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
+- **Fees**: Free (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -37,7 +37,7 @@ Geographic match and accessible atmosphere could work, but commercial framing ma
 
 ## 7. Submission / Logistics
 - **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Fees:** Free
 - **Submission page:** https://picaresquejpn.com/
 - **Source:** https://picaresquejpn.com/
 
@@ -50,5 +50,5 @@ Research thoroughly before any contact: review past exhibitions, artist roster q
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-07_
 

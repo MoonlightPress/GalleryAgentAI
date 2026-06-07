@@ -81,7 +81,7 @@ This turns project concepts into concrete submission paths.
 - 水性繪畫展覽 (Watercolor Exhibition)
 - 水彩アートの祭典 (Watercolor Art Festival)
 - Aperture | Photography
-- AAA Gallery Yokohama
+- Browse opportunities | CuratorSpace
 
 ### What To Prepare
 - 12–20 image edit

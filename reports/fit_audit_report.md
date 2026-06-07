@@ -101,17 +101,17 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### AAA Gallery Yokohama — 9.1/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 ### 本店・本屋の実験室 — 8.8/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
 ### Browse opportunities | CuratorSpace — 8.6/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### AAA Gallery Yokohama — 9.0/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
@@ -129,6 +129,10 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
+
+### ART SG 2026 — 9.4/10 — possibly inflated
+Risks:
+- high score but few clear supporting reasons
 
 ### 桜をテーマとするイラスト・絵画作品募集 — 9.4/10 — possibly inflated
 Risks:
@@ -193,13 +197,9 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition — 8.8/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 
 ## Top Solid Matches
 
 - Center for Book Arts Opportunities — 9.4/10 — aesthetic lineage +1.2, global/international target, tag: publication, tag: global
 - BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — aesthetic lineage +0.8, tag: publication, tag: zine
+- American Watercolor Society Annual International Exhibition — 7.0/10 — high prestige, global/international target, tag: global

@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-07
 
 # flotsam books
 
 ## 1. Quick Judgment
-**Fit score:** 9.9/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Print / Zines / Bookstores  
@@ -16,7 +16,7 @@ Core public information appears present.
 - **Official/source website**: https://www.flotsambooks.com/ (verified)
 - **Submission process**: https://www.flotsambooks.com/ (verified)
 - **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
+- **Fees**: ¥13,200 (verified)
 - **Contact**: shopmaster@flotsambooks.com (verified)
 
 ## 3. Why This May Fit the Artist
@@ -37,7 +37,7 @@ Tokyo location aligns with regional interests; bookshop/gallery hybrid matches c
 
 ## 7. Submission / Logistics
 - **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Fees:** ¥13,200
 - **Submission page:** https://www.flotsambooks.com/
 - **Source:** https://www.flotsambooks.com/
 
@@ -50,5 +50,5 @@ Visit if in Tokyo to assess space and build relationship naturally; not worth co
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_
 

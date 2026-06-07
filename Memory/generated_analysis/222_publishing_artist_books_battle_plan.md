@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-08
 
 # Publishing / Artist Books — Battle Plan
 
 ## 1. Quick Judgment
-**Fit score:** 6.2/10  
+**Fit score:** 5.8/10  
 **Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Book Publishing  
@@ -50,5 +50,5 @@ Finish one zine or artist-book prototype, then compare it against torch press, t
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_
 

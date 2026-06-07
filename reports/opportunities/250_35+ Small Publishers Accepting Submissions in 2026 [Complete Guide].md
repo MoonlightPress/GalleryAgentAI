@@ -1,7 +1,7 @@
 # 35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]
 
 ## 1. Quick Judgment
-**Fit score:** 5.0/10  
+**Fit score:** 4.6/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Book Publishing  
@@ -47,4 +47,4 @@ Review recent titles and decide whether this is a publisher, distributor, bookst
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

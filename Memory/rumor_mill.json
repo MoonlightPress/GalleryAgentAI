@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T22:59:16.751857",
+  "updated_at": "2026-06-08T08:19:11.304083",
   "entries": {
     "Women United ART MAGAZINE Issue XIV Summer 2026": {
       "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -2421,6 +2421,14 @@
       "searched_at": "2026-06-07T11:10:04.937426",
       "data_found": false,
       "found": {}
+    },
+    "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S": {
+      "title": "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S",
+      "searched_at": "2026-06-07T23:19:33.758740",
+      "data_found": true,
+      "found": {
+        "submission_url": "https://www.curatorspace.com/opportunities/detail/the-light-frame-gallery/9757"
+      }
     }
   }
 }

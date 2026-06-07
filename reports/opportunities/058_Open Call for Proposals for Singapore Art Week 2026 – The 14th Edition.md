@@ -8,12 +8,12 @@
 **City:** Singapore  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://www.nac.gov.sg/docs/default-source/about-us-files/saw-2026-open-call-brief.pdf?sfvrsn=c2964bda_1 (verified)
 - **Submission process**: https://www.nac.gov.sg/docs/default-source/about-us-files/saw-2026-open-call-brief.pdf?sfvrsn=c2964bda_1 (verified)
 - **Deadline**: 22nd to 31st January 2026 (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Fees**: $6 (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -32,7 +32,7 @@ Open call for Singapore Art Week featuring multiple venues and formats suitable 
 
 ## 7. Submission / Logistics
 - **Deadline:** 22nd to 31st January 2026
-- **Fees:** Not publicly listed
+- **Fees:** $6
 - **Submission page:** https://www.nac.gov.sg/docs/default-source/about-us-files/saw-2026-open-call-brief.pdf?sfvrsn=c2964bda_1
 - **Source:** https://www.nac.gov.sg/docs/default-source/about-us-files/saw-2026-open-call-brief.pdf?sfvrsn=c2964bda_1
 
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_

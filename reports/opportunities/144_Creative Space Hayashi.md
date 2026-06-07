@@ -1,7 +1,7 @@
 # Creative Space Hayashi
 
 ## 1. Quick Judgment
-**Fit score:** 9.2/10  
+**Fit score:** 9.3/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
@@ -47,4 +47,4 @@ Skip unless you discover specific programming details that align with your work
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

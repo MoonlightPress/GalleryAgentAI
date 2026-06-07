@@ -1,7 +1,7 @@
 # Design Festa
 
 ## 1. Quick Judgment
-**Fit score:** 7.3/10  
+**Fit score:** 7.4/10  
 **Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  

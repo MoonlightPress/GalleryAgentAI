@@ -1,7 +1,7 @@
 # HB Gallery
 
 ## 1. Quick Judgment
-**Fit score:** 7.3/10  
+**Fit score:** 7.2/10  
 **Fit band:** Strong fit  
 **Confidence:** Medium  
 **Type:** Other  

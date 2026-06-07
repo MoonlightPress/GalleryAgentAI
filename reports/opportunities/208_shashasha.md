@@ -1,7 +1,7 @@
 # shashasha
 
 ## 1. Quick Judgment
-**Fit score:** 6.3/10  
+**Fit score:** 6.1/10  
 **Fit band:** Promising  
 **Confidence:** Low  
 **Type:** Book Publishing  

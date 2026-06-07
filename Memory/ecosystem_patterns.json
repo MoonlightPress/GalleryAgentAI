@@ -2,7 +2,7 @@
   "dominant_countries": [
     [
       "Japan",
-      35
+      36
     ],
     [
       "International",
@@ -14,7 +14,7 @@
     ],
     [
       "Canada",
-      4
+      5
     ],
     [
       "USA",
@@ -37,11 +37,11 @@
       2
     ],
     [
-      "Yokohama",
-      1
+      "Singapore",
+      2
     ],
     [
-      "Singapore",
+      "Yokohama",
       1
     ],
     [
@@ -53,6 +53,10 @@
       1
     ],
     [
+      "Taiwan",
+      1
+    ],
+    [
       "France",
       1
     ]
@@ -60,7 +64,7 @@
   "dominant_categories": [
     [
       "gallery",
-      21
+      20
     ],
     [
       "global_open_call",
@@ -72,7 +76,7 @@
     ],
     [
       "bookstore_gallery",
-      8
+      7
     ],
     [
       "zine_print",
@@ -87,6 +91,10 @@
       6
     ],
     [
+      "fair_popup",
+      5
+    ],
+    [
       "global_watercolor_open_call",
       5
     ],
@@ -95,19 +103,19 @@
       5
     ],
     [
-      "fair_popup",
-      4
-    ],
-    [
       "zine_shop_consignment",
       4
     ],
     [
-      "residency",
-      4
+      "book_publishing",
+      3
     ],
     [
-      "book_publishing",
+      "residency",
+      3
+    ],
+    [
+      "institutional",
       3
     ],
     [
@@ -133,24 +141,20 @@
     [
       "global_photobook",
       1
-    ],
-    [
-      "global_art_book_fair",
-      1
     ]
   ],
   "dominant_tags": [
     [
       "secondary",
-      25
+      24
     ],
     [
       "",
-      25
+      24
     ],
     [
       "japan",
-      22
+      23
     ],
     [
       "jp",
@@ -162,7 +166,7 @@
     ],
     [
       "has_deadline",
-      15
+      16
     ],
     [
       "watercolor_ok",
@@ -170,19 +174,19 @@
     ],
     [
       "has_submission_url",
-      12
+      13
     ],
     [
       "diaspora",
-      9
+      12
     ],
     [
       "diaspora_community",
-      9
+      12
     ],
     [
       "chinese_source",
-      8
+      10
     ],
     [
       "global",
@@ -190,6 +194,10 @@
     ],
     [
       "Tier1",
+      6
+    ],
+    [
+      "cn",
       6
     ],
     [
@@ -210,10 +218,6 @@
     ],
     [
       "zine",
-      5
-    ],
-    [
-      "cn",
       5
     ],
     [

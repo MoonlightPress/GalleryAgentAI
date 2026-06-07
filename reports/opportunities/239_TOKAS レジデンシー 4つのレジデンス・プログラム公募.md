@@ -1,7 +1,7 @@
 # TOKAS レジデンシー 4つのレジデンス・プログラム公募
 
 ## 1. Quick Judgment
-**Fit score:** 4.8/10  
+**Fit score:** 4.4/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Residencies / Longer Projects  
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

@@ -28,7 +28,7 @@ This report answers the question: what should she actually make or submit next?
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 8.7 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **SUBMISSIONS - marblepress.com** — 8.7 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 10.0 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
-- **TOKIO ART BOOK FAIR 2026** — 9.1 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
+- **TOKIO ART BOOK FAIR 2026** — 8.5 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **Center for Book Arts Opportunities** — 9.1 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
 - **Aesthetica Art Prize** — 9.1 / 11.09. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
 
@@ -69,7 +69,7 @@ Make a 20-image edit and title it provisionally. Do not write the full statement
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 8.7 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **SUBMISSIONS - marblepress.com** — 8.7 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 10.0 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
-- **TOKIO ART BOOK FAIR 2026** — 9.1 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
+- **TOKIO ART BOOK FAIR 2026** — 8.5 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **Center for Book Arts Opportunities** — 9.1 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
 - **Still Life - 2026** — 9.1 / 10.94. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
 
@@ -105,7 +105,7 @@ Build the edit as a PDF contact sheet first, then reduce it by half.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 8.7 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **SUBMISSIONS - marblepress.com** — 8.7 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 10.0 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
-- **TOKIO ART BOOK FAIR 2026** — 9.1 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
+- **TOKIO ART BOOK FAIR 2026** — 8.5 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **Center for Book Arts Opportunities** — 9.1 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
 - **Aesthetica Art Prize** — 9.1 / 11.09. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
 

@@ -1,7 +1,7 @@
 # Design Festa
 
 ## 1. Quick Judgment
-**Fit score:** 7.3/10  
+**Fit score:** 7.4/10  
 **Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
@@ -47,4 +47,4 @@ Review event videos on their website to assess whether the festival atmosphere m
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

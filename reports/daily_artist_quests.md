@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research 2026 ART CAPITAL Paris Grand Palais International Youth Academic Award submission process.
-- Research Pinpoint Gallery submission process.
-- Research Society of Women Artists submission process.
-- Research IlloBoom! 2026 第三屆插畫巔峰賽 submission process.
-- Research World Illustration Awards submission process.
-- Compare 2026 Chinese New Year Celebration Art Show to similar institutions.
-- Compare Gallery 456 Exhibition Open Call 2026 to similar institutions.
-- Compare CSPWC Annual Open Water International Exhibition to similar institutions.
+- Research Center for Book Arts Opportunities submission process.
+- Research Aesthetica Art Prize submission process.
+- Research Self Publish, Be Happy submission process.
+- Research KAMIHANGA国際プリント展2026 submission process.
+- Research Cité Internationale des Arts Artist Residency submission process.
+- Compare The Artcomplex Center of Tokyo to similar institutions.
+- Compare World Illustration Awards to similar institutions.
+- Compare Gallery 191 Exhibition 2026 to similar institutions.

@@ -167,8 +167,8 @@ A portfolio sequence centered on vernacular architecture, domestic structures, s
 - **水性繪畫展覽 (Watercolor Exhibition)** — 9.4 / 10.78. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
 - **水彩アートの祭典 (Watercolor Art Festival)** — 9.4 / 10.78. Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
 - **Aperture | Photography** — 8.8 / 10.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
-- **AAA Gallery Yokohama** — 9.1 / 10.54. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Browse opportunities | CuratorSpace** — 8.6 / 10.49. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
+- **AAA Gallery Yokohama** — 9.0 / 10.44. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Gallery IYN** — 8.8 / 10.34. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **桜をテーマとするイラスト・絵画作品募集** — 9.4 / 10.26. Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice.
 

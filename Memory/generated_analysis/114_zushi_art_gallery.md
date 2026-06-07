@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-07
 # Zushi Art Gallery
 
 ## 1. Quick Judgment
-**Fit score:** 10/10  
+**Fit score:** 9.8/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  

@@ -5,8 +5,11 @@ This report caps inflated scores when verification is weak.
 - Tokyo Art Book Fair: 10.0 → 9.4
 - UTRECHT: 10.0 → 9.4
 - Offprint: 10.0 → 8.6
+- Art Vancouver 2026: 10.0 → 9.4
 - COW BOOKS Nakameguro: 10.0 → 8.6
+- Tokyo Gendai 2026: 10.0 → 9.4
 - Center for Book Arts Opportunities: 10.0 → 9.4
+- ART SG 2026: 10.0 → 9.4
 - HATTIFNATT Koenji Cafe Gallery: 10.0 → 9.4
 - B&B Shimokitazawa: 10.0 → 8.8
 - TOKIO ART BOOK FAIR 2026: 10.0 → 9.4
@@ -90,6 +93,7 @@ This report caps inflated scores when verification is weak.
 - Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition: 9.6 → 8.8
 - [展覧会]秀彩会小品展2026: 9.6 → 8.6
 - BONUS TRACK: 9.55 → 8.8
+- KAMIHANGA国際プリント展2026: 9.5 → 9.4
 - Gallery IRO: 9.5 → 8.8
 - Gallery HANA Shimokitazawa: 9.5 → 8.8
 - ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6): 9.5 → 8.6

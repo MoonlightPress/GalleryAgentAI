@@ -1,7 +1,7 @@
 # Applications — Little Tokyo Zine Fest
 
 ## 1. Quick Judgment
-**Fit score:** 6.3/10  
+**Fit score:** 6.1/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  

@@ -1,6 +1,6 @@
 # Japanese & Chinese Discovery Report
 
-Run: 2026-06-07  |  Queries run: 0  |  New opportunities: 0
+Run: 2026-06-08  |  Queries run: 0  |  New opportunities: 0
 
 No new opportunities found in this run.
 

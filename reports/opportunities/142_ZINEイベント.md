@@ -1,8 +1,8 @@
 # ZINEイベント
 
 ## 1. Quick Judgment
-**Fit score:** 7.3/10  
-**Fit band:** Strong fit  
+**Fit score:** 8.1/10  
+**Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Markets / Popups / Booths  
 **City:** Japan / Tokyo / Online  
@@ -48,4 +48,4 @@ Check application window, booth/table fee, required images, and whether a finish
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_

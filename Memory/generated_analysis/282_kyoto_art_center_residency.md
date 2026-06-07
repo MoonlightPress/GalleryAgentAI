@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-08
 
 # Kyoto Art Center Residency
 
 ## 1. Quick Judgment
-**Fit score:** 2.9/10  
+**Fit score:** 2.8/10  
 **Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
@@ -51,5 +51,5 @@ Confirm eligibility, duration, cost, housing, and project proposal requirements.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_
 

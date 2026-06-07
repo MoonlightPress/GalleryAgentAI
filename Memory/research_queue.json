@@ -1,15 +1,5 @@
 [
   {
-    "venue_name": "TOKYO ART BOOK FAIR / The Chain Museum",
-    "venue_slug": "tokyo_art_book_fair_the_chain_museum",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tokioartbookfair.com"
-  },
-  {
     "venue_name": "B&B",
     "venue_slug": "b_b",
     "priority": "medium",
@@ -166,6 +156,38 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.mamehico.com/"
+  },
+  {
+    "venue_name": "Asia Art Center",
+    "venue_slug": "asia_art_center",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://asiaartcenter.org/cn/art-fairs/45-2026-art-sg-bc07/overview"
+  },
+  {
+    "venue_name": "Tokyo Gendai",
+    "venue_slug": "tokyo_gendai",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://tokyogendai.com"
+  },
+  {
+    "venue_name": "Art Vancouver",
+    "venue_slug": "art_vancouver",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.artvancouver.net"
   },
   {
     "venue_name": "Open calls - Online Database of Artist in Residence Programs in Japan",
@@ -376,6 +398,16 @@
     "source": "https://www.scaithebathhouse.com/"
   },
   {
+    "venue_name": "TOKYO ART BOOK FAIR / The Chain Museum",
+    "venue_slug": "tokyo_art_book_fair_the_chain_museum",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://tokioartbookfair.com"
+  },
+  {
     "venue_name": "Clark Centre for the Arts",
     "venue_slug": "clark_centre_for_the_arts",
     "priority": "medium",
@@ -566,6 +598,16 @@
     "source": "https://gallery219.com/index.html"
   },
   {
+    "venue_name": "ギャラリーカノン",
+    "venue_slug": "unknown",
+    "priority": "medium",
+    "missing": [
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://note.com/kamihanga_2025/n/n9c3bd3d5feaf"
+  },
+  {
     "venue_name": "Gallery IRO",
     "venue_slug": "gallery_iro",
     "priority": "high",
@@ -577,6 +619,16 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://1-6.jp/iro/"
+  },
+  {
+    "venue_name": "Kyoto Retreat Artist Residency 2026 - Open Call",
+    "venue_slug": "kyoto_retreat_artist_residency_2026_open_call",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency"
   },
   {
     "venue_name": "ギャラリーお留守番",
@@ -658,16 +710,6 @@
     "source": "https://note.com/park_diary/n/n928bba21a42f"
   },
   {
-    "venue_name": "ギャラリーカノン",
-    "venue_slug": "unknown",
-    "priority": "medium",
-    "missing": [
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://note.com/kamihanga_2025/n/n9c3bd3d5feaf"
-  },
-  {
     "venue_name": "CuratorSpace",
     "venue_slug": "curatorspace",
     "priority": "high",
@@ -705,6 +747,17 @@
     "source": "https://shoto-museum.jp/exhibitions/2026koubo/"
   },
   {
+    "venue_name": "Aperture",
+    "venue_slug": "aperture",
+    "priority": "medium",
+    "missing": [
+      "contact",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://aperture.org/"
+  },
+  {
     "venue_name": "Bologna Children's Book Fair Illustrators Exhibition",
     "venue_slug": "bologna_children_s_book_fair_illustrators_exhibition",
     "priority": "medium",
@@ -723,27 +776,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://pinpointgallery.com/"
-  },
-  {
-    "venue_name": "Aperture",
-    "venue_slug": "aperture",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://aperture.org/"
-  },
-  {
-    "venue_name": "AAA Gallery Yokohama",
-    "venue_slug": "aaa_gallery_yokohama",
-    "priority": "medium",
-    "missing": [
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://artaraqasia.com/"
   },
   {
     "venue_name": "Applied Arts",
@@ -766,14 +798,14 @@
     "source": "https://www.vacant.vc/"
   },
   {
-    "venue_name": "Kyoto Retreat Artist Residency 2026 - Open Call",
-    "venue_slug": "kyoto_retreat_artist_residency_2026_open_call",
+    "venue_name": "AAA Gallery Yokohama",
+    "venue_slug": "aaa_gallery_yokohama",
     "priority": "medium",
     "missing": [
-      "contact"
+      "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency"
+    "source": "https://artaraqasia.com/"
   },
   {
     "venue_name": "国际墨友会",
@@ -815,6 +847,16 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.tokyoartsandspace.jp/en/archive/residence/"
+  },
+  {
+    "venue_name": "第29回 アート未来展",
+    "venue_slug": "29",
+    "priority": "medium",
+    "missing": [
+      "deadline"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://saibido-art.jimdofree.com/%E5%85%AC%E5%8B%9F%E5%B1%95%E5%87%BA%E5%93%81%E6%89%8B%E9%A0%86-%E6%90%AC%E5%85%A5%E6%97%A5/%E5%85%AC%E5%8B%9F%E5%B1%95%E6%90%AC%E5%85%A5%E6%97%A5-%E6%98%A5"
   },
   {
     "venue_name": "Nantoka Bar",
@@ -859,6 +901,16 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.tokyoartsandspace.jp/en/archive/application/2025/20250513-305.html"
+  },
+  {
+    "venue_name": "Zushi Art Gallery",
+    "venue_slug": "zushi_art_gallery",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://zushi-art.com/"
   },
   {
     "venue_name": "ART BOX Publishing",
@@ -921,16 +973,6 @@
     "source": "http://toten.jp.net/"
   },
   {
-    "venue_name": "Zushi Art Gallery",
-    "venue_slug": "zushi_art_gallery",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://zushi-art.com/"
-  },
-  {
     "venue_name": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
     "venue_slug": "independent_tokyo",
     "priority": "high",
@@ -978,29 +1020,6 @@
     "source": "https://www.ccbfgoldenpinwheel.com.cn/cn/index/GoldenPinwheel-News/detail!2026-call-for-entries"
   },
   {
-    "venue_name": "ArtConnect Open Calls",
-    "venue_slug": "artconnect_open_calls",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K"
-  },
-  {
-    "venue_name": "東京建物株式会社",
-    "venue_slug": "unknown",
-    "priority": "medium",
-    "missing": [
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://compe.japandesign.ne.jp/category/art"
-  },
-  {
     "venue_name": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
     "venue_slug": "open_call_submit_your_work_explore_art_in_the_streets_of_tokyo_at",
     "priority": "high",
@@ -1023,6 +1042,16 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://sanagi.koenji.jp/"
+  },
+  {
+    "venue_name": "東京建物株式会社",
+    "venue_slug": "unknown",
+    "priority": "medium",
+    "missing": [
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://compe.japandesign.ne.jp/category/art"
   },
   {
     "venue_name": "LOCAL Gallery・Books",
@@ -1077,15 +1106,17 @@
     "source": "https://tata-books.com/"
   },
   {
-    "venue_name": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
-    "venue_slug": "new_air_2026_br_open_call_for_asia_event_art_center_new",
-    "priority": "medium",
+    "venue_name": "ArtConnect Open Calls",
+    "venue_slug": "artconnect_open_calls",
+    "priority": "high",
     "missing": [
       "contact",
-      "fees"
+      "deadline",
+      "fees",
+      "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+    "source": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K"
   },
   {
     "venue_name": "Farmer's Market @ UNU",
@@ -1133,6 +1164,16 @@
     "source": "https://www.artsy.net/fair/art-fair-tokyo-2026"
   },
   {
+    "venue_name": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
+    "venue_slug": "l_air_2026_artist_residency_s1_s4_open_call_air_j_air_j_info",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://air-j.info/en/program/lair2026/"
+  },
+  {
     "venue_name": "Creative Space Hayashi",
     "venue_slug": "creative_space_hayashi",
     "priority": "medium",
@@ -1143,14 +1184,15 @@
     "source": "https://csh.yokohama/"
   },
   {
-    "venue_name": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
-    "venue_slug": "l_air_2026_artist_residency_s1_s4_open_call_air_j_air_j_info",
+    "venue_name": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
+    "venue_slug": "new_air_2026_br_open_call_for_asia_event_art_center_new",
     "priority": "medium",
     "missing": [
-      "contact"
+      "contact",
+      "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://air-j.info/en/program/lair2026/"
+    "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
   },
   {
     "venue_name": "日記屋 月日",
@@ -1163,6 +1205,18 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://tsukihi.stores.jp/"
+  },
+  {
+    "venue_name": "ERA",
+    "venue_slug": "era",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://era.shimokitazawa.jp/"
   },
   {
     "venue_name": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...",
@@ -1191,26 +1245,27 @@
     "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tagboat.com%2Fartevent%2Findependenttokyo2025%2F&rut=9b822b771e0836f673f3d19ae53daad1ba6736fa2d403c1a1d889634c9a47dca"
   },
   {
-    "venue_name": "第29回 アート未来展",
-    "venue_slug": "29",
-    "priority": "medium",
-    "missing": [
-      "deadline"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://saibido-art.jimdofree.com/%E5%85%AC%E5%8B%9F%E5%B1%95%E5%87%BA%E5%93%81%E6%89%8B%E9%A0%86-%E6%90%AC%E5%85%A5%E6%97%A5/%E5%85%AC%E5%8B%9F%E5%B1%95%E6%90%AC%E5%85%A5%E6%97%A5-%E6%98%A5"
-  },
-  {
-    "venue_name": "ERA",
-    "venue_slug": "era",
+    "venue_name": "Art Center NEW",
+    "venue_slug": "art_center_new",
     "priority": "high",
     "missing": [
       "contact",
       "deadline",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://bijutsutecho.com/magazine/news/headline/30942"
+  },
+  {
+    "venue_name": "東京都美術館",
+    "venue_slug": "unknown",
+    "priority": "medium",
+    "missing": [
+      "contact",
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://era.shimokitazawa.jp/"
+    "source": "https://compe.japandesign.ne.jp/sekaido-kaiga-2026"
   },
   {
     "venue_name": "オープンコール・プロジェクト",
@@ -1224,18 +1279,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://bijutsutecho.com/magazine/news/exhibition/32343"
-  },
-  {
-    "venue_name": "2026国际大学生数字艺术设计大赛",
-    "venue_slug": "2026",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.shejijingsai.com/2026/01/1480873.html"
   },
   {
     "venue_name": "NADiff",
@@ -1268,14 +1311,38 @@
     "source": "https://reload-shimokita.com/"
   },
   {
-    "venue_name": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
-    "venue_slug": "full_table_little_tokyo_zine_fest_2026_eventeny",
+    "venue_name": "2026国际大学生数字艺术设计大赛",
+    "venue_slug": "2026",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.shejijingsai.com/2026/01/1480873.html"
+  },
+  {
+    "venue_name": "COMITIA",
+    "venue_slug": "comitia",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.eventeny.com/events/vendor/?id=39232"
+    "source": "https://www.comitia.co.jp/"
+  },
+  {
+    "venue_name": "Offprint",
+    "venue_slug": "offprint",
+    "priority": "high",
+    "missing": [
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://offprint.org/"
   },
   {
     "venue_name": "ZINEイベント",
@@ -1291,25 +1358,16 @@
     "source": "https://zindies.co/events?locale=ja"
   },
   {
-    "venue_name": "東京都美術館",
-    "venue_slug": "unknown",
-    "priority": "medium",
+    "venue_name": "SOMPO美術館",
+    "venue_slug": "sompo",
+    "priority": "high",
     "missing": [
       "contact",
+      "fees",
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://compe.japandesign.ne.jp/sekaido-kaiga-2026"
-  },
-  {
-    "venue_name": "COMITIA",
-    "venue_slug": "comitia",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.comitia.co.jp/"
+    "source": "https://bijutsutecho.com/magazine/news/exhibition/32221?page=8"
   },
   {
     "venue_name": "Creema",
@@ -1320,29 +1378,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://hmj-fes.jp/"
-  },
-  {
-    "venue_name": "絵画展（滋賀県愛荘町開催）",
-    "venue_slug": "unknown",
-    "priority": "medium",
-    "missing": [
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://koubo.yumegazai.com"
-  },
-  {
-    "venue_name": "Offprint",
-    "venue_slug": "offprint",
-    "priority": "high",
-    "missing": [
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://offprint.org/"
   },
   {
     "venue_name": "HB Gallery",
@@ -1358,18 +1393,6 @@
     "source": "https://hbgallery.com/"
   },
   {
-    "venue_name": "SOMPO美術館",
-    "venue_slug": "sompo",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://bijutsutecho.com/magazine/news/exhibition/32221?page=8"
-  },
-  {
     "venue_name": "新槐樹社",
     "venue_slug": "unknown",
     "priority": "medium",
@@ -1379,28 +1402,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.artkoubo.jp"
-  },
-  {
-    "venue_name": "Communication Arts Illustration Competition",
-    "venue_slug": "communication_arts_illustration_competition",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.commarts.com/competitions/illustration"
-  },
-  {
-    "venue_name": "Design Festa",
-    "venue_slug": "design_festa",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://designfesta.com/"
   },
   {
     "venue_name": "Self Publish, Be Happy",
@@ -1441,18 +1442,8 @@
     "source": "https://www.americanwatercolorsociety.org/"
   },
   {
-    "venue_name": "Asia Art Center",
-    "venue_slug": "asia_art_center",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://asiaartcenter.org/cn/art-fairs/45-2026-art-sg-bc07/overview"
-  },
-  {
-    "venue_name": "Art Vancouver",
-    "venue_slug": "art_vancouver",
+    "venue_name": "Communication Arts Illustration Competition",
+    "venue_slug": "communication_arts_illustration_competition",
     "priority": "high",
     "missing": [
       "contact",
@@ -1460,51 +1451,49 @@
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.artvancouver.net"
+    "source": "https://www.commarts.com/competitions/illustration"
   },
   {
-    "venue_name": "Tokyo Gendai",
-    "venue_slug": "tokyo_gendai",
+    "venue_name": "絵画展（滋賀県愛荘町開催）",
+    "venue_slug": "unknown",
     "priority": "medium",
     "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tokyogendai.com"
-  },
-  {
-    "venue_name": "第9回 国際公募 東京アート工芸2026",
-    "venue_slug": "9_2026",
-    "priority": "high",
-    "missing": [
-      "contact",
       "fees",
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.nact.jp/english/artcommons/user/search_venue?gallery=1681"
+    "source": "https://koubo.yumegazai.com"
   },
   {
-    "venue_name": "Arts Initiative Tokyo",
-    "venue_slug": "arts_initiative_tokyo",
+    "venue_name": "Design Festa",
+    "venue_slug": "design_festa",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.a-i-t.net/en/"
+    "source": "https://designfesta.com/"
   },
   {
-    "venue_name": "Art Center NEW",
-    "venue_slug": "art_center_new",
-    "priority": "high",
+    "venue_name": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
+    "venue_slug": "full_table_little_tokyo_zine_fest_2026_eventeny",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.eventeny.com/events/vendor/?id=39232"
+  },
+  {
+    "venue_name": "Cité Internationale des Arts",
+    "venue_slug": "cit_internationale_des_arts",
+    "priority": "medium",
     "missing": [
       "contact",
-      "deadline",
       "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://bijutsutecho.com/magazine/news/headline/30942"
+    "source": "https://www.citedesartsparis.net/"
   },
   {
     "venue_name": "东京中国文化中心 (Tokyo Chinese Cultural Center)",
@@ -1519,40 +1508,36 @@
     "source": "https://www.jpchinapress.com/static/content/QW/2026-03-13/1482114445505503232.html"
   },
   {
-    "venue_name": "OM SYSTEM PLAZA",
-    "venue_slug": "om_system_plaza",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://note.com/omsystem_plaza/n/n654cb8a5b813"
-  },
-  {
-    "venue_name": "Fukuoka Art Book Fair",
-    "venue_slug": "fukuoka_art_book_fair",
+    "venue_name": "Arts Initiative Tokyo",
+    "venue_slug": "arts_initiative_tokyo",
     "priority": "medium",
     "missing": [
-      "contact",
-      "fees"
+      "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://fukuokaartbookfair.com/application/"
+    "source": "https://www.a-i-t.net/en/"
   },
   {
-    "venue_name": "そぞろ書房",
-    "venue_slug": "unknown",
+    "venue_name": "第9回 国際公募 東京アート工芸2026",
+    "venue_slug": "9_2026",
     "priority": "high",
     "missing": [
       "contact",
-      "deadline",
       "fees",
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://sozoroshobou.stores.jp/"
+    "source": "https://www.nact.jp/english/artcommons/user/search_venue?gallery=1681"
+  },
+  {
+    "venue_name": "TOKAS",
+    "venue_slug": "tokas",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://artres.moc.gov.tw/zh/calls/content/ff80818196c95f3b0196e675e523000f"
   },
   {
     "venue_name": "torch press",
@@ -1568,6 +1553,42 @@
     "source": ""
   },
   {
+    "venue_name": "そぞろ書房",
+    "venue_slug": "unknown",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://sozoroshobou.stores.jp/"
+  },
+  {
+    "venue_name": "Fukuoka Art Book Fair",
+    "venue_slug": "fukuoka_art_book_fair",
+    "priority": "medium",
+    "missing": [
+      "contact",
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://fukuokaartbookfair.com/application/"
+  },
+  {
+    "venue_name": "OM SYSTEM PLAZA",
+    "venue_slug": "om_system_plaza",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://note.com/omsystem_plaza/n/n654cb8a5b813"
+  },
+  {
     "venue_name": "SOMPO Museum of Art",
     "venue_slug": "sompo_museum_of_art",
     "priority": "medium",
@@ -1579,29 +1600,6 @@
     "source": "https://www.iwafu.com/en/events/1062957"
   },
   {
-    "venue_name": "Cité Internationale des Arts",
-    "venue_slug": "cit_internationale_des_arts",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.citedesartsparis.net/"
-  },
-  {
-    "venue_name": "Mall Galleries Open Exhibitions",
-    "venue_slug": "mall_galleries_open_exhibitions",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.mallgalleries.org.uk/open-exhibitions"
-  },
-  {
     "venue_name": "Jimbocho Zine Fair",
     "venue_slug": "jimbocho_zine_fair",
     "priority": "medium",
@@ -1611,6 +1609,20 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://tcha.jp/post-3262/"
+  },
+  {
+    "venue_name": "Book Culture Club",
+    "venue_slug": "book_culture_club",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "official/source website",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": ""
   },
   {
     "venue_name": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
@@ -1625,8 +1637,8 @@
     "source": "https://www.jinnystreetgallery.com/open-call"
   },
   {
-    "venue_name": "Royal Institute of Painters in Water Colours",
-    "venue_slug": "royal_institute_of_painters_in_water_colours",
+    "venue_name": "Mall Galleries Open Exhibitions",
+    "venue_slug": "mall_galleries_open_exhibitions",
     "priority": "high",
     "missing": [
       "contact",
@@ -1635,6 +1647,43 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.mallgalleries.org.uk/open-exhibitions"
+  },
+  {
+    "venue_name": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
+    "venue_slug": "open_call_for_artists_tokyo_biennale_2025_social_dive",
+    "priority": "medium",
+    "missing": [
+      "contact",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://tokyobiennale.jp/en/archives/news/6152"
+  },
+  {
+    "venue_name": "Komiyama Tokyo",
+    "venue_slug": "komiyama_tokyo",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "official/source website",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": ""
+  },
+  {
+    "venue_name": "Taiwan VC Cultural Awards",
+    "venue_slug": "taiwan_vc_cultural_awards",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://ed.arte.gov.tw/ch/content/m_news_content_2.aspx?AE_SNID=34895"
   },
   {
     "venue_name": "東京芸術劇場",
@@ -1660,59 +1709,6 @@
     "source": "https://sagg.info/event/opencall-2026-and-2027"
   },
   {
-    "venue_name": "Book Culture Club",
-    "venue_slug": "book_culture_club",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "official/source website",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": ""
-  },
-  {
-    "venue_name": "Taiwan VC Cultural Awards",
-    "venue_slug": "taiwan_vc_cultural_awards",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://ed.arte.gov.tw/ch/content/m_news_content_2.aspx?AE_SNID=34895"
-  },
-  {
-    "venue_name": "Komiyama Tokyo",
-    "venue_slug": "komiyama_tokyo",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "official/source website",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": ""
-  },
-  {
-    "venue_name": "ARTE VENT Press",
-    "venue_slug": "arte_vent_press",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.arte-vent.com/"
-  },
-  {
     "venue_name": "西日本鉄道株式会社, ワコールアートセンター",
     "venue_slug": "unknown",
     "priority": "medium",
@@ -1724,25 +1720,25 @@
     "source": "https://compe.japandesign.ne.jp/category/art"
   },
   {
-    "venue_name": "Submissions — Clavis Publishing",
-    "venue_slug": "submissions_clavis_publishing",
-    "priority": "medium",
-    "missing": [
-      "deadline"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.clavis-publishing.com/submit"
-  },
-  {
-    "venue_name": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
-    "venue_slug": "open_call_for_artists_tokyo_biennale_2025_social_dive",
+    "venue_name": "【公募】2026年度レジデンス・プログラム公募開始",
+    "venue_slug": "2026",
     "priority": "medium",
     "missing": [
       "contact",
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://tokyobiennale.jp/en/archives/news/6152"
+    "source": "https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html"
+  },
+  {
+    "venue_name": "Applications — Little Tokyo Zine Fest",
+    "venue_slug": "applications_little_tokyo_zine_fest",
+    "priority": "medium",
+    "missing": [
+      "fees"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.ltzinefest.org/applications"
   },
   {
     "venue_name": "shashasha",
@@ -1757,40 +1753,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": ""
-  },
-  {
-    "venue_name": "Applications — Little Tokyo Zine Fest",
-    "venue_slug": "applications_little_tokyo_zine_fest",
-    "priority": "medium",
-    "missing": [
-      "fees"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.ltzinefest.org/applications"
-  },
-  {
-    "venue_name": "Golden Key International Art Competition",
-    "venue_slug": "golden_key_international_art_competition",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.ociyac.com"
-  },
-  {
-    "venue_name": "【公募】2026年度レジデンス・プログラム公募開始",
-    "venue_slug": "2026",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.tokyoartsandspace.jp/archive/news/2025/data-20250514-1591.html"
   },
   {
     "venue_name": "RAW TOKYO",
@@ -1813,6 +1775,54 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.printedmatter.org/"
+  },
+  {
+    "venue_name": "Golden Key International Art Competition",
+    "venue_slug": "golden_key_international_art_competition",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.ociyac.com"
+  },
+  {
+    "venue_name": "ARTE VENT Press",
+    "venue_slug": "arte_vent_press",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.arte-vent.com/"
+  },
+  {
+    "venue_name": "Royal Institute of Painters in Water Colours",
+    "venue_slug": "royal_institute_of_painters_in_water_colours",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.mallgalleries.org.uk/open-exhibitions"
+  },
+  {
+    "venue_name": "Youkobo Art Space",
+    "venue_slug": "youkobo_art_space",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.youkobo.co.jp/en/"
   },
   {
     "venue_name": "Shoto Museum Open Call",
@@ -1839,24 +1849,14 @@
     "source": "https://www.artkoubo.jp/"
   },
   {
-    "venue_name": "TOKAS",
-    "venue_slug": "tokas",
+    "venue_name": "Submissions — Clavis Publishing",
+    "venue_slug": "submissions_clavis_publishing",
     "priority": "medium",
     "missing": [
-      "contact"
+      "deadline"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://artres.moc.gov.tw/zh/calls/content/ff80818196c95f3b0196e675e523000f"
-  },
-  {
-    "venue_name": "Youkobo Art Space",
-    "venue_slug": "youkobo_art_space",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.youkobo.co.jp/en/"
+    "source": "https://www.clavis-publishing.com/submit"
   },
   {
     "venue_name": "ARTIST GUILD",
@@ -1940,6 +1940,18 @@
     "source": "http://www.syartmuseum.com/english/"
   },
   {
+    "venue_name": "Boji Hair+Gallery",
+    "venue_slug": "boji_hair_gallery",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.boji-hair.com/"
+  },
+  {
     "venue_name": "出光興産株式会社, Idemitsu Art Award事務局",
     "venue_slug": "idemitsu_art_award",
     "priority": "medium",
@@ -1961,29 +1973,6 @@
     "source": "https://www.vogue.com/photovogue"
   },
   {
-    "venue_name": "Boji Hair+Gallery",
-    "venue_slug": "boji_hair_gallery",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.boji-hair.com/"
-  },
-  {
-    "venue_name": "Fingertips Company Limited",
-    "venue_slug": "fingertips_company_limited",
-    "priority": "medium",
-    "missing": [
-      "contact",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://compe.japandesign.ne.jp/category/art"
-  },
-  {
     "venue_name": "» 21 Terrific Small Presses Open to Direct Submissions",
     "venue_slug": "21_terrific_small_presses_open_to_direct_submissions",
     "priority": "high",
@@ -1994,18 +1983,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions/"
-  },
-  {
-    "venue_name": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
-    "venue_slug": "35_small_publishers_accepting_submissions_in_2026_complete_guide",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.adeptghostwriting.com/blog/small-publishers-accepting-submissions/"
   },
   {
     "venue_name": "Japan Book Publishers Association - JBPA",
@@ -2021,53 +1998,25 @@
     "source": "https://www.jbpa.or.jp/en/index.html"
   },
   {
-    "venue_name": "Mochi Career System",
-    "venue_slug": "mochi_career_system",
-    "priority": "high",
+    "venue_name": "Fingertips Company Limited",
+    "venue_slug": "fingertips_company_limited",
+    "priority": "medium",
     "missing": [
       "contact",
-      "deadline",
-      "official/source website",
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": ""
+    "source": "https://compe.japandesign.ne.jp/category/art"
   },
   {
-    "venue_name": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
-    "venue_slug": "open_calls_air_j_air_j_online_database_of_artist_in_residence",
+    "venue_name": "水彩アートのみ展示イベント",
+    "venue_slug": "unknown",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://air-j.info/en/program/"
-  },
-  {
-    "venue_name": "3 Top Book Publishers in Tokyo in 2026",
-    "venue_slug": "3_top_book_publishers_in_tokyo_in_2026",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://reedsy.com/resources/publishers/jp/tokyo/"
-  },
-  {
-    "venue_name": "3 Top Book Publishers in Japan in 2026",
-    "venue_slug": "3_top_book_publishers_in_japan_in_2026",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://reedsy.com/resources/publishers/jp/"
+    "source": "https://www.instagram.com/p/DP-smVMD2LE"
   },
   {
     "venue_name": "ART.NUMBER23",
@@ -2081,24 +2030,27 @@
     "source": "https://www.instagram.com/reel/DKq5NLGIpiy"
   },
   {
-    "venue_name": "水彩アートのみ展示イベント",
-    "venue_slug": "unknown",
-    "priority": "medium",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.instagram.com/p/DP-smVMD2LE"
-  },
-  {
-    "venue_name": "AIR_J Open Calls",
-    "venue_slug": "air_j_open_calls",
+    "venue_name": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
+    "venue_slug": "open_calls_air_j_air_j_online_database_of_artist_in_residence",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://air-j.info/en/program/"
+  },
+  {
+    "venue_name": "Mochi Career System",
+    "venue_slug": "mochi_career_system",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "official/source website",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": ""
   },
   {
     "venue_name": "Sunny Boy Books",
@@ -2147,24 +2099,52 @@
     "source": "https://www.instagram.com/p/DUHzA7BEVp6"
   },
   {
-    "venue_name": "National Watercolor Society (NWS)",
-    "venue_slug": "national_watercolor_society_nws",
+    "venue_name": "3 Top Book Publishers in Tokyo in 2026",
+    "venue_slug": "3_top_book_publishers_in_tokyo_in_2026",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://reedsy.com/resources/publishers/jp/tokyo/"
+  },
+  {
+    "venue_name": "3 Top Book Publishers in Japan in 2026",
+    "venue_slug": "3_top_book_publishers_in_japan_in_2026",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://reedsy.com/resources/publishers/jp/"
+  },
+  {
+    "venue_name": "AIR_J Open Calls",
+    "venue_slug": "air_j_open_calls",
     "priority": "medium",
     "missing": [
       "contact"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://nationalwatercolorsociety.org/exhibits"
+    "source": "https://air-j.info/en/program/"
   },
   {
-    "venue_name": "SCCP Guest Artist",
-    "venue_slug": "sccp_guest_artist",
-    "priority": "medium",
+    "venue_name": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
+    "venue_slug": "35_small_publishers_accepting_submissions_in_2026_complete_guide",
+    "priority": "high",
     "missing": [
-      "fees"
+      "contact",
+      "fees",
+      "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.sccp.jp/air-en/application/guest-artist/"
+    "source": "https://www.adeptghostwriting.com/blog/small-publishers-accepting-submissions/"
   },
   {
     "venue_name": "loneliness books",
@@ -2192,29 +2172,14 @@
     "source": "https://www.instagram.com/digaholezines/"
   },
   {
-    "venue_name": "ZINE FARM TOKYO",
-    "venue_slug": "zine_farm_tokyo",
-    "priority": "high",
+    "venue_name": "SCCP Guest Artist",
+    "venue_slug": "sccp_guest_artist",
+    "priority": "medium",
     "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "submission process"
+      "fees"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.instagram.com/zinefarmtokyo/"
-  },
-  {
-    "venue_name": "2026 Kyoto Museum International Art Grand Exhibition",
-    "venue_slug": "2026_kyoto_museum_international_art_grand_exhibition",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.ociyac.com"
+    "source": "https://www.sccp.jp/air-en/application/guest-artist/"
   },
   {
     "venue_name": "Clouds Art + Coffee",
@@ -2235,6 +2200,19 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://www.facebook.com/TaipeiRepOffice.in.sg/posts/-%F0%9D%97%A5%F0%9D%97%AE%F0%9D%98%84%F0%9D%97%9A%F0%9D%97%BF%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BB%F0%9D%97%B1-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AE%F0%9D%9F%B2-%F0%9D%97%99%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B4%F0%9D%97%AE%F0%9D%98%80-%F0%9D%97%A1%F0%9D%97%AE%F0%9D%98%86%F0%9D%97%AE%F0%9D%98%84%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%B7%A8%E8%97%9D%E8%A1%93%E7%AF%80-rawground-2026-%E9%82%80%E8%AB%8B%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E8%97%9D%E8%A1%93%E5%AE%B6-fangas-nayaw-%E5%8F%83%E8%88%87%E5%AF%A6%E9%AB%94%E5%B1%95/1228835189404233"
+  },
+  {
+    "venue_name": "ZINE FARM TOKYO",
+    "venue_slug": "zine_farm_tokyo",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.instagram.com/zinefarmtokyo/"
   },
   {
     "venue_name": "「公募－日本の絵画2026－」",
@@ -2269,8 +2247,18 @@
     "source": "https://compe.japandesign.ne.jp/category/art"
   },
   {
-    "venue_name": "上野之森美術館",
-    "venue_slug": "unknown",
+    "venue_name": "National Watercolor Society (NWS)",
+    "venue_slug": "national_watercolor_society_nws",
+    "priority": "medium",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://nationalwatercolorsociety.org/exhibits"
+  },
+  {
+    "venue_name": "2026 Kyoto Museum International Art Grand Exhibition",
+    "venue_slug": "2026_kyoto_museum_international_art_grand_exhibition",
     "priority": "high",
     "missing": [
       "contact",
@@ -2278,7 +2266,7 @@
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.instagram.com/p/DThccPLEtYs"
+    "source": "https://www.ociyac.com"
   },
   {
     "venue_name": "Kyoto Art Center Residency",
@@ -2290,18 +2278,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://kiac.jp/en/article/2927/"
-  },
-  {
-    "venue_name": "滋賀県愛荘町絵画展",
-    "venue_slug": "unknown",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://koubo.yumegazai.com"
   },
   {
     "venue_name": "kamome tokyo",
@@ -2326,17 +2302,28 @@
     "source": "https://www.facebook.com/sgp.artist/posts/-5th-singapore-chinese-art-exhibition-2026-we-are-proud-to-present-the-5th-singa/1300735248755398"
   },
   {
-    "venue_name": "Muninova Artist Award",
-    "venue_slug": "muninova_artist_award",
+    "venue_name": "上野之森美術館",
+    "venue_slug": "unknown",
     "priority": "high",
     "missing": [
       "contact",
-      "deadline",
       "fees",
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://note.com/hashtag/%E5%85%AC%E5%8B%9F%E5%B1%95"
+    "source": "https://www.instagram.com/p/DThccPLEtYs"
+  },
+  {
+    "venue_name": "滋賀県愛荘町絵画展",
+    "venue_slug": "unknown",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://koubo.yumegazai.com"
   },
   {
     "venue_name": "旺玄会",
@@ -2350,6 +2337,18 @@
     "source": "https://x.com/artkoubo"
   },
   {
+    "venue_name": "上野之森美術館 (Ueno Forest Museum)",
+    "venue_slug": "ueno_forest_museum",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://www.instagram.com/p/DThccPLEtYs"
+  },
+  {
     "venue_name": "南京插画艺术家展览 2026年3月",
     "venue_slug": "2026_3",
     "priority": "medium",
@@ -2361,8 +2360,8 @@
     "source": "https://www.instagram.com/p/DTKU_w0EThh"
   },
   {
-    "venue_name": "上野之森美術館 (Ueno Forest Museum)",
-    "venue_slug": "ueno_forest_museum",
+    "venue_name": "Pastel Society Open Exhibition",
+    "venue_slug": "pastel_society_open_exhibition",
     "priority": "high",
     "missing": [
       "contact",
@@ -2370,7 +2369,46 @@
       "submission process"
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.instagram.com/p/DThccPLEtYs"
+    "source": "https://www.mallgalleries.org.uk/open-exhibitions"
+  },
+  {
+    "venue_name": "Muninova Artist Award",
+    "venue_slug": "muninova_artist_award",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://note.com/hashtag/%E5%85%AC%E5%8B%9F%E5%B1%95"
+  },
+  {
+    "venue_name": "NEW AIR",
+    "venue_slug": "new_air",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "fees",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
+  },
+  {
+    "venue_name": "twelvebooks",
+    "venue_slug": "twelvebooks",
+    "priority": "high",
+    "missing": [
+      "contact",
+      "deadline",
+      "fees",
+      "official/source website",
+      "submission process"
+    ],
+    "recommended_action": "Research venue website or send inquiry draft.",
+    "source": ""
   },
   {
     "venue_name": "International art exchange platform",
@@ -2408,44 +2446,6 @@
     ],
     "recommended_action": "Research venue website or send inquiry draft.",
     "source": "https://resartis.org/open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-mt-fuji/"
-  },
-  {
-    "venue_name": "twelvebooks",
-    "venue_slug": "twelvebooks",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "deadline",
-      "fees",
-      "official/source website",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": ""
-  },
-  {
-    "venue_name": "Pastel Society Open Exhibition",
-    "venue_slug": "pastel_society_open_exhibition",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://www.mallgalleries.org.uk/open-exhibitions"
-  },
-  {
-    "venue_name": "NEW AIR",
-    "venue_slug": "new_air",
-    "priority": "high",
-    "missing": [
-      "contact",
-      "fees",
-      "submission process"
-    ],
-    "recommended_action": "Research venue website or send inquiry draft.",
-    "source": "https://artcenter-new.jp/en/event/new-air-2026-opencall/"
   },
   {
     "venue_name": "Asian Cultural Council",

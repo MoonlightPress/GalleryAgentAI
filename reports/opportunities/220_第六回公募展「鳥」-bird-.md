@@ -1,7 +1,7 @@
 # 第六回公募展「鳥」-bird-
 
 ## 1. Quick Judgment
-**Fit score:** 6.5/10  
+**Fit score:** 6.2/10  
 **Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Galleries / Exhibition Calls  
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

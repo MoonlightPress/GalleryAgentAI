@@ -31,6 +31,7 @@ This report adjusts scores based on the original/native medium of the opportunit
 - **Yonchome Cafe** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **MICRO/MACRO** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Koganecho Area Management Center** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Tokyo Gendai 2026** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Shimokitazawa Arts** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Center for Book Arts Opportunities** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **SUBMISSIONS - marblepress.com** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
@@ -52,6 +53,8 @@ This report adjusts scores based on the original/native medium of the opportunit
 - **POST** — 9.54 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **3331 Arts Chiyoda** — 9.51 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Gallery 191 Exhibition 2026** — 9.37 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Art Vancouver 2026** — 7.9 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **ART SG 2026** — 7.78 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **B&B Shimokitazawa** — 6.4 → 6.75 — native: mixed — translation: True — mixed medium / possible translation
 - **flotsam books** — 6.4 → 6.75 — native: mixed — translation: True — mixed medium / possible translation
 - **The Artcomplex Center of Tokyo** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
@@ -66,41 +69,38 @@ This report adjusts scores based on the original/native medium of the opportunit
 - **219公募展6募集 >> Gallery219 ギャラリーニイク** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **公募プログラム - トーキョーアーツアンドスペース** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **KAMIHANGA国際プリント展2026** — 9.83 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)** — 9.76 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **Kyoto Retreat Artist Residency 2026 - Open Call** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **TAV Gallery** — 9.82 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **2026 ART CAPITAL Paris Grand Palais International Youth Academic Award** — 9.52 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **ギャラリー自由展示** — 9.29 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **2026春季二科展「NIKA nika/S20号」コンクール** — 9.84 → 10 — native: painting — translation: False — native painting/works-on-paper boost
 - **PARK GALLERY 夏の公募企画展（3テーマ）** — 9.29 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **KAMIHANGA国際プリント展2026** — 9.23 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Hayama Artist Residency Submission Manager - Submittable** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...** — 9.01 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **2026 松濤美術館公募展｜渋谷区立松濤美術館** — 9.01 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Aperture | Photography** — 10.0 → 7.2 — native: photography — translation: True — photography source capped as translation candidate
-- **AAA Gallery Yokohama** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **臺南市美術館 2026「TAM+展覽計畫」** — 8.47 → 8.82 — native: mixed — translation: True — mixed medium / possible translation
 - **Applied Arts 2026 Illustration Awards** — 7.48 → 8.18 — native: painting — translation: False — native painting/works-on-paper boost
+- **AAA Gallery Yokohama** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **第23届「跨越国界之美2026」国际公募展** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Kyoto Retreat Artist Residency 2026 - Open Call** — 9.1 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Hayama Artist Residency Submission Manager - Submittable** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Tokyo Wonder Site / TOKAS Residency** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 9.6 → 10 — native: painting — translation: False — native painting/works-on-paper boost
-- **2026 Chinese New Year Celebration Art Show** — 9.96 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **第29回 アート未来展** — 8.91 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Nantoka Bar Koenji** — 9.02 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **2026 Chinese New Year Celebration Art Show** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Open Call for the International Creator Residency Program 2026** — 9.88 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **ART BOX Publishing** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **New Power展 | ギャラリー自由が丘で作家デビュー** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Call for Entry: Showcase your art in Tokyo, Japan** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **金风车插画大赛2026** — 9.32 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **ART BOX Publishing** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Brillia Art Award Wall 2026** — 9.22 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **金风车插画大赛2026** — 9.32 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **LOCAL Gallery・Books** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Tacoche** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Books Ruhe** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **tata bookshop/gallery** — 9.93 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **Koenji SANAGI** — 8.43 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Royal Watercolour Society Open Exhibition** — 9.71 → 10 — native: painting — translation: False — native painting/works-on-paper boost
-- **Aoyama Farmers Market** — 8.37 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW** — 8.28 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Art Fair Tokyo 2026** — 9.7 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Creative Space Hayashi** — 8.61 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **Brillia Art Award Wall 2026** — 9.67 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **Koenji SANAGI** — 8.53 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Aoyama Farmers Market** — 8.47 → 7.0 — native: unknown — translation: False — unknown native medium capped

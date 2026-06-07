@@ -1,7 +1,7 @@
 # Cafe Gallery HATTIFNATT
 
 ## 1. Quick Judgment
-**Fit score:** 7.5/10  
+**Fit score:** 7.7/10  
 **Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  
@@ -47,4 +47,4 @@ Archive this unless you're specifically seeking very low-stakes local exhibition
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

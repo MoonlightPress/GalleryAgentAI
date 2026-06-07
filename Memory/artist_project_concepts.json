@@ -528,15 +528,6 @@
         "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
-        "title": "AAA Gallery Yokohama",
-        "score": 9.1,
-        "differentiated_score": 10.54,
-        "hits": [
-          "open call"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
         "title": "Browse opportunities | CuratorSpace",
         "score": 8.6,
         "differentiated_score": 10.49,
@@ -544,6 +535,15 @@
           "open call"
         ],
         "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
+      },
+      {
+        "title": "AAA Gallery Yokohama",
+        "score": 9.0,
+        "differentiated_score": 10.44,
+        "hits": [
+          "open call"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
         "title": "Gallery IYN",

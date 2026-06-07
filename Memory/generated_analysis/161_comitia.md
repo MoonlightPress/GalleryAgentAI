@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-07
 # Comitia
 
 ## 1. Quick Judgment
-**Fit score:** 7.7/10  
+**Fit score:** 7.8/10  
 **Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  

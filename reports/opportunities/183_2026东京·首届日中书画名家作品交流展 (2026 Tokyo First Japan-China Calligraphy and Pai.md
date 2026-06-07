@@ -1,7 +1,7 @@
 # 2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)
 
 ## 1. Quick Judgment
-**Fit score:** 6.7/10  
+**Fit score:** 6.6/10  
 **Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Institutional / Grants  
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

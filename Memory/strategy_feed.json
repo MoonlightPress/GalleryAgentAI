@@ -21,6 +21,26 @@
       "image": ""
     },
     {
+      "title": "Art Vancouver 2026",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Vancouver",
+      "image": ""
+    },
+    {
+      "title": "Tokyo Gendai 2026",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
       "title": "Center for Book Arts Opportunities",
       "bucket": "general",
       "score": 9.4,
@@ -28,6 +48,16 @@
       "reason": "Potentially useful depending on current strategic goals.",
       "category": "Global Book Arts",
       "city": "New York",
+      "image": ""
+    },
+    {
+      "title": "ART SG 2026",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Singapore",
       "image": ""
     },
     {
@@ -89,36 +119,6 @@
       "category": "Global Open Call",
       "city": "York / Online",
       "image": ""
-    },
-    {
-      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Zine Fair Booth",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Still Life - 2026",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Global Open Call",
-      "city": "International",
-      "image": ""
-    },
-    {
-      "title": "Koganecho Area Management Center",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
-      "image": ""
     }
   ],
   "easy_wins": [
@@ -140,6 +140,36 @@
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Print / Zines / Bookstores",
       "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Art Vancouver 2026",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Vancouver",
+      "image": ""
+    },
+    {
+      "title": "Tokyo Gendai 2026",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "ART SG 2026",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Markets / Popups / Booths",
+      "city": "Singapore",
       "image": ""
     },
     {
@@ -211,36 +241,6 @@
       "category": "Global Open Call",
       "city": "International",
       "image": ""
-    },
-    {
-      "title": "Koganecho Area Management Center",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Artist Spaces",
-      "city": "Yokohama",
-      "image": ""
-    },
-    {
-      "title": "DESIGN FESTA GALLERY",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Galleries / Exhibition Calls",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Spiral",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Galleries / Exhibition Calls",
-      "city": "Tokyo",
-      "image": ""
     }
   ],
   "career_changing": [
@@ -283,6 +283,16 @@
       "category": "Global Art Book Fair",
       "city": "New York / Los Angeles",
       "image": ""
+    },
+    {
+      "title": "American Watercolor Society Annual International Exhibition",
+      "bucket": "career_changing",
+      "score": 7.0,
+      "confidence": "Medium",
+      "reason": "High-prestige opportunity with strong long-term impact.",
+      "category": "Global Watercolor Open Call",
+      "city": "New York",
+      "image": ""
     }
   ],
   "portfolio_builders": [
@@ -299,7 +309,7 @@
     {
       "title": "NADiff a/p/a/r/t",
       "bucket": "portfolio_builder",
-      "score": 7.5,
+      "score": 7.4,
       "confidence": "High",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -309,7 +319,7 @@
     {
       "title": "そぞろ書房",
       "bucket": "portfolio_builder",
-      "score": 6.4,
+      "score": 6.1,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -319,7 +329,7 @@
     {
       "title": "Book Culture Club",
       "bucket": "portfolio_builder",
-      "score": 6.0,
+      "score": 5.8,
       "confidence": "Low",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -329,7 +339,7 @@
     {
       "title": "Zines / Artist Books — Battle Plan",
       "bucket": "portfolio_builder",
-      "score": 5.4,
+      "score": 5.0,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -339,7 +349,7 @@
     {
       "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
       "bucket": "portfolio_builder",
-      "score": 5.1,
+      "score": 4.6,
       "confidence": "High",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -349,17 +359,7 @@
     {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
       "bucket": "portfolio_builder",
-      "score": 4.3,
-      "confidence": "Medium",
-      "reason": "Good opportunity for publication history and portfolio depth.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Online",
-      "image": ""
-    },
-    {
-      "title": "Top Artist Opportunities for 2026 | ArtConnect",
-      "bucket": "portfolio_builder",
-      "score": 3.5,
+      "score": 3.9,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -374,6 +374,16 @@
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
       "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Top Artist Opportunities for 2026 | ArtConnect",
+      "bucket": "portfolio_builder",
+      "score": 3.2,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
       "image": ""
     },
     {
@@ -399,7 +409,7 @@
     {
       "title": "ZINE FARM TOKYO",
       "bucket": "portfolio_builder",
-      "score": 3.0,
+      "score": 2.7,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -419,7 +429,17 @@
       "image": ""
     },
     {
-      "title": "Fukuoka Art Book Fair",
+      "title": "ZINEイベント",
+      "bucket": "community_builder",
+      "score": 7.9,
+      "confidence": "Medium",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
+      "title": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
       "bucket": "community_builder",
       "score": 7.6,
       "confidence": "High",
@@ -429,9 +449,19 @@
       "image": ""
     },
     {
+      "title": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
+      "bucket": "community_builder",
+      "score": 7.5,
+      "confidence": "Medium",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Vancouver",
+      "image": ""
+    },
+    {
       "title": "reload Shimokitazawa",
       "bucket": "community_builder",
-      "score": 7.4,
+      "score": 7.3,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -439,9 +469,19 @@
       "image": ""
     },
     {
-      "title": "HandMade In Japan Fes",
+      "title": "Fukuoka Art Book Fair",
       "bucket": "community_builder",
-      "score": 7.3,
+      "score": 7.2,
+      "confidence": "High",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
+      "title": "Comitia",
+      "bucket": "community_builder",
+      "score": 7.2,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -449,9 +489,9 @@
       "image": ""
     },
     {
-      "title": "Comitia",
+      "title": "HandMade In Japan Fes",
       "bucket": "community_builder",
-      "score": 7.3,
+      "score": 7.1,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -461,7 +501,7 @@
     {
       "title": "Cafe Gallery HATTIFNATT",
       "bucket": "community_builder",
-      "score": 7.2,
+      "score": 7.1,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
@@ -469,9 +509,19 @@
       "image": ""
     },
     {
+      "title": "Design Festa",
+      "bucket": "community_builder",
+      "score": 6.8,
+      "confidence": "High",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
       "title": "Zine & Book フェス in 神保町 (Jimbocho)",
       "bucket": "community_builder",
-      "score": 7.0,
+      "score": 6.6,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -479,57 +529,28 @@
       "image": ""
     },
     {
-      "title": "Design Festa",
+      "title": "SICF Fukuoka 2026",
       "bucket": "community_builder",
-      "score": 7.0,
+      "score": 5.6,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Art Vancouver 2026",
-      "bucket": "community_builder",
-      "score": 6.8,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Vancouver",
-      "image": ""
-    },
-    {
-      "title": "ART SG 2026",
-      "bucket": "community_builder",
-      "score": 6.8,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Singapore",
-      "image": ""
-    },
-    {
-      "title": "Tokyo Gendai 2026",
-      "bucket": "community_builder",
-      "score": 6.8,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
-      "bucket": "community_builder",
-      "score": 6.2,
-      "confidence": "Medium",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Vancouver",
+      "city": "Fukuoka",
       "image": ""
     }
   ],
   "global_targets": [
+    {
+      "title": "Art Vancouver 2026",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Markets / Popups / Booths",
+      "city": "Vancouver",
+      "country": "Canada",
+      "image": ""
+    },
     {
       "title": "Center for Book Arts Opportunities",
       "bucket": "global_targets",
@@ -539,6 +560,17 @@
       "category": "Global Book Arts",
       "city": "New York",
       "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "ART SG 2026",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Markets / Popups / Booths",
+      "city": "Singapore",
+      "country": "Singapore",
       "image": ""
     },
     {
@@ -698,34 +730,12 @@
     {
       "title": "KAMIHANGA国際プリント展2026",
       "bucket": "global_targets",
-      "score": 9.3,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Global Open Call",
       "city": "International",
       "country": "International",
-      "image": ""
-    },
-    {
-      "title": "Bologna Children's Book Fair Illustrators Exhibition",
-      "bucket": "global_targets",
-      "score": 9.1,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "Pinpoint Gallery",
-      "bucket": "global_targets",
-      "score": 9.1,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Tokyo",
       "image": ""
     }
   ],

@@ -1,7 +1,7 @@
 # 2026「OPEN World Exhibition」
 
 ## 1. Quick Judgment
-**Fit score:** 2.2/10  
+**Fit score:** 2.0/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Institutional / Grants  

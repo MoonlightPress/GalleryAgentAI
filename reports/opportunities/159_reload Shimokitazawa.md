@@ -1,8 +1,8 @@
 # reload Shimokitazawa
 
 ## 1. Quick Judgment
-**Fit score:** 8.0/10  
-**Fit band:** Excellent fit  
+**Fit score:** 7.9/10  
+**Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Shimokitazawa  

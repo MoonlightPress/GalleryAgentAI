@@ -1,7 +1,7 @@
 # Open Call For Artists
 
 ## 1. Quick Judgment
-**Fit score:** 9.4/10  
+**Fit score:** 9.3/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Galleries / Exhibition Calls  

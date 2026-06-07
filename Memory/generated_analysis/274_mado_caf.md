@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-08
 
 # MADO Café
 
 ## 1. Quick Judgment
-**Fit score:** 3.8/10  
+**Fit score:** 3.2/10  
 **Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  
@@ -50,5 +50,5 @@ Check Instagram activity to confirm still operating; assess typical exhibition q
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_
 

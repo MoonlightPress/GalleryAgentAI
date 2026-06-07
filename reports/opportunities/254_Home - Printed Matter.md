@@ -1,7 +1,7 @@
 # Home - Printed Matter
 
 ## 1. Quick Judgment
-**Fit score:** 3.7/10  
+**Fit score:** 3.6/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Global Photobook  
@@ -47,4 +47,4 @@ Open source, verify current opportunities, submission process, fees, deadline, a
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

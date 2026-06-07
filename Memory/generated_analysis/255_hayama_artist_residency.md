@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-07
 # Hayama Artist Residency
 
 ## 1. Quick Judgment
-**Fit score:** 5.2/10  
+**Fit score:** 4.3/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  

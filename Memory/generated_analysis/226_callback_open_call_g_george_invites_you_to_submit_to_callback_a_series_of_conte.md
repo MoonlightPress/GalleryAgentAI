@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-07
 # Callback Open Call G George invites you to submit to Callback, a series of contemporary ar
 
 ## 1. Quick Judgment
-**Fit score:** 6.9/10  
+**Fit score:** 6.5/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Photo Open Call  

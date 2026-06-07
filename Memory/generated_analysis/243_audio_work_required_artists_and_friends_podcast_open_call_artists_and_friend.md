@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-07
 # Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod
 
 ## 1. Quick Judgment
-**Fit score:** 5.8/10  
+**Fit score:** 5.7/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Photo Open Call  

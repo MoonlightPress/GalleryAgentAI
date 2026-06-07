@@ -1,7 +1,7 @@
 # Mall Galleries Open Exhibitions
 
 ## 1. Quick Judgment
-**Fit score:** 6.7/10  
+**Fit score:** 6.4/10  
 **Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Other  
@@ -25,7 +25,7 @@ Verified: Official/source website, Deadline. Needs checking: Submission process,
 Mall Galleries Open Exhibitions is a open exhibition source in UK for watercolor / works on paper research.
 
 ## 5. Existing Fit Notes
-Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
+Open exhibition context for painting, drawing, or works on paper. Good candidate for direct verification.
 
 ## 6. Key Points
 - No bullet analysis stored yet.
@@ -45,4 +45,4 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_

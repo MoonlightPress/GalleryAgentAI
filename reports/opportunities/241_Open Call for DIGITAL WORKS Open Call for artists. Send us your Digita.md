@@ -1,7 +1,7 @@
 # Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou
 
 ## 1. Quick Judgment
-**Fit score:** 6.1/10  
+**Fit score:** 5.6/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Photo Open Call  
@@ -47,4 +47,4 @@ Open and verify whether this is current and relevant.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

@@ -52,7 +52,7 @@
     "category": "photo_open_call",
     "city": "Online",
     "country": "Global",
-    "overall_score": 7.65,
+    "overall_score": 8.1,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "medium",
@@ -64,20 +64,21 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, book fair, exhibition, place, painting, open exhibition",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, exhibition, architecture, place, drawing, painting, illustration, open exhibition",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: open call, submission, book fair, exhibition, place, painting, open exhibition"
+      "Keyword hits: open call, exhibition, architecture, place, drawing, painting, illustration, open exhibition"
     ],
     "fit_keyword_hits": [
       "open call",
-      "submission",
-      "book fair",
       "exhibition",
+      "architecture",
       "place",
+      "drawing",
       "painting",
+      "illustration",
       "open exhibition"
     ],
     "reject_keyword_hits": [],
@@ -95,7 +96,7 @@
     "category": "zine_print",
     "city": "Online",
     "country": "Global",
-    "overall_score": 6.75,
+    "overall_score": 7.65,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "medium",
@@ -107,19 +108,21 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from ArtConnect Open Calls. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition, drawing, painting",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: zine, open call, submission, residency, exhibition"
+      "Keyword hits: zine, open call, submission, residency, exhibition, drawing, painting"
     ],
     "fit_keyword_hits": [
       "zine",
       "open call",
       "submission",
       "residency",
-      "exhibition"
+      "exhibition",
+      "drawing",
+      "painting"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -458,6 +461,43 @@
     "fit_keyword_hits": [
       "place",
       "watercolour"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus",
+    "organization": "CuratorSpace",
+    "category": "residency",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: residency, artist-run",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: residency, artist-run"
+    ],
+    "fit_keyword_hits": [
+      "residency",
+      "artist-run"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3318,7 +3358,151 @@
     ]
   },
   {
-    "title": "khoj international residency august-september 2026",
+    "title": "Open Call",
+    "organization": "ArtConnect Open Calls",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
+    "official_website": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
+    "submission_page": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: open call",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: open call"
+    ],
+    "fit_keyword_hits": [
+      "open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "open call to artists of haitian descent",
+    "organization": "ArtConnect Open Calls",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunity/UVb2gWNaJmmQYBhgMXHnj",
+    "official_website": "https://www.artconnect.com/opportunity/UVb2gWNaJmmQYBhgMXHnj",
+    "submission_page": "https://www.artconnect.com/opportunity/UVb2gWNaJmmQYBhgMXHnj",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: open call",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: open call"
+    ],
+    "fit_keyword_hits": [
+      "open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "contemporary british painting prize",
+    "organization": "ArtConnect Open Calls",
+    "category": "open_call_index",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunity/i8iL78d9FiQeTU75Abeaf",
+    "official_website": "https://www.artconnect.com/opportunity/i8iL78d9FiQeTU75Abeaf",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: painting",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: painting"
+    ],
+    "fit_keyword_hits": [
+      "painting"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "trinity buoy wharf drawing prize",
+    "organization": "ArtConnect Open Calls",
+    "category": "open_call_index",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunity/nhx6YlKXS_bEd4TOdIPpv",
+    "official_website": "https://www.artconnect.com/opportunity/nhx6YlKXS_bEd4TOdIPpv",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: drawing",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: drawing"
+    ],
+    "fit_keyword_hits": [
+      "drawing"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "teaching residency",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
@@ -3329,8 +3513,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/uSUAiJABpPinH9qAUpklP",
-    "official_website": "https://www.artconnect.com/opportunity/uSUAiJABpPinH9qAUpklP",
+    "source_url": "https://www.artconnect.com/opportunity/rr6Z3VezxNtg-32AgWIDV",
+    "official_website": "https://www.artconnect.com/opportunity/rr6Z3VezxNtg-32AgWIDV",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3380,78 +3564,6 @@
     ],
     "fit_keyword_hits": [
       "residency"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Open Call",
-    "organization": "ArtConnect Open Calls",
-    "category": "photo_open_call",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
-    "official_website": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
-    "submission_page": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: open call",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: open call"
-    ],
-    "fit_keyword_hits": [
-      "open call"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "submissions for the 2026 set film festival are now open",
-    "organization": "ArtConnect Open Calls",
-    "category": "open_call_index",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K",
-    "official_website": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K",
-    "submission_page": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: submission",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: submission"
-    ],
-    "fit_keyword_hits": [
-      "submission"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3524,222 +3636,6 @@
     ],
     "fit_keyword_hits": [
       "submission"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "www.curatorspace.com",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-international-photography-exhibition-seeing-red/10500",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-international-photography-exhibition-seeing-red/10500",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-international-photography-exhibition-seeing-red/10500",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Report this?",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-call-international-photography-exhibition-seeing-red%2F10500&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-call-international-photography-exhibition-seeing-red%2F10500&redirect=%2Fopportunities",
-    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-call-international-photography-exhibition-seeing-red%2F10500&redirect=%2Fopportunities",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "www.curatorspace.com",
-    "organization": "CuratorSpace",
-    "category": "open_call_index",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/artist-callout-beam-me-up-this-place-kinda-sucks/10666",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/artist-callout-beam-me-up-this-place-kinda-sucks/10666",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: place",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: place"
-    ],
-    "fit_keyword_hits": [
-      "place"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Report this?",
-    "organization": "CuratorSpace",
-    "category": "open_call_index",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fartist-callout-beam-me-up-this-place-kinda-sucks%2F10666&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fartist-callout-beam-me-up-this-place-kinda-sucks%2F10666&redirect=%2Fopportunities",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: place",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: place"
-    ],
-    "fit_keyword_hits": [
-      "place"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "www.curatorspace.com",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/meet-the-locals-exhibition--modulart-open-call/10688",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/meet-the-locals-exhibition--modulart-open-call/10688",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/meet-the-locals-exhibition--modulart-open-call/10688",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Report this?",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fmeet-the-locals-exhibition--modulart-open-call%2F10688&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fmeet-the-locals-exhibition--modulart-open-call%2F10688&redirect=%2Fopportunities",
-    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fmeet-the-locals-exhibition--modulart-open-call%2F10688&redirect=%2Fopportunities",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3930,7 +3826,7 @@
     ]
   },
   {
-    "title": "The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e",
+    "title": "www.curatorspace.com",
     "organization": "CuratorSpace",
     "category": "gallery_event",
     "city": "Online",
@@ -3941,8 +3837,80 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/summer-open-exhibition--open-call/10407",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/summer-open-exhibition--open-call/10407",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/summer-open-exhibition--open-call/10407",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Report this?",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fsummer-open-exhibition--open-call%2F10407&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fsummer-open-exhibition--open-call%2F10407&redirect=%2Fopportunities",
+    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fsummer-open-exhibition--open-call%2F10407&redirect=%2Fopportunities",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "www.curatorspace.com",
+    "organization": "CuratorSpace",
+    "category": "art_book_fair",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/open-exhibition-wythnos-gelf-llanfairfechan-art-week/10591",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/open-exhibition-wythnos-gelf-llanfairfechan-art-week/10591",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3966,9 +3934,9 @@
     ]
   },
   {
-    "title": "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S",
+    "title": "Report this?",
     "organization": "CuratorSpace",
-    "category": "photo_open_call",
+    "category": "art_book_fair",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -3977,44 +3945,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/the-light-frame-gallery/9757",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/the-light-frame-gallery/9757",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/the-light-frame-gallery/9757",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: open call",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: open call"
-    ],
-    "fit_keyword_hits": [
-      "open call"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-exhibition-wythnos-gelf-llanfairfechan-art-week%2F10591&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-exhibition-wythnos-gelf-llanfairfechan-art-week%2F10591&redirect=%2Fopportunities",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4028,6 +3960,42 @@
     ],
     "fit_keyword_hits": [
       "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever",
+    "organization": "CuratorSpace",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: zine",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: zine"
+    ],
+    "fit_keyword_hits": [
+      "zine"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,

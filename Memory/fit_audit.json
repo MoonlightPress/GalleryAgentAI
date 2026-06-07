@@ -361,22 +361,6 @@
     "country": "Tokyo"
   },
   {
-    "title": "AAA Gallery Yokohama",
-    "score": 9.1,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission"
-    ],
-    "category": "Other",
-    "city": null,
-    "country": "Yokohama"
-  },
-  {
     "title": "本店・本屋の実験室",
     "score": 8.8,
     "confidence_grade": "needs review",
@@ -409,6 +393,22 @@
     "category": "Print / Zines / Bookstores",
     "city": "Online",
     "country": "Global"
+  },
+  {
+    "title": "AAA Gallery Yokohama",
+    "score": 9.0,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Yokohama"
   },
   {
     "title": "HATTIFNATT Koenji Cafe Gallery",
@@ -473,6 +473,19 @@
     "category": "Zine Shop Consignment",
     "city": "Japan (online)",
     "country": "Japan"
+  },
+  {
+    "title": "ART SG 2026",
+    "score": 9.4,
+    "confidence_grade": "possibly inflated",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons"
+    ],
+    "missing_fields": [],
+    "category": "Markets / Popups / Booths",
+    "city": "Singapore",
+    "country": "Singapore"
   },
   {
     "title": "桜をテーマとするイラスト・絵画作品募集",
@@ -742,6 +755,32 @@
     "country": "France / UK"
   },
   {
+    "title": "Art Vancouver 2026",
+    "score": 9.4,
+    "confidence_grade": "possibly inflated",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons"
+    ],
+    "missing_fields": [],
+    "category": "Markets / Popups / Booths",
+    "city": "Vancouver",
+    "country": "Canada"
+  },
+  {
+    "title": "Tokyo Gendai 2026",
+    "score": 9.4,
+    "confidence_grade": "possibly inflated",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons"
+    ],
+    "missing_fields": [],
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
     "title": "Yonchome Cafe",
     "score": 9.4,
     "confidence_grade": "possibly inflated",
@@ -883,6 +922,22 @@
     "country": null
   },
   {
+    "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
+    "score": 9.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
     "title": "Village Vanguard Shimokitazawa",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -904,25 +959,6 @@
     "country": "Japan"
   },
   {
-    "title": "ART BOX Publishing",
-    "score": 8.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Book Publishing",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
     "title": "3x3 International Illustration Awards",
     "score": 8.7,
     "confidence_grade": "needs review",
@@ -938,6 +974,22 @@
     "category": "Other",
     "city": null,
     "country": "Global"
+  },
+  {
+    "title": "KAMIHANGA国際プリント展2026",
+    "score": 9.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission"
+    ],
+    "category": "Global Open Call",
+    "city": "International",
+    "country": "International"
   },
   {
     "title": "LOCAL Gallery・Books",
@@ -984,31 +1036,21 @@
     "country": null
   },
   {
-    "title": "KAMIHANGA国際プリント展2026",
-    "score": 9.3,
+    "title": "ART BOX Publishing",
+    "score": 8.3,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
+      "many missing verification fields: submission, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission"
+      "submission",
+      "fees",
+      "contact"
     ],
-    "category": "Global Open Call",
-    "city": "International",
-    "country": "International"
-  },
-  {
-    "title": "Hayama Artist Residency Submission Manager - Submittable",
-    "score": 9.2,
-    "confidence_grade": "possibly inflated",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons"
-    ],
-    "missing_fields": [],
-    "category": "Residencies / Longer Projects",
+    "category": "Book Publishing",
     "city": "Japan / Tokyo / Online",
     "country": null
   },
@@ -1052,6 +1094,19 @@
     "category": "Global Artist Book Platform",
     "city": "London / Online",
     "country": "UK / Global"
+  },
+  {
+    "title": "臺南市美術館 2026「TAM+展覽計畫」",
+    "score": 9.1,
+    "confidence_grade": "possibly inflated",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons"
+    ],
+    "missing_fields": [],
+    "category": "Institutional / Grants",
+    "city": "Tainan",
+    "country": "Taiwan"
   },
   {
     "title": "Book and Sons",
@@ -1108,17 +1163,14 @@
     "country": null
   },
   {
-    "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
+    "title": "Hayama Artist Residency Submission Manager - Submittable",
     "score": 9.0,
-    "confidence_grade": "needs review",
+    "confidence_grade": "possibly inflated",
     "positive_reasons": [],
     "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
+      "high score but few clear supporting reasons"
     ],
-    "missing_fields": [
-      "contact"
-    ],
+    "missing_fields": [],
     "category": "Residencies / Longer Projects",
     "city": "Japan / Tokyo / Online",
     "country": null
@@ -1240,6 +1292,22 @@
     "category": "Global Watercolor Open Call",
     "city": "Online / Seattle",
     "country": "USA"
+  },
+  {
+    "title": "第29回 アート未来展",
+    "score": 8.8,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "deadline"
+    ],
+    "category": "Institutional / Grants",
+    "city": "Tokyo",
+    "country": "Japan"
   },
   {
     "title": "円盤 (Enban) Koenji",
@@ -1501,22 +1569,6 @@
     "country": null
   },
   {
-    "title": "2026 Chinese New Year Celebration Art Show",
-    "score": 8.7,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Toronto",
-    "country": "Canada"
-  },
-  {
     "title": "BankART1929",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -1651,38 +1703,20 @@
     "country": "France"
   },
   {
-    "title": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
-    "score": 8.2,
+    "title": "2026 Chinese New Year Celebration Art Show",
+    "score": 8.6,
     "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.8"
-    ],
+    "positive_reasons": [],
     "risks": [
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "contact"
+      "submission"
     ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "Fukuoka Art Book Fair",
-    "score": 7.6,
-    "confidence_grade": "normal",
-    "positive_reasons": [
-      "aesthetic lineage +1.2"
-    ],
-    "risks": [],
-    "missing_fields": [
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
-    "country": null
+    "category": "Institutional / Grants",
+    "city": "Toronto",
+    "country": "Canada"
   },
   {
     "title": "SCAI The Bathhouse",
@@ -1857,22 +1891,6 @@
     "country": null
   },
   {
-    "title": "Open Call for the International Creator Residency Program 2026",
-    "score": 8.5,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
     "title": "[展覧会]秀彩会小品展2026",
     "score": 8.6,
     "confidence_grade": "needs review",
@@ -1892,21 +1910,8 @@
     "country": "Japan"
   },
   {
-    "title": "NADiff a/p/a/r/t",
-    "score": 7.5,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Brillia Art Award Wall 2026",
-    "score": 8.2,
+    "title": "Open Call for the International Creator Residency Program 2026",
+    "score": 8.4,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -1914,11 +1919,11 @@
       "high score but still needs verification"
     ],
     "missing_fields": [
-      "submission"
+      "contact"
     ],
-    "category": "Institutional / Grants",
-    "city": "Tokyo",
-    "country": "Japan"
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
   },
   {
     "title": "Zushi Art Gallery",
@@ -1979,17 +1984,33 @@
     "country": "USA"
   },
   {
-    "title": "submissions for the 2026 set film festival are now open",
-    "score": 8.3,
-    "confidence_grade": "possibly inflated",
+    "title": "NADiff a/p/a/r/t",
+    "score": 7.4,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "Brillia Art Award Wall 2026",
+    "score": 8.1,
+    "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
-      "high score but few clear supporting reasons"
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
     ],
-    "missing_fields": [],
-    "category": "Open Call Index",
-    "city": "Online",
-    "country": "Global"
+    "missing_fields": [
+      "submission"
+    ],
+    "category": "Institutional / Grants",
+    "city": "Tokyo",
+    "country": "Japan"
   },
   {
     "title": "咲き誇れ桜よ",
@@ -2125,8 +2146,24 @@
     "country": null
   },
   {
+    "title": "Fukuoka Art Book Fair",
+    "score": 7.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [
+      "aesthetic lineage +1.2"
+    ],
+    "risks": [],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
     "title": "金风车插画大赛2026",
-    "score": 8.3,
+    "score": 8.2,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -2142,8 +2179,36 @@
     "country": "International"
   },
   {
+    "title": "submissions for the 2026 set film festival are now open",
+    "score": 8.1,
+    "confidence_grade": "possibly inflated",
+    "positive_reasons": [],
+    "risks": [
+      "high score but few clear supporting reasons"
+    ],
+    "missing_fields": [],
+    "category": "Open Call Index",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
+    "title": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
+    "score": 7.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
     "title": "The Container",
-    "score": 7.5,
+    "score": 7.4,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -2152,120 +2217,6 @@
     ],
     "category": "Galleries / Exhibition Calls",
     "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "ZINEイベント",
-    "score": 8.1,
-    "confidence_grade": "needs review",
-    "positive_reasons": [
-      "aesthetic lineage +0.8"
-    ],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "Open Calls for Artists",
-    "score": 8.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "Open Call For Artists",
-    "score": 8.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "公募展",
-    "score": 8.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
-    "score": 8.4,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact",
-      "high score but few clear supporting reasons",
-      "high score but still needs verification"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "Zine & Book フェス in 神保町 (Jimbocho)",
-    "score": 7.0,
-    "confidence_grade": "normal",
-    "positive_reasons": [
-      "aesthetic lineage +0.8"
-    ],
-    "risks": [],
-    "missing_fields": [
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
     "country": null
   },
   {
@@ -2323,32 +2274,108 @@
     "country": null
   },
   {
-    "title": "Art Submissions",
-    "score": 8.0,
+    "title": "Open Calls for Artists",
+    "score": 8.3,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
+      "many missing verification fields: submission, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
+      "submission",
+      "fees",
       "contact"
     ],
-    "category": "Open Call Index",
-    "city": "Online",
-    "country": "Global"
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
   },
   {
-    "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
-    "score": 8.0,
+    "title": "Open Call For Artists",
+    "score": 8.3,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
+      "many missing verification fields: submission, fees, contact",
       "high score but few clear supporting reasons",
       "high score but still needs verification"
     ],
     "missing_fields": [
+      "submission",
       "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "公募展",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
+    "score": 8.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "high score but few clear supporting reasons",
+      "high score but still needs verification"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "ZINEイベント",
+    "score": 7.9,
+    "confidence_grade": "needs review",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
+    "score": 7.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
       "contact"
     ],
     "category": "Residencies / Longer Projects",
@@ -2372,19 +2399,6 @@
     ],
     "category": "Cafe / Local Wall Spaces",
     "city": "Koenji, Tokyo",
-    "country": "Japan"
-  },
-  {
-    "title": "第29回 アート未来展",
-    "score": 7.7,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "deadline"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Tokyo",
     "country": "Japan"
   },
   {
@@ -2418,30 +2432,6 @@
     "category": "Galleries / Exhibition Calls",
     "city": "Yokohama",
     "country": null
-  },
-  {
-    "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
-    "score": 7.8,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "臺南市美術館 2026「TAM+展覽計畫」",
-    "score": 7.8,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Institutional / Grants",
-    "city": "Tainan",
-    "country": "Taiwan"
   },
   {
     "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
@@ -2515,19 +2505,97 @@
     "country": "Japan"
   },
   {
-    "title": "submissions — porkbelly press",
-    "score": 6.4,
+    "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
+    "score": 7.8,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
-    "missing_fields": [],
-    "category": "Book Publishing",
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
     "city": "Japan / Tokyo / Online",
     "country": null
   },
   {
+    "title": "Zine & Book フェス in 神保町 (Jimbocho)",
+    "score": 6.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [
+      "aesthetic lineage +0.8"
+    ],
+    "risks": [],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Art Submissions",
+    "score": 7.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Open Call Index",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
+    "title": "ERA Shimokitazawa",
+    "score": 7.8,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "submission",
+      "deadline"
+    ],
+    "category": "Artist Spaces",
+    "city": "Shimokitazawa, Tokyo",
+    "country": "Japan"
+  },
+  {
+    "title": "In-dividual Theater：BUG Screen Week 2026",
+    "score": 7.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "deadline",
+      "contact"
+    ],
+    "category": "Institutional / Grants",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "title": "American Watercolor Society Annual International Exhibition",
+    "score": 7.0,
+    "confidence_grade": "solid",
+    "positive_reasons": [
+      "high prestige",
+      "global/international target",
+      "tag: global"
+    ],
+    "risks": [],
+    "missing_fields": [
+      "submission",
+      "fees"
+    ],
+    "category": "Global Watercolor Open Call",
+    "city": "New York",
+    "country": "USA"
+  },
+  {
     "title": "reload Shimokitazawa",
-    "score": 7.4,
+    "score": 7.3,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -2540,7 +2608,7 @@
   },
   {
     "title": "Comitia",
-    "score": 7.3,
+    "score": 7.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -2550,42 +2618,6 @@
     "category": "Markets / Popups / Booths",
     "city": "Tokyo",
     "country": null
-  },
-  {
-    "title": "オープンコール・プロジェクト",
-    "score": 7.6,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Global Open Call",
-    "city": "Tokyo",
-    "country": "Japan"
-  },
-  {
-    "title": "HB Gallery",
-    "score": 7.1,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Other",
-    "city": null,
-    "country": "Tokyo"
   },
   {
     "title": "FACE展2026",
@@ -2624,8 +2656,26 @@
     "country": "Japan"
   },
   {
+    "title": "HB Gallery",
+    "score": 7.0,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Tokyo"
+  },
+  {
     "title": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...",
-    "score": 7.8,
+    "score": 7.7,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -2643,7 +2693,7 @@
   },
   {
     "title": "現代アート販売の@Gallery Tagboat|@Gallery Tagboat",
-    "score": 7.8,
+    "score": 7.7,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -2660,22 +2710,39 @@
     "country": null
   },
   {
-    "title": "ERA Shimokitazawa",
-    "score": 7.7,
+    "title": "世界堂絵画展2026",
+    "score": 7.4,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
     "missing_fields": [
-      "submission",
-      "deadline"
+      "submission"
     ],
-    "category": "Artist Spaces",
-    "city": "Shimokitazawa, Tokyo",
+    "category": "Institutional / Grants",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "title": "オープンコール・プロジェクト",
+    "score": 7.4,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Global Open Call",
+    "city": "Tokyo",
     "country": "Japan"
   },
   {
     "title": "Communication Arts Illustration Competition",
-    "score": 7.0,
+    "score": 6.9,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -2688,39 +2755,8 @@
     "country": "Global"
   },
   {
-    "title": "American Watercolor Society Annual International Exhibition",
-    "score": 6.9,
-    "confidence_grade": "normal",
-    "positive_reasons": [
-      "high prestige",
-      "global/international target",
-      "tag: global"
-    ],
-    "risks": [],
-    "missing_fields": [
-      "submission",
-      "fees"
-    ],
-    "category": "Global Watercolor Open Call",
-    "city": "New York",
-    "country": "USA"
-  },
-  {
-    "title": "HandMade In Japan Fes",
-    "score": 7.3,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "2026国际大学生数字艺术设计大赛",
-    "score": 7.6,
+    "title": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
+    "score": 7.5,
     "confidence_grade": "needs review",
     "positive_reasons": [],
     "risks": [
@@ -2731,13 +2767,13 @@
       "fees",
       "contact"
     ],
-    "category": "Global Open Call",
-    "city": "International",
-    "country": "International"
+    "category": "Markets / Popups / Booths",
+    "city": "Vancouver",
+    "country": "Canada"
   },
   {
     "title": "torch press",
-    "score": 6.3,
+    "score": 6.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -2753,21 +2789,21 @@
     "country": null
   },
   {
-    "title": "世界堂絵画展2026",
-    "score": 7.3,
+    "title": "HandMade In Japan Fes",
+    "score": 7.1,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
     "missing_fields": [
-      "submission"
+      "contact"
     ],
-    "category": "Institutional / Grants",
+    "category": "Markets / Popups / Booths",
     "city": "Tokyo",
-    "country": "Japan"
+    "country": null
   },
   {
     "title": "Cafe Gallery HATTIFNATT",
-    "score": 7.2,
+    "score": 7.1,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -2778,204 +2814,21 @@
   },
   {
     "title": "2026春季二科展「NIKA+nika/S20号」コンクール",
-    "score": 7.1,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission",
-      "fees"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Tokyo",
-    "country": "Japan"
-  },
-  {
-    "title": "絵画展（滋賀県愛荘町開催）",
-    "score": 7.2,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission",
-      "fees"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Shiga",
-    "country": "Japan"
-  },
-  {
-    "title": "Submissions — Clavis Publishing",
-    "score": 5.8,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "deadline"
-    ],
-    "category": "Book Publishing",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "AIR 3331",
-    "score": 6.9,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Tokyo Arts and Space",
-    "score": 6.9,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "ローズ・ローズ・ローズ",
-    "score": 7.1,
-    "confidence_grade": "needs review",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Tokyo",
-    "country": "Japan"
-  },
-  {
-    "title": "DER GREIF",
-    "score": 6.2,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "Design Festa",
     "score": 7.0,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
     "missing_fields": [
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "ART SG 2026",
-    "score": 6.8,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Markets / Popups / Booths",
-    "city": "Singapore",
-    "country": "Singapore"
-  },
-  {
-    "title": "そぞろ書房",
-    "score": 6.4,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
-    ],
-    "missing_fields": [
       "submission",
-      "deadline",
-      "fees",
-      "contact"
+      "fees"
     ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Koenji, Tokyo",
-    "country": null
-  },
-  {
-    "title": "Art Vancouver 2026",
-    "score": 6.8,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Markets / Popups / Booths",
-    "city": "Vancouver",
-    "country": "Canada"
-  },
-  {
-    "title": "Tokyo Gendai 2026",
-    "score": 6.8,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Markets / Popups / Booths",
+    "category": "Institutional / Grants",
     "city": "Tokyo",
     "country": "Japan"
   },
   {
-    "title": "AIT Residency",
-    "score": 6.6,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Residencies / Longer Projects",
-    "city": "Tokyo",
-    "country": null
-  },
-  {
-    "title": "Aquarium - 2026",
-    "score": 6.0,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Global Open Call",
-    "city": "International",
-    "country": "International"
-  },
-  {
-    "title": "INSTINC 2026/2027 Artist-in-Residence Program",
-    "score": 6.75,
-    "confidence_grade": "normal",
-    "positive_reasons": [
-      "aesthetic lineage +0.65"
-    ],
-    "risks": [],
-    "missing_fields": [
-      "fees",
-      "contact"
-    ],
-    "category": "Global Residency",
-    "city": "Singapore",
-    "country": "Singapore"
-  },
-  {
     "title": "Cité Internationale des Arts Artist Residency",
-    "score": 6.3,
+    "score": 6.7,
     "confidence_grade": "normal",
     "positive_reasons": [
       "high prestige",
@@ -2992,8 +2845,148 @@
     "country": "France"
   },
   {
+    "title": "submissions — porkbelly press",
+    "score": 5.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "2026国际大学生数字艺术设计大赛",
+    "score": 7.3,
+    "confidence_grade": "needs review",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Global Open Call",
+    "city": "International",
+    "country": "International"
+  },
+  {
+    "title": "Tokyo Arts and Space",
+    "score": 6.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Institutional / Grants",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "絵画展（滋賀県愛荘町開催）",
+    "score": 6.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "submission",
+      "fees"
+    ],
+    "category": "Institutional / Grants",
+    "city": "Shiga",
+    "country": "Japan"
+  },
+  {
+    "title": "Design Festa",
+    "score": 6.8,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "AIR 3331",
+    "score": 6.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "AIT Residency",
+    "score": 6.4,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Residencies / Longer Projects",
+    "city": "Tokyo",
+    "country": null
+  },
+  {
+    "title": "ローズ・ローズ・ローズ",
+    "score": 6.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "title": "そぞろ書房",
+    "score": 6.1,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Koenji, Tokyo",
+    "country": null
+  },
+  {
+    "title": "Submissions — Clavis Publishing",
+    "score": 5.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "deadline"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
     "title": "Komiyama Tokyo",
-    "score": 5.9,
+    "score": 5.7,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3011,7 +3004,7 @@
   },
   {
     "title": "Book Culture Club",
-    "score": 6.0,
+    "score": 5.8,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3028,87 +3021,48 @@
     "country": null
   },
   {
-    "title": "In-dividual Theater：BUG Screen Week 2026",
-    "score": 6.6,
+    "title": "DER GREIF",
+    "score": 5.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
+    "title": "「国際創作者駐村計畫」",
+    "score": 6.3,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
     "missing_fields": [
-      "deadline",
       "contact"
     ],
-    "category": "Institutional / Grants",
+    "category": "Global Residency",
     "city": "Tokyo",
     "country": "Japan"
   },
   {
-    "title": "Mall Galleries Open Exhibitions",
-    "score": 6.2,
+    "title": "INSTINC 2026/2027 Artist-in-Residence Program",
+    "score": 6.35,
     "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
+    "positive_reasons": [
+      "aesthetic lineage +0.65"
     ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Other",
-    "city": null,
-    "country": "UK"
-  },
-  {
-    "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
-    "score": 5.2,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
     "risks": [],
     "missing_fields": [
-      "deadline",
-      "contact"
-    ],
-    "category": "Book Publishing",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "第9回 国際公募 東京アート工芸2026",
-    "score": 6.7,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
       "fees",
       "contact"
     ],
-    "category": "Global Open Call",
-    "city": "Tokyo",
-    "country": "Japan"
-  },
-  {
-    "title": "Royal Institute of Painters in Water Colours",
-    "score": 6.1,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Other",
-    "city": null,
-    "country": "UK"
+    "category": "Global Residency",
+    "city": "Singapore",
+    "country": "Singapore"
   },
   {
     "title": "2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)",
-    "score": 6.5,
+    "score": 6.4,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3120,26 +3074,12 @@
       "contact"
     ],
     "category": "Institutional / Grants",
-    "city": "Tokyo",
-    "country": "Japan"
-  },
-  {
-    "title": "OM SYSTEM PLAZA 2026年4月～6月開催分",
-    "score": 6.5,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission",
-      "contact"
-    ],
-    "category": "Galleries / Exhibition Calls",
     "city": "Tokyo",
     "country": "Japan"
   },
   {
     "title": "Gallery IRO",
-    "score": 5.9,
+    "score": 5.7,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3156,8 +3096,80 @@
     "country": "Tokyo"
   },
   {
+    "title": "第9回 国際公募 東京アート工芸2026",
+    "score": 6.4,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Global Open Call",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "title": "Aquarium - 2026",
+    "score": 5.3,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Global Open Call",
+    "city": "International",
+    "country": "International"
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "score": 5.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "UK"
+  },
+  {
+    "title": "Applications — Little Tokyo Zine Fest",
+    "score": 5.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "fees"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
+    "score": 4.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "deadline",
+      "contact"
+    ],
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
     "title": "FACE Exhibition 2026",
-    "score": 6.3,
+    "score": 5.9,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -3170,35 +3182,40 @@
     "country": "Japan"
   },
   {
-    "title": "Applications — Little Tokyo Zine Fest",
-    "score": 5.7,
+    "title": "OM SYSTEM PLAZA 2026年4月～6月開催分",
+    "score": 6.0,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
     "missing_fields": [
+      "submission",
+      "contact"
+    ],
+    "category": "Galleries / Exhibition Calls",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "title": "shashasha",
+    "score": 5.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: source, submission, deadline, fees"
+    ],
+    "missing_fields": [
+      "source",
+      "submission",
+      "deadline",
       "fees"
     ],
-    "category": "Markets / Popups / Booths",
-    "city": "Japan / Tokyo / Online",
+    "category": "Book Publishing",
+    "city": "Tokyo / Online",
     "country": null
   },
   {
-    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-    "score": 5.1,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "deadline",
-      "contact"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
     "title": "Publishing / Artist Books — Battle Plan",
-    "score": 5.4,
+    "score": 5.0,
     "confidence_grade": "normal",
     "positive_reasons": [
       "aesthetic lineage +1.6"
@@ -3217,8 +3234,53 @@
     "country": null
   },
   {
+    "title": "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S",
+    "score": 5.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
+    "title": "SICF Fukuoka 2026",
+    "score": 5.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "fees",
+      "contact"
+    ],
+    "category": "Markets / Popups / Booths",
+    "city": "Fukuoka",
+    "country": "Japan"
+  },
+  {
+    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+    "score": 4.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "deadline",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
     "title": "Become an Author - Tuttle Publishing",
-    "score": 4.8,
+    "score": 4.4,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -3232,7 +3294,7 @@
   },
   {
     "title": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
-    "score": 6.2,
+    "score": 5.8,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -3245,26 +3307,8 @@
     "country": null
   },
   {
-    "title": "shashasha",
-    "score": 5.7,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: source, submission, deadline, fees"
-    ],
-    "missing_fields": [
-      "source",
-      "submission",
-      "deadline",
-      "fees"
-    ],
-    "category": "Book Publishing",
-    "city": "Tokyo / Online",
-    "country": null
-  },
-  {
     "title": "Zines / Artist Books — Battle Plan",
-    "score": 5.4,
+    "score": 5.0,
     "confidence_grade": "normal",
     "positive_reasons": [
       "aesthetic lineage +1.7"
@@ -3284,7 +3328,7 @@
   },
   {
     "title": "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会",
-    "score": 6.1,
+    "score": 5.7,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3301,7 +3345,7 @@
   },
   {
     "title": "スクエア・ワールド2026",
-    "score": 6.1,
+    "score": 5.7,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3317,98 +3361,8 @@
     "country": "Japan"
   },
   {
-    "title": "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S",
-    "score": 6.1,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: deadline, fees, contact"
-    ],
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "第五回公募展「境界」-edge-",
-    "score": 6.1,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission",
-      "fees"
-    ],
-    "category": "Galleries / Exhibition Calls",
-    "city": "Tokyo",
-    "country": "Japan"
-  },
-  {
-    "title": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
-    "score": 6.2,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Vancouver",
-    "country": "Canada"
-  },
-  {
-    "title": "SICF Fukuoka 2026",
-    "score": 5.8,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "fees",
-      "contact"
-    ],
-    "category": "Markets / Popups / Booths",
-    "city": "Fukuoka",
-    "country": "Japan"
-  },
-  {
-    "title": "True Beauty - 2026",
-    "score": 5.7,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Global Open Call",
-    "city": "International",
-    "country": "International"
-  },
-  {
-    "title": "Mall Galleries Open Exhibitions",
-    "score": 5.5,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Other",
-    "city": null,
-    "country": "UK"
-  },
-  {
     "title": "Youkobo Art Space",
-    "score": 5.4,
+    "score": 5.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -3420,19 +3374,8 @@
     "country": null
   },
   {
-    "title": "Japan International Watercolor Institute Online Exhibition",
-    "score": 5.5,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Japan Watercolor Open Call",
-    "city": "Online / Niigata",
-    "country": "Japan"
-  },
-  {
-    "title": "全國插畫徵集-2026台灣VC文化賞",
-    "score": 6.0,
+    "title": "第五回公募展「境界」-edge-",
+    "score": 5.7,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -3440,20 +3383,7 @@
       "submission",
       "fees"
     ],
-    "category": "Global Open Call",
-    "city": "Taiwan",
-    "country": "Taiwan"
-  },
-  {
-    "title": "「国際創作者駐村計畫」",
-    "score": 5.5,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
-    "category": "Global Residency",
+    "category": "Galleries / Exhibition Calls",
     "city": "Tokyo",
     "country": "Japan"
   },
@@ -3472,22 +3402,38 @@
     "country": null
   },
   {
-    "title": "ARTE VENT Press",
-    "score": 5.9,
+    "title": "Mall Galleries Open Exhibitions",
+    "score": 5.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: submission, deadline, fees, contact"
+      "many missing verification fields: submission, fees, contact"
     ],
     "missing_fields": [
       "submission",
-      "deadline",
       "fees",
       "contact"
     ],
-    "category": "Book Publishing",
-    "city": "Japan / Tokyo / Online",
-    "country": null
+    "category": "Other",
+    "city": null,
+    "country": "UK"
+  },
+  {
+    "title": "Royal Institute of Painters in Water Colours",
+    "score": 5.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "UK"
   },
   {
     "title": "RAW TOKYO",
@@ -3501,53 +3447,6 @@
     "category": "Markets / Popups / Booths",
     "city": "Tokyo",
     "country": null
-  },
-  {
-    "title": "ArtConnect Open Calls",
-    "score": 4.5,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Other",
-    "city": null,
-    "country": "Global"
-  },
-  {
-    "title": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
-    "score": 4.7,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission",
-      "contact"
-    ],
-    "category": "Japan Watercolor Open Call",
-    "city": "Tokyo",
-    "country": "Japan"
-  },
-  {
-    "title": "Clavis Publishing Submissions",
-    "score": 5.3,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Book Publishing",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
-    "score": 5.3,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
   },
   {
     "title": "【公募】2026年度レジデンス・プログラム公募開始",
@@ -3564,8 +3463,55 @@
     "country": null
   },
   {
-    "title": "Golden Key International Art Competition",
+    "title": "True Beauty - 2026",
+    "score": 5.1,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Global Open Call",
+    "city": "International",
+    "country": "International"
+  },
+  {
+    "title": "全國插畫徵集-2026台灣VC文化賞",
     "score": 5.7,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "submission",
+      "fees"
+    ],
+    "category": "Global Open Call",
+    "city": "Taiwan",
+    "country": "Taiwan"
+  },
+  {
+    "title": "Japan International Watercolor Institute Online Exhibition",
+    "score": 4.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Japan Watercolor Open Call",
+    "city": "Online / Niigata",
+    "country": "Japan"
+  },
+  {
+    "title": "ArtConnect Open Calls",
+    "score": 4.2,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Other",
+    "city": null,
+    "country": "Global"
+  },
+  {
+    "title": "Golden Key International Art Competition",
+    "score": 5.4,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3582,25 +3528,40 @@
     "country": "International"
   },
   {
-    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-    "score": 4.3,
+    "title": "ARTE VENT Press",
+    "score": 5.4,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
-      "many missing verification fields: deadline, fees, contact"
+      "many missing verification fields: submission, deadline, fees, contact"
     ],
     "missing_fields": [
+      "submission",
       "deadline",
       "fees",
       "contact"
     ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Online",
-    "country": "Global"
+    "category": "Book Publishing",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
+    "score": 4.3,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "submission",
+      "contact"
+    ],
+    "category": "Japan Watercolor Open Call",
+    "city": "Tokyo",
+    "country": "Japan"
   },
   {
     "title": "Shoto Museum Open Call",
-    "score": 5.5,
+    "score": 5.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3617,7 +3578,7 @@
   },
   {
     "title": "Art公募",
-    "score": 5.5,
+    "score": 5.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3634,7 +3595,7 @@
   },
   {
     "title": "第四回公募展「食卓」",
-    "score": 5.5,
+    "score": 5.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3651,7 +3612,7 @@
   },
   {
     "title": "第六回公募展「鳥」-bird-",
-    "score": 5.5,
+    "score": 5.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3668,7 +3629,7 @@
   },
   {
     "title": "OM SYSTEM PLAZA 2026年2月～3月開催分",
-    "score": 5.5,
+    "score": 5.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3685,7 +3646,7 @@
   },
   {
     "title": "7月～12月企画展 参加者募集",
-    "score": 5.3,
+    "score": 5.0,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3701,38 +3662,47 @@
     "country": "Japan"
   },
   {
-    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
-    "score": 5.0,
+    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+    "score": 3.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: deadline, fees, contact"
+    ],
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
+    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "score": 4.7,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
+    "missing_fields": [],
     "category": "Photo Open Call",
     "city": "Online",
     "country": "Global"
   },
   {
-    "title": "» 21 Terrific Small Presses Open to Direct Submissions",
-    "score": 4.0,
+    "title": "Clavis Publishing Submissions",
+    "score": 4.7,
     "confidence_grade": "normal",
     "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
+    "risks": [],
+    "missing_fields": [],
     "category": "Book Publishing",
     "city": "Japan / Tokyo / Online",
     "country": null
   },
   {
-    "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
-    "score": 4.0,
+    "title": "» 21 Terrific Small Presses Open to Direct Submissions",
+    "score": 3.6,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3749,7 +3719,7 @@
   },
   {
     "title": "Japan Book Publishers Association - JBPA",
-    "score": 4.0,
+    "score": 3.6,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3766,7 +3736,7 @@
   },
   {
     "title": "Japan Watercolor Society Annual Exhibition",
-    "score": 5.1,
+    "score": 4.6,
     "confidence_grade": "normal",
     "positive_reasons": [
       "global/international target"
@@ -3785,44 +3755,21 @@
     "country": "Japan"
   },
   {
-    "title": "Home - Printed Matter",
-    "score": 4.1,
+    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
+    "score": 4.4,
     "confidence_grade": "normal",
-    "positive_reasons": [
-      "aesthetic lineage +2.5"
-    ],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
+    "positive_reasons": [],
+    "risks": [],
     "missing_fields": [
-      "submission",
-      "fees",
       "contact"
     ],
-    "category": "Global Photobook",
+    "category": "Photo Open Call",
     "city": "Online",
     "country": "Global"
   },
   {
-    "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
-    "score": 5.0,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
     "title": "りんごろごろごろ",
-    "score": 5.1,
+    "score": 4.8,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3840,7 +3787,7 @@
   },
   {
     "title": "アートの交差展 vol.6 (Art Intersection Exhibition vol.6)",
-    "score": 5.1,
+    "score": 4.8,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3857,8 +3804,45 @@
     "country": "Japan"
   },
   {
+    "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+    "score": 4.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "Home - Printed Matter",
+    "score": 3.3,
+    "confidence_grade": "normal",
+    "positive_reasons": [
+      "aesthetic lineage +2.5"
+    ],
+    "risks": [
+      "many missing verification fields: submission, fees, contact",
+      "low score despite possible aesthetic fit"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Global Photobook",
+    "city": "Online",
+    "country": "Global"
+  },
+  {
     "title": "空色ターコイズ",
-    "score": 5.1,
+    "score": 4.8,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3876,7 +3860,7 @@
   },
   {
     "title": "Shangyuan International Residency Programme",
-    "score": 4.6,
+    "score": 4.1,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -3887,7 +3871,7 @@
   },
   {
     "title": "3 Top Book Publishers in Tokyo in 2026",
-    "score": 3.6,
+    "score": 3.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3905,7 +3889,7 @@
   },
   {
     "title": "3 Top Book Publishers in Japan in 2026",
-    "score": 3.6,
+    "score": 3.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -3922,8 +3906,22 @@
     "country": null
   },
   {
+    "title": "loneliness books",
+    "score": 3.0,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "submission",
+      "fees"
+    ],
+    "category": "Print / Zines / Bookstores",
+    "city": "Nakano, Tokyo",
+    "country": null
+  },
+  {
     "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
-    "score": 4.5,
+    "score": 4.0,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -3937,7 +3935,7 @@
   },
   {
     "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
-    "score": 4.5,
+    "score": 4.0,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -3950,51 +3948,8 @@
     "country": "Global"
   },
   {
-    "title": "Idemitsu Art Award 2026",
-    "score": 4.4,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission"
-    ],
-    "category": "Global Open Call",
-    "city": "Tokyo",
-    "country": "Japan"
-  },
-  {
-    "title": "PhotoVogue",
-    "score": 4.4,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission"
-    ],
-    "category": "Photo Open Call",
-    "city": "Online",
-    "country": "Global"
-  },
-  {
-    "title": "TOKAS レジデンシー 4つのレジデンス・プログラム公募",
-    "score": 4.6,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Tokyo",
-    "country": "Japan"
-  },
-  {
     "title": "Top Artist Opportunities for 2026 | ArtConnect",
-    "score": 3.5,
+    "score": 3.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -4011,7 +3966,7 @@
     "country": "Global"
   },
   {
-    "title": "Boji Hair+Gallery",
+    "title": "TOKAS レジデンシー 4つのレジデンス・プログラム公募",
     "score": 4.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
@@ -4023,50 +3978,52 @@
       "fees",
       "contact"
     ],
-    "category": "Other",
-    "city": null,
-    "country": "Tokyo"
-  },
-  {
-    "title": "loneliness books",
-    "score": 3.0,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission",
-      "fees"
-    ],
-    "category": "Print / Zines / Bookstores",
-    "city": "Nakano, Tokyo",
-    "country": null
-  },
-  {
-    "title": "Art on Climate インターナショナル・イラストレーション・コンテスト 2026",
-    "score": 4.1,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission",
-      "contact"
-    ],
-    "category": "Global Open Call",
-    "city": "International",
-    "country": "International"
-  },
-  {
-    "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
-    "score": 3.8,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "contact"
-    ],
     "category": "Residencies / Longer Projects",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
+    "score": 3.1,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Book Publishing",
     "city": "Japan / Tokyo / Online",
     "country": null
+  },
+  {
+    "title": "Idemitsu Art Award 2026",
+    "score": 3.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "submission"
+    ],
+    "category": "Global Open Call",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
+    "title": "PhotoVogue",
+    "score": 3.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "submission"
+    ],
+    "category": "Photo Open Call",
+    "city": "Online",
+    "country": "Global"
   },
   {
     "title": "水彩アートのみ展示イベント",
@@ -4080,31 +4037,6 @@
     "category": "Artist Spaces",
     "city": "Tokyo",
     "country": "Japan"
-  },
-  {
-    "title": "CuratorSpace",
-    "score": 3.1,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission",
-      "contact"
-    ],
-    "category": "Other",
-    "city": null,
-    "country": "Global"
-  },
-  {
-    "title": "Hayama Artist Residency",
-    "score": 3.7,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
   },
   {
     "title": "Dig A Hole Zines",
@@ -4139,6 +4071,23 @@
     "country": "Japan"
   },
   {
+    "title": "Boji Hair+Gallery",
+    "score": 3.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Tokyo"
+  },
+  {
     "title": "Sunny Boy Books",
     "score": 3.4,
     "confidence_grade": "normal",
@@ -4156,6 +4105,33 @@
     "category": "Print / Zines / Bookstores",
     "city": "Tokyo",
     "country": "Japan"
+  },
+  {
+    "title": "CuratorSpace",
+    "score": 3.0,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "submission",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "Global"
+  },
+  {
+    "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
+    "score": 3.5,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
   },
   {
     "title": "Watercolor Open Call Exhibition",
@@ -4186,30 +4162,18 @@
     "country": "International"
   },
   {
-    "title": "AIR_J Open Calls",
-    "score": 3.4,
+    "title": "Art on Climate インターナショナル・イラストレーション・コンテスト 2026",
+    "score": 3.6,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
     "missing_fields": [
+      "submission",
       "contact"
     ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "National Watercolor Society International Open Exhibition",
-    "score": 3.2,
-    "confidence_grade": "normal",
-    "positive_reasons": [
-      "tag: global"
-    ],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Global Watercolor Open Call",
-    "city": "California / Online",
-    "country": "USA"
+    "category": "Global Open Call",
+    "city": "International",
+    "country": "International"
   },
   {
     "title": "日本透明水彩会 2026",
@@ -4229,8 +4193,45 @@
     "country": "Japan"
   },
   {
+    "title": "Hayama Artist Residency",
+    "score": 3.3,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "AIR_J Open Calls",
+    "score": 3.1,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "2026 Asian Heritage Culture Art Show",
+    "score": 2.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "submission"
+    ],
+    "category": "Institutional / Grants",
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
     "title": "ZINE FARM TOKYO",
-    "score": 3.0,
+    "score": 2.7,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -4245,49 +4246,6 @@
     "category": "Print / Zines / Bookstores",
     "city": "Kichijoji, Tokyo",
     "country": null
-  },
-  {
-    "title": "SCCP Guest Artist",
-    "score": 3.1,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "fees"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
-    "title": "2026 Asian Heritage Culture Art Show",
-    "score": 3.0,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Toronto",
-    "country": "Canada"
-  },
-  {
-    "title": "Royal Watercolour Society",
-    "score": 2.5,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Other",
-    "city": null,
-    "country": "UK"
   },
   {
     "title": "RawGround 2026",
@@ -4312,6 +4270,32 @@
     "category": "Cafe / Local Wall Spaces",
     "city": "Tokyo",
     "country": "Japan"
+  },
+  {
+    "title": "SCCP Guest Artist",
+    "score": 2.8,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "fees"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
+    "title": "National Watercolor Society International Open Exhibition",
+    "score": 2.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [
+      "tag: global"
+    ],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Global Watercolor Open Call",
+    "city": "California / Online",
+    "country": "USA"
   },
   {
     "title": "上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)",
@@ -4345,8 +4329,36 @@
     "country": "Japan"
   },
   {
+    "title": "MADO Café",
+    "score": 2.6,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [],
+    "category": "Cafe / Local Wall Spaces",
+    "city": "Koenji",
+    "country": null
+  },
+  {
+    "title": "Royal Watercolour Society",
+    "score": 2.1,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Other",
+    "city": null,
+    "country": "UK"
+  },
+  {
     "title": "「公募－日本の絵画2026－」",
-    "score": 2.7,
+    "score": 2.6,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -4360,7 +4372,7 @@
   },
   {
     "title": "「公募－日本の絵画2026－」入賞・入選発表展",
-    "score": 2.7,
+    "score": 2.6,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -4373,25 +4385,8 @@
     "country": "Japan"
   },
   {
-    "title": "2026 Kyoto Museum International Art Grand Exhibition",
-    "score": 2.8,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Kyoto",
-    "country": "Japan"
-  },
-  {
     "title": "2026 第37回 美浜美術展",
-    "score": 2.7,
+    "score": 2.6,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -4403,19 +4398,8 @@
     "country": "Japan"
   },
   {
-    "title": "MADO Café",
-    "score": 2.6,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [],
-    "category": "Cafe / Local Wall Spaces",
-    "city": "Koenji",
-    "country": null
-  },
-  {
     "title": "Spring Flora and Fauna Art Exhibition 2026",
-    "score": 2.5,
+    "score": 2.4,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -4426,23 +4410,6 @@
     "category": "Institutional / Grants",
     "city": "Toronto",
     "country": "Canada"
-  },
-  {
-    "title": "2026国际艺术大赏展",
-    "score": 2.7,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Global Open Call",
-    "city": "Tokyo",
-    "country": "Japan"
   },
   {
     "title": "kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)",
@@ -4459,20 +4426,6 @@
     "country": "Japan"
   },
   {
-    "title": "滋賀県愛荘町絵画展",
-    "score": 2.4,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [],
-    "missing_fields": [
-      "submission",
-      "fees"
-    ],
-    "category": "Institutional / Grants",
-    "city": "Aizawa, Shiga",
-    "country": "Japan"
-  },
-  {
     "title": "5th Singapore Chinese Art Exhibition 2026",
     "score": 2.4,
     "confidence_grade": "normal",
@@ -4486,18 +4439,18 @@
     "country": "Singapore"
   },
   {
-    "title": "Kyoto Art Center Residency",
-    "score": 2.5,
+    "title": "滋賀県愛荘町絵画展",
+    "score": 2.3,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
     "missing_fields": [
       "submission",
-      "contact"
+      "fees"
     ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
+    "category": "Institutional / Grants",
+    "city": "Aizawa, Shiga",
+    "country": "Japan"
   },
   {
     "title": "第92回旺玄展",
@@ -4514,8 +4467,39 @@
     "country": "Japan"
   },
   {
+    "title": "2026 Kyoto Museum International Art Grand Exhibition",
+    "score": 2.4,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Institutional / Grants",
+    "city": "Kyoto",
+    "country": "Japan"
+  },
+  {
+    "title": "Kyoto Art Center Residency",
+    "score": 2.4,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [],
+    "missing_fields": [
+      "submission",
+      "contact"
+    ],
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
+  },
+  {
     "title": "南京插画艺术家展览 2026年3月",
-    "score": 2.3,
+    "score": 2.2,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -4525,6 +4509,23 @@
     "category": "Institutional / Grants",
     "city": "Nanjing",
     "country": "China"
+  },
+  {
+    "title": "2026国际艺术大赏展",
+    "score": 2.4,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Global Open Call",
+    "city": "Tokyo",
+    "country": "Japan"
   },
   {
     "title": "Pastel Society Open Exhibition",
@@ -4562,7 +4563,7 @@
   },
   {
     "title": "2026 OCAA Ladies Art Exhibition",
-    "score": 2.1,
+    "score": 2.0,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [],
@@ -4575,8 +4576,25 @@
     "country": "Canada"
   },
   {
+    "title": "秀彩会小品展2026",
+    "score": 1.9,
+    "confidence_grade": "normal",
+    "positive_reasons": [],
+    "risks": [
+      "many missing verification fields: submission, fees, contact"
+    ],
+    "missing_fields": [
+      "submission",
+      "fees",
+      "contact"
+    ],
+    "category": "Institutional / Grants",
+    "city": "Tokyo",
+    "country": "Japan"
+  },
+  {
     "title": "Muninova Artist Award",
-    "score": 2.3,
+    "score": 1.7,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -4593,8 +4611,8 @@
     "country": "Japan"
   },
   {
-    "title": "秀彩会小品展2026",
-    "score": 2.0,
+    "title": "NEW AIR",
+    "score": 1.4,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -4605,13 +4623,13 @@
       "fees",
       "contact"
     ],
-    "category": "Institutional / Grants",
-    "city": "Tokyo",
-    "country": "Japan"
+    "category": "Residencies / Longer Projects",
+    "city": "Japan / Tokyo / Online",
+    "country": null
   },
   {
     "title": "2026「OPEN World Exhibition」",
-    "score": 2.0,
+    "score": 1.3,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -4628,25 +4646,8 @@
     "country": "Japan"
   },
   {
-    "title": "NEW AIR",
-    "score": 1.7,
-    "confidence_grade": "normal",
-    "positive_reasons": [],
-    "risks": [
-      "many missing verification fields: submission, fees, contact"
-    ],
-    "missing_fields": [
-      "submission",
-      "fees",
-      "contact"
-    ],
-    "category": "Residencies / Longer Projects",
-    "city": "Japan / Tokyo / Online",
-    "country": null
-  },
-  {
     "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
-    "score": 1.9,
+    "score": 1.3,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -4663,7 +4664,7 @@
   },
   {
     "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
-    "score": 1.9,
+    "score": 1.3,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [
@@ -4680,7 +4681,7 @@
   },
   {
     "title": "twelvebooks",
-    "score": 1.9,
+    "score": 1.4,
     "confidence_grade": "normal",
     "positive_reasons": [],
     "risks": [

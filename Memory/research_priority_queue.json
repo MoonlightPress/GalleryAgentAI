@@ -64,7 +64,7 @@
       "deadline",
       "official_website"
     ],
-    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
+    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
   },
   {
     "title": "Printed Matter Art Book Fairs",
@@ -82,8 +82,8 @@
   },
   {
     "title": "American Watercolor Society Annual International Exhibition",
-    "score": 6.9,
-    "research_priority_score": 12.68,
+    "score": 7.0,
+    "research_priority_score": 12.78,
     "country": "USA",
     "category": "global_watercolor_open_call",
     "missing_fields": [
@@ -95,8 +95,8 @@
   },
   {
     "title": "Cité Internationale des Arts Artist Residency",
-    "score": 6.3,
-    "research_priority_score": 12.01,
+    "score": 6.7,
+    "research_priority_score": 12.41,
     "country": "France",
     "category": "global_residency",
     "missing_fields": [
@@ -123,18 +123,6 @@
     "score": 9.1,
     "research_priority_score": 11.4,
     "country": "Tokyo",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "AAA Gallery Yokohama",
-    "score": 9.1,
-    "research_priority_score": 11.4,
-    "country": "Yokohama",
     "category": null,
     "missing_fields": [
       "submission_page",
@@ -231,6 +219,17 @@
     "quick_action": "Download the Terms and Conditions prospectus from open-water-2026.artcall.org. Create an ArtCall account and submit before June 30, 2026 at 2 PM EDT. Medium must be transparent watercolour only. Email info@cspwc.ca with questions."
   },
   {
+    "title": "Art Vancouver 2026",
+    "score": 9.4,
+    "research_priority_score": 11.3,
+    "country": "Canada",
+    "category": "fair_popup",
+    "missing_fields": [
+      "contact_email"
+    ],
+    "quick_action": "Verify submission page and deadline before applying."
+  },
+  {
     "title": "2026 3rd Annual Illustration Summit Challenge (IlloBoom!)",
     "score": 9.4,
     "research_priority_score": 11.3,
@@ -254,14 +253,26 @@
   },
   {
     "title": "KAMIHANGA国際プリント展2026",
-    "score": 9.3,
-    "research_priority_score": 11.2,
+    "score": 9.4,
+    "research_priority_score": 11.3,
     "country": "International",
     "category": "global_open_call",
     "missing_fields": [
       "submission_page"
     ],
     "quick_action": "Verify submission page and deadline before applying."
+  },
+  {
+    "title": "AAA Gallery Yokohama",
+    "score": 9.0,
+    "research_priority_score": 11.3,
+    "country": "Yokohama",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
     "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
@@ -323,6 +334,17 @@
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
+    "title": "臺南市美術館 2026「TAM+展覽計畫」",
+    "score": 9.1,
+    "research_priority_score": 11.0,
+    "country": "Taiwan",
+    "category": "institutional",
+    "missing_fields": [
+      "contact_email"
+    ],
+    "quick_action": "Verify submission page and deadline before applying."
+  },
+  {
     "title": "3x3 International Illustration Awards",
     "score": 8.7,
     "research_priority_score": 11.0,
@@ -351,6 +373,15 @@
     "category": null,
     "missing_fields": [],
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "ART SG 2026",
+    "score": 9.4,
+    "research_priority_score": 10.9,
+    "country": "Singapore",
+    "category": "fair_popup",
+    "missing_fields": [],
+    "quick_action": "Verify submission page and deadline before applying."
   },
   {
     "title": "Browse opportunities | CuratorSpace",
@@ -421,29 +452,6 @@
     "quick_action": "Verify submission page and deadline before applying."
   },
   {
-    "title": "2026 Chinese New Year Celebration Art Show",
-    "score": 8.7,
-    "research_priority_score": 10.6,
-    "country": "Canada",
-    "category": "institutional",
-    "missing_fields": [
-      "submission_page"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "金风车插画大赛2026",
-    "score": 8.3,
-    "research_priority_score": 10.6,
-    "country": "International",
-    "category": "global_open_call",
-    "missing_fields": [
-      "fees",
-      "contact_email"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
     "title": "OPA Gallery",
     "score": 7.9,
     "research_priority_score": 10.6,
@@ -455,14 +463,5 @@
       "contact_email"
     ],
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "第九屆水主題國際評審藝術比賽",
-    "score": 8.8,
-    "research_priority_score": 10.3,
-    "country": "International",
-    "category": "global_watercolor_open_call",
-    "missing_fields": [],
-    "quick_action": "Verify submission page and deadline before applying."
   }
 ]
