@@ -457,6 +457,7 @@ class ContactEntry(BaseModel):
     last_visited: str = ""
     status: str = "cold"
     notes: str = ""
+    last_contacted: str = ""
 
 
 @app.get("/api/contacts")
@@ -475,16 +476,67 @@ def add_contact(entry: ContactEntry):
     else:
         contacts = []
     contacts.append({
-        "name":         entry.name,
-        "type":         entry.type,
-        "city":         entry.city,
-        "last_visited": entry.last_visited,
-        "status":       entry.status,
-        "notes":        entry.notes,
-        "logged_at":    datetime.now(timezone.utc).isoformat(),
+        "name":           entry.name,
+        "type":           entry.type,
+        "city":           entry.city,
+        "last_visited":   entry.last_visited,
+        "status":         entry.status,
+        "notes":          entry.notes,
+        "last_contacted": entry.last_contacted,
+        "logged_at":      datetime.now(timezone.utc).isoformat(),
     })
     CONTACTS_PATH.write_text(json.dumps({"contacts": contacts}, ensure_ascii=False, indent=2), encoding="utf-8")
     return {"ok": True, "count": len(contacts)}
+
+
+class ContactUpdate(BaseModel):
+    name: str           # used to find the contact
+    status: str = ""
+    notes: str = ""
+    last_contacted: str = ""
+    last_visited: str = ""
+
+
+@app.patch("/api/contacts/update")
+def update_contact(entry: ContactUpdate):
+    if not CONTACTS_PATH.exists():
+        raise HTTPException(status_code=404, detail="No contacts found")
+    data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
+    contacts = data.get("contacts", []) if isinstance(data, dict) else data
+    # Find by name (case-insensitive)
+    idx = next((i for i, c in enumerate(contacts) if c.get("name", "").lower() == entry.name.lower()), None)
+    if idx is None:
+        raise HTTPException(status_code=404, detail=f"Contact '{entry.name}' not found")
+    if entry.status:
+        contacts[idx]["status"] = entry.status
+    if entry.notes:
+        contacts[idx]["notes"] = entry.notes
+    if entry.last_contacted:
+        contacts[idx]["last_contacted"] = entry.last_contacted
+    if entry.last_visited:
+        contacts[idx]["last_visited"] = entry.last_visited
+    contacts[idx]["date_updated"] = datetime.now(timezone.utc).isoformat()
+    CONTACTS_PATH.write_text(json.dumps({"contacts": contacts}, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "contact": contacts[idx]}
+
+
+@app.get("/api/contacts/lookup")
+def lookup_contact(name: str):
+    if not CONTACTS_PATH.exists():
+        return None
+    data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
+    contacts = data.get("contacts", []) if isinstance(data, dict) else data
+    name_lower = name.lower()
+    # Exact match first
+    for c in contacts:
+        if c.get("name", "").lower() == name_lower:
+            return c
+    # Partial match (contact name contained in search name or vice versa)
+    for c in contacts:
+        cn = c.get("name", "").lower()
+        if cn and (cn in name_lower or name_lower in cn):
+            return c
+    return None
 
 
 @app.get("/api/saffron")
@@ -1249,6 +1301,32 @@ def get_today():
         )
     stretch_raw = stretch_candidates[0] if stretch_candidates else None
 
+    # ── CRM follow-up: if a contact is "in_contact" and last_contacted > 30 days, override quick_win ──
+    crm_followup_raw = None
+    if CONTACTS_PATH.exists():
+        crm_data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
+        crm_list = crm_data.get("contacts", []) if isinstance(crm_data, dict) else crm_data
+        today_dt = datetime.now(timezone.utc)
+        for contact in crm_list:
+            if contact.get("status") != "in_contact":
+                continue
+            lc = contact.get("last_contacted", "")
+            if not lc:
+                # Never contacted — surface as follow-up
+                crm_followup_raw = contact
+                break
+            try:
+                lc_dt = datetime.fromisoformat(lc.replace("Z", "+00:00"))
+                if lc_dt.tzinfo is None:
+                    lc_dt = lc_dt.replace(tzinfo=timezone.utc)
+                days_ago = (today_dt - lc_dt).days
+                if days_ago >= 30:
+                    crm_followup_raw = contact
+                    break
+            except Exception:
+                crm_followup_raw = contact
+                break
+
     def _card(opp, role, label, time_est):
         if opp is None:
             return None
@@ -1258,8 +1336,35 @@ def get_today():
         c["time_est"]    = time_est
         return c
 
+    def _crm_card(contact):
+        if contact is None:
+            return None
+        lc = contact.get("last_contacted", "")
+        days_note = ""
+        if lc:
+            try:
+                lc_dt = datetime.fromisoformat(lc.replace("Z", "+00:00"))
+                if lc_dt.tzinfo is None:
+                    lc_dt = lc_dt.replace(tzinfo=timezone.utc)
+                days_ago = (datetime.now(timezone.utc) - lc_dt).days
+                days_note = f" — {days_ago} days since last contact"
+            except Exception:
+                pass
+        return {
+            "name": contact.get("name", ""),
+            "city": contact.get("city", ""),
+            "today_role": "quick_win",
+            "today_label": "Follow-up",
+            "time_est": "5 min",
+            "summary": f"You're in contact with {contact.get('name', '')} but haven't followed up recently{days_note}. Send a short check-in.",
+            "why_card": contact.get("notes", ""),
+            "official_website": contact.get("official_website", ""),
+            "crm_followup": True,
+            "crm_status": contact.get("status", ""),
+        }
+
     return {
-        "quick_win":    _card(quick_win_raw,  "quick_win",    "Quick Win",          "5 min"),
+        "quick_win":    _crm_card(crm_followup_raw) or _card(quick_win_raw, "quick_win", "Quick Win", "5 min"),
         "high_impact":  _card(high_impact_raw,"high_impact",  "High Impact Move",   "30–60 min"),
         "stretch_goal": _card(stretch_raw,    "stretch_goal", "Stretch Goal",       "longer term"),
         "generated_at": datetime.now(timezone.utc).isoformat(),
