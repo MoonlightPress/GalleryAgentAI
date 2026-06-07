@@ -990,3 +990,113 @@
 }
 
 .pp-skip:hover { color: #2e3a2e; }
+
+/* ── Submission log ────────────────────────────────────────────────────────── */
+
+.pp-sub-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.pp-sub-form-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pp-sub-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pp-sub-field--wide { flex: 1 1 200px; }
+
+.pp-sub-label {
+  font-size: 10.5px;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #8a9a7a;
+}
+
+.pp-sub-input {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #2e3a2e;
+  background: #f2f5ee;
+  border: 1px solid #cdd8be;
+  border-radius: 7px;
+  padding: 8px 10px;
+  outline: none;
+  transition: border-color 0.15s;
+  min-width: 140px;
+}
+.pp-sub-input:focus { border-color: #6a8a5a; }
+
+.pp-sub-select {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #2e3a2e;
+  background: #f2f5ee;
+  border: 1px solid #cdd8be;
+  border-radius: 7px;
+  padding: 8px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.pp-sub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pp-sub-row {
+  background: #fdfcf7;
+  border-radius: 8px;
+  padding: 12px 14px;
+  border: 1px solid #e0e8d4;
+}
+
+.pp-sub-row-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+
+.pp-sub-venue {
+  font-weight: 600;
+  font-size: 13px;
+  color: #2e3a2e;
+  flex: 1;
+}
+
+.pp-sub-outcome {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.pp-sub-date {
+  font-size: 11px;
+  color: #8a9a7a;
+}
+
+.pp-sub-what {
+  font-size: 12.5px;
+  color: #5a6a4a;
+  margin-top: 2px;
+}
+
+.pp-sub-notes {
+  font-size: 11.5px;
+  color: #8a9a7a;
+  margin-top: 4px;
+  font-style: italic;
+}

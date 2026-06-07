@@ -1090,7 +1090,8 @@
     "verification_score": 10,
     "fees_source": "harvested_from_submission_page",
     "deadline_source": "rumor_mill_expansion",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "UTRECHT"
   },
   {
     "name": "TOKIO ART BOOK FAIR 2026",
@@ -1470,7 +1471,8 @@
     "career_tier": 1,
     "tier_adjustment": 1.5,
     "verification_score": 7,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "name": "Book and Sons"
   },
   {
     "title": "CSPWC Annual Open Water International Exhibition",
@@ -1609,7 +1611,8 @@
     "tier_adjustment": 0.0,
     "verification_score": 10,
     "contact": "info@cspwc.ca",
-    "contact_source": "harvested_from_submission_page"
+    "contact_source": "harvested_from_submission_page",
+    "name": "Canadian Society of Painters in Water Colour"
   },
   {
     "name": "BALLOND'ESSAI Shimokitazawa",
@@ -2286,8 +2289,8 @@
     "curator_patterns": [],
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Rescored 8.6 → 8.7 (verification_points=4, composite=9.4)",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "rumor_mill_sentiment": "no_data",
     "rumor_mill_score": 0.0,
     "fee": "Free",
@@ -2299,7 +2302,8 @@
     "confirmation_gate_signal": "native_medium:painting",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 5
+    "verification_score": 5,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "Still Life - 2026",
@@ -2507,7 +2511,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "verified",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": true,
@@ -2531,7 +2535,7 @@
     "summary_ja": "【Aquarium - 2026】第4回審査年展。出版・販売機会あり。",
     "confirmation_gate_status": "confirmed",
     "confirmation_gate_signal": "text:artist book",
-    "exclusive_primary_bucket": "publication_targets",
+    "exclusive_primary_bucket": "reject",
     "url_verification_status": "ok",
     "url_status_code": 200,
     "url_final": "https://artist.callforentry.org/festivals.php",
@@ -2657,7 +2661,8 @@
     "verification_score": 10,
     "contact_source": "harvested_from_submission_page",
     "fees_source": "harvested_from_submission_page",
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "True Beauty - 2026",
@@ -2681,7 +2686,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "verified",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": true,
@@ -2793,7 +2798,7 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "relationship_builders",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 9.8,
     "score_sanity_note": "Score capped at 8.8 because source/verification strength is limited.",
     "submission_url": "https://artist.callforentry.org/festivals_unique_info.php?ID=17475",
@@ -2803,7 +2808,8 @@
     "verification_score": 10,
     "contact_source": "harvested_from_submission_page",
     "fees_source": "harvested_from_submission_page",
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -3213,7 +3219,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": true,
@@ -3327,7 +3333,7 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "immediate_best_moves",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 8.8 because source/verification strength is limited.",
     "fee": "$40",
@@ -3335,7 +3341,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 6,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "水彩アートの祭典 (Watercolor Art Festival)",
@@ -3611,7 +3618,8 @@
     "fees_source": "rumor_mill_expansion",
     "contact": "illustratori@bolognafiere.it",
     "contact_source": "rumor_mill_expansion",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Bologna Children's Book Fair Illustrators Exhibition"
   },
   {
     "title": "American Illustration",
@@ -3756,7 +3764,8 @@
     "fees": "$15 per illustration and $75 for series of 6",
     "fees_source": "rumor_mill_expansion",
     "submission_page": "https://www.ai-ap.com/cfe",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "American Illustration"
   },
   {
     "name": "Aquarelle 18 - アクワレル",
@@ -4902,7 +4911,7 @@
     ],
     "career_category": "publishing",
     "opportunity_type": "publishing_small_press",
-    "status": "research_next",
+    "status": "permanently_closed",
     "confidence": 53,
     "import_source": "multi_ingress_sprint_v1",
     "source_candidate_id": "MULTI-0172",
@@ -5007,8 +5016,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 7.6,
     "final_score_guard_note": "Rescored 7.6 → 8.5 (verification_points=4, composite=9.15)",
     "fee": "Free",
@@ -5026,7 +5035,8 @@
     "fees_source": "rumor_mill_expansion",
     "contact": "porkbelly press (at) g mail (dot) com",
     "contact_source": "rumor_mill_expansion",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "reject_reason": "poetry_press_not_visual_art"
   },
   {
     "name": "ギャラリーへ行こう2026",
@@ -5350,7 +5360,8 @@
     "tier_adjustment": 1.5,
     "verification_score": 9,
     "deadline_source": "harvested_from_submission_page",
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "name": "B&B Shimokitazawa"
   },
   {
     "title": "The Artcomplex Center of Tokyo",
@@ -5492,7 +5503,8 @@
     "tier_adjustment": 0.0,
     "verification_score": 5,
     "submission_page": "https://www.artworkarchive.com/call-for-entry/showcase-your-art-in-tokyo-japan-2025",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Artcomplex Center of Tokyo"
   },
   {
     "name": "Gallery 456 Exhibition Open Call 2026",
@@ -5835,7 +5847,8 @@
     "tier_adjustment": 1.5,
     "verification_score": 8,
     "fees_source": "harvested_from_submission_page",
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "name": "flotsam books"
   },
   {
     "title": "Belladonna Art Competition",
@@ -6355,8 +6368,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Rescored 8.6 → 8.2 (verification_points=3, composite=9.8)",
     "submission_url": "https://authorspublish.com/21-terrific-small-presses-open-to-direct-submissions",
@@ -6369,7 +6382,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 5,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "article_not_opportunity"
   },
   {
     "title": "Aesthetica Art Prize",
@@ -6559,7 +6573,8 @@
     "tier_adjustment": 0.0,
     "verification_score": 6,
     "fees_source": "rumor_mill_expansion",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Aesthetica Art Prize"
   },
   {
     "title": "OPA Gallery",
@@ -6708,7 +6723,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 5,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "name": "OPA Gallery"
   },
   {
     "title": "Pinpoint Gallery",
@@ -6862,7 +6878,8 @@
     "fees_source": "rumor_mill_expansion",
     "contact": "greenpointgallery@gmail.com",
     "contact_source": "rumor_mill_expansion",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Pinpoint Gallery"
   },
   {
     "title": "World Illustration Awards",
@@ -7006,7 +7023,8 @@
     "fees": "£34 per Single Entry",
     "fees_source": "rumor_mill_expansion",
     "submission_page": "https://worldillustrationawards.com/guide-to-entering",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "World Illustration Awards"
   },
   {
     "title": "3x3 International Illustration Awards",
@@ -7151,7 +7169,8 @@
     "verification_score": 6,
     "fees": "$20-$35",
     "fees_source": "rumor_mill_expansion",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "3x3 International Illustration Awards"
   },
   {
     "title": "Jackson's Art Prize",
@@ -7313,7 +7332,8 @@
     "fees": "£5 (early bird: 12 Nov - 17 Dec 2025) or £6.50 (standard: 18 Dec 2025 - 11 Feb 2026)",
     "fees_source": "rumor_mill_expansion",
     "submission_page": "https://www.jacksonsart.com/artprize/2026-2",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Jackson's Art Prize"
   },
   {
     "name": "桜をテーマとするイラスト・絵画作品募集",
@@ -7606,7 +7626,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": true,
@@ -7702,7 +7722,7 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 9.8,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "fee": "9,000 yen for first piece, 8,000 yen for each additional piece (up to 8 pieces per person, tax not included)",
@@ -7710,7 +7730,8 @@
     "career_tier": 2,
     "tier_adjustment": 0.5,
     "verification_score": 4,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "第九屆水主題國際評審藝術比賽",
@@ -8150,7 +8171,8 @@
     "confirmation_gate_signal": "text:zine",
     "career_tier": 1,
     "tier_adjustment": 1.5,
-    "verification_score": 3
+    "verification_score": 3,
+    "name": "POST"
   },
   {
     "title": "SUBMISSIONS - marblepress.com",
@@ -8433,8 +8455,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Rescored 8.6 → 7.8 (verification_points=3, composite=9.12)",
     "summary_zh": "【2026年35+家中小出版社接受投稿【完整】】针对性研究发现的出版/小出版社线索；若需求和适配度符合则有用。",
@@ -8446,7 +8468,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 5,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "article_not_opportunity"
   },
   {
     "title": "Japan Book Publishers Association - JBPA",
@@ -8579,8 +8602,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Rescored 8.6 → 7.8 (verification_points=3, composite=9.12)",
     "contact_email": "jbpa.international@jbpa.or.jp",
@@ -8593,7 +8616,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 3,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "quality_audit"
   },
   {
     "title": "ART BOX Publishing",
@@ -8880,8 +8904,8 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "painting_gate_status": "promoted",
     "painting_gate_hits": [
       "watercolor",
@@ -8901,7 +8925,9 @@
     "tier_adjustment": 0.0,
     "verification_score": 6,
     "fees_source": "rumor_mill_expansion",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Der Greif",
+    "reject_reason": "photography_only"
   },
   {
     "title": "SCAI The Bathhouse",
@@ -9042,7 +9068,8 @@
     "career_tier": 2,
     "tier_adjustment": 0.5,
     "verification_score": 4,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "name": "SCAI The Bathhouse"
   },
   {
     "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
@@ -9178,7 +9205,8 @@
     "confirmation_gate_signal": "category:global_watercolor_open_call",
     "career_tier": 4,
     "tier_adjustment": -1.5,
-    "verification_score": 10
+    "verification_score": 10,
+    "name": "Northwest Watercolor Society"
   },
   {
     "title": "Center for Book Arts Opportunities",
@@ -9348,7 +9376,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 5,
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Center for Book Arts"
   },
   {
     "title": "Shimokitazawa Arts",
@@ -9496,7 +9525,8 @@
     "verification_score": 8,
     "contact": "info@shimokitazawaarts.tokyo",
     "contact_source": "harvested_from_submission_page",
-    "deadline_source": "harvested_from_submission_page"
+    "deadline_source": "harvested_from_submission_page",
+    "name": "Shimokitazawa Arts"
   },
   {
     "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
@@ -9665,8 +9695,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 9.0,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 8.6,
@@ -9679,7 +9709,8 @@
     "tier_adjustment": 0.0,
     "verification_score": 6,
     "fees_source": "harvested_from_submission_page",
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "photography_only_curatorspace"
   },
   {
     "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -9846,8 +9877,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 9.0,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 8.6,
@@ -9860,7 +9891,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 5,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "photography_only_curatorspace"
   },
   {
     "title": "Browse opportunities | CuratorSpace",
@@ -10069,7 +10101,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 3,
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "CuratorSpace Open Calls"
   },
   {
     "title": "LOCAL Gallery・Books",
@@ -11264,8 +11297,8 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 8.3,
     "final_score_guard_note": "Rescored 8.3 → 7.6 (verification_points=4, composite=8.21)",
     "fee": "$95.00 USD",
@@ -11283,7 +11316,8 @@
     "contact": "director@hayamaartistresidency.com",
     "contact_source": "harvested_from_submission_page",
     "fees_source": "harvested_from_submission_page",
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "HB Gallery",
@@ -11431,7 +11465,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 3,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "name": "HB Gallery"
   },
   {
     "title": "Gallery IYN",
@@ -11572,7 +11607,8 @@
     "contact": "info@artandselection.com",
     "contact_source": "rumor_mill_expansion",
     "submission_page": "https://www.gallery-iyn.com/",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Gallery IYN"
   },
   {
     "title": "Tokyo Illustrators Society",
@@ -11713,7 +11749,8 @@
     "deadline": "June 30, 2024",
     "deadline_source": "rumor_mill_expansion",
     "submission_page": "https://jpn-illust.com",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Tokyo Illustrators Society"
   },
   {
     "title": "Top Artist Opportunities for 2026 | ArtConnect",
@@ -11888,8 +11925,8 @@
     "curator_patterns": [],
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Rescored 8.6 → 7.5 (verification_points=2, composite=9.43)",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "summary_zh": "2026年顶级艺术家机会 | ArtConnect",
     "summary_ja": "2026年トップアーティスト機会 | ArtConnect",
     "confirmation_gate_status": "confirmed",
@@ -11897,7 +11934,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 3,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "quality_audit"
   },
   {
     "title": "ArtConnect Open Calls",
@@ -11916,7 +11954,7 @@
     "source_purity_score": 7.0,
     "verification_bucket": "research_needed",
     "verification_status": "strong_partial",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "watercolor_fit_hits": [
       "watercolor",
       "works on paper",
@@ -12028,7 +12066,7 @@
     "curator_patterns": [],
     "pre_final_guard_score": 7.7,
     "final_score_guard_note": "Rescored 7.7 → 7.5 (verification_points=3, composite=8.74)",
-    "exclusive_primary_bucket": "publication_targets",
+    "exclusive_primary_bucket": "reject",
     "deadline": "October 26, 2025 at 11:59 p.m. MDT",
     "fee": "Free",
     "submission_url": "https://app.entrythingy.com/calls_list",
@@ -12042,7 +12080,8 @@
     "fees": "Free",
     "fees_source": "rumor_mill_expansion",
     "submission_page": "https://www.artconnect.com/opportunity/1VvOmacgLZxsOomFNefUX",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "reject_reason": "quality_audit"
   },
   {
     "title": "Society of Women Artists",
@@ -12188,7 +12227,8 @@
     "fees": "£8",
     "fees_source": "rumor_mill_expansion",
     "submission_page": "https://societyofwomenartists.oess1.uk",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Society of Women Artists"
   },
   {
     "title": "Communication Arts Illustration Competition",
@@ -12328,7 +12368,8 @@
     "confirmation_gate_signal": "native_medium:painting",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "name": "Communication Arts Illustration Competition"
   },
   {
     "name": "OPEN SITE 11",
@@ -14014,7 +14055,8 @@
     "career_tier": 4,
     "tier_adjustment": -1.5,
     "verification_score": 5,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "name": "American Watercolor Society"
   },
   {
     "title": "Submissions — Clavis Publishing",
@@ -14149,8 +14191,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Rescored 8.6 → 7.2 (verification_points=2, composite=8.99)",
     "submission_url": "https://www.clavis-publishing.com/submit",
@@ -14164,7 +14206,8 @@
     "contact": "acquisitie@clavisbooks.com",
     "contact_source": "harvested_from_submission_page",
     "fees_source": "rumor_mill_expansion",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "reject_reason": "quality_audit"
   },
   {
     "title": "Platform China BIAP Artist Residency",
@@ -14287,7 +14330,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 7,
-    "fees_source": "harvested_from_submission_page"
+    "fees_source": "harvested_from_submission_page",
+    "name": "Platform China BIAP Artist Residency"
   },
   {
     "name": "Applied Arts 2026 Illustration Awards",
@@ -15044,7 +15088,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -15137,12 +15181,13 @@
     },
     "dominant_curator_personality": "institutional_formal",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "contact_email": "info@heartycenter.jp",
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 5,
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Koganecho Area Management Center",
@@ -15328,7 +15373,8 @@
     "contact_source": "harvested_from_submission_page",
     "deadline_source": "rumor_mill_expansion",
     "fees_source": "rumor_mill_expansion",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "name": "Koganecho Area Management Center"
   },
   {
     "title": "BankART1929",
@@ -15473,7 +15519,8 @@
     "tier_adjustment": 0.5,
     "verification_score": 6,
     "deadline_source": "harvested_from_submission_page",
-    "rumor_mill_sentiment": "no_data"
+    "rumor_mill_sentiment": "no_data",
+    "name": "BankART1929"
   },
   {
     "title": "日記屋 月日",
@@ -16424,7 +16471,8 @@
     "tier_adjustment": 1.5,
     "verification_score": 7,
     "fees_source": "harvested_from_submission_page",
-    "deadline_source": "harvested_from_submission_page"
+    "deadline_source": "harvested_from_submission_page",
+    "name": "Yonchome Cafe"
   },
   {
     "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
@@ -16557,8 +16605,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 8.1,
     "final_score_guard_note": "Rescored 8.1 → 6.9 (verification_points=2, composite=8.59)",
     "summary_zh": "【日本出版商与出版服务——PublishersGlobal】出版社/独立出版社，通过有针对性研究发现的线索；如果符合要求和匹配度高则有用。",
@@ -16569,7 +16617,8 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "quality_audit"
   },
   {
     "title": "3 Top Book Publishers in Tokyo in 2026",
@@ -16701,8 +16750,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 8.1,
     "final_score_guard_note": "Rescored 8.1 → 6.9 (verification_points=2, composite=8.59)",
     "summary_zh": "【2026年东京三大出版商】出版社/独立出版社，通过有针对性研究发现的线索；如果符合要求和匹配度高则有用。",
@@ -16713,7 +16762,8 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "quality_audit"
   },
   {
     "title": "3 Top Book Publishers in Japan in 2026",
@@ -16845,8 +16895,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 8.1,
     "final_score_guard_note": "Rescored 8.1 → 6.9 (verification_points=2, composite=8.59)",
     "summary_zh": "【2026年日本三大出版商】出版社/独立出版社，通过有针对性研究发现的线索；如果符合要求和匹配度高则有用。",
@@ -16857,7 +16907,8 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "quality_audit"
   },
   {
     "title": "Become an Author - Tuttle Publishing",
@@ -16989,8 +17040,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 8.1,
     "final_score_guard_note": "Rescored 8.1 → 6.9 (verification_points=2, composite=8.59)",
     "submission_url": "https://www.tuttlepublishing.com/become-an-author",
@@ -17002,7 +17053,8 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "quality_audit"
   },
   {
     "name": "Spring Flora and Fauna Art Exhibition 2026",
@@ -17026,7 +17078,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -17172,12 +17224,13 @@
     "curator_patterns": [
       "quiet_photography"
     ],
-    "exclusive_primary_bucket": "relationship_builders",
+    "exclusive_primary_bucket": "reject",
     "fee": "$28.00",
     "submission_url": "https://app.entrythingy.com/calls/external/flora-fauna-2026",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 7
+    "verification_score": 7,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
@@ -17855,7 +17908,8 @@
     "pre_gate_bucket": "relationship_builders",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "3331 Arts Chiyoda"
   },
   {
     "title": "TAV Gallery",
@@ -17973,7 +18027,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "TAV Gallery"
   },
   {
     "name": "ギャラリー自由展示",
@@ -18388,7 +18443,8 @@
     "confirmation_gate_signal": "category:global_watercolor_open_call",
     "career_tier": 4,
     "tier_adjustment": -1.5,
-    "verification_score": 5
+    "verification_score": 5,
+    "name": "Royal Watercolour Society Open Exhibition"
   },
   {
     "title": "Royal Watercolour Society",
@@ -18532,7 +18588,8 @@
     "confirmation_gate_signal": "native_medium:painting",
     "career_tier": 4,
     "tier_adjustment": -1.5,
-    "verification_score": 5
+    "verification_score": 5,
+    "name": "Royal Watercolour Society"
   },
   {
     "name": "PARK GALLERY 夏の公募企画展（3テーマ）",
@@ -19154,7 +19211,8 @@
     "tier_adjustment": 0.5,
     "verification_score": 7,
     "fees_source": "harvested_from_submission_page",
-    "deadline_source": "harvested_from_submission_page"
+    "deadline_source": "harvested_from_submission_page",
+    "name": "Design Festa Gallery"
   },
   {
     "name": "第五回公募展「境界」-edge-",
@@ -19178,7 +19236,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -19205,7 +19263,7 @@
     "confirmation_gate_signal": null,
     "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
     "pre_gate_bucket": "",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "reject",
     "url_verification_status": "ok",
     "url_status_code": 200,
     "url_final": "https://x.com/koko02803691/status/2061632639019479205",
@@ -19271,7 +19329,8 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Self Publish, Be Happy",
@@ -19488,7 +19547,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 1
+    "verification_score": 1,
+    "name": "Self Publish, Be Happy"
   },
   {
     "title": "Book Obscura",
@@ -19872,15 +19932,16 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "summary_zh": "【出版/艺术书籍——战略计划】出版是小志之后的下一步：一件完成的印刷品可成为推销工具、样本、作品集证明与对话启点。",
     "summary_ja": "【出版・アーティストブック—戦略】出版はザイン後の次段階。完成した一冊は営業資料、サンプル、ポートフォリオ証拠、対話の入口となる。",
     "confirmation_gate_status": "confirmed",
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 2
+    "verification_score": 2,
+    "reject_reason": "quality_audit"
   },
   {
     "title": "Gallery IRO",
@@ -20031,7 +20092,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "name": "Gallery IRO"
   },
   {
     "title": "AAA Gallery Yokohama",
@@ -20166,7 +20228,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "name": "AAA Gallery Yokohama"
   },
   {
     "title": "CuratorSpace",
@@ -20185,7 +20248,7 @@
     "source_purity_score": 7.0,
     "verification_bucket": "research_needed",
     "verification_status": "partial",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "watercolor_fit_hits": [
       "watercolor",
       "works on paper",
@@ -20297,7 +20360,7 @@
     "curator_patterns": [],
     "pre_final_guard_score": 6.8,
     "final_score_guard_note": "Rescored 6.8 → 6.5 (verification_points=2, composite=8.13)",
-    "exclusive_primary_bucket": "publication_targets",
+    "exclusive_primary_bucket": "reject",
     "submission_url": "https://www.curatorspace.com/opportunities/detail/winter--open-call/10080",
     "summary_zh": "【CuratorSpace】全球开放征集索引来源，用于水彩/纸上作品研究。",
     "summary_ja": "【CuratorSpace】水彩・紙上作品のリサーチのためのグローバルな公募インデックス。",
@@ -20305,7 +20368,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "dedup_blank_duplicate"
   },
   {
     "name": "FACE展2026",
@@ -20473,7 +20537,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -20500,7 +20564,7 @@
     "confirmation_gate_signal": null,
     "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
     "pre_gate_bucket": "",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "reject",
     "url_verification_status": "ok",
     "url_status_code": 200,
     "url_final": "https://x.com/koko02803691/status/2061632639019479205",
@@ -20565,7 +20629,8 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "第六回公募展「鳥」-bird-",
@@ -20589,7 +20654,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -20616,7 +20681,7 @@
     "confirmation_gate_signal": null,
     "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
     "pre_gate_bucket": "",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "reject",
     "url_verification_status": "ok",
     "url_status_code": 200,
     "url_final": "https://x.com/koko02803691/status/2061632639019479205",
@@ -20681,7 +20746,8 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "OM SYSTEM PLAZA 2026年2月～3月開催分",
@@ -20705,7 +20771,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -20732,7 +20798,7 @@
     "confirmation_gate_signal": null,
     "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
     "pre_gate_bucket": "",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "reject",
     "url_verification_status": "ok",
     "url_status_code": 200,
     "url_final": "https://note.com/omsystem_plaza/n/n654cb8a5b813",
@@ -20798,7 +20864,8 @@
     "fee": "Free",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "camera_brand_gallery_photography_focused"
   },
   {
     "name": "OM SYSTEM PLAZA 2026年4月～6月開催分",
@@ -20822,7 +20889,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -20849,7 +20916,7 @@
     "confirmation_gate_signal": null,
     "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
     "pre_gate_bucket": "",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "reject",
     "url_verification_status": "ok",
     "url_status_code": 200,
     "url_final": "https://note.com/omsystem_plaza/n/n654cb8a5b813",
@@ -20915,7 +20982,8 @@
     "fee": "Free",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "camera_brand_gallery_photography_focused"
   },
   {
     "title": "グループ展参加アーティスト募集中 - Gallery and Links81",
@@ -21781,7 +21849,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 5
+    "verification_score": 5,
+    "name": "TOKAS Residency"
   },
   {
     "name": "2026 Asian Heritage Culture Art Show",
@@ -21805,7 +21874,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -21914,10 +21983,11 @@
     },
     "dominant_curator_personality": "institutional_formal",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "relationship_builders",
+    "exclusive_primary_bucket": "reject",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 7
+    "verification_score": 7,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Cafe Mame-Hico",
@@ -22060,7 +22130,8 @@
     "tier_adjustment": 1.5,
     "verification_score": 7,
     "fees_source": "harvested_from_submission_page",
-    "deadline_source": "harvested_from_submission_page"
+    "deadline_source": "harvested_from_submission_page",
+    "name": "Cafe Mame-Hico"
   },
   {
     "title": "Cafe Cross Point",
@@ -22199,7 +22270,8 @@
     "pre_gate_bucket": "relationship_builders",
     "career_tier": 1,
     "tier_adjustment": 1.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "Cafe Cross Point"
   },
   {
     "title": "Zines / Artist Books — Battle Plan",
@@ -22394,8 +22466,8 @@
     },
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 6.5,
     "final_score_guard_note": "Rescored 6.5 → 6.3 (verification_points=1, composite=8.47)",
     "summary_zh": "杂志/艺术书籍——战略计划：快速、低成本的途径，包含12个精选目标、6个高优先级目标和7个高円寺/中野目标。",
@@ -22404,7 +22476,8 @@
     "confirmation_gate_signal": "text:artist book",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 2
+    "verification_score": 2,
+    "reject_reason": "quality_audit"
   },
   {
     "name": "2026国际大学生数字艺术设计大赛",
@@ -22663,7 +22736,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -22763,12 +22836,13 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 8.9,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "ART FAIR TOKYO 21",
@@ -23178,8 +23252,8 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 9.0,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 5.7,
@@ -23194,7 +23268,8 @@
     "pre_gate_bucket": "relationship_builders",
     "career_tier": 1,
     "tier_adjustment": 1.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)",
@@ -23361,7 +23436,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -23459,12 +23534,13 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 8.9,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Open Calls for Artists",
@@ -23940,8 +24016,8 @@
     "curator_patterns": [],
     "pre_final_guard_score": 6.6,
     "final_score_guard_note": "Rescored 6.6 → 5.7 (verification_points=3, composite=6.6)",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "rumor_mill_sentiment": "no_data",
     "rumor_mill_score": 0.0,
     "summary_zh": "【庄托美术馆公募展】值得查看——公募展可将现有作品集转化为具体报名申请。",
@@ -23952,7 +24028,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Art公募",
@@ -24061,8 +24138,8 @@
     "curator_patterns": [],
     "pre_final_guard_score": 6.6,
     "final_score_guard_note": "Rescored 6.6 → 5.7 (verification_points=3, composite=6.6)",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "rumor_mill_sentiment": "mixed",
     "rumor_mill_score": 0.0,
     "summary_zh": "【Art公募】值得查看——公募展可将现有作品集转化为具体报名申请。",
@@ -24073,7 +24150,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
@@ -24404,7 +24482,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 4,
     "tier_adjustment": -1.5,
-    "verification_score": 3
+    "verification_score": 3,
+    "name": "Offprint"
   },
   {
     "title": "torch press",
@@ -25291,7 +25370,8 @@
     "confirmation_gate_signal": "native_medium:painting",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "name": "Royal Institute of Painters in Water Colours"
   },
   {
     "title": "Pastel Society Open Exhibition",
@@ -25310,7 +25390,7 @@
     "source_purity_score": 8.89,
     "verification_bucket": "research_needed",
     "verification_status": "partial",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "watercolor_fit_hits": [
       "watercolor",
       "works on paper",
@@ -25426,7 +25506,7 @@
     "curator_patterns": [],
     "pre_final_guard_score": 6.3,
     "final_score_guard_note": "Rescored 6.3 → 6.0 (verification_points=1, composite=8.1)",
-    "exclusive_primary_bucket": "publication_targets",
+    "exclusive_primary_bucket": "reject",
     "deadline": "2025-11-14",
     "submission_url": "https://www.mallgalleries.org.uk/open-calls/pastel-society",
     "summary_zh": "粉彩画会开放展览是英国纸上作品的开放展览资源，用于水彩/纸上作品研究。",
@@ -25435,7 +25515,8 @@
     "confirmation_gate_signal": "native_medium:painting",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "dedup_blank_duplicate"
   },
   {
     "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
@@ -25659,8 +25740,8 @@
     "curator_patterns": [],
     "pre_final_guard_score": 6.4,
     "final_score_guard_note": "Rescored 6.4 → 6.0 (verification_points=3, composite=6.92)",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "submission_url": "https://air-j.info/en/program/lair2026",
     "summary_zh": "【公开征集——AIR_J在线数据库】驻留项目，通过有针对性研究发现的线索；如果符合要求和匹配度高则有用。",
     "summary_ja": "【オープンコール——AIR_Jオンラインデータベース】レジデンシーのリードで、標的型調査を通じて発見；要件と適合性が確認できれば有用。",
@@ -25670,7 +25751,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
@@ -26277,8 +26359,8 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "research_needed",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 6.8,
     "final_score_guard_note": "Rescored 6.8 → 5.9 (verification_points=4, composite=6.36)",
     "submission_url": "https://picter.com",
@@ -26291,7 +26373,8 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 5
+    "verification_score": 5,
+    "reject_reason": "photography_only"
   },
   {
     "name": "Brillia Art Award Wall 2026",
@@ -26549,7 +26632,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "VACANT"
   },
   {
     "title": "Gallery IRO",
@@ -26669,7 +26753,8 @@
     "verification_score": 8,
     "contact": "iro@1-6.jp",
     "contact_source": "harvested_from_submission_page",
-    "deadline_source": "harvested_from_submission_page"
+    "deadline_source": "harvested_from_submission_page",
+    "name": "Gallery IRO"
   },
   {
     "title": "Gallery HANA Shimokitazawa",
@@ -26793,7 +26878,8 @@
     "verification_score": 8,
     "contact": "galleryhana2006@gmail.com",
     "contact_source": "harvested_from_submission_page",
-    "deadline_source": "harvested_from_submission_page"
+    "deadline_source": "harvested_from_submission_page",
+    "name": "Gallery HANA Shimokitazawa"
   },
   {
     "title": "ZINEイベント",
@@ -27458,7 +27544,8 @@
     "career_tier": 3,
     "tier_adjustment": 0.0,
     "verification_score": 7,
-    "fees_source": "harvested_from_submission_page"
+    "fees_source": "harvested_from_submission_page",
+    "name": "ArtConnect Art Submissions"
   },
   {
     "title": "AIR 3331",
@@ -27600,7 +27687,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "AIR 3331"
   },
   {
     "name": "オープンコール・プロジェクト",
@@ -27859,7 +27947,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "Arts Initiative Tokyo (AIT) Residency"
   },
   {
     "name": "IlloBoom! 2026 第三屆插畫巔峰賽",
@@ -27997,7 +28086,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -28092,11 +28181,12 @@
     },
     "dominant_curator_personality": "institutional_formal",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "fee": "1点10,000円、2点15,000円（ともに税込）",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 5
+    "verification_score": 5,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Zushi Art Gallery",
@@ -28215,7 +28305,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "Zushi Art Gallery"
   },
   {
     "title": "Cité Internationale des Arts Artist Residency",
@@ -28356,7 +28447,8 @@
     "pre_gate_bucket": "stretch_targets",
     "career_tier": 4,
     "tier_adjustment": -1.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "Cité Internationale des Arts"
   },
   {
     "title": "Clavis Publishing Submissions",
@@ -28461,8 +28553,8 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 7.5,
     "final_score_guard_note": "Rescored 7.5 → 5.6 (verification_points=2, composite=6.97)",
     "submission_url": "https://www.clavis-publishing.com/submit",
@@ -28474,7 +28566,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "quality_audit"
   },
   {
     "title": "shashasha",
@@ -29147,7 +29240,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "Gallery Conceal Shibuya"
   },
   {
     "name": "りんごろごろごろ",
@@ -29171,7 +29265,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -29262,12 +29356,13 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 8.7,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "SICF Fukuoka 2026",
@@ -29291,7 +29386,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -29405,10 +29500,11 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 5
+    "verification_score": 5,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "そぞろ書房",
@@ -29686,8 +29782,8 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 6.8,
@@ -29700,7 +29796,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 6
+    "verification_score": 6,
+    "reject_reason": "photography_only_curatorspace"
   },
   {
     "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
@@ -29799,8 +29896,8 @@
     },
     "dominant_curator_personality": "independent_experimental",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 6.8,
@@ -29815,7 +29912,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 6
+    "verification_score": 6,
+    "reject_reason": "photography_only_curatorspace"
   },
   {
     "name": "FACE Exhibition 2026",
@@ -30082,7 +30180,8 @@
     "confirmation_gate_signal": "text:fine art",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 5
+    "verification_score": 5,
+    "name": "Aoyama Farmers Market @ UNU"
   },
   {
     "title": "Comitia",
@@ -30272,7 +30371,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 5
+    "verification_score": 5,
+    "name": "COMITIA"
   },
   {
     "name": "空色ターコイズ",
@@ -30296,7 +30396,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -30386,12 +30486,13 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 8.7,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "HandMade In Japan Fes",
@@ -30578,7 +30679,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 5
+    "verification_score": 5,
+    "name": "HandMade In Japan Fes"
   },
   {
     "name": "Art Fair Tokyo 2026",
@@ -30889,7 +30991,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "research_needed",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": false,
     "fees_verified": false,
@@ -30915,7 +31017,7 @@
     "confirmation_gate_signal": null,
     "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
     "pre_gate_bucket": "",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "reject",
     "url_verification_status": "ok",
     "url_status_code": 200,
     "url_final": "https://gallery219.com/index.html",
@@ -30981,7 +31083,8 @@
     "submission_url": "https://gallery219.com/219kouboten/artcross6.html",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 2
+    "verification_score": 2,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Youkobo Art Space",
@@ -31141,7 +31244,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "Youkobo Art Space"
   },
   {
     "name": "Idemitsu Art Award 2026",
@@ -31165,7 +31269,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -31246,11 +31350,12 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "submission_url": "https://www.idemitsu.com/en/fun/art/method.html",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 5
+    "verification_score": 5,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Royal Institute of Painters in Water Colours",
@@ -31269,7 +31374,7 @@
     "source_purity_score": 7.64,
     "verification_bucket": "research_needed",
     "verification_status": "partial",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "watercolor_fit_hits": [
       "watercolor",
       "works on paper",
@@ -31382,7 +31487,7 @@
     "curator_patterns": [],
     "pre_final_guard_score": 5.7,
     "final_score_guard_note": "Rescored 5.7 → 5.3 (verification_points=1, composite=7.18)",
-    "exclusive_primary_bucket": "publication_targets",
+    "exclusive_primary_bucket": "reject",
     "deadline": "2026-01-23",
     "fee": "Around £60",
     "summary_zh": "Royal Institute of Painters in Water Colours——英国水彩艺术家皇家学会开放展览，是水彩/纸质作品研究的来源。",
@@ -31391,7 +31496,8 @@
     "confirmation_gate_signal": "native_medium:painting",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "dedup_blank_duplicate"
   },
   {
     "name": "2026 OCAA Ladies Art Exhibition",
@@ -31415,7 +31521,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -31441,7 +31547,7 @@
     "confirmation_gate_signal": null,
     "confirmation_gate_note": "No explicit medium confirmation found. Verify this venue accepts watercolor, painting, illustration, or works on paper before acting on this opportunity.",
     "pre_gate_bucket": "",
-    "exclusive_primary_bucket": "needs_research",
+    "exclusive_primary_bucket": "reject",
     "url_verification_status": "ok",
     "url_status_code": 200,
     "url_final": "http://ocaainfo.mywhc.ca/",
@@ -31520,7 +31626,8 @@
     "curator_patterns": [],
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 6
+    "verification_score": 6,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "秀彩会小品展2026",
@@ -31544,7 +31651,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -31636,11 +31743,12 @@
     },
     "dominant_curator_personality": "institutional_formal",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "submission_url": "https://koubo.yumegazai.com/2026/03/25/shusaikai-smallworks-2026",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 5
+    "verification_score": 5,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "「公募－日本の絵画2026－」入賞・入選発表展",
@@ -31664,7 +31772,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -31757,10 +31865,11 @@
     },
     "dominant_curator_personality": "institutional_formal",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 5
+    "verification_score": 5,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...",
@@ -32243,8 +32352,8 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "pre_final_guard_score": 7.0,
@@ -32258,7 +32367,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "photography_only_curatorspace"
   },
   {
     "title": "ARTE VENT Press",
@@ -32401,7 +32511,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -32486,12 +32596,13 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "fee": "Free",
     "submission_url": "https://www.artonclimate.com/en/register",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 5
+    "verification_score": 5,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
@@ -32636,7 +32747,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -32728,11 +32839,12 @@
     },
     "dominant_curator_personality": "institutional_formal",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "fee": "¥10,000 (1-3 artworks, flat rate); add ¥1,000 per additional artwork up to 4 total; 50% off for ages 20 and under",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 5
+    "verification_score": 5,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "name": "Gallery 191 Exhibition 2026",
@@ -33062,7 +33174,8 @@
     "confirmation_gate_signal": "text:artist book",
     "career_tier": 4,
     "tier_adjustment": -1.5,
-    "verification_score": 3
+    "verification_score": 3,
+    "name": "Printed Matter"
   },
   {
     "title": "Home - Printed Matter",
@@ -33287,8 +33400,8 @@
     ],
     "pre_final_guard_score": 8.0,
     "final_score_guard_note": "Rescored 8.0 → 6.5 (verification_points=1, composite=9.47)",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "painting_gate_status": "promoted",
     "painting_gate_hits": [
       "watercolor",
@@ -33303,7 +33416,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 4,
     "tier_adjustment": -1.5,
-    "verification_score": 3
+    "verification_score": 3,
+    "reject_reason": "dedup_blank_duplicate"
   },
   {
     "title": "Asian Cultural Council Fellowship",
@@ -33422,7 +33536,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 4,
     "tier_adjustment": -1.5,
-    "verification_score": 5
+    "verification_score": 5,
+    "name": "Asian Cultural Council"
   },
   {
     "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
@@ -33529,8 +33644,8 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "pre_final_guard_score": 6.8,
     "final_score_guard_note": "Rescored 6.8 → 5.0 (verification_points=2, composite=6.2)",
     "uncapped_score": 10.0,
@@ -33544,7 +33659,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "photography_only_curatorspace"
   },
   {
     "title": "BONUS TRACK",
@@ -33688,7 +33804,8 @@
     "pre_gate_bucket": "relationship_builders",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "BONUS TRACK Shimokitazawa"
   },
   {
     "name": "第9回 国際公募 東京アート工芸2026",
@@ -33927,8 +34044,8 @@
     "curator_patterns": [],
     "pre_final_guard_score": 5.5,
     "final_score_guard_note": "Rescored 5.5 → 5.0 (verification_points=3, composite=5.83)",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "fee": "Free",
     "summary_zh": "京都艺术中心驻地计划可能在她的作品集和项目陈述足够强大后才会有意义。",
     "summary_ja": "Kyoto Art Center Residencyは、ポートフォリオとプロジェクト陈述が十分に充実した後に検討の余地がある。",
@@ -33938,7 +34055,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "AIR_J Open Calls",
@@ -34048,8 +34166,8 @@
     "curator_patterns": [],
     "pre_final_guard_score": 5.5,
     "final_score_guard_note": "Rescored 5.5 → 5.0 (verification_points=3, composite=5.83)",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "submission_url": "https://air-j.info/en/program",
     "summary_zh": "AIR_J公开征集可能在她的作品集和项目陈述足够强大后才会有意义。",
     "summary_ja": "AIR_J Open Callsは、ポートフォリオとプロジェクト陈述が十分に充実した後に検討の余地がある。",
@@ -34059,7 +34177,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "NEW AIR",
@@ -34169,8 +34288,8 @@
     "curator_patterns": [],
     "pre_final_guard_score": 5.5,
     "final_score_guard_note": "Rescored 5.5 → 5.0 (verification_points=3, composite=5.83)",
-    "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "needs_research",
+    "recommendation_visibility": "hidden",
+    "exclusive_primary_bucket": "reject",
     "summary_zh": "NEW AIR可能在她的作品集和项目陈述足够强大后才会有意义。",
     "summary_ja": "NEW AIRは、ポートフォリオとプロジェクト陈述が十分に充実した後に検討の余地がある。",
     "confirmation_gate_status": "needs_confirmation",
@@ -34179,7 +34298,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "【公募】2026年度レジデンス・プログラム公募開始",
@@ -34448,7 +34568,8 @@
     "confirmation_gate_signal": "text:artist book",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 3
+    "verification_score": 3,
+    "name": "The Container"
   },
   {
     "title": "Tokyo Arts and Space",
@@ -34601,7 +34722,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "Tokyo Arts and Space (TOKAS)"
   },
   {
     "title": "Boji Hair+Gallery",
@@ -34747,7 +34869,8 @@
     "confirmation_gate_signal": "text:watercolor",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 3
+    "verification_score": 3,
+    "name": "Boji Hair+Gallery"
   },
   {
     "name": "TOKAS レジデンシー 4つのレジデンス・プログラム公募",
@@ -35002,7 +35125,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "Design Festa"
   },
   {
     "title": "reload Shimokitazawa",
@@ -35178,7 +35302,8 @@
     "pre_gate_bucket": "relationship_builders",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 4
+    "verification_score": 4,
+    "name": "reload Shimokitazawa"
   },
   {
     "name": "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award",
@@ -35542,7 +35667,8 @@
     "pre_gate_bucket": "research_needed",
     "career_tier": 2,
     "tier_adjustment": 0.5,
-    "verification_score": 2
+    "verification_score": 2,
+    "name": "Creative Space Hayashi"
   },
   {
     "name": "全國插畫徵集-2026台灣VC文化賞",
@@ -35936,7 +36062,8 @@
     "confirmation_gate_signal": "category:japan_watercolor_institution",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 1
+    "verification_score": 1,
+    "name": "Japan Watercolor Society (日本水彩画会)"
   },
   {
     "name": "「国際創作者駐村計畫」",
@@ -36294,7 +36421,7 @@
     "quick_action": "Verify submission page and deadline before applying.",
     "verification_status": "strong_partial",
     "verification_bucket": "needs_research",
-    "recommendation_visibility": "show",
+    "recommendation_visibility": "hidden",
     "manual_review_needed": true,
     "deadline_verified": true,
     "fees_verified": false,
@@ -36376,11 +36503,12 @@
     },
     "dominant_curator_personality": "institutional_formal",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "research_needed",
+    "exclusive_primary_bucket": "reject",
     "fee": "5,000 yen",
     "career_tier": 3,
     "tier_adjustment": 0.0,
-    "verification_score": 5
+    "verification_score": 5,
+    "reject_reason": "dedup_duplicate"
   },
   {
     "title": "Japan International Watercolor Institute Online Exhibition",

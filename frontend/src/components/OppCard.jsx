@@ -132,6 +132,11 @@ export default function OppCard({ opp, isOpen, onDetails }) {
         {/* Description */}
         <p className="opp-card-desc">{opp.summary}</p>
 
+        {/* Why it fits — the artist-specific signal, only when distinct from summary */}
+        {opp.why_card && (
+          <p className="opp-card-why">{opp.why_card}</p>
+        )}
+
         {/* Primary action */}
         <div className="opp-card-actions">
           <button

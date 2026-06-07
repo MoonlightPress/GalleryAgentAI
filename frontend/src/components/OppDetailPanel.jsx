@@ -101,7 +101,7 @@ export default function OppDetailPanel({ opp, onClose }) {
             </div>
           )}
           {opp.why_it_fits && (
-            <div className="detail-block">
+            <div className="detail-block detail-why-fits">
               <div className="detail-label">{t('detail.label.whyFits')}</div>
               <p>{opp.why_it_fits}</p>
             </div>
@@ -109,7 +109,7 @@ export default function OppDetailPanel({ opp, onClose }) {
           {opp.bullets?.length > 0 && (
             <div className="detail-block">
               <div className="detail-label">{t('detail.label.keyPoints')}</div>
-              <ul className="detail-bullets">
+              <ul className="detail-bullets detail-bullets--evidence">
                 {opp.bullets.map((b, i) => <li key={i}>{b}</li>)}
               </ul>
             </div>
@@ -158,11 +158,21 @@ export default function OppDetailPanel({ opp, onClose }) {
             </button>
           </div>
 
-          {opp.what_to_verify?.length > 0 && (
-            <div className="detail-block detail-verify">
-              <div className="detail-label">{t('detail.label.verifyFirst')}</div>
-              <ul className="detail-verify-list">
-                {opp.what_to_verify.slice(0, 3).map((v, i) => <li key={i}>{v}</li>)}
+          {opp.checklist?.length > 0 && (
+            <div className="detail-block detail-checklist">
+              <div className="detail-label">Submission prep</div>
+              <ul className="detail-checklist-list">
+                {opp.checklist.map((item, i) => (
+                  <li key={i} className={`checklist-item checklist-${item.status}`}>
+                    <span className="checklist-icon">
+                      {item.status === 'ready' ? '✓' : item.status === 'missing' ? '✗' : '○'}
+                    </span>
+                    <span className="checklist-content">
+                      <strong>{item.label}</strong>
+                      {item.note && <span className="checklist-note"> — {item.note}</span>}
+                    </span>
+                  </li>
+                ))}
               </ul>
             </div>
           )}

@@ -21,6 +21,10 @@ OPP_PATH    = "deploy_data/compact_opportunities.json"
 REPORT_PATH = "reports/medium_confirmation_gate_report.md"
 
 # ── Text fields searched, in priority order ────────────────────────────────
+# NOTE: recommended_body_of_work is intentionally excluded — it's pipeline-
+# generated speculation (portfolio_match_engine), not evidence from the source.
+# Including it caused false positives (e.g. poetry presses confirmed via the
+# "Artist Book" pattern because the portfolio engine assigned that category).
 TEXT_FIELDS = [
     "accepted_media",           # explicit medium field — highest trust
     "title", "name",
@@ -30,8 +34,6 @@ TEXT_FIELDS = [
     "quick_action",
     "source_purity_reason",
     "verification_summary",
-    "recommended_body_of_work",
-    "submission_strategy",
 ]
 
 # ── Whitelist patterns ─────────────────────────────────────────────────────

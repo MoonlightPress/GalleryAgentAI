@@ -121,6 +121,20 @@
   overflow: hidden;
 }
 
+/* ── Why it fits — artist-specific signal ── */
+.opp-card-why {
+  font-size: 11px;
+  color: #7a5a18;
+  line-height: 1.45;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-left: 9px;
+  border-left: 2px solid #c9a86c;
+}
+
 /* ── Primary action row ── */
 .opp-card-actions {
   display: flex;

@@ -24,8 +24,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_DIR   = Path(__file__).parent / "memory"
-DEPLOY_DIR = Path(__file__).parent / "deploy_data"
+DATA_DIR        = Path(__file__).parent / "memory"
+DEPLOY_DIR      = Path(__file__).parent / "deploy_data"
+SUPPRESSED_PATH = DATA_DIR / "suppressed_opportunities.json"
+SUBMISSIONS_PATH = DATA_DIR / "submission_log.json"
+
+
+def _load_suppressed() -> set:
+    if SUPPRESSED_PATH.exists():
+        return set(json.loads(SUPPRESSED_PATH.read_text(encoding="utf-8")))
+    return set()
 
 # Category → section mapping (covers all categories present in compact_opportunities)
 SECTION_CATEGORIES = {
@@ -206,12 +214,70 @@ GEGYjiji
 [portfolio link]"""
 
 
+_DEADLINE_EMPTY = frozenset({
+    "", "unknown", "n/a", "tbd", "check current schedule",
+    "varies", "check site", "see website", "none", "check source",
+})
+
+
+def _build_checklist(opp: dict) -> list:
+    items = []
+    category = opp.get("category", "")
+    city     = (opp.get("city") or "").lower()
+    country  = (opp.get("country") or "").lower()
+
+    dl = str(opp.get("deadline", "")).strip().lower()
+    if dl in _DEADLINE_EMPTY:
+        items.append({"label": "Deadline", "status": "check", "note": "Not yet confirmed — verify on site"})
+    elif opp.get("deadline_verified"):
+        items.append({"label": "Deadline", "status": "ready", "note": opp.get("deadline", "")})
+    else:
+        items.append({"label": "Deadline", "status": "check", "note": f"{opp.get('deadline','')} — confirm before applying"})
+
+    fees_raw = str(opp.get("fees", "")).strip().lower()
+    if "free" in fees_raw or "¥0" in fees_raw or fees_raw == "0":
+        items.append({"label": "Entry fee", "status": "ready", "note": "Free"})
+    elif fees_raw and fees_raw not in {"check source", "check site", "tbd", "unknown", ""}:
+        items.append({"label": "Entry fee", "status": "ready", "note": opp.get("fees", "")})
+    else:
+        items.append({"label": "Entry fee", "status": "check", "note": "Verify amount on site"})
+
+    sub_ok = bool(opp.get("submission_page")) and opp.get("url_verification_status") == "ok"
+    if sub_ok:
+        items.append({"label": "Submission path", "status": "ready", "note": "Link confirmed live"})
+    elif opp.get("contact") and "@" in str(opp.get("contact", "")):
+        items.append({"label": "Submission path", "status": "ready", "note": "Email contact available"})
+    else:
+        items.append({"label": "Submission path", "status": "check", "note": "Find submission page or contact"})
+
+    items.append({"label": "Artist statement", "status": "ready", "note": "On file in Peppercorn"})
+    items.append({"label": "Portfolio images", "status": "ready", "note": "Watercolor series available"})
+
+    if "tokyo" in city or "japan" in country:
+        items.append({"label": "Japanese intro email", "status": "ready", "note": "Draft available in Details"})
+    elif "beijing" in city or "china" in country:
+        items.append({"label": "Chinese intro email", "status": "ready", "note": "Draft available in Details"})
+
+    bow = opp.get("recommended_body_of_work") or ""
+    if "Artist Book" in bow or "Zine" in bow:
+        label = "Zine or artist book" if category in {
+            "zine_print", "zine_shop_consignment", "zine_fair_booth", "book_publishing"
+        } else "Artist book or print edition"
+        items.append({"label": label, "status": "missing", "note": "Physical publication needed for this opportunity"})
+
+    return items
+
+
 def shape_card(opp: dict) -> dict:
     category = opp.get("category", "")
     org      = opp.get("organization") or _opp_name(opp)
     name     = _opp_name(opp)
     score    = _overall_score(opp)
     summary  = opp.get("one_sentence", "")
+
+    why = opp.get("why_this_fits_short", "")
+    # why_card: shown on card face only when it adds something beyond the summary
+    why_card = why if (why and why[:60] != summary[:60]) else ""
 
     return {
         "id":              _opp_id(opp),
@@ -235,11 +301,13 @@ def shape_card(opp: dict) -> dict:
         "summary_zh":      opp.get("summary_zh", ""),
         "summary_ja":      opp.get("summary_ja", ""),
         "overview":        summary,
-        "why_it_fits":     opp.get("why_this_fits_short", ""),
+        "why_card":        why_card,
+        "why_it_fits":     why,
         "next_action":     opp.get("quick_action", ""),
-        "soft_warning":    opp.get("verification_summary", ""),
+        "soft_warning":    opp.get("score_sanity_note", "") or opp.get("verification_summary", ""),
         "what_to_verify":  opp.get("missing_fields", []),
-        "bullets":         [],
+        "bullets":         opp.get("three_bullets", []) or [],
+        "checklist":       _build_checklist(opp),
         # Email drafts
         "email_zh": email_zh(org, category),
         "email_ja": email_ja(org, category),
@@ -255,11 +323,12 @@ def load_opportunities() -> list:
     path = DEPLOY_DIR / "compact_opportunities.json"
     raw  = json.loads(path.read_text(encoding="utf-8"))
     items = raw if isinstance(raw, list) else raw.get("items", [])
-    # Exclude permanently closed and reject-bucketed items
+    suppressed = _load_suppressed()
     return [
         x for x in items
         if x.get("exclusive_primary_bucket") not in {"reject", "low_priority"}
         and x.get("status") != "permanently_closed"
+        and _opp_id(x) not in suppressed
     ]
 
 
@@ -336,7 +405,48 @@ def post_feedback(payload: FeedbackPayload):
     })
 
     feedback_path.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    if payload.action == "not_for_me":
+        suppressed = list(_load_suppressed())
+        if payload.opp_id not in suppressed:
+            suppressed.append(payload.opp_id)
+        SUPPRESSED_PATH.write_text(json.dumps(suppressed, ensure_ascii=False, indent=2), encoding="utf-8")
+
     return {"ok": True, "opp_id": payload.opp_id, "action": payload.action}
+
+
+class SubmissionEntry(BaseModel):
+    date: str
+    venue: str
+    what: str
+    outcome: str = "pending"
+    notes: str = ""
+
+
+@app.get("/api/submissions")
+def get_submissions():
+    if SUBMISSIONS_PATH.exists():
+        return json.loads(SUBMISSIONS_PATH.read_text(encoding="utf-8"))
+    return []
+
+
+@app.post("/api/submissions")
+def add_submission(entry: SubmissionEntry):
+    if SUBMISSIONS_PATH.exists():
+        records = json.loads(SUBMISSIONS_PATH.read_text(encoding="utf-8"))
+    else:
+        records = []
+    records.append({
+        "id":        hashlib.md5(f"{entry.date}{entry.venue}".encode()).hexdigest()[:8],
+        "date":      entry.date,
+        "venue":     entry.venue,
+        "what":      entry.what,
+        "outcome":   entry.outcome,
+        "notes":     entry.notes,
+        "logged_at": datetime.now(timezone.utc).isoformat(),
+    })
+    SUBMISSIONS_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "count": len(records)}
 
 
 @app.get("/api/saffron")

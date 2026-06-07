@@ -662,6 +662,154 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   )
 }
 
+// ── Submission log section ────────────────────────────────────────────────
+
+const OUTCOME_OPTIONS = [
+  { value: 'pending',    label: 'Pending' },
+  { value: 'accepted',   label: 'Accepted ✓' },
+  { value: 'rejected',   label: 'Rejected' },
+  { value: 'waitlisted', label: 'Waitlisted' },
+  { value: 'withdrawn',  label: 'Withdrawn' },
+]
+
+function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
+  const { t } = useLanguage()
+  const [submissions, setSubmissions] = useState([])
+  const [form, setForm] = useState({ date: '', venue: '', what: '', outcome: 'pending', notes: '' })
+  const [saving, setSaving] = useState(false)
+  const [saved, flash] = useSaved()
+
+  useEffect(() => {
+    fetch('/api/submissions')
+      .then(r => r.ok ? r.json() : [])
+      .then(data => setSubmissions(Array.isArray(data) ? data : []))
+      .catch(() => {})
+  }, [])
+
+  function setField(k, v) { setForm(f => ({ ...f, [k]: v })) }
+
+  async function submitEntry() {
+    if (!form.venue.trim() || !form.what.trim()) return
+    setSaving(true)
+    try {
+      const r = await fetch('/api/submissions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...form, date: form.date || new Date().toISOString().slice(0, 10) }),
+      })
+      if (r.ok) {
+        const updated = await fetch('/api/submissions').then(r2 => r2.json())
+        setSubmissions(Array.isArray(updated) ? updated : [])
+        setForm({ date: '', venue: '', what: '', outcome: 'pending', notes: '' })
+        flash()
+      }
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  const OUTCOME_COLORS = {
+    accepted:   { bg: '#f0fbee', border: '#8fc98a', text: '#2e6626' },
+    rejected:   { bg: '#fef5f5', border: '#e8b0b0', text: '#8b2a2a' },
+    waitlisted: { bg: '#fffbef', border: '#e8d890', text: '#7a6010' },
+    withdrawn:  { bg: '#f5f5f5', border: '#ccc',    text: '#555' },
+    pending:    { bg: '#f5f8ff', border: '#b0c4e8', text: '#2a4080' },
+  }
+
+  const sorted = [...submissions].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+
+  return (
+    <SectionShell
+      id="submission-log"
+      sectionRef={sectionRef}
+      title="Submission Log"
+      subtitle={submissions.length === 0 ? 'No submissions logged yet' : `${submissions.length} submission${submissions.length !== 1 ? 's' : ''} on record`}
+      isOpen={isOpen}
+      onToggle={onToggle}
+    >
+      <p className="pp-section-note">Keep a record of what you've submitted and what happened. The system uses this to avoid recommending the same venue twice.</p>
+
+      <div className="pp-sub-form">
+        <div className="pp-sub-form-row">
+          <div className="pp-sub-field">
+            <label className="pp-sub-label">Date</label>
+            <input
+              type="date"
+              className="pp-sub-input"
+              value={form.date}
+              onChange={e => setField('date', e.target.value)}
+            />
+          </div>
+          <div className="pp-sub-field pp-sub-field--wide">
+            <label className="pp-sub-label">Venue or opportunity</label>
+            <input
+              type="text"
+              className="pp-sub-input"
+              value={form.venue}
+              onChange={e => setField('venue', e.target.value)}
+              placeholder="Gallery name, open call, fair…"
+            />
+          </div>
+          <div className="pp-sub-field">
+            <label className="pp-sub-label">Outcome</label>
+            <select className="pp-sub-select" value={form.outcome} onChange={e => setField('outcome', e.target.value)}>
+              {OUTCOME_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+            </select>
+          </div>
+        </div>
+        <div className="pp-sub-field">
+          <label className="pp-sub-label">What was submitted</label>
+          <input
+            type="text"
+            className="pp-sub-input"
+            value={form.what}
+            onChange={e => setField('what', e.target.value)}
+            placeholder="Urban Watercolors series, 5 works / artist book proposal / residency application…"
+          />
+        </div>
+        <div className="pp-sub-field">
+          <label className="pp-sub-label">Notes (optional)</label>
+          <input
+            type="text"
+            className="pp-sub-input"
+            value={form.notes}
+            onChange={e => setField('notes', e.target.value)}
+            placeholder="Follow-up needed, referral from…"
+          />
+        </div>
+        <button
+          className={`pp-save${saved ? ' pp-save--done' : ''}`}
+          onClick={submitEntry}
+          disabled={saving || !form.venue.trim() || !form.what.trim()}
+        >
+          {saved ? 'Logged ✓' : 'Log submission'}
+        </button>
+      </div>
+
+      {sorted.length > 0 && (
+        <div className="pp-sub-list">
+          {sorted.map(s => {
+            const colors = OUTCOME_COLORS[s.outcome] || OUTCOME_COLORS.pending
+            return (
+              <div key={s.id || s.date + s.venue} className="pp-sub-row" style={{ borderLeft: `3px solid ${colors.border}` }}>
+                <div className="pp-sub-row-header">
+                  <span className="pp-sub-venue">{s.venue}</span>
+                  <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
+                    {OUTCOME_OPTIONS.find(o => o.value === s.outcome)?.label || s.outcome}
+                  </span>
+                  {s.date && <span className="pp-sub-date">{s.date}</span>}
+                </div>
+                <div className="pp-sub-what">{s.what}</div>
+                {s.notes && <div className="pp-sub-notes">{s.notes}</div>}
+              </div>
+            )
+          })}
+        </div>
+      )}
+    </SectionShell>
+  )
+}
+
 // ── Carousel data builders ────────────────────────────────────────────────
 
 function buildCarouselCards(profile, t) {
@@ -757,6 +905,7 @@ function computeSectionOrder(profile) {
     'instagram-strategy': 0.80,
     'artist-statement':   hasText ? 0.50 : 0.05,
     'exhibition-pathway': 0.40,
+    'submission-log':     0.35,
     'preferences':        0.20,
     'career-goals':       Math.min(goalsCount / 3, 0.75),
     'saffron-questions':  answeredCount / 8,
@@ -900,6 +1049,14 @@ export default function PeppercornPage({ nav }) {
         isOpen={openSections.has('preferences')}
         onToggle={() => toggleSection('preferences')}
         sectionRef={setSectionRef('preferences')}
+      />
+    ),
+    'submission-log': (
+      <SubmissionLogSection
+        key="submission-log"
+        isOpen={openSections.has('submission-log')}
+        onToggle={() => toggleSection('submission-log')}
+        sectionRef={setSectionRef('submission-log')}
       />
     ),
   }
