@@ -215,7 +215,10 @@
     "verification_score": 10,
     "fees_source": "harvested_from_submission_page",
     "deadline_source": "harvested_from_submission_page",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Exhibitor Application Inquiry — GEGYjiji (Watercolor / Artist Books)\n\nDear Tokyo Art Book Fair Team,\n\nI am reaching out to ask about the exhibitor application process for the upcoming fair, as TABF's focus on independent publishing and artist-made books feels like a natural context for my work. I am GEGYjiji, a Chinese watercolor artist based in Tokyo, and in 2021 I published Colour Diary, a solo illustration collection that grew from a daily watercolor diary practice I have maintained since 2020. The book centers on quiet urban scenes, domestic interiors, and the particular light of Tokyo neighborhoods — intimate, small-scale work that I believe sits comfortably alongside the kind of thoughtful, hand-felt publishing TABF consistently platforms. I would be grateful if you could share details on the application timeline, booth fees, and submission requirements for the next edition. My recent work can be seen on Instagram at @gegyjiji, and I am happy to provide any additional materials you may need.\n\nWarm regards,\nGEGYjiji",
+    "email_ja": "",
+    "email_zh": ""
   },
   {
     "title": "UTRECHT",
@@ -430,7 +433,10 @@
     "deadline_source": "rumor_mill_expansion",
     "rumor_mill_sentiment": "positive",
     "name": "UTRECHT",
-    "site_http_code": 0
+    "site_http_code": 0,
+    "email_en": "Subject: Inquiry from illustrator GEGYjiji — watercolor zine / consignment possibility\n\nDear UTRECHT team,\n\nI have long admired how UTRECHT brings together artist books, zines, and illustrated works that sit quietly between fine art and everyday life, and I think my work may belong in that same conversation. I am GEGYjiji, a Chinese watercolor artist based in Tokyo, and in 2021 I published Colour Diary, a small illustration collection grown from a daily watercolor practice that documents domestic interiors, neighborhood light, and the quiet texture of city life — much of it observed here in Tokyo. My work has been shown in Tokyo most recently as part of Tide from China, a group exhibition at ACG_Labo in Harajuku in 2023, and I am now looking to place printed work or original pieces in spaces where that kind of attentive, intimate scale feels at home. I would love to explore whether a consignment arrangement or a small exhibition might be a possibility, and you are welcome to see more of my work on Instagram at @gegyjiji. Thank you very much for your time, and I hope to hear from you.\n\nGEGYjiji",
+    "email_ja": "件名: 作品のご相談について — GEGYjiji\n\nUTRECHTさまへ\n\nUTRECHTさんが手がけるアーティストブックやジンのセレクションを以前から拝見しており、印刷物を通じてアートと日常の間を丁寧につなぐ場として、ずっと関心を持っておりました。私はGEGYjiji（ジェジー）と申します。東京在住の中国人イラストレーターで、2020年から毎日続けている水彩日記をもとに、2021年に初の作品集「Colour Diary（色彩日記）」を制作いたしました。東京の街並みや室内の光、猫など、静かな日常の断片を水彩で描いており、ジンや小さな印刷物との相性も意識しながら作品を展開しております。もし可能であれば、作品の取り扱いや展示についてご相談できればと思い、ご連絡いたしました。ポートフォリオはInstagram（@gegyjiji）にてご覧いただけます。どうぞよろしくお願いいたします。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "name": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -954,7 +960,10 @@
     "verification_score": 8,
     "rumor_mill_sentiment": "positive",
     "site_http_code": 200,
-    "fees_source": "harvested_from_submission_page"
+    "fees_source": "harvested_from_submission_page",
+    "email_en": "Subject: Booth Inquiry — GEGYjiji / Watercolor Artist\n\nHello TOKIO ART BOOK FAIR team,\n\nI came across your fair and was drawn to its invitation-based format and the kind of intimate, artist-made publications it brings together — it feels like exactly the right context for the work I make. I am GEGYjiji, a Chinese watercolor artist based in Tokyo, and my first illustration collection Colour Diary grew out of a daily watercolor diary practice I have kept since 2020, documenting quiet domestic moments, Tokyo neighborhoods, and interior light in a small, personal scale. I would love to understand how the booth application or recommendation process works for 2026, and whether there is still an opportunity to participate. You can find my recent work on Instagram at @gegyjiji, and I am happy to share any additional materials you might need.\n\nThank you for your time, and I hope to hear from you.\n\nGEGYjiji",
+    "email_ja": "件名: ブース出展について — GEGYjiji（水彩イラストレーター）\n\nご担当者様\n\nTOKIO ART BOOK FAIRが招待制を軸に、アーティストとパブリッシャーの丁寧なつながりで構成されていることを知り、この度ご連絡いたしました。私はGEGYjiji（ジェジー）と申します。東京を拠点に活動する中国出身の水彩イラストレーターで、2020年から毎日続けている水彩日記をもとに、2021年に初の作品集『Colour Diary（色彩日記）』を刊行しました。東京の街の光や室内の静けさ、日常のひとこまを透明水彩で描いており、アートブックフェアという場の空気にも馴染むのではと感じています。出展の応募方法や受付状況について詳しくお聞かせいただけますでしょうか。作品はInstagram（@gegyjiji）でご覧いただけます。\n\nどうぞよろしくお願いいたします。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
@@ -1134,7 +1143,10 @@
     "career_tier": 1,
     "tier_adjustment": 2.5,
     "verification_score": 10,
-    "site_http_code": 0
+    "site_http_code": 0,
+    "email_en": "Subject: Booth Application Inquiry — ZINEフェス東京 July 11 2026\n\nHi BOOK CULTURE CLUB team,\n\nI've been following ZINEフェス東京 for a while and really appreciate that it centers self-made work in an intimate, browse-at-your-own-pace format — which feels like exactly the right setting for what I make. I'm GEGYjiji, a Chinese watercolor artist based in Tokyo, and I'd love to apply for a half-table booth at the July 11 event; I published my first illustration collection, Colour Diary, in 2021, growing directly from a daily watercolor diary practice I've kept since 2020, and I'd be bringing printed zines and small works from that ongoing project. You can see my work at instagram.com/gegyjiji. Please let me know if spots are still available and how to complete the application.\n\nGEGYjiji",
+    "email_ja": "件名: ZINEフェス東京 7月11日出展のご応募について\n\nはじめまして、GEGYjiji（ジェジー）と申します。毎月コンスタントに開催されていること、そして個人制作のzineや作家本に特化したフォーマットに魅力を感じ、ご連絡いたしました。わたしは東京在住の中国人水彩イラストレーターで、2020年から続けている日々の水彩日記をもとに、2021年に初のイラスト作品集「色彩日記（Colour Diary）」を刊行しました。東京の街並みや室内の光、猫など、日常のなかの静けさを水彩で描いており、ZINEフェスのような場で直接お手に取っていただけたらと思っております。作品はInstagram @gegyjiji よりご覧いただけます。7月11日の東京会場への出展を希望しておりますが、応募の手順や空き状況についてご確認させていただけますでしょうか。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "title": "Center for Book Arts Opportunities",
@@ -2624,7 +2636,10 @@
     "deadline_source": "harvested_from_submission_page",
     "rumor_mill_sentiment": "no_data",
     "name": "B&B Shimokitazawa",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Event or Talk Inquiry — GEGYjiji, Watercolor Artist\n\nDear B&B Shimokitazawa team,\n\nI've long admired the way B&B brings books and conversation together in the same room — the format feels genuinely rare, and it's the kind of setting where a quiet, image-led talk could land in a way it simply wouldn't elsewhere. I'm GEGYjiji, a Chinese watercolor artist based in Tokyo, and my first illustration collection Colour Diary grew out of a daily watercolor practice I began in 2020, documenting Tokyo neighborhoods, interior light, and the small textures of everyday life seen through a Chinese eye. I would love to explore whether there might be a good fit for an artist talk or a small event around the work — you can get a sense of the visual world at Instagram @gegyjiji. If this feels like it could belong in your programming, I'd be very glad to hear from you.\n\nWith warm regards,\nGEGYjiji",
+    "email_ja": "件名: イベント・トークの開催についてご相談\n\n担当者様\n\nB&Bさんは本と会話と表現がゆるやかにつながる場として、以前からとても親しみを感じており、今回思い切ってご連絡いたしました。わたしはGEGYjiji（ジェジー）と申します。北京出身、現在東京を拠点に活動している水彩イラストレーターで、2021年に刊行した初の作品集『色彩日記（Colour Diary）』をはじめ、2020年から続けている毎日の水彩日記をもとに、東京の街や日常のなかに宿る静けさや光を描いてきました。もしB&Bさんのプログラムのなかで、ビジュアルアーティストによるトークや作品展示の機会がございましたら、ぜひご一緒できないかとご提案したく存じます。作品はInstagram @gegyjiji よりご覧いただけますので、ご関心をもっていただけましたら幸いです。\n\n何卒よろしくお願いいたします。\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "title": "flotsam books",
@@ -2826,7 +2841,10 @@
     "fees_source": "harvested_from_submission_page",
     "rumor_mill_sentiment": "no_data",
     "name": "flotsam books",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Inquiry from watercolor artist GEGYjiji — possible consignment or event\n\nDear flotsam books team,\n\nI came across flotsam books through the Tokyo art book community, and the way you bring together zines, illustrated books, and a genuinely attentive audience feels like exactly the kind of space I've been hoping to find. I'm a Tokyo-based Chinese watercolor artist, and my first illustrated collection Colour Diary — a book of daily watercolor observations of domestic light, city corners, and quiet moments — feels like it might sit naturally among what you carry. My work grows from a daily watercolor diary practice I've kept since 2020, and the themes run through urban Tokyo life, interior stillness, and a kind of cross-cultural noticing. You can see the full range of my work on Instagram at @gegyjiji. I'd love to know whether you accept consignment titles or host small artist events, and I'm very open to visiting the shop in person to talk further.\n\nWarm regards,\nGEGYjiji",
+    "email_ja": "件名: 作品のお取り扱い・展示についてのご相談\n\nflotsam books ご担当者様\n\nflotsam booksさんが、アートブックやzineを通じて作り手と読み手をつなぐ場を丁寧に育てていらっしゃることに、以前から親しみを感じておりました。私はGEGYjiji（ジェジー）と申します。東京在住の中国人水彩画家で、2020年から毎日続けている水彩日記をもとに、2021年に初の個人イラスト集『Colour Diary（色彩日記）』を制作いたしました。東京の街や室内の光、日常のひとこまを、静かな透明感のある水彩で描いており、flotsam booksさんの空気感と重なるものがあるのではないかと感じ、ご連絡させていただきました。作品集の販売委託や、小さな展示の可能性についてご相談できればと思っておりますが、もしご興味をお持ちいただけましたら、Instagram（@gegyjiji）にてポートフォリオをご覧いただけますと幸いです。どうぞよろしくお願いいたします。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "title": "Submissions - Little Press Publishing",
@@ -3430,7 +3448,10 @@
     "career_tier": 1,
     "tier_adjustment": 2.5,
     "verification_score": 10,
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Consignment inquiry — watercolor zines by GEGYjiji\n\nHi MOUNT ZINE team,\n\nI've been following the kinds of work you carry for a while — small, careful, personal print things that feel made rather than produced — and I think my zines might sit comfortably in that company. I'm a Tokyo-based Chinese watercolor artist and I self-published Colour Diary in 2021, a collection that grew out of a daily watercolor diary practice I've kept since 2020, mostly quiet Tokyo scenes, interiors, cats, neighbourhood light. I'd love to know whether you're currently accepting consignment submissions and what your process looks like. You can get a feel for the work at instagram.com/gegyjiji if that helps.\n\nGEGYjiji",
+    "email_ja": "件名: 委託販売のご相談 — GEGYjiji（水彩イラストレーター）\n\nはじめまして、GEGYjiji（ジェジー）と申します。日々の水彩日記から生まれた作品集『Colour Diary（色彩日記）』をはじめ、東京の街や室内の光をテーマに制作している中国出身のイラストレーターです。MOUNT ZINEさんが扱われているような、作家の視点がにじみ出る手作り感のある本や、静かな佇まいの作品が並ぶ空間にとても親しみを感じており、ぜひ委託販売についてご相談できればと思いメールしました。作品の雰囲気はInstagram（@gegyjiji）でご覧いただけます。お取り扱いの条件や募集状況など、もしよろしければ教えていただけると嬉しいです。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "name": "B&B (Book & Beer)",
@@ -3640,7 +3661,10 @@
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Rescored 8.6 → 8.2 (verification_points=3, composite=9.93)",
     "recommendation_visibility": "show",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Consignment Inquiry — Colour Diary / GEGYjiji\n\nDear B&B team,\n\nI have long admired how your shelves bring together books, zines, and art in a way that feels genuinely curated rather than simply stocked, and Shimokitazawa feels like the right neighborhood for the kind of quiet, observational work I make. I am GEGYjiji, a Tokyo-based Chinese watercolor artist, and I am writing to ask whether B&B accepts consignment inquiries for self-published artist books. My first illustration collection, Colour Diary, grew out of a daily watercolor diary practice I began in 2020 — it documents domestic interiors, neighborhood light, and small moments of urban life in a format I think would sit naturally alongside the books you carry. You can find a fuller sense of my work on Instagram at @gegyjiji. I would love to hear about your current process for consignment, and I am also happy to visit the shop in person if that would be easier.\n\nWarm regards,\nGEGYjiji",
+    "email_ja": "件名: 作品のコンサインメントについてのご相談\n\nご担当者様\n\n下北沢で本とビールと、そしてアートブックやZINEを日常的に並べているB&Bさんのスタイルに、以前から親しみを感じておりました。私はGEGYjiji（ジェジー）と申しまして、東京在住の中国人水彩画家です。2020年から毎日続けている水彩日記をもとに、2021年に初の個人イラスト作品集『色彩日記（Colour Diary）』を制作いたしました。東京の街角や室内の光、猫や静かな日常を描いた作品で、B&Bさんの棚に自然に馴染む世界観だと感じ、コンサインメントのご相談をさせていただきたいと思いご連絡いたしました。作品のポートフォリオはInstagram（@gegyjiji）にてご覧いただけますので、もしご興味をお持ちいただけましたら、詳細についてお話しできれば幸いです。\n\nどうぞよろしくお願いいたします。\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "title": "Aperture | Photography",
@@ -4731,7 +4755,10 @@
     "contact": "TEL: 03-6762-8122",
     "contact_source": "harvested_from_submission_page",
     "pre_final_guard_score": 9.4,
-    "final_score_guard_note": "Rescored 9.4 → 9.2 (verification_points=5, composite=10.12)"
+    "final_score_guard_note": "Rescored 9.4 → 9.2 (verification_points=5, composite=10.12)",
+    "email_en": "Subject: Exhibition inquiry — GEGYjiji watercolor works\n\nDear HATTIFNATT Koenji team,\n\nYour cafe's storybook atmosphere and the way illustrated characters seem to belong to the walls made me think my watercolor work might sit naturally there. I make small, quiet paintings of Tokyo interiors, cats, and everyday light — a practice I have kept up daily since 2020, which became my first illustration collection, Colour Diary. I would love to ask whether you have any wall space available for a short exhibition, and you are very welcome to look at my work at instagram.com/gegyjiji before we speak.\n\nGEGYjiji",
+    "email_ja": "件名: 壁面展示のご相談 — イラストレーター GEGYjiji\n\nハティフナット高円寺さんの、絵本の中に迷い込んだような空気感と壁面に並ぶ作品の見せ方に、以前から親しみを感じていました。私は東京在住の水彩イラストレーターで、2020年から続けている日々の水彩日記をまとめた作品集「色彩日記」をはじめ、東京の街角や室内の光、猫などを題材にした作品を描いています。ぜひ一度、壁面展示のご相談ができればと思い、ご連絡いたしました。作品はInstagram @gegyjiji でご覧いただけます。\n\nご検討いただけますと幸いです。どうぞよろしくお願いいたします。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "title": "Gallery IYN",
@@ -5199,7 +5226,10 @@
     "verification_score": 8,
     "rumor_mill_sentiment": "positive",
     "fees_source": "harvested_from_submission_page",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Application for START Box Studio Space — GEGYjiji (Watercolor Illustrator)\n\nDear START Box ササハタハツ / 白鬚 Team,\n\nI am writing to apply for studio space through the 2026年度利用者募集 program, drawn to START Box's commitment to supporting emerging artists working at the intersection of daily practice and place-based observation. My name is GEGYjiji, a Chinese watercolor illustrator based in Tokyo, and my work — including my first illustration collection Colour Diary, which grew from a daily watercolor diary practice I have maintained since 2020 — focuses on the quiet atmospheres of Tokyo neighborhoods, domestic interiors, and the particular quality of urban light as seen through a cross-cultural lens. In February 2023, I participated in the group exhibition Tide from China Part1 at ACG_Labo in Harajuku, my first exhibition in Japan, alongside five other Chinese illustrators. I believe dedicated studio space within a community rooted in Tokyo's local art ecology would meaningfully support the next phase of my practice, particularly as I develop new work and exhibition relationships in the city. A portfolio of my watercolor illustration work is available on Instagram at @gegyjiji, and I would welcome the opportunity to share further materials or speak with your team at your convenience.\n\nGEGYjiji",
+    "email_ja": "件名: START Box 白鬚 2026年度利用者募集へのご応募について\n\nはじめてご連絡申し上げます。東京在住の水彩イラストレーター、GEGYjiji（挤挤）と申します。START Boxが地域に根ざしながら新興アーティストの実践を丁寧に支えるスペースであることを知り、今回の利用者募集に応募したくご連絡いたしました。わたしは2020年より毎日水彩日記を続けており、東京の街や室内の光、猫や記憶といった静かな日常をテーマに制作しております。2021年には初の個人作品集「Colour Diary（色彩日記）」を刊行し、2023年には原宿ACG_Laboにて中国人イラストレーター6名によるグループ展「Tide from China Part1」に参加するなど、東京を拠点として展示・発表の場を着実に広げてまいりました。作品の詳細はInstagram @gegyjiji よりご覧いただけますので、ご参考にいただけますと幸いです。ご検討のほど、どうぞよろしくお願いいたします。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "name": "2026年美の起原展",
@@ -5325,7 +5355,10 @@
     "verification_score": 10,
     "rumor_mill_sentiment": "positive",
     "site_http_code": 200,
-    "contact_source": "harvested_from_submission_page"
+    "contact_source": "harvested_from_submission_page",
+    "email_en": "Subject: Submission Inquiry — 2026年美の起原展 / GEGYjiji (Watercolor Artist, Tokyo)\n\nDear 2026年美の起原展 Selection Committee,\n\nI am writing to express my interest in submitting work to the 2026年美の起原展, an open call I understand welcomes painting and illustration in formats from 10 to 20号, with an emphasis on considered, atmospheric work across media. My name is GEGYjiji, a Chinese watercolor artist based in Tokyo, and my practice centers on quiet urban observation — interior light, neighborhood stillness, domestic moments — drawn from a daily watercolor diary I have maintained since 2020. My first solo illustration collection, Colour Diary, published in October 2021, grew directly from that practice and reflects the intimate, transparent quality I bring to every piece. More recently, I exhibited in Tide from China, a group show of Chinese illustrators held at ACG_Labo in Harajuku in February 2023, which marked my first formal exhibition presence in Japan. A representative selection of my work can be viewed on Instagram at @gegyjiji, and I would be glad to provide any additional materials your committee requires for review. I would be grateful to learn more about the submission process and to confirm whether my work would be appropriate for consideration before the June 11 deadline.\n\nSincerely,\nGEGYjiji",
+    "email_ja": "件名: 2026年美の起原展への出品応募のご連絡\n\n銀座画廊 ご担当者様\n\n突然のご連絡をお許しください。私はGEGYjiji（ジェジー）と申します。東京在住の中国出身イラストレーターで、水彩を中心に制作しております。貴展が絵画の原点と向き合うというテーマのもと、イラストレーションや水彩作品を広く受け入れてくださる公募展であることを拝見し、ぜひ応募させていただきたくご連絡いたしました。2020年より毎日継続している水彩日記の実践から生まれた作品群は、2021年に初の個人イラスト集「Colour Diary（色彩日記）」としてまとめ、東京の日常風景や室内の静けさ、光と記憶をテーマに描き続けております。中国人の目を通して捉えた東京の空気感を、透明水彩の透過性と余白で表現することが私の制作の核にあり、貴展のお眼鏡に叶うものがあればと思っております。作品の詳細はInstagram（@gegyjiji）にてご覧いただけますと幸いです。出品の詳細な手続きについてもご確認できればと存じますので、ご案内いただけますでしょうか。どうぞよろしくお願いいたします。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "name": "クリスマスアート展",
@@ -5448,7 +5481,10 @@
     "verification_score": 10,
     "rumor_mill_sentiment": "positive",
     "site_http_code": 200,
-    "fees_source": "harvested_from_submission_page"
+    "fees_source": "harvested_from_submission_page",
+    "email_en": "Subject: Exhibition Inquiry — クリスマスアート展 Submission from GEGYjiji\n\nDear クリスマスアート展 Team,\n\nI came across your annual Christmas art exhibition through your account at x.com/2010artpalette and was drawn in by the visitor-voting format, which creates a genuinely warm and participatory atmosphere around illustration and watercolor work. I am GEGYjiji, a Chinese watercolor artist based in Tokyo, and I would very much like to inquire about submitting work to this year's exhibition. My first solo illustration collection, Colour Diary, grew out of a daily watercolor diary practice I have maintained since 2020, and its themes — interior light, quiet domestic moments, and the texture of Tokyo neighborhoods seen through a Chinese eye — feel well-suited to the contemplative and seasonal spirit of your show. I participated in a group exhibition at ACG_Labo in Harajuku in February 2023 alongside five other Chinese illustrators, and I am now actively building my exhibition presence here in Tokyo. You are welcome to view my portfolio and recent work on Instagram at @gegyjiji. I would be grateful to know whether submissions are currently open, what the process involves, and whether there are any associated fees or deadlines I should be aware of.\n\nThank you sincerely for your time, and I look forward to hearing from you.\n\nGEGYjiji",
+    "email_ja": "件名: クリスマスアート展への参加応募について\n\nアートパレット様\n\n毎年開催されるクリスマスアート展が、水彩やイラスト作品を広く受け入れ、来場者の投票によって作品を評価するという温かみのある形式に、かねてより関心を持っておりました。私はGEGYjiji（ジェジー）と申します。中国出身で現在東京を拠点に活動している水彩画家です。2020年より毎日の水彩日記を続けており、その積み重ねから2021年に初のイラスト作品集「Colour Diary（色彩日記）」を刊行いたしました。作品は主に東京の街並みや室内の光、猫など、日常の静かな一瞬を透明水彩で描いたものです。ポートフォリオはInstagram（@gegyjiji）にてご覧いただけます。今展への参加方法や募集要項について、ご案内いただけますと大変幸いです。\n\nどうぞよろしくお願いいたします。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "name": "Laugh & Peace Art Competition 2026",
@@ -5575,7 +5611,10 @@
     "verification_score": 9,
     "deadline_source": "rumor_mill_expansion",
     "rumor_mill_sentiment": "positive",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Submission Inquiry — Laugh & Peace Art Competition 2026\n\nDear Laugh & Peace Art Competition team,\n\nI am writing to inquire about submitting work to the Laugh & Peace Art Competition 2026, an open exhibition format that I believe is well suited to the kind of quiet, observational illustration I make. I am GEGYjiji, a Chinese watercolor artist based in Tokyo, and my practice centers on urban stillness, domestic interiors, and the texture of everyday light — subjects I developed through a daily watercolor diary I have kept since 2020. In 2021 I published my first solo illustration collection, Colour Diary, which gathered that diary work into a book and established the intimate, atmospheric voice that continues to define my pieces. More recently I participated in Tide from China Part 1, a group exhibition at ACG_Labo in Harajuku bringing together six Chinese illustrators working in Japan, which expanded my exhibition experience in the Tokyo area. I would welcome the opportunity to bring this body of work to an Osaka audience, and a full portfolio is available on Instagram at @gegyjiji. Could you please share details on the submission process, applicable fees, and the current deadline, as this information does not appear to be listed publicly?\n\nSincerely,\nGEGYjiji",
+    "email_ja": "件名: Laugh & Peace Art Competition 2026 への参加応募について\n\n拝啓\n\nLaugh & Peace Art Competition は、大阪を拠点に多様な表現者へ発表の場を開いてきたコンペティションとして、イラストレーターの間でも広く知られており、今回こそ応募したいと思い、ご連絡いたしました。私はGEGYjiji（挤挤）と申します。東京在住の中国人水彩イラストレーターで、2020年より毎日水彩日記を続けており、その実践をまとめた初の個人画集「Colour Diary（色彩日記）」を2021年に刊行いたしました。作品は東京の街並みや日常の室内、光と静けさをテーマとした水彩作品が中心で、透明感のある繊細な描写を大切にしております。ポートフォリオはInstagram（@gegyjiji）にてご覧いただけますので、ご参照いただければ幸いです。応募に必要な詳細——締め切り、提出方法、参加費用など——がウェブサイト上で確認できなかったため、ご案内いただけますでしょうか。ご多忙のところ恐れ入りますが、どうぞよろしくお願いいたします。\n\n敬具\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "name": "水彩アートの祭典",
@@ -5696,7 +5735,10 @@
     "career_tier": 2,
     "tier_adjustment": 1.0,
     "verification_score": 10,
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Inquiry Regarding Participation in 水彩アートの祭典 2026\n\nDear 水彩アートの祭典 Organizing Committee,\n\nI am writing to inquire about participation in your upcoming watercolor exhibition at Tokyo Art Theatre, which I understand focuses exclusively on watercolor work within the 4号 format — a context that feels well suited to the intimate, atmospheric scale I work in. My name is GEGYjiji, a Chinese watercolor artist based in Tokyo, and my practice centers on urban neighborhoods, interior light, and quiet domestic moments observed through a daily watercolor diary I have kept since 2020. My first solo illustration collection, Colour Diary, grew directly from that practice and represents the kind of still, light-held work I would hope to bring to this exhibition. I would be grateful to know whether submissions for the 2026 edition are still open and how I might access the application details, as I was unable to locate the submission process on the official page. You are welcome to view my work in the meantime through my Instagram portfolio at @gegyjiji.\n\nThank you sincerely for your time, and I look forward to hearing from you.\n\nGEGYjiji",
+    "email_ja": "件名: 水彩アートの祭典2026へのご参加についてのお問い合わせ\n\n水彩アートの祭典ご担当者様\n\nはじめてご連絡申し上げます。東京を拠点に活動しております水彩イラストレーターのGEGYjiji（ジェジー）と申します。池袋の東京芸術劇場にて開催される水彩専門の公募展というご趣旨、そして4号以内という親密なスケール感に、自分の作風との強い共鳴を感じ、このたびご連絡いたしました。私は2020年より毎日水彩日記を続けており、その実践から生まれた作品集『Colour Diary（色彩日記）』を2021年に刊行しております。東京の街角や室内の光、静かな日常の気配をテーマとした水彩作品を制作しており、貴展の雰囲気に沿えるのではないかと考えております。作品はInstagram（@gegyjiji）にてご覧いただけますので、ご参考にいただけますと幸いです。参加要項および応募方法につきまして、ご案内いただけますでしょうか。\n\nどうぞよろしくお願いいたします。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "name": "ART SG 2026",
@@ -5835,7 +5877,10 @@
     "uncapped_score": 9.3,
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "fees_source": "rumor_mill_expansion",
-    "rumor_mill_sentiment": "positive"
+    "rumor_mill_sentiment": "positive",
+    "email_en": "Subject: Exhibitor Inquiry — GEGYjiji / Watercolor Illustration\n\nDear ART SG 2026 Team,\n\nI am writing to inquire about exhibitor opportunities at ART SG 2026, which I understand focuses on contemporary Asian art and provides a platform for emerging voices across the region — an context I feel is well-suited to my work as a Beijing-born, Tokyo-based watercolor illustrator. My practice centers on quiet urban observation, domestic light, and cross-cultural memory, developed through a daily watercolor diary I have maintained since 2020. My first solo collection, Colour Diary, grew directly from that practice and has been received warmly within illustration communities in Japan and online. Most recently, I participated in Tide from China Part 1, a group exhibition in Harajuku featuring six Chinese illustrators working in Japan, which gave me a first sense of how this work translates into a gallery context. I would be grateful to learn about the application process, relevant deadlines, and any fees, and you are welcome to view my portfolio at instagram.com/gegyjiji.\n\nThank you very much for your time and consideration.\n\nGEGYjiji",
+    "email_ja": "",
+    "email_zh": ""
   },
   {
     "name": "MICRO/MACRO",
@@ -6882,7 +6927,10 @@
     "pre_final_guard_score": 8.6,
     "final_score_guard_note": "Rescored 8.6 → 7.6 (verification_points=2, composite=9.67)",
     "recommendation_visibility": "show",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Consignment inquiry — Colour Diary (illustration collection) by GEGYjiji\n\nDear COW BOOKS team,\n\nI admire how carefully your Nakameguro shop is curated — the sense that every book on the shelf has been chosen by someone who actually reads, which is rare and matters to me as both a reader and an artist. I am GEGYjiji, a Chinese watercolor illustrator based in Tokyo, and I would love to ask whether you might consider stocking my first illustration collection, Colour Diary (色彩日記), a small-format book that grew out of a daily watercolor diary practice I began in 2020. The work focuses on quiet Tokyo interiors, neighborhood light, cats, and the particular way a city looks when you are still learning to belong to it — themes I think might sit naturally alongside the books you already carry. You can see my recent work on Instagram at @gegyjiji, and I am happy to bring a copy of the book in person if a visit would be easier than corresponding by email. Thank you sincerely for your time, and I hope to hear from you.\n\nGEGYjiji",
+    "email_ja": "件名: 作品集の取り扱いについてのご相談\n\nはじめてご連絡させていただきます。GEGYjiji（ジェジー）と申します。中目黒の運河沿いで、本と本をめぐる暮らしそのものを丁寧にそろえていらっしゃるCOW BOOKSさんの棚のことを以前から大切に思っており、今回思い切ってご連絡することにいたしました。私は東京を拠点に活動する中国出身の水彩イラストレーターで、2020年より毎日欠かさず続けている水彩日記をもとに、2021年に初のイラスト作品集『Colour Diary（色彩日記）』を制作いたしました。東京の街角や室内の光、猫、記憶といった静かな日常をテーマにした水彩作品で、COW BOOKSさんが大切にされている「読む・見る・感じる」という本との関わり方に、もしかしたら近いところにあるかもしれないと感じています。作品の雰囲気はInstagram（@gegyjiji）よりご覧いただけますので、もしご関心をお持ちいただけましたら、委託販売などのご相談ができればたいへん嬉しく思います。お忙しいところ恐縮ですが、ご検討いただけますと幸いです。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "title": "Tokyo Illustrators Society",
@@ -7789,7 +7837,10 @@
     "rumor_mill_sentiment": "no_data",
     "site_http_code": 200,
     "uncapped_score": 10.0,
-    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited."
+    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
+    "email_en": "Subject: Exhibitor Inquiry — GEGYjiji, Tokyo-based Watercolor Illustrator\n\nDear Art Vancouver 2026 Team,\n\nI came across your tenth edition through coverage highlighting the fair's focus on diverse international voices alongside Canadian contemporary work, and I would like to inquire about the exhibitor application process for 2026. I am GEGYjiji, a Chinese watercolor artist based in Tokyo, working from a daily painting practice that documents urban life, domestic interiors, and quiet neighborhood atmospheres in the city. My first Japan exhibition, \"Tide from China,\" brought together work by six Chinese illustrators in Tokyo in early 2023, and I believe the cross-cultural perspective in my practice — a Chinese eye observing Japanese daily life — could offer something distinct within an international fair context. I would be glad to share my portfolio for your review at instagram.com/gegyjiji, and I am happy to provide any additional materials you require. Could you let me know whether applications for 2026 are still open, along with the submission process and any relevant fees?\n\nThank you for your time, and I look forward to hearing from you.\n\nGEGYjiji",
+    "email_ja": "",
+    "email_zh": ""
   },
   {
     "name": "ギャラリーへ行こう2026",
@@ -7908,7 +7959,10 @@
     "verification_score": 7,
     "fees_source": "harvested_from_submission_page",
     "rumor_mill_sentiment": "no_data",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Submission Inquiry — ギャラリーへ行こう2026 / GEGYjiji\n\nDear ギャラリーへ行こう2026 Selection Committee,\n\nI am writing to submit my work for consideration in ギャラリーへ行こう2026, an open call I understand welcomes artists working in intimate, observational registers — a format that feels well suited to what I make. I am GEGYjiji, a Chinese watercolor artist based in Tokyo, working from a daily practice that I have kept without interruption since 2020. My first solo illustration collection, Colour Diary, grew directly from that practice and traces the quiet textures of Tokyo life — interior light, neighborhood streets, cats, the particular stillness of a room in the afternoon. The work is small in scale and transparent in surface, concerned with attention rather than statement, and I believe it speaks to the kind of seeing your program invites. A selection of recent work is visible on my Instagram at @gegyjiji, where I also document the ongoing diary series. I would be grateful for the opportunity to be considered, and I am happy to provide any additional materials or answer questions about my submission.\n\nGEGYjiji",
+    "email_ja": "件名: ギャラリーへ行こう2026 公募への応募について\n\n夢画材公募事務局 ご担当者様\n\n突然のご連絡、失礼いたします。東京在住の水彩イラストレーター、GEGYjiji（ジェジー）と申します。ギャラリーへ行こう2026は、画材や表現の多様性を大切にしながら作家と鑑賞者をつなぐ展覧会として拝見しており、この度の公募に強い関心を持ち、ご連絡させていただきました。私は2020年より毎日水彩で日記を描き続けており、その実践から生まれた作品集「色彩日記（Colour Diary）」を2021年に刊行いたしました。東京の街角や室内の光、猫、日常のなかにある静けさを、透明水彩の透過性を通して描くことを一貫したテーマとしております。中国・北京出身として北京服装学院でイラストレーションを学び、現在は東京を拠点に、異なる文化的背景を持つ目線で都市の気配を作品に収めています。作品の詳細はInstagram（@gegyjiji）にてご覧いただけますと幸いです。ご多忙のところ恐れ入りますが、応募に際して必要な書類や詳細につきまして、ご案内いただければ大変ありがたく存じます。\n\nどうぞよろしくお願いいたします。\n\nGEGYjiji",
+    "email_zh": ""
   },
   {
     "title": "Osaka Open Call For Artists. - ARRIVAL",
@@ -8030,7 +8084,10 @@
     "verification_score": 7,
     "fees_source": "rumor_mill_expansion",
     "rumor_mill_sentiment": "positive",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Open Call Submission — GEGYjiji / Watercolor Illustration\n\nDear ARRIVAL team,\n\nI came across your Osaka open call and was drawn to the way ARRIVAL platforms intimate, atmosphere-driven work — a sensibility that aligns closely with my own practice. I am GEGYjiji, a Chinese watercolor artist based in Tokyo, and my work focuses on quiet urban observation, interior light, and the small details of daily life seen through a cross-cultural lens. My first solo illustration collection, Colour Diary, grew from a daily watercolor diary practice I have maintained since 2020, and my work has been shown in Tokyo as part of the group exhibition Tide from China at ACG_Labo, Harajuku, in February 2023. You can view my portfolio and recent work on Instagram at instagram.com/gegyjiji. I would be grateful for the chance to learn more about the submission requirements and would welcome the opportunity to participate.\n\nGEGYjiji",
+    "email_ja": "",
+    "email_zh": ""
   },
   {
     "name": "Tokyo Gendai 2026",
@@ -8186,7 +8243,10 @@
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "rumor_mill_sentiment": "positive",
     "fees_source": "harvested_from_submission_page",
-    "site_http_code": 200
+    "site_http_code": 200,
+    "email_en": "Subject: Exhibitor Inquiry — GEGYjiji (Watercolor / Independent Artist)\n\nDear Tokyo Gendai Team,\n\nI am writing to ask about the application process for exhibitors at Tokyo Gendai 2026, as I understand gallery and artist applications are currently open for the September edition. I am GEGYjiji, a Tokyo-based Chinese watercolor artist whose work centers on urban quiet, domestic interiors, and the particular light of Tokyo neighborhoods — themes I feel resonate with the considered, gallery-level programming Tokyo Gendai has built across its previous editions. My first solo illustration collection, Colour Diary, grew from a daily watercolor diary practice I have maintained since 2020, and my work has been shown in Tokyo most recently as part of the group exhibition Tide from China at ACG_Labo in Harajuku. A selection of my work is visible on Instagram at @gegyjiji. I would be grateful to receive details on the application format, any applicable fees, and the submission deadline.\n\nGEGYjiji\n@GegYjiji / @gegyjiji\nTokyo",
+    "email_ja": "",
+    "email_zh": ""
   },
   {
     "title": "Yonchome Cafe",
