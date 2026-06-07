@@ -35,6 +35,7 @@ PIPELINE = [
     "lineage_scoring_engine.py",
     "tier_scoring_engine.py",
     "feedback_learning_engine.py",
+    "submission_log_reader.py",
     "preference_rescoring_engine.py",
     "portfolio_match_engine.py",
     "submission_strategy_engine.py",
