@@ -32,6 +32,14 @@
         "why": "Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions"
       },
       {
+        "title": "水性繪畫展覽 (Watercolor Exhibition)",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026."
+      },
+      {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
         "score": 10,
         "hits": [
@@ -72,14 +80,6 @@
           "painting"
         ],
         "why": "Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice."
-      },
-      {
-        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
       }
     ]
   },
@@ -202,6 +202,14 @@
         "why": "Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions"
       },
       {
+        "title": "水性繪畫展覽 (Watercolor Exhibition)",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026."
+      },
+      {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
         "score": 10,
         "hits": [
@@ -242,14 +250,6 @@
           "painting"
         ],
         "why": "Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice."
-      },
-      {
-        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
       }
     ]
   },
@@ -278,6 +278,14 @@
         "why": "Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions"
       },
       {
+        "title": "水性繪畫展覽 (Watercolor Exhibition)",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026."
+      },
+      {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
         "score": 10,
         "hits": [
@@ -320,22 +328,12 @@
         "why": "Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice."
       },
       {
-        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "zine",
-          "watercolor"
-        ],
-        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
-      },
-      {
-        "title": "第九屆水主題國際評審藝術比賽",
+        "title": "アートオリンピア2026",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "Water-themed international art competition accepting watercolor works from global artists, directly aligned with watercolor practice."
+        "why": "Open call art exhibition event running May 20-27, 2026, accepting various media including watercolor."
       }
     ]
   }

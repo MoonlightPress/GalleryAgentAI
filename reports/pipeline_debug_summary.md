@@ -1,11 +1,11 @@
 # Pipeline Debug Summary
 
-- opportunities: 297
-- candidates: 139
+- opportunities: 299
+- candidates: 135
 - approved_candidates: 6
-- rejected_candidates: 133
+- rejected_candidates: 129
 - strategy_feed: 7
-- fit_audit: 297
+- fit_audit: 299
 
 ## Top 15 Opportunities
 
@@ -27,18 +27,18 @@
 
 ## Approved Candidate Sample
 
-- Home - Printed Matter — 8.5 — approved — strong: photobook, zine, book fair, printed matter, weak: book, exhibition
-- Browse opportunities | CuratorSpace — 7.65 — approved — strong: open call, book fair, submission, weak: book, exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: zine, open call, residency, submission, weak: artist, exhibition
+- Home - Printed Matter — 8.5 — approved — strong: zine, photobook, book fair, printed matter, weak: book, exhibition
+- Browse opportunities | CuratorSpace — 7.65 — approved — strong: open call, submission, book fair, weak: book, exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: open call, zine, residency, submission, weak: exhibition, artist
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 5.4 — approved — strong: open call, zine, submit, call for, weak: artist, has submission link
 - submissions for the 2026 set film festival are now open — 4.7 — approved — strong: open call, submission, has submission link
 - Art Submissions — 4.7 — approved — strong: open call, submission, has submission link
-- Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING — 4.7 — approved — strong: deadline, open call, has submission link
 
 ## Rejected Candidate Sample
 
 - Royal Watercolour Society — 6.3 — rejected — generic page without opportunity language
 - Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 1 — 6.1 — rejected — generic page without opportunity language
-- Exhibition Chelsea Chang Yuchen: a dictionary, a loom, a manifesto, a note, a kite, a phon — 5.4 — rejected — strong: printed matter, weak: gallery, exhibition, score too low: 2
+- Exhibition Chelsea Chang Yuchen: a dictionary, a loom, a manifesto, a note, a kite, a phon — 5.4 — rejected — strong: printed matter, weak: exhibition, gallery, score too low: 2
 - Exhibitions — 5.4 — rejected — junk title: exhibitions
 - LONDON CALLING Bankside Gallery 5th - 21st June — 5.4 — rejected — generic page without opportunity language
 - OUR ARTISTS The finest practitioners of water-based media on paper — 5.4 — rejected — generic page without opportunity language

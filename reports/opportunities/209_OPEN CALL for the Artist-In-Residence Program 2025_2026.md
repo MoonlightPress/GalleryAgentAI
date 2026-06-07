@@ -1,7 +1,7 @@
 # OPEN CALL for the Artist-In-Residence Program 2025/2026
 
 ## 1. Quick Judgment
-**Fit score:** 5.9/10  
+**Fit score:** 5.8/10  
 **Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Residencies / Longer Projects  

@@ -1,20 +1,20 @@
 # Cafe Cross Point
 
 ## 1. Quick Judgment
-**Fit score:** 8.8/10  
+**Fit score:** 9.2/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  
 **City:** Koenji  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://cafecrosspoint.jp/ (verified)
 - **Submission process**: https://cafecrosspoint.jp/ (verified)
 - **Deadline**: Not publicly listed (verified)
 - **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: unit206crosspoint@nexdine.com (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Cafe / Local Wall Spaces.
@@ -47,4 +47,4 @@ Visit website to verify if they actually host curated exhibitions vs. casual rot
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-07_

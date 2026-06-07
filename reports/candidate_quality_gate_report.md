@@ -1,13 +1,13 @@
 # Candidate Quality Gate Report
 
 Approved: 6
-Rejected: 133
+Rejected: 129
 
 ## Rejected
 
 - Royal Watercolour Society — generic page without opportunity language
 - Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 1 — generic page without opportunity language
-- Exhibition Chelsea Chang Yuchen: a dictionary, a loom, a manifesto, a note, a kite, a phon — strong: printed matter, weak: gallery, exhibition, score too low: 2
+- Exhibition Chelsea Chang Yuchen: a dictionary, a loom, a manifesto, a note, a kite, a phon — strong: printed matter, weak: exhibition, gallery, score too low: 2
 - Exhibitions — junk title: exhibitions
 - LONDON CALLING Bankside Gallery 5th - 21st June — generic page without opportunity language
 - OUR ARTISTS The finest practitioners of water-based media on paper — generic page without opportunity language
@@ -30,7 +30,6 @@ Rejected: 133
 - Daniel Shepard Straffon All Lover the Place: Thailand [Poster] Posters $70.00 Recent Arriv — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Sticker Pack Ephemera $18.00 Recent Arrival — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Chicago [Poster] Posters $70.00 Recent Arriva — strong: printed matter, weak: book, score too low: 1
-- Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026 — strong: printed matter, weak: gallery, exhibition, photography, score too low: 3
 - See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
 - Skip to main content — generic page without opportunity language
@@ -93,25 +92,23 @@ Rejected: 133
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
-- Magazine — strong: zine, open call, score too low: 2
-- fully funded residency for artists from kazakhstan — strong: open call, residency, weak: artist, score too low: 3
+- Magazine — strong: open call, zine, score too low: 2
+- khoj international residency august-september 2026 — strong: open call, residency, score too low: 2
 - Residency — strong: open call, residency, score too low: 2
 - Open Call — strong: open call, has submission link, score too low: 3
-- khoj international residency august-september 2026 — strong: open call, residency, score too low: 2
 - Open Calls — strong: open call, has submission link, score too low: 3
-- www.curatorspace.com — weak: gallery, exhibition, photography, has submission link, score too low: 4
-- Report this? — weak: gallery, exhibition, photography, has submission link, score too low: 4
+- www.curatorspace.com — weak: photography, exhibition, gallery, has submission link, score too low: 4
+- Report this? — weak: photography, exhibition, gallery, has submission link, score too low: 4
 - www.curatorspace.com — generic page without opportunity language
 - Report this? — generic page without opportunity language
-- www.curatorspace.com — weak: gallery, exhibition, has submission link, score too low: 3
-- Report this? — weak: gallery, exhibition, has submission link, score too low: 3
+- www.curatorspace.com — weak: exhibition, gallery, has submission link, score too low: 3
+- Report this? — weak: exhibition, gallery, has submission link, score too low: 3
 - www.curatorspace.com — generic page without opportunity language
 - Report this? — generic page without opportunity language
 - Report this? — generic page without opportunity language
 - Contemporary British Painting — generic page without opportunity language
 - More details — generic page without opportunity language
-- The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e — generic page without opportunity language
-- The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport — generic page without opportunity language
+- Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -128,7 +125,6 @@ Rejected: 133
 - 原宿カワイイ展 〜キラキラフィーバー！〜 — generic page without opportunity language
 - 青空展 — bad/missing title
 - 2026年4月22日 【企画展】『GuroKawa Exhibition2』出展者募集中！🎨 — generic page without opportunity language
-- ericknoza solo exhibition — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
@@ -141,9 +137,9 @@ Rejected: 133
 
 ## Approved
 
-- Home - Printed Matter — strong: photobook, zine, book fair, printed matter, weak: book, exhibition
-- Browse opportunities | CuratorSpace — strong: open call, book fair, submission, weak: book, exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — strong: zine, open call, residency, submission, weak: artist, exhibition
+- Home - Printed Matter — strong: zine, photobook, book fair, printed matter, weak: book, exhibition
+- Browse opportunities | CuratorSpace — strong: open call, submission, book fair, weak: book, exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, zine, residency, submission, weak: exhibition, artist
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — strong: open call, zine, submit, call for, weak: artist, has submission link
 - submissions for the 2026 set film festival are now open — strong: open call, submission, has submission link
 - Art Submissions — strong: open call, submission, has submission link
-- Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING — strong: deadline, open call, has submission link

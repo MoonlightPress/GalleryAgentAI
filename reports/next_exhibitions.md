@@ -9,7 +9,7 @@ This is not a generic top list. It asks where the next project could plausibly b
 - **B&B (Book & Beer)** — 10.0 / 10.7. Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
 - **Tokyo Art Book Fair** — 10.0 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **COW BOOKS Nakameguro** — 10.0 / 10.25. COW BOOKS has the curatorial sensibility to recognize quiet, serious work — a good target for any printed publication of your urban watercolors.
-- **Village Vanguard Shimokitazawa** — 9.6 / 10.1. Volume venue that can move printed work without requiring gallery-level credentials — appropriate for this career phase.
+- **Village Vanguard Shimokitazawa** — 10.0 / 10.1. Volume venue that can move printed work without requiring gallery-level credentials — appropriate for this career phase.
 - **B&B Shimokitazawa** — 10.0 / 10.79. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 - **Aperture | Photography** — 8.7 / 10.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - **Self Publish, Be Happy** — 6.0 / 9.81. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.

@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research 金风车插画大赛2026 submission process.
-- Research Bologna Children's Book Fair Illustrators Exhibition submission process.
-- Research Women United ART MAGAZINE Issue XIV Summer 2026 submission process.
-- Research Aperture | Photography submission process.
-- Research 2026 ART CAPITAL Paris Grand Palais International Youth Academic Award submission process.
-- Compare Aesthetica Art Prize to similar institutions.
-- Compare 第九屆水主題國際評審藝術比賽 to similar institutions.
-- Compare MICRO/MACRO to similar institutions.
+- Research 3x3 International Illustration Awards submission process.
+- Research The Artcomplex Center of Tokyo submission process.
+- Research NY公募展2026夏（NY Open Call Exhibition Summer 2026） submission process.
+- Research IlloBoom! 2026 第三屆插畫巔峰賽 submission process.
+- Research World Illustration Awards submission process.
+- Compare Still Life - 2026 to similar institutions.
+- Compare Cité Internationale des Arts Artist Residency to similar institutions.
+- Compare 2026 ART CAPITAL Paris Grand Palais International Youth Academic Award to similar institutions.

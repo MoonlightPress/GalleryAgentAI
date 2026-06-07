@@ -1,18 +1,18 @@
 # 2026 Kyoto Museum International Art Grand Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 4.0/10  
-**Fit band:** Possible, but not urgent  
+**Fit score:** 3.4/10  
+**Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Institutional / Grants  
 **City:** Kyoto  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
 
 - **Official/source website**: https://www.ociyac.com (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: August 31, 2025 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -31,7 +31,7 @@ International art competition hosted in Japan (Kyoto); relevant for Tokyo-based 
 - No bullet analysis stored yet.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** August 31, 2025
 - **Fees:** Not publicly listed
 - **Submission page:** Not publicly listed
 - **Source:** https://www.ociyac.com
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_

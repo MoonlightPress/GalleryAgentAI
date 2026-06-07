@@ -5,22 +5,22 @@ Generated: 2026-06-07
 
 | Status | Count |
 |--------|-------|
-| Verified (score 8-10) | 90 |
-| Strong partial (5-7) | 146 |
-| Partial (3-4) | 30 |
-| Research needed (<3) | 31 |
-| **Total** | **297** |
+| Verified (score 8-10) | 82 |
+| Strong partial (5-7) | 124 |
+| Partial (3-4) | 65 |
+| Research needed (<3) | 28 |
+| **Total** | **299** |
 
 ### Field Coverage
 
 | Field | Verified count |
 |-------|----------------|
-| URL ok | 262 |
-| Deadline verified | 191 |
-| Contact verified | 114 |
-| Fees verified | 144 |
-| Submission process known | 176 |
-| Medium confirmed | 179 |
+| URL ok | 252 |
+| Deadline verified | 213 |
+| Contact verified | 85 |
+| Fees verified | 133 |
+| Submission process known | 160 |
+| Medium confirmed | 181 |
 
 ---
 
@@ -31,97 +31,97 @@ Generated: 2026-06-07
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 2. Women United ART MAGAZINE Issue XIV Summer 2026
+### 2. UTRECHT
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 3. ZINEフェス東京 (ZINE Fest Tokyo)
+### 3. HATTIFNATT Koenji Cafe Gallery
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 4. Still Life - 2026
+### 4. Women United ART MAGAZINE Issue XIV Summer 2026
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 5. The Artcomplex Center of Tokyo
+### 5. ZINEフェス東京 (ZINE Fest Tokyo)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 6. Society of Women Artists
+### 6. Still Life - 2026
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 7. 水性繪畫展覽 (Watercolor Exhibition)
+### 7. Spiral
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 8. 水彩アートの祭典 (Watercolor Art Festival)
+### 8. 水性繪畫展覽 (Watercolor Exhibition)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 9. MOUNT ZINE
+### 9. 桜をテーマとするイラスト・絵画作品募集
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 10. HATTIFNATT Koenji Cafe Gallery
+### 10. MOUNT ZINE
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 11. 2026年美の起原展
+### 11. 水彩アートの祭典
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 12. クリスマスアート展
+### 12. 水彩アートの祭典 (Watercolor Art Festival)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 13. 水彩アートの祭典
+### 13. CSPWC Annual Open Water International Exhibition
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 14. 桜をテーマとするイラスト・絵画作品募集
+### 14. 多摩ゆかりの作家による公募展
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 15. CSPWC Annual Open Water International Exhibition
+### 15. 2026 3rd Annual Illustration Summit Challenge (IlloBoom!)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 16. 多摩ゆかりの作家による公募展
+### 16. 2026年美の起原展
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 17. 2026 3rd Annual Illustration Summit Challenge (IlloBoom!)
+### 17. クリスマスアート展
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 18. Spiral
+### 18. Society of Women Artists
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 19. 【biscuit gallery】初の公募企画「grid next : Emerging ...
+### 19. Northwest Watercolor Society 2026 Annual International Open Exhibition
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 20. グループ展参加アーティスト募集中 - Gallery and Links81
+### 20. DER GREIF
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
@@ -132,42 +132,42 @@ Generated: 2026-06-07
 
 High-scored opportunities (overall_score >= 8) that are not yet fully verified.
 
-### 1. B&B (Book & Beer)
-- **Overall score:** 10.0  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** contact, fees
+### 1. Tokyo Gendai 2026
+- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
 
 ### 2. ART SG 2026
-- **Overall score:** 10.0  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 3. COW BOOKS Nakameguro
-- **Overall score:** 10.0  |  **Verification score:** 3/10  |  **Status:** partial
-- **Missing verification:** deadline, contact, fees, submission process
-
-### 4. ギャラリーへ行こう2026
-- **Overall score:** 10.0  |  **Verification score:** 7/10  |  **Status:** strong_partial
+### 3. ギャラリーへ行こう2026
+- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 5. Osaka Open Call For Artists. - ARRIVAL
-- **Overall score:** 10.0  |  **Verification score:** 5/10  |  **Status:** strong_partial
-- **Missing verification:** deadline, contact, medium confirmation
-
-### 6. Tokyo Gendai 2026
-- **Overall score:** 10.0  |  **Verification score:** 7/10  |  **Status:** strong_partial
+### 4. Osaka Open Call For Artists. - ARRIVAL
+- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 7. Book and Sons
-- **Overall score:** 10.0  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** deadline, fees
-
-### 8. Mona Records
-- **Overall score:** 10.0  |  **Verification score:** 1/10  |  **Status:** research_needed
-- **Missing verification:** URL, deadline, contact, fees, submission process
-
-### 9. BALLOND'ESSAI Shimokitazawa
-- **Overall score:** 10.0  |  **Verification score:** 7/10  |  **Status:** strong_partial
+### 5. NY公募展2026夏（NY Open Call Exhibition Summer 2026）
+- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 10. CLOUDS Gallery+Coffee Koenji
-- **Overall score:** 10.0  |  **Verification score:** 7/10  |  **Status:** strong_partial
+### 6. ART FAIR TOKYO 21
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
+
+### 7. BALLOND'ESSAI Shimokitazawa
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
+
+### 8. CLOUDS Gallery+Coffee Koenji
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
+
+### 9. Cafe Mame-Hico
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
+
+### 10. 本店・本屋の実験室
+- **Overall score:** 8.8  |  **Verification score:** 6/10  |  **Status:** strong_partial
+- **Missing verification:** deadline, contact

@@ -51,20 +51,7 @@
       "deadline",
       "official_website"
     ],
-    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
-  },
-  {
-    "title": "Royal Watercolour Society Open Exhibition",
-    "score": 7.8,
-    "research_priority_score": 13.82,
-    "country": "UK",
-    "category": "global_watercolor_open_call",
-    "missing_fields": [
-      "submission_page",
-      "contact_email",
-      "official_website"
-    ],
-    "quick_action": "Research current open call dates, submission fees, accepted formats, and previous selected works to gauge aesthetic fit."
+    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
   },
   {
     "title": "Printed Matter Art Book Fairs",
@@ -81,9 +68,22 @@
     "quick_action": "Research fair exhibitor criteria and identify comparable small publishers or artists first."
   },
   {
+    "title": "Royal Watercolour Society Open Exhibition",
+    "score": 6.9,
+    "research_priority_score": 12.93,
+    "country": "UK",
+    "category": "global_watercolor_open_call",
+    "missing_fields": [
+      "submission_page",
+      "contact_email",
+      "official_website"
+    ],
+    "quick_action": "Research current open call dates, submission fees, accepted formats, and previous selected works to gauge aesthetic fit."
+  },
+  {
     "title": "American Watercolor Society Annual International Exhibition",
-    "score": 7.7,
-    "research_priority_score": 13.48,
+    "score": 6.2,
+    "research_priority_score": 11.98,
     "country": "USA",
     "category": "global_watercolor_open_call",
     "missing_fields": [
@@ -92,19 +92,6 @@
       "official_website"
     ],
     "quick_action": "Check current open call window, digital vs. physical submission requirements, fees, and accepted paper sizes."
-  },
-  {
-    "title": "Cité Internationale des Arts Artist Residency",
-    "score": 6.6,
-    "research_priority_score": 12.31,
-    "country": "France",
-    "category": "global_residency",
-    "missing_fields": [
-      "fees",
-      "contact_email",
-      "official_website"
-    ],
-    "quick_action": "Research application routes (often via home country cultural institutions or direct application), eligibility, and current availability."
   },
   {
     "title": "Platform China BIAP Artist Residency",
@@ -288,6 +275,18 @@
     "quick_action": "Verify submission page and deadline before applying."
   },
   {
+    "title": "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award",
+    "score": 8.8,
+    "research_priority_score": 11.1,
+    "country": "France",
+    "category": "global_open_call",
+    "missing_fields": [
+      "fees",
+      "contact_email"
+    ],
+    "quick_action": "Verify submission page and deadline before applying."
+  },
+  {
     "title": "Bologna Children's Book Fair Illustrators Exhibition",
     "score": 9.1,
     "research_priority_score": 11.0,
@@ -350,6 +349,18 @@
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact."
   },
   {
+    "title": "AAA Gallery Yokohama",
+    "score": 8.6,
+    "research_priority_score": 10.9,
+    "country": "Yokohama",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
     "title": "Gallery 191 Exhibition 2026",
     "score": 8.6,
     "research_priority_score": 10.9,
@@ -360,6 +371,19 @@
       "contact_email"
     ],
     "quick_action": "Verify submission page and deadline before applying."
+  },
+  {
+    "title": "Cité Internationale des Arts Artist Residency",
+    "score": 5.1,
+    "research_priority_score": 10.81,
+    "country": "France",
+    "category": "global_residency",
+    "missing_fields": [
+      "fees",
+      "contact_email",
+      "official_website"
+    ],
+    "quick_action": "Research application routes (often via home country cultural institutions or direct application), eligibility, and current availability."
   },
   {
     "title": "Aperture | Photography",
@@ -406,63 +430,40 @@
     "quick_action": "Verify submission page and deadline before applying."
   },
   {
-    "title": "OPA Gallery",
-    "score": 7.9,
+    "title": "Royal Institute of Painters in Water Colours",
+    "score": 8.0,
+    "research_priority_score": 10.7,
+    "country": "UK",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "Mall Galleries Open Exhibitions",
+    "score": 8.0,
+    "research_priority_score": 10.7,
+    "country": "UK",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "KAMIHANGA国際プリント展2026",
+    "score": 8.7,
     "research_priority_score": 10.6,
-    "country": "Tokyo",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "金风车插画大赛2026",
-    "score": 8.2,
-    "research_priority_score": 10.5,
     "country": "International",
     "category": "global_open_call",
     "missing_fields": [
-      "fees",
-      "contact_email"
+      "submission_page"
     ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award",
-    "score": 8.1,
-    "research_priority_score": 10.4,
-    "country": "France",
-    "category": "global_open_call",
-    "missing_fields": [
-      "fees",
-      "contact_email"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "HB Gallery",
-    "score": 7.3,
-    "research_priority_score": 10.4,
-    "country": "Tokyo",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "第九屆水主題國際評審藝術比賽",
-    "score": 8.8,
-    "research_priority_score": 10.3,
-    "country": "International",
-    "category": "global_watercolor_open_call",
-    "missing_fields": [],
     "quick_action": "Verify submission page and deadline before applying."
   }
 ]

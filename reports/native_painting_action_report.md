@@ -11,6 +11,8 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 - **Jinny Street Gallery Open Call** — 9.6. Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
   - URL: https://www.jinnystreetgallery.com/open-call
   - Next: verify current submission/contact details.
+- **水性繪畫展覽 (Watercolor Exhibition)** — 9.6. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
+  - URL: https://bhuntr.com/tw/competitions/22uxj7uzoljljpa11y
 - **水彩アートの祭典 (Watercolor Art Festival)** — 9.6. Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
   - URL: https://koubo.yumegazai.com/category/koubo/place/kanto
 - **桜をテーマとするイラスト・絵画作品募集** — 9.6. Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice.
@@ -22,8 +24,13 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 - **Aquarelle 18 - アクワレル** — 9.6. Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
   - URL: https://x.com/mado12_i
   - Next: verify current submission/contact details.
+- **アートオリンピア2026** — 9.6. Open call art exhibition event running May 20-27, 2026, accepting various media including watercolor.
+  - URL: https://x.com/artkoubo
+  - Next: verify current submission/contact details.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 9.6. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
   - URL: https://www.womenunitedartmovement.com/
+- **2026 3rd Annual Illustration Summit Challenge (IlloBoom!)** — 9.6. Global illustration competition accepting all art styles and themes from students, professionals, and enthusiasts; perfect fit for illustration artist.
+  - URL: https://illoboom.com/2026sponsorships
 - **第九屆水主題國際評審藝術比賽** — 9.6. Water-themed international art competition accepting watercolor works from global artists, directly aligned with watercolor practice.
   - URL: https://bhuntr.com/tw/competitions/208h5hxfrofrnv2jhx
   - Next: verify current submission/contact details.
@@ -63,14 +70,6 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
 - **Bologna Children's Book Fair Illustrators Exhibition** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
   - URL: https://www.bolognachildrensbookfair.com/
   - Next: verify current submission/contact details.
-- **Pinpoint Gallery** — 9.6. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-  - URL: https://pinpointgallery.com/
-  - Next: verify current submission/contact details.
-- **Gallery IYN** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - URL: https://www.gallery-iyn.com/
-  - Next: verify current submission/contact details.
-- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 9.6. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
-  - URL: https://www.nwws.org/annual-international-open/
 
 ## First Practical Plan
 

@@ -13,12 +13,12 @@ A coherent series of small watercolors based on ordinary neighborhoods, plants, 
 ### Best Targets
 - **HATTIFNATT Koenji Cafe Gallery** — watercolor score 10. The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
 - **水彩アートの祭典** — watercolor score 10. Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
+- **水性繪畫展覽 (Watercolor Exhibition)** — watercolor score 10. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
 - **水彩アートの祭典 (Watercolor Art Festival)** — watercolor score 10. Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
 - **桜をテーマとするイラスト・絵画作品募集** — watercolor score 10. Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice.
 - **CSPWC Annual Open Water International Exhibition** — watercolor score 10. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
 - **多摩ゆかりの作家による公募展** — watercolor score 10. Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions.
 - **Aquarelle 18 - アクワレル** — watercolor score 10. Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
-- **Women United ART MAGAZINE Issue XIV Summer 2026** — watercolor score 10. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 
 ### First Action
 Choose 12 finished or nearly finished watercolors. Group them by place, plant life, architecture, and human trace.
@@ -55,12 +55,12 @@ A soft, accessible series of small watercolor paintings about small local places
 ### Best Targets
 - **HATTIFNATT Koenji Cafe Gallery** — watercolor score 10. The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
 - **水彩アートの祭典** — watercolor score 10. Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
+- **水性繪畫展覽 (Watercolor Exhibition)** — watercolor score 10. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
 - **水彩アートの祭典 (Watercolor Art Festival)** — watercolor score 10. Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
 - **桜をテーマとするイラスト・絵画作品募集** — watercolor score 10. Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice.
 - **CSPWC Annual Open Water International Exhibition** — watercolor score 10. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
 - **多摩ゆかりの作家による公募展** — watercolor score 10. Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions.
 - **Aquarelle 18 - アクワレル** — watercolor score 10. Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
-- **Women United ART MAGAZINE Issue XIV Summer 2026** — watercolor score 10. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 
 ### First Action
 Prepare a compact PDF: title, 10 images, dimensions, prices if available, and a 3-line artist note.
@@ -75,13 +75,13 @@ A printed sequence of watercolor works, using photobook logic but keeping painti
 
 ### Best Targets
 - **水彩アートの祭典** — watercolor score 10. Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
+- **水性繪畫展覽 (Watercolor Exhibition)** — watercolor score 10. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
 - **水彩アートの祭典 (Watercolor Art Festival)** — watercolor score 10. Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
 - **桜をテーマとするイラスト・絵画作品募集** — watercolor score 10. Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice.
 - **CSPWC Annual Open Water International Exhibition** — watercolor score 10. International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
 - **多摩ゆかりの作家による公募展** — watercolor score 10. Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions.
 - **Aquarelle 18 - アクワレル** — watercolor score 10. Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
-- **Women United ART MAGAZINE Issue XIV Summer 2026** — watercolor score 10. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
-- **第九屆水主題國際評審藝術比賽** — watercolor score 10. Water-themed international art competition accepting watercolor works from global artists, directly aligned with watercolor practice.
+- **アートオリンピア2026** — watercolor score 10. Open call art exhibition event running May 20-27, 2026, accepting various media including watercolor.
 
 ### First Action
 Make a 16-page PDF mockup using existing watercolor images. Do not overexplain it.

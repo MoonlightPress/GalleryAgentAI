@@ -1,8 +1,8 @@
 # loneliness books
 
 ## 1. Quick Judgment
-**Fit score:** 3.0/10  
-**Fit band:** Low priority  
+**Fit score:** 4.0/10  
+**Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Print / Zines / Bookstores  
 **City:** Nakano, Tokyo  
@@ -47,4 +47,4 @@ Verify whether it is active and whether it has a physical sales route.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_

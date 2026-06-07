@@ -20,10 +20,10 @@ Suggested strategic pacing for outreach and applications.
 - 水彩アートの祭典 (Watercolor Art Festival) (9.4/10)
 - MOUNT ZINE (9.4/10)
 - HATTIFNATT Koenji Cafe Gallery (9.4/10)
+- ART SG 2026 (9.4/10)
 - 桜をテーマとするイラスト・絵画作品募集 (9.4/10)
 - MICRO/MACRO (9.4/10)
 - 水彩アートの祭典 (9.4/10)
-- CSPWC Annual Open Water International Exhibition (9.4/10)
 
 ## Build Toward
 

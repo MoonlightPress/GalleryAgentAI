@@ -4,20 +4,7 @@
 
 _Previous run: 2026-06-07_
 
-- **Removed from Immediate Best Moves:** Northwest Watercolor Society 2026 Annual International Open Exhibition
-- **Score change:** Shimokitazawa Arts 8.3 → 9.3 ↑
-- **Score change:** TOKIO ART BOOK FAIR 2026 9.6 → 10.0 ↑
-- **Score change:** submissions for the 2026 set film festival are now open 7.2 → 6.5 ↓
-- **Score change:** Women United ART MAGAZINE Issue XIV Summer 2026 9.2 → 8.7 ↓
-- **Score change:** ZINEフェス東京 (ZINE Fest Tokyo) 9.2 → 10.0 ↑
-- **Score change:** Tokyo Art Book Fair 9.6 → 10.0 ↑
-- **Score change:** UTRECHT 9.2 → 10.0 ↑
-- **Score change:** B&B Shimokitazawa 7.8 → 10.0 ↑
-- **Score change:** flotsam books 7.8 → 10.0 ↑
-- **Score change:** MOUNT ZINE 9.2 → 10.0 ↑
-- **Score change:** Book and Sons 8.2 → 10.0 ↑
-- **Score change:** 水彩アートの祭典 (Watercolor Art Festival) 9.6 → 9.1 ↓
-- **Score change:** CSPWC Annual Open Water International Exhibition 9.6 → 9.1 ↓
+- **Opportunity count:** 297 → 299 (+2)
 
 ## Immediate Best Moves (13)
 

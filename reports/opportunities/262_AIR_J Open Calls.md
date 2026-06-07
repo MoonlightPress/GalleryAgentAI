@@ -1,19 +1,19 @@
 # AIR_J Open Calls
 
 ## 1. Quick Judgment
-**Fit score:** 6.2/10  
-**Fit band:** Promising  
-**Confidence:** Medium  
+**Fit score:** 4.0/10  
+**Fit band:** Possible, but not urgent  
+**Confidence:** High  
 **Type:** Residencies / Longer Projects  
 **City:** Japan / Tokyo / Online  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://air-j.info/en/program/ (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://air-j.info/en/program (verified)
 - **Deadline**: Check source (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Fees**: Free (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -35,8 +35,8 @@ AIR_J Open Calls may matter later if her portfolio package and project statement
 
 ## 7. Submission / Logistics
 - **Deadline:** Check source
-- **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Fees:** Free
+- **Submission page:** https://air-j.info/en/program
 - **Source:** https://air-j.info/en/program/
 
 ## 8. Risk / Unknowns

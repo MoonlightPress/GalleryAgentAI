@@ -468,6 +468,43 @@
     ]
   },
   {
+    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+    "organization": "CuratorSpace",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: zine, open call",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: zine, open call"
+    ],
+    "fit_keyword_hits": [
+      "zine",
+      "open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
     "title": "Art Events and Exhibitions｜Tokyo Art Beat",
     "organization": "Tokyo Art Beat",
     "category": "gallery_event",
@@ -1040,42 +1077,6 @@
     ],
     "fit_keyword_hits": [
       "place"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 6, 2026",
-    "organization": "Printed Matter",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/programs/events/2250",
-    "official_website": "https://www.printedmatter.org/programs/events/2250",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Printed Matter.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3354,7 +3355,7 @@
     ]
   },
   {
-    "title": "fully funded residency for artists from kazakhstan",
+    "title": "khoj international residency august-september 2026",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
@@ -3365,8 +3366,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/FIlZw-iZOWTPWrCGEmRmq",
-    "official_website": "https://www.artconnect.com/opportunity/FIlZw-iZOWTPWrCGEmRmq",
+    "source_url": "https://www.artconnect.com/opportunity/uSUAiJABpPinH9qAUpklP",
+    "official_website": "https://www.artconnect.com/opportunity/uSUAiJABpPinH9qAUpklP",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3452,42 +3453,6 @@
     ],
     "fit_keyword_hits": [
       "open call"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "khoj international residency august-september 2026",
-    "organization": "ArtConnect Open Calls",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/uSUAiJABpPinH9qAUpklP",
-    "official_website": "https://www.artconnect.com/opportunity/uSUAiJABpPinH9qAUpklP",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: residency"
-    ],
-    "fit_keyword_hits": [
-      "residency"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -4002,7 +3967,7 @@
     ]
   },
   {
-    "title": "The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e",
+    "title": "Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in",
     "organization": "CuratorSpace",
     "category": "gallery_event",
     "city": "Online",
@@ -4013,80 +3978,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
-    "organization": "CuratorSpace",
-    "category": "photo_open_call",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: open call",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: open call"
-    ],
-    "fit_keyword_hits": [
-      "open call"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -4663,42 +4556,6 @@
     "source_type": "scraped_link_candidate",
     "source_url": "https://designfestagallery.com/gurokawa-2/",
     "official_website": "https://designfestagallery.com/gurokawa-2/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "ericknoza solo exhibition",
-    "organization": "Design Festa Gallery",
-    "category": "gallery_event",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://designfestagallery.com/ericknoza-solo-exhibition-2/",
-    "official_website": "https://designfestagallery.com/ericknoza-solo-exhibition-2/",
     "submission_page": "",
     "deadline": "",
     "fees": "",

@@ -36,7 +36,7 @@ Strong places to research if the work becomes a sequence, zine, or photobook.
 Local book/zine/art-book spaces that fit her visual language and are plausible relationship targets.
 
 1. **Northwest Watercolor Society 2026 Annual International Open Exhibition** — score 7.2, visual 0.45, verification . Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
-2. **shashasha** — score 5.2, visual 2.4, verification . Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere.
+2. **shashasha** — score 5.1, visual 2.4, verification . Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere.
 
 ## Stretch Targets
 
@@ -44,10 +44,10 @@ Prestige or difficult targets. Useful as benchmarks even if not immediate.
 
 1. **Center for Book Arts Opportunities** — score 9.1, visual 1.95, verification . Potential fit if her work becomes more explicitly book-oriented or object/paper based.
 2. **Offprint** — score 6.2, visual 2.4, verification . Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
-3. **Royal Watercolour Society Open Exhibition** — score 5.7, visual 2.4, verification . Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
-4. **Printed Matter Art Book Fairs** — score 4.5, visual 3.25, verification . Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
-5. **American Watercolor Society Annual International Exhibition** — score 5.2, visual 0.9, verification . Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice.
-6. **torch press** — score 5.7, visual 5.0, verification stretch_targets. Invitation-only publisher — no submissions. Tier 4 watch target. Approach only after established Tokyo art book ecosystem presence.
+3. **Printed Matter Art Book Fairs** — score 4.5, visual 3.25, verification . Highly relevant if her work develops into books, zines, calendars, or small editions; likely a long-term rather than immediate target.
+4. **Royal Watercolour Society Open Exhibition** — score 6.5, visual 2.4, verification . Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
+5. **torch press** — score 5.7, visual 5.0, verification stretch_targets. Invitation-only publisher — no submissions. Tier 4 watch target. Approach only after established Tokyo art book ecosystem presence.
+6. **American Watercolor Society Annual International Exhibition** — score 5.7, visual 0.9, verification . Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice.
 
 ## Relationship Builders
 
@@ -79,11 +79,11 @@ Do not recommend yet. These need submission/contact/deadline verification.
 
 Keep out of the main UI unless specifically requested.
 
-1. **Cité Internationale des Arts Artist Residency** — score 3.7, visual 0.0, verification . Prestigious, Paris-based, and actively accessible to artists from Asia — a residency here would be a major career milestone and exposure to the European gallery ecosystem.
-2. **INSTINC 2026/2027 Artist-in-Residence Program** — score 3.9, visual 0.0, verification needs_research. Independent artist residency program emphasizing experimentation and artistic vision, open to international artists.
-3. **「国際創作者駐村計畫」** — score 2.5, visual 0.0, verification needs_research. International artist residency program inviting visual artists, filmmakers, designers and architects for 2026.
-4. **Royal Watercolour Society** — score 2.2, visual 2.4, verification research_needed. Native watercolor context. Strong medium fit if requirements and dates are current.
-5. **Asian Cultural Council Fellowship** — score 0.7, visual 0.0, verification . Directly designed for artists from Asia building international careers — a fellowship would fund research travel, residency, and international network-building at exactly the right career stage.
-6. **2026 Kyoto Museum International Art Grand Exhibition** — score 3.0, visual 0.45, verification needs_research. International art competition hosted in Japan (Kyoto); relevant for Tokyo-based artist seeking regional opportunities.
-7. **Muninova Artist Award** — score 2.8, visual 0.0, verification needs_research. Art open call for introducing artwork to the public, accepting diverse visual art submissions.
-8. **2026「OPEN World Exhibition」** — score 2.7, visual 0.0, verification needs_research. Cross-cultural artistic dialogue exhibition at Toyosu Civic Center, April 17-22, 2026, accepting artists from diverse backgrounds.
+1. **Cité Internationale des Arts Artist Residency** — score 4.0, visual 0.0, verification . Prestigious, Paris-based, and actively accessible to artists from Asia — a residency here would be a major career milestone and exposure to the European gallery ecosystem.
+2. **「国際創作者駐村計畫」** — score 2.7, visual 0.0, verification needs_research. International artist residency program inviting visual artists, filmmakers, designers and architects for 2026.
+3. **2026 Kyoto Museum International Art Grand Exhibition** — score 2.8, visual 0.45, verification needs_research. International art competition hosted in Japan (Kyoto); relevant for Tokyo-based artist seeking regional opportunities.
+4. **Royal Watercolour Society** — score 2.5, visual 2.4, verification research_needed. Native watercolor context. Strong medium fit if requirements and dates are current.
+5. **Muninova Artist Award** — score 2.5, visual 0.0, verification needs_research. Art open call for introducing artwork to the public, accepting diverse visual art submissions.
+6. **2026「OPEN World Exhibition」** — score 2.3, visual 0.0, verification needs_research. Cross-cultural artistic dialogue exhibition at Toyosu Civic Center, April 17-22, 2026, accepting artists from diverse backgrounds.
+7. **【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...** — score 2.2, visual 0.0, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+8. **2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...** — score 2.2, visual 0.0, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.

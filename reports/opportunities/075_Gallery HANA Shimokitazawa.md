@@ -13,7 +13,7 @@ Core public information appears present.
 - **Official/source website**: https://www.g-hana.jp/ (verified)
 - **Submission process**: https://www.g-hana.jp/ (verified)
 - **Deadline**: 2026年5月16日 (verified)
-- **Fees**: Free (verified)
+- **Fees**: Not publicly listed (verified)
 - **Contact**: galleryhana2006@gmail.com (verified)
 
 ## 3. Why This May Fit the Artist
@@ -34,7 +34,7 @@ Tokyo location appeals, but lack of verifiable program information creates backw
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026年5月16日
-- **Fees:** Free
+- **Fees:** Not publicly listed
 - **Submission page:** https://www.g-hana.jp/
 - **Source:** https://www.g-hana.jp/
 

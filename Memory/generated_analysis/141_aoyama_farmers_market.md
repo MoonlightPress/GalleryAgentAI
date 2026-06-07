@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-07
 
 # Aoyama Farmers Market
 
 ## 1. Quick Judgment
-**Fit score:** 7.7/10  
-**Fit band:** Strong fit  
+**Fit score:** 8.5/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Tokyo  
@@ -50,5 +50,5 @@ Skip unless specifically wanting to experiment with merchandise sales in casual 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_
 

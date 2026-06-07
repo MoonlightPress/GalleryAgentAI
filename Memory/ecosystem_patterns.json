@@ -2,22 +2,22 @@
   "dominant_countries": [
     [
       "Japan",
-      38
-    ],
-    [
-      "Global",
-      8
+      36
     ],
     [
       "International",
-      6
+      7
     ],
     [
-      "USA",
-      4
+      "Global",
+      7
     ],
     [
       "Canada",
+      5
+    ],
+    [
+      "USA",
       4
     ],
     [
@@ -33,12 +33,12 @@
       2
     ],
     [
-      "UK",
+      "Singapore",
       2
     ],
     [
-      "Singapore",
-      2
+      "UK",
+      1
     ],
     [
       "France / UK",
@@ -51,20 +51,24 @@
     [
       "Yokohama",
       1
+    ],
+    [
+      "France",
+      1
     ]
   ],
   "dominant_categories": [
     [
       "gallery",
-      22
+      21
+    ],
+    [
+      "global_open_call",
+      10
     ],
     [
       "japan_watercolor_open_call",
       10
-    ],
-    [
-      "global_open_call",
-      8
     ],
     [
       "bookstore_gallery",
@@ -87,12 +91,12 @@
       5
     ],
     [
-      "global_watercolor_open_call",
+      "artist_space",
       5
     ],
     [
-      "artist_space",
-      5
+      "global_watercolor_open_call",
+      4
     ],
     [
       "zine_shop_consignment",
@@ -137,28 +141,28 @@
   ],
   "dominant_tags": [
     [
-      "japan",
-      25
-    ],
-    [
       "secondary",
-      23
+      24
     ],
     [
       "",
+      24
+    ],
+    [
+      "japan",
       23
     ],
     [
       "jp",
-      22
+      21
     ],
     [
       "japanese_source",
-      22
+      21
     ],
     [
       "has_deadline",
-      17
+      15
     ],
     [
       "watercolor_ok",
@@ -170,18 +174,18 @@
     ],
     [
       "diaspora",
-      11
+      12
     ],
     [
       "diaspora_community",
-      11
-    ],
-    [
-      "global",
-      8
+      12
     ],
     [
       "chinese_source",
+      9
+    ],
+    [
+      "global",
       7
     ],
     [
@@ -209,6 +213,10 @@
       5
     ],
     [
+      "cn",
+      5
+    ],
+    [
       "low",
       4
     ],
@@ -218,11 +226,7 @@
     ],
     [
       "open_call",
-      4
-    ],
-    [
-      "cn",
-      4
+      3
     ],
     [
       "bookshop",
@@ -234,10 +238,6 @@
     ],
     [
       "cafe_gallery",
-      3
-    ],
-    [
-      "watercolor",
       3
     ],
     [
@@ -257,6 +257,10 @@
       2
     ],
     [
+      "watercolor",
+      2
+    ],
+    [
       "high",
       2
     ],
@@ -273,14 +277,6 @@
       2
     ],
     [
-      "prestige",
-      2
-    ],
-    [
-      "career_changing",
-      2
-    ],
-    [
       "Medium-High",
       1
     ],
@@ -294,6 +290,14 @@
     ],
     [
       "near_deadline",
+      1
+    ],
+    [
+      "zine_fair",
+      1
+    ],
+    [
+      "booth",
       1
     ]
   ]
