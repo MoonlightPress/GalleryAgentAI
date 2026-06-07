@@ -47,55 +47,12 @@
     ]
   },
   {
-    "title": "Top Artist Opportunities for 2026 | ArtConnect",
-    "organization": "ArtConnect Open Calls",
-    "category": "zine_print",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 7.65,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://www.artconnect.com/opportunities",
-    "official_website": "https://www.artconnect.com/opportunities",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate discovered from ArtConnect Open Calls. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition, place, gallery open call",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
-    "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: zine, open call, submission, residency, exhibition, place, gallery open call"
-    ],
-    "fit_keyword_hits": [
-      "zine",
-      "open call",
-      "submission",
-      "residency",
-      "exhibition",
-      "place",
-      "gallery open call"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
     "title": "Browse opportunities | CuratorSpace",
     "organization": "CuratorSpace",
     "category": "photo_open_call",
     "city": "Online",
     "country": "Global",
-    "overall_score": 7.2,
+    "overall_score": 7.65,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "medium",
@@ -107,20 +64,62 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, exhibition, memory, place, open exhibition",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, book fair, exhibition, place, painting, open exhibition",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: open call, submission, exhibition, memory, place, open exhibition"
+      "Keyword hits: open call, submission, book fair, exhibition, place, painting, open exhibition"
     ],
     "fit_keyword_hits": [
       "open call",
       "submission",
+      "book fair",
       "exhibition",
-      "memory",
       "place",
+      "painting",
       "open exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Top Artist Opportunities for 2026 | ArtConnect",
+    "organization": "ArtConnect Open Calls",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 6.75,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.artconnect.com/opportunities",
+    "official_website": "https://www.artconnect.com/opportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from ArtConnect Open Calls. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: zine, open call, submission, residency, exhibition"
+    ],
+    "fit_keyword_hits": [
+      "zine",
+      "open call",
+      "submission",
+      "residency",
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -210,6 +209,43 @@
     ]
   },
   {
+    "title": "Exhibition Chelsea Chang Yuchen: a dictionary, a loom, a manifesto, a note, a kite, a phon",
+    "organization": "Printed Matter",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.printedmatter.org/programs/events/2268",
+    "official_website": "https://www.printedmatter.org/programs/events/2268",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Printed Matter.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition, paper",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition, paper"
+    ],
+    "fit_keyword_hits": [
+      "exhibition",
+      "paper"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
     "title": "Exhibitions",
     "organization": "Royal Watercolour Society",
     "category": "gallery_event",
@@ -223,6 +259,43 @@
     "source_type": "scraped_link_candidate",
     "source_url": "https://www.royalwatercoloursociety.co.uk/exhibitions/",
     "official_website": "https://www.royalwatercoloursociety.co.uk/exhibitions/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Royal Watercolour Society.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition, watercolour",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition, watercolour"
+    ],
+    "fit_keyword_hits": [
+      "exhibition",
+      "watercolour"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "LONDON CALLING Bankside Gallery 5th - 21st June",
+    "organization": "Royal Watercolour Society",
+    "category": "gallery_event",
+    "city": "",
+    "country": "UK",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/exhibitions/107-london-calling-rws-re/overview/",
+    "official_website": "https://www.royalwatercoloursociety.co.uk/exhibitions/107-london-calling-rws-re/overview/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -560,6 +633,43 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from Design Festa Gallery. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: exhibition",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。",
+    "organization": "Pinpoint Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.95,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://pinpointgallery.com/",
+    "official_website": "https://pinpointgallery.com/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from Pinpoint Gallery. Needs manual verification before recommendation.",
     "why_this_fits_short": "Potential fit based on source context and keyword overlap: exhibition",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
@@ -3244,79 +3354,7 @@
     ]
   },
   {
-    "title": "call for proposals for solo exhibitions",
-    "organization": "ArtConnect Open Calls",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/d4ivXy8saTodCyxjahak1",
-    "official_website": "https://www.artconnect.com/opportunity/d4ivXy8saTodCyxjahak1",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Open Call",
-    "organization": "ArtConnect Open Calls",
-    "category": "photo_open_call",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
-    "official_website": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
-    "submission_page": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: open call",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: open call"
-    ],
-    "fit_keyword_hits": [
-      "open call"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "oceania pacific arts residency",
+    "title": "fully funded residency for artists from kazakhstan",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
@@ -3327,8 +3365,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/9ucCcf7lck5hKaajb7uyr",
-    "official_website": "https://www.artconnect.com/opportunity/9ucCcf7lck5hKaajb7uyr",
+    "source_url": "https://www.artconnect.com/opportunity/FIlZw-iZOWTPWrCGEmRmq",
+    "official_website": "https://www.artconnect.com/opportunity/FIlZw-iZOWTPWrCGEmRmq",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3388,7 +3426,43 @@
     ]
   },
   {
-    "title": "urban arts residency in mexico",
+    "title": "Open Call",
+    "organization": "ArtConnect Open Calls",
+    "category": "photo_open_call",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
+    "official_website": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
+    "submission_page": "https://www.artconnect.com/opportunities?types=OPEN_CALL",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: open call",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: open call"
+    ],
+    "fit_keyword_hits": [
+      "open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "khoj international residency august-september 2026",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
@@ -3399,8 +3473,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/fDztohNLbOBywquKpPYZV",
-    "official_website": "https://www.artconnect.com/opportunity/fDztohNLbOBywquKpPYZV",
+    "source_url": "https://www.artconnect.com/opportunity/uSUAiJABpPinH9qAUpklP",
+    "official_website": "https://www.artconnect.com/opportunity/uSUAiJABpPinH9qAUpklP",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3424,9 +3498,9 @@
     ]
   },
   {
-    "title": "transitional art project: indoor photography exhibition",
+    "title": "submissions for the 2026 set film festival are now open",
     "organization": "ArtConnect Open Calls",
-    "category": "gallery_event",
+    "category": "open_call_index",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -3435,21 +3509,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/3m-liCYY73XN_gxgQh854",
-    "official_website": "https://www.artconnect.com/opportunity/3m-liCYY73XN_gxgQh854",
-    "submission_page": "",
+    "source_url": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K",
+    "official_website": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K",
+    "submission_page": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "why_this_fits_short": "Possible fit based on link text: submission",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: exhibition"
+      "Keyword hits: submission"
     ],
     "fit_keyword_hits": [
-      "exhibition"
+      "submission"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3522,222 +3596,6 @@
     ],
     "fit_keyword_hits": [
       "submission"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "www.curatorspace.com",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/rejects--an-exhibition-of-royal-academy-summer-exhibition-rejects/10474",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/rejects--an-exhibition-of-royal-academy-summer-exhibition-rejects/10474",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Report this?",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Frejects--an-exhibition-of-royal-academy-summer-exhibition-rejects%2F10474&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Frejects--an-exhibition-of-royal-academy-summer-exhibition-rejects%2F10474&redirect=%2Fopportunities",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "www.curatorspace.com",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/memories-exhibition--open-call/10624",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/memories-exhibition--open-call/10624",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/memories-exhibition--open-call/10624",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Report this?",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fmemories-exhibition--open-call%2F10624&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fmemories-exhibition--open-call%2F10624&redirect=%2Fopportunities",
-    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fmemories-exhibition--open-call%2F10624&redirect=%2Fopportunities",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "www.curatorspace.com",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/summer-open-exhibition--open-call/10407",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/summer-open-exhibition--open-call/10407",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/summer-open-exhibition--open-call/10407",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Report this?",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fsummer-open-exhibition--open-call%2F10407&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fsummer-open-exhibition--open-call%2F10407&redirect=%2Fopportunities",
-    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fsummer-open-exhibition--open-call%2F10407&redirect=%2Fopportunities",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3964,7 +3822,7 @@
     ]
   },
   {
-    "title": "The Walls Exhibitions The Old Red Bus Station is offering Leeds based creatives the opport",
+    "title": "www.curatorspace.com",
     "organization": "CuratorSpace",
     "category": "gallery_event",
     "city": "Online",
@@ -3975,8 +3833,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/the-walls-exhibitions/7072",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/the-horton-summer-exhibition/10497",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/the-horton-summer-exhibition/10497",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3990,6 +3848,150 @@
     ],
     "fit_keyword_hits": [
       "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Report this?",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fthe-horton-summer-exhibition%2F10497&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fthe-horton-summer-exhibition%2F10497&redirect=%2Fopportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Report this?",
+    "organization": "CuratorSpace",
+    "category": "open_call_index",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fcontemporary-british-painting-prize%2F10621&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fcontemporary-british-painting-prize%2F10621&redirect=%2Fopportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: painting",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: painting"
+    ],
+    "fit_keyword_hits": [
+      "painting"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Contemporary British Painting",
+    "organization": "CuratorSpace",
+    "category": "open_call_index",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/profiles/PaintBritain",
+    "official_website": "https://www.curatorspace.com/profiles/PaintBritain",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: painting",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: painting"
+    ],
+    "fit_keyword_hits": [
+      "painting"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "More details",
+    "organization": "CuratorSpace",
+    "category": "open_call_index",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/contemporary-british-painting-prize/10621",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/contemporary-british-painting-prize/10621",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: painting",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: painting"
+    ],
+    "fit_keyword_hits": [
+      "painting"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -4432,42 +4434,6 @@
     ]
   },
   {
-    "title": "PUNK PUNK PUNK 2",
-    "organization": "Design Festa Gallery",
-    "category": "gallery_event",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://designfestagallery.com/exhibition-detail/?id=103",
-    "official_website": "https://designfestagallery.com/exhibition-detail/?id=103",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
     "title": "ボタニカ展",
     "organization": "Design Festa Gallery",
     "category": "gallery_event",
@@ -4695,42 +4661,6 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://pinpointgallery.com/schedule/tetsujiyamaguchiexhibition2026/",
-    "official_website": "https://pinpointgallery.com/schedule/tetsujiyamaguchiexhibition2026/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Pinpoint Gallery.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "pinpointgallery.com",
-    "organization": "Pinpoint Gallery",
-    "category": "gallery_event",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
     "source_url": "https://pinpointgallery.com/schedule/katsuhikotamuraexhibition2026/",
     "official_website": "https://pinpointgallery.com/schedule/katsuhikotamuraexhibition2026/",
     "submission_page": "",
@@ -4900,6 +4830,42 @@
     ]
   },
   {
+    "title": "pinpointgallery.com",
+    "organization": "Pinpoint Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://pinpointgallery.com/schedule/teshimakeisaburoexhibition2026/",
+    "official_website": "https://pinpointgallery.com/schedule/teshimakeisaburoexhibition2026/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Pinpoint Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
     "title": "Gallery IYN｜大阪市北区中崎町｜ギャラリー",
     "organization": "Gallery IYN",
     "category": "gallery_event",
@@ -4987,41 +4953,6 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from OPA Gallery. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: ",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
-    "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: "
-    ],
-    "fit_keyword_hits": [],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。",
-    "organization": "Pinpoint Gallery",
-    "category": "gallery_event",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.5,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://pinpointgallery.com/",
-    "official_website": "https://pinpointgallery.com/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate discovered from Pinpoint Gallery. Needs manual verification before recommendation.",
     "why_this_fits_short": "Potential fit based on source context and keyword overlap: ",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [

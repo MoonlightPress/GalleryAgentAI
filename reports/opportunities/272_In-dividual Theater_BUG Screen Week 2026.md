@@ -1,19 +1,19 @@
 # In-dividual Theater：BUG Screen Week 2026
 
 ## 1. Quick Judgment
-**Fit score:** 4.8/10  
+**Fit score:** 4.9/10  
 **Fit band:** Possible, but not urgent  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Institutional / Grants  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Submission process, Fees. Needs checking: Deadline, Contact.
 
 - **Official/source website**: https://bijutsutecho.com/magazine/news/headline/30942 (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://bug.art/exhibition/in-dividual-theaterbug-screen-week-2026/ (verified)
 - **Deadline**: Not publicly listed (needs_inquiry)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Fees**: Free (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -32,8 +32,8 @@ Open call exhibition themed on intergenerational exchange with grand prize offer
 
 ## 7. Submission / Logistics
 - **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Fees:** Free
+- **Submission page:** https://bug.art/exhibition/in-dividual-theaterbug-screen-week-2026/
 - **Source:** https://bijutsutecho.com/magazine/news/headline/30942
 
 ## 8. Risk / Unknowns

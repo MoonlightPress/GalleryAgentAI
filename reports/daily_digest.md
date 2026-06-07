@@ -1,78 +1,82 @@
-# Daily Digest — June 04, 2026
+# Daily Digest — June 07, 2026
 
 ## What Changed Since Last Run
 
 _Previous run: 2026-06-04_
 
-- **Removed from Immediate Best Moves:** Shimokitazawa Arts
-- **Score change:** FACE展2026 6.1 → 6.5 ↑
-- **Score change:** 金风车插画大赛2026 6.4 → 6.6 ↑
-- **Score change:** 「公募－日本の絵画2026－」 5.6 → 5.8 ↑
-- **Score change:** TOKIO ART BOOK FAIR 2026 8.1 → 8.2 ↑
-- **Score change:** flotsam books 6.8 → 7.0 ↑
+- **Added to Immediate Best Moves:** Shimokitazawa Arts
+- **Added to Immediate Best Moves:** submissions for the 2026 set film festival are now open
+- **Added to Immediate Best Moves:** Women United ART MAGAZINE Issue XIV Summer 2026
+- **Removed from Immediate Best Moves:** BOOOOOOOM 2026 Art & Photo Book Award
+- **Removed from Immediate Best Moves:** FACE展2026
+- **Removed from Immediate Best Moves:** 金风车插画大赛2026
+- **Removed from Immediate Best Moves:** 「公募－日本の絵画2026－」
+- **Removed from Immediate Best Moves:** DER GREIF
+- **Removed from Immediate Best Moves:** 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
+- **Score change:** TOKIO ART BOOK FAIR 2026 8.2 → 9.6 ↑
+- **Score change:** Tokyo Art Book Fair 9.2 → 9.6 ↑
+- **Score change:** 水彩アートの祭典 (Watercolor Art Festival) 8.8 → 9.6 ↑
+- **Score change:** UTRECHT 8.2 → 9.2 ↑
+- **Score change:** B&B Shimokitazawa 7.1 → 7.8 ↑
+- **Score change:** flotsam books 7.0 → 7.8 ↑
+- **Opportunity count:** 286 → 297 (+11)
 
-## Immediate Best Moves (17)
+## Immediate Best Moves (14)
 
-### **BOOOOOOOM 2026 Art & Photo Book Award**
-- **Apply by:** June 5, 2026 — 11:59 PM PST (June 6 at 15:59 JST) — _1d — this week_
-- **Fee:** Free (one zine proposal) / $25 USD (book proposal)
-- **Link:** https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award/
-- _⚠ Deadline-promoted from Publication Targets — 1d remaining_
-- _URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist owners_
-
-### **FACE展2026**
-- **Apply by:** June 5, 2026 — _1d — this week_
-- **Link:** https://bijutsutecho.com/magazine/news/exhibition/32221?page=8
-- _⚠ Deadline-promoted from Publication Targets — 1d remaining_
-- _National open call for contemporary painting (14th edition) at SOMPO Museum in Shinjuku, Tokyo; accepts all ages and affiliations._
-
-### **金风车插画大赛2026**
-- **Apply by:** 2026-06-05 — _1d — this week_
-- **Link:** https://www.ccbfgoldenpinwheel.com.cn/cn/index/GoldenPinwheel-News/detail!2026-call-for-entries
-- _⚠ Deadline-promoted from Research Needed — 1d remaining_
-- _Global illustration competition open to all artists working with visual storytelling and creative expression._
-
-### **「公募－日本の絵画2026－」**
-- **Apply by:** 2026-06-05 — _1d — this week_
-- **Link:** https://koubo.yumegazai.com
-- _⚠ Deadline-promoted from Research Needed — 1d remaining_
-- _Open call for watercolor paintings (among other media) with exhibition at Matsuzakaya Ueno Gallery in Tokyo; fits watercolor artist profile._
-
-### **DER GREIF**
-- **Apply by:** Multiple deadlines: September 1, 2026 at 11:59 PM CET; April 8, 2026; March 31, 2026; May 31, 2026; April 9, 2026; June 6, 2026 — _2d — this week_
-- **Link:** https://dergreif.org/
-- _⚠ Deadline-promoted from Publication Targets — 2d remaining_
-- _Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on pa_
+### ~~Shimokitazawa Arts~~
+- **Apply by:** April 1, 2022 — _PAST (1528d ago)_
+- **Link:** https://shimokitazawaarts.tokyo/en/home-english/
+- _Monthly solo exhibitions by younger Japanese artists. Shimokitazawa location. No public open call — direct email inquiry. Good Tier 2 networ_
 
 ### **TOKIO ART BOOK FAIR 2026**
-- **Apply by:** June 7, 2026 — _3d — this week_
-- **Link:** https://tokioartbookfair.com
+- **Apply by:** June 7, 2026 — _TODAY_
+- **Fee:** ¥1,000
+- **Link:** https://tokyoartbookfair.com/en/application
 - _Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibit_
 
+### **submissions for the 2026 set film festival are now open**
+- **Apply by:** 2026-06-07 — _TODAY_
+- **Fee:** $150.00
+- **Link:** https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K
+- _⚠ Deadline-promoted from Research Needed — 0d remaining_
+- _Possible fit based on link text: submission_
+
+### **Women United ART MAGAZINE Issue XIV Summer 2026**
+- **Apply by:** June 10, 2026 — _3d — this week_
+- **Fee:** $25 USD
+- **Link:** https://www.womenunitedartmovement.com/artmagazine
+- _⚠ Deadline-promoted from Publication Targets — 3d remaining_
+- _Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies._
+
 ### ZINEフェス東京 (ZINE Fest Tokyo)
-- **Apply by:** 2026-06-27 — _23d_
+- **Apply by:** 2026-06-27 — _20d_
 - **Event date:** 2026-07-11
 - **Fee:** ¥5,200 (1 person, with promotion) / ¥6,200 (1 person, no promotion)
 - **Link:** https://note.com/bookcultureclub/n/n053a24287fc2
 - _Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27_
 
-### CSPWC Annual Open Water International Exhibition
-- **Apply by:** June 30, 2026 — 2:00 PM Eastern Daylight Time — _26d_
-- **Fee:** CAD $55 (non-members) / CAD $40 (CSPWC members) — up to 2 entries, non-refundable
-- **Link:** https://open-water-2026.artcall.org/
-- _International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Ac_
-
-### Northwest Watercolor Society 2026 Annual International Open Exhibition
-- **Apply by:** July 8, 2026 — 11:59 PM Pacific — _34d_
-- **Fee:** Member reduced / non-member — check prospectus
-- **Link:** https://www.nwws.org/annual-international-open/
-- _Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusu_
-
 ### Tokyo Art Book Fair
-- **Apply by:** Unknown
-- **Fee:** Unknown
+- **Apply by:** 2027年1月21日
+- **Fee:** 1,000円
 - **Link:** https://tokyoartbookfair.com/application/
 - _Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor se_
+
+### 水彩アートの祭典 (Watercolor Art Festival)
+- **Apply by:** 2026年1月31日
+- **Fee:** 1作品9,000円、2作品目以降＋8,000円（税別）
+- **Link:** https://nihonbungei.net/watercolors_2026
+- _Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice._
+
+### CSPWC Annual Open Water International Exhibition
+- **Apply by:** — _(contact / propose)_
+- **Link:** https://cspwc.ca/
+- _International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Ac_
+
+### UTRECHT
+- **Apply by:** 1 July 2025
+- **Fee:** Free
+- **Link:** https://utrecht.jp/
+- _This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in pr_
 
 ### MOUNT ZINE
 - **Apply by:** Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window
@@ -80,23 +84,10 @@ _Previous run: 2026-06-04_
 - **Link:** https://zine.mount.co.jp/
 - _Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment an_
 
-### 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
-- **Apply by:** 2026年1月31日
-- **Fee:** 1作品9,000円、2作品目以降＋8,000円（税別。設営・撤収・キャプション作成・案内用DM込）
-- **Link:** https://nihonbungei.net/watercolors_2026
-- _Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style._
-
-### 水彩アートの祭典 (Watercolor Art Festival)
-- **Apply by:** 2026年1月31日
-- **Fee:** 1作品9,000円、2作品目以降＋8,000円（税別）
-- **Link:** https://koubo.yumegazai.com/category/koubo/place/kanto
-- _Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice._
-
-### UTRECHT
-- **Apply by:** Unknown
-- **Fee:** Unknown
-- **Link:** https://utrecht.jp/
-- _This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in pr_
+### Northwest Watercolor Society 2026 Annual International Open Exhibition
+- **Apply by:** — _(contact / propose)_
+- **Link:** https://www.nwws.org/annual-international-open/
+- _Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusu_
 
 ### Book and Sons
 - **Apply by:** Unknown
@@ -105,14 +96,14 @@ _Previous run: 2026-06-04_
 - _Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to_
 
 ### B&B Shimokitazawa
-- **Apply by:** Unknown
+- **Apply by:** 2026年06月06日
 - **Fee:** Unknown
 - **Link:** https://bookandbeer.com/
 - _Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication ang_
 
 ### flotsam books
 - **Apply by:** Unknown
-- **Fee:** Unknown
+- **Fee:** ¥13,200
 - **Link:** https://www.flotsambooks.com/
 - _Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts_
 
@@ -120,28 +111,26 @@ _Previous run: 2026-06-04_
 
 ### Confirmed Deadlines Within 90 Days
 
-- **SICF Fukuoka 2026** — 2026-06-11 (7d) [Research]
-- **ギャラリーへ行こう2026** — Entry period: June 15 - July 1, 2025; Submission dates: July 2-4, 2025 (11d) [Research]
-- **Brillia Art Award Wall 2026** — 2026-07-08 (34d) [Research]
-- **アートオリンピア2026** — 2026-07-31 (57d) [Research]
-- **Art on Climate インターナショナル・イラストレーション・コンテスト 2026** — 2026-07-31 (57d) [Research]
-- **KAMIHANGA国際プリント展2026** — Domestic: September 4, 2026 (Monday); International: August 14, 2026 (Thursday) (71d) [Research]
+- **ギャラリーへ行こう2026** — Entry period: June 15 - July 1, 2025; Submission dates: July 2-4, 2025 (8d) [Research]
+- **Brillia Art Award Wall 2026** — 2026-07-08 (31d) [Research]
+- **アートオリンピア2026** — 2026-07-31 (54d) [Research]
+- **KAMIHANGA国際プリント展2026** — Domestic: September 4, 2026 (Monday); International: August 14, 2026 (Thursday) (68d) [Research]
 
 ### Next Cycle — Check Dates
 
-- **SCCP Guest Artist** — check by 2026-08-01 (58d)
+- **SCCP Guest Artist** — check by 2026-08-01 (55d)
   - _Application closed October 31 2025 — check for next annual cycle_
-- **Fukuoka Art Book Fair** — check by 2026-10-01 (119d)
+- **Fukuoka Art Book Fair** — check by 2026-10-01 (116d)
   - _Application deadline was 2026-05-29 — check for 2027 cycle_
-- **Shangyuan International Residency Programme** — check by 2026-10-01 (119d)
+- **Shangyuan International Residency Programme** — check by 2026-10-01 (116d)
   - _2026 cycle results announced January 2026. Apply October 2026 for 2027._
-- **Zine & Book フェス in 神保町 (Jimbocho)** — check by 2026-10-01 (119d)
+- **Zine & Book フェス in 神保町 (Jimbocho)** — check by 2026-10-01 (116d)
   - _2026 edition: January 18-19 2026, Publishing Club Hall, Jimbocho. 30 exhibitor booths per day selected by public recruitment. Annual event — next application call expected autumn 2026._
-- **Applications — Little Tokyo Zine Fest** — check by 2026-11-01 (150d)
+- **Applications — Little Tokyo Zine Fest** — check by 2026-11-01 (147d)
   - _Application deadline was 2026-01-31 (Eventeny confirmed) — check for 2027 cycle_
-- **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — check by 2026-11-01 (150d)
+- **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — check by 2026-11-01 (147d)
   - _Application deadline was Jan 31 2026 — past_
-- **National Watercolor Society International Open Exhibition** — check by 2027-01-01 (211d)
+- **National Watercolor Society International Open Exhibition** — check by 2027-01-01 (208d)
   - _2026 deadline was May 22. Annual. $70 non-member, $40,000+ awards._
-- **Japan International Watercolor Institute Online Exhibition** — check by 2027-01-15 (225d)
+- **Japan International Watercolor Institute Online Exhibition** — check by 2027-01-15 (222d)
   - _2026 deadlines March-April. Annual. 2000 yen entry. Anyone eligible._

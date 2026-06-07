@@ -8,13 +8,13 @@
 **City:** International  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
+Core public information appears present.
 
 - **Official/source website**: https://artist.callforentry.org/festivals.php (verified)
 - **Submission process**: https://artist.callforentry.org/festivals_unique_info.php?ID=17339 (verified)
 - **Deadline**: 2026-05-05 (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Fees**: Free (verified)
+- **Contact**: exhibitions@gallerium.art (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Global Open Call.
@@ -32,7 +32,7 @@ Verified: Official/source website, Submission process, Deadline. Needs checking:
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026-05-05
-- **Fees:** Not publicly listed
+- **Fees:** Free
 - **Submission page:** https://artist.callforentry.org/festivals_unique_info.php?ID=17339
 - **Source:** https://artist.callforentry.org/festivals.php
 
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_

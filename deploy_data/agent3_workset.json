@@ -1,0 +1,731 @@
+[
+  {
+    "name": "",
+    "title": "UTRECHT",
+    "organization": "UTRECHT",
+    "source_url": "https://utrecht.jp/",
+    "category": "bookstore_gallery",
+    "city": "Tokyo",
+    "one_sentence": "Tokyo independent art bookstore with gallery space focused on zines and artist books—low-pressure venue where your work could exist as printed matter alongside exhibition."
+  },
+  {
+    "name": "",
+    "title": "Book and Sons",
+    "organization": "Book and Sons",
+    "source_url": "https://bookandsons.com/",
+    "category": "bookstore_gallery",
+    "city": "Tokyo",
+    "one_sentence": "Tokyo art/design bookstore with exhibition space and a culturally engaged, book-oriented audience that may appreciate atmospheric documentation work."
+  },
+  {
+    "name": "",
+    "title": "CSPWC Annual Open Water International Exhibition",
+    "organization": "Canadian Society of Painters in Water Colour",
+    "source_url": "https://cspwc.ca/",
+    "category": "global_watercolor_open_call",
+    "city": "Toronto",
+    "one_sentence": "Canadian Society of Painters in Water Colour 101st Annual International Juried Exhibition in Transparent Water Colour — deadline June 30 2026, exhibition September 1-19, currently open."
+  },
+  {
+    "name": "",
+    "title": "Bologna Children's Book Fair Illustrators Exhibition",
+    "organization": "Bologna Children's Book Fair Illustrators Exhibition",
+    "source_url": "https://www.bolognachildrensbookfair.com/",
+    "category": "",
+    "city": "",
+    "one_sentence": "Bologna Children's Book Fair Watercolor Artists Exhibition is a illustration exhibition source in Global for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "American Illustration",
+    "organization": "American Illustration",
+    "source_url": "https://www.ai-ap.com/",
+    "category": "",
+    "city": "",
+    "one_sentence": "American Illustration is a illustration annual source in Global for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "B&B Shimokitazawa",
+    "organization": "Bookstore B&B",
+    "source_url": "https://bookandbeer.com/",
+    "category": "bookstore_event",
+    "city": "Tokyo",
+    "one_sentence": "A Tokyo bookstore event space that hosts artist talks and zine releases, but requires substantial context-building to determine actual fit."
+  },
+  {
+    "name": "",
+    "title": "The Artcomplex Center of Tokyo",
+    "organization": "The Artcomplex Center of Tokyo",
+    "source_url": "https://www.gallerycomplex.com/",
+    "category": "",
+    "city": "",
+    "one_sentence": "The Artcomplex Center of Tokyo is a gallery complex source in Tokyo for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "flotsam books",
+    "organization": "flotsam books",
+    "source_url": "https://www.flotsambooks.com/",
+    "category": "bookstore_gallery",
+    "city": "Tokyo",
+    "one_sentence": "Tokyo watercolor / works on paper/art bookshop with gallery space; primarily retail-focused with occasional artist events and exhibitions."
+  },
+  {
+    "name": "",
+    "title": "Aesthetica Art Prize",
+    "organization": "Aesthetica Magazine",
+    "source_url": "https://aestheticamagazine.com/art-prize/",
+    "category": "global_open_call",
+    "city": "York / Online",
+    "one_sentence": "Annual international art prize open to all media — watercolor / works on paper, works on paper, digital, and more — with strong emerging artist track record."
+  },
+  {
+    "name": "",
+    "title": "OPA Gallery",
+    "organization": "OPA Gallery",
+    "source_url": "https://opagallery.net/",
+    "category": "",
+    "city": "",
+    "one_sentence": "OPA Gallery is a illustration gallery source in Tokyo for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Pinpoint Gallery",
+    "organization": "Pinpoint Gallery",
+    "source_url": "https://pinpointgallery.com/",
+    "category": "",
+    "city": "",
+    "one_sentence": "Pinpoint Gallery is a illustration gallery source in Tokyo for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "World Illustration Awards",
+    "organization": "World Illustration Awards",
+    "source_url": "https://theaoi.com/world-illustration-awards/",
+    "category": "",
+    "city": "",
+    "one_sentence": "World Illustration Awards is a illustration award source in Global for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "3x3 International Illustration Awards",
+    "organization": "3x3 International Illustration Awards",
+    "source_url": "https://3x3mag.com/",
+    "category": "",
+    "city": "",
+    "one_sentence": "3x3 International Illustration Awards is a illustration award source in Global for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Jackson's Art Prize",
+    "organization": "Jackson's Art Prize",
+    "source_url": "https://www.jacksonsart.com/paintingprize/",
+    "category": "",
+    "city": "",
+    "one_sentence": "Jackson's Art Prize is a watercolor / works on paper prize source in Global for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "POST",
+    "organization": "POST",
+    "source_url": "https://post-books.info/",
+    "category": "bookstore_gallery",
+    "city": "Tokyo",
+    "one_sentence": "Tokyo art bookshop/gallery with publishing-oriented audience that values atmospheric visual work and cultural documentation."
+  },
+  {
+    "name": "",
+    "title": "DER GREIF",
+    "organization": "Der Greif",
+    "source_url": "https://dergreif.org/",
+    "category": "photo_open_call",
+    "city": "Online",
+    "one_sentence": "Candidate discovered from Der Greif. Needs manual verification before recommendation."
+  },
+  {
+    "name": "",
+    "title": "SCAI The Bathhouse",
+    "organization": "SCAI The Bathhouse",
+    "source_url": "https://www.scaithebathhouse.com/",
+    "category": "gallery",
+    "city": "Tokyo",
+    "one_sentence": "SCAI The Bathhouse is a prestigious Tokyo gallery representing established international contemporary artists - currently far above accessible career level."
+  },
+  {
+    "name": "",
+    "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+    "organization": "Northwest Watercolor Society (NWWS)",
+    "source_url": "https://www.nwws.org/annual-international-open/",
+    "category": "global_watercolor_open_call",
+    "city": "Online / Seattle",
+    "one_sentence": "Prestigious annual international watercolor exhibition open to all artists worldwide, $15,000+ in awards, juror Dongfeng Li (Chinese-American watercolor watercolor artist). Deadline July 8 2026."
+  },
+  {
+    "name": "",
+    "title": "Center for Book Arts Opportunities",
+    "organization": "Center for Book Arts",
+    "source_url": "https://centerforbookarts.org/",
+    "category": "global_book_arts",
+    "city": "New York",
+    "one_sentence": "Book arts institution with exhibitions, residencies, education, and opportunities connected to artist books and printed matter."
+  },
+  {
+    "name": "",
+    "title": "Shimokitazawa Arts",
+    "organization": "Shimokitazawa Arts",
+    "source_url": "https://shimokitazawaarts.tokyo/en/home-english/",
+    "category": "gallery_small",
+    "city": "Tokyo",
+    "one_sentence": "Shimokitazawa gallery presenting monthly solo exhibitions by younger contemporary Japanese artists — direct email proposal required, no public open call."
+  },
+  {
+    "name": "",
+    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+    "organization": "CuratorSpace",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
+    "category": "zine_print",
+    "city": "Online",
+    "one_sentence": "Candidate link discovered from CuratorSpace."
+  },
+  {
+    "name": "",
+    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+    "organization": "CuratorSpace",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "category": "zine_print",
+    "city": "Online",
+    "one_sentence": "Candidate link discovered from CuratorSpace."
+  },
+  {
+    "name": "",
+    "title": "Browse opportunities | CuratorSpace",
+    "organization": "CuratorSpace",
+    "source_url": "https://www.curatorspace.com/opportunities",
+    "category": "zine_print",
+    "city": "Online",
+    "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation."
+  },
+  {
+    "name": "",
+    "title": "HB Gallery",
+    "organization": "HB Gallery",
+    "source_url": "https://hbgallery.com/",
+    "category": "",
+    "city": "",
+    "one_sentence": "HB Gallery is a illustration gallery source in Tokyo for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Gallery IYN",
+    "organization": "Gallery IYN",
+    "source_url": "https://www.gallery-iyn.com/",
+    "category": "",
+    "city": "",
+    "one_sentence": "Gallery IYN is a gallery open call source in Japan for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Tokyo Illustrators Society",
+    "organization": "Tokyo Illustrators Society",
+    "source_url": "https://www.tis-home.com/",
+    "category": "",
+    "city": "",
+    "one_sentence": "Tokyo Watercolor Artists Society is a illustration society source in Japan for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Top Artist Opportunities for 2026 | ArtConnect",
+    "organization": "ArtConnect Open Calls",
+    "source_url": "https://www.artconnect.com/opportunities",
+    "category": "zine_print",
+    "city": "Online",
+    "one_sentence": "Candidate discovered from ArtConnect Open Calls. Needs manual verification before recommendation."
+  },
+  {
+    "name": "",
+    "title": "ArtConnect Open Calls",
+    "organization": "ArtConnect Open Calls",
+    "source_url": "https://www.artconnect.com/opportunities",
+    "category": "",
+    "city": "",
+    "one_sentence": "ArtConnect Open Calls is a open call index source in Global for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Society of Women Artists",
+    "organization": "Society of Women Artists",
+    "source_url": "https://www.society-women-artists.org.uk/",
+    "category": "",
+    "city": "",
+    "one_sentence": "Society of Women Artists is a open exhibition source in UK for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Communication Arts Illustration Competition",
+    "organization": "Communication Arts Illustration Competition",
+    "source_url": "https://www.commarts.com/competitions/illustration",
+    "category": "",
+    "city": "",
+    "one_sentence": "Communication Arts Illustration Competition is a illustration competition source in Global for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "American Watercolor Society Annual International Exhibition",
+    "organization": "American Watercolor Society",
+    "source_url": "https://www.americanwatercolorsociety.org/",
+    "category": "global_watercolor_open_call",
+    "city": "New York",
+    "one_sentence": "The most prominent annual international watercolor exhibition in North America, open to artists worldwide."
+  },
+  {
+    "name": "",
+    "title": "Platform China BIAP Artist Residency",
+    "organization": "Platform China Contemporary Art Institute",
+    "source_url": "https://www.transartists.org/en/air/platform-china",
+    "category": "residency_beijing",
+    "city": "Beijing",
+    "one_sentence": "Caochangdi Art District Beijing residency, 8-12 weeks, open platform for emerging to established international artists with gallery exhibition opportunity."
+  },
+  {
+    "name": "",
+    "title": "Koganecho Area Management Center",
+    "organization": "Koganecho",
+    "source_url": "https://koganecho.net/",
+    "category": "artist_space",
+    "city": "Yokohama",
+    "one_sentence": "Established artist-run center in Yokohama focused on site-responsive practice and community engagement, with residency programs that would suit your documentation approach."
+  },
+  {
+    "name": "",
+    "title": "BankART1929",
+    "organization": "BankART1929",
+    "source_url": "https://bankart1929.com/",
+    "category": "artist_space",
+    "city": "Yokohama",
+    "one_sentence": "Respected Yokohama alternative art space with historical architecture focus, but minimal online information makes evaluation difficult."
+  },
+  {
+    "name": "",
+    "title": "Yonchome Cafe",
+    "organization": "Yonchome Cafe",
+    "source_url": "https://www.yonchome.com/",
+    "category": "cafe_gallery",
+    "city": "Koenji",
+    "one_sentence": "Koenji cafe with unverified exhibition program - insufficient information to assess as legitimate opportunity."
+  },
+  {
+    "name": "",
+    "title": "3331 Arts Chiyoda",
+    "organization": "3331 Arts Chiyoda",
+    "source_url": "https://www.3331.jp/",
+    "category": "artist_space",
+    "city": "Tokyo",
+    "one_sentence": "3331 Arts Chiyoda is a respected Tokyo artist-run space in a converted school building, known for experimental and community-oriented programming, but this listing lacks specific submission details."
+  },
+  {
+    "name": "",
+    "title": "TAV Gallery",
+    "organization": "TAV Gallery",
+    "source_url": "https://tavgallery.com/",
+    "category": "gallery",
+    "city": "Tokyo",
+    "one_sentence": "Tokyo contemporary gallery with minimal available information about programming, submission process, or fee structure."
+  },
+  {
+    "name": "",
+    "title": "Royal Watercolour Society Open Exhibition",
+    "organization": "Royal Watercolour Society",
+    "source_url": "https://royalwatercoloursociety.co.uk/",
+    "category": "global_watercolor_open_call",
+    "city": "London",
+    "one_sentence": "The world's oldest and most prestigious watercolor society, holding annual open exhibitions open to non-member artists internationally."
+  },
+  {
+    "name": "",
+    "title": "Royal Watercolour Society",
+    "organization": "Royal Watercolour Society",
+    "source_url": "https://www.royalwatercoloursociety.co.uk/",
+    "category": "",
+    "city": "",
+    "one_sentence": "Royal Watercolour Society is a watercolor society source in UK for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "DESIGN FESTA GALLERY",
+    "organization": "Design Festa Gallery",
+    "source_url": "https://designfestagallery.com/",
+    "category": "gallery",
+    "city": "Tokyo",
+    "one_sentence": "Design Festa Gallery is a Tokyo rental gallery space operating more as a DIY exhibition venue than a curated program, with minimal selection criteria."
+  },
+  {
+    "name": "",
+    "title": "Self Publish, Be Happy",
+    "organization": "Self Publish, Be Happy",
+    "source_url": "https://selfpublishbehappy.com/",
+    "category": "global_artist_book_platform",
+    "city": "London / Online",
+    "one_sentence": "International artist book / watercolor sequence platform and community focused on self-published watercolor / works on paper, books, workshops, and artist visibility."
+  },
+  {
+    "name": "",
+    "title": "Gallery IRO",
+    "organization": "Gallery IRO",
+    "source_url": "https://1-6.jp/",
+    "category": "",
+    "city": "",
+    "one_sentence": "Gallery IRO is a local gallery source in Tokyo for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "AAA Gallery Yokohama",
+    "organization": "AAA Gallery Yokohama",
+    "source_url": "https://artaraqasia.com/",
+    "category": "",
+    "city": "",
+    "one_sentence": "AAA Gallery Yokohama is a gallery open call source in Yokohama for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "CuratorSpace",
+    "organization": "CuratorSpace",
+    "source_url": "https://www.curatorspace.com/opportunities",
+    "category": "",
+    "city": "",
+    "one_sentence": "CuratorSpace is a open call index source in Global for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Tokyo Wonder Site / TOKAS Residency",
+    "organization": "Tokyo Arts and Space",
+    "source_url": "https://www.tokyoartsandspace.jp/en/archive/residence/",
+    "category": "residency",
+    "city": "Tokyo",
+    "one_sentence": "TOKAS is a highly respected Tokyo residency that would be excellent for your practice, but this listing is a program archive, not an active call—deadline and application details are unavailable."
+  },
+  {
+    "name": "",
+    "title": "Cafe Mame-Hico",
+    "organization": "Cafe Mame-Hico",
+    "source_url": "https://www.mamehico.com/",
+    "category": "cafe_gallery",
+    "city": "Tokyo",
+    "one_sentence": "Tokyo cafe with gallery wall space - minimal information available, unclear exhibition process or audience profile."
+  },
+  {
+    "name": "",
+    "title": "Cafe Cross Point",
+    "organization": "Cafe Cross Point",
+    "source_url": "https://cafecrosspoint.jp/",
+    "category": "cafe_gallery",
+    "city": "Koenji",
+    "one_sentence": "A Koenji cafe gallery with minimal verifiable information and unclear exhibition standards or curatorial vision."
+  },
+  {
+    "name": "",
+    "title": "Cafe Gallery HATTIFNATT",
+    "organization": "HATTIFNATT",
+    "source_url": "https://www.hattifnatt.jp/",
+    "category": "cafe_gallery",
+    "city": "Koenji",
+    "one_sentence": "Koenji neighborhood cafe gallery with casual exhibition space—comfortable atmosphere but unclear professional positioning and minimal career leverage."
+  },
+  {
+    "name": "",
+    "title": "Offprint",
+    "organization": "Offprint",
+    "source_url": "https://offprint.org/",
+    "category": "global_art_book_fair",
+    "city": "Paris / London",
+    "one_sentence": "International art publishing fair focused on independent, experimental, and artist-led publishing."
+  },
+  {
+    "name": "",
+    "title": "Mall Galleries Open Exhibitions",
+    "organization": "Mall Galleries Open Exhibitions",
+    "source_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "category": "",
+    "city": "",
+    "one_sentence": "Mall Galleries Open Exhibitions is a open exhibition source in UK for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Pastel Society Open Exhibition",
+    "organization": "Pastel Society Open Exhibition",
+    "source_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "category": "",
+    "city": "",
+    "one_sentence": "Pastel Society Open Exhibition is a works on paper open exhibition source in UK for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "PhotoVogue",
+    "organization": "PhotoVogue",
+    "source_url": "https://www.vogue.com/photovogue",
+    "category": "photo_open_call",
+    "city": "Online",
+    "one_sentence": "Candidate discovered from PhotoVogue. Needs manual verification before recommendation."
+  },
+  {
+    "name": "",
+    "title": "VACANT",
+    "organization": "VACANT",
+    "source_url": "https://www.vacant.vc/",
+    "category": "event_space",
+    "city": "Tokyo",
+    "one_sentence": "VACANT is a Tokyo event/gallery/pop-up space with no visible artist application process or programming information."
+  },
+  {
+    "name": "",
+    "title": "Gallery IRO",
+    "organization": "Gallery IRO",
+    "source_url": "https://1-6.jp/iro/",
+    "category": "gallery",
+    "city": "Tokyo",
+    "one_sentence": "Kichijoji gallery with unclear business model—likely rental or hybrid—requiring investigation before any contact."
+  },
+  {
+    "name": "",
+    "title": "Gallery HANA Shimokitazawa",
+    "organization": "Gallery HANA Shimokitazawa",
+    "source_url": "https://www.g-hana.jp/",
+    "category": "gallery",
+    "city": "Tokyo",
+    "one_sentence": "Small Shimokitazawa gallery with insufficient public information to assess exhibition standards, financial terms, or strategic value."
+  },
+  {
+    "name": "",
+    "title": "Art Submissions",
+    "organization": "ArtConnect Open Calls",
+    "source_url": "https://www.artconnect.com/opportunities/art-submissions",
+    "category": "open_call_index",
+    "city": "Online",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls."
+  },
+  {
+    "name": "",
+    "title": "AIR 3331",
+    "organization": "3331 Arts Chiyoda",
+    "source_url": "https://residence.3331.jp/",
+    "category": "residency",
+    "city": "Tokyo",
+    "one_sentence": "Tokyo residency at established contemporary art center with strong geographic and thematic alignment, but requires verification of current program status and application requirements before proceeding."
+  },
+  {
+    "name": "",
+    "title": "AIT Residency",
+    "organization": "Arts Initiative Tokyo",
+    "source_url": "https://www.a-i-t.net/en/",
+    "category": "residency",
+    "city": "Tokyo",
+    "one_sentence": "Tokyo contemporary art residency with unclear programming details and likely conceptual art emphasis unsuited to your practice approach."
+  },
+  {
+    "name": "",
+    "title": "Zushi Art Gallery",
+    "organization": "Zushi Art Gallery",
+    "source_url": "https://zushi-art.com/",
+    "category": "gallery",
+    "city": "Kanagawa",
+    "one_sentence": "Regional Japanese gallery with minimal online information and unclear exhibition model—insufficient data to assess legitimacy or fit."
+  },
+  {
+    "name": "",
+    "title": "Cité Internationale des Arts Artist Residency",
+    "organization": "Cité Internationale des Arts",
+    "source_url": "https://www.citedesartsparis.net/",
+    "category": "global_residency",
+    "city": "Paris",
+    "one_sentence": "Major international artist residency in Paris offering studio housing to artists from around the world, with strong track record for Asian artists."
+  },
+  {
+    "name": "",
+    "title": "Gallery Conceal Shibuya",
+    "organization": "Gallery Conceal Shibuya",
+    "source_url": "https://galleryconceal.wixsite.com/gconceal",
+    "category": "gallery",
+    "city": "Tokyo",
+    "one_sentence": "Gallery Conceal Shibuya appears to be a rental exhibition space in Tokyo with unclear exhibition model and minimal verifiable track record."
+  },
+  {
+    "name": "",
+    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "organization": "CuratorSpace",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "category": "photo_open_call",
+    "city": "Online",
+    "one_sentence": "Candidate link discovered from CuratorSpace."
+  },
+  {
+    "name": "",
+    "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
+    "organization": "CuratorSpace",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
+    "category": "photo_open_call",
+    "city": "Online",
+    "one_sentence": "Candidate link discovered from CuratorSpace."
+  },
+  {
+    "name": "",
+    "title": "Aoyama Farmers Market",
+    "organization": "Farmer's Market @ UNU",
+    "source_url": "https://farmersmarkets.jp/",
+    "category": "fair_popup",
+    "city": "Tokyo",
+    "one_sentence": "Weekend farmers market in Tokyo where vendors sell artisan goods alongside produce—low barrier entry for testing prints/merchandise but minimal fine art context."
+  },
+  {
+    "name": "",
+    "title": "Comitia",
+    "organization": "COMITIA",
+    "source_url": "https://www.comitia.co.jp/",
+    "category": "fair_popup",
+    "city": "Tokyo",
+    "one_sentence": "Comitia is a legitimate Tokyo fair for self-published comics, zines, and illustration—not a venue for original watercolor / works on papers or fine art practice."
+  },
+  {
+    "name": "",
+    "title": "HandMade In Japan Fes",
+    "organization": "Creema",
+    "source_url": "https://hmj-fes.jp/",
+    "category": "fair_popup",
+    "city": "Tokyo",
+    "one_sentence": "HandMade In Japan Fes is a craft marketplace organized by Creema (Japan's Etsy equivalent) that would position your watercolor / works on paper practice as surface-level merchandise rather than fine art."
+  },
+  {
+    "name": "",
+    "title": "Youkobo Art Space",
+    "organization": "Youkobo Art Space",
+    "source_url": "https://www.youkobo.co.jp/en/",
+    "category": "residency",
+    "city": "Tokyo",
+    "one_sentence": "Tokyo-based artist residency with local art ecosystem focus, but insufficient information available to assess program structure, costs, or fit."
+  },
+  {
+    "name": "",
+    "title": "Royal Institute of Painters in Water Colours",
+    "organization": "Royal Institute of Painters in Water Colours",
+    "source_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "category": "",
+    "city": "",
+    "one_sentence": "Royal Institute of Watercolor Artists in Water Colours is a watercolor open exhibition source in UK for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+    "organization": "CuratorSpace",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "category": "photo_open_call",
+    "city": "Online",
+    "one_sentence": "Candidate link discovered from CuratorSpace."
+  },
+  {
+    "name": "",
+    "title": "Printed Matter Art Book Fairs",
+    "organization": "Printed Matter",
+    "source_url": "https://www.printedmatter.org/",
+    "category": "global_art_book_fair",
+    "city": "New York / Los Angeles",
+    "one_sentence": "Major international art-book nonprofit and fair organizer with strong relevance to artist books, zines, and printed matter."
+  },
+  {
+    "name": "",
+    "title": "Home - Printed Matter",
+    "organization": "Printed Matter",
+    "source_url": "https://www.printedmatter.org/",
+    "category": "global_photobook",
+    "city": "Online",
+    "one_sentence": "Candidate discovered from Printed Matter. Needs manual verification before recommendation."
+  },
+  {
+    "name": "",
+    "title": "Asian Cultural Council Fellowship",
+    "organization": "Asian Cultural Council",
+    "source_url": "https://www.asianculturalcouncil.org/",
+    "category": "global_grant_fellowship",
+    "city": "New York / Global",
+    "one_sentence": "Prestigious grant program supporting cultural exchange for artists and arts professionals from Asia, enabling research, residency, and travel internationally."
+  },
+  {
+    "name": "",
+    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
+    "organization": "CuratorSpace",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
+    "category": "photo_open_call",
+    "city": "Online",
+    "one_sentence": "Candidate link discovered from CuratorSpace."
+  },
+  {
+    "name": "",
+    "title": "BONUS TRACK",
+    "organization": "BONUS TRACK",
+    "source_url": "https://bonus-track.net/",
+    "category": "market_event",
+    "city": "Shimokitazawa",
+    "one_sentence": "Community market/event space in Shimokitazawa that may host rotating exhibitions or pop-ups, but unclear what specific opportunities exist for visual artists."
+  },
+  {
+    "name": "",
+    "title": "The Container",
+    "organization": "The Container",
+    "source_url": "https://www.the-container.com/",
+    "category": "gallery",
+    "city": "Tokyo",
+    "one_sentence": "Small Tokyo contemporary gallery with insufficient information to assess fit, requiring cold outreach with uncertain exhibition model."
+  },
+  {
+    "name": "",
+    "title": "Tokyo Arts and Space",
+    "organization": "Tokyo Arts and Space",
+    "source_url": "https://www.tokyoartsandspace.jp/en/",
+    "category": "institutional",
+    "city": "Tokyo",
+    "one_sentence": "Legitimate Tokyo government-funded arts institution with residencies and exhibitions, but currently no accessible application information."
+  },
+  {
+    "name": "",
+    "title": "Boji Hair+Gallery",
+    "organization": "Boji Hair+Gallery",
+    "source_url": "https://www.boji-hair.com/",
+    "category": "",
+    "city": "",
+    "one_sentence": "Boji Hair+Gallery is a small gallery source in Tokyo for watercolor / works on paper research."
+  },
+  {
+    "name": "",
+    "title": "Design Festa",
+    "organization": "Design Festa",
+    "source_url": "https://designfesta.com/",
+    "category": "fair_popup",
+    "city": "Tokyo",
+    "one_sentence": "Design Festa is Tokyo's largest independent art fair with thousands of creators selling directly to the public in a casual festival atmosphere."
+  },
+  {
+    "name": "",
+    "title": "reload Shimokitazawa",
+    "organization": "reload",
+    "source_url": "https://reload-shimokita.com/",
+    "category": "market_event",
+    "city": "Shimokitazawa",
+    "one_sentence": "A commercial popup space in Shimokitazawa with insufficient information about artist opportunities, appearing to focus on retail rather than exhibition."
+  },
+  {
+    "name": "",
+    "title": "Creative Space Hayashi",
+    "organization": "Creative Space Hayashi",
+    "source_url": "https://csh.yokohama/",
+    "category": "gallery",
+    "city": "Yokohama",
+    "one_sentence": "Yokohama exhibition space with minimal verifiable information about programming, submission process, or artistic focus."
+  },
+  {
+    "name": "",
+    "title": "Japan Watercolor Society Annual Exhibition",
+    "organization": "日本水彩画会 (Japan Watercolor Society)",
+    "source_url": "https://nihon-suisai.com/",
+    "category": "japan_watercolor_institution",
+    "city": "Tokyo",
+    "one_sentence": "Japan's primary professional watercolor society, holding annual exhibitions at major Tokyo venues open to non-member entries."
+  }
+]

@@ -23,15 +23,11 @@
     "Automatically created from opportunity data.",
     "Needs manual/web research before being treated as verified."
   ],
-  "missing_information": [
-    "contact",
-    "fees",
-    "submission process"
-  ],
+  "missing_information": [],
   "opportunity_titles": [
     "submissions — porkbelly press"
   ],
   "last_researched": "",
-  "created_at": "2026-06-04",
-  "updated_at": "2026-06-04"
+  "created_at": "2026-06-07",
+  "updated_at": "2026-06-07"
 }

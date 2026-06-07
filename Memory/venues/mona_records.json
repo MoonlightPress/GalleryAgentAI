@@ -1,0 +1,37 @@
+{
+  "venue_name": "Mona Records",
+  "venue_slug": "mona_records",
+  "venue_type": "bookstore / print space",
+  "city": "Shimokitazawa, Tokyo",
+  "country": "",
+  "website": "https://monarecords.com/",
+  "source_links": [
+    "https://monarecords.com/"
+  ],
+  "categories_seen": [
+    "Zine Shop Consignment"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "Mona Records"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-07",
+  "updated_at": "2026-06-07"
+}

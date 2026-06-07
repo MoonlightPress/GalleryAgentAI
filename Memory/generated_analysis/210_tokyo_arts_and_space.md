@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-07
 
 # Tokyo Arts and Space
 
 ## 1. Quick Judgment
-**Fit score:** 5.8/10  
-**Fit band:** Promising  
+**Fit score:** 7.2/10  
+**Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Institutional / Grants  
 **City:** Tokyo  
@@ -15,8 +15,8 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 
 - **Official/source website**: https://www.tokyoartsandspace.jp/en/ (verified)
 - **Submission process**: https://www.tokyoartsandspace.jp/en/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
+- **Deadline**: March 17, 2026 at 23:59 (Japanese time) (verified)
+- **Fees**: Free (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -36,8 +36,8 @@ Culturally appropriate institutional context for your practice themes and geogra
 - High research burden: no visible current calls, unclear programming cycles, may require navigating Japanese-language resources
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** March 17, 2026 at 23:59 (Japanese time)
+- **Fees:** Free
 - **Submission page:** https://www.tokyoartsandspace.jp/en/
 - **Source:** https://www.tokyoartsandspace.jp/en/
 
@@ -50,5 +50,5 @@ Bookmark for systematic research later—not urgent without active deadline
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_
 

@@ -8,14 +8,14 @@ This report caps scores when the explanation contradicts the ranking.
 - capped_market_format: 1
 - capped_negative_explanation: 26
 - hidden: 69
-- ok: 171
+- ok: 181
 - reject: 19
 
 ## Score Caps Applied
 
-- **B&B Shimokitazawa** — 10.0 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
 - **flotsam books** — 10.0 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **B&B Shimokitazawa** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **DER GREIF** — 10.0 → 2.5 — hidden
   - hidden recommendation
@@ -45,11 +45,11 @@ This report caps scores when the explanation contradicts the ranking.
   - hidden recommendation
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — 9.99 → 2.5 — hidden
   - hidden recommendation
+- **Become an Author - Tuttle Publishing** — 9.99 → 2.5 — hidden
+  - hidden recommendation
 - **3 Top Book Publishers in Tokyo in 2026** — 9.99 → 2.5 — hidden
   - hidden recommendation
 - **3 Top Book Publishers in Japan in 2026** — 9.99 → 2.5 — hidden
-  - hidden recommendation
-- **Become an Author - Tuttle Publishing** — 9.99 → 2.5 — hidden
   - hidden recommendation
 - **Aquarium - 2026** — 9.95 → 2.5 — hidden
   - hidden recommendation
@@ -100,13 +100,13 @@ This report caps scores when the explanation contradicts the ranking.
   - negative explanation: not strategic, unlikely
 - **Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou** — 7.6 → 2.5 — hidden
   - hidden recommendation
+- **OM SYSTEM PLAZA 2026年4月～6月開催分** — 7.51 → 2.5 — hidden
+  - hidden recommendation
 - **第四回公募展「食卓」** — 7.51 → 2.5 — hidden
   - hidden recommendation
 - **第六回公募展「鳥」-bird-** — 7.51 → 2.5 — hidden
   - hidden recommendation
 - **OM SYSTEM PLAZA 2026年2月～3月開催分** — 7.51 → 2.5 — hidden
-  - hidden recommendation
-- **OM SYSTEM PLAZA 2026年4月～6月開催分** — 7.51 → 2.5 — hidden
   - hidden recommendation
 - **Open Calls for Artists** — 7.48 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
@@ -172,12 +172,12 @@ This report caps scores when the explanation contradicts the ranking.
   - hidden recommendation
 - **秀彩会小品展2026** — 6.25 → 2.5 — hidden
   - hidden recommendation
+- **Cafe Gallery HATTIFNATT** — 6.22 → 2.5 — hidden
+  - negative explanation: unclear
+  - hidden recommendation
 - **NADiff a/p/a/r/t** — 6.22 → 2.5 — reject
   - negative explanation: not actionable
   - hidden recommendation
   - verification rejected
-- **Cafe Gallery HATTIFNATT** — 6.22 → 2.5 — hidden
-  - negative explanation: unclear
-  - hidden recommendation
 - **SICF Fukuoka 2026** — 6.17 → 2.5 — hidden
   - hidden recommendation

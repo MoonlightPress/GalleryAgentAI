@@ -73,101 +73,106 @@
   ],
   "peer_artists": [
     {
-      "name": "Rinko Kawauchi",
-      "region": "Japan",
-      "fit_reason": "quiet observation, soft attention to ordinary life, poetic sequencing",
+      "name": "Chien Chung-Wei (簡忠威)",
+      "region": "Taiwan",
+      "medium": "watercolor",
+      "fit_reason": "atmospheric urban and interior watercolor, quiet scenes, strong tonal control. Built international credibility from a Taiwan base through IWS competitions.",
       "shared_traits": [
-        "quiet photography",
-        "daily life",
-        "memory",
-        "sequence",
-        "soft atmosphere"
+        "atmospheric watercolor",
+        "quiet observation",
+        "Asia-based career",
+        "architectural subjects"
       ],
-      "use_as": "tone reference, not direct stylistic imitation"
+      "use_as": "Primary career-path reference for building international watercolor credibility from an Asian base."
     },
     {
-      "name": "Takashi Homma",
-      "region": "Japan",
-      "fit_reason": "ordinary architecture, suburbs, place-based observation, understated photographic language",
+      "name": "Keiko Tanabe",
+      "region": "Japan / USA",
+      "medium": "watercolor",
+      "fit_reason": "Japanese watercolor painter, urban and travel subjects, light and understated atmosphere. Has exhibited with AWS and NWS — Japan-rooted identity with international visibility.",
       "shared_traits": [
-        "architecture",
-        "urban vernacular",
-        "daily place",
-        "cool restraint"
+        "Japan-connected identity",
+        "urban and travel watercolor",
+        "quiet atmospheric palette",
+        "watercolor societies"
       ],
-      "use_as": "reference for place and built environment"
+      "use_as": "Reference for Japan-origin watercolor career with international reach."
     },
     {
-      "name": "Yoshiyuki Okuyama",
-      "region": "Japan",
-      "fit_reason": "youthful everyday scenes, memory, light, quiet personal atmosphere",
-      "shared_traits": [
-        "daily life",
-        "memory",
-        "intimate scale",
-        "photobook culture"
-      ],
-      "use_as": "reference for accessible poetic sequencing"
-    },
-    {
-      "name": "Alec Soth",
+      "name": "Thomas W. Schaller",
       "region": "USA",
-      "fit_reason": "narrative sequencing, place, human trace, photographic storytelling through accumulation",
+      "medium": "watercolor",
+      "fit_reason": "Architectural watercolor — buildings, urban light, atmosphere, quiet structural observation. Large-format architectural studies with dramatic mood.",
       "shared_traits": [
-        "sequence",
-        "place",
-        "human trace",
-        "photobook"
+        "architecture and urban environments",
+        "atmospheric light",
+        "watercolor medium",
+        "mood-first approach"
       ],
-      "use_as": "reference for project structure"
+      "use_as": "Primary reference for architectural watercolor practice and aesthetic."
     },
     {
-      "name": "Batia Suter",
-      "region": "Europe",
-      "fit_reason": "book-oriented image sequencing and associative visual thinking",
+      "name": "Cathy Read",
+      "region": "UK",
+      "medium": "watercolor",
+      "fit_reason": "British architectural watercolorist known for Edinburgh and UK urban scenes. Has exhibited in London and internationally.",
       "shared_traits": [
-        "artist book",
-        "sequence",
-        "visual association",
-        "printed matter"
+        "architecture and urban buildings",
+        "watercolor medium",
+        "observation-based practice",
+        "structural and atmospheric balance"
       ],
-      "use_as": "reference for book logic"
+      "use_as": "Reference for building an architectural watercolor career with direct-to-collector sales."
     },
     {
-      "name": "Mark Ruwedel",
-      "region": "USA",
-      "fit_reason": "quiet documentary attention to traces in landscape and built space",
+      "name": "Lian Quan Zhen",
+      "region": "USA (Chinese-American)",
+      "medium": "watercolor",
+      "fit_reason": "Chinese-born watercolorist integrating Chinese ink painting sensibility with Western watercolor technique. AWS member.",
       "shared_traits": [
-        "trace",
-        "architecture",
-        "absence",
-        "documentary restraint"
+        "Chinese artistic formation",
+        "Western watercolor practice",
+        "cross-cultural career",
+        "watercolor medium"
       ],
-      "use_as": "reference for human absence and place"
+      "use_as": "Reference for cross-cultural watercolor identity — Chinese training meeting international exhibition contexts."
     },
     {
-      "name": "Toshio Shibata",
+      "name": "Japan Watercolor Society (日本水彩画会) exhibitors",
       "region": "Japan",
-      "fit_reason": "infrastructure, built environment, restrained photographic observation",
+      "medium": "watercolor",
+      "fit_reason": "Annual national exhibition — Tier 3 credibility target. Contemporary Japanese watercolor practitioners working at the level she is building toward.",
       "shared_traits": [
-        "infrastructure",
-        "architecture",
-        "quiet form",
-        "Japan"
+        "Japan-based",
+        "watercolor medium",
+        "annual exhibition culture",
+        "national institutional credibility"
       ],
-      "use_as": "reference for built structures"
+      "use_as": "Reference ecosystem for Japan active watercolor exhibition community."
     },
     {
-      "name": "Sophie Calle",
-      "region": "France",
-      "fit_reason": "trace, absence, narrative fragments, emotional residue",
+      "name": "Alvaro Castagnet",
+      "region": "Uruguay / Australia",
+      "medium": "watercolor",
+      "fit_reason": "Urban watercolor with loose, atmospheric style; strong international exhibition record built from a non-Western base. AWS signature member.",
       "shared_traits": [
-        "absence",
-        "trace",
-        "narrative fragments",
-        "memory"
+        "urban scenes",
+        "atmospheric loose watercolor",
+        "international career from non-Western base"
       ],
-      "use_as": "reference for conceptual framing, not visual style"
+      "use_as": "Reference for building international watercolor exhibition record through society competitions."
+    },
+    {
+      "name": "Jean Haines",
+      "region": "UK",
+      "medium": "watercolor",
+      "fit_reason": "Prominent UK watercolor practitioner and author. Style is loose and expressive — very different from GEGYjiji's quiet urban register. Community reference only.",
+      "shared_traits": [
+        "watercolor medium",
+        "international watercolor community",
+        "publishing and teaching path"
+      ],
+      "use_as": "Community reference only. Do NOT use as stylistic reference or aesthetic comparison."
     }
   ],
   "publisher_matches": [

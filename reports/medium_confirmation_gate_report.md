@@ -9,10 +9,10 @@ pre_gate_bucket for reversal if richer data is added later.
 
 ## Summary
 
-- **Confirmed:** 171
-- **Rerouted to needs_research:** 70
+- **Confirmed:** 179
+- **Rerouted to needs_research:** 72
 - **Skipped (already reject/low_priority):** 46
-- **Total:** 287
+- **Total:** 297
 
 ## Rerouted entries
 
@@ -42,10 +42,11 @@ pre_gate_bucket for reversal if richer data is added later.
 - **Osaka Open Call For Artists. - ARRIVAL** (was: `needs_research`) — Open Calls / Contests lead found through targeted research; useful if requirements and fit
 - **Open calls - Online Database of Artist in Residence Programs in Japan** (was: `needs_research`) — Open Calls / Contests lead found through targeted research; useful if requirements and fit
 - **NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW** (was: `needs_research`) — Residencies lead found through targeted research; useful if requirements and fit check out
+- **International Open Call** (was: `needs_research`) — Open Calls / Contests lead found through targeted research; useful if requirements and fit
 - **【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...** (was: `needs_research`) — Open Calls / Contests lead found through targeted research; useful if requirements and fit
 - **2026 松濤美術館公募展｜渋谷区立松濤美術館** (was: `needs_research`) — Open Calls / Contests lead found through targeted research; useful if requirements and fit
-- **International Open Call** (was: `needs_research`) — Open Calls / Contests lead found through targeted research; useful if requirements and fit
 - **AIR 3331** (was: `needs_research`) — Tokyo residency at established contemporary art center with strong geographic and thematic
+- **Koenji SANAGI** (was: `immediate_best_moves`) — Koenji art café and event space — one of the neighborhood's key cultural meeting points fo
 - **第10屆溫哥華藝術博覽會 (Art Vancouver 2026)** (was: `needs_research`) — Tenth edition of Vancouver Art Fair showcasing contemporary art and design from Canadian a
 - **「国際創作者駐村計畫」** (was: `needs_research`) — International artist residency program inviting visual artists, filmmakers, designers and 
 - **Yonchome Cafe** (was: `needs_research`) — Koenji cafe with unverified exhibition program - insufficient information to assess as leg
@@ -54,6 +55,7 @@ pre_gate_bucket for reversal if richer data is added later.
 - **OPEN CALL for the Artist-In-Residence Program 2025/2026** (was: `needs_research`) — Residencies lead found through targeted research; useful if requirements and fit check out
 - **ART FAIR TOKYO 21** (was: `needs_research`) — Major Tokyo art fair with open call for exhibitors; relevant for artists seeking fair boot
 - **Creative Space Hayashi** (was: `needs_research`) — Yokohama exhibition space with minimal verifiable information about programming, submissio
+- **ERA Shimokitazawa** (was: `immediate_best_moves`) — Alternative culture venue in Shimokitazawa — events, exhibitions, and the kind of art-musi
 - **ARTE VENT Press** (was: `needs_research`) — ARTE VENT Press is mainly useful as a benchmark unless it clearly accepts proposals or art
 - **FACE Exhibition 2026** (was: `needs_research`) — Nationwide open-call for two-dimensional artworks that accepts diverse artistic expression
 - **Tokyo Gendai 2026** (was: `needs_research`) — Fourth edition art fair in Tokyo, September 11-13, 2026, with gallery applications open.
@@ -78,8 +80,8 @@ pre_gate_bucket for reversal if richer data is added later.
 - **Tokyo Arts and Space** (was: `needs_research`) — Legitimate Tokyo government-funded arts institution with residencies and exhibitions, but 
 - **2026 ART CAPITAL Paris Grand Palais International Youth Academic Award** (was: `needs_research`) — International art competition recognizing youth artists in academic categories.
 - **ART SG 2026** (was: `needs_research`) — Major Singapore art fair in 2026 featuring Chinese artists and contemporary work; relevant
-- **Art Submissions** (was: `needs_research`) — Candidate link discovered from ArtConnect Open Calls.
 - **submissions for the 2026 set film festival are now open** (was: `needs_research`) — Candidate link discovered from ArtConnect Open Calls.
+- **Art Submissions** (was: `needs_research`) — Candidate link discovered from ArtConnect Open Calls.
 - **reload Shimokitazawa** (was: `needs_research`) — A commercial popup space in Shimokitazawa with insufficient information about artist oppor
 - **Open Call for Artists! Tokyo Biennale 2025 "Social Dive"** (was: `needs_research`) — Open Call for Artists! Tokyo Biennale 2025 "Social Dive" may matter later if her portfolio
 - **TOKAS レジデンシー 4つのレジデンス・プログラム公募** (was: `needs_research`) — Residency program in Tokyo supporting visual artists with studio, living expenses, and pro

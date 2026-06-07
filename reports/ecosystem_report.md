@@ -4,65 +4,61 @@ This report tries to answer: who are her people, which publishing ecosystems fit
 
 ## Closest Peer References
 
-### Yoshiyuki Okuyama — fit 4.0
-youthful everyday scenes, memory, light, quiet personal atmosphere
+### Chien Chung-Wei (簡忠威) — fit 0.0
+atmospheric urban and interior watercolor, quiet scenes, strong tonal control. Built international credibility from a Taiwan base through IWS competitions.
 
-- Region: Japan
-- Shared traits: daily life, memory, intimate scale, photobook culture
-- Overlap terms: intimate scale, memory
-- Use as: reference for accessible poetic sequencing
+- Region: Taiwan
+- Shared traits: atmospheric watercolor, quiet observation, Asia-based career, architectural subjects
+- Use as: Primary career-path reference for building international watercolor credibility from an Asian base.
 
-### Rinko Kawauchi — fit 2.8
-quiet observation, soft attention to ordinary life, poetic sequencing
+### Keiko Tanabe — fit 0.0
+Japanese watercolor painter, urban and travel subjects, light and understated atmosphere. Has exhibited with AWS and NWS — Japan-rooted identity with international visibility.
 
-- Region: Japan
-- Shared traits: quiet photography, daily life, memory, sequence, soft atmosphere
-- Overlap terms: memory
-- Use as: tone reference, not direct stylistic imitation
+- Region: Japan / USA
+- Shared traits: Japan-connected identity, urban and travel watercolor, quiet atmospheric palette, watercolor societies
+- Use as: Reference for Japan-origin watercolor career with international reach.
 
-### Sophie Calle — fit 2.0
-trace, absence, narrative fragments, emotional residue
-
-- Region: France
-- Shared traits: absence, trace, narrative fragments, memory
-- Overlap terms: memory
-- Use as: reference for conceptual framing, not visual style
-
-### Batia Suter — fit 1.2
-book-oriented image sequencing and associative visual thinking
-
-- Region: Europe
-- Shared traits: artist book, sequence, visual association, printed matter
-- Overlap terms: artist book
-- Use as: reference for book logic
-
-### Alec Soth — fit 1.0
-narrative sequencing, place, human trace, photographic storytelling through accumulation
+### Thomas W. Schaller — fit 0.0
+Architectural watercolor — buildings, urban light, atmosphere, quiet structural observation. Large-format architectural studies with dramatic mood.
 
 - Region: USA
-- Shared traits: sequence, place, human trace, photobook
-- Use as: reference for project structure
+- Shared traits: architecture and urban environments, atmospheric light, watercolor medium, mood-first approach
+- Use as: Primary reference for architectural watercolor practice and aesthetic.
 
-### Takashi Homma — fit 0.7
-ordinary architecture, suburbs, place-based observation, understated photographic language
+### Cathy Read — fit 0.0
+British architectural watercolorist known for Edinburgh and UK urban scenes. Has exhibited in London and internationally.
+
+- Region: UK
+- Shared traits: architecture and urban buildings, watercolor medium, observation-based practice, structural and atmospheric balance
+- Use as: Reference for building an architectural watercolor career with direct-to-collector sales.
+
+### Lian Quan Zhen — fit 0.0
+Chinese-born watercolorist integrating Chinese ink painting sensibility with Western watercolor technique. AWS member.
+
+- Region: USA (Chinese-American)
+- Shared traits: Chinese artistic formation, Western watercolor practice, cross-cultural career, watercolor medium
+- Use as: Reference for cross-cultural watercolor identity — Chinese training meeting international exhibition contexts.
+
+### Japan Watercolor Society (日本水彩画会) exhibitors — fit 0.0
+Annual national exhibition — Tier 3 credibility target. Contemporary Japanese watercolor practitioners working at the level she is building toward.
 
 - Region: Japan
-- Shared traits: architecture, urban vernacular, daily place, cool restraint
-- Use as: reference for place and built environment
+- Shared traits: Japan-based, watercolor medium, annual exhibition culture, national institutional credibility
+- Use as: Reference ecosystem for Japan active watercolor exhibition community.
 
-### Mark Ruwedel — fit 0.7
-quiet documentary attention to traces in landscape and built space
+### Alvaro Castagnet — fit 0.0
+Urban watercolor with loose, atmospheric style; strong international exhibition record built from a non-Western base. AWS signature member.
 
-- Region: USA
-- Shared traits: trace, architecture, absence, documentary restraint
-- Use as: reference for human absence and place
+- Region: Uruguay / Australia
+- Shared traits: urban scenes, atmospheric loose watercolor, international career from non-Western base
+- Use as: Reference for building international watercolor exhibition record through society competitions.
 
-### Toshio Shibata — fit 0.7
-infrastructure, built environment, restrained photographic observation
+### Jean Haines — fit 0.0
+Prominent UK watercolor practitioner and author. Style is loose and expressive — very different from GEGYjiji's quiet urban register. Community reference only.
 
-- Region: Japan
-- Shared traits: infrastructure, architecture, quiet form, Japan
-- Use as: reference for built structures
+- Region: UK
+- Shared traits: watercolor medium, international watercolor community, publishing and teaching path
+- Use as: Community reference only. Do NOT use as stylistic reference or aesthetic comparison.
 
 ## Publisher / Platform Matches
 
@@ -126,7 +122,7 @@ This is the strongest immediate ecosystem for her visual language: quiet photogr
 - **flotsam books** — score 8.8, differentiated 10.79; matched: flotsam books
 - **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
 - **POST** — score 8.0, differentiated 9.21; matched: POST
-- **shashasha** — score 6.5, differentiated 7.46; matched: Shashasha
+- **shashasha** — score 6.4, differentiated 7.36; matched: Shashasha
 
 ### International Photobook Publishing
 This is the long-horizon ecosystem for international publication legitimacy.
@@ -134,8 +130,8 @@ This is the long-horizon ecosystem for international publication legitimacy.
 - **Aperture | Photography** — score 8.8, differentiated 10.7; matched: Aperture
 - **Offprint** — score 8.5, differentiated 10.05; matched: Offprint
 - **Self Publish, Be Happy** — score 8.0, differentiated 9.81; matched: Self Publish, Be Happy
-- **Picaresque Gallery** — score 8.6, differentiated 9.46; matched: VOID
-- **Gallery Conceal Shibuya** — score 8.6, differentiated 9.3; matched: VOID
+- **Gallery Conceal Shibuya** — score 8.4, differentiated 9.1; matched: VOID
+- **Picaresque Gallery** — score 7.9, differentiated 8.76; matched: VOID
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.

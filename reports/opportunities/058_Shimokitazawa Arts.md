@@ -3,18 +3,18 @@
 ## 1. Quick Judgment
 **Fit score:** 10/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Gallery Small  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline, Contact. Needs checking: Fees.
 
 - **Official/source website**: https://shimokitazawaarts.tokyo/en/home-english/ (verified)
 - **Submission process**: https://shimokitazawaarts.tokyo/en/home-english/ (verified)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: April 1, 2022 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: info@shimokitazawaarts.tokyo (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Gallery Small.
@@ -33,7 +33,7 @@ Monthly solo exhibitions by younger Japanese artists. Shimokitazawa location. No
 - No public open call; direct email inquiry required.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** April 1, 2022
 - **Fees:** Not publicly listed
 - **Submission page:** https://shimokitazawaarts.tokyo/en/home-english/
 - **Source:** https://shimokitazawaarts.tokyo/en/home-english/
@@ -47,4 +47,4 @@ Email info@shimokitazawaarts.tokyo with introduction, portfolio PDF, and proposa
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_

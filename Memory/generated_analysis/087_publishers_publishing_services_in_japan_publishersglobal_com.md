@@ -1,22 +1,22 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-07
 
 # Publishers & Publishing Services in Japan - PublishersGlobal.com
 
 ## 1. Quick Judgment
-**Fit score:** 7.9/10  
-**Fit band:** Strong fit  
-**Confidence:** Medium  
+**Fit score:** 10/10  
+**Fit band:** Excellent fit  
+**Confidence:** High  
 **Type:** Book Publishing  
 **City:** Japan / Tokyo / Online  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Submission process, Fees. Needs checking: Deadline, Contact.
 
 - **Official/source website**: https://www.publishersglobal.com/directory/japan/ (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://www.publishersglobal.com/directory/japan (verified)
 - **Deadline**: Not publicly listed (needs_inquiry)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Fees**: Free (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -37,8 +37,8 @@ Potential fit because it belongs to a structured opportunity category where requ
 
 ## 7. Submission / Logistics
 - **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Fees:** Free
+- **Submission page:** https://www.publishersglobal.com/directory/japan
 - **Source:** https://www.publishersglobal.com/directory/japan/
 
 ## 8. Risk / Unknowns
@@ -50,5 +50,5 @@ Review recent titles and decide whether this is a publisher, distributor, bookst
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_
 

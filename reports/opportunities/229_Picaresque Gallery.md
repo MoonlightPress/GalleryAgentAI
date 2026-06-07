@@ -1,8 +1,8 @@
 # Picaresque Gallery
 
 ## 1. Quick Judgment
-**Fit score:** 8.4/10  
-**Fit band:** Excellent fit  
+**Fit score:** 7.7/10  
+**Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  

@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-07
 
 # TOKAS レジデンシー 4つのレジデンス・プログラム公募
 
 ## 1. Quick Judgment
-**Fit score:** 5.3/10  
-**Fit band:** Possible, but not urgent  
+**Fit score:** 5.9/10  
+**Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Residencies / Longer Projects  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
 
 - **Official/source website**: https://bijutsutecho.com/magazine/news/headline/29106 (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2025-11-03 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -34,7 +34,7 @@ Residency program in Tokyo supporting visual artists with studio, living expense
 - No bullet analysis stored yet.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** 2025-11-03
 - **Fees:** Not publicly listed
 - **Submission page:** Not publicly listed
 - **Source:** https://bijutsutecho.com/magazine/news/headline/29106
@@ -48,5 +48,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_
 

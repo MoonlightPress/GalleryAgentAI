@@ -5,12 +5,39 @@
     "matched_opportunities": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 8.8,
-        "differentiated_score": 10.79,
+        "score": 9.4,
+        "differentiated_score": 11.39,
         "hit_nodes": [
           "TOKYO ART BOOK FAIR"
         ],
         "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.39,
+        "hit_nodes": [
+          "UTRECHT"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+      },
+      {
+        "title": "TOKIO ART BOOK FAIR 2026",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hit_nodes": [
+          "TOKYO ART BOOK FAIR"
+        ],
+        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
+      },
+      {
+        "title": "flotsam books",
+        "score": 8.8,
+        "differentiated_score": 10.79,
+        "hit_nodes": [
+          "flotsam books"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
         "title": "MOUNT ZINE",
@@ -20,33 +47,6 @@
           "MOUNT ZINE"
         ],
         "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
-        "title": "UTRECHT",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "hit_nodes": [
-          "UTRECHT"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
-        "title": "flotsam books",
-        "score": 8.2,
-        "differentiated_score": 10.19,
-        "hit_nodes": [
-          "flotsam books"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
-      },
-      {
-        "title": "TOKIO ART BOOK FAIR 2026",
-        "score": 8.6,
-        "differentiated_score": 10.1,
-        "hit_nodes": [
-          "TOKYO ART BOOK FAIR"
-        ],
-        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
       },
       {
         "title": "POST",
@@ -59,8 +59,8 @@
       },
       {
         "title": "shashasha",
-        "score": 6.3,
-        "differentiated_score": 7.26,
+        "score": 6.4,
+        "differentiated_score": 7.36,
         "hit_nodes": [
           "Shashasha"
         ],
@@ -74,8 +74,8 @@
     "matched_opportunities": [
       {
         "title": "Aperture | Photography",
-        "score": 8.6,
-        "differentiated_score": 10.38,
+        "score": 8.8,
+        "differentiated_score": 10.7,
         "hit_nodes": [
           "Aperture"
         ],
@@ -83,8 +83,8 @@
       },
       {
         "title": "Offprint",
-        "score": 8.6,
-        "differentiated_score": 10.04,
+        "score": 8.5,
+        "differentiated_score": 10.05,
         "hit_nodes": [
           "Offprint"
         ],
@@ -101,8 +101,8 @@
       },
       {
         "title": "Gallery Conceal Shibuya",
-        "score": 6.7,
-        "differentiated_score": 7.4,
+        "score": 8.4,
+        "differentiated_score": 9.1,
         "hit_nodes": [
           "VOID"
         ],
@@ -110,8 +110,8 @@
       },
       {
         "title": "Picaresque Gallery",
-        "score": 4.7,
-        "differentiated_score": 5.56,
+        "score": 7.9,
+        "differentiated_score": 8.76,
         "hit_nodes": [
           "VOID"
         ],
@@ -129,18 +129,9 @@
     "why_it_matters": "These are useful for soft visibility and relationship-building before major applications.",
     "matched_opportunities": [
       {
-        "title": "MOUNT ZINE",
-        "score": 9.4,
-        "differentiated_score": 10.71,
-        "hit_nodes": [
-          "MOUNT ZINE"
-        ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
         "title": "UTRECHT",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "score": 9.4,
+        "differentiated_score": 11.39,
         "hit_nodes": [
           "UTRECHT"
         ],
@@ -148,8 +139,8 @@
       },
       {
         "title": "B&B Shimokitazawa",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "score": 8.8,
+        "differentiated_score": 10.79,
         "hit_nodes": [
           "B&B Shimokitazawa"
         ],
@@ -157,12 +148,21 @@
       },
       {
         "title": "flotsam books",
-        "score": 8.2,
-        "differentiated_score": 10.19,
+        "score": 8.8,
+        "differentiated_score": 10.79,
         "hit_nodes": [
           "flotsam books"
         ],
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
+      },
+      {
+        "title": "MOUNT ZINE",
+        "score": 9.4,
+        "differentiated_score": 10.71,
+        "hit_nodes": [
+          "MOUNT ZINE"
+        ],
+        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
       },
       {
         "title": "POST",

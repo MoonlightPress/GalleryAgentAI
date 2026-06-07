@@ -1,8 +1,8 @@
 # RAW TOKYO
 
 ## 1. Quick Judgment
-**Fit score:** 4.5/10  
-**Fit band:** Possible, but not urgent  
+**Fit score:** 5.6/10  
+**Fit band:** Promising  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Tokyo  
@@ -47,4 +47,4 @@ Check website to confirm format, but likely misaligned with institutional credib
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T09:57:54.939579",
+  "updated_at": "2026-06-07T10:33:42.978485",
   "entries": {
     "Women United ART MAGAZINE Issue XIV Summer 2026": {
       "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -2335,6 +2335,17 @@
       "searched_at": "2026-06-04T02:48:32.286463",
       "data_found": false,
       "found": {}
+    },
+    "submissions for the 2026 set film festival are now open": {
+      "title": "submissions for the 2026 set film festival are now open",
+      "searched_at": "2026-06-07T10:02:08.234894",
+      "data_found": true,
+      "found": {
+        "deadline": "2026-06-07",
+        "fee": "Free",
+        "contact_email": "filmfestival@setspace.uk",
+        "submission_url": "https://app.entrythingy.com/setspace/set-film-festival-2026-open-call"
+      }
     }
   }
 }

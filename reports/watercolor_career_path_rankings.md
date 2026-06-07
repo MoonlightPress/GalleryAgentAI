@@ -8,12 +8,12 @@ This ranks opportunities by practical career path instead of one universal score
 - **Pinpoint Gallery** — path score 11.2; signals: gallery, works on paper. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Gallery IYN** — path score 11.2; signals: gallery, works on paper. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **OPA Gallery** — path score 11.2; signals: gallery, works on paper. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-- **HB Gallery** — path score 11.2; signals: gallery, works on paper. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Royal Watercolour Society Open Exhibition** — path score 11.2; signals: works on paper, open exhibition. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
+- **HB Gallery** — path score 11.2; signals: gallery, works on paper. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Self Publish, Be Happy** — path score 11.2; signals: gallery, works on paper. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
+- **The Artcomplex Center of Tokyo** — path score 11.2; signals: gallery, works on paper. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Society of Women Artists** — path score 11.2; signals: works on paper, open exhibition. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
 - **2026年美の起原展** — path score 11.2; signals: gallery, painting. Open call for paintings (10-20号) in Tokyo gallery accepting illustration, watercolor and mixed media with significant prize money
-- **The Artcomplex Center of Tokyo** — path score 11.2; signals: gallery, works on paper. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ## Works on Paper Open Calls
 
@@ -57,12 +57,12 @@ This ranks opportunities by practical career path instead of one universal score
 ## Stretch / Benchmark
 
 - **Platform China BIAP Artist Residency** — path score 11.2; signals: residency, contemporary art. Beijing open residency in Caochangdi — relevant for when GEGYjiji travels to China. Rolling applications, no fixed deadline. Exhibition opportunity included.
-- **Browse opportunities | CuratorSpace** — path score 10.6; signals: open exhibition. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Northwest Watercolor Society 2026 Annual International Open Exhibition** — path score 10.6; signals: open exhibition. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
+- **Browse opportunities | CuratorSpace** — path score 10.6; signals: open exhibition. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Royal Watercolour Society Open Exhibition** — path score 10.6; signals: open exhibition. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
 - **Society of Women Artists** — path score 10.6; signals: open exhibition. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
-- **Gallery 456 Exhibition Open Call 2026** — path score 10.6; signals: contemporary art. Open call for contemporary artists emphasizing Chinese and Asian heritage work; accepts multiple mediums including watercolor.
 - **Center for Book Arts Opportunities** — path score 10.6; signals: institution. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
 - **Koganecho Area Management Center** — path score 10.6; signals: residency. Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
+- **Gallery 456 Exhibition Open Call 2026** — path score 10.6; signals: contemporary art. Open call for contemporary artists emphasizing Chinese and Asian heritage work; accepts multiple mediums including watercolor.
 - **SCAI The Bathhouse** — path score 10.6; signals: contemporary art. The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.
 - **BankART1929** — path score 10.52; signals: contemporary art. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.

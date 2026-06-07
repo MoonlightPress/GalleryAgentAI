@@ -47,56 +47,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: photobook, zine, printed matter, book fair",
-      "weak: book, exhibition"
-    ]
-  },
-  {
-    "title": "Top Artist Opportunities for 2026 | ArtConnect",
-    "organization": "ArtConnect Open Calls",
-    "category": "zine_print",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 7.65,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://www.artconnect.com/opportunities",
-    "official_website": "https://www.artconnect.com/opportunities",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate discovered from ArtConnect Open Calls. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition, place, gallery open call",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
-    "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: zine, open call, submission, residency, exhibition, place, gallery open call"
-    ],
-    "fit_keyword_hits": [
-      "zine",
-      "open call",
-      "submission",
-      "residency",
-      "exhibition",
-      "place",
-      "gallery open call"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "approved",
-    "quality_gate_reasons": [
-      "strong: open call, zine, submission, residency",
-      "weak: artist, gallery, exhibition"
+      "strong: book fair, printed matter, photobook, zine",
+      "weak: exhibition, book"
     ]
   },
   {
@@ -105,7 +57,7 @@
     "category": "photo_open_call",
     "city": "Online",
     "country": "Global",
-    "overall_score": 7.2,
+    "overall_score": 7.65,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "medium",
@@ -117,19 +69,20 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, exhibition, memory, place, open exhibition",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, book fair, exhibition, place, painting, open exhibition",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: open call, submission, exhibition, memory, place, open exhibition"
+      "Keyword hits: open call, submission, book fair, exhibition, place, painting, open exhibition"
     ],
     "fit_keyword_hits": [
       "open call",
       "submission",
+      "book fair",
       "exhibition",
-      "memory",
       "place",
+      "painting",
       "open exhibition"
     ],
     "reject_keyword_hits": [],
@@ -142,8 +95,95 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
+      "strong: book fair, open call, submission",
+      "weak: exhibition, book"
+    ]
+  },
+  {
+    "title": "Top Artist Opportunities for 2026 | ArtConnect",
+    "organization": "ArtConnect Open Calls",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 6.75,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.artconnect.com/opportunities",
+    "official_website": "https://www.artconnect.com/opportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from ArtConnect Open Calls. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: zine, open call, submission, residency, exhibition"
+    ],
+    "fit_keyword_hits": [
+      "zine",
+      "open call",
+      "submission",
+      "residency",
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: open call, residency, submission, zine",
+      "weak: artist, exhibition"
+    ]
+  },
+  {
+    "title": "submissions for the 2026 set film festival are now open",
+    "organization": "ArtConnect Open Calls",
+    "category": "open_call_index",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K",
+    "official_website": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K",
+    "submission_page": "https://www.artconnect.com/opportunity/XTkMNA6IPT2cz6vNQTE0K",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: submission",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: submission"
+    ],
+    "fit_keyword_hits": [
+      "submission"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
       "strong: open call, submission",
-      "weak: exhibition"
+      "has submission link"
     ]
   },
   {

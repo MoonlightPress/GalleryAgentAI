@@ -2,30 +2,26 @@
   "dominant_countries": [
     [
       "Japan",
-      27
+      35
     ],
     [
       "Global",
-      14
+      10
     ],
     [
       "International",
       8
     ],
     [
-      "USA",
+      "Canada",
       5
     ],
     [
-      "Canada",
+      "USA",
       4
     ],
     [
       "Tokyo",
-      4
-    ],
-    [
-      "UK",
       3
     ],
     [
@@ -41,11 +37,15 @@
       2
     ],
     [
-      "France / UK",
+      "UK",
       1
     ],
     [
       "China",
+      1
+    ],
+    [
+      "France / UK",
       1
     ],
     [
@@ -55,15 +55,11 @@
   ],
   "dominant_categories": [
     [
-      "book_publishing",
-      13
-    ],
-    [
       "gallery",
-      13
+      17
     ],
     [
-      "zine_print",
+      "global_open_call",
       11
     ],
     [
@@ -71,47 +67,55 @@
       10
     ],
     [
-      "global_open_call",
-      9
+      "bookstore_gallery",
+      7
+    ],
+    [
+      "zine_print",
+      7
     ],
     [
       "gallery_event",
       7
     ],
     [
-      "global_watercolor_open_call",
+      "cafe_gallery",
       6
+    ],
+    [
+      "fair_popup",
+      5
     ],
     [
       "artist_space",
       5
     ],
     [
-      "bookstore_gallery",
+      "book_publishing",
+      4
+    ],
+    [
+      "global_watercolor_open_call",
+      4
+    ],
+    [
+      "zine_shop_consignment",
       4
     ],
     [
       "residency",
-      4
-    ],
-    [
-      "cafe_gallery",
       3
-    ],
-    [
-      "zine_fair_booth",
-      2
-    ],
-    [
-      "fair_popup",
-      2
     ],
     [
       "group_publication_open_call",
       2
     ],
     [
-      "global_photobook",
+      "zine_fair_booth",
+      2
+    ],
+    [
+      "event_space",
       2
     ],
     [
@@ -119,105 +123,113 @@
       2
     ],
     [
-      "global_residency",
+      "open_call_index",
       2
     ],
     [
-      "zine_shop_consignment",
+      "global_book_arts",
       1
     ],
     [
       "bookstore_event",
       1
-    ],
-    [
-      "event_space",
-      1
     ]
   ],
   "dominant_tags": [
     [
-      "jp",
-      19
+      "secondary",
+      22
     ],
     [
-      "japanese_source",
-      19
+      "",
+      22
     ],
     [
       "japan",
-      19
+      22
     ],
     [
-      "has_submission_url",
-      16
+      "jp",
+      20
+    ],
+    [
+      "japanese_source",
+      20
     ],
     [
       "has_deadline",
       15
     ],
     [
-      "secondary",
-      13
-    ],
-    [
-      "",
-      13
+      "has_submission_url",
+      14
     ],
     [
       "watercolor_ok",
       13
     ],
     [
-      "global",
-      10
-    ],
-    [
       "diaspora",
-      10
+      11
     ],
     [
       "diaspora_community",
+      11
+    ],
+    [
+      "chinese_source",
       10
     ],
     [
-      "tokyo",
-      5
+      "global",
+      7
+    ],
+    [
+      "zine",
+      6
+    ],
+    [
+      "Tier1",
+      6
+    ],
+    [
+      "cn",
+      6
     ],
     [
       "publication",
       5
     ],
     [
-      "open_call",
+      "tokyo",
       5
     ],
     [
-      "chinese_source",
+      "shimokitazawa",
       5
+    ],
+    [
+      "consignment",
+      5
+    ],
+    [
+      "low",
+      4
     ],
     [
       "tier_1",
       4
     ],
     [
-      "watercolor",
-      4
+      "open_call",
+      3
     ],
     [
-      "prestige",
-      4
+      "bookshop",
+      3
     ],
     [
-      "career_changing",
-      4
-    ],
-    [
-      "cn",
-      4
-    ],
-    [
-      "residency",
+      "koenji",
       3
     ],
     [
@@ -225,19 +237,15 @@
       3
     ],
     [
-      "currently_open",
-      2
-    ],
-    [
       "international",
       2
     ],
     [
-      "low",
+      "currently_open",
       2
     ],
     [
-      "zine",
+      "residency",
       2
     ],
     [
@@ -245,15 +253,7 @@
       2
     ],
     [
-      "koenji",
-      2
-    ],
-    [
-      "shimokitazawa",
-      2
-    ],
-    [
-      "exhibition",
+      "watercolor",
       2
     ],
     [
@@ -261,16 +261,16 @@
       2
     ],
     [
-      "zine_fair",
-      1
+      "exhibition",
+      2
     ],
     [
-      "booth",
-      1
+      "record shop",
+      2
     ],
     [
-      "recurring",
-      1
+      "indie",
+      2
     ],
     [
       "Medium-High",
@@ -289,11 +289,11 @@
       1
     ],
     [
-      "low_effort_but_unclear_pathway",
+      "zine_fair",
       1
     ],
     [
-      "book",
+      "booth",
       1
     ]
   ]

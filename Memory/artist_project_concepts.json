@@ -99,6 +99,56 @@
     ],
     "opportunity_targets": [
       {
+        "title": "Tokyo Art Book Fair",
+        "score": 9.4,
+        "differentiated_score": 11.39,
+        "hits": [
+          "zine",
+          "artist book",
+          "book fair"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.39,
+        "hits": [
+          "zine",
+          "artist book",
+          "printed matter"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+      },
+      {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 9.4,
+        "differentiated_score": 11.39,
+        "hits": [
+          "zine"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "SUBMISSIONS - marblepress.com",
+        "score": 9.4,
+        "differentiated_score": 11.39,
+        "hits": [
+          "small press"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+      },
+      {
+        "title": "TOKIO ART BOOK FAIR 2026",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine",
+          "book fair"
+        ],
+        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
+      },
+      {
         "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
         "score": 9.4,
         "differentiated_score": 11.24,
@@ -108,73 +158,23 @@
         "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year."
       },
       {
-        "title": "Tokyo Art Book Fair",
-        "score": 8.8,
-        "differentiated_score": 10.79,
-        "hits": [
-          "zine",
-          "artist book",
-          "book fair"
-        ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
-      },
-      {
-        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-        "score": 8.8,
-        "differentiated_score": 10.79,
-        "hits": [
-          "zine"
-        ],
-        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
-      },
-      {
-        "title": "MOUNT ZINE",
+        "title": "Center for Book Arts Opportunities",
         "score": 9.4,
-        "differentiated_score": 10.71,
+        "differentiated_score": 11.17,
         "hits": [
-          "zine"
-        ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
-        "title": "UTRECHT",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "hits": [
-          "zine",
           "artist book",
           "printed matter"
         ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
       },
       {
-        "title": "B&B Shimokitazawa",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "title": "Aesthetica Art Prize",
+        "score": 9.4,
+        "differentiated_score": 11.09,
         "hits": [
           "zine"
         ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
-      },
-      {
-        "title": "Aperture | Photography",
-        "score": 8.6,
-        "differentiated_score": 10.38,
-        "hits": [
-          "photobook",
-          "zine",
-          "artist book"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
-      },
-      {
-        "title": "submissions — porkbelly press",
-        "score": 8.6,
-        "differentiated_score": 10.38,
-        "hits": [
-          "small press"
-        ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
       }
     ]
   },
@@ -223,8 +223,8 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 8.8,
-        "differentiated_score": 10.79,
+        "score": 9.4,
+        "differentiated_score": 11.39,
         "hits": [
           "documentary",
           "artist book"
@@ -233,17 +233,35 @@
       },
       {
         "title": "UTRECHT",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "score": 9.4,
+        "differentiated_score": 11.39,
         "hits": [
           "artist book"
         ],
         "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
       },
       {
+        "title": "Center for Book Arts Opportunities",
+        "score": 9.4,
+        "differentiated_score": 11.17,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
+      },
+      {
+        "title": "Pinpoint Gallery",
+        "score": 9.4,
+        "differentiated_score": 10.84,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
         "title": "Aperture | Photography",
-        "score": 8.6,
-        "differentiated_score": 10.38,
+        "score": 8.8,
+        "differentiated_score": 10.7,
         "hits": [
           "artist book"
         ],
@@ -251,21 +269,12 @@
       },
       {
         "title": "Offprint",
-        "score": 8.6,
-        "differentiated_score": 10.04,
+        "score": 8.5,
+        "differentiated_score": 10.05,
         "hits": [
           "artist book"
         ],
         "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications."
-      },
-      {
-        "title": "Center for Book Arts Opportunities",
-        "score": 8.6,
-        "differentiated_score": 10.03,
-        "hits": [
-          "artist book"
-        ],
-        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
       },
       {
         "title": "Tacoche",
@@ -284,15 +293,6 @@
           "artist book"
         ],
         "why": "Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals."
-      },
-      {
-        "title": "OPA Gallery",
-        "score": 8.4,
-        "differentiated_score": 9.6,
-        "hits": [
-          "artist book"
-        ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       }
     ]
   },
@@ -352,6 +352,56 @@
     ],
     "opportunity_targets": [
       {
+        "title": "Tokyo Art Book Fair",
+        "score": 9.4,
+        "differentiated_score": 11.39,
+        "hits": [
+          "zine",
+          "book fair",
+          "artist book"
+        ],
+        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
+      },
+      {
+        "title": "UTRECHT",
+        "score": 9.4,
+        "differentiated_score": 11.39,
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
+      },
+      {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 9.4,
+        "differentiated_score": 11.39,
+        "hits": [
+          "zine"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "SUBMISSIONS - marblepress.com",
+        "score": 9.4,
+        "differentiated_score": 11.39,
+        "hits": [
+          "small press"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+      },
+      {
+        "title": "TOKIO ART BOOK FAIR 2026",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hits": [
+          "zine",
+          "book fair"
+        ],
+        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
+      },
+      {
         "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
         "score": 9.4,
         "differentiated_score": 11.24,
@@ -361,73 +411,22 @@
         "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year."
       },
       {
-        "title": "Tokyo Art Book Fair",
-        "score": 8.8,
-        "differentiated_score": 10.79,
-        "hits": [
-          "zine",
-          "book fair",
-          "artist book"
-        ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
-      },
-      {
-        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-        "score": 8.8,
-        "differentiated_score": 10.79,
-        "hits": [
-          "zine"
-        ],
-        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
-      },
-      {
-        "title": "MOUNT ZINE",
+        "title": "Center for Book Arts Opportunities",
         "score": 9.4,
-        "differentiated_score": 10.71,
+        "differentiated_score": 11.17,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
+      },
+      {
+        "title": "Aesthetica Art Prize",
+        "score": 9.4,
+        "differentiated_score": 11.09,
         "hits": [
           "zine"
         ],
-        "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
-      },
-      {
-        "title": "UTRECHT",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
-        ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively."
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 8.6,
-        "differentiated_score": 10.59,
-        "hits": [
-          "zine",
-          "bookstore"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
-      },
-      {
-        "title": "Aperture | Photography",
-        "score": 8.6,
-        "differentiated_score": 10.38,
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
-      },
-      {
-        "title": "submissions — porkbelly press",
-        "score": 8.6,
-        "differentiated_score": 10.38,
-        "hits": [
-          "small press"
-        ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
       }
     ]
   },
@@ -494,75 +493,75 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 8.8,
-        "differentiated_score": 10.79,
+        "score": 9.4,
+        "differentiated_score": 11.39,
         "hits": [
           "documentary"
         ],
         "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
-        "title": "Aperture | Photography",
-        "score": 8.6,
-        "differentiated_score": 10.38,
-        "hits": [
-          "photography"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
-      },
-      {
-        "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-        "score": 8.6,
-        "differentiated_score": 10.22,
+        "title": "水性繪畫展覽 (Watercolor Exhibition)",
+        "score": 9.4,
+        "differentiated_score": 10.78,
         "hits": [
           "open call"
         ],
-        "why": "Possible fit based on link text: zine, open call, residency"
-      },
-      {
-        "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-        "score": 8.6,
-        "differentiated_score": 10.22,
-        "hits": [
-          "open call"
-        ],
-        "why": "Possible fit based on link text: zine, open call"
-      },
-      {
-        "title": "Browse opportunities | CuratorSpace",
-        "score": 8.6,
-        "differentiated_score": 10.13,
-        "hits": [
-          "open call"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
-      },
-      {
-        "title": "Top Artist Opportunities for 2026 | ArtConnect",
-        "score": 8.6,
-        "differentiated_score": 9.98,
-        "hits": [
-          "open call"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition"
+        "why": "Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026."
       },
       {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
-        "score": 8.8,
-        "differentiated_score": 9.96,
+        "score": 9.4,
+        "differentiated_score": 10.78,
         "hits": [
           "open call"
         ],
         "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
       },
       {
-        "title": "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition",
+        "title": "Aperture | Photography",
+        "score": 8.8,
+        "differentiated_score": 10.7,
+        "hits": [
+          "photography"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+      },
+      {
+        "title": "Browse opportunities | CuratorSpace",
         "score": 8.6,
-        "differentiated_score": 9.88,
+        "differentiated_score": 10.49,
         "hits": [
           "open call"
         ],
-        "why": "Open call for Singapore Art Week featuring multiple venues and formats suitable for illustration and contemporary practice."
+        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
+      },
+      {
+        "title": "桜をテーマとするイラスト・絵画作品募集",
+        "score": 9.4,
+        "differentiated_score": 10.26,
+        "hits": [
+          "open call"
+        ],
+        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
+      },
+      {
+        "title": "多摩ゆかりの作家による公募展",
+        "score": 9.4,
+        "differentiated_score": 10.26,
+        "hits": [
+          "open call"
+        ],
+        "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
+      },
+      {
+        "title": "Aquarelle 18 - アクワレル",
+        "score": 9.4,
+        "differentiated_score": 10.26,
+        "hits": [
+          "open call"
+        ],
+        "why": "Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice."
       }
     ]
   }

@@ -86,12 +86,6 @@ These opportunities may create disproportionate reputation value.
 - Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## submissions — porkbelly press
-
-- Prestige: None
-- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
 ## TOKIO ART BOOK FAIR 2026
 
 - Prestige: None
@@ -116,18 +110,6 @@ These opportunities may create disproportionate reputation value.
 - Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## The Artcomplex Center of Tokyo
-
-- Prestige: None
-- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## DER GREIF
-
-- Prestige: 0
-- Why: Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
 ## World Illustration Awards
 
 - Prestige: None
@@ -140,14 +122,32 @@ These opportunities may create disproportionate reputation value.
 - Why: Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## ArtConnect Open Calls
+## The Artcomplex Center of Tokyo
 
 - Prestige: None
-- Why: Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
+- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Society of Women Artists
 
 - Prestige: None
 - Why: Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Bologna Children's Book Fair Illustrators Exhibition
+
+- Prestige: None
+- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Pinpoint Gallery
+
+- Prestige: None
+- Why: Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## 水性繪畫展覽 (Watercolor Exhibition)
+
+- Prestige: None
+- Why: Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

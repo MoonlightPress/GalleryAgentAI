@@ -1,0 +1,488 @@
+[
+  {
+    "source_url": "https://utrecht.jp/",
+    "derived_name": "UTRECHT",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://bookandsons.com/",
+    "derived_name": "Book and Sons",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://cspwc.ca/",
+    "derived_name": "Canadian Society of Painters in Water Colour",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.bolognachildrensbookfair.com/",
+    "derived_name": "Bologna Children's Book Fair Illustrators Exhibition",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.ai-ap.com/",
+    "derived_name": "American Illustration",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://bookandbeer.com/",
+    "derived_name": "B&B Shimokitazawa",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.gallerycomplex.com/",
+    "derived_name": "Artcomplex Center of Tokyo",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.flotsambooks.com/",
+    "derived_name": "flotsam books",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://aestheticamagazine.com/art-prize/",
+    "derived_name": "Aesthetica Art Prize",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://opagallery.net/",
+    "derived_name": "OPA Gallery",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://pinpointgallery.com/",
+    "derived_name": "Pinpoint Gallery",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://theaoi.com/world-illustration-awards/",
+    "derived_name": "World Illustration Awards",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://3x3mag.com/",
+    "derived_name": "3x3 International Illustration Awards",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.jacksonsart.com/paintingprize/",
+    "derived_name": "Jackson's Art Prize",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://post-books.info/",
+    "derived_name": "POST",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://dergreif.org/",
+    "derived_name": "Der Greif",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.scaithebathhouse.com/",
+    "derived_name": "SCAI The Bathhouse",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.nwws.org/annual-international-open/",
+    "derived_name": "Northwest Watercolor Society",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://centerforbookarts.org/",
+    "derived_name": "Center for Book Arts",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://shimokitazawaarts.tokyo/en/home-english/",
+    "derived_name": "Shimokitazawa Arts",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
+    "derived_name": "CuratorSpace — Open Call for Artist Residency",
+    "confidence": "medium",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "derived_name": "CuratorSpace — AURA Open Call",
+    "confidence": "medium",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.curatorspace.com/opportunities",
+    "derived_name": "CuratorSpace Open Calls",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://hbgallery.com/",
+    "derived_name": "HB Gallery",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.gallery-iyn.com/",
+    "derived_name": "Gallery IYN",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.tis-home.com/",
+    "derived_name": "Tokyo Illustrators Society",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.artconnect.com/opportunities",
+    "derived_name": "ArtConnect Open Calls",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.artconnect.com/opportunities",
+    "derived_name": "ArtConnect Open Calls",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.society-women-artists.org.uk/",
+    "derived_name": "Society of Women Artists",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.commarts.com/competitions/illustration",
+    "derived_name": "Communication Arts Illustration Competition",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.americanwatercolorsociety.org/",
+    "derived_name": "American Watercolor Society",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.transartists.org/en/air/platform-china",
+    "derived_name": "Platform China BIAP Artist Residency",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://koganecho.net/",
+    "derived_name": "Koganecho Area Management Center",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://bankart1929.com/",
+    "derived_name": "BankART1929",
+    "confidence": "high",
+    "source_used": "known_venue"
+  },
+  {
+    "source_url": "https://www.yonchome.com/",
+    "derived_name": "Yonchome Cafe",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.3331.jp/",
+    "derived_name": "3331 Arts Chiyoda",
+    "confidence": "high",
+    "source_used": "known_venue"
+  },
+  {
+    "source_url": "https://tavgallery.com/",
+    "derived_name": "TAV Gallery",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://royalwatercoloursociety.co.uk/",
+    "derived_name": "Royal Watercolour Society Open Exhibition",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.royalwatercoloursociety.co.uk/",
+    "derived_name": "Royal Watercolour Society",
+    "confidence": "high",
+    "source_used": "known_venue"
+  },
+  {
+    "source_url": "https://designfestagallery.com/",
+    "derived_name": "Design Festa Gallery",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://selfpublishbehappy.com/",
+    "derived_name": "Self Publish, Be Happy",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://1-6.jp/",
+    "derived_name": "Gallery IRO",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://artaraqasia.com/",
+    "derived_name": "AAA Gallery Yokohama",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.curatorspace.com/opportunities",
+    "derived_name": "CuratorSpace Open Calls",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.tokyoartsandspace.jp/en/archive/residence/",
+    "derived_name": "TOKAS Residency",
+    "confidence": "high",
+    "source_used": "known_venue"
+  },
+  {
+    "source_url": "https://www.mamehico.com/",
+    "derived_name": "Cafe Mame-Hico",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://cafecrosspoint.jp/",
+    "derived_name": "Cafe Cross Point",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.hattifnatt.jp/",
+    "derived_name": "Cafe Gallery HATTIFNATT",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://offprint.org/",
+    "derived_name": "Offprint",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "derived_name": "Mall Galleries Open Exhibitions",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "derived_name": "Pastel Society Open Exhibition",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.vogue.com/photovogue",
+    "derived_name": "PhotoVogue",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.vacant.vc/",
+    "derived_name": "VACANT",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://1-6.jp/iro/",
+    "derived_name": "Gallery IRO",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.g-hana.jp/",
+    "derived_name": "Gallery HANA Shimokitazawa",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.artconnect.com/opportunities/art-submissions",
+    "derived_name": "ArtConnect Art Submissions",
+    "confidence": "medium",
+    "source_used": "domain"
+  },
+  {
+    "source_url": "https://residence.3331.jp/",
+    "derived_name": "AIR 3331",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.a-i-t.net/en/",
+    "derived_name": "Arts Initiative Tokyo (AIT) Residency",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://zushi-art.com/",
+    "derived_name": "Zushi Art Gallery",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.citedesartsparis.net/",
+    "derived_name": "Cité Internationale des Arts",
+    "confidence": "high",
+    "source_used": "known_venue"
+  },
+  {
+    "source_url": "https://galleryconceal.wixsite.com/gconceal",
+    "derived_name": "Gallery Conceal Shibuya",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "derived_name": "CuratorSpace — Callback Open Call",
+    "confidence": "medium",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
+    "derived_name": "CuratorSpace — Vault Collective Open Call",
+    "confidence": "medium",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://farmersmarkets.jp/",
+    "derived_name": "Aoyama Farmers Market @ UNU",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.comitia.co.jp/",
+    "derived_name": "COMITIA",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://hmj-fes.jp/",
+    "derived_name": "HandMade In Japan Fes",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.youkobo.co.jp/en/",
+    "derived_name": "Youkobo Art Space",
+    "confidence": "high",
+    "source_used": "known_venue"
+  },
+  {
+    "source_url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "derived_name": "Royal Institute of Painters in Water Colours",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "derived_name": "CuratorSpace — Open Call for Digital Works",
+    "confidence": "medium",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.printedmatter.org/",
+    "derived_name": "Printed Matter Art Book Fairs",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://www.printedmatter.org/",
+    "derived_name": "Printed Matter",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.asianculturalcouncil.org/",
+    "derived_name": "Asian Cultural Council",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
+    "derived_name": "CuratorSpace — Artists and Friends Podcast Open Call",
+    "confidence": "medium",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://bonus-track.net/",
+    "derived_name": "BONUS TRACK Shimokitazawa",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.the-container.com/",
+    "derived_name": "The Container",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.tokyoartsandspace.jp/en/",
+    "derived_name": "Tokyo Arts and Space (TOKAS)",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://www.boji-hair.com/",
+    "derived_name": "Boji Hair+Gallery",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://designfesta.com/",
+    "derived_name": "Design Festa",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://reload-shimokita.com/",
+    "derived_name": "reload Shimokitazawa",
+    "confidence": "high",
+    "source_used": "title"
+  },
+  {
+    "source_url": "https://csh.yokohama/",
+    "derived_name": "Creative Space Hayashi",
+    "confidence": "high",
+    "source_used": "organization"
+  },
+  {
+    "source_url": "https://nihon-suisai.com/",
+    "derived_name": "Japan Watercolor Society (日本水彩画会)",
+    "confidence": "high",
+    "source_used": "organization"
+  }
+]

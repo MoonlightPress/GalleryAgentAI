@@ -15,7 +15,7 @@ This turns project concepts into concrete submission paths.
 - UTRECHT
 - Women United ART MAGAZINE Issue XIV Summer 2026
 - SUBMISSIONS - marblepress.com
-- submissions — porkbelly press
+- TOKIO ART BOOK FAIR 2026
 
 ### What To Prepare
 - 12–20 image edit
@@ -59,7 +59,7 @@ This turns project concepts into concrete submission paths.
 - UTRECHT
 - Women United ART MAGAZINE Issue XIV Summer 2026
 - SUBMISSIONS - marblepress.com
-- submissions — porkbelly press
+- TOKIO ART BOOK FAIR 2026
 
 ### What To Prepare
 - 12–20 image edit
@@ -78,10 +78,10 @@ This turns project concepts into concrete submission paths.
 
 ### Best First Targets
 - Tokyo Art Book Fair
-- DER GREIF
-- ArtConnect Open Calls
 - 水性繪畫展覽 (Watercolor Exhibition)
 - 水彩アートの祭典 (Watercolor Art Festival)
+- Aperture | Photography
+- Browse opportunities | CuratorSpace
 
 ### What To Prepare
 - 12–20 image edit

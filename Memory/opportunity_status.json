@@ -3358,5 +3358,115 @@
     "follow_up_date": "",
     "notes": "",
     "last_updated": "2026-06-04"
+  },
+  "b&b (book & beer)::b&b": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
+  },
+  "cow books nakameguro::cow books": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
+  },
+  "village vanguard shimokitazawa::village vanguard": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
+  },
+  "suzuri — japanese print-on-demand platform::suzuri (gmo pepabo)": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
+  },
+  "mona records::mona records": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
+  },
+  "submissions for the 2026 set film festival are now open::artconnect open calls": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
+  },
+  "円盤 (enban) koenji::円盤": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
+  },
+  "素人の乱 (shiroto no ran) koenji::素人の乱": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
+  },
+  "nantoka bar koenji::nantoka bar": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
+  },
+  "era shimokitazawa::era": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
+  },
+  "koenji sanagi::sanagi": {
+    "status": "new",
+    "saved": false,
+    "rejected": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "notes": "",
+    "last_updated": "2026-06-07"
   }
 }

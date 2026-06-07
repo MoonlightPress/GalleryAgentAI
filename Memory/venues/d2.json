@@ -23,14 +23,11 @@
     "Automatically created from opportunity data.",
     "Needs manual/web research before being treated as verified."
   ],
-  "missing_information": [
-    "contact",
-    "submission process"
-  ],
+  "missing_information": [],
   "opportunity_titles": [
     "2026年美の起原展"
   ],
   "last_researched": "",
-  "created_at": "2026-06-04",
-  "updated_at": "2026-06-04"
+  "created_at": "2026-06-07",
+  "updated_at": "2026-06-07"
 }

@@ -43,10 +43,10 @@ A quiet photographic sequence about ordinary neighborhoods, lived-in architectur
 - **UTRECHT** — 9.4 / 11.39. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 9.4 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **SUBMISSIONS - marblepress.com** — 9.4 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- **submissions — porkbelly press** — 9.4 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **TOKIO ART BOOK FAIR 2026** — 9.4 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 9.4 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 - **Center for Book Arts Opportunities** — 9.4 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+- **Aesthetica Art Prize** — 9.4 / 11.09. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -125,10 +125,10 @@ A compact, low-pressure zine built from a walk through a neighborhood, edited as
 - **UTRECHT** — 9.4 / 11.39. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 9.4 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **SUBMISSIONS - marblepress.com** — 9.4 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-- **submissions — porkbelly press** — 9.4 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **TOKIO ART BOOK FAIR 2026** — 9.4 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 9.4 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 - **Center for Book Arts Opportunities** — 9.4 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+- **Aesthetica Art Prize** — 9.4 / 11.09. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -164,13 +164,13 @@ A portfolio sequence centered on vernacular architecture, domestic structures, s
 
 ### Current Opportunity Targets
 - **Tokyo Art Book Fair** — 9.4 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
-- **DER GREIF** — 9.4 / 10.94. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
-- **ArtConnect Open Calls** — 9.4 / 10.94. Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
 - **水性繪畫展覽 (Watercolor Exhibition)** — 9.4 / 10.78. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
 - **水彩アートの祭典 (Watercolor Art Festival)** — 9.4 / 10.78. Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
 - **Aperture | Photography** — 8.8 / 10.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - **Browse opportunities | CuratorSpace** — 8.6 / 10.49. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
-- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — 8.6 / 10.34. Possible fit based on link text: zine, open call, residency
+- **桜をテーマとするイラスト・絵画作品募集** — 9.4 / 10.26. Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice.
+- **多摩ゆかりの作家による公募展** — 9.4 / 10.26. Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions.
+- **Aquarelle 18 - アクワレル** — 9.4 / 10.26. Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.

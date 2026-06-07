@@ -16,6 +16,8 @@ Potential long-term artistic trajectories suggested by current recommendation pa
 
 ## Independent Documentary Photographer
 
+- COW BOOKS Nakameguro (signal 2)
+- B&B (Book & Beer) (signal 2)
 
 ## Artist-Run Community Builder
 

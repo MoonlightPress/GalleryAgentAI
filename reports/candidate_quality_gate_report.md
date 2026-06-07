@@ -22,7 +22,7 @@ Rejected: 132
 - Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。 — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
-- Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
+- Printed Matter, Inc. — strong: printed matter, zine, score too low: 2
 - Daniel Shepard Straffon All Lover the Place: NYC [Poster] Posters $70.00 Recent Arrival Si — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Japan [Poster] Posters $70.00 Recent Arrival  — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Indonesia [Poster] Posters $70.00 Recent Arri — strong: printed matter, weak: book, score too low: 1
@@ -93,11 +93,11 @@ Rejected: 132
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
-- Magazine — strong: zine, open call, score too low: 2
-- fully funded residency for artists from kazakhstan — strong: residency, open call, weak: artist, score too low: 3
-- Residency — strong: residency, open call, score too low: 2
+- Magazine — strong: open call, zine, score too low: 2
+- fully funded residency for artists from kazakhstan — strong: open call, residency, weak: artist, score too low: 3
+- Residency — strong: open call, residency, score too low: 2
 - Open Call — strong: open call, has submission link, score too low: 3
-- khoj international residency august-september 2026 — strong: residency, open call, score too low: 2
+- khoj international residency august-september 2026 — strong: open call, residency, score too low: 2
 - Open Calls — strong: open call, has submission link, score too low: 3
 - www.curatorspace.com — weak: exhibition, photography, gallery, has submission link, score too low: 4
 - Report this? — weak: exhibition, photography, gallery, has submission link, score too low: 4
@@ -140,8 +140,8 @@ Rejected: 132
 
 ## Approved
 
-- Home - Printed Matter — strong: book fair, photobook, zine, printed matter, weak: exhibition, book
-- Browse opportunities | CuratorSpace — strong: book fair, submission, open call, weak: exhibition, book
-- Top Artist Opportunities for 2026 | ArtConnect — strong: zine, submission, residency, open call, weak: exhibition, artist
-- submissions for the 2026 set film festival are now open — strong: submission, open call, has submission link
-- Art Submissions — strong: submission, open call, has submission link
+- Home - Printed Matter — strong: book fair, printed matter, photobook, zine, weak: exhibition, book
+- Browse opportunities | CuratorSpace — strong: book fair, open call, submission, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, residency, submission, zine, weak: artist, exhibition
+- submissions for the 2026 set film festival are now open — strong: open call, submission, has submission link
+- Art Submissions — strong: open call, submission, has submission link

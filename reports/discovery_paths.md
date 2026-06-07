@@ -9,8 +9,8 @@ This report suggests adjacent institutions and ecosystems.
 - UTRECHT (similarity 3)
 - Tacoche (similarity 3)
 - Printed Matter Art Book Fairs (similarity 3)
-- Home - Printed Matter (similarity 3)
 - Publishing / Artist Books — Battle Plan (similarity 3)
+- Home - Printed Matter (similarity 3)
 
 ## UTRECHT
 
@@ -21,9 +21,6 @@ This report suggests adjacent institutions and ecosystems.
 
 
 ## SUBMISSIONS - marblepress.com
-
-
-## submissions — porkbelly press
 
 
 ## TOKIO ART BOOK FAIR 2026
@@ -44,14 +41,17 @@ This report suggests adjacent institutions and ecosystems.
 ## American Illustration
 
 
-## The Artcomplex Center of Tokyo
-
-
-## DER GREIF
-
-
 ## World Illustration Awards
 
 
 ## Jackson's Art Prize
+
+
+## The Artcomplex Center of Tokyo
+
+
+## Society of Women Artists
+
+
+## Bologna Children's Book Fair Illustrators Exhibition
 

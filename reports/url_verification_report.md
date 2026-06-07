@@ -6,6 +6,18 @@
 - Code: 0
 - Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29
 
+## グループ展参加アーティスト募集中 - Gallery and Links81
+- URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a
+- Status: error
+- Code: 0
+- Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a': 
+
+## 公募企画「grid next : 2025 - Emerging Artists Showcase ...
+- URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672
+- Status: error
+- Code: 0
+- Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672
+
 ## Open Calls for Artists | Exhibit Worldwide
 - URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.theholyart.com%2Ftokyo%2Dopen%2Dart&rut=3f27d87ed49e7331340186452f24f7b7b2d6c53fa9581c6fa0b7334178337537
 - Status: error
@@ -24,35 +36,17 @@
 - Code: 0
 - Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tokyoartsandspace.jp%2Fapplication%2Fabout_opencall.html&rut=dfbe1d186f3c4ab32c7fd12bde11eb0833c5498641b
 
-## グループ展参加アーティスト募集中 - Gallery and Links81
-- URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a
-- Status: error
-- Code: 0
-- Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a': 
+## Communication Arts Illustration Competition
+- URL: https://www.commarts.com/competitions/illustration
+- Status: bad
+- Code: 404
+- Detail: https://www.commarts.com/competitions/illustration
 
-## 公募企画「grid next : 2025 - Emerging Artists Showcase ...
-- URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672
+## 円盤 (Enban) Koenji
+- URL: https://enban.shop/
 - Status: error
 - Code: 0
-- Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgridnext%2D2025%2F&rut=e80d10d01021e804b0015becd80f939c8d7b5c1412ec7e3da2513546045b7672
-
-## Self Publish, Be Happy
-- URL: https://selfpublishbehappy.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='selfpublishbehappy.com', port=443): Read timed out. (read timeout=10)
-
-## POST
-- URL: https://post-books.info/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='post-books.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIF
-
-## NADiff a/p/a/r/t
-- URL: https://www.nadiff.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='www.nadiff.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl
+- Detail: HTTPSConnectionPool(host='enban.shop', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='enban.shop', port=443):
 
 ## 日記屋 月日
 - URL: https://tsukihi.stores.jp/
@@ -60,29 +54,71 @@
 - Code: 403
 - Detail: https://tsukihi.stores.jp/
 
+## Koenji SANAGI
+- URL: https://sanagi.koenji.jp/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='sanagi.koenji.jp', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='sanagi.koenji.jp'
+
+## ERA Shimokitazawa
+- URL: https://era.shimokitazawa.jp/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='era.shimokitazawa.jp', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='era.shimokita
+
 ## Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...
 - URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da1013
 - Status: error
 - Code: 0
 - Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.jinnystreetgallery.com%2Fopen%2Dcall&rut=d5b00738c7261fadd38663d6ca09d6815404c12e95604352e078fae258da101
 
-## The Container
-- URL: https://www.the-container.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='the-container.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VER
+## 素人の乱 (Shiroto no Ran) Koenji
+- URL: https://shiroto.stores.jp/
+- Status: bad
+- Code: 403
+- Detail: https://shiroto.stores.jp/
 
-## Creative Space Hayashi
-- URL: https://csh.yokohama/
+## Nantoka Bar Koenji
+- URL: https://nantoka.bar/
 - Status: error
 - Code: 0
-- Detail: HTTPSConnectionPool(host='csh.yokohama', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='csh.yokohama', port=4
+- Detail: HTTPSConnectionPool(host='nantoka.bar', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='nantoka.bar', port=443
+
+## Self Publish, Be Happy
+- URL: https://selfpublishbehappy.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='selfpublishbehappy.com', port=443): Read timed out. (read timeout=10)
+
+## Printed Matter Art Book Fairs
+- URL: https://www.printedmatter.org/
+- Status: bad
+- Code: 403
+- Detail: https://www.printedmatter.org/
 
 ## Book Obscura
 - URL: https://bookobscura.com/
 - Status: bad
 - Code: 403
 - Detail: https://bookobscura.com/
+
+## POST
+- URL: https://post-books.info/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='post-books.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIF
+
+## Mall Galleries Open Exhibitions
+- URL: https://www.mallgalleries.org.uk/open-exhibitions
+- Status: bad
+- Code: 404
+- Detail: https://www.mallgalleries.org.uk/open-exhibitions
+
+## そぞろ書房
+- URL: https://sozoroshobou.stores.jp/
+- Status: bad
+- Code: 403
+- Detail: https://sozoroshobou.stores.jp/
 
 ## 若手アーティストの登竜門となるアートフェア「Independent Tokyo ...
 - URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fprtimes.jp%2Fmain%2Fhtml%2Frd%2Fp%2F000000087.000042448.html&rut=f1fbec36411d2c34876c4651b45aff89b534df7647b722dd0665a14a74cfb318
@@ -102,90 +138,6 @@
 - Code: 0
 - Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.artworkarchive.com%2Fcall%2Dfor%2Dentry%2Fshowcase%2Dyour%2Dart%2Din%2Dtokyo%2Djapan%2D2025&rut=18e7fc33
 
-## 【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...
-- URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fpicaresquejpn.com%2Fstaff%2Dletter%2Ftokyo%2Dartgallery%2Dartist%2Dwanted%2Dpicaresque%2F&rut=406152ece7c95b979e6aa762794afac5d273960fa17fe89aad49bc74d43cacca
-- Status: error
-- Code: 0
-- Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fpicaresquejpn.com%2Fstaff%2Dletter%2Ftokyo%2Dartgallery%2Dartist%2Dwanted%2Dpicaresque%2F&rut=406152ece7c95b
-
-## 現代アート販売の@Gallery Tagboat|@Gallery Tagboat
-- URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tagboat.com%2Fartevent%2Findependenttokyo2025%2F&rut=9b822b771e0836f673f3d19ae53daad1ba6736fa2d403c1a1d889634c9a47dca
-- Status: error
-- Code: 0
-- Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tagboat.com%2Fartevent%2Findependenttokyo2025%2F&rut=9b822b771e0836f673f3d19ae53daad1ba6736fa2d403c1a1d8
-
-## Art Fair Tokyo 2026
-- URL: https://www.artsy.net/fair/art-fair-tokyo-2026
-- Status: bad
-- Code: 403
-- Detail: https://www.artsy.net/fair/art-fair-tokyo-2026
-
-## そぞろ書房
-- URL: https://sozoroshobou.stores.jp/
-- Status: bad
-- Code: 403
-- Detail: https://sozoroshobou.stores.jp/
-
-## Printed Matter Art Book Fairs
-- URL: https://www.printedmatter.org/
-- Status: bad
-- Code: 403
-- Detail: https://www.printedmatter.org/
-
-## Home - Printed Matter
-- URL: https://www.printedmatter.org/
-- Status: bad
-- Code: 403
-- Detail: https://www.printedmatter.org/
-
-## 全國插畫徵集-2026台灣VC文化賞
-- URL: https://ed.arte.gov.tw/ch/content/m_news_content_2.aspx?AE_SNID=34895
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='ed.arte.gov.tw', port=443): Max retries exceeded with url: /ch/content/m_news_content_2.aspx?AE_SNID=34895 (Caused by SSLError(SSLCert
-
-## Japan Watercolor Society Annual Exhibition
-- URL: https://nihon-suisai.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='nihon-suisai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='nihon-suisai.com'
-
-## Communication Arts Illustration Competition
-- URL: https://www.commarts.com/competitions/illustration
-- Status: bad
-- Code: 404
-- Detail: https://www.commarts.com/competitions/illustration
-
-## RAW TOKYO
-- URL: https://rawtokyo.jp/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='rawtokyo.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FA
-
-## Mall Galleries Open Exhibitions
-- URL: https://www.mallgalleries.org.uk/open-exhibitions
-- Status: bad
-- Code: 404
-- Detail: https://www.mallgalleries.org.uk/open-exhibitions
-
-## Pastel Society Open Exhibition
-- URL: https://www.mallgalleries.org.uk/open-exhibitions
-- Status: bad
-- Code: 404
-- Detail: https://www.mallgalleries.org.uk/open-exhibitions
-
-## Zines / Artist Books — Battle Plan
-- URL: missing
-- Status: missing
-- Code: 0
-- Detail: 
-
-## Publishing / Artist Books — Battle Plan
-- URL: missing
-- Status: missing
-- Code: 0
-- Detail: 
-
 ## torch press
 - URL: missing
 - Status: missing
@@ -198,13 +150,97 @@
 - Code: 0
 - Detail: 
 
+## Komiyama Tokyo
+- URL: missing
+- Status: missing
+- Code: 0
+- Detail: 
+
+## Art Fair Tokyo 2026
+- URL: https://www.artsy.net/fair/art-fair-tokyo-2026
+- Status: bad
+- Code: 403
+- Detail: https://www.artsy.net/fair/art-fair-tokyo-2026
+
 ## shashasha
 - URL: missing
 - Status: missing
 - Code: 0
 - Detail: 
 
-## Komiyama Tokyo
+## 全國插畫徵集-2026台灣VC文化賞
+- URL: https://ed.arte.gov.tw/ch/content/m_news_content_2.aspx?AE_SNID=34895
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='ed.arte.gov.tw', port=443): Max retries exceeded with url: /ch/content/m_news_content_2.aspx?AE_SNID=34895 (Caused by SSLError(SSLCert
+
+## 【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...
+- URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fpicaresquejpn.com%2Fstaff%2Dletter%2Ftokyo%2Dartgallery%2Dartist%2Dwanted%2Dpicaresque%2F&rut=406152ece7c95b979e6aa762794afac5d273960fa17fe89aad49bc74d43cacca
+- Status: error
+- Code: 0
+- Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fpicaresquejpn.com%2Fstaff%2Dletter%2Ftokyo%2Dartgallery%2Dartist%2Dwanted%2Dpicaresque%2F&rut=406152ece7c95b
+
+## 現代アート販売の@Gallery Tagboat|@Gallery Tagboat
+- URL: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tagboat.com%2Fartevent%2Findependenttokyo2025%2F&rut=9b822b771e0836f673f3d19ae53daad1ba6736fa2d403c1a1d889634c9a47dca
+- Status: error
+- Code: 0
+- Detail: Invalid URL '//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tagboat.com%2Fartevent%2Findependenttokyo2025%2F&rut=9b822b771e0836f673f3d19ae53daad1ba6736fa2d403c1a1d8
+
+## Creative Space Hayashi
+- URL: https://csh.yokohama/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='csh.yokohama', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='csh.yokohama', port=4
+
+## Japan Watercolor Society Annual Exhibition
+- URL: https://nihon-suisai.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='nihon-suisai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='nihon-suisai.com'
+
+## The Container
+- URL: https://www.the-container.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='the-container.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VER
+
+## Boji Hair+Gallery
+- URL: https://www.boji-hair.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='www.boji-hair.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.boji-hair.co
+
+## Home - Printed Matter
+- URL: https://www.printedmatter.org/
+- Status: bad
+- Code: 403
+- Detail: https://www.printedmatter.org/
+
+## RAW TOKYO
+- URL: https://rawtokyo.jp/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='rawtokyo.jp', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FA
+
+## NADiff a/p/a/r/t
+- URL: https://www.nadiff.com/
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='www.nadiff.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl
+
+## Pastel Society Open Exhibition
+- URL: https://www.mallgalleries.org.uk/open-exhibitions
+- Status: bad
+- Code: 404
+- Detail: https://www.mallgalleries.org.uk/open-exhibitions
+
+## Publishing / Artist Books — Battle Plan
+- URL: missing
+- Status: missing
+- Code: 0
+- Detail: 
+
+## Zines / Artist Books — Battle Plan
 - URL: missing
 - Status: missing
 - Code: 0
@@ -215,18 +251,6 @@
 - Status: bad
 - Code: 404
 - Detail: https://www.mallgalleries.org.uk/open-exhibitions
-
-## Boji Hair+Gallery
-- URL: https://www.boji-hair.com/
-- Status: error
-- Code: 0
-- Detail: HTTPSConnectionPool(host='www.boji-hair.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.boji-hair.co
-
-## twelvebooks
-- URL: missing
-- Status: missing
-- Code: 0
-- Detail: 
 
 ## 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...
 - URL: https://resartis.org/open-call/【open-call】-kyoto-art-center-artist-in-residence-program-2026-visual-arts/
@@ -239,3 +263,45 @@
 - Status: error
 - Code: 0
 - Detail: HTTPSConnectionPool(host='resartis.org', port=443): Max retries exceeded with url: /open-call/2026-open-call-from-japanese-artist-in-residence-saikoneon-nearby-
+
+## 2026 第37回 美浜美術展
+- URL: https://compe.japandesign.ne.jp/category/art
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='compe.japandesign.ne.jp', port=443): Max retries exceeded with url: /category/art (Caused by ConnectTimeoutError(<HTTPSConnection(host
+
+## National Watercolor Society International Open Exhibition
+- URL: https://nationalwatercolorsociety.org/exhibits
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='nationalwatercolorsociety.org', port=443): Max retries exceeded with url: /exhibits (Caused by NameResolutionError("HTTPSConnection(ho
+
+## twelvebooks
+- URL: missing
+- Status: missing
+- Code: 0
+- Detail: 
+
+## 上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)
+- URL: https://www.instagram.com/p/DThccPLEtYs
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /p/DThccPLEtYs (Caused by ConnectTimeoutError(<HTTPSConnection(host='www
+
+## 5th Singapore Chinese Art Exhibition 2026
+- URL: https://www.facebook.com/sgp.artist/posts/-5th-singapore-chinese-art-exhibition-2026-we-are-proud-to-present-the-5th-singa/1300735248755398
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /sgp.artist/posts/-5th-singapore-chinese-art-exhibition-2026-we-are-proud
+
+## NEW AIR 2026
+- URL: https://www.instagram.com/p/DVuFrkgCNzm
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /p/DVuFrkgCNzm (Caused by NameResolutionError("HTTPSConnection(host='www
+
+## 南京插画艺术家展览 2026年3月
+- URL: https://www.instagram.com/p/DTKU_w0EThh
+- Status: error
+- Code: 0
+- Detail: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /p/DTKU_w0EThh (Caused by NameResolutionError("HTTPSConnection(host='www

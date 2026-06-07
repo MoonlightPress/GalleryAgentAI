@@ -2,6 +2,6 @@
 
 Added native painting sources: 0
 Skipped existing: 25
-Total opportunities: 287
+Total opportunities: 297
 
 ## Added

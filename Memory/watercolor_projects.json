@@ -16,53 +16,31 @@
     "first_action": "Choose 12 finished or nearly finished watercolors. Group them by place, plant life, architecture, and human trace.",
     "opportunity_targets": [
       {
-        "title": "CSPWC Annual Open Water International Exhibition",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
-      },
-      {
-        "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji."
-      },
-      {
-        "title": "第113回 日本水彩展",
+        "title": "American Illustration",
         "score": 10,
         "hits": [
           "watercolor",
-          "painting"
+          "works on paper"
         ],
-        "why": "Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum"
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "title": "World Illustration Awards",
         "score": 10,
         "hits": [
-          "watercolor"
+          "watercolor",
+          "works on paper"
         ],
-        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+        "title": "Jackson's Art Prize",
         "score": 10,
         "hits": [
-          "painting"
+          "watercolor",
+          "works on paper"
         ],
-        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
-      },
-      {
-        "title": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style."
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
       },
       {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
@@ -73,12 +51,37 @@
         "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
       },
       {
-        "title": "American Watercolor Society Annual International Exhibition",
+        "title": "桜をテーマとするイラスト・絵画作品募集",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "painting"
+        ],
+        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
+      },
+      {
+        "title": "CSPWC Annual Open Water International Exhibition",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice."
+        "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
+      },
+      {
+        "title": "多摩ゆかりの作家による公募展",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
+      },
+      {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
       }
     ]
   },
@@ -99,20 +102,44 @@
     "first_action": "Write a 90-word statement and select 8–12 works that all show indirect human presence.",
     "opportunity_targets": [
       {
+        "title": "American Illustration",
+        "score": 10,
+        "hits": [
+          "works on paper"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "World Illustration Awards",
+        "score": 10,
+        "hits": [
+          "works on paper"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Jackson's Art Prize",
+        "score": 10,
+        "hits": [
+          "works on paper"
+        ],
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+      },
+      {
+        "title": "桜をテーマとするイラスト・絵画作品募集",
+        "score": 10,
+        "hits": [
+          "painting"
+        ],
+        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
+      },
+      {
         "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
         "score": 10,
         "hits": [
           "open exhibition"
         ],
         "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji."
-      },
-      {
-        "title": "第113回 日本水彩展",
-        "score": 10,
-        "hits": [
-          "painting"
-        ],
-        "why": "Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum"
       },
       {
         "title": "BOOOOOOOM 2026 Art & Photo Book Award",
@@ -124,32 +151,7 @@
         "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
       },
       {
-        "title": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
-        "score": 10,
-        "hits": [
-          "memory"
-        ],
-        "why": "Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style."
-      },
-      {
-        "title": "Royal Watercolour Society Open Exhibition",
-        "score": 10,
-        "hits": [
-          "works on paper",
-          "open exhibition"
-        ],
-        "why": "Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone."
-      },
-      {
-        "title": "Bologna Children's Book Fair Illustrators Exhibition",
-        "score": 10,
-        "hits": [
-          "works on paper"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "American Illustration",
+        "title": "Tokyo Illustrators Society",
         "score": 10,
         "hits": [
           "works on paper"
@@ -185,53 +187,28 @@
     "first_action": "Prepare a compact PDF: title, 10 images, dimensions, prices if available, and a 3-line artist note.",
     "opportunity_targets": [
       {
-        "title": "CSPWC Annual Open Water International Exhibition",
+        "title": "American Illustration",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+        "title": "World Illustration Awards",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "第113回 日本水彩展",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "painting"
-        ],
-        "why": "Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum"
-      },
-      {
-        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "title": "Jackson's Art Prize",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
-      },
-      {
-        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
-        "score": 10,
-        "hits": [
-          "painting"
-        ],
-        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
-      },
-      {
-        "title": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style."
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
       },
       {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
@@ -242,12 +219,37 @@
         "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
       },
       {
-        "title": "American Watercolor Society Annual International Exhibition",
+        "title": "桜をテーマとするイラスト・絵画作品募集",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "painting"
+        ],
+        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
+      },
+      {
+        "title": "CSPWC Annual Open Water International Exhibition",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice."
+        "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
+      },
+      {
+        "title": "多摩ゆかりの作家による公募展",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
+      },
+      {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
       }
     ]
   },
@@ -268,55 +270,33 @@
     "first_action": "Make a 16-page PDF mockup using existing watercolor images. Do not overexplain it.",
     "opportunity_targets": [
       {
-        "title": "CSPWC Annual Open Water International Exhibition",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
-      },
-      {
-        "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji."
-      },
-      {
-        "title": "第113回 日本水彩展",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum"
-      },
-      {
-        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "title": "American Illustration",
         "score": 10,
         "hits": [
           "artist book",
-          "zine",
+          "illustration",
           "watercolor"
         ],
-        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       },
       {
-        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+        "title": "World Illustration Awards",
         "score": 10,
         "hits": [
-          "zine",
-          "illustration"
-        ],
-        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
-      },
-      {
-        "title": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
-        "score": 10,
-        "hits": [
+          "artist book",
+          "illustration",
           "watercolor"
         ],
-        "why": "Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style."
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Jackson's Art Prize",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "watercolor"
+        ],
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
       },
       {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
@@ -327,12 +307,40 @@
         "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
       },
       {
-        "title": "American Watercolor Society Annual International Exhibition",
+        "title": "桜をテーマとするイラスト・絵画作品募集",
+        "score": 10,
+        "hits": [
+          "illustration",
+          "watercolor"
+        ],
+        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
+      },
+      {
+        "title": "CSPWC Annual Open Water International Exhibition",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "Direct medium match and major international credibility — AWS is recognized globally as a benchmark for serious watercolor practice."
+        "why": "International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8."
+      },
+      {
+        "title": "多摩ゆかりの作家による公募展",
+        "score": 10,
+        "hits": [
+          "illustration",
+          "watercolor"
+        ],
+        "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
+      },
+      {
+        "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "zine",
+          "watercolor"
+        ],
+        "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
       }
     ]
   }

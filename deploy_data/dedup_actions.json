@@ -1,0 +1,392 @@
+[
+  {
+    "url": "https://www.hattifnatt.jp/",
+    "name": "HATTIFNATT Koenji Cafe Gallery",
+    "action": "keep",
+    "reason": "Named entry with higher score (10.0) — best entry in group"
+  },
+  {
+    "url": "https://www.hattifnatt.jp/",
+    "name": "",
+    "action": "reject",
+    "reason": "Blank name and lower score (6.3) — duplicate of HATTIFNATT Koenji Cafe Gallery"
+  },
+  {
+    "url": "https://nihonbungei.net/watercolors_2026",
+    "name": "水彩アートの祭典",
+    "action": "keep",
+    "reason": "Named entry with highest score (9.7) — best entry in group"
+  },
+  {
+    "url": "https://nihonbungei.net/watercolors_2026",
+    "name": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
+    "action": "reject",
+    "reason": "Lower score (8.8) — duplicate of 水彩アートの祭典"
+  },
+  {
+    "url": "https://nihonbungei.net/watercolors_2026",
+    "name": "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会",
+    "action": "reject",
+    "reason": "Lowest score in group (8.0) — duplicate of 水彩アートの祭典"
+  },
+  {
+    "url": "https://www.jinnystreetgallery.com/open-call",
+    "name": "Jinny Street Gallery Open Call",
+    "action": "keep",
+    "reason": "Named entry with higher score (9.3) — best entry in group"
+  },
+  {
+    "url": "https://www.jinnystreetgallery.com/open-call",
+    "name": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
+    "action": "reject",
+    "reason": "Lower score (9.2) — duplicate of Jinny Street Gallery Open Call"
+  },
+  {
+    "url": "https://artist.callforentry.org/festivals.php",
+    "name": "Still Life - 2026",
+    "action": "keep",
+    "reason": "Tied highest score (9.0) with more specific watercolor one_sentence — best entry in group"
+  },
+  {
+    "url": "https://artist.callforentry.org/festivals.php",
+    "name": "Aquarium - 2026",
+    "action": "reject",
+    "reason": "Tied score (9.0) but weaker confirmation signal (artist book vs watercolor) — duplicate of Still Life - 2026"
+  },
+  {
+    "url": "https://artist.callforentry.org/festivals.php",
+    "name": "True Beauty - 2026",
+    "action": "reject",
+    "reason": "Lower score (8.9) — duplicate of Still Life - 2026"
+  },
+  {
+    "url": "https://hayamaartistresidency.submittable.com/submit",
+    "name": "Hayama Artist Residency Submission Manager - Submittable",
+    "action": "keep",
+    "reason": "Named entry with higher score (7.9) — best entry in group"
+  },
+  {
+    "url": "https://hayamaartistresidency.submittable.com/submit",
+    "name": "Hayama Artist Residency",
+    "action": "reject",
+    "reason": "Lower score (7.6) — duplicate of Hayama Artist Residency Submission Manager - Submittable"
+  },
+  {
+    "url": "https://www.curatorspace.com/opportunities",
+    "name": "",
+    "action": "keep",
+    "reason": "All blank-named; higher score (7.6) with more specific one_sentence — best entry in group"
+  },
+  {
+    "url": "https://www.curatorspace.com/opportunities",
+    "name": "",
+    "action": "reject",
+    "reason": "Lower score (6.5) — duplicate of the higher-scoring CuratorSpace entry"
+  },
+  {
+    "url": "https://www.artconnect.com/opportunities",
+    "name": "",
+    "action": "keep",
+    "reason": "All blank-named; tied score (7.5) but more specific one_sentence about manual verification — best entry in group"
+  },
+  {
+    "url": "https://www.artconnect.com/opportunities",
+    "name": "",
+    "action": "reject",
+    "reason": "Tied score (7.5) but weaker generic one_sentence — duplicate of the higher-detail ArtConnect entry"
+  },
+  {
+    "url": "https://www.clavis-publishing.com/submit",
+    "name": "Submissions — Clavis Publishing",
+    "action": "reject",
+    "reason": "Name is a generic 'Submissions — ...' pattern and lower useful score; Clavis Publishing Submissions has a real name"
+  },
+  {
+    "url": "https://www.clavis-publishing.com/submit",
+    "name": "Clavis Publishing Submissions",
+    "action": "keep",
+    "reason": "Real non-generic name despite lower score (5.6); 'Submissions — Clavis Publishing' is the submissions-page pattern name, not a real entry name"
+  },
+  {
+    "url": "https://koubo.yumegazai.com",
+    "name": "絵画展（滋賀県愛荘町開催）",
+    "action": "keep",
+    "reason": "Named entry with highest score (7.2) — best entry in group"
+  },
+  {
+    "url": "https://koubo.yumegazai.com",
+    "name": "滋賀県愛荘町絵画展",
+    "action": "reject",
+    "reason": "Lower score (7.1) — duplicate of 絵画展（滋賀県愛荘町開催）"
+  },
+  {
+    "url": "https://koubo.yumegazai.com",
+    "name": "「公募－日本の絵画2026－」",
+    "action": "reject",
+    "reason": "Lower score (5.8) — duplicate of 絵画展（滋賀県愛荘町開催）"
+  },
+  {
+    "url": "https://koubo.yumegazai.com",
+    "name": "「公募－日本の絵画2026－」入賞・入選発表展",
+    "action": "reject",
+    "reason": "Lowest score in group (5.2) — duplicate of 絵画展（滋賀県愛荘町開催）"
+  },
+  {
+    "url": "https://koubo.yumegazai.com/2026/04/16/e-shusaikai-smallworks-2026/",
+    "name": "[展覧会]秀彩会小品展2026",
+    "action": "keep",
+    "reason": "Named entry with higher score (7.2) — best entry in group"
+  },
+  {
+    "url": "https://koubo.yumegazai.com/2026/04/16/e-shusaikai-smallworks-2026/",
+    "name": "秀彩会小品展2026",
+    "action": "reject",
+    "reason": "Lower score (5.3) — duplicate of [展覧会]秀彩会小品展2026"
+  },
+  {
+    "url": "http://ocaa.info",
+    "name": "2026 Chinese New Year Celebration Art Show",
+    "action": "keep",
+    "reason": "Named entry with highest score (7.0) — best entry in group"
+  },
+  {
+    "url": "http://ocaa.info",
+    "name": "Spring Flora and Fauna Art Exhibition 2026",
+    "action": "reject",
+    "reason": "Lower score (6.9) — duplicate of 2026 Chinese New Year Celebration Art Show"
+  },
+  {
+    "url": "http://ocaa.info",
+    "name": "2026 Asian Heritage Culture Art Show",
+    "action": "reject",
+    "reason": "Lower score (6.4) — duplicate of 2026 Chinese New Year Celebration Art Show"
+  },
+  {
+    "url": "http://ocaa.info",
+    "name": "2026 OCAA Ladies Art Exhibition",
+    "action": "reject",
+    "reason": "Lowest score in group (5.3) — duplicate of 2026 Chinese New Year Celebration Art Show"
+  },
+  {
+    "url": "https://air-j.info/en/program/",
+    "name": "Open calls - Online Database of Artist in Residence Programs in Japan",
+    "action": "keep",
+    "reason": "Named entry with highest score (7.0) — best entry in group"
+  },
+  {
+    "url": "https://air-j.info/en/program/",
+    "name": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
+    "action": "reject",
+    "reason": "Lower score (6.0) — duplicate of the AIR_J open calls highest-score entry"
+  },
+  {
+    "url": "https://air-j.info/en/program/",
+    "name": "AIR_J Open Calls",
+    "action": "reject",
+    "reason": "Lowest score in group (5.0) — duplicate of the AIR_J open calls highest-score entry"
+  },
+  {
+    "url": "https://note.com/gallerydioxazine/n/nae41d746f93d",
+    "name": "咲き誇れ桜よ",
+    "action": "keep",
+    "reason": "Named entry with highest score (7.0) — best entry in group"
+  },
+  {
+    "url": "https://note.com/gallerydioxazine/n/nae41d746f93d",
+    "name": "ローズ・ローズ・ローズ",
+    "action": "reject",
+    "reason": "Lower score (6.3) — duplicate of 咲き誇れ桜よ"
+  },
+  {
+    "url": "https://note.com/gallerydioxazine/n/nae41d746f93d",
+    "name": "スクエア・ワールド2026",
+    "action": "reject",
+    "reason": "Lower score (6.2) — duplicate of 咲き誇れ桜よ"
+  },
+  {
+    "url": "https://note.com/gallerydioxazine/n/nae41d746f93d",
+    "name": "空色ターコイズ",
+    "action": "reject",
+    "reason": "Lowest score in group (5.5) — duplicate of 咲き誇れ桜よ"
+  },
+  {
+    "url": "https://note.com/gallerydioxazine/n/n1ccedc4693a7",
+    "name": "マイ・ディア・テディ (My Dear Teddy)",
+    "action": "keep",
+    "reason": "Named entry with higher score (7.0) — best entry in group"
+  },
+  {
+    "url": "https://note.com/gallerydioxazine/n/n1ccedc4693a7",
+    "name": "りんごろごろごろ",
+    "action": "reject",
+    "reason": "Lower score (5.6) — duplicate of マイ・ディア・テディ (My Dear Teddy)"
+  },
+  {
+    "url": "https://shoto-museum.jp/exhibitions/2026koubo/",
+    "name": "2026 松濤美術館公募展｜渋谷区立松濤美術館",
+    "action": "keep",
+    "reason": "Named entry with higher score (6.9) — best entry in group"
+  },
+  {
+    "url": "https://shoto-museum.jp/exhibitions/2026koubo/",
+    "name": "Shoto Museum Open Call",
+    "action": "reject",
+    "reason": "Lower score (6.2) — duplicate of 2026 松濤美術館公募展｜渋谷区立松濤美術館"
+  },
+  {
+    "url": "https://x.com/koko02803691/status/2061632639019479205",
+    "name": "ギャラリー自由展示",
+    "action": "keep",
+    "reason": "Named entry with highest score (6.8) — best entry in group"
+  },
+  {
+    "url": "https://x.com/koko02803691/status/2061632639019479205",
+    "name": "第五回公募展「境界」-edge-",
+    "action": "reject",
+    "reason": "Lower score (6.6) — duplicate of ギャラリー自由展示"
+  },
+  {
+    "url": "https://x.com/koko02803691/status/2061632639019479205",
+    "name": "第四回公募展「食卓」",
+    "action": "reject",
+    "reason": "Lower score (6.5) — duplicate of ギャラリー自由展示"
+  },
+  {
+    "url": "https://x.com/koko02803691/status/2061632639019479205",
+    "name": "第六回公募展「鳥」-bird-",
+    "action": "reject",
+    "reason": "Lower score (6.5) — duplicate of ギャラリー自由展示"
+  },
+  {
+    "url": "https://gallery219.com/index.html",
+    "name": "ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)",
+    "action": "keep",
+    "reason": "Named entry with higher score (6.8) — best entry in group"
+  },
+  {
+    "url": "https://gallery219.com/index.html",
+    "name": "アートの交差展 vol.6 (Art Intersection Exhibition vol.6)",
+    "action": "reject",
+    "reason": "Lower score (5.4) — duplicate of ギャラリーニイク「219公募展」Vol.6"
+  },
+  {
+    "url": "https://x.com/artkoubo",
+    "name": "アートオリンピア2026",
+    "action": "keep",
+    "reason": "Named entry with higher score (6.6) — best entry in group"
+  },
+  {
+    "url": "https://x.com/artkoubo",
+    "name": "第92回旺玄展",
+    "action": "reject",
+    "reason": "Lower score (5.1) — duplicate of アートオリンピア2026"
+  },
+  {
+    "url": "https://www.artkoubo.jp/",
+    "name": "2026春季二科展「NIKA+nika/S20号」コンクール",
+    "action": "keep",
+    "reason": "Named entry with higher score (6.6) — best entry in group"
+  },
+  {
+    "url": "https://www.artkoubo.jp/",
+    "name": "Art公募",
+    "action": "reject",
+    "reason": "Lower score (6.2) — duplicate of 2026春季二科展「NIKA+nika/S20号」コンクール"
+  },
+  {
+    "url": "https://note.com/omsystem_plaza/n/n654cb8a5b813",
+    "name": "OM SYSTEM PLAZA 2026年2月～3月開催分",
+    "action": "keep",
+    "reason": "Tied score (6.5); this entry covers the earlier date range, retained as the primary representative"
+  },
+  {
+    "url": "https://note.com/omsystem_plaza/n/n654cb8a5b813",
+    "name": "OM SYSTEM PLAZA 2026年4月～6月開催分",
+    "action": "reject",
+    "reason": "Tied score (6.5) — duplicate of OM SYSTEM PLAZA 2026年2月～3月開催分 at same URL"
+  },
+  {
+    "url": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
+    "name": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
+    "action": "keep",
+    "reason": "Named entry with higher score (6.3) — best entry in group"
+  },
+  {
+    "url": "https://artcenter-new.jp/en/event/new-air-2026-opencall/",
+    "name": "NEW AIR",
+    "action": "reject",
+    "reason": "Lower score (5.0) — duplicate of the fuller NEW AIR 2026 OPEN CALL entry"
+  },
+  {
+    "url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "name": "",
+    "action": "keep",
+    "reason": "All blank-named; tied highest score (6.0) with more relevant one_sentence about open exhibitions vs pastel society — best entry in group"
+  },
+  {
+    "url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "name": "",
+    "action": "reject",
+    "reason": "Tied score (6.0) but one_sentence covers Pastel Society specifically, weaker fit — duplicate of the Mall Galleries Open Exhibitions entry"
+  },
+  {
+    "url": "https://www.mallgalleries.org.uk/open-exhibitions",
+    "name": "",
+    "action": "reject",
+    "reason": "Lowest score in group (5.3) — duplicate of the Mall Galleries Open Exhibitions entry"
+  },
+  {
+    "url": "https://kiac.jp/en/article/2927/",
+    "name": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
+    "action": "keep",
+    "reason": "Named entry with higher score (6.0) — best entry in group"
+  },
+  {
+    "url": "https://kiac.jp/en/article/2927/",
+    "name": "Kyoto Art Center Residency",
+    "action": "reject",
+    "reason": "Lower score (5.0) — duplicate of OPEN CALL for the Artist-In-Residence Program 2025/2026"
+  },
+  {
+    "url": "https://compe.japandesign.ne.jp/category/art",
+    "name": "Brillia Art Award Wall 2026",
+    "action": "keep",
+    "reason": "Named entry with highest score (5.9) — best entry in group"
+  },
+  {
+    "url": "https://compe.japandesign.ne.jp/category/art",
+    "name": "SICF Fukuoka 2026",
+    "action": "reject",
+    "reason": "Lower score (5.6) — duplicate of Brillia Art Award Wall 2026"
+  },
+  {
+    "url": "https://compe.japandesign.ne.jp/category/art",
+    "name": "Idemitsu Art Award 2026",
+    "action": "reject",
+    "reason": "Lower score (5.3) — duplicate of Brillia Art Award Wall 2026"
+  },
+  {
+    "url": "https://compe.japandesign.ne.jp/category/art",
+    "name": "Art on Climate インターナショナル・イラストレーション・コンテスト 2026",
+    "action": "reject",
+    "reason": "Lower score (5.1) — duplicate of Brillia Art Award Wall 2026"
+  },
+  {
+    "url": "https://compe.japandesign.ne.jp/category/art",
+    "name": "2026 第37回 美浜美術展",
+    "action": "reject",
+    "reason": "Lowest score in group (4.1) — duplicate of Brillia Art Award Wall 2026"
+  },
+  {
+    "url": "https://www.printedmatter.org/",
+    "name": "",
+    "action": "keep",
+    "reason": "All blank-named; tied score (5.0) but stronger one_sentence with specific context about art-book nonprofit — best entry in group"
+  },
+  {
+    "url": "https://www.printedmatter.org/",
+    "name": "",
+    "action": "reject",
+    "reason": "Tied score (5.0) but weaker generic one_sentence about manual verification — duplicate of the more-informative Printed Matter entry"
+  }
+]

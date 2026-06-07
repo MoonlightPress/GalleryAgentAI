@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-07
 
 # reload Shimokitazawa
 
 ## 1. Quick Judgment
-**Fit score:** 6.3/10  
-**Fit band:** Promising  
+**Fit score:** 8.4/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Shimokitazawa  
@@ -50,5 +50,5 @@ Skip unless you independently discover clear artist exhibition programming with 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_
 
