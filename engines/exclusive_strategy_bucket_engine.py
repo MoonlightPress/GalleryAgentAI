@@ -2,7 +2,71 @@
 import json
 import os
 import re
+from datetime import date
 from pathlib import Path
+
+# ---------------------------------------------------------------------------
+# Date-aware deadline helpers
+# ---------------------------------------------------------------------------
+_TODAY = date.today()
+
+_MONTH_MAP = {
+    "january": 1, "february": 2, "march": 3, "april": 4,
+    "may": 5, "june": 6, "july": 7, "august": 8,
+    "september": 9, "october": 10, "november": 11, "december": 12,
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4,
+    "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
+# Categories that are ONGOING VENUES — deadline field is not a submission deadline.
+# All other categories (including empty/unknown) are treated as time-limited calls.
+_ONGOING_VENUE_CATS = frozenset({
+    "bookstore_gallery",     # ongoing bookshop / gallery space
+    "bookstore_event",       # bookshop event programme (relationship target)
+    "cafe_gallery",          # rotating café exhibitions
+    "zine_shop_consignment", # consignment relationship — no deadline
+    "zine_print",            # zine/print shops and publishers (as used here = shops)
+    "market_event",          # recurring market events (BONUS TRACK etc.)
+})
+
+
+def _parse_deadline_date(deadline_str: str):
+    """Return the latest parseable date in deadline_str, or None.
+    Returns the latest date so we don't prematurely expire multi-window deadlines."""
+    s = str(deadline_str or "")
+    # Strip ordinal suffixes: "1st", "2nd", "3rd", "14th" → digits only
+    s = re.sub(r'(\d+)(st|nd|rd|th)\b', r'\1', s, flags=re.IGNORECASE)
+    found = []
+    # ISO: 2026-02-11 or 2026/2/11 — use \d{1,2} to avoid greedy alternation bug
+    for m in re.finditer(r'(20\d{2})[-/](\d{1,2})[-/](\d{1,2})', s):
+        try:
+            found.append(date(int(m.group(1)), int(m.group(2)), int(m.group(3))))
+        except ValueError:
+            pass
+    # Japanese: 2026年3月9日
+    for m in re.finditer(r'(20\d{2})年(\d{1,2})月(\d{1,2})日', s):
+        try:
+            found.append(date(int(m.group(1)), int(m.group(2)), int(m.group(3))))
+        except ValueError:
+            pass
+    # English day-month-year: 6 November 2025
+    for m in re.finditer(r'(\d{1,2})\s+([A-Za-z]+)\s+(20\d{2})', s):
+        mon = _MONTH_MAP.get(m.group(2).lower())
+        if mon:
+            try:
+                found.append(date(int(m.group(3)), mon, int(m.group(1))))
+            except ValueError:
+                pass
+    # English month-day-year: March 18, 2026 / June 30, 2026
+    for m in re.finditer(r'([A-Za-z]+)\s+(\d{1,2}),?\s+(20\d{2})', s):
+        mon = _MONTH_MAP.get(m.group(1).lower())
+        if mon:
+            try:
+                found.append(date(int(m.group(3)), mon, int(m.group(2))))
+            except ValueError:
+                pass
+    # Return the latest date found — don't expire until the last deadline has passed
+    return max(found) if found else None
 
 OPP_PATH = "deploy_data/compact_opportunities.json"
 OUT_PATH = "memory/exclusive_strategy_buckets.json"
@@ -92,6 +156,16 @@ def _is_recurring(opp):
     return any(m in deadline or m in cycle_note for m in _RECURRING_MARKERS)
 
 
+def _call_deadline_is_past(opp) -> bool:
+    """True if this entry has a parsed deadline that has already passed.
+    Ongoing venue categories are exempt — their 'deadline' field is not a call deadline."""
+    cat = opp.get("category") or ""
+    if cat in _ONGOING_VENUE_CATS:
+        return False  # ongoing venue relationship — deadline is irrelevant
+    dl_date = _parse_deadline_date(str(opp.get("deadline") or ""))
+    return dl_date is not None and dl_date < _TODAY
+
+
 def choose_bucket(opp):
     text = text_blob(opp)
     title = str(opp.get("title") or opp.get("name") or "").lower()
@@ -111,9 +185,20 @@ def choose_bucket(opp):
     if opp.get("verification_bucket") == "stretch_targets":
         return "stretch_targets"
 
-    # Confirmed passed deadline: recurring → watch (stretch_targets), one-off → reject
+    # Photography: never surface to artist. The watercolor layer should catch this
+    # upstream, but enforce here as a safety net.
+    if opp.get("native_medium") == "photography":
+        return "reject"
+
+    # Confirmed passed deadline (text markers): recurring → stretch_targets, one-off → reject
     if _deadline_confirmed_passed(opp):
         return "stretch_targets" if _is_recurring(opp) else "reject"
+
+    # Date-aware deadline check for call-type categories.
+    # Past deadline = closed call; route to research_needed (may recur, not actionable now).
+    # Ongoing venues (bookstores, cafes, zine shops) are exempt via _DEADLINE_SENSITIVE_CATS.
+    if _call_deadline_is_past(opp):
+        return "research_needed"
 
     # Only use dscore for low_priority check when it is actually set (>0)
     if score <= 4 or (dscore > 0 and dscore <= 4):
@@ -197,6 +282,7 @@ def choose_bucket(opp):
         "art sg", "art singapore",
         "art vancouver",
         "tokyo gendai",
+        "art fair tokyo",      # gallery-represented fair; not artist booth
         "art basel", "frieze",
         "art miami", "art paris",
         "tefaf",
@@ -242,9 +328,14 @@ def choose_bucket(opp):
     if has(text, publication_terms):
         return "publication_targets"
 
-    # Tier 2 relationship / networking venues
+    # Tier 2 relationship / networking venues — Japan/unlocated only.
+    # Non-Japan galleries and spaces can't be relationship targets for a Tokyo artist.
     if has(text, relationship_terms):
-        return "relationship_builders"
+        country = str(opp.get("country") or "").strip()
+        if country in ("", "Japan"):
+            return "relationship_builders"
+        # International venue with relationship-ish terms → research_needed
+        return "research_needed"
 
     if opp.get("verification_bucket") in {"research_needed", None}:
         return "research_needed"
