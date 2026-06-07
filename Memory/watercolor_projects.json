@@ -16,31 +16,20 @@
     "first_action": "Choose 12 finished or nearly finished watercolors. Group them by place, plant life, architecture, and human trace.",
     "opportunity_targets": [
       {
-        "title": "American Illustration",
+        "title": "HATTIFNATT Koenji Cafe Gallery",
         "score": 10,
         "hits": [
-          "watercolor",
-          "works on paper"
+          "gallery"
         ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+        "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category."
       },
       {
-        "title": "World Illustration Awards",
+        "title": "水彩アートの祭典",
         "score": 10,
         "hits": [
-          "watercolor",
-          "works on paper"
+          "watercolor"
         ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "Jackson's Art Prize",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "works on paper"
-        ],
-        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+        "why": "Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions"
       },
       {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
@@ -76,6 +65,15 @@
         "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
       },
       {
+        "title": "Aquarelle 18 - アクワレル",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "painting"
+        ],
+        "why": "Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice."
+      },
+      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 10,
         "hits": [
@@ -102,6 +100,22 @@
     "first_action": "Write a 90-word statement and select 8–12 works that all show indirect human presence.",
     "opportunity_targets": [
       {
+        "title": "桜をテーマとするイラスト・絵画作品募集",
+        "score": 10,
+        "hits": [
+          "painting"
+        ],
+        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
+      },
+      {
+        "title": "Aquarelle 18 - アクワレル",
+        "score": 10,
+        "hits": [
+          "painting"
+        ],
+        "why": "Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice."
+      },
+      {
         "title": "American Illustration",
         "score": 10,
         "hits": [
@@ -124,22 +138,6 @@
           "works on paper"
         ],
         "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
-      },
-      {
-        "title": "桜をテーマとするイラスト・絵画作品募集",
-        "score": 10,
-        "hits": [
-          "painting"
-        ],
-        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
-      },
-      {
-        "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-        "score": 10,
-        "hits": [
-          "open exhibition"
-        ],
-        "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji."
       },
       {
         "title": "BOOOOOOOM 2026 Art & Photo Book Award",
@@ -187,28 +185,21 @@
     "first_action": "Prepare a compact PDF: title, 10 images, dimensions, prices if available, and a 3-line artist note.",
     "opportunity_targets": [
       {
-        "title": "American Illustration",
+        "title": "HATTIFNATT Koenji Cafe Gallery",
         "score": 10,
         "hits": [
-          "watercolor"
+          "cafe",
+          "gallery"
         ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+        "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category."
       },
       {
-        "title": "World Illustration Awards",
+        "title": "水彩アートの祭典",
         "score": 10,
         "hits": [
           "watercolor"
         ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "Jackson's Art Prize",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+        "why": "Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions"
       },
       {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
@@ -244,6 +235,15 @@
         "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
       },
       {
+        "title": "Aquarelle 18 - アクワレル",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "painting"
+        ],
+        "why": "Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice."
+      },
+      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 10,
         "hits": [
@@ -270,33 +270,12 @@
     "first_action": "Make a 16-page PDF mockup using existing watercolor images. Do not overexplain it.",
     "opportunity_targets": [
       {
-        "title": "American Illustration",
+        "title": "水彩アートの祭典",
         "score": 10,
         "hits": [
-          "artist book",
-          "illustration",
           "watercolor"
         ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "World Illustration Awards",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "illustration",
-          "watercolor"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "Jackson's Art Prize",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "watercolor"
-        ],
-        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+        "why": "Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions"
       },
       {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
@@ -333,6 +312,14 @@
         "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
       },
       {
+        "title": "Aquarelle 18 - アクワレル",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice."
+      },
+      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 10,
         "hits": [
@@ -341,6 +328,14 @@
           "watercolor"
         ],
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "第九屆水主題國際評審藝術比賽",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Water-themed international art competition accepting watercolor works from global artists, directly aligned with watercolor practice."
       }
     ]
   }

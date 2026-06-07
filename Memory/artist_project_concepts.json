@@ -250,15 +250,6 @@
         "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
       },
       {
-        "title": "Pinpoint Gallery",
-        "score": 9.4,
-        "differentiated_score": 10.84,
-        "hits": [
-          "artist book"
-        ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
-      },
-      {
         "title": "Aperture | Photography",
         "score": 8.8,
         "differentiated_score": 10.7,
@@ -268,9 +259,18 @@
         "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
+        "title": "Pinpoint Gallery",
+        "score": 9.1,
+        "differentiated_score": 10.54,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
         "title": "Offprint",
-        "score": 8.5,
-        "differentiated_score": 10.05,
+        "score": 8.6,
+        "differentiated_score": 10.15,
         "hits": [
           "artist book"
         ],
@@ -537,6 +537,15 @@
         "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
       },
       {
+        "title": "Gallery IYN",
+        "score": 8.8,
+        "differentiated_score": 10.34,
+        "hits": [
+          "open call"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
         "title": "桜をテーマとするイラスト・絵画作品募集",
         "score": 9.4,
         "differentiated_score": 10.26,
@@ -553,15 +562,6 @@
           "open call"
         ],
         "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
-      },
-      {
-        "title": "Aquarelle 18 - アクワレル",
-        "score": 9.4,
-        "differentiated_score": 10.26,
-        "hits": [
-          "open call"
-        ],
-        "why": "Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice."
       }
     ]
   }

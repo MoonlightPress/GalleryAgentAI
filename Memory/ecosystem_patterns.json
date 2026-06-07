@@ -2,22 +2,22 @@
   "dominant_countries": [
     [
       "Japan",
-      35
+      38
     ],
     [
       "Global",
-      10
-    ],
-    [
-      "International",
       8
     ],
     [
-      "Canada",
-      5
+      "International",
+      6
     ],
     [
       "USA",
+      4
+    ],
+    [
+      "Canada",
       4
     ],
     [
@@ -25,7 +25,15 @@
       3
     ],
     [
+      "United States",
+      3
+    ],
+    [
       "UK / Global",
+      2
+    ],
+    [
+      "UK",
       2
     ],
     [
@@ -33,11 +41,7 @@
       2
     ],
     [
-      "United States",
-      2
-    ],
-    [
-      "UK",
+      "France / UK",
       1
     ],
     [
@@ -45,26 +49,22 @@
       1
     ],
     [
-      "France / UK",
-      1
-    ],
-    [
-      "France",
+      "Yokohama",
       1
     ]
   ],
   "dominant_categories": [
     [
       "gallery",
-      17
-    ],
-    [
-      "global_open_call",
-      11
+      22
     ],
     [
       "japan_watercolor_open_call",
       10
+    ],
+    [
+      "global_open_call",
+      8
     ],
     [
       "bookstore_gallery",
@@ -87,20 +87,20 @@
       5
     ],
     [
+      "global_watercolor_open_call",
+      5
+    ],
+    [
       "artist_space",
       5
     ],
     [
-      "book_publishing",
-      4
-    ],
-    [
-      "global_watercolor_open_call",
-      4
-    ],
-    [
       "zine_shop_consignment",
       4
+    ],
+    [
+      "book_publishing",
+      3
     ],
     [
       "residency",
@@ -123,49 +123,49 @@
       2
     ],
     [
-      "open_call_index",
-      2
-    ],
-    [
       "global_book_arts",
       1
     ],
     [
       "bookstore_event",
       1
+    ],
+    [
+      "global_photobook",
+      1
     ]
   ],
   "dominant_tags": [
     [
+      "japan",
+      25
+    ],
+    [
       "secondary",
-      22
+      23
     ],
     [
       "",
-      22
-    ],
-    [
-      "japan",
-      22
+      23
     ],
     [
       "jp",
-      20
+      22
     ],
     [
       "japanese_source",
-      20
+      22
     ],
     [
       "has_deadline",
-      15
-    ],
-    [
-      "has_submission_url",
-      14
+      17
     ],
     [
       "watercolor_ok",
+      13
+    ],
+    [
+      "has_submission_url",
       13
     ],
     [
@@ -177,11 +177,11 @@
       11
     ],
     [
-      "chinese_source",
-      10
+      "global",
+      8
     ],
     [
-      "global",
+      "chinese_source",
       7
     ],
     [
@@ -190,10 +190,6 @@
     ],
     [
       "Tier1",
-      6
-    ],
-    [
-      "cn",
       6
     ],
     [
@@ -222,7 +218,11 @@
     ],
     [
       "open_call",
-      3
+      4
+    ],
+    [
+      "cn",
+      4
     ],
     [
       "bookshop",
@@ -234,6 +234,10 @@
     ],
     [
       "cafe_gallery",
+      3
+    ],
+    [
+      "watercolor",
       3
     ],
     [
@@ -253,15 +257,7 @@
       2
     ],
     [
-      "watercolor",
-      2
-    ],
-    [
       "high",
-      2
-    ],
-    [
-      "exhibition",
       2
     ],
     [
@@ -270,6 +266,18 @@
     ],
     [
       "indie",
+      2
+    ],
+    [
+      "exhibition",
+      2
+    ],
+    [
+      "prestige",
+      2
+    ],
+    [
+      "career_changing",
       2
     ],
     [
@@ -286,14 +294,6 @@
     ],
     [
       "near_deadline",
-      1
-    ],
-    [
-      "zine_fair",
-      1
-    ],
-    [
-      "booth",
       1
     ]
   ]

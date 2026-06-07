@@ -1,20 +1,20 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-07
 
 # 2026 International Children and Youth Painting Competition Summer Season
 
 ## 1. Quick Judgment
-**Fit score:** 3.0/10  
-**Fit band:** Low priority  
-**Confidence:** Medium  
+**Fit score:** 4.3/10  
+**Fit band:** Possible, but not urgent  
+**Confidence:** High  
 **Type:** Global Open Call  
 **City:** International  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
 
 - **Official/source website**: https://www.instagram.com/p/DXgYkg0CdlP (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://peacepalsinternational.org/2026-art-contest (verified)
 - **Deadline**: 12-03-2026 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
@@ -36,7 +36,7 @@ International painting competition focused on color and creative expression; rel
 ## 7. Submission / Logistics
 - **Deadline:** 12-03-2026
 - **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Submission page:** https://peacepalsinternational.org/2026-art-contest
 - **Source:** https://www.instagram.com/p/DXgYkg0CdlP
 
 ## 8. Risk / Unknowns
@@ -48,5 +48,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_
 

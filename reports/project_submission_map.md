@@ -36,8 +36,8 @@ This turns project concepts into concrete submission paths.
 - Tokyo Art Book Fair
 - UTRECHT
 - Center for Book Arts Opportunities
-- Pinpoint Gallery
 - Aperture | Photography
+- Pinpoint Gallery
 
 ### What To Prepare
 - 12–20 image edit

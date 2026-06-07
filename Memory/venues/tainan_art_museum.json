@@ -23,11 +23,7 @@
     "Automatically created from opportunity data.",
     "Needs manual/web research before being treated as verified."
   ],
-  "missing_information": [
-    "contact",
-    "fees",
-    "submission process"
-  ],
+  "missing_information": [],
   "opportunity_titles": [
     "臺南市美術館 2026「TAM+展覽計畫」"
   ],

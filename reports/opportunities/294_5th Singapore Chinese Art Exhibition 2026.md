@@ -1,19 +1,19 @@
 # 5th Singapore Chinese Art Exhibition 2026
 
 ## 1. Quick Judgment
-**Fit score:** 3.0/10  
+**Fit score:** 2.1/10  
 **Fit band:** Low priority  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Institutional / Grants  
 **City:** Singapore  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Verified: Official/source website, Deadline, Fees. Needs checking: Submission process, Contact.
 
 - **Official/source website**: https://www.facebook.com/sgp.artist/posts/-5th-singapore-chinese-art-exhibition-2026-we-are-proud-to-present-the-5th-singa/1300735248755398 (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
 - **Deadline**: 28 February – 1 March 2026 (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Fees**: $20 per art piece upon successful selection (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -32,7 +32,7 @@ Group exhibition for artists with potential interest in illustration and contemp
 
 ## 7. Submission / Logistics
 - **Deadline:** 28 February – 1 March 2026
-- **Fees:** Not publicly listed
+- **Fees:** $20 per art piece upon successful selection
 - **Submission page:** Not publicly listed
 - **Source:** https://www.facebook.com/sgp.artist/posts/-5th-singapore-chinese-art-exhibition-2026-we-are-proud-to-present-the-5th-singa/1300735248755398
 

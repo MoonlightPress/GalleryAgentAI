@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-07
 # 2026 Asian Heritage Culture Art Show
 
 ## 1. Quick Judgment
-**Fit score:** 5.1/10  
+**Fit score:** 4.0/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Institutional / Grants  

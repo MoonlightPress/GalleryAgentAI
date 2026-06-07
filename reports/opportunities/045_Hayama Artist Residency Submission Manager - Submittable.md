@@ -1,20 +1,20 @@
 # Hayama Artist Residency Submission Manager - Submittable
 
 ## 1. Quick Judgment
-**Fit score:** 8.4/10  
+**Fit score:** 9.8/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
 **City:** Japan / Tokyo / Online  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
+Core public information appears present.
 
 - **Official/source website**: https://hayamaartistresidency.submittable.com/submit (verified)
 - **Submission process**: https://hayamaartistresidency.submittable.com/submit (verified)
 - **Deadline**: September 30, 2026 (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Fees**: $800 (verified)
+- **Contact**: director@hayamaartistresidency.com (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Residencies / Longer Projects.
@@ -35,7 +35,7 @@ Potential fit because it belongs to a structured opportunity category where requ
 
 ## 7. Submission / Logistics
 - **Deadline:** September 30, 2026
-- **Fees:** Not publicly listed
+- **Fees:** $800
 - **Submission page:** https://hayamaartistresidency.submittable.com/submit
 - **Source:** https://hayamaartistresidency.submittable.com/submit
 
@@ -48,4 +48,4 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_

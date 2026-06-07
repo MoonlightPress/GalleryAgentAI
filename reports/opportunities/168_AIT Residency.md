@@ -1,7 +1,7 @@
 # AIT Residency
 
 ## 1. Quick Judgment
-**Fit score:** 7.2/10  
+**Fit score:** 7.5/10  
 **Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
@@ -12,7 +12,7 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 
 - **Official/source website**: https://www.a-i-t.net/en/ (verified)
 - **Submission process**: https://www.a-i-t.net/en/ (verified)
-- **Deadline**: Not publicly listed (verified)
+- **Deadline**: 2026-02-26 (verified)
 - **Fees**: Not publicly listed (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -33,7 +33,7 @@ Doesn't fit well - AIT emphasizes contemporary discourse and international dialo
 - Tokyo location less aligned with traditional architecture focus than Kyoto opportunities
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** 2026-02-26
 - **Fees:** Not publicly listed
 - **Submission page:** https://www.a-i-t.net/en/
 - **Source:** https://www.a-i-t.net/en/
@@ -47,4 +47,4 @@ Skip unless you specifically want Tokyo contemporary art network exposure and ar
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-07_

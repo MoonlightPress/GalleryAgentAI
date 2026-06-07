@@ -2,26 +2,24 @@
 
 ## What Changed Since Last Run
 
-_Previous run: 2026-06-04_
+_Previous run: 2026-06-07_
 
-- **Added to Immediate Best Moves:** Shimokitazawa Arts
-- **Added to Immediate Best Moves:** submissions for the 2026 set film festival are now open
-- **Added to Immediate Best Moves:** Women United ART MAGAZINE Issue XIV Summer 2026
-- **Removed from Immediate Best Moves:** BOOOOOOOM 2026 Art & Photo Book Award
-- **Removed from Immediate Best Moves:** FACE展2026
-- **Removed from Immediate Best Moves:** 金风车插画大赛2026
-- **Removed from Immediate Best Moves:** 「公募－日本の絵画2026－」
-- **Removed from Immediate Best Moves:** DER GREIF
-- **Removed from Immediate Best Moves:** 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
-- **Score change:** TOKIO ART BOOK FAIR 2026 8.2 → 9.6 ↑
-- **Score change:** Tokyo Art Book Fair 9.2 → 9.6 ↑
-- **Score change:** 水彩アートの祭典 (Watercolor Art Festival) 8.8 → 9.6 ↑
-- **Score change:** UTRECHT 8.2 → 9.2 ↑
-- **Score change:** B&B Shimokitazawa 7.1 → 7.8 ↑
-- **Score change:** flotsam books 7.0 → 7.8 ↑
-- **Opportunity count:** 286 → 297 (+11)
+- **Removed from Immediate Best Moves:** Northwest Watercolor Society 2026 Annual International Open Exhibition
+- **Score change:** Shimokitazawa Arts 8.3 → 9.3 ↑
+- **Score change:** TOKIO ART BOOK FAIR 2026 9.6 → 10.0 ↑
+- **Score change:** submissions for the 2026 set film festival are now open 7.2 → 6.5 ↓
+- **Score change:** Women United ART MAGAZINE Issue XIV Summer 2026 9.2 → 8.7 ↓
+- **Score change:** ZINEフェス東京 (ZINE Fest Tokyo) 9.2 → 10.0 ↑
+- **Score change:** Tokyo Art Book Fair 9.6 → 10.0 ↑
+- **Score change:** UTRECHT 9.2 → 10.0 ↑
+- **Score change:** B&B Shimokitazawa 7.8 → 10.0 ↑
+- **Score change:** flotsam books 7.8 → 10.0 ↑
+- **Score change:** MOUNT ZINE 9.2 → 10.0 ↑
+- **Score change:** Book and Sons 8.2 → 10.0 ↑
+- **Score change:** 水彩アートの祭典 (Watercolor Art Festival) 9.6 → 9.1 ↓
+- **Score change:** CSPWC Annual Open Water International Exhibition 9.6 → 9.1 ↓
 
-## Immediate Best Moves (14)
+## Immediate Best Moves (13)
 
 ### ~~Shimokitazawa Arts~~
 - **Apply by:** April 1, 2022 — _PAST (1528d ago)_
@@ -61,39 +59,11 @@ _Previous run: 2026-06-04_
 - **Link:** https://tokyoartbookfair.com/application/
 - _Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor se_
 
-### 水彩アートの祭典 (Watercolor Art Festival)
-- **Apply by:** 2026年1月31日
-- **Fee:** 1作品9,000円、2作品目以降＋8,000円（税別）
-- **Link:** https://nihonbungei.net/watercolors_2026
-- _Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice._
-
-### CSPWC Annual Open Water International Exhibition
-- **Apply by:** — _(contact / propose)_
-- **Link:** https://cspwc.ca/
-- _International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Ac_
-
 ### UTRECHT
 - **Apply by:** 1 July 2025
 - **Fee:** Free
 - **Link:** https://utrecht.jp/
 - _This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in pr_
-
-### MOUNT ZINE
-- **Apply by:** Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window
-- **Fee:** No fee
-- **Link:** https://zine.mount.co.jp/
-- _Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment an_
-
-### Northwest Watercolor Society 2026 Annual International Open Exhibition
-- **Apply by:** — _(contact / propose)_
-- **Link:** https://www.nwws.org/annual-international-open/
-- _Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusu_
-
-### Book and Sons
-- **Apply by:** Unknown
-- **Fee:** Unknown
-- **Link:** https://bookandsons.com/
-- _Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to_
 
 ### B&B Shimokitazawa
 - **Apply by:** 2026年06月06日
@@ -106,6 +76,29 @@ _Previous run: 2026-06-04_
 - **Fee:** ¥13,200
 - **Link:** https://www.flotsambooks.com/
 - _Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts_
+
+### MOUNT ZINE
+- **Apply by:** Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window
+- **Fee:** No fee
+- **Link:** https://zine.mount.co.jp/
+- _Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment an_
+
+### Book and Sons
+- **Apply by:** Unknown
+- **Fee:** Unknown
+- **Link:** https://bookandsons.com/
+- _Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to_
+
+### 水彩アートの祭典 (Watercolor Art Festival)
+- **Apply by:** 2026年1月31日
+- **Fee:** 1作品9,000円、2作品目以降＋8,000円（税別）
+- **Link:** https://nihonbungei.net/watercolors_2026
+- _Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice._
+
+### CSPWC Annual Open Water International Exhibition
+- **Apply by:** — _(contact / propose)_
+- **Link:** https://cspwc.ca/
+- _International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Ac_
 
 ## Watch List
 

@@ -233,13 +233,13 @@
       "image": ""
     },
     {
-      "title": "American Illustration",
+      "title": "DESIGN FESTA GALLERY",
       "bucket": "easy_win",
       "score": 9.4,
       "confidence": "High",
       "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Other",
-      "city": null,
+      "category": "Galleries / Exhibition Calls",
+      "city": "Tokyo",
       "image": ""
     }
   ],
@@ -247,7 +247,7 @@
     {
       "title": "Offprint",
       "bucket": "career_changing",
-      "score": 8.5,
+      "score": 8.6,
       "confidence": "Medium",
       "reason": "High-prestige opportunity with strong long-term impact.",
       "category": "Global Art Book Fair",
@@ -265,52 +265,42 @@
       "image": ""
     },
     {
-      "title": "Printed Matter Art Book Fairs",
+      "title": "Royal Watercolour Society Open Exhibition",
       "bucket": "career_changing",
-      "score": 8.0,
-      "confidence": "Medium",
+      "score": 7.8,
+      "confidence": "High",
       "reason": "High-prestige opportunity with strong long-term impact.",
-      "category": "Global Art Book Fair",
-      "city": "New York / Los Angeles",
+      "category": "Global Watercolor Open Call",
+      "city": "London",
       "image": ""
     },
     {
       "title": "American Watercolor Society Annual International Exhibition",
       "bucket": "career_changing",
-      "score": 7.3,
+      "score": 7.7,
       "confidence": "Medium",
       "reason": "High-prestige opportunity with strong long-term impact.",
       "category": "Global Watercolor Open Call",
       "city": "New York",
       "image": ""
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "bucket": "career_changing",
+      "score": 7.5,
+      "confidence": "Medium",
+      "reason": "High-prestige opportunity with strong long-term impact.",
+      "category": "Global Art Book Fair",
+      "city": "New York / Los Angeles",
+      "image": ""
     }
   ],
   "portfolio_builders": [
     {
-      "title": "そぞろ書房",
+      "title": "Book Obscura",
       "bucket": "portfolio_builder",
-      "score": 7.2,
+      "score": 7.8,
       "confidence": "Medium",
-      "reason": "Good opportunity for publication history and portfolio depth.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Koenji, Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Sunny Boy Books",
-      "bucket": "portfolio_builder",
-      "score": 7.2,
-      "confidence": "Medium",
-      "reason": "Good opportunity for publication history and portfolio depth.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Book Culture Club",
-      "bucket": "portfolio_builder",
-      "score": 6.5,
-      "confidence": "Low",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
       "city": "Kichijoji, Tokyo",
@@ -319,7 +309,7 @@
     {
       "title": "NADiff a/p/a/r/t",
       "bucket": "portfolio_builder",
-      "score": 6.5,
+      "score": 7.1,
       "confidence": "High",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -327,17 +317,27 @@
       "image": ""
     },
     {
-      "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+      "title": "そぞろ書房",
       "bucket": "portfolio_builder",
-      "score": 6.4,
-      "confidence": "High",
+      "score": 6.5,
+      "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
-      "city": "Online",
+      "city": "Koenji, Tokyo",
       "image": ""
     },
     {
-      "title": "Zines / Artist Books — Battle Plan",
+      "title": "Book Culture Club",
+      "bucket": "portfolio_builder",
+      "score": 6.2,
+      "confidence": "Low",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Kichijoji, Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Sunny Boy Books",
       "bucket": "portfolio_builder",
       "score": 5.9,
       "confidence": "Medium",
@@ -347,9 +347,39 @@
       "image": ""
     },
     {
+      "title": "Zines / Artist Books — Battle Plan",
+      "bucket": "portfolio_builder",
+      "score": 5.2,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
+      "bucket": "portfolio_builder",
+      "score": 5.2,
+      "confidence": "High",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
       "bucket": "portfolio_builder",
-      "score": 5.9,
+      "score": 4.5,
+      "confidence": "Medium",
+      "reason": "Good opportunity for publication history and portfolio depth.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Online",
+      "image": ""
+    },
+    {
+      "title": "Top Artist Opportunities for 2026 | ArtConnect",
+      "bucket": "portfolio_builder",
+      "score": 3.9,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -359,7 +389,7 @@
     {
       "title": "loneliness books",
       "bucket": "portfolio_builder",
-      "score": 5.6,
+      "score": 2.5,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -367,19 +397,9 @@
       "image": ""
     },
     {
-      "title": "Top Artist Opportunities for 2026 | ArtConnect",
-      "bucket": "portfolio_builder",
-      "score": 5.4,
-      "confidence": "Medium",
-      "reason": "Good opportunity for publication history and portfolio depth.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Online",
-      "image": ""
-    },
-    {
       "title": "Dig A Hole Zines",
       "bucket": "portfolio_builder",
-      "score": 4.8,
+      "score": 2.5,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -389,7 +409,7 @@
     {
       "title": "ZINE FARM TOKYO",
       "bucket": "portfolio_builder",
-      "score": 4.6,
+      "score": 2.5,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -399,9 +419,19 @@
   ],
   "community_builders": [
     {
+      "title": "Koenji SANAGI",
+      "bucket": "community_builder",
+      "score": 7.9,
+      "confidence": "Medium",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Cafe / Local Wall Spaces",
+      "city": "Koenji, Tokyo",
+      "image": ""
+    },
+    {
       "title": "ZINEイベント",
       "bucket": "community_builder",
-      "score": 7.6,
+      "score": 7.8,
       "confidence": "Medium",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -411,7 +441,7 @@
     {
       "title": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
       "bucket": "community_builder",
-      "score": 7.5,
+      "score": 7.6,
       "confidence": "Medium",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -421,11 +451,21 @@
     {
       "title": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
       "bucket": "community_builder",
-      "score": 7.5,
+      "score": 7.6,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
       "city": "Japan / Tokyo / Online",
+      "image": ""
+    },
+    {
+      "title": "Aoyama Farmers Market",
+      "bucket": "community_builder",
+      "score": 7.2,
+      "confidence": "High",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Tokyo",
       "image": ""
     },
     {
@@ -439,7 +479,7 @@
       "image": ""
     },
     {
-      "title": "HandMade In Japan Fes",
+      "title": "Art Fair Tokyo 2026",
       "bucket": "community_builder",
       "score": 7.1,
       "confidence": "High",
@@ -449,7 +489,7 @@
       "image": ""
     },
     {
-      "title": "Aoyama Farmers Market",
+      "title": "HandMade In Japan Fes",
       "bucket": "community_builder",
       "score": 7.1,
       "confidence": "High",
@@ -469,29 +509,19 @@
       "image": ""
     },
     {
-      "title": "Art Fair Tokyo 2026",
+      "title": "Cafe Gallery HATTIFNATT",
       "bucket": "community_builder",
       "score": 6.9,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)",
-      "bucket": "community_builder",
-      "score": 6.9,
-      "confidence": "Medium",
-      "reason": "Useful for building local connections and visibility.",
       "category": "Cafe / Local Wall Spaces",
-      "city": "Tokyo",
+      "city": "Koenji",
       "image": ""
     },
     {
       "title": "Design Festa",
       "bucket": "community_builder",
-      "score": 6.8,
+      "score": 6.7,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -499,23 +529,13 @@
       "image": ""
     },
     {
-      "title": "Clouds Art + Coffee",
-      "bucket": "community_builder",
-      "score": 6.8,
-      "confidence": "High",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Cafe / Local Wall Spaces",
-      "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Zine & Book フェス in 神保町 (Jimbocho)",
+      "title": "reload Shimokitazawa",
       "bucket": "community_builder",
       "score": 6.7,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
-      "city": "Japan / Tokyo / Online",
+      "city": "Shimokitazawa",
       "image": ""
     }
   ],
@@ -576,39 +596,6 @@
       "image": ""
     },
     {
-      "title": "American Illustration",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "World Illustration Awards",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "Jackson's Art Prize",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Global",
-      "image": ""
-    },
-    {
       "title": "水性繪畫展覽 (Watercolor Exhibition)",
       "bucket": "global_targets",
       "score": 9.4,
@@ -617,28 +604,6 @@
       "category": "Global Watercolor Open Call",
       "city": "International",
       "country": "International",
-      "image": ""
-    },
-    {
-      "title": "The Artcomplex Center of Tokyo",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Society of Women Artists",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "UK",
       "image": ""
     },
     {
@@ -697,7 +662,7 @@
       "image": ""
     },
     {
-      "title": "Bologna Children's Book Fair Illustrators Exhibition",
+      "title": "American Illustration",
       "bucket": "global_targets",
       "score": 9.4,
       "confidence": "High",
@@ -708,7 +673,29 @@
       "image": ""
     },
     {
-      "title": "Pinpoint Gallery",
+      "title": "World Illustration Awards",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Other",
+      "city": null,
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Jackson's Art Prize",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Other",
+      "city": null,
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "The Artcomplex Center of Tokyo",
       "bucket": "global_targets",
       "score": 9.4,
       "confidence": "High",
@@ -716,6 +703,39 @@
       "category": "Other",
       "city": null,
       "country": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "Society of Women Artists",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Other",
+      "city": null,
+      "country": "UK",
+      "image": ""
+    },
+    {
+      "title": "ART SG 2026",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Markets / Popups / Booths",
+      "city": "Singapore",
+      "country": "Singapore",
+      "image": ""
+    },
+    {
+      "title": "Bologna Children's Book Fair Illustrators Exhibition",
+      "bucket": "global_targets",
+      "score": 9.1,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Other",
+      "city": null,
+      "country": "Global",
       "image": ""
     }
   ],
@@ -798,17 +818,6 @@
       "image": ""
     },
     {
-      "title": "Aperture | Photography",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Global Photobook",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
       "title": "B&B Shimokitazawa",
       "bucket": "publication_targets",
       "score": 8.8,
@@ -853,6 +862,39 @@
       "image": ""
     },
     {
+      "title": "Aperture | Photography",
+      "bucket": "publication_targets",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Photobook",
+      "city": "Online",
+      "country": "Global",
+      "image": ""
+    },
+    {
+      "title": "Submissions - Little Press Publishing",
+      "bucket": "publication_targets",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "Offprint",
+      "bucket": "publication_targets",
+      "score": 8.6,
+      "confidence": "Medium",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Art Book Fair",
+      "city": "Paris / London",
+      "country": "France / UK",
+      "image": ""
+    },
+    {
       "title": "COW BOOKS Nakameguro",
       "bucket": "publication_targets",
       "score": 8.6,
@@ -894,28 +936,6 @@
       "category": "Zine Shop Consignment",
       "city": "Japan (online)",
       "country": "Japan",
-      "image": ""
-    },
-    {
-      "title": "Browse opportunities | CuratorSpace",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "LOCAL Gallery・Books",
-      "bucket": "publication_targets",
-      "score": 8.6,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Koenji, Tokyo",
-      "country": "",
       "image": ""
     }
   ]

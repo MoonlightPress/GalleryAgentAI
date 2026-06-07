@@ -32,10 +32,10 @@ High-upside opportunities that could meaningfully change her reputation, network
   - Visual match signals: watercolor, artist book, artist_book
 - **Society of Women Artists** — score 9.4, differentiated 10.94, visual fit 2.4. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
   - Visual match signals: watercolor, artist book, artist_book
-- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.84, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **Pinpoint Gallery** — score 9.4, differentiated 10.84, visual fit 2.4. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-  - Visual match signals: watercolor, artist book, artist_book
+- **B&B Shimokitazawa** — score 8.8, differentiated 10.79, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **flotsam books** — score 8.8, differentiated 10.79, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+  - Visual match signals: watercolor, artist book, artist_book, zine
 
 ## High-Confidence Matches
 
@@ -69,8 +69,8 @@ Strong matches with better verification.
   - Visual match signals: watercolor, artist book, artist_book
 - **Society of Women Artists** — score 9.4, differentiated 10.94, visual fit 2.4. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
   - Visual match signals: watercolor, artist book, artist_book
-- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.84, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
+- **B&B Shimokitazawa** — score 8.8, differentiated 10.79, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+  - Visual match signals: watercolor, artist book, artist_book, zine
 
 ## Publication Targets
 
@@ -104,8 +104,8 @@ Places where the work can become visible as printed matter, editorial sequence, 
   - Visual match signals: watercolor, artist book, artist_book
 - **Society of Women Artists** — score 9.4, differentiated 10.94, visual fit 2.4. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
   - Visual match signals: watercolor, artist book, artist_book
-- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.84, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
+- **B&B Shimokitazawa** — score 8.8, differentiated 10.79, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+  - Visual match signals: watercolor, artist book, artist_book, zine
 
 ## Book / Zine / Photobook Targets
 
@@ -139,8 +139,8 @@ The strongest match for her current visual language: quiet sequences, small pres
   - Visual match signals: watercolor, artist book, artist_book
 - **Society of Women Artists** — score 9.4, differentiated 10.94, visual fit 2.4. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
   - Visual match signals: watercolor, artist book, artist_book
-- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.84, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
+- **B&B Shimokitazawa** — score 8.8, differentiated 10.79, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+  - Visual match signals: watercolor, artist book, artist_book, zine
 
 ## Global Reach
 
@@ -166,14 +166,14 @@ International opportunities that expand beyond local Tokyo/Japan visibility.
   - Visual match signals: watercolor, artist book, artist_book
 - **Society of Women Artists** — score 9.4, differentiated 10.94, visual fit 2.4. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
   - Visual match signals: watercolor, artist book, artist_book
-- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.84, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **Pinpoint Gallery** — score 9.4, differentiated 10.84, visual fit 2.4. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-  - Visual match signals: watercolor, artist book, artist_book
 - **水性繪畫展覽 (Watercolor Exhibition)** — score 9.4, differentiated 10.78, visual fit 1.95. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
   - Visual match signals: watercolor, open_call_watercolor
 - **Aperture | Photography** — score 8.8, differentiated 10.7, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.1, differentiated 10.54, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+  - Visual match signals: watercolor, artist book, artist_book
+- **Pinpoint Gallery** — score 9.1, differentiated 10.54, visual fit 2.4. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
+  - Visual match signals: watercolor, artist book, artist_book
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.49, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 
@@ -205,12 +205,12 @@ Lower-friction opportunities that may create momentum without heavy emotional or
   - Visual match signals: watercolor, artist book, artist_book
 - **Society of Women Artists** — score 9.4, differentiated 10.94, visual fit 2.4. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
   - Visual match signals: watercolor, artist book, artist_book
-- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.84, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **Pinpoint Gallery** — score 9.4, differentiated 10.84, visual fit 2.4. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-  - Visual match signals: watercolor, artist book, artist_book
 - **B&B Shimokitazawa** — score 8.8, differentiated 10.79, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **flotsam books** — score 8.8, differentiated 10.79, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **Submissions - Little Press Publishing** — score 8.8, differentiated 10.79, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Relationship Builders
 
@@ -228,12 +228,12 @@ Local or community spaces useful for soft contact, small steps, and future famil
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **flotsam books** — score 8.8, differentiated 10.79, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Submissions - Little Press Publishing** — score 8.8, differentiated 10.79, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
 - **水性繪畫展覽 (Watercolor Exhibition)** — score 9.4, differentiated 10.78, visual fit 1.95. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
   - Visual match signals: watercolor, open_call_watercolor
 - **B&B (Book & Beer)** — score 8.6, differentiated 10.7, visual fit 4.15. Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
   - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **Submissions - Little Press Publishing** — score 8.6, differentiated 10.59, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
 - **本店・本屋の実験室** — score 8.8, differentiated 10.54, visual fit 3.25. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
   - Visual match signals: artist book, artist_book, zine
 - **Browse opportunities | CuratorSpace** — score 8.6, differentiated 10.49, visual fit 3.7. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
@@ -242,10 +242,10 @@ Local or community spaces useful for soft contact, small steps, and future famil
   - Visual match signals: cats, interior light
 - **MICRO/MACRO** — score 9.4, differentiated 10.26, visual fit 0.45. Group exhibition exploring micro and macro perspectives, relevant to GEGYjiji's urban observation and architectural focus.
   - Visual match signals: memory
+- **ART SG 2026** — score 9.4, differentiated 10.26, visual fit 0.45. Major Singapore art fair in 2026 featuring Chinese artists and contemporary work; relevant for diaspora artist visibility in Asia.
+  - Visual match signals: Chinese artist
 - **COW BOOKS Nakameguro** — score 8.6, differentiated 10.25, visual fit 3.7. COW BOOKS has the curatorial sensibility to recognize quiet, serious work — a good target for any printed publication of your urban watercolors.
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **ART BOX Publishing** — score 8.6, differentiated 10.25, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
 
 ## Needs Research
 
@@ -265,20 +265,20 @@ Potentially useful, but not actionable until submission details, fee, deadline, 
   - Visual match signals: watercolor, artist book, artist_book
 - **The Artcomplex Center of Tokyo** — score 9.4, differentiated 10.94, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
   - Visual match signals: watercolor, artist book, artist_book
-- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.4, differentiated 10.84, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - Visual match signals: watercolor, artist book, artist_book
-- **Pinpoint Gallery** — score 9.4, differentiated 10.84, visual fit 2.4. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
-  - Visual match signals: watercolor, artist book, artist_book
 - **B&B Shimokitazawa** — score 8.8, differentiated 10.79, visual fit 3.7. Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **flotsam books** — score 8.8, differentiated 10.79, visual fit 3.7. Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
   - Visual match signals: watercolor, artist book, artist_book, zine
+- **Submissions - Little Press Publishing** — score 8.8, differentiated 10.79, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
 - **Aperture | Photography** — score 8.8, differentiated 10.7, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
   - Visual match signals: watercolor, artist book, artist_book, zine
 - **B&B (Book & Beer)** — score 8.6, differentiated 10.7, visual fit 4.15. Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
   - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **Submissions - Little Press Publishing** — score 8.6, differentiated 10.59, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
+- **Bologna Children's Book Fair Illustrators Exhibition** — score 9.1, differentiated 10.54, visual fit 2.4. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+  - Visual match signals: watercolor, artist book, artist_book
+- **Pinpoint Gallery** — score 9.1, differentiated 10.54, visual fit 2.4. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
+  - Visual match signals: watercolor, artist book, artist_book
 - **本店・本屋の実験室** — score 8.8, differentiated 10.54, visual fit 3.25. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
   - Visual match signals: artist book, artist_book, zine
 
@@ -286,29 +286,32 @@ Potentially useful, but not actionable until submission details, fee, deadline, 
 
 Weak fit or low evidence. Keep but do not foreground.
 
-- **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 5.9, differentiated 7.52, visual fit 3.25. Possible fit based on link text: zine, open call
+- **Submissions — Clavis Publishing** — score 5.8, differentiated 7.79, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 5.3, differentiated 7.19, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press
+- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 5.2, differentiated 6.94, visual fit 3.25. Possible fit based on link text: zine, open call, residency
   - Visual match signals: artist book, artist_book, zine
-- **» 21 Terrific Small Presses Open to Direct Submissions** — score 5.8, differentiated 7.46, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **Become an Author - Tuttle Publishing** — score 5.0, differentiated 6.89, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — score 5.8, differentiated 7.46, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **Japan Book Publishers Association - JBPA** — score 5.8, differentiated 7.46, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **Publishing / Artist Books — Battle Plan** — score 5.9, differentiated 7.32, visual fit 3.7. This path fits an artist whose work can become a quiet book object, small edition, artist book / watercolor sequence, or publication proposal.
+- **shashasha** — score 5.9, differentiated 6.86, visual fit 2.4. Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere.
+  - Visual match signals: watercolor, artist book, artist_book
+- **Applications — Little Tokyo Zine Fest** — score 5.7, differentiated 6.86, visual fit 1.3. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: zine
+- **Sunny Boy Books** — score 5.9, differentiated 6.84, visual fit 1.3. Tokyo indie bookshop stocking handmade, small-run, and foreign books with its own publishing arm. Strong fit for artist-book and print consignment.
+  - Visual match signals: zine
+- **True Beauty - 2026** — score 5.9, differentiated 6.76, visual fit 0.45. 5th Juried Annual Exhibition accepting watercolor and illustration work with promotion and sales opportunities.
+  - Visual match signals: watercolor
+- **Mall Galleries Open Exhibitions** — score 5.8, differentiated 6.76, visual fit 2.4. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
+  - Visual match signals: watercolor, artist book, artist_book
+- **ArtConnect Open Calls** — score 5.2, differentiated 6.74, visual fit 2.4. Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
+  - Visual match signals: watercolor, artist book, artist_book
+- **SICF Fukuoka 2026** — score 5.9, differentiated 6.66, visual fit 0.45. Creator exhibition opportunity for artists and artists; fits illustration/watercolor artist looking for exhibition venues.
+  - Visual match signals: watercolor
+- **Youkobo Art Space** — score 5.6, differentiated 6.62, visual fit 0.9. Tokyo location aligns with your subject matter and Asia-Pacific focus, but unclear program structure creates uncertainty about actual compatibility.
+  - Visual match signals: memory, Tokyo-based
+- **Publishing / Artist Books — Battle Plan** — score 5.2, differentiated 6.62, visual fit 3.7. This path fits an artist whose work can become a quiet book object, small edition, artist book / watercolor sequence, or publication proposal.
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **loneliness books** — score 5.6, differentiated 7.22, visual fit 3.25. Independent book/zine signal near Nakano. Possible secondary local target after Tacoche.
-  - Visual match signals: artist book, artist_book, zine
-- **Zines / Artist Books — Battle Plan** — score 5.9, differentiated 7.16, visual fit 3.25. This path fits quiet works-on-paper and visual sequencing because one printed object can become a shop placement, fair application, portfolio proof, and publisher conversation starter.
-  - Visual match signals: artist book, artist_book, zine
-- **3 Top Book Publishers in Tokyo in 2026** — score 5.4, differentiated 6.94, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **3 Top Book Publishers in Japan in 2026** — score 5.4, differentiated 6.94, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-  - Visual match signals: artist book, small press, artist_book, small_press
-- **Top Artist Opportunities for 2026 | ArtConnect** — score 5.4, differentiated 6.78, visual fit 3.25. Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition
-  - Visual match signals: artist book, artist_book, zine
-- **Home - Printed Matter** — score 5.2, differentiated 6.72, visual fit 4.15. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, printed matter, watercolor / works on paper, book fair, exhibition, memory, architecture
-  - Visual match signals: watercolor, memory, artist book, artist_book, zine
-- **Shoto Museum Open Call** — score 5.9, differentiated 6.26, visual fit 0.0. Shoto Museum Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
-- **Art公募** — score 5.9, differentiated 6.26, visual fit 0.0. Art公募 is worth checking because open calls can turn existing portfolio work into a concrete application.
-- **第四回公募展「食卓」** — score 5.9, differentiated 6.26, visual fit 0.0. Open call exhibition at Tokyo gallery accepting art submissions for themed show.
-- **第六回公募展「鳥」-bird-** — score 5.9, differentiated 6.26, visual fit 0.0. Open call exhibition at Tokyo gallery accepting themed art submissions.
+- **臺南市美術館 2026「TAM+展覽計畫」** — score 5.9, differentiated 6.6, visual fit 0.0. Regional museum exhibition program accepting artist proposals for 2026.
+- **Japan International Watercolor Institute Online Exhibition** — score 5.7, differentiated 6.56, visual fit 0.45. Japan-based, accessible entry fee (2000 yen), open to anyone. Good annual entry point into the Japanese watercolor exhibition ecosystem.
+  - Visual match signals: watercolor

@@ -1,0 +1,1024 @@
+Fetching Tokyo Art Beat...
+Fetching Tokyo Art Book Fair...
+Fetching Printed Matter...
+Fetching Self Publish Be Happy...
+Fetching Jackson's Art Prize...
+Fetching Royal Watercolour Society...
+Fetching Mall Galleries Open Exhibitions...
+Fetching ArtConnect Open Calls...
+Fetching CuratorSpace...
+Fetching Tokyo Illustrators Society...
+Fetching Gallery IYN...
+Fetching Design Festa Gallery...
+Fetching HB Gallery...
+Fetching OPA Gallery...
+Fetching Pinpoint Gallery...
+Wrote ingestion/scraped_pages.json
+Fetched 15 sources.
+Wrote ingestion/opportunity_candidates.json
+Candidates: 137
+Approved candidates: 5
+Rejected candidates: 132
+Wrote reports/candidate_quality_gate_report.md
+Imported approved candidates: 0
+Total opportunities: 287
+Wrote reports/url_verification_report.md
+Added 0 global opportunities.
+Total opportunities: 287
+=== Japanese & Chinese Discovery Engine ===
+Started: 2026-06-07T10:01:39.035481
+
+Queries planned: 31 | Existing opportunities: 287
+
+  [JP] jp_twitter_koubo_watercolor — cached 2026-06-03
+  [JP] jp_twitter_gallery_koubo — cached 2026-06-03
+  [JP] jp_twitter_artist_recruit — cached 2026-06-03
+  [JP] jp_note_koubo_artist — cached 2026-06-03
+  [JP] jp_note_gallery_open — cached 2026-06-03
+  [JP] jp_bijutsutecho_koubo — cached 2026-06-03
+  [JP] jp_bijutsutecho_open_call — cached 2026-06-03
+  [JP] jp_tokyo_gallery_watercolor — cached 2026-06-03
+  [JP] jp_watercolor_open_call — cached 2026-06-03
+  [JP] jp_illustration_open_call — cached 2026-06-03
+  [JP] jp_zine_fair_artist — cached 2026-06-03
+  [JP] jp_cafe_gallery_recruit — cached 2026-06-03
+  [CN] cn_weibo_zhengao_watercolor — cached 2026-06-03
+  [CN] cn_weibo_exhibition_open — cached 2026-06-03
+  [CN] cn_weibo_illustration_call — cached 2026-06-03
+  [CN] cn_lofter_watercolor — cached 2026-06-03
+  [CN] cn_lofter_art_recruit — cached 2026-06-03
+  [CN] cn_zcool_illustration_call — cached 2026-06-03
+  [CN] cn_zcool_open_call — cached 2026-06-03
+  [CN] cn_broad_watercolor_exhibition — cached 2026-06-03
+  [CN] cn_illustration_magazine_call — cached 2026-06-03
+  [CN] cn_art_competition — cached 2026-06-03
+  [DIASPORA] diaspora_tokyo_chinese_art — cached 2026-06-03
+  [DIASPORA] diaspora_tokyo_chinese_gallery — cached 2026-06-03
+  [DIASPORA] diaspora_tokyo_illustration — cached 2026-06-03
+  [DIASPORA] diaspora_sg_art_call — cached 2026-06-03
+  [DIASPORA] diaspora_sg_chinese — cached 2026-06-03
+  [DIASPORA] diaspora_van_open_call — cached 2026-06-03
+  [DIASPORA] diaspora_van_chinese — cached 2026-06-03
+  [DIASPORA] diaspora_tor_open_call — cached 2026-06-03
+  [DIASPORA] diaspora_tor_chinese — cached 2026-06-03
+
+=== Summary ===
+Queries run:       0
+New JP:            0
+New CN:            0
+New Diaspora:      0
+Total new:         0
+Pipeline total:    287
+Wrote C:\ScottStuff\GalleryAgentAI\reports\jc_discovery_report.md
+Wrote C:\ScottStuff\GalleryAgentAI\memory\jc_discovery_log.json
+
+Done.
+
+TOKYO ART BOOK FAIR
+  Skipping — already fetched 1 page(s) on 2026-06-01
+
+Self Publish, Be Happy
+
+Home - Printed Matter
+  Skipping — already fetched 3 page(s) on 2026-06-01
+
+Jackson's Art Prize
+
+Royal Institute of Painters in Water Colours
+  Skipping — already fetched 3 page(s) on 2026-06-01
+
+Exhibition FLASHPOINT! PROTEST PHOTOGRAPHY IN PRINT READING ROOM March 12 - June 7, 2026
+  Skipping — already fetched 2 page(s) on 2026-06-01
+
+HB Gallery
+
+OPA Gallery
+
+Pinpoint Gallery
+  Skipping — already fetched 3 page(s) on 2026-06-01
+
+Royal Watercolour Society
+  Skipping — already fetched 3 page(s) on 2026-06-01
+
+Mall Galleries Open Exhibitions
+  Skipping — already fetched 3 page(s) on 2026-06-01
+
+Society of Women Artists
+  Skipping — already fetched 3 page(s) on 2026-06-01
+
+Pastel Society Open Exhibition
+  Skipping — already fetched 3 page(s) on 2026-06-01
+
+UTRECHT
+
+MOUNT ZINE
+
+Book and Sons
+  Skipping — already fetched 3 page(s) on 2026-06-01
+
+Offprint
+  Skipping — already fetched 1 page(s) on 2026-06-01
+
+POST
+
+Printed Matter Art Book Fairs
+  Skipping — already fetched 3 page(s) on 2026-06-01
+
+Browse Printed Matter Editions
+  Skipping — already fetched 1 page(s) on 2026-06-01
+
+Wrote memory/verified_opportunities.json
+Wrote memory/submission_targets.json
+Wrote reports/submission_link_report.md
+Enriched 287 opportunities.
+Research queue contains 251 items.
+Created/updated 250 venue records.
+Created research queue with 215 items.
+Built 231 venue memory records.
+Wrote visual profile:
+- artist_visual_profile_template.json
+- memory/artist_visual_profile.json
+- Memory/artist_visual_profile.json
+Updated memory/artist_master_profile.json
+Wrote reports/artist_visual_profile_report.md
+Analyzed images: 21
+Wrote analysis/image_features.json
+Wrote memory/artist_dna.json
+Wrote reports/artist_dna_report.md
+Wrote memory/watercolor_artist_profile.json
+Wrote reports/watercolor_artist_profile.md
+Added watercolor sources: 0
+Wrote reports/watercolor_source_expansion.md
+Added painting opportunities: 0
+Total opportunities: 287
+Wrote reports/painting_discovery_report.md
+Promoted: 119
+Demoted: 5
+Wrote reports/painting_quality_gate_report.md
+Wrote reports/native_painting_action_report.md
+Converted fields: 3
+Boosted: 241
+Demoted: 0
+Wrote reports/watercolor_opportunity_conversion.md
+Truth checker capped: 98
+Wrote reports/opportunity_truth_checker_report.md
+Wrote reports/source_medium_audit.md
+Confirmed: 171 | Rerouted: 70 | Skipped (excluded): 46
+Report: reports/medium_confirmation_gate_report.md
+Translation candidates: 116
+Wrote reports/translation_candidates.md
+Source purity changes: 124
+Wrote reports/source_purity_enforcer_report.md
+Wrote reports/native_medium_rankings.md
+Wrote reports/score_explanation_alignment.md
+Wrote reports/watercolor_career_path_rankings.md
+Wrote memory/watercolor_projects.json
+Wrote reports/watercolor_projects.md
+DNA-adjusted opportunities: 278
+Wrote reports/dna_recommendation_boost_report.md
+Updated 287 opportunities with lineage intelligence.
+Tier scoring applied to 287 opportunities.
+  Tier 1: 20
+  Tier 2: 92
+  Tier 3: 163
+  Tier 4: 12
+Learned 0 preference weights.
+Wrote memory/learned_artist_preferences.json
+Wrote reports/feedback_learning_report.md
+No learned preference weights yet. Run feedback_learning_engine.py after using relationship states.
+Matched 287 opportunities against 4 portfolio bodies.
+Built strategies for 287 opportunities.
+Capped 217 scores.
+Wrote reports/score_sanity_report.md
+=== Rumor Mill Engine ===
+Started: 2026-06-07T10:01:46.637128
+
+needs_research: 251 items
+[001/251] TOKIO ART BOOK FAIR 2026 — cached 2026-06-04
+[002/251] Center for Book Arts Opportunities — cached 2026-06-03
+[003/251] Aesthetica Art Prize — cached 2026-06-03
+[004/251] American Illustration — cached 2026-06-03
+[005/251] World Illustration Awards — cached 2026-06-03
+[006/251] Jackson's Art Prize — cached 2026-06-03
+[007/251] The Artcomplex Center of Tokyo — cached 2026-06-03
+[008/251] Bologna Children's Book Fair Illustrators Exhibition — cached 2026-06-03
+[009/251] Pinpoint Gallery — cached 2026-06-03
+[010/251] B&B Shimokitazawa — cached 2026-06-03
+[011/251] flotsam books — cached 2026-06-03
+[012/251] Submissions — Clavis Publishing — cached 2026-06-03
+[013/251] Aperture | Photography — cached 2026-06-03
+[014/251] 本店・本屋の実験室 — cached 2026-06-03
+[015/251] Browse opportunities | CuratorSpace — cached 2026-06-03
+[016/251] Publishers & Publishing Services in Japan - PublishersGlobal.com — cached 2026-06-03
+[017/251] Become an Author - Tuttle Publishing — cached 2026-06-03
+[018/251] Submissions - Little Press Publishing — cached 2026-06-03
+[019/251] Fukuoka Art Book Fair — cached 2026-06-03
+[020/251] Zine & Book フェス in 神保町 (Jimbocho) — cached 2026-06-03
+[021/251] OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist — cached 2026-06-03
+[022/251] BOOOOOOOM 2026 Art & Photo Book Award — cached 2026-06-03
+[023/251] Aquarelle 18 - アクワレル — cached 2026-06-04
+[024/251] START Box ササハタハツ・START Box 白鬚 2026年度利用者募集 — cached 2026-06-04
+[025/251] Laugh & Peace Art Competition 2026 — cached 2026-06-04
+[026/251] ART BOX Publishing — cached 2026-06-03
+[027/251] » 21 Terrific Small Presses Open to Direct Submissions — cached 2026-06-03
+[028/251] 35+ Small Publishers Accepting Submissions in 2026 [Complete Guid — cached 2026-06-03
+[029/251] Japan Book Publishers Association - JBPA — cached 2026-06-03
+[030/251] Tokyo Illustrators Society — cached 2026-06-03
+[031/251] AURA: Open Call Open Call for artists and writers to submit their — cached 2026-06-03
+[032/251] Open Call for Proposals for Singapore Art Week 2026 – The 14th Ed — cached 2026-06-04
+[033/251] コピックアワード2026 — cached 2026-06-04
+[034/251] Ark Art Award 2024 — cached 2026-06-04
+[035/251] 3 Top Book Publishers in Tokyo in 2026 — cached 2026-06-03
+[036/251] 3 Top Book Publishers in Japan in 2026 — cached 2026-06-03
+[037/251] 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026) — cached 2026-06-04
+[038/251] 3x3 International Illustration Awards — cached 2026-06-03
+[039/251] ギャラリーへ行こう2026 — cached 2026-06-04
+[040/251] NY公募展2026夏（NY Open Call Exhibition Summer 2026） — cached 2026-06-04
+[041/251] Osaka Open Call For Artists. - ARRIVAL — cached 2026-06-03
+[042/251] Offprint — cached 2026-06-03
+[043/251] Gallery IYN — cached 2026-06-03
+[044/251] LOCAL Gallery・Books — cached 2026-06-03
+[045/251] Tacoche — cached 2026-06-03
+[046/251] Books Ruhe — cached 2026-06-03
+[047/251] tata bookshop/gallery — cached 2026-06-03
+[048/251] Top Artist Opportunities for 2026 | ArtConnect — cached 2026-06-03
+[049/251] Self Publish, Be Happy — cached 2026-06-03
+[050/251] OPA Gallery — cached 2026-06-03
+[051/251] Book and Sons — cached 2026-06-03
+[052/251] Full-Table - Little Tokyo Zine Fest 2026 - Eventeny — cached 2026-06-03
+[053/251] BALLOND'ESSAI Shimokitazawa — cached 2026-06-03
+[054/251] OPEN SITE 11 — cached 2026-06-04
+[055/251] Shimokitazawa Arts — cached 2026-06-03
+[056/251] 第九屆水主題國際評審藝術比賽 — cached 2026-06-04
+[057/251] NADiff a/p/a/r/t — cached 2026-06-03
+[058/251] Tokyo Wonder Site / TOKAS Residency — cached 2026-06-03
+[059/251] Open Calls for Artists | Exhibit Worldwide — cached 2026-06-03
+[060/251] 219公募展6募集 >> Gallery219 ギャラリーニイク — cached 2026-06-03
+[061/251] 公募プログラム - トーキョーアーツアンドスペース — cached 2026-06-03
+[062/251] Printed Matter Art Book Fairs — cached 2026-06-03
+[063/251] 第113回 日本水彩展 — cached 2026-06-04
+[064/251] Comitia — cached 2026-06-03
+[065/251] Sunny Boy Books — cached 2026-06-03
+[066/251] Home - Printed Matter — cached 2026-06-03
+[067/251] ART FAIR TOKYO 21 — cached 2026-06-04
+[068/251] CLOUDS Gallery+Coffee Koenji — cached 2026-06-03
+[069/251] Cafe Mame-Hico — cached 2026-06-03
+[070/251] Belladonna Art Competition — cached 2026-06-03
+[071/251] Gallery IRO — cached 2026-06-03
+[072/251] Gallery HANA Shimokitazawa — cached 2026-06-03
+[073/251] Applied Arts 2026 Illustration Awards — cached 2026-06-04
+[074/251] Art Submissions — cached 2026-06-04
+[075/251] Open Call for the International Creator Residency Program 2026 — cached 2026-06-03
+[076/251] HB Gallery — cached 2026-06-03
+[077/251] BankART1929 — cached 2026-06-03
+[078/251] Picaresque Gallery — cached 2026-06-03
+[079/251] アートオリンピア2026 — cached 2026-06-04
+[080/251] ART SG 2026 — cached 2026-06-04
+[081/251] kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026) — cached 2026-06-04
+[082/251] Gallery 456 Exhibition Open Call 2026 — cached 2026-06-04
+[083/251] 2026春季二科展「NIKA nika/S20号」コンクール — cached 2026-06-04
+[084/251] Book Obscura — cached 2026-06-03
+[085/251] Open calls - Online Database of Artist in Residence Programs in J — cached 2026-06-03
+[086/251] 2026 Chinese New Year Celebration Art Show — cached 2026-06-04
+[087/251] 水彩アートのみ展示イベント — cached 2026-06-04
+[088/251] HandMade In Japan Fes — cached 2026-06-03
+[089/251] The Container — cached 2026-06-03
+[090/251] Clouds Art + Coffee — cached 2026-06-03
+[091/251] Cafe Cross Point — cached 2026-06-03
+[092/251] Cafe Gallery HATTIFNATT — cached 2026-06-03
+[093/251] MADO Café — cached 2026-06-03
+[094/251] 3331 Arts Chiyoda — cached 2026-06-03
+[095/251] Spiral — cached 2026-06-03
+[096/251] SCAI The Bathhouse — cached 2026-06-03
+[097/251] Jinny Street Gallery Open Call — cached 2026-06-03
+[098/251] TAV Gallery — cached 2026-06-03
+[099/251] Clavis Publishing Submissions — cached 2026-06-03
+[100/251] VACANT — cached 2026-06-03
+[101/251] Zushi Art Gallery — cached 2026-06-03
+[102/251] Gallery Conceal Shibuya — cached 2026-06-03
+[103/251] submissions for the 2026 set film festival are now open
+  found: deadline='2026-06-07', fee='Free', contact_email='filmfestival@setspace.uk', submission_url='https://app.entrythingy.com/setspace/set-film-festival-2026-open-call'
+  → moving to career_changing
+
+[104/251] Callback Open Call G George invites you to submit to Callback, a  — cached 2026-06-03
+[105/251] Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VA — cached 2026-06-03
+[106/251] International Open Call — cached 2026-06-03
+[107/251] BONUS TRACK — cached 2026-06-03
+[108/251] Aoyama Farmers Market — cached 2026-06-03
+[109/251] IlloBoom! 2026 第三屆插畫巔峰賽 — cached 2026-06-04
+[110/251] Design Festa — cached 2026-06-03
+[111/251] Tokyo Gendai 2026 — cached 2026-06-04
+[112/251] Shangyuan International Residency Programme — cached 2026-06-03
+[113/251] ZINEイベント — cached 2026-06-03
+[114/251] Tokyo Open Call for Artists & Creatives — cached 2026-06-04
+[115/251] Applications — Little Tokyo Zine Fest — cached 2026-06-03
+[116/251] ローズ・ローズ・ローズ — cached 2026-06-04
+[117/251] Blooming Stories 2026 — cached 2026-06-04
+[118/251] 第23届「跨越国界之美2026」国际公募展 — cached 2026-06-04
+[119/251] POST — cached 2026-06-03
+[120/251] Gallery 191 Exhibition 2026 — cached 2026-06-04
+[121/251] TOKAS Open Call — cached 2026-06-03
+[122/251] 金风车插画大赛2026 — cached 2026-06-04
+[123/251] Open Call for DIGITAL WORKS Open Call for artists. Send us your D — cached 2026-06-03
+[124/251] Audio Work Required - Artists and Friends Podcast - Open Call Art — cached 2026-06-03
+[125/251] PhotoVogue — cached 2026-06-03
+[126/251] KAMIHANGA国際プリント展2026 — cached 2026-06-04
+[127/251] Idemitsu Art Award 2026 — cached 2026-06-04
+[128/251] 2026 ART CAPITAL Paris Grand Palais International Youth Academic  — cached 2026-06-04
+[129/251] オープンコール・プロジェクト — cached 2026-06-04
+[130/251] SICF Fukuoka 2026 — cached 2026-06-04
+[131/251] 日本透明水彩会 2026 — cached 2026-06-04
+[132/251] そぞろ書房 — cached 2026-06-03
+[133/251] 東京芸術劇場 ギャラリー1 ウォーターカラー展覧会 — cached 2026-06-04
+[134/251] [展覧会]秀彩会小品展2026 — cached 2026-06-04
+[135/251] スクエア・ワールド2026 — cached 2026-06-04
+[136/251] OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery — cached 2026-06-03
+[137/251] 第五回公募展「境界」-edge- — cached 2026-06-04
+[138/251] OM SYSTEM PLAZA 2026年4月～6月開催分 — cached 2026-06-04
+[139/251] Art on Climate インターナショナル・イラストレーション・コンテスト 2026 — cached 2026-06-04
+[140/251] Communication Arts Illustration Competition — cached 2026-06-03
+[141/251] AIR 3331 — cached 2026-06-03
+[142/251] AIT Residency — cached 2026-06-03
+[143/251] 【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ... — cached 2026-06-03
+[144/251] 2026 松濤美術館公募展｜渋谷区立松濤美術館 — cached 2026-06-03
+[145/251] ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6) — cached 2026-06-04
+[146/251] 咲き誇れ桜よ — cached 2026-06-04
+[147/251] マイ・ディア・テディ (My Dear Teddy) — cached 2026-06-04
+[148/251] ギャラリー自由展示 — cached 2026-06-04
+[149/251] PARK GALLERY 夏の公募企画展（3テーマ） — cached 2026-06-04
+[150/251] 第四回公募展「食卓」 — cached 2026-06-04
+[151/251] 第六回公募展「鳥」-bird- — cached 2026-06-04
+[152/251] OM SYSTEM PLAZA 2026年2月～3月開催分 — cached 2026-06-04
+[153/251] Open Calls for Artists — cached 2026-06-03
+[154/251] Open Call For Artists — cached 2026-06-03
+[155/251] 公募展 — cached 2026-06-03
+[156/251] 公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ... — cached 2026-06-03
+[157/251] Shoto Museum Open Call — cached 2026-06-03
+[158/251] Art公募 — cached 2026-06-03
+[159/251] 2026国际大学生数字艺术设计大赛 — cached 2026-06-04
+[160/251] 第10屆溫哥華藝術博覽會 (Art Vancouver 2026) — cached 2026-06-04
+[161/251] 第9回 国際公募 東京アート工芸2026 — cached 2026-06-04
+[162/251] りんごろごろごろ — cached 2026-06-04
+[163/251] アートの交差展 vol.6 (Art Intersection Exhibition vol.6) — cached 2026-06-04
+[164/251] 空色ターコイズ — cached 2026-06-04
+[165/251] ARTE VENT Press — cached 2026-06-03
+[166/251] Youkobo Art Space — cached 2026-06-03
+[167/251] 日記屋 月日 — cached 2026-06-03
+[168/251] Creative Space Hayashi — cached 2026-06-03
+[169/251] 絵画展（滋賀県愛荘町開催） — cached 2026-06-04
+[170/251] Open Call | Submit Your Work — Explore Art in the streets of Toky — cached 2026-06-03
+[171/251] 滋賀県愛荘町絵画展 — cached 2026-06-04
+[172/251] Japan Watercolor Society Annual Exhibition — cached 2026-06-03
+[173/251] Art Fair Tokyo 2026 — cached 2026-06-04
+[174/251] FACE Exhibition 2026 — cached 2026-06-04
+[175/251] Spring Flora and Fauna Art Exhibition 2026 — cached 2026-06-04
+[176/251] 若手アーティストの登竜門となるアートフェア「Independent Tokyo ... — cached 2026-06-03
+[177/251] New Power展 | ギャラリー自由が丘で作家デビュー — cached 2026-06-03
+[178/251] Call for Entry: Showcase your art in Tokyo, Japan — cached 2026-06-03
+[179/251] Gallery IRO — cached 2026-06-03
+[180/251] AAA Gallery Yokohama — cached 2026-06-03
+[181/251] CuratorSpace — cached 2026-06-03
+[182/251] Watercolor Open Call Exhibition — cached 2026-06-04
+[183/251] INSTINC 2026/2027 Artist-in-Residence Program — cached 2026-06-04
+[184/251] FACE展2026 — cached 2026-06-04
+[185/251] 【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ... — cached 2026-06-03
+[186/251] 現代アート販売の@Gallery Tagboat|@Gallery Tagboat — cached 2026-06-03
+[187/251] 全國插畫徵集-2026台灣VC文化賞 — cached 2026-06-04
+[188/251] Golden Key International Art Competition — cached 2026-06-04
+[189/251] 2026春季二科展「NIKA+nika/S20号」コンクール — cached 2026-06-04
+[190/251] Tokyo Arts and Space — cached 2026-06-03
+[191/251] RAW TOKYO — cached 2026-06-03
+[192/251] torch press — cached 2026-06-03
+[193/251] reload Shimokitazawa — cached 2026-06-03
+[194/251] Publishing / Artist Books — Battle Plan — cached 2026-06-03
+[195/251] Komiyama Tokyo — cached 2026-06-03
+[196/251] 2026 Asian Heritage Culture Art Show — cached 2026-06-04
+[197/251] Mall Galleries Open Exhibitions — cached 2026-06-03
+[198/251] Pastel Society Open Exhibition — cached 2026-06-03
+[199/251] Zines / Artist Books — Battle Plan — cached 2026-06-03
+[200/251] Book Culture Club — cached 2026-06-03
+[201/251] loneliness books — cached 2026-06-03
+[202/251] 2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy an — cached 2026-06-04
+[203/251] NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW — cached 2026-06-03
+[204/251] shashasha — cached 2026-06-03
+[205/251] Brillia Art Award Wall 2026 — cached 2026-06-04
+[206/251] Dig A Hole Zines — cached 2026-06-03
+[207/251] 世界堂絵画展2026 — cached 2026-06-04
+[208/251] L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info — cached 2026-06-03
+[209/251] Kyoto Retreat Artist Residency 2026 - Open Call — cached 2026-06-03
+[210/251] OPEN CALL for the Artist-In-Residence Program 2025/2026 — cached 2026-06-03
+[211/251] Open calls - AIR_J - AIR J : Online Database of Artist in Residen — cached 2026-06-03
+[212/251] 「公募－日本の絵画2026－」 — cached 2026-06-04
+[213/251] Royal Institute of Painters in Water Colours — cached 2026-06-03
+[214/251] 7月～12月企画展 参加者募集 — cached 2026-06-04
+[215/251] ZINE FARM TOKYO — cached 2026-06-03
+[216/251] 秀彩会小品展2026 — cached 2026-06-04
+[217/251] 2026 OCAA Ladies Art Exhibition — cached 2026-06-04
+[218/251] 「公募－日本の絵画2026－」入賞・入選発表展 — cached 2026-06-04
+[219/251] 2026 International Children and Youth Painting Competition Summer — cached 2026-06-04
+[220/251] American Watercolor Society Annual International Exhibition — cached 2026-06-03
+[221/251] 第92回旺玄展 — cached 2026-06-04
+[222/251] 2026国际艺术大赏展 — cached 2026-06-04
+[223/251] Open Call for Artists! Tokyo Biennale 2025 "Social Dive" — cached 2026-06-03
+[224/251] Royal Watercolour Society Open Exhibition — cached 2026-06-03
+[225/251] 【公募】2026年度レジデンス・プログラム公募開始 — cached 2026-06-03
+[226/251] Kyoto Art Center Residency — cached 2026-06-03
+[227/251] AIR_J Open Calls — cached 2026-06-03
+[228/251] NEW AIR — cached 2026-06-03
+[229/251] Boji Hair+Gallery — cached 2026-06-03
+[230/251] SCCP Guest Artist — cached 2026-06-03
+[231/251] TOKAS レジデンシー 4つのレジデンス・プログラム公募 — cached 2026-06-04
+[232/251] 臺南市美術館 2026「TAM+展覽計畫」 — cached 2026-06-04
+[233/251] RawGround 2026 — cached 2026-06-04
+[234/251] 2026 第37回 美浜美術展 — cached 2026-06-04
+[235/251] 第29回 アート未来展 — cached 2026-06-04
+[236/251] In-dividual Theater：BUG Screen Week 2026 — cached 2026-06-04
+[237/251] twelvebooks — cached 2026-06-03
+[238/251] 2026「OPEN World Exhibition」 — cached 2026-06-04
+[239/251] 2026 Kyoto Museum International Art Grand Exhibition — cached 2026-06-04
+[240/251] Muninova Artist Award — cached 2026-06-04
+[241/251] Cité Internationale des Arts Artist Residency — cached 2026-06-03
+[242/251] 【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Vis — cached 2026-06-03
+[243/251] 2026 Open Call from Japanese Artist In Residence "SAIKONEON" near — cached 2026-06-03
+[244/251] 上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works) — cached 2026-06-04
+[245/251] National Watercolor Society International Open Exhibition — cached 2026-06-03
+[246/251] NEW AIR 2026 — cached 2026-06-04
+[247/251] 5th Singapore Chinese Art Exhibition 2026 — cached 2026-06-04
+[248/251] 南京插画艺术家展览 2026年3月 — cached 2026-06-04
+[249/251] Royal Watercolour Society — cached 2026-06-03
+[250/251] 「国際創作者駐村計畫」 — cached 2026-06-04
+[251/251] Asian Cultural Council Fellowship — cached 2026-06-03
+=== Summary ===
+Searched: 1  Moved out: 1  Remaining in needs_research: 250
+Saved C:\ScottStuff\GalleryAgentAI\memory\opportunity_buckets.json
+Saved C:\ScottStuff\GalleryAgentAI\memory\rumor_mill.json
+
+Done.
+Propagated rumor mill data to 1 opportunities.
+Wrote deploy_data/compact_opportunities.json
+Fee extraction complete.
+  Fees extracted from text : 0
+  Already had fees         : 80
+  Still missing after run  : 207
+  Total opportunities      : 287
+Deadline normalisation complete.
+  Already verified (skipped)  : 193
+  Total processed             : 94
+  Rolling found               : 0
+  Confirmed date              : 1
+  Annual inferred             : 0
+  Check schedule              : 1
+  Closed/passed               : 0
+  No pattern match            : 92
+[submission_page_harvester] 287 total | 93 need harvest | processing 60
+  [empty] Center for Book Arts Opportunities
+  [empty] TOKIO ART BOOK FAIR 2026
+  [empty] Aesthetica Art Prize
+  [empty] American Illustration
+  [empty] The Artcomplex Center of Tokyo
+  [empty] World Illustration Awards
+  [empty] Jackson's Art Prize
+  [empty] ギャラリーへ行こう2026
+  [empty] Aquarelle 18 - アクワレル
+  [skip] https://art-incubation.com/index.php/b-1/ — HTTP 404
+  [empty] START Box ササハタハツ・START Box 白鬚 2026年度利用者募集
+  [skip] artandessay.org — request error: Invalid URL 'artandessay.org': No scheme supplied. Perhaps you meant https://artandessay.org?
+  [empty] Osaka Open Call For Artists. - ARRIVAL
+  [empty] B&B Shimokitazawa
+  [empty] ART FAIR TOKYO 21
+  [empty] BOOOOOOOM 2026 Art & Photo Book Award
+  [empty] flotsam books
+  [empty] Submissions — Clavis Publishing
+  [empty] BALLOND'ESSAI Shimokitazawa
+  [empty] CLOUDS Gallery+Coffee Koenji
+  [empty] Cafe Mame-Hico
+  [empty] 本店・本屋の実験室
+  [empty] OPEN SITE 11
+  [empty] Open Calls for Artists | Exhibit Worldwide
+  [empty] 219公募展6募集 >> Gallery219 ギャラリーニイク
+  [empty] 公募プログラム - トーキョーアーツアンドスペース
+  [empty] Open Call for Proposals for Singapore Art Week 202
+  [empty] Shimokitazawa Arts
+  [empty] 第九屆水主題國際評審藝術比賽
+  [empty] Belladonna Art Competition
+  [empty] 第113回 日本水彩展
+  [empty] Open calls - Online Database of Artist in Residenc
+  [empty] Gallery IRO
+  [empty] Gallery HANA Shimokitazawa
+  [empty] Applied Arts 2026 Illustration Awards
+  [empty] Art Submissions
+  [empty] Open Call for the International Creator Residency 
+  [empty] Tokyo Illustrators Society
+  [empty] Applications — Little Tokyo Zine Fest
+  [skip] https://www.joyinart.cc/chi-joyinart-watercolour-open — HTTP 404
+  [empty] Fukuoka Art Book Fair
+  [empty] Zine & Book フェス in 神保町 (Jimbocho)
+  [empty] Clouds Art + Coffee
+  [empty] Browse opportunities | CuratorSpace
+  [empty] Book and Sons
+  [skip] https://cafecrosspoint.jp/ — HTTP 410
+  [empty] Cafe Gallery HATTIFNATT
+  [empty] MADO Café
+  [empty] OPEN CALL FOR ARTIST RESIDENCY We are seeking a mu
+  [empty] AURA: Open Call Open Call for artists and writers 
+  [empty] BankART1929
+  [empty] 3331 Arts Chiyoda
+  [empty] Spiral
+  [empty] Sunny Boy Books
+  [empty] SCAI The Bathhouse
+  [empty] Picaresque Gallery
+  [empty] Jinny Street Gallery Open Call
+  [empty] TOKAS Open Call
+  [empty] TAV Gallery
+  [empty] 金风车插画大赛2026
+
+[done] processed=60  contacts_found=0  fees_found=0  deadlines_found=0
+[saved] C:\ScottStuff\GalleryAgentAI\deploy_data\compact_opportunities.json
+[rumor_mill_expansion_runner] 287 total | 133 eligible | processing 80
+  [searched, no new data] ART FAIR TOKYO 21
+  [searched, no new data] Cafe Mame-Hico
+  [searched, no new data] kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Ma
+  [searched, no new data] Gallery IRO
+  [searched, no new data] Gallery HANA Shimokitazawa
+  [searched, no new data] Art Submissions
+  [searched, no new data] Watercolor Open Call Exhibition
+  [searched, no new data] ZINEイベント
+  [found] Full-Table - Little Tokyo Zine Fest 2026 - Eventen — fee=$100, submission_url=https://www.eventeny.com/events/vendor?id=39232
+  [found] Clouds Art + Coffee — deadline=October 31, 2025, fee=$5 USD
+  [found] Cafe Cross Point — contact=unit206crosspoint@nexdine.com
+  [found] MADO Café — contact=hello@cafemadonyc.com
+  [found] 3331 Arts Chiyoda — deadline=August 5, 2019
+  [found] Spiral — deadline=May 31, fee=Free
+  [searched, no new data] Sunny Boy Books
+  [searched, no new data] Picaresque Gallery
+  [found] Gallery 191 Exhibition 2026 — fee=Free, submission_url=https://www.artconnect.com/opportunity/eAx9coQXhVPmXo2yBAdyu
+  [found] Tokyo Open Call for Artists & Creatives — fee=Free, submission_url=https://www.artnumber23.uk/tokyo
+  [searched, no new data] TAV Gallery
+  [searched, no new data] 金风车插画大赛2026
+  [found] Clavis Publishing Submissions — deadline=June 5th, 2026, 11:59pm EST, fee=Free
+  [found] VACANT — fee=$50.00
+  [found] Open Call for DIGITAL WORKS Open Call for artists. — fee=Free
+  [searched, no new data] Zushi Art Gallery
+  [found] Audio Work Required - Artists and Friends Podcast  — fee=Free
+  [found] Gallery Conceal Shibuya — contact=03-3463-0720
+  [found] submissions for the 2026 set film festival are now — fee=$150.00
+  [found] Callback Open Call G George invites you to submit  — fee=Free, contact=07495 163989
+  [found] Vault Collective ** OPEN CALL** Rolling Deadline * — fee=Free
+  [searched, no new data] 【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...
+  [searched, no new data] 2026 松濤美術館公募展｜渋谷区立松濤美術館
+  [found] International Open Call — fee=$35 CAD, submission_url=http://www.exposurephotofestival.com/international-open-call
+  [searched, no new data] ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6
+  [searched, no new data] マイ・ディア・テディ (My Dear Teddy)
+  [found] 第五回公募展「境界」-edge- — contact=info
+  [searched, no new data] ギャラリー自由展示
+  [searched, no new data] PARK GALLERY 夏の公募企画展（3テーマ）
+  [searched, no new data] 第四回公募展「食卓」
+  [searched, no new data] 第六回公募展「鳥」-bird-
+  [searched, no new data] OM SYSTEM PLAZA 2026年2月～3月開催分
+  [found] OM SYSTEM PLAZA 2026年4月～6月開催分 — fee=Free
+  [found] ローズ・ローズ・ローズ — submission_url=https://note.com/gallerydioxazine/n/nb8060a856ccf
+  [found] スクエア・ワールド2026 — fee=$6 CAD (domestic), $9 CAD (international)
+  [searched, no new data] りんごろごろごろ
+  [searched, no new data] アートの交差展 vol.6 (Art Intersection Exhibition vol.6)
+  [searched, no new data] 空色ターコイズ
+  [found] 日本透明水彩会 2026 — submission_url=https://iwf.iacn.jp/international-watercolor-exhibition-japa
+  [found] 水彩アートのみ展示イベント — fee=1作品9,000円、2作品目以降+8,000円（税別）, submission_url=https://nihonbungei.net/watercolors_2026
+  [found] BONUS TRACK — deadline=February 2nd, 2026, fee=Free
+  [searched, no new data] Aoyama Farmers Market
+  [searched, no new data] HandMade In Japan Fes
+  [searched, no new data] Comitia
+  [searched, no new data] Design Festa
+  [found] Publishers & Publishing Services in Japan - Publis — fee=Free, submission_url=https://www.publishersglobal.com/directory/japan
+  [searched, no new data] 3 Top Book Publishers in Tokyo in 2026
+  [searched, no new data] 3 Top Book Publishers in Japan in 2026
+  [found] Become an Author - Tuttle Publishing — contact=info@tuttlepublishing.com, submission_url=https://www.tuttlepublishing.com/become-an-author
+  [found] Submissions - Little Press Publishing — submission_url=https://littlepresspublishing.com/submissions
+  [found] 第23届「跨越国界之美2026」国际公募展 — deadline=03 March 2026, fee=USD$15 or NTD$450
+  [searched, no new data] 第9回 国際公募 東京アート工芸2026
+  [found] アートオリンピア2026 — fee=一般：1点 1万2000円、2点 2万円、3点 2万4000円。学生（30歳以下）：1点 6000円、2点 1万円、3点 1万2000円, submission_url=https://compe.japandesign.ne.jp/artolympia-2026
+  [searched, no new data] 2026国际大学生数字艺术设计大赛
+  [searched, no new data] オープンコール・プロジェクト
+  [found] IlloBoom! 2026 第三屆插畫巔峰賽 — submission_url=https://www.illoboom.com
+  [found] PhotoVogue — fee=Free
+  [searched, no new data] ARTE VENT Press
+  [found] Idemitsu Art Award 2026 — fee=7,000円 (26歳以上、1点の場合) / 11,000円 (26歳以上、2点の場合) / 無料 (25歳以下、1点の場合), contact=idemitsu.art.award@asahi-culture.co.jp
+  [found] KAMIHANGA国際プリント展2026 — fee=5,000円（税込み）for domestic submissions, contact=kamihanga.kanon@gmail.com
+  [found] Art on Climate インターナショナル・イラストレーション・コンテスト 2026 — fee=Free
+  [found] 2026 ART CAPITAL Paris Grand Palais International  — submission_url=ncar.artmuseums.go
+  [searched, no new data] 第10屆溫哥華藝術博覽會 (Art Vancouver 2026)
+  [found] Tokyo Gendai 2026 — submission_url=https://tokyogendai.com/apply
+  [found] ART SG 2026 — fee=US$ 250, submission_url=https://artsg.com/apply
+  [found] Tokyo Wonder Site / TOKAS Residency — deadline=June 16, 2026, fee=JPY 300,000
+  [found] SICF Fukuoka 2026 — submission_url=https://www.sicf.jp
+  [searched, no new data] Golden Key International Art Competition
+  [found] AIR 3331 — deadline=August 5, 2019
+  [found] AIT Residency — deadline=2026-02-26
+  [found] Offprint — contact=Contact AIP
+  [searched, no new data] FACE Exhibition 2026
+
+[done] processed=80  data_found=42
+[saved] C:\ScottStuff\GalleryAgentAI\deploy_data\compact_opportunities.json
+Verification report complete.
+  Total opportunities     : 287
+  Verified (8-10)         : 70
+  Strong partial (5-7)    : 107
+  Partial (3-4)           : 84
+  Research needed (<3)    : 26
+  URL ok                  : 247
+  Deadline verified       : 203
+  Fees verified           : 106
+  Medium confirmed        : 171
+  Summary written to      : memory\verification_summary.json
+  Report written to       : reports\verification_status_report.md
+  High-scored unverified  : 152 (top 10 in report)
+Built strategy feed:
+featured: 12
+easy_wins: 12
+career_changing: 3
+portfolio_builders: 5
+community_builders: 2
+Global targets: 18
+Publication targets: 18
+Career-changing: 3
+Built differentiated opportunity buckets:
+career_changing: 80
+high_confidence: 190
+publication_targets: 88
+book_zine_targets: 88
+global_reach: 115
+easy_wins: 237
+relationship_builders: 103
+needs_research: 251
+low_priority: 23
+Wrote memory/ecosystem_graph.json
+Clusters: 4
+Wrote memory/peer_artists.json
+Peer artists: 8
+Wrote memory/publisher_matches.json
+Publisher matches: 7
+Wrote memory/ecosystem_opportunity_bridge.json
+Clusters bridged: 4
+Wrote reports/ecosystem_report.md
+Wrote memory/artist_project_concepts.json
+Wrote reports/artist_project_concepts.md
+Wrote reports/project_submission_map.md
+Wrote reports/career_bucket_report.md
+Wrote memory/fit_audit.json
+Wrote reports/fit_audit_report.md
+Audited 287 opportunities.
+Built institution network for 286 opportunities.
+Wrote reports/discovery_paths.md
+Wrote memory/ecosystem_patterns.json
+Updated 287 opportunities with curator personality modeling.
+Wrote reports/career_paths.md
+Generated 12 serendipity picks.
+Calculated reputation score: 0
+Generated momentum wave.
+Wrote reports/social_proof_strategy.md
+Built research queue: 40 items
+Wrote reports/curator_intelligence_report.md
+Wrote reports/daily_artist_quests.md
+Generated 287 opportunity reports.
+Cached 287 reports.
+Wrote reports/research_queue.md
+Wrote reports/global_research_queue.md
+Global opportunities: 85
+Generated 238 inquiry drafts.
+Generated 80 portfolio pitch reports.
+Generated 120 smart cover letters.
+Wrote reports/submission_timeline.md
+Traceback (most recent call last):
+  File "C:\ScottStuff\GalleryAgentAI\final_score_guard.py", line 116, in <module>
+    main()
+    ~~~~^^
+  File "C:\ScottStuff\GalleryAgentAI\final_score_guard.py", line 87, in main
+    new = guarded_score(opp)
+  File "C:\ScottStuff\GalleryAgentAI\final_score_guard.py", line 64, in guarded_score
+    pts = min(verification_points(opp), 7)
+              ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\ScottStuff\GalleryAgentAI\final_score_guard.py", line 35, in verification_points
+    if has_distinct_submission_page(opp):
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\ScottStuff\GalleryAgentAI\final_score_guard.py", line 25, in has_distinct_submission_page
+    sub = (opp.get("submission_page") or "").strip().rstrip("/")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'strip'
+
+======================================================================
+RUNNING: web_ingestion_engine.py
+======================================================================
+
+======================================================================
+RUNNING: scraped_candidate_extractor.py
+======================================================================
+
+======================================================================
+RUNNING: candidate_quality_gate.py
+======================================================================
+
+======================================================================
+RUNNING: approved_candidate_importer.py
+======================================================================
+
+======================================================================
+RUNNING: url_verification_engine.py
+======================================================================
+
+======================================================================
+RUNNING: global_opportunity_expander.py
+======================================================================
+
+======================================================================
+RUNNING: japanese_chinese_discovery_engine.py
+======================================================================
+
+======================================================================
+RUNNING: submission_link_hunter.py
+======================================================================
+
+======================================================================
+RUNNING: opportunity_enrichment_pipeline.py
+======================================================================
+
+======================================================================
+RUNNING: venue_intelligence_builder.py
+======================================================================
+
+======================================================================
+RUNNING: venue_memory_engine.py
+======================================================================
+
+======================================================================
+RUNNING: artist_visual_profile_v1.py
+======================================================================
+
+======================================================================
+RUNNING: visual_profile_ingester.py
+======================================================================
+
+======================================================================
+RUNNING: visual_dna_extractor.py
+======================================================================
+
+======================================================================
+RUNNING: watercolor_artist_profile_engine.py
+======================================================================
+
+======================================================================
+RUNNING: watercolor_source_expander.py
+======================================================================
+
+======================================================================
+RUNNING: painting_discovery_engine.py
+======================================================================
+
+======================================================================
+RUNNING: painting_quality_gate.py
+======================================================================
+
+======================================================================
+RUNNING: painting_action_report.py
+======================================================================
+
+======================================================================
+RUNNING: watercolor_opportunity_converter.py
+======================================================================
+
+======================================================================
+RUNNING: opportunity_truth_checker.py
+======================================================================
+
+======================================================================
+RUNNING: source_medium_classifier.py
+======================================================================
+
+======================================================================
+RUNNING: medium_confirmation_gate.py
+======================================================================
+
+======================================================================
+RUNNING: translation_candidate_detector.py
+======================================================================
+
+======================================================================
+RUNNING: source_purity_enforcer.py
+======================================================================
+
+======================================================================
+RUNNING: native_medium_ranker.py
+======================================================================
+
+======================================================================
+RUNNING: score_explanation_alignment.py
+======================================================================
+
+======================================================================
+RUNNING: career_path_ranker.py
+======================================================================
+
+======================================================================
+RUNNING: watercolor_project_rebuilder.py
+======================================================================
+
+======================================================================
+RUNNING: dna_recommendation_booster.py
+======================================================================
+
+======================================================================
+RUNNING: deep_match_scoring_engine.py
+======================================================================
+SKIP optional missing script: deep_match_scoring_engine.py
+
+======================================================================
+RUNNING: lineage_scoring_engine.py
+======================================================================
+
+======================================================================
+RUNNING: tier_scoring_engine.py
+======================================================================
+
+======================================================================
+RUNNING: feedback_learning_engine.py
+======================================================================
+
+======================================================================
+RUNNING: preference_rescoring_engine.py
+======================================================================
+
+======================================================================
+RUNNING: portfolio_match_engine.py
+======================================================================
+
+======================================================================
+RUNNING: submission_strategy_engine.py
+======================================================================
+
+======================================================================
+RUNNING: score_sanity_engine.py
+======================================================================
+
+======================================================================
+RUNNING: rumor_mill_engine.py
+======================================================================
+
+======================================================================
+RUNNING: rumor_mill_propagation_engine.py
+======================================================================
+
+======================================================================
+RUNNING: fee_text_extractor.py
+======================================================================
+
+======================================================================
+RUNNING: deadline_normaliser.py
+======================================================================
+
+======================================================================
+RUNNING: submission_page_harvester.py
+======================================================================
+
+======================================================================
+RUNNING: rumor_mill_expansion_runner.py
+======================================================================
+
+======================================================================
+RUNNING: verification_report_engine.py
+======================================================================
+
+======================================================================
+RUNNING: career_strategy_engine.py
+======================================================================
+
+======================================================================
+RUNNING: global_strategy_rebalance.py
+======================================================================
+
+======================================================================
+RUNNING: opportunity_differentiation_engine.py
+======================================================================
+
+======================================================================
+RUNNING: artist_ecosystem_mapper.py
+======================================================================
+
+======================================================================
+RUNNING: peer_artist_engine.py
+======================================================================
+
+======================================================================
+RUNNING: publisher_match_engine.py
+======================================================================
+
+======================================================================
+RUNNING: ecosystem_opportunity_bridge.py
+======================================================================
+
+======================================================================
+RUNNING: ecosystem_report.py
+======================================================================
+
+======================================================================
+RUNNING: artist_project_builder.py
+======================================================================
+
+======================================================================
+RUNNING: project_submission_mapper.py
+======================================================================
+
+======================================================================
+RUNNING: career_bucket_report.py
+======================================================================
+
+======================================================================
+RUNNING: fit_audit_engine.py
+======================================================================
+
+======================================================================
+RUNNING: institution_network_engine.py
+======================================================================
+
+======================================================================
+RUNNING: discovery_engine.py
+======================================================================
+
+======================================================================
+RUNNING: ecosystem_expansion_engine.py
+======================================================================
+
+======================================================================
+RUNNING: curator_personality_engine.py
+======================================================================
+
+======================================================================
+RUNNING: career_path_engine.py
+======================================================================
+
+======================================================================
+RUNNING: serendipity_engine.py
+======================================================================
+
+======================================================================
+RUNNING: reputation_engine.py
+======================================================================
+
+======================================================================
+RUNNING: momentum_wave_engine.py
+======================================================================
+
+======================================================================
+RUNNING: social_proof_engine.py
+======================================================================
+
+======================================================================
+RUNNING: research_priority_engine.py
+======================================================================
+
+======================================================================
+RUNNING: curator_intelligence_engine.py
+======================================================================
+
+======================================================================
+RUNNING: daily_quest_generator.py
+======================================================================
+
+======================================================================
+RUNNING: opportunity_report_engine.py
+======================================================================
+
+======================================================================
+RUNNING: analysis_cache_builder.py
+======================================================================
+
+======================================================================
+RUNNING: research_queue_report.py
+======================================================================
+
+======================================================================
+RUNNING: global_research_queue_builder.py
+======================================================================
+
+======================================================================
+RUNNING: inquiry_draft_generator.py
+======================================================================
+
+======================================================================
+RUNNING: portfolio_pitch_generator.py
+======================================================================
+
+======================================================================
+RUNNING: smart_cover_letter_engine.py
+======================================================================
+
+======================================================================
+RUNNING: submission_timeline_engine.py
+======================================================================
+
+======================================================================
+RUNNING: strategy_explainer_generator.py
+======================================================================
+SKIP optional missing script: strategy_explainer_generator.py
+
+======================================================================
+RUNNING: final_score_guard.py
+======================================================================
+FAILED: final_score_guard.py

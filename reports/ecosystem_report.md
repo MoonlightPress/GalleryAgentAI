@@ -122,16 +122,16 @@ This is the strongest immediate ecosystem for her visual language: quiet photogr
 - **flotsam books** — score 8.8, differentiated 10.79; matched: flotsam books
 - **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
 - **POST** — score 8.0, differentiated 9.21; matched: POST
-- **shashasha** — score 6.4, differentiated 7.36; matched: Shashasha
+- **shashasha** — score 5.9, differentiated 6.86; matched: Shashasha
 
 ### International Photobook Publishing
 This is the long-horizon ecosystem for international publication legitimacy.
 
 - **Aperture | Photography** — score 8.8, differentiated 10.7; matched: Aperture
-- **Offprint** — score 8.5, differentiated 10.05; matched: Offprint
+- **Offprint** — score 8.6, differentiated 10.15; matched: Offprint
 - **Self Publish, Be Happy** — score 8.0, differentiated 9.81; matched: Self Publish, Be Happy
-- **Gallery Conceal Shibuya** — score 8.4, differentiated 9.1; matched: VOID
-- **Picaresque Gallery** — score 7.9, differentiated 8.76; matched: VOID
+- **Gallery Conceal Shibuya** — score 8.6, differentiated 9.3; matched: VOID
+- **Picaresque Gallery** — score 8.1, differentiated 8.96; matched: VOID
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.

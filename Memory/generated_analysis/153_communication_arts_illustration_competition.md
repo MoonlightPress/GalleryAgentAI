@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-07
 
 # Communication Arts Illustration Competition
 
 ## 1. Quick Judgment
-**Fit score:** 6.9/10  
-**Fit band:** Promising  
+**Fit score:** 7.5/10  
+**Fit band:** Strong fit  
 **Confidence:** Medium  
 **Type:** Other  
 **City:** City not listed  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
 
 - **Official/source website**: https://www.commarts.com/competitions/illustration (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2026-01-09 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -34,7 +34,7 @@ Potential native watercolor / works on paper or works-on-paper venue. Needs veri
 - No bullet analysis stored yet.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
+- **Deadline:** 2026-01-09
 - **Fees:** Not publicly listed
 - **Submission page:** Not publicly listed
 - **Source:** https://www.commarts.com/competitions/illustration
@@ -48,5 +48,5 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-07_
 

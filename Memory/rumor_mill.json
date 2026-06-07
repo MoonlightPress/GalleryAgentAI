@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T10:33:42.978485",
+  "updated_at": "2026-06-07T11:10:04.945504",
   "entries": {
     "Women United ART MAGAZINE Issue XIV Summer 2026": {
       "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -2346,6 +2346,81 @@
         "contact_email": "filmfestival@setspace.uk",
         "submission_url": "https://app.entrythingy.com/setspace/set-film-festival-2026-open-call"
       }
+    },
+    "B&B (Book & Beer)": {
+      "title": "B&B (Book & Beer)",
+      "searched_at": "2026-06-07T11:05:38.497123",
+      "data_found": false,
+      "found": {}
+    },
+    "COW BOOKS Nakameguro": {
+      "title": "COW BOOKS Nakameguro",
+      "searched_at": "2026-06-07T11:06:08.244708",
+      "data_found": false,
+      "found": {}
+    },
+    "Village Vanguard Shimokitazawa": {
+      "title": "Village Vanguard Shimokitazawa",
+      "searched_at": "2026-06-07T11:06:37.689484",
+      "data_found": false,
+      "found": {}
+    },
+    "SUZURI — Japanese Print-on-Demand Platform": {
+      "title": "SUZURI — Japanese Print-on-Demand Platform",
+      "searched_at": "2026-06-07T11:07:06.886936",
+      "data_found": true,
+      "found": {
+        "deadline": "September 25, 2025"
+      }
+    },
+    "Mona Records": {
+      "title": "Mona Records",
+      "searched_at": "2026-06-07T11:07:36.603623",
+      "data_found": true,
+      "found": {
+        "contact_email": "monarecords@hotmail.es"
+      }
+    },
+    "円盤 (Enban) Koenji": {
+      "title": "円盤 (Enban) Koenji",
+      "searched_at": "2026-06-07T11:08:08.284563",
+      "data_found": true,
+      "found": {
+        "deadline": "June 30, 2026",
+        "fee": "¥1,100",
+        "contact_email": "info@enban.org"
+      }
+    },
+    "素人の乱 (Shiroto no Ran) Koenji": {
+      "title": "素人の乱 (Shiroto no Ran) Koenji",
+      "searched_at": "2026-06-07T11:08:38.846643",
+      "data_found": true,
+      "found": {
+        "contact_email": "muratsu_ran[at]aa.tufs.ac.jp"
+      }
+    },
+    "Nantoka Bar Koenji": {
+      "title": "Nantoka Bar Koenji",
+      "searched_at": "2026-06-07T11:09:07.900827",
+      "data_found": true,
+      "found": {
+        "fee": "1,500 yen"
+      }
+    },
+    "ERA Shimokitazawa": {
+      "title": "ERA Shimokitazawa",
+      "searched_at": "2026-06-07T11:09:37.247402",
+      "data_found": true,
+      "found": {
+        "fee": "¥2,500 - ¥4,600 (varies by event)",
+        "contact_email": "era@rinkydinkstudio.com"
+      }
+    },
+    "Koenji SANAGI": {
+      "title": "Koenji SANAGI",
+      "searched_at": "2026-06-07T11:10:04.937426",
+      "data_found": false,
+      "found": {}
     }
   }
 }

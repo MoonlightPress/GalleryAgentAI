@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-07
 # SCCP Guest Artist
 
 ## 1. Quick Judgment
-**Fit score:** 5.1/10  
+**Fit score:** 4.0/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
