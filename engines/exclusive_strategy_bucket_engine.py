@@ -1,6 +1,7 @@
 
 import json
 import os
+import re
 from pathlib import Path
 
 OPP_PATH = "deploy_data/compact_opportunities.json"
@@ -189,6 +190,40 @@ def choose_bucket(opp):
         "artist-run",
     ]
 
+    # Major commercial art fairs (gallery-represented, not artist-table/booth events).
+    # Rule: fair_popup + international scope → stretch_targets + score capped to 6.0 by caller.
+    # These require gallery backing or institutional standing the artist doesn't yet have.
+    commercial_art_fair_terms = [
+        "art sg", "art singapore",
+        "art vancouver",
+        "tokyo gendai",
+        "art basel", "frieze",
+        "art miami", "art paris",
+        "tefaf",
+    ]
+    if has(text, commercial_art_fair_terms) or (
+        opp.get("category") == "fair_popup"
+        and str(opp.get("country") or "Japan") not in ("Japan", "")
+    ):
+        return "stretch_targets"
+
+    # Stale deadline guard: deadline year ≤ 2023 → research_needed (not reject — may recur).
+    # Note: no \b — Japanese text like "2021年" breaks word-boundary assertions.
+    deadline_str = str(opp.get("deadline") or "")
+    years = re.findall(r'(20\d{2})', deadline_str)
+    if years and max(int(y) for y in years) <= 2023:
+        return "research_needed"
+
+    # Confirmed watercolor-medium Tokyo events with high score → immediate_best_moves.
+    # Prevents native painting opportunities from being misrouted to research_needed.
+    if (
+        opp.get("native_medium") == "painting"
+        and str(opp.get("city") or "").lower() in ("tokyo", "")
+        and score >= 7.5
+        and opp.get("verification_status") in ("verified", "strong_partial")
+    ):
+        return "immediate_best_moves"
+
     # Tier 4 check is first — prestige targets never reach immediate_best_moves
     if has(text, tier_4_terms):
         return "stretch_targets"
@@ -266,6 +301,14 @@ def main():
 
         bucket = choose_bucket(opp)
         opp["exclusive_primary_bucket"] = bucket
+
+        # Score cap: international commercial art fairs should not score > 6.0
+        # (they are not actionable for an emerging artist without gallery representation)
+        if bucket == "stretch_targets" and opp.get("category") == "fair_popup":
+            country = str(opp.get("country") or "Japan")
+            if country not in ("Japan", ""):
+                opp["overall_score"] = min(float(opp.get("overall_score") or 0), 6.0)
+
         buckets.setdefault(bucket, []).append(compact(opp))
 
     for key in buckets:

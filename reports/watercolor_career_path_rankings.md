@@ -35,11 +35,11 @@ This ranks opportunities by practical career path instead of one universal score
 - **Tokyo Art Book Fair** — path score 11.8; signals: artist book, zine, book fair. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **B&B (Book & Beer)** — path score 11.8; signals: bookstore, artist book, zine. Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
 - **COW BOOKS Nakameguro** — path score 11.8; signals: bookstore, artist book, zine. COW BOOKS has the curatorial sensibility to recognize quiet, serious work — a good target for any printed publication of your urban watercolors.
-- **TOKIO ART BOOK FAIR 2026** — path score 11.8; signals: artist book, zine, book fair. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **Village Vanguard Shimokitazawa** — path score 11.8; signals: bookstore, artist book, zine. Volume venue that can move printed work without requiring gallery-level credentials — appropriate for this career phase.
 - **本店・本屋の実験室** — path score 11.8; signals: bookstore, artist book, zine. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
 - **Books Ruhe** — path score 11.8; signals: bookstore, artist book, zine. Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — path score 11.2; signals: artist book, zine. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+- **Browse opportunities | CuratorSpace** — path score 11.2; signals: artist book, zine. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 
 ## Low-Pressure Local Visibility
 
@@ -52,7 +52,7 @@ This ranks opportunities by practical career path instead of one universal score
 - **COW BOOKS Nakameguro** — path score 11.2; signals: bookstore, gallery. COW BOOKS has the curatorial sensibility to recognize quiet, serious work — a good target for any printed publication of your urban watercolors.
 - **Book and Sons** — path score 11.2; signals: bookstore, gallery. Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.
 - **Mona Records** — path score 11.2; signals: shimokitazawa, gallery. Not a gallery, which is the right frame — your work entering circulation through music-adjacent cultural spaces is quiet, credible, and low-pressure.
-- **本店・本屋の実験室** — path score 11.2; signals: bookstore, local. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
+- **円盤 (Enban) Koenji** — path score 11.2; signals: shimokitazawa, local. Koenji's equivalent of Shimokitazawa's record shops — the same logic applies. Getting your work stocked here is quiet, credible, and builds local name recognition.
 
 ## Stretch / Benchmark
 
@@ -61,8 +61,8 @@ This ranks opportunities by practical career path instead of one universal score
 - **Browse opportunities | CuratorSpace** — path score 10.6; signals: open exhibition. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Mall Galleries Open Exhibitions** — path score 10.6; signals: open exhibition. Open exhibition context for painting, drawing, or works on paper. Good candidate for direct verification.
 - **Gallery 456 Exhibition Open Call 2026** — path score 10.6; signals: contemporary art. Open call for contemporary artists emphasizing Chinese and Asian heritage work; accepts multiple mediums including watercolor.
-- **Society of Women Artists** — path score 10.6; signals: open exhibition. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
-- **Art Vancouver 2026** — path score 10.6; signals: contemporary art. Major art fair on Canada's West Coast presenting contemporary art and design works, accessible to international artists and galleries.
 - **Koganecho Area Management Center** — path score 10.6; signals: residency. Your architectural documentation practice and interest in vernacular Asian spaces aligns with their urban revitalization mission, though the community-engagement emphasis may push you outside pure observation mode.
 - **Center for Book Arts Opportunities** — path score 10.6; signals: institution. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
 - **BankART1929** — path score 10.6; signals: contemporary art. Their focus on preservation of historical urban spaces through contemporary art mirrors your cultural documentation approach, and Yokohama's proximity to Tokyo positions this well regionally.
+- **SCAI The Bathhouse** — path score 10.6; signals: contemporary art. The gallery's location in Tokyo and focus on contemporary Asian artists aligns with your interests, but the barrier to entry makes this a 5-10 year horizon goal rather than a current opportunity.
+- **Society of Women Artists** — path score 10.6; signals: open exhibition. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.

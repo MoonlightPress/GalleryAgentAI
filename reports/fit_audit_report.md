@@ -57,19 +57,13 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 
-### Bologna Children's Book Fair Illustrators Exhibition — 9.4/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Pinpoint Gallery — 9.4/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 ### B&B Shimokitazawa — 8.8/10 — possibly inflated
 Positive reasons:
 - aesthetic lineage +0.8
+Risks:
+- high score but few clear supporting reasons
+
+### flotsam books — 8.8/10 — possibly inflated
 Risks:
 - high score but few clear supporting reasons
 
@@ -77,10 +71,6 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
-
-### flotsam books — 8.8/10 — possibly inflated
-Risks:
-- high score but few clear supporting reasons
 
 ### 水性繪畫展覽 (Watercolor Exhibition) — 9.4/10 — possibly inflated
 Risks:
@@ -101,7 +91,17 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### AAA Gallery Yokohama — 9.2/10 — needs review
+### Bologna Children's Book Fair Illustrators Exhibition — 9.1/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### Pinpoint Gallery — 9.1/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### AAA Gallery Yokohama — 9.1/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
@@ -116,34 +116,11 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Royal Watercolour Society Open Exhibition — 8.8/10 — needs review
-Positive reasons:
-- high prestige
-- global/international target
-- tag: global
-Risks:
-- high difficulty
-- high score but still needs verification
-
 ### HATTIFNATT Koenji Cafe Gallery — 9.4/10 — possibly inflated
 Risks:
 - high score but few clear supporting reasons
 
-### Full-Table - Little Tokyo Zine Fest 2026 - Eventeny — 9.2/10 — needs review
-Positive reasons:
-- aesthetic lineage +0.8
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 ### Gallery IYN — 8.8/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Fukuoka Art Book Fair — 8.6/10 — needs review
-Positive reasons:
-- aesthetic lineage +1.2
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
@@ -152,10 +129,6 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
-
-### ART SG 2026 — 9.4/10 — possibly inflated
-Risks:
-- high score but few clear supporting reasons
 
 ### 桜をテーマとするイラスト・絵画作品募集 — 9.4/10 — possibly inflated
 Risks:
@@ -202,9 +175,31 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 
+### Laugh & Peace Art Competition 2026 — 9.4/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### COW BOOKS Nakameguro — 8.6/10 — needs review
+Positive reasons:
+- aesthetic lineage +2.15
+Risks:
+- many missing verification fields: submission, deadline, contact
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### Tokyo Illustrators Society — 8.8/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition — 8.8/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 
 ## Top Solid Matches
 
 - Center for Book Arts Opportunities — 9.4/10 — aesthetic lineage +1.2, global/international target, tag: publication, tag: global
 - BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — aesthetic lineage +0.8, tag: publication, tag: zine
-- American Watercolor Society Annual International Exhibition — 7.7/10 — high prestige, global/international target, tag: global

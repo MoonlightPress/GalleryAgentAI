@@ -250,15 +250,6 @@
         "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
       },
       {
-        "title": "Pinpoint Gallery",
-        "score": 9.4,
-        "differentiated_score": 10.84,
-        "hits": [
-          "artist book"
-        ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
-      },
-      {
         "title": "Aperture | Photography",
         "score": 8.8,
         "differentiated_score": 10.7,
@@ -266,6 +257,15 @@
           "artist book"
         ],
         "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+      },
+      {
+        "title": "Pinpoint Gallery",
+        "score": 9.1,
+        "differentiated_score": 10.54,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
         "title": "Offprint",
@@ -529,8 +529,8 @@
       },
       {
         "title": "AAA Gallery Yokohama",
-        "score": 9.2,
-        "differentiated_score": 10.64,
+        "score": 9.1,
+        "differentiated_score": 10.54,
         "hits": [
           "open call"
         ],

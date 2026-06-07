@@ -1,17 +1,17 @@
 # NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW
 
 ## 1. Quick Judgment
-**Fit score:** 6.5/10  
-**Fit band:** Promising  
-**Confidence:** Medium  
+**Fit score:** 8.6/10  
+**Fit band:** Excellent fit  
+**Confidence:** High  
 **Type:** Residencies / Longer Projects  
 **City:** Japan / Tokyo / Online  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
 
 - **Official/source website**: https://artcenter-new.jp/en/event/new-air-2026-opencall/ (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://artcenter-new.jp/event/new-air-2026-opencall (verified)
 - **Deadline**: Check source (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
@@ -36,7 +36,7 @@ Potential fit because it belongs to a structured opportunity category where requ
 ## 7. Submission / Logistics
 - **Deadline:** Check source
 - **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Submission page:** https://artcenter-new.jp/event/new-air-2026-opencall
 - **Source:** https://artcenter-new.jp/en/event/new-air-2026-opencall/
 
 ## 8. Risk / Unknowns
@@ -48,4 +48,4 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_

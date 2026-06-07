@@ -4,7 +4,7 @@
 
 - mixed: 62
 - painting: 53
-- photography: 8
+- photography: 9
 - unknown: 176
 
 ## Classified Opportunities
@@ -33,8 +33,6 @@
   - hits: painting: illustration
 - **第九屆水主題國際評審藝術比賽** — painting
   - hits: painting: watercolor
-- **BOOOOOOOM 2026 Art & Photo Book Award** — painting
-  - hits: painting: painting | photography: photo | mixed: zine
 - **American Illustration** — painting
   - hits: painting: illustration
 - **World Illustration Awards** — painting
@@ -45,12 +43,14 @@
   - hits: painting: watercolor
 - **Ark Art Award 2024** — painting
   - hits: painting: watercolor
-- **Browse opportunities | CuratorSpace** — painting
-  - hits: painting: painting, open exhibition | photography: photography, photo | mixed: zine, bookstore
-- **Blooming Stories 2026** — painting
-  - hits: painting: watercolor
+- **BOOOOOOOM 2026 Art & Photo Book Award** — painting
+  - hits: painting: painting | photography: photo | mixed: zine
 - **Tokyo Illustrators Society** — painting
   - hits: painting: illustration
+- **Blooming Stories 2026** — painting
+  - hits: painting: watercolor
+- **Browse opportunities | CuratorSpace** — painting
+  - hits: painting: painting, open exhibition | photography: photography, photo | mixed: zine, bookstore
 - **Bologna Children's Book Fair Illustrators Exhibition** — painting
   - hits: painting: illustration | mixed: book fair
 - **Pinpoint Gallery** — painting
@@ -81,8 +81,6 @@
   - hits: photography: photo, photobook | mixed: artist book, self publish
 - **Book Obscura** — mixed
   - hits: mixed: zine, bookstore
-- **TOKIO ART BOOK FAIR 2026** — mixed
-  - hits: mixed: zine, book fair, tokyo art book fair
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — mixed
   - hits: mixed: zine
 - **MOUNT ZINE** — mixed
@@ -95,10 +93,10 @@
   - hits: mixed: zine, bookstore, book and sons
 - **Mona Records** — mixed
   - hits: mixed: zine
-- **本店・本屋の実験室** — mixed
-  - hits: mixed: zine, bookstore
 - **円盤 (Enban) Koenji** — mixed
   - hits: mixed: zine
+- **本店・本屋の実験室** — mixed
+  - hits: mixed: zine, bookstore
 - **LOCAL Gallery・Books** — mixed
   - hits: mixed: zine, bookstore
 - **Tacoche** — mixed
@@ -110,44 +108,44 @@
 - **2026年美の起原展** — unknown
 - **クリスマスアート展** — unknown
 - **Laugh & Peace Art Competition 2026** — unknown
+- **Gallery 456 Exhibition Open Call 2026** — unknown
 - **Still Life - 2026** — unknown
 - **【biscuit gallery】初の公募企画「grid next : Emerging ...** — unknown
 - **グループ展参加アーティスト募集中 - Gallery and Links81** — unknown
 - **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — unknown
-- **Gallery 456 Exhibition Open Call 2026** — unknown
 - **The Artcomplex Center of Tokyo** — unknown
 - **Society of Women Artists** — unknown
 - **Open Calls for Artists | Exhibit Worldwide** — unknown
+- **[展覧会]秀彩会小品展2026** — unknown
 - **219公募展6募集 >> Gallery219 ギャラリーニイク** — unknown
 - **公募プログラム - トーキョーアーツアンドスペース** — unknown
-- **[展覧会]秀彩会小品展2026** — unknown
+- **AAA Gallery Yokohama** — unknown
 - **第23届「跨越国界之美2026」国际公募展** — unknown
-- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — unknown
 - **Tokyo Wonder Site / TOKAS Residency** — unknown
 - **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — unknown
 - **New Power展 | ギャラリー自由が丘で作家デビュー** — unknown
 - **Call for Entry: Showcase your art in Tokyo, Japan** — unknown
-- **AAA Gallery Yokohama** — unknown
+- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — unknown
 - **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — unknown
 - **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — unknown
-- **ART SG 2026** — unknown
-- **Art Vancouver 2026** — unknown
-- **Tokyo Gendai 2026** — unknown
-- **MICRO/MACRO** — unknown
-- **Koganecho Area Management Center** — unknown
-- **Center for Book Arts Opportunities** — unknown
-- **SUBMISSIONS - marblepress.com** — unknown
 - **ギャラリーへ行こう2026** — unknown
 - **Osaka Open Call For Artists. - ARRIVAL** — unknown
-- **Platform China BIAP Artist Residency** — unknown
-- **BankART1929** — unknown
-- **Shimokitazawa Arts** — unknown
 - **Yonchome Cafe** — unknown
+- **MICRO/MACRO** — unknown
+- **Koganecho Area Management Center** — unknown
+- **Shimokitazawa Arts** — unknown
+- **Center for Book Arts Opportunities** — unknown
+- **SUBMISSIONS - marblepress.com** — unknown
+- **BankART1929** — unknown
 - **SCAI The Bathhouse** — unknown
+- **Platform China BIAP Artist Residency** — unknown
 - **Submissions - Little Press Publishing** — unknown
 - **Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition** — unknown
 - **Hayama Artist Residency Submission Manager - Submittable** — unknown
 - **ART BOX Publishing** — unknown
+- **ART SG 2026** — unknown
+- **Art Vancouver 2026** — unknown
+- **Tokyo Gendai 2026** — unknown
 - **International Open Call** — photography
   - hits: photography: photo
 - **2026 Chinese New Year Celebration Art Show** — unknown
@@ -280,8 +278,10 @@
 - **Youkobo Art Space** — unknown
 - **Japan Watercolor Society Annual Exhibition** — painting
   - hits: painting: watercolor
-- **OPEN CALL for the Artist-In-Residence Program 2025/2026** — unknown
+- **The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S** — photography
+  - hits: photography: photography, photo
 - **Golden Key International Art Competition** — unknown
+- **OPEN CALL for the Artist-In-Residence Program 2025/2026** — unknown
 - **Open Call for Artists! Tokyo Biennale 2025 "Social Dive"** — unknown
 - **submissions for the 2026 set film festival are now open** — unknown
 - **Art Submissions** — unknown
@@ -302,6 +302,8 @@
 - **2026 Open Call from Japanese Artist In Residence "SAIKONEON" nearby Mt ...** — unknown
 - **2026「OPEN World Exhibition」** — unknown
 - **twelvebooks** — unknown
+- **TOKIO ART BOOK FAIR 2026** — mixed
+  - hits: mixed: zine, book fair, tokyo art book fair
 - **Fukuoka Art Book Fair** — mixed
   - hits: mixed: book fair
 - **Applications — Little Tokyo Zine Fest** — mixed
@@ -412,8 +414,8 @@
 - **Tokyo Open Call for Artists & Creatives** — unknown
 - **loneliness books** — mixed
   - hits: mixed: zine, bookstore
-- **Asian Cultural Council Fellowship** — unknown
 - **NEW AIR 2026** — unknown
+- **Asian Cultural Council Fellowship** — unknown
 - **5th Singapore Chinese Art Exhibition 2026** — mixed
   - hits: mixed: post
 - **Dig A Hole Zines** — mixed

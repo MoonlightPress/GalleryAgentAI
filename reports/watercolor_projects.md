@@ -34,12 +34,12 @@ A tighter project about indirect human presence: domestic edges, plants, walls, 
 ### Best Targets
 - **桜をテーマとするイラスト・絵画作品募集** — watercolor score 10. Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice.
 - **Aquarelle 18 - アクワレル** — watercolor score 10. Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice.
-- **BOOOOOOOM 2026 Art & Photo Book Award** — watercolor score 10. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
 - **American Illustration** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **World Illustration Awards** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Jackson's Art Prize** — watercolor score 10. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
-- **Browse opportunities | CuratorSpace** — watercolor score 10. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
+- **BOOOOOOOM 2026 Art & Photo Book Award** — watercolor score 10. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
 - **Tokyo Illustrators Society** — watercolor score 10. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- **Browse opportunities | CuratorSpace** — watercolor score 10. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 
 ### First Action
 Write a 90-word statement and select 8–12 works that all show indirect human presence.

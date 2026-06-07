@@ -15,7 +15,7 @@ This is not a generic top list. It asks where the next project could plausibly b
 - **Self Publish, Be Happy** — 6.0 / 9.81. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 8.7 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **本店・本屋の実験室** — 8.7 / 10.54. Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.
-- **TOKIO ART BOOK FAIR 2026** — 10.0 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
+- **ZINEフェス東京 (ZINE Fest Tokyo)** — 10.0 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 
 ## How To Use These
 

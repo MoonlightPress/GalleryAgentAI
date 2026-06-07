@@ -1,8 +1,8 @@
 # 第六回公募展「鳥」-bird-
 
 ## 1. Quick Judgment
-**Fit score:** 7.2/10  
-**Fit band:** Strong fit  
+**Fit score:** 6.5/10  
+**Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  

@@ -7,19 +7,19 @@ Generated: 2026-06-07
 |--------|-------|
 | Verified (score 8-10) | 82 |
 | Strong partial (5-7) | 124 |
-| Partial (3-4) | 65 |
+| Partial (3-4) | 66 |
 | Research needed (<3) | 28 |
-| **Total** | **299** |
+| **Total** | **300** |
 
 ### Field Coverage
 
 | Field | Verified count |
 |-------|----------------|
-| URL ok | 252 |
+| URL ok | 253 |
 | Deadline verified | 213 |
 | Contact verified | 85 |
 | Fees verified | 133 |
-| Submission process known | 160 |
+| Submission process known | 161 |
 | Medium confirmed | 181 |
 
 ---
@@ -76,42 +76,42 @@ Generated: 2026-06-07
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 11. Society of Women Artists
+### 11. 水彩アートの祭典
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 12. 水彩アートの祭典
+### 12. 水彩アートの祭典 (Watercolor Art Festival)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 13. 水彩アートの祭典 (Watercolor Art Festival)
+### 13. CSPWC Annual Open Water International Exhibition
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 14. CSPWC Annual Open Water International Exhibition
+### 14. 多摩ゆかりの作家による公募展
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 15. 多摩ゆかりの作家による公募展
+### 15. 2026 3rd Annual Illustration Summit Challenge (IlloBoom!)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 16. 2026 3rd Annual Illustration Summit Challenge (IlloBoom!)
+### 16. 2026年美の起原展
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 17. 2026年美の起原展
+### 17. クリスマスアート展
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 18. クリスマスアート展
+### 18. Society of Women Artists
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
@@ -132,42 +132,42 @@ Generated: 2026-06-07
 
 High-scored opportunities (overall_score >= 8) that are not yet fully verified.
 
-### 1. ART SG 2026
+### 1. ギャラリーへ行こう2026
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 2. Tokyo Gendai 2026
+### 2. Osaka Open Call For Artists. - ARRIVAL
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 3. ギャラリーへ行こう2026
+### 3. NY公募展2026夏（NY Open Call Exhibition Summer 2026）
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 4. Osaka Open Call For Artists. - ARRIVAL
-- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
+### 4. Kyoto Retreat Artist Residency 2026 - Open Call
+- **Overall score:** 9.0  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 5. NY公募展2026夏（NY Open Call Exhibition Summer 2026）
-- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** contact, medium confirmation
-
-### 6. Kyoto Retreat Artist Residency 2026 - Open Call
-- **Overall score:** 8.9  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** contact, medium confirmation
-
-### 7. BONUS TRACK
+### 5. ART FAIR TOKYO 21
 - **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 8. Aperture | Photography
+### 6. BALLOND'ESSAI Shimokitazawa
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
+
+### 7. CLOUDS Gallery+Coffee Koenji
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
+
+### 8. Cafe Mame-Hico
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
+
+### 9. 本店・本屋の実験室
 - **Overall score:** 8.8  |  **Verification score:** 6/10  |  **Status:** strong_partial
-- **Missing verification:** contact, submission process
+- **Missing verification:** deadline, contact
 
-### 9. ART FAIR TOKYO 21
+### 10. OPEN SITE 11
 - **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
-
-### 10. Submissions - Little Press Publishing
-- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** deadline, medium confirmation

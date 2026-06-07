@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-07
 # FACE Exhibition 2026
 
 ## 1. Quick Judgment
-**Fit score:** 7.5/10  
-**Fit band:** Strong fit  
+**Fit score:** 6.9/10  
+**Fit band:** Promising  
 **Confidence:** High  
 **Type:** Institutional / Grants  
 **City:** Tokyo  

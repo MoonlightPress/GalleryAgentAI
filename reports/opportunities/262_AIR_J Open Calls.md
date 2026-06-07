@@ -1,7 +1,7 @@
 # AIR_J Open Calls
 
 ## 1. Quick Judgment
-**Fit score:** 4.0/10  
+**Fit score:** 4.2/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  

@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-07
 # Golden Key International Art Competition
 
 ## 1. Quick Judgment
-**Fit score:** 9.0/10  
-**Fit band:** Excellent fit  
+**Fit score:** 6.7/10  
+**Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Global Open Call  
 **City:** International  

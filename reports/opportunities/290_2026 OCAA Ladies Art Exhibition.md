@@ -1,7 +1,7 @@
 # 2026 OCAA Ladies Art Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 2.5/10  
+**Fit score:** 2.3/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Institutional / Grants  

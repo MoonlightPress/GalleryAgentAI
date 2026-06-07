@@ -1,7 +1,7 @@
 # Candidate Quality Gate Report
 
 Approved: 6
-Rejected: 128
+Rejected: 130
 
 ## Rejected
 
@@ -22,7 +22,7 @@ Rejected: 128
 - Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。 — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
-- Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
+- Printed Matter, Inc. — strong: printed matter, zine, score too low: 2
 - Daniel Shepard Straffon All Lover the Place: NYC [Poster] Posters $70.00 Recent Arrival Si — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Japan [Poster] Posters $70.00 Recent Arrival  — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Indonesia [Poster] Posters $70.00 Recent Arri — strong: printed matter, weak: book, score too low: 1
@@ -92,13 +92,13 @@ Rejected: 128
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
-- Magazine — strong: zine, open call, score too low: 2
-- khoj international residency august-september 2026 — strong: open call, residency, score too low: 2
-- Residency — strong: open call, residency, score too low: 2
+- Magazine — strong: open call, zine, score too low: 2
+- khoj international residency august-september 2026 — strong: residency, open call, score too low: 2
+- Residency — strong: residency, open call, score too low: 2
 - Open Call — strong: open call, has submission link, score too low: 3
 - Open Calls — strong: open call, has submission link, score too low: 3
-- www.curatorspace.com — weak: photography, exhibition, gallery, has submission link, score too low: 4
-- Report this? — weak: photography, exhibition, gallery, has submission link, score too low: 4
+- www.curatorspace.com — weak: exhibition, gallery, photography, has submission link, score too low: 4
+- Report this? — weak: exhibition, gallery, photography, has submission link, score too low: 4
 - www.curatorspace.com — generic page without opportunity language
 - Report this? — generic page without opportunity language
 - www.curatorspace.com — weak: exhibition, gallery, has submission link, score too low: 3
@@ -108,6 +108,8 @@ Rejected: 128
 - Report this? — generic page without opportunity language
 - Contemporary British Painting — generic page without opportunity language
 - More details — generic page without opportunity language
+- The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e — generic page without opportunity language
+- Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -136,9 +138,9 @@ Rejected: 128
 
 ## Approved
 
-- Home - Printed Matter — strong: zine, book fair, printed matter, photobook, weak: book, exhibition
-- Browse opportunities | CuratorSpace — strong: book fair, open call, submission, weak: book, exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — strong: zine, open call, residency, submission, weak: exhibition, artist
-- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod — strong: open call, weak: exhibition, artist, has submission link
-- submissions for the 2026 set film festival are now open — strong: open call, submission, has submission link
-- Art Submissions — strong: open call, submission, has submission link
+- Home - Printed Matter — strong: photobook, book fair, printed matter, zine, weak: exhibition, book
+- Browse opportunities | CuratorSpace — strong: submission, book fair, open call, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, residency, open call, zine, weak: exhibition, artist
+- submissions for the 2026 set film festival are now open — strong: submission, open call, has submission link
+- Art Submissions — strong: submission, open call, has submission link
+- The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S — strong: open call, call for, weak: gallery, photography, has submission link

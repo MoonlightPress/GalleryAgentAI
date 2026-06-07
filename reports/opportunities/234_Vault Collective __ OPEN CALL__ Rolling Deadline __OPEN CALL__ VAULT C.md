@@ -1,7 +1,7 @@
 # Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING
 
 ## 1. Quick Judgment
-**Fit score:** 6.3/10  
+**Fit score:** 6.6/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Photo Open Call  

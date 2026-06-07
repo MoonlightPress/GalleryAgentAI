@@ -1,7 +1,7 @@
 # Boji Hair+Gallery
 
 ## 1. Quick Judgment
-**Fit score:** 5.4/10  
+**Fit score:** 4.4/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Other  
@@ -45,4 +45,4 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_

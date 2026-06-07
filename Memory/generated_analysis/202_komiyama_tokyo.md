@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-07
 
 # Komiyama Tokyo
 
@@ -50,5 +50,5 @@ Use as a benchmark for book quality, subject matter, pricing, and presentation.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_
 

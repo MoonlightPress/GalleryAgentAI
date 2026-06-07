@@ -7,12 +7,14 @@ This report caps scores when the explanation contradicts the ranking.
 - capped_context_mismatch: 1
 - capped_market_format: 1
 - capped_negative_explanation: 26
-- hidden: 69
+- hidden: 70
 - ok: 183
 - reject: 19
 
 ## Score Caps Applied
 
+- **TOKIO ART BOOK FAIR 2026** — 10.0 → 2.5 — hidden
+  - hidden recommendation
 - **B&B Shimokitazawa** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **flotsam books** — 10.0 → 6.4 — capped_negative_explanation
@@ -180,6 +182,4 @@ This report caps scores when the explanation contradicts the ranking.
 - **Hayama Artist Residency** — 4.45 → 2.5 — hidden
   - hidden recommendation
 - **Art on Climate インターナショナル・イラストレーション・コンテスト 2026** — 4.43 → 2.5 — hidden
-  - hidden recommendation
-- **「公募－日本の絵画2026－」** — 4.29 → 2.5 — hidden
   - hidden recommendation
