@@ -665,11 +665,11 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
 // ── Submission log section ────────────────────────────────────────────────
 
 const OUTCOME_OPTIONS = [
-  { value: 'pending',    label: 'Pending' },
-  { value: 'accepted',   label: 'Accepted ✓' },
-  { value: 'rejected',   label: 'Rejected' },
-  { value: 'waitlisted', label: 'Waitlisted' },
-  { value: 'withdrawn',  label: 'Withdrawn' },
+  { value: 'pending' },
+  { value: 'accepted' },
+  { value: 'rejected' },
+  { value: 'waitlisted' },
+  { value: 'withdrawn' },
 ]
 
 function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
@@ -722,17 +722,17 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
     <SectionShell
       id="submission-log"
       sectionRef={sectionRef}
-      title="Submission Log"
-      subtitle={submissions.length === 0 ? 'No submissions logged yet' : `${submissions.length} submission${submissions.length !== 1 ? 's' : ''} on record`}
+      title={t('pp.sec.sublog')}
+      subtitle={submissions.length === 0 ? t('pp.sub.sublog.empty') : t('pp.sub.sublog.count', { n: submissions.length, s: submissions.length !== 1 ? 's' : '' })}
       isOpen={isOpen}
       onToggle={onToggle}
     >
-      <p className="pp-section-note">Keep a record of what you've submitted and what happened. The system uses this to avoid recommending the same venue twice.</p>
+      <p className="pp-section-note">{t('pp.sublog.note')}</p>
 
       <div className="pp-sub-form">
         <div className="pp-sub-form-row">
           <div className="pp-sub-field">
-            <label className="pp-sub-label">Date</label>
+            <label className="pp-sub-label">{t('pp.sublog.date')}</label>
             <input
               type="date"
               className="pp-sub-input"
@@ -741,40 +741,40 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
             />
           </div>
           <div className="pp-sub-field pp-sub-field--wide">
-            <label className="pp-sub-label">Venue or opportunity</label>
+            <label className="pp-sub-label">{t('pp.sublog.venue')}</label>
             <input
               type="text"
               className="pp-sub-input"
               value={form.venue}
               onChange={e => setField('venue', e.target.value)}
-              placeholder="Gallery name, open call, fair…"
+              placeholder={t('pp.sublog.ph.venue')}
             />
           </div>
           <div className="pp-sub-field">
-            <label className="pp-sub-label">Outcome</label>
+            <label className="pp-sub-label">{t('pp.sublog.outcome')}</label>
             <select className="pp-sub-select" value={form.outcome} onChange={e => setField('outcome', e.target.value)}>
-              {OUTCOME_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+              {OUTCOME_OPTIONS.map(o => <option key={o.value} value={o.value}>{t('pp.outcome.' + o.value)}</option>)}
             </select>
           </div>
         </div>
         <div className="pp-sub-field">
-          <label className="pp-sub-label">What was submitted</label>
+          <label className="pp-sub-label">{t('pp.sublog.what')}</label>
           <input
             type="text"
             className="pp-sub-input"
             value={form.what}
             onChange={e => setField('what', e.target.value)}
-            placeholder="Urban Watercolors series, 5 works / artist book proposal / residency application…"
+            placeholder={t('pp.sublog.ph.what')}
           />
         </div>
         <div className="pp-sub-field">
-          <label className="pp-sub-label">Notes (optional)</label>
+          <label className="pp-sub-label">{t('pp.sublog.notes')}</label>
           <input
             type="text"
             className="pp-sub-input"
             value={form.notes}
             onChange={e => setField('notes', e.target.value)}
-            placeholder="Follow-up needed, referral from…"
+            placeholder={t('pp.sublog.ph.notes')}
           />
         </div>
         <button
@@ -782,7 +782,7 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
           onClick={submitEntry}
           disabled={saving || !form.venue.trim() || !form.what.trim()}
         >
-          {saved ? 'Logged ✓' : 'Log submission'}
+          {saved ? t('pp.sublog.btn.done') : t('pp.sublog.btn')}
         </button>
       </div>
 
@@ -795,7 +795,7 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
                 <div className="pp-sub-row-header">
                   <span className="pp-sub-venue">{s.venue}</span>
                   <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
-                    {OUTCOME_OPTIONS.find(o => o.value === s.outcome)?.label || s.outcome}
+                    {t('pp.outcome.' + s.outcome) || s.outcome}
                   </span>
                   {s.date && <span className="pp-sub-date">{s.date}</span>}
                 </div>
@@ -813,21 +813,21 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
 // ── Venue / CRM log section ───────────────────────────────────────────────
 
 const VENUE_STATUS_OPTIONS = [
-  { value: 'cold',       label: 'Cold — not yet contacted' },
-  { value: 'in_contact', label: 'In contact' },
-  { value: 'applied',    label: 'Applied' },
-  { value: 'ongoing',    label: 'Ongoing relationship' },
+  { value: 'cold' },
+  { value: 'in_contact' },
+  { value: 'applied' },
+  { value: 'ongoing' },
 ]
 
 const VENUE_TYPE_OPTIONS = [
-  { value: 'gallery',         label: 'Gallery' },
-  { value: 'cafe_gallery',    label: 'Café gallery' },
-  { value: 'bookshop',        label: 'Bookshop' },
-  { value: 'zine_shop',       label: 'Zine shop' },
-  { value: 'artist_space',    label: 'Artist space / run space' },
-  { value: 'fair',            label: 'Art fair / market' },
-  { value: 'institution',     label: 'Institution / museum' },
-  { value: 'other',           label: 'Other' },
+  { value: 'gallery' },
+  { value: 'cafe_gallery' },
+  { value: 'bookshop' },
+  { value: 'zine_shop' },
+  { value: 'artist_space' },
+  { value: 'fair' },
+  { value: 'institution' },
+  { value: 'other' },
 ]
 
 const STATUS_COLORS = {
@@ -879,35 +879,35 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
     <SectionShell
       id="venue-log"
       sectionRef={sectionRef}
-      title="Venue Contact Log"
-      subtitle={contacts.length === 0 ? 'No venues logged yet' : `${contacts.length} venue${contacts.length !== 1 ? 's' : ''} on record`}
+      title={t('pp.sec.venuelog')}
+      subtitle={contacts.length === 0 ? t('pp.sub.venuelog.empty') : t('pp.sub.venuelog.count', { n: contacts.length, s: contacts.length !== 1 ? 's' : '' })}
       isOpen={isOpen}
       onToggle={onToggle}
     >
-      <p className="pp-section-note">Keep track of galleries, shops, and spaces you have visited or contacted. The system uses this to suggest next steps.</p>
+      <p className="pp-section-note">{t('pp.venuelog.note')}</p>
 
       <div className="pp-sub-form">
         <div className="pp-sub-form-row">
           <div className="pp-sub-field pp-sub-field--wide">
-            <label className="pp-sub-label">Venue name</label>
+            <label className="pp-sub-label">{t('pp.venuelog.name')}</label>
             <input
               type="text"
               className="pp-sub-input"
               value={form.name}
               onChange={e => setField('name', e.target.value)}
-              placeholder="Gallery name, bookshop, café…"
+              placeholder={t('pp.venuelog.ph.name')}
             />
           </div>
           <div className="pp-sub-field">
-            <label className="pp-sub-label">Type</label>
+            <label className="pp-sub-label">{t('pp.venuelog.type')}</label>
             <select className="pp-sub-select" value={form.type} onChange={e => setField('type', e.target.value)}>
-              {VENUE_TYPE_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+              {VENUE_TYPE_OPTIONS.map(o => <option key={o.value} value={o.value}>{t('pp.venueType.' + o.value)}</option>)}
             </select>
           </div>
         </div>
         <div className="pp-sub-form-row">
           <div className="pp-sub-field">
-            <label className="pp-sub-label">City</label>
+            <label className="pp-sub-label">{t('pp.venuelog.city')}</label>
             <input
               type="text"
               className="pp-sub-input"
@@ -917,7 +917,7 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
             />
           </div>
           <div className="pp-sub-field">
-            <label className="pp-sub-label">Last visited</label>
+            <label className="pp-sub-label">{t('pp.venuelog.lastVisited')}</label>
             <input
               type="date"
               className="pp-sub-input"
@@ -926,20 +926,20 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
             />
           </div>
           <div className="pp-sub-field">
-            <label className="pp-sub-label">Status</label>
+            <label className="pp-sub-label">{t('pp.venuelog.status')}</label>
             <select className="pp-sub-select" value={form.status} onChange={e => setField('status', e.target.value)}>
-              {VENUE_STATUS_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+              {VENUE_STATUS_OPTIONS.map(o => <option key={o.value} value={o.value}>{t('pp.venuelog.status.' + o.value)}</option>)}
             </select>
           </div>
         </div>
         <div className="pp-sub-field">
-          <label className="pp-sub-label">Notes (optional)</label>
+          <label className="pp-sub-label">{t('pp.venuelog.notes')}</label>
           <input
             type="text"
             className="pp-sub-input"
             value={form.notes}
             onChange={e => setField('notes', e.target.value)}
-            placeholder="Spoke with owner, showed portfolio, follow-up in March…"
+            placeholder={t('pp.venuelog.ph.notes')}
           />
         </div>
         <button
@@ -947,7 +947,7 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
           onClick={submitContact}
           disabled={saving || !form.name.trim()}
         >
-          {saved ? 'Logged ✓' : 'Log venue'}
+          {saved ? t('pp.venuelog.btn.done') : t('pp.venuelog.btn')}
         </button>
       </div>
 
@@ -960,12 +960,12 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
                 <div className="pp-sub-row-header">
                   <span className="pp-sub-venue">{c.name}</span>
                   <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
-                    {VENUE_STATUS_OPTIONS.find(o => o.value === c.status)?.label || c.status}
+                    {t('pp.venuelog.status.' + c.status) || c.status}
                   </span>
                   {c.city && <span className="pp-sub-date">{c.city}</span>}
                   {c.last_visited && <span className="pp-sub-date">{c.last_visited}</span>}
                 </div>
-                {c.type && <div className="pp-sub-what">{VENUE_TYPE_OPTIONS.find(o => o.value === c.type)?.label || c.type}</div>}
+                {c.type && <div className="pp-sub-what">{t('pp.venueType.' + c.type) || c.type}</div>}
                 {c.notes && <div className="pp-sub-notes">{c.notes}</div>}
               </div>
             )

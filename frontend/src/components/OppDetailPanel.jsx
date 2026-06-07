@@ -160,7 +160,7 @@ export default function OppDetailPanel({ opp, onClose }) {
 
           {opp.checklist?.length > 0 && (
             <div className="detail-block detail-checklist">
-              <div className="detail-label">Submission prep</div>
+              <div className="detail-label">{t('detail.label.checklist')}</div>
               <ul className="detail-checklist-list">
                 {opp.checklist.map((item, i) => (
                   <li key={i} className={`checklist-item checklist-${item.status}`}>

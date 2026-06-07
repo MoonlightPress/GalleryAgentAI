@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useLanguage } from '../i18n/LanguageContext'
 import './TodaysFocus.css'
 
 const ROLE_CONFIG = {
@@ -24,6 +25,7 @@ const ROLE_CONFIG = {
 
 function TodayCard({ card, role }) {
   if (!card) return null
+  const { t: tFn } = useLanguage()
   const cfg = ROLE_CONFIG[role] || ROLE_CONFIG.high_impact
   const hasDeadline = card.deadline && !['tbd','unknown','check site','n/a'].some(s => (card.deadline || '').toLowerCase().includes(s))
 
@@ -61,7 +63,7 @@ function TodayCard({ card, role }) {
             target="_blank"
             rel="noreferrer"
           >
-            Open →
+            {tFn('tf.open')}
           </a>
         )}
         {!card.submission_page && card.official_website && (
@@ -71,7 +73,7 @@ function TodayCard({ card, role }) {
             target="_blank"
             rel="noreferrer"
           >
-            Visit →
+            {tFn('tf.visit')}
           </a>
         )}
       </div>
@@ -80,6 +82,7 @@ function TodayCard({ card, role }) {
 }
 
 export default function TodaysFocus() {
+  const { t } = useLanguage()
   const [today, setToday] = useState(null)
   const [loading, setLoading] = useState(true)
 
@@ -96,8 +99,8 @@ export default function TodaysFocus() {
   return (
     <section className="tf-section">
       <div className="tf-header">
-        <h2 className="tf-section-title">Today's Focus</h2>
-        <p className="tf-section-sub">Mochi found three things worth your attention.</p>
+        <h2 className="tf-section-title">{t('tf.title')}</h2>
+        <p className="tf-section-sub">{t('tf.sub')}</p>
       </div>
       <div className="tf-grid">
         <TodayCard card={today.quick_win}    role="quick_win" />
