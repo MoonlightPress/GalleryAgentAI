@@ -1,11 +1,12 @@
 {
-  "venue_name": "福井県美浜町, 美浜町教育委員会, 福井新聞社, 関西電力株式会社",
+  "venue_name": "旺玄会",
   "venue_slug": "unknown",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
   "last_updated": "2026-06-07",
   "confidence": "low",
   "future_research": [
+    "fees",
     "submission process"
   ],
   "curatorial_direction": [],

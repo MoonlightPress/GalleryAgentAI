@@ -1,9 +1,9 @@
 # Pipeline Debug Summary
 
 - opportunities: 299
-- candidates: 135
+- candidates: 134
 - approved_candidates: 6
-- rejected_candidates: 129
+- rejected_candidates: 128
 - strategy_feed: 7
 - fit_audit: 299
 
@@ -23,14 +23,14 @@
 - Jackson's Art Prize — 9.1/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=6, composite=10.34)
 - The Artcomplex Center of Tokyo — 9.1/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=9.56)
 - Society of Women Artists — 9.1/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=9.56)
-- B&B Shimokitazawa — 10.0/10 — verified — ok — Rescored 8.8 → 7.8 (verification_points=4, composite=8.34)
+- Bologna Children's Book Fair Illustrators Exhibition — 8.7/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.3)
 
 ## Approved Candidate Sample
 
-- Home - Printed Matter — 8.5 — approved — strong: zine, photobook, book fair, printed matter, weak: book, exhibition
-- Browse opportunities | CuratorSpace — 7.65 — approved — strong: open call, submission, book fair, weak: book, exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: open call, zine, residency, submission, weak: exhibition, artist
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 5.4 — approved — strong: open call, zine, submit, call for, weak: artist, has submission link
+- Home - Printed Matter — 8.5 — approved — strong: zine, book fair, printed matter, photobook, weak: book, exhibition
+- Browse opportunities | CuratorSpace — 7.65 — approved — strong: book fair, open call, submission, weak: book, exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — 6.75 — approved — strong: zine, open call, residency, submission, weak: exhibition, artist
+- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod — 5.4 — approved — strong: open call, weak: exhibition, artist, has submission link
 - submissions for the 2026 set film festival are now open — 4.7 — approved — strong: open call, submission, has submission link
 - Art Submissions — 4.7 — approved — strong: open call, submission, has submission link
 

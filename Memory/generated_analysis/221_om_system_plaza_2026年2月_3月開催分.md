@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-07
 # OM SYSTEM PLAZA 2026年2月～3月開催分
 
 ## 1. Quick Judgment
-**Fit score:** 6.3/10  
-**Fit band:** Promising  
+**Fit score:** 7.2/10  
+**Fit band:** Strong fit  
 **Confidence:** Medium  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  

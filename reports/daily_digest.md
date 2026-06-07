@@ -4,7 +4,7 @@
 
 _Previous run: 2026-06-07_
 
-- **Opportunity count:** 297 → 299 (+2)
+- **Score change:** submissions for the 2026 set film festival are now open 6.5 → 6.7 ↑
 
 ## Immediate Best Moves (13)
 

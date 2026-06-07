@@ -16,19 +16,20 @@ Suggested strategic pacing for outreach and applications.
 - Jackson's Art Prize (9.4/10)
 - The Artcomplex Center of Tokyo (9.4/10)
 - Society of Women Artists (9.4/10)
+- Bologna Children's Book Fair Illustrators Exhibition (9.4/10)
+- Pinpoint Gallery (9.4/10)
 - 水性繪畫展覽 (Watercolor Exhibition) (9.4/10)
 - 水彩アートの祭典 (Watercolor Art Festival) (9.4/10)
 - MOUNT ZINE (9.4/10)
 - HATTIFNATT Koenji Cafe Gallery (9.4/10)
 - ART SG 2026 (9.4/10)
 - 桜をテーマとするイラスト・絵画作品募集 (9.4/10)
-- MICRO/MACRO (9.4/10)
-- 水彩アートの祭典 (9.4/10)
 
 ## Build Toward
 
 - Center for Book Arts Opportunities (9.4/10)
 - Aesthetica Art Prize (9.4/10)
+- Royal Watercolour Society Open Exhibition (8.8/10)
 - Offprint (8.6/10)
 
 ## Longer-Term / Experimental

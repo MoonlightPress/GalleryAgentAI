@@ -250,6 +250,15 @@
         "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
       },
       {
+        "title": "Pinpoint Gallery",
+        "score": 9.4,
+        "differentiated_score": 10.84,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
         "title": "Aperture | Photography",
         "score": 8.8,
         "differentiated_score": 10.7,
@@ -257,15 +266,6 @@
           "artist book"
         ],
         "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
-      },
-      {
-        "title": "Pinpoint Gallery",
-        "score": 9.1,
-        "differentiated_score": 10.54,
-        "hits": [
-          "artist book"
-        ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
       },
       {
         "title": "Offprint",
@@ -528,6 +528,15 @@
         "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
+        "title": "AAA Gallery Yokohama",
+        "score": 9.2,
+        "differentiated_score": 10.64,
+        "hits": [
+          "open call"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
         "title": "Browse opportunities | CuratorSpace",
         "score": 8.6,
         "differentiated_score": 10.49,
@@ -553,15 +562,6 @@
           "open call"
         ],
         "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
-      },
-      {
-        "title": "多摩ゆかりの作家による公募展",
-        "score": 9.4,
-        "differentiated_score": 10.26,
-        "hits": [
-          "open call"
-        ],
-        "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
       }
     ]
   }

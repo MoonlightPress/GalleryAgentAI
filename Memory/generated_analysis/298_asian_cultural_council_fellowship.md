@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-07
 # Asian Cultural Council Fellowship
 
 ## 1. Quick Judgment
-**Fit score:** 1.1/10  
+**Fit score:** 1.2/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Global Grant Fellowship  

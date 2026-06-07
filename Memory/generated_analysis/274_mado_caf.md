@@ -1,23 +1,23 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-07
 
 # MADO Café
 
 ## 1. Quick Judgment
-**Fit score:** 2.6/10  
+**Fit score:** 3.8/10  
 **Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  
 **City:** Koenji  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://www.instagram.com/madocafe/ (verified)
 - **Submission process**: https://www.instagram.com/madocafe/ (verified)
 - **Deadline**: Not publicly listed (verified)
 - **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: hello@cafemadonyc.com (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Cafe / Local Wall Spaces.
@@ -50,5 +50,5 @@ Check Instagram activity to confirm still operating; assess typical exhibition q
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-07_
 

@@ -134,20 +134,20 @@ These opportunities may create disproportionate reputation value.
 - Why: Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## Bologna Children's Book Fair Illustrators Exhibition
+
+- Prestige: None
+- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Pinpoint Gallery
+
+- Prestige: None
+- Why: Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## 水性繪畫展覽 (Watercolor Exhibition)
 
 - Prestige: None
 - Why: Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 水彩アートの祭典 (Watercolor Art Festival)
-
-- Prestige: None
-- Why: Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## MOUNT ZINE
-
-- Prestige: None
-- Why: Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

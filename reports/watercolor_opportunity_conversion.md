@@ -18,15 +18,15 @@ Demoted photography-only matches: 0
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — watercolor score 10; hits: watercolor, zine
 - **2026 3rd Annual Illustration Summit Challenge (IlloBoom!)** — watercolor score 10; hits: illustration
 - **第九屆水主題國際評審藝術比賽** — watercolor score 10; hits: watercolor
+- **BOOOOOOOM 2026 Art & Photo Book Award** — watercolor score 10; hits: painting, zine, illustration
 - **American Illustration** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
 - **World Illustration Awards** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
 - **Jackson's Art Prize** — watercolor score 10; hits: watercolor, works on paper, paper
 - **コピックアワード2026** — watercolor score 10; hits: watercolor, illustration
 - **Ark Art Award 2024** — watercolor score 10; hits: watercolor
-- **BOOOOOOOM 2026 Art & Photo Book Award** — watercolor score 10; hits: painting, zine, illustration
-- **Tokyo Illustrators Society** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
-- **Blooming Stories 2026** — watercolor score 10; hits: watercolor, illustration
 - **Browse opportunities | CuratorSpace** — watercolor score 10; hits: watercolor, works on paper, zine, paper
+- **Blooming Stories 2026** — watercolor score 10; hits: watercolor, illustration
+- **Tokyo Illustrators Society** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
 - **Bologna Children's Book Fair Illustrators Exhibition** — watercolor score 10; hits: watercolor, works on paper, illustration, paper
 - **Pinpoint Gallery** — watercolor score 10; hits: watercolor, works on paper, gallery, artist book, illustration, paper
 - **Gallery IYN** — watercolor score 10; hits: watercolor, works on paper, gallery, paper

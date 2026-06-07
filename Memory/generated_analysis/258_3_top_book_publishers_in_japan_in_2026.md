@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-07
 # 3 Top Book Publishers in Japan in 2026
 
 ## 1. Quick Judgment
-**Fit score:** 4.9/10  
+**Fit score:** 5.3/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Book Publishing  

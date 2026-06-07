@@ -8,16 +8,18 @@
 **City:** Koenji  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://www.yonchome.com/ (verified)
 - **Submission process**: https://www.yonchome.com/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2021年6月28日 (verified)
+- **Fees**: Free (verified)
+- **Contact**: TEL: ０３－５３７７－１７２６ (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Cafe / Local Wall Spaces.
+- Artist themes to compare against this venue: urban atmosphere, domestic stillness, cats, interior light, memory, quiet life.
+- Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
 Koenji cafe with unverified exhibition program - insufficient information to assess as legitimate opportunity.
@@ -31,8 +33,8 @@ Japan location only - no other alignment with practice goals or preferred opport
 - Would require cold outreach with high likelihood of no response or wall rental scenario
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** 2021年6月28日
+- **Fees:** Free
 - **Submission page:** https://www.yonchome.com/
 - **Source:** https://www.yonchome.com/
 
@@ -45,4 +47,4 @@ Skip. Energy better spent on verified opportunities with clear processes.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-05-29_
+_Last generated: 2026-06-07_

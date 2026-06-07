@@ -1,7 +1,7 @@
 # Candidate Quality Gate Report
 
 Approved: 6
-Rejected: 129
+Rejected: 128
 
 ## Rejected
 
@@ -92,7 +92,7 @@ Rejected: 129
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
-- Magazine — strong: open call, zine, score too low: 2
+- Magazine — strong: zine, open call, score too low: 2
 - khoj international residency august-september 2026 — strong: open call, residency, score too low: 2
 - Residency — strong: open call, residency, score too low: 2
 - Open Call — strong: open call, has submission link, score too low: 3
@@ -108,7 +108,6 @@ Rejected: 129
 - Report this? — generic page without opportunity language
 - Contemporary British Painting — generic page without opportunity language
 - More details — generic page without opportunity language
-- Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -137,9 +136,9 @@ Rejected: 129
 
 ## Approved
 
-- Home - Printed Matter — strong: zine, photobook, book fair, printed matter, weak: book, exhibition
-- Browse opportunities | CuratorSpace — strong: open call, submission, book fair, weak: book, exhibition
-- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, zine, residency, submission, weak: exhibition, artist
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — strong: open call, zine, submit, call for, weak: artist, has submission link
+- Home - Printed Matter — strong: zine, book fair, printed matter, photobook, weak: book, exhibition
+- Browse opportunities | CuratorSpace — strong: book fair, open call, submission, weak: book, exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — strong: zine, open call, residency, submission, weak: exhibition, artist
+- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod — strong: open call, weak: exhibition, artist, has submission link
 - submissions for the 2026 set film festival are now open — strong: open call, submission, has submission link
 - Art Submissions — strong: open call, submission, has submission link

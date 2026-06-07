@@ -1,7 +1,7 @@
 # Royal Institute of Painters in Water Colours
 
 ## 1. Quick Judgment
-**Fit score:** 2.0/10  
+**Fit score:** 2.1/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Other  

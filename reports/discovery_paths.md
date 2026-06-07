@@ -53,5 +53,5 @@ This report suggests adjacent institutions and ecosystems.
 ## Society of Women Artists
 
 
-## 水性繪畫展覽 (Watercolor Exhibition)
+## Bologna Children's Book Fair Illustrators Exhibition
 

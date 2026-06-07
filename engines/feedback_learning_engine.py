@@ -47,6 +47,25 @@ def _effort_tier(difficulty: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Token helper — used by preference_rescoring_engine.py
+# ---------------------------------------------------------------------------
+def tokens_from_opp(opp: dict) -> list:
+    """Return a list of tokens representing this opportunity's characteristics."""
+    tokens = []
+    if opp.get("category"):
+        tokens.append(f"cat:{opp['category']}")
+    if opp.get("city"):
+        tokens.append(f"city:{str(opp['city']).lower()}")
+    tier = _effort_tier(str(opp.get("difficulty", "")))
+    tokens.append(f"effort:{tier}")
+    if opp.get("exclusive_primary_bucket"):
+        tokens.append(f"bucket:{opp['exclusive_primary_bucket']}")
+    for tag in (opp.get("tags") or []):
+        tokens.append(f"tag:{str(tag).lower()}")
+    return tokens
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 def run():

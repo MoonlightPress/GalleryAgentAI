@@ -82,8 +82,8 @@ A focused body of work about indirect human presence: fences, laundry, paths, wi
 - **Tokyo Art Book Fair** — 9.4 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 9.4 / 11.39. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **Center for Book Arts Opportunities** — 9.4 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+- **Pinpoint Gallery** — 9.4 / 10.84. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Aperture | Photography** — 8.8 / 10.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
-- **Pinpoint Gallery** — 9.1 / 10.54. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Offprint** — 8.6 / 10.15. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
 - **Tacoche** — 8.6 / 9.98. Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.
 - **Self Publish, Be Happy** — 8.0 / 9.81. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
@@ -167,10 +167,10 @@ A portfolio sequence centered on vernacular architecture, domestic structures, s
 - **水性繪畫展覽 (Watercolor Exhibition)** — 9.4 / 10.78. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
 - **水彩アートの祭典 (Watercolor Art Festival)** — 9.4 / 10.78. Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
 - **Aperture | Photography** — 8.8 / 10.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
+- **AAA Gallery Yokohama** — 9.2 / 10.64. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Browse opportunities | CuratorSpace** — 8.6 / 10.49. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
 - **Gallery IYN** — 8.8 / 10.34. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **桜をテーマとするイラスト・絵画作品募集** — 9.4 / 10.26. Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice.
-- **多摩ゆかりの作家による公募展** — 9.4 / 10.26. Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.

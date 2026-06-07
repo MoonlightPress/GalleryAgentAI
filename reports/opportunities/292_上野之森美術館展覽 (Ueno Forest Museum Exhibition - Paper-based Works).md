@@ -1,7 +1,7 @@
 # 上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)
 
 ## 1. Quick Judgment
-**Fit score:** 3.2/10  
+**Fit score:** 2.6/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Institutional / Grants  

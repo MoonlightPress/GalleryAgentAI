@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-07
 # OPEN CALL for the Artist-In-Residence Program 2025/2026
 
 ## 1. Quick Judgment
-**Fit score:** 7.2/10  
-**Fit band:** Strong fit  
+**Fit score:** 5.8/10  
+**Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Residencies / Longer Projects  
 **City:** Japan / Tokyo / Online  

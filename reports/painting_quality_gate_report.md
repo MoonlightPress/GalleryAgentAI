@@ -6,7 +6,6 @@ Demoted: 5
 
 - **HATTIFNATT Koenji Cafe Gallery** — 10.0 → 9.6 — promoted
 - **水彩アートの祭典** — 10.0 → 9.6 — promoted
-- **Jinny Street Gallery Open Call** — 10.0 → 9.6 — promoted
 - **水性繪畫展覽 (Watercolor Exhibition)** — 10.0 → 9.6 — promoted
 - **水彩アートの祭典 (Watercolor Art Festival)** — 10.0 → 9.6 — promoted
 - **桜をテーマとするイラスト・絵画作品募集** — 10.0 → 9.6 — promoted
@@ -17,28 +16,30 @@ Demoted: 5
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 10.0 → 9.6 — promoted
 - **2026 3rd Annual Illustration Summit Challenge (IlloBoom!)** — 10.0 → 9.6 — promoted
 - **第九屆水主題國際評審藝術比賽** — 10.0 → 9.6 — promoted
+- **BOOOOOOOM 2026 Art & Photo Book Award** — 10.0 → 9.6 — promoted
+- **Jinny Street Gallery Open Call** — 10.0 → 9.6 — promoted
 - **第113回 日本水彩展** — 10.0 → 9.6 — promoted
 - **American Illustration** — 10.0 → 9.6 — promoted
 - **World Illustration Awards** — 10.0 → 9.6 — promoted
 - **Jackson's Art Prize** — 10.0 → 9.6 — promoted
 - **コピックアワード2026** — 10.0 → 9.6 — promoted
 - **Ark Art Award 2024** — 10.0 → 9.6 — promoted
-- **BOOOOOOOM 2026 Art & Photo Book Award** — 10.0 → 9.6 — promoted
-- **Tokyo Illustrators Society** — 10.0 → 9.6 — promoted
+- **Browse opportunities | CuratorSpace** — 10.0 → 9.6 — promoted
 - **2026春季二科展「NIKA nika/S20号」コンクール** — 10.0 → 9.6 — promoted
 - **Blooming Stories 2026** — 10.0 → 9.6 — promoted
-- **Browse opportunities | CuratorSpace** — 10.0 → 9.6 — promoted
+- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 10.0 → 9.6 — promoted
+- **Tokyo Illustrators Society** — 10.0 → 9.6 — promoted
 - **Bologna Children's Book Fair Illustrators Exhibition** — 10.0 → 9.6 — promoted
 - **Pinpoint Gallery** — 10.0 → 9.6 — promoted
 - **Gallery IYN** — 10.0 → 9.6 — promoted
 - **3x3 International Illustration Awards** — 10.0 → 9.6 — promoted
+- **Royal Watercolour Society Open Exhibition** — 10.0 → 9.6 — promoted
 - **OPA Gallery** — 10.0 → 9.6 — promoted
-- **HB Gallery** — 10.0 → 9.6 — promoted
 - **Communication Arts Illustration Competition** — 10.0 → 9.6 — promoted
-- **Mall Galleries Open Exhibitions** — 9.79 → 9.6 — promoted
-- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 9.7 → 9.6 — promoted
-- **Japan Watercolor Society Annual Exhibition** — 9.4 → 9.6 — promoted
-- **2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)** — 9.15 → 9.6 — promoted
+- **HB Gallery** — 10.0 → 9.6 — promoted
+- **Mall Galleries Open Exhibitions** — 10.0 → 9.6 — promoted
+- **Royal Institute of Painters in Water Colours** — 9.96 → 9.6 — promoted
+- **American Watercolor Society Annual International Exhibition** — 9.87 → 9.6 — promoted
 - **Tokyo Art Book Fair** — 9.0 → 9.6 — promoted
 - **UTRECHT** — 9.0 → 9.6 — promoted
 - **B&B (Book & Beer)** — 9.0 → 9.6 — promoted
@@ -46,86 +47,84 @@ Demoted: 5
 - **COW BOOKS Nakameguro** — 9.0 → 9.6 — promoted
 - **Aesthetica Art Prize** — 9.0 → 9.6 — promoted
 - **Offprint** — 9.0 → 9.6 — promoted
-- **FACE展2026** — 9.0 → 9.6 — promoted
 - **Self Publish, Be Happy** — 9.0 → 9.6 — promoted
 - **Book Obscura** — 9.0 → 9.6 — promoted
-- **Royal Institute of Painters in Water Colours** — 9.0 → 9.6 — promoted
-- **Mall Galleries Open Exhibitions** — 8.3 → 9.1 — promoted
+- **Mall Galleries Open Exhibitions** — 8.59 → 9.39 — promoted
+- **FACE展2026** — 8.49 → 9.29 — promoted
+- **2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)** — 8.25 → 9.05 — promoted
 - **Applied Arts 2026 Illustration Awards** — 8.18 → 8.98 — promoted
-- **Royal Watercolour Society Open Exhibition** — 7.58 → 8.38 — promoted
+- **Royal Watercolour Society** — 8.11 → 8.91 — promoted
 - **Aperture | Photography** — 7.2 → 8.0 — promoted
 - **2026年美の起原展** — 7.0 → 7.8 — promoted
 - **クリスマスアート展** — 7.0 → 7.8 — promoted
 - **Laugh & Peace Art Competition 2026** — 7.0 → 7.8 — promoted
+- **Still Life - 2026** — 7.0 → 7.8 — promoted
 - **【biscuit gallery】初の公募企画「grid next : Emerging ...** — 7.0 → 7.8 — promoted
 - **グループ展参加アーティスト募集中 - Gallery and Links81** — 7.0 → 7.8 — promoted
 - **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — 7.0 → 7.8 — promoted
+- **Gallery 456 Exhibition Open Call 2026** — 7.0 → 7.8 — promoted
+- **The Artcomplex Center of Tokyo** — 7.0 → 7.8 — promoted
+- **Society of Women Artists** — 7.0 → 7.8 — promoted
 - **Open Calls for Artists | Exhibit Worldwide** — 7.0 → 7.8 — promoted
 - **219公募展6募集 >> Gallery219 ギャラリーニイク** — 7.0 → 7.8 — promoted
 - **公募プログラム - トーキョーアーツアンドスペース** — 7.0 → 7.8 — promoted
-- **Gallery 456 Exhibition Open Call 2026** — 7.0 → 7.8 — promoted
-- **Still Life - 2026** — 7.0 → 7.8 — promoted
-- **The Artcomplex Center of Tokyo** — 7.0 → 7.8 — promoted
-- **Society of Women Artists** — 7.0 → 7.8 — promoted
 - **[展覧会]秀彩会小品展2026** — 7.0 → 7.8 — promoted
 - **ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)** — 7.0 → 7.8 — promoted
 - **ギャラリー自由展示** — 7.0 → 7.8 — promoted
-- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — 7.0 → 7.8 — promoted
 - **第23届「跨越国界之美2026」国际公募展** — 7.0 → 7.8 — promoted
+- **Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...** — 7.0 → 7.8 — promoted
 - **Tokyo Wonder Site / TOKAS Residency** — 7.0 → 7.8 — promoted
-- **AAA Gallery Yokohama** — 7.0 → 7.8 — promoted
-- **2026 Chinese New Year Celebration Art Show** — 7.0 → 7.8 — promoted
 - **若手アーティストの登竜門となるアートフェア「Independent Tokyo ...** — 7.0 → 7.8 — promoted
 - **New Power展 | ギャラリー自由が丘で作家デビュー** — 7.0 → 7.8 — promoted
 - **Call for Entry: Showcase your art in Tokyo, Japan** — 7.0 → 7.8 — promoted
-- **Aoyama Farmers Market** — 7.0 → 5.5 — demoted
-- **Art Fair Tokyo 2026** — 7.0 → 7.8 — promoted
+- **AAA Gallery Yokohama** — 7.0 → 7.8 — promoted
+- **2026 Chinese New Year Celebration Art Show** — 7.0 → 7.8 — promoted
 - **【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...** — 7.0 → 7.8 — promoted
 - **現代アート販売の@Gallery Tagboat|@Gallery Tagboat** — 7.0 → 7.8 — promoted
-- **Brillia Art Award Wall 2026** — 7.0 → 7.8 — promoted
 - **2026国际大学生数字艺术设计大赛** — 7.0 → 7.8 — promoted
+- **Aoyama Farmers Market** — 7.0 → 5.5 — demoted
+- **Art Fair Tokyo 2026** — 7.0 → 7.8 — promoted
+- **Brillia Art Award Wall 2026** — 7.0 → 7.8 — promoted
 - **絵画展（滋賀県愛荘町開催）** — 7.0 → 7.8 — promoted
-- **2026春季二科展「NIKA+nika/S20号」コンクール** — 7.0 → 7.8 — promoted
 - **世界堂絵画展2026** — 7.0 → 7.8 — promoted
-- **Gallery IRO** — 7.0 → 7.8 — promoted
+- **2026春季二科展「NIKA+nika/S20号」コンクール** — 7.0 → 7.8 — promoted
 - **Komiyama Tokyo** — 7.0 → 7.8 — promoted
+- **Gallery IRO** — 7.0 → 7.8 — promoted
 - **shashasha** — 7.0 → 7.8 — promoted
-- **7月～12月企画展 参加者募集** — 7.0 → 7.8 — promoted
-- **Boji Hair+Gallery** — 7.0 → 7.8 — promoted
-- **American Watercolor Society Annual International Exhibition** — 6.97 → 7.77 — promoted
 - **B&B Shimokitazawa** — 6.75 → 7.55 — promoted
 - **flotsam books** — 6.75 → 7.55 — promoted
+- **Boji Hair+Gallery** — 6.64 → 7.44 — promoted
+- **Japan Watercolor Society Annual Exhibition** — 6.6 → 7.4 — promoted
+- **7月～12月企画展 参加者募集** — 6.47 → 7.27 — promoted
+- **第29回 アート未来展** — 6.41 → 7.21 — promoted
 - **HandMade In Japan Fes** — 6.4 → 5.5 — demoted
-- **RAW TOKYO** — 6.4 → 5.5 — demoted
 - **Comitia** — 6.0 → 6.8 — promoted
-- **第29回 アート未来展** — 5.45 → 6.25 — promoted
-- **Royal Watercolour Society** — 3.11 → 3.91 — promoted
 - **ローズ・ローズ・ローズ** — 2.5 → 3.3 — promoted
-- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 2.5 → 3.3 — promoted
+- **DER GREIF** — 2.5 → 3.3 — promoted
 - **東京芸術劇場 ギャラリー1 ウォーターカラー展覧会** — 2.5 → 3.3 — promoted
 - **スクエア・ワールド2026** — 2.5 → 3.3 — promoted
-- **DER GREIF** — 2.5 → 3.3 — promoted
-- **SICF Fukuoka 2026** — 2.5 → 3.3 — promoted
+- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 2.5 → 3.3 — promoted
 - **True Beauty - 2026** — 2.5 → 3.3 — promoted
 - **Japan International Watercolor Institute Online Exhibition** — 2.5 → 3.3 — promoted
-- **ArtConnect Open Calls** — 2.5 → 3.3 — promoted
-- **水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)** — 2.5 → 3.3 — promoted
-- **水彩アートのみ展示イベント** — 2.5 → 3.3 — promoted
+- **SICF Fukuoka 2026** — 2.5 → 3.3 — promoted
 - **Publishing / Artist Books — Battle Plan** — 2.5 → 3.3 — promoted
-- **日本透明水彩会 2026** — 2.5 → 3.3 — promoted
+- **水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)** — 2.5 → 3.3 — promoted
+- **ArtConnect Open Calls** — 2.5 → 3.3 — promoted
 - **2026 International Children and Youth Painting Competition Summer Season** — 2.5 → 3.3 — promoted
-- **Watercolor Open Call Exhibition** — 2.5 → 3.3 — promoted
+- **日本透明水彩会 2026** — 2.5 → 3.3 — promoted
+- **National Watercolor Society International Open Exhibition** — 2.5 → 3.3 — promoted
+- **Home - Printed Matter** — 2.5 → 3.3 — promoted
 - **CuratorSpace** — 2.5 → 3.3 — promoted
 - **2026 Asian Heritage Culture Art Show** — 2.5 → 3.3 — promoted
 - **「公募－日本の絵画2026－」** — 2.5 → 3.3 — promoted
 - **「公募－日本の絵画2026－」入賞・入選発表展** — 2.5 → 3.3 — promoted
+- **kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)** — 2.5 → 3.3 — promoted
 - **Spring Flora and Fauna Art Exhibition 2026** — 2.5 → 3.3 — promoted
 - **滋賀県愛荘町絵画展** — 2.5 → 3.3 — promoted
-- **National Watercolor Society International Open Exhibition** — 2.5 → 3.3 — promoted
 - **第92回旺玄展** — 2.5 → 3.3 — promoted
-- **kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)** — 2.5 → 3.3 — promoted
-- **秀彩会小品展2026** — 2.5 → 3.3 — promoted
 - **上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)** — 2.5 → 3.3 — promoted
+- **秀彩会小品展2026** — 2.5 → 3.3 — promoted
 - **Pastel Society Open Exhibition** — 2.5 → 3.3 — promoted
 - **Royal Institute of Painters in Water Colours** — 2.5 → 3.3 — promoted
-- **Home - Printed Matter** — 2.5 → 3.3 — promoted
+- **水彩アートのみ展示イベント** — 2.05 → 2.85 — promoted
+- **Watercolor Open Call Exhibition** — 2.05 → 2.85 — promoted

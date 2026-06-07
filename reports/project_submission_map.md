@@ -36,8 +36,8 @@ This turns project concepts into concrete submission paths.
 - Tokyo Art Book Fair
 - UTRECHT
 - Center for Book Arts Opportunities
-- Aperture | Photography
 - Pinpoint Gallery
+- Aperture | Photography
 
 ### What To Prepare
 - 12–20 image edit
@@ -81,7 +81,7 @@ This turns project concepts into concrete submission paths.
 - 水性繪畫展覽 (Watercolor Exhibition)
 - 水彩アートの祭典 (Watercolor Art Festival)
 - Aperture | Photography
-- Browse opportunities | CuratorSpace
+- AAA Gallery Yokohama
 
 ### What To Prepare
 - 12–20 image edit

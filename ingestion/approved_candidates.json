@@ -47,7 +47,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: zine, photobook, book fair, printed matter",
+      "strong: zine, book fair, printed matter, photobook",
       "weak: book, exhibition"
     ]
   },
@@ -95,7 +95,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: open call, submission, book fair",
+      "strong: book fair, open call, submission",
       "weak: book, exhibition"
     ]
   },
@@ -141,14 +141,14 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: open call, zine, residency, submission",
+      "strong: zine, open call, residency, submission",
       "weak: exhibition, artist"
     ]
   },
   {
-    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
     "organization": "CuratorSpace",
-    "category": "zine_print",
+    "category": "photo_open_call",
     "city": "Online",
     "country": "Global",
     "overall_score": 5.4,
@@ -157,22 +157,22 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine, open call",
+    "why_this_fits_short": "Possible fit based on link text: open call, exhibition",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: zine, open call"
+      "Keyword hits: open call, exhibition"
     ],
     "fit_keyword_hits": [
-      "zine",
-      "open call"
+      "open call",
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -183,8 +183,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: open call, zine, submit, call for",
-      "weak: artist",
+      "strong: open call",
+      "weak: exhibition, artist",
       "has submission link"
     ]
   },

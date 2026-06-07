@@ -16,15 +16,15 @@ Scores now follow the explanation. A high score should not appear beside a warni
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 10.0 — strong. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **2026 3rd Annual Illustration Summit Challenge (IlloBoom!)** — 10.0 — strong. Global illustration competition accepting all art styles and themes from students, professionals, and enthusiasts; perfect fit for illustration artist.
 - **第九屆水主題國際評審藝術比賽** — 10.0 — strong. Water-themed international art competition accepting watercolor works from global artists, directly aligned with watercolor practice.
+- **BOOOOOOOM 2026 Art & Photo Book Award** — 10.0 — strong. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
 - **American Illustration** — 10.0 — strong. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **World Illustration Awards** — 10.0 — strong. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Jackson's Art Prize** — 10.0 — strong. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
 - **コピックアワード2026** — 10.0 — strong. Illustration and watercolor award accepting submissions via social media, relevant to her illustration practice.
 - **Ark Art Award 2024** — 10.0 — strong. Open call specifically welcoming watercolor artists at all levels to participate in a curated award exhibition.
-- **BOOOOOOOM 2026 Art & Photo Book Award** — 10.0 — strong. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
-- **Tokyo Illustrators Society** — 10.0 — strong. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- **Blooming Stories 2026** — 10.0 — strong. Flower-themed photo open call running June 18-29, 2026, relevant for illustration and observation-based work.
 - **Browse opportunities | CuratorSpace** — 10.0 — strong. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
+- **Blooming Stories 2026** — 10.0 — strong. Flower-themed photo open call running June 18-29, 2026, relevant for illustration and observation-based work.
+- **Tokyo Illustrators Society** — 10.0 — strong. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Bologna Children's Book Fair Illustrators Exhibition** — 10.0 — strong. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - **Pinpoint Gallery** — 10.0 — strong. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Gallery IYN** — 10.0 — strong. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
