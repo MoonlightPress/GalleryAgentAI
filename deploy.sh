@@ -36,7 +36,9 @@ for f in \
     contact_memory.json \
     peer_artists.json \
     artist_master_profile.json \
-    peppercorn_profile.json; do
+    peppercorn_profile.json \
+    submission_log.json \
+    suppressed_opportunities.json; do
     src="$SCRIPT_DIR/memory/$f"
     [ -f "$src" ] && cp "$src" "$OUT/app/memory/" || echo "  (skipping missing: $f)"
 done
