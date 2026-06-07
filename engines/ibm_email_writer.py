@@ -24,29 +24,60 @@ sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 OPP_PATH     = Path("deploy_data/compact_opportunities.json")
+PROFILE_PATH = Path("memory/artist_master_profile.json")
 ANALYSIS_DIR = Path("Memory/generated_analysis")
 OUT_DIR      = Path("reports/inquiry_drafts")
 
-# ── Artist context loaded once ────────────────────────────────────────────────
-ARTIST_CONTEXT = """
-Name: GEGYjiji (ジェジー / 挤挤)
-Twitter/X: @GegYjiji (~90,000 followers, illustration-community audience)
-Instagram: @gegyjiji
-Based: Tokyo (originally from China, Beijing Fashion Institute — illustration/design)
+
+def load_artist_context() -> str:
+    """Build artist context string from artist_master_profile.json."""
+    if not PROFILE_PATH.exists():
+        # Fallback if profile not found
+        return _ARTIST_CONTEXT_FALLBACK
+
+    profile = json.loads(PROFILE_PATH.read_text(encoding="utf-8"))
+    stmt    = profile.get("artist_statement", {})
+    hist    = profile.get("career_history", {})
+
+    verbatim_ja  = stmt.get("verbatim_source_ja", "")
+    translated   = stmt.get("verbatim_translation_en", "")
+    synthesized  = stmt.get("synthesized_en", "")
+    tone_signal  = stmt.get("tone_signal", "")
+
+    handles = hist.get("online_handles", {})
+    twitter = handles.get("twitter_x", "@GegYjiji")
+    insta   = handles.get("instagram", "@gegyjiji")
+
+    return f"""Name: GEGYjiji (ジェジー / GEGY挤挤)
+Twitter/X: {twitter} (~90,000 followers, illustration-community audience)
+Instagram: {insta}
+Based: Tokyo (originally from Hunan Province, China; Beijing Fashion Institute — illustration/design)
 
 Key works:
 • "Colour Diary (色彩日記)" — first solo illustration collection, Oct 2021.
   Grew directly from a daily watercolor diary practice she started in 2020.
 • "Tide from China Part1" — first Japan exhibition, Feb 2023. Group show
   with 5 other Chinese illustrators at ACG_Labo, Harajuku, Tokyo.
-• Daily watercolor diary — ongoing since 2020, posted to social media.
+• Daily watercolor diary ("diary") — ongoing since 2020.
 
-Visual world: urban atmospheres, Tokyo neighborhoods, domestic interiors, interior
-light, cats, memory, quiet observation. Watercolor. Intimate scale. Transparency
-and silence rather than drama. Cross-cultural seeing — a Chinese eye on Tokyo.
+Artist's own voice (from exhibition bio, ACG_Labo 2023 — closest text to a
+self-written statement in the public record):
+  Japanese: {verbatim_ja}
+  Translation: {translated}
+
+Tone note: {tone_signal}
+
+Synthesized bio: {synthesized}
 
 Career stage: Tier 1–2. Building exhibition history and relationships. No gallery
-representation. First serious approach to zine/book/café venues.
+representation. First serious approach to zine/book/café venues."""
+
+
+_ARTIST_CONTEXT_FALLBACK = """
+Name: GEGYjiji (ジェジー / 挤挤)
+Twitter/X: @GegYjiji (~90,000 followers)
+Instagram: @gegyjiji
+Based: Tokyo. Watercolor. Daily diary practice since 2020. Colour Diary (2021).
 """.strip()
 
 # Category → (primary_lang, tone_key, action_phrase, max_sentences)
@@ -104,7 +135,7 @@ def is_international(opp: dict) -> bool:
     return city not in japan_cities or ("japan" not in country and country != "")
 
 
-def build_prompt(opp: dict, analysis: str) -> tuple[str, str]:
+def build_prompt(opp: dict, analysis: str, artist_context: str) -> tuple[str, str]:
     name     = opp.get("name") or opp.get("title") or "Unknown"
     category = opp.get("category", "gallery")
     city     = opp.get("city", "Tokyo") or "Tokyo"
@@ -144,7 +175,7 @@ def build_prompt(opp: dict, analysis: str) -> tuple[str, str]:
     prompt = f"""You are writing a real outreach email on behalf of GEGYjiji, a Tokyo-based Chinese watercolor artist.
 
 ## ARTIST PROFILE
-{ARTIST_CONTEXT}
+{artist_context}
 
 ## VENUE
 Name: {name}
@@ -162,10 +193,11 @@ Tone: {tone_desc}
 {lang_instruction}
 
 Requirements:
-- Open with something that shows you know this specific venue — their aesthetic, format, or reputation. Do NOT write generic praise like "I love your space."
-- Name at least one specific work: "Colour Diary" or "Tide from China" — use whichever fits better for this venue type.
-- Mention daily watercolor practice only if natural and brief (one clause, not a paragraph).
-- Do NOT include a placeholder like [portfolio link] — mention "作品集" or "portfolio" naturally in one clause, linking to Instagram @gegyjiji or Twitter @GegYjiji.
+- Open with something that shows you know this specific venue — their aesthetic, format, or reputation. Do NOT open with "I love your space" or other generic praise.
+- Ground the email in her stated practice: she finds beauty in ordinary daily scenes — red walls, alleyways, parks, domestic interiors — and transforms them into emotionally resonant watercolor work. This is not a paraphrase; it is her own voice from her exhibition bio. Use this where it fits naturally.
+- Name at least one specific work: "Colour Diary" or "Tide from China" — whichever fits better. For zine/bookshop venues, Colour Diary is the right anchor. For Japan exhibition contexts, Tide from China is relevant.
+- Reference the daily watercolor practice ("diary") if it fits the venue's format — it is especially relevant for zine shops, bookshops, and cafés where seriality and daily observation are valued.
+- Do NOT include a placeholder like [portfolio link] — mention Instagram @gegyjiji or Twitter @GegYjiji naturally in one clause.
 - Do NOT use markdown, asterisks, or formatting marks — plain text only.
 - Subject line is required as the first line, prefixed: "件名: " (Japanese) or "Subject: " (English).
 - Sign off as: GEGYjiji
@@ -215,10 +247,10 @@ def main():
     import anthropic
     client = anthropic.Anthropic(api_key=api_key)
 
-    opps = json.loads(OPP_PATH.read_text(encoding="utf-8"))
+    # Load artist context from profile once
+    artist_context = load_artist_context()
 
-    # Build index for fast lookup
-    opp_index = {o.get("id", ""): i for i, o in enumerate(opps)}
+    opps = json.loads(OPP_PATH.read_text(encoding="utf-8"))
 
     # Top N Tier 1-2 by score
     tier12 = [o for o in opps if o.get("career_tier") in (1, 2)]
@@ -228,6 +260,7 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     print(f"Writing Claude-generated email drafts for top {len(targets)} IBM opportunities...")
+    print(f"Artist context loaded from: {PROFILE_PATH}")
     errors = 0
 
     for i, opp in enumerate(targets, 1):
@@ -235,7 +268,7 @@ def main():
         print(f"  [{i:2d}/{len(targets)}] {name[:50]:<50}", end=" ", flush=True)
 
         analysis = find_analysis(name)
-        prompt, lang = build_prompt(opp, analysis)
+        prompt, lang = build_prompt(opp, analysis, artist_context)
 
         try:
             draft = call_claude(client, prompt)
