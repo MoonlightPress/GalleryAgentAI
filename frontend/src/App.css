@@ -4,3 +4,37 @@
   min-height: 100svh;
   background: var(--parchment);
 }
+
+/* ── View toggle (cards / calendar) ─────────────────────────────── */
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem 0;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.view-toggle-btn {
+  background: transparent;
+  border: 1px solid var(--gold, #c8a84b);
+  color: var(--muted, #8a7a5a);
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  transition: background 0.15s, color 0.15s;
+}
+
+.view-toggle-btn:hover {
+  background: var(--gold-faint, #fdf5e0);
+  color: var(--ink, #2c2015);
+}
+
+.view-toggle-btn.active {
+  background: var(--gold, #c8a84b);
+  color: #fff;
+  border-color: var(--gold, #c8a84b);
+}

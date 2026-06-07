@@ -468,6 +468,18 @@ const zh = {
   'tf.open':                   '打开 →',
   'tf.visit':                  '访问 →',
   'detail.label.checklist':    '提交准备',
+
+  // ── Deadline calendar ────────────────────────────────────────────────────
+  'cal.title':       '截止日期 — 未来30天',
+  'cal.sub':         '共{n}个机会，分布在{dates}个日期',
+  'cal.noDeadlines': '未来30天内没有明确截止日期的机会。',
+  'cal.today':       '今天',
+  'cal.tomorrow':    '明天',
+  'cal.daysLeft':    '{n}天后',
+
+  // ── View toggle ──────────────────────────────────────────────────────────
+  'view.cards':      '分类视图',
+  'view.calendar':   '日历视图',
 }
 
 const ja = {
@@ -936,6 +948,18 @@ const ja = {
   'tf.open':                   '開く →',
   'tf.visit':                  '訪問 →',
   'detail.label.checklist':    '提出準備',
+
+  // ── Deadline calendar ────────────────────────────────────────────────────
+  'cal.title':       '締切カレンダー — 30日以内',
+  'cal.sub':         '{n}件、{dates}日に分散',
+  'cal.noDeadlines': '今後30日間に明確な締切のある機会はありません。',
+  'cal.today':       '今日',
+  'cal.tomorrow':    '明日',
+  'cal.daysLeft':    '{n}日後',
+
+  // ── View toggle ──────────────────────────────────────────────────────────
+  'view.cards':      'カード表示',
+  'view.calendar':   'カレンダー',
 }
 
 const en = {
@@ -1396,6 +1420,18 @@ const en = {
   'tf.open':                   'Open →',
   'tf.visit':                  'Visit →',
   'detail.label.checklist':    'Submission prep',
+
+  // ── Deadline calendar ────────────────────────────────────────────────────
+  'cal.title':       'Deadlines — Next 30 Days',
+  'cal.sub':         '{n} opportunities across {dates} dates',
+  'cal.noDeadlines': 'No upcoming deadlines in the next 30 days.',
+  'cal.today':       'Today',
+  'cal.tomorrow':    'Tomorrow',
+  'cal.daysLeft':    'in {n} days',
+
+  // ── View toggle ──────────────────────────────────────────────────────────
+  'view.cards':      'By section',
+  'view.calendar':   'By deadline',
 }
 
 export const LANGUAGES = ['zh', 'ja', 'en']
