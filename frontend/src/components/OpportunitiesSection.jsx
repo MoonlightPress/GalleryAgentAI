@@ -70,16 +70,23 @@ export default function OpportunitiesSection() {
 }
 
 function OppSection({ sectionKey, label, description, icon, items }) {
-  const [showAll, setShowAll]     = useState(false)
-  const [activeId, setActiveId]   = useState(null)
+  const [showAll, setShowAll]       = useState(false)
+  const [activeId, setActiveId]     = useState(null)
+  const [suppressed, setSuppressed] = useState(new Set())
   const { t } = useLanguage()
 
-  const visible   = showAll ? items : items.slice(0, GRID_PAGE)
-  const remaining = items.length - GRID_PAGE
-  const activeOpp = items.find(o => o.id === activeId) || null
+  const filtered  = items.filter(o => !suppressed.has(o.id))
+  const visible   = showAll ? filtered : filtered.slice(0, GRID_PAGE)
+  const remaining = filtered.length - GRID_PAGE
+  const activeOpp = filtered.find(o => o.id === activeId) || null
 
   function handleDetails(opp) {
     setActiveId(prev => prev === opp.id ? null : opp.id)
+  }
+
+  function handleSuppressed(id) {
+    setSuppressed(prev => new Set([...prev, id]))
+    setActiveId(prev => prev === id ? null : prev)
   }
 
   return (
@@ -89,7 +96,7 @@ function OppSection({ sectionKey, label, description, icon, items }) {
         <div className="opp-section-title-row">
           <span className="opp-section-icon">{icon}</span>
           <h2 className="opp-section-title">{label}</h2>
-          <span className="opp-section-count">{items.length}</span>
+          <span className="opp-section-count">{filtered.length}</span>
         </div>
         <p className="opp-section-desc">{description}</p>
       </div>
@@ -102,6 +109,7 @@ function OppSection({ sectionKey, label, description, icon, items }) {
             opp={{ ...opp, _section: sectionKey }}
             isOpen={opp.id === activeId}
             onDetails={() => handleDetails(opp)}
+            onSuppressed={handleSuppressed}
           />
         ))}
       </div>

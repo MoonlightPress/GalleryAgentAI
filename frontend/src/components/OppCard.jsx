@@ -85,7 +85,7 @@ async function saveFeedback(oppId, action) {
   }
 }
 
-export default function OppCard({ opp, isOpen, onDetails }) {
+export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
   const [feedback, setFeedback] = useState(null)
   const { t } = useLanguage()
   const iconSrc = CAT_ICON[opp.category] || DEFAULT_ICON
@@ -93,7 +93,10 @@ export default function OppCard({ opp, isOpen, onDetails }) {
   function handleFeedback(actionId) {
     const next = feedback === actionId ? null : actionId
     setFeedback(next)
-    if (next) saveFeedback(opp.id, next)
+    if (next) {
+      saveFeedback(opp.id, next)
+      if (next === 'not_for_me' && onSuppressed) onSuppressed(opp.id)
+    }
   }
 
   return (
