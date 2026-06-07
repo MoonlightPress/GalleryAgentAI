@@ -45,12 +45,10 @@ def load_artist_context() -> str:
     tone_signal  = stmt.get("tone_signal", "")
 
     handles = hist.get("online_handles", {})
-    twitter = handles.get("twitter_x", "@GegYjiji")
     insta   = handles.get("instagram", "@gegyjiji")
 
     return f"""Name: GEGYjiji (ジェジー / GEGY挤挤)
-Twitter/X: {twitter} (~90,000 followers, illustration-community audience)
-Instagram: {insta}
+Instagram: {insta} (https://www.instagram.com/gegyjiji/) (~90,000 followers, daily watercolor diary)
 Based: Tokyo (originally from Hunan Province, China; Beijing Fashion Institute — illustration/design)
 
 Key works:
@@ -75,8 +73,7 @@ representation. First serious approach to zine/book/café venues."""
 
 _ARTIST_CONTEXT_FALLBACK = """
 Name: GEGYjiji (ジェジー / 挤挤)
-Twitter/X: @GegYjiji (~90,000 followers)
-Instagram: @gegyjiji
+Instagram: @gegyjiji (https://www.instagram.com/gegyjiji/) (~90,000 followers, daily watercolor diary)
 Based: Tokyo. Watercolor. Daily diary practice since 2020. Colour Diary (2021).
 """.strip()
 
@@ -197,7 +194,7 @@ Requirements:
 - Ground the email in her stated practice: she finds beauty in ordinary daily scenes — red walls, alleyways, parks, domestic interiors — and transforms them into emotionally resonant watercolor work. This is not a paraphrase; it is her own voice from her exhibition bio. Use this where it fits naturally.
 - Name at least one specific work: "Colour Diary" or "Tide from China" — whichever fits better. For zine/bookshop venues, Colour Diary is the right anchor. For Japan exhibition contexts, Tide from China is relevant.
 - Reference the daily watercolor practice ("diary") if it fits the venue's format — it is especially relevant for zine shops, bookshops, and cafés where seriality and daily observation are valued.
-- Do NOT include a placeholder like [portfolio link] — mention Instagram @gegyjiji or Twitter @GegYjiji naturally in one clause.
+- Do NOT include a placeholder like [portfolio link] — mention Instagram @gegyjiji (https://www.instagram.com/gegyjiji/) naturally in one clause. Do NOT mention Twitter or X.
 - Do NOT use markdown, asterisks, or formatting marks — plain text only.
 - Subject line is required as the first line, prefixed: "件名: " (Japanese) or "Subject: " (English).
 - Sign off as: GEGYjiji

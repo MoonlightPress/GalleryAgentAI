@@ -199,6 +199,11 @@ The full tier definitions live in `memory/artist_master_profile.json` under `car
 - **Verification > ranking.** Always. A closed opportunity with a perfect score is useless.
 - **Actionability is the product.** Every feature should be evaluated against: "Does this help the artist decide what to do next?" If no, it's probably unnecessary.
 
+## Artist Social Media
+
+- Instagram: @gegyjiji — https://www.instagram.com/gegyjiji/ (~90k followers, daily watercolor diary)
+- Twitter/X account exists (@GegYjiji) but do NOT reference in outreach emails. Instagram only.
+
 ## Development Posture
 
 The current phase is **consolidation, not expansion.** The roadmap priority order is:
