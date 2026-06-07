@@ -591,6 +591,14 @@ const zh = {
   'sc.analytics.title': '数据分析',
   'sc.analytics.desc':  '查看你的成长与规律。',
   'sc.analytics.link':  '查看',
+
+  // ── Press & Visibility ────────────────────────────────────────────────────
+  'press.section.title': '媒体与曝光',
+  'press.section.desc':  '值得主动联系的媒体与出版物 — 一次报道抵得上百场群展。',
+  'press.action.pitch':  '主动投稿',
+  'press.action.relationship': '关系积累',
+  'press.howToPitch':    '如何接触 →',
+  'press.empty':         '稍后会更新媒体投稿目标。',
 }
 
 const ja = {
@@ -1182,6 +1190,14 @@ const ja = {
   'sc.analytics.title': '分析',
   'sc.analytics.desc':  '成長とパターンを確認する。',
   'sc.analytics.link':  '見る',
+
+  // ── Press & Visibility ────────────────────────────────────────────────────
+  'press.section.title': 'メディア・露出',
+  'press.section.desc':  'アプローチすべき媒体と出版物 — 掲載1回は、グループ展100回分の価値がある。',
+  'press.action.pitch':  'ピッチ',
+  'press.action.relationship': '関係構築',
+  'press.howToPitch':    'アプローチ方法 →',
+  'press.empty':         'メディアターゲットは近日追加予定です。',
 }
 
 const en = {
@@ -1765,6 +1781,14 @@ const en = {
   'sc.analytics.title': 'Analytics',
   'sc.analytics.desc':  'See your progress and patterns over time.',
   'sc.analytics.link':  'View',
+
+  // ── Press & Visibility ────────────────────────────────────────────────────
+  'press.section.title': 'Press & Visibility',
+  'press.section.desc':  'Publications worth pitching — one feature reaches more people than a hundred group shows.',
+  'press.action.pitch':  'Pitch',
+  'press.action.relationship': 'Relationship',
+  'press.howToPitch':    'How to pitch →',
+  'press.empty':         'Press targets will be populated soon.',
 }
 
 export const LANGUAGES = ['zh', 'ja', 'en']

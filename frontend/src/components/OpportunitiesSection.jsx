@@ -22,6 +22,14 @@ const SECTION_ICONS = {
 
 const GRID_PAGE = 3
 
+function isPressTarget(opp) {
+  return (
+    opp.opportunity_type === 'press_target' ||
+    opp.exclusive_primary_bucket === 'press_target' ||
+    opp.category === 'press_target'
+  )
+}
+
 export default function OpportunitiesSection() {
   const [data, setData]   = useState(null)
   const [error, setError] = useState(null)
@@ -48,10 +56,15 @@ export default function OpportunitiesSection() {
 
   const { sections, meta } = data
 
+  // Collect press targets from all sections
+  const pressItems = Object.values(sections)
+    .flat()
+    .filter(isPressTarget)
+
   return (
     <div className="opps-root">
       {SECTION_ORDER.map(key => {
-        const items = sections[key] || []
+        const items = (sections[key] || []).filter(o => !isPressTarget(o))
         const m = meta[key] || {}
         if (!items.length) return null
         return (
@@ -65,9 +78,110 @@ export default function OpportunitiesSection() {
           />
         )
       })}
+      <PressSection items={pressItems} />
     </div>
   )
 }
+
+// ── Press & Visibility section ────────────────────────────────────────────────
+
+function PressCard({ opp }) {
+  const [expanded, setExpanded] = useState(false)
+  const { t } = useLanguage()
+
+  const actionType = (opp.action_type || '').toLowerCase()
+  const badgeKey   = actionType === 'relationship'
+    ? 'press.action.relationship'
+    : 'press.action.pitch'
+  const badgeClass = actionType === 'relationship'
+    ? 'press-badge press-badge--rel'
+    : 'press-badge press-badge--pitch'
+
+  const name    = opp.name || opp.title || ''
+  const summary = opp.summary || opp.one_sentence || ''
+  const contact = opp.contact || ''
+  const note    = opp.relationship_note || ''
+  const website = opp.official_website || opp.source_url || ''
+
+  return (
+    <div className="press-card">
+      <div className="press-card-top">
+        <div className="press-card-left">
+          <span className="press-icon">📰</span>
+          <div className="press-card-body">
+            <div className="press-card-name-row">
+              <span className="press-card-name">{name}</span>
+              <span className={badgeClass}>{t(badgeKey)}</span>
+            </div>
+            {summary && <p className="press-card-summary">{summary}</p>}
+          </div>
+        </div>
+        {website && (
+          <a
+            className="press-card-link"
+            href={website}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ↗
+          </a>
+        )}
+      </div>
+
+      {(contact || note) && (
+        <div className="press-card-expand">
+          <button
+            className="press-expand-btn"
+            onClick={() => setExpanded(v => !v)}
+          >
+            {expanded ? '▲ ' : '▶ '}{t('press.howToPitch')}
+          </button>
+          {expanded && (
+            <div className="press-expand-content">
+              {contact && (
+                <p className="press-contact"><strong>联系方式：</strong>{contact}</p>
+              )}
+              {note && <p className="press-note">{note}</p>}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
+
+function PressSection({ items }) {
+  const { t } = useLanguage()
+
+  return (
+    <section id="press_visibility" className="opp-section press-section">
+      <div className="opp-section-header">
+        <div className="opp-section-title-row">
+          <span className="opp-section-icon">📰</span>
+          <h2 className="opp-section-title">{t('press.section.title')}</h2>
+          {items.length > 0 && (
+            <span className="opp-section-count">{items.length}</span>
+          )}
+        </div>
+        <p className="opp-section-desc">
+          {t('press.section.desc')}
+        </p>
+      </div>
+
+      {items.length === 0 ? (
+        <p className="press-empty">{t('press.empty')}</p>
+      ) : (
+        <div className="press-grid">
+          {items.map((opp, i) => (
+            <PressCard key={opp.id || opp.title || i} opp={opp} />
+          ))}
+        </div>
+      )}
+    </section>
+  )
+}
+
+// ── Opportunity section ───────────────────────────────────────────────────────
 
 function OppSection({ sectionKey, label, description, icon, items }) {
   const [showAll, setShowAll]       = useState(false)

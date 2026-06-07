@@ -202,6 +202,15 @@ def choose_bucket(opp):
     if opp.get("native_medium") == "photography":
         return "reject"
 
+    # Press targets: publications to pitch for features. Never filtered by deadline.
+    # Route to relationship_builders (they are relationship plays, not one-off applications).
+    if opp.get("category") == "press_target" or opp.get("opportunity_type") == "press_target":
+        if opp.get("exclusive_primary_bucket") == "press_target":
+            return "relationship_builders"
+        if score >= 7.0:
+            return "relationship_builders"
+        return "research_needed"
+
     # Confirmed passed deadline (text markers): recurring → stretch_targets, one-off → reject
     if _deadline_confirmed_passed(opp):
         return "stretch_targets" if _is_recurring(opp) else "reject"

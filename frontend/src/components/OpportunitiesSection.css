@@ -111,3 +111,174 @@
   color: var(--ink);
   border-color: #c9a86c;
 }
+
+/* ── Press & Visibility section ── */
+.press-section {
+  border-top: 1px dashed var(--border);
+  padding-top: 8px;
+}
+
+.press-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 860px) {
+  .press-grid { grid-template-columns: 1fr; }
+}
+
+.press-card {
+  background: rgba(255, 252, 246, 0.85);
+  border: 1px solid var(--border);
+  border-left: 3px solid #c9a86c;
+  border-radius: 8px;
+  padding: 16px 18px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.press-card:hover {
+  border-left-color: #a07840;
+  background: rgba(255, 250, 240, 0.95);
+}
+
+.press-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.press-card-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1;
+}
+
+.press-icon {
+  font-size: 18px;
+  line-height: 1.2;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.press-card-body {
+  flex: 1;
+}
+
+.press-card-name-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.press-card-name {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  color: var(--ink);
+  font-weight: normal;
+}
+
+.press-badge {
+  font-size: 10.5px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-family: Georgia, serif;
+  font-style: italic;
+  border: 1px solid transparent;
+}
+
+.press-badge--pitch {
+  background: rgba(201, 168, 108, 0.18);
+  color: #8a6628;
+  border-color: rgba(201, 168, 108, 0.4);
+}
+
+.press-badge--rel {
+  background: rgba(150, 185, 150, 0.18);
+  color: #446644;
+  border-color: rgba(150, 185, 150, 0.4);
+}
+
+.press-card-summary {
+  font-size: 13px;
+  color: var(--ink-muted);
+  line-height: 1.55;
+  margin: 0;
+  font-style: italic;
+}
+
+.press-card-link {
+  font-size: 16px;
+  color: var(--ink-muted);
+  text-decoration: none;
+  flex-shrink: 0;
+  padding: 2px 4px;
+  opacity: 0.6;
+  transition: opacity 0.12s;
+}
+
+.press-card-link:hover {
+  opacity: 1;
+  color: var(--ink);
+}
+
+.press-card-expand {
+  border-top: 1px solid rgba(201, 168, 108, 0.25);
+  padding-top: 10px;
+}
+
+.press-expand-btn {
+  background: none;
+  border: none;
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  font-style: italic;
+  color: #9a7040;
+  cursor: pointer;
+  padding: 0;
+  letter-spacing: 0.01em;
+  transition: color 0.12s;
+}
+
+.press-expand-btn:hover {
+  color: var(--ink);
+}
+
+.press-expand-content {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.press-contact {
+  font-size: 12.5px;
+  color: var(--ink-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.press-note {
+  font-size: 12.5px;
+  color: var(--ink-muted);
+  margin: 0;
+  line-height: 1.6;
+  font-style: italic;
+  border-left: 2px solid rgba(201, 168, 108, 0.3);
+  padding-left: 10px;
+}
+
+.press-empty {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: var(--ink-muted);
+  font-size: 14px;
+  padding: 16px 0;
+  margin: 0;
+}
