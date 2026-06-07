@@ -3,40 +3,22 @@ import './HeroSection.css'
 import { mochiHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
 
-const TIERS = [
-  {
-    icon:      '⭐',
-    labelKey:  'hero.tier.quickWin',
-    timeKey:   'hero.tier.quickWin.time',
-    bucket:    'immediate_best_moves',
-    fallback:  0,
-  },
-  {
-    icon:      '✉',
-    labelKey:  'hero.tier.highImpact',
-    timeKey:   'hero.tier.highImpact.time',
-    bucket:    'open_calls',
-    fallback:  1,
-  },
-  {
-    icon:      '🔍',
-    labelKey:  'hero.tier.stretch',
-    timeKey:   null,
-    bucket:    'watch_list',
-    fallback:  2,
-  },
-]
+const ROLE_ICONS = { quick_win: '⚡', high_impact: '✦', stretch_goal: '◎' }
 
 export default function HeroSection() {
   const { t } = useLanguage()
-  const [sections, setSections] = useState(null)
+  const [today, setToday] = useState(null)
 
   useEffect(() => {
-    fetch('/api/opportunities')
+    fetch('/api/today')
       .then(r => r.ok ? r.json() : null)
-      .then(d => { if (d?.sections) setSections(d.sections) })
+      .then(d => setToday(d))
       .catch(() => {})
   }, [])
+
+  const items = today
+    ? [today.quick_win, today.high_impact, today.stretch_goal].filter(Boolean)
+    : []
 
   return (
     <section className="hero">
@@ -53,27 +35,25 @@ export default function HeroSection() {
         <div className="focus-card">
           <div className="focus-card-title">{t('hero.focusTitle')}</div>
           <ul className="focus-list">
-            {TIERS.map((tier, i) => {
-              const opp = sections?.[tier.bucket]?.[0]
-              return (
+            {items.length > 0 ? items.map((opp, i) => (
+              <li key={i} className="focus-item">
+                <span className="focus-item-icon">{ROLE_ICONS[opp.today_role] || '·'}</span>
+                <div className="focus-item-body">
+                  <div className="focus-item-tier">
+                    {opp.today_label}
+                    <span className="focus-item-time">· {opp.time_est}</span>
+                  </div>
+                  <div className="focus-item-name">{opp.name}</div>
+                </div>
+              </li>
+            )) : (
+              [0, 1, 2].map(i => (
                 <li key={i} className="focus-item">
-                  <span className="focus-item-icon">{tier.icon}</span>
-                  {opp ? (
-                    <div className="focus-item-body">
-                      <div className="focus-item-tier">
-                        {t(tier.labelKey)}
-                        {tier.timeKey && (
-                          <span className="focus-item-time">· {t(tier.timeKey)}</span>
-                        )}
-                      </div>
-                      <div className="focus-item-name">{opp.name}</div>
-                    </div>
-                  ) : (
-                    <span>{t(`hero.focus.${tier.fallback}`)}</span>
-                  )}
+                  <span className="focus-item-icon">·</span>
+                  <span>{t(`hero.focus.${i}`)}</span>
                 </li>
-              )
-            })}
+              ))
+            )}
           </ul>
           <a href="#immediate_best_moves" className="focus-see-all">
             {t('hero.seeAll')}

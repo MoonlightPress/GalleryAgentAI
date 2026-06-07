@@ -1,0 +1,145 @@
+.tf-section {
+  padding: 28px 32px 8px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.tf-header {
+  margin-bottom: 18px;
+}
+
+.tf-section-title {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: normal;
+  color: var(--ink);
+  margin: 0 0 4px;
+}
+
+.tf-section-sub {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  font-style: italic;
+  color: var(--ink-muted);
+  margin: 0;
+}
+
+.tf-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 860px) {
+  .tf-grid {
+    grid-template-columns: 1fr;
+  }
+  .tf-section {
+    padding: 20px 16px 4px;
+  }
+}
+
+/* ── Individual card ── */
+.tf-card {
+  background: var(--tf-bg, #fdfaf4);
+  border: 1px solid var(--tf-border, #e0c888);
+  border-top: 3px solid var(--tf-accent, #b8892a);
+  border-radius: 14px;
+  padding: 16px 18px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0 3px 12px rgba(80, 55, 30, 0.07);
+  transition: box-shadow 0.15s;
+}
+.tf-card:hover {
+  box-shadow: 0 5px 20px rgba(80, 55, 30, 0.13);
+}
+
+.tf-role-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tf-role-icon {
+  font-size: 13px;
+  color: var(--tf-accent, #b8892a);
+}
+
+.tf-role-label {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--tf-accent, #b8892a);
+}
+
+.tf-time-est {
+  font-size: 10px;
+  color: var(--ink-muted);
+  margin-left: auto;
+  font-style: italic;
+}
+
+.tf-name {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--ink);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.tf-location {
+  font-size: 11px;
+  color: var(--ink-muted);
+  letter-spacing: 0.02em;
+}
+
+.tf-summary {
+  font-size: 12.5px;
+  color: var(--ink-medium);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.tf-why {
+  font-size: 11.5px;
+  color: var(--tf-accent, #b8892a);
+  font-style: italic;
+  border-left: 2px solid var(--tf-border, #e0c888);
+  padding-left: 8px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.tf-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 6px;
+  border-top: 1px solid var(--tf-border, #e8d8b0);
+}
+
+.tf-deadline {
+  font-size: 11px;
+  color: var(--ink-muted);
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tf-action-link {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--tf-accent, #b8892a);
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: opacity 0.12s;
+}
+.tf-action-link:hover { opacity: 0.7; }
