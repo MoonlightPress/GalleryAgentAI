@@ -116,6 +116,8 @@ def text_blob(opp):
         "organization",
         "category",
         "category_label",
+        "opportunity_type",
+        "relationship_note",
         "one_sentence",
         "why_this_fits_short",
     ]:
@@ -176,6 +178,16 @@ def choose_bucket(opp):
 
     if opp.get("recommendation_visibility") == "hidden":
         return "reject"
+
+    # Grants are never filtered by photography or deadline in the usual way.
+    # High-value grants → stretch_targets (pending prerequisites)
+    # Research-phase grants → research_needed
+    if opp.get("category") == "grant" or opp.get("opportunity_type") == "grant":
+        if opp.get("verification_bucket") == "stretch_targets":
+            return "stretch_targets"
+        if score >= 8.0:
+            return "stretch_targets"
+        return "research_needed"
 
     if opp.get("verification_bucket") == "reject":
         return "reject"
