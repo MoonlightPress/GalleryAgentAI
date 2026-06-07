@@ -1286,3 +1286,415 @@
   margin: 0;
   color: #3d2b1a;
 }
+
+/* ── Insight group (shared) ─────────────────────────────────────────────── */
+
+.sf-insight-group {
+  margin-bottom: 28px;
+}
+
+.sf-insight-group:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Licensing Landscape ────────────────────────────────────────────────── */
+
+.sf-licensing-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.sf-licensing-entry {
+  background: #fdf7ee;
+  border: 1px solid #e8d8c0;
+  border-radius: 7px;
+  padding: 14px 16px;
+}
+
+.sf-licensing-entry-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.sf-licensing-name {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3d2b1a;
+}
+
+.sf-tier-badge {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.sf-licensing-note {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #5a4030;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── Press & Pitch Map ──────────────────────────────────────────────────── */
+
+.sf-press-pitch-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sf-press-pitch-row {
+  background: #fdf7ee;
+  border: 1px solid #e8d8c0;
+  border-radius: 7px;
+  padding: 16px 18px;
+}
+
+.sf-press-pitch-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.sf-press-pitch-name {
+  font-family: Georgia, serif;
+  font-size: 14.5px;
+  font-weight: bold;
+  color: #3d2b1a;
+}
+
+.sf-press-pitch-type {
+  font-size: 12px;
+  color: #8a6a4a;
+  font-style: italic;
+}
+
+.sf-press-pitch-why {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  color: #5a4030;
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+
+.sf-press-pitch-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sf-press-pitch-how,
+.sf-press-pitch-contact,
+.sf-press-pitch-timeline {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #7a5a3a;
+  line-height: 1.5;
+}
+
+.sf-press-pitch-meta-label {
+  font-weight: bold;
+  color: #5a3a20;
+}
+
+/* ── Grant Landscape ────────────────────────────────────────────────────── */
+
+.sf-grant-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sf-grant-row {
+  background: #fdf7ee;
+  border: 1px solid #e8d8c0;
+  border-radius: 7px;
+  padding: 16px 18px;
+}
+
+.sf-grant-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.sf-grant-name {
+  font-family: Georgia, serif;
+  font-size: 14.5px;
+  font-weight: bold;
+  color: #3d2b1a;
+}
+
+.sf-grant-country {
+  font-size: 12px;
+  color: #8a6a4a;
+  font-style: italic;
+}
+
+.sf-grant-amount {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #5a7a30;
+  margin-bottom: 8px;
+}
+
+.sf-grant-why {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  color: #5a4030;
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+
+.sf-grant-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sf-grant-meta-row {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #7a5a3a;
+  line-height: 1.5;
+}
+
+.sf-grant-meta-label {
+  font-weight: bold;
+  color: #5a3a20;
+}
+
+.sf-grant-tip {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #7a5a3a;
+  line-height: 1.5;
+  background: #eef4e6;
+  border-left: 3px solid #7a9a40;
+  padding: 8px 12px;
+  border-radius: 0 5px 5px 0;
+  margin-top: 8px;
+}
+
+/* ── Revenue Streams ────────────────────────────────────────────────────── */
+
+.sf-revenue-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sf-revenue-row {
+  background: #fdf7ee;
+  border: 1px solid #e8d8c0;
+  border-radius: 7px;
+  padding: 16px 18px;
+}
+
+.sf-revenue-row--gap {
+  border-color: #c47a35;
+  border-left-width: 3px;
+}
+
+.sf-revenue-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.sf-revenue-stream {
+  font-family: Georgia, serif;
+  font-size: 14.5px;
+  font-weight: bold;
+  color: #3d2b1a;
+}
+
+.sf-revenue-range {
+  font-size: 12.5px;
+  color: #5a7a30;
+  font-weight: bold;
+}
+
+.sf-revenue-gap-tag {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c47a35;
+  background: #fdf0e8;
+  border: 1px solid #c47a35;
+  border-radius: 4px;
+  padding: 2px 7px;
+}
+
+.sf-revenue-desc {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  color: #5a4030;
+  line-height: 1.6;
+  margin: 0 0 8px;
+}
+
+.sf-revenue-pricing {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #7a5a3a;
+  line-height: 1.5;
+  margin-bottom: 6px;
+  background: #f5f0e8;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.sf-revenue-why {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #5a4030;
+  line-height: 1.55;
+  margin-bottom: 6px;
+}
+
+.sf-revenue-action {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #7a5a3a;
+  line-height: 1.5;
+  border-left: 3px solid #7a9a40;
+  padding: 6px 10px;
+  background: #eef4e6;
+  border-radius: 0 5px 5px 0;
+}
+
+.sf-revenue-action-label {
+  font-weight: bold;
+  color: #5a7a30;
+}
+
+/* ── Career Dependency Map ──────────────────────────────────────────────── */
+
+.sf-depmap {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.sf-depmap-milestone {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.sf-depmap-milestone-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.sf-depmap-dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.sf-depmap-phase-label {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #3d2b1a;
+}
+
+.sf-depmap-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+
+.sf-depmap-item {
+  background: #fdf7ee;
+  border: 1px solid #e8d8c0;
+  border-radius: 7px;
+  padding: 13px 15px;
+}
+
+.sf-depmap-milestone--current .sf-depmap-item {
+  border-color: #16a34a;
+  border-left-width: 3px;
+}
+
+.sf-depmap-milestone--next .sf-depmap-item {
+  border-color: #d97706;
+  border-left-width: 3px;
+}
+
+.sf-depmap-complete {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  font-weight: bold;
+  color: #3d2b1a;
+  margin-bottom: 8px;
+  line-height: 1.45;
+}
+
+.sf-depmap-complete-label {
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a6a4a;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.sf-depmap-unlocks {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.sf-depmap-unlocks-label {
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5a7a30;
+  font-weight: bold;
+  margin-right: 4px;
+  white-space: nowrap;
+  padding-top: 2px;
+}
+
+.sf-depmap-unlocks-list {
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.sf-depmap-unlocks-list li {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #5a4030;
+  line-height: 1.55;
+}
+
+.sf-depmap-connector {
+  width: 2px;
+  height: 20px;
+  background: linear-gradient(#d8c8b0, #e8d8c0);
+  margin-left: 6px;
+  margin-bottom: 8px;
+  border-radius: 1px;
+}

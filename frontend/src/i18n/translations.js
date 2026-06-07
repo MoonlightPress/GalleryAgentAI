@@ -190,6 +190,24 @@ const zh = {
 
   'sf.inPipeline':           '管线中有{n}个',
 
+  // ── Saffron insight sections ──────────────────────────────────────────────
+  'sf.licensing.title':      '授权版图',
+  'sf.licensing.summary':    '品牌与出版社愿意付费使用你的艺术作品——这是被动收入的另一条路。',
+  'sf.press.title':          '媒体投稿地图',
+  'sf.press.summary':        '哪些刊物会报道像你这样的艺术家，以及如何被发现（而非主动申请）。',
+  'sf.grant.title':          '资助资源',
+  'sf.grant.summary':        '大多数艺术家错过资助，因为他们不知道它们的存在。',
+  'sf.revenue.title':        '收入全景',
+  'sf.revenue.summary':      '90k粉丝的艺术家应该如何赚钱——以及你现在可能正在错过的部分。',
+  'sf.depmap.title':         '职业解锁树',
+  'sf.depmap.summary':       '完成这些里程碑，开启下一阶段的机会。',
+  'sf.depmap.current':       '当前阶段（1-2级）',
+  'sf.depmap.next':          '近期目标 — 1-2年',
+  'sf.depmap.future':        '中期目标 — 2-4年',
+  'sf.depmap.horizon':       '长期目标 — 5年以上',
+  'sf.depmap.completes':     '完成：',
+  'sf.depmap.unlocks':       '解锁：',
+
   // ── Peppercorn page ───────────────────────────────────────────────────────
   'pp.loading':              '胡椒粒正在倾听…',
   'pp.saving':               '保存中…',
@@ -763,6 +781,24 @@ const ja = {
 
   'sf.inPipeline':           'パイプラインに{n}件',
 
+  // ── Saffron insight sections ──────────────────────────────────────────────
+  'sf.licensing.title':      'ライセンス市場',
+  'sf.licensing.summary':    'ブランドや出版社があなたのアートにお金を払う——パッシブ収入への別ルート。',
+  'sf.press.title':          'メディア掲載マップ',
+  'sf.press.summary':        'あなたのような作家を取り上げる媒体と、応募ではなく「発見される」方法。',
+  'sf.grant.title':          '助成金マップ',
+  'sf.grant.summary':        'ほとんどのアーティストは存在を知らないまま助成金を見逃している。',
+  'sf.revenue.title':        '収入全体図',
+  'sf.revenue.summary':      '90kフォロワーのアーティストが稼ぐべき方法——今あなたが見逃している部分。',
+  'sf.depmap.title':         'キャリア解放ツリー',
+  'sf.depmap.summary':       'これらのマイルストーンを達成すると、次のステージが解放される。',
+  'sf.depmap.current':       '現在（Tier 1–2）',
+  'sf.depmap.next':          '近期 — 1〜2年',
+  'sf.depmap.future':        '中期 — 2〜4年',
+  'sf.depmap.horizon':       '長期 — 5年以上',
+  'sf.depmap.completes':     '達成：',
+  'sf.depmap.unlocks':       '解放：',
+
   // ── Peppercorn ────────────────────────────────────────────────────────────
   'pp.loading':              'ペッパーコーンが聞いています…',
   'pp.saving':               '保存中…',
@@ -1328,6 +1364,24 @@ const en = {
   'sf.barrier.high':         'high barrier',
 
   'sf.inPipeline':           '{n} in pipeline',
+
+  // ── Saffron insight sections ──────────────────────────────────────────────
+  'sf.licensing.title':      'Licensing Landscape',
+  'sf.licensing.summary':    'Brands and publishers pay to use your art — another path to passive income.',
+  'sf.press.title':          'Press & Pitch Map',
+  'sf.press.summary':        'Which publications cover artists like you, and how to be discovered (not just apply).',
+  'sf.grant.title':          'Grant Landscape',
+  'sf.grant.summary':        "Most artists miss grants because they don't know they exist.",
+  'sf.revenue.title':        'Revenue Streams',
+  'sf.revenue.summary':      'The full picture of how an artist with 90k followers should be earning — and what you may be leaving on the table.',
+  'sf.depmap.title':         'Career Unlock Tree',
+  'sf.depmap.summary':       'Complete these milestones to unlock the next stage of opportunities.',
+  'sf.depmap.current':       'Right Now (Tier 1–2)',
+  'sf.depmap.next':          'Near Term — 1–2 years',
+  'sf.depmap.future':        'Mid Term — 2–4 years',
+  'sf.depmap.horizon':       'Long Term — 5+ years',
+  'sf.depmap.completes':     'Complete:',
+  'sf.depmap.unlocks':       'Unlocks:',
 
   'pp.loading':              'Peppercorn is listening…',
   'pp.saving':               'Saving…',

@@ -2,6 +2,13 @@ import { useState, useEffect } from 'react'
 import './SaffronPage.css'
 import { saffronHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
+import {
+  LICENSING_LANDSCAPE,
+  PRESS_PITCH_MAP,
+  GRANT_LANDSCAPE,
+  REVENUE_STREAMS,
+  CAREER_DEPENDENCY_MAP,
+} from '../data/saffron_insights'
 
 // ── Shared primitives ──────────────────────────────────────────────────────
 
@@ -684,6 +691,262 @@ function OpenQuestions({ data, t }) {
   )
 }
 
+// ── Licensing Landscape ────────────────────────────────────────────────────
+
+const TIER_LABELS = { now: 'Now', near_term: 'Near term', medium_term: 'Medium term' }
+const TIER_COLORS = { now: '#16a34a', near_term: '#d97706', medium_term: '#9ca3af' }
+
+function LicensingLandscape({ t }) {
+  const d = LICENSING_LANDSCAPE
+  const summary = t(d.summaryKey)
+  return (
+    <SectionShell
+      title={t(d.titleKey)}
+      summary={summary}
+    >
+      {d.items.map((group, gi) => (
+        <div key={gi} className="sf-insight-group">
+          <div className="sf-block-label">{group.category}</div>
+          <div className="sf-licensing-entries">
+            {group.entries.map((entry, ei) => (
+              <div key={ei} className="sf-licensing-entry">
+                <div className="sf-licensing-entry-header">
+                  <span className="sf-licensing-name">{entry.name}</span>
+                  <span
+                    className="sf-tier-badge"
+                    style={{ color: TIER_COLORS[entry.tier] || '#9ca3af' }}
+                  >
+                    {TIER_LABELS[entry.tier] || entry.tier}
+                  </span>
+                </div>
+                <p className="sf-licensing-note">{entry.note}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </SectionShell>
+  )
+}
+
+// ── Press & Pitch Map ──────────────────────────────────────────────────────
+
+function PressPitchMap({ t }) {
+  const d = PRESS_PITCH_MAP
+  const summary = t(d.summaryKey)
+  // Separate the discovery note from the named outlets
+  const outlets = d.items.filter(item => item.name)
+  const discoveryNote = d.items.find(item => item.category_note)
+  return (
+    <SectionShell
+      title={t(d.titleKey)}
+      summary={summary}
+    >
+      <div className="sf-press-pitch-list">
+        {outlets.map((item, i) => (
+          <div key={i} className="sf-press-pitch-row">
+            <div className="sf-press-pitch-header">
+              <span className="sf-press-pitch-name">{item.name}</span>
+              <span className="sf-press-pitch-type">{item.type}</span>
+            </div>
+            <p className="sf-press-pitch-why">{item.why_fits}</p>
+            <div className="sf-press-pitch-meta">
+              {item.how_to_pitch && (
+                <div className="sf-press-pitch-how">
+                  <span className="sf-press-pitch-meta-label">Pitch: </span>
+                  {item.how_to_pitch}
+                </div>
+              )}
+              {item.contact && (
+                <div className="sf-press-pitch-contact">
+                  <span className="sf-press-pitch-meta-label">Contact: </span>
+                  {item.contact}
+                </div>
+              )}
+              {item.timeline && (
+                <div className="sf-press-pitch-timeline">
+                  <span className="sf-press-pitch-meta-label">Timeline: </span>
+                  {item.timeline}
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+      {discoveryNote && (
+        <div className="sf-insight-callout" style={{ marginTop: 24 }}>
+          <div className="sf-block-label">{discoveryNote.category_note}</div>
+          <p className="sf-info-text">{discoveryNote.how_discovered}</p>
+        </div>
+      )}
+    </SectionShell>
+  )
+}
+
+// ── Grant Landscape ────────────────────────────────────────────────────────
+
+function GrantLandscape({ t }) {
+  const d = GRANT_LANDSCAPE
+  const summary = t(d.summaryKey)
+  const grants = d.items.filter(item => item.name)
+  const strategyNote = d.items.find(item => item.category_note)
+  return (
+    <SectionShell
+      title={t(d.titleKey)}
+      summary={summary}
+    >
+      <div className="sf-grant-list">
+        {grants.map((grant, i) => (
+          <div key={i} className="sf-grant-row">
+            <div className="sf-grant-header">
+              <span className="sf-grant-name">{grant.name}</span>
+              <span className="sf-grant-country">{grant.country}</span>
+            </div>
+            <div className="sf-grant-amount">{grant.amount}</div>
+            <p className="sf-grant-why">{grant.why_apply}</p>
+            <div className="sf-grant-meta">
+              {grant.eligibility && (
+                <div className="sf-grant-meta-row">
+                  <span className="sf-grant-meta-label">Eligibility: </span>
+                  {grant.eligibility}
+                </div>
+              )}
+              {grant.deadline && (
+                <div className="sf-grant-meta-row">
+                  <span className="sf-grant-meta-label">Deadline: </span>
+                  {grant.deadline}
+                </div>
+              )}
+              {grant.competition && (
+                <div className="sf-grant-meta-row">
+                  <span className="sf-grant-meta-label">Competition: </span>
+                  {grant.competition}
+                </div>
+              )}
+              {grant.tip && (
+                <div className="sf-grant-tip">Tip: {grant.tip}</div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+      {strategyNote && (
+        <div className="sf-insight-callout" style={{ marginTop: 24 }}>
+          <div className="sf-block-label">{strategyNote.category_note}</div>
+          <p className="sf-info-text">{strategyNote.note}</p>
+        </div>
+      )}
+    </SectionShell>
+  )
+}
+
+// ── Revenue Streams ────────────────────────────────────────────────────────
+
+function RevenueStreams({ t }) {
+  const d = REVENUE_STREAMS
+  const summary = t(d.summaryKey)
+  const streams = d.items.filter(item => item.stream !== 'Summary assessment')
+  const summary_item = d.items.find(item => item.stream === 'Summary assessment')
+  return (
+    <SectionShell
+      title={t(d.titleKey)}
+      summary={summary}
+    >
+      <div className="sf-revenue-list">
+        {streams.map((item, i) => (
+          <div key={i} className={`sf-revenue-row${item.leaving_on_table ? ' sf-revenue-row--gap' : ''}`}>
+            <div className="sf-revenue-header">
+              <span className="sf-revenue-stream">{item.stream}</span>
+              {item.realistic_monthly && (
+                <span className="sf-revenue-range">{item.realistic_monthly}</span>
+              )}
+              {item.leaving_on_table && (
+                <span className="sf-revenue-gap-tag">gap</span>
+              )}
+            </div>
+            <p className="sf-revenue-desc">{item.description}</p>
+            {item.pricing && (
+              <div className="sf-revenue-pricing">{item.pricing}</div>
+            )}
+            {item.why_now && (
+              <div className="sf-revenue-why">{item.why_now}</div>
+            )}
+            {item.action && (
+              <div className="sf-revenue-action">
+                <span className="sf-revenue-action-label">Action: </span>
+                {item.action}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+      {summary_item && (
+        <div className="sf-pathway-callout sf-pathway-blocking" style={{ marginTop: 24 }}>
+          <div className="sf-callout-label">Assessment</div>
+          <p className="sf-callout-text">{summary_item.description}</p>
+        </div>
+      )}
+    </SectionShell>
+  )
+}
+
+// ── Career Dependency Map ──────────────────────────────────────────────────
+
+const MILESTONE_DOT_COLORS = {
+  current: '#16a34a',
+  next:    '#d97706',
+  future:  '#9ca3af',
+  horizon: '#9ca3af',
+}
+
+function CareerDependencyMap({ t }) {
+  const d = CAREER_DEPENDENCY_MAP
+  const summary = t(d.summaryKey)
+  return (
+    <SectionShell
+      title={t(d.titleKey)}
+      summary={summary}
+    >
+      <div className="sf-depmap">
+        {d.milestones.map((milestone, mi) => {
+          const dotColor = MILESTONE_DOT_COLORS[milestone.status] || '#9ca3af'
+          const phaseKey = `sf.depmap.${milestone.status}`
+          const phaseLabel = t(phaseKey) || milestone.label
+          return (
+            <div key={mi} className={`sf-depmap-milestone sf-depmap-milestone--${milestone.status}`}>
+              <div className="sf-depmap-milestone-header">
+                <span className="sf-depmap-dot" style={{ background: dotColor }} />
+                <span className="sf-depmap-phase-label">{phaseLabel}</span>
+              </div>
+              <div className="sf-depmap-items">
+                {milestone.items.map((item, ii) => (
+                  <div key={ii} className="sf-depmap-item">
+                    <div className="sf-depmap-complete">
+                      <span className="sf-depmap-complete-label">{t('sf.depmap.completes')}</span>
+                      {item.complete}
+                    </div>
+                    <div className="sf-depmap-unlocks">
+                      <span className="sf-depmap-unlocks-label">{t('sf.depmap.unlocks')}</span>
+                      <ul className="sf-depmap-unlocks-list">
+                        {item.unlocks.map((unlock, ui) => (
+                          <li key={ui}>{unlock}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              {mi < d.milestones.length - 1 && (
+                <div className="sf-depmap-connector" />
+              )}
+            </div>
+          )
+        })}
+      </div>
+    </SectionShell>
+  )
+}
+
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function SaffronPage({ nav }) {
@@ -731,6 +994,11 @@ export default function SaffronPage({ nav }) {
           <LongTermScenarios   data={data.long_term_scenarios} t={t} />
           <VenueTracker        data={data.venue_tracker}      t={t} />
           <OpenQuestions       data={data.open_questions}     t={t} />
+          <LicensingLandscape  t={t} />
+          <PressPitchMap       t={t} />
+          <GrantLandscape      t={t} />
+          <RevenueStreams       t={t} />
+          <CareerDependencyMap t={t} />
         </div>
       )}
     </div>
