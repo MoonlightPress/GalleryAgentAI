@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useLanguage } from '../i18n/LanguageContext'
+import OppDetailPanel from './OppDetailPanel'
 import './TodaysFocus.css'
 
 const ROLE_CONFIG = {
@@ -46,7 +47,7 @@ function fmtDeadline(str, lang) {
   return `${EN_MONTHS_TF[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`
 }
 
-function TodayCard({ card, role }) {
+function TodayCard({ card, role, isOpen, onDetails }) {
   if (!card) return null
   const { t: tFn, lang } = useLanguage()
   const loc = (field) => {
@@ -84,6 +85,12 @@ function TodayCard({ card, role }) {
         {hasDeadline && (
           <span className="tf-deadline">📅 {fmtDeadline(card.deadline, lang)}</span>
         )}
+        <button
+          className={`tf-details-btn${isOpen ? ' tf-details-btn--active' : ''}`}
+          onClick={onDetails}
+        >
+          {isOpen ? tFn('card.close') : tFn('card.details')}
+        </button>
         {card.submission_page && (
           <a
             className="tf-action-link"
@@ -113,6 +120,11 @@ export default function TodaysFocus() {
   const { t } = useLanguage()
   const [today, setToday] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [activeRole, setActiveRole] = useState(null)
+
+  function handleDetails(role) {
+    setActiveRole(prev => prev === role ? null : role)
+  }
 
   useEffect(() => {
     fetch('/api/today')
@@ -140,10 +152,17 @@ export default function TodaysFocus() {
         <p className="tf-section-sub">{t('tf.sub')}</p>
       </div>
       <div className="tf-grid">
-        <TodayCard card={today.quick_win}    role="quick_win" />
-        <TodayCard card={today.high_impact}  role="high_impact" />
-        <TodayCard card={today.stretch_goal} role="stretch_goal" />
+        <TodayCard card={today.quick_win}    role="quick_win"    isOpen={activeRole==='quick_win'}    onDetails={() => handleDetails('quick_win')} />
+        <TodayCard card={today.high_impact}  role="high_impact"  isOpen={activeRole==='high_impact'}  onDetails={() => handleDetails('high_impact')} />
+        <TodayCard card={today.stretch_goal} role="stretch_goal" isOpen={activeRole==='stretch_goal'} onDetails={() => handleDetails('stretch_goal')} />
       </div>
+
+      {activeRole && today[activeRole] && (
+        <OppDetailPanel
+          opp={today[activeRole]}
+          onClose={() => setActiveRole(null)}
+        />
+      )}
     </section>
   )
 }

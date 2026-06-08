@@ -134,6 +134,23 @@
   white-space: nowrap;
 }
 
+.tf-details-btn {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--paper, #faf6f0);
+  background: var(--tf-accent, #b8892a);
+  border: none;
+  border-radius: 5px;
+  padding: 3px 10px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: opacity 0.12s;
+}
+.tf-details-btn:hover { opacity: 0.8; }
+.tf-details-btn--active {
+  background: var(--ink, #3a3020);
+}
+
 .tf-action-link {
   font-size: 11.5px;
   font-weight: 600;

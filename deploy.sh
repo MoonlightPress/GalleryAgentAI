@@ -54,20 +54,18 @@ cp "$SCRIPT_DIR/deploy/install.sh"           "$OUT/"
 echo ""
 echo "==> Deploying to $SERVER"
 
-# Frontend — rsync directly to web root (avoids scp directory-nesting bug)
-rsync -a --delete -e "ssh $SSH_OPTS" \
-    "$OUT/www/" "$SERVER:/tmp/mochi-www-stage/"
-
+# Frontend — scp to staging dir, then rsync on server (avoids scp nesting bug)
+ssh $SSH_OPTS "$SERVER" "sudo rm -rf /tmp/mochi-stage && mkdir -p /tmp/mochi-stage"
+scp $SSH_OPTS -r "$OUT/www" "$SERVER:/tmp/mochi-stage/"
 ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
-  sudo rsync -a --delete /tmp/mochi-www-stage/ /var/www/mochi/
+  sudo rsync -a --delete /tmp/mochi-stage/www/ /var/www/mochi/
   sudo chown -R www-data:www-data /var/www/mochi
   sudo nginx -s reload
 REMOTE
 
-# API + data — rsync app/ to /opt/mochi/
-rsync -a -e "ssh $SSH_OPTS" \
-    "$OUT/app/" "$SERVER:/tmp/mochi-app-stage/"
-
+# API + data
+ssh $SSH_OPTS "$SERVER" "mkdir -p /tmp/mochi-app-stage"
+scp $SSH_OPTS -r "$OUT/app/." "$SERVER:/tmp/mochi-app-stage/"
 ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
   sudo rsync -a /tmp/mochi-app-stage/ /opt/mochi/
   sudo chown -R ubuntu:ubuntu /opt/mochi/api.py /opt/mochi/deploy_data /opt/mochi/memory
