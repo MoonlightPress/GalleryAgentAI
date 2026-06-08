@@ -4,22 +4,21 @@ This report checks whether high-scoring opportunities are actually supported by 
 
 ## Needs Review
 
-### ILOVETOYS / neuprint — Chinese Illustration Feature — 9.4/10 — needs review
-Positive reasons:
-- aesthetic lineage +0.8
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 ### Tokyo Art Book Fair — 9.4/10 — possibly inflated
 Positive reasons:
-- aesthetic lineage +2.58
+- aesthetic lineage +3.6
 Risks:
 - high score but few clear supporting reasons
 
 ### UTRECHT — 9.4/10 — possibly inflated
 Positive reasons:
-- aesthetic lineage +1.2
+- aesthetic lineage +2.1
+Risks:
+- high score but few clear supporting reasons
+
+### B&B Shimokitazawa — 9.4/10 — possibly inflated
+Positive reasons:
+- aesthetic lineage +0.8
 Risks:
 - high score but few clear supporting reasons
 
@@ -71,32 +70,6 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 
-### Bologna Children's Book Fair Illustrators Exhibition — 9.4/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Pinpoint Gallery — 9.4/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### AAA Gallery Yokohama — 9.4/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### B&B Shimokitazawa — 8.8/10 — possibly inflated
-Positive reasons:
-- aesthetic lineage +0.8
-Risks:
-- high score but few clear supporting reasons
-
-### Submissions - Little Press Publishing — 8.8/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 ### flotsam books — 8.8/10 — possibly inflated
 Risks:
 - high score but few clear supporting reasons
@@ -109,12 +82,12 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 
-### Casa Brutus — Architecture/Art Feature — 9.4/10 — needs review
+### Pen Magazine — Artist Spotlight — 9.4/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Pen Magazine — Artist Spotlight — 9.4/10 — needs review
+### Casa Brutus — Architecture/Art Feature — 9.4/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
@@ -122,13 +95,6 @@ Risks:
 ### MOUNT ZINE — 9.4/10 — possibly inflated
 Risks:
 - high score but few clear supporting reasons
-
-### Aperture | Photography — 8.8/10 — needs review
-Positive reasons:
-- aesthetic lineage +0.8
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
 
 ### It's Nice That — Illustration Feature — 9.4/10 — needs review
 Risks:
@@ -142,7 +108,25 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### 本店・本屋の実験室 — 8.8/10 — needs review
+### FY2026 Life with Art Grant — 9.4/10 — possibly inflated
+Positive reasons:
+- aesthetic lineage +2.02
+Risks:
+- high score but few clear supporting reasons
+
+### アートオリンピア2026 — 9.4/10 — needs review
+Positive reasons:
+- aesthetic lineage +0.9
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### Bologna Children's Book Fair Illustrators Exhibition — 9.1/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
+### Pinpoint Gallery — 9.1/10 — needs review
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
@@ -152,34 +136,34 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### Royal Watercolour Society Open Exhibition — 8.8/10 — needs review
-Positive reasons:
-- high prestige
-- global/international target
-- tag: global
+### Route Books — 9.4/10 — possibly inflated
 Risks:
-- high difficulty
+- high score but few clear supporting reasons
+
+### Submissions - Little Press Publishing — 8.8/10 — needs review
+Positive reasons:
+- aesthetic lineage +2.25
+Risks:
+- high score but few clear supporting reasons
 - high score but still needs verification
 
 ### HATTIFNATT Koenji Cafe Gallery — 9.4/10 — possibly inflated
 Risks:
 - high score but few clear supporting reasons
 
-### Full-Table - Little Tokyo Zine Fest 2026 - Eventeny — 9.2/10 — needs review
+### 2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program) — 9.4/10 — possibly inflated
 Positive reasons:
-- aesthetic lineage +0.8
+- aesthetic lineage +0.9
 Risks:
 - high score but few clear supporting reasons
-- high score but still needs verification
+
+### ACC 2026年度フェローシップおよび助成 — 9.4/10 — possibly inflated
+Positive reasons:
+- aesthetic lineage +0.9
+Risks:
+- high score but few clear supporting reasons
 
 ### Gallery IYN — 8.8/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Fukuoka Art Book Fair — 8.6/10 — needs review
-Positive reasons:
-- aesthetic lineage +1.2
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
@@ -189,27 +173,35 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### 2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program) — 9.4/10 — possibly inflated
+### Tokyo Gendai 2026 — 9.4/10 — possibly inflated
+Risks:
+- high score but few clear supporting reasons
+
+### SHIBUYA CAST. Gallery — 9.4/10 — possibly inflated
+Risks:
+- high score but few clear supporting reasons
+
+### Mograg Gallery — 9.4/10 — possibly inflated
+Risks:
+- high score but few clear supporting reasons
+
+### Gallery EF Asakusa — 9.4/10 — possibly inflated
+Positive reasons:
+- aesthetic lineage +1.35
+Risks:
+- high score but few clear supporting reasons
+
+### Nui. Hostel Bar & Lounge Asakusa — 9.4/10 — possibly inflated
 Positive reasons:
 - aesthetic lineage +0.9
 Risks:
 - high score but few clear supporting reasons
 
+### Kamome Roastery Tokyo — 9.4/10 — possibly inflated
+Risks:
+- high score but few clear supporting reasons
+
 ### 桜をテーマとするイラスト・絵画作品募集 — 9.4/10 — possibly inflated
-Risks:
-- high score but few clear supporting reasons
-
-### MICRO/MACRO — 9.4/10 — possibly inflated
-Risks:
-- high score but few clear supporting reasons
-
-### 水彩アートの祭典 — 9.4/10 — possibly inflated
-Risks:
-- high score but few clear supporting reasons
-
-### CSPWC Annual Open Water International Exhibition — 9.4/10 — possibly inflated
-Positive reasons:
-- tag: global
 Risks:
 - high score but few clear supporting reasons
 
@@ -218,5 +210,5 @@ Risks:
 
 - Center for Book Arts Opportunities — 9.4/10 — aesthetic lineage +1.2, global/international target, tag: publication, tag: global
 - BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — aesthetic lineage +0.8, tag: publication, tag: zine
-- Cité Internationale des Arts Artist Residency — 8.0/10 — high prestige, global/international target, tag: global
-- American Watercolor Society Annual International Exhibition — 7.8/10 — high prestige, global/international target, tag: global
+- American Watercolor Society Annual International Exhibition — 7.4/10 — high prestige, global/international target, tag: global
+- Cité Internationale des Arts Artist Residency — 7.3/10 — high prestige, global/international target, tag: global

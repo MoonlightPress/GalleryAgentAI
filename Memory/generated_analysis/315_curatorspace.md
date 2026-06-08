@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # CuratorSpace
 
 ## 1. Quick Judgment
-**Fit score:** 3.8/10  
+**Fit score:** 3.5/10  
 **Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Other  

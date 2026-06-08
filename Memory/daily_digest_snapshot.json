@@ -4,6 +4,7 @@
     "Women United ART MAGAZINE Issue XIV Summer 2026",
     "ZINEフェス東京 (ZINE Fest Tokyo)",
     "アートオリンピア2026",
+    "水性繪畫展覽 (Watercolor Exhibition)",
     "Tokyo Art Book Fair",
     "UTRECHT",
     "B&B Shimokitazawa",
@@ -11,12 +12,15 @@
     "MOUNT ZINE",
     "Book and Sons",
     "CSPWC Annual Open Water International Exhibition",
-    "第113回 日本水彩展"
+    "第113回 日本水彩展",
+    "第九屆水主題國際評審藝術比賽",
+    "Northwest Watercolor Society 2026 Annual International Open Exhibition"
   ],
   "ibm_scores": {
     "Women United ART MAGAZINE Issue XIV Summer 2026": 8.7,
     "ZINEフェス東京 (ZINE Fest Tokyo)": 10.0,
     "アートオリンピア2026": 9.1,
+    "水性繪畫展覽 (Watercolor Exhibition)": 9.1,
     "Tokyo Art Book Fair": 10.0,
     "UTRECHT": 10.0,
     "B&B Shimokitazawa": 10.0,
@@ -24,7 +28,9 @@
     "MOUNT ZINE": 10.0,
     "Book and Sons": 10.0,
     "CSPWC Annual Open Water International Exhibition": 9.1,
-    "第113回 日本水彩展": 8.7
+    "第113回 日本水彩展": 8.7,
+    "第九屆水主題國際評審藝術比賽": 8.7,
+    "Northwest Watercolor Society 2026 Annual International Open Exhibition": 7.2
   },
-  "opportunity_count": 345
+  "opportunity_count": 355
 }

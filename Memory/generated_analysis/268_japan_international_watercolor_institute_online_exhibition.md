@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # Japan International Watercolor Institute Online Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 6.5/10  
+**Fit score:** 6.7/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Japan Watercolor Open Call  

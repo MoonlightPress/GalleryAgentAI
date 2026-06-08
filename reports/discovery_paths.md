@@ -2,23 +2,30 @@
 
 This report suggests adjacent institutions and ecosystems.
 
-## ILOVETOYS / neuprint — Chinese Illustration Feature
-
-
 ## Tokyo Art Book Fair
 
-- Offprint (similarity 4)
-- Self Publish, Be Happy (similarity 4)
+- LOCAL Gallery・Books (similarity 5)
+- Antenna Books (similarity 4)
+- Books Ruhe (similarity 4)
+- Home - Printed Matter (similarity 4)
 - UTRECHT (similarity 3)
 - Tacoche (similarity 3)
-- Printed Matter Art Book Fairs (similarity 3)
-- Publishing / Artist Books — Battle Plan (similarity 3)
-- Home - Printed Matter (similarity 3)
+- 本店・本屋の実験室 (similarity 3)
+- SPBS (Shibuya Publishing Booksellers) (similarity 3)
 
 ## UTRECHT
 
+- LOCAL Gallery・Books (similarity 4)
+- Book Obscura (similarity 4)
+- そぞろ書房 (similarity 4)
 - Tokyo Art Book Fair (similarity 3)
+- B&B (Book & Beer) (similarity 3)
 - Tacoche (similarity 3)
+- Antenna Books (similarity 3)
+- 本店・本屋の実験室 (similarity 3)
+
+## B&B Shimokitazawa
+
 
 ## Women United ART MAGAZINE Issue XIV Summer 2026
 

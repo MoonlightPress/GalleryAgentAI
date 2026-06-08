@@ -1,12 +1,12 @@
 {
-  "venue_name": "国際交流基金（Japan Foundation）",
+  "venue_name": "Japan Foundation (国際交流基金)",
   "venue_slug": "japan_foundation",
   "venue_type": "artist opportunity venue",
   "city": "Tokyo",
   "country": "",
-  "website": "https://www.jpf.go.jp/j/program/list.html",
+  "website": "https://www.jpf.go.jp/j/program/grant.html",
   "source_links": [
-    "https://www.jpf.go.jp/j/program/list.html"
+    "https://www.jpf.go.jp/j/program/grant.html"
   ],
   "categories_seen": [
     "Grant"
@@ -25,11 +25,10 @@
   ],
   "missing_information": [
     "contact",
-    "deadline"
+    "submission process"
   ],
   "opportunity_titles": [
-    "アジア文化芸術ネットワーク強化助成【WA2.0】",
-    "アジア文化芸術フェローシップ【WA2.0】"
+    "Japan Foundation Cultural Exchange Grant"
   ],
   "last_researched": "",
   "created_at": "2026-06-08",

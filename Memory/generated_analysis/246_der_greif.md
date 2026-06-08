@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # DER GREIF
 
 ## 1. Quick Judgment
-**Fit score:** 7.1/10  
+**Fit score:** 7.3/10  
 **Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Photo Open Call  
@@ -28,12 +28,12 @@ Core public information appears present.
 Candidate discovered from Der Greif. Needs manual verification before recommendation.
 
 ## 5. Existing Fit Notes
-Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
 
 ## 6. Key Points
 - Automatically discovered candidate.
 - Needs verification before being treated as actionable.
-- Keyword hits: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+- Keyword hits: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
 
 ## 7. Submission / Logistics
 - **Deadline:** Multiple deadlines: September 1, 2026 at 11:59 PM CET; April 8, 2026; March 31, 2026; May 31, 2026; April 9, 2026; June 6, 2026

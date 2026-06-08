@@ -11,9 +11,9 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- ILOVETOYS / neuprint — Chinese Illustration Feature
 - Tokyo Art Book Fair
 - UTRECHT
+- B&B Shimokitazawa
 - Women United ART MAGAZINE Issue XIV Summer 2026
 - SUBMISSIONS - marblepress.com
 
@@ -36,7 +36,7 @@ This turns project concepts into concrete submission paths.
 - Tokyo Art Book Fair
 - UTRECHT
 - Center for Book Arts Opportunities
-- Pinpoint Gallery
+- Pen Magazine — Artist Spotlight
 - Casa Brutus — Architecture/Art Feature
 
 ### What To Prepare
@@ -55,9 +55,9 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- ILOVETOYS / neuprint — Chinese Illustration Feature
 - Tokyo Art Book Fair
 - UTRECHT
+- B&B Shimokitazawa
 - Women United ART MAGAZINE Issue XIV Summer 2026
 - SUBMISSIONS - marblepress.com
 
@@ -77,10 +77,10 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
-- Tokyo Art Book Fair
-- AAA Gallery Yokohama
+- UTRECHT
 - 水性繪畫展覽 (Watercolor Exhibition)
 - 水彩アートの祭典 (Watercolor Art Festival)
+- Pen Magazine — Artist Spotlight
 - Casa Brutus — Architecture/Art Feature
 
 ### What To Prepare

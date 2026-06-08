@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # Royal Institute of Painters in Water Colours
 
 ## 1. Quick Judgment
-**Fit score:** 5.4/10  
+**Fit score:** 4.6/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Other  

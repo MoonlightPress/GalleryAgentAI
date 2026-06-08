@@ -4,9 +4,9 @@
   "venue_type": "bookstore / print space",
   "city": "Tokyo",
   "country": "",
-  "website": "https://post-books.info/",
+  "website": "http://post-books.info/",
   "source_links": [
-    "https://post-books.info/"
+    "http://post-books.info/"
   ],
   "categories_seen": [
     "Print / Zines / Bookstores"
@@ -23,9 +23,7 @@
     "Automatically created from opportunity data.",
     "Needs manual/web research before being treated as verified."
   ],
-  "missing_information": [
-    "contact"
-  ],
+  "missing_information": [],
   "opportunity_titles": [
     "POST"
   ],

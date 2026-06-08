@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-08
 # » 21 Terrific Small Presses Open to Direct Submissions
 
 ## 1. Quick Judgment
-**Fit score:** 5.6/10  
-**Fit band:** Promising  
+**Fit score:** 4.6/10  
+**Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Book Publishing  
 **City:** Japan / Tokyo / Online  

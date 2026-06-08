@@ -28,7 +28,7 @@ Core public information appears present.
 Tokyo-based grant supporting art activities and exhibitions to integrate art into daily urban life; aligns with GEGYjiji's focus on urban observation and quiet spaces.
 
 ## 5. Existing Fit Notes
-Tokyo-based grant supporting art activities and exhibitions to integrate art into daily urban life; aligns with GEGYjiji's focus on urban observation and quiet spaces.
+The Life with Art Grant's focus on integrating art into Tokyo's everyday urban fabric directly supports GEGYjiji's practice of capturing disappearing architectural moments and quiet spaces through watercolor observation. Her daily documentation of the city's transient character aligns precisely with the program's mission to embed artistic practice into lived urban experience rather than isolate it in formal gallery contexts.
 
 ## 6. Key Points
 - No bullet analysis stored yet.

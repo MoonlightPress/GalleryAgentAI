@@ -1,5 +1,5 @@
 {
-  "venue_name": "国際交流基金（Japan Foundation）",
+  "venue_name": "Japan Foundation (国際交流基金)",
   "venue_slug": "japan_foundation",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
@@ -7,7 +7,7 @@
   "confidence": "low",
   "future_research": [
     "contact",
-    "deadline"
+    "submission process"
   ],
   "curatorial_direction": [],
   "artist_overlap_signals": [],

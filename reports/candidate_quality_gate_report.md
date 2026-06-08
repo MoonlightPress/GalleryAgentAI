@@ -110,7 +110,7 @@ Rejected: 131
 - Report this? — weak: exhibition, gallery, has submission link, score too low: 3
 - www.curatorspace.com — generic page without opportunity language
 - Report this? — generic page without opportunity language
-- The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e — generic page without opportunity language
+- Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever — strong: zine, weak: artist, score too low: 1
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -139,7 +139,7 @@ Rejected: 131
 
 ## Approved
 
-- Home - Printed Matter — strong: printed matter, zine, book fair, photobook, weak: exhibition, book
-- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, open call, zine, residency, weak: exhibition, artist
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — strong: open call, zine, submit, call for, weak: artist, has submission link
-- Art Submissions — strong: submission, open call, has submission link
+- Home - Printed Matter — strong: book fair, printed matter, photobook, zine, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, zine, submission, residency, weak: artist, exhibition
+- Art Submissions — strong: open call, submission, has submission link
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — strong: open call, call for, weak: artist, has submission link

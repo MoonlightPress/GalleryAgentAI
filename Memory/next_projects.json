@@ -32,18 +32,34 @@
       {
         "title": "Tokyo Art Book Fair",
         "score": 10.0,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.5,
         "verification": "verified",
         "hits": [
           "zine",
           "artist book",
-          "book fair"
+          "small press",
+          "book fair",
+          "memory",
+          "place"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+        "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.",
         "source": "https://tokyoartbookfair.com/"
       },
       {
         "title": "UTRECHT",
+        "score": 10.0,
+        "differentiated_score": 11.5,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "artist book",
+          "memory"
+        ],
+        "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.",
+        "source": "https://utrecht.jp/"
+      },
+      {
+        "title": "B&B Shimokitazawa",
         "score": 10.0,
         "differentiated_score": 11.39,
         "verification": "verified",
@@ -51,8 +67,8 @@
           "zine",
           "artist book"
         ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
-        "source": "https://utrecht.jp/"
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+        "source": "https://bookandbeer.com/"
       },
       {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -114,17 +130,6 @@
         ],
         "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.",
         "source": "https://tokioartbookfair.com"
-      },
-      {
-        "title": "Center for Book Arts Opportunities",
-        "score": 9.1,
-        "differentiated_score": 11.17,
-        "verification": "verified",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
-        "source": "https://centerforbookarts.org/"
       }
     ],
     "best_publisher_targets": [
@@ -241,25 +246,38 @@
       {
         "title": "Tokyo Art Book Fair",
         "score": 10.0,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.5,
         "verification": "verified",
         "hits": [
-          "documentary",
+          "memory",
           "artist book"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+        "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.",
         "source": "https://tokyoartbookfair.com/"
       },
       {
         "title": "UTRECHT",
+        "score": 10.0,
+        "differentiated_score": 11.5,
+        "verification": "verified",
+        "hits": [
+          "memory",
+          "architecture",
+          "artist book"
+        ],
+        "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.",
+        "source": "https://utrecht.jp/"
+      },
+      {
+        "title": "B&B Shimokitazawa",
         "score": 10.0,
         "differentiated_score": 11.39,
         "verification": "verified",
         "hits": [
           "artist book"
         ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
-        "source": "https://utrecht.jp/"
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+        "source": "https://bookandbeer.com/"
       },
       {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -315,17 +333,6 @@
         ],
         "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.",
         "source": "https://tokioartbookfair.com"
-      },
-      {
-        "title": "Center for Book Arts Opportunities",
-        "score": 9.1,
-        "differentiated_score": 11.17,
-        "verification": "verified",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
-        "source": "https://centerforbookarts.org/"
       }
     ],
     "best_publisher_targets": [
@@ -394,19 +401,33 @@
       {
         "title": "Tokyo Art Book Fair",
         "score": 10.0,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.5,
         "verification": "verified",
         "hits": [
           "zine",
+          "small press",
           "book fair",
           "artist book",
           "independent publishing"
         ],
-        "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.",
+        "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.",
         "source": "https://tokyoartbookfair.com/"
       },
       {
         "title": "UTRECHT",
+        "score": 10.0,
+        "differentiated_score": 11.5,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.",
+        "source": "https://utrecht.jp/"
+      },
+      {
+        "title": "B&B Shimokitazawa",
         "score": 10.0,
         "differentiated_score": 11.39,
         "verification": "verified",
@@ -415,8 +436,8 @@
           "bookstore",
           "artist book"
         ],
-        "why": "This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.",
-        "source": "https://utrecht.jp/"
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+        "source": "https://bookandbeer.com/"
       },
       {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -478,17 +499,6 @@
         ],
         "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.",
         "source": "https://tokioartbookfair.com"
-      },
-      {
-        "title": "Center for Book Arts Opportunities",
-        "score": 9.1,
-        "differentiated_score": 11.17,
-        "verification": "verified",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
-        "source": "https://centerforbookarts.org/"
       }
     ],
     "best_publisher_targets": [

@@ -7,7 +7,7 @@ Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
 
 Draft Structure:
 

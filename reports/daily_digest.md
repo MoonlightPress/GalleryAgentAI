@@ -6,7 +6,7 @@ _Previous run: 2026-06-08_
 
 No changes detected.
 
-## Immediate Best Moves (11)
+## Immediate Best Moves (14)
 
 ### **Women United ART MAGAZINE Issue XIV Summer 2026**
 - **Apply by:** June 10, 2026 — _2d — this week_
@@ -26,19 +26,25 @@ No changes detected.
 - **Apply by:** 2026-07-31 — _53d_
 - **Fee:** 一般：1点 1万2000円、2点 2万円、3点 2万4000円。学生（30歳以下）：1点 6000円、2点 1万円、3点 1万2000円
 - **Link:** https://compe.japandesign.ne.jp/artolympia-2026
-- _Open call art exhibition event running May 20-27, 2026, accepting various media including watercolor._
+- _アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offe_
+
+### 水性繪畫展覽 (Watercolor Exhibition)
+- **Apply by:** 2月26日 (February 26) — _263d_
+- **Fee:** ['26 euros (first work), 10 euros (additional)', '$45.00 (first painting), $10.00 (second painting)', None]
+- **Link:** ['https://www.facebook.com/groups/399439684424141/posts/1630603444641086', 'https://artist.callforentry.org/festivals_unique_info.php?ID=14119', 'https://artdeadline.com/ops/san-diego-watercolor-society']
+- _Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026._
 
 ### Tokyo Art Book Fair
 - **Apply by:** 2027年1月21日
 - **Fee:** 1,000円
 - **Link:** https://tokyoartbookfair.com/application/
-- _Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor se_
+- _Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting_
 
 ### UTRECHT
 - **Apply by:** 1 July 2025
 - **Fee:** Free
 - **Link:** https://utrecht.jp/
-- _This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in pr_
+- _UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale_
 
 ### B&B Shimokitazawa
 - **Apply by:** 2026年06月06日
@@ -72,7 +78,18 @@ No changes detected.
 ### 第113回 日本水彩展
 - **Apply by:** — _(contact / propose)_
 - **Link:** https://www.nihonsuisai.or.jp/index.html
-- _Major national watercolor painting exhibition accepting watercolor and pastel works, held at Tokyo Metropolitan Art Museum_
+- _The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moment_
+
+### 第九屆水主題國際評審藝術比賽
+- **Apply by:** May 15th
+- **Fee:** $15
+- **Link:** https://bhuntr.com/tw/competitions/208h5hxfrofrnv2jhx
+- _Water-themed international art competition accepting watercolor works from global artists, directly aligned with watercolor practice._
+
+### Northwest Watercolor Society 2026 Annual International Open Exhibition
+- **Apply by:** — _(contact / propose)_
+- **Link:** https://www.nwws.org/annual-international-open/
+- _Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusu_
 
 ## Watch List
 

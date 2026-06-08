@@ -1,7 +1,7 @@
 # Books Ruhe
 
 ## 1. Quick Judgment
-**Fit score:** 9.1/10  
+**Fit score:** 9.6/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Print / Zines / Bookstores  
@@ -25,7 +25,7 @@ Verified: Official/source website. Needs checking: Submission process, Deadline,
 Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.
 
 ## 5. Existing Fit Notes
-Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.
+Books Ruhe's thoughtful curation of artist publications and small editions aligns with her daily watercolor practice—work that captures fleeting urban moments and architectural detail in a format suited to intimate, printed viewing. As a local Kichijoji bookstore positioned between gallery and retail, it's a natural distribution point for an early-stage painter building a presence through limited editions and artist books.
 
 ## 6. Key Points
 - Type: independent bookstore.
@@ -47,4 +47,4 @@ Research stock and whether zines/artist books are represented.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_

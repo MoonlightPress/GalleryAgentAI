@@ -1,13 +1,13 @@
 # Smart Cover Letter — LOCAL Gallery・Books
 
 Tone:
-gentle and curious
+focused and editorial
 
 Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Local Koenji book/gallery target; useful for a quiet works-on-paper artist and local relationship building.
+LOCAL Gallery・Books' focus on independent publications and works-on-paper aligns naturally with GEGYjiji's daily watercolor practice and archive of quiet urban moments—formats that translate directly into zine or artist book form. As a Koenji-based venue, it offers genuine community embedding potential for an artist whose practice is rooted in observing and documenting the specific atmospheres of Tokyo neighborhoods.
 
 Draft Structure:
 

@@ -4,10 +4,10 @@ Tone:
 gentle and curious
 
 Recommended Body of Work:
-Artist Book / Printed Matter
+Architecture / Memory / Place
 
 Core Fit:
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+ART BOX Publishing's focus on visual narratives and artists' books aligns with GEGYjiji's sustained daily practice of capturing ephemeral urban moments through watercolor—work that translates naturally into a collected, sequential format. Her architectural studies and atmospheric observations of Tokyo's changing streets would resonate with a publisher invested in documenting place and memory through the printed page.
 
 Draft Structure:
 

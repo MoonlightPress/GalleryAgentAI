@@ -338,6 +338,27 @@
       "new_opps": 0,
       "quota_hit": false,
       "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-08T10:30:10.300220",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-08T10:39:49.692536",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-08T10:48:54.216639",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
     }
   ]
 }

@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-08
 # Design Festa
 
 ## 1. Quick Judgment
-**Fit score:** 8.0/10  
-**Fit band:** Excellent fit  
+**Fit score:** 7.6/10  
+**Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Tokyo  

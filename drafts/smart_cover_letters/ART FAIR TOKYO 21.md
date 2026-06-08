@@ -7,7 +7,7 @@ Recommended Body of Work:
 Community / Local Visibility
 
 Core Fit:
-Major Tokyo art fair with open call for exhibitors; relevant for artists seeking fair booth participation opportunities.
+ART FAIR TOKYO's open-booth model offers direct access to Tokyo's collectors and galleries who actively seek painters working in traditional media focused on urban observation—precisely GEGYjiji's core practice of documenting the city's fleeting architectural moments. As a daily practitioner building visibility in her home market, a major Tokyo fair booth provides strategic exposure to audiences already aligned with her aesthetic of quiet, introspective cityscapes.
 
 Draft Structure:
 

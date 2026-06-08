@@ -4264,9 +4264,9 @@
     ]
   },
   {
-    "title": "The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e",
+    "title": "Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever",
     "organization": "CuratorSpace",
-    "category": "gallery_event",
+    "category": "zine_print",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -4275,21 +4275,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "why_this_fits_short": "Possible fit based on link text: zine",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: exhibition"
+      "Keyword hits: zine"
     ],
     "fit_keyword_hits": [
-      "exhibition"
+      "zine"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -4300,7 +4300,9 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "generic page without opportunity language"
+      "strong: zine",
+      "weak: artist",
+      "score too low: 1"
     ]
   },
   {

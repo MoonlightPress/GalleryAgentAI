@@ -1,16 +1,16 @@
 # Portfolio Pitch — Submissions - Little Press Publishing
 
 ## Recommended Body of Work
-Artist Book / Printed Matter
+Architecture / Memory / Place
 
 ## Why This Body Fits
-Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
+Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
 
 ## Opportunity Fit
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+Little Press Publishing's focus on visual narratives and artist monographs aligns with GEGYjiji's sustained daily practice of capturing Tokyo's ephemeral urban moments through watercolor, offering a natural format to compile her architectural observations and memory-based work into a cohesive body. As a Japan-based small press, they represent a direct fit for documenting work that's deeply rooted in Tokyo's specific geography and quiet atmospheric study.
 
 ## Match Signals
-small press
+memory, urban, quiet, atmospheric
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

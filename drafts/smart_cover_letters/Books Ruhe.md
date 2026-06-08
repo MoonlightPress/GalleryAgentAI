@@ -1,13 +1,13 @@
 # Smart Cover Letter — Books Ruhe
 
 Tone:
-gentle and curious
+focused and editorial
 
 Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Independent bookstore in Kichijoji. More general than zine-specific, but useful for local bookstore mapping.
+Books Ruhe's thoughtful curation of artist publications and small editions aligns with her daily watercolor practice—work that captures fleeting urban moments and architectural detail in a format suited to intimate, printed viewing. As a local Kichijoji bookstore positioned between gallery and retail, it's a natural distribution point for an early-stage painter building a presence through limited editions and artist books.
 
 Draft Structure:
 

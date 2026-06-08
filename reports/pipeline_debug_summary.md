@@ -1,19 +1,20 @@
 # Pipeline Debug Summary
 
-- opportunities: 345
+- opportunities: 355
 - candidates: 135
 - approved_candidates: 4
 - rejected_candidates: 131
 - strategy_feed: 7
-- fit_audit: 345
+- fit_audit: 355
 
 ## Top 15 Opportunities
 
-- Tokyo Art Book Fair — 10.0/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=10.32)
-- UTRECHT — 10.0/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.32)
+- Tokyo Art Book Fair — 10.0/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=10.36)
+- UTRECHT — 10.0/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.36)
+- B&B Shimokitazawa — 10.0/10 — verified — ok — Rescored 9.4 → 8.0 (verification_points=4, composite=8.58)
 - Women United ART MAGAZINE Issue XIV Summer 2026 — 8.7/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.52)
 - SUBMISSIONS - marblepress.com — 8.7/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=9.66)
-- 美術手帖 (Bijutsu Techo) — Artist Feature — 8.7/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=9.59)
+- 美術手帖 (Bijutsu Techo) — Artist Feature — 8.7/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=9.62)
 - ZINEフェス東京 (ZINE Fest Tokyo) — 10.0/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.2)
 - TOKIO ART BOOK FAIR 2026 — 8.5/10 — verified — ok — Rescored 9.4 → 6.0 (verification_points=6, composite=6.0)
 - Center for Book Arts Opportunities — 9.1/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=6, composite=9.57)
@@ -23,14 +24,13 @@
 - World Illustration Awards — 9.1/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=6, composite=10.34)
 - Jackson's Art Prize — 9.1/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=6, composite=10.34)
 - The Artcomplex Center of Tokyo — 9.1/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=9.56)
-- Society of Women Artists — 9.1/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=9.56)
 
 ## Approved Candidate Sample
 
-- Home - Printed Matter — 8.5 — approved — strong: printed matter, zine, book fair, photobook, weak: exhibition, book
-- Top Artist Opportunities for 2026 | ArtConnect — 7.65 — approved — strong: submission, open call, zine, residency, weak: exhibition, artist
-- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — 5.4 — approved — strong: open call, zine, submit, call for, weak: artist, has submission link
-- Art Submissions — 4.7 — approved — strong: submission, open call, has submission link
+- Home - Printed Matter — 8.5 — approved — strong: book fair, printed matter, photobook, zine, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — 7.65 — approved — strong: open call, zine, submission, residency, weak: artist, exhibition
+- Art Submissions — 4.7 — approved — strong: open call, submission, has submission link
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — 4.7 — approved — strong: open call, call for, weak: artist, has submission link
 
 ## Rejected Candidate Sample
 

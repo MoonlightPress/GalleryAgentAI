@@ -1,20 +1,20 @@
 # AAA Gallery Yokohama
 
 ## 1. Quick Judgment
-**Fit score:** 8.0/10  
+**Fit score:** 9.0/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Other  
 **City:** City not listed  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Deadline, Fees, Contact. Needs checking: Submission process.
 
 - **Official/source website**: https://artaraqasia.com/ (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
-- **Fees**: Not publicly listed (needs_inquiry)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Deadline**: Sep 14th 10am-1pm (verified)
+- **Fees**: Free (verified)
+- **Contact**: SacAnimeArtists@gmail.com (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Other.
@@ -25,14 +25,14 @@ Verified: Official/source website. Needs checking: Submission process, Deadline,
 AAA Gallery Yokohama is a gallery open call source in Yokohama for watercolor / works on paper research.
 
 ## 5. Existing Fit Notes
-Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+AAA Gallery Yokohama's focus on works on paper research aligns directly with GEGYjiji's watercolor practice and daily observation methodology, offering a venue that understands the specificity of her medium rather than treating it as secondary. Her documentation of Tokyo's urban environments and fleeting architectural moments would resonate with a gallery dedicated to exploring the nuances of watercolor as a serious research-based practice.
 
 ## 6. Key Points
 - No bullet analysis stored yet.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** Sep 14th 10am-1pm
+- **Fees:** Free
 - **Submission page:** Not publicly listed
 - **Source:** https://artaraqasia.com/
 
@@ -45,4 +45,4 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-08_

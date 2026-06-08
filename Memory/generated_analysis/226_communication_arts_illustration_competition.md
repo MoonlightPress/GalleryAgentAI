@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # Communication Arts Illustration Competition
 
 ## 1. Quick Judgment
-**Fit score:** 7.3/10  
+**Fit score:** 7.1/10  
 **Fit band:** Strong fit  
 **Confidence:** Medium  
 **Type:** Other  

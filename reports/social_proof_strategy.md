@@ -35,13 +35,13 @@ These opportunities may create disproportionate reputation value.
 ## Offprint
 
 - Prestige: 8.3
-- Why: Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
+- Why: Offprint's focus on artist-led publishing aligns with GEGYjiji's daily watercolor practice and atmospheric documentation of urban environments—her body of quiet architectural work translates naturally into intimate printed matter. The fair's experimental publishing ethos matches her approach to capturing fleeting moments of Tokyo's cityscape, where the page becomes an extension of her observational practice rather than a secondary format.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Self Publish, Be Happy
 
 - Prestige: 8.0
-- Why: Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
+- Why: Self Publish, Be Happy's focus on watercolor sequences and artist-led books aligns perfectly with GEGYjiji's daily practice of capturing fleeting urban moments—her work naturally reads as a serialized visual journal rather than discrete gallery pieces. The platform's emphasis on works on paper and quiet, introspective narratives creates space for her architectural observations and disappearing Tokyo scenes to reach collectors and peers who value contemplative, process-driven practices over conventional exhibition cycles.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Center for Book Arts Opportunities
@@ -62,22 +62,22 @@ These opportunities may create disproportionate reputation value.
 - Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## ILOVETOYS / neuprint — Chinese Illustration Feature
-
-- Prestige: None
-- Why: She's Chinese. 'Chinese artist documenting Tokyo through watercolor' is exactly the cross-cultural story these publications want. Near-term opportunity with lower competition than Japanese press.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
 ## Tokyo Art Book Fair
 
 - Prestige: None
-- Why: Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+- Why: Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## UTRECHT
 
 - Prestige: None
-- Why: This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
+- Why: UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## B&B Shimokitazawa
+
+- Prestige: None
+- Why: Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Women United ART MAGAZINE Issue XIV Summer 2026
@@ -146,8 +146,8 @@ These opportunities may create disproportionate reputation value.
 - Why: Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## Bologna Children's Book Fair Illustrators Exhibition
+## 水性繪畫展覽 (Watercolor Exhibition)
 
 - Prestige: None
-- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+- Why: Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

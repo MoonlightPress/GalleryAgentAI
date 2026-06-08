@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # Art on Climate インターナショナル・イラストレーション・コンテスト 2026
 
 ## 1. Quick Judgment
-**Fit score:** 4.8/10  
+**Fit score:** 4.9/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Global Open Call  

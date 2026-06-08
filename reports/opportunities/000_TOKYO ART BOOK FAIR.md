@@ -25,7 +25,7 @@ Core public information appears present.
 Tokyo Art Book Fair is a respected independent publishing event that could work if you're developing artist books or zines documenting disappearing spaces, but requires finished publications and multi-day booth presence.
 
 ## 5. Existing Fit Notes
-Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
+Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
 
 ## 6. Key Points
 - Requires printed publication material (artist books, zines, print editions) - not original watercolor / works on papers or reproductions

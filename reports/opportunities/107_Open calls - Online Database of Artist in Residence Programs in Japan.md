@@ -1,17 +1,17 @@
 # Open calls - Online Database of Artist in Residence Programs in Japan
 
 ## 1. Quick Judgment
-**Fit score:** 8.8/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Japan / Tokyo / Online  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
 
 - **Official/source website**: https://air-j.info/en/program/ (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://form.run/@2027RR (verified)
 - **Deadline**: Check source (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
@@ -36,7 +36,7 @@ Potential fit because it belongs to a structured opportunity category where requ
 ## 7. Submission / Logistics
 - **Deadline:** Check source
 - **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Submission page:** https://form.run/@2027RR
 - **Source:** https://air-j.info/en/program/
 
 ## 8. Risk / Unknowns
@@ -48,4 +48,4 @@ Open the source and confirm deadline, fee, eligibility, and required image files
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_

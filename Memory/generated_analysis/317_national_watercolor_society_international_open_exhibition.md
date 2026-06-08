@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # National Watercolor Society International Open Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 4.2/10  
+**Fit score:** 4.4/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Global Watercolor Open Call  

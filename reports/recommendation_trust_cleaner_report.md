@@ -1,4 +1,4 @@
 # Recommendation Trust Cleaner Report
 
-Text fields cleaned: 6
+Text fields cleaned: 0
 Junk opportunities hidden: 22

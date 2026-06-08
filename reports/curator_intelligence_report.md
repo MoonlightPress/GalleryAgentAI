@@ -4,6 +4,6 @@ This report identifies recurring curatorial and institutional patterns.
 
 ## Pattern Frequency
 
+- quiet_photography: 18
+- community_space: 7
 - photobook: 6
-- quiet_photography: 6
-- community_space: 5

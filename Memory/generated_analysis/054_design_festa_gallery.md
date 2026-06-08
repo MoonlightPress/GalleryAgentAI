@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-03
+REPORT GENERATED: 2026-06-08
 
 # DESIGN FESTA GALLERY
 
@@ -11,13 +11,13 @@ REPORT GENERATED: 2026-06-03
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://designfestagallery.com/ (verified)
 - **Submission process**: https://designfestagallery.com/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2026年5月29日 (verified)
+- **Fees**: 5,000円 (verified)
+- **Contact**: TEL: 03-3479-1442 (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Galleries / Exhibition Calls.
@@ -36,8 +36,8 @@ It doesn't fit. This matches two specific categories you've identified as harmfu
 - High foot traffic but predominantly tourist and casual audience unlikely to engage with work as cultural documentation
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** 2026年5月29日
+- **Fees:** 5,000円
 - **Submission page:** https://designfestagallery.com/
 - **Source:** https://designfestagallery.com/
 
@@ -50,5 +50,5 @@ Skip—this conflicts directly with your stated positioning goals and avoidance 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-03_
+_Last generated: 2026-06-08_
 

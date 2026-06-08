@@ -1,16 +1,16 @@
 # Portfolio Pitch — AAA Gallery Yokohama
 
 ## Recommended Body of Work
-Artist Book / Printed Matter
+Daily Poetic Photography
 
 ## Why This Body Fits
-Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
+A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.
 
 ## Opportunity Fit
-Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+AAA Gallery Yokohama's focus on works on paper research aligns directly with GEGYjiji's watercolor practice and daily observation methodology, offering a venue that understands the specificity of her medium rather than treating it as secondary. Her documentation of Tokyo's urban environments and fleeting architectural moments would resonate with a gallery dedicated to exploring the nuances of watercolor as a serious research-based practice.
 
 ## Match Signals
-paper
+daily, observation
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

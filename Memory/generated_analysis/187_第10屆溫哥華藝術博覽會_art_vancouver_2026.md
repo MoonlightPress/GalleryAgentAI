@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-08
 
 # 第10屆溫哥華藝術博覽會 (Art Vancouver 2026)
 
 ## 1. Quick Judgment
-**Fit score:** 6.4/10  
-**Fit band:** Promising  
+**Fit score:** 7.9/10  
+**Fit band:** Strong fit  
 **Confidence:** Medium  
 **Type:** Markets / Popups / Booths  
 **City:** Vancouver  
@@ -48,5 +48,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_
 

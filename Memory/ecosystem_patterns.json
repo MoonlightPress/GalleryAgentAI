@@ -2,42 +2,34 @@
   "dominant_countries": [
     [
       "Japan",
-      43
+      53
     ],
     [
       "Global",
-      8
+      6
     ],
     [
       "USA",
-      6
+      5
     ],
     [
       "International",
-      6
+      5
     ],
     [
       "Canada",
-      5
+      4
     ],
     [
       "UK",
       3
     ],
     [
-      "China",
-      2
-    ],
-    [
-      "UK / Global",
-      2
-    ],
-    [
       "Tokyo",
       2
     ],
     [
-      "Yokohama",
+      "UK / Global",
       1
     ],
     [
@@ -49,7 +41,7 @@
       1
     ],
     [
-      "France / UK",
+      "China",
       1
     ],
     [
@@ -67,36 +59,40 @@
       14
     ],
     [
-      "grant",
-      9
+      "cafe_gallery",
+      12
+    ],
+    [
+      "bookstore_gallery",
+      11
     ],
     [
       "japan_watercolor_open_call",
       8
     ],
     [
-      "fair_popup",
+      "grant",
       7
     ],
     [
-      "bookstore_gallery",
+      "zine_print",
       7
     ],
     [
       "global_open_call",
-      7
+      6
     ],
     [
       "press_target",
-      6
-    ],
-    [
-      "zine_print",
-      6
+      5
     ],
     [
       "global_watercolor_open_call",
       5
+    ],
+    [
+      "fair_popup",
+      4
     ],
     [
       "zine_shop_consignment",
@@ -111,15 +107,11 @@
       4
     ],
     [
-      "gallery_event",
-      4
-    ],
-    [
       "book_publishing",
       3
     ],
     [
-      "cafe_gallery",
+      "gallery_event",
       3
     ],
     [
@@ -135,8 +127,8 @@
       2
     ],
     [
-      "global_art_book_fair",
-      2
+      "bookstore_event",
+      1
     ],
     [
       "global_book_arts",
@@ -146,82 +138,86 @@
   "dominant_tags": [
     [
       "japanese_source",
-      25
+      26
     ],
     [
       "japan",
-      24
-    ],
-    [
-      "has_deadline",
-      22
+      25
     ],
     [
       "jp",
-      20
+      21
     ],
     [
       "has_submission_url",
-      20
+      19
+    ],
+    [
+      "has_deadline",
+      19
     ],
     [
       "secondary",
-      16
+      18
     ],
     [
       "",
-      16
+      18
+    ],
+    [
+      "tokyo",
+      18
+    ],
+    [
+      "tier_1",
+      14
     ],
     [
       "watercolor_ok",
       11
     ],
     [
+      "relationship",
+      10
+    ],
+    [
+      "cafe_gallery",
+      10
+    ],
+    [
       "diaspora",
-      9
-    ],
-    [
-      "grant",
-      9
-    ],
-    [
-      "funding",
-      9
-    ],
-    [
-      "global",
-      8
+      7
     ],
     [
       "diaspora_community",
-      8
-    ],
-    [
-      "tokyo",
       7
     ],
     [
-      "chinese_source",
+      "consignment",
       7
     ],
     [
-      "press",
-      6
+      "grant",
+      7
     ],
     [
-      "editorial",
-      6
-    ],
-    [
-      "zine",
-      6
+      "funding",
+      7
     ],
     [
       "Tier1",
       6
     ],
     [
-      "publication",
+      "press",
+      5
+    ],
+    [
+      "editorial",
+      5
+    ],
+    [
+      "global",
       5
     ],
     [
@@ -229,7 +225,7 @@
       5
     ],
     [
-      "consignment",
+      "zine",
       5
     ],
     [
@@ -245,15 +241,11 @@
       4
     ],
     [
-      "cn",
+      "chinese_source",
       4
     ],
     [
-      "tier_1",
-      3
-    ],
-    [
-      "lifestyle",
+      "publication",
       3
     ],
     [
@@ -261,12 +253,24 @@
       3
     ],
     [
+      "lifestyle",
+      3
+    ],
+    [
+      "bookstore_gallery",
+      3
+    ],
+    [
+      "koenji",
+      3
+    ],
+    [
       "watercolor",
       3
     ],
     [
-      "illustration",
-      2
+      "cn",
+      3
     ],
     [
       "emerging_artist",
@@ -281,27 +285,15 @@
       2
     ],
     [
-      "portfolio_builder",
+      "illustration_friendly",
       2
     ],
     [
-      "career_changing",
+      "acc",
       2
     ],
     [
-      "prestige",
-      2
-    ],
-    [
-      "koenji",
-      2
-    ],
-    [
-      "cafe_gallery",
-      2
-    ],
-    [
-      "record shop",
+      "chinese_national_eligible",
       2
     ]
   ]

@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-08
 
 # shashasha
 
 ## 1. Quick Judgment
-**Fit score:** 7.1/10  
-**Fit band:** Strong fit  
+**Fit score:** 6.1/10  
+**Fit band:** Promising  
 **Confidence:** Low  
 **Type:** Book Publishing  
 **City:** Tokyo / Online  
@@ -50,5 +50,5 @@ Review listed artists/books and compare format, pricing, edition size, and tone.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-08_
 

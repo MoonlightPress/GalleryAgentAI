@@ -4,10 +4,10 @@ Tone:
 focused and editorial
 
 Recommended Body of Work:
-Artist Book / Printed Matter
+Daily Poetic Photography
 
 Core Fit:
-Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.
+Tacoche's focus on artist-produced books and zines aligns perfectly with GEGYjiji's daily watercolor practice—the venue amplifies work-on-paper documentation of fleeting urban moments, which is central to her observation-based practice. Her 90k Instagram audience and architectural subject matter position her watercolors as natural candidates for the printed, intimate scale that Tacoche's independent publishing model celebrates.
 
 Draft Structure:
 

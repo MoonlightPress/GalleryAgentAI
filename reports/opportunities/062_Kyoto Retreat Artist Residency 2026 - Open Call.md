@@ -1,19 +1,19 @@
 # Kyoto Retreat Artist Residency 2026 - Open Call
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Residencies / Longer Projects  
 **City:** Japan / Tokyo / Online  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://kyotoretreat.slideroom.com (verified)
 - **Deadline**: Check source (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Fees**: $95.00 (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -35,8 +35,8 @@ Potential fit because it belongs to a structured opportunity category where requ
 
 ## 7. Submission / Logistics
 - **Deadline:** Check source
-- **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Fees:** $95.00
+- **Submission page:** https://kyotoretreat.slideroom.com
 - **Source:** https://www.xhbt.org/open-calls/kyoto-retreat-4-week-international-artist-residency
 
 ## 8. Risk / Unknowns
@@ -48,4 +48,4 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-08_

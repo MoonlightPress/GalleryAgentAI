@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # Brillia Art Award Wall 2026
 
 ## 1. Quick Judgment
-**Fit score:** 9.1/10  
+**Fit score:** 9.0/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Institutional / Grants  

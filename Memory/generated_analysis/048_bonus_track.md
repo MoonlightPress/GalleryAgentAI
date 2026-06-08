@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-08
 
 # BONUS TRACK
 
@@ -11,13 +11,13 @@ REPORT GENERATED: 2026-06-01
 **City:** Shimokitazawa  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://bonus-track.net/ (verified)
 - **Submission process**: https://bonus-track.net/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Deadline**: February 2nd, 2026 (verified)
+- **Fees**: Free (verified)
+- **Contact**: @bonustrack_skz (Instagram/Twitter) (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Markets / Popups / Booths.
@@ -36,8 +36,8 @@ Shimokitazawa's alternative cultural energy could align with your work, but this
 - Would require direct inquiry to understand if/how visual artists participate
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** February 2nd, 2026
+- **Fees:** Free
 - **Submission page:** https://bonus-track.net/
 - **Source:** https://bonus-track.net/
 
@@ -50,5 +50,5 @@ Bookmark for in-person exploration if visiting Tokyo; not worth pursuing remotel
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-08_
 

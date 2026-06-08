@@ -25,7 +25,7 @@ Core public information appears present.
 Tokyo independent art bookstore with gallery space focused on zines and artist books—low-pressure venue where your work could exist as printed matter alongside exhibition.
 
 ## 5. Existing Fit Notes
-This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
+UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
 
 ## 6. Key Points
 - Perfect fit for work that bridges illustration and fine art without needing heavy conceptual framing

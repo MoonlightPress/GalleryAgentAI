@@ -1,8 +1,8 @@
 # New Power展 | ギャラリー自由が丘で作家デビュー
 
 ## 1. Quick Judgment
-**Fit score:** 6.8/10  
-**Fit band:** Promising  
+**Fit score:** 9.0/10  
+**Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  
@@ -48,4 +48,4 @@ Review current/past artists and check whether submissions, contact email, or ope
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_
