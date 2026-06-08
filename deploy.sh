@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
-# deploy.sh — local preparation script (run on your dev machine).
-# Builds the React frontend and assembles a self-contained deploy package.
+# deploy.sh — build and deploy to Lightsail in one shot.
 # Run with: bash deploy.sh
 # On Windows: use Git Bash or WSL.
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OUT="$SCRIPT_DIR/deploy_package"
+SSH_KEY="$SCRIPT_DIR/Web/LightsailDefaultKey-us-east-1.pem"
+SERVER="ubuntu@18.206.62.200"
+SSH_OPTS="-i $SSH_KEY -o StrictHostKeyChecking=no"
 
 echo "==> Building React frontend"
 cd "$SCRIPT_DIR/frontend"
@@ -50,14 +52,40 @@ cp "$SCRIPT_DIR/deploy/mochi-api.service"    "$OUT/"
 cp "$SCRIPT_DIR/deploy/install.sh"           "$OUT/"
 
 echo ""
-echo "============================================================"
-echo "  Package ready: $OUT"
+echo "==> Deploying to $SERVER"
+
+# Frontend — rsync directly to web root (avoids scp directory-nesting bug)
+rsync -a --delete -e "ssh $SSH_OPTS" \
+    "$OUT/www/" "$SERVER:/tmp/mochi-www-stage/"
+
+ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
+  sudo rsync -a --delete /tmp/mochi-www-stage/ /var/www/mochi/
+  sudo chown -R www-data:www-data /var/www/mochi
+  sudo nginx -s reload
+REMOTE
+
+# API + data — rsync app/ to /opt/mochi/
+rsync -a -e "ssh $SSH_OPTS" \
+    "$OUT/app/" "$SERVER:/tmp/mochi-app-stage/"
+
+ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
+  sudo rsync -a /tmp/mochi-app-stage/ /opt/mochi/
+  sudo chown -R ubuntu:ubuntu /opt/mochi/api.py /opt/mochi/deploy_data /opt/mochi/memory
+  sudo systemctl restart mochi-api
+REMOTE
+
 echo ""
-echo "  Upload to your Lightsail server:"
-echo "    scp -r deploy_package/ ubuntu@YOUR_IP:/tmp/mochi-deploy"
-echo ""
-echo "  Then SSH in and run:"
-echo "    sudo bash /tmp/mochi-deploy/install.sh"
-echo ""
-echo "  See README_DEPLOY.md for full step-by-step instructions."
-echo "============================================================"
+echo "==> Verifying..."
+sleep 2
+HTTP=$(ssh $SSH_OPTS "$SERVER" "curl -s -o /dev/null -w '%{http_code}' http://localhost/")
+API=$(ssh $SSH_OPTS "$SERVER" "curl -s -o /dev/null -w '%{http_code}' http://localhost:8001/api/opportunities")
+echo "  Frontend: $HTTP"
+echo "  API:      $API"
+
+if [ "$HTTP" = "200" ] && [ "$API" = "200" ]; then
+  echo ""
+  echo "  Deploy successful. http://18.206.62.200"
+else
+  echo ""
+  echo "  WARNING: one or more services not returning 200 — check logs on server."
+fi
