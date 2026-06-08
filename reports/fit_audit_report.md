@@ -4,6 +4,13 @@ This report checks whether high-scoring opportunities are actually supported by 
 
 ## Needs Review
 
+### ILOVETOYS / neuprint — Chinese Illustration Feature — 9.4/10 — needs review
+Positive reasons:
+- aesthetic lineage +0.8
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### Tokyo Art Book Fair — 9.4/10 — possibly inflated
 Positive reasons:
 - aesthetic lineage +2.58
@@ -17,6 +24,12 @@ Risks:
 - high score but few clear supporting reasons
 
 ### SUBMISSIONS - marblepress.com — 9.4/10 — possibly inflated
+Risks:
+- high score but few clear supporting reasons
+
+### 美術手帖 (Bijutsu Techo) — Artist Feature — 9.4/10 — possibly inflated
+Positive reasons:
+- aesthetic lineage +0.8
 Risks:
 - high score but few clear supporting reasons
 
@@ -111,6 +124,11 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
+### It's Nice That — Illustration Feature — 9.2/10 — needs review
+Risks:
+- high score but few clear supporting reasons
+- high score but still needs verification
+
 ### AAA Gallery Yokohama — 9.0/10 — needs review
 Risks:
 - high score but few clear supporting reasons
@@ -125,14 +143,17 @@ Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### SUZURI — Japanese Print-on-Demand Platform — 8.8/10 — needs review
+### Apartamento — Artist Feature — 9.1/10 — needs review
+Positive reasons:
+- aesthetic lineage +0.9
 Risks:
 - high score but few clear supporting reasons
 - high score but still needs verification
 
-### ART SG 2026 — 9.4/10 — possibly inflated
+### SUZURI — Japanese Print-on-Demand Platform — 8.8/10 — needs review
 Risks:
 - high score but few clear supporting reasons
+- high score but still needs verification
 
 ### 桜をテーマとするイラスト・絵画作品募集 — 9.4/10 — possibly inflated
 Risks:
@@ -179,27 +200,8 @@ Risks:
 Risks:
 - high score but few clear supporting reasons
 
-### Laugh & Peace Art Competition 2026 — 9.4/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### COW BOOKS Nakameguro — 8.6/10 — needs review
-Positive reasons:
-- aesthetic lineage +2.15
-Risks:
-- many missing verification fields: submission, deadline, contact
-- high score but few clear supporting reasons
-- high score but still needs verification
-
-### Tokyo Illustrators Society — 8.8/10 — needs review
-Risks:
-- high score but few clear supporting reasons
-- high score but still needs verification
-
 
 ## Top Solid Matches
 
 - Center for Book Arts Opportunities — 9.4/10 — aesthetic lineage +1.2, global/international target, tag: publication, tag: global
 - BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — aesthetic lineage +0.8, tag: publication, tag: zine
-- American Watercolor Society Annual International Exhibition — 7.0/10 — high prestige, global/international target, tag: global

@@ -180,12 +180,13 @@ def choose_bucket(opp):
         return "reject"
 
     # Grants are never filtered by photography or deadline in the usual way.
-    # High-value grants → stretch_targets (pending prerequisites)
-    # Research-phase grants → research_needed
-    if opp.get("category") == "grant" or opp.get("opportunity_type") == "grant":
+    # Only verified/strong_partial grants with high scores → stretch_targets.
+    # Discovered but unverified grants → research_needed (don't flood stretch_targets).
+    if opp.get("category") in ("grant", "global_grant_fellowship") or opp.get("opportunity_type") == "grant":
         if opp.get("verification_bucket") == "stretch_targets":
             return "stretch_targets"
-        if score >= 8.0:
+        v_status = opp.get("verification_status", "")
+        if score >= 8.0 and v_status in ("verified", "strong_partial"):
             return "stretch_targets"
         return "research_needed"
 

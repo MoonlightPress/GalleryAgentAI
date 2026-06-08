@@ -8,4 +8,4 @@ No new opportunities found in this run.
 - JP: 0 new
 - CN: 0 new
 - DIASPORA: 0 new
-- Total in pipeline: 300
+- Total in pipeline: 345

@@ -64,7 +64,7 @@
       "deadline",
       "official_website"
     ],
-    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
+    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
   },
   {
     "title": "Printed Matter Art Book Fairs",
@@ -82,8 +82,8 @@
   },
   {
     "title": "American Watercolor Society Annual International Exhibition",
-    "score": 7.0,
-    "research_priority_score": 12.78,
+    "score": 6.8,
+    "research_priority_score": 12.58,
     "country": "USA",
     "category": "global_watercolor_open_call",
     "missing_fields": [
@@ -95,8 +95,8 @@
   },
   {
     "title": "Cité Internationale des Arts Artist Residency",
-    "score": 6.7,
-    "research_priority_score": 12.41,
+    "score": 6.6,
+    "research_priority_score": 12.31,
     "country": "France",
     "category": "global_residency",
     "missing_fields": [
@@ -105,6 +105,19 @@
       "official_website"
     ],
     "quick_action": "Research application routes (often via home country cultural institutions or direct application), eligibility, and current availability."
+  },
+  {
+    "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
+    "score": 9.4,
+    "research_priority_score": 12.1,
+    "country": "China",
+    "category": "press_target",
+    "missing_fields": [
+      "submission_page",
+      "contact_email",
+      "official_website"
+    ],
+    "quick_action": "Pitch via WeChat DM or Weibo. Chinese-language pitch. Lead with the Beijing/Chinese-artist-in-Tokyo angle."
   },
   {
     "title": "Platform China BIAP Artist Residency",
@@ -119,6 +132,18 @@
     "quick_action": "Email Platform China BIAP directly: No. 319-1 East End Art-A, Caochangdi Village, Chaoyang District, Beijing. Tel: +86-10-6432-0091."
   },
   {
+    "title": "It's Nice That — Illustration Feature",
+    "score": 9.2,
+    "research_priority_score": 11.5,
+    "country": "UK",
+    "category": "press_target",
+    "missing_fields": [
+      "submission_page",
+      "contact_email"
+    ],
+    "quick_action": "Submit via itsnicethat.com/submit. Lead with the daily watercolor diary format — they love systematic creative disciplines."
+  },
+  {
     "title": "Pinpoint Gallery",
     "score": 9.1,
     "research_priority_score": 11.4,
@@ -129,6 +154,18 @@
       "contact_email"
     ],
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
+    "title": "Apartamento — Artist Feature",
+    "score": 9.1,
+    "research_priority_score": 11.4,
+    "country": "Spain",
+    "category": "press_target",
+    "missing_fields": [
+      "submission_page",
+      "contact_email"
+    ],
+    "quick_action": "Not pitch-based. Be visible at Tokyo Art Book Fair and book events. Connect with artists they already feature. Build presence in the right spaces."
   },
   {
     "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
@@ -252,6 +289,17 @@
     "quick_action": "Verify submission page and deadline before applying."
   },
   {
+    "title": "臺南市美術館 2026「TAM+展覽計畫」",
+    "score": 9.4,
+    "research_priority_score": 11.3,
+    "country": "Taiwan",
+    "category": "institutional",
+    "missing_fields": [
+      "contact_email"
+    ],
+    "quick_action": "Verify submission page and deadline before applying."
+  },
+  {
     "title": "KAMIHANGA国際プリント展2026",
     "score": 9.4,
     "research_priority_score": 11.3,
@@ -323,6 +371,18 @@
     "quick_action": "Verify submission page and deadline before applying."
   },
   {
+    "title": "2026 Global Grant Cycle - Fellowships and Grants (General)",
+    "score": 8.8,
+    "research_priority_score": 11.1,
+    "country": "USA",
+    "category": "grant",
+    "missing_fields": [
+      "submission_page",
+      "contact_email"
+    ],
+    "quick_action": "Verify eligibility and current cycle at the official website before applying."
+  },
+  {
     "title": "Bologna Children's Book Fair Illustrators Exhibition",
     "score": 9.1,
     "research_priority_score": 11.0,
@@ -332,17 +392,6 @@
       "submission_page"
     ],
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "臺南市美術館 2026「TAM+展覽計畫」",
-    "score": 9.1,
-    "research_priority_score": 11.0,
-    "country": "Taiwan",
-    "category": "institutional",
-    "missing_fields": [
-      "contact_email"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
   },
   {
     "title": "3x3 International Illustration Awards",
@@ -373,15 +422,6 @@
     "category": null,
     "missing_fields": [],
     "quick_action": "Verify current submission, exhibition, or contact details before recommending."
-  },
-  {
-    "title": "ART SG 2026",
-    "score": 9.4,
-    "research_priority_score": 10.9,
-    "country": "Singapore",
-    "category": "fair_popup",
-    "missing_fields": [],
-    "quick_action": "Verify submission page and deadline before applying."
   },
   {
     "title": "Browse opportunities | CuratorSpace",
@@ -428,40 +468,5 @@
       "contact_email"
     ],
     "quick_action": "Submit 10 images from one cohesive body of work + proposal paragraph at booooooom.com by June 5 11:59 PM PST."
-  },
-  {
-    "title": "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition",
-    "score": 8.8,
-    "research_priority_score": 10.7,
-    "country": "Singapore",
-    "category": "global_open_call",
-    "missing_fields": [
-      "contact_email"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "Applied Arts 2026 Illustration Awards",
-    "score": 8.8,
-    "research_priority_score": 10.7,
-    "country": "International",
-    "category": "global_open_call",
-    "missing_fields": [
-      "contact_email"
-    ],
-    "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "OPA Gallery",
-    "score": 7.9,
-    "research_priority_score": 10.6,
-    "country": "Tokyo",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   }
 ]

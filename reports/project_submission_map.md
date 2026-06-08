@@ -11,11 +11,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
+- ILOVETOYS / neuprint — Chinese Illustration Feature
 - Tokyo Art Book Fair
 - UTRECHT
 - Women United ART MAGAZINE Issue XIV Summer 2026
 - SUBMISSIONS - marblepress.com
-- TOKIO ART BOOK FAIR 2026
 
 ### What To Prepare
 - 12–20 image edit
@@ -55,11 +55,11 @@ This turns project concepts into concrete submission paths.
 - Delivery: PDF + Instagram/website link
 
 ### Best First Targets
+- ILOVETOYS / neuprint — Chinese Illustration Feature
 - Tokyo Art Book Fair
 - UTRECHT
 - Women United ART MAGAZINE Issue XIV Summer 2026
 - SUBMISSIONS - marblepress.com
-- TOKIO ART BOOK FAIR 2026
 
 ### What To Prepare
 - 12–20 image edit

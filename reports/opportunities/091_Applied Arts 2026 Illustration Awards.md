@@ -1,19 +1,19 @@
 # Applied Arts 2026 Illustration Awards
 
 ## 1. Quick Judgment
-**Fit score:** 8.7/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Global Open Call  
 **City:** International  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh (verified)
 - **Submission process**: https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh (verified)
 - **Deadline**: 2026年1月 (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Fees**: $40 (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -32,7 +32,7 @@ International illustration awards accepting single works, series, and animated w
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026年1月
-- **Fees:** Not publicly listed
+- **Fees:** $40
 - **Submission page:** https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh
 - **Source:** https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh
 
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_

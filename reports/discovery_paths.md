@@ -2,6 +2,9 @@
 
 This report suggests adjacent institutions and ecosystems.
 
+## ILOVETOYS / neuprint — Chinese Illustration Feature
+
+
 ## Tokyo Art Book Fair
 
 - Offprint (similarity 4)
@@ -21,6 +24,9 @@ This report suggests adjacent institutions and ecosystems.
 
 
 ## SUBMISSIONS - marblepress.com
+
+
+## 美術手帖 (Bijutsu Techo) — Artist Feature
 
 
 ## TOKIO ART BOOK FAIR 2026
@@ -48,10 +54,4 @@ This report suggests adjacent institutions and ecosystems.
 
 
 ## The Artcomplex Center of Tokyo
-
-
-## Society of Women Artists
-
-
-## 水性繪畫展覽 (Watercolor Exhibition)
 

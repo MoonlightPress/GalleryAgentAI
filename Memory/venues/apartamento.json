@@ -1,0 +1,35 @@
+{
+  "venue_name": "Apartamento",
+  "venue_slug": "apartamento",
+  "venue_type": "artist opportunity venue",
+  "city": "Barcelona",
+  "country": "",
+  "website": "https://apartamentomagazine.com/",
+  "source_links": [
+    "https://apartamentomagazine.com/"
+  ],
+  "categories_seen": [
+    "Press Target"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "Apartamento — Artist Feature"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-08",
+  "updated_at": "2026-06-08"
+}

@@ -1,7 +1,7 @@
 # Tokyo Art Book Fair
 
 ## 1. Quick Judgment
-**Fit score:** 9.8/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
@@ -12,8 +12,8 @@ Core public information appears present.
 
 - **Official/source website**: https://tokyoartbookfair.com/ (verified)
 - **Submission process**: https://tokyoartbookfair.com/application/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
+- **Deadline**: 2027年1月21日 (verified)
+- **Fees**: 1,000円 (verified)
 - **Contact**: info@tokyoartbookfair.com (verified)
 
 ## 3. Why This May Fit the Artist
@@ -33,8 +33,8 @@ Tokyo location and alternative art community access align well, and your documen
 - Strong Tokyo location fit and alternative scene access, but only relevant if publishing is an intentional direction for your practice
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** 2027年1月21日
+- **Fees:** 1,000円
 - **Submission page:** https://tokyoartbookfair.com/application/
 - **Source:** https://tokyoartbookfair.com/
 
@@ -47,4 +47,4 @@ Ask yourself if creating an artist book or zine series about vernacular architec
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_

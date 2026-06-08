@@ -425,49 +425,6 @@
     ]
   },
   {
-    "title": "RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus",
-    "organization": "CuratorSpace",
-    "category": "residency",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 5.4,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: residency, artist-run",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: residency, artist-run"
-    ],
-    "fit_keyword_hits": [
-      "residency",
-      "artist-run"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: residency",
-      "weak: artist",
-      "score too low: 1"
-    ]
-  },
-  {
     "title": "Art Events and Exhibitions｜Tokyo Art Beat",
     "organization": "Tokyo Art Beat",
     "category": "gallery_event",
@@ -832,7 +789,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: zine, printed matter",
+      "strong: printed matter, zine",
       "score too low: 2"
     ]
   },
@@ -3647,7 +3604,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: zine, open call",
+      "strong: open call, zine",
       "score too low: 2"
     ]
   },
@@ -3855,7 +3812,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: residency, open call",
+      "strong: open call, residency",
       "score too low: 2"
     ]
   },
@@ -3896,7 +3853,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: residency, open call",
+      "strong: open call, residency",
       "score too low: 2"
     ]
   },
@@ -4307,9 +4264,9 @@
     ]
   },
   {
-    "title": "Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever",
+    "title": "The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e",
     "organization": "CuratorSpace",
-    "category": "zine_print",
+    "category": "gallery_event",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -4318,21 +4275,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: zine"
+      "Keyword hits: exhibition"
     ],
     "fit_keyword_hits": [
-      "zine"
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -4343,9 +4300,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: zine",
-      "weak: artist",
-      "score too low: 1"
+      "generic page without opportunity language"
     ]
   },
   {

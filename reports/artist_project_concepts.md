@@ -39,14 +39,14 @@ A quiet photographic sequence about ordinary neighborhoods, lived-in architectur
 - **MACK** — stretch — Major photobook publisher; probably not immediate, but useful as a long-horizon benchmark.
 
 ### Current Opportunity Targets
+- **ILOVETOYS / neuprint — Chinese Illustration Feature** — 9.4 / 11.4. She's Chinese. 'Chinese artist documenting Tokyo through watercolor' is exactly the cross-cultural story these publications want. Near-term opportunity with lower competition than Japanese press.
 - **Tokyo Art Book Fair** — 9.4 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 9.4 / 11.39. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 9.4 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **SUBMISSIONS - marblepress.com** — 9.4 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **美術手帖 (Bijutsu Techo) — Artist Feature** — 9.4 / 11.39. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
 - **TOKIO ART BOOK FAIR 2026** — 9.4 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 9.4 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
-- **Center for Book Arts Opportunities** — 9.4 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
-- **Aesthetica Art Prize** — 9.4 / 11.09. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -85,8 +85,8 @@ A focused body of work about indirect human presence: fences, laundry, paths, wi
 - **Aperture | Photography** — 8.8 / 10.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
 - **Pinpoint Gallery** — 9.1 / 10.54. Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities.
 - **Offprint** — 8.6 / 10.15. Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
-- **Tacoche** — 8.6 / 9.98. Major Tokyo independent/self-publishing shop. Strong first target for zines, artist books, and small printed works.
-- **Self Publish, Be Happy** — 8.0 / 9.81. Strong fit for an artist whose work can live as quiet artist book / watercolor sequence or zine sequences rather than conventional gallery proposals.
+- **Casa Brutus — Architecture/Art Feature** — 8.7 / 10.07. Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design.
+- **Pen Magazine — Artist Spotlight** — 8.7 / 10.07. Tokyo's design-literate audience. Urban watercolor + Tokyo documentation = strong editorial angle for Pen readers.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.
@@ -121,14 +121,14 @@ A compact, low-pressure zine built from a walk through a neighborhood, edited as
 - **Self Publish, Be Happy** — high — Strong match for independent photobook and zine culture.
 
 ### Current Opportunity Targets
+- **ILOVETOYS / neuprint — Chinese Illustration Feature** — 9.4 / 11.4. She's Chinese. 'Chinese artist documenting Tokyo through watercolor' is exactly the cross-cultural story these publications want. Near-term opportunity with lower competition than Japanese press.
 - **Tokyo Art Book Fair** — 9.4 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 9.4 / 11.39. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 9.4 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **SUBMISSIONS - marblepress.com** — 9.4 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **美術手帖 (Bijutsu Techo) — Artist Feature** — 9.4 / 11.39. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
 - **TOKIO ART BOOK FAIR 2026** — 9.4 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 9.4 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
-- **Center for Book Arts Opportunities** — 9.4 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
-- **Aesthetica Art Prize** — 9.4 / 11.09. Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.
 
 ### First Action
 Build a 12–20 image edit. Do not write a long statement yet. First prove the sequence works visually.

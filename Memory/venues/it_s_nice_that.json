@@ -1,0 +1,35 @@
+{
+  "venue_name": "It's Nice That",
+  "venue_slug": "it_s_nice_that",
+  "venue_type": "artist opportunity venue",
+  "city": "London",
+  "country": "",
+  "website": "https://www.itsnicethat.com/",
+  "source_links": [
+    "https://www.itsnicethat.com/"
+  ],
+  "categories_seen": [
+    "Press Target"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "It's Nice That — Illustration Feature"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-08",
+  "updated_at": "2026-06-08"
+}

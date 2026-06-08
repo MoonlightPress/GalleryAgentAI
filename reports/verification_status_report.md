@@ -5,22 +5,22 @@ Generated: 2026-06-08
 
 | Status | Count |
 |--------|-------|
-| Verified (score 8-10) | 82 |
-| Strong partial (5-7) | 124 |
-| Partial (3-4) | 64 |
-| Research needed (<3) | 30 |
-| **Total** | **300** |
+| Verified (score 8-10) | 92 |
+| Strong partial (5-7) | 131 |
+| Partial (3-4) | 80 |
+| Research needed (<3) | 42 |
+| **Total** | **345** |
 
 ### Field Coverage
 
 | Field | Verified count |
 |-------|----------------|
-| URL ok | 251 |
-| Deadline verified | 213 |
-| Contact verified | 85 |
-| Fees verified | 133 |
-| Submission process known | 161 |
-| Medium confirmed | 181 |
+| URL ok | 258 |
+| Deadline verified | 238 |
+| Contact verified | 100 |
+| Fees verified | 178 |
+| Submission process known | 178 |
+| Medium confirmed | 205 |
 
 ---
 
@@ -136,38 +136,38 @@ High-scored opportunities (overall_score >= 8) that are not yet fully verified.
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 2. ART SG 2026
+### 2. ギャラリーへ行こう2026
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 3. ギャラリーへ行こう2026
+### 3. Osaka Open Call For Artists. - ARRIVAL
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 4. Osaka Open Call For Artists. - ARRIVAL
+### 4. NY公募展2026夏（NY Open Call Exhibition Summer 2026）
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 5. NY公募展2026夏（NY Open Call Exhibition Summer 2026）
+### 5. Kyoto Retreat Artist Residency 2026 - Open Call
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 6. Kyoto Retreat Artist Residency 2026 - Open Call
-- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** contact, medium confirmation
-
-### 7. ART FAIR TOKYO 21
+### 6. ART FAIR TOKYO 21
 - **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 8. BALLOND'ESSAI Shimokitazawa
+### 7. BALLOND'ESSAI Shimokitazawa
 - **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 9. CLOUDS Gallery+Coffee Koenji
+### 8. CLOUDS Gallery+Coffee Koenji
 - **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 10. Cafe Mame-Hico
+### 9. Cafe Mame-Hico
 - **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
+
+### 10. 2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** URL, medium confirmation

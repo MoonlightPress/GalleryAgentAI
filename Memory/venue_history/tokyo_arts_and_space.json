@@ -1,12 +1,13 @@
 {
-  "venue_name": "Tokyo Arts and Space",
+  "venue_name": "Tokyo Arts and Space (東京都現代美術館)",
   "venue_slug": "tokyo_arts_and_space",
   "memory_version": 1,
   "summary": "Venue type: residency Venue still needs deeper aesthetic research.",
   "last_updated": "2026-06-08",
   "confidence": "low",
   "future_research": [
-    "contact"
+    "contact",
+    "submission process"
   ],
   "curatorial_direction": [],
   "artist_overlap_signals": [],

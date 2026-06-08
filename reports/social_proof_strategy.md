@@ -62,6 +62,12 @@ These opportunities may create disproportionate reputation value.
 - Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## ILOVETOYS / neuprint — Chinese Illustration Feature
+
+- Prestige: None
+- Why: She's Chinese. 'Chinese artist documenting Tokyo through watercolor' is exactly the cross-cultural story these publications want. Near-term opportunity with lower competition than Japanese press.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## Tokyo Art Book Fair
 
 - Prestige: None
@@ -84,6 +90,12 @@ These opportunities may create disproportionate reputation value.
 
 - Prestige: None
 - Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## 美術手帖 (Bijutsu Techo) — Artist Feature
+
+- Prestige: None
+- Why: Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## TOKIO ART BOOK FAIR 2026
@@ -138,16 +150,4 @@ These opportunities may create disproportionate reputation value.
 
 - Prestige: None
 - Why: Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 水彩アートの祭典 (Watercolor Art Festival)
-
-- Prestige: None
-- Why: Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## MOUNT ZINE
-
-- Prestige: None
-- Why: Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

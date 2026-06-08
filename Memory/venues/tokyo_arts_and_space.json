@@ -1,17 +1,15 @@
 {
-  "venue_name": "Tokyo Arts and Space",
+  "venue_name": "Tokyo Arts and Space (東京都現代美術館)",
   "venue_slug": "tokyo_arts_and_space",
   "venue_type": "residency",
   "city": "Tokyo",
   "country": "",
-  "website": "https://www.tokyoartsandspace.jp/en/archive/residence/",
+  "website": "https://www.tokyoartsandspace.jp/en/programs/residency/",
   "source_links": [
-    "https://www.tokyoartsandspace.jp/en/archive/residence/",
-    "https://www.tokyoartsandspace.jp/en/"
+    "https://www.tokyoartsandspace.jp/en/programs/residency/"
   ],
   "categories_seen": [
-    "Institutional / Grants",
-    "Residencies / Longer Projects"
+    "Grant"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -26,11 +24,11 @@
     "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
-    "contact"
+    "contact",
+    "submission process"
   ],
   "opportunity_titles": [
-    "Tokyo Wonder Site / TOKAS Residency",
-    "Tokyo Arts and Space"
+    "Tokyo Arts and Space (TOKAS) Residency + Grant"
   ],
   "last_researched": "",
   "created_at": "2026-06-08",

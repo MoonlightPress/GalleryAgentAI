@@ -8,13 +8,13 @@
 **City:** International  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://www.womenunitedartmovement.com/artmagazine (verified)
 - **Submission process**: https://www.womenunitedartmovement.com/artmagazine (verified)
 - **Deadline**: June 10, 2026 (verified)
 - **Fees**: $25 USD (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: MAGAZINE@WOMENUNITEDARTMOVEMENT.COM (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Group Publication Open Call.
@@ -45,4 +45,4 @@ Submit work images at womenunitedartmovement.com before June 10. $25 fee. Hardsh
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-03_
+_Last generated: 2026-06-08_

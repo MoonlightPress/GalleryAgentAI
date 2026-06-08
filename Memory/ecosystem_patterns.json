@@ -2,27 +2,31 @@
   "dominant_countries": [
     [
       "Japan",
-      36
-    ],
-    [
-      "International",
-      7
+      45
     ],
     [
       "Global",
       7
     ],
     [
-      "Canada",
-      5
-    ],
-    [
       "USA",
+      6
+    ],
+    [
+      "International",
+      6
+    ],
+    [
+      "Canada",
+      4
+    ],
+    [
+      "UK",
       3
     ],
     [
-      "United States",
-      3
+      "China",
+      2
     ],
     [
       "UK / Global",
@@ -33,11 +37,7 @@
       2
     ],
     [
-      "UK",
-      2
-    ],
-    [
-      "Singapore",
+      "United States",
       2
     ],
     [
@@ -45,57 +45,57 @@
       1
     ],
     [
+      "Spain",
+      1
+    ],
+    [
+      "Singapore",
+      1
+    ],
+    [
       "France / UK",
       1
     ],
     [
-      "China",
-      1
-    ],
-    [
       "Taiwan",
-      1
-    ],
-    [
-      "France",
       1
     ]
   ],
   "dominant_categories": [
     [
       "gallery",
-      20
+      16
     ],
     [
-      "global_open_call",
+      "grant",
       10
     ],
     [
       "japan_watercolor_open_call",
-      10
+      9
     ],
     [
-      "bookstore_gallery",
-      7
+      "global_open_call",
+      8
     ],
     [
-      "zine_print",
-      7
-    ],
-    [
-      "gallery_event",
-      7
-    ],
-    [
-      "cafe_gallery",
+      "press_target",
       6
     ],
     [
-      "fair_popup",
-      5
+      "bookstore_gallery",
+      6
+    ],
+    [
+      "zine_print",
+      6
     ],
     [
       "global_watercolor_open_call",
+      5
+    ],
+    [
+      "cafe_gallery",
       5
     ],
     [
@@ -103,7 +103,15 @@
       5
     ],
     [
+      "fair_popup",
+      4
+    ],
+    [
       "zine_shop_consignment",
+      4
+    ],
+    [
+      "gallery_event",
       4
     ],
     [
@@ -115,10 +123,6 @@
       3
     ],
     [
-      "institutional",
-      3
-    ],
-    [
       "group_publication_open_call",
       2
     ],
@@ -127,7 +131,7 @@
       2
     ],
     [
-      "event_space",
+      "institutional",
       2
     ],
     [
@@ -137,75 +141,83 @@
     [
       "bookstore_event",
       1
-    ],
-    [
-      "global_photobook",
-      1
     ]
   ],
   "dominant_tags": [
     [
-      "secondary",
-      24
-    ],
-    [
-      "",
-      24
-    ],
-    [
       "japan",
-      23
-    ],
-    [
-      "jp",
-      21
+      25
     ],
     [
       "japanese_source",
-      21
+      25
     ],
     [
       "has_deadline",
-      16
-    ],
-    [
-      "watercolor_ok",
-      13
+      24
     ],
     [
       "has_submission_url",
-      13
+      21
+    ],
+    [
+      "jp",
+      20
+    ],
+    [
+      "secondary",
+      18
+    ],
+    [
+      "",
+      18
+    ],
+    [
+      "watercolor_ok",
+      12
     ],
     [
       "diaspora",
-      12
+      10
+    ],
+    [
+      "grant",
+      10
     ],
     [
       "diaspora_community",
-      12
+      9
     ],
     [
-      "chinese_source",
-      10
+      "funding",
+      9
+    ],
+    [
+      "tokyo",
+      8
     ],
     [
       "global",
       7
     ],
     [
+      "chinese_source",
+      7
+    ],
+    [
+      "press",
+      6
+    ],
+    [
+      "editorial",
+      6
+    ],
+    [
       "Tier1",
       6
     ],
     [
-      "cn",
-      6
-    ],
-    [
       "publication",
-      5
-    ],
-    [
-      "tokyo",
       5
     ],
     [
@@ -225,12 +237,24 @@
       4
     ],
     [
+      "international",
+      4
+    ],
+    [
       "tier_1",
       4
     ],
     [
       "open_call",
       4
+    ],
+    [
+      "cn",
+      4
+    ],
+    [
+      "emerging_artist",
+      3
     ],
     [
       "bookshop",
@@ -245,11 +269,23 @@
       3
     ],
     [
+      "lifestyle",
+      3
+    ],
+    [
       "watercolor",
       3
     ],
     [
-      "international",
+      "acc",
+      3
+    ],
+    [
+      "chinese_national_eligible",
+      3
+    ],
+    [
+      "illustration",
       2
     ],
     [
@@ -265,44 +301,8 @@
       2
     ],
     [
-      "high",
-      2
-    ],
-    [
       "record shop",
       2
-    ],
-    [
-      "indie",
-      2
-    ],
-    [
-      "prestige",
-      2
-    ],
-    [
-      "exhibition",
-      2
-    ],
-    [
-      "Medium-High",
-      1
-    ],
-    [
-      "magazine",
-      1
-    ],
-    [
-      "women_only",
-      1
-    ],
-    [
-      "near_deadline",
-      1
-    ],
-    [
-      "zine_fair",
-      1
     ]
   ]
 }

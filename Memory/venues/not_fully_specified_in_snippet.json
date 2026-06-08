@@ -1,0 +1,37 @@
+{
+  "venue_name": "Not fully specified in snippet",
+  "venue_slug": "not_fully_specified_in_snippet",
+  "venue_type": "artist opportunity venue",
+  "city": "Tokyo",
+  "country": "",
+  "website": "https://www.npo-fujinokuni.jp/jyoseidb/2026%E4%B8%8B%E6%9C%9F%E8%8A%B8%E8%A1%93%E6%96%87%E5%8C%96%E5%8A%A9%E6%88%90%EF%BC%88%E5%9B%BD%E5%86%85%EF%BC%89",
+  "source_links": [
+    "https://www.npo-fujinokuni.jp/jyoseidb/2026%E4%B8%8B%E6%9C%9F%E8%8A%B8%E8%A1%93%E6%96%87%E5%8C%96%E5%8A%A9%E6%88%90%EF%BC%88%E5%9B%BD%E5%86%85%EF%BC%89"
+  ],
+  "categories_seen": [
+    "Grant"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline",
+    "submission process"
+  ],
+  "opportunity_titles": [
+    "2026年度下期芸術文化助成（国内）"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-08",
+  "updated_at": "2026-06-08"
+}

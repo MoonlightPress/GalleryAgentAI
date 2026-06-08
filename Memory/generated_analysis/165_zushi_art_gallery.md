@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-08
 
 # Zushi Art Gallery
 
 ## 1. Quick Judgment
-**Fit score:** 7.8/10  
-**Fit band:** Strong fit  
+**Fit score:** 9.4/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Kanagawa  
@@ -50,5 +50,5 @@ Skip unless you can verify exhibition history and non-commercial model through J
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_
 

@@ -1,7 +1,7 @@
 # Candidate Quality Gate Report
 
-Approved: 3
-Rejected: 132
+Approved: 4
+Rejected: 131
 
 ## Rejected
 
@@ -15,7 +15,6 @@ Rejected: 132
 - Phoebe Barnicoat Three Sisters watercolour Unframed Artwork: 10.5 x 14.5cm — generic page without opportunity language
 - Phoebe Barnicoat Snake Meet watercolour Unframed Artwork: 14.5 x 10.5cm — generic page without opportunity language
 - Anne Marlow A Safe Place watercolour & pastel Unframed Artwork: 23.5 x 24cm — generic page without opportunity language
-- RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus — strong: residency, weak: artist, score too low: 1
 - Art Events and Exhibitions｜Tokyo Art Beat — generic page without opportunity language
 - TOKYO ART BOOK FAIR — strong: book fair, weak: book, score too low: 3
 - Jackson's Art Prize — generic page without opportunity language
@@ -24,7 +23,7 @@ Rejected: 132
 - Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。 — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
-- Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
+- Printed Matter, Inc. — strong: printed matter, zine, score too low: 2
 - Daniel Shepard Straffon All Lover the Place: NYC [Poster] Posters $70.00 Recent Arrival Si — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Japan [Poster] Posters $70.00 Recent Arrival  — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Indonesia [Poster] Posters $70.00 Recent Arri — strong: printed matter, weak: book, score too low: 1
@@ -94,13 +93,13 @@ Rejected: 132
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
-- Magazine — strong: zine, open call, score too low: 2
+- Magazine — strong: open call, zine, score too low: 2
 - Open Call — strong: open call, has submission link, score too low: 3
 - open call to artists of haitian descent — strong: open call, weak: artist, has submission link, score too low: 4
 - contemporary british painting prize — strong: open call, score too low: 0
 - trinity buoy wharf drawing prize — strong: open call, score too low: 0
-- teaching residency — strong: residency, open call, score too low: 2
-- Residency — strong: residency, open call, score too low: 2
+- teaching residency — strong: open call, residency, score too low: 2
+- Residency — strong: open call, residency, score too low: 2
 - Open Calls — strong: open call, has submission link, score too low: 3
 - www.curatorspace.com — generic page without opportunity language
 - Report this? — generic page without opportunity language
@@ -111,7 +110,7 @@ Rejected: 132
 - Report this? — weak: exhibition, gallery, has submission link, score too low: 3
 - www.curatorspace.com — generic page without opportunity language
 - Report this? — generic page without opportunity language
-- Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever — strong: zine, weak: artist, score too low: 1
+- The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -140,6 +139,7 @@ Rejected: 132
 
 ## Approved
 
-- Home - Printed Matter — strong: zine, printed matter, photobook, book fair, weak: exhibition, book
-- Top Artist Opportunities for 2026 | ArtConnect — strong: residency, submission, zine, open call, weak: exhibition, artist
+- Home - Printed Matter — strong: printed matter, zine, book fair, photobook, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, open call, zine, residency, weak: exhibition, artist
+- AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin — strong: open call, zine, submit, call for, weak: artist, has submission link
 - Art Submissions — strong: submission, open call, has submission link

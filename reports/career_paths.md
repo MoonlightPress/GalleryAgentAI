@@ -18,6 +18,7 @@ Potential long-term artistic trajectories suggested by current recommendation pa
 
 - COW BOOKS Nakameguro (signal 2)
 - B&B (Book & Beer) (signal 2)
+- 2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program) (signal 2)
 
 ## Artist-Run Community Builder
 
@@ -30,13 +31,14 @@ Potential long-term artistic trajectories suggested by current recommendation pa
 ## International Small Press Artist
 
 - Tokyo Art Book Fair (signal 3)
+- 美術手帖 (Bijutsu Techo) — Artist Feature (signal 2)
 - Women United ART MAGAZINE Issue XIV Summer 2026 (signal 2)
 - TOKIO ART BOOK FAIR 2026 (signal 2)
 - Self Publish, Be Happy (signal 2)
 - Publishing / Artist Books — Battle Plan (signal 2)
 - Printed Matter Art Book Fairs (signal 2)
 - Offprint (signal 2)
+- ILOVETOYS / neuprint — Chinese Illustration Feature (signal 2)
 - Home - Printed Matter (signal 2)
 - Fukuoka Art Book Fair (signal 2)
 - BOOOOOOOM 2026 Art & Photo Book Award (signal 2)
-- B&B Shimokitazawa (signal 2)

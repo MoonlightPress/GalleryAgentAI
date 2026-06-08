@@ -1,17 +1,17 @@
 # SICF Fukuoka 2026
 
 ## 1. Quick Judgment
-**Fit score:** 5.4/10  
-**Fit band:** Possible, but not urgent  
-**Confidence:** Medium  
+**Fit score:** 6.2/10  
+**Fit band:** Promising  
+**Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Fukuoka  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
 
 - **Official/source website**: https://compe.japandesign.ne.jp/category/art (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://www.sicf.jp (verified)
 - **Deadline**: 2026-06-11 (verified)
 - **Fees**: Not publicly listed (needs_inquiry)
 - **Contact**: Not publicly listed (needs_inquiry)
@@ -33,7 +33,7 @@ Creator exhibition opportunity for artists and artists; fits illustration/waterc
 ## 7. Submission / Logistics
 - **Deadline:** 2026-06-11
 - **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Submission page:** https://www.sicf.jp
 - **Source:** https://compe.japandesign.ne.jp/category/art
 
 ## 8. Risk / Unknowns
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_

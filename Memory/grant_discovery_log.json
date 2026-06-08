@@ -1,0 +1,68 @@
+{
+  "queries": {
+    "grant_jp_joseikin_artist": {
+      "last_run": "2026-06-08T09:03:07.352061",
+      "found": 4,
+      "added": 4
+    },
+    "grant_jp_bunkasho": {
+      "last_run": "2026-06-08T09:03:20.197746",
+      "found": 5,
+      "added": 5
+    },
+    "grant_jp_bunka_shinko": {
+      "last_run": "2026-06-08T09:03:30.934429",
+      "found": 5,
+      "added": 4
+    },
+    "grant_jp_tokyo_metro": {
+      "last_run": "2026-06-08T09:03:43.002227",
+      "found": 4,
+      "added": 4
+    },
+    "grant_en_japan_foundation": {
+      "last_run": "2026-06-08T09:03:54.545321",
+      "found": 3,
+      "added": 3
+    },
+    "grant_en_acc": {
+      "last_run": "2026-06-08T09:04:03.108921",
+      "found": 3,
+      "added": 3
+    },
+    "grant_en_tokyo_arts": {
+      "last_run": "2026-06-08T09:04:10.866542",
+      "found": 2,
+      "added": 2
+    },
+    "grant_jp_shinjin_overseas": {
+      "last_run": "2026-06-08T09:04:20.554072",
+      "found": 2,
+      "added": 2
+    },
+    "grant_zh_chinese_overseas": {
+      "last_run": "2026-06-08T09:04:30.440272",
+      "found": 2,
+      "added": 2
+    },
+    "grant_jp_asia_creative": {
+      "last_run": "2026-06-08T09:04:43.251730",
+      "found": 6,
+      "added": 6
+    }
+  },
+  "runs": [
+    {
+      "run_at": "2026-06-08T09:04:43.273041",
+      "queries_run": 10,
+      "new_grants": 35,
+      "quota_hit": false
+    },
+    {
+      "run_at": "2026-06-08T09:16:03.226118",
+      "queries_run": 0,
+      "new_grants": 0,
+      "quota_hit": false
+    }
+  ]
+}

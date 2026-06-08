@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research Center for Book Arts Opportunities submission process.
-- Research Aesthetica Art Prize submission process.
-- Research Self Publish, Be Happy submission process.
-- Research KAMIHANGA国際プリント展2026 submission process.
-- Research Cité Internationale des Arts Artist Residency submission process.
+- Research ILOVETOYS / neuprint — Chinese Illustration Feature submission process.
+- Research 2026 ART CAPITAL Paris Grand Palais International Youth Academic Award submission process.
+- Research 2026 3rd Annual Illustration Summit Challenge (IlloBoom!) submission process.
+- Research Gallery 191 Exhibition 2026 submission process.
+- Research Browse opportunities | CuratorSpace submission process.
+- Compare Jackson's Art Prize to similar institutions.
+- Compare Northwest Watercolor Society 2026 Annual International Open Exhibition to similar institutions.
 - Compare The Artcomplex Center of Tokyo to similar institutions.
-- Compare World Illustration Awards to similar institutions.
-- Compare Gallery 191 Exhibition 2026 to similar institutions.

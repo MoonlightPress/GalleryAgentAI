@@ -51,16 +51,6 @@
       "image": ""
     },
     {
-      "title": "ART SG 2026",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Markets / Popups / Booths",
-      "city": "Singapore",
-      "image": ""
-    },
-    {
       "title": "HATTIFNATT Koenji Cafe Gallery",
       "bucket": "easy_win",
       "score": 9.4,
@@ -111,13 +101,23 @@
       "image": ""
     },
     {
-      "title": "Aesthetica Art Prize",
-      "bucket": "general",
+      "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
+      "bucket": "easy_win",
       "score": 9.4,
       "confidence": "High",
-      "reason": "Potentially useful depending on current strategic goals.",
-      "category": "Global Open Call",
-      "city": "York / Online",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Press Target",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Press Target",
+      "city": "Shanghai",
       "image": ""
     }
   ],
@@ -163,16 +163,6 @@
       "image": ""
     },
     {
-      "title": "ART SG 2026",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Markets / Popups / Booths",
-      "city": "Singapore",
-      "image": ""
-    },
-    {
       "title": "HATTIFNATT Koenji Cafe Gallery",
       "bucket": "easy_win",
       "score": 9.4,
@@ -223,6 +213,26 @@
       "image": ""
     },
     {
+      "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Press Target",
+      "city": "Tokyo",
+      "image": ""
+    },
+    {
+      "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
+      "bucket": "easy_win",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Strong fit with relatively low barrier to entry.",
+      "category": "Press Target",
+      "city": "Shanghai",
+      "image": ""
+    },
+    {
       "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
       "bucket": "easy_win",
       "score": 9.4,
@@ -230,16 +240,6 @@
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Zine Fair Booth",
       "city": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "Still Life - 2026",
-      "bucket": "easy_win",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Strong fit with relatively low barrier to entry.",
-      "category": "Global Open Call",
-      "city": "International",
       "image": ""
     }
   ],
@@ -283,16 +283,6 @@
       "category": "Global Art Book Fair",
       "city": "New York / Los Angeles",
       "image": ""
-    },
-    {
-      "title": "American Watercolor Society Annual International Exhibition",
-      "bucket": "career_changing",
-      "score": 7.0,
-      "confidence": "Medium",
-      "reason": "High-prestige opportunity with strong long-term impact.",
-      "category": "Global Watercolor Open Call",
-      "city": "New York",
-      "image": ""
     }
   ],
   "portfolio_builders": [
@@ -319,7 +309,7 @@
     {
       "title": "そぞろ書房",
       "bucket": "portfolio_builder",
-      "score": 6.1,
+      "score": 6.0,
       "confidence": "Medium",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -329,7 +319,7 @@
     {
       "title": "Book Culture Club",
       "bucket": "portfolio_builder",
-      "score": 5.8,
+      "score": 5.6,
       "confidence": "Low",
       "reason": "Good opportunity for publication history and portfolio depth.",
       "category": "Print / Zines / Bookstores",
@@ -439,6 +429,16 @@
       "image": ""
     },
     {
+      "title": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
+      "bucket": "community_builder",
+      "score": 7.6,
+      "confidence": "Medium",
+      "reason": "Useful for building local connections and visibility.",
+      "category": "Markets / Popups / Booths",
+      "city": "Vancouver",
+      "image": ""
+    },
+    {
       "title": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
       "bucket": "community_builder",
       "score": 7.6,
@@ -446,16 +446,6 @@
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
       "city": "Japan / Tokyo / Online",
-      "image": ""
-    },
-    {
-      "title": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
-      "bucket": "community_builder",
-      "score": 7.5,
-      "confidence": "Medium",
-      "reason": "Useful for building local connections and visibility.",
-      "category": "Markets / Popups / Booths",
-      "city": "Vancouver",
       "image": ""
     },
     {
@@ -529,13 +519,13 @@
       "image": ""
     },
     {
-      "title": "SICF Fukuoka 2026",
+      "title": "ART SG 2026",
       "bucket": "community_builder",
-      "score": 5.6,
+      "score": 6.0,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
-      "city": "Fukuoka",
+      "city": "Singapore",
       "image": ""
     }
   ],
@@ -563,17 +553,6 @@
       "image": ""
     },
     {
-      "title": "ART SG 2026",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Markets / Popups / Booths",
-      "city": "Singapore",
-      "country": "Singapore",
-      "image": ""
-    },
-    {
       "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
       "bucket": "global_targets",
       "score": 9.4,
@@ -582,6 +561,17 @@
       "category": "Group Publication Open Call",
       "city": "International",
       "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Press Target",
+      "city": "Shanghai",
+      "country": "China",
       "image": ""
     },
     {

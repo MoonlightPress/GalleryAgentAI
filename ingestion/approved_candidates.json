@@ -47,7 +47,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: zine, printed matter, photobook, book fair",
+      "strong: printed matter, zine, book fair, photobook",
       "weak: exhibition, book"
     ]
   },
@@ -95,8 +95,51 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: residency, submission, zine, open call",
+      "strong: submission, open call, zine, residency",
       "weak: exhibition, artist"
+    ]
+  },
+  {
+    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
+    "organization": "CuratorSpace",
+    "category": "zine_print",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: zine, open call",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: zine, open call"
+    ],
+    "fit_keyword_hits": [
+      "zine",
+      "open call"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "approved",
+    "quality_gate_reasons": [
+      "strong: open call, zine, submit, call for",
+      "weak: artist",
+      "has submission link"
     ]
   },
   {

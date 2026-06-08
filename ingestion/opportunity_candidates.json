@@ -471,9 +471,9 @@
     ]
   },
   {
-    "title": "RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus",
+    "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
     "organization": "CuratorSpace",
-    "category": "residency",
+    "category": "zine_print",
     "city": "Online",
     "country": "Global",
     "overall_score": 5.4,
@@ -482,22 +482,22 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
-    "submission_page": "",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/aura-open-call/6198",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: residency, artist-run",
+    "why_this_fits_short": "Possible fit based on link text: zine, open call",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: residency, artist-run"
+      "Keyword hits: zine, open call"
     ],
     "fit_keyword_hits": [
-      "residency",
-      "artist-run"
+      "zine",
+      "open call"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3970,9 +3970,9 @@
     ]
   },
   {
-    "title": "Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever",
+    "title": "The Nook Exhibitions The Nook is a new micro-gallery that offers a space for students to e",
     "organization": "CuratorSpace",
-    "category": "zine_print",
+    "category": "gallery_event",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -3981,21 +3981,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/swelling-rage--collage-artists/10431",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/the-nook-exhibitions/7552",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: zine"
+      "Keyword hits: exhibition"
     ],
     "fit_keyword_hits": [
-      "zine"
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
