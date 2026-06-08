@@ -16,6 +16,7 @@ Flags:
 """
 import sys
 import json
+import ssl
 import time
 import hashlib
 import argparse
@@ -23,6 +24,12 @@ import urllib.request
 import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
+
+# Windows cert-store issues: create an unverified context as fallback.
+# We're checking reachability, not doing TLS security validation.
+_SSL_UNVERIFIED = ssl.create_default_context()
+_SSL_UNVERIFIED.check_hostname = False
+_SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -61,9 +68,34 @@ def _overall_score(opp: dict) -> float:
     )
 
 
+_ROLLING_TERMS = frozenset({"rolling", "ongoing", "year-round", "open submission", "anytime", "proposal-based"})
+
+
 def _deadline_is_real(opp: dict) -> bool:
     d = str(opp.get("deadline", "")).strip().lower()
-    return d not in _DEADLINE_PLACEHOLDERS and len(d) > 4
+    if not d or len(d) <= 4:
+        return False
+    if d in _DEADLINE_PLACEHOLDERS:
+        return False
+    # "rolling — proposal-based" and similar are real (always-open venues)
+    if any(t in d for t in _ROLLING_TERMS):
+        return True
+    return True
+
+
+def _urlopen(req, timeout, context=None):
+    """Wrapper: try with SSL verification, fall back to unverified on cert errors."""
+    try:
+        return urllib.request.urlopen(req, timeout=timeout, context=context)
+    except urllib.error.URLError as e:
+        reason = str(e.reason) if hasattr(e, "reason") else str(e)
+        if context is None and (
+            "CERTIFICATE_VERIFY_FAILED" in reason
+            or "SSL" in reason.upper()
+            or "certificate" in reason.lower()
+        ):
+            return urllib.request.urlopen(req, timeout=timeout, context=_SSL_UNVERIFIED)
+        raise
 
 
 def check_url(url: str, timeout: int) -> tuple[str, int]:
@@ -73,7 +105,7 @@ def check_url(url: str, timeout: int) -> tuple[str, int]:
 
     req = urllib.request.Request(url, headers=HEADERS, method="HEAD")
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with _urlopen(req, timeout) as resp:
             code = resp.getcode()
             if 200 <= code < 300:
                 return "ok", code
@@ -81,16 +113,23 @@ def check_url(url: str, timeout: int) -> tuple[str, int]:
                 return "redirect", code
             return "error", code
     except urllib.error.HTTPError as e:
-        # HEAD rejected — try GET (some servers refuse HEAD)
-        if e.code in (405, 403):
+        # 403/429 = site is alive but blocking bots or rate-limiting — treat as ok.
+        # Many Japanese gallery/fair sites return 403 to automated HEAD/GET requests.
+        if e.code in (403, 429):
+            return "ok", e.code
+        # HEAD rejected (405) — retry with GET
+        if e.code == 405:
             req2 = urllib.request.Request(url, headers=HEADERS)
             try:
-                with urllib.request.urlopen(req2, timeout=timeout) as resp2:
+                with _urlopen(req2, timeout) as resp2:
                     code2 = resp2.getcode()
                     if 200 <= code2 < 300:
                         return "ok", code2
                     if 300 <= code2 < 400:
                         return "redirect", code2
+                    # 403 on GET also means the site is live
+                    if code2 == 403:
+                        return "ok", code2
                     return "error", code2
             except Exception:
                 return "error", e.code

@@ -1,15 +1,22 @@
 from smart_pipeline_runner import run_pipeline
 
 PIPELINE = [
+    # ── Discovery sources must be expanded BEFORE ingestion runs ──────────────
+    "watercolor_source_expander.py",      # audit fix: was step 17, must run first
+    # ── Ingestion ──────────────────────────────────────────────────────────────
     "web_ingestion_engine.py",
     "scraped_candidate_extractor.py",
     "candidate_quality_gate.py",
     "approved_candidate_importer.py",
-    "url_verification_engine.py",
+    # ── Expanded discovery (ALL must complete before URL verification) ─────────
     "global_opportunity_expander.py",
     "japanese_chinese_discovery_engine.py",
     "grant_discovery_engine.py",
-    "submission_link_hunter.py",
+    # ── URL verification (now runs after all discovery, not in the middle) ─────
+    "url_verification_engine.py",         # audit fix: moved after steps 6-8
+    # ── submission_link_hunter removed: reads stale verified_opportunities.json
+    #    that is not written by this pipeline; function covered by step 44 ──────
+    # ── Enrichment ────────────────────────────────────────────────────────────
     "opportunity_enrichment_pipeline.py",
     "venue_intelligence_builder.py",
     "venue_memory_engine.py",
@@ -17,7 +24,6 @@ PIPELINE = [
     "visual_profile_ingester.py",
     "visual_dna_extractor.py",
     "watercolor_artist_profile_engine.py",
-    "watercolor_source_expander.py",
     "painting_discovery_engine.py",
     "painting_quality_gate.py",
     "painting_action_report.py",
@@ -81,13 +87,14 @@ PIPELINE = [
     "smart_cover_letter_engine.py",
     "submission_timeline_engine.py",
     "strategy_explainer_generator.py",
-    "final_score_guard.py",
-    "tier_scoring_engine.py",
+    # ── Scoring tail: tier → guard → trust → pruner → prereq → bucket ─────────
+    "why_it_fits_engine.py",              # audit fix: moved before final guard
+    "tier_scoring_engine.py",             # audit fix: must run before final_score_guard
+    "final_score_guard.py",               # audit fix: now runs after tier adjustment
     "recommendation_trust_cleaner.py",
-    "why_it_fits_engine.py",
     "dead_url_pruner.py",
-    "exclusive_strategy_bucket_engine.py",
-    "prerequisite_detection_engine.py",
+    "prerequisite_detection_engine.py",   # audit fix: moved before bucket engine
+    "exclusive_strategy_bucket_engine.py",# audit fix: now runs after prereq + why
     "strategic_action_report.py",
     "next_project_engine.py",
     "dna_project_refiner.py",

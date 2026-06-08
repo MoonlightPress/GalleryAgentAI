@@ -1,14 +1,17 @@
 {
-  "total": 355,
-  "verified": 118,
-  "strong_partial": 130,
-  "partial": 81,
-  "research_needed": 26,
-  "url_ok": 300,
-  "deadline_verified": 249,
-  "contact_verified": 125,
-  "fees_verified": 188,
-  "submission_process_known": 188,
-  "medium_confirmed": 222,
-  "generated_at": "2026-06-08"
+  "generated": "2026-06-09",
+  "ibm_rb_count": 25,
+  "url_verified": 24,
+  "url_ok_or_no_url": 25,
+  "url_failed": 0,
+  "has_contact": 25,
+  "contact_verified": 25,
+  "deadline_verified": 25,
+  "metrics_pct": {
+    "url_actionable": 100,
+    "has_contact": 100,
+    "contact_verified": 100,
+    "deadline_verified": 100
+  },
+  "notes": "Gallery Rocket counted as url_ok_or_no_url (Instagram-only, no website). All rolling/bookstore deadlines explicitly marked."
 }

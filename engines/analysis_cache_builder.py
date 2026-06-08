@@ -34,25 +34,30 @@ def main():
 
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
+    written = 0
+    skipped = 0
+
     for idx, opp in enumerate(opps):
         title = opp.get("title") or opp.get("name") or f"opp_{idx}"
+        path  = CACHE_DIR / f"{idx:03d}_{safe_slug(title, max_len=80)}.md"
 
-        report = opportunity_report_markdown(
-            opp,
-            profile
-        )
+        # Skip entries whose cache is fresh enough (written today).
+        # This avoids regenerating 200+ files on every pipeline run.
+        if path.exists():
+            try:
+                first_line = path.read_text(encoding="utf-8").splitlines()[1] if path.stat().st_size > 0 else ""
+                if date.today().isoformat() in first_line:
+                    skipped += 1
+                    continue
+            except Exception:
+                pass
 
-        enriched = f"""
-REPORT GENERATED: {date.today().isoformat()}
-
-{report}
-"""
-
-        path = CACHE_DIR / f"{idx:03d}_{safe_slug(title, max_len=80)}.md"
-
+        report = opportunity_report_markdown(opp, profile)
+        enriched = f"\nREPORT GENERATED: {date.today().isoformat()}\n\n{report}\n"
         save_text(path, enriched)
+        written += 1
 
-    print(f"Cached {len(opps)} reports.")
+    print(f"Cached {written} reports ({skipped} up-to-date, skipped).")
 
 
 if __name__ == "__main__":
