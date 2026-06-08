@@ -249,14 +249,19 @@ def main():
 
     opps = json.loads(OPP_PATH.read_text(encoding="utf-8"))
 
-    # Top N Tier 1-2 by score
+    # All Tier 1-2 by score, skipping entries that already have venue-specific drafts
     tier12 = [o for o in opps if o.get("career_tier") in (1, 2)]
     tier12.sort(key=lambda x: float(x.get("overall_score") or 0), reverse=True)
-    targets = tier12[: args.limit]
+    needs_email = [o for o in tier12 if not (o.get("email_ja") and o.get("email_en"))]
+    targets = needs_email[: args.limit]
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    print(f"Writing Claude-generated email drafts for top {len(targets)} IBM opportunities...")
+    if not targets:
+        print("All Tier 1-2 entries already have email drafts. Nothing to do.")
+        return
+
+    print(f"Writing Claude-generated email drafts for {len(targets)} entries missing drafts...")
     print(f"Artist context loaded from: {PROFILE_PATH}")
     errors = 0
 

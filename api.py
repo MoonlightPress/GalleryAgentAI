@@ -1,11 +1,14 @@
 import re
 import sys
 import json
+import hmac
 import hashlib
+import os
+import subprocess
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Request, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -402,6 +405,7 @@ def load_opportunities() -> list:
         x for x in items
         if x.get("exclusive_primary_bucket") not in {"reject", "low_priority"}
         and x.get("status") != "permanently_closed"
+        and x.get("recommendation_visibility") != "hidden"
         and _opp_id(x) not in suppressed
     ]
 
@@ -1560,6 +1564,29 @@ def get_today():
 @app.get("/api/health")
 def health():
     return {"status": "ok"}
+
+
+# ── GitHub webhook — auto-deploy on push to main ──────────────────────────────
+
+WEBHOOK_SECRET   = os.environ.get("MOCHI_WEBHOOK_SECRET", "")
+DEPLOY_SCRIPT    = Path(__file__).parent / "scripts" / "deploy_from_git.sh"
+
+def _run_deploy():
+    if DEPLOY_SCRIPT.exists():
+        subprocess.Popen(["bash", str(DEPLOY_SCRIPT)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+@app.post("/webhook/deploy")
+async def webhook_deploy(request: Request, background_tasks: BackgroundTasks):
+    body = await request.body()
+    if WEBHOOK_SECRET:
+        sig = request.headers.get("X-Hub-Signature-256", "")
+        expected = "sha256=" + hmac.new(WEBHOOK_SECRET.encode(), body, hashlib.sha256).hexdigest()
+        if not hmac.compare_digest(sig, expected):
+            raise HTTPException(status_code=403, detail="Invalid signature")
+    event = request.headers.get("X-GitHub-Event", "")
+    if event == "push":
+        background_tasks.add_task(_run_deploy)
+    return {"status": "ok", "event": event}
 
 
 if __name__ == "__main__":
