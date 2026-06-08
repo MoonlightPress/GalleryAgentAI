@@ -203,6 +203,22 @@ def choose_bucket(opp):
     if opp.get("native_medium") == "photography":
         return "reject"
 
+    # Photography category gate — catches photo calls even when native_medium is
+    # missing or marked "mixed". Only reject if NOT explicitly painting-friendly.
+    if opp.get("category") in ("photo_open_call", "global_photobook"):
+        accepted = str(opp.get("accepted_media") or "").lower()
+        if "watercolor" not in accepted and "painting" not in accepted:
+            return "reject"
+
+    # Generic index listing pages and non-art calls: never surface to artist.
+    # open_call_index = raw listing-page URLs scraped as link text, not real opportunities.
+    # Film / audio / podcast calls are not relevant to a visual painting practice.
+    if opp.get("category") == "open_call_index":
+        return "reject"
+    _title_lc = (opp.get("title") or opp.get("name") or "").lower()
+    if any(t in _title_lc for t in ("film festival", "podcast", "audio work required")):
+        return "reject"
+
     # Press targets: publications to pitch for features. Never filtered by deadline.
     # Route to relationship_builders (they are relationship plays, not one-off applications).
     if opp.get("category") == "press_target" or opp.get("opportunity_type") == "press_target":
@@ -270,11 +286,22 @@ def choose_bucket(opp):
         "zinefes",
         "zineフェス",
         "zine fest tokyo",
-        # Currently-open international watercolor calls
+        # Currently-open international watercolor calls (always immediate when verified + open)
         "northwest watercolor society",
         "cspwc",
         "canadian society of painters",
     ]
+
+    # High-score verified global watercolor open calls get immediate_best_moves
+    # even when the city is not Tokyo (they are still medium-perfect and actionable).
+    # This handles nwws.org, cspwc.ca, and similar juried watercolor societies.
+    if (
+        opp.get("category") == "global_watercolor_open_call"
+        and opp.get("native_medium") == "painting"
+        and opp.get("verification_status") in ("verified", "strong_partial")
+        and score >= 7.0
+    ):
+        return "immediate_best_moves"
 
     # Tier 1-2 publication / artist-book terms
     publication_terms = [
