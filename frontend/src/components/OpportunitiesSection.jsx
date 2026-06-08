@@ -87,7 +87,12 @@ export default function OpportunitiesSection() {
 
 function PressCard({ opp }) {
   const [expanded, setExpanded] = useState(false)
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
+  const loc = (field) => {
+    if (lang === 'zh' && opp[field + '_zh']) return opp[field + '_zh']
+    if (lang === 'ja' && opp[field + '_ja']) return opp[field + '_ja']
+    return opp[field]
+  }
 
   const actionType = (opp.action_type || '').toLowerCase()
   const badgeKey   = actionType === 'relationship'
@@ -97,8 +102,8 @@ function PressCard({ opp }) {
     ? 'press-badge press-badge--rel'
     : 'press-badge press-badge--pitch'
 
-  const name    = opp.name || opp.title || ''
-  const summary = opp.summary || opp.one_sentence || ''
+  const name    = loc('name') || opp.title || ''
+  const summary = loc('summary') || opp.one_sentence || ''
   const contact = opp.contact || ''
   const note    = opp.relationship_note || ''
   const website = opp.official_website || opp.source_url || ''

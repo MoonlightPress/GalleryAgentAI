@@ -94,8 +94,13 @@ async function saveFeedback(opp, action) {
 export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
   const [feedback, setFeedback] = useState(null)
   const [appliedToast, setAppliedToast] = useState(false)
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const iconSrc = CAT_ICON[opp.category] || DEFAULT_ICON
+  const loc = (field) => {
+    if (lang === 'zh' && opp[field + '_zh']) return opp[field + '_zh']
+    if (lang === 'ja' && opp[field + '_ja']) return opp[field + '_ja']
+    return opp[field]
+  }
 
   async function handleFeedback(actionId) {
     const next = feedback === actionId ? null : actionId
@@ -125,7 +130,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
         {/* Header: 40×40 icon + title */}
         <div className="opp-card-header">
           <img src={iconSrc} alt="" className="opp-card-icon" />
-          <h3 className="opp-card-title">{opp.name}</h3>
+          <h3 className="opp-card-title">{loc('name')}</h3>
         </div>
 
         {/* Tags */}
@@ -144,11 +149,11 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
         </div>
 
         {/* Description */}
-        <p className="opp-card-desc">{opp.summary}</p>
+        <p className="opp-card-desc">{loc('summary')}</p>
 
         {/* Why it fits — the artist-specific signal, only when distinct from summary */}
-        {opp.why_card && (
-          <p className="opp-card-why">{opp.why_card}</p>
+        {loc('why_card') && (
+          <p className="opp-card-why">{loc('why_card')}</p>
         )}
 
         {/* Primary action */}

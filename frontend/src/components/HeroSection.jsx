@@ -6,7 +6,12 @@ import { useLanguage } from '../i18n/LanguageContext'
 const ROLE_ICONS = { quick_win: '⚡', high_impact: '✦', stretch_goal: '◎' }
 
 export default function HeroSection() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
+  const locOpp = (opp, field) => {
+    if (lang === 'zh' && opp[field + '_zh']) return opp[field + '_zh']
+    if (lang === 'ja' && opp[field + '_ja']) return opp[field + '_ja']
+    return opp[field]
+  }
   const [today, setToday] = useState(null)
 
   useEffect(() => {
@@ -43,7 +48,7 @@ export default function HeroSection() {
                     {opp.today_label}
                     <span className="focus-item-time">· {opp.time_est}</span>
                   </div>
-                  <div className="focus-item-name">{opp.name}</div>
+                  <div className="focus-item-name">{locOpp(opp, 'name')}</div>
                 </div>
               </li>
             )) : (

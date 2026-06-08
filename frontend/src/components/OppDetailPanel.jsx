@@ -15,7 +15,12 @@ function isDistinctUrl(a, b) {
 
 export default function OppDetailPanel({ opp, onClose }) {
   const [emailTab, setEmailTab] = useState('zh')
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
+  const loc = (field) => {
+    if (lang === 'zh' && opp[field + '_zh']) return opp[field + '_zh']
+    if (lang === 'ja' && opp[field + '_ja']) return opp[field + '_ja']
+    return opp[field]
+  }
   const verifyNeeded = !deadlineIsReal(opp.deadline)
 
   const [crmContact, setCrmContact] = useState(null)
@@ -189,23 +194,23 @@ export default function OppDetailPanel({ opp, onClose }) {
       <div className="detail-panel-grid">
         {/* Left: content */}
         <div className="detail-panel-left">
-          {opp.overview && (
+          {(loc('overview')) && (
             <div className="detail-block">
               <div className="detail-label">{t('detail.label.overview')}</div>
-              <p>{opp.overview}</p>
+              <p>{loc('overview')}</p>
             </div>
           )}
-          {opp.why_it_fits && (
+          {(loc('why_it_fits')) && (
             <div className="detail-block detail-why-fits">
               <div className="detail-label">{t('detail.label.whyFits')}</div>
-              <p>{opp.why_it_fits}</p>
+              <p>{loc('why_it_fits')}</p>
             </div>
           )}
-          {opp.bullets?.length > 0 && (
+          {(loc('bullets') || opp.bullets)?.length > 0 && (
             <div className="detail-block">
               <div className="detail-label">{t('detail.label.keyPoints')}</div>
               <ul className="detail-bullets detail-bullets--evidence">
-                {opp.bullets.map((b, i) => <li key={i}>{b}</li>)}
+                {(loc('bullets') || opp.bullets).map((b, i) => <li key={i}>{b}</li>)}
               </ul>
             </div>
           )}
