@@ -261,7 +261,8 @@ _CN = {
     "Physical publication needed for this opportunity": ("此机会需要实体出版物", "この機会には実物の出版物が必要です"),
 }
 
-def _ci(label: str, status: str, note: str) -> dict:
+def _ci(label: str, status: str, note) -> dict:
+    note = note or ""
     lz, lj = _CL.get(label, (label, label))
     # note may have a dynamic prefix like "2025年10月1日 — confirm before applying"
     nz, nj = "", ""
