@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-08
 
 # Comitia
 
 ## 1. Quick Judgment
-**Fit score:** 7.7/10  
-**Fit band:** Strong fit  
+**Fit score:** 8.4/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Tokyo  
@@ -50,5 +50,5 @@ Skip—this isn't aligned with your practice model or strategic direction.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_
 

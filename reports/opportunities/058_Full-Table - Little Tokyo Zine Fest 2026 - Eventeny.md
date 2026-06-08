@@ -1,19 +1,19 @@
 # Full-Table - Little Tokyo Zine Fest 2026 - Eventeny
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Japan / Tokyo / Online  
 
 ## 2. Verification Status
-Verified: Official/source website. Needs checking: Submission process, Deadline, Fees, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://www.eventeny.com/events/vendor/?id=39232 (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
-- **Deadline**: Not publicly listed (needs_inquiry)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://www.eventeny.com/events/vendor?id=39232 (verified)
+- **Deadline**: 6/15/2026 (verified)
+- **Fees**: $100 (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -34,9 +34,9 @@ Full-Table - Little Tokyo Zine Fest 2026 - Eventeny fits because zines and art-b
 - Risk: Application route may be unclear.; Deadline needs manual confirmation.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
-- **Submission page:** Not publicly listed
+- **Deadline:** 6/15/2026
+- **Fees:** $100
+- **Submission page:** https://www.eventeny.com/events/vendor?id=39232
 - **Source:** https://www.eventeny.com/events/vendor/?id=39232
 
 ## 8. Risk / Unknowns
@@ -48,4 +48,4 @@ Check application window, booth/table fee, required images, and whether a finish
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-08_

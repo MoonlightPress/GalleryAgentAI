@@ -150,7 +150,7 @@
       {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
         "score": 9.4,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.29,
         "hits": [
           "zine"
         ],
@@ -249,6 +249,33 @@
         "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
       },
       {
+        "title": "Pinpoint Gallery",
+        "score": 9.4,
+        "differentiated_score": 10.84,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
+      },
+      {
+        "title": "Casa Brutus — Architecture/Art Feature",
+        "score": 9.4,
+        "differentiated_score": 10.77,
+        "hits": [
+          "architecture"
+        ],
+        "why": "Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design."
+      },
+      {
+        "title": "Pen Magazine — Artist Spotlight",
+        "score": 9.4,
+        "differentiated_score": 10.77,
+        "hits": [
+          "architecture"
+        ],
+        "why": "Tokyo's design-literate audience. Urban watercolor + Tokyo documentation = strong editorial angle for Pen readers."
+      },
+      {
         "title": "Aperture | Photography",
         "score": 8.8,
         "differentiated_score": 10.7,
@@ -258,15 +285,6 @@
         "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       },
       {
-        "title": "Pinpoint Gallery",
-        "score": 9.1,
-        "differentiated_score": 10.54,
-        "hits": [
-          "artist book"
-        ],
-        "why": "Native works-on-paper / illustration gallery context. Stronger medium fit than watercolor / works on paper or artist book / watercolor sequence-only opportunities."
-      },
-      {
         "title": "Offprint",
         "score": 8.6,
         "differentiated_score": 10.15,
@@ -274,24 +292,6 @@
           "artist book"
         ],
         "why": "Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications."
-      },
-      {
-        "title": "Casa Brutus — Architecture/Art Feature",
-        "score": 8.7,
-        "differentiated_score": 10.07,
-        "hits": [
-          "architecture"
-        ],
-        "why": "Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design."
-      },
-      {
-        "title": "Pen Magazine — Artist Spotlight",
-        "score": 8.7,
-        "differentiated_score": 10.07,
-        "hits": [
-          "architecture"
-        ],
-        "why": "Tokyo's design-literate audience. Urban watercolor + Tokyo documentation = strong editorial angle for Pen readers."
       }
     ]
   },
@@ -402,7 +402,7 @@
       {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
         "score": 9.4,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.29,
         "hits": [
           "zine"
         ],
@@ -500,6 +500,15 @@
         "why": "Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you."
       },
       {
+        "title": "AAA Gallery Yokohama",
+        "score": 9.4,
+        "differentiated_score": 10.84,
+        "hits": [
+          "open call"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
         "title": "水性繪畫展覽 (Watercolor Exhibition)",
         "score": 9.4,
         "differentiated_score": 10.78,
@@ -518,6 +527,24 @@
         "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
       },
       {
+        "title": "Casa Brutus — Architecture/Art Feature",
+        "score": 9.4,
+        "differentiated_score": 10.77,
+        "hits": [
+          "architecture"
+        ],
+        "why": "Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design."
+      },
+      {
+        "title": "Pen Magazine — Artist Spotlight",
+        "score": 9.4,
+        "differentiated_score": 10.77,
+        "hits": [
+          "architecture"
+        ],
+        "why": "Tokyo's design-literate audience. Urban watercolor + Tokyo documentation = strong editorial angle for Pen readers."
+      },
+      {
         "title": "Aperture | Photography",
         "score": 8.8,
         "differentiated_score": 10.7,
@@ -534,33 +561,6 @@
           "open call"
         ],
         "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
-      },
-      {
-        "title": "AAA Gallery Yokohama",
-        "score": 9.0,
-        "differentiated_score": 10.44,
-        "hits": [
-          "open call"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "Gallery IYN",
-        "score": 8.8,
-        "differentiated_score": 10.34,
-        "hits": [
-          "open call"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
-      },
-      {
-        "title": "桜をテーマとするイラスト・絵画作品募集",
-        "score": 9.4,
-        "differentiated_score": 10.26,
-        "hits": [
-          "open call"
-        ],
-        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
       }
     ]
   }

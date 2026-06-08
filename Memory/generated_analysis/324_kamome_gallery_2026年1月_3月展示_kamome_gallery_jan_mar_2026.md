@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)
 
 ## 1. Quick Judgment
-**Fit score:** 2.8/10  
+**Fit score:** 3.2/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Cafe / Local Wall Spaces  

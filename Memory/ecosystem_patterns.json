@@ -2,11 +2,11 @@
   "dominant_countries": [
     [
       "Japan",
-      45
+      43
     ],
     [
       "Global",
-      7
+      8
     ],
     [
       "USA",
@@ -18,7 +18,7 @@
     ],
     [
       "Canada",
-      4
+      5
     ],
     [
       "UK",
@@ -34,10 +34,6 @@
     ],
     [
       "Tokyo",
-      2
-    ],
-    [
-      "United States",
       2
     ],
     [
@@ -57,6 +53,10 @@
       1
     ],
     [
+      "United States",
+      1
+    ],
+    [
       "Taiwan",
       1
     ]
@@ -64,26 +64,30 @@
   "dominant_categories": [
     [
       "gallery",
-      16
+      14
     ],
     [
       "grant",
-      10
-    ],
-    [
-      "japan_watercolor_open_call",
       9
     ],
     [
-      "global_open_call",
+      "japan_watercolor_open_call",
       8
     ],
     [
-      "press_target",
-      6
+      "fair_popup",
+      7
     ],
     [
       "bookstore_gallery",
+      7
+    ],
+    [
+      "global_open_call",
+      7
+    ],
+    [
+      "press_target",
       6
     ],
     [
@@ -95,19 +99,15 @@
       5
     ],
     [
-      "cafe_gallery",
-      5
-    ],
-    [
-      "artist_space",
-      5
-    ],
-    [
-      "fair_popup",
+      "zine_shop_consignment",
       4
     ],
     [
-      "zine_shop_consignment",
+      "artist_space",
+      4
+    ],
+    [
+      "institutional",
       4
     ],
     [
@@ -116,6 +116,10 @@
     ],
     [
       "book_publishing",
+      3
+    ],
+    [
+      "cafe_gallery",
       3
     ],
     [
@@ -131,61 +135,53 @@
       2
     ],
     [
-      "institutional",
+      "global_art_book_fair",
       2
     ],
     [
       "global_book_arts",
       1
-    ],
-    [
-      "bookstore_event",
-      1
     ]
   ],
   "dominant_tags": [
-    [
-      "japan",
-      25
-    ],
     [
       "japanese_source",
       25
     ],
     [
-      "has_deadline",
+      "japan",
       24
     ],
     [
-      "has_submission_url",
-      21
+      "has_deadline",
+      22
     ],
     [
       "jp",
       20
     ],
     [
+      "has_submission_url",
+      20
+    ],
+    [
       "secondary",
-      18
+      16
     ],
     [
       "",
-      18
+      16
     ],
     [
       "watercolor_ok",
-      12
+      11
     ],
     [
       "diaspora",
-      10
+      9
     ],
     [
       "grant",
-      10
-    ],
-    [
-      "diaspora_community",
       9
     ],
     [
@@ -193,11 +189,15 @@
       9
     ],
     [
-      "tokyo",
+      "global",
       8
     ],
     [
-      "global",
+      "diaspora_community",
+      8
+    ],
+    [
+      "tokyo",
       7
     ],
     [
@@ -210,6 +210,10 @@
     ],
     [
       "editorial",
+      6
+    ],
+    [
+      "zine",
       6
     ],
     [
@@ -229,19 +233,11 @@
       5
     ],
     [
-      "zine",
-      5
-    ],
-    [
       "low",
       4
     ],
     [
       "international",
-      4
-    ],
-    [
-      "tier_1",
       4
     ],
     [
@@ -253,19 +249,7 @@
       4
     ],
     [
-      "emerging_artist",
-      3
-    ],
-    [
-      "bookshop",
-      3
-    ],
-    [
-      "koenji",
-      3
-    ],
-    [
-      "cafe_gallery",
+      "tier_1",
       3
     ],
     [
@@ -273,19 +257,19 @@
       3
     ],
     [
+      "bookshop",
+      3
+    ],
+    [
       "watercolor",
       3
     ],
     [
-      "acc",
-      3
-    ],
-    [
-      "chinese_national_eligible",
-      3
-    ],
-    [
       "illustration",
+      2
+    ],
+    [
+      "emerging_artist",
       2
     ],
     [
@@ -298,6 +282,22 @@
     ],
     [
       "portfolio_builder",
+      2
+    ],
+    [
+      "career_changing",
+      2
+    ],
+    [
+      "prestige",
+      2
+    ],
+    [
+      "koenji",
+      2
+    ],
+    [
+      "cafe_gallery",
       2
     ],
     [

@@ -1,22 +1,22 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-08
 
 # NY公募展2026夏（NY Open Call Exhibition Summer 2026）
 
 ## 1. Quick Judgment
-**Fit score:** 9.3/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Global Open Call  
 **City:** New York  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://note.com/koyuri_note/n/n49c5656f1004 (verified)
 - **Submission process**: https://art-incubation.com/index.php/b-1/ (verified)
 - **Deadline**: 2026年夏（Summer 2026） (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Fees**: $15 (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -35,7 +35,7 @@ International open call for summer 2026 accepting artwork submissions from artis
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026年夏（Summer 2026）
-- **Fees:** Not publicly listed
+- **Fees:** $15
 - **Submission page:** https://art-incubation.com/index.php/b-1/
 - **Source:** https://note.com/koyuri_note/n/n49c5656f1004
 
@@ -48,5 +48,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_
 

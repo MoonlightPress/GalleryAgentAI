@@ -4,7 +4,7 @@
 
 _Previous run: 2026-06-08_
 
-- **Opportunity count:** 300 → 345 (+45)
+No changes detected.
 
 ## Immediate Best Moves (11)
 
@@ -79,7 +79,7 @@ _Previous run: 2026-06-08_
 ### Confirmed Deadlines Within 90 Days
 
 - **ギャラリーへ行こう2026** — Entry period: June 15 - July 1, 2025; Submission dates: July 2-4, 2025 (7d) [Research]
-- **FY2026 Life with Art Grant** — 14:00 on Monday, June 29, 2026 (21d) [Research]
+- **FY2026 Life with Art Grant** — 14:00 on Monday, June 29, 2026 (21d) [Stretch]
 - **Brillia Art Award Wall 2026** — 2026-07-08 (30d) [Research]
 - **Art Fair Tokyo 2026** — 2026-08-01 (54d) [Stretch]
 - **KAMIHANGA国際プリント展2026** — Domestic: September 4, 2026 (Monday); International: August 14, 2026 (Thursday) (67d) [Research]

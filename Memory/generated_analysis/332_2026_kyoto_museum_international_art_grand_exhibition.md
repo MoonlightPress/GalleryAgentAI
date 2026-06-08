@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # 2026 Kyoto Museum International Art Grand Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 2.4/10  
+**Fit score:** 2.6/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Institutional / Grants  

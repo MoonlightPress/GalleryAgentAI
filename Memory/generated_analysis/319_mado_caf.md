@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # MADO Café
 
 ## 1. Quick Judgment
-**Fit score:** 3.2/10  
+**Fit score:** 3.8/10  
 **Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  

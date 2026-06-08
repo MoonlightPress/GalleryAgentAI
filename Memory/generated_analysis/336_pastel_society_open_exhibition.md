@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # Pastel Society Open Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 1.9/10  
+**Fit score:** 2.1/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Other  

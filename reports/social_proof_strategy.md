@@ -146,8 +146,8 @@ These opportunities may create disproportionate reputation value.
 - Why: Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## 水性繪畫展覽 (Watercolor Exhibition)
+## Bologna Children's Book Fair Illustrators Exhibition
 
 - Prestige: None
-- Why: Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
+- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

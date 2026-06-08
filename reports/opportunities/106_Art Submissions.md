@@ -8,12 +8,12 @@
 **City:** Online  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline. Needs checking: Fees, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://www.artconnect.com/opportunities/art-submissions (verified)
 - **Submission process**: https://www.artconnect.com/opportunities/art-submissions (verified)
 - **Deadline**: October 26, 2025 at 11:59 p.m. MDT (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Fees**: Free (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -34,7 +34,7 @@ Possible fit based on link text: submission
 
 ## 7. Submission / Logistics
 - **Deadline:** October 26, 2025 at 11:59 p.m. MDT
-- **Fees:** Not publicly listed
+- **Fees:** Free
 - **Submission page:** https://www.artconnect.com/opportunities/art-submissions
 - **Source:** https://www.artconnect.com/opportunities/art-submissions
 
@@ -47,4 +47,4 @@ Open and verify whether this is current and relevant.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-08_

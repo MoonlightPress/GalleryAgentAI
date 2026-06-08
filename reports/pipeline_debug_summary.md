@@ -11,9 +11,9 @@
 
 - Tokyo Art Book Fair — 10.0/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=10.32)
 - UTRECHT — 10.0/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.32)
-- 美術手帖 (Bijutsu Techo) — Artist Feature — 9.1/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=7, composite=9.78)
 - Women United ART MAGAZINE Issue XIV Summer 2026 — 8.7/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.52)
 - SUBMISSIONS - marblepress.com — 8.7/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=9.66)
+- 美術手帖 (Bijutsu Techo) — Artist Feature — 8.7/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=9.59)
 - ZINEフェス東京 (ZINE Fest Tokyo) — 10.0/10 — verified — ok — Rescored 9.4 → 9.2 (verification_points=5, composite=10.2)
 - TOKIO ART BOOK FAIR 2026 — 8.5/10 — verified — ok — Rescored 9.4 → 6.0 (verification_points=6, composite=6.0)
 - Center for Book Arts Opportunities — 9.1/10 — verified — ok — Rescored 9.4 → 9.6 (verification_points=6, composite=9.57)

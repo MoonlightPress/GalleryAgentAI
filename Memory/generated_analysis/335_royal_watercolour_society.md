@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # Royal Watercolour Society
 
 ## 1. Quick Judgment
-**Fit score:** 2.0/10  
+**Fit score:** 2.2/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Other  

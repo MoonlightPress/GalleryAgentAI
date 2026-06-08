@@ -8,13 +8,13 @@
 **City:** Yokohama  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://koganecho.net/ (verified)
 - **Submission process**: https://koganecho.net/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2026-04-10 (verified)
+- **Fees**: Free (verified)
+- **Contact**: info@koganecho.net (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Artist Spaces.
@@ -33,8 +33,8 @@ Your architectural documentation practice and interest in vernacular Asian space
 - Competitive AIR programs likely emphasize community engagement and site-specific projects over studio practice
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** 2026-04-10
+- **Fees:** Free
 - **Submission page:** https://koganecho.net/
 - **Source:** https://koganecho.net/
 
@@ -47,4 +47,4 @@ Visit website to understand current programming cycle before investing energy in
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-08_

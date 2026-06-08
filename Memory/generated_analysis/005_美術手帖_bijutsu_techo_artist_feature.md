@@ -11,10 +11,10 @@ REPORT GENERATED: 2026-06-08
 **City:** Tokyo  
 
 ## 2. Verification Status
-Core public information appears present.
+Verified: Official/source website, Deadline, Fees, Contact. Needs checking: Submission process.
 
 - **Official/source website**: https://bijutsutecho.com/ (verified)
-- **Submission process**: http://shibukaru.com/web (verified)
+- **Submission process**: Not publicly listed (needs_inquiry)
 - **Deadline**: ongoing (verified)
 - **Fees**: Free (verified)
 - **Contact**: editorial@bijutsutecho.com or Instagram DM @bijutsutecho (verified)
@@ -36,7 +36,7 @@ Flagship fine art publication for the Japanese art world. An editorial feature h
 ## 7. Submission / Logistics
 - **Deadline:** ongoing
 - **Fees:** Free
-- **Submission page:** http://shibukaru.com/web
+- **Submission page:** Not publicly listed
 - **Source:** https://bijutsutecho.com/
 
 ## 8. Risk / Unknowns

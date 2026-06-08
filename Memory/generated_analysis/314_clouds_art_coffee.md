@@ -4,8 +4,8 @@ REPORT GENERATED: 2026-06-08
 # Clouds Art + Coffee
 
 ## 1. Quick Judgment
-**Fit score:** 3.6/10  
-**Fit band:** Low priority  
+**Fit score:** 4.4/10  
+**Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  
 **City:** Tokyo  

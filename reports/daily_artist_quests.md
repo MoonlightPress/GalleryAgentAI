@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research ILOVETOYS / neuprint — Chinese Illustration Feature submission process.
-- Research 2026 ART CAPITAL Paris Grand Palais International Youth Academic Award submission process.
-- Research 2026 3rd Annual Illustration Summit Challenge (IlloBoom!) submission process.
-- Research Gallery 191 Exhibition 2026 submission process.
-- Research Browse opportunities | CuratorSpace submission process.
-- Compare Jackson's Art Prize to similar institutions.
-- Compare Northwest Watercolor Society 2026 Annual International Open Exhibition to similar institutions.
-- Compare The Artcomplex Center of Tokyo to similar institutions.
+- Research 2026 Global Grant Cycle - Fellowships and Grants (General) submission process.
+- Research NY公募展2026夏（NY Open Call Exhibition Summer 2026） submission process.
+- Research Royal Watercolour Society Open Exhibition submission process.
+- Research Cité Internationale des Arts Artist Residency submission process.
+- Research 3x3 International Illustration Awards submission process.
+- Compare Society of Women Artists to similar institutions.
+- Compare American Watercolor Society Annual International Exhibition to similar institutions.
+- Compare IlloBoom! 2026 第三屆插畫巔峰賽 to similar institutions.

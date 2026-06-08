@@ -36,8 +36,8 @@ This turns project concepts into concrete submission paths.
 - Tokyo Art Book Fair
 - UTRECHT
 - Center for Book Arts Opportunities
-- Aperture | Photography
 - Pinpoint Gallery
+- Casa Brutus — Architecture/Art Feature
 
 ### What To Prepare
 - 12–20 image edit
@@ -78,10 +78,10 @@ This turns project concepts into concrete submission paths.
 
 ### Best First Targets
 - Tokyo Art Book Fair
+- AAA Gallery Yokohama
 - 水性繪畫展覽 (Watercolor Exhibition)
 - 水彩アートの祭典 (Watercolor Art Festival)
-- Aperture | Photography
-- Browse opportunities | CuratorSpace
+- Casa Brutus — Architecture/Art Feature
 
 ### What To Prepare
 - 12–20 image edit

@@ -4,7 +4,7 @@ REPORT GENERATED: 2026-06-08
 # Kyoto Art Center Residency
 
 ## 1. Quick Judgment
-**Fit score:** 2.8/10  
+**Fit score:** 3.2/10  
 **Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  

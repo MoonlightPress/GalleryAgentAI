@@ -25,9 +25,9 @@ This report answers the question: what should she actually make or submit next?
 ### Best Opportunity Targets
 - **Tokyo Art Book Fair** — 10.0 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 10.0 / 11.39. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- **美術手帖 (Bijutsu Techo) — Artist Feature** — 9.1 / 11.39. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 8.7 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **SUBMISSIONS - marblepress.com** — 8.7 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **美術手帖 (Bijutsu Techo) — Artist Feature** — 8.7 / 11.29. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 10.0 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 - **TOKIO ART BOOK FAIR 2026** — 8.5 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **Center for Book Arts Opportunities** — 9.1 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
@@ -66,9 +66,9 @@ Make a 20-image edit and title it provisionally. Do not write the full statement
 ### Best Opportunity Targets
 - **Tokyo Art Book Fair** — 10.0 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 10.0 / 11.39. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- **美術手帖 (Bijutsu Techo) — Artist Feature** — 9.1 / 11.39. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 8.7 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **SUBMISSIONS - marblepress.com** — 8.7 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **美術手帖 (Bijutsu Techo) — Artist Feature** — 8.7 / 11.29. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 10.0 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 - **TOKIO ART BOOK FAIR 2026** — 8.5 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **Center for Book Arts Opportunities** — 9.1 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
@@ -102,9 +102,9 @@ Build the edit as a PDF contact sheet first, then reduce it by half.
 ### Best Opportunity Targets
 - **Tokyo Art Book Fair** — 10.0 / 11.39. Tokyo location and alternative art community access align well, and your documentary approach could translate to artist book / watercolor sequence or artist book format if that medium interests you.
 - **UTRECHT** — 10.0 / 11.39. This sidesteps your strategic risk entirely—bookstore galleries celebrate watercolor artistly work, your the work could translate well in print format, and there's no pressure to perform conceptually or network aggressively.
-- **美術手帖 (Bijutsu Techo) — Artist Feature** — 9.1 / 11.39. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
 - **Women United ART MAGAZINE Issue XIV Summer 2026** — 8.7 / 11.39. Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 - **SUBMISSIONS - marblepress.com** — 8.7 / 11.39. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **美術手帖 (Bijutsu Techo) — Artist Feature** — 8.7 / 11.29. Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 10.0 / 11.24. Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 - **TOKIO ART BOOK FAIR 2026** — 8.5 / 11.24. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - **Center for Book Arts Opportunities** — 9.1 / 11.17. Potential fit if her work becomes more explicitly book-oriented or object/paper based.
