@@ -16,6 +16,7 @@ Updates deploy_data/compact_opportunities.json in-place.
 
 import sys
 import json
+import argparse
 from pathlib import Path
 from datetime import datetime, timezone
 from collections import defaultdict
@@ -68,9 +69,9 @@ def tokens_from_opp(opp: dict) -> list:
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
-def run():
+def run(dry_run: bool = False):
     # ------------------------------------------------------------------
-    # 1. Load feedback
+    # 1. Load feedback — skip immediately if empty or missing
     # ------------------------------------------------------------------
     if not FEEDBACK_PATH.exists():
         print("Feedback: No feedback.json found, skipping.")
@@ -80,10 +81,13 @@ def run():
         feedback = json.load(f)
 
     if not feedback:
-        print("Feedback: No feedback records yet, skipping.")
+        print("Feedback: feedback.json is empty — no artist actions recorded yet. Skipping.")
         return
 
-    print(f"Feedback: Loaded {len(feedback)} feedback record(s).")
+    if dry_run:
+        print(f"[DRY RUN] Feedback: {len(feedback)} record(s) loaded.")
+    else:
+        print(f"Feedback: Loaded {len(feedback)} feedback record(s).")
 
     # ------------------------------------------------------------------
     # 2. Load compact opportunities
@@ -118,6 +122,8 @@ def run():
     category_applied: dict = defaultdict(float)
     category_followed: dict = defaultdict(float)
 
+    resolved_count = 0  # entries that matched a real opportunity
+
     for record in feedback:
         opp_id = str(record.get("opp_id", "")).lower().strip()
         action = str(record.get("action", "")).lower().strip()
@@ -125,8 +131,10 @@ def run():
         # Locate source opp
         src_idx = by_id.get(opp_id)
         if src_idx is None:
-            # opp may have been removed or id doesn't match
+            # test entry, stale reference, or synthetic id — not a real artist action
             continue
+
+        resolved_count += 1
 
         src = opps[src_idx]
         src_category = str(src.get("category", "")).strip()
@@ -159,7 +167,20 @@ def run():
                 score_deltas[idx] += boost
 
     # ------------------------------------------------------------------
-    # 5. Determine penalised categories (3+ not_for_me dismissals)
+    # 5. Guard: require at least one resolved real-artist entry
+    # ------------------------------------------------------------------
+    if resolved_count == 0:
+        print(
+            f"Feedback: {len(feedback)} record(s) loaded but none resolved to a known opportunity. "
+            "All entries may be test/synthetic data. Skipping score adjustment."
+        )
+        return
+
+    if dry_run:
+        print(f"[DRY RUN] {resolved_count}/{len(feedback)} records resolved to real opportunities.")
+
+    # ------------------------------------------------------------------
+    # 6. Determine penalised categories (3+ not_for_me dismissals)
     # ------------------------------------------------------------------
     penalised_categories: dict = {}
     for cat, count in category_not_for_me.items():
@@ -167,48 +188,69 @@ def run():
             penalised_categories[cat] = -1.0
 
     # ------------------------------------------------------------------
-    # 6. Write changes to opps
+    # 7. Compute score changes (always — even in dry_run, so we can report)
     # ------------------------------------------------------------------
     opps_boosted = 0
     opps_penalised = 0
+    dry_run_report: list = []
 
     for idx, opp in enumerate(opps):
         cat = str(opp.get("category", "")).strip()
         delta = score_deltas.get(idx, 0.0)
         penalty = penalised_categories.get(cat, 0.0)
+        old_score = float(opp.get("overall_score", 0) or 0)
 
         if delta > 0:
-            old_score = float(opp.get("overall_score", 0) or 0)
             new_score = min(10.0, old_score + delta)
-            opp["overall_score"] = round(new_score, 4)
-            opp["feedback_score_delta"] = round(delta, 4)
-            opp["feedback_boosted"] = True
+            if dry_run:
+                title = opp.get("title") or opp.get("name") or "?"
+                dry_run_report.append(f"  BOOST  {title[:50]:<50}  {old_score:.2f} → {new_score:.2f} (+{delta:.2f})")
+            else:
+                opp["overall_score"] = round(new_score, 4)
+                opp["feedback_score_delta"] = round(delta, 4)
+                opp["feedback_boosted"] = True
             opps_boosted += 1
 
         if penalty < 0:
-            old_score = float(opp.get("overall_score", 0) or 0)
             new_score = max(0.0, old_score + penalty)
-            opp["overall_score"] = round(new_score, 4)
-            opp["feedback_penalty"] = True
-            existing_delta = float(opp.get("feedback_score_delta", 0.0) or 0.0)
-            opp["feedback_score_delta"] = round(existing_delta + penalty, 4)
+            if dry_run:
+                title = opp.get("title") or opp.get("name") or "?"
+                dry_run_report.append(f"  PENALISE  {title[:50]:<50}  {old_score:.2f} → {new_score:.2f} ({penalty:.2f})")
+            else:
+                opp["overall_score"] = round(new_score, 4)
+                opp["feedback_penalty"] = True
+                existing_delta = float(opp.get("feedback_score_delta", 0.0) or 0.0)
+                opp["feedback_score_delta"] = round(existing_delta + penalty, 4)
             opps_penalised += 1
 
     # ------------------------------------------------------------------
-    # 7. Write compact_opportunities.json
+    # 8. Dry-run exit — report without writing
+    # ------------------------------------------------------------------
+    if dry_run:
+        print(f"[DRY RUN] Would boost {opps_boosted} opportunity scores, penalise {opps_penalised} categories.")
+        if dry_run_report:
+            print("\n".join(dry_run_report[:30]))
+            if len(dry_run_report) > 30:
+                print(f"  ... and {len(dry_run_report) - 30} more")
+        print("[DRY RUN] No files written.")
+        return
+
+    # ------------------------------------------------------------------
+    # 9. Write compact_opportunities.json
     # ------------------------------------------------------------------
     with open(COMPACT_PATH, "w", encoding="utf-8") as f:
         json.dump(opps, f, ensure_ascii=False, indent=2)
 
     # ------------------------------------------------------------------
-    # 8. Write learned_preferences.json
+    # 10. Write learned_preferences.json
     # ------------------------------------------------------------------
     prefs = {
         "last_run": datetime.now(timezone.utc).isoformat(),
+        "resolved_feedback_records": resolved_count,
+        "total_feedback_records": len(feedback),
         "category_boosts": {k: round(v, 4) for k, v in {**category_applied, **category_followed}.items()},
         "category_penalties": {k: round(v, 4) for k, v in penalised_categories.items()},
         "dismissed_categories": dict(category_not_for_me),
-        "total_feedback_records": len(feedback),
         "opps_boosted": opps_boosted,
         "opps_penalized": opps_penalised,
     }
@@ -217,12 +259,19 @@ def run():
         json.dump(prefs, f, ensure_ascii=False, indent=2)
 
     print(
-        f"Feedback: {len(feedback)} records | "
+        f"Feedback: {resolved_count}/{len(feedback)} records resolved | "
         f"{opps_boosted} opps boosted | "
         f"{opps_penalised} categories penalised | "
-        f"Learned prefs -> {PREFS_PATH.name}"
+        f"Learned prefs → {PREFS_PATH.name}"
     )
 
 
 if __name__ == "__main__":
-    run()
+    parser = argparse.ArgumentParser(description="Apply artist feedback signals to opportunity scores.")
+    parser.add_argument(
+        "--dry-run", "--dry_run",
+        action="store_true",
+        help="Show what would change without writing any files.",
+    )
+    args = parser.parse_args()
+    run(dry_run=args.dry_run)
