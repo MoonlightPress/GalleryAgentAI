@@ -40,6 +40,19 @@ const zh = {
   'hero.tier.highImpact':      '重点任务',
   'hero.tier.highImpact.time': '30–60分钟',
   'hero.tier.stretch':         '延伸目标',
+  'hero.tier.stretch.time':    '长期目标',
+
+  // ── Section headers ───────────────────────────────────────────────────────
+  'section.immediate_best_moves.label': '最佳行动',
+  'section.immediate_best_moves.desc':  '已确认截止日期或已知提交路径。优先处理这些。',
+  'section.open_calls.label':           '公开征集',
+  'section.open_calls.desc':            '定期开放投稿的空间。行动前请确认截止日期。',
+  'section.zines_and_print.label':      '刊物与印刷品',
+  'section.zines_and_print.desc':       '书店、艺术书展与独立刊物空间。低门槛发行渠道。',
+  'section.relationship_targets.label': '关系建立目标',
+  'section.relationship_targets.desc':  '值得主动接触的画廊与空间。参加开幕，建立存在感。',
+  'section.watch_list.label':           '关注列表',
+  'section.watch_list.desc':            '驻留、机构项目与待深入研究的机会。',
 
   // ── Opportunities section ─────────────────────────────────────────────────
   'opps.loading':            '猫饼正在整理机会…',
@@ -639,6 +652,19 @@ const ja = {
   'hero.tier.highImpact':      '重要タスク',
   'hero.tier.highImpact.time': '30〜60分',
   'hero.tier.stretch':         'ストレッチ',
+  'hero.tier.stretch.time':    '長期目標',
+
+  // ── Section headers ───────────────────────────────────────────────────────
+  'section.immediate_best_moves.label': '最優先事項',
+  'section.immediate_best_moves.desc':  '締切確認済み、または応募経路が明確。まずここから動く。',
+  'section.open_calls.label':           '公募',
+  'section.open_calls.desc':            '定期的に公募を行うスペース。応募前に締切を確認すること。',
+  'section.zines_and_print.label':      '冊子・印刷',
+  'section.zines_and_print.desc':       '書店、アートブックフェア、リトルプレス。ハードルが低く、作品が流通しやすい。',
+  'section.relationship_targets.label': '関係構築先',
+  'section.relationship_targets.desc':  'アプローチする価値のあるギャラリーやスペース。オープニングに顔を出し、存在感を示す。',
+  'section.watch_list.label':           'ウォッチリスト',
+  'section.watch_list.desc':            'レジデンシー、機関、要調査の機会。',
 
   // ── Opportunities ─────────────────────────────────────────────────────────
   'opps.loading':            'モチが機会を整理しています…',
@@ -1235,6 +1261,19 @@ const en = {
   'hero.tier.highImpact':      'High Impact',
   'hero.tier.highImpact.time': '30–60 min',
   'hero.tier.stretch':         'Stretch Goal',
+  'hero.tier.stretch.time':    'longer term',
+
+  // ── Section headers ───────────────────────────────────────────────────────
+  'section.immediate_best_moves.label': 'Immediate Best Moves',
+  'section.immediate_best_moves.desc':  'Confirmed deadline, known submission path, or verified contact. Act on these first.',
+  'section.open_calls.label':           'Open Calls',
+  'section.open_calls.desc':            'Spaces that run periodic open submissions. Confirm deadlines before applying.',
+  'section.zines_and_print.label':      'Zines & Print',
+  'section.zines_and_print.desc':       'Bookstores, art book fairs, and zine spaces. Low-barrier entry — work circulates without a formal pitch.',
+  'section.relationship_targets.label': 'Relationship Targets',
+  'section.relationship_targets.desc':  'Galleries and spaces worth approaching. Attend openings, build presence over time.',
+  'section.watch_list.label':           'Watch List',
+  'section.watch_list.desc':            'Residencies, institutions, and items needing more research before action.',
 
   'opps.loading':            'Mochi is sorting opportunities…',
   'opps.error':              'Could not reach the Mochi API — is python api.py running?',
@@ -1792,7 +1831,7 @@ const en = {
 }
 
 export const LANGUAGES = ['zh', 'ja', 'en']
-export const LANGUAGE_LABELS = { zh: '中文', ja: '日本語', en: 'EN' }
+export const LANGUAGE_LABELS = { zh: '中文', ja: '日本語', en: 'English' }
 export const DEFAULT_LANG = 'zh'
 
 const dicts = { zh, ja, en }

@@ -193,6 +193,8 @@ function OppSection({ sectionKey, label, description, icon, items }) {
   const [activeId, setActiveId]     = useState(null)
   const [suppressed, setSuppressed] = useState(new Set())
   const { t } = useLanguage()
+  const sectionLabel = t(`section.${sectionKey}.label`) || label
+  const sectionDesc  = t(`section.${sectionKey}.desc`)  || description
 
   const filtered  = items.filter(o => !suppressed.has(o.id))
   const visible   = showAll ? filtered : filtered.slice(0, GRID_PAGE)
@@ -214,10 +216,10 @@ function OppSection({ sectionKey, label, description, icon, items }) {
       <div className="opp-section-header">
         <div className="opp-section-title-row">
           <span className="opp-section-icon">{icon}</span>
-          <h2 className="opp-section-title">{label}</h2>
+          <h2 className="opp-section-title">{sectionLabel}</h2>
           <span className="opp-section-count">{filtered.length}</span>
         </div>
-        <p className="opp-section-desc">{description}</p>
+        <p className="opp-section-desc">{sectionDesc}</p>
       </div>
 
       {/* 3-column card grid */}

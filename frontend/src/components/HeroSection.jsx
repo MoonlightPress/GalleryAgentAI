@@ -45,8 +45,8 @@ export default function HeroSection() {
                 <span className="focus-item-icon">{ROLE_ICONS[opp.today_role] || '·'}</span>
                 <div className="focus-item-body">
                   <div className="focus-item-tier">
-                    {opp.today_label}
-                    <span className="focus-item-time">· {opp.time_est}</span>
+                    {t(`hero.tier.${opp.today_role === 'quick_win' ? 'quickWin' : opp.today_role === 'high_impact' ? 'highImpact' : 'stretch'}`) || opp.today_label}
+                    <span className="focus-item-time">· {t(`hero.tier.${opp.today_role === 'quick_win' ? 'quickWin' : opp.today_role === 'high_impact' ? 'highImpact' : 'stretch'}.time`) || opp.time_est}</span>
                   </div>
                   <div className="focus-item-name">{locOpp(opp, 'name')}</div>
                 </div>

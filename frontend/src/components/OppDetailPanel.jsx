@@ -8,6 +8,34 @@ function deadlineIsReal(dl) {
   return !low.includes('check') && !low.includes('tbd') && !low.includes('n/a')
 }
 
+function parseDeadlineDate(str) {
+  if (!str) return null
+  const s = str.trim()
+  if (/^(tbd|check|n\/a|unknown|no fixed|ongoing|rolling|open|twice|entry period)/i.test(s)) return null
+  if (/^\d{4}-\d{2}-\d{2}/.test(s)) {
+    const d = new Date(s.slice(0, 10) + 'T00:00:00')
+    return isNaN(d.getTime()) ? null : d
+  }
+  const jp = s.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/)
+  if (jp) return new Date(+jp[1], +jp[2] - 1, +jp[3])
+  const mdy = s.match(/([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})/)
+  if (mdy) { const d = new Date(`${mdy[1]} ${mdy[2]}, ${mdy[3]}`); return isNaN(d.getTime()) ? null : d }
+  const dmy = s.match(/(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]+)\s+(\d{4})/)
+  if (dmy) { const d = new Date(`${dmy[2]} ${dmy[1]}, ${dmy[3]}`); return isNaN(d.getTime()) ? null : d }
+  return null
+}
+
+const EN_MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December']
+const JA_WEEKDAYS = ['日','月','火','水','木','金','土']
+
+function formatDeadlineStr(str, lang) {
+  const d = parseDeadlineDate(str)
+  if (!d) return str
+  if (lang === 'zh') return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`
+  if (lang === 'ja') return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日（${JA_WEEKDAYS[d.getDay()]}）`
+  return `${EN_MONTHS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`
+}
+
 function isDistinctUrl(a, b) {
   if (!a || !b) return !!a
   return a.replace(/\/$/, '') !== b.replace(/\/$/, '')
@@ -52,7 +80,7 @@ export default function OppDetailPanel({ opp, onClose }) {
         <div className="detail-panel-meta">
           {opp.deadline && (
             <span className={`detail-chip${verifyNeeded ? ' chip-warn' : ''}`}>
-              📅 {verifyNeeded ? t('detail.deadline.verify') : opp.deadline}
+              📅 {verifyNeeded ? t('detail.deadline.verify') : formatDeadlineStr(opp.deadline, lang)}
             </span>
           )}
           {opp.fees && (
