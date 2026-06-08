@@ -127,7 +127,10 @@ curl http://YOUR_IP/api/health
     ├── contact_memory.json
     ├── peer_artists.json
     ├── artist_master_profile.json
-    └── peppercorn_profile.json
+    ├── learned_preferences.json
+    ├── submission_log.json
+    ├── suppressed_opportunities.json
+    └── peppercorn_profile.json   # optional — API generates defaults if missing
 
 /var/www/mochi/                   # React static build
 └── (index.html, assets/, ...)
@@ -188,3 +191,5 @@ Certbot patches the nginx config and sets up auto-renewal.
 | API starts then crashes | `sudo journalctl -u mochi-api -n 100` — usually a missing `.env` |
 | React loads but API calls fail | Check `/api/` proxy in nginx: `sudo nginx -t` |
 | Old data showing | Re-upload `compact_opportunities.json`, no restart needed |
+| `deploy.sh` prints "(skipping missing: peppercorn_profile.json)" | Expected — this file doesn't exist until the artist saves their first profile. The API generates safe defaults from `artist_master_profile.json`. |
+| Peppercorn page shows empty preferences on first load | Normal on a fresh deploy. Once the artist submits their profile it persists to disk. |

@@ -37,6 +37,7 @@ for f in \
     peer_artists.json \
     artist_master_profile.json \
     peppercorn_profile.json \
+    learned_preferences.json \
     submission_log.json \
     suppressed_opportunities.json; do
     src="$SCRIPT_DIR/memory/$f"
