@@ -29,9 +29,31 @@ const ROLE_CONFIG = {
   },
 }
 
+const EN_MONTHS_TF = ['January','February','March','April','May','June','July','August','September','October','November','December']
+const JA_WEEKDAYS_TF = ['日','月','火','水','木','金','土']
+
+function fmtDeadline(str, lang) {
+  if (!str) return str
+  const s = str.trim()
+  if (/^(tbd|check|n\/a|unknown|no fixed|ongoing|rolling|open)/i.test(s)) return s
+  let d = null
+  if (/^\d{4}-\d{2}-\d{2}/.test(s)) d = new Date(s.slice(0,10)+'T00:00:00')
+  if (!d) { const jp=s.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/); if(jp) d=new Date(+jp[1],+jp[2]-1,+jp[3]) }
+  if (!d) { const mdy=s.match(/([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})/); if(mdy) d=new Date(`${mdy[1]} ${mdy[2]}, ${mdy[3]}`) }
+  if (!d || isNaN(d.getTime())) return s.slice(0, 40)
+  if (lang==='zh') return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`
+  if (lang==='ja') return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日（${JA_WEEKDAYS_TF[d.getDay()]}）`
+  return `${EN_MONTHS_TF[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`
+}
+
 function TodayCard({ card, role }) {
   if (!card) return null
-  const { t: tFn } = useLanguage()
+  const { t: tFn, lang } = useLanguage()
+  const loc = (field) => {
+    if (lang === 'zh' && card[field + '_zh']) return card[field + '_zh']
+    if (lang === 'ja' && card[field + '_ja']) return card[field + '_ja']
+    return card[field]
+  }
   const cfg = ROLE_CONFIG[role] || ROLE_CONFIG.high_impact
   const hasDeadline = card.deadline && !['tbd','unknown','check site','n/a'].some(s => (card.deadline || '').toLowerCase().includes(s))
 
@@ -46,21 +68,21 @@ function TodayCard({ card, role }) {
         <span className="tf-time-est">{cfg.timeKey ? tFn(cfg.timeKey) : (card.time_est || '')}</span>
       </div>
 
-      <h3 className="tf-name">{card.name}</h3>
+      <h3 className="tf-name">{loc('name')}</h3>
 
       {card.city && (
         <div className="tf-location">{card.city}{card.country && card.country !== card.city ? ` · ${card.country}` : ''}</div>
       )}
 
-      <p className="tf-summary">{(card.summary || '').slice(0, 120)}{card.summary?.length > 120 ? '…' : ''}</p>
+      {(() => { const s = loc('summary') || ''; return s && <p className="tf-summary">{s.slice(0,120)}{s.length>120?'…':''}</p> })()}
 
-      {card.why_card && (
-        <p className="tf-why">{card.why_card.slice(0, 100)}{card.why_card.length > 100 ? '…' : ''}</p>
+      {loc('why_card') && (
+        <p className="tf-why">{(() => { const w=loc('why_card'); return w.slice(0,100)+(w.length>100?'…':'') })()}</p>
       )}
 
       <div className="tf-footer">
         {hasDeadline && (
-          <span className="tf-deadline">📅 {card.deadline.slice(0, 40)}</span>
+          <span className="tf-deadline">📅 {fmtDeadline(card.deadline, lang)}</span>
         )}
         {card.submission_page && (
           <a

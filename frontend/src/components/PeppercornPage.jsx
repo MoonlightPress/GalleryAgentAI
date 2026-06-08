@@ -243,17 +243,14 @@ function StatementExample() {
           <div className="pp-example-col">
             <div className="pp-example-label">{t('pp.ex.generic')}</div>
             <p className="pp-example-text pp-example-text--generic">
-              "I am an artist working with watercolor, exploring themes of memory and urban space."
+              {t('pp.ex.generic.text')}
             </p>
           </div>
           <div className="pp-example-vs">→</div>
           <div className="pp-example-col">
             <div className="pp-example-label">{t('pp.ex.specific')}</div>
             <p className="pp-example-text pp-example-text--specific">
-              "My paintings are slow observations of urban places between moments — the alley
-              before anyone arrives, the café after everyone has left. I work in watercolor because
-              it captures what memory does to architecture: softened edges, color that breathes,
-              forms that are almost but not quite precise."
+              {t('pp.ex.specific.text')}
             </p>
           </div>
         </div>

@@ -693,33 +693,31 @@ function OpenQuestions({ data, t }) {
 
 // ── Licensing Landscape ────────────────────────────────────────────────────
 
-const TIER_LABELS = { now: 'Now', near_term: 'Near term', medium_term: 'Medium term' }
 const TIER_COLORS = { now: '#16a34a', near_term: '#d97706', medium_term: '#9ca3af' }
 
-function LicensingLandscape({ t }) {
+function locF(item, field, lang) {
+  if (lang === 'zh' && item[field + '_zh']) return item[field + '_zh']
+  if (lang === 'ja' && item[field + '_ja']) return item[field + '_ja']
+  return item[field] || ''
+}
+
+function LicensingLandscape({ t, lang }) {
   const d = LICENSING_LANDSCAPE
-  const summary = t(d.summaryKey)
   return (
-    <SectionShell
-      title={t(d.titleKey)}
-      summary={summary}
-    >
+    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
       {d.items.map((group, gi) => (
         <div key={gi} className="sf-insight-group">
-          <div className="sf-block-label">{group.category}</div>
+          <div className="sf-block-label">{locF(group, 'category', lang)}</div>
           <div className="sf-licensing-entries">
             {group.entries.map((entry, ei) => (
               <div key={ei} className="sf-licensing-entry">
                 <div className="sf-licensing-entry-header">
                   <span className="sf-licensing-name">{entry.name}</span>
-                  <span
-                    className="sf-tier-badge"
-                    style={{ color: TIER_COLORS[entry.tier] || '#9ca3af' }}
-                  >
-                    {TIER_LABELS[entry.tier] || entry.tier}
+                  <span className="sf-tier-badge" style={{ color: TIER_COLORS[entry.tier] || '#9ca3af' }}>
+                    {t(`sf.tier.${entry.tier}`) || entry.tier}
                   </span>
                 </div>
-                <p className="sf-licensing-note">{entry.note}</p>
+                <p className="sf-licensing-note">{locF(entry, 'note', lang)}</p>
               </div>
             ))}
           </div>
@@ -731,42 +729,37 @@ function LicensingLandscape({ t }) {
 
 // ── Press & Pitch Map ──────────────────────────────────────────────────────
 
-function PressPitchMap({ t }) {
+function PressPitchMap({ t, lang }) {
   const d = PRESS_PITCH_MAP
-  const summary = t(d.summaryKey)
-  // Separate the discovery note from the named outlets
   const outlets = d.items.filter(item => item.name)
   const discoveryNote = d.items.find(item => item.category_note)
   return (
-    <SectionShell
-      title={t(d.titleKey)}
-      summary={summary}
-    >
+    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
       <div className="sf-press-pitch-list">
         {outlets.map((item, i) => (
           <div key={i} className="sf-press-pitch-row">
             <div className="sf-press-pitch-header">
               <span className="sf-press-pitch-name">{item.name}</span>
-              <span className="sf-press-pitch-type">{item.type}</span>
+              <span className="sf-press-pitch-type">{locF(item, 'type', lang)}</span>
             </div>
-            <p className="sf-press-pitch-why">{item.why_fits}</p>
+            <p className="sf-press-pitch-why">{locF(item, 'why_fits', lang)}</p>
             <div className="sf-press-pitch-meta">
               {item.how_to_pitch && (
                 <div className="sf-press-pitch-how">
-                  <span className="sf-press-pitch-meta-label">Pitch: </span>
-                  {item.how_to_pitch}
+                  <span className="sf-press-pitch-meta-label">{t('sf.label.pitchColon')}</span>
+                  {locF(item, 'how_to_pitch', lang)}
                 </div>
               )}
               {item.contact && (
                 <div className="sf-press-pitch-contact">
-                  <span className="sf-press-pitch-meta-label">Contact: </span>
+                  <span className="sf-press-pitch-meta-label">{t('sf.label.contactColon')}</span>
                   {item.contact}
                 </div>
               )}
               {item.timeline && (
                 <div className="sf-press-pitch-timeline">
-                  <span className="sf-press-pitch-meta-label">Timeline: </span>
-                  {item.timeline}
+                  <span className="sf-press-pitch-meta-label">{t('sf.label.timelineColon')}</span>
+                  {locF(item, 'timeline', lang)}
                 </div>
               )}
             </div>
@@ -775,8 +768,8 @@ function PressPitchMap({ t }) {
       </div>
       {discoveryNote && (
         <div className="sf-insight-callout" style={{ marginTop: 24 }}>
-          <div className="sf-block-label">{discoveryNote.category_note}</div>
-          <p className="sf-info-text">{discoveryNote.how_discovered}</p>
+          <div className="sf-block-label">{locF(discoveryNote, 'category_note', lang)}</div>
+          <p className="sf-info-text">{locF(discoveryNote, 'how_discovered', lang)}</p>
         </div>
       )}
     </SectionShell>
@@ -785,16 +778,12 @@ function PressPitchMap({ t }) {
 
 // ── Grant Landscape ────────────────────────────────────────────────────────
 
-function GrantLandscape({ t }) {
+function GrantLandscape({ t, lang }) {
   const d = GRANT_LANDSCAPE
-  const summary = t(d.summaryKey)
   const grants = d.items.filter(item => item.name)
   const strategyNote = d.items.find(item => item.category_note)
   return (
-    <SectionShell
-      title={t(d.titleKey)}
-      summary={summary}
-    >
+    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
       <div className="sf-grant-list">
         {grants.map((grant, i) => (
           <div key={i} className="sf-grant-row">
@@ -803,28 +792,28 @@ function GrantLandscape({ t }) {
               <span className="sf-grant-country">{grant.country}</span>
             </div>
             <div className="sf-grant-amount">{grant.amount}</div>
-            <p className="sf-grant-why">{grant.why_apply}</p>
+            <p className="sf-grant-why">{locF(grant, 'why_apply', lang)}</p>
             <div className="sf-grant-meta">
               {grant.eligibility && (
                 <div className="sf-grant-meta-row">
-                  <span className="sf-grant-meta-label">Eligibility: </span>
-                  {grant.eligibility}
+                  <span className="sf-grant-meta-label">{t('sf.label.eligibilityColon')}</span>
+                  {locF(grant, 'eligibility', lang)}
                 </div>
               )}
               {grant.deadline && (
                 <div className="sf-grant-meta-row">
-                  <span className="sf-grant-meta-label">Deadline: </span>
+                  <span className="sf-grant-meta-label">{t('sf.label.deadlineColon')}</span>
                   {grant.deadline}
                 </div>
               )}
               {grant.competition && (
                 <div className="sf-grant-meta-row">
-                  <span className="sf-grant-meta-label">Competition: </span>
-                  {grant.competition}
+                  <span className="sf-grant-meta-label">{t('sf.label.competitionColon')}</span>
+                  {locF(grant, 'competition', lang)}
                 </div>
               )}
               {grant.tip && (
-                <div className="sf-grant-tip">Tip: {grant.tip}</div>
+                <div className="sf-grant-tip">{t('sf.label.tipColon')}{locF(grant, 'tip', lang)}</div>
               )}
             </div>
           </div>
@@ -832,8 +821,8 @@ function GrantLandscape({ t }) {
       </div>
       {strategyNote && (
         <div className="sf-insight-callout" style={{ marginTop: 24 }}>
-          <div className="sf-block-label">{strategyNote.category_note}</div>
-          <p className="sf-info-text">{strategyNote.note}</p>
+          <div className="sf-block-label">{locF(strategyNote, 'category_note', lang)}</div>
+          <p className="sf-info-text">{locF(strategyNote, 'note', lang)}</p>
         </div>
       )}
     </SectionShell>
@@ -842,39 +831,35 @@ function GrantLandscape({ t }) {
 
 // ── Revenue Streams ────────────────────────────────────────────────────────
 
-function RevenueStreams({ t }) {
+function RevenueStreams({ t, lang }) {
   const d = REVENUE_STREAMS
-  const summary = t(d.summaryKey)
   const streams = d.items.filter(item => item.stream !== 'Summary assessment')
   const summary_item = d.items.find(item => item.stream === 'Summary assessment')
   return (
-    <SectionShell
-      title={t(d.titleKey)}
-      summary={summary}
-    >
+    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
       <div className="sf-revenue-list">
         {streams.map((item, i) => (
           <div key={i} className={`sf-revenue-row${item.leaving_on_table ? ' sf-revenue-row--gap' : ''}`}>
             <div className="sf-revenue-header">
-              <span className="sf-revenue-stream">{item.stream}</span>
+              <span className="sf-revenue-stream">{locF(item, 'stream', lang)}</span>
               {item.realistic_monthly && (
                 <span className="sf-revenue-range">{item.realistic_monthly}</span>
               )}
               {item.leaving_on_table && (
-                <span className="sf-revenue-gap-tag">gap</span>
+                <span className="sf-revenue-gap-tag">{t('sf.label.gapTag')}</span>
               )}
             </div>
-            <p className="sf-revenue-desc">{item.description}</p>
+            <p className="sf-revenue-desc">{locF(item, 'description', lang)}</p>
             {item.pricing && (
-              <div className="sf-revenue-pricing">{item.pricing}</div>
+              <div className="sf-revenue-pricing">{locF(item, 'pricing', lang)}</div>
             )}
             {item.why_now && (
-              <div className="sf-revenue-why">{item.why_now}</div>
+              <div className="sf-revenue-why">{locF(item, 'why_now', lang)}</div>
             )}
             {item.action && (
               <div className="sf-revenue-action">
-                <span className="sf-revenue-action-label">Action: </span>
-                {item.action}
+                <span className="sf-revenue-action-label">{t('sf.label.actionColon')}</span>
+                {locF(item, 'action', lang)}
               </div>
             )}
           </div>
@@ -882,8 +867,8 @@ function RevenueStreams({ t }) {
       </div>
       {summary_item && (
         <div className="sf-pathway-callout sf-pathway-blocking" style={{ marginTop: 24 }}>
-          <div className="sf-callout-label">Assessment</div>
-          <p className="sf-callout-text">{summary_item.description}</p>
+          <div className="sf-callout-label">{t('sf.label.assessmentTitle')}</div>
+          <p className="sf-callout-text">{locF(summary_item, 'description', lang)}</p>
         </div>
       )}
     </SectionShell>
@@ -899,14 +884,10 @@ const MILESTONE_DOT_COLORS = {
   horizon: '#9ca3af',
 }
 
-function CareerDependencyMap({ t }) {
+function CareerDependencyMap({ t, lang }) {
   const d = CAREER_DEPENDENCY_MAP
-  const summary = t(d.summaryKey)
   return (
-    <SectionShell
-      title={t(d.titleKey)}
-      summary={summary}
-    >
+    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
       <div className="sf-depmap">
         {d.milestones.map((milestone, mi) => {
           const dotColor = MILESTONE_DOT_COLORS[milestone.status] || '#9ca3af'
@@ -923,12 +904,12 @@ function CareerDependencyMap({ t }) {
                   <div key={ii} className="sf-depmap-item">
                     <div className="sf-depmap-complete">
                       <span className="sf-depmap-complete-label">{t('sf.depmap.completes')}</span>
-                      {item.complete}
+                      {locF(item, 'complete', lang)}
                     </div>
                     <div className="sf-depmap-unlocks">
                       <span className="sf-depmap-unlocks-label">{t('sf.depmap.unlocks')}</span>
                       <ul className="sf-depmap-unlocks-list">
-                        {item.unlocks.map((unlock, ui) => (
+                        {(locF(item, 'unlocks', lang) || item.unlocks || []).map((unlock, ui) => (
                           <li key={ui}>{unlock}</li>
                         ))}
                       </ul>
@@ -952,7 +933,7 @@ function CareerDependencyMap({ t }) {
 export default function SaffronPage({ nav }) {
   const [data,  setData]  = useState(null)
   const [error, setError] = useState(null)
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
 
   useEffect(() => {
     fetch('/api/saffron')
@@ -994,11 +975,11 @@ export default function SaffronPage({ nav }) {
           <LongTermScenarios   data={data.long_term_scenarios} t={t} />
           <VenueTracker        data={data.venue_tracker}      t={t} />
           <OpenQuestions       data={data.open_questions}     t={t} />
-          <LicensingLandscape  t={t} />
-          <PressPitchMap       t={t} />
-          <GrantLandscape      t={t} />
-          <RevenueStreams       t={t} />
-          <CareerDependencyMap t={t} />
+          <LicensingLandscape  t={t} lang={lang} />
+          <PressPitchMap       t={t} lang={lang} />
+          <GrantLandscape      t={t} lang={lang} />
+          <RevenueStreams       t={t} lang={lang} />
+          <CareerDependencyMap t={t} lang={lang} />
         </div>
       )}
     </div>
