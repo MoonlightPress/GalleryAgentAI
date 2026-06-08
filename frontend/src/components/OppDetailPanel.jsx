@@ -74,7 +74,7 @@ export default function OppDetailPanel({ opp, onClose }) {
       {/* Header */}
       <div className="detail-panel-header">
         <div className="detail-panel-title-row">
-          <h3 className="detail-panel-title">{opp.name}</h3>
+          <h3 className="detail-panel-title">{loc('name')}</h3>
           <button className="detail-panel-close" onClick={onClose}>✕</button>
         </div>
         <div className="detail-panel-meta">
@@ -242,16 +242,16 @@ export default function OppDetailPanel({ opp, onClose }) {
               </ul>
             </div>
           )}
-          {opp.next_action && (
+          {(lang === 'en' ? opp.next_action : (opp[`next_action_${lang}`] || (lang === 'en' && opp.next_action))) && (
             <div className="detail-block">
               <div className="detail-label">{t('detail.label.howApply')}</div>
-              <p>{opp.next_action}</p>
+              <p>{lang === 'en' ? opp.next_action : opp[`next_action_${lang}`]}</p>
             </div>
           )}
-          {opp.soft_warning && (
+          {loc('soft_warning') && (
             <div className="detail-block detail-warning">
               <div className="detail-label">{t('detail.label.mochiNotes')}</div>
-              <p>{opp.soft_warning}</p>
+              <p>{loc('soft_warning')}</p>
             </div>
           )}
         </div>
@@ -290,17 +290,25 @@ export default function OppDetailPanel({ opp, onClose }) {
             <div className="detail-block detail-checklist">
               <div className="detail-label">{t('detail.label.checklist')}</div>
               <ul className="detail-checklist-list">
-                {opp.checklist.map((item, i) => (
+                {opp.checklist.map((item, i) => {
+                const clLabel = (lang === 'zh' && item.label_zh) ? item.label_zh
+                              : (lang === 'ja' && item.label_ja) ? item.label_ja
+                              : item.label
+                const clNote  = (lang === 'zh' && item.note_zh)  ? item.note_zh
+                              : (lang === 'ja' && item.note_ja)  ? item.note_ja
+                              : item.note
+                return (
                   <li key={i} className={`checklist-item checklist-${item.status}`}>
                     <span className="checklist-icon">
                       {item.status === 'ready' ? '✓' : item.status === 'missing' ? '✗' : '○'}
                     </span>
                     <span className="checklist-content">
-                      <strong>{item.label}</strong>
-                      {item.note && <span className="checklist-note"> — {item.note}</span>}
+                      <strong>{clLabel}</strong>
+                      {clNote && <span className="checklist-note"> — {clNote}</span>}
                     </span>
                   </li>
-                ))}
+                )
+              })}
               </ul>
             </div>
           )}

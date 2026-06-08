@@ -155,6 +155,19 @@ def _email_category(category: str) -> str:
     return "general"
 
 
+_SCORE_CAP_ZH = "来源与核实可靠性有限，评分已上调至 {}。"
+_SCORE_CAP_JA = "ソース・検証の信頼性に限りがあるため、スコアは {} に調整されています。"
+
+def _translate_warning(note: str) -> tuple[str, str]:
+    """Return (zh, ja) translations for a soft_warning string, or ('','') if unknown."""
+    import re
+    m = re.match(r'Score capped at ([\d.]+) because source/verification strength is limited\.?', note or '')
+    if m:
+        score = m.group(1)
+        return _SCORE_CAP_ZH.format(score), _SCORE_CAP_JA.format(score)
+    return "", ""
+
+
 def email_zh(organization: str, category: str) -> str:
     kind = _email_category(category)
     ask = {"zine": "艺术书籍或ZINE的寄售合作",
@@ -167,7 +180,7 @@ def email_zh(organization: str, category: str) -> str:
 
 我对贵方的空间与项目很感兴趣，希望进一步了解{ask}相关的合作可能。
 
-您可以在Twitter（@GEGYjiji）上看到我的近期作品。如需作品集PDF或艺术家简介，我可以随时发送。
+您可以在Instagram（@gegyjiji）上看到我的近期作品。如需作品集PDF或艺术家简介，我可以随时发送。
 
 期待您的回复，感谢您的时间。
 
@@ -187,7 +200,7 @@ def email_ja(organization: str, category: str) -> str:
 
 貴スペースの活動に大変共感し、ご連絡いたしました。{ask}についてお伺いできればと思います。
 
-作品はSNSでもご確認いただけます（Twitter: @GEGYjiji）。ポートフォリオも添付、またはご要望があればお送りいたします。
+作品はInstagram（@gegyjiji）でもご確認いただけます。ポートフォリオも添付、またはご要望があればお送りいたします。
 
 ご多忙のところ恐れ入りますが、ご検討のほどどうぞよろしくお願いいたします。
 
@@ -207,7 +220,7 @@ My name is GEGYjiji, a watercolor artist based in Tokyo. I work with urban atmos
 
 I came across your space and was drawn to what you do. I would love to learn more about {ask} and whether my work might be a fit.
 
-You can see my work on Twitter (@GEGYjiji). I am happy to send a portfolio PDF or artist statement on request.
+You can see my work on Instagram (@gegyjiji). I am happy to send a portfolio PDF or artist statement on request.
 
 Thank you for your time.
 
@@ -221,6 +234,46 @@ _DEADLINE_EMPTY = frozenset({
 })
 
 
+_CL = {
+    # label → (zh, ja)
+    "Deadline":             ("截止日期",          "締め切り"),
+    "Entry fee":            ("报名费",             "参加費"),
+    "Submission path":      ("投稿方法",           "応募経路"),
+    "Artist statement":     ("艺术家自述",         "アーティストステートメント"),
+    "Portfolio images":     ("作品图集",           "ポートフォリオ画像"),
+    "Japanese intro email": ("日语介绍邮件",       "日本語紹介メール"),
+    "Chinese intro email":  ("中文介绍邮件",       "中国語紹介メール"),
+    "Zine or artist book":  ("Zine或艺术家书",    "ZineまたはアーティストブックB"),
+    "Artist book or print edition": ("艺术家书或印刷版", "アーティストブックまたは印刷版"),
+}
+_CN = {
+    # note → (zh, ja)
+    "Not yet confirmed — verify on site":       ("尚未确认，请在官网核实",         "まだ確認されていません。公式サイトでご確認ください"),
+    "confirm before applying":                  ("申请前请核实",                   "応募前にご確認ください"),
+    "Free":                                     ("免费",                           "無料"),
+    "Verify amount on site":                    ("请在官网核实金额",               "公式サイトで金額をご確認ください"),
+    "Link confirmed live":                      ("链接已确认有效",                 "リンク確認済み"),
+    "Email contact available":                  ("可通过邮件联系",                 "メール連絡先あり"),
+    "Find submission page or contact":          ("请查找投稿页面或联系方式",       "応募ページまたは連絡先をご確認ください"),
+    "On file in Peppercorn":                    ("已存于Peppercorn",               "Peppercornに保存済み"),
+    "Watercolor series available":              ("水彩系列作品已备好",             "水彩シリーズ作品準備完了"),
+    "Draft available in Details":               ("详情页已有草稿",                 "詳細ページに下書きあり"),
+    "Physical publication needed for this opportunity": ("此机会需要实体出版物", "この機会には実物の出版物が必要です"),
+}
+
+def _ci(label: str, status: str, note: str) -> dict:
+    lz, lj = _CL.get(label, (label, label))
+    # note may have a dynamic prefix like "2025年10月1日 — confirm before applying"
+    nz, nj = "", ""
+    for en_note, (zh_note, ja_note) in _CN.items():
+        if en_note in note:
+            nz = note.replace(en_note, zh_note) if en_note != note else zh_note
+            nj = note.replace(en_note, ja_note) if en_note != note else ja_note
+            break
+    return {"label": label, "label_zh": lz, "label_ja": lj,
+            "status": status, "note": note, "note_zh": nz or note, "note_ja": nj or note}
+
+
 def _build_checklist(opp: dict) -> list:
     items = []
     category = opp.get("category", "")
@@ -229,42 +282,42 @@ def _build_checklist(opp: dict) -> list:
 
     dl = str(opp.get("deadline", "")).strip().lower()
     if dl in _DEADLINE_EMPTY:
-        items.append({"label": "Deadline", "status": "check", "note": "Not yet confirmed — verify on site"})
+        items.append(_ci("Deadline", "check", "Not yet confirmed — verify on site"))
     elif opp.get("deadline_verified"):
-        items.append({"label": "Deadline", "status": "ready", "note": opp.get("deadline", "")})
+        items.append(_ci("Deadline", "ready", opp.get("deadline", "")))
     else:
-        items.append({"label": "Deadline", "status": "check", "note": f"{opp.get('deadline','')} — confirm before applying"})
+        items.append(_ci("Deadline", "check", f"{opp.get('deadline','')} — confirm before applying"))
 
     fees_raw = str(opp.get("fees", "")).strip().lower()
     if "free" in fees_raw or "¥0" in fees_raw or fees_raw == "0":
-        items.append({"label": "Entry fee", "status": "ready", "note": "Free"})
+        items.append(_ci("Entry fee", "ready", "Free"))
     elif fees_raw and fees_raw not in {"check source", "check site", "tbd", "unknown", ""}:
-        items.append({"label": "Entry fee", "status": "ready", "note": opp.get("fees", "")})
+        items.append(_ci("Entry fee", "ready", opp.get("fees", "")))
     else:
-        items.append({"label": "Entry fee", "status": "check", "note": "Verify amount on site"})
+        items.append(_ci("Entry fee", "check", "Verify amount on site"))
 
     sub_ok = bool(opp.get("submission_page")) and opp.get("url_verification_status") == "ok"
     if sub_ok:
-        items.append({"label": "Submission path", "status": "ready", "note": "Link confirmed live"})
+        items.append(_ci("Submission path", "ready", "Link confirmed live"))
     elif opp.get("contact") and "@" in str(opp.get("contact", "")):
-        items.append({"label": "Submission path", "status": "ready", "note": "Email contact available"})
+        items.append(_ci("Submission path", "ready", "Email contact available"))
     else:
-        items.append({"label": "Submission path", "status": "check", "note": "Find submission page or contact"})
+        items.append(_ci("Submission path", "check", "Find submission page or contact"))
 
-    items.append({"label": "Artist statement", "status": "ready", "note": "On file in Peppercorn"})
-    items.append({"label": "Portfolio images", "status": "ready", "note": "Watercolor series available"})
+    items.append(_ci("Artist statement", "ready", "On file in Peppercorn"))
+    items.append(_ci("Portfolio images", "ready", "Watercolor series available"))
 
     if "tokyo" in city or "japan" in country:
-        items.append({"label": "Japanese intro email", "status": "ready", "note": "Draft available in Details"})
+        items.append(_ci("Japanese intro email", "ready", "Draft available in Details"))
     elif "beijing" in city or "china" in country:
-        items.append({"label": "Chinese intro email", "status": "ready", "note": "Draft available in Details"})
+        items.append(_ci("Chinese intro email", "ready", "Draft available in Details"))
 
     bow = opp.get("recommended_body_of_work") or ""
     if "Artist Book" in bow or "Zine" in bow:
         label = "Zine or artist book" if category in {
             "zine_print", "zine_shop_consignment", "zine_fair_booth", "book_publishing"
         } else "Artist book or print edition"
-        items.append({"label": label, "status": "missing", "note": "Physical publication needed for this opportunity"})
+        items.append(_ci(label, "missing", "Physical publication needed for this opportunity"))
 
     return items
 
@@ -318,16 +371,20 @@ def shape_card(opp: dict) -> dict:
         "name_zh":         opp.get("name_zh", ""),
         "name_ja":         opp.get("name_ja", ""),
         "next_action":     opp.get("quick_action", ""),
+        "next_action_zh":  opp.get("quick_action_zh", ""),
+        "next_action_ja":  opp.get("quick_action_ja", ""),
         "soft_warning":    opp.get("score_sanity_note", "") or opp.get("verification_summary", ""),
+        "soft_warning_zh": _translate_warning(opp.get("score_sanity_note", "") or opp.get("verification_summary", ""))[0],
+        "soft_warning_ja": _translate_warning(opp.get("score_sanity_note", "") or opp.get("verification_summary", ""))[1],
         "what_to_verify":  opp.get("missing_fields", []),
         "bullets":         opp.get("three_bullets", []) or [],
         "bullets_zh":      opp.get("three_bullets_zh", []) or [],
         "bullets_ja":      opp.get("three_bullets_ja", []) or [],
         "checklist":       _build_checklist(opp),
-        # Email drafts
-        "email_zh": email_zh(org, category),
-        "email_ja": email_ja(org, category),
-        "email_en": email_en(org, category),
+        # Email drafts — prefer per-entry drafts from data, fall back to templates
+        "email_zh": opp.get("email_zh") or email_zh(org, category),
+        "email_ja": opp.get("email_ja") or email_ja(org, category),
+        "email_en": opp.get("email_en") or email_en(org, category),
     }
 
 
