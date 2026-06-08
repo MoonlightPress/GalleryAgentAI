@@ -930,12 +930,12 @@
     "final_score_guard_note": "Rescored 9.4 → 9.2 (verification_points=5, composite=10.52)",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "Women United ART MAGAZINE 第十四期 2026年夏季号",
-    "one_sentence_zh": "面向女性艺术家的国际精装印刷杂志，接受包括水彩在内的所有媒介，截止日期6月10日，报名费25美元。",
-    "why_it_fits_zh": "仅限女性艺术家的国际出版物，接受水彩作品，截止日期6月10日。花25美元即可获得印刷杂志署名，GEGYjiji符合参选资格。",
+    "name_zh": "Women United ART MAGAZINE 第十四期 2026年夏季刊",
+    "one_sentence_zh": "面向女性艺术家的国际精装印刷杂志，接受水彩在内的所有媒介，截止日期6月10日，投稿费$25。",
+    "why_it_fits_zh": "仅限女性的国际出版物，接受水彩作品，截止日期6月10日。以$25获得印刷杂志署名，GEGYjiji符合条件。",
     "name_ja": "Women United ART MAGAZINE Issue XIV Summer 2026",
-    "one_sentence_ja": "女性アーティスト向けの国際的なアートマガジン。水彩を含む全媒体対象、締切6月10日、参加費25ドル。",
-    "why_it_fits_ja": "女性限定の国際出版物で、水彩作品も受付。締切は6月10日。25ドルで印刷誌への掲載クレジットが得られ、GEGYjijiは応募資格あり。"
+    "one_sentence_ja": "女性アーティスト向け国際コーヒーテーブル印刷誌。水彩を含む全媒体対象、締切6月10日、応募料$25。",
+    "why_it_fits_ja": "女性限定の国際出版物で水彩も受付、締切は6月10日。$25で印刷誌への掲載クレジットが得られる。GEGYjijiは応募資格あり。"
   },
   {
     "title": "SUBMISSIONS - marblepress.com",
@@ -1286,12 +1286,12 @@
     "career_tier": 3,
     "tier_adjustment": -0.5,
     "recommendation_visibility": "show",
-    "name_zh": "美術手帖（Bijutsu Techo）艺术家专题",
-    "one_sentence_zh": "日本顶级美术杂志，专为东京新兴画家打造艺术家专题报道，通过Instagram及画廊展览发掘人才。",
-    "why_it_fits_zh": "日本艺术界最具影响力的美术刊物，获得专题报道将是职业生涯中决定性的曝光机会。",
+    "name_zh": "美术手帖（Bijutsu Techo）",
+    "one_sentence_zh": "日本顶级美术杂志，聚焦东京新兴画家的艺术家特辑，通过Instagram及画廊展览发掘人才。",
+    "why_it_fits_zh": "日本艺术界的旗舰美术出版物，在此获得编辑专题报道将是极具里程碑意义的曝光机会。",
     "name_ja": "美術手帖",
-    "one_sentence_ja": "日本を代表する美術専門誌。東京を拠点とする新進画家のアーティスト特集を展開し、InstagramやギャラリーでのShowを通じて才能を発掘。",
-    "why_it_fits_ja": "日本アート界の旗艦的美術誌。巻頭特集への掲載はキャリアを左右する大きな露出機会となる。"
+    "one_sentence_ja": "日本を代表する美術専門誌。東京在住の新進画家をアーティスト特集で紹介し、InstagramやギャラリーショーからアーティストをDISCOVERする。",
+    "why_it_fits_ja": "日本アート界の中核的美術誌。編集特集への掲載はキャリアを大きく左右する知名度向上の機会となる。"
   },
   {
     "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
@@ -1685,11 +1685,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "TOKIO ART BOOK FAIR 2026",
-    "one_sentence_zh": "汇聚国际艺术家与出版商的艺术书籍及独立志出版展，采用邀请制，由主办参展方推荐客座参展者。",
-    "why_it_fits_zh": "汇聚国际艺术家与出版商的艺术书籍及独立志出版展，采用邀请制，由主办参展方推荐客座参展者。",
+    "one_sentence_zh": "汇聚国际艺术家与出版商的艺术书及独立杂志博览会，采用邀请制，由主展商推荐客座展商参展。",
+    "why_it_fits_zh": "汇聚国际艺术家与出版商的艺术书及独立杂志博览会，采用邀请制，由主展商推荐客座展商参展。",
     "name_ja": "TOKIO ART BOOK FAIR 2026",
-    "one_sentence_ja": "国際的なアーティストや出版社が参加するアートブック・ZINEフェア。ホスト出展者がゲスト出展者を推薦する招待制形式。",
-    "why_it_fits_ja": "国際的なアーティストや出版社が参加するアートブック・ZINEフェア。ホスト出展者がゲスト出展者を推薦する招待制形式。"
+    "one_sentence_ja": "国際的なアーティストや出版社が参加するアートブック・ジンフェア。ホスト出展者がゲスト出展者を推薦する招待制フォーマット。",
+    "why_it_fits_ja": "国際的なアーティストや出版社が参加するアートブック・ジンフェア。ホスト出展者がゲスト出展者を推薦する招待制フォーマット。"
   },
   {
     "title": "Center for Book Arts Opportunities",
@@ -2277,8 +2277,8 @@
     "one_sentence_zh": "第四届评审展，为水彩及插画作品提供出版与销售机会。",
     "why_it_fits_zh": "第四届评审展，为水彩及插画作品提供出版与销售机会。",
     "name_ja": "Still Life - 2026",
-    "one_sentence_ja": "第4回公募審査展。水彩・イラストレーション作品の出版および販売の機会を提供。",
-    "why_it_fits_ja": "第4回公募審査展。水彩・イラストレーション作品の出版および販売の機会を提供。"
+    "one_sentence_ja": "水彩・イラスト作品の出版および販売機会を提供する第4回公募展。",
+    "why_it_fits_ja": "水彩・イラスト作品の出版および販売機会を提供する第4回公募展。"
   },
   {
     "title": "American Illustration",
@@ -2427,11 +2427,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "American Illustration",
-    "one_sentence_zh": "面向全球的插画年鉴，是水彩及纸本作品领域的重要参考资源。",
-    "why_it_fits_zh": "潜在的水彩及纸本作品展示平台，建议在推荐前进一步核实相关信息。",
+    "one_sentence_zh": "全球插画年鉴，是水彩及纸上作品领域的重要参考资源。",
+    "why_it_fits_zh": "潜在的水彩及纸上作品展示平台，建议在推荐前进一步核实相关信息。",
     "name_ja": "American Illustration",
-    "one_sentence_ja": "グローバルを対象としたイラストレーション年鑑で、水彩・紙媒体作品のリサーチに有用。",
-    "why_it_fits_ja": "水彩・紙媒体作品向けの可能性があるプラットフォーム。推薦前に詳細の確認が必要。"
+    "one_sentence_ja": "水彩・紙作品のリサーチに活用できる、グローバルなイラストレーション年鑑。",
+    "why_it_fits_ja": "水彩・紙作品に適した可能性のある媒体。推薦前に詳細確認が必要。"
   },
   {
     "title": "World Illustration Awards",
@@ -2579,11 +2579,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "World Illustration Awards",
-    "one_sentence_zh": "面向全球的插画奖项，是水彩及纸本作品领域的重要参考资源。",
-    "why_it_fits_zh": "潜在的水彩及纸本作品展示平台，建议在推荐前进一步核实相关信息。",
+    "one_sentence_zh": "全球性插画奖项，是水彩及纸上作品领域的重要参考资源。",
+    "why_it_fits_zh": "潜在的水彩及纸上作品展示平台，建议在推荐前进一步核实相关信息。",
     "name_ja": "World Illustration Awards",
-    "one_sentence_ja": "グローバルを対象としたイラストレーション賞で、水彩・紙媒体作品のリサーチに有用。",
-    "why_it_fits_ja": "水彩・紙媒体作品向けの可能性があるプラットフォーム。推薦前に詳細の確認が必要。"
+    "one_sentence_ja": "水彩・紙作品のリサーチに活用できる、グローバルなイラストレーション賞。",
+    "why_it_fits_ja": "水彩・紙作品に適した可能性のある機会。推薦前に詳細確認が必要。"
   },
   {
     "title": "Jackson's Art Prize",
@@ -2749,11 +2749,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Jackson's Art Prize",
-    "one_sentence_zh": "面向全球的水彩及纸本作品奖项，是该领域的重要参考资源。",
-    "why_it_fits_zh": "对水彩及纸本作品友好的奖项，若参赛条款合适，有助于提升艺术家的资历认可度。",
+    "one_sentence_zh": "全球范围内面向水彩及纸上作品的奖项，是该领域的重要参考资源。",
+    "why_it_fits_zh": "对水彩及纸上作品友好的奖项，若投稿条件合适，有助于提升艺术家的专业公信力。",
     "name_ja": "Jackson's Art Prize",
-    "one_sentence_ja": "グローバルを対象とした水彩・紙媒体作品部門の賞で、リサーチに有用。",
-    "why_it_fits_ja": "水彩・紙媒体作品に親和性の高い賞。応募条件が合えば、キャリアの信頼性向上に役立つ。"
+    "one_sentence_ja": "水彩・紙作品を対象としたグローバルな賞で、同分野のリサーチ資源として有用。",
+    "why_it_fits_ja": "水彩・紙作品に親和性の高い賞。応募条件が合えばキャリアの信頼性向上に役立つ。"
   },
   {
     "title": "The Artcomplex Center of Tokyo",
@@ -2902,11 +2902,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Artcomplex Center of Tokyo",
-    "one_sentence_zh": "位于东京的综合画廊空间，是水彩及纸本作品领域的本地资源。",
-    "why_it_fits_zh": "潜在的水彩及纸本作品本地展示场所，建议在推荐前进一步核实相关信息。",
+    "one_sentence_zh": "位于东京的综合画廊中心，是水彩及纸上作品领域的重要参考资源。",
+    "why_it_fits_zh": "潜在的水彩及纸上作品展示场所，建议在推荐前进一步核实相关信息。",
     "name_ja": "Artcomplex Center of Tokyo",
-    "one_sentence_ja": "東京にある複合ギャラリー施設で、水彩・紙媒体作品のリサーチ先として有望。",
-    "why_it_fits_ja": "水彩・紙媒体作品向けの国内展示会場として可能性あり。推薦前に詳細の確認が必要。"
+    "one_sentence_ja": "水彩・紙作品のリサーチに活用できる、東京のギャラリー複合施設。",
+    "why_it_fits_ja": "水彩・紙作品に適した可能性のある東京の会場。推薦前に詳細確認が必要。"
   },
   {
     "title": "Society of Women Artists",
@@ -3056,11 +3056,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "女性艺术家协会",
-    "one_sentence_zh": "女性艺术家协会是位于英国、面向水彩／纸上作品研究的公开展览资源。",
-    "why_it_fits_zh": "适合水彩／纸上作品、素描或纸上创作的公开展览平台，是直接核实的优先候选。",
+    "one_sentence_zh": "女性艺术家协会是英国一个面向水彩及纸上作品研究的公开展览资源。",
+    "why_it_fits_zh": "适合水彩、纸上绘画等媒介的公开展览场合，值得直接核实确认。",
     "name_ja": "Society of Women Artists",
-    "one_sentence_ja": "Society of Women Artistsは、水彩・紙上作品のリサーチに向けた英国の公募展の情報源。",
-    "why_it_fits_ja": "水彩・紙上作品、ドローイングに対応した公募展として有望。直接確認を優先したい候補。"
+    "one_sentence_ja": "Society of Women Artistsは、英国における水彩・紙上作品のリサーチに活用できる公募展示の情報源です。",
+    "why_it_fits_ja": "水彩・ドローイング・紙上作品向けの公募展示として適しており、直接確認する価値があります。"
   },
   {
     "name": "B&B (Book & Beer)",
@@ -3677,12 +3677,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "水性绘画展览",
-    "one_sentence_zh": "水彩专项公开征集，投稿截止日期为2月26日，展览计划于2026年12月举行。",
-    "why_it_fits_zh": "水彩专项公开征集，投稿截止日期为2月26日，展览计划于2026年12月举行。",
+    "name_zh": "水彩绘画展览",
+    "one_sentence_zh": "专注水彩的公开征集活动，投稿截止日期为2月26日，展览计划于2026年12月举行。",
+    "why_it_fits_zh": "专注水彩的公开征集活动，投稿截止日期为2月26日，展览计划于2026年12月举行。",
     "name_ja": "水性繪畫展覽（水彩展覧会）",
-    "one_sentence_ja": "水彩専門のオープンコール。応募期間は2月26日まで、展覧会は2026年12月を予定。",
-    "why_it_fits_ja": "水彩専門のオープンコール。応募期間は2月26日まで、展覧会は2026年12月を予定。"
+    "one_sentence_ja": "水彩専門の公募で、応募期間は2月26日まで、展覧会は2026年12月を予定しています。",
+    "why_it_fits_ja": "水彩専門の公募で、応募期間は2月26日まで、展覧会は2026年12月を予定しています。"
   },
   {
     "name": "水彩アートの祭典 (Watercolor Art Festival)",
@@ -3807,12 +3807,12 @@
     "contact_source": "harvested_from_submission_page",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "水彩艺术祭",
-    "one_sentence_zh": "东京艺术剧场举办的水彩专项公开征集，无需提交作品集，与水彩创作实践完美契合。",
-    "why_it_fits_zh": "东京艺术剧场举办的水彩专项公开征集，无需提交作品集，与水彩创作实践完美契合。",
+    "name_zh": "水彩艺术节",
+    "one_sentence_zh": "在东京艺术剧场举办的水彩专题公开征集活动，无需提交作品集，与水彩创作实践高度契合。",
+    "why_it_fits_zh": "在东京艺术剧场举办的水彩专题公开征集活动，无需提交作品集，与水彩创作实践高度契合。",
     "name_ja": "水彩アートの祭典",
-    "one_sentence_ja": "東京芸術劇場での水彩専門オープンコール。ポートフォリオ提出不要で、水彩制作と合致している。",
-    "why_it_fits_ja": "東京芸術劇場での水彩専門オープンコール。ポートフォリオ提出不要で、水彩制作と合致している。"
+    "one_sentence_ja": "東京芸術劇場で開催される水彩専門の公募で、ポートフォリオ不要のため水彩制作に取り組むアーティストに最適です。",
+    "why_it_fits_ja": "東京芸術劇場で開催される水彩専門の公募で、ポートフォリオ不要のため水彩制作に取り組むアーティストに最適です。"
   },
   {
     "title": "Pen Magazine — Artist Spotlight",
@@ -4000,11 +4000,11 @@
     "tier_adjustment": -0.5,
     "recommendation_visibility": "show",
     "name_zh": "Pen Magazine",
-    "one_sentence_zh": "东京生活方式与设计杂志，为具有鲜明视觉风格的创作者提供艺术家专题报道，城市建筑视角与其调性高度吻合。",
-    "why_it_fits_zh": "东京具备设计素养的读者群体；城市水彩＋东京城市记录＝对Pen读者极具吸引力的编辑角度。",
+    "one_sentence_zh": "东京生活方式与设计杂志，为具有鲜明视觉风格的创作者提供艺术家专题报道，城市建筑视角与其定位高度吻合。",
+    "why_it_fits_zh": "东京设计品味受众群体，城市水彩与东京记录相结合，为Pen读者提供极具吸引力的编辑视角。",
     "name_ja": "Pen Magazine",
-    "one_sentence_ja": "東京発のライフスタイル／デザイン誌。独自のビジュアルアイデンティティを持つクリエイターのアーティスト特集を掲載。都市建築の視点はブランドイメージと合致している。",
-    "why_it_fits_ja": "デザインリテラシーの高い東京の読者層。都市水彩＋東京の記録＝Pen読者に刺さる強い編集角度。"
+    "one_sentence_ja": "東京発のライフスタイル・デザイン誌。独自のビジュアルアイデンティティを持つクリエイターを特集し、都市建築の視点はブランドイメージにマッチしています。",
+    "why_it_fits_ja": "デザインへの造詣が深い東京の読者層に向けて、都市水彩と東京ドキュメントの組み合わせはPen読者にとって強い編集的切り口となります。"
   },
   {
     "title": "Casa Brutus — Architecture/Art Feature",
@@ -4187,11 +4187,11 @@
     "tier_adjustment": -0.5,
     "recommendation_visibility": "show",
     "name_zh": "Casa Brutus",
-    "one_sentence_zh": "日本建筑、设计与生活方式杂志，当作品与建筑或空间相交叉时刊登艺术家专题——东京建筑记录系列与其直接相关。",
-    "why_it_fits_zh": "记录东京建筑的城市水彩作品，与Casa Brutus以空间与设计为核心的编辑方向完全契合。",
+    "one_sentence_zh": "日本建筑、设计与生活方式杂志，专题报道与建筑或空间相关的艺术家，记录东京建筑的作品与其定位直接相关。",
+    "why_it_fits_zh": "记录东京建筑的城市水彩作品与Casa Brutus关于空间与设计的编辑方向完全契合。",
     "name_ja": "Casa Brutus",
-    "one_sentence_ja": "建築・デザイン・ライフスタイルの日本誌。建築や空間と交わる作品のアーティスト特集を掲載。東京の建物を記録した作品は直接関連性がある。",
-    "why_it_fits_ja": "東京の建築を記録した都市水彩は、空間とデザインを扱うCasa Brutusの編集方針にぴったり合致している。"
+    "one_sentence_ja": "建築・デザイン・ライフスタイルの日本誌。建築や空間と交差する作品を持つアーティストを特集しており、東京の建物を記録した作品は直接的な関連性があります。",
+    "why_it_fits_ja": "東京の建築を記録した都市水彩は、空間とデザインを扱うCasa Brutusの編集方針にまさにぴったりです。"
   },
   {
     "title": "MOUNT ZINE",
@@ -4569,11 +4569,11 @@
     "tier_adjustment": -0.5,
     "recommendation_visibility": "show",
     "name_zh": "It's Nice That",
-    "one_sentence_zh": "国际设计与插画媒体，读者超过200万，主动通过Instagram发掘艺术家，日常创作形式正是其报道的核心内容。",
-    "why_it_fits_zh": "对处于她这一阶段的艺术家而言，这是最重要的国际平台。一次专题报道即可触达全球插画社群，并吸引授权与委托咨询。",
+    "one_sentence_zh": "拥有200万以上读者的国际设计与插画媒体，积极通过Instagram发掘艺术家，日常创作形式正是其报道重点。",
+    "why_it_fits_zh": "同层级艺术家最重要的国际平台，在此获得报道可触及全球插画社群，并吸引授权和委托创作的询问。",
     "name_ja": "It's Nice That",
-    "one_sentence_ja": "読者200万人超の国際的なデザイン／イラスト媒体。Instagramを通じてアーティストを積極的に発掘しており、日々の制作スタイルはまさに彼らが取り上げる内容。",
-    "why_it_fits_ja": "今の彼女のレベルのアーティストにとって、最大の国際プラットフォーム。掲載されれば世界中のイラストコミュニティに届き、ライセンスやコミッションの問い合わせにもつながる。"
+    "one_sentence_ja": "200万人以上の読者を持つ国際的なデザイン・イラスト媒体。Instagramを通じて積極的にアーティストを発掘しており、日常的な制作スタイルはまさに彼らが取り上げるコンテンツです。",
+    "why_it_fits_ja": "同じレベルのアーティストにとって最大の国際プラットフォームです。掲載されることでグローバルなイラスト業界にリーチし、ライセンスやコミッションの問い合わせにもつながります。"
   },
   {
     "title": "Apartamento — Artist Feature",
@@ -4758,7 +4758,13 @@
     "final_score_guard_note": "Rescored 9.4 → 9.2 (verification_points=5, composite=9.94)",
     "career_tier": 3,
     "tier_adjustment": -0.5,
-    "recommendation_visibility": "show"
+    "recommendation_visibility": "show",
+    "name_zh": "Apartamento Magazine",
+    "one_sentence_zh": "以温暖日常生活美学著称的国际生活与文化杂志，通过Instagram和社群发掘艺术家，非投稿制——需通过关系建立接触。",
+    "why_it_fits_zh": "亲密的城市室内场景与东京日常记录完全契合Apartamento的受众审美，\"外国人观察东京\"的视角尤为突出。",
+    "name_ja": "Apartamento Magazine",
+    "one_sentence_ja": "温かな日常の美学を持つ国際的なライフスタイル・文化誌。Instagramやコミュニティを通じて発掘され、投稿制ではなく関係構築が鍵となります。",
+    "why_it_fits_ja": "親密な都市インテリアと東京の日常を記録したスタイルはApartamentoの読者層にぴったりです。「外国人が東京を観察する」という視点も強い切り口になります。"
   },
   {
     "name": "アートオリンピア2026",
@@ -4954,7 +4960,13 @@
     "rumor_mill_sentiment": "positive",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "艺术奥林匹亚2026",
+    "one_sentence_zh": "公开征集艺术展览活动，展期为2026年5月20日至27日，接受包括水彩在内的多种媒介作品。",
+    "why_it_fits_zh": "アートオリンピア2026的5月展览窗口与日常水彩创作实践及东京城市观察作品高度契合，为展示建筑研究与记忆主题作品提供了重要的本地平台。公开征集形式降低了新兴艺术家的参与门槛，同时使作品在东京艺术日历的旺季中进入专业展览语境。",
+    "name_ja": "アートオリンピア2026",
+    "one_sentence_ja": "2026年5月20日〜27日開催の公募展で、水彩を含む多様なメディアの作品を受け付けています。",
+    "why_it_fits_ja": "アートオリンピア2026の5月の展示期間は、日々の水彩制作と東京の都市観察作品と相性抜群です。建築スケッチや記憶をテーマにした作品を発表できる地元の有力プラットフォームであり、公募形式はキャリア初期のアーティストのハードルを下げながら、東京アートカレンダーの最盛期にプロの展示文脈に作品を位置づけることができます。"
   },
   {
     "name": "FY2026 Life with Art Grant",
@@ -5156,11 +5168,11 @@
       "watercolor"
     ],
     "name_zh": "FY2026 生活与艺术助成金",
-    "one_sentence_zh": "东京本地助成金，支持将当代艺术融入日常生活的项目，与她对城市观察和建筑的关注高度契合。",
-    "why_it_fits_zh": "该助成金致力于将艺术融入日常城市生活，与GEGYjiji以水彩捕捉东京转瞬即逝的建筑瞬间和静谧空间的创作实践直接呼应——她每日观察的习惯与将当代艺术嵌入城市生活体验的项目理念天然契合。她拥有9万粉丝的平台及初步的二级可见度，使她成为有能力实现这类以场所为基础、扎根社区的作品的新兴艺术家。",
-    "name_ja": "FY2026 ライフウィズアート助成",
-    "one_sentence_ja": "現代アートを日常生活に取り入れるプロジェクトを支援する東京拠点の助成金で、都市観察と建築への関心と合致している。",
-    "why_it_fits_ja": "アートを日常の都市生活に統合するという助成金の理念は、GEGYjiji が水彩で東京の移ろう建築的瞬間や静かな空間を捉える実践と直結している。毎日の観察という習慣は、都市の生きた経験にアートを埋め込むプロジェクトと自然に合致する。9万フォロワーのプラットフォームと初期のTier 2の知名度は、この助成金が重視する場所型・地域密着型の作品を実現できる新進アーティストとしての彼女を際立たせる。"
+    "one_sentence_zh": "东京都内助成项目，支持将当代艺术融入日常生活的创作，与她对城市观察和建筑空间的关注高度契合。",
+    "why_it_fits_zh": "该助成金致力于将艺术融入城市日常生活，与GEGYjiji以水彩捕捉转瞬即逝的建筑瞬间和东京静谧空间的创作实践直接呼应——她每日的观察仪式与将当代艺术嵌入城市生活体验的项目理念天然契合。她拥有9万粉丝的平台和初步的Tier 2 曝光度，使她成为有能力实现此类基于场所、扎根社区的创作的新兴艺术家。",
+    "name_ja": "FY2026 Life with Art Grant",
+    "one_sentence_ja": "現代アートを日常生活に融合させるプロジェクトを支援する東京拠点の助成金で、都市観察と建築への関心を持つGEGYjijijiの活動と高く一致する。",
+    "why_it_fits_ja": "日常の都市生活にアートを溶け込ませるという助成金の理念は、水彩で移ろいゆく建築の瞬間や東京の静かな空間を捉えるGEGYjijijiの実践と直接重なる。毎日の観察という習慣は、アートを都市の生活体験に埋め込むことを重視するこの助成金の方向性と自然に合致する。9万フォロワーのプラットフォームと初期のTier 2 認知度は、場所に根ざしたコミュニティ密着型の作品を実現できる新進アーティストとしての準備が整っていることを示している。"
   },
   {
     "title": "Bologna Children's Book Fair Illustrators Exhibition",
@@ -5316,11 +5328,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "博洛尼亚童书展插画家展览",
-    "one_sentence_zh": "博洛尼亚童书展水彩艺术家展览是面向全球水彩/纸本作品研究的插画展览资源。",
-    "why_it_fits_zh": "潜在的水彩/纸本作品原生展示场所，推荐前需进一步核实。",
+    "one_sentence_zh": "博洛尼亚童书展水彩艺术家展览是面向全球的插画展览资源，适用于水彩/纸上作品方向的调研。",
+    "why_it_fits_zh": "潜在的水彩/纸上作品原生展出场合，建议在正式推荐前进行核实。",
     "name_ja": "Bologna Children's Book Fair Illustrators Exhibition",
-    "one_sentence_ja": "Bologna Children's Book Fair 水彩アーティスト展は、水彩・紙作品のリサーチに向けたグローバルなイラスト展覧会ソースである。",
-    "why_it_fits_ja": "水彩・紙作品の可能性のある展示場所。推薦前に要確認。"
+    "one_sentence_ja": "Bologna Children's Book Fair 水彩アーティスト展は、水彩・紙作品のリサーチを目的としたグローバルなイラスト展の情報源である。",
+    "why_it_fits_ja": "水彩・紙作品に適した可能性のある展示の場。推薦前に要確認。"
   },
   {
     "title": "Pinpoint Gallery",
@@ -5478,11 +5490,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Pinpoint Gallery",
-    "one_sentence_zh": "Pinpoint Gallery 是东京一家专注于水彩/纸本作品研究的插画画廊资源。",
-    "why_it_fits_zh": "原生纸本/插画画廊语境，媒材契合度强于仅限水彩/纸本或艺术书/水彩序列的机会。",
+    "one_sentence_zh": "Pinpoint Gallery 是东京一家专注插画的画廊，适合水彩/纸上作品方向的调研。",
+    "why_it_fits_zh": "该画廊本身即为纸上作品与插画的原生展示空间，媒介契合度强于其他仅聚焦水彩或艺术书籍的机会。",
     "name_ja": "Pinpoint Gallery",
-    "one_sentence_ja": "Pinpoint Gallery は、東京における水彩・紙作品リサーチのためのイラスト系ギャラリーソースである。",
-    "why_it_fits_ja": "紙作品・イラスト専門のギャラリー環境であり、水彩・紙作品のみ、またはアーティストブック・水彩シーケンス限定の機会よりも媒体適合性が高い。"
+    "one_sentence_ja": "Pinpoint Gallery は、水彩・紙作品のリサーチを目的とした東京のイラスト専門ギャラリー情報源である。",
+    "why_it_fits_ja": "紙作品・イラストに特化したギャラリーであり、水彩のみや作家本・水彩シーケンス限定の機会よりも媒体的な適合度が高い。"
   },
   {
     "title": "Browse opportunities | CuratorSpace",
@@ -5902,11 +5914,11 @@
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "name_zh": "Route Books",
-    "one_sentence_zh": "上野的书店咖啡馆，设有出租展墙，是上野公园文化区内便于进入的东京东部艺术场所。",
-    "why_it_fits_zh": "Route Books 设有出租画廊且定期举办手工市集，门槛低、展示空间真实。GEGYjiji 的东京建筑水彩作品契合本地记录的美学风格，也适合上野具有艺术品位的受众。",
+    "one_sentence_zh": "上野的书店咖啡馆，设有确认可租用的画廊展墙，是位于上野公园文化区的东东京艺术场所。",
+    "why_it_fits_zh": "Route Books 设有可租用画廊并定期举办手工市集，门槛低、展览空间真实。GEGYjiji 的东京建筑水彩作品契合其本地纪录风格，也适合上野具有艺术素养的受众群体。",
     "name_ja": "Route Books",
-    "one_sentence_ja": "上野にあるレンタルギャラリーウォールを備えた書店カフェで、上野公園近くの文化地区に位置する東東京のアクセスしやすい芸術スペース。",
-    "why_it_fits_ja": "Route Books はレンタルギャラリーとクラフトマーケットを運営しており、参入障壁が低く実際の展示空間を持つ。GEGYjiji の東京建築水彩はローカルドキュメントの美学と上野のアート感度の高い観客に自然に馴染む。"
+    "one_sentence_ja": "上野のブックカフェで、賃貸可能なギャラリーウォールを備えた、上野公園近くの文化地区に位置する東東京のアートスペース。",
+    "why_it_fits_ja": "Route Books はレンタルギャラリーを確保しており、クラフトマーケットも開催している。参入障壁が低く、実際の展示空間として機能する。GEGYjijijiの東京建築水彩は、ローカルドキュメンテーションの美学と上野のアートリテラシーの高い観客層に合致する。"
   },
   {
     "title": "Submissions - Little Press Publishing",
@@ -6317,11 +6329,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "HATTIFNATT 高円寺咖啡画廊",
-    "one_sentence_zh": "高円寺一家以艺术家和温馨室内氛围著称的绘本风格咖啡馆，是数据集中与GEGYjiji美学契合度最高的咖啡场所。",
-    "why_it_fits_zh": "GEGYjiji 作品中的温暖、亲密感、猫咪与室内光线，与 HATTIFNATT 的绘本气质完美映照，在咖啡馆类别中视觉契合度评分最高。",
-    "name_ja": "HATTIFNATT 高円寺カフェギャラリー",
-    "one_sentence_ja": "アーティストと温かみのある内装で知られる高円寺の絵本風カフェで、データセット内のカフェの中でGEGYjiji との美的親和性が最も高い。",
-    "why_it_fits_ja": "GEGYjiji の作品に漂う温かさ、親密さ、猫、室内の光は、HATTIFNATT の絵本的な世界観と直結している。カフェカテゴリにおけるビジュアル適合スコアは最高値。"
+    "one_sentence_zh": "位于高円寺、以绘本美学著称的温馨咖啡馆，与数据集中所有咖啡馆相比，与GEGYjiji的风格契合度最高。",
+    "why_it_fits_zh": "GEGYjiji 作品中的温暖感、亲密氛围、猫咪与室内光线，与 HATTIFNATT 的绘本气质高度吻合，是咖啡馆类别中视觉契合度最高的场所。",
+    "name_ja": "HATTIFNATT Koenji Cafe Gallery",
+    "one_sentence_ja": "高円寺にある絵本的な世界観で知られる温かみのあるカフェで、データセット内のカフェの中でGEGYjijijiとの美的一致度が最も高い。",
+    "why_it_fits_ja": "GEGYjijijiの作品に漂う温かさ、親密さ、猫、室内の光は、HATTIFNATTの絵本的な感性と直接重なる。カフェカテゴリーの中でビジュアル適合度が最も高い。"
   },
   {
     "name": "2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)",
@@ -6494,12 +6506,12 @@
     "painting_gate_hits": [
       "watercolor"
     ],
-    "name_zh": "2026年度 生活与艺术助成（2026 Life with Art Grant Program）",
-    "one_sentence_zh": "东京助成项目，支持将艺术融入日常城市生活的艺术活动与展览，与GEGYjiji对城市观察和静谧空间的关注高度契合。",
-    "why_it_fits_zh": "生活与艺术助成金致力于将艺术融入东京日常城市肌理，与GEGYjiji通过水彩观察捕捉消逝建筑瞬间和静谧空间的实践直接契合。她对城市短暂特质的每日记录，与该项目将艺术实践嵌入城市生活体验（而非局限于正式画廊语境）的使命精准吻合。",
-    "name_ja": "2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)",
-    "one_sentence_ja": "アートを日常の都市生活に統合する活動・展覧会を支援する東京の助成プログラムで、GEGYjiji の都市観察や静かな空間への関心と合致する。",
-    "why_it_fits_ja": "ライフウィズアート助成が掲げる東京の日常的な都市空間へのアート統合という理念は、GEGYjiji が水彩で消えゆく建築的瞬間や静かな場所を記録する実践を直接後押しする。都市の移ろいやすさを毎日記録する姿勢は、アートの実践を正式なギャラリー文脈に閉じ込めず生きた都市体験に埋め込むというプログラムの使命と正確に一致している。"
+    "name_zh": "2026年度 ライフウィズアート助成（2026 Life with Art Grant Program）",
+    "one_sentence_zh": "东京都内助成项目，支持将艺术融入城市日常生活的艺术活动与展览，契合GEGYjiji对城市观察与静谧空间的关注。",
+    "why_it_fits_zh": "「生活与艺术助成金」聚焦于将艺术融入东京日常城市肌理，与GEGYjiji以水彩观察记录正在消逝的建筑瞬间与静谧空间的创作实践直接呼应。她对城市流逝特质的日常记录，与该项目将艺术实践嵌入城市生活体验（而非局限于正式画廊语境）的使命高度一致。",
+    "name_ja": "2026年度 ライフウィズアート助成",
+    "one_sentence_ja": "アートを日常の都市生活に融合させる活動・展示を支援する東京拠点の助成金で、GEGYjijijiの都市観察と静かな空間への関心と合致する。",
+    "why_it_fits_ja": "ライフウィズアート助成が掲げる「東京の日常都市空間にアートを溶け込ませる」という理念は、水彩による観察を通じて消えゆく建築の瞬間や静かな空間を記録するGEGYjijijiの実践を直接後押しする。都市の移ろいを日々記録する彼女の活動は、アートをフォーマルなギャラリー文脈から切り離し、生きられた都市体験の中に埋め込もうとするプログラムの使命と精確に一致している。"
   },
   {
     "name": "ACC 2026年度フェローシップおよび助成",
@@ -6673,7 +6685,13 @@
     "painting_gate_status": "promoted",
     "painting_gate_hits": [
       "watercolor"
-    ]
+    ],
+    "name_zh": "ACC 2026年度奖学金及助成金",
+    "one_sentence_zh": "ACC 面向亚洲艺术家提供奖学金与助成金，旅居东京的中国籍艺术家符合国际艺术家支持资格。",
+    "why_it_fits_zh": "ACC 奖学金明确支持跨媒介、跨地域工作的亚洲艺术家，非常适合 GEGYjiji——她以水彩捕捉城市瞬间，同时在中国与东京的双重背景下进行创作。该助成金强调跨文化艺术交流，与她以观察为核心的日常实践，以及作品中关于记忆与消逝建筑空间的主题高度契合。",
+    "name_ja": "ACC 2026年度フェローシップおよび助成",
+    "one_sentence_ja": "ACCはアジア人アーティストを対象にフェローシップと助成金を提供しており、東京在住の中国籍アーティストは国際アーティスト支援の対象となる。",
+    "why_it_fits_ja": "ACCのフェローシップはさまざまな媒体・地域で活動するアジア人アーティストを明確に支援しており、水彩で都市の移ろいゆく瞬間を捉えながら中国と東京という二重の文脈を生きるGEGYjijijiに理想的な機会である。異文化間の芸術交流を重視するこの助成金は、観察を軸とした彼女の日常的な実践と、記憶や消えゆく建築空間というテーマに直接合致する。"
   },
   {
     "title": "Gallery IYN",
@@ -6820,7 +6838,13 @@
     "deadline_source": "harvested_from_submission_page",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "Gallery IYN",
+    "one_sentence_zh": "Gallery IYN 是日本的一处画廊公开招募信息来源，适用于水彩/纸上作品方向的调研。",
+    "why_it_fits_zh": "潜在的水彩/纸上作品原生展出场合，建议在正式推荐前进行核实。",
+    "name_ja": "Gallery IYN",
+    "one_sentence_ja": "Gallery IYN は、水彩・紙作品のリサーチを目的とした日本のギャラリー公募情報源である。",
+    "why_it_fits_ja": "水彩・紙作品に適した可能性のある展示の場。推薦前に要確認。"
   },
   {
     "name": "SUZURI",
@@ -7007,7 +7031,23 @@
     "site_http_code": 200,
     "deadline_type": "confirmed_date",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "SUZURI",
+    "one_sentence_zh": "日本按需印刷平台，艺术家上传设计即可按销售额获得收益——入驻门槛低、文化契合度高，以您目前的粉丝规模可形成可靠收入来源。",
+    "why_it_fits_zh": "您的Twitter受众已对您的审美风格建立信任——SUZURI可将这份关注直接转化为收入，无需画廊关系或投稿周期。",
+    "three_bullets_zh": [
+      "凭借9万Twitter粉丝，保守估计每月可从托特包、收纳袋、马克杯及服装等城市水彩周边的印刷销售中获得约3万至8万日元",
+      "零前期成本，无库存风险——上传设计、分享链接，即可被动获利，专注于工作室创作",
+      "平台拥有活跃的日本艺术家社群及熟悉插画风格作品的现有藏家群体"
+    ],
+    "name_ja": "SUZURI",
+    "one_sentence_ja": "アーティストがデザインをアップロードして販売ごとに収益を得られる日本のプリントオンデマンドプラットフォーム——導入の手間が少なく、文化的親和性が高く、現在のフォロワー規模でも安定した収入源となります。",
+    "why_it_fits_ja": "Twitterのフォロワーはすでにあなたの美的センスを信頼しています。SUZURIはその注目を収入に変えます。ギャラリーとの関係構築や公募への応募サイクルも不要です。",
+    "three_bullets_ja": [
+      "Twitterフォロワー9万人を背景に、都市水彩画を用いたトートバッグ・ポーチ・マグカップ・アパレルの印刷販売で月3〜8万円の収益が見込めます（保守的試算）",
+      "初期費用ゼロ・在庫リスクなし——デザインをアップロードしてリンクをシェアするだけで、スタジオ制作に集中しながら受動的に収益を得られます",
+      "プラットフォームには日本人アーティストの強いコミュニティがあり、イラスト系作品に親しみのある既存のコレクター層も存在します"
+    ]
   },
   {
     "name": "BOOOOOOOM 2026 Art & Photo Book Award",
@@ -7204,7 +7244,13 @@
     "verification_score": 8,
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "BOOOOOOOM 2026 Art & Photo Book Award",
+    "one_sentence_zh": "Booooooom每年遴选6个书籍及2个Zine项目免费制作出版——面向国际征集，接受绘画与插画，需提交完整的系列作品。",
+    "why_it_fits_zh": "紧急提示：截止日期为6月5日。面向国际开放，接受绘画，免费提交Zine。8个入选项目可获得25至100册免费印刷，艺术家保留全部版权。\"东京静物\"或\"都市氛围\"系列最为理想。",
+    "name_ja": "BOOOOOOOM 2026 Art & Photo Book Award",
+    "one_sentence_ja": "Booooooomが毎年6冊のブックと2冊のZineプロジェクトを無償制作のために選出——国際公募、絵画・イラスト可、まとまった作品シリーズが必要。",
+    "why_it_fits_ja": "【緊急】締切は6月5日。国際公募、絵画可、Zine無料応募。選ばれた8プロジェクトは25〜100部の無料印刷を受け、著作権はアーティストに帰属。「Tokyo Still Life」や「Urban Atmosphere」シリーズが最適。"
   },
   {
     "name": "START Box ササハタハツ・START Box 白鬚 2026年度利用者募集",
@@ -7338,7 +7384,13 @@
     "email_ja": "件名: START Box 白鬚 2026年度利用者募集へのご応募について\n\nSTART Box ササハタハツ・START Box 白鬚が、東京の地域に根ざしたアーティストの実践を支えるスペースとして活動されていることを知り、ご連絡申し上げます。私はGEGYjiji（ジェジー）と申します。中国・湖南省出身、現在東京を拠点に活動している水彩イラストレーターです。2020年より毎日水彩画を描き続ける「diary」シリーズを続けており、2021年には初のソロイラスト集『Colour Diary』を刊行いたしました。私の作品は、赤い壁、路地、緑の池、見慣れた街角といったごく日常的な光景を丁寧に観察し、そこに宿る感情を水彩で描き出すもので、北国を旅する列車のように四季の移ろいを静かに映し出します。スペースを拠点に、この日常観察の実践をさらに深めたいと考えております。作品はInstagram @gegyjiji にてご覧いただけます。ご検討のほど、どうぞよろしくお願いいたします。\n\nGEGYjiji",
     "email_zh": "",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "START Box ササハタハツ・START Box 白鬚 2026年度利用者募集",
+    "one_sentence_zh": "为东京新兴艺术家提供工作室及创作空间，适合寻求专属工作空间的水彩/插画艺术家。",
+    "why_it_fits_zh": "为东京新兴艺术家提供工作室及创作空间，适合寻求专属工作空间的水彩/插画艺术家。",
+    "name_ja": "START Box ササハタハツ・START Box 白鬚 2026年度利用者募集",
+    "one_sentence_ja": "東京の新進アーティストにスタジオ・制作スペースを提供する機会で、専用の制作環境を求める水彩・イラストレーターに適しています。",
+    "why_it_fits_ja": "東京の新進アーティストにスタジオ・制作スペースを提供する機会で、専用の制作環境を求める水彩・イラストレーターに適しています。"
   },
   {
     "name": "Kamome Roastery Tokyo",
@@ -7483,7 +7535,13 @@
     "career_tier": 1,
     "tier_adjustment": 2.5,
     "uncapped_score": 10.0,
-    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited."
+    "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
+    "name_zh": "Kamome Roastery Tokyo",
+    "one_sentence_zh": "东京东部咖啡馆，设有免费展览项目——可在线申请，展期1周，要求600+粉丝（GEGYjiji的9万粉丝轻松满足）。",
+    "why_it_fits_zh": "Kamome明确欢迎具有设计感的艺术家。展览免费，无前期费用，仅收取10%销售佣金。水彩作品与挂轨系统高度契合。GEGYjiji的9万Instagram粉丝是最低要求的150倍。",
+    "name_ja": "Kamome Roastery Tokyo",
+    "one_sentence_ja": "東京東部のカフェによる無料ギャラリープログラム——オンライン申込、1週間単位の展示枠、フォロワー600人以上が条件（GEGYjijiの9万人は十分すぎるほど該当）。",
+    "why_it_fits_ja": "Kamomeはデザイン感覚を持つアーティストを明確に歓迎しています。展示費用無料、初期費用なし、販売手数料10%のみ。水彩作品のレール展示システムとの相性も抜群。GEGYjijiのInstagram9万フォロワーは最低基準の150倍です。"
   },
   {
     "name": "2026年美の起原展",
@@ -7615,12 +7673,12 @@
     "email_zh": "",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026年美之起源展",
-    "one_sentence_zh": "东京画廊公开征集10-20号画作，接受插画、水彩及混合媒材，设有丰厚奖金。",
-    "why_it_fits_zh": "东京画廊公开征集10-20号画作，接受插画、水彩及混合媒材，设有丰厚奖金。",
+    "name_zh": "2026年美の起原展",
+    "one_sentence_zh": "东京画廊公开征集绘画作品（10至20号），接受插画、水彩及综合媒材，设有丰厚奖金。",
+    "why_it_fits_zh": "东京画廊公开征集绘画作品（10至20号），接受插画、水彩及综合媒材，设有丰厚奖金。",
     "name_ja": "2026年美の起原展",
-    "one_sentence_ja": "東京のギャラリーが10〜20号の絵画を公募。イラスト・水彩・ミクストメディア可、賞金あり。",
-    "why_it_fits_ja": "東京のギャラリーが10〜20号の絵画を公募。イラスト・水彩・ミクストメディア可、賞金あり。"
+    "one_sentence_ja": "東京のギャラリーによる絵画（10〜20号）のオープンコール。イラスト・水彩・ミクストメディア可、賞金あり。",
+    "why_it_fits_ja": "東京のギャラリーによる絵画（10〜20号）のオープンコール。イラスト・水彩・ミクストメディア可、賞金あり。"
   },
   {
     "name": "クリスマスアート展",
@@ -7749,12 +7807,12 @@
     "email_zh": "",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "圣诞艺术展",
-    "one_sentence_zh": "年度公开征集圣诞主题艺术展，欢迎水彩与插画投稿，奖项由观众投票决定。",
-    "why_it_fits_zh": "年度公开征集圣诞主题艺术展，欢迎水彩与插画投稿，奖项由观众投票决定。",
+    "name_zh": "クリスマスアート展",
+    "one_sentence_zh": "年度公开征集圣诞艺术展，欢迎水彩与插画作品，奖项由观众投票决定。",
+    "why_it_fits_zh": "年度公开征集圣诞艺术展，欢迎水彩与插画作品，奖项由观众投票决定。",
     "name_ja": "クリスマスアート展",
-    "one_sentence_ja": "水彩・イラスト歓迎の年次公募クリスマス展。来場者投票で受賞作を決定。",
-    "why_it_fits_ja": "水彩・イラスト歓迎の年次公募クリスマス展。来場者投票で受賞作を決定。"
+    "one_sentence_ja": "水彩・イラスト作品を歓迎する年次オープンコールのクリスマスアート展。来場者投票で受賞作品が決まります。",
+    "why_it_fits_ja": "水彩・イラスト作品を歓迎する年次オープンコールのクリスマスアート展。来場者投票で受賞作品が決まります。"
   },
   {
     "name": "Laugh & Peace Art Competition 2026",
@@ -7888,11 +7946,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Laugh & Peace Art Competition 2026",
-    "one_sentence_zh": "2026年3月19日至29日在大阪举办的艺术竞赛及展览，适合水彩与插画风格的艺术家参与。",
-    "why_it_fits_zh": "展览地点位于大阪，契合艺术家的活动范围，时间为2026年3月19日至29日，适合以水彩和插画见长的艺术家参赛。",
+    "one_sentence_zh": "艺术竞赛，附带2026年3月19日至29日在大阪举办的展览（与艺术家的地理范围相关），适合水彩与插画艺术家。",
+    "why_it_fits_zh": "艺术竞赛，附带2026年3月19日至29日在大阪举办的展览（与艺术家的地理范围相关），适合水彩与插画艺术家。",
     "name_ja": "Laugh & Peace Art Competition 2026",
-    "one_sentence_ja": "2026年3月19日〜29日に大阪で開催されるアートコンペ＆展示会。水彩・イラスト系アーティストに適したプログラム。",
-    "why_it_fits_ja": "会場は大阪で、アーティストの活動エリアとも重なる。2026年3月19日〜29日開催。水彩・イラストを得意とするアーティストのプロフィールに合致する。"
+    "one_sentence_ja": "2026年3月19〜29日に大阪で展示を伴うアートコンペ（活動エリアに関連）。水彩・イラストアーティストのプロフィールに適しています。",
+    "why_it_fits_ja": "2026年3月19〜29日に大阪で展示を伴うアートコンペ（活動エリアに関連）。水彩・イラストアーティストのプロフィールに適しています。"
   },
   {
     "name": "Tokyo Gendai 2026",
@@ -8091,10 +8149,10 @@
     ],
     "name_zh": "Tokyo Gendai 2026",
     "one_sentence_zh": "第四届东京当代艺术博览会，2026年9月11日至13日举办，画廊申请现已开放。",
-    "why_it_fits_zh": "Tokyo Gendai聚焦日本当代艺术生态，对于一位以每日水彩记录东京建筑与城市瞬间的海外华人艺术家而言，是极具战略价值的展示平台——这正是博览会本土观众所追求的文化特质。她拥有9万粉丝，持续创作以地点为核心的纸上作品，契合博览会对过程驱动型创作的重视，是寻求画廊合作的理想时机。",
+    "why_it_fits_zh": "Tokyo Gendai聚焦日本艺术生态中的当代创作，对于一位以日常水彩记录东京建筑与城市瞬间的海外旅居艺术家而言，这正是该博览会国内观众所寻求的文化特殊性。她的9万粉丝基础与持续积累的纸上场域特定作品，契合博览会对过程导向实践的重视，在现阶段寻求画廊代理方面具有较强竞争力。",
     "name_ja": "Tokyo Gendai 2026",
-    "one_sentence_ja": "第4回東京のアートフェア、2026年9月11〜13日開催。ギャラリー申請受付中。",
-    "why_it_fits_ja": "Tokyo Gendaiは日本のアートエコシステムにおけるコンテンポラリー作品に特化しており、東京の建築や都市の一瞬を毎日の水彩で記録するディアスポラアーティストにとって戦略的なプラットフォームとなる。9万人のフォロワーと一貫したサイトスペシフィックな紙作品は、フェアが重視するプロセス重視の実践と合致し、ギャラリー代理を目指す現段階に適している。"
+    "one_sentence_ja": "2026年9月11〜13日に開催される第4回東京のアートフェア。ギャラリー申込受付中。",
+    "why_it_fits_ja": "Tokyo Gendaiは日本のアートエコシステムにおけるコンテンポラリーな表現に焦点を当てており、東京の建築や都市の一瞬を日々の水彩で記録するディアスポラアーティストにとって、国内観客が求める文化的特異性を体現できる戦略的な場です。9万人のフォロワーと一貫した現場特定の紙作品は、商業的な量よりもプロセス重視の実践を重んじるこのフェアの姿勢と合致し、現段階でのギャラリー代理を目指す上で有力な候補となります。"
   },
   {
     "name": "Mograg Gallery",
@@ -8261,11 +8319,11 @@
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "name_zh": "Mograg Gallery",
-    "one_sentence_zh": "东京活跃的插画与当代艺术画廊，新兴艺术家社群氛围浓厚——2026年6月已确认持续运营中。",
-    "why_it_fits_zh": "Mograg长期展出日本新兴艺术家和画家的精湛作品。GEGYjiji的东京城市水彩与其展览方向天然契合——受众相同，美学语境一致。在东京和大阪均设有展览空间。",
+    "one_sentence_zh": "东京活跃的插画与当代艺术画廊，新兴艺术家社群氛围浓厚——2026年6月项目已确认。",
+    "why_it_fits_zh": "Mograg长期展示日本新兴艺术家及画家的技术性作品。GEGYjiji的东京城市水彩风格与其展览方向高度契合——受众相同，美学调性一致。画廊在东京与大阪均设有展览空间。",
     "name_ja": "Mograg Gallery",
-    "one_sentence_ja": "東京のイラスト・現代アートギャラリー。新進アーティストのコミュニティが活発で、2026年6月時点でも精力的に活動中。",
-    "why_it_fits_ja": "Mogragは技術力の高い新進日本人アーティストや画家の作品を定期的に展示している。GEGYjijijの東京都市水彩は同ギャラリーのプログラムと自然に馴染む——同じ観客層、同じ美的感覚。東京と大阪に会場を持つ。"
+    "one_sentence_ja": "新進アーティストのコミュニティが活発な東京のイラスト・現代アートギャラリー——2026年6月時点でのプログラムが確認済み。",
+    "why_it_fits_ja": "Mogragは技術力の高い日本の新進アーティストや画家の作品を定期的に展示している。GEGYjijiの都市東京水彩画はこのプログラムに自然に馴染む——同じ観客層、同じ美的感覚。東京と大阪に会場あり。"
   },
   {
     "name": "水彩アートの祭典",
@@ -8394,11 +8452,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "水彩アートの祭典",
-    "one_sentence_zh": "纯水彩艺术展（仅限平面作品），在东京芸術劇场举办，接受4号以内作品，不限主题。",
-    "why_it_fits_zh": "纯水彩展（仅限平面作品），在东京芸術劇场举办，接受4号以内尺寸作品，主题不限。",
+    "one_sentence_zh": "在东京芸術劇場举办的纯水彩艺术展（仅限平面作品），接受4号以内尺寸、不限主题的参展作品。",
+    "why_it_fits_zh": "在东京芸術劇場举办的纯水彩艺术展（仅限平面作品），接受4号以内尺寸、不限主题的参展作品。",
     "name_ja": "水彩アートの祭典",
-    "one_sentence_ja": "東京芸術劇場で開催される水彩専門の展覧会（平面作品のみ）。4号以内の作品を受付、テーマ不問。",
-    "why_it_fits_ja": "東京芸術劇場で開催される水彩画専門展（平面作品のみ）。4号以内の作品が対象で、テーマの制限なし。"
+    "one_sentence_ja": "東京芸術劇場で開催される水彩のみの公募展（平面作品のみ）。4号以内・テーマ自由で作品を募集。",
+    "why_it_fits_ja": "東京芸術劇場で開催される水彩のみの公募展（平面作品のみ）。4号以内・テーマ自由で作品を募集。"
   },
   {
     "name": "Gallery EF Asakusa",
@@ -8591,11 +8649,11 @@
     "career_tier": 1,
     "tier_adjustment": 2.5,
     "name_zh": "Gallery EF Asakusa",
-    "one_sentence_zh": "位于浅草百年町屋地下室的老牌画廊——空间亲密、以社区为本，长期支持新兴艺术家。",
-    "why_it_fits_zh": "Gallery EF明治时代地下室的历史氛围，与GEGYjiji对记忆、老建筑和城市静谧空间的创作主题深度共鸣。浅草浓厚的文化底蕴，使其成为展示东京城市记录作品的理想街区。",
+    "one_sentence_zh": "位于浅草已有百年历史的町家地下室的老牌画廊——空间亲密、以社区为核心，长期支持新兴艺术家。",
+    "why_it_fits_zh": "Gallery EF明治时代的地下室氛围，与GEGYjiji对记忆、旧建筑及静谧城市空间的创作主题高度共鸣。浅草深厚的文化底蕴，使其成为东京城市纪录创作的理想展出场所。",
     "name_ja": "Gallery EF Asakusa",
-    "one_sentence_ja": "築100年の町屋地下に構える浅草の老舗ギャラリー。親密でコミュニティ重視の空間で、新進アーティストを長く支援してきた。",
-    "why_it_fits_ja": "Gallery EFの明治期の地下空間は、GEGYjijijの「記憶」「古い建築」「静かな都市空間」というテーマと直接共鳴する。浅草の文化的密度は、東京を記録する作品にふさわしい舞台といえる。"
+    "one_sentence_ja": "築100年の町家地下に構える浅草の老舗ギャラリー——親密でコミュニティ重視の空間として、新進アーティストを長年支援している。",
+    "why_it_fits_ja": "Gallery EFの明治期地下室の雰囲気は、GEGYjijiの記憶・古い建築・静かな都市空間というテーマと直接共鳴する。浅草の文化的な密度は、東京ドキュメンテーション作品の発表に最適な環境をつくり出している。"
   },
   {
     "name": "Nui. Hostel Bar & Lounge Asakusa",
@@ -8781,11 +8839,11 @@
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "name_zh": "Nui. Hostel Bar & Lounge Asakusa",
-    "one_sentence_zh": "浅草设计感强烈的青旅酒吧，拥有活跃的国际创意社群，公共休息区设有展示艺术作品的墙面空间。",
-    "why_it_fits_zh": "Nui.汇聚了东京的创意外籍人士与设计圈社群——他们是欣赏沉静、细腻日本城市艺术的国际观众。「记录东京的华人艺术家」这一视角在这里尤为动人。",
+    "one_sentence_zh": "浅草设计感十足的青旅酒吧，汇聚活跃的国际创意社群，公共休息区设有展示艺术家作品的墙面空间。",
+    "why_it_fits_zh": "Nui.吸引东京的创意外籍人士与设计圈群体——这批国际观众欣赏安静而细腻的日本城市艺术。\"以中国艺术家视角记录东京\"的创作切入点在这里尤具共鸣。",
     "name_ja": "Nui. Hostel Bar & Lounge Asakusa",
-    "one_sentence_ja": "デザイン感度の高い浅草のホステルバー。国際的なクリエイティブコミュニティが集い、パブリックラウンジに作品展示スペースを備える。",
-    "why_it_fits_ja": "Nui.には東京のクリエイティブ系外国人やデザイン業界の人々が集まる——静かで丁寧な日本の都市アートを好む国際的な観客層だ。「東京を記録する中国人アーティスト」という視点は、ここでは特に共鳴を呼ぶ。"
+    "one_sentence_ja": "国際的なクリエイティブコミュニティが集う浅草のデザイン志向のホステルバー。パブリックラウンジにアーティスト作品を展示するウォールスペースあり。",
+    "why_it_fits_ja": "Nui.は東京のクリエイティブな在外外国人やデザイン界の人々を引きつけている——静かで丁寧な日本の都市アートを好む国際的な観客層だ。「東京を記録する中国人アーティスト」という視点は、ここで特に響く。"
   },
   {
     "name": "SHIBUYA CAST. Gallery",
@@ -8947,11 +9005,11 @@
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "name_zh": "SHIBUYA CAST. Gallery",
-    "one_sentence_zh": "涩谷复合型创意街区，设有画廊空间与咖啡馆，面向东京中心城区的设计观众策划展览及社区活动。",
-    "why_it_fits_zh": "SHIBUYA CAST.位于涩谷中心地带，融合社区与设计于一体——观众眼光挑剔，对当代易读性艺术保持开放态度。东京城市水彩与该街区以社区为导向的展览方向高度契合。",
+    "one_sentence_zh": "涩谷综合创意园区内设有画廊与咖啡空间——面向东京中心设计受众，举办展览及社区活动。",
+    "why_it_fits_zh": "SHIBUYA CAST.处于涩谷社区与设计的交汇点，受众具有较高审美品位，对当代易读性艺术持开放态度。东京城市水彩与该园区社区导向的展览定位相契合。",
     "name_ja": "SHIBUYA CAST. Gallery",
-    "one_sentence_ja": "渋谷の複合クリエイティブ施設。ギャラリースペースとカフェを備え、都心のデザイン志向の観客に向けた展示やコミュニティイベントを企画。",
-    "why_it_fits_ja": "SHIBUYA CAST.は渋谷中心部でコミュニティとデザインが交差する場所だ。目の肥えた観客がコンテンポラリーでアクセスしやすいアートに開かれている。東京の都市水彩は、この施設のコミュニティ志向のプログラムと自然に響き合う。"
+    "one_sentence_ja": "ギャラリーとカフェを備えた渋谷の複合クリエイティブ施設——東京都心のデザイン志向の観客に向けた展覧会やコミュニティイベントを開催。",
+    "why_it_fits_ja": "SHIBUYA CAST.はコミュニティとデザインが交差する渋谷の中心に位置し、現代的でアクセスしやすいアートに開かれた審美眼のある観客を持つ。都市東京の水彩画は、この施設のコミュニティ志向のプログラムと自然に共鳴する。"
   },
   {
     "name": "MICRO/MACRO",
@@ -9126,11 +9184,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "MICRO/MACRO",
-    "one_sentence_zh": "探索微观与宏观视角的群展，与GEGYjiji对城市观察和建筑空间的创作关注高度相关。",
-    "why_it_fits_zh": "该群展聚焦微观与宏观视角的探索，与GEGYjiji对城市观察和建筑主题的创作方向密切契合。",
+    "one_sentence_zh": "探索微观与宏观视角的群展，契合GEGYjiji的城市观察与建筑创作方向。",
+    "why_it_fits_zh": "探索微观与宏观视角的群展，契合GEGYjiji的城市观察与建筑创作方向。",
     "name_ja": "MICRO/MACRO",
-    "one_sentence_ja": "ミクロとマクロの視点を探るグループ展。GEGYjijijの都市観察・建築への関心と関連性が高い。",
-    "why_it_fits_ja": "ミクロとマクロの視点を探るグループ展で、GEGYjijijの都市観察や建築的テーマへの関心と直接つながる内容。"
+    "one_sentence_ja": "ミクロとマクロの視点を探るグループ展。GEGYjijiの都市観察と建築への着目と関連性が深い。",
+    "why_it_fits_ja": "ミクロとマクロの視点を探るグループ展。GEGYjijiの都市観察と建築への着目と関連性が深い。"
   },
   {
     "name": "桜をテーマとするイラスト・絵画作品募集",
@@ -9280,12 +9338,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "以樱花为主题的插画・绘画作品募集",
-    "one_sentence_zh": "以樱花为主题的插画与绘画公开征集，契合其插画与观察性创作实践。",
-    "why_it_fits_zh": "以樱花为主题的插画与绘画公开征集，契合其插画与观察性创作实践。",
+    "name_zh": "桜をテーマとするイラスト・絵画作品募集",
+    "one_sentence_zh": "以樱花为主题的插画与绘画公募，契合她以插画为基础的观察性创作实践。",
+    "why_it_fits_zh": "以樱花为主题的插画与绘画公募，契合她以插画为基础的观察性创作实践。",
     "name_ja": "桜をテーマとするイラスト・絵画作品募集",
-    "one_sentence_ja": "桜をテーマにしたイラスト・絵画の公募で、イラストと観察に基づく制作スタイルに合致。",
-    "why_it_fits_ja": "桜をテーマにしたイラスト・絵画の公募で、イラストと観察に基づく制作スタイルに合致。"
+    "one_sentence_ja": "桜をテーマにしたイラスト・絵画の公募展。彼女の観察に基づくイラスト制作と合致する。",
+    "why_it_fits_ja": "桜をテーマにしたイラスト・絵画の公募展。彼女の観察に基づくイラスト制作と合致する。"
   },
   {
     "title": "CSPWC Annual Open Water International Exhibition",
@@ -9569,12 +9627,12 @@
     "fees_source": "harvested_from_submission_page",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "与多摩有渊源的艺术家公募展",
-    "one_sentence_zh": "面向与多摩地区有关联的艺术家的公募展，欢迎水彩及插画作品投稿。",
-    "why_it_fits_zh": "面向与多摩地区有关联的艺术家的公募展，欢迎水彩及插画作品投稿。",
+    "name_zh": "多摩ゆかりの作家による公募展",
+    "one_sentence_zh": "面向与多摩地区有渊源的艺术家的公募展，欢迎水彩及插画作品参展。",
+    "why_it_fits_zh": "面向与多摩地区有渊源的艺术家的公募展，欢迎水彩及插画作品参展。",
     "name_ja": "多摩ゆかりの作家による公募展",
-    "one_sentence_ja": "多摩地域にゆかりのある作家を対象とした公募展で、水彩・イラスト作品の応募を歓迎。",
-    "why_it_fits_ja": "多摩地域にゆかりのある作家を対象とした公募展で、水彩・イラスト作品の応募を歓迎。"
+    "one_sentence_ja": "多摩地域にゆかりのあるアーティストを対象とした公募展。水彩・イラスト作品の応募を歓迎。",
+    "why_it_fits_ja": "多摩地域にゆかりのあるアーティストを対象とした公募展。水彩・イラスト作品の応募を歓迎。"
   },
   {
     "name": "Aquarelle 18 - アクワレル",
@@ -9706,11 +9764,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Aquarelle 18 - アクワレル",
-    "one_sentence_zh": "专注于水彩绘画的公募展，设有展位展示选项，与其媒介及创作实践高度契合。",
-    "why_it_fits_zh": "专注于水彩绘画的公募展，设有展位展示选项，与其媒介及创作实践高度契合。",
+    "one_sentence_zh": "专注水彩画的公开征集展览，提供展位展示选项，契合她的创作媒介与实践。",
+    "why_it_fits_zh": "专注水彩画的公开征集展览，提供展位展示选项，契合她的创作媒介与实践。",
     "name_ja": "Aquarelle 18 - アクワレル",
-    "one_sentence_ja": "水彩画に特化した公募展で、ブース展示オプションがあり、使用メディアと制作スタイルに合致。",
-    "why_it_fits_ja": "水彩画に特化した公募展で、ブース展示オプションがあり、使用メディアと制作スタイルに合致。"
+    "one_sentence_ja": "彼女の画材と制作スタイルに合った、水彩画専門のオープンコール展覧会（ブース展示オプションあり）。",
+    "why_it_fits_ja": "彼女の画材と制作スタイルに合った、水彩画専門のオープンコール展覧会（ブース展示オプションあり）。"
   },
   {
     "name": "第29回 アート未来展",
@@ -9836,12 +9894,12 @@
     "has_prerequisites": false,
     "uncapped_score": 9.6,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
-    "name_zh": "第29回 アート未来展",
-    "one_sentence_zh": "2026年6月于国立新美术馆举办的艺术展览，预计接受包括水彩在内的多种媒介作品。",
-    "why_it_fits_zh": "2026年6月于国立新美术馆举办的艺术展览，预计接受包括水彩在内的多种媒介作品。",
+    "name_zh": "第29届 アート未来展",
+    "one_sentence_zh": "2026年6月在国立新美术馆举办的艺术展览，可能接受包括水彩在内的多种媒介。",
+    "why_it_fits_zh": "2026年6月在国立新美术馆举办的艺术展览，可能接受包括水彩在内的多种媒介。",
     "name_ja": "第29回 アート未来展",
-    "one_sentence_ja": "2026年6月に国立新美術館で開催される美術展で、水彩を含む複数のメディアを受け付ける見込み。",
-    "why_it_fits_ja": "2026年6月に国立新美術館で開催される美術展で、水彩を含む複数のメディアを受け付ける見込み。"
+    "one_sentence_ja": "2026年6月に国立新美術館で開催される展覧会で、水彩を含む複数のメディアを受け付ける可能性が高い。",
+    "why_it_fits_ja": "2026年6月に国立新美術館で開催される展覧会で、水彩を含む複数のメディアを受け付ける可能性が高い。"
   },
   {
     "name": "COW BOOKS Nakameguro",
@@ -10223,11 +10281,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Tokyo Illustrators Society",
-    "one_sentence_zh": "东京水彩艺术家协会是日本水彩/纸上作品研究的插画团体资源。",
-    "why_it_fits_zh": "潜在的水彩/纸上作品展示场所，建议推荐前先行核实。",
+    "one_sentence_zh": "日本插画协会资源，可作为水彩／纸上作品的研究与参考渠道。",
+    "why_it_fits_zh": "潜在的水彩／纸上作品展示场所，建议推荐前先行核实。",
     "name_ja": "Tokyo Illustrators Society",
-    "one_sentence_ja": "東京水彩アーティスト協会は、日本における水彩・紙作品リサーチのためのイラスト団体情報源。",
-    "why_it_fits_ja": "水彩・紙作品の潜在的な発表の場として有望。推薦前に要確認。"
+    "one_sentence_ja": "日本における水彩・紙上作品のリサーチに活用できるイラストレーション団体。",
+    "why_it_fits_ja": "水彩・紙上作品の発表に適した可能性のある場。推薦前に要確認。"
   },
   {
     "title": "Tacoche",
@@ -10820,12 +10878,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "新加坡艺术周2026公开提案征集 — 第14届",
+    "name_zh": "2026年新加坡艺术周提案公开征集 – 第14届",
     "one_sentence_zh": "新加坡艺术周公开征集，涵盖多个场馆与形式，适合插画及当代艺术实践。",
     "why_it_fits_zh": "新加坡艺术周公开征集，涵盖多个场馆与形式，适合插画及当代艺术实践。",
     "name_ja": "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition",
-    "one_sentence_ja": "複数の会場と形式を擁するシンガポール・アート・ウィークの公募で、イラストや現代的な制作実践に適合。",
-    "why_it_fits_ja": "複数の会場と形式を擁するシンガポール・アート・ウィークの公募で、イラストや現代的な制作実践に適合。"
+    "one_sentence_ja": "複数の会場とフォーマットを持つSingapore Art Weekのオープンコール。イラストレーションや現代的な制作活動に適している。",
+    "why_it_fits_ja": "複数の会場とフォーマットを持つSingapore Art Weekのオープンコール。イラストレーションや現代的な制作活動に適している。"
   },
   {
     "name": "Antenna Books",
@@ -11035,11 +11093,11 @@
     "career_tier": 1,
     "tier_adjustment": 2.5,
     "name_zh": "Antenna Books",
-    "one_sentence_zh": "代官山知名独立艺术设计书店，深受东京设计圈青睐，是GEGYjiji印刷作品的理想寄售场所。",
-    "why_it_fits_zh": "Antenna Books为眼光挑剔的代官山受众精心策划艺术与设计出版物，正是欣赏GEGYjiji东京城市水彩版画与独立志的读者群。寄售可建立持续而低调的曝光度。",
+    "one_sentence_zh": "代官山知名独立艺术与设计书店，深受东京设计圈青睐，是GEGYjiji印刷品的理想寄售场所。",
+    "why_it_fits_zh": "Antenna Books为代官山的挑剔读者精选艺术与设计出版物，正是欣赏GEGYjiji东京城市水彩印刷品及小志的受众。寄售可建立低调而持续的曝光度。",
     "name_ja": "Antenna Books",
-    "one_sentence_ja": "代官山の著名な独立系アート・デザイン書店で、東京のデザインコミュニティに愛され、GEGYjijiの印刷物の理想的な委託先。",
-    "why_it_fits_ja": "Antenna Booksは目の肥えた代官山の読者向けにアート・デザイン出版物をキュレーションしており、GEGYjijiの東京都市水彩プリントやZINEを好む層に直接届く。委託販売により静かで継続的な認知度を築ける。"
+    "one_sentence_ja": "代官山の有名なインディペンデント系アート・デザイン書店。東京のデザインコミュニティに愛され、GEGYjiji の印刷物の委託販売に最適な場所。",
+    "why_it_fits_ja": "Antenna Booksは審美眼の高い代官山の読者向けにアート・デザイン出版物をキュレーションしており、GEGYjiji の東京都市風景の水彩プリントやZINEを評価する層と合致する。委託販売により静かで継続的な認知が築ける。"
   },
   {
     "name": "SPBS (Shibuya Publishing Booksellers)",
@@ -11240,11 +11298,11 @@
     "career_tier": 1,
     "tier_adjustment": 2.5,
     "name_zh": "SPBS（涩谷出版书店）",
-    "one_sentence_zh": "富ヶ谷首屈一指的设计与艺术书店，寄售文化成熟，是GEGYjiji印刷作品进入东京设计圈的自然切入点。",
-    "why_it_fits_zh": "SPBS为眼光挑剔的涩谷周边受众精心策划艺术与设计出版物，非常适合GEGYjiji的东京城市水彩版画与独立志。在此寄售可在设计专业人士中建立持续而低调的曝光度。",
+    "one_sentence_zh": "富ヶ谷顶级设计与艺术书店，寄售文化成熟，是GEGYjiji印刷品进入东京设计圈的自然切入点。",
+    "why_it_fits_zh": "SPBS为涩谷周边挑剔受众精选艺术与设计出版物，非常适合GEGYjiji的东京城市水彩印刷品及小志。在此寄售可在设计专业人士中建立低调而持续的知名度。",
     "name_ja": "SPBS（Shibuya Publishing Booksellers）",
-    "one_sentence_ja": "富ヶ谷を代表するデザイン・アート書店で、委託文化が根付いており、東京のデザインコミュニティへGEGYjijiの印刷物を届ける自然な入口となる。",
-    "why_it_fits_ja": "SPBSは渋谷周辺の目の肥えた読者向けにアート・デザイン出版物をキュレーションしており、GEGYjijiの東京都市水彩プリントやZINEに最適。委託販売でデザイン専門家の間に静かで継続的な認知度を築ける。"
+    "one_sentence_ja": "富ヶ谷を代表するデザイン・アート書店。委託販売文化が根付いており、東京のデザインコミュニティへGEGYjiji の印刷物を届ける自然な入口となる。",
+    "why_it_fits_ja": "SPBSは渋谷周辺の審美眼の高い読者向けにアート・デザイン出版物をキュレーションしており、GEGYjiji の東京都市風景の水彩プリントやZINEに最適。委託販売はデザイン専門家の間で静かで継続的な認知を築く。"
   },
   {
     "title": "本店・本屋の実験室",
@@ -11609,11 +11667,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "コピックアワード2026",
-    "one_sentence_zh": "通过社交媒体接受投稿的插画与水彩奖项，与其插画创作实践高度契合。",
-    "why_it_fits_zh": "通过社交媒体接受投稿的插画与水彩奖项，与其插画创作实践高度契合。",
+    "one_sentence_zh": "通过社交媒体接受投稿的插画与水彩奖项，与她的插画创作实践高度相关。",
+    "why_it_fits_zh": "通过社交媒体接受投稿的插画与水彩奖项，与她的插画创作实践高度相关。",
     "name_ja": "コピックアワード2026",
-    "one_sentence_ja": "SNSで作品を応募できるイラスト・水彩部門のアワードで、イラスト制作活動に直結する機会。",
-    "why_it_fits_ja": "SNSで作品を応募できるイラスト・水彩部門のアワードで、イラスト制作活動に直結する機会。"
+    "one_sentence_ja": "SNSで作品を応募できるイラスト・水彩部門のあるアワードで、彼女のイラスト活動に関連性が高い。",
+    "why_it_fits_ja": "SNSで作品を応募できるイラスト・水彩部門のあるアワードで、彼女のイラスト活動に関連性が高い。"
   },
   {
     "name": "Ark Art Award 2024",
@@ -11743,11 +11801,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Ark Art Award 2024",
-    "one_sentence_zh": "面向各阶段水彩艺术家的公开征集奖项，参与者可参加策展展览。",
-    "why_it_fits_zh": "面向各阶段水彩艺术家的公开征集奖项，参与者可参加策展展览。",
+    "one_sentence_zh": "专门欢迎各水平水彩艺术家参与的公开征集策展奖项展览。",
+    "why_it_fits_zh": "专门欢迎各水平水彩艺术家参与的公开征集策展奖项展览。",
     "name_ja": "Ark Art Award 2024",
-    "one_sentence_ja": "あらゆるレベルの水彩画家を対象としたオープンコール形式のアワード展。",
-    "why_it_fits_ja": "あらゆるレベルの水彩画家を対象としたオープンコール形式のアワード展。"
+    "one_sentence_ja": "あらゆるレベルの水彩画家を対象としたオープンコール形式のキュレーテッド・アワード展。",
+    "why_it_fits_ja": "あらゆるレベルの水彩画家を対象としたオープンコール形式のキュレーテッド・アワード展。"
   },
   {
     "title": "LOCAL Gallery・Books",
@@ -12364,11 +12422,11 @@
     ],
     "has_prerequisites": true,
     "name_zh": "Art Vancouver 2026",
-    "one_sentence_zh": "加拿大西海岸重要艺术博览会，展示当代艺术与设计作品，对国际艺术家及画廊开放。",
-    "why_it_fits_zh": "加拿大西海岸重要艺术博览会，展示当代艺术与设计作品，对国际艺术家及画廊开放。",
+    "one_sentence_zh": "加拿大西海岸重要艺术博览会，展示当代艺术与设计作品，向国际艺术家及画廊开放。",
+    "why_it_fits_zh": "加拿大西海岸重要艺术博览会，展示当代艺术与设计作品，向国际艺术家及画廊开放。",
     "name_ja": "Art Vancouver 2026",
-    "one_sentence_ja": "カナダ西海岸最大級のアートフェアで、現代アート・デザイン作品を国際的に発信できる場。",
-    "why_it_fits_ja": "カナダ西海岸最大級のアートフェアで、現代アート・デザイン作品を国際的に発信できる場。"
+    "one_sentence_ja": "カナダ西海岸の主要アートフェアで、現代アートとデザイン作品を紹介し、国際的なアーティストやギャラリーが参加可能。",
+    "why_it_fits_ja": "カナダ西海岸の主要アートフェアで、現代アートとデザイン作品を紹介し、国際的なアーティストやギャラリーが参加可能。"
   },
   {
     "name": "ギャラリーへ行こう2026",
@@ -12494,11 +12552,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "ギャラリーへ行こう2026",
-    "one_sentence_zh": "东京画廊空间举办的公开征集展览，为寻求投稿机会的艺术家提供展示平台。",
-    "why_it_fits_zh": "东京画廊空间举办的公开征集展览，为寻求投稿机会的艺术家提供展示平台。",
+    "one_sentence_zh": "东京画廊空间举办的公募展览，面向寻求投稿机会的艺术家。",
+    "why_it_fits_zh": "东京画廊空间举办的公募展览，面向寻求投稿机会的艺术家。",
     "name_ja": "ギャラリーへ行こう2026",
-    "one_sentence_ja": "東京のギャラリースペースで開催される公募展で、出展機会を求めるアーティストに向けた企画。",
-    "why_it_fits_ja": "東京のギャラリースペースで開催される公募展で、出展機会を求めるアーティストに向けた企画。"
+    "one_sentence_ja": "東京のギャラリースペースで開催される公募展。出品の機会を求めるアーティスト向け。",
+    "why_it_fits_ja": "東京のギャラリースペースで開催される公募展。出品の機会を求めるアーティスト向け。"
   },
   {
     "title": "Osaka Open Call For Artists. - ARRIVAL",
@@ -12795,11 +12853,11 @@
     "has_prerequisites": true,
     "contact": "@clouds_koenji (Instagram) — visit cloudsgallerypluscoffee.com",
     "name_zh": "CLOUDS Gallery+Coffee Koenji",
-    "one_sentence_zh": "高円寺以画廊为主的咖啡复合空间，免费入场轮换展览，已确认接受国际艺术家参与项目。",
-    "why_it_fits_zh": "以画廊为核心的空间，设有国际艺术家项目，明确展示来自日本及海外的新兴与成熟艺术家，是高円寺最优质的画廊咖啡选择。",
+    "one_sentence_zh": "位于高円寺的画廊与咖啡复合空间，免费入场，定期举办本地及国际艺术家轮换展览，设有国际项目。",
+    "why_it_fits_zh": "以画廊为核心的空间，设有国际艺术家项目，明确展出日本及海外新兴与成熟艺术家，是高円寺最契合的画廊咖啡选择。",
     "name_ja": "CLOUDS Gallery+Coffee Koenji",
-    "one_sentence_ja": "高円寺のギャラリー併設カフェ。国内外アーティストによる入場無料の企画展を定期開催し、国際プログラムが確認済み。",
-    "why_it_fits_ja": "ギャラリー主体のスペースで国際アーティストプログラムを運営。日本国内外の新進・ベテランアーティストを明示的に紹介しており、高円寺でのギャラリーカフェとして最適な候補。"
+    "one_sentence_ja": "高円寺のギャラリー併設カフェ。国内外アーティストによる入場無料のローテーション展示を開催し、国際プログラムも確認済み。",
+    "why_it_fits_ja": "ギャラリー主体のスペースで国際アーティストプログラムを展開。日本国内外の新進・ベテランアーティストを明示的に紹介。高円寺でのギャラリーカフェとして最適。"
   },
   {
     "title": "Yonchome Cafe",
@@ -13101,11 +13159,11 @@
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "name_zh": "HATTIFNATT Kichijoji",
-    "one_sentence_zh": "HATTIFNATT的吉祥寺姊妹店，具有绘本风格美学，内设Donguri Gallery展览空间，与数据库中高円寺店为不同入口。",
-    "why_it_fits_zh": "与HATTIFNATT高円寺店同样温馨的绘本氛围，但面向吉祥寺活跃创意社区的不同受众。该店内的Donguri Gallery定期举办艺术家轮换展览，项目已确认。",
+    "one_sentence_zh": "HATTIFNATT的吉祥寺分店——带有绘本美学的咖啡馆，设有Donguri Gallery展览空间，是数据库中高円寺店之外的独立据点。",
+    "why_it_fits_zh": "与HATTIFNATT高円寺店同样温馨的绘本风格，但面向吉祥寺创意社区的不同受众。该店的Donguri Gallery定期举办艺术家轮换展览，项目已确认。",
     "name_ja": "HATTIFNATT Kichijoji",
-    "one_sentence_ja": "HATTIFNATTの吉祥寺姉妹店。絵本的な世界観を持ち、Donguri Galleryの展示スペースを併設。高円寺店とは異なる客層にアプローチできる。",
-    "why_it_fits_ja": "HATTIFNATT高円寺店と同じ温かな絵本の雰囲気を持ちながら、吉祥寺のクリエイティブなコミュニティに向けて発信できる。Donguri Galleryでは企画展が定期開催されており、プログラムは確認済み。"
+    "one_sentence_ja": "HATTIFNATT吉祥寺店——絵本的な世界観のカフェにDonguri Galleryの展示スペースを併設し、データベース内の高円寺店とは別の拠点。",
+    "why_it_fits_ja": "HATTIFNATT高円寺店と同じ温かな絵本の雰囲気を持ちながら、吉祥寺のクリエイティブコミュニティへリーチ。Donguri Galleryではアーティストのローテーション展示を開催—プログラム確認済み。"
   },
   {
     "title": "Cafe Mame-Hico",
@@ -13593,11 +13651,11 @@
     "uncapped_score": 9.9,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "name_zh": "臺南市美術館 2026「TAM+展覽計畫」",
-    "one_sentence_zh": "臺南市美術館面向2026年度接受艺术家提案的区域性博物馆展览项目。",
-    "why_it_fits_zh": "臺南市美術館面向2026年度接受艺术家提案的区域性博物馆展览项目。",
+    "one_sentence_zh": "接受艺术家提案的地区美术馆2026年展览项目。",
+    "why_it_fits_zh": "接受艺术家提案的地区美术馆2026年展览项目。",
     "name_ja": "臺南市美術館 2026「TAM+展覽計畫」",
-    "one_sentence_ja": "2026年度のアーティスト提案を募集する、臺南市美術館の地域美術館展覧プログラム。",
-    "why_it_fits_ja": "2026年度のアーティスト提案を募集する、臺南市美術館の地域美術館展覧プログラム。"
+    "one_sentence_ja": "アーティストの企画提案を受け付ける地域美術館の2026年展覧会プログラム。",
+    "why_it_fits_ja": "アーティストの企画提案を受け付ける地域美術館の2026年展覧会プログラム。"
   },
   {
     "name": "In-dividual Theater：BUG Screen Week 2026",
@@ -13722,11 +13780,11 @@
     "uncapped_score": 9.7,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "name_zh": "In-dividual Theater：BUG Screen Week 2026",
-    "one_sentence_zh": "以跨代际交流为主题的公开征集展览，大奖提供展览机会，适合新兴插画及视觉艺术家参与。",
-    "why_it_fits_zh": "以跨代际交流为主题的公开征集展览，大奖提供展览机会，适合新兴插画及视觉艺术家参与。",
+    "one_sentence_zh": "以代际交流为主题的公募展览，大奖提供展览机会，适合新兴插画及视觉艺术家。",
+    "why_it_fits_zh": "以代际交流为主题的公募展览，大奖提供展览机会，适合新兴插画及视觉艺术家。",
     "name_ja": "In-dividual Theater：BUG Screen Week 2026",
-    "one_sentence_ja": "世代間交流をテーマにした公募展。グランプリ受賞者には展示機会が与えられ、新進のイラストレーター・ビジュアルアーティストに適した機会。",
-    "why_it_fits_ja": "世代間交流をテーマにした公募展。グランプリ受賞者には展示機会が与えられ、新進のイラストレーター・ビジュアルアーティストに適した機会。"
+    "one_sentence_ja": "世代間交流をテーマにした公募展。グランプリには展示機会が与えられ、新進のイラスト・ビジュアルアーティストに最適。",
+    "why_it_fits_ja": "世代間交流をテーマにした公募展。グランプリには展示機会が与えられ、新進のイラスト・ビジュアルアーティストに最適。"
   },
   {
     "name": "2026 3rd Annual Illustration Summit Challenge (IlloBoom!)",
@@ -13849,12 +13907,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026第三届插画峰会挑战赛（IlloBoom!）",
-    "one_sentence_zh": "面向学生、专业人士及爱好者的全球插画大赛，接受所有风格与主题，非常适合插画艺术家参与。",
-    "why_it_fits_zh": "面向学生、专业人士及爱好者的全球插画大赛，接受所有风格与主题，非常适合插画艺术家参与。",
-    "name_ja": "2026年第3回 Illustration Summit Challenge（IlloBoom!）",
-    "one_sentence_ja": "学生・プロ・愛好家を問わず、あらゆるスタイルとテーマの作品を受け付けるグローバルなイラストコンペ。イラストレーターに最適。",
-    "why_it_fits_ja": "学生・プロ・愛好家を問わず、あらゆるスタイルとテーマの作品を受け付けるグローバルなイラストコンペ。イラストレーターに最適。"
+    "name_zh": "2026 第三届 Illustration Summit Challenge（IlloBoom!）",
+    "one_sentence_zh": "全球插画大赛，接受所有艺术风格与主题，面向学生、专业人士及爱好者，非常适合插画艺术家参与。",
+    "why_it_fits_zh": "全球插画大赛，接受所有艺术风格与主题，面向学生、专业人士及爱好者，非常适合插画艺术家参与。",
+    "name_ja": "2026 第3回 Illustration Summit Challenge（IlloBoom!）",
+    "one_sentence_ja": "あらゆるスタイルとテーマを受け付けるグローバルなイラストコンペ。学生・プロ・愛好家を問わず参加可能で、イラストアーティストに最適。",
+    "why_it_fits_ja": "あらゆるスタイルとテーマを受け付けるグローバルなイラストコンペ。学生・プロ・愛好家を問わず参加可能で、イラストアーティストに最適。"
   },
   {
     "name": "NY公募展2026夏（NY Open Call Exhibition Summer 2026）",
@@ -13976,11 +14034,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "NY公募展2026夏（NY Open Call Exhibition Summer 2026）",
-    "one_sentence_zh": "面向全球艺术家的2026年夏季国际公开征集展览。",
-    "why_it_fits_zh": "面向全球艺术家的2026年夏季国际公开征集展览。",
+    "one_sentence_zh": "2026年夏季国际公募展，接受全球艺术家投递作品。",
+    "why_it_fits_zh": "2026年夏季国际公募展，接受全球艺术家投递作品。",
     "name_ja": "NY公募展2026夏（NY Open Call Exhibition Summer 2026）",
-    "one_sentence_ja": "世界中のアーティストから作品を募集する2026年夏の国際公募展。",
-    "why_it_fits_ja": "世界中のアーティストから作品を募集する2026年夏の国際公募展。"
+    "one_sentence_ja": "2026年夏開催の国際公募展。世界中のアーティストから作品を募集。",
+    "why_it_fits_ja": "2026年夏開催の国際公募展。世界中のアーティストから作品を募集。"
   },
   {
     "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
@@ -14913,12 +14971,12 @@
     "has_prerequisites": false,
     "pre_final_guard_score": 9.2,
     "final_score_guard_note": "Rescored 9.2 → 8.9 (verification_points=5, composite=9.2)",
-    "name_zh": "2026全球资助周期——个人研究奖学金",
-    "one_sentence_zh": "ACC个人研究奖学金支持艺术家通过跨文化研究与沉浸式体验发展艺术实践，与水彩及插画创作高度契合。",
-    "why_it_fits_zh": "ACC的奖学金项目明确支持持续性研究与跨文化沉浸，与GEGYjiji在东京乃至其他城市环境中进行日常观察与建筑记录的创作方式高度吻合。项目对跨文化艺术发展的重视，与她作为一位在国际舞台上工作的中国画家的身份相匹配，而水彩的即时性恰好捕捉了她在城市场景中所珍视的瞬间。",
+    "name_zh": "2026年全球资助周期 - 个人研究金",
+    "one_sentence_zh": "ACC个人研究金支持符合条件学科的艺术家，通过跨文化研究与沉浸式体验发展艺术实践，与GEGYjiji的水彩及插画创作高度契合。",
+    "why_it_fits_zh": "ACC研究金项目明确支持深度研究与跨文化沉浸——与GEGYjiji在不同城市环境（从东京到潜在新地点）进行日常观察与建筑记录的创作方式高度吻合。该项目对跨文化艺术发展的重视，与她作为在国际舞台上活跃的中国画家的定位相符；水彩媒介的即时性正是她在城市场景中捕捉转瞬即逝时刻的核心手段。",
     "name_ja": "2026 Global Grant Cycle - Individual Fellowship",
-    "one_sentence_ja": "ACCの個人フェローシップは、異文化研究と没入体験を通じて芸術実践を深めたいアーティストを支援し、水彩・イラスト制作と高い親和性を持つ。",
-    "why_it_fits_ja": "ACCのフェローシップは継続的な調査と異文化への没入を明確に支援しており、GEGYjiji が東京をはじめ様々な都市環境で行う日常的な観察と建築ドキュメントの実践と直接合致する。異文化間の芸術的発展を重視するプログラムの方針は、国際的に活動する中国人画家としての彼女の立ち位置と合い、水彩の即興性が都市の風景に宿る一瞬を捉える彼女のアプローチを後押しする。"
+    "one_sentence_ja": "ACCのIndividual Fellowshipは、対象分野のアーティストが異文化への研究・没入を通じて芸術実践を深めることを支援するプログラムで、GEGYjiji の水彩・イラスト制作と高い親和性を持つ。",
+    "why_it_fits_ja": "ACCのフェローシップは、継続的な研究と異文化への没入を明確に支援しており、東京をはじめとする様々な都市環境での日常的な観察と建築的記録を実践するGEGYjijiの活動と直接合致する。異文化間の芸術的発展を重視するプログラムの性格は、国際的に活動する中国人画家としての彼女の立ち位置と一致し、水彩の即興性は都市空間で優先する刹那の瞬間を捉えるのに適している。"
   },
   {
     "title": "3x3 International Illustration Awards",
@@ -15068,11 +15126,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "3x3国际插画奖",
-    "one_sentence_zh": "面向全球水彩及纸本作品研究领域的国际插画奖项。",
-    "why_it_fits_zh": "潜在的水彩及纸本作品展示平台，建议在推荐前进一步核实相关信息。",
+    "one_sentence_zh": "3x3国际插画奖是面向全球的插画奖项，涵盖水彩及纸本作品研究领域。",
+    "why_it_fits_zh": "潜在的水彩及纸本作品原生展示平台，建议在推荐前进一步核实相关信息。",
     "name_ja": "3x3 International Illustration Awards",
-    "one_sentence_ja": "水彩・紙媒体作品を対象としたグローバルな国際イラスト賞。",
-    "why_it_fits_ja": "水彩・紙媒体作品の発表に適した可能性のある賞。推薦前に詳細の確認が必要。"
+    "one_sentence_ja": "3x3 International Illustration Awardsは、水彩・紙作品を対象としたグローバルなイラストレーション賞。",
+    "why_it_fits_ja": "水彩・紙作品に適した可能性のある賞。推薦前に詳細の確認が必要。"
   },
   {
     "name": "KAMIHANGA国際プリント展2026",
@@ -15195,11 +15253,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "KAMIHANGA国际版画展2026",
-    "one_sentence_zh": "面向混合媒材插画创作的国际版画展公开征集。",
-    "why_it_fits_zh": "面向混合媒材插画创作的国际版画展公开征集。",
+    "one_sentence_zh": "国际版画展公开征集，可能与混合媒介插画创作相关。",
+    "why_it_fits_zh": "国际版画展公开征集，可能与混合媒介插画创作相关。",
     "name_ja": "KAMIHANGA国際プリント展2026",
-    "one_sentence_ja": "ミクストメディアのイラスト実践にも関連しうる国際版画展の公募。",
-    "why_it_fits_ja": "ミクストメディアのイラスト実践にも関連しうる国際版画展の公募。"
+    "one_sentence_ja": "ミクストメディアのイラスト制作にも関連しうる、国際版画展のオープンコール。",
+    "why_it_fits_ja": "ミクストメディアのイラスト制作にも関連しうる、国際版画展のオープンコール。"
   },
   {
     "title": "Book and Sons",
@@ -17051,12 +17109,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "第113回日本水彩展",
-    "one_sentence_zh": "在东京都美术馆举办的大型全国性水彩画展，征集水彩及粉彩作品。",
-    "why_it_fits_zh": "第113回日本水彩展与GEGYjiji以水彩为核心媒介、聚焦东京城市建筑瞬间的创作方向高度契合——这一国家级平台不仅认可她的日常水彩实践，更将她纳入日本成熟的绘画传统之中。作为她目前所在地东京的重要机构展览，入选将在她职业发展的早期阶段显著提升其在日本艺术界的知名度。",
+    "name_zh": "第113届日本水彩展",
+    "one_sentence_zh": "在东京都美术馆举办的全国性重要水彩展，接受水彩及粉彩作品参展。",
+    "why_it_fits_zh": "第113届日本水彩展与GEGYjiji的核心媒介及捕捉东京城市建筑静谧时刻的主题高度契合——这一国家级平台既能肯定她的日常水彩实践，也能将其纳入日本成熟的绘画传统之中。作为她目前所在城市的重要机构展览，入选将在其发展初期显著提升她在日本艺术界的知名度。",
     "name_ja": "第113回 日本水彩展",
-    "one_sentence_ja": "東京都美術館で開催される全国規模の水彩画展で、水彩・パステル作品を募集。",
-    "why_it_fits_ja": "第113回日本水彩展は、GEGYjiji の中心的な画材と、東京の静かな建築の瞬間を捉えるテーマに直接合致する。日本の確立された絵画の伝統の中に彼女の日常的な水彩実践を位置づける全国的な発表の場であり、拠点とする東京の主要な美術館への入選は、Tier 2 初期段階における国内での知名度向上に大きく貢献する。"
+    "one_sentence_ja": "東京都美術館で開催される全国規模の重要な水彩展で、水彩・パステル作品を募集している。",
+    "why_it_fits_ja": "第113回日本水彩展は、GEGYjijiの中心的な画材と、東京の静謐な建築的瞬間を捉えるテーマに直接合致する。日常的な水彩制作を認める全国的な発表の場として、日本の確立した絵画の伝統の中に彼女を位置づける機会となる。活動拠点である東京の主要な制度的会場での入選は、Tier 2初期段階における日本美術界での知名度を大きく高めるだろう。"
   },
   {
     "title": "Hayama Artist Residency Submission Manager - Submittable",
@@ -17769,11 +17827,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "BALLOND'ESSAI 下北泽",
-    "one_sentence_zh": "位于下北泽、附设展览项目的咖啡厅画廊，可通过官网表单提交展览提案，后方展览空间定期举办轮换展。",
-    "why_it_fits_zh": "下北泽具有画廊优先理念的咖啡空间，已确认可通过官网提交提案，受众注重设计感，规模亲密。联络渠道已确认畅通。",
+    "one_sentence_zh": "下北泽附设画廊的咖啡店，设有正式展览项目，可通过官网表单提交展览企划，后方画廊空间定期举办轮展。",
+    "why_it_fits_zh": "下北泽以画廊为核心的咖啡店，已确认可通过官网提交企划，受众具有设计意识，空间规模亲密，联络方式直接可用。",
     "name_ja": "BALLOND'ESSAI Shimokitazawa",
-    "one_sentence_ja": "下北沢のギャラリー併設コーヒースタンド。ウェブサイトのフォームから展示提案が可能で、奥のギャラリースペースで定期的に企画展を開催。",
-    "why_it_fits_ja": "ギャラリーを主体とした下北沢のカフェ。ウェブサイト経由での提案受付が確認済みで、デザイン意識の高い来客層と親密なスケールが特徴。コンタクト方法も明確。"
+    "one_sentence_ja": "下北沢のギャラリー併設カフェ。公式展示プログラムあり、ウェブサイトのフォームから企画提案が可能で、奥のギャラリースペースで定期的に展示を開催。",
+    "why_it_fits_ja": "下北沢のギャラリー主体のカフェで、ウェブサイト経由の企画提案を受け付けることが確認済み。デザイン意識の高い来客層、こぢんまりとした空間スケール。直接のコンタクト方法も確認済み。"
   },
   {
     "name": "OPEN SITE 11",
@@ -17937,11 +17995,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "OPEN SITE 11",
-    "one_sentence_zh": "面向东京艺术家主导空间TOKAS本乡的艺术项目提案公开征集。",
-    "why_it_fits_zh": "面向东京艺术家主导空间TOKAS本乡的艺术项目提案公开征集。",
+    "one_sentence_zh": "面向艺术家项目的企划提案公募，展览地点为东京艺术家自营空间TOKAS Hongo。",
+    "why_it_fits_zh": "面向艺术家项目的企划提案公募，展览地点为东京艺术家自营空间TOKAS Hongo。",
     "name_ja": "OPEN SITE 11",
-    "one_sentence_ja": "東京のアーティスト・ランスペース、TOKAS本郷でのアーティストプロジェクトを募集する提案公募。",
-    "why_it_fits_ja": "東京のアーティスト・ランスペース、TOKAS本郷でのアーティストプロジェクトを募集する提案公募。"
+    "one_sentence_ja": "東京のアーティスト主導型スペース・TOKAS本郷でのアーティストプロジェクトを対象としたプロポーザル公募。",
+    "why_it_fits_ja": "東京のアーティスト主導型スペース・TOKAS本郷でのアーティストプロジェクトを対象としたプロポーザル公募。"
   },
   {
     "title": "Shimokitazawa Arts",
@@ -18243,8 +18301,8 @@
     "one_sentence_zh": "以水为主题的国际艺术比赛，面向全球艺术家征集水彩作品，与水彩创作实践高度契合。",
     "why_it_fits_zh": "以水为主题的国际艺术比赛，面向全球艺术家征集水彩作品，与水彩创作实践高度契合。",
     "name_ja": "第九屆水主題國際評審藝術比賽",
-    "one_sentence_ja": "水をテーマにした国際アートコンペティションで、世界中のアーティストから水彩作品を募集しており、水彩制作と直接つながる機会です。",
-    "why_it_fits_ja": "水をテーマにした国際アートコンペティションで、世界中のアーティストから水彩作品を募集しており、水彩制作と直接つながる機会です。"
+    "one_sentence_ja": "世界中のアーティストから水彩作品を募集する水をテーマにした国際審査制アートコンペティションで、水彩制作と直接合致する。",
+    "why_it_fits_ja": "世界中のアーティストから水彩作品を募集する水をテーマにした国際コンペで、水彩制作と直接合致する。"
   },
   {
     "name": "2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動",
@@ -18365,12 +18423,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026年度 第1期 东京艺术文化创造发信助成 类别I［单年助成］艺术创造活动",
-    "one_sentence_zh": "东京单年艺术创作资助，支持展览、艺术项目及国际文化交流活动；GEGYjiji以东京为据点。",
-    "why_it_fits_zh": "东京单年艺术创作资助，支持展览、艺术项目及国际文化交流活动；GEGYjiji以东京为据点。",
+    "name_zh": "2026年度第1期东京艺术文化创造发信助成 类别I［单年助成］艺术创造活动",
+    "one_sentence_zh": "东京单年度艺术创作资助，支持展览、艺术项目及国际文化交流活动，GEGYjiji目前常驻东京。",
+    "why_it_fits_zh": "东京单年度艺术创作资助，支持展览、艺术项目及国际文化交流活动，GEGYjiji目前常驻东京。",
     "name_ja": "2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動",
-    "one_sentence_ja": "展覧会・アートプロジェクト・国際文化交流活動を支援する東京の単年芸術創造助成で、東京を拠点とするGEGYjijijに適しています。",
-    "why_it_fits_ja": "展覧会・アートプロジェクト・国際文化交流活動を支援する東京の単年芸術創造助成で、東京を拠点とするGEGYjijijに適しています。"
+    "one_sentence_ja": "展覧会・アートプロジェクト・国際文化交流活動を支援する東京拠点の単年助成で、東京在住のGEGYjijiに適している。",
+    "why_it_fits_ja": "展覧会・アートプロジェクト・国際文化交流活動を支援する東京拠点の単年助成。GEGYjijiは東京を拠点としている。"
   },
   {
     "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
@@ -19489,12 +19547,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "东京艺术文化创造发信助成（Tokyo Arts and Culture Creation and Dissemination Grant）",
-    "one_sentence_zh": "直接支持东京视觉艺术及多元创作领域个人艺术家；资助金额：补助对象经费的2/3以内或1/2以内（部分类别提供全额补助）。",
-    "why_it_fits_zh": "直接支持东京视觉艺术及多元创作领域的个人艺术家。",
-    "name_ja": "東京芸術文化創造発信助成 (Tokyo Arts and Culture Creation and Dissemination Grant)",
-    "one_sentence_ja": "視覚芸術をはじめ多様な創作分野の東京在住個人アーティストを直接支援する助成制度。助成額：対象経費の2/3以内、または1/2以内（一部10/10の全額補助枠あり）。",
-    "why_it_fits_ja": "視覚芸術をはじめ多様な創作分野の東京在住個人アーティストを直接支援します。"
+    "name_zh": "东京艺术文化创造发信助成",
+    "one_sentence_zh": "直接资助东京本地视觉艺术及多元创意领域的个人艺术家。资助金额：对象经费的2/3以内或1/2以内（部分类别提供全额补助）。",
+    "why_it_fits_zh": "直接支持在东京从事视觉艺术及多元创意领域的个人艺术家。",
+    "name_ja": "東京芸術文化創造発信助成",
+    "one_sentence_ja": "東京在住の個人アーティストを視覚芸術など多様な分野で直接支援する助成制度。助成額：対象経費の2/3以内または1/2以内（一部10/10の全額補助枠あり）。",
+    "why_it_fits_ja": "東京を拠点とする視覚芸術およびさまざまな創造分野の個人アーティストを直接支援する。"
   },
   {
     "name": "新進芸術家海外研修制度（Emerging Artists Overseas Training Program）",
@@ -19612,12 +19670,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "新进艺术家海外研修制度（Emerging Artists Overseas Training Program）",
-    "one_sentence_zh": "面向视觉艺术等领域新兴艺术家的政府资助海外研修项目，支持赴海外开展国际研究与职业发展。",
-    "why_it_fits_zh": "面向视觉艺术等领域新兴艺术家的政府资助海外研修项目，支持赴海外开展国际研究与职业发展。",
-    "name_ja": "新進芸術家海外研修制度（Emerging Artists Overseas Training Program）",
-    "one_sentence_ja": "視覚芸術など各分野の新進芸術家を対象とした政府助成の海外研修制度で、国際的な研究と専門的な成長を海外で支援します。",
-    "why_it_fits_ja": "視覚芸術など各分野の新進芸術家を対象とした政府助成の海外研修制度で、国際的な研究と専門的な成長を海外で支援します。"
+    "name_zh": "新晋艺术家海外研修制度",
+    "one_sentence_zh": "面向视觉艺术等领域新晋艺术家的政府资助海外研修项目，支持国际调研与海外专业发展。",
+    "why_it_fits_zh": "面向视觉艺术等领域新晋艺术家的政府资助海外研修项目，支持国际调研与海外专业发展。",
+    "name_ja": "新進芸術家海外研修制度",
+    "one_sentence_ja": "視覚芸術など多様な分野の新進アーティストを対象とした政府資金による海外研修プログラム。国際的な調査・研究と海外での専門的成長を支援する。",
+    "why_it_fits_ja": "視覚芸術等の分野における新進アーティストを対象とした政府資金による海外研修制度で、国際的な調査活動と専門的キャリア形成を海外で支援する。"
   },
   {
     "name": "Gallery Rocket Harajuku",
@@ -19801,12 +19859,12 @@
     "tier_adjustment": 2.5,
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 8.8 because source/verification strength is limited.",
-    "name_zh": "Gallery Rocket Harajuku",
-    "one_sentence_zh": "位于原宿的资深当代画廊，横跨插画与纯艺术领域，是纸上作品在高人流量创意街区的理想展览合作伙伴。",
-    "why_it_fits_zh": "Gallery Rocket的策展理念恰处插画与纯艺术的交汇点，与GEGYjiji都市水彩创作的定位完全吻合。原宿浓厚的创意氛围，有助于早期展览经历积累可见度。",
+    "name_zh": "Gallery Rocket 原宿",
+    "one_sentence_zh": "原宿历史悠久的当代画廊，横跨插画与纯艺术领域，是人流密集创意街区中纸上作品的理想展览合作伙伴。",
+    "why_it_fits_zh": "Gallery Rocket的策展理念恰好处于插画与纯艺术的交汇点，与GEGYjiji城市水彩创作的定位高度契合。原宿的创意氛围为早期展览积累提供了良好的曝光度。",
     "name_ja": "Gallery Rocket Harajuku",
-    "one_sentence_ja": "イラストとファインアートを橋渡しする原宿の老舗コンテンポラリーギャラリーで、人通りの多いクリエイティブなエリアでの紙作品展示に適した展覧会パートナーです。",
-    "why_it_fits_ja": "Gallery Rocketのキュレーション方針はイラストとファインアートの交差点に位置し、GEGYjijijの都市水彩作品と完全に一致します。原宿のクリエイティブな集積は、展覧会経歴の初期段階における認知度向上に貢献します。"
+    "one_sentence_ja": "イラストとファインアートの境界に位置する原宿の老舗コンテンポラリーギャラリー。人通りの多いクリエイティブエリアで紙上作品の展示パートナーとして定評がある。",
+    "why_it_fits_ja": "Gallery Rocketのキュレーション志向はイラストとファインアートが交差する地点に位置し、GEGYjijiの都市水彩表現と合致する。原宿のクリエイティブな集積は、展示キャリアの初期段階における高い露出度をもたらす。"
   },
   {
     "title": "NADiff a/p/a/r/t",
@@ -20392,11 +20450,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Brillia Art Award Wall 2026",
-    "one_sentence_zh": "面向新兴艺术家的东京艺术奖项，适合水彩与插画创作。",
-    "why_it_fits_zh": "面向新兴艺术家的东京艺术奖项，适合水彩与插画创作。",
+    "one_sentence_zh": "面向新兴艺术家的东京艺术奖项，适合水彩及插画作品参与。",
+    "why_it_fits_zh": "面向新兴艺术家的东京艺术奖项，适合水彩及插画作品参与。",
     "name_ja": "Brillia Art Award Wall 2026",
-    "one_sentence_ja": "新進アーティストを対象とした東京のアートアワードで、水彩・イラスト作品に適しています。",
-    "why_it_fits_ja": "新進アーティストを対象とした東京のアートアワードで、水彩・イラスト作品に適しています。"
+    "one_sentence_ja": "新進アーティストを対象とした東京の美術賞。水彩・イラスト作品に適した公募。",
+    "why_it_fits_ja": "新進アーティストを対象とした東京の美術賞で、水彩やイラスト作品との親和性が高い。"
   },
   {
     "title": "Belladonna Art Competition",
@@ -20724,11 +20782,11 @@
     ],
     "has_prerequisites": true,
     "name_zh": "ART FAIR TOKYO 21",
-    "one_sentence_zh": "设有公开征集的东京主要艺术博览会，适合寻求参展机会的艺术家。",
-    "why_it_fits_zh": "ART FAIR TOKYO的公开展位模式，让艺术家直接接触东京藏家与画廊，他们积极寻找专注都市观察、以传统媒介创作的画家——这正是GEGYjiji记录城市瞬息建筑景象的核心实践。作为一位在本土市场持续积累曝光度的日常创作者，参加东京主要艺博会能有效接触与其静谧内省都市风景美学高度契合的受众。",
+    "one_sentence_zh": "东京重要艺术博览会，设有公开征集展位的机制，适合寻求博览会参展机会的艺术家。",
+    "why_it_fits_zh": "ART FAIR TOKYO的开放展位模式，让艺术家能够直接接触东京藏家与画廊，这些受众本就青睐以传统媒介关注城市观察的画家——恰好契合GEGYjiji记录城市转瞬建筑时刻的核心实践。作为在本土市场持续积累知名度的日常创作者，参与东京重要博览会能够精准触达与其宁静内省城市风景美学志同道合的受众群体。",
     "name_ja": "ART FAIR TOKYO 21",
-    "one_sentence_ja": "出展者の公募を行う東京の主要アートフェアで、フェアへのブース参加機会を求めるアーティストに関連します。",
-    "why_it_fits_ja": "ART FAIR TOKYOのオープンブース方式は、都市観察を軸に伝統的な画材で制作する画家を積極的に求める東京のコレクターやギャラリーへの直接アクセスを提供します。これはGEGYjijijが都市の移ろいゆく建築的瞬間を記録するという核心的な実践と合致します。東京の地元市場で認知を積み上げている日常的な制作者として、主要フェアへの参加は静謐で内省的な都市風景という美学にすでに共鳴するオーディエンスへの戦略的な露出をもたらします。"
+    "one_sentence_ja": "出展者を公募する東京の主要アートフェア。フェアへのブース参加機会を求めるアーティストに適している。",
+    "why_it_fits_ja": "ART FAIR TOKYOのオープンブース形式は、伝統的な画材で都市観察を行う画家を求める東京のコレクターやギャラリーへの直接アクセスを可能にする。これはGEGYjijiが都市の刹那的な建築の瞬間を記録するという核心的な実践と合致する。地元市場で知名度を積み上げる日常的な制作者として、主要フェアへの参加はその静謐で内省的な都市風景の美学と共鳴するオーディエンスへの戦略的な露出をもたらす。"
   },
   {
     "title": "3331 Arts Chiyoda",
@@ -21052,7 +21110,10 @@
     "name": "Gallery IRO",
     "rumor_mill_sentiment": "no_data",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "IRO画廊",
+    "one_sentence_zh": "吉祥寺画廊，商业模式不明确——可能为租赁型或混合型——在接触前需进一步调查。",
+    "why_it_fits_zh": "东京的地理位置符合日本市场定位，但商业模式的不确定性存在投资方向错位的风险。"
   },
   {
     "title": "Gallery HANA Shimokitazawa",
@@ -21318,7 +21379,13 @@
     "rumor_mill_sentiment": "no_data",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "Applied Arts 2026 插画奖",
+    "one_sentence_zh": "国际插画奖项，接受2025年1月至2026年1月间完成的单件作品、系列作品及动画作品投稿。",
+    "why_it_fits_zh": "国际插画奖项，接受2025年1月至2026年1月间完成的单件作品、系列作品及动画作品投稿。",
+    "name_ja": "Applied Arts 2026 Illustration Awards",
+    "one_sentence_ja": "2025年1月から2026年1月の間に制作された単品・シリーズ・アニメーション作品を受け付ける国際イラストレーション賞。",
+    "why_it_fits_ja": "2025年1月〜2026年1月に制作された単品・シリーズ・アニメーション作品を対象とした国際イラストレーション賞。"
   },
   {
     "title": "Offprint",
@@ -21535,7 +21602,23 @@
     "prerequisites": [
       "publication_history"
     ],
-    "has_prerequisites": true
+    "has_prerequisites": true,
+    "name_zh": "Offprint",
+    "one_sentence_zh": "聚焦独立、实验性及艺术家主导出版的国际艺术出版博览会。",
+    "why_it_fits_zh": "Offprint以艺术家主导出版为核心，与GEGYjiji日常水彩创作及城市环境的氛围性记录高度契合——她那批静谧的建筑作品天然适合转化为亲密的印刷品。博览会对实验性出版的重视，与她捕捉东京城市景观转瞬即逝之时刻的方式相呼应，使页面成为其观察性实践的延伸，而非次要媒介。",
+    "three_bullets_zh": [
+      "与艺术家书籍及独立出版契合度强。",
+      "在东京本地机会之外，具有国际认可度。",
+      "建议先完成明确的出版物再参与，效果更佳。"
+    ],
+    "name_ja": "Offprint",
+    "one_sentence_ja": "独立・実験的・アーティスト主導の出版に特化した国際アート出版フェア。",
+    "why_it_fits_ja": "Offprintのアーティスト主導出版への着目は、GEGYjijiの日常的な水彩実践と都市環境の空気感を記録するアプローチと合致する。静謐な建築作品群は親密な印刷物へと自然に転換できる。実験的な出版の精神は、東京の都市景観の刹那を捉える彼女のやり方とも共鳴しており、ページは二次的なフォーマットではなく観察実践の延長となる。",
+    "three_bullets_ja": [
+      "アーティストブックや独立出版との親和性が高い。",
+      "東京の地域的な機会を超えた国際的な信頼性がある。",
+      "明確な出版物を制作してから参加するとより効果的。"
+    ]
   },
   {
     "title": "BankART1929",
@@ -21683,7 +21766,23 @@
     "name": "BankART1929",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "BankART1929",
+    "one_sentence_zh": "备受尊重的横滨替代艺术空间，以历史建筑为核心，但线上信息有限，评估难度较大。",
+    "why_it_fits_zh": "其通过当代艺术保护历史城市空间的理念，与您的文化记录创作方式高度契合；横滨毗邻东京，地缘优势突出。",
+    "three_bullets_zh": [
+      "自1929年起在日本另类艺术圈积累了深厚的机构公信力",
+      "使命聚焦城市再生与工业空间再利用——与您的建筑记录实践直接呼应",
+      "需深入调研以了解当前项目、申请流程，及是否向国际新兴艺术家开放机会"
+    ],
+    "name_ja": "BankART1929",
+    "one_sentence_ja": "歴史的建築を重視する横浜の信頼あるオルタナティブ・アートスペースだが、オンライン情報が乏しく評価が難しい。",
+    "why_it_fits_ja": "歴史的都市空間を現代アートで保存するという理念は、あなたの文化的ドキュメント手法と共鳴しており、横浜の東京近郊という立地も地域的に有利です。",
+    "three_bullets_ja": [
+      "1929年以来、日本のオルタナティブ・アートシーンで高い機関的信頼性を持つ",
+      "都市再生と産業空間の再活用を使命の中心に置いており、建築ドキュメント実践と直接的に一致する",
+      "現在のプログラム・申請プロセス・国際的な新進アーティストへの機会の有無を把握するには、十分な調査が必要"
+    ]
   },
   {
     "title": "Picaresque Gallery",
@@ -21842,7 +21941,23 @@
     "pre_gate_bucket": "research_needed",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "Picaresque Gallery",
+    "one_sentence_zh": "东京画廊兼艺术品店，商业与展览空间定位模糊，可获取的信息有限。",
+    "why_it_fits_zh": "地理位置契合且氛围亲切，但其商业导向可能会强化您极力避免的插画性／表面化印象。",
+    "three_bullets_zh": [
+      "画廊与商店的混合模式，可能模糊纯艺术呈现与商业产品之间的边界",
+      "东京选址符合地域需求，但\"平易近人的艺术品生态\"的定位暗示表面化的商业取向",
+      "关于投稿流程、费用、展览条款及策展标准的信息均不充分"
+    ],
+    "name_ja": "Picaresque Gallery",
+    "one_sentence_ja": "アートグッズに特化した東京のギャラリー兼ショップで、商業空間と展示空間の位置づけが曖昧で情報も限られている。",
+    "why_it_fits_ja": "地理的な一致と親しみやすい雰囲気は魅力だが、商業的な枠組みがイラスト的・表面的という印象を強めるリスクがある。",
+    "three_bullets_ja": [
+      "ギャラリー兼ショップというハイブリッドモデルは、ファインアートの提示と商業的な商品展開の境界を曖昧にしかねない",
+      "東京という立地は地域的関心と合致するが、「親しみやすいアートグッズのエコシステム」という表現は表面的・商業的志向を示唆する",
+      "応募プロセス・費用・展示条件・キュレーション基準についての情報が不十分"
+    ]
   },
   {
     "name": "芸術活動への助成 (Arts Activity Grant)",
@@ -21972,7 +22087,13 @@
     "career_tier": 3,
     "tier_adjustment": -0.5,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "芸術活動への助成（艺术活动资助）",
+    "one_sentence_zh": "日本财团资助视觉艺术展览（含绘画），水彩及插画展览作品均符合申请资格。",
+    "why_it_fits_zh": "日本财团资助视觉艺术展览（含绘画），水彩及插画展览作品均符合申请资格。",
+    "name_ja": "芸術活動への助成",
+    "one_sentence_ja": "絵画を含む視覚芸術の展覧会を支援する日本の財団助成金で、展覧会における水彩・イラスト作品も対象となる。",
+    "why_it_fits_ja": "絵画を含む視覚芸術の展覧会を支援する日本の財団助成金で、展覧会における水彩・イラスト作品も対象となる。"
   },
   {
     "title": "ZINEイベント",
@@ -22183,6 +22304,24 @@
     "painting_gate_status": "promoted",
     "painting_gate_hits": [
       "watercolor"
+    ],
+    "name_zh": "ZINE活动",
+    "one_sentence_zh": "ZINE活动非常适合安静的纸上作品、小批量印制、氛围营造与视觉叙事。",
+    "why_it_fits_zh": "ZINE活动专注于小批量印刷品与视觉序列，与GEGYjiji日常水彩创作自然转化为连贯系列的方式高度契合——使她安静的建筑观察与氛围瞬间得以在页面间舒展，而非作为孤立的单幅作品呈现。ZINE格式也贴合她的创作方式：亲密、未经过度打磨的水彩，通过重复与空间编排积累起强大的整体感，而非追求单幅作品的宏大表达。",
+    "three_bullets_zh": [
+      "契合度评分：87。",
+      "可操作性评分：63。",
+      "风险评分：25。",
+      "风险：申请途径可能不明确；截止日期需手动确认。"
+    ],
+    "name_ja": "ZINEイベント",
+    "one_sentence_ja": "ZINEイベントは、静かな紙上作品・小部数・雰囲気・視覚的な連続性に適している。",
+    "why_it_fits_ja": "ZINEイベントが小部数の印刷物と視覚的な連続性に重点を置いていることは、GEGYjijiの毎日の水彩制作が自然と一貫したシリーズへと変換される方法と完璧に合致しています。孤立した作品としてではなく、ページをまたいで静かな建築観察と雰囲気の瞬間が展開されます。ZINEの形式は彼女の制作方法にも合っています。繰り返しと空間的配置によって累積的な力を発揮する、親密で磨きすぎていない水彩は、単独の強烈な表現よりもこの形式に向いています。",
+    "three_bullets_ja": [
+      "適合スコア：87。",
+      "実行可能性スコア：63。",
+      "リスクスコア：25。",
+      "リスク：応募経路が不明確な可能性がある。締め切りは手動で確認が必要。"
     ]
   },
   {
@@ -22330,7 +22469,13 @@
     "contact_email_verified": "info@caacarts.org",
     "submission_process_notes": "Submit via email to info@caacarts.org with: PDF portfolio (5MB max), website link, CV/Resume, artist statement, bio (~150 words), and optional supporting materials. Payment via Zelle or PayPal. Rolling deadline. Selected artists exhibit in two-week shows during 2026.",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "Gallery 456 展览公开征集 2026",
+    "one_sentence_zh": "面向当代艺术家的公开征集，强调中国及亚裔文化背景的作品，接受水彩在内的多种媒介。",
+    "why_it_fits_zh": "面向当代艺术家的公开征集，强调中国及亚裔文化背景的作品，接受水彩在内的多种媒介。",
+    "name_ja": "Gallery 456 Exhibition Open Call 2026",
+    "one_sentence_ja": "中国系・アジア系のルーツを持つ作品を重視する現代アーティスト向けのオープンコールで、水彩を含む複数の媒体を受け付ける。",
+    "why_it_fits_ja": "中国系・アジア系のルーツを持つ作品を重視する現代アーティスト向けのオープンコールで、水彩を含む複数の媒体を受け付ける。"
   },
   {
     "name": "2026春季二科展「NIKA nika/S20号」コンクール",
@@ -22458,7 +22603,13 @@
     "rumor_mill_sentiment": "positive",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "2026春季二科展「NIKA nika/S20号」比赛",
+    "one_sentence_zh": "成熟的公开征集赛事，接受水彩、粉彩、丙烯及彩色铅笔等多种媒介与格式的作品。",
+    "why_it_fits_zh": "成熟的公开征集赛事，接受水彩、粉彩、丙烯及彩色铅笔等多种媒介与格式的作品。",
+    "name_ja": "2026春季二科展「NIKA nika/S20号」コンクール",
+    "one_sentence_ja": "水彩、パステル、アクリル、色鉛筆など複数の形式・画材を受け付ける、実績あるオープンコール。",
+    "why_it_fits_ja": "水彩、パステル、アクリル、色鉛筆など複数の形式・画材を受け付ける、実績あるオープンコール。"
   },
   {
     "name": "第23届「跨越国界之美2026」国际公募展",
@@ -22611,11 +22762,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "第23届「跨越国界之美2026」国际公募展",
-    "one_sentence_zh": "在东京国立新美术馆举办的国际水墨画公募展，适合水彩及插画艺术家参与。",
-    "why_it_fits_zh": "在东京国立新美术馆举办的国际水墨画公募展，适合水彩及插画艺术家参与。",
-    "name_ja": "第23回「国境を越えた美2026」国際公募展",
-    "one_sentence_ja": "東京・国立新美術館で開催される国際水墨画公募展。水彩・イラスト作家に関連性が高い。",
-    "why_it_fits_ja": "東京・国立新美術館で開催される国際水墨画公募展。水彩・イラスト作家に関連性が高い。"
+    "one_sentence_zh": "在东京国立新美术馆举办的国际水墨画公募展，适合水彩与插画艺术家参与。",
+    "why_it_fits_zh": "在东京国立新美术馆举办的国际水墨画公募展，适合水彩与插画艺术家参与。",
+    "name_ja": "第23届「跨越国界之美2026」国際公募展",
+    "one_sentence_ja": "東京の国立新美術館で開催される国際水墨画の公募展で、水彩・イラストレーション作家に関連性が高い。",
+    "why_it_fits_ja": "東京の国立新美術館で開催される国際水墨画の公募展で、水彩・イラストレーション作家に関連性が高い。"
   },
   {
     "title": "Open calls - Online Database of Artist in Residence Programs in Japan",
@@ -22882,11 +23033,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "IlloBoom! 2026 第三届插画巅峰赛",
-    "one_sentence_zh": "面向风格多元的职业插画家的国际插画竞赛。",
-    "why_it_fits_zh": "面向风格多元的职业插画家的国际插画竞赛。",
-    "name_ja": "IlloBoom! 2026 第3回插畫巔峰賽",
-    "one_sentence_ja": "多様なクリエイティブスタイルを持つプロの作家を対象とした国際イラストコンペティション。",
-    "why_it_fits_ja": "多様なクリエイティブスタイルを持つプロの作家を対象とした国際イラストコンペティション。"
+    "one_sentence_zh": "面向专业艺术家的国际插画大赛，欢迎多元创作风格。",
+    "why_it_fits_zh": "面向专业艺术家的国际插画大赛，欢迎多元创作风格。",
+    "name_ja": "IlloBoom! 2026 第三屆插畫巔峰賽",
+    "one_sentence_ja": "多様なクリエイティブスタイルを持つプロのアーティストを求める国際イラストレーションコンペティション。",
+    "why_it_fits_ja": "多様なクリエイティブスタイルを持つプロのアーティストを求める国際イラストレーションコンペティション。"
   },
   {
     "name": "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award",
@@ -23004,11 +23155,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "2026 ART CAPITAL 巴黎大皇宫国际青年学术奖",
-    "one_sentence_zh": "面向青年艺术家、涵盖学院派类别的国际艺术竞赛。",
-    "why_it_fits_zh": "面向青年艺术家、涵盖学院派类别的国际艺术竞赛。",
-    "name_ja": "2026 ART CAPITAL パリ・グラン・パレ国際ユース・アカデミック賞",
-    "one_sentence_ja": "学術部門における若手アーティストを表彰する国際アートコンペティション。",
-    "why_it_fits_ja": "学術部門における若手アーティストを表彰する国際アートコンペティション。"
+    "one_sentence_zh": "面向青年艺术家的国际学术类艺术竞赛奖项。",
+    "why_it_fits_zh": "面向青年艺术家的国际学术类艺术竞赛奖项。",
+    "name_ja": "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award",
+    "one_sentence_ja": "若手アーティストを対象とした学術部門の国際アートコンペティション。",
+    "why_it_fits_ja": "若手アーティストを対象とした学術部門の国際アートコンペティション。"
   },
   {
     "title": "AAA Gallery Yokohama",
@@ -23184,11 +23335,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "AAA Gallery 横滨",
-    "one_sentence_zh": "AAA Gallery横滨是横滨一处专注于水彩及纸上作品研究的画廊公募来源。",
-    "why_it_fits_zh": "AAA Gallery横滨专注于纸上作品研究，与GEGYjiji的水彩创作及日常观察方法论高度契合，提供了一个真正理解其媒介特殊性的展示空间。她对东京城市环境与瞬息建筑时刻的记录，与这间将水彩视为严肃研究性实践的画廊理念深度共鸣。",
-    "name_ja": "AAA Gallery 横浜",
-    "one_sentence_ja": "横浜にある水彩・紙作品リサーチに特化したギャラリーの公募情報源。",
-    "why_it_fits_ja": "AAA Gallery横浜の紙作品リサーチへの注力は、GEGYjijiの水彩制作と日常的観察手法に直接合致しており、彼女のメディウムを二次的なものとして扱わず本質的に理解するギャラリーを提供する。東京の都市環境や束の間の建築的瞬間を記録する彼女の作品は、水彩を本格的な研究的実践として探求するこのギャラリーと深く共鳴するだろう。"
+    "one_sentence_zh": "AAA Gallery横滨是位于横滨的画廊公开征集渠道，专注于水彩及纸上作品研究。",
+    "why_it_fits_zh": "AAA Gallery横滨专注于纸上作品研究，与GEGYjiji的水彩实践及日常观察方法论高度契合，该画廊将水彩作为严肃的研究性媒介对待，而非次要形式。她对东京城市环境与转瞬即逝的建筑瞬间的记录，将与这一致力于探索水彩深度的画廊产生共鸣。",
+    "name_ja": "AAA Gallery Yokohama",
+    "one_sentence_ja": "AAA Gallery Yokohamaは、水彩・紙作品の研究に特化した横浜のオープンコール公募ギャラリー。",
+    "why_it_fits_ja": "AAA Gallery Yokohamaの紙作品研究へのフォーカスは、GEGYjijiの水彩実践と日常観察の方法論に直接合致しており、水彩を副次的な媒体ではなく真摯な研究実践として捉えるギャラリーである。東京の都市環境や刹那的な建築的瞬間を記録する彼女の作品は、水彩の深みを追求するこのギャラリーと強く共鳴するだろう。"
   },
   {
     "name": "2026 Chinese New Year Celebration Art Show",
@@ -23332,12 +23483,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026年农历新年庆典艺术展",
-    "one_sentence_zh": "OCAA举办的季节性文化艺术展，展示书法与绘画，适合水彩艺术家参与。",
-    "why_it_fits_zh": "OCAA举办的季节性文化艺术展，展示书法与绘画，适合水彩艺术家参与。",
-    "name_ja": "2026年中国旧正月記念アートショー",
-    "one_sentence_ja": "OCAA主催の季節文化アート展。書道・絵画を特集し、水彩作家に適している。",
-    "why_it_fits_ja": "OCAAmain催の季節文化アート展。書道・絵画を特集し、水彩作家に適している。"
+    "name_zh": "2026年中国新年艺术展",
+    "one_sentence_zh": "OCAA举办的季节性文化艺术展，涵盖书法与绘画，适合水彩艺术家参与。",
+    "why_it_fits_zh": "OCAA举办的季节性文化艺术展，涵盖书法与绘画，适合水彩艺术家参与。",
+    "name_ja": "2026 Chinese New Year Celebration Art Show",
+    "one_sentence_ja": "OCAA主催の季節文化アート展。書道・絵画を中心に水彩アーティストにも適した公募。",
+    "why_it_fits_ja": "OCAAが主催する季節文化アート展で、書道や絵画を特集し、水彩アーティストにも適した内容。"
   },
   {
     "name": "Ishibashi Foundation / The Japan Foundation Fellowship for Research on Japanese Art",
@@ -23457,12 +23608,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "石桥财团／日本国际交流基金会 日本美术研究奖学金",
-    "one_sentence_zh": "日本国际交流基金会面向视觉艺术专业人士的奖学金，适合在东京研究日本艺术传统的艺术家。",
-    "why_it_fits_zh": "日本国际交流基金会面向视觉艺术专业人士的奖学金，适合在东京研究日本艺术传统的艺术家。",
+    "name_zh": "石桥财团／国际交流基金 日本美术研究学者奖学金",
+    "one_sentence_zh": "国际交流基金面向视觉艺术专业人士的研究奖学金，对研究日本美术传统的东京艺术家尤为相关。",
+    "why_it_fits_zh": "国际交流基金面向视觉艺术专业人士的研究奖学金，对研究日本美术传统的东京艺术家尤为相关。",
     "name_ja": "石橋財団／国際交流基金 日本美術研究フェローシップ",
-    "one_sentence_ja": "国際交流基金による視覚芸術専門家向けフェローシップ。日本の芸術伝統を研究する東京在住作家に関連性が高い。",
-    "why_it_fits_ja": "国際交流基金による視覚芸術専門家向けフェローシップ。日本の芸術伝統を研究する東京在住作家に関連性が高い。"
+    "one_sentence_ja": "視覚芸術の専門家を支援する国際交流基金のフェローシップ。日本美術の伝統を研究する東京在住アーティストに関連性が高い。",
+    "why_it_fits_ja": "視覚芸術の専門家を支援する国際交流基金のフェローシップ。日本美術の伝統を研究する東京在住アーティストに関連性が高い。"
   },
   {
     "title": "Self Publish, Be Happy",
@@ -24153,7 +24304,23 @@
     "name": "SCAI The Bathhouse",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "SCAI The Bathhouse",
+    "one_sentence_zh": "SCAI The Bathhouse是东京一家代理知名国际当代艺术家的顶级画廊，目前远超可触及的职业发展阶段。",
+    "why_it_fits_zh": "画廊位于东京且聚焦当代亚洲艺术家，与你的兴趣方向吻合，但极高的准入门槛使其更适合作为5至10年后的长远目标，而非当前机会。",
+    "three_bullets_zh": [
+      "代理李禹焕、Anish Kapoor、Julian Opie等蓝筹艺术家，阵容均为重量级机构名称",
+      "无公开投递流程，入选需具备完善的展览履历与藏家基础",
+      "以调研为目的参观（观察顶级画廊如何呈现当代亚洲艺术）比追求投递更具实际价值"
+    ],
+    "name_ja": "SCAI The Bathhouse",
+    "one_sentence_ja": "SCAI The Bathhouseは、著名な国際現代アーティストを擁する東京の一流ギャラリーで、現時点ではキャリアレベル的に到達困難な存在。",
+    "why_it_fits_ja": "東京というロケーションと現代アジア人アーティストへのフォーカスはあなたの関心と合致するが、参入障壁の高さから、現在の機会というより5〜10年後を見据えた長期目標として捉えるべき。",
+    "three_bullets_ja": [
+      "李禹煥、Anish Kapoor、Julian Opieらブルーチップアーティストを擁する、主要機関レベルのロースター",
+      "オープン応募なし。代理契約には確立した展覧会履歴とコレクター基盤が必要",
+      "応募追求より、トップギャラリーが現代アジア作品をいかに提示するかを学ぶリサーチ訪問の方が現時点では有益"
+    ]
   },
   {
     "title": "TAV Gallery",
@@ -24276,7 +24443,23 @@
     "rumor_mill_sentiment": "no_data",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "TAV Gallery",
+    "one_sentence_zh": "东京当代画廊，关于其展览计划、投递流程及费用结构的可获取信息极少。",
+    "why_it_fits_zh": "东京地理位置与你对日本及亚洲建筑题材的兴趣相符，但契合度完全取决于尚未获取的信息。",
+    "three_bullets_zh": [
+      "地处东京具有地理优势，但画廊的当代定位与艺术家阵容尚不明确",
+      "无明确的投递流程或时间节点，需主动进行冷联络",
+      "未经调查无法评估费用、代理模式或展览质量"
+    ],
+    "name_ja": "TAV Gallery",
+    "one_sentence_ja": "プログラム内容・応募プロセス・料金体系に関する情報がほとんど確認できない東京の現代ギャラリー。",
+    "why_it_fits_ja": "東京というロケーションは日本への関心やアジア建築の主題と合致するが、適合性は現時点で入手できない情報に完全に依存している。",
+    "three_bullets_ja": [
+      "東京というロケーションの優位性はあるが、ギャラリーの現代的方向性やアーティストのロースターは不明",
+      "明確な応募プロセスやスケジュールがなく、直接のコールドアウトリーチが必要",
+      "調査なしでは費用・代理モデル・展示クオリティの評価不可"
+    ]
   },
   {
     "title": "VACANT",
@@ -24401,7 +24584,23 @@
     "rumor_mill_sentiment": "positive",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "VACANT",
+    "one_sentence_zh": "VACANT是东京一处活动/画廊/快闪空间，无可见的艺术家申请流程或展览计划信息。",
+    "why_it_fits_zh": "东京地理位置理论上与亚太地区方向相符，但缺乏可见的展览计划使实际契合度无从评估。",
+    "three_bullets_zh": [
+      "网站存在但未显示公开征集、展览日程或艺术家项目详情",
+      "活动空间的属性定位表明其为商业场地租用，而非策展性艺术展览",
+      "需主动冷联络以确认是否存在艺术家合作机会，回应率与契合度均不明朗"
+    ],
+    "name_ja": "VACANT",
+    "one_sentence_ja": "VACANTはアーティスト応募プロセスやプログラム情報が公開されていない、東京のイベント／ギャラリー／ポップアップスペース。",
+    "why_it_fits_ja": "東京というロケーションは理論上アジア太平洋への関心と合致するが、プログラムの詳細が見えないため実際の適合性は判断不能。",
+    "three_bullets_ja": [
+      "ウェブサイトは存在するが、公募・展覧会スケジュール・アーティストプログラムの詳細は一切掲載なし",
+      "イベントスペースという分類から、キュレーションされた展示よりも商業的な会場利用が主体と推察",
+      "アーティスト向け機会の有無はコールドアウトリーチでしか確認できず、返答や適合性も不透明"
+    ]
   },
   {
     "title": "Gallery Conceal Shibuya",
@@ -24529,7 +24728,23 @@
     "rumor_mill_sentiment": "positive",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "Gallery Conceal Shibuya",
+    "one_sentence_zh": "Gallery Conceal Shibuya似乎是东京一处画廊租赁展览空间，展览模式不明，可核实的历史记录极少。",
+    "why_it_fits_zh": "不契合。这与你避开付费参展模式、防止定位稀释的战略目标相悖，且无法带来明确的机构认可或职业发展收益。",
+    "three_bullets_zh": [
+      "基于Wix建站及\"租赁/展览空间\"分类，表明其为付费参展模式",
+      "无明确的策展方向、投递流程或可见的艺术家阵容",
+      "涩谷的地理位置无法弥补其在画廊公信力与观众触达方面的不足"
+    ],
+    "name_ja": "Gallery Conceal Shibuya",
+    "one_sentence_ja": "Gallery Conceal Shibuyaは、展示モデルが不明確で実績も乏しい、東京のレンタル展示スペースと見られる。",
+    "why_it_fits_ja": "適合しない。ポジショニングを損なうペイ・トゥ・プレイ型会場を避けるという戦略目標に反しており、機関的・キャリア的なメリットも明確でない。",
+    "three_bullets_ja": [
+      "Wixベースのウェブサイトと「レンタル／展示スペース」という分類から、有料出展モデルが示唆される",
+      "明確なキュレーション方針・応募プロセス・アーティストロースターが確認できない",
+      "渋谷というロケーションは、ギャラリーとしての信頼性や集客力の欠如を補うものではない"
+    ]
   },
   {
     "title": "そぞろ書房",
@@ -24744,6 +24959,22 @@
     "painting_gate_status": "promoted",
     "painting_gate_hits": [
       "watercolor"
+    ],
+    "name_zh": "そぞろ書房",
+    "one_sentence_zh": "高円寺小型本地书店，适合构建紧凑的高円寺路线。",
+    "why_it_fits_zh": "そぞろ書房专注于独立出版与艺术家书籍，与GEGYjiji日常水彩创作高度契合——她对东京悄然消逝的城市瞬间的连载式记录，天然适合印刷出版形式，而这正是此类沉静型本地书店所培育的内容。在高円寺建立存在感，能在她的创作地点与读者发现她作品之间形成有机的反馈循环。",
+    "three_bullets_zh": [
+      "类型：独立书店。",
+      "地点：东京高円寺。",
+      "第一步：确认现有库存、营业时间，以及是否接受自出版作品。"
+    ],
+    "name_ja": "そぞろ書房",
+    "one_sentence_ja": "高円寺の小規模書店。コンパクトな高円寺ルート構築に有効。",
+    "why_it_fits_ja": "独立出版とアーティストブックに特化したそぞろ書房は、GEGYjijiの日常的な水彩制作と自然に合致する。東京の静かに消えゆく都市の瞬間を連載的に記録した作品は、こうした思索的な書店が育む印刷フォーマットと直結する。高円寺での存在感を築くことで、制作の場と作品発見の場の間に有機的なループが生まれる。",
+    "three_bullets_ja": [
+      "種別：独立系書店。",
+      "所在地：東京・高円寺。",
+      "最初のアクション：在庫状況・営業時間・自主出版物の取り扱い可否を確認する。"
     ]
   },
   {
@@ -24893,7 +25124,13 @@
     "rumor_mill_sentiment": "no_data",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "Blooming Stories 2026",
+    "one_sentence_zh": "以花卉为主题的摄影公开征集，2026年6月18日至29日，适合插画及观察性创作。",
+    "why_it_fits_zh": "以花卉为主题的摄影公开征集，2026年6月18日至29日，适合插画及观察性创作。",
+    "name_ja": "Blooming Stories 2026",
+    "one_sentence_ja": "2026年6月18〜29日開催の花をテーマにしたフォト公募。イラストや観察系作品にも関連あり。",
+    "why_it_fits_ja": "2026年6月18〜29日開催の花をテーマにしたフォト公募。イラストや観察系作品にも関連あり。"
   },
   {
     "name": "Gallery 191 Exhibition 2026",
@@ -25033,7 +25270,13 @@
     "rumor_mill_sentiment": "positive",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "Gallery 191 Exhibition 2026",
+    "one_sentence_zh": "面向多种媒介视觉艺术家的展览公开征集。",
+    "why_it_fits_zh": "面向多种媒介视觉艺术家的展览公开征集。",
+    "name_ja": "Gallery 191 Exhibition 2026",
+    "one_sentence_ja": "さまざまな媒体で制作する視覚芸術家を対象としたギャラリー展示の公募。",
+    "why_it_fits_ja": "さまざまな媒体で制作する視覚芸術家を対象としたギャラリー展示の公募。"
   },
   {
     "title": "TOKAS Open Call",
@@ -25159,7 +25402,25 @@
     "verification_score": 6,
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "TOKAS Open Call",
+    "one_sentence_zh": "TOKAS公开征集值得关注，现有作品集可直接转化为具体申请。",
+    "why_it_fits_zh": "TOKAS公开征集值得关注，现有作品集可直接转化为具体申请。",
+    "three_bullets_zh": [
+      "契合度评分：100。",
+      "可操作性评分：100。",
+      "风险评分：0。",
+      "风险：主要风险在于契合度与竞争激烈程度。"
+    ],
+    "name_ja": "TOKAS Open Call",
+    "one_sentence_ja": "TOKAS Open Callは、既存のポートフォリオを具体的な応募に転換できる点で注目に値する。",
+    "why_it_fits_ja": "TOKAS Open Callは、既存のポートフォリオを具体的な応募に転換できる点で注目に値する。",
+    "three_bullets_ja": [
+      "適合スコア：100。",
+      "実行可能性スコア：100。",
+      "リスクスコア：0。",
+      "リスク：主なリスクは適合性と競争率。"
+    ]
   },
   {
     "name": "[展覧会]秀彩会小品展2026",
@@ -25289,7 +25550,13 @@
     "rumor_mill_sentiment": "no_data",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "[展览会]秀彩会小品展2026",
+    "one_sentence_zh": "东京画廊（Aim Gallery、立川女性综合中心）举办的水彩小品及多媒介展览。",
+    "why_it_fits_zh": "东京画廊（Aim Gallery、立川女性综合中心）举办的水彩小品及多媒介展览。",
+    "name_ja": "[展覧会]秀彩会小品展2026",
+    "one_sentence_ja": "東京のギャラリー（Aim Gallery・立川女性総合センター）で開催される水彩小品およびその他媒体の展覧会。",
+    "why_it_fits_ja": "東京のギャラリー（Aim Gallery・立川女性総合センター）で開催される水彩小品およびその他媒体の展覧会。"
   },
   {
     "title": "OPA Gallery",
@@ -25441,7 +25708,13 @@
     "name": "OPA Gallery",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "OPA Gallery",
+    "one_sentence_zh": "OPA Gallery是东京一家专注于插画的画廊，适合水彩及纸上作品的调研。",
+    "why_it_fits_zh": "原生的纸上作品及插画画廊语境，媒介契合度优于单纯的水彩或艺术家书籍类机会。",
+    "name_ja": "OPA Gallery",
+    "one_sentence_ja": "OPA Galleryは東京のイラスト専門ギャラリーで、水彩・紙上作品のリサーチに有効。",
+    "why_it_fits_ja": "紙上作品・イラストのネイティブなギャラリー環境。水彩や作家本のみを扱う機会よりも媒体適合性が高い。"
   },
   {
     "title": "Open Call for the International Creator Residency Program 2026",
@@ -25560,7 +25833,25 @@
     "fees_source": "harvested_from_submission_page",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "Open Call for the International Creator Residency Program 2026",
+    "one_sentence_zh": "通过定向调研发现的驻留机会，若要求与契合度确认后值得申请。",
+    "why_it_fits_zh": "属于结构化机会类别，要求、截止日期、费用及申请途径通常可核实，具有潜在契合度。",
+    "three_bullets_zh": [
+      "来源类别：驻留项目。",
+      "搜索分组：驻留项目。",
+      "第一步：确认截止日期、驻留时长、费用、地点及视觉艺术家是否符合资格。",
+      "检测信号：截止日期信号、申请/表格信号。"
+    ],
+    "name_ja": "Open Call for the International Creator Residency Program 2026",
+    "one_sentence_ja": "調査で発見したレジデンス機会。要件と適合性が確認できれば応募を検討する価値あり。",
+    "why_it_fits_ja": "要件・締切・費用・申請方法を通常確認できる構造化された機会カテゴリに属するため、潜在的な適合性がある。",
+    "three_bullets_ja": [
+      "ソースカテゴリ：レジデンス。",
+      "検索グループ：レジデンス。",
+      "最初のアクション：締切・期間・費用・場所・視覚芸術家の応募資格を確認する。",
+      "検出シグナル：締切シグナル、申請／フォームシグナル。"
+    ]
   },
   {
     "title": "Zushi Art Gallery",
@@ -25686,7 +25977,23 @@
     "rumor_mill_sentiment": "no_data",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "Zushi Art Gallery",
+    "one_sentence_zh": "日本地方画廊，线上信息极少，展览模式不明——缺乏足够数据评估其合法性或契合度。",
+    "why_it_fits_zh": "地理位置符合对日本的关注，但其他方面均存疑。",
+    "three_bullets_zh": [
+      "网站存在，但未提供明确的投稿流程、展览历史或艺术家名单。",
+      "位于神奈川，或与日本方向契合，但画廊定位完全不明。",
+      "被标记为\"待审核\"及\"次要可见度\"——可能为商业、虚荣型或非正式空间。"
+    ],
+    "name_ja": "Zushi Art Gallery",
+    "one_sentence_ja": "オンライン情報がほぼなく展示モデルも不明な地方ギャラリー。正当性や適合性を判断するデータが不足している。",
+    "why_it_fits_ja": "地理的には日本への関心と合致するが、それ以外はすべて不明。",
+    "three_bullets_ja": [
+      "ウェブサイトは存在するが、応募プロセス・展示履歴・アーティストリストが一切不明。",
+      "神奈川という立地は日本への関心と合致する可能性があるが、ギャラリーのポジショニングは全く不明。",
+      "「要レビュー」「二次的な視認性」とマーク済み——商業・バニティ・非公式スペースの可能性あり。"
+    ]
   },
   {
     "title": "Printed Matter Art Book Fairs",
@@ -25888,7 +26195,23 @@
     "prerequisites": [
       "publication_history"
     ],
-    "has_prerequisites": true
+    "has_prerequisites": true,
+    "name_zh": "Printed Matter",
+    "one_sentence_zh": "国际顶级艺术书籍非营利机构及书展主办方，与艺术家书籍、独立杂志及印刷品高度相关。",
+    "why_it_fits_zh": "若其作品发展为书籍、独立杂志、日历或小批量出版物，该机构极具相关性；更适合作为长期目标而非近期申请对象。",
+    "three_bullets_zh": [
+      "顶级印刷品领域相关性。",
+      "艺术家书籍定位的强力长期目标。",
+      "申请前可能需要更成熟的出版物作品。"
+    ],
+    "name_ja": "Printed Matter",
+    "one_sentence_ja": "アーティストブック・zine・印刷物に強い関連性を持つ、国際的なアートブック専門の非営利団体兼フェア主催者。",
+    "why_it_fits_ja": "作品がブック、zine、カレンダー、少部数エディションへと発展した場合に非常に有効。当面のターゲットというより、長期的な目標として位置づけるべき先。",
+    "three_bullets_ja": [
+      "印刷物分野においてトップクラスの関連性。",
+      "アーティストブックとしてのポジショニングに向けた長期目標として有力。",
+      "申請前に、より完成度の高い出版物の制作が必要と思われる。"
+    ]
   },
   {
     "title": "日記屋 月日",
@@ -26098,6 +26421,22 @@
     "painting_gate_hits": [
       "watercolor",
       "works on paper"
+    ],
+    "name_zh": "日记屋 月日",
+    "one_sentence_zh": "以静谧写作与书籍文化为核心的独立书店，适合展示亲密感强的印刷作品。",
+    "why_it_fits_zh": "月日对内省性写作文化的关注，与GEGYjiji用每日水彩捕捉静谧建筑瞬间和城市细节的创作实践高度契合——她的纸上作品天然贴合书店读者所追求的冥想式、缓慢凝视的阅读体验。一本记录东京观察的独立杂志或印刷合集，将进一步深化这家书店围绕记忆与在场所构建的策展身份。",
+    "three_bullets_zh": [
+      "类型：独立书店。",
+      "地点：东京下北泽。",
+      "首要行动：调研该书店是否接受视觉类独立杂志，或其定位是否更偏向文字内容。"
+    ],
+    "name_ja": "日記屋 月日",
+    "one_sentence_ja": "静かな書き文化と本の文化を軸とする独立系書店。親密なプリント作品との相性が期待できる。",
+    "why_it_fits_ja": "月日が大切にする内省的な書き文化は、GEGYjijiが日々の水彩画で静かな建築の瞬間や都市の細部を捉える実践と深く共鳴する。紙の上に生まれる作品は、読者が求める瞑想的でゆっくりとした体験に自然と寄り添う。東京での観察を記録したzineや印刷作品集は、記憶と存在をテーマとする書店のキュレーション的アイデンティティをさらに豊かにするだろう。",
+    "three_bullets_ja": [
+      "形態：独立系書店。",
+      "所在地：東京・下北沢。",
+      "最初のアクション：ビジュアル系zineを取り扱っているか、それともテキスト中心の書店かをリサーチする。"
     ]
   },
   {
@@ -26220,11 +26559,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "2026年度 国际资助项目",
-    "one_sentence_zh": "支持东亚、东南亚及南亚跨文化交流与合作的国际资助项目，艺术家可提出涉及共同亚洲主题的创作方案。",
-    "why_it_fits_zh": "支持东亚、东南亚及南亚跨文化交流与合作的国际资助项目，艺术家可提出涉及共同亚洲主题的创作方案。",
+    "one_sentence_zh": "支持东亚、东南亚及南亚跨文化交流与合作的国际资助项目，艺术家可提案探讨亚洲共同议题的创作计划。",
+    "why_it_fits_zh": "支持东亚、东南亚及南亚跨文化交流与合作的国际资助项目，艺术家可提案探讨亚洲共同议题的创作计划。",
     "name_ja": "2026年度 国際助成プログラム",
-    "one_sentence_ja": "東アジア・東南アジア・南アジアにわたる異文化交流と協働を支援する国際助成金。共通するアジアのテーマを扱う創作プロジェクトを提案できる。",
-    "why_it_fits_ja": "東アジア・東南アジア・南アジアにわたる異文化交流と協働を支援する国際助成金。共通するアジアのテーマを扱う創作プロジェクトを提案できる。"
+    "one_sentence_ja": "東アジア・東南アジア・南アジアにまたがる異文化交流と協働を支援する国際助成プログラム。アジア共通のテーマを扱う創作プロジェクトを提案できる。",
+    "why_it_fits_ja": "東アジア・東南アジア・南アジアにまたがる異文化交流と協働を支援する国際助成プログラム。アジア共通のテーマを扱う創作プロジェクトを提案できる。"
   },
   {
     "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
@@ -26491,11 +26830,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "咲き誇れ桜よ",
-    "one_sentence_zh": "东京画廊公开征集插画及艺术作品，与该画廊展览方向相符。",
-    "why_it_fits_zh": "东京画廊公开征集插画及艺术作品，与该画廊展览方向相符。",
+    "one_sentence_zh": "画廊主办的公开征集展，接受插画及艺术作品投稿，与其东京画廊展览经历高度吻合。",
+    "why_it_fits_zh": "画廊主办的公开征集展，接受插画及艺术作品投稿，与其东京画廊展览经历高度吻合。",
     "name_ja": "咲き誇れ桜よ",
-    "one_sentence_ja": "東京ギャラリーでのイラストおよびアート作品を募集する公募展。",
-    "why_it_fits_ja": "東京ギャラリーでのイラストおよびアート作品を募集する公募展。"
+    "one_sentence_ja": "イラストやアート作品を募集するギャラリー公募展。東京での展示実績とのマッチングが高い。",
+    "why_it_fits_ja": "イラストやアート作品を募集するギャラリー公募展。東京での展示実績とのマッチングが高い。"
   },
   {
     "name": "マイ・ディア・テディ (My Dear Teddy)",
@@ -26622,12 +26961,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "マイ・ディア・テディ (My Dear Teddy)",
-    "one_sentence_zh": "2025年以主题公开征集插画与艺术作品的展览。",
-    "why_it_fits_zh": "2025年以主题公开征集插画与艺术作品的展览。",
-    "name_ja": "マイ・ディア・テディ",
-    "one_sentence_ja": "2025年のイラストおよびアート作品を募集するテーマ型公募展。",
-    "why_it_fits_ja": "2025年のイラストおよびアート作品を募集するテーマ型公募展。"
+    "name_zh": "マイ・ディア・テディ（My Dear Teddy）",
+    "one_sentence_zh": "2025年度以特定主题为核心的公开征集联展，接受插画及艺术作品投稿。",
+    "why_it_fits_zh": "2025年度以特定主题为核心的公开征集联展，接受插画及艺术作品投稿。",
+    "name_ja": "マイ・ディア・テディ (My Dear Teddy)",
+    "one_sentence_ja": "2025年のテーマ制公募展。イラストやアート作品を幅広く募集している。",
+    "why_it_fits_ja": "2025年のテーマ制公募展。イラストやアート作品を幅広く募集している。"
   },
   {
     "name": "ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)",
@@ -26753,12 +27092,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "ギャラリーニイク「219公募展」Vol.6",
-    "one_sentence_zh": "东京画廊公开征集，适合插画及混合媒材艺术家参与。",
-    "why_it_fits_zh": "东京画廊公开征集，适合插画及混合媒材艺术家参与。",
-    "name_ja": "ギャラリーニイク「219公募展」Vol.6",
-    "one_sentence_ja": "イラストやミクストメディア作家に適した、東京のギャラリーによる公募展。",
-    "why_it_fits_ja": "イラストやミクストメディア作家に適した、東京のギャラリーによる公募展。"
+    "name_zh": "ギャラリーニイク「219公募展」Vol.6（Gallery 219公开征集展 第6回）",
+    "one_sentence_zh": "东京画廊举办的公开征集展，适合插画及综合媒材艺术家参与。",
+    "why_it_fits_zh": "东京画廊举办的公开征集展，适合插画及综合媒材艺术家参与。",
+    "name_ja": "ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)",
+    "one_sentence_ja": "イラストやミクストメディアのアーティストに適した、東京ギャラリーの公募展。",
+    "why_it_fits_ja": "イラストやミクストメディアのアーティストに適した、東京ギャラリーの公募展。"
   },
   {
     "name": "ギャラリー自由展示",
@@ -26884,11 +27223,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "ギャラリー自由展示",
-    "one_sentence_zh": "东京画廊面向绘画及艺术作品的特别展出机会。",
-    "why_it_fits_zh": "东京画廊面向绘画及艺术作品的特别展出机会。",
+    "one_sentence_zh": "东京画廊提供的特别展览机会，欢迎绘画及艺术作品参与。",
+    "why_it_fits_zh": "东京画廊提供的特别展览机会，欢迎绘画及艺术作品参与。",
     "name_ja": "ギャラリー自由展示",
-    "one_sentence_ja": "絵画およびアート作品を歓迎する、東京ギャラリーでの特別展示の機会。",
-    "why_it_fits_ja": "絵画およびアート作品を歓迎する、東京ギャラリーでの特別展示の機会。"
+    "one_sentence_ja": "絵画やアート作品を歓迎する、東京ギャラリーの特別展示機会。",
+    "why_it_fits_ja": "絵画やアート作品を歓迎する、東京ギャラリーの特別展示機会。"
   },
   {
     "name": "PARK GALLERY 夏の公募企画展（3テーマ）",
@@ -27011,12 +27350,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "PARK GALLERY 夏の公募企画展（3テーマ）",
-    "one_sentence_zh": "以多个主题征集插画与艺术作品的夏季群展。",
-    "why_it_fits_zh": "以多个主题征集插画与艺术作品的夏季群展。",
+    "name_zh": "PARK GALLERY 夏季公募企划展（3个主题）",
+    "one_sentence_zh": "夏季联展，设有多个主题征集单元，接受插画及艺术作品投稿。",
+    "why_it_fits_zh": "夏季联展，设有多个主题征集单元，接受插画及艺术作品投稿。",
     "name_ja": "PARK GALLERY 夏の公募企画展（3テーマ）",
-    "one_sentence_ja": "複数のテーマでイラストおよびアート作品を募集する夏のグループ公募展。",
-    "why_it_fits_ja": "複数のテーマでイラストおよびアート作品を募集する夏のグループ公募展。"
+    "one_sentence_ja": "複数のテーマで作品を募集する夏のグループ公募展。イラスト・アート作品を幅広く受け付けている。",
+    "why_it_fits_ja": "複数のテーマで作品を募集する夏のグループ公募展。イラスト・アート作品を幅広く受け付けている。"
   },
   {
     "title": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
@@ -28017,11 +28356,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "金风车插画大赛2026",
-    "one_sentence_zh": "面向全球艺术家的插画大赛，欢迎视觉叙事与创意表达领域的参赛者。",
-    "why_it_fits_zh": "面向全球艺术家的插画大赛，欢迎视觉叙事与创意表达领域的参赛者。",
-    "name_ja": "金风车插画大赛2026",
-    "one_sentence_ja": "ビジュアルストーリーテリングと創造的表現に取り組む全世界のアーティストを対象としたイラストコンペ。",
-    "why_it_fits_ja": "ビジュアルストーリーテリングと創造的表現に取り組む全世界のアーティストを対象としたイラストコンペ。"
+    "one_sentence_zh": "面向全球艺术家的插画竞赛，聚焦视觉叙事与创意表达。",
+    "why_it_fits_zh": "面向全球艺术家的插画竞赛，聚焦视觉叙事与创意表达。",
+    "name_ja": "金風車イラストレーション大賞2026",
+    "one_sentence_ja": "視覚的ストーリーテリングと創造的表現に取り組む全世界のアーティストを対象としたイラストレーションコンペティション。",
+    "why_it_fits_ja": "視覚的ストーリーテリングと創造的表現に取り組む全世界のアーティストを対象としたイラストレーションコンペティション。"
   },
   {
     "title": "reload Shimokitazawa",
@@ -28995,10 +29334,10 @@
     "has_prerequisites": true,
     "name_zh": "Art Fair Tokyo 2026",
     "one_sentence_zh": "东京当代艺术博览会，汇聚新兴与成熟艺术家，适合寻求画廊合作的插画及水彩艺术家。",
-    "why_it_fits_zh": "Art Fair Tokyo 2026聚焦于从事插画与纸上作品创作的新兴艺术家，与GEGYjiji以日常水彩记录东京城市景观与建筑瞬间的实践高度契合。作为旅居日本的离散艺术家，她可借助博览会平台，与寻找以观察性实践记录地方与记忆的当代艺术家的画廊建立联系。",
+    "why_it_fits_zh": "Art Fair Tokyo 2026聚焦插画与纸本作品领域的新兴艺术家，与GEGYjiji以日常水彩记录东京都市景观与建筑瞬间的创作实践高度契合。作为旅居日本的离散艺术家，她可借助博览会平台与注重场所记忆与观察性实践的画廊建立联系。",
     "name_ja": "Art Fair Tokyo 2026",
-    "one_sentence_ja": "新進・著名アーティストが集う東京の現代アートフェア。画廊との関係構築を目指すイラストや水彩の作家に適している。",
-    "why_it_fits_ja": "Art Fair Tokyo 2026はイラストや紙上作品に取り組む新進アーティストに焦点を当てており、GEGYjiji が日々の水彩実践を通じて東京の変貌する都市景観や建築の瞬間を捉える活動と直接合致する。日本を拠点とするディアスポラ作家として、場所と記憶を観察的実践によって記録する現代作家を求めるギャラリーとの接点を広げることができる。"
+    "one_sentence_ja": "新進・著名アーティストが集う東京の現代アートフェア。画廊展示を目指すイラストレーターや水彩作家にも関連性が高い。",
+    "why_it_fits_ja": "Art Fair Tokyo 2026はイラストレーションや紙作品に取り組む新進アーティストに焦点を当てており、東京の変化する都市風景と建築的瞬間を日々の水彩で捉えるGEGYjijijの実践と直接合致する。日本在住のディアスポラアーティストとして、場所と記憶を観察的実践で記録する現代作家を求めるギャラリーとのつながりをこのフェアで築くことができる。"
   },
   {
     "title": "Open Calls for Artists",
@@ -29767,11 +30106,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "芸術活動への助成（艺术活动资助）",
-    "one_sentence_zh": "面向绘画、雕塑、水彩／纸上作品及影像展览的基金资助，支持个人及团体展示当代视觉艺术。",
-    "why_it_fits_zh": "芸術活動への助成明确支持纸上作品与水彩展览，与GEGYjiji以水彩捕捉东京城市瞬间的日常创作高度吻合。该基金聚焦于记录建筑与环境变迁的当代视觉艺术，与她持续以场地观察保存消逝城市景观的核心实践相一致。",
-    "name_ja": "芸術活動への助成",
-    "one_sentence_ja": "絵画・彫刻・水彩／紙上作品・映像の展覧会を対象とした財団助成金。個人・グループによる現代視覚芸術の発表を支援する。",
-    "why_it_fits_ja": "芸術活動への助成は紙上作品や水彩展覧会を明示的に支援しており、GEGYjiji が水彩で東京の刹那的な都市の瞬間を捉える日々の実践と直接合致する。建築・環境変化を記録する現代視覚芸術を重視する同財団の方針は、消えゆく都市景観を継続的・場所特定的な観察によって保存するという彼女の核心的実践と一致している。"
+    "one_sentence_zh": "面向绘画、雕塑、水彩/纸本及影像展览的基金资助，支持个人或团体从事当代视觉艺术创作与展览。",
+    "why_it_fits_zh": "芸術活動への助成明确支持纸本及水彩展览，与GEGYjiji以水彩捕捉东京瞬息都市景象的日常实践高度匹配。该基金关注记录建筑与环境变迁的当代视觉创作，与她通过持续、现场观察保存消逝城市景观的核心实践方向一致。",
+    "name_ja": "芸術活動への助成（Grants for Artistic Activities）",
+    "one_sentence_ja": "絵画・彫刻・水彩／紙作品・映像を含む芸術展示を対象とした財団助成金。現代視覚芸術を発表する個人・グループを支援する。",
+    "why_it_fits_ja": "芸術活動への助成は紙作品や水彩展示を明示的に支援しており、東京の刹那的な都市の風景を水彩で捉えるGEGYjijijの日々の実践に直接合致する。建築・環境の変化を記録する現代的視覚作品への注目は、一貫した現場観察によって消えゆく都市景観を保存する彼女の核心的な実践と方向性が一致している。"
   },
   {
     "title": "Creative Space Hayashi",
@@ -30329,11 +30668,11 @@
       "works on paper"
     ],
     "name_zh": "FACE Exhibition 2026",
-    "one_sentence_zh": "面向平面艺术作品的全国公开征集，欢迎多元艺术表达与感性。",
-    "why_it_fits_zh": "FACE Exhibition对多元平面艺术表达的包容，与GEGYjiji以日常水彩记录东京城市景观与短暂建筑瞬间的实践完美契合。作为在日本从事创作的中国离散艺术家，她所带来的独特感性——以纸上作品呈现对安静、消逝空间的细腻观察——正是这一全国性平台所寻求的。",
+    "one_sentence_zh": "面向全国征集二维艺术作品的公开展览，涵盖多元艺术表达与感性。",
+    "why_it_fits_zh": "FACE Exhibition对多元二维表达的包容性与GEGYjiji以日常水彩记录东京都市景观与建筑瞬间的创作实践高度契合。作为在日本创作的华人离散艺术家，她所带来的独特感性——以纸本作品呈现对静谧消逝空间的细腻观察——正是这一全国性平台所寻求的视角。",
     "name_ja": "FACE Exhibition 2026",
-    "one_sentence_ja": "多様な表現と感性を受け入れる、平面作品を対象とした全国公募展。",
-    "why_it_fits_ja": "FACE Exhibition が多様な平面表現を受け入れる姿勢は、GEGYjiji が日々の水彩実践で東京の移ろう都市風景や建築の瞬間を記録する活動と完全に合致する。日本の視覚文化の中で活動する中国系ディアスポラ作家として、静かに消えゆく空間を紙上作品へと昇華させる固有の感性は、この全国的プラットフォームが求めるものそのものである。"
+    "one_sentence_ja": "多様な芸術表現と感性を受け入れる、平面作品を対象とした全国公募展。",
+    "why_it_fits_ja": "FACE Exhibitionの多様な平面表現への包容性は、東京の変化する都市景観と刹那的な建築的瞬間を日々の水彩で記録するGEGYjijijの実践と完全に合致する。日本の視覚文化の中で活動する中国系ディアスポラアーティストとして、静かに消えゆく空間を紙作品で捉えた親密な観察——この全国的プラットフォームが求める固有の感性——をもたらすことができる。"
   },
   {
     "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
@@ -30696,12 +31035,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026年度 第2期 地域艺术文化活动支援助成",
-    "one_sentence_zh": "面向视觉艺术及水彩/纸上作品的地区艺术文化活动支援助成，支持当代视觉艺术家。",
-    "why_it_fits_zh": "面向视觉艺术及水彩/纸上作品的地区艺术文化活动支援助成，支持当代视觉艺术家。",
+    "name_zh": "2026年度 第2期 地域芸術文化活動応援助成",
+    "one_sentence_zh": "支持视觉艺术及水彩/纸本创作的地域艺术文化活动资助，面向当代视觉艺术家。",
+    "why_it_fits_zh": "支持视觉艺术及水彩/纸本创作的地域艺术文化活动资助，面向当代视觉艺术家。",
     "name_ja": "2026年度 第2期 地域芸術文化活動応援助成",
-    "one_sentence_ja": "視覚芸術・水彩／紙作品を対象とした地域芸術文化活動支援助成で、現代視覚芸術家を支援する。",
-    "why_it_fits_ja": "視覚芸術・水彩／紙作品を対象とした地域芸術文化活動支援助成で、現代視覚芸術家を支援する。"
+    "one_sentence_ja": "視覚芸術および水彩／紙作品を対象とした地域芸術文化活動支援助成。現代視覚アーティストを支援する。",
+    "why_it_fits_ja": "視覚芸術および水彩／紙作品を対象とした地域芸術文化活動支援助成。現代視覚アーティストを支援する。"
   },
   {
     "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
@@ -31655,11 +31994,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "HB Gallery",
-    "one_sentence_zh": "HB Gallery是东京一家专注于插画的画廊，是水彩/纸上作品研究的重要资源。",
-    "why_it_fits_zh": "HB Gallery专注于插画与纸上作品研究，与GEGYjiji以日常水彩记录东京静谧建筑空间的创作实践高度契合，其策展视角重视过程性观察而非单一媒介分类。画廊对城市题材插画性表达的专业定位，比单纯的水彩类场馆更适合她对消逝空间的连续性叙事创作。",
+    "one_sentence_zh": "HB Gallery是东京一家专注插画与纸本作品研究的插画画廊。",
+    "why_it_fits_zh": "HB Gallery专注于插画与纸本作品研究，与GEGYjiji以日常水彩记录东京建筑静谧瞬间的创作实践高度契合，提供了重视过程导向观察的策展语境，而非单一媒材的分类框架。画廊对城市主题插画手法的专业聚焦，相较于纯水彩场馆，更能承载她对消逝空间的序列性叙事创作。",
     "name_ja": "HB Gallery",
-    "one_sentence_ja": "HB Galleryは東京のイラストレーション専門ギャラリーで、水彩／紙作品のリサーチに有益なリソースである。",
-    "why_it_fits_ja": "HB Galleryのイラストレーションと紙作品研究への注力は、GEGYjijiが東京の静かな建築空間を日々の水彩で記録する実践と直接合致しており、単一媒介にとらわれないプロセス重視の観点を持つキュレーション文脈を提供する。都市を題材とした挿絵的アプローチへの専門性は、消えゆく空間を連続的・物語的に扱う彼女の作品に対し、水彩専門会場よりも強い親和性を持つ。"
+    "one_sentence_ja": "HB Galleryは、東京を拠点とする水彩／紙作品のリサーチに特化したイラストレーションギャラリー。",
+    "why_it_fits_ja": "HB Galleryのイラストレーションと紙作品研究への注力は、東京の静かな建築的瞬間を記録するGEGYjijijの日々の水彩実践と直接合致し、単一メディアの分類を超えてプロセス重視の観察を評価するキュレーションの文脈を提供する。都市的主題へのイラスト的アプローチを専門とするこのギャラリーは、消えゆく空間を連続的・物語的に扱う彼女の作品にとって、水彩専門会場よりも強い機関的適合性をもつ。"
   },
   {
     "title": "International Open Call",
@@ -32486,8 +32825,8 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "世界堂绘画展2026",
-    "one_sentence_zh": "以东京都美术馆为展览会场的绘画公开募集展。",
-    "why_it_fits_zh": "以东京都美术馆为展览会场的绘画公开募集展。",
+    "one_sentence_zh": "以东京都美术馆为展览场地的绘画公开征集展。",
+    "why_it_fits_zh": "以东京都美术馆为展览场地的绘画公开征集展。",
     "name_ja": "世界堂絵画展2026",
     "one_sentence_ja": "東京都美術館を会場とする絵画のオープンコール展。",
     "why_it_fits_ja": "東京都美術館を会場とする絵画のオープンコール展。"
@@ -32822,12 +33161,12 @@
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "「国际创作者驻村计划」",
-    "one_sentence_zh": "面向视觉艺术家、电影人、设计师及建筑师的2026年国际艺术家驻留项目。",
-    "why_it_fits_zh": "面向视觉艺术家、电影人、设计师及建筑师的2026年国际艺术家驻留项目。",
+    "name_zh": "「国際創作者駐村計畫」",
+    "one_sentence_zh": "面向视觉艺术家、电影人、设计师及建筑师的2026年度国际驻留项目。",
+    "why_it_fits_zh": "面向视觉艺术家、电影人、设计师及建筑师的2026年度国际驻留项目。",
     "name_ja": "「国際創作者駐村計畫」",
-    "one_sentence_ja": "視覚芸術家、映像作家、デザイナー、建築家を招く2026年の国際アーティスト・イン・レジデンスプログラム。",
-    "why_it_fits_ja": "視覚芸術家、映像作家、デザイナー、建築家を招く2026年の国際アーティスト・イン・レジデンスプログラム。"
+    "one_sentence_ja": "視覚芸術家、映像作家、デザイナー、建築家を招聘する2026年度の国際アーティスト・イン・レジデンスプログラム。",
+    "why_it_fits_ja": "視覚芸術家、映像作家、デザイナー、建築家を招聘する2026年度の国際アーティスト・イン・レジデンスプログラム。"
   },
   {
     "title": "Comitia",
@@ -33189,11 +33528,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "FACE展2026",
-    "one_sentence_zh": "在东京新宿SOMPO美术馆举办的当代绘画全国公募展（第14届），不限年龄与所属。",
-    "why_it_fits_zh": "在东京新宿SOMPO美术馆举办的当代绘画全国公募展（第14届），不限年龄与所属。",
+    "one_sentence_zh": "在东京新宿SOMPO美术馆举办的第14届全国当代绘画公开征集展，不限年龄与身份。",
+    "why_it_fits_zh": "在东京新宿SOMPO美术馆举办的第14届全国当代绘画公开征集展，不限年龄与身份。",
     "name_ja": "FACE展2026",
-    "one_sentence_ja": "東京・新宿のSOMPO美術館を会場とする現代絵画の全国公募展（第14回）で、年齢・所属不問。",
-    "why_it_fits_ja": "東京・新宿のSOMPO美術館を会場とする現代絵画の全国公募展（第14回）で、年齢・所属不問。"
+    "one_sentence_ja": "東京・新宿のSOMPO美術館で開催される第14回全国公募の現代絵画展。年齢・所属不問。",
+    "why_it_fits_ja": "東京・新宿のSOMPO美術館で開催される第14回全国公募の現代絵画展。年齢・所属不問。"
   },
   {
     "name": "オープンコール・プロジェクト",
@@ -33325,11 +33664,11 @@
     ],
     "has_prerequisites": true,
     "name_zh": "公开征集项目（オープンコール・プロジェクト）",
-    "one_sentence_zh": "面向当代艺术家的综合公开征集，自2015年持续举办并出版作品集，适合插画及视觉艺术投稿。",
-    "why_it_fits_zh": "面向当代艺术家的综合公开征集，自2015年持续举办并出版作品集，适合插画及视觉艺术投稿。",
+    "one_sentence_zh": "面向当代艺术家的综合公开征集，自2015年起持续运营，设有作品出版，适合插画及视觉艺术投稿。",
+    "why_it_fits_zh": "面向当代艺术家的综合公开征集，自2015年起持续运营，设有作品出版，适合插画及视觉艺术投稿。",
     "name_ja": "オープンコール・プロジェクト",
-    "one_sentence_ja": "2015年から継続する現代アーティスト向けの総合オープンコールで、作品集を刊行しており、イラストや視覚芸術の応募に適している。",
-    "why_it_fits_ja": "2015年から継続する現代アーティスト向けの総合オープンコールで、作品集を刊行しており、イラストや視覚芸術の応募に適している。"
+    "one_sentence_ja": "2015年から続く現代アーティスト向けの公募プロジェクト。作品掲載実績あり、イラストや視覚芸術の応募に適している。",
+    "why_it_fits_ja": "2015年から続く現代アーティスト向けの公募プロジェクト。作品掲載実績あり、イラストや視覚芸術の応募に適している。"
   },
   {
     "name": "芸術家海外研修制度（Artists' Overseas Training Program）",
@@ -33448,11 +33787,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "艺术家海外研修制度（Artists' Overseas Training Program）",
-    "one_sentence_zh": "面向艺术家与研究者的政府艺术研修助成，支持包括画家在内的视觉艺术家赴海外进行专业进修。",
-    "why_it_fits_zh": "面向艺术家与研究者的政府艺术研修助成，支持包括画家在内的视觉艺术家赴海外进行专业进修。",
+    "one_sentence_zh": "面向艺术家及研究人员的政府艺术培训资助，支持包括画家在内的视觉艺术家赴海外进行专业进修。",
+    "why_it_fits_zh": "面向艺术家及研究人员的政府艺术培训资助，支持包括画家在内的视觉艺术家赴海外进行专业进修。",
     "name_ja": "芸術家海外研修制度（Artists' Overseas Training Program）",
-    "one_sentence_ja": "芸術家・研究者を対象とした政府の芸術研修助成で、画家を含む視覚芸術家の海外専門研修を支援する。",
-    "why_it_fits_ja": "芸術家・研究者を対象とした政府の芸術研修助成で、画家を含む視覚芸術家の海外専門研修を支援する。"
+    "one_sentence_ja": "芸術家・研究者を対象とした政府の海外研修助成制度。画家を含む視覚芸術家の海外での専門的研鑽を支援する。",
+    "why_it_fits_ja": "芸術家・研究者を対象とした政府の海外研修助成制度。画家を含む視覚芸術家の海外での専門的研鑽を支援する。"
   },
   {
     "name": "2026 Global Grant Cycle - Fellowships and Grants (General)",
@@ -33573,12 +33912,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026全球助资周期——奖学金与助资（综合）",
-    "one_sentence_zh": "ACC欢迎提出文化交流活动方案的艺术家申请，为往来于亚洲与美国之间的视觉艺术家提供研究与深度交流机会。",
-    "why_it_fits_zh": "ACC欢迎提出文化交流活动方案的艺术家申请，为往来于亚洲与美国之间的视觉艺术家提供研究与深度交流机会。",
-    "name_ja": "2026 Global Grant Cycle - Fellowships and Grants (General)",
-    "one_sentence_ja": "ACCは文化交流活動を提案するアーティストの申請を歓迎し、アジアと米国を往来する視覚芸術家にリサーチおよび研修の機会を提供する。",
-    "why_it_fits_ja": "ACCは文化交流活動を提案するアーティストの申請を歓迎し、アジアと米国を往来する視覚芸術家にリサーチおよび研修の機会を提供する。"
+    "name_zh": "2026全球资助周期——奖学金与资助（综合类）",
+    "one_sentence_zh": "ACC欢迎提出文化交流活动方案的艺术家申请，支持在亚洲与美国之间开展创作的视觉艺术家进行研究与深度交流。",
+    "why_it_fits_zh": "ACC欢迎提出文化交流活动方案的艺术家申请，支持在亚洲与美国之间开展创作的视觉艺术家进行研究与深度交流。",
+    "name_ja": "2026 Global Grant Cycle - Fellowships and Grants（一般）",
+    "one_sentence_ja": "ACCは文化交流活動を提案するアーティストの応募を歓迎。アジアと米国を拠点に活動するビジュアルアーティストの調査・研修機会を支援する。",
+    "why_it_fits_ja": "ACCは文化交流活動を提案するアーティストの応募を歓迎。アジアと米国を拠点に活動するビジュアルアーティストの調査・研修機会を支援する。"
   },
   {
     "name": "新進芸術家海外研修制度における日本文化発信・普及事業（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）",
@@ -33698,12 +34037,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "新兴艺术家海外研修制度日本文化传播与推广事业",
-    "one_sentence_zh": "资助新兴艺术家赴海外开展研究与文化交流活动，涵盖旅行及活动经费。",
-    "why_it_fits_zh": "资助新兴艺术家赴海外开展研究与文化交流活动，涵盖旅行及活动经费。",
-    "name_ja": "新進芸術家海外研修制度における日本文化発信・普及事業",
-    "one_sentence_ja": "海外での研究・文化交流活動を行う新進芸術家に対し、渡航費および活動経費を支援する制度。",
-    "why_it_fits_ja": "海外での研究・文化交流活動を行う新進芸術家に対し、渡航費および活動経費を支援する制度。"
+    "name_zh": "新兴艺术家海外研修制度中的日本文化传播与推广事业（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）",
+    "one_sentence_zh": "资助新兴艺术家赴海外开展调研与活动，提供与文化交流相关的差旅及活动经费。",
+    "why_it_fits_zh": "资助新兴艺术家赴海外开展调研与活动，提供与文化交流相关的差旅及活动经费。",
+    "name_ja": "新進芸術家海外研修制度における日本文化発信・普及事業（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）",
+    "one_sentence_ja": "新進芸術家が海外で調査・活動を行うことを支援し、文化交流に関連する渡航費・活動費を助成する。",
+    "why_it_fits_ja": "新進芸術家が海外で調査・活動を行うことを支援し、文化交流に関連する渡航費・活動費を助成する。"
   },
   {
     "name": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
@@ -33860,12 +34199,12 @@
       "gallery_representation"
     ],
     "has_prerequisites": true,
-    "name_zh": "第十届温哥华艺术博览会 (Art Vancouver 2026)",
-    "one_sentence_zh": "温哥华艺术博览会第十届，汇聚加拿大及国际展商，呈现当代艺术与设计。",
-    "why_it_fits_zh": "温哥华艺术博览会第十届，汇聚加拿大及国际展商，呈现当代艺术与设计。",
+    "name_zh": "第10届温哥华艺术博览会（Art Vancouver 2026）",
+    "one_sentence_zh": "第十届温哥华艺术博览会，展示加拿大及国际参展商的当代艺术与设计。",
+    "why_it_fits_zh": "第十届温哥华艺术博览会，展示加拿大及国际参展商的当代艺术与设计。",
     "name_ja": "第10回バンクーバー・アート・フェア（Art Vancouver 2026）",
-    "one_sentence_ja": "カナダ国内外の出展者による現代アート＆デザインを紹介する、バンクーバー・アート・フェアの第10回開催。",
-    "why_it_fits_ja": "カナダ国内外の出展者による現代アート＆デザインを紹介する、バンクーバー・アート・フェアの第10回開催。"
+    "one_sentence_ja": "カナダおよび国際出展者による現代アートとデザインを紹介するArt Vancouverの第10回開催。",
+    "why_it_fits_ja": "カナダおよび国際出展者による現代アートとデザインを紹介するArt Vancouverの第10回開催。"
   },
   {
     "name": "TOKYO MIDTOWN AWARD 2026 アートコンペ",
@@ -33983,11 +34322,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "TOKYO MIDTOWN AWARD 2026 艺术竞赛",
-    "one_sentence_zh": "面向39岁以下艺术家的东京场域特定艺术奖项，提供制作补助金100万日元及大奖奖金100万日元。",
-    "why_it_fits_zh": "面向39岁以下艺术家的东京场域特定艺术奖项，提供制作补助金100万日元及大奖奖金100万日元。",
+    "one_sentence_zh": "东京举办的艺术奖项，为特定场域艺术作品提供制作补助金；申请者须39岁以下，与GEGYjiji年龄相符。奖项金额：制作补助金100万日元；大奖奖金100万日元。",
+    "why_it_fits_zh": "东京举办的艺术奖项，为特定场域艺术作品提供制作补助金；申请者须39岁以下，与GEGYjiji年龄相符。",
     "name_ja": "TOKYO MIDTOWN AWARD 2026 アートコンペ",
-    "one_sentence_ja": "39歳以下を対象とした東京のサイトスペシフィック・アート賞。制作補助金100万円およびグランプリ賞金100万円を提供。",
-    "why_it_fits_ja": "39歳以下を対象とした東京のサイトスペシフィック・アート賞。制作補助金100万円およびグランプリ賞金100万円を提供。"
+    "one_sentence_ja": "サイトスペシフィックな作品に制作補助金を提供する東京のアート賞。応募資格は39歳以下。制作補助金100万円、グランプリ賞金100万円。",
+    "why_it_fits_ja": "サイトスペシフィックな作品に制作補助金を提供する東京のアート賞。応募資格は39歳以下で、GEGYjijiの年齢に合致する。"
   },
   {
     "title": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...",
@@ -34548,12 +34887,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "国际创作者驻留项目 2027",
-    "one_sentence_zh": "为旅居东京的国际视觉艺术家提供为期三个月的全额资助驻留，含工作室空间与项目经费。",
-    "why_it_fits_zh": "为旅居东京的国际视觉艺术家提供为期三个月的全额资助驻留，含工作室空间与项目经费，与其所在地及创作方向高度契合。",
+    "name_zh": "国际创作者驻留项目2027",
+    "one_sentence_zh": "面向国际视觉艺术家的东京三个月全额资助驻留项目，提供工作室空间及项目经费，与其所在地及创作领域高度契合。资助内容：全额资助（含机票、住宿、工作室、日常生活支持及项目经费）。",
+    "why_it_fits_zh": "面向国际视觉艺术家的东京三个月全额资助驻留项目，提供工作室空间及项目经费，与其所在地及创作领域高度契合。",
     "name_ja": "International Creator Residency Program 2027",
-    "one_sentence_ja": "東京在住の国際的なビジュアルアーティストを対象とした3ヶ月間の全額支援レジデンシー。スタジオスペースとプロジェクト資金を提供。",
-    "why_it_fits_ja": "東京在住の国際的なビジュアルアーティストを対象とした3ヶ月間の全額支援レジデンシー（航空券・宿泊・スタジオ・生活支援・プロジェクト資金）で、活動地域と分野に直接合致。"
+    "one_sentence_ja": "国際的なビジュアルアーティストを対象とした東京での3ヶ月間の全額支援レジデンシー。スタジオスペースとプロジェクト資金を提供し、活動拠点・分野ともに直接合致する。助成内容：全額支援（航空券・宿泊・スタジオ・生活支援・プロジェクト資金）。",
+    "why_it_fits_ja": "国際的なビジュアルアーティストを対象とした東京での3ヶ月間の全額支援レジデンシー。スタジオスペースとプロジェクト資金を提供し、活動拠点・分野ともに直接合致する。"
   },
   {
     "title": "Communication Arts Illustration Competition",
@@ -34699,12 +35038,12 @@
     "site_http_code": 0,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "Communication Arts 插画竞赛",
-    "one_sentence_zh": "面向全球的插画竞赛，涵盖水彩及纸本作品类别。",
-    "why_it_fits_zh": "潜在的水彩／纸本作品展示平台，建议在推荐前进一步核实。",
+    "name_zh": "Communication Arts 插画大赛",
+    "one_sentence_zh": "Communication Arts 插画大赛是面向全球的插画类竞赛，适合水彩及纸本作品领域的研究与参考。",
+    "why_it_fits_zh": "潜在的水彩／纸本作品展示平台，建议在推荐前进行核实。",
     "name_ja": "Communication Arts Illustration Competition",
-    "one_sentence_ja": "水彩・紙作品を対象とするグローバルなイラストレーション公募。",
-    "why_it_fits_ja": "水彩・紙作品の発表候補として可能性があるが、推薦前に要確認。"
+    "one_sentence_ja": "Communication Arts Illustration Competitionは、水彩・紙作品分野を対象としたグローバルなイラストレーションコンペティションです。",
+    "why_it_fits_ja": "水彩・紙作品の発表に適した可能性のある場。推薦前に要確認。"
   },
   {
     "title": "Book Culture Club",
@@ -35050,11 +35389,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "亚洲文化艺术网络强化资助【WA2.0】",
-    "one_sentence_zh": "日本国际交流基金面向从事跨文化交流的国际艺术家提供的亚洲文化艺术网络建设资助。",
-    "why_it_fits_zh": "日本国际交流基金面向从事跨文化交流的国际艺术家提供的亚洲文化艺术网络建设资助。",
+    "one_sentence_zh": "日本国际交流基金会面向亚洲的文化艺术网络资助项目，支持从事跨文化交流的国际艺术家。",
+    "why_it_fits_zh": "日本国际交流基金会面向亚洲的文化艺术网络资助项目，支持从事跨文化交流的国际艺术家。",
     "name_ja": "アジア文化芸術ネットワーク強化助成【WA2.0】",
-    "one_sentence_ja": "国際文化交流に携わる国際的アーティストを支援する、国際交流基金のアジア文化芸術ネットワーク強化助成。",
-    "why_it_fits_ja": "国際文化交流に携わる国際的アーティストを支援する、国際交流基金のアジア文化芸術ネットワーク強化助成。"
+    "one_sentence_ja": "国際交流基金によるアジア向け文化芸術ネットワーク強化助成で、異文化交流に携わる国際的なアーティストを支援します。",
+    "why_it_fits_ja": "国際交流基金によるアジア向け文化芸術ネットワーク強化助成で、異文化交流に携わる国際的なアーティストを支援します。"
   },
   {
     "name": "アジア文化芸術フェローシップ【WA2.0】",
@@ -35174,12 +35513,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "亚洲文化艺术奖学金【WA2.0】",
-    "one_sentence_zh": "面向亚洲文化艺术从业者的奖学金项目，适合旅居东京的中国艺术家申请。",
-    "why_it_fits_zh": "面向亚洲文化艺术从业者的奖学金项目，适合旅居东京的中国艺术家申请。",
+    "name_zh": "亚洲文化艺术驻留奖学金【WA2.0】",
+    "one_sentence_zh": "面向亚洲文化艺术从业者的奖学金项目，适合在东京工作的中国籍艺术家。",
+    "why_it_fits_zh": "面向亚洲文化艺术从业者的奖学金项目，适合在东京工作的中国籍艺术家。",
     "name_ja": "アジア文化芸術フェローシップ【WA2.0】",
-    "one_sentence_ja": "アジアの文化芸術実践者を対象としたフェローシップ。東京を拠点とする中国人アーティストに適した機会。",
-    "why_it_fits_ja": "アジアの文化芸術実践者を対象としたフェローシップ。東京を拠点とする中国人アーティストに適した機会。"
+    "one_sentence_ja": "アジアの文化芸術実践者を対象としたフェローシッププログラムで、東京を拠点とする中国人アーティストに適しています。",
+    "why_it_fits_ja": "アジアの文化芸術実践者を対象としたフェローシッププログラムで、東京を拠点とする中国人アーティストに適しています。"
   },
   {
     "title": "torch press",
@@ -35873,12 +36212,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "EIAF 2026–2027 驻留艺术家项目",
-    "one_sentence_zh": "面向视觉艺术家的日本驻留资助项目，提供津贴及公开展览机会，资助金额为10,000美元。",
-    "why_it_fits_zh": "面向视觉艺术家的日本驻留资助项目，提供津贴及公开展览机会。",
+    "name_zh": "EIAF 2026–2027 艺术家驻留项目",
+    "one_sentence_zh": "在日本面向视觉艺术家的驻留资助项目，提供生活津贴及公开展览机会，资助金额为10,000美元。",
+    "why_it_fits_zh": "在日本面向视觉艺术家的驻留资助项目，提供生活津贴及公开展览机会。",
     "name_ja": "EIAF 2026–2027 Artist-in-Residence Program",
-    "one_sentence_ja": "日本を拠点とする視覚芸術家向けのレジデンス助成プログラムで、滞在費と公開展示の機会を提供。助成額：10,000米ドル。",
-    "why_it_fits_ja": "日本を拠点とする視覚芸術家向けのレジデンス助成プログラムで、滞在費と公開展示の機会を提供。"
+    "one_sentence_ja": "日本における視覚芸術家向けのレジデンス助成プログラムで、滞在費と公開展示の機会を提供。助成額：10,000米ドル。",
+    "why_it_fits_ja": "日本における視覚芸術家向けのレジデンス助成プログラムで、滞在費と公開展示の機会を提供します。"
   },
   {
     "title": "submissions — porkbelly press",
@@ -36174,11 +36513,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "2026国际大学生数字艺术设计大赛",
-    "one_sentence_zh": "面向全球艺术家与设计师征集绘画／插画作品的国际数字艺术设计大赛。",
-    "why_it_fits_zh": "面向全球艺术家与设计师征集绘画／插画作品的国际数字艺术设计大赛。",
-    "name_ja": "2026国際大学生デジタルアートデザインコンテスト",
-    "one_sentence_ja": "世界中のアーティストやデザイナーからドローイング／イラスト作品を募集する国際デジタルアートデザインコンテスト。",
-    "why_it_fits_ja": "世界中のアーティストやデザイナーからドローイング／イラスト作品を募集する国際デジタルアートデザインコンテスト。"
+    "one_sentence_zh": "面向全球艺术家与设计师的国际数字艺术设计大赛，接受绘画及插画类作品参赛。",
+    "why_it_fits_zh": "面向全球艺术家与设计师的国际数字艺术设计大赛，接受绘画及插画类作品参赛。",
+    "name_ja": "2026国際大学生デジタルアート・デザインコンペティション",
+    "one_sentence_ja": "世界中のアーティストやデザイナーからドローイング・イラスト作品を募集する国際デジタルアートデザインコンペティションです。",
+    "why_it_fits_ja": "世界中のアーティストやデザイナーからドローイング・イラスト作品を募集する国際デジタルアートデザインコンペティションです。"
   },
   {
     "name": "Asian Cultural Council (ACC) 2026 Grant Program",
@@ -36306,11 +36645,11 @@
     "pre_final_guard_score": 6.9,
     "final_score_guard_note": "Rescored 6.9 → 7.8 (verification_points=5, composite=8.06)",
     "name_zh": "亚洲文化协会（ACC）2026年资助项目",
-    "one_sentence_zh": "ACC为亚洲艺术家提供奖学金与文化交流机会，支持其开展国际艺术实践，涵盖水彩艺术家等视觉艺术家。",
-    "why_it_fits_zh": "ACC为亚洲艺术家提供奖学金与文化交流机会，支持其开展国际艺术实践，涵盖水彩艺术家等视觉艺术家。",
+    "one_sentence_zh": "ACC为亚洲艺术家提供奖学金及文化交流机会，支持其在国际间拓展艺术实践，涵盖水彩等视觉艺术家。",
+    "why_it_fits_zh": "ACC为亚洲艺术家提供奖学金及文化交流机会，支持其在国际间拓展艺术实践，涵盖水彩等视觉艺术家。",
     "name_ja": "Asian Cultural Council (ACC) 2026 Grant Program",
-    "one_sentence_ja": "ACCはアジアのアーティストに対してフェローシップと文化交流の機会を提供し、水彩画家を含む視覚芸術家の国際的な芸術活動をサポートする。",
-    "why_it_fits_ja": "ACCはアジアのアーティストに対してフェローシップと文化交流の機会を提供し、水彩画家を含む視覚芸術家の国際的な芸術活動をサポートする。"
+    "one_sentence_ja": "ACCはアジアのアーティストにフェローシップと文化交流の機会を提供し、水彩画家などビジュアルアーティストの国際的な芸術活動を支援します。",
+    "why_it_fits_ja": "ACCはアジアのアーティストにフェローシップと文化交流の機会を提供し、水彩画家などビジュアルアーティストの国際的な芸術活動を支援します。"
   },
   {
     "name": "2026春季二科展「NIKA+nika/S20号」コンクール",
@@ -36436,12 +36775,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026春季二科展「NIKA+nika/S20号」比赛",
-    "one_sentence_zh": "水彩及其他媒材的春季绘画展览与竞赛，适合东京艺术家参与展览。",
-    "why_it_fits_zh": "水彩及其他媒材的春季绘画展览与竞赛，适合东京艺术家参与展览。",
+    "name_zh": "2026春季二科展「NIKA+nika/S20号」竞赛",
+    "one_sentence_zh": "面向水彩及其他媒介的春季绘画展览与竞赛，适合在东京活动的艺术家寻找展览机会。",
+    "why_it_fits_zh": "面向水彩及其他媒介的春季绘画展览与竞赛，适合在东京活动的艺术家寻找展览机会。",
     "name_ja": "2026春季二科展「NIKA+nika/S20号」コンクール",
-    "one_sentence_ja": "水彩をはじめとする多様な画材による春季絵画展・コンクールで、東京在住アーティストの展示機会として適している。",
-    "why_it_fits_ja": "水彩をはじめとする多様な画材による春季絵画展・コンクールで、東京在住アーティストの展示機会として適している。"
+    "one_sentence_ja": "水彩をはじめ多様な表現媒体を対象とした春季絵画展・コンクールで、東京を拠点とするアーティストの展示機会に適しています。",
+    "why_it_fits_ja": "水彩をはじめ多様な表現媒体を対象とした春季絵画展・コンクールで、東京を拠点とするアーティストの展示機会に適しています。"
   },
   {
     "name": "ART SG 2026",
@@ -36601,11 +36940,11 @@
       "watercolor"
     ],
     "name_zh": "ART SG 2026",
-    "one_sentence_zh": "仅限画廊参与的新加坡商业艺博会，所有板块均须以画廊名义申请，无画廊代理的独立艺术家无法直接报名。",
-    "why_it_fits_zh": "ART SG对画廊代理的重视，契合GEGYjiji在拥有9万Instagram粉丝基础上进一步寻求机构背书的需求——在新加坡区域亚洲艺术市场中呈现其建筑水彩作品，有助于提升在藏家和画廊主中的知名度。但她目前尚无画廊代理，需先取得代理关系，方可将此作为下一步目标。",
+    "one_sentence_zh": "仅对画廊开放的新加坡商业艺博会，所有参展板块均须由画廊申请，个人独立艺术家无法直接参与。",
+    "why_it_fits_zh": "ART SG对画廊代理的重视，与GEGYjiji在拥有9万Instagram粉丝基础上寻求机构支持的需求高度契合——通过商业艺博会将其建筑水彩作品植入新加坡亚洲区域艺术市场，有助于在收藏家及画廊负责人中提升知名度。然而，她目前尚无画廊代理，须先建立画廊合作关系，因此这是下一步战略规划，而非当前可直接申请的机会。",
     "name_ja": "ART SG 2026",
-    "one_sentence_ja": "ギャラリー専用のシンガポール商業アートフェア。GALLERIES・FOCUS・FUTURES全セクションでギャラリーによる申請が必須。無所属の個人アーティストには応募経路なし。",
-    "why_it_fits_ja": "ART SGのギャラリー代理重視の方針は、Instagramフォロワー9万人を基盤にGEGYjijiが機関的な後ろ盾を確立するニーズと合致しており、シンガポールのアジア地域アート市場でその建築水彩作品を位置づけることでコレクターや新興作家を発掘するギャラリストへのアピールにつながる。ただし現在未所属のため、まずギャラリーとの契約が必要であり、即時応募ではなく次のステップとして位置づける。"
+    "one_sentence_ja": "ギャラリー専用の商業アートフェア（シンガポール）。全セクション（GALLERIES・FOCUS・FUTURES）の申請者はギャラリーに限られ、個人の無所属アーティストの参加経路はありません。",
+    "why_it_fits_ja": "ART SGのギャラリー代理重視の方針は、Instagramフォロワー9万人を持つGEGYjijiが規模を拡大するうえで機関的バックアップを確立する必要性と合致しています。シンガポールのアジア地域アート市場に彼女の建築水彩画を位置づけることで、新興才能を発掘するコレクターやギャラリストへの露出を高められます。ただし、現在ギャラリー代理がないため、まず画廊との関係構築が必要であり、本フェアへの参加はすぐに申請できる機会ではなく、次のステップとして位置づけるべき戦略的目標です。"
   },
   {
     "title": "Tokyo Arts and Space",
@@ -37293,11 +37632,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "绘画展（滋贺县爱庄町举办）",
-    "one_sentence_zh": "公开征集水彩及其他媒材的风景画与人物画，接受全国投稿，设有奖项。",
-    "why_it_fits_zh": "公开征集水彩及其他媒材的风景画与人物画，接受全国投稿，设有奖项。",
+    "one_sentence_zh": "公开征集水彩及其他媒材的风景画与人物画，接受全国投稿并设有奖项。",
+    "why_it_fits_zh": "公开征集水彩及其他媒材的风景画与人物画，接受全国投稿并设有奖项。",
     "name_ja": "絵画展（滋賀県愛荘町開催）",
-    "one_sentence_ja": "水彩をはじめとする画材による風景画・人物画のオープンコール。全国からの応募を受け付け、表彰あり。",
-    "why_it_fits_ja": "水彩をはじめとする画材による風景画・人物画のオープンコール。全国からの応募を受け付け、表彰あり。"
+    "one_sentence_ja": "水彩をはじめとする各種画材による風景画・人物画を全国から募集し、表彰あり。",
+    "why_it_fits_ja": "水彩をはじめとする各種画材による風景画・人物画を全国から募集し、表彰あり。"
   },
   {
     "title": "AIR 3331",
@@ -37757,11 +38096,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "ローズ・ローズ・ローズ",
-    "one_sentence_zh": "面向水彩及插画艺术家的画廊公开征集展览。",
-    "why_it_fits_zh": "面向水彩及插画艺术家的画廊公开征集展览。",
+    "one_sentence_zh": "画廊公开征集展览，适合水彩及插画艺术家参与。",
+    "why_it_fits_zh": "画廊公开征集展览，适合水彩及插画艺术家参与。",
     "name_ja": "ローズ・ローズ・ローズ",
-    "one_sentence_ja": "水彩・イラストレーション作家を対象としたギャラリーのオープンコール展覧会。",
-    "why_it_fits_ja": "水彩・イラストレーション作家を対象としたギャラリーのオープンコール展覧会。"
+    "one_sentence_ja": "水彩・イラスト作家に向けたギャラリーの公募展。",
+    "why_it_fits_ja": "水彩・イラスト作家に向けたギャラリーの公募展。"
   },
   {
     "title": "Submissions — Clavis Publishing",
@@ -38047,12 +38386,12 @@
     "career_tier": 3,
     "tier_adjustment": -0.5,
     "recommendation_visibility": "show",
-    "name_zh": "Pola Art Foundation 海外留学资助",
-    "one_sentence_zh": "日本私立财团为画家及版画艺术家提供的海外留学资助，金额100万至200万日元，资助期限6至12个月，竞争程度低于政府类资助。",
-    "why_it_fits_zh": "绘画类别是Pola Art Foundation的核心资助方向。私立财团意味着审批更快、手续更少。",
+    "name_zh": "Pola Art Foundation 海外研修助成",
+    "one_sentence_zh": "日本私立基金会面向绘画及版画艺术家提供海外研修资助，金额100万至200万日元，期限6至12个月，竞争低于政府助成。",
+    "why_it_fits_zh": "绘画类别是 Pola Art Foundation 的核心资助领域，私立基金会决策更快、手续更简便。",
     "name_ja": "Pola Art Foundation 海外研修助成",
-    "one_sentence_ja": "画家・版画家を対象とした日本の私立財団による海外研修助成。6〜12か月の海外滞在に対し100〜200万円を支給。政府系助成より競争率が低い。",
-    "why_it_fits_ja": "絵画部門はPola Art Foundationの中心的な助成分野。私立財団のため、政府系に比べて審査が迅速で手続きも簡便。"
+    "one_sentence_ja": "絵画・版画作家を対象とした民間財団の海外研修助成。6〜12か月の海外滞在に100〜200万円を支給。政府助成より競争率が低め。",
+    "why_it_fits_ja": "絵画分野はPola Art Foundationの中核テーマ。民間財団のため審査が迅速で手続きも煩雑でない。"
   },
   {
     "title": "DER GREIF",
@@ -38555,11 +38894,11 @@
     "tier_adjustment": -0.5,
     "recommendation_visibility": "show",
     "name_zh": "文化厅新进艺术家海外研修制度",
-    "one_sentence_zh": "日本文化厅为新进艺术家提供的海外驻留资助，涵盖月生活补贴及机票，资助期限6至12个月，设有绘画/视觉艺术类别。",
-    "why_it_fits_zh": "资助为期一年的海外艺术创作发展。申请巴黎国际艺术城（Cité Internationale des Arts）驻留项目可显著增强申请竞争力。",
-    "name_ja": "文化庁新進芸術家海外研修制度",
-    "one_sentence_ja": "文化庁による新進芸術家向け海外研修助成。6〜12か月の海外滞在に月額手当と航空券を支給。絵画・視覚芸術部門あり。",
-    "why_it_fits_ja": "最長1年間の海外芸術活動を支援。パリのCité Internationale des Artsへのレジデンシー申請と組み合わせることで、採択率が大幅に向上する。"
+    "one_sentence_zh": "文化厅为日本新进艺术家提供海外驻留助成，含月额生活费及机票，研修期6至12个月，设绘画/视觉艺术类别。",
+    "why_it_fits_zh": "资助整年的海外艺术发展，申请巴黎国际艺术城（Cité Internationale des Arts）驻留将大幅提升申请竞争力。",
+    "name_ja": "文化庁 新進芸術家海外研修制度",
+    "one_sentence_ja": "文化庁による新進芸術家向け海外研修助成。6〜12か月の滞在費・渡航費を支給。絵画・視覚芸術部門あり。",
+    "why_it_fits_ja": "最長1年間の海外芸術活動を全面支援。Cité Internationale des Arts（パリ）での滞在を申請に盛り込むと大きく有利になる。"
   },
   {
     "name": "マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)",
@@ -38678,12 +39017,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "マイクロ・アート・ワーケーション(MAW)2026（Micro Art Workcation 2026）",
-    "one_sentence_zh": "面向视觉艺术及插画领域从业不足3年的个人艺术家开放申请。",
-    "why_it_fits_zh": "面向视觉艺术及插画领域从业不足3年的个人艺术家开放申请。",
+    "name_zh": "マイクロ・アート・ワーケーション(MAW)2026",
+    "one_sentence_zh": "面向视觉艺术及插画领域经验不足3年的个人艺术家开放申请（个人应募可）。",
+    "why_it_fits_zh": "面向视觉艺术及插画领域经验不足3年的个人艺术家开放申请（个人应募可）。",
     "name_ja": "マイクロ・アート・ワーケーション(MAW)2026",
-    "one_sentence_ja": "視覚芸術・イラストレーション分野での活動歴3年未満の個人アーティストが応募可能。",
-    "why_it_fits_ja": "視覚芸術・イラストレーション分野での活動歴3年未満のアーティストを対象とし、個人応募が可能。"
+    "one_sentence_ja": "視覚芸術・イラスト分野での活動歴3年未満の個人アーティストが応募可能（個人応募可）。",
+    "why_it_fits_ja": "視覚芸術・イラスト分野での活動歴3年未満の個人アーティストが応募可能（個人応募可）。"
   },
   {
     "name": "2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)",
@@ -38822,8 +39161,8 @@
     "one_sentence_zh": "支持东京地区视觉艺术及创作活动，个人艺术家及团体均可申请。",
     "why_it_fits_zh": "支持东京地区视觉艺术及创作活动，个人艺术家及团体均可申请。",
     "name_ja": "2026年度 第2期 地域芸術文化活動応援助成",
-    "one_sentence_ja": "東京における視覚芸術・創作活動を支援。個人アーティストおよび団体が申請可能。",
-    "why_it_fits_ja": "東京における視覚芸術・創作活動を支援する助成で、個人・団体ともに応募できる。"
+    "one_sentence_ja": "東京での視覚芸術・創作活動を支援。個人・団体ともに応募可能。",
+    "why_it_fits_ja": "東京での視覚芸術・創作活動を支援。個人・団体ともに応募可能。"
   },
   {
     "name": "令和8年度芸術文化振興基金及び文化芸術振興費補助金",
@@ -38942,11 +39281,11 @@
     ],
     "has_prerequisites": true,
     "name_zh": "令和8年度艺术文化振兴基金及文化艺术振兴费补助金",
-    "one_sentence_zh": "日本政府支持视觉艺术及文化活动的资助项目，适合具有一定资历的艺术家申请。",
-    "why_it_fits_zh": "日本政府支持视觉艺术及文化活动的资助项目，适合具有一定资历的艺术家申请。",
+    "one_sentence_zh": "日本政府艺术资助项目，支持视觉艺术及文化活动，适合有一定资历的艺术家申请。",
+    "why_it_fits_zh": "日本政府艺术资助项目，支持视觉艺术及文化活动，适合有一定资历的艺术家申请。",
     "name_ja": "令和8年度芸術文化振興基金及び文化芸術振興費補助金",
-    "one_sentence_ja": "視覚芸術・文化活動を支援する日本の政府系助成制度。実績のあるアーティストに適している。",
-    "why_it_fits_ja": "視覚芸術・文化活動を対象とした政府系助成制度で、一定の活動実績を持つアーティストに適している。"
+    "one_sentence_ja": "視覚芸術・文化活動を支援する国の助成制度。実績のあるアーティスト向け。",
+    "why_it_fits_ja": "視覚芸術・文化活動を支援する国の助成制度。実績のあるアーティスト向け。"
   },
   {
     "title": "Japan Foundation Cultural Exchange Grant",
@@ -39085,12 +39424,12 @@
     "career_tier": 3,
     "tier_adjustment": -0.5,
     "recommendation_visibility": "show",
-    "name_zh": "Japan Foundation 文化交流资助",
-    "one_sentence_zh": "面向在日艺术家的日本政府文化交流资助，金额50万至300万日元，水彩/绘画类别有成功申请先例。",
-    "why_it_fits_zh": "申请者为在日艺术家，东京城市记录具有强烈的文化交流叙事性。设有个人艺术家及协作项目等多个申请方向。",
+    "name_zh": "Japan Foundation 文化交流助成",
+    "one_sentence_zh": "面向在日艺术家的日本政府文化交流资助，金额50万至300万日元，设多个申请方向，水彩/绘画有成功案例。",
+    "why_it_fits_zh": "面向在日艺术家，东京城市记录是极具说服力的文化交流叙事，设有个人艺术家及合作项目等多个申请方向。",
     "name_ja": "Japan Foundation 文化交流助成",
-    "one_sentence_ja": "日本在住アーティストを対象とした政府系文化交流助成。プログラムにより50〜300万円を支給。水彩・絵画分野での採択実績あり。",
-    "why_it_fits_ja": "日本在住アーティストとして、東京の都市記録は文化交流の観点から説得力の高いテーマ。個人・共同プロジェクトなど複数の申請枠がある。"
+    "one_sentence_ja": "日本在住アーティスト向けの国際交流基金による文化交流助成。プログラムにより50〜300万円を支給。水彩・絵画分野での採択実績あり。",
+    "why_it_fits_ja": "日本在住アーティスト向け。東京の都市記録は文化交流の文脈として訴求力が高く、個人・共同プロジェクトなど複数の申請枠がある。"
   },
   {
     "name": "2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)",
@@ -39239,11 +39578,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "2026东京·首届日中书画名家作品交流展",
-    "one_sentence_zh": "展示中日艺术家书画作品的联展，水彩及插画艺术家均可参展。",
-    "why_it_fits_zh": "展示中日艺术家书画作品的联展，水彩及插画艺术家均可参展。",
+    "one_sentence_zh": "日中艺术家书画作品联展，水彩及插画艺术家均可参与。",
+    "why_it_fits_zh": "日中艺术家书画作品联展，水彩及插画艺术家均可参与。",
     "name_ja": "2026東京・第1回日中書画名家作品交流展",
-    "one_sentence_ja": "日中アーティストの書画作品を展示するグループ展。水彩・イラストレーション作家も参加可能。",
-    "why_it_fits_ja": "日中アーティストの書画作品を紹介するグループ展で、水彩・イラストレーション作家も出品資格あり。"
+    "one_sentence_ja": "日中アーティストによる書画作品のグループ展；水彩・イラスト作家も応募可能。",
+    "why_it_fits_ja": "日中アーティストによる書画作品のグループ展；水彩・イラスト作家も応募可能。"
   },
   {
     "name": "Aquarium - 2026",
@@ -39420,11 +39759,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Aquarium - 2026",
-    "one_sentence_zh": "第四届评审展览，为视觉艺术家提供出版与销售机会。",
-    "why_it_fits_zh": "第四届评审展览，为视觉艺术家提供出版与销售机会。",
+    "one_sentence_zh": "第四届评审联展，为视觉艺术家提供出版及作品销售机会。",
+    "why_it_fits_zh": "第四届评审联展，为视觉艺术家提供出版及作品销售机会。",
     "name_ja": "Aquarium - 2026",
-    "one_sentence_ja": "視覚芸術家を対象とした第4回公募審査展で、出版・販売の機会も提供。",
-    "why_it_fits_ja": "視覚芸術家を対象とした第4回公募審査展で、出版・販売の機会も提供。"
+    "one_sentence_ja": "第4回公募展。ビジュアルアーティストを対象に出版・販売の機会を提供。",
+    "why_it_fits_ja": "第4回公募展。ビジュアルアーティストを対象に出版・販売の機会を提供。"
   },
   {
     "name": "2026年度 渡航・旅費等の助成（上期）",
@@ -39543,12 +39882,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026年度 渡航・旅費等の助成（上期）",
-    "one_sentence_zh": "支持文化艺术活动差旅费用的财团资助，适合寻求国际曝光机会的艺术家。",
-    "why_it_fits_zh": "支持文化艺术活动差旅费用的财团资助，适合寻求国际曝光机会的艺术家。",
+    "name_zh": "2026年度 出行及旅费资助（上半期）",
+    "one_sentence_zh": "财团资助文化艺术活动的差旅及相关费用，适合寻求国际曝光的艺术家。",
+    "why_it_fits_zh": "财团资助文化艺术活动的差旅及相关费用，适合寻求国际曝光的艺术家。",
     "name_ja": "2026年度 渡航・旅費等の助成（上期）",
-    "one_sentence_ja": "文化・芸術活動における渡航・旅費を支援する財団助成で、国際的な活躍を目指すアーティストに適しています。",
-    "why_it_fits_ja": "文化・芸術活動における渡航・旅費を支援する財団助成で、国際的な活躍を目指すアーティストに適しています。"
+    "one_sentence_ja": "文化・芸術活動における渡航・旅費を支援する財団助成。国際的な活動を目指すアーティストに対応。",
+    "why_it_fits_ja": "文化・芸術活動における渡航・旅費を支援する財団助成。国際的な活動を目指すアーティストに対応。"
   },
   {
     "name": "公益財団法人小笠原敏晶記念財団 2026年度 渡航・旅費等の助成（上期）",
@@ -39666,12 +40005,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "公益财团法人小笠原敏晶纪念财团 2026年度 渡航・旅費等の助成（上期）",
-    "one_sentence_zh": "支持艺术家从事文化艺术活动的差旅及项目费用的财团资助。",
-    "why_it_fits_zh": "支持艺术家从事文化艺术活动的差旅及项目费用的财团资助。",
+    "name_zh": "公益财团法人小笠原敏晶纪念财团 2026年度 出行及旅费资助（上半期）",
+    "one_sentence_zh": "小笠原敏晶纪念财团资助从事文化艺术活动的艺术家的差旅及项目费用。",
+    "why_it_fits_zh": "小笠原敏晶纪念财团资助从事文化艺术活动的艺术家的差旅及项目费用。",
     "name_ja": "公益財団法人小笠原敏晶記念財団 2026年度 渡航・旅費等の助成（上期）",
-    "one_sentence_ja": "文化・芸術活動に取り組むアーティストの渡航費およびプロジェクト経費を支援する財団助成です。",
-    "why_it_fits_ja": "文化・芸術活動に取り組むアーティストの渡航費およびプロジェクト経費を支援する財団助成です。"
+    "one_sentence_ja": "文化・芸術活動に取り組むアーティストの渡航・プロジェクト費用を支援する財団助成。",
+    "why_it_fits_ja": "文化・芸術活動に取り組むアーティストの渡航・プロジェクト費用を支援する財団助成。"
   },
   {
     "name": "2026年度下期芸術文化助成（国内）",
@@ -39790,12 +40129,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026年度下期艺术文化资助（国内）",
-    "one_sentence_zh": "支持新兴艺术家发展及日本国内国际文化交流活动的政府资助。",
-    "why_it_fits_zh": "支持新兴艺术家发展及日本国内国际文化交流活动的政府资助。",
+    "name_zh": "2026年度下半期艺术文化资助（国内）",
+    "one_sentence_zh": "政府资助项目，支持新兴艺术家成长及日本国内国际文化交流活动。",
+    "why_it_fits_zh": "政府资助项目，支持新兴艺术家成长及日本国内国际文化交流活动。",
     "name_ja": "2026年度下期芸術文化助成（国内）",
-    "one_sentence_ja": "新進アーティストの育成と国内における国際文化交流活動を支援する公的助成です。",
-    "why_it_fits_ja": "新進アーティストの育成と国内における国際文化交流活動を支援する公的助成です。"
+    "one_sentence_ja": "新進アーティストの育成と国内における国際文化交流活動を支援する公的助成。",
+    "why_it_fits_ja": "新進アーティストの育成と国内における国際文化交流活動を支援する公的助成。"
   },
   {
     "name": "マイクロ・アート・ワーケーション(MAW)2026",
@@ -39907,12 +40246,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "マイクロ・アート・ワーケーション(MAW)2026",
-    "one_sentence_zh": "支持视觉艺术（美术、摄影）活动的艺术资助项目，接受经验不足3年的个人申请。",
-    "why_it_fits_zh": "支持视觉艺术（美术、摄影）活动的艺术资助项目，接受经验不足3年的个人申请。",
+    "name_zh": "微型艺术工作假期（MAW）2026",
+    "one_sentence_zh": "艺术资助项目，支持美术、摄影等视觉艺术活动，接受经验不足三年的个人申请。",
+    "why_it_fits_zh": "艺术资助项目，支持美术、摄影等视觉艺术活动，接受经验不足三年的个人申请。",
     "name_ja": "マイクロ・アート・ワーケーション(MAW)2026",
-    "one_sentence_ja": "美術・写真などの視覚芸術活動を支援する助成プログラムで、経験3年未満の個人も応募可能。",
-    "why_it_fits_ja": "美術・写真などの視覚芸術活動を支援する助成プログラムで、経験3年未満の個人も応募可能。"
+    "one_sentence_ja": "美術・写真などのビジュアルアート活動を支援する助成プログラム。経験3年未満の個人も応募可能。",
+    "why_it_fits_ja": "美術・写真などのビジュアルアート活動を支援する助成プログラム。経験3年未満の個人も応募可能。"
   },
   {
     "name": "マイクロ・アート・ワーケーション（MAW）2026",
@@ -40024,12 +40363,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "マイクロ・アート・ワーケーション（MAW）2026",
-    "one_sentence_zh": "接受视觉艺术及当代创作实践个人申请的跨学科艺术资助项目。",
-    "why_it_fits_zh": "接受视觉艺术及当代创作实践个人申请的跨学科艺术资助项目。",
+    "name_zh": "微型艺术工作假期（MAW）2026",
+    "one_sentence_zh": "跨学科艺术资助项目，接受视觉艺术及当代创作领域的个人申请。",
+    "why_it_fits_zh": "跨学科艺术资助项目，接受视觉艺术及当代创作领域的个人申请。",
     "name_ja": "マイクロ・アート・ワーケーション（MAW）2026",
-    "one_sentence_ja": "視覚芸術や現代的な創作活動における個人応募を受け付ける、複合的な芸術助成プログラムです。",
-    "why_it_fits_ja": "視覚芸術や現代的な創作活動における個人応募を受け付ける、複合的な芸術助成プログラムです。"
+    "one_sentence_ja": "ビジュアルアートや現代的な創作活動における個人申請を受け付ける複合分野の芸術助成。",
+    "why_it_fits_ja": "ビジュアルアートや現代的な創作活動における個人申請を受け付ける複合分野の芸術助成。"
   },
   {
     "name": "第9回 国際公募 東京アート工芸2026",
@@ -40165,12 +40504,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "第9回 国際公募 東京アート工芸2026",
-    "one_sentence_zh": "2026年5月14日至24日在东京举办的第9届国际艺术与工艺公募展。",
-    "why_it_fits_zh": "2026年5月14日至24日在东京举办的第9届国际艺术与工艺公募展。",
+    "name_zh": "第9回 国际公募 东京艺术工艺2026",
+    "one_sentence_zh": "2026年5月14日至24日在东京举办的国际艺术与工艺公募展。",
+    "why_it_fits_zh": "2026年5月14日至24日在东京举办的国际艺术与工艺公募展。",
     "name_ja": "第9回 国際公募 東京アート工芸2026",
-    "one_sentence_ja": "2026年5月14日〜24日に東京で開催される国際公募のアート・工芸展です。",
-    "why_it_fits_ja": "2026年5月14日〜24日に東京で開催される国際公募のアート・工芸展です。"
+    "one_sentence_ja": "2026年5月14日〜24日、東京で開催される国際公募の美術工芸展。",
+    "why_it_fits_ja": "2026年5月14日〜24日、東京で開催される国際公募の美術工芸展。"
   },
   {
     "title": "Applications — Little Tokyo Zine Fest",
@@ -40655,12 +40994,12 @@
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "OM SYSTEM PLAZA 2026年4月～6月開催分",
-    "one_sentence_zh": "OM SYSTEM PLAZA画廊接受2026年春夏展期的作品提案。",
-    "why_it_fits_zh": "OM SYSTEM PLAZA画廊接受2026年春夏展期的作品提案。",
+    "name_zh": "OM SYSTEM PLAZA 2026年4月～6月展览",
+    "one_sentence_zh": "画廊正在接受2026年春夏展览档期的作品征集。",
+    "why_it_fits_zh": "画廊正在接受2026年春夏展览档期的作品征集。",
     "name_ja": "OM SYSTEM PLAZA 2026年4月～6月開催分",
-    "one_sentence_ja": "2026年春〜夏の展示枠への応募を受け付けているギャラリーです。",
-    "why_it_fits_ja": "2026年春〜夏の展示枠への応募を受け付けているギャラリーです。"
+    "one_sentence_ja": "2026年春夏の展示期間に向けて作品を募集しているギャラリーです。",
+    "why_it_fits_ja": "2026年春夏の展示期間に向けて作品を募集しているギャラリーです。"
   },
   {
     "title": "Mall Galleries Open Exhibitions",
@@ -40808,7 +41147,10 @@
     ],
     "category_label": "Other",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "购物画廊公开展览",
+    "one_sentence_zh": "购物画廊公开展览是英国一个专注于水彩及纸上作品研究的公开展览资源。",
+    "why_it_fits_zh": "适用于绘画、素描或纸上作品的公开展览场景，是直接核实的理想候选来源。"
   },
   {
     "title": "shashasha",
@@ -41524,11 +41866,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "SICF 福冈 2026",
-    "one_sentence_zh": "面向艺术家的创作者展览机会，适合寻找展览场所的插画或水彩艺术家。",
-    "why_it_fits_zh": "面向艺术家的创作者展览机会，适合寻找展览场所的插画或水彩艺术家。",
+    "one_sentence_zh": "面向创作者的展览机会，适合正在寻找展览场地的插画/水彩艺术家。",
+    "why_it_fits_zh": "面向创作者的展览机会，适合正在寻找展览场地的插画/水彩艺术家。",
     "name_ja": "SICF Fukuoka 2026",
-    "one_sentence_ja": "アーティスト向けのクリエイター展示機会。イラスト・水彩作家で展示会場を探している方に適しています。",
-    "why_it_fits_ja": "アーティスト向けのクリエイター展示機会。イラスト・水彩作家で展示会場を探している方に適しています。"
+    "one_sentence_ja": "イラスト・水彩作家など展示会場を探すアーティストに適したクリエイター展示の機会です。",
+    "why_it_fits_ja": "イラスト・水彩作家など展示会場を探すアーティストに適したクリエイター展示の機会です。"
   },
   {
     "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
@@ -41852,12 +42194,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026 艺术家项目（GCAC）",
-    "one_sentence_zh": "GCAC 年度艺术家资助支持多学科视觉艺术家；但该项目位于美国，可能存在居住地限制，东京艺术家的申请资格或受影响。资助金额：艺术家最高 $10,000，电影人最高 $25,000。",
-    "why_it_fits_zh": "GCAC 年度资助支持多学科视觉艺术家，但以美国为基础，居住地限制可能影响东京艺术家的申请资格。",
-    "name_ja": "2026 Artist Projects（GCAC）",
-    "one_sentence_ja": "GCACの年次アーティスト助成金は多分野の視覚芸術家を支援するが、米国拠点のため東京在住アーティストには居住要件の制限がある可能性あり。金額：アーティスト最大$10,000、映像作家最大$25,000。",
-    "why_it_fits_ja": "GCACの年次助成金は多分野の視覚芸術家を支援するが、米国拠点のため東京在住アーティストには居住要件の制限がある可能性あり。"
+    "name_zh": "2026年艺术家项目（GCAC）",
+    "one_sentence_zh": "GCAC年度艺术家资助支持多个视觉艺术领域，但该项目位于美国，居住地要求可能限制东京艺术家的申请资格。资助金额：艺术家最高10,000美元，电影人最高25,000美元。",
+    "why_it_fits_zh": "GCAC年度资助支持多个视觉艺术领域，但其美国本土性质及居住地限制可能影响东京艺术家的申请资格。",
+    "name_ja": "2026 Artist Projects (GCAC)",
+    "one_sentence_ja": "GCACの年次アーティスト助成は複数の視覚芸術分野を支援しますが、米国拠点のプログラムであり、在住要件が東京在住アーティストの応募資格を制限する可能性があります。助成額：アーティスト最大$10,000、映像作家最大$25,000。",
+    "why_it_fits_ja": "GCACの年次助成は複数の視覚芸術分野を支援しますが、米国拠点であるため在住要件が東京在住アーティストの資格を制限する可能性があります。"
   },
   {
     "title": "Tokyo Arts and Space (TOKAS) Residency + Grant",
@@ -41973,11 +42315,11 @@
     "tier_adjustment": -0.5,
     "recommendation_visibility": "show",
     "name_zh": "TOKAS 驻留项目",
-    "one_sentence_zh": "东京都主办的艺术驻留项目，提供工作室空间及 10 万至 50 万日元的资助，并附带东京都政府的机构公信力。",
-    "why_it_fits_zh": "东京在地艺术家申请资格充分，TOKAS 驻留经历是简历上向第三层级晋升的重要信用标志。",
-    "name_ja": "TOKASレジデンシー・プログラム",
-    "one_sentence_ja": "東京都主催のアーティスト・レジデンシー。スタジオスペースと10万〜50万円の助成金を提供。東京都による高い機関的信頼性を持つ。",
-    "why_it_fits_ja": "東京在住アーティストとして申請適格性が高い。TOKASレジデンシーの経歴はTier 3への前進において重要な信頼性の証となる。"
+    "one_sentence_zh": "东京都主办的艺术驻留项目，提供工作室空间及10万～50万日元资助，具有东京都政府背书的机构公信力。",
+    "why_it_fits_zh": "东京艺术家申请资格强。TOKAS驻留经历作为履历项目，是迈向第三阶段发展的重要信誉标志。",
+    "name_ja": "TOKAS レジデンシー・プログラム",
+    "one_sentence_ja": "東京都が運営するアーティスト・レジデンシーで、スタジオスペースと10万～50万円の助成金を提供。東京都による高い機関的信頼性を誇ります。",
+    "why_it_fits_ja": "東京在住アーティストとして応募資格が高く、TOKASレジデンシーの経歴はTier 3への前進における重要な信頼性の指標となります。"
   },
   {
     "title": "Become an Author - Tuttle Publishing",
@@ -42680,7 +43022,23 @@
     "verification_score": 2,
     "site_http_code": 0,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "RAW TOKYO",
+    "one_sentence_zh": "东京快闪展会生态，其功能可能更接近于商品销售市场，而非策划型展览场合。",
+    "why_it_fits_zh": "东京地点及明显较低的门槛符合偏好，但市场性质与战略定位需求存在冲突。",
+    "three_bullets_zh": [
+      "快闪/集市形式通常面向消费者销售受众，而非机构藏家或策展人",
+      "缺乏明确的申请结构，且\"摊位适配\"的措辞暗示其为摊位租赁模式",
+      "此类场合有将作品定位为表面化商品而非文化记录实践的风险"
+    ],
+    "name_ja": "RAW TOKYO",
+    "one_sentence_ja": "東京を拠点とするポップアップフェアで、キュレーションされた展示というよりも販売マーケットとして機能している可能性があります。",
+    "why_it_fits_ja": "東京という立地と参加障壁の低さは希望条件に合致しますが、マーケット的な性格が戦略的なポジショニングのニーズと相反します。",
+    "three_bullets_ja": [
+      "ポップアップ／マーケット形式は、機関系コレクターやキュレーターではなく一般消費者向けの販売を主目的とする",
+      "明確な応募構造がなく「出店者向け」の表現がブースレンタル形式を示唆している",
+      "作品が文化的記録実践としてではなく、表層的な商品として位置づけられるリスクがある"
+    ]
   },
   {
     "title": "Youkobo Art Space",
@@ -42845,7 +43203,23 @@
     "rumor_mill_sentiment": "no_data",
     "site_http_code": 200,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "Youkobo Art Space",
+    "one_sentence_zh": "东京艺术家驻留空间，聚焦本地艺术生态，但现有信息不足以评估项目结构、费用或适配性。",
+    "why_it_fits_zh": "东京的地理位置与您的创作主题及亚太视角相契合，但不明确的项目结构给实际适配性带来不确定性。",
+    "three_bullets_zh": [
+      "地理优势有利于记录日本乡土建筑与城市空间",
+      "信息缺口明显：截止日期不可见，费用结构不明，项目详情极少",
+      "需要大量调研才能判断是否符合您对结构化、研究型驻留项目的偏好"
+    ],
+    "name_ja": "Youkobo Art Space",
+    "one_sentence_ja": "地域のアートエコシステムに焦点を当てた東京のアーティスト・レジデンシーですが、プログラム構造・費用・適合性を評価するための情報が不十分です。",
+    "why_it_fits_ja": "東京という立地はあなたの制作テーマやアジア太平洋への関心と合致しますが、プログラム構造が不明確なため実際の適合性は不透明です。",
+    "three_bullets_ja": [
+      "日本の風土建築や都市空間を記録するうえで立地上の優位性がある",
+      "情報の大きな欠如：締め切りの記載なし、費用体系不明、プログラム詳細が乏しい",
+      "構造的・研究志向のレジデンシーを求める条件に合致するか判断するには、相当な調査が必要"
+    ]
   },
   {
     "name": "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会",
@@ -42978,12 +43352,12 @@
     "reject_reason": "dedup_duplicate",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "东京艺术剧场 画廊1 水彩画展览",
-    "one_sentence_zh": "东京艺术剧场画廊举办的水彩专题展览，每位艺术家最多可提交8件作品。",
-    "why_it_fits_zh": "东京艺术剧场画廊举办的水彩专题展览，每位艺术家最多可提交8件作品。",
+    "name_zh": "东京艺术剧场 Gallery 1 水彩展览",
+    "one_sentence_zh": "东京艺术剧场画廊举办的水彩专题展览，每位艺术家最多可展出8件作品。",
+    "why_it_fits_zh": "东京艺术剧场画廊举办的水彩专题展览，每位艺术家最多可展出8件作品。",
     "name_ja": "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会",
-    "one_sentence_ja": "東京芸術劇場のギャラリーで開催される水彩画専門の展覧会で、1作家につき最大8点まで出品可能。",
-    "why_it_fits_ja": "東京芸術劇場のギャラリーで開催される水彩画専門の展覧会で、1作家につき最大8点まで出品可能。"
+    "one_sentence_ja": "東京芸術劇場のギャラリーで開催される水彩画に特化した展覧会で、1名につき最大8点まで出品可能です。",
+    "why_it_fits_ja": "東京芸術劇場のギャラリーで開催される水彩画に特化した展覧会で、1名につき最大8点まで出品可能です。"
   },
   {
     "name": "スクエア・ワールド2026",
@@ -43118,12 +43492,12 @@
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "方形世界2026",
-    "one_sentence_zh": "公开征集展览，接受与水彩及插画作品相符的投稿。",
-    "why_it_fits_zh": "公开征集展览，接受与水彩及插画作品相符的投稿。",
+    "name_zh": "スクエア・ワールド2026",
+    "one_sentence_zh": "接受水彩及插画作品投稿的公开征集展览。",
+    "why_it_fits_zh": "接受水彩及插画作品投稿的公开征集展览。",
     "name_ja": "スクエア・ワールド2026",
-    "one_sentence_ja": "水彩・イラスト作品に合致する公募展。",
-    "why_it_fits_ja": "水彩・イラスト作品に合致する公募展。"
+    "one_sentence_ja": "水彩・イラスト作品の応募を受け付ける公募展です。",
+    "why_it_fits_ja": "水彩・イラスト作品の応募を受け付ける公募展です。"
   },
   {
     "name": "第五回公募展「境界」-edge-",
@@ -43247,12 +43621,12 @@
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "第五届公募展「境界」-edge-",
-    "one_sentence_zh": "东京画廊举办的公开征集展览，以主题性创作为核心，面向视觉艺术家。",
-    "why_it_fits_zh": "东京画廊举办的公开征集展览，以主题性创作为核心，面向视觉艺术家。",
+    "name_zh": "第五回公募展「境界」-edge-",
+    "one_sentence_zh": "东京画廊举办的以特定主题为核心、面向视觉艺术家的公开征集展览。",
+    "why_it_fits_zh": "东京画廊举办的以特定主题为核心、面向视觉艺术家的公开征集展览。",
     "name_ja": "第五回公募展「境界」-edge-",
-    "one_sentence_ja": "東京のギャラリーで開催されるテーマ型公募展で、視覚芸術家を対象としている。",
-    "why_it_fits_ja": "東京のギャラリーで開催されるテーマ型公募展で、視覚芸術家を対象としている。"
+    "one_sentence_ja": "東京のギャラリーで開催される、視覚芸術家向けのテーマ型公募展です。",
+    "why_it_fits_ja": "東京のギャラリーで開催される、視覚芸術家向けのテーマ型公募展です。"
   },
   {
     "name": "INSTINC 2026/2027 Artist-in-Residence Program",
@@ -43399,11 +43773,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "INSTINC 2026/2027 驻留艺术家项目",
-    "one_sentence_zh": "独立艺术家驻留项目，强调实验性与艺术视野，面向国际艺术家开放。",
-    "why_it_fits_zh": "独立艺术家驻留项目，强调实验性与艺术视野，面向国际艺术家开放。",
+    "one_sentence_zh": "面向国际艺术家的独立驻留项目，注重实验精神与艺术创作理念。",
+    "why_it_fits_zh": "面向国际艺术家的独立驻留项目，注重实验精神与艺术创作理念。",
     "name_ja": "INSTINC 2026/2027 アーティスト・イン・レジデンス・プログラム",
-    "one_sentence_ja": "実験性と芸術的ビジョンを重視する独立系レジデンスプログラムで、国際的なアーティストを対象としている。",
-    "why_it_fits_ja": "実験性と芸術的ビジョンを重視する独立系レジデンスプログラムで、国際的なアーティストを対象としている。"
+    "one_sentence_ja": "実験的精神と芸術的ビジョンを重視する、国際アーティスト対象の自主型レジデンスプログラムです。",
+    "why_it_fits_ja": "実験的精神と芸術的ビジョンを重視する、国際アーティスト対象の自主型レジデンスプログラムです。"
   },
   {
     "title": "submissions for the 2026 set film festival are now open",
@@ -43832,12 +44206,12 @@
     "reject_reason": "dedup_duplicate",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "真实之美 - 2026",
-    "one_sentence_zh": "第五届评审年展，接受水彩及插画作品投稿，并提供推广与销售机会。",
-    "why_it_fits_zh": "第五届评审年展，接受水彩及插画作品投稿，并提供推广与销售机会。",
+    "name_zh": "True Beauty - 2026",
+    "one_sentence_zh": "第五届评审年展，接受水彩及插画作品，并提供宣传与销售机会。",
+    "why_it_fits_zh": "第五届评审年展，接受水彩及插画作品，并提供宣传与销售机会。",
     "name_ja": "True Beauty - 2026",
-    "one_sentence_ja": "水彩・イラスト作品を募集する第5回審査制年次展で、プロモーションと販売の機会も提供される。",
-    "why_it_fits_ja": "水彩・イラスト作品を募集する第5回審査制年次展で、プロモーションと販売の機会も提供される。"
+    "one_sentence_ja": "水彩・イラスト作品を受け付ける第5回審査制年次展覧会で、プロモーションと販売の機会もあります。",
+    "why_it_fits_ja": "水彩・イラスト作品を受け付ける第5回審査制年次展覧会で、プロモーションと販売の機会もあります。"
   },
   {
     "title": "Mall Galleries Open Exhibitions",
@@ -43989,12 +44363,12 @@
     "site_http_code": 404,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "Mall Galleries 公开展览",
-    "one_sentence_zh": "Mall Galleries 公开展览是英国一项面向水彩及纸上作品研究的公开展览资源。",
-    "why_it_fits_zh": "适合绘画、素描或纸上作品的公开展览场合，是直接核实的优质候选项目。",
-    "name_ja": "Mall Galleries オープン・エキシビション",
-    "one_sentence_ja": "Mall Galleries Open Exhibitionsは、英国における水彩・紙作品リサーチのための公募展ソースです。",
-    "why_it_fits_ja": "絵画・ドローイング・紙作品向けの公募展。直接確認の有力候補。"
+    "name_zh": "水彩画家皇家学院",
+    "one_sentence_zh": "Mall Galleries 公开展览是英国面向水彩及纸本作品研究的开放展览资源。",
+    "why_it_fits_zh": "适用于水彩、纸本作品、素描等领域的开放展览渠道，适合直接核实的优质候选项目。",
+    "name_ja": "Royal Institute of Painters in Water Colours",
+    "one_sentence_ja": "Mall Galleries Open Exhibitionsは、英国における水彩・紙作品のリサーチに活用できる公募展ソースです。",
+    "why_it_fits_ja": "水彩、紙作品、ドローイングなどの公募展コンテキストとして有効で、直接確認の有力候補です。"
   },
   {
     "name": "全國插畫徵集-2026台灣VC文化賞",
@@ -44115,12 +44489,12 @@
     "site_http_code": 0,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "全國插畫徵集－2026台湾VC文化奖",
-    "one_sentence_zh": "面向任何年龄、性别或国籍艺术家的全国插画公开征集，接受已发表或展出过的作品。",
-    "why_it_fits_zh": "面向任何年龄、性别或国籍艺术家的全国插画公开征集，接受已发表或展出过的作品。",
-    "name_ja": "全國插畫徵集－2026台湾VC文化賞",
-    "one_sentence_ja": "年齢・性別・国籍を問わず、発表・展示経験のある作品を受け付ける全国イラスト公募。",
-    "why_it_fits_ja": "年齢・性別・国籍を問わず、発表・展示経験のある作品を受け付ける全国イラスト公募。"
+    "name_zh": "全国插画征集-2026台湾VC文化奖",
+    "one_sentence_zh": "面向任何年龄、性别及国籍艺术家的全国插画公开征集，接受已发表或展出的作品。",
+    "why_it_fits_zh": "面向任何年龄、性别及国籍艺术家的全国插画公开征集，接受已发表或展出的作品。",
+    "name_ja": "全國插畫徵集-2026台灣VC文化賞",
+    "one_sentence_ja": "年齢・性別・国籍不問で、既発表・展示済み作品も受け付ける台湾の全国イラスト公募です。",
+    "why_it_fits_ja": "年齢・性別・国籍不問で、既発表・展示済み作品も受け付ける台湾の全国イラスト公募です。"
   },
   {
     "title": "Gallery IRO",
@@ -44292,20 +44666,20 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Gallery IRO",
-    "one_sentence_zh": "吉祥寺画廊，运营模式尚不明确（可能为租用制或混合制），联系前需进一步了解。",
-    "why_it_fits_zh": "东京的地理位置与日本市场方向一致，但运营模式不明确，存在投入与预期不符的风险。",
+    "one_sentence_zh": "吉祥寺画廊，商业模式尚不明确（可能为租用或混合型），联系前需进一步调查。",
+    "why_it_fits_zh": "东京地理位置契合日本市场定位，但商业模式不明确带来投入错配的风险。",
     "three_bullets_zh": [
-      "位于文化底蕴深厚的吉祥寺街区，具有真实的吸引力",
-      "提交流程、代理模式或费用信息不足",
-      "对具备一定日语能力者难度适中；租用制画廊在东京较为普遍"
+      "位于文化氛围浓厚的吉祥寺，地域吸引力真实存在",
+      "投稿流程、代理模式及费用信息不足",
+      "对日语有一定基础者而言沟通摩擦适中；租用画廊在东京较为普遍"
     ],
     "name_ja": "Gallery IRO",
-    "one_sentence_ja": "吉祥寺のギャラリーで、運営モデルが不明確（レンタルまたはハイブリッドの可能性）なため、コンタクト前に調査が必要です。",
-    "why_it_fits_ja": "東京という立地は日本重視の方針と合致しますが、ビジネスモデルの不透明さが投資のミスマッチリスクをはらんでいます。",
+    "one_sentence_ja": "吉祥寺のギャラリー。ビジネスモデルが不明確なため（レンタルまたはハイブリッド型の可能性あり）、コンタクト前に要調査。",
+    "why_it_fits_ja": "東京という立地は日本市場へのフォーカスと合致するが、ビジネスモデルの不透明さが投資対効果のミスマッチを生むリスクがある。",
     "three_bullets_ja": [
-      "文化的に豊かな吉祥寺という立地には本物の魅力がある",
-      "応募プロセス、代理モデル、費用に関する情報が不十分",
-      "日本語に中程度の慣れがある人には摩擦は中程度；東京ではレンタルギャラリーが一般的"
+      "文化的に豊かな吉祥寺に位置し、ロケーションとしての魅力は本物",
+      "応募プロセス・代理モデル・費用に関する情報が不十分",
+      "日本語に一定の自信がある場合、摩擦は中程度。レンタルギャラリーは東京では一般的"
     ]
   },
   {
@@ -44620,11 +44994,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "ArtConnect 公开征集",
-    "one_sentence_zh": "ArtConnect 公开征集是面向全球水彩及纸上作品研究的公开征集索引平台。",
-    "why_it_fits_zh": "适用于发现水彩、纸上作品、素描、驻留及相关机会，可作为持续研究的信息来源。",
+    "one_sentence_zh": "ArtConnect 公开征集是面向全球水彩及纸本作品研究的公开征集索引资源。",
+    "why_it_fits_zh": "可用于发现水彩、纸本作品、素描及驻留项目等机会的持续研究资源。",
     "name_ja": "ArtConnect Open Calls",
-    "one_sentence_ja": "ArtConnect Open Callsは、水彩・紙上作品のリサーチに活用できるグローバルな公募インデックスです。",
-    "why_it_fits_ja": "水彩、紙上作品、ドローイング、レジデンシーなどの機会を発見するためのリソースとして定期的に活用できます。"
+    "one_sentence_ja": "ArtConnect Open Callsは、水彩・紙作品のリサーチに活用できるグローバルな公募インデックスソースです。",
+    "why_it_fits_ja": "水彩、紙作品、ドローイング、レジデンスなどの機会を継続的に探すためのリサーチフィードとして活用できます。"
   },
   {
     "title": "Art Submissions",
@@ -44913,11 +45287,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "水彩艺术节 2026年3月",
-    "one_sentence_zh": "在东京艺术剧场（池袋）举办的水彩专题展，作品尺寸限4号以内，契合都市水彩风格。",
-    "why_it_fits_zh": "在东京艺术剧场（池袋）举办的水彩专题展，作品尺寸限4号以内，契合都市水彩风格。",
+    "one_sentence_zh": "在东京艺术剧场（池袋）举办的水彩专题展览，作品尺寸限4号以内，契合其都市水彩风格。",
+    "why_it_fits_zh": "在东京艺术剧场（池袋）举办的水彩专题展览，作品尺寸限4号以内，契合其都市水彩风格。",
     "name_ja": "水彩アートの祭典 2026年3月",
-    "one_sentence_ja": "東京芸術劇場（池袋）で開催される水彩専門展。4号以内のサイズ制限があり、都市水彩スタイルに適しています。",
-    "why_it_fits_ja": "東京芸術劇場（池袋）で開催される水彩専門展。4号以内のサイズ制限があり、都市水彩スタイルに適しています。"
+    "one_sentence_ja": "東京芸術劇場（池袋）で開催される水彩専門展で、4号以内のサイズ制限があり、都市水彩スタイルに適しています。",
+    "why_it_fits_ja": "東京芸術劇場（池袋）で開催される水彩専門展で、4号以内のサイズ制限があり、都市水彩スタイルに適しています。"
   },
   {
     "title": "Shoto Museum Open Call",
@@ -45328,12 +45702,12 @@
     "rumor_mill_sentiment": "no_data",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "第四回公募展「餐桌」",
-    "one_sentence_zh": "东京画廊举办的主题公募展，面向各类艺术作品征集投稿。",
-    "why_it_fits_zh": "东京画廊举办的主题公募展，面向各类艺术作品征集投稿。",
+    "name_zh": "第四回公募展「食卓」",
+    "one_sentence_zh": "东京画廊举办以\"餐桌\"为主题的公开征集展览。",
+    "why_it_fits_zh": "东京画廊举办以\"餐桌\"为主题的公开征集展览。",
     "name_ja": "第四回公募展「食卓」",
-    "one_sentence_ja": "東京のギャラリーで開催されるテーマ型公募展で、作品を幅広く募集しています。",
-    "why_it_fits_ja": "東京のギャラリーで開催されるテーマ型公募展で、作品を幅広く募集しています。"
+    "one_sentence_ja": "東京のギャラリーがテーマ展示作品を募集する公募展。",
+    "why_it_fits_ja": "東京のギャラリーがテーマ展示作品を募集する公募展。"
   },
   {
     "name": "第六回公募展「鳥」-bird-",
@@ -45457,11 +45831,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "第六回公募展「鸟」-bird-",
-    "one_sentence_zh": "东京画廊举办的主题公募展，征集以鸟为主题的艺术投稿。",
-    "why_it_fits_zh": "东京画廊举办的主题公募展，征集以鸟为主题的艺术投稿。",
+    "one_sentence_zh": "东京画廊举办以\"鸟\"为主题的公开征集展览。",
+    "why_it_fits_zh": "东京画廊举办以\"鸟\"为主题的公开征集展览。",
     "name_ja": "第六回公募展「鳥」-bird-",
-    "one_sentence_ja": "東京のギャラリーで開催されるテーマ型公募展で、作品投稿を募集しています。",
-    "why_it_fits_ja": "東京のギャラリーで開催されるテーマ型公募展で、作品投稿を募集しています。"
+    "one_sentence_ja": "東京のギャラリーがテーマに沿った作品を募集する公募展。",
+    "why_it_fits_ja": "東京のギャラリーがテーマに沿った作品を募集する公募展。"
   },
   {
     "name": "OM SYSTEM PLAZA 2026年2月～3月開催分",
@@ -45586,11 +45960,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "OM SYSTEM PLAZA 2026年2月～3月展期",
-    "one_sentence_zh": "画廊正在征集2026年初展期的参展作品。",
-    "why_it_fits_zh": "画廊正在征集2026年初展期的参展作品。",
+    "one_sentence_zh": "OM SYSTEM PLAZA 画廊正在征集2026年初展期的参展作品。",
+    "why_it_fits_zh": "OM SYSTEM PLAZA 画廊正在征集2026年初展期的参展作品。",
     "name_ja": "OM SYSTEM PLAZA 2026年2月～3月開催分",
-    "one_sentence_ja": "2026年初頭の展示期間に向けて作品を募集しているギャラリーです。",
-    "why_it_fits_ja": "2026年初頭の展示期間に向けて作品を募集しているギャラリーです。"
+    "one_sentence_ja": "OM SYSTEM PLAZA が2026年初頭の展示期間に向けて作品を募集。",
+    "why_it_fits_ja": "OM SYSTEM PLAZA が2026年初頭の展示期間に向けて作品を募集。"
   },
   {
     "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -45910,11 +46284,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Golden Key 国际艺术大赛",
-    "one_sentence_zh": "面向多元艺术家群体的国际艺术竞赛，广泛接受作品投稿。",
-    "why_it_fits_zh": "面向多元艺术家群体的国际艺术竞赛，广泛接受作品投稿。",
+    "one_sentence_zh": "面向多元背景艺术家的国际艺术竞赛，公开征集参赛作品。",
+    "why_it_fits_zh": "面向多元背景艺术家的国际艺术竞赛，公开征集参赛作品。",
     "name_ja": "Golden Key International Art Competition",
-    "one_sentence_ja": "多様なアーティストから幅広く作品を募集する国際アートコンペティションです。",
-    "why_it_fits_ja": "多様なアーティストから幅広く作品を募集する国際アートコンペティションです。"
+    "one_sentence_ja": "多様なアーティストから作品を募集する国際アートコンペティション。",
+    "why_it_fits_ja": "多様なアーティストから作品を募集する国際アートコンペティション。"
   },
   {
     "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
@@ -46332,7 +46706,10 @@
     ],
     "category_label": "Other",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "皇家水彩画家协会",
+    "one_sentence_zh": "皇家水彩画家协会是英国水彩公开展览的重要来源，适用于水彩及纸上作品的研究参考。",
+    "why_it_fits_zh": "原生水彩艺术环境，若要求与日期符合当前情况，则在媒介契合度上具有较强优势。"
   },
   {
     "title": "ARTE VENT Press",
@@ -47104,12 +47481,12 @@
     "site_http_code": 200,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "7月～12月企划展 参与者募集",
-    "one_sentence_zh": "系列团体展览招募艺术家，适合寻求展览机会的插画及水彩艺术家。",
-    "why_it_fits_zh": "系列团体展览招募艺术家，适合寻求展览机会的插画及水彩艺术家。",
+    "name_zh": "7月～12月企划展参与者招募",
+    "one_sentence_zh": "系列团体展览招募艺术家，适合从事插画与水彩创作并寻求展览机会的艺术家。",
+    "why_it_fits_zh": "系列团体展览招募艺术家，适合从事插画与水彩创作并寻求展览机会的艺术家。",
     "name_ja": "7月～12月企画展 参加者募集",
-    "one_sentence_ja": "イラストや水彩の作家が展示機会を求める際に適した、グループ展の参加者募集シリーズ。",
-    "why_it_fits_ja": "イラストや水彩の作家が展示機会を求める際に適した、グループ展の参加者募集シリーズ。"
+    "one_sentence_ja": "イラストや水彩作家など展示機会を求めるアーティストを対象とした、グループ展の連続企画。",
+    "why_it_fits_ja": "イラストや水彩作家など展示機会を求めるアーティストを対象とした、グループ展の連続企画。"
   },
   {
     "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
@@ -47379,8 +47756,8 @@
     "one_sentence_zh": "面向插画及视觉艺术创作者的公开征集展览。",
     "why_it_fits_zh": "面向插画及视觉艺术创作者的公开征集展览。",
     "name_ja": "りんごろごろごろ",
-    "one_sentence_ja": "イラストや視覚芸術に携わるアーティストを対象とした公募展。",
-    "why_it_fits_ja": "イラストや視覚芸術に携わるアーティストを対象とした公募展。"
+    "one_sentence_ja": "イラストや視覚芸術を手がけるアーティスト向けの公募展。",
+    "why_it_fits_ja": "イラストや視覚芸術を手がけるアーティスト向けの公募展。"
   },
   {
     "name": "アートの交差展 vol.6 (Art Intersection Exhibition vol.6)",
@@ -47506,12 +47883,12 @@
     "rumor_mill_sentiment": "no_data",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "アートの交差展 vol.6（艺术交汇展 第6回）",
-    "one_sentence_zh": "东京画廊面向当代艺术家的公开征集展览。",
-    "why_it_fits_zh": "东京画廊面向当代艺术家的公开征集展览。",
-    "name_ja": "アートの交差展 vol.6",
-    "one_sentence_ja": "東京のギャラリーによるコンテンポラリーアーティスト向けの公募展。",
-    "why_it_fits_ja": "東京のギャラリーによるコンテンポラリーアーティスト向けの公募展。"
+    "name_zh": "艺术交汇展 vol.6（Art Intersection Exhibition vol.6）",
+    "one_sentence_zh": "东京画廊面向当代艺术家举办的公开征集展览。",
+    "why_it_fits_zh": "东京画廊面向当代艺术家举办的公开征集展览。",
+    "name_ja": "アートの交差展 vol.6 (Art Intersection Exhibition vol.6)",
+    "one_sentence_ja": "東京のギャラリーが現代アーティストを対象に開催する公募展。",
+    "why_it_fits_ja": "東京のギャラリーが現代アーティストを対象に開催する公募展。"
   },
   {
     "name": "空色ターコイズ",
@@ -47639,11 +48016,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "空色ターコイズ",
-    "one_sentence_zh": "公开征集展览，接受与插画创作风格相符的作品投稿。",
-    "why_it_fits_zh": "公开征集展览，接受与插画创作风格相符的作品投稿。",
+    "one_sentence_zh": "面向插画创作者的公开征集展览。",
+    "why_it_fits_zh": "面向插画创作者的公开征集展览，与其插画实践高度契合。",
     "name_ja": "空色ターコイズ",
-    "one_sentence_ja": "イラスト制作に合致する作品の応募を受け付ける公募展。",
-    "why_it_fits_ja": "イラスト制作に合致する作品の応募を受け付ける公募展。"
+    "one_sentence_ja": "イラスト制作に合致した作品を募集する公募展。",
+    "why_it_fits_ja": "イラスト制作の実践に合致した作品を受け付ける公募展。"
   },
   {
     "title": "Japan Watercolor Society Annual Exhibition",
@@ -48666,12 +49043,12 @@
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "Idemitsu Art Award 2026",
-    "one_sentence_zh": "面向日本国内艺术家（含画家）的重要艺术奖项。",
-    "why_it_fits_zh": "面向日本国内艺术家（含画家）的重要艺术奖项。",
+    "name_zh": "出光艺术奖 2026",
+    "one_sentence_zh": "面向日本在住艺术家及画家的重要艺术奖项。",
+    "why_it_fits_zh": "面向日本在住艺术家及画家的重要艺术奖项。",
     "name_ja": "Idemitsu Art Award 2026",
-    "one_sentence_ja": "画家を含む日本在住アーティストを対象とした主要なアートアワード。",
-    "why_it_fits_ja": "画家を含む日本在住アーティストを対象とした主要なアートアワード。"
+    "one_sentence_ja": "日本在住のアーティストや画家を対象とした主要な美術賞。",
+    "why_it_fits_ja": "日本在住のアーティストや画家を対象とした主要な美術賞。"
   },
   {
     "title": "PhotoVogue",
@@ -49441,12 +49818,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026年度 第1回 初创资助",
-    "one_sentence_zh": "面向艺术项目的初创资助，对正在启动新创作项目的新兴艺术家可能具有参考价值。",
-    "why_it_fits_zh": "面向艺术项目的初创资助，对正在启动新创作项目的新兴艺术家可能具有参考价值。",
+    "name_zh": "2026年度 第1回 スタートアップ助成",
+    "one_sentence_zh": "面向艺术项目的启动资助，适合正在开展新创作计划的新兴艺术家。",
+    "why_it_fits_zh": "面向艺术项目的启动资助，对正在启动新创作计划的新兴艺术家具有潜在价值。",
     "name_ja": "2026年度 第1回 スタートアップ助成",
-    "one_sentence_ja": "芸術プロジェクト向けのスタートアップ助成で、新たな創作活動を始める新進アーティストに関連する可能性があります。",
-    "why_it_fits_ja": "芸術プロジェクト向けのスタートアップ助成で、新たな創作活動を始める新進アーティストに関連する可能性があります。"
+    "one_sentence_ja": "新たな創作活動を始める新進アーティストに向けた芸術プロジェクト支援助成。",
+    "why_it_fits_ja": "新たなクリエイティブ活動を立ち上げる新進アーティストに関連性の高い芸術プロジェクト向けスタートアップ助成。"
   },
   {
     "title": "CuratorSpace",
@@ -49596,11 +49973,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "CuratorSpace",
-    "one_sentence_zh": "CuratorSpace是面向全球水彩/纸上作品研究的公开征集索引来源。",
-    "why_it_fits_zh": "水彩/纸上作品、绘画、驻留及纸上作品机会的发现来源，可作为持续研究渠道使用。",
+    "one_sentence_zh": "CuratorSpace 是面向全球水彩／纸上作品领域的公开征集信息汇聚平台。",
+    "why_it_fits_zh": "可持续关注水彩／纸上作品、素描、驻留及纸本创作机会的信息发现平台，建议作为常规资讯来源定期查阅。",
     "name_ja": "CuratorSpace",
-    "one_sentence_ja": "CuratorSpaceは、水彩・紙上作品のリサーチに向けたグローバルなオープンコール索引ソースです。",
-    "why_it_fits_ja": "水彩・紙上作品、ドローイング、レジデンシーなどの機会を探すための発見ソース。定期的なリサーチフィードとして活用できます。"
+    "one_sentence_ja": "水彩・紙作品分野のリサーチに活用できる、グローバルな公募情報インデックスサイト。",
+    "why_it_fits_ja": "水彩・紙作品、ドローイング、レジデンシー、紙本作品の機会を探るための情報源。定期的なリサーチフィードとして活用を推奨。"
   },
   {
     "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
@@ -50006,11 +50383,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Art on Climate 国际插画大赛 2026",
-    "one_sentence_zh": "面向日本艺术家开放的国际插画大赛，契合插画艺术家的创作方向。",
-    "why_it_fits_zh": "面向日本艺术家开放的国际插画大赛，契合插画艺术家的创作方向。",
+    "one_sentence_zh": "面向日本艺术家开放的国际插画大赛，与插画艺术家的创作方向高度契合。",
+    "why_it_fits_zh": "面向日本艺术家开放的国际插画大赛，与插画艺术家的创作方向高度契合。",
     "name_ja": "Art on Climate インターナショナル・イラストレーション・コンテスト 2026",
-    "one_sentence_ja": "日本のアーティストも応募できる国際イラストレーションコンテストで、イラストレーターのプロフィールに適しています。",
-    "why_it_fits_ja": "日本のアーティストも応募できる国際イラストレーションコンテストで、イラストレーターのプロフィールに適しています。"
+    "one_sentence_ja": "日本人アーティストが応募可能な国際イラストレーションコンテスト。イラストレーターのプロフィールに合致。",
+    "why_it_fits_ja": "日本人アーティストが参加できる国際イラストレーションコンテストで、イラストレーターとしての活動に適している。"
   },
   {
     "title": "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S",
@@ -50309,12 +50686,12 @@
     "submission_process_notes": "The page mentions that TOKAS is accepting applications for 4 residency programs for 2025. It describes one program in detail: the 'Domestic Creator Production Exchange Program' (May-July 2025) for 2 groups, with support for housing, living expenses, production costs, domestic transportation, and shared studio space. It states to check the TOKAS website for details, but the actual application process/link is not fully visible in this truncated content.",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "TOKAS 驻留项目 4项驻留计划公募",
-    "one_sentence_zh": "东京驻留项目，为视觉艺术家提供工作室、生活费及制作费支持，鼓励跨文化创作交流与研究。",
-    "why_it_fits_zh": "东京驻留项目，为视觉艺术家提供工作室、生活费及制作费支持，鼓励跨文化创作交流与研究。",
+    "name_zh": "TOKAS 驻留 4个驻留项目公募",
+    "one_sentence_zh": "东京视觉艺术家驻留项目，提供工作室、生活费及制作费支持，鼓励跨文化创作交流与研究。",
+    "why_it_fits_zh": "东京视觉艺术家驻留项目，提供工作室、生活费及制作费支持，鼓励跨文化创作交流与研究。",
     "name_ja": "TOKAS レジデンシー 4つのレジデンス・プログラム公募",
-    "one_sentence_ja": "東京を拠点とするレジデンシープログラムで、視覚芸術家にスタジオ・生活費・制作費を提供し、異文化間の創作交流と研究を促進します。",
-    "why_it_fits_ja": "東京を拠点とするレジデンシープログラムで、視覚芸術家にスタジオ・生活費・制作費を提供し、異文化間の創作交流と研究を促進します。"
+    "one_sentence_ja": "スタジオ・生活費・制作費を支援する東京の視覚芸術家向けレジデンシー。異文化間の創作交流と研究を促進。",
+    "why_it_fits_ja": "スタジオ・生活費・制作費を提供する東京の視覚芸術家向けレジデンシープログラムで、異文化間の創作交流と研究を支援する。"
   },
   {
     "title": "Boji Hair+Gallery",
@@ -50466,11 +50843,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "Boji Hair+Gallery",
-    "one_sentence_zh": "Boji Hair+Gallery 是东京一处小型画廊，可用于水彩/纸上作品的调研。",
-    "why_it_fits_zh": "潜在的水彩/纸上作品展示场所，推荐前需进一步核实。",
+    "one_sentence_zh": "Boji Hair+Gallery 是东京一家专注水彩／纸上作品研究的小型画廊。",
+    "why_it_fits_zh": "潜在的水彩／纸上作品展示场所，推荐前需进一步核实。",
     "name_ja": "Boji Hair+Gallery",
-    "one_sentence_ja": "Boji Hair+Gallery は、水彩・紙作品のリサーチに活用できる東京の小規模ギャラリーです。",
-    "why_it_fits_ja": "水彩・紙作品に適した会場となる可能性があります。推薦前に要確認。"
+    "one_sentence_ja": "水彩・紙作品のリサーチに活用できる東京の小規模ギャラリー。",
+    "why_it_fits_ja": "水彩・紙作品の展示候補会場として可能性あり。推薦前に要確認。"
   },
   {
     "title": "Hayama Artist Residency",
@@ -50730,12 +51107,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "スタートアップ助成（初创资助）",
-    "one_sentence_zh": "Arts Council Tokyo 面向新兴艺术家的资助项目，适合早期职业视觉艺术家申请。",
-    "why_it_fits_zh": "Arts Council Tokyo 面向新兴艺术家的资助项目，适合早期职业视觉艺术家申请。",
+    "name_zh": "スタートアップ助成（启动资助）",
+    "one_sentence_zh": "Arts Council Tokyo 面向新兴艺术家的支持项目，适合早期职业阶段的视觉艺术家。",
+    "why_it_fits_zh": "Arts Council Tokyo 面向新兴艺术家的支持项目，对早期职业阶段的视觉艺术家具有潜在适用性。",
     "name_ja": "スタートアップ助成 (Startup Grant)",
-    "one_sentence_ja": "Arts Council Tokyo による新進アーティスト支援プログラムで、キャリア初期の視覚芸術家に適している可能性があります。",
-    "why_it_fits_ja": "Arts Council Tokyo による新進アーティスト支援プログラムで、キャリア初期の視覚芸術家に適している可能性があります。"
+    "one_sentence_ja": "新進アーティストを支援するArts Council Tokyoのプログラム。キャリア初期の視覚芸術家に適している可能性あり。",
+    "why_it_fits_ja": "新進アーティストを支援するArts Council Tokyoのプログラムで、キャリア初期の視覚芸術家に適している可能性がある。"
   },
   {
     "title": "AIR_J Open Calls",
@@ -51022,12 +51399,12 @@
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026 亚裔文化遗产艺术展",
-    "one_sentence_zh": "面向海外亚裔艺术家的文化艺术展览，2026年多场展览设有适合水彩作品的参赛类别。",
-    "why_it_fits_zh": "面向海外亚裔艺术家的文化艺术展览，2026年多场展览设有适合水彩作品的参赛类别。",
+    "name_zh": "2026亚裔文化遗产艺术展",
+    "one_sentence_zh": "面向亚裔离散艺术家的文化遗产艺术展，2026年多场展览，含水彩友好类别。",
+    "why_it_fits_zh": "面向亚裔离散艺术家的文化遗产艺术展，2026年多场展览，含水彩友好类别。",
     "name_ja": "2026 Asian Heritage Culture Art Show",
-    "one_sentence_ja": "ディアスポラアーティストを対象としたアジア系文化芸術展で、2026年には水彩作品に対応したカテゴリーを含む複数の展覧会が予定されています。",
-    "why_it_fits_ja": "ディアスポラアーティストを対象としたアジア系文化芸術展で、2026年には水彩作品に対応したカテゴリーを含む複数の展覧会が予定されています。"
+    "one_sentence_ja": "ディアスポラアーティストを対象としたアジア系文化遺産の芸術展；水彩対応カテゴリーを含む2026年の複数展覧会。",
+    "why_it_fits_ja": "ディアスポラアーティストを対象としたアジア系文化遺産の芸術展；水彩対応カテゴリーを含む2026年の複数展覧会。"
   },
   {
     "title": "SCCP Guest Artist",
@@ -51439,11 +51816,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "2026 第37回 美浜美术展",
-    "one_sentence_zh": "面向日本全国画家及艺术家的地区性美术展览。",
-    "why_it_fits_zh": "面向日本全国画家及艺术家开放的地区性美术展览。",
+    "one_sentence_zh": "面向全日本画家及艺术家的地区性综合美术展。",
+    "why_it_fits_zh": "面向全日本画家及艺术家的地区性综合美术展。",
     "name_ja": "2026 第37回 美浜美術展",
-    "one_sentence_ja": "全国の画家・アーティストに開かれた地域美術展。",
-    "why_it_fits_ja": "全国の画家・アーティストを対象とした地域美術展。"
+    "one_sentence_ja": "全国の画家・アーティストを対象とした地域総合美術展。",
+    "why_it_fits_ja": "全国の画家・アーティストを対象とした地域総合美術展。"
   },
   {
     "name": "「公募－日本の絵画2026－」",
@@ -51573,12 +51950,12 @@
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "「公募－日本的绘画2026－」",
-    "one_sentence_zh": "接受水彩画等多种媒材投稿，入选作品于东京松坂屋上野画廊展出，适合水彩艺术家参与。",
-    "why_it_fits_zh": "接受水彩画等多种媒材投稿，入选作品于东京松坂屋上野画廊展出，契合水彩艺术家的创作方向。",
+    "name_zh": "「公募－日本の绘画2026－」",
+    "one_sentence_zh": "在东京松坂屋上野画廊展出的绘画公募展，含水彩类别，适合水彩艺术家参与。",
+    "why_it_fits_zh": "在东京松坂屋上野画廊展出的绘画公募展，含水彩类别，适合水彩艺术家参与。",
     "name_ja": "「公募－日本の絵画2026－」",
-    "one_sentence_ja": "水彩を含む多様な画材による公募展で、入選作は東京・松坂屋上野画廊にて展示される。",
-    "why_it_fits_ja": "水彩を含む多様な画材を対象とした公募展。東京・松坂屋上野画廊での展示あり。水彩作家に適した機会。"
+    "one_sentence_ja": "水彩を含む多様な画材を対象とした公募展；東京・松坂屋上野ギャラリーで展示予定。",
+    "why_it_fits_ja": "水彩を含む多様な画材を対象とした公募展；東京・松坂屋上野ギャラリーで展示予定。"
   },
   {
     "name": "「公募－日本の絵画2026－」入賞・入選発表展",
@@ -51705,12 +52082,12 @@
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "「公募－日本的绘画2026－」获奖·入选发表展",
-    "one_sentence_zh": "以自然与人为主题，接受水彩及混合媒材绘画投稿，入选作品于东京会场展出。",
-    "why_it_fits_zh": "以自然与人为主题，接受水彩及混合媒材绘画投稿，入选作品于东京会场展出。",
+    "name_zh": "「公募－日本の绘画2026－」入奖·入选发表展",
+    "one_sentence_zh": "以自然与人为主题、接受水彩及混合媒材绘画的公募展，在东京展出。",
+    "why_it_fits_zh": "以自然与人为主题、接受水彩及混合媒材绘画的公募展，在东京展出。",
     "name_ja": "「公募－日本の絵画2026－」入賞・入選発表展",
-    "one_sentence_ja": "自然と人をテーマに、水彩・ミクストメディア作品を募集し、東京会場で展示する公募展。",
-    "why_it_fits_ja": "自然と人をテーマとした水彩・ミクストメディア作品の公募展。東京会場にて入賞・入選作品を展示。"
+    "one_sentence_ja": "自然と人をテーマに水彩・混合メディア作品を募集する公募展；東京会場にて発表展示。",
+    "why_it_fits_ja": "自然と人をテーマに水彩・混合メディア作品を募集する公募展；東京会場にて発表展示。"
   },
   {
     "name": "Spring Flora and Fauna Art Exhibition 2026",
@@ -51893,12 +52270,12 @@
     "rumor_mill_sentiment": "no_data",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026年春季动植物艺术展",
-    "one_sentence_zh": "由OCAA主办的春季主题艺术展，适合展示水彩城市观察与建筑题材作品。",
-    "why_it_fits_zh": "由OCAA主办的春季主题艺术展，适合水彩城市观察与建筑题材作品参展。",
+    "name_zh": "2026春季动植物艺术展",
+    "one_sentence_zh": "OCAA主办的春季主题艺术展，适合水彩城市观察与建筑题材作品。",
+    "why_it_fits_zh": "OCAA主办的春季主题艺术展，适合水彩城市观察与建筑题材作品。",
     "name_ja": "Spring Flora and Fauna Art Exhibition 2026",
-    "one_sentence_ja": "OCAA主催の春をテーマにした美術展。水彩による都市観察・建築作品に適している。",
-    "why_it_fits_ja": "OCAApring主催の春テーマ展。水彩の都市観察・建築作品に向いた公募展。"
+    "one_sentence_ja": "OCAA主催の春をテーマにした芸術展；水彩による都市観察・建築作品に適した公募。",
+    "why_it_fits_ja": "OCAA主催の春をテーマにした芸術展；水彩による都市観察・建築作品に適した公募。"
   },
   {
     "name": "滋賀県愛荘町絵画展",
@@ -52027,11 +52404,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "滋贺县爱庄町绘画展",
-    "one_sentence_zh": "面向全国艺术家的公募展，接受水彩等多种绘画技法投稿，设有奖项。",
-    "why_it_fits_zh": "面向全国艺术家开放，接受水彩等多种绘画技法，设有奖项。",
+    "one_sentence_zh": "面向全国艺术家的绘画公募展，接受水彩等多种绘画技法，设有奖项。",
+    "why_it_fits_zh": "面向全国艺术家的绘画公募展，接受水彩等多种绘画技法，设有奖项。",
     "name_ja": "滋賀県愛荘町絵画展",
-    "one_sentence_ja": "水彩をはじめ多様な絵画技法で全国から応募可能な公募展。賞あり。",
-    "why_it_fits_ja": "水彩など多様な画法を受け付ける全国公募の絵画展。入賞制度あり。"
+    "one_sentence_ja": "水彩を含む多様な絵画技法を全国から募集する公募展；各種賞あり。",
+    "why_it_fits_ja": "水彩を含む多様な絵画技法を全国から募集する公募展；各種賞あり。"
   },
   {
     "name": "第92回旺玄展",
@@ -52159,11 +52536,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "第92回旺玄展",
-    "one_sentence_zh": "在东京举办的知名展览，接受水彩、绘画及数字艺术投稿。",
-    "why_it_fits_zh": "在东京举办的知名展览，接受水彩、绘画及数字艺术投稿。",
+    "one_sentence_zh": "东京知名综合美展，接受水彩、绘画及数字艺术作品投稿。",
+    "why_it_fits_zh": "东京知名综合美展，接受水彩、绘画及数字艺术作品投稿。",
     "name_ja": "第92回旺玄展",
-    "one_sentence_ja": "水彩・絵画・デジタルアートの応募を受け付ける、歴史ある東京の公募展。",
-    "why_it_fits_ja": "水彩・絵画・デジタルアートを対象とした東京の老舗公募展。"
+    "one_sentence_ja": "水彩・絵画・デジタルアートの応募を受け付ける東京の老舗公募展。",
+    "why_it_fits_ja": "水彩・絵画・デジタルアートの応募を受け付ける東京の老舗公募展。"
   },
   {
     "title": "Royal Watercolour Society",
@@ -52314,12 +52691,12 @@
       "gallery_cv"
     ],
     "has_prerequisites": true,
-    "name_zh": "英国皇家水彩协会",
-    "one_sentence_zh": "英国皇家水彩协会是英国水彩及纸本作品领域的重要参考资源。",
-    "why_it_fits_zh": "水彩本位的专业机构，媒材契合度高，如相关要求与日期适用则值得关注。",
+    "name_zh": "英国皇家水彩学会",
+    "one_sentence_zh": "英国权威水彩艺术机构，是水彩及纸上作品研究的重要参考来源。",
+    "why_it_fits_zh": "水彩原生语境，媒材高度契合；如要求与日期为最新信息则强烈推荐。",
     "name_ja": "Royal Watercolour Society",
-    "one_sentence_ja": "英国における水彩・紙作品の研究・参照先として重要な水彩協会。",
-    "why_it_fits_ja": "水彩を本領とする団体。要件と日程が合致すれば媒体適合性は高い。"
+    "one_sentence_ja": "英国の権威ある水彩画協会；水彩・紙作品のリサーチに適した情報源。",
+    "why_it_fits_ja": "水彩のネイティブな文脈に合致。要件と日程が最新であれば媒材適合性は非常に高い。"
   },
   {
     "title": "Kyoto Art Center Residency",
@@ -52614,12 +52991,12 @@
     "reject_reason": "dedup_blank_duplicate",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "Pastel Society 公开展览",
-    "one_sentence_zh": "Pastel Society Open Exhibition 是英国一项纸上作品公开展览，适合水彩及纸上作品方向的调研。",
-    "why_it_fits_zh": "面向水彩、纸上作品及素描的公开展览，适合直接核实申请信息。",
+    "name_zh": "粉彩协会公开展览",
+    "one_sentence_zh": "粉彩协会公开展览是英国一项面向纸上作品的公开展览资源，适合水彩/纸上作品方向的调研。",
+    "why_it_fits_zh": "适合水彩、素描或纸上作品的公开展览场景，建议直接核实相关信息。",
     "name_ja": "Pastel Society Open Exhibition",
-    "one_sentence_ja": "Pastel Society Open Exhibitionは英国における紙作品のオープン展覧会で、水彩・紙作品のリサーチに適している。",
-    "why_it_fits_ja": "水彩・紙作品・ドローイング向けのオープン展示。詳細の直接確認に適した候補。"
+    "one_sentence_ja": "Pastel Society Open Exhibitionは、英国における水彩・紙上作品リサーチのための公募展情報源です。",
+    "why_it_fits_ja": "水彩・素描・紙上作品に適した公募展。要項と開催時期の最新確認を推奨。"
   },
   {
     "title": "Royal Institute of Painters in Water Colours",
@@ -52768,12 +53145,12 @@
     "reject_reason": "dedup_blank_duplicate",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "Royal Institute of Painters in Water Colours",
-    "one_sentence_zh": "英国水彩公开展览来源，适合水彩及纸上作品方向的调研。",
-    "why_it_fits_zh": "原生水彩语境，媒介契合度强，需确认参展要求与截止日期是否最新。",
+    "name_zh": "皇家水彩画家协会",
+    "one_sentence_zh": "皇家水彩画家协会是英国一项专注水彩的公开展览资源，适合水彩/纸上作品方向的调研。",
+    "why_it_fits_zh": "原生水彩展览环境，媒介契合度高，建议确认要求与日期是否为最新信息。",
     "name_ja": "Royal Institute of Painters in Water Colours",
-    "one_sentence_ja": "英国の水彩公募展。水彩・紙上作品のリサーチに適したソース。",
-    "why_it_fits_ja": "水彩に特化した文脈で、媒体適合性が高い。要件と募集期間が最新であるか確認が必要。"
+    "one_sentence_ja": "Royal Institute of Painters in Water Coloursは、英国における水彩公募展のリサーチ情報源です。",
+    "why_it_fits_ja": "水彩に特化した展覧会。媒体適合性が高く、要項・日程の最新確認を推奨。"
   },
   {
     "name": "秀彩会小品展2026",
@@ -52901,11 +53278,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "秀彩会小品展2026",
-    "one_sentence_zh": "东京地区举办的水彩画小品展（10号以下），兼收水彩及其他媒介作品。",
-    "why_it_fits_zh": "东京地区举办的水彩画小品展（10号以下），兼收水彩及其他媒介作品。",
+    "one_sentence_zh": "在东京地区举办的水彩绘画展（10号以下），接受水彩及其他媒介作品。",
+    "why_it_fits_zh": "东京地区举办的水彩绘画展，接受10号以下水彩及其他媒介作品。",
     "name_ja": "秀彩会小品展2026",
-    "one_sentence_ja": "東京エリアで開催される水彩画小品展（10号以下）で、水彩を含む複数の画材の作品を受け付けている。",
-    "why_it_fits_ja": "東京エリアで開催される水彩画小品展（10号以下）で、水彩を含む複数の画材の作品を受け付けている。"
+    "one_sentence_ja": "東京エリアで開催される水彩画展（10号以下）で、水彩を含む複数の画材を受け付けています。",
+    "why_it_fits_ja": "水彩を含む複数媒体対応の小品展。東京エリア開催で参加しやすい。"
   },
   {
     "name": "2026 OCAA Ladies Art Exhibition",
@@ -53041,12 +53418,12 @@
     "rumor_mill_sentiment": "no_data",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026 OCAA 女性艺术家展览",
-    "one_sentence_zh": "由多伦多华人艺术协会主办的专属女性艺术家展览。",
-    "why_it_fits_zh": "由多伦多华人艺术协会主办的专属女性艺术家展览。",
+    "name_zh": "2026 OCAA女性艺术展",
+    "one_sentence_zh": "由多伦多华人艺术协会主办的女性艺术家专题展览。",
+    "why_it_fits_zh": "由多伦多华人艺术协会主办的女性艺术家专题展览。",
     "name_ja": "2026 OCAA Ladies Art Exhibition",
-    "one_sentence_ja": "トロントを拠点とする中国系アート協会による女性アーティスト専用の展覧会。",
-    "why_it_fits_ja": "トロントを拠点とする中国系アート協会による女性アーティスト専用の展覧会。"
+    "one_sentence_ja": "トロントを拠点とする中国人アート協会による、女性アーティスト専門の展覧会。",
+    "why_it_fits_ja": "トロントの中国系アート協会が主催する女性アーティスト専門の展覧会。"
   },
   {
     "name": "2026 Kyoto Museum International Art Grand Exhibition",
@@ -53165,12 +53542,12 @@
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "2026 京都博物馆国际艺术大展",
-    "one_sentence_zh": "在日本（京都）举办的国际艺术竞赛，对寻求区域机会的东京艺术家具有参考价值。",
-    "why_it_fits_zh": "在日本（京都）举办的国际艺术竞赛，对寻求区域机会的东京艺术家具有参考价值。",
+    "name_zh": "2026京都博物馆国际艺术大展",
+    "one_sentence_zh": "在日本京都举办的国际艺术竞赛，对在东京从事创作的艺术家寻求周边机会具有参考价值。",
+    "why_it_fits_zh": "在日本京都举办的国际艺术竞赛，对寻求地区机会的东京艺术家具有参考价值。",
     "name_ja": "2026 Kyoto Museum International Art Grand Exhibition",
-    "one_sentence_ja": "日本（京都）で開催される国際アートコンペティション。地域の機会を求める東京在住アーティストに関連性が高い。",
-    "why_it_fits_ja": "日本（京都）で開催される国際アートコンペティション。地域の機会を求める東京在住アーティストに関連性が高い。"
+    "one_sentence_ja": "京都で開催される国際アートコンペで、東京在住アーティストが国内の機会を探る際に有益です。",
+    "why_it_fits_ja": "京都開催の国際美術公募展。東京在住アーティストが地域の機会を広げるのに適しています。"
   },
   {
     "title": "Sunny Boy Books",
@@ -53529,12 +53906,12 @@
     "rumor_mill_sentiment": "no_data",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "kamome gallery 2026年1月〜3月展示（Kamome Gallery 2026年1–3月）",
-    "one_sentence_zh": "东京咖啡画廊提供的免费展览空间，聚焦水彩与插画。",
-    "why_it_fits_zh": "东京咖啡画廊提供的免费展览空间，聚焦水彩与插画。",
+    "name_zh": "kamome gallery 2026年1月〜3月展示",
+    "one_sentence_zh": "东京咖啡画廊提供免费展览空间，专注水彩与插画方向。",
+    "why_it_fits_zh": "东京咖啡画廊，提供免费展览空间，聚焦水彩与插画创作。",
     "name_ja": "kamome gallery 2026年1月〜3月展示",
-    "one_sentence_ja": "水彩・イラストに特化した東京のカフェギャラリーによる無料展示スペース。",
-    "why_it_fits_ja": "水彩・イラストに特化した東京のカフェギャラリーによる無料展示スペース。"
+    "one_sentence_ja": "水彩・イラストに特化した東京のカフェギャラリーで、無料で展示スペースを提供。",
+    "why_it_fits_ja": "水彩・イラスト中心の東京カフェギャラリー。無料展示スペースあり。"
   },
   {
     "title": "Clouds Art + Coffee",
@@ -53700,7 +54077,23 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "contact": "@clouds_koenji (Instagram)",
-    "instagram": "@clouds_koenji"
+    "instagram": "@clouds_koenji",
+    "name_zh": "Clouds Art + Coffee",
+    "one_sentence_zh": "位于高円寺的咖啡画廊，轮换展示本地及国际新兴艺术家作品，无内容审查，社群氛围浓厚。",
+    "why_it_fits_zh": "轮换展览，欢迎本地与国际新兴艺术家，位于高円寺。一级环境曝光——咖啡馆印刷品与墙面展示。",
+    "three_bullets_zh": [
+      "高円寺咖啡画廊，轮换展览，欢迎新兴艺术家。",
+      "无内容审查——鼓励艺术家自由表达自我。",
+      "本地与国际艺术家混合——社群契合度高。"
+    ],
+    "name_ja": "Clouds Art + Coffee",
+    "one_sentence_ja": "高円寺のカフェギャラリーで、国内外の新進アーティストの作品を順次展示。検閲なし、コミュニティとの親和性が高い。",
+    "why_it_fits_ja": "ローテーション展示形式で国内外の新進アーティストを歓迎。高円寺エリアに位置し、カフェ内での印刷物・壁面展示による日常的な露出が期待できる。",
+    "three_bullets_ja": [
+      "高円寺のカフェギャラリー。ローテーション展示で新進アーティストを歓迎。",
+      "検閲なし——アーティストが自由に自己表現できる環境。",
+      "国内外のアーティストが混在——コミュニティとの相性が良い。"
+    ]
   },
   {
     "title": "MADO Café",
@@ -53847,7 +54240,23 @@
     "contact_source": "rumor_mill_expansion",
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "MADO Café",
+    "one_sentence_zh": "位于高円寺的小型街区咖啡画廊，现状不明，机构存在感较弱。",
+    "why_it_fits_zh": "地理位置与日本创作方向契合，展览压力低，但职业发展潜力有限，定位模糊。",
+    "three_bullets_zh": [
+      "仅有Instagram账号，展览环境较为随性，受众可能以游客和本地居民为主。",
+      "高円寺地理位置具有东京街区的真实感，但专业曝光度有限。",
+      "投稿流程、费用及是否仍在运营均不明确，可能需要主动私信联系。"
+    ],
+    "name_ja": "MADO Café",
+    "one_sentence_ja": "高円寺の小さな街角カフェギャラリー。現在の活動状況が不明で、組織的な存在感も薄い。",
+    "why_it_fits_ja": "日本での活動という地理的適合性と気軽さはあるが、キャリア向上の可能性は低く、位置づけも曖昧。",
+    "three_bullets_ja": [
+      "Instagramのみの告知で、展示はカジュアルな雰囲気。来場者は観光客や近隣住民が中心と思われる。",
+      "高円寺という東京らしいローカル感はあるが、プロとしての露出は限定的。",
+      "応募方法・費用・現在の活動状況が不明。DMでの問い合わせが必要になる可能性がある。"
+    ]
   },
   {
     "name": "水彩アートのみ展示イベント",
@@ -53975,7 +54384,13 @@
     "fees_source": "rumor_mill_expansion",
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "纯水彩艺术展示活动",
+    "one_sentence_zh": "东京举办的仅限水彩作品的公开征集展览，欢迎各阶段艺术家参与。",
+    "why_it_fits_zh": "东京举办的仅限水彩作品的公开征集展览，欢迎各阶段艺术家参与。",
+    "name_ja": "水彩アートのみ展示イベント",
+    "one_sentence_ja": "東京で開催される水彩画限定の公募展で、キャリアを問わず幅広いアーティストを受け付けています。",
+    "why_it_fits_ja": "東京で開催される水彩画限定の公募展で、キャリアを問わず幅広いアーティストを受け付けています。"
   },
   {
     "name": "Tokyo Open Call for Artists & Creatives",
@@ -54119,7 +54534,13 @@
     "fees_source": "rumor_mill_expansion",
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "东京艺术家与创意人公开征集",
+    "one_sentence_zh": "面向艺术家与创意人的东京公开征集活动，展览地点位于涩谷／原宿。",
+    "why_it_fits_zh": "面向艺术家与创意人的东京公开征集活动，展览地点位于涩谷／原宿。",
+    "name_ja": "Tokyo Open Call for Artists & Creatives",
+    "one_sentence_ja": "渋谷・原宿エリアの会場で開催される、アーティスト・クリエイター向けの東京公募展です。",
+    "why_it_fits_ja": "渋谷・原宿エリアの会場で開催される、アーティスト・クリエイター向けの東京公募展です。"
   },
   {
     "name": "日本透明水彩会 2026",
@@ -54250,7 +54671,13 @@
     "score_sanity_note": "Score capped at 8.6 because source/verification strength is limited.",
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "日本透明水彩会 2026",
+    "one_sentence_zh": "日本透明水彩专题展览，设有示范活动，专为透明水彩艺术家打造。",
+    "why_it_fits_zh": "日本透明水彩专题展览，设有示范活动，专为透明水彩艺术家打造。",
+    "name_ja": "日本透明水彩会 2026",
+    "one_sentence_ja": "透明水彩に特化した日本の展覧会で、透明水彩画家向けのデモンストレーションイベントも開催されます。",
+    "why_it_fits_ja": "透明水彩に特化した日本の展覧会で、透明水彩画家向けのデモンストレーションイベントも開催されます。"
   },
   {
     "name": "RawGround 2026",
@@ -54394,7 +54821,13 @@
     "fees_source": "rumor_mill_expansion",
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "RawGround 2026",
+    "one_sentence_zh": "新加坡跨领域艺术节，为视觉艺术家提供展览与工作坊机会，是当代艺术的开放平台。",
+    "why_it_fits_zh": "新加坡跨领域艺术节，为视觉艺术家提供展览与工作坊机会，是当代艺术的开放平台。",
+    "name_ja": "RawGround 2026",
+    "one_sentence_ja": "シンガポールで開催される複合芸術フェスティバルで、展示やワークショップを通じて視覚芸術家を受け入れる現代アートのオープンプラットフォームです。",
+    "why_it_fits_ja": "シンガポールで開催される複合芸術フェスティバルで、展示やワークショップを通じて視覚芸術家を受け入れる現代アートのオープンプラットフォームです。"
   },
   {
     "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
@@ -54589,7 +55022,13 @@
     "final_score_guard_note": "Rescored 4.0 → 3.9 (verification_points=5, composite=3.98)",
     "career_tier": 3,
     "tier_adjustment": -0.5,
-    "recommendation_visibility": "hidden"
+    "recommendation_visibility": "hidden",
+    "name_zh": "中文插画出版物（ILOVETOYS、neuprint）",
+    "one_sentence_zh": "积极寻找海外华人艺术家的中文插画杂志，适合身处东京、拥有9万粉丝的华人艺术家投稿。",
+    "why_it_fits_zh": "她是华人艺术家，\"用水彩记录东京的中国画家\"正是这类出版物所青睐的跨文化叙事，且竞争压力低于日本媒体。",
+    "name_ja": "中国イラスト出版物（ILOVETOYS、neuprint）",
+    "one_sentence_ja": "海外在住の中国人アーティストを積極的に探している中国のイラスト誌で、東京在住・フォロワー9万人の中国人アーティストにとって有力な発信の場です。",
+    "why_it_fits_ja": "「東京を水彩で記録する中国人アーティスト」というクロスカルチャーなストーリーはこれらの出版物が求めるもので、日本メディアより競争が少なく近い将来のチャンスです。"
   },
   {
     "name": "2026 International Children and Youth Painting Competition Summer Season",
@@ -54718,7 +55157,13 @@
     "verification_score": 7,
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "2026年国际儿童与青少年绘画大赛（夏季）",
+    "one_sentence_zh": "以色彩与创意表达为主题的国际绘画比赛，与水彩及插画创作方向高度契合。",
+    "why_it_fits_zh": "以色彩与创意表达为主题的国际绘画比赛，与水彩及插画创作方向高度契合。",
+    "name_ja": "2026年 国際児童・青少年絵画コンクール 夏季部門",
+    "one_sentence_ja": "色彩と創造的表現をテーマにした国際絵画コンクールで、水彩・イラスト制作と親和性があります。",
+    "why_it_fits_ja": "色彩と創造的表現をテーマにした国際絵画コンクールで、水彩・イラスト制作と親和性があります。"
   },
   {
     "title": "loneliness books",
@@ -55068,11 +55513,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "水彩公开征集展览",
-    "one_sentence_zh": "接受抽象、写实、速写等多元风格的水彩公开展览。",
-    "why_it_fits_zh": "接受抽象、写实、速写等多元风格的水彩公开展览。",
+    "one_sentence_zh": "开放式水彩展览，接受抽象、写实、速写等多元风格的作品投稿。",
+    "why_it_fits_zh": "开放式水彩展览，接受抽象、写实、速写等多元风格的作品投稿。",
     "name_ja": "Watercolor Open Call Exhibition",
-    "one_sentence_ja": "抽象・写実・スケッチなど多様なスタイルを受け付ける水彩のオープンコール展。",
-    "why_it_fits_ja": "抽象・写実・スケッチなど多様なスタイルを受け付ける水彩のオープンコール展。"
+    "one_sentence_ja": "抽象・写実・スケッチなど多様なスタイルを受け入れるオープンな水彩公募展です。",
+    "why_it_fits_ja": "抽象・写実・スケッチなど多様なスタイルを受け入れるオープンな水彩公募展です。"
   },
   {
     "name": "NEW AIR 2026",
@@ -55212,11 +55657,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "NEW AIR 2026",
-    "one_sentence_zh": "面向亚洲艺术家的驻留项目，与东京本地的创作实践高度契合。",
-    "why_it_fits_zh": "面向亚洲艺术家的驻留项目，与东京本地的创作实践高度契合。",
+    "one_sentence_zh": "面向亚洲艺术家的驻留项目，与东京创作实践高度契合。",
+    "why_it_fits_zh": "面向亚洲艺术家的驻留项目，与东京创作实践高度契合。",
     "name_ja": "NEW AIR 2026",
-    "one_sentence_ja": "アジア在住アーティストを招くレジデンスプログラム。東京を拠点とする実践と方向性が一致。",
-    "why_it_fits_ja": "アジア在住アーティストを招くレジデンスプログラム。東京を拠点とする実践と方向性が一致。"
+    "one_sentence_ja": "アジア在住のアーティストを招聘するアーティスト・イン・レジデンスプログラムで、東京を拠点とする活動と合致しています。",
+    "why_it_fits_ja": "アジア在住のアーティストを招聘するアーティスト・イン・レジデンスプログラムで、東京を拠点とする活動と合致しています。"
   },
   {
     "title": "Dig A Hole Zines",
@@ -55561,12 +56006,12 @@
     "rumor_mill_sentiment": "positive",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "第五届新加坡华人艺术展 2026",
-    "one_sentence_zh": "面向对插画及当代艺术实践感兴趣的艺术家的新加坡团体展览。",
-    "why_it_fits_zh": "面向对插画及当代艺术实践感兴趣的艺术家的新加坡团体展览。",
-    "name_ja": "5th Singapore Chinese Art Exhibition 2026",
-    "one_sentence_ja": "イラストや現代アート実践に関心を持つアーティストを対象とした、シンガポールのグループ展。",
-    "why_it_fits_ja": "イラストや現代アート実践に関心を持つアーティストを対象とした、シンガポールのグループ展。"
+    "name_zh": "第五届新加坡中国艺术展 2026",
+    "one_sentence_zh": "面向对插画及当代艺术实践感兴趣的艺术家的新加坡联展。",
+    "why_it_fits_zh": "面向对插画及当代艺术实践感兴趣的艺术家的新加坡联展。",
+    "name_ja": "第5回シンガポール中国芸術展 2026",
+    "one_sentence_ja": "イラストレーションや現代アートに関心のある作家を対象としたシンガポールのグループ展。",
+    "why_it_fits_ja": "イラストレーションや現代アートに関心のある作家を対象としたシンガポールのグループ展。"
   },
   {
     "name": "上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)",
@@ -55869,11 +56314,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "南京插画艺术家展览 2026年3月",
-    "one_sentence_zh": "南京举办的展览，允许艺术家提交最多5件作品并提供销售机会，非常适合插画创作方向。",
-    "why_it_fits_zh": "南京举办的展览，允许艺术家提交最多5件作品并提供销售机会，非常适合插画创作方向。",
+    "one_sentence_zh": "在南京举办的展览，艺术家可提交最多5件作品并获销售机会，非常适合插画创作者。",
+    "why_it_fits_zh": "在南京举办的展览，艺术家可提交最多5件作品并获销售机会，非常适合插画创作者。",
     "name_ja": "南京イラストレーター展覧会 2026年3月",
-    "one_sentence_ja": "南京で開催される展覧会。最大5点の作品を出品でき販売機会もあり、イラスト系の実践に最適。",
-    "why_it_fits_ja": "南京で開催される展覧会。最大5点の作品を出品でき販売機会もあり、イラスト系の実践に最適。"
+    "one_sentence_ja": "南京で開催される展覧会で、最大5点の作品を出品・販売でき、イラスト系作家に最適。",
+    "why_it_fits_ja": "南京で開催される展覧会で、最大5点の作品を出品・販売でき、イラスト系作家に最適。"
   },
   {
     "title": "ZINE FARM TOKYO",
@@ -56198,12 +56643,12 @@
     "tier_adjustment": -0.5,
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "巴黎艺术家驻留项目 2026/2027",
-    "one_sentence_zh": "面向艺术家的国际驻留项目，提供助成金支持，涵盖2026/2027周期。",
-    "why_it_fits_zh": "面向艺术家的国际驻留项目，提供助成金支持，涵盖2026/2027周期。",
-    "name_ja": "Artist in Residence program in Paris 2026/2027",
-    "one_sentence_ja": "2026/2027年度サイクルの助成金支援が明記された、アーティスト向け国際レジデンシープログラム。",
-    "why_it_fits_ja": "2026/2027年度サイクルの助成金支援が明記された、アーティスト向け国際レジデンシープログラム。"
+    "name_zh": "巴黎驻留艺术家项目 2026/2027",
+    "one_sentence_zh": "提供助成金支持的国际艺术家驻留项目，2026/2027周期明确提供资金资助。",
+    "why_it_fits_zh": "提供助成金支持的国际艺术家驻留项目，2026/2027周期明确提供资金资助。",
+    "name_ja": "パリ・アーティスト・イン・レジデンス 2026/2027",
+    "one_sentence_ja": "アーティストへの助成金支援を提供する国際レジデンスプログラムで、2026/2027サイクルでの助成金支給が明記されている。",
+    "why_it_fits_ja": "アーティストへの助成金支援を提供する国際レジデンスプログラムで、2026/2027サイクルでの助成金支給が明記されている。"
   },
   {
     "name": "The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)",
@@ -56327,11 +56772,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "日本国际交流基金会亚洲艺术文化奖学金（视觉艺术）",
-    "one_sentence_zh": "日本国际交流基金会面向亚洲地区当代艺术家设立的视觉艺术奖学金项目。",
-    "why_it_fits_zh": "日本国际交流基金会面向亚洲地区当代艺术家设立的视觉艺术奖学金项目。",
-    "name_ja": "The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)",
-    "one_sentence_ja": "国際交流基金によるアジアの現代アーティストを支援する、アジア特化型ビジュアルアーツ・フェローシップ。",
-    "why_it_fits_ja": "国際交流基金によるアジアの現代アーティストを支援する、アジア特化型ビジュアルアーツ・フェローシップ。"
+    "one_sentence_zh": "由日本国际交流基金会设立、面向亚洲当代视觉艺术家的奖学金项目。",
+    "why_it_fits_zh": "由日本国际交流基金会设立、面向亚洲当代视觉艺术家的奖学金项目。",
+    "name_ja": "The Japan Foundation Fellowship for Arts and Culture in Asia（視覚芸術）",
+    "one_sentence_ja": "The Japan Foundationによるアジア重視のビジュアルアーツ・フェローシップで、地域の現代作家を支援する。",
+    "why_it_fits_ja": "The Japan Foundationによるアジア重視のビジュアルアーツ・フェローシップで、地域の現代作家を支援する。"
   },
   {
     "name": "New York Fellowship",
@@ -56458,11 +56903,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "纽约奖学金项目",
-    "one_sentence_zh": "全额资助项目，旨在促进亚洲与美国之间的文化交流，助力GEGYjiji等艺术家通过国际沉浸式体验创作作品。",
-    "why_it_fits_zh": "全额资助项目，旨在促进亚洲与美国之间的文化交流，助力GEGYjiji等艺术家通过国际沉浸式体验发展创作。",
-    "name_ja": "New York Fellowship",
-    "one_sentence_ja": "アジアと米国の文化交流を促進するための全額支援プログラムで、GEGYjijiのようなアーティストが国際的な環境で作品を発展させることを可能にする。",
-    "why_it_fits_ja": "アジアと米国の文化交流を促進するための全額支援プログラムで、GEGYjijiのようなアーティストが国際的な環境で作品を発展させることを可能にする。"
+    "one_sentence_zh": "全额资助的项目，旨在促进亚洲与美国之间的文化交流，助力GEGYjiji等艺术家通过国际沉浸式体验深化创作。",
+    "why_it_fits_zh": "全额资助的项目，旨在促进亚洲与美国之间的文化交流，助力GEGYjiji等艺术家通过国际沉浸式体验深化创作。",
+    "name_ja": "ニューヨーク・フェローシップ",
+    "one_sentence_ja": "アジアと米国の文化交流を促進する全額支援プログラムで、GEGYjijiのような作家が国際的な環境で制作を深める機会を提供する。",
+    "why_it_fits_ja": "アジアと米国の文化交流を促進する全額支援プログラムで、GEGYjijiのような作家が国際的な環境で制作を深める機会を提供する。"
   },
   {
     "name": "2026国际艺术大赏展",
@@ -56603,11 +57048,11 @@
     "prerequisites": [],
     "has_prerequisites": false,
     "name_zh": "2026国际艺术大赏展",
-    "one_sentence_zh": "2026年4月8日至13日于上野之森美术馆举办的国际艺术大奖展览，面向艺术家公开征集作品。",
-    "why_it_fits_zh": "2026年4月8日至13日于上野之森美术馆举办的国际艺术大奖展览，面向艺术家公开征集作品。",
+    "one_sentence_zh": "2026年4月8日至13日在上野之森美术馆举办的国际艺术奖项展览，向艺术家公开征集作品。",
+    "why_it_fits_zh": "2026年4月8日至13日在上野之森美术馆举办的国际艺术奖项展览，向艺术家公开征集作品。",
     "name_ja": "2026国際芸術大賞展",
-    "one_sentence_ja": "2026年4月8日〜13日に上野の森美術館で開催される国際芸術大賞展。アーティストからの公募作品を受け付ける。",
-    "why_it_fits_ja": "2026年4月8日〜13日に上野の森美術館で開催される国際芸術大賞展。アーティストからの公募作品を受け付ける。"
+    "one_sentence_ja": "2026年4月8〜13日に上野の森美術館で開催される国際アート賞展覧会で、作家からの公募を受け付ける。",
+    "why_it_fits_ja": "2026年4月8〜13日に上野の森美術館で開催される国際アート賞展覧会で、作家からの公募を受け付ける。"
   },
   {
     "title": "NEW AIR",
@@ -56863,12 +57308,12 @@
     "rumor_mill_sentiment": "no_data",
     "prerequisites": [],
     "has_prerequisites": false,
-    "name_zh": "Muninova艺术家奖",
-    "one_sentence_zh": "面向公众介绍艺术作品的开放征集活动，接受多元化视觉艺术作品投稿。",
-    "why_it_fits_zh": "面向公众介绍艺术作品的开放征集活动，接受多元化视觉艺术作品投稿。",
+    "name_zh": "Muninova 艺术家奖",
+    "one_sentence_zh": "面向公众推介艺术作品的公开征集活动，接受多元视觉艺术投稿。",
+    "why_it_fits_zh": "面向公众推介艺术作品的公开征集活动，接受多元视觉艺术投稿。",
     "name_ja": "Muninova Artist Award",
-    "one_sentence_ja": "多様なビジュアルアート作品を受け付ける、作品を広く一般に紹介するためのオープンコール。",
-    "why_it_fits_ja": "多様なビジュアルアート作品を受け付ける、作品を広く一般に紹介するためのオープンコール。"
+    "one_sentence_ja": "作品を広く一般に紹介するためのオープンコールで、多様なビジュアルアート作品の応募を受け付ける。",
+    "why_it_fits_ja": "作品を広く一般に紹介するためのオープンコールで、多様なビジュアルアート作品の応募を受け付ける。"
   },
   {
     "title": "twelvebooks",
@@ -57264,7 +57709,25 @@
     "tier_adjustment": -0.5,
     "verification_score": 2,
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "2026年日本艺术家驻留项目\"SAIKONEON\"公开征集（富士山附近）",
+    "one_sentence_zh": "通过定向调研发现的驻留机会，如符合申请条件则值得关注。",
+    "why_it_fits_zh": "该机会属于结构化驻留类别，通常可核实申请要求、时间、费用及提交方式，具有潜在适配性。",
+    "three_bullets_zh": [
+      "来源类别：驻留项目。",
+      "搜索分组：驻留项目。",
+      "首要行动：确认截止日期、驻留时长、费用、地点及视觉艺术家是否符合申请资格。",
+      "检测信号：截止日期信号。"
+    ],
+    "name_ja": "2026「SAIKONEON」アーティスト・イン・レジデンス公募（富士山近郊）",
+    "one_sentence_ja": "目的別調査で見つかったレジデンス機会。要件と適合性を確認する価値がある。",
+    "why_it_fits_ja": "要件・日程・費用・応募方法を確認しやすい構造化された機会カテゴリに属しており、適合の可能性がある。",
+    "three_bullets_ja": [
+      "ソースカテゴリ：レジデンス。",
+      "検索グループ：レジデンス。",
+      "最初のアクション：締め切り、期間、費用、場所、ビジュアルアーティストの応募資格を確認する。",
+      "検出シグナル：締め切りシグナル。"
+    ]
   },
   {
     "title": "Asian Cultural Council Fellowship",
@@ -57390,7 +57853,23 @@
     "prerequisites": [
       "exhibition_credits_3"
     ],
-    "has_prerequisites": true
+    "has_prerequisites": true,
+    "name_zh": "亚洲文化协会奖学金",
+    "one_sentence_zh": "享有盛誉的资助项目，支持亚洲艺术家及艺术从业者开展国际文化交流、驻留及旅行研究。",
+    "why_it_fits_zh": "专为寻求国际发展的亚洲艺术家而设，奖学金可资助研究旅行、驻留及国际人脉拓展，契合当前职业阶段。",
+    "three_bullets_zh": [
+      "专为身处相似处境的艺术家设计——寻求国际职业发展的亚洲艺术家。",
+      "享有高度声誉，在亚洲及美国拥有强大的校友网络。",
+      "奖学金支持可资助计划中的深度创作年或国际驻留项目。"
+    ],
+    "name_ja": "Asian Cultural Council フェローシップ",
+    "one_sentence_ja": "アジアのアーティストや芸術関係者の国際文化交流・レジデンス・調査旅行を支援する権威ある助成プログラム。",
+    "why_it_fits_ja": "国際的なキャリア構築を目指すアジア人アーティストのために設計されており、研究旅行・レジデンス・国際ネットワーク形成を資金面で支援できる。",
+    "three_bullets_ja": [
+      "国際的なキャリア発展を求めるアジア人アーティストに最適な機会。",
+      "高い知名度と、アジア・米国にわたる強力な卒業生ネットワーク。",
+      "フェローシップにより、計画中の集中制作期間や国際レジデンスへの資金調達が可能。"
+    ]
   },
   {
     "name": "2026「OPEN World Exhibition」",
@@ -57525,6 +58004,12 @@
     "verification_score": 2,
     "rumor_mill_sentiment": "no_data",
     "prerequisites": [],
-    "has_prerequisites": false
+    "has_prerequisites": false,
+    "name_zh": "2026「OPEN World Exhibition」",
+    "one_sentence_zh": "跨文化艺术对话展览，2026年4月17日至22日于丰洲市民中心举办，面向多元背景艺术家征集参展。",
+    "why_it_fits_zh": "跨文化艺术对话展览，2026年4月17日至22日于丰洲市民中心举办，面向多元背景艺术家征集参展。",
+    "name_ja": "2026「OPEN World Exhibition」",
+    "one_sentence_ja": "2026年4月17日〜22日に豊洲シビックセンターで開催される異文化間芸術対話展。多様な背景を持つアーティストを募集。",
+    "why_it_fits_ja": "2026年4月17日〜22日に豊洲シビックセンターで開催される異文化間芸術対話展。多様な背景を持つアーティストを募集。"
   }
 ]
