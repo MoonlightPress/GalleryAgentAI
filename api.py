@@ -813,6 +813,37 @@ def update_contact(entry: ContactUpdate):
     return {"ok": True, "contact": contacts[idx]}
 
 
+class ContactPatch(BaseModel):
+    status: str = ""
+    last_contacted: str = ""
+    notes: str = ""
+    response_received: bool | None = None
+
+
+@app.patch("/api/contacts/{contact_name}")
+def patch_contact(contact_name: str, patch: ContactPatch):
+    """Update status, last_contacted, notes, response_received for a contact by name."""
+    if not CONTACTS_PATH.exists():
+        raise HTTPException(status_code=404, detail="No contacts found")
+    data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
+    contacts = data.get("contacts", []) if isinstance(data, dict) else data
+    name_lower = contact_name.lower()
+    idx = next((i for i, c in enumerate(contacts) if c.get("name", "").lower() == name_lower), None)
+    if idx is None:
+        raise HTTPException(status_code=404, detail=f"Contact '{contact_name}' not found")
+    if patch.status:
+        contacts[idx]["status"] = patch.status
+    if patch.last_contacted:
+        contacts[idx]["last_contacted"] = patch.last_contacted
+    if patch.notes:
+        contacts[idx]["notes"] = patch.notes
+    if patch.response_received is not None:
+        contacts[idx]["response_received"] = patch.response_received
+    contacts[idx]["date_updated"] = datetime.now(timezone.utc).isoformat()
+    CONTACTS_PATH.write_text(json.dumps({"contacts": contacts}, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "contact": contacts[idx]}
+
+
 @app.get("/api/contacts/lookup")
 def lookup_contact(name: str):
     if not CONTACTS_PATH.exists():
@@ -2072,6 +2103,14 @@ async def webhook_deploy(request: Request, background_tasks: BackgroundTasks):
     if event == "push":
         background_tasks.add_task(_run_deploy)
     return {"status": "ok", "event": event}
+
+
+@app.get("/api/career_strategy")
+def get_career_strategy():
+    path = DATA_DIR / "career_strategy_report.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="career_strategy_report.json not found — run engines/career_strategy_engine.py first")
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":

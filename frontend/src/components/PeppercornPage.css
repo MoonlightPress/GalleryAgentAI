@@ -1225,3 +1225,225 @@
   font-size: 0.8rem; font-family: Georgia, serif;
 }
 .pp-dismissal-skip:hover { background: #fdf0d8; }
+
+/* ── CRM Contacts section ───────────────────────────────────────────────── */
+
+.crm-summary-bar {
+  background: #fdfcf7;
+  border: 1px solid #dce8cc;
+  border-radius: 7px;
+  padding: 9px 14px;
+  margin-bottom: 14px;
+}
+
+.crm-summary-text {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #5a6a4a;
+  font-style: italic;
+}
+
+.crm-filter-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.crm-filter-tab {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  color: #6a7a5a;
+  background: #f2f5ee;
+  border: 1px solid #cdd8be;
+  border-radius: 20px;
+  padding: 4px 14px;
+  cursor: pointer;
+  transition: background 0.14s, border-color 0.14s, color 0.14s;
+}
+
+.crm-filter-tab:hover {
+  background: #ddeec8;
+  border-color: #6a8a5a;
+  color: #2e3a2e;
+}
+
+.crm-filter-tab--active {
+  background: #6a8a5a;
+  border-color: #6a8a5a;
+  color: white;
+}
+
+.crm-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.crm-card {
+  background: #fdfcf7;
+  border: 1px solid #dce8cc;
+  border-radius: 8px;
+  padding: 11px 14px;
+  cursor: pointer;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+
+.crm-card:hover {
+  border-color: #b0c8a0;
+  box-shadow: 0 2px 6px rgba(60, 80, 50, 0.07);
+}
+
+.crm-card-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.crm-card-left {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.crm-card-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.crm-card-name {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #2e3a2e;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.crm-type-badge {
+  font-family: Georgia, serif;
+  font-size: 10.5px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #7a8a6a;
+  background: #eef4e6;
+  border-radius: 4px;
+  padding: 2px 7px;
+  white-space: nowrap;
+}
+
+.crm-status-pill {
+  font-family: Georgia, serif;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 2px 9px;
+  white-space: nowrap;
+}
+
+.crm-city {
+  font-family: Georgia, serif;
+  font-size: 11px;
+  color: #8a9a7a;
+  white-space: nowrap;
+}
+
+.crm-last-contacted {
+  font-family: Georgia, serif;
+  font-size: 11px;
+  color: #9aaa8a;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.crm-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.crm-email-link {
+  font-family: Georgia, serif;
+  font-size: 11.5px;
+  color: #6a8a5a;
+  text-decoration: none;
+  font-style: italic;
+  transition: color 0.14s;
+}
+
+.crm-email-link:hover { color: #2e3a2e; text-decoration: underline; }
+
+.crm-action-btn {
+  font-family: Georgia, serif;
+  font-size: 11.5px;
+  color: #5a3e20;
+  background: #fff8ef;
+  border: 1px solid #d4b890;
+  border-radius: 4px;
+  padding: 3px 10px;
+  cursor: pointer;
+  transition: background 0.14s, border-color 0.14s;
+}
+
+.crm-action-btn:hover { background: #fdf0d8; border-color: #c4985a; }
+.crm-action-btn:disabled { opacity: 0.5; cursor: default; }
+
+.crm-action-btn--reply {
+  color: #1a3a80;
+  background: #f0f6ff;
+  border-color: #90aee0;
+}
+
+.crm-action-btn--reply:hover { background: #ddeeff; border-color: #6080c0; }
+
+.crm-card-expanded {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eef4e6;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.crm-expanded-row {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.crm-expanded-label {
+  font-family: Georgia, serif;
+  font-size: 10.5px;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #8a9a7a;
+}
+
+.crm-expanded-text {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #5a6a4a;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.crm-page-link {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  color: #6a8a5a;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.crm-page-link:hover { text-decoration: underline; }

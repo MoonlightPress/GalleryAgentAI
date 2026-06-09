@@ -1236,6 +1236,249 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
   )
 }
 
+// ── CRM Contacts section ──────────────────────────────────────────────────
+
+const CRM_STATUS_META = {
+  ready_to_review: { label: 'Ready to reach out', bg: '#fdf5e8', border: '#e8c878', text: '#7a5010' },
+  contacted:       { label: 'Contacted',           bg: '#f0f6ff', border: '#90aee0', text: '#1a3a80' },
+  responded:       { label: 'Responded',           bg: '#f0fbee', border: '#8fc98a', text: '#2e6626' },
+  relationship:    { label: 'Relationship',        bg: '#fdfbe8', border: '#c8b040', text: '#5a4000' },
+  not_a_fit:       { label: 'Not a fit',           bg: '#f5f5f5', border: '#ccc',    text: '#555'    },
+  // existing statuses from pipeline data
+  cold:            { label: 'Not yet approached',  bg: '#f5f5f5', border: '#ccc',    text: '#555'    },
+  researching:     { label: 'Researching',         bg: '#fdf5e8', border: '#e8c878', text: '#7a5010' },
+  in_contact:      { label: 'In contact',          bg: '#f0f6ff', border: '#90aee0', text: '#1a3a80' },
+  submitted:       { label: 'Submitted',           bg: '#fff8ef', border: '#e8b870', text: '#804a10' },
+  ongoing:         { label: 'Ongoing',             bg: '#f0fbee', border: '#8fc98a', text: '#2e6626' },
+  rejected:        { label: 'Rejected',            bg: '#fef5f5', border: '#e8b0b0', text: '#8b2a2a' },
+}
+
+const CRM_FILTER_TABS = [
+  { id: 'all',           label: 'All' },
+  { id: 'ready',         label: 'Ready' },
+  { id: 'active',        label: 'Active' },
+  { id: 'relationship',  label: 'Relationships' },
+]
+
+function crmStatusMeta(status) {
+  return CRM_STATUS_META[status] || { label: status, bg: '#f5f5f5', border: '#ccc', text: '#555' }
+}
+
+function CrmContactCard({ contact: c, onUpdate }) {
+  const [expanded, setExpanded] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const meta = crmStatusMeta(c.status)
+
+  const today = new Date().toISOString().slice(0, 10)
+
+  async function patchContact(fields) {
+    setLoading(true)
+    try {
+      const r = await fetch(`/api/contacts/${encodeURIComponent(c.name)}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(fields),
+      })
+      if (r.ok) {
+        const res = await r.json()
+        onUpdate(res.contact)
+      }
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  function markContacted(e) {
+    e.stopPropagation()
+    patchContact({ status: 'contacted', last_contacted: today })
+  }
+
+  function markReplied(e) {
+    e.stopPropagation()
+    patchContact({ response_received: true, status: 'responded' })
+  }
+
+  const lastContactedLabel = c.last_contacted
+    ? c.last_contacted.slice(0, 10)
+    : 'Never contacted'
+
+  const showMarkContacted = !['contacted','responded','relationship'].includes(c.status)
+  const showGotReply = ['contacted','in_contact'].includes(c.status) && !c.response_received
+
+  return (
+    <div className="crm-card" onClick={() => setExpanded(x => !x)}>
+      <div className="crm-card-header">
+        <div className="crm-card-left">
+          <span className="crm-card-name">{c.name}</span>
+          {c.type && (
+            <span className="crm-type-badge">{c.type}</span>
+          )}
+        </div>
+        <div className="crm-card-right">
+          <span
+            className="crm-status-pill"
+            style={{ background: meta.bg, color: meta.text, border: `1px solid ${meta.border}` }}
+          >
+            {meta.label}
+          </span>
+          {c.city && <span className="crm-city">{c.city}</span>}
+          <span className="crm-last-contacted">{lastContactedLabel}</span>
+        </div>
+      </div>
+
+      <div className="crm-card-actions" onClick={e => e.stopPropagation()}>
+        {c.contact_email && (
+          <a
+            className="crm-email-link"
+            href={`mailto:${c.contact_email}`}
+            onClick={e => e.stopPropagation()}
+          >
+            {c.contact_email}
+          </a>
+        )}
+        {showMarkContacted && (
+          <button className="crm-action-btn" disabled={loading} onClick={markContacted}>
+            Mark contacted
+          </button>
+        )}
+        {showGotReply && (
+          <button className="crm-action-btn crm-action-btn--reply" disabled={loading} onClick={markReplied}>
+            Got reply
+          </button>
+        )}
+      </div>
+
+      {expanded && (
+        <div className="crm-card-expanded">
+          {c.why_relevant && (
+            <div className="crm-expanded-row">
+              <span className="crm-expanded-label">Why relevant</span>
+              <p className="crm-expanded-text">{c.why_relevant}</p>
+            </div>
+          )}
+          {c.notes && (
+            <div className="crm-expanded-row">
+              <span className="crm-expanded-label">Notes</span>
+              <p className="crm-expanded-text">{c.notes}</p>
+            </div>
+          )}
+          {(c.contact_page || c.official_website) && (
+            <div className="crm-expanded-row">
+              <a
+                className="crm-page-link"
+                href={c.contact_page || c.official_website}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={e => e.stopPropagation()}
+              >
+                {c.contact_page ? 'Contact page' : 'Website'} ↗
+              </a>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
+
+function ContactsSection({ isOpen, onToggle, sectionRef }) {
+  const [contacts, setContacts] = useState([])
+  const [filter, setFilter] = useState('all')
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    fetch('/api/contacts')
+      .then(r => r.ok ? r.json() : [])
+      .then(data => { setContacts(Array.isArray(data) ? data : []); setLoading(false) })
+      .catch(() => setLoading(false))
+  }, [])
+
+  function handleUpdate(updated) {
+    setContacts(prev => prev.map(c => c.name === updated.name ? updated : c))
+  }
+
+  // Summary counts
+  const readyCount   = contacts.filter(c => ['ready_to_review', 'researching'].includes(c.status)).length
+  const activeCount  = contacts.filter(c => ['contacted', 'in_contact', 'responded', 'submitted'].includes(c.status)).length
+  const relCount     = contacts.filter(c => c.status === 'relationship' || c.status === 'ongoing').length
+
+  const summaryParts = []
+  if (readyCount)  summaryParts.push(`${readyCount} ready to reach out`)
+  if (activeCount) summaryParts.push(`${activeCount} active`)
+  if (relCount)    summaryParts.push(`${relCount} relationship${relCount !== 1 ? 's' : ''}`)
+  const subtitle = contacts.length === 0
+    ? 'No contacts yet'
+    : `${contacts.length} contacts — ${summaryParts.join(', ') || 'no active threads'}`
+
+  const FILTER_STATUS_MAP = {
+    all:          null,
+    ready:        ['ready_to_review', 'researching', 'cold'],
+    active:       ['contacted', 'in_contact', 'responded', 'submitted'],
+    relationship: ['relationship', 'ongoing'],
+  }
+
+  const filtered = filter === 'all'
+    ? contacts
+    : contacts.filter(c => (FILTER_STATUS_MAP[filter] || []).includes(c.status))
+
+  return (
+    <SectionShell
+      id="contacts"
+      sectionRef={sectionRef}
+      title="Contacts"
+      subtitle={subtitle}
+      isOpen={isOpen}
+      onToggle={onToggle}
+    >
+      <p className="pp-section-note">
+        Venues and people worth cultivating. Tap a card to see notes. Use the quick buttons to track outreach.
+      </p>
+
+      {/* Summary bar */}
+      {contacts.length > 0 && (
+        <div className="crm-summary-bar">
+          <span className="crm-summary-text">{subtitle}</span>
+        </div>
+      )}
+
+      {/* Filter tabs */}
+      <div className="crm-filter-tabs">
+        {CRM_FILTER_TABS.map(tab => (
+          <button
+            key={tab.id}
+            className={`crm-filter-tab${filter === tab.id ? ' crm-filter-tab--active' : ''}`}
+            onClick={() => setFilter(tab.id)}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
+      {loading && <p className="pp-section-note">Loading contacts…</p>}
+
+      {!loading && filtered.length === 0 && (
+        <p className="pp-section-note">
+          {filter === 'all'
+            ? 'No contacts in the system yet. The pipeline adds contacts as it discovers venues.'
+            : `No contacts in this category.`}
+        </p>
+      )}
+
+      {!loading && filtered.length > 0 && (
+        <div className="crm-list">
+          {filtered.map((c, i) => (
+            <CrmContactCard
+              key={c.name || i}
+              contact={c}
+              onUpdate={handleUpdate}
+            />
+          ))}
+        </div>
+      )}
+    </SectionShell>
+  )
+}
+
 // ── Career event quick-log ────────────────────────────────────────────────
 
 const EVENT_TYPES = [
@@ -1465,6 +1708,7 @@ function computeSectionOrder(profile) {
     'exhibition-pathway': 0.40,
     'exhibition-log':     0.38,
     'submission-log':     0.35,
+    'contacts':           0.34,
     'venue-log':          0.30,
     'preferences':        0.20,
     'career-goals':       Math.min(goalsCount / 3, 0.75),
@@ -1689,6 +1933,14 @@ export default function PeppercornPage({ nav }) {
         isOpen={openSections.has('venue-log')}
         onToggle={() => toggleSection('venue-log')}
         sectionRef={setSectionRef('venue-log')}
+      />
+    ),
+    'contacts': (
+      <ContactsSection
+        key="contacts"
+        isOpen={openSections.has('contacts')}
+        onToggle={() => toggleSection('contacts')}
+        sectionRef={setSectionRef('contacts')}
       />
     ),
   }
