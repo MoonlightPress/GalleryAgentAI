@@ -876,7 +876,15 @@ def add_contact(entry: ContactEntry):
     else:
         data = []
         contacts = []
-    contacts.append({
+    # Update-or-insert by case-insensitive name. Logging the same venue twice
+    # must not create a duplicate — the PATCH endpoints match the first entry by
+    # name, so a duplicate would become permanently uneditable.
+    name_lower = (entry.name or "").strip().lower()
+    existing = next(
+        (c for c in contacts if (c.get("name") or "").strip().lower() == name_lower),
+        None,
+    )
+    fields = {
         "name":           entry.name,
         "type":           entry.type,
         "city":           entry.city,
@@ -884,11 +892,19 @@ def add_contact(entry: ContactEntry):
         "status":         entry.status,
         "notes":          entry.notes,
         "last_contacted": entry.last_contacted,
-        "logged_at":      datetime.now(timezone.utc).isoformat(),
-    })
+    }
+    if existing is not None:
+        # Merge: only overwrite with non-empty incoming values
+        for k, v in fields.items():
+            if v:
+                existing[k] = v
+        existing["date_updated"] = datetime.now(timezone.utc).isoformat()
+    else:
+        fields["logged_at"] = datetime.now(timezone.utc).isoformat()
+        contacts.append(fields)
     out = contacts if isinstance(data, list) else {"contacts": contacts}
     CONTACTS_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    return {"ok": True, "count": len(contacts)}
+    return {"ok": True, "count": len(contacts), "updated": existing is not None}
 
 
 class ContactUpdate(BaseModel):

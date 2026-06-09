@@ -842,8 +842,12 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
   }
 
   async function deleteShow(id) {
-    await fetch(`/api/exhibition_log/${id}`, { method: 'DELETE' })
-    setShows(prev => prev.filter(s => s.id !== id))
+    try {
+      const r = await fetch(`/api/exhibition_log/${id}`, { method: 'DELETE' })
+      // Only drop it from the UI if the server actually deleted it — otherwise
+      // it reappears on reload and the user thinks the delete worked.
+      if (r.ok) setShows(prev => prev.filter(s => s.id !== id))
+    } catch { /* leave the row in place on network failure */ }
   }
 
   const sorted = [...shows].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
@@ -1520,26 +1524,36 @@ function CareerEventWidget() {
       setNote('')
       return
     }
-    await fetch('/api/career_events', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ type, note: note.trim() }),
-    })
-    setNoteType(null)
-    setNote('')
-    setFlash(f => !f)
+    try {
+      const r = await fetch('/api/career_events', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type, note: note.trim() }),
+      })
+      // Only clear the form / refetch on success — otherwise the note would be
+      // lost while the refetch shows the (unchanged) list, hiding the failure.
+      if (r.ok) {
+        setNoteType(null)
+        setNote('')
+        setFlash(f => !f)
+      }
+    } catch { /* keep the note so the user can retry */ }
   }
 
   async function quickLog(type) {
     // Single tap logs immediately (no note required)
-    await fetch('/api/career_events', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ type, note: '' }),
-    })
-    setNoteType(null)
-    setNote('')
-    setFlash(f => !f)
+    try {
+      const r = await fetch('/api/career_events', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type, note: '' }),
+      })
+      if (r.ok) {
+        setNoteType(null)
+        setNote('')
+        setFlash(f => !f)
+      }
+    } catch { /* no-op on network failure */ }
   }
 
   return (
