@@ -178,12 +178,22 @@ def _load_json(path: Path, fallback):
 
 
 def _count_group_shows(profile: dict, ex_log: list) -> int:
-    """Count confirmed group shows from research + exhibition log."""
-    base = 1  # Tide from China Part1, Feb 2023 (confirmed)
+    """Count *confirmed* group shows from research + exhibition log.
+
+    Evidence over prediction (CLAUDE.md): an exhibition only counts if its
+    confidence is confirmed. The "Kinoko Kingdom" profile entry, for example,
+    is "mentioned in ACG bio, details unconfirmed" (no venue, no dates) and
+    must not inflate the count — that's exactly the score-inflation the project
+    warns against.
+    """
+    base = 1  # Tide from China Part1, Feb 2023 (confirmed: venue, dates, source)
 
     for ex in profile.get("career_history", {}).get("exhibitions", []):
         etype = (ex.get("type") or "").lower()
-        if "group" in etype and ex.get("title") != "Tide from China Part1":
+        confidence = (ex.get("confidence") or "").lower()
+        if ("group" in etype
+                and ex.get("title") != "Tide from China Part1"
+                and confidence.startswith("confirmed")):
             base += 1
 
     # Exclude the hardcoded base show by title so logging it via the event

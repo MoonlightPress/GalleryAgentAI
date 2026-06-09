@@ -753,7 +753,7 @@ export const CAREER_TIMELINE = {
   artist_stage: {
     age:           26,
     years_active:  "~6 (daily practice from 2020, first publication 2021)",
-    group_shows:   2,
+    group_shows:   1,
     publications:  2,
     instagram:     "~90k",
     base:          "Tokyo / Beijing",

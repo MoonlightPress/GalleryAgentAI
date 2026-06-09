@@ -1,10 +1,10 @@
 {
-  "_generated_at": "2026-06-09T11:16:48.805922+00:00",
+  "_generated_at": "2026-06-09T15:31:52.298338+00:00",
   "_engine_version": "2.0",
   "current_phase": "Tier 1-2 foundation building",
   "phase_note": "Age 26, planning a deep-work year around 30. The next 3–4 years are for accumulation: exhibition history, publishing relationships, peer network, and body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now, not acted on until the foundation is solid.",
   "career_evidence": {
-    "confirmed_group_shows": 2,
+    "confirmed_group_shows": 1,
     "has_solo_show": false,
     "has_institutional_show": false,
     "has_international_show": false,
@@ -12,8 +12,8 @@
     "publications_confirmed": 2
   },
   "readiness_scores": {
-    "tier_3_readiness": 0.2,
-    "tier_4_readiness": 0.1,
+    "tier_3_readiness": 0.1,
+    "tier_4_readiness": 0.0,
     "tier_3_readiness_note": "Low — more group shows are the most direct path to improving this score."
   },
   "immediate_priorities": [
@@ -165,7 +165,7 @@
   "blocking_gaps": [
     {
       "gap": "Insufficient group show history",
-      "detail": "Only 2 confirmed group show(s). Most Tokyo galleries consider 3+ group exhibition credits before discussing solo work. 1 more group show(s) needed.",
+      "detail": "Only 1 confirmed group show(s). Most Tokyo galleries consider 3+ group exhibition credits before discussing solo work. 2 more group show(s) needed.",
       "priority": "high",
       "action": "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN"
     },
@@ -194,12 +194,12 @@
       "action": "Research Japan Watercolor Society (公益社団法人日本水彩画会) annual entry process"
     }
   ],
-  "next_milestone": "Complete 1 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.",
+  "next_milestone": "Complete 2 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.",
   "months_to_tier3": 12,
   "pipeline_summary": {
-    "total_active": 277,
+    "total_active": 276,
     "tier_1_count": 32,
-    "tier_2_count": 72,
+    "tier_2_count": 71,
     "tier_3_count": 162,
     "tier_4_count": 11
   }

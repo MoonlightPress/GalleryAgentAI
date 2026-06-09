@@ -997,12 +997,13 @@ def get_saffron():
         for e in _logged_shows
         if e.get("outcome") in ("shown", "completed", None, "")
     ]
-    # Total group show count: 1 hardcoded base (Tide from China Part1)
-    #   + group exhibitions recorded in the artist profile (e.g. Kinoko Kingdom)
-    #   + group shows logged via Peppercorn.
-    # Mirrors career_strategy_engine._count_group_shows so the live API and the
-    # career report never disagree. Dedup the log against profile titles so a
-    # profile show that is also logged isn't counted twice.
+    # Total *confirmed* group show count: 1 hardcoded base (Tide from China
+    # Part1) + confirmed group exhibitions in the artist profile + group shows
+    # logged via Peppercorn. Evidence over prediction (CLAUDE.md): unconfirmed
+    # profile mentions (e.g. "Kinoko Kingdom" — no venue/dates, "details
+    # unconfirmed") must NOT inflate the count. Mirrors
+    # career_strategy_engine._count_group_shows so the live API and the career
+    # report agree. Dedup the log against profile titles to avoid double-counting.
     _amp_path = DATA_DIR / "artist_master_profile.json"
     _amp = json.loads(_amp_path.read_text(encoding="utf-8")) if _amp_path.exists() else {}
     _profile_exhibitions = _amp.get("career_history", {}).get("exhibitions", [])
@@ -1011,6 +1012,7 @@ def get_saffron():
         1 for ex in _profile_exhibitions
         if "group" in (ex.get("type") or "").lower()
         and (ex.get("title") or "").strip() != "Tide from China Part1"
+        and (ex.get("confidence") or "").lower().startswith("confirmed")
     )
     _logged_group_count = sum(
         1 for e in _logged_shows
