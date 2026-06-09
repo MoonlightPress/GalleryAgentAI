@@ -470,6 +470,8 @@ const zh = {
   'detail.label.mochiNotes': '猫饼备注',
   'detail.label.emailDraft': '邮件草稿',
   'detail.copyDraft':        '复制草稿',
+  'detail.email.empty':      '邮件草稿暂未生成。系统将在下次管线运行后生成。',
+  'detail.content.empty':    '此机会尚无详细信息。请访问官网或直接联系了解更多。',
   'detail.label.verifyFirst':'申请前请核实',
 
   // ── Prerequisites ──────────────────────────────────────────────────────────
@@ -1277,6 +1279,8 @@ const ja = {
   'detail.label.mochiNotes': 'モチのメモ',
   'detail.label.emailDraft': 'メール下書き',
   'detail.copyDraft':        '下書きをコピー',
+  'detail.email.empty':      'メール下書きはまだ生成されていません。次回のパイプライン実行後に作成されます。',
+  'detail.content.empty':    'この機会についての詳細情報はまだありません。公式サイトを確認するか、直接お問い合わせください。',
   'detail.label.verifyFirst':'応募前に確認',
 
   // ── Prerequisites ──────────────────────────────────────────────────────────
@@ -2076,6 +2080,8 @@ const en = {
   'detail.label.mochiNotes': 'Mochi notes',
   'detail.label.emailDraft': 'Email draft',
   'detail.copyDraft':        'Copy draft',
+  'detail.email.empty':      'Email draft not yet generated. It will appear after the next pipeline run.',
+  'detail.content.empty':    'No detail text for this opportunity yet. Visit the official site or make contact directly.',
   'detail.label.verifyFirst':'Verify first',
 
   // ── Prerequisites ──────────────────────────────────────────────────────────

@@ -284,6 +284,25 @@
   color: var(--ink);
 }
 
+/* ── Left column empty state ── */
+.detail-content-empty {
+  padding: 16px 0;
+  color: var(--ink-muted);
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* ── Email empty state ── */
+.detail-email-empty {
+  padding: 20px 16px;
+  color: var(--ink-muted);
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.6;
+}
+
 /* ── Verify checklist ── */
 .detail-verify {
   background: #f8f6f2;

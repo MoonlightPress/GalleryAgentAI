@@ -222,6 +222,11 @@ export default function OppDetailPanel({ opp, onClose }) {
       <div className="detail-panel-grid">
         {/* Left: content */}
         <div className="detail-panel-left">
+          {!loc('overview') && !loc('why_it_fits') && !(loc('bullets') || opp.bullets)?.length
+            && !(lang === 'en' ? opp.next_action : opp[`next_action_${lang}`])
+            && !loc('soft_warning') && (
+            <p className="detail-content-empty">{t('detail.content.empty')}</p>
+          )}
           {(loc('overview')) && (
             <div className="detail-block">
               <div className="detail-label">{t('detail.label.overview')}</div>
@@ -242,7 +247,7 @@ export default function OppDetailPanel({ opp, onClose }) {
               </ul>
             </div>
           )}
-          {(lang === 'en' ? opp.next_action : (opp[`next_action_${lang}`] || (lang === 'en' && opp.next_action))) && (
+          {(lang === 'en' ? opp.next_action : opp[`next_action_${lang}`]) && (
             <div className="detail-block">
               <div className="detail-label">{t('detail.label.howApply')}</div>
               <p>{lang === 'en' ? opp.next_action : opp[`next_action_${lang}`]}</p>
@@ -273,17 +278,22 @@ export default function OppDetailPanel({ opp, onClose }) {
                 ))}
               </div>
             </div>
-            <pre className="detail-email-body">
-              {(emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en) || ''}
-            </pre>
-            <button
-              className="detail-copy-btn"
-              onClick={() => navigator.clipboard?.writeText(
-                (emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en) || ''
-              )}
-            >
-              {t('detail.copyDraft')}
-            </button>
+            {(() => {
+              const draft = emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en
+              return draft ? (
+                <>
+                  <pre className="detail-email-body">{draft}</pre>
+                  <button
+                    className="detail-copy-btn"
+                    onClick={() => navigator.clipboard?.writeText(draft)}
+                  >
+                    {t('detail.copyDraft')}
+                  </button>
+                </>
+              ) : (
+                <p className="detail-email-empty">{t('detail.email.empty')}</p>
+              )
+            })()}
           </div>
 
           {opp.checklist?.length > 0 && (
