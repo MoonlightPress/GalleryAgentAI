@@ -752,6 +752,27 @@ def get_saffron():
     _pp = json.loads(_pp_path.read_text(encoding="utf-8")) if _pp_path.exists() else {}
     _answers = _pp.get("saffron_answers") or {}
 
+    # ── Exhibition log (from Peppercorn) ──────────────────────────────────────
+    _exlog_path = DATA_DIR / "exhibition_log.json"
+    _logged_shows = json.loads(_exlog_path.read_text(encoding="utf-8")) if _exlog_path.exists() else []
+    # Convert logged shows to career_position format
+    _logged_exhibitions = [
+        {
+            "title": e.get("name", ""),
+            "venue": e.get("venue", ""),
+            "date": e.get("date", ""),
+            "type": "Group show" if e.get("type") == "group" else "Solo show",
+            "note": e.get("notes", "") or "",
+            "from_log": True,
+        }
+        for e in _logged_shows
+        if e.get("outcome") in ("shown", "completed", None, "")
+    ]
+    # Count group shows from logged entries (for career benchmarks)
+    _logged_group_count = sum(1 for e in _logged_shows if e.get("type") == "group")
+    # Total group show count: 1 hardcoded (Tide from China) + logged
+    _total_group_shows = 1 + _logged_group_count
+
     # ── Career position (confirmed research, 2026-06-02) ──────────────────────
     career_position = {
         "exhibitions": [
@@ -762,7 +783,7 @@ def get_saffron():
                 "type": "Group show — 6 Chinese illustrators",
                 "note": "First Japan exhibition",
             }
-        ],
+        ] + _logged_exhibitions,
         "publications": [
             {
                 "title": "Colour Diary",
@@ -989,7 +1010,7 @@ def get_saffron():
     # ── Career benchmarks ─────────────────────────────────────────────────────
     career_benchmarks = {
         "artist_record": {
-            "exhibitions": 1,
+            "exhibitions": _total_group_shows,
             "publications": 2,
             "instagram": "21k",
             "twitter": "~90k",
@@ -999,7 +1020,7 @@ def get_saffron():
         "peer_range": [
             {
                 "dimension": "Group exhibitions",
-                "artist_value": "1 confirmed",
+                "artist_value": f"{_total_group_shows} confirmed" if _total_group_shows > 1 else "1 confirmed",
                 "peer_low": 1,
                 "peer_typical": "3–5",
                 "peer_high": "8+",
@@ -1740,6 +1761,37 @@ async def save_peppercorn(request: Request):
     ppath = DATA_DIR / "peppercorn_profile.json"
     ppath.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     return {"ok": True, "last_updated": payload["last_updated"]}
+
+
+@app.get("/api/exhibition_log")
+def get_exhibition_log():
+    path = DATA_DIR / "exhibition_log.json"
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    return []
+
+
+@app.post("/api/exhibition_log")
+async def add_exhibition(request: Request):
+    entry = await request.json()
+    path = DATA_DIR / "exhibition_log.json"
+    log = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    entry["id"] = entry.get("id") or f"{entry.get('date','')}-{entry.get('venue','').replace(' ','_')[:20]}-{len(log)}"
+    entry["logged_at"] = datetime.now(timezone.utc).isoformat()
+    log.append(entry)
+    path.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "entry": entry}
+
+
+@app.delete("/api/exhibition_log/{entry_id}")
+def delete_exhibition(entry_id: str):
+    path = DATA_DIR / "exhibition_log.json"
+    if not path.exists():
+        return {"ok": True}
+    log = json.loads(path.read_text(encoding="utf-8"))
+    log = [e for e in log if e.get("id") != entry_id]
+    path.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True}
 
 
 @app.get("/api/today")

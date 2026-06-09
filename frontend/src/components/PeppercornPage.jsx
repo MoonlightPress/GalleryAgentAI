@@ -807,6 +807,182 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
   )
 }
 
+// ── Exhibition log section ────────────────────────────────────────────────
+
+const SHOW_TYPE_OPTIONS = [
+  { value: 'group' },
+  { value: 'solo' },
+  { value: 'fair' },
+  { value: 'residency_show' },
+]
+
+const SHOW_OUTCOME_OPTIONS = [
+  { value: 'shown' },
+  { value: 'planned' },
+  { value: 'cancelled' },
+]
+
+const SHOW_OUTCOME_COLORS = {
+  shown:     { bg: '#f0fbee', border: '#8fc98a', text: '#2e6626' },
+  planned:   { bg: '#f5f8ff', border: '#b0c4e8', text: '#2a4080' },
+  cancelled: { bg: '#f5f5f5', border: '#ccc',    text: '#555' },
+}
+
+function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
+  const { t } = useLanguage()
+  const [shows, setShows] = useState([])
+  const [form, setForm] = useState({ date: '', name: '', venue: '', type: 'group', outcome: 'shown', notes: '' })
+  const [saving, setSaving] = useState(false)
+  const [saved, flash] = useSaved()
+
+  useEffect(() => {
+    fetch('/api/exhibition_log')
+      .then(r => r.ok ? r.json() : [])
+      .then(d => setShows(Array.isArray(d) ? d : []))
+      .catch(() => {})
+  }, [])
+
+  function setField(k, v) { setForm(f => ({ ...f, [k]: v })) }
+
+  async function submitShow() {
+    if (!form.name.trim() && !form.venue.trim()) return
+    setSaving(true)
+    try {
+      const r = await fetch('/api/exhibition_log', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...form }),
+      })
+      if (r.ok) {
+        const updated = await fetch('/api/exhibition_log').then(r2 => r2.json())
+        setShows(Array.isArray(updated) ? updated : [])
+        setForm({ date: '', name: '', venue: '', type: 'group', outcome: 'shown', notes: '' })
+        flash()
+      }
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  async function deleteShow(id) {
+    await fetch(`/api/exhibition_log/${id}`, { method: 'DELETE' })
+    setShows(prev => prev.filter(s => s.id !== id))
+  }
+
+  const sorted = [...shows].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+  const groupCount = shows.filter(s => s.type === 'group').length
+  const total = 1 + groupCount  // 1 hardcoded + logged
+
+  return (
+    <SectionShell
+      id="exhibition-log"
+      sectionRef={sectionRef}
+      title={t('pp.sec.exlog')}
+      subtitle={shows.length === 0 ? t('pp.sub.exlog.empty') : t('pp.sub.exlog.count', { n: total })}
+      isOpen={isOpen}
+      onToggle={onToggle}
+    >
+      <p className="pp-section-note">{t('pp.exlog.note')}</p>
+
+      <div className="pp-sub-form">
+        <div className="pp-sub-form-row">
+          <div className="pp-sub-field">
+            <label className="pp-sub-label">{t('pp.exlog.date')}</label>
+            <input
+              type="month"
+              className="pp-sub-input"
+              value={form.date}
+              onChange={e => setField('date', e.target.value)}
+            />
+          </div>
+          <div className="pp-sub-field pp-sub-field--wide">
+            <label className="pp-sub-label">{t('pp.exlog.name')}</label>
+            <input
+              type="text"
+              className="pp-sub-input"
+              value={form.name}
+              onChange={e => setField('name', e.target.value)}
+              placeholder={t('pp.exlog.ph.name')}
+            />
+          </div>
+          <div className="pp-sub-field">
+            <label className="pp-sub-label">{t('pp.exlog.type')}</label>
+            <select className="pp-sub-select" value={form.type} onChange={e => setField('type', e.target.value)}>
+              {SHOW_TYPE_OPTIONS.map(o => <option key={o.value} value={o.value}>{t('pp.showType.' + o.value)}</option>)}
+            </select>
+          </div>
+          <div className="pp-sub-field">
+            <label className="pp-sub-label">{t('pp.exlog.outcome')}</label>
+            <select className="pp-sub-select" value={form.outcome} onChange={e => setField('outcome', e.target.value)}>
+              {SHOW_OUTCOME_OPTIONS.map(o => <option key={o.value} value={o.value}>{t('pp.showOutcome.' + o.value)}</option>)}
+            </select>
+          </div>
+        </div>
+        <div className="pp-sub-field">
+          <label className="pp-sub-label">{t('pp.exlog.venue')}</label>
+          <input
+            type="text"
+            className="pp-sub-input"
+            value={form.venue}
+            onChange={e => setField('venue', e.target.value)}
+            placeholder={t('pp.exlog.ph.venue')}
+          />
+        </div>
+        <div className="pp-sub-field">
+          <label className="pp-sub-label">{t('pp.exlog.notes')}</label>
+          <input
+            type="text"
+            className="pp-sub-input"
+            value={form.notes}
+            onChange={e => setField('notes', e.target.value)}
+            placeholder={t('pp.exlog.ph.notes')}
+          />
+        </div>
+        <button
+          className={`pp-save${saved ? ' pp-save--done' : ''}`}
+          onClick={submitShow}
+          disabled={saving || (!form.name.trim() && !form.venue.trim())}
+        >
+          {saved ? t('pp.exlog.btn.done') : t('pp.exlog.btn')}
+        </button>
+      </div>
+
+      {/* Hardcoded confirmed show */}
+      <div className="pp-sub-list">
+        <div className="pp-sub-row pp-sub-row--system" style={{ borderLeft: '3px solid #8fc98a' }}>
+          <div className="pp-sub-row-header">
+            <span className="pp-sub-venue">Tide from China Part 1</span>
+            <span className="pp-sub-outcome" style={{ background: '#f0fbee', color: '#2e6626', border: '1px solid #8fc98a' }}>
+              {t('pp.showOutcome.shown')}
+            </span>
+            <span className="pp-sub-date">2023-02</span>
+          </div>
+          <div className="pp-sub-what">ACG_Labo, Harajuku, Tokyo · {t('pp.showType.group')}</div>
+          <div className="pp-sub-notes">{t('pp.exlog.systemEntry')}</div>
+        </div>
+
+        {sorted.map(s => {
+          const colors = SHOW_OUTCOME_COLORS[s.outcome] || SHOW_OUTCOME_COLORS.shown
+          return (
+            <div key={s.id} className="pp-sub-row" style={{ borderLeft: `3px solid ${colors.border}` }}>
+              <div className="pp-sub-row-header">
+                <span className="pp-sub-venue">{s.name || s.venue}</span>
+                <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
+                  {t('pp.showOutcome.' + s.outcome) || s.outcome}
+                </span>
+                {s.date && <span className="pp-sub-date">{s.date}</span>}
+                <button className="pp-edit-btn" onClick={() => deleteShow(s.id)} title={t('pp.exlog.delete')}>×</button>
+              </div>
+              {s.venue && s.name && <div className="pp-sub-what">{s.venue} · {t('pp.showType.' + s.type) || s.type}</div>}
+              {s.notes && <div className="pp-sub-notes">{s.notes}</div>}
+            </div>
+          )
+        })}
+      </div>
+    </SectionShell>
+  )
+}
+
 // ── Venue / CRM log section ───────────────────────────────────────────────
 
 const VENUE_STATUS_OPTIONS = [
@@ -1155,6 +1331,7 @@ function computeSectionOrder(profile) {
     'instagram-strategy': 0.80,
     'artist-statement':   hasText ? 0.50 : 0.05,
     'exhibition-pathway': 0.40,
+    'exhibition-log':     0.38,
     'submission-log':     0.35,
     'venue-log':          0.30,
     'preferences':        0.20,
@@ -1356,6 +1533,14 @@ export default function PeppercornPage({ nav }) {
         isOpen={openSections.has('preferences')}
         onToggle={() => toggleSection('preferences')}
         sectionRef={setSectionRef('preferences')}
+      />
+    ),
+    'exhibition-log': (
+      <ExhibitionLogSection
+        key="exhibition-log"
+        isOpen={openSections.has('exhibition-log')}
+        onToggle={() => toggleSection('exhibition-log')}
+        sectionRef={setSectionRef('exhibition-log')}
       />
     ),
     'submission-log': (
