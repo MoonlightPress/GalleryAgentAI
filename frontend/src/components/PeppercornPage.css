@@ -1116,6 +1116,86 @@
 
 /* ── Dismissal insight banner ────────────────────────────────────────────── */
 
+/* ── Career event widget ────────────────────────────────────────────────── */
+
+.pp-event-widget {
+  background: #fdf8f0;
+  border: 1px solid #e8d4b0;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+}
+
+.pp-event-prompt {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #7a5c3a;
+  margin-bottom: 10px;
+}
+
+.pp-event-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.pp-event-btn {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  color: #5a3e20;
+  background: #fff;
+  border: 1px solid #d4b890;
+  border-radius: 20px;
+  padding: 5px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.pp-event-btn:hover { background: #fdf0d8; border-color: #c4985a; }
+.pp-event-btn--active { font-weight: bold; }
+
+.pp-event-icon { font-style: normal; }
+.pp-event-label { white-space: nowrap; }
+
+.pp-event-note-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.pp-event-note-input { flex: 1; min-width: 160px; font-size: 13px; }
+.pp-event-log-btn { padding: 5px 12px !important; font-size: 12.5px !important; }
+
+.pp-event-recent {
+  margin-top: 10px;
+  border-top: 1px solid #ecdcb8;
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pp-event-recent-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 12px;
+  color: #7a5c3a;
+}
+
+.pp-event-recent-icon { font-style: normal; width: 14px; text-align: center; }
+.pp-event-recent-type { font-family: Georgia, serif; font-weight: bold; }
+.pp-event-recent-note { flex: 1; color: #5a3e20; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pp-event-recent-date { color: #a08060; font-size: 11px; margin-left: auto; flex-shrink: 0; }
+
+/* ── Dismissal insight ──────────────────────────────────────────────────── */
+
 .pp-dismissal-insight {
   display: flex;
   align-items: flex-start;

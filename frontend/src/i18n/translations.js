@@ -635,6 +635,18 @@ const zh = {
   'pp.showOutcome.planned':    '计划中',
   'pp.showOutcome.cancelled':  '已取消',
 
+  // ── Career Event Widget ─────────────────────────────────────────────────
+  'pp.event.prompt':           '今天发生了什么？',
+  'pp.event.type.accepted':    '通过了',
+  'pp.event.type.rejected':    '被拒了',
+  'pp.event.type.conversation':'聊了一次',
+  'pp.event.type.visited':     '参观了地点',
+  'pp.event.type.sold':        '卖出了作品',
+  'pp.event.type.featured':    '被报道了',
+  'pp.event.note.placeholder': '添加备注（可选）…',
+  'pp.event.log':              '记录',
+  'pp.event.cancel':           '取消',
+
   // ── Venue Log ───────────────────────────────────────────────────────────
   'pp.sec.venuelog':               '场地联系记录',
   'pp.sub.venuelog.empty':         '暂无场地记录',
@@ -1384,6 +1396,18 @@ const ja = {
   'pp.showOutcome.planned':    '予定',
   'pp.showOutcome.cancelled':  'キャンセル',
 
+  // ── Career Event Widget ─────────────────────────────────────────────────
+  'pp.event.prompt':           '今日、何かありましたか？',
+  'pp.event.type.accepted':    '採択された',
+  'pp.event.type.rejected':    '落選した',
+  'pp.event.type.conversation':'会話があった',
+  'pp.event.type.visited':     '会場を訪れた',
+  'pp.event.type.sold':        '作品が売れた',
+  'pp.event.type.featured':    '取材された',
+  'pp.event.note.placeholder': 'メモを追加（任意）…',
+  'pp.event.log':              '記録する',
+  'pp.event.cancel':           'キャンセル',
+
   // ── Venue Log ───────────────────────────────────────────────────────────
   'pp.sec.venuelog':               '会場連絡記録',
   'pp.sub.venuelog.empty':         '記録された会場はまだありません',
@@ -2124,6 +2148,18 @@ const en = {
   'pp.showOutcome.shown':      'Shown ✓',
   'pp.showOutcome.planned':    'Planned',
   'pp.showOutcome.cancelled':  'Cancelled',
+
+  // ── Career Event Widget ─────────────────────────────────────────────────
+  'pp.event.prompt':           'Something happened today:',
+  'pp.event.type.accepted':    'Got accepted',
+  'pp.event.type.rejected':    'Got rejected',
+  'pp.event.type.conversation':'Had a conversation',
+  'pp.event.type.visited':     'Visited a venue',
+  'pp.event.type.sold':        'Sold a piece',
+  'pp.event.type.featured':    'Got featured',
+  'pp.event.note.placeholder': 'Add a note (optional)…',
+  'pp.event.log':              'Log it',
+  'pp.event.cancel':           'Cancel',
 
   // ── Venue Log ───────────────────────────────────────────────────────────
   'pp.sec.venuelog':               'Venue Contact Log',

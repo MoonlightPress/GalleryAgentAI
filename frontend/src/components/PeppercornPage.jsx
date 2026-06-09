@@ -1236,6 +1236,138 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
   )
 }
 
+// ── Career event quick-log ────────────────────────────────────────────────
+
+const EVENT_TYPES = [
+  { type: 'accepted',     icon: '✓' },
+  { type: 'rejected',     icon: '✗' },
+  { type: 'conversation', icon: '💬' },
+  { type: 'visited',      icon: '👁' },
+  { type: 'sold',         icon: '¥' },
+  { type: 'featured',     icon: '★' },
+]
+
+const EVENT_COLORS = {
+  accepted:     { bg: '#f0fbee', border: '#8fc98a', text: '#2e6626' },
+  rejected:     { bg: '#fef5f5', border: '#e8b0b0', text: '#8b2a2a' },
+  conversation: { bg: '#f0f6ff', border: '#90aee0', text: '#1a3a80' },
+  visited:      { bg: '#fdf8f0', border: '#e0cba0', text: '#7a5010' },
+  sold:         { bg: '#f6fdf0', border: '#a8d890', text: '#3a6020' },
+  featured:     { bg: '#fffbef', border: '#e8d890', text: '#7a6010' },
+}
+
+function CareerEventWidget() {
+  const { t } = useLanguage()
+  const [events, setEvents] = useState([])
+  const [noteType, setNoteType] = useState(null)
+  const [note, setNote] = useState('')
+  const [flash, setFlash] = useState(false)
+
+  useEffect(() => {
+    fetch('/api/career_events')
+      .then(r => r.ok ? r.json() : [])
+      .then(d => setEvents(Array.isArray(d) ? d.slice(0, 5) : []))
+      .catch(() => {})
+  }, [flash])
+
+  async function logEvent(type) {
+    if (noteType === type && note.trim() === '') {
+      // second tap on same type without note — just submit
+    } else if (noteType !== type) {
+      setNoteType(type)
+      setNote('')
+      return
+    }
+    await fetch('/api/career_events', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type, note: note.trim() }),
+    })
+    setNoteType(null)
+    setNote('')
+    setFlash(f => !f)
+  }
+
+  async function quickLog(type) {
+    // Single tap logs immediately (no note required)
+    await fetch('/api/career_events', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type, note: '' }),
+    })
+    setNoteType(null)
+    setNote('')
+    setFlash(f => !f)
+  }
+
+  return (
+    <div className="pp-event-widget">
+      <div className="pp-event-prompt">{t('pp.event.prompt')}</div>
+      <div className="pp-event-buttons">
+        {EVENT_TYPES.map(({ type, icon }) => {
+          const colors = EVENT_COLORS[type] || {}
+          const isActive = noteType === type
+          return (
+            <button
+              key={type}
+              className={`pp-event-btn${isActive ? ' pp-event-btn--active' : ''}`}
+              style={isActive ? { background: colors.bg, borderColor: colors.border, color: colors.text } : {}}
+              onClick={() => {
+                if (isActive) {
+                  logEvent(type)
+                } else {
+                  setNoteType(type)
+                  setNote('')
+                }
+              }}
+              title={t(`pp.event.type.${type}`)}
+            >
+              <span className="pp-event-icon">{icon}</span>
+              <span className="pp-event-label">{t(`pp.event.type.${type}`)}</span>
+            </button>
+          )
+        })}
+      </div>
+
+      {noteType && (
+        <div className="pp-event-note-row">
+          <input
+            className="pp-sub-input pp-event-note-input"
+            value={note}
+            onChange={e => setNote(e.target.value)}
+            onKeyDown={e => { if (e.key === 'Enter') logEvent(noteType) }}
+            placeholder={t('pp.event.note.placeholder')}
+            autoFocus
+          />
+          <button className="pp-save pp-event-log-btn" onClick={() => logEvent(noteType)}>
+            {t('pp.event.log')}
+          </button>
+          <button className="pp-skip" onClick={() => { setNoteType(null); setNote('') }}>
+            {t('pp.event.cancel')}
+          </button>
+        </div>
+      )}
+
+      {events.length > 0 && (
+        <div className="pp-event-recent">
+          {events.map((ev, i) => {
+            const colors = EVENT_COLORS[ev.type] || EVENT_COLORS.conversation
+            const evType = EVENT_TYPES.find(e => e.type === ev.type)
+            return (
+              <div key={ev.id || i} className="pp-event-recent-row">
+                <span className="pp-event-recent-icon" style={{ color: colors.text }}>{evType?.icon || '•'}</span>
+                <span className="pp-event-recent-type" style={{ color: colors.text }}>{t(`pp.event.type.${ev.type}`)}</span>
+                {ev.note && <span className="pp-event-recent-note">{ev.note}</span>}
+                <span className="pp-event-recent-date">{ev.date}</span>
+              </div>
+            )
+          })}
+        </div>
+      )}
+    </div>
+  )
+}
+
 // ── Carousel data builders ────────────────────────────────────────────────
 
 function buildCarouselCards(profile, t) {
@@ -1583,8 +1715,9 @@ export default function PeppercornPage({ nav }) {
 
       {profile && (
         <>
-          {/* Dismissal insight */}
+          {/* Career event quick-log */}
           <div className="pp-content">
+            <CareerEventWidget />
             <DismissalInsightBanner />
           </div>
 

@@ -1432,6 +1432,16 @@ def get_saffron():
         except Exception:
             raw_contacts = []
 
+    career_events_path = DATA_DIR / "career_events.json"
+    raw_career_events = []
+    if career_events_path.exists():
+        try:
+            raw_career_events = json.loads(career_events_path.read_text(encoding="utf-8"))
+            if not isinstance(raw_career_events, list):
+                raw_career_events = []
+        except Exception:
+            raw_career_events = []
+
     from datetime import date as _date, datetime as _datetime
     _today = _date.today()
     _this_ym = _today.strftime("%Y-%m")
@@ -1458,7 +1468,7 @@ def get_saffron():
             m += 12
             y -= 1
         key = f"{y}-{m:02d}"
-        monthly[key] = {"submissions": 0, "contacts": 0}
+        monthly[key] = {"submissions": 0, "contacts": 0, "events": 0}
 
     for s in raw_submissions:
         ym = _parse_ym(s.get("date") or s.get("submitted_at") or s.get("date_added") or "")
@@ -1470,16 +1480,22 @@ def get_saffron():
         if ym in monthly:
             monthly[ym]["contacts"] += 1
 
+    for ev in raw_career_events:
+        ym = _parse_ym(ev.get("date") or ev.get("timestamp") or "")
+        if ym in monthly:
+            monthly[ym]["events"] += 1
+
     this_month_subs = sum(1 for s in raw_submissions if _parse_ym(s.get("date") or s.get("submitted_at") or s.get("date_added") or "").startswith(_this_ym))
     this_month_contacts = monthly.get(_this_ym, {}).get("contacts", 0)
+    this_month_events = monthly.get(_this_ym, {}).get("events", 0)
 
     responses = sum(1 for c in raw_contacts if c.get("response_received") is True)
     contacted = sum(1 for c in raw_contacts if c.get("status") not in ("cold", None, ""))
     response_rate = round((responses / contacted * 100) if contacted else 0)
 
     # Trajectory: simple heuristic on recent vs prior months
-    recent_acts = sum(monthly[k]["submissions"] + monthly[k]["contacts"] for k in list(monthly)[-2:])
-    prior_acts  = sum(monthly[k]["submissions"] + monthly[k]["contacts"] for k in list(monthly)[:4])
+    recent_acts = sum(monthly[k]["submissions"] + monthly[k]["contacts"] + monthly[k]["events"] for k in list(monthly)[-2:])
+    prior_acts  = sum(monthly[k]["submissions"] + monthly[k]["contacts"] + monthly[k]["events"] for k in list(monthly)[:4])
     if not raw_submissions and len(raw_contacts) < 5:
         trajectory = "early"
     elif recent_acts > prior_acts * 1.3:
@@ -1505,22 +1521,32 @@ def get_saffron():
             "date": c.get("date_added") or "",
             "status": c.get("status") or "cold",
         })
+    for ev in raw_career_events[:20]:
+        activity_items.append({
+            "type": "career_event",
+            "event_type": ev.get("type", "event"),
+            "name": ev.get("note") or ev.get("type", "").replace("_", " ").title(),
+            "date": ev.get("date") or (ev.get("timestamp") or "")[:10],
+            "status": ev.get("type", "event"),
+        })
     activity_items.sort(key=lambda x: x["date"], reverse=True)
 
     career_momentum = {
-        "this_month": {"submissions": this_month_subs, "contacts": this_month_contacts},
+        "this_month": {"submissions": this_month_subs, "contacts": this_month_contacts, "events": this_month_events},
         "totals": {
             "submissions": len(raw_submissions),
             "venues_in_crm": len(raw_contacts),
+            "career_events": len(raw_career_events),
             "responses_received": responses,
         },
         "response_rate": response_rate,
         "trajectory": trajectory,
         "monthly_chart": [
-            {"month": k, "submissions": v["submissions"], "contacts": v["contacts"]}
+            {"month": k, "submissions": v["submissions"], "contacts": v["contacts"], "events": v["events"]}
             for k, v in monthly.items()
         ],
-        "recent_activity": activity_items[:8],
+        "recent_activity": activity_items[:10],
+        "recent_career_events": raw_career_events[:5],
     }
 
     # ── Timing Intelligence ───────────────────────────────────────────────────
@@ -1761,6 +1787,27 @@ async def save_peppercorn(request: Request):
     ppath = DATA_DIR / "peppercorn_profile.json"
     ppath.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     return {"ok": True, "last_updated": payload["last_updated"]}
+
+
+@app.get("/api/career_events")
+def get_career_events():
+    path = DATA_DIR / "career_events.json"
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    return []
+
+
+@app.post("/api/career_events")
+async def add_career_event(request: Request):
+    entry = await request.json()
+    path = DATA_DIR / "career_events.json"
+    log = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    entry["id"] = f"{entry.get('type','event')}-{len(log)}-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}"
+    entry["timestamp"] = datetime.now(timezone.utc).isoformat()
+    entry.setdefault("date", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+    log.insert(0, entry)  # newest first
+    path.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "entry": entry}
 
 
 @app.get("/api/exhibition_log")
