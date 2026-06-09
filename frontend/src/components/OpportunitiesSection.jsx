@@ -7,17 +7,21 @@ import { useLanguage } from '../i18n/LanguageContext'
 const SECTION_ORDER = [
   'immediate_best_moves',
   'open_calls',
+  'publication_editorial',
+  'competitions_awards',
   'zines_and_print',
   'relationship_targets',
   'watch_list',
 ]
 
 const SECTION_ICONS = {
-  immediate_best_moves: '⭐',
-  open_calls:           '📅',
-  zines_and_print:      '📚',
-  relationship_targets: '🌸',
-  watch_list:           '👁',
+  immediate_best_moves:  '⭐',
+  open_calls:            '📅',
+  publication_editorial: '✏️',
+  competitions_awards:   '🏆',
+  zines_and_print:       '📚',
+  relationship_targets:  '🌸',
+  watch_list:            '👁',
 }
 
 const GRID_PAGE = 3

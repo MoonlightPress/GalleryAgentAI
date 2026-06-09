@@ -305,6 +305,98 @@ QUERIES = [
         "q": "多伦多 华人艺术家 征稿 展览 水彩 2026",
         "domains": [],
     },
+
+    # ── Publications & Editorial — Japanese ──────────────────────────────────
+    {
+        "id": "jp_editorial_magazine_call",
+        "group": "JP_EDITORIAL",
+        "lang": "ja",
+        "q": "イラスト 挿絵 雑誌 掲載 募集 水彩 2026 イラストレーター",
+        "domains": [],
+    },
+    {
+        "id": "jp_art_magazine_contributor",
+        "group": "JP_EDITORIAL",
+        "lang": "ja",
+        "q": "美術手帖 pen magazine アーティスト 寄稿 掲載 水彩 イラスト 募集",
+        "domains": ["bijutsutecho.com"],
+    },
+    {
+        "id": "jp_book_cover_illustration",
+        "group": "JP_EDITORIAL",
+        "lang": "ja",
+        "q": "ブックカバー 表紙 挿絵 イラスト 依頼 募集 2026 出版社",
+        "domains": [],
+    },
+    {
+        "id": "jp_editorial_twitter",
+        "group": "JP_EDITORIAL",
+        "lang": "ja",
+        "q": "イラスト 挿絵 雑誌 約稿 募集 水彩 イラストレーター 2026",
+        "domains": ["x.com", "twitter.com"],
+    },
+
+    # ── Publications & Editorial — Chinese ───────────────────────────────────
+    {
+        "id": "cn_editorial_illustration",
+        "group": "CN_EDITORIAL",
+        "lang": "zh",
+        "q": "插画 杂志 约稿 编辑插画 封面插画 2026 征稿 水彩",
+        "domains": [],
+    },
+    {
+        "id": "cn_book_cover_call",
+        "group": "CN_EDITORIAL",
+        "lang": "zh",
+        "q": "书封插画 封面设计 出版社 约稿 水彩 插画师 2026",
+        "domains": [],
+    },
+
+    # ── Competitions & Awards — Japanese ─────────────────────────────────────
+    {
+        "id": "jp_watercolor_competition",
+        "group": "JP_COMPETITION",
+        "lang": "ja",
+        "q": "水彩 コンクール 大賞 入賞 公募 2026 応募",
+        "domains": [],
+    },
+    {
+        "id": "jp_illustration_award",
+        "group": "JP_COMPETITION",
+        "lang": "ja",
+        "q": "イラストレーション 大賞 コンテスト 新人賞 公募 2026 応募",
+        "domains": [],
+    },
+    {
+        "id": "jp_emerging_artist_prize",
+        "group": "JP_COMPETITION",
+        "lang": "ja",
+        "q": "若手アーティスト 賞 コンクール 絵画 水彩 イラスト 新人 2026",
+        "domains": [],
+    },
+    {
+        "id": "jp_competition_bijutsutecho",
+        "group": "JP_COMPETITION",
+        "lang": "ja",
+        "q": "コンクール 大賞 水彩 絵画 イラスト 新人 2026",
+        "domains": ["bijutsutecho.com"],
+    },
+
+    # ── Competitions & Awards — Chinese ──────────────────────────────────────
+    {
+        "id": "cn_watercolor_competition",
+        "group": "CN_COMPETITION",
+        "lang": "zh",
+        "q": "水彩 插画 比赛 大赛 奖项 新人奖 2026 国际",
+        "domains": [],
+    },
+    {
+        "id": "cn_illustration_prize",
+        "group": "CN_COMPETITION",
+        "lang": "zh",
+        "q": "插画 绘画 大赛 征集 奖励 2026 水彩 艺术家",
+        "domains": [],
+    },
 ]
 
 
@@ -373,7 +465,9 @@ Extract all distinct art opportunities visible in these snippets. For each one, 
   "category"       — one of: gallery, cafe_gallery, artist_space, fair_popup, bookstore_gallery,
                      bookstore_event, zine_print, market_event, residency, institutional,
                      global_open_call, global_watercolor_open_call, japan_watercolor_open_call,
-                     zine_fair_booth, group_publication_open_call, global_residency, event_space
+                     zine_fair_booth, group_publication_open_call, global_residency, event_space,
+                     editorial_illustration, magazine_call, book_cover_call,
+                     competition_award, illustration_prize, watercolor_competition
   "city"           — city (use "Tokyo" if Japan, "Online" if digital, "International" if unclear)
   "country"        — country name (e.g. "Japan", "China", "Singapore", "Canada", "International")
   "deadline"       — deadline text or date if given, null otherwise
@@ -427,6 +521,8 @@ _VALID_CATS = {
     "residency", "institutional", "global_open_call", "global_watercolor_open_call",
     "japan_watercolor_open_call", "zine_fair_booth", "group_publication_open_call",
     "global_residency", "event_space",
+    "editorial_illustration", "magazine_call", "book_cover_call",
+    "competition_award", "illustration_prize", "watercolor_competition",
 }
 
 
@@ -443,6 +539,10 @@ def base_score(opp: dict) -> float:
         score += 0.6
     if cat in {"gallery", "artist_space", "institutional"}:
         score += 0.3
+    if cat in {"editorial_illustration", "magazine_call", "book_cover_call"}:
+        score += 0.8
+    if cat in {"competition_award", "illustration_prize", "watercolor_competition"}:
+        score += 0.7
     if "japan" in country or country == "":
         score += 0.4
     if group == "DIASPORA":

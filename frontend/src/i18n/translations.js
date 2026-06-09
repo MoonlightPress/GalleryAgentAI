@@ -51,6 +51,10 @@ const zh = {
   'section.zines_and_print.desc':       '书店、艺术书展与独立刊物空间。低门槛发行渠道。',
   'section.relationship_targets.label': '关系建立目标',
   'section.relationship_targets.desc':  '值得主动接触的画廊与空间。参加开幕，建立存在感。',
+  'section.publication_editorial.label': '出版与编辑插画',
+  'section.publication_editorial.desc':  '杂志约稿、封面插画与编辑委托。在画廊活动之外建立印刷端知名度。',
+  'section.competitions_awards.label':   '比赛与奖项',
+  'section.competitions_awards.desc':    '水彩竞赛、插画奖项与新人奖。获奖记录强化CV，提升可见度。',
   'section.watch_list.label':           '关注列表',
   'section.watch_list.desc':            '驻留、机构项目与待深入研究的机会。',
 
@@ -116,6 +120,13 @@ const zh = {
   'cat.residency_beijing':           '驻留（北京）',
   'cat.zine_fair_booth':             '独立出版物书展摊位',
   'cat.zine_shop_consignment':       '独立出版物寄售',
+  'cat.editorial_illustration':      '编辑插画 / 杂志约稿',
+  'cat.magazine_call':               '杂志征稿',
+  'cat.book_cover_call':             '封面插画征集',
+  'cat.competition_award':           '比赛与奖项',
+  'cat.illustration_prize':          '插画奖项',
+  'cat.watercolor_competition':      '水彩竞赛',
+  'cat.emerging_artist_award':       '新人奖',
 
 
   // ── Saffron page ──────────────────────────────────────────────────────────
@@ -706,6 +717,10 @@ const ja = {
   'section.zines_and_print.desc':       '書店、アートブックフェア、リトルプレス。ハードルが低く、作品が流通しやすい。',
   'section.relationship_targets.label': '関係構築先',
   'section.relationship_targets.desc':  'アプローチする価値のあるギャラリーやスペース。オープニングに顔を出し、存在感を示す。',
+  'section.publication_editorial.label': '出版・編集イラスト',
+  'section.publication_editorial.desc':  '雑誌掲載・表紙イラスト・編集委託。ギャラリー活動と並行して印刷物での知名度を築く。',
+  'section.competitions_awards.label':   'コンクール・賞',
+  'section.competitions_awards.desc':    '水彩コンクール、イラスト賞、新人賞。受賞歴はCVを強化し、可視性を高める。',
   'section.watch_list.label':           'ウォッチリスト',
   'section.watch_list.desc':            'レジデンシー、機関、要調査の機会。',
 
@@ -771,6 +786,13 @@ const ja = {
   'cat.residency_beijing':           'レジデンシー（北京）',
   'cat.zine_fair_booth':             'ジンフェアブース',
   'cat.zine_shop_consignment':       'ジンショップ委託',
+  'cat.editorial_illustration':      '編集イラスト / 雑誌掲載',
+  'cat.magazine_call':               '雑誌掲載募集',
+  'cat.book_cover_call':             '表紙イラスト募集',
+  'cat.competition_award':           'コンクール・賞',
+  'cat.illustration_prize':          'イラスト賞',
+  'cat.watercolor_competition':      '水彩コンクール',
+  'cat.emerging_artist_award':       '新人賞',
 
 
   // ── Saffron ───────────────────────────────────────────────────────────────
@@ -1358,6 +1380,10 @@ const en = {
   'section.zines_and_print.desc':       'Bookstores, art book fairs, and zine spaces. Low-barrier entry — work circulates without a formal pitch.',
   'section.relationship_targets.label': 'Relationship Targets',
   'section.relationship_targets.desc':  'Galleries and spaces worth approaching. Attend openings, build presence over time.',
+  'section.publication_editorial.label': 'Publications & Editorial',
+  'section.publication_editorial.desc':  'Magazine illustration calls, book cover submissions, and editorial commissions. Build print presence alongside gallery work.',
+  'section.competitions_awards.label':   'Competitions & Awards',
+  'section.competitions_awards.desc':    'Watercolor competitions, illustration prizes, and emerging artist awards. Win records strengthen your CV and raise your profile.',
   'section.watch_list.label':           'Watch List',
   'section.watch_list.desc':            'Residencies, institutions, and items needing more research before action.',
 
@@ -1420,6 +1446,13 @@ const en = {
   'cat.residency_beijing':           'Residency (Beijing)',
   'cat.zine_fair_booth':             'Zine Fair Booth',
   'cat.zine_shop_consignment':       'Zine Shop Consignment',
+  'cat.editorial_illustration':      'Editorial Illustration',
+  'cat.magazine_call':               'Magazine Call',
+  'cat.book_cover_call':             'Book Cover Call',
+  'cat.competition_award':           'Competition / Award',
+  'cat.illustration_prize':          'Illustration Prize',
+  'cat.watercolor_competition':      'Watercolor Competition',
+  'cat.emerging_artist_award':       'Emerging Artist Award',
 
 
   'sf.loading':              'Saffron is watching…',

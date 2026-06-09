@@ -47,6 +47,14 @@ SECTION_CATEGORIES = {
         "japan_watercolor_institution", "zine_fair_booth", "global_art_book_fair",
         "global_book_arts", "group_publication_open_call", "global_photobook",
     },
+    "publication_editorial": {
+        "editorial_illustration", "magazine_call", "book_cover_call",
+        "publication_editorial", "editorial_commission",
+    },
+    "competitions_awards": {
+        "competition_award", "illustration_prize", "watercolor_competition",
+        "emerging_artist_award",
+    },
     "zines_and_print": {
         "zine_print", "bookstore_gallery", "bookstore_event", "zine_shop_consignment",
         "book_publishing", "global_artist_book_platform",
@@ -68,6 +76,14 @@ SECTION_META = {
     "open_calls": {
         "label": "Open Calls by Deadline",
         "description": "Spaces that run periodic open submissions. Confirm deadlines before applying.",
+    },
+    "publication_editorial": {
+        "label": "Publications & Editorial",
+        "description": "Magazine illustration calls, book cover submissions, and editorial commissions. Build print presence alongside gallery work.",
+    },
+    "competitions_awards": {
+        "label": "Competitions & Awards",
+        "description": "Watercolor competitions, illustration prizes, and emerging artist awards. Win records strengthen your CV and raise your profile.",
     },
     "zines_and_print": {
         "label": "Zines & Print",

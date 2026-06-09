@@ -74,6 +74,8 @@ SUPPRESSION_PATH = "memory/ibm_suppression.json"
 
 BUCKET_ORDER = [
     "immediate_best_moves",
+    "publication_editorial",
+    "competitions_awards",
     "publication_targets",
     "japan_book_ecosystem",
     "stretch_targets",
@@ -84,14 +86,16 @@ BUCKET_ORDER = [
 ]
 
 LABELS = {
-    "immediate_best_moves": "Immediate Best Moves",
-    "publication_targets": "Publication Targets",
-    "japan_book_ecosystem": "Japan Book / Zine Ecosystem",
-    "stretch_targets": "Stretch Targets",
+    "immediate_best_moves":  "Immediate Best Moves",
+    "publication_editorial": "Publications & Editorial",
+    "competitions_awards":   "Competitions & Awards",
+    "publication_targets":   "Publication Targets",
+    "japan_book_ecosystem":  "Japan Book / Zine Ecosystem",
+    "stretch_targets":       "Stretch Targets",
     "relationship_builders": "Relationship Builders",
-    "research_needed": "Needs Research",
-    "low_priority": "Low Priority",
-    "reject": "Reject / Hide",
+    "research_needed":       "Needs Research",
+    "low_priority":          "Low Priority",
+    "reject":                "Reject / Hide",
 }
 
 
@@ -218,6 +222,34 @@ def choose_bucket(opp):
     _title_lc = (opp.get("title") or opp.get("name") or "").lower()
     if any(t in _title_lc for t in ("film festival", "podcast", "audio work required")):
         return "reject"
+
+    # Publications & Editorial: magazine illustration calls, book cover submissions,
+    # editorial commissions, Japanese art magazines. Never competition-style deadlines.
+    _EDITORIAL_CATS = {
+        "editorial_illustration", "magazine_call", "book_cover_call",
+        "publication_editorial", "editorial_commission",
+    }
+    if opp.get("category") in _EDITORIAL_CATS:
+        return "publication_editorial"
+
+    # Competitions & Awards: illustration prizes, watercolor competitions,
+    # emerging artist awards. Low score → research_needed (not worth time if score < 6).
+    _COMPETITION_CATS = {
+        "competition_award", "illustration_prize",
+        "watercolor_competition", "emerging_artist_award",
+    }
+    if opp.get("category") in _COMPETITION_CATS:
+        return "competitions_awards" if score >= 6.0 else "research_needed"
+
+    # Keyword fallback for entries classified generic but clearly editorial or competition
+    _editorial_kw = {"editorial illustration", "magazine illustration", "book cover call",
+                     "editorial commission", "雑誌掲載", "挿絵募集", "约稿", "编辑插画"}
+    _competition_kw = {"illustration prize", "watercolor prize", "illustration award",
+                       "art prize", "コンクール", "大賞", "新人賞", "比赛", "大赛", "奖项"}
+    if has(text, _editorial_kw):
+        return "publication_editorial"
+    if has(text, _competition_kw) and score >= 5.5:
+        return "competitions_awards"
 
     # Press targets: publications to pitch for features. Never filtered by deadline.
     # Route to relationship_builders (they are relationship plays, not one-off applications).
