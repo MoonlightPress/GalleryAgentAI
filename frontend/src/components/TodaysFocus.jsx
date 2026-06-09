@@ -145,16 +145,29 @@ export default function TodaysFocus() {
     )
   }
 
+  // Build the ordered slot list; skip null slots so the grid never shows empty columns
+  const slots = [
+    { key: 'quick_win',    role: 'quick_win' },
+    { key: 'high_impact',  role: 'high_impact' },
+    { key: 'stretch_goal', role: 'stretch_goal' },
+  ].filter(s => today[s.key])
+
   return (
     <section className="tf-section">
       <div className="tf-header">
         <h2 className="tf-section-title">{t('tf.title')}</h2>
         <p className="tf-section-sub">{t('tf.sub')}</p>
       </div>
-      <div className="tf-grid">
-        <TodayCard card={today.quick_win}    role="quick_win"    isOpen={activeRole==='quick_win'}    onDetails={() => handleDetails('quick_win')} />
-        <TodayCard card={today.high_impact}  role="high_impact"  isOpen={activeRole==='high_impact'}  onDetails={() => handleDetails('high_impact')} />
-        <TodayCard card={today.stretch_goal} role="stretch_goal" isOpen={activeRole==='stretch_goal'} onDetails={() => handleDetails('stretch_goal')} />
+      <div className="tf-grid" style={slots.length < 3 ? { gridTemplateColumns: `repeat(${slots.length}, 1fr)` } : undefined}>
+        {slots.map(s => (
+          <TodayCard
+            key={s.key}
+            card={today[s.key]}
+            role={s.role}
+            isOpen={activeRole === s.key}
+            onDetails={() => handleDetails(s.key)}
+          />
+        ))}
       </div>
 
       {activeRole && today[activeRole] && (

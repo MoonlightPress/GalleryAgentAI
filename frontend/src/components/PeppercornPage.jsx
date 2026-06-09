@@ -1253,12 +1253,7 @@ const CRM_STATUS_META = {
   rejected:        { label: 'Rejected',            bg: '#fef5f5', border: '#e8b0b0', text: '#8b2a2a' },
 }
 
-const CRM_FILTER_TABS = [
-  { id: 'all',      label: 'All' },
-  { id: 'active',   label: 'Active' },
-  { id: 'research', label: 'Researching' },
-  { id: 'cold',     label: 'Cold' },
-]
+const CRM_FILTER_TAB_IDS = ['all', 'active', 'research', 'cold']
 
 function crmStatusMeta(status) {
   return CRM_STATUS_META[status] || { label: status, bg: '#f5f5f5', border: '#ccc', text: '#555' }
@@ -1276,6 +1271,7 @@ const CRM_TYPE_LABELS = {
 function CrmContactCard({ contact: c, onUpdate }) {
   const [expanded, setExpanded] = useState(false)
   const [loading, setLoading] = useState(false)
+  const { t } = useLanguage()
   const meta = crmStatusMeta(c.status)
 
   const today = new Date().toISOString().slice(0, 10)
@@ -1309,7 +1305,7 @@ function CrmContactCard({ contact: c, onUpdate }) {
 
   const lastContactedLabel = c.last_contacted
     ? c.last_contacted.slice(0, 10)
-    : 'Never contacted'
+    : t('pp.crm.neverContacted')
 
   const showMarkContacted = !['contacted','responded','relationship'].includes(c.status)
   const showGotReply = ['contacted','in_contact'].includes(c.status) && !c.response_received
@@ -1328,7 +1324,9 @@ function CrmContactCard({ contact: c, onUpdate }) {
             className="crm-status-pill"
             style={{ background: meta.bg, color: meta.text, border: `1px solid ${meta.border}` }}
           >
-            {meta.label}
+            {t('pp.crm.statusLabel.' + c.status) !== ('pp.crm.statusLabel.' + c.status)
+              ? t('pp.crm.statusLabel.' + c.status)
+              : meta.label}
           </span>
           {c.city && <span className="crm-city">{c.city}</span>}
           <span className="crm-last-contacted">{lastContactedLabel}</span>
@@ -1347,12 +1345,12 @@ function CrmContactCard({ contact: c, onUpdate }) {
         )}
         {showMarkContacted && (
           <button className="crm-action-btn" disabled={loading} onClick={markContacted}>
-            Mark contacted
+            {t('pp.crm.markContacted')}
           </button>
         )}
         {showGotReply && (
           <button className="crm-action-btn crm-action-btn--reply" disabled={loading} onClick={markReplied}>
-            Got reply
+            {t('pp.crm.gotReply')}
           </button>
         )}
       </div>
@@ -1361,25 +1359,25 @@ function CrmContactCard({ contact: c, onUpdate }) {
         <div className="crm-card-expanded">
           {c.crm_analysis?.next_action && (
             <div className="crm-expanded-row crm-expanded-row--action">
-              <span className="crm-expanded-label crm-expanded-label--action">Next action</span>
+              <span className="crm-expanded-label crm-expanded-label--action">{t('pp.crm.nextAction')}</span>
               <p className="crm-expanded-text crm-expanded-text--action">{c.crm_analysis.next_action}</p>
             </div>
           )}
           {c.why_relevant && (
             <div className="crm-expanded-row">
-              <span className="crm-expanded-label">Why relevant</span>
+              <span className="crm-expanded-label">{t('pp.crm.whyRelevant')}</span>
               <p className="crm-expanded-text">{c.why_relevant}</p>
             </div>
           )}
           {c.crm_analysis?.risk_notes && (
             <div className="crm-expanded-row">
-              <span className="crm-expanded-label">Watch out</span>
+              <span className="crm-expanded-label">{t('pp.crm.watchOut')}</span>
               <p className="crm-expanded-text crm-expanded-text--risk">{c.crm_analysis.risk_notes}</p>
             </div>
           )}
           {c.notes && (
             <div className="crm-expanded-row">
-              <span className="crm-expanded-label">Notes</span>
+              <span className="crm-expanded-label">{t('pp.crm.notes')}</span>
               <p className="crm-expanded-text">{c.notes}</p>
             </div>
           )}
@@ -1392,7 +1390,7 @@ function CrmContactCard({ contact: c, onUpdate }) {
                 rel="noopener noreferrer"
                 onClick={e => e.stopPropagation()}
               >
-                {c.contact_page ? 'Contact page' : 'Website'} ↗
+                {c.contact_page ? t('pp.crm.contactPage') : t('pp.crm.website')} ↗
               </a>
             </div>
           )}
@@ -1406,6 +1404,7 @@ function ContactsSection({ isOpen, onToggle, sectionRef }) {
   const [contacts, setContacts] = useState([])
   const [filter, setFilter] = useState('all')
   const [loading, setLoading] = useState(true)
+  const { t } = useLanguage()
 
   useEffect(() => {
     fetch('/api/contacts')
@@ -1424,12 +1423,12 @@ function ContactsSection({ isOpen, onToggle, sectionRef }) {
   const researchCount = contacts.filter(c => c.status === 'researching').length
 
   const summaryParts = []
-  if (readyCount)    summaryParts.push(`${readyCount} ready to reach out`)
-  if (activeCount)   summaryParts.push(`${activeCount} active`)
-  if (researchCount) summaryParts.push(`${researchCount} researching`)
+  if (readyCount)    summaryParts.push(t('pp.contacts.ready', { n: readyCount }))
+  if (activeCount)   summaryParts.push(t('pp.contacts.active', { n: activeCount }))
+  if (researchCount) summaryParts.push(t('pp.contacts.researching', { n: researchCount }))
   const subtitle = contacts.length === 0
-    ? 'No contacts yet'
-    : `${contacts.length} contacts — ${summaryParts.join(', ') || 'all cold'}`
+    ? t('pp.contacts.empty')
+    : t('pp.contacts.summary', { n: contacts.length, parts: summaryParts.join(', ') || t('pp.contacts.allCold') })
 
   const FILTER_STATUS_MAP = {
     all:      null,
@@ -1446,14 +1445,12 @@ function ContactsSection({ isOpen, onToggle, sectionRef }) {
     <SectionShell
       id="contacts"
       sectionRef={sectionRef}
-      title="Contacts"
+      title={t('pp.sec.contacts')}
       subtitle={subtitle}
       isOpen={isOpen}
       onToggle={onToggle}
     >
-      <p className="pp-section-note">
-        Venues and people worth cultivating. Tap a card to see notes. Use the quick buttons to track outreach.
-      </p>
+      <p className="pp-section-note">{t('pp.contacts.note')}</p>
 
       {/* Summary bar */}
       {contacts.length > 0 && (
@@ -1464,24 +1461,24 @@ function ContactsSection({ isOpen, onToggle, sectionRef }) {
 
       {/* Filter tabs */}
       <div className="crm-filter-tabs">
-        {CRM_FILTER_TABS.map(tab => (
+        {CRM_FILTER_TAB_IDS.map(id => (
           <button
-            key={tab.id}
-            className={`crm-filter-tab${filter === tab.id ? ' crm-filter-tab--active' : ''}`}
-            onClick={() => setFilter(tab.id)}
+            key={id}
+            className={`crm-filter-tab${filter === id ? ' crm-filter-tab--active' : ''}`}
+            onClick={() => setFilter(id)}
           >
-            {tab.label}
+            {t('pp.contacts.filter.' + id)}
           </button>
         ))}
       </div>
 
-      {loading && <p className="pp-section-note">Loading contacts…</p>}
+      {loading && <p className="pp-section-note">{t('pp.contacts.loading')}</p>}
 
       {!loading && filtered.length === 0 && (
         <p className="pp-section-note">
           {filter === 'all'
-            ? 'No contacts in the system yet. The pipeline adds contacts as it discovers venues.'
-            : `No contacts in this category.`}
+            ? t('pp.contacts.emptyAll')
+            : t('pp.contacts.emptyFilter')}
         </p>
       )}
 
@@ -1984,7 +1981,7 @@ export default function PeppercornPage({ nav }) {
       )}
 
       {!profile && !fetchError && <div className="pp-loading">{t('pp.loading')}</div>}
-      {fetchError && <div className="pp-loading">{t('sf.error')}</div>}
+      {fetchError && <div className="pp-loading">{t('pp.loadError')}</div>}
 
       {profile && (
         <>

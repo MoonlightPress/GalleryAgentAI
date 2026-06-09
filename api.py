@@ -1305,7 +1305,7 @@ def get_saffron():
         if re.search(r"rolling|ongoing|open|anytime", dl, re.IGNORECASE):
             rolling_opps.append({
                 "name": opp.get("name", ""),
-                "category": opp.get("category_label", ""),
+                "category": opp.get("category", ""),
             })
             continue
         month = _parse_month(dl)
@@ -1313,15 +1313,16 @@ def get_saffron():
             monthly[month].append({
                 "name": opp.get("name", ""),
                 "deadline": dl,
-                "category": opp.get("category_label", ""),
+                "category": opp.get("category", ""),
             })
         else:
             unknown_dl_count += 1
 
+    _current_month_idx = datetime.now(timezone.utc).month  # 1-based
     calendar_months = [
         {"month": m, "opportunities": monthly[m]}
-        for m in MONTH_NAMES
-        if monthly[m]
+        for i, m in enumerate(MONTH_NAMES, start=1)
+        if monthly[m] and i >= _current_month_idx
     ]
 
     seasonal_calendar = {
@@ -1466,7 +1467,7 @@ def get_saffron():
     pub_sample = [
         {
             "name": o.get("name", ""),
-            "category": o.get("category_label", ""),
+            "category": o.get("category", ""),
             "country": o.get("country", ""),
             "score": round(o.get("watercolor_adjusted_score", 0), 1),
         }
@@ -1586,7 +1587,11 @@ def get_saffron():
             for c in crm_list
         ],
         "total": len(crm_list),
-        "gap_note": "Only 1 venue tracked. A working relationship map needs 15–20 entries — galleries, bookshops, cafés, and artist spaces. Each group show, fair, and bookshop visit is a relationship seed that should land here." if len(crm_list) < 5 else None,
+        "gap_note": (
+            f"Only {len(crm_list)} venue{'s' if len(crm_list) != 1 else ''} tracked. "
+            "A working relationship map needs 15–20 entries — galleries, bookshops, cafés, and artist spaces. "
+            "Each group show, fair, and bookshop visit is a relationship seed that should land here."
+        ) if len(crm_list) < 15 else None,
     }
 
     # ── Open questions ────────────────────────────────────────────────────────
@@ -1636,6 +1641,7 @@ def get_saffron():
         "count": 8,
         "note": "These cannot be answered by observation — only by asking directly. They are flagged for Peppercorn.",
     }
+    open_questions["count"] = len(open_questions["questions"])
 
     # ── Career Momentum Tracker ───────────────────────────────────────────────
     submission_log_path = DATA_DIR / "submission_log.json"
@@ -2226,15 +2232,52 @@ def get_today():
 
     used_ids = {_opp_id(x) for x in [high_impact_raw, quick_win_raw] if x}
 
-    # ── Stretch Goal: highest-scoring stretch_target ──────────────────────────
+    # ── Stretch Goal: highest-scoring stretch_target that is NOT Tier 4 ─────────
+    # Tier 4 items (RWS, ACC, Cité Internationale, Printed Matter…) must never appear
+    # in Today's Focus. The stretch slot is for "one step toward a future target",
+    # not for acting on a Tier 4 opportunity directly.
+    _TIER4_KEYWORDS = frozenset({
+        "royal watercolour society", "rws open", "american watercolor society",
+        "cite internationale des arts", "cité internationale des arts",
+        "asian cultural council", "acc 20", "printed matter", "offprint",
+    })
+
+    def _is_tier4(opp: dict) -> bool:
+        name_lower = (opp.get("name") or opp.get("title") or "").lower()
+        if any(kw in name_lower for kw in _TIER4_KEYWORDS):
+            return True
+        if opp.get("career_tier") == 4 or str(opp.get("tier", "")) == "4":
+            return True
+        return False
+
     stretch_candidates = sorted(
-        [x for x in items if x.get("exclusive_primary_bucket") == "stretch_targets" and _opp_id(x) not in used_ids],
+        [
+            x for x in items
+            if x.get("exclusive_primary_bucket") == "stretch_targets"
+            and _opp_id(x) not in used_ids
+            and not _is_tier4(x)
+        ],
         key=_overall_score, reverse=True,
     )
-    # Fallback: highest-scoring watch-list item
+    # Fallback 1: Tier-4 stretch targets (better than nothing)
     if not stretch_candidates:
         stretch_candidates = sorted(
-            [x for x in items if _opp_id(x) not in used_ids],
+            [x for x in items if x.get("exclusive_primary_bucket") == "stretch_targets" and _opp_id(x) not in used_ids],
+            key=_overall_score, reverse=True,
+        )
+    # Fallback 2: highest-scoring watch-list item (non-Tier-4 preferred)
+    if not stretch_candidates:
+        watch_items = [
+            x for x in items
+            if x.get("exclusive_primary_bucket") in {"watch_list", "research_needed"}
+            and _opp_id(x) not in used_ids
+            and not _is_tier4(x)
+        ]
+        stretch_candidates = sorted(watch_items, key=_overall_score, reverse=True)
+    # Final fallback: any remaining non-Tier-4 item
+    if not stretch_candidates:
+        stretch_candidates = sorted(
+            [x for x in items if _opp_id(x) not in used_ids and not _is_tier4(x)],
             key=_overall_score, reverse=True,
         )
     stretch_raw = stretch_candidates[0] if stretch_candidates else None
