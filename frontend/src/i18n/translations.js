@@ -815,6 +815,54 @@ const zh = {
   'press.howToPitch':    '如何接触 →',
   'press.contact':       '联系方式：',
   'press.empty':         '稍后会更新媒体投稿目标。',
+
+  // ── SaffronPage — MarketStats ─────────────────────────────────────────────
+  'sf.ms.title':          '管线一览',
+  'sf.ms.subtitle':       '全量机会数据集的实时统计',
+  'sf.ms.byType':         '按类型',
+  'sf.ms.deadlinePressure': '截止日期压力',
+  'sf.ms.thisMonth':      '本月截止',
+  'sf.ms.next3months':    '未来3个月内',
+  'sf.ms.rollingOngoing': '滚动 / 持续开放',
+  'sf.ms.mediumFit':      '媒介匹配',
+  'sf.ms.scoreDistrib':   '评分分布',
+  'sf.ms.scoreHigh':      '强烈推荐 (>8)',
+  'sf.ms.scoreMid':       '值得考虑 (5–8)',
+  'sf.ms.scoreLow':       '优先级较低 (<5)',
+  'sf.ms.top5':           '评分最高的5个',
+  'sf.ms.summary':        '{total}个机会 · {top}个强烈推荐 · 本月{deadlines}个截止',
+
+  // ── SaffronPage — CareerReadiness ─────────────────────────────────────────
+  'sf.cr.title':          '职业准备度',
+  'sf.cr.subtitle':       '当前进展与下一步方向',
+  'sf.cr.tier3Label':     '第3级准备度',
+  'sf.cr.tier3Sublabel':  '信誉层级',
+  'sf.cr.tier4Label':     '第4级准备度',
+  'sf.cr.tier4Sublabel':  '声望层级',
+  'sf.cr.monthsToTier3':  '约{n}个月进入第3级',
+  'sf.cr.blockingGaps':   '阻碍差距',
+  'sf.cr.actNow':         '现在行动',
+  'sf.cr.buildToward':    '积累方向',
+  'sf.cr.watchList':      '观察列表',
+  'sf.cr.noneQueued':     '暂无',
+
+  // ── SaffronPage — summary strings ─────────────────────────────────────────
+  'sf.sum.pressFeatures':     '{n}个线上报道',
+  'sf.sum.coExhibitors':      '{n}位共同参展者',
+  'sf.sum.calendarUnknown':   '{known}个 · {n}个截止日期待确认',
+  'sf.sum.momentum':          '{submissions}次投递 · {venues}个场馆 · {rate}% 回复率',
+  'sf.sum.timing':            '{peaks}高峰 · {dated}个已确认截止',
+  'sf.timing.deadlineCount':  '{n}个截止',
+  'sf.timeline.age':          '{n}岁',
+  'sf.timeline.groupShow':    '{n}次群展',
+  'sf.timeline.publications': '{n}件出版物',
+
+  // ── OppCard — medium labels ───────────────────────────────────────────────
+  'medium.watercolor':    '◆ 水彩',
+  'medium.illustration':  '◆ 插画',
+  'medium.book_arts':     '◆ 书籍艺术',
+  'medium.painting':      '◆ 绘画',
+  'medium.photography':   '◆ 摄影',
 }
 
 const ja = {
@@ -1630,6 +1678,54 @@ const ja = {
   'press.howToPitch':    'アプローチ方法 →',
   'press.contact':       '連絡先：',
   'press.empty':         'メディアターゲットは近日追加予定です。',
+
+  // ── SaffronPage — MarketStats ─────────────────────────────────────────────
+  'sf.ms.title':          'パイプライン概要',
+  'sf.ms.subtitle':       '全機会データセットのリアルタイム集計',
+  'sf.ms.byType':         'タイプ別',
+  'sf.ms.deadlinePressure': '締切プレッシャー',
+  'sf.ms.thisMonth':      '今月締切',
+  'sf.ms.next3months':    '今後3ヶ月以内',
+  'sf.ms.rollingOngoing': 'ローリング / 随時受付',
+  'sf.ms.mediumFit':      '媒体適合',
+  'sf.ms.scoreDistrib':   'スコア分布',
+  'sf.ms.scoreHigh':      '強く推薦 (>8)',
+  'sf.ms.scoreMid':       '検討の価値あり (5–8)',
+  'sf.ms.scoreLow':       '優先度低 (<5)',
+  'sf.ms.top5':           'スコア上位5件',
+  'sf.ms.summary':        '{total}件 · {top}件強く推薦 · 今月{deadlines}件締切',
+
+  // ── SaffronPage — CareerReadiness ─────────────────────────────────────────
+  'sf.cr.title':          'キャリア準備度',
+  'sf.cr.subtitle':       '今どこにいて、次に何が来るか',
+  'sf.cr.tier3Label':     'Tier 3 準備度',
+  'sf.cr.tier3Sublabel':  '信頼性ティア',
+  'sf.cr.tier4Label':     'Tier 4 準備度',
+  'sf.cr.tier4Sublabel':  'プレステージティア',
+  'sf.cr.monthsToTier3':  'Tier 3まで約{n}ヶ月',
+  'sf.cr.blockingGaps':   '障壁となるギャップ',
+  'sf.cr.actNow':         '今すぐ動く',
+  'sf.cr.buildToward':    '積み上げる方向',
+  'sf.cr.watchList':      'ウォッチリスト',
+  'sf.cr.noneQueued':     'なし',
+
+  // ── SaffronPage — summary strings ─────────────────────────────────────────
+  'sf.sum.pressFeatures':     '{n}件のオンライン掲載',
+  'sf.sum.coExhibitors':      '{n}人の共同出展者',
+  'sf.sum.calendarUnknown':   '{known}件 · {n}件締切不明',
+  'sf.sum.momentum':          '{submissions}件応募 · {venues}会場 · 返信率{rate}%',
+  'sf.sum.timing':            '{peaks}ピーク · {dated}件締切確定',
+  'sf.timing.deadlineCount':  '{n}件締切',
+  'sf.timeline.age':          '{n}歳',
+  'sf.timeline.groupShow':    'グループ展{n}回',
+  'sf.timeline.publications': '出版物{n}点',
+
+  // ── OppCard — medium labels ───────────────────────────────────────────────
+  'medium.watercolor':    '◆ 水彩',
+  'medium.illustration':  '◆ イラスト',
+  'medium.book_arts':     '◆ ブックアーツ',
+  'medium.painting':      '◆ 絵画',
+  'medium.photography':   '◆ 写真',
 }
 
 const en = {
@@ -2437,6 +2533,54 @@ const en = {
   'press.howToPitch':    'How to pitch →',
   'press.contact':       'Contact: ',
   'press.empty':         'Press targets will be populated soon.',
+
+  // ── SaffronPage — MarketStats ─────────────────────────────────────────────
+  'sf.ms.title':          'Pipeline at a Glance',
+  'sf.ms.subtitle':       'Live counts from the full opportunity dataset',
+  'sf.ms.byType':         'By type',
+  'sf.ms.deadlinePressure': 'Deadline pressure',
+  'sf.ms.thisMonth':      'deadlines this month',
+  'sf.ms.next3months':    'in the next 3 months',
+  'sf.ms.rollingOngoing': 'rolling / ongoing',
+  'sf.ms.mediumFit':      'Medium fit',
+  'sf.ms.scoreDistrib':   'Score distribution',
+  'sf.ms.scoreHigh':      'highly recommended (>8)',
+  'sf.ms.scoreMid':       'worth exploring (5–8)',
+  'sf.ms.scoreLow':       'lower priority (<5)',
+  'sf.ms.top5':           'Top 5 by score',
+  'sf.ms.summary':        '{total} opportunities · {top} highly recommended · {deadlines} deadlines this month',
+
+  // ── SaffronPage — CareerReadiness ─────────────────────────────────────────
+  'sf.cr.title':          'Career Readiness',
+  'sf.cr.subtitle':       'Where the work is now, and what comes next',
+  'sf.cr.tier3Label':     'Tier 3 Readiness',
+  'sf.cr.tier3Sublabel':  'Credibility tier',
+  'sf.cr.tier4Label':     'Tier 4 Readiness',
+  'sf.cr.tier4Sublabel':  'Prestige tier',
+  'sf.cr.monthsToTier3':  '~{n} months to Tier 3',
+  'sf.cr.blockingGaps':   'Blocking gaps',
+  'sf.cr.actNow':         'Act Now',
+  'sf.cr.buildToward':    'Build Toward',
+  'sf.cr.watchList':      'Watch List',
+  'sf.cr.noneQueued':     'None queued',
+
+  // ── SaffronPage — summary strings ─────────────────────────────────────────
+  'sf.sum.pressFeatures':     '{n} online feature{s}',
+  'sf.sum.coExhibitors':      '{n} co-exhibitor{s}',
+  'sf.sum.calendarUnknown':   '{known} · {n} unknown deadline{s}',
+  'sf.sum.momentum':          '{submissions} submissions · {venues} venues · {rate}% response',
+  'sf.sum.timing':            '{peaks} peak · {dated} dated',
+  'sf.timing.deadlineCount':  '{n} deadlines',
+  'sf.timeline.age':          'Age {n}',
+  'sf.timeline.groupShow':    '{n} group show{s}',
+  'sf.timeline.publications': '{n} publication{s}',
+
+  // ── OppCard — medium labels ───────────────────────────────────────────────
+  'medium.watercolor':    '◆ Watercolor',
+  'medium.illustration':  '◆ Illustration',
+  'medium.book_arts':     '◆ Book Arts',
+  'medium.painting':      '◆ Painting',
+  'medium.photography':   '◆ Photography',
 }
 
 export const LANGUAGES = ['zh', 'ja', 'en']

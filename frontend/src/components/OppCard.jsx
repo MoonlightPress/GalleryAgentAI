@@ -160,7 +160,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
               className="opp-medium-badge"
               style={{ color: MEDIUM_CONFIG[opp.native_medium].color, borderColor: MEDIUM_CONFIG[opp.native_medium].color }}
             >
-              {MEDIUM_CONFIG[opp.native_medium].label}
+              {t(`medium.${opp.native_medium}`) || MEDIUM_CONFIG[opp.native_medium].label}
             </span>
           )}
           {opp.deadline_past && (

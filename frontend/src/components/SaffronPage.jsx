@@ -263,7 +263,7 @@ function InstagramStrategy({ data, t }) {
             <div key={i} className="sf-platform-row">
               <div className="sf-platform-name">{p.name}</div>
               <div className="sf-platform-handle">{p.handle}</div>
-              <div className="sf-platform-followers">{p.followers ?? '—'}{p.posts != null ? ` · ${p.posts} posts` : ''}</div>
+              <div className="sf-platform-followers">{p.followers ?? '—'}{p.posts != null ? ` · ${p.posts} ${t('sf.label.posts')}` : ''}</div>
               <div className="sf-platform-note">{p.note}</div>
             </div>
           ))}
@@ -385,7 +385,7 @@ function CareerBenchmarks({ data, t }) {
 
 function SeasonalCalendar({ data, t }) {
   const known = data.months.reduce((n, m) => n + m.opportunities.length, 0)
-  const summary = `${known} · ${data.unknown_deadline_count} unknown`
+  const summary = t('sf.sum.calendarUnknown', { known, n: data.unknown_deadline_count, s: data.unknown_deadline_count !== 1 ? 's' : '' })
   return (
     <SectionShell
       title={t('sf.sec.calendar')}
@@ -443,7 +443,7 @@ function SeasonalCalendar({ data, t }) {
 
 function PressFeatures({ data, t }) {
   const total   = data.confirmed.length
-  const summary = `${total} online feature${total !== 1 ? 's' : ''}`
+  const summary = t('sf.sum.pressFeatures', { n: total, s: total !== 1 ? 's' : '' })
   return (
     <SectionShell
       title={t('sf.sec.press')}
@@ -507,7 +507,7 @@ function CollectorEcosystem({ data, t }) {
 }
 
 function CollaborationMap({ data, t }) {
-  const summary = `${data.known_co_exhibitors.length} co-exhibitors`
+  const summary = t('sf.sum.coExhibitors', { n: data.known_co_exhibitors.length, s: data.known_co_exhibitors.length !== 1 ? 's' : '' })
   return (
     <SectionShell
       title={t('sf.sec.collab')}
@@ -538,7 +538,7 @@ function CollaborationMap({ data, t }) {
 }
 
 function GeographicExpansion({ data, t }) {
-  const summary = `Primary: Tokyo / Beijing`
+  const summary = t('sf.label.primaryBase')
   return (
     <SectionShell
       title={t('sf.sec.geoExpansion')}
@@ -990,7 +990,7 @@ function CareerMomentum({ data, t }) {
   const { this_month, totals, response_rate, trajectory, monthly_chart, recent_activity } = data
   const maxBar = Math.max(...monthly_chart.map(m => m.submissions + m.contacts), 1)
   const trajColor = TRAJECTORY_COLORS[trajectory] || '#9a7040'
-  const summary = `${totals.submissions} submissions · ${totals.venues_in_crm} venues · ${response_rate}% response`
+  const summary = t('sf.sum.momentum', { submissions: totals.submissions, venues: totals.venues_in_crm, rate: response_rate })
 
   return (
     <SectionShell
@@ -1074,7 +1074,7 @@ function CareerMomentum({ data, t }) {
 
 function TimingIntelligence({ data, t }) {
   const maxCount = Math.max(...data.monthly_counts.map(m => m.count), 1)
-  const summary  = `${data.peak_months.slice(0, 2).join(' · ')} peak · ${data.with_parsed_deadline} dated`
+  const summary  = t('sf.sum.timing', { peaks: data.peak_months.slice(0, 2).join(' · '), dated: data.with_parsed_deadline })
 
   return (
     <SectionShell
@@ -1107,7 +1107,7 @@ function TimingIntelligence({ data, t }) {
             <div key={i} className="sf-timing-peak-row">
               <span className="sf-timing-peak-dot" />
               <span>{m}</span>
-              <span className="sf-timing-peak-count">{data.monthly_counts.find(x => x.month === m)?.count} deadlines</span>
+              <span className="sf-timing-peak-count">{t('sf.timing.deadlineCount', { n: data.monthly_counts.find(x => x.month === m)?.count ?? 0 })}</span>
             </div>
           ))}
           {data.quiet_months.length > 0 && (
@@ -1153,9 +1153,9 @@ function CareerTimeline({ t }) {
 
       <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.timeline.artistStage')}</div>
       <div className="sf-timeline-stage">
-        <span className="sf-trait">Age {d.artist_stage.age}</span>
-        <span className="sf-trait">{d.artist_stage.group_shows} group show</span>
-        <span className="sf-trait">{d.artist_stage.publications} publications</span>
+        <span className="sf-trait">{t('sf.timeline.age', { n: d.artist_stage.age })}</span>
+        <span className="sf-trait">{t('sf.timeline.groupShow', { n: d.artist_stage.group_shows, s: d.artist_stage.group_shows !== 1 ? 's' : '' })}</span>
+        <span className="sf-trait">{t('sf.timeline.publications', { n: d.artist_stage.publications, s: d.artist_stage.publications !== 1 ? 's' : '' })}</span>
         <span className="sf-trait">Instagram {d.artist_stage.instagram}</span>
         <span className="sf-trait">Twitter {d.artist_stage.twitter}</span>
       </div>
@@ -1341,16 +1341,17 @@ const MEDIUM_LABELS = {
 
 function MarketStats({ data }) {
   if (!data) return null
+  const { t } = useLanguage()
   const cats   = Object.entries(data.by_category || {})
   const maxCat = Math.max(...cats.map(([, v]) => v), 1)
   const { top_tier = 0, mid_tier = 0, lower_tier = 0 } = data.score_distribution || {}
   const scoreTotal = (top_tier + mid_tier + lower_tier) || 1
   const dp = data.deadline_pressure || {}
   const total = data.total_opportunities || 0
-  const summary = `${total} opportunities · ${top_tier} highly recommended · ${dp.this_month || 0} deadlines this month`
+  const summary = t('sf.ms.summary', { total, top: top_tier, deadlines: dp.this_month || 0 })
   return (
-    <SectionShell title="Pipeline at a Glance" subtitle="Live counts from the full opportunity dataset" summary={summary}>
-      <div className="sf-block-label">By type</div>
+    <SectionShell title={t('sf.ms.title')} subtitle={t('sf.ms.subtitle')} summary={summary}>
+      <div className="sf-block-label">{t('sf.ms.byType')}</div>
       <div className="sf-bars sf-ms-bars">
         {cats.map(([label, count]) => (
           <div key={label} className="sf-bar-row">
@@ -1362,13 +1363,13 @@ function MarketStats({ data }) {
       </div>
       <div className="sf-ms-two-col" style={{ marginTop: 32 }}>
         <div>
-          <div className="sf-block-label">Deadline pressure</div>
+          <div className="sf-block-label">{t('sf.ms.deadlinePressure')}</div>
           <div className="sf-ms-pressure-list">
-            <div className="sf-ms-pressure-row sf-ms-pressure--hot"><span className="sf-ms-pressure-num">{dp.this_month || 0}</span><span className="sf-ms-pressure-label">deadlines this month</span></div>
-            <div className="sf-ms-pressure-row sf-ms-pressure--warm"><span className="sf-ms-pressure-num">{dp.next_3_months || 0}</span><span className="sf-ms-pressure-label">in the next 3 months</span></div>
-            <div className="sf-ms-pressure-row sf-ms-pressure--cool"><span className="sf-ms-pressure-num">{dp.open_ongoing || 0}</span><span className="sf-ms-pressure-label">rolling / ongoing</span></div>
+            <div className="sf-ms-pressure-row sf-ms-pressure--hot"><span className="sf-ms-pressure-num">{dp.this_month || 0}</span><span className="sf-ms-pressure-label">{t('sf.ms.thisMonth')}</span></div>
+            <div className="sf-ms-pressure-row sf-ms-pressure--warm"><span className="sf-ms-pressure-num">{dp.next_3_months || 0}</span><span className="sf-ms-pressure-label">{t('sf.ms.next3months')}</span></div>
+            <div className="sf-ms-pressure-row sf-ms-pressure--cool"><span className="sf-ms-pressure-num">{dp.open_ongoing || 0}</span><span className="sf-ms-pressure-label">{t('sf.ms.rollingOngoing')}</span></div>
           </div>
-          <div className="sf-block-label" style={{ marginTop: 24 }}>Medium fit</div>
+          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.ms.mediumFit')}</div>
           <div className="sf-ms-medium-list">
             {Object.entries(data.by_medium || {}).map(([med, cnt]) => (
               <div key={med} className="sf-ms-medium-row">
@@ -1379,13 +1380,13 @@ function MarketStats({ data }) {
           </div>
         </div>
         <div>
-          <div className="sf-block-label">Score distribution</div>
+          <div className="sf-block-label">{t('sf.ms.scoreDistrib')}</div>
           <div className="sf-ms-score-tiers">
-            <div className="sf-ms-score-row sf-ms-score--high"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(top_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{top_tier}</span><span className="sf-ms-score-label">highly recommended (&gt;8)</span></div>
-            <div className="sf-ms-score-row sf-ms-score--mid"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(mid_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{mid_tier}</span><span className="sf-ms-score-label">worth exploring (5–8)</span></div>
-            <div className="sf-ms-score-row sf-ms-score--low"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(lower_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{lower_tier}</span><span className="sf-ms-score-label">lower priority (&lt;5)</span></div>
+            <div className="sf-ms-score-row sf-ms-score--high"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(top_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{top_tier}</span><span className="sf-ms-score-label">{t('sf.ms.scoreHigh')}</span></div>
+            <div className="sf-ms-score-row sf-ms-score--mid"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(mid_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{mid_tier}</span><span className="sf-ms-score-label">{t('sf.ms.scoreMid')}</span></div>
+            <div className="sf-ms-score-row sf-ms-score--low"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(lower_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{lower_tier}</span><span className="sf-ms-score-label">{t('sf.ms.scoreLow')}</span></div>
           </div>
-          <div className="sf-block-label" style={{ marginTop: 24 }}>Top 5 by score</div>
+          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.ms.top5')}</div>
           <div className="sf-ms-top-list">
             {(data.top_scored || []).map((opp, i) => (
               <div key={i} className="sf-ms-top-row"><span className="sf-ms-top-rank">{i + 1}</span><span className="sf-ms-top-name">{opp.name}</span><span className="sf-ms-top-score">{opp.score}</span></div>
@@ -1399,6 +1400,7 @@ function MarketStats({ data }) {
 
 function CareerReadiness({ data }) {
   if (!data) return null
+  const { t } = useLanguage()
 
   const tier3Pct = (data.readiness_scores?.tier_3_readiness ?? 0) * 100
   const tier4Pct = (data.readiness_scores?.tier_4_readiness ?? 0) * 100
@@ -1409,26 +1411,26 @@ function CareerReadiness({ data }) {
   const months   = data.months_to_tier3
 
   const summary = data.current_phase
-    ? `${data.current_phase}${months ? ` · ~${months}mo to Tier 3` : ''}`
-    : 'Career readiness'
+    ? `${data.current_phase}${months ? ` · ${t('sf.cr.monthsToTier3', { n: months })}` : ''}`
+    : t('sf.cr.title')
 
   return (
     <SectionShell
-      title="Career Readiness"
-      subtitle="Where the work is now, and what comes next"
+      title={t('sf.cr.title')}
+      subtitle={t('sf.cr.subtitle')}
       summary={summary}
     >
       {/* Readiness bars */}
       <div className="sf-readiness-bars">
         <ReadinessBar
-          label="Tier 3 Readiness"
-          sublabel="Credibility tier"
+          label={t('sf.cr.tier3Label')}
+          sublabel={t('sf.cr.tier3Sublabel')}
           pct={tier3Pct}
           color="#c47a35"
         />
         <ReadinessBar
-          label="Tier 4 Readiness"
-          sublabel="Prestige tier"
+          label={t('sf.cr.tier4Label')}
+          sublabel={t('sf.cr.tier4Sublabel')}
           pct={tier4Pct}
           color="#d4b87a"
         />
@@ -1437,7 +1439,7 @@ function CareerReadiness({ data }) {
       {/* Timeline pill + next milestone */}
       <div className="sf-readiness-milestone-row">
         {months != null && (
-          <span className="sf-readiness-timeline-pill">~{months} months to Tier 3</span>
+          <span className="sf-readiness-timeline-pill">{t('sf.cr.monthsToTier3', { n: months })}</span>
         )}
       </div>
       {data.next_milestone && (
@@ -1447,7 +1449,7 @@ function CareerReadiness({ data }) {
       {/* Blocking gaps */}
       {gaps.length > 0 && (
         <div style={{ marginTop: 28 }}>
-          <div className="sf-block-label">Blocking gaps</div>
+          <div className="sf-block-label">{t('sf.cr.blockingGaps')}</div>
           <div className="sf-readiness-gaps">
             {gaps.map((g, i) => (
               <div key={i} className="sf-readiness-gap-row">
@@ -1470,9 +1472,9 @@ function CareerReadiness({ data }) {
       {/* Three columns */}
       <div className="sf-readiness-columns" style={{ marginTop: 28 }}>
         <div className="sf-readiness-col">
-          <div className="sf-block-label">Act Now</div>
+          <div className="sf-block-label">{t('sf.cr.actNow')}</div>
           {actNow.length === 0
-            ? <p className="sf-readiness-col-empty">None queued</p>
+            ? <p className="sf-readiness-col-empty">{t('sf.cr.noneQueued')}</p>
             : actNow.map((o, i) => (
               <div key={i} className="sf-readiness-col-item">
                 <span className="sf-readiness-col-name">{o.name ?? o.title ?? o}</span>
@@ -1484,9 +1486,9 @@ function CareerReadiness({ data }) {
           }
         </div>
         <div className="sf-readiness-col">
-          <div className="sf-block-label">Build Toward</div>
+          <div className="sf-block-label">{t('sf.cr.buildToward')}</div>
           {build.length === 0
-            ? <p className="sf-readiness-col-empty">None queued</p>
+            ? <p className="sf-readiness-col-empty">{t('sf.cr.noneQueued')}</p>
             : build.map((o, i) => (
               <div key={i} className="sf-readiness-col-item">
                 <span className="sf-readiness-col-name">{o.name ?? o.title ?? o}</span>
@@ -1495,9 +1497,9 @@ function CareerReadiness({ data }) {
           }
         </div>
         <div className="sf-readiness-col sf-readiness-col--watch">
-          <div className="sf-block-label">Watch List</div>
+          <div className="sf-block-label">{t('sf.cr.watchList')}</div>
           {watch.length === 0
-            ? <p className="sf-readiness-col-empty">None queued</p>
+            ? <p className="sf-readiness-col-empty">{t('sf.cr.noneQueued')}</p>
             : watch.map((o, i) => (
               <div key={i} className="sf-readiness-col-item sf-readiness-col-item--muted">
                 <span className="sf-readiness-col-name">{o.name ?? o.title ?? o}</span>
