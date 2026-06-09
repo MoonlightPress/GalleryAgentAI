@@ -8,6 +8,8 @@ import {
   GRANT_LANDSCAPE,
   REVENUE_STREAMS,
   CAREER_DEPENDENCY_MAP,
+  CAREER_TIMELINE,
+  PRICING_INTELLIGENCE,
 } from '../data/saffron_insights'
 
 // ── Shared primitives ──────────────────────────────────────────────────────
@@ -928,6 +930,325 @@ function CareerDependencyMap({ t, lang }) {
   )
 }
 
+// ── Career Momentum Tracker ────────────────────────────────────────────────
+
+const TRAJECTORY_COLORS = {
+  early:        '#9a7040',
+  accelerating: '#5a7a30',
+  steady:       '#3a6a80',
+  stalling:     '#b03020',
+}
+
+function CareerMomentum({ data, t }) {
+  const { this_month, totals, response_rate, trajectory, monthly_chart, recent_activity } = data
+  const maxBar = Math.max(...monthly_chart.map(m => m.submissions + m.contacts), 1)
+  const trajColor = TRAJECTORY_COLORS[trajectory] || '#9a7040'
+  const summary = `${totals.submissions} submissions · ${totals.venues_in_crm} venues · ${response_rate}% response`
+
+  return (
+    <SectionShell
+      title={t('sf.sec.momentum')}
+      subtitle={t('sf.sub.momentum')}
+      summary={summary}
+    >
+      <div className="sf-momentum-stats">
+        <div className="sf-momentum-stat">
+          <div className="sf-momentum-number">{totals.submissions}</div>
+          <div className="sf-momentum-label">{t('sf.mom.totalSubmissions')}</div>
+        </div>
+        <div className="sf-momentum-stat">
+          <div className="sf-momentum-number">{totals.venues_in_crm}</div>
+          <div className="sf-momentum-label">{t('sf.mom.venuesInCRM')}</div>
+        </div>
+        <div className="sf-momentum-stat">
+          <div className="sf-momentum-number">{totals.responses_received}</div>
+          <div className="sf-momentum-label">{t('sf.mom.responses')}</div>
+        </div>
+        <div className="sf-momentum-stat">
+          <div className="sf-momentum-number" style={{ color: trajColor }}>
+            {t(`sf.mom.traj.${trajectory}`) || trajectory}
+          </div>
+          <div className="sf-momentum-label">{t('sf.mom.trajectory')}</div>
+        </div>
+      </div>
+
+      <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.mom.activityChart')}</div>
+      <div className="sf-mom-chart">
+        {monthly_chart.map((m, i) => {
+          const total = m.submissions + m.contacts
+          const pct   = Math.round((total / maxBar) * 100)
+          return (
+            <div key={i} className="sf-mom-bar-col">
+              <div className="sf-mom-bar-track">
+                <div className="sf-mom-bar-subs"
+                  style={{ height: `${Math.round((m.submissions / maxBar) * 100)}%` }} />
+                <div className="sf-mom-bar-contacts"
+                  style={{ height: `${Math.round((m.contacts / maxBar) * 100)}%` }} />
+              </div>
+              <div className="sf-mom-bar-label">{m.month.slice(5)}</div>
+              <div className="sf-mom-bar-total">{total || ''}</div>
+            </div>
+          )
+        })}
+      </div>
+      <div className="sf-mom-legend">
+        <span className="sf-mom-legend-subs">{t('sf.mom.submissions')}</span>
+        <span className="sf-mom-legend-contacts">{t('sf.mom.contacts')}</span>
+      </div>
+
+      {recent_activity.length > 0 && (
+        <div style={{ marginTop: 24 }}>
+          <div className="sf-block-label">{t('sf.mom.recentActivity')}</div>
+          <div className="sf-mom-activity">
+            {recent_activity.map((item, i) => (
+              <div key={i} className="sf-mom-activity-row">
+                <span className={`sf-mom-type sf-mom-type--${item.type}`}>
+                  {item.type === 'submission' ? '📤' : '📋'}
+                </span>
+                <span className="sf-mom-activity-name">{item.name}</span>
+                <span className="sf-mom-activity-status">{item.status}</span>
+                <span className="sf-mom-activity-date">{item.date?.slice(0, 10)}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {totals.submissions === 0 && (
+        <div className="sf-insight-callout" style={{ marginTop: 20 }}>
+          {t('sf.mom.noSubmissionsYet')}
+        </div>
+      )}
+    </SectionShell>
+  )
+}
+
+// ── Timing Intelligence ────────────────────────────────────────────────────
+
+function TimingIntelligence({ data, t }) {
+  const maxCount = Math.max(...data.monthly_counts.map(m => m.count), 1)
+  const summary  = `${data.peak_months.slice(0, 2).join(' · ')} peak · ${data.with_parsed_deadline} dated`
+
+  return (
+    <SectionShell
+      title={t('sf.sec.timing')}
+      subtitle={t('sf.sub.timing')}
+      summary={summary}
+    >
+      <div className="sf-insight-callout">{data.key_insight}</div>
+
+      <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.timing.deadlinesByMonth')}</div>
+      <div className="sf-timing-grid">
+        {data.monthly_counts.map((m, i) => (
+          <div key={i} className="sf-timing-month">
+            <div className="sf-timing-month-name">{m.month.slice(0, 3)}</div>
+            <div className="sf-timing-bar-track">
+              <div
+                className={`sf-timing-bar${data.peak_months.includes(m.month) ? ' sf-timing-bar--peak' : ''}`}
+                style={{ height: `${Math.round((m.count / maxCount) * 100)}%` }}
+              />
+            </div>
+            <div className="sf-timing-count">{m.count || ''}</div>
+          </div>
+        ))}
+      </div>
+
+      <div className="sf-two-col" style={{ marginTop: 28 }}>
+        <div>
+          <div className="sf-block-label">{t('sf.timing.peakMonths')}</div>
+          {data.peak_months.map((m, i) => (
+            <div key={i} className="sf-timing-peak-row">
+              <span className="sf-timing-peak-dot" />
+              <span>{m}</span>
+              <span className="sf-timing-peak-count">{data.monthly_counts.find(x => x.month === m)?.count} deadlines</span>
+            </div>
+          ))}
+          {data.quiet_months.length > 0 && (
+            <>
+              <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.timing.quietMonths')}</div>
+              {data.quiet_months.map((m, i) => (
+                <div key={i} className="sf-timing-quiet-row">{m} — {t('sf.timing.quietNote')}</div>
+              ))}
+            </>
+          )}
+        </div>
+        <div>
+          <div className="sf-block-label">{t('sf.timing.coverage')}</div>
+          <div className="sf-timing-stats">
+            <div className="sf-timing-stat-row">
+              <span>{t('sf.timing.withDeadline')}</span>
+              <span className="sf-timing-stat-val">{data.with_parsed_deadline}</span>
+            </div>
+            <div className="sf-timing-stat-row">
+              <span>{t('sf.timing.rolling')}</span>
+              <span className="sf-timing-stat-val">{data.rolling_count}</span>
+            </div>
+            <div className="sf-timing-stat-row">
+              <span>{t('sf.timing.noDeadline')}</span>
+              <span className="sf-timing-stat-val">{data.no_deadline_count}</span>
+            </div>
+          </div>
+          <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.timing.prepWindow')}</div>
+          <p className="sf-info-text">{t('sf.timing.prepWindowNote')}</p>
+        </div>
+      </div>
+    </SectionShell>
+  )
+}
+
+// ── Comparative Career Timeline ────────────────────────────────────────────
+
+function CareerTimeline({ t }) {
+  const d = CAREER_TIMELINE
+  return (
+    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
+      <div className="sf-insight-callout">{d.overall_assessment}</div>
+
+      <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.timeline.artistStage')}</div>
+      <div className="sf-timeline-stage">
+        <span className="sf-trait">Age {d.artist_stage.age}</span>
+        <span className="sf-trait">{d.artist_stage.group_shows} group show</span>
+        <span className="sf-trait">{d.artist_stage.publications} publications</span>
+        <span className="sf-trait">Instagram {d.artist_stage.instagram}</span>
+        <span className="sf-trait">Twitter {d.artist_stage.twitter}</span>
+      </div>
+
+      <div className="sf-peers-grid" style={{ marginTop: 24 }}>
+        {d.peers.map((peer, i) => (
+          <div key={i} className="sf-peer-card">
+            <div className="sf-peer-name">{peer.name}</div>
+            <div className="sf-peer-region">{peer.region} · {peer.comparable_age}</div>
+            <div className="sf-block-label" style={{ marginTop: 12, fontSize: '0.72rem' }}>{t('sf.timeline.hadAtStage')}</div>
+            <ul className="sf-timeline-had-list">
+              {peer.at_stage.had.map((h, j) => <li key={j}>{h}</li>)}
+            </ul>
+            <div className="sf-peer-use" style={{ marginTop: 10 }}>{peer.comparison}</div>
+          </div>
+        ))}
+      </div>
+    </SectionShell>
+  )
+}
+
+// ── Pricing Intelligence ───────────────────────────────────────────────────
+
+const IMPACT_COLORS = { high: '#5a7a30', medium: '#c47a35', low: '#9ca3af' }
+
+function PricingIntelligence({ t }) {
+  const d = PRICING_INTELLIGENCE
+  const { originals, prints, zines } = d.current_range
+  return (
+    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
+      <p className="sf-peers-caveat">{d.source_note}</p>
+
+      <div className="sf-block-label" style={{ marginTop: 16 }}>{t('sf.pricing.currentRanges')}</div>
+      <div className="sf-pricing-ranges">
+        {[originals, prints, zines].map((range, i) => (
+          <div key={i} className="sf-pricing-range-card">
+            <div className="sf-pricing-range-label">{range.label}</div>
+            <div className="sf-pricing-range-value">
+              ¥{range.low.toLocaleString()} – ¥{range.high.toLocaleString()}
+            </div>
+            <p className="sf-pricing-range-note">{range.note}</p>
+            {range.sweet_spot && (
+              <div className="sf-pricing-sweet-spot">{range.sweet_spot}</div>
+            )}
+          </div>
+        ))}
+      </div>
+
+      <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.pricing.whatAffectsPrice')}</div>
+      <div className="sf-pricing-factors">
+        {d.what_affects_price.map((f, i) => (
+          <div key={i} className="sf-pricing-factor">
+            <div className="sf-pricing-factor-header">
+              <span className="sf-pricing-factor-name">{f.factor}</span>
+              <span className="sf-pricing-impact" style={{ color: IMPACT_COLORS[f.impact] }}>
+                {t(`sf.pricing.impact.${f.impact}`) || f.impact}
+              </span>
+            </div>
+            <p className="sf-pricing-factor-note">{f.note}</p>
+          </div>
+        ))}
+      </div>
+
+      <div className="sf-pathway-callout sf-pathway-blocking" style={{ marginTop: 24 }}>
+        <div className="sf-callout-label">{t('sf.pricing.editionDiscipline')}</div>
+        <p className="sf-callout-text">{d.edition_discipline.rule}</p>
+        <p className="sf-callout-text" style={{ marginTop: 8, fontStyle: 'italic' }}>
+          {d.edition_discipline.current_gap}
+        </p>
+      </div>
+
+      <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.pricing.credibilitySignals')}</div>
+      <ul className="sf-pricing-signals">
+        {d.credibility_signals.map((s, i) => <li key={i}>{s}</li>)}
+      </ul>
+    </SectionShell>
+  )
+}
+
+// ── Opportunity Gap Analysis ───────────────────────────────────────────────
+
+const GAP_COLORS = { gap: '#b03020', strength: '#5a7a30', on_track: '#9a7040' }
+
+function OpportunityGap({ data, t }) {
+  const summary = `${data.gaps.length} gaps · ${data.strengths.length} strengths`
+  return (
+    <SectionShell
+      title={t('sf.sec.oppGap')}
+      subtitle={t('sf.sub.oppGap')}
+      summary={summary}
+    >
+      <div className="sf-insight-callout">{data.summary}</div>
+
+      {data.gaps.length > 0 && (
+        <>
+          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.gap.underrepresented')}</div>
+          <div className="sf-gap-list">
+            {data.gaps.map((g, i) => (
+              <div key={i} className="sf-gap-row sf-gap-row--gap">
+                <div className="sf-gap-row-header">
+                  <span className="sf-gap-label">{g.label}</span>
+                  <span className="sf-gap-counts">
+                    {g.actual_count} {t('sf.gap.vs')} ~{g.expected_count} {t('sf.gap.expected')}
+                  </span>
+                </div>
+                <p className="sf-gap-note">{g.note}</p>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      {data.strengths.length > 0 && (
+        <>
+          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.gap.strengths')}</div>
+          <div className="sf-gap-list">
+            {data.strengths.map((g, i) => (
+              <div key={i} className="sf-gap-row sf-gap-row--strength">
+                <div className="sf-gap-row-header">
+                  <span className="sf-gap-label">{g.label}</span>
+                  <span className="sf-gap-counts">
+                    {g.actual_count} {t('sf.gap.tracked')}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.gap.portfolioFocus')}</div>
+      <div className="sf-tag-list">
+        {data.top_actual_categories.map((c, i) => (
+          <span key={i} className="sf-trait">{c.category.replace(/_/g, ' ')} ({c.count})</span>
+        ))}
+      </div>
+    </SectionShell>
+  )
+}
+
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function SaffronPage({ nav }) {
@@ -975,6 +1296,11 @@ export default function SaffronPage({ nav }) {
           <LongTermScenarios   data={data.long_term_scenarios} t={t} />
           <VenueTracker        data={data.venue_tracker}      t={t} />
           <OpenQuestions       data={data.open_questions}     t={t} />
+          <CareerMomentum      data={data.career_momentum}      t={t} />
+          <TimingIntelligence  data={data.timing_intelligence}  t={t} />
+          <CareerTimeline      t={t} />
+          <PricingIntelligence t={t} />
+          <OpportunityGap      data={data.opportunity_gap}      t={t} />
           <LicensingLandscape  t={t} lang={lang} />
           <PressPitchMap       t={t} lang={lang} />
           <GrantLandscape      t={t} lang={lang} />

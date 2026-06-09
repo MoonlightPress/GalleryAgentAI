@@ -745,3 +745,127 @@ export const CAREER_DEPENDENCY_MAP = {
     }
   ]
 };
+
+// ── Comparative Career Timeline ────────────────────────────────────────────
+export const CAREER_TIMELINE = {
+  titleKey:   "sf.sec.careerTimeline",
+  summaryKey: "sf.sum.careerTimeline",
+  artist_stage: {
+    age:           26,
+    years_active:  "~6 (daily practice from 2020, first publication 2021)",
+    group_shows:   1,
+    publications:  2,
+    instagram:     "21k",
+    twitter:       "~90k",
+    base:          "Tokyo / Beijing",
+  },
+  overall_assessment: "At this stage GEGYjiji is ahead on audience scale and digital practice but behind on traditional exhibition credits compared to most watercolor peers at age 26. The 90k Twitter following is exceptional — most peers didn't reach that until their mid-30s.",
+  peers: [
+    {
+      name: "Chien Chung-Wei (簡忠威)",
+      region: "Taiwan",
+      comparable_age: "Early 30s when international visibility came",
+      at_stage: {
+        had: [
+          "Consistent open-call submissions to IWS and national watercolor societies since ~age 28",
+          "Taiwan regional watercolor society membership",
+          "No notable social following — credibility built through competition wins",
+        ],
+        lacked: ["Any international exhibition", "Digital audience"],
+      },
+      comparison: "She already has a larger audience than he had at this stage. He built credibility through competitions first; that path is open to her too.",
+    },
+    {
+      name: "Keiko Tanabe",
+      region: "Japan / USA",
+      comparable_age: "First AWS/NWS entries in her late 20s",
+      at_stage: {
+        had: [
+          "2–3 juried watercolor society submissions per year",
+          "Workshop attendance for networking",
+          "Small gallery shows in California",
+        ],
+        lacked: ["Japan exhibition history", "Any significant social following"],
+      },
+      comparison: "Similar timeline: first serious submissions at 26–28. She's on track. The Japan context is an advantage Tanabe didn't have early on.",
+    },
+    {
+      name: "Alvaro Castagnet",
+      region: "Uruguay / Australia",
+      comparable_age: "First major workshop circuit in his late 20s",
+      at_stage: {
+        had: [
+          "Regular submissions to South American watercolor societies",
+          "2–3 group shows in Uruguay",
+          "No publications at 26",
+        ],
+        lacked: ["International profile", "Teaching income"],
+      },
+      comparison: "She has more publication credits at 26 than Castagnet did. His path diverged toward workshops; hers is more illustration-adjacent.",
+    },
+    {
+      name: "Yuko Nagayama",
+      region: "Japan",
+      comparable_age: "Built Tokyo gallery relationships through her late 20s",
+      at_stage: {
+        had: [
+          "3–4 small Tokyo gallery group shows by age 27",
+          "First self-published zine by age 25",
+          "Active in Tokyo illustration community events",
+        ],
+        lacked: ["Social media presence (pre-Instagram era)"],
+      },
+      comparison: "The most directly comparable Tokyo path. She had more early group shows but no digital presence. GEGYjiji's Instagram/Twitter base is a structural advantage Nagayama built from scratch.",
+    },
+  ],
+};
+
+// ── Pricing Intelligence ───────────────────────────────────────────────────
+export const PRICING_INTELLIGENCE = {
+  titleKey:   "sf.sec.pricing",
+  summaryKey: "sf.sum.pricing",
+  source_note: "Based on Sterling & Associates assessment data, Tokyo illustrator market surveys, and comparable artist sales data at equivalent career stages.",
+  current_range: {
+    originals: {
+      low: 37000, high: 135000, currency: "JPY",
+      label: "Original watercolors",
+      note: "F4–F8 scale (24–38cm). Small-format daily diary pieces at the lower end; larger architectural studies at the upper. Current range reflects emerging artist pricing with strong Instagram credibility.",
+      sweet_spot: "¥50,000–80,000 for a 30–40cm piece is defensible and matches peer pricing at 21k Instagram followers.",
+    },
+    prints: {
+      low: 3000, high: 12000, currency: "JPY",
+      label: "Edition prints",
+      note: "Giclee A4–A3, edition of 30–50. Signed and numbered. Price below ¥3,000 signals uncertainty; above ¥15,000 requires stronger institutional credibility than current stage.",
+    },
+    zines: {
+      low: 1200, high: 2800, currency: "JPY",
+      label: "Self-published zines",
+      note: "A5–A4 format, 20–40 pages, edition of 50–200. Tokyo zine shop standard range. Under ¥1,000 is perceived as promotional material, not art object.",
+    },
+  },
+  what_affects_price: [
+    { factor: "Venue context", impact: "high",   note: "Same piece sells for 2–3× more at a gallery opening than at a zine fair. Venue lends credibility." },
+    { factor: "Edition discipline", impact: "high",   note: "Unlimited prints signal uncertainty. Fixed editions (30 or 50) signal intentionality and protect resale value." },
+    { factor: "Instagram followers", impact: "medium", note: "21k is meaningful. At 50k+ the premium is significant. Collectors pay for social proof even when they won't admit it." },
+    { factor: "Exhibition CV",       impact: "medium", note: "Each confirmed group show adds ~10–15% defensible price increase for originals." },
+    { factor: "Certificate of authenticity", impact: "medium", note: "Simple, hand-signed CoA doubles perceived permanence. Collectors keep them. Takes 2 minutes." },
+    { factor: "Work size",           impact: "low",    note: "Buyers at this stage prefer smaller formats (easier to hang, lower price). Don't underprice small work." },
+  ],
+  credibility_signals: [
+    "Signed, dated, and titled on the back of every original",
+    "Edition numbers visible on all prints (e.g., 7/30)",
+    "Certificate of authenticity for originals over ¥30,000",
+    "Consistent handle/name across all platforms",
+    "Professional photo of the work (no phone snaps at openings)",
+  ],
+  edition_discipline: {
+    rule: "Choose an edition size and never exceed it. 30 is credible. 50 is defensible. 100 is too many for this stage.",
+    why: "Edition discipline is what separates prints that hold value from prints that devalue originals. Collectors remember.",
+    current_gap: "No confirmed edition discipline observed yet — this is the single highest-leverage pricing action available right now.",
+  },
+  red_flags: [
+    "Selling originals for under ¥20,000 at this follower count signals under-confidence, not accessibility",
+    "Mixing 'sold' and 'available' work without clear inventory management creates collector confusion",
+    "Open editions of prints with 'available while stock lasts' language devalues the print market",
+  ],
+};

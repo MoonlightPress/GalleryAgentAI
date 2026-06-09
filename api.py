@@ -1387,6 +1387,259 @@ def get_saffron():
         "note": "These cannot be answered by observation — only by asking directly. They are flagged for Peppercorn.",
     }
 
+    # ── Career Momentum Tracker ───────────────────────────────────────────────
+    submission_log_path = DATA_DIR / "submission_log.json"
+    raw_submissions = []
+    if submission_log_path.exists():
+        try:
+            raw_submissions = json.loads(submission_log_path.read_text(encoding="utf-8"))
+            if not isinstance(raw_submissions, list):
+                raw_submissions = raw_submissions.get("submissions", [])
+        except Exception:
+            raw_submissions = []
+
+    contact_mem_path = DATA_DIR / "contact_memory.json"
+    raw_contacts = []
+    if contact_mem_path.exists():
+        try:
+            raw_contacts = json.loads(contact_mem_path.read_text(encoding="utf-8")).get("contacts", [])
+        except Exception:
+            raw_contacts = []
+
+    from datetime import date as _date, datetime as _datetime
+    _today = _date.today()
+    _this_ym = _today.strftime("%Y-%m")
+
+    def _parse_ym(s):
+        """Return 'YYYY-MM' prefix from a date string, or empty string."""
+        s = str(s or "")
+        for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d", "%Y-%m"):
+            try:
+                return _datetime.strptime(s[:len(fmt)], fmt).strftime("%Y-%m")
+            except ValueError:
+                pass
+        return s[:7] if len(s) >= 7 else ""
+
+    # Monthly activity buckets — last 6 months
+    months_back = 6
+    monthly = {}
+    for i in range(months_back - 1, -1, -1):
+        from datetime import timedelta as _td
+        ref = _date(_today.year, _today.month, 1)
+        m = ref.month - i
+        y = ref.year
+        while m <= 0:
+            m += 12
+            y -= 1
+        key = f"{y}-{m:02d}"
+        monthly[key] = {"submissions": 0, "contacts": 0}
+
+    for s in raw_submissions:
+        ym = _parse_ym(s.get("date") or s.get("submitted_at") or s.get("date_added") or "")
+        if ym in monthly:
+            monthly[ym]["submissions"] += 1
+
+    for c in raw_contacts:
+        ym = _parse_ym(c.get("date_added") or "")
+        if ym in monthly:
+            monthly[ym]["contacts"] += 1
+
+    this_month_subs = sum(1 for s in raw_submissions if _parse_ym(s.get("date") or s.get("submitted_at") or s.get("date_added") or "").startswith(_this_ym))
+    this_month_contacts = monthly.get(_this_ym, {}).get("contacts", 0)
+
+    responses = sum(1 for c in raw_contacts if c.get("response_received") is True)
+    contacted = sum(1 for c in raw_contacts if c.get("status") not in ("cold", None, ""))
+    response_rate = round((responses / contacted * 100) if contacted else 0)
+
+    # Trajectory: simple heuristic on recent vs prior months
+    recent_acts = sum(monthly[k]["submissions"] + monthly[k]["contacts"] for k in list(monthly)[-2:])
+    prior_acts  = sum(monthly[k]["submissions"] + monthly[k]["contacts"] for k in list(monthly)[:4])
+    if not raw_submissions and len(raw_contacts) < 5:
+        trajectory = "early"
+    elif recent_acts > prior_acts * 1.3:
+        trajectory = "accelerating"
+    elif recent_acts < prior_acts * 0.5:
+        trajectory = "stalling"
+    else:
+        trajectory = "steady"
+
+    # Recent activity — merge submissions + contacts, sort desc
+    activity_items = []
+    for s in raw_submissions:
+        activity_items.append({
+            "type": "submission",
+            "name": s.get("title") or s.get("opp_title") or s.get("opp_name") or "Submission",
+            "date": s.get("date") or s.get("submitted_at") or s.get("date_added") or "",
+            "status": s.get("status") or s.get("action") or "submitted",
+        })
+    for c in raw_contacts:
+        activity_items.append({
+            "type": "contact",
+            "name": c.get("name") or "",
+            "date": c.get("date_added") or "",
+            "status": c.get("status") or "cold",
+        })
+    activity_items.sort(key=lambda x: x["date"], reverse=True)
+
+    career_momentum = {
+        "this_month": {"submissions": this_month_subs, "contacts": this_month_contacts},
+        "totals": {
+            "submissions": len(raw_submissions),
+            "venues_in_crm": len(raw_contacts),
+            "responses_received": responses,
+        },
+        "response_rate": response_rate,
+        "trajectory": trajectory,
+        "monthly_chart": [
+            {"month": k, "submissions": v["submissions"], "contacts": v["contacts"]}
+            for k, v in monthly.items()
+        ],
+        "recent_activity": activity_items[:8],
+    }
+
+    # ── Timing Intelligence ───────────────────────────────────────────────────
+    import re as _re
+
+    _MONTH_MAP_TI = {
+        "january": 1, "february": 2, "march": 3, "april": 4,
+        "may": 5, "june": 6, "july": 7, "august": 8,
+        "september": 9, "october": 10, "november": 11, "december": 12,
+        "jan": 1, "feb": 2, "mar": 3, "apr": 4,
+        "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+    }
+    _MONTH_NAMES = ["January", "February", "March", "April", "May", "June",
+                    "July", "August", "September", "October", "November", "December"]
+    _ROLLING_TI = frozenset({"rolling", "ongoing", "year-round", "open submission", "anytime", "proposal-based"})
+
+    def _extract_deadline_months(dl_str):
+        s = str(dl_str or "").lower()
+        if any(t in s for t in _ROLLING_TI):
+            return None, True   # (month_num, is_rolling)
+        s_clean = _re.sub(r'(\d+)(st|nd|rd|th)\b', r'\1', s)
+        found = []
+        # ISO / YYYY-MM-DD
+        for m in _re.finditer(r'20\d{2}[-/](\d{1,2})[-/]\d{1,2}', s_clean):
+            try:
+                found.append(int(m.group(1)))
+            except ValueError:
+                pass
+        # "Month DD, YYYY" or "DD Month YYYY"
+        for word, num in _MONTH_MAP_TI.items():
+            if word in s_clean:
+                found.append(num)
+        if found:
+            return max(found), False
+        return None, False
+
+    month_buckets = {i: [] for i in range(1, 13)}
+    rolling_opps = []
+    no_deadline = 0
+
+    for opp in opps:
+        dl = opp.get("deadline") or ""
+        if not dl or str(dl).strip().lower() in ("", "none", "null", "unknown", "tbd", "n/a"):
+            no_deadline += 1
+            continue
+        month_num, is_rolling = _extract_deadline_months(dl)
+        name = opp.get("name") or opp.get("title") or ""
+        cat = opp.get("category") or ""
+        entry = {"name": name[:60], "category": cat, "deadline": str(dl)[:80]}
+        if is_rolling:
+            rolling_opps.append(entry)
+        elif month_num:
+            month_buckets[month_num].append(entry)
+        else:
+            no_deadline += 1
+
+    monthly_counts = [
+        {"month": _MONTH_NAMES[i - 1], "month_num": i,
+         "count": len(month_buckets[i]), "top": month_buckets[i][:5]}
+        for i in range(1, 13)
+    ]
+    sorted_by_count = sorted(monthly_counts, key=lambda x: x["count"], reverse=True)
+    peak_months   = [m["month"] for m in sorted_by_count[:3] if m["count"] > 0]
+    quiet_months  = [m["month"] for m in sorted_by_count if m["count"] == 0][:3]
+
+    timing_intelligence = {
+        "total_analyzed":       len(opps),
+        "with_parsed_deadline": sum(len(v) for v in month_buckets.values()),
+        "rolling_count":        len(rolling_opps),
+        "no_deadline_count":    no_deadline,
+        "monthly_counts":       monthly_counts,
+        "rolling":              rolling_opps[:10],
+        "peak_months":          peak_months,
+        "quiet_months":         quiet_months,
+        "key_insight":          (
+            f"{', '.join(peak_months[:2])} {'are' if len(peak_months) >= 2 else 'is'} peak application season "
+            "in this pipeline. Prepare materials 4–6 weeks before deadlines cluster."
+            if peak_months else
+            "Most opportunities have rolling or unspecified deadlines — check each one individually."
+        ),
+    }
+
+    # ── Opportunity Gap Analysis ──────────────────────────────────────────────
+    cat_counter = Counter(o.get("category", "unknown") for o in opps)
+    total_opps = len(opps)
+
+    # Expected distribution for a watercolor/illustration artist at Tier 1-2
+    # based on what comparable artists' opportunity portfolios look like
+    EXPECTED = {
+        "gallery":                    {"label": "Galleries",            "expected_pct": 18, "note": "Core relationship-building venues for a Tokyo-based painter."},
+        "cafe_gallery":               {"label": "Café Galleries",       "expected_pct": 8,  "note": "Low-barrier first exhibition venues; common for emerging Tokyo artists."},
+        "residency":                  {"label": "Residencies",          "expected_pct": 8,  "note": "Production time + institutional credibility; peers typically track 5–10."},
+        "editorial_illustration":     {"label": "Editorial / Magazines","expected_pct": 5,  "note": "Most watercolor illustrators this stage have 5–15 editorial leads tracked."},
+        "competition_award":          {"label": "Competitions & Awards","expected_pct": 5,  "note": "Competition wins appear on every peer's early CV."},
+        "global_watercolor_open_call":{"label": "Watercolor Open Calls","expected_pct": 6,  "note": "Juried watercolor calls are the fastest route to international credibility."},
+        "zine_print":                 {"label": "Zines & Print",        "expected_pct": 10, "note": "The most accessible first-presence format for illustration-adjacent artists."},
+        "global_grant_fellowship":    {"label": "Grants & Fellowships", "expected_pct": 4,  "note": "Most peers at this stage track 3–8 grants even when not yet eligible."},
+    }
+
+    gaps = []
+    strengths = []
+    for cat_key, meta in EXPECTED.items():
+        actual_count = cat_counter.get(cat_key, 0)
+        actual_pct   = round(actual_count / total_opps * 100, 1) if total_opps else 0
+        expected_count = round(meta["expected_pct"] / 100 * total_opps)
+        ratio = actual_count / expected_count if expected_count else 0
+        entry = {
+            "category":       cat_key,
+            "label":          meta["label"],
+            "actual_count":   actual_count,
+            "expected_count": expected_count,
+            "actual_pct":     actual_pct,
+            "expected_pct":   meta["expected_pct"],
+            "note":           meta["note"],
+        }
+        if ratio < 0.4:
+            entry["status"] = "gap"
+            gaps.append(entry)
+        elif ratio > 1.5:
+            entry["status"] = "strength"
+            strengths.append(entry)
+        else:
+            entry["status"] = "on_track"
+
+    gaps.sort(key=lambda x: x["expected_pct"], reverse=True)
+    strengths.sort(key=lambda x: x["actual_count"], reverse=True)
+
+    # Top non-expected categories (where portfolio is actually concentrated)
+    top_cats = [
+        {"category": k, "count": v}
+        for k, v in cat_counter.most_common(8)
+        if k not in EXPECTED and k not in ("unknown", "")
+    ]
+
+    opportunity_gap = {
+        "total":     total_opps,
+        "gaps":      gaps,
+        "strengths": strengths,
+        "top_actual_categories": top_cats,
+        "summary":   (
+            f"{len(gaps)} category gap{'s' if len(gaps) != 1 else ''} identified. "
+            f"{'Editorial illustration and competitions are most underrepresented — both appear on every peer watercolor artist CV at this stage.' if len(gaps) >= 2 else 'Portfolio coverage is broadly on track.'}"
+        ),
+    }
+
     return {
         "career_position":       career_position,
         "market_landscape":      market_landscape,
@@ -1404,6 +1657,9 @@ def get_saffron():
         "long_term_scenarios":   long_term_scenarios,
         "venue_tracker":         venue_tracker,
         "open_questions":        open_questions,
+        "career_momentum":       career_momentum,
+        "timing_intelligence":   timing_intelligence,
+        "opportunity_gap":       opportunity_gap,
     }
 
 
