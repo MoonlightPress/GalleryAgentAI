@@ -254,7 +254,7 @@ function InstagramStrategy({ data, t }) {
     <SectionShell
       title={t('sf.sec.instagram')}
       subtitle={t('sf.sub.instagram')}
-      summary={`Instagram ${ig?.followers ?? '—'} · Twitter ${tw?.followers ?? '—'}`}
+      summary={`Instagram ${ig?.followers ?? '—'}`}
     >
       <div className="sf-two-col">
         <div>
@@ -324,7 +324,7 @@ function AudienceGeography({ data, t }) {
         </div>
       ) : (
         <>
-          <EmptyState message={data.reason} />
+          <EmptyState message={data.reason ?? ''} />
           <div className="sf-info-block">
             <div className="sf-block-label">{t('sf.label.whyMatters')}</div>
             <p className="sf-info-text">{data.why_it_matters}</p>
@@ -353,7 +353,7 @@ const ASSESSMENT_COLORS = {
 
 function CareerBenchmarks({ data, t }) {
   const rec = data.artist_record
-  const summary = `${rec.exhibitions} · ${rec.publications} · Instagram ${rec.instagram ?? '—'} · Twitter ${rec.twitter ?? '—'}`
+  const summary = `${rec.exhibitions} · ${rec.publications} · Instagram ${rec.instagram ?? '—'}`
   return (
     <SectionShell
       title={t('sf.sec.benchmarks')}
@@ -462,11 +462,11 @@ function PressFeatures({ data, t }) {
           ))}
           <div style={{ marginTop: 24 }}>
             <div className="sf-block-label">{t('sf.label.artPress')}</div>
-            <EmptyState message={data.art_press.reason} />
+            <EmptyState message={data.art_press?.reason ?? ''} />
           </div>
           <div style={{ marginTop: 16 }}>
             <div className="sf-block-label">{t('sf.label.japanMedia')}</div>
-            <EmptyState message={data.japan_coverage.reason} />
+            <EmptyState message={data.japan_coverage?.reason ?? ''} />
           </div>
         </div>
         <div>
@@ -528,7 +528,7 @@ function CollaborationMap({ data, t }) {
         </div>
         <div>
           <div className="sf-block-label">{t('sf.label.tokyoPeerNet')}</div>
-          <EmptyState message={data.peer_network.reason} />
+          <EmptyState message={data.peer_network?.reason ?? ''} />
           <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.whyMatters')}</div>
           <p className="sf-info-text">{data.peer_network.why_it_matters}</p>
         </div>
@@ -1156,8 +1156,7 @@ function CareerTimeline({ t }) {
         <span className="sf-trait">{t('sf.timeline.age', { n: d.artist_stage.age })}</span>
         <span className="sf-trait">{t('sf.timeline.groupShow', { n: d.artist_stage.group_shows, s: d.artist_stage.group_shows !== 1 ? 's' : '' })}</span>
         <span className="sf-trait">{t('sf.timeline.publications', { n: d.artist_stage.publications, s: d.artist_stage.publications !== 1 ? 's' : '' })}</span>
-        <span className="sf-trait">Instagram {d.artist_stage.instagram}</span>
-        <span className="sf-trait">Twitter {d.artist_stage.twitter}</span>
+        {d.artist_stage.instagram && <span className="sf-trait">Instagram {d.artist_stage.instagram}</span>}
       </div>
 
       <div className="sf-peers-grid" style={{ marginTop: 24 }}>

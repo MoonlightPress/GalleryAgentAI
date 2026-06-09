@@ -240,13 +240,14 @@ def _real_submission_page(opp: dict) -> bool:
 def _ibm_eligible(opp: dict) -> bool:
     if opp.get("status") in ("permanently_closed", "closed_this_cycle"):
         return False
+    # Relationship/proposal venues are evergreen — stale deadline fields don't close them
+    if opp.get("category") in _RELATIONSHIP_CATS and opp.get("contact_verified"):
+        return True
     if _deadline_past(opp):
         return False
     if _confirmed_deadline(opp):
         return True
     if _real_submission_page(opp):
-        return True
-    if opp.get("category") in _RELATIONSHIP_CATS and opp.get("contact_verified"):
         return True
     return False
 
@@ -1181,7 +1182,15 @@ def get_saffron():
                 "detail": "Target: an intimate Tokyo gallery with a track record of solo shows by international artists at similar career stages. Youkobo Art Space, Gallery Denn, or a bookshop gallery context are realistic first targets.",
             },
         ],
-        "blocking_now": "Only 1 confirmed group show in Japan. Most Tokyo galleries expect 3–4 group exhibition credits before a solo conversation — so 2–3 more group shows are needed. The next group show is the highest-leverage move right now.",
+        "blocking_now": (
+            f"Only {_total_group_shows} confirmed group show{'s' if _total_group_shows != 1 else ''} in Japan. "
+            f"Most Tokyo galleries expect 3–4 group exhibition credits before a solo conversation "
+            f"— so {max(0, 3 - _total_group_shows)}–{max(0, 4 - _total_group_shows)} more group shows needed. "
+            "The next group show is the highest-leverage move right now."
+        ) if _total_group_shows < 4 else (
+            f"{_total_group_shows} confirmed group shows — exhibition history is established. "
+            "A solo show conversation is now viable at the right venue."
+        ),
         "next_move": "Apply for a second group show at a Tokyo artist-run space. 3331 Arts Chiyoda open calls, Design Festa Gallery curated shows, and Gallery IYN open submissions are the realistic near-term entries. Any of these, confirmed and attended, advances the pathway.",
     }
 
@@ -1792,8 +1801,6 @@ def get_saffron():
     }
 
     # ── Timing Intelligence ───────────────────────────────────────────────────
-    import re as _re
-
     _MONTH_MAP_TI = {
         "january": 1, "february": 2, "march": 3, "april": 4,
         "may": 5, "june": 6, "july": 7, "august": 8,
@@ -1809,10 +1816,10 @@ def get_saffron():
         s = str(dl_str or "").lower()
         if any(t in s for t in _ROLLING_TI):
             return None, True   # (month_num, is_rolling)
-        s_clean = _re.sub(r'(\d+)(st|nd|rd|th)\b', r'\1', s)
+        s_clean = re.sub(r'(\d+)(st|nd|rd|th)\b', r'\1', s)
         found = []
         # ISO / YYYY-MM-DD
-        for m in _re.finditer(r'20\d{2}[-/](\d{1,2})[-/]\d{1,2}', s_clean):
+        for m in re.finditer(r'20\d{2}[-/](\d{1,2})[-/]\d{1,2}', s_clean):
             try:
                 found.append(int(m.group(1)))
             except ValueError:
@@ -1992,8 +1999,7 @@ def get_saffron():
             _country_counter_ms[_c] += 1
     _by_country = {k: v for k, v in _country_counter_ms.most_common(5)}
 
-    from datetime import date as _date2, datetime as _dt2
-    _today2 = _date2.today()
+    _today2 = datetime.now(timezone.utc).date()
     _within_30 = 0
     _within_90 = 0
     _open_ongoing = 0
@@ -2009,7 +2015,7 @@ def get_saffron():
         _parsed_dl = None
         for _fmt in ("%Y-%m-%d", "%B %d, %Y", "%d %B %Y", "%B %Y"):
             try:
-                _parsed_dl = _dt2.strptime(_dl[:20], _fmt).date()
+                _parsed_dl = datetime.strptime(_dl[:20], _fmt).date()
                 break
             except ValueError:
                 pass
@@ -2032,7 +2038,7 @@ def get_saffron():
     _top5      = sorted(_all_opps, key=_ms_score, reverse=True)[:5]
     _top_scored = [
         {
-            "name":     (_o.get("title") or _o.get("name") or "")[:60],
+            "name":     (_o.get("name") or _o.get("title") or "")[:60],
             "score":    round(_ms_score(_o), 1),
             "category": _o.get("category", ""),
         }
