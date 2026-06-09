@@ -6,183 +6,150 @@ This report caps scores when the explanation contradicts the ranking.
 
 - capped_context_mismatch: 1
 - capped_market_format: 1
-- capped_negative_explanation: 26
-- hidden: 69
-- ok: 253
-- reject: 29
+- capped_negative_explanation: 34
+- hidden: 21
+- ok: 291
+- reject: 31
 
 ## Score Caps Applied
 
-- **B&B Shimokitazawa** — 10.0 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
 - **flotsam books** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **ZINEイベント** — 10.0 → 6.4 — capped_negative_explanation
+- **Tokyo Arts and Space** — 7.21 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear, requires significant investigative work
+- **B&B Shimokitazawa** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
+- **日記屋 月日** — 10.0 → 2.5 — hidden
+  - hidden recommendation
+- **Communication Arts Illustration Competition** — 9.34 → 2.5 — hidden
+  - hidden recommendation
 - **Cafe Mame-Hico** — 10.0 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **BONUS TRACK** — 9.52 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **DESIGN FESTA GALLERY** — 10.0 → 6.4 — capped_negative_explanation
   - negative explanation: it doesn't, doesn't fit, unlikely
-- **Spiral** — 10.0 → 6.4 — capped_negative_explanation
-  - negative explanation: poor match, complete lack
-- **TOKIO ART BOOK FAIR 2026** — 10.0 → 2.5 — hidden
+- **Book Obscura** — 10.0 → 2.5 — hidden
   - hidden recommendation
-- **NADiff a/p/a/r/t** — 10.0 → 2.5 — reject
-  - negative explanation: not actionable
-  - hidden recommendation
-  - verification rejected
-- **Fukuoka Art Book Fair** — 10.0 → 2.5 — hidden
+- **そぞろ書房** — 10.0 → 2.5 — hidden
   - hidden recommendation
 - **Gallery IRO** — 9.9 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — 9.89 → 2.5 — hidden
-  - negative explanation: unclear
-  - hidden recommendation
-- **Applications — Little Tokyo Zine Fest** — 9.88 → 2.5 — hidden
-  - hidden recommendation
-- **VACANT** — 9.82 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear
 - **Gallery HANA Shimokitazawa** — 9.79 → 6.4 — capped_negative_explanation
   - negative explanation: not strategic, unlikely
-- **BONUS TRACK** — 9.52 → 6.4 — capped_negative_explanation
+- **AIT Residency** — 7.47 → 6.4 — capped_negative_explanation
+  - negative explanation: doesn't fit, unclear, lack of clear
+- **素人の乱 (Shiroto no Ran) Koenji** — 9.86 → 2.5 — hidden
+  - hidden recommendation
+- **Spiral** — 10.0 → 6.4 — capped_negative_explanation
+  - negative explanation: poor match, complete lack
+- **Pola Art Foundation Grant** — 7.82 → 2.5 — hidden
+  - hidden recommendation
+- **reload Shimokitazawa** — 8.19 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **Zine & Book フェス in 神保町 (Jimbocho)** — 9.5 → 2.5 — hidden
-  - negative explanation: unclear
+- **Art Fair Tokyo 2026** — 10.0 → 2.5 — hidden
   - hidden recommendation
 - **Cafe Cross Point** — 9.35 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **The Container** — 9.25 → 6.4 — capped_negative_explanation
-  - negative explanation: question mark
+- **VACANT** — 9.82 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **Gallery Conceal Shibuya** — 9.0 → 6.4 — capped_negative_explanation
+  - negative explanation: it doesn't, unclear
+- **Bunka-cho 新進芸術家海外研修制度** — 7.92 → 2.5 — hidden
+  - hidden recommendation
+- **Tokyo Arts and Space (TOKAS) Residency + Grant** — 6.63 → 2.5 — hidden
+  - hidden recommendation
+- **Mall Galleries Open Exhibitions** — 7.87 → 2.5 — hidden
+  - hidden recommendation
+- **Japan Foundation Cultural Exchange Grant** — 7.71 → 2.5 — hidden
+  - hidden recommendation
 - **Open Calls for Artists** — 9.18 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **Open Call For Artists** — 9.18 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **Zushi Art Gallery** — 9.15 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear, question mark
 - **公募展** — 9.06 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
 - **公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...** — 9.06 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **Aperture | Photography** — 9.02 → 2.5 — reject
-  - hidden recommendation
-  - verification rejected
-- **Gallery Conceal Shibuya** — 9.0 → 6.4 — capped_negative_explanation
-  - negative explanation: it doesn't, unclear
+- **ZINEイベント** — 10.0 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
 - **Comitia** — 8.98 → 6.0 — capped_context_mismatch
   - negative explanation: it doesn't, would pull you away
   - self-publishing/doujinshi context may conflict with positioning
 - **HandMade In Japan Fes** — 8.69 → 6.4 — capped_negative_explanation
   - negative explanation: it doesn't, undermine your positioning
-- **International Open Call** — 8.45 → 2.5 — reject
-  - hidden recommendation
-  - verification rejected
-- **DER GREIF** — 8.22 → 2.5 — hidden
-  - hidden recommendation
-- **reload Shimokitazawa** — 8.19 → 6.4 — capped_negative_explanation
+- **Zushi Art Gallery** — 9.15 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear, question mark
+- **Youkobo Art Space** — 6.86 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **submissions — porkbelly press** — 8.15 → 2.5 — hidden
+- **Mall Galleries Open Exhibitions** — 6.99 → 2.5 — hidden
   - hidden recommendation
-- **ローズ・ローズ・ローズ** — 8.09 → 2.5 — hidden
-  - hidden recommendation
-- **Publishing / Artist Books — Battle Plan** — 7.98 → 2.5 — hidden
-  - hidden recommendation
-- **Cafe Gallery HATTIFNATT** — 7.62 → 2.5 — hidden
-  - negative explanation: unclear
-  - hidden recommendation
-- **Zines / Artist Books — Battle Plan** — 7.58 → 2.5 — hidden
-  - hidden recommendation
-- **Submissions — Clavis Publishing** — 7.56 → 2.5 — hidden
-  - hidden recommendation
-- **AIT Residency** — 7.47 → 6.4 — capped_negative_explanation
-  - negative explanation: doesn't fit, unclear, lack of clear
-- **ArtConnect Open Calls** — 7.38 → 2.5 — hidden
+- **Printed Matter Art Book Fairs** — 9.78 → 2.5 — hidden
   - hidden recommendation
 - **Design Festa** — 7.27 → 5.8 — capped_market_format
   - negative explanation: commercial pop-up format conflicts
   - market format risk
-- **Tokyo Arts and Space** — 7.21 → 6.4 — capped_negative_explanation
-  - negative explanation: unclear, requires significant investigative work
-- **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — 7.02 → 2.5 — hidden
+- **2026 Artist Projects (GCAC)** — 7.0 → 2.5 — hidden
   - hidden recommendation
-- **スクエア・ワールド2026** — 6.95 → 2.5 — hidden
+- **Aperture | Photography** — 9.02 → 2.5 — reject
+  - verification rejected
+- **The Container** — 9.25 → 6.4 — capped_negative_explanation
+  - negative explanation: question mark
+- **Royal Institute of Painters in Water Colours** — 5.74 → 2.5 — hidden
   - hidden recommendation
-- **Publishers & Publishing Services in Japan - PublishersGlobal.com** — 6.95 → 2.5 — hidden
-  - hidden recommendation
-- **Youkobo Art Space** — 6.86 → 6.4 — capped_negative_explanation
+- **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — 9.89 → 6.4 — capped_negative_explanation
   - negative explanation: unclear
-- **SICF Fukuoka 2026** — 6.81 → 2.5 — hidden
+- **International Open Call** — 8.45 → 2.5 — reject
+  - verification rejected
+- **submissions for the 2026 set film festival are now open** — 6.1 → 2.5 — reject
+  - verification rejected
+- **Zine & Book フェス in 神保町 (Jimbocho)** — 9.5 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **Art Submissions** — 6.1 → 2.5 — reject
+  - verification rejected
+- **Cafe Gallery HATTIFNATT** — 7.62 → 6.4 — capped_negative_explanation
+  - negative explanation: unclear
+- **Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod** — 4.37 → 2.5 — reject
+  - verification rejected
+- **NADiff a/p/a/r/t** — 10.0 → 2.5 — reject
+  - negative explanation: not actionable
   - hidden recommendation
-- **東京芸術劇場 ギャラリー1 ウォーターカラー展覧会** — 6.79 → 2.5 — hidden
-  - hidden recommendation
-- **Become an Author - Tuttle Publishing** — 6.65 → 2.5 — hidden
-  - hidden recommendation
-- **OM SYSTEM PLAZA 2026年4月～6月開催分** — 6.63 → 2.5 — hidden
-  - hidden recommendation
+  - verification rejected
 - **Home - Printed Matter** — 6.57 → 2.5 — hidden
   - hidden recommendation
-- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — 6.55 → 2.5 — hidden
+- **Publishing / Artist Books — Battle Plan** — 7.98 → 2.5 — hidden
   - hidden recommendation
-- **Aquarium - 2026** — 6.55 → 2.5 — hidden
-  - hidden recommendation
-- **第五回公募展「境界」-edge-** — 6.35 → 2.5 — hidden
-  - hidden recommendation
-- **True Beauty - 2026** — 6.29 → 2.5 — hidden
-  - hidden recommendation
-- **submissions for the 2026 set film festival are now open** — 6.1 → 2.5 — reject
-  - hidden recommendation
+- **The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S** — 4.58 → 2.5 — reject
   - verification rejected
-- **Callback Open Call G George invites you to submit to Callback, a series of contemporary ar** — 6.1 → 2.5 — hidden
+- **Zines / Artist Books — Battle Plan** — 7.58 → 2.5 — hidden
   - hidden recommendation
-- **Art Submissions** — 6.1 → 2.5 — reject
-  - hidden recommendation
+- **The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)** — 2.68 → 2.5 — reject
   - verification rejected
-- **Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING** — 6.1 → 2.5 — hidden
+- **スタートアップ助成 (Startup Grant)** — 4.24 → 2.5 — hidden
   - hidden recommendation
-- **CuratorSpace** — 5.96 → 2.5 — hidden
+- **Pastel Society Open Exhibition** — 3.79 → 2.5 — hidden
   - hidden recommendation
-- **Shoto Museum Open Call** — 5.96 → 2.5 — hidden
-  - negative explanation: unclear
+- **Royal Institute of Painters in Water Colours** — 3.04 → 2.5 — hidden
   - hidden recommendation
-- **Art公募** — 5.96 → 2.5 — hidden
-  - negative explanation: unclear
-  - hidden recommendation
-- **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — 5.92 → 2.5 — hidden
-  - hidden recommendation
-- **Japan International Watercolor Institute Online Exhibition** — 5.81 → 2.5 — hidden
-  - hidden recommendation
-- **水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)** — 5.79 → 2.5 — hidden
-  - hidden recommendation
-- **» 21 Terrific Small Presses Open to Direct Submissions** — 5.73 → 2.5 — hidden
-  - hidden recommendation
-- **第四回公募展「食卓」** — 5.61 → 2.5 — hidden
-  - hidden recommendation
-- **第六回公募展「鳥」-bird-** — 5.61 → 2.5 — hidden
-  - hidden recommendation
-- **OM SYSTEM PLAZA 2026年2月～3月開催分** — 5.61 → 2.5 — hidden
-  - hidden recommendation
-- **Japan Book Publishers Association - JBPA** — 5.61 → 2.5 — hidden
-  - hidden recommendation
-- **35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]** — 5.61 → 2.5 — hidden
-  - hidden recommendation
-- **りんごろごろごろ** — 5.49 → 2.5 — hidden
-  - hidden recommendation
-- **アートの交差展 vol.6 (Art Intersection Exhibition vol.6)** — 5.49 → 2.5 — hidden
-  - hidden recommendation
-- **Shangyuan International Residency Programme** — 5.42 → 2.5 — hidden
-  - hidden recommendation
-- **空色ターコイズ** — 5.37 → 2.5 — hidden
-  - hidden recommendation
-- **Clavis Publishing Submissions** — 5.17 → 2.5 — hidden
-  - hidden recommendation
-- **3 Top Book Publishers in Tokyo in 2026** — 5.1 → 2.5 — hidden
-  - hidden recommendation
-- **3 Top Book Publishers in Japan in 2026** — 5.1 → 2.5 — hidden
-  - hidden recommendation
-- **Top Artist Opportunities for 2026 | ArtConnect** — 4.91 → 2.5 — hidden
-  - hidden recommendation
-- **Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou** — 4.72 → 2.5 — hidden
-  - hidden recommendation
-- **Idemitsu Art Award 2026** — 4.72 → 2.5 — hidden
-  - hidden recommendation
-- **Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...** — 4.6 → 2.5 — hidden
-  - hidden recommendation
+- **Japan in Acquarello 水彩画作品公募2026** — 8.62 → 2.5 — reject
+  - verification rejected
+- **新世紀美術協会 神戸支部 油彩・水彩小作品展（Shin-Seiki Bijutsu Kyokai Kobe Branch Oil & Watercolor Small Works Exhibition）** — 7.89 → 2.5 — reject
+  - verification rejected
+- **ILOVETOYS / neuprint — Chinese Illustration Feature** — 2.85 → 2.5 — reject
+  - verification rejected
+- **loneliness books** — 2.52 → 2.5 — reject
+  - verification rejected
+- **2026 International Children and Youth Painting Competition Summer Season** — 3.08 → 2.5 — reject
+  - verification rejected
+- **kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)** — 2.73 → 2.5 — reject
+  - verification rejected
+- **Tokyo Open Call for Artists & Creatives** — 2.52 → 2.5 — reject
+  - verification rejected
+- **日本透明水彩会 2026** — 2.57 → 2.5 — reject
+  - verification rejected
+- **上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)** — 2.85 → 2.5 — reject
+  - verification rejected
+- **Sunny Boy Books** — 2.69 → 2.5 — reject
+  - verification rejected
+- **Artist in Residence program in Paris 2026/2027** — 2.68 → 2.5 — reject
+  - verification rejected

@@ -2,7 +2,7 @@
   "immediate_best_moves": [
     {
       "title": "Tokyo Art Book Fair",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 11.7,
       "visual_fit_score": 5.9,
       "verification_bucket": "",
@@ -65,7 +65,7 @@
     },
     {
       "title": "水性繪畫展覽 (Watercolor Exhibition)",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.98,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -83,7 +83,7 @@
     },
     {
       "title": "アートオリンピア2026",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.77,
       "visual_fit_score": 1.35,
       "verification_bucket": "needs_research",
@@ -102,7 +102,7 @@
     },
     {
       "title": "第113回 日本水彩展",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.61,
       "visual_fit_score": 0.9,
       "verification_bucket": "needs_research",
@@ -138,7 +138,7 @@
     },
     {
       "title": "CSPWC Annual Open Water International Exhibition",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.46,
       "visual_fit_score": 0.45,
       "verification_bucket": "",
@@ -283,7 +283,7 @@
   "competitions_awards": [
     {
       "title": "Aesthetica Art Prize",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 11.29,
       "visual_fit_score": 1.75,
       "verification_bucket": "",
@@ -301,7 +301,7 @@
     },
     {
       "title": "World Illustration Awards",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 11.14,
       "visual_fit_score": 2.4,
       "verification_bucket": "research_needed",
@@ -320,7 +320,7 @@
     },
     {
       "title": "Jackson's Art Prize",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 11.14,
       "visual_fit_score": 2.4,
       "verification_bucket": "research_needed",
@@ -350,26 +350,6 @@
         "watercolor",
         "artist book",
         "artist_book"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛",
-      "score": 8.2,
-      "differentiated_score": 9.49,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "needs_research",
-      "verification_score": 7,
-      "why": "International watercolor competition accepting water-based media on paper, with publication in prestigious annual color catalog and international exposure for selected artists.",
-      "source": "https://graphiccompetitions.com/illustration/splash-27-the-best-of-watercolor-call-for-entries/zh",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book",
-        "zine"
       ],
       "opportunity_type": "open_call",
       "action_type": "apply",
@@ -508,24 +488,6 @@
       "source": "https://www.bibf-illustration.com/zh",
       "visual_hits": [
         "watercolor"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "第22回 世界絵画大賞展2026",
-      "score": 7.5,
-      "differentiated_score": 8.47,
-      "visual_fit_score": 0.9,
-      "verification_bucket": "needs_research",
-      "verification_score": 5,
-      "why": "International watercolor and painting competition with exhibition in Tokyo; accepts watercolor and mixed media from Tokyo-based artists.",
-      "source": "https://kobonabi.com/art-archive/sekaikaigataishoten-22nd-2026",
-      "visual_hits": [
-        "watercolor",
-        "Tokyo-based"
       ],
       "opportunity_type": "open_call",
       "action_type": "apply",
@@ -745,7 +707,7 @@
   "publication_targets": [
     {
       "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-      "score": 9.2,
+      "score": 9.4,
       "differentiated_score": 11.19,
       "visual_fit_score": 3.7,
       "verification_bucket": null,
@@ -765,7 +727,7 @@
     },
     {
       "title": "本店・本屋の実験室",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 11.07,
       "visual_fit_score": 2.2,
       "verification_bucket": "",
@@ -883,7 +845,7 @@
     },
     {
       "title": "LOCAL Gallery・Books",
-      "score": 8.8,
+      "score": 8.6,
       "differentiated_score": 9.97,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -978,7 +940,7 @@
     },
     {
       "title": "Mona Records",
-      "score": 8.8,
+      "score": 8.6,
       "differentiated_score": 9.41,
       "visual_fit_score": 1.75,
       "verification_bucket": "",
@@ -1136,7 +1098,7 @@
     },
     {
       "title": "Book Culture Club",
-      "score": 6.4,
+      "score": 5.0,
       "differentiated_score": 7.82,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -1156,7 +1118,7 @@
     },
     {
       "title": "Submissions — Clavis Publishing",
-      "score": 4.1,
+      "score": 4.71,
       "differentiated_score": 7.4,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -1176,7 +1138,7 @@
     },
     {
       "title": "Komiyama Tokyo",
-      "score": 5.6,
+      "score": 5.0,
       "differentiated_score": 7.21,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -1271,7 +1233,7 @@
   "japan_book_ecosystem": [
     {
       "title": "shashasha",
-      "score": 5.3,
+      "score": 5.0,
       "differentiated_score": 6.56,
       "visual_fit_score": 2.4,
       "verification_bucket": "",
@@ -1310,6 +1272,24 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "ACC 2026年度フェローシップおよび助成",
+      "score": 9.4,
+      "differentiated_score": 10.11,
+      "visual_fit_score": 0.9,
+      "verification_bucket": "research_needed",
+      "verification_score": 10,
+      "why": "ACC's fellowship explicitly supports Asian artists working across mediums and geographies, making it ideal for GEGYjiji's practice of capturing transient urban moments through watercolor while navigating the dual context of being Chinese-based in Tokyo. The grant's emphasis on cross-cultural artistic exchange directly aligns with her observation-focused daily practice and the themes of memory and disappearing architectural spaces that define her work.",
+      "source": "https://www.asianculturalcouncil.org/ja/grant-opportunities",
+      "visual_hits": [
+        "watercolor",
+        "memory"
+      ],
+      "opportunity_type": "grant",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)",
       "score": 8.9,
       "differentiated_score": 10.11,
@@ -1321,24 +1301,6 @@
       "visual_hits": [
         "watercolor",
         "Tokyo-based"
-      ],
-      "opportunity_type": "grant",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "ACC 2026年度フェローシップおよび助成",
-      "score": 8.9,
-      "differentiated_score": 10.11,
-      "visual_fit_score": 0.9,
-      "verification_bucket": "research_needed",
-      "verification_score": 10,
-      "why": "ACC's fellowship explicitly supports Asian artists working across mediums and geographies, making it ideal for GEGYjiji's practice of capturing transient urban moments through watercolor while navigating the dual context of being Chinese-based in Tokyo. The grant's emphasis on cross-cultural artistic exchange directly aligns with her observation-focused daily practice and the themes of memory and disappearing architectural spaces that define her work.",
-      "source": "https://www.asianculturalcouncil.org/ja/grant-opportunities",
-      "visual_hits": [
-        "watercolor",
-        "memory"
       ],
       "opportunity_type": "grant",
       "action_type": "apply",
@@ -1365,7 +1327,7 @@
     },
     {
       "title": "2026 Global Grant Cycle - Individual Fellowship",
-      "score": 8.9,
+      "score": 9.4,
       "differentiated_score": 9.86,
       "visual_fit_score": 0.45,
       "verification_bucket": "research_needed",
@@ -1432,14 +1394,14 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "芸術活動への助成 (Arts Activity Grant)",
-      "score": 8.3,
+      "title": "Asian Cultural Council (ACC) 2026 Grant Program",
+      "score": 9.4,
       "differentiated_score": 9.26,
       "visual_fit_score": 0.45,
       "verification_bucket": "research_needed",
-      "verification_score": 8,
-      "why": "芸術活動への助成 explicitly supports watercolor works in exhibitions, making it a direct match for GEGYjiji's daily practice of capturing Tokyo's disappearing urban moments through the medium. The grant's focus on visual art exhibitions provides ideal funding for her to develop and present the architectural and memory-driven work that defines her practice.",
-      "source": "https://www.asahizaidan.or.jp/grant/grant01.html",
+      "verification_score": 10,
+      "why": "ACC's focus on cultural exchange and international artistic development directly supports GEGYjiji's practice of documenting ephemeral urban moments and architectural spaces across different cities, allowing her to deepen her watercolor studies while building connections between Tokyo and new cultural contexts. The fellowship structure enables sustained daily practice and exploration of how memory and place manifest differently across geographies—core themes already embedded in her work.",
+      "source": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities",
       "visual_hits": [
         "watercolor"
       ],
@@ -1449,14 +1411,14 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "Asian Cultural Council (ACC) 2026 Grant Program",
-      "score": 8.2,
+      "title": "芸術活動への助成 (Arts Activity Grant)",
+      "score": 8.3,
       "differentiated_score": 9.26,
       "visual_fit_score": 0.45,
       "verification_bucket": "research_needed",
-      "verification_score": 10,
-      "why": "ACC's focus on cultural exchange and international artistic development directly supports GEGYjiji's practice of documenting ephemeral urban moments and architectural spaces across different cities, allowing her to deepen her watercolor studies while building connections between Tokyo and new cultural contexts. The fellowship structure enables sustained daily practice and exploration of how memory and place manifest differently across geographies—core themes already embedded in her work.",
-      "source": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities",
+      "verification_score": 8,
+      "why": "芸術活動への助成 explicitly supports watercolor works in exhibitions, making it a direct match for GEGYjiji's daily practice of capturing Tokyo's disappearing urban moments through the medium. The grant's focus on visual art exhibitions provides ideal funding for her to develop and present the architectural and memory-driven work that defines her practice.",
+      "source": "https://www.asahizaidan.or.jp/grant/grant01.html",
       "visual_hits": [
         "watercolor"
       ],
@@ -1547,6 +1509,21 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "International Creator Residency Program 2027",
+      "score": 8.74,
+      "differentiated_score": 8.6,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "research_needed",
+      "verification_score": 7,
+      "why": "Three-month fully funded residency in Tokyo for international visual artists with studio space and project funding, directly matching her location and discipline.",
+      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260430-317.html",
+      "visual_hits": [],
+      "opportunity_type": "grant",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "Tokyo Gendai 2026",
       "score": 8.5,
       "differentiated_score": 8.36,
@@ -1565,7 +1542,7 @@
     },
     {
       "title": "torch press",
-      "score": 6.1,
+      "score": 5.0,
       "differentiated_score": 7.84,
       "visual_fit_score": 5.0,
       "verification_bucket": "stretch_targets",
@@ -1784,7 +1761,7 @@
     },
     {
       "title": "HATTIFNATT Koenji Cafe Gallery",
-      "score": 9.2,
+      "score": 9.4,
       "differentiated_score": 10.21,
       "visual_fit_score": 0.9,
       "verification_bucket": null,
@@ -1886,6 +1863,21 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "CLOUDS Gallery+Coffee Koenji",
+      "score": 9.13,
+      "differentiated_score": 9.6,
+      "visual_fit_score": 0.0,
+      "verification_bucket": null,
+      "verification_score": 9,
+      "why": "Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.",
+      "source": "https://www.cloudsgallerypluscoffee.com/",
+      "visual_hits": [],
+      "opportunity_type": "relationship_target",
+      "action_type": "contact_and_propose",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "HATTIFNATT Kichijoji",
       "score": 8.7,
       "differentiated_score": 9.6,
@@ -1898,21 +1890,6 @@
       "opportunity_type": "relationship_target",
       "action_type": "contact_and_propose",
       "relationship_note": "Call the Kichijoji gallery/shop number (0422-26-9110) or visit in person. Note: this is the Kichijoji location — separate management from Koenji. Donguri Gallery exhibition space confirmed at this location. The storybook interior is very close to GEGYjiji's aesthetic.",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "CLOUDS Gallery+Coffee Koenji",
-      "score": 8.7,
-      "differentiated_score": 9.6,
-      "visual_fit_score": 0.0,
-      "verification_bucket": null,
-      "verification_score": 9,
-      "why": "Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.",
-      "source": "https://www.cloudsgallerypluscoffee.com/",
-      "visual_hits": [],
-      "opportunity_type": "relationship_target",
-      "action_type": "contact_and_propose",
-      "relationship_note": "",
       "draft_introduction_ja": ""
     },
     {
@@ -1934,7 +1911,7 @@
     },
     {
       "title": "BALLOND'ESSAI Shimokitazawa",
-      "score": 8.1,
+      "score": 8.51,
       "differentiated_score": 9.16,
       "visual_fit_score": 0.45,
       "verification_bucket": null,
@@ -1951,7 +1928,7 @@
     },
     {
       "title": "Gallery Rocket Harajuku",
-      "score": 8.1,
+      "score": 5.0,
       "differentiated_score": 8.72,
       "visual_fit_score": 0.45,
       "verification_bucket": "relationship_builders",
@@ -2064,7 +2041,7 @@
   "research_needed": [
     {
       "title": "Center for Book Arts Opportunities",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 11.37,
       "visual_fit_score": 1.95,
       "verification_bucket": "",
@@ -2102,7 +2079,7 @@
     },
     {
       "title": "Still Life - 2026",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 11.14,
       "visual_fit_score": 2.4,
       "verification_bucket": "needs_research",
@@ -2121,7 +2098,7 @@
     },
     {
       "title": "American Illustration",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 11.14,
       "visual_fit_score": 2.4,
       "verification_bucket": "research_needed",
@@ -2140,7 +2117,7 @@
     },
     {
       "title": "The Artcomplex Center of Tokyo",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 11.14,
       "visual_fit_score": 2.4,
       "verification_bucket": "research_needed",
@@ -2159,7 +2136,7 @@
     },
     {
       "title": "Society of Women Artists",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 11.14,
       "visual_fit_score": 2.4,
       "verification_bucket": "research_needed",
@@ -2178,7 +2155,7 @@
     },
     {
       "title": "水彩アートの祭典 (Watercolor Art Festival)",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.98,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -2196,7 +2173,7 @@
     },
     {
       "title": "Tokyo Illustrators Society",
-      "score": 9.6,
+      "score": 8.8,
       "differentiated_score": 10.74,
       "visual_fit_score": 2.4,
       "verification_bucket": "research_needed",
@@ -2253,7 +2230,7 @@
     },
     {
       "title": "Royal Watercolour Society Open Exhibition",
-      "score": 8.8,
+      "score": 5.0,
       "differentiated_score": 10.48,
       "visual_fit_score": 2.4,
       "verification_bucket": "",
@@ -2272,7 +2249,7 @@
     },
     {
       "title": "START Box ササハタハツ・START Box 白鬚 2026年度利用者募集",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.46,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -2289,7 +2266,7 @@
     },
     {
       "title": "桜をテーマとするイラスト・絵画作品募集",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.46,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -2306,7 +2283,7 @@
     },
     {
       "title": "多摩ゆかりの作家による公募展",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.46,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -2323,7 +2300,7 @@
     },
     {
       "title": "Aquarelle 18 - アクワレル",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.46,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -2359,7 +2336,7 @@
     },
     {
       "title": "In-dividual Theater：BUG Screen Week 2026",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -2374,7 +2351,7 @@
     },
     {
       "title": "臺南市美術館 2026「TAM+展覽計畫」",
-      "score": 9.6,
+      "score": 9.4,
       "differentiated_score": 10.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -2493,7 +2470,7 @@
     },
     {
       "title": "American Watercolor Society Annual International Exhibition",
-      "score": 8.8,
+      "score": 5.0,
       "differentiated_score": 9.97,
       "visual_fit_score": 0.9,
       "verification_bucket": "",
@@ -2528,7 +2505,7 @@
     },
     {
       "title": "Ark Art Award 2024",
-      "score": 9.2,
+      "score": 5.98,
       "differentiated_score": 9.96,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -2686,7 +2663,7 @@
     },
     {
       "title": "Offprint",
-      "score": 8.8,
+      "score": 5.0,
       "differentiated_score": 9.79,
       "visual_fit_score": 0.45,
       "verification_bucket": "",
@@ -2754,7 +2731,7 @@
     },
     {
       "title": "IlloBoom! 2026 第三屆插畫巔峰賽",
-      "score": 9.2,
+      "score": 8.8,
       "differentiated_score": 9.7,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -2763,6 +2740,21 @@
       "source": "https://www.threads.com/@ymhuang_illos/post/DVL0hFTEysW/%E5%8F%AA%E8%A6%81%E6%98%AF%E8%A2%AB%E5%A7%94%E8%A8%97%E6%9C%89%E7%AC%A6%E5%90%88%E8%A6%8F%E7%AF%84%E4%B8%8A%E5%AF%AB%E7%9A%84%E5%95%86%E6%A5%AD%E9%A1%9E%E6%8A%95%E7%A8%BF%E6%A2%9D%E4%BB%B6%E5%B0%B1%E5%8F%AF%E4%BB%A5",
       "visual_hits": [],
       "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "Hayama Artist Residency Submission Manager - Submittable",
+      "score": 9.4,
+      "differentiated_score": 9.6,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": 9,
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://hayamaartistresidency.submittable.com/submit",
+      "visual_hits": [],
+      "opportunity_type": "residencies",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -2813,23 +2805,8 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "Hayama Artist Residency Submission Manager - Submittable",
-      "score": 8.7,
-      "differentiated_score": 9.6,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": 9,
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://hayamaartistresidency.submittable.com/submit",
-      "visual_hits": [],
-      "opportunity_type": "residencies",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "Tokyo Wonder Site / TOKAS Residency",
-      "score": 8.4,
+      "score": 8.8,
       "differentiated_score": 9.51,
       "visual_fit_score": 0.9,
       "verification_bucket": "",
@@ -2841,21 +2818,6 @@
         "memory"
       ],
       "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "Jinny Street Gallery Open Call",
-      "score": 8.8,
-      "differentiated_score": 9.5,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": 7,
-      "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
-      "source": "https://www.jinnystreetgallery.com/open-call",
-      "visual_hits": [],
-      "opportunity_type": "enriched_opportunity",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -2876,8 +2838,43 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "Jinny Street Gallery Open Call",
+      "score": 8.6,
+      "differentiated_score": 9.5,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": 7,
+      "why": "Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
+      "source": "https://www.jinnystreetgallery.com/open-call",
+      "visual_hits": [],
+      "opportunity_type": "enriched_opportunity",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛",
+      "score": 4.51,
+      "differentiated_score": 9.49,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "needs_research",
+      "verification_score": 7,
+      "why": "International watercolor competition accepting water-based media on paper, with publication in prestigious annual color catalog and international exposure for selected artists.",
+      "source": "https://graphiccompetitions.com/illustration/splash-27-the-best-of-watercolor-call-for-entries/zh",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "Blooming Stories 2026",
-      "score": 8.8,
+      "score": 8.6,
       "differentiated_score": 9.44,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -2972,6 +2969,23 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "OPEN SITE 11",
+      "score": 8.8,
+      "differentiated_score": 9.16,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "needs_research",
+      "verification_score": 7,
+      "why": "Project proposal call for artist projects at TOKAS Hongo, a Tokyo-based artist-run space.",
+      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260219-316.html",
+      "visual_hits": [
+        "Tokyo-based"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "Shimokitazawa Arts",
       "score": 8.2,
       "differentiated_score": 9.16,
@@ -2987,23 +3001,6 @@
       "action_type": "contact_and_propose",
       "relationship_note": "Small gallery in Shimokitazawa showing younger Japanese artists monthly. Direct proposal by email to info@shimokitazawaarts.tokyo.",
       "draft_introduction_ja": "件名：水彩画作品の展示についてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の大気感、室内の光、猋などをテーマに、静かで親密な水彩作品を制作しています。\n下北沢アーツさんで作品をご紹介できる機会について、ご相談できれば大変嫌しく思います。\nポートフォリオをお送りすることも可能ですので、どうぞよろしくお願いいたします。"
-    },
-    {
-      "title": "OPEN SITE 11",
-      "score": 8.1,
-      "differentiated_score": 9.16,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "needs_research",
-      "verification_score": 7,
-      "why": "Project proposal call for artist projects at TOKAS Hongo, a Tokyo-based artist-run space.",
-      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260219-316.html",
-      "visual_hits": [
-        "Tokyo-based"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
     },
     {
       "title": "Open calls - Online Database of Artist in Residence Programs in Japan",
@@ -3037,7 +3034,7 @@
     },
     {
       "title": "Self Publish, Be Happy",
-      "score": 7.5,
+      "score": 5.0,
       "differentiated_score": 9.08,
       "visual_fit_score": 2.4,
       "verification_bucket": "",
@@ -3105,7 +3102,7 @@
     },
     {
       "title": "Open Call for the International Creator Residency Program 2026",
-      "score": 8.0,
+      "score": 8.8,
       "differentiated_score": 8.9,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -3221,16 +3218,19 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "International Creator Residency Program 2027",
-      "score": 7.6,
-      "differentiated_score": 8.6,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "research_needed",
-      "verification_score": 7,
-      "why": "Three-month fully funded residency in Tokyo for international visual artists with studio space and project funding, directly matching her location and discipline.",
-      "source": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260430-317.html",
-      "visual_hits": [],
-      "opportunity_type": "grant",
+      "title": "第22回 世界絵画大賞展2026",
+      "score": 4.5,
+      "differentiated_score": 8.47,
+      "visual_fit_score": 0.9,
+      "verification_bucket": "needs_research",
+      "verification_score": 5,
+      "why": "International watercolor and painting competition with exhibition in Tokyo; accepts watercolor and mixed media from Tokyo-based artists.",
+      "source": "https://kobonabi.com/art-archive/sekaikaigataishoten-22nd-2026",
+      "visual_hits": [
+        "watercolor",
+        "Tokyo-based"
+      ],
+      "opportunity_type": "open_call",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -3376,7 +3376,7 @@
     },
     {
       "title": "Tokyo Arts and Space",
-      "score": 6.6,
+      "score": 7.59,
       "differentiated_score": 8.06,
       "visual_fit_score": 0.45,
       "verification_bucket": "",
@@ -3387,6 +3387,39 @@
         "memory"
       ],
       "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "TOKAS Open Call",
+      "score": 8.05,
+      "differentiated_score": 8.0,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": 6,
+      "why": "TOKAS Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
+      "source": "https://www.tokyoartsandspace.jp/en/application/index.html",
+      "visual_hits": [],
+      "opportunity_type": "enriched_opportunity",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "公募プログラム - トーキョーアーツアンドスペース",
+      "score": 7.7,
+      "differentiated_score": 8.0,
+      "visual_fit_score": 0.9,
+      "verification_bucket": "",
+      "verification_score": 7,
+      "why": "公募プログラム - トーキョーアーツアンドスペース may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.",
+      "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tokyoartsandspace.jp%2Fapplication%2Fabout_opencall.html&rut=dfbe1d186f3c4ab32c7fd12bde11eb0833c5498641b3ce3c152d0ec43918c688",
+      "visual_hits": [
+        "watercolor",
+        "memory"
+      ],
+      "opportunity_type": "enriched_opportunity",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -3424,21 +3457,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "TOKAS Open Call",
-      "score": 7.0,
-      "differentiated_score": 8.0,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": 6,
-      "why": "TOKAS Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.",
-      "source": "https://www.tokyoartsandspace.jp/en/application/index.html",
-      "visual_hits": [],
-      "opportunity_type": "enriched_opportunity",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "Open Calls for Artists | Exhibit Worldwide",
       "score": 6.7,
       "differentiated_score": 8.0,
@@ -3465,24 +3483,6 @@
       "verification_score": 7,
       "why": "219公募展6募集 >> Gallery219 ギャラリーニイク may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.",
       "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery219.com%2F219kouboten%2Fkoubo2025.html&rut=2b18fbec429263c29150824288dba196d5ef7e782ef198a0176cf713aa21cdc7",
-      "visual_hits": [
-        "watercolor",
-        "memory"
-      ],
-      "opportunity_type": "enriched_opportunity",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "公募プログラム - トーキョーアーツアンドスペース",
-      "score": 6.7,
-      "differentiated_score": 8.0,
-      "visual_fit_score": 0.9,
-      "verification_bucket": "",
-      "verification_score": 7,
-      "why": "公募プログラム - トーキョーアーツアンドスペース may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.",
-      "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tokyoartsandspace.jp%2Fapplication%2Fabout_opencall.html&rut=dfbe1d186f3c4ab32c7fd12bde11eb0833c5498641b3ce3c152d0ec43918c688",
       "visual_hits": [
         "watercolor",
         "memory"
@@ -3575,7 +3575,7 @@
     },
     {
       "title": "オープンコール・プロジェクト",
-      "score": 6.8,
+      "score": 5.8,
       "differentiated_score": 7.79,
       "visual_fit_score": 1.0,
       "verification_bucket": "needs_research",
@@ -3720,7 +3720,7 @@
     },
     {
       "title": "Venice International Watercolor Festival 2026 / 2026年威尼斯国际水彩节",
-      "score": 6.7,
+      "score": 5.7,
       "differentiated_score": 7.66,
       "visual_fit_score": 0.9,
       "verification_bucket": "needs_research",
@@ -3732,21 +3732,6 @@
         "memory"
       ],
       "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
-      "score": 6.7,
-      "differentiated_score": 7.56,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": 4,
-      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-      "source": "https://www.tokyoartbeat.com/events/eventCategoryId/6OBA1ojctRfcVU5LTcZPPC",
-      "visual_hits": [],
-      "opportunity_type": "open_calls_contests",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -3830,7 +3815,7 @@
     },
     {
       "title": "Aquarium - 2026",
-      "score": 4.4,
+      "score": 5.06,
       "differentiated_score": 7.18,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -4015,6 +4000,24 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "Call for Entry: Showcase your art in Tokyo, Japan",
+      "score": 6.67,
+      "differentiated_score": 6.74,
+      "visual_fit_score": 0.9,
+      "verification_bucket": "",
+      "verification_score": 3,
+      "why": "Call for Entry: Showcase your art in Tokyo, Japan may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.",
+      "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.artworkarchive.com%2Fcall%2Dfor%2Dentry%2Fshowcase%2Dyour%2Dart%2Din%2Dtokyo%2Djapan%2D2025&rut=18e7fc33851de86764219ed41599c81337554ed1fdd5f8259da21271f6657e1c",
+      "visual_hits": [
+        "watercolor",
+        "memory"
+      ],
+      "opportunity_type": "enriched_opportunity",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
       "score": 5.8,
       "differentiated_score": 6.74,
@@ -4041,24 +4044,6 @@
       "verification_score": 3,
       "why": "New Power展 | ギャラリー自由が丘で作家デビュー may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.",
       "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gallery%2Djiyugaoka.com%2Fnewpower%2Dapplication&rut=b653d4d84da197b9ca45bc99ef7dc6fb0682fe91fcb1c6cea589a694c266b701",
-      "visual_hits": [
-        "watercolor",
-        "memory"
-      ],
-      "opportunity_type": "enriched_opportunity",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "Call for Entry: Showcase your art in Tokyo, Japan",
-      "score": 5.8,
-      "differentiated_score": 6.74,
-      "visual_fit_score": 0.9,
-      "verification_bucket": "",
-      "verification_score": 3,
-      "why": "Call for Entry: Showcase your art in Tokyo, Japan may fit if its past artists show quiet contemporary work, watercolor / works on paper, drawing, atmosphere, or place-based themes.",
-      "source": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.artworkarchive.com%2Fcall%2Dfor%2Dentry%2Fshowcase%2Dyour%2Dart%2Din%2Dtokyo%2Djapan%2D2025&rut=18e7fc33851de86764219ed41599c81337554ed1fdd5f8259da21271f6657e1c",
       "visual_hits": [
         "watercolor",
         "memory"
@@ -4212,7 +4197,7 @@
     },
     {
       "title": "True Beauty - 2026",
-      "score": 4.2,
+      "score": 4.83,
       "differentiated_score": 6.56,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -4259,7 +4244,7 @@
     },
     {
       "title": "【公募】2026年度レジデンス・プログラム公募開始",
-      "score": 5.7,
+      "score": 6.55,
       "differentiated_score": 6.48,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -4382,7 +4367,7 @@
     },
     {
       "title": "Clavis Publishing Submissions",
-      "score": 3.8,
+      "score": 4.37,
       "differentiated_score": 6.1,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -4515,7 +4500,7 @@
     },
     {
       "title": "Hayama Artist Residency",
-      "score": 3.2,
+      "score": 3.68,
       "differentiated_score": 4.6,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -4663,7 +4648,7 @@
     },
     {
       "title": "Asian Cultural Council Fellowship",
-      "score": 1.6,
+      "score": 1.84,
       "differentiated_score": 2.1,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -4677,23 +4662,8 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "Artist in Residence program in Paris 2026/2027",
-      "score": 2.0,
-      "differentiated_score": 2.0,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "reject",
-      "verification_score": 3,
-      "why": "International residency program offering stipend support for artists; explicit mention of 助成金 (grant funding) for 2026/2027 cycle.",
-      "source": "https://www.facebook.com/nettamjp/posts/%E5%8A%A9%E6%88%90%E9%87%91-artist-in-residence-program-in-paris-20262027-%E5%85%AC%E5%8B%9F-%E5%8A%A9%E6%88%90%E9%87%91-%E3%82%A2%E3%83%BC%E3%83%88/1287161510270167",
-      "visual_hits": [],
-      "opportunity_type": "grant",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)",
-      "score": 2.0,
+      "score": 2.3,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.0,
       "verification_bucket": "reject",
@@ -4708,13 +4678,28 @@
     },
     {
       "title": "New York Fellowship",
-      "score": 2.0,
+      "score": 2.3,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.0,
       "verification_bucket": "reject",
       "verification_score": 3,
       "why": "A fully funded program designed to promote cultural exchange between Asia and the US, enabling artists like GEGYjiji to develop work through international immersion.",
       "source": "https://www.facebook.com/asianculturalcouncil/posts/guidelines-for-accs-2026-global-grant-cycle-are-now-live-on-our-website-click-th/1110093694597549",
+      "visual_hits": [],
+      "opportunity_type": "grant",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "Artist in Residence program in Paris 2026/2027",
+      "score": 2.0,
+      "differentiated_score": 2.0,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "reject",
+      "verification_score": 3,
+      "why": "International residency program offering stipend support for artists; explicit mention of 助成金 (grant funding) for 2026/2027 cycle.",
+      "source": "https://www.facebook.com/nettamjp/posts/%E5%8A%A9%E6%88%90%E9%87%91-artist-in-residence-program-in-paris-20262027-%E5%85%AC%E5%8B%9F-%E5%8A%A9%E6%88%90%E9%87%91-%E3%82%A2%E3%83%BC%E3%83%88/1287161510270167",
       "visual_hits": [],
       "opportunity_type": "grant",
       "action_type": "apply",
@@ -4738,6 +4723,21 @@
     }
   ],
   "low_priority": [
+    {
+      "title": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
+      "score": 3.69,
+      "differentiated_score": 7.56,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": 4,
+      "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+      "source": "https://www.tokyoartbeat.com/events/eventCategoryId/6OBA1ojctRfcVU5LTcZPPC",
+      "visual_hits": [],
+      "opportunity_type": "open_calls_contests",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
     {
       "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
       "score": 3.6,
@@ -4779,25 +4779,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "Zine & Book フェス in 神保町 (Jimbocho)",
-      "score": 3.5,
-      "differentiated_score": 6.54,
-      "visual_fit_score": 3.25,
-      "verification_bucket": "",
-      "verification_score": 7,
-      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "source": "https://jimbocho-zine-book-fes.com/",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "opportunity_type": "enriched_opportunity",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
       "score": 3.5,
       "differentiated_score": 6.54,
@@ -4812,6 +4793,25 @@
         "zine"
       ],
       "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "Zine & Book フェス in 神保町 (Jimbocho)",
+      "score": 3.5,
+      "differentiated_score": 6.54,
+      "visual_fit_score": 3.25,
+      "verification_bucket": "",
+      "verification_score": 7,
+      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "source": "https://jimbocho-zine-book-fes.com/",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "opportunity_type": "enriched_opportunity",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -4940,21 +4940,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "第五回公募展「境界」-edge-",
-      "score": 3.4,
-      "differentiated_score": 5.28,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "needs_research",
-      "verification_score": 6,
-      "why": "Open call exhibition at Tokyo gallery with thematic focus suitable for visual artists.",
-      "source": "https://x.com/koko02803691/status/2061632639019479205",
-      "visual_hits": [],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
       "score": 3.4,
       "differentiated_score": 5.28,
@@ -4965,6 +4950,21 @@
       "source": "https://www.jinnystreetgallery.com/open-call",
       "visual_hits": [],
       "opportunity_type": "open_calls_contests",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "第五回公募展「境界」-edge-",
+      "score": 3.4,
+      "differentiated_score": 5.28,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "needs_research",
+      "verification_score": 6,
+      "why": "Open call exhibition at Tokyo gallery with thematic focus suitable for visual artists.",
+      "source": "https://x.com/koko02803691/status/2061632639019479205",
+      "visual_hits": [],
+      "opportunity_type": "open_call",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -5057,14 +5057,14 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会",
+      "title": "スクエア・ワールド2026",
       "score": 3.1,
       "differentiated_score": 5.02,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
       "verification_score": 4,
-      "why": "Watercolor-focused exhibition opportunity at Tokyo arts theater gallery accepting up to 8 works per artist",
-      "source": "https://nihonbungei.net/watercolors_2026",
+      "why": "Public call exhibition accepting submissions matching her watercolor and illustration work.",
+      "source": "https://note.com/gallerydioxazine/n/nae41d746f93d",
       "visual_hits": [
         "watercolor"
       ],
@@ -5074,14 +5074,14 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "スクエア・ワールド2026",
+      "title": "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会",
       "score": 3.1,
       "differentiated_score": 5.02,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
       "verification_score": 4,
-      "why": "Public call exhibition accepting submissions matching her watercolor and illustration work.",
-      "source": "https://note.com/gallerydioxazine/n/nae41d746f93d",
+      "why": "Watercolor-focused exhibition opportunity at Tokyo arts theater gallery accepting up to 8 works per artist",
+      "source": "https://nihonbungei.net/watercolors_2026",
       "visual_hits": [
         "watercolor"
       ],
@@ -5501,7 +5501,7 @@
   "reject": [
     {
       "title": "Book Obscura",
-      "score": 7.6,
+      "score": 6.5,
       "differentiated_score": 9.24,
       "visual_fit_score": 4.15,
       "verification_bucket": "",
@@ -5560,7 +5560,7 @@
     },
     {
       "title": "Printed Matter Art Book Fairs",
-      "score": 6.5,
+      "score": 5.0,
       "differentiated_score": 8.09,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
@@ -5825,7 +5825,7 @@
     },
     {
       "title": "Tokyo Arts and Space (TOKAS) Residency + Grant",
-      "score": 5.0,
+      "score": 5.75,
       "differentiated_score": 5.8,
       "visual_fit_score": 0.45,
       "verification_bucket": "research_needed",
@@ -5875,6 +5875,21 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
+      "score": 3.85,
+      "differentiated_score": 5.6,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": 7,
+      "why": "Possible fit based on link text: open call",
+      "source": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
+      "visual_hits": [],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "Art Submissions",
       "score": 3.5,
       "differentiated_score": 5.6,
@@ -5883,21 +5898,6 @@
       "verification_score": 7,
       "why": "Possible fit based on link text: submission",
       "source": "https://www.artconnect.com/opportunities/art-submissions",
-      "visual_hits": [],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
-      "score": 3.5,
-      "differentiated_score": 5.6,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": 7,
-      "why": "Possible fit based on link text: open call",
-      "source": "https://www.curatorspace.com/opportunities/detail/vault-collective--open-call--rolling-deadline/1071",
       "visual_hits": [],
       "opportunity_type": "open_call",
       "action_type": "apply",
@@ -6194,23 +6194,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "水彩アートのみ展示イベント",
-      "score": 2.0,
-      "differentiated_score": 2.0,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "reject",
-      "verification_score": 8,
-      "why": "Watercolor-only open call exhibition in Tokyo accepting diverse career levels",
-      "source": "https://www.instagram.com/p/DP-smVMD2LE",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "Tokyo Open Call for Artists & Creatives",
       "score": 2.0,
       "differentiated_score": 2.0,
@@ -6264,6 +6247,23 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "Sunny Boy Books",
+      "score": 2.0,
+      "differentiated_score": 2.0,
+      "visual_fit_score": 1.3,
+      "verification_bucket": "reject",
+      "verification_score": 7,
+      "why": "Tokyo indie bookshop stocking handmade, small-run, and foreign books with its own publishing arm. Strong fit for artist-book and print consignment.",
+      "source": "https://www.instagram.com/sunnyboybooks/",
+      "visual_hits": [
+        "zine"
+      ],
+      "opportunity_type": "relationship_target",
+      "action_type": "contact_and_propose",
+      "relationship_note": "Indie bookshop near Gakugei-Daigaku. DM @sunnyboybooks. Consignment for artist books or prints.",
+      "draft_introduction_ja": "件名：水彩画作品のお取り扱いについてのご相談\n\nはじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。\n都市の風景や光、猋をテーマに水彩で制作しており、アーティストブックやプリントも制作しています。\nSUNNY BOY BOOKSさんのような場所で作品をお取り扱いいただける可能性について、ご相談できれば幸いです。\nどうぞよろしくお願いいたします。"
+    },
+    {
       "title": "NEW AIR 2026",
       "score": 2.0,
       "differentiated_score": 2.0,
@@ -6296,70 +6296,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "Sunny Boy Books",
-      "score": 2.0,
-      "differentiated_score": 2.0,
-      "visual_fit_score": 1.3,
-      "verification_bucket": "reject",
-      "verification_score": 7,
-      "why": "Tokyo indie bookshop stocking handmade, small-run, and foreign books with its own publishing arm. Strong fit for artist-book and print consignment.",
-      "source": "https://www.instagram.com/sunnyboybooks/",
-      "visual_hits": [
-        "zine"
-      ],
-      "opportunity_type": "relationship_target",
-      "action_type": "contact_and_propose",
-      "relationship_note": "Indie bookshop near Gakugei-Daigaku. DM @sunnyboybooks. Consignment for artist books or prints.",
-      "draft_introduction_ja": "件名：水彩画作品のお取り扱いについてのご相談\n\nはじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。\n都市の風景や光、猋をテーマに水彩で制作しており、アーティストブックやプリントも制作しています。\nSUNNY BOY BOOKSさんのような場所で作品をお取り扱いいただける可能性について、ご相談できれば幸いです。\nどうぞよろしくお願いいたします。"
-    },
-    {
-      "title": "RawGround 2026",
-      "score": 2.0,
-      "differentiated_score": 2.0,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "reject",
-      "verification_score": 7,
-      "why": "Cross-arts festival in Singapore hosting visual artists for exhibitions and workshops; open platform for contemporary art.",
-      "source": "https://www.facebook.com/TaipeiRepOffice.in.sg/posts/-%F0%9D%97%A5%F0%9D%97%AE%F0%9D%98%84%F0%9D%97%9A%F0%9D%97%BF%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BB%F0%9D%97%B1-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AE%F0%9D%9F%B2-%F0%9D%97%99%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B4%F0%9D%97%AE%F0%9D%98%80-%F0%9D%97%A1%F0%9D%97%AE%F0%9D%98%86%F0%9D%97%AE%F0%9D%98%84%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%B7%A8%E8%97%9D%E8%A1%93%E7%AF%80-rawground-2026-%E9%82%80%E8%AB%8B%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E8%97%9D%E8%A1%93%E5%AE%B6-fangas-nayaw-%E5%8F%83%E8%88%87%E5%AF%A6%E9%AB%94%E5%B1%95/1228835189404233",
-      "visual_hits": [],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "Watercolor Open Call Exhibition",
-      "score": 2.0,
-      "differentiated_score": 2.0,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "reject",
-      "verification_score": 7,
-      "why": "Open watercolor exhibition accepting diverse perspectives including abstract, realism, and sketching styles.",
-      "source": "https://www.instagram.com/p/DUHzA7BEVp6",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "Clouds Art + Coffee",
-      "score": 2.0,
-      "differentiated_score": 2.0,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "reject",
-      "verification_score": 9,
-      "why": "Rotating exhibitions, welcomes emerging local and international artists, Koenji neighbourhood. Tier 1 ambient visibility — café prints and wall display.",
-      "source": "https://www.instagram.com/clouds_koenji/",
-      "visual_hits": [],
-      "opportunity_type": "relationship_target",
-      "action_type": "contact_and_propose",
-      "relationship_note": "Koenji cafe-gallery. Rotating exhibitions, welcomes emerging artists. DM @clouds_koenji or visit in person.",
-      "draft_introduction_ja": "件名：水彩画の展示についてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさや、光と影、猋といった日常のテーマを水彩で描いています。\nCloudsさんのような、アートとコーヒーが共存する空間に作品を展示できれば大変嫌しく思い、ご連絡いたしました。\nご興味がありましたら、ぜひお話しできれば幸いです。"
-    },
-    {
       "title": "Dig A Hole Zines",
       "score": 2.0,
       "differentiated_score": 2.0,
@@ -6374,21 +6310,6 @@
         "zine"
       ],
       "opportunity_type": "zine_shop",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "南京插画艺术家展览 2026年3月",
-      "score": 2.0,
-      "differentiated_score": 2.0,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "reject",
-      "verification_score": 6,
-      "why": "Exhibition in Nanjing allowing artists to submit up to 5 works with sales opportunities, ideal for illustration-based practice.",
-      "source": "https://www.instagram.com/p/DTKU_w0EThh",
-      "visual_hits": [],
-      "opportunity_type": "open_call",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -6425,6 +6346,85 @@
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
+    },
+    {
+      "title": "水彩アートのみ展示イベント",
+      "score": 2.0,
+      "differentiated_score": 2.0,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "reject",
+      "verification_score": 8,
+      "why": "Watercolor-only open call exhibition in Tokyo accepting diverse career levels",
+      "source": "https://www.instagram.com/p/DP-smVMD2LE",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "RawGround 2026",
+      "score": 2.0,
+      "differentiated_score": 2.0,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "reject",
+      "verification_score": 7,
+      "why": "Cross-arts festival in Singapore hosting visual artists for exhibitions and workshops; open platform for contemporary art.",
+      "source": "https://www.facebook.com/TaipeiRepOffice.in.sg/posts/-%F0%9D%97%A5%F0%9D%97%AE%F0%9D%98%84%F0%9D%97%9A%F0%9D%97%BF%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BB%F0%9D%97%B1-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AE%F0%9D%9F%B2-%F0%9D%97%99%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B4%F0%9D%97%AE%F0%9D%98%80-%F0%9D%97%A1%F0%9D%97%AE%F0%9D%98%86%F0%9D%97%AE%F0%9D%98%84%E6%96%B0%E5%8A%A0%E5%9D%A1%E8%B7%A8%E8%97%9D%E8%A1%93%E7%AF%80-rawground-2026-%E9%82%80%E8%AB%8B%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E8%97%9D%E8%A1%93%E5%AE%B6-fangas-nayaw-%E5%8F%83%E8%88%87%E5%AF%A6%E9%AB%94%E5%B1%95/1228835189404233",
+      "visual_hits": [],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "Watercolor Open Call Exhibition",
+      "score": 2.0,
+      "differentiated_score": 2.0,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "reject",
+      "verification_score": 7,
+      "why": "Open watercolor exhibition accepting diverse perspectives including abstract, realism, and sketching styles.",
+      "source": "https://www.instagram.com/p/DUHzA7BEVp6",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "南京插画艺术家展览 2026年3月",
+      "score": 2.0,
+      "differentiated_score": 2.0,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "reject",
+      "verification_score": 6,
+      "why": "Exhibition in Nanjing allowing artists to submit up to 5 works with sales opportunities, ideal for illustration-based practice.",
+      "source": "https://www.instagram.com/p/DTKU_w0EThh",
+      "visual_hits": [],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "Clouds Art + Coffee",
+      "score": 2.0,
+      "differentiated_score": 2.0,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "reject",
+      "verification_score": 9,
+      "why": "Rotating exhibitions, welcomes emerging local and international artists, Koenji neighbourhood. Tier 1 ambient visibility — café prints and wall display.",
+      "source": "https://www.instagram.com/clouds_koenji/",
+      "visual_hits": [],
+      "opportunity_type": "relationship_target",
+      "action_type": "contact_and_propose",
+      "relationship_note": "Koenji cafe-gallery. Rotating exhibitions, welcomes emerging artists. DM @clouds_koenji or visit in person.",
+      "draft_introduction_ja": "件名：水彩画の展示についてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさや、光と影、猋といった日常のテーマを水彩で描いています。\nCloudsさんのような、アートとコーヒーが共存する空間に作品を展示できれば大変嫌しく思い、ご連絡いたしました。\nご興味がありましたら、ぜひお話しできれば幸いです。"
     },
     {
       "title": "2026国际艺术大赏展",

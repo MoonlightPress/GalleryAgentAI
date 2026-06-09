@@ -258,6 +258,7 @@ const zh = {
   'sf.label.pitchTargets':   '投稿目标',
   'sf.label.fairsPipeline':  '管线中吸引买家的博览会',
   'sf.label.herPubs':        '她的出版物',
+  'sf.label.pubIntent':      '计划中的下一部出版物（来自胡椒粒）',
   'sf.label.pubTiers':       '出版层级',
   'sf.label.topTargets':     '管线中的首要目标（{n}个）',
   'sf.label.prepLeadTimes':  '准备提前期',
@@ -348,7 +349,7 @@ const zh = {
   'pp.saveError':            '保存失败，请重试',
 
   'pp.sec.instagram':        '社交媒体',
-  'pp.sub.instagram':        'Instagram 与 Twitter — 每个里程碑意味着什么，以及值得关注的事。',
+  'pp.sub.instagram':        'Instagram — 每个里程碑意味着什么，以及值得关注的事。',
   'pp.sec.exhibition':       '展览之路',
   'pp.sub.exhibition':       '一场已确认的展览，在迈向东京个展的路上处于哪个位置。',
   'pp.sec.statement':        '艺术家自述',
@@ -497,16 +498,18 @@ const zh = {
   'sf.label.posts':          '条帖子',
 
   // ── Peppercorn Instagram content ──────────────────────────────────────────
-  'pp.ig.count':             '21k 粉丝',
-  'pp.ig.analysis.21k':      '21k意味着你在东京插画圈和轻度调研的印刷品买家中已有一定曝光。画廊总监偶尔会注意。顶尖策展人暂时还没在看。',
-  'pp.ig.thresh.25k':        '算法开始将账号视为成熟账号。印刷品买家和独立刊物收藏者的自然发现率上升 — 通过浏览找到作品的人开始更多地遇到它。这是值得主动追求的第一个里程碑。',
-  'pp.ig.thresh.50k':        '画廊总监开始将社交粉丝量视为市场可行性的参考信号。寄售洽谈变得更顺畅 — 在确认合作展览前查看艺术家的Instagram，是这个层级的惯常做法。',
-  'pp.ig.thresh.100k':       '媒体兴趣自然增加。藏家关注超出插画圈范围扩展。接受艺术活动演讲邀请成为可能。中期目标，并非近期目标。',
+  'pp.ig.count':             '~90k 粉丝',
+  'pp.ig.analysis':          '接近100k — 一个具有象征意义的里程碑。自2020年起通过日记式创作积累的插画社群粉丝是真实且来之不易的。画廊总监和策展人越来越把这个量级的粉丝视为市场可行性的信号。',
+  'pp.ig.thresh.100k':       '象征性里程碑。在策展人和画廊主的对话中具有信誉背书作用。媒体兴趣自然增加，藏家关注超出插画圈范围扩展。快了。',
   'pp.ig.tactics.label':     '对这类创作实践通常有效的方式',
   'pp.ig.tactics.0':         '日记式日更帖比偶发的大型投稿更快积累黏性 — 累积效应',
   'pp.ig.tactics.1':         '城市建筑、安静空间和猫，在日本受众中有较高表现',
   'pp.ig.tactics.2':         '日中双语字幕能同时触达两个社群，且不分裂任何一方',
   'pp.ig.tactics.3':         '转发东京城市观察的Stories，比单独Feed帖子更快积累本地受众',
+  'pp.ig.wondering.label':   '胡椒粒想了解',
+  'pp.ig.wondering.0':       '你现在多久发一次Instagram？',
+  'pp.ig.wondering.1':       '你想要增长它，还是主要用作作品档案？方法完全不同。',
+  'pp.ig.wondering.2':       '如果你能分享Instagram Insights截图，胡椒粒就能看到你的受众究竟在哪里。',
 
   // ── Peppercorn Twitter content ────────────────────────────────────────────
   'pp.tw.count':             '~90k 粉丝',
@@ -532,7 +535,7 @@ const zh = {
   'pp.carousel.tw.name':            'Twitter / X',
   'pp.carousel.tw.desc':            '象征性里程碑 — 在策展人对话中的信誉背书',
   'pp.carousel.ig.name':            'Instagram',
-  'pp.carousel.ig.desc':            '25k时算法可见性提升 — 印刷品买家发现率开始上升',
+  'pp.carousel.ig.desc':            '接近100k — 一个在策展人与画廊对话中具备信誉背书的象征性里程碑',
   'pp.carousel.pub.name':           '出版物',
   'pp.carousel.pub.desc':           '第三部出版物确立规律 — 详情见红雀',
   'pp.carousel.stmt.name':          '艺术家自述',
@@ -554,7 +557,7 @@ const zh = {
 
   // ── Questions (Peppercorn) ────────────────────────────────────────────────
   'pp.q.0.text':   '你现在多久发一次Instagram？有什么目标吗？',
-  'pp.q.0.why':    '发布频率是缩小Instagram与Twitter差距中最可控的变量。',
+  'pp.q.0.why':    '发布频率是建立Instagram受众中最可控的变量。',
   'pp.q.0.opt.0':  '每天都发 — 这是我日记式创作的一部分',
   'pp.q.0.opt.1':  '每周几次，没有特定目标',
   'pp.q.0.opt.2':  '很少，大约每月一两次',
@@ -1121,6 +1124,7 @@ const ja = {
   'sf.label.pitchTargets':   'ピッチ先',
   'sf.label.fairsPipeline':  'パイプライン内のバイヤーを集めるフェア',
   'sf.label.herPubs':        '彼女の出版物',
+  'sf.label.pubIntent':      '計画中の次の出版物（ペッパーコーンより）',
   'sf.label.pubTiers':       '出版ティア',
   'sf.label.topTargets':     'パイプライン内の主要ターゲット（{n}件）',
   'sf.label.prepLeadTimes':  '準備リードタイム',
@@ -1211,7 +1215,7 @@ const ja = {
   'pp.saveError':            '保存に失敗しました — もう一度お試しください',
 
   'pp.sec.instagram':        'ソーシャルメディア',
-  'pp.sub.instagram':        'Instagram と Twitter — 各閾値の意味と注目すべきこと。',
+  'pp.sub.instagram':        'Instagram — 各閾値の意味と注目すべきこと。',
   'pp.sec.exhibition':       '展示への道',
   'pp.sub.exhibition':       '確認済みの1件が、東京個展への道のどこにあるか。',
   'pp.sec.statement':        'アーティストステートメント',
@@ -1360,16 +1364,18 @@ const ja = {
   'sf.label.posts':          '件の投稿',
 
   // ── Peppercorn Instagram content ──────────────────────────────────────────
-  'pp.ig.count':             '21kフォロワー',
-  'pp.ig.analysis.21k':      '21kは、東京のイラスト界と軽く調べているプリントバイヤーの目に触れていることを意味します。ギャラリーディレクターが気にかける場合もあります。トップキュレーターはまだ見ていません。',
-  'pp.ig.thresh.25k':        'アルゴリズムがアカウントを「定着済み」として扱い始めます。プリントバイヤーやジン収集家による自然流入が増加 — ブラウジングで作品に出会う人が増えます。積極的に目指す価値がある最初の閾値です。',
-  'pp.ig.thresh.50k':        'ギャラリーディレクターがソーシャルフォロワー数を市場での可能性のシグナルとして見始めます。委託販売の話が進めやすくなります — 展示合意前にアーティストのInstagramを確認するのは、このレベルでの標準です。',
-  'pp.ig.thresh.100k':       'メディアの関心が自然に高まります。コレクターの注目がイラスト界を超えて広がります。アートイベントでの講演依頼も現実的になります。中期目標であり、近期目標ではありません。',
+  'pp.ig.count':             '~90kフォロワー',
+  'pp.ig.analysis':          '100kが近い — 象徴的な節目。2020年から日記実践を通じて積み上げてきたイラストコミュニティのフォロワーは本物で、簡単に得られたものではありません。ギャラリーディレクターやキュレーターは、この規模のフォロワーを市場での可能性のシグナルとして見るようになっています。',
+  'pp.ig.thresh.100k':       '象徴的なマイルストーン。キュレーターやギャラリーとの会話での信頼性の指標になります。メディアの関心が自然に高まり、コレクターの注目がイラスト界を超えて広がります。もうすぐです。',
   'pp.ig.tactics.label':     'この種の実践に効果的なアプローチ',
   'pp.ig.tactics.0':         '日記投稿は散発的な大きな投稿より速く愛着を積み上げる — 蓄積効果',
   'pp.ig.tactics.1':         '都市建築、静かな空間、猫は日本のオーディエンスに高いパフォーマンスを発揮',
   'pp.ig.tactics.2':         '日中バイリンガルキャプションはどちらかのコミュニティを分断せずに両方にリーチできる',
   'pp.ig.tactics.3':         '東京の都市観察のストーリーズリポストは、フィード投稿単独より速くローカルオーディエンスを積み上げる',
+  'pp.ig.wondering.label':   'ペッパーコーンが気になること',
+  'pp.ig.wondering.0':       '今どのくらいの頻度でInstagramに投稿していますか？',
+  'pp.ig.wondering.1':       '伸ばしたいですか、それともポートフォリオのアーカイブとして使いたいですか？アプローチはまったく違います。',
+  'pp.ig.wondering.2':       'Instagram Insightsのスクリーンショットを共有できれば、ペッパーコーンがオーディエンスの実際の所在地を確認できます。',
 
   // ── Peppercorn Twitter content ────────────────────────────────────────────
   'pp.tw.count':             '~90kフォロワー',
@@ -1395,7 +1401,7 @@ const ja = {
   'pp.carousel.tw.name':            'Twitter / X',
   'pp.carousel.tw.desc':            '象徴的マイルストーン — キュレーターとの会話での信頼性指標',
   'pp.carousel.ig.name':            'Instagram',
-  'pp.carousel.ig.desc':            '25kでアルゴリズム可視性向上 — プリントバイヤーの発見率が上昇し始める',
+  'pp.carousel.ig.desc':            '100kが近い — キュレーターやギャラリーとの会話で信頼性の指標になる象徴的な節目',
   'pp.carousel.pub.name':           '出版物',
   'pp.carousel.pub.desc':           '3冊目でパターン確立 — 全体像はサフランで',
   'pp.carousel.stmt.name':          'アーティストステートメント',
@@ -1417,7 +1423,7 @@ const ja = {
 
   // ── Questions (Peppercorn) ────────────────────────────────────────────────
   'pp.q.0.text':   'Instagramにどのくらいの頻度で投稿していますか？目標はありますか？',
-  'pp.q.0.why':    '投稿頻度はInstagramとTwitterのギャップを縮める最もコントロールしやすい変数です。',
+  'pp.q.0.why':    '投稿頻度はInstagramのオーディエンスを築く上で最もコントロールしやすい変数です。',
   'pp.q.0.opt.0':  '毎日 — 日記実践の一部です',
   'pp.q.0.opt.1':  '週に数回、特に目標はなし',
   'pp.q.0.opt.2':  'ほとんどしない、月1〜2回程度',
@@ -1977,6 +1983,7 @@ const en = {
   'sf.label.pitchTargets':   'Pitch targets',
   'sf.label.fairsPipeline':  'Fairs in the pipeline that attract buyers',
   'sf.label.herPubs':        'Her publications',
+  'sf.label.pubIntent':      'Planned next publication (from Peppercorn)',
   'sf.label.pubTiers':       'Publication tiers',
   'sf.label.topTargets':     'Top targets in pipeline ({n})',
   'sf.label.prepLeadTimes':  'Preparation lead times',
@@ -2066,7 +2073,7 @@ const en = {
   'pp.saveError':            'Save failed — please try again',
 
   'pp.sec.instagram':        'Social Presence',
-  'pp.sub.instagram':        'Instagram and Twitter — what each threshold means, and what\'s worth noticing.',
+  'pp.sub.instagram':        'Instagram — what each threshold means, and what\'s worth noticing.',
   'pp.sec.exhibition':       'Exhibition Pathway',
   'pp.sub.exhibition':       'Where one confirmed show sits on the road to a Tokyo solo.',
   'pp.sec.statement':        'Artist Statement',
@@ -2215,16 +2222,18 @@ const en = {
   'sf.label.posts':          'posts',
 
   // ── Peppercorn Instagram content ──────────────────────────────────────────
-  'pp.ig.count':             '21k followers',
-  'pp.ig.analysis.21k':      '21k means you are visible to the Tokyo illustration community and to print buyers doing light research. Gallery directors may glance. Major curators are not yet watching.',
-  'pp.ig.thresh.25k':        'Algorithm begins treating the account as established. Print buyer and zine collector discovery increases — people who find work through browsing start encountering it. The first threshold worth actively pursuing.',
-  'pp.ig.thresh.50k':        'Gallery directors begin treating social following as a signal of market viability. Consignment conversations become easier to open — checking an artist\'s Instagram before agreeing to a show is standard practice at this level.',
-  'pp.ig.thresh.100k':       'Press interest increases organically. Collector attention expands beyond the illustration community. Speaking invitations at art events become plausible. A medium-term goal, not a near-term one.',
+  'pp.ig.count':             '~90k followers',
+  'pp.ig.analysis':          'Approaching 100k — a symbolic milestone. The illustration community following built through daily diary practice since 2020 is genuine and hard-won. Gallery directors and curators increasingly read a following this size as a signal of market viability.',
+  'pp.ig.thresh.100k':       'Symbolic milestone. Credibility marker in curator and gallerist conversations. Press interest increases organically and collector attention expands beyond the illustration community. Almost there.',
   'pp.ig.tactics.label':     'What tends to work for this kind of practice',
   'pp.ig.tactics.0':         'Daily diary posts build attachment faster than occasional large posts — the accumulation effect',
   'pp.ig.tactics.1':         'Urban architecture, quiet spaces, and cats are high-performing for Japanese audiences',
   'pp.ig.tactics.2':         'Consistent Japanese/Chinese bilingual captions reach both communities without fragmenting either',
   'pp.ig.tactics.3':         'Story reposts of Tokyo urban observations build local audience faster than feed posts alone',
+  'pp.ig.wondering.label':   'Peppercorn is wondering',
+  'pp.ig.wondering.0':       'How often do you post to Instagram at the moment?',
+  'pp.ig.wondering.1':       'Do you want to grow it, or use it mainly as a portfolio archive? The approach is completely different.',
+  'pp.ig.wondering.2':       'If you can share your Instagram Insights screenshot, Peppercorn can see where your audience actually is.',
 
   // ── Peppercorn Twitter content ────────────────────────────────────────────
   'pp.tw.count':             '~90k followers',
@@ -2250,7 +2259,7 @@ const en = {
   'pp.carousel.tw.name':            'Twitter / X',
   'pp.carousel.tw.desc':            'Symbolic milestone — credibility marker in curator conversations',
   'pp.carousel.ig.name':            'Instagram',
-  'pp.carousel.ig.desc':            'Algorithm visibility increases at 25k — print buyer discovery begins',
+  'pp.carousel.ig.desc':            'Approaching 100k — a symbolic milestone that lends credibility in curator and gallery conversations',
   'pp.carousel.pub.name':           'Publications',
   'pp.carousel.pub.desc':           'A third publication establishes a pattern — see Saffron for the full landscape',
   'pp.carousel.stmt.name':          'Artist Statement',
@@ -2272,7 +2281,7 @@ const en = {
 
   // ── Questions (Peppercorn) ────────────────────────────────────────────────
   'pp.q.0.text':   'How often do you post to Instagram? Any goals for this?',
-  'pp.q.0.why':    'Posting cadence is the most controllable variable for closing the Instagram/Twitter gap.',
+  'pp.q.0.why':    'Posting cadence is the most controllable variable for building the Instagram audience.',
   'pp.q.0.opt.0':  "Daily — it's part of my diary practice",
   'pp.q.0.opt.1':  'A few times a week, no specific goal',
   'pp.q.0.opt.2':  'Rarely, maybe once or twice a month',

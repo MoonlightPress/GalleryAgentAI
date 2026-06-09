@@ -753,13 +753,12 @@ export const CAREER_TIMELINE = {
   artist_stage: {
     age:           26,
     years_active:  "~6 (daily practice from 2020, first publication 2021)",
-    group_shows:   1,
+    group_shows:   2,
     publications:  2,
-    instagram:     "21k",
-    twitter:       "~90k",
+    instagram:     "~90k",
     base:          "Tokyo / Beijing",
   },
-  overall_assessment: "At this stage GEGYjiji is ahead on audience scale and digital practice but behind on traditional exhibition credits compared to most watercolor peers at age 26. The 90k Twitter following is exceptional — most peers didn't reach that until their mid-30s.",
+  overall_assessment: "At this stage GEGYjiji is ahead on audience scale and digital practice but behind on traditional exhibition credits compared to most watercolor peers at age 26. The ~90k Instagram following is exceptional — most peers didn't reach that until their mid-30s.",
   peers: [
     {
       name: "Chien Chung-Wei (簡忠威)",
@@ -815,7 +814,7 @@ export const CAREER_TIMELINE = {
         ],
         lacked: ["Social media presence (pre-Instagram era)"],
       },
-      comparison: "The most directly comparable Tokyo path. She had more early group shows but no digital presence. GEGYjiji's Instagram/Twitter base is a structural advantage Nagayama built from scratch.",
+      comparison: "The most directly comparable Tokyo path. She had more early group shows but no digital presence. GEGYjiji's ~90k Instagram base is a structural advantage Nagayama built from scratch.",
     },
   ],
 };
@@ -830,7 +829,7 @@ export const PRICING_INTELLIGENCE = {
       low: 37000, high: 135000, currency: "JPY",
       label: "Original watercolors",
       note: "F4–F8 scale (24–38cm). Small-format daily diary pieces at the lower end; larger architectural studies at the upper. Current range reflects emerging artist pricing with strong Instagram credibility.",
-      sweet_spot: "¥50,000–80,000 for a 30–40cm piece is defensible and matches peer pricing at 21k Instagram followers.",
+      sweet_spot: "¥50,000–80,000 for a 30–40cm piece is defensible and matches peer pricing at ~90k Instagram followers.",
     },
     prints: {
       low: 3000, high: 12000, currency: "JPY",
@@ -846,7 +845,7 @@ export const PRICING_INTELLIGENCE = {
   what_affects_price: [
     { factor: "Venue context", impact: "high",   note: "Same piece sells for 2–3× more at a gallery opening than at a zine fair. Venue lends credibility." },
     { factor: "Edition discipline", impact: "high",   note: "Unlimited prints signal uncertainty. Fixed editions (30 or 50) signal intentionality and protect resale value." },
-    { factor: "Instagram followers", impact: "medium", note: "21k is meaningful. At 50k+ the premium is significant. Collectors pay for social proof even when they won't admit it." },
+    { factor: "Instagram followers", impact: "medium", note: "~90k is a strong asset — well into the range where the premium is real. Collectors pay for social proof even when they won't admit it." },
     { factor: "Exhibition CV",       impact: "medium", note: "Each confirmed group show adds ~10–15% defensible price increase for originals." },
     { factor: "Certificate of authenticity", impact: "medium", note: "Simple, hand-signed CoA doubles perceived permanence. Collectors keep them. Takes 2 minutes." },
     { factor: "Work size",           impact: "low",    note: "Buyers at this stage prefer smaller formats (easier to hang, lower price). Don't underprice small work." },

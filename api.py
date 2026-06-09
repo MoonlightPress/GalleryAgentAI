@@ -997,10 +997,28 @@ def get_saffron():
         for e in _logged_shows
         if e.get("outcome") in ("shown", "completed", None, "")
     ]
-    # Count group shows from logged entries (for career benchmarks)
-    _logged_group_count = sum(1 for e in _logged_shows if e.get("type") == "group")
-    # Total group show count: 1 hardcoded (Tide from China) + logged
-    _total_group_shows = 1 + _logged_group_count
+    # Total group show count: 1 hardcoded base (Tide from China Part1)
+    #   + group exhibitions recorded in the artist profile (e.g. Kinoko Kingdom)
+    #   + group shows logged via Peppercorn.
+    # Mirrors career_strategy_engine._count_group_shows so the live API and the
+    # career report never disagree. Dedup the log against profile titles so a
+    # profile show that is also logged isn't counted twice.
+    _amp_path = DATA_DIR / "artist_master_profile.json"
+    _amp = json.loads(_amp_path.read_text(encoding="utf-8")) if _amp_path.exists() else {}
+    _profile_exhibitions = _amp.get("career_history", {}).get("exhibitions", [])
+    _profile_titles = {(ex.get("title") or "").strip().lower() for ex in _profile_exhibitions}
+    _profile_group_count = sum(
+        1 for ex in _profile_exhibitions
+        if "group" in (ex.get("type") or "").lower()
+        and (ex.get("title") or "").strip() != "Tide from China Part1"
+    )
+    _logged_group_count = sum(
+        1 for e in _logged_shows
+        if e.get("type") == "group"
+        and (e.get("name") or "").strip() != "Tide from China Part1"
+        and (e.get("name") or "").strip().lower() not in _profile_titles
+    )
+    _total_group_shows = 1 + _profile_group_count + _logged_group_count
 
     # ── Career position (confirmed research, 2026-06-02) ──────────────────────
     career_position = {
@@ -1027,7 +1045,6 @@ def get_saffron():
         ],
         "social": [
             {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "~90k", "posts": None},
-            {"platform": "Twitter / X", "handle": "@GegYjiji",  "followers": None,   "posts": None},
         ],
         "education": {
             "institution": "Beijing Fashion Institute",
@@ -1205,17 +1222,9 @@ def get_saffron():
                 "posts": None,
                 "note": "Primary visual portfolio platform — ~90k followers built through daily watercolor diary practice since 2020. The platform galleries, publishers, and curators use for discovery.",
             },
-            {
-                "name": "Twitter / X",
-                "handle": "@GegYjiji",
-                "followers": None,
-                "posts": None,
-                "note": "Account exists. Follower count unconfirmed. Do NOT reference in any outreach emails — Instagram only.",
-            },
         ],
         "gap": {
             "instagram": 90000,
-            "twitter": None,
             "analysis": "Instagram is well-developed (~90k followers). The open question is posting cadence and curation strategy — whether she is actively building the account or treating it as a portfolio archive changes the advice entirely.",
         },
         "known": {
@@ -1241,10 +1250,10 @@ def get_saffron():
     # ── Audience geography ────────────────────────────────────────────────────
     audience_geography = {
         "available": False,
-        "reason": "Instagram Insights and Twitter Analytics are not accessible without the artist's credentials. Geographic audience data cannot be observed from public sources.",
+        "reason": "Instagram Insights are not accessible without the artist's credentials. Geographic audience data cannot be observed from public sources.",
         "why_it_matters": "Whether her ~90k Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.",
         "hypothesis": "Based on the ACG/illustration community context, the Instagram following may skew toward Chinese-language users. Whether the Tokyo-based practice has shifted that toward a Japan-leaning or globally distributed audience is unconfirmed.",
-        "what_peppercorn_should_ask": "Can you share a screenshot of your Instagram Audience Insights (country/city breakdown) and Twitter Analytics follower demographics?",
+        "what_peppercorn_should_ask": "Can you share a screenshot of your Instagram Audience Insights (country/city breakdown)?",
     }
 
     # ── Career benchmarks ─────────────────────────────────────────────────────
@@ -1253,7 +1262,6 @@ def get_saffron():
             "exhibitions": _total_group_shows,
             "publications": 2,
             "instagram": "~90k",
-            "twitter": None,
             "age_approx": 26,
             "years_active": "~6 (daily practice from 2020, first publication 2021)",
         },
@@ -1284,15 +1292,6 @@ def get_saffron():
                 "peer_high": "100k+",
                 "assessment": "strong",
                 "note": "Top percentile for illustrators at this career stage — an unusually strong asset for gallery and publisher discovery",
-            },
-            {
-                "dimension": "Twitter / X followers",
-                "artist_value": "unconfirmed",
-                "peer_low": "2k",
-                "peer_typical": "10–30k",
-                "peer_high": "50k+",
-                "assessment": "unknown",
-                "note": "Account exists but follower count unconfirmed. Not used for outreach.",
             },
         ],
         "summary": "Exhibition history is the weakest dimension. Instagram presence (~90k followers) is an unusually strong asset at this career stage. The gap between audience size and exhibition count is larger than typical — the audience exists, the CV is still thin.",
@@ -2075,9 +2074,11 @@ def get_saffron():
         ]
         instagram_strategy["known"]["posting_frequency"] = _posting
 
-    _goals_answer = _answers.get("new_publication_planned")
-    if _goals_answer:
-        instagram_strategy["known"]["posting_goals"] = _goals_answer
+    # A planned new publication is publication intent, not an Instagram posting goal —
+    # surface it in the publication landscape where it belongs.
+    _pub_answer = _answers.get("new_publication_planned")
+    if _pub_answer:
+        publication_landscape["artist_intent"] = _pub_answer
 
     # ── Patch audience geography with Peppercorn answers ─────────────────────
     _geo_answer = _answers.get("audience_geography")

@@ -108,18 +108,10 @@ function InstagramStrategySection({ isOpen, onToggle, sectionRef }) {
             <span className="pp-platform-handle">@gegyjiji</span>
             <span className="pp-platform-count">{t('pp.ig.count')}</span>
           </div>
-          <p className="pp-analysis-note">{t('pp.ig.analysis.21k')}</p>
+          <p className="pp-analysis-note">{t('pp.ig.analysis')}</p>
           <div className="pp-threshold-list">
             <div className="pp-threshold-row">
-              <div className="pp-threshold-marker pp-threshold-marker--next">25k</div>
-              <p className="pp-threshold-desc">{t('pp.ig.thresh.25k')}</p>
-            </div>
-            <div className="pp-threshold-row">
-              <div className="pp-threshold-marker">50k</div>
-              <p className="pp-threshold-desc">{t('pp.ig.thresh.50k')}</p>
-            </div>
-            <div className="pp-threshold-row">
-              <div className="pp-threshold-marker">100k</div>
+              <div className="pp-threshold-marker pp-threshold-marker--next">100k</div>
               <p className="pp-threshold-desc">{t('pp.ig.thresh.100k')}</p>
             </div>
           </div>
@@ -134,28 +126,13 @@ function InstagramStrategySection({ isOpen, onToggle, sectionRef }) {
           </div>
         </div>
 
-        <div className="pp-platform-block">
-          <div className="pp-platform-header">
-            <span className="pp-platform-name">Twitter / X</span>
-            <span className="pp-platform-handle">@GegYjiji</span>
-            <span className="pp-platform-count">{t('pp.tw.count')}</span>
-          </div>
-          <p className="pp-analysis-note">{t('pp.tw.analysis')}</p>
-          <div className="pp-threshold-list">
-            <div className="pp-threshold-row">
-              <div className="pp-threshold-marker pp-threshold-marker--next">100k</div>
-              <p className="pp-threshold-desc">{t('pp.tw.thresh.100k')}</p>
-            </div>
-          </div>
-          <div className="pp-insight-box">{t('pp.tw.insight')}</div>
-          <div className="pp-gentle-questions">
-            <div className="pp-block-label">{t('pp.tw.wondering.label')}</div>
-            <ul className="pp-wondering-list">
-              <li>{t('pp.tw.wondering.0')}</li>
-              <li>{t('pp.tw.wondering.1')}</li>
-              <li>{t('pp.tw.wondering.2')}</li>
-            </ul>
-          </div>
+        <div className="pp-gentle-questions">
+          <div className="pp-block-label">{t('pp.ig.wondering.label')}</div>
+          <ul className="pp-wondering-list">
+            <li>{t('pp.ig.wondering.0')}</li>
+            <li>{t('pp.ig.wondering.1')}</li>
+            <li>{t('pp.ig.wondering.2')}</li>
+          </ul>
         </div>
 
       </div>
@@ -1648,21 +1625,12 @@ function buildCarouselCards(profile, t) {
 
   const cards = [
     {
-      id: 'tw',
-      sectionId: 'instagram-strategy',
-      name: t('pp.carousel.tw.name'),
-      current: '~90k',
-      next: '100k',
-      ratio: 90 / 100,
-      desc: t('pp.carousel.tw.desc'),
-    },
-    {
       id: 'ig',
       sectionId: 'instagram-strategy',
       name: t('pp.carousel.ig.name'),
-      current: '21k',
-      next: '25k',
-      ratio: 21 / 25,
+      current: '~90k',
+      next: '100k',
+      ratio: 90 / 100,
       desc: t('pp.carousel.ig.desc'),
     },
     {
@@ -1712,10 +1680,9 @@ function buildCarouselCards(profile, t) {
     },
   ]
 
-  const tw   = cards.find(c => c.id === 'tw')
   const qs   = cards.find(c => c.id === 'qs')
-  const rest = cards.filter(c => c.id !== 'tw' && c.id !== 'qs').sort((a, b) => b.ratio - a.ratio)
-  return [tw, qs, ...rest].filter(Boolean)
+  const rest = cards.filter(c => c.id !== 'qs').sort((a, b) => b.ratio - a.ratio)
+  return [qs, ...rest].filter(Boolean)
 }
 
 function computeSectionOrder(profile) {

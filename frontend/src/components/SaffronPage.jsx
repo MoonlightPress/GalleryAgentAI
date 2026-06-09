@@ -242,13 +242,8 @@ function parseFollowers(str) {
 }
 
 function InstagramStrategy({ data, t }) {
-  const tw = data.platforms.find(p => p.name.startsWith('Twitter'))
   const ig = data.platforms.find(p => p.name === 'Instagram')
-  const twN = parseFollowers(tw?.followers)
-  const igN = parseFollowers(ig?.followers)
-  const ratio = twN && igN ? Math.round(twN / igN) : null
   const postingFreq = data.known?.posting_frequency
-  const postingGoals = data.known?.posting_goals
 
   return (
     <SectionShell
@@ -258,7 +253,7 @@ function InstagramStrategy({ data, t }) {
     >
       <div className="sf-two-col">
         <div>
-          <div className="sf-block-label">{t('pp.ig.platComp')}</div>
+          <div className="sf-block-label">{t('pp.ig.platform')}</div>
           {data.platforms.map((p, i) => (
             <div key={i} className="sf-platform-row">
               <div className="sf-platform-name">{p.name}</div>
@@ -267,11 +262,6 @@ function InstagramStrategy({ data, t }) {
               <div className="sf-platform-note">{p.note}</div>
             </div>
           ))}
-          {ratio && (
-            <div className="sf-insight-callout">
-              {t('pp.ig.ratio', { n: ratio })}
-            </div>
-          )}
         </div>
         <div>
           <div className="sf-block-label">{t('pp.ig.known')}</div>
@@ -284,13 +274,6 @@ function InstagramStrategy({ data, t }) {
               <div className="sf-answer-bubble">{postingFreq}</div>
             </div>
           )}
-          {postingGoals && (
-            <div className="sf-peppercorn-answer" style={{ marginTop: 12 }}>
-              <div className="sf-block-label">{t('sf.label.postingGoals')}</div>
-              <div className="sf-answer-bubble">{postingGoals}</div>
-            </div>
-          )}
-
           {data.missing?.length > 0 && (
             <>
               <div className="sf-block-label" style={{ marginTop: 24 }}>{t('pp.ig.missing')}</div>
@@ -584,6 +567,13 @@ function PublicationLandscape({ data, t }) {
               <div className="sf-press-note">{p.note}</div>
             </div>
           ))}
+
+          {data.artist_intent && (
+            <div className="sf-peppercorn-answer" style={{ marginTop: 16 }}>
+              <div className="sf-block-label">{t('sf.label.pubIntent')}</div>
+              <div className="sf-answer-bubble">{data.artist_intent}</div>
+            </div>
+          )}
 
           <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.label.pubTiers')}</div>
           {data.tiers.map((tier, i) => (

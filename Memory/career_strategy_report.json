@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-06-09T09:58:29.397871+00:00",
+  "_generated_at": "2026-06-09T11:16:48.805922+00:00",
   "_engine_version": "2.0",
   "current_phase": "Tier 1-2 foundation building",
   "phase_note": "Age 26, planning a deep-work year around 30. The next 3–4 years are for accumulation: exhibition history, publishing relationships, peer network, and body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now, not acted on until the foundation is solid.",
@@ -17,6 +17,16 @@
     "tier_3_readiness_note": "Low — more group shows are the most direct path to improving this score."
   },
   "immediate_priorities": [
+    {
+      "title": "HATTIFNATT Koenji Cafe Gallery",
+      "tier": 1,
+      "score": 9.4,
+      "category": "cafe_gallery",
+      "city": "Tokyo — Koenji",
+      "deadline": "No fixed deadline — proposal-based",
+      "summary": "Koenji storybook-aesthetic cafe known for artists and warm interiors — highest aesthetic alignment with GEGYjiji of any cafe in the dataset.",
+      "website": "https://www.hattifnatt.jp/"
+    },
     {
       "title": "UTRECHT",
       "tier": 1,
@@ -56,23 +66,13 @@
       "deadline": "ongoing — check rental availability",
       "summary": "Ueno bookshop-cafe with a confirmed rental gallery wall — accessible East Tokyo arts venue in the cultural district near Ueno Park.",
       "website": "https://route-books.com/"
-    },
-    {
-      "title": "HATTIFNATT Koenji Cafe Gallery",
-      "tier": 1,
-      "score": 9.2,
-      "category": "cafe_gallery",
-      "city": "Tokyo — Koenji",
-      "deadline": "No fixed deadline — proposal-based",
-      "summary": "Koenji storybook-aesthetic cafe known for artists and warm interiors — highest aesthetic alignment with GEGYjiji of any cafe in the dataset.",
-      "website": "https://www.hattifnatt.jp/"
     }
   ],
   "build_toward": [
     {
       "title": "Center for Book Arts Opportunities",
       "tier": 3,
-      "score": 9.6,
+      "score": 9.4,
       "category": "global_book_arts",
       "city": "New York",
       "deadline": "September 15, 2024",
@@ -82,7 +82,7 @@
     {
       "title": "Aesthetica Art Prize",
       "tier": 3,
-      "score": 9.6,
+      "score": 9.4,
       "category": "global_open_call",
       "city": "York / Online",
       "deadline": "2026-10-11",
@@ -90,17 +90,27 @@
       "website": "https://aestheticamagazine.com/art-prize/"
     },
     {
-      "title": "Still Life - 2026",
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
       "tier": 3,
-      "score": 9.6,
-      "category": "global_open_call",
+      "score": 9.4,
+      "category": "group_publication_open_call",
       "city": "International",
-      "deadline": "2026-05-05",
-      "summary": "4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.",
-      "website": "https://artist.callforentry.org/festivals.php"
+      "deadline": "June 10, 2026",
+      "summary": "International coffee-table print magazine for women artists — all mediums including watercolor, deadline June 10, $25 fee.",
+      "website": "https://www.womenunitedartmovement.com/"
     }
   ],
   "watch_list": [
+    {
+      "title": "Asian Cultural Council (ACC) 2026 Grant Program",
+      "tier": 4,
+      "score": 9.4,
+      "category": "grant",
+      "city": "New York",
+      "deadline": "2025-11-19 (application deadline, EST 9:59 AM); recommendation letters due 2025-11-26",
+      "summary": "ACC provides fellowships and cultural exchange opportunities for Asian artists to explore new cultures and develop their artistic practice internationally, supporting visual artists like watercolor ar",
+      "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
+    },
     {
       "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
       "tier": 4,
@@ -110,36 +120,6 @@
       "deadline": "July 8, 2026 — 11:59 PM Pacific",
       "summary": "Prestigious annual international watercolor exhibition open to all artists worldwide, $15,000+ in awards, juror Dongfeng Li (Chinese-American watercolor watercolor artist). Deadline July 8 2026.",
       "website": "https://www.nwws.org/"
-    },
-    {
-      "title": "Royal Watercolour Society Open Exhibition",
-      "tier": 4,
-      "score": 8.8,
-      "category": "global_watercolor_open_call",
-      "city": "London",
-      "deadline": "2025-12-01",
-      "summary": "The world's oldest and most prestigious watercolor society, holding annual open exhibitions open to non-member artists internationally.",
-      "website": "https://royalwatercoloursociety.co.uk/"
-    },
-    {
-      "title": "American Watercolor Society Annual International Exhibition",
-      "tier": 4,
-      "score": 8.8,
-      "category": "global_watercolor_open_call",
-      "city": "New York",
-      "deadline": "November 12, 2025",
-      "summary": "The most prominent annual international watercolor exhibition in North America, open to artists worldwide.",
-      "website": "https://www.americanwatercolorsociety.org/"
-    },
-    {
-      "title": "Offprint",
-      "tier": 4,
-      "score": 8.8,
-      "category": "global_art_book_fair",
-      "city": "Paris / London",
-      "deadline": "2026-05-08",
-      "summary": "International art publishing fair focused on independent, experimental, and artist-led publishing.",
-      "website": "https://offprint.org/"
     },
     {
       "title": "Cité Internationale des Arts Artist Residency",
@@ -160,6 +140,26 @@
       "deadline": "2024-12-29 or 2025-09-30 or 2025-06-30 or 2026-04-30 (multiple programs with different deadlines)",
       "summary": "International artist residency program inviting visual artists, filmmakers, designers and architects for 2026.",
       "website": "https://artres.moc.gov.tw/zh/calls/content/ff80818196c95f3b0196e675e523000f"
+    },
+    {
+      "title": "INSTINC 2026/2027 Artist-in-Residence Program",
+      "tier": 4,
+      "score": 5.8,
+      "category": "global_residency",
+      "city": "Singapore",
+      "deadline": "Deadline extended for 2026 and 2027",
+      "summary": "Independent artist residency program emphasizing experimentation and artistic vision, open to international artists.",
+      "website": "https://sagg.info/event/opencall-2026-and-2027"
+    },
+    {
+      "title": "Royal Watercolour Society Open Exhibition",
+      "tier": 4,
+      "score": 5.0,
+      "category": "global_watercolor_open_call",
+      "city": "London",
+      "deadline": "2025-12-01",
+      "summary": "The world's oldest and most prestigious watercolor society, holding annual open exhibitions open to non-member artists internationally.",
+      "website": "https://royalwatercoloursociety.co.uk/"
     }
   ],
   "blocking_gaps": [
