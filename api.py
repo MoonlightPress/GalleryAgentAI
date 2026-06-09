@@ -39,6 +39,37 @@ def _load_suppressed() -> set:
         return set(json.loads(SUPPRESSED_PATH.read_text(encoding="utf-8")))
     return set()
 
+
+def _load_submission_states():
+    """Return (pending_names, rejected_names, recent_accepted) from submission_log.json."""
+    if not SUBMISSIONS_PATH.exists():
+        return set(), set(), []
+    try:
+        subs = json.loads(SUBMISSIONS_PATH.read_text(encoding="utf-8"))
+        if not isinstance(subs, list):
+            subs = subs.get("submissions", [])
+    except Exception:
+        return set(), set(), []
+
+    pending, rejected, accepted = set(), set(), []
+    from datetime import date as _dt, timedelta as _td
+    cutoff = (_dt.today() - _td(days=90)).isoformat()
+
+    for s in subs:
+        venue = (s.get("venue") or "").strip().lower()
+        outcome = (s.get("outcome") or "pending").lower()
+        date = s.get("date", "") or ""
+        if not venue:
+            continue
+        if outcome in ("pending", "applied", "submitted"):
+            pending.add(venue)
+        elif outcome == "rejected":
+            rejected.add(venue)
+        elif outcome == "accepted" and date >= cutoff:
+            accepted.append({"venue": s.get("venue"), "what": s.get("what"), "date": date})
+
+    return pending, rejected, accepted
+
 # Category → section mapping (covers all categories present in compact_opportunities)
 SECTION_CATEGORIES = {
     "open_calls": {
@@ -430,6 +461,20 @@ def bucket(items: list) -> dict:
     # Sort by overall score descending as base order
     scored = sorted(items, key=_overall_score, reverse=True)
 
+    # ── Submission log suppression ────────────────────────────────────────────
+    _pending_names, _rejected_names, _accepted = _load_submission_states()
+
+    def _match_submission(opp, name_set):
+        """True if this opp's venue/org name fuzzy-matches a submission in name_set."""
+        if not name_set:
+            return False
+        opp_names = {
+            (opp.get("name") or "").strip().lower(),
+            (opp.get("organization") or "").strip().lower(),
+            (opp.get("title") or "")[:40].strip().lower(),
+        } - {""}
+        return bool(opp_names & name_set)
+
     used: set[str] = set()
     buckets: dict[str, list] = {}
 
@@ -438,9 +483,14 @@ def bucket(items: list) -> dict:
         x for x in scored
         if x.get("exclusive_primary_bucket") == "immediate_best_moves"
         and _ibm_eligible(x)
+        and not _match_submission(x, _pending_names)   # suppress if already applied (pending)
+        and not _match_submission(x, _rejected_names)  # suppress if rejected
     ]
     used.update(_opp_id(x) for x in ibm_candidates)
     buckets["immediate_best_moves"] = by_display_score([shape_card(x) for x in ibm_candidates])
+
+    # Expose accepted celebrations for status bar
+    buckets["__accepted_celebrations__"] = _accepted
 
     # ── Category sections ────────────────────────────────────────────────────
     for key, cats in SECTION_CATEGORIES.items():
@@ -465,10 +515,12 @@ def bucket(items: list) -> dict:
 def get_opportunities():
     items   = load_opportunities()
     buckets = bucket(items)
+    accepted = buckets.pop("__accepted_celebrations__", [])
     return {
-        "meta":     SECTION_META,
-        "sections": buckets,
-        "total":    sum(len(v) for v in buckets.values()),
+        "meta":                  SECTION_META,
+        "sections":              buckets,
+        "total":                 sum(len(v) for v in buckets.values()),
+        "accepted_celebrations": accepted,
     }
 
 

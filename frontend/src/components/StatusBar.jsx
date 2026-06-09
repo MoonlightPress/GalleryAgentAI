@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import './StatusBar.css'
 import { useLanguage } from '../i18n/LanguageContext'
 
@@ -27,12 +28,31 @@ function formatCalMonth(now, lang) {
   return now.toLocaleDateString('en-US', { year: 'numeric', month: 'long' })
 }
 
+function useAcceptedCelebration() {
+  const [celebration, setCelebration] = useState(null)
+  useEffect(() => {
+    fetch('/api/submissions')
+      .then(r => r.ok ? r.json() : [])
+      .then(subs => {
+        if (!Array.isArray(subs)) return
+        const cutoff = new Date(); cutoff.setDate(cutoff.getDate() - 30)
+        const recent = subs
+          .filter(s => s.outcome === 'accepted' && new Date(s.date) >= cutoff)
+          .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+        if (recent.length > 0) setCelebration(recent[0])
+      })
+      .catch(() => {})
+  }, [])
+  return celebration
+}
+
 export default function StatusBar() {
   const { t, lang } = useLanguage()
-  const now      = new Date()
-  const cal      = buildCalendarGrid(now)
-  const calMonth = formatCalMonth(now, lang)
-  const days     = t('status.days')
+  const now         = new Date()
+  const cal         = buildCalendarGrid(now)
+  const calMonth    = formatCalMonth(now, lang)
+  const days        = t('status.days')
+  const celebration = useAcceptedCelebration()
 
   return (
     <div className="status-bar">
@@ -56,11 +76,23 @@ export default function StatusBar() {
         </div>
       </div>
 
-      {/* Center: status message */}
+      {/* Center: status message — celebration overrides default */}
       <div className="status-center">
-        <div className="status-message">{t('status.message')}</div>
-        <div className="status-sub">{t('status.sub')}</div>
-        <div className="status-sprig">🌿</div>
+        {celebration ? (
+          <>
+            <div className="status-message status-message--celebrate">
+              {t('status.celebrate', { venue: celebration.venue || celebration.what || '' })}
+            </div>
+            <div className="status-sub status-sub--celebrate">{t('status.celebrate.sub')}</div>
+            <div className="status-sprig">✨</div>
+          </>
+        ) : (
+          <>
+            <div className="status-message">{t('status.message')}</div>
+            <div className="status-sub">{t('status.sub')}</div>
+            <div className="status-sprig">🌿</div>
+          </>
+        )}
       </div>
 
       {/* Right: mini calendar + sticky note */}
