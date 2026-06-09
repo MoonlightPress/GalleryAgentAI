@@ -3,3 +3,5 @@ deploy_package/
 .env.*
 *.env
 .claude/worktrees/
+**/__pycache__/
+*.pyc
