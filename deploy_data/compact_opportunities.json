@@ -862,7 +862,12 @@
     "one_sentence_ja": "女性アーティスト向けの国際的なコーヒーテーブル誌。水彩を含む全媒体対応、締切6月10日、応募料25ドル。",
     "why_it_fits_ja": "女性限定の国際出版物で水彩作品も受付、締切6月10日。25ドルで印刷誌への掲載クレジットが得られる。GEGYjijiは応募資格あり。",
     "source_type_weight": 1.05,
-    "source_weight_reason": "type:manual_research"
+    "source_weight_reason": "type:manual_research",
+    "three_bullets": [
+      "publication_pitch",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: June 10, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Still Life - 2026",
@@ -1053,7 +1058,12 @@
     "one_sentence_ja": "第4回公募展。水彩・イラストレーション作品の出版および販売の機会あり。",
     "why_it_fits_ja": "第4回公募展。水彩・イラストレーション作品の出版および販売の機会あり。",
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:entry"
+    "source_weight_reason": "reward:url:entry",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-05-05 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "American Illustration",
@@ -1209,7 +1219,12 @@
     "why_it_fits_ja": "水彩・紙上作品に適した可能性のある媒体。推薦前に詳細の確認が必要。",
     "fee": "$20 for initial entry, $10 for each additional entry",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:illustration_annual"
+    "source_weight_reason": "type:illustration_annual",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Global — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: March 18, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "World Illustration Awards",
@@ -1364,7 +1379,12 @@
     "why_it_fits_ja": "水彩・紙上作品に適した可能性のある媒体。推薦前に詳細の確認が必要。",
     "fee": "£34 (GBP) per single entry / £53 (GBP) per multiple entry; €41 (EURO) per single entry / €64 (EURO) per multiple entry; $43 (USD) per single entry / $67 (USD) per multiple entry",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:illustration_award"
+    "source_weight_reason": "type:illustration_award",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Global — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: March 31, 2026, 23:59 UTC — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Jackson's Art Prize",
@@ -1536,7 +1556,12 @@
     "one_sentence_ja": "水彩・紙上作品を対象とした、グローバルな賞。",
     "why_it_fits_ja": "水彩・紙上作品に親和性の高い賞。応募条件が合えば、信頼性向上に有効。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:painting_prize"
+    "source_weight_reason": "type:painting_prize",
+    "three_bullets": [
+      "soft_intro",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-02-11 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "The Artcomplex Center of Tokyo",
@@ -1691,7 +1716,12 @@
     "one_sentence_ja": "東京における水彩・紙上作品のための複合ギャラリー施設。",
     "why_it_fits_ja": "水彩・紙上作品に適した国内展示会場の候補。推薦前に詳細の確認が必要。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery_complex"
+    "source_weight_reason": "type:gallery_complex",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: March 17, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Society of Women Artists",
@@ -1847,7 +1877,12 @@
     "one_sentence_ja": "英国における水彩・紙上作品を対象としたオープン展覧会の機会。",
     "why_it_fits_ja": "水彩・素描・紙上作品を対象としたオープン展覧会。直接確認の有力候補。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:open_exhibition"
+    "source_weight_reason": "type:open_exhibition",
+    "three_bullets": [
+      "soft_intro",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-03-07 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "本店・本屋の実験室",
@@ -2248,7 +2283,12 @@
     "why_it_fits_ja": "水彩専門のオープンコール。応募期間は2月26日まで、展覧会は2026年12月を予定。",
     "name_en": "Watercolor Exhibition Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in International — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2月26日 (February 26) — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "水彩アートの祭典 (Watercolor Art Festival)",
@@ -2381,7 +2421,12 @@
     "why_it_fits_ja": "東京芸術劇場でのオープンコール。ポートフォリオ不要で、水彩制作にマッチ。",
     "name_en": "Watercolor Art Festival",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年1月31日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "アートオリンピア2026",
@@ -2583,7 +2628,12 @@
     "why_it_fits_ja": "アートオリンピア2026の5月展示期間は、GEGYjijiの毎日の水彩制作と東京の都市観察作品に最適。建築スタディや記憶を起点とした作品を、東京アートカレンダーの繁忙期に専門的な展覧会の場で発表できる。オープンコール形式はキャリア初期のアーティストへの障壁も低い。",
     "name_en": "Art Olympia 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-07-31 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "第113回 日本水彩展",
@@ -2767,7 +2817,12 @@
     "why_it_fits_ja": "第113回日本水彩展は、GEGYjijiの中心的な画材と、東京の都市建築の静かな情景を捉えるテーマに直接合致します。日常的な水彩制作を評価する全国的なプラットフォームとして、日本の伝統的な絵画の文脈に彼女を位置付けます。拠点である東京の主要な公募展への入選は、キャリア初期における日本の美術界での認知度を大きく高めるでしょう。",
     "name_en": "Japan Watercolor Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: Annual — 113th edition June 2026; 114th expected spring 2027 (check nihonsuisai.or.jp) — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "START Box ササハタハツ・START Box 白鬚 2026年度利用者募集",
@@ -2910,7 +2965,12 @@
     "why_it_fits_ja": "東京の新進アーティストにスタジオ・制作スペースを提供する——専用の制作環境を求める水彩・イラスト作家に適した機会。",
     "name_en": "START Box Artist Studios",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-03-02 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "桜をテーマとするイラスト・絵画作品募集",
@@ -3068,7 +3128,12 @@
     "why_it_fits_ja": "桜をテーマにしたイラスト・絵画の公募。観察に基づく彼女のイラスト制作と合致する。",
     "name_en": "Cherry Blossom Art Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026年3月9日(月) / 作品データ入稿2026年3月10日(火)正午12時 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "CSPWC Annual Open Water International Exhibition",
@@ -3362,7 +3427,12 @@
     "why_it_fits_ja": "多摩地域にゆかりのあるアーティストを対象とした公募展。水彩・イラスト作品の応募を歓迎。",
     "name_en": "Tama Region Artists Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2025年4月25日（土）スタート — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Aquarelle 18 - アクワレル",
@@ -3502,7 +3572,12 @@
     "submission_url": "https://watercolorgoldenbrush.com/participation-rules-en/",
     "name_en": "Aquarelle 18 Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026年5月10日(日) — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "In-dividual Theater：BUG Screen Week 2026",
@@ -3633,7 +3708,12 @@
     "one_sentence_ja": "世代間交流をテーマにしたオープンコール展。グランプリには展示機会が与えられ、新進のイラスト・ビジュアルアーティストに適している。",
     "why_it_fits_ja": "世代間交流をテーマにしたオープンコール展。グランプリには展示機会が与えられ、新進のイラスト・ビジュアルアーティストに適している。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年7月3日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "HATTIFNATT Koenji Cafe Gallery",
@@ -3829,7 +3909,12 @@
     "one_sentence_ja": "絵本的な美学で知られる高円寺のカフェで、データセット内のカフェの中でGEGYjijiとの美的一致度が最も高い。",
     "why_it_fits_ja": "GEGYjijiの作品に漂う温かさ、親密さ、猫、室内の光は、HATTIFNATTの絵本的な世界観と直接重なる。カフェカテゴリーのビジュアル適合スコアが最高。",
     "source_type_weight": 1.05,
-    "source_weight_reason": "type:manual_research"
+    "source_weight_reason": "type:manual_research",
+    "three_bullets": [
+      "Visit in Tokyo — Koenji, Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo — Koenji, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: No fixed deadline — proposal-based — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "ACC 2026年度フェローシップおよび助成",
@@ -4013,7 +4098,12 @@
     "site_http_code": 200,
     "name_en": "ACC Fellowship and Grants",
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:asianculturalcouncil"
+    "source_weight_reason": "reward:url:asianculturalcouncil",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in New York, USA — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年秋（予定） — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026 Global Grant Cycle - Individual Fellowship",
@@ -4187,7 +4277,12 @@
     "why_it_fits_ja": "ACCのフェローシップは持続的な調査と異文化への没入を明確に支援しており、GEGYjijiが東京をはじめとする様々な都市環境で行う日常的な観察と建築的記録の実践と直接合致する。異文化間の芸術発展を重視するプログラムの方向性は、国際的に活動する中国人画家としての彼女の立場にも合致し、都市の風景に宿る刹那の瞬間を水彩の即興性で捉えるスタイルとも響き合う。",
     "site_http_code": 200,
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:asianculturalcouncil"
+    "source_weight_reason": "reward:url:asianculturalcouncil",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in New York, USA — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: November 19, 2025 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Hayama Artist Residency Submission Manager - Submittable",
@@ -4460,7 +4555,12 @@
     "why_it_fits_ja": "アーティストの企画提案を受け付ける地域美術館の2026年展覧会プログラム。",
     "name_en": "Tainan Art Museum TAM+ Program",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026年7月1日16:00 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Asian Cultural Council (ACC) 2026 Grant Program",
@@ -4597,7 +4697,12 @@
     "why_it_fits_ja": "ACCはアジア人アーティストにフェローシップと文化交流の機会を提供し、水彩画家などビジュアルアーティストの国際的な芸術活動の発展を支援します。",
     "site_http_code": 200,
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:asianculturalcouncil"
+    "source_weight_reason": "reward:url:asianculturalcouncil",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in New York, USA — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2025-11-19 (application deadline, EST 9:59 AM); recommendation letters due 2025-11-26 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "UTRECHT",
@@ -5212,7 +5317,12 @@
     "site_http_code": 200,
     "name_en": "Bijutsu Techo Artist Feature",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:press_target"
+    "source_weight_reason": "type:press_target",
+    "three_bullets": [
+      "publication_pitch",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
@@ -5579,7 +5689,12 @@
     "why_it_fits_ja": "水彩・紙上作品の潜在的な展示会場。推薦前に要確認。",
     "submission_url": "https://www.bolognachildrensbookfair.com/en/focus-on/illustrators/the-illustrators-exhibition/2026-illustrators-exhibition-how-to-take-part/1041.html",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:illustration_exhibition"
+    "source_weight_reason": "type:illustration_exhibition",
+    "three_bullets": [
+      "publication_pitch",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: Thursday, 6 November 2025, at 23:59 (GMT+1) — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Pinpoint Gallery",
@@ -5743,7 +5858,12 @@
     "one_sentence_ja": "Pinpoint Galleryは、水彩・紙上作品リサーチのための東京のイラストレーションギャラリーのリソースである。",
     "why_it_fits_ja": "紙上作品・イラストレーションのネイティブなギャラリー環境。水彩・紙上作品やアーティストブック・水彩シーケンスのみの機会よりも媒体適合性が高い。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:illustration_gallery"
+    "source_weight_reason": "type:illustration_gallery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: May 30, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Pen Magazine — Artist Spotlight",
@@ -5939,7 +6059,12 @@
     "site_http_code": 200,
     "contact_email": "arteditor@nlapw.org",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:press_target"
+    "source_weight_reason": "type:press_target",
+    "three_bullets": [
+      "publication_pitch",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "MOUNT ZINE",
@@ -6327,7 +6452,12 @@
     "site_http_code": 200,
     "submission_url": "https://www.itsnicethat.com/submissions",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:press_target"
+    "source_weight_reason": "type:press_target",
+    "three_bullets": [
+      "soft_intro",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "Apartamento — Artist Feature",
@@ -6521,7 +6651,12 @@
     "why_it_fits_ja": "親密な都市インテリアと東京の日常記録は、Apartamentoの読者像にぴったり。「外国人が見た東京」というアングルも強い。",
     "site_http_code": 200,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:press_target"
+    "source_weight_reason": "type:press_target",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Barcelona, Spain — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "Route Books",
@@ -6722,7 +6857,12 @@
     "email_en": "",
     "email_zh": "",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:bookstore_gallery"
+    "source_weight_reason": "type:bookstore_gallery",
+    "three_bullets": [
+      "Email contact@yukuido.com to discuss consignment or exhibition terms — these venues work by relationship, not open calls",
+      "Based in Tokyo — Ueno / Taito, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: ongoing — check rental availability — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "第九屆水主題國際評審藝術比賽",
@@ -6862,7 +7002,12 @@
     "why_it_fits_ja": "世界のアーティストを対象に水彩作品を募集する水テーマの国際アートコンペ。水彩制作と直接合致する。",
     "name_en": "Water Theme International Art Competition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: May 15th — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Kamome Roastery Tokyo",
@@ -7019,7 +7164,12 @@
     "email_en": "",
     "email_zh": "",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:cafe_gallery"
+    "source_weight_reason": "type:cafe_gallery",
+    "three_bullets": [
+      "Visit in Tokyo — Kameari, Katsushika, Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo — Kameari, Katsushika, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: ongoing — June 2026 applications open for Nov 2026–Jan 2027 slots — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026年美の起原展",
@@ -7159,7 +7309,12 @@
     "why_it_fits_ja": "東京ギャラリーによる公募展——10〜20号の絵画を募集、イラスト・水彩・ミクストメディア可、賞金あり。",
     "name_en": "Beauty Origins Exhibition 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年6月11日（木）23:59 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "クリスマスアート展",
@@ -7296,7 +7451,12 @@
     "why_it_fits_ja": "水彩・イラスト作品を歓迎する毎年恒例の公募クリスマスアート展——来場者投票で賞が決まる。",
     "name_en": "Christmas Art Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 19th December 2025 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Laugh & Peace Art Competition 2026",
@@ -7437,7 +7597,12 @@
     "why_it_fits_ja": "2026年3月19〜29日に大阪で開催（活動圏内）のアートコンペ＆展示——水彩・イラスト作家のプロフィールに合致。",
     "submission_url": "https://peacepalsinternational.org/2026-art-contest",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Osaka, Japan first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: April 17, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "第29回 アート未来展",
@@ -7572,7 +7737,12 @@
     "submission_url": "https://www.artmirai-japan.com/%E5%BF%9C%E5%8B%9F%E8%A6%81%E9%A0%85-%E5%87%BA%E5%93%81%E7%A5%A8",
     "name_en": "Art Future Exhibition 29",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "Mograg Gallery",
@@ -7749,7 +7919,12 @@
     "email_en": "",
     "email_zh": "",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:cafe_gallery"
+    "source_weight_reason": "type:cafe_gallery",
+    "three_bullets": [
+      "Visit in Tokyo — Hatagaya (Shibuya area), Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo — Hatagaya (Shibuya area), Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: ongoing — proposal-based — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "水彩アートの祭典",
@@ -7885,7 +8060,12 @@
     "why_it_fits_ja": "東京芸術劇場で開催される水彩画専門の展覧会（平面作品のみ）。4号以内の作品を受付、テーマ不問。",
     "name_en": "Watercolor Art Festival Tokyo",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026年3月7日-3月8日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "コピックアワード2026",
@@ -8025,7 +8205,12 @@
     "why_it_fits_ja": "SNS投稿で参加できるイラスト・水彩部門のアワードで、イラストレーション活動に直結しています。",
     "name_en": "Copic Award 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026年4月19日(日)23:59 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026 3rd Annual Illustration Summit Challenge (IlloBoom!)",
@@ -8155,7 +8340,12 @@
     "one_sentence_ja": "学生・プロ・愛好家を対象に、あらゆるスタイルとテーマを受け付けるグローバルなイラストコンペ。イラストレーターに最適。",
     "why_it_fits_ja": "学生・プロ・愛好家を対象に、あらゆるスタイルとテーマを受け付けるグローバルなイラストコンペ。イラストレーターに最適。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-04-01 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
@@ -8476,7 +8666,12 @@
     "email_en": "",
     "email_zh": "",
     "source_type_weight": 1.05,
-    "source_weight_reason": "type:manual_research"
+    "source_weight_reason": "type:manual_research",
+    "three_bullets": [
+      "Visit in Tokyo — Koenji, Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo — Koenji, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: No fixed deadline — rotating exhibitions ongoing — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Casa Brutus — Architecture/Art Feature",
@@ -8666,7 +8861,12 @@
     "why_it_fits_ja": "東京の建築を記録した都市水彩は、Casa Brutusの空間・デザイン特集にぴったり合致する。",
     "site_http_code": 200,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:press_target"
+    "source_weight_reason": "type:press_target",
+    "three_bullets": [
+      "publication_pitch",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "FY2026 Life with Art Grant",
@@ -8875,7 +9075,12 @@
     "why_it_fits_ja": "日常の都市生活にアートを溶け込ませるという助成金の理念は、水彩で束の間の建築的瞬間や東京の静かな空間を捉えるGEGYjijiの実践と直接重なる。9万フォロワーのプラットフォームと新興Tier 2の認知度は、この助成が重視する場所に根ざしたコミュニティ密着型の作品を実現できる新進アーティストとしての立場を示している。",
     "site_http_code": 200,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 14:00 on Monday, June 29, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Art Vancouver 2026",
@@ -9028,7 +9233,12 @@
     "one_sentence_ja": "カナダ西海岸の主要アートフェアで、コンテンポラリーアートとデザイン作品を発表でき、国際的なアーティストやギャラリーも参加可能です。",
     "why_it_fits_ja": "カナダ西海岸の主要アートフェアで、コンテンポラリーアートとデザイン作品を発表でき、国際的なアーティストやギャラリーも参加可能です。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: July 7, 2025 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "ギャラリーへ行こう2026",
@@ -9163,7 +9373,12 @@
     "submission_url": "https://sukiwa.net/archives/13698",
     "name_en": "Gallery Open Call Tokyo",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: Entry period: June 15 - July 1, 2025; Submission dates: July 2-4, 2025 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Osaka Open Call For Artists. - ARRIVAL",
@@ -9585,7 +9800,12 @@
     "contact_email": "info@galerie-makowski.com",
     "name_en": "NY Summer Open Call 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026年夏（Summer 2026） — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)",
@@ -9767,7 +9987,12 @@
     "site_http_code": 200,
     "name_en": "Life with Art Grant 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年5月25日（月）14:00～6月29日（月）14:00 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Brillia Art Award Wall 2026",
@@ -9922,7 +10147,12 @@
     "uncapped_score": 9.8,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-07-08 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "SHIBUYA CAST. Gallery",
@@ -10094,7 +10324,12 @@
     "email_en": "",
     "email_zh": "",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:cafe_gallery"
+    "source_weight_reason": "type:cafe_gallery",
+    "three_bullets": [
+      "Visit in Tokyo — Shibuya, Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo — Shibuya, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: ongoing — proposal-based — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "International Illustration 2026",
@@ -10225,7 +10460,12 @@
     "contact_source": "harvested_from_submission_page",
     "fees_source": "harvested_from_submission_page",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Online, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年06月30日（火） — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Tokyo Illustrators Society",
@@ -10380,7 +10620,12 @@
     "why_it_fits_ja": "水彩や紙上作品の国内発表の場となる可能性があります。推薦前に詳細を確認することを推奨します。",
     "contact_email": "jordan@societyillustrators.org",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:illustration_society"
+    "source_weight_reason": "type:illustration_society",
+    "three_bullets": [
+      "soft_intro",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: June 30, 2024 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "BOOOOOOOM 2026 Art & Photo Book Award",
@@ -10587,7 +10832,12 @@
     "pre_final_guard_score": 8.3,
     "final_score_guard_note": "Rescored 8.3 → 8.8 (verification_points=4, composite=10.07)",
     "source_type_weight": 1.2075,
-    "source_weight_reason": "reward:url:submit"
+    "source_weight_reason": "reward:url:submit",
+    "three_bullets": [
+      "publication_pitch",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: June 5, 2026 — 11:59 PM PST (June 6 at 15:59 JST) — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Tokyo Wonder Site / TOKAS Residency",
@@ -11147,7 +11397,12 @@
     "one_sentence_ja": "Gallery IYNは、水彩・紙上作品リサーチのための日本のギャラリー公募リソースである。",
     "why_it_fits_ja": "水彩・紙上作品の潜在的なネイティブ会場。推薦前に要確認。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery_open_call"
+    "source_weight_reason": "type:gallery_open_call",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年5月28日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "SUZURI",
@@ -11511,7 +11766,12 @@
     "one_sentence_ja": "3x3 International Illustration Awardsは、水彩・紙上作品を対象としたグローバルなイラストレーション賞です。",
     "why_it_fits_ja": "水彩・紙上作品に適した可能性のある賞。推薦前に要確認。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:illustration_award"
+    "source_weight_reason": "type:illustration_award",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-03-27 (early), 2026-04-03 (final) — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Book and Sons",
@@ -11866,7 +12126,12 @@
     "site_http_code": 200,
     "name_en": "Emerging Artists Overseas Training",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 令和8年（2026年）7月31日（金）必着 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "AAA Gallery Yokohama",
@@ -12050,7 +12315,12 @@
     "uncapped_score": 9.8,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery_open_call"
+    "source_weight_reason": "type:gallery_open_call",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Yokohama — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: Sep 14th 10am-1pm — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026 Chinese New Year Celebration Art Show",
@@ -12204,7 +12474,12 @@
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "submission_url": "https://www.inliquid.org/opportunities-1/open-call-the-lunar-new-year",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: January 9, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Open Call for the International Creator Residency Program 2026",
@@ -12481,7 +12756,12 @@
     "why_it_fits_ja": "水彩・パステル・アクリル・色鉛筆など多様な形式の作品を受け付ける、実績ある公募展。",
     "name_en": "NIKA Spring Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年2月18日(水) — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "IlloBoom! 2026 第三屆插畫巔峰賽",
@@ -12611,7 +12891,12 @@
     "why_it_fits_ja": "多様なクリエイティブスタイルを持つプロのイラストレーターを対象とした国際イラストコンペ。",
     "name_en": "IlloBoom International Illustration Competition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-04-01 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "OPEN SITE 11",
@@ -12781,7 +13066,12 @@
     "one_sentence_ja": "東京のアーティスト・ランスペース、TOKAS本郷でのアーティストプロジェクト企画を募集するオープンコール。",
     "why_it_fits_ja": "東京のアーティスト・ランスペース、TOKAS本郷を舞台にしたアーティストプロジェクトの企画募集。",
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:tokyoartsandspace"
+    "source_weight_reason": "reward:url:tokyoartsandspace",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-03-17 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award",
@@ -12907,7 +13197,12 @@
     "fee": "Free",
     "contact_email": "caaic@163.com",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Paris, France — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: September 17, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "全国日曜画家コンクール",
@@ -13038,7 +13333,12 @@
     "deadline_source": "harvested_from_submission_page",
     "name_en": "National Watercolor Competition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年5月7日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "International Creator Residency Program 2027",
@@ -13187,7 +13487,12 @@
     "submission_url": "https://www.tokyoartsandspace.jp/en/application/index.html",
     "deadline_type": "confirmed_date",
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:tokyoartsandspace"
+    "source_weight_reason": "reward:url:tokyoartsandspace",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-06-16 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Submissions - Little Press Publishing",
@@ -13613,7 +13918,12 @@
     "email_en": "",
     "email_zh": "",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:cafe_gallery"
+    "source_weight_reason": "type:cafe_gallery",
+    "three_bullets": [
+      "Visit in Tokyo — Asakusa, Taito, Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo — Asakusa, Taito, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: ongoing — proposal-based — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Nui. Hostel Bar & Lounge Asakusa",
@@ -13809,7 +14119,12 @@
     "email_en": "",
     "email_zh": "",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:cafe_gallery"
+    "source_weight_reason": "type:cafe_gallery",
+    "three_bullets": [
+      "Visit in Tokyo — Asakusa, Taito, Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo — Asakusa, Taito, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "MICRO/MACRO",
@@ -13993,7 +14308,12 @@
     "email_ja": "",
     "email_zh": "",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Vancouver, Canada first — gallery relationships start with presence, not cold submissions",
+      "Based in Vancouver, Canada — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: May 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "HATTIFNATT Kichijoji",
@@ -14147,7 +14467,12 @@
     "email_en": "",
     "email_zh": "",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:cafe_gallery"
+    "source_weight_reason": "type:cafe_gallery",
+    "three_bullets": [
+      "Visit in Tokyo — Kichijoji, Musashino, Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo — Kichijoji, Musashino, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: ongoing — proposal-based — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Yonchome Cafe",
@@ -14787,7 +15112,12 @@
     "site_http_code": 200,
     "name_en": "Tokyo Arts and Culture Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年2月3日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "FACE Exhibition 2026",
@@ -14992,7 +15322,12 @@
     "score_sanity_note": "Score capped at 8.8 because source/verification strength is limited.",
     "fees_source": "harvested_from_submission_page",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: Multiple deadlines: January 8, 2026; February 3, 2026; January 9, 2026; May 29, 2026; June 30, 2026; July 20, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Cité Internationale des Arts Artist Residency",
@@ -15563,7 +15898,12 @@
     "one_sentence_ja": "2026年6月18〜29日開催の花をテーマにした写真公募展。イラストや観察に基づく作品にも関連性あり。",
     "why_it_fits_ja": "2026年6月18〜29日開催の花をテーマにした写真公募展。イラストや観察に基づく作品にも関連性あり。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年6月29日（月） — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Mona Records",
@@ -15899,7 +16239,12 @@
     "why_it_fits_ja": "ミクストメディアのイラスト制作に関連する可能性のある国際版画展のオープンコール。",
     "name_en": "KAMIHANGA International Print Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in International — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: Domestic: September 4, 2026 (Monday); International: August 14, 2026 (Thursday) — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Jinny Street Gallery Open Call",
@@ -16181,7 +16526,12 @@
     "site_http_code": 200,
     "name_en": "Tokyo Arts Creation Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年2月3日（火）10:00～3月3日（火）18:00 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "BALLOND'ESSAI Shimokitazawa",
@@ -16353,7 +16703,12 @@
     "one_sentence_ja": "下北沢のギャラリー併設コーヒースタンド。展示プログラムが確認されており、ウェブサイトのフォームから企画提案可能。奥のギャラリースペースで定期的に展示を開催。",
     "why_it_fits_ja": "下北沢のギャラリー主体のカフェ。ウェブサイト経由の企画提案受付が確認済み。デザイン感度の高い来客層、こぢんまりとした規模。直接のコンタクト方法も確認済み。",
     "source_type_weight": 1.05,
-    "source_weight_reason": "type:manual_research"
+    "source_weight_reason": "type:manual_research",
+    "three_bullets": [
+      "Visit in Tokyo — Shimokitazawa, Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo — Shimokitazawa, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: No fixed deadline — ongoing, proposal-based — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Tokyo Gendai 2026",
@@ -16556,7 +16911,12 @@
     "one_sentence_ja": "2026年9月11〜13日に東京で開催される第4回アートフェア——ギャラリー申込受付中。",
     "why_it_fits_ja": "Tokyo Gendaiは日本のアートエコシステムにおける現代作品に焦点を当てており、海外ルーツを持つアーティストが水彩で東京の建築や都市の瞬間を記録するこの実践と戦略的に合致する。9万フォロワーのオーディエンスと一貫したサイトスペシフィックな紙の作品群は、フェアが重視するプロセス志向の実践と一致しており、現時点でのギャラリー代理獲得に向けた強力な根拠となる。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026 (gallery applications open, specific close date not stated) — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Belladonna Art Competition",
@@ -16874,7 +17234,12 @@
     "why_it_fits_ja": "複数の会場と形式を持つSingapore Art Weekのオープンコールで、イラストやコンテンポラリー表現に適しています。",
     "fee": "Free",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Singapore — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 22nd to 31st January 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026年度 第2期 地域芸術文化活動応援助成",
@@ -17039,7 +17404,12 @@
     "deadline_type": "confirmed_date",
     "name_en": "Regional Arts Support Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-06-17 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Open calls - Online Database of Artist in Residence Programs in Japan",
@@ -17327,7 +17697,12 @@
     "email_zh": "",
     "name_en": "My Dear Teddy Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2025年6月4日正午より受付開始 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "美術新人賞デビュー2026（Art Newcomer Award Debut 2026）",
@@ -17466,7 +17841,12 @@
     "deadline_source": "harvested_from_submission_page",
     "name_en": "Art Newcomer Award Debut 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年03月20日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "「国際創作者駐村計畫」",
@@ -17616,7 +17996,12 @@
     "contact_email": "air@artistvillage.org",
     "name_en": "International Artist Residency Program",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Review residency requirements carefully — most want a project proposal, CV, and portfolio PDF in one package",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2024-12-29 or 2025-09-30 or 2025-06-30 or 2026-04-30 (multiple programs with different deadlines) — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "芸術活動への助成 (Arts Activity Grant)",
@@ -17756,7 +18141,12 @@
     "site_http_code": 200,
     "name_en": "Arts Activity Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年7月1日～10月25日 (2027年度) — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026年度 国際助成プログラム",
@@ -17887,7 +18277,12 @@
     "contact_email": "asianneighbors@toyotafound.or.jp",
     "name_en": "International Exchange Grant 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年11月1日～2027年10月31日（1年間）または2026年11月1日～2028年10月31日（2年間） — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
@@ -18185,7 +18580,12 @@
     "deadline_source": "harvested_from_submission_page",
     "name_en": "Golden Pinwheel Illustration Competition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Shanghai, China — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年06月08日 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Browse opportunities | CuratorSpace",
@@ -18838,7 +19238,12 @@
     "why_it_fits_ja": "Antenna Booksは代官山の目の肥えた読者向けにアート・デザイン出版物をキュレーションしており、GEGYjijiの東京都市水彩プリントやZINEを評価してくれる読者層と一致します。委託販売により、静かで持続的な認知度が高まります。",
     "site_http_code": 0,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:bookstore_gallery"
+    "source_weight_reason": "type:bookstore_gallery",
+    "three_bullets": [
+      "Email @antennabooks to discuss consignment or exhibition terms — these venues work by relationship, not open calls",
+      "Based in Tokyo — Daikanyama, Shibuya, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "SPBS (Shibuya Publishing Booksellers)",
@@ -19046,7 +19451,12 @@
     "why_it_fits_ja": "SPBSは渋谷周辺の目の肥えた読者向けにアート・デザイン出版物をキュレーションしており、GEGYjijiの東京都市水彩プリントやZINEに最適です。ここでの委託販売はデザインのプロフェッショナルへの静かで持続的な露出につながります。",
     "site_http_code": 0,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:bookstore_gallery"
+    "source_weight_reason": "type:bookstore_gallery",
+    "three_bullets": [
+      "Email @spbs_tokyo to discuss consignment or exhibition terms — these venues work by relationship, not open calls",
+      "Based in Tokyo — Tomigaya, Shibuya, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "POST",
@@ -19417,7 +19827,12 @@
     "one_sentence_ja": "OPA Galleryは、水彩・紙上作品のリサーチに特化した東京のイラストレーション専門ギャラリー。",
     "why_it_fits_ja": "紙上作品・イラストレーション専門のギャラリーであり、水彩やアーティストブック単体の機会より媒体との適合性が高い。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:illustration_gallery"
+    "source_weight_reason": "type:illustration_gallery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: April 8, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "tata bookshop/gallery",
@@ -19947,7 +20362,12 @@
     "fees_source": "harvested_from_submission_page",
     "name_en": "Tokyo Watercolor Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年7月17日23:59 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
@@ -20244,7 +20664,12 @@
     "why_it_fits_ja": "中国およびアジアの文化的背景を持つ作品を重視するコンテンポラリーアーティスト向けの公募で、水彩を含む複数の媒体を受け付ける。",
     "submission_url": "https://www.aaartsalliance.org/opportunities/gallery-456-exhibition-in-2026-open-call-for-artists",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in New York, United States first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "第23届「跨越国界之美2026」国际公募展",
@@ -20404,7 +20829,12 @@
     "why_it_fits_ja": "東京・国立新美術館で開催される国際水墨画公募展。水彩・イラスト作家に関連性が高い。",
     "name_en": "Transcending Borders Ink Painting",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 03 March 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "芸術活動への助成（Grants for Artistic Activities）",
@@ -20600,7 +21030,12 @@
     "site_http_code": 200,
     "name_en": "Artistic Activities Support Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年7月1日～10月25日（2027年度分） — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Ishibashi Foundation / The Japan Foundation Fellowship for Research on Japanese Art",
@@ -20728,7 +21163,12 @@
     "why_it_fits_ja": "視覚芸術の専門家を支援する国際交流基金のフェローシップ。日本美術の伝統を研究する東京在住アーティストに関連性が高い。",
     "site_http_code": 200,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: December (FY 2026) — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "TOKYO MIDTOWN AWARD 2026 アートコンペ",
@@ -20857,7 +21297,12 @@
     "contact_source": "harvested_from_submission_page",
     "name_en": "Tokyo Midtown Art Award 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-05-11 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "TOKAS Open Call",
@@ -21194,7 +21639,12 @@
     "one_sentence_ja": "出展者を公募する東京の主要アートフェアで、フェアブース参加の機会を求めるアーティストに関連性が高い。",
     "why_it_fits_ja": "ART FAIR TOKYOのオープンブース形式により、都市観察を主題に伝統的な画材で制作するペインターを求める東京のコレクターやギャラリーへの直接アクセスが可能になる。これはGEGYjijiが都市の刹那的な建築の瞬間を記録するという核心的な実践と合致する。地元市場での認知度を着実に積み上げている日常的な実践者として、主要な東京のフェアブースは静謐で内省的な都市風景の美学に共鳴するオーディエンスへの戦略的な露出機会を提供する。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026年5月頃より開始予定 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026博洛尼亚国际插画大赛",
@@ -21324,7 +21774,12 @@
     "contact_source": "harvested_from_submission_page",
     "name_en": "Bologna International Illustration Award 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Bologna, Italy — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年3月10日（作品征集：2025年10月10日-2026年3月10日） — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "3331 Arts Chiyoda",
@@ -21657,7 +22112,12 @@
     "why_it_fits_ja": "東京都美術館を会場とする絵画の公募展。",
     "name_en": "Sekaido Painting Exhibition 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年04月30日 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "flotsam books",
@@ -22226,7 +22686,12 @@
     "deadline_type": "confirmed_date",
     "contact_source": "harvested_from_submission_page",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Yokohama, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-03-01 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Applied Arts 2026 Illustration Awards",
@@ -22356,7 +22821,12 @@
     "why_it_fits_ja": "2025年1月から2026年1月の間に制作された単品、シリーズ、アニメーション作品を受け付ける国際イラストレーション賞。",
     "submission_url": "https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026年1月 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "COW BOOKS Nakameguro",
@@ -23161,7 +23631,12 @@
     "exclusive_primary_bucket": "publication_editorial",
     "name_en": "Book Cover Design Commission",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Online, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年6月14日(日) — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Tokyo Arts and Space",
@@ -24553,7 +25028,12 @@
     "why_it_fits_ja": "東京ギャラリーの展覧会プロフィールに合ったイラストや作品を募集するギャラリー公募。",
     "name_en": "Sakikobore Cherry Blossom Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2025年3月8日17時 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "FACE展2026",
@@ -24711,7 +25191,12 @@
     "why_it_fits_ja": "東京・新宿のSOMPO Museumで開催される現代絵画の全国公募展（第14回）；年齢・所属不問。",
     "name_en": "FACE 2026 Painting Competition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: June 5, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "B&B Shimokitazawa",
@@ -25070,7 +25555,12 @@
     "site_http_code": 200,
     "name_en": "Artists' Overseas Training Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年5月13日(水)-6月2日(火) — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026 Global Grant Cycle - Fellowships and Grants (General)",
@@ -25200,7 +25690,12 @@
     "site_http_code": 200,
     "fee": "$50 for international",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in New York, USA — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: November 19, 2025 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "新進芸術家海外研修制度における日本文化発信・普及事業（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）",
@@ -25329,7 +25824,12 @@
     "site_http_code": 200,
     "name_en": "Emerging Artists Cultural Promotion Fellowship",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年6月5日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026春季二科展「NIKA+nika/S20号」コンクール",
@@ -25464,7 +25964,12 @@
     "why_it_fits_ja": "水彩をはじめ多様な素材に対応した春季絵画展・コンクールで、東京を拠点とするアーティストの展示機会に適しています。",
     "name_en": "NIKA Spring Painting Exhibition 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-03-15 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "BankART1929",
@@ -25827,7 +26332,12 @@
     "one_sentence_ja": "HB Galleryは、水彩／紙作品のリサーチに適した東京のイラストレーション専門ギャラリー。",
     "why_it_fits_ja": "HB Galleryのイラストや紙作品研究への注力は、東京の静かな建築的瞬間を水彩で記録するGEGYjijijの日常的な実践と直接合致し、単一メディアの分類を超えてプロセス重視の観察を評価するキュレーションの文脈を提供する。都市的題材へのイラスト的アプローチを専門とするこのギャラリーは、消えゆく空間を連続的・物語的に扱う彼女の実践にとって、水彩専門会場よりも強い適合性を持つ。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:illustration_gallery"
+    "source_weight_reason": "type:illustration_gallery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "日記屋 月日",
@@ -26214,7 +26724,12 @@
     "one_sentence_ja": "Communication Arts Illustration Competitionは、水彩・紙作品を対象としたグローバルなイラストレーション部門のコンペティションです。",
     "why_it_fits_ja": "水彩・紙作品の発表に適した可能性のある場。推薦前に詳細の確認が必要です。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:illustration_competition"
+    "source_weight_reason": "type:illustration_competition",
+    "three_bullets": [
+      "soft_intro",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-01-09 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "SCAI The Bathhouse",
@@ -26515,7 +27030,12 @@
     "why_it_fits_ja": "東京のギャラリー（Aim Gallery、たましんRISURUホール）で水彩画を中心とした小品を展示する公募展。",
     "name_en": "Shuusai-kai Small Works Exhibition 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tachikawa, Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tachikawa, Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-05-11 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "絵画展（滋賀県愛荘町開催）",
@@ -26648,7 +27168,12 @@
     "why_it_fits_ja": "水彩をはじめとする各種媒体による風景画・人物画を全国から公募し、賞を授与する展覧会。",
     "name_en": "Shiga Landscape & Figure Painting Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Shiga, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年7月26日16:00 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "AOI（Association of Illustrators）2026 Illustration Awards",
@@ -26770,7 +27295,12 @@
     "has_prerequisites": false,
     "exclusive_primary_bucket": "competitions_awards",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in International, United Kingdom — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年2月17日午夜（英國時區） — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)",
@@ -26904,7 +27434,12 @@
     "submission_url": "https://gallery219.com/219kouboten/artcross6.html",
     "name_en": "Gallery 219 Open Call Vol. 6",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: April 2025 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Chinese Culture in My Everyday Life / 我生活中的中華文化",
@@ -27030,7 +27565,12 @@
     "exclusive_primary_bucket": "competitions_awards",
     "name_en": "Chinese Culture in Everyday Life Competition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in International — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年6月30日 (June 30, 2026) — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Gallery 191 Exhibition 2026",
@@ -27177,7 +27717,12 @@
     "one_sentence_ja": "様々なメディアで活動するビジュアルアーティストを対象としたオープンコール展覧会。",
     "why_it_fits_ja": "様々なメディアで活動するビジュアルアーティストを対象としたオープンコール展覧会。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Unknown, United States first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "金风车插画大赛2026",
@@ -27306,7 +27851,12 @@
     "why_it_fits_ja": "視覚的ストーリーテリングと創造的表現に取り組むすべてのアーティストを対象としたグローバルイラストコンペティション。",
     "name_en": "Golden Windmill Illustration Award 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-06-05 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "ギャラリー自由展示",
@@ -27438,7 +27988,12 @@
     "why_it_fits_ja": "絵画や美術作品を歓迎する東京ギャラリーの特別展示機会。",
     "name_en": "Gallery Free Display Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 定員まで — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026年全国美术作品征集",
@@ -27566,7 +28121,12 @@
     "exclusive_primary_bucket": "competitions_awards",
     "name_en": "National Art Works Competition 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in China — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年7月31日 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Cafe Mame-Hico",
@@ -28198,7 +28758,12 @@
     "why_it_fits_ja": "複数テーマでイラストや作品を募集する夏季グループ展。",
     "name_en": "Park Gallery Summer Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 定員に達し次第締め切り — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "JIA Illustration Award 2026",
@@ -28325,7 +28890,12 @@
     "exclusive_primary_bucket": "competitions_awards",
     "submission_process_notes": "Submit via application form on main website or by email. Technical requirements specified: RGB JPEG, max 2000px, max 2MB, up to 5 works. Deadline: June 30, 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Nago, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "Open Calls for Artists | Exhibit Worldwide",
@@ -29244,7 +29814,12 @@
     "why_it_fits_ja": "世界中のアーティスト・デザイナーからドローイング／イラスト作品を募集する国際デジタルアートデザインコンテストです。",
     "name_en": "International University Digital Art Design Competition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: March 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Para Contest 2026",
@@ -29363,7 +29938,12 @@
     "has_prerequisites": false,
     "exclusive_primary_bucket": "competitions_awards",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Online, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年6月21日（日） — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "アジア文化芸術ネットワーク強化助成【WA2.0】",
@@ -29493,7 +30073,12 @@
     "site_http_code": 200,
     "name_en": "Japan Foundation Asia Arts Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "アジア文化芸術フェローシップ【WA2.0】",
@@ -29622,7 +30207,12 @@
     "site_http_code": 200,
     "name_en": "WA2.0 Asia Arts Fellowship",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)",
@@ -29778,7 +30368,12 @@
     "why_it_fits_ja": "日中両国の書画家による作品交流グループ展。水彩・イラストレーション作家も応募可能。",
     "name_en": "Japan-China Painting Masters Exchange Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 11 May 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "【公募】2026年度レジデンス・プログラム公募開始",
@@ -30185,7 +30780,12 @@
     "site_http_code": 200,
     "name_en": "Micro Art Workation Grant 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Unknown, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "マイクロ・アート・ワーケーション（MAW）2026",
@@ -30306,7 +30906,12 @@
     "site_http_code": 200,
     "name_en": "Micro Art Workation Grant 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "アートアワードトーキョー丸の内2026（Art Award Tokyo Marunouchi 2026）",
@@ -30428,7 +31033,12 @@
     "has_prerequisites": false,
     "name_en": "Art Award Tokyo Marunouchi 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-05-25 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Gallery IRO",
@@ -31805,7 +32415,12 @@
     "has_prerequisites": false,
     "exclusive_primary_bucket": "competitions_awards",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in International — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "Golden Pinwheel International Young Illustrators Competition 2026 / 金风车国际青年插画家大赛",
@@ -31978,7 +32593,12 @@
     "fees_notes": "Free to enter - explicitly states 'professional illustrators, art school students, and illustration enthusiasts can register for free'",
     "submission_process_notes": "Submit 5 original illustrations on same theme via www.ccbookfair.com. Requirements: JPG/PNG format, max 20MB per file, min 300 DPI, max 120-character description. Deadline: June 8, 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "publication_pitch",
+      "Based in Shanghai, China — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "素人の乱 (Shiroto no Ran) Koenji",
@@ -32504,7 +33124,12 @@
     "exclusive_primary_bucket": "competitions_awards",
     "name_en": "Chinese Excellence Illustration Competition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in International — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "Chinese Excellence in Children's Illustration 2026 / 卓越大师·中国插画大赛2026",
@@ -32628,7 +33253,12 @@
     "exclusive_primary_bucket": "competitions_awards",
     "name_en": "Chinese Excellence Illustration 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in International — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
@@ -32792,7 +33422,12 @@
     "why_it_fits_ja": "カナダ・バンクーバーで開催されるArt Vancouver第10回目；カナダ国内外の出展者による現代アートとデザインを紹介する。",
     "name_en": "Art Vancouver 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
+      "Based in Vancouver, Canada — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-05-31 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Spiral",
@@ -33078,7 +33713,12 @@
     "site_http_code": 200,
     "name_en": "Micro Art Workcation 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
@@ -33347,7 +33987,12 @@
     "why_it_fits_ja": "絵画部門はポーラ美術振興財団の中核的な助成対象。民間財団のため、政府系助成と比べて審査が迅速で手続きも簡便。",
     "site_http_code": 200,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant"
+    "source_weight_reason": "type:grant",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: Typically September–November annually — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Aoyama Farmers Market",
@@ -33672,7 +34317,12 @@
     "one_sentence_ja": "画廊専用の商業アートフェア（シンガポール）。GALLERIES・FOCUS・FUTURES全セクションで画廊による申請が必須。ギャラリー未所属のアーティストが単独で応募する方法はない。",
     "why_it_fits_ja": "ART SGの画廊代理重視の方針は、Instagramフォロワー9万人を基盤に機関的サポートを必要とするGEGYjijiの状況と合致する。商業フェアへの参加は、シンガポールのアジア地域アートマーケットにおける建築水彩作品の認知度を高め、新興作家を発掘するコレクターや画廊主へのアピールにつながる。ただし現在ギャラリー未所属のため、まず画廊との契約獲得が優先事項であり、本フェアは直近の応募先ではなく次のステップとして位置づけるべきである。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 22-24 January 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)",
@@ -33816,7 +34466,12 @@
     "site_http_code": 200,
     "name_en": "Tokyo Arts & Culture Support Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "令和8年度芸術文化振興基金及び文化芸術振興費補助金",
@@ -33943,7 +34598,12 @@
     "site_http_code": 200,
     "name_en": "National Arts & Culture Promotion Fund",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "Ark Art Award 2024",
@@ -34079,7 +34739,12 @@
     "one_sentence_ja": "あらゆるレベルの水彩アーティストを対象としたオープンコールで、キュレーションされた受賞展示への参加が可能です。",
     "why_it_fits_ja": "あらゆるレベルの水彩アーティストを対象としたオープンコールで、キュレーションされた受賞展示への参加が可能です。",
     "source_type_weight": 0.65,
-    "source_weight_reason": "penalty:title:2024"
+    "source_weight_reason": "penalty:title:2024",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2024年2月1日開始 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
@@ -34420,7 +35085,12 @@
     "site_http_code": 200,
     "name_en": "Travel & Research Grant 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Unknown, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "公益財団法人小笠原敏晶記念財団 2026年度 渡航・旅費等の助成（上期）",
@@ -34547,7 +35217,12 @@
     "site_http_code": 200,
     "name_en": "Ogasawara Memorial Foundation Travel Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "2026年度下期芸術文化助成（国内）",
@@ -34676,7 +35351,12 @@
     "name_en": "Arts Development Grant 2026",
     "submission_process_notes": "Applications must be submitted through an online form on the Nomura Foundation website. Applicants need to create a団体 (organization) account/mypage and submit required information via the application form at https://www.nomurafoundation.or.jp/culture/art_gr01.html. Application period: April 1-30, 2026 by 17:00. For inquiries, contact via https://www.nomurafoundation.or.jp/inq/",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "reload Shimokitazawa",
@@ -35037,7 +35717,12 @@
     "contact_source": "harvested_from_submission_page",
     "name_en": "Sensu Illustration & Photo Contest",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Based in Online, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年9月15日必着 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Art Fair Tokyo 2026",
@@ -35251,7 +35936,12 @@
     "one_sentence_ja": "新進・著名アーティストが参加する東京の現代アートフェア。ギャラリーへの参入を目指すイラストレーターや水彩画家にも関連する機会。",
     "why_it_fits_ja": "Art Fair Tokyo 2026はイラストや紙作品に取り組む新進アーティストに焦点を当てており、東京の移り変わる都市風景や建築的瞬間を水彩で記録するGEGYjijijの日常的な制作実践と直接合致する。日本を拠点とするディアスポラアーティストとして、場所と記憶を観察的実践で記録する作家を求めるギャラリーとつながるプラットフォームを活用できる。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-08-01 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
@@ -35813,7 +36503,12 @@
     "why_it_fits_ja": "2015年から継続するコンテンポラリーアーティスト向けの公募プロジェクト；作品集を刊行しており、イラストやビジュアルアートの応募に適している。",
     "name_en": "Open Call Project",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "短編小説集出版記念 イラスト募集（表紙絵または挿絵）",
@@ -35966,7 +36661,12 @@
     "contact_email_verified": "ueda.shortstory.ml@tokyonews.co.jp",
     "submission_process_notes": "Submit illustration based on one of 10 short stories by October 25, 2024. Artwork should depict a scene from the chosen story or symbolize its theme. Can be used as cover art or illustrations. Postal submission must arrive by deadline. Details at provided URL.",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "publication_pitch",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "INSTINC 2026/2027 Artist-in-Residence Program",
@@ -36118,7 +36818,12 @@
     "one_sentence_ja": "実験性と芸術的ビジョンを重視した、国際アーティスト向けの独立系レジデンスプログラム。",
     "why_it_fits_ja": "実験性と芸術的ビジョンを重視した、国際アーティスト向けの独立系レジデンスプログラム。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Review residency requirements carefully — most want a project proposal, CV, and portfolio PDF in one package",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: Deadline extended for 2026 and 2027 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Cafe Cross Point",
@@ -36696,7 +37401,12 @@
     "site_http_code": 200,
     "name_en": "Bunka-cho Overseas Artist Residency",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant"
+    "source_weight_reason": "type:grant",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: Check bunka.go.jp annually — typically spring deadline — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Tokyo Arts and Space (TOKAS) Residency + Grant",
@@ -36821,7 +37531,12 @@
     "why_it_fits_ja": "東京在住アーティストとして応募資格は高い。TOKASのレジデンシー歴はTier 3への前進に向けた重要な経歴となる。",
     "site_http_code": 200,
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:tokyoartsandspace"
+    "source_weight_reason": "reward:url:tokyoartsandspace",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: Check tokyoartsandspace.jp — typically annual open call — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Venice International Watercolor Festival 2026 / 2026年威尼斯国际水彩节",
@@ -36985,7 +37700,12 @@
     "exclusive_primary_bucket": "research_needed",
     "name_en": "Venice International Watercolor Festival",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Venice, Italy — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "Mall Galleries Open Exhibitions",
@@ -37140,7 +37860,12 @@
     "one_sentence_zh": "购物画廊公开展览是英国一个专注于水彩及纸上作品研究的公开展览资源。",
     "why_it_fits_zh": "适用于绘画、素描或纸上作品的公开展览场景，是直接核实的理想候选来源。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:open_exhibition"
+    "source_weight_reason": "type:open_exhibition",
+    "three_bullets": [
+      "soft_intro",
+      "Based in UK — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 8 January 2025 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Japan Foundation Cultural Exchange Grant",
@@ -37289,7 +38014,12 @@
     "why_it_fits_ja": "日本在住アーティストに適しており、東京の都市記録というテーマは文化交流の観点から強いアピール力を持つ。個人・共同プロジェクトなど複数の申請枠あり。",
     "site_http_code": 200,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant"
+    "source_weight_reason": "type:grant",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: September–October annually (check jpf.go.jp for current cycle) — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Open Calls for Artists",
@@ -38061,7 +38791,12 @@
       "日本語に一定の習熟度がある場合、摩擦は中程度；レンタルギャラリーは東京では一般的"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:local_gallery"
+    "source_weight_reason": "type:local_gallery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "ZINEイベント",
@@ -38436,7 +39171,12 @@
     "why_it_fits_ja": "2026年5月14日〜24日、東京で開催される国際アート・工芸公募展。",
     "name_en": "Tokyo Art & Craft International Open",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-03-06 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Koenji SANAGI",
@@ -40150,7 +40890,12 @@
     "one_sentence_ja": "Mall Galleries Open Exhibitionsは、英国における水彩・紙上作品のリサーチに適した公募展ソース。",
     "why_it_fits_ja": "水彩、素描、紙上作品に関する公募展コンテキストとして有効。直接確認の有力候補。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:open_exhibition"
+    "source_weight_reason": "type:open_exhibition",
+    "three_bullets": [
+      "soft_intro",
+      "Based in UK — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 8 January 2025 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Aquarium - 2026",
@@ -40331,7 +41076,12 @@
     "one_sentence_ja": "第4回年次公募展。視覚芸術家を対象に出版・販売の機会を提供。",
     "why_it_fits_ja": "第4回年次公募展。視覚芸術家を対象に出版・販売の機会を提供。",
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:entry"
+    "source_weight_reason": "reward:url:entry",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in International — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: May 8th, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Royal Watercolour Society Open Exhibition",
@@ -40968,7 +41718,12 @@
     "why_it_fits_ja": "Gallery Rocketのキュレーション感覚はイラストとファインアートが交差する地点に位置し、GEGYjijiの都市水彩作品と完全に合致する。原宿のクリエイティブな集積は、初期の展示歴に高い認知度をもたらす。",
     "site_http_code": 0,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:cafe_gallery"
+    "source_weight_reason": "type:cafe_gallery",
+    "three_bullets": [
+      "Visit in Tokyo — Harajuku, Shibuya, Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo — Harajuku, Shibuya, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: ongoing — proposal-based — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Self Publish, Be Happy",
@@ -42755,7 +43510,12 @@
     "why_it_fits_ja": "年齢・性別・国籍不問、発表・展示済み作品も受付可能な全国規模のイラスト公募。",
     "name_en": "Taiwan VC Illustration Award 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2025-12-31 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Design Festa",
@@ -43051,7 +43811,12 @@
     "why_it_fits_ja": "展示機会を求めるイラストレーターや水彩作家に適したグループ展の連続企画。",
     "name_en": "Summer Exhibition Series Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "2026 Artist Projects (GCAC)",
@@ -43183,7 +43948,12 @@
     "why_it_fits_ja": "GCACの年次助成金は多分野の視覚芸術家を支援するが、米国拠点のため東京在住アーティストの応募資格が制限される可能性がある。",
     "site_http_code": 200,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Columbus, USA — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "True Beauty - 2026",
@@ -43335,7 +44105,12 @@
     "one_sentence_ja": "水彩・イラスト作品を募集する第5回審査制年次展。宣伝・販売の機会あり。",
     "why_it_fits_ja": "水彩・イラスト作品を募集する第5回審査制年次展。宣伝・販売の機会あり。",
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:entry"
+    "source_weight_reason": "reward:url:entry",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 5/26/26 at 11:59 p.m. PDT — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Submissions — Clavis Publishing",
@@ -43868,7 +44643,12 @@
     "why_it_fits_ja": "国際的なアーティストや出版社が集まるアートブック・ジンのフェア。招待制で、ホスト出展者がゲスト出展者を推薦する形式。",
     "fee": "¥1,000",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Bring or send a physical sample — zine culture is tactile and curators decide based on the object",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: June 7, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "DER GREIF",
@@ -44223,7 +45003,12 @@
     "deadline_source": "harvested_from_submission_page",
     "name_en": "Splash 27 Watercolor Competition",
     "source_type_weight": 0.55,
-    "source_weight_reason": "penalty:title:best of"
+    "source_weight_reason": "penalty:title:best of",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in International — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2025年12月19日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "第22回 世界絵画大賞展2026",
@@ -44355,7 +45140,12 @@
     "exclusive_primary_bucket": "research_needed",
     "name_en": "World Painting Grand Prize 2026",
     "source_type_weight": 0.6,
-    "source_weight_reason": "penalty:url:archive"
+    "source_weight_reason": "penalty:url:archive",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年3月1日より応募開始 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "The Container",
@@ -44653,7 +45443,12 @@
     "one_sentence_ja": "多様なアーティストから作品を募集する国際アートコンペティション。",
     "why_it_fits_ja": "多様なアーティストから作品を募集する国際アートコンペティション。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in International — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "Aperture | Photography",
@@ -45034,7 +45829,12 @@
     "one_sentence_zh": "皇家水彩画家协会是英国水彩公开展览的重要来源，适用于水彩及纸上作品的研究参考。",
     "why_it_fits_zh": "原生水彩艺术环境，若要求与日期符合当前情况，则在媒介契合度上具有较强优势。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:watercolor_open_exhibition"
+    "source_weight_reason": "type:watercolor_open_exhibition",
+    "three_bullets": [
+      "soft_intro",
+      "Based in UK — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-01-23 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Clavis Publishing Submissions",
@@ -45691,7 +46491,12 @@
     "one_sentence_ja": "ArtConnect Open Callsは、水彩・紙上作品のグローバルリサーチに役立つ公募インデックスソース。",
     "why_it_fits_ja": "水彩、素描、レジデンス、紙上作品の公募を探すための発見ソース。定期的なリサーチフィードとして活用可。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:open_call_index"
+    "source_weight_reason": "type:open_call_index",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: October 26, 2025 at 11:59 p.m. MDT — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Japan International Watercolor Institute Online Exhibition",
@@ -46276,7 +47081,12 @@
     "why_it_fits_ja": "東京のレジデンシープログラム。スタジオ・生活費・制作費を提供し、異文化間の創作交流と研究を促進します。",
     "name_en": "TOKAS Residency Program",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Review residency requirements carefully — most want a project proposal, CV, and portfolio PDF in one package",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2025-11-03 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "National Watercolor Society International Open Exhibition",
@@ -46856,7 +47666,12 @@
     "why_it_fits_ja": "池袋・東京芸術劇場で開催される水彩専門展。4号以内のサイズ制限があり、都市水彩スタイルに最適。",
     "name_en": "Tokyo Watercolor Art Festival",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026年1月31日 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Boji Hair+Gallery",
@@ -47014,7 +47829,12 @@
     "one_sentence_ja": "Boji Hair+Gallery は、東京にある小規模ギャラリーで、水彩／紙作品のリサーチ対象です。",
     "why_it_fits_ja": "水彩／紙作品の展示会場として可能性がありますが、推薦前に要確認です。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:small_gallery"
+    "source_weight_reason": "type:small_gallery",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in Tokyo — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "Royal Watercolour Society",
@@ -47173,7 +47993,12 @@
     "why_it_fits_ja": "水彩に特化した環境であり、要件と日程が最新であれば媒体との適合性は非常に高いです。",
     "site_http_code": 200,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:watercolor_society"
+    "source_weight_reason": "type:watercolor_society",
+    "three_bullets": [
+      "soft_intro",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2025-11-28 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "SICF Fukuoka 2026",
@@ -47327,7 +48152,12 @@
     "one_sentence_ja": "アーティスト・クリエイター向けの展示機会。展示場所を探すイラスト・水彩作家に適している。",
     "why_it_fits_ja": "アーティスト・クリエイター向けの展示機会。展示場所を探すイラスト・水彩作家に適している。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
+      "Based in Fukuoka, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-06-11 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "submissions for the 2026 set film festival are now open",
@@ -48996,7 +49826,12 @@
     "why_it_fits_ja": "水彩・イラストレーション作家を対象としたギャラリーの公募展。",
     "name_en": "Rose Rose Rose Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
@@ -49546,7 +50381,12 @@
     "one_sentence_ja": "日本在住のアーティスト・画家を対象とした主要なアートアワード。",
     "why_it_fits_ja": "日本在住のアーティスト・画家を対象とした主要なアートアワード。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: July 1st - August 7th (payment period) — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "PhotoVogue",
@@ -49970,7 +50810,12 @@
     "why_it_fits_ja": "2026年春夏の展示期間に向けて申込を受け付けているギャラリー。",
     "name_en": "OM System Plaza Spring 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2025年12月まで受付 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
@@ -50252,7 +51097,12 @@
     "why_it_fits_ja": "視覚芸術家に適したテーマ性のある東京ギャラリーの公募展。",
     "name_en": "Boundary Open Call Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年6月30日 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Shangyuan International Residency Programme",
@@ -50690,7 +51540,12 @@
     "one_sentence_ja": "CuratorSpace は、水彩／紙作品分野を対象としたグローバルなオープンコール情報インデックスです。",
     "why_it_fits_ja": "水彩／紙作品、ドローイング、レジデンシー等の公募情報を継続的に収集するためのリサーチ源として活用できます。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:open_call_index"
+    "source_weight_reason": "type:open_call_index",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 30/09/2025 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "» 21 Terrific Small Presses Open to Direct Submissions",
@@ -51324,7 +52179,12 @@
     "why_it_fits_ja": "日本のアーティストも応募可能な国際イラストレーションコンテスト。イラストレーターに適したコンペです。",
     "name_en": "Art on Climate Illustration Contest",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-07-31 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "スクエア・ワールド2026",
@@ -51465,7 +52325,12 @@
     "why_it_fits_ja": "水彩・イラスト作品に合った作品を募集する公募展。",
     "name_en": "Square World 2026 Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会",
@@ -51604,7 +52469,12 @@
     "why_it_fits_ja": "東京芸術劇場のギャラリーで開催される水彩画展。1作家につき最大8点まで出品可能。",
     "name_en": "Tokyo Watercolor Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "Cafe Gallery HATTIFNATT",
@@ -52120,7 +52990,12 @@
     "one_sentence_ja": "アジア系ディアスポラアーティストを対象とした文化芸術展。2026年に複数回開催予定で、水彩作品に適したカテゴリーも含まれます。",
     "why_it_fits_ja": "アジア系ディアスポラアーティストを対象とした文化芸術展。2026年に複数回開催予定で、水彩作品に適したカテゴリーも含まれます。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Toronto, Canada — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: March 31, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "2026年度 第1回 スタートアップ助成",
@@ -52246,7 +53121,12 @@
     "site_http_code": 200,
     "name_en": "Arts Council Startup Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Unknown, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
@@ -53101,7 +53981,12 @@
     "why_it_fits_ja": "テーマに沿った作品を募集する東京ギャラリーの公募展。",
     "name_en": "Dining Table Open Call Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年6月13日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "第六回公募展「鳥」-bird-",
@@ -53230,7 +54115,12 @@
     "why_it_fits_ja": "東京のギャラリーがテーマ作品を募集する公募展。",
     "name_en": "Bird Open Call Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年7月21日 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "OM SYSTEM PLAZA 2026年2月～3月開催分",
@@ -53360,7 +54250,12 @@
     "why_it_fits_ja": "2026年初頭の展示日程に向けて作品を募集するギャラリー。",
     "name_en": "OM System Plaza Winter 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2025年10月31日 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "3 Top Book Publishers in Tokyo in 2026",
@@ -53830,7 +54725,12 @@
     "why_it_fits_ja": "水彩画をはじめ複数の媒体を対象とした公募展で、入選作品は東京の松坂屋上野ギャラリーにて展示されます。",
     "name_en": "Japanese Painting Open Call 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-06-05 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "「公募－日本の絵画2026－」入賞・入選発表展",
@@ -53963,7 +54863,12 @@
     "why_it_fits_ja": "自然と人間をテーマに水彩・ミクストメディア絵画を公募し、入選・入賞作品を東京会場で発表する展覧会です。",
     "name_en": "Japanese Painting Award Exhibition 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2027-01-08 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "SCCP Guest Artist",
@@ -54230,7 +55135,12 @@
     "why_it_fits_ja": "全国の画家・アーティストに開かれた地域美術展です。",
     "name_en": "Mihama Art Exhibition 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Fukui, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-09-09 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Top Artist Opportunities for 2026 | ArtConnect",
@@ -54624,7 +55534,12 @@
     "one_sentence_ja": "OCAが主催する春テーマの美術展で、水彩による都市観察や建築作品に適しています。",
     "why_it_fits_ja": "OCAが主催する春テーマの美術展で、水彩による都市観察や建築作品に適しています。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: May 31, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "NADiff a/p/a/r/t",
@@ -55227,7 +56142,12 @@
     "why_it_fits_ja": "全国のアーティストから水彩をはじめ多様な描画技法の作品を公募し、受賞制度も設けられています。",
     "name_en": "Aisho Town Painting Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Aizawa, Shiga, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年7月26日16:00 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "第92回旺玄展",
@@ -55360,7 +56280,12 @@
     "why_it_fits_ja": "水彩・絵画・デジタルアートの出品を受け付ける、東京の歴史ある公募展です。",
     "name_en": "92nd Ougen Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-05-08 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Kyoto Art Center Residency",
@@ -56040,7 +56965,12 @@
     "why_it_fits_ja": "イラストレーションや視覚芸術に取り組むアーティスト向けの公募展。",
     "name_en": "Apple Roll Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "アートの交差展 vol.6 (Art Intersection Exhibition vol.6)",
@@ -56172,7 +57102,12 @@
     "why_it_fits_ja": "現代アーティストを対象とした東京ギャラリーの公募展。",
     "name_en": "Art Intersection Exhibition vol.6",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "空色ターコイズ",
@@ -56305,7 +57240,12 @@
     "why_it_fits_ja": "イラスト制作に合致する作品を受け付ける公募展。",
     "name_en": "Turquoise Sky Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "Zines / Artist Books — Battle Plan",
@@ -56667,7 +57607,12 @@
     "why_it_fits_ja": "東京エリアで開催される水彩絵画展（10号以下）で、水彩を含む複数の媒体の作品を受け付ける。",
     "name_en": "Shuusaikai Small Works 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-05-11 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)",
@@ -56796,7 +57741,12 @@
     "one_sentence_ja": "国際交流基金によるアジアの現代視覚芸術家を支援するフェローシップ。",
     "why_it_fits_ja": "国際交流基金によるアジアの現代視覚芸術家を支援するフェローシップ。",
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:japanfoundation"
+    "source_weight_reason": "reward:url:japanfoundation",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "New York Fellowship",
@@ -56928,7 +57878,12 @@
     "one_sentence_ja": "アジアと米国の文化交流を促進する全額支給プログラムで、国際的な環境での制作活動を支援。",
     "why_it_fits_ja": "GEGYjijiのようなアーティストが国際的な環境に身を置きながら制作を深められる、全額支給の日米文化交流プログラム。",
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:asianculturalcouncil"
+    "source_weight_reason": "reward:url:asianculturalcouncil",
+    "three_bullets": [
+      "quiet_high_prestige",
+      "Based in New York, USA — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "スタートアップ助成 (Startup Grant)",
@@ -57055,7 +58010,12 @@
     "site_http_code": 429,
     "name_en": "Arts Council Startup Grant",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "2026 OCAA Ladies Art Exhibition",
@@ -57196,7 +58156,12 @@
     "one_sentence_ja": "トロントを拠点とする中国人アート協会による、女性アーティスト専用の展覧会。",
     "why_it_fits_ja": "トロントを拠点とする中国人アート協会による、女性アーティスト専用の展覧会。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Toronto, Canada — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: Tue, December 15th, 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Pastel Society Open Exhibition",
@@ -57354,7 +58319,12 @@
     "one_sentence_ja": "英国のPastel Societyによる公募展で、水彩・紙作品のリサーチ先として参考になります。",
     "why_it_fits_ja": "水彩・ドローイング・紙作品に対応したオープン展で、直接確認する価値があります。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:works_on_paper_open_exhibition"
+    "source_weight_reason": "type:works_on_paper_open_exhibition",
+    "three_bullets": [
+      "soft_intro",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2025-11-14 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Royal Institute of Painters in Water Colours",
@@ -57511,7 +58481,12 @@
     "why_it_fits_ja": "水彩に特化した環境で媒体との相性が高い。要件と日程が最新であることを要確認。",
     "site_http_code": 404,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:watercolor_open_exhibition"
+    "source_weight_reason": "type:watercolor_open_exhibition",
+    "three_bullets": [
+      "soft_intro",
+      "Based in UK — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-01-23 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Japan in Acquarello 水彩画作品公募2026",
@@ -57641,7 +58616,12 @@
     "exclusive_primary_bucket": "reject",
     "name_en": "Japan Watercolor Open Call 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "新世紀美術協会 神戸支部 油彩・水彩小作品展（Shin-Seiki Bijutsu Kyokai Kobe Branch Oil & Watercolor Small Works Exhibition）",
@@ -57813,7 +58793,12 @@
     "exclusive_primary_bucket": "reject",
     "name_en": "Shin-Seiki Kobe Small Works",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "publication_pitch",
+      "Based in Kobe, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
@@ -58015,7 +59000,12 @@
     "one_sentence_ja": "海外在住の中国人アーティストを積極的に探している中国のイラスト雑誌。東京在住・フォロワー9万人という彼女のストーリーは中国のアート読者に刺さる。",
     "why_it_fits_ja": "「東京を水彩で記録する中国人アーティスト」というクロスカルチャーな物語は、これらの出版物が求めるものとまさに合致する。日本メディアより競争が少なく、近い将来狙えるチャンス。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:press_target"
+    "source_weight_reason": "type:press_target",
+    "three_bullets": [
+      "publication_pitch",
+      "Based in Shanghai, China — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "loneliness books",
@@ -58349,7 +59339,12 @@
     "one_sentence_ja": "色彩と創造的表現をテーマにした国際絵画コンクール。水彩・イラスト制作との親和性が高い。",
     "why_it_fits_ja": "色彩と創造的表現をテーマにした国際絵画コンクール。水彩・イラスト制作との親和性が高い。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in International — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 12-03-2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)",
@@ -58506,7 +59501,12 @@
     "why_it_fits_ja": "水彩とイラストに特化した東京のカフェギャラリーで、無料で展示できるスペース。",
     "name_en": "Kamome Gallery Exhibition Jan-Mar",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Visit in Tokyo, Japan to see the space and speak with the manager about upcoming exhibition slots",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "Tokyo Open Call for Artists & Creatives",
@@ -58657,7 +59657,12 @@
     "one_sentence_ja": "渋谷・原宿エリアの会場で開催される、アーティストとクリエイター向けの東京オープンコール。",
     "why_it_fits_ja": "渋谷・原宿エリアの会場で開催される、アーティストとクリエイター向けの東京オープンコール。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "日本透明水彩会 2026",
@@ -58796,7 +59801,12 @@
     "why_it_fits_ja": "透明水彩アーティストを対象とした、デモンストレーションイベントを伴う日本の水彩専門展覧会。",
     "name_en": "Japan Transparent Watercolor 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Attend an opening or event in Sapporo, Japan first — gallery relationships start with presence, not cold submissions",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)",
@@ -58978,7 +59988,12 @@
     "why_it_fits_ja": "水彩・水墨画・紙を用いた平面作品を受け付ける展覧会。GEGYjiji の水彩制作と直接合致する。",
     "name_en": "Ueno Forest Museum Paper Works",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年4月8日~13日 (April 8-13, 2026) — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Sunny Boy Books",
@@ -59320,7 +60335,12 @@
     "one_sentence_ja": "アーティストへの助成金支援を明示した2026/2027年度の国際レジデンスプログラム。",
     "why_it_fits_ja": "アーティストへの助成金支援を明示した2026/2027年度の国際レジデンスプログラム。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:grant_discovery"
+    "source_weight_reason": "type:grant_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Paris, France — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "name": "NEW AIR 2026",
@@ -59465,7 +60485,12 @@
     "one_sentence_ja": "アジア在住アーティストを招くアーティスト・イン・レジデンス。東京拠点の活動と方向性が合致。",
     "why_it_fits_ja": "アジア在住アーティストを招くアーティスト・イン・レジデンス。東京拠点の活動と方向性が合致。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Review residency requirements carefully — most want a project proposal, CV, and portfolio PDF in one package",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-04-10 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "5th Singapore Chinese Art Exhibition 2026",
@@ -59614,7 +60639,12 @@
     "one_sentence_ja": "シンガポールで開催されるグループ展。イラストや現代アートの実践に関心を持つアーティストに向けた公募展。",
     "why_it_fits_ja": "シンガポールで開催されるグループ展。イラストや現代アートの実践に関心を持つアーティストに向けた公募展。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Singapore — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 28 February – 1 March 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Dig A Hole Zines",
@@ -60317,7 +61347,12 @@
     "why_it_fits_ja": "東京で開催される水彩アート限定の公募展で、キャリアを問わず参加できる。",
     "name_en": "Tokyo Watercolor Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "soft_intro",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 2026-01-31 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "RawGround 2026",
@@ -60468,7 +61503,12 @@
     "one_sentence_ja": "シンガポール発のクロスアーツフェスティバル。ビジュアルアーティストの展示・ワークショップを歓迎するオープンな現代アートの場。",
     "why_it_fits_ja": "シンガポール発のクロスアーツフェスティバル。ビジュアルアーティストの展示・ワークショップを歓迎するオープンな現代アートの場。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: 31 January 2026 — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "Watercolor Open Call Exhibition",
@@ -60626,7 +61666,12 @@
     "one_sentence_ja": "抽象・写実・スケッチなど多様なスタイルを受け入れる、オープン公募の水彩展。",
     "why_it_fits_ja": "抽象・写実・スケッチなど多様なスタイルを受け入れる、オープン公募の水彩展。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Verify current status at the official site before investing time — websites change and open calls close early",
+      "Deadline: Mid-July (截止 unclear from snippet) — confirm on the official site before submitting"
+    ]
   },
   {
     "name": "南京插画艺术家展览 2026年3月",
@@ -60755,7 +61800,12 @@
     "why_it_fits_ja": "南京で開催されるイラスト展。最大5点の作品を出品でき販売機会もあり、イラスト系作家に最適。",
     "name_en": "Nanjing Illustration Artist Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Nanjing, China — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026-01-25 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Clouds Art + Coffee",
@@ -61065,7 +62115,12 @@
     "why_it_fits_ja": "日本（京都）で開催される国際アートコンペで、地域の機会を求める東京在住アーティストに適している。",
     "site_http_code": 200,
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Kyoto, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: August 31, 2025 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "Asian Cultural Council Fellowship",
@@ -61357,7 +62412,12 @@
     "why_it_fits_ja": "2026年4月8日〜13日に上野の森美術館で開催される国際アート賞展覧会で、アーティストを公募。",
     "name_en": "International Art Prize 2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Deadline: 2026年2月6日 — confirm on the official site before submitting"
+    ]
   },
   {
     "title": "NEW AIR",
@@ -61621,7 +62681,12 @@
     "one_sentence_ja": "多様な視覚芸術作品を広く一般に紹介するためのオープンコール。",
     "why_it_fits_ja": "多様な視覚芸術作品を広く一般に紹介するためのオープンコール。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   },
   {
     "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
@@ -62184,6 +63249,11 @@
     "one_sentence_ja": "2026年4月17日〜22日に豊洲シビックセンターで開催される、多様な背景を持つアーティストが参加できる異文化間アート対話展。",
     "why_it_fits_ja": "2026年4月17日〜22日に豊洲シビックセンターで開催される、多様な背景を持つアーティストが参加できる異文化間アート対話展。",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:japanese_chinese_discovery"
+    "source_weight_reason": "type:japanese_chinese_discovery",
+    "three_bullets": [
+      "formal_application",
+      "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
+      "Contact information or submission guidelines may require direct research"
+    ]
   }
 ]
