@@ -622,7 +622,7 @@ def post_feedback(payload: FeedbackPayload):
         if not payload.opp_name:
             opp_data_path = DEPLOY_DIR / "compact_opportunities.json"
             if opp_data_path.exists():
-                all_opps = json.loads(opp_data_path.read_text(encoding="utf-8"))
+                all_opps = _OPP_CACHE if _OPP_CACHE is not None else json.loads(opp_data_path.read_text(encoding="utf-8"))
                 opp_id_lower = payload.opp_id.lower()
                 for o in all_opps:
                     if (o.get("title", "").lower() == opp_id_lower or
@@ -675,7 +675,7 @@ def get_feedback_insights():
     opp_path = Path(__file__).parent / "deploy_data" / "compact_opportunities.json"
     opp_by_id = {}
     if opp_path.exists():
-        all_opps = json.loads(opp_path.read_text(encoding="utf-8"))
+        all_opps = _OPP_CACHE if _OPP_CACHE is not None else json.loads(opp_path.read_text(encoding="utf-8"))
         for o in all_opps:
             key = (o.get("title") or o.get("name") or "").lower()
             if key:
@@ -773,10 +773,17 @@ class ContactEntry(BaseModel):
 
 @app.get("/api/contacts")
 def get_contacts():
-    if CONTACTS_PATH.exists():
-        data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
-        return data.get("contacts", []) if isinstance(data, dict) else data
-    return []
+    if not CONTACTS_PATH.exists():
+        return []
+    data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
+    contacts = data.get("contacts", []) if isinstance(data, dict) else data
+    # Sort: most-active statuses first, then alphabetically within status
+    STATUS_ORDER = {
+        "in_contact": 0, "sent_inquiry": 1, "ready_to_review": 2,
+        "researching": 3, "cold": 4,
+    }
+    contacts.sort(key=lambda c: (STATUS_ORDER.get(c.get("status", "cold"), 9), c.get("name", "")))
+    return contacts
 
 
 @app.post("/api/contacts")
@@ -946,7 +953,10 @@ def get_saffron():
 
     # ── Market landscape (computed from compact_opportunities.json) ───────────
     opps_path = DEPLOY_DIR / "compact_opportunities.json"
-    opps = json.loads(opps_path.read_text(encoding="utf-8")) if opps_path.exists() else []
+    if _OPP_CACHE is not None:
+        opps = _OPP_CACHE
+    else:
+        opps = json.loads(opps_path.read_text(encoding="utf-8")) if opps_path.exists() else []
 
     CAT_GROUPS = {
         "Zines & Books": {
@@ -1829,9 +1839,13 @@ def get_saffron():
     }
 
     # ── Market Stats (computed from full compact_opportunities.json dataset) ──
+    # Use cached data (load_opportunities populates _OPP_CACHE from the same file)
     _all_opps_path = DEPLOY_DIR / "compact_opportunities.json"
-    _all_opps_raw  = json.loads(_all_opps_path.read_text(encoding="utf-8")) if _all_opps_path.exists() else []
-    _all_opps      = _all_opps_raw if isinstance(_all_opps_raw, list) else _all_opps_raw.get("items", [])
+    if _OPP_CACHE is not None:
+        _all_opps = _OPP_CACHE
+    else:
+        _all_opps_raw = json.loads(_all_opps_path.read_text(encoding="utf-8")) if _all_opps_path.exists() else []
+        _all_opps = _all_opps_raw if isinstance(_all_opps_raw, list) else _all_opps_raw.get("items", [])
 
     _MS_CAT_GROUPS = {
         "Open Calls & Fairs": {

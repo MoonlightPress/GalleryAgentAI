@@ -1254,14 +1254,23 @@ const CRM_STATUS_META = {
 }
 
 const CRM_FILTER_TABS = [
-  { id: 'all',           label: 'All' },
-  { id: 'ready',         label: 'Ready' },
-  { id: 'active',        label: 'Active' },
-  { id: 'relationship',  label: 'Relationships' },
+  { id: 'all',      label: 'All' },
+  { id: 'active',   label: 'Active' },
+  { id: 'research', label: 'Researching' },
+  { id: 'cold',     label: 'Cold' },
 ]
 
 function crmStatusMeta(status) {
   return CRM_STATUS_META[status] || { label: status, bg: '#f5f5f5', border: '#ccc', text: '#555' }
+}
+
+const CRM_TYPE_LABELS = {
+  gallery: 'Gallery', gallery_small: 'Gallery', artist_space: 'Artist Space',
+  cafe_gallery: 'Café Gallery', cafe: 'Café',
+  bookstore_gallery: 'Bookstore Gallery', bookshop: 'Bookshop', bookstore: 'Bookshop',
+  zine_shop: 'Zine Shop', fair: 'Art Fair', zine_fair: 'Zine Fair',
+  press_target: 'Press', magazine: 'Magazine', publication: 'Publication',
+  book_publisher: 'Publisher', institutional: 'Institution', open_call: 'Open Call',
 }
 
 function CrmContactCard({ contact: c, onUpdate }) {
@@ -1311,7 +1320,7 @@ function CrmContactCard({ contact: c, onUpdate }) {
         <div className="crm-card-left">
           <span className="crm-card-name">{c.name}</span>
           {c.type && (
-            <span className="crm-type-badge">{c.type}</span>
+            <span className="crm-type-badge">{CRM_TYPE_LABELS[c.type] || c.type}</span>
           )}
         </div>
         <div className="crm-card-right">
@@ -1410,23 +1419,23 @@ function ContactsSection({ isOpen, onToggle, sectionRef }) {
   }
 
   // Summary counts
-  const readyCount   = contacts.filter(c => ['ready_to_review', 'researching'].includes(c.status)).length
-  const activeCount  = contacts.filter(c => ['contacted', 'in_contact', 'responded', 'submitted'].includes(c.status)).length
-  const relCount     = contacts.filter(c => c.status === 'relationship' || c.status === 'ongoing').length
+  const readyCount   = contacts.filter(c => c.status === 'ready_to_review').length
+  const activeCount  = contacts.filter(c => ['in_contact', 'sent_inquiry', 'contacted', 'responded'].includes(c.status)).length
+  const researchCount = contacts.filter(c => c.status === 'researching').length
 
   const summaryParts = []
-  if (readyCount)  summaryParts.push(`${readyCount} ready to reach out`)
-  if (activeCount) summaryParts.push(`${activeCount} active`)
-  if (relCount)    summaryParts.push(`${relCount} relationship${relCount !== 1 ? 's' : ''}`)
+  if (readyCount)    summaryParts.push(`${readyCount} ready to reach out`)
+  if (activeCount)   summaryParts.push(`${activeCount} active`)
+  if (researchCount) summaryParts.push(`${researchCount} researching`)
   const subtitle = contacts.length === 0
     ? 'No contacts yet'
-    : `${contacts.length} contacts — ${summaryParts.join(', ') || 'no active threads'}`
+    : `${contacts.length} contacts — ${summaryParts.join(', ') || 'all cold'}`
 
   const FILTER_STATUS_MAP = {
-    all:          null,
-    ready:        ['ready_to_review', 'researching', 'cold'],
-    active:       ['contacted', 'in_contact', 'responded', 'submitted'],
-    relationship: ['relationship', 'ongoing'],
+    all:      null,
+    active:   ['in_contact', 'sent_inquiry', 'contacted', 'responded', 'ready_to_review'],
+    research: ['researching'],
+    cold:     ['cold'],
   }
 
   const filtered = filter === 'all'
