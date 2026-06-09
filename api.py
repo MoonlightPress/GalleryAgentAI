@@ -218,7 +218,8 @@ def _extract_english_name(name: str, name_zh: str = "") -> str:
 
 def _overall_score(opp: dict) -> float:
     return float(
-        opp.get("overall_score")
+        opp.get("truth_aligned_score")
+        or opp.get("overall_score")
         or opp.get("differentiated_score")
         or opp.get("watercolor_adjusted_score")
         or opp.get("dna_adjusted_score")
