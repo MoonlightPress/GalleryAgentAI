@@ -90,7 +90,7 @@ Before hand-editing a JSON file, determine whether the pipeline regenerates it:
 - **Pipeline-generated (patches get overwritten — a rule is required):** `deploy_data/compact_opportunities.json`, `memory/opportunities.json`, `memory/enriched_opportunities.json`, the generated `Memory/*.json` (e.g. `career_strategy_report.json`, `exclusive_strategy_buckets.json`) and `reports/*.md`.
 - **Source / app-state (hand-editing is legitimate — no rule needed):** `memory/artist_master_profile.json`, `memory/peppercorn_profile.json`, `memory/contact_memory.json`, `memory/submission_log.json`, `memory/exhibition_log.json`. But any *derived* field computed from these still needs a rule (don't patch the derived value — fix the deriving engine).
 
-See `reports/algorithm_vs_patch_audit.md` for the worked classification of recent commits and the known structural gap (the `exclusive_primary_bucket` field on compact has no deterministic engine owner).
+See `reports/algorithm_vs_patch_audit.md` for the worked classification of recent commits. `exclusive_primary_bucket` **is** engine-owned: `engines/exclusive_strategy_bucket_engine.py` runs in the pipeline, computes each entry's bucket via `choose_bucket()`, and writes it back onto `compact_opportunities.json`. To pin a specific entry's bucket, set its `bucket_override` field (a value in `BUCKET_ORDER`) — the engine honors it deterministically. Never hand-edit `exclusive_primary_bucket` directly; the engine overwrites it.
 
 ### Key Directories
 
@@ -211,8 +211,8 @@ The full tier definitions live in `memory/artist_master_profile.json` under `car
 
 ## Artist Social Media
 
-- Instagram: @gegyjiji — https://www.instagram.com/gegyjiji/ (~90k followers, daily watercolor diary)
-- Twitter/X account exists (@GegYjiji) but do NOT reference in outreach emails. Instagram only.
+- Instagram: @gegyjiji — https://www.instagram.com/gegyjiji/ (~26k followers, daily watercolor diary)
+- Twitter/X account exists (@GegYjiji, ~90k followers) but do NOT reference in outreach emails. Instagram only. (The ~90k figure is Twitter, NOT Instagram — a longstanding mix-up; Instagram is ~26k.)
 
 ## Development Posture
 

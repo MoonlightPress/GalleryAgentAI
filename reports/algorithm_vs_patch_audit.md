@@ -8,13 +8,15 @@
 
 ## The core architectural finding
 
-`deploy_data/compact_opportunities.json` is a **curated hybrid artifact**, not pure engine output:
+**Correction (2026-06-10):** an earlier draft of this audit claimed `exclusive_primary_bucket` had "no deterministic engine owner" and that the bucket engine wrote only to a separate file. **That was wrong** — it missed `save_json(OPP_PATH, opps)` at the end of `engines/exclusive_strategy_bucket_engine.py`.
 
-1. `enriched_to_compact_opportunities.py` is **preserving** — it keeps existing entries (dropping only `import_source == "opportunity_intelligence_sprint_v1"`) and appends new enriched ones. It does **not** recompute `exclusive_primary_bucket`, `category`, `priority`, or `why_relevant`.
-2. `engines/exclusive_strategy_bucket_engine.py` writes buckets to a **separate** file (`memory/exclusive_strategy_buckets.json`) using **different bucket names** (`publication_editorial`, `competitions_awards`, …) than the `exclusive_primary_bucket` values served from compact (`publication_targets`, `japan_book_ecosystem`, `relationship_builders`, …). The two are **decoupled** — nothing syncs the engine's verdict back onto the served field.
-3. Most per-entry fields in compact are written by **one-shot seed/patch scripts** (`add_cafe_zine_entries.py`, `scripts/patches/*`) that hardcode values.
+The reality:
 
-**Consequence:** "delete all JSON and run the pipeline from scratch" would **not** reproduce today's served dataset. The bucket/category/priority fields on compact are effectively curated data with no single deterministic engine owner. This is the root cause behind most B's below, and the highest-leverage thing to fix structurally (see Exceptions doc).
+1. `engines/exclusive_strategy_bucket_engine.py` **is** in the pipeline (`run_full_mochi_pipeline.py:97`). Its `main()` calls `choose_bucket(opp)` for every entry, writes `opp["exclusive_primary_bucket"] = bucket`, and **saves it back onto `deploy_data/compact_opportunities.json`** (it also writes a secondary analysis file, `memory/exclusive_strategy_buckets.json`). `choose_bucket` returns the same vocabulary compact serves (`publication_targets`, `japan_book_ecosystem`, `competitions_awards`, …). So the field **is** engine-owned.
+2. `enriched_to_compact_opportunities.py` is **preserving** (keeps existing entries, appends new enriched), so it doesn't fight the bucket engine.
+3. Measured reproducibility: running `choose_bucket` over all 379 served entries diverged from the served buckets on **only 3 entries** — i.e. the dataset was already **99.2% engine-reproducible**. The 3 were manual patches (see below). After this fix it is **100%** (0 diffs).
+
+**Consequence:** the bucket field is reproducible. The remaining risk was the handful of manual `exclusive_primary_bucket` edits that a fresh engine run would silently overwrite. Those are now resolved (engine verdicts accepted where policy-correct; one sanctioned `bucket_override` where a curated decision was worth keeping).
 
 ## Commit-by-commit classification
 
@@ -47,13 +49,22 @@
 
 - **CRM priority labels (#15):** added `_normalize_contact_priorities()` in `api.py`, applied in `get_contacts()` and the Saffron `venue_tracker`. Legacy `A/B/C` is coerced to `high/medium/low` **at read time**, so the served data is correct regardless of which historical seed wrote it — even if old labels reappear in the source JSON. This converts the priority half of `e3044ad0` from a one-time data patch into a permanent rule.
 
-## What could not be converted (see `reports/patch_exceptions.md`)
+## Bucket edits (`#10`, `#20`) — RESOLVED (2026-06-10)
 
-- `#10`, `#20` compact bucket/category edits — the served `exclusive_primary_bucket`/`category` fields have **no deterministic engine owner** (bucket engine is decoupled, different names). Converting requires a new pipeline step that maps the bucket engine's verdict onto compact and reconciles the naming — a real refactor, too broad to land safely unsupervised.
-- `#20` deadline correction (`"1 July 2025" → "Rolling consignment — contact directly"`) — per-opportunity real-world truth that no engine can derive without re-scraping the source.
-- `#15` `why_relevant` text — curated per-venue justification; an engine could generate generic copy but not this specific reasoning.
-- `#19` peppercorn seed goals — `peppercorn_profile.json` is app-state, not pipeline output; the **schema** (id+done) is produced by the app on save, the seed goals are example data.
+`exclusive_primary_bucket` is engine-owned (above). The 3 entries where the served data diverged from a fresh engine run were reconciled:
+
+- **Der Greif, PhotoVogue** (`reject → research_needed`): the engine routes these photography open-calls to `research_needed` as translation candidates. The manual `reject` actually **violated** the documented "do not penalize photography opportunities" policy, so the engine verdict was accepted — this is a fix, not a loss.
+- **shashasha** (`japan_book_ecosystem` vs `publication_targets`): a deliberate prior curation (it's a publisher you submit to). Preserved via the new **`bucket_override`** field, which `choose_bucket` honors deterministically. The curated decision now lives in the data as an engine-respected rule, not a silent patch.
+
+Result: 0 diffs between served compact and a fresh `choose_bucket` run.
+
+## What still cannot be converted (see `reports/patch_exceptions.md`)
+
+- `#20` deadline correction (`"1 July 2025" → "Rolling consignment — contact directly"`) — per-opportunity real-world truth that no engine can derive without re-scraping. Belongs to the Verification layer.
+- `#20`/`#2` `category` backfill — needs an enrichment classifier pass over legacy entries.
+- `#15` `why_relevant` text — curated per-venue justification; an engine could emit generic copy but not this reasoning.
+- `#19` peppercorn seed goals — app-state, not pipeline output; schema (id+done) is app-produced.
 
 ## Recommendation
 
-The single highest-leverage structural fix is to **make `exclusive_primary_bucket` engine-owned**: add a normalization step late in the pipeline that writes the bucket engine's verdict onto each compact entry (reconciling the `publication_editorial` vs `publication_targets` naming), so bucket assignment stops being curated data. Until then, bucket edits to compact remain unavoidable data patches and must be logged per the Data Patch Rule.
+The bucket-ownership gap is closed. Remaining structural work, in priority order: (1) extend Verification to refresh per-opportunity deadlines (kills the deadline-patch class); (2) an enrichment backfill that classifies category-less legacy entries. Both let more of the dataset rebuild correctly from scratch.

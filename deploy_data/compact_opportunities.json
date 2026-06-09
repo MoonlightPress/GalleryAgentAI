@@ -42940,7 +42940,8 @@
       "次のステップ：類似するアーティストまたは書籍を3点リストアップする。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:book_publishing"
+    "source_weight_reason": "type:book_publishing",
+    "bucket_override": "publication_targets"
   },
   {
     "title": "torch press",
@@ -44940,7 +44941,7 @@
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "reject",
+    "exclusive_primary_bucket": "research_needed",
     "painting_gate_status": "promoted",
     "painting_gate_hits": [
       "watercolor",
@@ -50687,7 +50688,7 @@
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "reject",
+    "exclusive_primary_bucket": "research_needed",
     "pre_final_guard_score": 4.1,
     "final_score_guard_note": "Rescored 4.1 → 3.5 (verification_points=5, composite=3.58)",
     "submission_url": "https://picter.com",

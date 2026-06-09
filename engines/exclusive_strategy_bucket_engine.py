@@ -183,6 +183,15 @@ def choose_bucket(opp):
     if opp.get("recommendation_visibility") == "hidden":
         return "reject"
 
+    # Data-level bucket override: an entry may explicitly pin its bucket via the
+    # `bucket_override` field. The engine honors it deterministically, so a
+    # curated routing decision lives in the data yet stays 100% reproducible on a
+    # fresh pipeline run. This is the sanctioned alternative to silently editing
+    # `exclusive_primary_bucket` (which the engine would otherwise overwrite).
+    override = opp.get("bucket_override")
+    if override in BUCKET_ORDER:
+        return override
+
     # Grants are never filtered by photography or deadline in the usual way.
     # Only verified/strong_partial grants with high scores → stretch_targets.
     # Discovered but unverified grants → research_needed (don't flood stretch_targets).

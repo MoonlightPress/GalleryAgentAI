@@ -6,11 +6,11 @@ Goal restated: deleting all JSON and running the pipeline from scratch should pr
 
 ---
 
-## 1. `exclusive_primary_bucket` edits on compact opportunities
-- **Commits:** `97315944` (shashasha → `publication_targets`), `9b26df47` (one entry `immediate_best_moves → publication_targets`)
+## 1. `exclusive_primary_bucket` edits on compact opportunities — RESOLVED (2026-06-10)
+- **Commits:** `97315944` (shashasha → `publication_targets`), `9b26df47` (one entry).
 - **File:** `deploy_data/compact_opportunities.json`
-- **Why not an engine rule:** the served `exclusive_primary_bucket` field has **no deterministic engine owner**. `engines/exclusive_strategy_bucket_engine.py` computes buckets into a *separate* file (`memory/exclusive_strategy_buckets.json`) using *different* names (`publication_editorial`, `competitions_awards`, …) and nothing syncs that verdict back onto compact. The field is set by one-shot seed/patch scripts.
-- **Engine rule it should become:** a late-pipeline normalization step that (a) reconciles the bucket-name vocabularies and (b) writes the bucket engine's verdict onto each compact entry's `exclusive_primary_bucket`. Then `book_publishing` → `publication_targets` (and every other routing) would be reproduced automatically. Deferred: it touches every opportunity's routing and is too broad to land safely without review.
+- **Resolution:** the field **is** engine-owned — `engines/exclusive_strategy_bucket_engine.py` (pipeline step) runs `choose_bucket()` over every entry and writes `exclusive_primary_bucket` back onto compact. The earlier "no engine owner" claim was an analysis error. To pin a specific entry, set its **`bucket_override`** field (a value in `BUCKET_ORDER`); `choose_bucket` returns it verbatim, so the routing decision is curated data the engine deterministically honors. shashasha is now pinned this way. Served data == fresh engine run (0 diffs).
+- **Caveat for true from-scratch:** `bucket_override` lives on the compact entry, which survives incremental runs (the compactor preserves entries). A literal "delete every JSON including the discovery corpus" rebuild would not carry the override unless it is also seeded upstream — acceptable, because the override is a deliberate human decision that belongs with the curated entry, not something discovery should invent.
 
 ## 2. `category` backfill on compact opportunities
 - **Commit:** `9b26df47` (added `category` to entries that lacked it: `illustration_prize`, `gallery`, `competition_award`, `institutional`, …)

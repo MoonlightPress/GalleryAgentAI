@@ -1211,6 +1211,25 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "shashasha",
+      "score": 5.0,
+      "differentiated_score": 6.56,
+      "visual_fit_score": 2.4,
+      "verification_bucket": "",
+      "verification_score": 1,
+      "why": "Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere.",
+      "source": "",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book"
+      ],
+      "opportunity_type": "photobook_platform",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "The Container",
       "score": 4.4,
       "differentiated_score": 6.42,
@@ -1230,27 +1249,7 @@
       "draft_introduction_ja": ""
     }
   ],
-  "japan_book_ecosystem": [
-    {
-      "title": "shashasha",
-      "score": 5.0,
-      "differentiated_score": 6.56,
-      "visual_fit_score": 2.4,
-      "verification_bucket": "",
-      "verification_score": 1,
-      "why": "Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere.",
-      "source": "",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book"
-      ],
-      "opportunity_type": "photobook_platform",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    }
-  ],
+  "japan_book_ecosystem": [],
   "stretch_targets": [
     {
       "title": "FY2026 Life with Art Grant",
@@ -3752,6 +3751,25 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "DER GREIF",
+      "score": 4.6,
+      "differentiated_score": 7.54,
+      "visual_fit_score": 2.4,
+      "verification_bucket": "",
+      "verification_score": 10,
+      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
+      "source": "https://dergreif.org/",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "Aoyama Farmers Market",
       "score": 6.0,
       "differentiated_score": 7.3,
@@ -4475,6 +4493,21 @@
       "source": "https://www.arte-vent.com/",
       "visual_hits": [],
       "opportunity_type": "enriched_opportunity",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "PhotoVogue",
+      "score": 3.5,
+      "differentiated_score": 5.2,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "",
+      "verification_score": 6,
+      "why": "Potential fit based on source context and keyword overlap: open call, submission, exhibition, illustration",
+      "source": "https://www.vogue.com/photovogue",
+      "visual_hits": [],
+      "opportunity_type": "open_call",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -5598,25 +5631,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "DER GREIF",
-      "score": 4.6,
-      "differentiated_score": 7.54,
-      "visual_fit_score": 2.4,
-      "verification_bucket": "",
-      "verification_score": 10,
-      "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper",
-      "source": "https://dergreif.org/",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "Aperture | Photography",
       "score": 4.4,
       "differentiated_score": 7.49,
@@ -5939,21 +5953,6 @@
         "artist book",
         "artist_book"
       ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "PhotoVogue",
-      "score": 3.5,
-      "differentiated_score": 5.2,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "",
-      "verification_score": 6,
-      "why": "Potential fit based on source context and keyword overlap: open call, submission, exhibition, illustration",
-      "source": "https://www.vogue.com/photovogue",
-      "visual_hits": [],
       "opportunity_type": "open_call",
       "action_type": "apply",
       "relationship_note": "",
