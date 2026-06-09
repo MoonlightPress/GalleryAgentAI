@@ -1062,7 +1062,7 @@ def get_saffron():
             },
         ],
         "social": [
-            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "~90k", "posts": None},
+            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "26k", "posts": None},
         ],
         "education": {
             "institution": "Beijing Fashion Institute",
@@ -1236,14 +1236,14 @@ def get_saffron():
             {
                 "name": "Instagram",
                 "handle": "@gegyjiji",
-                "followers": "~90k",
+                "followers": "26k",
                 "posts": None,
-                "note": "Primary visual portfolio platform — ~90k followers built through daily watercolor diary practice since 2020. The platform galleries, publishers, and curators use for discovery.",
+                "note": "Primary visual portfolio platform — 26k followers built through daily watercolor diary practice since 2020. The platform galleries, publishers, and curators use for discovery.",
             },
         ],
         "gap": {
-            "instagram": 90000,
-            "analysis": "Instagram is well-developed (~90k followers). The open question is posting cadence and curation strategy — whether she is actively building the account or treating it as a portfolio archive changes the advice entirely.",
+            "instagram": 26000,
+            "analysis": "Instagram is established (26k followers) and growing. The open question is posting cadence and curation strategy — whether she is actively building toward the 50k market-viability signal or treating the account as a portfolio archive changes the advice entirely.",
         },
         "known": {
             "content_type": "Urban environments, cats, domestic life, travel fragments — high-performing Instagram subject matter",
@@ -1269,7 +1269,7 @@ def get_saffron():
     audience_geography = {
         "available": False,
         "reason": "Instagram Insights are not accessible without the artist's credentials. Geographic audience data cannot be observed from public sources.",
-        "why_it_matters": "Whether her ~90k Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.",
+        "why_it_matters": "Whether her 26k Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.",
         "hypothesis": "Based on the ACG/illustration community context, the Instagram following may skew toward Chinese-language users. Whether the Tokyo-based practice has shifted that toward a Japan-leaning or globally distributed audience is unconfirmed.",
         "what_peppercorn_should_ask": "Can you share a screenshot of your Instagram Audience Insights (country/city breakdown)?",
     }
@@ -1279,7 +1279,7 @@ def get_saffron():
         "artist_record": {
             "exhibitions": _total_group_shows,
             "publications": 2,
-            "instagram": "~90k",
+            "instagram": "26k",
             "age_approx": 26,
             "years_active": "~6 (daily practice from 2020, first publication 2021)",
         },
@@ -1304,15 +1304,15 @@ def get_saffron():
             },
             {
                 "dimension": "Instagram followers",
-                "artist_value": "~90k",
+                "artist_value": "26k",
                 "peer_low": "5k",
                 "peer_typical": "15–50k",
                 "peer_high": "100k+",
-                "assessment": "strong",
-                "note": "Top percentile for illustrators at this career stage — an unusually strong asset for gallery and publisher discovery",
+                "assessment": "on_track",
+                "note": "Right in the typical band for illustrators at this stage — a solid, real audience for print and zine discovery, with room to grow toward the 50k market-viability signal",
             },
         ],
-        "summary": "Exhibition history is the weakest dimension. Instagram presence (~90k followers) is an unusually strong asset at this career stage. The gap between audience size and exhibition count is larger than typical — the audience exists, the CV is still thin.",
+        "summary": "Exhibition history is the weakest dimension. The 26k Instagram following is a solid, real asset at this career stage but not yet a standout — it sits in the typical peer range. The near-term work is converting audience into exhibition and publication credits.",
     }
 
     # ── Seasonal opportunity calendar ─────────────────────────────────────────
@@ -1644,7 +1644,7 @@ def get_saffron():
         "questions": [
             {
                 "question": "What is her current Instagram posting frequency?",
-                "why_it_matters": "With ~90k followers, Instagram is already well-established. Cadence is the most controllable variable for maximising reach on the platform galleries, publishers, and curators actually use for discovery. Without knowing current frequency, no posting strategy can be recommended.",
+                "why_it_matters": "With a 26k Instagram following, the account is established and growing. Cadence is the most controllable variable for maximising reach on the platform galleries, publishers, and curators actually use for discovery. Without knowing current frequency, no posting strategy can be recommended.",
                 "routed_to": "Peppercorn",
             },
             {
@@ -2137,17 +2137,63 @@ def get_saffron():
     }
 
 
+def _live_career_counts() -> dict:
+    """Live counts for the Peppercorn progress carousel — no hardcoded numbers.
+
+    - group_shows: confirmed group exhibitions in the artist profile (Tide from
+      China) + group_show entries logged via submission_log.json. Evidence-first:
+      unconfirmed profile mentions don't count.
+    - publications: publications recorded in artist_master_profile career_history.
+    - instagram: follower figure from the profile's social_presence block.
+    """
+    amp_path = DATA_DIR / "artist_master_profile.json"
+    amp = json.loads(amp_path.read_text(encoding="utf-8")) if amp_path.exists() else {}
+    ch = amp.get("career_history", {})
+
+    confirmed_groups = sum(
+        1 for ex in ch.get("exhibitions", [])
+        if "group" in (ex.get("type") or "").lower()
+        and (ex.get("confidence") or "").lower().startswith("confirmed")
+    )
+    sub_path = DATA_DIR / "submission_log.json"
+    logged_groups = 0
+    if sub_path.exists():
+        try:
+            subs = json.loads(sub_path.read_text(encoding="utf-8"))
+            if isinstance(subs, dict):
+                subs = subs.get("submissions", [])
+            logged_groups = sum(1 for s in subs if (s.get("type") or "") == "group_show")
+        except Exception:
+            logged_groups = 0
+
+    publications = len(ch.get("publications", []))
+
+    ig = (amp.get("social_presence", {}) or {}).get("instagram", {}) or {}
+    return {
+        "group_shows":          confirmed_groups + logged_groups,
+        "group_shows_target":   3,
+        "publications":         publications,
+        "publications_target":  3,
+        "instagram_followers":  ig.get("followers") or "—",
+        "instagram_approx":     ig.get("followers_approx"),
+        "instagram_target":     ig.get("next_milestone") or 50000,
+    }
+
+
 @app.get("/api/peppercorn")
 def get_peppercorn():
     ppath = DATA_DIR / "peppercorn_profile.json"
     if ppath.exists():
-        return json.loads(ppath.read_text(encoding="utf-8"))
+        prof = json.loads(ppath.read_text(encoding="utf-8"))
+        prof["live_counts"] = _live_career_counts()
+        return prof
     # Build defaults from artist_master_profile
     mpath = DATA_DIR / "artist_master_profile.json"
     master = json.loads(mpath.read_text(encoding="utf-8")) if mpath.exists() else {}
     vp = master.get("visual_profile", {})
     return {
         "last_updated": None,
+        "live_counts": _live_career_counts(),
         "priorities": {
             "active_tiers": [1, 2],
             "primary_track": "hybrid",

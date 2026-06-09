@@ -16,7 +16,7 @@
       "background": "Illustration and design — not classical fine arts",
       "note": "Specialist design/illustration university, not a traditional fine arts academy. Her formation is illustrator-community rooted, not gallery-track. This is confirmed; graduation year is unconfirmed but approximate c.2021–2023."
     },
-    "summary": "GEGYjiji is a 26-year-old Chinese watercolor artist based between Tokyo and Beijing. Originally from Changsha (Hunan Province), she studied illustration and design at Beijing Fashion Institute. She paints urban atmosphere, domestic stillness, cats, interior light, and the quiet accumulation of memory. Her practice is illustration-community rooted — zine shops, art book publishers, and illustration fairs are her primary ecosystem; fine art galleries are secondary. She has N2 Japanese and ~90k Twitter followers, and is actively building toward publication collaborations and Tokyo exhibition presence.",
+    "summary": "GEGYjiji is a 26-year-old Chinese watercolor artist based between Tokyo and Beijing. Originally from Changsha (Hunan Province), she studied illustration and design at Beijing Fashion Institute. She paints urban atmosphere, domestic stillness, cats, interior light, and the quiet accumulation of memory. Her practice is illustration-community rooted — zine shops, art book publishers, and illustration fairs are her primary ecosystem; fine art galleries are secondary. She has N2 Japanese and a ~26k Instagram following, and is actively building toward publication collaborations and Tokyo exhibition presence.",
     "dominant_subjects": [
       "urban atmosphere and streetscapes",
       "domestic interiors and interior light",
@@ -156,7 +156,7 @@
     "community_root": "illustration",
     "primary_ecosystem": "zine / artist book / illustration publisher / illustration fair",
     "secondary_ecosystem": "fine art gallery / open call / watercolor society",
-    "explanation": "GEGYjiji's formation is at Beijing Fashion Institute (design/illustration), not a fine arts academy. Her online presence, publications, and first Japan exhibition (a group show organized by a Chinese ACG/illustration company) are all illustration-community contexts. Her 90k Twitter following is an illustrator-community following, not a fine art collector following. This does not make fine art galleries wrong for her — her work is genuinely suited to gallery contexts — but it means the illustration/publishing ecosystem is her native territory and the higher-probability near-term path. Gallery track is a parallel development, not the primary one.",
+    "explanation": "GEGYjiji's formation is at Beijing Fashion Institute (design/illustration), not a fine arts academy. Her online presence, publications, and first Japan exhibition (a group show organized by a Chinese ACG/illustration company) are all illustration-community contexts. Her ~26k Instagram following is an illustrator-community following, not a fine art collector following. This does not make fine art galleries wrong for her — her work is genuinely suited to gallery contexts — but it means the illustration/publishing ecosystem is her native territory and the higher-probability near-term path. Gallery track is a parallel development, not the primary one.",
     "scoring_instruction": "When two opportunities have equivalent pipeline scores, the one in the illustration/publishing ecosystem should surface first. Gallery calls should not be suppressed — they remain valid and aspirationally correct — but artist book publishers, zine distros, illustration fairs, and bookshop galleries should consistently rank ahead of equivalent gallery open calls in Immediate Best Moves.",
     "what_this_changes": [
       "artist_book and zine/publishing weights raised above gallery_exhibition weights",
@@ -235,6 +235,17 @@
       "page": "observatory",
       "role": "Market view. Statistics. Context. Comparable artists.",
       "palette": "silver-grey, pale blue, morning mist — coolest of the three"
+    }
+  },
+  "social_presence": {
+    "instagram": {
+      "handle": "@gegyjiji",
+      "url": "https://www.instagram.com/gegyjiji/",
+      "followers": "26k",
+      "followers_approx": 26000,
+      "next_milestone": 50000,
+      "note": "Primary platform. Daily watercolor diary since 2020. Instagram is the platform galleries, publishers, and curators use for discovery — outreach references Instagram only.",
+      "verified": "2026-06-10 (artist-stated)"
     }
   },
   "career_history": {
@@ -319,7 +330,7 @@
         "url": "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji-part-2/"
       }
     ],
-    "career_stage_note": "Confirmed record is solidly Tier 1–2. One group show in Japan (2023, first Japan show). One solo illustration collection (2021). Strong illustrator-community social following (~70–90k Twitter). No institutional exhibition history, no residency, no gallery representation found. Profile career phase assessment is accurate."
+    "career_stage_note": "Confirmed record is solidly Tier 1–2. One group show in Japan (2023, first Japan show). One solo illustration collection (2021). Solid illustrator-community social following (~26k Instagram). No institutional exhibition history, no residency, no gallery representation found. Profile career phase assessment is accurate."
   },
   "artist_statement": {
     "_research_date": "2026-06-07",

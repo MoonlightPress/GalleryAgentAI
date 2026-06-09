@@ -111,7 +111,11 @@ function InstagramStrategySection({ isOpen, onToggle, sectionRef }) {
           <p className="pp-analysis-note">{t('pp.ig.analysis')}</p>
           <div className="pp-threshold-list">
             <div className="pp-threshold-row">
-              <div className="pp-threshold-marker pp-threshold-marker--next">100k</div>
+              <div className="pp-threshold-marker pp-threshold-marker--next">50k</div>
+              <p className="pp-threshold-desc">{t('pp.ig.thresh.50k')}</p>
+            </div>
+            <div className="pp-threshold-row">
+              <div className="pp-threshold-marker">100k</div>
               <p className="pp-threshold-desc">{t('pp.ig.thresh.100k')}</p>
             </div>
           </div>
@@ -1632,6 +1636,18 @@ function buildCarouselCards(profile, t) {
   const goalsCount   = (profile.goals || []).filter(g => !g.done).length
   const hasText      = (profile.artist_statement || '').length > 30
 
+  // Live counts from the backend (artist_master_profile + submission_log) —
+  // no hardcoded follower/show/publication numbers.
+  const lc           = profile.live_counts || {}
+  const igFollowers  = lc.instagram_followers || '26k'
+  const igApprox     = lc.instagram_approx || 26000
+  const igTarget     = lc.instagram_target || 50000
+  const igTargetLbl  = `${Math.round(igTarget / 1000)}k`
+  const pubCount     = lc.publications ?? 2
+  const pubTarget    = lc.publications_target ?? 3
+  const showCount    = lc.group_shows ?? 1
+  const showTarget   = lc.group_shows_target ?? 3
+
   const qsDesc = answeredCount === 0 ? t('pp.carousel.qs.desc.0')
     : answeredCount < 4  ? t('pp.carousel.qs.desc.building', { n: answeredCount })
     : answeredCount < 8  ? t('pp.carousel.qs.desc.partial')
@@ -1642,18 +1658,18 @@ function buildCarouselCards(profile, t) {
       id: 'ig',
       sectionId: 'instagram-strategy',
       name: t('pp.carousel.ig.name'),
-      current: '~90k',
-      next: '100k',
-      ratio: 90 / 100,
+      current: igFollowers,
+      next: igTargetLbl,
+      ratio: igApprox / igTarget,
       desc: t('pp.carousel.ig.desc'),
     },
     {
       id: 'pub',
       sectionId: null,
       name: t('pp.carousel.pub.name'),
-      current: '2',
-      next: '3',
-      ratio: 2 / 3,
+      current: String(pubCount),
+      next: String(pubTarget),
+      ratio: pubCount / pubTarget,
       desc: t('pp.carousel.pub.desc'),
     },
     {
@@ -1669,9 +1685,9 @@ function buildCarouselCards(profile, t) {
       id: 'shows',
       sectionId: 'exhibition-pathway',
       name: t('pp.carousel.shows.name'),
-      current: '1',
-      next: '3',
-      ratio: 1 / 3,
+      current: String(showCount),
+      next: String(showTarget),
+      ratio: showTarget ? showCount / showTarget : 0,
       desc: t('pp.carousel.shows.desc'),
     },
     {

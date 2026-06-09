@@ -62,11 +62,11 @@ export const LICENSING_LANDSCAPE = {
       "category_ja": "出版・編集"
     },
     {
-      "category": "Why 90k makes her licensable now",
+      "category": "Why her audience makes her licensable",
       "entries": [
         {
           "name": "The audience threshold",
-          "note": "Brand licensing decisions are partly marketing decisions. At 90k followers, she IS a distribution channel. Brands can justify the collab as audience access, not just art acquisition. Most licensing relationships begin via DM — brands approach artists they follow.",
+          "note": "Brand licensing decisions are partly marketing decisions. At 26k followers she is a small but real distribution channel — niche collabs can justify the partnership as audience access, not just art acquisition. Most licensing relationships begin via DM — brands approach artists they follow.",
           "tier": "now",
           "note_zh": "品牌授权决策在一定程度上也是营销决策。拥有9万粉丝，她本身就是一个传播渠道。品牌可以将合作定位为触达受众的方式，而不仅仅是购买艺术品。大多数授权合作始于私信——品牌主动联系他们关注的艺术家。",
           "note_ja": "ブランドのライセンス判断は、マーケティング判断でもある。フォロワー9万人の彼女は、それ自体が一つの流通チャネルだ。ブランド側は、コラボを単なる作品取得ではなく、オーディエンスへのアクセスとして正当化できる。ライセンス関係のほとんどはDMから始まる——ブランドは自分たちがフォローしているアーティストに声をかける。"
@@ -87,7 +87,7 @@ export const LICENSING_LANDSCAPE = {
         },
         {
           "name": "Realistic timeline",
-          "note": "First licensing inquiry typically arrives 2–3 years into consistent daily posting with a distinct recognizable style. At 90k today, first conversations are within reach in 6–18 months with active outreach.",
+          "note": "First licensing inquiry typically arrives 2–3 years into consistent daily posting with a distinct recognizable style. At 26k today, first conversations are a realistic 12–24 month horizon with active outreach and continued audience growth.",
           "tier": "near_term",
           "note_zh": "通常情况下，坚持每日更新、风格鲜明辨识度高，约2–3年后会迎来首次授权询问。以目前9万粉丝的基础，若积极主动拓展，6–18个月内便有望开启初步洽谈。",
           "note_ja": "独自のスタイルを持ちながら毎日継続的に投稿していると、最初のライセンス問い合わせが来るまで通常2〜3年かかる。現時点でフォロワー9万人いれば、積極的に働きかけることで、6〜18か月以内に最初の交渉が始まる可能性は十分にある。"
@@ -330,7 +330,7 @@ export const GRANT_LANDSCAPE = {
     },
     {
       "category_note": "General grant strategy",
-      "note": "Grant applications require 3–4 months to prepare properly. The strongest applications have: (1) a specific named project, not vague artistic development; (2) evidence of past work (Instagram archive is valid); (3) a clear 'why now' — what will this grant make possible that isn't possible without it. She has a natural narrative: Chinese artist in Tokyo, 90k audience, daily watercolor practice, ready for the next stage.",
+      "note": "Grant applications require 3–4 months to prepare properly. The strongest applications have: (1) a specific named project, not vague artistic development; (2) evidence of past work (Instagram archive is valid); (3) a clear 'why now' — what will this grant make possible that isn't possible without it. She has a natural narrative: Chinese artist in Tokyo, 26k Instagram audience, daily watercolor practice, ready for the next stage.",
       "apply": "",
       "category_note_zh": "资助申请总体策略",
       "category_note_ja": "助成金申請の全体戦略",
@@ -349,7 +349,7 @@ export const REVENUE_STREAMS = {
       "realistic_monthly": "¥30,000–80,000/month with active promotion",
       "setup_time": "1–2 days initial setup; 1 hr/week maintenance",
       "description": "Japanese print-on-demand platform. Upload art → SUZURI produces and ships. Zero fulfillment work. Products: acrylic keychains, cloth pouches, tote bags, art prints, phone cases.",
-      "why_now": "With 90k followers, directing 0.1% of them to a SUZURI store monthly generates steady passive revenue. Most watercolor artists underuse this.",
+      "why_now": "With 26k followers, even directing a small fraction to a SUZURI store monthly generates steady passive revenue. Most watercolor artists underuse this.",
       "action": "Set up store at suzuri.jp, upload 20–30 works, post weekly story highlights linking to shop.",
       "leaving_on_table": true,
       "stream_zh": "SUZURI（被动收入）",
@@ -383,7 +383,7 @@ export const REVENUE_STREAMS = {
       "realistic_monthly": "¥80,000–500,000 (highly variable)",
       "description": "Most effective channel at her follower count. Sale mechanics: post with 'DM to inquire' or link to Booth.pm. Announce limited availability — scarcity is real and creates urgency.",
       "pricing": "Small (A5 or smaller): ¥30,000–80,000 | Medium (A4): ¥80,000–200,000 | Large (A3+): ¥200,000+",
-      "why_now": "90k followers = high intent audience. Even 1 original/month at ¥80k = ¥960k/year.",
+      "why_now": "26k followers is an engaged audience. Even 1 original/month at ¥80k = ¥960k/year.",
       "action": "Announce next available original in Instagram Stories with DM link.",
       "leaving_on_table": true,
       "stream_zh": "原作销售（Instagram）",
@@ -418,7 +418,7 @@ export const REVENUE_STREAMS = {
       "stream": "Commissions",
       "realistic_monthly": "¥50,000–500,000 depending on volume",
       "pricing": "Personal commission (individual person): ¥30,000–80,000 | Commercial (brand, book, magazine): ¥100,000–500,000 | Brand licensing: separate — see Licensing section",
-      "description": "With 90k followers, she can charge professional rates. The mistake most artists make: undercharging because they feel unqualified. 90k followers is proof of market value.",
+      "description": "With a 26k engaged following, she can charge confident rates. The mistake most artists make: undercharging because they feel unqualified. A real audience of this size is evidence of genuine market interest.",
       "action": "Post commission announcement quarterly with clear pricing and 'DM to inquire'. Set a limit (e.g., 3/quarter) to create urgency.",
       "leaving_on_table": false,
       "stream_zh": "委托创作",
@@ -445,7 +445,7 @@ export const REVENUE_STREAMS = {
     },
     {
       "stream": "Summary assessment",
-      "description": "With 90k followers and a consistent daily watercolor practice, she may be leaving 20–40% of achievable revenue on the table by not having: (1) active SUZURI store, (2) quarterly print edition releases, (3) systematic consignment at 2–3 Tier 1 venues. These three together could add ¥100,000–300,000/month with minimal ongoing effort.",
+      "description": "With a 26k following and a consistent daily watercolor practice, she may be leaving 20–40% of achievable revenue on the table by not having: (1) active SUZURI store, (2) quarterly print edition releases, (3) systematic consignment at 2–3 Tier 1 venues. These three together could add ¥100,000–300,000/month with minimal ongoing effort.",
       "leaving_on_table": true,
       "stream_zh": "综合评估",
       "stream_ja": "総合評価",
@@ -755,10 +755,10 @@ export const CAREER_TIMELINE = {
     years_active:  "~6 (daily practice from 2020, first publication 2021)",
     group_shows:   1,
     publications:  2,
-    instagram:     "~90k",
+    instagram:     "26k",
     base:          "Tokyo / Beijing",
   },
-  overall_assessment: "At this stage GEGYjiji is ahead on audience scale and digital practice but behind on traditional exhibition credits compared to most watercolor peers at age 26. The ~90k Instagram following is exceptional — most peers didn't reach that until their mid-30s.",
+  overall_assessment: "At this stage GEGYjiji is ahead on digital practice and consistency but behind on traditional exhibition credits compared to most watercolor peers at age 26. The 26k Instagram following is a solid, real audience built through daily practice — a genuine asset, with clear room to grow toward the 50k market-viability signal.",
   peers: [
     {
       name: "Chien Chung-Wei (簡忠威)",
@@ -814,7 +814,7 @@ export const CAREER_TIMELINE = {
         ],
         lacked: ["Social media presence (pre-Instagram era)"],
       },
-      comparison: "The most directly comparable Tokyo path. She had more early group shows but no digital presence. GEGYjiji's ~90k Instagram base is a structural advantage Nagayama built from scratch.",
+      comparison: "The most directly comparable Tokyo path. She had more early group shows but no digital presence. GEGYjiji's 26k Instagram base is a head start Nagayama built from scratch.",
     },
   ],
 };
@@ -829,7 +829,7 @@ export const PRICING_INTELLIGENCE = {
       low: 37000, high: 135000, currency: "JPY",
       label: "Original watercolors",
       note: "F4–F8 scale (24–38cm). Small-format daily diary pieces at the lower end; larger architectural studies at the upper. Current range reflects emerging artist pricing with strong Instagram credibility.",
-      sweet_spot: "¥50,000–80,000 for a 30–40cm piece is defensible and matches peer pricing at ~90k Instagram followers.",
+      sweet_spot: "¥50,000–80,000 for a 30–40cm piece is defensible and matches peer pricing at ~26k Instagram followers.",
     },
     prints: {
       low: 3000, high: 12000, currency: "JPY",
@@ -845,7 +845,7 @@ export const PRICING_INTELLIGENCE = {
   what_affects_price: [
     { factor: "Venue context", impact: "high",   note: "Same piece sells for 2–3× more at a gallery opening than at a zine fair. Venue lends credibility." },
     { factor: "Edition discipline", impact: "high",   note: "Unlimited prints signal uncertainty. Fixed editions (30 or 50) signal intentionality and protect resale value." },
-    { factor: "Instagram followers", impact: "medium", note: "~90k is a strong asset — well into the range where the premium is real. Collectors pay for social proof even when they won't admit it." },
+    { factor: "Instagram followers", impact: "medium", note: "26k is a meaningful asset. At 50k+ the premium becomes significant. Collectors pay for social proof even when they won't admit it." },
     { factor: "Exhibition CV",       impact: "medium", note: "Each confirmed group show adds ~10–15% defensible price increase for originals." },
     { factor: "Certificate of authenticity", impact: "medium", note: "Simple, hand-signed CoA doubles perceived permanence. Collectors keep them. Takes 2 minutes." },
     { factor: "Work size",           impact: "low",    note: "Buyers at this stage prefer smaller formats (easier to hang, lower price). Don't underprice small work." },

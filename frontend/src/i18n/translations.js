@@ -332,7 +332,7 @@ const zh = {
   'sf.grant.title':          '资助资源',
   'sf.grant.summary':        '大多数艺术家错过资助，因为他们不知道它们的存在。',
   'sf.revenue.title':        '收入全景',
-  'sf.revenue.summary':      '90k粉丝的艺术家应该如何赚钱——以及你现在可能正在错过的部分。',
+  'sf.revenue.summary':      '一位拥有26k Instagram粉丝的艺术家应该如何赚钱——以及你现在可能正在错过的部分。',
   'sf.depmap.title':         '职业解锁树',
   'sf.depmap.summary':       '完成这些里程碑，开启下一阶段的机会。',
   'sf.depmap.current':       '当前阶段（1-2级）',
@@ -497,9 +497,10 @@ const zh = {
   'sf.label.posts':          '条帖子',
 
   // ── Peppercorn Instagram content ──────────────────────────────────────────
-  'pp.ig.count':             '~90k 粉丝',
-  'pp.ig.analysis':          '接近100k — 一个具有象征意义的里程碑。自2020年起通过日记式创作积累的插画社群粉丝是真实且来之不易的。画廊总监和策展人越来越把这个量级的粉丝视为市场可行性的信号。',
-  'pp.ig.thresh.100k':       '象征性里程碑。在策展人和画廊主的对话中具有信誉背书作用。媒体兴趣自然增加，藏家关注超出插画圈范围扩展。快了。',
+  'pp.ig.count':             '26k 粉丝',
+  'pp.ig.analysis':          '26k意味着你在东京插画圈和轻度调研的印刷品买家中已有稳固的曝光。画廊总监偶尔会注意，顶尖策展人暂时还没在看。下一个里程碑是50k — 社交粉丝量开始被视为市场可行性的信号。',
+  'pp.ig.thresh.50k':        '画廊总监开始将社交粉丝量视为市场可行性的参考信号。寄售洽谈变得更顺畅 — 在确认合作展览前查看艺术家的Instagram，是这个层级的惯常做法。',
+  'pp.ig.thresh.100k':       '媒体兴趣自然增加。藏家关注超出插画圈范围扩展。接受艺术活动演讲邀请成为可能。中期目标，并非近期目标。',
   'pp.ig.tactics.label':     '对这类创作实践通常有效的方式',
   'pp.ig.tactics.0':         '日记式日更帖比偶发的大型投稿更快积累黏性 — 累积效应',
   'pp.ig.tactics.1':         '城市建筑、安静空间和猫，在日本受众中有较高表现',
@@ -523,7 +524,7 @@ const zh = {
 
   // ── Carousel cards ────────────────────────────────────────────────────────
   'pp.carousel.ig.name':            'Instagram',
-  'pp.carousel.ig.desc':            '接近100k — 一个在策展人与画廊对话中具备信誉背书的象征性里程碑',
+  'pp.carousel.ig.desc':            '50k时社交粉丝量开始被画廊总监视为市场可行性信号 — 值得追求的下一个里程碑',
   'pp.carousel.pub.name':           '出版物',
   'pp.carousel.pub.desc':           '第三部出版物确立规律 — 详情见红雀',
   'pp.carousel.stmt.name':          '艺术家自述',
@@ -1186,7 +1187,7 @@ const ja = {
   'sf.grant.title':          '助成金マップ',
   'sf.grant.summary':        'ほとんどのアーティストは存在を知らないまま助成金を見逃している。',
   'sf.revenue.title':        '収入全体図',
-  'sf.revenue.summary':      '90kフォロワーのアーティストが稼ぐべき方法——今あなたが見逃している部分。',
+  'sf.revenue.summary':      '26kのInstagramフォロワーを持つアーティストが稼ぐべき方法——今あなたが見逃している部分。',
   'sf.depmap.title':         'キャリア解放ツリー',
   'sf.depmap.summary':       'これらのマイルストーンを達成すると、次のステージが解放される。',
   'sf.depmap.current':       '現在（Tier 1–2）',
@@ -1351,9 +1352,10 @@ const ja = {
   'sf.label.posts':          '件の投稿',
 
   // ── Peppercorn Instagram content ──────────────────────────────────────────
-  'pp.ig.count':             '~90kフォロワー',
-  'pp.ig.analysis':          '100kが近い — 象徴的な節目。2020年から日記実践を通じて積み上げてきたイラストコミュニティのフォロワーは本物で、簡単に得られたものではありません。ギャラリーディレクターやキュレーターは、この規模のフォロワーを市場での可能性のシグナルとして見るようになっています。',
-  'pp.ig.thresh.100k':       '象徴的なマイルストーン。キュレーターやギャラリーとの会話での信頼性の指標になります。メディアの関心が自然に高まり、コレクターの注目がイラスト界を超えて広がります。もうすぐです。',
+  'pp.ig.count':             '26kフォロワー',
+  'pp.ig.analysis':          '26kは、東京のイラスト界と軽く調べているプリントバイヤーの間で確立された存在感を意味します。ギャラリーディレクターが気にかける場合もありますが、トップキュレーターはまだ見ていません。次の節目は50k — ソーシャルフォロワー数が市場での可能性のシグナルとして見られ始めます。',
+  'pp.ig.thresh.50k':        'ギャラリーディレクターがソーシャルフォロワー数を市場での可能性のシグナルとして見始めます。委託販売の話が進めやすくなります — 展示合意前にアーティストのInstagramを確認するのは、このレベルでの標準です。',
+  'pp.ig.thresh.100k':       'メディアの関心が自然に高まります。コレクターの注目がイラスト界を超えて広がります。アートイベントでの講演依頼も現実的になります。中期目標であり、近期目標ではありません。',
   'pp.ig.tactics.label':     'この種の実践に効果的なアプローチ',
   'pp.ig.tactics.0':         '日記投稿は散発的な大きな投稿より速く愛着を積み上げる — 蓄積効果',
   'pp.ig.tactics.1':         '都市建築、静かな空間、猫は日本のオーディエンスに高いパフォーマンスを発揮',
@@ -1377,7 +1379,7 @@ const ja = {
 
   // ── Carousel cards ────────────────────────────────────────────────────────
   'pp.carousel.ig.name':            'Instagram',
-  'pp.carousel.ig.desc':            '100kが近い — キュレーターやギャラリーとの会話で信頼性の指標になる象徴的な節目',
+  'pp.carousel.ig.desc':            '50kでソーシャルフォロワー数がギャラリーディレクターに市場可能性のシグナルとして見られ始める — 次に目指す節目',
   'pp.carousel.pub.name':           '出版物',
   'pp.carousel.pub.desc':           '3冊目でパターン確立 — 全体像はサフランで',
   'pp.carousel.stmt.name':          'アーティストステートメント',
@@ -2033,7 +2035,7 @@ const en = {
   'sf.grant.title':          'Grant Landscape',
   'sf.grant.summary':        "Most artists miss grants because they don't know they exist.",
   'sf.revenue.title':        'Revenue Streams',
-  'sf.revenue.summary':      'The full picture of how an artist with 90k followers should be earning — and what you may be leaving on the table.',
+  'sf.revenue.summary':      'The full picture of how an artist with a 26k Instagram following should be earning — and what you may be leaving on the table.',
   'sf.depmap.title':         'Career Unlock Tree',
   'sf.depmap.summary':       'Complete these milestones to unlock the next stage of opportunities.',
   'sf.depmap.current':       'Right Now (Tier 1–2)',
@@ -2197,9 +2199,10 @@ const en = {
   'sf.label.posts':          'posts',
 
   // ── Peppercorn Instagram content ──────────────────────────────────────────
-  'pp.ig.count':             '~90k followers',
-  'pp.ig.analysis':          'Approaching 100k — a symbolic milestone. The illustration community following built through daily diary practice since 2020 is genuine and hard-won. Gallery directors and curators increasingly read a following this size as a signal of market viability.',
-  'pp.ig.thresh.100k':       'Symbolic milestone. Credibility marker in curator and gallerist conversations. Press interest increases organically and collector attention expands beyond the illustration community. Almost there.',
+  'pp.ig.count':             '26k followers',
+  'pp.ig.analysis':          '26k is a real, established presence in the Tokyo illustration community and among print buyers doing light research. Gallery directors may glance; major curators are not yet watching. The next milestone is 50k, where a social following starts to read as a market-viability signal.',
+  'pp.ig.thresh.50k':        'Gallery directors begin treating social following as a signal of market viability. Consignment conversations become easier to open — checking an artist\'s Instagram before agreeing to a show is standard practice at this level.',
+  'pp.ig.thresh.100k':       'Press interest increases organically. Collector attention expands beyond the illustration community. Speaking invitations at art events become plausible. A medium-term goal, not a near-term one.',
   'pp.ig.tactics.label':     'What tends to work for this kind of practice',
   'pp.ig.tactics.0':         'Daily diary posts build attachment faster than occasional large posts — the accumulation effect',
   'pp.ig.tactics.1':         'Urban architecture, quiet spaces, and cats are high-performing for Japanese audiences',
@@ -2223,7 +2226,7 @@ const en = {
 
   // ── Carousel cards ────────────────────────────────────────────────────────
   'pp.carousel.ig.name':            'Instagram',
-  'pp.carousel.ig.desc':            'Approaching 100k — a symbolic milestone that lends credibility in curator and gallery conversations',
+  'pp.carousel.ig.desc':            'At 50k a social following starts reading as a market-viability signal to gallery directors — the next milestone worth pursuing',
   'pp.carousel.pub.name':           'Publications',
   'pp.carousel.pub.desc':           'A third publication establishes a pattern — see Saffron for the full landscape',
   'pp.carousel.stmt.name':          'Artist Statement',
