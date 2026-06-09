@@ -186,10 +186,13 @@ def _count_group_shows(profile: dict, ex_log: list) -> int:
         if "group" in etype and ex.get("title") != "Tide from China Part1":
             base += 1
 
+    # Exclude the hardcoded base show by title so logging it via the event
+    # quick-log UI doesn't double-count it against base=1.
     logged = sum(
         1 for e in ex_log
         if e.get("type") == "group"
         and e.get("outcome") in ("shown", "completed", None, "")
+        and (e.get("title") or "").strip() != "Tide from China Part1"
     )
     return base + logged
 

@@ -407,7 +407,7 @@ _CL = {
     "Portfolio images":     ("作品图集",           "ポートフォリオ画像"),
     "Japanese intro email": ("日语介绍邮件",       "日本語紹介メール"),
     "Chinese intro email":  ("中文介绍邮件",       "中国語紹介メール"),
-    "Zine or artist book":  ("Zine或艺术家书",    "ZineまたはアーティストブックB"),
+    "Zine or artist book":  ("Zine或艺术家书",    "Zineまたはアーティストブック"),
     "Artist book or print edition": ("艺术家书或印刷版", "アーティストブックまたは印刷版"),
 }
 _CN = {
