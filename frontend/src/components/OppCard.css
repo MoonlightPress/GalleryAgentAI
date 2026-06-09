@@ -104,6 +104,13 @@
 }
 
 .opp-pill-effort { border: 1px solid transparent; }
+.opp-pill-past-deadline {
+  background: #f9eded;
+  color: #a04040;
+  border-color: #d8a0a0;
+  font-style: italic;
+  opacity: 0.85;
+}
 .opp-effort-easy   { background: #d4eddb; color: #2d6a4f; }
 .opp-effort-medium { background: #fef3d0; color: #92660a; }
 .opp-effort-heavy  { background: #fde8e8; color: #b94040; }

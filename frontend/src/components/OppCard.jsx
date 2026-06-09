@@ -163,6 +163,11 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
               {MEDIUM_CONFIG[opp.native_medium].label}
             </span>
           )}
+          {opp.deadline_past && (
+            <span className="opp-pill opp-pill-past-deadline" title={t('card.deadlinePast.title')}>
+              {t('card.deadlinePast')}
+            </span>
+          )}
         </div>
 
         {/* Description */}

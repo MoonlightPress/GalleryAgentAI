@@ -542,6 +542,7 @@ def shape_card(opp: dict) -> dict:
         "bullets_ja":      opp.get("three_bullets_ja", []) or [],
         "checklist":       _build_checklist(opp),
         "native_medium":   opp.get("native_medium", "unknown"),
+        "deadline_past":   _deadline_past(opp),
         # Email drafts — prefer per-entry drafts from data, fall back to templates
         "email_zh": opp.get("email_zh") or email_zh(org, category),
         "email_ja": opp.get("email_ja") or email_ja(org, category),
