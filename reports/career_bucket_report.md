@@ -286,32 +286,32 @@ Potentially useful, but not actionable until submission details, fee, deadline, 
 
 Weak fit or low evidence. Keep but do not foreground.
 
-- **submissions — porkbelly press** — score 5.8, differentiated 7.79, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- **submissions — porkbelly press** — score 5.7, differentiated 7.7, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **Aperture | Photography** — score 5.6, differentiated 7.49, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
-  - Visual match signals: watercolor, artist book, artist_book, zine
 - **Submissions — Clavis Publishing** — score 5.2, differentiated 7.2, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **DER GREIF** — score 5.6, differentiated 7.14, visual fit 2.4. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
-  - Visual match signals: watercolor, artist book, artist_book
 - **Komiyama Tokyo** — score 5.7, differentiated 7.12, visual fit 3.7. Useful for understanding the upper end of art/photo book presentation and audience expectations.
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **Aquarium - 2026** — score 5.4, differentiated 6.78, visual fit 1.95. 4th Annual Juried Exhibition with publication and sales opportunities for visual artists.
+- **DER GREIF** — score 5.5, differentiated 7.04, visual fit 2.4. Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper
+  - Visual match signals: watercolor, artist book, artist_book
+- **Aperture | Photography** — score 5.1, differentiated 6.99, visual fit 3.7. Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition
+  - Visual match signals: watercolor, artist book, artist_book, zine
+- **Aquarium - 2026** — score 5.3, differentiated 6.68, visual fit 1.95. 4th Annual Juried Exhibition with publication and sales opportunities for visual artists.
   - Visual match signals: artist book, artist_book
 - **Applications — Little Tokyo Zine Fest** — score 5.5, differentiated 6.66, visual fit 1.3. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: zine
 - **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 4.7, differentiated 6.59, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
   - Visual match signals: artist book, small press, artist_book, small_press
-- **shashasha** — score 5.5, differentiated 6.46, visual fit 2.4. Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere.
-  - Visual match signals: watercolor, artist book, artist_book
-- **Mall Galleries Open Exhibitions** — score 5.5, differentiated 6.46, visual fit 2.4. Open exhibition context for painting, drawing, or works on paper. Good candidate for direct verification.
-  - Visual match signals: watercolor, artist book, artist_book
+- **INSTINC 2026/2027 Artist-in-Residence Program** — score 5.95, differentiated 6.55, visual fit 0.0. Independent artist residency program emphasizing experimentation and artistic vision, open to international artists.
+- **Japan Foundation Cultural Exchange Grant** — score 5.9, differentiated 6.46, visual fit 0.9. Japan-based artist. Urban documentation of Tokyo is a strong cultural exchange narrative. Multiple program tracks — individual artists, collaborative projects.
+  - Visual match signals: watercolor, memory
 - **Publishing / Artist Books — Battle Plan** — score 5.0, differentiated 6.42, visual fit 3.7. This path fits an artist whose work can become a quiet book object, small edition, artist book / watercolor sequence, or publication proposal.
   - Visual match signals: watercolor, artist book, artist_book, zine
-- **OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery** — score 5.9, differentiated 6.38, visual fit 0.0. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - **SICF Fukuoka 2026** — score 5.6, differentiated 6.36, visual fit 0.45. Creator exhibition opportunity for artists and artists; fits illustration/watercolor artist looking for exhibition venues.
   - Visual match signals: watercolor
+- **shashasha** — score 5.4, differentiated 6.36, visual fit 2.4. Useful if her watercolor / works on papers are arranged as a visual sequence with mood, place, and atmosphere.
+  - Visual match signals: watercolor, artist book, artist_book
 - **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 4.6, differentiated 6.34, visual fit 3.25. Possible fit based on link text: zine, open call, residency
   - Visual match signals: artist book, artist_book, zine
-- **2026 Artist Projects (GCAC)** — score 5.8, differentiated 6.32, visual fit 0.45. GCAC's annual artist grants support visual artists in multiple disciplines; however, this is USA-based and may have residency restrictions that limit eligibility for a Tokyo-based artist.
-  - Visual match signals: Tokyo-based
+- **Become an Author - Tuttle Publishing** — score 4.4, differentiated 6.29, visual fit 3.7. Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+  - Visual match signals: artist book, small press, artist_book, small_press

@@ -14,7 +14,7 @@ Best current options: good fit, useful direction, and worth acting on first.
 4. **ZINEフェス東京 (ZINE Fest Tokyo)** — score 10.0, visual 3.25, verification . Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
 5. **flotsam books** — score 10.0, visual 3.7. **Action: Contact and propose**. Tokyo bookshop and gallery hybrid. Consignment or exhibition inquiry.
    > 🇯🇵 _件名：水彩画作品の展示・お取り扱いについてのご相談 / はじめまして。東京在住の水彩画家、GEGYjijiと申します。_
-6. **水性繪畫展覽 (Watercolor Exhibition)** — score 9.1, visual 1.95, verification needs_research. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
+6. **水性繪畫展覽 (Watercolor Exhibition)** — score 9.1, visual 1.95, verification needs_research. The 水性繪畫展覽's focus on watercolor as a primary medium directly aligns with GEGYjiji's daily practice of capturing Tokyo's fleeting urban moments and architectural details through watercolor's immediacy and translucency. For an artist working within the Chinese diaspora in Japan, a watercolor-specific exhibition provides both technical validation and a platform to reach collectors and curators who value the precision and atmospheric sensitivity her work demands.
 7. **MOUNT ZINE** — score 10.0, visual 1.75, verification . Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.
 8. **アートオリンピア2026** — score 9.1, visual 1.35, verification needs_research. アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offering a prominent local platform to exhibit her architectural studies and memory-driven pieces alongside other contemporary media practitioners. The open-call format removes barriers for early-stage artists while positioning her work within a professional exhibition context during a peak season for Tokyo's art calendar.
 
@@ -48,7 +48,7 @@ Prestige or difficult targets. Useful as benchmarks even if not immediate.
 5. **2026 Global Grant Cycle - Individual Fellowship** — score 8.4, visual 0.45, verification research_needed. ACC's fellowship structure explicitly supports sustained research and cultural immersion—directly aligned with GEGYjiji's practice of daily observation and architectural documentation across different urban environments, from Tokyo to potential new locations. The program's emphasis on cross-cultural artistic development matches her position as a Chinese painter working internationally, where watercolor's immediacy captures the ephemeral moments she prioritizes in urban settings.
 6. **2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動** — score 8.0, visual 0.45, verification research_needed. Tokyo-based single-year arts creation grant supporting exhibitions, art projects, and international cultural exchange activities; GEGYjiji is based in Tokyo.
 7. **東京芸術文化創造発信助成 (Tokyo Arts and Culture Creation and Dissemination Grant)** — score 8.1, visual 0.0, verification research_needed. Directly supports individual artists based in Tokyo across visual arts and diverse creative disciplines.
-8. **新進芸術家海外研修制度（Emerging Artists Overseas Training Program）** — score 8.1, visual 0.0, verification research_needed. Government-funded overseas training program for emerging artists in visual arts and other disciplines, supporting international research and professional development abroad.
+8. **新進芸術家海外研修制度（Emerging Artists Overseas Training Program）** — score 8.1, visual 0.0, verification research_needed. 新進芸術家海外研修制度 directly supports the kind of sustained, observation-based practice GEGYjiji conducts daily—extended time abroad to deepen her watercolor studies of urban architecture and ephemeral moments would strengthen both her technical research and conceptual development across different cities and cultures. As a Tier 2 artist with a strong following but limited institutional exhibition history, this government funding specifically targets artists at her career stage seeking to build international research credentials and professional networks.
 
 ## Relationship Builders
 
@@ -68,23 +68,23 @@ Lower-pressure spaces useful for familiarity, soft outreach, or small first step
 Do not recommend yet. These need submission/contact/deadline verification.
 
 1. **SUBMISSIONS - marblepress.com** — score 8.7, visual 3.7, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-2. **Center for Book Arts Opportunities** — score 9.1, visual 1.95, verification . Potential fit if her work becomes more explicitly book-oriented or object/paper based.
-3. **Still Life - 2026** — score 9.1, visual 2.4, verification needs_research. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
-4. **American Illustration** — score 9.1, visual 2.4, verification research_needed. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-5. **World Illustration Awards** — score 9.1, visual 2.4, verification research_needed. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-6. **Jackson's Art Prize** — score 9.1, visual 2.4, verification research_needed. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
-7. **The Artcomplex Center of Tokyo** — score 9.1, visual 2.4, verification research_needed. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-8. **Society of Women Artists** — score 9.1, visual 2.4, verification research_needed. Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
+2. **TOKIO ART BOOK FAIR 2026** — score 8.5, visual 3.25, verification needs_research. Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
+3. **Center for Book Arts Opportunities** — score 9.1, visual 1.95, verification . Potential fit if her work becomes more explicitly book-oriented or object/paper based.
+4. **Still Life - 2026** — score 9.1, visual 2.4, verification needs_research. 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
+5. **American Illustration** — score 9.1, visual 2.4, verification research_needed. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+6. **World Illustration Awards** — score 9.1, visual 2.4, verification research_needed. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+7. **Jackson's Art Prize** — score 9.1, visual 2.4, verification research_needed. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
+8. **The Artcomplex Center of Tokyo** — score 9.1, visual 2.4, verification research_needed. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ## Low Priority
 
 Keep out of the main UI unless specifically requested.
 
-1. **INSTINC 2026/2027 Artist-in-Residence Program** — score 3.9, visual 0.0, verification needs_research. Independent artist residency program emphasizing experimentation and artistic vision, open to international artists.
-2. **Golden Key International Art Competition** — score 4.0, visual 0.0, verification needs_research. International art competition accepting submissions from diverse artists.
-3. **ARTE VENT Press** — score 3.8, visual 0.0, verification . ARTE VENT Press is mainly useful as a benchmark unless it clearly accepts proposals or artist-book submissions.
-4. **Japan Watercolor Society Annual Exhibition** — score 3.2, visual 0.45, verification . The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
-5. **OPEN CALL for the Artist-In-Residence Program 2025/2026** — score 3.5, visual 0.0, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
-6. **Boji Hair+Gallery** — score 3.3, visual 0.9, verification research_needed. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-7. **Muninova Artist Award** — score 0.8, visual 0.0, verification needs_research. Art open call for introducing artwork to the public, accepting diverse visual art submissions.
-8. **twelvebooks** — score 0.2, visual 0.0, verification . Relevant if the work develops into an artist-book object with strong sequencing and physical presentation.
+1. **Submissions — Clavis Publishing** — score 3.6, visual 3.7, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+2. **Publishers & Publishing Services in Japan - PublishersGlobal.com** — score 3.1, visual 3.7, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+3. **INSTINC 2026/2027 Artist-in-Residence Program** — score 3.9, visual 0.0, verification needs_research. Independent artist residency program emphasizing experimentation and artistic vision, open to international artists.
+4. **OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ** — score 3.0, visual 3.25, verification . Possible fit based on link text: zine, open call, residency
+5. **Become an Author - Tuttle Publishing** — score 3.0, visual 3.7, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+6. **True Beauty - 2026** — score 3.5, visual 0.45, verification needs_research. 5th Juried Annual Exhibition accepting watercolor and illustration work with promotion and sales opportunities.
+7. **AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin** — score 2.5, visual 3.25, verification . Possible fit based on link text: zine, open call
+8. **» 21 Terrific Small Presses Open to Direct Submissions** — score 2.6, visual 3.7, verification . Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.

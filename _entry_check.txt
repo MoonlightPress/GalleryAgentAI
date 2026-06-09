@@ -1,0 +1,10 @@
+{
+  "name": "FACE Exhibition 2026",
+  "contact": null,
+  "contact_verified": false,
+  "submission_page": "https://www.iwafu.com/en/events/1062957",
+  "official_website": "https://www.iwafu.com/en/events/1062957",
+  "category": "institutional",
+  "bucket": "relationship_builders",
+  "country": "Japan"
+}

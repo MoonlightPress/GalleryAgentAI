@@ -150,6 +150,64 @@
       "last_run": "2026-06-03T11:00:45.176006",
       "found": 6,
       "added": 6
+    },
+    "jp_editorial_magazine_call": {
+      "last_run": "2026-06-09T09:31:12.098101",
+      "found": 1,
+      "added": 1
+    },
+    "jp_art_magazine_contributor": {
+      "last_run": "2026-06-09T09:31:17.436797",
+      "found": 0
+    },
+    "jp_book_cover_illustration": {
+      "last_run": "2026-06-09T09:31:24.873046",
+      "found": 2,
+      "added": 2
+    },
+    "jp_editorial_twitter": {
+      "last_run": "2026-06-09T09:31:30.223566",
+      "found": 0,
+      "added": 0
+    },
+    "cn_editorial_illustration": {
+      "last_run": "2026-06-09T09:31:39.661577",
+      "found": 3,
+      "added": 2
+    },
+    "cn_book_cover_call": {
+      "last_run": "2026-06-09T09:31:47.479692",
+      "found": 2,
+      "added": 0
+    },
+    "jp_watercolor_competition": {
+      "last_run": "2026-06-09T09:31:58.929744",
+      "found": 4,
+      "added": 4
+    },
+    "jp_illustration_award": {
+      "last_run": "2026-06-09T09:32:09.319956",
+      "found": 4,
+      "added": 3
+    },
+    "jp_emerging_artist_prize": {
+      "last_run": "2026-06-09T09:32:23.780181",
+      "found": 6,
+      "added": 3
+    },
+    "jp_competition_bijutsutecho": {
+      "last_run": "2026-06-09T09:32:28.116776",
+      "found": 0
+    },
+    "cn_watercolor_competition": {
+      "last_run": "2026-06-09T09:32:41.231594",
+      "found": 5,
+      "added": 4
+    },
+    "cn_illustration_prize": {
+      "last_run": "2026-06-09T09:32:55.461789",
+      "found": 5,
+      "added": 5
     }
   },
   "runs": [
@@ -355,6 +413,32 @@
     },
     {
       "run_at": "2026-06-08T10:48:54.216639",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-09T01:35:09.953534",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-09T09:32:55.497884",
+      "queries_run": 12,
+      "new_opps": 24,
+      "quota_hit": false,
+      "group_breakdown": {
+        "JP_EDITORIAL": 3,
+        "CN_EDITORIAL": 2,
+        "JP_COMPETITION": 10,
+        "CN_COMPETITION": 9
+      }
+    },
+    {
+      "run_at": "2026-06-09T09:58:45.124093",
       "queries_run": 0,
       "new_opps": 0,
       "quota_hit": false,

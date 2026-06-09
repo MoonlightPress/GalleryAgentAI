@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-08
+REPORT GENERATED: 2026-06-09
 
 # SCAI The Bathhouse
 
@@ -50,5 +50,5 @@ Bookmark for future awareness; focus energy elsewhere
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-09_
 

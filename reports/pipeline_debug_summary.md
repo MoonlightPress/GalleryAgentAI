@@ -27,23 +27,23 @@
 
 ## Approved Candidate Sample
 
-- Home - Printed Matter — 8.5 — approved — strong: book fair, printed matter, photobook, zine, weak: exhibition, book
-- Top Artist Opportunities for 2026 | ArtConnect — 7.65 — approved — strong: open call, zine, submission, residency, weak: artist, exhibition
+- Home - Printed Matter — 8.5 — approved — strong: book fair, photobook, printed matter, zine, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — 8.1 — approved — strong: open call, residency, submission, zine, weak: artist, exhibition
 - Art Submissions — 4.7 — approved — strong: open call, submission, has submission link
-- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — 4.7 — approved — strong: open call, call for, weak: artist, has submission link
+- Callback Open Call G George invites you to submit to Callback, a series of contemporary ar — 4.7 — approved — strong: open call, submit, has submission link
 
 ## Rejected Candidate Sample
 
 - Browse opportunities | CuratorSpace — 8.1 — rejected — strong: open call, weak: exhibition, score too low: 3
 - Royal Watercolour Society — 6.3 — rejected — generic page without opportunity language
 - Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 1 — 6.1 — rejected — generic page without opportunity language
-- Exhibition Chelsea Chang Yuchen: a dictionary, a loom, a manifesto, a note, a kite, a phon — 5.4 — rejected — strong: printed matter, weak: exhibition, gallery, score too low: 2
 - Exhibitions — 5.4 — rejected — junk title: exhibitions
 - LONDON CALLING Bankside Gallery 5th - 21st June — 5.4 — rejected — generic page without opportunity language
 - OUR ARTISTS The finest practitioners of water-based media on paper — 5.4 — rejected — generic page without opportunity language
 - Phoebe Barnicoat Three Sisters watercolour Unframed Artwork: 10.5 x 14.5cm — 5.4 — rejected — generic page without opportunity language
 - Phoebe Barnicoat Snake Meet watercolour Unframed Artwork: 14.5 x 10.5cm — 5.4 — rejected — generic page without opportunity language
 - Anne Marlow A Safe Place watercolour & pastel Unframed Artwork: 23.5 x 24cm — 5.4 — rejected — generic page without opportunity language
+- RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus — 5.4 — rejected — strong: residency, weak: artist, score too low: 1
 - Art Events and Exhibitions｜Tokyo Art Beat — 4.95 — rejected — generic page without opportunity language
 - TOKYO ART BOOK FAIR — 4.95 — rejected — strong: book fair, weak: book, score too low: 3
 - Jackson's Art Prize — 4.95 — rejected — generic page without opportunity language

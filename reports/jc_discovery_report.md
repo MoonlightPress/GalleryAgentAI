@@ -1,6 +1,6 @@
 # Japanese & Chinese Discovery Report
 
-Run: 2026-06-08  |  Queries run: 0  |  New opportunities: 0
+Run: 2026-06-09  |  Queries run: 0  |  New opportunities: 0
 
 No new opportunities found in this run.
 
@@ -8,4 +8,4 @@ No new opportunities found in this run.
 - JP: 0 new
 - CN: 0 new
 - DIASPORA: 0 new
-- Total in pipeline: 355
+- Total in pipeline: 379

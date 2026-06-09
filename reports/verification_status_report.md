@@ -1,21 +1,21 @@
 # Verification Status Report
-Generated: 2026-06-08
+Generated: 2026-06-09
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
 | Verified (score 8-10) | 118 |
-| Strong partial (5-7) | 130 |
+| Strong partial (5-7) | 128 |
 | Partial (3-4) | 81 |
-| Research needed (<3) | 26 |
+| Research needed (<3) | 28 |
 | **Total** | **355** |
 
 ### Field Coverage
 
 | Field | Verified count |
 |-------|----------------|
-| URL ok | 300 |
+| URL ok | 296 |
 | Deadline verified | 249 |
 | Contact verified | 125 |
 | Fees verified | 188 |

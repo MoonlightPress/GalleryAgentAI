@@ -1,38 +1,50 @@
-# Daily Digest — June 08, 2026
+# Daily Digest — June 09, 2026
 
 ## What Changed Since Last Run
 
 _Previous run: 2026-06-08_
 
-No changes detected.
+- **Added to Immediate Best Moves:** SICF Fukuoka 2026
+- **Added to Immediate Best Moves:** Zine & Book フェス in 神保町 (Jimbocho)
 
-## Immediate Best Moves (14)
+## Immediate Best Moves (16)
 
 ### **Women United ART MAGAZINE Issue XIV Summer 2026**
-- **Apply by:** June 10, 2026 — _2d — this week_
+- **Apply by:** June 10, 2026 — _1d — this week_
 - **Fee:** $25 USD
 - **Link:** https://www.womenunitedartmovement.com/artmagazine
-- _⚠ Deadline-promoted from Publication Targets — 2d remaining_
+- _⚠ Deadline-promoted from Publication Targets — 1d remaining_
 - _Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies._
 
+### **SICF Fukuoka 2026**
+- **Apply by:** 2026-06-11 — _2d — this week_
+- **Link:** https://www.sicf.jp
+- _⚠ Deadline-promoted from Research Needed — 2d remaining_
+- _Creator exhibition opportunity for artists and artists; fits illustration/watercolor artist looking for exhibition venues._
+
 ### ZINEフェス東京 (ZINE Fest Tokyo)
-- **Apply by:** 2026-06-27 — _19d_
+- **Apply by:** 2026-06-27 — _18d_
 - **Event date:** 2026-07-11
 - **Fee:** ¥5,200 (1 person, with promotion) / ¥6,200 (1 person, no promotion)
 - **Link:** https://note.com/bookcultureclub/n/n053a24287fc2
 - _Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27_
 
 ### アートオリンピア2026
-- **Apply by:** 2026-07-31 — _53d_
+- **Apply by:** 2026-07-31 — _52d_
 - **Fee:** 一般：1点 1万2000円、2点 2万円、3点 2万4000円。学生（30歳以下）：1点 6000円、2点 1万円、3点 1万2000円
 - **Link:** https://compe.japandesign.ne.jp/artolympia-2026
 - _アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offe_
 
+### Zine & Book フェス in 神保町 (Jimbocho)
+- **Apply by:** 2026 edition: January 18-19 2026 (past). Watch October 2026 for next call. — _223d_
+- **Link:** https://jimbocho-zine-book-fes.com/
+- _Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing._
+
 ### 水性繪畫展覽 (Watercolor Exhibition)
-- **Apply by:** 2月26日 (February 26) — _263d_
+- **Apply by:** 2月26日 (February 26) — _262d_
 - **Fee:** ['26 euros (first work), 10 euros (additional)', '$45.00 (first painting), $10.00 (second painting)', None]
 - **Link:** ['https://www.facebook.com/groups/399439684424141/posts/1630603444641086', 'https://artist.callforentry.org/festivals_unique_info.php?ID=14119', 'https://artdeadline.com/ops/san-diego-watercolor-society']
-- _Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026._
+- _The 水性繪畫展覽's focus on watercolor as a primary medium directly aligns with GEGYjiji's daily practice of capturing Tokyo's fleeting urban mome_
 
 ### Tokyo Art Book Fair
 - **Apply by:** 2027年1月21日
@@ -84,7 +96,7 @@ No changes detected.
 - **Apply by:** May 15th
 - **Fee:** $15
 - **Link:** https://bhuntr.com/tw/competitions/208h5hxfrofrnv2jhx
-- _Water-themed international art competition accepting watercolor works from global artists, directly aligned with watercolor practice._
+- _第九屆水主題國際評審藝術比賽's focus on water as subject matter directly engages with the atmospheric and reflective qualities that define her urban water_
 
 ### Northwest Watercolor Society 2026 Annual International Open Exhibition
 - **Apply by:** — _(contact / propose)_
@@ -95,27 +107,26 @@ No changes detected.
 
 ### Confirmed Deadlines Within 90 Days
 
-- **ギャラリーへ行こう2026** — Entry period: June 15 - July 1, 2025; Submission dates: July 2-4, 2025 (7d) [Research]
-- **FY2026 Life with Art Grant** — 14:00 on Monday, June 29, 2026 (21d) [Stretch]
-- **Brillia Art Award Wall 2026** — 2026-07-08 (30d) [Research]
-- **Art Fair Tokyo 2026** — 2026-08-01 (54d) [Stretch]
-- **KAMIHANGA国際プリント展2026** — Domestic: September 4, 2026 (Monday); International: August 14, 2026 (Thursday) (67d) [Research]
+- **ギャラリーへ行こう2026** — Entry period: June 15 - July 1, 2025; Submission dates: July 2-4, 2025 (6d) [Research]
+- **FY2026 Life with Art Grant** — 14:00 on Monday, June 29, 2026 (20d) [Stretch]
+- **Brillia Art Award Wall 2026** — 2026-07-08 (29d) [Research]
+- **KAMIHANGA国際プリント展2026** — Domestic: September 4, 2026 (Monday); International: August 14, 2026 (Thursday) (66d) [Research]
 
 ### Next Cycle — Check Dates
 
-- **SCCP Guest Artist** — check by 2026-08-01 (54d)
+- **SCCP Guest Artist** — check by 2026-08-01 (53d)
   - _Application closed October 31 2025 — check for next annual cycle_
-- **Fukuoka Art Book Fair** — check by 2026-10-01 (115d)
+- **Fukuoka Art Book Fair** — check by 2026-10-01 (114d)
   - _Application deadline was 2026-05-29 — check for 2027 cycle_
-- **Shangyuan International Residency Programme** — check by 2026-10-01 (115d)
+- **Shangyuan International Residency Programme** — check by 2026-10-01 (114d)
   - _2026 cycle results announced January 2026. Apply October 2026 for 2027._
-- **Zine & Book フェス in 神保町 (Jimbocho)** — check by 2026-10-01 (115d)
+- **Zine & Book フェス in 神保町 (Jimbocho)** — check by 2026-10-01 (114d)
   - _2026 edition: January 18-19 2026, Publishing Club Hall, Jimbocho. 30 exhibitor booths per day selected by public recruitment. Annual event — next application call expected autumn 2026._
-- **Applications — Little Tokyo Zine Fest** — check by 2026-11-01 (146d)
+- **Applications — Little Tokyo Zine Fest** — check by 2026-11-01 (145d)
   - _Application deadline was 2026-01-31 (Eventeny confirmed) — check for 2027 cycle_
-- **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — check by 2026-11-01 (146d)
+- **Full-Table - Little Tokyo Zine Fest 2026 - Eventeny** — check by 2026-11-01 (145d)
   - _Application deadline was Jan 31 2026 — past_
-- **National Watercolor Society International Open Exhibition** — check by 2027-01-01 (207d)
+- **National Watercolor Society International Open Exhibition** — check by 2027-01-01 (206d)
   - _2026 deadline was May 22. Annual. $70 non-member, $40,000+ awards._
-- **Japan International Watercolor Institute Online Exhibition** — check by 2027-01-15 (221d)
+- **Japan International Watercolor Institute Online Exhibition** — check by 2027-01-15 (220d)
   - _2026 deadlines March-April. Annual. 2000 yen entry. Anyone eligible._

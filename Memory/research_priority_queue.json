@@ -64,7 +64,7 @@
       "deadline",
       "official_website"
     ],
-    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
+    "quick_action": "Research current submission, workshop, and publication opportunities; identify whether portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper or newsletter visibility is available."
   },
   {
     "title": "Printed Matter Art Book Fairs",
@@ -82,8 +82,8 @@
   },
   {
     "title": "American Watercolor Society Annual International Exhibition",
-    "score": 7.4,
-    "research_priority_score": 13.18,
+    "score": 7.3,
+    "research_priority_score": 13.08,
     "country": "USA",
     "category": "global_watercolor_open_call",
     "missing_fields": [
@@ -95,8 +95,8 @@
   },
   {
     "title": "Cité Internationale des Arts Artist Residency",
-    "score": 7.3,
-    "research_priority_score": 13.01,
+    "score": 7.2,
+    "research_priority_score": 12.91,
     "country": "France",
     "category": "global_residency",
     "missing_fields": [
@@ -309,6 +309,20 @@
     "quick_action": "Verify submission page and deadline before applying."
   },
   {
+    "title": "HB Gallery",
+    "score": 8.1,
+    "research_priority_score": 11.2,
+    "country": "Tokyo",
+    "category": null,
+    "missing_fields": [
+      "submission_page",
+      "fees",
+      "deadline",
+      "contact_email"
+    ],
+    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
+  },
+  {
     "title": "2026 Global Grant Cycle - Individual Fellowship",
     "score": 9.2,
     "research_priority_score": 11.1,
@@ -366,20 +380,6 @@
       "contact_email"
     ],
     "quick_action": "Verify submission page and deadline before applying."
-  },
-  {
-    "title": "HB Gallery",
-    "score": 8.0,
-    "research_priority_score": 11.1,
-    "country": "Tokyo",
-    "category": null,
-    "missing_fields": [
-      "submission_page",
-      "fees",
-      "deadline",
-      "contact_email"
-    ],
-    "quick_action": "Verify current submission, exhibition, or contact details before recommending."
   },
   {
     "title": "Bologna Children's Book Fair Illustrators Exhibition",

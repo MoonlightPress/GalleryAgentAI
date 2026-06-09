@@ -1,8 +1,8 @@
 # torch press
 
 ## 1. Quick Judgment
-**Fit score:** 7.1/10  
-**Fit band:** Strong fit  
+**Fit score:** 6.8/10  
+**Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Book Publishing  
 **City:** Tokyo  
@@ -47,4 +47,4 @@ Review recent titles and identify whether her work fits their publication style.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-09_

@@ -1,8 +1,8 @@
 # Art Fair Tokyo 2026
 
 ## 1. Quick Judgment
-**Fit score:** 7.7/10  
-**Fit band:** Strong fit  
+**Fit score:** 8.6/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Tokyo  
@@ -25,7 +25,7 @@ Verified: Official/source website, Submission process, Deadline. Needs checking:
 Contemporary art fair in Tokyo featuring emerging and established artists; relevant for illustration and watercolor artists seeking gallery representation
 
 ## 5. Existing Fit Notes
-Contemporary art fair in Tokyo featuring emerging and established artists; relevant for illustration and watercolor artists seeking gallery representation
+Art Fair Tokyo 2026's focus on emerging artists working across illustration and works on paper directly aligns with GEGYjiji's daily watercolor practice capturing Tokyo's evolving urban landscapes and architectural moments. As a diaspora artist based in Japan, she can leverage the fair's platform to connect with galleries seeking contemporary practitioners who document place and memory through observational practice.
 
 ## 6. Key Points
 - No bullet analysis stored yet.
@@ -45,4 +45,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-09_

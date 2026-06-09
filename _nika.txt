@@ -1,0 +1,7 @@
+{
+  "name": "2026春季二科展「NIKA+nika/S20号」コンクール",
+  "url": "https://www.artkoubo.jp/artolympia/",
+  "submission_page": "",
+  "contact": "Online submission form: compe.japandesign.ne.jp/artolympia-2026",
+  "contact_verified": true
+}

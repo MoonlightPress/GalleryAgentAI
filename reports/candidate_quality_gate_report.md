@@ -1,14 +1,13 @@
 # Candidate Quality Gate Report
 
 Approved: 4
-Rejected: 131
+Rejected: 120
 
 ## Rejected
 
 - Browse opportunities | CuratorSpace — strong: open call, weak: exhibition, score too low: 3
 - Royal Watercolour Society — generic page without opportunity language
 - Phoebe Barnicoat Gabriella Painting Me Painting Her watercolour Unframed Artwork: 10.5 x 1 — generic page without opportunity language
-- Exhibition Chelsea Chang Yuchen: a dictionary, a loom, a manifesto, a note, a kite, a phon — strong: printed matter, weak: exhibition, gallery, score too low: 2
 - Exhibitions — junk title: exhibitions
 - LONDON CALLING Bankside Gallery 5th - 21st June — generic page without opportunity language
 - OUR ARTISTS The finest practitioners of water-based media on paper — generic page without opportunity language
@@ -23,15 +22,14 @@ Rejected: 131
 - Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。 — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
-- Printed Matter, Inc. — strong: printed matter, zine, score too low: 2
+- Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
 - Daniel Shepard Straffon All Lover the Place: NYC [Poster] Posters $70.00 Recent Arrival Si — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Japan [Poster] Posters $70.00 Recent Arrival  — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Indonesia [Poster] Posters $70.00 Recent Arri — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Mexico [Poster] Posters $70.00 Recent Arrival — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Thailand [Poster] Posters $70.00 Recent Arriv — strong: printed matter, weak: book, score too low: 1
-- Daniel Shepard Straffon All Lover the Place: Sticker Pack Ephemera $18.00 Recent Arrival — strong: printed matter, weak: book, score too low: 1
+- Daniel Shepard Straffon All Lover the Place: Sticker Pack Ephemera $18.00 — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Chicago [Poster] Posters $70.00 Recent Arriva — strong: printed matter, weak: book, score too low: 1
-- See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
 - Skip to main content — generic page without opportunity language
 - Menu — generic page without opportunity language
@@ -93,24 +91,15 @@ Rejected: 131
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
-- Magazine — strong: open call, zine, score too low: 2
+- Magazine — strong: zine, open call, score too low: 2
+- photography of place — strong: open call, weak: photography, score too low: 1
 - Open Call — strong: open call, has submission link, score too low: 3
-- open call to artists of haitian descent — strong: open call, weak: artist, has submission link, score too low: 4
-- contemporary british painting prize — strong: open call, score too low: 0
 - trinity buoy wharf drawing prize — strong: open call, score too low: 0
-- teaching residency — strong: open call, residency, score too low: 2
-- Residency — strong: open call, residency, score too low: 2
+- teaching residency — strong: residency, open call, score too low: 2
+- Residency — strong: residency, open call, score too low: 2
 - Open Calls — strong: open call, has submission link, score too low: 3
 - www.curatorspace.com — generic page without opportunity language
 - Report this? — generic page without opportunity language
-- Report this? — generic page without opportunity language
-- Contemporary British Painting — generic page without opportunity language
-- More details — generic page without opportunity language
-- www.curatorspace.com — weak: exhibition, gallery, has submission link, score too low: 3
-- Report this? — weak: exhibition, gallery, has submission link, score too low: 3
-- www.curatorspace.com — generic page without opportunity language
-- Report this? — generic page without opportunity language
-- Swelling Rage | Collage Artists Photosynthesis Magazine re-emerges, more on fire than ever — strong: zine, weak: artist, score too low: 1
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -139,7 +128,7 @@ Rejected: 131
 
 ## Approved
 
-- Home - Printed Matter — strong: book fair, printed matter, photobook, zine, weak: exhibition, book
-- Top Artist Opportunities for 2026 | ArtConnect — strong: open call, zine, submission, residency, weak: artist, exhibition
-- Art Submissions — strong: open call, submission, has submission link
-- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — strong: open call, call for, weak: artist, has submission link
+- Home - Printed Matter — strong: zine, printed matter, photobook, book fair, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, zine, residency, open call, weak: exhibition, artist, gallery
+- Art Submissions — strong: submission, open call, has submission link
+- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — strong: call for, open call, weak: artist, has submission link

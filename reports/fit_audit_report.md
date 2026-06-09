@@ -210,5 +210,5 @@ Risks:
 
 - Center for Book Arts Opportunities — 9.4/10 — aesthetic lineage +1.2, global/international target, tag: publication, tag: global
 - BOOOOOOOM 2026 Art & Photo Book Award — 8.8/10 — aesthetic lineage +0.8, tag: publication, tag: zine
-- American Watercolor Society Annual International Exhibition — 7.4/10 — high prestige, global/international target, tag: global
-- Cité Internationale des Arts Artist Residency — 7.3/10 — high prestige, global/international target, tag: global
+- American Watercolor Society Annual International Exhibition — 7.3/10 — high prestige, global/international target, tag: global
+- Cité Internationale des Arts Artist Residency — 7.2/10 — high prestige, global/international target, tag: global

@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-08
+REPORT GENERATED: 2026-06-09
 
 # Tokyo Art Book Fair
 
@@ -50,5 +50,5 @@ Ask yourself if creating an artist book or zine series about vernacular architec
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-09_
 

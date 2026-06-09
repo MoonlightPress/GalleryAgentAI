@@ -1,0 +1,42 @@
+[
+  {
+    "name": "アートオリンピア2026",
+    "contact": null,
+    "contact_verified": false,
+    "submission_page": "https://compe.japandesign.ne.jp/artolympia-2026",
+    "official_website": "https://x.com/artkoubo",
+    "category": "japan_watercolor_open_call",
+    "bucket": "immediate_best_moves"
+  },
+  {
+    "name": "水性繪畫展覽 (Watercolor Exhibition)",
+    "contact": null,
+    "contact_verified": true,
+    "submission_page": [
+      "https://www.facebook.com/groups/399439684424141/posts/1630603444641086",
+      "https://artist.callforentry.org/festivals_unique_info.php?ID=14119",
+      "https://artdeadline.com/ops/san-diego-watercolor-society"
+    ],
+    "official_website": "https://bhuntr.com/tw/competitions/22uxj7uzoljljpa11y",
+    "category": "global_watercolor_open_call",
+    "bucket": "immediate_best_moves"
+  },
+  {
+    "name": "第九屆水主題國際評審藝術比賽",
+    "contact": null,
+    "contact_verified": false,
+    "submission_page": "https://bhuntr.com/tw/competitions/208h5hxfrofrnv2jhx",
+    "official_website": "https://bhuntr.com/tw/competitions/208h5hxfrofrnv2jhx",
+    "category": "global_watercolor_open_call",
+    "bucket": "immediate_best_moves"
+  },
+  {
+    "name": "FACE Exhibition 2026",
+    "contact": null,
+    "contact_verified": false,
+    "submission_page": "https://www.iwafu.com/en/events/1062957",
+    "official_website": "https://www.iwafu.com/en/events/1062957",
+    "category": "institutional",
+    "bucket": "relationship_builders"
+  }
+]

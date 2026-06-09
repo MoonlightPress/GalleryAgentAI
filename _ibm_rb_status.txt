@@ -1,0 +1,28 @@
+IBM entries:
+  [ok] dl=True | Tokyo Art Book Fair | contact=info@tokyoartbookfair.com
+  [ok] dl=True | UTRECHT | contact=info@utrecht.jp
+  [ok] dl=True | B&B Shimokitazawa | contact=@books_and_beer_ (Instagram) / TEL: 03-6450-8272
+  [ok] dl=True | アートオリンピア2026 | contact=
+  [ok] dl=True | ZINEフェス東京 (ZINE Fest Tokyo) | contact=bookcultureclub81@gmail.com
+  [ok] dl=True | 水性繪畫展覽 (Watercolor Exhibition) | contact=[None, None, None]
+  [ok] dl=True | MOUNT ZINE | contact=@mountzine (Instagram/Twitter) — contact form at m
+  [ok] dl=True | Canadian Society of Painters in Water Colour | contact=info@cspwc.ca
+  [ok] dl=False | Book and Sons | contact=@bookandsons (Instagram) — contact form at bookand
+  [ok] dl=False | flotsam books | contact=@flotsambooks (Instagram) — contact form at flotsa
+  [ok] dl=False | 第113回 日本水彩展 | contact=TEL: 03-5828-1616 / FAX: 03-5828-1619
+  [ok] dl=True | 第九屆水主題國際評審藝術比賽 | contact=
+  [ok] dl=True | Northwest Watercolor Society | contact=
+
+RB entries:
+  [ok] dl=True | SHIBUYA CAST. Gallery | contact=@shibuyacast
+  [ok] dl=True | HATTIFNATT Koenji Cafe Gallery | contact=TEL: 03-6762-8122
+  [ok] dl=True | Mograg Gallery | contact=@mograggallery
+  [ok] dl=True | Nui. Hostel Bar & Lounge Asakusa | contact=@nui_hostel
+  [ok] dl=True | Apartamento Magazine | contact=Via Instagram relationship and art book fair conne
+  [ok] dl=True | Kamome Roastery Tokyo | contact=info@kamome-tokyo.com
+  [ok] dl=True | 美術手帖 (Bijutsu Techo) | contact=editorial@bijutsutecho.com or Instagram DM @bijuts
+  [ok] dl=True | Pen Magazine | contact=Via pen-online.jp contact or editorial DM
+  [ok] dl=True | Casa Brutus | contact=Via casabrutus.com contact or Instagram @casabrutu
+  [ok] dl=True | It's Nice That | contact=itsnicethat.com/submit
+  [error] dl=True | Gallery Rocket Harajuku | contact=@galleryrocket
+  [ok] dl=True | FACE Exhibition 2026 | contact=

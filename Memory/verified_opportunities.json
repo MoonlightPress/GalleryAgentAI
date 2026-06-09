@@ -152,7 +152,7 @@
     "relevant_links": [],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-08",
+      "fetched_at": "2026-06-09",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
@@ -1041,7 +1041,7 @@
     ],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-08",
+      "fetched_at": "2026-06-09",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
@@ -1810,7 +1810,7 @@
     ],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-08",
+      "fetched_at": "2026-06-09",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
@@ -1910,7 +1910,7 @@
     ],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-08",
+      "fetched_at": "2026-06-09",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
@@ -4536,7 +4536,7 @@
     ],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-08",
+      "fetched_at": "2026-06-09",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
@@ -4730,7 +4730,7 @@
     ],
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-08",
+      "fetched_at": "2026-06-09",
       "pages": [],
       "all_emails": [],
       "all_dates": [],
@@ -5681,7 +5681,7 @@
     "error": "HTTPSConnectionPool(host='post-books.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'post-books.info'. (_ssl.c:1081)\")))",
     "submission_links": [],
     "submission_page_data": {
-      "fetched_at": "2026-06-08",
+      "fetched_at": "2026-06-09",
       "pages": [],
       "all_emails": [],
       "all_dates": [],

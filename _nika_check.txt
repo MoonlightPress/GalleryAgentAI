@@ -1,0 +1,6 @@
+{
+  "name": "2026春季二科展「NIKA nika/S20号」コンクール",
+  "url": "https://twitter.com/search?q=%23ART%E5%85%AC%E5%8B%9F&src=hashtag_click",
+  "contact": "koubo@nika.or.jp",
+  "contact_verified": true
+}

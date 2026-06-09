@@ -51,16 +51,6 @@
       "image": ""
     },
     {
-      "title": "Center for Book Arts Opportunities",
-      "bucket": "general",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "Potentially useful depending on current strategic goals.",
-      "category": "Global Book Arts",
-      "city": "New York",
-      "image": ""
-    },
-    {
       "title": "SHIBUYA CAST. Gallery",
       "bucket": "easy_win",
       "score": 9.4,
@@ -68,6 +58,16 @@
       "reason": "Strong fit with relatively low barrier to entry.",
       "category": "Cafe / Local Wall Spaces",
       "city": "Tokyo — Shibuya",
+      "image": ""
+    },
+    {
+      "title": "Center for Book Arts Opportunities",
+      "bucket": "general",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Potentially useful depending on current strategic goals.",
+      "category": "Global Book Arts",
+      "city": "New York",
       "image": ""
     },
     {
@@ -287,7 +287,7 @@
     {
       "title": "American Watercolor Society Annual International Exhibition",
       "bucket": "career_changing",
-      "score": 7.4,
+      "score": 7.3,
       "confidence": "Medium",
       "reason": "High-prestige opportunity with strong long-term impact.",
       "category": "Global Watercolor Open Call",
@@ -297,7 +297,7 @@
     {
       "title": "Cité Internationale des Arts Artist Residency",
       "bucket": "career_changing",
-      "score": 7.3,
+      "score": 7.2,
       "confidence": "High",
       "reason": "High-prestige opportunity with strong long-term impact.",
       "category": "Global Residency",
@@ -431,7 +431,7 @@
     {
       "title": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
       "bucket": "community_builder",
-      "score": 7.7,
+      "score": 7.6,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
@@ -519,13 +519,13 @@
       "image": ""
     },
     {
-      "title": "RAW TOKYO",
+      "title": "Applications — Little Tokyo Zine Fest",
       "bucket": "community_builder",
-      "score": 5.6,
+      "score": 5.5,
       "confidence": "High",
       "reason": "Useful for building local connections and visibility.",
       "category": "Markets / Popups / Booths",
-      "city": "Tokyo",
+      "city": "Japan / Tokyo / Online",
       "image": ""
     }
   ],

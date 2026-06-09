@@ -2,14 +2,16 @@
   "venue_name": "Not specified in snippet",
   "venue_slug": "not_specified_in_snippet",
   "venue_type": "artist opportunity venue",
-  "city": "Tokyo",
+  "city": "International, Tokyo",
   "country": "",
-  "website": "https://artnoto.jp/useful/support",
+  "website": "https://weichuan.wjwebsite.com",
   "source_links": [
+    "https://weichuan.wjwebsite.com",
     "https://artnoto.jp/useful/support"
   ],
   "categories_seen": [
-    "Grant"
+    "Grant",
+    "Illustration Prize"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -26,12 +28,14 @@
   "missing_information": [
     "contact",
     "deadline",
+    "fees",
     "submission process"
   ],
   "opportunity_titles": [
+    "Chinese Culture in My Everyday Life / 我生活中的中華文化",
     "マイクロ・アート・ワーケーション（MAW）2026"
   ],
   "last_researched": "",
-  "created_at": "2026-06-08",
-  "updated_at": "2026-06-08"
+  "created_at": "2026-06-09",
+  "updated_at": "2026-06-09"
 }

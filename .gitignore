@@ -2,3 +2,4 @@ deploy_package/
 .env
 .env.*
 *.env
+.claude/worktrees/

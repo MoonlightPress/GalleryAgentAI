@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Tokyo Art Book Fair",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "UTRECHT",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "SHIBUYA CAST. Gallery",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "HATTIFNATT Koenji Cafe Gallery",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "Mograg Gallery",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "Nui. Hostel Bar & Lounge Asakusa",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "B&B Shimokitazawa",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "Apartamento Magazine",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "Kamome Roastery Tokyo",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "美術手帖 (Bijutsu Techo)",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "アートオリンピア2026",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "ZINEフェス東京 (ZINE Fest Tokyo)",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "mixed"
+  },
+  {
+    "name": "水性繪畫展覽 (Watercolor Exhibition)",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": false,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "MOUNT ZINE",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "mixed"
+  },
+  {
+    "name": "Canadian Society of Painters in Water Colour",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "Pen Magazine",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "Casa Brutus",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "It's Nice That",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "Gallery Rocket Harajuku",
+    "bucket": "relationship_builders",
+    "url_status": "no_url",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "Book and Sons",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": false,
+    "medium": "mixed"
+  },
+  {
+    "name": "flotsam books",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": false,
+    "medium": "promoted"
+  },
+  {
+    "name": "第113回 日本水彩展",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": false,
+    "medium": "promoted"
+  },
+  {
+    "name": "第九屆水主題國際評審藝術比賽",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "Northwest Watercolor Society",
+    "bucket": "immediate_best_moves",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  },
+  {
+    "name": "FACE Exhibition 2026",
+    "bucket": "relationship_builders",
+    "url_status": "ok",
+    "has_contact": true,
+    "contact_verified": true,
+    "deadline_verified": true,
+    "medium": "promoted"
+  }
+]

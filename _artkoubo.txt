@@ -1,0 +1,22 @@
+[
+  {
+    "name": "アートオリンピア2026",
+    "url": "https://www.artkoubo.jp/artolympia/",
+    "contact": "Online submission form: compe.japandesign.ne.jp/artolympia-2026"
+  },
+  {
+    "name": "2026春季二科展「NIKA+nika/S20号」コンクール",
+    "url": "https://www.artkoubo.jp/artolympia/",
+    "contact": "Online submission form: compe.japandesign.ne.jp/artolympia-2026"
+  },
+  {
+    "name": "Art公募",
+    "url": "https://www.artkoubo.jp/",
+    "contact": null
+  },
+  {
+    "name": "第92回旺玄展",
+    "url": "https://x.com/artkoubo",
+    "contact": "080-4855-3767"
+  }
+]
