@@ -32,7 +32,7 @@
       {
         "title": "Tokyo Art Book Fair",
         "score": 9.6,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.7,
         "verification": "verified",
         "hits": [
           "zine",
@@ -46,9 +46,20 @@
         "source": "https://tokyoartbookfair.com/"
       },
       {
+        "title": "Center for Book Arts Opportunities",
+        "score": 9.6,
+        "differentiated_score": 11.37,
+        "verification": "verified",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
+        "source": "https://centerforbookarts.org/"
+      },
+      {
         "title": "UTRECHT",
         "score": 9.2,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.3,
         "verification": "verified",
         "hits": [
           "zine",
@@ -59,9 +70,20 @@
         "source": "https://utrecht.jp/"
       },
       {
+        "title": "Aesthetica Art Prize",
+        "score": 9.6,
+        "differentiated_score": 11.29,
+        "verification": "verified",
+        "hits": [
+          "zine"
+        ],
+        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.",
+        "source": "https://aestheticamagazine.com/art-prize/"
+      },
+      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 9.2,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.19,
         "verification": null,
         "hits": [
           "zine",
@@ -73,7 +95,7 @@
       {
         "title": "SUBMISSIONS - marblepress.com",
         "score": 9.2,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.19,
         "verification": "verified",
         "hits": [
           "artist book",
@@ -83,52 +105,26 @@
         "source": "https://marblepress.com/submissions/"
       },
       {
-        "title": "flotsam books",
-        "score": 8.3,
-        "differentiated_score": 11.39,
-        "verification": "verified",
+        "title": "Still Life - 2026",
+        "score": 9.6,
+        "differentiated_score": 11.14,
+        "verification": "needs_research",
         "hits": [
-          "zine",
           "artist book"
         ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
-        "source": "https://www.flotsambooks.com/"
+        "why": "4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.",
+        "source": "https://artist.callforentry.org/festivals.php"
       },
       {
-        "title": "B&B Shimokitazawa",
-        "score": 8.0,
-        "differentiated_score": 11.39,
-        "verification": "verified",
+        "title": "American Illustration",
+        "score": 9.6,
+        "differentiated_score": 11.14,
+        "verification": "research_needed",
         "hits": [
-          "zine",
           "artist book"
         ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
-        "source": "https://bookandbeer.com/"
-      },
-      {
-        "title": "submissions — porkbelly press",
-        "score": 6.1,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "artist book",
-          "small press"
-        ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-        "source": "https://porkbellypress.com/subs/"
-      },
-      {
-        "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
-        "score": 9.2,
-        "differentiated_score": 11.29,
-        "verification": "relationship_builders",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.",
-        "source": "https://bijutsutecho.com/"
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.",
+        "source": "https://www.ai-ap.com/"
       }
     ],
     "best_publisher_targets": [
@@ -245,7 +241,7 @@
       {
         "title": "Tokyo Art Book Fair",
         "score": 9.6,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.7,
         "verification": "verified",
         "hits": [
           "memory",
@@ -255,9 +251,20 @@
         "source": "https://tokyoartbookfair.com/"
       },
       {
+        "title": "Center for Book Arts Opportunities",
+        "score": 9.6,
+        "differentiated_score": 11.37,
+        "verification": "verified",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
+        "source": "https://centerforbookarts.org/"
+      },
+      {
         "title": "UTRECHT",
         "score": 9.2,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.3,
         "verification": "verified",
         "hits": [
           "memory",
@@ -270,7 +277,7 @@
       {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 9.2,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.19,
         "verification": null,
         "hits": [
           "artist book"
@@ -281,7 +288,7 @@
       {
         "title": "SUBMISSIONS - marblepress.com",
         "score": 9.2,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.19,
         "verification": "verified",
         "hits": [
           "artist book"
@@ -290,48 +297,37 @@
         "source": "https://marblepress.com/submissions/"
       },
       {
-        "title": "flotsam books",
-        "score": 8.3,
-        "differentiated_score": 11.39,
-        "verification": "verified",
+        "title": "Still Life - 2026",
+        "score": 9.6,
+        "differentiated_score": 11.14,
+        "verification": "needs_research",
         "hits": [
           "artist book"
         ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
-        "source": "https://www.flotsambooks.com/"
+        "why": "4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.",
+        "source": "https://artist.callforentry.org/festivals.php"
       },
       {
-        "title": "B&B Shimokitazawa",
-        "score": 8.0,
-        "differentiated_score": 11.39,
-        "verification": "verified",
+        "title": "American Illustration",
+        "score": 9.6,
+        "differentiated_score": 11.14,
+        "verification": "research_needed",
         "hits": [
           "artist book"
         ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
-        "source": "https://bookandbeer.com/"
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.",
+        "source": "https://www.ai-ap.com/"
       },
       {
-        "title": "submissions — porkbelly press",
-        "score": 6.1,
-        "differentiated_score": 11.39,
-        "verification": "verified",
+        "title": "World Illustration Awards",
+        "score": 9.6,
+        "differentiated_score": 11.14,
+        "verification": "research_needed",
         "hits": [
           "artist book"
         ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-        "source": "https://porkbellypress.com/subs/"
-      },
-      {
-        "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
-        "score": 9.2,
-        "differentiated_score": 11.29,
-        "verification": "relationship_builders",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.",
-        "source": "https://bijutsutecho.com/"
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.",
+        "source": "https://theaoi.com/world-illustration-awards/"
       }
     ],
     "best_publisher_targets": [
@@ -400,7 +396,7 @@
       {
         "title": "Tokyo Art Book Fair",
         "score": 9.6,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.7,
         "verification": "verified",
         "hits": [
           "zine",
@@ -413,9 +409,20 @@
         "source": "https://tokyoartbookfair.com/"
       },
       {
+        "title": "Center for Book Arts Opportunities",
+        "score": 9.6,
+        "differentiated_score": 11.37,
+        "verification": "verified",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based.",
+        "source": "https://centerforbookarts.org/"
+      },
+      {
         "title": "UTRECHT",
         "score": 9.2,
-        "differentiated_score": 11.5,
+        "differentiated_score": 11.3,
         "verification": "verified",
         "hits": [
           "zine",
@@ -426,9 +433,20 @@
         "source": "https://utrecht.jp/"
       },
       {
+        "title": "Aesthetica Art Prize",
+        "score": 9.6,
+        "differentiated_score": 11.29,
+        "verification": "verified",
+        "hits": [
+          "zine"
+        ],
+        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists.",
+        "source": "https://aestheticamagazine.com/art-prize/"
+      },
+      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 9.2,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.19,
         "verification": null,
         "hits": [
           "zine",
@@ -440,7 +458,7 @@
       {
         "title": "SUBMISSIONS - marblepress.com",
         "score": 9.2,
-        "differentiated_score": 11.39,
+        "differentiated_score": 11.19,
         "verification": "verified",
         "hits": [
           "small press",
@@ -450,54 +468,26 @@
         "source": "https://marblepress.com/submissions/"
       },
       {
-        "title": "flotsam books",
-        "score": 8.3,
-        "differentiated_score": 11.39,
-        "verification": "verified",
+        "title": "Still Life - 2026",
+        "score": 9.6,
+        "differentiated_score": 11.14,
+        "verification": "needs_research",
         "hits": [
-          "zine",
-          "bookstore",
           "artist book"
         ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
-        "source": "https://www.flotsambooks.com/"
+        "why": "4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.",
+        "source": "https://artist.callforentry.org/festivals.php"
       },
       {
-        "title": "B&B Shimokitazawa",
-        "score": 8.0,
-        "differentiated_score": 11.39,
-        "verification": "verified",
+        "title": "American Illustration",
+        "score": 9.6,
+        "differentiated_score": 11.14,
+        "verification": "research_needed",
         "hits": [
-          "zine",
-          "bookstore",
           "artist book"
         ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
-        "source": "https://bookandbeer.com/"
-      },
-      {
-        "title": "submissions — porkbelly press",
-        "score": 6.1,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "small press",
-          "artist book"
-        ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
-        "source": "https://porkbellypress.com/subs/"
-      },
-      {
-        "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
-        "score": 9.2,
-        "differentiated_score": 11.29,
-        "verification": "relationship_builders",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.",
-        "source": "https://bijutsutecho.com/"
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.",
+        "source": "https://www.ai-ap.com/"
       }
     ],
     "best_publisher_targets": [

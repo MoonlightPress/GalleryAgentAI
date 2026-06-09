@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-08
+REPORT GENERATED: 2026-06-09
 
 # Gallery 456 Exhibition Open Call 2026
 
 ## 1. Quick Judgment
-**Fit score:** 10/10  
+**Fit score:** 9.5/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
@@ -48,5 +48,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-09_
 

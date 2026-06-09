@@ -2,38 +2,34 @@
   "dominant_countries": [
     [
       "Japan",
-      50
+      56
     ],
     [
-      "Global",
-      10
+      "USA",
+      7
     ],
     [
       "International",
       7
     ],
     [
-      "USA",
-      5
+      "Global",
+      6
     ],
     [
       "Canada",
       5
     ],
     [
+      "Tokyo",
+      3
+    ],
+    [
       "UK",
       3
     ],
     [
-      "China",
-      2
-    ],
-    [
-      "Tokyo",
-      2
-    ],
-    [
-      "Singapore",
+      "France",
       2
     ],
     [
@@ -45,69 +41,85 @@
       1
     ],
     [
-      "Yokohama",
+      "Taiwan",
       1
     ],
     [
-      "Taiwan",
+      "Singapore",
       1
     ],
     [
       "United States",
       1
+    ],
+    [
+      "France / UK",
+      1
+    ],
+    [
+      "Yokohama",
+      1
+    ],
+    [
+      "China",
+      1
     ]
   ],
   "dominant_categories": [
+    [
+      "grant",
+      11
+    ],
+    [
+      "bookstore_gallery",
+      10
+    ],
+    [
+      "japan_watercolor_open_call",
+      10
+    ],
     [
       "cafe_gallery",
       10
     ],
     [
-      "bookstore_gallery",
-      9
-    ],
-    [
-      "japan_watercolor_open_call",
-      9
-    ],
-    [
-      "fair_popup",
-      7
-    ],
-    [
-      "book_publishing",
-      7
-    ],
-    [
       "global_open_call",
-      7
-    ],
-    [
-      "grant",
-      7
-    ],
-    [
-      "press_target",
-      6
+      8
     ],
     [
       "global_watercolor_open_call",
-      6
+      7
     ],
     [
       "zine_print",
       6
     ],
     [
-      "gallery",
+      "institutional",
       6
     ],
     [
-      "institutional",
+      "press_target",
       5
     ],
     [
-      "group_publication_open_call",
+      "gallery",
+      5
+    ],
+    [
+      "zine_shop_consignment",
+      4
+    ],
+    [
+      "residency",
+      4
+    ],
+    [
+      "book_publishing",
+      3
+    ],
+    [
+      "artist_space",
       3
     ],
     [
@@ -115,121 +127,133 @@
       3
     ],
     [
+      "fair_popup",
+      2
+    ],
+    [
+      "group_publication_open_call",
+      2
+    ],
+    [
+      "global_residency",
+      2
+    ],
+    [
+      "global_book_arts",
+      1
+    ],
+    [
       "zine_fair_booth",
-      2
-    ],
-    [
-      "photo_open_call",
-      2
-    ],
-    [
-      "zine_shop_consignment",
-      2
-    ],
-    [
-      "artist_space",
-      2
-    ],
-    [
-      "residency",
-      2
-    ],
-    [
-      "bookstore_event",
       1
     ]
   ],
   "dominant_tags": [
     [
-      "japan",
-      27
+      "japanese_source",
+      29
     ],
     [
-      "japanese_source",
+      "japan",
       26
     ],
     [
       "has_submission_url",
-      21
-    ],
-    [
-      "jp",
-      19
+      23
     ],
     [
       "has_deadline",
-      19
+      23
+    ],
+    [
+      "jp",
+      21
     ],
     [
       "tokyo",
-      15
-    ],
-    [
-      "secondary",
-      12
-    ],
-    [
-      "",
-      12
-    ],
-    [
-      "diaspora",
-      12
+      17
     ],
     [
       "watercolor_ok",
-      12
+      14
     ],
     [
       "tier_1",
-      12
+      13
+    ],
+    [
+      "grant",
+      11
+    ],
+    [
+      "funding",
+      11
+    ],
+    [
+      "secondary",
+      10
+    ],
+    [
+      "",
+      10
+    ],
+    [
+      "chinese_source",
+      10
+    ],
+    [
+      "diaspora",
+      9
     ],
     [
       "diaspora_community",
-      11
+      9
     ],
     [
       "relationship",
       9
     ],
     [
-      "chinese_source",
-      8
-    ],
-    [
       "cafe_gallery",
-      8
-    ],
-    [
-      "grant",
-      7
-    ],
-    [
-      "funding",
-      7
-    ],
-    [
-      "press",
-      6
-    ],
-    [
-      "editorial",
-      6
+      9
     ],
     [
       "global",
-      5
+      8
+    ],
+    [
+      "consignment",
+      7
+    ],
+    [
+      "Tier1",
+      6
     ],
     [
       "open_call",
       5
     ],
     [
-      "consignment",
+      "press",
       5
     ],
     [
-      "low",
+      "editorial",
+      5
+    ],
+    [
+      "shimokitazawa",
+      5
+    ],
+    [
+      "zine",
+      5
+    ],
+    [
+      "cn",
+      5
+    ],
+    [
+      "publication",
       4
     ],
     [
@@ -237,15 +261,19 @@
       4
     ],
     [
-      "Tier1",
-      4
-    ],
-    [
       "watercolor",
       4
     ],
     [
-      "publication",
+      "prestige",
+      4
+    ],
+    [
+      "residency",
+      3
+    ],
+    [
+      "low",
       3
     ],
     [
@@ -253,11 +281,11 @@
       3
     ],
     [
-      "zine",
+      "lifestyle",
       3
     ],
     [
-      "lifestyle",
+      "career_changing",
       3
     ],
     [
@@ -265,39 +293,19 @@
       3
     ],
     [
-      "cn",
+      "koenji",
       3
     ],
     [
-      "illustration",
-      2
+      "acc",
+      3
+    ],
+    [
+      "chinese_national_eligible",
+      3
     ],
     [
       "emerging_artist",
-      2
-    ],
-    [
-      "currently_open",
-      2
-    ],
-    [
-      "residency",
-      2
-    ],
-    [
-      "shimokitazawa",
-      2
-    ],
-    [
-      "prestige",
-      2
-    ],
-    [
-      "koenji",
-      2
-    ],
-    [
-      "acc",
       2
     ]
   ]

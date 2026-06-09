@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-09
 
 # 水彩アートの祭典 (Watercolor Art Festival)
 
@@ -11,13 +11,13 @@ REPORT GENERATED: 2026-06-04
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline, Fees. Needs checking: Submission process, Contact.
+Core public information appears present.
 
 - **Official/source website**: https://koubo.yumegazai.com/category/koubo/place/kanto (verified)
-- **Submission process**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://nihonbungei.net/watercolors_2026 (verified)
 - **Deadline**: 2026年1月31日 (verified)
 - **Fees**: 1作品9,000円、2作品目以降＋8,000円（税別） (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: info@nihonbungei.co (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Japan Watercolor Open Call.
@@ -36,7 +36,7 @@ Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirement
 ## 7. Submission / Logistics
 - **Deadline:** 2026年1月31日
 - **Fees:** 1作品9,000円、2作品目以降＋8,000円（税別）
-- **Submission page:** Not publicly listed
+- **Submission page:** https://nihonbungei.net/watercolors_2026
 - **Source:** https://koubo.yumegazai.com/category/koubo/place/kanto
 
 ## 8. Risk / Unknowns
@@ -48,5 +48,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-09_
 

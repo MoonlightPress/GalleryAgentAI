@@ -100,8 +100,8 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.5,
+        "score": 9.6,
+        "differentiated_score": 11.7,
         "hits": [
           "zine",
           "artist book",
@@ -113,9 +113,19 @@
         "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits."
       },
       {
+        "title": "Center for Book Arts Opportunities",
+        "score": 9.6,
+        "differentiated_score": 11.37,
+        "hits": [
+          "artist book",
+          "printed matter"
+        ],
+        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
+      },
+      {
         "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
+        "score": 9.2,
+        "differentiated_score": 11.3,
         "hits": [
           "zine",
           "artist book",
@@ -124,27 +134,18 @@
         "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
       },
       {
-        "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
-        "score": 9.4,
-        "differentiated_score": 11.4,
+        "title": "Aesthetica Art Prize",
+        "score": 9.6,
+        "differentiated_score": 11.29,
         "hits": [
           "zine"
         ],
-        "why": "She's Chinese. 'Chinese artist documenting Tokyo through watercolor' is exactly the cross-cultural story these publications want. Near-term opportunity with lower competition than Japanese press."
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hits": [
-          "zine"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
+        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
       },
       {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 9.2,
+        "differentiated_score": 11.19,
         "hits": [
           "zine"
         ],
@@ -152,17 +153,8 @@
       },
       {
         "title": "SUBMISSIONS - marblepress.com",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hits": [
-          "small press"
-        ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
-      },
-      {
-        "title": "submissions — porkbelly press",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 9.2,
+        "differentiated_score": 11.19,
         "hits": [
           "small press"
         ],
@@ -170,12 +162,22 @@
       },
       {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
-        "score": 9.4,
-        "differentiated_score": 11.29,
+        "score": 9.2,
+        "differentiated_score": 11.09,
         "hits": [
           "zine"
         ],
         "why": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event."
+      },
+      {
+        "title": "本店・本屋の実験室",
+        "score": 9.6,
+        "differentiated_score": 11.07,
+        "hits": [
+          "zine",
+          "memory"
+        ],
+        "why": "本店・本屋の実験室's focus on experimental printed work and zine culture aligns naturally with GEGYjiji's daily watercolor practice—her quiet observations of Tokyo's disappearing urban moments translate directly into the intimate, serialized format that zine platforms demand. The Koenji location also positions her work within a neighborhood known for independent creative communities, where architectural and memory-based work on paper resonates with local curatorial values."
       }
     ]
   },
@@ -224,8 +226,8 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.5,
+        "score": 9.6,
+        "differentiated_score": 11.7,
         "hits": [
           "memory",
           "artist book"
@@ -233,9 +235,18 @@
         "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits."
       },
       {
+        "title": "Center for Book Arts Opportunities",
+        "score": 9.6,
+        "differentiated_score": 11.37,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
+      },
+      {
         "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
+        "score": 9.2,
+        "differentiated_score": 11.3,
         "hits": [
           "architecture",
           "artist book"
@@ -243,18 +254,27 @@
         "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
       },
       {
-        "title": "Center for Book Arts Opportunities",
-        "score": 9.4,
-        "differentiated_score": 11.17,
+        "title": "本店・本屋の実験室",
+        "score": 9.6,
+        "differentiated_score": 11.07,
         "hits": [
-          "artist book"
+          "memory"
         ],
-        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
+        "why": "本店・本屋の実験室's focus on experimental printed work and zine culture aligns naturally with GEGYjiji's daily watercolor practice—her quiet observations of Tokyo's disappearing urban moments translate directly into the intimate, serialized format that zine platforms demand. The Koenji location also positions her work within a neighborhood known for independent creative communities, where architectural and memory-based work on paper resonates with local curatorial values."
+      },
+      {
+        "title": "アートオリンピア2026",
+        "score": 9.6,
+        "differentiated_score": 10.77,
+        "hits": [
+          "memory"
+        ],
+        "why": "アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offering a prominent local platform to exhibit her architectural studies and memory-driven pieces alongside other contemporary media practitioners. The open-call format removes barriers for early-stage artists while positioning her work within a professional exhibition context during a peak season for Tokyo's art calendar."
       },
       {
         "title": "Pinpoint Gallery",
-        "score": 9.4,
-        "differentiated_score": 10.84,
+        "score": 9.2,
+        "differentiated_score": 10.64,
         "hits": [
           "artist book"
         ],
@@ -262,8 +282,8 @@
       },
       {
         "title": "Pen Magazine — Artist Spotlight",
-        "score": 9.4,
-        "differentiated_score": 10.77,
+        "score": 9.2,
+        "differentiated_score": 10.57,
         "hits": [
           "architecture"
         ],
@@ -271,30 +291,12 @@
       },
       {
         "title": "Casa Brutus — Architecture/Art Feature",
-        "score": 9.4,
-        "differentiated_score": 10.77,
-        "hits": [
-          "architecture"
-        ],
-        "why": "Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design."
-      },
-      {
-        "title": "Aperture | Photography",
-        "score": 8.7,
-        "differentiated_score": 10.59,
-        "hits": [
-          "artist book"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
-      },
-      {
-        "title": "FY2026 Life with Art Grant",
-        "score": 9.4,
+        "score": 9.2,
         "differentiated_score": 10.57,
         "hits": [
           "architecture"
         ],
-        "why": "The grant's mission to integrate art into everyday urban life directly mirrors GEGYjiji's practice of capturing transient architectural moments and quiet Tokyo spaces through watercolor—her daily observation ritual naturally aligns with projects that embed contemporary art into the city's lived experience. Her 90k-follower platform and early Tier 2 visibility position her as an emerging artist ready to realize the kind of place-based, community-embedded work this grant prioritizes."
+        "why": "Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design."
       }
     ]
   },
@@ -355,8 +357,8 @@
     "opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 9.4,
-        "differentiated_score": 11.5,
+        "score": 9.6,
+        "differentiated_score": 11.7,
         "hits": [
           "zine",
           "small press",
@@ -366,9 +368,18 @@
         "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits."
       },
       {
+        "title": "Center for Book Arts Opportunities",
+        "score": 9.6,
+        "differentiated_score": 11.37,
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potential fit if her work becomes more explicitly book-oriented or object/paper based."
+      },
+      {
         "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
+        "score": 9.2,
+        "differentiated_score": 11.3,
         "hits": [
           "zine",
           "bookstore",
@@ -377,28 +388,18 @@
         "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
       },
       {
-        "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
-        "score": 9.4,
-        "differentiated_score": 11.4,
+        "title": "Aesthetica Art Prize",
+        "score": 9.6,
+        "differentiated_score": 11.29,
         "hits": [
           "zine"
         ],
-        "why": "She's Chinese. 'Chinese artist documenting Tokyo through watercolor' is exactly the cross-cultural story these publications want. Near-term opportunity with lower competition than Japanese press."
-      },
-      {
-        "title": "B&B Shimokitazawa",
-        "score": 9.4,
-        "differentiated_score": 11.39,
-        "hits": [
-          "zine",
-          "bookstore"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle"
+        "why": "Open to watercolor and works on paper, internationally recognized, and has a track record of selecting intimate and atmospheric work by emerging artists."
       },
       {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 9.2,
+        "differentiated_score": 11.19,
         "hits": [
           "zine"
         ],
@@ -406,30 +407,32 @@
       },
       {
         "title": "SUBMISSIONS - marblepress.com",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "score": 9.2,
+        "differentiated_score": 11.19,
         "hits": [
           "small press"
         ],
         "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
       },
       {
-        "title": "flotsam books",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
+        "score": 9.2,
+        "differentiated_score": 11.09,
         "hits": [
-          "bookstore"
+          "zine"
         ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
+        "why": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event."
       },
       {
-        "title": "submissions — porkbelly press",
-        "score": 9.4,
-        "differentiated_score": 11.39,
+        "title": "本店・本屋の実験室",
+        "score": 9.6,
+        "differentiated_score": 11.07,
         "hits": [
-          "small press"
+          "zine",
+          "bookstore",
+          "local"
         ],
-        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified."
+        "why": "本店・本屋の実験室's focus on experimental printed work and zine culture aligns naturally with GEGYjiji's daily watercolor practice—her quiet observations of Tokyo's disappearing urban moments translate directly into the intimate, serialized format that zine platforms demand. The Koenji location also positions her work within a neighborhood known for independent creative communities, where architectural and memory-based work on paper resonates with local curatorial values."
       }
     ]
   },
@@ -496,45 +499,44 @@
     "opportunity_targets": [
       {
         "title": "UTRECHT",
-        "score": 9.4,
-        "differentiated_score": 11.5,
+        "score": 9.2,
+        "differentiated_score": 11.3,
         "hits": [
           "architecture"
         ],
         "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
       },
       {
-        "title": "DER GREIF",
-        "score": 9.4,
-        "differentiated_score": 10.94,
-        "hits": [
-          "portfolio review",
-          "open call"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: open call, portfolio review for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper for works on paper, watercolor / works on paper"
-      },
-      {
         "title": "水性繪畫展覽 (Watercolor Exhibition)",
-        "score": 9.4,
-        "differentiated_score": 10.78,
+        "score": 9.6,
+        "differentiated_score": 10.98,
         "hits": [
           "open call"
         ],
-        "why": "Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026."
+        "why": "A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 90k Instagram following."
       },
       {
         "title": "水彩アートの祭典 (Watercolor Art Festival)",
-        "score": 9.4,
-        "differentiated_score": 10.78,
+        "score": 9.6,
+        "differentiated_score": 10.98,
         "hits": [
           "open call"
         ],
         "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
       },
       {
-        "title": "Pen Magazine — Artist Spotlight",
-        "score": 9.4,
+        "title": "アートオリンピア2026",
+        "score": 9.6,
         "differentiated_score": 10.77,
+        "hits": [
+          "open call"
+        ],
+        "why": "アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offering a prominent local platform to exhibit her architectural studies and memory-driven pieces alongside other contemporary media practitioners. The open-call format removes barriers for early-stage artists while positioning her work within a professional exhibition context during a peak season for Tokyo's art calendar."
+      },
+      {
+        "title": "Pen Magazine — Artist Spotlight",
+        "score": 9.2,
+        "differentiated_score": 10.57,
         "hits": [
           "architecture"
         ],
@@ -542,30 +544,30 @@
       },
       {
         "title": "Casa Brutus — Architecture/Art Feature",
-        "score": 9.4,
-        "differentiated_score": 10.77,
+        "score": 9.2,
+        "differentiated_score": 10.57,
         "hits": [
           "architecture"
         ],
         "why": "Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design."
       },
       {
-        "title": "Aperture | Photography",
-        "score": 8.7,
-        "differentiated_score": 10.59,
-        "hits": [
-          "photography"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
-      },
-      {
-        "title": "Browse opportunities | CuratorSpace",
-        "score": 8.6,
-        "differentiated_score": 10.59,
+        "title": "桜をテーマとするイラスト・絵画作品募集",
+        "score": 9.6,
+        "differentiated_score": 10.46,
         "hits": [
           "open call"
         ],
-        "why": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition"
+        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
+      },
+      {
+        "title": "多摩ゆかりの作家による公募展",
+        "score": 9.6,
+        "differentiated_score": 10.46,
+        "hits": [
+          "open call"
+        ],
+        "why": "Open call for artists connected to the Tama region; welcomes watercolor and illustration submissions."
       }
     ]
   }

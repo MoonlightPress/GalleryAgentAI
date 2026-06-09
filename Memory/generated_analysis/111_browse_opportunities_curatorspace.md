@@ -1,21 +1,21 @@
 
-REPORT GENERATED: 2026-06-08
+REPORT GENERATED: 2026-06-09
 
 # Browse opportunities | CuratorSpace
 
 ## 1. Quick Judgment
-**Fit score:** 10/10  
+**Fit score:** 9.8/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Print / Zines / Bookstores  
 **City:** Online  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Fees. Needs checking: Deadline, Contact.
+Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
 
 - **Official/source website**: https://www.curatorspace.com/opportunities (verified)
 - **Submission process**: https://www.curatorspace.com/opportunities (verified)
-- **Deadline**: Not publicly listed (needs_inquiry)
+- **Deadline**: Not publicly listed (verified)
 - **Fees**: Free (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -50,5 +50,5 @@ Open source, verify current opportunities, submission process, fees, deadline, a
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-09_
 

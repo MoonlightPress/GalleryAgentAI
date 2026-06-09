@@ -1,115 +1,111 @@
 {
-  "updated_at": "2026-06-09T11:22:32.624924",
+  "updated_at": "2026-06-09T11:27:27.039132",
   "entries": {
     "B&B Shimokitazawa": {
       "title": "B&B Shimokitazawa",
-      "searched_at": "2026-06-09T10:06:45.354673",
-      "data_found": true,
-      "found": {
-        "fee": "500 yen"
-      }
+      "searched_at": "2026-06-09T10:27:13.700722",
+      "data_found": false,
+      "found": {}
     },
     "美術手帖 (Bijutsu Techo) — Artist Feature": {
       "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
-      "searched_at": "2026-06-09T10:07:14.505407",
+      "searched_at": "2026-06-09T10:27:41.619435",
       "data_found": false,
       "found": {}
     },
     "TOKIO ART BOOK FAIR 2026": {
       "title": "TOKIO ART BOOK FAIR 2026",
-      "searched_at": "2026-06-09T10:07:41.809909",
+      "searched_at": "2026-06-09T10:28:09.706996",
       "data_found": true,
       "found": {
         "deadline": "2026-06-07",
-        "fee": "¥1,000",
         "submission_url": "https://tokyoartbookfair.com/en/application"
       }
     },
     "Center for Book Arts Opportunities": {
       "title": "Center for Book Arts Opportunities",
-      "searched_at": "2026-06-09T10:07:58.366708",
+      "searched_at": "2026-06-09T10:28:29.311632",
       "data_found": true,
       "found": {
         "deadline": "May 31, 2026",
-        "submission_url": "https://centerforbookarts.submittable.com"
+        "submission_url": "https://centerforbookarts.org/book-art-research-fellowship"
       }
     },
     "Aesthetica Art Prize": {
       "title": "Aesthetica Art Prize",
-      "searched_at": "2026-06-09T10:08:15.090407",
+      "searched_at": "2026-06-09T10:28:50.724912",
       "data_found": true,
       "found": {
-        "deadline": "11 October 2026",
-        "fee": "£25 (until 11 October 2026) or £35 (12–18 October 2026)",
-        "submission_url": "https://shop.aestheticamagazine.com/products/aesthetica-art-prize-entry"
+        "deadline": "2026-10-11",
+        "fee": "Entry fee required upon registration (amount not specified in search results); £20 submission fee upon delivery of work",
+        "submission_url": "https://aestheticamagazine.com/artprize/submit"
       }
     },
     "American Illustration": {
       "title": "American Illustration",
-      "searched_at": "2026-06-09T10:08:31.378332",
+      "searched_at": "2026-06-09T10:29:12.472087",
       "data_found": true,
       "found": {
-        "deadline": "March 6, 2026",
-        "fee": "$20 for initial entry, $10 for each additional entry",
+        "deadline": "March 20, 2026",
+        "fee": "$15 per illustration and $75 for series of 6",
         "contact_email": "info@ai-ap.com"
       }
     },
     "World Illustration Awards": {
       "title": "World Illustration Awards",
-      "searched_at": "2026-06-09T10:08:47.699299",
+      "searched_at": "2026-06-09T10:29:32.091977",
       "data_found": true,
       "found": {
-        "deadline": "March 31, 2026, 23:59 UTC",
-        "fee": "£34 (GBP) per Single Entry / £53 (GBP) per Multiple Entry; €41 (EURO) per Single Entry / €64 (EURO) per Multiple Entry; $43 (USD) per Single Entry / $67 (USD) per Multiple Entry"
+        "deadline": "2026-02-17",
+        "fee": "£53 (GBP) per Single Entry // £Multiple Entry €41 (EURO) per Single Entry // €64 (EURO) per Multiple Entry $43 (USD) per Single Entry // $67 (USD) per Multiple Entry"
       }
     },
     "Jackson's Art Prize": {
       "title": "Jackson's Art Prize",
-      "searched_at": "2026-06-09T10:09:04.039083",
+      "searched_at": "2026-06-09T10:29:52.850212",
       "data_found": true,
       "found": {
-        "deadline": "2026-02-11",
-        "fee": "£6.50 per artwork (standard entry)",
-        "submission_url": "https://jacksonsart.awardsplatform.com"
+        "deadline": "11 February 2026",
+        "fee": "£6.50 standard entry (£20 per work also mentioned)",
+        "submission_url": "https://www.jacksonsart.com/artprize/enter-2026"
       }
     },
     "The Artcomplex Center of Tokyo": {
       "title": "The Artcomplex Center of Tokyo",
-      "searched_at": "2026-06-09T10:09:21.381725",
+      "searched_at": "2026-06-09T10:30:13.340762",
       "data_found": true,
       "found": {
-        "submission_url": "https://artcomplex.org/exhibitions-2/call_underconstruction_2026"
+        "deadline": "March 17, 2026",
+        "submission_url": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260219-316.html"
       }
     },
     "B&B (Book & Beer)": {
       "title": "B&B (Book & Beer)",
-      "searched_at": "2026-06-09T10:09:47.957254",
+      "searched_at": "2026-06-09T10:30:42.389665",
       "data_found": false,
       "found": {}
     },
     "flotsam books": {
       "title": "flotsam books",
-      "searched_at": "2026-06-09T10:10:12.204218",
+      "searched_at": "2026-06-09T10:31:12.595306",
       "data_found": false,
       "found": {}
     },
     "Pen Magazine — Artist Spotlight": {
       "title": "Pen Magazine — Artist Spotlight",
-      "searched_at": "2026-06-09T10:10:37.311770",
-      "data_found": true,
-      "found": {
-        "contact_email": "arteditor@nlapw.org"
-      }
+      "searched_at": "2026-06-09T10:31:42.182965",
+      "data_found": false,
+      "found": {}
     },
     "Casa Brutus — Architecture/Art Feature": {
       "title": "Casa Brutus — Architecture/Art Feature",
-      "searched_at": "2026-06-09T10:11:05.775046",
+      "searched_at": "2026-06-09T10:32:14.125498",
       "data_found": false,
       "found": {}
     },
     "It's Nice That — Illustration Feature": {
       "title": "It's Nice That — Illustration Feature",
-      "searched_at": "2026-06-09T10:11:22.730783",
+      "searched_at": "2026-06-09T10:32:34.516433",
       "data_found": true,
       "found": {
         "submission_url": "https://www.itsnicethat.com/submissions"
@@ -117,47 +113,47 @@
     },
     "Apartamento — Artist Feature": {
       "title": "Apartamento — Artist Feature",
-      "searched_at": "2026-06-09T10:11:42.874241",
+      "searched_at": "2026-06-09T10:32:54.402214",
       "data_found": false,
       "found": {}
     },
     "アートオリンピア2026": {
       "title": "アートオリンピア2026",
-      "searched_at": "2026-06-09T10:12:07.708931",
+      "searched_at": "2026-06-09T10:33:23.666620",
       "data_found": true,
       "found": {
         "deadline": "2026-07-31",
-        "fee": "General: 1 piece ¥12,000, 2 pieces ¥20,000, 3 pieces ¥24,000; Student (30 and under): 1 piece ¥6,000, 2 pieces ¥10,000, 3 pieces ¥12,000"
+        "fee": "一般：1点 12,000円、2点 20,000円、3点 24,000円 / 学生（30歳以下）：1点 6,000円、2点 10,000円、3点 12,000円",
+        "submission_url": "https://artolympia.jp"
       }
     },
     "Bologna Children's Book Fair Illustrators Exhibition": {
       "title": "Bologna Children's Book Fair Illustrators Exhibition",
-      "searched_at": "2026-06-09T10:12:24.737224",
+      "searched_at": "2026-06-09T10:33:43.803129",
       "data_found": true,
       "found": {
-        "deadline": "November 3",
-        "fee": "€22 (+ VAT if due)",
-        "submission_url": "https://www.bolognachildrensbookfair.com/en/focus-on/illustrators/the-illustrators-exhibition/2026-illustrators-exhibition-how-to-take-part/1041.html"
+        "deadline": "Rolling (2026 edition April 13-16)",
+        "fee": "€22 (+ VAT if due), with exception for students",
+        "contact_email": "illustratori@bolognafiere.it"
       }
     },
     "Pinpoint Gallery": {
       "title": "Pinpoint Gallery",
-      "searched_at": "2026-06-09T10:12:43.211904",
+      "searched_at": "2026-06-09T10:34:09.224179",
       "data_found": false,
       "found": {}
     },
     "Browse opportunities | CuratorSpace": {
       "title": "Browse opportunities | CuratorSpace",
-      "searched_at": "2026-06-09T10:12:59.871242",
+      "searched_at": "2026-06-09T10:34:28.810844",
       "data_found": true,
       "found": {
-        "deadline": "08/06/2026",
         "submission_url": "https://www.curatorspace.com/opportunities"
       }
     },
     "Submissions - Little Press Publishing": {
       "title": "Submissions - Little Press Publishing",
-      "searched_at": "2026-06-09T10:13:25.937192",
+      "searched_at": "2026-06-09T10:35:00.294495",
       "data_found": true,
       "found": {
         "submission_url": "https://littlepresspublishing.com/submissions"
@@ -165,199 +161,204 @@
     },
     "Gallery IYN": {
       "title": "Gallery IYN",
-      "searched_at": "2026-06-09T10:13:54.477796",
-      "data_found": false,
-      "found": {}
+      "searched_at": "2026-06-09T10:35:28.299528",
+      "data_found": true,
+      "found": {
+        "deadline": "2026-06-01"
+      }
     },
     "BOOOOOOOM 2026 Art & Photo Book Award": {
       "title": "BOOOOOOOM 2026 Art & Photo Book Award",
-      "searched_at": "2026-06-09T10:14:11.518159",
+      "searched_at": "2026-06-09T10:35:48.571965",
       "data_found": true,
       "found": {
-        "deadline": "2026-06-05",
-        "fee": "$20 (early bird price) or free for Booooooom members"
+        "deadline": "June 5, 2026",
+        "fee": "Free for zine proposals; fee required for full book proposals (amount not specified)",
+        "submission_url": "https://www.booooooom.com/2026/03/26/call-to-submit-2026-booooooom-art-photo-book-award"
       }
     },
     "SUZURI — Japanese Print-on-Demand Platform": {
       "title": "SUZURI — Japanese Print-on-Demand Platform",
-      "searched_at": "2026-06-09T10:14:36.275441",
+      "searched_at": "2026-06-09T10:36:17.580058",
       "data_found": false,
       "found": {}
     },
     "Tokyo Gendai 2026": {
       "title": "Tokyo Gendai 2026",
-      "searched_at": "2026-06-09T10:15:01.034379",
+      "searched_at": "2026-06-09T10:36:47.008352",
       "data_found": true,
       "found": {
-        "deadline": "June 29th, 2026",
-        "contact_email": "galleries@tokyogendai.com",
+        "deadline": "11 – 13 September 2026",
         "submission_url": "https://tokyogendai.com/apply"
       }
     },
     "Aquarelle 18 - アクワレル": {
       "title": "Aquarelle 18 - アクワレル",
-      "searched_at": "2026-06-09T10:15:27.333740",
-      "data_found": false,
-      "found": {}
+      "searched_at": "2026-06-09T10:37:17.205513",
+      "data_found": true,
+      "found": {
+        "deadline": "March 28, 2026",
+        "submission_url": "https://watercolorgoldenbrush.com/participation-rules-en/"
+      }
     },
     "START Box ササハタハツ・START Box 白鬚 2026年度利用者募集": {
       "title": "START Box ササハタハツ・START Box 白鬚 2026年度利用者募集",
-      "searched_at": "2026-06-09T10:15:54.674374",
+      "searched_at": "2026-06-09T10:37:47.180183",
       "data_found": true,
       "found": {
-        "deadline": "2026-03-02"
+        "deadline": "2026-03-02",
+        "fee": "37,000 円 (約50㎡) / 31,000 円 (約40㎡)"
       }
     },
     "Laugh & Peace Art Competition 2026": {
       "title": "Laugh & Peace Art Competition 2026",
-      "searched_at": "2026-06-09T10:16:22.232428",
+      "searched_at": "2026-06-09T10:38:15.991375",
       "data_found": true,
       "found": {
-        "deadline": "2026-08-31",
-        "submission_url": "https://peacepalsinternational.org/2026-art-contest"
+        "deadline": "2026-08-31"
       }
     },
     "第29回 アート未来展": {
       "title": "第29回 アート未来展",
-      "searched_at": "2026-06-09T10:16:48.595839",
+      "searched_at": "2026-06-09T10:38:43.706399",
       "data_found": true,
       "found": {
-        "fee": "6,000 yen per piece (half price for first entry)",
+        "fee": "6,000 yen per piece (half price for first submission)",
         "submission_url": "https://www.artmirai-japan.com/%E5%BF%9C%E5%8B%9F%E8%A6%81%E9%A0%85-%E5%87%BA%E5%93%81%E7%A5%A8"
       }
     },
     "COW BOOKS Nakameguro": {
       "title": "COW BOOKS Nakameguro",
-      "searched_at": "2026-06-09T10:17:14.030916",
+      "searched_at": "2026-06-09T10:39:11.897791",
       "data_found": false,
       "found": {}
     },
     "Tokyo Illustrators Society": {
       "title": "Tokyo Illustrators Society",
-      "searched_at": "2026-06-09T10:17:39.052905",
-      "data_found": false,
-      "found": {}
+      "searched_at": "2026-06-09T10:39:41.633850",
+      "data_found": true,
+      "found": {
+        "deadline": "October 15",
+        "contact_email": "jordan@societyillustrators.org"
+      }
     },
     "Tacoche": {
       "title": "Tacoche",
-      "searched_at": "2026-06-09T10:18:06.993787",
+      "searched_at": "2026-06-09T10:40:10.009289",
       "data_found": false,
       "found": {}
     },
     "Village Vanguard Shimokitazawa": {
       "title": "Village Vanguard Shimokitazawa",
-      "searched_at": "2026-06-09T10:18:32.242929",
+      "searched_at": "2026-06-09T10:40:38.301727",
       "data_found": false,
       "found": {}
     },
     "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition": {
       "title": "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition",
-      "searched_at": "2026-06-09T10:18:48.378438",
+      "searched_at": "2026-06-09T10:40:59.053820",
       "data_found": true,
       "found": {
-        "deadline": "2025-05-14",
-        "fee": "Free"
+        "deadline": "30 June 2025, 5pm"
       }
     },
     "本店・本屋の実験室": {
       "title": "本店・本屋の実験室",
-      "searched_at": "2026-06-09T10:19:13.165458",
+      "searched_at": "2026-06-09T10:41:28.078305",
       "data_found": true,
       "found": {
-        "deadline": "August 2024",
+        "deadline": "August 2025",
         "contact_email": "koenjihonten@gmail.com"
       }
     },
     "コピックアワード2026": {
       "title": "コピックアワード2026",
-      "searched_at": "2026-06-09T10:19:38.302161",
+      "searched_at": "2026-06-09T10:41:57.028508",
       "data_found": true,
       "found": {
-        "deadline": "2026-06-30",
+        "deadline": "June 30, 2026",
         "fee": "Free",
         "submission_url": "https://copicaward.com"
       }
     },
     "Ark Art Award 2024": {
       "title": "Ark Art Award 2024",
-      "searched_at": "2026-06-09T10:20:03.015584",
+      "searched_at": "2026-06-09T10:42:26.138191",
       "data_found": true,
       "found": {
-        "deadline": "2026-11-01"
+        "deadline": "July 1, 2024"
       }
     },
     "LOCAL Gallery・Books": {
       "title": "LOCAL Gallery・Books",
-      "searched_at": "2026-06-09T10:20:28.253601",
+      "searched_at": "2026-06-09T10:42:55.382914",
       "data_found": true,
       "found": {
-        "contact_email": "GalleryPublicity@SimonandSchuster.com"
+        "deadline": "2026-02-23",
+        "submission_url": "https://itsalocalcollective.com/collections/exhibition-proposal-26"
       }
     },
     "Books Ruhe": {
       "title": "Books Ruhe",
-      "searched_at": "2026-06-09T10:20:53.404673",
+      "searched_at": "2026-06-09T10:43:27.100698",
       "data_found": false,
       "found": {}
     },
     "ギャラリーへ行こう2026": {
       "title": "ギャラリーへ行こう2026",
-      "searched_at": "2026-06-09T10:21:18.054038",
+      "searched_at": "2026-06-09T10:43:57.595949",
       "data_found": true,
       "found": {
-        "deadline": "July 1, 2026 (entry registration deadline) / July 2-4, 2026 (submission dates)",
-        "fee": "3,000 yen (1 piece), 5,000 yen (2 pieces), 7,000 yen (3 pieces) / General division: 12,000 yen (up to 3 pieces), plus 2,000 yen per additional piece",
+        "deadline": "July 1, 2026",
+        "fee": "1 piece: 3,000 yen, 2 pieces: 5,000 yen, 3 pieces: 7,000 yen (maximum 3 pieces per person)",
         "submission_url": "https://sukiwa.net/archives/13698"
       }
     },
     "Osaka Open Call For Artists. - ARRIVAL": {
       "title": "Osaka Open Call For Artists. - ARRIVAL",
-      "searched_at": "2026-06-09T10:21:44.707943",
+      "searched_at": "2026-06-09T10:44:27.069396",
       "data_found": true,
       "found": {
-        "deadline": "April 1, 2026",
-        "fee": "Yes",
-        "submission_url": "https://app.entrythingy.com/calls/external/calling-all-artists-osaka-2026"
+        "fee": "Free"
       }
     },
     "NY公募展2026夏（NY Open Call Exhibition Summer 2026）": {
       "title": "NY公募展2026夏（NY Open Call Exhibition Summer 2026）",
-      "searched_at": "2026-06-09T10:22:05.725865",
+      "searched_at": "2026-06-09T10:44:46.039459",
       "data_found": true,
       "found": {
-        "deadline": "April 20, 2026",
-        "fee": "$35"
+        "deadline": "June 15",
+        "contact_email": "info@galerie-makowski.com"
       }
     },
     "In-dividual Theater：BUG Screen Week 2026": {
       "title": "In-dividual Theater：BUG Screen Week 2026",
-      "searched_at": "2026-06-09T10:22:30.729738",
+      "searched_at": "2026-06-09T10:45:15.938649",
       "data_found": false,
       "found": {}
     },
     "Kyoto Retreat Artist Residency 2026 - Open Call": {
       "title": "Kyoto Retreat Artist Residency 2026 - Open Call",
-      "searched_at": "2026-06-09T10:22:55.638130",
+      "searched_at": "2026-06-09T10:45:47.520831",
       "data_found": true,
       "found": {
-        "deadline": "July 17, 2026",
-        "fee": "$95.00 USD application fee; €1400 EUR per 30-day residency",
+        "deadline": "2026-07-15",
+        "fee": "$95.00 USD application fee; €1400 EUR per 30-day residency (includes accommodation, studio space, internet, translation, and promotional support)",
         "submission_url": "https://kyotoretreat.slideroom.com"
       }
     },
     "3x3 International Illustration Awards": {
       "title": "3x3 International Illustration Awards",
-      "searched_at": "2026-06-09T10:23:12.184832",
+      "searched_at": "2026-06-09T10:46:07.710238",
       "data_found": true,
       "found": {
         "deadline": "March 27, 2026 (early deadline); April 3, 2026 (final deadline)",
-        "fee": "Single Entry: $35; Series (2–5 images): $70; Additional images (up to 10 total): $5 per image; Animation Single: $55; Animation Series: $95; Final deadline entries: $10 increase",
-        "submission_url": "https://3x3.secure-awards.com"
+        "fee": "$35 per single entry; $10 increase after March 27, 2026"
       }
     },
     "KAMIHANGA国際プリント展2026": {
       "title": "KAMIHANGA国際プリント展2026",
-      "searched_at": "2026-06-09T10:23:30.078966",
+      "searched_at": "2026-06-09T10:46:27.854252",
       "data_found": true,
       "found": {
         "deadline": "Domestic: 2026-09-04, International: 2026-08-14",
@@ -366,74 +367,75 @@
     },
     "Book and Sons": {
       "title": "Book and Sons",
-      "searched_at": "2026-06-09T10:23:53.960309",
+      "searched_at": "2026-06-09T10:46:57.058137",
       "data_found": false,
       "found": {}
     },
     "POST": {
       "title": "POST",
-      "searched_at": "2026-06-09T10:24:18.441398",
+      "searched_at": "2026-06-09T10:47:25.988225",
       "data_found": true,
       "found": {
         "deadline": "2025-03-28",
-        "contact_email": "cstech@optica.org",
         "submission_url": "https://cleoconference.org/post-deadline-submit-your-abstract"
       }
     },
     "ART BOX Publishing": {
       "title": "ART BOX Publishing",
-      "searched_at": "2026-06-09T10:24:42.450607",
-      "data_found": false,
-      "found": {}
+      "searched_at": "2026-06-09T10:47:54.755977",
+      "data_found": true,
+      "found": {
+        "deadline": "April 15, 2026"
+      }
     },
     "Tokyo Wonder Site / TOKAS Residency": {
       "title": "Tokyo Wonder Site / TOKAS Residency",
-      "searched_at": "2026-06-09T10:25:07.428497",
+      "searched_at": "2026-06-09T10:48:26.097022",
       "data_found": true,
       "found": {
-        "deadline": "2025-06-25",
-        "fee": "Free"
+        "deadline": "2025-06-25"
       }
     },
     "tata bookshop/gallery": {
       "title": "tata bookshop/gallery",
-      "searched_at": "2026-06-09T10:25:35.677098",
-      "data_found": true,
-      "found": {
-        "fee": "1,650 yen on weekdays, 2,530 yen on weekends"
-      }
+      "searched_at": "2026-06-09T10:48:55.005376",
+      "data_found": false,
+      "found": {}
     },
     "第113回 日本水彩展": {
       "title": "第113回 日本水彩展",
-      "searched_at": "2026-06-09T10:26:02.480548",
+      "searched_at": "2026-06-09T10:49:24.617491",
       "data_found": false,
       "found": {}
     },
     "Mona Records": {
       "title": "Mona Records",
-      "searched_at": "2026-06-09T10:26:27.651571",
-      "data_found": false,
-      "found": {}
+      "searched_at": "2026-06-09T10:49:53.334511",
+      "data_found": true,
+      "found": {
+        "deadline": "March 30th at 5pm"
+      }
     },
     "Royal Watercolour Society Open Exhibition": {
       "title": "Royal Watercolour Society Open Exhibition",
-      "searched_at": "2026-06-09T10:26:44.010202",
+      "searched_at": "2026-06-09T10:50:13.941792",
       "data_found": true,
       "found": {
         "deadline": "2025-11-28",
-        "fee": "£15.00 standard entry; £5.00 student entry; £38.00 for 3 works; discounted rates available for 4+ works",
-        "submission_url": "https://zealous.co/banksidegallery/opportunity/rws-open-2026"
+        "fee": "£15.00 standard entry; £5.00 student entry; £38.00 for 3 submissions; varies for 4+ submissions"
       }
     },
     "BALLOND'ESSAI Shimokitazawa": {
       "title": "BALLOND'ESSAI Shimokitazawa",
-      "searched_at": "2026-06-09T10:27:09.885158",
-      "data_found": false,
-      "found": {}
+      "searched_at": "2026-06-09T10:50:43.247210",
+      "data_found": true,
+      "found": {
+        "deadline": "October 11, 2025"
+      }
     },
     "OPEN SITE 11": {
       "title": "OPEN SITE 11",
-      "searched_at": "2026-06-09T10:27:35.802285",
+      "searched_at": "2026-06-09T10:51:10.100852",
       "data_found": true,
       "found": {
         "deadline": "2026-03-17",
@@ -443,74 +445,71 @@
     },
     "Shimokitazawa Arts": {
       "title": "Shimokitazawa Arts",
-      "searched_at": "2026-06-09T10:28:01.150981",
-      "data_found": true,
-      "found": {
-        "contact_email": "info@shimokitazawaarts.tokyo"
-      }
+      "searched_at": "2026-06-09T10:51:39.585759",
+      "data_found": false,
+      "found": {}
     },
     "第九屆水主題國際評審藝術比賽": {
       "title": "第九屆水主題國際評審藝術比賽",
-      "searched_at": "2026-06-09T10:28:18.821274",
+      "searched_at": "2026-06-09T10:51:59.212055",
       "data_found": true,
       "found": {
-        "contact_email": "info@teravarna.com"
+        "contact_email": "info@teravarna.com",
+        "submission_url": "https://bhuntr.com/tw/competitions/208h5hxfrofrnv2jhx"
       }
     },
     "円盤 (Enban) Koenji": {
       "title": "円盤 (Enban) Koenji",
-      "searched_at": "2026-06-09T10:28:45.386403",
+      "searched_at": "2026-06-09T10:52:29.435354",
       "data_found": true,
       "found": {
         "deadline": "June 30, 2026",
         "fee": "¥1,100",
-        "contact_email": "eennbbaann@gmail.com"
+        "contact_email": "info@enban.org"
       }
     },
     "Open Calls for Artists | Exhibit Worldwide": {
       "title": "Open Calls for Artists | Exhibit Worldwide",
-      "searched_at": "2026-06-09T10:29:12.354801",
+      "searched_at": "2026-06-09T10:52:58.319850",
       "data_found": false,
       "found": {}
     },
     "219公募展6募集 >> Gallery219 ギャラリーニイク": {
       "title": "219公募展6募集 >> Gallery219 ギャラリーニイク",
-      "searched_at": "2026-06-09T10:29:39.192844",
+      "searched_at": "2026-06-09T10:53:29.396640",
       "data_found": true,
       "found": {
-        "fee": "10,000 yen; application is free",
+        "fee": "10,000 yen",
         "submission_url": "https://gallery219.com/219kouboten/219k6form.html"
       }
     },
     "公募プログラム - トーキョーアーツアンドスペース": {
       "title": "公募プログラム - トーキョーアーツアンドスペース",
-      "searched_at": "2026-06-09T10:30:04.280730",
+      "searched_at": "2026-06-09T10:53:57.420419",
       "data_found": true,
       "found": {
-        "deadline": "2025-06-25",
-        "submission_url": "https://www.tokyoartsandspace.jp/archive/application/2025/20250513-295.html"
+        "deadline": "2025-11-03"
       }
     },
     "NADiff a/p/a/r/t": {
       "title": "NADiff a/p/a/r/t",
-      "searched_at": "2026-06-09T10:30:37.032699",
+      "searched_at": "2026-06-09T10:54:26.601092",
       "data_found": false,
       "found": {}
     },
     "Book Obscura": {
       "title": "Book Obscura",
-      "searched_at": "2026-06-09T10:31:03.877072",
+      "searched_at": "2026-06-09T10:54:57.013914",
       "data_found": true,
       "found": {
-        "deadline": "January 31st",
-        "fee": "$25 for first entry/$10 for each additional entry",
-        "contact_email": "hello@art-fluent.com",
-        "submission_url": "https://art-fluent.com/calls-for-art/obscura-prospectus"
+        "deadline": "Submissions open in May and close in December, on the last day of each fall semester",
+        "contact_email": "LehmanLitMag@gmail.com",
+        "submission_url": "https://obscura.commons.gc.cuny.edu/submit"
       }
     },
     "Brillia Art Award Wall 2026": {
       "title": "Brillia Art Award Wall 2026",
-      "searched_at": "2026-06-09T10:31:30.193316",
+      "searched_at": "2026-06-09T10:55:26.261169",
       "data_found": true,
       "found": {
         "deadline": "2026-07-08",
@@ -519,7 +518,7 @@
     },
     "ART FAIR TOKYO 21": {
       "title": "ART FAIR TOKYO 21",
-      "searched_at": "2026-06-09T10:31:55.188754",
+      "searched_at": "2026-06-09T10:55:56.053889",
       "data_found": true,
       "found": {
         "deadline": "June 7, 2026",
@@ -528,1465 +527,1348 @@
     },
     "3331 Arts Chiyoda": {
       "title": "3331 Arts Chiyoda",
-      "searched_at": "2026-06-09T10:32:19.073171",
+      "searched_at": "2026-06-09T10:56:24.648209",
       "data_found": true,
       "found": {
-        "deadline": "Rolling",
+        "deadline": "2025-09-14",
         "submission_url": "https://residence.3331.jp/en/apply"
       }
     },
     "Belladonna Art Competition": {
       "title": "Belladonna Art Competition",
-      "searched_at": "2026-06-09T10:32:47.948025",
+      "searched_at": "2026-06-09T10:56:41.757730",
       "data_found": false,
       "found": {}
     },
     "Gallery IRO": {
       "title": "Gallery IRO",
-      "searched_at": "2026-06-09T10:33:15.968916",
+      "searched_at": "2026-06-09T10:56:43.247115",
       "data_found": false,
       "found": {}
     },
     "Gallery HANA Shimokitazawa": {
       "title": "Gallery HANA Shimokitazawa",
-      "searched_at": "2026-06-09T10:33:41.733036",
-      "data_found": true,
-      "found": {
-        "deadline": "September 15, 2025"
-      }
+      "searched_at": "2026-06-09T10:56:44.772281",
+      "data_found": false,
+      "found": {}
     },
     "Applied Arts 2026 Illustration Awards": {
       "title": "Applied Arts 2026 Illustration Awards",
-      "searched_at": "2026-06-09T10:33:57.899575",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-02-08",
-        "fee": "$40 for single illustration, $65 for series",
-        "submission_url": "https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards"
-      }
+      "searched_at": "2026-06-09T10:56:45.685576",
+      "data_found": false,
+      "found": {}
     },
     "Offprint": {
       "title": "Offprint",
-      "searched_at": "2026-06-09T10:34:14.867795",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-05-08",
-        "contact_email": "librarymothership@gmail.com"
-      }
+      "searched_at": "2026-06-09T10:56:47.224738",
+      "data_found": false,
+      "found": {}
     },
     "BankART1929": {
       "title": "BankART1929",
-      "searched_at": "2026-06-09T10:34:39.728155",
-      "data_found": true,
-      "found": {
-        "deadline": "2024-03-19"
-      }
+      "searched_at": "2026-06-09T10:56:48.757432",
+      "data_found": false,
+      "found": {}
     },
     "Picaresque Gallery": {
       "title": "Picaresque Gallery",
-      "searched_at": "2026-06-09T10:35:04.719250",
+      "searched_at": "2026-06-09T10:56:50.976458",
       "data_found": false,
       "found": {}
     },
     "芸術活動への助成 (Arts Activity Grant)": {
       "title": "芸術活動への助成 (Arts Activity Grant)",
-      "searched_at": "2026-06-09T10:35:31.422171",
+      "searched_at": "2026-06-09T10:56:52.488596",
       "data_found": false,
       "found": {}
     },
     "ZINEイベント": {
       "title": "ZINEイベント",
-      "searched_at": "2026-06-09T10:35:56.342500",
+      "searched_at": "2026-06-09T10:56:54.608434",
       "data_found": false,
       "found": {}
     },
     "Gallery 456 Exhibition Open Call 2026": {
       "title": "Gallery 456 Exhibition Open Call 2026",
-      "searched_at": "2026-06-09T10:36:14.389054",
-      "data_found": true,
-      "found": {
-        "submission_url": "https://www.aaartsalliance.org/opportunities/gallery-456-exhibition-in-2026-open-call-for-artists"
-      }
+      "searched_at": "2026-06-09T10:56:55.657197",
+      "data_found": false,
+      "found": {}
     },
     "2026春季二科展「NIKA nika/S20号」コンクール": {
       "title": "2026春季二科展「NIKA nika/S20号」コンクール",
-      "searched_at": "2026-06-09T10:36:39.138578",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-03-15",
-        "contact_email": "koubo@nika.or.jp"
-      }
+      "searched_at": "2026-06-09T10:56:57.098048",
+      "data_found": false,
+      "found": {}
     },
     "第23届「跨越国界之美2026」国际公募展": {
       "title": "第23届「跨越国界之美2026」国际公募展",
-      "searched_at": "2026-06-09T10:37:07.382698",
+      "searched_at": "2026-06-09T10:58:59.924357",
       "data_found": false,
       "found": {}
     },
     "IlloBoom! 2026 第三屆插畫巔峰賽": {
       "title": "IlloBoom! 2026 第三屆插畫巔峰賽",
-      "searched_at": "2026-06-09T10:37:24.385287",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-04-01",
-        "submission_url": "https://www.accupass.com/go/2026IlloBoom"
-      }
+      "searched_at": "2026-06-09T10:59:00.924899",
+      "data_found": false,
+      "found": {}
     },
     "Open calls - Online Database of Artist in Residence Programs in Japan": {
       "title": "Open calls - Online Database of Artist in Residence Programs in Japan",
-      "searched_at": "2026-06-09T10:37:50.838436",
-      "data_found": true,
-      "found": {
-        "deadline": "Multiple deadlines: September 30, 2025; November 30, 2025; March 1, 2026; May 31, 2026; March 19, 2026; June 16, 2026; November 1, 2026",
-        "fee": "Rolling/varies by program - some no entry fees, one lists $40 USD",
-        "submission_url": "https://air-j.info/en/program"
-      }
+      "searched_at": "2026-06-09T10:59:02.409470",
+      "data_found": false,
+      "found": {}
     },
     "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award": {
       "title": "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award",
-      "searched_at": "2026-06-09T10:38:09.481084",
-      "data_found": true,
-      "found": {
-        "deadline": "Submission Deadline: May 17",
-        "fee": "Participation in the Competition is free of charge",
-        "contact_email": "caaic@163.com"
-      }
+      "searched_at": "2026-06-09T10:59:03.352245",
+      "data_found": false,
+      "found": {}
     },
     "AAA Gallery Yokohama": {
       "title": "AAA Gallery Yokohama",
-      "searched_at": "2026-06-09T10:38:25.931591",
+      "searched_at": "2026-06-09T10:59:04.403939",
       "data_found": false,
       "found": {}
     },
     "2026 Chinese New Year Celebration Art Show": {
       "title": "2026 Chinese New Year Celebration Art Show",
-      "searched_at": "2026-06-09T10:38:42.664732",
-      "data_found": true,
-      "found": {
-        "submission_url": "https://www.inliquid.org/opportunities-1/open-call-the-lunar-new-year"
-      }
+      "searched_at": "2026-06-09T10:59:05.405859",
+      "data_found": false,
+      "found": {}
     },
     "Ishibashi Foundation / The Japan Foundation Fellowship for Research on Japanese Art": {
       "title": "Ishibashi Foundation / The Japan Foundation Fellowship for Research on Japanese Art",
-      "searched_at": "2026-06-09T10:39:08.746481",
-      "data_found": true,
-      "found": {
-        "deadline": "2025-12-02"
-      }
+      "searched_at": "2026-06-09T10:59:06.892469",
+      "data_found": false,
+      "found": {}
     },
     "Self Publish, Be Happy": {
       "title": "Self Publish, Be Happy",
-      "searched_at": "2026-06-09T10:39:28.815692",
-      "data_found": true,
-      "found": {
-        "deadline": "Body/Politics (1–31 January 2026), Cinema (1–31 March 2026), MACK Fellowship (1–30 [date not fully stated]), Regular submissions through April 15, 2026",
-        "fee": "€320 for 14 hours of teaching, €590 for 28 hours of teaching",
-        "contact_email": "selfpublished.behappy@gmail.com, editions@selfpublishbehappy.com"
-      }
+      "searched_at": "2026-06-09T10:59:07.835258",
+      "data_found": false,
+      "found": {}
     },
     "SCAI The Bathhouse": {
       "title": "SCAI The Bathhouse",
-      "searched_at": "2026-06-09T10:39:54.576060",
-      "data_found": true,
-      "found": {
-        "deadline": "2025-11-01",
-        "contact_email": "info@scaithebathhouse.com",
-        "submission_url": "https://bathhouse.dallasculture.org/agelesscall2025"
-      }
+      "searched_at": "2026-06-09T10:59:09.326631",
+      "data_found": false,
+      "found": {}
     },
     "Jinny Street Gallery Open Call": {
       "title": "Jinny Street Gallery Open Call",
-      "searched_at": "2026-06-09T10:40:20.160904",
-      "data_found": true,
-      "found": {
-        "deadline": "2025-02-15",
-        "fee": "Free",
-        "contact_email": "hello@jinnystreetgalley.com"
-      }
+      "searched_at": "2026-06-09T10:59:11.016258",
+      "data_found": false,
+      "found": {}
     },
     "Cafe Cross Point": {
       "title": "Cafe Cross Point",
-      "searched_at": "2026-06-09T10:40:45.428671",
-      "data_found": true,
-      "found": {
-        "deadline": "January 30, 2026"
-      }
+      "searched_at": "2026-06-09T10:59:12.451874",
+      "data_found": false,
+      "found": {}
     },
     "TAV Gallery": {
       "title": "TAV Gallery",
-      "searched_at": "2026-06-09T10:41:10.266705",
+      "searched_at": "2026-06-09T10:59:13.963023",
       "data_found": false,
       "found": {}
     },
     "VACANT": {
       "title": "VACANT",
-      "searched_at": "2026-06-09T10:41:34.903254",
+      "searched_at": "2026-06-09T10:59:15.512578",
       "data_found": false,
       "found": {}
     },
     "Gallery Conceal Shibuya": {
       "title": "Gallery Conceal Shibuya",
-      "searched_at": "2026-06-09T10:42:01.235476",
-      "data_found": true,
-      "found": {
-        "deadline": "June 30, 2026",
-        "fee": "Free"
-      }
+      "searched_at": "2026-06-09T10:59:17.007084",
+      "data_found": false,
+      "found": {}
     },
     "そぞろ書房": {
       "title": "そぞろ書房",
-      "searched_at": "2026-06-09T10:42:25.820313",
-      "data_found": true,
-      "found": {
-        "deadline": "2025-10-31"
-      }
+      "searched_at": "2026-06-09T10:59:18.453330",
+      "data_found": false,
+      "found": {}
     },
     "Blooming Stories 2026": {
       "title": "Blooming Stories 2026",
-      "searched_at": "2026-06-09T10:42:49.365383",
-      "data_found": true,
-      "found": {
-        "deadline": "January 20, 2026",
-        "contact_email": "exhibits@josephy.org"
-      }
+      "searched_at": "2026-06-09T11:01:20.804834",
+      "data_found": false,
+      "found": {}
     },
     "Gallery 191 Exhibition 2026": {
       "title": "Gallery 191 Exhibition 2026",
-      "searched_at": "2026-06-09T10:43:05.798602",
+      "searched_at": "2026-06-09T11:01:21.795583",
       "data_found": false,
       "found": {}
     },
     "TOKAS Open Call": {
       "title": "TOKAS Open Call",
-      "searched_at": "2026-06-09T10:43:32.379725",
-      "data_found": true,
-      "found": {
-        "deadline": "2025-06-25",
-        "fee": "Free",
-        "submission_url": "https://www.tokyoartsandspace.jp/en/archive/application/2026/20260219-316.html"
-      }
+      "searched_at": "2026-06-09T11:01:23.260150",
+      "data_found": false,
+      "found": {}
     },
     "[展覧会]秀彩会小品展2026": {
       "title": "[展覧会]秀彩会小品展2026",
-      "searched_at": "2026-06-09T10:43:58.052027",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-05-11"
-      }
+      "searched_at": "2026-06-09T11:01:24.744159",
+      "data_found": false,
+      "found": {}
     },
     "Open Call for the International Creator Residency Program 2026": {
       "title": "Open Call for the International Creator Residency Program 2026",
-      "searched_at": "2026-06-09T10:44:22.208231",
-      "data_found": true,
-      "found": {
-        "deadline": "2025-06-25",
-        "fee": "Free"
-      }
+      "searched_at": "2026-06-09T11:01:26.792465",
+      "data_found": false,
+      "found": {}
     },
     "Zushi Art Gallery": {
       "title": "Zushi Art Gallery",
-      "searched_at": "2026-06-09T10:44:47.733937",
-      "data_found": true,
-      "found": {
-        "deadline": "June 30, 2025 @ 4PM"
-      }
+      "searched_at": "2026-06-09T11:01:28.583515",
+      "data_found": false,
+      "found": {}
     },
     "OPA Gallery": {
       "title": "OPA Gallery",
-      "searched_at": "2026-06-09T10:45:07.017404",
-      "data_found": true,
-      "found": {
-        "deadline": "Thursday 11 September 2025, 5pm"
-      }
+      "searched_at": "2026-06-09T11:01:29.533724",
+      "data_found": false,
+      "found": {}
     },
     "Printed Matter Art Book Fairs": {
       "title": "Printed Matter Art Book Fairs",
-      "searched_at": "2026-06-09T10:45:23.194522",
-      "data_found": true,
-      "found": {
-        "deadline": "January 5, 2026 (for LA Art Book Fair 2026); March 30 (for NY Art Book Fair 2026)",
-        "submission_url": "https://pmabf.org"
-      }
+      "searched_at": "2026-06-09T11:01:30.819488",
+      "data_found": false,
+      "found": {}
     },
     "日記屋 月日": {
       "title": "日記屋 月日",
-      "searched_at": "2026-06-09T10:45:48.821303",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-01-17",
-        "fee": "4,800 yen + 20% of daily sales",
-        "contact_email": "hello@tsukihi.jp"
-      }
+      "searched_at": "2026-06-09T11:01:32.655871",
+      "data_found": false,
+      "found": {}
     },
     "2026年度 国際助成プログラム": {
       "title": "2026年度 国際助成プログラム",
-      "searched_at": "2026-06-09T10:46:14.273646",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-05-30",
-        "contact_email": "asianneighbors@toyotafound.or.jp"
-      }
+      "searched_at": "2026-06-09T11:01:34.255322",
+      "data_found": false,
+      "found": {}
     },
     "咲き誇れ桜よ": {
       "title": "咲き誇れ桜よ",
-      "searched_at": "2026-06-09T10:46:39.270680",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-04-05"
-      }
+      "searched_at": "2026-06-09T11:01:36.514295",
+      "data_found": false,
+      "found": {}
     },
     "マイ・ディア・テディ (My Dear Teddy)": {
       "title": "マイ・ディア・テディ (My Dear Teddy)",
-      "searched_at": "2026-06-09T10:47:04.039571",
-      "data_found": true,
-      "found": {
-        "deadline": "2025-05-01"
-      }
+      "searched_at": "2026-06-09T11:01:38.172758",
+      "data_found": false,
+      "found": {}
     },
     "ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)": {
       "title": "ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)",
-      "searched_at": "2026-06-09T10:47:29.357805",
+      "searched_at": "2026-06-09T11:03:40.193812",
       "data_found": false,
       "found": {}
     },
     "PARK GALLERY 夏の公募企画展（3テーマ）": {
       "title": "PARK GALLERY 夏の公募企画展（3テーマ）",
-      "searched_at": "2026-06-09T10:47:55.069403",
+      "searched_at": "2026-06-09T11:03:42.024385",
       "data_found": false,
       "found": {}
     },
     "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...": {
       "title": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
-      "searched_at": "2026-06-09T10:48:19.807542",
+      "searched_at": "2026-06-09T11:03:43.490988",
       "data_found": false,
       "found": {}
     },
     "2026 松濤美術館公募展｜渋谷区立松濤美術館": {
       "title": "2026 松濤美術館公募展｜渋谷区立松濤美術館",
-      "searched_at": "2026-06-09T10:48:45.115518",
+      "searched_at": "2026-06-09T11:03:44.941064",
       "data_found": false,
       "found": {}
     },
     "Fukuoka Art Book Fair": {
       "title": "Fukuoka Art Book Fair",
-      "searched_at": "2026-06-09T10:49:09.948137",
+      "searched_at": "2026-06-09T11:03:46.381856",
       "data_found": false,
       "found": {}
     },
     "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info": {
       "title": "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info",
-      "searched_at": "2026-06-09T10:49:34.602562",
-      "data_found": true,
-      "found": {
-        "deadline": "Season 1: September 30, 2025 (Tue); Season 2: November 30, 2025 (Sun); Season 3: March 1, 2026 (Sun); Season 4: May 31, 2026 (Sun)",
-        "submission_url": "https://air-j.info/en/program/lair2026"
-      }
+      "searched_at": "2026-06-09T11:03:48.210461",
+      "data_found": false,
+      "found": {}
     },
     "FACE Exhibition 2026": {
       "title": "FACE Exhibition 2026",
-      "searched_at": "2026-06-09T10:49:59.954669",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-02-03",
-        "fee": "Free",
-        "submission_url": "https://www.mallgalleries.org.uk/open-calls/royal-society-"
-      }
+      "searched_at": "2026-06-09T11:03:49.888038",
+      "data_found": false,
+      "found": {}
     },
     "金风车插画大赛2026": {
       "title": "金风车插画大赛2026",
-      "searched_at": "2026-06-09T10:50:17.118481",
-      "data_found": true,
-      "found": {
-        "deadline": "23 June, 2026"
-      }
+      "searched_at": "2026-06-09T11:03:50.827980",
+      "data_found": false,
+      "found": {}
     },
     "Aoyama Farmers Market": {
       "title": "Aoyama Farmers Market",
-      "searched_at": "2026-06-09T10:50:41.175013",
+      "searched_at": "2026-06-09T11:03:52.278638",
       "data_found": false,
       "found": {}
     },
     "reload Shimokitazawa": {
       "title": "reload Shimokitazawa",
-      "searched_at": "2026-06-09T10:51:06.936993",
-      "data_found": true,
-      "found": {
-        "deadline": "February 13, 2026",
-        "fee": "Free"
-      }
+      "searched_at": "2026-06-09T11:03:54.123362",
+      "data_found": false,
+      "found": {}
     },
     "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny": {
       "title": "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny",
-      "searched_at": "2026-06-09T10:51:31.011444",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-01-31",
-        "submission_url": "https://www.eventeny.com/events/vendor?id=39232"
-      }
+      "searched_at": "2026-06-09T11:03:55.821725",
+      "data_found": false,
+      "found": {}
     },
     "The Container": {
       "title": "The Container",
-      "searched_at": "2026-06-09T10:51:57.271291",
-      "data_found": true,
-      "found": {
-        "deadline": "Periodically open",
-        "submission_url": "https://acontainerco.submittable.com"
-      }
+      "searched_at": "2026-06-09T11:03:57.325748",
+      "data_found": false,
+      "found": {}
     },
     "素人の乱 (Shiroto no Ran) Koenji": {
       "title": "素人の乱 (Shiroto no Ran) Koenji",
-      "searched_at": "2026-06-09T10:52:22.537261",
+      "searched_at": "2026-06-09T11:05:59.534825",
       "data_found": false,
       "found": {}
     },
     "Nantoka Bar Koenji": {
       "title": "Nantoka Bar Koenji",
-      "searched_at": "2026-06-09T10:52:48.825497",
+      "searched_at": "2026-06-09T11:06:01.006412",
       "data_found": false,
       "found": {}
     },
     "Art Fair Tokyo 2026": {
       "title": "Art Fair Tokyo 2026",
-      "searched_at": "2026-06-09T10:53:13.632691",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-08-01",
-        "submission_url": "https://www.tokyoartfair.com/apply-to-exhibit-tokyo-art-fair"
-      }
+      "searched_at": "2026-06-09T11:06:02.521296",
+      "data_found": false,
+      "found": {}
     },
     "Open Calls for Artists": {
       "title": "Open Calls for Artists",
-      "searched_at": "2026-06-09T10:53:37.018631",
-      "data_found": true,
-      "found": {
-        "deadline": "May 29, 2026"
-      }
+      "searched_at": "2026-06-09T11:06:03.994314",
+      "data_found": false,
+      "found": {}
     },
     "Open Call For Artists": {
       "title": "Open Call For Artists",
-      "searched_at": "2026-06-09T10:54:00.656006",
+      "searched_at": "2026-06-09T11:06:05.458534",
       "data_found": false,
       "found": {}
     },
     "公募展": {
       "title": "公募展",
-      "searched_at": "2026-06-09T10:54:27.884678",
-      "data_found": true,
-      "found": {
-        "deadline": "6月5日（金）/ June 16, 2026"
-      }
+      "searched_at": "2026-06-09T11:06:06.945404",
+      "data_found": false,
+      "found": {}
     },
     "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...": {
       "title": "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...",
-      "searched_at": "2026-06-09T10:54:54.193993",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-09-30",
-        "fee": "Free for up to 2 pieces; 1,000 yen per additional piece (general); 10,000 yen for up to 2 pieces; 1,000 yen per additional piece (non-resident); Free for 1 piece (student with certificate copy)"
-      }
+      "searched_at": "2026-06-09T11:06:08.400603",
+      "data_found": false,
+      "found": {}
     },
     "Creative Space Hayashi": {
       "title": "Creative Space Hayashi",
-      "searched_at": "2026-06-09T10:55:18.069606",
-      "data_found": true,
-      "found": {
-        "deadline": "June 8"
-      }
+      "searched_at": "2026-06-09T11:06:09.863727",
+      "data_found": false,
+      "found": {}
     },
     "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...": {
       "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
-      "searched_at": "2026-06-09T10:55:44.083129",
-      "data_found": true,
-      "found": {
-        "deadline": "1/15/25, 6:52 PM",
-        "fee": "Free",
-        "submission_url": "https://www.artworkarchive.com/call-for-entry/tokyo-open-art"
-      }
+      "searched_at": "2026-06-09T11:06:11.324637",
+      "data_found": false,
+      "found": {}
     },
     "芸術活動への助成（Grants for Artistic Activities）": {
       "title": "芸術活動への助成（Grants for Artistic Activities）",
-      "searched_at": "2026-06-09T10:56:10.125802",
+      "searched_at": "2026-06-09T11:06:15.128493",
       "data_found": false,
       "found": {}
     },
     "HB Gallery": {
       "title": "HB Gallery",
-      "searched_at": "2026-06-09T10:56:27.452744",
+      "searched_at": "2026-06-09T11:06:16.738903",
       "data_found": false,
       "found": {}
     },
     "2026年度 第2期 地域芸術文化活動応援助成": {
       "title": "2026年度 第2期 地域芸術文化活動応援助成",
-      "searched_at": "2026-06-09T10:56:42.237962",
-      "data_found": true,
-      "found": {
-        "deadline": "2026-06-17",
-        "submission_url": "https://www.artscouncil-tokyo.jp/grants/regional-grant-program/27201"
-      }
+      "searched_at": "2026-06-09T11:06:18.181738",
+      "data_found": false,
+      "found": {}
     },
     "American Watercolor Society Annual International Exhibition": {
       "title": "American Watercolor Society Annual International Exhibition",
-      "searched_at": "2026-06-09T10:56:43.225063",
+      "searched_at": "2026-06-09T11:08:19.596420",
       "data_found": false,
       "found": {}
     },
     "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...": {
       "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
-      "searched_at": "2026-06-09T10:56:44.661758",
+      "searched_at": "2026-06-09T11:08:21.113064",
       "data_found": false,
       "found": {}
     },
     "New Power展 | ギャラリー自由が丘で作家デビュー": {
       "title": "New Power展 | ギャラリー自由が丘で作家デビュー",
-      "searched_at": "2026-06-09T10:56:46.303770",
+      "searched_at": "2026-06-09T11:08:22.537194",
       "data_found": false,
       "found": {}
     },
     "Call for Entry: Showcase your art in Tokyo, Japan": {
       "title": "Call for Entry: Showcase your art in Tokyo, Japan",
-      "searched_at": "2026-06-09T10:56:47.963113",
+      "searched_at": "2026-06-09T11:08:24.001677",
       "data_found": false,
       "found": {}
     },
     "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW": {
       "title": "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW",
-      "searched_at": "2026-06-09T10:56:49.498878",
+      "searched_at": "2026-06-09T11:08:25.657179",
       "data_found": false,
       "found": {}
     },
     "Zine & Book フェス in 神保町 (Jimbocho)": {
       "title": "Zine & Book フェス in 神保町 (Jimbocho)",
-      "searched_at": "2026-06-09T10:56:51.659082",
+      "searched_at": "2026-06-09T11:08:27.128762",
       "data_found": false,
       "found": {}
     },
     "Koenji SANAGI": {
       "title": "Koenji SANAGI",
-      "searched_at": "2026-06-09T10:56:53.064619",
+      "searched_at": "2026-06-09T11:08:28.681073",
       "data_found": false,
       "found": {}
     },
     "Cité Internationale des Arts Artist Residency": {
       "title": "Cité Internationale des Arts Artist Residency",
-      "searched_at": "2026-06-09T10:56:54.624916",
+      "searched_at": "2026-06-09T11:08:29.753877",
       "data_found": false,
       "found": {}
     },
     "ERA Shimokitazawa": {
       "title": "ERA Shimokitazawa",
-      "searched_at": "2026-06-09T10:56:56.002329",
+      "searched_at": "2026-06-09T11:08:31.241233",
       "data_found": false,
       "found": {}
     },
     "世界堂絵画展2026": {
       "title": "世界堂絵画展2026",
-      "searched_at": "2026-06-09T10:56:57.448691",
+      "searched_at": "2026-06-09T11:08:32.741941",
       "data_found": false,
       "found": {}
     },
     "「国際創作者駐村計畫」": {
       "title": "「国際創作者駐村計畫」",
-      "searched_at": "2026-06-09T10:59:00.135758",
+      "searched_at": "2026-06-09T11:08:34.182984",
       "data_found": false,
       "found": {}
     },
     "Comitia": {
       "title": "Comitia",
-      "searched_at": "2026-06-09T10:59:01.532185",
+      "searched_at": "2026-06-09T11:08:35.713800",
       "data_found": false,
       "found": {}
     },
     "FACE展2026": {
       "title": "FACE展2026",
-      "searched_at": "2026-06-09T10:59:02.949064",
+      "searched_at": "2026-06-09T11:08:37.273578",
       "data_found": false,
       "found": {}
     },
     "ギャラリー自由展示": {
       "title": "ギャラリー自由展示",
-      "searched_at": "2026-06-09T10:59:04.399118",
+      "searched_at": "2026-06-09T11:10:39.135502",
       "data_found": false,
       "found": {}
     },
     "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)": {
       "title": "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)",
-      "searched_at": "2026-06-09T10:59:05.325728",
+      "searched_at": "2026-06-09T11:10:40.129511",
       "data_found": false,
       "found": {}
     },
     "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...": {
       "title": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...",
-      "searched_at": "2026-06-09T10:59:06.735482",
+      "searched_at": "2026-06-09T11:10:41.586816",
       "data_found": false,
       "found": {}
     },
     "現代アート販売の@Gallery Tagboat|@Gallery Tagboat": {
       "title": "現代アート販売の@Gallery Tagboat|@Gallery Tagboat",
-      "searched_at": "2026-06-09T10:59:08.209479",
+      "searched_at": "2026-06-09T11:10:43.231245",
       "data_found": false,
       "found": {}
     },
     "オープンコール・プロジェクト": {
       "title": "オープンコール・プロジェクト",
-      "searched_at": "2026-06-09T10:59:09.802096",
+      "searched_at": "2026-06-09T11:10:48.601387",
       "data_found": false,
       "found": {}
     },
     "Communication Arts Illustration Competition": {
       "title": "Communication Arts Illustration Competition",
-      "searched_at": "2026-06-09T10:59:10.907076",
+      "searched_at": "2026-06-09T11:10:49.581363",
       "data_found": false,
       "found": {}
     },
     "TOKYO MIDTOWN AWARD 2026 アートコンペ": {
       "title": "TOKYO MIDTOWN AWARD 2026 アートコンペ",
-      "searched_at": "2026-06-09T10:59:12.312731",
+      "searched_at": "2026-06-09T11:10:51.263303",
       "data_found": false,
       "found": {}
     },
     "Book Culture Club": {
       "title": "Book Culture Club",
-      "searched_at": "2026-06-09T10:59:13.633466",
+      "searched_at": "2026-06-09T11:10:52.493536",
       "data_found": false,
       "found": {}
     },
     "torch press": {
       "title": "torch press",
-      "searched_at": "2026-06-09T10:59:14.812031",
+      "searched_at": "2026-06-09T11:10:53.669239",
       "data_found": false,
       "found": {}
     },
     "HandMade In Japan Fes": {
       "title": "HandMade In Japan Fes",
-      "searched_at": "2026-06-09T10:59:16.210847",
+      "searched_at": "2026-06-09T11:10:55.114700",
       "data_found": false,
       "found": {}
     },
     "International Creator Residency Program 2027": {
       "title": "International Creator Residency Program 2027",
-      "searched_at": "2026-06-09T10:59:17.705958",
+      "searched_at": "2026-06-09T11:10:56.729578",
       "data_found": false,
       "found": {}
     },
     "Cafe Gallery HATTIFNATT": {
       "title": "Cafe Gallery HATTIFNATT",
-      "searched_at": "2026-06-09T11:01:19.561003",
+      "searched_at": "2026-06-09T11:10:58.426695",
       "data_found": false,
       "found": {}
     },
     "芸術家海外研修制度（Artists' Overseas Training Program）": {
       "title": "芸術家海外研修制度（Artists' Overseas Training Program）",
-      "searched_at": "2026-06-09T11:01:21.320819",
+      "searched_at": "2026-06-09T11:13:00.407231",
       "data_found": false,
       "found": {}
     },
     "2026 Global Grant Cycle - Fellowships and Grants (General)": {
       "title": "2026 Global Grant Cycle - Fellowships and Grants (General)",
-      "searched_at": "2026-06-09T11:01:22.293636",
+      "searched_at": "2026-06-09T11:13:01.419929",
       "data_found": false,
       "found": {}
     },
     "新進芸術家海外研修制度における日本文化発信・普及事業（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）": {
       "title": "新進芸術家海外研修制度における日本文化発信・普及事業（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）",
-      "searched_at": "2026-06-09T11:01:23.685909",
+      "searched_at": "2026-06-09T11:13:02.868448",
       "data_found": false,
       "found": {}
     },
     "2026春季二科展「NIKA+nika/S20号」コンクール": {
       "title": "2026春季二科展「NIKA+nika/S20号」コンクール",
-      "searched_at": "2026-06-09T11:01:25.151204",
+      "searched_at": "2026-06-09T11:13:04.334723",
       "data_found": false,
       "found": {}
     },
     "ART SG 2026": {
       "title": "ART SG 2026",
-      "searched_at": "2026-06-09T11:01:26.383976",
+      "searched_at": "2026-06-09T11:13:05.264709",
       "data_found": false,
       "found": {}
     },
     "アジア文化芸術ネットワーク強化助成【WA2.0】": {
       "title": "アジア文化芸術ネットワーク強化助成【WA2.0】",
-      "searched_at": "2026-06-09T11:01:27.833734",
+      "searched_at": "2026-06-09T11:13:06.671665",
       "data_found": false,
       "found": {}
     },
     "アジア文化芸術フェローシップ【WA2.0】": {
       "title": "アジア文化芸術フェローシップ【WA2.0】",
-      "searched_at": "2026-06-09T11:01:29.533724",
+      "searched_at": "2026-06-09T11:13:08.114172",
       "data_found": false,
       "found": {}
     },
     "EIAF 2026–2027 Artist-in-Residence Program": {
       "title": "EIAF 2026–2027 Artist-in-Residence Program",
-      "searched_at": "2026-06-09T11:01:31.299419",
+      "searched_at": "2026-06-09T11:13:09.565088",
       "data_found": false,
       "found": {}
     },
     "2026国际大学生数字艺术设计大赛": {
       "title": "2026国际大学生数字艺术设计大赛",
-      "searched_at": "2026-06-09T11:01:32.433232",
+      "searched_at": "2026-06-09T11:13:10.569857",
       "data_found": false,
       "found": {}
     },
     "Tokyo Arts and Space": {
       "title": "Tokyo Arts and Space",
-      "searched_at": "2026-06-09T11:01:33.836436",
+      "searched_at": "2026-06-09T11:13:12.086562",
       "data_found": false,
       "found": {}
     },
     "Design Festa": {
       "title": "Design Festa",
-      "searched_at": "2026-06-09T11:01:36.100760",
+      "searched_at": "2026-06-09T11:13:13.546444",
       "data_found": false,
       "found": {}
     },
     "絵画展（滋賀県愛荘町開催）": {
       "title": "絵画展（滋賀県愛荘町開催）",
-      "searched_at": "2026-06-09T11:01:37.545166",
+      "searched_at": "2026-06-09T11:13:15.029449",
       "data_found": false,
       "found": {}
     },
     "AIR 3331": {
       "title": "AIR 3331",
-      "searched_at": "2026-06-09T11:03:39.367724",
+      "searched_at": "2026-06-09T11:13:16.551913",
       "data_found": false,
       "found": {}
     },
     "AIT Residency": {
       "title": "AIT Residency",
-      "searched_at": "2026-06-09T11:03:41.437268",
+      "searched_at": "2026-06-09T11:13:17.988634",
       "data_found": false,
       "found": {}
     },
     "ローズ・ローズ・ローズ": {
       "title": "ローズ・ローズ・ローズ",
-      "searched_at": "2026-06-09T11:03:43.018863",
+      "searched_at": "2026-06-09T11:15:19.880165",
       "data_found": false,
       "found": {}
     },
     "Submissions — Clavis Publishing": {
       "title": "Submissions — Clavis Publishing",
-      "searched_at": "2026-06-09T11:03:44.432965",
+      "searched_at": "2026-06-09T11:15:21.330271",
       "data_found": false,
       "found": {}
     },
     "Komiyama Tokyo": {
       "title": "Komiyama Tokyo",
-      "searched_at": "2026-06-09T11:03:45.649063",
+      "searched_at": "2026-06-09T11:15:22.566759",
       "data_found": false,
       "found": {}
     },
     "Aperture | Photography": {
       "title": "Aperture | Photography",
-      "searched_at": "2026-06-09T11:03:46.930810",
+      "searched_at": "2026-06-09T11:15:23.573142",
       "data_found": false,
       "found": {}
     },
     "2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)": {
       "title": "2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)",
-      "searched_at": "2026-06-09T11:03:48.655673",
+      "searched_at": "2026-06-09T11:15:25.031314",
       "data_found": false,
       "found": {}
     },
     "マイクロ・アート・ワーケーション(MAW)2026": {
       "title": "マイクロ・アート・ワーケーション(MAW)2026",
-      "searched_at": "2026-06-09T11:03:50.368790",
+      "searched_at": "2026-06-09T11:15:26.500278",
       "data_found": false,
       "found": {}
     },
     "マイクロ・アート・ワーケーション（MAW）2026": {
       "title": "マイクロ・アート・ワーケーション（MAW）2026",
-      "searched_at": "2026-06-09T11:03:51.791244",
+      "searched_at": "2026-06-09T11:15:27.981046",
       "data_found": false,
       "found": {}
     },
     "Bunka-cho 新進芸術家海外研修制度": {
       "title": "Bunka-cho 新進芸術家海外研修制度",
-      "searched_at": "2026-06-09T11:03:53.585960",
+      "searched_at": "2026-06-09T11:15:29.485265",
       "data_found": false,
       "found": {}
     },
     "Applications — Little Tokyo Zine Fest": {
       "title": "Applications — Little Tokyo Zine Fest",
-      "searched_at": "2026-06-09T11:03:55.313644",
+      "searched_at": "2026-06-09T11:15:31.017477",
       "data_found": false,
       "found": {}
     },
     "Pola Art Foundation Grant": {
       "title": "Pola Art Foundation Grant",
-      "searched_at": "2026-06-09T11:03:56.750463",
+      "searched_at": "2026-06-09T11:15:32.508621",
       "data_found": false,
       "found": {}
     },
     "Publishers & Publishing Services in Japan - PublishersGlobal.com": {
       "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
-      "searched_at": "2026-06-09T11:03:58.281299",
+      "searched_at": "2026-06-09T11:15:33.991614",
       "data_found": false,
       "found": {}
     },
     "マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)": {
       "title": "マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)",
-      "searched_at": "2026-06-09T11:06:00.203082",
+      "searched_at": "2026-06-09T11:15:35.391512",
       "data_found": false,
       "found": {}
     },
     "INSTINC 2026/2027 Artist-in-Residence Program": {
       "title": "INSTINC 2026/2027 Artist-in-Residence Program",
-      "searched_at": "2026-06-09T11:06:01.155313",
+      "searched_at": "2026-06-09T11:15:36.370815",
       "data_found": false,
       "found": {}
     },
     "OM SYSTEM PLAZA 2026年4月～6月開催分": {
       "title": "OM SYSTEM PLAZA 2026年4月～6月開催分",
-      "searched_at": "2026-06-09T11:06:02.530292",
+      "searched_at": "2026-06-09T11:15:37.833143",
       "data_found": false,
       "found": {}
     },
     "2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)": {
       "title": "2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)",
-      "searched_at": "2026-06-09T11:06:03.945847",
+      "searched_at": "2026-06-09T11:17:39.672956",
       "data_found": false,
       "found": {}
     },
     "第9回 国際公募 東京アート工芸2026": {
       "title": "第9回 国際公募 東京アート工芸2026",
-      "searched_at": "2026-06-09T11:06:05.357666",
+      "searched_at": "2026-06-09T11:17:41.160330",
       "data_found": false,
       "found": {}
     },
     "令和8年度芸術文化振興基金及び文化芸術振興費補助金": {
       "title": "令和8年度芸術文化振興基金及び文化芸術振興費補助金",
-      "searched_at": "2026-06-09T11:06:06.736622",
+      "searched_at": "2026-06-09T11:17:42.667904",
       "data_found": false,
       "found": {}
     },
     "Japan Foundation Cultural Exchange Grant": {
       "title": "Japan Foundation Cultural Exchange Grant",
-      "searched_at": "2026-06-09T11:06:08.128740",
+      "searched_at": "2026-06-09T11:17:44.165137",
       "data_found": false,
       "found": {}
     },
     "Publishing / Artist Books — Battle Plan": {
       "title": "Publishing / Artist Books — Battle Plan",
-      "searched_at": "2026-06-09T11:06:09.331161",
+      "searched_at": "2026-06-09T11:17:45.355141",
       "data_found": false,
       "found": {}
     },
     "2026年度 渡航・旅費等の助成（上期）": {
       "title": "2026年度 渡航・旅費等の助成（上期）",
-      "searched_at": "2026-06-09T11:06:10.758047",
+      "searched_at": "2026-06-09T11:17:46.851279",
       "data_found": false,
       "found": {}
     },
     "公益財団法人小笠原敏晶記念財団 2026年度 渡航・旅費等の助成（上期）": {
       "title": "公益財団法人小笠原敏晶記念財団 2026年度 渡航・旅費等の助成（上期）",
-      "searched_at": "2026-06-09T11:06:12.810403",
+      "searched_at": "2026-06-09T11:17:48.363652",
       "data_found": false,
       "found": {}
     },
     "2026年度下期芸術文化助成（国内）": {
       "title": "2026年度下期芸術文化助成（国内）",
-      "searched_at": "2026-06-09T11:06:16.686867",
+      "searched_at": "2026-06-09T11:17:49.833637",
       "data_found": false,
       "found": {}
     },
     "SICF Fukuoka 2026": {
       "title": "SICF Fukuoka 2026",
-      "searched_at": "2026-06-09T11:06:18.135568",
+      "searched_at": "2026-06-09T11:17:51.283135",
       "data_found": false,
       "found": {}
     },
     "shashasha": {
       "title": "shashasha",
-      "searched_at": "2026-06-09T11:08:20.515935",
+      "searched_at": "2026-06-09T11:17:52.493865",
       "data_found": false,
       "found": {}
     },
     "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ": {
       "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-      "searched_at": "2026-06-09T11:08:21.523767",
+      "searched_at": "2026-06-09T11:17:53.580000",
       "data_found": false,
       "found": {}
     },
     "Become an Author - Tuttle Publishing": {
       "title": "Become an Author - Tuttle Publishing",
-      "searched_at": "2026-06-09T11:08:23.001670",
+      "searched_at": "2026-06-09T11:17:55.075652",
       "data_found": false,
       "found": {}
     },
     "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery": {
       "title": "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery",
-      "searched_at": "2026-06-09T11:08:24.699752",
+      "searched_at": "2026-06-09T11:17:56.605603",
       "data_found": false,
       "found": {}
     },
     "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"": {
       "title": "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"",
-      "searched_at": "2026-06-09T11:08:26.218513",
+      "searched_at": "2026-06-09T11:17:58.145133",
       "data_found": false,
       "found": {}
     },
     "Mall Galleries Open Exhibitions": {
       "title": "Mall Galleries Open Exhibitions",
-      "searched_at": "2026-06-09T11:08:27.251209",
+      "searched_at": "2026-06-09T11:17:59.184435",
       "data_found": false,
       "found": {}
     },
     "Zines / Artist Books — Battle Plan": {
       "title": "Zines / Artist Books — Battle Plan",
-      "searched_at": "2026-06-09T11:08:28.537614",
+      "searched_at": "2026-06-09T11:18:00.440735",
       "data_found": false,
       "found": {}
     },
     "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会": {
       "title": "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会",
-      "searched_at": "2026-06-09T11:08:30.046377",
+      "searched_at": "2026-06-09T11:18:01.975088",
       "data_found": false,
       "found": {}
     },
     "スクエア・ワールド2026": {
       "title": "スクエア・ワールド2026",
-      "searched_at": "2026-06-09T11:08:31.505537",
+      "searched_at": "2026-06-09T11:18:03.395880",
       "data_found": false,
       "found": {}
     },
     "Youkobo Art Space": {
       "title": "Youkobo Art Space",
-      "searched_at": "2026-06-09T11:08:32.987536",
+      "searched_at": "2026-06-09T11:20:05.337023",
       "data_found": false,
       "found": {}
     },
     "RAW TOKYO": {
       "title": "RAW TOKYO",
-      "searched_at": "2026-06-09T11:08:34.422455",
+      "searched_at": "2026-06-09T11:20:06.816046",
       "data_found": false,
       "found": {}
     },
     "ILOVETOYS / neuprint — Chinese Illustration Feature": {
       "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
-      "searched_at": "2026-06-09T11:08:35.622652",
+      "searched_at": "2026-06-09T11:20:08.037729",
       "data_found": false,
       "found": {}
     },
     "【公募】2026年度レジデンス・プログラム公募開始": {
       "title": "【公募】2026年度レジデンス・プログラム公募開始",
-      "searched_at": "2026-06-09T11:08:37.153170",
+      "searched_at": "2026-06-09T11:20:09.528758",
       "data_found": false,
       "found": {}
     },
     "第五回公募展「境界」-edge-": {
       "title": "第五回公募展「境界」-edge-",
-      "searched_at": "2026-06-09T11:08:38.614325",
+      "searched_at": "2026-06-09T11:20:10.971116",
       "data_found": false,
       "found": {}
     },
     "2026 Artist Projects (GCAC)": {
       "title": "2026 Artist Projects (GCAC)",
-      "searched_at": "2026-06-09T11:10:40.099392",
+      "searched_at": "2026-06-09T11:20:11.956861",
       "data_found": false,
       "found": {}
     },
     "Tokyo Arts and Space (TOKAS) Residency + Grant": {
       "title": "Tokyo Arts and Space (TOKAS) Residency + Grant",
-      "searched_at": "2026-06-09T11:10:41.586816",
+      "searched_at": "2026-06-09T11:20:13.438333",
       "data_found": false,
       "found": {}
     },
     "全國插畫徵集-2026台灣VC文化賞": {
       "title": "全國插畫徵集-2026台灣VC文化賞",
-      "searched_at": "2026-06-09T11:10:42.606742",
+      "searched_at": "2026-06-09T11:20:14.462181",
       "data_found": false,
       "found": {}
     },
     "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)": {
       "title": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
-      "searched_at": "2026-06-09T11:10:44.099444",
+      "searched_at": "2026-06-09T11:20:15.963242",
       "data_found": false,
       "found": {}
     },
     "submissions for the 2026 set film festival are now open": {
       "title": "submissions for the 2026 set film festival are now open",
-      "searched_at": "2026-06-09T11:10:45.114929",
+      "searched_at": "2026-06-09T11:20:16.936386",
       "data_found": false,
       "found": {}
     },
     "Shoto Museum Open Call": {
       "title": "Shoto Museum Open Call",
-      "searched_at": "2026-06-09T11:10:46.579570",
+      "searched_at": "2026-06-09T11:20:18.366359",
       "data_found": false,
       "found": {}
     },
     "Art公募": {
       "title": "Art公募",
-      "searched_at": "2026-06-09T11:10:48.119502",
+      "searched_at": "2026-06-09T11:20:20.036511",
       "data_found": false,
       "found": {}
     },
     "OM SYSTEM PLAZA 2026年2月～3月開催分": {
       "title": "OM SYSTEM PLAZA 2026年2月～3月開催分",
-      "searched_at": "2026-06-09T11:10:49.605226",
+      "searched_at": "2026-06-09T11:20:21.517774",
       "data_found": false,
       "found": {}
     },
     "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin": {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-      "searched_at": "2026-06-09T11:10:50.596843",
+      "searched_at": "2026-06-09T11:20:22.503587",
       "data_found": false,
       "found": {}
     },
     "第四回公募展「食卓」": {
       "title": "第四回公募展「食卓」",
-      "searched_at": "2026-06-09T11:10:52.257218",
+      "searched_at": "2026-06-09T11:20:23.936575",
       "data_found": false,
       "found": {}
     },
     "第六回公募展「鳥」-bird-": {
       "title": "第六回公募展「鳥」-bird-",
-      "searched_at": "2026-06-09T11:10:53.701812",
+      "searched_at": "2026-06-09T11:20:25.472634",
       "data_found": false,
       "found": {}
     },
     "Art Submissions": {
       "title": "Art Submissions",
-      "searched_at": "2026-06-09T11:10:54.719734",
+      "searched_at": "2026-06-09T11:20:26.423313",
       "data_found": false,
       "found": {}
     },
     "» 21 Terrific Small Presses Open to Direct Submissions": {
       "title": "» 21 Terrific Small Presses Open to Direct Submissions",
-      "searched_at": "2026-06-09T11:10:56.265205",
+      "searched_at": "2026-06-09T11:20:27.879213",
       "data_found": false,
       "found": {}
     },
     "Japan Book Publishers Association - JBPA": {
       "title": "Japan Book Publishers Association - JBPA",
-      "searched_at": "2026-06-09T11:10:57.717486",
+      "searched_at": "2026-06-09T11:22:29.811698",
       "data_found": false,
       "found": {}
     },
     "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]": {
       "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
-      "searched_at": "2026-06-09T11:12:59.669799",
+      "searched_at": "2026-06-09T11:22:31.891086",
       "data_found": false,
       "found": {}
     },
     "Golden Key International Art Competition": {
       "title": "Golden Key International Art Competition",
-      "searched_at": "2026-06-09T11:13:00.657629",
+      "searched_at": "2026-06-09T11:22:33.150194",
       "data_found": false,
       "found": {}
     },
     "Royal Institute of Painters in Water Colours": {
       "title": "Royal Institute of Painters in Water Colours",
-      "searched_at": "2026-06-09T11:13:01.619108",
+      "searched_at": "2026-06-09T11:22:34.211393",
       "data_found": false,
       "found": {}
     },
     "7月～12月企画展 参加者募集": {
       "title": "7月～12月企画展 参加者募集",
-      "searched_at": "2026-06-09T11:13:03.088099",
+      "searched_at": "2026-06-09T11:22:36.134610",
       "data_found": false,
       "found": {}
     },
     "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING": {
       "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
-      "searched_at": "2026-06-09T11:13:04.087522",
+      "searched_at": "2026-06-09T11:22:40.009487",
       "data_found": false,
       "found": {}
     },
     "ARTE VENT Press": {
       "title": "ARTE VENT Press",
-      "searched_at": "2026-06-09T11:13:05.506526",
+      "searched_at": "2026-06-09T11:22:45.201858",
       "data_found": false,
       "found": {}
     },
     "りんごろごろごろ": {
       "title": "りんごろごろごろ",
-      "searched_at": "2026-06-09T11:13:06.914357",
+      "searched_at": "2026-06-09T11:22:46.692047",
       "data_found": false,
       "found": {}
     },
     "アートの交差展 vol.6 (Art Intersection Exhibition vol.6)": {
       "title": "アートの交差展 vol.6 (Art Intersection Exhibition vol.6)",
-      "searched_at": "2026-06-09T11:13:08.335066",
+      "searched_at": "2026-06-09T11:22:48.154819",
       "data_found": false,
       "found": {}
     },
     "空色ターコイズ": {
       "title": "空色ターコイズ",
-      "searched_at": "2026-06-09T11:13:09.770985",
+      "searched_at": "2026-06-09T11:22:49.614831",
       "data_found": false,
       "found": {}
     },
     "Home - Printed Matter": {
       "title": "Home - Printed Matter",
-      "searched_at": "2026-06-09T11:13:10.754396",
+      "searched_at": "2026-06-09T11:22:50.610567",
       "data_found": false,
       "found": {}
     },
     "Shangyuan International Residency Programme": {
       "title": "Shangyuan International Residency Programme",
-      "searched_at": "2026-06-09T11:13:11.944719",
+      "searched_at": "2026-06-09T11:22:52.397081",
       "data_found": false,
       "found": {}
     },
     "3 Top Book Publishers in Tokyo in 2026": {
       "title": "3 Top Book Publishers in Tokyo in 2026",
-      "searched_at": "2026-06-09T11:13:13.407403",
+      "searched_at": "2026-06-09T11:22:54.152301",
       "data_found": false,
       "found": {}
     },
     "3 Top Book Publishers in Japan in 2026": {
       "title": "3 Top Book Publishers in Japan in 2026",
-      "searched_at": "2026-06-09T11:13:14.897392",
+      "searched_at": "2026-06-09T11:22:57.674871",
       "data_found": false,
       "found": {}
     },
     "Japan Watercolor Society Annual Exhibition": {
       "title": "Japan Watercolor Society Annual Exhibition",
-      "searched_at": "2026-06-09T11:13:16.406633",
+      "searched_at": "2026-06-09T11:23:02.336023",
       "data_found": false,
       "found": {}
     },
     "loneliness books": {
       "title": "loneliness books",
-      "searched_at": "2026-06-09T11:13:17.869726",
+      "searched_at": "2026-06-09T11:23:06.887274",
       "data_found": false,
       "found": {}
     },
     "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou": {
       "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
-      "searched_at": "2026-06-09T11:15:19.279102",
+      "searched_at": "2026-06-09T11:23:08.950609",
       "data_found": false,
       "found": {}
     },
     "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod": {
       "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
-      "searched_at": "2026-06-09T11:15:20.259956",
+      "searched_at": "2026-06-09T11:23:13.003584",
       "data_found": false,
       "found": {}
     },
     "Top Artist Opportunities for 2026 | ArtConnect": {
       "title": "Top Artist Opportunities for 2026 | ArtConnect",
-      "searched_at": "2026-06-09T11:15:21.251937",
+      "searched_at": "2026-06-09T11:24:14.451269",
       "data_found": false,
       "found": {}
     },
     "Idemitsu Art Award 2026": {
       "title": "Idemitsu Art Award 2026",
-      "searched_at": "2026-06-09T11:15:22.692482",
+      "searched_at": "2026-06-09T11:24:15.997315",
       "data_found": false,
       "found": {}
     },
     "PhotoVogue": {
       "title": "PhotoVogue",
-      "searched_at": "2026-06-09T11:15:23.648214",
+      "searched_at": "2026-06-09T11:24:16.971737",
       "data_found": false,
       "found": {}
     },
     "水彩アートのみ展示イベント": {
       "title": "水彩アートのみ展示イベント",
-      "searched_at": "2026-06-09T11:15:25.049737",
+      "searched_at": "2026-06-09T11:24:18.453696",
       "data_found": false,
       "found": {}
     },
     "Sunny Boy Books": {
       "title": "Sunny Boy Books",
-      "searched_at": "2026-06-09T11:15:26.544296",
+      "searched_at": "2026-06-09T11:24:19.921393",
       "data_found": false,
       "found": {}
     },
     "Dig A Hole Zines": {
       "title": "Dig A Hole Zines",
-      "searched_at": "2026-06-09T11:15:28.032033",
+      "searched_at": "2026-06-09T11:24:21.433842",
       "data_found": false,
       "found": {}
     },
     "Tokyo Open Call for Artists & Creatives": {
       "title": "Tokyo Open Call for Artists & Creatives",
-      "searched_at": "2026-06-09T11:15:29.510234",
+      "searched_at": "2026-06-09T11:24:22.915873",
       "data_found": false,
       "found": {}
     },
     "CuratorSpace": {
       "title": "CuratorSpace",
-      "searched_at": "2026-06-09T11:15:30.524187",
+      "searched_at": "2026-06-09T11:24:23.913690",
       "data_found": false,
       "found": {}
     },
     "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...": {
       "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
-      "searched_at": "2026-06-09T11:15:31.991430",
+      "searched_at": "2026-06-09T11:24:25.433623",
       "data_found": false,
       "found": {}
     },
     "Watercolor Open Call Exhibition": {
       "title": "Watercolor Open Call Exhibition",
-      "searched_at": "2026-06-09T11:15:32.952756",
+      "searched_at": "2026-06-09T11:24:26.423821",
       "data_found": false,
       "found": {}
     },
     "2026 International Children and Youth Painting Competition Summer Season": {
       "title": "2026 International Children and Youth Painting Competition Summer Season",
-      "searched_at": "2026-06-09T11:15:33.912365",
+      "searched_at": "2026-06-09T11:24:27.371386",
       "data_found": false,
       "found": {}
     },
     "Art on Climate インターナショナル・イラストレーション・コンテスト 2026": {
       "title": "Art on Climate インターナショナル・イラストレーション・コンテスト 2026",
-      "searched_at": "2026-06-09T11:15:34.863660",
+      "searched_at": "2026-06-09T11:24:28.566477",
       "data_found": false,
       "found": {}
     },
     "OPEN CALL for the Artist-In-Residence Program 2025/2026": {
       "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
-      "searched_at": "2026-06-09T11:15:36.373758",
+      "searched_at": "2026-06-09T11:24:30.083123",
       "data_found": false,
       "found": {}
     },
     "TOKAS レジデンシー 4つのレジデンス・プログラム公募": {
       "title": "TOKAS レジデンシー 4つのレジデンス・プログラム公募",
-      "searched_at": "2026-06-09T11:15:37.833143",
+      "searched_at": "2026-06-09T11:24:31.600644",
       "data_found": false,
       "found": {}
     },
     "日本透明水彩会 2026": {
       "title": "日本透明水彩会 2026",
-      "searched_at": "2026-06-09T11:17:39.672956",
+      "searched_at": "2026-06-09T11:24:33.085623",
       "data_found": false,
       "found": {}
     },
     "Boji Hair+Gallery": {
       "title": "Boji Hair+Gallery",
-      "searched_at": "2026-06-09T11:17:40.655638",
+      "searched_at": "2026-06-09T11:24:34.087998",
       "data_found": false,
       "found": {}
     },
     "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S": {
       "title": "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S",
-      "searched_at": "2026-06-09T11:17:41.654840",
+      "searched_at": "2026-06-09T11:24:35.249650",
       "data_found": false,
       "found": {}
     },
     "AIR_J Open Calls": {
       "title": "AIR_J Open Calls",
-      "searched_at": "2026-06-09T11:17:43.145109",
+      "searched_at": "2026-06-09T11:24:36.764761",
       "data_found": false,
       "found": {}
     },
     "2026年度 第1回 スタートアップ助成": {
       "title": "2026年度 第1回 スタートアップ助成",
-      "searched_at": "2026-06-09T11:17:44.635225",
+      "searched_at": "2026-06-09T11:24:38.527180",
       "data_found": false,
       "found": {}
     },
     "2026 Asian Heritage Culture Art Show": {
       "title": "2026 Asian Heritage Culture Art Show",
-      "searched_at": "2026-06-09T11:17:45.625445",
+      "searched_at": "2026-06-09T11:24:39.764452",
       "data_found": false,
       "found": {}
     },
     "RawGround 2026": {
       "title": "RawGround 2026",
-      "searched_at": "2026-06-09T11:17:46.633462",
+      "searched_at": "2026-06-09T11:24:40.749765",
       "data_found": false,
       "found": {}
     },
     "SCCP Guest Artist": {
       "title": "SCCP Guest Artist",
-      "searched_at": "2026-06-09T11:17:48.093837",
+      "searched_at": "2026-06-09T11:24:42.224378",
       "data_found": false,
       "found": {}
     },
     "National Watercolor Society International Open Exhibition": {
       "title": "National Watercolor Society International Open Exhibition",
-      "searched_at": "2026-06-09T11:17:49.087543",
+      "searched_at": "2026-06-09T11:24:43.289954",
       "data_found": false,
       "found": {}
     },
     "ZINE FARM TOKYO": {
       "title": "ZINE FARM TOKYO",
-      "searched_at": "2026-06-09T11:17:50.563082",
+      "searched_at": "2026-06-09T11:24:44.865905",
       "data_found": false,
       "found": {}
     },
     "上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)": {
       "title": "上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)",
-      "searched_at": "2026-06-09T11:17:52.017781",
+      "searched_at": "2026-06-09T11:24:46.379533",
       "data_found": false,
       "found": {}
     },
     "NEW AIR 2026": {
       "title": "NEW AIR 2026",
-      "searched_at": "2026-06-09T11:17:53.598072",
+      "searched_at": "2026-06-09T11:24:47.861289",
       "data_found": false,
       "found": {}
     },
     "MADO Café": {
       "title": "MADO Café",
-      "searched_at": "2026-06-09T11:17:55.104661",
+      "searched_at": "2026-06-09T11:25:49.818442",
       "data_found": false,
       "found": {}
     },
     "2026 第37回 美浜美術展": {
       "title": "2026 第37回 美浜美術展",
-      "searched_at": "2026-06-09T11:17:56.570532",
+      "searched_at": "2026-06-09T11:25:51.350816",
       "data_found": false,
       "found": {}
     },
     "「公募－日本の絵画2026－」": {
       "title": "「公募－日本の絵画2026－」",
-      "searched_at": "2026-06-09T11:17:58.003506",
+      "searched_at": "2026-06-09T11:25:52.856013",
       "data_found": false,
       "found": {}
     },
     "「公募－日本の絵画2026－」入賞・入選発表展": {
       "title": "「公募－日本の絵画2026－」入賞・入選発表展",
-      "searched_at": "2026-06-09T11:17:59.480872",
+      "searched_at": "2026-06-09T11:25:54.385327",
       "data_found": false,
       "found": {}
     },
     "Spring Flora and Fauna Art Exhibition 2026": {
       "title": "Spring Flora and Fauna Art Exhibition 2026",
-      "searched_at": "2026-06-09T11:18:00.543774",
+      "searched_at": "2026-06-09T11:25:55.370740",
       "data_found": false,
       "found": {}
     },
     "kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)": {
       "title": "kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)",
-      "searched_at": "2026-06-09T11:18:02.055001",
+      "searched_at": "2026-06-09T11:25:56.860890",
       "data_found": false,
       "found": {}
     },
     "5th Singapore Chinese Art Exhibition 2026": {
       "title": "5th Singapore Chinese Art Exhibition 2026",
-      "searched_at": "2026-06-09T11:18:03.012649",
+      "searched_at": "2026-06-09T11:25:57.835381",
       "data_found": false,
       "found": {}
     },
     "スタートアップ助成 (Startup Grant)": {
       "title": "スタートアップ助成 (Startup Grant)",
-      "searched_at": "2026-06-09T11:20:05.036761",
+      "searched_at": "2026-06-09T11:25:59.363929",
       "data_found": false,
       "found": {}
     },
     "滋賀県愛荘町絵画展": {
       "title": "滋賀県愛荘町絵画展",
-      "searched_at": "2026-06-09T11:20:06.518107",
+      "searched_at": "2026-06-09T11:26:00.868724",
       "data_found": false,
       "found": {}
     },
     "第92回旺玄展": {
       "title": "第92回旺玄展",
-      "searched_at": "2026-06-09T11:20:08.031022",
+      "searched_at": "2026-06-09T11:26:02.329263",
       "data_found": false,
       "found": {}
     },
     "南京插画艺术家展览 2026年3月": {
       "title": "南京插画艺术家展览 2026年3月",
-      "searched_at": "2026-06-09T11:20:09.303479",
+      "searched_at": "2026-06-09T11:26:03.573598",
       "data_found": false,
       "found": {}
     },
     "Kyoto Art Center Residency": {
       "title": "Kyoto Art Center Residency",
-      "searched_at": "2026-06-09T11:20:10.712653",
+      "searched_at": "2026-06-09T11:26:05.093891",
       "data_found": false,
       "found": {}
     },
     "Royal Watercolour Society": {
       "title": "Royal Watercolour Society",
-      "searched_at": "2026-06-09T11:20:11.681645",
+      "searched_at": "2026-06-09T11:26:06.115056",
       "data_found": false,
       "found": {}
     },
     "2026国际艺术大赏展": {
       "title": "2026国际艺术大赏展",
-      "searched_at": "2026-06-09T11:20:13.153011",
+      "searched_at": "2026-06-09T11:26:07.573778",
       "data_found": false,
       "found": {}
     },
     "Pastel Society Open Exhibition": {
       "title": "Pastel Society Open Exhibition",
-      "searched_at": "2026-06-09T11:20:14.138848",
+      "searched_at": "2026-06-09T11:26:08.538075",
       "data_found": false,
       "found": {}
     },
     "秀彩会小品展2026": {
       "title": "秀彩会小品展2026",
-      "searched_at": "2026-06-09T11:20:15.694714",
+      "searched_at": "2026-06-09T11:26:10.054801",
       "data_found": false,
       "found": {}
     },
     "Artist in Residence program in Paris 2026/2027": {
       "title": "Artist in Residence program in Paris 2026/2027",
-      "searched_at": "2026-06-09T11:20:16.698717",
+      "searched_at": "2026-06-09T11:26:11.040386",
       "data_found": false,
       "found": {}
     },
     "The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)": {
       "title": "The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)",
-      "searched_at": "2026-06-09T11:20:18.136693",
+      "searched_at": "2026-06-09T11:26:12.503720",
       "data_found": false,
       "found": {}
     },
     "New York Fellowship": {
       "title": "New York Fellowship",
-      "searched_at": "2026-06-09T11:20:19.188420",
+      "searched_at": "2026-06-09T11:26:13.470127",
       "data_found": false,
       "found": {}
     },
     "2026 OCAA Ladies Art Exhibition": {
       "title": "2026 OCAA Ladies Art Exhibition",
-      "searched_at": "2026-06-09T11:20:20.200102",
+      "searched_at": "2026-06-09T11:26:14.457652",
       "data_found": false,
       "found": {}
     },
     "2026 Kyoto Museum International Art Grand Exhibition": {
       "title": "2026 Kyoto Museum International Art Grand Exhibition",
-      "searched_at": "2026-06-09T11:20:21.678723",
+      "searched_at": "2026-06-09T11:26:15.924046",
       "data_found": false,
       "found": {}
     },
     "NEW AIR": {
       "title": "NEW AIR",
-      "searched_at": "2026-06-09T11:20:23.177656",
+      "searched_at": "2026-06-09T11:26:17.365181",
       "data_found": false,
       "found": {}
     },
     "Muninova Artist Award": {
       "title": "Muninova Artist Award",
-      "searched_at": "2026-06-09T11:20:24.661493",
+      "searched_at": "2026-06-09T11:26:18.866246",
       "data_found": false,
       "found": {}
     },
     "Asian Cultural Council Fellowship": {
       "title": "Asian Cultural Council Fellowship",
-      "searched_at": "2026-06-09T11:20:25.662336",
+      "searched_at": "2026-06-09T11:26:19.885022",
       "data_found": false,
       "found": {}
     },
     "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...": {
       "title": "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...",
-      "searched_at": "2026-06-09T11:20:27.156631",
+      "searched_at": "2026-06-09T11:26:21.434069",
       "data_found": false,
       "found": {}
     },
     "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...": {
       "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
-      "searched_at": "2026-06-09T11:20:28.602988",
+      "searched_at": "2026-06-09T11:26:22.935246",
       "data_found": false,
       "found": {}
     },
     "twelvebooks": {
       "title": "twelvebooks",
-      "searched_at": "2026-06-09T11:22:30.321534",
+      "searched_at": "2026-06-09T11:27:25.511717",
       "data_found": false,
       "found": {}
     },
     "2026「OPEN World Exhibition」": {
       "title": "2026「OPEN World Exhibition」",
-      "searched_at": "2026-06-09T11:22:32.610023",
+      "searched_at": "2026-06-09T11:27:27.027135",
       "data_found": false,
       "found": {}
     }

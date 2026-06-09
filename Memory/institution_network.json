@@ -37,10 +37,10 @@
       "category": "zine_print"
     },
     {
-      "title": "Tacoche",
+      "title": "Offprint",
       "score": 3,
-      "country": "",
-      "category": "zine_print"
+      "country": "France / UK",
+      "category": "global_art_book_fair"
     },
     {
       "title": "SPBS (Shibuya Publishing Booksellers)",
@@ -49,16 +49,10 @@
       "category": "bookstore_gallery"
     },
     {
-      "title": "Offprint",
+      "title": "Tacoche",
       "score": 3,
-      "country": "France / UK",
-      "category": "global_art_book_fair"
-    },
-    {
-      "title": "Printed Matter Art Book Fairs",
-      "score": 3,
-      "country": "USA",
-      "category": "global_art_book_fair"
+      "country": "",
+      "category": "zine_print"
     },
     {
       "title": "Self Publish, Be Happy",
@@ -67,12 +61,19 @@
       "category": "global_artist_book_platform"
     },
     {
-      "title": "そぞろ書房",
+      "title": "日記屋 月日",
       "score": 3,
       "country": "",
       "category": "zine_print"
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "score": 3,
+      "country": "USA",
+      "category": "global_art_book_fair"
     }
   ],
+  "Center for Book Arts Opportunities": [],
   "UTRECHT": [
     {
       "title": "LOCAL Gallery・Books",
@@ -99,34 +100,22 @@
       "category": "fair_popup"
     },
     {
-      "title": "B&B (Book & Beer)",
-      "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    },
-    {
       "title": "本店・本屋の実験室",
       "score": 3,
       "country": "",
       "category": "zine_print"
     },
     {
-      "title": "Tacoche",
+      "title": "B&B (Book & Beer)",
       "score": 3,
-      "country": "",
-      "category": "zine_print"
+      "country": "Japan",
+      "category": "bookstore_gallery"
     },
     {
       "title": "Antenna Books",
       "score": 3,
       "country": "Japan",
       "category": "bookstore_gallery"
-    },
-    {
-      "title": "Books Ruhe",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
     },
     {
       "title": "Mona Records",
@@ -141,30 +130,93 @@
       "category": "zine_shop_consignment"
     },
     {
-      "title": "Home - Printed Matter",
+      "title": "Tacoche",
       "score": 3,
-      "country": "Global",
-      "category": "global_photobook"
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Books Ruhe",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "日記屋 月日",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
     }
   ],
-  "ILOVETOYS / neuprint — Chinese Illustration Feature": [],
-  "B&B Shimokitazawa": [],
+  "Aesthetica Art Prize": [],
   "Women United ART MAGAZINE Issue XIV Summer 2026": [],
   "SUBMISSIONS - marblepress.com": [],
-  "flotsam books": [],
-  "submissions — porkbelly press": [],
-  "美術手帖 (Bijutsu Techo) — Artist Feature": [],
-  "TOKIO ART BOOK FAIR 2026": [],
-  "ZINEフェス東京 (ZINE Fest Tokyo)": [],
-  "Center for Book Arts Opportunities": [],
-  "Aesthetica Art Prize": [],
   "Still Life - 2026": [],
   "American Illustration": [],
   "World Illustration Awards": [],
   "Jackson's Art Prize": [],
   "The Artcomplex Center of Tokyo": [],
   "Society of Women Artists": [],
-  "DER GREIF": [],
+  "美術手帖 (Bijutsu Techo) — Artist Feature": [],
+  "本店・本屋の実験室": [
+    {
+      "title": "日記屋 月日",
+      "score": 4,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 3,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 3,
+      "country": "",
+      "category": "bookstore_gallery"
+    },
+    {
+      "title": "LOCAL Gallery・Books",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Antenna Books",
+      "score": 3,
+      "country": "Japan",
+      "category": "bookstore_gallery"
+    },
+    {
+      "title": "Mona Records",
+      "score": 3,
+      "country": "Japan",
+      "category": "zine_shop_consignment"
+    },
+    {
+      "title": "tata bookshop/gallery",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "円盤 (Enban) Koenji",
+      "score": 3,
+      "country": "Japan",
+      "category": "zine_shop_consignment"
+    },
+    {
+      "title": "そぞろ書房",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    }
+  ],
+  "ZINEフェス東京 (ZINE Fest Tokyo)": [],
+  "水性繪畫展覽 (Watercolor Exhibition)": [],
+  "水彩アートの祭典 (Watercolor Art Festival)": [],
   "B&B (Book & Beer)": [
     {
       "title": "UTRECHT",
@@ -203,26 +255,27 @@
       "category": "zine_print"
     }
   ],
+  "アートオリンピア2026": [],
+  "Tokyo Illustrators Society": [],
   "Bologna Children's Book Fair Illustrators Exhibition": [],
   "Pinpoint Gallery": [],
-  "Submissions — Clavis Publishing": [],
-  "Aquarium - 2026": [],
-  "水性繪畫展覽 (Watercolor Exhibition)": [],
-  "水彩アートの祭典 (Watercolor Art Festival)": [],
+  "第113回 日本水彩展": [],
   "Pen Magazine — Artist Spotlight": [],
   "Casa Brutus — Architecture/Art Feature": [],
   "MOUNT ZINE": [],
   "It's Nice That — Illustration Feature": [],
+  "Royal Watercolour Society Open Exhibition": [],
+  "START Box ササハタハツ・START Box 白鬚 2026年度利用者募集": [],
+  "桜をテーマとするイラスト・絵画作品募集": [],
+  "CSPWC Annual Open Water International Exhibition": [],
+  "多摩ゆかりの作家による公募展": [],
+  "Aquarelle 18 - アクワレル": [],
   "Apartamento — Artist Feature": [],
-  "Aperture | Photography": [
-    {
-      "title": "Home - Printed Matter",
-      "score": 3,
-      "country": "Global",
-      "category": "global_photobook"
-    }
-  ],
-  "Browse opportunities | CuratorSpace": [],
+  "Gallery IYN": [],
+  "Submissions - Little Press Publishing": [],
+  "In-dividual Theater：BUG Screen Week 2026": [],
+  "臺南市美術館 2026「TAM+展覽計畫」": [],
+  "flotsam books": [],
   "FY2026 Life with Art Grant": [
     {
       "title": "Gallery EF Asakusa",
@@ -231,112 +284,25 @@
       "category": "cafe_gallery"
     }
   ],
-  "アートオリンピア2026": [],
-  "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny": [],
-  "Book and Sons": [],
-  "Publishers & Publishing Services in Japan - PublishersGlobal.com": [],
-  "Become an Author - Tuttle Publishing": [],
-  "Royal Watercolour Society Open Exhibition": [],
-  "Route Books": [],
-  "Submissions - Little Press Publishing": [],
-  "HATTIFNATT Koenji Cafe Gallery": [],
-  "2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)": [],
-  "ACC 2026年度フェローシップおよび助成": [],
-  "第113回 日本水彩展": [],
-  "Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛": [],
-  "Gallery IYN": [],
-  "Fukuoka Art Book Fair": [],
-  "Zine & Book フェス in 神保町 (Jimbocho)": [],
-  "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ": [],
-  "Brillia Art Award Wall 2026": [],
-  "本店・本屋の実験室": [
-    {
-      "title": "日記屋 月日",
-      "score": 4,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "Tokyo Art Book Fair",
-      "score": 3,
-      "country": "Japan",
-      "category": "fair_popup"
-    },
-    {
-      "title": "UTRECHT",
-      "score": 3,
-      "country": "",
-      "category": "bookstore_gallery"
-    },
-    {
-      "title": "LOCAL Gallery・Books",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "Antenna Books",
-      "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    },
-    {
-      "title": "tata bookshop/gallery",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "Mona Records",
-      "score": 3,
-      "country": "Japan",
-      "category": "zine_shop_consignment"
-    },
-    {
-      "title": "円盤 (Enban) Koenji",
-      "score": 3,
-      "country": "Japan",
-      "category": "zine_shop_consignment"
-    },
-    {
-      "title": "そぞろ書房",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    }
-  ],
-  "BOOOOOOOM 2026 Art & Photo Book Award": [],
   "SUZURI — Japanese Print-on-Demand Platform": [],
-  "Tokyo Gendai 2026": [],
-  "SHIBUYA CAST. Gallery": [],
-  "Mograg Gallery": [],
-  "Gallery EF Asakusa": [
-    {
-      "title": "FY2026 Life with Art Grant",
-      "score": 3,
-      "country": "Japan",
-      "category": "grant"
-    }
-  ],
-  "Nui. Hostel Bar & Lounge Asakusa": [],
-  "Kamome Roastery Tokyo": [],
-  "2026 Global Grant Cycle - Individual Fellowship": [],
-  "桜をテーマとするイラスト・絵画作品募集": [],
-  "MICRO/MACRO": [],
-  "水彩アートの祭典": [],
-  "CSPWC Annual Open Water International Exhibition": [],
-  "多摩ゆかりの作家による公募展": [],
-  "Aquarelle 18 - アクワレル": [],
+  "BOOOOOOOM 2026 Art & Photo Book Award": [],
+  "Route Books": [],
+  "HATTIFNATT Koenji Cafe Gallery": [],
   "第九屆水主題國際評審藝術比賽": [],
-  "START Box ササハタハツ・START Box 白鬚 2026年度利用者募集": [],
+  "Browse opportunities | CuratorSpace": [],
+  "Kamome Roastery Tokyo": [],
   "2026年美の起原展": [],
   "クリスマスアート展": [],
   "Laugh & Peace Art Competition 2026": [],
   "第29回 アート未来展": [],
+  "3x3 International Illustration Awards": [],
+  "2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)": [],
+  "ACC 2026年度フェローシップおよび助成": [],
+  "Mograg Gallery": [],
+  "水彩アートの祭典": [],
   "Northwest Watercolor Society 2026 Annual International Open Exhibition": [],
-  "2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動": [],
-  "True Beauty - 2026": [],
-  "Japan International Watercolor Institute Online Exhibition": [],
+  "B&B Shimokitazawa": [],
+  "American Watercolor Society Annual International Exhibition": [],
   "LOCAL Gallery・Books": [
     {
       "title": "Tokyo Art Book Fair",
@@ -387,31 +353,53 @@
       "category": "book_publishing"
     },
     {
-      "title": "B&B (Book & Beer)",
-      "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    },
-    {
       "title": "本店・本屋の実験室",
       "score": 3,
       "country": "",
       "category": "zine_print"
     },
     {
-      "title": "COW BOOKS Nakameguro",
+      "title": "B&B (Book & Beer)",
       "score": 3,
       "country": "Japan",
       "category": "bookstore_gallery"
     },
     {
-      "title": "Tacoche",
+      "title": "Offprint",
       "score": 3,
-      "country": "",
-      "category": "zine_print"
+      "country": "France / UK",
+      "category": "global_art_book_fair"
+    },
+    {
+      "title": "Mona Records",
+      "score": 3,
+      "country": "Japan",
+      "category": "zine_shop_consignment"
     }
   ],
-  "COW BOOKS Nakameguro": [
+  "コピックアワード2026": [],
+  "Ark Art Award 2024": [],
+  "Book and Sons": [],
+  "Brillia Art Award Wall 2026": [],
+  "新進芸術家海外研修制度（Emerging Artists Overseas Training Program）": [],
+  "2026 3rd Annual Illustration Summit Challenge (IlloBoom!)": [],
+  "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition": [],
+  "SHIBUYA CAST. Gallery": [],
+  "2026 Global Grant Cycle - Individual Fellowship": [],
+  "Cité Internationale des Arts Artist Residency": [],
+  "Village Vanguard Shimokitazawa": [],
+  "Art Vancouver 2026": [],
+  "ギャラリーへ行こう2026": [],
+  "Osaka Open Call For Artists. - ARRIVAL": [],
+  "Kyoto Retreat Artist Residency 2026 - Open Call": [],
+  "NY公募展2026夏（NY Open Call Exhibition Summer 2026）": [],
+  "Offprint": [
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 3,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
     {
       "title": "LOCAL Gallery・Books",
       "score": 3,
@@ -425,48 +413,34 @@
       "category": "bookstore_gallery"
     },
     {
-      "title": "Offprint",
-      "score": 3,
-      "country": "France / UK",
-      "category": "global_art_book_fair"
-    }
-  ],
-  "Tokyo Illustrators Society": [],
-  "Tacoche": [
-    {
-      "title": "Tokyo Art Book Fair",
+      "title": "COW BOOKS Nakameguro",
       "score": 3,
       "country": "Japan",
-      "category": "fair_popup"
-    },
-    {
-      "title": "UTRECHT",
-      "score": 3,
-      "country": "",
       "category": "bookstore_gallery"
-    },
-    {
-      "title": "LOCAL Gallery・Books",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "Books Ruhe",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "そぞろ書房",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
     }
   ],
-  "Village Vanguard Shimokitazawa": [],
-  "新世紀美術協会 神戸支部 油彩・水彩小作品展（Shin-Seiki Bijutsu Kyokai Kobe Branch Oil & Watercolor Small Works Exhibition）": [],
-  "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition": [],
+  "AAA Gallery Yokohama": [],
+  "2026 Chinese New Year Celebration Art Show": [],
+  "Gallery EF Asakusa": [
+    {
+      "title": "FY2026 Life with Art Grant",
+      "score": 3,
+      "country": "Japan",
+      "category": "grant"
+    }
+  ],
+  "Nui. Hostel Bar & Lounge Asakusa": [],
+  "MICRO/MACRO": [],
+  "2026年度 第2期 地域芸術文化活動応援助成": [],
+  "IlloBoom! 2026 第三屆插畫巔峰賽": [],
+  "2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動": [],
+  "HATTIFNATT Kichijoji": [],
+  "CLOUDS Gallery+Coffee Koenji": [],
+  "Yonchome Cafe": [],
+  "Koganecho Area Management Center": [],
+  "Platform China BIAP Artist Residency": [],
+  "東京芸術文化創造発信助成 (Tokyo Arts and Culture Creation and Dissemination Grant)": [],
+  "Hayama Artist Residency Submission Manager - Submittable": [],
   "Antenna Books": [
     {
       "title": "LOCAL Gallery・Books",
@@ -499,16 +473,10 @@
       "category": "zine_print"
     },
     {
-      "title": "COW BOOKS Nakameguro",
+      "title": "Offprint",
       "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    },
-    {
-      "title": "Books Ruhe",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
+      "country": "France / UK",
+      "category": "global_art_book_fair"
     },
     {
       "title": "Mona Records",
@@ -517,16 +485,22 @@
       "category": "zine_shop_consignment"
     },
     {
+      "title": "COW BOOKS Nakameguro",
+      "score": 3,
+      "country": "Japan",
+      "category": "bookstore_gallery"
+    },
+    {
       "title": "円盤 (Enban) Koenji",
       "score": 3,
       "country": "Japan",
       "category": "zine_shop_consignment"
     },
     {
-      "title": "Offprint",
+      "title": "Books Ruhe",
       "score": 3,
-      "country": "France / UK",
-      "category": "global_art_book_fair"
+      "country": "",
+      "category": "zine_print"
     },
     {
       "title": "Self Publish, Be Happy",
@@ -535,7 +509,7 @@
       "category": "global_artist_book_platform"
     },
     {
-      "title": "そぞろ書房",
+      "title": "日記屋 月日",
       "score": 3,
       "country": "",
       "category": "zine_print"
@@ -567,58 +541,10 @@
       "category": "global_artist_book_platform"
     },
     {
-      "title": "Publishing / Artist Books — Battle Plan",
-      "score": 3,
-      "country": "",
-      "category": "book_publishing"
-    },
-    {
       "title": "Book Culture Club",
       "score": 3,
       "country": "",
       "category": "zine_print"
-    }
-  ],
-  "コピックアワード2026": [],
-  "Ark Art Award 2024": [],
-  "AAA Gallery Yokohama": [],
-  "2026 Chinese New Year Celebration Art Show": [],
-  "Books Ruhe": [
-    {
-      "title": "Tokyo Art Book Fair",
-      "score": 4,
-      "country": "Japan",
-      "category": "fair_popup"
-    },
-    {
-      "title": "LOCAL Gallery・Books",
-      "score": 4,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "UTRECHT",
-      "score": 3,
-      "country": "",
-      "category": "bookstore_gallery"
-    },
-    {
-      "title": "Tacoche",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "Antenna Books",
-      "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    },
-    {
-      "title": "そぞろ書房",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
     },
     {
       "title": "Publishing / Artist Books — Battle Plan",
@@ -627,62 +553,14 @@
       "category": "book_publishing"
     }
   ],
-  "3x3 International Illustration Awards": [],
-  "Art Vancouver 2026": [],
-  "BONUS TRACK": [],
-  "HATTIFNATT Kichijoji": [],
-  "CLOUDS Gallery+Coffee Koenji": [],
-  "Cafe Mame-Hico": [],
-  "Yonchome Cafe": [],
-  "Koganecho Area Management Center": [],
-  "DESIGN FESTA GALLERY": [],
-  "Spiral": [],
-  "「国際創作者駐村計畫」": [],
-  "2026 3rd Annual Illustration Summit Challenge (IlloBoom!)": [],
-  "Kyoto Retreat Artist Residency 2026 - Open Call": [],
-  "ギャラリーへ行こう2026": [],
-  "Osaka Open Call For Artists. - ARRIVAL": [],
-  "Platform China BIAP Artist Residency": [],
-  "In-dividual Theater：BUG Screen Week 2026": [],
-  "臺南市美術館 2026「TAM+展覽計畫」": [],
-  "NY公募展2026夏（NY Open Call Exhibition Summer 2026）": [],
-  "東京芸術文化創造発信助成 (Tokyo Arts and Culture Creation and Dissemination Grant)": [],
-  "Hayama Artist Residency Submission Manager - Submittable": [],
-  "新進芸術家海外研修制度（Emerging Artists Overseas Training Program）": [],
-  "International Open Call": [],
-  "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar": [],
-  "Clavis Publishing Submissions": [],
-  "ART SG 2026": [],
-  "第23回千修イラスト＆写真コンテスト (23rd Sensu Illustration & Photo Contest)": [],
-  "KAMIHANGA国際プリント展2026": [],
-  "Cité Internationale des Arts Artist Residency": [],
-  "2026金风车国际青年插画家大赛": [],
-  "POST": [],
-  "ART BOX Publishing": [],
-  "Asian Cultural Council (ACC) 2026 Grant Program": [],
-  "2026年度 第2期 地域芸術文化活動応援助成": [],
+  "FACE Exhibition 2026": [],
   "Tokyo Wonder Site / TOKAS Residency": [],
-  "American Watercolor Society Annual International Exhibition": [],
-  "NADiff a/p/a/r/t": [],
-  "tata bookshop/gallery": [
-    {
-      "title": "本店・本屋の実験室",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "日記屋 月日",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    }
-  ],
-  "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin": [],
-  "【biscuit gallery】初の公募企画「grid next : Emerging ...": [],
-  "グループ展参加アーティスト募集中 - Gallery and Links81": [],
-  "公募企画「grid next : 2025 - Emerging Artists Showcase ...": [],
-  "OPA Gallery": [],
+  "POST": [],
+  "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award": [],
+  "Jinny Street Gallery Open Call": [],
+  "Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛": [],
+  "2026春季二科展「NIKA nika/S20号」コンクール": [],
+  "Blooming Stories 2026": [],
   "Mona Records": [
     {
       "title": "UTRECHT",
@@ -715,7 +593,24 @@
       "category": "zine_shop_consignment"
     },
     {
+      "title": "日記屋 月日",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
       "title": "そぞろ書房",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    }
+  ],
+  "KAMIHANGA国際プリント展2026": [],
+  "「国際創作者駐村計畫」": [],
+  "OPA Gallery": [],
+  "tata bookshop/gallery": [
+    {
+      "title": "本店・本屋の実験室",
       "score": 3,
       "country": "",
       "category": "zine_print"
@@ -727,14 +622,29 @@
       "category": "zine_print"
     }
   ],
-  "美術新人賞デビュー2026（Art Newcomer Award Debut 2026）": [],
-  "FACE Exhibition 2026": [],
-  "OPEN SITE 11": [],
-  "Shimokitazawa Arts": [],
-  "BALLOND'ESSAI Shimokitazawa": [],
-  "Ishibashi Foundation / The Japan Foundation Fellowship for Research on Japanese Art": [],
+  "Belladonna Art Competition": [],
+  "Asian Cultural Council (ACC) 2026 Grant Program": [],
   "芸術活動への助成 (Arts Activity Grant)": [],
-  "Tokyo Arts and Space": [],
+  "COW BOOKS Nakameguro": [
+    {
+      "title": "LOCAL Gallery・Books",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Offprint",
+      "score": 3,
+      "country": "France / UK",
+      "category": "global_art_book_fair"
+    },
+    {
+      "title": "Antenna Books",
+      "score": 3,
+      "country": "Japan",
+      "category": "bookstore_gallery"
+    }
+  ],
   "円盤 (Enban) Koenji": [
     {
       "title": "UTRECHT",
@@ -767,13 +677,45 @@
       "category": "zine_shop_consignment"
     },
     {
-      "title": "そぞろ書房",
+      "title": "日記屋 月日",
       "score": 3,
       "country": "",
       "category": "zine_print"
     },
     {
-      "title": "日記屋 月日",
+      "title": "そぞろ書房",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    }
+  ],
+  "Tacoche": [
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 3,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 3,
+      "country": "",
+      "category": "bookstore_gallery"
+    },
+    {
+      "title": "LOCAL Gallery・Books",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Books Ruhe",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "そぞろ書房",
       "score": 3,
       "country": "",
       "category": "zine_print"
@@ -799,16 +741,16 @@
       "category": "zine_print"
     },
     {
-      "title": "Home - Printed Matter",
-      "score": 3,
-      "country": "Global",
-      "category": "global_photobook"
-    },
-    {
       "title": "そぞろ書房",
       "score": 3,
       "country": "",
       "category": "zine_print"
+    },
+    {
+      "title": "Home - Printed Matter",
+      "score": 3,
+      "country": "Global",
+      "category": "global_photobook"
     },
     {
       "title": "Publishing / Artist Books — Battle Plan",
@@ -823,58 +765,25 @@
       "category": "zine_print"
     }
   ],
-  "Open Calls for Artists | Exhibit Worldwide": [],
-  "219公募展6募集 >> Gallery219 ギャラリーニイク": [],
-  "公募プログラム - トーキョーアーツアンドスペース": [],
-  "Offprint": [
-    {
-      "title": "Tokyo Art Book Fair",
-      "score": 3,
-      "country": "Japan",
-      "category": "fair_popup"
-    },
-    {
-      "title": "LOCAL Gallery・Books",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "COW BOOKS Nakameguro",
-      "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    },
-    {
-      "title": "Antenna Books",
-      "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    }
-  ],
-  "Printed Matter Art Book Fairs": [
-    {
-      "title": "Tokyo Art Book Fair",
-      "score": 3,
-      "country": "Japan",
-      "category": "fair_popup"
-    },
-    {
-      "title": "Home - Printed Matter",
-      "score": 3,
-      "country": "Global",
-      "category": "global_photobook"
-    }
-  ],
-  "Comitia": [],
-  "Golden Pinwheel International Young Illustrators Competition 2026 / 金风车国际青年插画家大赛": [],
-  "Japan in Acquarello 水彩画作品公募2026": [],
-  "Home - Printed Matter": [
+  "2026年度 国際助成プログラム": [],
+  "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info": [],
+  "ART BOX Publishing": [],
+  "BALLOND'ESSAI Shimokitazawa": [],
+  "OPEN SITE 11": [],
+  "Shimokitazawa Arts": [],
+  "Ishibashi Foundation / The Japan Foundation Fellowship for Research on Japanese Art": [],
+  "Books Ruhe": [
     {
       "title": "Tokyo Art Book Fair",
       "score": 4,
       "country": "Japan",
       "category": "fair_popup"
+    },
+    {
+      "title": "LOCAL Gallery・Books",
+      "score": 4,
+      "country": "",
+      "category": "zine_print"
     },
     {
       "title": "UTRECHT",
@@ -883,40 +792,32 @@
       "category": "bookstore_gallery"
     },
     {
-      "title": "Aperture | Photography",
+      "title": "Antenna Books",
       "score": 3,
-      "country": "Global",
-      "category": "global_photobook"
+      "country": "Japan",
+      "category": "bookstore_gallery"
     },
     {
-      "title": "Book Obscura",
+      "title": "Tacoche",
       "score": 3,
       "country": "",
       "category": "zine_print"
     },
     {
-      "title": "Printed Matter Art Book Fairs",
+      "title": "そぞろ書房",
       "score": 3,
-      "country": "USA",
-      "category": "global_art_book_fair"
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Publishing / Artist Books — Battle Plan",
+      "score": 3,
+      "country": "",
+      "category": "book_publishing"
     }
   ],
-  "全国日曜画家コンクール": [],
-  "ART FAIR TOKYO 21": [],
-  "3331 Arts Chiyoda": [],
-  "Belladonna Art Competition": [],
-  "Gallery IRO": [],
-  "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award": [],
-  "Gallery HANA Shimokitazawa": [],
-  "表紙やカバーのデザインのお仕事": [],
-  "Applied Arts 2026 Illustration Awards": [],
-  "submissions for the 2026 set film festival are now open": [],
-  "Open Call for the International Creator Residency Program 2026": [],
-  "2026年度 国際助成プログラム": [],
-  "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info": [],
+  "Open calls - Online Database of Artist in Residence Programs in Japan": [],
   "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW": [],
-  "Art Submissions": [],
-  "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING": [],
   "Self Publish, Be Happy": [
     {
       "title": "LOCAL Gallery・Books",
@@ -949,140 +850,29 @@
       "category": "book_publishing"
     }
   ],
-  "BankART1929": [],
-  "Picaresque Gallery": [],
-  "TOKYO MIDTOWN AWARD 2026 アートコンペ": [],
-  "reload Shimokitazawa": [],
-  "ZINEイベント": [],
+  "2026金风车国际青年插画家大赛": [],
+  "全国日曜画家コンクール": [],
+  "マイ・ディア・テディ (My Dear Teddy)": [],
   "Gallery 456 Exhibition Open Call 2026": [],
   "第23届「跨越国界之美2026」国际公募展": [],
-  "2026春季二科展「NIKA nika/S20号」コンクール": [],
   "芸術活動への助成（Grants for Artistic Activities）": [],
-  "そぞろ書房": [
-    {
-      "title": "UTRECHT",
-      "score": 4,
-      "country": "",
-      "category": "bookstore_gallery"
-    },
-    {
-      "title": "LOCAL Gallery・Books",
-      "score": 4,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "Tokyo Art Book Fair",
-      "score": 3,
-      "country": "Japan",
-      "category": "fair_popup"
-    },
-    {
-      "title": "B&B (Book & Beer)",
-      "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    },
-    {
-      "title": "本店・本屋の実験室",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "Tacoche",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "Antenna Books",
-      "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    },
-    {
-      "title": "Books Ruhe",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "Mona Records",
-      "score": 3,
-      "country": "Japan",
-      "category": "zine_shop_consignment"
-    },
-    {
-      "title": "円盤 (Enban) Koenji",
-      "score": 3,
-      "country": "Japan",
-      "category": "zine_shop_consignment"
-    },
-    {
-      "title": "Book Obscura",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "日記屋 月日",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    }
-  ],
-  "IlloBoom! 2026 第三屆插畫巔峰賽": [],
-  "Open calls - Online Database of Artist in Residence Programs in Japan": [],
-  "世界堂絵画展2026": [],
-  "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展": [],
+  "ART FAIR TOKYO 21": [],
+  "Open Call for the International Creator Residency Program 2026": [],
+  "TOKYO MIDTOWN AWARD 2026 アートコンペ": [],
   "International Illustration 2026": [],
-  "2026年全国美术作品征集": [],
-  "2026博洛尼亚国际插画大赛": [],
-  "HandMade In Japan Fes": [],
+  "美術新人賞デビュー2026（Art Newcomer Award Debut 2026）": [],
+  "3331 Arts Chiyoda": [],
   "Gallery Rocket Harajuku": [],
-  "The Container": [],
-  "SCAI The Bathhouse": [],
-  "TAV Gallery": [],
-  "VACANT": [],
-  "Jinny Street Gallery Open Call": [],
-  "Zushi Art Gallery": [],
-  "Gallery Conceal Shibuya": [],
+  "【biscuit gallery】初の公募企画「grid next : Emerging ...": [],
+  "グループ展参加アーティスト募集中 - Gallery and Links81": [],
+  "公募企画「grid next : 2025 - Emerging Artists Showcase ...": [],
+  "世界堂絵画展2026": [],
+  "Applied Arts 2026 Illustration Awards": [],
+  "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展": [],
+  "FACE展2026": [],
+  "表紙やカバーのデザインのお仕事": [],
   "International Creator Residency Program 2027": [],
-  "EIAF 2026–2027 Artist-in-Residence Program": [],
-  "Aoyama Farmers Market": [],
-  "Cafe Cross Point": [],
-  "Cafe Gallery HATTIFNATT": [],
-  "Design Festa": [],
-  "OM SYSTEM PLAZA 2026年4月～6月開催分": [],
-  "第22回 世界絵画大賞展2026": [],
-  "水彩アートのみ展示イベント": [],
-  "ローズ・ローズ・ローズ": [],
-  "Blooming Stories 2026": [],
-  "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)": [],
-  "Gallery 191 Exhibition 2026": [],
-  "INSTINC 2026/2027 Artist-in-Residence Program": [],
-  "TOKAS Open Call": [],
-  "金风车插画大赛2026": [],
-  "アジア文化芸術ネットワーク強化助成【WA2.0】": [],
-  "アジア文化芸術フェローシップ【WA2.0】": [],
-  "Para Contest 2026": [],
-  "AOI（Association of Illustrators）2026 Illustration Awards": [],
-  "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou": [],
-  "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod": [],
-  "オープンコール・プロジェクト": [],
-  "第五回公募展「境界」-edge-": [],
-  "Tokyo Open Call for Artists & Creatives": [],
-  "Venice International Watercolor Festival 2026 / 2026年威尼斯国际水彩节": [],
-  "[展覧会]秀彩会小品展2026": [],
-  "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会": [],
-  "スクエア・ワールド2026": [],
-  "アートアワードトーキョー丸の内2026（Art Award Tokyo Marunouchi 2026）": [],
-  "マイ・ディア・テディ (My Dear Teddy)": [],
-  "IlloBoom! 3rd Annual Illustration Summit Challenge": [],
-  "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery": [],
-  "AIR 3331": [],
-  "AIT Residency": [],
+  "2026博洛尼亚国际插画大赛": [],
   "日記屋 月日": [
     {
       "title": "本店・本屋の実験室",
@@ -1115,16 +905,16 @@
       "category": "bookstore_gallery"
     },
     {
-      "title": "tata bookshop/gallery",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
       "title": "Mona Records",
       "score": 3,
       "country": "Japan",
       "category": "zine_shop_consignment"
+    },
+    {
+      "title": "tata bookshop/gallery",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
     },
     {
       "title": "円盤 (Enban) Koenji",
@@ -1139,74 +929,316 @@
       "category": "zine_print"
     }
   ],
-  "HB Gallery": [],
-  "短編小説集出版記念 イラスト募集（表紙絵または挿絵）": [],
-  "Shangyuan International Residency Programme": [],
+  "Communication Arts Illustration Competition": [],
+  "第22回 世界絵画大賞展2026": [],
+  "BankART1929": [],
+  "EIAF 2026–2027 Artist-in-Residence Program": [],
+  "Tokyo Gendai 2026": [],
+  "BONUS TRACK": [],
+  "Cafe Mame-Hico": [],
+  "DESIGN FESTA GALLERY": [],
+  "SCAI The Bathhouse": [],
+  "2026春季二科展「NIKA+nika/S20号」コンクール": [],
   "芸術家海外研修制度（Artists' Overseas Training Program）": [],
   "2026 Global Grant Cycle - Fellowships and Grants (General)": [],
   "新進芸術家海外研修制度における日本文化発信・普及事業（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）": [],
+  "咲き誇れ桜よ": [],
+  "[展覧会]秀彩会小品展2026": [],
+  "AOI（Association of Illustrators）2026 Illustration Awards": [],
+  "Printed Matter Art Book Fairs": [
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 3,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
+    {
+      "title": "Home - Printed Matter",
+      "score": 3,
+      "country": "Global",
+      "category": "global_photobook"
+    }
+  ],
+  "submissions — porkbelly press": [],
+  "2026年全国美术作品征集": [],
+  "Tokyo Arts and Space": [],
+  "HB Gallery": [],
+  "Gallery 191 Exhibition 2026": [],
+  "TOKAS Open Call": [],
+  "金风车插画大赛2026": [],
+  "Open Calls for Artists | Exhibit Worldwide": [],
+  "219公募展6募集 >> Gallery219 ギャラリーニイク": [],
+  "公募プログラム - トーキョーアーツアンドスペース": [],
+  "絵画展（滋賀県愛荘町開催）": [],
+  "そぞろ書房": [
+    {
+      "title": "UTRECHT",
+      "score": 4,
+      "country": "",
+      "category": "bookstore_gallery"
+    },
+    {
+      "title": "LOCAL Gallery・Books",
+      "score": 4,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 3,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
+    {
+      "title": "本店・本屋の実験室",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "B&B (Book & Beer)",
+      "score": 3,
+      "country": "Japan",
+      "category": "bookstore_gallery"
+    },
+    {
+      "title": "Antenna Books",
+      "score": 3,
+      "country": "Japan",
+      "category": "bookstore_gallery"
+    },
+    {
+      "title": "Mona Records",
+      "score": 3,
+      "country": "Japan",
+      "category": "zine_shop_consignment"
+    },
+    {
+      "title": "円盤 (Enban) Koenji",
+      "score": 3,
+      "country": "Japan",
+      "category": "zine_shop_consignment"
+    },
+    {
+      "title": "Tacoche",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Book Obscura",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Books Ruhe",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "日記屋 月日",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    }
+  ],
   "ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)": [],
+  "torch press": [],
+  "TOKIO ART BOOK FAIR 2026": [],
+  "Chinese Culture in My Everyday Life / 我生活中的中華文化": [],
+  "Book Culture Club": [
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 3,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
+    {
+      "title": "LOCAL Gallery・Books",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Antenna Books",
+      "score": 3,
+      "country": "Japan",
+      "category": "bookstore_gallery"
+    },
+    {
+      "title": "SPBS (Shibuya Publishing Booksellers)",
+      "score": 3,
+      "country": "Japan",
+      "category": "bookstore_gallery"
+    }
+  ],
+  "Gallery IRO": [],
+  "Gallery HANA Shimokitazawa": [],
+  "オープンコール・プロジェクト": [],
+  "ギャラリー自由展示": [],
+  "AIR 3331": [],
+  "AIT Residency": [],
+  "第23回千修イラスト＆写真コンテスト (23rd Sensu Illustration & Photo Contest)": [],
+  "Golden Pinwheel International Young Illustrators Competition 2026 / 金风车国际青年插画家大赛": [],
+  "アジア文化芸術ネットワーク強化助成【WA2.0】": [],
+  "アジア文化芸術フェローシップ【WA2.0】": [],
+  "Para Contest 2026": [],
+  "TAV Gallery": [],
+  "PARK GALLERY 夏の公募企画展（3テーマ）": [],
+  "Venice International Watercolor Festival 2026 / 2026年威尼斯国际水彩节": [],
+  "JIA Illustration Award 2026": [],
+  "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...": [],
+  "2026 松濤美術館公募展｜渋谷区立松濤美術館": [],
+  "DER GREIF": [],
+  "アートアワードトーキョー丸の内2026（Art Award Tokyo Marunouchi 2026）": [],
+  "Aperture | Photography": [
+    {
+      "title": "Home - Printed Matter",
+      "score": 3,
+      "country": "Global",
+      "category": "global_photobook"
+    }
+  ],
+  "2026国际大学生数字艺术设计大赛": [],
+  "reload Shimokitazawa": [],
+  "Submissions — Clavis Publishing": [],
+  "IlloBoom! 3rd Annual Illustration Summit Challenge": [],
+  "Aoyama Farmers Market": [],
+  "2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)": [],
+  "Komiyama Tokyo": [],
+  "Cafe Cross Point": [],
+  "VACANT": [],
+  "Gallery Conceal Shibuya": [],
+  "素人の乱 (Shiroto no Ran) Koenji": [],
+  "Nantoka Bar Koenji": [],
+  "Aquarium - 2026": [],
+  "マイクロ・アート・ワーケーション(MAW)2026": [],
+  "マイクロ・アート・ワーケーション（MAW）2026": [],
+  "INSTINC 2026/2027 Artist-in-Residence Program": [],
+  "Art Fair Tokyo 2026": [],
+  "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...": [],
+  "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)": [],
+  "ZINEイベント": [],
+  "Comitia": [],
+  "Chinese Excellence in Children's Illustration 2026（卓越大师·中国插画大赛2026）": [],
+  "Chinese Excellence in Children's Illustration 2026 / 卓越大师·中国插画大赛2026": [],
+  "短編小説集出版記念 イラスト募集（表紙絵または挿絵）": [],
+  "Bunka-cho 新進芸術家海外研修制度": [],
+  "ART SG 2026": [],
+  "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny": [],
+  "Publishers & Publishing Services in Japan - PublishersGlobal.com": [],
+  "Become an Author - Tuttle Publishing": [],
+  "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"": [],
   "Open Calls for Artists": [],
   "Open Call For Artists": [],
   "公募展": [],
   "公募美術団体 都展|公募美術団体 東京都民美術展運営会（略称 ...": [],
-  "咲き誇れ桜よ": [],
-  "ギャラリー自由展示": [],
-  "PARK GALLERY 夏の公募企画展（3テーマ）": [],
-  "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...": [],
-  "2026 松濤美術館公募展｜渋谷区立松濤美術館": [],
-  "2026国际大学生数字艺术设计大赛": [],
-  "第9回 国際公募 東京アート工芸2026": [],
-  "JIA Illustration Award 2026": [],
-  "FACE展2026": [],
-  "素人の乱 (Shiroto no Ran) Koenji": [],
-  "Nantoka Bar Koenji": [],
-  "Art Fair Tokyo 2026": [],
-  "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...": [],
-  "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)": [],
-  "Sunny Boy Books": [],
-  "Creative Space Hayashi": [],
-  "Communication Arts Illustration Competition": [],
-  "Shoto Museum Open Call": [],
-  "Art公募": [],
-  "第四回公募展「食卓」": [],
-  "第六回公募展「鳥」-bird-": [],
-  "OM SYSTEM PLAZA 2026年2月～3月開催分": [],
-  "Chinese Culture in My Everyday Life / 我生活中的中華文化": [],
-  "Applications — Little Tokyo Zine Fest": [],
+  "マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)": [],
+  "Pola Art Foundation Grant": [],
   "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...": [],
   "New Power展 | ギャラリー自由が丘で作家デビュー": [],
   "Call for Entry: Showcase your art in Tokyo, Japan": [],
+  "HandMade In Japan Fes": [],
+  "Zushi Art Gallery": [],
+  "第9回 国際公募 東京アート工芸2026": [],
+  "2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)": [],
+  "令和8年度芸術文化振興基金及び文化芸術振興費補助金": [],
+  "2026年度 渡航・旅費等の助成（上期）": [],
+  "公益財団法人小笠原敏晶記念財団 2026年度 渡航・旅費等の助成（上期）": [],
+  "2026年度下期芸術文化助成（国内）": [],
+  "Mall Galleries Open Exhibitions": [],
+  "Youkobo Art Space": [],
+  "Japan Foundation Cultural Exchange Grant": [],
+  "True Beauty - 2026": [],
+  "shashasha": [],
+  "Fukuoka Art Book Fair": [],
+  "Zine & Book フェス in 神保町 (Jimbocho)": [],
+  "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ": [],
+  "Spiral": [],
+  "Design Festa": [],
+  "【公募】2026年度レジデンス・プログラム公募開始": [],
+  "The Container": [],
+  "Picaresque Gallery": [],
+  "Japan International Watercolor Institute Online Exhibition": [],
+  "ArtConnect Open Calls": [],
+  "Creative Space Hayashi": [],
+  "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)": [],
   "ERA Shimokitazawa": [],
-  "Watercolor Open Call Exhibition": [],
-  "2026 International Children and Youth Painting Competition Summer Season": [],
-  "Chinese Excellence in Children's Illustration 2026（卓越大师·中国插画大赛2026）": [],
-  "Chinese Excellence in Children's Illustration 2026 / 卓越大师·中国插画大赛2026": [],
-  "2026 Artist Projects (GCAC)": [],
+  "International Open Call": [],
+  "Koenji SANAGI": [],
   "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...": [],
   "現代アート販売の@Gallery Tagboat|@Gallery Tagboat": [],
-  "2026春季二科展「NIKA+nika/S20号」コンクール": [],
+  "2026 Artist Projects (GCAC)": [],
+  "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar": [],
+  "Clavis Publishing Submissions": [],
+  "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin": [],
+  "全國插畫徵集-2026台灣VC文化賞": [],
+  "Tokyo Arts and Space (TOKAS) Residency + Grant": [],
+  "submissions for the 2026 set film festival are now open": [],
   "National Watercolor Society International Open Exhibition": [],
   "» 21 Terrific Small Presses Open to Direct Submissions": [],
   "Japan Book Publishers Association - JBPA": [],
   "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]": [],
-  "全國插畫徵集-2026台灣VC文化賞": [],
-  "Koenji SANAGI": [],
+  "NADiff a/p/a/r/t": [],
+  "Applications — Little Tokyo Zine Fest": [],
+  "Art Submissions": [],
+  "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING": [],
   "Golden Key International Art Competition": [],
-  "日本透明水彩会 2026": [],
+  "ローズ・ローズ・ローズ": [],
+  "7月～12月企画展 参加者募集": [],
+  "Home - Printed Matter": [
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 4,
+      "country": "Japan",
+      "category": "fair_popup"
+    },
+    {
+      "title": "UTRECHT",
+      "score": 3,
+      "country": "",
+      "category": "bookstore_gallery"
+    },
+    {
+      "title": "Book Obscura",
+      "score": 3,
+      "country": "",
+      "category": "zine_print"
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "score": 3,
+      "country": "USA",
+      "category": "global_art_book_fair"
+    },
+    {
+      "title": "Aperture | Photography",
+      "score": 3,
+      "country": "Global",
+      "category": "global_photobook"
+    }
+  ],
   "SICF Fukuoka 2026": [],
-  "ArtConnect Open Calls": [],
-  "torch press": [],
+  "Royal Institute of Painters in Water Colours": [],
+  "Shangyuan International Residency Programme": [],
+  "ARTE VENT Press": [],
+  "OM SYSTEM PLAZA 2026年4月～6月開催分": [],
+  "第五回公募展「境界」-edge-": [],
+  "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery": [],
+  "3 Top Book Publishers in Tokyo in 2026": [],
+  "3 Top Book Publishers in Japan in 2026": [],
   "Idemitsu Art Award 2026": [],
   "PhotoVogue": [],
-  "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S": [],
-  "ARTE VENT Press": [],
-  "りんごろごろごろ": [],
-  "アートの交差展 vol.6 (Art Intersection Exhibition vol.6)": [],
-  "空色ターコイズ": [],
-  "絵画展（滋賀県愛荘町開催）": [],
-  "Youkobo Art Space": [],
+  "Cafe Gallery HATTIFNATT": [],
+  "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou": [],
+  "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod": [],
   "RAW TOKYO": [],
+  "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会": [],
+  "スクエア・ワールド2026": [],
+  "Top Artist Opportunities for 2026 | ArtConnect": [],
+  "Japan Watercolor Society Annual Exhibition": [],
   "Publishing / Artist Books — Battle Plan": [
     {
       "title": "LOCAL Gallery・Books",
@@ -1245,13 +1277,13 @@
       "category": "bookstore_gallery"
     },
     {
-      "title": "Books Ruhe",
+      "title": "Book Obscura",
       "score": 3,
       "country": "",
       "category": "zine_print"
     },
     {
-      "title": "Book Obscura",
+      "title": "Books Ruhe",
       "score": 3,
       "country": "",
       "category": "zine_print"
@@ -1275,38 +1307,9 @@
       "category": "zine_print"
     }
   ],
-  "Book Culture Club": [
-    {
-      "title": "Tokyo Art Book Fair",
-      "score": 3,
-      "country": "Japan",
-      "category": "fair_popup"
-    },
-    {
-      "title": "LOCAL Gallery・Books",
-      "score": 3,
-      "country": "",
-      "category": "zine_print"
-    },
-    {
-      "title": "Antenna Books",
-      "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    },
-    {
-      "title": "SPBS (Shibuya Publishing Booksellers)",
-      "score": 3,
-      "country": "Japan",
-      "category": "bookstore_gallery"
-    }
-  ],
-  "Komiyama Tokyo": [],
-  "マイクロ・アート・ワーケーション(MAW)2026": [],
-  "マイクロ・アート・ワーケーション（MAW）2026": [],
-  "Bunka-cho 新進芸術家海外研修制度": [],
-  "Pola Art Foundation Grant": [],
-  "マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)": [],
+  "CuratorSpace": [],
+  "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...": [],
+  "Art on Climate インターナショナル・イラストレーション・コンテスト 2026": [],
   "Zines / Artist Books — Battle Plan": [
     {
       "title": "UTRECHT",
@@ -1345,68 +1348,65 @@
       "category": "book_publishing"
     }
   ],
-  "3 Top Book Publishers in Tokyo in 2026": [],
-  "3 Top Book Publishers in Japan in 2026": [],
-  "Japan Watercolor Society Annual Exhibition": [],
-  "Art on Climate インターナショナル・イラストレーション・コンテスト 2026": [],
-  "2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)": [],
-  "令和8年度芸術文化振興基金及び文化芸術振興費補助金": [],
-  "Japan Foundation Cultural Exchange Grant": [],
-  "loneliness books": [],
-  "Top Artist Opportunities for 2026 | ArtConnect": [],
-  "2026年度 渡航・旅費等の助成（上期）": [],
-  "公益財団法人小笠原敏晶記念財団 2026年度 渡航・旅費等の助成（上期）": [],
-  "2026年度下期芸術文化助成（国内）": [],
-  "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"": [],
-  "shashasha": [],
-  "Dig A Hole Zines": [],
-  "2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)": [],
-  "【公募】2026年度レジデンス・プログラム公募開始": [],
-  "Tokyo Arts and Space (TOKAS) Residency + Grant": [],
-  "Mall Galleries Open Exhibitions": [],
-  "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...": [],
-  "ZINE FARM TOKYO": [],
   "Hayama Artist Residency": [],
+  "Royal Watercolour Society": [],
+  "Shoto Museum Open Call": [],
+  "Art公募": [],
+  "第四回公募展「食卓」": [],
+  "第六回公募展「鳥」-bird-": [],
+  "OM SYSTEM PLAZA 2026年2月～3月開催分": [],
   "AIR_J Open Calls": [],
-  "RawGround 2026": [],
-  "Clouds Art + Coffee": [],
-  "Royal Institute of Painters in Water Colours": [],
-  "7月～12月企画展 参加者募集": [],
-  "2026国际艺术大赏展": [],
-  "CuratorSpace": [],
-  "SCCP Guest Artist": [],
-  "NEW AIR 2026": [],
-  "MADO Café": [],
-  "2026 Asian Heritage Culture Art Show": [],
   "OPEN CALL for the Artist-In-Residence Program 2025/2026": [],
   "TOKAS レジデンシー 4つのレジデンス・プログラム公募": [],
   "Boji Hair+Gallery": [],
+  "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S": [],
+  "2026 Asian Heritage Culture Art Show": [],
+  "SCCP Guest Artist": [],
+  "りんごろごろごろ": [],
+  "アートの交差展 vol.6 (Art Intersection Exhibition vol.6)": [],
+  "空色ターコイズ": [],
+  "ILOVETOYS / neuprint — Chinese Illustration Feature": [],
   "2026 第37回 美浜美術展": [],
   "「公募－日本の絵画2026－」": [],
   "「公募－日本の絵画2026－」入賞・入選発表展": [],
+  "loneliness books": [],
+  "新世紀美術協会 神戸支部 油彩・水彩小作品展（Shin-Seiki Bijutsu Kyokai Kobe Branch Oil & Watercolor Small Works Exhibition）": [],
+  "Spring Flora and Fauna Art Exhibition 2026": [],
+  "Kyoto Art Center Residency": [],
+  "Dig A Hole Zines": [],
+  "滋賀県愛荘町絵画展": [],
+  "第92回旺玄展": [],
+  "上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)": [],
+  "Pastel Society Open Exhibition": [],
+  "Sunny Boy Books": [],
+  "秀彩会小品展2026": [],
+  "Japan in Acquarello 水彩画作品公募2026": [],
+  "水彩アートのみ展示イベント": [],
+  "ZINE FARM TOKYO": [],
+  "2026 OCAA Ladies Art Exhibition": [],
+  "Tokyo Open Call for Artists & Creatives": [],
+  "2026 International Children and Youth Painting Competition Summer Season": [],
+  "Watercolor Open Call Exhibition": [],
+  "NEW AIR 2026": [],
+  "RawGround 2026": [],
+  "Clouds Art + Coffee": [],
+  "MADO Café": [],
+  "日本透明水彩会 2026": [],
   "kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)": [],
   "5th Singapore Chinese Art Exhibition 2026": [],
   "南京插画艺术家展览 2026年3月": [],
-  "上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)": [],
-  "Kyoto Art Center Residency": [],
-  "Spring Flora and Fauna Art Exhibition 2026": [],
+  "2026 Kyoto Museum International Art Grand Exhibition": [],
+  "2026国际艺术大赏展": [],
   "Artist in Residence program in Paris 2026/2027": [],
   "The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)": [],
   "New York Fellowship": [],
-  "滋賀県愛荘町絵画展": [],
-  "第92回旺玄展": [],
-  "Royal Watercolour Society": [],
-  "Pastel Society Open Exhibition": [],
-  "秀彩会小品展2026": [],
-  "2026 OCAA Ladies Art Exhibition": [],
-  "2026 Kyoto Museum International Art Grand Exhibition": [],
-  "twelvebooks": [],
+  "Asian Cultural Council Fellowship": [],
   "NEW AIR": [],
   "Muninova Artist Award": [],
-  "Asian Cultural Council Fellowship": [],
+  "2026年度 第1回 スタートアップ助成": [],
   "【OPEN CALL】 Kyoto Art Center Artist In Residence Program 2026 Visual ...": [],
   "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...": [],
-  "2026年度 第1回 スタートアップ助成": [],
+  "twelvebooks": [],
   "2026「OPEN World Exhibition」": [],
   "スタートアップ助成 (Startup Grant)": []
 }
