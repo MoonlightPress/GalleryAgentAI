@@ -298,14 +298,12 @@ def _extract_english_name(name: str, name_zh: str = "") -> str:
 
 
 def _overall_score(opp: dict) -> float:
-    return float(
-        opp.get("truth_aligned_score")
-        or opp.get("overall_score")
-        or opp.get("differentiated_score")
-        or opp.get("watercolor_adjusted_score")
-        or opp.get("dna_adjusted_score")
-        or 0
-    )
+    for key in ("truth_aligned_score", "overall_score", "differentiated_score",
+                "watercolor_adjusted_score", "dna_adjusted_score"):
+        v = opp.get(key)
+        if v is not None:
+            return float(v)
+    return 0.0
 
 
 def _email_category(category: str) -> str:
@@ -575,6 +573,8 @@ def by_display_score(cards: list) -> list:
 def load_opportunities() -> list:
     global _OPP_CACHE, _OPP_CACHE_MTIME
     path = DEPLOY_DIR / "compact_opportunities.json"
+    if not path.exists():
+        return []
     mtime = path.stat().st_mtime
     if _OPP_CACHE is None or mtime != _OPP_CACHE_MTIME:
         raw = json.loads(path.read_text(encoding="utf-8"))
@@ -632,7 +632,7 @@ def bucket(items: list) -> dict:
         section = [
             x for x in scored
             if x.get("category") in cats and _opp_id(x) not in used
-            and x.get("exclusive_primary_bucket") not in {"stretch_targets"}
+            and x.get("exclusive_primary_bucket") not in {"stretch_targets", "research_needed"}
         ]
         used.update(_opp_id(x) for x in section)
         buckets[key] = by_display_score([shape_card(x) for x in section])
@@ -874,6 +874,7 @@ def add_contact(entry: ContactEntry):
         data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
         contacts = data.get("contacts", []) if isinstance(data, dict) else data
     else:
+        data = []
         contacts = []
     contacts.append({
         "name":           entry.name,
