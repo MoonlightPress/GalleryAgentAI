@@ -1350,10 +1350,22 @@ function CrmContactCard({ contact: c, onUpdate }) {
 
       {expanded && (
         <div className="crm-card-expanded">
+          {c.crm_analysis?.next_action && (
+            <div className="crm-expanded-row crm-expanded-row--action">
+              <span className="crm-expanded-label crm-expanded-label--action">Next action</span>
+              <p className="crm-expanded-text crm-expanded-text--action">{c.crm_analysis.next_action}</p>
+            </div>
+          )}
           {c.why_relevant && (
             <div className="crm-expanded-row">
               <span className="crm-expanded-label">Why relevant</span>
               <p className="crm-expanded-text">{c.why_relevant}</p>
+            </div>
+          )}
+          {c.crm_analysis?.risk_notes && (
+            <div className="crm-expanded-row">
+              <span className="crm-expanded-label">Watch out</span>
+              <p className="crm-expanded-text crm-expanded-text--risk">{c.crm_analysis.risk_notes}</p>
             </div>
           )}
           {c.notes && (

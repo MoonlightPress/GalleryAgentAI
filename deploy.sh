@@ -69,7 +69,7 @@ REMOTE
 ssh $SSH_OPTS "$SERVER" "mkdir -p /tmp/mochi-app-stage"
 scp $SSH_OPTS -r "$OUT/app/." "$SERVER:/tmp/mochi-app-stage/"
 ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
-  sudo rsync -a /tmp/mochi-app-stage/ /opt/mochi/
+  sudo rsync -a --checksum /tmp/mochi-app-stage/ /opt/mochi/
   sudo chown -R ubuntu:ubuntu /opt/mochi/api.py /opt/mochi/deploy_data /opt/mochi/memory
   sudo systemctl restart mochi-api
 REMOTE

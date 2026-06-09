@@ -1438,6 +1438,26 @@
   margin: 0;
 }
 
+.crm-expanded-row--action {
+  background: #f9f3e8;
+  border-left: 3px solid #c8a86a;
+  padding: 7px 10px;
+  border-radius: 0 4px 4px 0;
+}
+
+.crm-expanded-label--action {
+  color: #9a7a3a;
+}
+
+.crm-expanded-text--action {
+  color: #5a3e10;
+  font-style: italic;
+}
+
+.crm-expanded-text--risk {
+  color: #8a4a2a;
+}
+
 .crm-page-link {
   font-family: Georgia, serif;
   font-size: 12px;
