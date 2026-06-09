@@ -182,6 +182,40 @@ def _opp_name(opp: dict) -> str:
     return opp.get("title") or opp.get("name") or ""
 
 
+_CJK_RE      = re.compile(r"[一-鿿ぁ-んァ-ン々〆〇ー]")
+_PAREN_EN_RE = re.compile(r"[（(]([A-Za-z0-9][^)）]{2,})[)）]")
+_LEAD_LAT_RE = re.compile(r"^([A-Za-z0-9][A-Za-z0-9 \-:/.&+@!,'#|_]{1,})")
+
+
+def _extract_english_name(name: str, name_zh: str = "") -> str:
+    """Return a Latin-script name for display in English UI, or '' if none needed."""
+    if not name or not _CJK_RE.search(name):
+        return ""  # already Latin — original is fine
+    # 1. Parenthetical English in name: 'XX（English Title）'
+    m = _PAREN_EN_RE.search(name)
+    if m and not _CJK_RE.search(m.group(1)) and len(m.group(1).strip()) >= 3:
+        return m.group(1).strip()
+    # 2. Leading Latin prefix in name: 'TOKAS レジデンシー' → 'TOKAS'
+    lead = _LEAD_LAT_RE.match(name)
+    if lead:
+        cand = lead.group(1).strip()
+        if len(cand) >= 3 and not _CJK_RE.search(cand):
+            return cand
+    # 3. From name_zh
+    if name_zh:
+        m2 = _PAREN_EN_RE.search(name_zh)
+        if m2 and not _CJK_RE.search(m2.group(1)) and len(m2.group(1).strip()) >= 3:
+            return m2.group(1).strip()
+        if not _CJK_RE.search(name_zh) and name_zh.strip():
+            return name_zh.strip()
+        lead2 = _LEAD_LAT_RE.match(name_zh)
+        if lead2:
+            cand2 = lead2.group(1).strip()
+            if len(cand2) >= 4 and not _CJK_RE.search(cand2):
+                return cand2
+    return ""
+
+
 def _overall_score(opp: dict) -> float:
     return float(
         opp.get("overall_score")
@@ -419,6 +453,7 @@ def shape_card(opp: dict) -> dict:
         "why_it_fits":     why,
         "why_it_fits_zh":  opp.get("why_it_fits_zh", ""),
         "why_it_fits_ja":  opp.get("why_it_fits_ja", ""),
+        "name_en":         _extract_english_name(name, opp.get("name_zh", "")),
         "name_zh":         opp.get("name_zh", ""),
         "name_ja":         opp.get("name_ja", ""),
         "next_action":     opp.get("quick_action", ""),

@@ -75,7 +75,7 @@ REMOTE
 echo ""
 echo "==> Verifying..."
 sleep 2
-HTTP=$(ssh $SSH_OPTS "$SERVER" "curl -s -o /dev/null -w '%{http_code}' http://localhost/")
+HTTP=$(ssh $SSH_OPTS "$SERVER" "curl -sk -o /dev/null -w '%{http_code}' https://localhost/")
 API=$(ssh $SSH_OPTS "$SERVER" "curl -s -o /dev/null -w '%{http_code}' http://localhost:8001/api/opportunities")
 echo "  Frontend: $HTTP"
 echo "  API:      $API"

@@ -95,6 +95,7 @@ function PressCard({ opp }) {
   const loc = (field) => {
     if (lang === 'zh' && opp[field + '_zh']) return opp[field + '_zh']
     if (lang === 'ja' && opp[field + '_ja']) return opp[field + '_ja']
+    if (lang === 'en' && opp[field + '_en']) return opp[field + '_en']
     return opp[field]
   }
 
