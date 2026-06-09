@@ -3,7 +3,7 @@ medium_confirmation_gate.py
 
 Whitelist gate: an opportunity only qualifies if its text explicitly
 confirms one of the approved visual mediums. Everything else routes
-to needs_research so it can be manually verified or annotated.
+to research_needed so it can be manually verified or annotated.
 
 NEVER deletes records. Rerouting is reversible — pre_gate_bucket
 preserves the original bucket so re-running with corrected data
@@ -11,6 +11,9 @@ restores the original routing.
 
 Insert in pipeline: after source_medium_classifier.py (native_medium
 already set), before any scoring engine.
+
+NOTE: uses 'research_needed' (not 'needs_research') to match BUCKET_ORDER
+in exclusive_strategy_bucket_engine.py.
 """
 import json
 import os
@@ -129,7 +132,7 @@ def main():
             opp.pop('confirmation_gate_note', None)  # clear stale note if re-run
             # Restore original bucket if this entry was previously rerouted by the gate
             prior = opp.pop('pre_gate_bucket', None)
-            if prior is not None and opp.get('exclusive_primary_bucket') == 'needs_research':
+            if prior is not None and opp.get('exclusive_primary_bucket') == 'research_needed':
                 opp['exclusive_primary_bucket'] = prior
             confirmed += 1
         else:
@@ -148,7 +151,7 @@ def main():
                 # Preserve original bucket so re-runs with richer data can restore it
                 if 'pre_gate_bucket' not in opp:
                     opp['pre_gate_bucket'] = bucket
-                opp['exclusive_primary_bucket'] = 'needs_research'
+                opp['exclusive_primary_bucket'] = 'research_needed'
                 rerouted += 1
                 name = opp.get('title') or opp.get('name') or '?'
                 rerouted_lines.append(
@@ -169,13 +172,13 @@ def main():
         "watercolor, painting, works on paper, illustration, visual art, fine art,",
         "printmaking, drawing, gouache, artist book, art book, mixed media, zine —",
         "found in accepted_media, name, one_sentence, why_this_fits_short, or other",
-        "text fields. Failures route to needs_research; bucket is preserved in",
+        "text fields. Failures route to research_needed; bucket is preserved in",
         "pre_gate_bucket for reversal if richer data is added later.",
         "",
         f"## Summary",
         "",
         f"- **Confirmed:** {confirmed}",
-        f"- **Rerouted to needs_research:** {rerouted}",
+        f"- **Rerouted to research_needed:** {rerouted}",
         f"- **Skipped (already reject/low_priority):** {skipped}",
         f"- **Total:** {len(opps)}",
         "",

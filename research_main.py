@@ -33,11 +33,11 @@ def load_json_file(path, fallback):
 verified_galleries = load_json_file(
     "memory/verified_galleries.json",
     []
+)
 
 artist_preferences = load_json_file(
     "memory/artist_preferences.json",
     {}
-
 )
 
 
