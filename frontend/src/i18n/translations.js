@@ -28,7 +28,10 @@ const zh = {
   'status.days':             ['一','二','三','四','五','六','日'],
 
   // ── Hero (Mochi page) ────────────────────────────────────────────────────
-  'hero.greeting':           '下午好，',
+  'hero.greeting':           '你好，',
+  'hero.greeting.morning':   '早上好，',
+  'hero.greeting.afternoon': '下午好，',
+  'hero.greeting.evening':   '晚上好，',
   'hero.sub':                '🌱 今天也要成长。',
   'hero.focusTitle':         '今日重点',
   'hero.focus.0':            '探索3个新机会',
@@ -755,7 +758,8 @@ const zh = {
   // ── Deadline calendar ────────────────────────────────────────────────────
   'cal.title':       '截止日期 — 未来30天',
   'cal.sub':         '共{n}个机会，分布在{dates}个日期',
-  'cal.noDeadlines': '未来30天内没有明确截止日期的机会。',
+  'cal.loading':     '猫饼正在查看截止日期…',
+  'cal.noDeadlines': '未来30天内没有明确截止日期。机会仍在，但截止日期待核实。',
   'cal.today':       '今天',
   'cal.tomorrow':    '明天',
   'cal.daysLeft':    '{n}天后',
@@ -838,6 +842,9 @@ const ja = {
 
   // ── Hero ─────────────────────────────────────────────────────────────────
   'hero.greeting':           'こんにちは、',
+  'hero.greeting.morning':   'おはようございます、',
+  'hero.greeting.afternoon': 'こんにちは、',
+  'hero.greeting.evening':   'こんばんは、',
   'hero.sub':                '🌱 今日も成長しよう。',
   'hero.focusTitle':         '今日のフォーカス',
   'hero.focus.0':            '新しい機会を3つ探す',
@@ -1564,7 +1571,8 @@ const ja = {
   // ── Deadline calendar ────────────────────────────────────────────────────
   'cal.title':       '締切カレンダー — 30日以内',
   'cal.sub':         '{n}件、{dates}日に分散',
-  'cal.noDeadlines': '今後30日間に明確な締切のある機会はありません。',
+  'cal.loading':     'モチが締切を確認しています…',
+  'cal.noDeadlines': '今後30日間に明確な締切はありません。機会はありますが、締切の確認が必要です。',
   'cal.today':       '今日',
   'cal.tomorrow':    '明日',
   'cal.daysLeft':    '{n}日後',
@@ -1643,7 +1651,10 @@ const en = {
   'status.calMonth':         'June 2026',
   'status.days':             ['M','T','W','T','F','S','S'],
 
-  'hero.greeting':           'Good afternoon,',
+  'hero.greeting':           'Hello,',
+  'hero.greeting.morning':   'Good morning,',
+  'hero.greeting.afternoon': 'Good afternoon,',
+  'hero.greeting.evening':   'Good evening,',
   'hero.sub':                '🌱 let\'s grow today.',
   'hero.focusTitle':         'Today\'s Focus',
   'hero.focus.0':            'Explore 3 new opportunities',
@@ -2365,7 +2376,8 @@ const en = {
   // ── Deadline calendar ────────────────────────────────────────────────────
   'cal.title':       'Deadlines — Next 30 Days',
   'cal.sub':         '{n} opportunities across {dates} dates',
-  'cal.noDeadlines': 'No upcoming deadlines in the next 30 days.',
+  'cal.loading':     'Mochi is checking the deadlines…',
+  'cal.noDeadlines': 'No confirmed deadlines in the next 30 days. Opportunities are there — deadlines just need verifying.',
   'cal.today':       'Today',
   'cal.tomorrow':    'Tomorrow',
   'cal.daysLeft':    'in {n} days',

@@ -1171,7 +1171,7 @@ def get_saffron():
                 "detail": "Target: an intimate Tokyo gallery with a track record of solo shows by international artists at similar career stages. Youkobo Art Space, Gallery Denn, or a bookshop gallery context are realistic first targets.",
             },
         ],
-        "blocking_now": "Only 1 confirmed group show in Japan. Most Tokyo galleries consider 2–3 group exhibition credits a minimum before a solo conversation. The next group show is the highest-leverage move right now.",
+        "blocking_now": "Only 1 confirmed group show in Japan. Most Tokyo galleries expect 3–4 group exhibition credits before a solo conversation — so 2–3 more group shows are needed. The next group show is the highest-leverage move right now.",
         "next_move": "Apply for a second group show at a Tokyo artist-run space. 3331 Arts Chiyoda open calls, Design Festa Gallery curated shows, and Gallery IYN open submissions are the realistic near-term entries. Any of these, confirmed and attended, advances the pathway.",
     }
 

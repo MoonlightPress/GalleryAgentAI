@@ -27,7 +27,11 @@ export default function SectionCards() {
             <div className="card-body">
               <h3 className="card-title">{t(`${card.prefix}.title`)}</h3>
               <p className="card-desc">{t(`${card.prefix}.desc`)}</p>
-              <a href="#" className="card-link">{t(`${card.prefix}.link`)} →</a>
+              <button
+                className="card-link"
+                onClick={e => e.preventDefault()}
+                type="button"
+              >{t(`${card.prefix}.link`)} →</button>
             </div>
           </div>
         ))}

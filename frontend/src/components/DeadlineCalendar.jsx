@@ -64,7 +64,12 @@ export default function DeadlineCalendar() {
       .catch(() => {})
   }, [])
 
-  if (!data) return null
+  if (!data) return (
+    <div className="cal-empty">
+      <span className="cal-empty-icon">🐾</span>
+      <p>{t('cal.loading')}</p>
+    </div>
+  )
 
   const now = new Date(); now.setHours(0, 0, 0, 0)
   const limit = new Date(now); limit.setDate(limit.getDate() + 30)

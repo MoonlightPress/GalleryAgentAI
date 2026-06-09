@@ -72,6 +72,13 @@
   font-style: italic;
   margin-top: 4px;
   transition: color 0.15s;
+  /* button reset — ensures it looks identical to the former <a> link */
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
 }
 
 .card-link:hover {
