@@ -448,10 +448,10 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   useEffect(() => { setGoals(data || []) }, [data])
 
   function addGoal() {
-    const t = input.trim()
-    if (!t) return
+    const trimmed = input.trim()
+    if (!trimmed) return
     const isFirst = goals.length === 0
-    const next = [...goals, { id: Date.now(), text: t, done: false }]
+    const next = [...goals, { id: Date.now(), text: trimmed, done: false }]
     setGoals(next); setInput('')
     if (isFirst) setShownFirstNote(true)
     onSave(next); flash()
@@ -562,7 +562,7 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
     setLess(pr.surface_less  || [])
   }, [data])
 
-  const toggleTier = n   => setTiers(ts => ts.includes(n) ? ts.filter(t => t !== n) : [...ts, n].sort())
+  const toggleTier = n   => setTiers(ts => ts.includes(n) ? ts.filter(tier => tier !== n) : [...ts, n].sort())
   const toggleAvoid = id => setAvoid(av => av.includes(id) ? av.filter(a => a !== id) : [...av, id])
   const toggleGeo   = id => setGeo(gs => gs.includes(id) ? gs.filter(g => g !== id) : [...gs, id])
   const toggleMore  = id => { setMore(ms => ms.includes(id) ? ms.filter(m => m !== id) : [...ms, id]); setLess(ls => ls.filter(l => l !== id)) }
@@ -587,10 +587,10 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
       <div className="pp-group">
         <div className="pp-group-label">{t('pp.group.activeTiers')}</div>
         <p className="pp-group-hint">{t('pp.group.tiersHint')}</p>
-        {TIERS.map(t => (
-          <label key={t.n} className="pp-check-row">
-            <input type="checkbox" className="pp-check" checked={tiers.includes(t.n)} onChange={() => toggleTier(t.n)} />
-            <span className="pp-check-label"><strong>{t.label}</strong><span className="pp-check-desc">{t.desc}</span></span>
+        {TIERS.map(tier => (
+          <label key={tier.n} className="pp-check-row">
+            <input type="checkbox" className="pp-check" checked={tiers.includes(tier.n)} onChange={() => toggleTier(tier.n)} />
+            <span className="pp-check-label"><strong>{tier.label}</strong><span className="pp-check-desc">{tier.desc}</span></span>
           </label>
         ))}
       </div>
@@ -1316,7 +1316,11 @@ function CrmContactCard({ contact: c, onUpdate }) {
         <div className="crm-card-left">
           <span className="crm-card-name">{c.name}</span>
           {c.type && (
-            <span className="crm-type-badge">{CRM_TYPE_LABELS[c.type] || c.type}</span>
+            <span className="crm-type-badge">
+              {t(`pp.venueType.${c.type}`) !== `pp.venueType.${c.type}`
+                ? t(`pp.venueType.${c.type}`)
+                : (CRM_TYPE_LABELS[c.type] || c.type)}
+            </span>
           )}
         </div>
         <div className="crm-card-right">
@@ -1324,8 +1328,8 @@ function CrmContactCard({ contact: c, onUpdate }) {
             className="crm-status-pill"
             style={{ background: meta.bg, color: meta.text, border: `1px solid ${meta.border}` }}
           >
-            {t('pp.crm.statusLabel.' + c.status) !== ('pp.crm.statusLabel.' + c.status)
-              ? t('pp.crm.statusLabel.' + c.status)
+            {t(`pp.crm.statusLabel.${c.status}`) !== `pp.crm.statusLabel.${c.status}`
+              ? t(`pp.crm.statusLabel.${c.status}`)
               : meta.label}
           </span>
           {c.city && <span className="crm-city">{c.city}</span>}

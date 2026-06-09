@@ -56,7 +56,7 @@ function TodayCard({ card, role, isOpen, onDetails }) {
     return card[field]
   }
   const cfg = ROLE_CONFIG[role] || ROLE_CONFIG.high_impact
-  const hasDeadline = card.deadline && !['tbd','unknown','check site','n/a'].some(s => (card.deadline || '').toLowerCase().includes(s))
+  const hasDeadline = card.deadline && !['tbd','unknown','check site','n/a','未定','随時','要確認','待定'].some(s => (card.deadline || '').toLowerCase().includes(s.toLowerCase()))
 
   return (
     <div
@@ -133,7 +133,14 @@ export default function TodaysFocus() {
       .catch(() => setLoading(false))
   }, [])
 
-  if (loading) return null
+  if (loading) return (
+    <section className="tf-section">
+      <div className="tf-header">
+        <h2 className="tf-section-title">{t('tf.title')}</h2>
+        <p className="tf-section-sub">{t('opps.loading')}</p>
+      </div>
+    </section>
+  )
   if (!today || (!today.quick_win && !today.high_impact && !today.stretch_goal)) {
     return (
       <section className="tf-section">

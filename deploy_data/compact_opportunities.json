@@ -42897,7 +42897,7 @@
       "needs_research",
       "low_priority"
     ],
-    "primary_bucket": "career_changing",
+    "primary_bucket": "publication_targets",
     "differentiated_score": 6.56,
     "curator_personality_scores": {
       "quiet_poetic": 0,
@@ -42909,7 +42909,7 @@
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "japan_book_ecosystem",
+    "exclusive_primary_bucket": "publication_targets",
     "contact_email": "info@shashasha.jp",
     "pre_final_guard_score": 5.1,
     "final_score_guard_note": "Rescored 5.1 → 5.3 (verification_points=1, composite=7.22)",
