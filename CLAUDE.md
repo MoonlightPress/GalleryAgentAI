@@ -82,6 +82,16 @@ All state is JSON files under `memory/`. No database. Key files:
 - `memory/artist_master_profile.json` — structured artist profile
 - `memory/verified/` — quality-verified subset
 
+### The Data Patch Rule
+
+**Any manual fix to a JSON data file must be accompanied by a corresponding engine rule that would produce the same fix automatically on a fresh pipeline run. No exceptions.** If a data patch cannot be expressed as an engine rule, document why in `reports/patch_exceptions.md`. The goal is that **deleting all JSON files and running the pipeline from scratch should produce correct results.**
+
+Before hand-editing a JSON file, determine whether the pipeline regenerates it:
+- **Pipeline-generated (patches get overwritten — a rule is required):** `deploy_data/compact_opportunities.json`, `memory/opportunities.json`, `memory/enriched_opportunities.json`, the generated `Memory/*.json` (e.g. `career_strategy_report.json`, `exclusive_strategy_buckets.json`) and `reports/*.md`.
+- **Source / app-state (hand-editing is legitimate — no rule needed):** `memory/artist_master_profile.json`, `memory/peppercorn_profile.json`, `memory/contact_memory.json`, `memory/submission_log.json`, `memory/exhibition_log.json`. But any *derived* field computed from these still needs a rule (don't patch the derived value — fix the deriving engine).
+
+See `reports/algorithm_vs_patch_audit.md` for the worked classification of recent commits and the known structural gap (the `exclusive_primary_bucket` field on compact has no deterministic engine owner).
+
 ### Key Directories
 
 - `engines/` — ~60 specialized reasoning engines; many pipeline steps live here

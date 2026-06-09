@@ -853,12 +853,38 @@ class ContactEntry(BaseModel):
     last_contacted: str = ""
 
 
+# Legacy CRM data used A/B/C priority labels; the UI and engines now use
+# high/medium/low. Normalising at read time makes the served data correct
+# regardless of which historical seed wrote it — an engine rule, so the fix
+# survives even if old A/B/C labels reappear in the source JSON.
+_PRIORITY_ALIASES = {"a": "high", "b": "medium", "c": "low",
+                     "high": "high", "medium": "medium", "low": "low"}
+
+
+def _normalize_priority(value):
+    if not isinstance(value, str):
+        return value
+    return _PRIORITY_ALIASES.get(value.strip().lower(), value)
+
+
+def _normalize_contact_priorities(contacts: list) -> list:
+    for c in contacts:
+        if isinstance(c, dict):
+            if "priority" in c:
+                c["priority"] = _normalize_priority(c.get("priority"))
+            ca = c.get("crm_analysis")
+            if isinstance(ca, dict) and "priority" in ca:
+                ca["priority"] = _normalize_priority(ca.get("priority"))
+    return contacts
+
+
 @app.get("/api/contacts")
 def get_contacts():
     if not CONTACTS_PATH.exists():
         return []
     data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
     contacts = data.get("contacts", []) if isinstance(data, dict) else data
+    contacts = _normalize_contact_priorities(contacts)
     # Sort: most-active statuses first, then alphabetically within status
     STATUS_ORDER = {
         "in_contact": 0, "sent_inquiry": 1, "ready_to_review": 2,
@@ -1610,6 +1636,7 @@ def get_saffron():
     crm_path = DATA_DIR / "contact_memory.json"
     crm_raw  = json.loads(crm_path.read_text(encoding="utf-8")) if crm_path.exists() else {}
     crm_list = crm_raw.get("contacts", []) if isinstance(crm_raw, dict) else crm_raw
+    crm_list = _normalize_contact_priorities(crm_list)
 
     venue_tracker = {
         "tracked": [
