@@ -567,6 +567,26 @@
   margin: 4px 0 0;
 }
 
+/* ── Peppercorn answer bubbles ──────────────────────────────────────────── */
+
+.sf-answer-bubble {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #4a3520;
+  line-height: 1.55;
+  background: #fdf8f0;
+  border: 1px solid #e0cba0;
+  border-left: 3px solid #b89060;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-top: 4px;
+}
+
+.sf-answer-bubble--geo {
+  font-size: 13.5px;
+  padding: 12px 14px;
+}
+
 /* ── Career benchmarks ──────────────────────────────────────────────────── */
 
 .sf-benchmark-grid {

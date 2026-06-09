@@ -747,6 +747,11 @@ def lookup_contact(name: str):
 
 @app.get("/api/saffron")
 def get_saffron():
+    # ── Peppercorn answers (live data from artist) ────────────────────────────
+    _pp_path = DATA_DIR / "peppercorn_profile.json"
+    _pp = json.loads(_pp_path.read_text(encoding="utf-8")) if _pp_path.exists() else {}
+    _answers = _pp.get("saffron_answers") or {}
+
     # ── Career position (confirmed research, 2026-06-02) ──────────────────────
     career_position = {
         "exhibitions": [
@@ -1640,6 +1645,27 @@ def get_saffron():
         ),
     }
 
+    # ── Patch Instagram strategy with Peppercorn answers ─────────────────────
+    _posting = _answers.get("posting_frequency")
+    if _posting:
+        # Remove the "Posting frequency" item from missing list (answered)
+        instagram_strategy["missing"] = [
+            m for m in instagram_strategy.get("missing", [])
+            if "posting" not in m.get("field", "").lower()
+        ]
+        instagram_strategy["known"]["posting_frequency"] = _posting
+
+    _goals_answer = _answers.get("new_publication_planned")
+    if _goals_answer:
+        instagram_strategy["known"]["posting_goals"] = _goals_answer
+
+    # ── Patch audience geography with Peppercorn answers ─────────────────────
+    _geo_answer = _answers.get("audience_geography")
+    if _geo_answer:
+        audience_geography["available"] = True
+        audience_geography["artist_report"] = _geo_answer
+        audience_geography["reason"] = None  # no longer unknown
+
     return {
         "career_position":       career_position,
         "market_landscape":      market_landscape,
@@ -1647,6 +1673,7 @@ def get_saffron():
         "pathway":               pathway,
         "instagram_strategy":    instagram_strategy,
         "audience_geography":    audience_geography,
+        "peppercorn_answers":    _answers,
         "career_benchmarks":     career_benchmarks,
         "seasonal_calendar":     seasonal_calendar,
         "press_features":        press_features,

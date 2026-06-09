@@ -232,6 +232,8 @@ function InstagramStrategy({ data, t }) {
   const twN = parseFollowers(tw?.followers)
   const igN = parseFollowers(ig?.followers)
   const ratio = twN && igN ? Math.round(twN / igN) : null
+  const postingFreq = data.known?.posting_frequency
+  const postingGoals = data.known?.posting_goals
 
   return (
     <SectionShell
@@ -261,13 +263,30 @@ function InstagramStrategy({ data, t }) {
           <div className="sf-row-title" style={{ marginBottom: 6 }}>{data.known.diary_practice}</div>
           <div className="sf-row-meta">{data.known.content_type}</div>
 
-          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('pp.ig.missing')}</div>
-          {data.missing.map((m, i) => (
-            <div key={i} className="sf-missing-row">
-              <MissingTag label={m.field} t={t} />
-              <p className="sf-missing-reason">{m.reason}</p>
+          {postingFreq && (
+            <div className="sf-peppercorn-answer" style={{ marginTop: 16 }}>
+              <div className="sf-block-label">{t('sf.label.postingFreq')}</div>
+              <div className="sf-answer-bubble">{postingFreq}</div>
             </div>
-          ))}
+          )}
+          {postingGoals && (
+            <div className="sf-peppercorn-answer" style={{ marginTop: 12 }}>
+              <div className="sf-block-label">{t('sf.label.postingGoals')}</div>
+              <div className="sf-answer-bubble">{postingGoals}</div>
+            </div>
+          )}
+
+          {data.missing?.length > 0 && (
+            <>
+              <div className="sf-block-label" style={{ marginTop: 24 }}>{t('pp.ig.missing')}</div>
+              {data.missing.map((m, i) => (
+                <div key={i} className="sf-missing-row">
+                  <MissingTag label={m.field} t={t} />
+                  <p className="sf-missing-reason">{m.reason}</p>
+                </div>
+              ))}
+            </>
+          )}
         </div>
       </div>
     </SectionShell>
@@ -279,17 +298,28 @@ function AudienceGeography({ data, t }) {
     <SectionShell
       title={t('sf.sec.audienceGeo')}
       subtitle={t('sf.sub.audienceGeo')}
-      summary={t('sf.sum.audienceGeo')}
+      summary={data.available ? t('sf.sum.audienceGeo.live') : t('sf.sum.audienceGeo')}
     >
-      <EmptyState message={data.reason} />
-      <div className="sf-info-block">
-        <div className="sf-block-label">{t('sf.label.whyMatters')}</div>
-        <p className="sf-info-text">{data.why_it_matters}</p>
-        <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.hypothesis')}</div>
-        <p className="sf-info-text sf-hypothesis">{data.hypothesis}</p>
-        <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.askPepper')}</div>
-        <p className="sf-info-text">{data.what_peppercorn_should_ask}</p>
-      </div>
+      {data.available && data.artist_report ? (
+        <div className="sf-info-block">
+          <div className="sf-block-label">{t('sf.label.artistReport')}</div>
+          <div className="sf-answer-bubble sf-answer-bubble--geo">{data.artist_report}</div>
+          <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.whyMatters')}</div>
+          <p className="sf-info-text">{data.why_it_matters}</p>
+        </div>
+      ) : (
+        <>
+          <EmptyState message={data.reason} />
+          <div className="sf-info-block">
+            <div className="sf-block-label">{t('sf.label.whyMatters')}</div>
+            <p className="sf-info-text">{data.why_it_matters}</p>
+            <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.hypothesis')}</div>
+            <p className="sf-info-text sf-hypothesis">{data.hypothesis}</p>
+            <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.askPepper')}</div>
+            <p className="sf-info-text">{data.what_peppercorn_should_ask}</p>
+          </div>
+        </>
+      )}
     </SectionShell>
   )
 }
