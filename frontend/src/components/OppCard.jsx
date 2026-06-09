@@ -168,6 +168,11 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
               {t('card.deadlinePast')}
             </span>
           )}
+          {opp.closed_this_cycle && (
+            <span className="opp-pill opp-pill-closed-cycle" title={t('card.closedThisCycle.title')}>
+              {t('card.closedThisCycle')}
+            </span>
+          )}
         </div>
 
         {/* Description */}

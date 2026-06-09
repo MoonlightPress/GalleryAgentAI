@@ -111,6 +111,13 @@
   font-style: italic;
   opacity: 0.85;
 }
+.opp-pill-closed-cycle {
+  background: #f0ead8;
+  color: #7a6540;
+  border-color: #d4c49a;
+  font-style: italic;
+  opacity: 0.85;
+}
 .opp-effort-easy   { background: #d4eddb; color: #2d6a4f; }
 .opp-effort-medium { background: #fef3d0; color: #92660a; }
 .opp-effort-heavy  { background: #fde8e8; color: #b94040; }

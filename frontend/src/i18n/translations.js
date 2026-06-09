@@ -77,8 +77,10 @@ const zh = {
   'card.feedback.maybe':     '以后考虑',
   'card.feedback.notForMe':  '不合适',
   'card.toast.logged':       '✓ 已加入提交记录',
-  'card.deadlinePast':       '截止日已过',
-  'card.deadlinePast.title': '此机会的截止日期已经过去',
+  'card.deadlinePast':         '截止日已过',
+  'card.deadlinePast.title':   '此机会的截止日期已经过去',
+  'card.closedThisCycle':      '本期已截止',
+  'card.closedThisCycle.title':'本轮提交已截止。该活动可能每年重新开放。',
 
   // ── Effort labels ─────────────────────────────────────────────────────────
   'card.effort.low':         '低门槛',
@@ -942,8 +944,10 @@ const ja = {
   'card.feedback.applied':   '申請済み',
   'card.feedback.maybe':     '後で考える',
   'card.feedback.notForMe':  '合わない',
-  'card.deadlinePast':       '締切済み',
-  'card.deadlinePast.title': 'この機会の締切は過ぎています',
+  'card.deadlinePast':         '締切済み',
+  'card.deadlinePast.title':   'この機会の締切は過ぎています',
+  'card.closedThisCycle':      '今期締切済み',
+  'card.closedThisCycle.title':'今期の応募は締め切られています。来期に再開の可能性があります。',
   'card.toast.logged':       '✓ 提出記録に追加',
 
   // ── Effort labels ─────────────────────────────────────────────────────────
@@ -1750,8 +1754,10 @@ const en = {
   'card.feedback.applied':   'Applied',
   'card.feedback.maybe':     'Maybe Later',
   'card.feedback.notForMe':  'Not for Me',
-  'card.deadlinePast':       'Deadline passed',
-  'card.deadlinePast.title': 'This deadline has passed',
+  'card.deadlinePast':         'Deadline passed',
+  'card.deadlinePast.title':   'This deadline has passed',
+  'card.closedThisCycle':      'Closed this cycle',
+  'card.closedThisCycle.title':'Submissions for this cycle are closed. The event may reopen annually.',
   'card.toast.logged':       '✓ added to submission log',
 
   // ── Effort labels ─────────────────────────────────────────────────────────

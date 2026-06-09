@@ -231,7 +231,7 @@ def _real_submission_page(opp: dict) -> bool:
 
 
 def _ibm_eligible(opp: dict) -> bool:
-    if opp.get("status") == "permanently_closed":
+    if opp.get("status") in ("permanently_closed", "closed_this_cycle"):
         return False
     if _deadline_past(opp):
         return False
@@ -544,6 +544,7 @@ def shape_card(opp: dict) -> dict:
         "prerequisites":   opp.get("prerequisites", []) or [],
         "native_medium":   opp.get("native_medium", "unknown"),
         "deadline_past":   _deadline_past(opp),
+        "closed_this_cycle": opp.get("status") == "closed_this_cycle",
         # Email drafts — prefer per-entry drafts from data, fall back to templates
         "email_zh": opp.get("email_zh") or email_zh(org, category),
         "email_ja": opp.get("email_ja") or email_ja(org, category),
