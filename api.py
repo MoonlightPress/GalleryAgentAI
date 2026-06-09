@@ -467,6 +467,7 @@ def shape_card(opp: dict) -> dict:
         "bullets_zh":      opp.get("three_bullets_zh", []) or [],
         "bullets_ja":      opp.get("three_bullets_ja", []) or [],
         "checklist":       _build_checklist(opp),
+        "native_medium":   opp.get("native_medium", "unknown"),
         # Email drafts — prefer per-entry drafts from data, fall back to templates
         "email_zh": opp.get("email_zh") or email_zh(org, category),
         "email_ja": opp.get("email_ja") or email_ja(org, category),
@@ -1810,6 +1811,126 @@ def get_saffron():
         ),
     }
 
+    # ── Market Stats (computed from full compact_opportunities.json dataset) ──
+    _all_opps_path = DEPLOY_DIR / "compact_opportunities.json"
+    _all_opps_raw  = json.loads(_all_opps_path.read_text(encoding="utf-8")) if _all_opps_path.exists() else []
+    _all_opps      = _all_opps_raw if isinstance(_all_opps_raw, list) else _all_opps_raw.get("items", [])
+
+    _MS_CAT_GROUPS = {
+        "Open Calls & Fairs": {
+            "fair_popup", "global_open_call", "global_watercolor_open_call",
+            "japan_watercolor_open_call", "japan_watercolor_institution",
+            "zine_fair_booth", "group_publication_open_call", "photo_open_call",
+            "global_photobook", "global_book_arts",
+        },
+        "Galleries": {
+            "gallery", "gallery_small", "gallery_event", "artist_space", "event_space",
+        },
+        "Zines & Books": {
+            "zine_print", "book_publishing", "bookstore_gallery", "bookstore_event",
+            "zine_shop_consignment", "global_artist_book_platform", "global_art_book_fair",
+        },
+        "Residencies & Grants": {
+            "residency", "global_residency", "global_grant_fellowship", "residency_beijing",
+        },
+        "Competitions & Awards": {
+            "competition_award", "watercolor_competition", "illustration_prize",
+            "emerging_artist_award",
+        },
+        "Cafes & Bookshop Spaces": {"cafe_gallery"},
+    }
+
+    _ms_cat_counts: dict[str, int] = {k: 0 for k in _MS_CAT_GROUPS}
+    _ms_cat_counts["Other"] = 0
+    for _o in _all_opps:
+        _cat = _o.get("category", "")
+        _placed = False
+        for _grp, _members in _MS_CAT_GROUPS.items():
+            if _cat in _members:
+                _ms_cat_counts[_grp] += 1
+                _placed = True
+                break
+        if not _placed:
+            _ms_cat_counts["Other"] += 1
+
+    _by_category = {k: v for k, v in sorted(_ms_cat_counts.items(), key=lambda x: x[1], reverse=True) if v > 0}
+
+    _medium_counter = Counter(_o.get("native_medium", "unknown") for _o in _all_opps)
+    _by_medium = {k: v for k, v in _medium_counter.most_common(8)}
+
+    _country_counter_ms: Counter = Counter()
+    for _o in _all_opps:
+        _c = (_o.get("country") or "").strip()
+        if _c and _c.lower() not in ("unknown", ""):
+            _country_counter_ms[_c] += 1
+    _by_country = {k: v for k, v in _country_counter_ms.most_common(5)}
+
+    from datetime import date as _date2, datetime as _dt2
+    _today2 = _date2.today()
+    _within_30 = 0
+    _within_90 = 0
+    _open_ongoing = 0
+    _EMPTY_DL   = frozenset({"", "none", "null", "unknown", "tbd", "n/a", "check site", "varies"})
+    _ROLLING_DL = frozenset({"rolling", "ongoing", "year-round", "open submission", "anytime"})
+    for _o in _all_opps:
+        _dl = str(_o.get("deadline") or "").strip().lower()
+        if not _dl or _dl in _EMPTY_DL:
+            continue
+        if any(_r in _dl for _r in _ROLLING_DL):
+            _open_ongoing += 1
+            continue
+        _parsed_dl = None
+        for _fmt in ("%Y-%m-%d", "%B %d, %Y", "%d %B %Y", "%B %Y"):
+            try:
+                _parsed_dl = _dt2.strptime(_dl[:20], _fmt).date()
+                break
+            except ValueError:
+                pass
+        if _parsed_dl:
+            _diff = (_parsed_dl - _today2).days
+            if 0 <= _diff <= 30:
+                _within_30 += 1
+            if 0 <= _diff <= 90:
+                _within_90 += 1
+
+    def _ms_score(o):
+        return float(
+            o.get("overall_score") or o.get("differentiated_score") or
+            o.get("watercolor_adjusted_score") or o.get("dna_adjusted_score") or 0
+        )
+    _top_tier  = sum(1 for _o in _all_opps if _ms_score(_o) > 8)
+    _mid_tier  = sum(1 for _o in _all_opps if 5 <= _ms_score(_o) <= 8)
+    _low_tier  = sum(1 for _o in _all_opps if _ms_score(_o) < 5)
+    _wc_count  = sum(1 for _o in _all_opps if _o.get("native_medium") in ("painting", "watercolor"))
+    _top5      = sorted(_all_opps, key=_ms_score, reverse=True)[:5]
+    _top_scored = [
+        {
+            "name":     (_o.get("title") or _o.get("name") or "")[:60],
+            "score":    round(_ms_score(_o), 1),
+            "category": _o.get("category", ""),
+        }
+        for _o in _top5
+    ]
+
+    market_stats = {
+        "total_opportunities": len(_all_opps),
+        "by_category":         _by_category,
+        "by_medium":           _by_medium,
+        "by_country":          _by_country,
+        "deadline_pressure": {
+            "this_month":    _within_30,
+            "next_3_months": _within_90,
+            "open_ongoing":  _open_ongoing,
+        },
+        "score_distribution": {
+            "top_tier":   _top_tier,
+            "mid_tier":   _mid_tier,
+            "lower_tier": _low_tier,
+        },
+        "watercolor_specific": _wc_count,
+        "top_scored":          _top_scored,
+    }
+
     # ── Patch Instagram strategy with Peppercorn answers ─────────────────────
     _posting = _answers.get("posting_frequency")
     if _posting:
@@ -1852,6 +1973,7 @@ def get_saffron():
         "career_momentum":       career_momentum,
         "timing_intelligence":   timing_intelligence,
         "opportunity_gap":       opportunity_gap,
+        "market_stats":          market_stats,
     }
 
 

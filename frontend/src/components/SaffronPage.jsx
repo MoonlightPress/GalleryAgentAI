@@ -1279,11 +1279,226 @@ function OpportunityGap({ data, t }) {
   )
 }
 
+// ── Career Readiness ───────────────────────────────────────────────────────
+
+const GAP_DOT_COLORS = {
+  HIGH:   '#c47a35',
+  MEDIUM: '#d4a855',
+  LOW:    '#b0a080',
+}
+
+function ReadinessBar({ label, sublabel, pct, color }) {
+  return (
+    <div className="sf-readiness-bar-row">
+      <div className="sf-readiness-bar-header">
+        <span className="sf-readiness-bar-label">{label}</span>
+        <span className="sf-readiness-bar-pct">{Math.round(pct)}%</span>
+      </div>
+      <div className="sf-readiness-track">
+        <div className="sf-readiness-fill" style={{ width: `${pct}%`, background: color }} />
+      </div>
+      <div className="sf-readiness-sublabel">{sublabel}</div>
+    </div>
+  )
+}
+
+const CAT_LABELS = {
+  'Open Calls & Fairs':      'Open Calls & Fairs',
+  'Galleries':               'Galleries',
+  'Zines & Books':           'Zines & Books',
+  'Residencies & Grants':    'Residencies & Grants',
+  'Competitions & Awards':   'Competitions & Awards',
+  'Cafes & Bookshop Spaces': 'Cafes & Bookshop Spaces',
+  'Other':                   'Other',
+}
+
+const MEDIUM_LABELS = {
+  watercolor:  'Watercolor',
+  painting:    'Painting',
+  illustration:'Illustration',
+  book_arts:   'Book Arts',
+  mixed:       'Mixed / Multi-medium',
+  photography: 'Photography',
+  unknown:     'Medium unspecified',
+}
+
+function MarketStats({ data }) {
+  if (!data) return null
+  const cats   = Object.entries(data.by_category || {})
+  const maxCat = Math.max(...cats.map(([, v]) => v), 1)
+  const { top_tier = 0, mid_tier = 0, lower_tier = 0 } = data.score_distribution || {}
+  const scoreTotal = (top_tier + mid_tier + lower_tier) || 1
+  const dp = data.deadline_pressure || {}
+  const total = data.total_opportunities || 0
+  const summary = `${total} opportunities · ${top_tier} highly recommended · ${dp.this_month || 0} deadlines this month`
+  return (
+    <SectionShell title="Pipeline at a Glance" subtitle="Live counts from the full opportunity dataset" summary={summary}>
+      <div className="sf-block-label">By type</div>
+      <div className="sf-bars sf-ms-bars">
+        {cats.map(([label, count]) => (
+          <div key={label} className="sf-bar-row">
+            <span className="sf-bar-label">{CAT_LABELS[label] || label}</span>
+            <div className="sf-bar-track"><div className="sf-bar-fill sf-ms-bar-fill" style={{ width: `${(count / maxCat) * 100}%` }} /></div>
+            <span className="sf-bar-count">{count}</span>
+          </div>
+        ))}
+      </div>
+      <div className="sf-ms-two-col" style={{ marginTop: 32 }}>
+        <div>
+          <div className="sf-block-label">Deadline pressure</div>
+          <div className="sf-ms-pressure-list">
+            <div className="sf-ms-pressure-row sf-ms-pressure--hot"><span className="sf-ms-pressure-num">{dp.this_month || 0}</span><span className="sf-ms-pressure-label">deadlines this month</span></div>
+            <div className="sf-ms-pressure-row sf-ms-pressure--warm"><span className="sf-ms-pressure-num">{dp.next_3_months || 0}</span><span className="sf-ms-pressure-label">in the next 3 months</span></div>
+            <div className="sf-ms-pressure-row sf-ms-pressure--cool"><span className="sf-ms-pressure-num">{dp.open_ongoing || 0}</span><span className="sf-ms-pressure-label">rolling / ongoing</span></div>
+          </div>
+          <div className="sf-block-label" style={{ marginTop: 24 }}>Medium fit</div>
+          <div className="sf-ms-medium-list">
+            {Object.entries(data.by_medium || {}).map(([med, cnt]) => (
+              <div key={med} className="sf-ms-medium-row">
+                <span className={`sf-ms-medium-label${med === 'watercolor' ? ' sf-ms-medium--wc' : ''}`}>{MEDIUM_LABELS[med] || med}</span>
+                <span className="sf-ms-medium-count">{cnt}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div>
+          <div className="sf-block-label">Score distribution</div>
+          <div className="sf-ms-score-tiers">
+            <div className="sf-ms-score-row sf-ms-score--high"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(top_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{top_tier}</span><span className="sf-ms-score-label">highly recommended (&gt;8)</span></div>
+            <div className="sf-ms-score-row sf-ms-score--mid"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(mid_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{mid_tier}</span><span className="sf-ms-score-label">worth exploring (5–8)</span></div>
+            <div className="sf-ms-score-row sf-ms-score--low"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(lower_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{lower_tier}</span><span className="sf-ms-score-label">lower priority (&lt;5)</span></div>
+          </div>
+          <div className="sf-block-label" style={{ marginTop: 24 }}>Top 5 by score</div>
+          <div className="sf-ms-top-list">
+            {(data.top_scored || []).map((opp, i) => (
+              <div key={i} className="sf-ms-top-row"><span className="sf-ms-top-rank">{i + 1}</span><span className="sf-ms-top-name">{opp.name}</span><span className="sf-ms-top-score">{opp.score}</span></div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </SectionShell>
+  )
+}
+
+function CareerReadiness({ data }) {
+  if (!data) return null
+
+  const tier3Pct = (data.readiness_scores?.tier_3_readiness ?? 0) * 100
+  const tier4Pct = (data.readiness_scores?.tier_4_readiness ?? 0) * 100
+  const gaps     = data.blocking_gaps ?? []
+  const actNow   = (data.immediate_priorities ?? []).slice(0, 3)
+  const build    = data.build_toward ?? []
+  const watch    = data.watch_list   ?? []
+  const months   = data.months_to_tier3
+
+  const summary = data.current_phase
+    ? `${data.current_phase}${months ? ` · ~${months}mo to Tier 3` : ''}`
+    : 'Career readiness'
+
+  return (
+    <SectionShell
+      title="Career Readiness"
+      subtitle="Where the work is now, and what comes next"
+      summary={summary}
+    >
+      {/* Readiness bars */}
+      <div className="sf-readiness-bars">
+        <ReadinessBar
+          label="Tier 3 Readiness"
+          sublabel="Credibility tier"
+          pct={tier3Pct}
+          color="#c47a35"
+        />
+        <ReadinessBar
+          label="Tier 4 Readiness"
+          sublabel="Prestige tier"
+          pct={tier4Pct}
+          color="#d4b87a"
+        />
+      </div>
+
+      {/* Timeline pill + next milestone */}
+      <div className="sf-readiness-milestone-row">
+        {months != null && (
+          <span className="sf-readiness-timeline-pill">~{months} months to Tier 3</span>
+        )}
+      </div>
+      {data.next_milestone && (
+        <p className="sf-readiness-milestone">{data.next_milestone}</p>
+      )}
+
+      {/* Blocking gaps */}
+      {gaps.length > 0 && (
+        <div style={{ marginTop: 28 }}>
+          <div className="sf-block-label">Blocking gaps</div>
+          <div className="sf-readiness-gaps">
+            {gaps.map((g, i) => (
+              <div key={i} className="sf-readiness-gap-row">
+                <span
+                  className="sf-readiness-gap-dot"
+                  style={{ background: GAP_DOT_COLORS[g.priority] ?? '#b0a080' }}
+                />
+                <div className="sf-readiness-gap-body">
+                  <span className="sf-readiness-gap-text">{g.gap}</span>
+                  {g.action && (
+                    <span className="sf-readiness-gap-action">{g.action}</span>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Three columns */}
+      <div className="sf-readiness-columns" style={{ marginTop: 28 }}>
+        <div className="sf-readiness-col">
+          <div className="sf-block-label">Act Now</div>
+          {actNow.length === 0
+            ? <p className="sf-readiness-col-empty">None queued</p>
+            : actNow.map((o, i) => (
+              <div key={i} className="sf-readiness-col-item">
+                <span className="sf-readiness-col-name">{o.name ?? o.title ?? o}</span>
+                {o.score != null && (
+                  <span className="sf-readiness-col-score">{Math.round(o.score * 10) / 10}</span>
+                )}
+              </div>
+            ))
+          }
+        </div>
+        <div className="sf-readiness-col">
+          <div className="sf-block-label">Build Toward</div>
+          {build.length === 0
+            ? <p className="sf-readiness-col-empty">None queued</p>
+            : build.map((o, i) => (
+              <div key={i} className="sf-readiness-col-item">
+                <span className="sf-readiness-col-name">{o.name ?? o.title ?? o}</span>
+              </div>
+            ))
+          }
+        </div>
+        <div className="sf-readiness-col sf-readiness-col--watch">
+          <div className="sf-block-label">Watch List</div>
+          {watch.length === 0
+            ? <p className="sf-readiness-col-empty">None queued</p>
+            : watch.map((o, i) => (
+              <div key={i} className="sf-readiness-col-item sf-readiness-col-item--muted">
+                <span className="sf-readiness-col-name">{o.name ?? o.title ?? o}</span>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </SectionShell>
+  )
+}
+
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function SaffronPage({ nav }) {
-  const [data,  setData]  = useState(null)
-  const [error, setError] = useState(null)
+  const [data,       setData]       = useState(null)
+  const [careerData, setCareerData] = useState(null)
+  const [error,      setError]      = useState(null)
   const { t, lang } = useLanguage()
 
   useEffect(() => {
@@ -1291,6 +1506,13 @@ export default function SaffronPage({ nav }) {
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json() })
       .then(setData)
       .catch(e => setError(e.message))
+  }, [])
+
+  useEffect(() => {
+    fetch('/api/career_strategy')
+      .then(r => { if (!r.ok) throw null; return r.json() })
+      .then(setCareerData)
+      .catch(() => {})
   }, [])
 
   return (
@@ -1308,9 +1530,16 @@ export default function SaffronPage({ nav }) {
         </div>
       )}
 
+      {careerData && (
+        <div className="sf-content sf-content--career-readiness">
+          <CareerReadiness data={careerData} />
+        </div>
+      )}
+
       {data && (
         <div className="sf-content">
           <CareerPosition      data={data.career_position}    t={t} />
+          <MarketStats         data={data.market_stats} />
           <MarketLandscape     data={data.market_landscape}   t={t} />
           <ComparableArtists   artists={data.peer_artists}    t={t} />
           <StrategicPathway    data={data.pathway}            t={t} />

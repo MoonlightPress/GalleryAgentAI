@@ -108,6 +108,21 @@
 .opp-effort-medium { background: #fef3d0; color: #92660a; }
 .opp-effort-heavy  { background: #fde8e8; color: #b94040; }
 
+/* ── Medium compatibility badge ── */
+.opp-medium-badge {
+  font-size: 10px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  display: inline-block;
+  margin-top: 0;
+  white-space: nowrap;
+  background: transparent;
+  border: 1px solid currentColor;
+  opacity: 0.85;
+}
+
 /* ── Description ── */
 .opp-card-desc {
   font-size: 11.5px;

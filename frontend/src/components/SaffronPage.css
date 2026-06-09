@@ -1718,3 +1718,380 @@
   margin-bottom: 8px;
   border-radius: 1px;
 }
+
+/* ── Career Readiness ───────────────────────────────────────────────────── */
+
+/* Wrapper for the career readiness section when it appears above the main
+   saffron content block (which has its own background). */
+.sf-content--career-readiness {
+  background: #fdf8ee;
+  border-bottom: 2px solid #e8d5a8;
+}
+
+/* Readiness bars */
+
+.sf-readiness-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 8px;
+}
+
+.sf-readiness-bar-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sf-readiness-bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.sf-readiness-bar-label {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  font-weight: bold;
+  color: #3d2b1a;
+}
+
+.sf-readiness-bar-pct {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #c47a35;
+  font-weight: bold;
+}
+
+.sf-readiness-track {
+  height: 12px;
+  background: #f0e3c4;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.sf-readiness-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.5s ease;
+}
+
+.sf-readiness-sublabel {
+  font-family: Georgia, serif;
+  font-size: 11.5px;
+  color: #9a7040;
+  font-style: italic;
+}
+
+/* Timeline pill */
+
+.sf-readiness-milestone-row {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sf-readiness-timeline-pill {
+  display: inline-block;
+  font-family: Georgia, serif;
+  font-size: 11.5px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  color: #7a4a10;
+  background: #fdf0d8;
+  border: 1px solid #d4993a;
+  border-radius: 20px;
+  padding: 4px 14px;
+}
+
+/* Next milestone */
+
+.sf-readiness-milestone {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #3d2b1a;
+  line-height: 1.6;
+  margin: 12px 0 0;
+}
+
+/* Blocking gaps */
+
+.sf-readiness-gaps {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.sf-readiness-gap-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.sf-readiness-gap-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.sf-readiness-gap-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.sf-readiness-gap-text {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  color: #3d2b1a;
+  line-height: 1.45;
+}
+
+.sf-readiness-gap-action {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  color: #7a5c3a;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* Three columns */
+
+.sf-readiness-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px 32px;
+}
+
+@media (max-width: 640px) {
+  .sf-readiness-columns { grid-template-columns: 1fr; }
+}
+
+.sf-readiness-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.sf-readiness-col--watch .sf-readiness-col-item {
+  opacity: 0.65;
+}
+
+.sf-readiness-col-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0e3c4;
+}
+
+.sf-readiness-col-item:last-child { border-bottom: none; }
+
+.sf-readiness-col-item--muted .sf-readiness-col-name {
+  color: #9a7040;
+}
+
+.sf-readiness-col-name {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #3d2b1a;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.sf-readiness-col-score {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  color: #c47a35;
+  font-weight: bold;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.sf-readiness-col-empty {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #b0906a;
+  font-style: italic;
+  margin: 0;
+  padding-top: 6px;
+}
+
+/* ── Market Stats ──────────────────────────────────────────── */
+
+.sf-ms-bars {
+  max-width: 600px;
+}
+
+.sf-ms-bar-fill {
+  background: #c47a35;
+}
+
+.sf-ms-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px 48px;
+}
+
+@media (max-width: 640px) {
+  .sf-ms-two-col { grid-template-columns: 1fr; }
+}
+
+.sf-ms-pressure-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sf-ms-pressure-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.sf-ms-pressure-num {
+  font-family: Georgia, serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+  min-width: 36px;
+}
+
+.sf-ms-pressure-label {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #7a5c3a;
+}
+
+.sf-ms-pressure--hot  .sf-ms-pressure-num { color: #b03020; }
+.sf-ms-pressure--warm .sf-ms-pressure-num { color: #c47a35; }
+.sf-ms-pressure--cool .sf-ms-pressure-num { color: #5a7a30; }
+
+.sf-ms-medium-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sf-ms-medium-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  border-bottom: 1px solid #f0e3c4;
+}
+
+.sf-ms-medium-label {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #5a3e20;
+}
+
+.sf-ms-medium--wc {
+  font-weight: bold;
+  color: #3d2b1a;
+}
+
+.sf-ms-medium-count {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #9a7040;
+  font-weight: bold;
+}
+
+.sf-ms-wc-note {
+  font-family: Georgia, serif;
+  font-size: 11.5px;
+  color: #c47a35;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.sf-ms-score-tiers {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sf-ms-score-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sf-ms-score-bar-wrap {
+  width: 80px;
+  height: 8px;
+  background: #f0e3c4;
+  border-radius: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.sf-ms-score-bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.sf-ms-score--high .sf-ms-score-bar { background: #5a7a30; }
+.sf-ms-score--mid  .sf-ms-score-bar { background: #c47a35; }
+.sf-ms-score--low  .sf-ms-score-bar { background: #c0aa88; }
+
+.sf-ms-score-num {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #3d2b1a;
+  min-width: 28px;
+}
+
+.sf-ms-score-label {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #7a5c3a;
+}
+
+.sf-ms-top-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sf-ms-top-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px solid #f0e3c4;
+}
+
+.sf-ms-top-rank {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  color: #c47a35;
+  font-weight: bold;
+  min-width: 16px;
+}
+
+.sf-ms-top-name {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #3d2b1a;
+  flex: 1;
+  line-height: 1.3;
+}
+
+.sf-ms-top-score {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #5a7a30;
+  flex-shrink: 0;
+}

@@ -436,5 +436,9 @@
         "is_current_phase": false
       }
     }
-  }
+  },
+  "secondary_mediums": [
+    "photography"
+  ],
+  "photography_note": "Nin is also a photographer (hobby-level but skilled). Photography opportunities are relevant and should not be penalized. The photography flood concern is about search noise from other artists, not about her own practice."
 }

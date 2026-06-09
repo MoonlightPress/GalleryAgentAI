@@ -59,6 +59,14 @@ const CAT_ICON = {
 
 const DEFAULT_ICON = ICONS + 'icon_open_call.png'
 
+const MEDIUM_CONFIG = {
+  watercolor:   { label: '◆ Watercolor',   color: '#4a8c7a' },
+  illustration: { label: '◆ Illustration', color: '#7a5a8c' },
+  book_arts:    { label: '◆ Book Arts',    color: '#8c6a3a' },
+  painting:     { label: '◆ Painting',     color: '#8c4a3a' },
+  photography:  { label: '◆ Photography',  color: '#5a6a7a' },
+}
+
 export function scoreClass(score) {
   const s = parseFloat(score) || 0
   if (s >= 7) return 'score-high'
@@ -145,6 +153,14 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
           {opp.effort && opp.effort !== 'Check' && (
             <span className={`opp-pill opp-pill-effort opp-effort-${opp.effort.toLowerCase()}`}>
               {t(`card.effort.${opp.effort.toLowerCase()}`) || opp.effort}
+            </span>
+          )}
+          {MEDIUM_CONFIG[opp.native_medium] && (
+            <span
+              className="opp-medium-badge"
+              style={{ color: MEDIUM_CONFIG[opp.native_medium].color, borderColor: MEDIUM_CONFIG[opp.native_medium].color }}
+            >
+              {MEDIUM_CONFIG[opp.native_medium].label}
             </span>
           )}
         </div>
