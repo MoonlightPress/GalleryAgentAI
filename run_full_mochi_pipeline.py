@@ -95,6 +95,7 @@ PIPELINE = [
     "dead_url_pruner.py",
     "prerequisite_detection_engine.py",   # audit fix: moved before bucket engine
     "exclusive_strategy_bucket_engine.py",# audit fix: now runs after prereq + why
+    "peppercorn_preference_engine.py",    # apply artist preference adjustments after bucketing
     "strategic_action_report.py",
     "next_project_engine.py",
     "dna_project_refiner.py",
