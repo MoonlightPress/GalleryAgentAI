@@ -41,7 +41,9 @@ for f in \
     peppercorn_profile.json \
     learned_preferences.json \
     submission_log.json \
-    suppressed_opportunities.json; do
+    suppressed_opportunities.json \
+    career_strategy_report.json \
+    exhibition_log.json; do
     src="$SCRIPT_DIR/memory/$f"
     [ -f "$src" ] && cp "$src" "$OUT/app/memory/" || echo "  (skipping missing: $f)"
 done

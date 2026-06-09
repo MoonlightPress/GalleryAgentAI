@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Component } from 'react'
 import './SaffronPage.css'
 import { saffronHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
@@ -11,6 +11,21 @@ import {
   CAREER_TIMELINE,
   PRICING_INTELLIGENCE,
 } from '../data/saffron_insights'
+
+class SectionErrorBoundary extends Component {
+  constructor(props) { super(props); this.state = { error: null } }
+  static getDerivedStateFromError(err) { return { error: err } }
+  render() {
+    if (this.state.error) {
+      return (
+        <div style={{ padding: '12px 16px', background: '#fff8ee', border: '1px solid #e8c97a', borderRadius: 6, margin: '8px 0', fontFamily: 'Georgia, serif', fontSize: 13, color: '#7a4a1a' }}>
+          A section failed to render: <code style={{ fontSize: 11 }}>{String(this.state.error)}</code>
+        </div>
+      )
+    }
+    return this.props.children
+  }
+}
 
 // ── Shared primitives ──────────────────────────────────────────────────────
 
@@ -1532,11 +1547,14 @@ export default function SaffronPage({ nav }) {
 
       {careerData && (
         <div className="sf-content sf-content--career-readiness">
-          <CareerReadiness data={careerData} />
+          <SectionErrorBoundary>
+            <CareerReadiness data={careerData} />
+          </SectionErrorBoundary>
         </div>
       )}
 
       {data && (
+        <SectionErrorBoundary>
         <div className="sf-content">
           <CareerPosition      data={data.career_position}    t={t} />
           <MarketStats         data={data.market_stats} />
@@ -1566,6 +1584,7 @@ export default function SaffronPage({ nav }) {
           <RevenueStreams       t={t} lang={lang} />
           <CareerDependencyMap t={t} lang={lang} />
         </div>
+        </SectionErrorBoundary>
       )}
     </div>
   )

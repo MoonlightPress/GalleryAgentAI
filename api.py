@@ -475,8 +475,16 @@ def shape_card(opp: dict) -> dict:
     }
 
 
+def _ranked_score(item: dict) -> float:
+    """Sort key: photography yields 1 full point to painting/watercolor at equal score."""
+    score = float(item.get("overall_score") or 0)
+    if item.get("native_medium") == "photography":
+        score -= 1.0
+    return score
+
+
 def by_display_score(cards: list) -> list:
-    return sorted(cards, key=lambda c: float(c.get("overall_score") or 0), reverse=True)
+    return sorted(cards, key=_ranked_score, reverse=True)
 
 
 def load_opportunities() -> list:
@@ -494,8 +502,8 @@ def load_opportunities() -> list:
 
 
 def bucket(items: list) -> dict:
-    # Sort by overall score descending as base order
-    scored = sorted(items, key=_overall_score, reverse=True)
+    # Sort by ranked score: photography yields 1 pt to painting at equal quality
+    scored = sorted(items, key=_ranked_score, reverse=True)
 
     # ── Submission log suppression ────────────────────────────────────────────
     _pending_names, _rejected_names, _accepted = _load_submission_states()
@@ -2087,7 +2095,7 @@ def get_today():
 
     # ── High Impact Move: highest-scoring IBM-eligible ────────────────────────
     ibm = [
-        x for x in sorted(items, key=_overall_score, reverse=True)
+        x for x in sorted(items, key=_ranked_score, reverse=True)
         if x.get("exclusive_primary_bucket") == "immediate_best_moves"
         and _ibm_eligible(x)
     ]
@@ -2111,7 +2119,7 @@ def get_today():
             and x.get("contact") and "@" in str(x.get("contact", ""))
             and (high_impact_raw is None or _opp_id(x) != _opp_id(high_impact_raw))
         ]
-    qw_candidates.sort(key=_overall_score, reverse=True)
+    qw_candidates.sort(key=_ranked_score, reverse=True)
     quick_win_raw = qw_candidates[0] if qw_candidates else None
 
     used_ids = {_opp_id(x) for x in [high_impact_raw, quick_win_raw] if x}
