@@ -450,7 +450,9 @@
       "応募資格と所在地の条件は事前に要確認。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:global_seed"
+    "source_weight_reason": "type:global_seed",
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Aesthetica Art Prize",
@@ -1063,7 +1065,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-05-05 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "American Illustration",
@@ -1224,8 +1228,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: March 18, 2026 — confirm on the official site before submitting"
-    ],
-    "category": "illustration_prize"
+    ]
   },
   {
     "title": "World Illustration Awards",
@@ -1385,8 +1388,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: March 31, 2026, 23:59 UTC — confirm on the official site before submitting"
-    ],
-    "category": "illustration_prize"
+    ]
   },
   {
     "title": "Jackson's Art Prize",
@@ -1563,8 +1565,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-02-11 — confirm on the official site before submitting"
-    ],
-    "category": "illustration_prize"
+    ]
   },
   {
     "title": "The Artcomplex Center of Tokyo",
@@ -1724,8 +1725,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: March 17, 2026 — confirm on the official site before submitting"
-    ],
-    "category": "gallery"
+    ]
   },
   {
     "title": "Society of Women Artists",
@@ -1886,8 +1886,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-03-07 — confirm on the official site before submitting"
-    ],
-    "category": "competition_award"
+    ]
   },
   {
     "title": "本店・本屋の実験室",
@@ -2431,7 +2430,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 2026年1月31日 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "アートオリンピア2026",
@@ -3138,7 +3139,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年3月9日(月) / 作品データ入稿2026年3月10日(火)正午12時 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "CSPWC Annual Open Water International Exhibition",
@@ -3437,7 +3440,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 2025年4月25日（土）スタート — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "Aquarelle 18 - アクワレル",
@@ -3582,7 +3587,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年5月10日(日) — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "In-dividual Theater：BUG Screen Week 2026",
@@ -4287,7 +4294,9 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: November 19, 2025 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Hayama Artist Residency Submission Manager - Submittable",
@@ -4707,7 +4716,9 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2025-11-19 (application deadline, EST 9:59 AM); recommendation letters due 2025-11-26 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "UTRECHT",
@@ -4725,7 +4736,7 @@
     ],
     "quick_action": "Visit their website to see current exhibitions and publications, get a feel for the space before considering a zine or small publication project",
     "why_this_fits_short": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.",
-    "deadline": "Rolling consignment — contact directly",
+    "deadline": "1 July 2025",
     "fees": "Free",
     "predatory_risk": 1,
     "emotional_fit": 9,
@@ -5699,8 +5710,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: Thursday, 6 November 2025, at 23:59 (GMT+1) — confirm on the official site before submitting"
-    ],
-    "category": "global_open_call"
+    ]
   },
   {
     "title": "Pinpoint Gallery",
@@ -5869,8 +5879,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: May 30, 2026 — confirm on the official site before submitting"
-    ],
-    "category": "gallery"
+    ]
   },
   {
     "title": "Pen Magazine — Artist Spotlight",
@@ -8217,7 +8226,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年4月19日(日)23:59 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "2026 3rd Annual Illustration Summit Challenge (IlloBoom!)",
@@ -8352,7 +8363,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-04-01 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
@@ -9245,7 +9258,9 @@
       "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: July 7, 2025 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "ギャラリーへ行こう2026",
@@ -9999,7 +10014,9 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年5月25日（月）14:00～6月29日（月）14:00 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "Brillia Art Award Wall 2026",
@@ -10632,8 +10649,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: June 30, 2024 — confirm on the official site before submitting"
-    ],
-    "category": "institutional"
+    ]
   },
   {
     "name": "BOOOOOOOM 2026 Art & Photo Book Award",
@@ -11410,8 +11426,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年5月28日 — confirm on the official site before submitting"
-    ],
-    "category": "gallery"
+    ]
   },
   {
     "name": "SUZURI",
@@ -11780,8 +11795,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-03-27 (early), 2026-04-03 (final) — confirm on the official site before submitting"
-    ],
-    "category": "illustration_prize"
+    ]
   },
   {
     "title": "Book and Sons",
@@ -12330,8 +12344,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: Sep 14th 10am-1pm — confirm on the official site before submitting"
-    ],
-    "category": "gallery"
+    ]
   },
   {
     "name": "2026 Chinese New Year Celebration Art Show",
@@ -12490,7 +12503,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: January 9, 2026 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Open Call for the International Creator Residency Program 2026",
@@ -12772,7 +12787,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 2026年2月18日(水) — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "IlloBoom! 2026 第三屆插畫巔峰賽",
@@ -12907,7 +12924,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-04-01 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "OPEN SITE 11",
@@ -13349,7 +13368,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年5月7日 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "International Creator Residency Program 2027",
@@ -15128,7 +15149,9 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年2月3日 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "FACE Exhibition 2026",
@@ -15507,7 +15530,9 @@
     "contact": "admissions@citedesartsparis.fr",
     "contact_source": "harvested_from_submission_page",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:global_seed"
+    "source_weight_reason": "type:global_seed",
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "LOCAL Gallery・Books",
@@ -16542,7 +16567,9 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年2月3日（火）10:00～3月3日（火）18:00 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "BALLOND'ESSAI Shimokitazawa",
@@ -17857,7 +17884,9 @@
       "Review past winners before submitting — competitions have distinct aesthetic preferences that aren't always visible in the brief",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年03月20日 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "「国際創作者駐村計畫」",
@@ -18012,7 +18041,9 @@
       "Review residency requirements carefully — most want a project proposal, CV, and portfolio PDF in one package",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2024-12-29 or 2025-09-30 or 2025-06-30 or 2026-04-30 (multiple programs with different deadlines) — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "芸術活動への助成 (Arts Activity Grant)",
@@ -19254,7 +19285,9 @@
       "Email @antennabooks to discuss consignment or exhibition terms — these venues work by relationship, not open calls",
       "Based in Tokyo — Daikanyama, Shibuya, Japan — confirm this matches your geographic focus before investing preparation time",
       "Contact information or submission guidelines may require direct research"
-    ]
+    ],
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "name": "SPBS (Shibuya Publishing Booksellers)",
@@ -19467,7 +19500,9 @@
       "Email @spbs_tokyo to discuss consignment or exhibition terms — these venues work by relationship, not open calls",
       "Based in Tokyo — Tomigaya, Shibuya, Japan — confirm this matches your geographic focus before investing preparation time",
       "Contact information or submission guidelines may require direct research"
-    ]
+    ],
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "POST",
@@ -19843,8 +19878,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: April 8, 2026 — confirm on the official site before submitting"
-    ],
-    "category": "gallery"
+    ]
   },
   {
     "title": "tata bookshop/gallery",
@@ -20846,7 +20880,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 03 March 2026 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "芸術活動への助成（Grants for Artistic Activities）",
@@ -21314,7 +21350,9 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-05-11 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "TOKAS Open Call",
@@ -21791,7 +21829,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年3月10日（作品征集：2025年10月10日-2026年3月10日） — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "3331 Arts Chiyoda",
@@ -22129,7 +22169,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年04月30日 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "flotsam books",
@@ -22380,7 +22422,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 78,
     "actionability_score": 100,
     "risk_score": 11,
@@ -22566,7 +22608,8 @@
     "submission_url": "https://www.tokyoartsandspace.jp/archive/application/2025/20250513-295.html",
     "name_en": "Tokyo Arts and Space Open Program",
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:tokyoartsandspace"
+    "source_weight_reason": "reward:url:tokyoartsandspace",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "name": "EIAF 2026–2027 Artist-in-Residence Program",
@@ -22703,7 +22746,9 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-03-01 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "Applied Arts 2026 Illustration Awards",
@@ -23824,7 +23869,9 @@
       "調査負荷が高い：現在の公募情報は見当たらず、プログラムサイクルも不明確で、日本語リソースの精読が必要になる場合がある"
     ],
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:tokyoartsandspace"
+    "source_weight_reason": "reward:url:tokyoartsandspace",
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "円盤 (Enban) Koenji",
@@ -24037,7 +24084,9 @@
     ],
     "name_en": "Enban Koenji Zine Shop",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:zine_shop_consignment"
+    "source_weight_reason": "type:zine_shop_consignment",
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "Books Ruhe",
@@ -24298,7 +24347,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 78,
     "actionability_score": 100,
     "risk_score": 11,
@@ -24482,7 +24531,8 @@
     ],
     "name_en": "Grid Next: Emerging Artists Open Call",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "グループ展参加アーティスト募集中 - Gallery and Links81",
@@ -24510,7 +24560,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 78,
     "actionability_score": 100,
     "risk_score": 11,
@@ -24695,7 +24745,8 @@
     ],
     "name_en": "Gallery Links81 Group Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "公募企画「grid next : 2025 - Emerging Artists Showcase ...",
@@ -24723,7 +24774,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 78,
     "actionability_score": 100,
     "risk_score": 11,
@@ -24907,7 +24958,8 @@
     ],
     "name_en": "Grid Next 2025: Emerging Artists Showcase",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "name": "咲き誇れ桜よ",
@@ -25387,7 +25439,7 @@
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "exclusive_primary_bucket": "immediate_best_moves",
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "painting_gate_status": "promoted",
@@ -25440,8 +25492,7 @@
       "日本での既存のプレゼンスや出版物を持つアーティストに向いている"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:bookstore_event",
-    "status": "closed"
+    "source_weight_reason": "type:bookstore_event"
   },
   {
     "name": "芸術家海外研修制度（Artists' Overseas Training Program）",
@@ -25573,7 +25624,9 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年5月13日(水)-6月2日(火) — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "2026 Global Grant Cycle - Fellowships and Grants (General)",
@@ -25708,7 +25761,9 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: November 19, 2025 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "新進芸術家海外研修制度における日本文化発信・普及事業（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）",
@@ -25982,7 +26037,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-03-15 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "BankART1929",
@@ -26350,8 +26407,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Contact information or submission guidelines may require direct research"
-    ],
-    "category": "gallery"
+    ]
   },
   {
     "title": "日記屋 月日",
@@ -26381,7 +26437,7 @@
     "neighborhood": "Shimokitazawa",
     "tier": 2,
     "confidence": 58,
-    "status": "needs_confirmation",
+    "status": "needs_reverification",
     "import_source": "zine_category_import_v1",
     "imported_at": "2026-05-31",
     "url_verification_status": "bad",
@@ -26582,7 +26638,9 @@
     ],
     "name_en": "Nikki-ya Independent Bookstore",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:zine_print"
+    "source_weight_reason": "type:zine_print",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "Communication Arts Illustration Competition",
@@ -26744,7 +26802,8 @@
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-01-09 — confirm on the official site before submitting"
     ],
-    "category": "competition_award"
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed."
   },
   {
     "title": "SCAI The Bathhouse",
@@ -27315,7 +27374,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年2月17日午夜（英國時區） — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)",
@@ -28938,7 +28999,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 78,
     "actionability_score": 92,
     "risk_score": 15,
@@ -29122,7 +29183,8 @@
       "リスク：現時点でソースが一件のみ。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "219公募展6募集 >> Gallery219 ギャラリーニイク",
@@ -29150,7 +29212,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 78,
     "actionability_score": 100,
     "risk_score": 11,
@@ -29338,7 +29400,8 @@
     "fee": "10,000 yen",
     "name_en": "Gallery 219 Open Call 6",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "2026 松濤美術館公募展｜渋谷区立松濤美術館",
@@ -29510,7 +29573,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 70,
     "actionability_score": 84,
     "risk_score": 23,
@@ -29693,7 +29756,8 @@
       "リスク：現時点でソースが1件のみ。"
     ],
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:entry"
+    "source_weight_reason": "reward:url:entry",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "name": "2026国际大学生数字艺术设计大赛",
@@ -30388,7 +30452,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 11 May 2026 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "【公募】2026年度レジデンス・プログラム公募開始",
@@ -31053,7 +31119,9 @@
       "Review past winners before submitting — competitions have distinct aesthetic preferences that aren't always visible in the brief",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-05-25 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Gallery IRO",
@@ -31490,7 +31558,9 @@
       "東京という立地は、京都の機会と比較して伝統建築への関心との整合性が低い"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:residency"
+    "source_weight_reason": "type:residency",
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Book Obscura",
@@ -31520,7 +31590,7 @@
     "neighborhood": "Kichijoji",
     "tier": 2,
     "confidence": 58,
-    "status": "needs_confirmation",
+    "status": "needs_reverification",
     "import_source": "zine_category_import_v1",
     "imported_at": "2026-05-31",
     "url_verification_status": "bad",
@@ -31733,7 +31803,9 @@
     ],
     "fee": "$25 for first entry/$10 for each additional entry",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:zine_print"
+    "source_weight_reason": "type:zine_print",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "そぞろ書房",
@@ -31763,7 +31835,7 @@
     "neighborhood": "Koenji",
     "tier": 2,
     "confidence": 61,
-    "status": "needs_confirmation",
+    "status": "needs_reverification",
     "import_source": "zine_category_import_v1",
     "imported_at": "2026-05-31",
     "url_verification_status": "bad",
@@ -31968,7 +32040,9 @@
     ],
     "name_en": "Sozoro Bookstore",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:zine_print"
+    "source_weight_reason": "type:zine_print",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "AIR 3331",
@@ -32133,7 +32207,9 @@
       "掲載情報が不完全なため、プログラムが現在活動中で応募受付中かを確認するために2〜3時間の調査が必要"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:residency"
+    "source_weight_reason": "type:residency",
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Picaresque Gallery",
@@ -32309,8 +32385,7 @@
       "応募プロセス・費用・展示条件・キュレーション基準についての情報が不十分"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery",
-    "name": "Picaresque Gallery"
+    "source_weight_reason": "type:gallery"
   },
   {
     "name": "IlloBoom! 3rd Annual Illustration Summit Challenge",
@@ -32817,7 +32892,10 @@
     ],
     "name_en": "Shiroto no Ran Koenji",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:zine_shop_consignment"
+    "source_weight_reason": "type:zine_shop_consignment",
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "Nantoka Bar Koenji",
@@ -33016,7 +33094,9 @@
       "DIY美学が手作り・印刷物の作品とよく合う"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:cafe_gallery"
+    "source_weight_reason": "type:cafe_gallery",
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "name": "Chinese Excellence in Children's Illustration 2026（卓越大师·中国插画大赛2026）",
@@ -33443,7 +33523,9 @@
       "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
       "Based in Vancouver, Canada — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 2026-05-31 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Spiral",
@@ -33601,8 +33683,7 @@
       "実際の機会を把握するには相当な調査と冷たいアプローチが必要になる見込み"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery_event",
-    "name": "Spiral"
+    "source_weight_reason": "type:gallery_event"
   },
   {
     "name": "マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)",
@@ -34009,7 +34090,10 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: Typically September–November annually — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "Aoyama Farmers Market",
@@ -34339,7 +34423,9 @@
       "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 22-24 January 2026 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)",
@@ -34761,7 +34847,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 2024年2月1日開始 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
@@ -34789,7 +34877,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 78,
     "actionability_score": 92,
     "risk_score": 15,
@@ -34974,7 +35062,8 @@
     "fee": "Free",
     "submission_url": "https://www.artworkarchive.com/call-for-entry/tokyo-open-art",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "name": "2026年度 渡航・旅費等の助成（上期）",
@@ -35958,7 +36047,10 @@
       "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-08-01 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...",
@@ -35986,7 +36078,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 70,
     "actionability_score": 94,
     "risk_score": 18,
@@ -36169,7 +36261,8 @@
     ],
     "name_en": "Independent Tokyo Art Fair",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "New Power展 | ギャラリー自由が丘で作家デビュー",
@@ -36197,7 +36290,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 70,
     "actionability_score": 94,
     "risk_score": 18,
@@ -36381,7 +36474,8 @@
     ],
     "name_en": "New Power Exhibition",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "name": "オープンコール・プロジェクト",
@@ -37423,7 +37517,10 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: Check bunka.go.jp annually — typically spring deadline — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "Tokyo Arts and Space (TOKAS) Residency + Grant",
@@ -37553,7 +37650,10 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: Check tokyoartsandspace.jp — typically annual open call — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "Venice International Watercolor Festival 2026 / 2026年威尼斯国际水彩节",
@@ -37883,8 +37983,8 @@
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 8 January 2025 — confirm on the official site before submitting"
     ],
-    "name": "Mall Galleries Open Exhibitions",
-    "category": "competition_award"
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed."
   },
   {
     "title": "Japan Foundation Cultural Exchange Grant",
@@ -38038,7 +38138,10 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: September–October annually (check jpf.go.jp for current cycle) — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "Open Calls for Artists",
@@ -38815,8 +38918,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Contact information or submission guidelines may require direct research"
-    ],
-    "category": "gallery"
+    ]
   },
   {
     "title": "ZINEイベント",
@@ -39196,7 +39298,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 2026-03-06 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "Koenji SANAGI",
@@ -39375,7 +39479,9 @@
       "高円寺のコミュニティハブ——地域でのつながり構築に強み"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:cafe_gallery"
+    "source_weight_reason": "type:cafe_gallery",
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...",
@@ -39403,7 +39509,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 70,
     "actionability_score": 94,
     "risk_score": 18,
@@ -39590,7 +39696,8 @@
     ],
     "name_en": "Picaresque Gallery Tokyo",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "現代アート販売の@Gallery Tagboat|@Gallery Tagboat",
@@ -39618,7 +39725,7 @@
     ],
     "career_category": "galleries",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "needs_reverification",
     "fit_score": 70,
     "actionability_score": 94,
     "risk_score": 18,
@@ -39804,7 +39911,8 @@
     ],
     "name_en": "Gallery Tagboat Contemporary",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "name": "ERA Shimokitazawa",
@@ -40002,7 +40110,9 @@
       "コミュニティ主導のプログラミングにより、作品は機関的な権威ではなく文化的適合性で評価される"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:artist_space"
+    "source_weight_reason": "type:artist_space",
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "HandMade In Japan Fes",
@@ -40916,7 +41026,8 @@
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 8 January 2025 — confirm on the official site before submitting"
     ],
-    "category": "competition_award"
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed."
   },
   {
     "name": "Aquarium - 2026",
@@ -41102,7 +41213,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in International — confirm this matches your geographic focus before investing preparation time",
       "Deadline: May 8th, 2026 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Royal Watercolour Society Open Exhibition",
@@ -41307,7 +41420,9 @@
     ],
     "submission_url": "https://zealous.co/banksidegallery/opportunity/rws-open-2026",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:global_seed"
+    "source_weight_reason": "type:global_seed",
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Offprint",
@@ -41544,7 +41659,9 @@
     "contact_email": "librarymothership@gmail.com",
     "deadline_type": "confirmed_date",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:global_seed"
+    "source_weight_reason": "type:global_seed",
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "Gallery Rocket Harajuku",
@@ -41744,7 +41861,9 @@
       "Visit in Tokyo — Harajuku, Shibuya, Japan to see the space and speak with the manager about upcoming exhibition slots",
       "Based in Tokyo — Harajuku, Shibuya, Japan — confirm this matches your geographic focus before investing preparation time",
       "Deadline: ongoing — proposal-based — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "Self Publish, Be Happy",
@@ -41985,7 +42104,9 @@
     "fee": "€320 for 14 hours of teaching, €590 for 28 hours of teaching",
     "deadline_type": "confirmed_date",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:global_seed"
+    "source_weight_reason": "type:global_seed",
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "Book Culture Club",
@@ -42417,7 +42538,9 @@
       "ペーパーワーク、小作品、大気感ある水彩表現との親和性が高い。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:global_seed"
+    "source_weight_reason": "type:global_seed",
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Komiyama Tokyo",
@@ -42786,7 +42909,7 @@
     "dominant_curator_personality": "publication_ecosystem",
     "curator_patterns": [],
     "recommendation_visibility": "show",
-    "exclusive_primary_bucket": "publication_targets",
+    "exclusive_primary_bucket": "japan_book_ecosystem",
     "contact_email": "info@shashasha.jp",
     "pre_final_guard_score": 5.1,
     "final_score_guard_note": "Rescored 5.1 → 5.3 (verification_points=1, composite=7.22)",
@@ -43242,7 +43365,10 @@
       "申請前に、より完成度の高い出版物の制作が必要と思われる。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:global_seed"
+    "source_weight_reason": "type:global_seed",
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "Creative Space Hayashi",
@@ -43402,7 +43528,9 @@
       "正当な機会か有料展示会場かを判断するには、相当量のコールドアプローチと調査が必要"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "name": "全國插畫徵集-2026台灣VC文化賞",
@@ -43536,7 +43664,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2025-12-31 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Design Festa",
@@ -43974,7 +44104,10 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Contact information or submission guidelines may require direct research"
-    ]
+    ],
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "True Beauty - 2026",
@@ -44131,7 +44264,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 5/26/26 at 11:59 p.m. PDT — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Submissions — Clavis Publishing",
@@ -45029,7 +45164,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in International — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 2025年12月19日 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "第22回 世界絵画大賞展2026",
@@ -45166,7 +45303,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年3月1日より応募開始 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "The Container",
@@ -45339,7 +45478,9 @@
     ],
     "submission_url": "https://acontainerco.submittable.com",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery"
+    "source_weight_reason": "type:gallery",
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "name": "Golden Key International Art Competition",
@@ -45702,7 +45843,8 @@
     ],
     "source_type_weight": 1.0,
     "source_weight_reason": "type:scraped_candidate",
-    "name": "Aperture | Photography"
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "Royal Institute of Painters in Water Colours",
@@ -45857,8 +45999,8 @@
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-01-23 — confirm on the official site before submitting"
     ],
-    "name": "Royal Institute of Painters in Water Colours",
-    "category": "competition_award"
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed."
   },
   {
     "title": "Clavis Publishing Submissions",
@@ -46218,7 +46360,9 @@
     "email_ja": "",
     "email_zh": "",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:fair_popup"
+    "source_weight_reason": "type:fair_popup",
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "ARTE VENT Press",
@@ -46520,9 +46664,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: October 26, 2025 at 11:59 p.m. MDT — confirm on the official site before submitting"
-    ],
-    "name": "ArtConnect Open Calls",
-    "category": "global_open_call"
+    ]
   },
   {
     "title": "Japan International Watercolor Institute Online Exhibition",
@@ -46687,8 +46829,7 @@
       "2026年の締め切りは終了。年次開催のため2027年1月に応募を。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:discovery_search",
-    "name": "Japan International Watercolor Institute Online Exhibition"
+    "source_weight_reason": "type:discovery_search"
   },
   {
     "title": "International Open Call",
@@ -46837,7 +46978,9 @@
     "email_ja": "",
     "email_zh": "",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:gallery_event"
+    "source_weight_reason": "type:gallery_event",
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "OPEN CALL for the Artist-In-Residence Program 2025/2026",
@@ -47113,7 +47256,9 @@
       "Review residency requirements carefully — most want a project proposal, CV, and portfolio PDF in one package",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 2025-11-03 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "National Watercolor Society International Open Exhibition",
@@ -47263,8 +47408,7 @@
       "2026年の締め切りは過ぎた（5月22日）。毎年開催——2027年1月に要注目。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:discovery_search",
-    "name": "National Watercolor Society International Open Exhibition"
+    "source_weight_reason": "type:discovery_search"
   },
   {
     "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
@@ -47402,8 +47546,7 @@
       "キーワード一致：open call。"
     ],
     "source_type_weight": 1.1,
-    "source_weight_reason": "reward:url:deadline",
-    "name": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING"
+    "source_weight_reason": "reward:url:deadline"
   },
   {
     "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
@@ -47538,8 +47681,7 @@
       "キーワード該当：オープンコール"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:scraped_link_candidate",
-    "name": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar"
+    "source_weight_reason": "type:scraped_link_candidate"
   },
   {
     "name": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
@@ -47701,7 +47843,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年1月31日 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Boji Hair+Gallery",
@@ -47865,7 +48009,8 @@
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Contact information or submission guidelines may require direct research"
     ],
-    "category": "gallery"
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "Royal Watercolour Society",
@@ -48029,8 +48174,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2025-11-28 — confirm on the official site before submitting"
-    ],
-    "category": "competition_award"
+    ]
   },
   {
     "name": "SICF Fukuoka 2026",
@@ -48328,8 +48472,7 @@
       "キーワード該当：応募"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:scraped_link_candidate",
-    "name": "submissions for the 2026 set film festival are now open"
+    "source_weight_reason": "type:scraped_link_candidate"
   },
   {
     "title": "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...",
@@ -48500,7 +48643,7 @@
     ],
     "career_category": "residencies",
     "opportunity_type": "enriched_opportunity",
-    "status": "research_next",
+    "status": "closed_this_cycle",
     "fit_score": 78,
     "actionability_score": 97,
     "risk_score": 12,
@@ -48616,7 +48759,8 @@
       "リスク：締め切りの手動確認が必要。"
     ],
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:submit"
+    "source_weight_reason": "reward:url:submit",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
@@ -49135,7 +49279,8 @@
     ],
     "source_type_weight": 1.0,
     "source_weight_reason": "type:fair_popup",
-    "name": "RAW TOKYO"
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "Japan Watercolor Society Annual Exhibition",
@@ -49301,7 +49446,9 @@
       "長期的なキャリアに必要な同業者・専門家とのネットワーク構築につながる。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:global_seed"
+    "source_weight_reason": "type:global_seed",
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "Fukuoka Art Book Fair",
@@ -50067,8 +50214,7 @@
       "キーワードヒット：zine、公募、レジデンシー"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:scraped_link_candidate",
-    "name": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at "
+    "source_weight_reason": "type:scraped_link_candidate"
   },
   {
     "title": "Zine & Book フェス in 神保町 (Jimbocho)",
@@ -50577,8 +50723,7 @@
       "キーワード一致：オープンコール、応募、展覧会、イラスト。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:scraped_candidate",
-    "name": "PhotoVogue"
+    "source_weight_reason": "type:scraped_candidate"
   },
   {
     "title": "Art Submissions",
@@ -50716,7 +50861,9 @@
       "キーワードヒット：submission（応募）"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:scraped_link_candidate"
+    "source_weight_reason": "type:scraped_link_candidate",
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "OM SYSTEM PLAZA 2026年4月～6月開催分",
@@ -51280,8 +51427,7 @@
       "2026年サイクルは終了。2027年サイクルは2026年10月に応募。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:discovery_search",
-    "name": "Shangyuan International Residency Programme"
+    "source_weight_reason": "type:discovery_search"
   },
   {
     "title": "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...",
@@ -51582,9 +51728,7 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 30/09/2025 — confirm on the official site before submitting"
-    ],
-    "name": "CuratorSpace",
-    "category": "global_open_call"
+    ]
   },
   {
     "title": "» 21 Terrific Small Presses Open to Direct Submissions",
@@ -52679,8 +52823,7 @@
     ],
     "submission_url": "https://www.opencallforartists.com/listing/1088",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:cafe_gallery",
-    "name": "Cafe Gallery HATTIFNATT"
+    "source_weight_reason": "type:cafe_gallery"
   },
   {
     "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
@@ -52881,8 +53024,7 @@
       "キーワード該当：zine、open call"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:scraped_link_candidate",
-    "name": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin"
+    "source_weight_reason": "type:scraped_link_candidate"
   },
   {
     "name": "2026 Asian Heritage Culture Art Show",
@@ -53036,7 +53178,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: March 31, 2026 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "2026年度 第1回 スタートアップ助成",
@@ -53310,8 +53454,7 @@
       "キーワード該当：オープンコール"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:scraped_link_candidate",
-    "name": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou"
+    "source_weight_reason": "type:scraped_link_candidate"
   },
   {
     "title": "AIR_J Open Calls",
@@ -53603,8 +53746,7 @@
       "キーワード該当：オープンコール、展覧会"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:scraped_link_candidate",
-    "name": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod"
+    "source_weight_reason": "type:scraped_link_candidate"
   },
   {
     "title": "Shoto Museum Open Call",
@@ -55389,8 +55531,7 @@
       "キーワード該当：zine、オープンコール、応募、レジデンシー、展覧会"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:scraped_candidate",
-    "name": "Top Artist Opportunities for 2026 | ArtConnect"
+    "source_weight_reason": "type:scraped_candidate"
   },
   {
     "name": "Spring Flora and Fauna Art Exhibition 2026",
@@ -55583,7 +55724,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: May 31, 2026 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "NADiff a/p/a/r/t",
@@ -55787,7 +55930,9 @@
     ],
     "source_type_weight": 1.0,
     "source_weight_reason": "type:bookstore_gallery",
-    "name": "NADiff a/p/a/r/t"
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned error — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "Home - Printed Matter",
@@ -56054,7 +56199,9 @@
     ],
     "source_type_weight": 1.0,
     "source_weight_reason": "type:scraped_candidate",
-    "name": "Home - Printed Matter"
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "滋賀県愛荘町絵画展",
@@ -56331,7 +56478,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-05-08 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Kyoto Art Center Residency",
@@ -56877,8 +57026,7 @@
       "キーワード一致：公募。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:scraped_link_candidate",
-    "name": "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S"
+    "source_weight_reason": "type:scraped_link_candidate"
   },
   {
     "name": "りんごろごろごろ",
@@ -57659,7 +57807,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-05-11 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)",
@@ -58062,7 +58212,10 @@
       "Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Contact information or submission guidelines may require direct research"
-    ]
+    ],
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "2026 OCAA Ladies Art Exhibition",
@@ -58372,8 +58525,8 @@
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2025-11-14 — confirm on the official site before submitting"
     ],
-    "name": "Pastel Society Open Exhibition",
-    "category": "competition_award"
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed."
   },
   {
     "title": "Royal Institute of Painters in Water Colours",
@@ -58536,8 +58689,8 @@
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-01-23 — confirm on the official site before submitting"
     ],
-    "name": "Royal Institute of Painters in Water Colours",
-    "category": "competition_award"
+    "status": "needs_reverification",
+    "verification_note": "URL verification returned bad — site may be unreachable or changed."
   },
   {
     "name": "Japan in Acquarello 水彩画作品公募2026",
@@ -58672,7 +58825,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Contact information or submission guidelines may require direct research"
-    ]
+    ],
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "新世紀美術協会 神戸支部 油彩・水彩小作品展（Shin-Seiki Bijutsu Kyokai Kobe Branch Oil & Watercolor Small Works Exhibition）",
@@ -58849,7 +59004,9 @@
       "Submit a strong portfolio PDF and a brief project description — magazine open calls are competitive; context matters",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Contact information or submission guidelines may require direct research"
-    ]
+    ],
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
@@ -59056,7 +59213,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Based in Shanghai, China — confirm this matches your geographic focus before investing preparation time",
       "Contact information or submission guidelines may require direct research"
-    ]
+    ],
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "loneliness books",
@@ -59254,7 +59413,9 @@
       "最初のアクション：現在も活動中か、実店舗での販売ルートがあるかを確認する。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:zine_print"
+    "source_weight_reason": "type:zine_print",
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "2026 International Children and Youth Painting Competition Summer Season",
@@ -59395,7 +59556,10 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in International — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 12-03-2026 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)",
@@ -59557,7 +59721,9 @@
       "Visit in Tokyo, Japan to see the space and speak with the manager about upcoming exhibition slots",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Contact information or submission guidelines may require direct research"
-    ]
+    ],
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "Tokyo Open Call for Artists & Creatives",
@@ -59713,7 +59879,9 @@
       "Attend an opening or event in Tokyo, Japan first — gallery relationships start with presence, not cold submissions",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Contact information or submission guidelines may require direct research"
-    ]
+    ],
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "日本透明水彩会 2026",
@@ -59857,7 +60025,9 @@
       "Attend an opening or event in Sapporo, Japan first — gallery relationships start with presence, not cold submissions",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Contact information or submission guidelines may require direct research"
-    ]
+    ],
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "上野之森美術館展覽 (Ueno Forest Museum Exhibition - Paper-based Works)",
@@ -60044,7 +60214,10 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026年4月8日~13日 (April 8-13, 2026) — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "Sunny Boy Books",
@@ -60255,7 +60428,8 @@
     ],
     "source_type_weight": 1.0,
     "source_weight_reason": "type:discovery_search",
-    "name": "Sunny Boy Books"
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "Artist in Residence program in Paris 2026/2027",
@@ -60542,7 +60716,10 @@
       "Review residency requirements carefully — most want a project proposal, CV, and portfolio PDF in one package",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 2026-04-10 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "5th Singapore Chinese Art Exhibition 2026",
@@ -60696,7 +60873,10 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 28 February – 1 March 2026 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "Dig A Hole Zines",
@@ -60899,7 +61079,9 @@
       "最初のアクション：Instagramを確認し、営業時間・場所を把握した上でサンプルを用意する。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:zine_print"
+    "source_weight_reason": "type:zine_print",
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "MADO Café",
@@ -61064,7 +61246,8 @@
     ],
     "source_type_weight": 1.0,
     "source_weight_reason": "type:cafe_gallery",
-    "name": "MADO Café"
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "ZINE FARM TOKYO",
@@ -61264,7 +61447,9 @@
       "最初のアクション：現在も活動中か、外部ジンの販売・受け入れをしているか確認する。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:zine_print"
+    "source_weight_reason": "type:zine_print",
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "水彩アートのみ展示イベント",
@@ -61405,7 +61590,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-01-31 — confirm on the official site before submitting"
-    ]
+    ],
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "RawGround 2026",
@@ -61561,7 +61748,10 @@
       "Consider table/booth cost and minimum inventory needed — these require physical preparation and stock",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 31 January 2026 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "Watercolor Open Call Exhibition",
@@ -61724,7 +61914,9 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: Mid-July (截止 unclear from snippet) — confirm on the official site before submitting"
-    ]
+    ],
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "南京插画艺术家展览 2026年3月",
@@ -61858,7 +62050,10 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: 2026-01-25 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "Clouds Art + Coffee",
@@ -62042,7 +62237,8 @@
     ],
     "source_type_weight": 1.0,
     "source_weight_reason": "type:discovery_search",
-    "name": "Clouds Art + Coffee"
+    "verification_note": "Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "name": "2026 Kyoto Museum International Art Grand Exhibition",
@@ -62174,7 +62370,9 @@
       "Check the official website for current submission guidelines and open call status",
       "Verify current status at the official site before investing time — websites change and open calls close early",
       "Deadline: August 31, 2025 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "title": "Asian Cultural Council Fellowship",
@@ -62319,7 +62517,9 @@
     ],
     "site_http_code": 0,
     "source_type_weight": 1.15,
-    "source_weight_reason": "reward:url:asianculturalcouncil"
+    "source_weight_reason": "reward:url:asianculturalcouncil",
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually."
   },
   {
     "name": "2026国际艺术大赏展",
@@ -62471,7 +62671,10 @@
       "Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter",
       "Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time",
       "Deadline: 2026年2月6日 — confirm on the official site before submitting"
-    ]
+    ],
+    "status": "closed_this_cycle",
+    "verification_note": "Deadline passed — closed this cycle. May reopen annually. Flagged for review: marked reject but category suggests legitimate venue/opportunity.",
+    "review_flag": "reject_bucket_review"
   },
   {
     "title": "NEW AIR",
@@ -62768,7 +62971,7 @@
     ],
     "career_category": "residencies",
     "opportunity_type": "residencies",
-    "status": "research_next",
+    "status": "needs_reverification",
     "confidence": 70,
     "import_source": "multi_ingress_sprint_v1",
     "source_candidate_id": "MULTI-0127",
@@ -62880,7 +63083,8 @@
       "検出シグナル：締め切りシグナル。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:residency"
+    "source_weight_reason": "type:residency",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "2026 Open Call from Japanese Artist In Residence \"SAIKONEON\" nearby Mt ...",
@@ -62908,7 +63112,7 @@
     ],
     "career_category": "residencies",
     "opportunity_type": "residencies",
-    "status": "research_next",
+    "status": "needs_reverification",
     "confidence": 70,
     "import_source": "multi_ingress_sprint_v1",
     "source_candidate_id": "MULTI-0137",
@@ -63021,7 +63225,8 @@
       "検出シグナル：締め切りシグナル。"
     ],
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:residency"
+    "source_weight_reason": "type:residency",
+    "verification_note": "URL verification returned error — site may be unreachable or changed."
   },
   {
     "title": "twelvebooks",
