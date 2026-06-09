@@ -1,7 +1,7 @@
 # ART FAIR TOKYO 21
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 9.0/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  

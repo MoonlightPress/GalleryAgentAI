@@ -7,7 +7,7 @@ General Portfolio
 A concise selection of her strongest current work.
 
 ## Opportunity Fit
-Government-funded overseas training program for emerging artists in visual arts and other disciplines, supporting international research and professional development abroad.
+The program's focus on international research and professional development abroad directly supports her practice of documenting ephemeral urban moments and architectural details—allowing her to develop new watercolor methodologies while observing how memory and place manifest in different cities beyond Tokyo. As an early-stage artist with a daily practice rooted in specific geographies, this funding structure enables her to deepen her conceptual investigation of disappearing environments on an international scale.
 
 ## Match Signals
 No strong keyword match stored yet.

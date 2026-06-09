@@ -1,7 +1,7 @@
 # NEW AIR
 
 ## 1. Quick Judgment
-**Fit score:** 1.8/10  
+**Fit score:** 1.6/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Residencies / Longer Projects  

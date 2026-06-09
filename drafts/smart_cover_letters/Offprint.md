@@ -4,10 +4,10 @@ Tone:
 focused and editorial
 
 Recommended Body of Work:
-Artist Book / Printed Matter
+Daily Poetic Photography
 
 Core Fit:
-Good fit if her atmospheric work is developed into printed matter, especially artist books or quiet watercolor artistly publications.
+Offprint's focus on artist-led publishing aligns with GEGYjiji's daily watercolor practice and atmospheric documentation of urban environments—her body of quiet architectural work translates naturally into intimate printed matter. The fair's experimental publishing ethos matches her approach to capturing fleeting moments of Tokyo's cityscape, where the page becomes an extension of her observational practice rather than a secondary format.
 
 Draft Structure:
 

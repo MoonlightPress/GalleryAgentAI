@@ -196,6 +196,23 @@
     "recommended_action": "High-fit opportunity. Review report and prepare outreach."
   },
   {
+    "key": "tokyo illustrators society::tokyo illustrators society",
+    "title": "Tokyo Illustrators Society",
+    "organization": "Tokyo Illustrators Society",
+    "score": 9.6,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: fees, contact."
+  },
+  {
     "key": "第113回 日本水彩展::公益社団法人 日本水彩画会",
     "title": "第113回 日本水彩展",
     "organization": "公益社団法人 日本水彩画会",
@@ -420,23 +437,6 @@
     "recommended_action": "Research missing details: submission process."
   },
   {
-    "key": "tokyo illustrators society::tokyo illustrators society",
-    "title": "Tokyo Illustrators Society",
-    "organization": "Tokyo Illustrators Society",
-    "score": 9.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: fees, contact."
-  },
-  {
     "key": "pen magazine — artist spotlight::cccメディアハウス",
     "title": "Pen Magazine — Artist Spotlight",
     "organization": "CCCメディアハウス",
@@ -613,22 +613,6 @@
       "deadline"
     ],
     "recommended_action": "Research missing details: deadline."
-  },
-  {
-    "key": "tokyo gendai 2026::tokyo gendai",
-    "title": "Tokyo Gendai 2026",
-    "organization": "Tokyo Gendai",
-    "score": 9.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
   },
   {
     "key": "mograg gallery::mograg",
@@ -916,6 +900,20 @@
     "recommended_action": "High-fit opportunity. Review report and prepare outreach."
   },
   {
+    "key": "international illustration 2026::japan design (compe.japandesign.ne.jp)",
+    "title": "International Illustration 2026",
+    "organization": "Japan Design (compe.japandesign.ne.jp)",
+    "score": 8.9,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [],
+    "recommended_action": "High-fit opportunity. Review report and prepare outreach."
+  },
+  {
     "key": "b&b (book & beer)::b&b",
     "title": "B&B (Book & Beer)",
     "organization": "B&B",
@@ -1010,6 +1008,24 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, contact."
+  },
+  {
+    "key": "local gallery・books::local gallery・books",
+    "title": "LOCAL Gallery・Books",
+    "organization": "LOCAL Gallery・Books",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "fees",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, fees, contact."
   },
   {
     "key": "american watercolor society annual international exhibition::american watercolor society",
@@ -1174,6 +1190,23 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, fees, contact."
+  },
+  {
+    "key": "mona records::mona records",
+    "title": "Mona Records",
+    "organization": "Mona Records",
+    "score": 8.8,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, contact."
   },
   {
     "key": "全国日曜画家コンクール::一枚の繪（ichimainoe.co.jp）",
@@ -1422,6 +1455,22 @@
     "recommended_action": "Research missing details: contact."
   },
   {
+    "key": "tokyo gendai 2026::tokyo gendai",
+    "title": "Tokyo Gendai 2026",
+    "organization": "Tokyo Gendai",
+    "score": 8.5,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
     "key": "open call for proposals for singapore art week 2026 – the 14th edition::singapore art week / national arts council",
     "title": "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition",
     "organization": "Singapore Art Week / National Arts Council",
@@ -1616,25 +1665,6 @@
     "recommended_action": "Research missing details: contact."
   },
   {
-    "key": "local gallery・books::local gallery・books",
-    "title": "LOCAL Gallery・Books",
-    "organization": "LOCAL Gallery・Books",
-    "score": 8.2,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, fees."
-  },
-  {
     "key": "village vanguard shimokitazawa::village vanguard",
     "title": "Village Vanguard Shimokitazawa",
     "organization": "Village Vanguard",
@@ -1791,10 +1821,10 @@
     "recommended_action": "High-fit opportunity. Review report and prepare outreach."
   },
   {
-    "key": "mona records::mona records",
-    "title": "Mona Records",
-    "organization": "Mona Records",
-    "score": 8.1,
+    "key": "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展::油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展",
+    "title": "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展",
+    "organization": "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展",
+    "score": 8.2,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -1802,11 +1832,9 @@
     "response_received": false,
     "follow_up_date": "",
     "missing": [
-      "submission process",
-      "deadline",
       "contact"
     ],
-    "recommended_action": "Research missing details: submission process, deadline, contact."
+    "recommended_action": "Research missing details: contact."
   },
   {
     "key": "ballond'essai shimokitazawa::ballond'essai",
@@ -1908,6 +1936,20 @@
     "recommended_action": "Research missing details: submission process, contact."
   },
   {
+    "key": "tokyo midtown award 2026 アートコンペ::tokyo midtown",
+    "title": "TOKYO MIDTOWN AWARD 2026 アートコンペ",
+    "organization": "Tokyo Midtown",
+    "score": 8.1,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [],
+    "recommended_action": "High-fit opportunity. Review report and prepare outreach."
+  },
+  {
     "key": "gallery rocket harajuku::gallery rocket",
     "title": "Gallery Rocket Harajuku",
     "organization": "Gallery Rocket",
@@ -1956,6 +1998,22 @@
     "recommended_action": "Research missing details: contact."
   },
   {
+    "key": "2026博洛尼亚国际插画大赛::博洛尼亚童书展（bibf）",
+    "title": "2026博洛尼亚国际插画大赛",
+    "organization": "博洛尼亚童书展（BIBF）",
+    "score": 8.0,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "fees"
+    ],
+    "recommended_action": "Research missing details: fees."
+  },
+  {
     "key": "flotsam books::flotsam books",
     "title": "flotsam books",
     "organization": "flotsam books",
@@ -2001,39 +2059,6 @@
     "recommended_action": "Research missing details: submission process, contact."
   },
   {
-    "key": "tokyo midtown award 2026 アートコンペ::tokyo midtown",
-    "title": "TOKYO MIDTOWN AWARD 2026 アートコンペ",
-    "organization": "Tokyo Midtown",
-    "score": 7.8,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "international illustration 2026::japan design (compe.japandesign.ne.jp)",
-    "title": "International Illustration 2026",
-    "organization": "Japan Design (compe.japandesign.ne.jp)",
-    "score": 7.8,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: fees, contact."
-  },
-  {
     "key": "applied arts 2026 illustration awards::applied arts",
     "title": "Applied Arts 2026 Illustration Awards",
     "organization": "Applied Arts",
@@ -2048,6 +2073,20 @@
       "contact"
     ],
     "recommended_action": "Research missing details: contact."
+  },
+  {
+    "key": "eiaf 2026–2027 artist-in-residence program::7artscafe",
+    "title": "EIAF 2026–2027 Artist-in-Residence Program",
+    "organization": "7artscafe",
+    "score": 7.7,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [],
+    "recommended_action": "High-fit opportunity. Review report and prepare outreach."
   },
   {
     "key": "cow books nakameguro::cow books",
@@ -2283,23 +2322,6 @@
     "recommended_action": "Research missing details: submission process, fees, contact."
   },
   {
-    "key": "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展::油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展",
-    "title": "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展",
-    "organization": "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展",
-    "score": 7.5,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: fees, contact."
-  },
-  {
     "key": "第22回 世界絵画大賞展2026::世界絵画大賞展実行委員会（東京都新宿区）",
     "title": "第22回 世界絵画大賞展2026",
     "organization": "世界絵画大賞展実行委員会（東京都新宿区）",
@@ -2334,23 +2356,6 @@
       "contact"
     ],
     "recommended_action": "Research missing details: submission process, fees, contact."
-  },
-  {
-    "key": "2026博洛尼亚国际插画大赛::博洛尼亚童书展（bibf）",
-    "title": "2026博洛尼亚国际插画大赛",
-    "organization": "博洛尼亚童书展（BIBF）",
-    "score": 7.4,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "fees",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: fees, contact."
   },
   {
     "key": "2026春季二科展「nika+nika/s20号」コンクール::新槐樹社",
@@ -2460,22 +2465,6 @@
     "key": "bankart1929::bankart1929",
     "title": "BankART1929",
     "organization": "BankART1929",
-    "score": 7.3,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
-    "key": "eiaf 2026–2027 artist-in-residence program::7artscafe",
-    "title": "EIAF 2026–2027 Artist-in-Residence Program",
-    "organization": "7artscafe",
     "score": 7.3,
     "priority": "high",
     "status": "new",
@@ -3656,24 +3645,6 @@
     "recommended_action": "Research missing details: submission process, deadline, fees."
   },
   {
-    "key": "2026年度 第1回 スタートアップ助成::2026年度 第1回 スタートアップ助成",
-    "title": "2026年度 第1回 スタートアップ助成",
-    "organization": "2026年度 第1回 スタートアップ助成",
-    "score": 3.6,
-    "priority": "high",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline",
-      "contact"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline, contact."
-  },
-  {
     "key": "ローズ・ローズ・ローズ::ギャラリーディオキサジン",
     "title": "ローズ・ローズ・ローズ",
     "organization": "ギャラリーディオキサジン",
@@ -3805,6 +3776,24 @@
     "title": "スクエア・ワールド2026",
     "organization": "ギャラリーディオキサジン",
     "score": 3.1,
+    "priority": "high",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline",
+      "contact"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline, contact."
+  },
+  {
+    "key": "2026年度 第1回 スタートアップ助成::2026年度 第1回 スタートアップ助成",
+    "title": "2026年度 第1回 スタートアップ助成",
+    "organization": "2026年度 第1回 スタートアップ助成",
+    "score": 3.0,
     "priority": "high",
     "status": "new",
     "saved": false,
@@ -4561,36 +4550,6 @@
     "recommended_action": "Promising. Save or compare against higher-fit options."
   },
   {
-    "key": "spiral::spiral",
-    "title": "Spiral",
-    "organization": "Spiral",
-    "score": 6.9,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [],
-    "recommended_action": "Promising. Save or compare against higher-fit options."
-  },
-  {
-    "key": "picaresque gallery::picaresque gallery",
-    "title": "Picaresque Gallery",
-    "organization": "Picaresque Gallery",
-    "score": 6.9,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "contact"
-    ],
-    "recommended_action": "Research missing details: contact."
-  },
-  {
     "key": "2026年全国美术作品征集::2026年全国美术作品征集",
     "title": "2026年全国美术作品征集",
     "organization": "2026年全国美术作品征集",
@@ -4816,6 +4775,22 @@
     "recommended_action": "Research missing details: submission process, deadline."
   },
   {
+    "key": "picaresque gallery::picaresque gallery",
+    "title": "Picaresque Gallery",
+    "organization": "Picaresque Gallery",
+    "score": 6.3,
+    "priority": "medium",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "contact"
+    ],
+    "recommended_action": "Research missing details: contact."
+  },
+  {
     "key": "nantoka bar koenji::nantoka bar",
     "title": "Nantoka Bar Koenji",
     "organization": "Nantoka Bar",
@@ -4831,6 +4806,20 @@
       "deadline"
     ],
     "recommended_action": "Research missing details: submission process, deadline."
+  },
+  {
+    "key": "spiral::spiral",
+    "title": "Spiral",
+    "organization": "Spiral",
+    "score": 6.2,
+    "priority": "medium",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [],
+    "recommended_action": "Promising. Save or compare against higher-fit options."
   },
   {
     "key": "open call for artists! tokyo biennale 2025 \"social dive\"::open call for artists! tokyo biennale 2025 \"social dive\"",
@@ -5817,23 +5806,6 @@
     "recommended_action": "Research missing details: submission process, fees."
   },
   {
-    "key": "スタートアップ助成 (startup grant)::公益財団法人東京都歴史文化財団 アーツカウンシル東京 (public interest incorporated foundation tokyo metropolitan foundation for history and culture, arts council tokyo)",
-    "title": "スタートアップ助成 (Startup Grant)",
-    "organization": "公益財団法人東京都歴史文化財団 アーツカウンシル東京 (Public Interest Incorporated Foundation Tokyo Metropolitan Foundation for History and Culture, Arts Council Tokyo)",
-    "score": 2.8,
-    "priority": "medium",
-    "status": "new",
-    "saved": false,
-    "contacted": false,
-    "response_received": false,
-    "follow_up_date": "",
-    "missing": [
-      "submission process",
-      "deadline"
-    ],
-    "recommended_action": "Research missing details: submission process, deadline."
-  },
-  {
     "key": "kyoto art center residency::kyoto art center residency",
     "title": "Kyoto Art Center Residency",
     "organization": "Kyoto Art Center Residency",
@@ -5883,6 +5855,23 @@
       "fees"
     ],
     "recommended_action": "Research missing details: submission process, fees."
+  },
+  {
+    "key": "スタートアップ助成 (startup grant)::公益財団法人東京都歴史文化財団 アーツカウンシル東京 (public interest incorporated foundation tokyo metropolitan foundation for history and culture, arts council tokyo)",
+    "title": "スタートアップ助成 (Startup Grant)",
+    "organization": "公益財団法人東京都歴史文化財団 アーツカウンシル東京 (Public Interest Incorporated Foundation Tokyo Metropolitan Foundation for History and Culture, Arts Council Tokyo)",
+    "score": 2.2,
+    "priority": "medium",
+    "status": "new",
+    "saved": false,
+    "contacted": false,
+    "response_received": false,
+    "follow_up_date": "",
+    "missing": [
+      "submission process",
+      "deadline"
+    ],
+    "recommended_action": "Research missing details: submission process, deadline."
   },
   {
     "key": "ilovetoys / neuprint — chinese illustration feature::ilovetoys / neuprint",

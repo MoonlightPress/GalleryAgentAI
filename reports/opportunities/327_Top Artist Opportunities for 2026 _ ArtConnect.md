@@ -1,8 +1,8 @@
 # Top Artist Opportunities for 2026 | ArtConnect
 
 ## 1. Quick Judgment
-**Fit score:** 7.2/10  
-**Fit band:** Strong fit  
+**Fit score:** 4.6/10  
+**Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Print / Zines / Bookstores  
 **City:** Online  

@@ -9,21 +9,21 @@
 
 ## Top 15 Opportunities
 
-- Tokyo Art Book Fair — 9.6/10 — verified — ok — Rescored 10.0 → 9.6 (verification_points=7, composite=10.36)
-- UTRECHT — 9.2/10 — verified — ok — Rescored 10.0 → 9.2 (verification_points=5, composite=10.36)
-- Women United ART MAGAZINE Issue XIV Summer 2026 — 9.2/10 — verified — ok — Rescored 8.9 → 9.2 (verification_points=5, composite=10.52)
-- SUBMISSIONS - marblepress.com — 9.2/10 — verified — ok — Rescored 8.9 → 9.2 (verification_points=5, composite=9.66)
-- flotsam books — 8.3/10 — verified — ok — Rescored 10.0 → 8.3 (verification_points=5, composite=8.58)
-- B&B Shimokitazawa — 8.0/10 — verified — ok — Rescored 10.0 → 8.0 (verification_points=4, composite=8.58)
-- submissions — porkbelly press — 6.1/10 — verified — ok — Rescored 8.9 → 6.1 (verification_points=7, composite=6.06)
-- 美術手帖 (Bijutsu Techo) — Artist Feature — 9.2/10 — verified — ok — Rescored 8.9 → 9.2 (verification_points=5, composite=9.62)
-- ZINEフェス東京 (ZINE Fest Tokyo) — 9.2/10 — verified — ok — Rescored 10.0 → 9.2 (verification_points=5, composite=10.2)
-- TOKIO ART BOOK FAIR 2026 — 6.0/10 — verified — ok — Rescored 10.0 → 6.0 (verification_points=6, composite=6.0)
-- Center for Book Arts Opportunities — 9.6/10 — verified — ok — Rescored 8.9 → 9.6 (verification_points=6, composite=9.57)
-- Aesthetica Art Prize — 9.6/10 — verified — ok — Rescored 8.9 → 9.6 (verification_points=6, composite=10.2)
-- Still Life - 2026 — 9.6/10 — verified — ok — Rescored 8.9 → 9.6 (verification_points=7, composite=9.56)
-- American Illustration — 9.6/10 — verified — ok — Rescored 8.9 → 9.6 (verification_points=7, composite=10.34)
-- World Illustration Awards — 9.6/10 — verified — ok — Rescored 8.9 → 9.6 (verification_points=6, composite=10.34)
+- Tokyo Art Book Fair — 9.6/10 — verified — ok — Rescored 10.0 → 9.6 (verification_points=7, composite=10.44)
+- Center for Book Arts Opportunities — 9.6/10 — verified — ok — Rescored 9.1 → 9.6 (verification_points=6, composite=9.65)
+- UTRECHT — 9.2/10 — verified — ok — Rescored 10.0 → 9.2 (verification_points=5, composite=10.28)
+- Aesthetica Art Prize — 9.6/10 — verified — ok — Rescored 9.1 → 9.6 (verification_points=6, composite=10.28)
+- Women United ART MAGAZINE Issue XIV Summer 2026 — 9.2/10 — verified — ok — Rescored 8.7 → 9.2 (verification_points=5, composite=10.44)
+- SUBMISSIONS - marblepress.com — 9.2/10 — verified — ok — Rescored 8.7 → 9.2 (verification_points=5, composite=9.58)
+- Still Life - 2026 — 9.6/10 — verified — ok — Rescored 9.1 → 9.6 (verification_points=7, composite=9.64)
+- American Illustration — 9.6/10 — verified — ok — Rescored 9.1 → 9.6 (verification_points=7, composite=10.42)
+- World Illustration Awards — 9.6/10 — verified — ok — Rescored 9.1 → 9.6 (verification_points=6, composite=10.42)
+- Jackson's Art Prize — 9.6/10 — verified — ok — Rescored 9.1 → 9.6 (verification_points=6, composite=10.42)
+- The Artcomplex Center of Tokyo — 9.6/10 — verified — ok — Rescored 9.1 → 9.6 (verification_points=7, composite=9.64)
+- Society of Women Artists — 9.6/10 — verified — ok — Rescored 9.1 → 9.6 (verification_points=7, composite=9.64)
+- 美術手帖 (Bijutsu Techo) — Artist Feature — 9.2/10 — verified — ok — Rescored 8.7 → 9.2 (verification_points=5, composite=9.54)
+- 本店・本屋の実験室 — 9.6/10 — verified — ok — Rescored 9.1 → 9.6 (verification_points=7, composite=10.19)
+- ZINEフェス東京 (ZINE Fest Tokyo) — 9.2/10 — verified — ok — Rescored 10.0 → 9.2 (verification_points=5, composite=10.12)
 
 ## Approved Candidate Sample
 

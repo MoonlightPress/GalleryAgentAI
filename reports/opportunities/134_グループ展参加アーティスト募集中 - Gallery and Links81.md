@@ -1,20 +1,20 @@
 # グループ展参加アーティスト募集中 - Gallery and Links81
 
 ## 1. Quick Judgment
-**Fit score:** 8.6/10  
+**Fit score:** 9.4/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.
+Core public information appears present.
 
 - **Official/source website**: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a (verified)
-- **Submission process**: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a (verified)
-- **Deadline**: Not publicly listed (needs_inquiry)
-- **Fees**: Not publicly listed (needs_inquiry)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://galleryandlinks81.jp/recruiting/ (verified)
+- **Deadline**: 2026年9月14日 (verified)
+- **Fees**: Free (verified)
+- **Contact**: info@galleryandlinks81.jp (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Galleries / Exhibition Calls.
@@ -34,9 +34,9 @@ Verified: Official/source website, Submission process. Needs checking: Deadline,
 - Risk: Only one source found so far.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
-- **Submission page:** //duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a
+- **Deadline:** 2026年9月14日
+- **Fees:** Free
+- **Submission page:** https://galleryandlinks81.jp/recruiting/
 - **Source:** //duckduckgo.com/l/?uddg=https%3A%2F%2Fgalleryandlinks81.jp%2Frecruiting%2F&rut=cd9b0794dd15c26a02d7e649f96f88f1bc150a02cffe29be6c716e1e6f39de7a
 
 ## 8. Risk / Unknowns
@@ -48,4 +48,4 @@ Review current/past artists and check whether submissions, contact email, or ope
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-09_

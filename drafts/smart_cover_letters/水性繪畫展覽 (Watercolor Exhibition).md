@@ -7,7 +7,7 @@ Recommended Body of Work:
 Community / Local Visibility
 
 Core Fit:
-Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
+A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 90k Instagram following.
 
 Draft Structure:
 

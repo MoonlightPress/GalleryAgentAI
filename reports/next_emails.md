@@ -16,13 +16,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## UTRECHT — Quiet Neighborhood Memory
+## Center for Book Arts Opportunities — Quiet Neighborhood Memory
 
 **Subject:** Photography / artist book inquiry — Quiet Neighborhood Memory
 
 Hello,
 
-I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether Center for Book Arts Opportunities is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Quiet Neighborhood Memory." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
@@ -30,13 +30,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## Women United ART MAGAZINE Issue XIV Summer 2026 — Quiet Neighborhood Memory
+## UTRECHT — Quiet Neighborhood Memory
 
 **Subject:** Photography / artist book inquiry — Quiet Neighborhood Memory
 
 Hello,
 
-I am researching whether Women United ART MAGAZINE Issue XIV Summer 2026 is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Quiet Neighborhood Memory." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
@@ -58,13 +58,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## UTRECHT — Human Trace Study
+## Center for Book Arts Opportunities — Human Trace Study
 
 **Subject:** Photography / artist book inquiry — Human Trace Study
 
 Hello,
 
-I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether Center for Book Arts Opportunities is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Human Trace Study." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
@@ -72,13 +72,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## Women United ART MAGAZINE Issue XIV Summer 2026 — Human Trace Study
+## UTRECHT — Human Trace Study
 
 **Subject:** Photography / artist book inquiry — Human Trace Study
 
 Hello,
 
-I am researching whether Women United ART MAGAZINE Issue XIV Summer 2026 is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Human Trace Study." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
@@ -100,13 +100,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## UTRECHT — Small Press City Walk
+## Center for Book Arts Opportunities — Small Press City Walk
 
 **Subject:** Photography / artist book inquiry — Small Press City Walk
 
 Hello,
 
-I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether Center for Book Arts Opportunities is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Small Press City Walk." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 
@@ -114,13 +114,13 @@ Could you let me know whether there is a current submission process, open call, 
 
 Thank you.
 
-## Women United ART MAGAZINE Issue XIV Summer 2026 — Small Press City Walk
+## UTRECHT — Small Press City Walk
 
 **Subject:** Photography / artist book inquiry — Small Press City Walk
 
 Hello,
 
-I am researching whether Women United ART MAGAZINE Issue XIV Summer 2026 is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
+I am researching whether UTRECHT is currently open to quiet photography, photobook, artist-book, or zine-related submissions.
 
 The project I am considering is titled "Small Press City Walk." It is a small photographic sequence about ordinary neighborhoods, lived-in spaces, memory, and human traces in daily life.
 

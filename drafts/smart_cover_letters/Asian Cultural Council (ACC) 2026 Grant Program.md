@@ -7,7 +7,7 @@ Recommended Body of Work:
 General Portfolio
 
 Core Fit:
-ACC provides fellowships and cultural exchange opportunities for Asian artists to explore new cultures and develop their artistic practice internationally, supporting visual artists like watercolor illustrators.
+ACC provides fellowships and cultural exchange opportunities for Asian artists to explore new cultures and develop their artistic practice internationally, supporting visual artists like watercolor artists.
 
 Draft Structure:
 

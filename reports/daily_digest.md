@@ -4,25 +4,9 @@
 
 _Previous run: 2026-06-09_
 
-- **Score change:** Women United ART MAGAZINE Issue XIV Summer 2026 8.7 → 9.2 ↑
-- **Score change:** SICF Fukuoka 2026 5.0 → 4.7 ↓
-- **Score change:** ZINEフェス東京 (ZINE Fest Tokyo) 10.0 → 9.2 ↓
-- **Score change:** アートオリンピア2026 9.1 → 9.6 ↑
-- **Score change:** Zine & Book フェス in 神保町 (Jimbocho) 5.2 → 4.8 ↓
-- **Score change:** 水性繪畫展覽 (Watercolor Exhibition) 9.1 → 9.6 ↑
-- **Score change:** Tokyo Art Book Fair 10.0 → 9.6 ↓
-- **Score change:** 第113回 日本水彩展 8.7 → 9.6 ↑
-- **Score change:** CSPWC Annual Open Water International Exhibition 9.1 → 9.6 ↑
-- **Score change:** UTRECHT 10.0 → 9.2 ↓
-- **Score change:** MOUNT ZINE 10.0 → 9.2 ↓
-- **Score change:** 第九屆水主題國際評審藝術比賽 8.7 → 9.2 ↑
-- **Score change:** Northwest Watercolor Society 2026 Annual International Open Exhibition 7.2 → 9.2 ↑
-- **Score change:** Book and Sons 10.0 → 8.8 ↓
-- **Score change:** flotsam books 10.0 → 8.3 ↓
-- **Score change:** B&B Shimokitazawa 10.0 → 8.0 ↓
-- **Opportunity count:** 355 → 379 (+24)
+No changes detected.
 
-## Immediate Best Moves (16)
+## Immediate Best Moves (14)
 
 ### **Women United ART MAGAZINE Issue XIV Summer 2026**
 - **Apply by:** June 10, 2026 — _1d — this week_
@@ -30,12 +14,6 @@ _Previous run: 2026-06-09_
 - **Link:** https://www.womenunitedartmovement.com/artmagazine
 - _⚠ Deadline-promoted from Publication Targets — 1d remaining_
 - _Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies._
-
-### **SICF Fukuoka 2026**
-- **Apply by:** 2026-06-11 — _2d — this week_
-- **Link:** https://www.sicf.jp
-- _⚠ Deadline-promoted from Research Needed — 2d remaining_
-- _Creator exhibition opportunity for artists and artists; fits illustration/watercolor artist looking for exhibition venues._
 
 ### ZINEフェス東京 (ZINE Fest Tokyo)
 - **Apply by:** 2026-06-27 — _18d_
@@ -49,11 +27,6 @@ _Previous run: 2026-06-09_
 - **Fee:** 一般：1点 1万2000円、2点 2万円、3点 2万4000円。学生（30歳以下）：1点 6000円、2点 1万円、3点 1万2000円
 - **Link:** https://compe.japandesign.ne.jp/artolympia-2026
 - _アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offe_
-
-### Zine & Book フェス in 神保町 (Jimbocho)
-- **Apply by:** 2026 edition: January 18-19 2026 (past). Watch October 2026 for next call. — _223d_
-- **Link:** https://jimbocho-zine-book-fes.com/
-- _Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing._
 
 ### 水性繪畫展覽 (Watercolor Exhibition)
 - **Apply by:** 2月26日 (February 26) — _262d_
@@ -127,7 +100,6 @@ _Previous run: 2026-06-09_
 - **2026年度 第2期 地域芸術文化活動応援助成** — 2026-06-17 (8d) [Stretch]
 - **FY2026 Life with Art Grant** — 14:00 on Monday, June 29, 2026 (20d) [Stretch]
 - **Brillia Art Award Wall 2026** — 2026-07-08 (29d) [Research]
-- **Art on Climate インターナショナル・イラストレーション・コンテスト 2026** — 2026-07-31 (52d) [Research]
 - **KAMIHANGA国際プリント展2026** — Domestic: September 4, 2026 (Monday); International: August 14, 2026 (Thursday) (66d) [Research]
 
 ### Next Cycle — Check Dates

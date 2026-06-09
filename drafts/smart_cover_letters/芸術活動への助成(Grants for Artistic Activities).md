@@ -4,10 +4,10 @@ Tone:
 clear and professional
 
 Recommended Body of Work:
-Artist Book / Printed Matter
+Daily Poetic Photography
 
 Core Fit:
-Foundation grant for art exhibitions including paintings, sculptures, watercolor / works on paper, and video; supports individual artists and groups exhibiting contemporary visual work.
+芸術活動への助成 explicitly supports works on paper and watercolor exhibitions, making it a direct match for GEGYjiji's daily practice of capturing Tokyo's fleeting urban moments in watercolor. The foundation's focus on contemporary visual work documenting architectural and environmental change aligns with her core practice of preserving disappearing cityscapes through consistent, site-specific observation.
 
 Draft Structure:
 

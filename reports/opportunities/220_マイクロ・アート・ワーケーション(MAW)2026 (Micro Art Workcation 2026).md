@@ -1,8 +1,8 @@
 # マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)
 
 ## 1. Quick Judgment
-**Fit score:** 7.0/10  
-**Fit band:** Strong fit  
+**Fit score:** 6.8/10  
+**Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Grant  
 **City:** Tokyo  
@@ -45,4 +45,4 @@ Verify eligibility and current cycle at the official website before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-09_
