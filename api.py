@@ -44,6 +44,13 @@ def _load_suppressed() -> set:
     return set()
 
 
+def _load_suppressed_categories() -> set:
+    p = DATA_DIR / "learned_preferences.json"
+    if p.exists():
+        return set(json.loads(p.read_text(encoding="utf-8")).get("suppressed_categories", []))
+    return set()
+
+
 def _load_submission_states():
     """Return (pending_names, rejected_names, recent_accepted) from submission_log.json."""
     if not SUBMISSIONS_PATH.exists():
@@ -573,12 +580,14 @@ def load_opportunities() -> list:
         _OPP_CACHE = raw if isinstance(raw, list) else raw.get("items", [])
         _OPP_CACHE_MTIME = mtime
     suppressed = _load_suppressed()
+    suppressed_cats = _load_suppressed_categories()
     return [
         x for x in _OPP_CACHE
         if x.get("exclusive_primary_bucket") not in {"reject", "low_priority"}
         and x.get("status") != "permanently_closed"
         and x.get("recommendation_visibility") != "hidden"
         and _opp_id(x) not in suppressed
+        and x.get("category") not in suppressed_cats
     ]
 
 
