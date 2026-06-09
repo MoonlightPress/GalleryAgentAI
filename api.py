@@ -33,6 +33,10 @@ SUPPRESSED_PATH  = DATA_DIR / "suppressed_opportunities.json"
 SUBMISSIONS_PATH = DATA_DIR / "submission_log.json"
 CONTACTS_PATH    = DATA_DIR / "contact_memory.json"
 
+# ── In-memory cache for the 2.7MB opportunities dataset ──────────────────────
+_OPP_CACHE = None  # type: list
+_OPP_CACHE_MTIME: float = 0.0
+
 
 def _load_suppressed() -> set:
     if SUPPRESSED_PATH.exists():
@@ -489,12 +493,16 @@ def by_display_score(cards: list) -> list:
 
 
 def load_opportunities() -> list:
+    global _OPP_CACHE, _OPP_CACHE_MTIME
     path = DEPLOY_DIR / "compact_opportunities.json"
-    raw  = json.loads(path.read_text(encoding="utf-8"))
-    items = raw if isinstance(raw, list) else raw.get("items", [])
+    mtime = path.stat().st_mtime
+    if _OPP_CACHE is None or mtime != _OPP_CACHE_MTIME:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        _OPP_CACHE = raw if isinstance(raw, list) else raw.get("items", [])
+        _OPP_CACHE_MTIME = mtime
     suppressed = _load_suppressed()
     return [
-        x for x in items
+        x for x in _OPP_CACHE
         if x.get("exclusive_primary_bucket") not in {"reject", "low_priority"}
         and x.get("status") != "permanently_closed"
         and x.get("recommendation_visibility") != "hidden"
