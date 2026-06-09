@@ -1,7 +1,7 @@
 # Candidate Quality Gate Report
 
 Approved: 4
-Rejected: 120
+Rejected: 121
 
 ## Rejected
 
@@ -22,7 +22,7 @@ Rejected: 120
 - Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。 — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
-- Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
+- Printed Matter, Inc. — strong: printed matter, zine, score too low: 2
 - Daniel Shepard Straffon All Lover the Place: NYC [Poster] Posters $70.00 Recent Arrival Si — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Japan [Poster] Posters $70.00 Recent Arrival  — strong: printed matter, weak: book, score too low: 1
 - Daniel Shepard Straffon All Lover the Place: Indonesia [Poster] Posters $70.00 Recent Arri — strong: printed matter, weak: book, score too low: 1
@@ -100,6 +100,7 @@ Rejected: 120
 - Open Calls — strong: open call, has submission link, score too low: 3
 - www.curatorspace.com — generic page without opportunity language
 - Report this? — generic page without opportunity language
+- Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
@@ -128,7 +129,7 @@ Rejected: 120
 
 ## Approved
 
-- Home - Printed Matter — strong: zine, printed matter, photobook, book fair, weak: exhibition, book
-- Top Artist Opportunities for 2026 | ArtConnect — strong: submission, zine, residency, open call, weak: exhibition, artist, gallery
+- Home - Printed Matter — strong: photobook, book fair, printed matter, zine, weak: exhibition, book
+- Top Artist Opportunities for 2026 | ArtConnect — strong: residency, submission, zine, open call, weak: exhibition, gallery, artist
 - Art Submissions — strong: submission, open call, has submission link
-- Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou — strong: call for, open call, weak: artist, has submission link
+- Callback Open Call G George invites you to submit to Callback, a series of contemporary ar — strong: submit, open call, has submission link

@@ -9,8 +9,8 @@ This report suggests adjacent institutions and ecosystems.
 - Books Ruhe (similarity 4)
 - Home - Printed Matter (similarity 4)
 - UTRECHT (similarity 3)
-- Tacoche (similarity 3)
 - 本店・本屋の実験室 (similarity 3)
+- Tacoche (similarity 3)
 - SPBS (Shibuya Publishing Booksellers) (similarity 3)
 
 ## UTRECHT
@@ -20,9 +20,12 @@ This report suggests adjacent institutions and ecosystems.
 - そぞろ書房 (similarity 4)
 - Tokyo Art Book Fair (similarity 3)
 - B&B (Book & Beer) (similarity 3)
+- 本店・本屋の実験室 (similarity 3)
 - Tacoche (similarity 3)
 - Antenna Books (similarity 3)
-- 本店・本屋の実験室 (similarity 3)
+
+## ILOVETOYS / neuprint — Chinese Illustration Feature
+
 
 ## B&B Shimokitazawa
 
@@ -31,6 +34,12 @@ This report suggests adjacent institutions and ecosystems.
 
 
 ## SUBMISSIONS - marblepress.com
+
+
+## flotsam books
+
+
+## submissions — porkbelly press
 
 
 ## 美術手帖 (Bijutsu Techo) — Artist Feature
@@ -52,13 +61,4 @@ This report suggests adjacent institutions and ecosystems.
 
 
 ## American Illustration
-
-
-## World Illustration Awards
-
-
-## Jackson's Art Prize
-
-
-## The Artcomplex Center of Tokyo
 

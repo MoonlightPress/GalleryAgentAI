@@ -747,7 +747,7 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: zine, printed matter",
+      "strong: printed matter, zine",
       "score too low: 2"
     ]
   },
@@ -3829,6 +3829,46 @@
     "source_type": "scraped_link_candidate",
     "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-exhibition-wythnos-gelf-llanfairfechan-art-week%2F10591&redirect=%2Fopportunities",
     "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-exhibition-wythnos-gelf-llanfairfechan-art-week%2F10591&redirect=%2Fopportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
     "submission_page": "",
     "deadline": "",
     "fees": "",

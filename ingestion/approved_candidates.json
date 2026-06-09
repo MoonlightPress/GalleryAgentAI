@@ -47,7 +47,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: zine, printed matter, photobook, book fair",
+      "strong: photobook, book fair, printed matter, zine",
       "weak: exhibition, book"
     ]
   },
@@ -96,8 +96,8 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: submission, zine, residency, open call",
-      "weak: exhibition, artist, gallery"
+      "strong: residency, submission, zine, open call",
+      "weak: exhibition, gallery, artist"
     ]
   },
   {
@@ -142,7 +142,7 @@
     ]
   },
   {
-    "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
+    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
     "organization": "CuratorSpace",
     "category": "photo_open_call",
     "city": "Online",
@@ -153,9 +153,9 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-digital-works-monart/8457",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
@@ -178,8 +178,7 @@
     ],
     "quality_gate_status": "approved",
     "quality_gate_reasons": [
-      "strong: call for, open call",
-      "weak: artist",
+      "strong: submit, open call",
       "has submission link"
     ]
   }

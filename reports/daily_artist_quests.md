@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research American Watercolor Society Annual International Exhibition submission process.
-- Research 2026 3rd Annual Illustration Summit Challenge (IlloBoom!) submission process.
-- Research AAA Gallery Yokohama submission process.
+- Research Center for Book Arts Opportunities submission process.
 - Research World Illustration Awards submission process.
-- Research 水性繪畫展覽 (Watercolor Exhibition) submission process.
-- Compare Center for Book Arts Opportunities to similar institutions.
-- Compare 3x3 International Illustration Awards to similar institutions.
-- Compare Offprint to similar institutions.
+- Research Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛 submission process.
+- Research Callback Open Call G George invites you to submit to Callback, a series of contemporary ar submission process.
+- Research DER GREIF submission process.
+- Compare AAA Gallery Yokohama to similar institutions.
+- Compare IlloBoom! 3rd Annual Illustration Summit Challenge to similar institutions.
+- Compare HB Gallery to similar institutions.

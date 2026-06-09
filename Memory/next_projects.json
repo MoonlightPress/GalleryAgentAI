@@ -31,7 +31,7 @@
     "best_opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 10.0,
+        "score": 9.6,
         "differentiated_score": 11.5,
         "verification": "verified",
         "hits": [
@@ -47,7 +47,7 @@
       },
       {
         "title": "UTRECHT",
-        "score": 10.0,
+        "score": 9.2,
         "differentiated_score": 11.5,
         "verification": "verified",
         "hits": [
@@ -59,20 +59,8 @@
         "source": "https://utrecht.jp/"
       },
       {
-        "title": "B&B Shimokitazawa",
-        "score": 10.0,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
-        "source": "https://bookandbeer.com/"
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-        "score": 8.7,
+        "score": 9.2,
         "differentiated_score": 11.39,
         "verification": null,
         "hits": [
@@ -84,7 +72,7 @@
       },
       {
         "title": "SUBMISSIONS - marblepress.com",
-        "score": 8.7,
+        "score": 9.2,
         "differentiated_score": 11.39,
         "verification": "verified",
         "hits": [
@@ -95,8 +83,44 @@
         "source": "https://marblepress.com/submissions/"
       },
       {
+        "title": "flotsam books",
+        "score": 8.3,
+        "differentiated_score": 11.39,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+        "source": "https://www.flotsambooks.com/"
+      },
+      {
+        "title": "B&B Shimokitazawa",
+        "score": 8.0,
+        "differentiated_score": 11.39,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "artist book"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+        "source": "https://bookandbeer.com/"
+      },
+      {
+        "title": "submissions — porkbelly press",
+        "score": 6.1,
+        "differentiated_score": 11.39,
+        "verification": "verified",
+        "hits": [
+          "artist book",
+          "small press"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+        "source": "https://porkbellypress.com/subs/"
+      },
+      {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
-        "score": 8.7,
+        "score": 9.2,
         "differentiated_score": 11.29,
         "verification": "relationship_builders",
         "hits": [
@@ -105,31 +129,6 @@
         ],
         "why": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.",
         "source": "https://bijutsutecho.com/"
-      },
-      {
-        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 10.0,
-        "differentiated_score": 11.24,
-        "verification": "verified",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
-        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
-      },
-      {
-        "title": "TOKIO ART BOOK FAIR 2026",
-        "score": 8.5,
-        "differentiated_score": 11.24,
-        "verification": "needs_research",
-        "hits": [
-          "zine",
-          "artist book",
-          "book fair"
-        ],
-        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.",
-        "source": "https://tokioartbookfair.com"
       }
     ],
     "best_publisher_targets": [
@@ -245,7 +244,7 @@
     "best_opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 10.0,
+        "score": 9.6,
         "differentiated_score": 11.5,
         "verification": "verified",
         "hits": [
@@ -257,7 +256,7 @@
       },
       {
         "title": "UTRECHT",
-        "score": 10.0,
+        "score": 9.2,
         "differentiated_score": 11.5,
         "verification": "verified",
         "hits": [
@@ -269,19 +268,8 @@
         "source": "https://utrecht.jp/"
       },
       {
-        "title": "B&B Shimokitazawa",
-        "score": 10.0,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
-        "source": "https://bookandbeer.com/"
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-        "score": 8.7,
+        "score": 9.2,
         "differentiated_score": 11.39,
         "verification": null,
         "hits": [
@@ -292,7 +280,7 @@
       },
       {
         "title": "SUBMISSIONS - marblepress.com",
-        "score": 8.7,
+        "score": 9.2,
         "differentiated_score": 11.39,
         "verification": "verified",
         "hits": [
@@ -302,8 +290,41 @@
         "source": "https://marblepress.com/submissions/"
       },
       {
+        "title": "flotsam books",
+        "score": 8.3,
+        "differentiated_score": 11.39,
+        "verification": "verified",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+        "source": "https://www.flotsambooks.com/"
+      },
+      {
+        "title": "B&B Shimokitazawa",
+        "score": 8.0,
+        "differentiated_score": 11.39,
+        "verification": "verified",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+        "source": "https://bookandbeer.com/"
+      },
+      {
+        "title": "submissions — porkbelly press",
+        "score": 6.1,
+        "differentiated_score": 11.39,
+        "verification": "verified",
+        "hits": [
+          "artist book"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+        "source": "https://porkbellypress.com/subs/"
+      },
+      {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
-        "score": 8.7,
+        "score": 9.2,
         "differentiated_score": 11.29,
         "verification": "relationship_builders",
         "hits": [
@@ -311,28 +332,6 @@
         ],
         "why": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.",
         "source": "https://bijutsutecho.com/"
-      },
-      {
-        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 10.0,
-        "differentiated_score": 11.24,
-        "verification": "verified",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
-        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
-      },
-      {
-        "title": "TOKIO ART BOOK FAIR 2026",
-        "score": 8.5,
-        "differentiated_score": 11.24,
-        "verification": "needs_research",
-        "hits": [
-          "artist book"
-        ],
-        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.",
-        "source": "https://tokioartbookfair.com"
       }
     ],
     "best_publisher_targets": [
@@ -400,7 +399,7 @@
     "best_opportunity_targets": [
       {
         "title": "Tokyo Art Book Fair",
-        "score": 10.0,
+        "score": 9.6,
         "differentiated_score": 11.5,
         "verification": "verified",
         "hits": [
@@ -415,7 +414,7 @@
       },
       {
         "title": "UTRECHT",
-        "score": 10.0,
+        "score": 9.2,
         "differentiated_score": 11.5,
         "verification": "verified",
         "hits": [
@@ -427,21 +426,8 @@
         "source": "https://utrecht.jp/"
       },
       {
-        "title": "B&B Shimokitazawa",
-        "score": 10.0,
-        "differentiated_score": 11.39,
-        "verification": "verified",
-        "hits": [
-          "zine",
-          "bookstore",
-          "artist book"
-        ],
-        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
-        "source": "https://bookandbeer.com/"
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-        "score": 8.7,
+        "score": 9.2,
         "differentiated_score": 11.39,
         "verification": null,
         "hits": [
@@ -453,7 +439,7 @@
       },
       {
         "title": "SUBMISSIONS - marblepress.com",
-        "score": 8.7,
+        "score": 9.2,
         "differentiated_score": 11.39,
         "verification": "verified",
         "hits": [
@@ -464,8 +450,46 @@
         "source": "https://marblepress.com/submissions/"
       },
       {
+        "title": "flotsam books",
+        "score": 8.3,
+        "differentiated_score": 11.39,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+        "source": "https://www.flotsambooks.com/"
+      },
+      {
+        "title": "B&B Shimokitazawa",
+        "score": 8.0,
+        "differentiated_score": 11.39,
+        "verification": "verified",
+        "hits": [
+          "zine",
+          "bookstore",
+          "artist book"
+        ],
+        "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+        "source": "https://bookandbeer.com/"
+      },
+      {
+        "title": "submissions — porkbelly press",
+        "score": 6.1,
+        "differentiated_score": 11.39,
+        "verification": "verified",
+        "hits": [
+          "small press",
+          "artist book"
+        ],
+        "why": "Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.",
+        "source": "https://porkbellypress.com/subs/"
+      },
+      {
         "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
-        "score": 8.7,
+        "score": 9.2,
         "differentiated_score": 11.29,
         "verification": "relationship_builders",
         "hits": [
@@ -474,31 +498,6 @@
         ],
         "why": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.",
         "source": "https://bijutsutecho.com/"
-      },
-      {
-        "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-        "score": 10.0,
-        "differentiated_score": 11.24,
-        "verification": "verified",
-        "hits": [
-          "zine",
-          "artist book"
-        ],
-        "why": "Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.",
-        "source": "https://note.com/bookcultureclub/n/n053a24287fc2"
-      },
-      {
-        "title": "TOKIO ART BOOK FAIR 2026",
-        "score": 8.5,
-        "differentiated_score": 11.24,
-        "verification": "needs_research",
-        "hits": [
-          "zine",
-          "book fair",
-          "artist book"
-        ],
-        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.",
-        "source": "https://tokioartbookfair.com"
       }
     ],
     "best_publisher_targets": [

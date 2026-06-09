@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-08
+REPORT GENERATED: 2026-06-09
 
 # アートの交差展 vol.6 (Art Intersection Exhibition vol.6)
 
 ## 1. Quick Judgment
-**Fit score:** 6.1/10  
-**Fit band:** Promising  
+**Fit score:** 8.8/10  
+**Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  
@@ -48,5 +48,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-09_
 

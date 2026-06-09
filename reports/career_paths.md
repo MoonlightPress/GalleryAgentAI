@@ -51,4 +51,4 @@ Potential long-term artistic trajectories suggested by current recommendation pa
 - LOCAL Gallery・Books (signal 2)
 - ILOVETOYS / neuprint — Chinese Illustration Feature (signal 2)
 - Home - Printed Matter (signal 2)
-- Fukuoka Art Book Fair (signal 2)
+- Golden Pinwheel International Young Illustrators Competition 2026 / 金风车国际青年插画家大赛 (signal 2)

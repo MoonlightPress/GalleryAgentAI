@@ -12,10 +12,25 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
   - URL: https://www.womenunitedartmovement.com/
 - **アートオリンピア2026** — 9.6. アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offering a prominent local platform to exhibit her architectural studies and memory-driven pieces alongside other contemporary media practitioners. The open-call format removes barriers for early-stage artists while positioning her work within a professional exhibition context during a peak season for Tokyo's art calendar.
   - URL: https://www.artkoubo.jp/artolympia/
+- **It's Nice That — Illustration Feature** — 9.6. Biggest international platform for artists at her level. A feature here reaches the global illustration community and attracts licensing and commission inquiries.
+  - URL: https://www.itsnicethat.com/
+  - Next: verify current submission/contact details.
+- **第113回 日本水彩展** — 9.6. The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moments in urban Tokyo—a national platform that validates her daily watercolor practice and positions her within Japan's established painting tradition. As a major institutional venue in Tokyo where she's based, acceptance would significantly elevate her visibility within the Japanese art establishment during her early Tier 2 stage.
+  - URL: https://saibido-art.jimdofree.com/%E5%85%AC%E5%8B%9F%E5%B1%95%E5%87%BA%E5%93%81%E6%89%8B%E9%A0%86-%E6%90%AC%E5%85%A5%E6%97%A5/%E5%85%AC%E5%8B%9F%E5%B1%95%E6%90%AC%E5%85%A5%E6%97%A5-%E6%98%A5
+  - Next: verify current submission/contact details.
 - **水性繪畫展覽 (Watercolor Exhibition)** — 9.6. Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
   - URL: https://bhuntr.com/tw/competitions/22uxj7uzoljljpa11y
 - **桜をテーマとするイラスト・絵画作品募集** — 9.6. Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice.
   - URL: https://x.com/blueroses_news
+- **American Illustration** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+  - URL: https://www.ai-ap.com/
+  - Next: verify current submission/contact details.
+- **World Illustration Awards** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
+  - URL: https://theaoi.com/world-illustration-awards/
+  - Next: verify current submission/contact details.
+- **Jackson's Art Prize** — 9.6. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
+  - URL: https://www.jacksonsart.com/paintingprize/
+  - Next: verify current submission/contact details.
 - **水彩アートの祭典** — 9.6. Watercolor-only art exhibition (平面作品のみ) held at Tokyo Geijutsu Gekijo, accepting 4号以内 works with no theme restrictions
   - URL: https://nihonbungei.net/watercolors_2026
 - **水彩アートの祭典 (Watercolor Art Festival)** — 9.6. Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
@@ -29,42 +44,27 @@ This is the corrected action report for Nin as a watercolor painter / works-on-p
   - Next: verify current submission/contact details.
 - **2026 3rd Annual Illustration Summit Challenge (IlloBoom!)** — 9.6. Global illustration competition accepting all art styles and themes from students, professionals, and enthusiasts; perfect fit for illustration artist.
   - URL: https://illoboom.com/2026sponsorships
-- **It's Nice That — Illustration Feature** — 9.6. Biggest international platform for artists at her level. A feature here reaches the global illustration community and attracts licensing and commission inquiries.
-  - URL: https://www.itsnicethat.com/
-  - Next: verify current submission/contact details.
-- **American Illustration** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - URL: https://www.ai-ap.com/
-  - Next: verify current submission/contact details.
-- **World Illustration Awards** — 9.6. Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-  - URL: https://theaoi.com/world-illustration-awards/
-  - Next: verify current submission/contact details.
-- **Jackson's Art Prize** — 9.6. Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
-  - URL: https://www.jacksonsart.com/paintingprize/
-  - Next: verify current submission/contact details.
 - **コピックアワード2026** — 9.6. Illustration and watercolor award accepting submissions via social media, relevant to her illustration practice.
   - URL: https://x.com/PzYPHc2ZHi6O0LA
   - Next: verify current submission/contact details.
 - **Ark Art Award 2024** — 9.6. Open call specifically welcoming watercolor artists at all levels to participate in a curated award exhibition.
   - URL: https://x.com/ArkCorporation
   - Next: verify current submission/contact details.
-- **BOOOOOOOM 2026 Art & Photo Book Award** — 9.6. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
-  - URL: https://www.booooooom.com/
-  - Next: verify current submission/contact details.
-- **第113回 日本水彩展** — 9.6. The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moments in urban Tokyo—a national platform that validates her daily watercolor practice and positions her within Japan's established painting tradition. As a major institutional venue in Tokyo where she's based, acceptance would significantly elevate her visibility within the Japanese art establishment during her early Tier 2 stage.
-  - URL: https://saibido-art.jimdofree.com/%E5%85%AC%E5%8B%9F%E5%B1%95%E5%87%BA%E5%93%81%E6%89%8B%E9%A0%86-%E6%90%AC%E5%85%A5%E6%97%A5/%E5%85%AC%E5%8B%9F%E5%B1%95%E6%90%AC%E5%85%A5%E6%97%A5-%E6%98%A5
-  - Next: verify current submission/contact details.
 - **第九屆水主題國際評審藝術比賽** — 9.6. Water-themed international art competition accepting watercolor works from global artists, directly aligned with watercolor practice.
   - URL: https://bhuntr.com/tw/competitions/208h5hxfrofrnv2jhx
 - **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 9.6. Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.
   - URL: https://www.nwws.org/
-- **Jinny Street Gallery Open Call** — 9.6. Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
-  - URL: https://www.jinnystreetgallery.com/open-call
+- **BOOOOOOOM 2026 Art & Photo Book Award** — 9.6. URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal.
+  - URL: https://www.booooooom.com/
+  - Next: verify current submission/contact details.
+- **Royal Watercolour Society Open Exhibition** — 9.6. Direct medium match — the RWS open exhibition is the most prestigious international platform for watercolor watercolor / works on paper, and acceptance is a major CV milestone.
+  - URL: https://royalwatercoloursociety.co.uk/
   - Next: verify current submission/contact details.
 - **Browse opportunities | CuratorSpace** — 9.6. Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition
   - URL: https://www.curatorspace.com/opportunities
   - Next: verify current submission/contact details.
-- **2026春季二科展「NIKA nika/S20号」コンクール** — 9.6. Established open call accepting watercolor, pastel, acrylic, and colored pencil work in multiple formats.
-  - URL: https://twitter.com/search?q=%23ART%E5%85%AC%E5%8B%9F&src=hashtag_click
+- **Jinny Street Gallery Open Call** — 9.6. Jinny Street Gallery Open Call is worth checking because open calls can turn existing portfolio work into a concrete application.
+  - URL: https://www.jinnystreetgallery.com/open-call
   - Next: verify current submission/contact details.
 
 ## First Practical Plan

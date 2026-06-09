@@ -19,6 +19,16 @@
       "Mention publication intentions."
     ]
   },
+  "Home - Printed Matter": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
   "UTRECHT": {
     "strategy": "publication_pitch",
     "tone": "focused and editorial",
@@ -189,6 +199,16 @@
       "Focus on mutual fit."
     ]
   },
+  "Fukuoka Art Book Fair": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
   "BONUS TRACK": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -337,6 +357,36 @@
       "Do not over-explain the work.",
       "Lead with atmosphere and sincerity.",
       "Focus on mutual fit."
+    ]
+  },
+  "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "FACE Exhibition 2026": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Zine & Book フェス in 神保町 (Jimbocho)": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
     ]
   },
   "Women United ART MAGAZINE Issue XIV Summer 2026": {
@@ -497,6 +547,46 @@
       "Do not over-explain the work.",
       "Lead with atmosphere and sincerity.",
       "Focus on mutual fit."
+    ]
+  },
+  "Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "submissions — porkbelly press": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Submissions — Clavis Publishing": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "ILOVETOYS / neuprint — Chinese Illustration Feature": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
     ]
   },
   "アートオリンピア2026": {
@@ -719,6 +809,16 @@
       "Focus on mutual fit."
     ]
   },
+  "Aquarium - 2026": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
   "水性繪畫展覽 (Watercolor Exhibition)": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -829,6 +929,16 @@
       "Signal artistic clarity."
     ]
   },
+  "Royal Watercolour Society Open Exhibition": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
   "SCAI The Bathhouse": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
@@ -877,6 +987,46 @@
       "Let the work speak.",
       "Keep materials minimal and elegant.",
       "Signal artistic clarity."
+    ]
+  },
+  "「国際創作者駐村計畫」": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Cité Internationale des Arts Artist Residency": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "DER GREIF": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "INSTINC 2026/2027 Artist-in-Residence Program": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
     ]
   },
   "水彩アートの祭典": {
@@ -1089,6 +1239,36 @@
       "Signal artistic clarity."
     ]
   },
+  "東京芸術文化創造発信助成 (Tokyo Arts and Culture Creation and Dissemination Grant)": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Hayama Artist Residency Submission Manager - Submittable": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "新進芸術家海外研修制度（Emerging Artists Overseas Training Program）": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
   "KAMIHANGA国際プリント展2026": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
@@ -1199,7 +1379,37 @@
       "Signal artistic clarity."
     ]
   },
+  "2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
   "Open calls - Online Database of Artist in Residence Programs in Japan": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "金风车插画大赛2026": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Zushi Art Gallery": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1229,6 +1439,46 @@
       "Focus on mutual fit."
     ]
   },
+  "全国日曜画家コンクール": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "International Open Call": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "ローズ・ローズ・ローズ": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
   "Applied Arts 2026 Illustration Awards": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
@@ -1239,7 +1489,57 @@
       "Signal artistic clarity."
     ]
   },
-  "Hayama Artist Residency Submission Manager - Submittable": {
+  "True Beauty - 2026": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Bologna Children's Book Fair Illustrators Exhibition": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "Pinpoint Gallery": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "AAA Gallery Yokohama": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Brillia Art Award Wall 2026": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "2026 Chinese New Year Celebration Art Show": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -1259,7 +1559,7 @@
       "Focus on mutual fit."
     ]
   },
-  "Zushi Art Gallery": {
+  "HB Gallery": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1269,17 +1569,7 @@
       "Signal artistic clarity."
     ]
   },
-  "東京芸術文化創造発信助成 (Tokyo Arts and Culture Creation and Dissemination Grant)": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "新進芸術家海外研修制度（Emerging Artists Overseas Training Program）": {
+  "Japan International Watercolor Institute Online Exhibition": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1289,7 +1579,7 @@
       "Signal artistic clarity."
     ]
   },
-  "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展": {
+  "submissions for the 2026 set film festival are now open": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -1309,14 +1599,14 @@
       "Mention publication intentions."
     ]
   },
-  "FACE Exhibition 2026": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
+  "Golden Pinwheel International Young Illustrators Competition 2026 / 金风车国际青年插画家大赛": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
     "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
     ]
   },
   "BALLOND'ESSAI Shimokitazawa": {
@@ -1327,16 +1617,6 @@
       "Do not over-explain the work.",
       "Lead with atmosphere and sincerity.",
       "Focus on mutual fit."
-    ]
-  },
-  "Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
     ]
   },
   "Village Vanguard Shimokitazawa": {
@@ -1369,6 +1649,36 @@
       "Demonstrate seriousness."
     ]
   },
+  "American Watercolor Society Annual International Exhibition": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "短編小説集出版記念 イラスト募集（表紙絵または挿絵）": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "新世紀美術協会 神戸支部 油彩・水彩小作品展（Shin-Seiki Bijutsu Kyokai Kobe Branch Oil & Watercolor Small Works Exhibition）": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
   "Blooming Stories 2026": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -1379,7 +1689,7 @@
       "Focus on mutual fit."
     ]
   },
-  "2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動": {
+  "Venice International Watercolor Festival 2026 / 2026年威尼斯国际水彩节": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1387,159 +1697,29 @@
       "Let the work speak.",
       "Keep materials minimal and elegant.",
       "Signal artistic clarity."
+    ]
+  },
+  "Open Call for the International Creator Residency Program 2026": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Ishibashi Foundation / The Japan Foundation Fellowship for Research on Japanese Art": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
     ]
   },
   "[展覧会]秀彩会小品展2026": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "金风车插画大赛2026": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "咲き誇れ桜よ": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "マイ・ディア・テディ (My Dear Teddy)": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "PARK GALLERY 夏の公募企画展（3テーマ）": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "2026 松濤美術館公募展｜渋谷区立松濤美術館": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Art Fair Tokyo 2026": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Bologna Children's Book Fair Illustrators Exhibition": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Pinpoint Gallery": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "全国日曜画家コンクール": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Tokyo Illustrators Society": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Gallery IYN": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Creative Space Hayashi": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1559,7 +1739,27 @@
       "Demonstrate seriousness."
     ]
   },
-  "Ishibashi Foundation / The Japan Foundation Fellowship for Research on Japanese Art": {
+  "ギャラリーニイク「219公募展」Vol.6 (Gallery 219 Open Call Vol.6)": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "2026年度 国際助成プログラム": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -1609,37 +1809,7 @@
       "Signal artistic clarity."
     ]
   },
-  "Full-Table - Little Tokyo Zine Fest 2026 - Eventeny": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Gallery Rocket Harajuku": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Cafe Cross Point": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "HB Gallery": {
+  "咲き誇れ桜よ": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1649,17 +1819,7 @@
       "Signal artistic clarity."
     ]
   },
-  "NADiff a/p/a/r/t": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Royal Watercolour Society Open Exhibition": {
+  "マイ・ディア・テディ (My Dear Teddy)": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1669,7 +1829,7 @@
       "Signal artistic clarity."
     ]
   },
-  "Open Call for the International Creator Residency Program 2026": {
+  "ギャラリー自由展示": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1679,7 +1839,7 @@
       "Signal artistic clarity."
     ]
   },
-  "3x3 International Illustration Awards": {
+  "PARK GALLERY 夏の公募企画展（3テーマ）": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1689,17 +1849,17 @@
       "Signal artistic clarity."
     ]
   },
-  "「国際創作者駐村計畫」": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
+  "【2026年】公募展の展覧会＆アートイベント一覧（開催中・開催 ...": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
     "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
     ]
   },
-  "2026年度 国際助成プログラム": {
+  "2026 松濤美術館公募展｜渋谷区立松濤美術館": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1719,14 +1879,14 @@
       "Focus on mutual fit."
     ]
   },
-  "International Open Call": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
+  "オープンコール・プロジェクト": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
     "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
     ]
   },
   "第22回 世界絵画大賞展2026": {
@@ -1739,17 +1899,7 @@
       "Signal artistic clarity."
     ]
   },
-  "Fukuoka Art Book Fair": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "素人の乱 (Shiroto no Ran) Koenji": {
+  "2026国际大学生数字艺术设计大赛": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1759,7 +1909,7 @@
       "Signal artistic clarity."
     ]
   },
-  "AAA Gallery Yokohama": {
+  "OM SYSTEM PLAZA 2026年4月～6月開催分": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1769,7 +1919,57 @@
       "Signal artistic clarity."
     ]
   },
-  "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...": {
+  "Art Fair Tokyo 2026": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Publishers & Publishing Services in Japan - PublishersGlobal.com": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Clavis Publishing Submissions": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "NADiff a/p/a/r/t": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1779,7 +1979,27 @@
       "Signal artistic clarity."
     ]
   },
-  "New Power展 | ギャラリー自由が丘で作家デビュー": {
+  "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Tokyo Illustrators Society": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Gallery IYN": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1789,7 +2009,7 @@
       "Signal artistic clarity."
     ]
   },
-  "Call for Entry: Showcase your art in Tokyo, Japan": {
+  "The Container": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1799,7 +2019,17 @@
       "Signal artistic clarity."
     ]
   },
-  "Brillia Art Award Wall 2026": {
+  "Creative Space Hayashi": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "International Creator Residency Program 2027": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -1809,7 +2039,7 @@
       "Demonstrate seriousness."
     ]
   },
-  "2026 Chinese New Year Celebration Art Show": {
+  "TOKYO MIDTOWN AWARD 2026 アートコンペ": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -1819,7 +2049,17 @@
       "Demonstrate seriousness."
     ]
   },
-  "L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info": {
+  "アジア文化芸術ネットワーク強化助成【WA2.0】": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "アジア文化芸術フェローシップ【WA2.0】": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -1829,7 +2069,117 @@
       "Demonstrate seriousness."
     ]
   },
-  "ギャラリー自由展示": {
+  "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "EIAF 2026–2027 Artist-in-Residence Program": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Art Submissions": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "スクエア・ワールド2026": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "ART SG 2026": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Gallery Rocket Harajuku": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Aoyama Farmers Market": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "reload Shimokitazawa": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Cafe Cross Point": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "2026金风车国际青年插画家大赛": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "3x3 International Illustration Awards": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -1869,86 +2219,6 @@
       "Focus on mutual fit."
     ]
   },
-  "Book Culture Club": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "ERA Shimokitazawa": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "The Container": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Aoyama Farmers Market": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "現代アート販売の@Gallery Tagboat|@Gallery Tagboat": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "短編小説集出版記念 イラスト募集（表紙絵または挿絵）": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Venice International Watercolor Festival 2026 / 2026年威尼斯国际水彩节": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
   "美術新人賞デビュー2026（Art Newcomer Award Debut 2026）": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
@@ -1957,146 +2227,6 @@
       "Do not over-explain the work.",
       "Lead with atmosphere and sincerity.",
       "Focus on mutual fit."
-    ]
-  },
-  "Cité Internationale des Arts Artist Residency": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "reload Shimokitazawa": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Golden Pinwheel International Young Illustrators Competition 2026 / 金风车国际青年插画家大赛": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "2026博洛尼亚国际插画大赛": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "オープンコール・プロジェクト": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "芸術活動への助成（Grants for Artistic Activities）": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "American Watercolor Society Annual International Exhibition": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "2026金风车国际青年插画家大赛": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "アートアワードトーキョー丸の内2026（Art Award Tokyo Marunouchi 2026）": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Nantoka Bar Koenji": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Koenji SANAGI": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "新世紀美術協会 神戸支部 油彩・水彩小作品展（Shin-Seiki Bijutsu Kyokai Kobe Branch Oil & Watercolor Small Works Exhibition）": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "2026国际大学生数字艺术设计大赛": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
     ]
   },
   "AOI（Association of Illustrators）2026 Illustration Awards": {
@@ -2119,7 +2249,7 @@
       "Focus on mutual fit."
     ]
   },
-  "OPA Gallery": {
+  "2026博洛尼亚国际插画大赛": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -2127,66 +2257,6 @@
       "Let the work speak.",
       "Keep materials minimal and elegant.",
       "Signal artistic clarity."
-    ]
-  },
-  "JIA Illustration Award 2026": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "INSTINC 2026/2027 Artist-in-Residence Program": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Zine & Book フェス in 神保町 (Jimbocho)": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "International Creator Residency Program 2027": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "TOKYO MIDTOWN AWARD 2026 アートコンペ": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "世界堂絵画展2026": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
     ]
   },
   "IlloBoom! 3rd Annual Illustration Summit Challenge": {
@@ -2199,17 +2269,37 @@
       "Signal artistic clarity."
     ]
   },
-  "ローズ・ローズ・ローズ": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
+  "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
     "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
     ]
   },
-  "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)": {
+  "芸術活動への助成（Grants for Artistic Activities）": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Tokyo Arts and Space": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "第9回 国際公募 東京アート工芸2026": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -2229,7 +2319,17 @@
       "Mention publication intentions."
     ]
   },
-  "アジア文化芸術ネットワーク強化助成【WA2.0】": {
+  "Zines / Artist Books — Battle Plan": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "素人の乱 (Shiroto no Ran) Koenji": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -2239,24 +2339,84 @@
       "Signal artistic clarity."
     ]
   },
-  "アジア文化芸術フェローシップ【WA2.0】": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
+  "ERA Shimokitazawa": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
     "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
     ]
   },
-  "EIAF 2026–2027 Artist-in-Residence Program": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
+  "若手アーティストの登竜門となるアートフェア「Independent Tokyo ...": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
     "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "New Power展 | ギャラリー自由が丘で作家デビュー": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Call for Entry: Showcase your art in Tokyo, Japan": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "【作家様向け】ピカレスクギャラリーのご紹介 - 東京のアート ...": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "現代アート販売の@Gallery Tagboat|@Gallery Tagboat": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Asian Cultural Council (ACC) 2026 Grant Program": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Publishing / Artist Books — Battle Plan": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
     ]
   },
   "HandMade In Japan Fes": {
@@ -2277,6 +2437,116 @@
       "Do not over-explain the work.",
       "Lead with atmosphere and sincerity.",
       "Focus on mutual fit."
+    ]
+  },
+  "Book Culture Club": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "世界堂絵画展2026": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Aperture | Photography": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "アートアワードトーキョー丸の内2026（Art Award Tokyo Marunouchi 2026）": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "第五回公募展「境界」-edge-": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Design Festa": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Become an Author - Tuttle Publishing": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "OPA Gallery": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
     ]
   },
   "2026年度 第2期 地域芸術文化活動応援助成": {
@@ -2319,7 +2589,7 @@
       "Demonstrate seriousness."
     ]
   },
-  "Chinese Excellence in Children's Illustration 2026（卓越大师·中国插画大赛2026）": {
+  "JIA Illustration Award 2026": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -2329,7 +2599,47 @@
       "Focus on mutual fit."
     ]
   },
-  "Chinese Excellence in Children's Illustration 2026 / 卓越大师·中国插画大赛2026": {
+  "全國插畫徵集-2026台灣VC文化賞": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Tokyo Open Call for Artists & Creatives": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "水彩アートのみ展示イベント": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "第10屆溫哥華藝術博覽會 (Art Vancouver 2026)": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Shangyuan International Residency Programme": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
     "advice": [
@@ -2339,7 +2649,7 @@
       "Signal artistic clarity."
     ]
   },
-  "ART SG 2026": {
+  "Nantoka Bar Koenji": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -2349,7 +2659,7 @@
       "Focus on mutual fit."
     ]
   },
-  "Chinese Culture in My Everyday Life / 我生活中的中華文化": {
+  "Koenji SANAGI": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -2357,126 +2667,6 @@
       "Do not over-explain the work.",
       "Lead with atmosphere and sincerity.",
       "Focus on mutual fit."
-    ]
-  },
-  "Zines / Artist Books — Battle Plan": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Tokyo Arts and Space": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Publishing / Artist Books — Battle Plan": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Design Festa": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Asian Cultural Council (ACC) 2026 Grant Program": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "submissions — porkbelly press": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "FACE展2026": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "OM SYSTEM PLAZA 2026年4月～6月開催分": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Communication Arts Illustration Competition": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "DER GREIF": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "第9回 国際公募 東京アート工芸2026": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "2026春季二科展「NIKA+nika/S20号」コンクール": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
     ]
   },
   "AIR 3331": {
@@ -2497,346 +2687,6 @@
       "Let the work speak.",
       "Keep materials minimal and elegant.",
       "Signal artistic clarity."
-    ]
-  },
-  "絵画展（滋賀県愛荘町開催）": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Aquarium - 2026": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "東京芸術劇場 ギャラリー1 ウォーターカラー展覧会": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "スクエア・ワールド2026": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "torch press": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Submissions — Clavis Publishing": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Pola Art Foundation Grant": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "OPEN CALL FOR ARTISTS · アーティスト募集 - Jinny Street Gallery": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "True Beauty - 2026": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "マイクロ・アート・ワーケーション(MAW)2026": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "マイクロ・アート・ワーケーション（MAW）2026": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "第五回公募展「境界」-edge-": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Japan International Watercolor Institute Online Exhibition": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "令和8年度芸術文化振興基金及び文化芸術振興費補助金": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "submissions for the 2026 set film festival are now open": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "全國插畫徵集-2026台灣VC文化賞": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Bunka-cho 新進芸術家海外研修制度": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "2026年度 渡航・旅費等の助成（上期）": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "公益財団法人小笠原敏晶記念財団 2026年度 渡航・旅費等の助成（上期）": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "2026年度下期芸術文化助成（国内）": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "Aperture | Photography": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Publishers & Publishing Services in Japan - PublishersGlobal.com": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Komiyama Tokyo": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Japan Foundation Cultural Exchange Grant": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Clavis Publishing Submissions": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "SICF Fukuoka 2026": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "2026 Artist Projects (GCAC)": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Art Submissions": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
     ]
   },
   "Shoto Museum Open Call": {
@@ -2889,17 +2739,7 @@
       "Signal artistic clarity."
     ]
   },
-  "Applications — Little Tokyo Zine Fest": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "RAW TOKYO": {
+  "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -2909,37 +2749,27 @@
       "Focus on mutual fit."
     ]
   },
-  "Home - Printed Matter": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
+  "Chinese Excellence in Children's Illustration 2026（卓越大师·中国插画大赛2026）": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
     "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
     ]
   },
-  "shashasha": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
+  "Chinese Excellence in Children's Illustration 2026 / 卓越大师·中国插画大赛2026": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
     "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
     ]
   },
-  "ILOVETOYS / neuprint — Chinese Illustration Feature": {
-    "strategy": "publication_pitch",
-    "tone": "focused and editorial",
-    "advice": [
-      "Present a coherent sequence.",
-      "Emphasize visual consistency.",
-      "Include sequencing logic.",
-      "Mention publication intentions."
-    ]
-  },
-  "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING": {
+  "Chinese Culture in My Everyday Life / 我生活中的中華文化": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -2959,17 +2789,7 @@
       "Signal artistic clarity."
     ]
   },
-  "【公募】2026年度レジデンス・プログラム公募開始": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Become an Author - Tuttle Publishing": {
+  "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -2979,17 +2799,7 @@
       "Focus on mutual fit."
     ]
   },
-  "Youkobo Art Space": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Tokyo Arts and Space (TOKAS) Residency + Grant": {
+  "2026 Artist Projects (GCAC)": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -3039,117 +2849,7 @@
       "Signal artistic clarity."
     ]
   },
-  "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Mall Galleries Open Exhibitions": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Shangyuan International Residency Programme": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
-    ]
-  },
-  "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Japan Watercolor Society Annual Exhibition": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "Tokyo Open Call for Artists & Creatives": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "水彩アートのみ展示イベント": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Idemitsu Art Award 2026": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "PhotoVogue": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "ArtConnect Open Calls": {
+  "FACE展2026": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -3189,7 +2889,7 @@
       "Focus on mutual fit."
     ]
   },
-  "7月～12月企画展 参加者募集": {
+  "Pola Art Foundation Grant": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -3197,16 +2897,6 @@
       "Answer requirements directly.",
       "Avoid emotional language.",
       "Demonstrate seriousness."
-    ]
-  },
-  "Art on Climate インターナショナル・イラストレーション・コンテスト 2026": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
     ]
   },
   "2026 International Children and Youth Painting Competition Summer Season": {
@@ -3227,6 +2917,286 @@
       "Let the work speak.",
       "Keep materials minimal and elegant.",
       "Signal artistic clarity."
+    ]
+  },
+  "Communication Arts Illustration Competition": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "マイクロ・アート・ワーケーション(MAW)2026": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "マイクロ・アート・ワーケーション（MAW）2026": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "2026春季二科展「NIKA+nika/S20号」コンクール": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Idemitsu Art Award 2026": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "PhotoVogue": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "SICF Fukuoka 2026": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "絵画展（滋賀県愛荘町開催）": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "マイクロ・アート・ワーケーション(MAW)2026 (Micro Art Workcation 2026)": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "National Watercolor Society International Open Exhibition": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Applications — Little Tokyo Zine Fest": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "RAW TOKYO": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "令和8年度芸術文化振興基金及び文化芸術振興費補助金": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Japan Watercolor Society Annual Exhibition": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Bunka-cho 新進芸術家海外研修制度": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "2026年度 渡航・旅費等の助成（上期）": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "公益財団法人小笠原敏晶記念財団 2026年度 渡航・旅費等の助成（上期）": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "2026年度下期芸術文化助成（国内）": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Art on Climate インターナショナル・イラストレーション・コンテスト 2026": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "torch press": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "shashasha": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "Komiyama Tokyo": {
+    "strategy": "publication_pitch",
+    "tone": "focused and editorial",
+    "advice": [
+      "Present a coherent sequence.",
+      "Emphasize visual consistency.",
+      "Include sequencing logic.",
+      "Mention publication intentions."
+    ]
+  },
+  "Japan Foundation Cultural Exchange Grant": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Youkobo Art Space": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Open Call for Artists! Tokyo Biennale 2025 \"Social Dive\"": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "2026东京·首届日中书画名家作品交流展 (2026 Tokyo First Japan-China Calligraphy and Painting Masters' Work Exchange Exhibition)": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "【公募】2026年度レジデンス・プログラム公募開始": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
     ]
   },
   "» 21 Terrific Small Presses Open to Direct Submissions": {
@@ -3259,17 +3229,17 @@
       "Focus on mutual fit."
     ]
   },
-  "Royal Institute of Painters in Water Colours": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
+  "ArtConnect Open Calls": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
     "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
     ]
   },
-  "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...": {
+  "Tokyo Arts and Space (TOKAS) Residency + Grant": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -3309,14 +3279,44 @@
       "Focus on mutual fit."
     ]
   },
-  "National Watercolor Society International Open Exhibition": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
+  "loneliness books": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
     "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Dig A Hole Zines": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Mall Galleries Open Exhibitions": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Open calls - AIR_J - AIR J : Online Database of Artist in Residence ...": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
     ]
   },
   "Hayama Artist Residency": {
@@ -3329,7 +3329,7 @@
       "Demonstrate seriousness."
     ]
   },
-  "loneliness books": {
+  "ZINE FARM TOKYO": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -3339,7 +3339,87 @@
       "Focus on mutual fit."
     ]
   },
-  "Dig A Hole Zines": {
+  "AIR_J Open Calls": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "2026国际艺术大赏展": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "RawGround 2026": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "Clouds Art + Coffee": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "7月～12月企画展 参加者募集": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "Royal Institute of Painters in Water Colours": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "SCCP Guest Artist": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "MADO Café": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
+    "advice": [
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
+    ]
+  },
+  "NEW AIR 2026": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -3369,7 +3449,7 @@
       "Demonstrate seriousness."
     ]
   },
-  "AIR_J Open Calls": {
+  "CuratorSpace": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -3389,76 +3469,6 @@
       "Signal artistic clarity."
     ]
   },
-  "RawGround 2026": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "Clouds Art + Coffee": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "ZINE FARM TOKYO": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "CuratorSpace": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "SCCP Guest Artist": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "2026国际艺术大赏展": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "MADO Café": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
   "2026 Asian Heritage Culture Art Show": {
     "strategy": "formal_application",
     "tone": "clear and professional",
@@ -3467,16 +3477,6 @@
       "Answer requirements directly.",
       "Avoid emotional language.",
       "Demonstrate seriousness."
-    ]
-  },
-  "NEW AIR 2026": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
     ]
   },
   "2026 第37回 美浜美術展": {
@@ -3549,7 +3549,7 @@
       "Demonstrate seriousness."
     ]
   },
-  "Spring Flora and Fauna Art Exhibition 2026": {
+  "Artist in Residence program in Paris 2026/2027": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -3559,7 +3559,27 @@
       "Demonstrate seriousness."
     ]
   },
-  "2026年度 第1回 スタートアップ助成": {
+  "The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
+  "New York Fellowship": {
+    "strategy": "quiet_high_prestige",
+    "tone": "restrained and confident",
+    "advice": [
+      "Do not oversell.",
+      "Let the work speak.",
+      "Keep materials minimal and elegant.",
+      "Signal artistic clarity."
+    ]
+  },
+  "Spring Flora and Fauna Art Exhibition 2026": {
     "strategy": "formal_application",
     "tone": "clear and professional",
     "advice": [
@@ -3599,34 +3619,14 @@
       "Demonstrate seriousness."
     ]
   },
-  "Artist in Residence program in Paris 2026/2027": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
+  "twelvebooks": {
+    "strategy": "soft_intro",
+    "tone": "gentle and curious",
     "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "The Japan Foundation Fellowship for Arts and Culture in Asia (Visual Arts)": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
-  "New York Fellowship": {
-    "strategy": "quiet_high_prestige",
-    "tone": "restrained and confident",
-    "advice": [
-      "Do not oversell.",
-      "Let the work speak.",
-      "Keep materials minimal and elegant.",
-      "Signal artistic clarity."
+      "Keep the first message short.",
+      "Do not over-explain the work.",
+      "Lead with atmosphere and sincerity.",
+      "Focus on mutual fit."
     ]
   },
   "秀彩会小品展2026": {
@@ -3659,16 +3659,6 @@
       "Focus on mutual fit."
     ]
   },
-  "スタートアップ助成 (Startup Grant)": {
-    "strategy": "formal_application",
-    "tone": "clear and professional",
-    "advice": [
-      "Be precise.",
-      "Answer requirements directly.",
-      "Avoid emotional language.",
-      "Demonstrate seriousness."
-    ]
-  },
   "2026 Kyoto Museum International Art Grand Exhibition": {
     "strategy": "formal_application",
     "tone": "clear and professional",
@@ -3680,16 +3670,6 @@
     ]
   },
   "Royal Watercolour Society": {
-    "strategy": "soft_intro",
-    "tone": "gentle and curious",
-    "advice": [
-      "Keep the first message short.",
-      "Do not over-explain the work.",
-      "Lead with atmosphere and sincerity.",
-      "Focus on mutual fit."
-    ]
-  },
-  "twelvebooks": {
     "strategy": "soft_intro",
     "tone": "gentle and curious",
     "advice": [
@@ -3749,6 +3729,16 @@
       "Demonstrate seriousness."
     ]
   },
+  "2026年度 第1回 スタートアップ助成": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
+    ]
+  },
   "Asian Cultural Council Fellowship": {
     "strategy": "quiet_high_prestige",
     "tone": "restrained and confident",
@@ -3757,6 +3747,16 @@
       "Let the work speak.",
       "Keep materials minimal and elegant.",
       "Signal artistic clarity."
+    ]
+  },
+  "スタートアップ助成 (Startup Grant)": {
+    "strategy": "formal_application",
+    "tone": "clear and professional",
+    "advice": [
+      "Be precise.",
+      "Answer requirements directly.",
+      "Avoid emotional language.",
+      "Demonstrate seriousness."
     ]
   }
 }

@@ -118,21 +118,21 @@ This is the strongest immediate ecosystem for her visual language: quiet photogr
 
 - **Tokyo Art Book Fair** — score 9.4, differentiated 11.5; matched: TOKYO ART BOOK FAIR
 - **UTRECHT** — score 9.4, differentiated 11.5; matched: UTRECHT
+- **flotsam books** — score 9.4, differentiated 11.39; matched: flotsam books
 - **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24; matched: TOKYO ART BOOK FAIR
-- **flotsam books** — score 8.8, differentiated 10.79; matched: flotsam books
 - **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
 - **POST** — score 8.6, differentiated 9.91; matched: POST
-- **shashasha** — score 5.4, differentiated 6.36; matched: Shashasha
+- **shashasha** — score 6.5, differentiated 7.46; matched: Shashasha
 
 ### International Photobook Publishing
 This is the long-horizon ecosystem for international publication legitimacy.
 
+- **Aperture | Photography** — score 8.7, differentiated 10.59; matched: Aperture
 - **tata bookshop/gallery** — score 8.6, differentiated 9.73; matched: VOID
-- **Offprint** — score 8.6, differentiated 9.47; matched: Offprint
+- **Offprint** — score 8.6, differentiated 9.59; matched: Offprint
+- **Self Publish, Be Happy** — score 8.0, differentiated 9.48; matched: Self Publish, Be Happy
 - **Picaresque Gallery** — score 8.6, differentiated 9.46; matched: VOID
-- **Self Publish, Be Happy** — score 8.0, differentiated 9.36; matched: Self Publish, Be Happy
 - **Gallery Conceal Shibuya** — score 8.6, differentiated 9.3; matched: VOID
-- **Aperture | Photography** — score 5.1, differentiated 6.99; matched: Aperture
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.
@@ -144,6 +144,6 @@ These are useful for soft visibility and relationship-building before major appl
 
 - **UTRECHT** — score 9.4, differentiated 11.5; matched: UTRECHT
 - **B&B Shimokitazawa** — score 9.4, differentiated 11.39; matched: B&B Shimokitazawa
-- **flotsam books** — score 8.8, differentiated 10.79; matched: flotsam books
+- **flotsam books** — score 9.4, differentiated 11.39; matched: flotsam books
 - **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
 - **POST** — score 8.6, differentiated 9.91; matched: POST

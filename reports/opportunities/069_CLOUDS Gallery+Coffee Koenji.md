@@ -1,20 +1,20 @@
 # CLOUDS Gallery+Coffee Koenji
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  
 **City:** Tokyo — Koenji  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://www.cloudsgallerypluscoffee.com/ (verified)
 - **Submission process**: https://www.cloudsgallerypluscoffee.com/ (verified)
 - **Deadline**: No fixed deadline — rotating exhibitions ongoing (verified)
 - **Fees**: Unknown — confirm on contact (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: @clouds_koenji (Instagram) — visit cloudsgallerypluscoffee.com (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Cafe / Local Wall Spaces.
@@ -45,4 +45,4 @@ Visit 13:00-19:00 any day except Monday to see current show. Then phone 03-5356-
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-09_

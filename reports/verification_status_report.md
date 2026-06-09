@@ -5,22 +5,22 @@ Generated: 2026-06-09
 
 | Status | Count |
 |--------|-------|
-| Verified (score 8-10) | 118 |
-| Strong partial (5-7) | 128 |
-| Partial (3-4) | 81 |
-| Research needed (<3) | 28 |
-| **Total** | **355** |
+| Verified (score 8-10) | 125 |
+| Strong partial (5-7) | 139 |
+| Partial (3-4) | 90 |
+| Research needed (<3) | 25 |
+| **Total** | **379** |
 
 ### Field Coverage
 
 | Field | Verified count |
 |-------|----------------|
-| URL ok | 296 |
-| Deadline verified | 249 |
-| Contact verified | 125 |
-| Fees verified | 188 |
-| Submission process known | 188 |
-| Medium confirmed | 222 |
+| URL ok | 324 |
+| Deadline verified | 270 |
+| Contact verified | 132 |
+| Fees verified | 191 |
+| Submission process known | 200 |
+| Medium confirmed | 245 |
 
 ---
 
@@ -56,12 +56,12 @@ Generated: 2026-06-09
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 7. Nui. Hostel Bar & Lounge Asakusa
+### 7. FY2026 Life with Art Grant
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 8. FY2026 Life with Art Grant
+### 8. Nui. Hostel Bar & Lounge Asakusa
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
@@ -81,47 +81,47 @@ Generated: 2026-06-09
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 12. ZINEフェス東京 (ZINE Fest Tokyo)
+### 12. flotsam books
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 13. Still Life - 2026
+### 13. アートオリンピア2026
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 14. ACC 2026年度フェローシップおよび助成
+### 14. ZINEフェス東京 (ZINE Fest Tokyo)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 15. Spiral
+### 15. Still Life - 2026
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 16. 水性繪畫展覽 (Watercolor Exhibition)
+### 16. ACC 2026年度フェローシップおよび助成
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 17. 桜をテーマとするイラスト・絵画作品募集
+### 17. 2026 Global Grant Cycle - Individual Fellowship
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 18. MOUNT ZINE
+### 18. Spiral
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 19. 水彩アートの祭典
+### 19. 水性繪畫展覽 (Watercolor Exhibition)
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
 
-### 20. 水彩アートの祭典 (Watercolor Art Festival)
+### 20. 桜をテーマとするイラスト・絵画作品募集
 - **Verification score:** 10/10
 - **Confirmed:** URL ok, deadline, contact, fees, submission process, confirmed
 - **Missing:** none
@@ -132,42 +132,42 @@ Generated: 2026-06-09
 
 High-scored opportunities (overall_score >= 8) that are not yet fully verified.
 
-### 1. ギャラリーへ行こう2026
+### 1. 「国際創作者駐村計畫」
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 2. Osaka Open Call For Artists. - ARRIVAL
+### 2. Kyoto Retreat Artist Residency 2026 - Open Call
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 3. NY公募展2026夏（NY Open Call Exhibition Summer 2026）
+### 3. ギャラリーへ行こう2026
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 4. Kyoto Retreat Artist Residency 2026 - Open Call
+### 4. Osaka Open Call For Artists. - ARRIVAL
 - **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
 
-### 5. 本店・本屋の実験室
+### 5. NY公募展2026夏（NY Open Call Exhibition Summer 2026）
+- **Overall score:** 9.4  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** contact, medium confirmation
+
+### 6. Submissions — Clavis Publishing
+- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
+- **Missing verification:** deadline, medium confirmation
+
+### 7. Open Calls for Artists | Exhibit Worldwide
 - **Overall score:** 8.8  |  **Verification score:** 6/10  |  **Status:** strong_partial
-- **Missing verification:** deadline, contact
+- **Missing verification:** URL, contact
 
-### 6. Book and Sons
+### 8. 219公募展6募集 >> Gallery219 ギャラリーニイク
 - **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** deadline, fees
+- **Missing verification:** URL, fees
 
-### 7. BALLOND'ESSAI Shimokitazawa
+### 9. 公募プログラム - トーキョーアーツアンドスペース
 - **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** contact, medium confirmation
+- **Missing verification:** URL, fees
 
-### 8. 第113回 日本水彩展
-- **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
-- **Missing verification:** deadline, fees
-
-### 9. OPEN SITE 11
+### 10. OPEN SITE 11
 - **Overall score:** 8.8  |  **Verification score:** 7/10  |  **Status:** strong_partial
 - **Missing verification:** contact, medium confirmation
-
-### 10. Gallery 456 Exhibition Open Call 2026
-- **Overall score:** 8.8  |  **Verification score:** 6/10  |  **Status:** strong_partial
-- **Missing verification:** contact, submission process

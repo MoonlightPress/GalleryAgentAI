@@ -1,23 +1,23 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-09
 
 # Cafe Mame-Hico
 
 ## 1. Quick Judgment
-**Fit score:** 9.6/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Cafe / Local Wall Spaces  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://www.mamehico.com/ (verified)
 - **Submission process**: https://www.mamehico.com/ (verified)
 - **Deadline**: 2026年06月06日 (verified)
 - **Fees**: Free (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: @cafe_mamehico (Instagram) — contact form at mamehico.com/contact_form (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Cafe / Local Wall Spaces.
@@ -50,5 +50,5 @@ Bookmark for potential future research if you're planning Tokyo travel, but don'
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-09_
 

@@ -2,10 +2,25 @@
 
 ## What Changed Since Last Run
 
-_Previous run: 2026-06-08_
+_Previous run: 2026-06-09_
 
-- **Added to Immediate Best Moves:** SICF Fukuoka 2026
-- **Added to Immediate Best Moves:** Zine & Book フェス in 神保町 (Jimbocho)
+- **Score change:** Women United ART MAGAZINE Issue XIV Summer 2026 8.7 → 9.2 ↑
+- **Score change:** SICF Fukuoka 2026 5.0 → 4.7 ↓
+- **Score change:** ZINEフェス東京 (ZINE Fest Tokyo) 10.0 → 9.2 ↓
+- **Score change:** アートオリンピア2026 9.1 → 9.6 ↑
+- **Score change:** Zine & Book フェス in 神保町 (Jimbocho) 5.2 → 4.8 ↓
+- **Score change:** 水性繪畫展覽 (Watercolor Exhibition) 9.1 → 9.6 ↑
+- **Score change:** Tokyo Art Book Fair 10.0 → 9.6 ↓
+- **Score change:** 第113回 日本水彩展 8.7 → 9.6 ↑
+- **Score change:** CSPWC Annual Open Water International Exhibition 9.1 → 9.6 ↑
+- **Score change:** UTRECHT 10.0 → 9.2 ↓
+- **Score change:** MOUNT ZINE 10.0 → 9.2 ↓
+- **Score change:** 第九屆水主題國際評審藝術比賽 8.7 → 9.2 ↑
+- **Score change:** Northwest Watercolor Society 2026 Annual International Open Exhibition 7.2 → 9.2 ↑
+- **Score change:** Book and Sons 10.0 → 8.8 ↓
+- **Score change:** flotsam books 10.0 → 8.3 ↓
+- **Score change:** B&B Shimokitazawa 10.0 → 8.0 ↓
+- **Opportunity count:** 355 → 379 (+24)
 
 ## Immediate Best Moves (16)
 
@@ -44,7 +59,7 @@ _Previous run: 2026-06-08_
 - **Apply by:** 2月26日 (February 26) — _262d_
 - **Fee:** ['26 euros (first work), 10 euros (additional)', '$45.00 (first painting), $10.00 (second painting)', None]
 - **Link:** ['https://www.facebook.com/groups/399439684424141/posts/1630603444641086', 'https://artist.callforentry.org/festivals_unique_info.php?ID=14119', 'https://artdeadline.com/ops/san-diego-watercolor-society']
-- _The 水性繪畫展覽's focus on watercolor as a primary medium directly aligns with GEGYjiji's daily practice of capturing Tokyo's fleeting urban mome_
+- _A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moment_
 
 ### Tokyo Art Book Fair
 - **Apply by:** 2027年1月21日
@@ -52,23 +67,21 @@ _Previous run: 2026-06-08_
 - **Link:** https://tokyoartbookfair.com/application/
 - _Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting_
 
+### 第113回 日本水彩展
+- **Apply by:** Annual — 113th edition June 2026; 114th expected spring 2027 (check nihonsuisai.or.jp)
+- **Link:** https://www.nihonsuisai.or.jp/index.html
+- _The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moment_
+
+### CSPWC Annual Open Water International Exhibition
+- **Apply by:** — _(contact / propose)_
+- **Link:** https://cspwc.ca/
+- _International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Ac_
+
 ### UTRECHT
 - **Apply by:** 1 July 2025
 - **Fee:** Free
 - **Link:** https://utrecht.jp/
 - _UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale_
-
-### B&B Shimokitazawa
-- **Apply by:** 2026年06月06日
-- **Fee:** Unknown
-- **Link:** https://bookandbeer.com/
-- _Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication ang_
-
-### flotsam books
-- **Apply by:** Unknown
-- **Fee:** ¥13,200
-- **Link:** https://www.flotsambooks.com/
-- _Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts_
 
 ### MOUNT ZINE
 - **Apply by:** Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window
@@ -76,40 +89,45 @@ _Previous run: 2026-06-08_
 - **Link:** https://zine.mount.co.jp/
 - _Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment an_
 
-### Book and Sons
-- **Apply by:** Unknown
-- **Fee:** Unknown
-- **Link:** https://bookandsons.com/
-- _Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to_
-
-### CSPWC Annual Open Water International Exhibition
-- **Apply by:** — _(contact / propose)_
-- **Link:** https://cspwc.ca/
-- _International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Ac_
-
-### 第113回 日本水彩展
-- **Apply by:** — _(contact / propose)_
-- **Link:** https://www.nihonsuisai.or.jp/index.html
-- _The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moment_
-
 ### 第九屆水主題國際評審藝術比賽
 - **Apply by:** May 15th
 - **Fee:** $15
 - **Link:** https://bhuntr.com/tw/competitions/208h5hxfrofrnv2jhx
-- _第九屆水主題國際評審藝術比賽's focus on water as subject matter directly engages with the atmospheric and reflective qualities that define her urban water_
+- _第九屆水主題國際評審藝術比賽's focus on water as subject matter creates a natural platform for GEGYjiji's architectural watercolors, where water often app_
 
 ### Northwest Watercolor Society 2026 Annual International Open Exhibition
 - **Apply by:** — _(contact / propose)_
 - **Link:** https://www.nwws.org/annual-international-open/
 - _Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusu_
 
+### Book and Sons
+- **Apply by:** Rolling consignment — contact @bookandsons on Instagram
+- **Fee:** Unknown
+- **Link:** https://bookandsons.com/
+- _Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to_
+
+### flotsam books
+- **Apply by:** Rolling consignment — contact @flotsambooks on Instagram
+- **Fee:** ¥13,200
+- **Link:** https://www.flotsambooks.com/
+- _Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts_
+
+### B&B Shimokitazawa
+- **Apply by:** 2026年06月06日
+- **Fee:** Unknown
+- **Link:** https://bookandbeer.com/
+- _Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication ang_
+
 ## Watch List
 
 ### Confirmed Deadlines Within 90 Days
 
 - **ギャラリーへ行こう2026** — Entry period: June 15 - July 1, 2025; Submission dates: July 2-4, 2025 (6d) [Research]
+- **International Creator Residency Program 2027** — 2026-06-16 (7d) [Research]
+- **2026年度 第2期 地域芸術文化活動応援助成** — 2026-06-17 (8d) [Stretch]
 - **FY2026 Life with Art Grant** — 14:00 on Monday, June 29, 2026 (20d) [Stretch]
 - **Brillia Art Award Wall 2026** — 2026-07-08 (29d) [Research]
+- **Art on Climate インターナショナル・イラストレーション・コンテスト 2026** — 2026-07-31 (52d) [Research]
 - **KAMIHANGA国際プリント展2026** — Domestic: September 4, 2026 (Monday); International: August 14, 2026 (Thursday) (66d) [Research]
 
 ### Next Cycle — Check Dates

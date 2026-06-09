@@ -24,14 +24,14 @@ pre_gate_bucket for reversal if richer data is added later.
 - **Yonchome Cafe** (was: `needs_research`) — Koenji cafe with unverified exhibition program - insufficient information to assess as leg
 - **Koganecho Area Management Center** (was: `needs_research`) — Established artist-run center in Yokohama focused on site-responsive practice and communit
 - **MICRO/MACRO** (was: `needs_research`) — Group exhibition exploring micro and macro perspectives, relevant to GEGYjiji's urban obse
+- **Kyoto Retreat Artist Residency 2026 - Open Call** (was: `needs_research`) — Residencies lead found through targeted research; useful if requirements and fit check out
 - **ギャラリーへ行こう2026** (was: `needs_research`) — Open call exhibition at Tokyo gallery space for artists seeking submission opportunities.
 - **Osaka Open Call For Artists. - ARRIVAL** (was: `needs_research`) — Open Calls / Contests lead found through targeted research; useful if requirements and fit
 - **Platform China BIAP Artist Residency** (was: `needs_research`) — Caochangdi Art District Beijing residency, 8-12 weeks, open platform for emerging to estab
-- **Kyoto Retreat Artist Residency 2026 - Open Call** (was: `needs_research`) — Residencies lead found through targeted research; useful if requirements and fit check out
+- **Hayama Artist Residency Submission Manager - Submittable** (was: `needs_research`) — Residencies lead found through targeted research; useful if requirements and fit check out
 - **Shimokitazawa Arts** (was: `needs_research`) — Shimokitazawa gallery presenting monthly solo exhibitions by younger contemporary Japanese
 - **BankART1929** (was: `needs_research`) — Respected Yokohama alternative art space with historical architecture focus, but minimal o
 - **SCAI The Bathhouse** (was: `needs_research`) — SCAI The Bathhouse is a prestigious Tokyo gallery representing established international c
-- **Hayama Artist Residency Submission Manager - Submittable** (was: `needs_research`) — Residencies lead found through targeted research; useful if requirements and fit check out
 - **Belladonna Art Competition** (was: `needs_research`) — Belladonna Art Competition is worth checking because open calls can turn existing portfoli
 - **Open Call for the International Creator Residency Program 2026** (was: `needs_research`) — Residencies lead found through targeted research; useful if requirements and fit check out
 - **臺南市美術館 2026「TAM+展覽計畫」** (was: `needs_research`) — Regional museum exhibition program accepting artist proposals for 2026.
@@ -58,10 +58,10 @@ pre_gate_bucket for reversal if richer data is added later.
 - **「国際創作者駐村計畫」** (was: `needs_research`) — International artist residency program inviting visual artists, filmmakers, designers and 
 - **2026 Global Grant Cycle - Fellowships and Grants (General)** (was: `needs_research`) — ACC welcomes applications from artists proposing cultural exchange activities; supports vi
 - **新進芸術家海外研修制度における日本文化発信・普及事業（Japanese Cultural Promotion Project under the Emerging Artists Overseas Training Program）** (was: `needs_research`) — Supports emerging artists conducting research and activities abroad with funding for trave
-- **アートアワードトーキョー丸の内2026（Art Award Tokyo Marunouchi 2026）** (was: `none`) — 20th iteration of Tokyo-based award targeting emerging contemporary artists; scouts talent
 - **アジア文化芸術ネットワーク強化助成【WA2.0】** (was: `needs_research`) — Asia-focused cultural arts networking grant from Japan Foundation supports international a
 - **アジア文化芸術フェローシップ【WA2.0】** (was: `needs_research`) — Fellowship program for Asian cultural arts practitioners; relevant for a China-based artis
 - **NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW** (was: `needs_research`) — Residencies lead found through targeted research; useful if requirements and fit check out
+- **アートアワードトーキョー丸の内2026（Art Award Tokyo Marunouchi 2026）** (was: `needs_research`) — 20th iteration of Tokyo-based award targeting emerging contemporary artists; scouts talent
 - **EIAF 2026–2027 Artist-in-Residence Program** (was: `needs_research`) — Residency grant program in Japan for visual artists with stipend and public exhibition opp
 - **ERA Shimokitazawa** (was: `needs_research`) — Alternative culture venue in Shimokitazawa — events, exhibitions, and the kind of art-musi
 - **AIR 3331** (was: `needs_research`) — Tokyo residency at established contemporary art center with strong geographic and thematic

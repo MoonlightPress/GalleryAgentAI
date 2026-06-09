@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-09
 
 # flotsam books
 
@@ -11,13 +11,13 @@ REPORT GENERATED: 2026-06-01
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://www.flotsambooks.com/ (verified)
 - **Submission process**: https://www.flotsambooks.com/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Deadline**: Rolling consignment — contact @flotsambooks on Instagram (verified)
+- **Fees**: ¥13,200 (verified)
+- **Contact**: @flotsambooks (Instagram) — contact form at flotsambooks.myshopify.com/pages/contact (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Print / Zines / Bookstores.
@@ -36,8 +36,8 @@ Tokyo location aligns with regional interests; bookshop/gallery hybrid matches c
 - Low strategic visibility but emotionally comfortable exploration if in Tokyo
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** Rolling consignment — contact @flotsambooks on Instagram
+- **Fees:** ¥13,200
 - **Submission page:** https://www.flotsambooks.com/
 - **Source:** https://www.flotsambooks.com/
 
@@ -50,5 +50,5 @@ Visit if in Tokyo to assess space and build relationship naturally; not worth co
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-09_
 

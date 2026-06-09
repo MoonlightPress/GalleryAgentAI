@@ -22,6 +22,15 @@
         "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space."
       },
       {
+        "title": "flotsam books",
+        "score": 9.4,
+        "differentiated_score": 11.39,
+        "hit_nodes": [
+          "flotsam books"
+        ],
+        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
+      },
+      {
         "title": "TOKIO ART BOOK FAIR 2026",
         "score": 9.4,
         "differentiated_score": 11.24,
@@ -29,15 +38,6 @@
           "TOKYO ART BOOK FAIR"
         ],
         "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
-      },
-      {
-        "title": "flotsam books",
-        "score": 8.8,
-        "differentiated_score": 10.79,
-        "hit_nodes": [
-          "flotsam books"
-        ],
-        "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
         "title": "MOUNT ZINE",
@@ -59,8 +59,8 @@
       },
       {
         "title": "shashasha",
-        "score": 5.4,
-        "differentiated_score": 6.36,
+        "score": 6.5,
+        "differentiated_score": 7.46,
         "hit_nodes": [
           "Shashasha"
         ],
@@ -73,6 +73,15 @@
     "why_it_matters": "This is the long-horizon ecosystem for international publication legitimacy.",
     "matched_opportunities": [
       {
+        "title": "Aperture | Photography",
+        "score": 8.7,
+        "differentiated_score": 10.59,
+        "hit_nodes": [
+          "Aperture"
+        ],
+        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+      },
+      {
         "title": "tata bookshop/gallery",
         "score": 8.6,
         "differentiated_score": 9.73,
@@ -84,11 +93,20 @@
       {
         "title": "Offprint",
         "score": 8.6,
-        "differentiated_score": 9.47,
+        "differentiated_score": 9.59,
         "hit_nodes": [
           "Offprint"
         ],
         "why": "Offprint's focus on artist-led publishing aligns with GEGYjiji's daily watercolor practice and atmospheric documentation of urban environments—her body of quiet architectural work translates naturally into intimate printed matter. The fair's experimental publishing ethos matches her approach to capturing fleeting moments of Tokyo's cityscape, where the page becomes an extension of her observational practice rather than a secondary format."
+      },
+      {
+        "title": "Self Publish, Be Happy",
+        "score": 8.0,
+        "differentiated_score": 9.48,
+        "hit_nodes": [
+          "Self Publish, Be Happy"
+        ],
+        "why": "Self Publish, Be Happy's focus on watercolor sequences and artist-led books aligns perfectly with GEGYjiji's daily practice of capturing fleeting urban moments—her work naturally reads as a serialized visual journal rather than discrete gallery pieces. The platform's emphasis on works on paper and quiet, introspective narratives creates space for her architectural observations and disappearing Tokyo scenes to reach collectors and peers who value contemplative, process-driven practices over conventional exhibition cycles."
       },
       {
         "title": "Picaresque Gallery",
@@ -100,15 +118,6 @@
         "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid."
       },
       {
-        "title": "Self Publish, Be Happy",
-        "score": 8.0,
-        "differentiated_score": 9.36,
-        "hit_nodes": [
-          "Self Publish, Be Happy"
-        ],
-        "why": "Self Publish, Be Happy's focus on watercolor sequences and artist-led books aligns perfectly with GEGYjiji's daily practice of capturing fleeting urban moments—her work naturally reads as a serialized visual journal rather than discrete gallery pieces. The platform's emphasis on works on paper and quiet, introspective narratives creates space for her architectural observations and disappearing Tokyo scenes to reach collectors and peers who value contemplative, process-driven practices over conventional exhibition cycles."
-      },
-      {
         "title": "Gallery Conceal Shibuya",
         "score": 8.6,
         "differentiated_score": 9.3,
@@ -116,15 +125,6 @@
           "VOID"
         ],
         "why": "It doesn't. This conflicts with your strategic goal to avoid pay-to-play venues that dilute positioning, and offers no clear institutional or career benefit."
-      },
-      {
-        "title": "Aperture | Photography",
-        "score": 5.1,
-        "differentiated_score": 6.99,
-        "hit_nodes": [
-          "Aperture"
-        ],
-        "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
       }
     ]
   },
@@ -157,8 +157,8 @@
       },
       {
         "title": "flotsam books",
-        "score": 8.8,
-        "differentiated_score": 10.79,
+        "score": 9.4,
+        "differentiated_score": 11.39,
         "hit_nodes": [
           "flotsam books"
         ],

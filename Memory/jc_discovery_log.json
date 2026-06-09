@@ -443,6 +443,13 @@
       "new_opps": 0,
       "quota_hit": false,
       "group_breakdown": {}
+    },
+    {
+      "run_at": "2026-06-09T10:19:08.513661",
+      "queries_run": 0,
+      "new_opps": 0,
+      "quota_hit": false,
+      "group_breakdown": {}
     }
   ]
 }
