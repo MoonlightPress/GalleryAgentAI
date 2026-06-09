@@ -263,7 +263,7 @@ function InstagramStrategy({ data, t }) {
             <div key={i} className="sf-platform-row">
               <div className="sf-platform-name">{p.name}</div>
               <div className="sf-platform-handle">{p.handle}</div>
-              <div className="sf-platform-followers">{p.followers}{p.posts != null ? ` · ${p.posts} posts` : ''}</div>
+              <div className="sf-platform-followers">{p.followers ?? '—'}{p.posts != null ? ` · ${p.posts} posts` : ''}</div>
               <div className="sf-platform-note">{p.note}</div>
             </div>
           ))}
@@ -344,14 +344,16 @@ const ASSESSMENT_KEYS = {
   on_track:      'sf.assess.on_track',
   below_typical: 'sf.assess.below_typical',
   weak:          'sf.assess.weak',
+  unknown:       'sf.assess.unknown',
 }
 const ASSESSMENT_COLORS = {
   strong: '#5a7a30', on_track: '#7a9a40', below_typical: '#c47a35', weak: '#b03020',
+  unknown: '#9a8a70',
 }
 
 function CareerBenchmarks({ data, t }) {
   const rec = data.artist_record
-  const summary = `${rec.exhibitions} · ${rec.publications} · Instagram ${rec.instagram} · Twitter ${rec.twitter}`
+  const summary = `${rec.exhibitions} · ${rec.publications} · Instagram ${rec.instagram ?? '—'} · Twitter ${rec.twitter ?? '—'}`
   return (
     <SectionShell
       title={t('sf.sec.benchmarks')}

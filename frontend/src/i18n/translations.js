@@ -271,6 +271,7 @@ const zh = {
   'sf.assess.on_track':      '正常',
   'sf.assess.below_typical': '低于一般',
   'sf.assess.weak':          '较弱',
+  'sf.assess.unknown':       '未确认',
 
   'sf.status.readyReview':   '待审查',
   'sf.status.readyContact':  '可联系',
@@ -1035,6 +1036,7 @@ const ja = {
   'sf.assess.on_track':      '順調',
   'sf.assess.below_typical': '平均以下',
   'sf.assess.weak':          '弱い',
+  'sf.assess.unknown':       '未確認',
 
   'sf.status.readyReview':   'レビュー待ち',
   'sf.status.readyContact':  '連絡可能',
@@ -1792,6 +1794,7 @@ const en = {
   'sf.assess.on_track':      'On track',
   'sf.assess.below_typical': 'Below typical',
   'sf.assess.weak':          'Weak',
+  'sf.assess.unknown':       'Unconfirmed',
 
   'sf.status.readyReview':   'Ready to review',
   'sf.status.readyContact':  'Ready to contact',

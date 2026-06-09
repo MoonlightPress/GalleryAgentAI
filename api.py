@@ -1273,7 +1273,7 @@ def get_saffron():
                 "note": "Account exists but follower count unconfirmed. Not used for outreach.",
             },
         ],
-        "summary": "Exhibition history is the weakest dimension. Social presence (especially Twitter) is a genuine asset. The gap between audience size and exhibition count is larger than typical — the audience exists, the CV is still thin.",
+        "summary": "Exhibition history is the weakest dimension. Instagram presence (~90k followers) is an unusually strong asset at this career stage. The gap between audience size and exhibition count is larger than typical — the audience exists, the CV is still thin.",
     }
 
     # ── Seasonal opportunity calendar ─────────────────────────────────────────
@@ -1285,6 +1285,11 @@ def get_saffron():
     def _parse_month(dl_str):
         if not dl_str:
             return None
+        # Try structured parse first (ISO / JP / EN formats)
+        dt = _parse_deadline_date({"deadline": dl_str})
+        if dt:
+            return MONTH_NAMES[dt.month - 1]
+        # Fall back to month-name text scan
         for m in MONTH_NAMES:
             if m.lower() in dl_str.lower():
                 return m
