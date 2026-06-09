@@ -1607,6 +1607,13 @@ def get_saffron():
             for c in crm_list
         ],
         "total": len(crm_list),
+        # An "active relationship" is a venue we've actually engaged: contacted at
+        # least once, or that has replied. Avoids the misleading hardcoded "0".
+        "active": sum(
+            1 for c in crm_list
+            if c.get("last_contacted") or c.get("response_received")
+            or str(c.get("status", "")).lower() in ("contacted", "in_conversation", "active", "responded")
+        ),
         "gap_note": (
             f"Only {len(crm_list)} venue{'s' if len(crm_list) != 1 else ''} tracked. "
             "A working relationship map needs 15–20 entries — galleries, bookshops, cafés, and artist spaces. "

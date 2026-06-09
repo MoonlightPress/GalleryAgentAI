@@ -176,7 +176,7 @@ const zh = {
   'sf.sub.longTerm':         '{horizon}的三条职业路径。每条路径当下需要什么。',
   'sf.sec.venues':           '场地关系追踪',
   'sf.sub.venues':           '她正在联系的场地、当前状态，以及建议的后续行动。',
-  'sf.sum.venues':           '已追踪{n}个场地 · 0个活跃关系',
+  'sf.sum.venues':           '已追踪{n}个场地 · {active}个活跃关系',
   'sf.sec.openQs':           '待解问题',
   'sf.sub.openQs':           '红雀还不知道、但会改变分析结果的事情。',
 
@@ -447,7 +447,6 @@ const zh = {
   'pp.ig.known':           '已知信息',
   'pp.ig.missing':         '缺失信息',
   'pp.ig.platComp':        '平台对比',
-  'pp.ig.ratio':           'Twitter 的粉丝数是 Instagram 的{n}倍。画廊和出版商用 Instagram 发现艺术家 — 这个差距很重要。',
 
   'pp.shows.record.label': '第一场日本展览记录',
   'pp.shows.nextTargets':  '值得关注的下一批目标',
@@ -511,15 +510,6 @@ const zh = {
   'pp.ig.wondering.1':       '你想要增长它，还是主要用作作品档案？方法完全不同。',
   'pp.ig.wondering.2':       '如果你能分享Instagram Insights截图，胡椒粒就能看到你的受众究竟在哪里。',
 
-  // ── Peppercorn Twitter content ────────────────────────────────────────────
-  'pp.tw.count':             '~90k 粉丝',
-  'pp.tw.analysis':          '接近100k — 一个具有象征意义的里程碑。自2020年起通过日记式创作积累的插画社群粉丝是真实且来之不易的。',
-  'pp.tw.thresh.100k':       '象征性里程碑。在策展人和画廊主的对话中具有信誉背书作用。媒体提及增加。快了。',
-  'pp.tw.insight':           'Twitter的粉丝量大约是Instagram的4倍。这个差距重要，因为画廊和出版商用Instagram发现艺术家 — 那是他们遇到一个名字后去查看的地方。Twitter的受众不会自动迁移过来。',
-  'pp.tw.wondering.label':   '胡椒粒想了解',
-  'pp.tw.wondering.0':       '你现在多久发一次Instagram？',
-  'pp.tw.wondering.1':       '你想要增长它，还是主要用作作品档案？方法完全不同。',
-  'pp.tw.wondering.2':       '如果你能分享Instagram Insights截图，胡椒粒就能看到你的受众究竟在哪里。',
 
   // ── Exhibition threshold content ──────────────────────────────────────────
   'pp.shows.meta':           'ACG_Labo · 东京原宿 · 2023年2月 · 群展，6位中国插画师',
@@ -532,8 +522,6 @@ const zh = {
   'pp.shows.iyn.desc':       '规模较小，专注新兴艺术家。现实的第一个重复展览场地。',
 
   // ── Carousel cards ────────────────────────────────────────────────────────
-  'pp.carousel.tw.name':            'Twitter / X',
-  'pp.carousel.tw.desc':            '象征性里程碑 — 在策展人对话中的信誉背书',
   'pp.carousel.ig.name':            'Instagram',
   'pp.carousel.ig.desc':            '接近100k — 一个在策展人与画廊对话中具备信誉背书的象征性里程碑',
   'pp.carousel.pub.name':           '出版物',
@@ -1095,7 +1083,7 @@ const ja = {
   'sf.sub.longTerm':         '{horizon}の3つのキャリアパス。今すぐ何が必要か。',
   'sf.sec.venues':           '会場リレーショントラッカー',
   'sf.sub.venues':           '接触中の会場、ステータス、推奨される次のアクション。',
-  'sf.sum.venues':           '{n}件追跡中 · アクティブな関係0件',
+  'sf.sum.venues':           '{n}件追跡中 · アクティブな関係{active}件',
   'sf.sec.openQs':           '未解決の問い',
   'sf.sub.openQs':           'サフランがまだ知らない、分析を変えうること。',
 
@@ -1313,7 +1301,6 @@ const ja = {
   'pp.ig.known':           'わかっていること',
   'pp.ig.missing':         '不足情報',
   'pp.ig.platComp':        'プラットフォーム比較',
-  'pp.ig.ratio':           'TwitterはInstagramの{n}倍の規模。ギャラリーや出版社はInstagramでアーティストを発見します — このギャップは重要です。',
 
   'pp.shows.record.label': '初の日本展示記録',
   'pp.shows.nextTargets':  '注目すべき次のターゲット',
@@ -1377,15 +1364,6 @@ const ja = {
   'pp.ig.wondering.1':       '伸ばしたいですか、それともポートフォリオのアーカイブとして使いたいですか？アプローチはまったく違います。',
   'pp.ig.wondering.2':       'Instagram Insightsのスクリーンショットを共有できれば、ペッパーコーンがオーディエンスの実際の所在地を確認できます。',
 
-  // ── Peppercorn Twitter content ────────────────────────────────────────────
-  'pp.tw.count':             '~90kフォロワー',
-  'pp.tw.analysis':          '100kが近い — 象徴的な節目。2020年から日記実践を通じて積み上げてきたイラストコミュニティのフォロワーは本物で、簡単に得られたものではありません。',
-  'pp.tw.thresh.100k':       '象徴的なマイルストーン。キュレーターやギャラリーとの会話での信頼性の指標になります。メンション増加。もうすぐです。',
-  'pp.tw.insight':           'TwitterはInstagramのおよそ4倍の規模です。このギャップが重要なのは、ギャラリーや出版社がInstagramを使ってアーティストを発見するからです — 名前を知った後に確認する場所がそこです。Twitterのオーディエンスは自動的には移行しません。',
-  'pp.tw.wondering.label':   'ペッパーコーンが気になること',
-  'pp.tw.wondering.0':       '今どのくらいの頻度でInstagramに投稿していますか？',
-  'pp.tw.wondering.1':       '伸ばしたいですか、それともポートフォリオのアーカイブとして使いたいですか？アプローチはまったく違います。',
-  'pp.tw.wondering.2':       'Instagram Insightsのスクリーンショットを共有できれば、ペッパーコーンがオーディエンスの実際の所在地を確認できます。',
 
   // ── Exhibition threshold content ──────────────────────────────────────────
   'pp.shows.meta':           'ACG_Labo · 東京原宿 · 2023年2月 · グループ展、6名の中国人イラストレーター',
@@ -1398,8 +1376,6 @@ const ja = {
   'pp.shows.iyn.desc':       '小規模で新興アーティスト重視。現実的な最初のリピート会場。',
 
   // ── Carousel cards ────────────────────────────────────────────────────────
-  'pp.carousel.tw.name':            'Twitter / X',
-  'pp.carousel.tw.desc':            '象徴的マイルストーン — キュレーターとの会話での信頼性指標',
   'pp.carousel.ig.name':            'Instagram',
   'pp.carousel.ig.desc':            '100kが近い — キュレーターやギャラリーとの会話で信頼性の指標になる象徴的な節目',
   'pp.carousel.pub.name':           '出版物',
@@ -1954,7 +1930,7 @@ const en = {
   'sf.sub.longTerm':         'Three career paths at {horizon}. What each requires starting now.',
   'sf.sec.venues':           'Venue Relationship Tracker',
   'sf.sub.venues':           'Venues she\'s in contact with, their status, and suggested next actions.',
-  'sf.sum.venues':           '{n} venue{s} tracked · 0 active relationships',
+  'sf.sum.venues':           '{n} venue{s} tracked · {active} active relationships',
   'sf.sec.openQs':           'Open Questions',
   'sf.sub.openQs':           'Things Saffron doesn\'t know yet that would change the analysis.',
 
@@ -2171,7 +2147,6 @@ const en = {
   'pp.ig.known':           'What\'s known',
   'pp.ig.missing':         'What\'s missing',
   'pp.ig.platComp':        'Platform comparison',
-  'pp.ig.ratio':           'Twitter is {n}× larger. Instagram is the platform galleries and publishers use for discovery — the gap matters.',
 
   'pp.shows.record.label': 'First Japan exhibition',
   'pp.shows.nextTargets':  'Next targets worth watching',
@@ -2235,15 +2210,6 @@ const en = {
   'pp.ig.wondering.1':       'Do you want to grow it, or use it mainly as a portfolio archive? The approach is completely different.',
   'pp.ig.wondering.2':       'If you can share your Instagram Insights screenshot, Peppercorn can see where your audience actually is.',
 
-  // ── Peppercorn Twitter content ────────────────────────────────────────────
-  'pp.tw.count':             '~90k followers',
-  'pp.tw.analysis':          'Almost at 100k — a symbolic threshold. The illustration community following built through daily diary practice since 2020 is genuine and hard-won.',
-  'pp.tw.thresh.100k':       'Symbolic milestone. Credibility marker in curator and gallerist conversations. Press mentions increase. Almost there.',
-  'pp.tw.insight':           'Twitter is roughly 4× larger than Instagram. The gap matters because galleries and publishers use Instagram for discovery — it\'s where they look when they encounter a name. Twitter\'s audience doesn\'t bridge automatically.',
-  'pp.tw.wondering.label':   'Peppercorn was wondering',
-  'pp.tw.wondering.0':       'How often do you post to Instagram at the moment?',
-  'pp.tw.wondering.1':       'Do you want to grow it, or use it mainly as a portfolio archive? The approach is completely different.',
-  'pp.tw.wondering.2':       'If you can share your Instagram Insights screenshot, Peppercorn can see where your audience actually is.',
 
   // ── Exhibition threshold content ──────────────────────────────────────────
   'pp.shows.meta':           'ACG_Labo · Harajuku, Tokyo · February 2023 · Group show, 6 Chinese illustrators',
@@ -2256,8 +2222,6 @@ const en = {
   'pp.shows.iyn.desc':       'Smaller, emerging-artist focused. Realistic first repeat venue.',
 
   // ── Carousel cards ────────────────────────────────────────────────────────
-  'pp.carousel.tw.name':            'Twitter / X',
-  'pp.carousel.tw.desc':            'Symbolic milestone — credibility marker in curator conversations',
   'pp.carousel.ig.name':            'Instagram',
   'pp.carousel.ig.desc':            'Approaching 100k — a symbolic milestone that lends credibility in curator and gallery conversations',
   'pp.carousel.pub.name':           'Publications',

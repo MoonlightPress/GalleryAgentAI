@@ -124,7 +124,7 @@ function CareerPosition({ data, t }) {
 function MarketLandscape({ data, t }) {
   const maxCat  = Math.max(...data.category_breakdown.map(c => c.count), 1)
   const geoTotal = data.tokyo_vs_international.tokyo + data.tokyo_vs_international.international
-  const tokyoPct = Math.round((data.tokyo_vs_international.tokyo / geoTotal) * 100)
+  const tokyoPct = Math.round((data.tokyo_vs_international.tokyo / (geoTotal || 1)) * 100)
   const summary  = `${data.total} — ${data.tokyo_vs_international.tokyo} ${t('sf.label.tokyo')}, ${data.tokyo_vs_international.international} ${t('sf.label.international')}`
 
   return (
@@ -513,7 +513,7 @@ function CollaborationMap({ data, t }) {
           <div className="sf-block-label">{t('sf.label.tokyoPeerNet')}</div>
           <EmptyState message={data.peer_network?.reason ?? ''} />
           <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.whyMatters')}</div>
-          <p className="sf-info-text">{data.peer_network.why_it_matters}</p>
+          <p className="sf-info-text">{data.peer_network?.why_it_matters}</p>
         </div>
       </div>
     </SectionShell>
@@ -663,7 +663,7 @@ const STATUS_COLORS = {
 }
 
 function VenueTracker({ data, t }) {
-  const summary = t('sf.sum.venues', { n: data.total, s: data.total !== 1 ? 's' : '' })
+  const summary = t('sf.sum.venues', { n: data.total, s: data.total !== 1 ? 's' : '', active: data.active ?? 0 })
   return (
     <SectionShell
       title={t('sf.sec.venues')}
