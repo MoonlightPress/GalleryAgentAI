@@ -149,7 +149,7 @@ function PressCard({ opp }) {
           {expanded && (
             <div className="press-expand-content">
               {contact && (
-                <p className="press-contact"><strong>联系方式：</strong>{contact}</p>
+                <p className="press-contact"><strong>{t('press.contact')}</strong>{contact}</p>
               )}
               {note && <p className="press-note">{note}</p>}
             </div>

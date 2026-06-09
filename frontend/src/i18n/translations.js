@@ -762,6 +762,7 @@ const zh = {
   'press.action.pitch':  '主动投稿',
   'press.action.relationship': '关系积累',
   'press.howToPitch':    '如何接触 →',
+  'press.contact':       '联系方式：',
   'press.empty':         '稍后会更新媒体投稿目标。',
 }
 
@@ -1525,6 +1526,7 @@ const ja = {
   'press.action.pitch':  'ピッチ',
   'press.action.relationship': '関係構築',
   'press.howToPitch':    'アプローチ方法 →',
+  'press.contact':       '連絡先：',
   'press.empty':         'メディアターゲットは近日追加予定です。',
 }
 
@@ -2280,6 +2282,7 @@ const en = {
   'press.action.pitch':  'Pitch',
   'press.action.relationship': 'Relationship',
   'press.howToPitch':    'How to pitch →',
+  'press.contact':       'Contact: ',
   'press.empty':         'Press targets will be populated soon.',
 }
 
