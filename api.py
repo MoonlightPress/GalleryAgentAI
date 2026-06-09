@@ -155,6 +155,73 @@ def _confirmed_deadline(opp: dict) -> bool:
     return d not in _DEADLINE_PLACEHOLDERS and len(d) > 4
 
 
+_ISO_DATE_RE  = re.compile(r'(\d{4})-(\d{2})-(\d{2})')
+_JP_DATE_RE   = re.compile(r'(\d{4})年(\d{1,2})月(\d{1,2})日')
+_EN_MONTH_RE  = re.compile(
+    r'(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|'
+    r'jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)'
+    r'\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})',
+    re.IGNORECASE,
+)
+_EN_DAY_MON_RE = re.compile(
+    r'(\d{1,2})\s+'
+    r'(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|'
+    r'jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)'
+    r'\s+(\d{4})',
+    re.IGNORECASE,
+)
+_MONTH_NUM = {
+    'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
+    'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12,
+}
+
+
+def _parse_deadline_date(opp: dict):
+    """Return a date object if the deadline can be parsed, else None."""
+    d = str(opp.get("deadline", "")).strip()
+    if not d:
+        return None
+    m = _ISO_DATE_RE.search(d)
+    if m:
+        try:
+            return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), tzinfo=timezone.utc)
+        except ValueError:
+            pass
+    m = _JP_DATE_RE.search(d)
+    if m:
+        try:
+            return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), tzinfo=timezone.utc)
+        except ValueError:
+            pass
+    m = _EN_MONTH_RE.search(d)
+    if m:
+        mon_str = d[m.start():m.start() + 3].lower()
+        mon_num = _MONTH_NUM.get(mon_str)
+        if mon_num:
+            try:
+                return datetime(int(m.group(2)), mon_num, int(m.group(1)), tzinfo=timezone.utc)
+            except ValueError:
+                pass
+    m = _EN_DAY_MON_RE.search(d)
+    if m:
+        mon_str = m.group(2)[:3].lower()
+        mon_num = _MONTH_NUM.get(mon_str)
+        if mon_num:
+            try:
+                return datetime(int(m.group(3)), mon_num, int(m.group(1)), tzinfo=timezone.utc)
+            except ValueError:
+                pass
+    return None
+
+
+def _deadline_past(opp: dict) -> bool:
+    """Return True if a parseable deadline is more than 7 days in the past."""
+    dt = _parse_deadline_date(opp)
+    if dt is None:
+        return False
+    return (datetime.now(timezone.utc) - dt).days > 7
+
+
 def _real_submission_page(opp: dict) -> bool:
     sp  = (opp.get("submission_page") or "").strip()
     ow  = (opp.get("official_website") or "").strip()
@@ -165,6 +232,8 @@ def _real_submission_page(opp: dict) -> bool:
 
 def _ibm_eligible(opp: dict) -> bool:
     if opp.get("status") == "permanently_closed":
+        return False
+    if _deadline_past(opp):
         return False
     if _confirmed_deadline(opp):
         return True
@@ -482,7 +551,7 @@ def shape_card(opp: dict) -> dict:
 
 def _ranked_score(item: dict) -> float:
     """Sort key: photography yields 1 full point to painting/watercolor at equal score."""
-    score = float(item.get("overall_score") or 0)
+    score = _overall_score(item)
     if item.get("native_medium") == "photography":
         score -= 1.0
     return score
@@ -803,7 +872,8 @@ def add_contact(entry: ContactEntry):
         "last_contacted": entry.last_contacted,
         "logged_at":      datetime.now(timezone.utc).isoformat(),
     })
-    CONTACTS_PATH.write_text(json.dumps({"contacts": contacts}, ensure_ascii=False, indent=2), encoding="utf-8")
+    out = contacts if isinstance(data, list) else {"contacts": contacts}
+    CONTACTS_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     return {"ok": True, "count": len(contacts)}
 
 
@@ -834,7 +904,8 @@ def update_contact(entry: ContactUpdate):
     if entry.last_visited:
         contacts[idx]["last_visited"] = entry.last_visited
     contacts[idx]["date_updated"] = datetime.now(timezone.utc).isoformat()
-    CONTACTS_PATH.write_text(json.dumps({"contacts": contacts}, ensure_ascii=False, indent=2), encoding="utf-8")
+    out = contacts if isinstance(data, list) else {"contacts": contacts}
+    CONTACTS_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     return {"ok": True, "contact": contacts[idx]}
 
 
@@ -865,7 +936,8 @@ def patch_contact(contact_name: str, patch: ContactPatch):
     if patch.response_received is not None:
         contacts[idx]["response_received"] = patch.response_received
     contacts[idx]["date_updated"] = datetime.now(timezone.utc).isoformat()
-    CONTACTS_PATH.write_text(json.dumps({"contacts": contacts}, ensure_ascii=False, indent=2), encoding="utf-8")
+    out = contacts if isinstance(data, list) else {"contacts": contacts}
+    CONTACTS_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     return {"ok": True, "contact": contacts[idx]}
 
 
@@ -940,8 +1012,8 @@ def get_saffron():
             },
         ],
         "social": [
-            {"platform": "Twitter / X", "handle": "@GegYjiji", "followers": "~90k", "posts": None},
-            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "21k",  "posts": 35},
+            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "~90k", "posts": None},
+            {"platform": "Twitter / X", "handle": "@GegYjiji",  "followers": None,   "posts": None},
         ],
         "education": {
             "institution": "Beijing Fashion Institute",
@@ -1105,24 +1177,24 @@ def get_saffron():
     instagram_strategy = {
         "platforms": [
             {
-                "name": "Twitter / X",
-                "handle": "@GegYjiji",
-                "followers": "~90k",
-                "posts": None,
-                "note": "4× larger than Instagram — illustration community following built through daily diary practice since 2020",
-            },
-            {
                 "name": "Instagram",
                 "handle": "@gegyjiji",
-                "followers": "21k",
-                "posts": 35,
-                "note": "Primary visual portfolio platform — significantly underdeveloped relative to Twitter presence",
+                "followers": "~90k",
+                "posts": None,
+                "note": "Primary visual portfolio platform — ~90k followers built through daily watercolor diary practice since 2020. The platform galleries, publishers, and curators use for discovery.",
+            },
+            {
+                "name": "Twitter / X",
+                "handle": "@GegYjiji",
+                "followers": None,
+                "posts": None,
+                "note": "Account exists. Follower count unconfirmed. Do NOT reference in any outreach emails — Instagram only.",
             },
         ],
         "gap": {
-            "twitter": 90000,
-            "instagram": 21000,
-            "analysis": "Instagram is the platform galleries, publishers, and curators actually use for discovery. The 4× gap is not about reach — it's about platform-native strategy. The audience exists. The Instagram presence doesn't reflect it yet.",
+            "instagram": 90000,
+            "twitter": None,
+            "analysis": "Instagram is well-developed (~90k followers). The open question is posting cadence and curation strategy — whether she is actively building the account or treating it as a portfolio archive changes the advice entirely.",
         },
         "known": {
             "content_type": "Urban environments, cats, domestic life, travel fragments — high-performing Instagram subject matter",
@@ -1148,8 +1220,8 @@ def get_saffron():
     audience_geography = {
         "available": False,
         "reason": "Instagram Insights and Twitter Analytics are not accessible without the artist's credentials. Geographic audience data cannot be observed from public sources.",
-        "why_it_matters": "Whether her 90k+ following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.",
-        "hypothesis": "Based on the ACG/illustration community context and parallel Weibo presence, the Twitter following likely skews toward Chinese-language users. Instagram may be more globally distributed. This is unconfirmed.",
+        "why_it_matters": "Whether her ~90k Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.",
+        "hypothesis": "Based on the ACG/illustration community context, the Instagram following may skew toward Chinese-language users. Whether the Tokyo-based practice has shifted that toward a Japan-leaning or globally distributed audience is unconfirmed.",
         "what_peppercorn_should_ask": "Can you share a screenshot of your Instagram Audience Insights (country/city breakdown) and Twitter Analytics follower demographics?",
     }
 
@@ -1158,8 +1230,8 @@ def get_saffron():
         "artist_record": {
             "exhibitions": _total_group_shows,
             "publications": 2,
-            "instagram": "21k",
-            "twitter": "~90k",
+            "instagram": "~90k",
+            "twitter": None,
             "age_approx": 26,
             "years_active": "~6 (daily practice from 2020, first publication 2021)",
         },
@@ -1184,21 +1256,21 @@ def get_saffron():
             },
             {
                 "dimension": "Instagram followers",
-                "artist_value": "21k",
+                "artist_value": "~90k",
                 "peer_low": "5k",
                 "peer_typical": "15–50k",
                 "peer_high": "100k+",
-                "assessment": "on_track",
-                "note": "Mid-range for illustrators 3 years into practice",
+                "assessment": "strong",
+                "note": "Top percentile for illustrators at this career stage — an unusually strong asset for gallery and publisher discovery",
             },
             {
                 "dimension": "Twitter / X followers",
-                "artist_value": "~90k",
+                "artist_value": "unconfirmed",
                 "peer_low": "2k",
                 "peer_typical": "10–30k",
                 "peer_high": "50k+",
-                "assessment": "strong",
-                "note": "Top percentile for this career stage — an unusually strong asset",
+                "assessment": "unknown",
+                "note": "Account exists but follower count unconfirmed. Not used for outreach.",
             },
         ],
         "summary": "Exhibition history is the weakest dimension. Social presence (especially Twitter) is a genuine asset. The gap between audience size and exhibition count is larger than typical — the audience exists, the CV is still thin.",
@@ -1516,7 +1588,7 @@ def get_saffron():
         "questions": [
             {
                 "question": "What is her current Instagram posting frequency?",
-                "why_it_matters": "Cadence is the most controllable variable for growing the platform gap. Without knowing current frequency, no posting strategy can be recommended.",
+                "why_it_matters": "With ~90k followers, Instagram is already well-established. Cadence is the most controllable variable for maximising reach on the platform galleries, publishers, and curators actually use for discovery. Without knowing current frequency, no posting strategy can be recommended.",
                 "routed_to": "Peppercorn",
             },
             {
@@ -1574,7 +1646,8 @@ def get_saffron():
     raw_contacts = []
     if contact_mem_path.exists():
         try:
-            raw_contacts = json.loads(contact_mem_path.read_text(encoding="utf-8")).get("contacts", [])
+            _crm_raw = json.loads(contact_mem_path.read_text(encoding="utf-8"))
+            raw_contacts = _crm_raw if isinstance(_crm_raw, list) else _crm_raw.get("contacts", [])
         except Exception:
             raw_contacts = []
 

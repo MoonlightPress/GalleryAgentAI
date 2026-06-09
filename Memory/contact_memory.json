@@ -50,7 +50,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "A"
+        "priority": "A",
+        "next_action": "Complete research on UTRECHT: check their website for recent exhibitions, any open call announcements, and a named contact person.",
+        "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
+        "follow_up_timing": "Complete your research within 1-2 weeks and move this to ready_to_review."
       }
     },
     {
@@ -67,7 +70,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "A"
+        "priority": "A",
+        "next_action": "Visit flotsam books in person (or browse their online inventory) to confirm the aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
+        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush."
       }
     },
     {
@@ -84,7 +90,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "A"
+        "priority": "A",
+        "next_action": "Complete research on B&B Shimokitazawa: check their website for recent exhibitions, any open call announcements, and a named contact person.",
+        "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
+        "follow_up_timing": "Complete your research within 1-2 weeks and move this to ready_to_review."
       }
     },
     {
@@ -101,7 +110,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "A"
+        "priority": "A",
+        "next_action": "Visit HATTIFNATT Koenji to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability before investing preparation time.",
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
       }
     },
     {
@@ -118,7 +130,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "A"
+        "priority": "A",
+        "next_action": "Send or bring a physical copy of your work to MOUNT ZINE — zine culture prioritises the object over email pitches.",
+        "risk_notes": "Small zine shops often have limited space and inconsistent restocking. Confirm current capacity before sending copies.",
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
       }
     },
     {
@@ -135,7 +150,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "B"
+        "priority": "B",
+        "next_action": "Visit Book and Sons in person (or browse their online inventory) to confirm the aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
+        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush."
       }
     },
     {
@@ -152,7 +170,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "B"
+        "priority": "B",
+        "next_action": "Visit COW BOOKS Nakameguro in person (or browse their online inventory) to confirm the aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
+        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush."
       }
     },
     {
@@ -169,7 +190,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "A"
+        "priority": "A",
+        "next_action": "Complete research on Tokyo Art Book Fair: check their website for recent exhibitions, any open call announcements, and a named contact person.",
+        "risk_notes": "Fair participation requires upfront cost and significant stock. Evaluate ROI before committing.",
+        "follow_up_timing": "Complete your research within 1-2 weeks and move this to ready_to_review."
       }
     },
     {
@@ -186,7 +210,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "A"
+        "priority": "A",
+        "next_action": "Research ZINEフェス東京's application process and booth costs. Evaluate whether table fees align with current inventory levels.",
+        "risk_notes": "Fair participation requires upfront cost and significant stock. Evaluate ROI before committing.",
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
       }
     },
     {
@@ -203,7 +230,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "C"
+        "priority": "C",
+        "next_action": "Visit Yonchome Cafe to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability before investing preparation time.",
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
       }
     },
     {
@@ -220,7 +250,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "A"
+        "priority": "A",
+        "next_action": "Research SUZURI's current program, submission policy, and key contact person before initiating outreach.",
+        "risk_notes": "No contact established yet — research submission policy and named contact before reaching out.",
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
       }
     },
     {
@@ -237,7 +270,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "B"
+        "priority": "B",
+        "next_action": "Attend an opening or event at Design Festa Gallery to observe their curation style and audience before any formal approach.",
+        "risk_notes": "Many galleries do not accept unsolicited submissions — verify their policy before sending work.",
+        "follow_up_timing": "Visit in person first; follow up with email only after you have attended at least one event."
       }
     },
     {
@@ -254,7 +290,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "C"
+        "priority": "C",
+        "next_action": "Visit tata bookshop/gallery in person (or browse their online inventory) to confirm the aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
+        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush."
       }
     },
     {
@@ -271,7 +310,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "C"
+        "priority": "C",
+        "next_action": "Attend an opening or event at reload Shimokitazawa to observe their curation style and audience before any formal approach.",
+        "risk_notes": "Many galleries do not accept unsolicited submissions — verify their policy before sending work.",
+        "follow_up_timing": "Visit in person first; follow up with email only after you have attended at least one event."
       }
     },
     {
@@ -288,7 +330,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "C"
+        "priority": "C",
+        "next_action": "Send or bring a physical copy of your work to Tacoche — zine culture prioritises the object over email pitches.",
+        "risk_notes": "Small zine shops often have limited space and inconsistent restocking. Confirm current capacity before sending copies.",
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
       }
     },
     {
@@ -305,7 +350,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "C"
+        "priority": "C",
+        "next_action": "Attend an opening or event at Gallery 456 to observe their curation style and audience before any formal approach.",
+        "risk_notes": "Many galleries do not accept unsolicited submissions — verify their policy before sending work.",
+        "follow_up_timing": "Visit in person first; follow up with email only after you have attended at least one event."
       }
     },
     {
@@ -322,7 +370,10 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "C"
+        "priority": "C",
+        "next_action": "Research ART BOX Publishing's current program, submission policy, and key contact person before initiating outreach.",
+        "risk_notes": "No contact established yet — research submission policy and named contact before reaching out.",
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
       }
     },
     {
@@ -339,7 +390,868 @@
       "date_added": "2026-06-07",
       "source": "ibm_pipeline",
       "crm_analysis": {
-        "priority": "C"
+        "priority": "C",
+        "next_action": "Visit Books Ruhe in person (or browse their online inventory) to confirm the aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
+        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush."
+      }
+    },
+    {
+      "name": "HATTIFNATT Koenji Cafe Gallery",
+      "type": "cafe_gallery",
+      "city": "Tokyo — Koenji",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://www.hattifnatt.jp/",
+      "submission_page": "https://www.hattifnatt.jp/",
+      "status": "cold",
+      "why_relevant": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit HATTIFNATT Koenji Cafe Gallery in Tokyo — Koenji to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "美術手帖 (Bijutsu Techo)",
+      "type": "press_target",
+      "city": "Tokyo",
+      "country": "Japan",
+      "contact_email": "editorial@bijutsutecho.com or Instagram DM @bijutsutecho",
+      "contact_page": null,
+      "official_website": "https://bijutsutecho.com/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Research 美術手帖 (Bijutsu Techo)'s current program and submission policy before reaching out.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Pen Magazine",
+      "type": "press_target",
+      "city": "Tokyo",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://pen-online.jp/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Tokyo's design-literate audience. Urban watercolor + Tokyo documentation = strong editorial angle for Pen readers.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Research Pen Magazine's current program and submission policy before reaching out.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "It's Nice That",
+      "type": "press_target",
+      "city": "London",
+      "country": "UK",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://www.itsnicethat.com/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Biggest international platform for artists at her level. A feature here reaches the global illustration community and attracts licensing and commission inquiries.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Research It's Nice That's current program and submission policy before reaching out.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Apartamento Magazine",
+      "type": "press_target",
+      "city": "Barcelona",
+      "country": "Spain",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://apartamentomagazine.com/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Her intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Research Apartamento Magazine's current program and submission policy before reaching out.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Kamome Roastery Tokyo",
+      "type": "cafe_gallery",
+      "city": "Tokyo — Kameari, Katsushika",
+      "country": "Japan",
+      "contact_email": "info@kamome-tokyo.com",
+      "contact_page": null,
+      "official_website": "https://www.kamome-tokyo.com/",
+      "submission_page": "https://www.kamome-tokyo.com/gallery",
+      "status": "cold",
+      "why_relevant": "Kamome explicitly programs artists with design sensibility. Free exhibition, no upfront cost, 10% sales commission only. Watercolor on rail system fits perfectly. GEGYjiji's 90k Instagram is 150x the required minimum follower count.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit Kamome Roastery Tokyo in Tokyo — Kameari, Katsushika to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Mograg Gallery",
+      "type": "cafe_gallery",
+      "city": "Tokyo — Hatagaya (Shibuya area)",
+      "country": "Japan",
+      "contact_email": "@mograggallery",
+      "contact_page": null,
+      "official_website": "https://mograg.com/",
+      "submission_page": "https://mograg.com/",
+      "status": "cold",
+      "why_relevant": "Mograg regularly shows technically skilled work by emerging Japanese artists and painters. GEGYjiji's urban Tokyo watercolors sit naturally in this programming — same audience, same aesthetic register. Has Tokyo and Osaka venues.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit Mograg Gallery in Tokyo — Hatagaya (Shibuya area) to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "CLOUDS Gallery+Coffee Koenji",
+      "type": "cafe_gallery",
+      "city": "Tokyo — Koenji",
+      "country": "Japan",
+      "contact_email": "@clouds_koenji (Instagram) — visit cloudsgallerypluscoffee.com",
+      "contact_page": null,
+      "official_website": "https://www.cloudsgallerypluscoffee.com/",
+      "submission_page": "https://www.cloudsgallerypluscoffee.com/",
+      "status": "cold",
+      "why_relevant": "Gallery-primary space with international artist program. Explicitly shows emerging and established artists from Japan and abroad. Best gallery-cafe match in Koenji.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit CLOUDS Gallery+Coffee Koenji in Tokyo — Koenji to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Casa Brutus",
+      "type": "press_target",
+      "city": "Tokyo",
+      "country": "Japan",
+      "contact_email": "Via casabrutus.com contact or Instagram @casabrutus",
+      "contact_page": null,
+      "official_website": "https://casabrutus.com/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Research Casa Brutus's current program and submission policy before reaching out.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "SHIBUYA CAST. Gallery",
+      "type": "cafe_gallery",
+      "city": "Tokyo — Shibuya",
+      "country": "Japan",
+      "contact_email": "@shibuyacast",
+      "contact_page": null,
+      "official_website": "https://shibuyacast.jp/",
+      "submission_page": "https://shibuyacast.jp/",
+      "status": "cold",
+      "why_relevant": "SHIBUYA CAST. sits at the intersection of community and design in central Shibuya — a discerning audience open to contemporary accessible art. Urban Tokyo watercolors resonate with the community-oriented programming of this complex.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit SHIBUYA CAST. Gallery in Tokyo — Shibuya to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Gallery EF Asakusa",
+      "type": "cafe_gallery",
+      "city": "Tokyo — Asakusa, Taito",
+      "country": "Japan",
+      "contact_email": "@gallery_ef",
+      "contact_page": null,
+      "official_website": "http://www.gallery-ef.com/",
+      "submission_page": "http://www.gallery-ef.com/",
+      "status": "cold",
+      "why_relevant": "Gallery EF's Meiji-era basement atmosphere resonates directly with GEGYjiji's themes of memory, old architecture, and quiet urban spaces. Asakusa's cultural density makes it the right neighborhood for Tokyo documentation work.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit Gallery EF Asakusa in Tokyo — Asakusa, Taito to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Nui. Hostel Bar & Lounge Asakusa",
+      "type": "cafe_gallery",
+      "city": "Tokyo — Asakusa, Taito",
+      "country": "Japan",
+      "contact_email": "@nui_hostel",
+      "contact_page": null,
+      "official_website": "https://backpackersjapan.co.jp/nui/",
+      "submission_page": "https://backpackersjapan.co.jp/nui/",
+      "status": "cold",
+      "why_relevant": "Nui. draws Tokyo's creative expat and design community — an international audience who appreciate quiet, considered Japanese urban art. The 'Chinese artist documenting Tokyo' angle is especially resonant here.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit Nui. Hostel Bar & Lounge Asakusa in Tokyo — Asakusa, Taito to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "HATTIFNATT Kichijoji",
+      "type": "cafe_gallery",
+      "city": "Tokyo — Kichijoji, Musashino",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://www.hattifnatt.jp/",
+      "submission_page": "https://www.hattifnatt.jp/",
+      "status": "cold",
+      "why_relevant": "Same warm storybook aesthetic as HATTIFNATT Koenji but reaching a different audience in Kichijoji's dense creative community. The Donguri Gallery at this location hosts rotating artist exhibitions — confirmed program.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit HATTIFNATT Kichijoji in Tokyo — Kichijoji, Musashino to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "FACE Exhibition 2026",
+      "type": "institutional",
+      "city": "Tokyo",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://www.smaf.jp/face/",
+      "submission_page": "https://www.iwafu.com/en/events/1062957",
+      "status": "cold",
+      "why_relevant": "FACE Exhibition's embrace of diverse two-dimensional expressions aligns perfectly with GEGYjiji's daily watercolor practice documenting Tokyo's shifting urban landscapes and ephemeral architectural moments. As a Chinese diaspora artist working within Japan's visual culture, she brings the specific sensibility this nationwide platform seeks—intimate observation translated through works on paper that capture quiet, disappearing spaces.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Research FACE Exhibition 2026's current program and submission policy before reaching out.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "BALLOND'ESSAI Shimokitazawa",
+      "type": "cafe_gallery",
+      "city": "Tokyo — Shimokitazawa",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "http://ballondessai.com/",
+      "submission_page": "http://ballondessai.com/",
+      "status": "cold",
+      "why_relevant": "Gallery-first cafe in Shimokitazawa, confirmed accepts proposals via website, design-conscious audience, intimate scale. Direct contact path confirmed.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit BALLOND'ESSAI Shimokitazawa in Tokyo — Shimokitazawa to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Koenji SANAGI",
+      "type": "cafe_gallery",
+      "city": "Koenji, Tokyo",
+      "country": "Japan",
+      "contact_email": "@sanagi_koenji (Instagram) — visit sanagi.koenji.jp",
+      "contact_page": null,
+      "official_website": "https://sanagi.koenji.jp/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Exactly the kind of low-pressure Tier 1 space that builds local recognition — the right move before approaching the more competitive Tokyo gallery scene.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit Koenji SANAGI in Koenji, Tokyo to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "low"
+      }
+    },
+    {
+      "name": "ERA Shimokitazawa",
+      "type": "artist_space",
+      "city": "Shimokitazawa, Tokyo",
+      "country": "Japan",
+      "contact_email": "@era_shimokitazawa (Instagram) — visit era.shimokitazawa.jp",
+      "contact_page": null,
+      "official_website": "https://era.shimokitazawa.jp/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Low-pressure alternative space where the work can be shown without heavyweight CV requirements.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Attend an opening or event at ERA Shimokitazawa in Shimokitazawa, Tokyo to observe their curation style before any formal approach.",
+        "risk_notes": "Many galleries do not accept unsolicited submissions — verify their policy before sending work.",
+        "priority": "low"
+      }
+    },
+    {
+      "name": "Gallery Rocket Harajuku",
+      "type": "cafe_gallery",
+      "city": "Tokyo — Harajuku, Shibuya",
+      "country": "Japan",
+      "contact_email": "@galleryrocket (Instagram DM — website offline as of 2026-06)",
+      "contact_page": null,
+      "official_website": "https://www.gallery-rocket.jp/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Gallery Rocket's curatorial sensibility sits exactly where illustration and fine art meet — where GEGYjiji's urban watercolor practice lives. Harajuku's creative density gives strong visibility for early exhibition history.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:00",
+      "date_updated": "2026-06-09 12:00",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person before any email outreach.",
+        "next_action": "Visit Gallery Rocket Harajuku in Tokyo — Harajuku, Shibuya to see the display space and speak with the manager about upcoming exhibition availability.",
+        "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "本店・本屋の実験室",
+      "type": "zine_shop",
+      "city": "Koenji, Tokyo",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://honnonagaya-honten.com/",
+      "submission_page": "https://forms.gle/5yzyZgtMnUaL46pE8",
+      "status": "cold",
+      "why_relevant": "本店・本屋の実験室's focus on experimental printed work and zine culture aligns naturally with GEGYjiji's daily watercolor practice—her quiet observations of Tokyo's disappearing urban moments translate directly into the intimate, serialized format that zine platforms demand. The Koenji location also positions her work within a neighborhood known for independent creative communities, where architectural and memory-based work on paper resonates with local curatorial values.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Research 本店・本屋の実験室's format preferences and submission guidelines before making contact.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Route Books",
+      "type": "bookstore_gallery",
+      "city": "Tokyo — Ueno / Taito",
+      "country": "Japan",
+      "contact_email": "contact@yukuido.com",
+      "contact_page": null,
+      "official_website": "https://route-books.com/",
+      "submission_page": "https://route-books.com/",
+      "status": "cold",
+      "why_relevant": "Route Books has a confirmed rental gallery and hosts craft markets — low barrier, real exhibition space. GEGYjiji's Tokyo architectural watercolors fit the local documentation aesthetic and Ueno's art-literate audience.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Visit Route Books in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "B&B (Book & Beer)",
+      "type": "bookstore_gallery",
+      "city": "Shimokitazawa, Tokyo",
+      "country": "Japan",
+      "contact_email": "@books_and_beer_ (Instagram) / TEL: 03-6450-8272",
+      "contact_page": null,
+      "official_website": "https://bookandbeer.com/",
+      "submission_page": "https://bookandbeer.com/",
+      "status": "cold",
+      "why_relevant": "Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Visit B&B (Book & Beer) in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Submissions - Little Press Publishing",
+      "type": "book_publisher",
+      "city": "Japan / Tokyo / Online",
+      "country": "Japan",
+      "contact_email": "filler@godaddy.com",
+      "contact_page": null,
+      "official_website": "https://littlepresspublishing.com/submissions",
+      "submission_page": "https://littlepresspublishing.com/submissions",
+      "status": "cold",
+      "why_relevant": "Little Press Publishing's focus on visual narratives and artist monographs aligns with GEGYjiji's sustained daily practice of capturing Tokyo's ephemeral urban moments through watercolor, offering a natural format to compile her architectural observations and memory-based work into a cohesive body. As a Japan-based small press, they represent a direct fit for documenting work that's deeply rooted in Tokyo's specific geography and quiet atmospheric study.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Research Submissions - Little Press Publishing's submission guidelines and active open calls, then prepare a targeted pitch with sample pages.",
+        "risk_notes": "Book publishers typically review on a project basis — confirm whether they accept unsolicited submissions before sending materials.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "LOCAL Gallery・Books",
+      "type": "zine_shop",
+      "city": "Koenji, Tokyo",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://www.localgallerybooks.com/about",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "LOCAL Gallery・Books' focus on independent publications and works-on-paper aligns naturally with GEGYjiji's daily watercolor practice and archive of quiet urban moments—formats that translate directly into zine or artist book form. As a Koenji-based venue, it offers genuine community embedding potential for an artist whose practice is rooted in observing and documenting the specific atmospheres of Tokyo neighborhoods.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Research LOCAL Gallery・Books's format preferences and submission guidelines before making contact.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Mona Records",
+      "type": "zine_shop",
+      "city": "Shimokitazawa, Tokyo",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://monarecords.com/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Not a gallery, which is the right frame — your work entering circulation through music-adjacent cultural spaces is quiet, credible, and low-pressure.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Research Mona Records's format preferences and submission guidelines before making contact.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "CuratorSpace Open Calls",
+      "type": "zine_shop",
+      "city": "Online",
+      "country": "Global",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://www.curatorspace.com/opportunities",
+      "submission_page": "https://www.curatorspace.com/opportunities",
+      "status": "cold",
+      "why_relevant": "Potential fit based on source context and keyword overlap: zine, open call, submission, watercolor / works on paper, exhibition, place, watercolor / works on paper, open exhibition",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Research CuratorSpace Open Calls's format preferences and submission guidelines before making contact.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Village Vanguard Shimokitazawa",
+      "type": "bookstore_gallery",
+      "city": "Shimokitazawa, Tokyo",
+      "country": "Japan",
+      "contact_email": "@village_vanguard (Instagram) — contact form at village-v.co.jp/contact/",
+      "contact_page": null,
+      "official_website": "https://www.village-v.co.jp/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Volume venue that can move printed work without requiring gallery-level credentials — appropriate for this career phase.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Visit Village Vanguard Shimokitazawa in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Antenna Books",
+      "type": "bookstore_gallery",
+      "city": "Tokyo — Daikanyama, Shibuya",
+      "country": "Japan",
+      "contact_email": "@antennabooks",
+      "contact_page": null,
+      "official_website": "https://www.antenna-books.jp/",
+      "submission_page": "https://www.antenna-books.jp/",
+      "status": "cold",
+      "why_relevant": "Antenna Books curates art and design publications for a discerning Daikanyama audience — exactly the readers who appreciate GEGYjiji's Tokyo urban watercolor prints and zines. Consignment builds quiet, sustained visibility.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Visit Antenna Books in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "SPBS (Shibuya Publishing Booksellers)",
+      "type": "bookstore_gallery",
+      "city": "Tokyo — Tomigaya, Shibuya",
+      "country": "Japan",
+      "contact_email": "@spbs_tokyo",
+      "contact_page": null,
+      "official_website": "https://spbs.jp/",
+      "submission_page": "https://spbs.jp/",
+      "status": "cold",
+      "why_relevant": "SPBS curates art and design publications for a discerning Shibuya-adjacent audience — ideal for GEGYjiji's Tokyo urban watercolor prints and zines. Consignment here builds quiet, sustained visibility among design professionals.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Visit SPBS (Shibuya Publishing Booksellers) in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "POST",
+      "type": "bookstore_gallery",
+      "city": "Tokyo",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://post-books.info/",
+      "submission_page": "https://post-books.info/",
+      "status": "cold",
+      "why_relevant": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Visit POST in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
+        "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "円盤 (Enban) Koenji",
+      "type": "zine_shop",
+      "city": "Koenji, Tokyo",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://enban.shop/",
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Koenji's equivalent of Shimokitazawa's record shops — the same logic applies. Getting your work stocked here is quiet, credible, and builds local name recognition.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Research 円盤 (Enban) Koenji's format preferences and submission guidelines before making contact.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Book Culture Club",
+      "type": "zine_shop",
+      "city": "Kichijoji, Tokyo",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": null,
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Book Culture Club's focus on artist publications and zine culture aligns with GEGYjiji's daily watercolor practice—her accumulated urban sketches and architectural observations translate naturally into collectible print formats that resonate with their creator-centered community. The Kichijoji location also positions her work within Tokyo's local art network, where zine-based visibility can drive both direct sales and invitations to larger fairs.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Research Book Culture Club's format preferences and submission guidelines before making contact.",
+        "risk_notes": "",
+        "priority": "medium"
+      }
+    },
+    {
+      "name": "Komiyama Tokyo",
+      "type": "book_publisher",
+      "city": "Tokyo",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": null,
+      "submission_page": null,
+      "status": "cold",
+      "why_relevant": "Useful for understanding the upper end of art/photo book presentation and audience expectations.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Research Komiyama Tokyo's submission guidelines and active open calls, then prepare a targeted pitch with sample pages.",
+        "risk_notes": "Book publishers typically review on a project basis — confirm whether they accept unsolicited submissions before sending materials.",
+        "priority": "low"
+      }
+    },
+    {
+      "name": "submissions — porkbelly press",
+      "type": "book_publisher",
+      "city": "Japan / Tokyo / Online",
+      "country": "Japan",
+      "contact_email": null,
+      "contact_page": null,
+      "official_website": "https://porkbellypress.com/subs/",
+      "submission_page": "https://porkbellypress.submittable.com",
+      "status": "cold",
+      "why_relevant": "Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.",
+      "last_contacted": null,
+      "response_received": false,
+      "notes": "",
+      "date_added": "2026-06-09 12:15",
+      "date_updated": "2026-06-09 12:15",
+      "crm_analysis": {
+        "contact_summary": "",
+        "relationship_stage": "cold",
+        "recommended_status": "cold",
+        "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
+        "next_action": "Research submissions — porkbelly press's submission guidelines and active open calls, then prepare a targeted pitch with sample pages.",
+        "risk_notes": "Book publishers typically review on a project basis — confirm whether they accept unsolicited submissions before sending materials.",
+        "priority": "low"
       }
     }
   ]
