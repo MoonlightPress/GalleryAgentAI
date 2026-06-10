@@ -5,3 +5,14 @@ deploy_package/
 .claude/worktrees/
 **/__pycache__/
 *.pyc
+
+# Secrets / keys — never commit
+*.pem
+Web/*.pem
+
+# Logs
+*.log
+logs/
+
+# Local junk
+temp/
