@@ -45,8 +45,11 @@ A navigation guide for the GalleryAgentAI repo (the **Mochi** project). The root
 
 ## Legacy / cleanup status
 
-The root accumulated many one-shot scripts and superseded agents/apps from earlier (Streamlit-era) iterations.
+The root accumulated many one-shot scripts and superseded agents/apps from earlier (Streamlit-era) iterations. Root `.py` count: **219 → 148** after the 2026-06-10 cleanup.
 
-- **Archived 2026-06-10:** 29 provably-dead root scripts (zero references anywhere — not imported, not in any pipeline/launcher/doc) moved to `archive/dead_code/legacy_root_2026-06/`.
-- **Not yet archived (~135 root scripts):** referenced only in historical docs (`_bible/ANALYSIS_REPORTS/`) or `data/config/project_manifest.json`, not by live code. Likely legacy but not *provably* dead, so left in place pending review. A future pass can verify and archive these in batches.
-- The live app does **not** depend on these — it's `api.py` + `frontend/` + `engines/` + the pipeline drivers above.
+- **Archived 2026-06-10 (71 scripts → `archive/dead_code/legacy_root_2026-06/`):** every script moved was *provably unreachable* — not in any pipeline step list, not imported anywhere, and its literal `name.py` appears in no active-code file (no engine, runner, or `api.py` names it). Includes the old Streamlit apps (`atelier_portal` variants, `demo_app`, `mochi_deploy_app`, …), superseded pipeline drivers (`fast_local_pipeline`, `mochi_mouse_pipeline`, `artist_intelligence_pipeline`, …), and council-era agents. Reversible: `git mv` them back if ever needed.
+- **Kept (~94 secondary root scripts):** not in the main pipeline and not imported, **but** named (subprocess-invoked) by the `scripts/runners/run_*.py` sub-workflow orchestrators (89 of them), so they have a live code path. Left in place — archiving them could break a runner.
+- **Core active set (~54 root scripts):** the pipeline drivers, `smart_pipeline_runner.py`, `api.py`, `enriched_to_compact_opportunities.py`, and the scripts the pipeline imports.
+- The served app depends only on `api.py` + `frontend/` + `engines/` + the pipeline drivers — none of the archived scripts.
+
+**Method (for the next pass):** a root script is safe to archive iff it is (1) not in any pipeline driver's step list, (2) not imported anywhere, and (3) its literal `name.py` appears in no active-code file. The ~94 kept scripts fail (3) via the `run_*.py` runners; pruning further means first deciding which of those runners are themselves retired.
