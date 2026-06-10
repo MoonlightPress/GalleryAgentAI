@@ -68,8 +68,8 @@ export const LICENSING_LANDSCAPE = {
           "name": "The audience threshold",
           "note": "Brand licensing decisions are partly marketing decisions. At 26k followers she is a small but real distribution channel — niche collabs can justify the partnership as audience access, not just art acquisition. Most licensing relationships begin via DM — brands approach artists they follow.",
           "tier": "now",
-          "note_zh": "品牌授权决策在一定程度上也是营销决策。拥有9万粉丝，她本身就是一个传播渠道。品牌可以将合作定位为触达受众的方式，而不仅仅是购买艺术品。大多数授权合作始于私信——品牌主动联系他们关注的艺术家。",
-          "note_ja": "ブランドのライセンス判断は、マーケティング判断でもある。フォロワー9万人の彼女は、それ自体が一つの流通チャネルだ。ブランド側は、コラボを単なる作品取得ではなく、オーディエンスへのアクセスとして正当化できる。ライセンス関係のほとんどはDMから始まる——ブランドは自分たちがフォローしているアーティストに声をかける。"
+          "note_zh": "品牌授权决策在一定程度上也是营销决策。拥有2.6万粉丝，她已是一个虽小但真实的传播渠道。利基品牌可以将合作定位为触达受众的方式，而不仅仅是购买艺术品。大多数授权合作始于私信——品牌主动联系他们关注的艺术家。",
+          "note_ja": "ブランドのライセンス判断は、マーケティング判断でもある。フォロワー2.6万人の彼女は、小規模ながら確かな流通チャネルだ。ニッチなブランドは、コラボを単なる作品取得ではなく、オーディエンスへのアクセスとして正当化できる。ライセンス関係のほとんどはDMから始まる——ブランドは自分たちがフォローしているアーティストに声をかける。"
         },
         {
           "name": "Revenue ranges (realistic)",
@@ -89,12 +89,12 @@ export const LICENSING_LANDSCAPE = {
           "name": "Realistic timeline",
           "note": "First licensing inquiry typically arrives 2–3 years into consistent daily posting with a distinct recognizable style. At 26k today, first conversations are a realistic 12–24 month horizon with active outreach and continued audience growth.",
           "tier": "near_term",
-          "note_zh": "通常情况下，坚持每日更新、风格鲜明辨识度高，约2–3年后会迎来首次授权询问。以目前9万粉丝的基础，若积极主动拓展，6–18个月内便有望开启初步洽谈。",
-          "note_ja": "独自のスタイルを持ちながら毎日継続的に投稿していると、最初のライセンス問い合わせが来るまで通常2〜3年かかる。現時点でフォロワー9万人いれば、積極的に働きかけることで、6〜18か月以内に最初の交渉が始まる可能性は十分にある。"
+          "note_zh": "通常情况下，坚持每日更新、风格鲜明辨识度高，约2–3年后会迎来首次授权询问。以目前2.6万粉丝的基础，若积极主动拓展并持续扩大受众，12–24个月内有望开启初步洽谈。",
+          "note_ja": "独自のスタイルを持ちながら毎日継続的に投稿していると、最初のライセンス問い合わせが来るまで通常2〜3年かかる。現時点でフォロワー2.6万人なら、積極的な働きかけと継続的なオーディエンス拡大を前提に、12〜24か月以内に最初の交渉が始まる可能性がある。"
         }
       ],
-      "category_zh": "为什么9万粉丝让她现在具备授权资质",
-      "category_ja": "なぜ9万フォロワーが彼女を今すぐライセンス可能にするのか"
+      "category_zh": "为什么她的受众使她具备授权潜力",
+      "category_ja": "なぜ彼女のオーディエンスがライセンスにつながり得るのか"
     }
   ]
 };
@@ -334,8 +334,8 @@ export const GRANT_LANDSCAPE = {
       "apply": "",
       "category_note_zh": "资助申请总体策略",
       "category_note_ja": "助成金申請の全体戦略",
-      "note_zh": "资助申请通常需要3至4个月的充分准备。最有竞争力的申请具备以下要素：(1) 一个具体、有名称的项目，而非模糊的艺术发展方向；(2) 过往作品的佐证（Instagram档案亦可）；(3) 清晰阐明\"为何是现在\"——这笔资助将如何实现没有它便无法实现的事情。她拥有天然的叙事优势：旅居东京的中国艺术家，9万粉丝，坚持日常水彩创作，蓄势待发，准备迈向下一阶段。",
-      "note_ja": "助成金の申請には、適切な準備に3〜4ヶ月を要します。採択率の高い申請書には次の要素が備わっています：(1) 漠然とした芸術的成長ではなく、具体的な名称を持つプロジェクト；(2) 過去の作品実績の証明（Instagramのアーカイブも有効）；(3) 「なぜ今なのか」の明確な説明——この助成金があって初めて可能になることは何か。彼女には自然なストーリーがあります：東京在住の中国人アーティスト、9万人のフォロワー、毎日続ける水彩画の実践、そして次のステージへの準備が整っていること。"
+      "note_zh": "资助申请通常需要3至4个月的充分准备。最有竞争力的申请具备以下要素：(1) 一个具体、有名称的项目，而非模糊的艺术发展方向；(2) 过往作品的佐证（Instagram档案亦可）；(3) 清晰阐明\"为何是现在\"——这笔资助将如何实现没有它便无法实现的事情。她拥有天然的叙事优势：旅居东京的中国艺术家，2.6万粉丝，坚持日常水彩创作，蓄势待发，准备迈向下一阶段。",
+      "note_ja": "助成金の申請には、適切な準備に3〜4ヶ月を要します。採択率の高い申請書には次の要素が備わっています：(1) 漠然とした芸術的成長ではなく、具体的な名称を持つプロジェクト；(2) 過去の作品実績の証明（Instagramのアーカイブも有効）；(3) 「なぜ今なのか」の明確な説明——この助成金があって初めて可能になることは何か。彼女には自然なストーリーがあります：東京在住の中国人アーティスト、2.6万人のフォロワー、毎日続ける水彩画の実践、そして次のステージへの準備が整っていること。"
     }
   ]
 };
@@ -346,7 +346,7 @@ export const REVENUE_STREAMS = {
   "items": [
     {
       "stream": "SUZURI (passive income)",
-      "realistic_monthly": "¥30,000–80,000/month with active promotion",
+      "realistic_monthly": "¥10,000–30,000/month with active promotion",
       "setup_time": "1–2 days initial setup; 1 hr/week maintenance",
       "description": "Japanese print-on-demand platform. Upload art → SUZURI produces and ships. Zero fulfillment work. Products: acrylic keychains, cloth pouches, tote bags, art prints, phone cases.",
       "why_now": "With 26k followers, even directing a small fraction to a SUZURI store monthly generates steady passive revenue. Most watercolor artists underuse this.",
@@ -356,14 +356,14 @@ export const REVENUE_STREAMS = {
       "stream_ja": "SUZURI（不労所得）",
       "description_zh": "日本按需印刷平台。上传作品 → SUZURI 负责生产与配送，无需处理任何履单事务。产品包括：亚克力钥匙扣、布艺小袋、帆布包、艺术印刷品、手机壳。",
       "description_ja": "日本のプリントオンデマンドプラットフォーム。作品をアップロードするだけで、SUSURIが製造・発送まで対応。在庫管理や発送作業は一切不要。取扱商品：アクリルキーホルダー、布ポーチ、トートバッグ、アートプリント、スマホケース。",
-      "why_now_zh": "拥有9万粉丝，每月引导其中0.1%的人访问 SUZURI 店铺，即可产生稳定的被动收入。大多数水彩画家都没有充分利用这一渠道。",
-      "why_now_ja": "フォロワー9万人のうち、毎月0.1%をSUSURIのショップに誘導するだけで、安定した不労収入が生まれる。多くの水彩画家がこの手段を活かしきれていない。",
+      "why_now_zh": "拥有2.6万粉丝，每月引导其中0.1%的人访问 SUZURI 店铺，即可产生稳定的被动收入。大多数水彩画家都没有充分利用这一渠道。",
+      "why_now_ja": "フォロワー2.6万人のうち、毎月0.1%をSUSURIのショップに誘導するだけで、安定した不労収入が生まれる。多くの水彩画家がこの手段を活かしきれていない。",
       "action_zh": "在 suzuri.jp 开设店铺，上传20–30件作品，每周在 Stories 亮点中发布商店链接。",
       "action_ja": "suzuri.jp でショップを開設し、20〜30点の作品をアップロード。毎週ストーリーズのハイライトにショップリンクを掲載する。"
     },
     {
       "stream": "Booth.pm",
-      "realistic_monthly": "¥20,000–50,000 — lower traffic, higher margin",
+      "realistic_monthly": "¥10,000–25,000 — lower traffic, higher margin",
       "setup_time": "1 day",
       "description": "Japanese direct-to-artist platform (like Gumroad). No fulfillment. Good for: original sale announcements, limited edition print files, digital goods (process videos, reference photos, custom brushes).",
       "why_now": "Higher margin than SUZURI because no middleman production cost on digital goods. Originals can be listed here too.",
@@ -380,10 +380,10 @@ export const REVENUE_STREAMS = {
     },
     {
       "stream": "Original sales (Instagram)",
-      "realistic_monthly": "¥80,000–500,000 (highly variable)",
+      "realistic_monthly": "¥40,000–250,000 (highly variable)",
       "description": "Most effective channel at her follower count. Sale mechanics: post with 'DM to inquire' or link to Booth.pm. Announce limited availability — scarcity is real and creates urgency.",
       "pricing": "Small (A5 or smaller): ¥30,000–80,000 | Medium (A4): ¥80,000–200,000 | Large (A3+): ¥200,000+",
-      "why_now": "26k followers is an engaged audience. Even 1 original/month at ¥80k = ¥960k/year.",
+      "why_now": "26k is an engaged, art-buying audience. A steady 1 original/month at ¥80k = ¥960k/year — a realistic target to build toward, not yet a guaranteed monthly rate at this audience size.",
       "action": "Announce next available original in Instagram Stories with DM link.",
       "leaving_on_table": true,
       "stream_zh": "原作销售（Instagram）",
@@ -392,14 +392,14 @@ export const REVENUE_STREAMS = {
       "description_ja": "現在のフォロワー数において、最も効果的な販売チャネル。販売方法：「購入希望の方はDMへ」またはBooth.pmのリンクを添えて投稿する。限定数量であることを明示すること——希少性は本物であり、購買意欲を高める効果がある。",
       "pricing_zh": "小幅（A5或更小）：¥30,000–80,000 | 中幅（A4）：¥80,000–200,000 | 大幅（A3以上）：¥200,000+",
       "pricing_ja": "小（A5以下）：¥30,000〜80,000 | 中（A4）：¥80,000〜200,000 | 大（A3以上）：¥200,000〜",
-      "why_now_zh": "9万粉丝 = 高意向受众。即使每月仅售出1幅原作，定价 ¥80,000，年收入即可达 ¥960,000。",
-      "why_now_ja": "フォロワー9万人＝購買意欲の高いオーディエンス。月に原画1点を¥80,000で販売するだけで、年収¥960,000になる。",
+      "why_now_zh": "2.6万粉丝 = 高意向受众。即使每月仅售出1幅原作，定价 ¥80,000，年收入即可达 ¥960,000。",
+      "why_now_ja": "フォロワー2.6万人＝購買意欲の高いオーディエンス。月に原画1点を¥80,000で販売するだけで、年収¥960,000になる。",
       "action_zh": "在 Instagram Stories 中发布下一幅可售原作的预告，并附上私信链接。",
       "action_ja": "次の販売予定の原画をInstagramストーリーズで告知し、DMへのリンクを添える。"
     },
     {
       "stream": "Print editions",
-      "realistic_monthly": "¥50,000–200,000 per edition release",
+      "realistic_monthly": "¥30,000–120,000 per edition release (partial sell-through at this audience size)",
       "description": "Numbered limited editions, signed by artist. Rule: if original sells for ¥80k, edition of 20 prints at ¥8–15k each = ¥160–300k total. Edition keeps original's value while generating cash.",
       "edition_discipline": "Limit to ≤30 per image. Sign and number all. Announce clearly: '1/20', '20/20 — SOLD OUT'. Scarcity is the product.",
       "why_now": "Consistent art practice = continuous content for editions. Monthly limited release is manageable.",
@@ -416,7 +416,7 @@ export const REVENUE_STREAMS = {
     },
     {
       "stream": "Commissions",
-      "realistic_monthly": "¥50,000–500,000 depending on volume",
+      "realistic_monthly": "¥40,000–300,000 depending on volume",
       "pricing": "Personal commission (individual person): ¥30,000–80,000 | Commercial (brand, book, magazine): ¥100,000–500,000 | Brand licensing: separate — see Licensing section",
       "description": "With a 26k engaged following, she can charge confident rates. The mistake most artists make: undercharging because they feel unqualified. A real audience of this size is evidence of genuine market interest.",
       "action": "Post commission announcement quarterly with clear pricing and 'DM to inquire'. Set a limit (e.g., 3/quarter) to create urgency.",
@@ -425,8 +425,8 @@ export const REVENUE_STREAMS = {
       "stream_ja": "受注制作（コミッション）",
       "pricing_zh": "个人委托（私人委托）：¥30,000–80,000 | 商业委托（品牌、书籍、杂志）：¥100,000–500,000 | 品牌授权：另行议定——详见授权章节",
       "pricing_ja": "個人からの依頼：¥30,000〜80,000 | 商業案件（ブランド・書籍・雑誌）：¥100,000〜500,000 | ブランドライセンス：別途設定——ライセンスのセクションを参照",
-      "description_zh": "拥有9万粉丝，她完全可以收取专业级报酬。大多数艺术家常犯的错误是：因觉得自己资历不足而压低定价。9万粉丝本身就是市场认可度的有力证明。",
-      "description_ja": "フォロワーが9万人いれば、プロとしての報酬を堂々と設定できる。多くのアーティストが犯しがちなミス：「まだ実力が足りない」という思い込みから値段を低く設定してしまうこと。フォロワー9万人という数字は、市場価値の立派な証明だ。",
+      "description_zh": "拥有2.6万粉丝，她完全可以收取专业级报酬。大多数艺术家常犯的错误是：因觉得自己资历不足而压低定价。2.6万粉丝本身就是市场认可度的有力证明。",
+      "description_ja": "フォロワーが2.6万人いれば、プロとしての報酬を堂々と設定できる。多くのアーティストが犯しがちなミス：「まだ実力が足りない」という思い込みから値段を低く設定してしまうこと。フォロワー2.6万人という数字は、市場価値の立派な証明だ。",
       "action_zh": "每季度发布一次约稿公告，注明明确定价及\"私信咨询\"。设置数量限制（如每季度3个名额）以制造稀缺感。",
       "action_ja": "四半期ごとにコミッション受付の告知を投稿し、明確な料金と「DMにてお問い合わせください」を記載する。緊急感を生むために枠数を限定する（例：四半期3枠）。"
     },
@@ -445,12 +445,12 @@ export const REVENUE_STREAMS = {
     },
     {
       "stream": "Summary assessment",
-      "description": "With a 26k following and a consistent daily watercolor practice, she may be leaving 20–40% of achievable revenue on the table by not having: (1) active SUZURI store, (2) quarterly print edition releases, (3) systematic consignment at 2–3 Tier 1 venues. These three together could add ¥100,000–300,000/month with minimal ongoing effort.",
+      "description": "With a 26k following and a consistent daily watercolor practice, she may be leaving 20–40% of achievable revenue on the table by not having: (1) active SUZURI store, (2) quarterly print edition releases, (3) systematic consignment at 2–3 Tier 1 venues. These three together could realistically add ¥60,000–180,000/month with minimal ongoing effort.",
       "leaving_on_table": true,
       "stream_zh": "综合评估",
       "stream_ja": "総合評価",
-      "description_zh": "她拥有9万粉丝，坚持每日水彩创作，但由于尚未建立以下机制，可能正在流失20–40%的潜在收入：(1) 开通并运营SUZURI店铺；(2) 定期发售季度限量版画；(3) 在2–3家一线场所系统性地开展寄售。三者结合，每月可额外带来¥100,000–300,000的收入，且后续维护成本极低。",
-      "description_ja": "フォロワー9万人を擁し、毎日水彩画を描き続けているにもかかわらず、以下の仕組みが整っていないために、達成可能な収益の20〜40%を取りこぼしている可能性がある：(1) SUZURIショップの運用、(2) 四半期ごとの限定版画リリース、(3) 上位1〜2層の会場2〜3か所での組織的な委託販売。この三つを組み合わせるだけで、最小限の継続的な手間で月¥100,000〜300,000の収益増が見込める。"
+      "description_zh": "她拥有2.6万粉丝，坚持每日水彩创作，但由于尚未建立以下机制，可能正在流失20–40%的潜在收入：(1) 开通并运营SUZURI店铺；(2) 定期发售季度限量版画；(3) 在2–3家一线场所系统性地开展寄售。三者结合，每月可现实地额外带来¥60,000–180,000的收入，且后续维护成本极低。",
+      "description_ja": "フォロワー2.6万人を擁し、毎日水彩画を描き続けているにもかかわらず、以下の仕組みが整っていないために、達成可能な収益の20〜40%を取りこぼしている可能性がある：(1) SUZURIショップの運用、(2) 四半期ごとの限定版画リリース、(3) 上位1〜2層の会場2〜3か所での組織的な委託販売。この三つを組み合わせるだけで、最小限の継続的な手間で月¥60,000〜180,000の収益増が現実的に見込める。"
     }
   ]
 };
