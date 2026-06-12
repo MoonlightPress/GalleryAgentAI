@@ -52,10 +52,10 @@ never leaves unfinished docs/analysis/builds. Multiple parallel agents authorize
   4:53am IF this Claude session stays open. Next session: verify Mochi page
   visually, finish Saffron+Peppercorn page roots from their existing components,
   restart API, screenshot all pages old-vs-new, write 03_BEFORE_AFTER.md.
-- [ ] Side-by-side verification screenshots old vs new
-- [ ] `03_BEFORE_AFTER.md` — comparison doc
+- [x] Side-by-side screenshots copied to reports/ux_pass_2026-06/shots/ (10 files)
+- [x] `03_BEFORE_AFTER.md` — DONE
 - [x] Overnight continuation cron set (job 6acd497d, every 2h at :53, session-only)
-- [ ] Final summary delivered to user + commit of the night's work
+- [x] Final summary delivered + committed as a928cb40; overnight cron deleted (work complete)
 
 ## Key facts discovered (so a fresh session doesn't re-derive)
 
