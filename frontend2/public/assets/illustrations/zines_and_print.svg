@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+
+  <defs>
+    <filter id="wc" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035 0.028"
+                    numOctaves="4" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="7"
+                         xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="wash" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="crisp" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06 0.05"
+                    numOctaves="3" seed="12" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"
+                         xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="205" cy="145" rx="170" ry="105" fill="#e8c060" opacity="0.13" filter="url(#wash)"/>
+  <ellipse cx="185" cy="155" rx="140" ry="85"  fill="#d4a050" opacity="0.10" filter="url(#wash)"/>
+
+  <g filter="url(#wc)">
+    <rect x="88"  y="162" width="225" height="30" rx="3" fill="#c49a52" opacity="0.80"
+          transform="rotate(-5,200,177)"/>
+    <rect x="88"  y="162" width="20"  height="30" rx="2" fill="#9a7838" opacity="0.88"
+          transform="rotate(-5,200,177)"/>
+    <rect x="107" y="162" width="206" height="2"  fill="#f5ead8" opacity="0.45"
+          transform="rotate(-5,200,177)"/>
+    <rect x="107" y="190" width="206" height="2"  fill="#f5ead8" opacity="0.45"
+          transform="rotate(-5,200,177)"/>
+  </g>
+
+  <g filter="url(#wc)">
+    <rect x="130" y="112" width="145" height="54" rx="3" fill="#d4897a" opacity="0.78"
+          transform="rotate(3,202,139)"/>
+    <rect x="130" y="112" width="16"  height="54" rx="2" fill="#b86a5a" opacity="0.85"
+          transform="rotate(3,202,139)"/>
+    <rect x="145" y="113" width="129" height="2"  fill="#f5ead8" opacity="0.45"
+          transform="rotate(3,202,139)"/>
+    <rect x="145" y="164" width="129" height="2"  fill="#f5ead8" opacity="0.45"
+          transform="rotate(3,202,139)"/>
+    <line x1="158" y1="128" x2="264" y2="128" stroke="#f5e8d0" stroke-width="1.5"
+          opacity="0.35" transform="rotate(3,202,139)"/>
+    <line x1="158" y1="138" x2="240" y2="138" stroke="#f5e8d0" stroke-width="1"
+          opacity="0.28" transform="rotate(3,202,139)"/>
+  </g>
+
+  <g filter="url(#wc)">
+    <rect x="152" y="80" width="108" height="36" rx="3" fill="#8aae8a" opacity="0.75"
+          transform="rotate(-3,206,98)"/>
+    <rect x="152" y="80" width="13"  height="36" rx="2" fill="#6a8e6a" opacity="0.85"
+          transform="rotate(-3,206,98)"/>
+    <rect x="164" y="81" width="95"  height="2"  fill="#f5ead8" opacity="0.40"
+          transform="rotate(-3,206,98)"/>
+    <rect x="164" y="114" width="95" height="2"  fill="#f5ead8" opacity="0.40"
+          transform="rotate(-3,206,98)"/>
+  </g>
+
+  <g filter="url(#crisp)">
+    <rect x="178" y="60" width="60" height="22" rx="2" fill="#f5e0c0" opacity="0.88"
+          transform="rotate(7,208,71)"/>
+    <rect x="178" y="60" width="7"  height="22" rx="1" fill="#e8c060" opacity="0.90"
+          transform="rotate(7,208,71)"/>
+  </g>
+
+</svg>

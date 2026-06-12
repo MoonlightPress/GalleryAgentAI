@@ -1,0 +1,308 @@
+/* ── Saffron page (v2) — warm observatory, no SaaS charts, no cold colors ── */
+
+/* Hero band */
+.sv-hero {
+  position: relative;
+  height: 340px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-top: 1.2rem;
+  box-shadow: var(--shadow);
+}
+.sv-hero img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: 50% 26%;
+  display: block;
+}
+.sv-hero-veil {
+  position: absolute; inset: auto 0 0 0;
+  padding: 2.4rem 1.6rem 1.1rem;
+  background: linear-gradient(180deg, transparent, rgba(48, 32, 20, 0.62));
+}
+.sv-hero-veil .voice {
+  color: #fdf6ea;
+  font-size: 1.05rem;
+  text-shadow: 0 1px 6px rgba(40, 25, 12, 0.55);
+}
+
+/* ── Synthesis panel ── */
+.sv-synth {
+  display: grid;
+  grid-template-columns: 1.65fr 0.85fr;
+  gap: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.sv-synth-prose { padding: 1.5rem 1.7rem 1.6rem; display: flex; flex-direction: column; gap: 1.15rem; }
+.sv-beat-label {
+  font-size: 0.72rem; letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--gold-deep); margin-bottom: 0.25rem;
+}
+.sv-beat p { color: var(--ink-medium); }
+.sv-beat--blocking {
+  background: var(--rose-faint);
+  border-left: 3px solid var(--rose);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 0.75rem 1rem 0.85rem;
+}
+.sv-beat--blocking .sv-beat-label { color: var(--rose-deep); }
+.sv-synth-nums {
+  border-left: 1px solid var(--border-soft);
+  background: linear-gradient(170deg, var(--gold-faint), var(--paper) 70%);
+  display: flex; flex-direction: column; justify-content: center;
+  gap: 1.3rem; padding: 1.6rem 1.6rem;
+}
+.sv-knum-n {
+  font-size: 2.7rem; line-height: 1; color: var(--gold-deep);
+  font-variant-numeric: tabular-nums;
+}
+.sv-knum-label { color: var(--ink-muted); font-size: 0.84rem; margin-top: 0.2rem; }
+
+/* ── The Journey — stepping stones ── */
+.sv-journey-path {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding: 1.4rem 0.4rem 0.5rem;
+  overflow-x: auto;
+}
+.sv-journey-path::before {
+  content: '';
+  position: absolute;
+  top: calc(1.4rem + 26px);
+  left: 6%; right: 6%;
+  border-top: 2px dashed var(--border);
+}
+.sv-stone-btn {
+  flex: 1 1 0; min-width: 96px;
+  background: none; border: none; padding: 0;
+  display: flex; flex-direction: column; align-items: center; gap: 0.55rem;
+  cursor: pointer;
+  position: relative; z-index: 1;
+}
+.sv-stone {
+  width: 52px; height: 52px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.08rem;
+  /* hand-drawn watercolor pebble */
+  border-radius: 46% 54% 52% 48% / 54% 46% 56% 44%;
+  border: 2px solid var(--border);
+  background: var(--paper);
+  color: var(--ink-muted);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.sv-stone-btn:hover .sv-stone { transform: translateY(-3px); }
+.sv-stone--done {
+  background: var(--leaf); border-color: var(--leaf-deep); color: #fff;
+}
+.sv-stone--blocking {
+  background: var(--gold-faint); border-color: var(--gold); color: var(--gold-deep);
+  box-shadow: 0 0 0 6px var(--wash-amber), var(--shadow-sm);
+  transform: scale(1.12);
+}
+.sv-stone-btn--selected .sv-stone {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+.sv-stone-label {
+  font-size: 0.78rem; line-height: 1.35; text-align: center;
+  color: var(--ink-medium); max-width: 120px;
+}
+.sv-stone--done + .sv-stone-label { color: var(--leaf-deep); }
+.sv-journey-detail { margin-top: 1.1rem; }
+.sv-journey-detail-head {
+  display: flex; align-items: baseline; gap: 0.7rem; flex-wrap: wrap;
+  margin-bottom: 0.45rem;
+}
+.sv-journey-note {
+  margin-top: 0.9rem; padding: 0.75rem 1rem;
+  background: var(--gold-faint);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+/* ── The Field band ── */
+.sv-field {
+  display: grid; grid-template-columns: 1.25fr 1fr; gap: 2rem;
+}
+.sv-bar-row {
+  display: grid; grid-template-columns: 150px 1fr 34px;
+  align-items: center; gap: 0.7rem; margin-bottom: 0.5rem;
+}
+.sv-bar-label { font-size: 0.84rem; color: var(--ink-medium); text-align: right; }
+.sv-bar-track {
+  height: 13px; border-radius: 999px;
+  background: var(--gold-faint); overflow: hidden;
+}
+.sv-bar-fill {
+  height: 100%; border-radius: 999px;
+  background: linear-gradient(90deg, var(--gold), #d8b06a);
+}
+.sv-bar-count { font-size: 0.8rem; color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+
+.sv-split-bar {
+  display: flex; height: 16px; border-radius: 999px; overflow: hidden;
+  margin: 0.5rem 0 0.45rem;
+}
+.sv-split-tokyo { background: var(--leaf); }
+.sv-split-intl  { background: var(--gold); }
+.sv-split-legend { display: flex; justify-content: space-between; font-size: 0.8rem; }
+.sv-split-legend .tokyo { color: var(--leaf-deep); }
+.sv-split-legend .intl  { color: var(--gold-deep); }
+
+.sv-act-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.6rem; }
+.sv-act-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.sv-act-dot--high    { background: var(--leaf-deep); }
+.sv-act-dot--medium  { background: var(--gold); }
+.sv-act-dot--stretch { background: var(--plum); }
+.sv-act-dot--low     { background: var(--ink-muted); }
+
+/* ── Perch row (peers) ── */
+.sv-perch-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.sv-peer-name { font-size: 1rem; margin-bottom: 0.1rem; }
+.sv-peer-region { font-size: 0.78rem; color: var(--ink-muted); margin-bottom: 0.5rem; }
+.sv-peer-fit { font-size: 0.86rem; color: var(--ink-medium); margin-bottom: 0.6rem; }
+.sv-peer-use { font-size: 0.8rem; color: var(--gold-deep); }
+.sv-perch-caveat { font-size: 0.82rem; color: var(--ink-muted); margin: 0.4rem 0 1rem; max-width: 62rem; }
+
+/* ── Field Notes library ── */
+.sv-shelf { margin-top: 1.9rem; }
+.sv-shelf-title {
+  font-size: 1.08rem; display: inline-block;
+  padding: 0.06rem 0.8rem 0.1rem 0.55rem;
+  border-radius: 4px 16px 16px 4px;
+  background: linear-gradient(100deg, var(--wash-leaf), transparent 85%);
+  margin-bottom: 0.8rem;
+}
+.sv-note-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 0.75rem;
+}
+.sv-note-card {
+  text-align: left; cursor: pointer;
+  padding: 0.8rem 0.95rem;
+  transition: border-color 0.15s, box-shadow 0.2s, transform 0.2s;
+}
+.sv-note-card:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+.sv-note-card--open {
+  border-color: var(--gold); background: var(--gold-faint);
+  box-shadow: var(--shadow);
+}
+.sv-note-title { font-size: 0.96rem; margin-bottom: 0.25rem; }
+.sv-note-hook { font-size: 0.79rem; color: var(--ink-muted); line-height: 1.45; }
+
+.sv-pane { margin-top: 0.9rem; padding: 1.3rem 1.5rem 1.5rem; border-color: var(--gold); }
+.sv-pane-head {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+  border-bottom: 1px solid var(--border-soft);
+  padding-bottom: 0.7rem; margin-bottom: 1.1rem;
+}
+
+/* ── Note internals (shared) ── */
+.sfn-label {
+  font-size: 0.72rem; letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--ink-muted); margin: 1.1rem 0 0.45rem;
+}
+.sfn-label:first-child { margin-top: 0; }
+.sfn-twocol { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; }
+.sfn-row { padding: 0.55rem 0; border-bottom: 1px solid var(--border-soft); }
+.sfn-row:last-child { border-bottom: none; }
+.sfn-row-head { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; }
+.sfn-row-title { font-size: 0.94rem; color: var(--ink); }
+.sfn-row-sub   { font-size: 0.8rem; color: var(--ink-muted); }
+.sfn-row-note  { font-size: 0.86rem; color: var(--ink-medium); margin-top: 0.2rem; }
+.sfn-meta { font-size: 0.8rem; color: var(--ink-muted); margin-top: 0.25rem; }
+.sfn-meta strong { color: var(--ink-medium); font-weight: normal; }
+.sfn-tag {
+  display: inline-block; font-size: 0.74rem; padding: 0.08rem 0.55rem;
+  border: 1px solid var(--border); border-radius: 999px; color: var(--ink-medium);
+  background: var(--paper); margin: 0 0.3rem 0.3rem 0;
+}
+.sfn-badge { font-size: 0.76rem; white-space: nowrap; }
+.sfn-callout {
+  padding: 0.75rem 1rem; margin: 0.9rem 0;
+  background: var(--gold-faint); border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.9rem; color: var(--ink-medium);
+}
+.sfn-callout--rose { background: var(--rose-faint); border-left-color: var(--rose); }
+.sfn-bubble {
+  display: inline-block; padding: 0.5rem 0.9rem;
+  background: var(--leaf-faint); border: 1px solid var(--leaf);
+  border-radius: var(--radius-sm); color: var(--leaf-deep); font-size: 0.88rem;
+}
+.sfn-empty { color: var(--ink-muted); font-size: 0.88rem; font-style: italic; }
+.sfn-scroll { max-height: 430px; overflow-y: auto; padding-right: 0.4rem; }
+.sfn-list { list-style: disc; padding-left: 1.2rem; }
+.sfn-list li { font-size: 0.88rem; color: var(--ink-medium); margin-bottom: 0.25rem; }
+
+/* mini month chart (timing / momentum) */
+.sfn-chart { display: flex; align-items: flex-end; gap: 0.45rem; height: 110px; margin-top: 0.5rem; }
+.sfn-chart-col { flex: 1; display: flex; flex-direction: column; align-items: center; height: 100%; }
+.sfn-chart-track { flex: 1; width: 100%; display: flex; flex-direction: column-reverse; align-items: center; }
+.sfn-chart-bar { width: 60%; max-width: 26px; border-radius: 4px 4px 0 0; background: var(--gold); }
+.sfn-chart-bar--peak { background: var(--rose); }
+.sfn-chart-bar--alt { background: var(--leaf); }
+.sfn-chart-x { font-size: 0.68rem; color: var(--ink-muted); margin-top: 0.25rem; }
+.sfn-chart-n { font-size: 0.68rem; color: var(--ink-muted); }
+
+/* stat tiles (momentum) */
+.sfn-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; }
+.sfn-stat { text-align: center; padding: 0.7rem 0.4rem; background: var(--gold-faint); border-radius: var(--radius-sm); }
+.sfn-stat-n { font-size: 1.5rem; color: var(--gold-deep); }
+.sfn-stat-label { font-size: 0.74rem; color: var(--ink-muted); margin-top: 0.1rem; }
+
+/* readiness bars */
+.sfn-ready-track { height: 12px; border-radius: 999px; background: var(--gold-faint); overflow: hidden; margin: 0.3rem 0 0.2rem; }
+.sfn-ready-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--gold), var(--rose)); }
+
+/* pricing range cards */
+.sfn-ranges { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem; }
+.sfn-range { padding: 0.8rem 0.9rem; background: var(--paper); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); }
+.sfn-range-val { font-size: 1.05rem; color: var(--gold-deep); margin: 0.15rem 0 0.3rem; }
+
+/* scenarios */
+.sfn-scenarios { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.9rem; }
+.sfn-scenario { padding: 0.9rem 1rem; border: 1px solid var(--border-soft); border-radius: var(--radius-sm); background: var(--paper); }
+
+/* dependency map */
+.sfn-dep-connector { width: 2px; height: 18px; background: var(--border); margin: 0.3rem 0 0.3rem 5px; }
+.sfn-dep-dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; margin-right: 0.5rem; }
+
+/* numbered question rows */
+.sfn-qnum {
+  flex: 0 0 26px; width: 26px; height: 26px; border-radius: 50%;
+  background: var(--gold-faint); color: var(--gold-deep);
+  display: flex; align-items: center; justify-content: center; font-size: 0.82rem;
+}
+.sfn-qrow { display: flex; gap: 0.8rem; padding: 0.6rem 0; border-bottom: 1px solid var(--border-soft); }
+.sfn-qrow:last-child { border-bottom: none; }
+
+/* failed-section fallback */
+.sv-failed { padding: 0.8rem 1rem; color: var(--ink-muted); font-size: 0.88rem; }
+
+/* ── Responsive ── */
+@media (max-width: 980px) {
+  .sv-synth { grid-template-columns: 1fr; }
+  .sv-synth-nums {
+    border-left: none; border-top: 1px solid var(--border-soft);
+    flex-direction: row; justify-content: space-around; gap: 0.8rem;
+    padding: 1.1rem 0.8rem; text-align: center;
+  }
+  .sv-knum-n { font-size: 2.1rem; }
+  .sv-field { grid-template-columns: 1fr; gap: 1.4rem; }
+  .sv-perch-grid { grid-template-columns: repeat(2, 1fr); }
+  .sfn-twocol { grid-template-columns: 1fr; }
+  .sfn-scenarios { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .sv-hero { height: 230px; }
+  .sv-perch-grid { grid-template-columns: 1fr; }
+  .sv-bar-row { grid-template-columns: 105px 1fr 30px; }
+  .sv-bar-label { font-size: 0.78rem; }
+  .sfn-stats { grid-template-columns: repeat(2, 1fr); }
+  .sfn-ranges { grid-template-columns: 1fr; }
+  .sv-journey-path { justify-content: flex-start; }
+}

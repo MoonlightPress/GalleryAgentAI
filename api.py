@@ -2336,12 +2336,15 @@ def get_today():
         )
         and (high_impact_raw is None or _opp_id(x) != _opp_id(high_impact_raw))
     ]
-    # If no relationship IBM, widen to any low-effort verified contact
+    # If no relationship IBM, widen to any low-effort verified contact.
+    # Same staleness gate as IBM: a venue whose only deadline is months past
+    # must not be served as today's action (Verification > ranking).
     if not qw_candidates:
         qw_candidates = [
             x for x in items
             if x.get("category") in _RELATIONSHIP_CATS
             and x.get("contact") and "@" in str(x.get("contact", ""))
+            and not _deadline_past(x)
             and (high_impact_raw is None or _opp_id(x) != _opp_id(high_impact_raw))
         ]
     qw_candidates.sort(key=_ranked_score, reverse=True)
@@ -2367,19 +2370,24 @@ def get_today():
             return True
         return False
 
+    # All stretch slots share the staleness gate: a fellowship whose deadline
+    # passed seven months ago is not "one step toward a future target" — it's
+    # noise that erodes trust in the whole Focus panel.
     stretch_candidates = sorted(
         [
             x for x in items
             if x.get("exclusive_primary_bucket") == "stretch_targets"
             and _opp_id(x) not in used_ids
             and not _is_tier4(x)
+            and not _deadline_past(x)
         ],
         key=_overall_score, reverse=True,
     )
     # Fallback 1: Tier-4 stretch targets (better than nothing)
     if not stretch_candidates:
         stretch_candidates = sorted(
-            [x for x in items if x.get("exclusive_primary_bucket") == "stretch_targets" and _opp_id(x) not in used_ids],
+            [x for x in items if x.get("exclusive_primary_bucket") == "stretch_targets"
+             and _opp_id(x) not in used_ids and not _deadline_past(x)],
             key=_overall_score, reverse=True,
         )
     # Fallback 2: highest-scoring watch-list item (non-Tier-4 preferred)
@@ -2389,12 +2397,14 @@ def get_today():
             if x.get("exclusive_primary_bucket") in {"watch_list", "research_needed"}
             and _opp_id(x) not in used_ids
             and not _is_tier4(x)
+            and not _deadline_past(x)
         ]
         stretch_candidates = sorted(watch_items, key=_overall_score, reverse=True)
     # Final fallback: any remaining non-Tier-4 item
     if not stretch_candidates:
         stretch_candidates = sorted(
-            [x for x in items if _opp_id(x) not in used_ids and not _is_tier4(x)],
+            [x for x in items if _opp_id(x) not in used_ids and not _is_tier4(x)
+             and not _deadline_past(x)],
             key=_overall_score, reverse=True,
         )
     stretch_raw = stretch_candidates[0] if stretch_candidates else None
@@ -2429,6 +2439,12 @@ def get_today():
         if opp is None:
             return None
         c = shape_card(opp)
+        # Evergreen relationship venues pass the eligibility gate on verified
+        # contact alone — but a stale deadline field on such a venue is event
+        # residue, not an action date. Never display it as one.
+        if c.get("deadline_past") and opp.get("category") in _RELATIONSHIP_CATS:
+            c["deadline"] = ""
+            c["deadline_past"] = False
         c["today_role"]  = role
         c["today_label"] = label
         c["time_est"]    = time_est

@@ -1,0 +1,145 @@
+// Saffron page strings — v2.saffron.* namespace only.
+// Everything already translated in v1 is reused via the global t() fallback ('sf.*' keys).
+// Saffron's voice: observant, patient, long-horizon. She reports; she never judges.
+export const strings = {
+  en: {
+    'v2.saffron.hero.line':            'Saffron has been at the window all morning. The view is steady.',
+
+    'v2.saffron.synth.title':          'From up here',
+    'v2.saffron.synth.sub':            'What the bigger picture looks like — said once, plainly.',
+    'v2.saffron.synth.stands.label':   'Where she stands',
+    'v2.saffron.synth.stands':         'Confirmed so far: {ex} group show in Tokyo, {pub} publications, and {ig} on Instagram watching the daily watercolor diary.',
+    'v2.saffron.synth.blocking.label': 'What is in the way',
+    'v2.saffron.synth.field.label':    'What the field looks like',
+    'v2.saffron.synth.field':          'The field holds {total} opportunities — {tokyo} in Tokyo, {intl} farther afield. {ready} are ready to act on now.',
+    'v2.saffron.k.shows':              'confirmed shows',
+    'v2.saffron.k.ready':              'ready-now opportunities',
+    'v2.saffron.k.month':              'deadlines this month',
+    'v2.saffron.k.tokyo':              'in Tokyo',
+
+    'v2.saffron.journey.title':        'The journey',
+    'v2.saffron.journey.sub':          'Seven stones between here and {goal}. Saffron watches the path, one stone at a time.',
+    'v2.saffron.journey.note.label':   'Saffron’s note',
+    'v2.saffron.journey.step':         'Step {n}',
+
+    'v2.saffron.field.title':          'The field',
+    'v2.saffron.field.sub':            'Saffron counts what is out there. She does not judge it.',
+    'v2.saffron.field.cats':           'What kind of opportunities',
+    'v2.saffron.field.split':          'Tokyo and farther afield',
+    'v2.saffron.field.tokyo':          '{n} in Tokyo',
+    'v2.saffron.field.intl':           '{n} international',
+    'v2.saffron.field.act':            'How actionable, right now',
+
+    'v2.saffron.perch.title':          'Seen from the perch',
+    'v2.saffron.perch.sub':            'Artists working similar ground, a few years ahead on the road.',
+    'v2.saffron.perch.caveat':         'These are reference points, not competition — Saffron notes where their paths began, not where they ended.',
+
+    'v2.saffron.notes.title':          'Field notes',
+    'v2.saffron.notes.sub':            'Everything Saffron has written down, shelved and reachable. One note open at a time.',
+    'v2.saffron.shelf.audience':       'Audience & Press',
+    'v2.saffron.shelf.money':          'Money',
+    'v2.saffron.shelf.places':         'Places & People',
+    'v2.saffron.shelf.timing':         'Timing',
+    'v2.saffron.shelf.longview':       'The Long View',
+    'v2.saffron.note.close':           'Fold the note',
+    'v2.saffron.note.empty':           'Saffron has nothing written on this page yet.',
+
+    'v2.saffron.loading':              'Saffron is taking in the view…',
+    'v2.saffron.error':                'Saffron can’t see the valley right now — the backend isn’t answering.',
+    'v2.saffron.section.failed':       'This note would not open. The rest of the view is fine.',
+  },
+
+  zh: {
+    'v2.saffron.hero.line':            '小红整个早晨都待在窗边。景色一如往常地平稳。',
+
+    'v2.saffron.synth.title':          '从高处看',
+    'v2.saffron.synth.sub':            '大局是什么样子——只说一次，说清楚。',
+    'v2.saffron.synth.stands.label':   '她现在的位置',
+    'v2.saffron.synth.stands':         '目前已确认：在东京的 {ex} 次群展、{pub} 部出版物，以及 Instagram 上每天看她水彩日记的 {ig} 位关注者。',
+    'v2.saffron.synth.blocking.label': '眼下的阻碍',
+    'v2.saffron.synth.field.label':    '原野的样子',
+    'v2.saffron.synth.field':          '原野上共有 {total} 个机会——{tokyo} 个在东京，{intl} 个在更远处。其中 {ready} 个现在就可以行动。',
+    'v2.saffron.k.shows':              '已确认展览',
+    'v2.saffron.k.ready':              '可立即行动',
+    'v2.saffron.k.month':              '本月截止',
+    'v2.saffron.k.tokyo':              '位于东京',
+
+    'v2.saffron.journey.title':        '这段路',
+    'v2.saffron.journey.sub':          '从这里到「{goal}」之间有七块踏脚石。小红看着这条路，一块一块地看。',
+    'v2.saffron.journey.note.label':   '小红的批注',
+    'v2.saffron.journey.step':         '第 {n} 步',
+
+    'v2.saffron.field.title':          '原野',
+    'v2.saffron.field.sub':            '小红只清点眼前的一切，不作评判。',
+    'v2.saffron.field.cats':           '机会的种类',
+    'v2.saffron.field.split':          '东京与更远处',
+    'v2.saffron.field.tokyo':          '东京 {n} 个',
+    'v2.saffron.field.intl':           '海外 {n} 个',
+    'v2.saffron.field.act':            '眼下的可行动程度',
+
+    'v2.saffron.perch.title':          '从栖枝望去',
+    'v2.saffron.perch.sub':            '画着相似题材、在路上走得稍远几年的艺术家们。',
+    'v2.saffron.perch.caveat':         '他们是参照，不是对手——小红记下的是他们路途的起点，而非终点。',
+
+    'v2.saffron.notes.title':          '观察手记',
+    'v2.saffron.notes.sub':            '小红记下的一切，分架收好，随取随读。一次只展开一页。',
+    'v2.saffron.shelf.audience':       '受众与媒体',
+    'v2.saffron.shelf.money':          '收入',
+    'v2.saffron.shelf.places':         '地方与人',
+    'v2.saffron.shelf.timing':         '时机',
+    'v2.saffron.shelf.longview':       '长远之路',
+    'v2.saffron.note.close':           '合上这页',
+    'v2.saffron.note.empty':           '小红还没有在这一页写下内容。',
+
+    'v2.saffron.loading':              '小红正在眺望……',
+    'v2.saffron.error':                '小红暂时看不到山谷——后端没有应答。',
+    'v2.saffron.section.failed':       '这页笔记暂时打不开。其余视野一切正常。',
+  },
+
+  ja: {
+    'v2.saffron.hero.line':            'サフランは朝からずっと窓辺にいます。眺めは穏やかです。',
+
+    'v2.saffron.synth.title':          '高いところから',
+    'v2.saffron.synth.sub':            '大きな景色がどう見えるか——一度だけ、きちんと。',
+    'v2.saffron.synth.stands.label':   'いまの立ち位置',
+    'v2.saffron.synth.stands':         'これまでに確認できたもの：東京でのグループ展 {ex} 回、出版物 {pub} 点、そして毎日の水彩日記を見守る Instagram の {ig} のフォロワー。',
+    'v2.saffron.synth.blocking.label': 'いま道をふさいでいるもの',
+    'v2.saffron.synth.field.label':    '野原の見え方',
+    'v2.saffron.synth.field':          '野原には {total} 件の機会があります——東京に {tokyo} 件、その先に {intl} 件。いますぐ動けるのは {ready} 件です。',
+    'v2.saffron.k.shows':              '確認済みの展示',
+    'v2.saffron.k.ready':              'いま動けるもの',
+    'v2.saffron.k.month':              '今月締切',
+    'v2.saffron.k.tokyo':              '東京にあるもの',
+
+    'v2.saffron.journey.title':        'この道のり',
+    'v2.saffron.journey.sub':          'ここから「{goal}」までは七つの飛び石。サフランはひとつずつ、その道を見守ります。',
+    'v2.saffron.journey.note.label':   'サフランのメモ',
+    'v2.saffron.journey.step':         'ステップ {n}',
+
+    'v2.saffron.field.title':          '野原',
+    'v2.saffron.field.sub':            'サフランはそこにあるものを数えるだけ。判断はしません。',
+    'v2.saffron.field.cats':           '機会の種類',
+    'v2.saffron.field.split':          '東京とその先',
+    'v2.saffron.field.tokyo':          '東京 {n} 件',
+    'v2.saffron.field.intl':           '海外 {n} 件',
+    'v2.saffron.field.act':            'いま動けるかどうか',
+
+    'v2.saffron.perch.title':          '止まり木から',
+    'v2.saffron.perch.sub':            '似た風景を描き、数年先の道を歩いている画家たち。',
+    'v2.saffron.perch.caveat':         '比べる相手ではなく、道しるべ。サフランが記すのは彼らの道の始まりであって、行き着いた先ではありません。',
+
+    'v2.saffron.notes.title':          '観察ノート',
+    'v2.saffron.notes.sub':            'サフランが書きとめたすべてを棚に収めました。開くのは一度にひとつ。',
+    'v2.saffron.shelf.audience':       '読者とメディア',
+    'v2.saffron.shelf.money':          'お金',
+    'v2.saffron.shelf.places':         '場所と人',
+    'v2.saffron.shelf.timing':         'タイミング',
+    'v2.saffron.shelf.longview':       '長い目で',
+    'v2.saffron.note.close':           'ノートを閉じる',
+    'v2.saffron.note.empty':           'このページにはまだ何も書かれていません。',
+
+    'v2.saffron.loading':              'サフランは景色を眺めています……',
+    'v2.saffron.error':                'いまは谷が見えません——バックエンドが応答していません。',
+    'v2.saffron.section.failed':       'このページは開けませんでした。ほかの眺めは無事です。',
+  },
+}

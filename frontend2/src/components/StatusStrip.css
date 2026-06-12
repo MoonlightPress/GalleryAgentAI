@@ -1,0 +1,25 @@
+.sstrip {
+  position: sticky;
+  bottom: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(180deg, rgba(255, 250, 243, 0.94), var(--paper));
+  border-top: 1px solid var(--border-soft);
+  backdrop-filter: blur(6px);
+  font-size: 0.86rem;
+  color: var(--ink-medium);
+}
+
+.sstrip--celebrate {
+  background: linear-gradient(180deg, rgba(238, 244, 232, 0.95), var(--leaf-faint));
+  border-top-color: var(--leaf);
+  color: var(--leaf-deep);
+}
+
+.sstrip-paw { font-size: 0.9rem; opacity: 0.7; }
+.sstrip-fresh { color: var(--gold-deep); }
+.sstrip-text strong { font-weight: normal; }

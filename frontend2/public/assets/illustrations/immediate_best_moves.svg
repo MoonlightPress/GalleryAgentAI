@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+
+  <defs>
+    <filter id="wc" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035 0.028"
+                    numOctaves="4" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="7"
+                         xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="wash" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="crisp" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06 0.05"
+                    numOctaves="3" seed="12" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"
+                         xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="200" cy="130" rx="140" ry="110" fill="#e8c040" opacity="0.20" filter="url(#wash)"/>
+  <ellipse cx="200" cy="130" rx="90"  ry="70"  fill="#f0d050" opacity="0.16" filter="url(#wash)"/>
+
+  <g filter="url(#soft)" opacity="0.35" stroke="#c8a030" stroke-linecap="round">
+    <line x1="200" y1="20"  x2="200" y2="50"  stroke-width="3.5"/>
+    <line x1="200" y1="210" x2="200" y2="240" stroke-width="3.5"/>
+    <line x1="60"  y1="130" x2="90"  y2="130" stroke-width="3.5"/>
+    <line x1="310" y1="130" x2="340" y2="130" stroke-width="3.5"/>
+    <line x1="96"  y1="56"  x2="117" y2="77"  stroke-width="2.5"/>
+    <line x1="283" y1="56"  x2="262" y2="77"  stroke-width="2.5"/>
+    <line x1="96"  y1="204" x2="117" y2="183" stroke-width="2.5"/>
+    <line x1="283" y1="204" x2="262" y2="183" stroke-width="2.5"/>
+  </g>
+
+  <g filter="url(#wc)">
+    <path d="M200 55 L214 105 L255 80 L230 118 L278 130
+             L230 142 L255 180 L214 155 L200 205
+             L186 155 L145 180 L170 142 L122 130
+             L170 118 L145 80  L186 105 Z"
+          fill="#e8b830" opacity="0.82"/>
+    <path d="M200 90 L210 118 L238 105 L222 128 L248 130
+             L222 132 L238 155 L210 142 L200 170
+             L190 142 L162 155 L178 132 L152 130
+             L178 128 L162 105 L190 118 Z"
+          fill="#f8e060" opacity="0.72"/>
+    <circle cx="200" cy="130" r="28" fill="#fef090" opacity="0.70"/>
+    <circle cx="200" cy="130" r="16" fill="#fff8b0" opacity="0.80"/>
+  </g>
+
+  <g fill="#f0d060" opacity="0.65">
+    <circle cx="200" cy="130" r="5"/>
+    <circle cx="148" cy="88"  r="3"/>
+    <circle cx="252" cy="88"  r="3"/>
+    <circle cx="148" cy="172" r="3"/>
+    <circle cx="252" cy="172" r="3"/>
+    <circle cx="200" cy="62"  r="2.5"/>
+    <circle cx="200" cy="198" r="2.5"/>
+    <circle cx="132" cy="130" r="2.5"/>
+    <circle cx="268" cy="130" r="2.5"/>
+  </g>
+
+</svg>

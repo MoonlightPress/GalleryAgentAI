@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+
+  <defs>
+    <filter id="wc" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035 0.028"
+                    numOctaves="4" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="7"
+                         xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="wash" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="crisp" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06 0.05"
+                    numOctaves="3" seed="12" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"
+                         xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="200" cy="150" rx="150" ry="100" fill="#d4a050" opacity="0.14" filter="url(#wash)"/>
+  <ellipse cx="195" cy="160" rx="100" ry="70"  fill="#e8c060" opacity="0.11" filter="url(#wash)"/>
+
+  <g filter="url(#wc)">
+    <ellipse cx="200" cy="197" rx="72" ry="10" fill="#c8a878" opacity="0.72"/>
+    <ellipse cx="200" cy="197" rx="50" ry="6"  fill="#b89858" opacity="0.50"/>
+  </g>
+
+  <g filter="url(#wc)">
+    <path d="M148 145 L155 195 Q200 202 245 195 L252 145 Q200 138 148 145 Z"
+          fill="#f0e0c0" opacity="0.82"/>
+    <path d="M148 145 Q200 138 252 145" fill="none" stroke="#c8a878" stroke-width="2"
+          opacity="0.60"/>
+    <ellipse cx="200" cy="145" rx="52" ry="9" fill="#8c6030" opacity="0.72"/>
+    <ellipse cx="200" cy="145" rx="38" ry="6" fill="#7a5028" opacity="0.55"/>
+    <path d="M196 142 Q200 139 204 142 Q207 145 200 150 Q193 145 196 142Z"
+          fill="#c89060" opacity="0.40"/>
+  </g>
+
+  <g filter="url(#wc)">
+    <path d="M248 158 Q275 158 275 172 Q275 186 248 184"
+          fill="none" stroke="#c8a878" stroke-width="8" stroke-linecap="round"
+          opacity="0.70"/>
+  </g>
+
+  <g filter="url(#soft)" opacity="0.45">
+    <path d="M185 138 Q180 122 185 108 Q190 94 185 80"
+          fill="none" stroke="#c8b898" stroke-width="3" stroke-linecap="round"/>
+    <path d="M200 136 Q196 118 200 104 Q204 90 200 76"
+          fill="none" stroke="#c8b898" stroke-width="3" stroke-linecap="round"/>
+    <path d="M215 138 Q220 122 215 108 Q210 94 215 80"
+          fill="none" stroke="#c8b898" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#crisp)" opacity="0.38">
+    <rect x="110" y="80"  width="28" height="36" rx="2" fill="#d4a878"/>
+    <rect x="260" y="90"  width="24" height="30" rx="2" fill="#c8897a"/>
+  </g>
+
+</svg>

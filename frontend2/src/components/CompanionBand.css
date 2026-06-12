@@ -1,0 +1,101 @@
+.cband {
+  background: linear-gradient(180deg, var(--paper), rgba(255, 250, 243, 0.92));
+  border-bottom: 1px solid var(--border-soft);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(6px);
+}
+
+.cband-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0.55rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cband-companions {
+  display: flex;
+  gap: 1.6rem;
+  align-items: flex-start;
+}
+
+.cband-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.2rem 0.3rem;
+  opacity: 0.62;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  color: var(--ink);
+}
+.cband-btn:hover { opacity: 0.92; transform: translateY(-1px); }
+.cband-btn--active { opacity: 1; }
+
+.cband-roundel {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  border: 2px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  background: var(--gold-faint);
+}
+.cband-btn--active .cband-roundel {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(196, 154, 62, 0.18), var(--shadow-sm);
+}
+.cband-roundel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transform: scale(1.15);
+}
+
+.cband-name {
+  font-size: 0.86rem;
+  color: var(--ink);
+}
+
+.cband-line {
+  font-size: 0.7rem;
+  font-style: italic;
+  color: var(--ink-muted);
+  max-width: 130px;
+  text-align: center;
+  line-height: 1.25;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+.cband-line--show { height: auto; opacity: 1; }
+
+.cband-lang { display: flex; gap: 0.15rem; align-items: center; }
+.cband-lang-btn {
+  background: none;
+  border: none;
+  color: var(--ink-muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+}
+.cband-lang-btn:hover { color: var(--ink); }
+.cband-lang-btn--active { color: var(--gold-deep); background: var(--gold-faint); }
+
+@media (max-width: 640px) {
+  .cband-companions { gap: 0.8rem; }
+  .cband-roundel { width: 44px; height: 44px; }
+  .cband-line { display: none; }
+}

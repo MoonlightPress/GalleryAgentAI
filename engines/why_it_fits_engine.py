@@ -34,7 +34,7 @@ TARGET_BUCKETS = {
 ARTIST_CONTEXT = """GEGYjiji — Chinese watercolor painter based in Tokyo.
 Practice: Urban environments, architecture, memory, disappearing moments, quiet atmosphere.
 Works: daily watercolor diary since 2020 ("diary" series), first solo collection Colour Diary (Oct 2021), first Japan group exhibition "Tide from China" (Feb 2023, ACG_Labo Harajuku).
-Instagram: @gegyjiji (~90k followers). Career stage: emerging, early Tier 2.
+Instagram: @gegyjiji (~26k followers). Career stage: emerging, early Tier 2.
 Style: quiet observation, architectural documentation, ordinary scenes transformed, atmospheric light.
 Medium: watercolor on paper exclusively."""
 
@@ -77,7 +77,7 @@ def build_prompt(opp: dict) -> str:
     why_old  = opp.get("why") or opp.get("why_this_fits_short") or ""
     tags_str = ", ".join(str(t) for t in tags if t)
 
-    return f"""Artist: GEGYjiji — Chinese watercolor painter in Tokyo. Work: urban environments, architecture, memory, disappearing moments, quiet atmosphere. Daily practice, 90k Instagram followers. Career stage: early Tier 2.
+    return f"""Artist: GEGYjiji — Chinese watercolor painter in Tokyo. Work: urban environments, architecture, memory, disappearing moments, quiet atmosphere. Daily practice, 26k Instagram followers. Career stage: early Tier 2.
 
 Venue/Opportunity: {title}
 What it is: {one_sent}

@@ -48,7 +48,7 @@ def load_artist_context() -> str:
     insta   = handles.get("instagram", "@gegyjiji")
 
     return f"""Name: GEGYjiji (ジェジー / GEGY挤挤)
-Instagram: {insta} (https://www.instagram.com/gegyjiji/) (~90,000 followers, daily watercolor diary)
+Instagram: {insta} (https://www.instagram.com/gegyjiji/) (~26,000 followers, daily watercolor diary)
 Based: Tokyo (originally from Hunan Province, China; Beijing Fashion Institute — illustration/design)
 
 Key works:
@@ -73,7 +73,7 @@ representation. First serious approach to zine/book/café venues."""
 
 _ARTIST_CONTEXT_FALLBACK = """
 Name: GEGYjiji (ジェジー / 挤挤)
-Instagram: @gegyjiji (https://www.instagram.com/gegyjiji/) (~90,000 followers, daily watercolor diary)
+Instagram: @gegyjiji (https://www.instagram.com/gegyjiji/) (~26,000 followers, daily watercolor diary)
 Based: Tokyo. Watercolor. Daily diary practice since 2020. Colour Diary (2021).
 """.strip()
 

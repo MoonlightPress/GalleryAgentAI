@@ -1,0 +1,211 @@
+/* ── Mochi v2 · Atelier design system ─────────────────────────────────────────
+   Warm watercolor atelier. Georgia serif. No cold blues/greys, no emoji chrome,
+   no naked numbers, no mid-word truncation (use .clamp-*). */
+
+:root {
+  --paper:      #FFFAF3;
+  --parchment:  #EDE5D2;
+  --ink:        #3d2b20;
+  --ink-medium: #5d4b3b;
+  --ink-muted:  #8a7563;
+  --border:     #e6d4b8;
+  --border-soft:#efe3cd;
+  --gold:       #c49a3e;
+  --gold-deep:  #a37d28;
+  --gold-faint: #faf1dc;
+  --leaf:       #7a9e7e;
+  --leaf-deep:  #58804f;
+  --leaf-faint: #eef4e8;
+  --rose:       #d4897a;
+  --rose-deep:  #b06352;
+  --rose-faint: #faeeea;
+  --plum:       #9a7090;
+  --plum-faint: #f5edf3;
+
+  --wash-amber: rgba(196, 154, 62, 0.10);
+  --wash-leaf:  rgba(122, 158, 126, 0.12);
+  --wash-rose:  rgba(212, 137, 122, 0.10);
+
+  --shadow:     0 6px 20px rgba(80, 55, 30, 0.09);
+  --shadow-sm:  0 2px 8px rgba(80, 55, 30, 0.07);
+  --radius:     14px;
+  --radius-sm:  9px;
+  --maxw:       1180px;
+
+  font-family: Georgia, 'Palatino Linotype', 'Hiragino Mincho ProN', serif;
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--parchment);
+  -webkit-font-smoothing: antialiased;
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body { margin: 0; padding: 0; }
+
+/* paper grain — pure CSS, no asset */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(ellipse 900px 500px at 15% 8%,  rgba(196,154,62,0.05), transparent 60%),
+    radial-gradient(ellipse 700px 600px at 88% 30%, rgba(212,137,122,0.04), transparent 60%),
+    radial-gradient(ellipse 800px 700px at 45% 95%, rgba(122,158,126,0.05), transparent 60%);
+}
+
+#root { width: 100%; min-height: 100svh; display: flex; flex-direction: column; position: relative; z-index: 1; }
+
+h1, h2, h3, h4 { margin: 0; font-family: inherit; font-weight: normal; color: var(--ink); }
+ul { margin: 0; padding: 0; list-style: none; }
+p  { margin: 0; }
+a  { color: var(--ink-medium); text-decoration: none; }
+button { font-family: inherit; }
+
+/* ── Layout ── */
+.page      { max-width: var(--maxw); margin: 0 auto; width: 100%; padding: 0 1.5rem 6rem; }
+.page-wide { max-width: 100%; }
+
+/* ── Type scale ── */
+.display   { font-size: 1.9rem;  line-height: 1.25; }
+.h-section { font-size: 1.4rem;  line-height: 1.3; }
+.h-card    { font-size: 1.05rem; line-height: 1.35; }
+.small     { font-size: 0.85rem; }
+.tiny      { font-size: 0.76rem; letter-spacing: 0.04em; }
+
+/* companion speech — the ONLY place italics are used */
+.voice { font-style: italic; color: var(--ink-medium); }
+
+/* ── Section header with watercolor wash ── */
+.sec-head { margin: 2.8rem 0 1.2rem; position: relative; }
+.sec-head .h-section { display: inline-block; padding: 0.1rem 0.85rem 0.15rem 0.6rem; border-radius: 4px 18px 18px 4px; }
+.sec-head--amber .h-section { background: linear-gradient(100deg, var(--wash-amber), transparent 85%); }
+.sec-head--leaf  .h-section { background: linear-gradient(100deg, var(--wash-leaf),  transparent 85%); }
+.sec-head--rose  .h-section { background: linear-gradient(100deg, var(--wash-rose),  transparent 85%); }
+.sec-sub { color: var(--ink-muted); margin-top: 0.25rem; font-size: 0.92rem; }
+
+/* ── Cards ── */
+.card {
+  background: var(--paper);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 1.1rem 1.25rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.card--hover:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+.card--quiet { background: transparent; border-style: dashed; box-shadow: none; }
+
+/* ── Pills & chips ── */
+.pill {
+  display: inline-flex; align-items: center; gap: 0.3em;
+  font-size: 0.76rem; padding: 0.12rem 0.6rem;
+  border: 1px solid var(--border); border-radius: 999px;
+  color: var(--ink-medium); background: var(--paper);
+  white-space: nowrap;
+}
+.pill--loc   { border-color: var(--border-soft); color: var(--ink-muted); }
+.pill--count { background: var(--gold-faint); border-color: var(--gold); color: var(--gold-deep); }
+
+.chip-verified {
+  display: inline-flex; align-items: center; gap: 0.28em;
+  font-size: 0.74rem; padding: 0.1rem 0.55rem;
+  border-radius: 999px; border: 1px solid var(--leaf);
+  background: var(--leaf-faint); color: var(--leaf-deep);
+}
+.chip-caution {
+  display: inline-flex; align-items: center; gap: 0.28em;
+  font-size: 0.74rem; padding: 0.1rem 0.55rem;
+  border-radius: 999px; border: 1px solid var(--rose);
+  background: var(--rose-faint); color: var(--rose-deep);
+}
+
+/* fit-words (law #2) */
+.fit { display: inline-flex; align-items: center; gap: 0.3em; font-size: 0.78rem;
+       padding: 0.12rem 0.6rem; border-radius: 999px; cursor: default; }
+.fit--strong { background: var(--leaf-faint); color: var(--leaf-deep); border: 1px solid var(--leaf); }
+.fit--good   { background: var(--gold-faint); color: var(--gold-deep); border: 1px solid var(--gold); }
+.fit--worth  { background: var(--paper);      color: var(--ink-medium); border: 1px solid var(--border); }
+.fit--quiet  { background: transparent;       color: var(--ink-muted);  border: 1px dashed var(--border); }
+
+/* ── Buttons ── */
+.btn-warm {
+  background: var(--gold); color: #fff; border: 1px solid var(--gold);
+  border-radius: 999px; padding: 0.38rem 1.05rem; font-size: 0.86rem;
+  cursor: pointer; transition: background 0.15s;
+}
+.btn-warm:hover { background: var(--gold-deep); }
+.btn-warm:disabled { opacity: 0.5; cursor: default; }
+
+.btn-quiet {
+  background: transparent; color: var(--ink-medium);
+  border: 1px solid var(--border); border-radius: 999px;
+  padding: 0.36rem 1rem; font-size: 0.84rem; cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.btn-quiet:hover { background: var(--gold-faint); color: var(--ink); }
+.btn-quiet--active { background: var(--gold); border-color: var(--gold); color: #fff; }
+
+.btn-ghost {
+  background: none; border: none; color: var(--ink-muted);
+  font-size: 0.84rem; cursor: pointer; padding: 0.3rem 0.5rem;
+}
+.btn-ghost:hover { color: var(--ink); }
+
+/* ── Word-boundary truncation (law #3) — never slice() in JS ── */
+.clamp-1, .clamp-2, .clamp-3 {
+  display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;
+}
+.clamp-1 { -webkit-line-clamp: 1; }
+.clamp-2 { -webkit-line-clamp: 2; }
+.clamp-3 { -webkit-line-clamp: 3; }
+
+/* ── Filter chips row ── */
+.chip-row { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+.chip-filter {
+  display: inline-flex; align-items: center; gap: 0.4em;
+  border: 1px solid var(--border); border-radius: 999px;
+  background: var(--paper); color: var(--ink-medium);
+  padding: 0.3rem 0.85rem; font-size: 0.84rem; cursor: pointer;
+  transition: all 0.15s;
+}
+.chip-filter:hover { border-color: var(--gold); color: var(--ink); }
+.chip-filter--active { background: var(--gold); border-color: var(--gold); color: #fff; }
+.chip-filter--active .chip-n { color: rgba(255,255,255,0.85); }
+.chip-n { font-size: 0.74rem; color: var(--ink-muted); }
+.chip-icon { width: 18px; height: 18px; object-fit: contain; }
+
+/* ── Drawer (stale items etc.) ── */
+.drawer { border: 1px dashed var(--border); border-radius: var(--radius); background: transparent; }
+.drawer summary {
+  cursor: pointer; color: var(--ink-muted); font-size: 0.9rem;
+  padding: 0.75rem 1.1rem; list-style: none;
+}
+.drawer summary::-webkit-details-marker { display: none; }
+.drawer[open] summary { border-bottom: 1px dashed var(--border); }
+.drawer-body { padding: 1rem 1.1rem; }
+
+/* ── Toast ── */
+.toast {
+  position: fixed; bottom: 4.6rem; left: 50%; transform: translateX(-50%);
+  background: var(--ink); color: var(--paper); border-radius: 999px;
+  padding: 0.55rem 1.3rem; font-size: 0.88rem; box-shadow: var(--shadow);
+  z-index: 90; animation: toast-in 0.25s ease;
+}
+@keyframes toast-in { from { opacity: 0; transform: translate(-50%, 8px); } to { opacity: 1; transform: translate(-50%, 0); } }
+
+/* ── Empty state ── */
+.empty {
+  text-align: center; padding: 2.5rem 1rem; color: var(--ink-muted);
+}
+.empty img { width: 90px; opacity: 0.8; margin-bottom: 0.6rem; }
+
+/* ── Responsive defaults ── */
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; }
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.1rem; }
+@media (max-width: 980px) { .grid-3 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .grid-3, .grid-2 { grid-template-columns: 1fr; } .page { padding: 0 1rem 6rem; } }

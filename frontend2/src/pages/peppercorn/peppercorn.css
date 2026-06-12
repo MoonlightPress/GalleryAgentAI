@@ -1,0 +1,302 @@
+/* ── Peppercorn page (Reflection) — page-scoped styles on top of atelier.css ──
+   Quiet, precise, kind. Atelier tokens only — no invented palette. */
+
+.pep-page { position: relative; }
+
+/* ── Hero band (~340px) ── */
+.pep-hero {
+  position: relative;
+  height: 340px;
+  margin: 1.4rem 0 1.2rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-soft);
+}
+.pep-hero-img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: 50% 38%;
+}
+.pep-hero-veil {
+  position: absolute; inset: 0;
+  background: linear-gradient(95deg,
+    rgba(255, 250, 243, 0.94) 0%,
+    rgba(255, 250, 243, 0.80) 32%,
+    rgba(255, 250, 243, 0.22) 62%,
+    rgba(255, 250, 243, 0.0) 85%);
+}
+.pep-hero-text {
+  position: absolute;
+  left: 2.2rem; bottom: 2rem;
+  max-width: 440px;
+}
+.pep-hero-voice { margin-top: 0.5rem; font-size: 1.02rem; }
+
+.pep-loading { padding: 2rem 0 4rem; }
+.pep-section-error { margin: 1rem 0; text-align: center; padding: 1.4rem 1rem; }
+
+/* ── Shared small pieces ── */
+.pep-note  { color: var(--ink-muted); margin-bottom: 0.7rem; }
+.pep-hint  { color: var(--ink-muted); margin: 0 0 0.5rem; }
+.pep-block-label {
+  color: var(--ink-muted); text-transform: uppercase;
+  margin-bottom: 0.4rem; display: block;
+}
+.pep-block-label--gap { margin-top: 1.1rem; }
+
+.pep-input {
+  font-family: inherit; font-size: 0.9rem; color: var(--ink);
+  background: var(--paper); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 0.45rem 0.65rem;
+  width: 100%; transition: border-color 0.15s;
+}
+.pep-input:focus { outline: none; border-color: var(--gold); }
+textarea.pep-input { resize: vertical; line-height: 1.55; }
+
+.pep-q-actions { display: flex; align-items: center; gap: 0.6rem; margin-top: 0.8rem; }
+.pep-mini-btn  { font-size: 0.78rem; padding: 0.22rem 0.7rem; }
+
+/* ── The Wondering ── */
+.pep-pebbles { display: flex; align-items: center; gap: 0.55rem; margin-bottom: 1rem; }
+.pep-pebble {
+  width: 14px; height: 14px; border-radius: 50%;
+  border: 1.5px solid var(--border); background: var(--paper);
+  cursor: pointer; padding: 0;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.pep-pebble:hover { border-color: var(--gold); transform: scale(1.15); }
+.pep-pebble--done   { background: var(--leaf); border-color: var(--leaf); }
+.pep-pebble--active { border-color: var(--gold); background: var(--gold-faint); box-shadow: 0 0 0 3px var(--wash-amber); }
+.pep-pebble--done.pep-pebble--active { background: var(--leaf); border-color: var(--gold); }
+.pep-pebble-count { color: var(--ink-muted); margin-left: 0.35rem; }
+
+.pep-content-card { text-align: center; padding: 1.8rem 1.2rem; }
+
+.pep-q-card { max-width: 720px; }
+.pep-q-num  { color: var(--ink-muted); text-transform: uppercase; margin-bottom: 0.3rem; }
+.pep-q-text { margin-bottom: 0.35rem; }
+.pep-q-why  { color: var(--ink-muted); margin-bottom: 0.85rem; }
+.pep-q-options { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem; }
+.pep-q-option  { font-size: 0.82rem; text-align: left; }
+.pep-q-input   { margin-top: 0.2rem; }
+
+.pep-answered { margin-top: 1.2rem; max-width: 720px; }
+.pep-answered-row {
+  display: flex; align-items: flex-start; gap: 0.6rem;
+  width: 100%; text-align: left; cursor: pointer;
+  background: transparent; border: none; border-bottom: 1px dashed var(--border-soft);
+  padding: 0.5rem 0.25rem; font-family: inherit;
+  transition: background 0.15s;
+}
+.pep-answered-row:hover { background: var(--gold-faint); }
+.pep-answered-check { color: var(--leaf-deep); flex: none; line-height: 1.5; }
+.pep-answered-body  { display: flex; flex-direction: column; gap: 0.1rem; }
+.pep-answered-q { color: var(--ink-muted); }
+.pep-answered-a { color: var(--ink); }
+
+/* ── Dismissal insight banner ── */
+.pep-insight {
+  display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap;
+  margin: 1.6rem 0 0;
+  background: var(--gold-faint); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 0.7rem 1.1rem;
+}
+.pep-insight-mark { color: var(--gold-deep); font-size: 1.4rem; line-height: 1; }
+.pep-insight-text { color: var(--ink-medium); flex: 1 1 16rem; margin: 0; }
+.pep-insight-actions { display: flex; gap: 0.4rem; }
+
+/* ── What Peppercorn Knows ── */
+.pep-knows-grid { margin-bottom: 1.1rem; align-items: start; }
+.pep-knows-card h3, .pep-prefs-card h3 { margin-bottom: 0.45rem; }
+.pep-statement { margin-top: 0.6rem; }
+
+.pep-stmt-example { margin-bottom: 0.3rem; }
+.pep-example-toggle { padding-left: 0; }
+.pep-example-body {
+  display: flex; align-items: stretch; gap: 0.8rem;
+  background: var(--gold-faint); border-radius: var(--radius-sm);
+  padding: 0.75rem 0.9rem; margin: 0.4rem 0 0.6rem;
+}
+.pep-example-col { flex: 1; }
+.pep-example-vs  { align-self: center; color: var(--ink-muted); }
+.pep-example-text--generic  { color: var(--ink-muted); font-style: italic; }
+.pep-example-text--specific { color: var(--ink); }
+
+.pep-goal-list { margin: 0.3rem 0 0.7rem; }
+.pep-goal-row {
+  display: flex; align-items: baseline; gap: 0.55rem;
+  padding: 0.35rem 0; border-bottom: 1px dashed var(--border-soft);
+}
+.pep-goal-row--done .pep-goal-text { color: var(--ink-muted); text-decoration: line-through; }
+.pep-goal-toggle {
+  background: none; border: none; cursor: pointer; padding: 0;
+  color: var(--gold-deep); font-size: 0.95rem; flex: none;
+}
+.pep-goal-toggle--done { color: var(--leaf-deep); }
+.pep-goal-text { flex: 1; }
+.pep-goal-remove {
+  background: none; border: none; cursor: pointer; padding: 0 0.2rem;
+  color: var(--ink-muted); font-size: 0.95rem; flex: none;
+}
+.pep-goal-remove:hover { color: var(--rose-deep); }
+.pep-goal-add { display: flex; gap: 0.5rem; margin-top: 0.4rem; }
+.pep-goal-list--done { margin-top: 0.6rem; opacity: 0.85; }
+
+.pep-prefs-card { margin-top: 1.1rem; }
+.pep-prefs-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 1.4rem; margin-top: 0.7rem;
+}
+.pep-check-row {
+  display: flex; align-items: flex-start; gap: 0.5rem;
+  padding: 0.28rem 0; cursor: pointer;
+}
+.pep-check-row input { margin-top: 0.28rem; accent-color: var(--gold); flex: none; }
+.pep-check-label { display: flex; flex-direction: column; }
+.pep-check-desc  { color: var(--ink-muted); }
+
+.pep-surface-grid {
+  display: grid; grid-template-columns: 1fr auto auto;
+  gap: 0.3rem 0.8rem; align-items: center;
+}
+.pep-surface-grid input { accent-color: var(--gold); justify-self: center; margin: 0; }
+.pep-surface-col  { color: var(--ink-muted); text-transform: uppercase; }
+.pep-surface-name { color: var(--ink-medium); }
+
+/* ── The Record Book ── */
+.pep-ledger { padding: 0; overflow: hidden; }
+.pep-tabs {
+  display: flex; flex-wrap: wrap;
+  border-bottom: 1px solid var(--border-soft);
+  background: var(--gold-faint);
+}
+.pep-tab {
+  font-family: inherit; font-size: 0.9rem; color: var(--ink-medium);
+  background: transparent; border: none; cursor: pointer;
+  padding: 0.7rem 1.2rem; border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.pep-tab:hover { color: var(--ink); }
+.pep-tab--active {
+  color: var(--ink); background: var(--paper);
+  border-bottom-color: var(--gold);
+}
+.pep-tab-body { padding: 1.1rem 1.25rem 1.3rem; }
+
+.pep-add-row {
+  display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: flex-end;
+  background: var(--gold-faint); border: 1px dashed var(--border);
+  border-radius: var(--radius-sm); padding: 0.8rem 0.9rem;
+  margin-bottom: 1rem;
+}
+.pep-add-row--tight { background: transparent; border: none; padding: 0.2rem 0; margin-bottom: 0.3rem; }
+.pep-field { display: flex; flex-direction: column; gap: 0.2rem; flex: 0 1 auto; min-width: 8.5rem; }
+.pep-field--wide { flex: 1 1 12rem; }
+.pep-label { color: var(--ink-muted); text-transform: uppercase; }
+.pep-add-btn { flex: none; margin-bottom: 0.1rem; }
+
+.pep-entries { display: flex; flex-direction: column; gap: 0.55rem; }
+.pep-entries--tight { gap: 0.35rem; margin-top: 0.9rem; }
+.pep-entry {
+  background: var(--paper); border: 1px solid var(--border-soft);
+  border-left: 3px solid var(--border);
+  border-radius: var(--radius-sm); padding: 0.6rem 0.85rem;
+}
+.pep-entry--leaf      { border-left-color: var(--leaf); }
+.pep-entry--gold      { border-left-color: var(--gold); }
+.pep-entry--rose      { border-left-color: var(--rose); }
+.pep-entry--parchment { border-left-color: var(--border); }
+.pep-entry--muted     { border-left-color: var(--border-soft); opacity: 0.9; }
+.pep-entry-head { display: flex; align-items: baseline; gap: 0.55rem; flex-wrap: wrap; }
+.pep-entry-name { color: var(--ink); }
+.pep-entry-date { color: var(--ink-muted); margin-left: auto; }
+.pep-entry-notes { color: var(--ink-muted); margin-top: 0.15rem; }
+.pep-empty-line { padding: 0.6rem 0.2rem; }
+
+/* warm outcome chips */
+.pep-chip {
+  display: inline-flex; align-items: center;
+  font-size: 0.74rem; padding: 0.08rem 0.55rem;
+  border-radius: 999px; border: 1px solid var(--border);
+  background: var(--paper); color: var(--ink-medium);
+  white-space: nowrap;
+}
+.pep-chip--leaf      { background: var(--leaf-faint); border-color: var(--leaf); color: var(--leaf-deep); }
+.pep-chip--gold      { background: var(--gold-faint); border-color: var(--gold); color: var(--gold-deep); }
+.pep-chip--rose      { background: var(--rose-faint); border-color: var(--rose); color: var(--rose-deep); }
+.pep-chip--parchment { background: var(--paper); border-color: var(--border); color: var(--ink-medium); }
+.pep-chip--muted     { background: transparent; border-style: dashed; color: var(--ink-muted); }
+
+/* CRM contacts */
+.pep-crm-filters { margin-bottom: 0.9rem; }
+.pep-contact { padding: 0.55rem 0.85rem 0.65rem; }
+.pep-contact-main {
+  display: block; width: 100%; text-align: left; cursor: pointer;
+  background: none; border: none; padding: 0; font-family: inherit;
+  font-size: inherit; color: inherit;
+}
+.pep-contact-actions {
+  display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;
+  margin-top: 0.4rem;
+}
+.pep-contact-email { color: var(--ink-muted); }
+.pep-contact-email:hover { color: var(--ink); }
+.pep-contact-detail {
+  margin-top: 0.55rem; padding-top: 0.55rem;
+  border-top: 1px dashed var(--border-soft);
+  display: flex; flex-direction: column; gap: 0.3rem;
+}
+.pep-contact-link { color: var(--gold-deep); }
+.pep-contact-edit { margin-top: 0.55rem; }
+.pep-risk { color: var(--rose-deep); }
+
+/* Quick log */
+.pep-event-chips { margin-bottom: 0.8rem; }
+.pep-event-chip {
+  font-family: inherit; font-size: 0.84rem; cursor: pointer;
+  padding: 0.32rem 0.9rem; border-radius: 999px;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.pep-event-chip:hover { box-shadow: var(--shadow-sm); }
+.pep-event-chip--active { box-shadow: 0 0 0 2px var(--gold); }
+.pep-event-note { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.6rem; }
+.pep-event-note .pep-input { flex: 1; }
+
+/* ── Milestones strip ── */
+.pep-ms-strip {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 1.1rem; padding: 1.2rem 1.4rem;
+}
+.pep-ms-item { position: relative; padding-left: 0.85rem; }
+.pep-ms-item::before {
+  content: ''; position: absolute; left: 0; top: 0.25rem; bottom: 0.25rem;
+  width: 3px; border-radius: 2px; background: var(--border);
+}
+.pep-ms-item:nth-child(odd)::before  { background: var(--gold); opacity: 0.45; }
+.pep-ms-item:nth-child(even)::before { background: var(--leaf); opacity: 0.4; }
+.pep-ms-label { color: var(--ink-muted); text-transform: uppercase; }
+.pep-ms-count { font-size: 1.25rem; color: var(--ink); margin: 0.1rem 0 0.25rem; }
+.pep-ms-meaning { color: var(--ink-muted); line-height: 1.45; }
+
+/* ── Responsive ── */
+@media (max-width: 980px) {
+  .pep-prefs-grid { grid-template-columns: repeat(2, 1fr); }
+  .pep-ms-strip { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .pep-hero { height: 240px; margin-top: 1rem; }
+  .pep-hero-text { left: 1.2rem; bottom: 1.1rem; right: 1.2rem; }
+  .pep-hero-veil {
+    background: linear-gradient(180deg,
+      rgba(255, 250, 243, 0.0) 30%,
+      rgba(255, 250, 243, 0.88) 75%);
+  }
+  .pep-prefs-grid { grid-template-columns: 1fr; }
+  .pep-ms-strip { grid-template-columns: 1fr; }
+  .pep-add-row { flex-direction: column; align-items: stretch; }
+  .pep-field { min-width: 0; }
+  .pep-entry-date { margin-left: 0; }
+  .pep-tab { padding: 0.6rem 0.8rem; font-size: 0.84rem; }
+}
