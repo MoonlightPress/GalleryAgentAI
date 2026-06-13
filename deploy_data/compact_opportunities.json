@@ -2689,7 +2689,7 @@
     "country": "Japan",
     "source_url": "https://saibido-art.jimdofree.com/%E5%85%AC%E5%8B%9F%E5%B1%95%E5%87%BA%E5%93%81%E6%89%8B%E9%A0%86-%E6%90%AC%E5%85%A5%E6%97%A5/%E5%85%AC%E5%8B%9F%E5%B1%95%E6%90%AC%E5%85%A5%E6%97%A5-%E6%98%A5",
     "submission_page": "https://www.nihonsuisai.or.jp/index.html",
-    "official_website": "https://saibido-art.jimdofree.com/%E5%85%AC%E5%8B%9F%E5%B1%95%E5%87%BA%E5%93%81%E6%89%8B%E9%A0%86-%E6%90%AC%E5%85%A5%E6%97%A5/%E5%85%AC%E5%8B%9F%E5%B1%95%E6%90%AC%E5%85%A5%E6%97%A5-%E6%98%A5",
+    "official_website": "https://www.nihonsuisai.or.jp/",
     "deadline": "Annual — 113th edition June 2026; 114th expected spring 2027 (check nihonsuisai.or.jp)",
     "fees": null,
     "contact": "TEL: 03-5828-1616 / FAX: 03-5828-1619",
@@ -2870,7 +2870,8 @@
     ],
     "email_en": null,
     "email_ja": null,
-    "email_zh": null
+    "email_zh": null,
+    "verification_note": "URL corrected 2026-06-13: was a framing-company schedule page; this is the Japan Watercolor Society official site"
   },
   {
     "name": "START Box ササハタハツ・START Box 白鬚 2026年度利用者募集",
@@ -5429,7 +5430,7 @@
     "visual_fit_score": 3.25,
     "source_url": "https://note.com/bookcultureclub/n/n053a24287fc2",
     "submission_page": "https://note.com/bookcultureclub/n/n053a24287fc2",
-    "deadline": "2026-06-27",
+    "deadline": "2026-06-20",
     "fees": "¥5,200 (1 person, with promotion) / ¥6,200 (1 person, no promotion)",
     "deadline_verified": true,
     "one_sentence": "Monthly Tokyo zine fair organized by BOOK CULTURE CLUB — 90cm half-table booth, ¥5,200-6,200 fee, applications close 2 weeks before each event. Next Tokyo date: July 11 2026.",
@@ -5620,7 +5621,8 @@
     ],
     "name_en": "ZINE Fest Tokyo",
     "source_type_weight": 1.0,
-    "source_weight_reason": "type:discovery_search"
+    "source_weight_reason": "type:discovery_search",
+    "deadline_note": "Booths close when full — page says ~June 20. Apply immediately."
   },
   {
     "title": "Bologna Children's Book Fair Illustrators Exhibition",
@@ -7089,7 +7091,7 @@
     "curator_patterns": [
       "quiet_photography"
     ],
-    "exclusive_primary_bucket": "immediate_best_moves",
+    "exclusive_primary_bucket": "research_needed",
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "contact_email": "info@teravarna.com",
@@ -15345,7 +15347,7 @@
     "country": "Japan",
     "source_url": "https://www.iwafu.com/en/events/1062957",
     "submission_page": "https://www.iwafu.com/en/events/1062957",
-    "official_website": "https://www.smaf.jp/face/",
+    "official_website": "https://www.sompo-museum.org/",
     "deadline": "Multiple deadlines: January 8, 2026; February 3, 2026; January 9, 2026; May 29, 2026; June 30, 2026; July 20, 2026",
     "fees": "Free",
     "contact": "Online application: smaf.jp/face",
@@ -15547,7 +15549,8 @@
     ],
     "email_en": null,
     "email_ja": null,
-    "email_zh": null
+    "email_zh": null,
+    "verification_note": "URL corrected 2026-06-13 (smaf.jp/face 404); FACE runs at Sompo Museum"
   },
   {
     "title": "Cité Internationale des Arts Artist Residency",
@@ -23057,7 +23060,7 @@
     "source_url": "https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh",
     "submission_page": "https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh",
     "official_website": "https://graphiccompetitions.com/illustration/applied-arts-2026-illustration-awards/zh",
-    "deadline": "2026年1月",
+    "deadline": "2026-02-08",
     "fees": "$40",
     "contact": null,
     "overall_score": 7.7,
@@ -23183,7 +23186,8 @@
     ],
     "email_en": null,
     "email_ja": null,
-    "email_zh": null
+    "email_zh": null,
+    "status": "closed_this_cycle"
   },
   {
     "name": "COW BOOKS Nakameguro",
@@ -30306,7 +30310,8 @@
     ],
     "email_en": null,
     "email_ja": null,
-    "email_zh": null
+    "email_zh": null,
+    "status": "closed_this_cycle"
   },
   {
     "name": "Para Contest 2026",

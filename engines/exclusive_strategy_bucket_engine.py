@@ -293,6 +293,22 @@ def choose_bucket(opp):
     if has(title, ["facebook", "instagram", "pinterest", "tiktok", "continue reading"]):
         return "reject"
 
+    # Aggregator-as-venue guard (truth pass 2026-06-13, rule 1): listing
+    # portals, competition aggregators, social searches, and logistics pages
+    # are sources, not venues. An entry whose only links are aggregators
+    # cannot be acted on — route to research_needed until a real venue URL
+    # exists. (bhuntr/graphiccompetitions/shejijingsai = aggregators;
+    # artkoubo portal pages, twitter searches, framing-company schedules
+    # were all observed as "official_website" in the top 20.)
+    _AGGREGATOR_DOMAINS = (
+        "bhuntr.com", "graphiccompetitions.com", "shejijingsai.com",
+        "artkoubo.jp", "twitter.com", "x.com", "jimdofree.com",
+    )
+    _urls = [opp.get("official_website") or "", opp.get("submission_page") or ""]
+    _real = [u for u in _urls if u and not any(d in u for d in _AGGREGATOR_DOMAINS)]
+    if any(_urls) and not _real:
+        return "research_needed"
+
     # Tier 4 hard guard (CLAUDE.md rule): prestige targets NEVER reach
     # immediate_best_moves, regardless of score or verification strength.
     # The structured career_tier field is authoritative and must be checked

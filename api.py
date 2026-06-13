@@ -159,7 +159,13 @@ _RELATIONSHIP_CATS = {
 
 def _confirmed_deadline(opp: dict) -> bool:
     d = str(opp.get("deadline", "")).strip().lower()
-    return d not in _DEADLINE_PLACEHOLDERS and len(d) > 4
+    if d in _DEADLINE_PLACEHOLDERS or len(d) <= 4:
+        return False
+    # Truth-pass rule 2: a deadline with no year ("May 15th") can never expire,
+    # so it can never be confirmed. Require a parseable date or a 4-digit year.
+    if _parse_deadline_date(opp) is None and not re.search(r"(19|20)\d{2}|\d{4}年", d):
+        return False
+    return True
 
 
 _ISO_DATE_RE  = re.compile(r'(\d{4})-(\d{2})-(\d{2})')
@@ -229,9 +235,17 @@ def _deadline_past(opp: dict) -> bool:
     return (datetime.now(timezone.utc) - dt).days > 7
 
 
+def _url_field(opp: dict, key: str) -> str:
+    """URL fields occasionally arrive as lists from older enrichment runs."""
+    v = opp.get(key) or ""
+    if isinstance(v, list):
+        v = v[0] if v else ""
+    return str(v).strip()
+
+
 def _real_submission_page(opp: dict) -> bool:
-    sp  = (opp.get("submission_page") or "").strip()
-    ow  = (opp.get("official_website") or "").strip()
+    sp  = _url_field(opp, "submission_page")
+    ow  = _url_field(opp, "official_website")
     if not sp or sp == ow:
         return False
     return any(kw in sp.lower() for kw in _SUBMISSION_KEYWORDS)
@@ -494,6 +508,12 @@ def shape_card(opp: dict) -> dict:
     score    = _overall_score(opp)
     summary  = opp.get("one_sentence", "")
 
+    # Truth-pass rule 3: evergreen relationship venues (consignment shops,
+    # cafés, artist spaces) carry stale one-off event dates as residue.
+    # A past date on such a venue is never an action date — serve "rolling".
+    if category in _RELATIONSHIP_CATS and _deadline_past(opp):
+        opp = {**opp, "deadline": "", "status": opp.get("status", "")}
+
     why = opp.get("why_this_fits_short", "")
     # why_card: shown on card face only when it adds something beyond the summary
     why_card = why if (why and why[:60] != summary[:60]) else ""
@@ -582,7 +602,7 @@ def load_opportunities() -> list:
         _OPP_CACHE_MTIME = mtime
     suppressed = _load_suppressed()
     suppressed_cats = _load_suppressed_categories()
-    return [
+    items = [
         x for x in _OPP_CACHE
         if x.get("exclusive_primary_bucket") not in {"reject", "low_priority"}
         and x.get("status") != "permanently_closed"
@@ -590,6 +610,19 @@ def load_opportunities() -> list:
         and _opp_id(x) not in suppressed
         and x.get("category") not in suppressed_cats
     ]
+    # Truth-pass rule 4: the same call can enter twice from different sources
+    # (e.g. NIKA S20 listed under two titles). Dedup by normalized name,
+    # keeping the higher-scored entry.
+    best: dict = {}
+    for x in items:
+        key = re.sub(r"[\s「」『』()（）+＋・/\-]", "", _opp_name(x).lower())[:40]
+        if not key:
+            best[id(x)] = x
+            continue
+        cur = best.get(key)
+        if cur is None or _overall_score(x) > _overall_score(cur):
+            best[key] = x
+    return list(best.values())
 
 
 def bucket(items: list) -> dict:
@@ -628,11 +661,15 @@ def bucket(items: list) -> dict:
     buckets["__accepted_celebrations__"] = _accepted
 
     # ── Category sections ────────────────────────────────────────────────────
+    # closed_this_cycle entries are excluded from the action sections and fall
+    # through to the watch list (truth-pass rule 5: a call whose page says
+    # "expired" must never be served under "Open Calls").
     for key, cats in SECTION_CATEGORIES.items():
         section = [
             x for x in scored
             if x.get("category") in cats and _opp_id(x) not in used
             and x.get("exclusive_primary_bucket") not in {"stretch_targets", "research_needed"}
+            and x.get("status") != "closed_this_cycle"
         ]
         used.update(_opp_id(x) for x in section)
         buckets[key] = by_display_score([shape_card(x) for x in section])
