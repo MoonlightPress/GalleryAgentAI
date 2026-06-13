@@ -73,7 +73,7 @@ export default function HuntBoard({ sections, removed, onRemove, showToast }) {
   function toggleDetails(id) { setOpenId(prev => (prev === id ? null : id)) }
 
   return (
-    <section className="mv2-board">
+    <section id="board" className="mv2-board">
       <div className="sec-head sec-head--amber">
         <h2 className="h-section">{t2('v2.mochi.board.title')}</h2>
         <p className="sec-sub">{t2('v2.mochi.board.sub')}</p>

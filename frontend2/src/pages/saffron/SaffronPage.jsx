@@ -257,25 +257,25 @@ export default function SaffronPage() {
 
       {data && (
         <>
-          <NoteBoundary fallback={fallback}>
+          <div id="overview"><NoteBoundary fallback={fallback}>
             <Synthesis data={data} t2={t2} />
-          </NoteBoundary>
+          </NoteBoundary></div>
 
-          <NoteBoundary fallback={fallback}>
+          <div id="journey"><NoteBoundary fallback={fallback}>
             <Journey pathway={data.pathway} t2={t2} />
-          </NoteBoundary>
+          </NoteBoundary></div>
 
-          <NoteBoundary fallback={fallback}>
+          <div id="field"><NoteBoundary fallback={fallback}>
             <Field ml={data.market_landscape} t2={t2} />
-          </NoteBoundary>
+          </NoteBoundary></div>
 
-          <NoteBoundary fallback={fallback}>
+          <div id="peers"><NoteBoundary fallback={fallback}>
             <Perch peers={data.peer_artists} t2={t2} />
-          </NoteBoundary>
+          </NoteBoundary></div>
 
-          <NoteBoundary fallback={fallback}>
+          <div id="notes"><NoteBoundary fallback={fallback}>
             <FieldNotes data={data} careerData={careerData} t={t} t2={t2} lang={lang} />
-          </NoteBoundary>
+          </NoteBoundary></div>
         </>
       )}
     </main>

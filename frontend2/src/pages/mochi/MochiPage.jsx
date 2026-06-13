@@ -77,7 +77,7 @@ export default function MochiPage() {
       </section>
 
       {loaded && slots.length > 0 && (
-        <div className="grid-3 mv2-focus-grid">
+        <div id="focus" className="grid-3 mv2-focus-grid">
           {slots.map(key => (
             <FocusCard
               key={key}

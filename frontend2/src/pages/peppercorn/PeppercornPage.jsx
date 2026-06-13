@@ -180,12 +180,12 @@ export default function PeppercornPage() {
       {profile && (
         <>
           {/* 1 · The Wondering — the page's opening move */}
-          <PepBoundary name="wondering" fallback={sectionErr}>
+          <div id="wondering"><PepBoundary name="wondering" fallback={sectionErr}>
             <Wondering
               data={profile.saffron_answers}
               onSave={v => saveSection({ saffron_answers: v })}
             />
-          </PepBoundary>
+          </PepBoundary></div>
 
           {/* 2 · Dismissal insight — only when a category has 3+ dismissals */}
           <PepBoundary name="insight" fallback={sectionErr}>
@@ -193,24 +193,24 @@ export default function PeppercornPage() {
           </PepBoundary>
 
           {/* 3 · What Peppercorn Knows */}
-          <PepBoundary name="knows" fallback={sectionErr}>
+          <div id="knows"><PepBoundary name="knows" fallback={sectionErr}>
             <Knows
               profile={profile}
               onSaveStatement={v => saveSection({ artist_statement: v })}
               onSaveGoals={v => saveSection({ goals: v })}
               onSavePrefs={v => saveSection(v)}
             />
-          </PepBoundary>
+          </PepBoundary></div>
 
           {/* 4 · The Record Book */}
-          <PepBoundary name="recordbook" fallback={sectionErr}>
+          <div id="record"><PepBoundary name="recordbook" fallback={sectionErr}>
             <RecordBook />
-          </PepBoundary>
+          </PepBoundary></div>
 
           {/* 5 · Milestones — honest counts, nothing rounded up */}
-          <PepBoundary name="milestones" fallback={sectionErr}>
+          <div id="milestones"><PepBoundary name="milestones" fallback={sectionErr}>
             <Milestones profile={profile} />
-          </PepBoundary>
+          </PepBoundary></div>
         </>
       )}
 
