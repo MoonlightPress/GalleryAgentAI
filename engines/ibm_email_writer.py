@@ -249,8 +249,11 @@ def main():
 
     opps = json.loads(OPP_PATH.read_text(encoding="utf-8"))
 
-    # All Tier 1-2 by score, skipping entries that already have venue-specific drafts
-    tier12 = [o for o in opps if o.get("career_tier") in (1, 2)]
+    # All Tier 1-2 by score, plus EVERYTHING in immediate_best_moves regardless
+    # of tier — if the system says "act on this now", the artifact to act with
+    # must exist. Skips entries that already have venue-specific drafts.
+    tier12 = [o for o in opps if o.get("career_tier") in (1, 2)
+              or o.get("exclusive_primary_bucket") == "immediate_best_moves"]
     tier12.sort(key=lambda x: float(x.get("overall_score") or 0), reverse=True)
     needs_email = [o for o in tier12 if not (o.get("email_ja") and o.get("email_en"))]
     targets = needs_email[: args.limit]

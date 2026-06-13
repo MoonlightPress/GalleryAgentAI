@@ -91,6 +91,10 @@ PIPELINE = [
     "why_it_fits_engine.py",              # audit fix: moved before final guard
     "tier_scoring_engine.py",             # audit fix: must run before final_score_guard
     "final_score_guard.py",               # audit fix: now runs after tier adjustment
+    "targeted_verification_agent.py",     # systemic fix 2026-06-13: real URL/deadline
+                                          # verification was never in the pipeline —
+                                          # Verification > ranking (CLAUDE.md). Pure
+                                          # HTTP, no API cost.
     "recommendation_trust_cleaner.py",
     "dead_url_pruner.py",
     "prerequisite_detection_engine.py",   # audit fix: moved before bucket engine

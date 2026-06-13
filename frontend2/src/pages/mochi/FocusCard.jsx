@@ -2,6 +2,8 @@
 // a stale slot never shows its date as the action date (law #1).
 import { loc } from '../../utils/api'
 import { useLanguage } from '../../i18n/LanguageContext'
+import { useLocalT } from '../../i18n/local'
+import { strings } from './strings'
 import { catIcon } from './catIcons'
 import { ActionRow, DeadlineBit, DetailBody, VerifiedChips } from './cardParts'
 
@@ -15,10 +17,13 @@ const ROLES = {
 
 export default function FocusCard({ card, role, isOpen, onDetails, showToast }) {
   const { t, lang } = useLanguage()
+  const t2 = useLocalT(strings)
   if (!card) return null
   const cfg = ROLES[role] || ROLES.high_impact
   const summary = loc(card, 'summary', lang)
   const why = loc(card, 'why_card', lang) || loc(card, 'why_it_fits', lang)
+  // Follow-up nudges (overdue application / stale contact) wear their own label
+  const isFollowup = card.submission_followup || card.crm_followup
 
   return (
     <article
@@ -27,7 +32,7 @@ export default function FocusCard({ card, role, isOpen, onDetails, showToast }) 
     >
       <div className="mv2-focus-role">
         <span className="mv2-focus-dot" aria-hidden="true" />
-        <span className="mv2-focus-label">{t(cfg.label)}</span>
+        <span className="mv2-focus-label">{isFollowup ? t2('v2.mochi.focus.followup') : t(cfg.label)}</span>
         <span className="mv2-focus-time">{t(cfg.time)}</span>
       </div>
 

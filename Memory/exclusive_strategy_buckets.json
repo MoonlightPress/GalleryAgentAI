@@ -192,23 +192,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-      "score": 9.2,
-      "differentiated_score": 10.06,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "",
-      "verification_score": 10,
-      "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.",
-      "source": "https://www.nwws.org/annual-international-open/",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "B&B Shimokitazawa",
       "score": 7.5,
       "differentiated_score": 9.99,
@@ -705,26 +688,6 @@
     }
   ],
   "publication_targets": [
-    {
-      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-      "score": 9.4,
-      "differentiated_score": 11.19,
-      "visual_fit_score": 3.7,
-      "verification_bucket": null,
-      "verification_score": 10,
-      "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
-      "source": "https://www.womenunitedartmovement.com/artmagazine",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "opportunity_type": "group_publication",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
     {
       "title": "本店・本屋の実験室",
       "score": 9.4,
@@ -1307,6 +1270,23 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "score": 9.2,
+      "differentiated_score": 10.06,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "",
+      "verification_score": 10,
+      "why": "Direct medium match, international eligibility, currently open. Juror Dongfeng Li is a Chinese-American watercolor watercolor artist — unusually apt cultural fit for GEGYjiji.",
+      "source": "https://www.nwws.org/annual-international-open/",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "新進芸術家海外研修制度（Emerging Artists Overseas Training Program）",
       "score": 8.8,
       "differentiated_score": 9.91,
@@ -1367,7 +1347,7 @@
       "visual_fit_score": 0.45,
       "verification_bucket": "research_needed",
       "verification_score": 9,
-      "why": "The grant's focus on Tokyo-based cultural creation directly aligns with GEGYjiji's practice of documenting the city's disappearing architectural moments and quiet urban spaces through daily watercolor observation. Her established Instagram presence (90k followers) and consistent body of work on paper position her well to propose a cohesive exhibition or project that captures Tokyo's ephemeral environments for both local and international audiences.",
+      "why": "The grant's focus on Tokyo-based cultural creation directly aligns with GEGYjiji's practice of documenting the city's disappearing architectural moments and quiet urban spaces through daily watercolor observation. Her established Instagram presence (26k followers) and consistent body of work on paper position her well to propose a cohesive exhibition or project that captures Tokyo's ephemeral environments for both local and international audiences.",
       "source": "https://www.artscouncil-tokyo.jp/grants/tokyo-grant-program/25275",
       "visual_hits": [
         "Tokyo-based"
@@ -1556,6 +1536,21 @@
         "small_press"
       ],
       "opportunity_type": "small_press_publisher",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "INSTINC 2026/2027 Artist-in-Residence Program",
+      "score": 5.8,
+      "differentiated_score": 7.1,
+      "visual_fit_score": 0.0,
+      "verification_bucket": "needs_research",
+      "verification_score": 6,
+      "why": "Independent artist residency program emphasizing experimentation and artistic vision, open to international artists.",
+      "source": "https://sagg.info/event/opencall-2026-and-2027",
+      "visual_hits": [],
+      "opportunity_type": "open_call",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -2052,6 +2047,26 @@
         "artist_book"
       ],
       "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "score": 9.4,
+      "differentiated_score": 11.19,
+      "visual_fit_score": 3.7,
+      "verification_bucket": null,
+      "verification_score": 10,
+      "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.",
+      "source": "https://www.womenunitedartmovement.com/artmagazine",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "opportunity_type": "group_publication",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -3880,21 +3895,6 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "INSTINC 2026/2027 Artist-in-Residence Program",
-      "score": 5.8,
-      "differentiated_score": 7.1,
-      "visual_fit_score": 0.0,
-      "verification_bucket": "needs_research",
-      "verification_score": 6,
-      "why": "Independent artist residency program emphasizing experimentation and artistic vision, open to international artists.",
-      "source": "https://sagg.info/event/opencall-2026-and-2027",
-      "visual_hits": [],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
       "title": "Open Call | Submit Your Work — Explore Art in the streets of Tokyo at ...",
       "score": 5.9,
       "differentiated_score": 7.08,
@@ -4483,6 +4483,23 @@
       "draft_introduction_ja": ""
     },
     {
+      "title": "SICF Fukuoka 2026",
+      "score": 3.7,
+      "differentiated_score": 5.46,
+      "visual_fit_score": 0.45,
+      "verification_bucket": "needs_research",
+      "verification_score": 7,
+      "why": "Creator exhibition opportunity for artists and artists; fits illustration/watercolor artist looking for exhibition venues.",
+      "source": "https://compe.japandesign.ne.jp/category/art",
+      "visual_hits": [
+        "watercolor"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
       "title": "ARTE VENT Press",
       "score": 4.2,
       "differentiated_score": 5.34,
@@ -4917,23 +4934,6 @@
       "verification_score": 5,
       "why": "Gallery open call exhibition relevant to watercolor and illustration artists.",
       "source": "https://note.com/gallerydioxazine/n/nae41d746f93d",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "SICF Fukuoka 2026",
-      "score": 3.7,
-      "differentiated_score": 5.46,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "needs_research",
-      "verification_score": 7,
-      "why": "Creator exhibition opportunity for artists and artists; fits illustration/watercolor artist looking for exhibition venues.",
-      "source": "https://compe.japandesign.ne.jp/category/art",
       "visual_hits": [
         "watercolor"
       ],
@@ -6136,7 +6136,7 @@
       ],
       "opportunity_type": "press_target",
       "action_type": "pitch",
-      "relationship_note": "Near-term realistic target. Chinese publications are actively expanding international coverage of overseas Chinese artists. Pitch in Chinese. Story: '90k followers watercolorist in Tokyo documenting the city for Chinese audiences'.",
+      "relationship_note": "Near-term realistic target. Chinese publications are actively expanding international coverage of overseas Chinese artists. Pitch in Chinese. Story: '26k followers watercolorist in Tokyo documenting the city for Chinese audiences'.",
       "draft_introduction_ja": ""
     },
     {

@@ -1,5 +1,5 @@
 {
-  "last_updated": null,
+  "last_updated": "2026-06-12T23:19:24.642708+00:00",
   "priorities": {
     "active_tiers": [
       1,
@@ -43,5 +43,14 @@
     "tide_china_contact": null,
     "second_exhibition_planned": null,
     "price_points": null
+  },
+  "live_counts": {
+    "group_shows": 1,
+    "group_shows_target": 3,
+    "publications": 2,
+    "publications_target": 3,
+    "instagram_followers": "26k",
+    "instagram_approx": 26000,
+    "instagram_target": 50000
   }
 }

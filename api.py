@@ -824,6 +824,35 @@ def get_submissions():
     return []
 
 
+class SubmissionPatch(BaseModel):
+    outcome: str = ""
+    followed_up: bool | None = None
+    notes: str = ""
+
+
+@app.patch("/api/submissions/{sub_id}")
+def patch_submission(sub_id: str, patch: SubmissionPatch):
+    """Update a submission: record outcome or mark followed-up.
+    Marking followed_up clears the Today's Focus follow-up nudge automatically."""
+    if not SUBMISSIONS_PATH.exists():
+        raise HTTPException(status_code=404, detail="No submissions found")
+    records = json.loads(SUBMISSIONS_PATH.read_text(encoding="utf-8"))
+    idx = next((i for i, r in enumerate(records) if r.get("id") == sub_id), None)
+    if idx is None:
+        raise HTTPException(status_code=404, detail=f"Submission '{sub_id}' not found")
+    if patch.outcome:
+        records[idx]["outcome"] = patch.outcome
+    if patch.followed_up is not None:
+        records[idx]["followed_up"] = patch.followed_up
+        if patch.followed_up:
+            records[idx]["followed_up_at"] = datetime.now(timezone.utc).isoformat()
+    if patch.notes:
+        records[idx]["notes"] = patch.notes
+    records[idx]["updated_at"] = datetime.now(timezone.utc).isoformat()
+    SUBMISSIONS_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "submission": records[idx]}
+
+
 @app.post("/api/submissions")
 def add_submission(entry: SubmissionEntry):
     if SUBMISSIONS_PATH.exists():
@@ -2450,6 +2479,58 @@ def get_today():
         c["time_est"]    = time_est
         return c
 
+    # ── Submission follow-up: pending application, 14–90 days old, not yet
+    # followed up → becomes today's Quick Win. This is the systemic loop the
+    # system lacked: "applied" used to be a dead end. Computed fresh from
+    # submission_log.json on every request; marking followed_up (PATCH
+    # /api/submissions/{id}) or recording an outcome clears it automatically.
+    def _submission_followup_raw():
+        if not SUBMISSIONS_PATH.exists():
+            return None
+        try:
+            subs = json.loads(SUBMISSIONS_PATH.read_text(encoding="utf-8"))
+            if not isinstance(subs, list):
+                subs = subs.get("submissions", [])
+        except Exception:
+            return None
+        now = datetime.now(timezone.utc)
+        due = []
+        for s in subs:
+            if (s.get("outcome") or "pending").lower() not in ("pending", "applied", "submitted"):
+                continue
+            if s.get("followed_up"):
+                continue
+            try:
+                d = datetime.fromisoformat(str(s.get("date", ""))[:10]).replace(tzinfo=timezone.utc)
+            except Exception:
+                continue
+            days = (now - d).days
+            if 14 <= days <= 90:
+                due.append((days, s))
+        if not due:
+            return None
+        due.sort(key=lambda x: -x[0])  # longest-waiting first
+        return due[0]
+
+    def _submission_card(days, sub):
+        venue = sub.get("venue", "")
+        what = sub.get("what", "")
+        return {
+            "id":          sub.get("id", ""),
+            "name":        venue,
+            "today_role":  "quick_win",
+            "today_label": "Follow-up",
+            "time_est":    "5 min",
+            "summary": (
+                f"You applied to {venue} ({what}) {days} days ago and haven't heard back. "
+                "A short, polite check-in is appropriate now."
+            ),
+            "summary_zh": f"你在 {days} 天前向 {venue} 提交了申请（{what}），尚未收到回复。现在可以礼貌地跟进一下。",
+            "summary_ja": f"{venue}（{what}）に応募してから{days}日が経ちました。丁寧なフォローアップを送るのに良いタイミングです。",
+            "submission_followup": True,
+            "submission_days": days,
+        }
+
     def _crm_card(contact):
         if contact is None:
             return None
@@ -2477,8 +2558,17 @@ def get_today():
             "crm_status": contact.get("status", ""),
         }
 
+    # Quick-win precedence: overdue application follow-up (most time-boxed)
+    # → stale CRM relationship → regular best quick win.
+    _sub_due = _submission_followup_raw()
+    quick_win_card = (
+        (_submission_card(*_sub_due) if _sub_due else None)
+        or _crm_card(crm_followup_raw)
+        or _card(quick_win_raw, "quick_win", "Quick Win", "5 min")
+    )
+
     return {
-        "quick_win":    _crm_card(crm_followup_raw) or _card(quick_win_raw, "quick_win", "Quick Win", "5 min"),
+        "quick_win":    quick_win_card,
         "high_impact":  _card(high_impact_raw,"high_impact",  "High Impact Move",   "30–60 min"),
         "stretch_goal": _card(stretch_raw,    "stretch_goal", "Stretch Goal",       "longer term"),
         "generated_at": datetime.now(timezone.utc).isoformat(),

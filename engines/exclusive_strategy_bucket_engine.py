@@ -293,6 +293,14 @@ def choose_bucket(opp):
     if has(title, ["facebook", "instagram", "pinterest", "tiktok", "continue reading"]):
         return "reject"
 
+    # Tier 4 hard guard (CLAUDE.md rule): prestige targets NEVER reach
+    # immediate_best_moves, regardless of score or verification strength.
+    # The structured career_tier field is authoritative and must be checked
+    # BEFORE any rule that can return immediate_best_moves — the name list
+    # further down is only a fallback for entries that lack the field.
+    if opp.get("career_tier") == 4 or str(opp.get("tier", "")) == "4":
+        return "stretch_targets"
+
     # Tier 4 — Prestige Targets: always stretch_targets, never immediate_best_moves.
     # These are future goals for the deep-work year at ~30, not current actions.
     tier_4_terms = [

@@ -1,5 +1,34 @@
 # API Logic Audit — api.py (2026-06-13, agent-verified)
 
+## ✅ SYSTEMIC FIXES ROUND 2 (2026-06-13 morning — "no interference" pass)
+1. **Tier-4 hard guard in the bucket engine** (`engines/exclusive_strategy_bucket_engine.py`):
+   `career_tier == 4` now returns stretch_targets BEFORE any rule that can emit
+   immediate_best_moves (the old check was a name list evaluated too late).
+   Engine re-run regenerated the data: NWWS rerouted to stretch_targets, IBM 13→12,
+   verified live through /api/opportunities. Survives any fresh pipeline run.
+2. **Follow-up loop exists now** (`api.py` /api/today): pending submissions 14–90
+   days old with no follow-up become the Quick Win ("You applied to X N days ago…",
+   localized zh/ja), computed fresh per request. Priority: overdue application →
+   stale CRM contact → regular quick win. New `PATCH /api/submissions/{id}` records
+   outcome / `followed_up` (which auto-clears the nudge). Unit-tested with synthetic
+   log: 20-day pending fires; 5-day and already-followed entries skipped.
+   v2 FocusCard shows a localized "Follow-up" label for these cards.
+3. **Verification wired into the pipeline** (`run_full_mochi_pipeline.py`):
+   `targeted_verification_agent.py` (pure HTTP — no Tavily/Claude despite the name)
+   inserted after final_score_guard. Every future pipeline run now re-verifies
+   URLs/deadlines. (A manual one-off run was blocked by the permission classifier
+   on a mistaken Tavily assumption — harmless; next pipeline run covers it.)
+4. **IBM draft coverage rule** (`engines/ibm_email_writer.py`): targets now include
+   everything in immediate_best_moves regardless of tier (was Tier 1-2 only — why
+   portal competitions never got artifacts). ⚠ Generation BLOCKED: the Anthropic
+   API key has no credits ("credit balance too low"). After top-up:
+   `python engines/ibm_email_writer.py --limit 15`.
+5. **Weekly scheduler prepared, not registered**: `run_weekly_pipeline.bat` (logs to
+   logs/pipeline_runs/, writes memory/last_run.json). Registering a persistent
+   Windows task requires explicit user action:
+   `schtasks /Create /TN "MochiWeeklyPipeline" /TR "C:\ScottStuff\GalleryAgentAI\run_weekly_pipeline.bat" /SC WEEKLY /D TUE /ST 09:00 /F`
+   Note: pipeline runs consume Tavily quota + Claude API credits.
+
 ## ✅ FIXES APPLIED THIS SESSION (2026-06-13, backend)
 1. **/api/today staleness gate** (api.py): quick_win fallback now requires
    `not _deadline_past(x)`; all four stretch_goal candidate paths now require
