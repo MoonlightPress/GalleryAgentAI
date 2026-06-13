@@ -568,6 +568,7 @@ def shape_card(opp: dict) -> dict:
         "bullets_ja":      opp.get("three_bullets_ja", []) or [],
         "checklist":       _build_checklist(opp),
         "prerequisites":   opp.get("prerequisites", []) or [],
+        "student_call":    bool(opp.get("student_call")),
         "native_medium":   opp.get("native_medium", "unknown"),
         "deadline_past":   _deadline_past(opp),
         "closed_this_cycle": opp.get("status") == "closed_this_cycle",
@@ -2610,6 +2611,45 @@ def get_today():
         "stretch_goal": _card(stretch_raw,    "stretch_goal", "Stretch Goal",       "longer term"),
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
+
+
+# ── Issue reports — the artist's direct line to the maintainer ───────────────
+# Anything she reports lands here; check_attention.py turns open issues into
+# reports/NEEDS_ATTENTION.md so a Claude session can be pointed at them.
+
+ISSUES_PATH = DATA_DIR / "user_reported_issues.json"
+
+
+class IssueReport(BaseModel):
+    text: str
+    page: str = ""
+    lang: str = ""
+
+
+@app.post("/api/issues")
+def report_issue(issue: IssueReport):
+    if not issue.text.strip():
+        raise HTTPException(status_code=400, detail="empty report")
+    records = []
+    if ISSUES_PATH.exists():
+        records = json.loads(ISSUES_PATH.read_text(encoding="utf-8"))
+    records.append({
+        "id":     hashlib.md5(f"{datetime.now(timezone.utc).isoformat()}{issue.text}".encode()).hexdigest()[:8],
+        "ts":     datetime.now(timezone.utc).isoformat(),
+        "page":   issue.page,
+        "lang":   issue.lang,
+        "text":   issue.text.strip()[:2000],
+        "status": "open",
+    })
+    ISSUES_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "open": sum(1 for r in records if r.get("status") == "open")}
+
+
+@app.get("/api/issues")
+def list_issues():
+    if ISSUES_PATH.exists():
+        return json.loads(ISSUES_PATH.read_text(encoding="utf-8"))
+    return []
 
 
 @app.get("/api/health")

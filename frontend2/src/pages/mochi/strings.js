@@ -12,6 +12,7 @@ export const strings = {
 
     'v2.mochi.focus.recheck':      'deadline passed — Mochi is re-checking',
     'v2.mochi.focus.followup':     'Follow-up',
+    'v2.mochi.pill.student':       'Student call — you qualify',
     'v2.mochi.act.copyEmail':      'Copy email',
     'v2.mochi.act.copied':         'Drafted and copied — paste it into Instagram DM or email.',
     'v2.mochi.act.openPage':       'Open page',
@@ -53,6 +54,7 @@ export const strings = {
 
     'v2.mochi.focus.recheck':      '截止已过 — 猫饼正在重新核实',
     'v2.mochi.focus.followup':     '跟进',
+    'v2.mochi.pill.student':       '学生公募 — 你符合资格',
     'v2.mochi.act.copyEmail':      '复制邮件',
     'v2.mochi.act.copied':         '草稿已复制——粘贴到 Instagram 私信或邮件即可。',
     'v2.mochi.act.openPage':       '打开页面',
@@ -94,6 +96,7 @@ export const strings = {
 
     'v2.mochi.focus.recheck':      '締切超過 — モチが再確認中',
     'v2.mochi.focus.followup':     'フォローアップ',
+    'v2.mochi.pill.student':       '学生公募 — 応募資格あり',
     'v2.mochi.act.copyEmail':      'メールをコピー',
     'v2.mochi.act.copied':         '下書きをコピーしました——Instagram の DM かメールに貼り付けてください。',
     'v2.mochi.act.openPage':       'ページを開く',

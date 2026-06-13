@@ -5,7 +5,7 @@ import { useLanguage } from '../../i18n/LanguageContext'
 import { useLocalT } from '../../i18n/local'
 import { strings } from './strings'
 import { catIcon } from './catIcons'
-import { ActionRow, DeadlineBit, DetailBody, VerifiedChips } from './cardParts'
+import { ActionRow, DeadlineBit, DetailBody, StudentPill, VerifiedChips } from './cardParts'
 
 // role → label/time keys (global tf.* dictionary) + warm accent token.
 // Stretch accent is plum — never blue (spec §Page 1).
@@ -48,6 +48,7 @@ export default function FocusCard({ card, role, isOpen, onDetails, showToast }) 
           </span>
         )}
         {/* DeadlineBit renders the caution chip for stale items — never the dead date */}
+        <StudentPill opp={card} />
         <DeadlineBit opp={card} />
       </div>
 

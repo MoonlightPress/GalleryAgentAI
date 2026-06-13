@@ -1,15 +1,22 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import './StatusStrip.css'
+import { useLanguage } from '../i18n/LanguageContext'
 import { useLocalT } from '../i18n/local'
 import { shellStrings } from './shellStrings'
 import { api } from '../utils/api'
 
 // Mochi's status strip — persists on ALL pages (Bible08: the emotional anchor).
-// Honest signals only: real ready-count, real acceptance celebrations.
+// Honest signals only. Also carries the artist's direct line: "tell Peppercorn"
+// — one tap, a sentence, done. Reports land in the maintainer's attention queue.
 export default function StatusStrip() {
+  const { lang } = useLanguage()
   const t2 = useLocalT(shellStrings)
   const [celebration, setCelebration] = useState(null)
   const [readyCount, setReadyCount] = useState(null)
+  const [reportOpen, setReportOpen] = useState(false)
+  const [reportText, setReportText] = useState('')
+  const [reportDone, setReportDone] = useState(false)
+  const doneTimer = useRef(null)
 
   useEffect(() => {
     api.submissions().then(subs => {
@@ -23,27 +30,71 @@ export default function StatusStrip() {
     }).catch(() => {})
 
     api.opportunities().then(d => {
-      const ibm = d?.sections?.immediate_best_moves || []
-      setReadyCount(ibm.length)
+      setReadyCount((d?.sections?.immediate_best_moves || []).length)
     }).catch(() => {})
+
+    return () => clearTimeout(doneTimer.current)
   }, [])
 
+  async function sendReport() {
+    const text = reportText.trim()
+    if (!text) return
+    try {
+      await fetch('/api/issues', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text, page: window.location.hash, lang }),
+      })
+      setReportText('')
+      setReportOpen(false)
+      setReportDone(true)
+      doneTimer.current = setTimeout(() => setReportDone(false), 3000)
+    } catch { /* quiet — never make her feel an error for reporting one */ }
+  }
+
   return (
-    <div className={`sstrip${celebration ? ' sstrip--celebrate' : ''}`}>
-      <span className="sstrip-paw" aria-hidden>🐾</span>
-      {celebration ? (
-        <span className="sstrip-text">
-          <strong>{t2('v2.status.celebrate', { venue: celebration.venue || celebration.what || '' })}</strong>
-          {' '}<span className="voice">{t2('v2.status.celebrate.sub')}</span>
-        </span>
-      ) : (
-        <span className="sstrip-text">
-          {t2('v2.status.line')}
-          {readyCount !== null && readyCount > 0 && (
-            <span className="sstrip-fresh"> · {t2('v2.status.fresh', { n: readyCount })}</span>
-          )}
-        </span>
+    <>
+      {reportOpen && (
+        <div className="sstrip-report">
+          <p className="voice small">{t2('v2.report.prompt')}</p>
+          <textarea
+            className="sstrip-report-input"
+            rows={3}
+            value={reportText}
+            onChange={e => setReportText(e.target.value)}
+            placeholder={t2('v2.report.placeholder')}
+            autoFocus
+          />
+          <div className="sstrip-report-actions">
+            <button className="btn-warm" onClick={sendReport} disabled={!reportText.trim()}>
+              {t2('v2.report.send')}
+            </button>
+            <button className="btn-ghost" onClick={() => setReportOpen(false)}>
+              {t2('v2.report.cancel')}
+            </button>
+          </div>
+        </div>
       )}
-    </div>
+
+      <div className={`sstrip${celebration ? ' sstrip--celebrate' : ''}`}>
+        <span className="sstrip-paw" aria-hidden>🐾</span>
+        {celebration ? (
+          <span className="sstrip-text">
+            <strong>{t2('v2.status.celebrate', { venue: celebration.venue || celebration.what || '' })}</strong>
+            {' '}<span className="voice">{t2('v2.status.celebrate.sub')}</span>
+          </span>
+        ) : (
+          <span className="sstrip-text">
+            {t2('v2.status.line')}
+            {readyCount !== null && readyCount > 0 && (
+              <span className="sstrip-fresh"> · {t2('v2.status.fresh', { n: readyCount })}</span>
+            )}
+          </span>
+        )}
+        <button className="sstrip-report-link" onClick={() => setReportOpen(o => !o)}>
+          {reportDone ? t2('v2.report.thanks') : t2('v2.report.link')}
+        </button>
+      </div>
+    </>
   )
 }

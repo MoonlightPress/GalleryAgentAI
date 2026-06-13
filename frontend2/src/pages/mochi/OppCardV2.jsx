@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { loc } from '../../utils/api'
 import { useLanguage } from '../../i18n/LanguageContext'
 import { catIcon } from './catIcons'
-import { ActionRow, DeadlineBit, DetailBody, FeedbackRow, FitBadge } from './cardParts'
+import { ActionRow, DeadlineBit, DetailBody, FeedbackRow, FitBadge, StudentPill } from './cardParts'
 
 function orgDiffers(opp) {
   const name = (opp.name || '').toLowerCase()
@@ -44,6 +44,7 @@ export default function OppCardV2({ opp, isOpen, onDetails, onRemove, showToast,
       <div className="mv2-card-pills">
         {catLabel && <span className="pill">{catLabel}</span>}
         {opp.city && <span className="pill pill--loc">{opp.city}</span>}
+        <StudentPill opp={opp} />
         <DeadlineBit opp={opp} />
       </div>
 

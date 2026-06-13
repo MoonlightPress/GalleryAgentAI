@@ -117,6 +117,13 @@ export function VerifiedChips({ opp, chips }) {
   )
 }
 
+// ── Student-call mark: she is a student — these are eligible AND a perk ─────
+export function StudentPill({ opp }) {
+  const t2 = useLocalT(strings)
+  if (!opp.student_call) return null
+  return <span className="pill mv2-student">{t2('v2.mochi.pill.student')}</span>
+}
+
 // ── Deadline bit — law #1: never render a dead date as a live action ────────
 export function DeadlineBit({ opp }) {
   const { t, lang } = useLanguage()

@@ -235,3 +235,10 @@
   .mv2-feedback-label { display: none; }
   .mv2-feedback-btn { font-size: 0.95rem; padding: 0.2rem 0.65rem; }
 }
+
+/* Student-only call — she qualifies; mark as a perk, not a warning */
+.mv2-student {
+  border-color: var(--leaf);
+  background: var(--leaf-faint);
+  color: var(--leaf-deep);
+}

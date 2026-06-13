@@ -19,3 +19,5 @@ if %errorlevel%==0 (
 ) else (
   python -c "import json,datetime;json.dump({'last_run':datetime.datetime.now().isoformat(),'status':'failed'},open('memory/last_run.json','w'))"
 )
+rem Always check whether anything needs the maintainer (her reports, failed runs)
+python scripts\check_attention.py

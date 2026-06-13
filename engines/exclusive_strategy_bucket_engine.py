@@ -268,13 +268,15 @@ _NATIONALITY_RE = re.compile(r"日本国籍(?:を有する|に限る|のみ)|jap
 
 def _eligibility_conflict(opp) -> str:
     """Return '' or the conflict kind. A hired assistant never shows her a
-    call she cannot enter. Note: '学生部門' (a student *division*) is not a
-    conflict — only exclusive restrictions match."""
+    call she cannot enter — but SHE IS A STUDENT (confirmed 2026-06-13), so
+    student-only calls are eligible and get marked (student_call flag) rather
+    than filtered; student fee tiers are an advantage. Note: '学生部門' (a
+    student *division*) is not exclusive either way."""
     blob = " ".join(str(opp.get(k) or "") for k in
                     ("title", "name", "one_sentence", "requirements",
                      "eligibility", "why_this_fits_short"))
     if _STUDENT_ONLY_RE.search(blob):
-        return "students_only"
+        opp["student_call"] = True   # mark for her, never hide
     if _NATIONALITY_RE.search(blob):
         return "nationality"
     for m in _AGE_CAP_RE.finditer(blob):
@@ -423,10 +425,12 @@ def choose_bucket(opp):
         return "research_needed"
 
     # 3. Eligibility guard: never show her a call she cannot enter.
+    #    (Also sets student_call=True on student-only calls — she IS a
+    #    student, so those are eligible and surfaced with a mark.)
     _elig = _eligibility_conflict(opp)
     if _elig:
         opp["eligibility_conflict"] = _elig
-        return "reject" if _elig in ("students_only", "nationality") else "research_needed"
+        return "reject" if _elig == "nationality" else "research_needed"
 
     # Tier 4 hard guard (CLAUDE.md rule): prestige targets NEVER reach
     # immediate_best_moves, regardless of score or verification strength.
