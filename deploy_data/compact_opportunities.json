@@ -2297,7 +2297,7 @@
     },
     "dominant_curator_personality": "quiet_poetic",
     "curator_patterns": [],
-    "exclusive_primary_bucket": "immediate_best_moves",
+    "exclusive_primary_bucket": "research_needed",
     "uncapped_score": 10.0,
     "score_sanity_note": "Score capped at 9.4 because source/verification strength is limited.",
     "career_tier": 3,
@@ -2678,7 +2678,9 @@
     ],
     "email_en": null,
     "email_ja": null,
-    "email_zh": null
+    "email_zh": null,
+    "official_site_confirmed": true,
+    "verification_note": "2026-06-13: artkoubo.jp is run by 山口文化財団, the same foundation that runs Art Olympia — this listing IS the organizer's page. Old art-olympia domains have lapsed. Deadline 2026-07-31 page-confirmed."
   },
   {
     "name": "第113回 日本水彩展",

@@ -172,6 +172,118 @@ def _call_deadline_is_past(opp) -> bool:
     return dl_date is not None and dl_date < _TODAY
 
 
+# ---------------------------------------------------------------------------
+# Source-quality knowledge base + corpus-learned portal detection
+# ---------------------------------------------------------------------------
+_SQ_PATH = Path(__file__).parent.parent / "memory" / "source_quality.json"
+try:
+    _SQ = json.loads(_SQ_PATH.read_text(encoding="utf-8"))
+except Exception:
+    _SQ = {}
+_AGG_STATIC     = tuple(_SQ.get("aggregator_domains", []))
+_PLATFORM_HOSTS = tuple(_SQ.get("platform_hosts", []))
+_VANITY_MILLS   = tuple(m.lower() for m in _SQ.get("vanity_mills", []))
+
+_LEARNED_PORTALS: set = set()
+
+
+def _domain(url) -> str:
+    if isinstance(url, list):
+        url = url[0] if url else ""
+    m = re.match(r"https?://(?:www\.)?([^/]+)", str(url or ""))
+    return m.group(1).lower() if m else ""
+
+
+def set_corpus(opps):
+    """Learn portal domains from the corpus: a domain used as official_website
+    by 3+ DISTINCT organizations is a listing portal, not a venue. Builder
+    platforms are exempt (each subdomain/account is one organizer)."""
+    global _LEARNED_PORTALS
+    by_domain: dict = {}
+    for o in opps:
+        d = _domain(o.get("official_website"))
+        if not d or any(p in d for p in _PLATFORM_HOSTS):
+            continue
+        org = (o.get("organization") or o.get("title") or o.get("name") or "").strip().lower()
+        by_domain.setdefault(d, set()).add(org)
+    _LEARNED_PORTALS = {d for d, orgs in by_domain.items() if len(orgs) >= 3}
+
+
+def _is_aggregator_url(url) -> bool:
+    if isinstance(url, list):
+        url = url[0] if url else ""
+    u = str(url or "").lower()
+    if not u:
+        return False
+    d = _domain(u)
+    if any(p in d for p in _PLATFORM_HOSTS):
+        return False
+    return any(a in u for a in _AGG_STATIC) or d in _LEARNED_PORTALS
+
+
+def _has_real_venue_url(opp) -> bool:
+    """True if at least one action URL is a real venue (or no URLs at all —
+    relationship venues without sites are handled by other rules).
+    Per-entry escape hatch: official_site_confirmed=True means a human
+    verified the URL is organizer-owned even though the domain looks like a
+    portal (e.g. Art Olympia's listing on artkoubo.jp — the portal is run by
+    the same foundation that runs the competition)."""
+    if opp.get("official_site_confirmed"):
+        return True
+    urls = [opp.get("official_website") or "", opp.get("submission_page") or ""]
+    flat = [u[0] if isinstance(u, list) and u else u for u in urls]
+    flat = [str(u or "") for u in flat]
+    if not any(flat):
+        return True
+    return any(u and not _is_aggregator_url(u) for u in flat)
+
+
+def _is_vanity_mill(opp) -> bool:
+    blob = " ".join(str(opp.get(k) or "") for k in
+                    ("title", "name", "organization", "one_sentence")).lower()
+    return any(m in blob for m in _VANITY_MILLS)
+
+
+# Artist facts for eligibility (from artist_master_profile.json when present)
+def _artist_age() -> int:
+    try:
+        prof = json.loads((Path(__file__).parent.parent / "memory" /
+                           "artist_master_profile.json").read_text(encoding="utf-8"))
+        age = prof.get("age") or prof.get("identity", {}).get("age")
+        if age:
+            return int(age)
+    except Exception:
+        pass
+    return 26  # confirmed age as of 2026 (CLAUDE.md career framework)
+
+
+_ARTIST_AGE = _artist_age()
+
+_STUDENT_ONLY_RE = re.compile(
+    r"学生限定|在学生のみ|大学生限定|在校生限定|现役学生|仅限学生|"
+    r"students?\s+only|must\s+be\s+(?:currently\s+)?enrolled", re.I)
+_AGE_CAP_RE = re.compile(r"(?:under|U)\s*(\d{2})\b|(\d{2})\s*歳以下|(\d{2})\s*岁以下", re.I)
+_NATIONALITY_RE = re.compile(r"日本国籍(?:を有する|に限る|のみ)|japanese\s+nationals?\s+only", re.I)
+
+
+def _eligibility_conflict(opp) -> str:
+    """Return '' or the conflict kind. A hired assistant never shows her a
+    call she cannot enter. Note: '学生部門' (a student *division*) is not a
+    conflict — only exclusive restrictions match."""
+    blob = " ".join(str(opp.get(k) or "") for k in
+                    ("title", "name", "one_sentence", "requirements",
+                     "eligibility", "why_this_fits_short"))
+    if _STUDENT_ONLY_RE.search(blob):
+        return "students_only"
+    if _NATIONALITY_RE.search(blob):
+        return "nationality"
+    for m in _AGE_CAP_RE.finditer(blob):
+        cap = next((g for g in m.groups() if g), None)
+        if cap and int(cap) < _ARTIST_AGE:
+            return f"age_cap_{cap}"
+    return ""
+
+
 def choose_bucket(opp):
     text = text_blob(opp)
     title = str(opp.get("title") or opp.get("name") or "").lower()
@@ -293,21 +405,28 @@ def choose_bucket(opp):
     if has(title, ["facebook", "instagram", "pinterest", "tiktok", "continue reading"]):
         return "reject"
 
-    # Aggregator-as-venue guard (truth pass 2026-06-13, rule 1): listing
-    # portals, competition aggregators, social searches, and logistics pages
-    # are sources, not venues. An entry whose only links are aggregators
-    # cannot be acted on — route to research_needed until a real venue URL
-    # exists. (bhuntr/graphiccompetitions/shejijingsai = aggregators;
-    # artkoubo portal pages, twitter searches, framing-company schedules
-    # were all observed as "official_website" in the top 20.)
-    _AGGREGATOR_DOMAINS = (
-        "bhuntr.com", "graphiccompetitions.com", "shejijingsai.com",
-        "artkoubo.jp", "twitter.com", "x.com", "jimdofree.com",
-    )
-    _urls = [opp.get("official_website") or "", opp.get("submission_page") or ""]
-    _real = [u for u in _urls if u and not any(d in u for d in _AGGREGATOR_DOMAINS)]
-    if any(_urls) and not _real:
+    # ── Source-quality guards (truth pass 2026-06-13, hardened) ──────────────
+    # 1. Aggregator-as-venue: listing portals are sources, never venues. The
+    #    domain list lives in memory/source_quality.json (data, editable) and
+    #    is EXTENDED automatically: any domain serving as official_website for
+    #    3+ distinct organizations in this corpus is a portal by definition
+    #    (a real venue's site belongs to one organization). Site-builder
+    #    platforms (jimdo/wix/note/artcall…) are exempt — there, each account
+    #    IS one organizer's own site.
+    if not _has_real_venue_url(opp):
         return "research_needed"
+
+    # 2. Vanity-mill guard: pay-to-enter online-gallery competition factories
+    #    (TERAVARNA etc.) have negligible career value at Tier 1-2 — a hired
+    #    assistant would not show these. Tracked, never actioned.
+    if _is_vanity_mill(opp):
+        return "research_needed"
+
+    # 3. Eligibility guard: never show her a call she cannot enter.
+    _elig = _eligibility_conflict(opp)
+    if _elig:
+        opp["eligibility_conflict"] = _elig
+        return "reject" if _elig in ("students_only", "nationality") else "research_needed"
 
     # Tier 4 hard guard (CLAUDE.md rule): prestige targets NEVER reach
     # immediate_best_moves, regardless of score or verification strength.
@@ -499,6 +618,7 @@ def load_suppression():
 def main():
     opps = load_json(OPP_PATH, [])
     suppressed = load_suppression()
+    set_corpus(opps)  # learn portal domains from this corpus before bucketing
 
     buckets = {key: [] for key in BUCKET_ORDER}
 

@@ -78,3 +78,25 @@ accuracy now ~16-17/20. Remaining to reach the 18/20 bar:
 - 金风车 deadline 2026-06-05 just passed — confirm whether extended
 These three need a follow-up check (one Tavily-free session or the next
 maintenance run + manual confirm).
+
+## Hardened rules round (same session — "better than hiring someone")
+
+- **Source-quality knowledge base** (`memory/source_quality.json`, data-driven):
+  16 aggregator domains, 12 builder-platform exemptions, 15 known vanity mills.
+- **Corpus-learned portal detection**: any domain serving as official_website
+  for 3+ distinct organizations is auto-classified a portal (real venues belong
+  to one org). No more chasing individual domains.
+- **Vanity-mill guard**: TERAVARNA-class pay-to-enter online competitions never
+  reach action sections.
+- **Eligibility guard**: students-only, age caps below 26, Japanese-nationals-
+  only restrictions auto-detected (zh/ja/en patterns) — she is never shown a
+  call she cannot enter. (0 conflicts in current corpus; rules armed for
+  future discovery.)
+- **Per-entry escape hatch** `official_site_confirmed` for human-verified
+  organizer-owned pages on portal domains (Art Olympia case: artkoubo.jp is
+  run by the same foundation; its old standalone domains have lapsed).
+- jimdofree.com removed from blocklist (small JP galleries legitimately use
+  builder platforms; the framing-company case was wrong-org, not portal).
+
+IBM now 10/10 venue-verified, including restored Art Olympia (deadline
+2026-07-31 page-confirmed).
