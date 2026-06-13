@@ -98,6 +98,28 @@ def _urlopen(req, timeout, context=None):
         raise
 
 
+# Strict closed-call phrases (truth-pass rule 5, 2026-06-13). Phrase-level to
+# avoid false positives on venue pages that mention past events in passing.
+_CLOSED_PHRASES = (
+    "已过期", "已截止", "募集は終了", "応募受付は終了", "受付を終了しました",
+    "応募は締め切りました", "deadline has passed", "submissions are closed",
+    "entries are now closed", "call is closed", "no longer accepting",
+)
+
+
+def page_says_closed(url: str, timeout: int) -> bool:
+    """GET the page (first 200kB) and look for explicit closed-call phrases."""
+    if not url or not url.startswith(("http://", "https://")):
+        return False
+    req = urllib.request.Request(url, headers=HEADERS)
+    try:
+        with _urlopen(req, timeout) as resp:
+            body = resp.read(200_000).decode("utf-8", "ignore").lower()
+        return any(p.lower() in body for p in _CLOSED_PHRASES)
+    except Exception:
+        return False
+
+
 def check_url(url: str, timeout: int) -> tuple[str, int]:
     """Return (status, http_code). status: 'ok' | 'redirect' | 'error' | 'timeout' | 'skip'"""
     if not url or not url.startswith(("http://", "https://")):
@@ -209,6 +231,16 @@ def main():
         opp_id = _opp_id(opp)
         by_id[opp_id]["url_verification_status"]  = url_status
         by_id[opp_id]["site_http_code"]            = site_code
+
+        # Closed-call detection: only for entries that look like dated calls
+        # (a deadline exists) — evergreen venues are exempt. Page must say it
+        # explicitly (strict phrases) before we mark closed_this_cycle.
+        if url_status == "ok" and str(opp.get("deadline", "")).strip():
+            page = sub if sub_status == "ok" and sub else site
+            if page_says_closed(page, args.timeout):
+                by_id[opp_id]["status"] = "closed_this_cycle"
+                by_id[opp_id]["verification_note"] = "Page states the call is closed (auto-detected)"
+                print(f"      -> page says CLOSED — marked closed_this_cycle")
         # Only promote deadline_verified; never downgrade a previously confirmed True
         if dl_verified:
             by_id[opp_id]["deadline_verified"] = True
