@@ -111,4 +111,19 @@ PIPELINE = [
     "daily_digest_report.py",
 ]
 
-run_pipeline(PIPELINE)
+# Steps that spend API credits. The maintenance pipeline (run_maintenance_pipeline.py)
+# excludes these; the full pipeline runs them all. Measured 2026-06-13:
+# the four Tavily engines issue ~265-500 searches per full run.
+PAID_STEPS = {
+    # Tavily web search
+    "japanese_chinese_discovery_engine.py",
+    "grant_discovery_engine.py",
+    "rumor_mill_engine.py",
+    "rumor_mill_expansion_runner.py",
+    # Claude API
+    "ibm_email_writer.py",
+    "why_it_fits_engine.py",
+}
+
+if __name__ == "__main__":
+    run_pipeline(PIPELINE)

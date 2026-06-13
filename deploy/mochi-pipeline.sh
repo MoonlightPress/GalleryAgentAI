@@ -19,7 +19,13 @@ LOG="$LOG_DIR/run_$(date +%Y-%m-%d_%H%M).log"
   # Secrets: the server's existing /opt/mochi/.env (ANTHROPIC + TAVILY keys)
   set -a; source "$APP/.env"; set +a
 
-  "$REPO/venv/bin/python" run_full_mochi_pipeline.py
+  # Default: maintenance pipeline (zero API spend). Pass --full for the
+  # discovery pipeline (~265-500 Tavily searches + Claude calls).
+  if [ "${1:-}" = "--full" ]; then
+    "$REPO/venv/bin/python" run_full_mochi_pipeline.py
+  else
+    "$REPO/venv/bin/python" run_maintenance_pipeline.py
+  fi
   STATUS=$?
 
   if [ $STATUS -eq 0 ]; then
