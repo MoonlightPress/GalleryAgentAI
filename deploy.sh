@@ -10,8 +10,12 @@ SSH_KEY="$SCRIPT_DIR/Web/LightsailDefaultKey-us-east-1.pem"
 SERVER="ubuntu@18.206.62.200"
 SSH_OPTS="-i $SSH_KEY -o StrictHostKeyChecking=no"
 
-echo "==> Building React frontend"
-cd "$SCRIPT_DIR/frontend"
+# Which frontend to ship: frontend2 (v2, default) or frontend (v1 fallback).
+# Override with: MOCHI_FRONTEND=frontend bash deploy.sh
+FRONTEND_DIR="${MOCHI_FRONTEND:-frontend2}"
+
+echo "==> Building React frontend ($FRONTEND_DIR)"
+cd "$SCRIPT_DIR/$FRONTEND_DIR"
 npm install --silent
 npm run build
 cd "$SCRIPT_DIR"
@@ -21,7 +25,7 @@ rm -rf "$OUT"
 mkdir -p "$OUT/app" "$OUT/www"
 
 # React build
-cp -r "$SCRIPT_DIR/frontend/dist/." "$OUT/www/"
+cp -r "$SCRIPT_DIR/$FRONTEND_DIR/dist/." "$OUT/www/"
 
 # Python API — only the files the server actually needs at runtime
 cp "$SCRIPT_DIR/api.py"                  "$OUT/app/"
