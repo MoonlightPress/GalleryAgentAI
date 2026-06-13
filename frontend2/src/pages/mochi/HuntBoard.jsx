@@ -21,12 +21,22 @@ const FILTERS = [
   { id: 'zines',        section: 'zines_and_print',       icon: ICONS + 'icon_zines.png',         illo: 'zines_and_print.svg' },
   { id: 'galleries',    section: 'relationship_targets',  icon: ICONS + 'icon_cafe_gallery.png',  illo: 'cafes.svg' },
   { id: 'watch',        section: 'watch_list',            icon: ICONS + 'icon_research.png',      illo: 'watch_list.svg' },
+  { id: 'press',        section: '__press__',             icon: ICONS + 'icon_international.png', illo: 'immediate_best_moves.svg' },
 ]
 
 const SECTION_ORDER = [
   'immediate_best_moves', 'open_calls', 'publication_editorial',
   'competitions_awards', 'zines_and_print', 'relationship_targets', 'watch_list',
 ]
+
+// Press targets are pitch contacts (magazines/blogs), not dated opportunities —
+// v1 gave them their own section; here they get their own chip and stay out of
+// the other filters' counts.
+function isPress(o) {
+  return o.opportunity_type === 'press_target' ||
+         o.exclusive_primary_bucket === 'press_target' ||
+         o.category === 'press_target'
+}
 
 const PAGE = 12
 
@@ -42,12 +52,15 @@ export default function HuntBoard({ sections, removed, onRemove, showToast }) {
   const { liveBySection, staleAll } = useMemo(() => {
     const liveBySection = {}
     const staleAll = []
+    const press = []
     for (const key of SECTION_ORDER) {
       const items = (sections?.[key] || []).filter(o => !removed.has(o.id))
-      const { live, stale } = splitStale(items)
+      press.push(...items.filter(isPress))
+      const { live, stale } = splitStale(items.filter(o => !isPress(o)))
       liveBySection[key] = live
       staleAll.push(...stale)
     }
+    liveBySection.__press__ = press
     return { liveBySection, staleAll }
   }, [sections, removed])
 
@@ -56,7 +69,7 @@ export default function HuntBoard({ sections, removed, onRemove, showToast }) {
     for (const f of FILTERS) {
       if (!f.section) continue
       c[f.id] = (liveBySection[f.section] || []).length
-      c.all += c[f.id]
+      if (f.section !== '__press__') c.all += c[f.id]
     }
     return c
   }, [liveBySection])

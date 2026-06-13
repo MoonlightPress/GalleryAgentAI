@@ -57,6 +57,24 @@ never leaves unfinished docs/analysis/builds. Multiple parallel agents authorize
 - [x] Overnight continuation cron set (job 6acd497d, every 2h at :53, session-only)
 - [x] Final summary delivered + committed as a928cb40; overnight cron deleted (work complete)
 
+## Session 2 additions (2026-06-13 daytime — all committed)
+
+- Truth pass on top 20 (06_TRUTH_PASS.md): 8/4/8 pass/partial/fail → rules built →
+  IBM now 10/10 venue-verified. Hardened: learned-portal detection, vanity mills,
+  eligibility guards (she IS a student — student calls marked, not filtered),
+  official_site_confirmed escape hatch (Art Olympia).
+- Follow-up loop (/api/today quick_win nudge + PATCH /api/submissions/{id}).
+- Artist feedback channel: "Tell Peppercorn" in status strip → /api/issues →
+  scripts/check_attention.py → reports/NEEDS_ATTENTION.md (existence = warning).
+- Cost split: run_maintenance_pipeline.py (91 free steps) vs full (6 paid steps,
+  ~265-500 Tavily). Windows task MochiWeeklyPipeline runs maintenance Tue 09:00.
+- Handoff kit: make_ready.bat + docs/HANDOFF.md. Dormant mode; user on Arcadia.
+- Nav: single 42px bar (function titles, characters small, section links center).
+- OPEN ITEMS: (a) TABF 2027-01-21 deadline suspicious, (b) 水性繪畫展覽 yearless
+  Feb 26, (c) 金风车 06-05 extension?, (d) maintenance pipeline never executed,
+  (e) v2 press-target section parity unchecked, (f) API credits empty (drafts
+  blocked), (g) server deploy awaiting user go.
+
 ## Key facts discovered (so a fresh session doesn't re-derive)
 
 - Frontend: `frontend/src` — App.jsx routes 3 pages by state: discover (Mochi),

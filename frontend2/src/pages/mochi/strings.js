@@ -27,6 +27,7 @@ export const strings = {
     'v2.mochi.filter.zines':       'Zines & Print',
     'v2.mochi.filter.galleries':   'Galleries & Cafés',
     'v2.mochi.filter.watch':       'Watch List',
+    'v2.mochi.filter.press':       'Press & Pitch',
     'v2.mochi.view.cards':         'Cards',
     'v2.mochi.view.deadlines':     'Deadlines',
 
@@ -69,6 +70,7 @@ export const strings = {
     'v2.mochi.filter.zines':       '小志印刷',
     'v2.mochi.filter.galleries':   '画廊与咖啡馆',
     'v2.mochi.filter.watch':       '观察名单',
+    'v2.mochi.filter.press':       '媒体投稿',
     'v2.mochi.view.cards':         '卡片',
     'v2.mochi.view.deadlines':     '截止日期',
 
@@ -111,6 +113,7 @@ export const strings = {
     'v2.mochi.filter.zines':       'ジン・印刷',
     'v2.mochi.filter.galleries':   'ギャラリー・カフェ',
     'v2.mochi.filter.watch':       'ウォッチリスト',
+    'v2.mochi.filter.press':       'プレス・売り込み',
     'v2.mochi.view.cards':         'カード',
     'v2.mochi.view.deadlines':     '締め切り',
 
