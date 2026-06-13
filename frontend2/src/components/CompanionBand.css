@@ -1,5 +1,5 @@
 .cband {
-  background: linear-gradient(180deg, var(--paper), rgba(255, 250, 243, 0.92));
+  background: linear-gradient(180deg, var(--paper), rgba(255, 250, 243, 0.93));
   border-bottom: 1px solid var(--border-soft);
   position: sticky;
   top: 0;
@@ -7,20 +7,21 @@
   backdrop-filter: blur(6px);
 }
 
+/* One slim row, ~46px, same shape everywhere */
 .cband-inner {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0.4rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
-.cband-companions {
+.cband-pages {
   display: flex;
-  gap: 1.1rem;
+  gap: 0.4rem;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .cband-btn {
@@ -28,32 +29,32 @@
   border: none;
   cursor: pointer;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 0.12rem;
-  padding: 0.1rem 0.25rem;
-  opacity: 0.6;
-  transition: opacity 0.2s ease;
+  gap: 0.4rem;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  opacity: 0.62;
+  transition: opacity 0.2s ease, background 0.2s ease;
   color: var(--ink);
 }
 .cband-btn:hover { opacity: 0.92; }
-.cband-btn--active { opacity: 1; }
+.cband-btn--active {
+  opacity: 1;
+  background: var(--gold-faint);
+}
 
 .cband-roundel {
-  width: 38px;
-  height: 38px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   overflow: hidden;
   display: block;
-  border: 2px solid var(--border);
-  box-shadow: var(--shadow-sm);
-  transition: width 0.2s ease, height 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  border: 1.5px solid var(--border);
   background: var(--gold-faint);
+  flex-shrink: 0;
 }
-.cband-btn--active .cband-roundel {
-  border-color: var(--gold);
-  box-shadow: 0 0 0 2px rgba(196, 154, 62, 0.18), var(--shadow-sm);
-}
+.cband-btn--active .cband-roundel { border-color: var(--gold); }
 .cband-roundel img {
   width: 100%;
   height: 100%;
@@ -62,31 +63,19 @@
   transform: scale(1.15);
 }
 
-/* Function title — the wayfinding text (Discover / Observe / Converse) */
-.cband-title {
-  font-size: 0.82rem;
-  color: var(--ink-medium);
-  transition: font-size 0.2s ease;
-}
-.cband-btn--active .cband-title {
-  color: var(--gold-deep);
-  border-bottom: 2px solid var(--gold);
-}
+.cband-title { font-size: 0.84rem; color: var(--ink-medium); white-space: nowrap; }
+.cband-btn--active .cband-title { color: var(--gold-deep); }
 
-/* ── Condensed scroll state: one slim row ── */
-.cband--condensed .cband-inner { padding: 0.22rem 1.5rem; }
-.cband--condensed .cband-btn { flex-direction: row; gap: 0.4rem; }
-.cband--condensed .cband-roundel { width: 24px; height: 24px; border-width: 1.5px; }
-.cband--condensed .cband-title { font-size: 0.8rem; }
-
-/* Page-section links (condensed only) */
+/* Sections of the current page — always visible, center, scrollable if tight */
 .cband-sections {
   display: flex;
-  gap: 0.1rem;
+  gap: 0.05rem;
   align-items: center;
-  flex-wrap: nowrap;
+  flex: 1;
+  min-width: 0;
   overflow-x: auto;
   scrollbar-width: none;
+  justify-content: center;
 }
 .cband-sections::-webkit-scrollbar { display: none; }
 .cband-sec-link {
@@ -95,30 +84,30 @@
   color: var(--ink-muted);
   font-size: 0.78rem;
   cursor: pointer;
-  padding: 0.22rem 0.55rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 999px;
   white-space: nowrap;
   font-family: inherit;
 }
 .cband-sec-link:hover { color: var(--ink); background: var(--gold-faint); }
 
-.cband-lang { display: flex; gap: 0.15rem; align-items: center; flex-shrink: 0; }
+.cband-lang { display: flex; gap: 0.1rem; align-items: center; flex-shrink: 0; }
 .cband-lang-btn {
   background: none;
   border: none;
   color: var(--ink-muted);
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   cursor: pointer;
-  padding: 0.18rem 0.4rem;
+  padding: 0.16rem 0.38rem;
   border-radius: 999px;
 }
 .cband-lang-btn:hover { color: var(--ink); }
 .cband-lang-btn--active { color: var(--gold-deep); background: var(--gold-faint); }
 
-@media (max-width: 720px) {
-  .cband-inner { padding: 0.35rem 0.8rem; gap: 0.5rem; }
-  .cband-companions { gap: 0.5rem; }
+@media (max-width: 760px) {
+  .cband-inner { padding: 0.28rem 0.7rem; gap: 0.5rem; }
+  .cband-title { display: none; }            /* phone: roundels alone */
+  .cband-btn { padding: 0.15rem 0.3rem; }
   .cband-roundel { width: 30px; height: 30px; }
-  .cband-title { font-size: 0.74rem; }
-  .cband-sections { display: none; }
+  .cband-sections { justify-content: flex-start; }
 }

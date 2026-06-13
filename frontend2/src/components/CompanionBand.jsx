@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import './CompanionBand.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import { LANGUAGES, LANGUAGE_LABELS } from '../i18n/translations'
@@ -8,15 +7,15 @@ import mochiImg from '../assets/heroes/mochi/mochi_hero.png'
 import peppercornImg from '../assets/heroes/peppercorn/peppercorn_hero.png'
 import saffronImg from '../assets/heroes/saffron/saffron_hero.png'
 
-// Characters stay, but the FUNCTION titles do the wayfinding (user feedback):
-// Discover / Observe / Converse under each roundel; pet names live in tooltips.
+// One slim bar, always the same shape: pages left, current page's sections
+// center, language right. Characters are small inline marks; the function
+// titles (Discover / Observe / Converse) do the wayfinding.
 const COMPANIONS = [
   { key: 'mochi',      img: mochiImg,      pos: '72% 30%', titleKey: 'nav.discover' },
   { key: 'saffron',    img: saffronImg,    pos: '12% 18%', titleKey: 'nav.observe'  },
   { key: 'peppercorn', img: peppercornImg, pos: '50% 38%', titleKey: 'nav.refine'   },
 ]
 
-// In-page section anchors per page — shown in the condensed scroll nav.
 const SECTIONS = {
   mochi: [
     { id: 'focus', key: 'v2.snav.mochi.focus' },
@@ -40,36 +39,19 @@ const SECTIONS = {
 function scrollToSection(id) {
   const el = document.getElementById(id)
   if (!el) return
-  const top = el.getBoundingClientRect().top + window.scrollY - 64
+  const top = el.getBoundingClientRect().top + window.scrollY - 58
   window.scrollTo({ top, behavior: 'smooth' })
 }
 
 export default function CompanionBand({ activePage, onNav }) {
   const { t, lang, setLang } = useLanguage()
   const t2 = useLocalT(shellStrings)
-  const [condensed, setCondensed] = useState(false)
-
-  useEffect(() => {
-    let ticking = false
-    const onScroll = () => {
-      if (ticking) return
-      ticking = true
-      requestAnimationFrame(() => {
-        setCondensed(window.scrollY > 160)
-        ticking = false
-      })
-    }
-    window.addEventListener('scroll', onScroll, { passive: true })
-    onScroll()
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
-
   const sections = SECTIONS[activePage] || []
 
   return (
-    <header className={`cband${condensed ? ' cband--condensed' : ''}`}>
+    <header className="cband">
       <div className="cband-inner">
-        <div className="cband-companions" role="navigation" aria-label="Pages">
+        <nav className="cband-pages" aria-label="Pages">
           {COMPANIONS.map(c => {
             const active = activePage === c.key
             return (
@@ -87,10 +69,9 @@ export default function CompanionBand({ activePage, onNav }) {
               </button>
             )
           })}
-        </div>
+        </nav>
 
-        {/* Page sections — visible only in the condensed scroll state */}
-        {condensed && sections.length > 0 && (
+        {sections.length > 0 && (
           <nav className="cband-sections" aria-label="Page sections">
             {sections.map(s => (
               <button key={s.id} className="cband-sec-link" onClick={() => scrollToSection(s.id)}>
