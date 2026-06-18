@@ -39,7 +39,12 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- None currently recorded here.
+- **Read-only strongest-picks audit** (Codex, 2026-06-19): inspect cached/generated data only to
+  understand what Mochi currently surfaces and why. In-bounds because verification/actionability is the
+  top consolidation priority; no `frontend2/`, no retired Streamlit, no generated JSON edits, no live
+  web/Tavily checks, no paid pipeline run. Active files should remain limited to this state note unless
+  the audit produces a separately approved implementation scope. Verification is evidence from existing
+  `/api/opportunities` / `deploy_data/compact_opportunities.json` / current frontend helper behavior.
 
 ## Working together (Claude + Codex)
 
