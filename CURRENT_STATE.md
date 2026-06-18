@@ -32,6 +32,12 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Read-only strongest-picks audit** (Codex, 2026-06-19; scope commit `c1cb5cad`): inspected
+  existing `/api/opportunities`, `deploy_data/compact_opportunities.json`, and the current frontend
+  helper only. No generated JSON edits, no live web/Tavily checks, no paid pipeline run. Main finding:
+  current strongest picks mostly satisfy cached readiness signals, but backend readiness fields are
+  still needed because the frontend helper can treat contact-verified `needs_reverification` items as
+  ready and because browse breadth must label/order uncertain items rather than delete them.
 - **Mochi recommendation quality pass** (Codex, 2026-06-19): `frontend/src/utils/recommendationQuality.js`
   and `recommendationQuality.test.js` are complete. Mochi now derives internal readiness/fit signals,
   surfaces a small "strongest picks" band, sorts section cards through that quality layer, and lets
@@ -39,12 +45,7 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- **Read-only strongest-picks audit** (Codex, 2026-06-19): inspect cached/generated data only to
-  understand what Mochi currently surfaces and why. In-bounds because verification/actionability is the
-  top consolidation priority; no `frontend2/`, no retired Streamlit, no generated JSON edits, no live
-  web/Tavily checks, no paid pipeline run. Active files should remain limited to this state note unless
-  the audit produces a separately approved implementation scope. Verification is evidence from existing
-  `/api/opportunities` / `deploy_data/compact_opportunities.json` / current frontend helper behavior.
+- None currently recorded here.
 
 ## Working together (Claude + Codex)
 
