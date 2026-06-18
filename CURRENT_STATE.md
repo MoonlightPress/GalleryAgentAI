@@ -47,3 +47,9 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
   shared handshake — update it when something material changes (which frontend is current, how to run,
   what's mid-build) so neither agent re-derives stale state from scratch.
 - Don't develop the same feature in both `frontend/` and `frontend2/`. `frontend/` is the one.
+- Before making non-trivial changes, record the intended scope here if it could affect another agent's
+  work. Keep notes short but concrete: active files, why the work is in-bounds, and how it will be
+  verified. When the work finishes, move the note to Recent completed work with the commit hash.
+- Project-boundary checks should reference this file plus `AGENTS.md` / `CLAUDE.md`: current live app,
+  retired Streamlit status, the data patch rule, consolidation-over-expansion posture, and the rule
+  that `frontend2/` is a sandbox, not a second product.
