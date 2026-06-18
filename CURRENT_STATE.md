@@ -32,6 +32,13 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Read-only readiness honesty audit** (Codex, 2026-06-19; scope commit `2b522695`): audited all
+  380 cached opportunities in `deploy_data/compact_opportunities.json` with `assess_actionability`.
+  No ready-status leaks and no strongest-picks leaks were found for URL error/bad/missing,
+  closed/permanently closed, or non-relationship `deadline_past` conditions. Distribution:
+  `ready=99`, `check_before_acting=67`, `review=130`, `closed_or_stale=84`. Native-medium unknown is
+  `224/380` (`58.9%`), limiting artist-fit quality until medium tagging is improved. No generated JSON
+  edits, no live web/Tavily checks, no paid pipeline run.
 - **Backend readiness contract** (Codex, 2026-06-19; commit `50e0bfd7`): added tested backend
   `actionability_status`, `review_flags`, and `recommendation_reasons` shaping via
   `recommendation_readiness.py`; `api.py` now emits these fields and the current `frontend/` consumes
@@ -55,12 +62,7 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- **Read-only readiness honesty audit** (Codex, 2026-06-19): run `assess_actionability` across
-  cached `deploy_data/compact_opportunities.json` and check for ready/strongest-pick leaks where cached
-  status says URL error/bad/missing, closed/permanently closed, or deadline-past. Also report status
-  distribution and native-medium unknown count. Cached data only: no live web/Tavily checks, no paid
-  pipeline run, no generated JSON edits, no `frontend2/`, no retired Streamlit. If leaks are found,
-  tighten only with failing tests first.
+- None currently recorded here.
 
 ## Working together (Claude + Codex)
 
