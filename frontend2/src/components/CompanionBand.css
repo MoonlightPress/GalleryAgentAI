@@ -105,9 +105,12 @@
 .cband-lang-btn--active { color: var(--gold-deep); background: var(--gold-faint); }
 
 @media (max-width: 760px) {
-  .cband-inner { padding: 0.28rem 0.7rem; gap: 0.5rem; }
-  .cband-title { display: none; }            /* phone: roundels alone */
-  .cband-btn { padding: 0.15rem 0.3rem; }
-  .cband-roundel { width: 30px; height: 30px; }
+  .cband-inner { padding: 0.28rem 0.7rem; gap: 0.5rem; flex-wrap: wrap; }
+  .cband-pages { order: 1; }
+  .cband-sections { order: 3; flex-basis: 100%; }
+  .cband-lang { order: 2; margin-left: auto; }
+  .cband-btn { padding: 0.15rem 0.48rem; }
+  .cband-roundel { display: none; }
+  .cband-title { display: inline; font-size: 0.78rem; }
   .cband-sections { justify-content: flex-start; }
 }
