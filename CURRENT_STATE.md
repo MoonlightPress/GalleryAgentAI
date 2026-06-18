@@ -32,6 +32,10 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Photography surfacing fix** (Codex, 2026-06-19): pure photography opportunities are blocked at
+  the current app API boundary and rejected by the future bucket engine rule. This fixes cached
+  `photo_open_call` / `native_medium: photography` rows appearing in the watch list for a watercolor
+  painter. No generated JSON edits, no live web/Tavily checks, no `frontend2/`, no retired Streamlit.
 - **Read-only strongest-picks audit** (Codex, 2026-06-19; scope commit `c1cb5cad`): inspected
   existing `/api/opportunities`, `deploy_data/compact_opportunities.json`, and the current frontend
   helper only. No generated JSON edits, no live web/Tavily checks, no paid pipeline run. Main finding:

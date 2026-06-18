@@ -87,7 +87,7 @@ SECTION_CATEGORIES = {
         "fair_popup", "institutional",
         "global_open_call", "global_watercolor_open_call", "japan_watercolor_open_call",
         "japan_watercolor_institution", "zine_fair_booth", "global_art_book_fair",
-        "global_book_arts", "group_publication_open_call", "global_photobook",
+        "global_book_arts", "group_publication_open_call",
     },
     "publication_editorial": {
         "editorial_illustration", "magazine_call", "book_cover_call",
@@ -580,11 +580,19 @@ def shape_card(opp: dict) -> dict:
 
 
 def _ranked_score(item: dict) -> float:
-    """Sort key: photography yields 1 full point to painting/watercolor at equal score."""
+    """Sort key for already-eligible opportunities."""
     score = _overall_score(item)
-    if item.get("native_medium") == "photography":
-        score -= 1.0
     return score
+
+
+def _pure_photography_noise(item: dict) -> bool:
+    """Exclude pure photography calls from the watercolor artist-facing app."""
+    if item.get("native_medium") == "photography":
+        return True
+    if item.get("category") not in {"photo_open_call", "global_photobook"}:
+        return False
+    accepted = str(item.get("accepted_media") or item.get("recommended_body_of_work") or "").lower()
+    return "watercolor" not in accepted and "painting" not in accepted and "artist book" not in accepted
 
 
 def by_display_score(cards: list) -> list:
@@ -608,6 +616,7 @@ def load_opportunities() -> list:
         if x.get("exclusive_primary_bucket") not in {"reject", "low_priority"}
         and x.get("status") != "permanently_closed"
         and x.get("recommendation_visibility") != "hidden"
+        and not _pure_photography_noise(x)
         and _opp_id(x) not in suppressed
         and x.get("category") not in suppressed_cats
     ]

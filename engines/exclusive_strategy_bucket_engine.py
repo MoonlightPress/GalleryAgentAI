@@ -325,24 +325,18 @@ def choose_bucket(opp):
     if opp.get("verification_bucket") == "stretch_targets":
         return "stretch_targets"
 
-    # Photography: the artist is also a photographer (secondary medium).
-    # Pure photography noise (translation_candidate=False) → reject as before.
-    # Photography-native entries flagged as translation_candidate → research_needed
-    # so the artist can decide whether to pursue them. Never surface to immediate_best_moves.
+    # Photography: visual similarity is not professional fit for this watercolor painter.
+    # Pure photography-native opportunities are rejected instead of being routed to
+    # research_needed; artist-book/print opportunities should use non-photo categories.
     if opp.get("native_medium") == "photography":
-        if opp.get("translation_candidate"):
-            return "research_needed"
         return "reject"
 
     # Photography category gate — catches photo calls even when native_medium is
-    # missing or marked "mixed". Only reject if NOT explicitly painting-friendly
-    # AND not a translation candidate (i.e. pure photo noise).
+    # missing or marked "mixed". Only keep if explicitly painting/watercolor friendly.
     if opp.get("category") in ("photo_open_call", "global_photobook"):
         accepted = str(opp.get("accepted_media") or "").lower()
         if "watercolor" not in accepted and "painting" not in accepted:
-            if not opp.get("translation_candidate"):
-                return "reject"
-            return "research_needed"
+            return "reject"
 
     # Generic index listing pages and non-art calls: never surface to artist.
     # open_call_index = raw listing-page URLs scraped as link text, not real opportunities.
