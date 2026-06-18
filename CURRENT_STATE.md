@@ -49,7 +49,13 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- None currently recorded here.
+- **Backend readiness contract** (Codex, 2026-06-19): define tested backend fields for
+  `actionability_status`, `review_flags`, and artist-facing recommendation reasons, then make the
+  current `frontend/` consume those fields instead of treating its helper as canonical. In-bounds
+  because verification/actionability is the top consolidation priority. Active scope: backend helper,
+  `api.py` shaping, frontend consumer helper/card rendering, tests. No generated JSON edits, no live
+  web/Tavily checks, no paid pipeline run, no `frontend2/`, no retired Streamlit. Breadth guardrail:
+  label/order uncertain browse items; do not delete them.
 
 ## Working together (Claude + Codex)
 
