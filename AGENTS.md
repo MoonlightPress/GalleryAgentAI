@@ -1,6 +1,10 @@
 # AGENTS.md
 
-This file provides guidance to Codex (Codex.ai/code) when working with code in this repository.
+This file provides guidance to Codex when working with code in this repository.
+
+> **Read [`CURRENT_STATE.md`](CURRENT_STATE.md) first.** It is the single source of truth for what's
+> live *right now* — which frontend is current, how to run the app, what's mid-build. This file covers
+> the durable *why*; `CURRENT_STATE.md` covers the volatile *what*. If they disagree, `CURRENT_STATE.md` wins.
 
 ## What This Project Is
 
@@ -22,9 +26,13 @@ The `docs/` numbered files (`00_START_HERE.md` through `09_INSTRUCTIONS_FOR_CLAU
 
 ## Running the App
 
+The live app is a **React (Vite) frontend served by a FastAPI backend.** Streamlit `app.py` is the **retired** original dashboard — kept for reference only, no longer the product.
+
 ```powershell
-# Primary Streamlit dashboard (production)
-python -m streamlit run app.py
+# Current app — starts backend + frontend together, opens http://localhost:5177
+start_mochi.bat
+#   api.py     -> FastAPI backend on 127.0.0.1:8001 (python api.py)
+#   frontend/  -> Vite dev server on :5177 (npm run dev), proxies /api -> :8001
 
 # Active full pipeline (72-step, searches root + engines/ + ui/)
 python run_full_mochi_pipeline.py
@@ -34,7 +42,19 @@ python council_pipeline_agent.py
 
 # Historical artist research
 python run_historical_artist_pipeline.py
+
+# Retired Streamlit dashboard (reference only)
+python -m streamlit run app.py
 ```
+
+### Which frontend is current
+
+There are two React apps — **do not let this confuse you (this is the thing that got disorganized):**
+
+- **`frontend/` (port 5177) is the canonical, current frontend.** `start_mochi.bat` launches it. Active work lands here — most recently `40ab9737 "Port Mochi UX improvements to current frontend"`.
+- **`frontend2/` (port 5178) is the v2 UX-rework sandbox** (`start_mochi_v2.bat`). Its UX improvements were already **ported back into `frontend/`**. Treat it as an experiment that fed the canonical app, not a second product.
+
+Both apps already implement all three companion pages (Mochi / Peppercorn / Saffron). **Work in `frontend/` unless explicitly told otherwise.**
 
 **Required `.env` at project root:**
 ```
@@ -44,7 +64,7 @@ TAVILY_API_KEY=tvly-dev-...
 
 Install: `pip install -r requirements.txt`
 
-No formal test suite. Validate by running pipelines and inspecting JSON output in `memory/`.
+**Tests:** the frontend has unit tests — `cd frontend && npm test` (Node's built-in runner over `src/**/*.test.js`: `freshness`, `feedbackBehavior`, `recommendationQuality`). The Python pipeline side has no formal test suite — validate by running pipelines and inspecting JSON output in `memory/`.
 
 ## Architecture
 
@@ -95,25 +115,25 @@ See `reports/algorithm_vs_patch_audit.md` for the worked classification of recen
 ### Key Directories
 
 - `engines/` — ~60 specialized reasoning engines; many pipeline steps live here
-- `ui/` — Streamlit component modules for `app.py`
+- `ui/` — Streamlit component modules for the **retired** `app.py` (legacy)
 - `docs/bible/` — canonical project history and philosophy
 - `docs/` — onboarding sequence, README files, pipeline docs
 - `archive/dead_code/` — moved dead code (do not delete, do not modify)
 - `scripts/patches/` — one-shot migration scripts (likely already run)
 
-### Codex API Usage
+### Claude / Anthropic API Usage
 
-Agents call Codex via the Anthropic SDK. Model calls are not cached by default — adding `cache_control` to high-frequency prompts reduces cost significantly. Most agent files include `sys.stdout.reconfigure(encoding='utf-8')` due to Windows terminal encoding requirements.
+Agents call Claude via the Anthropic SDK. Model calls are not cached by default — adding `cache_control` to high-frequency prompts reduces cost significantly. Most agent files include `sys.stdout.reconfigure(encoding='utf-8')` due to Windows terminal encoding requirements.
 
 ### UI
 
-`app.py` is production. CSS theming in `styles/generated_visual_upgrade.css`. Card-based, multi-tab layout.
+The **React `frontend/`** is production, served by `api.py`. Streamlit `app.py` is retired. Each React component carries its own CSS; the legacy `styles/generated_visual_upgrade.css` applies only to the retired `app.py`.
 
 ## UI Vision
 
 **The north star for all future UI development is the Three Companions architecture.** Full specification: `docs/bible/Bible08.txt`. Reference mockups: `Content/ChatGPT Image May 24, 2026, 09_07_39 PM.png` and `09_07_43 PM.png`.
 
-**Do not build yet.** The current phase is stabilization. The vision is documented here so all future work is oriented correctly.
+**Status:** the three-companion shell is now **built** in React. `frontend/` has Mochi's page (Today's Focus + opportunity sections), `PeppercornPage.jsx`, and `SaffronPage.jsx`; `frontend2/` is the v2 rework of the same. The current phase is **stabilizing and refining** these pages, not greenfield building. The spec below remains the north star — treat it as the bar the existing pages are measured against.
 
 ### The Three Companions
 
@@ -142,7 +162,7 @@ Mochi has done the legwork while the artist was away. The pipeline has run. Oppo
 - **Palette:** Warmest of the three — cream, amber, ochre, aged paper. The existing Mochi illustration (grey tabby, desk, art supplies) is correct.
 - **Tone:** *"Mochi found three things worth your attention today."* / *"Nothing urgent. Come back tomorrow."*
 
-The current `app.py` is a working prototype of this page.
+This page is implemented in the React `frontend/` (Today's Focus + Immediate Best Moves + opportunity sections). The retired `app.py` was the original prototype.
 
 ### Peppercorn — The Mouse (Page 2: Reflection)
 
@@ -153,7 +173,7 @@ Peppercorn is a black mouse. He is where the artist's voice enters the system. W
 - **Visual style:** TBD. Do not invent palettes or illustration details. Start from the character — black mouse, small, curious, private — when the time comes to design.
 - **Tone:** *"Does this kind of opportunity feel right to you?"* / *"You skipped five gallery calls last month. Should I stop surfacing them?"*
 
-This page does not exist yet.
+This page is implemented: `frontend/src/components/PeppercornPage.jsx` (and `frontend2/src/pages/peppercorn/`). The visual-design guidance above is still the bar to refine it against — the existing styling is working, not necessarily final.
 
 ### Saffron — The Bird (Page 3: Context)
 
@@ -164,7 +184,7 @@ Saffron is a red or yellow bird. She sees patterns the artist cannot see from th
 - **Visual style:** TBD. Do not invent palettes or illustration details. Start from the character — red or yellow bird, perched high, wide view, observant — when the time comes to design.
 - **Tone:** *"From up here, here are three artists doing similar work in Tokyo right now."* / *"TOKAS has run its open call every May for the past four years."*
 
-This page does not exist yet.
+This page is implemented: `frontend/src/components/SaffronPage.jsx` (and `frontend2/src/pages/saffron/`). The visual-design guidance above is still the bar to refine it against — the existing styling is working, not necessarily final.
 
 ### The Aesthetic (All Three Pages)
 
@@ -175,7 +195,7 @@ Warm watercolor atelier overall. The CSS design tokens from `mochi_app.py` (arch
 ### What This Means for Code
 
 - The three-companion structure supersedes the six-card single-page layout described in earlier versions of this file
-- The current `app.py` becomes Mochi's page when the rebuild happens — do not conflate it with the whole system
+- Mochi's page is the React `frontend/` (Today's Focus) — do not conflate it with the whole system
 - Peppercorn is the missing feedback loop; nothing should be built that assumes the system knows the artist's preferences without it
 - Saffron is the missing market context; statistics and analytics belong there, not on Mochi's action page
 - The Mochi status bar persists across all three pages
