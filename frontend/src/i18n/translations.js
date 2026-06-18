@@ -1832,9 +1832,13 @@ const en = {
   'opps.showingCount':       'Showing {shown} of {total}',
   'opps.hiddenCount':        'Hidden from this board: {n}',
   'opps.showMoreCount':      'Show {n} more',
+  'opps.strongest.title':    'Mochi\'s strongest picks',
+  'opps.strongest.desc':     'Three ready-looking suggestions with clear fit signals. Scores stay behind the curtain.',
 
   'card.details':            'Details',
   'card.close':              'Close',
+  'card.recommendation.ready':'Why Mochi picked it:',
+  'card.recommendation.review':'Check before acting:',
   'card.feedback.follow':    'Follow',
   'card.feedback.applied':   'Applied',
   'card.feedback.maybe':     'Maybe Later',

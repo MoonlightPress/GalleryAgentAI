@@ -3,6 +3,11 @@ import OppCard from './OppCard'
 import OppDetailPanel from './OppDetailPanel'
 import './OpportunitiesSection.css'
 import { useLanguage } from '../i18n/LanguageContext'
+import {
+  feedbackSignalsFromActions,
+  rankOpportunities,
+  strongestPicks,
+} from '../utils/recommendationQuality'
 
 const SECTION_ORDER = [
   'immediate_best_moves',
@@ -37,6 +42,7 @@ function isPressTarget(opp) {
 export default function OpportunitiesSection() {
   const [data, setData]   = useState(null)
   const [error, setError] = useState(null)
+  const [feedbackActions, setFeedbackActions] = useState({})
   const { t } = useLanguage()
 
   useEffect(() => {
@@ -59,16 +65,38 @@ export default function OpportunitiesSection() {
   )
 
   const { sections, meta } = data
+  const feedbackSignals = feedbackSignalsFromActions(feedbackActions)
 
   // Collect press targets from all sections
   const pressItems = Object.values(sections)
     .flat()
     .filter(isPressTarget)
+  const actionSections = Object.fromEntries(
+    Object.entries(sections).map(([key, items]) => [
+      key,
+      (items || []).filter(o => !isPressTarget(o)),
+    ])
+  )
+  const picks = strongestPicks(actionSections, 3, feedbackSignals)
+
+  function handleFeedback(opp, action) {
+    setFeedbackActions(prev => {
+      const next = { ...prev }
+      if (!action) delete next[opp.id]
+      else next[opp.id] = { id: opp.id, category: opp.category, action }
+      return next
+    })
+  }
 
   return (
     <div className="opps-root">
+      <StrongestPicksSection
+        items={picks}
+        feedbackSignals={feedbackSignals}
+        onFeedback={handleFeedback}
+      />
       {SECTION_ORDER.map(key => {
-        const items = (sections[key] || []).filter(o => !isPressTarget(o))
+        const items = actionSections[key] || []
         const m = meta[key] || {}
         if (!items.length) return null
         return (
@@ -79,6 +107,8 @@ export default function OpportunitiesSection() {
             description={m.description || ''}
             icon={SECTION_ICONS[key] || '•'}
             items={items}
+            feedbackSignals={feedbackSignals}
+            onFeedback={handleFeedback}
           />
         )
       })}
@@ -88,6 +118,52 @@ export default function OpportunitiesSection() {
 }
 
 // ── Press & Visibility section ────────────────────────────────────────────────
+
+function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
+  const [activeId, setActiveId] = useState(null)
+  const { t } = useLanguage()
+  const visible = items.filter(o => !feedbackSignals.hiddenIds?.has(o.id))
+  const activeOpp = visible.find(o => o.id === activeId) || null
+
+  if (!visible.length) return null
+
+  function handleSuppressed(id) {
+    setActiveId(prev => prev === id ? null : prev)
+  }
+
+  return (
+    <section id="mochi_strongest_picks" className="opp-section opp-section--strongest">
+      <div className="opp-section-header">
+        <div className="opp-section-title-row">
+          <span className="opp-section-icon">✦</span>
+          <h2 className="opp-section-title">{t('opps.strongest.title')}</h2>
+          <span className="opp-section-count">{visible.length}</span>
+        </div>
+        <p className="opp-section-desc">{t('opps.strongest.desc')}</p>
+      </div>
+
+      <div className="opp-grid opp-grid--strongest">
+        {visible.map(opp => (
+          <OppCard
+            key={opp.id}
+            opp={{ ...opp, _section: opp.recommendation.sourceSection }}
+            isOpen={opp.id === activeId}
+            onDetails={() => setActiveId(prev => prev === opp.id ? null : opp.id)}
+            onSuppressed={handleSuppressed}
+            onFeedback={onFeedback}
+          />
+        ))}
+      </div>
+
+      {activeOpp && (
+        <OppDetailPanel
+          opp={activeOpp}
+          onClose={() => setActiveId(null)}
+        />
+      )}
+    </section>
+  )
+}
 
 function PressCard({ opp }) {
   const [expanded, setExpanded] = useState(false)
@@ -193,7 +269,7 @@ function PressSection({ items }) {
 
 // ── Opportunity section ───────────────────────────────────────────────────────
 
-function OppSection({ sectionKey, label, description, icon, items }) {
+function OppSection({ sectionKey, label, description, icon, items, feedbackSignals, onFeedback }) {
   const [showAll, setShowAll]       = useState(false)
   const [activeId, setActiveId]     = useState(null)
   const [suppressed, setSuppressed] = useState(new Set())
@@ -201,7 +277,8 @@ function OppSection({ sectionKey, label, description, icon, items }) {
   const sectionLabel = t(`section.${sectionKey}.label`) || label
   const sectionDesc  = t(`section.${sectionKey}.desc`)  || description
 
-  const filtered  = items.filter(o => !suppressed.has(o.id))
+  const ranked    = rankOpportunities(items, sectionKey, feedbackSignals)
+  const filtered  = ranked.filter(o => !suppressed.has(o.id) && !feedbackSignals.hiddenIds?.has(o.id))
   const visible   = showAll ? filtered : filtered.slice(0, GRID_PAGE)
   const remaining = filtered.length - GRID_PAGE
   const activeOpp = filtered.find(o => o.id === activeId) || null
@@ -248,6 +325,7 @@ function OppSection({ sectionKey, label, description, icon, items }) {
             isOpen={opp.id === activeId}
             onDetails={() => handleDetails(opp)}
             onSuppressed={handleSuppressed}
+            onFeedback={onFeedback}
           />
         ))}
       </div>

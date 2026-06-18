@@ -30,12 +30,16 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 - Frontend: `cd frontend && npm test` (Node's built-in test runner over `src/**/*.test.js`).
 - Python pipeline: no formal suite — validate by running the pipeline and inspecting `memory/` JSON.
 
+## Recent completed work
+
+- **Mochi recommendation quality pass** (Codex, 2026-06-19): `frontend/src/utils/recommendationQuality.js`
+  and `recommendationQuality.test.js` are complete. Mochi now derives internal readiness/fit signals,
+  surfaces a small "strongest picks" band, sorts section cards through that quality layer, and lets
+  feedback influence the current board without showing numeric scores to the artist.
+
 ## In flight (work not finished — don't assume it's done)
 
-- **`frontend/src/utils/recommendationQuality.test.js`** (Codex, TDD red test): imports a
-  `recommendationQuality.js` that does **not exist yet**. The test suite currently shows 1 failure
-  for this reason. The implementation still needs to be written. Until then, this file is intentionally
-  uncommitted.
+- None currently recorded here.
 
 ## Working together (Claude + Codex)
 

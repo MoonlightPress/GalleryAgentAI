@@ -93,7 +93,7 @@ async function saveFeedback(opp, action) {
   }
 }
 
-export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
+export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedback }) {
   const [feedback, setFeedback] = useState(null)
   const [toastKey, setToastKey] = useState(null)
   const { t, lang } = useLanguage()
@@ -108,6 +108,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
   async function handleFeedback(actionId) {
     const next = feedback === actionId ? null : actionId
     setFeedback(next)
+    onFeedback?.(opp, next)
     if (next) {
       await saveFeedback(opp, next)
       if (shouldRemoveAfterFeedback(next) && onSuppressed) onSuppressed(opp.id)
@@ -166,6 +167,13 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
         {/* Why it fits — the artist-specific signal, only when distinct from summary */}
         {loc('why_card') && (
           <p className="opp-card-why">{loc('why_card')}</p>
+        )}
+
+        {opp.recommendation?.reasonLine && (
+          <p className={`opp-recommendation opp-recommendation--${opp.recommendation.readiness}`}>
+            <span>{t(`card.recommendation.${opp.recommendation.readiness}`)}</span>
+            {opp.recommendation.reasonLine}
+          </p>
         )}
 
         {/* Primary action */}

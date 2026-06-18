@@ -30,6 +30,18 @@
   margin: 0 auto 52px;
 }
 
+.opp-section--strongest {
+  padding-top: 12px;
+}
+
+.opp-section--strongest .opp-section-header {
+  border-bottom-style: dashed;
+}
+
+.opp-grid--strongest {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 /* ── Section header ── */
 .opp-section-header {
   padding: 28px 0 16px;
