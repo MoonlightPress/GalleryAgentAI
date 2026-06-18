@@ -62,7 +62,11 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- None currently recorded here.
+- **Read-only verification-layer audit** (Codex, 2026-06-19): inventory verification scripts/engines,
+  map pipeline wiring and written fields, confirm non-ok URL quarantine under readiness/strongest-picks,
+  and recommend one canonical verification path. Cached data/code inspection only: no Tavily/live web,
+  no paid pipeline run, no generated JSON edits, no `frontend2/`, no retired Streamlit, no CRM/contact
+  work. If later hardening is needed, it will be a separate tests-first scope.
 
 ## Working together (Claude + Codex)
 
