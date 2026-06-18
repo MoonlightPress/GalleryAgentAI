@@ -32,6 +32,12 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Backend readiness contract** (Codex, 2026-06-19; commit `50e0bfd7`): added tested backend
+  `actionability_status`, `review_flags`, and `recommendation_reasons` shaping via
+  `recommendation_readiness.py`; `api.py` now emits these fields and the current `frontend/` consumes
+  them instead of treating browser heuristics as canonical. Browse strongest picks now keeps 6
+  candidates for curated breadth. No generated JSON edits, no live web/Tavily checks, no `frontend2/`,
+  no retired Streamlit.
 - **Photography surfacing fix** (Codex, 2026-06-19): pure photography opportunities are blocked at
   the current app API boundary and rejected by the future bucket engine rule. This fixes cached
   `photo_open_call` / `native_medium: photography` rows appearing in the watch list for a watercolor
@@ -49,13 +55,7 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- **Backend readiness contract** (Codex, 2026-06-19): define tested backend fields for
-  `actionability_status`, `review_flags`, and artist-facing recommendation reasons, then make the
-  current `frontend/` consume those fields instead of treating its helper as canonical. In-bounds
-  because verification/actionability is the top consolidation priority. Active scope: backend helper,
-  `api.py` shaping, frontend consumer helper/card rendering, tests. No generated JSON edits, no live
-  web/Tavily checks, no paid pipeline run, no `frontend2/`, no retired Streamlit. Breadth guardrail:
-  label/order uncertain browse items; do not delete them.
+- None currently recorded here.
 
 ## Working together (Claude + Codex)
 
