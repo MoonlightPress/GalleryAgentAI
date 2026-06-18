@@ -7,7 +7,7 @@ Recommended Body of Work:
 Architecture / Memory / Place
 
 Core Fit:
-Your Instagram audience already trusts your aesthetic — SUZURI turns that attention into income without requiring gallery relationships or submission cycles.
+Your Twitter audience already trusts your aesthetic — SUZURI turns that attention into income without requiring gallery relationships or submission cycles.
 
 Draft Structure:
 

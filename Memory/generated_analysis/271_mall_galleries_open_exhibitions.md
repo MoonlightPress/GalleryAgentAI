@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-06-13
 
 # Mall Galleries Open Exhibitions
 
 ## 1. Quick Judgment
-**Fit score:** 5.4/10  
-**Fit band:** Possible, but not urgent  
+**Fit score:** 5.5/10  
+**Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Other  
 **City:** City not listed  
@@ -31,7 +31,9 @@ Mall Galleries Open Exhibitions is a open exhibition source in UK for watercolor
 Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 8 January 2025 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 8 January 2025
@@ -48,5 +50,5 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_
 

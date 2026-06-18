@@ -28,7 +28,9 @@ International coffee-table print magazine for women artists — all mediums incl
 Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Submit a strong portfolio PDF and a brief project description — magazine open calls are competitive; context matters
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: June 10, 2026 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** June 10, 2026
@@ -45,4 +47,4 @@ Submit work images at womenunitedartmovement.com before June 10. $25 fee. Hardsh
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-13_

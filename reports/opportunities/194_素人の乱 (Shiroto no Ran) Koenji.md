@@ -1,20 +1,20 @@
 # 素人の乱 (Shiroto no Ran) Koenji
 
 ## 1. Quick Judgment
-**Fit score:** 9.0/10  
+**Fit score:** 8.0/10  
 **Fit band:** Excellent fit  
 **Confidence:** Medium  
 **Type:** Zine Shop Consignment  
 **City:** Koenji, Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Fees. Needs checking: Submission process, Deadline, Contact.
+Verified: Official/source website, Fees, Contact. Needs checking: Submission process, Deadline.
 
 - **Official/source website**: https://shiroto.stores.jp/ (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
 - **Deadline**: Not publicly listed (needs_inquiry)
 - **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: @shiroto_koenji (Instagram) — online shop at shiroto.stores.jp (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Zine Shop Consignment.
@@ -47,4 +47,4 @@ Visit the shop cluster in Koenji, see whether they stock zines or printed art, m
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-13_

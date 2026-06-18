@@ -28,7 +28,9 @@ Core public information appears present.
 4th Annual Juried Exhibition with publication and sales opportunities for watercolor and illustration.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026-05-05 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026-05-05
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-13_

@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-06-13
 
 # The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S
 
 ## 1. Quick Judgment
-**Fit score:** 5.2/10  
+**Fit score:** 5.4/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Photo Open Call  
@@ -50,5 +50,5 @@ Open and verify whether this is current and relevant.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_
 

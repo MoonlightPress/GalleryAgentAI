@@ -1,7 +1,7 @@
 # 5th Singapore Chinese Art Exhibition 2026
 
 ## 1. Quick Judgment
-**Fit score:** 2.4/10  
+**Fit score:** 2.8/10  
 **Fit band:** Low priority  
 **Confidence:** High  
 **Type:** Institutional / Grants  
@@ -28,7 +28,9 @@ Group exhibition for artists with potential interest in illustration and contemp
 Group exhibition for artists with potential interest in illustration and contemporary art practices in Singapore.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 28 February – 1 March 2026 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 28 February – 1 March 2026
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_

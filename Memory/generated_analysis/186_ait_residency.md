@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-13
 
 # AIT Residency
 
 ## 1. Quick Judgment
-**Fit score:** 7.6/10  
+**Fit score:** 7.7/10  
 **Fit band:** Strong fit  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
@@ -50,5 +50,5 @@ Skip unless you specifically want Tokyo contemporary art network exposure and ar
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-13_
 

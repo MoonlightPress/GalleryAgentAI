@@ -1,7 +1,7 @@
 # submissions — porkbelly press
 
 ## 1. Quick Judgment
-**Fit score:** 9.3/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Book Publishing  
@@ -25,7 +25,7 @@ Core public information appears present.
 Publishing / Small Press lead found through targeted research; useful if requirements and fit check out.
 
 ## 5. Existing Fit Notes
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
 
 ## 6. Key Points
 - Source category: Publishing / Small Press.
@@ -47,4 +47,4 @@ Review recent titles and decide whether this is a publisher, distributor, bookst
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-13_

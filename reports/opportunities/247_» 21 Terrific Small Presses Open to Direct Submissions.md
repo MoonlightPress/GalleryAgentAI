@@ -1,8 +1,8 @@
 # » 21 Terrific Small Presses Open to Direct Submissions
 
 ## 1. Quick Judgment
-**Fit score:** 4.6/10  
-**Fit band:** Possible, but not urgent  
+**Fit score:** 7.0/10  
+**Fit band:** Strong fit  
 **Confidence:** Medium  
 **Type:** Book Publishing  
 **City:** Japan / Tokyo / Online  
@@ -25,7 +25,7 @@ Verified: Official/source website, Deadline. Needs checking: Submission process,
 Publishing / Small Press lead found through targeted research; useful if requirements and fit check out.
 
 ## 5. Existing Fit Notes
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+Small presses focused on visual narrative and artist books are natural outlets for her daily watercolor practice documenting Tokyo's ephemeral urban moments—formats that can showcase sequential observation and architectural study in ways that align with her meditative approach to disappearing landscapes. Her 90k follower base and consistent output of finished works on paper provide the portfolio depth and audience these publishers often seek for limited-edition artist publications.
 
 ## 6. Key Points
 - Source category: Publishing / Small Press.
@@ -47,4 +47,4 @@ Review recent titles and decide whether this is a publisher, distributor, bookst
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-13_

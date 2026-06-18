@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-08
+REPORT GENERATED: 2026-06-13
 
 # ArtConnect Open Calls
 
 ## 1. Quick Judgment
-**Fit score:** 5.8/10  
+**Fit score:** 5.7/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Other  
@@ -31,7 +31,9 @@ ArtConnect Open Calls is a open call index source in Global for watercolor / wor
 Discovery source for watercolor / works on paper, drawing, residency, and works-on-paper opportunities. Use as a recurring research feed.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: October 26, 2025 at 11:59 p.m. MDT — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** October 26, 2025 at 11:59 p.m. MDT
@@ -48,5 +50,5 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-13_
 

@@ -1,7 +1,7 @@
 # Golden Key International Art Competition
 
 ## 1. Quick Judgment
-**Fit score:** 6.3/10  
+**Fit score:** 6.4/10  
 **Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Global Open Call  
@@ -28,7 +28,9 @@ International art competition accepting submissions from diverse artists.
 International art competition accepting submissions from diverse artists.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter
+- Based in International — confirm this matches your geographic focus before investing preparation time
+- Contact information or submission guidelines may require direct research
 
 ## 7. Submission / Logistics
 - **Deadline:** Not publicly listed
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_

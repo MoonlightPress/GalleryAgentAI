@@ -1,0 +1,50 @@
+# HATTIFNATT Koenji Cafe Gallery
+
+## 1. Quick Judgment
+**Fit score:** 10/10  
+**Fit band:** Excellent fit  
+**Confidence:** High  
+**Type:** Cafe / Local Wall Spaces  
+**City:** Tokyo — Koenji  
+
+## 2. Verification Status
+Core public information appears present.
+
+- **Official/source website**: https://www.hattifnatt.jp/ (verified)
+- **Submission process**: https://www.hattifnatt.jp/ (verified)
+- **Deadline**: No fixed deadline — proposal-based (verified)
+- **Fees**: Unknown — confirm on contact (verified)
+- **Contact**: TEL: 03-6762-8122 (verified)
+
+## 3. Why This May Fit the Artist
+- Opportunity type: Cafe / Local Wall Spaces.
+- Artist themes to compare against this venue: urban atmosphere, domestic stillness, cats, interior light, memory, quiet life.
+- Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
+
+## 4. Public Opportunity Summary
+Koenji storybook-aesthetic cafe known for artists and warm interiors — highest aesthetic alignment with GEGYjiji of any cafe in the dataset.
+
+## 5. Existing Fit Notes
+The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
+
+## 6. Key Points
+- Visit in Tokyo — Koenji, Japan to see the space and speak with the manager about upcoming exhibition slots
+- Based in Tokyo — Koenji, Japan — confirm this matches your geographic focus before investing preparation time
+- Deadline: No fixed deadline — proposal-based — confirm on the official site before submitting
+
+## 7. Submission / Logistics
+- **Deadline:** No fixed deadline — proposal-based
+- **Fees:** Unknown — confirm on contact
+- **Submission page:** https://www.hattifnatt.jp/
+- **Source:** https://www.hattifnatt.jp/
+
+## 8. Risk / Unknowns
+No hard dealbreaker recorded. Manual verification recommended.
+
+## 9. Recommended Next Step
+Phone 03-6762-8122 to ask about exhibition or wall display at the Koenji location. Visit first if possible.
+
+## 10. Inquiry Need
+If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
+
+_Last generated: 2026-06-13_

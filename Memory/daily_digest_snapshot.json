@@ -1,36 +1,34 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-13",
   "ibm_names": [
-    "Women United ART MAGAZINE Issue XIV Summer 2026",
+    "ギャラリーへ行こう2026",
+    "International Creator Residency Program 2027",
     "ZINEフェス東京 (ZINE Fest Tokyo)",
     "アートオリンピア2026",
-    "水性繪畫展覽 (Watercolor Exhibition)",
+    "Zine & Book フェス in 神保町 (Jimbocho)",
     "Tokyo Art Book Fair",
     "第113回 日本水彩展",
     "CSPWC Annual Open Water International Exhibition",
     "UTRECHT",
     "MOUNT ZINE",
-    "第九屆水主題國際評審藝術比賽",
-    "Northwest Watercolor Society 2026 Annual International Open Exhibition",
     "Book and Sons",
-    "flotsam books",
-    "B&B Shimokitazawa"
+    "B&B Shimokitazawa",
+    "flotsam books"
   ],
   "ibm_scores": {
-    "Women United ART MAGAZINE Issue XIV Summer 2026": 9.2,
+    "ギャラリーへ行こう2026": 9.1,
+    "International Creator Residency Program 2027": 7.9,
     "ZINEフェス東京 (ZINE Fest Tokyo)": 9.2,
     "アートオリンピア2026": 9.6,
-    "水性繪畫展覽 (Watercolor Exhibition)": 9.6,
+    "Zine & Book フェス in 神保町 (Jimbocho)": 5.3,
     "Tokyo Art Book Fair": 9.6,
     "第113回 日本水彩展": 9.6,
     "CSPWC Annual Open Water International Exhibition": 9.6,
     "UTRECHT": 9.2,
     "MOUNT ZINE": 9.2,
-    "第九屆水主題國際評審藝術比賽": 9.2,
-    "Northwest Watercolor Society 2026 Annual International Open Exhibition": 9.2,
     "Book and Sons": 8.8,
-    "flotsam books": 7.9,
-    "B&B Shimokitazawa": 7.5
+    "B&B Shimokitazawa": 8.3,
+    "flotsam books": 8.3
   },
-  "opportunity_count": 379
+  "opportunity_count": 380
 }

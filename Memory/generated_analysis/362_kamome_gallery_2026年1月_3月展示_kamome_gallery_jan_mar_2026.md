@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-06-13
 
 # kamome gallery 2026年1月〜3月展示 (Kamome Gallery Jan-Mar 2026)
 
 ## 1. Quick Judgment
-**Fit score:** 2.4/10  
+**Fit score:** 2.8/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Cafe / Local Wall Spaces  
@@ -31,7 +31,9 @@ Free exhibition space at Tokyo café gallery with watercolor and illustration fo
 Free exhibition space at Tokyo café gallery with watercolor and illustration focus.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Visit in Tokyo, Japan to see the space and speak with the manager about upcoming exhibition slots
+- Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time
+- Contact information or submission guidelines may require direct research
 
 ## 7. Submission / Logistics
 - **Deadline:** Not publicly listed
@@ -48,5 +50,5 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_
 

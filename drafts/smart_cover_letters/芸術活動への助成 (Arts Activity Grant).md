@@ -4,10 +4,10 @@ Tone:
 clear and professional
 
 Recommended Body of Work:
-General Portfolio
+Architecture / Memory / Place
 
 Core Fit:
-Japanese foundation grant supporting visual art exhibitions including paintings; watercolor and illustration works in exhibitions are eligible.
+芸術活動への助成 explicitly supports watercolor works in exhibitions, making it a direct match for GEGYjiji's daily practice of capturing Tokyo's disappearing urban moments through the medium. The grant's focus on visual art exhibitions provides ideal funding for her to develop and present the architectural and memory-driven work that defines her practice.
 
 Draft Structure:
 

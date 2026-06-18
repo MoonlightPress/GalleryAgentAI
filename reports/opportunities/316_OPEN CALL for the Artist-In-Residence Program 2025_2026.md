@@ -1,7 +1,7 @@
 # OPEN CALL for the Artist-In-Residence Program 2025/2026
 
 ## 1. Quick Judgment
-**Fit score:** 4.2/10  
+**Fit score:** 4.3/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Residencies / Longer Projects  
@@ -48,4 +48,4 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_

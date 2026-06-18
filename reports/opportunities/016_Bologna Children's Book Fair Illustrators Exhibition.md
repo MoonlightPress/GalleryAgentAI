@@ -28,7 +28,9 @@ Bologna Children's Book Fair Watercolor Artists Exhibition is a illustration exh
 Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: Thursday, 6 November 2025, at 23:59 (GMT+1) — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** Thursday, 6 November 2025, at 23:59 (GMT+1)
@@ -45,4 +47,4 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-13_

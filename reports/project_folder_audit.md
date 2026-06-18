@@ -25,9 +25,10 @@ This is a cleanup planning report. It does not move files.
 ### Patch scripts — 0
 
 
-### Runner scripts — 1
+### Runner scripts — 2
 
 - run_full_mochi_pipeline.py
+- run_maintenance_pipeline.py
 
 ### Engine scripts — 1
 

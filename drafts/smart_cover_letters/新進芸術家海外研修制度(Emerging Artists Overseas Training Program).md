@@ -4,7 +4,7 @@ Tone:
 restrained and confident
 
 Recommended Body of Work:
-General Portfolio
+Architecture / Memory / Place
 
 Core Fit:
 The program's focus on international research and professional development abroad directly supports her practice of documenting ephemeral urban moments and architectural details—allowing her to develop new watercolor methodologies while observing how memory and place manifest in different cities beyond Tokyo. As an early-stage artist with a daily practice rooted in specific geographies, this funding structure enables her to deepen her conceptual investigation of disappearing environments on an international scale.

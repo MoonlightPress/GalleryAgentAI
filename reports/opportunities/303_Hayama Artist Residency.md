@@ -1,7 +1,7 @@
 # Hayama Artist Residency
 
 ## 1. Quick Judgment
-**Fit score:** 4.1/10  
+**Fit score:** 5.3/10  
 **Fit band:** Possible, but not urgent  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
@@ -48,4 +48,4 @@ Confirm eligibility, duration, cost, housing, and project proposal requirements.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-13_

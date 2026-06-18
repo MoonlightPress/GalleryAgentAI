@@ -1,16 +1,16 @@
 # Portfolio Pitch — Asian Cultural Council (ACC) 2026 Grant Program
 
 ## Recommended Body of Work
-General Portfolio
+Architecture / Memory / Place
 
 ## Why This Body Fits
-A concise selection of her strongest current work.
+Quiet images of buildings, streets, interiors, fragments, and places that feel emotionally charged or half-remembered.
 
 ## Opportunity Fit
-ACC provides fellowships and cultural exchange opportunities for Asian artists to explore new cultures and develop their artistic practice internationally, supporting visual artists like watercolor illustrators.
+ACC's focus on cultural exchange and international artistic development directly supports GEGYjiji's practice of documenting ephemeral urban moments and architectural spaces across different cities, allowing her to deepen her watercolor studies while building connections between Tokyo and new cultural contexts. The fellowship structure enables sustained daily practice and exploration of how memory and place manifest differently across geographies—core themes already embedded in her work.
 
 ## Match Signals
-No strong keyword match stored yet.
+memory, place, urban
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

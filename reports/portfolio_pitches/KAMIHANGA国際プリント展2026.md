@@ -1,16 +1,16 @@
 # Portfolio Pitch — KAMIHANGA国際プリント展2026
 
 ## Recommended Body of Work
-General Portfolio
+Daily Poetic Photography
 
 ## Why This Body Fits
-A concise selection of her strongest current work.
+A quieter observational body of work built around daily life, light, domestic details, travel fragments, and subtle emotional atmosphere.
 
 ## Opportunity Fit
 International printmaking exhibition open call potentially relevant to mixed media illustration practice.
 
 ## Match Signals
-No strong keyword match stored yet.
+domestic
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

@@ -451,5 +451,9 @@
   "secondary_mediums": [
     "photography"
   ],
-  "photography_note": "Nin is also a photographer (hobby-level but skilled). Photography opportunities are relevant and should not be penalized. The photography flood concern is about search noise from other artists, not about her own practice."
+  "photography_note": "Nin is also a photographer (hobby-level but skilled). Photography opportunities are relevant and should not be penalized. The photography flood concern is about search noise from other artists, not about her own practice.",
+  "is_student": true,
+  "profile_notes": [
+    "2026-06-13: confirmed currently a student — student-only calls are ELIGIBLE and should be marked (student_call), never filtered; student fee tiers apply."
+  ]
 }

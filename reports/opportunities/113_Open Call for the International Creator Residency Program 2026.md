@@ -1,7 +1,7 @@
 # Open Call for the International Creator Residency Program 2026
 
 ## 1. Quick Judgment
-**Fit score:** 9.2/10  
+**Fit score:** 9.6/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
@@ -48,4 +48,4 @@ Confirm deadline, duration, cost, location, and whether visual artists are eligi
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-13_

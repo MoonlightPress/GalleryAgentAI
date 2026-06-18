@@ -1,7 +1,7 @@
 # Tokyo Wonder Site / TOKAS Residency
 
 ## 1. Quick Judgment
-**Fit score:** 8.8/10  
+**Fit score:** 9.6/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Residencies / Longer Projects  
@@ -12,8 +12,8 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 
 - **Official/source website**: https://www.tokyoartsandspace.jp/en/archive/residence/ (verified)
 - **Submission process**: https://www.tokyoartsandspace.jp/en/archive/residence/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
+- **Deadline**: June 16, 2026 (verified)
+- **Fees**: JPY 300,000 (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -33,8 +33,8 @@ TOKAS supports serious cultural research in Tokyo, which matches your documentat
 - Cannot be pursued currently—you would need to monitor their website for when the next open call is announced
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** June 16, 2026
+- **Fees:** JPY 300,000
 - **Submission page:** https://www.tokyoartsandspace.jp/en/archive/residence/
 - **Source:** https://www.tokyoartsandspace.jp/en/archive/residence/
 
@@ -47,4 +47,4 @@ Bookmark their residency page and check quarterly for new calls, or subscribe to
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-02_
+_Last generated: 2026-06-13_

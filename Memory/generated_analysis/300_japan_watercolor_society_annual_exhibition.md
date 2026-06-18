@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-06-13
 
 # Japan Watercolor Society Annual Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 5.4/10  
-**Fit band:** Possible, but not urgent  
+**Fit score:** 5.6/10  
+**Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Japan Watercolor Institution  
 **City:** Tokyo  
@@ -50,5 +50,5 @@ Research current membership structure, open entry process, exhibition dates, and
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_
 

@@ -1,7 +1,7 @@
 # 2026「OPEN World Exhibition」
 
 ## 1. Quick Judgment
-**Fit score:** 0.9/10  
+**Fit score:** 1.0/10  
 **Fit band:** Low priority  
 **Confidence:** Medium  
 **Type:** Institutional / Grants  
@@ -28,7 +28,9 @@ Cross-cultural artistic dialogue exhibition at Toyosu Civic Center, April 17-22,
 Cross-cultural artistic dialogue exhibition at Toyosu Civic Center, April 17-22, 2026, accepting artists from diverse backgrounds.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Contact information or submission guidelines may require direct research
 
 ## 7. Submission / Logistics
 - **Deadline:** Not publicly listed
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_

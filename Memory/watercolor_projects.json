@@ -16,29 +16,55 @@
     "first_action": "Choose 12 finished or nearly finished watercolors. Group them by place, plant life, architecture, and human trace.",
     "opportunity_targets": [
       {
-        "title": "HATTIFNATT Koenji Cafe Gallery",
-        "score": 10,
-        "hits": [
-          "gallery"
-        ],
-        "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category."
-      },
-      {
-        "title": "Mograg Gallery",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "gallery"
-        ],
-        "why": "Mograg regularly shows technically skilled work by emerging Japanese artists and painters. GEGYjiji's urban Tokyo watercolors sit naturally in this programming — same audience, same aesthetic register. Has Tokyo and Osaka venues."
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 10,
         "hits": [
           "watercolor"
         ],
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "American Illustration",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "works on paper"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "World Illustration Awards",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "works on paper"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Jackson's Art Prize",
+        "score": 10,
+        "hits": [
+          "watercolor",
+          "works on paper"
+        ],
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+      },
+      {
+        "title": "水性繪畫展覽 (Watercolor Exhibition)",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 90k Instagram following."
+      },
+      {
+        "title": "水彩アートの祭典 (Watercolor Art Festival)",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
       },
       {
         "title": "アートオリンピア2026",
@@ -56,32 +82,6 @@
           "painting"
         ],
         "why": "The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moments in urban Tokyo—a national platform that validates her daily watercolor practice and positions her within Japan's established painting tradition. As a major institutional venue in Tokyo where she's based, acceptance would significantly elevate her visibility within the Japanese art establishment during her early Tier 2 stage."
-      },
-      {
-        "title": "水性繪畫展覽 (Watercolor Exhibition)",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026."
-      },
-      {
-        "title": "桜をテーマとするイラスト・絵画作品募集",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "painting"
-        ],
-        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
-      },
-      {
-        "title": "American Illustration",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "works on paper"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       }
     ]
   },
@@ -101,31 +101,6 @@
     ],
     "first_action": "Write a 90-word statement and select 8–12 works that all show indirect human presence.",
     "opportunity_targets": [
-      {
-        "title": "アートオリンピア2026",
-        "score": 10,
-        "hits": [
-          "memory"
-        ],
-        "why": "アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offering a prominent local platform to exhibit her architectural studies and memory-driven pieces alongside other contemporary media practitioners. The open-call format removes barriers for early-stage artists while positioning her work within a professional exhibition context during a peak season for Tokyo's art calendar."
-      },
-      {
-        "title": "第113回 日本水彩展",
-        "score": 10,
-        "hits": [
-          "painting",
-          "memory"
-        ],
-        "why": "The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moments in urban Tokyo—a national platform that validates her daily watercolor practice and positions her within Japan's established painting tradition. As a major institutional venue in Tokyo where she's based, acceptance would significantly elevate her visibility within the Japanese art establishment during her early Tier 2 stage."
-      },
-      {
-        "title": "桜をテーマとするイラスト・絵画作品募集",
-        "score": 10,
-        "hits": [
-          "painting"
-        ],
-        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
-      },
       {
         "title": "American Illustration",
         "score": 10,
@@ -151,6 +126,31 @@
         "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
       },
       {
+        "title": "アートオリンピア2026",
+        "score": 10,
+        "hits": [
+          "memory"
+        ],
+        "why": "アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offering a prominent local platform to exhibit her architectural studies and memory-driven pieces alongside other contemporary media practitioners. The open-call format removes barriers for early-stage artists while positioning her work within a professional exhibition context during a peak season for Tokyo's art calendar."
+      },
+      {
+        "title": "第113回 日本水彩展",
+        "score": 10,
+        "hits": [
+          "painting",
+          "memory"
+        ],
+        "why": "The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moments in urban Tokyo—a national platform that validates her daily watercolor practice and positions her within Japan's established painting tradition. As a major institutional venue in Tokyo where she's based, acceptance would significantly elevate her visibility within the Japanese art establishment during her early Tier 2 stage."
+      },
+      {
+        "title": "桜をテーマとするイラスト・絵画作品募集",
+        "score": 10,
+        "hits": [
+          "painting"
+        ],
+        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
+      },
+      {
         "title": "Aquarelle 18 - アクワレル",
         "score": 10,
         "hits": [
@@ -159,13 +159,12 @@
         "why": "Dedicated watercolor painting open call exhibition with booth display option matching her medium and practice."
       },
       {
-        "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+        "title": "第九屆水主題國際評審藝術比賽",
         "score": 10,
         "hits": [
-          "painting",
           "memory"
         ],
-        "why": "URGENT: June 5 deadline. International, painting OK, free zine submission. 8 projects get 25-100 free printed copies with full artist ownership. Tokyo Still Life or Urban Atmosphere body ideal."
+        "why": "第九屆水主題國際評審藝術比賽's focus on water as subject matter creates a natural platform for GEGYjiji's architectural watercolors, where water often appears as reflective surface and atmospheric element in her urban Tokyo scenes. The competition's emphasis on the medium itself—watercolor as both technique and conceptual vehicle—directly validates her daily practice of capturing ephemeral light and memory through translucent washes on paper."
       }
     ]
   },
@@ -186,31 +185,52 @@
     "first_action": "Prepare a compact PDF: title, 10 images, dimensions, prices if available, and a 3-line artist note.",
     "opportunity_targets": [
       {
-        "title": "HATTIFNATT Koenji Cafe Gallery",
-        "score": 10,
-        "hits": [
-          "cafe",
-          "gallery"
-        ],
-        "why": "The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category."
-      },
-      {
-        "title": "Mograg Gallery",
-        "score": 10,
-        "hits": [
-          "cafe",
-          "gallery",
-          "watercolor"
-        ],
-        "why": "Mograg regularly shows technically skilled work by emerging Japanese artists and painters. GEGYjiji's urban Tokyo watercolors sit naturally in this programming — same audience, same aesthetic register. Has Tokyo and Osaka venues."
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 10,
         "hits": [
           "watercolor"
         ],
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
+      },
+      {
+        "title": "American Illustration",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "World Illustration Awards",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Jackson's Art Prize",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+      },
+      {
+        "title": "水性繪畫展覽 (Watercolor Exhibition)",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 90k Instagram following."
+      },
+      {
+        "title": "水彩アートの祭典 (Watercolor Art Festival)",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
       },
       {
         "title": "アートオリンピア2026",
@@ -229,31 +249,6 @@
           "painting"
         ],
         "why": "The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moments in urban Tokyo—a national platform that validates her daily watercolor practice and positions her within Japan's established painting tradition. As a major institutional venue in Tokyo where she's based, acceptance would significantly elevate her visibility within the Japanese art establishment during her early Tier 2 stage."
-      },
-      {
-        "title": "水性繪畫展覽 (Watercolor Exhibition)",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026."
-      },
-      {
-        "title": "桜をテーマとするイラスト・絵画作品募集",
-        "score": 10,
-        "hits": [
-          "watercolor",
-          "painting"
-        ],
-        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
-      },
-      {
-        "title": "American Illustration",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
       }
     ]
   },
@@ -274,15 +269,6 @@
     "first_action": "Make a 16-page PDF mockup using existing watercolor images. Do not overexplain it.",
     "opportunity_targets": [
       {
-        "title": "Mograg Gallery",
-        "score": 10,
-        "hits": [
-          "illustration",
-          "watercolor"
-        ],
-        "why": "Mograg regularly shows technically skilled work by emerging Japanese artists and painters. GEGYjiji's urban Tokyo watercolors sit naturally in this programming — same audience, same aesthetic register. Has Tokyo and Osaka venues."
-      },
-      {
         "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
         "score": 10,
         "hits": [
@@ -293,48 +279,6 @@
         "why": "Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies."
       },
       {
-        "title": "アートオリンピア2026",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offering a prominent local platform to exhibit her architectural studies and memory-driven pieces alongside other contemporary media practitioners. The open-call format removes barriers for early-stage artists while positioning her work within a professional exhibition context during a peak season for Tokyo's art calendar."
-      },
-      {
-        "title": "It's Nice That — Illustration Feature",
-        "score": 10,
-        "hits": [
-          "artist book",
-          "illustration"
-        ],
-        "why": "Biggest international platform for artists at her level. A feature here reaches the global illustration community and attracts licensing and commission inquiries."
-      },
-      {
-        "title": "第113回 日本水彩展",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moments in urban Tokyo—a national platform that validates her daily watercolor practice and positions her within Japan's established painting tradition. As a major institutional venue in Tokyo where she's based, acceptance would significantly elevate her visibility within the Japanese art establishment during her early Tier 2 stage."
-      },
-      {
-        "title": "水性繪畫展覽 (Watercolor Exhibition)",
-        "score": 10,
-        "hits": [
-          "watercolor"
-        ],
-        "why": "Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026."
-      },
-      {
-        "title": "桜をテーマとするイラスト・絵画作品募集",
-        "score": 10,
-        "hits": [
-          "illustration",
-          "watercolor"
-        ],
-        "why": "Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice."
-      },
-      {
         "title": "American Illustration",
         "score": 10,
         "hits": [
@@ -343,6 +287,57 @@
           "watercolor"
         ],
         "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "World Illustration Awards",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "illustration",
+          "watercolor"
+        ],
+        "why": "Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation."
+      },
+      {
+        "title": "Jackson's Art Prize",
+        "score": 10,
+        "hits": [
+          "artist book",
+          "watercolor"
+        ],
+        "why": "Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit."
+      },
+      {
+        "title": "水性繪畫展覽 (Watercolor Exhibition)",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 90k Instagram following."
+      },
+      {
+        "title": "水彩アートの祭典 (Watercolor Art Festival)",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice."
+      },
+      {
+        "title": "アートオリンピア2026",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offering a prominent local platform to exhibit her architectural studies and memory-driven pieces alongside other contemporary media practitioners. The open-call format removes barriers for early-stage artists while positioning her work within a professional exhibition context during a peak season for Tokyo's art calendar."
+      },
+      {
+        "title": "第113回 日本水彩展",
+        "score": 10,
+        "hits": [
+          "watercolor"
+        ],
+        "why": "The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moments in urban Tokyo—a national platform that validates her daily watercolor practice and positions her within Japan's established painting tradition. As a major institutional venue in Tokyo where she's based, acceptance would significantly elevate her visibility within the Japanese art establishment during her early Tier 2 stage."
       }
     ]
   }

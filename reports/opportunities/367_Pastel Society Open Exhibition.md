@@ -28,7 +28,9 @@ Pastel Society Open Exhibition is a works on paper open exhibition source in UK 
 Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2025-11-14 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2025-11-14
@@ -45,4 +47,4 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_

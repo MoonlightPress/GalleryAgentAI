@@ -2,11 +2,11 @@
 
 Today's strategic tasks:
 
-- Research BOOOOOOOM 2026 Art & Photo Book Award submission process.
-- Research Women United ART MAGAZINE Issue XIV Summer 2026 submission process.
-- Research Platform China BIAP Artist Residency submission process.
-- Research American Watercolor Society Annual International Exhibition submission process.
-- Research American Illustration submission process.
-- Compare 2026 3rd Annual Illustration Summit Challenge (IlloBoom!) to similar institutions.
-- Compare OPA Gallery to similar institutions.
-- Compare Northwest Watercolor Society 2026 Annual International Open Exhibition to similar institutions.
+- Research Cité Internationale des Arts Artist Residency submission process.
+- Research Center for Book Arts Opportunities submission process.
+- Research 2026 Chinese New Year Celebration Art Show submission process.
+- Research 臺南市美術館 2026「TAM+展覽計畫」 submission process.
+- Research 水性繪畫展覽 (Watercolor Exhibition) submission process.
+- Compare Printed Matter Art Book Fairs to similar institutions.
+- Compare 3x3 International Illustration Awards to similar institutions.
+- Compare Bologna Children's Book Fair Illustrators Exhibition to similar institutions.

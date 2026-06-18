@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-06-13
 
 # 2026年度 第2期 地域芸術文化活動応援助成 (2026 Period 2 Local Arts and Culture Activity Support Grant)
 
 ## 1. Quick Judgment
-**Fit score:** 6.5/10  
+**Fit score:** 6.8/10  
 **Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Grant  
@@ -31,7 +31,9 @@ Supports visual arts and creative activities in Tokyo; open to individual artist
 Supports visual arts and creative activities in Tokyo; open to individual artists and organizations.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Contact information or submission guidelines may require direct research
 
 ## 7. Submission / Logistics
 - **Deadline:** Not publicly listed
@@ -48,5 +50,5 @@ Verify eligibility and current cycle at the official website before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_
 

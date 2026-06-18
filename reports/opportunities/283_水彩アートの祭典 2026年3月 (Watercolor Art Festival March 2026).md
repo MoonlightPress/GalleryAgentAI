@@ -1,7 +1,7 @@
 # 水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)
 
 ## 1. Quick Judgment
-**Fit score:** 5.9/10  
+**Fit score:** 6.2/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Japan Watercolor Open Call  
@@ -28,7 +28,9 @@ Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size li
 Watercolor-only exhibition at Tokyo Art Theatre (池袋) with 4号以内 size limit, matching her urban watercolor style.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026年1月31日 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026年1月31日
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-13_

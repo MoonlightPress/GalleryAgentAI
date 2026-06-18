@@ -28,7 +28,9 @@ Royal Institute of Watercolor Artists in Water Colours is a watercolor open exhi
 Native watercolor context. Strong medium fit if requirements and dates are current.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026-01-23 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026-01-23
@@ -45,4 +47,4 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_

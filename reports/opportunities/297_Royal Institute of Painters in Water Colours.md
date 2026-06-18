@@ -1,8 +1,8 @@
 # Royal Institute of Painters in Water Colours
 
 ## 1. Quick Judgment
-**Fit score:** 1.9/10  
-**Fit band:** Low priority  
+**Fit score:** 4.8/10  
+**Fit band:** Possible, but not urgent  
 **Confidence:** Medium  
 **Type:** Other  
 **City:** City not listed  
@@ -22,13 +22,15 @@ Verified: Official/source website, Deadline. Needs checking: Submission process,
 - Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Royal Institute of Watercolor Artists in Water Colours is a watercolor open exhibition source in UK for watercolor / works on paper research.
+Royal Institute of Painters in Water Colours is a watercolor open exhibition source in UK for watercolor / works on paper research.
 
 ## 5. Existing Fit Notes
 Native watercolor context. Strong medium fit if requirements and dates are current.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026-01-23 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026-01-23
@@ -45,4 +47,4 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-13_

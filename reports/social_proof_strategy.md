@@ -68,6 +68,48 @@ These opportunities may create disproportionate reputation value.
 - Why: Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## UTRECHT
+
+- Prestige: None
+- Why: UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## Women United ART MAGAZINE Issue XIV Summer 2026
+
+- Prestige: None
+- Why: Women-only international publication, watercolor accepted, June 10 deadline. $25 for a print magazine credit. GEGYjiji qualifies.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## SUBMISSIONS - marblepress.com
+
+- Prestige: None
+- Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## B&B Shimokitazawa
+
+- Prestige: None
+- Why: Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## flotsam books
+
+- Prestige: None
+- Why: Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## 美術手帖 (Bijutsu Techo) — Artist Feature
+
+- Prestige: None
+- Why: Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## ZINEフェス東京 (ZINE Fest Tokyo)
+
+- Prestige: None
+- Why: Recurring Tokyo zine fair with very accessible fees and rolling applications. Next Tokyo event July 11 2026 — deadline approximately June 27 (10 days away). Multiple dates throughout the year.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## Still Life - 2026
 
 - Prestige: None
@@ -108,46 +150,4 @@ These opportunities may create disproportionate reputation value.
 
 - Prestige: None
 - Why: 本店・本屋の実験室's focus on experimental printed work and zine culture aligns naturally with GEGYjiji's daily watercolor practice—her quiet observations of Tokyo's disappearing urban moments translate directly into the intimate, serialized format that zine platforms demand. The Koenji location also positions her work within a neighborhood known for independent creative communities, where architectural and memory-based work on paper resonates with local curatorial values.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 水性繪畫展覽 (Watercolor Exhibition)
-
-- Prestige: None
-- Why: A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 90k Instagram following.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 水彩アートの祭典 (Watercolor Art Festival)
-
-- Prestige: None
-- Why: Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## アートオリンピア2026
-
-- Prestige: None
-- Why: アートオリンピア2026's May exhibition window aligns perfectly with GEGYjiji's daily watercolor practice and Tokyo-based urban observation work, offering a prominent local platform to exhibit her architectural studies and memory-driven pieces alongside other contemporary media practitioners. The open-call format removes barriers for early-stage artists while positioning her work within a professional exhibition context during a peak season for Tokyo's art calendar.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 第113回 日本水彩展
-
-- Prestige: None
-- Why: The 113th Japan Watercolor Exhibition directly aligns with GEGYjiji's core medium and thematic focus on capturing quiet architectural moments in urban Tokyo—a national platform that validates her daily watercolor practice and positions her within Japan's established painting tradition. As a major institutional venue in Tokyo where she's based, acceptance would significantly elevate her visibility within the Japanese art establishment during her early Tier 2 stage.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## START Box ササハタハツ・START Box 白鬚 2026年度利用者募集
-
-- Prestige: None
-- Why: Offers studio and practice space for emerging artists in Tokyo, suitable for a watercolor/illustration artist seeking dedicated workspace.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 桜をテーマとするイラスト・絵画作品募集
-
-- Prestige: None
-- Why: Illustration and painting open call with cherry blossom theme, matching her illustration and observation-based practice.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## CSPWC Annual Open Water International Exhibition
-
-- Prestige: None
-- Why: International transparent watercolour exhibition with confirmed June 30 deadline — 29 days away. Strict medium match. Submit via ArtCall. Acceptance notification July 8.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

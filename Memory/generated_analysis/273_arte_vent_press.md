@@ -1,10 +1,10 @@
 
-REPORT GENERATED: 2026-06-08
+REPORT GENERATED: 2026-06-13
 
 # ARTE VENT Press
 
 ## 1. Quick Judgment
-**Fit score:** 5.9/10  
+**Fit score:** 6.2/10  
 **Fit band:** Promising  
 **Confidence:** Medium  
 **Type:** Book Publishing  
@@ -51,5 +51,5 @@ Decide whether this is a real target, benchmark, directory, or self-publishing s
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-13_
 

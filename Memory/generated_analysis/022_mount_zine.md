@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-13
 
 # MOUNT ZINE
 
@@ -17,7 +17,7 @@ Core public information appears present.
 - **Submission process**: https://zine.mount.co.jp/ (verified)
 - **Deadline**: Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window (verified)
 - **Fees**: No fee (verified)
-- **Contact**: https://mount.co.jp/contact/ (verified)
+- **Contact**: @mountzine (Instagram/Twitter) — contact form at mount.co.jp/contact/ (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Zine Shop Consignment.
@@ -50,5 +50,5 @@ Watch @mountzine on Twitter/X and Instagram for autumn 2026 submission recruitme
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-13_
 

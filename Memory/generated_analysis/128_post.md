@@ -1,23 +1,23 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-13
 
 # POST
 
 ## 1. Quick Judgment
-**Fit score:** 9.4/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Print / Zines / Bookstores  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
-- **Official/source website**: https://post-books.info/ (verified)
+- **Official/source website**: http://post-books.info/ (verified)
 - **Submission process**: https://post-books.info/ (verified)
 - **Deadline**: Not publicly listed (verified)
 - **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Contact**: Visit post-books.info for contact (note: SSL issue, use http://post-books.info/) (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Print / Zines / Bookstores.
@@ -39,7 +39,7 @@ Bookshop galleries attract culturally-engaged viewers who appreciate documentati
 - **Deadline:** Not publicly listed
 - **Fees:** Not publicly listed
 - **Submission page:** https://post-books.info/
-- **Source:** https://post-books.info/
+- **Source:** http://post-books.info/
 
 ## 8. Risk / Unknowns
 No hard dealbreaker recorded. Manual verification recommended.
@@ -50,5 +50,5 @@ Visit website to study recent exhibitions and identify contact person; prepare 3
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-13_
 

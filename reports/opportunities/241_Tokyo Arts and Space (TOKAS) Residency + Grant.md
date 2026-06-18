@@ -1,7 +1,7 @@
 # Tokyo Arts and Space (TOKAS) Residency + Grant
 
 ## 1. Quick Judgment
-**Fit score:** 6.3/10  
+**Fit score:** 6.6/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Grant  
@@ -28,7 +28,9 @@ Tokyo Metropolitan arts residency with stipend. Studio space + ¥100k–500k gra
 Tokyo-based artist — strong eligibility. TOKAS residency on CV is a significant credibility marker for Tier 3 advancement.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: Check tokyoartsandspace.jp — typically annual open call — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** Check tokyoartsandspace.jp — typically annual open call
@@ -45,4 +47,4 @@ Check tokyoartsandspace.jp for current open call. Requires project proposal + po
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-13_

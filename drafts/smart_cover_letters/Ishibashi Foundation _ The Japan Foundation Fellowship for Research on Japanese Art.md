@@ -4,10 +4,10 @@ Tone:
 clear and professional
 
 Recommended Body of Work:
-General Portfolio
+Daily Poetic Photography
 
 Core Fit:
-Japan Foundation fellowship supporting visual arts professionals; relevant for Tokyo-based artist studying Japanese art traditions.
+The Japan Foundation Fellowship directly supports visual artists deepening their engagement with Japanese aesthetic traditions—a natural fit for GEGYjiji's watercolor practice rooted in Tokyo's urban landscapes and her study of quietness and impermanence. Her daily observational work capturing disappearing architectural moments aligns with the fellowship's emphasis on contemporary practice informed by Japanese art heritage.
 
 Draft Structure:
 

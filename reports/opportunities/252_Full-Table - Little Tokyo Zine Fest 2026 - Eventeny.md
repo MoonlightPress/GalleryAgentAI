@@ -1,7 +1,7 @@
 # Full-Table - Little Tokyo Zine Fest 2026 - Eventeny
 
 ## 1. Quick Judgment
-**Fit score:** 6.5/10  
+**Fit score:** 6.6/10  
 **Fit band:** Promising  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
@@ -48,4 +48,4 @@ Check application window, booth/table fee, required images, and whether a finish
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_

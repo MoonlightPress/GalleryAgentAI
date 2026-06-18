@@ -23,14 +23,11 @@
     "Automatically created from opportunity data.",
     "Needs manual/web research before being treated as verified."
   ],
-  "missing_information": [
-    "contact",
-    "fees"
-  ],
+  "missing_information": [],
   "opportunity_titles": [
     "International Illustration 2026"
   ],
   "last_researched": "",
-  "created_at": "2026-06-09",
-  "updated_at": "2026-06-09"
+  "created_at": "2026-06-13",
+  "updated_at": "2026-06-13"
 }

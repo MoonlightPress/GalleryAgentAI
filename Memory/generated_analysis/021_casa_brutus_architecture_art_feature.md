@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-08
+REPORT GENERATED: 2026-06-13
 
 # Casa Brutus — Architecture/Art Feature
 
@@ -31,7 +31,9 @@ Japanese architecture/design/lifestyle magazine. Artist features when work inter
 Urban watercolor documenting Tokyo architecture is an exact fit for Casa Brutus's editorial coverage of space and design.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Contact information or submission guidelines may require direct research
 
 ## 7. Submission / Logistics
 - **Deadline:** ongoing
@@ -48,5 +50,5 @@ Email or DM @casabrutus. Position work as architectural documentation, not just 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-13_
 

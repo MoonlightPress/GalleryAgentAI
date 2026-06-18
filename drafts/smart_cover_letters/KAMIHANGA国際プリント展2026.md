@@ -4,7 +4,7 @@ Tone:
 restrained and confident
 
 Recommended Body of Work:
-General Portfolio
+Daily Poetic Photography
 
 Core Fit:
 International printmaking exhibition open call potentially relevant to mixed media illustration practice.

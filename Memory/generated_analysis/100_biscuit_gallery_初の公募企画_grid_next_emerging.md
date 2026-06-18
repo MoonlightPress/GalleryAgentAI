@@ -1,23 +1,23 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-13
 
 # 【biscuit gallery】初の公募企画「grid next : Emerging ...
 
 ## 1. Quick Judgment
-**Fit score:** 9.4/10  
+**Fit score:** 10/10  
 **Fit band:** Excellent fit  
-**Confidence:** Medium  
+**Confidence:** High  
 **Type:** Galleries / Exhibition Calls  
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process. Needs checking: Deadline, Fees, Contact.
+Core public information appears present.
 
 - **Official/source website**: //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f (verified)
-- **Submission process**: //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f (verified)
-- **Deadline**: Not publicly listed (needs_inquiry)
-- **Fees**: Not publicly listed (needs_inquiry)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Submission process**: https://biscuitgallery.com/grid-next-news/ (verified)
+- **Deadline**: 2026-04-30 (verified)
+- **Fees**: Free (verified)
+- **Contact**: info@biscuitgallery.com (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Galleries / Exhibition Calls.
@@ -37,9 +37,9 @@ Verified: Official/source website, Submission process. Needs checking: Deadline,
 - Risk: Only one source found so far.
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
-- **Submission page:** //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f
+- **Deadline:** 2026-04-30
+- **Fees:** Free
+- **Submission page:** https://biscuitgallery.com/grid-next-news/
 - **Source:** //duckduckgo.com/l/?uddg=https%3A%2F%2Fbiscuitgallery.com%2Fgrid%2Dnext%2Dnews%2F&rut=88239b9cdad71ffab5a2513494e26a06fd7f4ba4236161896aaa6374e2c29b8f
 
 ## 8. Risk / Unknowns
@@ -51,5 +51,5 @@ Review current/past artists and check whether submissions, contact email, or ope
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-13_
 

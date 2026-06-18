@@ -1,22 +1,22 @@
 
-REPORT GENERATED: 2026-06-07
+REPORT GENERATED: 2026-06-13
 
 # Royal Watercolour Society Open Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 5.2/10  
-**Fit band:** Possible, but not urgent  
-**Confidence:** Medium  
+**Fit score:** 6.2/10  
+**Fit band:** Promising  
+**Confidence:** High  
 **Type:** Global Watercolor Open Call  
 **City:** London  
 
 ## 2. Verification Status
-Verified: Official/source website, Deadline. Needs checking: Submission process, Fees, Contact.
+Verified: Official/source website, Deadline, Fees. Needs checking: Submission process, Contact.
 
 - **Official/source website**: https://royalwatercoloursociety.co.uk/ (verified)
 - **Submission process**: Not publicly listed (needs_inquiry)
 - **Deadline**: 2025-12-01 (verified)
-- **Fees**: Not publicly listed (needs_inquiry)
+- **Fees**: From £5 (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
 ## 3. Why This May Fit the Artist
@@ -37,7 +37,7 @@ Direct medium match — the RWS open exhibition is the most prestigious internat
 
 ## 7. Submission / Logistics
 - **Deadline:** 2025-12-01
-- **Fees:** Not publicly listed
+- **Fees:** From £5
 - **Submission page:** Not publicly listed
 - **Source:** https://royalwatercoloursociety.co.uk/
 
@@ -50,5 +50,5 @@ Research current open call dates, submission fees, accepted formats, and previou
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-07_
+_Last generated: 2026-06-13_
 

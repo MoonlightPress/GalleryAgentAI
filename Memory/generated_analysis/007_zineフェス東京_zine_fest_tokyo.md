@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-06-13
 
 # ZINEフェス東京 (ZINE Fest Tokyo)
 
@@ -15,7 +15,7 @@ Core public information appears present.
 
 - **Official/source website**: https://note.com/bookcultureclub/n/n053a24287fc2 (verified)
 - **Submission process**: https://note.com/bookcultureclub/n/n053a24287fc2 (verified)
-- **Deadline**: 2026-06-27 (verified)
+- **Deadline**: 2026-06-20 (verified)
 - **Fees**: ¥5,200 (1 person, with promotion) / ¥6,200 (1 person, no promotion) (verified)
 - **Contact**: bookcultureclub81@gmail.com (verified)
 
@@ -36,7 +36,7 @@ Recurring Tokyo zine fair with very accessible fees and rolling applications. Ne
 - Also: September 26 2026 Tokyo date. Multiple events throughout 2026.
 
 ## 7. Submission / Logistics
-- **Deadline:** 2026-06-27
+- **Deadline:** 2026-06-20
 - **Fees:** ¥5,200 (1 person, with promotion) / ¥6,200 (1 person, no promotion)
 - **Submission page:** https://note.com/bookcultureclub/n/n053a24287fc2
 - **Source:** https://note.com/bookcultureclub/n/n053a24287fc2
@@ -50,5 +50,5 @@ Check note.com/bookcultureclub for the July 11 2026 Tokyo event application page
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-13_
 

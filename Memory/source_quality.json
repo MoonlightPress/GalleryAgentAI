@@ -1,0 +1,52 @@
+{
+  "_doc": "Source-quality knowledge base (truth pass 2026-06-13). Read by exclusive_strategy_bucket_engine. aggregator_domains: listing portals — many organizers' calls on ONE site's own pages; never a venue. platform_hosts: site-builders/hosts where each subdomain or account IS one organizer's own site — never penalized. vanity_mills: pay-to-enter online-gallery competition factories with negligible career value for a Tier 1-2 artist.",
+  "aggregator_domains": [
+    "bhuntr.com",
+    "graphiccompetitions.com",
+    "shejijingsai.com",
+    "artkoubo.jp",
+    "twitter.com",
+    "x.com",
+    "instagram.com",
+    "facebook.com",
+    "compe.japandesign.ne.jp",
+    "koubo.co.jp",
+    "artcalendar.jp",
+    "callforentries.com",
+    "artworkarchive.com/call-for-entry",
+    "artdeadline.com",
+    "transartists.org",
+    "resartis.org"
+  ],
+  "platform_hosts": [
+    "note.com",
+    "artcall.org",
+    "jimdofree.com",
+    "jimdosite.com",
+    "wixsite.com",
+    "stores.jp",
+    "thebase.in",
+    "studio.site",
+    "peatix.com",
+    "squarespace.com",
+    "cargo.site",
+    "tumblr.com"
+  ],
+  "vanity_mills": [
+    "teravarna",
+    "light space & time",
+    "lightspacetime",
+    "artavita",
+    "boynes",
+    "artshow international",
+    "artsy shark",
+    "circle foundation for the arts",
+    "luxembourg art prize",
+    "artbox.project",
+    "ten moir gallery",
+    "grey cube gallery",
+    "art room gallery online",
+    "fusion art",
+    "camelback gallery"
+  ]
+}

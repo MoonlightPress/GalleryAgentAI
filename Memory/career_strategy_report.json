@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-06-09T15:31:52.298338+00:00",
+  "_generated_at": "2026-06-13T01:58:50.432250+00:00",
   "_engine_version": "2.0",
   "current_phase": "Tier 1-2 foundation building",
   "phase_note": "Age 26, planning a deep-work year around 30. The next 3–4 years are for accumulation: exhibition history, publishing relationships, peer network, and body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now, not acted on until the foundation is solid.",
@@ -18,6 +18,26 @@
   },
   "immediate_priorities": [
     {
+      "title": "UTRECHT",
+      "tier": 1,
+      "score": 9.4,
+      "category": "bookstore_gallery",
+      "city": "Tokyo",
+      "deadline": "1 July 2025",
+      "summary": "Tokyo independent art bookstore with gallery space focused on zines and artist books—low-pressure venue where your work could exist as printed matter alongside exhibition.",
+      "website": "https://utrecht.jp/"
+    },
+    {
+      "title": "Route Books",
+      "tier": 1,
+      "score": 9.4,
+      "category": "bookstore_gallery",
+      "city": "Tokyo — Ueno / Taito",
+      "deadline": "ongoing — check rental availability",
+      "summary": "Ueno bookshop-cafe with a confirmed rental gallery wall — accessible East Tokyo arts venue in the cultural district near Ueno Park.",
+      "website": "https://route-books.com/"
+    },
+    {
       "title": "HATTIFNATT Koenji Cafe Gallery",
       "tier": 1,
       "score": 9.4,
@@ -28,47 +48,37 @@
       "website": "https://www.hattifnatt.jp/"
     },
     {
-      "title": "UTRECHT",
+      "title": "Mograg Gallery",
       "tier": 1,
-      "score": 9.2,
-      "category": "bookstore_gallery",
-      "city": "Tokyo",
-      "deadline": "1 July 2025",
-      "summary": "Tokyo independent art bookstore with gallery space focused on zines and artist books—low-pressure venue where your work could exist as printed matter alongside exhibition.",
-      "website": "https://utrecht.jp/"
+      "score": 9.4,
+      "category": "cafe_gallery",
+      "city": "Tokyo — Hatagaya (Shibuya area)",
+      "deadline": "ongoing — proposal-based",
+      "summary": "Active Tokyo illustration and contemporary art gallery with strong emerging artist community — confirmed programming as of June 2026.",
+      "website": "https://mograg.com/"
     },
     {
-      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
+      "title": "Gallery EF Asakusa",
       "tier": 1,
-      "score": 9.2,
-      "category": "zine_fair_booth",
-      "city": "Tokyo",
-      "deadline": "2026-06-27",
-      "summary": "Monthly Tokyo zine fair organized by BOOK CULTURE CLUB — 90cm half-table booth, ¥5,200-6,200 fee, applications close 2 weeks before each event. Next Tokyo date: July 11 2026.",
-      "website": "https://note.com/bookcultureclub/n/n053a24287fc2"
-    },
-    {
-      "title": "MOUNT ZINE",
-      "tier": 1,
-      "score": 9.2,
-      "category": "zine_shop_consignment",
-      "city": "Tokyo",
-      "deadline": "Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window",
-      "summary": "Tokyo zine shop near Komazawa University that accepts zine submissions twice yearly (spring and autumn) with no fees and no screening — good Tier 1 ambient visibility target for artist-book and print ",
-      "website": "https://zine.mount.co.jp/"
-    },
-    {
-      "title": "Route Books",
-      "tier": 1,
-      "score": 9.2,
-      "category": "bookstore_gallery",
-      "city": "Tokyo — Ueno / Taito",
-      "deadline": "ongoing — check rental availability",
-      "summary": "Ueno bookshop-cafe with a confirmed rental gallery wall — accessible East Tokyo arts venue in the cultural district near Ueno Park.",
-      "website": "https://route-books.com/"
+      "score": 9.4,
+      "category": "cafe_gallery",
+      "city": "Tokyo — Asakusa, Taito",
+      "deadline": "ongoing — proposal-based",
+      "summary": "Long-established Asakusa gallery in a 100-year-old machiya basement — intimate, community-centered space with a tradition of supporting emerging artists.",
+      "website": "http://www.gallery-ef.com/"
     }
   ],
   "build_toward": [
+    {
+      "title": "本店・本屋の実験室",
+      "tier": 3,
+      "score": 9.4,
+      "category": "zine_print",
+      "city": "Koenji, Tokyo",
+      "deadline": "August 31, 2026",
+      "summary": "Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.",
+      "website": "https://honnonagaya-honten.com/"
+    },
     {
       "title": "Center for Book Arts Opportunities",
       "tier": 3,
@@ -80,24 +90,14 @@
       "website": "https://centerforbookarts.org/"
     },
     {
-      "title": "Aesthetica Art Prize",
+      "title": "FY2026 Life with Art Grant",
       "tier": 3,
       "score": 9.4,
-      "category": "global_open_call",
-      "city": "York / Online",
-      "deadline": "2026-10-11",
-      "summary": "Annual international art prize open to all media — watercolor / works on paper, works on paper, digital, and more — with strong emerging artist track record.",
-      "website": "https://aestheticamagazine.com/art-prize/"
-    },
-    {
-      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-      "tier": 3,
-      "score": 9.4,
-      "category": "group_publication_open_call",
-      "city": "International",
-      "deadline": "June 10, 2026",
-      "summary": "International coffee-table print magazine for women artists — all mediums including watercolor, deadline June 10, $25 fee.",
-      "website": "https://www.womenunitedartmovement.com/"
+      "category": "grant",
+      "city": "Tokyo",
+      "deadline": "14:00 on Monday, June 29, 2026",
+      "summary": "Tokyo-based grant supporting projects that integrate contemporary art into everyday life, aligning with her urban observation and architecture focus.",
+      "website": "https://www.artscouncil-tokyo.jp/en/grants"
     }
   ],
   "watch_list": [
@@ -112,19 +112,9 @@
       "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
     },
     {
-      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-      "tier": 4,
-      "score": 9.2,
-      "category": "global_watercolor_open_call",
-      "city": "Online / Seattle",
-      "deadline": "July 8, 2026 — 11:59 PM Pacific",
-      "summary": "Prestigious annual international watercolor exhibition open to all artists worldwide, $15,000+ in awards, juror Dongfeng Li (Chinese-American watercolor watercolor artist). Deadline July 8 2026.",
-      "website": "https://www.nwws.org/"
-    },
-    {
       "title": "Cité Internationale des Arts Artist Residency",
       "tier": 4,
-      "score": 8.7,
+      "score": 9.4,
       "category": "global_residency",
       "city": "Paris",
       "deadline": "October 31, 2025",
@@ -134,7 +124,7 @@
     {
       "title": "「国際創作者駐村計畫」",
       "tier": 4,
-      "score": 8.4,
+      "score": 9.4,
       "category": "global_residency",
       "city": "Tokyo",
       "deadline": "2024-12-29 or 2025-09-30 or 2025-06-30 or 2026-04-30 (multiple programs with different deadlines)",
@@ -142,9 +132,19 @@
       "website": "https://artres.moc.gov.tw/zh/calls/content/ff80818196c95f3b0196e675e523000f"
     },
     {
+      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
+      "tier": 4,
+      "score": 9.4,
+      "category": "global_watercolor_open_call",
+      "city": "Online / Seattle",
+      "deadline": "July 8, 2026 — 11:59 PM Pacific",
+      "summary": "Prestigious annual international watercolor exhibition open to all artists worldwide, $15,000+ in awards, juror Dongfeng Li (Chinese-American watercolor watercolor artist). Deadline July 8 2026.",
+      "website": "https://www.nwws.org/"
+    },
+    {
       "title": "INSTINC 2026/2027 Artist-in-Residence Program",
       "tier": 4,
-      "score": 5.8,
+      "score": 7.85,
       "category": "global_residency",
       "city": "Singapore",
       "deadline": "Deadline extended for 2026 and 2027",
@@ -152,14 +152,14 @@
       "website": "https://sagg.info/event/opencall-2026-and-2027"
     },
     {
-      "title": "Royal Watercolour Society Open Exhibition",
+      "title": "National Watercolor Society International Open Exhibition",
       "tier": 4,
-      "score": 5.0,
+      "score": 5.5,
       "category": "global_watercolor_open_call",
-      "city": "London",
-      "deadline": "2025-12-01",
-      "summary": "The world's oldest and most prestigious watercolor society, holding annual open exhibitions open to non-member artists internationally.",
-      "website": "https://royalwatercoloursociety.co.uk/"
+      "city": "California / Online",
+      "deadline": "Annual — 2026 cycle closed May 22. Watch January 2027.",
+      "summary": "Major annual international watercolor exhibition, $40,000+ in awards, open to non-members worldwide — 2026 cycle closed.",
+      "website": "https://nationalwatercolorsociety.org/exhibits"
     }
   ],
   "blocking_gaps": [
@@ -197,10 +197,10 @@
   "next_milestone": "Complete 2 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.",
   "months_to_tier3": 12,
   "pipeline_summary": {
-    "total_active": 276,
-    "tier_1_count": 32,
-    "tier_2_count": 71,
-    "tier_3_count": 162,
+    "total_active": 279,
+    "tier_1_count": 33,
+    "tier_2_count": 72,
+    "tier_3_count": 163,
     "tier_4_count": 11
   }
 }

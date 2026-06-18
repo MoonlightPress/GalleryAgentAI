@@ -293,6 +293,17 @@
       "category": "Global Artist Book Platform",
       "city": "London / Online",
       "image": ""
+    },
+    {
+      "title": "Printed Matter Art Book Fairs",
+      "bucket": "career_changing",
+      "score": 7.0,
+      "confidence": "Medium",
+      "reason": "Higher-prestige opportunity with stronger long-term career signaling.",
+      "category": "Global Art Book Fair",
+      "city": "New York / Los Angeles",
+      "country": "USA",
+      "image": ""
     }
   ],
   "portfolio_builders": [
@@ -543,7 +554,7 @@
     {
       "title": "Center for Book Arts Opportunities",
       "bucket": "global_targets",
-      "score": 9.6,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Global Book Arts",
@@ -552,20 +563,75 @@
       "image": ""
     },
     {
-      "title": "Aesthetica Art Prize",
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
       "bucket": "global_targets",
-      "score": 9.6,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Open Call",
-      "city": "York / Online",
-      "country": "UK / Global",
+      "category": "Group Publication Open Call",
+      "city": "International",
+      "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "第九屆水主題國際評審藝術比賽",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Watercolor Open Call",
+      "city": "International",
+      "country": "International",
+      "image": ""
+    },
+    {
+      "title": "Apartamento — Artist Feature",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Press Target",
+      "city": "Barcelona",
+      "country": "Spain",
+      "image": ""
+    },
+    {
+      "title": "Asian Cultural Council (ACC) 2026 Grant Program",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Grant",
+      "city": "New York",
+      "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "水性繪畫展覽 (Watercolor Exhibition)",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Watercolor Open Call",
+      "city": "International",
+      "country": "International",
+      "image": ""
+    },
+    {
+      "title": "It's Nice That — Illustration Feature",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Press Target",
+      "city": "London",
+      "country": "UK",
       "image": ""
     },
     {
       "title": "Still Life - 2026",
       "bucket": "global_targets",
-      "score": 9.6,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Global Open Call",
@@ -574,9 +640,31 @@
       "image": ""
     },
     {
+      "title": "ACC 2026年度フェローシップおよび助成",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Grant",
+      "city": "New York",
+      "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "2026 Global Grant Cycle - Individual Fellowship",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Grant",
+      "city": "New York",
+      "country": "USA",
+      "image": ""
+    },
+    {
       "title": "American Illustration",
       "bucket": "global_targets",
-      "score": 9.6,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Other",
@@ -587,7 +675,7 @@
     {
       "title": "World Illustration Awards",
       "bucket": "global_targets",
-      "score": 9.6,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Other",
@@ -598,7 +686,7 @@
     {
       "title": "Jackson's Art Prize",
       "bucket": "global_targets",
-      "score": 9.6,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Other",
@@ -609,7 +697,7 @@
     {
       "title": "The Artcomplex Center of Tokyo",
       "bucket": "global_targets",
-      "score": 9.6,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Other",
@@ -620,7 +708,7 @@
     {
       "title": "Society of Women Artists",
       "bucket": "global_targets",
-      "score": 9.6,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
       "category": "Other",
@@ -629,143 +717,44 @@
       "image": ""
     },
     {
-      "title": "水性繪畫展覽 (Watercolor Exhibition)",
+      "title": "MICRO/MACRO",
       "bucket": "global_targets",
-      "score": 9.6,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Watercolor Open Call",
-      "city": "International",
-      "country": "International",
-      "image": ""
-    },
-    {
-      "title": "CSPWC Annual Open Water International Exhibition",
-      "bucket": "global_targets",
-      "score": 9.6,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Watercolor Open Call",
-      "city": "Toronto",
+      "category": "Galleries / Exhibition Calls",
+      "city": "Vancouver",
       "country": "Canada",
       "image": ""
     },
     {
-      "title": "臺南市美術館 2026「TAM+展覽計畫」",
+      "title": "Cité Internationale des Arts Artist Residency",
       "bucket": "global_targets",
-      "score": 9.6,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Institutional / Grants",
-      "city": "Tainan",
-      "country": "Taiwan",
+      "category": "Global Residency",
+      "city": "Paris",
+      "country": "France",
       "image": ""
     },
     {
-      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
+      "title": "「国際創作者駐村計畫」",
       "bucket": "global_targets",
-      "score": 9.2,
+      "score": 9.4,
       "confidence": "High",
       "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Group Publication Open Call",
-      "city": "International",
-      "country": "USA",
-      "image": ""
-    },
-    {
-      "title": "Bologna Children's Book Fair Illustrators Exhibition",
-      "bucket": "global_targets",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "Pinpoint Gallery",
-      "bucket": "global_targets",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Other",
-      "city": null,
-      "country": "Tokyo",
-      "image": ""
-    },
-    {
-      "title": "It's Nice That — Illustration Feature",
-      "bucket": "global_targets",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Press Target",
-      "city": "London",
-      "country": "UK",
-      "image": ""
-    },
-    {
-      "title": "Apartamento — Artist Feature",
-      "bucket": "global_targets",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Press Target",
-      "city": "Barcelona",
-      "country": "Spain",
-      "image": ""
-    },
-    {
-      "title": "第九屆水主題國際評審藝術比賽",
-      "bucket": "global_targets",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Watercolor Open Call",
-      "city": "International",
-      "country": "International",
-      "image": ""
-    },
-    {
-      "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-      "bucket": "global_targets",
-      "score": 9.2,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Global Watercolor Open Call",
-      "city": "Online / Seattle",
-      "country": "USA",
+      "category": "Global Residency",
+      "city": "Tokyo",
+      "country": "Japan",
       "image": ""
     }
   ],
   "publication_targets": [
     {
-      "title": "Center for Book Arts Opportunities",
-      "bucket": "publication_targets",
-      "score": 9.6,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Global Book Arts",
-      "city": "New York",
-      "country": "USA",
-      "image": ""
-    },
-    {
-      "title": "本店・本屋の実験室",
-      "bucket": "publication_targets",
-      "score": 9.6,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Koenji, Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
       "title": "UTRECHT",
       "bucket": "publication_targets",
-      "score": 9.2,
+      "score": 9.4,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Print / Zines / Bookstores",
@@ -774,9 +763,42 @@
       "image": ""
     },
     {
+      "title": "Route Books",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo — Ueno / Taito",
+      "country": "Japan",
+      "image": ""
+    },
+    {
+      "title": "本店・本屋の実験室",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Koenji, Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "Center for Book Arts Opportunities",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Global Book Arts",
+      "city": "New York",
+      "country": "USA",
+      "image": ""
+    },
+    {
       "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
       "bucket": "publication_targets",
-      "score": 9.2,
+      "score": 9.4,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Group Publication Open Call",
@@ -785,9 +807,20 @@
       "image": ""
     },
     {
+      "title": "Book and Sons",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
       "title": "SUBMISSIONS - marblepress.com",
       "bucket": "publication_targets",
-      "score": 9.2,
+      "score": 9.4,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Book Publishing",
@@ -798,7 +831,7 @@
     {
       "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
       "bucket": "publication_targets",
-      "score": 9.2,
+      "score": 9.4,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Zine Fair Booth",
@@ -809,7 +842,7 @@
     {
       "title": "MOUNT ZINE",
       "bucket": "publication_targets",
-      "score": 9.2,
+      "score": 9.4,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Zine Shop Consignment",
@@ -818,14 +851,69 @@
       "image": ""
     },
     {
-      "title": "Route Books",
+      "title": "B&B Shimokitazawa",
       "bucket": "publication_targets",
-      "score": 9.2,
+      "score": 9.4,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Print / Zines / Bookstores",
-      "city": "Tokyo — Ueno / Taito",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "flotsam books",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "Antenna Books",
+      "bucket": "publication_targets",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo — Daikanyama, Shibuya",
       "country": "Japan",
+      "image": ""
+    },
+    {
+      "title": "SPBS (Shibuya Publishing Booksellers)",
+      "bucket": "publication_targets",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo — Tomigaya, Shibuya",
+      "country": "Japan",
+      "image": ""
+    },
+    {
+      "title": "Submissions - Little Press Publishing",
+      "bucket": "publication_targets",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+      "bucket": "publication_targets",
+      "score": 8.8,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Group Publication Open Call",
+      "city": "Vancouver (international)",
+      "country": "Canada",
       "image": ""
     },
     {
@@ -851,90 +939,13 @@
       "image": ""
     },
     {
-      "title": "BOOOOOOOM 2026 Art & Photo Book Award",
+      "title": "表紙やカバーのデザインのお仕事",
       "bucket": "publication_targets",
       "score": 8.8,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Group Publication Open Call",
-      "city": "Vancouver (international)",
-      "country": "Canada",
-      "image": ""
-    },
-    {
-      "title": "Book and Sons",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "Offprint",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Global Art Book Fair",
-      "city": "Paris / London",
-      "country": "France / UK",
-      "image": ""
-    },
-    {
-      "title": "Submissions - Little Press Publishing",
-      "bucket": "publication_targets",
-      "score": 8.7,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Book Publishing",
-      "city": "Japan / Tokyo / Online",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "flotsam books",
-      "bucket": "publication_targets",
-      "score": 8.3,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "Browse opportunities | CuratorSpace",
-      "bucket": "publication_targets",
-      "score": 8.2,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
+      "category": "Book Cover Call",
       "city": "Online",
-      "country": "Global",
-      "image": ""
-    },
-    {
-      "title": "LOCAL Gallery・Books",
-      "bucket": "publication_targets",
-      "score": 8.2,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Koenji, Tokyo",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "Village Vanguard Shimokitazawa",
-      "bucket": "publication_targets",
-      "score": 8.2,
-      "confidence": "Medium",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Shimokitazawa, Tokyo",
       "country": "Japan",
       "image": ""
     }

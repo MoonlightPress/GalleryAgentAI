@@ -1,56 +1,5 @@
 [
   {
-    "title": "Browse opportunities | CuratorSpace",
-    "organization": "CuratorSpace",
-    "category": "photo_open_call",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 8.5,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities",
-    "official_website": "https://www.curatorspace.com/opportunities",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, exhibition, architecture, place, watercolour, drawing, painting, illustration",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
-    "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: open call, exhibition, architecture, place, watercolour, drawing, painting, illustration, open exhibition"
-    ],
-    "fit_keyword_hits": [
-      "open call",
-      "exhibition",
-      "architecture",
-      "place",
-      "watercolour",
-      "drawing",
-      "painting",
-      "illustration",
-      "open exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: open call",
-      "weak: exhibition",
-      "score too low: 3"
-    ]
-  },
-  {
     "title": "Royal Watercolour Society",
     "organization": "Royal Watercolour Society",
     "category": "gallery_event",
@@ -134,6 +83,49 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "Exhibition Chelsea Chang Yuchen: a dictionary, a loom, a manifesto, a note, a kite, a phon",
+    "organization": "Printed Matter",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.printedmatter.org/programs/events/2268",
+    "official_website": "https://www.printedmatter.org/programs/events/2268",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Printed Matter.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition, paper",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition, paper"
+    ],
+    "fit_keyword_hits": [
+      "exhibition",
+      "paper"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "strong: printed matter",
+      "weak: exhibition, gallery",
+      "score too low: 2"
     ]
   },
   {
@@ -380,6 +372,49 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "generic page without opportunity language"
+    ]
+  },
+  {
+    "title": "RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus",
+    "organization": "CuratorSpace",
+    "category": "residency",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: residency, artist-run",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: residency, artist-run"
+    ],
+    "fit_keyword_hits": [
+      "residency",
+      "artist-run"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "strong: residency",
+      "weak: artist",
+      "score too low: 1"
     ]
   },
   {
@@ -747,12 +782,12 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: printed matter, zine",
+      "strong: zine, printed matter",
       "score too low: 2"
     ]
   },
   {
-    "title": "Daniel Shepard Straffon All Lover the Place: NYC [Poster] Posters $70.00 Recent Arrival Si",
+    "title": "Daniel Shepard Straffon All Lover the Place: NYC [Poster] Posters $70.00 Signed",
     "organization": "Printed Matter",
     "category": "art_book",
     "city": "Online",
@@ -794,7 +829,7 @@
     ]
   },
   {
-    "title": "Daniel Shepard Straffon All Lover the Place: Japan [Poster] Posters $70.00 Recent Arrival ",
+    "title": "Daniel Shepard Straffon All Lover the Place: Japan [Poster] Posters $70.00 Signed",
     "organization": "Printed Matter",
     "category": "art_book",
     "city": "Online",
@@ -836,7 +871,7 @@
     ]
   },
   {
-    "title": "Daniel Shepard Straffon All Lover the Place: Indonesia [Poster] Posters $70.00 Recent Arri",
+    "title": "Daniel Shepard Straffon All Lover the Place: Indonesia [Poster] Posters $70.00 Signed",
     "organization": "Printed Matter",
     "category": "art_book",
     "city": "Online",
@@ -878,7 +913,7 @@
     ]
   },
   {
-    "title": "Daniel Shepard Straffon All Lover the Place: Mexico [Poster] Posters $70.00 Recent Arrival",
+    "title": "Daniel Shepard Straffon All Lover the Place: Mexico [Poster] Posters $70.00 Signed",
     "organization": "Printed Matter",
     "category": "art_book",
     "city": "Online",
@@ -920,7 +955,7 @@
     ]
   },
   {
-    "title": "Daniel Shepard Straffon All Lover the Place: Thailand [Poster] Posters $70.00 Recent Arriv",
+    "title": "Daniel Shepard Straffon All Lover the Place: Thailand [Poster] Posters $70.00 Signed",
     "organization": "Printed Matter",
     "category": "art_book",
     "city": "Online",
@@ -1004,7 +1039,7 @@
     ]
   },
   {
-    "title": "Daniel Shepard Straffon All Lover the Place: Chicago [Poster] Posters $70.00 Recent Arriva",
+    "title": "Daniel Shepard Straffon All Lover the Place: Chicago [Poster] Posters $70.00 Signed",
     "organization": "Printed Matter",
     "category": "art_book",
     "city": "Online",
@@ -1046,6 +1081,46 @@
     ]
   },
   {
+    "title": "See all exhibitions",
+    "organization": "Printed Matter",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.printedmatter.org/programs/1-exhibitions",
+    "official_website": "https://www.printedmatter.org/programs/1-exhibitions",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Printed Matter.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "junk title: see all exhibitions"
+    ]
+  },
+  {
     "title": "Browse Printed Matter Editions",
     "organization": "Printed Matter",
     "category": "zine_print",
@@ -1083,6 +1158,46 @@
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
       "junk title: browse printed matter editions"
+    ]
+  },
+  {
+    "title": "www.jacksonsart.com",
+    "organization": "Jackson's Art Prize",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.jacksonsart.com/artprize/2026-2/#exhibitions",
+    "official_website": "https://www.jacksonsart.com/artprize/2026-2/#exhibitions",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Jackson's Art Prize.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ],
+    "quality_gate_status": "rejected",
+    "quality_gate_reasons": [
+      "generic page without opportunity language"
     ]
   },
   {
@@ -3522,50 +3637,8 @@
     ],
     "quality_gate_status": "rejected",
     "quality_gate_reasons": [
-      "strong: zine, open call",
+      "strong: open call, zine",
       "score too low: 2"
-    ]
-  },
-  {
-    "title": "photography of place",
-    "organization": "ArtConnect Open Calls",
-    "category": "open_call_index",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/ipg4tcdHcecfQs3PWLXzU",
-    "official_website": "https://www.artconnect.com/opportunity/ipg4tcdHcecfQs3PWLXzU",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: place",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: place"
-    ],
-    "fit_keyword_hits": [
-      "place"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: open call",
-      "weak: photography",
-      "score too low: 1"
     ]
   },
   {
@@ -3611,48 +3684,7 @@
     ]
   },
   {
-    "title": "trinity buoy wharf drawing prize",
-    "organization": "ArtConnect Open Calls",
-    "category": "open_call_index",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/nhx6YlKXS_bEd4TOdIPpv",
-    "official_website": "https://www.artconnect.com/opportunity/nhx6YlKXS_bEd4TOdIPpv",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: drawing",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: drawing"
-    ],
-    "fit_keyword_hits": [
-      "drawing"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "strong: open call",
-      "score too low: 0"
-    ]
-  },
-  {
-    "title": "teaching residency",
+    "title": "Residency",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
@@ -3663,8 +3695,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/rr6Z3VezxNtg-32AgWIDV",
-    "official_website": "https://www.artconnect.com/opportunity/rr6Z3VezxNtg-32AgWIDV",
+    "source_url": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
+    "official_website": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3693,7 +3725,7 @@
     ]
   },
   {
-    "title": "Residency",
+    "title": "video commission residency 2026",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
@@ -3704,8 +3736,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
-    "official_website": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
+    "source_url": "https://www.artconnect.com/opportunity/4y1xCgBjIG6Kft2Grap71",
+    "official_website": "https://www.artconnect.com/opportunity/4y1xCgBjIG6Kft2Grap71",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3773,126 +3805,6 @@
       "strong: open call",
       "has submission link",
       "score too low: 3"
-    ]
-  },
-  {
-    "title": "www.curatorspace.com",
-    "organization": "CuratorSpace",
-    "category": "art_book_fair",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/open-exhibition-wythnos-gelf-llanfairfechan-art-week/10591",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/open-exhibition-wythnos-gelf-llanfairfechan-art-week/10591",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "Report this?",
-    "organization": "CuratorSpace",
-    "category": "art_book_fair",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-exhibition-wythnos-gelf-llanfairfechan-art-week%2F10591&redirect=%2Fopportunities",
-    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fopen-exhibition-wythnos-gelf-llanfairfechan-art-week%2F10591&redirect=%2Fopportunities",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
-    ]
-  },
-  {
-    "title": "Exhibition Elmswell Library is looking for artists to exhibit. We are a village library in",
-    "organization": "CuratorSpace",
-    "category": "gallery_event",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/exhibition/8735",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ],
-    "quality_gate_status": "rejected",
-    "quality_gate_reasons": [
-      "generic page without opportunity language"
     ]
   },
   {
