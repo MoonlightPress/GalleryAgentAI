@@ -118,6 +118,12 @@
   color: var(--ink-muted);
 }
 
+.status-updated {
+  color: var(--ink-muted);
+  opacity: 0.78;
+  font-size: 11px;
+}
+
 .status-sprig {
   font-size: 18px;
   margin-top: 4px;

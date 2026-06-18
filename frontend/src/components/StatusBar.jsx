@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './StatusBar.css'
 import { useLanguage } from '../i18n/LanguageContext'
+import { formatFreshness } from '../utils/freshness'
 
 function buildCalendarGrid(now) {
   const year        = now.getFullYear()
@@ -53,6 +54,16 @@ export default function StatusBar() {
   const calMonth    = formatCalMonth(now, lang)
   const days        = t('status.days')
   const celebration = useAcceptedCelebration()
+  const [dataUpdatedAt, setDataUpdatedAt] = useState(null)
+
+  useEffect(() => {
+    fetch('/api/opportunities')
+      .then(r => r.ok ? r.json() : null)
+      .then(d => setDataUpdatedAt(d?.data_updated_at || null))
+      .catch(() => {})
+  }, [])
+
+  const updatedWhen = formatFreshness(dataUpdatedAt)
 
   return (
     <div className="status-bar">
@@ -89,7 +100,10 @@ export default function StatusBar() {
         ) : (
           <>
             <div className="status-message">{t('status.message')}</div>
-            <div className="status-sub">{t('status.sub')}</div>
+            <div className="status-sub">
+              {t('status.sub')}
+              {updatedWhen && <span className="status-updated"> {t('status.updated', { when: updatedWhen })}</span>}
+            </div>
             <div className="status-sprig">🌿</div>
           </>
         )}

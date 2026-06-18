@@ -198,13 +198,22 @@
   border-color: #a8842e;
 }
 
-/* ── Feedback row — appears when card is open ── */
+/* ── Feedback row ── */
 .opp-feedback-row {
   display: flex;
   gap: 5px;
   flex-wrap: wrap;
-  padding-top: 8px;
+  align-items: center;
+  margin-top: 12px;
+  padding-top: 10px;
   border-top: 1px solid #ede3d0;
+}
+
+.opp-feedback-kicker {
+  font-size: 11px;
+  color: var(--ink-muted);
+  font-style: italic;
+  margin-right: 2px;
 }
 
 .opp-feedback-btn {

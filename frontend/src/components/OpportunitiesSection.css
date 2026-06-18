@@ -76,6 +76,31 @@
   line-height: 1.5;
 }
 
+.opp-section-brief {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px 10px;
+  font-size: 12px;
+  color: var(--ink-muted);
+  font-style: italic;
+  margin: -2px 0 16px;
+}
+
+.opp-section-visible,
+.opp-section-hidden {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 8px;
+  background: rgba(255, 252, 247, 0.76);
+  font-style: normal;
+}
+
+.opp-section-hidden {
+  color: #5a7a30;
+  background: #f0f8ea;
+}
+
 /* ── 3-column card grid ── */
 .opp-grid {
   display: grid;

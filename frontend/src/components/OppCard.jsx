@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import './OppCard.css'
 import { useLanguage } from '../i18n/LanguageContext'
+import { feedbackToastKey, shouldRemoveAfterFeedback } from '../utils/feedbackBehavior'
 
-export const CAT_LABELS = {
+const CAT_LABELS = {
   gallery:           'Gallery',
   cafe_gallery:      'Café Gallery',
   artist_space:      'Artist Space',
@@ -67,13 +68,6 @@ const MEDIUM_CONFIG = {
   photography:  { label: '◆ Photography',  color: '#5a6a7a' },
 }
 
-export function scoreClass(score) {
-  const s = parseFloat(score) || 0
-  if (s >= 7) return 'score-high'
-  if (s >= 4) return 'score-mid'
-  return 'score-low'
-}
-
 const FEEDBACK_IDS = [
   { id: 'follow',      key: 'card.feedback.follow',   icon: '★' },
   { id: 'applied',     key: 'card.feedback.applied',  icon: '✓' },
@@ -94,14 +88,14 @@ async function saveFeedback(opp, action) {
         opp_website: opp.official_website   || '',
       }),
     })
-  } catch (_) {
+  } catch {
     // silently fail — feedback is best-effort
   }
 }
 
 export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
   const [feedback, setFeedback] = useState(null)
-  const [appliedToast, setAppliedToast] = useState(false)
+  const [toastKey, setToastKey] = useState(null)
   const { t, lang } = useLanguage()
   const iconSrc = CAT_ICON[opp.category] || DEFAULT_ICON
   const loc = (field) => {
@@ -116,23 +110,14 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
     setFeedback(next)
     if (next) {
       await saveFeedback(opp, next)
-      if (next === 'not_for_me' && onSuppressed) onSuppressed(opp.id)
-      if (next === 'applied') {
-        setAppliedToast(true)
-        setTimeout(() => setAppliedToast(false), 2500)
-      }
+      if (shouldRemoveAfterFeedback(next) && onSuppressed) onSuppressed(opp.id)
+      setToastKey(feedbackToastKey(next))
+      setTimeout(() => setToastKey(null), 2500)
     }
   }
 
   return (
     <div className={`opp-card${isOpen ? ' opp-card--open' : ''}`}>
-
-      {/* Score badge — absolute top-right */}
-      {opp.overall_score > 0 && (
-        <span className={`opp-card-score-badge ${scoreClass(opp.overall_score)}`}>
-          {opp.overall_score}
-        </span>
-      )}
 
       <div className="opp-card-body">
 
@@ -193,27 +178,25 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed }) {
           </button>
         </div>
 
-        {/* Feedback row — visible only when card is open */}
-        {isOpen && (
-          <div className="opp-feedback-row">
-            {FEEDBACK_IDS.map(a => (
-              <button
-                key={a.id}
-                className={`opp-feedback-btn opp-feedback-${a.id}${feedback === a.id ? ' opp-feedback-btn--active' : ''}`}
-                onClick={() => handleFeedback(a.id)}
-                title={t(a.key)}
-              >
-                <span className="opp-feedback-icon">{a.icon}</span>
-                <span className="opp-feedback-label">{t(a.key)}</span>
-              </button>
-            ))}
-            {appliedToast && (
-              <span className="opp-feedback-btn opp-applied-toast">
-                {t('card.toast.logged')}
-              </span>
-            )}
-          </div>
-        )}
+        <div className="opp-feedback-row" role="group" aria-label={t('card.feedback.label')}>
+          <span className="opp-feedback-kicker">{t('card.feedback.label')}</span>
+          {FEEDBACK_IDS.map(a => (
+            <button
+              key={a.id}
+              className={`opp-feedback-btn opp-feedback-${a.id}${feedback === a.id ? ' opp-feedback-btn--active' : ''}`}
+              onClick={() => handleFeedback(a.id)}
+              title={t(a.key)}
+            >
+              <span className="opp-feedback-icon">{a.icon}</span>
+              <span className="opp-feedback-label">{t(a.key)}</span>
+            </button>
+          ))}
+          {toastKey && (
+            <span className="opp-feedback-btn opp-applied-toast">
+              {t(toastKey)}
+            </span>
+          )}
+        </div>
 
       </div>
     </div>

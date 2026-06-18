@@ -24,7 +24,7 @@ const SECTION_ICONS = {
   watch_list:            '👁',
 }
 
-const GRID_PAGE = 3
+const GRID_PAGE = 12
 
 function isPressTarget(opp) {
   return (
@@ -227,7 +227,19 @@ function OppSection({ sectionKey, label, description, icon, items }) {
         <p className="opp-section-desc">{sectionDesc}</p>
       </div>
 
-      {/* 3-column card grid */}
+      <div className="opp-section-brief">
+        <span>{t('opps.browseHint')}</span>
+        <span className="opp-section-visible">
+          {t('opps.showingCount', { shown: visible.length, total: filtered.length })}
+        </span>
+        {suppressed.size > 0 && (
+          <span className="opp-section-hidden">
+            {t('opps.hiddenCount', { n: suppressed.size })}
+          </span>
+        )}
+      </div>
+
+      {/* Card grid */}
       <div className="opp-grid">
         {visible.map(opp => (
           <OppCard
@@ -254,7 +266,7 @@ function OppSection({ sectionKey, label, description, icon, items }) {
           className="opp-show-more"
           onClick={() => setShowAll(true)}
         >
-          {t('opps.showMore')} · {t('opps.moreCount', { n: remaining })}
+          {t('opps.showMoreCount', { n: remaining })}
         </button>
       )}
     </section>
