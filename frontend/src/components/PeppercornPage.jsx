@@ -3,32 +3,6 @@ import './PeppercornPage.css'
 import { peppercornHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
 
-// ── SVG progress arc ──────────────────────────────────────────────────────
-
-function ArcProgress({ ratio, size = 52 }) {
-  const r = size * 0.38
-  const cx = size / 2
-  const cy = size / 2
-  const circ = 2 * Math.PI * r
-  const pct = Math.min(1, Math.max(0, isNaN(ratio) ? 0 : ratio))
-  const offset = circ * (1 - pct)
-  return (
-    <svg width={size} height={size}>
-      <circle cx={cx} cy={cy} r={r} fill="none" stroke="#dce8cc" strokeWidth="3.5" />
-      <circle
-        cx={cx} cy={cy} r={r}
-        fill="none"
-        stroke="#6a8a5a"
-        strokeWidth="3.5"
-        strokeDasharray={`${circ}`}
-        strokeDashoffset={`${offset}`}
-        strokeLinecap="round"
-        transform={`rotate(-90 ${cx} ${cy})`}
-      />
-    </svg>
-  )
-}
-
 // ── Carousel card ─────────────────────────────────────────────────────────
 
 function CarouselCard({ card, isActive, onClick }) {
@@ -37,9 +11,6 @@ function CarouselCard({ card, isActive, onClick }) {
       className={`pp-card${isActive ? ' pp-card--active' : ''}${!card.sectionId ? ' pp-card--passive' : ''}`}
       onClick={() => onClick(card)}
     >
-      <div className="pp-card-arc">
-        <ArcProgress ratio={card.ratio} />
-      </div>
       <div className="pp-card-name">{card.name}</div>
       <div className="pp-card-values">
         <span className="pp-card-current">{card.current}</span>
