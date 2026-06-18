@@ -11,6 +11,7 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException, Request, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from recommendation_readiness import assess_actionability
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -517,6 +518,7 @@ def shape_card(opp: dict) -> dict:
     why = opp.get("why_this_fits_short", "")
     # why_card: shown on card face only when it adds something beyond the summary
     why_card = why if (why and why[:60] != summary[:60]) else ""
+    actionability = assess_actionability(opp)
 
     return {
         "id":              _opp_id(opp),
@@ -567,6 +569,9 @@ def shape_card(opp: dict) -> dict:
         "bullets_zh":      opp.get("three_bullets_zh", []) or [],
         "bullets_ja":      opp.get("three_bullets_ja", []) or [],
         "checklist":       _build_checklist(opp),
+        "actionability_status": actionability["actionability_status"],
+        "review_flags":    actionability["review_flags"],
+        "recommendation_reasons": actionability["recommendation_reasons"],
         "prerequisites":   opp.get("prerequisites", []) or [],
         "student_call":    bool(opp.get("student_call")),
         "native_medium":   opp.get("native_medium", "unknown"),

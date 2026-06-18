@@ -77,7 +77,7 @@ export default function OpportunitiesSection() {
       (items || []).filter(o => !isPressTarget(o)),
     ])
   )
-  const picks = strongestPicks(actionSections, 3, feedbackSignals)
+  const picks = strongestPicks(actionSections, 6, feedbackSignals)
 
   function handleFeedback(opp, action) {
     setFeedbackActions(prev => {

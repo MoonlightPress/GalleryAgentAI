@@ -97,3 +97,17 @@ test('strongest picks pull the best ready items across sections', () => {
   assert.equal(picks[0].id, 'ready-watercolor')
   assert.equal(picks[0].recommendation.sourceSection, 'immediate_best_moves')
 })
+
+test('backend actionability fields drive readiness and reasons when present', () => {
+  const enriched = enrichOpportunity({
+    ...readyWatercolor,
+    actionability_status: 'check_before_acting',
+    review_flags: ['source_needs_reverification'],
+    recommendation_reasons: ['Relationship contact route exists'],
+  }, 'relationship_targets')
+
+  assert.equal(enriched.recommendation.readiness, 'review')
+  assert.deepEqual(enriched.recommendation.reviewLabels, ['source_needs_reverification'])
+  assert.deepEqual(enriched.recommendation.reasons, ['Relationship contact route exists'])
+  assert.equal(enriched.recommendation.actionabilityStatus, 'check_before_acting')
+})

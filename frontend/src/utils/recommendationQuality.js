@@ -7,6 +7,7 @@ export function enrichOpportunity(opp, sectionKey = '', feedback = {}) {
   const reviewLabels = []
   const reasons = []
   let sortScore = numeric(opp.overall_score ?? opp.score)
+  const backendActionability = backendRecommendation(opp)
 
   if (sectionKey === 'immediate_best_moves') sortScore += 7
   if (sectionKey === 'watch_list') sortScore -= 2
@@ -94,14 +95,21 @@ export function enrichOpportunity(opp, sectionKey = '', feedback = {}) {
     reviewLabels.push('Similar items were marked not for me')
   }
 
-  const uniqueReasons = unique(reasons).slice(0, 3)
-  const uniqueReviewLabels = unique(reviewLabels).slice(0, 3)
-  const readiness = uniqueReviewLabels.length || sortScore < 8 ? 'review' : 'ready'
+  if (backendActionability.status === 'check_before_acting') sortScore -= 3
+  if (backendActionability.status === 'review') sortScore -= 8
+  if (backendActionability.status === 'closed_or_stale') sortScore -= 40
+
+  const uniqueReasons = unique(backendActionability.reasons.length ? backendActionability.reasons : reasons).slice(0, 3)
+  const uniqueReviewLabels = unique(backendActionability.flags.length ? backendActionability.flags : reviewLabels).slice(0, 3)
+  const readiness = backendActionability.status
+    ? (backendActionability.status === 'ready' ? 'ready' : 'review')
+    : (uniqueReviewLabels.length || sortScore < 8 ? 'review' : 'ready')
 
   return {
     ...opp,
     recommendation: {
       readiness,
+      actionabilityStatus: backendActionability.status || readiness,
       reasons: uniqueReasons,
       reviewLabels: uniqueReviewLabels,
       reasonLine: buildReasonLine(uniqueReasons, uniqueReviewLabels),
@@ -161,8 +169,16 @@ function applyChecklistSignal(checks, label, handlers) {
 
 function buildReasonLine(reasons, reviewLabels) {
   if (reasons.length) return reasons.join(' · ')
-  if (reviewLabels.length) return `Needs a quick check: ${reviewLabels.join(' · ')}`
+  if (reviewLabels.length) return `Needs a quick check: ${reviewLabels.map(humanizeFlag).join(' · ')}`
   return 'Mochi needs one more look before recommending this strongly.'
+}
+
+function backendRecommendation(opp) {
+  return {
+    status: opp.actionability_status || null,
+    flags: Array.isArray(opp.review_flags) ? opp.review_flags : [],
+    reasons: Array.isArray(opp.recommendation_reasons) ? opp.recommendation_reasons : [],
+  }
 }
 
 function mediaReason(nativeMedium) {
@@ -194,4 +210,8 @@ function numeric(value) {
 
 function unique(values) {
   return [...new Set(values.filter(Boolean))]
+}
+
+function humanizeFlag(flag) {
+  return String(flag).replaceAll('_', ' ')
 }
