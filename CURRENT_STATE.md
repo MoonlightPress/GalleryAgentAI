@@ -55,7 +55,12 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- None currently recorded here.
+- **Read-only readiness honesty audit** (Codex, 2026-06-19): run `assess_actionability` across
+  cached `deploy_data/compact_opportunities.json` and check for ready/strongest-pick leaks where cached
+  status says URL error/bad/missing, closed/permanently closed, or deadline-past. Also report status
+  distribution and native-medium unknown count. Cached data only: no live web/Tavily checks, no paid
+  pipeline run, no generated JSON edits, no `frontend2/`, no retired Streamlit. If leaks are found,
+  tighten only with failing tests first.
 
 ## Working together (Claude + Codex)
 
