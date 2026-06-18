@@ -4,6 +4,7 @@ import { useLanguage } from '../i18n/LanguageContext'
 import { useLocalT } from '../i18n/local'
 import { shellStrings } from './shellStrings'
 import { api } from '../utils/api'
+import { formatFreshness } from '../utils/freshness'
 
 // Mochi's status strip — persists on ALL pages (Bible08: the emotional anchor).
 // Honest signals only. Also carries the artist's direct line: "tell Peppercorn"
@@ -13,6 +14,7 @@ export default function StatusStrip() {
   const t2 = useLocalT(shellStrings)
   const [celebration, setCelebration] = useState(null)
   const [readyCount, setReadyCount] = useState(null)
+  const [dataUpdatedAt, setDataUpdatedAt] = useState(null)
   const [reportOpen, setReportOpen] = useState(false)
   const [reportText, setReportText] = useState('')
   const [reportDone, setReportDone] = useState(false)
@@ -31,6 +33,7 @@ export default function StatusStrip() {
 
     api.opportunities().then(d => {
       setReadyCount((d?.sections?.immediate_best_moves || []).length)
+      setDataUpdatedAt(d?.data_updated_at || null)
     }).catch(() => {})
 
     return () => clearTimeout(doneTimer.current)
@@ -51,6 +54,8 @@ export default function StatusStrip() {
       doneTimer.current = setTimeout(() => setReportDone(false), 3000)
     } catch { /* quiet — never make her feel an error for reporting one */ }
   }
+
+  const updatedWhen = formatFreshness(dataUpdatedAt)
 
   return (
     <>
@@ -88,6 +93,9 @@ export default function StatusStrip() {
             {t2('v2.status.line')}
             {readyCount !== null && readyCount > 0 && (
               <span className="sstrip-fresh"> · {t2('v2.status.fresh', { n: readyCount })}</span>
+            )}
+            {updatedWhen && (
+              <span className="sstrip-updated"> {t2('v2.status.updated', { when: updatedWhen })}</span>
             )}
           </span>
         )}

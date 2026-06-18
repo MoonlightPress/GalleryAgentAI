@@ -41,7 +41,6 @@ function isPress(o) {
 const PAGE = 12
 
 export default function HuntBoard({ sections, removed, onRemove, showToast }) {
-  const { t } = useLanguage()
   const t2 = useLocalT(strings)
   const [filter, setFilter] = useState('all')
   const [view, setView] = useState('cards')
@@ -122,13 +121,25 @@ export default function HuntBoard({ sections, removed, onRemove, showToast }) {
         </div>
       </div>
 
+      <div className="mv2-board-brief" aria-live="polite">
+        <span>{t2('v2.mochi.board.browse')}</span>
+        <span className="mv2-board-count">
+          {t2('v2.mochi.board.count', { shown: Math.min(shown, items.length), total: items.length })}
+        </span>
+        {removed.size > 0 && (
+          <span className="mv2-board-hidden">
+            {t2('v2.mochi.board.hidden', { n: removed.size })}
+          </span>
+        )}
+      </div>
+
       {view === 'cards' ? (
         <CardsView
           items={items} shown={shown} setShown={setShown}
           openId={openId} toggleDetails={toggleDetails}
           onRemove={onRemove} showToast={showToast}
           emptyIllo={active.illo} emptyText={t2('v2.mochi.empty.board')}
-          moreLabel={(n) => `${t('opps.showMore')} · ${t('opps.moreCount', { n })}`}
+          moreLabel={(n) => t2('v2.mochi.board.showMore', { n })}
         />
       ) : (
         <DeadlinesView

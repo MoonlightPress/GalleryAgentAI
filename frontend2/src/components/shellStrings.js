@@ -9,6 +9,7 @@ export const shellStrings = {
     'v2.nav.saffron.name':    'Saffron',
     'v2.status.line':         'Mochi is happy and full.',
     'v2.status.fresh':        '{n} things ready for you',
+    'v2.status.updated':      'updated {when}',
     'v2.status.celebrate':    'Mochi heard {venue} said yes!',
     'v2.status.celebrate.sub':'She is doing little circles about it.',
     'v2.report.link':         'Something off? Tell Peppercorn',

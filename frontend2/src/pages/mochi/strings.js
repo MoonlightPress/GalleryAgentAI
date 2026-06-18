@@ -6,7 +6,7 @@ export const strings = {
     'v2.mochi.greeting.morning':   'Good morning.',
     'v2.mochi.greeting.afternoon': 'Good afternoon.',
     'v2.mochi.greeting.evening':   'Good evening.',
-    'v2.mochi.voice.found':        'Mochi found three things worth your attention today.',
+    'v2.mochi.voice.found':        'Mochi picked today\'s first three. The full board keeps going below.',
     'v2.mochi.voice.quiet':        'Nothing urgent. Come back tomorrow.',
     'v2.mochi.voice.hunting':      'Mochi is out hunting…',
 
@@ -18,7 +18,11 @@ export const strings = {
     'v2.mochi.act.openPage':       'Open page',
 
     'v2.mochi.board.title':        'The Hunt Board',
-    'v2.mochi.board.sub':          'Everything Mochi is tracking, in one place.',
+    'v2.mochi.board.sub':          'Today\'s three are only the starting point. Scroll the full set and tell Mochi what to stop showing.',
+    'v2.mochi.board.browse':       'Browse everything Mochi found. Mark anything that feels wrong.',
+    'v2.mochi.board.count':        'Showing {shown} of {total}',
+    'v2.mochi.board.hidden':       'Hidden from this board: {n}',
+    'v2.mochi.board.showMore':     'Show {n} more',
     'v2.mochi.filter.all':         'All',
     'v2.mochi.filter.best':        'Best Moves',
     'v2.mochi.filter.open_calls':  'Open Calls',
@@ -44,6 +48,11 @@ export const strings = {
     'v2.mochi.stale.title':        'Mochi is re-checking these {n} — they may have closed.',
     'v2.mochi.empty.board':        'Nothing here yet. Mochi will keep hunting.',
     'v2.mochi.empty.deadlines':    'No firm deadlines in the next 30 days. The leads are still there — Mochi is confirming dates.',
+
+    'card.feedback.label':         'Teach Mochi',
+    'card.toast.follow':           'Saved for closer watching.',
+    'card.toast.maybe':            'Mochi will keep it warm for later.',
+    'card.toast.notForMe':         'Hidden from this board.',
   },
   zh: {
     'v2.mochi.greeting.morning':   '早上好。',

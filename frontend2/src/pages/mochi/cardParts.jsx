@@ -8,6 +8,7 @@ import { fitLevel, evidenceChips, emailForVenue } from '../../utils/fitWords'
 import { useLanguage } from '../../i18n/LanguageContext'
 import { useLocalT } from '../../i18n/local'
 import { strings } from './strings'
+import { feedbackToastKey, shouldRemoveAfterFeedback } from './feedbackBehavior'
 
 // ── Feedback (exactly v1 OppCard.jsx shape) ─────────────────────────────────
 export const FEEDBACK_IDS = [
@@ -33,6 +34,7 @@ export async function saveFeedback(opp, action) {
 
 export function FeedbackRow({ opp, onRemove, showToast }) {
   const { t } = useLanguage()
+  const t2 = useLocalT(strings)
   const [picked, setPicked] = useState(null)
 
   async function handle(id) {
@@ -40,12 +42,14 @@ export function FeedbackRow({ opp, onRemove, showToast }) {
     setPicked(next)
     if (!next) return
     await saveFeedback(opp, next)
-    if (next === 'applied') showToast(t('card.toast.logged'))
-    if (next === 'not_for_me' && onRemove) onRemove(opp.id)
+    const toastKey = feedbackToastKey(next)
+    if (toastKey) showToast(t2(toastKey))
+    if (shouldRemoveAfterFeedback(next) && onRemove) onRemove(opp.id)
   }
 
   return (
-    <div className="mv2-feedback" role="group" aria-label="feedback">
+    <div className="mv2-feedback" role="group" aria-label={t2('card.feedback.label')}>
+      <span className="mv2-feedback-kicker">{t2('card.feedback.label')}</span>
       {FEEDBACK_IDS.map(a => (
         <button
           key={a.id}

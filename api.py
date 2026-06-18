@@ -626,6 +626,14 @@ def load_opportunities() -> list:
     return list(best.values())
 
 
+def opportunities_data_updated_at() -> str | None:
+    """Return a quiet freshness signal for the artist-facing UI."""
+    path = DEPLOY_DIR / "compact_opportunities.json"
+    if not path.exists():
+        return None
+    return datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat()
+
+
 def bucket(items: list) -> dict:
     # Sort by ranked score: photography yields 1 pt to painting at equal quality
     scored = sorted(items, key=_ranked_score, reverse=True)
@@ -693,6 +701,7 @@ def get_opportunities():
         "meta":                  SECTION_META,
         "sections":              buckets,
         "total":                 sum(len(v) for v in buckets.values()),
+        "data_updated_at":        opportunities_data_updated_at(),
         "accepted_celebrations": accepted,
     }
 
