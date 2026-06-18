@@ -32,6 +32,22 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Read-only verification-layer audit** (Codex, 2026-06-19; scope commit `772700ed`; reviewed by Claude):
+  Canonical in-pipeline path = `url_verification_engine` (step 9, URL-reachable only) → `opportunity_truth_checker`
+  (21) → `fee_text_extractor`/`deadline_normaliser`/`submission_page_harvester` (41-43) → `verification_report_engine`
+  (45) → `targeted_verification_agent` (83, live HEAD/GET + closed-call phrases) → `dead_url_pruner` (85). Core
+  finding: **"URL ok" is well-proven (380/380), "actually open & actionable now" is not** (`verification_status=verified`
+  only 135/380; deadline 279, fees 196, contact 139, submission 200). Non-ok URLs (57) are correctly quarantined
+  (0 reach ready/strongest-picks). Sprawl: side-channel paths (`web_verification_engine`→`memory/verified_opportunities.json`,
+  `opportunity_verification_engine`→`deploy_data/verified_opportunities.json`, the queue/importer/merger tools)
+  duplicate verification without feeding the app. **Claude-verified:** `api.py` reads only `compact_opportunities.json`
+  (the side-channel `verified_opportunities.json` files are dead to the app); the active path engines are confirmed
+  wired in `run_full_mochi_pipeline.py`. **Caveat for consolidation:** those side-channel engines are still referenced
+  by `scripts/runners/*` and `scripts/scheduler.py` (which calls Claude-using `deep_verification_agent`) — trace/retire
+  those callers before archiving, and check whether `scheduler.py` is actively running (possible quiet Claude spend).
+  Recommendation: keep one canonical path on `compact_opportunities.json`, harden `targeted_verification_agent`'s
+  cached-text parsing (tests-first, free) before any deliberate live pass, then archive the side-channels (move to
+  `archive/dead_code/`, don't delete). No code changes, no Tavily, no paid run.
 - **Read-only readiness honesty audit** (Codex, 2026-06-19; scope commit `2b522695`): audited all
   380 cached opportunities in `deploy_data/compact_opportunities.json` with `assess_actionability`.
   No ready-status leaks and no strongest-picks leaks were found for URL error/bad/missing,
@@ -62,11 +78,7 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- **Read-only verification-layer audit** (Codex, 2026-06-19): inventory verification scripts/engines,
-  map pipeline wiring and written fields, confirm non-ok URL quarantine under readiness/strongest-picks,
-  and recommend one canonical verification path. Cached data/code inspection only: no Tavily/live web,
-  no paid pipeline run, no generated JSON edits, no `frontend2/`, no retired Streamlit, no CRM/contact
-  work. If later hardening is needed, it will be a separate tests-first scope.
+- None currently recorded here.
 
 ## Working together (Claude + Codex)
 
