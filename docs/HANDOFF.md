@@ -10,9 +10,9 @@ make_ready.bat        ← run this, wait 1-2 hours, follow what it prints
 ```
 
 It pre-flights your keys, runs the full discovery pipeline (fresh opportunities),
-generates a tailored email draft for every Immediate Best Move, deploys the v2 app
-and data to the Lightsail server, and smoke-tests the live site. If every step
-passes, the URL is ready to send.
+generates a tailored email draft for every Immediate Best Move, deploys the canonical
+React app (`frontend/`) and data to the Lightsail server, and smoke-tests the live site.
+If every step passes, the URL is ready to send.
 
 ## What it costs (the only money in the process)
 
@@ -57,17 +57,32 @@ to explain features. One line and the URL is enough.
 - **Full context for any future Claude session:** `reports/ux_pass_2026-06/`
   (00_PROGRESS.md is the index) + CLAUDE.md.
 
-## State as of 2026-06-13
+## State as of 2026-06-19
 
-- v2 frontend (`frontend2/`, three-companion build) complete and verified; v1
-  untouched at `frontend/`. Both run locally (5177/5178); server still has v1
-  until the next `bash deploy.sh` (which now ships v2 by default).
-- Backend trust fixes live locally: stale-deadline gates, Tier-4 guard,
-  follow-up nudges (14-day), 26k follower correction.
-- Known remaining gaps (acceptable for handoff, tracked in
-  `reports/ux_pass_2026-06/04_LOGIC_EFFECTIVENESS.md`): server-side strategy
-  strings render English-only in zh/ja mode; deep deadline *extraction* (reading
-  dates off venue pages) not yet built — the verification agent checks
-  liveness/format, the maintenance pipeline keeps it honest.
-- Her zh/ja UI strings were machine-written with care but not native-reviewed.
-  Her first session is the QA pass; expect small wording notes.
+- **`frontend/` is the canonical app** (port 5177). The old `frontend2/` sandbox's
+  UX improvements were ported back into it, and **`deploy.sh` now ships `frontend/`
+  by default** (it previously defaulted to `frontend2/` — a fixed launch trap; all
+  active work lives in `frontend/`).
+- Recent work, all in `frontend/`: a **"People to reach out to" view** (surfaces the
+  52 researched relationship contacts), **past-deadline verification** (103 stale
+  "verified" deadlines now flagged, incl. one that was in Immediate Best Moves), and
+  a clean `npm run lint`. Tests pass: 33 Python, 15 frontend.
+- **Not yet done (deliberate):**
+  - **Visual smoke-test the Peppercorn + Saffron pages** after recent hook/refactor
+    changes — fold into the "final once-over" below before sending.
+  - The **paid** live-verification pass (fill missing fees/contacts, re-check dead
+    URLs) + email-draft generation — both cost a little; `make_ready.bat` runs them.
+  - zh/ja UI strings machine-written, not native-reviewed; her first session is the QA pass.
+
+## Verify the server is actually autonomous (one-time, by SSH)
+
+`deploy/setup_server_pipeline.sh` is meant to make the server self-refresh weekly with
+no laptop. Confirm it's actually switched on:
+
+- **Cron registered:** `ssh -i Web\LightsailDefaultKey-us-east-1.pem ubuntu@18.206.62.200 'sudo -u ubuntu crontab -l | grep mochi-pipeline'`
+- **API starts on boot:** `… 'systemctl is-enabled mochi-api'` → should say `enabled`
+- **Keys present + funded:** `/opt/mochi/.env` holds `ANTHROPIC_API_KEY` (with credits) + `TAVILY_API_KEY`
+- **Auto-deploy on git push (optional):** `MOCHI_WEBHOOK_SECRET` set in `.env` and a GitHub
+  webhook pointed at `/webhook/deploy` — then a `git push` redeploys with no laptop.
+
+If the cron isn't registered, run once on the server: `sudo bash /opt/mochi-repo/deploy/setup_server_pipeline.sh`.

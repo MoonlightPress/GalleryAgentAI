@@ -10,9 +10,10 @@ SSH_KEY="$SCRIPT_DIR/Web/LightsailDefaultKey-us-east-1.pem"
 SERVER="ubuntu@18.206.62.200"
 SSH_OPTS="-i $SSH_KEY -o StrictHostKeyChecking=no"
 
-# Which frontend to ship: frontend2 (v2, default) or frontend (v1 fallback).
-# Override with: MOCHI_FRONTEND=frontend bash deploy.sh
-FRONTEND_DIR="${MOCHI_FRONTEND:-frontend2}"
+# Which frontend to ship: frontend (canonical, default) or frontend2 (the older
+# v2 sandbox, whose UX improvements were already ported back into frontend/).
+# All active work lives in frontend/ — ship it. Override: MOCHI_FRONTEND=frontend2 bash deploy.sh
+FRONTEND_DIR="${MOCHI_FRONTEND:-frontend}"
 
 echo "==> Building React frontend ($FRONTEND_DIR)"
 cd "$SCRIPT_DIR/$FRONTEND_DIR"

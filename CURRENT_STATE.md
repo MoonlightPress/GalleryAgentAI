@@ -32,6 +32,14 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Launch-readiness fixes** (Claude, 2026-06-19): (1) **`deploy.sh` defaulted to shipping `frontend2/`**
+  (the sandbox) — fixed the default to `frontend/` (canonical), so `deploy.sh` / `make_ready.bat` now ship
+  the app with all current work. This was a launch trap: none of the recent frontend/ work would have reached
+  the server. (2) Wired Peppercorn's orphaned `quickLog` to one-tap event logging (commit `cbf49d39`).
+  (3) Verified the launch-audit's "backend error-handling" concerns are **non-issues** — `api.py` guards every
+  file read (returns graceful empties, not 500s) and `TodaysFocus` already has warm loading/empty states
+  (`tf.noItems` = "Nothing urgent. Come back tomorrow."). The audit over-flagged here, like the Saffron-hero
+  false alarm. (4) Updated `docs/HANDOFF.md` with current state + a server-autonomy verification checklist.
 - **Frontend lint cleanup** (Claude, 2026-06-19): `npm run lint` now exits clean (was 29 errors + 1 warning).
   Real fixes: moved conditionally-called `useLanguage` above early returns in `TodaysFocus` + `SaffronPage`
   (rules-of-hooks — genuine bug); removed 5 unused vars and 3 duplicate `sf.label.posts` translation keys
