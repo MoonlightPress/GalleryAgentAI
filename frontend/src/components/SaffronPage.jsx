@@ -1505,55 +1505,33 @@ function CareerReadiness({ data, flat }) {
 
 function OverviewReport({ careerData: cr, data, t, onGoto }) {
   const cp = data.career_position
-  const cm = data.career_momentum
   const ms = data.market_stats
   const pathway = data.pathway
   const ig = cp?.social?.find(s => s.platform === 'Instagram')
   const dp = ms?.deadline_pressure || {}
-  const gaps = cr?.blocking_gaps ?? []
-  const actNow = cr?.immediate_priorities ?? []
-
-  const recordLine = [
-    `${cp?.exhibitions?.length ?? 0} ${t('sf.label.exhibitions')}`,
-    `${cp?.publications?.length ?? 0} ${t('sf.label.publications')}`,
-    ig?.followers ? `Instagram ${ig.followers}` : null,
-    `${cm?.totals?.submissions ?? 0} ${t('sf.mom.totalSubmissions')}`,
-    cm?.response_rate ? `${cm.response_rate} ${t('sf.mom.responses')}` : null,
-  ].filter(Boolean).join('  ·  ')
-
-  // Linkable, actionable report items — each jumps into the relevant tab.
-  const items = []
-  if (pathway?.next_move)    items.push({ label: t('sf.label.nextMove'),     text: pathway.next_move,  tab: 'direction', kind: 'go' })
-  if (pathway?.blocking_now) items.push({ label: t('sf.label.whatBlocking'), text: pathway.blocking_now, tab: 'direction', kind: 'block' })
-  if (dp.this_month > 0)     items.push({ label: t('sf.ms.thisMonth'),       text: t('sf.ov.deadlinesThisMonth', { n: dp.this_month }), tab: 'market', kind: 'time' })
-  gaps.slice(0, 3).forEach(g  => items.push({ label: t('sf.cr.blockingGaps'), text: g.action || g.gap, tab: 'direction', kind: 'gap', priority: g.priority }))
-  actNow.slice(0, 3).forEach(o => items.push({ label: t('sf.cr.actNow'),      text: o.name ?? o.title ?? o, tab: 'market', kind: 'act' }))
 
   return (
     <div className="sf-report">
-      <p className="sf-report-lede">
-        <strong>{cr?.current_phase}</strong>
-        {cr?.months_to_tier3 != null && <span className="sf-report-pill">{t('sf.cr.monthsToTier3', { n: cr.months_to_tier3 })}</span>}
-        {cm?.trajectory && <span className="sf-report-pill sf-report-pill--traj">{t(`sf.mom.traj.${cm.trajectory}`) || cm.trajectory}</span>}
+      <p className="sf-report-role">{t('sf.ov.role')}</p>
+      <p className="sf-report-para">{t('sf.ov.standing', { phase: cr?.current_phase ?? '' })}</p>
+      <p className="sf-report-para">
+        {t('sf.ov.doingWell', {
+          ex: cp?.exhibitions?.length ?? 0,
+          pub: cp?.publications?.length ?? 0,
+          ig: ig?.followers ?? '—',
+        })}
       </p>
-      {recordLine && <p className="sf-report-record">{recordLine}</p>}
-      {cr?.next_milestone && <p className="sf-report-milestone">{cr.next_milestone}</p>}
-
-      {items.length > 0 && (
-        <>
-          <div className="sf-report-label">{t('sf.ov.whatNeedsAttention')}</div>
-          <div className="sf-report-items">
-            {items.map((it, i) => (
-              <button key={i} className="sf-report-item" onClick={() => onGoto(it.tab)}>
-                {it.priority && <span className="sf-report-dot" style={{ background: GAP_DOT_COLORS[it.priority] ?? '#b0a080' }} />}
-                <span className={`sf-report-item-label sf-report-item-label--${it.kind}`}>{it.label}</span>
-                <span className="sf-report-item-text">{it.text}</span>
-                <span className="sf-report-item-arrow">→</span>
-              </button>
-            ))}
-          </div>
-        </>
+      {pathway?.next_move && (
+        <p className="sf-report-para sf-report-nudge">
+          {t('sf.ov.oneLittleThing')} <strong>{pathway.next_move}</strong>
+        </p>
       )}
+      {dp.this_month > 0 && (
+        <p className="sf-report-para sf-report-aside">
+          {t('sf.ov.ifBrowsing', { n: dp.this_month })} <button type="button" className="sf-link" onClick={() => onGoto('market')}>{t('sf.cat.market')}</button>.
+        </p>
+      )}
+      <p className="sf-report-deepdives">{t('sf.ov.deepDives')}</p>
     </div>
   )
 }
@@ -1646,12 +1624,9 @@ export default function SaffronPage({ nav }) {
 
           <SectionErrorBoundary key={tab}>
             {tab === 'standing' && (
-              careerData ? (
-                <>
-                  <OverviewReport careerData={careerData} data={data} t={t} onGoto={switchTab} />
-                  <CareerReadiness data={careerData} flat />
-                </>
-              ) : <EmptyState message={t('sf.loading')} />
+              careerData
+                ? <OverviewReport careerData={careerData} data={data} t={t} onGoto={switchTab} />
+                : <EmptyState message={t('sf.loading')} />
             )}
             {tab === 'market' && (
               <>
@@ -1685,6 +1660,7 @@ export default function SaffronPage({ nav }) {
             )}
             {tab === 'direction' && (
               <>
+                {careerData && <CareerReadiness data={careerData} />}
                 <CareerMomentum      data={data.career_momentum}   t={t} />
                 <OpportunityGap      data={data.opportunity_gap}   t={t} />
                 <StrategicPathway    data={data.pathway}              t={t} />
