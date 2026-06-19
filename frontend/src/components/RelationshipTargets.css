@@ -1,0 +1,135 @@
+.rt-section {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 8px 16px 48px;
+}
+
+.rt-head {
+  margin: 8px 4px 20px;
+}
+
+.rt-title {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  color: var(--ink, #3b332a);
+  margin: 0 0 4px;
+}
+
+.rt-intro,
+.rt-loading,
+.rt-empty {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--muted, #8a7d6b);
+  font-style: italic;
+  margin: 0;
+}
+
+.rt-loading,
+.rt-empty {
+  padding: 32px 8px;
+  text-align: center;
+}
+
+.rt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.rt-card {
+  background: var(--paper, #fbf7ef);
+  border: 1px solid rgba(120, 100, 70, 0.16);
+  border-radius: 14px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 1px 2px rgba(80, 60, 30, 0.04);
+}
+
+.rt-card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.rt-card-name {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.05rem;
+  color: var(--ink, #3b332a);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.rt-status {
+  flex: none;
+  font-size: 0.72rem;
+  padding: 2px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+  background: rgba(150, 130, 90, 0.12);
+  color: var(--muted, #8a7d6b);
+}
+
+.rt-status--ready_to_review {
+  background: rgba(106, 153, 78, 0.16);
+  color: #4f7a3a;
+}
+
+.rt-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.rt-pill {
+  font-size: 0.74rem;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: rgba(120, 100, 70, 0.08);
+  color: var(--muted, #7c6f5d);
+}
+
+.rt-pill--loc {
+  background: rgba(180, 150, 90, 0.12);
+}
+
+.rt-why {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--ink, #4a4136);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.rt-actions {
+  margin-top: auto;
+  padding-top: 4px;
+}
+
+.rt-reach {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: var(--gold, #c9a24b);
+  color: #fff;
+  transition: filter 0.15s ease;
+}
+
+.rt-reach:hover {
+  filter: brightness(0.95);
+}
+
+.rt-reach--none {
+  background: transparent;
+  color: var(--muted, #8a7d6b);
+  border: 1px dashed rgba(120, 100, 70, 0.3);
+  font-weight: 500;
+}

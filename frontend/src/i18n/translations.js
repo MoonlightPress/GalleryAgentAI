@@ -763,6 +763,16 @@ const zh = {
   // ── View toggle ──────────────────────────────────────────────────────────
   'view.cards':      '分类视图',
   'view.calendar':   '日历视图',
+  'view.people':     '联系人',
+  'people.title':    '值得联系的人',
+  'people.intro':    '值得敲开的门 —— 以及它们契合你作品的原因。',
+  'people.empty':    '还没有可联系的人 —— 猫饼正在收集名单。',
+  'people.reach.email':            '发邮件',
+  'people.reach.website':          '访问网站',
+  'people.reach.none':             '去了解',
+  'people.status.cold':            '尚未联系',
+  'people.status.researching':     '研究中',
+  'people.status.ready_to_review': '可以联系',
 
   // ── Dismissal insight banner ──────────────────────────────────────────────
   'pp.dismissal.text':    '您已跳过了{n}个{cat}机会。要减少此类推荐吗？',
@@ -1618,6 +1628,16 @@ const ja = {
   // ── View toggle ──────────────────────────────────────────────────────────
   'view.cards':      'カード表示',
   'view.calendar':   'カレンダー',
+  'view.people':     'つながり',
+  'people.title':    '声をかけたい人たち',
+  'people.intro':    'ノックする価値のある扉 — あなたの作品に合う理由とともに。',
+  'people.empty':    'まだ連絡先はありません — モチが集めています。',
+  'people.reach.email':            'メール',
+  'people.reach.website':          'サイトを見る',
+  'people.reach.none':             '調べてみる',
+  'people.status.cold':            '未連絡',
+  'people.status.researching':     'リサーチ中',
+  'people.status.ready_to_review': '連絡OK',
 
   // ── Dismissal insight banner ──────────────────────────────────────────────
   'pp.dismissal.text':    '{cat}の機会を{n}件スキップしています。今後は減らしましょうか？',
@@ -2478,6 +2498,16 @@ const en = {
   // ── View toggle ──────────────────────────────────────────────────────────
   'view.cards':      'By section',
   'view.calendar':   'By deadline',
+  'view.people':     'People',
+  'people.title':    'People to reach out to',
+  'people.intro':    'Doors worth knocking on — and why each one fits your work.',
+  'people.empty':    "No one to reach out to yet — Mochi's still gathering names.",
+  'people.reach.email':            'Email',
+  'people.reach.website':          'Visit site',
+  'people.reach.none':             'Look them up',
+  'people.status.cold':            'Not yet contacted',
+  'people.status.researching':     'Researching',
+  'people.status.ready_to_review': 'Ready to reach out',
 
   // ── Dismissal insight banner ──────────────────────────────────────────────
   'pp.dismissal.text':    "You've passed on {n} {cat} calls. Should I surface fewer of these?",

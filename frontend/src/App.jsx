@@ -8,6 +8,7 @@ import OpportunitiesSection from './components/OpportunitiesSection'
 import DeadlineCalendar from './components/DeadlineCalendar'
 import PeppercornPage from './components/PeppercornPage'
 import SaffronPage from './components/SaffronPage'
+import RelationshipTargets from './components/RelationshipTargets'
 import StatusBar from './components/StatusBar'
 
 function ViewToggle({ view, setView }) {
@@ -25,6 +26,12 @@ function ViewToggle({ view, setView }) {
         onClick={() => setView('calendar')}
       >
         📅 {t('view.calendar')}
+      </button>
+      <button
+        className={`view-toggle-btn${view === 'people' ? ' active' : ''}`}
+        onClick={() => setView('people')}
+      >
+        {t('view.people')}
       </button>
     </div>
   )
@@ -45,6 +52,7 @@ export default function App() {
         {page === 'discover' && <ViewToggle view={view} setView={setView} />}
         {page === 'discover' && view === 'cards'    && <OpportunitiesSection />}
         {page === 'discover' && view === 'calendar' && <DeadlineCalendar />}
+        {page === 'discover' && view === 'people'   && <RelationshipTargets />}
         {page === 'observe'  && <SaffronPage nav={nav} />}
         {page === 'refine'   && <PeppercornPage nav={nav} />}
         <StatusBar />
