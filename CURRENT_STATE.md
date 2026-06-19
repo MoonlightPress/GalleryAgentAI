@@ -119,6 +119,31 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 - None currently recorded here.
 
+## Pre-launch backlog (curated from the 2026-06-19 launch-readiness audit)
+
+The audit agent was a useful prompt but **unreliable on specifics — verify before acting** (it raised
+several "blockers" that turned out to be false).
+
+**Done:** lint clean; `quickLog` wired; **`deploy.sh` now ships `frontend/`** (was defaulting to the
+`frontend2/` sandbox — a launch trap); People view; past-deadline verification; HANDOFF refreshed.
+
+**Debunked — DO NOT re-chase:** "missing Saffron hero image" (`saffron_hero.png` exists); "api.py has
+unguarded file reads" (all guarded with `.exists()`, return empties not 500s); "`/api/today` shows a
+spinner not an empty state" (`TodaysFocus` already has a warm empty state — `tf.noItems` = "Nothing
+urgent. Come back tomorrow.").
+
+**Real / open before launch:**
+- **Visual smoke-test Peppercorn + Saffron** after the recent hook/refactor changes (see HANDOFF "final once-over").
+- **Live verification pass + email-draft generation** — paid, via `make_ready.bat`; needs Scott's go.
+- **Confirm server autonomy is switched on** (cron / systemd / `.env` keys / webhook) — SSH checklist in HANDOFF.
+
+**Minor / nice-to-have (audit-flagged, UNVERIFIED — check only if time):**
+- Draft emails may not be clearly labelled "draft" (`OppDetailPanel`).
+- zh/ja: some server-side strategy + submission-followup strings render English-only (known gap).
+- Frontend bundle ~517 kB, no code-splitting (perf, not correctness).
+- Server pipeline logs have no rotation (grow unbounded).
+- CRM follow-up date parsing may over-surface a quick-win if a contact's `last_contacted` is malformed.
+
 ## Working together (Claude + Codex)
 
 - Both agents read their own guide (`CLAUDE.md` / `AGENTS.md`) **plus this file**. This file is the
