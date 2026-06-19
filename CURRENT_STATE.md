@@ -32,6 +32,14 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **4 background-agent edge fixes** (merged + verified by Claude, 2026-06-19): (1) **CRM follow-up date bug** —
+  a malformed `last_contacted` no longer surfaces a contact as overdue (which spammed the Quick Win slot);
+  extracted pure `is_overdue_followup()` + 11 tests (`71b8b65a`). This was the one launch-audit finding that
+  turned out *real*. (2) **Code-split** Saffron/Peppercorn pages — main bundle **520 → 362 kB** (`8f489e0a`).
+  (3) **Email drafts now labelled "Draft — review and edit before sending"** (en/ja/zh) in `OppDetailPanel`
+  (`7e194236`). (4) **Log rotation** — both runners prune run logs older than 30 days (`37c70eba`). Combined
+  suite green: 44 Python tests, 15 frontend, lint clean, build emits split chunks. The two frontend changes
+  (code-split, draft label) still want the visual smoke-test.
 - **Launch-readiness fixes** (Claude, 2026-06-19): (1) **`deploy.sh` defaulted to shipping `frontend2/`**
   (the sandbox) — fixed the default to `frontend/` (canonical), so `deploy.sh` / `make_ready.bat` now ship
   the app with all current work. This was a launch trap: none of the recent frontend/ work would have reached
@@ -137,12 +145,9 @@ urgent. Come back tomorrow.").
 - **Live verification pass + email-draft generation** — paid, via `make_ready.bat`; needs Scott's go.
 - **Confirm server autonomy is switched on** (cron / systemd / `.env` keys / webhook) — SSH checklist in HANDOFF.
 
-**Minor / nice-to-have (audit-flagged, UNVERIFIED — check only if time):**
-- Draft emails may not be clearly labelled "draft" (`OppDetailPanel`).
-- zh/ja: some server-side strategy + submission-followup strings render English-only (known gap).
-- Frontend bundle ~517 kB, no code-splitting (perf, not correctness).
-- Server pipeline logs have no rotation (grow unbounded).
-- CRM follow-up date parsing may over-surface a quick-win if a contact's `last_contacted` is malformed.
+**Minor / nice-to-have:**
+- zh/ja: some server-side strategy + submission-followup strings render English-only (known gap) — still open.
+- _Done 2026-06-19 (4 agents): draft-email labelling, frontend code-splitting, log rotation, CRM follow-up date bug._
 
 ## Working together (Claude + Codex)
 
