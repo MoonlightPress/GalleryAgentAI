@@ -1501,41 +1501,6 @@ function CareerReadiness({ data, flat }) {
   )
 }
 
-// ── Overview snapshot ───────────────────────────────────────────────────────
-
-function OverviewReport({ careerData: cr, data, t, onGoto }) {
-  const cp = data.career_position
-  const ms = data.market_stats
-  const pathway = data.pathway
-  const ig = cp?.social?.find(s => s.platform === 'Instagram')
-  const dp = ms?.deadline_pressure || {}
-
-  return (
-    <div className="sf-report">
-      <p className="sf-report-role">{t('sf.ov.role')}</p>
-      <p className="sf-report-para">{t('sf.ov.standing', { phase: cr?.current_phase ?? '' })}</p>
-      <p className="sf-report-para">
-        {t('sf.ov.doingWell', {
-          ex: cp?.exhibitions?.length ?? 0,
-          pub: cp?.publications?.length ?? 0,
-          ig: ig?.followers ?? '—',
-        })}
-      </p>
-      {pathway?.next_move && (
-        <p className="sf-report-para sf-report-nudge">
-          {t('sf.ov.oneLittleThing')} <strong>{pathway.next_move}</strong>
-        </p>
-      )}
-      {dp.this_month > 0 && (
-        <p className="sf-report-para sf-report-aside">
-          {t('sf.ov.ifBrowsing', { n: dp.this_month })} <button type="button" className="sf-link" onClick={() => onGoto('market')}>{t('sf.cat.market')}</button>.
-        </p>
-      )}
-      <p className="sf-report-deepdives">{t('sf.ov.deepDives')}</p>
-    </div>
-  )
-}
-
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function SaffronPage({ nav }) {
@@ -1625,7 +1590,7 @@ export default function SaffronPage({ nav }) {
           <SectionErrorBoundary key={tab}>
             {tab === 'standing' && (
               careerData
-                ? <OverviewReport careerData={careerData} data={data} t={t} onGoto={switchTab} />
+                ? <CareerReadiness data={careerData} flat />
                 : <EmptyState message={t('sf.loading')} />
             )}
             {tab === 'market' && (
@@ -1660,7 +1625,6 @@ export default function SaffronPage({ nav }) {
             )}
             {tab === 'direction' && (
               <>
-                {careerData && <CareerReadiness data={careerData} />}
                 <CareerMomentum      data={data.career_momentum}   t={t} />
                 <OpportunityGap      data={data.opportunity_gap}   t={t} />
                 <StrategicPathway    data={data.pathway}              t={t} />
