@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import OppCard from './OppCard'
 import OppDetailPanel from './OppDetailPanel'
+import { cardsPerBatch } from '../utils/layout'
 import './OpportunitiesSection.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import {
@@ -29,7 +30,7 @@ const SECTION_ICONS = {
   watch_list:            '👁',
 }
 
-const PAGE_SIZE = 6   // reveal in small batches, not all at once
+const PAGE_SIZE = cardsPerBatch()   // 6 on desktop (3 cols), 4 on smaller screens (2/1 cols)
 
 function isPressTarget(opp) {
   return (

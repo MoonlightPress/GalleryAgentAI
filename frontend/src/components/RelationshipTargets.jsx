@@ -2,8 +2,9 @@ import { useState, useEffect, useRef } from 'react'
 import './RelationshipTargets.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import { prepareRelationshipTargets } from '../utils/relationshipTargets'
+import { cardsPerBatch } from '../utils/layout'
 
-const PAGE_SIZE = 6
+const PAGE_SIZE = cardsPerBatch()   // 6 on desktop (3 cols), 4 on smaller screens (2/1 cols)
 
 const TYPE_ICON = {
   gallery: '🖼️', gallery_small: '🖼️', gallery_event: '🖼️',
