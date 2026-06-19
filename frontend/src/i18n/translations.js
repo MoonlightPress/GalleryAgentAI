@@ -1852,6 +1852,7 @@ const en = {
   'opps.showingCount':       'Showing {shown} of {total}',
   'opps.hiddenCount':        'Hidden from this board: {n}',
   'opps.showMoreCount':      'Show {n} more',
+  'opps.showLess':           'Show less',
   'opps.strongest.title':    'Mochi\'s strongest picks',
   'opps.strongest.desc':     'Three ready-looking suggestions with clear fit signals. Scores stay behind the curtain.',
 

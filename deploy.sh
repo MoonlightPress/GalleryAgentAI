@@ -30,6 +30,7 @@ cp -r "$SCRIPT_DIR/$FRONTEND_DIR/dist/." "$OUT/www/"
 
 # Python API — only the files the server actually needs at runtime
 cp "$SCRIPT_DIR/api.py"                  "$OUT/app/"
+cp "$SCRIPT_DIR/recommendation_readiness.py" "$OUT/app/"   # api.py imports this at startup — must ship together or mochi-api crashes (502)
 cp "$SCRIPT_DIR/requirements-api.txt"    "$OUT/app/"
 
 # Opportunity data (the core dataset the API serves)

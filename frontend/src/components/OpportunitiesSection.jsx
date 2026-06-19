@@ -29,7 +29,7 @@ const SECTION_ICONS = {
   watch_list:            '👁',
 }
 
-const GRID_PAGE = 12
+const PAGE_SIZE = 9   // reveal opportunities in batches of 9, not all at once
 
 function isPressTarget(opp) {
   return (
@@ -270,7 +270,7 @@ function PressSection({ items }) {
 // ── Opportunity section ───────────────────────────────────────────────────────
 
 function OppSection({ sectionKey, label, description, icon, items, feedbackSignals, onFeedback }) {
-  const [showAll, setShowAll]       = useState(false)
+  const [shown, setShown]           = useState(PAGE_SIZE)
   const [activeId, setActiveId]     = useState(null)
   const [suppressed, setSuppressed] = useState(new Set())
   const { t } = useLanguage()
@@ -279,8 +279,8 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
 
   const ranked    = rankOpportunities(items, sectionKey, feedbackSignals)
   const filtered  = ranked.filter(o => !suppressed.has(o.id) && !feedbackSignals.hiddenIds?.has(o.id))
-  const visible   = showAll ? filtered : filtered.slice(0, GRID_PAGE)
-  const remaining = filtered.length - GRID_PAGE
+  const visible   = filtered.slice(0, shown)
+  const remaining = filtered.length - shown
   const activeOpp = filtered.find(o => o.id === activeId) || null
 
   function handleDetails(opp) {
@@ -338,13 +338,21 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
         />
       )}
 
-      {/* Show more */}
-      {!showAll && remaining > 0 && (
+      {/* Show more — reveal in batches of 9, never all 221 at once */}
+      {remaining > 0 && (
         <button
           className="opp-show-more"
-          onClick={() => setShowAll(true)}
+          onClick={() => setShown(s => s + PAGE_SIZE)}
         >
-          {t('opps.showMoreCount', { n: remaining })}
+          {t('opps.showMoreCount', { n: Math.min(PAGE_SIZE, remaining) })}
+        </button>
+      )}
+      {shown > PAGE_SIZE && (
+        <button
+          className="opp-show-more opp-show-less"
+          onClick={() => setShown(PAGE_SIZE)}
+        >
+          {t('opps.showLess')}
         </button>
       )}
     </section>
