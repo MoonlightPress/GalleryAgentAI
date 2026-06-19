@@ -282,6 +282,22 @@ export default function OppDetailPanel({ opp, onClose }) {
               const draft = emailTab === 'zh' ? opp.email_zh : emailTab === 'ja' ? opp.email_ja : opp.email_en
               return draft ? (
                 <>
+                  <p
+                    className="detail-draft-disclaimer"
+                    style={{
+                      margin: '0 0 8px',
+                      padding: '6px 10px',
+                      background: 'rgba(184, 137, 42, 0.08)',
+                      borderLeft: '2px solid var(--gold, #b8892a)',
+                      borderRadius: '4px',
+                      color: 'var(--ink-muted)',
+                      fontSize: '12px',
+                      fontStyle: 'italic',
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    {t('detail.draftDisclaimer')}
+                  </p>
                   <pre className="detail-email-body">{draft}</pre>
                   <button
                     className="detail-copy-btn"
