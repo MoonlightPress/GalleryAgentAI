@@ -122,6 +122,10 @@
   border: 1px dashed rgba(120, 100, 70, 0.3);
   font-weight: 500;
 }
+.rt-reach--none:hover {
+  background: rgba(120, 100, 70, 0.06);
+  border-style: solid;
+}
 
 .rt-reach-detail {
   font-size: 0.8rem;

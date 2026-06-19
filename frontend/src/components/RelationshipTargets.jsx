@@ -20,7 +20,9 @@ function humanizeType(type) {
 function reachHref(c) {
   if (c.reachVia === 'email') return `mailto:${c.contact_email}`
   if (c.reachVia === 'website') return c.official_website || c.contact_page || c.submission_page || null
-  return null
+  // No direct channel — make "Look them up" a real web search for the venue.
+  const q = encodeURIComponent([c.name, c.city].filter(Boolean).join(' '))
+  return `https://www.google.com/search?q=${q}`
 }
 
 function patchContact(name, fields) {
@@ -73,13 +75,9 @@ function ContactCard({ c, t, onHide }) {
       {why && <p className="rt-why">{why}</p>}
 
       <div className="rt-actions">
-        {href ? (
-          <a className="rt-reach" href={href} target="_blank" rel="noreferrer">
-            {t(`people.reach.${c.reachVia}`)}
-          </a>
-        ) : (
-          <span className="rt-reach rt-reach--none">{t('people.reach.none')}</span>
-        )}
+        <a className="rt-reach" href={href} target="_blank" rel="noreferrer">
+          {t(`people.reach.${c.reachVia}`)}
+        </a>
         <button className="rt-details-btn" onClick={() => setOpen(o => !o)}>
           {open ? t('people.hide') : t('people.details')}
         </button>
