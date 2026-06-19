@@ -32,6 +32,15 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Frontend lint cleanup** (Claude, 2026-06-19): `npm run lint` now exits clean (was 29 errors + 1 warning).
+  Real fixes: moved conditionally-called `useLanguage` above early returns in `TodaysFocus` + `SaffronPage`
+  (rules-of-hooks — genuine bug); removed 5 unused vars and 3 duplicate `sf.label.posts` translation keys
+  (the dead shadowed copies). Justified `eslint-disable` for legitimate patterns the new rules over-flag: 4
+  `setState`-in-effect (async-data → local-state sync), 1 callback-ref, 1 fast-refresh hook-beside-provider,
+  1 **orphaned `quickLog` handler** (suppressed + flagged — it's a quick-log event handler with no UI wired
+  to it; decide: wire it up or delete). Build + 15 frontend tests green. **Not visually smoke-tested — verify
+  Peppercorn/Saffron still render after the hook-order changes.** Note: surviving zh/ja `sf.label.posts`
+  labels ("条帖子"/"件の投稿") read awkwardly standalone — a content cleanup, not lint.
 - **Mochi "People to reach out to" view** (Claude, 2026-06-19, tests-first; commit `687c4931`): surfaces the
   52 researched relationship contacts (previously `/api/contacts` + data only, NO UI) as a third view on
   Mochi's page (cards / calendar / **people**) — name, `why_relevant`, type/city pills, and a mailto/website

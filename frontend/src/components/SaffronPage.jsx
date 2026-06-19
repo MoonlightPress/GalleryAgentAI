@@ -234,13 +234,6 @@ function StrategicPathway({ data, t }) {
 
 // ── New sections ───────────────────────────────────────────────────────────
 
-function parseFollowers(str) {
-  if (str == null) return null
-  const s = String(str).replace(/~/g, '').trim()
-  const n = s.toLowerCase().endsWith('k') ? parseFloat(s) * 1000 : parseFloat(s)
-  return isNaN(n) ? null : n
-}
-
 function InstagramStrategy({ data, t }) {
   const ig = data.platforms.find(p => p.name === 'Instagram')
   const postingFreq = data.known?.posting_frequency
@@ -977,7 +970,7 @@ const TRAJECTORY_COLORS = {
 }
 
 function CareerMomentum({ data, t }) {
-  const { this_month, totals, response_rate, trajectory, monthly_chart, recent_activity } = data
+  const { totals, response_rate, trajectory, monthly_chart, recent_activity } = data
   const maxBar = Math.max(...monthly_chart.map(m => m.submissions + m.contacts), 1)
   const trajColor = TRAJECTORY_COLORS[trajectory] || '#9a7040'
   const summary = t('sf.sum.momentum', { submissions: totals.submissions, venues: totals.venues_in_crm, rate: response_rate })
@@ -1013,7 +1006,6 @@ function CareerMomentum({ data, t }) {
       <div className="sf-mom-chart">
         {monthly_chart.map((m, i) => {
           const total = m.submissions + m.contacts
-          const pct   = Math.round((total / maxBar) * 100)
           return (
             <div key={i} className="sf-mom-bar-col">
               <div className="sf-mom-bar-track">
@@ -1226,8 +1218,6 @@ function PricingIntelligence({ t }) {
 
 // ── Opportunity Gap Analysis ───────────────────────────────────────────────
 
-const GAP_COLORS = { gap: '#b03020', strength: '#5a7a30', on_track: '#9a7040' }
-
 function OpportunityGap({ data, t }) {
   const summary = `${data.gaps.length} gaps · ${data.strengths.length} strengths`
   return (
@@ -1329,8 +1319,8 @@ const MEDIUM_LABELS = {
 }
 
 function MarketStats({ data }) {
-  if (!data) return null
   const { t } = useLanguage()
+  if (!data) return null
   const cats   = Object.entries(data.by_category || {})
   const maxCat = Math.max(...cats.map(([, v]) => v), 1)
   const { top_tier = 0, mid_tier = 0, lower_tier = 0 } = data.score_distribution || {}
@@ -1388,8 +1378,8 @@ function MarketStats({ data }) {
 }
 
 function CareerReadiness({ data }) {
-  if (!data) return null
   const { t } = useLanguage()
+  if (!data) return null
 
   const tier3Pct = (data.readiness_scores?.tier_3_readiness ?? 0) * 100
   const tier4Pct = (data.readiness_scores?.tier_4_readiness ?? 0) * 100

@@ -215,6 +215,7 @@ function ArtistStatementSection({ data, onSave, isOpen, onToggle, sectionRef }) 
   const [text, setText] = useState(data || '')
   const [saved, flash] = useSaved()
   const { t } = useLanguage()
+  // eslint-disable-next-line react-hooks/set-state-in-effect -- sync async-loaded data into editable local state
   useEffect(() => { setText(data || '') }, [data])
 
   return (
@@ -266,6 +267,7 @@ function buildQuestions(t) {
 function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [answers, setAnswers] = useState(data || {})
   const { t } = useLanguage()
+  // eslint-disable-next-line react-hooks/set-state-in-effect -- sync async-loaded data into editable local state
   useEffect(() => { setAnswers(data || {}) }, [data])
 
   const QUESTIONS = buildQuestions(t)
@@ -393,10 +395,11 @@ const GOAL_PLACEHOLDER_KEYS = [
 function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [goals,  setGoals]  = useState(data || [])
   const [input,  setInput]  = useState('')
-  const [saved,  flash]     = useSaved()
+  const [, flash]           = useSaved()
   const [phIdx]             = useState(() => Math.floor(Math.random() * GOAL_PLACEHOLDER_KEYS.length))
   const [shownFirstNote, setShownFirstNote] = useState((data || []).length > 0)
   const { t } = useLanguage()
+  // eslint-disable-next-line react-hooks/set-state-in-effect -- sync async-loaded data into editable local state
   useEffect(() => { setGoals(data || []) }, [data])
 
   function addGoal() {
@@ -502,6 +505,7 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [less,  setLess]  = useState(pref.surface_less   || [])
   const [saved, flash]    = useSaved()
 
+  /* eslint-disable react-hooks/set-state-in-effect -- sync async-loaded data into editable local state */
   useEffect(() => {
     const p  = (data || {}).priorities  || {}
     const pr = (data || {}).preferences || {}
@@ -513,6 +517,7 @@ function PreferencesSection({ data, onSave, isOpen, onToggle, sectionRef }) {
     setMore(pr.surface_more  || ['zines_books'])
     setLess(pr.surface_less  || [])
   }, [data])
+  /* eslint-enable react-hooks/set-state-in-effect */
 
   const toggleTier = n   => setTiers(ts => ts.includes(n) ? ts.filter(tier => tier !== n) : [...ts, n].sort())
   const toggleAvoid = id => setAvoid(av => av.includes(id) ? av.filter(a => a !== id) : [...av, id])
@@ -1515,6 +1520,7 @@ function CareerEventWidget() {
     } catch { /* keep the note so the user can retry */ }
   }
 
+  // eslint-disable-next-line no-unused-vars -- quick-log handler, pending UI wire-up
   async function quickLog(type) {
     // Single tap logs immediately (no note required)
     try {
@@ -1713,7 +1719,7 @@ function computeSectionOrder(profile) {
 // ── Dismissal insight banner ──────────────────────────────────────────────
 
 function DismissalInsightBanner() {
-  const { t, lang } = useLanguage()
+  const { t } = useLanguage()
   const [insights, setInsights] = useState(null)
   const [dismissed, setDismissed] = useState(false)
   const [saved, setSaved] = useState(false)
@@ -1789,6 +1795,7 @@ export default function PeppercornPage({ nav }) {
   }, [])
 
   // Track active card via IntersectionObserver
+  const sectionOrderKey = sectionOrder.join(',')
   useEffect(() => {
     if (!profile) return
     const obs = new IntersectionObserver(
@@ -1799,7 +1806,7 @@ export default function PeppercornPage({ nav }) {
     )
     Object.values(sectionRefs.current).forEach(el => { if (el) obs.observe(el) })
     return () => obs.disconnect()
-  }, [profile, sectionOrder.join(',')])
+  }, [profile, sectionOrderKey])
 
   async function saveSection(updates) {
     const next = { ...profile, ...updates }
@@ -1841,6 +1848,7 @@ export default function PeppercornPage({ nav }) {
   }
 
   function setSectionRef(id) {
+    // eslint-disable-next-line react-hooks/refs -- callback ref: assignment runs on attach, not during render
     return el => { sectionRefs.current[id] = el }
   }
 

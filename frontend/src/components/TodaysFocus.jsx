@@ -48,8 +48,8 @@ function fmtDeadline(str, lang) {
 }
 
 function TodayCard({ card, role, isOpen, onDetails }) {
-  if (!card) return null
   const { t: tFn, lang } = useLanguage()
+  if (!card) return null
   const loc = (field) => {
     if (lang === 'zh' && card[field + '_zh']) return card[field + '_zh']
     if (lang === 'ja' && card[field + '_ja']) return card[field + '_ja']

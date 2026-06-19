@@ -15,7 +15,7 @@ export function LanguageProvider({ children }) {
 
   const setLang = useCallback(code => {
     setLangState(code)
-    try { localStorage.setItem(LS_KEY, code) } catch {}
+    try { localStorage.setItem(LS_KEY, code) } catch { /* localStorage unavailable */ }
   }, [])
 
   const t = useCallback((key, vars) => translate(key, lang, vars), [lang])
@@ -27,6 +27,7 @@ export function LanguageProvider({ children }) {
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components -- hook colocated with its provider by design
 export function useLanguage() {
   return useContext(LanguageContext)
 }
