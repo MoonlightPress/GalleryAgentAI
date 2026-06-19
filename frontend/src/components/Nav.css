@@ -151,3 +151,23 @@
   user-select: none;
   padding: 0 1px;
 }
+
+/* ── Phone: tighter padding, wrapping companions, and a swipeable quick-nav
+   row instead of 9 items cramming/wrapping into unreadable lines. ── */
+@media (max-width: 640px) {
+  .site-nav { padding: 14px 12px; gap: 12px; }
+  .companion-row { gap: 18px; flex-wrap: wrap; justify-content: center; }
+  .companion-btn { font-size: 21px; }
+  .lang-toggle { margin-left: 0; padding-left: 0; }
+  .quick-nav-row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .quick-nav-row::-webkit-scrollbar { display: none; }
+  .quick-nav-item { font-size: 14px; padding: 6px 10px; }
+}

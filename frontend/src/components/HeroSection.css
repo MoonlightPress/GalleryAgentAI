@@ -145,3 +145,21 @@
 .focus-see-all:hover {
   color: var(--ink);
 }
+
+/* ── Phone: banner image + greeting below it; drop the cramped focus-card
+   (the full Today's Focus section renders right underneath anyway). ── */
+@media (max-width: 640px) {
+  .hero { height: auto; min-height: 0; }
+  .hero-img { height: 190px; object-position: center 28%; }
+  .hero-overlay {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 14px 18px 16px;
+    background: var(--parchment);
+    gap: 10px;
+  }
+  .greeting-main { font-size: 26px; }
+  .greeting-sub { font-size: 18px; }
+  .focus-card { display: none; }
+}
