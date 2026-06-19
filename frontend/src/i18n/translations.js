@@ -158,6 +158,10 @@ const zh = {
   'sf.catDesc.money':        '收入、定价、补助、授权',
   'sf.bottomNavLabel':       '深入某个主题',
   'sf.browseIntro':          '红雀眼中你的职业全景。按主题浏览：',
+  'sf.ov.herRecord':         '她的履历',
+  'sf.ov.theMarket':         '当前市场',
+  'sf.ov.openOpps':          '可申请机会',
+  'sf.ov.topOpp':            '最高匹配',
   'sf.error':                '红雀需要猫饼API — python api.py',
   'sf.missing.askPepper':    '{label} — 去问胡椒粒',
 
@@ -1108,6 +1112,10 @@ const ja = {
   'sf.catDesc.money':        '収入・価格・助成・ライセンス',
   'sf.bottomNavLabel':       'テーマを掘り下げる',
   'sf.browseIntro':          'サフランから見たキャリアの全体像。テーマで切替：',
+  'sf.ov.herRecord':         '実績',
+  'sf.ov.theMarket':         '現在の市場',
+  'sf.ov.openOpps':          '応募可能な機会',
+  'sf.ov.topOpp':            '最高スコア',
   'sf.error':                'サフランにはMochi APIが必要です — python api.py',
   'sf.missing.askPepper':    '{label} — ペッパーコーンに聞いて',
 
@@ -2012,6 +2020,10 @@ const en = {
   'sf.catDesc.money':        'Revenue, pricing, grants, licensing',
   'sf.bottomNavLabel':       'Drill into a theme',
   'sf.browseIntro':          "Saffron's wide view of your career — browse by theme:",
+  'sf.ov.herRecord':         'Her record',
+  'sf.ov.theMarket':         'The market right now',
+  'sf.ov.openOpps':          'Open opportunities',
+  'sf.ov.topOpp':            'Top-scored match',
   'sf.error':                'Saffron needs the Mochi API — python api.py',
   'sf.missing.askPepper':    '{label} — ask Peppercorn',
 

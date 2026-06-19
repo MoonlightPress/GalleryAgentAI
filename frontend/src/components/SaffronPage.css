@@ -128,6 +128,36 @@
   color: #8a7350;
   margin-top: 7px;
 }
+.sf-overview-block-label {
+  font-family: Georgia, serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #a08a60;
+  margin: 22px 0 8px;
+}
+.sf-overview-traj { font-size: 0.85rem; color: #5a7a30; }
+.sf-overview-chip--wide {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sf-overview-chip-num--sm { font-size: 1rem; font-weight: 600; line-height: 1.3; }
+.sf-overview-nextmove {
+  margin-top: 18px;
+  background: #fff;
+  border: 1px solid #e8d5a8;
+  border-left: 3px solid #c49a3e;
+  border-radius: 8px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sf-overview-nextmove-row { font-size: 0.92rem; line-height: 1.5; color: #4a4136; }
+.sf-overview-nextmove-label { font-weight: 600; color: #b03020; margin-right: 6px; }
+.sf-overview-nextmove-label--go { color: #5a7a30; }
 
 /* Bottom nav — reiterate the themes with their intent */
 .sf-bottom-nav {

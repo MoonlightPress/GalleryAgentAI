@@ -1506,8 +1506,11 @@ function CareerReadiness({ data, flat }) {
 function OverviewStats({ careerData: cr, data, t }) {
   const cp = data.career_position
   const cm = data.career_momentum
+  const ms = data.market_stats
+  const pathway = data.pathway
   const ig = cp?.social?.find(s => s.platform === 'Instagram')
-  const chips = [
+
+  const recordChips = [
     [cp?.exhibitions?.length ?? 0,    t('sf.label.exhibitions')],
     [cp?.publications?.length ?? 0,   t('sf.label.publications')],
     [ig?.followers ?? '—',            'Instagram'],
@@ -1515,6 +1518,14 @@ function OverviewStats({ careerData: cr, data, t }) {
     [cm?.totals?.venues_in_crm ?? 0,  t('sf.mom.venuesInCRM')],
     [cm?.response_rate ?? '—',        t('sf.mom.responses')],
   ]
+  const dp = ms?.deadline_pressure || {}
+  const marketChips = [
+    [ms?.total_opportunities ?? 0,    t('sf.ov.openOpps')],
+    [dp.this_month ?? 0,              t('sf.ms.thisMonth')],
+    [dp.next_3_months ?? 0,           t('sf.ms.next3months')],
+  ]
+  const topOpp = ms?.top_scored?.[0]
+
   return (
     <div className="sf-overview-stats-panel">
       {cr?.current_phase && (
@@ -1523,16 +1534,54 @@ function OverviewStats({ careerData: cr, data, t }) {
           {cr.months_to_tier3 != null && (
             <span className="sf-overview-timeline">{t('sf.cr.monthsToTier3', { n: cr.months_to_tier3 })}</span>
           )}
+          {cm?.trajectory && (
+            <span className="sf-overview-traj">{t('sf.mom.trajectory')}: {t(`sf.mom.traj.${cm.trajectory}`) || cm.trajectory}</span>
+          )}
         </div>
       )}
+
+      <div className="sf-overview-block-label">{t('sf.ov.herRecord')}</div>
       <div className="sf-overview-chips">
-        {chips.map(([num, label], i) => (
+        {recordChips.map(([num, label], i) => (
           <div key={i} className="sf-overview-chip">
             <div className="sf-overview-chip-num">{num}</div>
             <div className="sf-overview-chip-label">{label}</div>
           </div>
         ))}
       </div>
+
+      <div className="sf-overview-block-label">{t('sf.ov.theMarket')}</div>
+      <div className="sf-overview-chips">
+        {marketChips.map(([num, label], i) => (
+          <div key={i} className="sf-overview-chip">
+            <div className="sf-overview-chip-num">{num}</div>
+            <div className="sf-overview-chip-label">{label}</div>
+          </div>
+        ))}
+        {topOpp && (
+          <div className="sf-overview-chip sf-overview-chip--wide">
+            <div className="sf-overview-chip-num sf-overview-chip-num--sm">{topOpp.name}</div>
+            <div className="sf-overview-chip-label">{t('sf.ov.topOpp')}</div>
+          </div>
+        )}
+      </div>
+
+      {(pathway?.next_move || pathway?.blocking_now) && (
+        <div className="sf-overview-nextmove">
+          {pathway.blocking_now && (
+            <div className="sf-overview-nextmove-row">
+              <span className="sf-overview-nextmove-label">{t('sf.label.whatBlocking')}</span>
+              <span>{pathway.blocking_now}</span>
+            </div>
+          )}
+          {pathway.next_move && (
+            <div className="sf-overview-nextmove-row">
+              <span className="sf-overview-nextmove-label sf-overview-nextmove-label--go">{t('sf.label.nextMove')}</span>
+              <span>{pathway.next_move}</span>
+            </div>
+          )}
+        </div>
+      )}
     </div>
   )
 }
