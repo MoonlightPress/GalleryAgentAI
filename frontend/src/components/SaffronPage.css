@@ -159,6 +159,81 @@
 .sf-overview-nextmove-label { font-weight: 600; color: #b03020; margin-right: 6px; }
 .sf-overview-nextmove-label--go { color: #5a7a30; }
 
+/* Overview as a report — narrative + linkable, actionable items */
+.sf-report { padding: 22px 20px 8px; }
+.sf-report-lede {
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  color: #5a4326;
+  margin: 0 0 8px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.sf-report-pill {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #b5701f;
+  background: rgba(196, 122, 53, 0.13);
+  padding: 3px 11px;
+  border-radius: 999px;
+}
+.sf-report-pill--traj { color: #5a7a30; background: rgba(90, 122, 48, 0.13); }
+.sf-report-record { font-size: 0.9rem; color: #8a7350; margin: 0 0 16px; }
+.sf-report-milestone {
+  font-size: 0.96rem;
+  line-height: 1.55;
+  color: #4a4136;
+  font-style: italic;
+  margin: 0 0 20px;
+}
+.sf-report-label {
+  font-family: Georgia, serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #a08a60;
+  margin-bottom: 10px;
+}
+.sf-report-items { display: flex; flex-direction: column; gap: 8px; }
+.sf-report-item {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  text-align: left;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e8d5a8;
+  border-radius: 9px;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+}
+.sf-report-item:hover {
+  border-color: #c49a3e;
+  background: #fffdf8;
+  transform: translateX(2px);
+}
+.sf-report-dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.sf-report-item-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #a08a60;
+  flex: none;
+  min-width: 92px;
+}
+.sf-report-item-label--go { color: #5a7a30; }
+.sf-report-item-label--block { color: #b03020; }
+.sf-report-item-text { font-size: 0.93rem; color: #4a4136; line-height: 1.4; flex: 1; }
+.sf-report-item-arrow { color: #c49a3e; font-size: 1.15rem; flex: none; }
+@media (max-width: 600px) {
+  .sf-report-item { flex-wrap: wrap; }
+  .sf-report-item-label { min-width: 0; }
+}
+
 /* Bottom nav — reiterate the themes with their intent */
 .sf-bottom-nav {
   margin-top: 18px;

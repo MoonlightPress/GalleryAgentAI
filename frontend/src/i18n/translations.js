@@ -162,6 +162,8 @@ const zh = {
   'sf.ov.theMarket':         '当前市场',
   'sf.ov.openOpps':          '可申请机会',
   'sf.ov.topOpp':            '最高匹配',
+  'sf.ov.whatNeedsAttention':'需要关注的事项',
+  'sf.ov.deadlinesThisMonth':'本月有 {n} 个截止',
   'sf.error':                '红雀需要猫饼API — python api.py',
   'sf.missing.askPepper':    '{label} — 去问胡椒粒',
 
@@ -1116,6 +1118,8 @@ const ja = {
   'sf.ov.theMarket':         '現在の市場',
   'sf.ov.openOpps':          '応募可能な機会',
   'sf.ov.topOpp':            '最高スコア',
+  'sf.ov.whatNeedsAttention':'注目すべき点',
+  'sf.ov.deadlinesThisMonth':'今月締切 {n} 件',
   'sf.error':                'サフランにはMochi APIが必要です — python api.py',
   'sf.missing.askPepper':    '{label} — ペッパーコーンに聞いて',
 
@@ -2024,6 +2028,8 @@ const en = {
   'sf.ov.theMarket':         'The market right now',
   'sf.ov.openOpps':          'Open opportunities',
   'sf.ov.topOpp':            'Top-scored match',
+  'sf.ov.whatNeedsAttention':'What needs your attention',
+  'sf.ov.deadlinesThisMonth':'{n} deadlines closing this month',
   'sf.error':                'Saffron needs the Mochi API — python api.py',
   'sf.missing.askPepper':    '{label} — ask Peppercorn',
 

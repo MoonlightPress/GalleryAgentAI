@@ -1503,84 +1503,56 @@ function CareerReadiness({ data, flat }) {
 
 // ── Overview snapshot ───────────────────────────────────────────────────────
 
-function OverviewStats({ careerData: cr, data, t }) {
+function OverviewReport({ careerData: cr, data, t, onGoto }) {
   const cp = data.career_position
   const cm = data.career_momentum
   const ms = data.market_stats
   const pathway = data.pathway
   const ig = cp?.social?.find(s => s.platform === 'Instagram')
-
-  const recordChips = [
-    [cp?.exhibitions?.length ?? 0,    t('sf.label.exhibitions')],
-    [cp?.publications?.length ?? 0,   t('sf.label.publications')],
-    [ig?.followers ?? '—',            'Instagram'],
-    [cm?.totals?.submissions ?? 0,    t('sf.mom.totalSubmissions')],
-    [cm?.totals?.venues_in_crm ?? 0,  t('sf.mom.venuesInCRM')],
-    [cm?.response_rate ?? '—',        t('sf.mom.responses')],
-  ]
   const dp = ms?.deadline_pressure || {}
-  const marketChips = [
-    [ms?.total_opportunities ?? 0,    t('sf.ov.openOpps')],
-    [dp.this_month ?? 0,              t('sf.ms.thisMonth')],
-    [dp.next_3_months ?? 0,           t('sf.ms.next3months')],
-  ]
-  const topOpp = ms?.top_scored?.[0]
+  const gaps = cr?.blocking_gaps ?? []
+  const actNow = cr?.immediate_priorities ?? []
+
+  const recordLine = [
+    `${cp?.exhibitions?.length ?? 0} ${t('sf.label.exhibitions')}`,
+    `${cp?.publications?.length ?? 0} ${t('sf.label.publications')}`,
+    ig?.followers ? `Instagram ${ig.followers}` : null,
+    `${cm?.totals?.submissions ?? 0} ${t('sf.mom.totalSubmissions')}`,
+    cm?.response_rate ? `${cm.response_rate} ${t('sf.mom.responses')}` : null,
+  ].filter(Boolean).join('  ·  ')
+
+  // Linkable, actionable report items — each jumps into the relevant tab.
+  const items = []
+  if (pathway?.next_move)    items.push({ label: t('sf.label.nextMove'),     text: pathway.next_move,  tab: 'direction', kind: 'go' })
+  if (pathway?.blocking_now) items.push({ label: t('sf.label.whatBlocking'), text: pathway.blocking_now, tab: 'direction', kind: 'block' })
+  if (dp.this_month > 0)     items.push({ label: t('sf.ms.thisMonth'),       text: t('sf.ov.deadlinesThisMonth', { n: dp.this_month }), tab: 'market', kind: 'time' })
+  gaps.slice(0, 3).forEach(g  => items.push({ label: t('sf.cr.blockingGaps'), text: g.action || g.gap, tab: 'direction', kind: 'gap', priority: g.priority }))
+  actNow.slice(0, 3).forEach(o => items.push({ label: t('sf.cr.actNow'),      text: o.name ?? o.title ?? o, tab: 'market', kind: 'act' }))
 
   return (
-    <div className="sf-overview-stats-panel">
-      {cr?.current_phase && (
-        <div className="sf-overview-headline">
-          <span className="sf-overview-phase">{cr.current_phase}</span>
-          {cr.months_to_tier3 != null && (
-            <span className="sf-overview-timeline">{t('sf.cr.monthsToTier3', { n: cr.months_to_tier3 })}</span>
-          )}
-          {cm?.trajectory && (
-            <span className="sf-overview-traj">{t('sf.mom.trajectory')}: {t(`sf.mom.traj.${cm.trajectory}`) || cm.trajectory}</span>
-          )}
-        </div>
-      )}
+    <div className="sf-report">
+      <p className="sf-report-lede">
+        <strong>{cr?.current_phase}</strong>
+        {cr?.months_to_tier3 != null && <span className="sf-report-pill">{t('sf.cr.monthsToTier3', { n: cr.months_to_tier3 })}</span>}
+        {cm?.trajectory && <span className="sf-report-pill sf-report-pill--traj">{t(`sf.mom.traj.${cm.trajectory}`) || cm.trajectory}</span>}
+      </p>
+      {recordLine && <p className="sf-report-record">{recordLine}</p>}
+      {cr?.next_milestone && <p className="sf-report-milestone">{cr.next_milestone}</p>}
 
-      <div className="sf-overview-block-label">{t('sf.ov.herRecord')}</div>
-      <div className="sf-overview-chips">
-        {recordChips.map(([num, label], i) => (
-          <div key={i} className="sf-overview-chip">
-            <div className="sf-overview-chip-num">{num}</div>
-            <div className="sf-overview-chip-label">{label}</div>
+      {items.length > 0 && (
+        <>
+          <div className="sf-report-label">{t('sf.ov.whatNeedsAttention')}</div>
+          <div className="sf-report-items">
+            {items.map((it, i) => (
+              <button key={i} className="sf-report-item" onClick={() => onGoto(it.tab)}>
+                {it.priority && <span className="sf-report-dot" style={{ background: GAP_DOT_COLORS[it.priority] ?? '#b0a080' }} />}
+                <span className={`sf-report-item-label sf-report-item-label--${it.kind}`}>{it.label}</span>
+                <span className="sf-report-item-text">{it.text}</span>
+                <span className="sf-report-item-arrow">→</span>
+              </button>
+            ))}
           </div>
-        ))}
-      </div>
-
-      <div className="sf-overview-block-label">{t('sf.ov.theMarket')}</div>
-      <div className="sf-overview-chips">
-        {marketChips.map(([num, label], i) => (
-          <div key={i} className="sf-overview-chip">
-            <div className="sf-overview-chip-num">{num}</div>
-            <div className="sf-overview-chip-label">{label}</div>
-          </div>
-        ))}
-        {topOpp && (
-          <div className="sf-overview-chip sf-overview-chip--wide">
-            <div className="sf-overview-chip-num sf-overview-chip-num--sm">{topOpp.name}</div>
-            <div className="sf-overview-chip-label">{t('sf.ov.topOpp')}</div>
-          </div>
-        )}
-      </div>
-
-      {(pathway?.next_move || pathway?.blocking_now) && (
-        <div className="sf-overview-nextmove">
-          {pathway.blocking_now && (
-            <div className="sf-overview-nextmove-row">
-              <span className="sf-overview-nextmove-label">{t('sf.label.whatBlocking')}</span>
-              <span>{pathway.blocking_now}</span>
-            </div>
-          )}
-          {pathway.next_move && (
-            <div className="sf-overview-nextmove-row">
-              <span className="sf-overview-nextmove-label sf-overview-nextmove-label--go">{t('sf.label.nextMove')}</span>
-              <span>{pathway.next_move}</span>
-            </div>
-          )}
-        </div>
+        </>
       )}
     </div>
   )
@@ -1676,7 +1648,7 @@ export default function SaffronPage({ nav }) {
             {tab === 'standing' && (
               careerData ? (
                 <>
-                  <OverviewStats careerData={careerData} data={data} t={t} />
+                  <OverviewReport careerData={careerData} data={data} t={t} onGoto={switchTab} />
                   <CareerReadiness data={careerData} flat />
                 </>
               ) : <EmptyState message={t('sf.loading')} />
