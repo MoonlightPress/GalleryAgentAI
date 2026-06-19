@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, lazy, Suspense } from 'react'
 import './App.css'
 import { LanguageProvider, useLanguage } from './i18n/LanguageContext'
 import HeroSection from './components/HeroSection'
@@ -6,10 +6,20 @@ import Nav from './components/Nav'
 import TodaysFocus from './components/TodaysFocus'
 import OpportunitiesSection from './components/OpportunitiesSection'
 import DeadlineCalendar from './components/DeadlineCalendar'
-import PeppercornPage from './components/PeppercornPage'
-import SaffronPage from './components/SaffronPage'
 import RelationshipTargets from './components/RelationshipTargets'
 import StatusBar from './components/StatusBar'
+
+const SaffronPage = lazy(() => import('./components/SaffronPage'))
+const PeppercornPage = lazy(() => import('./components/PeppercornPage'))
+
+function PageFallback() {
+  const { t } = useLanguage()
+  return (
+    <p className="page-loading" style={{ textAlign: 'center', fontStyle: 'italic', padding: '3rem 1rem', color: 'var(--muted)' }}>
+      {t('opps.loading')}
+    </p>
+  )
+}
 
 function ViewToggle({ view, setView }) {
   const { t } = useLanguage()
@@ -53,8 +63,12 @@ export default function App() {
         {page === 'discover' && view === 'cards'    && <OpportunitiesSection />}
         {page === 'discover' && view === 'calendar' && <DeadlineCalendar />}
         {page === 'discover' && view === 'people'   && <RelationshipTargets />}
-        {page === 'observe'  && <SaffronPage nav={nav} />}
-        {page === 'refine'   && <PeppercornPage nav={nav} />}
+        {(page === 'observe' || page === 'refine') && (
+          <Suspense fallback={<PageFallback />}>
+            {page === 'observe' && <SaffronPage nav={nav} />}
+            {page === 'refine'  && <PeppercornPage nav={nav} />}
+          </Suspense>
+        )}
         <StatusBar />
       </div>
     </LanguageProvider>
