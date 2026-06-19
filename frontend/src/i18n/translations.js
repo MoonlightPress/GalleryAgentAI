@@ -146,11 +146,17 @@ const zh = {
 
   // ── Saffron page ──────────────────────────────────────────────────────────
   'sf.loading':              '红雀正在观察…',
-  'sf.cat.standing':         '你的位置',
+  'sf.cat.standing':         '概览',
   'sf.cat.market':           '市场环境',
   'sf.cat.relationships':    '人脉与媒体',
   'sf.cat.money':            '收入',
   'sf.cat.direction':        '方向',
+  'sf.catDesc.standing':     '她目前的处境',
+  'sf.catDesc.direction':    '策略、长期路径、应积累的方向',
+  'sf.catDesc.market':       '市场环境、时机、同行与她的履历',
+  'sf.catDesc.relationships':'媒体、推介对象、合作、场地',
+  'sf.catDesc.money':        '收入、定价、补助、授权',
+  'sf.bottomNavLabel':       '深入某个主题',
   'sf.error':                '红雀需要猫饼API — python api.py',
   'sf.missing.askPepper':    '{label} — 去问胡椒粒',
 
@@ -1089,11 +1095,17 @@ const ja = {
 
   // ── Saffron ───────────────────────────────────────────────────────────────
   'sf.loading':              'サフランが眺めています…',
-  'sf.cat.standing':         '現在地',
+  'sf.cat.standing':         '概要',
   'sf.cat.market':           'マーケット',
   'sf.cat.relationships':    '人脈・メディア',
   'sf.cat.money':            '収入',
   'sf.cat.direction':        '方向性',
+  'sf.catDesc.standing':     '現在の立ち位置',
+  'sf.catDesc.direction':    '戦略・長期の道筋・積み上げる方向',
+  'sf.catDesc.market':       '市場環境・タイミング・同世代・実績',
+  'sf.catDesc.relationships':'メディア・売り込み先・協働・会場',
+  'sf.catDesc.money':        '収入・価格・助成・ライセンス',
+  'sf.bottomNavLabel':       'テーマを掘り下げる',
   'sf.error':                'サフランにはMochi APIが必要です — python api.py',
   'sf.missing.askPepper':    '{label} — ペッパーコーンに聞いて',
 
@@ -1986,11 +1998,17 @@ const en = {
 
 
   'sf.loading':              'Saffron is watching…',
-  'sf.cat.standing':         'Where You Stand',
+  'sf.cat.standing':         'Overview',
   'sf.cat.market':           'The Market',
   'sf.cat.relationships':    'People & Press',
   'sf.cat.money':            'Money',
   'sf.cat.direction':        'Direction',
+  'sf.catDesc.standing':     'Where she stands right now',
+  'sf.catDesc.direction':    'Strategy, long-term paths, what to build toward',
+  'sf.catDesc.market':       'The landscape, timing, peers, and her record',
+  'sf.catDesc.relationships':'Press, pitch targets, collaborations, venues',
+  'sf.catDesc.money':        'Revenue, pricing, grants, licensing',
+  'sf.bottomNavLabel':       'Drill into a theme',
   'sf.error':                'Saffron needs the Mochi API — python api.py',
   'sf.missing.askPepper':    '{label} — ask Peppercorn',
 

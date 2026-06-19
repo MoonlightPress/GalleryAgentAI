@@ -37,6 +37,7 @@
   z-index: 5;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 4px;
   padding: 10px 16px;
   background: #fdf8ee;
@@ -62,8 +63,79 @@
   font-weight: 600;
 }
 @media (max-width: 600px) {
-  .sf-tabs { overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; }
+  .sf-tabs { overflow-x: auto; flex-wrap: nowrap; justify-content: flex-start; scrollbar-width: none; }
   .sf-tabs::-webkit-scrollbar { display: none; }
+}
+
+/* Intro line above the tabs */
+.sf-browse-intro {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #8a7350;
+  margin: 0;
+  padding: 16px 20px 6px;
+}
+
+/* Flat (non-collapsible) section — used for the Overview panel */
+.sf-section--flat .sf-flat-header { padding: 18px 20px 4px; }
+.sf-section--flat .sf-flat-header .sf-section-title { margin: 0; }
+
+/* Bottom nav — reiterate the themes with their intent */
+.sf-bottom-nav {
+  margin-top: 18px;
+  padding: 20px 16px 30px;
+  border-top: 1px solid #e8d5a8;
+  background: #faf3e4;
+}
+.sf-bottom-nav-label {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #a08a60;
+  margin-bottom: 14px;
+}
+.sf-bottom-nav-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.sf-bottom-nav-item {
+  text-align: left;
+  background: #fff;
+  border: 1px solid #e8d5a8;
+  border-radius: 10px;
+  padding: 12px 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+}
+.sf-bottom-nav-item:hover {
+  border-color: #c49a3e;
+  background: #fffdf8;
+  transform: translateY(-1px);
+}
+.sf-bottom-nav-item--active {
+  border-color: #c49a3e;
+  background: rgba(196, 154, 62, 0.10);
+}
+.sf-bottom-nav-name {
+  font-family: Georgia, serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #5a4326;
+}
+.sf-bottom-nav-desc {
+  font-size: 0.84rem;
+  line-height: 1.4;
+  color: #8a7350;
 }
 
 .sf-loading,

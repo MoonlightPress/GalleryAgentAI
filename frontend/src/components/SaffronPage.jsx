@@ -1,4 +1,4 @@
-import { useState, useEffect, Component } from 'react'
+import { useState, useEffect, useRef, Component } from 'react'
 import './SaffronPage.css'
 import { saffronHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
@@ -29,17 +29,26 @@ class SectionErrorBoundary extends Component {
 
 // ── Shared primitives ──────────────────────────────────────────────────────
 
-function SectionShell({ title, subtitle, summary, defaultOpen = false, children }) {
+function SectionShell({ title, subtitle, summary, defaultOpen = false, flat = false, children }) {
   const [open, setOpen] = useState(defaultOpen)
+  if (flat) {
+    return (
+      <section className="sf-section sf-section--flat">
+        <div className="sf-flat-header">
+          <h2 className="sf-section-title">{title}</h2>
+          {subtitle && <p className="sf-section-subtitle">{subtitle}</p>}
+        </div>
+        <div className="sf-section-body">{children}</div>
+      </section>
+    )
+  }
   return (
     <section className={`sf-section${open ? '' : ' sf-section--closed'}`}>
       <button className="sf-toggle-header" onClick={() => setOpen(o => !o)}>
         <div className="sf-toggle-text">
           <h2 className="sf-section-title">{title}</h2>
-          {open
-            ? subtitle && <p className="sf-section-subtitle">{subtitle}</p>
-            : summary  && <p className="sf-section-summary">{summary}</p>
-          }
+          {subtitle && <p className="sf-section-subtitle">{subtitle}</p>}
+          {!open && summary && <p className="sf-section-summary">{summary}</p>}
         </div>
         <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
       </button>
@@ -1377,7 +1386,7 @@ function MarketStats({ data }) {
   )
 }
 
-function CareerReadiness({ data }) {
+function CareerReadiness({ data, flat }) {
   const { t } = useLanguage()
   if (!data) return null
 
@@ -1398,6 +1407,7 @@ function CareerReadiness({ data }) {
       title={t('sf.cr.title')}
       subtitle={t('sf.cr.subtitle')}
       summary={summary}
+      flat={flat}
     >
       {/* Readiness bars */}
       <div className="sf-readiness-bars">
@@ -1498,6 +1508,7 @@ export default function SaffronPage({ nav }) {
   const [careerData, setCareerData] = useState(null)
   const [error,      setError]      = useState(null)
   const [tab,        setTab]        = useState('standing')
+  const tabsRef = useRef(null)
   const { t, lang } = useLanguage()
 
   useEffect(() => {
@@ -1513,6 +1524,48 @@ export default function SaffronPage({ nav }) {
       .then(setCareerData)
       .catch(() => {})
   }, [])
+
+  const SF_CATS = [
+    ['standing',      t('sf.cat.standing'),      t('sf.catDesc.standing')],
+    ['direction',     t('sf.cat.direction'),     t('sf.catDesc.direction')],
+    ['market',        t('sf.cat.market'),        t('sf.catDesc.market')],
+    ['relationships', t('sf.cat.relationships'), t('sf.catDesc.relationships')],
+    ['money',         t('sf.cat.money'),         t('sf.catDesc.money')],
+  ]
+  function switchTab(key) {
+    setTab(key)
+    requestAnimationFrame(() => tabsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+  }
+  const tabBar = (className, ref) => (
+    <div className={className} ref={ref}>
+      {SF_CATS.map(([key, label]) => (
+        <button
+          key={key}
+          className={`sf-tab${tab === key ? ' sf-tab--active' : ''}`}
+          onClick={() => switchTab(key)}
+        >
+          {label}
+        </button>
+      ))}
+    </div>
+  )
+  const bottomNav = (
+    <nav className="sf-bottom-nav">
+      <div className="sf-bottom-nav-label">{t('sf.bottomNavLabel')}</div>
+      <div className="sf-bottom-nav-items">
+        {SF_CATS.map(([key, label, desc]) => (
+          <button
+            key={key}
+            className={`sf-bottom-nav-item${tab === key ? ' sf-bottom-nav-item--active' : ''}`}
+            onClick={() => switchTab(key)}
+          >
+            <span className="sf-bottom-nav-name">{label}</span>
+            <span className="sf-bottom-nav-desc">{desc}</span>
+          </button>
+        ))}
+      </div>
+    </nav>
+  )
 
   return (
     <div className="saffron-page">
@@ -1531,37 +1584,20 @@ export default function SaffronPage({ nav }) {
 
       {data && (
         <div className="sf-content">
-          <div className="sf-tabs">
-            {[
-              ['standing',      t('sf.cat.standing')],
-              ['market',        t('sf.cat.market')],
-              ['relationships', t('sf.cat.relationships')],
-              ['money',         t('sf.cat.money')],
-              ['direction',     t('sf.cat.direction')],
-            ].map(([key, label]) => (
-              <button
-                key={key}
-                className={`sf-tab${tab === key ? ' sf-tab--active' : ''}`}
-                onClick={() => setTab(key)}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
+          <p className="sf-browse-intro">{t('sf.browseIntro')}</p>
+          {tabBar('sf-tabs', tabsRef)}
 
           <SectionErrorBoundary key={tab}>
             {tab === 'standing' && (
-              <>
-                {careerData && <CareerReadiness data={careerData} />}
-                <CareerPosition    data={data.career_position}   t={t} />
-                <CareerBenchmarks  data={data.career_benchmarks} t={t} />
-                <CareerTimeline    t={t} />
-                <CareerMomentum    data={data.career_momentum}   t={t} />
-                <OpportunityGap    data={data.opportunity_gap}   t={t} />
-              </>
+              careerData
+                ? <CareerReadiness data={careerData} flat />
+                : <EmptyState message={t('sf.loading')} />
             )}
             {tab === 'market' && (
               <>
+                <CareerPosition     data={data.career_position}   t={t} />
+                <CareerBenchmarks   data={data.career_benchmarks} t={t} />
+                <CareerTimeline     t={t} />
                 <MarketStats        data={data.market_stats} />
                 <MarketLandscape    data={data.market_landscape}    t={t} />
                 <SeasonalCalendar   data={data.seasonal_calendar}   t={t} />
@@ -1589,6 +1625,8 @@ export default function SaffronPage({ nav }) {
             )}
             {tab === 'direction' && (
               <>
+                <CareerMomentum      data={data.career_momentum}   t={t} />
+                <OpportunityGap      data={data.opportunity_gap}   t={t} />
                 <StrategicPathway    data={data.pathway}              t={t} />
                 <LongTermScenarios   data={data.long_term_scenarios}  t={t} />
                 <CareerDependencyMap t={t} lang={lang} />
@@ -1599,6 +1637,7 @@ export default function SaffronPage({ nav }) {
               </>
             )}
           </SectionErrorBoundary>
+          {bottomNav}
         </div>
       )}
     </div>
