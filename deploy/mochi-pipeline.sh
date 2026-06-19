@@ -40,3 +40,6 @@ LOG="$LOG_DIR/run_$(date +%Y-%m-%d_%H%M).log"
     echo "=== FAILED (exit $STATUS) — live data left untouched ==="
   fi
 } >> "$LOG" 2>&1
+
+# Log hygiene: prune run logs older than 30 days. Guarded so it can never abort the run.
+find "$LOG_DIR" -name 'run_*.log' -mtime +30 -delete 2>/dev/null || true

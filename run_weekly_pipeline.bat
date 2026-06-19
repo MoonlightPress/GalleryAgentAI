@@ -6,6 +6,8 @@ rem 3. On success, publishes refreshed data to the Lightsail server (no restart
 rem    needed — the API reloads compact_opportunities.json on mtime change).
 cd /d "%~dp0"
 if not exist logs\pipeline_runs mkdir logs\pipeline_runs
+rem Log hygiene: prune run logs older than 30 days (no-op if none match; errors suppressed)
+forfiles /p logs\pipeline_runs /m run_*.log /d -30 /c "cmd /c del @path" 2>nul
 set TS=%date:~10,4%-%date:~4,2%-%date:~7,2%_%time:~0,2%%time:~3,2%
 set TS=%TS: =0%
 python run_maintenance_pipeline.py > "logs\pipeline_runs\run_%TS%.log" 2>&1
