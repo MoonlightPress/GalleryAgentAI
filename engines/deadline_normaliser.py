@@ -51,6 +51,11 @@ for _m, _n in list(_MONTH_NUM.items()):
 
 _ISO_FULL_RE      = re.compile(r'(20\d{2})[-/](\d{1,2})[-/](\d{1,2})')
 _NUM_MDY_RE       = re.compile(r'\b(\d{1,2})[-/](\d{1,2})[-/](20\d{2})\b')
+# Two-digit-year dates: "5/26/26", "1/15/25". The trailing (?!\d) stops a
+# 2-digit year from matching the first two digits of a 4-digit year (those are
+# handled by _NUM_MDY_RE above). Separator restricted to / to avoid eating times
+# like "6:52 PM" (which use ':') or hyphenated ranges.
+_NUM_MDY_2YR_RE   = re.compile(r'\b(\d{1,2})/(\d{1,2})/(\d{2})(?!\d)')
 _MONTH_DAY_YEAR_RE = re.compile(r'(' + MONTH_NAMES + r')[a-z]*\.?\s+(\d{1,2})(?:st|nd|rd|th)?[,\s]+(20\d{2})', re.IGNORECASE)
 _DAY_MONTH_YEAR_RE = re.compile(r'\b(\d{1,2})(?:st|nd|rd|th)?\s+(' + MONTH_NAMES + r')[a-z]*\.?[,\s]+(20\d{2})', re.IGNORECASE)
 _ISO_YM_RE        = re.compile(r'(20\d{2})[-/](\d{1,2})(?![-/\d])')
@@ -75,6 +80,10 @@ def parse_deadline_date(deadline_field: str):
     m = _NUM_MDY_RE.search(s)
     if m:
         return _safe_date(int(m.group(3)), int(m.group(1)), int(m.group(2)))
+    m = _NUM_MDY_2YR_RE.search(s)
+    if m:
+        # 2-digit year -> 20yy (26 -> 2026, 25 -> 2025); keep m/d ordering.
+        return _safe_date(2000 + int(m.group(3)), int(m.group(1)), int(m.group(2)))
     m = _MONTH_DAY_YEAR_RE.search(s)
     if m:
         return _safe_date(int(m.group(3)), _MONTH_NUM[m.group(1).lower()[:3]], int(m.group(2)))
@@ -159,6 +168,20 @@ def classify_deadline(blob: str, deadline_field: str, today: date = None) -> dic
             return {
                 "deadline_verified": True,
                 "deadline_type": "annual_inferred",
+            }
+
+    # 4b. Yearless date — a month/day with NO 4-digit year cannot be confirmed.
+    #     e.g. "April 30", "January 31st", "2月26日 (February 26)". Rolling/closed
+    #     were handled above; 2-digit-year dates (handled by parse_deadline_date)
+    #     are excluded because they resolve to a concrete day.
+    if deadline_field and not YEAR_ONLY_RE.search(deadline_field):
+        has_month = re.search(MONTH_NAMES, deadline_field, re.IGNORECASE)
+        has_jp_month_day = '月' in deadline_field and '日' in deadline_field
+        is_datable = parse_deadline_date(deadline_field) is not None
+        if (has_month or has_jp_month_day) and not is_datable:
+            return {
+                "deadline_verified": False,
+                "deadline_type": "unconfirmed_year",
             }
 
     # 5. Check schedule
