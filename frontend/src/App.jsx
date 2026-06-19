@@ -37,12 +37,6 @@ function ViewToggle({ view, setView }) {
       >
         📅 {t('view.calendar')}
       </button>
-      <button
-        className={`view-toggle-btn${view === 'people' ? ' active' : ''}`}
-        onClick={() => setView('people')}
-      >
-        {t('view.people')}
-      </button>
     </div>
   )
 }
@@ -61,8 +55,8 @@ export default function App() {
         {page === 'discover' && <TodaysFocus />}
         {page === 'discover' && <ViewToggle view={view} setView={setView} />}
         {page === 'discover' && view === 'cards'    && <OpportunitiesSection />}
+        {page === 'discover' && view === 'cards'    && <RelationshipTargets />}
         {page === 'discover' && view === 'calendar' && <DeadlineCalendar />}
-        {page === 'discover' && view === 'people'   && <RelationshipTargets />}
         {(page === 'observe' || page === 'refine') && (
           <Suspense fallback={<PageFallback />}>
             {page === 'observe' && <SaffronPage nav={nav} />}
