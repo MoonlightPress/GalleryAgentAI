@@ -1501,6 +1501,42 @@ function CareerReadiness({ data, flat }) {
   )
 }
 
+// ── Overview snapshot ───────────────────────────────────────────────────────
+
+function OverviewStats({ careerData: cr, data, t }) {
+  const cp = data.career_position
+  const cm = data.career_momentum
+  const ig = cp?.social?.find(s => s.platform === 'Instagram')
+  const chips = [
+    [cp?.exhibitions?.length ?? 0,    t('sf.label.exhibitions')],
+    [cp?.publications?.length ?? 0,   t('sf.label.publications')],
+    [ig?.followers ?? '—',            'Instagram'],
+    [cm?.totals?.submissions ?? 0,    t('sf.mom.totalSubmissions')],
+    [cm?.totals?.venues_in_crm ?? 0,  t('sf.mom.venuesInCRM')],
+    [cm?.response_rate ?? '—',        t('sf.mom.responses')],
+  ]
+  return (
+    <div className="sf-overview-stats-panel">
+      {cr?.current_phase && (
+        <div className="sf-overview-headline">
+          <span className="sf-overview-phase">{cr.current_phase}</span>
+          {cr.months_to_tier3 != null && (
+            <span className="sf-overview-timeline">{t('sf.cr.monthsToTier3', { n: cr.months_to_tier3 })}</span>
+          )}
+        </div>
+      )}
+      <div className="sf-overview-chips">
+        {chips.map(([num, label], i) => (
+          <div key={i} className="sf-overview-chip">
+            <div className="sf-overview-chip-num">{num}</div>
+            <div className="sf-overview-chip-label">{label}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function SaffronPage({ nav }) {
@@ -1589,9 +1625,12 @@ export default function SaffronPage({ nav }) {
 
           <SectionErrorBoundary key={tab}>
             {tab === 'standing' && (
-              careerData
-                ? <CareerReadiness data={careerData} flat />
-                : <EmptyState message={t('sf.loading')} />
+              careerData ? (
+                <>
+                  <OverviewStats careerData={careerData} data={data} t={t} />
+                  <CareerReadiness data={careerData} flat />
+                </>
+              ) : <EmptyState message={t('sf.loading')} />
             )}
             {tab === 'market' && (
               <>

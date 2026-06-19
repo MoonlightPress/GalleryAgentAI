@@ -157,6 +157,7 @@ const zh = {
   'sf.catDesc.relationships':'媒体、推介对象、合作、场地',
   'sf.catDesc.money':        '收入、定价、补助、授权',
   'sf.bottomNavLabel':       '深入某个主题',
+  'sf.browseIntro':          '红雀眼中你的职业全景。按主题浏览：',
   'sf.error':                '红雀需要猫饼API — python api.py',
   'sf.missing.askPepper':    '{label} — 去问胡椒粒',
 
@@ -1106,6 +1107,7 @@ const ja = {
   'sf.catDesc.relationships':'メディア・売り込み先・協働・会場',
   'sf.catDesc.money':        '収入・価格・助成・ライセンス',
   'sf.bottomNavLabel':       'テーマを掘り下げる',
+  'sf.browseIntro':          'サフランから見たキャリアの全体像。テーマで切替：',
   'sf.error':                'サフランにはMochi APIが必要です — python api.py',
   'sf.missing.askPepper':    '{label} — ペッパーコーンに聞いて',
 
@@ -2009,6 +2011,7 @@ const en = {
   'sf.catDesc.relationships':'Press, pitch targets, collaborations, venues',
   'sf.catDesc.money':        'Revenue, pricing, grants, licensing',
   'sf.bottomNavLabel':       'Drill into a theme',
+  'sf.browseIntro':          "Saffron's wide view of your career — browse by theme:",
   'sf.error':                'Saffron needs the Mochi API — python api.py',
   'sf.missing.askPepper':    '{label} — ask Peppercorn',
 
