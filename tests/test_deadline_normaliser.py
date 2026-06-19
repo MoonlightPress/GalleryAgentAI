@@ -45,5 +45,58 @@ class DeadlinePastDetectionTests(unittest.TestCase):
         self.assertIsNone(parse_deadline_date(""))
 
 
+class TwoDigitYearTests(unittest.TestCase):
+    def test_two_digit_year_past_date_parses(self):
+        # "5/26/26" -> 2026-05-26, past relative to 2026-06-19.
+        self.assertEqual(parse_deadline_date("5/26/26"), date(2026, 5, 26))
+
+    def test_two_digit_year_past_date_with_time_parses(self):
+        # "1/15/25, 6:52 PM" -> 2025-01-15; must not mis-match the time.
+        self.assertEqual(parse_deadline_date("1/15/25, 6:52 PM"), date(2025, 1, 15))
+
+    def test_two_digit_year_past_date_not_verified(self):
+        result = classify_deadline("", "5/26/26", today=TODAY)
+        self.assertNotEqual(result.get("deadline_verified"), True)
+        self.assertEqual(result.get("deadline_type"), "passed")
+
+    def test_two_digit_year_with_time_not_verified(self):
+        result = classify_deadline("", "1/15/25, 6:52 PM", today=TODAY)
+        self.assertNotEqual(result.get("deadline_verified"), True)
+        self.assertEqual(result.get("deadline_type"), "passed")
+
+    def test_four_digit_year_still_parses(self):
+        # Guard: existing 4-digit date handling is untouched.
+        self.assertEqual(parse_deadline_date("06/15/2026"), date(2026, 6, 15))
+
+
+class YearlessDateTests(unittest.TestCase):
+    def test_yearless_month_day_is_unconfirmed(self):
+        result = classify_deadline("", "April 30", today=TODAY)
+        self.assertNotEqual(result.get("deadline_verified"), True)
+        self.assertEqual(result.get("deadline_type"), "unconfirmed_year")
+
+    def test_yearless_month_day_with_suffix_is_unconfirmed(self):
+        result = classify_deadline("", "January 31st", today=TODAY)
+        self.assertNotEqual(result.get("deadline_verified"), True)
+        self.assertEqual(result.get("deadline_type"), "unconfirmed_year")
+
+    def test_yearless_japanese_month_day_is_unconfirmed(self):
+        result = classify_deadline("", "2月26日 (February 26)", today=TODAY)
+        self.assertNotEqual(result.get("deadline_verified"), True)
+        self.assertEqual(result.get("deadline_type"), "unconfirmed_year")
+
+    def test_four_digit_year_date_stays_verified_guard(self):
+        # Guard: a dated deadline WITH a 4-digit year is unaffected.
+        result = classify_deadline("", "March 15, 2027", today=TODAY)
+        self.assertEqual(result.get("deadline_verified"), True)
+        self.assertEqual(result.get("deadline_type"), "confirmed_date")
+
+    def test_rolling_stays_rolling_guard(self):
+        # Guard: a rolling deadline is not downgraded to unconfirmed_year.
+        result = classify_deadline("submissions accepted anytime", "anytime", today=TODAY)
+        self.assertEqual(result.get("deadline_type"), "rolling")
+        self.assertEqual(result.get("deadline_verified"), True)
+
+
 if __name__ == "__main__":
     unittest.main()
