@@ -32,6 +32,12 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Mochi "People to reach out to" view** (Claude, 2026-06-19, tests-first; commit `687c4931`): surfaces the
+  52 researched relationship contacts (previously `/api/contacts` + data only, NO UI) as a third view on
+  Mochi's page (cards / calendar / **people**) — name, `why_relevant`, type/city pills, and a mailto/website
+  reach-out link, sorted by priority. Pure display logic in `frontend/src/utils/relationshipTargets.js`
+  (5 tests). Read-only; no outreach tracking yet. en/ja/zh strings added. Builds clean, 15 frontend tests green.
+  **Caveat: not yet visually smoke-tested in a running browser** — verify the People toggle renders before launch.
 - **Verification edge-case cleanup** (2 background agents, reviewed + merged by Claude, 2026-06-19, tests-first):
   (1) `engines/url_verification_engine.py` now returns `no_url` instead of `ok` when an opp has no
   `official_website`/`submission_page` — root cause was a discovery-trail `source_url` being live-checked and
