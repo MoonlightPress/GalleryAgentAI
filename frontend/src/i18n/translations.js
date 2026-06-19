@@ -146,6 +146,11 @@ const zh = {
 
   // ── Saffron page ──────────────────────────────────────────────────────────
   'sf.loading':              '红雀正在观察…',
+  'sf.cat.standing':         '你的位置',
+  'sf.cat.market':           '市场环境',
+  'sf.cat.relationships':    '人脉与媒体',
+  'sf.cat.money':            '收入',
+  'sf.cat.direction':        '方向',
   'sf.error':                '红雀需要猫饼API — python api.py',
   'sf.missing.askPepper':    '{label} — 去问胡椒粒',
 
@@ -1084,6 +1089,11 @@ const ja = {
 
   // ── Saffron ───────────────────────────────────────────────────────────────
   'sf.loading':              'サフランが眺めています…',
+  'sf.cat.standing':         '現在地',
+  'sf.cat.market':           'マーケット',
+  'sf.cat.relationships':    '人脈・メディア',
+  'sf.cat.money':            '収入',
+  'sf.cat.direction':        '方向性',
   'sf.error':                'サフランにはMochi APIが必要です — python api.py',
   'sf.missing.askPepper':    '{label} — ペッパーコーンに聞いて',
 
@@ -1976,6 +1986,11 @@ const en = {
 
 
   'sf.loading':              'Saffron is watching…',
+  'sf.cat.standing':         'Where You Stand',
+  'sf.cat.market':           'The Market',
+  'sf.cat.relationships':    'People & Press',
+  'sf.cat.money':            'Money',
+  'sf.cat.direction':        'Direction',
   'sf.error':                'Saffron needs the Mochi API — python api.py',
   'sf.missing.askPepper':    '{label} — ask Peppercorn',
 

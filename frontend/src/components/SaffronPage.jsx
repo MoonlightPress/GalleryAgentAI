@@ -1497,6 +1497,7 @@ export default function SaffronPage({ nav }) {
   const [data,       setData]       = useState(null)
   const [careerData, setCareerData] = useState(null)
   const [error,      setError]      = useState(null)
+  const [tab,        setTab]        = useState('standing')
   const { t, lang } = useLanguage()
 
   useEffect(() => {
@@ -1528,46 +1529,77 @@ export default function SaffronPage({ nav }) {
         </div>
       )}
 
-      {careerData && (
-        <div className="sf-content sf-content--career-readiness">
-          <SectionErrorBoundary>
-            <CareerReadiness data={careerData} />
+      {data && (
+        <div className="sf-content">
+          <div className="sf-tabs">
+            {[
+              ['standing',      t('sf.cat.standing')],
+              ['market',        t('sf.cat.market')],
+              ['relationships', t('sf.cat.relationships')],
+              ['money',         t('sf.cat.money')],
+              ['direction',     t('sf.cat.direction')],
+            ].map(([key, label]) => (
+              <button
+                key={key}
+                className={`sf-tab${tab === key ? ' sf-tab--active' : ''}`}
+                onClick={() => setTab(key)}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+
+          <SectionErrorBoundary key={tab}>
+            {tab === 'standing' && (
+              <>
+                {careerData && <CareerReadiness data={careerData} />}
+                <CareerPosition    data={data.career_position}   t={t} />
+                <CareerBenchmarks  data={data.career_benchmarks} t={t} />
+                <CareerTimeline    t={t} />
+                <CareerMomentum    data={data.career_momentum}   t={t} />
+                <OpportunityGap    data={data.opportunity_gap}   t={t} />
+              </>
+            )}
+            {tab === 'market' && (
+              <>
+                <MarketStats        data={data.market_stats} />
+                <MarketLandscape    data={data.market_landscape}    t={t} />
+                <SeasonalCalendar   data={data.seasonal_calendar}   t={t} />
+                <TimingIntelligence data={data.timing_intelligence} t={t} />
+                <ComparableArtists  artists={data.peer_artists}     t={t} />
+              </>
+            )}
+            {tab === 'relationships' && (
+              <>
+                <PressFeatures      data={data.press_features}      t={t} />
+                <PressPitchMap      t={t} lang={lang} />
+                <CollaborationMap   data={data.collaboration_map}   t={t} />
+                <CollectorEcosystem data={data.collector_ecosystem} t={t} />
+                <VenueTracker       data={data.venue_tracker}       t={t} />
+              </>
+            )}
+            {tab === 'money' && (
+              <>
+                <RevenueStreams       t={t} lang={lang} />
+                <PricingIntelligence  t={t} />
+                <GrantLandscape       t={t} lang={lang} />
+                <LicensingLandscape   t={t} lang={lang} />
+                <PublicationLandscape data={data.publication_landscape} t={t} />
+              </>
+            )}
+            {tab === 'direction' && (
+              <>
+                <StrategicPathway    data={data.pathway}              t={t} />
+                <LongTermScenarios   data={data.long_term_scenarios}  t={t} />
+                <CareerDependencyMap t={t} lang={lang} />
+                <GeographicExpansion data={data.geographic_expansion} t={t} />
+                <InstagramStrategy   data={data.instagram_strategy}   t={t} />
+                <AudienceGeography   data={data.audience_geography}   t={t} />
+                <OpenQuestions       data={data.open_questions}       t={t} />
+              </>
+            )}
           </SectionErrorBoundary>
         </div>
-      )}
-
-      {data && (
-        <SectionErrorBoundary>
-        <div className="sf-content">
-          <CareerPosition      data={data.career_position}    t={t} />
-          <MarketStats         data={data.market_stats} />
-          <MarketLandscape     data={data.market_landscape}   t={t} />
-          <ComparableArtists   artists={data.peer_artists}    t={t} />
-          <StrategicPathway    data={data.pathway}            t={t} />
-          <InstagramStrategy   data={data.instagram_strategy} t={t} />
-          <AudienceGeography   data={data.audience_geography} t={t} />
-          <CareerBenchmarks    data={data.career_benchmarks}  t={t} />
-          <SeasonalCalendar    data={data.seasonal_calendar}  t={t} />
-          <PressFeatures       data={data.press_features}     t={t} />
-          <CollectorEcosystem  data={data.collector_ecosystem}t={t} />
-          <CollaborationMap    data={data.collaboration_map}  t={t} />
-          <GeographicExpansion data={data.geographic_expansion} t={t} />
-          <PublicationLandscape data={data.publication_landscape} t={t} />
-          <LongTermScenarios   data={data.long_term_scenarios} t={t} />
-          <VenueTracker        data={data.venue_tracker}      t={t} />
-          <OpenQuestions       data={data.open_questions}     t={t} />
-          <CareerMomentum      data={data.career_momentum}      t={t} />
-          <TimingIntelligence  data={data.timing_intelligence}  t={t} />
-          <CareerTimeline      t={t} />
-          <PricingIntelligence t={t} />
-          <OpportunityGap      data={data.opportunity_gap}      t={t} />
-          <LicensingLandscape  t={t} lang={lang} />
-          <PressPitchMap       t={t} lang={lang} />
-          <GrantLandscape      t={t} lang={lang} />
-          <RevenueStreams       t={t} lang={lang} />
-          <CareerDependencyMap t={t} lang={lang} />
-        </div>
-        </SectionErrorBoundary>
       )}
     </div>
   )
