@@ -184,10 +184,15 @@ function PressCard({ opp }) {
     : 'press-badge press-badge--pitch'
 
   const name    = loc('name') || opp.title || ''
-  const summary = loc('summary') || opp.one_sentence || ''
+  const what    = loc('one_sentence') || loc('summary') || ''
+  const why     = loc('why_it_fits') || opp.why_this_fits_short || ''
+  const strategy   = opp.relationship_note || ''
+  const submission = opp.submission_strategy || ''
+  const lead       = opp.recommended_body_of_work || ''
+  const bullets = Array.isArray(opp.three_bullets) ? opp.three_bullets.filter(Boolean) : []
   const contact = opp.contact || ''
-  const note    = opp.relationship_note || ''
   const website = opp.official_website || opp.source_url || ''
+  const hasDetail = strategy || submission || lead || bullets.length > 0 || contact
 
   return (
     <div className="press-card">
@@ -199,7 +204,10 @@ function PressCard({ opp }) {
               <span className="press-card-name">{name}</span>
               <span className={badgeClass}>{t(badgeKey)}</span>
             </div>
-            {summary && <p className="press-card-summary">{summary}</p>}
+            {what && <p className="press-card-summary">{what}</p>}
+            {why && why !== what && (
+              <p className="press-card-summary" style={{ color: 'var(--gold, #a07c2e)', fontStyle: 'italic' }}>{why}</p>
+            )}
           </div>
         </div>
         {website && (
@@ -214,7 +222,7 @@ function PressCard({ opp }) {
         )}
       </div>
 
-      {(contact || note) && (
+      {hasDetail && (
         <div className="press-card-expand">
           <button
             className="press-expand-btn"
@@ -224,10 +232,17 @@ function PressCard({ opp }) {
           </button>
           {expanded && (
             <div className="press-expand-content">
+              {strategy && <p className="press-note"><strong>{t('press.strategy')}</strong> {strategy}</p>}
+              {submission && <p className="press-note"><strong>{t('press.submission')}</strong> {submission}</p>}
+              {lead && <p className="press-note"><strong>{t('press.whatToLead')}</strong> {lead}</p>}
+              {bullets.length > 0 && (
+                <ul className="press-bullets" style={{ margin: '6px 0 0', paddingLeft: '18px', fontSize: '0.85rem', lineHeight: 1.5 }}>
+                  {bullets.map((b, i) => <li key={i}>{b}</li>)}
+                </ul>
+              )}
               {contact && (
                 <p className="press-contact"><strong>{t('press.contact')}</strong>{contact}</p>
               )}
-              {note && <p className="press-note">{note}</p>}
             </div>
           )}
         </div>

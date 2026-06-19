@@ -40,7 +40,8 @@ function ContactCard({ c, t, onHide }) {
   const [toast, setToast] = useState(null)
 
   const why = c.why_relevant || ''
-  const summary = (c.crm_analysis && c.crm_analysis.contact_summary) || ''
+  const ca = c.crm_analysis || {}
+  const summary = ca.contact_summary || ''
   const href = reachHref(c)
   const email = c.contact_email || ''
   const site = c.official_website || c.contact_page || ''
@@ -86,6 +87,15 @@ function ContactCard({ c, t, onHide }) {
       {open && (
         <div className="rt-details">
           {summary && summary !== why && <p className="rt-summary">{summary}</p>}
+          {ca.next_action && (
+            <p className="rt-analysis"><strong>{t('people.field.nextAction')}</strong> {ca.next_action}</p>
+          )}
+          {ca.follow_up_timing && (
+            <p className="rt-analysis"><strong>{t('people.field.followUp')}</strong> {ca.follow_up_timing}</p>
+          )}
+          {ca.risk_notes && (
+            <p className="rt-analysis rt-risk"><strong>{t('people.field.risk')}</strong> {ca.risk_notes}</p>
+          )}
           <div className="rt-channels">
             {email && <a href={`mailto:${email}`} className="rt-channel">✉ {email}</a>}
             {site && <a href={site} target="_blank" rel="noreferrer" className="rt-channel">🔗 {site.replace(/^https?:\/\//, '')}</a>}

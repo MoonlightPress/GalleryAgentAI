@@ -103,12 +103,13 @@
 }
 
 .rt-reach {
-  display: inline-block;
-  font-size: 0.86rem;
+  flex: 1 1 auto;
+  text-align: center;
+  font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
-  padding: 8px 18px;
-  border-radius: 999px;
+  padding: 11px 18px;
+  border-radius: 11px;
   background: var(--gold, #c9a24b);
   color: #fff;
   transition: filter 0.15s ease;
@@ -140,13 +141,14 @@
 
 /* ── Details panel + action buttons (parity with opportunity cards) ── */
 .rt-details-btn {
+  flex: 0 0 auto;
   font-size: 0.82rem;
   font-weight: 600;
   color: var(--muted, #8a7d6b);
   background: transparent;
   border: 1px solid rgba(120, 100, 70, 0.22);
-  border-radius: 999px;
-  padding: 7px 14px;
+  border-radius: 11px;
+  padding: 11px 16px;
   cursor: pointer;
   transition: background 0.15s ease;
 }
@@ -172,6 +174,15 @@
 
 .rt-note  { font-size: 0.85rem; color: var(--ink, #4a4136); margin: 0; line-height: 1.45; }
 .rt-meta  { font-size: 0.78rem; color: var(--muted, #8a7d6b); margin: 0; }
+
+.rt-analysis {
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: var(--ink, #4a4136);
+  margin: 0;
+}
+.rt-analysis strong { color: var(--gold, #a07c2e); margin-right: 4px; }
+.rt-risk strong { color: #8b2a2a; }
 
 .rt-feedback {
   display: flex;
