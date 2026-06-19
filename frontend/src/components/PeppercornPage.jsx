@@ -1485,8 +1485,6 @@ const EVENT_COLORS = {
 function CareerEventWidget() {
   const { t } = useLanguage()
   const [events, setEvents] = useState([])
-  const [noteType, setNoteType] = useState(null)
-  const [note, setNote] = useState('')
   const [flash, setFlash] = useState(false)
 
   useEffect(() => {
@@ -1496,44 +1494,16 @@ function CareerEventWidget() {
       .catch(() => {})
   }, [flash])
 
-  async function logEvent(type) {
-    if (noteType === type && note.trim() === '') {
-      // second tap on same type without note — just submit
-    } else if (noteType !== type) {
-      setNoteType(type)
-      setNote('')
-      return
-    }
-    try {
-      const r = await fetch('/api/career_events', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ type, note: note.trim() }),
-      })
-      // Only clear the form / refetch on success — otherwise the note would be
-      // lost while the refetch shows the (unchanged) list, hiding the failure.
-      if (r.ok) {
-        setNoteType(null)
-        setNote('')
-        setFlash(f => !f)
-      }
-    } catch { /* keep the note so the user can retry */ }
-  }
-
-  // eslint-disable-next-line no-unused-vars -- quick-log handler, pending UI wire-up
+  // Single tap logs the event immediately — frictionless for a tracker the
+  // artist will only touch occasionally.
   async function quickLog(type) {
-    // Single tap logs immediately (no note required)
     try {
       const r = await fetch('/api/career_events', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ type, note: '' }),
       })
-      if (r.ok) {
-        setNoteType(null)
-        setNote('')
-        setFlash(f => !f)
-      }
+      if (r.ok) setFlash(f => !f)
     } catch { /* no-op on network failure */ }
   }
 
@@ -1541,49 +1511,18 @@ function CareerEventWidget() {
     <div className="pp-event-widget">
       <div className="pp-event-prompt">{t('pp.event.prompt')}</div>
       <div className="pp-event-buttons">
-        {EVENT_TYPES.map(({ type, icon }) => {
-          const colors = EVENT_COLORS[type] || {}
-          const isActive = noteType === type
-          return (
-            <button
-              key={type}
-              className={`pp-event-btn${isActive ? ' pp-event-btn--active' : ''}`}
-              style={isActive ? { background: colors.bg, borderColor: colors.border, color: colors.text } : {}}
-              onClick={() => {
-                if (isActive) {
-                  logEvent(type)
-                } else {
-                  setNoteType(type)
-                  setNote('')
-                }
-              }}
-              title={t(`pp.event.type.${type}`)}
-            >
-              <span className="pp-event-icon">{icon}</span>
-              <span className="pp-event-label">{t(`pp.event.type.${type}`)}</span>
-            </button>
-          )
-        })}
+        {EVENT_TYPES.map(({ type, icon }) => (
+          <button
+            key={type}
+            className="pp-event-btn"
+            onClick={() => quickLog(type)}
+            title={t(`pp.event.type.${type}`)}
+          >
+            <span className="pp-event-icon">{icon}</span>
+            <span className="pp-event-label">{t(`pp.event.type.${type}`)}</span>
+          </button>
+        ))}
       </div>
-
-      {noteType && (
-        <div className="pp-event-note-row">
-          <input
-            className="pp-sub-input pp-event-note-input"
-            value={note}
-            onChange={e => setNote(e.target.value)}
-            onKeyDown={e => { if (e.key === 'Enter') logEvent(noteType) }}
-            placeholder={t('pp.event.note.placeholder')}
-            autoFocus
-          />
-          <button className="pp-save pp-event-log-btn" onClick={() => logEvent(noteType)}>
-            {t('pp.event.log')}
-          </button>
-          <button className="pp-skip" onClick={() => { setNoteType(null); setNote('') }}>
-            {t('pp.event.cancel')}
-          </button>
-        </div>
-      )}
 
       {events.length > 0 && (
         <div className="pp-event-recent">
