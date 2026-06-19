@@ -32,6 +32,13 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Verification edge-case cleanup** (2 background agents, reviewed + merged by Claude, 2026-06-19, tests-first):
+  (1) `engines/url_verification_engine.py` now returns `no_url` instead of `ok` when an opp has no
+  `official_website`/`submission_page` — root cause was a discovery-trail `source_url` being live-checked and
+  passing, so 5 URL-less opps read as verified. (2) `engines/deadline_normaliser.py` now parses 2-digit-year
+  dates (`5/26/26`) and marks yearless month/day deadlines `unconfirmed_year` + unverified (16 opps, all in
+  non-surfacing buckets). Full suite **33 tests green**. Merged commits `c5aa6fa9`, `87949993`. No data rewritten;
+  applies on next pipeline run.
 - **Verification hardening: past-deadline detection** (Claude, 2026-06-19, tests-first): added a canonical
   deadline date parser (`parse_deadline_date` / `deadline_is_past`) to `engines/deadline_normaliser.py`.
   `classify_deadline` and `targeted_verification_agent._deadline_is_real` now refuse to mark an already-passed
