@@ -79,7 +79,7 @@ function ContactCard({ c, t, onHide }) {
         <a className="rt-reach" href={href} target="_blank" rel="noreferrer">
           {t(`people.reach.${c.reachVia}`)}
         </a>
-        <button className="rt-details-btn" onClick={() => setOpen(o => !o)}>
+        <button className="opp-btn-details" onClick={() => setOpen(o => !o)}>
           {open ? t('people.hide') : t('people.details')}
         </button>
       </div>

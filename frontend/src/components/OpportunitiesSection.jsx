@@ -191,6 +191,7 @@ function PressCard({ opp }) {
   const lead       = opp.recommended_body_of_work || ''
   const bullets = Array.isArray(opp.three_bullets) ? opp.three_bullets.filter(Boolean) : []
   const contact = opp.contact || ''
+  const emailMatch = (contact.match(/[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}/) || [])[0]
   const website = opp.official_website || opp.source_url || ''
   const hasDetail = strategy || submission || lead || bullets.length > 0 || contact
 
@@ -203,6 +204,7 @@ function PressCard({ opp }) {
             <div className="press-card-name-row">
               <span className="press-card-name">{name}</span>
               <span className={badgeClass}>{t(badgeKey)}</span>
+              {opp.city && <span className="opp-pill opp-pill-loc">{opp.city}</span>}
             </div>
             {what && <p className="press-card-summary">{what}</p>}
             {why && why !== what && (
@@ -225,7 +227,7 @@ function PressCard({ opp }) {
       {hasDetail && (
         <div className="press-card-expand">
           <button
-            className="press-expand-btn"
+            className="opp-btn-details"
             onClick={() => setExpanded(v => !v)}
           >
             {expanded ? t('people.hide') : t('people.details')}
@@ -243,6 +245,14 @@ function PressCard({ opp }) {
               {contact && (
                 <p className="press-contact"><strong>{t('press.contact')}</strong>{contact}</p>
               )}
+              <div className="press-links" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginTop: '8px' }}>
+                {emailMatch && (
+                  <a className="opp-btn-details" href={`mailto:${emailMatch}`} style={{ textDecoration: 'none', display: 'inline-block' }}>✉ {emailMatch}</a>
+                )}
+                {website && (
+                  <a className="opp-btn-details" href={website} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', display: 'inline-block' }}>🔗 {t('people.reach.website')}</a>
+                )}
+              </div>
             </div>
           )}
         </div>
