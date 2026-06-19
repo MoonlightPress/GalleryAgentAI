@@ -39,6 +39,36 @@ _OPP_CACHE = None  # type: list
 _OPP_CACHE_MTIME: float = 0.0
 
 
+FOLLOWUP_STALE_DAYS = 30
+
+
+def is_overdue_followup(last_contacted, now: datetime | None = None,
+                        threshold_days: int = FOLLOWUP_STALE_DAYS) -> bool:
+    """Decide whether a contact is a *stale* follow-up purely from its date.
+
+    Pure and network-free. Returns True only when ``last_contacted`` parses to
+    a real ISO datetime that is at least ``threshold_days`` old.
+
+    A missing, empty, or unparseable ``last_contacted`` is *unknown*, not
+    *stale*: we return False so a malformed date never spams the Quick Win
+    slot on the strength of a parse failure alone. (Whether a contact that was
+    *never* contacted should be surfaced is a separate decision made by the
+    caller; this function only judges an actual elapsed-time staleness.)
+    """
+    if now is None:
+        now = datetime.now(timezone.utc)
+    if not last_contacted:
+        return False
+    try:
+        lc_dt = datetime.fromisoformat(str(last_contacted).replace("Z", "+00:00"))
+    except (ValueError, TypeError):
+        # Unparseable date → unknown, not overdue. Do not surface.
+        return False
+    if lc_dt.tzinfo is None:
+        lc_dt = lc_dt.replace(tzinfo=timezone.utc)
+    return (now - lc_dt).days >= threshold_days
+
+
 def _load_suppressed() -> set:
     if SUPPRESSED_PATH.exists():
         return set(json.loads(SUPPRESSED_PATH.read_text(encoding="utf-8")))
@@ -2513,15 +2543,10 @@ def get_today():
                 # Never contacted — surface as follow-up
                 crm_followup_raw = contact
                 break
-            try:
-                lc_dt = datetime.fromisoformat(lc.replace("Z", "+00:00"))
-                if lc_dt.tzinfo is None:
-                    lc_dt = lc_dt.replace(tzinfo=timezone.utc)
-                days_ago = (today_dt - lc_dt).days
-                if days_ago >= 30:
-                    crm_followup_raw = contact
-                    break
-            except Exception:
+            # A malformed / non-ISO date is *unknown*, not overdue. Only a
+            # genuinely old, parseable date surfaces as a stale follow-up —
+            # otherwise a junk last_contacted value would spam the Quick Win.
+            if is_overdue_followup(lc, now=today_dt):
                 crm_followup_raw = contact
                 break
 
