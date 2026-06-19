@@ -41,7 +41,11 @@ function ContactCard({ c, t, onHide }) {
   const detailsRef = useRef(null)
 
   useEffect(() => {
-    if (open) detailsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+    if (open) {
+      requestAnimationFrame(() => {
+        detailsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      })
+    }
   }, [open])
 
   const why = c.why_relevant || ''

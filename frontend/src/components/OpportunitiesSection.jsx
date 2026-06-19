@@ -169,7 +169,11 @@ function PressCard({ opp }) {
   const [expanded, setExpanded] = useState(false)
   const expandRef = useRef(null)
   useEffect(() => {
-    if (expanded) expandRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+    if (expanded) {
+      requestAnimationFrame(() => {
+        expandRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      })
+    }
   }, [expanded])
   const { t, lang } = useLanguage()
   const loc = (field) => {
