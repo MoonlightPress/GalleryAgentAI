@@ -3,6 +3,8 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 import json
 import re
+import calendar
+from datetime import date
 from pathlib import Path
 
 COMPACT_PATH = Path("deploy_data/compact_opportunities.json")
@@ -39,6 +41,65 @@ CONFIRMED_DATE_RE = re.compile(
 
 YEAR_ONLY_RE = re.compile(r'20\d{2}')
 
+# ── Past-deadline detection ────────────────────────────────────────────────
+# A deadline that has already passed must NOT be treated as a verified, open
+# call. We parse the deadline field into its last valid day and compare to today.
+_MONTH_NUM = {m: i + 1 for i, m in enumerate(
+    'january february march april may june july august september october november december'.split())}
+for _m, _n in list(_MONTH_NUM.items()):
+    _MONTH_NUM[_m[:3]] = _n
+
+_ISO_FULL_RE      = re.compile(r'(20\d{2})[-/](\d{1,2})[-/](\d{1,2})')
+_NUM_MDY_RE       = re.compile(r'\b(\d{1,2})[-/](\d{1,2})[-/](20\d{2})\b')
+_MONTH_DAY_YEAR_RE = re.compile(r'(' + MONTH_NAMES + r')[a-z]*\.?\s+(\d{1,2})(?:st|nd|rd|th)?[,\s]+(20\d{2})', re.IGNORECASE)
+_DAY_MONTH_YEAR_RE = re.compile(r'\b(\d{1,2})(?:st|nd|rd|th)?\s+(' + MONTH_NAMES + r')[a-z]*\.?[,\s]+(20\d{2})', re.IGNORECASE)
+_ISO_YM_RE        = re.compile(r'(20\d{2})[-/](\d{1,2})(?![-/\d])')
+_MONTH_YEAR_RE    = re.compile(r'(' + MONTH_NAMES + r')[a-z]*\.?[,\s]+(20\d{2})', re.IGNORECASE)
+
+
+def _safe_date(y: int, mo: int, d: int):
+    try:
+        return date(y, mo, d)
+    except ValueError:
+        return None
+
+
+def parse_deadline_date(deadline_field: str):
+    """Parse a deadline string into the LAST valid day it denotes, or None if
+    undatable. Month/year-only deadlines resolve to the last day of that month —
+    a month-year deadline is not 'past' until the whole month is over."""
+    s = str(deadline_field or "")
+    m = _ISO_FULL_RE.search(s)
+    if m:
+        return _safe_date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    m = _NUM_MDY_RE.search(s)
+    if m:
+        return _safe_date(int(m.group(3)), int(m.group(1)), int(m.group(2)))
+    m = _MONTH_DAY_YEAR_RE.search(s)
+    if m:
+        return _safe_date(int(m.group(3)), _MONTH_NUM[m.group(1).lower()[:3]], int(m.group(2)))
+    m = _DAY_MONTH_YEAR_RE.search(s)
+    if m:
+        return _safe_date(int(m.group(3)), _MONTH_NUM[m.group(2).lower()[:3]], int(m.group(1)))
+    m = _ISO_YM_RE.search(s)
+    if m:
+        y, mo = int(m.group(1)), int(m.group(2))
+        if 1 <= mo <= 12:
+            return _safe_date(y, mo, calendar.monthrange(y, mo)[1])
+        return None
+    m = _MONTH_YEAR_RE.search(s)
+    if m:
+        y, mo = int(m.group(2)), _MONTH_NUM[m.group(1).lower()[:3]]
+        return _safe_date(y, mo, calendar.monthrange(y, mo)[1])
+    return None
+
+
+def deadline_is_past(deadline_field: str, today: date = None) -> bool:
+    """True only when the deadline parses to a concrete day before today."""
+    today = today or date.today()
+    parsed = parse_deadline_date(deadline_field)
+    return parsed is not None and parsed < today
+
 
 def build_text_blob(opp: dict) -> str:
     parts = [
@@ -55,8 +116,10 @@ def contains_any(text: str, terms: list) -> bool:
     return any(term.lower() in lower for term in terms)
 
 
-def classify_deadline(blob: str, deadline_field: str) -> dict:
+def classify_deadline(blob: str, deadline_field: str, today: date = None) -> dict:
     """Return a dict of fields to update, or empty dict if no match."""
+    today = today or date.today()
+
     # 1. Rolling
     if contains_any(blob, ROLLING_TERMS):
         return {
@@ -70,6 +133,14 @@ def classify_deadline(blob: str, deadline_field: str) -> dict:
         return {
             "deadline_type": "closed",
             # Do NOT set deadline_verified = True
+        }
+
+    # 2b. Dated deadline that has already passed — must never be marked verified.
+    if deadline_field and deadline_is_past(deadline_field, today):
+        return {
+            "deadline_type": "passed",
+            "deadline_verified": False,
+            "deadline_past": True,
         }
 
     # 3. Confirmed date — specific month+date already in the deadline field
@@ -120,6 +191,7 @@ def main():
         "closed": 0,
         "total_processed": 0,
         "already_verified": 0,
+        "downgraded_past": 0,
         "no_match": 0,
     }
 
@@ -129,7 +201,15 @@ def main():
 
         deadline_verified = opp.get("deadline_verified")
         if deadline_verified is True:
-            counts["already_verified"] += 1
+            # Self-correct: a previously-verified deadline that is now in the
+            # past must be downgraded, not skipped over.
+            if deadline_is_past(opp.get("deadline") or ""):
+                opp["deadline_verified"] = False
+                opp["deadline_type"] = "passed"
+                opp["deadline_past"] = True
+                counts["downgraded_past"] += 1
+            else:
+                counts["already_verified"] += 1
             continue
 
         counts["total_processed"] += 1
@@ -154,6 +234,7 @@ def main():
 
     print("Deadline normalisation complete.")
     print(f"  Already verified (skipped)  : {counts['already_verified']}")
+    print(f"  Downgraded (deadline passed): {counts['downgraded_past']}")
     print(f"  Total processed             : {counts['total_processed']}")
     print(f"  Rolling found               : {counts['rolling']}")
     print(f"  Confirmed date              : {counts['confirmed_date']}")

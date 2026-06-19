@@ -25,6 +25,13 @@ import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Canonical deadline parser (shared with the pipeline's deadline step). Import
+# works both standalone (python engines/foo.py) and as a package (engines.foo).
+try:
+    from deadline_normaliser import deadline_is_past
+except ImportError:  # pragma: no cover - import-path fallback
+    from engines.deadline_normaliser import deadline_is_past
+
 # Windows cert-store issues: create an unverified context as fallback.
 # We're checking reachability, not doing TLS security validation.
 _SSL_UNVERIFIED = ssl.create_default_context()
@@ -71,7 +78,7 @@ def _overall_score(opp: dict) -> float:
 _ROLLING_TERMS = frozenset({"rolling", "ongoing", "year-round", "open submission", "anytime", "proposal-based"})
 
 
-def _deadline_is_real(opp: dict) -> bool:
+def _deadline_is_real(opp: dict, today=None) -> bool:
     d = str(opp.get("deadline", "")).strip().lower()
     if not d or len(d) <= 4:
         return False
@@ -80,6 +87,9 @@ def _deadline_is_real(opp: dict) -> bool:
     # "rolling — proposal-based" and similar are real (always-open venues)
     if any(t in d for t in _ROLLING_TERMS):
         return True
+    # A deadline whose date has already passed is not a real, actionable deadline.
+    if deadline_is_past(opp.get("deadline", ""), today):
+        return False
     return True
 
 

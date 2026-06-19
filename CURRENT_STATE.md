@@ -32,6 +32,15 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Verification hardening: past-deadline detection** (Claude, 2026-06-19, tests-first): added a canonical
+  deadline date parser (`parse_deadline_date` / `deadline_is_past`) to `engines/deadline_normaliser.py`.
+  `classify_deadline` and `targeted_verification_agent._deadline_is_real` now refuse to mark an already-passed
+  deadline as `deadline_verified`, and `deadline_normaliser.main()` self-corrects previously-verified-but-expired
+  entries (`deadline_verified=False`, `deadline_past=True`, which the readiness layer already demotes). 10 new
+  unit tests. **Offline impact on the 380 cached opps: 103 of 279 "verified" deadlines are actually past** and
+  get downgraded — including UTRECHT ("1 July 2025"), which was in `immediate_best_moves`. No data written and
+  no live calls yet: the fix applies on the next pipeline run, or run `python engines/deadline_normaliser.py`
+  (offline, no network) to apply in-place, then redeploy.
 - **Read-only verification-layer audit** (Codex, 2026-06-19; scope commit `772700ed`; reviewed by Claude):
   Canonical in-pipeline path = `url_verification_engine` (step 9, URL-reachable only) → `opportunity_truth_checker`
   (21) → `fee_text_extractor`/`deadline_normaliser`/`submission_page_harvester` (41-43) → `verification_report_engine`
