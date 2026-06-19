@@ -14,6 +14,11 @@ const zh = {
   'nav.quick.cafes':         '咖啡馆',
   'nav.quick.residencies':   '驻留项目',
   'nav.quick.people':        '联系人',
+  'nav.quick.publication':   '出版编辑',
+  'nav.quick.competitions':  '比赛奖项',
+  'nav.quick.venues':        '画廊与咖啡馆',
+  'nav.quick.watchList':     '关注列表',
+  'nav.quick.press':         '媒体',
 
   // ── Status bar ───────────────────────────────────────────────────────────
   'status.name':             '猫饼',
@@ -894,6 +899,11 @@ const ja = {
   'nav.quick.cafes':         'カフェ',
   'nav.quick.residencies':   'レジデンシー',
   'nav.quick.people':        'つながり',
+  'nav.quick.publication':   '出版・編集',
+  'nav.quick.competitions':  'コンペ・賞',
+  'nav.quick.venues':        'ギャラリー・カフェ',
+  'nav.quick.watchList':     'ウォッチリスト',
+  'nav.quick.press':         'メディア',
 
   // ── Status bar ───────────────────────────────────────────────────────────
   'status.name':             'モチ',
@@ -1773,6 +1783,11 @@ const en = {
   'nav.quick.cafes':         'Cafés',
   'nav.quick.residencies':   'Residencies',
   'nav.quick.people':        'People',
+  'nav.quick.publication':   'Publication',
+  'nav.quick.competitions':  'Competitions',
+  'nav.quick.venues':        'Galleries & Cafés',
+  'nav.quick.watchList':     'Watch List',
+  'nav.quick.press':         'Press',
 
   'status.name':             'Mochi',
   'status.mood.happy':       'Happy',

@@ -16,14 +16,18 @@ export default function Nav({ activePage, onNav }) {
     { label: t('nav.refine'),   key: 'refine'   },
   ]
 
+  // Each entry jumps to a real section id (see SECTION_ORDER + the press/relationships
+  // sections in OpportunitiesSection / RelationshipTargets). Labels match the sections.
   const QUICK_NAV = [
-    { label: t('nav.quick.bestMoves'),   target: 'immediate_best_moves' },
-    { label: t('nav.quick.openCalls'),   target: 'open_calls'           },
-    { label: t('nav.quick.zines'),       target: 'zines_and_print'      },
-    { label: t('nav.quick.galleries'),   target: 'relationship_targets'  },
-    { label: t('nav.quick.cafes'),       target: 'relationship_targets'  },
-    { label: t('nav.quick.residencies'), target: 'watch_list'            },
-    { label: t('nav.quick.people'),      target: 'relationships'         },
+    { label: t('nav.quick.bestMoves'),    target: 'immediate_best_moves'  },
+    { label: t('nav.quick.openCalls'),    target: 'open_calls'            },
+    { label: t('nav.quick.publication'),  target: 'publication_editorial' },
+    { label: t('nav.quick.competitions'), target: 'competitions_awards'   },
+    { label: t('nav.quick.zines'),        target: 'zines_and_print'       },
+    { label: t('nav.quick.venues'),       target: 'relationship_targets'  },
+    { label: t('nav.quick.watchList'),    target: 'watch_list'            },
+    { label: t('nav.quick.press'),        target: 'press_visibility'      },
+    { label: t('nav.quick.people'),       target: 'relationships'         },
   ]
 
   return (
