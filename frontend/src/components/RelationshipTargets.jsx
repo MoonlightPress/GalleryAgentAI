@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import './RelationshipTargets.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import { prepareRelationshipTargets } from '../utils/relationshipTargets'
@@ -38,6 +38,11 @@ function ContactCard({ c, t, onHide }) {
   const [open, setOpen] = useState(false)
   const [reached, setReached] = useState(false)
   const [toast, setToast] = useState(null)
+  const detailsRef = useRef(null)
+
+  useEffect(() => {
+    if (open) detailsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+  }, [open])
 
   const why = c.why_relevant || ''
   const ca = c.crm_analysis || {}
@@ -85,7 +90,7 @@ function ContactCard({ c, t, onHide }) {
       </div>
 
       {open && (
-        <div className="rt-details">
+        <div className="rt-details" ref={detailsRef}>
           {summary && summary !== why && <p className="rt-summary">{summary}</p>}
           {ca.next_action && (
             <p className="rt-analysis"><strong>{t('people.field.nextAction')}</strong> {ca.next_action}</p>

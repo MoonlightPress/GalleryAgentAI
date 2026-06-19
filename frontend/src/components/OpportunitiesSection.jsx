@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import OppCard from './OppCard'
 import OppDetailPanel from './OppDetailPanel'
 import './OpportunitiesSection.css'
@@ -167,6 +167,10 @@ function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
 
 function PressCard({ opp }) {
   const [expanded, setExpanded] = useState(false)
+  const expandRef = useRef(null)
+  useEffect(() => {
+    if (expanded) expandRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+  }, [expanded])
   const { t, lang } = useLanguage()
   const loc = (field) => {
     if (lang === 'zh' && opp[field + '_zh']) return opp[field + '_zh']
@@ -233,7 +237,7 @@ function PressCard({ opp }) {
             {expanded ? t('people.hide') : t('people.details')}
           </button>
           {expanded && (
-            <div className="press-expand-content">
+            <div className="press-expand-content" ref={expandRef}>
               {strategy && <p className="press-note"><strong>{t('press.strategy')}</strong> {strategy}</p>}
               {submission && <p className="press-note"><strong>{t('press.submission')}</strong> {submission}</p>}
               {lead && <p className="press-note"><strong>{t('press.whatToLead')}</strong> {lead}</p>}
