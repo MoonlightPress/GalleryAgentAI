@@ -3,7 +3,7 @@ import './RelationshipTargets.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import { prepareRelationshipTargets } from '../utils/relationshipTargets'
 
-const PAGE_SIZE = 9
+const PAGE_SIZE = 6
 
 const TYPE_ICON = {
   gallery: '🖼️', gallery_small: '🖼️', gallery_event: '🖼️',

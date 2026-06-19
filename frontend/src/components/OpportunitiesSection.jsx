@@ -29,7 +29,7 @@ const SECTION_ICONS = {
   watch_list:            '👁',
 }
 
-const PAGE_SIZE = 9   // reveal opportunities in batches of 9, not all at once
+const PAGE_SIZE = 6   // reveal in small batches, not all at once
 
 function isPressTarget(opp) {
   return (
@@ -228,7 +228,7 @@ function PressCard({ opp }) {
             className="press-expand-btn"
             onClick={() => setExpanded(v => !v)}
           >
-            {expanded ? '▲ ' : '▶ '}{t('press.howToPitch')}
+            {expanded ? t('people.hide') : t('people.details')}
           </button>
           {expanded && (
             <div className="press-expand-content">

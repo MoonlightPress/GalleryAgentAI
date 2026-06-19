@@ -7,8 +7,9 @@
 
 .rt-grid {
   display: grid;
+  align-items: start;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 18px;
+  gap: 14px;
   margin-top: 8px;
 }
 
@@ -103,13 +104,14 @@
 }
 
 .rt-reach {
-  flex: 1 1 auto;
+  flex: 0 0 auto;
+  min-width: 104px;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
   font-weight: 600;
   text-decoration: none;
-  padding: 11px 18px;
-  border-radius: 11px;
+  padding: 9px 18px;
+  border-radius: 10px;
   background: var(--gold, #c9a24b);
   color: #fff;
   transition: filter 0.15s ease;

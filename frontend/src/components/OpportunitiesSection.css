@@ -1,6 +1,6 @@
 .opps-root {
   background: var(--parchment);
-  padding: 0 28px 56px;
+  padding: 0 28px 24px;
 }
 
 .opps-loading,
@@ -27,7 +27,7 @@
 /* ── Section wrapper ── */
 .opp-section {
   max-width: 1400px;
-  margin: 0 auto 52px;
+  margin: 0 auto 18px;
 }
 
 .opp-section--strongest {
@@ -44,9 +44,9 @@
 
 /* ── Section header ── */
 .opp-section-header {
-  padding: 28px 0 16px;
+  padding: 14px 0 8px;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .opp-section-title-row {
@@ -157,6 +157,7 @@
 
 .press-grid {
   display: grid;
+  align-items: start;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
