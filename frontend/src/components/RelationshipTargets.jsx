@@ -23,15 +23,42 @@ function reachHref(c) {
   return null
 }
 
-function ContactCard({ c, t }) {
+function patchContact(name, fields) {
+  // Best-effort write back to her CRM — silently ignore failures.
+  fetch('/api/contacts/update', {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name, ...fields }),
+  }).catch(() => {})
+}
+
+function ContactCard({ c, t, onHide }) {
+  const [open, setOpen] = useState(false)
+  const [reached, setReached] = useState(false)
+  const [toast, setToast] = useState(null)
+
   const why = c.why_relevant || ''
   const summary = (c.crm_analysis && c.crm_analysis.contact_summary) || ''
   const href = reachHref(c)
+  const email = c.contact_email || ''
+  const site = c.official_website || c.contact_page || ''
+  const submit = c.submission_page || ''
+  const notes = c.notes || ''
   const statusKey = `people.status.${c.status}`
   const statusLabel = c.status && t(statusKey) !== statusKey ? t(statusKey) : null
 
+  function markReached() {
+    setReached(true)
+    patchContact(c.name, {
+      last_contacted: new Date().toISOString().slice(0, 10),
+      status: 'in_contact',
+    })
+    setToast(t('people.toast.reached'))
+    setTimeout(() => setToast(null), 2500)
+  }
+
   return (
-    <div className="rt-card">
+    <div className={`rt-card${reached ? ' rt-card--reached' : ''}`}>
       <div className="rt-card-header">
         <span className="rt-card-icon">{TYPE_ICON[c.type] || '🌸'}</span>
         <h3 className="rt-card-name">{c.name}</h3>
@@ -44,7 +71,6 @@ function ContactCard({ c, t }) {
       </div>
 
       {why && <p className="rt-why">{why}</p>}
-      {summary && summary !== why && <p className="rt-summary">{summary}</p>}
 
       <div className="rt-actions">
         {href ? (
@@ -54,9 +80,37 @@ function ContactCard({ c, t }) {
         ) : (
           <span className="rt-reach rt-reach--none">{t('people.reach.none')}</span>
         )}
-        {c.contact_email && c.reachVia === 'email' && (
-          <span className="rt-reach-detail">{c.contact_email}</span>
-        )}
+        <button className="rt-details-btn" onClick={() => setOpen(o => !o)}>
+          {open ? t('people.hide') : t('people.details')}
+        </button>
+      </div>
+
+      {open && (
+        <div className="rt-details">
+          {summary && summary !== why && <p className="rt-summary">{summary}</p>}
+          <div className="rt-channels">
+            {email && <a href={`mailto:${email}`} className="rt-channel">✉ {email}</a>}
+            {site && <a href={site} target="_blank" rel="noreferrer" className="rt-channel">🔗 {site.replace(/^https?:\/\//, '')}</a>}
+            {submit && <a href={submit} target="_blank" rel="noreferrer" className="rt-channel">📝 {t('people.field.submit')}</a>}
+          </div>
+          {notes && <p className="rt-note"><strong>{t('people.field.notes')}:</strong> {notes}</p>}
+          {c.last_contacted && (
+            <p className="rt-meta">{t('people.field.lastContacted')}: {c.last_contacted}</p>
+          )}
+        </div>
+      )}
+
+      <div className="rt-feedback">
+        <button
+          className={`rt-fb-btn${reached ? ' rt-fb-btn--on' : ''}`}
+          onClick={markReached}
+        >
+          ✓ {t('people.act.reached')}
+        </button>
+        <button className="rt-fb-btn rt-fb-btn--hide" onClick={() => onHide?.(c.name)}>
+          ✕ {t('people.act.notForMe')}
+        </button>
+        {toast && <span className="rt-toast">{toast}</span>}
       </div>
     </div>
   )
@@ -66,6 +120,7 @@ export default function RelationshipTargets() {
   const { t } = useLanguage()
   const [contacts, setContacts] = useState(null)
   const [shown, setShown] = useState(PAGE_SIZE)
+  const [hidden, setHidden] = useState(() => new Set())
 
   useEffect(() => {
     let alive = true
@@ -77,11 +132,15 @@ export default function RelationshipTargets() {
   }, [])
 
   if (contacts === null) return null
-  const targets = prepareRelationshipTargets(contacts)
+  const targets = prepareRelationshipTargets(contacts).filter(c => !hidden.has(c.name))
   if (!targets.length) return null
 
   const visible = targets.slice(0, shown)
   const remaining = targets.length - shown
+
+  function hide(name) {
+    setHidden(prev => new Set([...prev, name]))
+  }
 
   return (
     <section id="relationships" className="opp-section rt-section">
@@ -96,7 +155,7 @@ export default function RelationshipTargets() {
 
       <div className="rt-grid">
         {visible.map((c, i) => (
-          <ContactCard key={`${c.name || 'c'}-${i}`} c={c} t={t} />
+          <ContactCard key={`${c.name || 'c'}-${i}`} c={c} t={t} onHide={hide} />
         ))}
       </div>
 

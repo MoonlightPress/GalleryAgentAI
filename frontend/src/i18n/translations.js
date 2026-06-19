@@ -774,6 +774,14 @@ const zh = {
   'people.status.cold':            '尚未联系',
   'people.status.researching':     '研究中',
   'people.status.ready_to_review': '可以联系',
+  'people.details':          '详情',
+  'people.hide':             '收起',
+  'people.field.submit':     '投稿页面',
+  'people.field.notes':      '备注',
+  'people.field.lastContacted': '上次联系',
+  'people.act.reached':      '已联系',
+  'people.act.notForMe':     '不适合',
+  'people.toast.reached':    '已记录，加油！',
 
   // ── Dismissal insight banner ──────────────────────────────────────────────
   'pp.dismissal.text':    '您已跳过了{n}个{cat}机会。要减少此类推荐吗？',
@@ -1640,6 +1648,14 @@ const ja = {
   'people.status.cold':            '未連絡',
   'people.status.researching':     'リサーチ中',
   'people.status.ready_to_review': '連絡OK',
+  'people.details':          '詳細',
+  'people.hide':             '閉じる',
+  'people.field.submit':     '応募ページ',
+  'people.field.notes':      'メモ',
+  'people.field.lastContacted': '前回の連絡',
+  'people.act.reached':      '連絡した',
+  'people.act.notForMe':     '興味なし',
+  'people.toast.reached':    '記録しました！',
 
   // ── Dismissal insight banner ──────────────────────────────────────────────
   'pp.dismissal.text':    '{cat}の機会を{n}件スキップしています。今後は減らしましょうか？',
@@ -2512,6 +2528,14 @@ const en = {
   'people.status.cold':            'Not yet contacted',
   'people.status.researching':     'Researching',
   'people.status.ready_to_review': 'Ready to reach out',
+  'people.details':          'Details',
+  'people.hide':             'Hide',
+  'people.field.submit':     'Submission page',
+  'people.field.notes':      'Notes',
+  'people.field.lastContacted': 'Last contacted',
+  'people.act.reached':      'Reached out',
+  'people.act.notForMe':     'Not for me',
+  'people.toast.reached':    'Logged — fingers crossed!',
 
   // ── Dismissal insight banner ──────────────────────────────────────────────
   'pp.dismissal.text':    "You've passed on {n} {cat} calls. Should I surface fewer of these?",
