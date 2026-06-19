@@ -17,14 +17,43 @@ def load_json(path, fallback):
     return fallback
 
 
+def _first(value):
+    """Normalise a field that may be a string, list, or None to a string."""
+    if isinstance(value, list):
+        value = value[0] if value else ""
+    return (value or "").strip()
+
+
+def get_actionable_url(opp):
+    """The opportunity's own URL — official_website or submission_page only.
+
+    Discovery-trail fields (source_url / source_link) are deliberately NOT used:
+    they point at how the opportunity was *found* (a search result, directory,
+    or social profile), not at the opportunity itself. Verifying them produced
+    the contradiction where an opp with no real URL was still marked "ok".
+    """
+    return _first(opp.get("official_website")) or _first(opp.get("submission_page"))
+
+
 def get_url(opp):
+    # Back-compat shim; prefers the actionable URL, falls back to discovery
+    # trail only for callers that still want *some* link to display.
     return (
-        opp.get("source_url")
-        or opp.get("source_link")
-        or opp.get("official_website")
-        or opp.get("submission_page")
-        or ""
+        get_actionable_url(opp)
+        or _first(opp.get("source_url"))
+        or _first(opp.get("source_link"))
     )
+
+
+def decide_url_status(opp):
+    """Pure, network-free pre-check of url_verification_status.
+
+    Returns "no_url" when the opportunity has neither an official_website nor a
+    submission_page — you cannot verify a URL that does not exist, so such an
+    entry must never be "ok". Returns "has_url" when a real, checkable URL is
+    present (the live check then refines that to ok/bad/error).
+    """
+    return "has_url" if get_actionable_url(opp) else "no_url"
 
 
 def check(url):
@@ -48,8 +77,16 @@ def main():
 
     for opp in opps:
         title = opp.get("title") or opp.get("name") or "Unknown"
-        url = get_url(opp)
-        status, code, final = check(url)
+
+        # An opportunity with no official_website and no submission_page has no
+        # URL to verify. Do NOT fall back to discovery-trail URLs (source_url /
+        # source_link) and live-check those — that produced "ok" for opps that
+        # have no real URL at all. Mark "no_url" and skip the network call.
+        if decide_url_status(opp) == "no_url":
+            url, status, code, final = "", "no_url", 0, ""
+        else:
+            url = get_actionable_url(opp)
+            status, code, final = check(url)
 
         opp["url_verification_status"] = status
         opp["url_status_code"] = code
