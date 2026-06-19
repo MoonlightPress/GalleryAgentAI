@@ -23,6 +23,7 @@ export default function Nav({ activePage, onNav }) {
     { label: t('nav.quick.galleries'),   target: 'relationship_targets'  },
     { label: t('nav.quick.cafes'),       target: 'relationship_targets'  },
     { label: t('nav.quick.residencies'), target: 'watch_list'            },
+    { label: t('nav.quick.people'),      target: 'relationships'         },
   ]
 
   return (

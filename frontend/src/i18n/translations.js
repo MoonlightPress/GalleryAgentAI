@@ -13,6 +13,7 @@ const zh = {
   'nav.quick.galleries':     '画廊',
   'nav.quick.cafes':         '咖啡馆',
   'nav.quick.residencies':   '驻留项目',
+  'nav.quick.people':        '联系人',
 
   // ── Status bar ───────────────────────────────────────────────────────────
   'status.name':             '猫饼',
@@ -878,6 +879,7 @@ const ja = {
   'nav.quick.galleries':     'ギャラリー',
   'nav.quick.cafes':         'カフェ',
   'nav.quick.residencies':   'レジデンシー',
+  'nav.quick.people':        'つながり',
 
   // ── Status bar ───────────────────────────────────────────────────────────
   'status.name':             'モチ',
@@ -1742,6 +1744,7 @@ const en = {
   'nav.quick.galleries':     'Galleries',
   'nav.quick.cafes':         'Cafés',
   'nav.quick.residencies':   'Residencies',
+  'nav.quick.people':        'People',
 
   'status.name':             'Mochi',
   'status.mood.happy':       'Happy',
