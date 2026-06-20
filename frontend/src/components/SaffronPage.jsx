@@ -1501,6 +1501,72 @@ function CareerReadiness({ data, flat }) {
   )
 }
 
+// ── Overview front page ─────────────────────────────────────────────────────
+
+const PROB_RANK = { high: 2, moderate: 1, low: 0 }
+function isBestFit(s) { return /most natural|best fit/i.test(s?.best_fit_signal || '') }
+
+function OverviewFront({ data, t, onGoto }) {
+  const cp = data.career_position
+  const ms = data.market_stats
+  const ig = cp?.social?.find(s => s.platform === 'Instagram')
+  const scenarios = (data.long_term_scenarios?.scenarios || []).slice().sort(
+    (a, b) => (isBestFit(b) - isBestFit(a)) || ((PROB_RANK[b.probability] ?? 0) - (PROB_RANK[a.probability] ?? 0))
+  )
+  const cats = Object.entries(ms?.by_category || {}).sort((a, b) => b[1] - a[1]).slice(0, 5)
+  const maxCat = Math.max(...cats.map(([, v]) => v), 1)
+  const fitWord = (p) => { const k = `sf.front.fit.${p}`; return t(k) !== k ? t(k) : p }
+
+  return (
+    <div className="sf-front">
+      <div className="sf-front-read">
+        <p>{t('sf.front.read1', { ig: ig?.followers ?? '—', pub: cp?.publications?.length ?? 0, ex: cp?.exhibitions?.length ?? 0 })}</p>
+        <p>{t('sf.front.read2')}</p>
+        <p>{t('sf.front.read3')}</p>
+      </div>
+
+      {scenarios.length > 0 && (
+        <div className="sf-front-block">
+          <div className="sf-front-h">{t('sf.front.pathsTitle')}</div>
+          <div className="sf-front-paths">
+            {scenarios.map((s, i) => {
+              const best = isBestFit(s)
+              return (
+                <button key={i} type="button" className={`sf-front-path${best ? ' sf-front-path--best' : ''}`} onClick={() => onGoto('direction')}>
+                  <div className="sf-front-path-top">
+                    <span className="sf-front-path-name">{(s.name || '').replace(/\s*Track$/i, '')}</span>
+                    <span className="sf-front-path-fit">{best ? t('sf.front.bestFit') : fitWord(s.probability)}</span>
+                  </div>
+                  <div className="sf-front-path-tag">{s.tagline}</div>
+                  {s.requires_now?.[0] && (
+                    <div className="sf-front-path-next"><span className="sf-front-next-label">{t('sf.front.nextStep')}</span> {s.requires_now[0]}</div>
+                  )}
+                </button>
+              )
+            })}
+          </div>
+        </div>
+      )}
+
+      {cats.length > 0 && (
+        <div className="sf-front-block">
+          <div className="sf-front-h">{t('sf.front.openingsTitle')}</div>
+          <div className="sf-bars sf-front-bars">
+            {cats.map(([label, count]) => (
+              <div key={label} className="sf-bar-row">
+                <span className="sf-bar-label">{label}</span>
+                <div className="sf-bar-track"><div className="sf-bar-fill" style={{ width: `${(count / maxCat) * 100}%` }} /></div>
+                <span className="sf-bar-count">{count}</span>
+              </div>
+            ))}
+          </div>
+          <button type="button" className="sf-link sf-front-seemore" onClick={() => onGoto('market')}>{t('sf.front.seeMarket')}</button>
+        </div>
+      )}
+    </div>
+  )
+}
+
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function SaffronPage({ nav }) {
@@ -1589,9 +1655,7 @@ export default function SaffronPage({ nav }) {
 
           <SectionErrorBoundary key={tab}>
             {tab === 'standing' && (
-              careerData
-                ? <CareerReadiness data={careerData} flat />
-                : <EmptyState message={t('sf.loading')} />
+              <OverviewFront data={data} t={t} onGoto={switchTab} />
             )}
             {tab === 'market' && (
               <>
@@ -1625,6 +1689,7 @@ export default function SaffronPage({ nav }) {
             )}
             {tab === 'direction' && (
               <>
+                {careerData && <CareerReadiness data={careerData} />}
                 <CareerMomentum      data={data.career_momentum}   t={t} />
                 <OpportunityGap      data={data.opportunity_gap}   t={t} />
                 <StrategicPathway    data={data.pathway}              t={t} />
