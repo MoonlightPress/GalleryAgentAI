@@ -714,6 +714,7 @@ const zh = {
 
   // ── Career Event Widget ─────────────────────────────────────────────────
   'pp.event.prompt':           '今天发生了什么？',
+  'pp.event.logged':           '已记下，已加入你的记录',
   'pp.event.type.accepted':    '通过了',
   'pp.event.type.rejected':    '被拒了',
   'pp.event.type.conversation':'聊了一次',
@@ -2652,6 +2653,7 @@ const en = {
 
   // ── Career Event Widget ─────────────────────────────────────────────────
   'pp.event.prompt':           'Something happened today:',
+  'pp.event.logged':           'Got it — added to your record',
   'pp.event.type.accepted':    'Got accepted',
   'pp.event.type.rejected':    'Got rejected',
   'pp.event.type.conversation':'Had a conversation',

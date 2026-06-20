@@ -1483,6 +1483,10 @@ function CareerEventWidget() {
         ))}
       </div>
 
+      {flashType && (
+        <div className="pp-event-confirm">✓ {t('pp.event.logged')}</div>
+      )}
+
       {editType && (
         <div className="pp-event-detail">
           <input
