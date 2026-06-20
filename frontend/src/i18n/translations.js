@@ -2146,7 +2146,7 @@ const en = {
   'sf.sec.careerPosition':   'Career Position',
   'sf.sub.careerPosition':   'Where you actually are right now — confirmed facts only.',
   'sf.sec.market':           'Market Landscape',
-  'sf.sub.market':           '{n} opportunities in the current pipeline.',
+  'sf.sub.market':           '{n} opportunities open right now.',
   'sf.sec.peers':            'Comparable Artists',
   'sf.sub.peers':            'Artists working in adjacent territory — orientation points, not direct comparisons.',
   'sf.sum.peers':            '{n} artists working in adjacent territory — orientation points, not direct comparisons',
@@ -2204,11 +2204,11 @@ const en = {
   'sf.label.artPress':       'Art press',
   'sf.label.japanMedia':     'Japanese media',
   'sf.label.pitchTargets':   'Pitch targets',
-  'sf.label.fairsPipeline':  'Fairs in the pipeline that attract buyers',
+  'sf.label.fairsPipeline':  'Fairs coming up that draw buyers',
   'sf.label.herPubs':        'Her publications',
   'sf.label.pubIntent':      'Planned next publication (from Peppercorn)',
   'sf.label.pubTiers':       'Publication tiers',
-  'sf.label.topTargets':     'Top targets in pipeline ({n})',
+  'sf.label.topTargets':     'Top targets ({n})',
   'sf.label.prepLeadTimes':  'Preparation lead times',
   'sf.label.rolling':        'Rolling / open deadlines ({n})',
   'sf.label.requiresNow':    'Requires now',
@@ -2272,7 +2272,7 @@ const en = {
   'sf.label.primaryBase':      'Primary: Tokyo / Beijing',
 
 
-  'sf.inPipeline':           '{n} in pipeline',
+  'sf.inPipeline':           '{n} open here',
 
   // ── Saffron insight sections ──────────────────────────────────────────────
   'sf.licensing.title':      'Licensing Landscape',
