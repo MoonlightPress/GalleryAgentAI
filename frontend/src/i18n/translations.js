@@ -887,7 +887,7 @@ const zh = {
   'press.empty':         '稍后会更新媒体投稿目标。',
 
   // ── SaffronPage — MarketStats ─────────────────────────────────────────────
-  'sf.ms.title':          '管线一览',
+  'sf.ms.title':          '当前的机会',
   'sf.ms.subtitle':       '全量机会数据集的实时统计',
   'sf.ms.byType':         '按类型',
   'sf.ms.deadlinePressure': '截止日期压力',
@@ -1826,7 +1826,7 @@ const ja = {
   'press.empty':         'メディアターゲットは近日追加予定です。',
 
   // ── SaffronPage — MarketStats ─────────────────────────────────────────────
-  'sf.ms.title':          'パイプライン概要',
+  'sf.ms.title':          '今ある機会',
   'sf.ms.subtitle':       '全機会データセットのリアルタイム集計',
   'sf.ms.byType':         'タイプ別',
   'sf.ms.deadlinePressure': '締切プレッシャー',
@@ -2771,7 +2771,7 @@ const en = {
   'press.empty':         'Press targets will be populated soon.',
 
   // ── SaffronPage — MarketStats ─────────────────────────────────────────────
-  'sf.ms.title':          'Pipeline at a Glance',
+  'sf.ms.title':          'Opportunities Open Now',
   'sf.ms.subtitle':       'Live counts from the full opportunity dataset',
   'sf.ms.byType':         'By type',
   'sf.ms.deadlinePressure': 'Deadline pressure',

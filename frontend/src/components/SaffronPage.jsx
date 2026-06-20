@@ -183,7 +183,14 @@ function ComparableArtists({ artists, t }) {
       <div className="sf-peers-grid">
         {top.map((a, i) => (
           <div key={i} className="sf-peer-card">
-            <div className="sf-peer-name">{a.name}</div>
+            <a
+              className="sf-peer-name sf-peer-link"
+              href={`https://www.google.com/search?q=${encodeURIComponent(a.name + ' instagram')}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {a.name} ↗
+            </a>
             <div className="sf-peer-region">{a.region}</div>
             <div className="sf-peer-reason">{a.fit_reason}</div>
             <div className="sf-peer-traits">
