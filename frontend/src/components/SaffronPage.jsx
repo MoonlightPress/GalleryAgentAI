@@ -686,26 +686,65 @@ function VenueTracker({ data, t }) {
   )
 }
 
+// Open questions map 1:1 (in order) to the saffron_answers slots in api.py.
+const SF_ANSWER_KEYS = [
+  'posting_frequency', 'audience_geography', 'has_sold_work', 'new_publication_planned',
+  'has_artist_statement', 'tide_china_contact', 'second_exhibition_planned', 'price_points',
+]
+
+function QuestionRow({ q, index, t }) {
+  const [value, setValue] = useState('')
+  const [saved, setSaved] = useState(false)
+  const key = SF_ANSWER_KEYS[index]
+
+  function save() {
+    const v = value.trim()
+    if (!v || !key) return
+    setSaved(true)
+    fetch('/api/saffron_answer', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ key, value: v }),
+    }).catch(() => {})
+  }
+
+  return (
+    <div className="sf-question-row">
+      <div className="sf-question-number">{index + 1}</div>
+      <div className="sf-question-body">
+        <div className="sf-question-text">{q.question}</div>
+        <div className="sf-question-why">{q.why_it_matters}</div>
+        {saved ? (
+          <div className="sf-question-saved">{t('sf.oq.saved')}</div>
+        ) : (
+          <div className="sf-question-answer">
+            <input
+              className="sf-question-input"
+              value={value}
+              onChange={e => setValue(e.target.value)}
+              placeholder={t('sf.oq.placeholder')}
+              onKeyDown={e => { if (e.key === 'Enter') save() }}
+            />
+            <button className="sf-question-save" onClick={save} disabled={!value.trim()}>
+              {t('sf.oq.save')}
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
 function OpenQuestions({ data, t }) {
-  const summary = `${data.count}`
   return (
     <SectionShell
       title={t('sf.sec.openQs')}
       subtitle={t('sf.sub.openQs')}
-      summary={summary}
+      summary={`${data.count}`}
     >
       <p className="sf-info-text" style={{ marginBottom: 24 }}>{t('sf.label.openQNote')}</p>
       <div className="sf-questions">
-        {data.questions.map((q, i) => (
-          <div key={i} className="sf-question-row">
-            <div className="sf-question-number">{i + 1}</div>
-            <div className="sf-question-body">
-              <div className="sf-question-text">{q.question}</div>
-              <div className="sf-question-why">{q.why_it_matters}</div>
-              <div className="sf-question-route">→ {q.routed_to}</div>
-            </div>
-          </div>
-        ))}
+        {data.questions.map((q, i) => <QuestionRow key={i} q={q} index={i} t={t} />)}
       </div>
     </SectionShell>
   )

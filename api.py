@@ -2383,6 +2383,25 @@ async def save_peppercorn(request: Request):
     return {"ok": True, "last_updated": payload["last_updated"]}
 
 
+@app.post("/api/saffron_answer")
+async def save_saffron_answer(request: Request):
+    """Inline answer to one of Saffron's open questions — writes a single
+    saffron_answers field into peppercorn_profile.json (the real store)."""
+    payload = await request.json()
+    key = (payload.get("key") or "").strip()
+    value = payload.get("value")
+    if not key:
+        return {"ok": False, "error": "missing key"}
+    ppath = DATA_DIR / "peppercorn_profile.json"
+    profile = json.loads(ppath.read_text(encoding="utf-8")) if ppath.exists() else {}
+    answers = profile.get("saffron_answers") or {}
+    answers[key] = value
+    profile["saffron_answers"] = answers
+    profile["last_updated"] = datetime.now(timezone.utc).isoformat()
+    ppath.write_text(json.dumps(profile, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True}
+
+
 @app.get("/api/career_events")
 def get_career_events():
     path = DATA_DIR / "career_events.json"

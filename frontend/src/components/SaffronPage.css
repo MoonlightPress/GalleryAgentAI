@@ -111,6 +111,34 @@
 .sf-peer-link { text-decoration: none; cursor: pointer; display: inline-block; }
 .sf-peer-link:hover { color: #c47a35; text-decoration: underline; }
 
+/* Inline answers in Open Questions */
+.sf-question-answer { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.sf-question-input {
+  flex: 1;
+  min-width: 180px;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  padding: 8px 12px;
+  border: 1px solid #d8c79a;
+  border-radius: 8px;
+  background: #fffdf8;
+  color: #3d2b1a;
+}
+.sf-question-input:focus { outline: none; border-color: #c49a3e; }
+.sf-question-save {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #c49a3e;
+  background: #c49a3e;
+  color: #fff;
+  cursor: pointer;
+}
+.sf-question-save:disabled { opacity: 0.45; cursor: default; }
+.sf-question-save:not(:disabled):hover { background: #b5701f; border-color: #b5701f; }
+.sf-question-saved { margin-top: 10px; font-size: 13px; color: #5a7a30; font-style: italic; }
+
 /* ── Toggle header ──────────────────────────────────────────────────── */
 
 .sf-toggle-header {
