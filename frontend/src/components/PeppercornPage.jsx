@@ -1486,6 +1486,8 @@ function CareerEventWidget() {
   const { t } = useLanguage()
   const [events, setEvents] = useState([])
   const [flash, setFlash] = useState(false)
+  const [activeType, setActiveType] = useState(null)
+  const [detail, setDetail] = useState('')
 
   useEffect(() => {
     fetch('/api/career_events')
@@ -1494,17 +1496,23 @@ function CareerEventWidget() {
       .catch(() => {})
   }, [flash])
 
-  // Single tap logs the event immediately — frictionless for a tracker the
-  // artist will only touch occasionally.
-  async function quickLog(type) {
+  // Tapping an event opens a small contextual field — which venue? how many,
+  // for how much? where? — so the detail isn't lost. Still optional: log blank
+  // if she's in a hurry.
+  async function logEvent(type, note) {
     try {
       const r = await fetch('/api/career_events', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ type, note: '' }),
+        body: JSON.stringify({ type, note: (note || '').trim() }),
       })
-      if (r.ok) setFlash(f => !f)
+      if (r.ok) { setFlash(f => !f); setActiveType(null); setDetail('') }
     } catch { /* no-op on network failure */ }
+  }
+
+  function toggleType(type) {
+    if (activeType === type) { setActiveType(null); setDetail('') }
+    else { setActiveType(type); setDetail('') }
   }
 
   return (
@@ -1514,8 +1522,8 @@ function CareerEventWidget() {
         {EVENT_TYPES.map(({ type, icon }) => (
           <button
             key={type}
-            className="pp-event-btn"
-            onClick={() => quickLog(type)}
+            className={`pp-event-btn${activeType === type ? ' pp-event-btn--active' : ''}`}
+            onClick={() => toggleType(type)}
             title={t(`pp.event.type.${type}`)}
           >
             <span className="pp-event-icon">{icon}</span>
@@ -1523,6 +1531,22 @@ function CareerEventWidget() {
           </button>
         ))}
       </div>
+
+      {activeType && (
+        <div className="pp-event-detail">
+          <input
+            className="pp-event-detail-input"
+            value={detail}
+            onChange={e => setDetail(e.target.value)}
+            onKeyDown={e => { if (e.key === 'Enter') logEvent(activeType, detail) }}
+            placeholder={t(`pp.event.detail.${activeType}`)}
+            autoFocus
+          />
+          <button className="pp-event-detail-log" onClick={() => logEvent(activeType, detail)}>
+            {t('pp.event.log')}
+          </button>
+        </div>
+      )}
 
       {events.length > 0 && (
         <div className="pp-event-recent">

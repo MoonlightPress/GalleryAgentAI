@@ -1153,10 +1153,39 @@
 }
 
 .pp-event-btn:hover { background: #fdf0d8; border-color: #c4985a; }
-.pp-event-btn--active { font-weight: bold; }
+.pp-event-btn--active { background: #fdf0d8; border-color: #c4985a; font-weight: bold; }
 
 .pp-event-icon { font-style: normal; }
 .pp-event-label { white-space: nowrap; }
+
+.pp-event-detail {
+  display: flex;
+  gap: 6px;
+  margin: 2px 0 8px;
+}
+.pp-event-detail-input {
+  flex: 1;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #5a3e20;
+  background: #fff;
+  border: 1px solid #d4b890;
+  border-radius: 8px;
+  padding: 7px 11px;
+}
+.pp-event-detail-input:focus { outline: none; border-color: #c4985a; }
+.pp-event-detail-log {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #fff;
+  background: #c4985a;
+  border: 1px solid #c4985a;
+  border-radius: 8px;
+  padding: 7px 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.pp-event-detail-log:hover { background: #b5701f; border-color: #b5701f; }
 
 .pp-event-note-row {
   display: flex;
