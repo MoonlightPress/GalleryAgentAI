@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, Component } from 'react'
+import { useState, useEffect, Component } from 'react'
 import './SaffronPage.css'
 import { saffronHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
@@ -29,26 +29,17 @@ class SectionErrorBoundary extends Component {
 
 // ── Shared primitives ──────────────────────────────────────────────────────
 
-function SectionShell({ title, subtitle, summary, defaultOpen = false, flat = false, children }) {
+function SectionShell({ title, subtitle, summary, defaultOpen = false, children }) {
   const [open, setOpen] = useState(defaultOpen)
-  if (flat) {
-    return (
-      <section className="sf-section sf-section--flat">
-        <div className="sf-flat-header">
-          <h2 className="sf-section-title">{title}</h2>
-          {subtitle && <p className="sf-section-subtitle">{subtitle}</p>}
-        </div>
-        <div className="sf-section-body">{children}</div>
-      </section>
-    )
-  }
   return (
     <section className={`sf-section${open ? '' : ' sf-section--closed'}`}>
       <button className="sf-toggle-header" onClick={() => setOpen(o => !o)}>
         <div className="sf-toggle-text">
           <h2 className="sf-section-title">{title}</h2>
-          {subtitle && <p className="sf-section-subtitle">{subtitle}</p>}
-          {!open && summary && <p className="sf-section-summary">{summary}</p>}
+          {open
+            ? subtitle && <p className="sf-section-subtitle">{subtitle}</p>
+            : summary  && <p className="sf-section-summary">{summary}</p>
+          }
         </div>
         <span className={`sf-chevron${open ? ' sf-chevron--open' : ''}`}>▾</span>
       </button>
@@ -1386,7 +1377,7 @@ function MarketStats({ data }) {
   )
 }
 
-function CareerReadiness({ data, flat }) {
+function CareerReadiness({ data }) {
   const { t } = useLanguage()
   if (!data) return null
 
@@ -1407,7 +1398,6 @@ function CareerReadiness({ data, flat }) {
       title={t('sf.cr.title')}
       subtitle={t('sf.cr.subtitle')}
       summary={summary}
-      flat={flat}
     >
       {/* Readiness bars */}
       <div className="sf-readiness-bars">
@@ -1501,96 +1491,12 @@ function CareerReadiness({ data, flat }) {
   )
 }
 
-// ── Overview front page ─────────────────────────────────────────────────────
-
-const PROB_RANK = { high: 2, moderate: 1, low: 0 }
-function isBestFit(s) { return /most natural|best fit/i.test(s?.best_fit_signal || '') }
-
-function OverviewFront({ data, t, onGoto }) {
-  const cp = data.career_position
-  const cm = data.career_momentum
-  const ms = data.market_stats
-  const ig = cp?.social?.find(s => s.platform === 'Instagram')
-  const scenarios = (data.long_term_scenarios?.scenarios || []).slice().sort(
-    (a, b) => (isBestFit(b) - isBestFit(a)) || ((PROB_RANK[b.probability] ?? 0) - (PROB_RANK[a.probability] ?? 0))
-  )
-  const fitWord = (p) => { const k = `sf.front.fit.${p}`; return t(k) !== k ? t(k) : p }
-  const venueCount = data.venue_tracker?.total ?? cm?.totals?.venues_in_crm ?? 0
-  const oppCount   = ms?.total_opportunities ?? 0
-  const metrics = [
-    [ig?.followers ?? '—',          'Instagram'],
-    [cp?.exhibitions?.length ?? 0,  t('sf.label.exhibitions')],
-    [cp?.publications?.length ?? 0, t('sf.label.publications')],
-    [cm?.totals?.submissions ?? 0,  t('sf.mom.totalSubmissions')],
-    [venueCount,                    t('sf.mom.venuesInCRM')],
-  ]
-  const areas = [
-    ['direction',     t('sf.cat.direction'),     t('sf.front.areaPaths',    { n: scenarios.length })],
-    ['market',        t('sf.cat.market'),        t('sf.front.areaOpenings', { n: oppCount })],
-    ['relationships', t('sf.cat.relationships'), t('sf.front.areaVenues',   { n: venueCount })],
-    ['money',         t('sf.cat.money'),         t('sf.front.areaMoney')],
-  ]
-
-  return (
-    <div className="sf-front">
-      <div className="sf-front-block">
-        <div className="sf-front-h">{t('sf.front.whereImAt')}</div>
-        <div className="sf-front-circles">
-          {metrics.map(([num, label], i) => (
-            <div key={i} className="sf-front-circle">
-              <span className="sf-front-circle-num">{num}</span>
-              <span className="sf-front-circle-lbl">{label}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {scenarios.length > 0 && (
-        <div className="sf-front-block">
-          <div className="sf-front-h">{t('sf.front.myDirections')}</div>
-          <div className="sf-front-paths">
-            {scenarios.map((s, i) => {
-              const best = isBestFit(s)
-              return (
-                <button key={i} type="button" className={`sf-front-path${best ? ' sf-front-path--best' : ''}`} onClick={() => onGoto('direction')}>
-                  <div className="sf-front-path-top">
-                    <span className="sf-front-path-name">{(s.name || '').replace(/\s*Track$/i, '')}</span>
-                    <span className="sf-front-path-fit">{best ? t('sf.front.bestFit') : fitWord(s.probability)}</span>
-                  </div>
-                  <div className="sf-front-path-tag">{s.tagline}</div>
-                </button>
-              )
-            })}
-          </div>
-        </div>
-      )}
-
-      <div className="sf-front-block">
-        <div className="sf-front-h">{t('sf.front.landscape')}</div>
-        <div className="sf-front-areas">
-          {areas.map(([key, label, stat]) => (
-            <button key={key} type="button" className="sf-front-area" onClick={() => onGoto(key)}>
-              <span className="sf-front-area-body">
-                <span className="sf-front-area-label">{label}</span>
-                <span className="sf-front-area-stat">{stat}</span>
-              </span>
-              <span className="sf-front-area-arrow">→</span>
-            </button>
-          ))}
-        </div>
-      </div>
-    </div>
-  )
-}
-
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function SaffronPage({ nav }) {
   const [data,       setData]       = useState(null)
   const [careerData, setCareerData] = useState(null)
   const [error,      setError]      = useState(null)
-  const [tab,        setTab]        = useState('standing')
-  const tabsRef = useRef(null)
   const { t, lang } = useLanguage()
 
   useEffect(() => {
@@ -1607,30 +1513,6 @@ export default function SaffronPage({ nav }) {
       .catch(() => {})
   }, [])
 
-  const SF_CATS = [
-    ['standing',      t('sf.cat.standing'),      t('sf.catDesc.standing')],
-    ['direction',     t('sf.cat.direction'),     t('sf.catDesc.direction')],
-    ['market',        t('sf.cat.market'),        t('sf.catDesc.market')],
-    ['relationships', t('sf.cat.relationships'), t('sf.catDesc.relationships')],
-    ['money',         t('sf.cat.money'),         t('sf.catDesc.money')],
-  ]
-  function switchTab(key) {
-    setTab(key)
-    requestAnimationFrame(() => tabsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
-  }
-  const tabBar = (className, ref) => (
-    <div className={className} ref={ref}>
-      {SF_CATS.map(([key, label]) => (
-        <button
-          key={key}
-          className={`sf-tab${tab === key ? ' sf-tab--active' : ''}`}
-          onClick={() => switchTab(key)}
-        >
-          {label}
-        </button>
-      ))}
-    </div>
-  )
   return (
     <div className="saffron-page">
       <section className="saffron-hero">
@@ -1646,61 +1528,46 @@ export default function SaffronPage({ nav }) {
         </div>
       )}
 
-      {data && (
-        <div className="sf-content">
-          <p className="sf-browse-intro">{t('sf.browseIntro')}</p>
-          {tabBar('sf-tabs', tabsRef)}
-
-          <SectionErrorBoundary key={tab}>
-            {tab === 'standing' && (
-              <OverviewFront data={data} t={t} onGoto={switchTab} />
-            )}
-            {tab === 'market' && (
-              <>
-                <CareerPosition     data={data.career_position}   t={t} />
-                <CareerBenchmarks   data={data.career_benchmarks} t={t} />
-                <CareerTimeline     t={t} />
-                <MarketStats        data={data.market_stats} />
-                <MarketLandscape    data={data.market_landscape}    t={t} />
-                <SeasonalCalendar   data={data.seasonal_calendar}   t={t} />
-                <TimingIntelligence data={data.timing_intelligence} t={t} />
-                <ComparableArtists  artists={data.peer_artists}     t={t} />
-              </>
-            )}
-            {tab === 'relationships' && (
-              <>
-                <PressFeatures      data={data.press_features}      t={t} />
-                <PressPitchMap      t={t} lang={lang} />
-                <CollaborationMap   data={data.collaboration_map}   t={t} />
-                <CollectorEcosystem data={data.collector_ecosystem} t={t} />
-                <VenueTracker       data={data.venue_tracker}       t={t} />
-              </>
-            )}
-            {tab === 'money' && (
-              <>
-                <RevenueStreams       t={t} lang={lang} />
-                <PricingIntelligence  t={t} />
-                <GrantLandscape       t={t} lang={lang} />
-                <LicensingLandscape   t={t} lang={lang} />
-                <PublicationLandscape data={data.publication_landscape} t={t} />
-              </>
-            )}
-            {tab === 'direction' && (
-              <>
-                {careerData && <CareerReadiness data={careerData} />}
-                <CareerMomentum      data={data.career_momentum}   t={t} />
-                <OpportunityGap      data={data.opportunity_gap}   t={t} />
-                <StrategicPathway    data={data.pathway}              t={t} />
-                <LongTermScenarios   data={data.long_term_scenarios}  t={t} />
-                <CareerDependencyMap t={t} lang={lang} />
-                <GeographicExpansion data={data.geographic_expansion} t={t} />
-                <InstagramStrategy   data={data.instagram_strategy}   t={t} />
-                <AudienceGeography   data={data.audience_geography}   t={t} />
-                <OpenQuestions       data={data.open_questions}       t={t} />
-              </>
-            )}
+      {careerData && (
+        <div className="sf-content sf-content--career-readiness">
+          <SectionErrorBoundary>
+            <CareerReadiness data={careerData} />
           </SectionErrorBoundary>
         </div>
+      )}
+
+      {data && (
+        <SectionErrorBoundary>
+        <div className="sf-content">
+          <CareerPosition      data={data.career_position}    t={t} />
+          <MarketStats         data={data.market_stats} />
+          <MarketLandscape     data={data.market_landscape}   t={t} />
+          <ComparableArtists   artists={data.peer_artists}    t={t} />
+          <StrategicPathway    data={data.pathway}            t={t} />
+          <InstagramStrategy   data={data.instagram_strategy} t={t} />
+          <AudienceGeography   data={data.audience_geography} t={t} />
+          <CareerBenchmarks    data={data.career_benchmarks}  t={t} />
+          <SeasonalCalendar    data={data.seasonal_calendar}  t={t} />
+          <PressFeatures       data={data.press_features}     t={t} />
+          <CollectorEcosystem  data={data.collector_ecosystem}t={t} />
+          <CollaborationMap    data={data.collaboration_map}  t={t} />
+          <GeographicExpansion data={data.geographic_expansion} t={t} />
+          <PublicationLandscape data={data.publication_landscape} t={t} />
+          <LongTermScenarios   data={data.long_term_scenarios} t={t} />
+          <VenueTracker        data={data.venue_tracker}      t={t} />
+          <OpenQuestions       data={data.open_questions}     t={t} />
+          <CareerMomentum      data={data.career_momentum}      t={t} />
+          <TimingIntelligence  data={data.timing_intelligence}  t={t} />
+          <CareerTimeline      t={t} />
+          <PricingIntelligence t={t} />
+          <OpportunityGap      data={data.opportunity_gap}      t={t} />
+          <LicensingLandscape  t={t} lang={lang} />
+          <PressPitchMap       t={t} lang={lang} />
+          <GrantLandscape      t={t} lang={lang} />
+          <RevenueStreams       t={t} lang={lang} />
+          <CareerDependencyMap t={t} lang={lang} />
+        </div>
+        </SectionErrorBoundary>
       )}
     </div>
   )
