@@ -62,7 +62,7 @@
 /* ── Carousel ───────────────────────────────────────────────────────────── */
 
 .pp-carousel-wrap {
-  padding: 20px 0 4px;
+  padding: 12px 0 4px;
   border-bottom: 1px solid #dce8cc;
 }
 
@@ -194,13 +194,13 @@
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  padding: 44px 32px;
+  padding: 26px 32px;
   border-bottom: 1px solid #dce8cc;
 }
 
 .pp-section--closed { padding: 18px 32px; }
 
-.pp-section:last-child { border-bottom: none; padding-bottom: 68px; }
+.pp-section:last-child { border-bottom: none; padding-bottom: 40px; }
 .pp-section--closed:last-child { padding-bottom: 18px; }
 
 .pp-toggle {
@@ -1188,29 +1188,33 @@
 .pp-event-icon { font-style: normal; }
 .pp-event-label { white-space: nowrap; }
 
-.pp-event-note-input {
-  flex: 1;
+.pp-event-detail { margin-top: 8px; }
+.pp-event-detail-input {
+  width: 100%;
   font-family: Georgia, serif;
-  font-size: 12px;
+  font-size: 13px;
   color: #5a3e20;
   background: #fbf5e6;
   border: 1px solid #c2d4ad;
-  border-radius: 6px;
-  padding: 3px 9px;
-  min-width: 120px;
+  border-radius: 7px;
+  padding: 7px 11px;
 }
-.pp-event-note-input:focus { outline: none; border-color: #6a8a5a; }
-.pp-event-add-note {
+.pp-event-detail-input:focus { outline: none; border-color: #6a8a5a; }
+.pp-event-btn--logged { background: #eef7e8; border-color: #8fc98a; color: #2e6626; }
+
+.pp-accomplish-band {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 14px 32px 2px;
+}
+.pp-accomplish-preamble {
   font-family: Georgia, serif;
-  font-size: 11px;
-  color: #9a8a6a;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-style: italic;
-  padding: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #5d4b3b;
+  margin: 0 0 12px;
 }
-.pp-event-add-note:hover { color: #6a8a5a; }
 
 .pp-event-note-row {
   display: flex;

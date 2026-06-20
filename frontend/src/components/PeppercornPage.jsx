@@ -282,26 +282,9 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [, flash]           = useSaved()
   const [phIdx]             = useState(() => Math.floor(Math.random() * GOAL_PLACEHOLDER_KEYS.length))
   const [shownFirstNote, setShownFirstNote] = useState((data || []).length > 0)
-  const [accomplishment, setAccomplishment] = useState('')
-  const [accomplishSaved, setAccomplishSaved] = useState(false)
   const { t } = useLanguage()
   // eslint-disable-next-line react-hooks/set-state-in-effect -- sync async-loaded data into editable local state
   useEffect(() => { setGoals(data || []) }, [data])
-
-  async function logAccomplishment() {
-    const note = accomplishment.trim()
-    if (!note) return
-    setAccomplishment('')
-    setAccomplishSaved(true)
-    setTimeout(() => setAccomplishSaved(false), 2600)
-    try {
-      await fetch('/api/career_events', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ type: 'accomplishment', note }),
-      })
-    } catch { /* no-op on network failure */ }
-  }
 
   function addGoal() {
     const trimmed = input.trim()
@@ -330,26 +313,6 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
       isOpen={isOpen}
       onToggle={onToggle}
     >
-      <p className="pp-section-note pp-goals-preamble">{t('pp.goals.preamble')}</p>
-
-      <div className="pp-accomplish">
-        <div className="pp-accomplish-label">{t('pp.goals.accomplishLabel')}</div>
-        <div className="pp-goal-add">
-          <input
-            className="pp-goal-input"
-            value={accomplishment}
-            onChange={e => setAccomplishment(e.target.value)}
-            onKeyDown={e => e.key === 'Enter' && logAccomplishment()}
-            placeholder={t('pp.goals.accomplishPlaceholder')}
-          />
-          <button className="pp-add-btn" onClick={logAccomplishment}>{t('pp.add')}</button>
-        </div>
-        {accomplishSaved && <p className="pp-first-goal-note">{t('pp.goals.accomplishSaved')}</p>}
-      </div>
-
-      <div className="pp-goals-divider" />
-      <div className="pp-block-label">{t('pp.goals.goalsLabel')}</div>
-
       {goals.length === 0 && (
         <p className="pp-section-note">{t('pp.goals.empty')}</p>
       )}
@@ -1466,62 +1429,42 @@ const EVENT_TYPES = [
   { type: 'featured',     icon: '★' },
 ]
 
-const EVENT_COLORS = {
-  accepted:     { bg: '#f0fbee', border: '#8fc98a', text: '#2e6626' },
-  rejected:     { bg: '#fef5f5', border: '#e8b0b0', text: '#8b2a2a' },
-  conversation: { bg: '#f0f6ff', border: '#90aee0', text: '#1a3a80' },
-  visited:      { bg: '#fdf8f0', border: '#e0cba0', text: '#7a5010' },
-  sold:         { bg: '#f6fdf0', border: '#a8d890', text: '#3a6020' },
-  featured:     { bg: '#fffbef', border: '#e8d890', text: '#7a6010' },
-}
-
 function CareerEventWidget() {
   const { t } = useLanguage()
-  const [events, setEvents] = useState([])
-  const [flash, setFlash] = useState(false)
-  const [editingId, setEditingId] = useState(null)
+  const [editType,  setEditType]  = useState(null)
+  const [editId,    setEditId]    = useState(null)
   const [noteDraft, setNoteDraft] = useState('')
+  const [flashType, setFlashType] = useState(null)
 
-  useEffect(() => {
-    fetch('/api/career_events')
-      .then(r => r.ok ? r.json() : [])
-      .then(d => setEvents(Array.isArray(d) ? d.slice(0, 5) : []))
-      .catch(() => {})
-  }, [flash])
-
-  // One tap logs immediately — frictionless. The detail (which venue? how much?)
-  // attaches to the event itself: the just-logged row opens an inline note, and
-  // any past event's note can be edited by clicking it. Nothing left sitting.
+  // One tap logs straight into the knowledge base — nothing stays on screen.
+  // An optional, transient detail field follows (which venue? how much?).
   async function logEvent(type) {
+    setFlashType(type)
+    setTimeout(() => setFlashType(f => (f === type ? null : f)), 1800)
     try {
       const r = await fetch('/api/career_events', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ type, note: '' }),
       })
-      if (r.ok) {
-        const d = await r.json().catch(() => null)
-        setFlash(f => !f)
-        if (d?.entry?.id) { setEditingId(d.entry.id); setNoteDraft('') }
-      }
+      const d = await r.json().catch(() => null)
+      if (d?.entry?.id) { setEditType(type); setEditId(d.entry.id); setNoteDraft('') }
     } catch { /* no-op on network failure */ }
   }
 
-  async function saveNote(id) {
+  async function saveNote() {
     const note = noteDraft.trim()
-    setEditingId(null)
-    setNoteDraft('')
+    const id = editId
+    setEditType(null); setEditId(null); setNoteDraft('')
+    if (!note || !id) return
     try {
       await fetch(`/api/career_events/${id}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ note }),
       })
-      setFlash(f => !f)
     } catch { /* no-op on network failure */ }
   }
-
-  function startEdit(ev) { setEditingId(ev.id); setNoteDraft(ev.note || '') }
 
   return (
     <div className="pp-event-widget">
@@ -1530,50 +1473,70 @@ function CareerEventWidget() {
         {EVENT_TYPES.map(({ type, icon }) => (
           <button
             key={type}
-            className="pp-event-btn"
+            className={`pp-event-btn${flashType === type ? ' pp-event-btn--logged' : ''}`}
             onClick={() => logEvent(type)}
             title={t(`pp.event.type.${type}`)}
           >
-            <span className="pp-event-icon">{icon}</span>
+            <span className="pp-event-icon">{flashType === type ? '✓' : icon}</span>
             <span className="pp-event-label">{t(`pp.event.type.${type}`)}</span>
           </button>
         ))}
       </div>
 
-      {events.length > 0 && (
-        <div className="pp-event-recent">
-          {events.map((ev, i) => {
-            const colors = EVENT_COLORS[ev.type] || EVENT_COLORS.conversation
-            const evType = EVENT_TYPES.find(e => e.type === ev.type)
-            const isEditing = editingId && editingId === ev.id
-            return (
-              <div key={ev.id || i} className="pp-event-recent-row">
-                <span className="pp-event-recent-icon" style={{ color: colors.text }}>{evType?.icon || '•'}</span>
-                <span className="pp-event-recent-type" style={{ color: colors.text }}>{t(`pp.event.type.${ev.type}`)}</span>
-                {isEditing ? (
-                  <input
-                    className="pp-event-note-input"
-                    value={noteDraft}
-                    onChange={e => setNoteDraft(e.target.value)}
-                    onKeyDown={e => {
-                      if (e.key === 'Enter') saveNote(ev.id)
-                      if (e.key === 'Escape') { setEditingId(null); setNoteDraft('') }
-                    }}
-                    onBlur={() => saveNote(ev.id)}
-                    placeholder={t(`pp.event.detail.${ev.type}`)}
-                    autoFocus
-                  />
-                ) : ev.note ? (
-                  <span className="pp-event-recent-note" onClick={() => startEdit(ev)}>{ev.note}</span>
-                ) : (
-                  <button className="pp-event-add-note" onClick={() => startEdit(ev)}>{t('pp.event.addDetail')}</button>
-                )}
-                <span className="pp-event-recent-date">{ev.date}</span>
-              </div>
-            )
-          })}
+      {editType && (
+        <div className="pp-event-detail">
+          <input
+            className="pp-event-detail-input"
+            value={noteDraft}
+            onChange={e => setNoteDraft(e.target.value)}
+            onKeyDown={e => {
+              if (e.key === 'Enter') saveNote()
+              if (e.key === 'Escape') { setEditType(null); setEditId(null); setNoteDraft('') }
+            }}
+            onBlur={saveNote}
+            placeholder={t(`pp.event.detail.${editType}`)}
+            autoFocus
+          />
         </div>
       )}
+    </div>
+  )
+}
+
+function AccomplishmentBand() {
+  const { t } = useLanguage()
+  const [text,  setText]  = useState('')
+  const [saved, setSaved] = useState(false)
+
+  async function log() {
+    const note = text.trim()
+    if (!note) return
+    setText(''); setSaved(true)
+    setTimeout(() => setSaved(false), 2600)
+    try {
+      await fetch('/api/career_events', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'accomplishment', note }),
+      })
+    } catch { /* no-op on network failure */ }
+  }
+
+  return (
+    <div className="pp-accomplish-band">
+      <p className="pp-accomplish-preamble">{t('pp.goals.preamble')}</p>
+      <span className="pp-accomplish-label">{t('pp.goals.accomplishLabel')}</span>
+      <div className="pp-goal-add">
+        <input
+          className="pp-goal-input"
+          value={text}
+          onChange={e => setText(e.target.value)}
+          onKeyDown={e => e.key === 'Enter' && log()}
+          placeholder={t('pp.goals.accomplishPlaceholder')}
+        />
+        <button className="pp-add-btn" onClick={log}>{t('pp.add')}</button>
+      </div>
+      {saved && <p className="pp-first-goal-note">{t('pp.goals.accomplishSaved')}</p>}
     </div>
   )
 }
@@ -1903,7 +1866,6 @@ export default function PeppercornPage({ nav }) {
 
           {/* Carousel — a short to-do list of things Peppercorn could use */}
           <div className="pp-carousel-wrap">
-            <div className="pp-carousel-header">{t('pp.todo.header')}</div>
             <div className="pp-carousel">
               {carouselCards.map(card => {
                 const isActive = activeCard === card.id ||
@@ -1918,6 +1880,11 @@ export default function PeppercornPage({ nav }) {
                 )
               })}
             </div>
+          </div>
+
+          {/* Accomplishment band — between the to-do notes and the sections */}
+          <div className="pp-content">
+            <AccomplishmentBand />
           </div>
 
           {/* Sections in dynamic order */}
