@@ -2339,6 +2339,17 @@
   color: #b09a78;
   flex-shrink: 0;
 }
+.sf-mom-activity-del {
+  background: none;
+  border: none;
+  color: #c4a98c;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 2px;
+  flex-shrink: 0;
+}
+.sf-mom-activity-del:hover { color: #b5564a; }
 
 /* ── Timing Intelligence ───────────────────────────────────────── */
 

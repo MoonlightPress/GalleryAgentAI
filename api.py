@@ -1957,6 +1957,7 @@ def get_saffron():
     for ev in raw_career_events[:20]:
         activity_items.append({
             "type": "career_event",
+            "id": ev.get("id"),
             "event_type": ev.get("type", "event"),
             "name": ev.get("note") or ev.get("type", "").replace("_", " ").title(),
             "date": ev.get("date") or (ev.get("timestamp") or "")[:10],
@@ -2467,6 +2468,18 @@ async def update_career_event(event_id: str, request: Request):
             path.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
             return {"ok": True, "entry": ev}
     return {"ok": False, "error": "not found"}
+
+
+@app.delete("/api/career_events/{event_id}")
+def delete_career_event(event_id: str):
+    """Remove a logged event (e.g. a test entry) by id."""
+    path = DATA_DIR / "career_events.json"
+    if not path.exists():
+        return {"ok": False, "error": "no log"}
+    log = json.loads(path.read_text(encoding="utf-8"))
+    kept = [ev for ev in log if ev.get("id") != event_id]
+    path.write_text(json.dumps(kept, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True, "removed": len(log) - len(kept)}
 
 
 @app.get("/api/exhibition_log")

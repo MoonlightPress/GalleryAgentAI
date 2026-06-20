@@ -1245,8 +1245,14 @@ const TRAJECTORY_COLORS = {
 }
 
 function CareerMomentum({ data, t }) {
-  const { totals, response_rate, trajectory, monthly_chart, recent_activity } = data
+  const { totals, response_rate, trajectory, monthly_chart } = data
+  const [activity, setActivity] = useState(data.recent_activity || [])
   const maxBar = Math.max(...monthly_chart.map(m => m.submissions + m.contacts), 1)
+
+  async function removeEvent(id) {
+    setActivity(a => a.filter(x => x.id !== id))
+    try { await fetch(`/api/career_events/${id}`, { method: 'DELETE' }) } catch { /* no-op */ }
+  }
   const trajColor = TRAJECTORY_COLORS[trajectory] || '#9a7040'
   const summary = t('sf.sum.momentum', { submissions: totals.submissions, venues: totals.venues_in_crm, rate: response_rate })
 
@@ -1255,6 +1261,7 @@ function CareerMomentum({ data, t }) {
       title={t('sf.sec.momentum')}
       subtitle={t('sf.sub.momentum')}
       summary={summary}
+      defaultOpen={false}
     >
       <div className="sf-momentum-stats">
         <div className="sf-momentum-stat">
@@ -1300,18 +1307,21 @@ function CareerMomentum({ data, t }) {
         <span className="sf-mom-legend-contacts">{t('sf.mom.contacts')}</span>
       </div>
 
-      {recent_activity.length > 0 && (
+      {activity.length > 0 && (
         <div style={{ marginTop: 24 }}>
           <div className="sf-block-label">{t('sf.mom.recentActivity')}</div>
           <div className="sf-mom-activity">
-            {recent_activity.map((item, i) => (
-              <div key={i} className="sf-mom-activity-row">
+            {activity.map((item, i) => (
+              <div key={item.id || i} className="sf-mom-activity-row">
                 <span className={`sf-mom-type sf-mom-type--${item.type}`}>
                   {item.type === 'submission' ? '📤' : '📋'}
                 </span>
                 <span className="sf-mom-activity-name">{item.name}</span>
                 <span className="sf-mom-activity-status">{actStatusLabel(item.status, t)}</span>
                 <span className="sf-mom-activity-date">{item.date?.slice(0, 10)}</span>
+                {item.type === 'career_event' && item.id && (
+                  <button className="sf-mom-activity-del" onClick={() => removeEvent(item.id)} title={t('sf.mom.removeEvent')}>×</button>
+                )}
               </div>
             ))}
           </div>
@@ -1880,12 +1890,12 @@ export default function SaffronPage({ nav }) {
               <>
                 {careerData && <CareerReadiness data={careerData} />}
                 <CareerPosition     data={data.career_position}    t={t} />
-                <CareerMomentum     data={data.career_momentum}    t={t} />
                 <CareerBenchmarks   data={data.career_benchmarks}  t={t} />
                 <CareerTimeline     t={t} />
                 <ComparableArtists  artists={data.peer_artists}    t={t} />
                 <InstagramStrategy  data={data.instagram_strategy} t={t} />
                 <AudienceGeography  data={data.audience_geography} t={t} />
+                <CareerMomentum     data={data.career_momentum}    t={t} />
               </>
             )}
             {tab === 'landscape' && (
