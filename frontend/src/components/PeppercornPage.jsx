@@ -60,126 +60,6 @@ function useSaved() {
 
 // ── Instagram / Social strategy section ──────────────────────────────────
 
-function InstagramStrategySection({ isOpen, onToggle, sectionRef }) {
-  const { t } = useLanguage()
-  return (
-    <SectionShell
-      id="instagram-strategy"
-      sectionRef={sectionRef}
-      title={t('pp.sec.instagram')}
-      subtitle={t('pp.sub.instagram')}
-      isOpen={isOpen}
-      onToggle={onToggle}
-    >
-      <div className="pp-analysis-grid">
-
-        <div className="pp-platform-block">
-          <div className="pp-platform-header">
-            <span className="pp-platform-name">Instagram</span>
-            <span className="pp-platform-handle">@gegyjiji</span>
-            <span className="pp-platform-count">{t('pp.ig.count')}</span>
-          </div>
-          <p className="pp-analysis-note">{t('pp.ig.analysis')}</p>
-          <div className="pp-threshold-list">
-            <div className="pp-threshold-row">
-              <div className="pp-threshold-marker pp-threshold-marker--next">50k</div>
-              <p className="pp-threshold-desc">{t('pp.ig.thresh.50k')}</p>
-            </div>
-            <div className="pp-threshold-row">
-              <div className="pp-threshold-marker">100k</div>
-              <p className="pp-threshold-desc">{t('pp.ig.thresh.100k')}</p>
-            </div>
-          </div>
-          <div className="pp-tactics-block">
-            <div className="pp-block-label">{t('pp.ig.tactics.label')}</div>
-            <ul className="pp-tactics-list">
-              <li>{t('pp.ig.tactics.0')}</li>
-              <li>{t('pp.ig.tactics.1')}</li>
-              <li>{t('pp.ig.tactics.2')}</li>
-              <li>{t('pp.ig.tactics.3')}</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="pp-gentle-questions">
-          <div className="pp-block-label">{t('pp.ig.wondering.label')}</div>
-          <ul className="pp-wondering-list">
-            <li>{t('pp.ig.wondering.0')}</li>
-            <li>{t('pp.ig.wondering.1')}</li>
-            <li>{t('pp.ig.wondering.2')}</li>
-          </ul>
-        </div>
-
-      </div>
-    </SectionShell>
-  )
-}
-
-// ── Exhibition pathway section ────────────────────────────────────────────
-
-function ExhibitionPathwaySection({ isOpen, onToggle, sectionRef }) {
-  const { t } = useLanguage()
-  return (
-    <SectionShell
-      id="exhibition-pathway"
-      sectionRef={sectionRef}
-      title={t('pp.sec.exhibition')}
-      subtitle={t('pp.sub.exhibition')}
-      isOpen={isOpen}
-      onToggle={onToggle}
-    >
-      <div className="pp-pathway-grid">
-        <div>
-          <div className="pp-pathway-record">
-            <div className="pp-pathway-show-title">Tide from China Part 1</div>
-            <div className="pp-pathway-show-meta">{t('pp.shows.meta')}</div>
-            <div className="pp-pathway-show-note">{t('pp.shows.record.label')}</div>
-          </div>
-
-          <div className="pp-threshold-list pp-threshold-list--shows">
-            <div className="pp-threshold-row pp-threshold-row--done">
-              <div className="pp-threshold-marker pp-threshold-marker--done">1 ✓</div>
-              <p className="pp-threshold-desc">{t('pp.shows.thresh.1')}</p>
-            </div>
-            <div className="pp-threshold-row">
-              <div className="pp-threshold-marker pp-threshold-marker--next">2</div>
-              <p className="pp-threshold-desc">{t('pp.shows.thresh.2')}</p>
-            </div>
-            <div className="pp-threshold-row">
-              <div className="pp-threshold-marker pp-threshold-marker--key">3</div>
-              <p className="pp-threshold-desc">{t('pp.shows.thresh.3')}</p>
-            </div>
-            <div className="pp-threshold-row">
-              <div className="pp-threshold-marker">5</div>
-              <p className="pp-threshold-desc">{t('pp.shows.thresh.5')}</p>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div className="pp-next-targets">
-            <div className="pp-block-label">{t('pp.shows.nextTargets')}</div>
-            <div className="pp-target-row">
-              <div className="pp-target-name">3331 Arts Chiyoda</div>
-              <p className="pp-target-desc">{t('pp.shows.3331.desc')}</p>
-            </div>
-            <div className="pp-target-row">
-              <div className="pp-target-name">Design Festa Gallery</div>
-              <p className="pp-target-desc">{t('pp.shows.dfg.desc')}</p>
-            </div>
-            <div className="pp-target-row">
-              <div className="pp-target-name">Gallery IYN</div>
-              <p className="pp-target-desc">{t('pp.shows.iyn.desc')}</p>
-            </div>
-          </div>
-
-          <p className="pp-timeline-note">{t('pp.shows.timeline')}</p>
-        </div>
-      </div>
-    </SectionShell>
-  )
-}
-
 // ── Artist statement section ──────────────────────────────────────────────
 
 function StatementExample() {
@@ -1576,42 +1456,12 @@ function buildCarouselCards(profile, t) {
   const goalsCount   = (profile.goals || []).filter(g => !g.done).length
   const hasText      = (profile.artist_statement || '').length > 30
 
-  // Live counts from the backend (artist_master_profile + submission_log) —
-  // no hardcoded follower/show/publication numbers.
-  const lc           = profile.live_counts || {}
-  const igFollowers  = lc.instagram_followers || '26k'
-  const igApprox     = lc.instagram_approx || 26000
-  const igTarget     = lc.instagram_target || 50000
-  const igTargetLbl  = `${Math.round(igTarget / 1000)}k`
-  const pubCount     = lc.publications ?? 2
-  const pubTarget    = lc.publications_target ?? 3
-  const showCount    = lc.group_shows ?? 1
-  const showTarget   = lc.group_shows_target ?? 3
-
   const qsDesc = answeredCount === 0 ? t('pp.carousel.qs.desc.0')
     : answeredCount < 4  ? t('pp.carousel.qs.desc.building', { n: answeredCount })
     : answeredCount < 8  ? t('pp.carousel.qs.desc.partial')
     :                      t('pp.carousel.qs.desc.done')
 
   const cards = [
-    {
-      id: 'ig',
-      sectionId: 'instagram-strategy',
-      name: t('pp.carousel.ig.name'),
-      current: igFollowers,
-      next: igTargetLbl,
-      ratio: igApprox / igTarget,
-      desc: t('pp.carousel.ig.desc'),
-    },
-    {
-      id: 'pub',
-      sectionId: null,
-      name: t('pp.carousel.pub.name'),
-      current: String(pubCount),
-      next: String(pubTarget),
-      ratio: pubCount / pubTarget,
-      desc: t('pp.carousel.pub.desc'),
-    },
     {
       id: 'stmt',
       sectionId: 'artist-statement',
@@ -1620,15 +1470,6 @@ function buildCarouselCards(profile, t) {
       next: t('pp.carousel.stmt.next'),
       ratio: hasText ? 0.5 : 0,
       desc: t('pp.carousel.stmt.desc'),
-    },
-    {
-      id: 'shows',
-      sectionId: 'exhibition-pathway',
-      name: t('pp.carousel.shows.name'),
-      current: String(showCount),
-      next: String(showTarget),
-      ratio: showTarget ? showCount / showTarget : 0,
-      desc: t('pp.carousel.shows.desc'),
     },
     {
       id: 'qs',
@@ -1662,9 +1503,7 @@ function computeSectionOrder(profile) {
   const hasText      = (profile.artist_statement || '').length > 30
 
   const scores = {
-    'instagram-strategy': 0.80,
     'artist-statement':   hasText ? 0.50 : 0.05,
-    'exhibition-pathway': 0.40,
     'exhibition-log':     0.38,
     'submission-log':     0.35,
     'contacts':           0.34,
@@ -1742,7 +1581,7 @@ export default function PeppercornPage({ nav }) {
   const [statusMsg,   setStatusMsg]   = useState('')
   const [isSaved,     setIsSaved]     = useState(false)
   const [fetchError,  setFetchError]  = useState(null)
-  const [openSections,setOpenSections]= useState(new Set(['instagram-strategy']))
+  const [openSections,setOpenSections]= useState(new Set(['artist-statement']))
   const [activeCard,  setActiveCard]  = useState(null)
   const { t } = useLanguage()
 
@@ -1753,7 +1592,7 @@ export default function PeppercornPage({ nav }) {
   useEffect(() => {
     fetch('/api/peppercorn')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json() })
-      .then(p => { setProfile(p); setOpenSections(new Set(['instagram-strategy'])) })
+      .then(p => { setProfile(p); setOpenSections(new Set(['artist-statement'])) })
       .catch(e => setFetchError(e.message))
   }, [])
 
@@ -1816,22 +1655,6 @@ export default function PeppercornPage({ nav }) {
   }
 
   const SECTION_COMPONENTS = {
-    'instagram-strategy': (
-      <InstagramStrategySection
-        key="instagram-strategy"
-        isOpen={openSections.has('instagram-strategy')}
-        onToggle={() => toggleSection('instagram-strategy')}
-        sectionRef={setSectionRef('instagram-strategy')}
-      />
-    ),
-    'exhibition-pathway': (
-      <ExhibitionPathwaySection
-        key="exhibition-pathway"
-        isOpen={openSections.has('exhibition-pathway')}
-        onToggle={() => toggleSection('exhibition-pathway')}
-        sectionRef={setSectionRef('exhibition-pathway')}
-      />
-    ),
     'artist-statement': (
       <ArtistStatementSection
         key="artist-statement"
