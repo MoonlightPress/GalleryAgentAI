@@ -1333,21 +1333,21 @@ def get_saffron():
                 "label": "2–3 more Tokyo group shows",
                 "done": False,
                 "blocking": True,
-                "detail": "Artist-run spaces are the natural path: 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN. Each show builds credibility and introduces her work to gallery directors.",
+                "detail": "Artist-run spaces are the natural path: 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN. Each show builds credibility and introduces your work to gallery directors.",
             },
             {
                 "n": 4,
                 "label": "Bookshop gallery exhibition",
                 "done": False,
                 "blocking": False,
-                "detail": "UTRECHT, Book and Sons, or flotsam books. Bridges illustration community into gallery context — a natural fit given her publication background.",
+                "detail": "UTRECHT, Book and Sons, or flotsam books. Bridges illustration community into gallery context — a natural fit given your publication background.",
             },
             {
                 "n": 5,
                 "label": "Second publication or new zine",
                 "done": False,
                 "blocking": False,
-                "detail": "Builds presence in the Tokyo zine and book ecosystem. Creates a natural entrypoint for bookshop gallery conversations and strengthens the publication half of her CV.",
+                "detail": "Builds presence in the Tokyo zine and book ecosystem. Creates a natural entrypoint for bookshop gallery conversations and strengthens the publication half of your CV.",
             },
             {
                 "n": 6,
@@ -1416,7 +1416,7 @@ def get_saffron():
     audience_geography = {
         "available": False,
         "reason": "Instagram Insights are not accessible without the artist's credentials. Geographic audience data cannot be observed from public sources.",
-        "why_it_matters": "Whether her 26k Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.",
+        "why_it_matters": "Whether your 26k Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.",
         "hypothesis": "Based on the ACG/illustration community context, the Instagram following may skew toward Chinese-language users. Whether the Tokyo-based practice has shifted that toward a Japan-leaning or globally distributed audience is unconfirmed.",
         "what_peppercorn_should_ask": "Can you share a screenshot of your Instagram Audience Insights (country/city breakdown)?",
     }
@@ -1552,8 +1552,8 @@ def get_saffron():
             {"outlet": "Bijutsu Techo (美術手帖)", "why": "Japan's most significant contemporary art publication"},
             {"outlet": "Pen Magazine", "why": "Design and art, illustration-friendly, Tokyo readership"},
             {"outlet": "It's Nice That", "why": "Primary English-language illustrator discovery platform globally"},
-            {"outlet": "Apartamento", "why": "Domestic interiors and everyday life — directly aligned with her subject matter"},
-            {"outlet": "BOOOOOOOM", "why": "Large illustration/photography community; annual book prize she could enter"},
+            {"outlet": "Apartamento", "why": "Domestic interiors and everyday life — directly aligned with your subject matter"},
+            {"outlet": "BOOOOOOOM", "why": "Large illustration/photography community; annual book prize you could enter"},
         ],
     }
 
@@ -1561,7 +1561,7 @@ def get_saffron():
     collector_ecosystem = {
         "available": False,
         "reason": "The pipeline tracks opportunities and venues, not buyers. No collector-specific data exists in the system.",
-        "why_it_matters": "Knowing who buys illustration and watercolor work at her price point determines which fairs, platforms, and venues are commercially worthwhile — not just aesthetically aligned.",
+        "why_it_matters": "Knowing who buys illustration and watercolor work at your price point determines which fairs, platforms, and venues are commercially worthwhile — not just aesthetically aligned.",
         "fairs_in_pipeline": [
             "Tokyo Art Book Fair",
             "Design Festa",
@@ -1570,7 +1570,7 @@ def get_saffron():
             "ZINEフェス東京",
         ],
         "known_gap": "No data on what price points, formats (print vs. original), or collector profiles actually convert at these events.",
-        "what_peppercorn_should_ask": "Has she sold work? At what price points? Through which channels? Which formats (prints, originals, zines) have sold vs. remained unsold?",
+        "what_peppercorn_should_ask": "Have you sold work? At what price points? Through which channels? Which formats (prints, originals, zines) have sold vs. remained unsold?",
     }
 
     # ── Collaboration map ─────────────────────────────────────────────────────
@@ -1587,7 +1587,7 @@ def get_saffron():
             "reason": "No Tokyo-based peer artist data in the pipeline. The system tracks venues and open calls, not individual artists.",
             "why_it_matters": "Group show invitations at artist-run spaces typically come from peer networks, not cold submissions. 3–5 Tokyo-based illustrators at a similar stage are the most direct path to group show opportunities.",
         },
-        "note": "The 5 co-exhibitors from Tide from China are the strongest existing collaboration seeds. Their current Tokyo presence and active practice is unconfirmed — Peppercorn should ask whether she's stayed in contact with any of them.",
+        "note": "The 5 co-exhibitors from Tide from China are your strongest existing collaboration seeds. Their current Tokyo presence and active practice is unconfirmed — tell Saffron whether you've stayed in contact with any of them.",
     }
 
     # ── Geographic expansion ──────────────────────────────────────────────────
@@ -1720,7 +1720,7 @@ def get_saffron():
                 ],
                 "probability": "moderate",
                 "bottleneck": "Exhibition history is thin. 2–3 more group shows are required before any gallery will discuss a solo show.",
-                "best_fit_signal": "Right if she's primarily motivated by the physical exhibition experience and gallery community.",
+                "best_fit_signal": "Right if you're primarily motivated by the physical exhibition experience and gallery community.",
             },
             {
                 "name": "Publication Track",
@@ -1734,7 +1734,7 @@ def get_saffron():
                 ],
                 "probability": "high",
                 "bottleneck": "No new publication since 2021. The content exists — it needs packaging.",
-                "best_fit_signal": "Right if she's motivated by the book as object and the publishing community. Her formation already points here.",
+                "best_fit_signal": "Right if you're motivated by the book as object and the publishing community. Your formation already points here.",
             },
             {
                 "name": "Hybrid Track",
@@ -1747,7 +1747,7 @@ def get_saffron():
                 ],
                 "probability": "high",
                 "bottleneck": "Requires more energy and time management than either single track.",
-                "best_fit_signal": "The most natural fit given her existing practice. The daily diary is simultaneously publication material and gallery-worthy work.",
+                "best_fit_signal": "The most natural fit given your existing practice. The daily diary is simultaneously publication material and gallery-worthy work.",
             },
         ],
         "saffron_view": "The Hybrid Track is the best structural fit. The bookshop gallery show is the single highest-leverage action — it advances both tracks with one move.",
@@ -1791,42 +1791,42 @@ def get_saffron():
     open_questions = {
         "questions": [
             {
-                "question": "What is her current Instagram posting frequency?",
+                "question": "What's your current Instagram posting frequency?",
                 "why_it_matters": "With a 26k Instagram following, the account is established and growing. Cadence is the most controllable variable for maximising reach on the platform galleries, publishers, and curators actually use for discovery. Without knowing current frequency, no posting strategy can be recommended.",
                 "routed_to": "Peppercorn",
             },
             {
-                "question": "Where is her audience located geographically?",
+                "question": "Where is your audience located geographically?",
                 "why_it_matters": "A primarily Chinese-language following changes the geographic expansion strategy entirely — it suggests China reentry before European expansion.",
                 "routed_to": "Peppercorn",
             },
             {
-                "question": "Has she sold work, and through which channels?",
+                "question": "Have you sold work, and through which channels?",
                 "why_it_matters": "Sales history reveals which formats and price points convert — this shapes which fairs and platforms are worth prioritising.",
                 "routed_to": "Peppercorn",
             },
             {
                 "question": "Is a new publication or zine in progress?",
-                "why_it_matters": "If she's already planning one, the system should support it — not recommend it as a new idea.",
+                "why_it_matters": "If you're already planning one, this should support it — not pitch it as a new idea.",
                 "routed_to": "Peppercorn",
             },
             {
-                "question": "Does she have a current artist statement in any language?",
+                "question": "Do you have a current artist statement in any language?",
                 "why_it_matters": "Most open calls and gallery submissions require one. If none exists, this is the most urgent gap before any submissions.",
                 "routed_to": "Peppercorn",
             },
             {
-                "question": "Is she still in contact with her Tide from China co-exhibitors?",
+                "question": "Are you still in contact with your Tide from China co-exhibitors?",
                 "why_it_matters": "If those 5 artists are Tokyo-based and active, they are the most natural group show partners. If they've dispersed, that network is dormant.",
                 "routed_to": "Peppercorn",
             },
             {
-                "question": "Does she have a second Japan exhibition in progress?",
-                "why_it_matters": "The system assumes she needs 2–3 more group shows, but she may already have one underway that hasn't been reported.",
+                "question": "Do you have a second Japan exhibition in progress?",
+                "why_it_matters": "There's one show on record, so the read assumes 2–3 more group shows would help — but you may already have one underway. If so, tell me here.",
                 "routed_to": "Peppercorn",
             },
             {
-                "question": "What price points does she use for originals and prints?",
+                "question": "What price points do you use for originals and prints?",
                 "why_it_matters": "Pricing determines which collector tier and which fairs are appropriate. Under-pricing is common at this stage and affects how galleries perceive the work.",
                 "routed_to": "Peppercorn",
             },
