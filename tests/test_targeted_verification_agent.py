@@ -18,6 +18,11 @@ class DeadlineIsRealTests(unittest.TestCase):
     def test_rolling_is_real(self):
         self.assertTrue(_deadline_is_real({"deadline": "Rolling — proposal-based"}, today=TODAY))
 
+    def test_venue_past_deadline_is_still_real(self):
+        # Evergreen venue with a stale date — still a real, actionable relationship target.
+        self.assertTrue(_deadline_is_real(
+            {"deadline": "1 July 2025", "category": "bookstore_gallery"}, today=TODAY))
+
 
 if __name__ == "__main__":
     unittest.main()

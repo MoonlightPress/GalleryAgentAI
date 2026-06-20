@@ -98,5 +98,22 @@ class YearlessDateTests(unittest.TestCase):
         self.assertEqual(result.get("deadline_verified"), True)
 
 
+class VenueExemptionTests(unittest.TestCase):
+    def test_venue_with_past_date_is_not_flagged_passed(self):
+        # A bookshop/gallery is an evergreen venue — a stale date must NOT mark it expired.
+        result = classify_deadline("", "1 July 2025", today=TODAY, category="bookstore_gallery")
+        self.assertNotEqual(result.get("deadline_type"), "passed")
+        self.assertNotEqual(result.get("deadline_past"), True)
+
+    def test_non_venue_past_date_still_flagged_passed(self):
+        # A dated open call is still flagged past — the exemption is venue-only.
+        result = classify_deadline("", "1 July 2025", today=TODAY, category="global_open_call")
+        self.assertEqual(result.get("deadline_type"), "passed")
+
+    def test_no_category_behaves_as_before(self):
+        result = classify_deadline("", "1 July 2025", today=TODAY)
+        self.assertEqual(result.get("deadline_type"), "passed")
+
+
 if __name__ == "__main__":
     unittest.main()
