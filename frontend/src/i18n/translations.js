@@ -715,6 +715,10 @@ const zh = {
   // ── Career Event Widget ─────────────────────────────────────────────────
   'pp.event.prompt':           '今天发生了什么？',
   'pp.event.logged':           '已记下，已加入你的记录',
+  'pp.intro.morning':          '早上好。',
+  'pp.intro.afternoon':        '下午好。',
+  'pp.intro.evening':          '晚上好。',
+  'pp.intro.body':             '我是胡椒粒。这是你安静的角落——把正在发生的事、你期待的方向告诉我，我会让猫饼和红雀真正读懂你。这里没有急事，我会记住一切。',
   'pp.event.type.accepted':    '通过了',
   'pp.event.type.rejected':    '被拒了',
   'pp.event.type.conversation':'聊了一次',
@@ -2654,6 +2658,10 @@ const en = {
   // ── Career Event Widget ─────────────────────────────────────────────────
   'pp.event.prompt':           'Something happened today:',
   'pp.event.logged':           'Got it — added to your record',
+  'pp.intro.morning':          'Good morning.',
+  'pp.intro.afternoon':        'Good afternoon.',
+  'pp.intro.evening':          'Good evening.',
+  'pp.intro.body':             "I'm Peppercorn. This is your quiet corner — tell me what's happening and what you're hoping for, and I'll make sure Mochi and Saffron understand you. Nothing here is urgent, and I remember everything.",
   'pp.event.type.accepted':    'Got accepted',
   'pp.event.type.rejected':    'Got rejected',
   'pp.event.type.conversation':'Had a conversation',

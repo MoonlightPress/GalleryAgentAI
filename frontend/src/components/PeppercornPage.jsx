@@ -1685,6 +1685,18 @@ function DismissalInsightBanner() {
   )
 }
 
+function PeppercornIntro() {
+  const { t } = useLanguage()
+  const h = new Date().getHours()
+  const greet = h < 12 ? t('pp.intro.morning') : h < 18 ? t('pp.intro.afternoon') : t('pp.intro.evening')
+  return (
+    <div className="pp-intro">
+      <h2 className="pp-intro-greeting">{greet}</h2>
+      <p className="pp-intro-text">{t('pp.intro.body')}</p>
+    </div>
+  )
+}
+
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function PeppercornPage({ nav }) {
@@ -1862,6 +1874,8 @@ export default function PeppercornPage({ nav }) {
 
       {profile && (
         <>
+          <PeppercornIntro />
+
           {/* Career event quick-log */}
           <div className="pp-content">
             <CareerEventWidget />

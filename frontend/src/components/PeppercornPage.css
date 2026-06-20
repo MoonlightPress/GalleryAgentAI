@@ -188,6 +188,26 @@
   background: #ede5d2;
 }
 
+.pp-intro {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 32px 6px;
+  text-align: center;
+}
+.pp-intro-greeting {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  color: #4a3a28;
+  margin: 0 0 10px;
+}
+.pp-intro-text {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  line-height: 1.65;
+  color: #6a5a48;
+  margin: 0;
+}
+
 /* ── Section shell ──────────────────────────────────────────────────────── */
 
 .pp-section {
