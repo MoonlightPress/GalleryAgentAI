@@ -1508,57 +1508,46 @@ function isBestFit(s) { return /most natural|best fit/i.test(s?.best_fit_signal 
 
 function OverviewFront({ data, t, onGoto }) {
   const cp = data.career_position
+  const cm = data.career_momentum
   const ms = data.market_stats
   const ig = cp?.social?.find(s => s.platform === 'Instagram')
   const scenarios = (data.long_term_scenarios?.scenarios || []).slice().sort(
     (a, b) => (isBestFit(b) - isBestFit(a)) || ((PROB_RANK[b.probability] ?? 0) - (PROB_RANK[a.probability] ?? 0))
   )
-  const cats = Object.entries(ms?.by_category || {})
-    .sort((a, b) => {
-      const ao = /other/i.test(a[0]), bo = /other/i.test(b[0])
-      if (ao !== bo) return ao ? 1 : -1   // "Other" is the junk-drawer bucket — never at the top
-      return b[1] - a[1]
-    })
-    .slice(0, 6)
-  const maxCat = Math.max(...cats.map(([, v]) => v), 1)
-  const bench = data.career_benchmarks
-  const benchRows = bench?.peer_range || []
   const fitWord = (p) => { const k = `sf.front.fit.${p}`; return t(k) !== k ? t(k) : p }
+  const venueCount = data.venue_tracker?.total ?? cm?.totals?.venues_in_crm ?? 0
+  const oppCount   = ms?.total_opportunities ?? 0
+  const metrics = [
+    [ig?.followers ?? '—',          'Instagram'],
+    [cp?.exhibitions?.length ?? 0,  t('sf.label.exhibitions')],
+    [cp?.publications?.length ?? 0, t('sf.label.publications')],
+    [cm?.totals?.submissions ?? 0,  t('sf.mom.totalSubmissions')],
+    [venueCount,                    t('sf.mom.venuesInCRM')],
+  ]
+  const areas = [
+    ['direction',     t('sf.cat.direction'),     t('sf.front.areaPaths',    { n: scenarios.length })],
+    ['market',        t('sf.cat.market'),        t('sf.front.areaOpenings', { n: oppCount })],
+    ['relationships', t('sf.cat.relationships'), t('sf.front.areaVenues',   { n: venueCount })],
+    ['money',         t('sf.cat.money'),         t('sf.front.areaMoney')],
+  ]
 
   return (
     <div className="sf-front">
-      <div className="sf-front-read">
-        <p>{t('sf.front.read1', { ig: ig?.followers ?? '—', pub: cp?.publications?.length ?? 0, ex: cp?.exhibitions?.length ?? 0 })}</p>
-        <p>{t('sf.front.read2')}</p>
-        <p>{t('sf.front.read3')}</p>
-      </div>
-
-      {benchRows.length > 0 && (
-        <div className="sf-front-block">
-          <div className="sf-front-h">{t('sf.front.compareTitle')}</div>
-          {bench.summary && <p className="sf-front-compare-lede">{bench.summary}</p>}
-          <div className="sf-front-compare">
-            {benchRows.map((row, i) => {
-              const color = ASSESSMENT_COLORS[row.assessment] || ASSESSMENT_COLORS.on_track
-              const label = t(ASSESSMENT_KEYS[row.assessment] || 'sf.assess.on_track')
-              return (
-                <div key={i} className="sf-front-compare-row">
-                  <span className="sf-front-compare-dim">{row.dimension}</span>
-                  <span className="sf-front-compare-vals">
-                    <strong>{row.artist_value}</strong>
-                    <span className="sf-front-compare-peer">{t('sf.front.peersTypical', { v: row.peer_typical })}</span>
-                  </span>
-                  <span className="sf-front-compare-tag" style={{ color }}>{label}</span>
-                </div>
-              )
-            })}
-          </div>
+      <div className="sf-front-block">
+        <div className="sf-front-h">{t('sf.front.whereImAt')}</div>
+        <div className="sf-front-circles">
+          {metrics.map(([num, label], i) => (
+            <div key={i} className="sf-front-circle">
+              <span className="sf-front-circle-num">{num}</span>
+              <span className="sf-front-circle-lbl">{label}</span>
+            </div>
+          ))}
         </div>
-      )}
+      </div>
 
       {scenarios.length > 0 && (
         <div className="sf-front-block">
-          <div className="sf-front-h">{t('sf.front.pathsTitle')}</div>
+          <div className="sf-front-h">{t('sf.front.myDirections')}</div>
           <div className="sf-front-paths">
             {scenarios.map((s, i) => {
               const best = isBestFit(s)
@@ -1569,9 +1558,6 @@ function OverviewFront({ data, t, onGoto }) {
                     <span className="sf-front-path-fit">{best ? t('sf.front.bestFit') : fitWord(s.probability)}</span>
                   </div>
                   <div className="sf-front-path-tag">{s.tagline}</div>
-                  {s.requires_now?.[0] && (
-                    <div className="sf-front-path-next"><span className="sf-front-next-label">{t('sf.front.nextStep')}</span> {s.requires_now[0]}</div>
-                  )}
                 </button>
               )
             })}
@@ -1579,21 +1565,20 @@ function OverviewFront({ data, t, onGoto }) {
         </div>
       )}
 
-      {cats.length > 0 && (
-        <div className="sf-front-block">
-          <div className="sf-front-h">{t('sf.front.openingsTitle')}</div>
-          <div className="sf-bars sf-front-bars">
-            {cats.map(([label, count]) => (
-              <div key={label} className="sf-bar-row">
-                <span className="sf-bar-label">{CAT_LABELS[label] || label}</span>
-                <div className="sf-bar-track"><div className="sf-bar-fill" style={{ width: `${(count / maxCat) * 100}%` }} /></div>
-                <span className="sf-bar-count">{count}</span>
-              </div>
-            ))}
-          </div>
-          <button type="button" className="sf-link sf-front-seemore" onClick={() => onGoto('market')}>{t('sf.front.seeMarket')}</button>
+      <div className="sf-front-block">
+        <div className="sf-front-h">{t('sf.front.landscape')}</div>
+        <div className="sf-front-areas">
+          {areas.map(([key, label, stat]) => (
+            <button key={key} type="button" className="sf-front-area" onClick={() => onGoto(key)}>
+              <span className="sf-front-area-body">
+                <span className="sf-front-area-label">{label}</span>
+                <span className="sf-front-area-stat">{stat}</span>
+              </span>
+              <span className="sf-front-area-arrow">→</span>
+            </button>
+          ))}
         </div>
-      )}
+      </div>
     </div>
   )
 }
@@ -1646,24 +1631,6 @@ export default function SaffronPage({ nav }) {
       ))}
     </div>
   )
-  const bottomNav = (
-    <nav className="sf-bottom-nav">
-      <div className="sf-bottom-nav-label">{t('sf.bottomNavLabel')}</div>
-      <div className="sf-bottom-nav-items">
-        {SF_CATS.map(([key, label, desc]) => (
-          <button
-            key={key}
-            className={`sf-bottom-nav-item${tab === key ? ' sf-bottom-nav-item--active' : ''}`}
-            onClick={() => switchTab(key)}
-          >
-            <span className="sf-bottom-nav-name">{label}</span>
-            <span className="sf-bottom-nav-desc">{desc}</span>
-          </button>
-        ))}
-      </div>
-    </nav>
-  )
-
   return (
     <div className="saffron-page">
       <section className="saffron-hero">
@@ -1733,7 +1700,6 @@ export default function SaffronPage({ nav }) {
               </>
             )}
           </SectionErrorBoundary>
-          {bottomNav}
         </div>
       )}
     </div>
