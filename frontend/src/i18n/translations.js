@@ -606,6 +606,13 @@ const zh = {
   'pp.carousel.goals.name':         '职业目标',
   'pp.carousel.goals.desc.empty':   '胡椒粒还没听到你的目标',
   'pp.carousel.goals.desc.has':     '红雀用这些来调整推荐的权重',
+  'pp.todo.header':                 '几件能帮我更好帮你的事',
+  'pp.carousel.acc.name':           '最近的好消息',
+  'pp.carousel.acc.cta':            '添加 →',
+  'pp.carousel.acc.desc':           '最近有进展吗？记下来能让推荐更准',
+  'pp.carousel.prefs.name':         '偏好',
+  'pp.carousel.prefs.cta':          '调整 →',
+  'pp.carousel.prefs.desc':         '告诉我哪些类别多推、哪些少推',
   'pp.q.input.placeholder':         '你的回答 — 或从上面选择一个…',
 
   // ── Questions (Peppercorn) ────────────────────────────────────────────────
@@ -2528,6 +2535,13 @@ const en = {
   'pp.carousel.goals.name':         'Career Goals',
   'pp.carousel.goals.desc.empty':   "Peppercorn hasn't heard your goals yet",
   'pp.carousel.goals.desc.has':     'Saffron uses these to weight recommendations toward what you want',
+  'pp.todo.header':                 'A few things that would help me help you',
+  'pp.carousel.acc.name':           'Recent wins',
+  'pp.carousel.acc.cta':            'Add →',
+  'pp.carousel.acc.desc':           'Logged anything lately? It sharpens your recommendations',
+  'pp.carousel.prefs.name':         'Preferences',
+  'pp.carousel.prefs.cta':          'Tune →',
+  'pp.carousel.prefs.desc':         'Tell me what to surface more or less of',
   'pp.q.input.placeholder':         'Your answer — or pick one above…',
 
   // ── Questions (Peppercorn) ────────────────────────────────────────────────

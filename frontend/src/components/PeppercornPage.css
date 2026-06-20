@@ -66,13 +66,32 @@
   border-bottom: 1px solid #dce8cc;
 }
 
+.pp-carousel-header {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: #6a8a5a;
+  margin: 0 0 12px;
+}
+
 .pp-carousel {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 12px;
   overflow-x: auto;
   padding: 4px 28px 16px;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
+}
+
+.pp-card-cta {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  color: #6a8a5a;
+  font-weight: bold;
+  margin: 2px 0;
 }
 
 .pp-carousel::-webkit-scrollbar { display: none; }

@@ -12,11 +12,15 @@ function CarouselCard({ card, isActive, onClick }) {
       onClick={() => onClick(card)}
     >
       <div className="pp-card-name">{card.name}</div>
-      <div className="pp-card-values">
-        <span className="pp-card-current">{card.current}</span>
-        <span className="pp-card-sep"> / </span>
-        <span className="pp-card-next">{card.next}</span>
-      </div>
+      {card.current ? (
+        <div className="pp-card-values">
+          <span className="pp-card-current">{card.current}</span>
+          <span className="pp-card-sep"> / </span>
+          <span className="pp-card-next">{card.next}</span>
+        </div>
+      ) : (
+        <div className="pp-card-cta">{card.cta}</div>
+      )}
       <div className="pp-card-desc">{card.desc}</div>
     </div>
   )
@@ -1543,11 +1547,25 @@ function buildCarouselCards(profile, t) {
       ratio: goalsCount === 0 ? 0 : Math.min(goalsCount / 3, 1),
       desc: goalsCount === 0 ? t('pp.carousel.goals.desc.empty') : t('pp.carousel.goals.desc.has'),
     },
+    {
+      id: 'acc',
+      sectionId: 'career-goals',
+      name: t('pp.carousel.acc.name'),
+      cta:  t('pp.carousel.acc.cta'),
+      desc: t('pp.carousel.acc.desc'),
+    },
+    {
+      id: 'prefs',
+      sectionId: 'preferences',
+      name: t('pp.carousel.prefs.name'),
+      cta:  t('pp.carousel.prefs.cta'),
+      desc: t('pp.carousel.prefs.desc'),
+    },
   ]
 
-  const qs   = cards.find(c => c.id === 'qs')
-  const rest = cards.filter(c => c.id !== 'qs').sort((a, b) => b.ratio - a.ratio)
-  return [qs, ...rest].filter(Boolean)
+  // Fixed order — a short to-do list of things she can give Peppercorn.
+  const order = ['qs', 'stmt', 'goals', 'acc', 'prefs']
+  return order.map(id => cards.find(c => c.id === id)).filter(Boolean)
 }
 
 function computeSectionOrder(profile) {
@@ -1811,8 +1829,9 @@ export default function PeppercornPage({ nav }) {
             <DismissalInsightBanner />
           </div>
 
-          {/* Carousel */}
+          {/* Carousel — a short to-do list of things Peppercorn could use */}
           <div className="pp-carousel-wrap">
+            <div className="pp-carousel-header">{t('pp.todo.header')}</div>
             <div className="pp-carousel">
               {carouselCards.map(card => {
                 const isActive = activeCard === card.id ||
