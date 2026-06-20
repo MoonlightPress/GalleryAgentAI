@@ -1814,8 +1814,16 @@ export default function SaffronPage({ nav }) {
   }, [])
 
   // Translate the served (English) analysis into Chinese for 中文 viewers.
-  const data       = useMemo(() => (lang === 'zh' ? deepTranslate(rawData,   SF_ZH) : rawData),   [rawData,   lang])
-  const careerData = useMemo(() => (lang === 'zh' ? deepTranslate(rawCareer, SF_ZH) : rawCareer), [rawCareer, lang])
+  // Translator map: dynamic opportunity strings come from the payload's own
+  // _i18n (rebuilt from live data every run, so it survives pipeline updates);
+  // the static authored prose comes from SF_ZH (zh only).
+  const txMap = useMemo(() => {
+    if (lang === 'zh') return { ...(rawData?._i18n?.zh || {}), ...SF_ZH }
+    if (lang === 'ja') return rawData?._i18n?.ja || null
+    return null
+  }, [rawData, lang])
+  const data       = useMemo(() => (txMap ? deepTranslate(rawData,   txMap) : rawData),   [rawData,   txMap])
+  const careerData = useMemo(() => (txMap ? deepTranslate(rawCareer, txMap) : rawCareer), [rawCareer, txMap])
 
   const SF_TABS = [
     ['profile',       t('sf.cat.profile')],

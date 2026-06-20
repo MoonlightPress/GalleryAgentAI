@@ -2260,7 +2260,27 @@ def get_saffron():
         audience_geography["artist_report"] = _geo_answer
         audience_geography["reason"] = None  # no longer unknown
 
+    # ── Live i18n: opportunities already carry translations (name_zh, etc.) ───
+    # Build an English -> zh/ja lookup from the opportunity data itself, so the
+    # dynamic content (names, one-liners, fit reasons) is translated from the
+    # same source the pipeline regenerates each run — no map to hand-maintain.
+    _opp_i18n: dict[str, dict] = {"zh": {}, "ja": {}}
+    for _o in _all_opps:
+        for _en_k, _zh_k, _ja_k in (
+            ("name",                "name_zh",        "name_ja"),
+            ("one_sentence",        "one_sentence_zh","one_sentence_ja"),
+            ("why_this_fits_short", "why_it_fits_zh", "why_it_fits_ja"),
+        ):
+            _en = (_o.get(_en_k) or "").strip()
+            if not _en:
+                continue
+            if _o.get(_zh_k):
+                _opp_i18n["zh"][_en] = _o[_zh_k]
+            if _o.get(_ja_k):
+                _opp_i18n["ja"][_en] = _o[_ja_k]
+
     return {
+        "_i18n":                 _opp_i18n,
         "career_position":       career_position,
         "market_landscape":      market_landscape,
         "peer_artists":          peer_artists,
