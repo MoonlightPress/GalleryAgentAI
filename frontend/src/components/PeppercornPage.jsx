@@ -1687,10 +1687,19 @@ function DismissalInsightBanner() {
 
 function PeppercornIntro() {
   const { t } = useLanguage()
+  const [dismissed, setDismissed] = useState(() => {
+    try { return localStorage.getItem('pp_intro_dismissed') === '1' } catch { return false }
+  })
+  if (dismissed) return null
   const h = new Date().getHours()
   const greet = h < 12 ? t('pp.intro.morning') : h < 18 ? t('pp.intro.afternoon') : t('pp.intro.evening')
+  function close() {
+    setDismissed(true)
+    try { localStorage.setItem('pp_intro_dismissed', '1') } catch { /* localStorage unavailable */ }
+  }
   return (
     <div className="pp-intro">
+      <button className="pp-intro-close" onClick={close} title={t('pp.intro.dismiss')}>×</button>
       <h2 className="pp-intro-greeting">{greet}</h2>
       <p className="pp-intro-text">{t('pp.intro.body')}</p>
     </div>

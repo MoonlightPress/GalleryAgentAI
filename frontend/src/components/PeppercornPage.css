@@ -62,8 +62,7 @@
 /* ── Carousel ───────────────────────────────────────────────────────────── */
 
 .pp-carousel-wrap {
-  padding: 12px 0 4px;
-  border-bottom: 1px solid #dce8cc;
+  padding: 12px 0 8px;
 }
 
 .pp-carousel-header {
@@ -189,21 +188,35 @@
 }
 
 .pp-intro {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 24px 32px 6px;
+  position: relative;
+  max-width: 680px;
+  margin: 8px auto 2px;
+  padding: 14px 40px 12px;
   text-align: center;
 }
+.pp-intro-close {
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  line-height: 1;
+  color: #b5a88c;
+  cursor: pointer;
+  padding: 4px;
+}
+.pp-intro-close:hover { color: #6a5a48; }
 .pp-intro-greeting {
   font-family: Georgia, serif;
-  font-size: 25px;
+  font-size: 21px;
   color: #4a3a28;
-  margin: 0 0 10px;
+  margin: 0 0 7px;
 }
 .pp-intro-text {
   font-family: Georgia, serif;
-  font-size: 15px;
-  line-height: 1.65;
+  font-size: 14px;
+  line-height: 1.6;
   color: #6a5a48;
   margin: 0;
 }
@@ -212,16 +225,18 @@
 
 .pp-section {
   max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 26px 32px;
-  border-bottom: 1px solid #dce8cc;
+  width: calc(100% - 40px);
+  margin: 0 auto 16px;
+  padding: 24px 28px;
+  background: #faf4e6;
+  border: 1px solid #e6d8b8;
+  border-radius: 16px;
+  box-shadow: 0 1px 5px rgba(120, 90, 40, 0.05);
 }
 
-.pp-section--closed { padding: 18px 32px; }
+.pp-section--closed { padding: 18px 28px; }
 
-.pp-section:last-child { border-bottom: none; padding-bottom: 40px; }
-.pp-section--closed:last-child { padding-bottom: 18px; }
+.pp-section:last-child { margin-bottom: 40px; }
 
 .pp-toggle {
   display: flex;
@@ -241,6 +256,9 @@
 .pp-toggle-text { display: flex; flex-direction: column; gap: 5px; }
 
 .pp-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-family: Georgia, serif;
   font-size: 20px;
   font-weight: bold;
@@ -248,6 +266,14 @@
   margin: 0;
   letter-spacing: 0.01em;
   transition: color 0.15s;
+}
+.pp-title::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #8fb37e;
+  flex-shrink: 0;
 }
 
 .pp-subtitle {
@@ -1166,11 +1192,14 @@
 /* ── Career event widget ────────────────────────────────────────────────── */
 
 .pp-event-widget {
-  background: #fdf8f0;
-  border: 1px solid #e8d4b0;
-  border-radius: 8px;
-  padding: 14px 16px;
-  margin-bottom: 18px;
+  max-width: 800px;
+  width: calc(100% - 40px);
+  margin: 0 auto 16px;
+  background: #faf4e6;
+  border: 1px solid #e6d8b8;
+  border-radius: 16px;
+  box-shadow: 0 1px 5px rgba(120, 90, 40, 0.05);
+  padding: 18px 22px;
 }
 
 .pp-event-prompt {
@@ -1232,9 +1261,13 @@
 
 .pp-accomplish-band {
   max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 14px 32px 2px;
+  width: calc(100% - 40px);
+  margin: 0 auto 16px;
+  padding: 20px 28px;
+  background: #faf4e6;
+  border: 1px solid #e6d8b8;
+  border-radius: 16px;
+  box-shadow: 0 1px 5px rgba(120, 90, 40, 0.05);
 }
 .pp-accomplish-preamble {
   font-family: Georgia, serif;
