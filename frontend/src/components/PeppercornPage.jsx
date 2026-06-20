@@ -278,9 +278,26 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [, flash]           = useSaved()
   const [phIdx]             = useState(() => Math.floor(Math.random() * GOAL_PLACEHOLDER_KEYS.length))
   const [shownFirstNote, setShownFirstNote] = useState((data || []).length > 0)
+  const [accomplishment, setAccomplishment] = useState('')
+  const [accomplishSaved, setAccomplishSaved] = useState(false)
   const { t } = useLanguage()
   // eslint-disable-next-line react-hooks/set-state-in-effect -- sync async-loaded data into editable local state
   useEffect(() => { setGoals(data || []) }, [data])
+
+  async function logAccomplishment() {
+    const note = accomplishment.trim()
+    if (!note) return
+    setAccomplishment('')
+    setAccomplishSaved(true)
+    setTimeout(() => setAccomplishSaved(false), 2600)
+    try {
+      await fetch('/api/career_events', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'accomplishment', note }),
+      })
+    } catch { /* no-op on network failure */ }
+  }
 
   function addGoal() {
     const trimmed = input.trim()
@@ -309,6 +326,26 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
       isOpen={isOpen}
       onToggle={onToggle}
     >
+      <p className="pp-section-note pp-goals-preamble">{t('pp.goals.preamble')}</p>
+
+      <div className="pp-accomplish">
+        <div className="pp-accomplish-label">{t('pp.goals.accomplishLabel')}</div>
+        <div className="pp-goal-add">
+          <input
+            className="pp-goal-input"
+            value={accomplishment}
+            onChange={e => setAccomplishment(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && logAccomplishment()}
+            placeholder={t('pp.goals.accomplishPlaceholder')}
+          />
+          <button className="pp-add-btn" onClick={logAccomplishment}>{t('pp.add')}</button>
+        </div>
+        {accomplishSaved && <p className="pp-first-goal-note">{t('pp.goals.accomplishSaved')}</p>}
+      </div>
+
+      <div className="pp-goals-divider" />
+      <div className="pp-block-label">{t('pp.goals.goalsLabel')}</div>
+
       {goals.length === 0 && (
         <p className="pp-section-note">{t('pp.goals.empty')}</p>
       )}

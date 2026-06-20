@@ -441,6 +441,12 @@ const zh = {
   'pp.stmt.placeholder':     '写一段关于你的创作实践的简短自述…',
   'pp.goals.empty':          '胡椒粒还不知道你的目标。你在为什么努力？',
   'pp.goals.firstNote':      '红雀会用这些来精化她的分析。',
+  'pp.goals.preamble':       '这里是你让胡椒粒保持了解你的地方。把你的目标——还有你的好消息——告诉我，我就能为你推荐更契合的机会。你的每一个进展，都让推荐更准。',
+  'pp.goals.accomplishLabel':'最近有什么新进展？',
+  'pp.goals.accomplishPlaceholder': '一场展览、一笔成交、一次报道、一个新联系…',
+  'pp.goals.accomplishSaved':'记下了 — 这能帮我更好地帮你。',
+  'pp.goals.goalsLabel':     '你的目标',
+  'pp.event.type.accomplishment': '新进展',
 
   'pp.group.activeTiers':    '当前活跃层级',
   'pp.group.tiersHint':      '勾选你正在积极建设的层级。第1–2级几乎应该始终勾选。',
@@ -2357,6 +2363,12 @@ const en = {
   'pp.stmt.placeholder':     'Write a short statement about your practice…',
   'pp.goals.empty':          'Peppercorn hasn\'t heard your goals yet. What are you working toward?',
   'pp.goals.firstNote':      'Saffron will use this to sharpen her analysis.',
+  'pp.goals.preamble':       'This is where you keep me current. Tell me your goals — and your good news — and I\'ll point you toward opportunities that fit. Every win you share makes the suggestions sharper.',
+  'pp.goals.accomplishLabel':'What have you accomplished lately?',
+  'pp.goals.accomplishPlaceholder': 'A show, a sale, a feature, a new connection…',
+  'pp.goals.accomplishSaved':'Got it — that helps me help you.',
+  'pp.goals.goalsLabel':     'Your goals',
+  'pp.event.type.accomplishment': 'Accomplishment',
 
   'pp.group.activeTiers':    'Active tiers',
   'pp.group.tiersHint':      'Check the tiers you are actively building toward. Tier 1–2 should almost always be checked.',
@@ -2873,8 +2885,8 @@ const en = {
   'medium.photography':   '◆ Photography',
 }
 
-export const LANGUAGES = ['zh', 'ja', 'en']
-export const LANGUAGE_LABELS = { zh: '中文', ja: '日本語', en: 'English' }
+export const LANGUAGES = ['zh', 'en']
+export const LANGUAGE_LABELS = { zh: '中文', en: 'English' }
 export const DEFAULT_LANG = 'zh'
 
 const dicts = { zh, ja, en }

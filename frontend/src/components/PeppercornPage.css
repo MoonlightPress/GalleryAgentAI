@@ -941,6 +941,17 @@
   margin: 0 0 14px;
 }
 
+.pp-goals-preamble { line-height: 1.55; }
+.pp-accomplish { margin: 16px 0 4px; }
+.pp-accomplish-label {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #5a3e20;
+  margin-bottom: 8px;
+}
+.pp-goals-divider { height: 1px; background: #e3d9c2; margin: 22px 0 16px; }
+
 /* ── Buttons ────────────────────────────────────────────────────────────── */
 
 .pp-save {
