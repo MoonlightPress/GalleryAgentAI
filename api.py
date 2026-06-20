@@ -1941,7 +1941,13 @@ def get_saffron():
             "date": s.get("date") or s.get("submitted_at") or s.get("date_added") or "",
             "status": s.get("status") or s.get("action") or "submitted",
         })
+    # Only contacts she's actually engaged count as activity — a cold venue
+    # sitting in the CRM isn't something that "happened".
+    _ENGAGED = {"in_contact", "sent_inquiry", "contacted", "responded",
+                "ready_to_review", "relationship"}
     for c in raw_contacts:
+        if (c.get("status") or "cold") not in _ENGAGED:
+            continue
         activity_items.append({
             "type": "contact",
             "name": c.get("name") or "",

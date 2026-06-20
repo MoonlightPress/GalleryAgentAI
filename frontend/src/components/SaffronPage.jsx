@@ -289,6 +289,14 @@ function sfSearch(name) {
   return `https://www.google.com/search?q=${encodeURIComponent(name || '')}`
 }
 
+// Humanize a raw activity status (e.g. "in_contact") into a readable label.
+function actStatusLabel(status, t) {
+  const key = `sf.actStatus.${status}`
+  const v = t(key)
+  if (v && v !== key) return v
+  return String(status || '').replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+}
+
 
 // ── Original four sections ─────────────────────────────────────────────────
 
@@ -1302,7 +1310,7 @@ function CareerMomentum({ data, t }) {
                   {item.type === 'submission' ? '📤' : '📋'}
                 </span>
                 <span className="sf-mom-activity-name">{item.name}</span>
-                <span className="sf-mom-activity-status">{item.status}</span>
+                <span className="sf-mom-activity-status">{actStatusLabel(item.status, t)}</span>
                 <span className="sf-mom-activity-date">{item.date?.slice(0, 10)}</span>
               </div>
             ))}
