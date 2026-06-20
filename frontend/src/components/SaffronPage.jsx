@@ -265,6 +265,13 @@ function InstagramStrategy({ data, t }) {
           <div className="sf-row-title" style={{ marginBottom: 6 }}>{data.known.diary_practice}</div>
           <div className="sf-row-meta">{data.known.content_type}</div>
 
+          {data.strategy && (
+            <div style={{ marginTop: 16 }}>
+              <div className="sf-block-label">{t('sf.ig.strategy')}</div>
+              <p className="sf-info-text">{data.strategy}</p>
+            </div>
+          )}
+
           {postingFreq && (
             <div className="sf-peppercorn-answer" style={{ marginTop: 16 }}>
               <div className="sf-block-label">{t('sf.label.postingFreq')}</div>

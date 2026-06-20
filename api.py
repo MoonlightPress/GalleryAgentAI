@@ -1389,12 +1389,13 @@ def get_saffron():
         ],
         "gap": {
             "instagram": 26000,
-            "analysis": "Instagram is established (26k followers) and growing. The open question is posting cadence and curation strategy — whether she is actively building toward the 50k market-viability signal or treating the account as a portfolio archive changes the advice entirely.",
+            "analysis": "Instagram is an established strength — 26k followers, already a working portfolio and the surface galleries and publishers use to discover you. Growth from here is a bonus, not a requirement.",
         },
         "known": {
-            "content_type": "Urban environments, cats, domestic life, travel fragments — high-performing Instagram subject matter",
-            "diary_practice": "Daily watercolor sketches since 2020. Content exists; the question is posting cadence and curation, not production.",
+            "content_type": "Urban environments, cats, domestic life, travel fragments — subjects that already do well on Instagram",
+            "diary_practice": "A years-long watercolor diary since 2020. The material is already there; nothing about visibility asks you to paint more.",
         },
+        "strategy": "A low-effort way to deepen your reach without painting more: short process videos — a time-lapse, or a clip of a piece coming together. They travel well on Instagram and Reels, suit a slow studio practice, and turn work you're already doing into something to share.",
         "missing": [
             {
                 "field": "Posting frequency",
