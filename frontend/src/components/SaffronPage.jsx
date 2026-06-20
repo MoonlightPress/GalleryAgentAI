@@ -229,6 +229,19 @@ const SF_ZH = {
 
   // ── Collaboration ──
   "Tide from China Part 1, Tokyo 2023": "《潮自中国 第一部》，东京 2023",
+
+  // ── Scenario requires-now steps + stragglers ──
+  "3–5 Tokyo group shows by 2027 — artist-run spaces first (3331, Design Festa Gallery, Gallery IYN)": "到 2027 年参与 3–5 场东京联展——先从艺术家自营空间开始（3331、Design Festa Gallery、Gallery IYN）",
+  "One institutional open call (TOKAS, Youkobo, BankART) by 2028": "到 2028 年投递一次机构公开征集（TOKAS、Youkobo、BankART）",
+  "Consistent gallery attendance — build relationships before cold submissions": "持续看展——在冷投递之前先建立关系",
+  "Artist statement developed and refined": "完善并打磨艺术家自述",
+  "New self-published zine or small book within 12 months — the daily diary content already exists": "12 个月内自出版一本新的独立刊物或小书——每日日记的内容已经现成",
+  "Table at Tokyo Art Book Fair 2026 or 2027": "在 2026 或 2027 年东京艺术书展设展位",
+  "Submission to Offprint or NY Art Book Fair by 2028": "到 2028 年投递 Offprint 或纽约艺术书展",
+  "Publisher relationship with torch press or equivalent — start with introduction, not submission": "与 torch press 或同类出版社建立关系——先从引荐开始，而非投稿",
+  "All Publication Track steps": "出版路线的全部步骤",
+  "2–3 Tokyo group shows in parallel": "同时参与 2–3 场东京联展",
+  "Bookshop gallery show as the bridge (UTRECHT or Book and Sons) — satisfies both tracks simultaneously": "以书店画廊展览作为桥梁（UTRECHT 或 Book and Sons）——同时满足两条路线",
 }
 
 class SectionErrorBoundary extends Component {
