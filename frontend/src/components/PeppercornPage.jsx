@@ -1366,8 +1366,8 @@ function CareerEventWidget() {
   const { t } = useLanguage()
   const [events, setEvents] = useState([])
   const [flash, setFlash] = useState(false)
-  const [activeType, setActiveType] = useState(null)
-  const [detail, setDetail] = useState('')
+  const [editingId, setEditingId] = useState(null)
+  const [noteDraft, setNoteDraft] = useState('')
 
   useEffect(() => {
     fetch('/api/career_events')
@@ -1376,24 +1376,39 @@ function CareerEventWidget() {
       .catch(() => {})
   }, [flash])
 
-  // Tapping an event opens a small contextual field — which venue? how many,
-  // for how much? where? — so the detail isn't lost. Still optional: log blank
-  // if she's in a hurry.
-  async function logEvent(type, note) {
+  // One tap logs immediately — frictionless. The detail (which venue? how much?)
+  // attaches to the event itself: the just-logged row opens an inline note, and
+  // any past event's note can be edited by clicking it. Nothing left sitting.
+  async function logEvent(type) {
     try {
       const r = await fetch('/api/career_events', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ type, note: (note || '').trim() }),
+        body: JSON.stringify({ type, note: '' }),
       })
-      if (r.ok) { setFlash(f => !f); setActiveType(null); setDetail('') }
+      if (r.ok) {
+        const d = await r.json().catch(() => null)
+        setFlash(f => !f)
+        if (d?.entry?.id) { setEditingId(d.entry.id); setNoteDraft('') }
+      }
     } catch { /* no-op on network failure */ }
   }
 
-  function toggleType(type) {
-    if (activeType === type) { setActiveType(null); setDetail('') }
-    else { setActiveType(type); setDetail('') }
+  async function saveNote(id) {
+    const note = noteDraft.trim()
+    setEditingId(null)
+    setNoteDraft('')
+    try {
+      await fetch(`/api/career_events/${id}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ note }),
+      })
+      setFlash(f => !f)
+    } catch { /* no-op on network failure */ }
   }
+
+  function startEdit(ev) { setEditingId(ev.id); setNoteDraft(ev.note || '') }
 
   return (
     <div className="pp-event-widget">
@@ -1402,8 +1417,8 @@ function CareerEventWidget() {
         {EVENT_TYPES.map(({ type, icon }) => (
           <button
             key={type}
-            className={`pp-event-btn${activeType === type ? ' pp-event-btn--active' : ''}`}
-            onClick={() => toggleType(type)}
+            className="pp-event-btn"
+            onClick={() => logEvent(type)}
             title={t(`pp.event.type.${type}`)}
           >
             <span className="pp-event-icon">{icon}</span>
@@ -1412,32 +1427,34 @@ function CareerEventWidget() {
         ))}
       </div>
 
-      {activeType && (
-        <div className="pp-event-detail">
-          <input
-            className="pp-event-detail-input"
-            value={detail}
-            onChange={e => setDetail(e.target.value)}
-            onKeyDown={e => { if (e.key === 'Enter') logEvent(activeType, detail) }}
-            placeholder={t(`pp.event.detail.${activeType}`)}
-            autoFocus
-          />
-          <button className="pp-event-detail-log" onClick={() => logEvent(activeType, detail)}>
-            {t('pp.event.log')}
-          </button>
-        </div>
-      )}
-
       {events.length > 0 && (
         <div className="pp-event-recent">
           {events.map((ev, i) => {
             const colors = EVENT_COLORS[ev.type] || EVENT_COLORS.conversation
             const evType = EVENT_TYPES.find(e => e.type === ev.type)
+            const isEditing = editingId && editingId === ev.id
             return (
               <div key={ev.id || i} className="pp-event-recent-row">
                 <span className="pp-event-recent-icon" style={{ color: colors.text }}>{evType?.icon || '•'}</span>
                 <span className="pp-event-recent-type" style={{ color: colors.text }}>{t(`pp.event.type.${ev.type}`)}</span>
-                {ev.note && <span className="pp-event-recent-note">{ev.note}</span>}
+                {isEditing ? (
+                  <input
+                    className="pp-event-note-input"
+                    value={noteDraft}
+                    onChange={e => setNoteDraft(e.target.value)}
+                    onKeyDown={e => {
+                      if (e.key === 'Enter') saveNote(ev.id)
+                      if (e.key === 'Escape') { setEditingId(null); setNoteDraft('') }
+                    }}
+                    onBlur={() => saveNote(ev.id)}
+                    placeholder={t(`pp.event.detail.${ev.type}`)}
+                    autoFocus
+                  />
+                ) : ev.note ? (
+                  <span className="pp-event-recent-note" onClick={() => startEdit(ev)}>{ev.note}</span>
+                ) : (
+                  <button className="pp-event-add-note" onClick={() => startEdit(ev)}>{t('pp.event.addDetail')}</button>
+                )}
                 <span className="pp-event-recent-date">{ev.date}</span>
               </div>
             )

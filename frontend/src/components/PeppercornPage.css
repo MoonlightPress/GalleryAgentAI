@@ -1,6 +1,6 @@
 /* ── Peppercorn palette ─────────────────────────────────────────────────────
    bg:      #f6f5f0  cool cream
-   paper:   #fdfcf7  card / input background
+   paper:   #fbf5e6  card / input background
    accent:  #6a8a5a  sage green
    text:    #2e3a2e  dark forest green-black
    muted:   #6a7a5a  secondary text
@@ -11,7 +11,7 @@
 .peppercorn-page {
   display: flex;
   flex-direction: column;
-  background: #f6f5f0;
+  background: #ede5d2;
   min-height: 100vh;
 }
 
@@ -43,7 +43,7 @@
   font-style: italic;
   text-align: right;
   padding: 5px 32px;
-  background: #f6f5f0;
+  background: #ede5d2;
   border-bottom: 1px solid #e4ecda;
   transition: color 0.3s;
 }
@@ -82,7 +82,7 @@
 .pp-card {
   flex-shrink: 0;
   width: 168px;
-  background: #fdfcf7;
+  background: #fbf5e6;
   border: 1px solid #dce8cc;
   border-radius: 8px;
   padding: 14px 14px 13px;
@@ -166,7 +166,7 @@
 .pp-content {
   display: flex;
   flex-direction: column;
-  background: #f6f5f0;
+  background: #ede5d2;
 }
 
 /* ── Section shell ──────────────────────────────────────────────────────── */
@@ -351,12 +351,12 @@
 }
 
 .pp-threshold-marker--done {
-  color: #fdfcf7;
+  color: #fbf5e6;
   background: #6a8a5a;
 }
 
 .pp-threshold-marker--key {
-  color: #fdfcf7;
+  color: #fbf5e6;
   background: #4a6a3a;
 }
 
@@ -433,7 +433,7 @@
 }
 
 .pp-pathway-record {
-  background: #fdfcf7;
+  background: #fbf5e6;
   border: 1px solid #dce8cc;
   border-radius: 8px;
   padding: 16px 18px;
@@ -522,7 +522,7 @@
   display: flex;
   gap: 16px;
   align-items: flex-start;
-  background: #fdfcf7;
+  background: #fbf5e6;
   border: 1px solid #dce8cc;
   border-radius: 8px;
   padding: 14px 16px;
@@ -564,7 +564,7 @@
   font-size: 13.5px;
   color: #2e3a2e;
   line-height: 1.8;
-  background: #fdfcf7;
+  background: #fbf5e6;
   border: 1px solid #cdd8be;
   border-radius: 8px;
   padding: 15px 17px;
@@ -609,7 +609,7 @@
   height: 17px;
   border: 2px solid #cdd8be;
   border-radius: 3px;
-  background: #fdfcf7;
+  background: #fbf5e6;
   cursor: pointer;
   flex-shrink: 0;
   transition: border-color 0.15s, background 0.15s;
@@ -641,7 +641,7 @@
   left: 3px;
   width: 7px;
   height: 7px;
-  background: white;
+  background: #fbf5e6;
   border-radius: 50%;
 }
 
@@ -764,7 +764,7 @@
 }
 
 .pp-q-card {
-  background: #fdfcf7;
+  background: #fbf5e6;
   border: 1px solid #cdd8be;
   border-radius: 10px;
   padding: 22px 24px;
@@ -817,7 +817,7 @@
   display: block;
 }
 
-.pp-q-input:focus { border-color: #6a8a5a; background: #fdfcf7; }
+.pp-q-input:focus { border-color: #6a8a5a; background: #fbf5e6; }
 .pp-q-input::placeholder { color: #aab89a; font-style: italic; }
 
 .pp-q-actions { display: flex; align-items: center; gap: 14px; }
@@ -922,7 +922,7 @@
   font-family: Georgia, serif;
   font-size: 13.5px;
   color: #2e3a2e;
-  background: #fdfcf7;
+  background: #fbf5e6;
   border: 1px solid #cdd8be;
   border-radius: 6px;
   padding: 9px 13px;
@@ -1052,7 +1052,7 @@
 }
 
 .pp-sub-row {
-  background: #fdfcf7;
+  background: #fbf5e6;
   border-radius: 8px;
   padding: 12px 14px;
   border: 1px solid #e0e8d4;
@@ -1141,7 +1141,7 @@
   font-family: Georgia, serif;
   font-size: 12px;
   color: #5a3e20;
-  background: #fff;
+  background: #fbf5e6;
   border: 1px solid #d4b890;
   border-radius: 20px;
   padding: 5px 12px;
@@ -1158,34 +1158,29 @@
 .pp-event-icon { font-style: normal; }
 .pp-event-label { white-space: nowrap; }
 
-.pp-event-detail {
-  display: flex;
-  gap: 6px;
-  margin: 2px 0 8px;
-}
-.pp-event-detail-input {
+.pp-event-note-input {
   flex: 1;
   font-family: Georgia, serif;
-  font-size: 13px;
+  font-size: 12px;
   color: #5a3e20;
-  background: #fff;
-  border: 1px solid #d4b890;
-  border-radius: 8px;
-  padding: 7px 11px;
+  background: #fbf5e6;
+  border: 1px solid #c2d4ad;
+  border-radius: 6px;
+  padding: 3px 9px;
+  min-width: 120px;
 }
-.pp-event-detail-input:focus { outline: none; border-color: #c4985a; }
-.pp-event-detail-log {
+.pp-event-note-input:focus { outline: none; border-color: #6a8a5a; }
+.pp-event-add-note {
   font-family: Georgia, serif;
-  font-size: 13px;
-  color: #fff;
-  background: #c4985a;
-  border: 1px solid #c4985a;
-  border-radius: 8px;
-  padding: 7px 14px;
+  font-size: 11px;
+  color: #9a8a6a;
+  background: none;
+  border: none;
   cursor: pointer;
-  white-space: nowrap;
+  font-style: italic;
+  padding: 0;
 }
-.pp-event-detail-log:hover { background: #b5701f; border-color: #b5701f; }
+.pp-event-add-note:hover { color: #6a8a5a; }
 
 .pp-event-note-row {
   display: flex;
@@ -1255,7 +1250,7 @@
 /* ── CRM Contacts section ───────────────────────────────────────────────── */
 
 .crm-summary-bar {
-  background: #fdfcf7;
+  background: #fbf5e6;
   border: 1px solid #dce8cc;
   border-radius: 7px;
   padding: 9px 14px;
@@ -1307,7 +1302,7 @@
 }
 
 .crm-card {
-  background: #fdfcf7;
+  background: #fbf5e6;
   border: 1px solid #dce8cc;
   border-radius: 8px;
   padding: 11px 14px;

@@ -2423,6 +2423,23 @@ async def add_career_event(request: Request):
     return {"ok": True, "entry": entry}
 
 
+@app.patch("/api/career_events/{event_id}")
+async def update_career_event(event_id: str, request: Request):
+    """Attach or edit the note on an already-logged event."""
+    payload = await request.json()
+    path = DATA_DIR / "career_events.json"
+    if not path.exists():
+        return {"ok": False, "error": "no log"}
+    log = json.loads(path.read_text(encoding="utf-8"))
+    for ev in log:
+        if ev.get("id") == event_id:
+            if "note" in payload:
+                ev["note"] = (payload.get("note") or "").strip()
+            path.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+            return {"ok": True, "entry": ev}
+    return {"ok": False, "error": "not found"}
+
+
 @app.get("/api/exhibition_log")
 def get_exhibition_log():
     path = DATA_DIR / "exhibition_log.json"

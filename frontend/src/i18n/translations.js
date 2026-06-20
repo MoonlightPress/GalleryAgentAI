@@ -714,6 +714,7 @@ const zh = {
   'pp.event.detail.sold':         '卖了几件，价格多少？',
   'pp.event.detail.featured':     '在哪里被报道？',
   'pp.event.note.placeholder': '添加备注（可选）…',
+  'pp.event.addDetail':           '+ 补充详情',
   'pp.event.log':              '记录',
   'pp.event.cancel':           '取消',
 
@@ -1668,6 +1669,7 @@ const ja = {
   'pp.event.detail.sold':         '何点、いくらで？',
   'pp.event.detail.featured':     'どこで取材された？',
   'pp.event.note.placeholder': 'メモを追加（任意）…',
+  'pp.event.addDetail':           '+ 詳細を追加',
   'pp.event.log':              '記録する',
   'pp.event.cancel':           'キャンセル',
 
@@ -2628,6 +2630,7 @@ const en = {
   'pp.event.detail.sold':         'How many, and for how much?',
   'pp.event.detail.featured':     'Where?',
   'pp.event.note.placeholder': 'Add a note (optional)…',
+  'pp.event.addDetail':           '+ add detail',
   'pp.event.log':              'Log it',
   'pp.event.cancel':           'Cancel',
 
