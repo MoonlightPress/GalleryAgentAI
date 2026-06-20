@@ -2359,7 +2359,7 @@ const en = {
   'pp.track.gallery.label':     'Gallery & exhibition track',
   'pp.track.gallery.desc':      'Group shows, open calls, gallery relationships',
   'pp.track.hybrid.label':      'Both — running in parallel',
-  'pp.track.hybrid.desc':       'The natural fit given her existing practice',
+  'pp.track.hybrid.desc':       'The natural fit given your existing practice',
 
   'pp.avoid.photography_calls':    'Photography-heavy open calls',
   'pp.avoid.high_fees':            'Entry fees over ¥10,000 / $60',
@@ -2465,7 +2465,7 @@ const en = {
   // ── Exhibition threshold content ──────────────────────────────────────────
   'pp.shows.meta':           'ACG_Labo · Harajuku, Tokyo · February 2023 · Group show, 6 Chinese illustrators',
   'pp.shows.thresh.1':       'Established presence. A credible starting point. Not yet a pattern.',
-  'pp.shows.thresh.2':       'Pattern begins. The perception of "one lucky group show" dissolves. She is someone who exhibits, not someone who exhibited.',
+  'pp.shows.thresh.2':       'Pattern begins. The perception of "one lucky group show" dissolves. You become someone who exhibits, not someone who exhibited.',
   'pp.shows.thresh.3':       'The blocking milestone. Most Tokyo galleries consider 3 group show credits the minimum before discussing a solo show. Getting to 3 unlocks the next stage of the career arc.',
   'pp.shows.thresh.5':       'Strong exhibition CV. Residency applications become competitive. Institutional open calls — TOKAS, BankART1929, Youkobo — become realistic rather than aspirational.',
   'pp.shows.3331.desc':      'Open calls on regular cycle. Artist-run feel. Accessible for international artists based in Tokyo.',
