@@ -28,7 +28,7 @@ function CarouselCard({ card, isActive, onClick }) {
 
 // ── Section shell (open/close controlled by parent) ───────────────────────
 
-function SectionShell({ id, title, subtitle, isOpen, onToggle, sectionRef, children }) {
+function SectionShell({ id, title, subtitle, synopsis, isOpen, onToggle, sectionRef, children }) {
   return (
     <section
       id={id}
@@ -38,7 +38,9 @@ function SectionShell({ id, title, subtitle, isOpen, onToggle, sectionRef, child
       <button className="pp-toggle" onClick={onToggle}>
         <div className="pp-toggle-text">
           <h2 className="pp-title">{title}</h2>
-          {isOpen && subtitle && <p className="pp-subtitle">{subtitle}</p>}
+          {isOpen
+            ? (subtitle && <p className="pp-subtitle">{subtitle}</p>)
+            : ((synopsis || subtitle) && <p className="pp-synopsis">{synopsis || subtitle}</p>)}
         </div>
         <span className={`pp-chevron${isOpen ? ' pp-chevron--open' : ''}`}>▾</span>
       </button>
@@ -192,6 +194,7 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
       id="saffron-questions"
       sectionRef={sectionRef}
       title={t('pp.sec.saffronQs')}
+      synopsis={t('pp.syn.saffronQs')}
       subtitle={subtitle}
       isOpen={isOpen}
       onToggle={onToggle}
@@ -561,6 +564,7 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
       id="submission-log"
       sectionRef={sectionRef}
       title={t('pp.sec.sublog')}
+      synopsis={t('pp.syn.sublog')}
       subtitle={submissions.length === 0 ? t('pp.sub.sublog.empty') : t('pp.sub.sublog.count', { n: submissions.length, s: submissions.length !== 1 ? 's' : '' })}
       isOpen={isOpen}
       onToggle={onToggle}
@@ -723,6 +727,7 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
       id="exhibition-log"
       sectionRef={sectionRef}
       title={t('pp.sec.exlog')}
+      synopsis={t('pp.syn.exlog')}
       subtitle={shows.length === 0 ? t('pp.sub.exlog.empty') : t('pp.sub.exlog.count', { n: total })}
       isOpen={isOpen}
       onToggle={onToggle}
@@ -984,6 +989,7 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
       id="venue-log"
       sectionRef={sectionRef}
       title={t('pp.sec.venuelog')}
+      synopsis={t('pp.syn.venuelog')}
       subtitle={contacts.length === 0 ? t('pp.sub.venuelog.empty') : t('pp.sub.venuelog.count', { n: contacts.length, s: contacts.length !== 1 ? 's' : '' })}
       isOpen={isOpen}
       onToggle={onToggle}
@@ -1343,6 +1349,7 @@ function ContactsSection({ isOpen, onToggle, sectionRef }) {
       id="contacts"
       sectionRef={sectionRef}
       title={t('pp.sec.contacts')}
+      synopsis={t('pp.syn.contacts')}
       subtitle={subtitle}
       isOpen={isOpen}
       onToggle={onToggle}

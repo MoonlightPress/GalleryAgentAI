@@ -284,6 +284,14 @@
   margin: 0;
 }
 
+.pp-synopsis {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #8a7a64;
+  margin: 0;
+  line-height: 1.5;
+}
+
 .pp-chevron {
   font-size: 19px;
   color: #9aaa8a;
