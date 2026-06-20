@@ -218,6 +218,17 @@ const SF_ZH = {
   "painting": "绘画", "printmaking": "版画", "drawing": "素描", "any": "不限",
   "United States": "美国", "United Kingdom": "英国", "France": "法国", "Germany": "德国",
   "Singapore": "新加坡", "China": "中国", "Australia": "澳大利亚", "Online": "线上",
+
+  // ── Press features ──
+  "Work feature": "作品报道", "Work feature (part 2)": "作品报道（第二部分）",
+  "Visual feature of watercolor work — large general audience, no biographical depth": "水彩作品的视觉报道——受众广泛，但无人物深度",
+  "Follow-up feature of the same body of work": "对同一批作品的后续报道",
+  "Japan's most significant contemporary art publication": "日本最重要的当代艺术刊物",
+  "Design and art, illustration-friendly, Tokyo readership": "设计与艺术，对插画友好，东京读者群",
+  "Primary English-language illustrator discovery platform globally": "全球首屈一指的英语插画师发掘平台",
+
+  // ── Collaboration ──
+  "Tide from China Part 1, Tokyo 2023": "《潮自中国 第一部》，东京 2023",
 }
 
 class SectionErrorBoundary extends Component {
