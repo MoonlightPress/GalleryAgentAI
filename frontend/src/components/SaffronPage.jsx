@@ -29,7 +29,7 @@ class SectionErrorBoundary extends Component {
 
 // ── Shared primitives ──────────────────────────────────────────────────────
 
-function SectionShell({ title, subtitle, summary, defaultOpen = false, children }) {
+function SectionShell({ title, subtitle, summary, defaultOpen = true, children }) {
   const [open, setOpen] = useState(defaultOpen)
   return (
     <section className={`sf-section${open ? '' : ' sf-section--closed'}`}>
@@ -52,9 +52,6 @@ function EmptyState({ message }) {
   return <p className="sf-empty-state">{message}</p>
 }
 
-function MissingTag({ label, t }) {
-  return <span className="sf-missing-tag">{t('sf.missing.askPepper', { label })}</span>
-}
 
 // ── Original four sections ─────────────────────────────────────────────────
 
@@ -267,17 +264,6 @@ function InstagramStrategy({ data, t }) {
               <div className="sf-answer-bubble">{postingFreq}</div>
             </div>
           )}
-          {data.missing?.length > 0 && (
-            <>
-              <div className="sf-block-label" style={{ marginTop: 24 }}>{t('pp.ig.missing')}</div>
-              {data.missing.map((m, i) => (
-                <div key={i} className="sf-missing-row">
-                  <MissingTag label={m.field} t={t} />
-                  <p className="sf-missing-reason">{m.reason}</p>
-                </div>
-              ))}
-            </>
-          )}
         </div>
       </div>
     </SectionShell>
@@ -285,32 +271,20 @@ function InstagramStrategy({ data, t }) {
 }
 
 function AudienceGeography({ data, t }) {
+  // Only show when there's a real audience report — no "what's missing" meta.
+  if (!data.available || !data.artist_report) return null
   return (
     <SectionShell
       title={t('sf.sec.audienceGeo')}
       subtitle={t('sf.sub.audienceGeo')}
-      summary={data.available ? t('sf.sum.audienceGeo.live') : t('sf.sum.audienceGeo')}
+      summary={t('sf.sum.audienceGeo.live')}
     >
-      {data.available && data.artist_report ? (
-        <div className="sf-info-block">
-          <div className="sf-block-label">{t('sf.label.artistReport')}</div>
-          <div className="sf-answer-bubble sf-answer-bubble--geo">{data.artist_report}</div>
-          <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.whyMatters')}</div>
-          <p className="sf-info-text">{data.why_it_matters}</p>
-        </div>
-      ) : (
-        <>
-          <EmptyState message={data.reason ?? ''} />
-          <div className="sf-info-block">
-            <div className="sf-block-label">{t('sf.label.whyMatters')}</div>
-            <p className="sf-info-text">{data.why_it_matters}</p>
-            <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.hypothesis')}</div>
-            <p className="sf-info-text sf-hypothesis">{data.hypothesis}</p>
-            <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.askPepper')}</div>
-            <p className="sf-info-text">{data.what_peppercorn_should_ask}</p>
-          </div>
-        </>
-      )}
+      <div className="sf-info-block">
+        <div className="sf-block-label">{t('sf.label.artistReport')}</div>
+        <div className="sf-answer-bubble sf-answer-bubble--geo">{data.artist_report}</div>
+        <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.whyMatters')}</div>
+        <p className="sf-info-text">{data.why_it_matters}</p>
+      </div>
     </SectionShell>
   )
 }
@@ -1399,16 +1373,27 @@ function CareerReadiness({ data }) {
       subtitle={t('sf.cr.subtitle')}
       summary={summary}
     >
-      {/* Readiness bars */}
+      {/* Four-tier ladder */}
+      <p className="sf-tiers-intro">{t('sf.cr.tiersIntro')}</p>
       <div className="sf-readiness-bars">
+        <div className="sf-tier-done">
+          <span className="sf-tier-check">✓</span>
+          <span className="sf-tier-name">{t('sf.cr.tier1')}</span>
+          <span className="sf-tier-status">{t('sf.cr.tierComplete')}</span>
+        </div>
+        <div className="sf-tier-done">
+          <span className="sf-tier-check">✓</span>
+          <span className="sf-tier-name">{t('sf.cr.tier2')}</span>
+          <span className="sf-tier-status">{t('sf.cr.tierComplete')}</span>
+        </div>
         <ReadinessBar
-          label={t('sf.cr.tier3Label')}
+          label={t('sf.cr.tier3')}
           sublabel={t('sf.cr.tier3Sublabel')}
           pct={tier3Pct}
           color="#c47a35"
         />
         <ReadinessBar
-          label={t('sf.cr.tier4Label')}
+          label={t('sf.cr.tier4')}
           sublabel={t('sf.cr.tier4Sublabel')}
           pct={tier4Pct}
           color="#d4b87a"
