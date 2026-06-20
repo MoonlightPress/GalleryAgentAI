@@ -295,6 +295,16 @@ function sfSearch(name) {
 function CareerPosition({ data, t }) {
   const ig = data.social.find(s => s.platform === 'Instagram')
   const summary = `${data.exhibitions.length} · ${data.publications.length} · Instagram ${ig?.followers ?? '—'} · ${data.base}`
+
+  const igStr = ig?.followers || '26k'
+  const m     = String(igStr).toLowerCase().match(/([\d.]+)\s*k/)
+  const igNum = m ? parseFloat(m[1]) * 1000 : (parseInt(String(igStr).replace(/[^\d]/g, ''), 10) || 26000)
+  const rings = [
+    { id: 'ig',    label: t('sf.mile.followers'), current: igStr,                            target: '50k', pct: igNum / 50000,                color: '#c47a35' },
+    { id: 'shows', label: t('sf.mile.shows'),     current: String(data.exhibitions.length),  target: '3',   pct: data.exhibitions.length / 3,  color: '#7a9e7e' },
+    { id: 'pub',   label: t('sf.mile.pubs'),      current: String(data.publications.length), target: '3',   pct: data.publications.length / 3, color: '#c49a3e' },
+  ]
+
   return (
     <SectionShell
       title={t('sf.sec.careerPosition')}
@@ -302,6 +312,10 @@ function CareerPosition({ data, t }) {
       summary={summary}
       defaultOpen={true}
     >
+      <div className="sf-rings">
+        {rings.map(rg => <MilestoneRing key={rg.id} {...rg} />)}
+      </div>
+
       <div className="sf-career-grid">
         <div className="sf-career-block">
           <div className="sf-block-label">{t('sf.label.exhibitions')}</div>
@@ -1557,33 +1571,6 @@ function MilestoneRing({ pct, current, target, label, color }) {
   )
 }
 
-function MilestoneRings({ data, t }) {
-  const rec   = data?.career_benchmarks?.artist_record || {}
-  const igStr = rec.instagram || '26k'
-  const m     = String(igStr).toLowerCase().match(/([\d.]+)\s*k/)
-  const igNum = m ? parseFloat(m[1]) * 1000 : (parseInt(String(igStr).replace(/[^\d]/g, ''), 10) || 26000)
-  const shows = rec.exhibitions ?? 1
-  const pubs  = rec.publications ?? 2
-
-  const rings = [
-    { id: 'ig',    label: t('sf.mile.followers'), current: igStr,         target: '50k', pct: igNum / 50000, color: '#c47a35' },
-    { id: 'shows', label: t('sf.mile.shows'),     current: String(shows), target: '3',   pct: shows / 3,     color: '#7a9e7e' },
-    { id: 'pub',   label: t('sf.mile.pubs'),      current: String(pubs),  target: '3',   pct: pubs / 3,      color: '#c49a3e' },
-  ]
-
-  return (
-    <SectionShell
-      title={t('sf.mile.title')}
-      subtitle={t('sf.mile.sub')}
-      summary={t('sf.mile.title')}
-    >
-      <div className="sf-rings">
-        {rings.map(rg => <MilestoneRing key={rg.id} {...rg} />)}
-      </div>
-    </SectionShell>
-  )
-}
-
 function ReadinessBar({ label, sublabel, pct, color }) {
   return (
     <div className="sf-readiness-bar-row">
@@ -1884,7 +1871,6 @@ export default function SaffronPage({ nav }) {
             {tab === 'profile' && (
               <>
                 {careerData && <CareerReadiness data={careerData} />}
-                <MilestoneRings     data={data}                    t={t} />
                 <CareerPosition     data={data.career_position}    t={t} />
                 <CareerMomentum     data={data.career_momentum}    t={t} />
                 <CareerBenchmarks   data={data.career_benchmarks}  t={t} />
