@@ -114,6 +114,16 @@
 .sf-ext-link { text-decoration: none; cursor: pointer; }
 .sf-ext-link:hover { color: #c47a35; text-decoration: underline; }
 
+/* Radial milestone rings */
+.sf-rings { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; padding: 12px 0 6px; }
+.sf-ring { display: flex; flex-direction: column; align-items: center; gap: 9px; }
+.sf-ring-svg { width: 92px; height: 92px; }
+.sf-ring-track { fill: none; stroke: #ece0c8; stroke-width: 6.5; }
+.sf-ring-fill { fill: none; stroke-width: 6.5; stroke-linecap: round; transition: stroke-dashoffset 0.7s ease; }
+.sf-ring-current { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #3d2b1a; text-anchor: middle; }
+.sf-ring-target { font-family: Georgia, serif; font-size: 10.5px; fill: #8a7563; text-anchor: middle; }
+.sf-ring-label { font-family: Georgia, serif; font-size: 13px; color: #5d4b3b; }
+
 /* Inline answers in Open Questions */
 .sf-question-answer { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
 .sf-question-input {

@@ -898,6 +898,11 @@ const zh = {
 
   // ── SaffronPage — MarketStats ─────────────────────────────────────────────
   'sf.ms.title':          '当前的机会',
+  'sf.mile.title':        '你正前往的方向',
+  'sf.mile.sub':          '你当前相对于下一个里程碑的位置。',
+  'sf.mile.followers':    '粉丝',
+  'sf.mile.shows':        '联展',
+  'sf.mile.pubs':         '出版物',
   'sf.ms.subtitle':       '全量机会数据集的实时统计',
   'sf.ms.byType':         '按类型',
   'sf.ms.deadlinePressure': '截止日期压力',
@@ -1847,6 +1852,11 @@ const ja = {
 
   // ── SaffronPage — MarketStats ─────────────────────────────────────────────
   'sf.ms.title':          '今ある機会',
+  'sf.mile.title':        '向かう先',
+  'sf.mile.sub':          '次のマイルストーンに対する現在地。',
+  'sf.mile.followers':    'フォロワー',
+  'sf.mile.shows':        'グループ展',
+  'sf.mile.pubs':         '出版物',
   'sf.ms.subtitle':       '全機会データセットのリアルタイム集計',
   'sf.ms.byType':         'タイプ別',
   'sf.ms.deadlinePressure': '締切プレッシャー',
@@ -2802,6 +2812,11 @@ const en = {
 
   // ── SaffronPage — MarketStats ─────────────────────────────────────────────
   'sf.ms.title':          'Opportunities Open Now',
+  'sf.mile.title':        'Where you\'re headed',
+  'sf.mile.sub':          'Your current standing against the next milestones.',
+  'sf.mile.followers':    'Followers',
+  'sf.mile.shows':        'Group shows',
+  'sf.mile.pubs':         'Publications',
   'sf.ms.subtitle':       'Live counts from the full opportunity dataset',
   'sf.ms.byType':         'By type',
   'sf.ms.deadlinePressure': 'Deadline pressure',
