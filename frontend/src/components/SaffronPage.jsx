@@ -1513,8 +1513,16 @@ function OverviewFront({ data, t, onGoto }) {
   const scenarios = (data.long_term_scenarios?.scenarios || []).slice().sort(
     (a, b) => (isBestFit(b) - isBestFit(a)) || ((PROB_RANK[b.probability] ?? 0) - (PROB_RANK[a.probability] ?? 0))
   )
-  const cats = Object.entries(ms?.by_category || {}).sort((a, b) => b[1] - a[1]).slice(0, 5)
+  const cats = Object.entries(ms?.by_category || {})
+    .sort((a, b) => {
+      const ao = /other/i.test(a[0]), bo = /other/i.test(b[0])
+      if (ao !== bo) return ao ? 1 : -1   // "Other" is the junk-drawer bucket — never at the top
+      return b[1] - a[1]
+    })
+    .slice(0, 6)
   const maxCat = Math.max(...cats.map(([, v]) => v), 1)
+  const bench = data.career_benchmarks
+  const benchRows = bench?.peer_range || []
   const fitWord = (p) => { const k = `sf.front.fit.${p}`; return t(k) !== k ? t(k) : p }
 
   return (
@@ -1524,6 +1532,29 @@ function OverviewFront({ data, t, onGoto }) {
         <p>{t('sf.front.read2')}</p>
         <p>{t('sf.front.read3')}</p>
       </div>
+
+      {benchRows.length > 0 && (
+        <div className="sf-front-block">
+          <div className="sf-front-h">{t('sf.front.compareTitle')}</div>
+          {bench.summary && <p className="sf-front-compare-lede">{bench.summary}</p>}
+          <div className="sf-front-compare">
+            {benchRows.map((row, i) => {
+              const color = ASSESSMENT_COLORS[row.assessment] || ASSESSMENT_COLORS.on_track
+              const label = t(ASSESSMENT_KEYS[row.assessment] || 'sf.assess.on_track')
+              return (
+                <div key={i} className="sf-front-compare-row">
+                  <span className="sf-front-compare-dim">{row.dimension}</span>
+                  <span className="sf-front-compare-vals">
+                    <strong>{row.artist_value}</strong>
+                    <span className="sf-front-compare-peer">{t('sf.front.peersTypical', { v: row.peer_typical })}</span>
+                  </span>
+                  <span className="sf-front-compare-tag" style={{ color }}>{label}</span>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      )}
 
       {scenarios.length > 0 && (
         <div className="sf-front-block">
@@ -1554,7 +1585,7 @@ function OverviewFront({ data, t, onGoto }) {
           <div className="sf-bars sf-front-bars">
             {cats.map(([label, count]) => (
               <div key={label} className="sf-bar-row">
-                <span className="sf-bar-label">{label}</span>
+                <span className="sf-bar-label">{CAT_LABELS[label] || label}</span>
                 <div className="sf-bar-track"><div className="sf-bar-fill" style={{ width: `${(count / maxCat) * 100}%` }} /></div>
                 <span className="sf-bar-count">{count}</span>
               </div>
