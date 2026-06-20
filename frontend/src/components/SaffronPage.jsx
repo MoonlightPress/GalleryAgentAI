@@ -1,4 +1,4 @@
-import { useState, useEffect, Component } from 'react'
+import { useState, useEffect, useMemo, Component } from 'react'
 import './SaffronPage.css'
 import { saffronHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
@@ -11,6 +11,59 @@ import {
   CAREER_TIMELINE,
   PRICING_INTELLIGENCE,
 } from '../data/saffron_insights'
+
+// Saffron's analysis body is authored in English in api.py. When the viewer is
+// reading in Chinese, we translate every served string client-side via this map
+// (unmapped strings pass through unchanged — graceful partial coverage).
+function deepTranslate(obj, map) {
+  if (typeof obj === 'string') return map[obj] || obj
+  if (Array.isArray(obj)) return obj.map(x => deepTranslate(x, map))
+  if (obj && typeof obj === 'object') {
+    const out = {}
+    for (const k in obj) out[k] = deepTranslate(obj[k], map)
+    return out
+  }
+  return obj
+}
+
+const SF_ZH = {
+  // ── Open questions (she reads + answers these) ──
+  "What's your current Instagram posting frequency?": "你目前在 Instagram 上的发布频率是多少？",
+  "With a 26k Instagram following, the account is established and growing. Cadence is the most controllable variable for maximising reach on the platform galleries, publishers, and curators actually use for discovery. Without knowing current frequency, no posting strategy can be recommended.": "你已有 2.6 万 Instagram 粉丝，账号已确立并在增长。发布节奏是提升触及最可控的变量——而画廊、出版社与策展人正是用这个平台来发掘新人。在不知道当前频率的情况下，无法给出任何发布策略建议。",
+  "Where is your audience located geographically?": "你的受众主要分布在哪些地区？",
+  "A primarily Chinese-language following changes the geographic expansion strategy entirely — it suggests China reentry before European expansion.": "如果粉丝以中文受众为主，整个地域拓展策略都会不同——这意味着应先重返中国市场，再考虑欧洲。",
+  "Have you sold work, and through which channels?": "你卖出过作品吗？通过哪些渠道？",
+  "Sales history reveals which formats and price points convert — this shapes which fairs and platforms are worth prioritising.": "销售记录能揭示哪些形式与价位真正能成交——这决定了哪些博览会与平台值得优先投入。",
+  "Is a new publication or zine in progress?": "你目前是否在筹备新的出版物或独立刊物？",
+  "If you're already planning one, this should support it — not pitch it as a new idea.": "如果你已经在筹备，系统应当支持它——而不是把它当作一个全新的点子来推荐。",
+  "Do you have a current artist statement in any language?": "你是否已有一份（任意语言的）现行艺术家自述？",
+  "Most open calls and gallery submissions require one. If none exists, this is the most urgent gap before any submissions.": "大多数公开征集与画廊投递都需要它。如果还没有，这是你开始任何投递前最紧迫的空缺。",
+  "Are you still in contact with your Tide from China co-exhibitors?": "你和「潮自中国」联展的其他参展者还有联系吗？",
+  "If those 5 artists are Tokyo-based and active, they are the most natural group show partners. If they've dispersed, that network is dormant.": "如果那 5 位艺术家身在东京且仍活跃，他们就是最自然的联展伙伴。如果已各奔东西，这个人脉网络便处于休眠状态。",
+  "Do you have a second Japan exhibition in progress?": "你目前是否在筹备第二场日本展览？",
+  "There's one show on record, so the read assumes 2–3 more group shows would help — but you may already have one underway. If so, tell me here.": "记录在册的只有一场展览，因此分析假设再参与 2–3 场联展会有帮助——但你也许已经有一场在进行中。如果是，请在这里告诉我。",
+  "What price points do you use for originals and prints?": "你的原作和印刷品定价大约是多少？",
+  "Pricing determines which collector tier and which fairs are appropriate. Under-pricing is common at this stage and affects how galleries perceive the work.": "定价决定了适合哪一层级的藏家与哪些博览会。在这个阶段定价偏低很常见，并会影响画廊对作品的看法。",
+
+  // ── Career paths (long-term scenarios) ──
+  "Gallery Track": "画廊路线",
+  "Primary identity as a gallery artist.": "以画廊艺术家为主要身份。",
+  "Solo shows, institutional open calls, gallery representation by 30.": "个展、机构公开征集，30 岁前获得画廊代理。",
+  "Exhibition history is thin. 2–3 more group shows are required before any gallery will discuss a solo show.": "展览经历尚浅。在任何画廊愿意谈个展之前，还需要 2–3 场联展。",
+  "Right if you're primarily motivated by the physical exhibition experience and gallery community.": "如果你最看重实体展览的体验与画廊圈子，这条路最适合你。",
+  "Publication Track": "出版路线",
+  "Primary identity as an illustrator and artist-book maker.": "以插画家与艺术书创作者为主要身份。",
+  "Second solo book, international distribution, major book fairs by 30.": "30 岁前完成第二本个人作品集、国际发行、参与重要书展。",
+  "No new publication since 2021. The content exists — it needs packaging.": "自 2021 年以来没有新出版物。内容已经具备——只差整理成册。",
+  "Right if you're motivated by the book as object and the publishing community. Your formation already points here.": "如果你着迷于书作为实体，以及出版社群，这条路最适合你。你的成长背景本就指向这里。",
+  "Hybrid Track": "复合路线",
+  "Artist-publisher: books and gallery shows running in parallel.": "艺术家兼出版者：书与画廊展览并行。",
+  "The book practice feeds the gallery presence and vice versa. Bookshop gallery shows bridge both worlds.": "出版实践滋养画廊呈现，反之亦然。书店画廊展览连接两个世界。",
+  "Requires more energy and time management than either single track.": "比任何单一路线都更考验精力与时间管理。",
+  "The most natural fit given your existing practice. The daily diary is simultaneously publication material and gallery-worthy work.": "鉴于你现有的实践，这是最自然的选择。每日水彩日记既是出版素材，也是值得展出的作品。",
+  "The Hybrid Track is the best structural fit. The bookshop gallery show is the single highest-leverage action — it advances both tracks with one move.": "复合路线在结构上最契合。书店画廊展览是单一杠杆最高的行动——一步同时推进两条路线。",
+  "Age 30 (approximately 4 years from now)": "30 岁（大约从现在起 4 年后）",
+}
 
 class SectionErrorBoundary extends Component {
   constructor(props) { super(props); this.state = { error: null } }
@@ -1526,8 +1579,8 @@ function CareerReadiness({ data }) {
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function SaffronPage({ nav }) {
-  const [data,       setData]       = useState(null)
-  const [careerData, setCareerData] = useState(null)
+  const [rawData,    setRawData]    = useState(null)
+  const [rawCareer,  setRawCareer]  = useState(null)
   const [error,      setError]      = useState(null)
   const [tab,        setTab]        = useState('profile')
   const { t, lang } = useLanguage()
@@ -1535,16 +1588,20 @@ export default function SaffronPage({ nav }) {
   useEffect(() => {
     fetch('/api/saffron')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json() })
-      .then(setData)
+      .then(setRawData)
       .catch(e => setError(e.message))
   }, [])
 
   useEffect(() => {
     fetch('/api/career_strategy')
       .then(r => { if (!r.ok) throw null; return r.json() })
-      .then(setCareerData)
+      .then(setRawCareer)
       .catch(() => {})
   }, [])
+
+  // Translate the served (English) analysis into Chinese for 中文 viewers.
+  const data       = useMemo(() => (lang === 'zh' ? deepTranslate(rawData,   SF_ZH) : rawData),   [rawData,   lang])
+  const careerData = useMemo(() => (lang === 'zh' ? deepTranslate(rawCareer, SF_ZH) : rawCareer), [rawCareer, lang])
 
   const SF_TABS = [
     ['profile',       t('sf.cat.profile')],
