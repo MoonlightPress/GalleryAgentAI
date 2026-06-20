@@ -1153,6 +1153,7 @@ const CRM_TYPE_LABELS = {
 function CrmContactCard({ contact: c, onUpdate }) {
   const [expanded, setExpanded] = useState(false)
   const [loading, setLoading] = useState(false)
+  const [noteDraft, setNoteDraft] = useState(c.personal_note || '')
   const { t } = useLanguage()
   const meta = crmStatusMeta(c.status)
 
@@ -1229,6 +1230,15 @@ function CrmContactCard({ contact: c, onUpdate }) {
             {c.contact_email}
           </a>
         )}
+        <a
+          className="crm-lookup-link"
+          href={`https://www.google.com/search?q=${encodeURIComponent(`${c.name} ${c.city || ''}`)}`}
+          target="_blank"
+          rel="noreferrer"
+          onClick={e => e.stopPropagation()}
+        >
+          {t('pp.crm.lookUp')} ↗
+        </a>
         {showMarkContacted && (
           <button className="crm-action-btn" disabled={loading} onClick={markContacted}>
             {t('pp.crm.markContacted')}
@@ -1280,6 +1290,25 @@ function CrmContactCard({ contact: c, onUpdate }) {
               </a>
             </div>
           )}
+          <div className="crm-expanded-row" onClick={e => e.stopPropagation()}>
+            <span className="crm-expanded-label">{t('pp.crm.yourNotes')}</span>
+            <textarea
+              className="crm-note-input"
+              value={noteDraft}
+              onChange={e => setNoteDraft(e.target.value)}
+              placeholder={t('pp.crm.yourNotesPlaceholder')}
+              rows={2}
+            />
+            {noteDraft.trim() !== (c.personal_note || '') && (
+              <button
+                className="crm-action-btn crm-note-save"
+                disabled={loading}
+                onClick={() => patchContact({ personal_note: noteDraft.trim() })}
+              >
+                {t('pp.crm.saveNote')}
+              </button>
+            )}
+          </div>
         </div>
       )}
     </div>
@@ -1290,17 +1319,36 @@ function ContactsSection({ isOpen, onToggle, sectionRef }) {
   const [contacts, setContacts] = useState([])
   const [filter, setFilter] = useState('all')
   const [loading, setLoading] = useState(true)
+  const [showAdd, setShowAdd] = useState(false)
+  const [newName, setNewName] = useState('')
+  const [newNote, setNewNote] = useState('')
   const { t } = useLanguage()
 
-  useEffect(() => {
+  function load() {
     fetch('/api/contacts')
       .then(r => r.ok ? r.json() : [])
       .then(data => { setContacts(Array.isArray(data) ? data : []); setLoading(false) })
       .catch(() => setLoading(false))
-  }, [])
+  }
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- run once on mount
+  useEffect(() => { load() }, [])
 
   function handleUpdate(updated) {
     setContacts(prev => prev.map(c => c.name === updated.name ? updated : c))
+  }
+
+  async function addContact() {
+    const name = newName.trim()
+    if (!name) return
+    try {
+      await fetch('/api/contacts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, status: 'researching', notes: newNote.trim() }),
+      })
+    } catch { /* no-op on network failure */ }
+    setNewName(''); setNewNote(''); setShowAdd(false)
+    load()
   }
 
   // Summary counts
@@ -1337,6 +1385,30 @@ function ContactsSection({ isOpen, onToggle, sectionRef }) {
       onToggle={onToggle}
     >
       <p className="pp-section-note">{t('pp.contacts.note')}</p>
+
+      {/* Add someone she's met */}
+      {showAdd ? (
+        <div className="crm-add-form" onClick={e => e.stopPropagation()}>
+          <input
+            className="crm-add-input"
+            value={newName}
+            onChange={e => setNewName(e.target.value)}
+            placeholder={t('pp.crm.addNamePlaceholder')}
+            autoFocus
+          />
+          <input
+            className="crm-add-input"
+            value={newNote}
+            onChange={e => setNewNote(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && addContact()}
+            placeholder={t('pp.crm.addNotePlaceholder')}
+          />
+          <button className="crm-action-btn" onClick={addContact} disabled={!newName.trim()}>{t('pp.crm.addSave')}</button>
+          <button className="crm-add-cancel" onClick={() => { setShowAdd(false); setNewName(''); setNewNote('') }}>{t('pp.crm.addCancel')}</button>
+        </div>
+      ) : (
+        <button className="crm-add-toggle" onClick={() => setShowAdd(true)}>{t('pp.crm.addSomeone')}</button>
+      )}
 
       {/* Summary bar */}
       {contacts.length > 0 && (

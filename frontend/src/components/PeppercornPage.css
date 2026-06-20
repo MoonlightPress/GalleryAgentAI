@@ -1457,6 +1457,71 @@
 
 .crm-action-btn--reply:hover { background: #ddeeff; border-color: #6080c0; }
 
+.crm-lookup-link {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  color: #6a8a5a;
+  text-decoration: none;
+  cursor: pointer;
+}
+.crm-lookup-link:hover { color: #4a6a3a; text-decoration: underline; }
+
+.crm-note-input {
+  width: 100%;
+  margin-top: 4px;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #4a3a28;
+  background: #fbf5e6;
+  border: 1px solid #c2d4ad;
+  border-radius: 7px;
+  padding: 7px 10px;
+  resize: vertical;
+}
+.crm-note-input:focus { outline: none; border-color: #6a8a5a; }
+.crm-note-save { margin-top: 7px; }
+
+.crm-add-toggle {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #6a8a5a;
+  background: none;
+  border: 1px dashed #b6cba0;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+.crm-add-toggle:hover { background: #f1f6ec; border-color: #6a8a5a; }
+.crm-add-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.crm-add-input {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #4a3a28;
+  background: #fbf5e6;
+  border: 1px solid #c2d4ad;
+  border-radius: 7px;
+  padding: 7px 11px;
+  flex: 1;
+  min-width: 140px;
+}
+.crm-add-input:focus { outline: none; border-color: #6a8a5a; }
+.crm-add-cancel {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  color: #9a8a6a;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.crm-add-cancel:hover { color: #6a5a3a; }
+
 .crm-card-expanded {
   margin-top: 10px;
   padding-top: 10px;

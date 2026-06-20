@@ -1089,6 +1089,7 @@ class ContactPatch(BaseModel):
     status: str = ""
     last_contacted: str = ""
     notes: str = ""
+    personal_note: str = ""   # the artist's own note, kept separate from pipeline notes
     response_received: bool | None = None
 
 
@@ -1109,6 +1110,8 @@ def patch_contact(contact_name: str, patch: ContactPatch):
         contacts[idx]["last_contacted"] = patch.last_contacted
     if patch.notes:
         contacts[idx]["notes"] = patch.notes
+    if patch.personal_note:
+        contacts[idx]["personal_note"] = patch.personal_note
     if patch.response_received is not None:
         contacts[idx]["response_received"] = patch.response_received
     contacts[idx]["date_updated"] = datetime.now(timezone.utc).isoformat()
