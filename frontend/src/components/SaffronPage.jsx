@@ -175,6 +175,17 @@ function MarketLandscape({ data, t }) {
   )
 }
 
+// Confirmed Instagram handles for the comparable artists (verified Jun 2026).
+// Anyone not listed falls back to a name search.
+const PEER_IG = {
+  'Chien Chung-Wei (簡忠威)': 'chien_chung_wei',
+  'Keiko Tanabe':            'keikotanabewatercolor',
+  'Thomas W. Schaller':      'thomaswschaller',
+  'Cathy Read':              'cathyreadart',
+  'Alvaro Castagnet':        'alvaro.castagnet',
+  'Jean Haines':             'jeanhaines',
+}
+
 function ComparableArtists({ artists, t }) {
   const top     = artists.slice(0, 4)
   const summary = t('sf.sum.peers', { n: top.length })
@@ -190,7 +201,7 @@ function ComparableArtists({ artists, t }) {
           <div key={i} className="sf-peer-card">
             <a
               className="sf-peer-name sf-peer-link"
-              href={`https://www.google.com/search?q=${encodeURIComponent(a.name + ' instagram')}`}
+              href={PEER_IG[a.name] ? `https://www.instagram.com/${PEER_IG[a.name]}/` : sfSearch(`${a.name} instagram`)}
               target="_blank"
               rel="noreferrer"
             >
