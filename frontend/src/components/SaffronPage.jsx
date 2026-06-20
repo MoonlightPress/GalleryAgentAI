@@ -52,6 +52,11 @@ function EmptyState({ message }) {
   return <p className="sf-empty-state">{message}</p>
 }
 
+// Any external name (venue, outlet) → a search link so she can look it up.
+function sfSearch(name) {
+  return `https://www.google.com/search?q=${encodeURIComponent(name || '')}`
+}
+
 
 // ── Original four sections ─────────────────────────────────────────────────
 
@@ -419,25 +424,17 @@ function PressFeatures({ data, t }) {
           <div className="sf-block-label">{t('sf.label.confirmed')}</div>
           {data.confirmed.map((f, i) => (
             <div key={i} className="sf-press-row">
-              <div className="sf-press-outlet">{f.outlet}</div>
+              <a className="sf-press-outlet sf-ext-link" href={sfSearch(f.outlet)} target="_blank" rel="noreferrer">{f.outlet} ↗</a>
               <div className="sf-press-type">{f.type}</div>
               <div className="sf-press-note">{f.note}</div>
             </div>
           ))}
-          <div style={{ marginTop: 24 }}>
-            <div className="sf-block-label">{t('sf.label.artPress')}</div>
-            <EmptyState message={data.art_press?.reason ?? ''} />
-          </div>
-          <div style={{ marginTop: 16 }}>
-            <div className="sf-block-label">{t('sf.label.japanMedia')}</div>
-            <EmptyState message={data.japan_coverage?.reason ?? ''} />
-          </div>
         </div>
         <div>
           <div className="sf-block-label">{t('sf.label.pitchTargets')}</div>
           {data.pitch_targets.map((pt, i) => (
             <div key={i} className="sf-pitch-row">
-              <div className="sf-pitch-outlet">{pt.outlet}</div>
+              <a className="sf-pitch-outlet sf-ext-link" href={sfSearch(pt.outlet)} target="_blank" rel="noreferrer">{pt.outlet} ↗</a>
               <div className="sf-pitch-why">{pt.why}</div>
             </div>
           ))}
@@ -454,7 +451,6 @@ function CollectorEcosystem({ data, t }) {
       subtitle={t('sf.sub.collector')}
       summary={t('sf.sum.collector')}
     >
-      <EmptyState message={data.reason} />
       <div className="sf-info-block">
         <div className="sf-block-label">{t('sf.label.whyMatters')}</div>
         <p className="sf-info-text">{data.why_it_matters}</p>
@@ -462,9 +458,6 @@ function CollectorEcosystem({ data, t }) {
         <div className="sf-tag-list">
           {data.fairs_in_pipeline.map((f, i) => <span key={i} className="sf-trait">{f}</span>)}
         </div>
-        <p className="sf-info-text" style={{ marginTop: 12 }}>{data.known_gap}</p>
-        <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.askPepper')}</div>
-        <p className="sf-info-text">{data.what_peppercorn_should_ask}</p>
       </div>
     </SectionShell>
   )
@@ -478,25 +471,15 @@ function CollaborationMap({ data, t }) {
       subtitle={t('sf.sub.collab')}
       summary={summary}
     >
-      <div className="sf-two-col">
-        <div>
-          <div className="sf-block-label">{t('sf.label.knownCoExhib')}</div>
-          {data.known_co_exhibitors.map((a, i) => (
-            <div key={i} className="sf-collab-row">
-              <span className="sf-collab-name">{a.name}</span>
-              <span className="sf-collab-context">{a.context}</span>
-              <span className="sf-collab-status">{t('sf.label.currentStatus')} {a.current_status}</span>
-            </div>
-          ))}
-          <p className="sf-info-text" style={{ marginTop: 14 }}>{data.note}</p>
+      <div className="sf-block-label">{t('sf.label.knownCoExhib')}</div>
+      {data.known_co_exhibitors.map((a, i) => (
+        <div key={i} className="sf-collab-row">
+          <span className="sf-collab-name">{a.name}</span>
+          <span className="sf-collab-context">{a.context}</span>
+          <span className="sf-collab-status">{t('sf.label.currentStatus')} {a.current_status}</span>
         </div>
-        <div>
-          <div className="sf-block-label">{t('sf.label.tokyoPeerNet')}</div>
-          <EmptyState message={data.peer_network?.reason ?? ''} />
-          <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.whyMatters')}</div>
-          <p className="sf-info-text">{data.peer_network?.why_it_matters}</p>
-        </div>
-      </div>
+      ))}
+      <p className="sf-info-text" style={{ marginTop: 14 }}>{data.note}</p>
     </SectionShell>
   )
 }
@@ -661,7 +644,7 @@ function VenueTracker({ data, t }) {
             return (
               <div key={i} className="sf-venue-row">
                 <div className="sf-venue-header">
-                  <span className="sf-venue-name">{v.name}</span>
+                  <a className="sf-venue-name sf-ext-link" href={sfSearch(`${v.name} ${v.city || ''}`)} target="_blank" rel="noreferrer">{v.name} ↗</a>
                   <span className="sf-venue-type">{v.type} · {v.city}</span>
                   <span className="sf-venue-status" style={{ color }}>{label}</span>
                   {v.priority && <span className="sf-venue-priority">{t('sf.venue.priority', { n: v.priority })}</span>}

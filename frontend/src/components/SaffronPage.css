@@ -111,6 +111,9 @@
 .sf-peer-link { text-decoration: none; cursor: pointer; display: inline-block; }
 .sf-peer-link:hover { color: #c47a35; text-decoration: underline; }
 
+.sf-ext-link { text-decoration: none; cursor: pointer; }
+.sf-ext-link:hover { color: #c47a35; text-decoration: underline; }
+
 /* Inline answers in Open Questions */
 .sf-question-answer { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
 .sf-question-input {
