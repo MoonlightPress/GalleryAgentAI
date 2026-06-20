@@ -140,6 +140,84 @@ const SF_ZH = {
   "January": "一月", "February": "二月", "March": "三月", "April": "四月",
   "May": "五月", "June": "六月", "July": "七月", "August": "八月",
   "September": "九月", "October": "十月", "November": "十一月", "December": "十二月",
+
+  // ── Readiness (careerData) ──
+  "Tier 1-2 foundation building": "第 1–2 层级的基础建设",
+  "Complete 2 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.": "再完成 2 场东京联展，达到开启第 3 层级洽谈所需的 3 场最低门槛。",
+  "Insufficient group show history": "联展经历不足",
+  "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN": "向 3331 Arts Chiyoda、Design Festa Gallery、Gallery IYN 的公开征集投递",
+  "No solo show on CV": "简历上尚无个展",
+  "Target bookshop gallery solo show: UTRECHT, Book and Sons, flotsam books, 日記屋 月日": "争取书店画廊个展：UTRECHT、Book and Sons、flotsam books、日記屋 月日",
+  "No institutional exhibition history": "尚无机构展览经历",
+  "Watch TOKAS open calls and Youkobo artist-in-residence programs": "关注 TOKAS 公开征集与 Youkobo 驻地项目",
+  "No international exhibition outside Japan/China": "在日本／中国之外尚无国际展览",
+  "Consider global watercolor open calls or table at Offprint Paris / London Art Book Fair": "考虑国际水彩公开征集，或在 Offprint Paris／London Art Book Fair 设展位",
+  "No Japan Watercolor Society membership or exhibition": "尚无日本水彩画会会员资格或展览",
+  "Research Japan Watercolor Society (公益社団法人日本水彩画会) annual entry process": "了解日本水彩画会（公益社団法人日本水彩画会）的年度参展流程",
+
+  // ── Geographic reach ──
+  "Japan / Tokyo": "日本／东京", "Europe (UK, France, etc.)": "欧洲（英国、法国等）",
+  "North America": "北美", "Global / International (open calls)": "全球／国际（公开征集）",
+  "primary_base": "主要根据地", "medium_term": "中期", "active": "活跃",
+  "Core operating territory. The question here is depth, not entry.": "核心经营区域。这里的问题是深度，而非进入。",
+  "Strong art book and zine fair ecosystem — Offprint Paris and London are the natural entry points.": "强大的艺术书与独立刊物展会生态——Offprint Paris 与伦敦是自然的切入口。",
+  "NYC zine culture (Printed Matter) and LA illustration scene. Already in pipeline.": "纽约的独立刊物文化（Printed Matter）与洛杉矶的插画圈。已在跟进之中。",
+  "International open calls and online platforms that accept globally. Actionable now without travel.": "面向全球开放的国际公开征集与线上平台。无需出行，现在即可行动。",
+  "Offprint Paris or London — low barrier, direct access to European curators and collectors who buy artist books": "Offprint Paris 或伦敦——门槛低，可直接接触购买艺术书的欧洲策展人与藏家",
+  "Printed Matter NY Art Book Fair — the highest-profile artist book platform in North America": "Printed Matter 纽约艺术书展——北美最具知名度的艺术书平台",
+
+  // ── Publication landscape ──
+  "First solo published work, grew from daily diary practice": "首部个人出版作品，由每日日记实践发展而来",
+  "Participation confirmed, publication details unverified": "参与已确认，出版细节尚未核实",
+  "unknown": "未知",
+  "Self-publish / zine": "自出版／独立刊物", "Bookshop gallery": "书店画廊",
+  "Art book fairs": "艺术书展", "Major publishers": "大型出版社",
+  "low": "低", "medium": "中", "high": "高",
+  "Tokyo zine culture is active and illustrator-friendly. Fastest route to a new publication credit.": "东京的独立刊物文化活跃且对插画师友好。这是获得新出版履历最快的途径。",
+  "Accept work from illustrators without gallery representation. Bridges publication and gallery worlds.": "接受没有画廊代理的插画师作品。连接出版与画廊两个世界。",
+  "Table fees required but direct access to collectors and curators who buy artist books.": "需缴展位费，但能直接接触购买艺术书的藏家与策展人。",
+  "Relationship-first. Cold submissions rarely land at this level — build toward these over 2–3 years.": "以关系为先。在这个层级冷投稿很少成功——用 2–3 年逐步靠近。",
+
+  // ── Timing ──
+  "Most opportunities have rolling or unspecified deadlines — check each one individually.": "大多数机会的截止日期是滚动或未指定的——请逐一查看。",
+
+  // ── Opportunity gap ──
+  "Café Galleries": "咖啡馆画廊", "Editorial / Magazines": "编辑约稿／杂志",
+  "Competitions & Awards": "竞赛与奖项", "Watercolor Open Calls": "水彩公开征集",
+  "Zines & Print": "独立刊物与印刷", "Grants & Fellowships": "资助与奖学金",
+  "Residencies & Grants": "驻地与资助", "Cafes & Bookshop Spaces": "咖啡馆与书店空间",
+  "gap": "缺口", "strength": "强项",
+  "Core relationship-building venues for a Tokyo-based painter.": "对一位东京画家而言，建立关系的核心场地。",
+  "Low-barrier first exhibition venues; common for emerging Tokyo artists.": "门槛低的首展场地；东京新晋艺术家的常见选择。",
+  "Production time + institutional credibility; peers typically track 5–10.": "创作时间＋机构信誉；同侪通常会跟进 5–10 个。",
+  "Most watercolor illustrators this stage have 5–15 editorial leads tracked.": "这个阶段的水彩插画师大多会跟进 5–15 条编辑约稿线索。",
+  "Competition wins appear on every peer's early CV.": "竞赛获奖出现在每位同侪早期的简历上。",
+  "Juried watercolor calls are the fastest route to international credibility.": "评审制的水彩征集是通往国际信誉最快的途径。",
+  "The most accessible first-presence format for illustration-adjacent artists.": "对插画相关的艺术家而言，最易上手的首次亮相形式。",
+  "Most peers at this stage track 3–8 grants even when not yet eligible.": "这个阶段的多数同侪即便尚不符合资格，也会跟进 3–8 个资助。",
+
+  // ── Strategic pathway ──
+  "First Solo Show in Tokyo": "在东京举办首次个展",
+  "18–36 months from mid-2026": "自 2026 年中起 18–36 个月",
+  "First publication credit": "首个出版履历",
+  "First group show in Japan": "在日本的首次联展",
+  "2–3 more Tokyo group shows": "再参与 2–3 场东京联展",
+  "Bookshop gallery exhibition": "书店画廊展览",
+  "Second publication or new zine": "第二本出版物或新的独立刊物",
+  "Gallery relationship building": "建立画廊关系",
+  "Solo show application or invitation": "个展申请或邀请",
+  "Colour Diary (2021) and contribution to defined Definition 02. Publication history established.": "《Colour Diary》（2021）以及为 defined Definition 02 供稿。出版经历已确立。",
+  "Tide from China Part 1, ACG_Labo Harajuku, February 2023. First confirmed Japan exhibition on record.": "《潮自中国 第一部》，ACG_Labo 原宿，2023 年 2 月。记录在册的首次日本展览。",
+  "Attend openings at target venues consistently. The invitation to a solo show comes from a relationship, not a cold submission — this step runs in parallel with everything else.": "持续出席目标场地的开幕活动。个展的邀请来自关系，而非冷投稿——这一步与其他所有步骤并行。",
+  "Target: an intimate Tokyo gallery with a track record of solo shows by international artists at similar career stages. Youkobo Art Space, Gallery Denn, or a bookshop gallery context are realistic first targets.": "目标：一家私密的东京画廊，有为相似事业阶段的国际艺术家举办个展的记录。Youkobo Art Space、Gallery Denn，或书店画廊语境，是现实的首选目标。",
+  "Only 1 confirmed group show in Japan. Most Tokyo galleries expect 3–4 group exhibition credits before a solo conversation — so 2–3 more group shows needed. The next group show is the highest-leverage move right now.": "在日本仅有 1 场已确认的联展。多数东京画廊期望在谈个展前先有 3–4 项联展履历——因此还需要 2–3 场联展。眼下，下一场联展是杠杆最高的行动。",
+  "Apply for a second group show at a Tokyo artist-run space. 3331 Arts Chiyoda open calls, Design Festa Gallery curated shows, and Gallery IYN open submissions are the realistic near-term entries. Any of these, confirmed and attended, advances the pathway.": "申请在东京某艺术家自营空间参与第二场联展。3331 Arts Chiyoda 的公开征集、Design Festa Gallery 的策展群展，以及 Gallery IYN 的公开投稿，都是现实的近期切入口。其中任何一项，只要确认并参与，都会推进这条路径。",
+
+  // ── Mediums / countries (market stats) ──
+  "watercolor": "水彩", "photography": "摄影", "illustration": "插画", "mixed_media": "综合媒材",
+  "painting": "绘画", "printmaking": "版画", "drawing": "素描", "any": "不限",
+  "United States": "美国", "United Kingdom": "英国", "France": "法国", "Germany": "德国",
+  "Singapore": "新加坡", "China": "中国", "Australia": "澳大利亚", "Online": "线上",
 }
 
 class SectionErrorBoundary extends Component {
