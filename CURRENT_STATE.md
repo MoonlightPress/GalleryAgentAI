@@ -4,7 +4,7 @@
 covers the volatile *what's true right now*. When the two disagree, this file wins —
 and whoever notices the drift should fix it here. Keep this file short.
 
-_Last updated: 2026-06-19_
+_Last updated: 2026-06-21_
 
 ## The live app
 
@@ -32,6 +32,16 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Mochi persona-led UX observation + watercolor title accents** (Codex, 2026-06-21; commit
+  `f3d72f2d`): reviewed the rendered canonical app at desktop and 390px mobile for a highly driven
+  watercolor artist who is easily emotionally overwhelmed. Added quiet, irregular pigment washes to
+  Today's Focus and Mochi browse-section titles only; no behavior, copy, data, `frontend2/`, or Streamlit
+  changes. Main audit finding: the tone is calm, but the browse page is an endurance scroll (8,943px
+  desktop / 17,735px mobile) with repeated card grids and some strongest-pick/category duplication, so
+  accumulated possibility is the emotional-load risk. Also found a pre-existing 390px mobile overflow:
+  `StatusBar` expands the document to 659px; quick-nav is intentionally horizontally scrollable. Verified
+  15 frontend tests, production build, desktop/mobile screenshots; lint has 0 errors and one unrelated
+  pre-existing Peppercorn unused-disable warning.
 - **4 background-agent edge fixes** (merged + verified by Claude, 2026-06-19): (1) **CRM follow-up date bug** —
   a malformed `last_contacted` no longer surfaces a contact as overdue (which spammed the Quick Win slot);
   extracted pure `is_overdue_followup()` + 11 tests (`71b8b65a`). This was the one launch-audit finding that
@@ -125,11 +135,7 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- **Mochi persona-led UX observation + title accents** (Codex, 2026-06-21): read-only review of the
-  live canonical `frontend/` at port 5177 for a thoughtful, highly driven 26-year-old watercolor artist
-  who is easily emotionally overwhelmed. Implementation is limited to restrained watercolor accents on
-  Mochi section titles; no recommendation behavior, data, copy, `frontend2/`, or retired Streamlit changes.
-  Verify with frontend tests, lint, build, and desktop/mobile screenshots.
+- None currently recorded here.
 
 ## Pre-launch backlog (curated from the 2026-06-19 launch-readiness audit)
 
