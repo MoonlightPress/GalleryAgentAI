@@ -326,6 +326,32 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
     setActiveId(prev => prev === id ? null : prev)
   }
 
+  const detailRef    = useRef(null)
+  const gridRef      = useRef(null)
+  const pendingScroll = useRef(null)
+
+  // Opening details: bring the panel into view so it's clearly "something happened".
+  useEffect(() => {
+    if (activeId && detailRef.current) {
+      detailRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }, [activeId])
+
+  // Show more: scroll the first newly-revealed card into view.
+  useEffect(() => {
+    if (pendingScroll.current != null && gridRef.current) {
+      const card = gridRef.current.children[pendingScroll.current]
+      pendingScroll.current = null
+      card?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }, [shown])
+
+  function handleShowMore() {
+    pendingScroll.current = shown   // index of the first new card
+    setActiveId(null)               // close any open detail first
+    setShown(s => s + PAGE_SIZE)
+  }
+
   return (
     <section id={sectionKey} className="opp-section">
       {/* Section header */}
@@ -351,7 +377,7 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
       </div>
 
       {/* Card grid */}
-      <div className="opp-grid">
+      <div className="opp-grid" ref={gridRef}>
         {visible.map(opp => (
           <OppCard
             key={opp.id}
@@ -366,17 +392,19 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
 
       {/* Detail panel — full width, below the grid */}
       {activeOpp && (
-        <OppDetailPanel
-          opp={activeOpp}
-          onClose={() => setActiveId(null)}
-        />
+        <div ref={detailRef}>
+          <OppDetailPanel
+            opp={activeOpp}
+            onClose={() => setActiveId(null)}
+          />
+        </div>
       )}
 
       {/* Show more — reveal in batches of 9, never all 221 at once */}
       {remaining > 0 && (
         <button
           className="opp-show-more"
-          onClick={() => setShown(s => s + PAGE_SIZE)}
+          onClick={handleShowMore}
         >
           {t('opps.showMoreCount', { n: Math.min(PAGE_SIZE, remaining) })}
         </button>
