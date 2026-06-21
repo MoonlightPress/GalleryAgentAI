@@ -32,6 +32,13 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **Compact illustrated watercolor section headers** (Codex, 2026-06-21; commit `1940cba3`): replaced
+  Mochi's emoji-plus-title browse headings with 11 section-specific watercolor scenes. Localized live titles
+  and counts nest inside each image's negative space; descriptions remain below. Headers are exactly 72px
+  desktop / 56px mobile, and the optimized WebP asset set is 710KB total. No recommendation behavior, copy,
+  API, generated data, `frontend2/`, or Streamlit changes. Verified with desktop/mobile screenshots, 15 passing
+  frontend tests, and a successful production build; lint has 0 errors and the same unrelated pre-existing
+  Peppercorn unused-disable warning. The known `StatusBar` mobile overflow remains unchanged.
 - **Mochi persona-led UX observation + watercolor title accents** (Codex, 2026-06-21; commit
   `f3d72f2d`): reviewed the rendered canonical app at desktop and 390px mobile for a highly driven
   watercolor artist who is easily emotionally overwhelmed. Added quiet, irregular pigment washes to
@@ -135,11 +142,7 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- **Compact illustrated watercolor section headers** (Codex, 2026-06-21): replace Mochi's emoji-plus-title
-  browse headers with shallow section-specific watercolor scenes. Titles and counts nest inside each image's
-  pale negative space; target height is 72px desktop / 56px mobile. Work is limited to canonical `frontend/`
-  assets and presentation. No recommendation behavior, copy, generated data, `frontend2/`, or Streamlit changes.
-  Verify with frontend tests, lint, build, and desktop/mobile screenshots.
+- None currently recorded here.
 
 ## Pre-launch backlog (curated from the 2026-06-19 launch-readiness audit)
 
