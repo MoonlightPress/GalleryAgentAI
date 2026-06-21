@@ -26,8 +26,44 @@
 
 /* ── Section wrapper ── */
 .opp-section {
+  --title-wash: rgba(196, 154, 62, 0.2);
+  --title-pigment: rgba(160, 120, 64, 0.32);
   max-width: 1400px;
   margin: 0 auto 18px;
+}
+
+#mochi_strongest_picks {
+  --title-wash: rgba(196, 154, 62, 0.29);
+  --title-pigment: rgba(174, 123, 45, 0.38);
+}
+
+#immediate_best_moves,
+#relationships {
+  --title-wash: rgba(122, 158, 126, 0.25);
+  --title-pigment: rgba(80, 125, 91, 0.34);
+}
+
+#open_calls,
+#watch_list {
+  --title-wash: rgba(116, 155, 164, 0.2);
+  --title-pigment: rgba(84, 126, 139, 0.3);
+}
+
+#publication_editorial,
+#press_visibility {
+  --title-wash: rgba(212, 137, 122, 0.22);
+  --title-pigment: rgba(177, 97, 87, 0.32);
+}
+
+#competitions_awards {
+  --title-wash: rgba(145, 132, 177, 0.2);
+  --title-pigment: rgba(111, 92, 152, 0.3);
+}
+
+#zines_and_print,
+#relationship_targets {
+  --title-wash: rgba(210, 166, 83, 0.23);
+  --title-pigment: rgba(177, 126, 46, 0.33);
 }
 
 .opp-section--strongest {
@@ -68,6 +104,45 @@
   color: var(--ink);
   letter-spacing: 0.01em;
   margin: 0;
+  position: relative;
+  isolation: isolate;
+  padding: 0 0.12em;
+}
+
+.opp-section-title::before,
+.opp-section-title::after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.opp-section-title::before {
+  left: -0.16em;
+  right: -0.4em;
+  bottom: -0.02em;
+  height: 0.66em;
+  background: linear-gradient(
+    95deg,
+    transparent 0%,
+    var(--title-wash) 8%,
+    var(--title-wash) 78%,
+    transparent 100%
+  );
+  clip-path: polygon(0 38%, 8% 20%, 22% 29%, 39% 12%, 57% 26%, 75% 14%, 100% 36%, 94% 72%, 78% 82%, 60% 70%, 39% 88%, 18% 74%, 5% 84%);
+  transform: rotate(-0.65deg);
+  filter: blur(0.35px);
+}
+
+.opp-section-title::after {
+  left: 13%;
+  width: 73%;
+  bottom: -0.14em;
+  height: 0.14em;
+  background: var(--title-pigment);
+  border-radius: 45% 60% 38% 55%;
+  transform: rotate(0.75deg);
+  filter: blur(0.55px);
 }
 
 .opp-section-count {

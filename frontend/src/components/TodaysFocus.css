@@ -11,11 +11,53 @@
 }
 
 .tf-section-title {
+  --title-wash: rgba(122, 158, 126, 0.28);
+  --title-pigment: rgba(196, 154, 62, 0.34);
   font-family: Georgia, serif;
   font-size: 22px;
   font-weight: normal;
   color: var(--ink);
   margin: 0 0 4px;
+  display: inline-block;
+  position: relative;
+  isolation: isolate;
+  padding: 0 0.14em;
+}
+
+.tf-section-title::before,
+.tf-section-title::after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.tf-section-title::before {
+  left: -0.18em;
+  right: -0.4em;
+  bottom: -0.02em;
+  height: 0.7em;
+  background: linear-gradient(
+    96deg,
+    transparent 0%,
+    var(--title-wash) 7%,
+    var(--title-wash) 76%,
+    transparent 100%
+  );
+  clip-path: polygon(0 42%, 7% 20%, 24% 28%, 42% 13%, 63% 24%, 82% 9%, 100% 38%, 95% 72%, 73% 84%, 52% 70%, 31% 89%, 10% 72%);
+  transform: rotate(-0.8deg);
+  filter: blur(0.35px);
+}
+
+.tf-section-title::after {
+  left: 12%;
+  width: 76%;
+  bottom: -0.13em;
+  height: 0.16em;
+  background: var(--title-pigment);
+  border-radius: 48% 42% 58% 35%;
+  transform: rotate(0.7deg);
+  filter: blur(0.55px);
 }
 
 .tf-section-sub {

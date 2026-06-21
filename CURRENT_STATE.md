@@ -125,7 +125,11 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- None currently recorded here.
+- **Mochi persona-led UX observation + title accents** (Codex, 2026-06-21): read-only review of the
+  live canonical `frontend/` at port 5177 for a thoughtful, highly driven 26-year-old watercolor artist
+  who is easily emotionally overwhelmed. Implementation is limited to restrained watercolor accents on
+  Mochi section titles; no recommendation behavior, data, copy, `frontend2/`, or retired Streamlit changes.
+  Verify with frontend tests, lint, build, and desktop/mobile screenshots.
 
 ## Pre-launch backlog (curated from the 2026-06-19 launch-readiness audit)
 
