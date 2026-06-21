@@ -123,8 +123,15 @@ export default function OpportunitiesSection() {
 function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
   const [activeId, setActiveId] = useState(null)
   const { t } = useLanguage()
+  const detailRef = useRef(null)
   const visible = items.filter(o => !feedbackSignals.hiddenIds?.has(o.id))
   const activeOpp = visible.find(o => o.id === activeId) || null
+
+  useEffect(() => {
+    if (activeId && detailRef.current) {
+      requestAnimationFrame(() => detailRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+    }
+  }, [activeId])
 
   if (!visible.length) return null
 
@@ -157,10 +164,12 @@ function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
       </div>
 
       {activeOpp && (
-        <OppDetailPanel
-          opp={activeOpp}
-          onClose={() => setActiveId(null)}
-        />
+        <div ref={detailRef}>
+          <OppDetailPanel
+            opp={activeOpp}
+            onClose={() => setActiveId(null)}
+          />
+        </div>
       )}
     </section>
   )
@@ -333,7 +342,7 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
   // Opening details: bring the panel into view so it's clearly "something happened".
   useEffect(() => {
     if (activeId && detailRef.current) {
-      detailRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      requestAnimationFrame(() => detailRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
     }
   }, [activeId])
 

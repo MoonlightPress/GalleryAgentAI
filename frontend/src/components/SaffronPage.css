@@ -35,7 +35,7 @@
 .sf-tabs {
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: 30;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -44,6 +44,7 @@
   margin-bottom: 8px;
   background: #fdf8ee;
   border-bottom: 1px solid #e8d5a8;
+  box-shadow: 0 3px 8px rgba(120, 90, 30, 0.06);
 }
 .sf-tab {
   font-family: Georgia, serif;
