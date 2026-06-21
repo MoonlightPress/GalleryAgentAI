@@ -136,7 +136,9 @@ export default function TodaysFocus() {
   if (loading) return (
     <section className="tf-section">
       <div className="tf-header">
-        <h2 className="tf-section-title">{t('tf.title')}</h2>
+        <div className="tf-title-art">
+          <h2 className="tf-section-title">{t('tf.title')}</h2>
+        </div>
         <p className="tf-section-sub">{t('opps.loading')}</p>
       </div>
     </section>
@@ -145,7 +147,9 @@ export default function TodaysFocus() {
     return (
       <section className="tf-section">
         <div className="tf-header">
-          <h2 className="tf-section-title">{t('tf.title')}</h2>
+          <div className="tf-title-art">
+            <h2 className="tf-section-title">{t('tf.title')}</h2>
+          </div>
           <p className="tf-section-sub">{t('tf.noItems')}</p>
         </div>
       </section>
@@ -162,7 +166,9 @@ export default function TodaysFocus() {
   return (
     <section className="tf-section">
       <div className="tf-header">
-        <h2 className="tf-section-title">{t('tf.title')}</h2>
+        <div className="tf-title-art">
+          <h2 className="tf-section-title">{t('tf.title')}</h2>
+        </div>
         <p className="tf-section-sub">{t('tf.sub')}</p>
       </div>
       <div className="tf-grid" style={slots.length < 3 ? { gridTemplateColumns: `repeat(${slots.length}, 1fr)` } : undefined}>

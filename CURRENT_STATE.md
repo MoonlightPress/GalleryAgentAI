@@ -135,7 +135,11 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- None currently recorded here.
+- **Compact illustrated watercolor section headers** (Codex, 2026-06-21): replace Mochi's emoji-plus-title
+  browse headers with shallow section-specific watercolor scenes. Titles and counts nest inside each image's
+  pale negative space; target height is 72px desktop / 56px mobile. Work is limited to canonical `frontend/`
+  assets and presentation. No recommendation behavior, copy, generated data, `frontend2/`, or Streamlit changes.
+  Verify with frontend tests, lint, build, and desktop/mobile screenshots.
 
 ## Pre-launch backlog (curated from the 2026-06-19 launch-readiness audit)
 
