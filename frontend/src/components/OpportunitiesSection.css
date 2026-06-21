@@ -26,49 +26,8 @@
 
 /* ── Section wrapper ── */
 .opp-section {
-  --section-art: url('/section-art/immediate.webp');
   max-width: 1400px;
   margin: 0 auto 18px;
-}
-
-#mochi_strongest_picks {
-  --section-art: url('/section-art/strongest.webp');
-}
-
-#immediate_best_moves {
-  --section-art: url('/section-art/immediate.webp');
-}
-
-#open_calls {
-  --section-art: url('/section-art/open.webp');
-}
-
-#publication_editorial {
-  --section-art: url('/section-art/editorial.webp');
-}
-
-#competitions_awards {
-  --section-art: url('/section-art/competition.webp');
-}
-
-#relationship_targets {
-  --section-art: url('/section-art/venue.webp');
-}
-
-#zines_and_print {
-  --section-art: url('/section-art/zines.webp');
-}
-
-#watch_list {
-  --section-art: url('/section-art/watch.webp');
-}
-
-#press_visibility {
-  --section-art: url('/section-art/press.webp');
-}
-
-#relationships {
-  --section-art: url('/section-art/people.webp');
 }
 
 .opp-section--strongest {
@@ -95,21 +54,11 @@
   align-items: center;
   gap: 10px;
   margin-bottom: 6px;
-  min-height: 72px;
-  padding: 0 22px 0 clamp(300px, 48%, 660px);
-  background-color: var(--paper);
-  background-image:
-    linear-gradient(90deg, transparent 34%, rgba(255, 250, 243, 0.72) 50%, rgba(255, 250, 243, 0.28) 82%, transparent 100%),
-    var(--section-art);
-  background-position: center, left bottom;
-  background-size: 100% 100%, cover;
-  background-repeat: no-repeat;
-  border-radius: 6px;
-  overflow: hidden;
 }
 
 .opp-section-icon {
-  display: none;
+  font-size: 20px;
+  line-height: 1;
 }
 
 .opp-section-title {
@@ -119,7 +68,6 @@
   color: var(--ink);
   letter-spacing: 0.01em;
   margin: 0;
-  line-height: 1.15;
 }
 
 .opp-section-count {
@@ -177,20 +125,6 @@
 }
 @media (max-width: 600px) {
   .opp-grid { grid-template-columns: 1fr; }
-  .opp-section-title-row {
-    min-height: 56px;
-    gap: 7px;
-    padding: 0 10px 0 45%;
-    background-position: center, left bottom;
-  }
-  .opp-section-title {
-    font-size: 18px;
-    overflow-wrap: anywhere;
-  }
-  .opp-section-count {
-    flex-shrink: 0;
-    padding-inline: 6px;
-  }
 }
 
 /* ── Show more button ── */

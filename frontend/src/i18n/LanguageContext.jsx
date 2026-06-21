@@ -1,11 +1,13 @@
 import { createContext, useContext, useState, useCallback } from 'react'
-import { DEFAULT_LANG, t as translate } from './translations'
+import { DEFAULT_LANG, LANGUAGES, t as translate } from './translations'
 
 const LS_KEY = 'mochi_lang'
 
 function storedLang() {
-  try { return localStorage.getItem(LS_KEY) || DEFAULT_LANG }
-  catch { return DEFAULT_LANG }
+  try {
+    const v = localStorage.getItem(LS_KEY)
+    return LANGUAGES.includes(v) ? v : DEFAULT_LANG  // drop a stale 'ja'
+  } catch { return DEFAULT_LANG }
 }
 
 const LanguageContext = createContext(null)
