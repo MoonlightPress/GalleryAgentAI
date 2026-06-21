@@ -1429,7 +1429,14 @@ function CareerTimeline({ t }) {
       <div className="sf-peers-grid" style={{ marginTop: 24 }}>
         {d.peers.map((peer, i) => (
           <div key={i} className="sf-peer-card">
-            <div className="sf-peer-name">{peer.name}</div>
+            <a
+              className="sf-peer-name sf-peer-link"
+              href={PEER_IG[peer.name] ? `https://www.instagram.com/${PEER_IG[peer.name]}/` : sfSearch(`${peer.name} instagram`)}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {peer.name} ↗
+            </a>
             <div className="sf-peer-region">{peer.region} · {peer.comparable_age}</div>
             <div className="sf-block-label" style={{ marginTop: 12, fontSize: '0.72rem' }}>{t('sf.timeline.hadAtStage')}</div>
             <ul className="sf-timeline-had-list">
@@ -1683,6 +1690,40 @@ function MarketStats({ data }) {
   )
 }
 
+function ReadinessCorrection({ t }) {
+  const [title, setTitle] = useState('')
+  const [venue, setVenue] = useState('')
+  const [year,  setYear]  = useState('')
+  const [saved, setSaved] = useState(false)
+
+  async function addShow() {
+    if (!title.trim()) return
+    const body = { title: title.trim(), venue: venue.trim(), date: year.trim() }
+    setTitle(''); setVenue(''); setYear(''); setSaved(true)
+    setTimeout(() => setSaved(false), 3200)
+    try {
+      await fetch('/api/exhibition_log', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      })
+    } catch { /* no-op on network failure */ }
+  }
+
+  return (
+    <div className="sf-readiness-hedge">
+      <p className="sf-readiness-hedge-text">{t('sf.cr.hedge')}</p>
+      <div className="sf-readiness-addshow">
+        <input className="sf-hedge-input" value={title} onChange={e => setTitle(e.target.value)} placeholder={t('sf.cr.addShow.title')} />
+        <input className="sf-hedge-input" value={venue} onChange={e => setVenue(e.target.value)} placeholder={t('sf.cr.addShow.venue')} />
+        <input className="sf-hedge-input sf-hedge-input--year" value={year} onChange={e => setYear(e.target.value)} onKeyDown={e => e.key === 'Enter' && addShow()} placeholder={t('sf.cr.addShow.year')} />
+        <button className="sf-hedge-add" onClick={addShow} disabled={!title.trim()}>{t('sf.cr.addShow.btn')}</button>
+      </div>
+      {saved && <p className="sf-readiness-hedge-saved">{t('sf.cr.addShow.saved')}</p>}
+    </div>
+  )
+}
+
 function CareerReadiness({ data }) {
   const { t } = useLanguage()
   if (!data) return null
@@ -1764,6 +1805,8 @@ function CareerReadiness({ data }) {
           </div>
         </div>
       )}
+
+      <ReadinessCorrection t={t} />
 
       {/* Three columns */}
       <div className="sf-readiness-columns" style={{ marginTop: 28 }}>

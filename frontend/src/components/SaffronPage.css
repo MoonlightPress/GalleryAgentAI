@@ -1943,6 +1943,55 @@
   line-height: 1.4;
 }
 
+.sf-readiness-hedge {
+  margin-top: 24px;
+  padding: 16px 18px;
+  background: #fbf3e2;
+  border: 1px solid #ecdcb8;
+  border-radius: 12px;
+}
+.sf-readiness-hedge-text {
+  font-family: Georgia, serif;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: #6a5436;
+  margin: 0 0 12px;
+}
+.sf-readiness-addshow { display: flex; flex-wrap: wrap; gap: 7px; }
+.sf-hedge-input {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #3d2b1a;
+  background: #fffdf7;
+  border: 1px solid #ddcba2;
+  border-radius: 7px;
+  padding: 6px 10px;
+  flex: 1;
+  min-width: 120px;
+}
+.sf-hedge-input--year { flex: 0 0 72px; min-width: 56px; }
+.sf-hedge-input:focus { outline: none; border-color: #c49a3e; }
+.sf-hedge-add {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #fff;
+  background: #c49a3e;
+  border: 1px solid #c49a3e;
+  border-radius: 7px;
+  padding: 6px 16px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.sf-hedge-add:disabled { opacity: 0.5; cursor: default; }
+.sf-hedge-add:not(:disabled):hover { background: #b5701f; border-color: #b5701f; }
+.sf-readiness-hedge-saved {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #5a7a30;
+  font-style: italic;
+  margin: 9px 0 0;
+}
+
 /* Three columns */
 
 .sf-readiness-columns {
