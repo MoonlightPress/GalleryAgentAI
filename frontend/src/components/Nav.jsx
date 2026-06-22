@@ -31,7 +31,7 @@ export default function Nav({ activePage, onNav }) {
   ]
 
   return (
-    <nav className="site-nav">
+    <nav className={`site-nav${activePage === 'discover' ? ' site-nav--sticky' : ''}`}>
       {/* ── Companion page buttons + language toggle ── */}
       <div className="companion-row">
         {COMPANIONS.map(c => (

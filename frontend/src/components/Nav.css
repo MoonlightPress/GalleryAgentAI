@@ -9,6 +9,14 @@
   gap: 18px;
 }
 
+/* Discover: the nav (with section quick-nav) follows you as you scroll. */
+.site-nav--sticky {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  box-shadow: 0 3px 8px rgba(120, 90, 30, 0.07);
+}
+
 /* ── Companion labels (painted text, no pill shape) ── */
 .companion-row {
   display: flex;

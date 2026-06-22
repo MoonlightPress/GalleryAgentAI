@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, Request, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.gzip import GZipMiddleware
 from pydantic import BaseModel
 from recommendation_readiness import assess_actionability
 
@@ -27,6 +28,10 @@ app.add_middleware(
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
+
+# Compress responses — the opportunities payload is large (multi-language email
+# drafts + scoring metadata); gzip cuts the first-load transfer ~80%.
+app.add_middleware(GZipMiddleware, minimum_size=600)
 
 DATA_DIR        = Path(__file__).parent / "memory"
 DEPLOY_DIR      = Path(__file__).parent / "deploy_data"

@@ -1896,7 +1896,16 @@ export default function SaffronPage({ nav }) {
   ]
   function goTab(key) {
     setTab(key)
-    requestAnimationFrame(() => document.querySelector('.sf-tabs')?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+    // Reset to the top of the content so the new section starts at its beginning —
+    // scrollIntoView on an already-pinned sticky bar does nothing, so scroll the
+    // window to the content's top instead.
+    requestAnimationFrame(() => {
+      const el = document.querySelector('.sf-content')
+      if (el) {
+        const top = el.getBoundingClientRect().top + window.scrollY - 4
+        window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' })
+      }
+    })
   }
 
   return (
