@@ -42,7 +42,7 @@ function isDistinctUrl(a, b) {
 }
 
 export default function OppDetailPanel({ opp, onClose }) {
-  const [emailTab, setEmailTab] = useState('zh')
+  const [emailTab, setEmailTab] = useState('ja')   // most opportunities are Japanese
   const { t, lang } = useLanguage()
   const loc = (field) => {
     if (lang === 'zh' && opp[field + '_zh']) return opp[field + '_zh']
@@ -267,7 +267,7 @@ export default function OppDetailPanel({ opp, onClose }) {
             <div className="detail-email-header">
               <span className="detail-label">{t('detail.label.emailDraft')}</span>
               <div className="detail-email-tabs">
-                {[['zh', '中文'], ['ja', '日本語'], ['en', 'English']].map(([key, label]) => (
+                {[['ja', '日本語'], ['zh', '中文'], ['en', 'English']].map(([key, label]) => (
                   <button
                     key={key}
                     className={`detail-email-tab${emailTab === key ? ' active' : ''}`}
