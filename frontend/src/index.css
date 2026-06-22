@@ -57,3 +57,32 @@ a {
 p {
   margin: 0;
 }
+
+/* Dismissible companion intro (Mochi / Saffron / Peppercorn-style) */
+.companion-intro {
+  position: relative;
+  max-width: 680px;
+  margin: 10px auto 0;
+  padding: 14px 40px 12px;
+  text-align: center;
+}
+.companion-intro-close {
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--ink-muted, #8a7563);
+  cursor: pointer;
+  padding: 4px;
+}
+.companion-intro-close:hover { color: var(--ink, #3d2b20); }
+.companion-intro-text {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink-medium, #5d4b3b);
+  margin: 0;
+}

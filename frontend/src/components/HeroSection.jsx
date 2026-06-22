@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import './HeroSection.css'
 import { mochiHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
@@ -10,9 +11,25 @@ function greetingKey() {
   return 'hero.greeting.evening'
 }
 
+const POEM_COUNT = 4
+
 export default function HeroSection() {
   const { t } = useLanguage()
   const greeting = t(greetingKey())
+  const [poem, setPoem]   = useState(() => Math.floor(Math.random() * POEM_COUNT))
+  const [shown, setShown] = useState(true)
+
+  // Gently rotate the poem in the open space below the greeting.
+  useEffect(() => {
+    const id = setInterval(() => {
+      setShown(false)
+      setTimeout(() => {
+        setPoem(i => (i + 1) % POEM_COUNT)
+        setShown(true)
+      }, 600)
+    }, 9000)
+    return () => clearInterval(id)
+  }, [])
 
   return (
     <section className="hero">
@@ -26,6 +43,7 @@ export default function HeroSection() {
           <div className="greeting-main">{greeting}</div>
           <div className="greeting-sub">{t('hero.sub')}</div>
         </div>
+        <p className={`hero-poem${shown ? '' : ' hero-poem--out'}`}>{t(`mochi.poem.${poem}`)}</p>
       </div>
     </section>
   )

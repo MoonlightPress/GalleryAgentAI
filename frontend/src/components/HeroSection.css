@@ -53,6 +53,18 @@
   font-style: italic;
 }
 
+/* Rotating poem in the open space below the greeting */
+.hero-poem {
+  font-family: 'Caveat', cursive;
+  font-size: clamp(17px, 2vw, 27px);
+  line-height: 1.35;
+  color: var(--ink-medium);
+  white-space: pre-line;
+  margin-top: 16px;
+  transition: opacity 0.6s ease;
+}
+.hero-poem--out { opacity: 0; }
+
 /* Today's Focus card */
 .focus-card {
   background: rgba(255, 252, 247, 0.95);

@@ -41,6 +41,24 @@ function ViewToggle({ view, setView }) {
   )
 }
 
+function MochiIntro() {
+  const { t } = useLanguage()
+  const [dismissed, setDismissed] = useState(() => {
+    try { return localStorage.getItem('mochi_intro_dismissed') === '1' } catch { return false }
+  })
+  if (dismissed) return null
+  function close() {
+    setDismissed(true)
+    try { localStorage.setItem('mochi_intro_dismissed', '1') } catch { /* localStorage unavailable */ }
+  }
+  return (
+    <div className="companion-intro">
+      <button className="companion-intro-close" onClick={close} title={t('intro.dismiss')}>×</button>
+      <p className="companion-intro-text">{t('mochi.intro.body')}</p>
+    </div>
+  )
+}
+
 export default function App() {
   const [page, setPage] = useState('discover')
   const [view, setView] = useState('cards')
@@ -52,6 +70,7 @@ export default function App() {
       <div className="app">
         {page === 'discover' && <HeroSection />}
         {page === 'discover' && nav}
+        {page === 'discover' && <MochiIntro />}
         {page === 'discover' && <TodaysFocus />}
         {page === 'discover' && <ViewToggle view={view} setView={setView} />}
         {page === 'discover' && view === 'cards'    && <OpportunitiesSection />}

@@ -1853,6 +1853,24 @@ function CareerReadiness({ data }) {
 
 // ── Page root ──────────────────────────────────────────────────────────────
 
+function SaffronIntro() {
+  const { t } = useLanguage()
+  const [dismissed, setDismissed] = useState(() => {
+    try { return localStorage.getItem('sf_intro_dismissed') === '1' } catch { return false }
+  })
+  if (dismissed) return null
+  function close() {
+    setDismissed(true)
+    try { localStorage.setItem('sf_intro_dismissed', '1') } catch { /* localStorage unavailable */ }
+  }
+  return (
+    <div className="companion-intro">
+      <button className="companion-intro-close" onClick={close} title={t('intro.dismiss')}>×</button>
+      <p className="companion-intro-text">{t('sf.intro.body')}</p>
+    </div>
+  )
+}
+
 export default function SaffronPage({ nav }) {
   const [rawData,    setRawData]    = useState(null)
   const [rawCareer,  setRawCareer]  = useState(null)
@@ -1914,6 +1932,8 @@ export default function SaffronPage({ nav }) {
         <img src={saffronHero} alt="Saffron's wide view" className="saffron-hero-img" />
       </section>
       {nav}
+
+      <SaffronIntro />
 
       {!data && !error && <div className="sf-loading">{t('sf.loading')}</div>}
 
