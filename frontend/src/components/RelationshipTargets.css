@@ -109,19 +109,19 @@
 
 .rt-reach {
   flex: 0 0 auto;
-  min-width: 104px;
   text-align: center;
-  font-size: 0.86rem;
-  font-weight: 600;
+  font-family: Georgia, serif;
+  font-size: 11.5px;
   text-decoration: none;
-  padding: 9px 18px;
-  border-radius: 10px;
-  background: var(--gold, #c9a24b);
-  color: #fff;
-  transition: filter 0.15s ease;
+  padding: 5px 14px;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--ink, #2c2015);
+  border: 1px solid var(--gold, #c9a24b);
+  transition: background 0.14s ease, color 0.14s ease;
 }
 
-.rt-reach:hover { filter: brightness(0.95); }
+.rt-reach:hover { background: var(--gold-faint, #fdf5e0); }
 
 .rt-reach--none {
   background: transparent;
