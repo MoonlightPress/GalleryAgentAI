@@ -43,8 +43,8 @@ export default function HeroSection() {
           <div className="greeting-main">{greeting}</div>
           <div className="greeting-sub">{t('hero.sub')}</div>
         </div>
+        <p className={`hero-poem${shown ? '' : ' hero-poem--out'}`}>{t(`mochi.poem.${poem}`)}</p>
       </div>
-      <p className={`hero-poem${shown ? '' : ' hero-poem--out'}`}>{t(`mochi.poem.${poem}`)}</p>
     </section>
   )
 }
