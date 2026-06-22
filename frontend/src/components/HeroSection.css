@@ -53,14 +53,20 @@
   font-style: italic;
 }
 
-/* Rotating poem in the open space below the greeting */
+/* Rotating poem — placed in the open wall area of the illustration,
+   shifted right of the greeting; small + viewport-scaled so it never
+   grows down past the greeting. */
 .hero-poem {
+  position: absolute;
+  top: 20%;
+  left: 24%;
+  width: 19%;
+  text-align: center;
   font-family: 'Caveat', cursive;
-  font-size: clamp(17px, 2vw, 27px);
-  line-height: 1.35;
+  font-size: clamp(12px, 1.4vw, 21px);
+  line-height: 1.4;
   color: var(--ink-medium);
   white-space: pre-line;
-  margin-top: 16px;
   transition: opacity 0.6s ease;
 }
 .hero-poem--out { opacity: 0; }
@@ -174,4 +180,11 @@
   .greeting-main { font-size: 26px; }
   .greeting-sub { font-size: 18px; }
   .focus-card { display: none; }
+  /* On phones the overlay is static — let the poem flow under the greeting. */
+  .hero-poem {
+    position: static;
+    width: auto;
+    padding: 0 18px 14px;
+    font-size: 18px;
+  }
 }
