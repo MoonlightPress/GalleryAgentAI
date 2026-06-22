@@ -27,7 +27,7 @@ export default function HeroSection() {
         setPoem(i => (i + 1) % POEM_COUNT)
         setShown(true)
       }, 600)
-    }, 9000)
+    }, 60000)
     return () => clearInterval(id)
   }, [])
 
