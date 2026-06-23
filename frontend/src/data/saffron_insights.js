@@ -349,24 +349,24 @@ export const GRANT_LANDSCAPE = {
 export const REVENUE_STREAMS = {
   "titleKey": "sf.revenue.title",
   "summaryKey": "sf.revenue.summary",
-  "where_to_start": "A SUZURI store is the fastest money you're not yet making — it produces and ships everything, so it's an afternoon to set up and an hour a week after. Upload 20–30 works, link it in your bio and a weekly Story. Original sales on Instagram are your highest channel, but SUZURI is the one running while you paint.",
-  "where_to_start_zh": "SUZURI 店铺是你目前最容易、却还没赚到的一笔钱——生产和配送都由平台代劳，开店只需一个下午，之后每周一小时即可。上传 20–30 件作品，把链接放进简介和每周的 Stories。Instagram 上的原作销售是你最大的渠道，而 SUZURI 则是你专注作画时仍在运转的那一个。",
+  "where_to_start": "You already have a BASE shop (gegyjiji.base.shop) with originals, zines, and prints — several sold out, so the demand is clearly there. The next step is making that shop work harder: link it in your Instagram bio and a weekly Story, and turn sold-out originals into numbered print editions so the demand keeps converting.",
+  "where_to_start_zh": "你已经有一家 BASE 店铺（gegyjiji.base.shop），上面有原作、作品集和版画——好几件已经售罄，说明需求实实在在。下一步是让这家店更高效：把链接放进 Instagram 简介和每周的 Stories，并把已售罄的原作做成编号限量版，让需求持续转化。",
   "items": [
     {
       "stream": "SUZURI (passive income)",
       "realistic_monthly": "¥10,000–30,000/month with active promotion",
       "setup_time": "1–2 days initial setup; 1 hr/week maintenance",
       "description": "Japanese print-on-demand platform. Upload art → SUZURI produces and ships. Zero fulfillment work. Products: acrylic keychains, cloth pouches, tote bags, art prints, phone cases.",
-      "why_now": "With 26k followers, even directing a small fraction to a SUZURI store monthly generates steady passive revenue. Most watercolor artists underuse this.",
-      "action": "Set up store at suzuri.jp, upload 20–30 works, post weekly story highlights linking to shop.",
-      "leaving_on_table": true,
+      "why_now": "Her BASE shop already covers originals, zines, and prints. SUZURI is a separate, optional layer for hands-off merch — totes, cases, keychains — that she'd otherwise have to produce and ship herself.",
+      "action": "Optional: if she wants merch beyond prints, open a SUZURI store and upload 20–30 works — it produces and ships everything.",
+      "leaving_on_table": false,
       "stream_zh": "SUZURI（被动收入）",
       "stream_ja": "SUZURI（不労所得）",
       "description_zh": "日本按需印刷平台。上传作品 → SUZURI 负责生产与配送，无需处理任何履单事务。产品包括：亚克力钥匙扣、布艺小袋、帆布包、艺术印刷品、手机壳。",
       "description_ja": "日本のプリントオンデマンドプラットフォーム。作品をアップロードするだけで、SUSURIが製造・発送まで対応。在庫管理や発送作業は一切不要。取扱商品：アクリルキーホルダー、布ポーチ、トートバッグ、アートプリント、スマホケース。",
-      "why_now_zh": "拥有2.6万粉丝，每月引导其中0.1%的人访问 SUZURI 店铺，即可产生稳定的被动收入。大多数水彩画家都没有充分利用这一渠道。",
+      "why_now_zh": "她的 BASE 店铺已涵盖原作、作品集和版画。SUZURI 是另一条可选渠道，专做免履单的周边——帆布包、手机壳、钥匙扣——这些若自己生产发货会很麻烦。",
       "why_now_ja": "フォロワー2.6万人のうち、毎月0.1%をSUSURIのショップに誘導するだけで、安定した不労収入が生まれる。多くの水彩画家がこの手段を活かしきれていない。",
-      "action_zh": "在 suzuri.jp 开设店铺，上传20–30件作品，每周在 Stories 亮点中发布商店链接。",
+      "action_zh": "可选：如果想做版画以外的周边，可以再开一个 SUZURI 店铺，上传 20–30 件作品——生产和配送全由平台代劳。",
       "action_ja": "suzuri.jp でショップを開設し、20〜30点の作品をアップロード。毎週ストーリーズのハイライトにショップリンクを掲載する。"
     },
     {
@@ -453,11 +453,11 @@ export const REVENUE_STREAMS = {
     },
     {
       "stream": "Summary assessment",
-      "description": "With a 26k following and a consistent daily watercolor practice, she may be leaving 20–40% of achievable revenue on the table by not having: (1) active SUZURI store, (2) quarterly print edition releases, (3) systematic consignment at 2–3 Tier 1 venues. These three together could realistically add ¥60,000–180,000/month with minimal ongoing effort.",
+      "description": "With a 26k following and a consistent daily watercolor practice, she may be leaving 20–40% of achievable revenue on the table by not having: (1) her BASE shop consistently linked and promoted from Instagram, (2) quarterly print edition releases, (3) systematic consignment at 2–3 Tier 1 venues. These three together could realistically add ¥60,000–180,000/month with minimal ongoing effort.",
       "leaving_on_table": true,
       "stream_zh": "综合评估",
       "stream_ja": "総合評価",
-      "description_zh": "她拥有2.6万粉丝，坚持每日水彩创作，但由于尚未建立以下机制，可能正在流失20–40%的潜在收入：(1) 开通并运营SUZURI店铺；(2) 定期发售季度限量版画；(3) 在2–3家一线场所系统性地开展寄售。三者结合，每月可现实地额外带来¥60,000–180,000的收入，且后续维护成本极低。",
+      "description_zh": "她拥有2.6万粉丝，坚持每日水彩创作，但由于尚未建立以下机制，可能正在流失20–40%的潜在收入：(1) 把 BASE 店铺持续地从 Instagram 引流推广；(2) 定期发售季度限量版画；(3) 在2–3家一线场所系统性地开展寄售。三者结合，每月可现实地额外带来¥60,000–180,000的收入，且后续维护成本极低。",
       "description_ja": "フォロワー2.6万人を擁し、毎日水彩画を描き続けているにもかかわらず、以下の仕組みが整っていないために、達成可能な収益の20〜40%を取りこぼしている可能性がある：(1) SUZURIショップの運用、(2) 四半期ごとの限定版画リリース、(3) 上位1〜2層の会場2〜3か所での組織的な委託販売。この三つを組み合わせるだけで、最小限の継続的な手間で月¥60,000〜180,000の収益増が現実的に見込める。"
     }
   ]
