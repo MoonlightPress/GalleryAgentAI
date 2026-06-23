@@ -407,6 +407,7 @@ const zh = {
   // ── Saffron insight sections ──────────────────────────────────────────────
   'sf.licensing.title':      '授权版图',
   'sf.licensing.summary':    '品牌与出版社愿意付费使用你的艺术作品——这是被动收入的另一条路。',
+  'sf.label.whereToStart':   '从何入手',
   'sf.press.title':          '媒体投稿地图',
   'sf.press.summary':        '哪些刊物会报道像你这样的艺术家，以及如何被发现（而非主动申请）。',
   'sf.grant.title':          '资助资源',
@@ -2386,6 +2387,7 @@ const en = {
   // ── Saffron insight sections ──────────────────────────────────────────────
   'sf.licensing.title':      'Licensing Landscape',
   'sf.licensing.summary':    'Brands and publishers pay to use your art — another path to passive income.',
+  'sf.label.whereToStart':   'Where to start',
   'sf.press.title':          'Press & Pitch Map',
   'sf.press.summary':        'Which publications cover artists like you, and how to be discovered (not just apply).',
   'sf.grant.title':          'Grant Landscape',

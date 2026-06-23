@@ -4,6 +4,8 @@
 export const LICENSING_LANDSCAPE = {
   "titleKey": "sf.licensing.title",
   "summaryKey": "sf.licensing.summary",
+  "where_to_start": "Most licensing starts as a DM from a brand that already follows you — so add 'licensing available' and a contact link to your Instagram bio. The one asset worth building when you have an afternoon: a licensing lookbook (10–20 works shown as product mockups, one PDF) you can send the moment someone asks.",
+  "where_to_start_zh": "大多数授权都始于一个已经关注你的品牌发来的私信——所以先在 Instagram 简介里加上「开放授权合作」和联系方式链接。有空的下午值得做的一件事：一份授权作品集（10–20 件作品以产品效果图呈现，整理成一个 PDF），有人问起时随时可发。",
   "items": [
     {
       "category": "Japanese Stationery Brands",
@@ -102,6 +104,8 @@ export const LICENSING_LANDSCAPE = {
 export const PRESS_PITCH_MAP = {
   "titleKey": "sf.press.title",
   "summaryKey": "sf.press.summary",
+  "where_to_start": "Press comes from being found, not applying — so tag your strongest work where editors look (#美術手帖, #illustration) and keep a one-page press kit ready (bio, statement, 10 images) for when they reach out. The one exception you can pitch directly: It's Nice That — a daily watercolor practice is exactly their thing.",
+  "where_to_start_zh": "媒体报道来自被发现，而非主动投稿——所以把你最好的作品打上编辑会看的标签（#美術手帖、#illustration），并随时备好一页纸的新闻资料包（简介、创作陈述、10 张图），以便对方联系时立刻可发。唯一可以直接投稿的例外是 It's Nice That——每日水彩创作正是他们钟爱的那一类。",
   "items": [
     {
       "name": "美術手帖 (Bijutsu Techo)",
@@ -232,6 +236,8 @@ export const PRESS_PITCH_MAP = {
 export const GRANT_LANDSCAPE = {
   "titleKey": "sf.grant.title",
   "summaryKey": "sf.grant.summary",
+  "where_to_start": "Pick the Tokyo (TOKAS) or Japan Foundation grants first — lowest competition, and living here already qualifies you. The whole game is one paragraph: name a specific project ('documenting the changing face of Tokyo in watercolor'), not 'developing my work'. Build proper applications around 3–4 months of lead time.",
+  "where_to_start_zh": "先看东京（TOKAS）和日本国际交流基金的资助——竞争最低，而你在日居住已符合资格。整件事的关键在一段话：写明一个具体项目（「用水彩记录东京变迁的面貌」），而不是「提升我的创作」。正式申请请预留 3–4 个月的准备时间。",
   "items": [
     {
       "name": "Asian Cultural Council (ACC) Fellowship",
@@ -343,6 +349,8 @@ export const GRANT_LANDSCAPE = {
 export const REVENUE_STREAMS = {
   "titleKey": "sf.revenue.title",
   "summaryKey": "sf.revenue.summary",
+  "where_to_start": "A SUZURI store is the fastest money you're not yet making — it produces and ships everything, so it's an afternoon to set up and an hour a week after. Upload 20–30 works, link it in your bio and a weekly Story. Original sales on Instagram are your highest channel, but SUZURI is the one running while you paint.",
+  "where_to_start_zh": "SUZURI 店铺是你目前最容易、却还没赚到的一笔钱——生产和配送都由平台代劳，开店只需一个下午，之后每周一小时即可。上传 20–30 件作品，把链接放进简介和每周的 Stories。Instagram 上的原作销售是你最大的渠道，而 SUZURI 则是你专注作画时仍在运转的那一个。",
   "items": [
     {
       "stream": "SUZURI (passive income)",

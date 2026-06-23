@@ -1002,6 +1002,19 @@ function OpenQuestions({ data, t }) {
 
 const TIER_COLORS = { now: '#16a34a', near_term: '#d97706', medium_term: '#9ca3af' }
 
+// One scannable first move at the top of a path section — the content already
+// lives in the entries; this just surfaces the starting line so it isn't buried.
+function WhereToStart({ d, t, lang }) {
+  const text = lang === 'zh' && d.where_to_start_zh ? d.where_to_start_zh : d.where_to_start
+  if (!text) return null
+  return (
+    <div className="sf-start-here">
+      <span className="sf-start-label">{t('sf.label.whereToStart')}</span>
+      <p className="sf-start-text">{text}</p>
+    </div>
+  )
+}
+
 function locF(item, field, lang) {
   if (lang === 'zh' && item[field + '_zh']) return item[field + '_zh']
   if (lang === 'ja' && item[field + '_ja']) return item[field + '_ja']
@@ -1012,6 +1025,7 @@ function LicensingLandscape({ t, lang }) {
   const d = LICENSING_LANDSCAPE
   return (
     <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
+      <WhereToStart d={d} t={t} lang={lang} />
       {d.items.map((group, gi) => (
         <div key={gi} className="sf-insight-group">
           <div className="sf-block-label">{locF(group, 'category', lang)}</div>
@@ -1042,6 +1056,7 @@ function PressPitchMap({ t, lang }) {
   const discoveryNote = d.items.find(item => item.category_note)
   return (
     <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
+      <WhereToStart d={d} t={t} lang={lang} />
       <div className="sf-press-pitch-list">
         {outlets.map((item, i) => (
           <div key={i} className="sf-press-pitch-row">
@@ -1091,6 +1106,7 @@ function GrantLandscape({ t, lang }) {
   const strategyNote = d.items.find(item => item.category_note)
   return (
     <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
+      <WhereToStart d={d} t={t} lang={lang} />
       <div className="sf-grant-list">
         {grants.map((grant, i) => (
           <div key={i} className="sf-grant-row">
@@ -1144,6 +1160,7 @@ function RevenueStreams({ t, lang }) {
   const summary_item = d.items.find(item => item.stream === 'Summary assessment')
   return (
     <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
+      <WhereToStart d={d} t={t} lang={lang} />
       <div className="sf-revenue-list">
         {streams.map((item, i) => (
           <div key={i} className={`sf-revenue-row${item.leaving_on_table ? ' sf-revenue-row--gap' : ''}`}>
