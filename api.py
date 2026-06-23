@@ -2294,6 +2294,17 @@ def get_saffron():
             if _o.get(_ja_k):
                 _opp_i18n["ja"][_en] = _o[_ja_k]
 
+    # Merge the engine-generated Saffron string cache (zh for the page's static
+    # report text). Opportunity translations above take precedence on overlap.
+    _cache_path = DATA_DIR / "translation_cache.json"
+    if _cache_path.exists():
+        try:
+            _cache = json.loads(_cache_path.read_text(encoding="utf-8"))
+            for _en, _zh in (_cache.get("zh") or {}).items():
+                _opp_i18n["zh"].setdefault(_en, _zh)
+        except Exception:
+            pass
+
     return {
         "_i18n":                 _opp_i18n,
         "career_position":       career_position,
