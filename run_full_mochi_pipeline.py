@@ -129,6 +129,16 @@ PAID_STEPS = {
     # Claude API
     "ibm_email_writer.py",
     "why_it_fits_engine.py",
+    # Claude API — translation engines. These call the model for any field that
+    # isn't already cached. The maintenance pipeline must NOT run them unattended:
+    # every content-GENERATING step above is already paid/excluded, so a maintenance
+    # pass produces no new translatable content and these would either no-op (cache
+    # hit) or, if any source prose did change, spend Claude credits with nobody
+    # watching. A full (paid) run still runs them last so online updates stay translated.
+    "content_translation_engine.py",
+    "opp_strategy_translation_engine.py",
+    "saffron_translation_engine.py",
+    "contact_translation_engine.py",
 }
 
 if __name__ == "__main__":
