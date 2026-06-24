@@ -6,10 +6,12 @@
   "country": "",
   "website": "https://tokyoartbookfair.com/",
   "source_links": [
-    "https://tokyoartbookfair.com/"
+    "https://tokyoartbookfair.com/",
+    "https://www.instagram.com/p/DWbFS-CCfXe"
   ],
   "categories_seen": [
-    "Markets / Popups / Booths"
+    "Markets / Popups / Booths",
+    "Zine Fair Booth"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -23,11 +25,16 @@
     "Automatically created from opportunity data.",
     "Needs manual/web research before being treated as verified."
   ],
-  "missing_information": [],
+  "missing_information": [
+    "contact",
+    "fees",
+    "submission process"
+  ],
   "opportunity_titles": [
-    "Tokyo Art Book Fair"
+    "Tokyo Art Book Fair",
+    "TOKYO ART BOOK FAIR 2026 Exhibitor Call"
   ],
   "last_researched": "",
-  "created_at": "2026-06-13",
-  "updated_at": "2026-06-13"
+  "created_at": "2026-06-24",
+  "updated_at": "2026-06-24"
 }

@@ -1,6 +1,6 @@
 # Candidate Quality Gate Report
 
-Approved: 7
+Approved: 8
 Rejected: 119
 
 ## Rejected
@@ -14,23 +14,19 @@ Rejected: 119
 - Phoebe Barnicoat Three Sisters watercolour Unframed Artwork: 10.5 x 14.5cm — generic page without opportunity language
 - Phoebe Barnicoat Snake Meet watercolour Unframed Artwork: 14.5 x 10.5cm — generic page without opportunity language
 - Anne Marlow A Safe Place watercolour & pastel Unframed Artwork: 23.5 x 24cm — generic page without opportunity language
-- RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus — strong: residency, weak: artist, score too low: 1
+- 【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society — generic page without opportunity language
+- DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — generic page without opportunity language
 - Art Events and Exhibitions｜Tokyo Art Beat — generic page without opportunity language
 - TOKYO ART BOOK FAIR — strong: book fair, weak: book, score too low: 3
 - Jackson's Art Prize — generic page without opportunity language
-- 【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society — generic page without opportunity language
-- DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー — generic page without opportunity language
 - Pinpoint Gallery | 東京都渋谷区渋谷区神宮前PinpointGalleryオフィシャルサイトです。 — generic page without opportunity language
 - Exhibitions — junk title: exhibitions
 - Requests to List Exhibitions and Events — generic page without opportunity language
 - Printed Matter, Inc. — strong: zine, printed matter, score too low: 2
-- Daniel Shepard Straffon All Lover the Place: NYC [Poster] Posters $70.00 Signed — strong: printed matter, weak: book, score too low: 1
-- Daniel Shepard Straffon All Lover the Place: Japan [Poster] Posters $70.00 Signed — strong: printed matter, weak: book, score too low: 1
-- Daniel Shepard Straffon All Lover the Place: Indonesia [Poster] Posters $70.00 Signed — strong: printed matter, weak: book, score too low: 1
-- Daniel Shepard Straffon All Lover the Place: Mexico [Poster] Posters $70.00 Signed — strong: printed matter, weak: book, score too low: 1
-- Daniel Shepard Straffon All Lover the Place: Thailand [Poster] Posters $70.00 Signed — strong: printed matter, weak: book, score too low: 1
-- Daniel Shepard Straffon All Lover the Place: Sticker Pack Ephemera $18.00 — strong: printed matter, weak: book, score too low: 1
-- Daniel Shepard Straffon All Lover the Place: Chicago [Poster] Posters $70.00 Signed — strong: printed matter, weak: book, score too low: 1
+- Felix Burrichter PIN-UP Magazine Issue 40: The Independence Issue Periodicals $42.00 Recen — strong: zine, printed matter, score too low: 2
+- Zab Shavrick house zine Books $28.00 Featured at LAABF Recent Arrival — strong: zine, printed matter, weak: book, score too low: 3
+- Jana Zatvarnická The Silver Moon Limited Edition [Magazine + Print] Vol. 1 Editions $120.0 — strong: zine, printed matter, score too low: 2
+- Katelyn Calimag Moving Places and What We Carry Books $25.00 Recent Arrival — strong: printed matter, weak: book, score too low: 1
 - See all exhibitions — junk title: see all exhibitions
 - Browse Printed Matter Editions — junk title: browse printed matter editions
 - www.jacksonsart.com — generic page without opportunity language
@@ -94,17 +90,21 @@ Rejected: 119
 - Anne Marlow Waiting for the Ark watercolour & pastel Unframed Artwork: 20 x 20cm — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
 - View Detail Page — generic page without opportunity language
-- Magazine — strong: open call, zine, score too low: 2
+- Magazine — strong: zine, open call, score too low: 2
+- 2026 scovill sculpture park exhibition — strong: open call, weak: exhibition, gallery, score too low: 2
 - Open Call — strong: open call, has submission link, score too low: 3
+- residency programme for foreign choreographers — strong: residency, open call, score too low: 2
 - Residency — strong: residency, open call, score too low: 2
-- video commission residency 2026 — strong: residency, open call, score too low: 2
 - Open Calls — strong: open call, has submission link, score too low: 3
+- www.curatorspace.com — generic page without opportunity language
+- Report this? — generic page without opportunity language
 - 展覧会 — bad/missing title
 - 2026.06.01 Tokyo Illustrators Society Presents Illustration Works in NAGAOKA 202人のイラストレーター — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
 - 展覧会 2025.08.04 Illustration Talks v — generic page without opportunity language
 - 展覧会 2025.05.16 Illustration Works 1 — generic page without opportunity language
 - 展覧会 2025.04.18 「110人のイラストレーターが描く 宮沢 — generic page without opportunity language
+- Memory Box 2026.06.19(金) - 2026.06.25(木) — generic page without opportunity language
 - これから開催の展示 — generic page without opportunity language
 - これまで開催の展示 — generic page without opportunity language
 - 『記憶の欠片』展 — generic page without opportunity language
@@ -115,7 +115,7 @@ Rejected: 119
 - 原宿カワイイ展 〜キラキラフィーバー！〜 — generic page without opportunity language
 - 青空展 — bad/missing title
 - 2026年4月22日 【企画展】『GuroKawa Exhibition2』出展者募集中！🎨 — generic page without opportunity language
-- pinpointgallery.com — generic page without opportunity language
+- UES PLACE – TOKYO ROUND – — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
 - pinpointgallery.com — generic page without opportunity language
@@ -127,10 +127,11 @@ Rejected: 119
 
 ## Approved
 
-- Home - Printed Matter — strong: photobook, book fair, zine, printed matter, weak: exhibition, book
-- Browse opportunities | CuratorSpace — strong: residency, open call, zine, submission, weak: exhibition, artist
-- Top Artist Opportunities for 2026 | ArtConnect — strong: residency, open call, zine, submission, weak: exhibition, artist
-- OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at  — strong: residency, open call, zine, call for, weak: artist, has submission link
-- call for artists | al-tiba9 magazine issue22 — strong: open call, zine, call for, weak: artist
-- Art Submissions — strong: open call, submission, has submission link
-- Callback Open Call G George invites you to submit to Callback, a series of contemporary ar — strong: open call, submit, has submission link
+- Home - Printed Matter — strong: zine, printed matter, photobook, book fair, weak: book, exhibition
+- Browse opportunities | CuratorSpace — strong: submission, residency, open call, weak: exhibition
+- Top Artist Opportunities for 2026 | ArtConnect — strong: zine, submission, residency, open call, weak: exhibition, artist
+- Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod — strong: open call, weak: exhibition, artist, has submission link
+- open submissions for issue four — strong: submission, open call, has submission link
+- Art Submissions — strong: submission, open call, has submission link
+- www.curatorspace.com — strong: award, residency, weak: artist, has submission link
+- Report this? — strong: award, residency, weak: artist, has submission link

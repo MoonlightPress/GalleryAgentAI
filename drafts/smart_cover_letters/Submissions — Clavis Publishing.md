@@ -1,13 +1,13 @@
 # Smart Cover Letter — Submissions — Clavis Publishing
 
 Tone:
-gentle and curious
+focused and editorial
 
 Recommended Body of Work:
 Artist Book / Printed Matter
 
 Core Fit:
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+Clavis Publishing's focus on visual narratives and artist books aligns with GEGYjiji's practice of documenting Tokyo's ephemeral urban landscapes through watercolor—work that benefits from the sustained, intimate format of a published collection. Her consistent daily practice and 90k following demonstrate the audience and discipline required for a successful artist publication.
 
 Draft Structure:
 

@@ -31,6 +31,15 @@
         "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts"
       },
       {
+        "title": "TOKIO ART BOOK FAIR 2026",
+        "score": 9.4,
+        "differentiated_score": 11.24,
+        "hit_nodes": [
+          "TOKYO ART BOOK FAIR"
+        ],
+        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
+      },
+      {
         "title": "MOUNT ZINE",
         "score": 9.4,
         "differentiated_score": 10.71,
@@ -40,22 +49,31 @@
         "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens."
       },
       {
-        "title": "POST",
+        "title": "TOKYO ART BOOK FAIR 2026 Exhibitor Call",
         "score": 8.6,
-        "differentiated_score": 9.91,
+        "differentiated_score": 10.1,
+        "hit_nodes": [
+          "TOKYO ART BOOK FAIR"
+        ],
+        "why": "Open call for art book and zine fair exhibitors; directly matches artist book and illustration submission needs."
+      },
+      {
+        "title": "TOKYO ART BOOK FAIR 2026",
+        "score": 8.6,
+        "differentiated_score": 9.98,
+        "hit_nodes": [
+          "TOKYO ART BOOK FAIR"
+        ],
+        "why": "Art book and zine fair at contemporary art museum accepting artists and publishers; fits illustration and artist book categories."
+      },
+      {
+        "title": "POST",
+        "score": 8.0,
+        "differentiated_score": 9.21,
         "hit_nodes": [
           "POST"
         ],
         "why": "Bookshop galleries attract culturally-engaged viewers who appreciate documentation and craft without demanding heavy conceptual frameworks. Your work's illustrative qualities are an asset here, not a liability."
-      },
-      {
-        "title": "TOKIO ART BOOK FAIR 2026",
-        "score": 7.0,
-        "differentiated_score": 8.84,
-        "hit_nodes": [
-          "TOKYO ART BOOK FAIR"
-        ],
-        "why": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors."
       },
       {
         "title": "shashasha",
@@ -75,25 +93,16 @@
       {
         "title": "tata bookshop/gallery",
         "score": 8.6,
-        "differentiated_score": 9.73,
+        "differentiated_score": 9.85,
         "hit_nodes": [
           "VOID"
         ],
         "why": "tata's gallery-bookshop model aligns perfectly with GEGYjiji's daily watercolor practice of capturing quiet urban moments—her works on paper can exist as both intimate prints and gallery pieces, while the bookshop context legitimizes the meditative, observational quality of her Tokyo-focused practice. The venue's Koenji location and hybrid format create space for her to present architectural studies and memory-based work in a way that bridges fine art and the printed object, avoiding the scale demands of traditional galleries."
       },
       {
-        "title": "Picaresque Gallery",
-        "score": 7.9,
-        "differentiated_score": 8.76,
-        "hit_nodes": [
-          "VOID"
-        ],
-        "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid."
-      },
-      {
         "title": "Gallery Conceal Shibuya",
-        "score": 7.2,
-        "differentiated_score": 7.9,
+        "score": 7.4,
+        "differentiated_score": 8.1,
         "hit_nodes": [
           "VOID"
         ],
@@ -101,12 +110,21 @@
       },
       {
         "title": "Aperture | Photography",
-        "score": 5.6,
-        "differentiated_score": 7.49,
+        "score": 6.0,
+        "differentiated_score": 7.89,
         "hit_nodes": [
           "Aperture"
         ],
         "why": "Potential fit based on source context and keyword overlap: artist book / watercolor sequence, zine, watercolor / works on paper, exhibition"
+      },
+      {
+        "title": "Picaresque Gallery",
+        "score": 7.0,
+        "differentiated_score": 7.86,
+        "hit_nodes": [
+          "VOID"
+        ],
+        "why": "Geographic match and accessible atmosphere could work, but commercial framing may reinforce the illustrative/surface-level perception you're trying to avoid."
       },
       {
         "title": "Self Publish, Be Happy",
@@ -120,7 +138,7 @@
       {
         "title": "Offprint",
         "score": 5.0,
-        "differentiated_score": 5.99,
+        "differentiated_score": 5.75,
         "hit_nodes": [
           "Offprint"
         ],
@@ -175,8 +193,8 @@
       },
       {
         "title": "POST",
-        "score": 8.6,
-        "differentiated_score": 9.91,
+        "score": 8.0,
+        "differentiated_score": 9.21,
         "hit_nodes": [
           "POST"
         ],

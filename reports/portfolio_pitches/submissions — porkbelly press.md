@@ -7,10 +7,10 @@ Artist Book / Printed Matter
 Work that can become books, zines, calendars, small editions, paper objects, or publication-centered projects.
 
 ## Opportunity Fit
-Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
+Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
 
 ## Match Signals
-small press
+artist book, publication, small press, edition
 
 ## Suggested Submission Framing
 Present this not as a general portfolio, but as a focused body of work.

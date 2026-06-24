@@ -119,20 +119,22 @@ This is the strongest immediate ecosystem for her visual language: quiet photogr
 - **Tokyo Art Book Fair** — score 9.4, differentiated 11.5; matched: TOKYO ART BOOK FAIR
 - **UTRECHT** — score 9.4, differentiated 11.5; matched: UTRECHT
 - **flotsam books** — score 9.4, differentiated 11.39; matched: flotsam books
+- **TOKIO ART BOOK FAIR 2026** — score 9.4, differentiated 11.24; matched: TOKYO ART BOOK FAIR
 - **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
-- **POST** — score 8.6, differentiated 9.91; matched: POST
-- **TOKIO ART BOOK FAIR 2026** — score 7.0, differentiated 8.84; matched: TOKYO ART BOOK FAIR
+- **TOKYO ART BOOK FAIR 2026 Exhibitor Call** — score 8.6, differentiated 10.1; matched: TOKYO ART BOOK FAIR
+- **TOKYO ART BOOK FAIR 2026** — score 8.6, differentiated 9.98; matched: TOKYO ART BOOK FAIR
+- **POST** — score 8.0, differentiated 9.21; matched: POST
 - **shashasha** — score 5.0, differentiated 5.96; matched: Shashasha
 
 ### International Photobook Publishing
 This is the long-horizon ecosystem for international publication legitimacy.
 
-- **tata bookshop/gallery** — score 8.6, differentiated 9.73; matched: VOID
-- **Picaresque Gallery** — score 7.9, differentiated 8.76; matched: VOID
-- **Gallery Conceal Shibuya** — score 7.2, differentiated 7.9; matched: VOID
-- **Aperture | Photography** — score 5.6, differentiated 7.49; matched: Aperture
+- **tata bookshop/gallery** — score 8.6, differentiated 9.85; matched: VOID
+- **Gallery Conceal Shibuya** — score 7.4, differentiated 8.1; matched: VOID
+- **Aperture | Photography** — score 6.0, differentiated 7.89; matched: Aperture
+- **Picaresque Gallery** — score 7.0, differentiated 7.86; matched: VOID
 - **Self Publish, Be Happy** — score 5.0, differentiated 6.48; matched: Self Publish, Be Happy
-- **Offprint** — score 5.0, differentiated 5.99; matched: Offprint
+- **Offprint** — score 5.0, differentiated 5.75; matched: Offprint
 
 ### Quiet Documentary / Place-Based Photography
 These references help position the work as serious observational photography rather than decorative travel imagery.
@@ -146,4 +148,4 @@ These are useful for soft visibility and relationship-building before major appl
 - **B&B Shimokitazawa** — score 9.4, differentiated 11.39; matched: B&B Shimokitazawa
 - **flotsam books** — score 9.4, differentiated 11.39; matched: flotsam books
 - **MOUNT ZINE** — score 9.4, differentiated 10.71; matched: MOUNT ZINE
-- **POST** — score 8.6, differentiated 9.91; matched: POST
+- **POST** — score 8.0, differentiated 9.21; matched: POST

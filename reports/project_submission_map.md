@@ -12,9 +12,9 @@ This turns project concepts into concrete submission paths.
 
 ### Best First Targets
 - Tokyo Art Book Fair
+- submissions — porkbelly press
 - UTRECHT
-- Women United ART MAGAZINE Issue XIV Summer 2026
-- SUBMISSIONS - marblepress.com
+- B&B (Book & Beer)
 - B&B Shimokitazawa
 
 ### What To Prepare
@@ -34,10 +34,10 @@ This turns project concepts into concrete submission paths.
 
 ### Best First Targets
 - Tokyo Art Book Fair
+- submissions — porkbelly press
 - UTRECHT
 - Center for Book Arts Opportunities
-- 本店・本屋の実験室
-- Pinpoint Gallery
+- Submissions — Clavis Publishing
 
 ### What To Prepare
 - 12–20 image edit
@@ -56,9 +56,9 @@ This turns project concepts into concrete submission paths.
 
 ### Best First Targets
 - Tokyo Art Book Fair
+- submissions — porkbelly press
 - UTRECHT
-- Women United ART MAGAZINE Issue XIV Summer 2026
-- SUBMISSIONS - marblepress.com
+- B&B (Book & Beer)
 - B&B Shimokitazawa
 
 ### What To Prepare
@@ -78,10 +78,10 @@ This turns project concepts into concrete submission paths.
 
 ### Best First Targets
 - UTRECHT
+- DER GREIF
 - 水性繪畫展覽 (Watercolor Exhibition)
 - 水彩アートの祭典 (Watercolor Art Festival)
 - Pen Magazine — Artist Spotlight
-- Casa Brutus — Architecture/Art Feature
 
 ### What To Prepare
 - 12–20 image edit

@@ -28,7 +28,9 @@ International design/illustration publication with 2M+ readers. Actively scouts 
 Biggest international platform for artists at her level. A feature here reaches the global illustration community and attracts licensing and commission inquiries.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time â€” websites change and open calls close early
+- Contact information or submission guidelines may require direct research
 
 ## 7. Submission / Logistics
 - **Deadline:** ongoing
@@ -45,4 +47,4 @@ Submit via itsnicethat.com/submit. Lead with the daily watercolor diary format â
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

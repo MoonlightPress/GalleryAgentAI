@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-06-13T01:58:50.432250+00:00",
+  "_generated_at": "2026-06-24T01:30:36.740259+00:00",
   "_engine_version": "2.0",
   "current_phase": "Tier 1-2 foundation building",
   "phase_note": "Age 26, planning a deep-work year around 30. The next 3–4 years are for accumulation: exhibition history, publishing relationships, peer network, and body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now, not acted on until the foundation is solid.",
@@ -70,6 +70,16 @@
   ],
   "build_toward": [
     {
+      "title": "水彩アートの祭典「Watercolors 2026」",
+      "tier": 3,
+      "score": 9.5,
+      "category": "japan_watercolor_open_call",
+      "city": "Tokyo",
+      "deadline": "2026年1月31日",
+      "summary": "Watercolor-only exhibition at Tokyo Arts Theater, 2026 Mar 7-8, accepts watercolor works up to 4号 size with no theme restrictions",
+      "website": "https://nihonbungei.net/watercolors_2026"
+    },
+    {
       "title": "本店・本屋の実験室",
       "tier": 3,
       "score": 9.4,
@@ -88,16 +98,6 @@
       "deadline": "September 15, 2024",
       "summary": "Book arts institution with exhibitions, residencies, education, and opportunities connected to artist books and printed matter.",
       "website": "https://centerforbookarts.org/"
-    },
-    {
-      "title": "FY2026 Life with Art Grant",
-      "tier": 3,
-      "score": 9.4,
-      "category": "grant",
-      "city": "Tokyo",
-      "deadline": "14:00 on Monday, June 29, 2026",
-      "summary": "Tokyo-based grant supporting projects that integrate contemporary art into everyday life, aligning with her urban observation and architecture focus.",
-      "website": "https://www.artscouncil-tokyo.jp/en/grants"
     }
   ],
   "watch_list": [
@@ -117,7 +117,7 @@
       "score": 9.4,
       "category": "global_residency",
       "city": "Paris",
-      "deadline": "October 31, 2025",
+      "deadline": "August 30, 2026",
       "summary": "Major international artist residency in Paris offering studio housing to artists from around the world, with strong track record for Asian artists.",
       "website": "https://www.citedesartsparis.net/"
     },
@@ -127,7 +127,7 @@
       "score": 9.4,
       "category": "global_residency",
       "city": "Tokyo",
-      "deadline": "2024-12-29 or 2025-09-30 or 2025-06-30 or 2026-04-30 (multiple programs with different deadlines)",
+      "deadline": "June 10, 2026",
       "summary": "International artist residency program inviting visual artists, filmmakers, designers and architects for 2026.",
       "website": "https://artres.moc.gov.tw/zh/calls/content/ff80818196c95f3b0196e675e523000f"
     },
@@ -142,24 +142,24 @@
       "website": "https://www.nwws.org/"
     },
     {
-      "title": "INSTINC 2026/2027 Artist-in-Residence Program",
+      "title": "Asian Cultural Council 2026 Global Grant Cycle",
       "tier": 4,
-      "score": 7.85,
-      "category": "global_residency",
-      "city": "Singapore",
-      "deadline": "Deadline extended for 2026 and 2027",
-      "summary": "Independent artist residency program emphasizing experimentation and artistic vision, open to international artists.",
-      "website": "https://sagg.info/event/opencall-2026-and-2027"
+      "score": 8.8,
+      "category": "grant",
+      "city": "New York",
+      "deadline": "October 1, 2025",
+      "summary": "ACC's 2026 Global Grant Cycle supports artists and arts professionals from Asia for cultural exchange and research, directly relevant to a Chinese national artist based in Tokyo.",
+      "website": "https://hyperallergic.com/asian-cultural-council-offers-fellowships-and-grants-for-research-and-cultural-exchange"
     },
     {
-      "title": "National Watercolor Society International Open Exhibition",
+      "title": "Asian Cultural Council (ACC) 2026 Award Program / 亞洲文化協會 2026 年獎助計畫",
       "tier": 4,
-      "score": 5.5,
-      "category": "global_watercolor_open_call",
-      "city": "California / Online",
-      "deadline": "Annual — 2026 cycle closed May 22. Watch January 2027.",
-      "summary": "Major annual international watercolor exhibition, $40,000+ in awards, open to non-members worldwide — 2026 cycle closed.",
-      "website": "https://nationalwatercolorsociety.org/exhibits"
+      "score": 8.8,
+      "category": "grant",
+      "city": "New York",
+      "deadline": "2025-11-19",
+      "summary": "ACC supports Asian artists including Chinese nationals with fellowships and grants for international cultural exchange and artistic development",
+      "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
     }
   ],
   "blocking_gaps": [
@@ -197,10 +197,10 @@
   "next_milestone": "Complete 2 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.",
   "months_to_tier3": 12,
   "pipeline_summary": {
-    "total_active": 279,
-    "tier_1_count": 33,
-    "tier_2_count": 72,
-    "tier_3_count": 163,
-    "tier_4_count": 11
+    "total_active": 442,
+    "tier_1_count": 43,
+    "tier_2_count": 177,
+    "tier_3_count": 202,
+    "tier_4_count": 20
   }
 }

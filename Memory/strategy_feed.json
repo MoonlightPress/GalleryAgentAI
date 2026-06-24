@@ -651,17 +651,6 @@
       "image": ""
     },
     {
-      "title": "2026 Global Grant Cycle - Individual Fellowship",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Grant",
-      "city": "New York",
-      "country": "USA",
-      "image": ""
-    },
-    {
       "title": "American Illustration",
       "bucket": "global_targets",
       "score": 9.4,
@@ -717,17 +706,6 @@
       "image": ""
     },
     {
-      "title": "MICRO/MACRO",
-      "bucket": "global_targets",
-      "score": 9.4,
-      "confidence": "High",
-      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
-      "category": "Galleries / Exhibition Calls",
-      "city": "Vancouver",
-      "country": "Canada",
-      "image": ""
-    },
-    {
       "title": "Cité Internationale des Arts Artist Residency",
       "bucket": "global_targets",
       "score": 9.4,
@@ -736,6 +714,17 @@
       "category": "Global Residency",
       "city": "Paris",
       "country": "France",
+      "image": ""
+    },
+    {
+      "title": "MICRO/MACRO",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Galleries / Exhibition Calls",
+      "city": "Vancouver",
+      "country": "Canada",
       "image": ""
     },
     {
@@ -748,9 +737,31 @@
       "city": "Tokyo",
       "country": "Japan",
       "image": ""
+    },
+    {
+      "title": "KAMIHANGA国際プリント展2026",
+      "bucket": "global_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "International opportunity that may expand visibility beyond local Tokyo/Japan options.",
+      "category": "Global Open Call",
+      "city": "International",
+      "country": "International",
+      "image": ""
     }
   ],
   "publication_targets": [
+    {
+      "title": "submissions — porkbelly press",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
+      "country": "",
+      "image": ""
+    },
     {
       "title": "UTRECHT",
       "bucket": "publication_targets",
@@ -796,6 +807,28 @@
       "image": ""
     },
     {
+      "title": "B&B Shimokitazawa",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "TOKIO ART BOOK FAIR 2026",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Zine Fair Booth",
+      "city": "Tokyo",
+      "country": "Japan",
+      "image": ""
+    },
+    {
       "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
       "bucket": "publication_targets",
       "score": 9.4,
@@ -804,6 +837,17 @@
       "category": "Group Publication Open Call",
       "city": "International",
       "country": "USA",
+      "image": ""
+    },
+    {
+      "title": "B&B (Book & Beer)",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Shimokitazawa, Tokyo",
+      "country": "Japan",
       "image": ""
     },
     {
@@ -825,6 +869,17 @@
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Book Publishing",
       "city": "Japan / Tokyo / Online",
+      "country": "",
+      "image": ""
+    },
+    {
+      "title": "flotsam books",
+      "bucket": "publication_targets",
+      "score": 9.4,
+      "confidence": "High",
+      "reason": "Useful for photobook, zine, artist-book, or publication history.",
+      "category": "Print / Zines / Bookstores",
+      "city": "Tokyo",
       "country": "",
       "image": ""
     },
@@ -851,24 +906,24 @@
       "image": ""
     },
     {
-      "title": "B&B Shimokitazawa",
+      "title": "DER GREIF",
       "bucket": "publication_targets",
       "score": 9.4,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
-      "country": "",
+      "category": "Photo Open Call",
+      "city": "Online",
+      "country": "Global",
       "image": ""
     },
     {
-      "title": "flotsam books",
+      "title": "Submissions — Clavis Publishing",
       "bucket": "publication_targets",
-      "score": 9.4,
+      "score": 8.8,
       "confidence": "High",
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Tokyo",
+      "category": "Book Publishing",
+      "city": "Japan / Tokyo / Online",
       "country": "",
       "image": ""
     },
@@ -891,61 +946,6 @@
       "reason": "Useful for photobook, zine, artist-book, or publication history.",
       "category": "Print / Zines / Bookstores",
       "city": "Tokyo — Tomigaya, Shibuya",
-      "country": "Japan",
-      "image": ""
-    },
-    {
-      "title": "Submissions - Little Press Publishing",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Book Publishing",
-      "city": "Japan / Tokyo / Online",
-      "country": "",
-      "image": ""
-    },
-    {
-      "title": "BOOOOOOOM 2026 Art & Photo Book Award",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Group Publication Open Call",
-      "city": "Vancouver (international)",
-      "country": "Canada",
-      "image": ""
-    },
-    {
-      "title": "B&B (Book & Beer)",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Print / Zines / Bookstores",
-      "city": "Shimokitazawa, Tokyo",
-      "country": "Japan",
-      "image": ""
-    },
-    {
-      "title": "SUZURI — Japanese Print-on-Demand Platform",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Zine Shop Consignment",
-      "city": "Japan (online)",
-      "country": "Japan",
-      "image": ""
-    },
-    {
-      "title": "表紙やカバーのデザインのお仕事",
-      "bucket": "publication_targets",
-      "score": 8.8,
-      "confidence": "High",
-      "reason": "Useful for photobook, zine, artist-book, or publication history.",
-      "category": "Book Cover Call",
-      "city": "Online",
       "country": "Japan",
       "image": ""
     }

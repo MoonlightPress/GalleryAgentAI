@@ -1,0 +1,38 @@
+{
+  "venue_name": "文化庁（Agency for Cultural Affairs, Government of Japan）",
+  "venue_slug": "agency_for_cultural_affairs_government_of_japan",
+  "venue_type": "artist opportunity venue",
+  "city": "Tokyo",
+  "country": "",
+  "website": "https://www.bunka.go.jp/seisaku/geijutsubunka/shinshin/kenshu",
+  "source_links": [
+    "https://www.bunka.go.jp/seisaku/geijutsubunka/shinshin/kenshu",
+    "https://www.zaikenbunka.go.jp/cultural-promotion"
+  ],
+  "categories_seen": [
+    "Grant"
+  ],
+  "accepts_unsolicited_work": "unknown",
+  "submission_style": "unknown",
+  "typical_artists": [],
+  "typical_mediums": [],
+  "known_aesthetic": [],
+  "price_level": "unknown",
+  "risk_notes": [],
+  "fit_notes": [],
+  "verification_notes": [
+    "Automatically created from opportunity data.",
+    "Needs manual/web research before being treated as verified."
+  ],
+  "missing_information": [
+    "contact",
+    "deadline"
+  ],
+  "opportunity_titles": [
+    "新進芸術家海外研修制度（特別）",
+    "日本文化発信・普及事業"
+  ],
+  "last_researched": "",
+  "created_at": "2026-06-24",
+  "updated_at": "2026-06-24"
+}

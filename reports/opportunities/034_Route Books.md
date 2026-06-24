@@ -28,7 +28,9 @@ Ueno bookshop-cafe with a confirmed rental gallery wall — accessible East Toky
 Route Books has a confirmed rental gallery and hosts craft markets — low barrier, real exhibition space. GEGYjiji's Tokyo architectural watercolors fit the local documentation aesthetic and Ueno's art-literate audience.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Email contact@yukuido.com to discuss consignment or exhibition terms — these venues work by relationship, not open calls
+- Based in Tokyo — Ueno / Taito, Japan — confirm this matches your geographic focus before investing preparation time
+- Deadline: ongoing — check rental availability — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** ongoing — check rental availability
@@ -45,4 +47,4 @@ Email contact@yukuido.com to ask about rental gallery availability and terms for
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

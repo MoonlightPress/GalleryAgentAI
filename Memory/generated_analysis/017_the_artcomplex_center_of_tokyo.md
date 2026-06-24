@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-06-24
 
 # The Artcomplex Center of Tokyo
 
@@ -15,7 +15,7 @@ Verified: Official/source website, Submission process, Deadline, Fees. Needs che
 
 - **Official/source website**: https://www.gallerycomplex.com/ (verified)
 - **Submission process**: https://www.artworkarchive.com/call-for-entry/showcase-your-art-in-tokyo-japan-2025 (verified)
-- **Deadline**: March 17, 2026 (verified)
+- **Deadline**: August 20, 2025 (verified)
 - **Fees**: Free (verified)
 - **Contact**: Not publicly listed (needs_inquiry)
 
@@ -31,10 +31,12 @@ The Artcomplex Center of Tokyo is a gallery complex source in Tokyo for watercol
 Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: March 17, 2026 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
-- **Deadline:** March 17, 2026
+- **Deadline:** August 20, 2025
 - **Fees:** Free
 - **Submission page:** https://www.artworkarchive.com/call-for-entry/showcase-your-art-in-tokyo-japan-2025
 - **Source:** https://www.gallerycomplex.com/
@@ -48,5 +50,5 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_
 

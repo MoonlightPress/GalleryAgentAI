@@ -17,12 +17,12 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from Printed Matter. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, printed matter, book fair, exhibition, memory, architecture, place, watercolor",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, printed matter, book fair, exhibition, memory, architecture, watercolor, drawing",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: zine, printed matter, book fair, exhibition, memory, architecture, place, watercolor, drawing, painting"
+      "Keyword hits: zine, printed matter, book fair, exhibition, memory, architecture, watercolor, drawing, painting, paper"
     ],
     "fit_keyword_hits": [
       "zine",
@@ -31,7 +31,6 @@
       "exhibition",
       "memory",
       "architecture",
-      "place",
       "watercolor",
       "drawing",
       "painting",
@@ -49,10 +48,10 @@
   {
     "title": "Browse opportunities | CuratorSpace",
     "organization": "CuratorSpace",
-    "category": "zine_print",
+    "category": "residency",
     "city": "Online",
     "country": "Global",
-    "overall_score": 8.5,
+    "overall_score": 7.2,
     "prestige_score": 0,
     "difficulty_score": 0,
     "confidence_level": "medium",
@@ -64,23 +63,20 @@
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate discovered from CuratorSpace. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: zine, open call, submission, residency, exhibition, artist-run, place, drawing",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: open call, submission, residency, exhibition, memory, place",
     "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
     "three_bullets": [
       "Automatically discovered candidate.",
       "Needs verification before being treated as actionable.",
-      "Keyword hits: zine, open call, submission, residency, exhibition, artist-run, place, drawing, painting"
+      "Keyword hits: open call, submission, residency, exhibition, memory, place"
     ],
     "fit_keyword_hits": [
-      "zine",
       "open call",
       "submission",
       "residency",
       "exhibition",
-      "artist-run",
-      "place",
-      "drawing",
-      "painting"
+      "memory",
+      "place"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -201,44 +197,6 @@
       "watercolour",
       "painting",
       "paper"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-    "organization": "CuratorSpace",
-    "category": "zine_print",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 6.1,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/open-call-for-artist-residency/10235",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: zine, open call, residency",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: zine, open call, residency"
-    ],
-    "fit_keyword_hits": [
-      "zine",
-      "open call",
-      "residency"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -508,9 +466,9 @@
     ]
   },
   {
-    "title": "RuptureXIBIT Invitational Residency for Visual Artists & Writers RuptureXIBIT is an inclus",
+    "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
     "organization": "CuratorSpace",
-    "category": "residency",
+    "category": "photo_open_call",
     "city": "Online",
     "country": "Global",
     "overall_score": 5.4,
@@ -519,26 +477,102 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/rupturexibit-invitational-artists-residency/10025",
-    "submission_page": "",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/audio-work-required--artists-and-friends-podcast--open-call/1594",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: residency, artist-run",
+    "why_this_fits_short": "Possible fit based on link text: open call, exhibition",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: residency, artist-run"
+      "Keyword hits: open call, exhibition"
     ],
     "fit_keyword_hits": [
-      "residency",
-      "artist-run"
+      "open call",
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
     "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society",
+    "organization": "Tokyo Illustrators Society",
+    "category": "illustration_society",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://www.tis-home.com/",
+    "official_website": "https://www.tis-home.com/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from Tokyo Illustrators Society. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: memory, illustration",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: memory, illustration"
+    ],
+    "fit_keyword_hits": [
+      "memory",
+      "illustration"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー",
+    "organization": "Design Festa Gallery",
+    "category": "gallery_event",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 5.4,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "medium",
+    "verification_status": "partial",
+    "source_type": "scraped_candidate",
+    "source_url": "https://designfestagallery.com/",
+    "official_website": "https://designfestagallery.com/",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate discovered from Design Festa Gallery. Needs manual verification before recommendation.",
+    "why_this_fits_short": "Potential fit based on source context and keyword overlap: exhibition, place",
+    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
+    "three_bullets": [
+      "Automatically discovered candidate.",
+      "Needs verification before being treated as actionable.",
+      "Keyword hits: exhibition, place"
+    ],
+    "fit_keyword_hits": [
+      "exhibition",
+      "place"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "submission process",
       "deadline",
       "fees",
       "contact"
@@ -645,80 +679,6 @@
     ],
     "fit_keyword_hits": [
       "place"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "【東京イラストレーターズ・ソサエティ（TIS）】Tokyo Illustrators Society",
-    "organization": "Tokyo Illustrators Society",
-    "category": "gallery_event",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.95,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://www.tis-home.com/",
-    "official_website": "https://www.tis-home.com/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate discovered from Tokyo Illustrators Society. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: illustration",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
-    "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: illustration"
-    ],
-    "fit_keyword_hits": [
-      "illustration"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "submission process",
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "DESIGN FESTA GALLERY | 全てのアーティストのためのギャラリー",
-    "organization": "Design Festa Gallery",
-    "category": "gallery_event",
-    "city": "",
-    "country": "Japan",
-    "overall_score": 4.95,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "medium",
-    "verification_status": "partial",
-    "source_type": "scraped_candidate",
-    "source_url": "https://designfestagallery.com/",
-    "official_website": "https://designfestagallery.com/",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate discovered from Design Festa Gallery. Needs manual verification before recommendation.",
-    "why_this_fits_short": "Potential fit based on source context and keyword overlap: exhibition",
-    "quick_action": "Open source, verify current opportunities, submission process, fees, deadline, and contact.",
-    "three_bullets": [
-      "Automatically discovered candidate.",
-      "Needs verification before being treated as actionable.",
-      "Keyword hits: exhibition"
-    ],
-    "fit_keyword_hits": [
-      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -875,9 +835,9 @@
     ]
   },
   {
-    "title": "Daniel Shepard Straffon All Lover the Place: NYC [Poster] Posters $70.00 Signed",
+    "title": "Felix Burrichter PIN-UP Magazine Issue 40: The Independence Issue Periodicals $42.00 Recen",
     "organization": "Printed Matter",
-    "category": "art_book",
+    "category": "zine_print",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -886,21 +846,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71186",
-    "official_website": "https://www.printedmatter.org/catalog/71186",
+    "source_url": "https://www.printedmatter.org/catalog/71287",
+    "official_website": "https://www.printedmatter.org/catalog/71287",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from Printed Matter.",
-    "why_this_fits_short": "Possible fit based on link text: place",
+    "why_this_fits_short": "Possible fit based on link text: zine",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: place"
+      "Keyword hits: zine"
     ],
     "fit_keyword_hits": [
-      "place"
+      "zine"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -911,9 +871,9 @@
     ]
   },
   {
-    "title": "Daniel Shepard Straffon All Lover the Place: Japan [Poster] Posters $70.00 Signed",
+    "title": "Zab Shavrick house zine Books $28.00 Featured at LAABF Recent Arrival",
     "organization": "Printed Matter",
-    "category": "art_book",
+    "category": "zine_print",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -922,21 +882,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71185",
-    "official_website": "https://www.printedmatter.org/catalog/71185",
+    "source_url": "https://www.printedmatter.org/catalog/71278",
+    "official_website": "https://www.printedmatter.org/catalog/71278",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from Printed Matter.",
-    "why_this_fits_short": "Possible fit based on link text: place",
+    "why_this_fits_short": "Possible fit based on link text: zine",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: place"
+      "Keyword hits: zine"
     ],
     "fit_keyword_hits": [
-      "place"
+      "zine"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -947,9 +907,9 @@
     ]
   },
   {
-    "title": "Daniel Shepard Straffon All Lover the Place: Indonesia [Poster] Posters $70.00 Signed",
+    "title": "Jana Zatvarnická The Silver Moon Limited Edition [Magazine + Print] Vol. 1 Editions $120.0",
     "organization": "Printed Matter",
-    "category": "art_book",
+    "category": "zine_print",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -958,21 +918,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71184",
-    "official_website": "https://www.printedmatter.org/catalog/71184",
+    "source_url": "https://www.printedmatter.org/catalog/71272",
+    "official_website": "https://www.printedmatter.org/catalog/71272",
     "submission_page": "",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from Printed Matter.",
-    "why_this_fits_short": "Possible fit based on link text: place",
+    "why_this_fits_short": "Possible fit based on link text: zine",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: place"
+      "Keyword hits: zine"
     ],
     "fit_keyword_hits": [
-      "place"
+      "zine"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -983,7 +943,7 @@
     ]
   },
   {
-    "title": "Daniel Shepard Straffon All Lover the Place: Mexico [Poster] Posters $70.00 Signed",
+    "title": "Katelyn Calimag Moving Places and What We Carry Books $25.00 Recent Arrival",
     "organization": "Printed Matter",
     "category": "art_book",
     "city": "Online",
@@ -994,116 +954,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71183",
-    "official_website": "https://www.printedmatter.org/catalog/71183",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Printed Matter.",
-    "why_this_fits_short": "Possible fit based on link text: place",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: place"
-    ],
-    "fit_keyword_hits": [
-      "place"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Daniel Shepard Straffon All Lover the Place: Thailand [Poster] Posters $70.00 Signed",
-    "organization": "Printed Matter",
-    "category": "art_book",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71181",
-    "official_website": "https://www.printedmatter.org/catalog/71181",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Printed Matter.",
-    "why_this_fits_short": "Possible fit based on link text: place",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: place"
-    ],
-    "fit_keyword_hits": [
-      "place"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Daniel Shepard Straffon All Lover the Place: Sticker Pack Ephemera $18.00",
-    "organization": "Printed Matter",
-    "category": "art_book",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71177",
-    "official_website": "https://www.printedmatter.org/catalog/71177",
-    "submission_page": "",
-    "deadline": "",
-    "fees": "",
-    "one_sentence": "Candidate link discovered from Printed Matter.",
-    "why_this_fits_short": "Possible fit based on link text: place",
-    "quick_action": "Open and verify whether this is current and relevant.",
-    "three_bullets": [
-      "Discovered from source link list.",
-      "Needs manual verification.",
-      "Keyword hits: place"
-    ],
-    "fit_keyword_hits": [
-      "place"
-    ],
-    "reject_keyword_hits": [],
-    "manual_review_needed": true,
-    "missing_fields": [
-      "deadline",
-      "fees",
-      "contact"
-    ]
-  },
-  {
-    "title": "Daniel Shepard Straffon All Lover the Place: Chicago [Poster] Posters $70.00 Signed",
-    "organization": "Printed Matter",
-    "category": "art_book",
-    "city": "Online",
-    "country": "Global",
-    "overall_score": 4.7,
-    "prestige_score": 0,
-    "difficulty_score": 0,
-    "confidence_level": "low",
-    "verification_status": "weak",
-    "source_type": "scraped_link_candidate",
-    "source_url": "https://www.printedmatter.org/catalog/71176",
-    "official_website": "https://www.printedmatter.org/catalog/71176",
+    "source_url": "https://www.printedmatter.org/catalog/71203",
+    "official_website": "https://www.printedmatter.org/catalog/71203",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3431,6 +3283,42 @@
     ]
   },
   {
+    "title": "2026 scovill sculpture park exhibition",
+    "organization": "ArtConnect Open Calls",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.artconnect.com/opportunity/99BuZr-JhYkc4g-ot41O9",
+    "official_website": "https://www.artconnect.com/opportunity/99BuZr-JhYkc4g-ot41O9",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
     "title": "Open Call",
     "organization": "ArtConnect Open Calls",
     "category": "photo_open_call",
@@ -3467,9 +3355,9 @@
     ]
   },
   {
-    "title": "call for artists | al-tiba9 magazine issue22",
+    "title": "open submissions for issue four",
     "organization": "ArtConnect Open Calls",
-    "category": "zine_print",
+    "category": "open_call_index",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -3478,21 +3366,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/MSjnbbgX0O5uGlAJdbot1",
-    "official_website": "https://www.artconnect.com/opportunity/MSjnbbgX0O5uGlAJdbot1",
-    "submission_page": "",
+    "source_url": "https://www.artconnect.com/opportunity/O3gkR9wE9Oib-P3D-FMAj",
+    "official_website": "https://www.artconnect.com/opportunity/O3gkR9wE9Oib-P3D-FMAj",
+    "submission_page": "https://www.artconnect.com/opportunity/O3gkR9wE9Oib-P3D-FMAj",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from ArtConnect Open Calls.",
-    "why_this_fits_short": "Possible fit based on link text: zine",
+    "why_this_fits_short": "Possible fit based on link text: submission",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: zine"
+      "Keyword hits: submission"
     ],
     "fit_keyword_hits": [
-      "zine"
+      "submission"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3503,7 +3391,7 @@
     ]
   },
   {
-    "title": "Residency",
+    "title": "residency programme for foreign choreographers",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
@@ -3514,8 +3402,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
-    "official_website": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
+    "source_url": "https://www.artconnect.com/opportunity/-kKW97f8O7OyCCJM-n1WK",
+    "official_website": "https://www.artconnect.com/opportunity/-kKW97f8O7OyCCJM-n1WK",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3539,7 +3427,7 @@
     ]
   },
   {
-    "title": "video commission residency 2026",
+    "title": "Residency",
     "organization": "ArtConnect Open Calls",
     "category": "residency",
     "city": "Online",
@@ -3550,8 +3438,8 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.artconnect.com/opportunity/4y1xCgBjIG6Kft2Grap71",
-    "official_website": "https://www.artconnect.com/opportunity/4y1xCgBjIG6Kft2Grap71",
+    "source_url": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
+    "official_website": "https://www.artconnect.com/opportunities?types=ART_RESIDENCY",
     "submission_page": "",
     "deadline": "",
     "fees": "",
@@ -3647,9 +3535,9 @@
     ]
   },
   {
-    "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
+    "title": "www.curatorspace.com",
     "organization": "CuratorSpace",
-    "category": "photo_open_call",
+    "category": "residency",
     "city": "Online",
     "country": "Global",
     "overall_score": 4.7,
@@ -3658,21 +3546,129 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
-    "official_website": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
-    "submission_page": "https://www.curatorspace.com/opportunities/detail/callback-open-call/839",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/spectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england/10630",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/spectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england/10630",
+    "submission_page": "https://www.curatorspace.com/opportunities/detail/spectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england/10630",
     "deadline": "",
     "fees": "",
     "one_sentence": "Candidate link discovered from CuratorSpace.",
-    "why_this_fits_short": "Possible fit based on link text: open call",
+    "why_this_fits_short": "Possible fit based on link text: residency",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: open call"
+      "Keyword hits: residency"
     ],
     "fit_keyword_hits": [
-      "open call"
+      "residency"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Report this?",
+    "organization": "CuratorSpace",
+    "category": "residency",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fspectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england%2F10630&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fspectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england%2F10630&redirect=%2Fopportunities",
+    "submission_page": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fspectroscope-residency-award--east-quay-open-call-for-disabled-artists-in-south-west-england%2F10630&redirect=%2Fopportunities",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: residency",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: residency"
+    ],
+    "fit_keyword_hits": [
+      "residency"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "www.curatorspace.com",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/opportunities/detail/online-solo-exhibition--publication-opportunity-become-our-featured-artist-of-the-month/10774",
+    "official_website": "https://www.curatorspace.com/opportunities/detail/online-solo-exhibition--publication-opportunity-become-our-featured-artist-of-the-month/10774",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Report this?",
+    "organization": "CuratorSpace",
+    "category": "gallery_event",
+    "city": "Online",
+    "country": "Global",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fonline-solo-exhibition--publication-opportunity-become-our-featured-artist-of-the-month%2F10774&redirect=%2Fopportunities",
+    "official_website": "https://www.curatorspace.com/report?report=%2Fopportunities%2Fdetail%2Fonline-solo-exhibition--publication-opportunity-become-our-featured-artist-of-the-month%2F10774&redirect=%2Fopportunities",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from CuratorSpace.",
+    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: exhibition"
+    ],
+    "fit_keyword_hits": [
+      "exhibition"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -3889,6 +3885,42 @@
     ],
     "fit_keyword_hits": [
       "exhibition"
+    ],
+    "reject_keyword_hits": [],
+    "manual_review_needed": true,
+    "missing_fields": [
+      "deadline",
+      "fees",
+      "contact"
+    ]
+  },
+  {
+    "title": "Memory Box 2026.06.19(金) - 2026.06.25(木)",
+    "organization": "Tokyo Illustrators Society",
+    "category": "illustration_society",
+    "city": "",
+    "country": "Japan",
+    "overall_score": 4.7,
+    "prestige_score": 0,
+    "difficulty_score": 0,
+    "confidence_level": "low",
+    "verification_status": "weak",
+    "source_type": "scraped_link_candidate",
+    "source_url": "https://www.tis-home.com/news/detail.html?id=4424&code=6",
+    "official_website": "https://www.tis-home.com/news/detail.html?id=4424&code=6",
+    "submission_page": "",
+    "deadline": "",
+    "fees": "",
+    "one_sentence": "Candidate link discovered from Tokyo Illustrators Society.",
+    "why_this_fits_short": "Possible fit based on link text: memory",
+    "quick_action": "Open and verify whether this is current and relevant.",
+    "three_bullets": [
+      "Discovered from source link list.",
+      "Needs manual verification.",
+      "Keyword hits: memory"
+    ],
+    "fit_keyword_hits": [
+      "memory"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,
@@ -4259,8 +4291,8 @@
     ]
   },
   {
-    "title": "pinpointgallery.com",
-    "organization": "Pinpoint Gallery",
+    "title": "UES PLACE – TOKYO ROUND –",
+    "organization": "Design Festa Gallery",
     "category": "gallery_event",
     "city": "",
     "country": "Japan",
@@ -4270,21 +4302,21 @@
     "confidence_level": "low",
     "verification_status": "weak",
     "source_type": "scraped_link_candidate",
-    "source_url": "https://pinpointgallery.com/schedule/katsuhikotamuraexhibition2026/",
-    "official_website": "https://pinpointgallery.com/schedule/katsuhikotamuraexhibition2026/",
+    "source_url": "https://designfestagallery.com/ues-place-tokyo-round/",
+    "official_website": "https://designfestagallery.com/ues-place-tokyo-round/",
     "submission_page": "",
     "deadline": "",
     "fees": "",
-    "one_sentence": "Candidate link discovered from Pinpoint Gallery.",
-    "why_this_fits_short": "Possible fit based on link text: exhibition",
+    "one_sentence": "Candidate link discovered from Design Festa Gallery.",
+    "why_this_fits_short": "Possible fit based on link text: place",
     "quick_action": "Open and verify whether this is current and relevant.",
     "three_bullets": [
       "Discovered from source link list.",
       "Needs manual verification.",
-      "Keyword hits: exhibition"
+      "Keyword hits: place"
     ],
     "fit_keyword_hits": [
-      "exhibition"
+      "place"
     ],
     "reject_keyword_hits": [],
     "manual_review_needed": true,

@@ -4,103 +4,103 @@ This report adjusts scores based on the original/native medium of the opportunit
 
 ## Changes
 
-- **Tokyo Art Book Fair** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **Aesthetica Art Prize** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **本店・本屋の実験室** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **START Box ササハタハツ・START Box 白鬚 2026年度利用者募集** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **Asian Cultural Council 2026 Global Grant Cycle** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Asian Cultural Council (ACC) 2026 Award Program / 亞洲文化協會 2026 年獎助計畫** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Asian Cultural Council 2026 Grants and Fellowships** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **TOKAS Residency Program 2027** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **UTRECHT** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **B&B (Book & Beer)** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **本店・本屋の実験室** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Pen Magazine — Artist Spotlight** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Route Books** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **B&B (Book & Beer)** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **In-dividual Theater：BUG Screen Week 2026** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **LOCAL Gallery・Books** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **Tokyo Art Book Fair** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **START Box ササハタハツ・START Box 白鬚 2026年度利用者募集** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **Antenna Books** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **SPBS (Shibuya Publishing Booksellers)** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **tata bookshop/gallery** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **ZINEフェス東京 (ZINE Fest Tokyo)** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **MOUNT ZINE** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Apartamento — Artist Feature** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **SUZURI — Japanese Print-on-Demand Platform** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **IlloBoom! 2026 第三屆插畫巔峰賽** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Book and Sons** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **SUZURI — Japanese Print-on-Demand Platform** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **Mona Records** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **In-dividual Theater：BUG Screen Week 2026** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **臺南市美術館 2026「TAM+展覽計畫」** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **Village Vanguard Shimokitazawa** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
 - **Still Life - 2026** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **Casa Brutus — Architecture/Art Feature** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **The Artcomplex Center of Tokyo** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Society of Women Artists** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **ACC 2026年度フェローシップおよび助成** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **2026 Global Grant Cycle - Individual Fellowship** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **Submissions - Little Press Publishing** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Kamome Roastery Tokyo** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **2026年美の起原展** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **クリスマスアート展** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Laugh & Peace Art Competition 2026** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **第29回 アート未来展** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Casa Brutus — Architecture/Art Feature** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Submissions - Little Press Publishing** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Center for Book Arts Opportunities** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Hayama Artist Residency Submission Manager - Submittable** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **SUBMISSIONS - marblepress.com** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **美術手帖 (Bijutsu Techo) — Artist Feature** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **ギャラリーへ行こう2026** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Osaka Open Call For Artists. - ARRIVAL** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Center for Book Arts Opportunities** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **Cité Internationale des Arts Artist Residency** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **MICRO/MACRO** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Koganecho Area Management Center** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Platform China BIAP Artist Residency** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Belladonna Art Competition** — 9.9 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **臺南市美術館 2026「TAM+展覽計畫」** — 9.87 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **NY公募展2026夏（NY Open Call Exhibition Summer 2026）** — 9.87 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **IlloBoom! 2026 第三屆插畫巔峰賽** — 9.8 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **OPEN SITE 11** — 9.78 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Jinny Street Gallery Open Call** — 9.7 → 10 — native: painting — translation: False — native painting/works-on-paper boost
-- **Northwest Watercolor Society 2026 Annual International Open Exhibition** — 9.6 → 10 — native: painting — translation: False — native painting/works-on-paper boost
-- **2026 ART CAPITAL Paris Grand Palais International Youth Academic Award** — 9.52 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Cité Internationale des Arts Artist Residency** — 8.78 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **全国日曜画家コンクール** — 8.74 → 9.44 — native: painting — translation: False — native painting/works-on-paper boost
-- **「国際創作者駐村計畫」** — 8.6 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Asian Cultural Council (ACC) 2026 Grant Program** — 8.56 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **CLOUDS Gallery+Coffee Koenji** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Antenna Books** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **SPBS (Shibuya Publishing Booksellers)** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **ギャラリーへ行こう2026** — 9.97 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Osaka Open Call For Artists. - ARRIVAL** — 9.97 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Jinny Street Gallery Open Call** — 9.9 → 10 — native: painting — translation: False — native painting/works-on-paper boost
+- **2026春季二科展「NIKA nika/S20号」コンクール** — 9.84 → 10 — native: painting — translation: False — native painting/works-on-paper boost
+- **2026金风车国际青年插画家大赛** — 9.84 → 10 — native: painting — translation: False — native painting/works-on-paper boost
+- **POST** — 9.84 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **美術新人賞デビュー2026（Art Newcomer Award Debut 2026）** — 9.82 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
+- **「国際創作者駐村計畫」** — 9.8 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Belladonna Art Competition** — 9.7 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **第23届「跨越国界之美2026」国际公募展** — 9.67 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **International Illustration 2026** — 9.66 → 10 — native: painting — translation: False — native painting/works-on-paper boost
+- **全国日曜画家コンクール** — 9.65 → 10 — native: painting — translation: False — native painting/works-on-paper boost
+- **2026 ART CAPITAL Paris Grand Palais International Youth Academic Award** — 9.62 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **submissions — porkbelly press** — 9.61 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **NY公募展2026夏（NY Open Call Exhibition Summer 2026）** — 9.57 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **KAMIHANGA国際プリント展2026** — 9.33 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **Tokyo Gendai 2026** — 9.1 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **表紙やカバーのデザインのお仕事** — 9.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **水彩アートの祭典「Watercolors 2026」** — 8.88 → 9.58 — native: painting — translation: False — native painting/works-on-paper boost
+- **油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展** — 8.83 → 9.53 — native: painting — translation: False — native painting/works-on-paper boost
+- **Submissions — Clavis Publishing** — 8.56 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **TOKIO ART BOOK FAIR 2026** — 8.24 → 8.59 — native: mixed — translation: True — mixed medium / possible translation
+- **Applied Arts 2026 Illustration Awards** — 7.48 → 8.18 — native: painting — translation: False — native painting/works-on-paper boost
+- **B&B Shimokitazawa** — 6.4 → 6.75 — native: mixed — translation: True — mixed medium / possible translation
+- **flotsam books** — 6.4 → 6.75 — native: mixed — translation: True — mixed medium / possible translation
 - **FY2026 Life with Art Grant** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **新進芸術家海外研修制度（Emerging Artists Overseas Training Program）** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **ACC 2026年度フェローシップおよび助成** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Art Vancouver 2026** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Kyoto Retreat Artist Residency 2026 - Open Call** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **KAMIHANGA国際プリント展2026** — 9.93 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **2026春季二科展「NIKA nika/S20号」コンクール** — 9.84 → 10 — native: painting — translation: False — native painting/works-on-paper boost
-- **Open calls - Online Database of Artist in Residence Programs in Japan** — 9.57 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展** — 8.47 → 9.17 — native: painting — translation: False — native painting/works-on-paper boost
-- **2026年度 ライフウィズアート助成 (2026 Life with Art Grant Program)** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **OPEN SITE 11** — 9.28 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Open calls - Online Database of Artist in Residence Programs in Japan** — 9.27 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **第50届　悠美会国际美术展** — 8.86 → 9.56 — native: painting — translation: False — native painting/works-on-paper boost
 - **SHIBUYA CAST. Gallery** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **International Illustration 2026** — 8.98 → 9.68 — native: painting — translation: False — native painting/works-on-paper boost
-- **LOCAL Gallery・Books** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **Mona Records** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **POST** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **Tokyo Wonder Site / TOKAS Residency** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **新進芸術家海外研修制度（Emerging Artists Overseas Training Program）** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Shimokitazawa Arts** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Open Call for the International Creator Residency Program 2026** — 9.88 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **FACE Exhibition 2026** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **2026 Global Grant Cycle - Individual Fellowship** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **文化庁文化芸術振興費補助金2026** — 9.68 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **2026博洛尼亚国际插画大赛** — 8.89 → 9.59 — native: painting — translation: False — native painting/works-on-paper boost
+- **Joy In Art 2026 Watercolor Open Exhibition (第四屆水彩展招募)** — 8.68 → 9.38 — native: painting — translation: False — native painting/works-on-paper boost
+- **ART BOX Publishing** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
 - **Gallery EF Asakusa** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **Nui. Hostel Bar & Lounge Asakusa** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **HATTIFNATT Kichijoji** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Yonchome Cafe** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Hayama Artist Residency Submission Manager - Submittable** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
 - **東京芸術文化創造発信助成 (Tokyo Arts and Culture Creation and Dissemination Grant)** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **FACE Exhibition 2026** — 9.89 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **TOKAS Open Call** — 9.6 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **International Creator Residency Program 2027** — 8.8 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **flotsam books** — 6.4 → 6.75 — native: mixed — translation: True — mixed medium / possible translation
-- **2026年度 第1期 東京芸術文化創造発信助成 カテゴリーI［単年助成］芸術創造活動** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **マイ・ディア・テディ (My Dear Teddy)** — 9.29 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **Brillia Art Award Wall 2026** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Tokyo Gendai 2026** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **Gallery 456 Exhibition Open Call 2026** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **第23届「跨越国界之美2026」国际公募展** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **BALLOND'ESSAI Shimokitazawa** — 9.83 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **3331 Arts Chiyoda** — 9.51 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **Applied Arts 2026 Illustration Awards** — 7.48 → 8.18 — native: painting — translation: False — native painting/works-on-paper boost
-- **tata bookshop/gallery** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **Village Vanguard Shimokitazawa** — 10.0 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **AAA Gallery Yokohama** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **2026 Chinese New Year Celebration Art Show** — 10.0 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **表紙やカバーのデザインのお仕事** — 8.8 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **芸術活動への助成 (Arts Activity Grant)** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **公募プログラム - トーキョーアーツアンドスペース** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **【biscuit gallery】初の公募企画「grid next : Emerging ...** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **グループ展参加アーティスト募集中 - Gallery and Links81** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **公募企画「grid next : 2025 - Emerging Artists Showcase ...** — 10.0 → 7.0 — native: unknown — translation: True — unknown native medium capped
-- **2026年度 国際助成プログラム** — 9.68 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **L-AIR 2026: Artist Residency S1-S4 Open Call - AIR_J - air-j.info** — 9.4 → 7.0 — native: unknown — translation: False — unknown native medium capped
-- **美術新人賞デビュー2026（Art Newcomer Award Debut 2026）** — 9.11 → 9.0 — native: mixed — translation: True — mixed medium / possible translation
-- **NEW AIR 2026<br>OPEN CALL for ASIA｜EVENT｜Art Center NEW** — 8.28 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **CLOUDS Gallery+Coffee Koenji** — 9.89 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **HATTIFNATT Kichijoji** — 9.77 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **2026年度 第1期 地域芸術文化活動応援助成** — 9.74 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **新進芸術家海外研修制度（特別）** — 9.74 → 7.0 — native: unknown — translation: True — unknown native medium capped
+- **Shimokitazawa Arts** — 9.69 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Yonchome Cafe** — 9.65 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **2026年度 芸術活動助成（戸部眞紀財団）** — 9.46 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **Connection Through Culture (CTC) 2026 / 文化连线基金** — 9.18 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **2026年度フェローシップおよび助成** — 9.18 → 7.0 — native: unknown — translation: False — unknown native medium capped
+- **第19回プラチナアート大賞展２０２６** — 9.14 → 9.84 — native: painting — translation: False — native painting/works-on-paper boost
+- **Watercolors 2026（水彩アートの祭典）** — 8.38 → 9.08 — native: painting — translation: False — native painting/works-on-paper boost

@@ -2,10 +2,14 @@
   "venue_name": "7artscafe",
   "venue_slug": "7artscafe",
   "memory_version": 1,
-  "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-06-13",
+  "summary": "Venue type: cafe wall / local exhibition space Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-06-24",
   "confidence": "low",
-  "future_research": [],
+  "future_research": [
+    "contact",
+    "deadline",
+    "submission process"
+  ],
   "curatorial_direction": [],
   "artist_overlap_signals": [],
   "notes": []

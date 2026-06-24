@@ -28,7 +28,9 @@ Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirement
 Watercolor-specific open call at Tokyo Art Theatre with no portfolio requirements, matching her watercolor practice.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter
+- Based in Tokyo, Japan — confirm this matches your geographic focus before investing preparation time
+- Deadline: 2026年1月31日 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026年1月31日
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

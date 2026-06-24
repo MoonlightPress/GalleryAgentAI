@@ -1,0 +1,17 @@
+{
+  "venue_name": "Jordan Schnitzer Museum of Art",
+  "venue_slug": "jordan_schnitzer_museum_of_art",
+  "memory_version": 1,
+  "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-06-24",
+  "confidence": "low",
+  "future_research": [
+    "contact",
+    "deadline",
+    "fees",
+    "submission process"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}

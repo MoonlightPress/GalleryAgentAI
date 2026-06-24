@@ -1,11 +1,11 @@
 
-REPORT GENERATED: 2026-06-04
+REPORT GENERATED: 2026-06-24
 
 # Fukuoka Art Book Fair
 
 ## 1. Quick Judgment
-**Fit score:** 7.2/10  
-**Fit band:** Strong fit  
+**Fit score:** 9.2/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Markets / Popups / Booths  
 **City:** Japan / Tokyo / Online  
@@ -28,7 +28,7 @@ Verified: Official/source website, Submission process, Deadline. Needs checking:
 Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
 
 ## 5. Existing Fit Notes
-Fukuoka Art Book Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.
+Fukuoka Art Book Fair's focus on sequenced, intimate visual narratives aligns perfectly with how GEGYjiji's daily watercolor studies of disappearing urban moments build meaning through accumulated observation rather than single iconic images. The fair's audience expects thoughtful, limited-edition printed works where delicate medium and subtle atmospheric shifts—core strengths of her practice—read more clearly than in conventional gallery settings.
 
 ## 6. Key Points
 - Fit score: 95.
@@ -51,5 +51,5 @@ Check application window, booth/table fee, required images, and whether a finish
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-04_
+_Last generated: 2026-06-24_
 

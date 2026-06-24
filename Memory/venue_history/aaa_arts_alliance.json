@@ -1,0 +1,15 @@
+{
+  "venue_name": "AAA Arts Alliance",
+  "venue_slug": "aaa_arts_alliance",
+  "memory_version": 1,
+  "summary": "Venue type: gallery Venue still needs deeper aesthetic research.",
+  "last_updated": "2026-06-24",
+  "confidence": "low",
+  "future_research": [
+    "contact",
+    "deadline"
+  ],
+  "curatorial_direction": [],
+  "artist_overlap_signals": [],
+  "notes": []
+}

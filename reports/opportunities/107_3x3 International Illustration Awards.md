@@ -1,7 +1,7 @@
 # 3x3 International Illustration Awards
 
 ## 1. Quick Judgment
-**Fit score:** 9.1/10  
+**Fit score:** 9.2/10  
 **Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Other  
@@ -28,7 +28,9 @@ Verified: Official/source website, Deadline, Fees. Needs checking: Submission pr
 Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026-03-27 (early), 2026-04-03 (final) — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026-03-27 (early), 2026-04-03 (final)
@@ -45,4 +47,4 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-08_
+_Last generated: 2026-06-24_

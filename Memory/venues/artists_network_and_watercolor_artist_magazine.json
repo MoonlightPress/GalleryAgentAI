@@ -25,12 +25,15 @@
   ],
   "missing_information": [
     "contact",
-    "fees"
+    "deadline",
+    "fees",
+    "submission process"
   ],
   "opportunity_titles": [
-    "Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛"
+    "Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛",
+    "Splash 27: The Best of Watercolor"
   ],
   "last_researched": "",
-  "created_at": "2026-06-13",
-  "updated_at": "2026-06-13"
+  "created_at": "2026-06-24",
+  "updated_at": "2026-06-24"
 }

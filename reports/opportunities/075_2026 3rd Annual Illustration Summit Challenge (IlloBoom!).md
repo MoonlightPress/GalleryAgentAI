@@ -12,7 +12,7 @@ Core public information appears present.
 
 - **Official/source website**: https://illoboom.com/2026sponsorships (verified)
 - **Submission process**: https://illoboom.com/2026sponsorships (verified)
-- **Deadline**: 2026-04-01 (verified)
+- **Deadline**: 2026年2月1日 (verified)
 - **Fees**: $150 (verified)
 - **Contact**: illoboom.com@gmail.com (verified)
 
@@ -28,10 +28,12 @@ Global illustration competition accepting all art styles and themes from student
 Global illustration competition accepting all art styles and themes from students, professionals, and enthusiasts; perfect fit for illustration artist.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026-04-01 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
-- **Deadline:** 2026-04-01
+- **Deadline:** 2026年2月1日
 - **Fees:** $150
 - **Submission page:** https://illoboom.com/2026sponsorships
 - **Source:** https://illoboom.com/2026sponsorships
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

@@ -8,31 +8,33 @@
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://www.flotsambooks.com/ (verified)
 - **Submission process**: https://www.flotsambooks.com/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Deadline**: Rolling consignment — contact @flotsambooks on Instagram (verified)
+- **Fees**: ¥13,200 (verified)
+- **Contact**: @flotsambooks (Instagram) — contact form at flotsambooks.myshopify.com/pages/contact (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Print / Zines / Bookstores.
+- Artist themes to compare against this venue: urban atmosphere, domestic stillness, cats, interior light, memory, quiet life.
+- Visual-language fit signals: still, intimate, atmospheric, nostalgic without sentimentality, attentive, quietly melancholic.
 
 ## 4. Public Opportunity Summary
-Tokyo photography/art bookshop with gallery space; primarily retail-focused with occasional artist events and exhibitions.
+Tokyo watercolor / works on paper/art bookshop with gallery space; primarily retail-focused with occasional artist events and exhibitions.
 
 ## 5. Existing Fit Notes
 Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts
 
 ## 6. Key Points
-- Artist-facing audience (photographers, designers, art book collectors) rather than general public
+- Artist-facing audience (watercolor artists, designers, art book collectors) rather than general public
 - Unclear exhibition opportunities or submission process - likely requires cold outreach
 - Low strategic visibility but emotionally comfortable exploration if in Tokyo
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** Rolling consignment — contact @flotsambooks on Instagram
+- **Fees:** ¥13,200
 - **Submission page:** https://www.flotsambooks.com/
 - **Source:** https://www.flotsambooks.com/
 
@@ -45,4 +47,4 @@ Visit if in Tokyo to assess space and build relationship naturally; not worth co
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-05-29_
+_Last generated: 2026-06-24_

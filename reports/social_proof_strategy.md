@@ -62,16 +62,40 @@ These opportunities may create disproportionate reputation value.
 - Why: The principal professional watercolor body in Japan — entry and acceptance builds local credibility and professional peer relationships within the Tokyo watercolor world.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## 水彩アートの祭典「Watercolors 2026」
+
+- Prestige: None
+- Why: Watercolor-only exhibition at Tokyo Arts Theater, 2026 Mar 7-8, accepts watercolor works up to 4号 size with no theme restrictions
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## Tokyo Art Book Fair
 
 - Prestige: None
 - Why: Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
+## submissions — porkbelly press
+
+- Prestige: None
+- Why: Porkbelly Press specializes in artist books and limited-edition publications that emphasize visual narratives and intimate observation—a natural home for GEGYjiji's daily watercolor studies of Tokyo's disappearing urban spaces and architectural moments. Her practice of sustained, quiet documentation of ephemeral cityscapes aligns with small press aesthetics that prioritize the book object itself as a vehicle for meditative, place-based work.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
 ## UTRECHT
 
 - Prestige: None
 - Why: UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## B&B (Book & Beer)
+
+- Prestige: None
+- Why: Warm, literary atmosphere that matches the quiet observation tone of your work — not a white-cube gallery, which is correct for where you are right now.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## B&B Shimokitazawa
+
+- Prestige: None
+- Why: Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## Women United ART MAGAZINE Issue XIV Summer 2026
@@ -86,12 +110,6 @@ These opportunities may create disproportionate reputation value.
 - Why: Potential fit because it belongs to a structured opportunity category where requirements, dates, fees, or submission routes can usually be verified.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
-## B&B Shimokitazawa
-
-- Prestige: None
-- Why: Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
 ## flotsam books
 
 - Prestige: None
@@ -102,6 +120,12 @@ These opportunities may create disproportionate reputation value.
 
 - Prestige: None
 - Why: Flagship fine art publication for the Japanese art world. An editorial feature here is a career-defining visibility event.
+- Strategic Value: Even a small relationship here may create downstream legitimacy.
+
+## TOKIO ART BOOK FAIR 2026
+
+- Prestige: None
+- Why: Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.
 
 ## ZINEフェス東京 (ZINE Fest Tokyo)
@@ -126,28 +150,4 @@ These opportunities may create disproportionate reputation value.
 
 - Prestige: None
 - Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Jackson's Art Prize
-
-- Prestige: None
-- Why: Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## The Artcomplex Center of Tokyo
-
-- Prestige: None
-- Why: Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## Society of Women Artists
-
-- Prestige: None
-- Why: Open exhibition context for watercolor / works on paper, drawing, or works on paper. Good candidate for direct verification.
-- Strategic Value: Even a small relationship here may create downstream legitimacy.
-
-## 本店・本屋の実験室
-
-- Prestige: None
-- Why: 本店・本屋の実験室's focus on experimental printed work and zine culture aligns naturally with GEGYjiji's daily watercolor practice—her quiet observations of Tokyo's disappearing urban moments translate directly into the intimate, serialized format that zine platforms demand. The Koenji location also positions her work within a neighborhood known for independent creative communities, where architectural and memory-based work on paper resonates with local curatorial values.
 - Strategic Value: Even a small relationship here may create downstream legitimacy.

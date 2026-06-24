@@ -1,5 +1,5 @@
 {
-  "venue_name": "OCAA (Ontario Chinese Art Association)",
+  "venue_name": "OCAA (Ontario Chinese Art Association | 安省中國美術會)",
   "venue_slug": "ocaa_ontario_chinese_art_association",
   "venue_type": "artist opportunity venue",
   "city": "Toronto",
@@ -9,7 +9,7 @@
     "http://ocaa.info"
   ],
   "categories_seen": [
-    "Institutional / Grants"
+    "Group Publication Open Call"
   ],
   "accepts_unsolicited_work": "unknown",
   "submission_style": "unknown",
@@ -24,16 +24,17 @@
     "Needs manual/web research before being treated as verified."
   ],
   "missing_information": [
+    "contact",
+    "deadline",
     "fees",
     "submission process"
   ],
   "opportunity_titles": [
-    "2026 Chinese New Year Celebration Art Show",
-    "2026 Asian Heritage Culture Art Show",
-    "Spring Flora and Fauna Art Exhibition 2026",
-    "2026 OCAA Ladies Art Exhibition"
+    "2026 Asian Heritage Culture Art Show (亞裔傳統文化藝術展)",
+    "Spring Flora and Fauna Art Exhibition 2026 (春日花鳥畫展)",
+    "2026 OCAA Ladies Art Exhibition (安美女仕畫展)"
   ],
   "last_researched": "",
-  "created_at": "2026-06-13",
-  "updated_at": "2026-06-13"
+  "created_at": "2026-06-24",
+  "updated_at": "2026-06-24"
 }

@@ -4,7 +4,7 @@
 covers the volatile *what's true right now*. When the two disagree, this file wins —
 and whoever notices the drift should fix it here. Keep this file short.
 
-_Last updated: 2026-06-21_
+_Last updated: 2026-06-24_
 
 ## The live app
 
@@ -31,6 +31,26 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 - Python pipeline: no formal suite — validate by running the pipeline and inspecting `memory/` JSON.
 
 ## Recent completed work
+
+- **2026-06-24 — monthly pass + serve-time quality guards (Claude):** Ran the full pipeline (the monthly
+  update pass): **419 opportunities live**, fresh discovery + decay archiving. **Cadence is now MONTHLY**
+  (opportunities are long-horizon) — and **before each pass, raise the Tavily pay-as-you-go LIMIT on the
+  dashboard**: this pass hit the cap ~⅓ in (718 failed lookups) so verification degraded for the back
+  two-thirds (absorbed gracefully into the Watch List; actionable surface stayed verified). Added serve-time
+  guards in `api.py`: `_deadline_passed()` (hides passed, non-recurring, non-relationship deadlines from
+  actionable sections — evaluated per request so it stays correct daily, since we only search monthly) and
+  `_listing_artifact()` (drops CuratorSpace/"Browse opportunities" index captures; also rejected at ingestion
+  in `candidate_quality_gate.py`). `url_verification_engine` got a 14-day `last_verified` TTL. Saffron path
+  sections (Licensing/Grants/Revenue/Press) gained a "Where to start" callout; revenue corrected to her actual
+  **BASE shop** (gegyjiji.base.shop, not SUZURI). Saffron zh **auto-translation wired** (engine →
+  `memory/translation_cache.json` → api `_i18n`, 100% payload coverage). Hero rotating classical-Chinese poem;
+  dismissible companion intros (Mochi/Saffron/Peppercorn). **Known limitation:** email drafts are write-once
+  (`ibm_email_writer` only fills *missing* `email_ja`/`email_en`) AND Peppercorn saves the statement to
+  `peppercorn_profile.json` while the writer reads `artist_master_profile.json` — so editing her statement does
+  **not** refresh existing drafts.
+- **2026-06-22 — REVERTED the Codex illustrated section headers** (the two 2026-06-21 entries just below):
+  Scott didn't like them. `frontend/public/section-art/*.webp` removed, header CSS restored. **Those headers are
+  not live** — the two notes below are historical only.
 
 - **Compact illustrated watercolor section headers** (Codex, 2026-06-21; commit `1940cba3`): replaced
   Mochi's emoji-plus-title browse headings with 11 section-specific watercolor scenes. Localized live titles

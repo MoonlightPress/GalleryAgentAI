@@ -28,7 +28,9 @@ Jackson's Art Prize is a watercolor / works on paper prize source in Global for 
 Watercolor / Works On Paper prize / works-on-paper friendly opportunity. Useful for credibility if submission terms fit.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 2026-02-11 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2026-02-11
@@ -45,4 +47,4 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

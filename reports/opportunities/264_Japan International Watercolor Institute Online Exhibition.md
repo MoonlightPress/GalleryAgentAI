@@ -1,8 +1,8 @@
 # Japan International Watercolor Institute Online Exhibition
 
 ## 1. Quick Judgment
-**Fit score:** 7.1/10  
-**Fit band:** Strong fit  
+**Fit score:** 9.6/10  
+**Fit band:** Excellent fit  
 **Confidence:** High  
 **Type:** Japan Watercolor Open Call  
 **City:** Online / Niigata  
@@ -47,4 +47,4 @@ Apply January 2027. Submit JPG to jiwi2027@iacn.jp with artwork details and pay 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

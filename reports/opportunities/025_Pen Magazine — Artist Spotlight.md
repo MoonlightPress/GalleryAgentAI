@@ -28,7 +28,9 @@ Tokyo lifestyle/design magazine. Artist features for creatives with distinct vis
 Tokyo's design-literate audience. Urban watercolor + Tokyo documentation = strong editorial angle for Pen readers.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Contact information or submission guidelines may require direct research
 
 ## 7. Submission / Logistics
 - **Deadline:** ongoing
@@ -45,4 +47,4 @@ Frame pitch as 'artist documenting Tokyo's changing architecture' — not just '
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

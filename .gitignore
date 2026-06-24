@@ -16,3 +16,7 @@ logs/
 
 # Local junk
 temp/
+
+# local backups / sandbox reset points
+_prewipe_backup_*/
+_sandbox_reset_point/

@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-01
+REPORT GENERATED: 2026-06-24
 
 # B&B Shimokitazawa
 
@@ -11,13 +11,13 @@ REPORT GENERATED: 2026-06-01
 **City:** Tokyo  
 
 ## 2. Verification Status
-Verified: Official/source website, Submission process, Deadline, Fees. Needs checking: Contact.
+Core public information appears present.
 
 - **Official/source website**: https://bookandbeer.com/ (verified)
 - **Submission process**: https://bookandbeer.com/ (verified)
-- **Deadline**: Not publicly listed (verified)
-- **Fees**: Not publicly listed (verified)
-- **Contact**: Not publicly listed (needs_inquiry)
+- **Deadline**: 2026年06月06日 (verified)
+- **Fees**: Free (verified)
+- **Contact**: @books_and_beer_ (Instagram) / TEL: 03-6450-8272 (verified)
 
 ## 3. Why This May Fit the Artist
 - Opportunity type: Print / Zines / Bookstores.
@@ -36,8 +36,8 @@ Aligns with your comfort for low-key cultural spaces and Japan focus, but unclea
 - Better suited for artists with existing Japan presence or publication-based work
 
 ## 7. Submission / Logistics
-- **Deadline:** Not publicly listed
-- **Fees:** Not publicly listed
+- **Deadline:** 2026年06月06日
+- **Fees:** Free
 - **Submission page:** https://bookandbeer.com/
 - **Source:** https://bookandbeer.com/
 
@@ -50,5 +50,5 @@ Research current programming to see if they feature visual artists or primarily 
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-01_
+_Last generated: 2026-06-24_
 

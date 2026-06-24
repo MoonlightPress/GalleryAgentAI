@@ -28,7 +28,9 @@ Koenji storybook-aesthetic cafe known for artists and warm interiors — highest
 The warmth, intimacy, cats, and interior light of GEGYjiji's work maps directly onto HATTIFNATT's storybook sensibility. Highest visual fit score in cafe category.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Visit in Tokyo — Koenji, Japan to see the space and speak with the manager about upcoming exhibition slots
+- Based in Tokyo — Koenji, Japan — confirm this matches your geographic focus before investing preparation time
+- Deadline: No fixed deadline — proposal-based — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** No fixed deadline — proposal-based
@@ -45,4 +47,4 @@ Phone 03-6762-8122 to ask about exhibition or wall display at the Koenji locatio
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

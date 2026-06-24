@@ -1,5 +1,5 @@
 
-REPORT GENERATED: 2026-06-09
+REPORT GENERATED: 2026-06-24
 
 # World Illustration Awards
 
@@ -31,7 +31,9 @@ World Illustration Awards is a illustration award source in Global for watercolo
 Potential native watercolor / works on paper or works-on-paper venue. Needs verification before recommendation.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: March 31, 2026, 23:59 UTC — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** March 31, 2026, 23:59 UTC
@@ -48,5 +50,5 @@ Verify current submission, exhibition, or contact details before recommending.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_
 

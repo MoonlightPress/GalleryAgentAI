@@ -25,10 +25,12 @@ Core public information appears present.
 Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
 
 ## 5. Existing Fit Notes
-Watercolor-specific open call with submission period through February 26 and exhibition planned December 2026.
+A watercolor-specific exhibition aligns directly with her medium and daily observational practice of capturing Tokyo's fleeting urban moments and architectural details. The December 2026 timeline gives her runway to develop a cohesive body of work while the international open call provides visibility beyond her current 90k Instagram following.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Submit your strongest 3-5 works — open calls are judged quickly and first impressions matter
+- Based in International — confirm this matches your geographic focus before investing preparation time
+- Deadline: 2月26日 (February 26) — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 2月26日 (February 26)
@@ -45,4 +47,4 @@ Verify submission page and deadline before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

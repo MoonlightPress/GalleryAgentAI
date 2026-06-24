@@ -28,7 +28,9 @@ Tokyo-based grant supporting projects that integrate contemporary art into every
 The grant's mission to integrate art into everyday urban life directly mirrors GEGYjiji's practice of capturing transient architectural moments and quiet Tokyo spaces through watercolor—her daily observation ritual naturally aligns with projects that embed contemporary art into the city's lived experience. Her 90k-follower platform and early Tier 2 visibility position her as an emerging artist ready to realize the kind of place-based, community-embedded work this grant prioritizes.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Read the full eligibility criteria before investing time in an application — grants have specific career-stage requirements
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Deadline: 14:00 on Monday, June 29, 2026 — confirm on the official site before submitting
 
 ## 7. Submission / Logistics
 - **Deadline:** 14:00 on Monday, June 29, 2026
@@ -45,4 +47,4 @@ Verify eligibility and current cycle at the official website before applying.
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

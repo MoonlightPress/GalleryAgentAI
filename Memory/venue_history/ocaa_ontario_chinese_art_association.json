@@ -1,11 +1,13 @@
 {
-  "venue_name": "OCAA (Ontario Chinese Art Association)",
+  "venue_name": "OCAA (Ontario Chinese Art Association | 安省中國美術會)",
   "venue_slug": "ocaa_ontario_chinese_art_association",
   "memory_version": 1,
   "summary": "Venue type: artist opportunity venue Venue still needs deeper aesthetic research.",
-  "last_updated": "2026-06-13",
+  "last_updated": "2026-06-24",
   "confidence": "low",
   "future_research": [
+    "contact",
+    "deadline",
     "fees",
     "submission process"
   ],

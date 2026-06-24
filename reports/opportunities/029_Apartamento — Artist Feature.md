@@ -28,7 +28,9 @@ International lifestyle/culture magazine with warm everyday-life aesthetic. Disc
 Her intimate urban interiors and everyday Tokyo documentation is perfectly on-brand for Apartamento's audience. The 'foreigner observing Tokyo' angle is strong.
 
 ## 6. Key Points
-- No bullet analysis stored yet.
+- Check the official website for current submission guidelines and open call status
+- Verify current status at the official site before investing time — websites change and open calls close early
+- Contact information or submission guidelines may require direct research
 
 ## 7. Submission / Logistics
 - **Deadline:** ongoing
@@ -45,4 +47,4 @@ Not pitch-based. Be visible at Tokyo Art Book Fair and book events. Connect with
 ## 10. Inquiry Need
 If submission/contact details are missing, generate a short inquiry email instead of presenting the opportunity as fully verified.
 
-_Last generated: 2026-06-09_
+_Last generated: 2026-06-24_

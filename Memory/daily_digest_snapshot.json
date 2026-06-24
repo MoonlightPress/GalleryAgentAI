@@ -1,9 +1,6 @@
 {
-  "date": "2026-06-13",
+  "date": "2026-06-24",
   "ibm_names": [
-    "ギャラリーへ行こう2026",
-    "International Creator Residency Program 2027",
-    "ZINEフェス東京 (ZINE Fest Tokyo)",
     "アートオリンピア2026",
     "Zine & Book フェス in 神保町 (Jimbocho)",
     "Tokyo Art Book Fair",
@@ -13,14 +10,12 @@
     "MOUNT ZINE",
     "Book and Sons",
     "B&B Shimokitazawa",
-    "flotsam books"
+    "flotsam books",
+    "TOKYO ART BOOK FAIR 2026"
   ],
   "ibm_scores": {
-    "ギャラリーへ行こう2026": 9.1,
-    "International Creator Residency Program 2027": 7.9,
-    "ZINEフェス東京 (ZINE Fest Tokyo)": 9.2,
     "アートオリンピア2026": 9.6,
-    "Zine & Book フェス in 神保町 (Jimbocho)": 5.3,
+    "Zine & Book フェス in 神保町 (Jimbocho)": 6.3,
     "Tokyo Art Book Fair": 9.6,
     "第113回 日本水彩展": 9.6,
     "CSPWC Annual Open Water International Exhibition": 9.6,
@@ -28,7 +23,8 @@
     "MOUNT ZINE": 9.2,
     "Book and Sons": 8.8,
     "B&B Shimokitazawa": 8.3,
-    "flotsam books": 8.3
+    "flotsam books": 8.3,
+    "TOKYO ART BOOK FAIR 2026": 7.4
   },
-  "opportunity_count": 380
+  "opportunity_count": 522
 }
