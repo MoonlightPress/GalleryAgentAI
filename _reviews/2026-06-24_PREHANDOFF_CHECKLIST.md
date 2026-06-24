@@ -11,6 +11,41 @@ self-reported coverage number — that's the trap that ate a whole day (see §1)
 
 ---
 
+## STATUS — overnight pass (2026-06-25, while Scott slept)
+
+**⚠️ NOT YET DEPLOYED — these fixes are committed to source/`main` but the LIVE site still shows the old
+build + old backend.** A full rebuild + deploy (and a server-side backend restart) is needed to make them
+visible. Do that deliberately and atomically (see §3.4 — the partial-deploy hazard is real; tonight's Saffron
+blank came from exactly this).
+
+**Done & verified this pass (committed to `main`):**
+- ✅ **§1 Saffron render bug** — already fixed earlier by the mochi session (`localizeDeep` + `lang` threaded +
+  4 `had_zh` arrays added). Confirmed in source.
+- ✅ **§3.3 Money gate** (`68c5febd`) — the 4 translation engines are now in `PAID_STEPS`; verified the
+  unattended maintenance pass can no longer run them. The 6/30 spend risk is closed.
+- ✅ **"nothing has links" (calendar + all sections)** (`b2bdec21`) — added a click-through `open` link to every
+  `OppCard`. Verified live on the dev server: 43 cards now link out (was ~3 on the page); real hrefs.
+- ✅ **§4.6 Closed fair in "best actions"** (`d9444cd1`) — `_ibm_eligible` now excludes `status=closed`.
+  Verified: 0 closed items IBM-eligible, 139 legitimate ones still eligible.
+
+**Deliberately NOT done unattended (need supervision, a paid run, or server/SSH) — for the next pass:**
+- **Calendar "not a real calendar" feel** — the month grid IS real but small and buried under the long 30-day
+  list. This is a design/layout call (make the grid primary? collapse the list?) — left for Scott's eye, not
+  guessed at overnight. The English on it is mostly proper-noun titles (`opp.name` with no `name_zh`) + city
+  strings; decide per-item whether to localize or leave (most award names are legitimately English).
+- **§4.7 Backend `_load_json` crash-safety** — ~40 `json.loads` call sites, several already in try/except.
+  A blanket refactor is too risky to do unattended against the serving app. Spec: add `_load_json(path, default)`
+  and apply to the hot GET readers first (`/api/opportunities`, `/api/saffron`, `/api/contacts`,
+  `/api/peppercorn`, `/api/career_strategy`). Low severity (only bites on an interrupted write).
+- **§4.8 Deadline-parser unification** — importing `deadline_normaliser`'s parser into `api.py:_deadline_passed`
+  changes what gets hidden; medium risk, wanted supervised + tested.
+- **§2.2 Email feedback loop** — the profile-source unification is a code fix, but a refreshed draft needs a
+  PAID regen — left for Scott's go.
+- **§2.1 Server autonomy + §3.4 nginx/SSL reconcile** — infra/SSH; mochi already offered to set up nginx. Not
+  touched (no unattended SSH to production).
+
+---
+
 ## 0. The meta-lesson (read first — this is why the translation work looped all day)
 
 The translation engines translate **pipeline data** and then report "100% coverage." That report is true *about
