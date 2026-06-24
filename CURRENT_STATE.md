@@ -176,6 +176,12 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
   `MochiWeeklyPipeline` task fires ≈Thu 6/30 — gate or disable. (3) Durability: server autonomy is laptop-driven
   (`last_run.json`=failed 6/23) and the Peppercorn→email-draft feedback loop is broken. **Always verify against
   the rendered page, not the engine's self-reported coverage.**
+  - **Session 2 (2026-06-25) — DEPLOYED & verified live:** "Why Mochi picked it" moved off the card face into
+    Details under "Mochi notes" (`5c48a496`); Saffron 日历 is now a LITERAL month-grid calendar with every list
+    row linked + localized (`5c48a496`); Saffron money-tab English killed — localize the revenue/grant/licensing
+    components + translate the missing grant country/amount/deadline & labels (`9f980713`, 31→11 English, all
+    remaining are proper nouns). Verified on prod: calendar grid (18 deadline-days), 171/171 list links, card
+    face clean, Mochi-notes in Details, money tab proper-nouns-only, 0 console errors.
   - **Overnight pass 2026-06-25 — DEPLOYED & verified live** (via `bash deploy.sh`, atomic rsync; Saffron
     confirmed not-blank, 0 console errors, 42 cards link out): every OppCard now has a click-through link
     (`b2bdec21`), the Mochi calendar view-toggle is sticky so you can get back (`7cb349f6`), `status=closed`
