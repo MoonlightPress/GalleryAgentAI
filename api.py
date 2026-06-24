@@ -12,7 +12,7 @@ from fastapi import FastAPI, HTTPException, Request, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from pydantic import BaseModel
-from recommendation_readiness import assess_actionability
+from recommendation_readiness import assess_actionability, RELATIONSHIP_CATEGORIES
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -635,6 +635,72 @@ def _pure_photography_noise(item: dict) -> bool:
     return "watercolor" not in accepted and "painting" not in accepted and "artist book" not in accepted
 
 
+_MONTHS_EN = {m[:3]: i for i, m in enumerate(
+    ["january", "february", "march", "april", "may", "june", "july", "august",
+     "september", "october", "november", "december"], 1)}
+_RECURRING_HINTS = (
+    "rolling", "ongoing", "no fixed", "no deadline", "year-round", "year round",
+    "annual", "twice", "every year", "yearly", "recurring", "quarterly", "monthly",
+    "seasonal", "proposal", "evergreen", "tbd", "unknown", "varies",
+)
+
+
+def _deadline_passed(item: dict) -> bool:
+    """True only when a concrete, non-recurring deadline date is clearly in the past.
+    Evaluated at serve time so a deadline that passes between monthly passes is caught
+    the same day, not a month later."""
+    # Relationship/consignment venues are evergreen — a date in their deadline
+    # field is an event note, not a binding cutoff. Never archive them on it.
+    if item.get("category") in RELATIONSHIP_CATEGORIES:
+        return False
+    raw = str(item.get("deadline") or "").strip()
+    if not raw:
+        return False
+    low = raw.lower()
+    if any(h in low for h in _RECURRING_HINTS):
+        return False
+    today = datetime.now().date()
+    for pat, ymd in (
+        (r"(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})", (1, 2, 3)),          # ISO 2026-06-08
+        (r"(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", (1, 2, 3)),  # 2026年6月8日
+    ):
+        m = re.search(pat, raw)
+        if m:
+            try:
+                return datetime(int(m[ymd[0]]), int(m[ymd[1]]), int(m[ymd[2]])).date() < today
+            except Exception:
+                pass
+    m = re.search(r"([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s+(20\d{2})", raw)   # March 31, 2026
+    if m and m[1][:3].lower() in _MONTHS_EN:
+        try:
+            return datetime(int(m[3]), _MONTHS_EN[m[1][:3].lower()], int(m[2])).date() < today
+        except Exception:
+            pass
+    m = re.search(r"(20\d{2})\s*年\s*(\d{1,2})\s*月", raw)               # 2026年6月 (no day)
+    if m:
+        try:
+            return (int(m[1]), int(m[2])) < (today.year, today.month)
+        except Exception:
+            pass
+    return False
+
+
+def _listing_artifact(item: dict) -> bool:
+    """Drop listing-page / nav captures scraped as if they were opportunities
+    (a platform's 'Browse opportunities' index, not a specific open call)."""
+    name = (item.get("name") or "").strip().lower()
+    title = (item.get("title") or "").strip().lower()
+    blob = f"{name} {title}"
+    if "browse opportunities" in blob or "browse open calls" in blob:
+        return True
+    bare = {
+        "curatorspace", "curatorspace open calls", "www.curatorspace.com",
+        "curatorspace.com", "opportunities", "all opportunities", "open calls",
+        "submissions", "home", "search results",
+    }
+    return name in bare or title in bare
+
+
 def by_display_score(cards: list) -> list:
     return sorted(cards, key=_ranked_score, reverse=True)
 
@@ -657,6 +723,7 @@ def load_opportunities() -> list:
         and x.get("status") != "permanently_closed"
         and x.get("recommendation_visibility") != "hidden"
         and not _pure_photography_noise(x)
+        and not _listing_artifact(x)
         and _opp_id(x) not in suppressed
         and x.get("category") not in suppressed_cats
     ]
@@ -709,6 +776,7 @@ def bucket(items: list) -> dict:
         x for x in scored
         if x.get("exclusive_primary_bucket") == "immediate_best_moves"
         and _ibm_eligible(x)
+        and not _deadline_passed(x)
         and not _match_submission(x, _pending_names)   # suppress if already applied (pending)
         and not _match_submission(x, _rejected_names)  # suppress if rejected
     ]
@@ -728,6 +796,7 @@ def bucket(items: list) -> dict:
             if x.get("category") in cats and _opp_id(x) not in used
             and x.get("exclusive_primary_bucket") not in {"stretch_targets", "research_needed"}
             and x.get("status") != "closed_this_cycle"
+            and not _deadline_passed(x)
         ]
         used.update(_opp_id(x) for x in section)
         buckets[key] = by_display_score([shape_card(x) for x in section])
