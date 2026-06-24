@@ -1,4 +1,4 @@
-import { useState, lazy, Suspense } from 'react'
+import { useState, useEffect, useRef, lazy, Suspense } from 'react'
 import './App.css'
 import { LanguageProvider, useLanguage } from './i18n/LanguageContext'
 import HeroSection from './components/HeroSection'
@@ -62,6 +62,23 @@ function MochiIntro() {
 export default function App() {
   const [page, setPage] = useState('discover')
   const [view, setView] = useState('cards')
+
+  // UX-research beacon: report the opening page and each page change so they
+  // show up live in Discord. Best-effort; never blocks or breaks the UI.
+  const prevPage = useRef(null)
+  useEffect(() => {
+    const from = prevPage.current
+    prevPage.current = page
+    const body = from === null ? { type: 'open', page } : { type: 'nav', page, from }
+    try {
+      fetch('/api/event', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+        keepalive: true,
+      }).catch(() => {})
+    } catch { /* ignore */ }
+  }, [page])
 
   const nav = <Nav activePage={page} onNav={setPage} />
 

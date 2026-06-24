@@ -33,6 +33,14 @@ cp "$SCRIPT_DIR/api.py"                  "$OUT/app/"
 cp "$SCRIPT_DIR/recommendation_readiness.py" "$OUT/app/"   # api.py imports this at startup — must ship together or mochi-api crashes (502)
 cp "$SCRIPT_DIR/requirements-api.txt"    "$OUT/app/"
 
+# Engine modules api.py imports at startup — must ship together or mochi-api
+# crashes on import (502), same rule as recommendation_readiness above.
+# ibm_email_writer is what the draft-regen launches (not imported by the API).
+mkdir -p "$OUT/app/engines"
+for e in profile_sync.py regen.py notify.py visit_tracking.py ibm_email_writer.py; do
+    cp "$SCRIPT_DIR/engines/$e" "$OUT/app/engines/"
+done
+
 # Opportunity data (the core dataset the API serves)
 mkdir -p "$OUT/app/deploy_data"
 cp "$SCRIPT_DIR/deploy_data/compact_opportunities.json" "$OUT/app/deploy_data/"

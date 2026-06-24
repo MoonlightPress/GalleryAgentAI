@@ -15,6 +15,8 @@ from pydantic import BaseModel
 from recommendation_readiness import assess_actionability, RELATIONSHIP_CATEGORIES
 from engines.profile_sync import apply_peppercorn_edits
 from engines.regen import spawn_draft_regen
+from engines.notify import notify_discord
+from engines.visit_tracking import register_visit, describe_event
 
 # Load .env so secrets (ANTHROPIC_API_KEY, MOCHI_DISCORD_WEBHOOK) are available
 # to this process and any draft-regen it spawns — locally and on the server.
@@ -2730,6 +2732,35 @@ async def save_saffron_answer(request: Request):
     profile["saffron_answers"] = answers
     profile["last_updated"] = datetime.now(timezone.utc).isoformat()
     ppath.write_text(json.dumps(profile, ensure_ascii=False, indent=2), encoding="utf-8")
+    return {"ok": True}
+
+
+@app.post("/api/event")
+async def track_event(request: Request):
+    """Live UX-research feed: post each navigation/open event to Discord as it
+    happens. Content-blind (which page, not what she reads). Best-effort — never
+    fails the page over a tracking hiccup."""
+    try:
+        event = await request.json()
+    except Exception:
+        event = {}
+
+    day = None
+    if (event or {}).get("type") == "open":
+        vpath = DATA_DIR / "visit_log.json"
+        try:
+            log = json.loads(vpath.read_text(encoding="utf-8")) if vpath.exists() else {}
+        except Exception:
+            log = {}
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        log, _notify, day = register_visit(log, today)
+        try:
+            vpath.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+
+    text, status = describe_event(event, day=day)
+    notify_discord(text, status=status)
     return {"ok": True}
 
 

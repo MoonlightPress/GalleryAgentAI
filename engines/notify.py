@@ -65,13 +65,12 @@ def notify_discord(
     if not webhook_url:
         return False
 
-    if poster is None:
-        import requests  # local import keeps the module import-cheap
-
-        poster = requests.post
-
     payload = build_discord_payload(message, status)
     try:
+        if poster is None:
+            import requests  # local import keeps the module import-cheap
+
+            poster = requests.post
         resp = poster(webhook_url, json=payload, timeout=timeout)
         return 200 <= getattr(resp, "status_code", 500) < 300
     except Exception:
