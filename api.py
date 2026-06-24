@@ -17,6 +17,7 @@ from engines.profile_sync import apply_peppercorn_edits
 from engines.regen import spawn_draft_regen
 from engines.notify import notify_discord
 from engines.visit_tracking import register_visit, describe_event
+from engines.backups import snapshot
 
 # Load .env so secrets (ANTHROPIC_API_KEY, MOCHI_DISCORD_WEBHOOK) are available
 # to this process and any draft-regen it spawns — locally and on the server.
@@ -50,6 +51,16 @@ DEPLOY_DIR      = Path(__file__).parent / "deploy_data"
 SUPPRESSED_PATH  = DATA_DIR / "suppressed_opportunities.json"
 SUBMISSIONS_PATH = DATA_DIR / "submission_log.json"
 CONTACTS_PATH    = DATA_DIR / "contact_memory.json"
+BACKUPS_DIR      = DATA_DIR / "backups"
+
+
+def _save_her_data(path, data):
+    """Write one of the artist's editable data files AND drop a timestamped
+    backup into memory/backups/, so an edit is never lost to a deploy that
+    overwrites server memory, a corrupt write, or future project work. The
+    backup captures the just-saved state; failures never block the save."""
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    snapshot(path, BACKUPS_DIR, datetime.now(timezone.utc))
 
 # ── In-memory cache for the 2.7MB opportunities dataset ──────────────────────
 _OPP_CACHE = None  # type: list
@@ -1108,7 +1119,7 @@ def patch_submission(sub_id: str, patch: SubmissionPatch):
     if patch.notes:
         records[idx]["notes"] = patch.notes
     records[idx]["updated_at"] = datetime.now(timezone.utc).isoformat()
-    SUBMISSIONS_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+    _save_her_data(SUBMISSIONS_PATH, records)
     return {"ok": True, "submission": records[idx]}
 
 
@@ -1127,7 +1138,7 @@ def add_submission(entry: SubmissionEntry):
         "notes":     entry.notes,
         "logged_at": datetime.now(timezone.utc).isoformat(),
     })
-    SUBMISSIONS_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+    _save_her_data(SUBMISSIONS_PATH, records)
     return {"ok": True, "count": len(records)}
 
 
@@ -2691,7 +2702,7 @@ async def save_peppercorn(request: Request):
     payload = await request.json()
     payload["last_updated"] = datetime.now(timezone.utc).isoformat()
     ppath = DATA_DIR / "peppercorn_profile.json"
-    ppath.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    _save_her_data(ppath, payload)
 
     # Propagate a statement edit into the canonical master profile (the file the
     # email-draft writer reads) and flag existing drafts stale, so her edits
@@ -2703,7 +2714,7 @@ async def save_peppercorn(request: Request):
         master = json.loads(mpath.read_text(encoding="utf-8"))
         master, changed = apply_peppercorn_edits(master, payload)
         if changed:
-            mpath.write_text(json.dumps(master, ensure_ascii=False, indent=2), encoding="utf-8")
+            _save_her_data(mpath, master)
             # Her profile changed — auto-regenerate the drafts now. Fire and
             # forget so the save stays instant; a launch failure is logged, not
             # raised, and never blocks the response.
@@ -2731,7 +2742,7 @@ async def save_saffron_answer(request: Request):
     answers[key] = value
     profile["saffron_answers"] = answers
     profile["last_updated"] = datetime.now(timezone.utc).isoformat()
-    ppath.write_text(json.dumps(profile, ensure_ascii=False, indent=2), encoding="utf-8")
+    _save_her_data(ppath, profile)
     return {"ok": True}
 
 
@@ -2781,7 +2792,7 @@ async def add_career_event(request: Request):
     entry["timestamp"] = datetime.now(timezone.utc).isoformat()
     entry.setdefault("date", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     log.insert(0, entry)  # newest first
-    path.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+    _save_her_data(path, log)
     return {"ok": True, "entry": entry}
 
 
@@ -2797,7 +2808,7 @@ async def update_career_event(event_id: str, request: Request):
         if ev.get("id") == event_id:
             if "note" in payload:
                 ev["note"] = (payload.get("note") or "").strip()
-            path.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+            _save_her_data(path, log)
             return {"ok": True, "entry": ev}
     return {"ok": False, "error": "not found"}
 
@@ -2810,7 +2821,7 @@ def delete_career_event(event_id: str):
         return {"ok": False, "error": "no log"}
     log = json.loads(path.read_text(encoding="utf-8"))
     kept = [ev for ev in log if ev.get("id") != event_id]
-    path.write_text(json.dumps(kept, ensure_ascii=False, indent=2), encoding="utf-8")
+    _save_her_data(path, kept)
     return {"ok": True, "removed": len(log) - len(kept)}
 
 
@@ -2830,7 +2841,7 @@ async def add_exhibition(request: Request):
     entry["id"] = entry.get("id") or f"{entry.get('date','')}-{entry.get('venue','').replace(' ','_')[:20]}-{len(log)}"
     entry["logged_at"] = datetime.now(timezone.utc).isoformat()
     log.append(entry)
-    path.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+    _save_her_data(path, log)
     return {"ok": True, "entry": entry}
 
 
@@ -2841,7 +2852,7 @@ def delete_exhibition(entry_id: str):
         return {"ok": True}
     log = json.loads(path.read_text(encoding="utf-8"))
     log = [e for e in log if e.get("id") != entry_id]
-    path.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+    _save_her_data(path, log)
     return {"ok": True}
 
 

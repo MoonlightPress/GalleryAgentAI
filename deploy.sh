@@ -85,8 +85,18 @@ REMOTE
 ssh $SSH_OPTS "$SERVER" "mkdir -p /tmp/mochi-app-stage"
 scp $SSH_OPTS -r "$OUT/app/." "$SERVER:/tmp/mochi-app-stage/"
 ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
-  sudo rsync -a --checksum /tmp/mochi-app-stage/ /opt/mochi/
-  sudo chown -R ubuntu:ubuntu /opt/mochi/api.py /opt/mochi/deploy_data /opt/mochi/memory
+  # Back up the server's CURRENT memory (the artist's live edits) before anything
+  # touches it — timestamped, kept on the server.
+  if [ -d /opt/mochi/memory ]; then
+    TS=$(date -u +%Y%m%dT%H%M%SZ)
+    sudo rsync -a /opt/mochi/memory/ "/opt/mochi/memory_backups/$TS/"
+    echo "  backed up server memory -> /opt/mochi/memory_backups/$TS/"
+  fi
+  # Update code + data, but DO NOT overwrite the artist's edited memory files.
+  sudo rsync -a --checksum --exclude 'memory/' /tmp/mochi-app-stage/ /opt/mochi/
+  # Seed only memory files that don't exist yet on the server (never clobber).
+  sudo rsync -a --ignore-existing /tmp/mochi-app-stage/memory/ /opt/mochi/memory/
+  sudo chown -R ubuntu:ubuntu /opt/mochi/api.py /opt/mochi/deploy_data /opt/mochi/memory /opt/mochi/engines
   sudo systemctl restart mochi-api
 REMOTE
 
