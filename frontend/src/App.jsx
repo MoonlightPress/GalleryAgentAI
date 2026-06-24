@@ -2,7 +2,7 @@ import { useState, lazy, Suspense } from 'react'
 import './App.css'
 import { LanguageProvider, useLanguage } from './i18n/LanguageContext'
 import HeroSection from './components/HeroSection'
-import Nav from './components/Nav'
+import Nav, { QuickNav } from './components/Nav'
 import TodaysFocus from './components/TodaysFocus'
 import OpportunitiesSection from './components/OpportunitiesSection'
 import DeadlineCalendar from './components/DeadlineCalendar'
@@ -71,6 +71,7 @@ export default function App() {
         {page === 'discover' && <HeroSection />}
         {page === 'discover' && nav}
         {page === 'discover' && <MochiIntro />}
+        {page === 'discover' && view === 'cards' && <QuickNav />}
         {page === 'discover' && <TodaysFocus />}
         {page === 'discover' && <ViewToggle view={view} setView={setView} />}
         {page === 'discover' && view === 'cards'    && <OpportunitiesSection />}

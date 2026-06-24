@@ -72,6 +72,27 @@
   pointer-events: none;
 }
 
+/* ── Discover section bar — mirrors Saffron's sticky tabs (.sf-tabs) ── */
+.quick-nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  background: #fdf8ee;
+  border-bottom: 1px solid #e8d5a8;
+  box-shadow: 0 3px 8px rgba(120, 90, 30, 0.06);
+}
+@media (max-width: 640px) {
+  .quick-nav-bar { overflow-x: auto; flex-wrap: nowrap; justify-content: flex-start; scrollbar-width: none; }
+  .quick-nav-bar::-webkit-scrollbar { display: none; }
+}
+
 /* ── Quick-nav row ── */
 .quick-nav-row {
   display: flex;

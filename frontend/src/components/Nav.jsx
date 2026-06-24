@@ -7,6 +7,8 @@ function scrollTo(id) {
   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
+// Top-level companion switcher + language toggle. Sits before the intro on every
+// page (matches Saffron's layout). Section navigation is the separate QuickNav bar.
 export default function Nav({ activePage, onNav }) {
   const { t, lang, setLang } = useLanguage()
 
@@ -16,23 +18,8 @@ export default function Nav({ activePage, onNav }) {
     { label: t('nav.refine'),   key: 'refine'   },
   ]
 
-  // Each entry jumps to a real section id (see SECTION_ORDER + the press/relationships
-  // sections in OpportunitiesSection / RelationshipTargets). Labels match the sections.
-  const QUICK_NAV = [
-    { label: t('nav.quick.bestMoves'),    target: 'immediate_best_moves'  },
-    { label: t('nav.quick.openCalls'),    target: 'open_calls'            },
-    { label: t('nav.quick.publication'),  target: 'publication_editorial' },
-    { label: t('nav.quick.competitions'), target: 'competitions_awards'   },
-    { label: t('nav.quick.zines'),        target: 'zines_and_print'       },
-    { label: t('nav.quick.venues'),       target: 'relationship_targets'  },
-    { label: t('nav.quick.watchList'),    target: 'watch_list'            },
-    { label: t('nav.quick.press'),        target: 'press_visibility'      },
-    { label: t('nav.quick.people'),       target: 'relationships'         },
-  ]
-
   return (
-    <nav className={`site-nav${activePage === 'discover' ? ' site-nav--sticky' : ''}`}>
-      {/* ── Companion page buttons + language toggle ── */}
+    <nav className="site-nav">
       <div className="companion-row">
         {COMPANIONS.map(c => (
           <button
@@ -53,32 +40,40 @@ export default function Nav({ activePage, onNav }) {
               >
                 {LANGUAGE_LABELS[code]}
               </button>
-              {i < LANGUAGES.length - 1 && (
-                <span className="lang-sep">·</span>
-              )}
+              {i < LANGUAGES.length - 1 && <span className="lang-sep">·</span>}
             </span>
           ))}
         </div>
       </div>
-
-      {/* ── Quick-nav only on Discover page ── */}
-      {activePage === 'discover' && (
-        <div className="quick-nav-row">
-          {QUICK_NAV.map((item, i) => (
-            <span key={item.label} className="quick-nav-group">
-              <button
-                className="quick-nav-item"
-                onClick={() => scrollTo(item.target)}
-              >
-                {item.label}
-              </button>
-              {i < QUICK_NAV.length - 1 && (
-                <span className="quick-nav-sep">·</span>
-              )}
-            </span>
-          ))}
-        </div>
-      )}
     </nav>
+  )
+}
+
+// Discover-page section nav — a sticky bar that sits below the intro and follows on
+// scroll, mirroring Saffron's section tabs. Each entry jumps to a real section id.
+export function QuickNav() {
+  const { t } = useLanguage()
+  const items = [
+    { label: t('nav.quick.bestMoves'),    target: 'immediate_best_moves'  },
+    { label: t('nav.quick.openCalls'),    target: 'open_calls'            },
+    { label: t('nav.quick.publication'),  target: 'publication_editorial' },
+    { label: t('nav.quick.competitions'), target: 'competitions_awards'   },
+    { label: t('nav.quick.zines'),        target: 'zines_and_print'       },
+    { label: t('nav.quick.venues'),       target: 'relationship_targets'  },
+    { label: t('nav.quick.watchList'),    target: 'watch_list'            },
+    { label: t('nav.quick.press'),        target: 'press_visibility'      },
+    { label: t('nav.quick.people'),       target: 'relationships'         },
+  ]
+  return (
+    <div className="quick-nav-bar">
+      {items.map((item, i) => (
+        <span key={item.label} className="quick-nav-group">
+          <button className="quick-nav-item" onClick={() => scrollTo(item.target)}>
+            {item.label}
+          </button>
+          {i < items.length - 1 && <span className="quick-nav-sep">·</span>}
+        </span>
+      ))}
+    </div>
   )
 }
