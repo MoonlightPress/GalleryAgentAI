@@ -1715,7 +1715,7 @@ function ReadinessCorrection({ t }) {
 
   async function addShow() {
     if (!title.trim()) return
-    const body = { title: title.trim(), venue: venue.trim(), date: year.trim() }
+    const body = { title: title.trim(), venue: venue.trim(), date: year.trim(), outcome: 'shown' }
     setTitle(''); setVenue(''); setYear(''); setSaved(true)
     setTimeout(() => setSaved(false), 3200)
     try {

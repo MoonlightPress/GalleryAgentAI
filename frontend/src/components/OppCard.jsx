@@ -18,47 +18,47 @@ const CAT_LABELS = {
   gallery_event:     'Gallery Event',
 }
 
-const ICONS = '/assets/icons/'
-
+// Interim emoji icons (replacing the muddy AI PNGs). To swap to watercolor symbols
+// later, restore an image map + render an <img> in place of the <span> below.
 const CAT_ICON = {
   // ── Galleries & spaces ───────────────────────────────────────────────
-  gallery:                        ICONS + 'icon_gallery.png',
-  gallery_small:                  ICONS + 'icon_gallery_small.png',
-  gallery_event:                  ICONS + 'icon_studio.png',
-  artist_space:                   ICONS + 'icon_artist_space.png',
-  event_space:                    ICONS + 'icon_studio.png',
+  gallery:                        '🖼️',
+  gallery_small:                  '🖼️',
+  gallery_event:                  '🖼️',
+  artist_space:                   '🎨',
+  event_space:                    '🎨',
   // ── Cafés & bookshops ────────────────────────────────────────────────
-  cafe_gallery:                   ICONS + 'icon_cafe_gallery.png',
-  bookstore_gallery:              ICONS + 'icon_reading_nook.png',
-  bookstore_event:                ICONS + 'icon_bookstore.png',
+  cafe_gallery:                   '☕',
+  bookstore_gallery:              '📚',
+  bookstore_event:                '📚',
   // ── Zines, books & publishing ────────────────────────────────────────
-  zine_print:                     ICONS + 'icon_zines.png',
-  book_publishing:                ICONS + 'icon_zines.png',
-  global_artist_book_platform:    ICONS + 'icon_bookstore.png',
-  global_art_book_fair:           ICONS + 'icon_fair.png',
-  global_book_arts:               ICONS + 'icon_zines.png',
-  zine_shop_consignment:          ICONS + 'icon_bookstore.png',
-  group_publication_open_call:    ICONS + 'icon_submission.png',
+  zine_print:                     '📓',
+  book_publishing:                '📖',
+  global_artist_book_platform:    '📚',
+  global_art_book_fair:           '🎪',
+  global_book_arts:               '📓',
+  zine_shop_consignment:          '📚',
+  group_publication_open_call:    '✉️',
   // ── Fairs & markets ──────────────────────────────────────────────────
-  fair_popup:                     ICONS + 'icon_fair.png',
-  zine_fair_booth:                ICONS + 'icon_fair.png',
-  market_event:                   ICONS + 'icon_art_market.png',
+  fair_popup:                     '🎪',
+  zine_fair_booth:                '🎪',
+  market_event:                   '🛍️',
   // ── Open calls & competitions ────────────────────────────────────────
-  institutional:                  ICONS + 'icon_open_call.png',
-  global_open_call:               ICONS + 'icon_open_call.png',
-  global_watercolor_open_call:    ICONS + 'icon_open_call.png',
-  japan_watercolor_open_call:     ICONS + 'icon_open_call.png',
-  japan_watercolor_institution:   ICONS + 'icon_open_call.png',
-  photo_open_call:                ICONS + 'icon_open_call.png',
-  global_photobook:               ICONS + 'icon_submission.png',
+  institutional:                  '🏛️',
+  global_open_call:               '📣',
+  global_watercolor_open_call:    '📣',
+  japan_watercolor_open_call:     '📣',
+  japan_watercolor_institution:   '🏛️',
+  photo_open_call:                '📷',
+  global_photobook:               '📷',
   // ── Residencies & fellowships ────────────────────────────────────────
-  residency:                      ICONS + 'icon_residency.png',
-  global_residency:               ICONS + 'icon_residency_intl.png',
-  global_grant_fellowship:        ICONS + 'icon_residency_intl.png',
-  residency_beijing:              ICONS + 'icon_residency.png',
+  residency:                      '🏠',
+  global_residency:               '✈️',
+  global_grant_fellowship:        '🎓',
+  residency_beijing:              '🏠',
 }
 
-const DEFAULT_ICON = ICONS + 'icon_open_call.png'
+const DEFAULT_ICON = '📣'
 
 const MEDIUM_CONFIG = {
   watercolor:   { label: '◆ Watercolor',   color: '#4a8c7a' },
@@ -124,7 +124,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
 
         {/* Header: 40×40 icon + title */}
         <div className="opp-card-header">
-          <img src={iconSrc} alt="" className="opp-card-icon" />
+          <span className="opp-card-icon" aria-hidden="true">{iconSrc}</span>
           <h3 className="opp-card-title">{loc('name')}</h3>
         </div>
 
