@@ -23,6 +23,9 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from engines.profile_sync import select_email_targets, clear_drafts_stale
+from engines.notify import notify_discord
+
 OPP_PATH     = Path("deploy_data/compact_opportunities.json")
 PROFILE_PATH = Path("memory/artist_master_profile.json")
 ANALYSIS_DIR = Path("Memory/generated_analysis")
@@ -220,6 +223,14 @@ def main():
     parser.add_argument("--limit", type=int, default=20)
     args = parser.parse_args()
 
+    # Load .env up front so both the API key and MOCHI_DISCORD_WEBHOOK (used for
+    # the end-of-run Discord ping) are present in the environment.
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except Exception:
+        pass
+
     # Load API key
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
@@ -248,15 +259,13 @@ def main():
     artist_context = load_artist_context()
 
     opps = json.loads(OPP_PATH.read_text(encoding="utf-8"))
+    master = json.loads(PROFILE_PATH.read_text(encoding="utf-8")) if PROFILE_PATH.exists() else {}
 
     # All Tier 1-2 by score, plus EVERYTHING in immediate_best_moves regardless
-    # of tier — if the system says "act on this now", the artifact to act with
-    # must exist. Skips entries that already have venue-specific drafts.
-    tier12 = [o for o in opps if o.get("career_tier") in (1, 2)
-              or o.get("exclusive_primary_bucket") == "immediate_best_moves"]
-    tier12.sort(key=lambda x: float(x.get("overall_score") or 0), reverse=True)
-    needs_email = [o for o in tier12 if not (o.get("email_ja") and o.get("email_en"))]
-    targets = needs_email[: args.limit]
+    # of tier. Normally only entries MISSING a draft are written; but when the
+    # artist edited her profile (email_drafts_stale), every eligible entry is
+    # re-targeted so her stale drafts actually refresh.
+    targets = select_email_targets(opps, master, args.limit)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -299,10 +308,26 @@ def main():
 
     # Write results back
     OPP_PATH.write_text(json.dumps(opps, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # Drafts now reflect the current profile — clear the stale flag so the next
+    # run reverts to cheap "missing only" mode. Only on a clean run; a partial
+    # failure leaves it stale so the unfinished drafts get retried next time.
+    if master.get("email_drafts_stale") and errors == 0:
+        clear_drafts_stale(master)
+        PROFILE_PATH.write_text(json.dumps(master, ensure_ascii=False, indent=2), encoding="utf-8")
+
     ok_count = len(targets) - errors
     print(f"\n{ok_count}/{len(targets)} drafts written.")
     print(f"Standalone files: {OUT_DIR}/ibm_*.txt")
     print(f"email_ja / email_en fields updated in compact_opportunities.json")
+
+    # Report the run to Discord (no-op until a webhook is configured) so an
+    # automated, unattended regen is visible — including when it fails.
+    status = "success" if errors == 0 else "failure"
+    summary = f"Draft regen: {ok_count}/{len(targets)} drafts written"
+    if errors:
+        summary += f", {errors} failed"
+    notify_discord(summary, status=status)
 
 
 if __name__ == "__main__":

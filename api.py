@@ -13,6 +13,16 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from pydantic import BaseModel
 from recommendation_readiness import assess_actionability, RELATIONSHIP_CATEGORIES
+from engines.profile_sync import apply_peppercorn_edits
+from engines.regen import spawn_draft_regen
+
+# Load .env so secrets (ANTHROPIC_API_KEY, MOCHI_DISCORD_WEBHOOK) are available
+# to this process and any draft-regen it spawns — locally and on the server.
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except Exception:
+    pass
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -2680,7 +2690,28 @@ async def save_peppercorn(request: Request):
     payload["last_updated"] = datetime.now(timezone.utc).isoformat()
     ppath = DATA_DIR / "peppercorn_profile.json"
     ppath.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    return {"ok": True, "last_updated": payload["last_updated"]}
+
+    # Propagate a statement edit into the canonical master profile (the file the
+    # email-draft writer reads) and flag existing drafts stale, so her edits
+    # actually reach her advice/drafts on the next regen. Previously the edit
+    # landed only in peppercorn_profile.json, which nothing downstream reads.
+    mpath = DATA_DIR / "artist_master_profile.json"
+    regen_started = False
+    if mpath.exists():
+        master = json.loads(mpath.read_text(encoding="utf-8"))
+        master, changed = apply_peppercorn_edits(master, payload)
+        if changed:
+            mpath.write_text(json.dumps(master, ensure_ascii=False, indent=2), encoding="utf-8")
+            # Her profile changed — auto-regenerate the drafts now. Fire and
+            # forget so the save stays instant; a launch failure is logged, not
+            # raised, and never blocks the response.
+            regen_started = spawn_draft_regen(cwd=str(Path(__file__).parent))
+
+    return {
+        "ok": True,
+        "last_updated": payload["last_updated"],
+        "regen_started": regen_started,
+    }
 
 
 @app.post("/api/saffron_answer")
