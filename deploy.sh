@@ -37,7 +37,7 @@ cp "$SCRIPT_DIR/requirements-api.txt"    "$OUT/app/"
 # crashes on import (502), same rule as recommendation_readiness above.
 # ibm_email_writer is what the draft-regen launches (not imported by the API).
 mkdir -p "$OUT/app/engines"
-for e in profile_sync.py regen.py notify.py visit_tracking.py ibm_email_writer.py; do
+for e in profile_sync.py regen.py notify.py visit_tracking.py backups.py ibm_email_writer.py; do
     cp "$SCRIPT_DIR/engines/$e" "$OUT/app/engines/"
 done
 
@@ -89,6 +89,7 @@ ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
   # touches it — timestamped, kept on the server.
   if [ -d /opt/mochi/memory ]; then
     TS=$(date -u +%Y%m%dT%H%M%SZ)
+    sudo mkdir -p "/opt/mochi/memory_backups/$TS"
     sudo rsync -a /opt/mochi/memory/ "/opt/mochi/memory_backups/$TS/"
     echo "  backed up server memory -> /opt/mochi/memory_backups/$TS/"
   fi
