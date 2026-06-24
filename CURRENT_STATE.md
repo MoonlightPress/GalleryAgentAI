@@ -176,10 +176,12 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
   `MochiWeeklyPipeline` task fires ≈Thu 6/30 — gate or disable. (3) Durability: server autonomy is laptop-driven
   (`last_run.json`=failed 6/23) and the Peppercorn→email-draft feedback loop is broken. **Always verify against
   the rendered page, not the engine's self-reported coverage.**
-  - **Overnight pass 2026-06-25 (committed to `main`, ⚠️ NOT yet deployed — needs rebuild+deploy & backend
-    restart):** money gate closed (`68c5febd`), every OppCard now has a click-through link (`b2bdec21`),
-    `status=closed` excluded from Immediate Best Moves (`d9444cd1`). Remaining items + what was deliberately left
-    for supervision are tracked at the top of `_reviews/2026-06-24_PREHANDOFF_CHECKLIST.md`.
+  - **Overnight pass 2026-06-25 — DEPLOYED & verified live** (via `bash deploy.sh`, atomic rsync; Saffron
+    confirmed not-blank, 0 console errors, 42 cards link out): every OppCard now has a click-through link
+    (`b2bdec21`), the Mochi calendar view-toggle is sticky so you can get back (`7cb349f6`), `status=closed`
+    excluded from Immediate Best Moves (`d9444cd1`). Money gate closed (`68c5febd`) — config-only, not part of
+    the deploy package (affects the laptop pipeline, not the server). Remaining items + what was deliberately
+    left for supervision are at the top of `_reviews/2026-06-24_PREHANDOFF_CHECKLIST.md`.
 
 ## Pre-launch backlog (curated from the 2026-06-19 launch-readiness audit)
 
