@@ -16,6 +16,24 @@
   box-sizing: border-box;
 }
 
+/* In calendar view the toggle pins below the nav so you can always switch back
+   (the long calendar scroll otherwise hides it). Mirrors .quick-nav-bar, which
+   occupies this slot in cards view — so we only go sticky in calendar view to
+   avoid two bars colliding at top:54px. The .active state also keeps it obvious
+   you're in calendar mode. */
+.view-toggle--sticky {
+  position: sticky;
+  top: 54px;
+  z-index: 30;
+  max-width: none;
+  justify-content: center;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  background: #fdf8ee;
+  border-bottom: 1px solid #e8d5a8;
+  box-shadow: 0 3px 8px rgba(120, 90, 30, 0.06);
+}
+
 .view-toggle-btn {
   background: transparent;
   border: 1px solid var(--gold, #c8a84b);

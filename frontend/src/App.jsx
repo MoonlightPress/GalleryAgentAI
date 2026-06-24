@@ -24,7 +24,7 @@ function PageFallback() {
 function ViewToggle({ view, setView }) {
   const { t } = useLanguage()
   return (
-    <div className="view-toggle">
+    <div className={`view-toggle${view === 'calendar' ? ' view-toggle--sticky' : ''}`}>
       <button
         className={`view-toggle-btn${view === 'cards' ? ' active' : ''}`}
         onClick={() => setView('cards')}
