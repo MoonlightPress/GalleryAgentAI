@@ -818,7 +818,7 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
               <div className="pp-sub-row-header">
                 <span className="pp-sub-venue">{s.name || s.venue}</span>
                 <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
-                  {t('pp.showOutcome.' + s.outcome) || s.outcome}
+                  {s.outcome ? t('pp.showOutcome.' + s.outcome) : ''}
                 </span>
                 {s.date && <span className="pp-sub-date">{s.date}</span>}
                 <button className="pp-edit-btn" onClick={() => deleteShow(s.id)} title={t('pp.exlog.delete')}>×</button>
@@ -1508,6 +1508,7 @@ function CareerEventWidget() {
             placeholder={t(`pp.event.detail.${editType}`)}
             autoFocus
           />
+          <button className="pp-event-detail-save" onClick={saveNote}>{t('pp.event.save')}</button>
         </div>
       )}
     </div>

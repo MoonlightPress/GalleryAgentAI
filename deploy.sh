@@ -50,6 +50,7 @@ for f in \
     suppressed_opportunities.json \
     career_strategy_report.json \
     translation_cache.json \
+    career_events.json \
     exhibition_log.json; do
     src="$SCRIPT_DIR/memory/$f"
     [ -f "$src" ] && cp "$src" "$OUT/app/memory/" || echo "  (skipping missing: $f)"

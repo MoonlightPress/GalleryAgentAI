@@ -1245,9 +1245,10 @@
 .pp-event-icon { font-style: normal; }
 .pp-event-label { white-space: nowrap; }
 
-.pp-event-detail { margin-top: 8px; }
+.pp-event-detail { margin-top: 8px; display: flex; gap: 8px; align-items: stretch; }
 .pp-event-detail-input {
-  width: 100%;
+  flex: 1;
+  min-width: 0;
   font-family: Georgia, serif;
   font-size: 13px;
   color: #5a3e20;
@@ -1257,6 +1258,19 @@
   padding: 7px 11px;
 }
 .pp-event-detail-input:focus { outline: none; border-color: #6a8a5a; }
+.pp-event-detail-save {
+  flex-shrink: 0;
+  padding: 7px 16px;
+  border: 1px solid #8fb37e;
+  background: #8fb37e;
+  color: #fff;
+  border-radius: 7px;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.pp-event-detail-save:hover { background: #7a9e6c; }
 .pp-event-btn--logged { background: #eef7e8; border-color: #8fc98a; color: #2e6626; }
 .pp-event-confirm {
   font-family: Georgia, serif;
