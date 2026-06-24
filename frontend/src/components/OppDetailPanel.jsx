@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './OppDetailPanel.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import { tfb, translatePhrase } from '../i18n/translations'
+import { isDistinct } from '../utils/textGuards.js'
 
 // "Mochi notes": the readiness flags that used to sit on the card face. The
 // reasons/reviewLabels arrays carry canonical English phrases; translatePhrase
@@ -247,7 +248,7 @@ export default function OppDetailPanel({ opp, onClose }) {
               <p>{loc('overview')}</p>
             </div>
           )}
-          {(loc('why_it_fits')) && (
+          {isDistinct(loc('why_it_fits'), loc('overview')) && (
             <div className="detail-block detail-why-fits">
               <div className="detail-label">{t('detail.label.whyFits')}</div>
               <p>{loc('why_it_fits')}</p>

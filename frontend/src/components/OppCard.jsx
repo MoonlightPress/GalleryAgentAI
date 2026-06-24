@@ -3,6 +3,7 @@ import './OppCard.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
 import { feedbackToastKey, shouldRemoveAfterFeedback } from '../utils/feedbackBehavior'
+import { isDistinct } from '../utils/textGuards.js'
 
 const CAT_LABELS = {
   gallery:           'Gallery',
@@ -166,7 +167,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
         <p className="opp-card-desc">{loc('summary')}</p>
 
         {/* Why it fits — the artist-specific signal, only when distinct from summary */}
-        {loc('why_card') && (
+        {isDistinct(loc('why_card'), loc('summary')) && (
           <p className="opp-card-why">{loc('why_card')}</p>
         )}
 

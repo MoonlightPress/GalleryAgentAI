@@ -54,6 +54,22 @@ CONTACTS_PATH    = DATA_DIR / "contact_memory.json"
 BACKUPS_DIR      = DATA_DIR / "backups"
 
 
+def _load_json(path, default=None):
+    """Read a JSON file, returning ``default`` if it's missing, empty, or
+    malformed. A file that exists but is corrupt (e.g. an interrupted write)
+    must never 500 a page — it degrades to the default instead."""
+    try:
+        path = Path(path)
+        if not path.exists():
+            return default
+        text = path.read_text(encoding="utf-8").strip()
+        if not text:
+            return default
+        return json.loads(text)
+    except Exception:
+        return default
+
+
 def _save_her_data(path, data):
     """Write one of the artist's editable data files AND drop a timestamped
     backup into memory/backups/, so an edit is never lost to a deploy that
@@ -744,7 +760,7 @@ _RECURRING_HINTS = (
 )
 
 
-def _deadline_passed(item: dict) -> bool:
+def _deadline_passed(item: dict, today=None) -> bool:
     """True only when a concrete, non-recurring deadline date is clearly in the past.
     Evaluated at serve time so a deadline that passes between monthly passes is caught
     the same day, not a month later."""
@@ -758,7 +774,7 @@ def _deadline_passed(item: dict) -> bool:
     low = raw.lower()
     if any(h in low for h in _RECURRING_HINTS):
         return False
-    today = datetime.now().date()
+    today = today or datetime.now().date()
     # Collect EVERY concrete date in the field, not just the first. A deadline that
     # lists more than one option ("Oct 31 2025 or Aug 25 2026", a "X から Y まで" range)
     # is only past once the LATEST option is past. For her, wrongly hiding a still-open
@@ -778,6 +794,12 @@ def _deadline_passed(item: dict) -> bool:
         if mon[:3].lower() in _MONTHS_EN:
             try: dates.append(datetime(int(y), _MONTHS_EN[mon[:3].lower()], int(d)).date())
             except Exception: pass
+    for mo, d, y in re.findall(r"\b(\d{1,2})/(\d{1,2})/(20\d{2})\b", raw):              # 5/26/2026 (m/d/y)
+        try: dates.append(datetime(int(y), int(mo), int(d)).date())
+        except Exception: pass
+    for mo, d, yy in re.findall(r"\b(\d{1,2})/(\d{1,2})/(\d{2})\b", raw):               # 5/26/26 (2-digit year)
+        try: dates.append(datetime(2000 + int(yy), int(mo), int(d)).date())
+        except Exception: pass
     if dates:
         return max(dates) < today
     # Day-less month-year (no concrete day): lenient — not past until the month is over.
@@ -817,7 +839,7 @@ def load_opportunities() -> list:
         return []
     mtime = path.stat().st_mtime
     if _OPP_CACHE is None or mtime != _OPP_CACHE_MTIME:
-        raw = json.loads(path.read_text(encoding="utf-8"))
+        raw = _load_json(path, [])
         _OPP_CACHE = raw if isinstance(raw, list) else raw.get("items", [])
         _OPP_CACHE_MTIME = mtime
     suppressed = _load_suppressed()
@@ -1179,9 +1201,7 @@ def _normalize_contact_priorities(contacts: list) -> list:
 
 @app.get("/api/contacts")
 def get_contacts():
-    if not CONTACTS_PATH.exists():
-        return []
-    data = json.loads(CONTACTS_PATH.read_text(encoding="utf-8"))
+    data = _load_json(CONTACTS_PATH, [])
     contacts = data.get("contacts", []) if isinstance(data, dict) else data
     contacts = _normalize_contact_priorities(contacts)
     # Sort: most-active statuses first, then alphabetically within status
@@ -1322,7 +1342,7 @@ def lookup_contact(name: str):
 def get_saffron():
     # ── Peppercorn answers (live data from artist) ────────────────────────────
     _pp_path = DATA_DIR / "peppercorn_profile.json"
-    _pp = json.loads(_pp_path.read_text(encoding="utf-8")) if _pp_path.exists() else {}
+    _pp = _load_json(_pp_path, {})
     _answers = _pp.get("saffron_answers") or {}
 
     # ── Exhibition log (from Peppercorn) ──────────────────────────────────────
@@ -1349,7 +1369,7 @@ def get_saffron():
     # career_strategy_engine._count_group_shows so the live API and the career
     # report agree. Dedup the log against profile titles to avoid double-counting.
     _amp_path = DATA_DIR / "artist_master_profile.json"
-    _amp = json.loads(_amp_path.read_text(encoding="utf-8")) if _amp_path.exists() else {}
+    _amp = _load_json(_amp_path, {})
     _profile_exhibitions = _amp.get("career_history", {}).get("exhibitions", [])
     _profile_titles = {(ex.get("title") or "").strip().lower() for ex in _profile_exhibitions}
     _profile_group_count = sum(
@@ -2655,7 +2675,7 @@ def _live_career_counts() -> dict:
 def get_peppercorn():
     ppath = DATA_DIR / "peppercorn_profile.json"
     if ppath.exists():
-        prof = json.loads(ppath.read_text(encoding="utf-8"))
+        prof = _load_json(ppath, {})
         prof["live_counts"] = _live_career_counts()
         return prof
     # Build defaults from artist_master_profile
@@ -3155,7 +3175,7 @@ def get_career_strategy():
     path = DATA_DIR / "career_strategy_report.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail="career_strategy_report.json not found — run engines/career_strategy_engine.py first")
-    return json.loads(path.read_text(encoding="utf-8"))
+    return _load_json(path, {})
 
 
 if __name__ == "__main__":
