@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Twilight Dreamworks</title>
+<style>
+  :root { --glow: #f3ecb0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; }
+  body {
+    font-family: Georgia, 'Palatino Linotype', 'Times New Roman', serif;
+    color: #f6efe2;
+    background: linear-gradient(180deg,
+      #0a0f2c 0%, #161540 26%, #2f2150 48%, #5a3258 68%, #9c5252 84%, #d68a5a 100%);
+    position: relative;
+  }
+
+  /* warm glow where the sun just set */
+  .horizon {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 55%;
+    background: radial-gradient(130% 90% at 50% 128%,
+      rgba(244,176,112,0.60), rgba(244,176,112,0) 58%);
+    pointer-events: none;
+  }
+
+  /* faint stars in the upper sky */
+  .stars { position: absolute; inset: 0; pointer-events: none; }
+  .star {
+    position: absolute; width: 2px; height: 2px; border-radius: 50%;
+    background: #fffaf0; opacity: 0.6;
+    animation: twinkle 4s ease-in-out infinite;
+  }
+  @keyframes twinkle { 0%,100%{opacity:.15} 50%{opacity:.8} }
+
+  /* layered hills */
+  .scene { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 42vh; min-height: 220px; }
+
+  /* title */
+  .title-wrap {
+    position: absolute; inset: 0; z-index: 5;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 0 24px; transform: translateY(-6vh);
+  }
+  h1 {
+    font-weight: normal;
+    font-size: clamp(36px, 7.5vw, 84px);
+    letter-spacing: 0.07em;
+    line-height: 1.05;
+    text-shadow: 0 2px 36px rgba(0,0,0,0.45), 0 0 46px rgba(243,236,176,0.22);
+  }
+  h1 .soft { display: block; font-size: 0.42em; letter-spacing: 0.34em; opacity: 0.62; margin-bottom: 0.5em; }
+  .tagline {
+    margin-top: 22px; font-style: italic;
+    font-size: clamp(14px, 2.1vw, 19px); color: #f0e6d2; opacity: 0.78;
+    letter-spacing: 0.02em;
+  }
+
+  /* fireflies */
+  .firefly {
+    position: absolute; border-radius: 50%;
+    background: radial-gradient(circle, #fdf8c8 0%, var(--glow) 38%, rgba(243,236,176,0) 70%);
+    box-shadow: 0 0 8px 2px rgba(243,236,176,0.35);
+    will-change: transform, opacity;
+    animation-name: drift, flicker;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+  }
+  @keyframes drift {
+    0%   { transform: translate(0,0); }
+    25%  { transform: translate(26px,-34px); }
+    50%  { transform: translate(-18px,-12px); }
+    75%  { transform: translate(22px,18px); }
+    100% { transform: translate(0,0); }
+  }
+  @keyframes flicker {
+    0%, 100% { opacity: 0; }
+    18%, 82% { opacity: 1; }
+    50% { opacity: 0.45; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .firefly, .star { animation: none; opacity: 0.7; }
+  }
+</style>
+</head>
+<body>
+  <div class="horizon"></div>
+  <div class="stars" id="stars"></div>
+
+  <svg class="scene" viewBox="0 0 1440 420" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,250 C260,180 520,300 760,250 C1000,200 1240,290 1440,230 L1440,420 L0,420 Z" fill="#3a2447" opacity="0.85"/>
+    <path d="M0,320 C300,270 560,360 820,320 C1080,280 1300,350 1440,310 L1440,420 L0,420 Z" fill="#241634"/>
+    <path d="M0,380 C320,350 700,400 1000,372 C1200,354 1320,388 1440,372 L1440,420 L0,420 Z" fill="#120c1f"/>
+  </svg>
+
+  <div class="title-wrap">
+    <h1><span class="soft">welcome to</span>Twilight Dreamworks</h1>
+    <p class="tagline">a quiet place for small experiments</p>
+  </div>
+
+  <script>
+    // faint stars across the upper sky
+    const stars = document.getElementById('stars');
+    for (let i = 0; i < 60; i++) {
+      const s = document.createElement('div');
+      s.className = 'star';
+      s.style.left = Math.random() * 100 + 'vw';
+      s.style.top  = Math.random() * 55 + 'vh';
+      s.style.animationDelay = (Math.random() * 4) + 's';
+      stars.appendChild(s);
+    }
+    // fireflies, drifting over the lower scene
+    const rand = (a, b) => a + Math.random() * (b - a);
+    for (let i = 0; i < 26; i++) {
+      const f = document.createElement('div');
+      f.className = 'firefly';
+      const size = rand(3, 6);
+      f.style.width = f.style.height = size + 'px';
+      f.style.left = rand(2, 98) + 'vw';
+      f.style.top  = rand(28, 92) + 'vh';
+      f.style.animationDuration = rand(9, 19).toFixed(1) + 's, ' + rand(2.4, 5.5).toFixed(1) + 's';
+      f.style.animationDelay = '-' + rand(0, 12).toFixed(1) + 's, -' + rand(0, 5).toFixed(1) + 's';
+      document.body.appendChild(f);
+    }
+  </script>
+</body>
+</html>

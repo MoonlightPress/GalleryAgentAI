@@ -108,6 +108,10 @@ PIPELINE = [
     "pipeline_debug_summary.py",
     "project_folder_audit.py",
     "opportunity_status_engine.py",
+    # Translation MUST run last, after every content field is finalized — otherwise
+    # an online update ships opportunities that read English in Chinese mode.
+    "content_translation_engine.py",      # name/one_sentence/why_it_fits/bullets -> zh + ja for every opp
+    "saffron_translation_engine.py",      # Saffron's analysis prose -> zh cache
     "daily_digest_report.py",
 ]
 

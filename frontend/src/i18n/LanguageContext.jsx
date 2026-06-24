@@ -1,24 +1,12 @@
 import { createContext, useContext, useState, useCallback } from 'react'
-import { DEFAULT_LANG, LANGUAGES, t as translate } from './translations'
-
-const LS_KEY = 'mochi_lang'
-
-function storedLang() {
-  try {
-    const v = localStorage.getItem(LS_KEY)
-    return LANGUAGES.includes(v) ? v : DEFAULT_LANG  // drop a stale 'ja'
-  } catch { return DEFAULT_LANG }
-}
+import { DEFAULT_LANG, t as translate } from './translations'
 
 const LanguageContext = createContext(null)
 
 export function LanguageProvider({ children }) {
-  const [lang, setLangState] = useState(storedLang)
-
-  const setLang = useCallback(code => {
-    setLangState(code)
-    try { localStorage.setItem(LS_KEY, code) } catch { /* localStorage unavailable */ }
-  }, [])
+  // Chinese-first product: always open in the default language (zh) on load.
+  // The toggle switches it for the session; a reload returns to Chinese.
+  const [lang, setLang] = useState(DEFAULT_LANG)
 
   const t = useCallback((key, vars) => translate(key, lang, vars), [lang])
 
