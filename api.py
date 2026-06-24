@@ -1343,6 +1343,17 @@ def get_saffron():
     )
     _total_group_shows = 1 + _profile_group_count + _logged_group_count
 
+    # Runtime translations for the count-bearing career sentences below. These
+    # change every time she logs a group show, so they can't rely on the monthly
+    # translation cache — _reg() records (en, zh, ja) triples that are merged into
+    # the _i18n map at the end of this function, keeping zh/ja in lockstep with
+    # the live count. Returns the English string for the payload field.
+    _dyn_i18n: list[tuple[str, str, str]] = []
+
+    def _reg(en: str, zh: str, ja: str) -> str:
+        _dyn_i18n.append((en, zh, ja))
+        return en
+
     # ── Career position (confirmed research, 2026-06-02) ──────────────────────
     career_position = {
         "exhibitions": [
@@ -1523,14 +1534,22 @@ def get_saffron():
                 "detail": "Target: an intimate Tokyo gallery with a track record of solo shows by international artists at similar career stages. Youkobo Art Space, Gallery Denn, or a bookshop gallery context are realistic first targets.",
             },
         ],
-        "blocking_now": (
+        "blocking_now": _reg(
             f"Only {_total_group_shows} confirmed group show{'s' if _total_group_shows != 1 else ''} in Japan. "
             f"Most Tokyo galleries expect 3–4 group exhibition credits before a solo conversation "
             f"— so {max(0, 3 - _total_group_shows)}–{max(0, 4 - _total_group_shows)} more group shows needed. "
-            "The next group show is the highest-leverage move right now."
-        ) if _total_group_shows < 4 else (
+            "The next group show is the highest-leverage move right now.",
+            f"目前在日本仅有 {_total_group_shows} 场已确认的联展。多数东京画廊在洽谈个展前期望有 3–4 场联展履历——"
+            f"因此还需要 {max(0, 3 - _total_group_shows)}–{max(0, 4 - _total_group_shows)} 场联展。"
+            "下一场联展是当下杠杆最高的行动。",
+            f"日本での確認済みグループ展は {_total_group_shows} 件のみ。多くの東京のギャラリーは個展の相談に入る前に3〜4件のグループ展実績を期待する——"
+            f"あと {max(0, 3 - _total_group_shows)}〜{max(0, 4 - _total_group_shows)} 件のグループ展が必要。"
+            "次のグループ展が今もっとも効果の高い一手。"
+        ) if _total_group_shows < 4 else _reg(
             f"{_total_group_shows} confirmed group shows — exhibition history is established. "
-            "A solo show conversation is now viable at the right venue."
+            "A solo show conversation is now viable at the right venue.",
+            f"已有 {_total_group_shows} 场确认的联展——展览履历已经确立。在合适的场地，个展洽谈现在是可行的。",
+            f"確認済みのグループ展が {_total_group_shows} 件——展示実績は確立。適切な会場でなら、個展の相談が現実的になっている。"
         ),
         "next_move": "Apply for a second group show at a Tokyo artist-run space. 3331 Arts Chiyoda open calls, Design Festa Gallery curated shows, and Gallery IYN open submissions are the realistic near-term entries. Any of these, confirmed and attended, advances the pathway.",
     }
@@ -1585,21 +1604,35 @@ def get_saffron():
     # so the prose tracks her record (no LLM, no per-request cost). When she logs
     # exhibitions the "weakest dimension" framing gives way as the count climbs.
     if _total_group_shows >= 5:
-        _bench_summary = (
+        _bench_summary = _reg(
             f"Exhibition history has become a real strength — {_total_group_shows} group shows on record "
             "put you in or above the typical peer range. The 26k Instagram following is a solid asset, and "
-            "the foundation for gallery and institutional conversations is now in place."
+            "the foundation for gallery and institutional conversations is now in place.",
+            f"展览履历已成为真正的优势——{_total_group_shows} 场在册联展让你达到或超过同侪的典型区间。"
+            "2.6 万 Instagram 粉丝是扎实的资产，与画廊和机构洽谈的基础如今已经具备。",
+            f"展示実績は確かな強みになった——{_total_group_shows} 件のグループ展で、同水準の作家の標準的な範囲に並ぶかそれ以上。"
+            "2.6万人のInstagramフォロワーは確かな資産であり、ギャラリーや機関との対話の基盤も整っている。"
         )
         _ex_assessment = "on_track"
-        _ex_note = "In or above the typical peer range — a genuine credit base now."
+        _ex_note = _reg(
+            "In or above the typical peer range — a genuine credit base now.",
+            "已达到或超过同侪的典型区间——如今有了真正的履历基础。",
+            "標準的な範囲に並ぶかそれ以上——確かな実績の土台ができた。")
     elif _total_group_shows >= 3:
-        _bench_summary = (
+        _bench_summary = _reg(
             f"Exhibition history is building — {_total_group_shows} group shows on record, approaching the "
             "typical peer range. The 26k Instagram following is a solid asset; a few more shows brings "
-            "gallery conversations into realistic reach."
+            "gallery conversations into realistic reach.",
+            f"展览履历正在积累——{_total_group_shows} 场在册联展，正接近同侪的典型区间。"
+            "2.6 万 Instagram 粉丝是扎实的资产；再有几场展览，画廊洽谈便进入现实可及的范围。",
+            f"展示実績は積み上がりつつある——{_total_group_shows} 件のグループ展で、標準的な範囲に近づいている。"
+            "2.6万人のInstagramフォロワーは確かな資産。あと数件で、ギャラリーとの対話が現実的な射程に入る。"
         )
         _ex_assessment = "approaching_typical"
-        _ex_note = "Approaching the typical range — a few more shows opens gallery conversations."
+        _ex_note = _reg(
+            "Approaching the typical range — a few more shows opens gallery conversations.",
+            "正在接近典型区间——再有几场展览便能开启画廊洽谈。",
+            "標準的な範囲に近づいている——あと数件で画廊との対話が開ける。")
     else:
         _bench_summary = (
             "Exhibition history is the weakest dimension. The 26k Instagram following is a solid, real asset "
@@ -1610,17 +1643,23 @@ def get_saffron():
         _ex_note = "Expected at this stage — but the gap needs closing before gallery conversations are realistic."
 
     if _total_group_shows >= 4:
-        _solo_bottleneck = (
+        _solo_bottleneck = _reg(
             f"Exhibition history is in good shape — {_total_group_shows} group shows on record. The next "
-            "barrier is a cohesive body of work strong enough to carry a solo."
+            "barrier is a cohesive body of work strong enough to carry a solo.",
+            f"展览履历状况良好——{_total_group_shows} 场在册联展。下一个障碍是要有足够成熟、能撑起个展的完整作品体系。",
+            f"展示実績は良好——{_total_group_shows} 件のグループ展。次の壁は、個展を支えられるだけのまとまった作品群。"
         )
     else:
         _solo_need = max(0, 3 - _total_group_shows)
-        _solo_bottleneck = (
+        _solo_bottleneck = _reg(
             f"Exhibition history is still thin — about {_solo_need}–{_solo_need + 1} more group shows before "
-            "a gallery will discuss a solo."
-            if _solo_need else
-            "Exhibition history is right at the threshold — one or two more group shows opens solo conversations."
+            "a gallery will discuss a solo.",
+            f"展览履历仍然偏薄——大约还需 {_solo_need}–{_solo_need + 1} 场联展，画廊才会洽谈个展。",
+            f"展示実績はまだ薄い——個展の話に入るには、あと {_solo_need}〜{_solo_need + 1} 件ほどのグループ展が必要。"
+        ) if _solo_need else _reg(
+            "Exhibition history is right at the threshold — one or two more group shows opens solo conversations.",
+            "展览履历正处于临界点——再有一两场联展便能开启个展洽谈。",
+            "展示実績はちょうど境目——あと1〜2件のグループ展で個展の相談が開ける。"
         )
 
     career_benchmarks = {
@@ -1634,7 +1673,7 @@ def get_saffron():
         "peer_range": [
             {
                 "dimension": "Group exhibitions",
-                "artist_value": f"{_total_group_shows} confirmed" if _total_group_shows > 1 else "1 confirmed",
+                "artist_value": _reg(f"{_total_group_shows} confirmed", f"{_total_group_shows} 场已确认", f"{_total_group_shows} 件確認済み") if _total_group_shows > 1 else "1 confirmed",
                 "peer_low": 1,
                 "peer_typical": "3–5",
                 "peer_high": "8+",
@@ -2495,8 +2534,19 @@ def get_saffron():
             _cache = json.loads(_cache_path.read_text(encoding="utf-8"))
             for _en, _zh in (_cache.get("zh") or {}).items():
                 _opp_i18n["zh"].setdefault(_en, _zh)
+            for _en, _ja in (_cache.get("ja") or {}).items():
+                _opp_i18n["ja"].setdefault(_en, _ja)
         except Exception:
             pass
+
+    # Count-bearing career sentences generated above: register their runtime
+    # zh/ja so they translate in lockstep with the live group-show count (these
+    # change the instant she logs a show, before any pipeline pass runs). Runtime
+    # values win over the cache, which may hold a stale count's translation.
+    for _en, _zh, _ja in _dyn_i18n:
+        if _en:
+            _opp_i18n["zh"][_en] = _zh
+            _opp_i18n["ja"][_en] = _ja
 
     return {
         "_i18n":                 _opp_i18n,

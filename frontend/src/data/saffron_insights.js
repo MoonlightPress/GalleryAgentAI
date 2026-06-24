@@ -770,56 +770,56 @@ export const CAREER_TIMELINE = {
   peers: [
     {
       name: "Chien Chung-Wei (簡忠威)",
-      region: "Taiwan",
+      region: "Taiwan", "region_zh": "台湾", "region_ja": "台湾",
       comparable_age: "Early 30s when international visibility came", "comparable_age_zh": "30 岁出头时获得国际能见度", "comparable_age_ja": "30代前半で国際的な知名度を得た",
       at_stage: {
         had: [
           "Consistent open-call submissions to IWS and national watercolor societies since ~age 28",
           "Taiwan regional watercolor society membership",
           "No notable social following — credibility built through competition wins",
-        ],
+        ], "had_zh": ["自约 28 岁起持续向 IWS 及各国水彩协会投稿", "台湾地区水彩协会会员", "没有显著的社交粉丝——信誉通过竞赛获奖建立"], "had_ja": ["28歳頃からIWSや各国の水彩協会へ継続的に公募応募", "台湾の地域水彩協会の会員", "目立つSNSフォロワーはなし——信頼はコンペ受賞で築いた"],
         lacked: ["Any international exhibition", "Digital audience"],
       },
       comparison: "She already has a larger audience than he had at this stage. He built credibility through competitions first; that path is open to her too.", "comparison_zh": "她现在的受众已比他在同一阶段时更多。他最初是通过赛事建立信誉的；这条路同样对她开放。", "comparison_ja": "彼女はすでに、彼が同じ段階で持っていたよりも多くの観客を得ている。彼はまず公募・コンペで信頼を築いた。その道は彼女にも開かれている。",
     },
     {
       name: "Keiko Tanabe",
-      region: "Japan / USA",
+      region: "Japan / USA", "region_zh": "日本／美国", "region_ja": "日本／アメリカ",
       comparable_age: "First AWS/NWS entries in her late 20s", "comparable_age_zh": "二十多岁后期首次入选 AWS／NWS", "comparable_age_ja": "20代後半でAWS/NWSに初入選",
       at_stage: {
         had: [
           "2–3 juried watercolor society submissions per year",
           "Workshop attendance for networking",
           "Small gallery shows in California",
-        ],
+        ], "had_zh": ["每年向水彩协会评审展投稿 2–3 次", "参加工作坊以拓展人脉", "在加州的小型画廊展出"], "had_ja": ["年に2〜3回、水彩協会の公募展に応募", "人脈づくりのためワークショップに参加", "カリフォルニアの小規模ギャラリーで展示"],
         lacked: ["Japan exhibition history", "Any significant social following"],
       },
       comparison: "Similar timeline: first serious submissions at 26–28. She's on track. The Japan context is an advantage Tanabe didn't have early on.", "comparison_zh": "时间线相似：26–28 岁开始认真投稿。她正处于正轨。身处日本的环境是 Tanabe 早期所不具备的优势。", "comparison_ja": "同様のタイムライン：26〜28歳で本格的に応募を始めた。彼女は順調だ。日本という環境は、Tanabeが初期には持っていなかった強みである。",
     },
     {
       name: "Alvaro Castagnet",
-      region: "Uruguay / Australia",
+      region: "Uruguay / Australia", "region_zh": "乌拉圭／澳大利亚", "region_ja": "ウルグアイ／オーストラリア",
       comparable_age: "First major workshop circuit in his late 20s", "comparable_age_zh": "二十多岁后期首次进入主要的工作坊巡回", "comparable_age_ja": "20代後半で主要なワークショップ巡回に初参加",
       at_stage: {
         had: [
           "Regular submissions to South American watercolor societies",
           "2–3 group shows in Uruguay",
           "No publications at 26",
-        ],
+        ], "had_zh": ["定期向南美水彩协会投稿", "在乌拉圭参加 2–3 场联展", "26 岁时尚无出版物"], "had_ja": ["南米の水彩協会へ定期的に応募", "ウルグアイで2〜3回のグループ展", "26歳時点で出版物はなし"],
         lacked: ["International profile", "Teaching income"],
       },
       comparison: "She has more publication credits at 26 than Castagnet did. His path diverged toward workshops; hers is more illustration-adjacent.", "comparison_zh": "她 26 岁时的出版履历比 Castagnet 当年更丰富。他的路径转向了工作坊；她的则更贴近插画。", "comparison_ja": "彼女は26歳時点で、Castagnetよりも多くの出版実績を持つ。彼の道はワークショップへ向かったが、彼女の道はよりイラスト寄りだ。",
     },
     {
       name: "Yuko Nagayama",
-      region: "Japan",
+      region: "Japan", "region_zh": "日本", "region_ja": "日本",
       comparable_age: "Built Tokyo gallery relationships through her late 20s", "comparable_age_zh": "在二十多岁后期逐步建立东京画廊人脉", "comparable_age_ja": "20代後半をかけて東京のギャラリーとの関係を築いた",
       at_stage: {
         had: [
           "3–4 small Tokyo gallery group shows by age 27",
           "First self-published zine by age 25",
           "Active in Tokyo illustration community events",
-        ],
+        ], "had_zh": ["27 岁前在东京小型画廊参加 3–4 场联展", "25 岁前自出版第一本独立刊物", "活跃于东京插画社群活动"], "had_ja": ["27歳までに東京の小規模ギャラリーで3〜4回のグループ展", "25歳までに初の自主出版zine", "東京のイラストコミュニティのイベントで活動"],
         lacked: ["Social media presence (pre-Instagram era)"],
       },
       comparison: "The most directly comparable Tokyo path. She had more early group shows but no digital presence. GEGYjiji's 26k Instagram base is a head start Nagayama built from scratch.", "comparison_zh": "最直接可比的东京路径。Nagayama 早期的联展更多，但没有数字平台。GEGYjiji 的 2.6 万 Instagram 基础是一种先发优势——Nagayama 当年是从零开始积累的。", "comparison_ja": "最も直接的に比較できる東京での道。Nagayamaは初期のグループ展はより多かったが、デジタルでの発信はなかった。GEGYjijiの2.6万人のInstagram基盤は、Nagayamaがゼロから築いたものに対する先行アドバンテージである。",
@@ -835,13 +835,13 @@ export const PRICING_INTELLIGENCE = {
   current_range: {
     originals: {
       low: 37000, high: 135000, currency: "JPY",
-      label: "Original watercolors",
+      label: "Original watercolors", "label_zh": "原作水彩", "label_ja": "水彩原画",
       note: "F4–F8 scale (24–38cm). Small-format daily diary pieces at the lower end; larger architectural studies at the upper. Current range reflects emerging artist pricing with strong Instagram credibility.", "note_zh": "F4–F8 尺幅（24–38 厘米）。小幅每日日记作品定价偏低端，较大的建筑习作偏高端。当前价位反映了具备扎实 Instagram 公信力的新晋艺术家定价。", "note_ja": "F4〜F8サイズ（24〜38cm）。小判の日記作品は下限、大きめの建築習作は上限。現在の価格帯は、Instagramでの確かな信頼を備えた新進アーティストの価格設定を反映している。",
       sweet_spot: "¥50,000–80,000 for a 30–40cm piece is defensible and matches peer pricing at ~26k Instagram followers.", "sweet_spot_zh": "30–40 厘米的作品定价 ¥50,000–80,000 是合理的，与约 2.6 万 Instagram 粉丝量级的同侪定价相符。", "sweet_spot_ja": "30〜40cmの作品で¥50,000〜80,000は妥当であり、Instagramフォロワー約2.6万人の同水準アーティストの価格と一致する。",
     },
     prints: {
       low: 3000, high: 12000, currency: "JPY",
-      label: "Edition prints",
+      label: "Edition prints", "label_zh": "限量版画", "label_ja": "エディションプリント",
       note: "Giclee A4–A3, edition of 30–50. Signed and numbered. Price below ¥3,000 signals uncertainty; above ¥15,000 requires stronger institutional credibility than current stage.", "note_zh": "Giclée 微喷 A4–A3，限量 30–50 版。签名并编号。定价低于 ¥3,000 会显得缺乏自信；高于 ¥15,000 则需要比当前阶段更强的机构公信力。", "note_ja": "ジクレー（A4〜A3）、エディション30〜50。サインと番号入り。¥3,000未満は自信のなさを示し、¥15,000超は現段階より強い機関的な信頼を要する。",
     },
     zines: {
@@ -851,12 +851,12 @@ export const PRICING_INTELLIGENCE = {
     },
   },
   what_affects_price: [
-    { factor: "Venue context", impact: "high",   note: "Same piece sells for 2–3× more at a gallery opening than at a zine fair. Venue lends credibility.", "note_zh": "同一件作品在画廊开幕上的售价是独立刊物展会的 2–3 倍。场地赋予公信力。", "note_ja": "同じ作品でも、ギャラリーのオープニングではzineフェアの2〜3倍で売れる。会場が信頼を与える。" },
-    { factor: "Edition discipline", impact: "high",   note: "Unlimited prints signal uncertainty. Fixed editions (30 or 50) signal intentionality and protect resale value.", "note_zh": "无限量印刷会显得缺乏把握。固定版数（30 或 50）传递出明确意图，并保护转售价值。", "note_ja": "無制限のプリントは自信のなさを示す。固定エディション（30や50）は意図の明確さを示し、再販価値を守る。" },
-    { factor: "Instagram followers", impact: "medium", note: "26k is a meaningful asset. At 50k+ the premium becomes significant. Collectors pay for social proof even when they won't admit it.", "note_zh": "2.6 万粉丝是一项有意义的资产。到 5 万以上时，溢价会变得显著。藏家会为社会认同买单，即便他们不愿承认。", "note_ja": "2.6万人は意味のある資産だ。5万人を超えるとプレミアムは大きくなる。コレクターは、たとえ認めなくても社会的証明にお金を払う。" },
-    { factor: "Exhibition CV",       impact: "medium", note: "Each confirmed group show adds ~10–15% defensible price increase for originals.", "note_zh": "每一场已确认的联展，都能为原作带来约 10–15% 的合理涨价空间。", "note_ja": "確定したグループ展が1つ増えるごとに、原画には約10〜15%の妥当な値上げ余地が生まれる。" },
+    { factor: "Venue context", "factor_zh": "场地背景", "factor_ja": "会場の文脈", impact: "high",   note: "Same piece sells for 2–3× more at a gallery opening than at a zine fair. Venue lends credibility.", "note_zh": "同一件作品在画廊开幕上的售价是独立刊物展会的 2–3 倍。场地赋予公信力。", "note_ja": "同じ作品でも、ギャラリーのオープニングではzineフェアの2〜3倍で売れる。会場が信頼を与える。" },
+    { factor: "Edition discipline", "factor_zh": "版数自律", "factor_ja": "エディションの規律", impact: "high",   note: "Unlimited prints signal uncertainty. Fixed editions (30 or 50) signal intentionality and protect resale value.", "note_zh": "无限量印刷会显得缺乏把握。固定版数（30 或 50）传递出明确意图，并保护转售价值。", "note_ja": "無制限のプリントは自信のなさを示す。固定エディション（30や50）は意図の明確さを示し、再販価値を守る。" },
+    { factor: "Instagram followers", "factor_zh": "Instagram 粉丝", "factor_ja": "Instagramフォロワー", impact: "medium", note: "26k is a meaningful asset. At 50k+ the premium becomes significant. Collectors pay for social proof even when they won't admit it.", "note_zh": "2.6 万粉丝是一项有意义的资产。到 5 万以上时，溢价会变得显著。藏家会为社会认同买单，即便他们不愿承认。", "note_ja": "2.6万人は意味のある資産だ。5万人を超えるとプレミアムは大きくなる。コレクターは、たとえ認めなくても社会的証明にお金を払う。" },
+    { factor: "Exhibition CV", "factor_zh": "展览履历", "factor_ja": "展示歴",       impact: "medium", note: "Each confirmed group show adds ~10–15% defensible price increase for originals.", "note_zh": "每一场已确认的联展，都能为原作带来约 10–15% 的合理涨价空间。", "note_ja": "確定したグループ展が1つ増えるごとに、原画には約10〜15%の妥当な値上げ余地が生まれる。" },
     { factor: "Certificate of authenticity", "factor_zh": "作品真品证书", "factor_ja": "真作証明書", impact: "medium", note: "Simple, hand-signed CoA doubles perceived permanence. Collectors keep them. Takes 2 minutes.", "note_zh": "一份简单的手签真品证书（CoA）能让作品的「恒久感」翻倍。藏家会妥善保存。只需 2 分钟。", "note_ja": "手書きサイン入りのシンプルな真作証明書（CoA）は、作品の「永続性」の印象を倍増させる。コレクターは大切に保管する。所要時間はわずか2分。" },
-    { factor: "Work size",           impact: "low",    note: "Buyers at this stage prefer smaller formats (easier to hang, lower price). Don't underprice small work.", "note_zh": "这个阶段的买家偏好较小的尺幅（更易悬挂、价格更低）。不要给小幅作品定价过低。", "note_ja": "この段階の買い手は小判を好む（飾りやすく、価格も手頃）。小品を安く付けすぎないこと。" },
+    { factor: "Work size", "factor_zh": "作品尺幅", "factor_ja": "作品サイズ",           impact: "low",    note: "Buyers at this stage prefer smaller formats (easier to hang, lower price). Don't underprice small work.", "note_zh": "这个阶段的买家偏好较小的尺幅（更易悬挂、价格更低）。不要给小幅作品定价过低。", "note_ja": "この段階の買い手は小判を好む（飾りやすく、価格も手頃）。小品を安く付けすぎないこと。" },
   ],
   credibility_signals: [
     "Signed, dated, and titled on the back of every original",
@@ -864,7 +864,7 @@ export const PRICING_INTELLIGENCE = {
     "Certificate of authenticity for originals over ¥30,000",
     "Consistent handle/name across all platforms",
     "Professional photo of the work (no phone snaps at openings)",
-  ],
+  ], "credibility_signals_zh": ["每幅原作背面都签名、标注日期与标题", "所有版画都标注版数（如 7/30）", "¥30,000 以上的原作附作品真品证书", "所有平台使用一致的账号名／姓名", "作品的专业摄影（不要用开幕时的手机随拍）"], "credibility_signals_ja": ["原画はすべて裏面に署名・日付・タイトルを記入", "プリントにはすべてエディション番号を表示（例：7/30）", "¥30,000を超える原画には真作証明書を添付", "全プラットフォームで一貫したハンドル／名前", "作品のプロによる撮影（オープニングでのスマホ撮影は不可）"],
   edition_discipline: {
     rule: "Choose an edition size and never exceed it. 30 is credible. 50 is defensible. 100 is too many for this stage.", "rule_zh": "确定一个版数后绝不超出。30 版可信，50 版尚可，100 版对现阶段而言太多。", "rule_ja": "エディション数を決めたら絶対に超えないこと。30は信頼でき、50は許容範囲、100は現段階では多すぎる。",
     why: "Edition discipline is what separates prints that hold value from prints that devalue originals. Collectors remember.", "why_zh": "对版数的自律，正是「保值的版画」与「拉低原作价值的版画」之间的分水岭。藏家会记住。", "why_ja": "エディションの規律こそが、価値を保つプリントと原画の価値を下げるプリントを分ける。コレクターは覚えている。",

@@ -16,6 +16,23 @@ import {
 // Saffron's analysis body is authored in English in api.py. When the viewer is
 // reading in Chinese, we translate every served string client-side via this map
 // (unmapped strings pass through unchanged — graceful partial coverage).
+// localizeDeep — for the static saffron_insights constants (CAREER_TIMELINE,
+// PRICING_INTELLIGENCE): return a copy where every field that has a `<field>_zh`
+// / `<field>_ja` sibling (including parallel arrays like had_zh) is swapped for
+// the active language. The _zh/_ja sibling keys are dropped from the output.
+function localizeDeep(node, lang) {
+  const suf = lang === 'zh' ? '_zh' : lang === 'ja' ? '_ja' : null
+  if (!suf || node == null || typeof node !== 'object') return node
+  if (Array.isArray(node)) return node.map(x => localizeDeep(x, lang))
+  const out = {}
+  for (const k in node) {
+    if (k.endsWith('_zh') || k.endsWith('_ja')) continue
+    const sib = node[k + suf]
+    out[k] = localizeDeep(sib !== undefined ? sib : node[k], lang)
+  }
+  return out
+}
+
 function deepTranslate(obj, map) {
   if (typeof obj === 'string') return map[obj] || obj
   if (Array.isArray(obj)) return obj.map(x => deepTranslate(x, map))
@@ -1456,8 +1473,8 @@ function TimingIntelligence({ data, t }) {
 
 // ── Comparative Career Timeline ────────────────────────────────────────────
 
-function CareerTimeline({ t }) {
-  const d = CAREER_TIMELINE
+function CareerTimeline({ t, lang }) {
+  const d = localizeDeep(CAREER_TIMELINE, lang)
   return (
     <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
       <div className="sf-insight-callout">{d.overall_assessment}</div>
@@ -1498,8 +1515,8 @@ function CareerTimeline({ t }) {
 
 const IMPACT_COLORS = { high: '#5a7a30', medium: '#c47a35', low: '#9ca3af' }
 
-function PricingIntelligence({ t }) {
-  const d = PRICING_INTELLIGENCE
+function PricingIntelligence({ t, lang }) {
+  const d = localizeDeep(PRICING_INTELLIGENCE, lang)
   const { originals, prints, zines } = d.current_range
   return (
     <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
@@ -2007,7 +2024,7 @@ export default function SaffronPage({ nav }) {
                 {careerData && <CareerReadiness data={careerData} />}
                 <CareerPosition     data={data.career_position}    t={t} />
                 <CareerBenchmarks   data={data.career_benchmarks}  t={t} />
-                <CareerTimeline     t={t} />
+                <CareerTimeline     t={t} lang={lang} />
                 <ComparableArtists  artists={data.peer_artists}    t={t} />
                 <InstagramStrategy  data={data.instagram_strategy} t={t} />
                 <AudienceGeography  data={data.audience_geography} t={t} />
@@ -2048,7 +2065,7 @@ export default function SaffronPage({ nav }) {
             {tab === 'money' && (
               <>
                 <RevenueStreams       t={t} lang={lang} />
-                <PricingIntelligence  t={t} />
+                <PricingIntelligence  t={t} lang={lang} />
                 <GrantLandscape       t={t} lang={lang} />
                 <LicensingLandscape   t={t} lang={lang} />
                 <PublicationLandscape data={data.publication_landscape} t={t} />
