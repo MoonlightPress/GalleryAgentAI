@@ -1098,7 +1098,7 @@ function locF(item, field, lang) {
 }
 
 function LicensingLandscape({ t, lang }) {
-  const d = LICENSING_LANDSCAPE
+  const d = localizeDeep(LICENSING_LANDSCAPE, lang)
   return (
     <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
       <WhereToStart d={d} t={t} lang={lang} />
@@ -1177,7 +1177,7 @@ function PressPitchMap({ t, lang }) {
 // ── Grant Landscape ────────────────────────────────────────────────────────
 
 function GrantLandscape({ t, lang }) {
-  const d = GRANT_LANDSCAPE
+  const d = localizeDeep(GRANT_LANDSCAPE, lang)
   const grants = d.items.filter(item => item.name)
   const strategyNote = d.items.find(item => item.category_note)
   return (
@@ -1231,7 +1231,7 @@ function GrantLandscape({ t, lang }) {
 // ── Revenue Streams ────────────────────────────────────────────────────────
 
 function RevenueStreams({ t, lang }) {
-  const d = REVENUE_STREAMS
+  const d = localizeDeep(REVENUE_STREAMS, lang)
   const streams = d.items.filter(item => item.stream !== 'Summary assessment')
   const summary_item = d.items.find(item => item.stream === 'Summary assessment')
   return (
