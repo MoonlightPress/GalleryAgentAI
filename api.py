@@ -1725,20 +1725,31 @@ def get_saffron():
     rolling_opps = []
     unknown_dl_count = 0
 
+    def _cal_url(o):
+        return o.get("submission_page") or o.get("official_website") or o.get("url_final") or ""
+
     for opp in opps:
         dl = (opp.get("deadline") or "").strip()
         if re.search(r"rolling|ongoing|open|anytime", dl, re.IGNORECASE):
             rolling_opps.append({
                 "name": opp.get("name", ""),
+                "name_zh": opp.get("name_zh", ""),
+                "name_ja": opp.get("name_ja", ""),
                 "category": opp.get("category", ""),
+                "url": _cal_url(opp),
             })
             continue
         month = _parse_month(dl)
         if month:
+            _dt = _parse_deadline_date({"deadline": dl})
             monthly[month].append({
                 "name": opp.get("name", ""),
+                "name_zh": opp.get("name_zh", ""),
+                "name_ja": opp.get("name_ja", ""),
                 "deadline": dl,
+                "date": _dt.date().isoformat() if _dt else "",
                 "category": opp.get("category", ""),
+                "url": _cal_url(opp),
             })
         else:
             unknown_dl_count += 1

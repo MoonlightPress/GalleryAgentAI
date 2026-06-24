@@ -1,7 +1,20 @@
 import { useState, useEffect } from 'react'
 import './OppDetailPanel.css'
 import { useLanguage } from '../i18n/LanguageContext'
-import { tfb } from '../i18n/translations'
+import { tfb, translatePhrase } from '../i18n/translations'
+
+// "Mochi notes": the readiness flags that used to sit on the card face. The
+// reasons/reviewLabels arrays carry canonical English phrases; translatePhrase
+// maps each to the active language.
+function localizedReasonLine(rec, t, lang) {
+  if (!rec) return ''
+  if (lang === 'en') return rec.reasonLine
+  const reasons = rec.reasons || []
+  if (reasons.length) return reasons.map(r => translatePhrase(r, lang)).join(' · ')
+  const labels = rec.reviewLabels || []
+  if (labels.length) return t('rec.needsCheck') + labels.map(f => translatePhrase(f, lang)).join(' · ')
+  return t('rec.oneMoreLook')
+}
 
 function deadlineIsReal(dl) {
   if (!dl) return false
@@ -225,7 +238,7 @@ export default function OppDetailPanel({ opp, onClose }) {
         <div className="detail-panel-left">
           {!loc('overview') && !loc('why_it_fits') && !(loc('bullets') || opp.bullets)?.length
             && !(lang === 'en' ? opp.next_action : opp[`next_action_${lang}`])
-            && !loc('soft_warning') && (
+            && !loc('soft_warning') && !opp.recommendation?.reasonLine && (
             <p className="detail-content-empty">{t('detail.content.empty')}</p>
           )}
           {(loc('overview')) && (
@@ -254,10 +267,16 @@ export default function OppDetailPanel({ opp, onClose }) {
               <p>{lang === 'en' ? opp.next_action : opp[`next_action_${lang}`]}</p>
             </div>
           )}
-          {loc('soft_warning') && (
+          {(opp.recommendation?.reasonLine || loc('soft_warning')) && (
             <div className="detail-block detail-warning">
               <div className="detail-label">{t('detail.label.mochiNotes')}</div>
-              <p>{loc('soft_warning')}</p>
+              {opp.recommendation?.reasonLine && (
+                <p className={`detail-mochi-note detail-mochi-note--${opp.recommendation.readiness}`}>
+                  <strong>{t(`card.recommendation.${opp.recommendation.readiness}`)}</strong>
+                  {' '}{localizedReasonLine(opp.recommendation, t, lang)}
+                </p>
+              )}
+              {loc('soft_warning') && <p>{loc('soft_warning')}</p>}
             </div>
           )}
         </div>

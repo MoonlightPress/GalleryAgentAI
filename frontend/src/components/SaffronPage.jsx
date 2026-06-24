@@ -1,5 +1,8 @@
 import { useState, useEffect, useMemo, Component } from 'react'
 import './SaffronPage.css'
+import { CalendarMonth } from './DeadlineCalendar'
+import { parseDeadline, keyOf } from '../utils/calendarDates'
+import './DeadlineCalendar.css'
 import { saffronHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
@@ -635,75 +638,104 @@ function CareerBenchmarks({ data, t }) {
   )
 }
 
-// The year at a glance — 12 months shaded by opportunity density, current month outlined.
-function YearGrid({ months }) {
-  const nowMonth = new Date().getMonth()
-  const max = Math.max(1, ...months.map(m => m.opportunities.length))
-  return (
-    <div className="sf-year-grid">
-      {months.map((m, i) => {
-        const n = m.opportunities.length
-        const shade = n === 0 ? 0 : 0.14 + Math.min(1, n / max) * 0.5
-        return (
-          <div
-            key={i}
-            className={`sf-year-cell${i === nowMonth ? ' sf-year-cell--now' : ''}`}
-            style={n ? { background: `rgba(196, 154, 62, ${shade})` } : undefined}
-            title={`${m.month}: ${n}`}
-          >
-            <span className="sf-year-month">{String(m.month).slice(0, 3)}</span>
-            {n > 0 && <span className="sf-year-count">{n}</span>}
-          </div>
-        )
-      })}
-    </div>
-  )
-}
+const SF_MONTHS_EN = ['January','February','March','April','May','June','July','August','September','October','November','December']
 
-function SeasonalCalendar({ data, t }) {
+function SeasonalCalendar({ data, t, lang }) {
   const known = data.months.reduce((n, m) => n + m.opportunities.length, 0)
   const summary = t('sf.sum.calendarUnknown', { known, n: data.unknown_deadline_count, s: data.unknown_deadline_count !== 1 ? 's' : '' })
+  const calMonths = t('cal.months')
+  const calWeekdays = t('cal.weekdays')
+  const [monthOffset, setMonthOffset] = useState(0)
+  const [selectedKey, setSelectedKey] = useState(null)
+
+  const locName = (o) =>
+    (lang === 'zh' && o.name_zh) ? o.name_zh : (lang === 'ja' && o.name_ja) ? o.name_ja : o.name
+  const catLabel = (c) => tfb(t, `cat.${c}`, c)
+  const monthLabel = (m) => {
+    const idx = SF_MONTHS_EN.indexOf(m)
+    return idx >= 0 && Array.isArray(calMonths) ? calMonths[idx] : m
+  }
+
+  // Build the byDate map that drives the literal month grid.
+  const now = new Date(); now.setHours(0, 0, 0, 0)
+  const todayKey = keyOf(now)
+  const byDate = new Map()
+  for (const m of data.months) {
+    for (const o of m.opportunities) {
+      let d = o.date ? new Date(o.date + 'T00:00:00') : null
+      if (!d || isNaN(d.getTime())) d = parseDeadline(o.deadline)
+      if (!d) continue
+      const key = keyOf(d)
+      if (!byDate.has(key)) byDate.set(key, { date: d, opps: [] })
+      byDate.get(key).opps.push(o)
+    }
+  }
+  const monthBase = new Date(now.getFullYear(), now.getMonth() + monthOffset, 1)
+  const selectedOpps = selectedKey ? (byDate.get(selectedKey)?.opps || []) : null
+
+  // Every entry links out — its own page when we have a URL, otherwise a web
+  // search for the name (same fallback Saffron's press rows use). A list with no
+  // way to act on any row isn't useful.
+  const oppRow = (o, i, withDeadline = true) => (
+    <div key={i} className={`sf-cal-opp${withDeadline ? '' : ' sf-cal-opp--rolling'}`}>
+      <span className="sf-cal-cat">{catLabel(o.category)}</span>
+      <a className="sf-cal-name sf-ext-link" href={o.url || sfSearch(locName(o))} target="_blank" rel="noreferrer">{locName(o)} ↗</a>
+      {withDeadline && o.deadline && <span className="sf-cal-dl">{o.deadline}</span>}
+    </div>
+  )
+
   return (
     <SectionShell
       title={t('sf.sec.calendar')}
       subtitle={t('sf.sub.calendar')}
       summary={summary}
     >
-      {data.months.length > 0 && <YearGrid months={data.months} />}
+      {/* The literal calendar: a real month grid; click a marked day to filter the list. */}
+      {byDate.size > 0 && (
+        <CalendarMonth
+          byDate={byDate}
+          base={monthBase}
+          calMonths={calMonths}
+          calWeekdays={calWeekdays}
+          todayKey={todayKey}
+          selectedKey={selectedKey}
+          onSelect={setSelectedKey}
+          onShift={(dir) => { setSelectedKey(null); setMonthOffset(o => Math.max(0, o + dir)) }}
+          canGoBack={monthOffset > 0}
+        />
+      )}
+      {selectedKey && (
+        <button className="cal-clear-sel" onClick={() => setSelectedKey(null)}>{t('cal.showAll')}</button>
+      )}
+
+      {/* The comprehensive list (Scott: keep it — now with links + localized names). */}
       {data.months.length === 0 ? (
         <EmptyState message={t('sf.empty.calendar')} />
+      ) : selectedOpps ? (
+        <div className="sf-calendar">
+          <div className="sf-cal-month">
+            <div className="sf-cal-opps">{selectedOpps.map((o, j) => oppRow(o, j))}</div>
+          </div>
+        </div>
       ) : (
         <div className="sf-calendar">
           {data.months.map((m, i) => (
             <div key={i} className="sf-cal-month">
-              <div className="sf-cal-month-name">{m.month}</div>
-              <div className="sf-cal-opps">
-                {m.opportunities.map((o, j) => (
-                  <div key={j} className="sf-cal-opp">
-                    <span className="sf-cal-cat">{o.category}</span>
-                    <span className="sf-cal-name">{o.name}</span>
-                    <span className="sf-cal-dl">{o.deadline}</span>
-                  </div>
-                ))}
-              </div>
+              <div className="sf-cal-month-name">{monthLabel(m.month)}</div>
+              <div className="sf-cal-opps">{m.opportunities.map((o, j) => oppRow(o, j))}</div>
             </div>
           ))}
         </div>
       )}
+
       {data.rolling.length > 0 && (
         <div style={{ marginTop: 28 }}>
           <div className="sf-block-label">{t('sf.label.rolling', { n: data.rolling.length })}</div>
           <div className="sf-cal-rolling">
-            {data.rolling.map((o, i) => (
-              <div key={i} className="sf-cal-opp sf-cal-opp--rolling">
-                <span className="sf-cal-cat">{o.category}</span>
-                <span className="sf-cal-name">{o.name}</span>
-              </div>
-            ))}
+            {data.rolling.map((o, i) => oppRow(o, i, false))}
           </div>
         </div>
       )}
-      <div className="sf-cal-note">{data.coverage_note}</div>
       <div style={{ marginTop: 24 }}>
         <div className="sf-block-label">{t('sf.label.prepLeadTimes')}</div>
         <div className="sf-lead-times">
@@ -2049,7 +2081,7 @@ export default function SaffronPage({ nav }) {
             )}
             {tab === 'calendar' && (
               <>
-                <SeasonalCalendar   data={data.seasonal_calendar}   t={t} />
+                <SeasonalCalendar   data={data.seasonal_calendar}   t={t} lang={lang} />
                 <TimingIntelligence data={data.timing_intelligence} t={t} />
               </>
             )}
