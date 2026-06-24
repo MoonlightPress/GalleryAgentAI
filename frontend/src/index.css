@@ -62,8 +62,8 @@ p {
 .companion-intro {
   position: relative;
   max-width: 680px;
-  margin: 10px auto 0;
-  padding: 14px 40px 12px;
+  margin: 0 auto;
+  padding: 4px 40px 2px;
   text-align: center;
 }
 .companion-intro-close {

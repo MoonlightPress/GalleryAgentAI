@@ -1,3 +1,12 @@
+/* Quiet footer accent that replaced the old status panel. */
+.status-accent {
+  height: 5px;
+  margin-top: auto;
+  background: linear-gradient(90deg,
+    var(--gold, #c49a3e), var(--leaf, #7a9e7e), var(--rose, #d4897a));
+  opacity: 0.65;
+}
+
 .status-bar {
   background: var(--paper);
   border-top: 1px solid var(--border);
