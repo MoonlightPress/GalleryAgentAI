@@ -617,6 +617,31 @@ function CareerBenchmarks({ data, t }) {
   )
 }
 
+// The year at a glance — 12 months shaded by opportunity density, current month outlined.
+function YearGrid({ months }) {
+  const nowMonth = new Date().getMonth()
+  const max = Math.max(1, ...months.map(m => m.opportunities.length))
+  return (
+    <div className="sf-year-grid">
+      {months.map((m, i) => {
+        const n = m.opportunities.length
+        const shade = n === 0 ? 0 : 0.14 + Math.min(1, n / max) * 0.5
+        return (
+          <div
+            key={i}
+            className={`sf-year-cell${i === nowMonth ? ' sf-year-cell--now' : ''}`}
+            style={n ? { background: `rgba(196, 154, 62, ${shade})` } : undefined}
+            title={`${m.month}: ${n}`}
+          >
+            <span className="sf-year-month">{String(m.month).slice(0, 3)}</span>
+            {n > 0 && <span className="sf-year-count">{n}</span>}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
 function SeasonalCalendar({ data, t }) {
   const known = data.months.reduce((n, m) => n + m.opportunities.length, 0)
   const summary = t('sf.sum.calendarUnknown', { known, n: data.unknown_deadline_count, s: data.unknown_deadline_count !== 1 ? 's' : '' })
@@ -626,6 +651,7 @@ function SeasonalCalendar({ data, t }) {
       subtitle={t('sf.sub.calendar')}
       summary={summary}
     >
+      {data.months.length > 0 && <YearGrid months={data.months} />}
       {data.months.length === 0 ? (
         <EmptyState message={t('sf.empty.calendar')} />
       ) : (

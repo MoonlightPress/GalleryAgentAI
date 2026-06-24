@@ -759,6 +759,39 @@
 
 /* ── Seasonal calendar ──────────────────────────────────────────────────── */
 
+/* Year-at-a-glance grid (12 months, shaded by opportunity density) */
+.sf-year-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 6px;
+  margin-bottom: 22px;
+}
+.sf-year-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 4px 8px;
+  border-radius: 8px;
+  background: #f3efe2;
+  border: 1.5px solid transparent;
+}
+.sf-year-cell--now { border-color: #c49a3e; }
+.sf-year-month {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  color: #5d4b3b;
+}
+.sf-year-count {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #3d2b20;
+}
+@media (max-width: 560px) {
+  .sf-year-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
 .sf-cal-month {
   display: grid;
   grid-template-columns: 100px 1fr;
