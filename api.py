@@ -1499,6 +1499,48 @@ def get_saffron():
     }
 
     # ── Career benchmarks ─────────────────────────────────────────────────────
+    # Live, rule-based advice — recomputed from her actual logged shows each request,
+    # so the prose tracks her record (no LLM, no per-request cost). When she logs
+    # exhibitions the "weakest dimension" framing gives way as the count climbs.
+    if _total_group_shows >= 5:
+        _bench_summary = (
+            f"Exhibition history has become a real strength — {_total_group_shows} group shows on record "
+            "put you in or above the typical peer range. The 26k Instagram following is a solid asset, and "
+            "the foundation for gallery and institutional conversations is now in place."
+        )
+        _ex_assessment = "on_track"
+        _ex_note = "In or above the typical peer range — a genuine credit base now."
+    elif _total_group_shows >= 3:
+        _bench_summary = (
+            f"Exhibition history is building — {_total_group_shows} group shows on record, approaching the "
+            "typical peer range. The 26k Instagram following is a solid asset; a few more shows brings "
+            "gallery conversations into realistic reach."
+        )
+        _ex_assessment = "approaching_typical"
+        _ex_note = "Approaching the typical range — a few more shows opens gallery conversations."
+    else:
+        _bench_summary = (
+            "Exhibition history is the weakest dimension. The 26k Instagram following is a solid, real asset "
+            "at this career stage but not yet a standout — it sits in the typical peer range. The near-term "
+            "work is converting audience into exhibition and publication credits."
+        )
+        _ex_assessment = "below_typical"
+        _ex_note = "Expected at this stage — but the gap needs closing before gallery conversations are realistic."
+
+    if _total_group_shows >= 4:
+        _solo_bottleneck = (
+            f"Exhibition history is in good shape — {_total_group_shows} group shows on record. The next "
+            "barrier is a cohesive body of work strong enough to carry a solo."
+        )
+    else:
+        _solo_need = max(0, 3 - _total_group_shows)
+        _solo_bottleneck = (
+            f"Exhibition history is still thin — about {_solo_need}–{_solo_need + 1} more group shows before "
+            "a gallery will discuss a solo."
+            if _solo_need else
+            "Exhibition history is right at the threshold — one or two more group shows opens solo conversations."
+        )
+
     career_benchmarks = {
         "artist_record": {
             "exhibitions": _total_group_shows,
@@ -1514,8 +1556,8 @@ def get_saffron():
                 "peer_low": 1,
                 "peer_typical": "3–5",
                 "peer_high": "8+",
-                "assessment": "below_typical",
-                "note": "Expected at this stage — but the gap needs closing before gallery conversations are realistic",
+                "assessment": _ex_assessment,
+                "note": _ex_note,
             },
             {
                 "dimension": "Publications",
@@ -1536,7 +1578,7 @@ def get_saffron():
                 "note": "Right in the typical band for illustrators at this stage — a solid, real audience for print and zine discovery, with room to grow toward the 50k market-viability signal",
             },
         ],
-        "summary": "Exhibition history is the weakest dimension. The 26k Instagram following is a solid, real asset at this career stage but not yet a standout — it sits in the typical peer range. The near-term work is converting audience into exhibition and publication credits.",
+        "summary": _bench_summary,
     }
 
     # ── Seasonal opportunity calendar ─────────────────────────────────────────
@@ -1796,7 +1838,7 @@ def get_saffron():
                     "Artist statement developed and refined",
                 ],
                 "probability": "moderate",
-                "bottleneck": "Exhibition history is thin. 2–3 more group shows are required before any gallery will discuss a solo show.",
+                "bottleneck": _solo_bottleneck,
                 "best_fit_signal": "Right if you're primarily motivated by the physical exhibition experience and gallery community.",
             },
             {
