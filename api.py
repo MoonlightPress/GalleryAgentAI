@@ -288,7 +288,7 @@ def _real_submission_page(opp: dict) -> bool:
 
 
 def _ibm_eligible(opp: dict) -> bool:
-    if opp.get("status") in ("permanently_closed", "closed_this_cycle"):
+    if opp.get("status") in ("permanently_closed", "closed_this_cycle", "closed"):
         return False
     # Relationship/proposal venues are evergreen — stale deadline fields don't close them
     if opp.get("category") in _RELATIONSHIP_CATS and opp.get("contact_verified"):
