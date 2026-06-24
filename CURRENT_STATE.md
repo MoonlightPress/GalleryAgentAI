@@ -36,6 +36,21 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **2026-06-25 — Discord ops feed + her-edit durability, DEPLOYED & verified live (Claude):** Production
+  (api at `/opt/mochi`, restarted; site 200, API 200) now runs three things. (1) **Her profile edits
+  auto-refresh her drafts** — a Peppercorn statement edit propagates into `artist_master_profile.json` and
+  fires a background draft regen (`engines/regen.py`); `ibm_email_writer.py` re-targets all eligible opps
+  when `email_drafts_stale` is set and clears it on a clean run. Server now has `anthropic` + key, so regen
+  *can* run server-side — **NOT yet exercised by a real edit; verify.** (2) **Discord notifications**
+  (`engines/notify.py`; webhook in `/opt/mochi/.env` as `MOCHI_DISCORD_WEBHOOK`): end-of-regen result + a
+  **live page-navigation feed** (`POST /api/event` + a beacon in `App.jsx`) posting every open/page-move,
+  content-blind (`engines/visit_tracking.py`). (3) **Per-edit timestamped backups** of all her editable files
+  into `memory/backups/` (`engines/backups.py` via `_save_her_data`), and **deploy.sh no longer clobbers
+  server memory** — it snapshots `/opt/mochi/memory` → `memory_backups/<ts>/` and seeds memory only when
+  absent. Fully unit-tested (profile_sync/notify/regen/visit_tracking/backups); 15 frontend tests + build green.
+  **Deploy gotcha (hit & fixed):** api.py imports the `engines/` modules, so deploy.sh MUST ship them or the
+  API 502s on import — `backups.py` was missed and crash-looped prod once before being added to the ship list.
+  **Caveats:** server-side regen untested with a real edit; pre-handoff checklist items beyond these remain open.
 - **2026-06-24 — monthly pass + serve-time quality guards (Claude):** Ran the full pipeline (the monthly
   update pass): **419 opportunities live**, fresh discovery + decay archiving. **Cadence is now MONTHLY**
   (opportunities are long-horizon) — and **before each pass, raise the Tavily pay-as-you-go LIMIT on the
