@@ -8,7 +8,11 @@ _Last updated: 2026-06-24_
 
 ## The live app
 
-- **Frontend:** React (Vite) in **`frontend/`** → http://localhost:5177
+- **Production (2026-06-24):** the app is at **https://twilightdreamworks.com/mochi** — root `/` now serves a
+  standalone twilight landing page (`landing/index.html` → `/var/www/index.html`) for other experiments.
+  nginx config lives in repo at `deploy/nginx-mochi.conf` and was applied **manually via SSH** (deploy.sh
+  reloads nginx but does not install the config). `deploy.sh` still works unchanged for app updates.
+- **Frontend (dev):** React (Vite) in **`frontend/`** → http://localhost:5177 (Vite `base: '/mochi/'`)
 - **Backend:** **`api.py`** (FastAPI/uvicorn) → http://127.0.0.1:8001 (Vite proxies `/api` → :8001)
 - **Launch both:** `start_mochi.bat`
 - Streamlit **`app.py` is retired** — reference only, not the product. (`launch_mochi.bat` still
