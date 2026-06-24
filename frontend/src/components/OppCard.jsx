@@ -197,6 +197,16 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
           >
             {isOpen ? t('card.close') : t('card.details')}
           </button>
+          {(opp.submission_page || opp.official_website) && (
+            <a
+              className="opp-btn-open"
+              href={opp.submission_page || opp.official_website}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t('tf.open')}
+            </a>
+          )}
         </div>
 
         <div className="opp-feedback-row" role="group" aria-label={t('card.feedback.label')}>

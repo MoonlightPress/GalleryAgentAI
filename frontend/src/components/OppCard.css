@@ -182,6 +182,26 @@
   border-color: #a8842e;
 }
 
+.opp-btn-open {
+  padding: 5px 14px;
+  border-radius: 8px;
+  font-size: 11.5px;
+  font-family: Georgia, serif;
+  cursor: pointer;
+  transition: background 0.14s, color 0.14s, border-color 0.14s;
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.opp-btn-open:hover {
+  background: var(--ink);
+  color: #fff;
+}
+
 /* ── Feedback row ── */
 .opp-feedback-row {
   display: flex;
