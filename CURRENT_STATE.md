@@ -166,7 +166,16 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## In flight (work not finished — don't assume it's done)
 
-- None currently recorded here.
+- **⭐ PRE-HANDOFF READINESS PASS pending (external review, 2026-06-24 night).** Scott had an outside review
+  setup (not the core mochi chat) run a 5-agent code review + a live-site walk in Chinese. He is **NOT** sending
+  the app to GEGYjiji yet. The prioritized action list is **`_reviews/2026-06-24_PREHANDOFF_CHECKLIST.md`** —
+  read it first; the 5 facet reports are alongside it in `_reviews/`. Headline findings: (1) the all-day
+  translation loop was a **render bug, not a coverage gap** — Saffron's `CareerTimeline`/`PricingIntelligence`
+  render raw English fields instead of the existing `_zh` data (use `locF`, thread `lang`); only `had_zh` is
+  genuinely missing. (2) Money gate: translation engines aren't in `PAID_STEPS` and the enabled
+  `MochiWeeklyPipeline` task fires ≈Thu 6/30 — gate or disable. (3) Durability: server autonomy is laptop-driven
+  (`last_run.json`=failed 6/23) and the Peppercorn→email-draft feedback loop is broken. **Always verify against
+  the rendered page, not the engine's self-reported coverage.**
 
 ## Pre-launch backlog (curated from the 2026-06-19 launch-readiness audit)
 
