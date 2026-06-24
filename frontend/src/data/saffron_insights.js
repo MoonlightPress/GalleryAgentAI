@@ -247,7 +247,7 @@ export const GRANT_LANDSCAPE = {
       "deadline": "Typically March each year (check acc.org for 2027 cycle)",
       "competition": "Lower than equivalent Western grants — fewer Asian artists know this exists.",
       "why_apply": "She qualifies by Chinese nationality. The 'artist studying American watercolor tradition' angle is fundable. ACC alumni list is a who's-who of Asian contemporary art.",
-      "apply": "acc.org — requires project proposal + portfolio + recommendation letters",
+      "apply": "acc.org — requires project proposal + portfolio + recommendation letters", "apply_zh": "acc.org —— 需要项目计划书 + 作品集 + 推荐信", "apply_ja": "acc.org —— 企画提案書＋ポートフォリオ＋推薦状が必要",
       "tip": "Apply for the 'Arts and Culture' fellowship track. Frame the project as cross-cultural exchange, not tourism.",
       "eligibility_zh": "任何职业阶段的亚洲艺术家，需有赴美具体艺术交流项目。中国公民符合申请资格。无居住地限制。",
       "eligibility_ja": "キャリア段階を問わず、対米芸術交流の具体的なプロジェクトを持つアジア人芸術家が対象。中国国籍者も申請可能。居住地の制限なし。",
@@ -266,7 +266,7 @@ export const GRANT_LANDSCAPE = {
       "deadline": "Typically September–October for the following year",
       "competition": "Moderate. Watercolor/painting has a strong track record in JF funding.",
       "why_apply": "She's Japan-based. Urban documentation of Tokyo is a natural cultural exchange narrative.",
-      "apply": "jpf.go.jp — Japanese application form + project proposal required",
+      "apply": "jpf.go.jp — Japanese application form + project proposal required", "apply_zh": "jpf.go.jp —— 需提交日文申请表 + 项目计划书", "apply_ja": "jpf.go.jp —— 日本語の申請書＋企画提案書が必要",
       "tip": "Frame the project as cultural documentation, not personal artistic development. 'Documenting the changing face of Tokyo through watercolor' is more fundable than 'improving my art'.",
       "eligibility_zh": "居住在日本的艺术家；部分项目对外国居民开放。设有个人艺术家及合作项目等多个申请类别。",
       "eligibility_ja": "日本在住の芸術家が対象。一部のプログラムは外国人居住者にも開放。個人芸術家や共同プロジェクトなど複数の部門あり。",
@@ -285,7 +285,7 @@ export const GRANT_LANDSCAPE = {
       "deadline": "Varies by cycle — check bunka.go.jp",
       "competition": "Moderate. Watercolor/painting applicants have succeeded historically.",
       "why_apply": "Overseas residency funding is rare. This funds a year abroad for artistic development.",
-      "apply": "bunka.go.jp — highly structured application; project plan required",
+      "apply": "bunka.go.jp — highly structured application; project plan required", "apply_zh": "bunka.go.jp —— 申请流程高度规范；需提交项目计划", "apply_ja": "bunka.go.jp —— 申請手続きは非常に体系的。事業計画が必要",
       "tip": "Target the visual arts category. Applying for a residency at a specific institution (e.g., Cité Internationale des Arts) strengthens the application.",
       "eligibility_zh": "在日本居住的新兴艺术家。绘画/版画/工艺类别均可申请。符合职业阶段标准的外国居民亦可申请。",
       "eligibility_ja": "日本在住の新進芸術家が対象。絵画・版画・工芸の各部門に申請可能。キャリア段階の基準を満たす外国人居住者も申請できる。",
@@ -304,7 +304,7 @@ export const GRANT_LANDSCAPE = {
       "deadline": "Varies by grant cycle — check tokyo-midtown-award.jp and tokyoartsandspace.jp",
       "competition": "Lower than national grants. Many artists don't know Tokyo has its own arts funding.",
       "why_apply": "Being Tokyo-based is the primary qualifying factor. Low competition relative to funding amount.",
-      "apply": "Multiple programs under Tokyo Arts and Space (TOKAS) and Tokyo Metropolitan Government",
+      "apply": "Multiple programs under Tokyo Arts and Space (TOKAS) and Tokyo Metropolitan Government", "apply_zh": "由 Tokyo Arts and Space (TOKAS) 与东京都政府主办的多个项目", "apply_ja": "Tokyo Arts and Space（TOKAS）および東京都による複数のプログラム",
       "tip": "TOKAS residency programs often come with attached funding. Apply for the residency and the grant simultaneously.",
       "eligibility_zh": "东京居民，或活跃于东京艺术圈",
       "eligibility_ja": "東京在住、または東京の芸術活動に積極的に関わっていること",
@@ -323,7 +323,7 @@ export const GRANT_LANDSCAPE = {
       "deadline": "Varies",
       "competition": "Low — most overseas Chinese artists aren't aware of this funding stream",
       "why_apply": "She's Chinese. A 'Chinese artist documenting Tokyo for Chinese audiences' project is directly fundable.",
-      "apply": "Via Chinese embassy cultural attaché or China Arts Foundation directly",
+      "apply": "Via Chinese embassy cultural attaché or China Arts Foundation directly", "apply_zh": "通过中国大使馆文化专员，或直接联系 China Arts Foundation", "apply_ja": "中国大使館の文化担当官を通じて、またはChina Arts Foundationへ直接",
       "tip": "Availability varies by political climate. Monitor via Chinese artist communities in Tokyo.",
       "eligibility_zh": "需具备中国国籍。面向从事文化交流工作的海外华人艺术家。",
       "eligibility_ja": "中国国籍が必須条件。文化交流活動に取り組む在外中国人芸術家を対象とした制度。",
@@ -354,8 +354,8 @@ export const REVENUE_STREAMS = {
   "items": [
     {
       "stream": "SUZURI (passive income)",
-      "realistic_monthly": "¥10,000–30,000/month with active promotion",
-      "setup_time": "1–2 days initial setup; 1 hr/week maintenance",
+      "realistic_monthly": "¥10,000–30,000/month with active promotion", "realistic_monthly_zh": "在积极推广下，每月 ¥10,000–30,000", "realistic_monthly_ja": "積極的な宣伝を行えば月¥10,000〜30,000",
+      "setup_time": "1–2 days initial setup; 1 hr/week maintenance", "setup_time_zh": "初期搭建 1–2 天；每周维护 1 小时", "setup_time_ja": "初期設定に1〜2日、維持は週1時間",
       "description": "Japanese print-on-demand platform. Upload art → SUZURI produces and ships. Zero fulfillment work. Products: acrylic keychains, cloth pouches, tote bags, art prints, phone cases.",
       "why_now": "Her BASE shop already covers originals, zines, and prints. SUZURI is a separate, optional layer for hands-off merch — totes, cases, keychains — that she'd otherwise have to produce and ship herself.",
       "action": "Optional: if she wants merch beyond prints, open a SUZURI store and upload 20–30 works — it produces and ships everything.",
@@ -371,7 +371,7 @@ export const REVENUE_STREAMS = {
     },
     {
       "stream": "Booth.pm",
-      "realistic_monthly": "¥10,000–25,000 — lower traffic, higher margin",
+      "realistic_monthly": "¥10,000–25,000 — lower traffic, higher margin", "realistic_monthly_zh": "¥10,000–25,000 —— 流量更低，利润率更高", "realistic_monthly_ja": "¥10,000〜25,000 —— トラフィックは低めだが利益率は高い",
       "setup_time": "1 day",
       "description": "Japanese direct-to-artist platform (like Gumroad). No fulfillment. Good for: original sale announcements, limited edition print files, digital goods (process videos, reference photos, custom brushes).",
       "why_now": "Higher margin than SUZURI because no middleman production cost on digital goods. Originals can be listed here too.",
@@ -407,9 +407,9 @@ export const REVENUE_STREAMS = {
     },
     {
       "stream": "Print editions",
-      "realistic_monthly": "¥30,000–120,000 per edition release (partial sell-through at this audience size)",
+      "realistic_monthly": "¥30,000–120,000 per edition release (partial sell-through at this audience size)", "realistic_monthly_zh": "每次发行版画 ¥30,000–120,000（在当前受众规模下为部分售罄）", "realistic_monthly_ja": "エディション1回のリリースあたり¥30,000〜120,000（現在の観客規模では一部販売）",
       "description": "Numbered limited editions, signed by artist. Rule: if original sells for ¥80k, edition of 20 prints at ¥8–15k each = ¥160–300k total. Edition keeps original's value while generating cash.",
-      "edition_discipline": "Limit to ≤30 per image. Sign and number all. Announce clearly: '1/20', '20/20 — SOLD OUT'. Scarcity is the product.",
+      "edition_discipline": "Limit to ≤30 per image. Sign and number all. Announce clearly: '1/20', '20/20 — SOLD OUT'. Scarcity is the product.", "edition_discipline_zh": "每幅图限量 ≤30 版。全部签名并编号。清晰标注：「1/20」「20/20 —— 售罄」。稀缺性本身就是产品。", "edition_discipline_ja": "1図版あたり30点以下に限定。すべてにサインと番号を入れる。「1/20」「20/20 —— 完売」と明確に告知する。希少性こそが商品だ。",
       "why_now": "Consistent art practice = continuous content for editions. Monthly limited release is manageable.",
       "action": "Choose 3 strong images, order test prints (Print Packs, Printize, or local lab), photograph and list.",
       "leaving_on_table": true,
@@ -424,7 +424,7 @@ export const REVENUE_STREAMS = {
     },
     {
       "stream": "Commissions",
-      "realistic_monthly": "¥40,000–300,000 depending on volume",
+      "realistic_monthly": "¥40,000–300,000 depending on volume", "realistic_monthly_zh": "¥40,000–300,000，视数量而定", "realistic_monthly_ja": "数量に応じて¥40,000〜300,000",
       "pricing": "Personal commission (individual person): ¥30,000–80,000 | Commercial (brand, book, magazine): ¥100,000–500,000 | Brand licensing: separate — see Licensing section",
       "description": "With a 26k engaged following, she can charge confident rates. The mistake most artists make: undercharging because they feel unqualified. A real audience of this size is evidence of genuine market interest.",
       "action": "Post commission announcement quarterly with clear pricing and 'DM to inquire'. Set a limit (e.g., 3/quarter) to create urgency.",
@@ -760,18 +760,18 @@ export const CAREER_TIMELINE = {
   summaryKey: "sf.sum.careerTimeline",
   artist_stage: {
     age:           26,
-    years_active:  "~6 (daily practice from 2020, first publication 2021)",
+    years_active:  "~6 (daily practice from 2020, first publication 2021)", "years_active_zh": "约 6 年（2020 年起每日创作，2021 年首次出版）", "years_active_ja": "約6年（2020年から毎日制作、2021年に初出版）",
     group_shows:   1,
     publications:  2,
     instagram:     "26k",
     base:          "Tokyo / Beijing",
   },
-  overall_assessment: "At this stage GEGYjiji is ahead on digital practice and consistency but behind on traditional exhibition credits compared to most watercolor peers at age 26. The 26k Instagram following is a solid, real audience built through daily practice — a genuine asset, with clear room to grow toward the 50k market-viability signal.",
+  overall_assessment: "At this stage GEGYjiji is ahead on digital practice and consistency but behind on traditional exhibition credits compared to most watercolor peers at age 26. The 26k Instagram following is a solid, real audience built through daily practice — a genuine asset, with clear room to grow toward the 50k market-viability signal.", "overall_assessment_zh": "在这个阶段，与多数 26 岁的水彩同侪相比，GEGYjiji 在数字化创作与持续性上领先，但在传统展览履历上落后。2.6 万 Instagram 粉丝是通过每日创作积累的扎实而真实的受众——一项实打实的资产，并有明确空间向 5 万这一市场可行性信号增长。", "overall_assessment_ja": "この段階で、26歳の水彩画家の多くと比べ、GEGYjijiはデジタル制作と継続性で先行しているが、従来型の展示実績では遅れている。2.6万人のInstagramフォロワーは毎日の制作で築いた確かで本物の観客であり、真の資産であると同時に、市場性の目安となる5万人へ伸ばす余地も明確にある。",
   peers: [
     {
       name: "Chien Chung-Wei (簡忠威)",
       region: "Taiwan",
-      comparable_age: "Early 30s when international visibility came",
+      comparable_age: "Early 30s when international visibility came", "comparable_age_zh": "30 岁出头时获得国际能见度", "comparable_age_ja": "30代前半で国際的な知名度を得た",
       at_stage: {
         had: [
           "Consistent open-call submissions to IWS and national watercolor societies since ~age 28",
@@ -780,12 +780,12 @@ export const CAREER_TIMELINE = {
         ],
         lacked: ["Any international exhibition", "Digital audience"],
       },
-      comparison: "She already has a larger audience than he had at this stage. He built credibility through competitions first; that path is open to her too.",
+      comparison: "She already has a larger audience than he had at this stage. He built credibility through competitions first; that path is open to her too.", "comparison_zh": "她现在的受众已比他在同一阶段时更多。他最初是通过赛事建立信誉的；这条路同样对她开放。", "comparison_ja": "彼女はすでに、彼が同じ段階で持っていたよりも多くの観客を得ている。彼はまず公募・コンペで信頼を築いた。その道は彼女にも開かれている。",
     },
     {
       name: "Keiko Tanabe",
       region: "Japan / USA",
-      comparable_age: "First AWS/NWS entries in her late 20s",
+      comparable_age: "First AWS/NWS entries in her late 20s", "comparable_age_zh": "二十多岁后期首次入选 AWS／NWS", "comparable_age_ja": "20代後半でAWS/NWSに初入選",
       at_stage: {
         had: [
           "2–3 juried watercolor society submissions per year",
@@ -794,12 +794,12 @@ export const CAREER_TIMELINE = {
         ],
         lacked: ["Japan exhibition history", "Any significant social following"],
       },
-      comparison: "Similar timeline: first serious submissions at 26–28. She's on track. The Japan context is an advantage Tanabe didn't have early on.",
+      comparison: "Similar timeline: first serious submissions at 26–28. She's on track. The Japan context is an advantage Tanabe didn't have early on.", "comparison_zh": "时间线相似：26–28 岁开始认真投稿。她正处于正轨。身处日本的环境是 Tanabe 早期所不具备的优势。", "comparison_ja": "同様のタイムライン：26〜28歳で本格的に応募を始めた。彼女は順調だ。日本という環境は、Tanabeが初期には持っていなかった強みである。",
     },
     {
       name: "Alvaro Castagnet",
       region: "Uruguay / Australia",
-      comparable_age: "First major workshop circuit in his late 20s",
+      comparable_age: "First major workshop circuit in his late 20s", "comparable_age_zh": "二十多岁后期首次进入主要的工作坊巡回", "comparable_age_ja": "20代後半で主要なワークショップ巡回に初参加",
       at_stage: {
         had: [
           "Regular submissions to South American watercolor societies",
@@ -808,12 +808,12 @@ export const CAREER_TIMELINE = {
         ],
         lacked: ["International profile", "Teaching income"],
       },
-      comparison: "She has more publication credits at 26 than Castagnet did. His path diverged toward workshops; hers is more illustration-adjacent.",
+      comparison: "She has more publication credits at 26 than Castagnet did. His path diverged toward workshops; hers is more illustration-adjacent.", "comparison_zh": "她 26 岁时的出版履历比 Castagnet 当年更丰富。他的路径转向了工作坊；她的则更贴近插画。", "comparison_ja": "彼女は26歳時点で、Castagnetよりも多くの出版実績を持つ。彼の道はワークショップへ向かったが、彼女の道はよりイラスト寄りだ。",
     },
     {
       name: "Yuko Nagayama",
       region: "Japan",
-      comparable_age: "Built Tokyo gallery relationships through her late 20s",
+      comparable_age: "Built Tokyo gallery relationships through her late 20s", "comparable_age_zh": "在二十多岁后期逐步建立东京画廊人脉", "comparable_age_ja": "20代後半をかけて東京のギャラリーとの関係を築いた",
       at_stage: {
         had: [
           "3–4 small Tokyo gallery group shows by age 27",
@@ -822,7 +822,7 @@ export const CAREER_TIMELINE = {
         ],
         lacked: ["Social media presence (pre-Instagram era)"],
       },
-      comparison: "The most directly comparable Tokyo path. She had more early group shows but no digital presence. GEGYjiji's 26k Instagram base is a head start Nagayama built from scratch.",
+      comparison: "The most directly comparable Tokyo path. She had more early group shows but no digital presence. GEGYjiji's 26k Instagram base is a head start Nagayama built from scratch.", "comparison_zh": "最直接可比的东京路径。Nagayama 早期的联展更多，但没有数字平台。GEGYjiji 的 2.6 万 Instagram 基础是一种先发优势——Nagayama 当年是从零开始积累的。", "comparison_ja": "最も直接的に比較できる東京での道。Nagayamaは初期のグループ展はより多かったが、デジタルでの発信はなかった。GEGYjijiの2.6万人のInstagram基盤は、Nagayamaがゼロから築いたものに対する先行アドバンテージである。",
     },
   ],
 };
@@ -831,32 +831,32 @@ export const CAREER_TIMELINE = {
 export const PRICING_INTELLIGENCE = {
   titleKey:   "sf.sec.pricing",
   summaryKey: "sf.sum.pricing",
-  source_note: "Based on Sterling & Associates assessment data, Tokyo illustrator market surveys, and comparable artist sales data at equivalent career stages.",
+  source_note: "Based on Sterling & Associates assessment data, Tokyo illustrator market surveys, and comparable artist sales data at equivalent career stages.", "source_note_zh": "基于 Sterling & Associates 的评估数据、东京插画师市场调查，以及同等事业阶段的可比艺术家销售数据。", "source_note_ja": "Sterling & Associatesの評価データ、東京のイラストレーター市場調査、および同等のキャリア段階にある比較対象アーティストの販売データに基づく。",
   current_range: {
     originals: {
       low: 37000, high: 135000, currency: "JPY",
       label: "Original watercolors",
-      note: "F4–F8 scale (24–38cm). Small-format daily diary pieces at the lower end; larger architectural studies at the upper. Current range reflects emerging artist pricing with strong Instagram credibility.",
-      sweet_spot: "¥50,000–80,000 for a 30–40cm piece is defensible and matches peer pricing at ~26k Instagram followers.",
+      note: "F4–F8 scale (24–38cm). Small-format daily diary pieces at the lower end; larger architectural studies at the upper. Current range reflects emerging artist pricing with strong Instagram credibility.", "note_zh": "F4–F8 尺幅（24–38 厘米）。小幅每日日记作品定价偏低端，较大的建筑习作偏高端。当前价位反映了具备扎实 Instagram 公信力的新晋艺术家定价。", "note_ja": "F4〜F8サイズ（24〜38cm）。小判の日記作品は下限、大きめの建築習作は上限。現在の価格帯は、Instagramでの確かな信頼を備えた新進アーティストの価格設定を反映している。",
+      sweet_spot: "¥50,000–80,000 for a 30–40cm piece is defensible and matches peer pricing at ~26k Instagram followers.", "sweet_spot_zh": "30–40 厘米的作品定价 ¥50,000–80,000 是合理的，与约 2.6 万 Instagram 粉丝量级的同侪定价相符。", "sweet_spot_ja": "30〜40cmの作品で¥50,000〜80,000は妥当であり、Instagramフォロワー約2.6万人の同水準アーティストの価格と一致する。",
     },
     prints: {
       low: 3000, high: 12000, currency: "JPY",
       label: "Edition prints",
-      note: "Giclee A4–A3, edition of 30–50. Signed and numbered. Price below ¥3,000 signals uncertainty; above ¥15,000 requires stronger institutional credibility than current stage.",
+      note: "Giclee A4–A3, edition of 30–50. Signed and numbered. Price below ¥3,000 signals uncertainty; above ¥15,000 requires stronger institutional credibility than current stage.", "note_zh": "Giclée 微喷 A4–A3，限量 30–50 版。签名并编号。定价低于 ¥3,000 会显得缺乏自信；高于 ¥15,000 则需要比当前阶段更强的机构公信力。", "note_ja": "ジクレー（A4〜A3）、エディション30〜50。サインと番号入り。¥3,000未満は自信のなさを示し、¥15,000超は現段階より強い機関的な信頼を要する。",
     },
     zines: {
       low: 1200, high: 2800, currency: "JPY",
-      label: "Self-published zines",
-      note: "A5–A4 format, 20–40 pages, edition of 50–200. Tokyo zine shop standard range. Under ¥1,000 is perceived as promotional material, not art object.",
+      label: "Self-published zines", "label_zh": "自出版独立刊物", "label_ja": "自主出版のzine",
+      note: "A5–A4 format, 20–40 pages, edition of 50–200. Tokyo zine shop standard range. Under ¥1,000 is perceived as promotional material, not art object.", "note_zh": "A5–A4 开本，20–40 页，限量 50–200 册。东京独立刊物店的标准区间。低于 ¥1,000 会被视为宣传品，而非艺术品。", "note_ja": "A5〜A4判、20〜40ページ、エディション50〜200。東京のzineショップの標準的な価格帯。¥1,000未満は作品ではなく販促物と見なされる。",
     },
   },
   what_affects_price: [
-    { factor: "Venue context", impact: "high",   note: "Same piece sells for 2–3× more at a gallery opening than at a zine fair. Venue lends credibility." },
-    { factor: "Edition discipline", impact: "high",   note: "Unlimited prints signal uncertainty. Fixed editions (30 or 50) signal intentionality and protect resale value." },
-    { factor: "Instagram followers", impact: "medium", note: "26k is a meaningful asset. At 50k+ the premium becomes significant. Collectors pay for social proof even when they won't admit it." },
-    { factor: "Exhibition CV",       impact: "medium", note: "Each confirmed group show adds ~10–15% defensible price increase for originals." },
-    { factor: "Certificate of authenticity", impact: "medium", note: "Simple, hand-signed CoA doubles perceived permanence. Collectors keep them. Takes 2 minutes." },
-    { factor: "Work size",           impact: "low",    note: "Buyers at this stage prefer smaller formats (easier to hang, lower price). Don't underprice small work." },
+    { factor: "Venue context", impact: "high",   note: "Same piece sells for 2–3× more at a gallery opening than at a zine fair. Venue lends credibility.", "note_zh": "同一件作品在画廊开幕上的售价是独立刊物展会的 2–3 倍。场地赋予公信力。", "note_ja": "同じ作品でも、ギャラリーのオープニングではzineフェアの2〜3倍で売れる。会場が信頼を与える。" },
+    { factor: "Edition discipline", impact: "high",   note: "Unlimited prints signal uncertainty. Fixed editions (30 or 50) signal intentionality and protect resale value.", "note_zh": "无限量印刷会显得缺乏把握。固定版数（30 或 50）传递出明确意图，并保护转售价值。", "note_ja": "無制限のプリントは自信のなさを示す。固定エディション（30や50）は意図の明確さを示し、再販価値を守る。" },
+    { factor: "Instagram followers", impact: "medium", note: "26k is a meaningful asset. At 50k+ the premium becomes significant. Collectors pay for social proof even when they won't admit it.", "note_zh": "2.6 万粉丝是一项有意义的资产。到 5 万以上时，溢价会变得显著。藏家会为社会认同买单，即便他们不愿承认。", "note_ja": "2.6万人は意味のある資産だ。5万人を超えるとプレミアムは大きくなる。コレクターは、たとえ認めなくても社会的証明にお金を払う。" },
+    { factor: "Exhibition CV",       impact: "medium", note: "Each confirmed group show adds ~10–15% defensible price increase for originals.", "note_zh": "每一场已确认的联展，都能为原作带来约 10–15% 的合理涨价空间。", "note_ja": "確定したグループ展が1つ増えるごとに、原画には約10〜15%の妥当な値上げ余地が生まれる。" },
+    { factor: "Certificate of authenticity", "factor_zh": "作品真品证书", "factor_ja": "真作証明書", impact: "medium", note: "Simple, hand-signed CoA doubles perceived permanence. Collectors keep them. Takes 2 minutes.", "note_zh": "一份简单的手签真品证书（CoA）能让作品的「恒久感」翻倍。藏家会妥善保存。只需 2 分钟。", "note_ja": "手書きサイン入りのシンプルな真作証明書（CoA）は、作品の「永続性」の印象を倍増させる。コレクターは大切に保管する。所要時間はわずか2分。" },
+    { factor: "Work size",           impact: "low",    note: "Buyers at this stage prefer smaller formats (easier to hang, lower price). Don't underprice small work.", "note_zh": "这个阶段的买家偏好较小的尺幅（更易悬挂、价格更低）。不要给小幅作品定价过低。", "note_ja": "この段階の買い手は小判を好む（飾りやすく、価格も手頃）。小品を安く付けすぎないこと。" },
   ],
   credibility_signals: [
     "Signed, dated, and titled on the back of every original",
@@ -866,9 +866,9 @@ export const PRICING_INTELLIGENCE = {
     "Professional photo of the work (no phone snaps at openings)",
   ],
   edition_discipline: {
-    rule: "Choose an edition size and never exceed it. 30 is credible. 50 is defensible. 100 is too many for this stage.",
-    why: "Edition discipline is what separates prints that hold value from prints that devalue originals. Collectors remember.",
-    current_gap: "No confirmed edition discipline observed yet — this is the single highest-leverage pricing action available right now.",
+    rule: "Choose an edition size and never exceed it. 30 is credible. 50 is defensible. 100 is too many for this stage.", "rule_zh": "确定一个版数后绝不超出。30 版可信，50 版尚可，100 版对现阶段而言太多。", "rule_ja": "エディション数を決めたら絶対に超えないこと。30は信頼でき、50は許容範囲、100は現段階では多すぎる。",
+    why: "Edition discipline is what separates prints that hold value from prints that devalue originals. Collectors remember.", "why_zh": "对版数的自律，正是「保值的版画」与「拉低原作价值的版画」之间的分水岭。藏家会记住。", "why_ja": "エディションの規律こそが、価値を保つプリントと原画の価値を下げるプリントを分ける。コレクターは覚えている。",
+    current_gap: "No confirmed edition discipline observed yet — this is the single highest-leverage pricing action available right now.", "current_gap_zh": "目前尚未观察到明确的版数自律——这是当下杠杆最高的单一定价行动。", "current_gap_ja": "現時点で明確なエディションの規律は確認されていない——これは今すぐ取れる、最も効果の高い価格設定上の一手である。",
   },
   red_flags: [
     "Selling originals for under ¥20,000 at this follower count signals under-confidence, not accessibility",

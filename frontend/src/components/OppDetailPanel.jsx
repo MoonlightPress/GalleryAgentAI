@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './OppDetailPanel.css'
 import { useLanguage } from '../i18n/LanguageContext'
+import { tfb } from '../i18n/translations'
 
 function deadlineIsReal(dl) {
   if (!dl) return false
@@ -131,7 +132,7 @@ export default function OppDetailPanel({ opp, onClose }) {
 
           {crmContact && (
             <span className={`detail-chip detail-chip-crm detail-chip-crm--${crmContact.status || 'cold'}`}>
-              🤝 {crmContact.status ? (t(`crm.status.${crmContact.status}`) || crmContact.status.replace('_', ' ')) : t('detail.crmTracked')}
+              🤝 {crmContact.status ? (tfb(t, `crm.status.${crmContact.status}`, crmContact.status.replace('_', ' '))) : t('detail.crmTracked')}
               {crmContact.last_contacted && ` · ${crmContact.last_contacted}`}
             </span>
           )}
@@ -153,7 +154,7 @@ export default function OppDetailPanel({ opp, onClose }) {
                 onChange={e => setLogForm(f => ({ ...f, status: e.target.value }))}
               >
                 {['cold','researching','in_contact','submitted','ongoing','rejected'].map(s => (
-                  <option key={s} value={s}>{t('pp.venuelog.status.' + s) || s.replace('_', ' ')}</option>
+                  <option key={s} value={s}>{tfb(t, 'pp.venuelog.status.' + s, s.replace('_', ' '))}</option>
                 ))}
               </select>
               <input
@@ -205,7 +206,7 @@ export default function OppDetailPanel({ opp, onClose }) {
             <div className="prereq-chips">
               {opp.prerequisites.map(p => (
                 <span key={p} className="prereq-chip">
-                  {t(`prereq.${p}`) || p}
+                  {tfb(t, `prereq.${p}`, p)}
                 </span>
               ))}
             </div>

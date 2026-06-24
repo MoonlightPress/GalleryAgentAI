@@ -81,19 +81,67 @@ const zh = {
   'opps.error':              '无法连接猫饼API — python api.py 是否正在运行？',
   'opps.showMore':           '显示更多',
   'opps.moreCount':          '还有{n}个',
+  'opps.strongest.title':    '猫饼的精选推荐',
+  'opps.strongest.desc':     '三个看起来已就绪、契合信号清晰的建议。分数留在幕后。',
+  'opps.browseHint':         '浏览完整列表。看到不合适的随手标记。',
+  'opps.showingCount':       '已显示 {total} 个中的 {shown} 个',
+  'opps.hiddenCount':        '已从此面板隐藏：{n}',
+  'opps.showMoreCount':      '再显示 {n} 个',
+  'opps.showLess':           '收起',
+  'status.updated':          '更新于 {when}',
 
   // ── OppCard ───────────────────────────────────────────────────────────────
   'card.details':            '详情',
   'card.close':              '关闭',
+  'card.feedback.label':     '教猫饼',
   'card.feedback.follow':    '关注',
   'card.feedback.applied':   '已申请',
   'card.feedback.maybe':     '以后考虑',
   'card.feedback.notForMe':  '不合适',
+  'card.recommendation.ready':  '猫饼为什么选它：',
+  'card.recommendation.review': '行动前请确认：',
+  'card.toast.follow':       '已保存，留作密切关注。',
+  'card.toast.maybe':        '猫饼会先帮你留着。',
+  'card.toast.notForMe':     '已从此面板隐藏。',
   'card.toast.logged':       '✓ 已加入提交记录',
   'card.deadlinePast':         '截止日已过',
   'card.deadlinePast.title':   '此机会的截止日期已经过去',
   'card.closedThisCycle':      '本期已截止',
   'card.closedThisCycle.title':'本轮提交已截止。该活动可能每年重新开放。',
+
+  // ── Recommendation reason phrases (translatePhrase exact-match) ────────────
+  'rec.needsCheck':                          '需快速确认：',
+  'rec.oneMoreLook':                         '猫饼还需要再看一眼才能强力推荐。',
+  'Submission path is clear':                '提交路径清晰',
+  'Deadline is checked':                     '截止日期已确认',
+  'Fee is known':                            '费用已知',
+  'No entry fee found':                      '未发现报名费',
+  'Local or Japan-friendly':                 '本地或对日本友好',
+  'Good relationship target':                '理想的关系建立对象',
+  'Evergreen or proposal-based':             '常年开放或可提案',
+  'Relationship contact route exists':       '存在可联系的人脉路径',
+  'Matches her watercolor practice':         '契合你的水彩创作',
+  'Fits artist books or printed work':       '适合艺术家书或印刷作品',
+  'Fits illustration-forward work':          '适合以插画为主的作品',
+  'Matches her current body of work':        '契合你当前的作品方向',
+  'You marked this worth watching':          '你标记了值得关注',
+  'Saved for later':                         '已保存，留待以后',
+  'Timing needs review':                     '时间安排需复核',
+  'Medium fit is weaker':                    '媒介契合度较弱',
+  'Find submission path':                    '需确认提交路径',
+  'Confirm deadline':                        '需确认截止日期',
+  'Verify fee':                              '需核实费用',
+  'Eligibility may not fit':                 '资格可能不符',
+  'Hidden by feedback':                      '已根据反馈隐藏',
+  'Similar items were marked not for me':    '类似项目曾被标记为不合适',
+  'fee_unknown':                             '费用未知',
+  'submission_or_contact_missing':           '缺少提交或联系方式',
+  'deadline_unverified':                     '截止日期未核实',
+  'closed_this_cycle':                       '本期已截止',
+  'deadline_past':                           '截止日期已过',
+  'source_needs_reverification':             '来源需重新核实',
+  'closed':                                  '已关闭',
+  'source_unverified':                       '来源未核实',
 
   // ── Effort labels ─────────────────────────────────────────────────────────
   'card.effort.low':         '低门槛',
@@ -103,6 +151,7 @@ const zh = {
 
   // ── CRM status labels ──────────────────────────────────────────────────────
   'crm.status.cold':         '未接触',
+  'crm.status.ready_to_review': '待查看',
   'crm.status.researching':  '调研中',
   'crm.status.in_contact':   '联系中',
   'crm.status.submitted':    '已提交',
@@ -145,6 +194,12 @@ const zh = {
   'cat.editorial_illustration':      '编辑插画 / 杂志约稿',
   'cat.magazine_call':               '杂志征稿',
   'cat.book_cover_call':             '封面插画征集',
+  'cat.fair':                        '艺术书展 / 博览会',
+  'cat.bookshop':                    '书店',
+  'cat.zine_shop':                   '独立刊物书店',
+  'cat.book_publisher':              '出版社',
+  'cat.opportunity_platform':        '机会平台',
+  'cat.other':                       '其他',
   'cat.competition_award':           '比赛与奖项',
   'cat.illustration_prize':          '插画奖项',
   'cat.watercolor_competition':      '水彩竞赛',
@@ -804,6 +859,37 @@ const zh = {
   'pp.venueType.institution':      '机构 / 美术馆',
   'pp.venueType.residency':           '驻留项目',
   'pp.venueType.other':            '其他',
+  'pp.venueType.book_cover_call': '封面插画征集',
+  'pp.venueType.book_publisher': '出版社',
+  'pp.venueType.book_publishing': '图书出版',
+  'pp.venueType.bookstore_event': '书店活动',
+  'pp.venueType.bookstore_gallery': '书店画廊',
+  'pp.venueType.competition_award': '比赛与奖项',
+  'pp.venueType.event_space': '活动场地',
+  'pp.venueType.fair_popup': '艺术博览会 / 快闪',
+  'pp.venueType.gallery_event': '画廊活动',
+  'pp.venueType.gallery_small': '小型画廊',
+  'pp.venueType.global_art_book_fair': '国际艺术书展',
+  'pp.venueType.global_artist_book_platform': '艺术家书籍平台',
+  'pp.venueType.global_book_arts': '书籍艺术（国际）',
+  'pp.venueType.global_grant_fellowship': '资助与奖学金',
+  'pp.venueType.global_open_call': '公开征集（国际）',
+  'pp.venueType.global_residency': '驻留项目（国际）',
+  'pp.venueType.global_watercolor_open_call': '水彩公开征集',
+  'pp.venueType.grant': '资助',
+  'pp.venueType.group_publication_open_call': '合集征稿',
+  'pp.venueType.illustration_prize': '插画奖项',
+  'pp.venueType.institutional': '机构',
+  'pp.venueType.japan_watercolor_open_call': '水彩公募（日本）',
+  'pp.venueType.magazine_call': '杂志征稿',
+  'pp.venueType.market_event': '市集',
+  'pp.venueType.opportunity_platform': '机会平台',
+  'pp.venueType.press_target': '媒体目标',
+  'pp.venueType.residency_beijing': '驻留（北京）',
+  'pp.venueType.watercolor_competition': '水彩竞赛',
+  'pp.venueType.zine_fair_booth': '独立出版物书展摊位',
+  'pp.venueType.zine_print': '独立出版物 / 印刷',
+  'pp.venueType.zine_shop_consignment': '独立出版物寄售',
 
   // ── VenueContactCard inline edit ─────────────────────────────────────────
   'pp.crm.edit':               '编辑',
@@ -900,6 +986,10 @@ const zh = {
   'people.reach.website':          '访问网站',
   'people.reach.none':             '去了解',
   'people.status.cold':            '尚未联系',
+  'people.status.in_contact':      '已联系',
+  'people.status.ongoing':         '进行中',
+  'people.status.rejected':        '已婉拒',
+  'people.status.submitted':       '已投递',
   'people.status.researching':     '研究中',
   'people.status.ready_to_review': '可以联系',
   'people.details':          '详情',
@@ -1025,6 +1115,8 @@ const zh = {
   'medium.book_arts':     '◆ 书籍艺术',
   'medium.painting':      '◆ 绘画',
   'medium.photography':   '◆ 摄影',
+  'medium.mixed':        '◆ 综合媒材',
+  'medium.unknown':      '◆ 未知',
 }
 
 const ja = {
@@ -1174,6 +1266,7 @@ const ja = {
 
   // ── CRM status labels ──────────────────────────────────────────────────────
   'crm.status.cold':         '未接触',
+  'crm.status.ready_to_review': '確認待ち',
   'crm.status.researching':  '調査中',
   'crm.status.in_contact':   '連絡中',
   'crm.status.submitted':    '提出済み',
@@ -1195,6 +1288,8 @@ const ja = {
   'cat.gallery_event':       'ギャラリーイベント',
   'cat.gallery_small':               '小規模ギャラリー',
   'cat.book_publishing':             '書籍出版',
+  'cat.book_publisher':              '出版社',
+  'cat.opportunity_platform':        '機会プラットフォーム',
   'cat.global_art_book_fair':        '国際アートブックフェア',
   'cat.global_artist_book_platform': 'アーティストブックプラットフォーム',
   'cat.global_book_arts':            '書籍アート（国際）',
@@ -1775,6 +1870,37 @@ const ja = {
   'pp.venueType.institution':      '機関 / 美術館',
   'pp.venueType.residency':           'レジデンス',
   'pp.venueType.other':            'その他',
+  'pp.venueType.book_cover_call': '表紙イラスト募集',
+  'pp.venueType.book_publisher': '出版社',
+  'pp.venueType.book_publishing': '書籍出版',
+  'pp.venueType.bookstore_event': '書店イベント',
+  'pp.venueType.bookstore_gallery': '書店ギャラリー',
+  'pp.venueType.competition_award': 'コンクール・賞',
+  'pp.venueType.event_space': 'イベントスペース',
+  'pp.venueType.fair_popup': 'アートフェア / ポップアップ',
+  'pp.venueType.gallery_event': 'ギャラリーイベント',
+  'pp.venueType.gallery_small': '小規模ギャラリー',
+  'pp.venueType.global_art_book_fair': '国際アートブックフェア',
+  'pp.venueType.global_artist_book_platform': 'アーティストブックプラットフォーム',
+  'pp.venueType.global_book_arts': '書籍アート（国際）',
+  'pp.venueType.global_grant_fellowship': 'グラント・フェローシップ',
+  'pp.venueType.global_open_call': '公募（国際）',
+  'pp.venueType.global_residency': 'レジデンシー（国際）',
+  'pp.venueType.global_watercolor_open_call': '水彩公募',
+  'pp.venueType.grant': 'グラント',
+  'pp.venueType.group_publication_open_call': 'グループ出版公募',
+  'pp.venueType.illustration_prize': 'イラスト賞',
+  'pp.venueType.institutional': '機関',
+  'pp.venueType.japan_watercolor_open_call': '水彩公募（日本）',
+  'pp.venueType.magazine_call': '雑誌掲載募集',
+  'pp.venueType.market_event': 'マーケット',
+  'pp.venueType.opportunity_platform': '機会プラットフォーム',
+  'pp.venueType.press_target': 'メディアターゲット',
+  'pp.venueType.residency_beijing': 'レジデンシー（北京）',
+  'pp.venueType.watercolor_competition': '水彩コンクール',
+  'pp.venueType.zine_fair_booth': 'ジンフェアブース',
+  'pp.venueType.zine_print': 'ジン / プリント',
+  'pp.venueType.zine_shop_consignment': 'ジンショップ委託',
 
   // ── VenueContactCard inline edit ─────────────────────────────────────────
   'pp.crm.edit':               '編集',
@@ -1861,6 +1987,10 @@ const ja = {
   'people.reach.website':          'サイトを見る',
   'people.reach.none':             '調べてみる',
   'people.status.cold':            '未連絡',
+  'people.status.in_contact':      '連絡済み',
+  'people.status.ongoing':         '進行中',
+  'people.status.rejected':        '見送り',
+  'people.status.submitted':       '応募済み',
   'people.status.researching':     'リサーチ中',
   'people.status.ready_to_review': '連絡OK',
   'people.details':          '詳細',
@@ -1980,6 +2110,8 @@ const ja = {
   'medium.book_arts':     '◆ ブックアーツ',
   'medium.painting':      '◆ 絵画',
   'medium.photography':   '◆ 写真',
+  'medium.mixed':        '◆ 混合',
+  'medium.unknown':      '◆ 不明',
 }
 
 const en = {
@@ -2161,6 +2293,7 @@ const en = {
 
   // ── CRM status labels ──────────────────────────────────────────────────────
   'crm.status.cold':         'Not yet contacted',
+  'crm.status.ready_to_review': 'Ready to review',
   'crm.status.researching':  'Researching',
   'crm.status.in_contact':   'In contact',
   'crm.status.submitted':    'Submitted',
@@ -2181,6 +2314,8 @@ const en = {
   'cat.gallery_event':       'Gallery Event',
   'cat.gallery_small':               'Small Gallery',
   'cat.book_publishing':             'Book Publishing',
+  'cat.book_publisher':              'Book Publisher',
+  'cat.opportunity_platform':        'Opportunity Platform',
   'cat.global_art_book_fair':        'Art Book Fair',
   'cat.global_artist_book_platform': 'Artist Book Platform',
   'cat.global_book_arts':            'Book Arts (International)',
@@ -2790,6 +2925,37 @@ const en = {
   'pp.venueType.institution':      'Institution / museum',
   'pp.venueType.residency':           'Residency',
   'pp.venueType.other':            'Other',
+  'pp.venueType.book_cover_call': 'Book Cover Call',
+  'pp.venueType.book_publisher': 'Book Publisher',
+  'pp.venueType.book_publishing': 'Book Publishing',
+  'pp.venueType.bookstore_event': 'Bookstore Event',
+  'pp.venueType.bookstore_gallery': 'Bookstore Gallery',
+  'pp.venueType.competition_award': 'Competition / Award',
+  'pp.venueType.event_space': 'Event Space',
+  'pp.venueType.fair_popup': 'Art Fair / Pop-up',
+  'pp.venueType.gallery_event': 'Gallery Event',
+  'pp.venueType.gallery_small': 'Small Gallery',
+  'pp.venueType.global_art_book_fair': 'Art Book Fair',
+  'pp.venueType.global_artist_book_platform': 'Artist Book Platform',
+  'pp.venueType.global_book_arts': 'Book Arts (International)',
+  'pp.venueType.global_grant_fellowship': 'Grant / Fellowship',
+  'pp.venueType.global_open_call': 'Open Call (International)',
+  'pp.venueType.global_residency': 'Residency (International)',
+  'pp.venueType.global_watercolor_open_call': 'Watercolor Open Call',
+  'pp.venueType.grant': 'Grant',
+  'pp.venueType.group_publication_open_call': 'Group Publication',
+  'pp.venueType.illustration_prize': 'Illustration Prize',
+  'pp.venueType.institutional': 'Institutional',
+  'pp.venueType.japan_watercolor_open_call': 'Watercolor Open Call (JP)',
+  'pp.venueType.magazine_call': 'Magazine Call',
+  'pp.venueType.market_event': 'Market',
+  'pp.venueType.opportunity_platform': 'Opportunity Platform',
+  'pp.venueType.press_target': 'Press Target',
+  'pp.venueType.residency_beijing': 'Residency (Beijing)',
+  'pp.venueType.watercolor_competition': 'Watercolor Competition',
+  'pp.venueType.zine_fair_booth': 'Zine Fair Booth',
+  'pp.venueType.zine_print': 'Zine / Print',
+  'pp.venueType.zine_shop_consignment': 'Zine Shop Consignment',
 
   // ── VenueContactCard inline edit ─────────────────────────────────────────
   'pp.crm.edit':               'Edit',
@@ -2886,6 +3052,10 @@ const en = {
   'people.reach.website':          'Visit site',
   'people.reach.none':             'Look them up',
   'people.status.cold':            'Not yet contacted',
+  'people.status.in_contact':      'In contact',
+  'people.status.ongoing':         'Ongoing',
+  'people.status.rejected':        'Declined',
+  'people.status.submitted':       'Submitted',
   'people.status.researching':     'Researching',
   'people.status.ready_to_review': 'Ready to reach out',
   'people.details':          'Details',
@@ -3011,6 +3181,8 @@ const en = {
   'medium.book_arts':     '◆ Book Arts',
   'medium.painting':      '◆ Painting',
   'medium.photography':   '◆ Photography',
+  'medium.mixed':        '◆ Mixed',
+  'medium.unknown':      '◆ Unknown',
 }
 
 export const LANGUAGES = ['zh', 'en']
@@ -3027,4 +3199,26 @@ export function t(key, lang, vars) {
     (s, [k, v]) => s.replaceAll(`{${k}}`, v),
     str
   )
+}
+
+// translatePhrase(text, lang) — exact-match translation of a whole English phrase
+// (recommendation reasons, review flags). Unknown snake_case flags are humanized;
+// anything else is returned unchanged so proper nouns pass through untouched.
+export function translatePhrase(text, lang) {
+  if (text == null) return text
+  const hit = dicts[lang]?.[text]
+  if (hit) return hit
+  return /^[a-z0-9]+(?:_[a-z0-9]+)+$/.test(text) ? text.replace(/_/g, ' ') : text
+}
+
+// tfb(t, key, fallback) — translate-or-fallback for dynamically-built keys.
+// The bound t() returns the key itself when it's unmapped; this returns the
+// humanized fallback instead, so a raw key (e.g. "pp.venueType.press_target")
+// can never reach the screen. Defaults the fallback to the key's last segment
+// with underscores spaced out.
+export function tfb(t, key, fallback) {
+  const v = t(key)
+  if (v !== key) return v
+  if (fallback != null) return fallback
+  return String(key).split('.').pop().replace(/_/g, ' ')
 }

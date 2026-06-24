@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo, Component } from 'react'
 import './SaffronPage.css'
 import { saffronHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
+import { tfb } from '../i18n/translations'
 import {
   LICENSING_LANDSCAPE,
   PRESS_PITCH_MAP,
@@ -791,7 +792,7 @@ function GeographicExpansion({ data, t }) {
               <span className="sf-geo-region-count">
                 {r.pipeline_count > 0 ? t('sf.inPipeline', { n: r.pipeline_count }) : ''}
               </span>
-              <span className="sf-geo-status-tag">{t(`sf.geo.${r.status}`) || r.status.replace(/_/g, ' ')}</span>
+              <span className="sf-geo-status-tag">{tfb(t, `sf.geo.${r.status}`, r.status.replace(/_/g, ' '))}</span>
             </div>
             <p className="sf-geo-region-note">{r.note}</p>
             {r.entry_point && (
@@ -836,7 +837,7 @@ function PublicationLandscape({ data, t }) {
               <div className="sf-pub-tier-header">
                 <span className="sf-pub-tier-name">{tier.tier}</span>
                 <span className={`sf-pub-barrier sf-pub-barrier--${tier.barrier}`}>
-                  {t(`sf.barrier.${tier.barrier}`) || tier.barrier}
+                  {tfb(t, `sf.barrier.${tier.barrier}`, tier.barrier)}
                 </span>
               </div>
               <div className="sf-pub-examples">{tier.examples.join(' · ')}</div>
@@ -879,7 +880,7 @@ function LongTermScenarios({ data, t }) {
                 className="sf-scenario-prob"
                 style={{ color: PROB_COLORS[s.probability] || '#7a5030' }}
               >
-                {t(`sf.prob.${s.probability}`) || s.probability}
+                {tfb(t, `sf.prob.${s.probability}`, s.probability)}
               </span>
             </div>
             <p className="sf-scenario-desc">{s.description}</p>
@@ -1061,7 +1062,7 @@ function LicensingLandscape({ t, lang }) {
                 <div className="sf-licensing-entry-header">
                   <span className="sf-licensing-name">{entry.name}</span>
                   <span className="sf-tier-badge" style={{ color: TIER_COLORS[entry.tier] || '#9ca3af' }}>
-                    {t(`sf.tier.${entry.tier}`) || entry.tier}
+                    {tfb(t, `sf.tier.${entry.tier}`, entry.tier)}
                   </span>
                 </div>
                 <p className="sf-licensing-note">{locF(entry, 'note', lang)}</p>
@@ -1321,7 +1322,7 @@ function CareerMomentum({ data, t }) {
         </div>
         <div className="sf-momentum-stat">
           <div className="sf-momentum-number" style={{ color: trajColor }}>
-            {t(`sf.mom.traj.${trajectory}`) || trajectory}
+            {tfb(t, `sf.mom.traj.${trajectory}`, trajectory)}
           </div>
           <div className="sf-momentum-label">{t('sf.mom.trajectory')}</div>
         </div>
@@ -1527,7 +1528,7 @@ function PricingIntelligence({ t }) {
             <div className="sf-pricing-factor-header">
               <span className="sf-pricing-factor-name">{f.factor}</span>
               <span className="sf-pricing-impact" style={{ color: IMPACT_COLORS[f.impact] }}>
-                {t(`sf.pricing.impact.${f.impact}`) || f.impact}
+                {tfb(t, `sf.pricing.impact.${f.impact}`, f.impact)}
               </span>
             </div>
             <p className="sf-pricing-factor-note">{f.note}</p>

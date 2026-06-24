@@ -111,7 +111,9 @@ PIPELINE = [
     # Translation MUST run last, after every content field is finalized — otherwise
     # an online update ships opportunities that read English in Chinese mode.
     "content_translation_engine.py",      # name/one_sentence/why_it_fits/bullets -> zh + ja for every opp
+    "opp_strategy_translation_engine.py", # relationship_note/submission_strategy/recommended_body/quick_action -> zh + ja
     "saffron_translation_engine.py",      # Saffron's analysis prose -> zh cache
+    "contact_translation_engine.py",      # CRM contact prose (why_relevant/notes/analysis) -> zh + ja
     "daily_digest_report.py",
 ]
 

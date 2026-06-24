@@ -372,13 +372,83 @@ def _email_category(category: str) -> str:
 _SCORE_CAP_ZH = "来源与核实可靠性有限，评分已上调至 {}。"
 _SCORE_CAP_JA = "ソース・検証の信頼性に限りがあるため、スコアは {} に調整されています。"
 
+# Reason phrases that follow "Score capped at N: ..." — translated deterministically
+# so the Mochi notes never render English in 中文 / 日本語 mode. Keyed by the exact
+# English reason (numbers normalised separately for the source_purity case).
+_CAP_REASON_ZH = {
+    "strong source and strong verification": "来源可靠、核验充分",
+    "moderate source/verification":          "来源／核验中等",
+    "verified URL, but weak supporting evidence": "URL 已核实，但佐证较弱",
+    "no official_website and no submission_page": "无官方网站、无投稿页面",
+    "single source, weak verification":      "单一来源，核验薄弱",
+    "aggregator/listicle title detected":    "检测到聚合／清单式标题",
+}
+_CAP_REASON_JA = {
+    "strong source and strong verification": "信頼できる情報源と十分な検証",
+    "moderate source/verification":          "情報源／検証は中程度",
+    "verified URL, but weak supporting evidence": "URL は確認済みだが裏付けが弱い",
+    "no official_website and no submission_page": "公式サイト・応募ページなし",
+    "single source, weak verification":      "単一情報源、検証が弱い",
+    "aggregator/listicle title detected":    "まとめ／リスト記事のタイトルを検出",
+}
+# Verification field tokens ("Verified: ... Needs checking: ...")
+_VFIELD_ZH = {
+    "Official/source website": "官方／来源网站", "Submission process": "投稿流程",
+    "Deadline": "截止日期", "Fees": "费用", "Contact": "联系方式",
+}
+_VFIELD_JA = {
+    "Official/source website": "公式／情報源サイト", "Submission process": "応募方法",
+    "Deadline": "締切", "Fees": "費用", "Contact": "連絡先",
+}
+
+
 def _translate_warning(note: str) -> tuple[str, str]:
-    """Return (zh, ja) translations for a soft_warning string, or ('','') if unknown."""
+    """Return (zh, ja) translations for a soft_warning string, or ('','') if unknown.
+
+    Parses the diagnostic notes compositionally (score caps, score reductions, and
+    verified/needs-checking field lists) so new score values and field permutations
+    are covered automatically without a hand-maintained per-string map.
+    """
     import re
-    m = re.match(r'Score capped at ([\d.]+) because source/verification strength is limited\.?', note or '')
+    note = (note or "").strip()
+    if not note:
+        return "", ""
+
+    # "Score capped at N because source/verification strength is limited."
+    m = re.match(r'Score capped at ([\d.]+) because source/verification strength is limited\.?$', note)
     if m:
-        score = m.group(1)
-        return _SCORE_CAP_ZH.format(score), _SCORE_CAP_JA.format(score)
+        return _SCORE_CAP_ZH.format(m.group(1)), _SCORE_CAP_JA.format(m.group(1))
+
+    # "Score capped at N: source_purity_score=A < B"
+    m = re.match(r'Score capped at ([\d.]+): source_purity_score=([\d.]+) < ([\d.]+)\.?$', note)
+    if m:
+        s, a, b = m.groups()
+        return (f"评分被限制在 {s}：来源纯度评分 {a} 低于 {b}",
+                f"スコアを {s} に制限：情報源純度スコア {a} が {b} 未満")
+
+    # "Score capped at N: <known reason>"
+    m = re.match(r'Score capped at ([\d.]+): (.+?)\.?$', note)
+    if m and m.group(2) in _CAP_REASON_ZH:
+        s, reason = m.group(1), m.group(2)
+        return (f"评分被限制在 {s}：{_CAP_REASON_ZH[reason]}",
+                f"スコアを {s} に制限：{_CAP_REASON_JA[reason]}")
+
+    # "Score reduced by N (open_call with no deadline: -N)"
+    m = re.match(r'Score reduced by ([\d.]+) \(open_call with no deadline: -([\d.]+)\)\.?$', note)
+    if m:
+        a, b = m.groups()
+        return (f"评分降低 {a}（公开征集无截止日期：-{b}）",
+                f"スコアを {a} 減点（締切なしの公募：-{b}）")
+
+    # "Verified: <fields> Needs checking: <fields>"
+    m = re.match(r'Verified: (.+?)\.? Needs checking: (.+?)\.?$', note)
+    if m:
+        def _fields(s, mp):
+            return "、".join(mp.get(p.strip(), p.strip()) for p in s.split(","))
+        zh = f"已核实：{_fields(m.group(1), _VFIELD_ZH)} 待确认：{_fields(m.group(2), _VFIELD_ZH)}"
+        ja = f"確認済み：{_fields(m.group(1), _VFIELD_JA)} 要確認：{_fields(m.group(2), _VFIELD_JA)}"
+        return zh, ja
+
     return "", ""
 
 
@@ -575,7 +645,13 @@ def shape_card(opp: dict) -> dict:
         "contact_url":     opp.get("contact_url", ""),
         "contact_note":    opp.get("contact_note", ""),
         "action_type":     opp.get("action_type", ""),
-        "relationship_note": opp.get("relationship_note", ""),
+        "relationship_note":    opp.get("relationship_note", ""),
+        "relationship_note_zh": opp.get("relationship_note_zh", ""),
+        "relationship_note_ja": opp.get("relationship_note_ja", ""),
+        "submission_strategy_zh": opp.get("submission_strategy_zh", ""),
+        "submission_strategy_ja": opp.get("submission_strategy_ja", ""),
+        "recommended_body_of_work_zh": opp.get("recommended_body_of_work_zh", ""),
+        "recommended_body_of_work_ja": opp.get("recommended_body_of_work_ja", ""),
         "effort":          "",
         # Card text — English source + pre-translated variants
         "summary":         summary[:180],

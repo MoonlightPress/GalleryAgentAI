@@ -36,6 +36,7 @@ function patchContact(name, fields) {
 }
 
 function ContactCard({ c, t, onHide }) {
+  const { lang } = useLanguage()
   const [open, setOpen] = useState(false)
   const [reached, setReached] = useState(false)
   const [toast, setToast] = useState(null)
@@ -49,14 +50,21 @@ function ContactCard({ c, t, onHide }) {
     }
   }, [open])
 
-  const why = c.why_relevant || ''
+  // Localize generated CRM prose (contact_translation_engine writes _zh/_ja siblings).
+  const loc = (obj, field) => {
+    if (lang === 'zh' && obj[field + '_zh']) return obj[field + '_zh']
+    if (lang === 'ja' && obj[field + '_ja']) return obj[field + '_ja']
+    return obj[field]
+  }
+
   const ca = c.crm_analysis || {}
-  const summary = ca.contact_summary || ''
+  const why = loc(c, 'why_relevant') || ''
+  const summary = loc(ca, 'contact_summary') || ''
   const href = reachHref(c)
   const email = c.contact_email || ''
   const site = c.official_website || c.contact_page || ''
   const submit = c.submission_page || ''
-  const notes = c.notes || ''
+  const notes = loc(c, 'notes') || ''
   const statusKey = `people.status.${c.status}`
   const statusLabel = c.status && t(statusKey) !== statusKey ? t(statusKey) : null
 
@@ -78,7 +86,7 @@ function ContactCard({ c, t, onHide }) {
       </div>
 
       <div className="rt-pills">
-        {c.type && <span className="rt-pill">{humanizeType(c.type)}</span>}
+        {c.type && <span className="rt-pill">{t(`cat.${c.type}`) !== `cat.${c.type}` ? t(`cat.${c.type}`) : humanizeType(c.type)}</span>}
         {c.city && <span className="rt-pill rt-pill--loc">{c.city}</span>}
         {statusLabel && <span className={`rt-pill rt-status rt-status--${c.status}`}>{statusLabel}</span>}
       </div>
@@ -98,13 +106,13 @@ function ContactCard({ c, t, onHide }) {
         <div className="rt-details" ref={detailsRef}>
           {summary && summary !== why && <p className="rt-summary">{summary}</p>}
           {ca.next_action && (
-            <p className="rt-analysis"><strong>{t('people.field.nextAction')}</strong> {ca.next_action}</p>
+            <p className="rt-analysis"><strong>{t('people.field.nextAction')}</strong> {loc(ca, 'next_action')}</p>
           )}
           {ca.follow_up_timing && (
-            <p className="rt-analysis"><strong>{t('people.field.followUp')}</strong> {ca.follow_up_timing}</p>
+            <p className="rt-analysis"><strong>{t('people.field.followUp')}</strong> {loc(ca, 'follow_up_timing')}</p>
           )}
           {ca.risk_notes && (
-            <p className="rt-analysis rt-risk"><strong>{t('people.field.risk')}</strong> {ca.risk_notes}</p>
+            <p className="rt-analysis rt-risk"><strong>{t('people.field.risk')}</strong> {loc(ca, 'risk_notes')}</p>
           )}
           <div className="rt-channels">
             {email && <a href={`mailto:${email}`} className="rt-channel">✉ {email}</a>}

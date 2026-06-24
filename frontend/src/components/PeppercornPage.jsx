@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import './PeppercornPage.css'
 import { peppercornHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
+import { tfb } from '../i18n/translations'
 
 // ── Carousel card ─────────────────────────────────────────────────────────
 
@@ -285,7 +286,9 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [, flash]           = useSaved()
   const [phIdx]             = useState(() => Math.floor(Math.random() * GOAL_PLACEHOLDER_KEYS.length))
   const [shownFirstNote, setShownFirstNote] = useState((data || []).length > 0)
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
+  // Display localized seed text (state keeps the full goal objects, incl. _zh/_ja).
+  const goalText = g => (lang === 'zh' && g.text_zh) || (lang === 'ja' && g.text_ja) || g.text
   // eslint-disable-next-line react-hooks/set-state-in-effect -- sync async-loaded data into editable local state
   useEffect(() => { setGoals(data || []) }, [data])
 
@@ -325,7 +328,7 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
           {active.map(g => (
             <div key={g.id} className="pp-goal-row">
               <button className="pp-goal-toggle" onClick={() => toggleDone(g.id)} title={t('pp.goal.markDone')} aria-label={t('pp.goal.markDone')} />
-              <span className="pp-goal-text">{g.text}</span>
+              <span className="pp-goal-text">{goalText(g)}</span>
               <button className="pp-goal-remove" onClick={() => removeGoal(g.id)} title={t('pp.goal.remove')}>×</button>
             </div>
           ))}
@@ -352,7 +355,7 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
           {done.map(g => (
             <div key={g.id} className="pp-goal-row pp-goal-row--done">
               <button className="pp-goal-toggle" onClick={() => toggleDone(g.id)} title={t('pp.goal.reopen')}>✓</button>
-              <span className="pp-goal-text">{g.text}</span>
+              <span className="pp-goal-text">{goalText(g)}</span>
               <button className="pp-goal-remove" onClick={() => removeGoal(g.id)} title={t('pp.goal.remove')}>×</button>
             </div>
           ))}
@@ -637,7 +640,7 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
                 <div className="pp-sub-row-header">
                   <span className="pp-sub-venue">{s.venue}</span>
                   <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
-                    {t('pp.outcome.' + s.outcome) || s.outcome}
+                    {tfb(t, 'pp.outcome.' + s.outcome, s.outcome)}
                   </span>
                   {s.date && <span className="pp-sub-date">{s.date}</span>}
                 </div>
@@ -823,7 +826,7 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
                 {s.date && <span className="pp-sub-date">{s.date}</span>}
                 <button className="pp-edit-btn" onClick={() => deleteShow(s.id)} title={t('pp.exlog.delete')}>×</button>
               </div>
-              {s.venue && s.name && <div className="pp-sub-what">{s.venue} · {t('pp.showType.' + s.type) || s.type}</div>}
+              {s.venue && s.name && <div className="pp-sub-what">{s.venue} · {tfb(t, 'pp.showType.' + s.type, s.type)}</div>}
               {s.notes && <div className="pp-sub-notes">{s.notes}</div>}
             </div>
           )
@@ -866,7 +869,8 @@ const STATUS_COLORS = {
 }
 
 function VenueContactCard({ contact: c, onUpdate }) {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
+  const loc = (obj, f) => (obj && ((lang === 'zh' && obj[f + '_zh']) || (lang === 'ja' && obj[f + '_ja']) || obj[f])) || ''
   const [editing, setEditing] = useState(false)
   const [editStatus, setEditStatus] = useState(c.status || 'cold')
   const [editNotes, setEditNotes] = useState(c.notes || '')
@@ -903,7 +907,7 @@ function VenueContactCard({ contact: c, onUpdate }) {
       <div className="pp-sub-row-header">
         <span className="pp-sub-venue">{c.name}</span>
         <span className="pp-sub-outcome" style={{ background: colors.bg, color: colors.text, border: `1px solid ${colors.border}` }}>
-          {t('pp.venuelog.status.' + c.status) || c.status}
+          {tfb(t, 'pp.venuelog.status.' + c.status, c.status)}
         </span>
         {c.city && <span className="pp-sub-date">{c.city}</span>}
         {c.last_contacted && <span className="pp-sub-date">{t('pp.crm.contactedOn', { date: c.last_contacted })}</span>}
@@ -913,8 +917,8 @@ function VenueContactCard({ contact: c, onUpdate }) {
           </button>
         )}
       </div>
-      {c.type && !editing && <div className="pp-sub-what">{t('pp.venueType.' + c.type) || c.type}</div>}
-      {c.notes && !editing && <div className="pp-sub-notes">{c.notes}</div>}
+      {c.type && !editing && <div className="pp-sub-what">{tfb(t, 'pp.venueType.' + c.type, c.type)}</div>}
+      {c.notes && !editing && <div className="pp-sub-notes">{loc(c, 'notes')}</div>}
 
       {editing && (
         <div className="pp-inline-edit">
@@ -923,7 +927,7 @@ function VenueContactCard({ contact: c, onUpdate }) {
               <label className="pp-sub-label">{t('pp.crm.status')}</label>
               <select className="pp-sub-select" value={editStatus} onChange={e => setEditStatus(e.target.value)}>
                 {VENUE_STATUS_OPTIONS.map(o => (
-                  <option key={o.value} value={o.value}>{t('pp.venuelog.status.' + o.value) || o.value}</option>
+                  <option key={o.value} value={o.value}>{tfb(t, 'pp.venuelog.status.' + o.value, o.value)}</option>
                 ))}
               </select>
             </div>
@@ -1123,7 +1127,9 @@ function CrmContactCard({ contact: c, onUpdate }) {
   const [expanded, setExpanded] = useState(false)
   const [loading, setLoading] = useState(false)
   const [noteDraft, setNoteDraft] = useState(c.personal_note || '')
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
+  // Show the contact_translation_engine's _zh/_ja prose, not the English base.
+  const loc = (obj, f) => (obj && ((lang === 'zh' && obj[f + '_zh']) || (lang === 'ja' && obj[f + '_ja']) || obj[f])) || ''
   const meta = crmStatusMeta(c.status)
 
   const today = new Date().toISOString().slice(0, 10)
@@ -1225,25 +1231,25 @@ function CrmContactCard({ contact: c, onUpdate }) {
           {c.crm_analysis?.next_action && (
             <div className="crm-expanded-row crm-expanded-row--action">
               <span className="crm-expanded-label crm-expanded-label--action">{t('pp.crm.nextAction')}</span>
-              <p className="crm-expanded-text crm-expanded-text--action">{c.crm_analysis.next_action}</p>
+              <p className="crm-expanded-text crm-expanded-text--action">{loc(c.crm_analysis, 'next_action')}</p>
             </div>
           )}
           {c.why_relevant && (
             <div className="crm-expanded-row">
               <span className="crm-expanded-label">{t('pp.crm.whyRelevant')}</span>
-              <p className="crm-expanded-text">{c.why_relevant}</p>
+              <p className="crm-expanded-text">{loc(c, 'why_relevant')}</p>
             </div>
           )}
           {c.crm_analysis?.risk_notes && (
             <div className="crm-expanded-row">
               <span className="crm-expanded-label">{t('pp.crm.watchOut')}</span>
-              <p className="crm-expanded-text crm-expanded-text--risk">{c.crm_analysis.risk_notes}</p>
+              <p className="crm-expanded-text crm-expanded-text--risk">{loc(c.crm_analysis, 'risk_notes')}</p>
             </div>
           )}
           {c.notes && (
             <div className="crm-expanded-row">
               <span className="crm-expanded-label">{t('pp.crm.notes')}</span>
-              <p className="crm-expanded-text">{c.notes}</p>
+              <p className="crm-expanded-text">{loc(c, 'notes')}</p>
             </div>
           )}
           {(c.contact_page || c.official_website) && (
@@ -1720,11 +1726,18 @@ export default function PeppercornPage({ nav }) {
   const [fetchError,  setFetchError]  = useState(null)
   const [openSections,setOpenSections]= useState(new Set(['artist-statement']))
   const [activeCard,  setActiveCard]  = useState(null)
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
 
   const sectionRefs   = useRef({})
   const carouselCards = profile ? buildCarouselCards(profile, t) : []
   const sectionOrder  = profile ? computeSectionOrder(profile) : []
+  // Localized seed statement (English base + _zh/_ja siblings) so it never shows
+  // English in 中文/日本語 mode. Edits overwrite all three (see onSave below).
+  const localizedStatement = profile
+    ? ((lang === 'zh' && profile.artist_statement_zh) ||
+       (lang === 'ja' && profile.artist_statement_ja) ||
+       profile.artist_statement)
+    : undefined
 
   useEffect(() => {
     fetch('/api/peppercorn')
@@ -1795,8 +1808,10 @@ export default function PeppercornPage({ nav }) {
     'artist-statement': (
       <ArtistStatementSection
         key="artist-statement"
-        data={profile?.artist_statement}
-        onSave={v => saveSection({ artist_statement: v })}
+        data={localizedStatement}
+        // Her statement is one canonical text — write it to every language field so
+        // editing the (localized) seed doesn't get reverted on the next render.
+        onSave={v => saveSection({ artist_statement: v, artist_statement_zh: v, artist_statement_ja: v })}
         isOpen={openSections.has('artist-statement')}
         onToggle={() => toggleSection('artist-statement')}
         sectionRef={setSectionRef('artist-statement')}

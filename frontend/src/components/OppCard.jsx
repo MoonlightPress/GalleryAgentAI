@@ -1,7 +1,20 @@
 import { useState } from 'react'
 import './OppCard.css'
 import { useLanguage } from '../i18n/LanguageContext'
+import { translatePhrase, tfb } from '../i18n/translations'
 import { feedbackToastKey, shouldRemoveAfterFeedback } from '../utils/feedbackBehavior'
+
+// Localize the recommendation line. The reasons/reviewLabels arrays carry the
+// canonical English phrases; translatePhrase maps each to the active language.
+function localizedReasonLine(rec, t, lang) {
+  if (!rec) return ''
+  if (lang === 'en') return rec.reasonLine
+  const reasons = rec.reasons || []
+  if (reasons.length) return reasons.map(r => translatePhrase(r, lang)).join(' · ')
+  const labels = rec.reviewLabels || []
+  if (labels.length) return t('rec.needsCheck') + labels.map(f => translatePhrase(f, lang)).join(' · ')
+  return t('rec.oneMoreLook')
+}
 
 const CAT_LABELS = {
   gallery:           'Gallery',
@@ -146,7 +159,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
               className="opp-medium-badge"
               style={{ color: MEDIUM_CONFIG[opp.native_medium].color, borderColor: MEDIUM_CONFIG[opp.native_medium].color }}
             >
-              {t(`medium.${opp.native_medium}`) || MEDIUM_CONFIG[opp.native_medium].label}
+              {tfb(t, `medium.${opp.native_medium}`, MEDIUM_CONFIG[opp.native_medium].label)}
             </span>
           )}
           {opp.deadline_past && (
@@ -172,7 +185,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
         {opp.recommendation?.reasonLine && (
           <p className={`opp-recommendation opp-recommendation--${opp.recommendation.readiness}`}>
             <span>{t(`card.recommendation.${opp.recommendation.readiness}`)}</span>
-            {opp.recommendation.reasonLine}
+            {' '}{localizedReasonLine(opp.recommendation, t, lang)}
           </p>
         )}
 

@@ -204,10 +204,13 @@ function PressCard({ opp }) {
   const name    = loc('name') || opp.title || ''
   const what    = loc('one_sentence') || loc('summary') || ''
   const why     = loc('why_it_fits') || opp.why_this_fits_short || ''
-  const strategy   = opp.relationship_note || ''
-  const submission = opp.submission_strategy || ''
-  const lead       = opp.recommended_body_of_work || ''
-  const bullets = Array.isArray(opp.three_bullets) ? opp.three_bullets.filter(Boolean) : []
+  const strategy   = loc('relationship_note') || ''
+  const submission = loc('submission_strategy') || ''
+  const lead       = loc('recommended_body_of_work') || ''
+  const bulletsSrc = (lang !== 'en' && Array.isArray(opp.three_bullets_zh) && lang === 'zh' ? opp.three_bullets_zh
+                   :  lang === 'ja' && Array.isArray(opp.three_bullets_ja) ? opp.three_bullets_ja
+                   :  opp.three_bullets)
+  const bullets = Array.isArray(bulletsSrc) ? bulletsSrc.filter(Boolean) : []
   const contact = opp.contact || ''
   const emailMatch = (contact.match(/[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}/) || [])[0]
   const website = opp.official_website || opp.source_url || ''

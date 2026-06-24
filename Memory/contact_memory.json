@@ -20,7 +20,15 @@
         "follow_up_timing": "Review gallery's current exhibition program and artist roster within 3-5 days to confirm aesthetic fit, then research submission policy before initiating contact",
         "next_action": "Review KAYOKOYUKI's current and recent exhibitions on their website to validate alignment with artist's work (quiet domestic realism/illustration-adjacent painting). Research whether they accept unsolicited submissions by checking FAQ, artist application pages, or contacting directly. If fit is confirmed and submissions are accepted, move to 'ready_to_contact' status and draft personalized pitch.",
         "risk_notes": "Submission policy is currently unknown - gallery may not accept unsolicited portfolios. Japanese galleries can have formal submission protocols that differ from Western practices. Need to verify whether English-language submissions are acceptable and if there are specific application windows or requirements.",
-        "priority": "medium"
+        "priority": "medium",
+        "contact_summary_zh": "KAYOKOYUKI 是一家位于东京的画廊，联系方式和网站均已确认。其方向与静谧的日常写实及近似插画的当代绘画存在潜在契合。联系信息已经人工核实，可开始进行投稿政策调研。",
+        "contact_summary_ja": "KAYOKOYUKI は東京を拠点とするギャラリーで、連絡先とウェブサイトが確認済みです。静かな日常的リアリズムやイラスト寄りの現代絵画との親和性が期待できます。連絡先は手動で確認済みで、投稿ポリシーの調査を始める準備が整っています。",
+        "next_action_zh": "浏览 KAYOKOYUKI 官网上的当前及近期展览，确认其方向与你的作品风格（静谧的日常写实／近插画感绘画）是否契合。通过查阅 FAQ、艺术家申请页面或直接联系，了解他们是否接受主动投稿。若确认风格匹配且接受投稿，则将状态更新为「ready_to_contact」并撰写个性化提案。",
+        "next_action_ja": "KAYOKOYUKI のウェブサイトで現在および最近の展覧会を確認し、あなたの作品（静かな日常的写実／イラストレーション寄りの絵画）との方向性が合うかを検証すること。FAQ、アーティスト応募ページの確認、または直接連絡により、未依頼の投稿を受け付けているかを調べること。適合が確認され投稿が受け付けられる場合は、ステータスを「ready_to_contact」に変更し、パーソナライズされたピッチを作成すること。",
+        "follow_up_timing_zh": "在3-5天内了解画廊当前的展览计划和艺术家名单，确认风格契合度，再研究投稿政策后与对方取得联系。",
+        "follow_up_timing_ja": "3〜5日以内にギャラリーの現在の展覧会プログラムとアーティスト一覧を確認して審美的な適合性を見極め、応募ポリシーを調べてからコンタクトを取ること。",
+        "risk_notes_zh": "目前投稿政策不明——画廊可能不接受主动投递的作品集。日本画廊可能有不同于西方惯例的正式申请流程。需核实是否接受英文投稿，以及是否有特定的申请窗口或要求。",
+        "risk_notes_ja": "現在、応募ポリシーは不明です——ギャラリーは未依頼のポートフォリオを受け付けていない可能性があります。日本のギャラリーは欧米の慣行とは異なる正式な応募手順を持つことがあります。英語での応募が可能かどうか、また特定の応募期間や要件があるかを確認する必要があります。"
       },
       "web_verification": {
         "verification_status": "manually_verified",
@@ -34,7 +42,11 @@
       },
       "official_website": "https://www.kayokoyuki.com/en/",
       "submission_page": "",
-      "date_updated": "2026-05-24 10:37"
+      "date_updated": "2026-05-24 10:37",
+      "why_relevant_zh": "可能适合安静的居家写实风格及接近插画的当代绘画。",
+      "why_relevant_ja": "静かな日常的リアリズムやイラストレーションに近いコンテンポラリーペインティングとの相性が期待できる。",
+      "notes_zh": "官方网站/联系方式已手动核实。需确认是否接受主动投稿。",
+      "notes_ja": "公式サイト／連絡先を手動で確認済み。未依頼の投稿を受け付けているか要確認。"
     },
     {
       "name": "UTRECHT",
@@ -54,8 +66,18 @@
         "priority": "high",
         "next_action": "Complete research on UTRECHT: check their website for recent exhibitions, any open call announcements, and a named contact person.",
         "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
-        "follow_up_timing": "Complete your research within 1-2 weeks and move this to ready_to_review."
-      }
+        "follow_up_timing": "Complete your research within 1-2 weeks and move this to ready_to_review.",
+        "next_action_zh": "完成对 UTRECHT 的调研：查看其官网，了解近期展览、公开征集公告以及具体联系人。",
+        "next_action_ja": "UTRECHT についてのリサーチを完了してください：ウェブサイトで最近の展示、公募のお知らせ、担当者名を確認しましょう。",
+        "follow_up_timing_zh": "请在 1-2 周内完成调研，并将此项移至 ready_to_review。",
+        "follow_up_timing_ja": "1〜2週間以内にリサーチを完了し、ready_to_review に移してください。",
+        "risk_notes_zh": "寄售条款差异较大——在确定库存之前，务必确认佣金比例、最低存货量和退货政策。",
+        "risk_notes_ja": "委託販売の条件はさまざまです。在庫を預ける前に手数料率・最低在庫数・返品ポリシーを必ず確認してください。"
+      },
+      "why_relevant_zh": "Utrecht 是东京精选程度最高的艺术书店。将 Colour Diary 在此寄售，能让作品直接面向全市最热忱的艺术书读者群。",
+      "why_relevant_ja": "Utrecht は東京で最もキュレーションされたアート書店だ。Colour Diary をここで委託販売することで、都内で最も熱心なアートブック読者の目に触れることができる。",
+      "notes_zh": "东京顶级艺术书店。Colour Diary 寄售目标。请先了解投稿／寄售流程。",
+      "notes_ja": "東京トップクラスのアート書店。Colour Diary の委託販売候補。まず投稿・委託のプロセスを調べること。"
     },
     {
       "name": "flotsam books",
@@ -75,8 +97,18 @@
         "priority": "high",
         "next_action": "Visit flotsam books in person (or browse their online inventory) to confirm the aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
-        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush."
-      }
+        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush.",
+        "risk_notes_zh": "寄售条款差异较大——在确定库存之前，务必确认佣金比例、最低存货量和退货政策。",
+        "risk_notes_ja": "委託販売の条件はさまざまです。在庫を預ける前に手数料率・最低在庫数・返品ポリシーを必ず確認してください。",
+        "follow_up_timing_zh": "在接下来的2-3周内联系对方。书店关系进展缓慢——不要操之过急。",
+        "follow_up_timing_ja": "今後2〜3週間以内に連絡を取ること。書店との関係はゆっくり進むもの――焦らないこと。",
+        "next_action_zh": "亲自前往 flotsam books（或浏览其线上库存），确认风格契合度后，起草一份简短的寄售询价函。",
+        "next_action_ja": "flotsam books に直接足を運ぶか（またはオンライン在庫を確認して）、作風との相性を確かめたうえで、簡潔な委託販売の問い合わせ文を作成してください。"
+      },
+      "notes_zh": "独立书店，插画与 zine 方向突出。Colour Diary 及日记系列与其定位契合。",
+      "notes_ja": "イラストやzineに力を入れている独立系書店です。Colour Diary やダイアリーシリーズとの相性が良いです。",
+      "why_relevant_zh": "插画与 zine 是其核心方向。Colour Diary 与店内选品天然契合；日常创作的连载性是一个有力的寄售卖点。",
+      "why_relevant_ja": "イラストとzineに強いフォーカスがあります。Colour Diary は商品ラインナップに自然にフィットし、日々の制作の連続性は強力な委託販売のセールスポイントになります。"
     },
     {
       "name": "B&B Shimokitazawa",
@@ -96,8 +128,18 @@
         "priority": "high",
         "next_action": "Complete research on B&B Shimokitazawa: check their website for recent exhibitions, any open call announcements, and a named contact person.",
         "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
-        "follow_up_timing": "Complete your research within 1-2 weeks and move this to ready_to_review."
-      }
+        "follow_up_timing": "Complete your research within 1-2 weeks and move this to ready_to_review.",
+        "next_action_zh": "完成对 B&B Shimokitazawa 的调研：查看其官网，了解近期展览、公开征集公告以及具体联系人。",
+        "next_action_ja": "B&B Shimokitazawa についてのリサーチを完了してください：ウェブサイトで最近の展示、公募のお知らせ、担当者名を確認しましょう。",
+        "follow_up_timing_zh": "请在 1-2 周内完成调研，并将此项移至 ready_to_review。",
+        "follow_up_timing_ja": "1〜2週間以内にリサーチを完了し、ready_to_review に移してください。",
+        "risk_notes_zh": "寄售条款差异较大——在确定库存之前，务必确认佣金比例、最低存货量和退货政策。",
+        "risk_notes_ja": "委託販売の条件はさまざまです。在庫を預ける前に手数料率・最低在庫数・返品ポリシーを必ず確認してください。"
+      },
+      "why_relevant_zh": "下北泽的书籍、啤酒与活动——东京最友善艺术家的街区之一。高度的社群契合度加上活跃的活动项目，使其成为重要的关系培养目标。",
+      "why_relevant_ja": "下北沢で本、ビール、イベントを提供する場所。東京で最もアーティストに優しいエリアのひとつ。コミュニティとの高い親和性と活発なイベントプログラムが、重要な関係構築ターゲットとしての理由だ。",
+      "notes_zh": "书籍＋啤酒＋活动。社群契合度高。下北泽的重要关系目标。确认活动／寄售咨询流程。",
+      "notes_ja": "本＋ビール＋イベント。コミュニティとの相性が高い。下北沢における重要な関係構築ターゲット。イベント／委託販売の問い合わせプロセスを確認する。"
     },
     {
       "name": "HATTIFNATT Koenji",
@@ -117,8 +159,18 @@
         "priority": "high",
         "next_action": "Visit HATTIFNATT Koenji to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability before investing preparation time.",
-        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
-      }
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to.",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，在投入准备时间之前，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、準備に時間をかける前に現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "不用着急——先做调研，有明确具体的理由再联系。",
+        "follow_up_timing_ja": "焦らなくて大丈夫です——まずリサーチして、明確で具体的な理由ができてからアプローチしましょう。",
+        "next_action_zh": "前往 HATTIFNATT Koenji，实地查看展示空间，并与负责人洽谈近期展览档期。",
+        "next_action_ja": "HATTIFNATT Koenji を訪問し、展示スペースを確認のうえ、今後の展覧会の空き状況についてマネージャーと話し合ってください。"
+      },
+      "notes_zh": "以插画和水彩展览著称的咖啡馆画廊，与你的日记系列在美学上高度契合。",
+      "notes_ja": "イラストと水彩の展示で知られるカフェギャラリー。日記シリーズとの美的相性は抜群です。",
+      "why_relevant_zh": "以插画和水彩展览著称。咖啡馆温馨的绘本风格与 GEGYjiji 的日常日记系列高度契合。",
+      "why_relevant_ja": "イラストと水彩の展示で知られています。カフェの温かみのある絵本的な雰囲気は、GEGYjiji のデイリー日記シリーズと直接重なります。"
     },
     {
       "name": "MOUNT ZINE",
@@ -138,8 +190,18 @@
         "priority": "high",
         "next_action": "Send or bring a physical copy of your work to MOUNT ZINE — zine culture prioritises the object over email pitches.",
         "risk_notes": "Small zine shops often have limited space and inconsistent restocking. Confirm current capacity before sending copies.",
-        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
-      }
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to.",
+        "follow_up_timing_zh": "不用着急——先做调研，有明确具体的理由再联系。",
+        "follow_up_timing_ja": "焦らなくて大丈夫です——まずリサーチして、明確で具体的な理由ができてからアプローチしましょう。",
+        "next_action_zh": "将你的作品实体样本邮寄或亲自带到 MOUNT ZINE——zine 文化重视实物，胜过邮件推销。",
+        "next_action_ja": "作品の現物を MOUNT ZINE に郵送するか直接持参すること——zineカルチャーはメールでの売り込みよりも実物を重視します。",
+        "risk_notes_zh": "小型 zine 店通常空间有限，补货也不稳定。寄送作品前，先确认对方目前的收货能力。",
+        "risk_notes_ja": "小さなzineショップはスペースが限られており、補充も不定期なことが多いです。コピーを送る前に現在の受け入れ状況を確認すること。"
+      },
+      "why_relevant_zh": "东京首屈一指的独立杂志店。GEGYjiji 每日水彩创作的连续性以及 Colour Diary 的形式，正是 zine 文化最看重的特质。",
+      "why_relevant_ja": "東京を代表するzineショップ。GEGYjiji の毎日の水彩制作の連続性と Colour Diary のフォーマットは、まさにzineカルチャーが最も重視するものだ。",
+      "notes_zh": "东京首屈一指的独立杂志店。Colour Diary 寄售目标。日常创作的连续性是最有力的推介角度。",
+      "notes_ja": "東京を代表するzineショップ。Colour Diary の委託販売候補。日々の制作の連続性が最も強いピッチ角度。"
     },
     {
       "name": "Book and Sons",
@@ -159,8 +221,18 @@
         "priority": "medium",
         "next_action": "Visit Book and Sons in person (or browse their online inventory) to confirm the aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
-        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush."
-      }
+        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush.",
+        "risk_notes_zh": "寄售条款差异较大——在确定库存之前，务必确认佣金比例、最低存货量和退货政策。",
+        "risk_notes_ja": "委託販売の条件はさまざまです。在庫を預ける前に手数料率・最低在庫数・返品ポリシーを必ず確認してください。",
+        "follow_up_timing_zh": "在接下来的2-3周内联系对方。书店关系进展缓慢——不要操之过急。",
+        "follow_up_timing_ja": "今後2〜3週間以内に連絡を取ること。書店との関係はゆっくり進むもの――焦らないこと。",
+        "next_action_zh": "亲自前往 Book and Sons（或浏览其在线目录），确认审美契合度，然后起草简短的寄售咨询邮件。",
+        "next_action_ja": "Book and Sons に実際に足を運ぶか（またはオンライン在庫を閲覧して）審美的な相性を確認し、簡潔な委託販売の問い合わせ文を作成すること。"
+      },
+      "why_relevant_zh": "专注于艺术与设计书籍，与东京艺术书籍圈联系紧密。Colour Diary 及未来出版物与其选品方向契合。",
+      "why_relevant_ja": "アートとデザイン書籍の専門店で、東京のアートブックコミュニティと強いつながりを持つ。Colour Diary および今後の出版物はラインナップに合っている。",
+      "notes_zh": "艺术/设计书籍专门店。Colour Diary 及未来出版物与其方向契合。与东京艺术书籍圈有联结。",
+      "notes_ja": "アート/デザイン書籍の専門店。Colour Diary および今後の出版物に合う。東京アートブックコミュニティとのつながりあり。"
     },
     {
       "name": "COW BOOKS Nakameguro",
@@ -180,8 +252,18 @@
         "priority": "medium",
         "next_action": "Visit COW BOOKS Nakameguro in person (or browse their online inventory) to confirm the aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
-        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush."
-      }
+        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush.",
+        "risk_notes_zh": "寄售条款差异较大——在确定库存之前，务必确认佣金比例、最低存货量和退货政策。",
+        "risk_notes_ja": "委託販売の条件はさまざまです。在庫を預ける前に手数料率・最低在庫数・返品ポリシーを必ず確認してください。",
+        "follow_up_timing_zh": "在接下来的2-3周内联系对方。书店关系进展缓慢——不要操之过急。",
+        "follow_up_timing_ja": "今後2〜3週間以内に連絡を取ること。書店との関係はゆっくり進むもの――焦らないこと。",
+        "next_action_zh": "亲自前往 COW BOOKS Nakameguro（或浏览其在线目录），确认审美契合度，然后起草简短的寄售咨询邮件。",
+        "next_action_ja": "COW BOOKS Nakameguro に実際に足を運ぶか（またはオンライン在庫を閲覧して）審美的な相性を確認し、簡潔な委託販売の問い合わせ文を作成すること。"
+      },
+      "why_relevant_zh": "精选二手书与艺术书店，慢节奏、观察性的美学风格与 GEGYjiji 的作品十分契合。直接上门推介在这里是合适的方式。",
+      "why_relevant_ja": "セレクトされた古書・アート書店で、ゆっくりとした観察的な美学が GEGYjiji の作品と合っています。飛び込みでのピッチが適しています。",
+      "notes_zh": "精选二手书与艺术书店，慢节奏、观察性的美学与你的作品风格相符。直接上门推介即可。",
+      "notes_ja": "セレクトされた古書・アート書店。ゆっくりとした観察的な美学があなたの作品と合っています。飛び込みでのピッチが適しています。"
     },
     {
       "name": "Tokyo Art Book Fair",
@@ -201,8 +283,18 @@
         "priority": "high",
         "next_action": "Complete research on Tokyo Art Book Fair: check their website for recent exhibitions, any open call announcements, and a named contact person.",
         "risk_notes": "Fair participation requires upfront cost and significant stock. Evaluate ROI before committing.",
-        "follow_up_timing": "Complete your research within 1-2 weeks and move this to ready_to_review."
-      }
+        "follow_up_timing": "Complete your research within 1-2 weeks and move this to ready_to_review.",
+        "next_action_zh": "完成对 Tokyo Art Book Fair 的调研：查看其官网，了解近期展览、公开征集公告以及具体联系人。",
+        "next_action_ja": "Tokyo Art Book Fair についてのリサーチを完了してください：ウェブサイトで最近の展示、公募のお知らせ、担当者名を確認しましょう。",
+        "follow_up_timing_zh": "请在 1-2 周内完成调研，并将此项移至 ready_to_review。",
+        "follow_up_timing_ja": "1〜2週間以内にリサーチを完了し、ready_to_review に移してください。",
+        "risk_notes_zh": "参展需要预付费用并备有充足库存。承诺前请评估投资回报。",
+        "risk_notes_ja": "フェアへの参加には事前費用と十分な在庫が必要です。コミットする前にROIを評価してください。"
+      },
+      "why_relevant_zh": "东京顶级艺术书展。在这里设摊可直接接触日本最活跃的艺术书买家——这是一个重要的第一梯队曝光活动。",
+      "why_relevant_ja": "東京を代表するアートブックフェア。テーブルやブースを出すことで、日本で最も熱心なアートブック購入者に直接アクセスできる――Tier 1の主要な露出イベント。",
+      "notes_zh": "东京顶级艺术书展。目标是在2026年设摊参展。请调查2026年版的申请流程和截止日期。",
+      "notes_ja": "東京を代表するアートブックフェア。2026年のテーブル／ブース出展を目標とする。2026年版の申請プロセスと締め切りを調査すること。"
     },
     {
       "name": "ZINEフェス東京",
@@ -222,8 +314,18 @@
         "priority": "high",
         "next_action": "Research ZINEフェス東京's application process and booth costs. Deadline is June 27 2026 — act immediately.",
         "risk_notes": "Hard deadline June 27 2026. Fair participation requires upfront cost and significant stock. Evaluate ROI before committing.",
-        "follow_up_timing": "Immediate — deadline June 27 2026."
-      }
+        "follow_up_timing": "Immediate — deadline June 27 2026.",
+        "follow_up_timing_zh": "即刻行动——截止日期 2026 年 6 月 27 日。",
+        "follow_up_timing_ja": "至急対応が必要です——締め切りは 2026 年 6 月 27 日。",
+        "risk_notes_zh": "截止日期为 2026 年 6 月 27 日，不可逾期。参展需要预付费用并备有充足库存。承诺前请评估投资回报。",
+        "risk_notes_ja": "締め切りは 2026 年 6 月 27 日（厳守）。フェアへの参加には事前費用と十分な在庫が必要です。コミットする前にROIを評価してください。",
+        "next_action_zh": "调查 ZINEフェス東京 的申请流程和摊位费用。截止日期是 2026 年 6 月 27 日——请立即行动。",
+        "next_action_ja": "ZINEフェス東京 の申し込み手順とブース費用を調べてください。締め切りは 2026 年 6 月 27 日です——今すぐ動きましょう。"
+      },
+      "why_relevant_zh": "ZINE Fest Tokyo 是 Tier 1 高优先级摊位申请，截止日期为 2026 年 6 月 27 日，不可逾期。推介重点在于 GEGYjiji 日常创作的连续性。",
+      "why_relevant_ja": "ZINE Fest Tokyo は Tier 1 最優先のブース申請で、締め切りは 2026 年 6 月 27 日と厳守です。GEGYjiji の日々の制作が持つ連続性をピッチの核心にしてください。",
+      "notes_zh": "ZINE Fest Tokyo 摊位申请。截止日期：2026 年 6 月 27 日。Tier 1 高优先级事项。",
+      "notes_ja": "ZINE Fest Tokyo のブース申請。締め切り：2026 年 6 月 27 日。Tier 1 最優先アクション。"
     },
     {
       "name": "Yonchome Cafe",
@@ -243,8 +345,18 @@
         "priority": "low",
         "next_action": "Visit Yonchome Cafe to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability before investing preparation time.",
-        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
-      }
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to.",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，在投入准备时间之前，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、準備に時間をかける前に現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "不用着急——先做调研，有明确具体的理由再联系。",
+        "follow_up_timing_ja": "焦らなくて大丈夫です——まずリサーチして、明確で具体的な理由ができてからアプローチしましょう。",
+        "next_action_zh": "前往 Yonchome Cafe，实地查看展示空间，并与负责人洽谈近期展览档期。",
+        "next_action_ja": "Yonchome Cafe を訪問し、展示スペースを確認のうえ、今後の展覧会の空き状況についてマネージャーと話し合ってください。"
+      },
+      "why_relevant_zh": "东京本地咖啡馆画廊。在这里举办水彩日记系列短期展览，是门槛较低的首次展览经历。",
+      "why_relevant_ja": "東京のローカルカフェギャラリー。水彩日記シリーズの短期展示を行えば、ハードルの低い初めての展示実績になります。",
+      "notes_zh": "东京本地咖啡馆画廊。水彩日记系列短期展览场地。",
+      "notes_ja": "東京のローカルカフェギャラリー。水彩日記シリーズの短期展示会場として活用できます。"
     },
     {
       "name": "SUZURI",
@@ -264,8 +376,18 @@
         "priority": "high",
         "next_action": "Set up a SUZURI account and upload 3-5 designs from existing watercolor work. Target completion: 2-3 hours.",
         "risk_notes": "No contact established yet — this is a self-serve platform, not an outreach target.",
-        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
-      }
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to.",
+        "follow_up_timing_zh": "不用着急——先做调研，有明确具体的理由再联系。",
+        "follow_up_timing_ja": "焦らなくて大丈夫です——まずリサーチして、明確で具体的な理由ができてからアプローチしましょう。",
+        "risk_notes_zh": "尚未建立联系——这是一个自助平台，无需主动拓展。",
+        "risk_notes_ja": "まだコンタクトは取れていません——これはセルフサービスのプラットフォームであり、アウトリーチの対象ではありません。",
+        "next_action_zh": "注册一个 SUZURI 账号，从现有水彩作品中上传3-5个设计。目标用时：2-3小时。",
+        "next_action_ja": "SUZURI のアカウントを作成し、既存の水彩作品から3〜5点のデザインをアップロードすること。目標所要時間：2〜3時間。"
+      },
+      "why_relevant_zh": "T恤、手提袋和明信片的按需印刷平台。快速设置（2-3小时）即可将 GEGYjiji 的90k Instagram粉丝转化为被动收入，无需预先承担库存风险。",
+      "why_relevant_ja": "Tシャツ、トート、ポストカードのプリントオンデマンドプラットフォーム。短時間のセットアップ（2〜3時間）で GEGYjiji の90k Instagramフォロワーを在庫リスクなしに受動的収入へ転換できる。",
+      "notes_zh": "POD平台——T恤、手提袋、明信片。目标设置时间：2-3小时。可将90k Twitter粉丝转化为被动收入。",
+      "notes_ja": "PODプラットフォーム――Tシャツ、トート、ポストカード。セットアップ目標：2〜3時間。90k のTwitterフォロワーから受動的収入を得られる。"
     },
     {
       "name": "Design Festa Gallery",
@@ -285,8 +407,18 @@
         "priority": "medium",
         "next_action": "Attend an opening or event at Design Festa Gallery to observe their curation style and audience before any formal approach.",
         "risk_notes": "Many galleries do not accept unsolicited submissions — verify their policy before sending work.",
-        "follow_up_timing": "Visit in person first; follow up with email only after you have attended at least one event."
-      }
+        "follow_up_timing": "Visit in person first; follow up with email only after you have attended at least one event.",
+        "next_action_zh": "在正式接触之前，先参加 Design Festa Gallery 的开幕式或活动，观察其策展风格与受众群体。",
+        "next_action_ja": "正式なアプローチをする前に、Design Festa Gallery のオープニングやイベントに参加して、キュレーションのスタイルと来場者層を観察する。",
+        "risk_notes_zh": "许多画廊不接受未经邀请的投稿——联系前请先确认其政策。",
+        "risk_notes_ja": "多くのギャラリーは飛び込みの応募を受け付けていません——作品を送る前にポリシーを確認してください。",
+        "follow_up_timing_zh": "请先亲自前往；只有在你至少参加过一次活动之后，再通过邮件跟进。",
+        "follow_up_timing_ja": "まず直接足を運んでください。少なくとも一度イベントに参加してから、メールでフォローアップしてください。"
+      },
+      "why_relevant_zh": "这是一个对新兴东京插画师使用率很高的开放申请展览空间。门槛低、人流量大，是进入第二梯队的合适起点。",
+      "why_relevant_ja": "新進の東京イラストレーターに広く利用されているオープン申請型のギャラリースペース。参入障壁が低く集客力も高いため、Tier 2の最初のステップとして適している。",
+      "notes_zh": "开放申请的展览空间，受到许多新兴东京插画师的青睐。门槛低，曝光度高。",
+      "notes_ja": "オープン申請型のギャラリースペース。新進の東京イラストレーターに多く利用されており、参入障壁が低く視認性が高い。"
     },
     {
       "name": "tata bookshop/gallery",
@@ -306,8 +438,18 @@
         "priority": "low",
         "next_action": "Visit tata bookshop/gallery in person (or browse their online inventory) to confirm the aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
-        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush."
-      }
+        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush.",
+        "risk_notes_zh": "寄售条款差异较大——在确定库存之前，务必确认佣金比例、最低存货量和退货政策。",
+        "risk_notes_ja": "委託販売の条件はさまざまです。在庫を預ける前に手数料率・最低在庫数・返品ポリシーを必ず確認してください。",
+        "follow_up_timing_zh": "在接下来的2-3周内联系对方。书店关系进展缓慢——不要操之过急。",
+        "follow_up_timing_ja": "今後2〜3週間以内に連絡を取ること。書店との関係はゆっくり進むもの――焦らないこと。",
+        "next_action_zh": "亲自拜访 tata bookshop/gallery（或浏览其线上库存），确认风格契合度，然后起草一封简短的寄售询问邮件。",
+        "next_action_ja": "tata bookshop/gallery に実際に足を運ぶか（またはオンライン在庫を確認し）、美的方向性の一致を確かめたうえで、簡潔な委託販売の問い合わせ文を作成してください。"
+      },
+      "why_relevant_zh": "小型书店，附设画廊空间。联系方式已经深度核实确认。在此寄售或参与联展，有助于建立本地知名度。",
+      "why_relevant_ja": "ギャラリー機能を持つ小さな書店です。連絡先情報は詳細な確認済みです。ここでの委託販売やグループ展は、地域での認知度を高めます。",
+      "notes_zh": "小型书店，附设画廊空间。联系方式已经深度核实确认。",
+      "notes_ja": "ギャラリー機能を持つ小さな書店です。連絡先情報は詳細な確認済みです。"
     },
     {
       "name": "reload Shimokitazawa",
@@ -327,8 +469,18 @@
         "priority": "low",
         "next_action": "Attend an opening or event at reload Shimokitazawa to observe their curation style and audience before any formal approach.",
         "risk_notes": "Many galleries do not accept unsolicited submissions — verify their policy before sending work.",
-        "follow_up_timing": "Visit in person first; follow up with email only after you have attended at least one event."
-      }
+        "follow_up_timing": "Visit in person first; follow up with email only after you have attended at least one event.",
+        "next_action_zh": "在正式接触之前，先参加 reload Shimokitazawa 的开幕式或活动，观察其策展风格与受众群体。",
+        "next_action_ja": "正式なアプローチをする前に、reload Shimokitazawa のオープニングやイベントに参加して、キュレーションのスタイルと来場者層を観察する。",
+        "risk_notes_zh": "许多画廊不接受未经邀请的投稿——联系前请先确认其政策。",
+        "risk_notes_ja": "多くのギャラリーは飛び込みの応募を受け付けていません——作品を送る前にポリシーを確認してください。",
+        "follow_up_timing_zh": "请先亲自前往；只有在你至少参加过一次活动之后，再通过邮件跟进。",
+        "follow_up_timing_ja": "まず直接足を運んでください。少なくとも一度イベントに参加してから、メールでフォローアップしてください。"
+      },
+      "why_relevant_zh": "Shimokitazawa 的多功能艺术空间。可同时洽谈画廊展览和活动合作——压力较低的二线社群拓展目标。",
+      "why_relevant_ja": "Shimokitazawa の多目的アーツスペース。ギャラリー展示とイベントの両方について問い合わせ可能——プレッシャーの少ないティア 2 のコミュニティ構築ターゲットです。",
+      "notes_zh": "Shimokitazawa 的多功能艺术空间。可洽谈画廊展览或活动合作。",
+      "notes_ja": "Shimokitazawa の多目的アーツスペース。ギャラリー展示・イベントの問い合わせが可能です。"
     },
     {
       "name": "Tacoche",
@@ -348,8 +500,18 @@
         "priority": "low",
         "next_action": "Send or bring a physical copy of your work to Tacoche — zine culture prioritises the object over email pitches.",
         "risk_notes": "Small zine shops often have limited space and inconsistent restocking. Confirm current capacity before sending copies.",
-        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
-      }
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to.",
+        "follow_up_timing_zh": "不用着急——先做调研，有明确具体的理由再联系。",
+        "follow_up_timing_ja": "焦らなくて大丈夫です——まずリサーチして、明確で具体的な理由ができてからアプローチしましょう。",
+        "next_action_zh": "将你的作品实体样本邮寄或亲自带到 Tacoche——zine 文化重视实物，胜过邮件推销。",
+        "next_action_ja": "作品の現物を Tacoche に郵送するか直接持参すること——zineカルチャーはメールでの売り込みよりも実物を重視します。",
+        "risk_notes_zh": "小型 zine 店通常空间有限，补货也不稳定。寄送作品前，先确认对方目前的收货能力。",
+        "risk_notes_ja": "小さなzineショップはスペースが限られており、補充も不定期なことが多いです。コピーを送る前に現在の受け入れ状況を確認すること。"
+      },
+      "why_relevant_zh": "Zine 及独立印刷品店。Colour Diary 及未来 zine 的寄售目标——在这里，实物本身比一封邮件更有说服力。",
+      "why_relevant_ja": "Zine およびインディペンデント印刷物のショップです。Colour Diary と今後の zine の委託販売先候補——ここではメールの売り込みよりも、実物を手に取ってもらうことの方が重要です。",
+      "notes_zh": "Zine／独立印刷品店。Colour Diary 及未来 zine 的寄售目标。",
+      "notes_ja": "Zine／インディペンデント印刷物のショップ。Colour Diary と今後の zine の委託販売先候補です。"
     },
     {
       "name": "Gallery 456",
@@ -369,8 +531,18 @@
         "priority": "low",
         "next_action": "Verify current open call status and confirm fees before any submission — this is a future target, not immediate.",
         "risk_notes": "Many galleries do not accept unsolicited submissions — verify their policy before sending work.",
-        "follow_up_timing": "Visit in person first; follow up with email only after you have attended at least one event."
-      }
+        "follow_up_timing": "Visit in person first; follow up with email only after you have attended at least one event.",
+        "risk_notes_zh": "许多画廊不接受未经邀请的投稿——联系前请先确认其政策。",
+        "risk_notes_ja": "多くのギャラリーは飛び込みの応募を受け付けていません——作品を送る前にポリシーを確認してください。",
+        "next_action_zh": "投稿前请核实当前征集状态并确认费用——这是未来目标，暂不紧迫。",
+        "next_action_ja": "応募前に現在のオープンコールの状況を確認し、費用を確かめること——これは将来の目標であり、今すぐではない。",
+        "follow_up_timing_zh": "请先亲自前往；只有在你至少参加过一次活动之后，再通过邮件跟进。",
+        "follow_up_timing_ja": "まず直接足を運んでください。少なくとも一度イベントに参加してから、メールでフォローアップしてください。"
+      },
+      "why_relevant_zh": "国际画廊，公开征集流程已确认。待东京展览经历积累后，可作为未来的国际投稿目标。",
+      "why_relevant_ja": "オープンコールのプロセスが確認済みの国際ギャラリーです。東京での展示歴が積み上がった後、将来の国際公募ターゲットとして検討できます。",
+      "notes_zh": "国际画廊。公开征集的联系方式、费用及流程均已通过核查确认。",
+      "notes_ja": "国際ギャラリー。オープンコールの連絡先・費用・プロセスが確認済みです。"
     },
     {
       "name": "ART BOX Publishing",
@@ -390,8 +562,18 @@
         "priority": "low",
         "next_action": "Research ART BOX Publishing's current program, submission policy, and key contact person before initiating outreach.",
         "risk_notes": "No contact established yet — research submission policy and named contact before reaching out.",
-        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to."
-      }
+        "follow_up_timing": "No rush — research first, then reach out when you have a clear, specific reason to.",
+        "follow_up_timing_zh": "不用着急——先做调研，有明确具体的理由再联系。",
+        "follow_up_timing_ja": "焦らなくて大丈夫です——まずリサーチして、明確で具体的な理由ができてからアプローチしましょう。",
+        "risk_notes_zh": "尚未建立联系——联系前请先调查投稿政策及具体负责人。",
+        "risk_notes_ja": "まだコンタクトは取れていません——アプローチする前に応募ポリシーと担当者名を調査してください。",
+        "next_action_zh": "在开始联系之前，先调研 ART BOX Publishing 的当前项目、投稿政策及主要联系人。",
+        "next_action_ja": "アウトリーチを始める前に、ART BOX Publishing の現行プログラム、投稿ポリシー、主要な担当者を調べておくこと。"
+      },
+      "why_relevant_zh": "已确认投稿流程的艺术书籍出版社。待 Colour Diary 2 完成后适用——现在先追踪跟进，届时路径清晰。",
+      "why_relevant_ja": "投稿プロセスが確認済みのアートブック出版社。Colour Diary 2 が完成したときに活用できる。今のうちから追っておき、その時が来たら迷わず動けるようにしておく。",
+      "notes_zh": "艺术书籍出版社。投稿流程已确认。待 Colour Diary 2 准备好后使用。",
+      "notes_ja": "アートブック出版社。投稿プロセス確認済み。Colour Diary 2 が完成したら活用する。"
     },
     {
       "name": "Books Ruhe",
@@ -411,8 +593,18 @@
         "priority": "low",
         "next_action": "Visit Books Ruhe in person (or browse their online inventory) to confirm the aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Consignment terms vary widely — confirm commission rate, minimum stock, and return policy before committing inventory.",
-        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush."
-      }
+        "follow_up_timing": "Reach out within the next 2-3 weeks. Bookshop relationships move slowly — don't rush.",
+        "risk_notes_zh": "寄售条款差异较大——在确定库存之前，务必确认佣金比例、最低存货量和退货政策。",
+        "risk_notes_ja": "委託販売の条件はさまざまです。在庫を預ける前に手数料率・最低在庫数・返品ポリシーを必ず確認してください。",
+        "follow_up_timing_zh": "在接下来的2-3周内联系对方。书店关系进展缓慢——不要操之过急。",
+        "follow_up_timing_ja": "今後2〜3週間以内に連絡を取ること。書店との関係はゆっくり進むもの――焦らないこと。",
+        "next_action_zh": "亲自前往 Books Ruhe（或浏览其在线目录），确认审美契合度，然后起草简短的寄售咨询邮件。",
+        "next_action_ja": "Books Ruhe に実際に足を運ぶか（またはオンライン在庫を閲覧して）審美的な相性を確認し、簡潔な委託販売の問い合わせ文を作成すること。"
+      },
+      "why_relevant_zh": "独立书店，联系方式已确认。有寄售 Colour Diary 的潜力——可低调积累本地知名度。",
+      "why_relevant_ja": "独立系書店で、連絡先が確認済みです。Colour Diary の委託販売の可能性あり——静かに地域での認知度を高められます。",
+      "notes_zh": "独立书店，联系方式已确认。有寄售 Colour Diary 的潜力。",
+      "notes_ja": "独立系書店。連絡先が確認済みです。Colour Diary の委託販売の可能性あります。"
     },
     {
       "name": "HATTIFNATT Koenji Cafe Gallery",
@@ -437,8 +629,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit HATTIFNATT Koenji Cafe Gallery in Tokyo — Koenji to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京高圆寺的 HATTIFNATT Koenji Cafe Gallery，实地查看展示空间，并与负责人洽谈近期展览档期。",
+        "next_action_ja": "東京・高円寺にある HATTIFNATT Koenji Cafe Gallery を訪問し、展示スペースを確認のうえ、今後の展覧会の空き状況についてマネージャーと話し合ってください。"
+      },
+      "why_relevant_zh": "GEGYjiji 作品中的温暖、亲密感、猫咪与室内光线，与 HATTIFNATT 的绘本气质高度契合。在咖啡馆类别中视觉契合度评分最高。",
+      "why_relevant_ja": "GEGYjiji の作品が持つ温もり、親密さ、猫、そして室内の光は、HATTIFNATT の絵本的な感性に直結します。カフェカテゴリーでビジュアル適合度が最高スコアです。"
     },
     {
       "name": "美術手帖 (Bijutsu Techo)",
@@ -463,8 +663,18 @@
         "follow_up_timing": "Research editorial pitch angle and identify a named editor before any outreach.",
         "next_action": "Research 美術手帖's recent feature formats, identify a named editor covering emerging artists, and develop a specific editorial angle before reaching out.",
         "risk_notes": "Press features require a compelling, timely story hook — a cold pitch without an angle will be ignored.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "媒体报道需要有吸引力且时效性强的切入点——没有角度的冷推介会被直接忽视。",
+        "risk_notes_ja": "メディア掲載には説得力があり時宜にかなったストーリーフックが必要――角度のないコールドピッチは無視される。",
+        "follow_up_timing_zh": "在联系任何人之前，先确定编辑投稿的切入角度，并找到具体负责编辑的姓名。",
+        "follow_up_timing_ja": "アウトリーチを行う前に、編集ピッチの切り口を考え、担当編集者の名前を特定しておくこと。",
+        "next_action_zh": "在联系 美術手帖 之前，先研究他们近期的专题形式，找到负责报道新兴艺术家的具名编辑，并确立一个具体的编辑切入角度。",
+        "next_action_ja": "美術手帖 に連絡する前に、最近の特集形式を調べ、新進アーティストを担当している編集者の名前を特定し、具体的な編集アングルを考えておきましょう。"
+      },
+      "why_relevant_zh": "这是日本艺术界的旗舰纯艺术出版物。在此获得编辑专题报道，是足以定义职业生涯的曝光机会。",
+      "why_relevant_ja": "日本のアート界を代表するファインアート専門誌です。ここでの編集フィーチャーは、キャリアを左右する知名度向上の機会となります。",
+      "notes_zh": "已从冷联系重新分类：外联前需要进行编辑角度调研并通过预热介绍建立联系——不适合简单的冷接触。",
+      "notes_ja": "コールドから再分類：アウトリーチ前に編集角度のリサーチとウォームな紹介が必要――単純なコールドコンタクトでは対応不可。"
     },
     {
       "name": "Pen Magazine",
@@ -489,8 +699,18 @@
         "follow_up_timing": "Research editorial pitch angle and identify a named editor before any outreach.",
         "next_action": "Research Pen Magazine's recent feature formats, identify a named editor covering design and art, and develop a specific editorial angle before reaching out.",
         "risk_notes": "Press features require a compelling, timely story hook — a cold pitch without an angle will be ignored.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "媒体报道需要有吸引力且时效性强的切入点——没有角度的冷推介会被直接忽视。",
+        "risk_notes_ja": "メディア掲載には説得力があり時宜にかなったストーリーフックが必要――角度のないコールドピッチは無視される。",
+        "next_action_zh": "调研 Pen Magazine 近期专题的呈现形式，找到负责设计与艺术版块的具体编辑姓名，并在联系之前确立明确的切入角度。",
+        "next_action_ja": "Pen Magazine の最近の特集フォーマットを調べ、デザインとアートを担当する編集者の名前を特定し、連絡を取る前に具体的な編集切り口を考えておくこと。",
+        "follow_up_timing_zh": "在联系任何人之前，先确定编辑投稿的切入角度，并找到具体负责编辑的姓名。",
+        "follow_up_timing_ja": "アウトリーチを行う前に、編集ピッチの切り口を考え、担当編集者の名前を特定しておくこと。"
+      },
+      "notes_zh": "已从冷联系重新分类：媒体目标在外联前需要进行编辑调研并确定切入角度。",
+      "notes_ja": "コールドから再分類：プレスターゲットへのアウトリーチ前に編集リサーチと角度の開発が必要。",
+      "why_relevant_zh": "东京的设计素养读者群。都市水彩 + 东京记录 = 对 Pen 读者而言极具吸引力的编辑视角。",
+      "why_relevant_ja": "東京のデザインリテラシーの高い読者層。都市水彩 + 東京ドキュメント = Pen 読者にとって強力な編集的切り口。"
     },
     {
       "name": "It's Nice That",
@@ -515,8 +735,18 @@
         "follow_up_timing": "Research their submission process and successful pitch examples before approaching.",
         "next_action": "Review It's Nice That's 'Submit Your Work' process, study recent Tokyo-based artist features for pitch angle, then prepare a curated selection of 8-10 strongest works.",
         "risk_notes": "Competition is global and high — submission without a distinct angle (e.g. Chinese artist documenting disappearing Tokyo) will not stand out.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "竞争来自全球，水平很高——如果投稿没有鲜明的切入点（例如：记录逐渐消失的东京的中国艺术家），很难脱颖而出。",
+        "risk_notes_ja": "競争はグローバルかつ激しく、明確な切り口（例：消えゆく東京を記録する中国人アーティスト）がなければ目立ちません。",
+        "next_action_zh": "了解 It's Nice That 的「Submit Your Work」流程，研究近期东京艺术家专题以确定投稿角度，然后精选 8–10 件最具代表性的作品。",
+        "next_action_ja": "It's Nice That の「Submit Your Work」プロセスを確認し、最近の東京在住アーティスト特集を参考にピッチの切り口を考えたうえで、最も優れた作品を 8〜10 点セレクトして準備すること。",
+        "follow_up_timing_zh": "在联系之前，先了解他们的投稿流程及成功提案的案例。",
+        "follow_up_timing_ja": "アプローチする前に、先方の投稿プロセスと成功したピッチの事例を調べておくこと。"
+      },
+      "why_relevant_zh": "对你这个阶段的艺术家而言，这是最重要的国际平台。在此被推介，能触达全球插画圈，并吸引授权与委托咨询。",
+      "why_relevant_ja": "あなたのレベルのアーティストにとって最大の国際的プラットフォーム。ここでフィーチャーされれば、世界中のイラストレーションコミュニティに届き、ライセンスやコミッションの問い合わせを引き寄せる。",
+      "notes_zh": "已从冷联系重新分类：主要国际媒体在任何投稿前都需要明确的编辑角度和经过精心筛选的作品集。",
+      "notes_ja": "コールドから再分類：主要な国際メディアへの投稿には、明確な編集角度と作品のキュレーションが事前に必要。"
     },
     {
       "name": "Apartamento Magazine",
@@ -541,8 +771,18 @@
         "follow_up_timing": "Develop pitch angle first; approach only when there is a strong story hook.",
         "next_action": "Study Apartamento's artist feature format closely. Draft a pitch built around the specific angle: Chinese artist in quiet observation of disappearing Tokyo domestic spaces.",
         "risk_notes": "Apartamento is highly curated — a generic portfolio submission will not be considered. The pitch must feel like an Apartamento story.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "Apartamento 的遴选极为严格——普通的作品集投稿不会被考虑。你的提案必须真正契合 Apartamento 的故事气质。",
+        "risk_notes_ja": "Apartamento の選考は非常に厳しく、ありきたりなポートフォリオ投稿は相手にされない。ピッチは Apartamento らしいストーリーとして感じられなければならない。",
+        "follow_up_timing_zh": "先确定推介的切入角度，只有在有足够吸引人的故事钩子时再去接触。",
+        "follow_up_timing_ja": "まずピッチの切り口を固め、強いストーリーフックができてから売り込みに行きましょう。",
+        "next_action_zh": "仔细研究 Apartamento 的艺术家专题报道形式，围绕这一具体角度起草投稿提案：一位中国艺术家，静静记录正在消逝的东京居家空间。",
+        "next_action_ja": "Apartamento のアーティスト特集のフォーマットをよく研究すること。次の具体的な切り口でピッチを草案すること：消えゆく東京の生活空間を静かに観察する中国人アーティスト。"
+      },
+      "why_relevant_zh": "你笔下亲密的都市室内与日常东京纪实，与 Apartamento 的受众高度契合。\"外国人观察东京\"这一视角极具说服力。",
+      "why_relevant_ja": "あなたの親密な都市インテリアと日常の東京ドキュメンテーションは、Apartamento の読者層にぴったりです。「外国人が東京を観察する」という視点は強みになります。",
+      "notes_zh": "已从冷联系重新分类：Apartamento 筛选极为严格，需要以有针对性的强力提案进行预热接触。",
+      "notes_ja": "コールドから再分類：Apartamento は非常に選択的であり、具体的で力強いピッチを伴うウォームアプローチが必要。"
     },
     {
       "name": "Kamome Roastery Tokyo",
@@ -567,8 +807,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit Kamome Roastery Tokyo in Tokyo — Kameari, Katsushika to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京葛饰区龟有的 Kamome Roastery Tokyo，实地查看展示空间，并与负责人洽谈近期展览档期。",
+        "next_action_ja": "東京・葛飾区亀有にある Kamome Roastery Tokyo を訪問し、展示スペースを確認のうえ、今後の展覧会の空き状況についてマネージャーと話し合ってください。"
+      },
+      "why_relevant_zh": "Kamome 明确面向具有设计感的艺术家。免费展览，无需前期费用，仅收取 10% 销售佣金。水彩作品挂在导轨系统上非常契合。GEGYjiji 的 Instagram 拥有 9 万粉丝，是最低要求的 150 倍。",
+      "why_relevant_ja": "Kamome はデザイン感覚を持つアーティストを積極的にプログラムしています。展示は無料で初期費用なし、販売手数料は 10% のみ。レールシステムへの水彩作品展示は相性抜群です。GEGYjiji の Instagram フォロワー数 9 万人は、最低必要数の 150 倍です。"
     },
     {
       "name": "Mograg Gallery",
@@ -593,8 +841,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit Mograg Gallery in Tokyo — Hatagaya (Shibuya area) to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京涩谷区幡谷一带的 Mograg Gallery，实地查看展示空间，并与负责人洽谈近期展览档期。",
+        "next_action_ja": "東京・幡ヶ谷（渋谷エリア）にある Mograg Gallery を訪問し、展示スペースを確認のうえ、今後の展覧会の空き状況についてマネージャーと話し合ってください。"
+      },
+      "why_relevant_zh": "Mograg 定期展出日本新兴艺术家和画家的技术性强的作品。GEGYjiji 的东京城市水彩自然融入其展览体系——受众相同，审美取向一致。在东京和大阪均设有展览空间。",
+      "why_relevant_ja": "Mograg は技術的に優れた新進日本人アーティストや画家の作品を定期的に展示しています。GEGYjiji の東京都市水彩はこのプログラムに自然に馴染みます——同じ観客層、同じ美的感覚です。東京と大阪に会場を持っています。"
     },
     {
       "name": "CLOUDS Gallery+Coffee Koenji",
@@ -619,8 +875,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit CLOUDS Gallery+Coffee Koenji in Tokyo — Koenji to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京 Koenji 的 CLOUDS Gallery+Coffee Koenji，查看展示空间，并与负责人沟通近期的展览档期。",
+        "next_action_ja": "東京・Koenji の CLOUDS Gallery+Coffee Koenji を訪れ、展示スペースを確認し、今後の展覧会の空き状況についてマネージャーと話すこと。"
+      },
+      "why_relevant_zh": "以画廊为主的空间，设有国际艺术家项目，明确展示来自日本及海外的新兴和知名艺术家。是高円寺最契合的画廊咖啡馆。",
+      "why_relevant_ja": "国際的なアーティストプログラムを持つギャラリー主体のスペースで、日本国内外の新進・著名アーティストを積極的に展示しています。高円寺で最もギャラリーカフェとして相性の良い場所です。"
     },
     {
       "name": "Casa Brutus",
@@ -645,8 +909,18 @@
         "follow_up_timing": "Research editorial pitch angle and identify a named editor before any outreach.",
         "next_action": "Research Casa Brutus's recent editorial focus on architecture and design, identify a named editor, and develop a pitch around GEGYjiji's Tokyo architectural watercolor documentation.",
         "risk_notes": "Press features require a compelling, timely story hook — a cold pitch without an angle will be ignored.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "媒体报道需要有吸引力且时效性强的切入点——没有角度的冷推介会被直接忽视。",
+        "risk_notes_ja": "メディア掲載には説得力があり時宜にかなったストーリーフックが必要――角度のないコールドピッチは無視される。",
+        "next_action_zh": "调研 Casa Brutus 近期在建筑与设计方向的编辑重点，找到具体负责编辑的姓名，并围绕 GEGYjiji 的东京建筑水彩记录项目制定投稿方案。",
+        "next_action_ja": "Casa Brutus の建築・デザイン分野における最近の編集方針を調べ、担当編集者の名前を特定し、GEGYjiji の東京建築水彩ドキュメンテーションを軸にしたピッチを作成すること。",
+        "follow_up_timing_zh": "在联系任何人之前，先确定编辑投稿的切入角度，并找到具体负责编辑的姓名。",
+        "follow_up_timing_ja": "アウトリーチを行う前に、編集ピッチの切り口を考え、担当編集者の名前を特定しておくこと。"
+      },
+      "notes_zh": "已从冷联系重新分类：媒体目标在外联前需要进行编辑调研并确定切入角度。",
+      "notes_ja": "コールドから再分類：プレスターゲットへのアウトリーチ前に編集リサーチと角度の開発が必要。",
+      "why_relevant_zh": "记录东京建筑的城市水彩，与 Casa Brutus 关于空间与设计的编辑方向高度契合。",
+      "why_relevant_ja": "東京の建築を記録したアーバン水彩は、Casa Brutus の空間・デザイン分野の編集コンテンツにぴったり合致する。"
     },
     {
       "name": "SHIBUYA CAST. Gallery",
@@ -671,8 +945,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit SHIBUYA CAST. Gallery in Tokyo — Shibuya to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京涩谷的 SHIBUYA CAST. Gallery，实地查看展示空间，并与负责人洽谈近期展览档期。",
+        "next_action_ja": "東京・渋谷にある SHIBUYA CAST. Gallery を訪問し、展示スペースを確認のうえ、今後の展覧会の空き状況についてマネージャーと話し合ってください。"
+      },
+      "why_relevant_zh": "SHIBUYA CAST. 位于涩谷中心，是社区与设计的交汇点——这里的观众品味独到，对当代亲民艺术持开放态度。东京都市水彩作品与这个综合体社区导向的活动定位非常契合。",
+      "why_relevant_ja": "SHIBUYA CAST. は渋谷中心部でコミュニティとデザインが交差する場所です——現代的でアクセスしやすいアートに開かれた、審美眼のある観客が集まります。東京の都市水彩画は、このコンプレックスのコミュニティ志向のプログラムと共鳴します。"
     },
     {
       "name": "Gallery EF Asakusa",
@@ -697,8 +979,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit Gallery EF Asakusa in Tokyo — Asakusa, Taito to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京 Asakusa、Taito 的 Gallery EF Asakusa，查看展示空间，并与负责人沟通近期的展览档期。",
+        "next_action_ja": "東京・Asakusa、Taito の Gallery EF Asakusa を訪れ、展示スペースを確認し、今後の展覧会の空き状況についてマネージャーと話すこと。"
+      },
+      "why_relevant_zh": "Gallery EF 明治时代的地下室氛围与 GEGYjiji 关于记忆、老建筑和静谧都市空间的主题高度契合。浅草浓厚的文化底蕴，使其成为东京纪实创作的理想街区。",
+      "why_relevant_ja": "Gallery EF の明治時代を感じさせる地下室の雰囲気は、GEGYjiji の記憶・古い建築・静かな都市空間というテーマと直接共鳴します。浅草の文化的な密度は、東京ドキュメンテーション作品にふさわしい場所です。"
     },
     {
       "name": "Nui. Hostel Bar & Lounge Asakusa",
@@ -723,8 +1013,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit Nui. Hostel Bar & Lounge Asakusa in Tokyo — Asakusa, Taito to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京台东区浅草的 Nui. Hostel Bar & Lounge Asakusa，实地查看展示空间，并与负责人洽谈近期展览档期。",
+        "next_action_ja": "東京・台東区浅草にある Nui. Hostel Bar & Lounge Asakusa を訪問し、展示スペースを確認のうえ、今後の展覧会の空き状況についてマネージャーと話し合ってください。"
+      },
+      "why_relevant_zh": "Nui. 吸引着东京创意外籍人士和设计圈——欣赏沉静、细腻的日本城市艺术的国际受众。「记录东京的中国艺术家」这一角度在这里尤其引人共鸣。",
+      "why_relevant_ja": "Nui. は東京のクリエイティブな expatriate とデザインコミュニティを引きつけています——静かで丁寧な日本の都市アートを好む国際的なオーディエンスです。「東京を記録する中国人アーティスト」という視点は、ここで特に響きます。"
     },
     {
       "name": "HATTIFNATT Kichijoji",
@@ -749,8 +1047,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit HATTIFNATT Kichijoji in Tokyo — Kichijoji, Musashino to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京武藏野市吉祥寺的 HATTIFNATT Kichijoji，实地查看展示空间，并与负责人洽谈近期展览档期。",
+        "next_action_ja": "東京・武蔵野市吉祥寺にある HATTIFNATT Kichijoji を訪問し、展示スペースを確認のうえ、今後の展覧会の空き状況についてマネージャーと話し合ってください。"
+      },
+      "why_relevant_zh": "与 HATTIFNATT Koenji 同样温暖的绘本美学，但能触及吉祥寺密集创意社群中的不同观众。该场所内的 Donguri Gallery 定期举办轮换艺术家展览——已确认有此项目。",
+      "why_relevant_ja": "HATTIFNATT Koenji と同じ温かな絵本的美学を持ちながら、吉祥寺の密な創作コミュニティで異なる観客層にリーチできます。この場所にある Donguri Gallery では定期的にアーティストの企画展を開催しています——プログラムは確認済みです。"
     },
     {
       "name": "FACE Exhibition 2026",
@@ -775,8 +1081,18 @@
         "follow_up_timing": "Research submission deadline, entry fees, and eligibility requirements before committing to apply.",
         "next_action": "Research FACE Exhibition 2026's submission deadline, entry fees, work size requirements, and jury criteria. Confirm eligibility for non-Japanese nationals before investing preparation time.",
         "risk_notes": "Juried institutional exhibitions require significant preparation time. Verify eligibility and deadline before committing.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "评审制机构展览需要大量准备时间。承诺前请核实参展资格和截止日期。",
+        "risk_notes_ja": "審査制の機関展示には十分な準備時間が必要です。コミットする前に、応募資格と締め切りを確認してください。",
+        "next_action_zh": "调研 FACE Exhibition 2026 的投稿截止日期、报名费用、作品尺寸要求及评审标准。在花费时间准备之前，确认非日本国籍人士的参赛资格。",
+        "next_action_ja": "FACE Exhibition 2026 の応募締め切り、参加費、作品サイズの要件、審査基準を調べること。準備に時間を費やす前に、非日本国籍者の応募資格を確認しておくこと。",
+        "follow_up_timing_zh": "在决定申请之前，先调研投稿截止日期、报名费用及参赛资格要求。",
+        "follow_up_timing_ja": "応募を決める前に、締め切り、参加費、応募資格の要件を調べておくこと。"
+      },
+      "why_relevant_zh": "FACE Exhibition 对多元二维表现形式的包容，与 GEGYjiji 用日常水彩记录东京变迁城市景观与转瞬即逝建筑瞬间的创作实践高度契合。作为在日本视觉文化中工作的华人离散艺术家，你带来了这一全国性平台所寻求的独特感知力——通过纸上作品，以亲密的观察捕捉那些安静的、正在消失的空间。",
+      "why_relevant_ja": "FACE Exhibition が掲げる多様な二次元表現への開かれた姿勢は、東京の変わりゆく都市風景や刹那的な建築の瞬間を記録する GEGYjiji の日々の水彩実践と完璧に一致します。日本の視覚文化の中で活動する中国系ディアスポラアーティストとして、あなたはこの全国的なプラットフォームが求める固有の感性をもたらします——静かに消えゆく空間を、紙の上の作品を通じた親密な観察として昇華させる視点です。",
+      "notes_zh": "已从冷联系重新分类：机构评审展览需要在申请前先调查截止日期并准备好投稿材料。",
+      "notes_ja": "コールドから再分類：機関主催の審査展は、応募前に締め切りの調査と応募準備が必要。"
     },
     {
       "name": "BALLOND'ESSAI Shimokitazawa",
@@ -801,8 +1117,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit BALLOND'ESSAI Shimokitazawa in Tokyo — Shimokitazawa to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京 Shimokitazawa 的 BALLOND'ESSAI Shimokitazawa，查看展示空间，并与负责人沟通近期的展览档期。",
+        "next_action_ja": "東京・Shimokitazawa の BALLOND'ESSAI Shimokitazawa を訪れ、展示スペースを確認し、今後の展覧会の空き状況についてマネージャーと話すこと。"
+      },
+      "why_relevant_zh": "位于下北泽、以画廊为主的咖啡馆，已确认可通过网站提交提案，受众具有设计意识，空间亲密。联系渠道已确认。",
+      "why_relevant_ja": "下北沢にあるギャラリー主体のカフェで、ウェブサイト経由でのプロポーザル受付が確認済み。デザイン意識の高い客層で、こぢんまりとした規模です。直接のコンタクト方法も確認済みです。"
     },
     {
       "name": "Koenji SANAGI",
@@ -827,8 +1151,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit Koenji SANAGI in Koenji, Tokyo to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "low"
-      }
+        "priority": "low",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京高圆寺的 Koenji SANAGI，实地查看展示空间，并与负责人洽谈近期展览档期。",
+        "next_action_ja": "東京・高円寺にある Koenji SANAGI を訪問し、展示スペースを確認のうえ、今後の展覧会の空き状況についてマネージャーと話し合ってください。"
+      },
+      "why_relevant_zh": "这正是那种低压力的一线空间，有助于建立本地知名度——在进军竞争更激烈的东京画廊圈之前，这是正确的一步。",
+      "why_relevant_ja": "地元での認知を築くのに最適な、プレッシャーの低いTier 1スペースです。競争の激しい東京のギャラリーシーンに挑む前の正しいステップです。"
     },
     {
       "name": "ERA Shimokitazawa",
@@ -853,8 +1185,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Attend an opening or event at ERA Shimokitazawa in Shimokitazawa, Tokyo to observe their curation style before any formal approach.",
         "risk_notes": "Many galleries do not accept unsolicited submissions — verify their policy before sending work.",
-        "priority": "low"
-      }
+        "priority": "low",
+        "next_action_zh": "在正式接触之前，先参加位于东京下北泽的 ERA Shimokitazawa 的开幕式或活动，观察其策展风格。",
+        "next_action_ja": "正式なアプローチをする前に、東京・下北沢にある ERA Shimokitazawa のオープニングやイベントに参加して、キュレーションのスタイルを観察する。",
+        "risk_notes_zh": "许多画廊不接受未经邀请的投稿——联系前请先确认其政策。",
+        "risk_notes_ja": "多くのギャラリーは飛び込みの応募を受け付けていません——作品を送る前にポリシーを確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。"
+      },
+      "why_relevant_zh": "压力较低的替代性空间，无需过硬的履历即可展出作品。",
+      "why_relevant_ja": "重厚な経歴を求められることなく作品を展示できる、プレッシャーの少ないオルタナティブスペースです。"
     },
     {
       "name": "Gallery Rocket Harajuku",
@@ -879,8 +1219,16 @@
         "follow_up_timing": "Research first; visit in person before any email outreach.",
         "next_action": "Visit Gallery Rocket Harajuku in Tokyo — Harajuku, Shibuya to see the display space and speak with the manager about upcoming exhibition availability.",
         "risk_notes": "Café exhibition slots are often booked months in advance. Verify current availability first.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "咖啡馆的展览档期通常提前数月就已排满，请先确认当前是否有空档。",
+        "risk_notes_ja": "カフェの展示枠は数ヶ月前から埋まっていることが多いので、まず現在の空き状況を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問すること。",
+        "next_action_zh": "前往东京原宿、涩谷的 Gallery Rocket Harajuku，实地查看展示空间，并与负责人洽谈近期展览档期。",
+        "next_action_ja": "東京・原宿／渋谷にある Gallery Rocket Harajuku を訪問し、展示スペースを確認のうえ、今後の展覧会の空き状況についてマネージャーと話し合ってください。"
+      },
+      "why_relevant_zh": "Gallery Rocket 的策展理念恰好处于插画与纯艺术的交汇点——这正是 GEGYjiji 都市水彩创作的所在。原宿浓郁的创意氛围，能为早期展览经历带来强有力的曝光。",
+      "why_relevant_ja": "Gallery Rocket のキュレーションのセンスは、イラストとファインアートの交差点にあり、まさに GEGYjiji の都市水彩の実践が息づく場所です。原宿のクリエイティブな密度は、初期の展示歴に強い知名度をもたらします。"
     },
     {
       "name": "本店・本屋の実験室",
@@ -905,8 +1253,14 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Research 本店・本屋の実験室's format preferences and submission guidelines before making contact.",
         "risk_notes": "",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。",
+        "next_action_zh": "联系 本店・本屋の実験室 之前，先调查清楚他们对作品形式的偏好及投稿要求。",
+        "next_action_ja": "本店・本屋の実験室 に連絡を取る前に、作品形式の好みと応募ガイドラインを調べておきましょう。"
+      },
+      "why_relevant_zh": "本店・本屋の実験室 专注于实验性印刷作品与 zine 文化，与 GEGYjiji 每日水彩创作高度契合——你对东京正在消逝的城市瞬间的静默观察，可直接转化为 zine 平台所需的亲密、连载形式。Koenji 的地理位置也让你的作品置身于以独立创意社群著称的街区，在那里，以建筑与记忆为主题的纸上作品与在地的策展价值观深度共鸣。",
+      "why_relevant_ja": "本店・本屋の実験室 が持つ実験的な印刷物と zine 文化へのこだわりは、GEGYjiji の毎日の水彩制作と自然に重なります——東京の消えゆく都市の瞬間を静かに観察したあなたの作品は、zine プラットフォームが求める親密で連載的な形式にそのまま転換できます。Koenji という立地も、独立した創造的コミュニティで知られる街にあなたの作品を位置づけ、建築や記憶をテーマにした紙の作品が地域のキュレーション的価値観と響き合います。"
     },
     {
       "name": "Route Books",
@@ -931,8 +1285,16 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Visit Route Books in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "在确定寄售库存之前，请先确认寄售条款（佣金比例、最低存货量、退货政策）。",
+        "risk_notes_ja": "在庫を預ける前に、委託販売の条件（手数料率・最低在庫数・返品ポリシー）を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。",
+        "next_action_zh": "亲自前往 Route Books 考察空间与风格契合度，然后起草一份简短的寄售询价函。",
+        "next_action_ja": "Route Books に直接足を運び、スペースと作風との相性を確認したうえで、簡潔な委託販売の問い合わせ文を作成してください。"
+      },
+      "why_relevant_zh": "Route Books 有经过确认的租用展览空间，并定期举办手工市集——门槛低，但展览空间真实。GEGYjiji 的东京建筑水彩作品契合当地记录性美学，也适合 Ueno 这批懂艺术的观众。",
+      "why_relevant_ja": "Route Books にはレンタルギャラリーが確定しており、クラフトマーケットも開催しています——参入障壁が低く、本物の展示空間です。GEGYjiji の東京建築水彩画は、地域のドキュメント的な美学と Ueno のアート感度の高い観客層に合っています。"
     },
     {
       "name": "B&B (Book & Beer)",
@@ -957,8 +1319,16 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Visit B&B (Book & Beer) in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "在确定寄售库存之前，请先确认寄售条款（佣金比例、最低存货量、退货政策）。",
+        "risk_notes_ja": "在庫を預ける前に、委託販売の条件（手数料率・最低在庫数・返品ポリシー）を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。",
+        "next_action_zh": "亲自前往 B&B (Book & Beer)，评估空间与审美契合度，然后起草简短的寄售咨询邮件。",
+        "next_action_ja": "B&B (Book & Beer) に実際に足を運び、空間と審美的な相性を確認してから、簡潔な委託販売の問い合わせ文を作成すること。"
+      },
+      "why_relevant_zh": "温暖的文学氛围与你作品中那种静默观察的基调十分契合——这里不是白盒子画廊，而这正是你现阶段所需要的。",
+      "why_relevant_ja": "温かみのある文学的な雰囲気が、あなたの作品が持つ静かな観察の空気感とよく合っています。ホワイトキューブのギャラリーではありませんが、今の段階ではそれが正解です。"
     },
     {
       "name": "Submissions - Little Press Publishing",
@@ -983,8 +1353,16 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Research Submissions - Little Press Publishing's submission guidelines and active open calls, then prepare a targeted pitch with sample pages.",
         "risk_notes": "Book publishers typically review on a project basis — confirm whether they accept unsolicited submissions before sending materials.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "书籍出版社通常以项目为单位进行审核——在寄送材料前，请确认对方是否接受主动投稿。",
+        "risk_notes_ja": "書籍出版社は通常プロジェクト単位で審査を行う。資料を送る前に、未依頼の投稿を受け付けているか確認すること。",
+        "next_action_zh": "调研 Submissions - Little Press Publishing 的投稿须知和当前公开征稿信息，然后准备一份附有样张的针对性投稿方案。",
+        "next_action_ja": "Submissions - Little Press Publishing の投稿ガイドラインと現在募集中のオープンコールを調べ、サンプルページを添えた的を絞ったピッチを準備すること。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。"
+      },
+      "why_relevant_zh": "Little Press Publishing 专注于视觉叙事与艺术家专著，与 GEGYjiji 长期以水彩记录东京瞬息城市片段的日常创作高度契合，是将建筑观察与记忆性作品整合成完整体系的天然载体。作为扎根日本的小型出版社，他们非常适合出版这类深植于东京特定地理与静谧氛围研究的作品。",
+      "why_relevant_ja": "Little Press Publishing のビジュアルナラティブとアーティストモノグラフへの注力は、水彩で東京の束の間の都市的瞬間を捉え続ける GEGYjiji の日々の実践と合致しており、建築的観察と記憶に基づく作品をひとつのまとまりにまとめる自然な形式を提供します。日本を拠点とする小規模出版社として、東京の特定の地理と静かな大気感の研究に深く根ざした作品を記録するのに直接的な適合性があります。"
     },
     {
       "name": "LOCAL Gallery・Books",
@@ -1009,8 +1387,14 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Research LOCAL Gallery・Books's format preferences and submission guidelines before making contact.",
         "risk_notes": "",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。",
+        "next_action_zh": "联系 LOCAL Gallery・Books 之前，先调查清楚他们对作品形式的偏好及投稿要求。",
+        "next_action_ja": "LOCAL Gallery・Books に連絡を取る前に、作品形式の好みと応募ガイドラインを調べておきましょう。"
+      },
+      "why_relevant_zh": "LOCAL Gallery・Books 专注于独立出版物与纸上作品，与 GEGYjiji 每日水彩创作及对东京街区静谧氛围的记录档案高度契合——这些内容可直接转化为 zine 或艺术家书籍的形式。作为位于 Koenji 的场馆，它为你这位深耕观察与记录东京各街区特定氛围的艺术家，提供了真正融入在地社群的可能。",
+      "why_relevant_ja": "LOCAL Gallery・Books が持つ独立出版物と紙の作品へのこだわりは、GEGYjiji の毎日の水彩制作や東京の街角の静かな瞬間を記録したアーカイブと自然に重なり、zine やアーティストブックの形式にそのまま転換できます。Koenji を拠点とする会場として、東京各地の特定の雰囲気を観察・記録することを実践の核とするあなたにとって、地域コミュニティへの本質的な接続可能性を提供しています。"
     },
     {
       "name": "Mona Records",
@@ -1035,8 +1419,14 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Research Mona Records's format preferences and submission guidelines before making contact.",
         "risk_notes": "",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "next_action_zh": "在联系之前，先了解 Mona Records 的格式偏好和投稿须知。",
+        "next_action_ja": "連絡を取る前に、Mona Records のフォーマットの好みと投稿ガイドラインを調べておくこと。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。"
+      },
+      "why_relevant_zh": "这不是画廊，但定位恰当——你的作品通过与音乐相邻的文化空间流通，低调、有分量且压力不大。",
+      "why_relevant_ja": "ギャラリーではありませんが、それが正しい捉え方です——音楽に隣接するカルチャースペースを通じて作品が流通することは、静かで信頼感があり、プレッシャーも少ないです。"
     },
     {
       "name": "CuratorSpace Open Calls",
@@ -1061,8 +1451,16 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Create a CuratorSpace account and set up alerts for open calls tagged: watercolor, works on paper, zine, Tokyo, Japan.",
         "risk_notes": "",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "next_action_zh": "注册 CuratorSpace 账户，并设置标签提醒，关键词包括：watercolor、works on paper、zine、Tokyo、Japan。",
+        "next_action_ja": "CuratorSpace のアカウントを作成し、watercolor・works on paper・zine・Tokyo・Japan のタグが付いた公募のアラートを設定してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。"
+      },
+      "why_relevant_zh": "汇聚面向艺术家的公开征集，涵盖 zine、展览及水彩/纸上作品等机会。一个账号即可获取多个相关征集信息。",
+      "why_relevant_ja": "zine、展覧会、水彩/紙作品など、アーティスト向けの公募をまとめて掲載。アカウント一つで複数の関連公募にアクセスできる。",
+      "notes_zh": "类型已从 zine_shop 更正为 opportunity_platform——这是一个公开征集聚合平台，而非商店。",
+      "notes_ja": "タイプを zine_shop から opportunity_platform に修正——これはショップではなく、オープンコール集約プラットフォームだ。"
     },
     {
       "name": "Village Vanguard Shimokitazawa",
@@ -1087,8 +1485,16 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Visit Village Vanguard Shimokitazawa in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "在确定寄售库存之前，请先确认寄售条款（佣金比例、最低存货量、退货政策）。",
+        "risk_notes_ja": "在庫を預ける前に、委託販売の条件（手数料率・最低在庫数・返品ポリシー）を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。",
+        "next_action_zh": "亲自前往 Village Vanguard Shimokitazawa 考察空间与风格契合度，然后起草一份简短的寄售询价函。",
+        "next_action_ja": "Village Vanguard Shimokitazawa に直接足を運び、スペースと作風との相性を確認したうえで、簡潔な委託販売の問い合わせ文を作成してください。"
+      },
+      "why_relevant_zh": "这是一个能够流通印刷作品、且无需画廊级资历的大流量场所——非常适合你现阶段的职业发展。",
+      "why_relevant_ja": "ギャラリーレベルの実績がなくても印刷物を販売できる、集客力のある会場です。今のキャリアステージに適しています。"
     },
     {
       "name": "Antenna Books",
@@ -1113,8 +1519,16 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Visit Antenna Books in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "在确定寄售库存之前，请先确认寄售条款（佣金比例、最低存货量、退货政策）。",
+        "risk_notes_ja": "在庫を預ける前に、委託販売の条件（手数料率・最低在庫数・返品ポリシー）を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。",
+        "next_action_zh": "亲自前往 Antenna Books，评估空间与审美契合度，然后起草简短的寄售咨询邮件。",
+        "next_action_ja": "Antenna Books に実際に足を運び、空間と審美的な相性を確認してから、簡潔な委託販売の問い合わせ文を作成すること。"
+      },
+      "why_relevant_zh": "Antenna Books 为代官山挑剔的读者群精选艺术与设计类出版物——正是欣赏 GEGYjiji 东京都市水彩版画与 zine 的受众。寄售合作能带来低调而持续的曝光。",
+      "why_relevant_ja": "Antenna Books は、目の肥えた代官山の読者向けにアートとデザインの出版物をキュレーションしている。GEGYjiji の東京都市水彩プリントや zine を好む層とまさに一致する。委託販売により、静かで継続的な認知を築ける。"
     },
     {
       "name": "SPBS (Shibuya Publishing Booksellers)",
@@ -1139,8 +1553,16 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Visit SPBS (Shibuya Publishing Booksellers) in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "在确定寄售库存之前，请先确认寄售条款（佣金比例、最低存货量、退货政策）。",
+        "risk_notes_ja": "在庫を預ける前に、委託販売の条件（手数料率・最低在庫数・返品ポリシー）を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。",
+        "next_action_zh": "亲自前往 SPBS (Shibuya Publishing Booksellers) 考察空间与风格契合度，然后起草一份简短的寄售询价函。",
+        "next_action_ja": "SPBS (Shibuya Publishing Booksellers) に直接足を運び、スペースと作風との相性を確認したうえで、簡潔な委託販売の問い合わせ文を作成してください。"
+      },
+      "why_relevant_zh": "SPBS 为涩谷周边品味挑剔的读者精选艺术与设计类出版物——非常适合 GEGYjiji 的东京都市水彩版画和 zine。在此寄售，能在设计专业人士中积累低调而持续的曝光度。",
+      "why_relevant_ja": "SPBS は渋谷近隣の審美眼のある読者向けにアートとデザインの出版物をキュレーションしています——GEGYjiji の東京都市水彩プリントやzineに最適です。ここでの委託販売は、デザイン専門家の間で静かで持続的な認知度を築きます。"
     },
     {
       "name": "POST",
@@ -1165,8 +1587,16 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Visit POST in person to assess the space and aesthetic fit, then draft a brief consignment inquiry.",
         "risk_notes": "Confirm consignment terms (commission rate, minimum stock, return policy) before committing inventory.",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "risk_notes_zh": "在确定寄售库存之前，请先确认寄售条款（佣金比例、最低存货量、退货政策）。",
+        "risk_notes_ja": "在庫を預ける前に、委託販売の条件（手数料率・最低在庫数・返品ポリシー）を確認してください。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。",
+        "next_action_zh": "亲自前往 POST 考察空间与风格契合度，然后起草一份简短的寄售询价函。",
+        "next_action_ja": "POST に直接足を運び、スペースと作風との相性を確認したうえで、簡潔な委託販売の問い合わせ文を作成してください。"
+      },
+      "why_relevant_zh": "书店画廊吸引的是具有文化素养的观众，他们欣赏记录性与手工感，而不要求沉重的概念框架。你作品的插画特质在这里是优势，而非短板。",
+      "why_relevant_ja": "書店ギャラリーには、重い概念的枠組みを求めず、記録性とクラフトを大切にする文化的な鑑賞者が集まる。あなたの作品のイラスト的な特質はここではマイナスではなく、強みだ。"
     },
     {
       "name": "円盤 (Enban) Koenji",
@@ -1191,8 +1621,14 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Research 円盤 (Enban) Koenji's format preferences and submission guidelines before making contact.",
         "risk_notes": "",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。",
+        "next_action_zh": "联系 円盤 (Enban) Koenji 之前，先调查清楚他们对作品形式的偏好及投稿要求。",
+        "next_action_ja": "円盤 (Enban) Koenji に連絡を取る前に、作品形式の好みと応募ガイドラインを調べておきましょう。"
+      },
+      "why_relevant_zh": "高円寺版的 Shimokitazawa 唱片店——逻辑相通。在这里寄卖作品低调、有分量，能积累本地知名度。",
+      "why_relevant_ja": "Shimokitazawa のレコード店に相当する高円寺版、同じ論理が当てはまります。ここに作品を置いてもらうことは、静かで信頼感があり、地元での認知度を高めることにつながります。"
     },
     {
       "name": "Book Culture Club",
@@ -1217,8 +1653,14 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Research Book Culture Club's format preferences and submission guidelines before making contact.",
         "risk_notes": "",
-        "priority": "medium"
-      }
+        "priority": "medium",
+        "next_action_zh": "在联系之前，先了解 Book Culture Club 的格式偏好和投稿须知。",
+        "next_action_ja": "連絡を取る前に、Book Culture Club のフォーマットの好みと投稿ガイドラインを調べておくこと。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。"
+      },
+      "why_relevant_zh": "Book Culture Club 专注于艺术家出版物与 zine 文化，与 GEGYjiji 每日水彩创作的方向高度契合——你积累的都市速写与建筑观察，能自然转化为受藏家喜爱的印刷品，与其以创作者为核心的社群产生共鸣。吉祥寺的选址也让你的作品融入东京本地艺术网络，以 zine 建立的知名度可同时带动直接销售与受邀参加更大型展会的机会。",
+      "why_relevant_ja": "Book Culture Club はアーティスト出版物と zine カルチャーに特化しており、GEGYjiji の日々の水彩制作とよく合う。積み重ねてきた都市スケッチや建築の観察は、クリエイター中心のコミュニティに響くコレクタブルなプリント形式へと自然に転化できる。吉祥寺という立地も、東京のローカルアートネットワークにあなたの作品を位置づける。zine による認知は直接販売と大型フェアへの招待の両方につながり得る。"
     },
     {
       "name": "Komiyama Tokyo",
@@ -1243,8 +1685,16 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Research Komiyama Tokyo's submission guidelines and active open calls, then prepare a targeted pitch with sample pages.",
         "risk_notes": "Book publishers typically review on a project basis — confirm whether they accept unsolicited submissions before sending materials.",
-        "priority": "low"
-      }
+        "priority": "low",
+        "risk_notes_zh": "书籍出版社通常以项目为单位进行审核——在寄送材料前，请确认对方是否接受主动投稿。",
+        "risk_notes_ja": "書籍出版社は通常プロジェクト単位で審査を行う。資料を送る前に、未依頼の投稿を受け付けているか確認すること。",
+        "next_action_zh": "调研 Komiyama Tokyo 的投稿须知和当前公开征稿信息，然后准备一份附有样张的针对性投稿方案。",
+        "next_action_ja": "Komiyama Tokyo の投稿ガイドラインと現在募集中のオープンコールを調べ、サンプルページを添えた的を絞ったピッチを準備すること。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。"
+      },
+      "why_relevant_zh": "有助于了解艺术／摄影书顶端的呈现方式与受众期待。",
+      "why_relevant_ja": "アート／写真集の上位層におけるプレゼンテーションと読者の期待を理解するのに役立つ。"
     },
     {
       "name": "submissions — porkbelly press",
@@ -1269,8 +1719,16 @@
         "follow_up_timing": "Research first; visit in person or review submission guidelines before any email outreach.",
         "next_action": "Research submissions — porkbelly press's submission guidelines and active open calls, then prepare a targeted pitch with sample pages.",
         "risk_notes": "Book publishers typically review on a project basis — confirm whether they accept unsolicited submissions before sending materials.",
-        "priority": "low"
-      }
+        "priority": "low",
+        "risk_notes_zh": "书籍出版社通常以项目为单位进行审核——在寄送材料前，请确认对方是否接受主动投稿。",
+        "risk_notes_ja": "書籍出版社は通常プロジェクト単位で審査を行う。資料を送る前に、未依頼の投稿を受け付けているか確認すること。",
+        "next_action_zh": "调研 porkbelly press 的投稿须知和当前公开征稿信息，然后准备一份附有样张的针对性投稿方案。",
+        "next_action_ja": "porkbelly press の投稿ガイドラインと現在募集中のオープンコールを調べ、サンプルページを添えた的を絞ったピッチを準備すること。",
+        "follow_up_timing_zh": "先做调研，在发送任何邮件之前亲自上门拜访，或查阅投稿须知。",
+        "follow_up_timing_ja": "まず調査を行い、メールで連絡する前に直接訪問するか、投稿ガイドラインを確認すること。"
+      },
+      "why_relevant_zh": "Porkbelly Press 专注于强调视觉叙事与细腻观察的艺术家书籍和限量版出版物，非常适合 GEGYjiji 对东京消逝中的城市空间与建筑瞬间所做的日常水彩记录。你那种持续、静默地记录转瞬即逝城市景观的创作方式，与小型出版社将书籍本身视为冥想性、地域性作品载体的美学理念高度契合。",
+      "why_relevant_ja": "Porkbelly Press はビジュアルナラティブと親密な観察を重視したアーティストブックや限定出版物を専門としており、東京の消えゆく都市空間や建築の瞬間を日々水彩で記録する GEGYjiji の作品にとって自然な発表の場といえる。移ろう都市風景を静かに持続的に記録するあなたの実践は、書籍そのものを瞑想的・場所に根ざした作品の器として重視する小出版社の美学と合致している。"
     }
   ]
 }
