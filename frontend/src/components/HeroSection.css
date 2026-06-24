@@ -57,12 +57,12 @@
    small + viewport-scaled. */
 .hero-poem {
   position: absolute;
-  top: 22%;
-  left: 14%;
-  width: 22%;
+  top: 21%;
+  left: 13%;
+  width: 25%;
   text-align: center;
   font-family: 'Caveat', cursive;
-  font-size: clamp(13px, 1.5vw, 23px);
+  font-size: clamp(16px, 1.9vw, 28px);
   line-height: 1.45;
   color: var(--ink-medium);
   white-space: pre-line;
