@@ -660,28 +660,34 @@ def _deadline_passed(item: dict) -> bool:
     if any(h in low for h in _RECURRING_HINTS):
         return False
     today = datetime.now().date()
-    for pat, ymd in (
-        (r"(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})", (1, 2, 3)),          # ISO 2026-06-08
-        (r"(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", (1, 2, 3)),  # 2026年6月8日
-    ):
-        m = re.search(pat, raw)
-        if m:
-            try:
-                return datetime(int(m[ymd[0]]), int(m[ymd[1]]), int(m[ymd[2]])).date() < today
-            except Exception:
-                pass
-    m = re.search(r"([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s+(20\d{2})", raw)   # March 31, 2026
-    if m and m[1][:3].lower() in _MONTHS_EN:
-        try:
-            return datetime(int(m[3]), _MONTHS_EN[m[1][:3].lower()], int(m[2])).date() < today
-        except Exception:
-            pass
-    m = re.search(r"(20\d{2})\s*年\s*(\d{1,2})\s*月", raw)               # 2026年6月 (no day)
-    if m:
-        try:
-            return (int(m[1]), int(m[2])) < (today.year, today.month)
-        except Exception:
-            pass
+    # Collect EVERY concrete date in the field, not just the first. A deadline that
+    # lists more than one option ("Oct 31 2025 or Aug 25 2026", a "X から Y まで" range)
+    # is only past once the LATEST option is past. For her, wrongly hiding a still-open
+    # call is the worse error — so we judge by the last date, never the first.
+    dates: list = []
+    for y, mo, d in re.findall(r"(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})", raw):        # ISO 2026-06-08
+        try: dates.append(datetime(int(y), int(mo), int(d)).date())
+        except Exception: pass
+    for y, mo, d in re.findall(r"(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", raw):  # 2026年6月8日
+        try: dates.append(datetime(int(y), int(mo), int(d)).date())
+        except Exception: pass
+    for mon, d, y in re.findall(r"([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s+(20\d{2})", raw):  # March 31, 2026
+        if mon[:3].lower() in _MONTHS_EN:
+            try: dates.append(datetime(int(y), _MONTHS_EN[mon[:3].lower()], int(d)).date())
+            except Exception: pass
+    for d, mon, y in re.findall(r"(\d{1,2})\s+([A-Za-z]{3,9})\.?\s+(20\d{2})", raw):    # 15 September 2025
+        if mon[:3].lower() in _MONTHS_EN:
+            try: dates.append(datetime(int(y), _MONTHS_EN[mon[:3].lower()], int(d)).date())
+            except Exception: pass
+    if dates:
+        return max(dates) < today
+    # Day-less month-year (no concrete day): lenient — not past until the month is over.
+    months = []
+    for y, mo in re.findall(r"(20\d{2})\s*年\s*(\d{1,2})\s*月", raw):                  # 2026年6月
+        try: months.append((int(y), int(mo)))
+        except Exception: pass
+    if months:
+        return max(months) < (today.year, today.month)
     return False
 
 
