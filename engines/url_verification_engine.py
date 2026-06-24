@@ -4,6 +4,23 @@ import os
 from pathlib import Path
 
 import requests
+import datetime
+
+
+VERIFY_TTL_DAYS = 14  # skip re-checking a URL verified within this window
+
+
+def _recently_verified(opp):
+    """True if this opp was URL-checked recently and still carries a status, so a
+    near-term re-run can skip the network round-trip. Monthly passes still re-check
+    as the TTL lapses."""
+    if not opp.get("url_verification_status"):
+        return False
+    lv = str(opp.get("last_verified") or "")[:10]
+    try:
+        return 0 <= (datetime.date.today() - datetime.date.fromisoformat(lv)).days < VERIFY_TTL_DAYS
+    except Exception:
+        return False
 
 
 OPP_PATH = "deploy_data/compact_opportunities.json"
@@ -75,8 +92,15 @@ def main():
         "",
     ]
 
+    today = datetime.date.today().isoformat()
+    skipped = 0
     for opp in opps:
         title = opp.get("title") or opp.get("name") or "Unknown"
+
+        # Skip the network round-trip for anything verified within the TTL.
+        if _recently_verified(opp):
+            skipped += 1
+            continue
 
         # An opportunity with no official_website and no submission_page has no
         # URL to verify. Do NOT fall back to discovery-trail URLs (source_url /
@@ -91,6 +115,7 @@ def main():
         opp["url_verification_status"] = status
         opp["url_status_code"] = code
         opp["url_final"] = final
+        opp["last_verified"] = today
 
         if status != "ok":
             lines.append(f"## {title}")
@@ -106,7 +131,7 @@ def main():
     Path(OUT_PATH).parent.mkdir(parents=True, exist_ok=True)
     Path(OUT_PATH).write_text("\n".join(lines), encoding="utf-8")
 
-    print(f"Wrote {OUT_PATH}")
+    print(f"Wrote {OUT_PATH} (re-checked {len(opps) - skipped}, skipped {skipped} within {VERIFY_TTL_DAYS}d TTL)")
 
 
 if __name__ == "__main__":

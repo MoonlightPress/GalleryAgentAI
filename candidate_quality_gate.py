@@ -29,6 +29,15 @@ BAD_TITLE_EXACT = {
     "申込み",
     "申し込み",
     "お申し込み",
+    # Listing-page / platform nav captures (e.g. CuratorSpace index pages)
+    "curatorspace",
+    "curatorspace open calls",
+    "curatorspace.com",
+    "www.curatorspace.com",
+    "opportunities",
+    "all opportunities",
+    "open calls",
+    "submissions",
 }
 
 BAD_TITLE_CONTAINS = [
@@ -48,6 +57,8 @@ BAD_TITLE_CONTAINS = [
     "exhibitor application form",
     "entry form",
     "application form -",
+    "browse opportunities",
+    "browse open calls",
 ]
 
 BAD_HOSTS = {
