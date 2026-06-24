@@ -967,6 +967,14 @@
 
 .pp-goal-row--done .pp-goal-toggle { background: #6a8a5a; border-color: #6a8a5a; color: white; }
 
+/* Empty circle = "not done"; hover telegraphs that clicking marks it complete. */
+.pp-goal-toggle:hover { border-color: #6a8a5a; }
+.pp-goal-row:not(.pp-goal-row--done) .pp-goal-toggle:hover::after {
+  content: '✓';
+  color: #6a8a5a;
+  opacity: 0.5;
+}
+
 .pp-goal-text {
   font-family: Georgia, serif;
   font-size: 13.5px;
@@ -1079,6 +1087,8 @@
   flex-direction: column;
   gap: 10px;
   margin-bottom: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e6d8b8;
 }
 
 .pp-sub-form-row {

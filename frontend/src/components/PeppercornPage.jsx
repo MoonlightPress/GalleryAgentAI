@@ -324,7 +324,7 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
         <div className="pp-goal-list">
           {active.map(g => (
             <div key={g.id} className="pp-goal-row">
-              <button className="pp-goal-toggle" onClick={() => toggleDone(g.id)} title={t('pp.goal.markDone')}>○</button>
+              <button className="pp-goal-toggle" onClick={() => toggleDone(g.id)} title={t('pp.goal.markDone')} aria-label={t('pp.goal.markDone')} />
               <span className="pp-goal-text">{g.text}</span>
               <button className="pp-goal-remove" onClick={() => removeGoal(g.id)} title={t('pp.goal.remove')}>×</button>
             </div>
