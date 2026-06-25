@@ -97,6 +97,14 @@ ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
   sudo rsync -a --checksum --exclude 'memory/' /tmp/mochi-app-stage/ /opt/mochi/
   # Seed only memory files that don't exist yet on the server (never clobber).
   sudo rsync -a --ignore-existing /tmp/mochi-app-stage/memory/ /opt/mochi/memory/
+  # Force-update OUR canonical research profile — the exhibition record etc. that
+  # we maintain, NOT her interaction data. Without this, --ignore-existing keeps a
+  # stale profile on the server and the regen below rebuilds the WRONG career
+  # narrative (this is the trap that hid her real solo/museum/international record).
+  # The server's memory was backed up above, so this is recoverable.
+  # NOTE: once she is actively editing her statement in-app, switch this to a
+  # one-time push or a field-merge so her own edits aren't overwritten.
+  sudo rsync -a /tmp/mochi-app-stage/memory/artist_master_profile.json /opt/mochi/memory/
   sudo chown -R ubuntu:ubuntu /opt/mochi/api.py /opt/mochi/deploy_data /opt/mochi/memory /opt/mochi/engines
   # Regenerate the career-strategy report with the freshly-deployed engine code.
   # deploy preserves her memory (--ignore-existing), so the report file itself is
