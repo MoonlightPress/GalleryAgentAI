@@ -4,6 +4,8 @@ import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
 import { feedbackToastKey, shouldRemoveAfterFeedback } from '../utils/feedbackBehavior'
 import { isDistinct } from '../utils/textGuards.js'
+import { locF, localizeDeadline, isUrgentDeadline } from '../utils/localize.js'
+import { oppKey } from '../utils/oppKey.js'
 
 const CAT_LABELS = {
   gallery:           'Gallery',
@@ -77,13 +79,39 @@ const FEEDBACK_IDS = [
   { id: 'not_for_me',  key: 'card.feedback.notForMe', icon: '✕' },
 ]
 
+// Persisted triage state. Her choices must survive a reload on a daily-driver
+// dashboard, so we mirror them into localStorage keyed by the stable opp id —
+// the same pattern used for mochi_intro_dismissed / the Saffron level.
+const FEEDBACK_STORE_KEY = 'mochi_card_feedback'
+
+function readFeedbackStore() {
+  try {
+    const raw = localStorage.getItem(FEEDBACK_STORE_KEY)
+    return raw ? JSON.parse(raw) : {}
+  } catch {
+    return {}
+  }
+}
+
+function writeFeedbackForKey(key, action) {
+  if (!key) return
+  try {
+    const store = readFeedbackStore()
+    if (action) store[key] = action
+    else delete store[key]
+    localStorage.setItem(FEEDBACK_STORE_KEY, JSON.stringify(store))
+  } catch {
+    // localStorage unavailable — feedback persistence is best-effort
+  }
+}
+
 async function saveFeedback(opp, action) {
   try {
     await fetch('/api/feedback', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        opp_id:      opp.title || opp.name || opp.id,
+        opp_id:      oppKey(opp),
         action,
         opp_name:    opp.name  || opp.title || '',
         opp_title:   opp.title || opp.name  || '',
@@ -96,24 +124,25 @@ async function saveFeedback(opp, action) {
 }
 
 export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedback }) {
-  const [feedback, setFeedback] = useState(null)
+  const key = oppKey(opp)
+  // Hydrate triage state from persisted store so her choices don't vanish on reload.
+  const [feedback, setFeedback] = useState(() => readFeedbackStore()[key] || null)
   const [toastKey, setToastKey] = useState(null)
   const { t, lang } = useLanguage()
   const iconSrc = CAT_ICON[opp.category] || DEFAULT_ICON
-  const loc = (field) => {
-    if (lang === 'zh' && opp[field + '_zh']) return opp[field + '_zh']
-    if (lang === 'ja' && opp[field + '_ja']) return opp[field + '_ja']
-    if (lang === 'en' && opp[field + '_en']) return opp[field + '_en']
-    return opp[field]
-  }
+  const loc = (field) => locF(opp, field, lang, t)
+
+  const deadlineText = localizeDeadline(opp, lang, t)
+  const deadlineUrgent = isUrgentDeadline(opp.deadline) && !opp.deadline_past
 
   async function handleFeedback(actionId) {
     const next = feedback === actionId ? null : actionId
     setFeedback(next)
+    writeFeedbackForKey(key, next)
     onFeedback?.(opp, next)
     if (next) {
       await saveFeedback(opp, next)
-      if (shouldRemoveAfterFeedback(next) && onSuppressed) onSuppressed(opp.id)
+      if (shouldRemoveAfterFeedback(next) && onSuppressed) onSuppressed(oppKey(opp))
       setToastKey(feedbackToastKey(next))
       setTimeout(() => setToastKey(null), 2500)
     }
@@ -127,7 +156,8 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
         {/* Header: 40×40 icon + title */}
         <div className="opp-card-header">
           <span className="opp-card-icon" aria-hidden="true">{iconSrc}</span>
-          <h3 className="opp-card-title">{loc('name')}</h3>
+          {/* Name is a proper noun — never suppress it, even when English-only. */}
+          <h3 className="opp-card-title">{loc('name') || opp.name || opp.title}</h3>
         </div>
 
         {/* Tags */}
@@ -173,6 +203,18 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
 
         {/* "Why Mochi picked it" was here — moved into the Details panel under
            "Mochi notes" (it's a fixed readiness flag-set, too generic for the card face). */}
+
+        {/* Deadline — the core ops signal. Urgent (<7 days) gets the same warm
+           highlight Today's Focus uses for urgency. Localized; never raw English. */}
+        {deadlineText && !opp.deadline_past && (
+          <p className={`opp-card-deadline${deadlineUrgent ? ' opp-card-deadline--urgent' : ''}`}>
+            <span className="opp-card-deadline-icon" aria-hidden="true">📅</span>
+            <span className="opp-card-deadline-text">{deadlineText}</span>
+            {deadlineUrgent && (
+              <span className="opp-card-deadline-soon">{t('card.deadline.soon')}</span>
+            )}
+          </p>
+        )}
 
         {/* Primary action */}
         <div className="opp-card-actions">

@@ -148,6 +148,35 @@
   border-left: 2px solid #c9a86c;
 }
 
+/* ── Deadline line — the core ops signal on the card face ── */
+.opp-card-deadline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  font-size: 11.5px;
+  font-family: Georgia, serif;
+  color: var(--ink-medium, #6a5c45);
+}
+.opp-card-deadline-icon { font-size: 11px; line-height: 1; }
+.opp-card-deadline-text { letter-spacing: 0.2px; }
+/* Urgent (<7 days): the warm amber highlight Today's Focus uses for urgency. */
+.opp-card-deadline--urgent {
+  color: #92660a;
+  font-weight: 600;
+}
+.opp-card-deadline-soon {
+  margin-left: 2px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: #fef3d0;
+  color: #92660a;
+  border: 1px solid #e8c878;
+  white-space: nowrap;
+}
+
 /* ── Primary action row ── */
 .opp-card-actions {
   display: flex;

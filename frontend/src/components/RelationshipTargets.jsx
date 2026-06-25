@@ -174,7 +174,7 @@ export default function RelationshipTargets() {
         <div className="opp-section-title-row">
           <span className="opp-section-icon">🌸</span>
           <h2 className="opp-section-title">{t('people.title')}</h2>
-          <span className="opp-section-count">{targets.length}</span>
+          {/* Raw count hidden on the calm home view — presence, not quantity. */}
         </div>
         <p className="opp-section-desc">{t('people.intro')}</p>
       </div>

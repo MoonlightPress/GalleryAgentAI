@@ -46,6 +46,10 @@ const zh = {
   'mochi.poem.1':            '明月松间照，\n清泉石上流。\n——王维',
   'mochi.poem.2':            '一道残阳铺水中，\n半江瑟瑟半江红。\n——白居易',
   'mochi.poem.3':            '春潮带雨晚来急，\n野渡无人舟自横。\n——韦应物',
+  'mochi.poem.4':            '烟笼寒水月笼沙，\n夜泊秦淮近酒家。\n——杜牧',
+  'mochi.poem.5':            '野旷天低树，\n江清月近人。\n——孟浩然',
+  'mochi.poem.6':            '返景入深林，\n复照青苔上。\n——王维',
+  'mochi.poem.7':            '月落乌啼霜满天，\n江枫渔火对愁眠。\n——张继',
   'hero.focusTitle':         '今日重点',
   'hero.focus.0':            '探索3个新机会',
   'hero.focus.1':            '起草1封联络邮件',
@@ -113,6 +117,14 @@ const zh = {
   'card.deadlinePast.title':   '此机会的截止日期已经过去',
   'card.closedThisCycle':      '本期已截止',
   'card.closedThisCycle.title':'本轮提交已截止。该活动可能每年重新开放。',
+
+  // ── Localization fallbacks (sentinel values; never leak raw English) ───────
+  'loc.unknown':               '待确认',
+  'loc.verify':                '待核实',
+  'loc.rolling':               '常年开放',
+  'card.deadline.label':       '截止',
+  'card.deadline.rolling':     '常年开放',
+  'card.deadline.soon':        '即将截止',
 
   // ── Recommendation reason phrases (translatePhrase exact-match) ────────────
   'rec.needsCheck':                          '需快速确认：',
@@ -960,6 +972,7 @@ const zh = {
   // ── Today's Focus ───────────────────────────────────────────────────────
   'tf.title':                  '今日重点',
   'tf.sub':                    '猫饼为你找到了三件值得关注的事。',
+  'tf.subN':                    '猫饼为你找到了 {n} 件值得关注的事。',
   'tf.open':                   '打开 →',
   'tf.visit':                  '访问 →',
   'tf.role.quickWin':          '快速行动',
@@ -1300,6 +1313,15 @@ const ja = {
   'card.deadlinePast.title':   'この機会の締切は過ぎています',
   'card.closedThisCycle':      '今期締切済み',
   'card.closedThisCycle.title':'今期の応募は締め切られています。来期に再開の可能性があります。',
+
+  // ── Localization fallbacks (sentinel values; never leak raw English) ───────
+  'loc.unknown':               '未確認',
+  'loc.verify':                '要確認',
+  'loc.rolling':               '通年募集',
+  'card.deadline.label':       '締切',
+  'card.deadline.rolling':     '通年募集',
+  'card.deadline.soon':        'まもなく締切',
+
   'card.toast.logged':       '✓ 提出記録に追加',
 
   // ── Effort labels ─────────────────────────────────────────────────────────
@@ -2000,6 +2022,7 @@ const ja = {
   // ── Today's Focus ───────────────────────────────────────────────────────
   'tf.title':                  '今日のフォーカス',
   'tf.sub':                    'モチが3つの注目事項を見つけました。',
+  'tf.subN':                    'モチが{n}つの注目事項を見つけました。',
   'tf.open':                   '開く →',
   'tf.visit':                  '訪問 →',
   'tf.role.quickWin':          'すぐできること',
@@ -2204,6 +2227,10 @@ const en = {
   'mochi.poem.1':            'The bright moon shines among the pines;\nclear spring water flows over the stones.\n— Wang Wei',
   'mochi.poem.2':            'One last ray of dusk spreads across the water —\nhalf the river jade, half the river red.\n— Bai Juyi',
   'mochi.poem.3':            'Spring tide and evening rain come swift;\nat the wild ford, no one — a boat drifts free.\n— Wei Yingwu',
+  'mochi.poem.4':            'Mist veils the cold water, moonlight the sand;\nat night I moor on the Qinhuai, near the wine-shops.\n— Du Mu',
+  'mochi.poem.5':            'The plain is wide, the sky stoops to the trees;\nthe river clear, the moon draws near to me.\n— Meng Haoran',
+  'mochi.poem.6':            'Returning light enters the deep wood,\nand shines again upon the green moss.\n— Wang Wei',
+  'mochi.poem.7':            'The moon sets, crows cry, frost fills the sky;\nriver maples, fishing lamps — I sleep facing sorrow.\n— Zhang Ji',
   'hero.focusTitle':         'Today\'s Focus',
   'hero.focus.0':            'Explore 3 new opportunities',
   'hero.focus.1':            'Draft 1 outreach email',
@@ -2336,6 +2363,15 @@ const en = {
   'card.deadlinePast.title':   'This deadline has passed',
   'card.closedThisCycle':      'Closed this cycle',
   'card.closedThisCycle.title':'Submissions for this cycle are closed. The event may reopen annually.',
+
+  // ── Localization fallbacks (sentinel values; never leak raw English) ───────
+  'loc.unknown':               'To be confirmed',
+  'loc.verify':                'Verify before acting',
+  'loc.rolling':               'Rolling / open',
+  'card.deadline.label':       'Deadline',
+  'card.deadline.rolling':     'Rolling / open',
+  'card.deadline.soon':        'Closing soon',
+
   'card.toast.logged':       '✓ added to submission log',
 
   // ── Effort labels ─────────────────────────────────────────────────────────
@@ -3074,6 +3110,7 @@ const en = {
   // ── Today's Focus ───────────────────────────────────────────────────────
   'tf.title':                  "Today's Focus",
   'tf.sub':                    'Mochi found three things worth your attention.',
+  'tf.subN':                    'Mochi found {n} things worth your attention.',
   'tf.open':                   'Open →',
   'tf.visit':                  'Visit →',
   'tf.role.quickWin':          'Quick Win',
@@ -3277,6 +3314,10 @@ export const LANGUAGE_LABELS = { zh: '中文', en: 'English' }
 export const DEFAULT_LANG = 'zh'
 
 const dicts = { zh, ja, en }
+
+// Number of rotating hero poems (mochi.poem.0..N-1). Derived from the keys so
+// adding poems to the dicts is enough — no constant to bump.
+export const POEM_COUNT = Object.keys(en).filter(k => /^mochi\.poem\.\d+$/.test(k)).length
 
 // t(key, lang, vars) — looks up key, interpolates {var} placeholders, falls back to English
 export function t(key, lang, vars) {
