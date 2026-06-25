@@ -347,12 +347,14 @@ function CareerPosition({ data, t }) {
   const summary = `${data.exhibitions.length} · ${data.publications.length} · Instagram ${ig?.followers ?? '—'} · ${data.base}`
 
   const igStr = ig?.followers || '26k'
-  const m     = String(igStr).toLowerCase().match(/([\d.]+)\s*k/)
-  const igNum = m ? parseFloat(m[1]) * 1000 : (parseInt(String(igStr).replace(/[^\d]/g, ''), 10) || 26000)
-  const rings = [
-    { id: 'ig',    label: t('sf.mile.followers'), current: igStr,                            target: '50k', pct: igNum / 50000,                color: '#c47a35' },
-    { id: 'shows', label: t('sf.mile.shows'),     current: String(data.exhibitions.length),  target: '3',   pct: data.exhibitions.length / 3,  color: '#7a9e7e' },
-    { id: 'pub',   label: t('sf.mile.pubs'),      current: String(data.publications.length), target: '3',   pct: data.publications.length / 3, color: '#c49a3e' },
+  // "You're here" markers — NOT progress-to-target rings. The old rings rendered
+  // a strength half-empty (26k as "52% to 50k"), which contradicts the app's own
+  // "growth is a bonus, not a requirement." A marker states where she stands; it
+  // never fills a fraction of a goal she didn't set.
+  const markers = [
+    { id: 'ig',    label: t('sf.mile.followers'), current: igStr,                            color: '#c47a35' },
+    { id: 'shows', label: t('sf.mile.shows'),     current: String(data.exhibitions.length),  color: '#7a9e7e' },
+    { id: 'pub',   label: t('sf.mile.pubs'),      current: String(data.publications.length), color: '#c49a3e' },
   ]
 
   return (
@@ -363,7 +365,7 @@ function CareerPosition({ data, t }) {
       defaultOpen={true}
     >
       <div className="sf-rings">
-        {rings.map(rg => <MilestoneRing key={rg.id} {...rg} />)}
+        {markers.map(mk => <MilestoneMarker key={mk.id} {...mk} />)}
       </div>
 
       <div className="sf-career-grid">
@@ -675,6 +677,78 @@ function CareerBenchmarks({ data, t }) {
 
 const SF_MONTHS_EN = ['January','February','March','April','May','June','July','August','September','October','November','December']
 
+// A "缺口/gap" tag reads as quantified failure to a sensitive user; reframe any
+// hard-coded deficit label in this component as an opportunity ("机会/opportunity").
+const OPP_LABEL = { zh: '机会', ja: 'チャンス', en: 'opportunity' }
+
+// ── Recurrence / rolling-deadline phrase localization ──────────────────────
+// Many opportunities carry a recurrence phrase instead of a date ("Rolling",
+// "Twice-yearly (spring/autumn)"). The calendar rendered `o.deadline` raw, so
+// these English phrases leaked into the zh (and ja) view — the last real zh
+// leak on the most-scanned surface. This maps the known recurrence phrases (and
+// common leading tokens) to localized equivalents. Date-only strings and
+// anything unmapped pass through unchanged (graceful partial coverage).
+const RECURRENCE_PHRASES = {
+  zh: {
+    'Rolling': '常年开放',
+    'Rolling applications': '常年开放',
+    'Rolling consignment': '常年寄售',
+    'Twice-yearly': '每年两次',
+    'Twice-yearly (spring/autumn)': '每年两次（春/秋）',
+    'Annual': '每年一次',
+    'Quarterly': '每季度一次',
+    'Monthly': '每月一次',
+    'Ongoing': '持续开放',
+    'ongoing': '持续开放',
+    'No fixed deadline': '无固定截止日期',
+    'No fixed deadline — ongoing, proposal-based': '无固定截止日期 — 持续开放，提案制',
+    'No fixed deadline — rotating exhibitions ongoing': '无固定截止日期 — 轮换展览持续进行',
+    'Seasonal': '季节性',
+    'Varies': '时间不定',
+    'TBD': '待定',
+  },
+  ja: {
+    'Rolling': '通年受付',
+    'Rolling applications': '通年受付',
+    'Rolling consignment': '通年委託',
+    'Twice-yearly': '年2回',
+    'Twice-yearly (spring/autumn)': '年2回（春/秋）',
+    'Annual': '年1回',
+    'Quarterly': '四半期ごと',
+    'Monthly': '毎月',
+    'Ongoing': '随時',
+    'ongoing': '随時',
+    'No fixed deadline': '締切なし',
+    'No fixed deadline — ongoing, proposal-based': '締切なし — 随時、提案制',
+    'No fixed deadline — rotating exhibitions ongoing': '締切なし — 巡回展示を随時開催',
+    'Seasonal': '季節限定',
+    'Varies': '時期未定',
+    'TBD': '未定',
+  },
+}
+
+// Localize a deadline/recurrence string for the current language. Tries a whole-
+// string match first, then the part before an em/en-dash, then the leading word.
+// Anything still unmatched (dates, proper nouns) returns unchanged.
+function localizeDeadline(raw, lang) {
+  if (!raw || lang === 'en') return raw
+  const map = RECURRENCE_PHRASES[lang]
+  if (!map) return raw
+  const s = String(raw).trim()
+  if (map[s]) return map[s]
+  // "Rolling (multiple deadlines: ...)" / "Annual — 2026 cycle closed ..." etc.
+  const lead = s.split(/\s*[—–-]\s*|\s*\(/)[0].trim()
+  if (lead && map[lead]) {
+    const rest = s.slice(s.indexOf(lead) + lead.length)
+    return map[lead] + rest
+  }
+  const firstWord = s.split(/[\s(]/)[0]
+  if (firstWord && map[firstWord]) {
+    return map[firstWord] + s.slice(firstWord.length)
+  }
+  return raw
+}
+
 function SeasonalCalendar({ data, t, lang }) {
   const known = data.months.reduce((n, m) => n + m.opportunities.length, 0)
   const summary = t('sf.sum.calendarUnknown', { known, n: data.unknown_deadline_count, s: data.unknown_deadline_count !== 1 ? 's' : '' })
@@ -715,7 +789,7 @@ function SeasonalCalendar({ data, t, lang }) {
     <div key={i} className={`sf-cal-opp${withDeadline ? '' : ' sf-cal-opp--rolling'}`}>
       <span className="sf-cal-cat">{catLabel(o.category)}</span>
       <a className="sf-cal-name sf-ext-link" href={o.url || sfSearch(locName(o))} target="_blank" rel="noreferrer">{locName(o)} ↗</a>
-      {withDeadline && o.deadline && <span className="sf-cal-dl">{o.deadline}</span>}
+      {withDeadline && o.deadline && <span className="sf-cal-dl">{localizeDeadline(o.deadline, lang)}</span>}
     </div>
   )
 
@@ -944,7 +1018,20 @@ function PublicationLandscape({ data, t }) {
 }
 
 function LongTermScenarios({ data, t }) {
-  const PROB_COLORS = { high: '#5a7a30', moderate: '#c47a35', low: '#b03020' }
+  // These are her three possible LIVES, not bets. We label them by FIT/alignment,
+  // never probability — and no dream-path gets a red "unlikely" tag. Red (#b03020)
+  // is retired here; the lowest band is a warm neutral, not a warning.
+  const FIT_COLORS = { high: '#5a7a30', moderate: '#c47a35', low: '#a07a45' }
+  // fit/alignment relabel: 高→最契合, 中→契合, 低→可选 (most-fitting / fitting /
+  // an option) — kept local so it overrides the en/ja/zh "probability" strings
+  // without touching the shared translations file.
+  const FIT_LABELS = {
+    zh: { high: '最契合', moderate: '契合', low: '可选' },
+    ja: { high: '最も合う', moderate: '合う', low: '選択肢' },
+    en: { high: 'best fit', moderate: 'good fit', low: 'an option' },
+  }
+  const { lang } = useLanguage()
+  const fitLabel = (p) => (FIT_LABELS[lang] || FIT_LABELS.en)[p] || (FIT_LABELS.en[p] || p)
   const summary = `3 paths · ${data.horizon}`
   return (
     <SectionShell
@@ -962,9 +1049,9 @@ function LongTermScenarios({ data, t }) {
               </div>
               <span
                 className="sf-scenario-prob"
-                style={{ color: PROB_COLORS[s.probability] || '#7a5030' }}
+                style={{ color: FIT_COLORS[s.probability] || '#7a5030' }}
               >
-                {tfb(t, `sf.prob.${s.probability}`, s.probability)}
+                {fitLabel(s.probability)}
               </span>
             </div>
             <p className="sf-scenario-desc">{s.description}</p>
@@ -1281,7 +1368,7 @@ function RevenueStreams({ t, lang }) {
                 <span className="sf-revenue-range">{item.realistic_monthly}</span>
               )}
               {item.leaving_on_table && (
-                <span className="sf-revenue-gap-tag">{t('sf.label.gapTag')}</span>
+                <span className="sf-revenue-gap-tag">{OPP_LABEL[lang] || OPP_LABEL.en}</span>
               )}
             </div>
             <p className="sf-revenue-desc">{locF(item, 'description', lang)}</p>
@@ -1670,23 +1757,15 @@ const GAP_DOT_COLORS = {
   LOW:    '#b0a080',
 }
 
-function MilestoneRing({ pct, current, target, label, color }) {
-  const r = 30
-  const circ = 2 * Math.PI * r
-  const p = Math.max(0, Math.min(pct || 0, 1))
+// A neutral "you're here" marker — a value and its label, no target, no fill
+// fraction. It states where she stands without grading it against a goal she
+// never set. (Replaced the old progress ring that showed a strength half-empty.)
+function MilestoneMarker({ current, label, color }) {
   return (
-    <div className="sf-ring">
-      <svg viewBox="0 0 76 76" className="sf-ring-svg">
-        <circle cx="38" cy="38" r={r} className="sf-ring-track" />
-        <circle
-          cx="38" cy="38" r={r} className="sf-ring-fill"
-          transform="rotate(-90 38 38)"
-          style={{ stroke: color, strokeDasharray: circ, strokeDashoffset: circ * (1 - p) }}
-        />
-        <text x="38" y="37" className="sf-ring-current">{current}</text>
-        <text x="38" y="50" className="sf-ring-target">/ {target}</text>
-      </svg>
-      <div className="sf-ring-label">{label}</div>
+    <div className="sf-marker">
+      <div className="sf-marker-dot" style={{ background: color }} />
+      <div className="sf-marker-value">{current}</div>
+      <div className="sf-marker-label">{label}</div>
     </div>
   )
 }
@@ -1983,8 +2062,10 @@ function CareerReadiness({ data, onChanged }) {
   const buildNewly = curLevel >= 3
   const watchNewly = curLevel >= 4
 
+  // Summary line names the PHASE only — no numeric rank. A friend describes where
+  // she is ("人脉与根基"), she doesn't grade it "2 of 4".
   const summary = data.current_phase
-    ? `${t('sf.cr.levelBadge', { n: curLevel })} · ${level?.current_label || data.current_phase}`
+    ? (level?.current_label || data.current_phase)
     : t('sf.cr.title')
 
   return (
@@ -1995,11 +2076,12 @@ function CareerReadiness({ data, onChanged }) {
     >
       <LevelUpBanner level={level} t={t} />
 
-      {/* Strengths-first earned-level header */}
+      {/* Strengths-first phase header — the NAMED phase, no numeric rank. A
+          friend doesn't grade her "2 of 4"; the named door + what she's built
+          leads. (The numeric ladder lives inside the collapsed detail below.) */}
       <div className="sf-level-header">
-        <div className="sf-level-badge">
-          <span className="sf-level-badge-num">{t('sf.cr.levelBadge', { n: curLevel })}</span>
-          <span className="sf-level-badge-name">{level?.current_label || ''}</span>
+        <div className="sf-level-badge sf-level-badge--named">
+          <span className="sf-level-badge-name">{level?.current_label || data.current_phase || ''}</span>
         </div>
         <div className="sf-level-headbody">
           <p className="sf-level-foundation">{t('sf.cr.foundationDone')}</p>
@@ -2013,18 +2095,10 @@ function CareerReadiness({ data, onChanged }) {
         </div>
       </div>
 
-      {/* Progress toward the next level (or a positive ceiling note) */}
-      {level?.next ? (
-        <div className="sf-level-progress">
-          <div className="sf-level-progress-head">
-            <span>{t('sf.cr.progressToNext', { n: level.next, label: level.next_label })}</span>
-            <span className="sf-level-progress-pct">{progressPct}%</span>
-          </div>
-          <div className="sf-readiness-track">
-            <div className="sf-readiness-fill" style={{ width: `${progressPct}%`, background: '#c47a35' }} />
-          </div>
-        </div>
-      ) : (
+      {/* No visible progress bar — a percentage toward the "next level" is the
+          same ranking glance, just bar-shaped. The positive ceiling note still
+          shows when she's maxed; the numeric ladder is in the detail below. */}
+      {!level?.next && (
         <p className="sf-level-ceiling">{t('sf.cr.atCeiling')}</p>
       )}
 
@@ -2120,6 +2194,25 @@ function CareerReadiness({ data, onChanged }) {
       {/* Readiness detail — the tier-by-tier ladder, demoted below the fold */}
       <details className="sf-readiness-detail">
         <summary>{t('sf.cr.readinessDetail')}</summary>
+        {/* The numeric ladder lives here, below the fold, for anyone who wants it
+            — never in the glance. */}
+        <div className="sf-level-ladder">
+          <div className="sf-level-ladder-head">
+            <span className="sf-level-ladder-num">{t('sf.cr.levelBadge', { n: curLevel })}</span>
+            <span className="sf-level-ladder-name">{level?.current_label || ''}</span>
+          </div>
+          {level?.next && progressPct != null && (
+            <div className="sf-level-progress">
+              <div className="sf-level-progress-head">
+                <span>{t('sf.cr.progressToNext', { n: level.next, label: level.next_label })}</span>
+                <span className="sf-level-progress-pct">{progressPct}%</span>
+              </div>
+              <div className="sf-readiness-track">
+                <div className="sf-readiness-fill" style={{ width: `${progressPct}%`, background: '#c47a35' }} />
+              </div>
+            </div>
+          )}
+        </div>
         <p className="sf-tiers-intro" style={{ marginTop: 14 }}>{t('sf.cr.tiersIntro')}</p>
         <div className="sf-readiness-bars">
           <div className="sf-tier-done">
@@ -2263,73 +2356,81 @@ export default function SaffronPage({ nav, onNav }) {
             ))}
           </div>
 
-          <SectionErrorBoundary key={tab}>
-            {/* One rule everywhere: the first section of a tab is open, the rest
-                collapse to their summary (via SectionOpenContext). */}
-            {tab === 'strategy' && (
+          {/* Each section gets its OWN error boundary so one throwing section
+              shows a small inline notice instead of blanking the whole tab.
+              `key={tab}` resets a failed boundary when she switches tabs.
+              SB() wraps one child; the first section of a tab is open, the rest
+              collapse to their summary (via SectionOpenContext). */}
+          {(() => {
+            const SB = (k, node) => <SectionErrorBoundary key={`${tab}-${k}`}>{node}</SectionErrorBoundary>
+            return (
               <>
-                <StrategicPathway    data={data.pathway}             t={t} />
-                <SectionOpenContext.Provider value={false}>
-                  <LongTermScenarios   data={data.long_term_scenarios} t={t} />
-                  <CareerDependencyMap t={t} lang={lang} />
-                  <OpenQuestions       data={data.open_questions}      t={t} />
-                </SectionOpenContext.Provider>
+                {tab === 'strategy' && (
+                  <>
+                    {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
+                    <SectionOpenContext.Provider value={false}>
+                      {SB('longterm', <LongTermScenarios data={data.long_term_scenarios} t={t} />)}
+                      {SB('depmap',   <CareerDependencyMap t={t} lang={lang} />)}
+                      {SB('openq',    <OpenQuestions data={data.open_questions} t={t} />)}
+                    </SectionOpenContext.Provider>
+                  </>
+                )}
+                {tab === 'landscape' && (
+                  <>
+                    {SB('marketstats', <MarketStats data={data.market_stats} onNav={onNav} />)}
+                    <SectionOpenContext.Provider value={false}>
+                      {SB('marketland', <MarketLandscape data={data.market_landscape} t={t} onNav={onNav} />)}
+                      {SB('oppgap',     <OpportunityGap data={data.opportunity_gap} t={t} />)}
+                      {SB('geoexp',     <GeographicExpansion data={data.geographic_expansion} t={t} />)}
+                    </SectionOpenContext.Provider>
+                  </>
+                )}
+                {tab === 'profile' && (
+                  <>
+                    {careerData && SB('readiness', <CareerReadiness data={careerData} onChanged={refreshCareer} />)}
+                    <SectionOpenContext.Provider value={false}>
+                      {SB('careerpos',  <CareerPosition data={data.career_position} t={t} />)}
+                      {SB('benchmarks', <CareerBenchmarks data={data.career_benchmarks} t={t} />)}
+                      {SB('peers',      <ComparableArtists artists={data.peer_artists} t={t} />)}
+                      {SB('igstrat',    <InstagramStrategy data={data.instagram_strategy} t={t} />)}
+                      {SB('audgeo',     <AudienceGeography data={data.audience_geography} t={t} />)}
+                      {SB('momentum',   <CareerMomentum data={data.career_momentum} t={t} />)}
+                    </SectionOpenContext.Provider>
+                  </>
+                )}
+                {tab === 'calendar' && (
+                  <>
+                    {SB('calendar', <SeasonalCalendar data={data.seasonal_calendar} t={t} lang={lang} />)}
+                    <SectionOpenContext.Provider value={false}>
+                      {SB('timing', <TimingIntelligence data={data.timing_intelligence} t={t} />)}
+                    </SectionOpenContext.Provider>
+                  </>
+                )}
+                {tab === 'relationships' && (
+                  <>
+                    {SB('press', <PressFeatures data={data.press_features} t={t} />)}
+                    <SectionOpenContext.Provider value={false}>
+                      {SB('presspitch', <PressPitchMap t={t} lang={lang} />)}
+                      {SB('collab',     <CollaborationMap data={data.collaboration_map} t={t} />)}
+                      {SB('collectors', <CollectorEcosystem data={data.collector_ecosystem} t={t} />)}
+                      {SB('venues',     <VenueTracker data={data.venue_tracker} t={t} />)}
+                    </SectionOpenContext.Provider>
+                  </>
+                )}
+                {tab === 'money' && (
+                  <>
+                    {SB('revenue', <RevenueStreams t={t} lang={lang} />)}
+                    <SectionOpenContext.Provider value={false}>
+                      {SB('pricing',  <PricingIntelligence t={t} lang={lang} />)}
+                      {SB('grants',   <GrantLandscape t={t} lang={lang} />)}
+                      {SB('licensing',<LicensingLandscape t={t} lang={lang} />)}
+                      {SB('publand',  <PublicationLandscape data={data.publication_landscape} t={t} />)}
+                    </SectionOpenContext.Provider>
+                  </>
+                )}
               </>
-            )}
-            {tab === 'landscape' && (
-              <>
-                <MarketStats         data={data.market_stats} onNav={onNav} />
-                <SectionOpenContext.Provider value={false}>
-                  <MarketLandscape     data={data.market_landscape}     t={t} onNav={onNav} />
-                  <OpportunityGap      data={data.opportunity_gap}      t={t} />
-                  <GeographicExpansion data={data.geographic_expansion} t={t} />
-                </SectionOpenContext.Provider>
-              </>
-            )}
-            {tab === 'profile' && (
-              <>
-                {careerData && <CareerReadiness data={careerData} onChanged={refreshCareer} />}
-                <SectionOpenContext.Provider value={false}>
-                  <CareerPosition     data={data.career_position}    t={t} />
-                  <CareerBenchmarks   data={data.career_benchmarks}  t={t} />
-                  <ComparableArtists  artists={data.peer_artists}    t={t} />
-                  <InstagramStrategy  data={data.instagram_strategy} t={t} />
-                  <AudienceGeography  data={data.audience_geography} t={t} />
-                  <CareerMomentum     data={data.career_momentum}    t={t} />
-                </SectionOpenContext.Provider>
-              </>
-            )}
-            {tab === 'calendar' && (
-              <>
-                <SeasonalCalendar   data={data.seasonal_calendar}   t={t} lang={lang} />
-                <SectionOpenContext.Provider value={false}>
-                  <TimingIntelligence data={data.timing_intelligence} t={t} />
-                </SectionOpenContext.Provider>
-              </>
-            )}
-            {tab === 'relationships' && (
-              <>
-                <PressFeatures      data={data.press_features}      t={t} />
-                <SectionOpenContext.Provider value={false}>
-                  <PressPitchMap      t={t} lang={lang} />
-                  <CollaborationMap   data={data.collaboration_map}   t={t} />
-                  <CollectorEcosystem data={data.collector_ecosystem} t={t} />
-                  <VenueTracker       data={data.venue_tracker}       t={t} />
-                </SectionOpenContext.Provider>
-              </>
-            )}
-            {tab === 'money' && (
-              <>
-                <RevenueStreams       t={t} lang={lang} />
-                <SectionOpenContext.Provider value={false}>
-                  <PricingIntelligence  t={t} lang={lang} />
-                  <GrantLandscape       t={t} lang={lang} />
-                  <LicensingLandscape   t={t} lang={lang} />
-                  <PublicationLandscape data={data.publication_landscape} t={t} />
-                </SectionOpenContext.Provider>
-              </>
-            )}
-          </SectionErrorBoundary>
+            )
+          })()}
         </div>
       )}
     </div>

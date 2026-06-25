@@ -22,6 +22,13 @@
   display: block;
 }
 
+/* Phone: collapse the hero so it isn't ~470px of image before any content,
+   matching Mochi's 190px banner. */
+@media (max-width: 640px) {
+  .saffron-hero { height: auto; min-height: 0; }
+  .saffron-hero-img { height: 190px; }
+}
+
 /* ── Content wrapper ────────────────────────────────────────────────── */
 
 .sf-content {
@@ -116,15 +123,13 @@
 .sf-ext-link { text-decoration: none; cursor: pointer; }
 .sf-ext-link:hover { color: #c47a35; text-decoration: underline; }
 
-/* Radial milestone rings */
+/* "You're here" markers — a value + label, no progress fill, no target.
+   (Replaced the old radial rings that rendered a strength half-empty.) */
 .sf-rings { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; padding: 12px 0 6px; }
-.sf-ring { display: flex; flex-direction: column; align-items: center; gap: 9px; }
-.sf-ring-svg { width: 92px; height: 92px; }
-.sf-ring-track { fill: none; stroke: #ece0c8; stroke-width: 6.5; }
-.sf-ring-fill { fill: none; stroke-width: 6.5; stroke-linecap: round; transition: stroke-dashoffset 0.7s ease; }
-.sf-ring-current { font-family: Georgia, serif; font-size: 16px; font-weight: bold; fill: #3d2b1a; text-anchor: middle; }
-.sf-ring-target { font-family: Georgia, serif; font-size: 10.5px; fill: #8a7563; text-anchor: middle; }
-.sf-ring-label { font-family: Georgia, serif; font-size: 13px; color: #5d4b3b; }
+.sf-marker { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 84px; }
+.sf-marker-dot { width: 10px; height: 10px; border-radius: 50%; }
+.sf-marker-value { font-family: Georgia, serif; font-size: 24px; font-weight: bold; color: #3d2b1a; }
+.sf-marker-label { font-family: Georgia, serif; font-size: 13px; color: #5d4b3b; text-align: center; }
 
 /* Inline answers in Open Questions */
 .sf-question-answer { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
@@ -2420,6 +2425,20 @@
   font-family: Georgia, serif; font-size: 12.5px; color: #8a6a3a;
   margin-top: 2px; line-height: 1.3;
 }
+/* Named-only badge (no numeric rank): the phase name carries the header. */
+.sf-level-badge--named .sf-level-badge-name {
+  font-size: 15px; font-weight: bold; color: #8a5a20; margin-top: 0;
+}
+
+/* The numeric ladder — only inside the collapsed readiness detail, never in
+   the glance. */
+.sf-level-ladder { margin: 4px 0 10px; }
+.sf-level-ladder-head { display: flex; align-items: baseline; gap: 10px; }
+.sf-level-ladder-num {
+  font-family: Georgia, serif; font-weight: bold; font-size: 13px;
+  letter-spacing: 0.12em; text-transform: uppercase; color: #c47a35;
+}
+.sf-level-ladder-name { font-family: Georgia, serif; font-size: 13px; color: #8a6a3a; }
 .sf-level-headbody { flex: 1 1 auto; }
 .sf-level-foundation {
   font-family: Georgia, serif; font-size: 14px; color: #3d2b1a;
