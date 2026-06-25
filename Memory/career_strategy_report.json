@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-06-25T09:11:22.704952+00:00",
+  "_generated_at": "2026-06-25T10:38:01.404057+00:00",
   "_engine_version": "2.1",
   "current_phase": "Tier 3 established — building toward representation & prestige",
   "phase_note": "An active multi-country exhibiting artist: solo shows, museum-group exhibitions, and an international showing are on record, alongside a first solo publication and ~26k Instagram. The foundation is built. The next levers are structural — gallery representation, stronger solo venues, art fairs, residencies, grants, critical press, and a second book — not more entry-level group shows.",
@@ -22,11 +22,11 @@
     "tier_3_readiness_note": "Established — solo, institutional, and international credits are on record. The next levers are representation, residencies, grants, and press, not more group shows."
   },
   "level": {
-    "current": 4,
-    "current_label": "Prestige",
-    "next": null,
-    "next_label": null,
-    "progress_to_next": 1.0,
+    "current": 3,
+    "current_label": "Credibility",
+    "next": 4,
+    "next_label": "Prestige",
+    "progress_to_next": 0.85,
     "next_unlock": {
       "gap_id": "gallery_representation",
       "gap": "Gallery representation is the next structural step",
@@ -46,7 +46,7 @@
       "category": "bookstore_gallery",
       "city": "Tokyo",
       "deadline": "1 July 2025",
-      "summary": "Tokyo independent art bookstore with gallery space focused on zines and artist books—low-pressure venue where your work could exist as printed matter alongside exhibition.",
+      "summary": "Tokyo independent art bookstore with a gallery space focused on zines and artist books — low-pressure, free, and printed-matter oriented.",
       "website": "https://utrecht.jp/"
     },
     {
@@ -56,7 +56,7 @@
       "category": "bookstore_gallery",
       "city": "Shimokitazawa, Tokyo",
       "deadline": "2026年06月07日",
-      "summary": "Shimokitazawa's beloved bookshop-bar that stocks art books, zines, and hosts author events — the most natural home for quiet urban watercolor work in the neighborhood.",
+      "summary": "Shimokitazawa bookshop-bar that stocks art books and zines and hosts author events — low-friction consignment, free.",
       "website": "https://bookandbeer.com/"
     },
     {
@@ -86,7 +86,7 @@
       "category": "zine_shop_consignment",
       "city": "Tokyo",
       "deadline": "Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window",
-      "summary": "Tokyo zine shop near Komazawa University that accepts zine submissions twice yearly (spring and autumn) with no fees and no screening — a good ambient-visibility target for artist-book and print work.",
+      "summary": "Tokyo zine shop near Komazawa that takes submissions twice a year (spring/autumn) with no fee and no screening — work stays in stock.",
       "website": "https://zine.mount.co.jp/"
     }
   ],
@@ -258,7 +258,7 @@
   ],
   "next_milestone": "Build toward gallery representation — a gallery that sells on your behalf, places you in art fairs, and grows a collector base. With solo and museum-group credits already on record, this is the highest-leverage next step.",
   "next_milestone_zh": "朝画廊代理迈进——一家替你销售、带你进入博览会、并培育藏家群体的画廊。你已有个展与美术馆联展的履历，这是当下杠杆最高的下一步。",
-  "months_to_tier3": 3,
+  "months_to_tier3": null,
   "pipeline_summary": {
     "total_active": 428,
     "tier_1_count": 35,

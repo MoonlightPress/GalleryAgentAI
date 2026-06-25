@@ -1683,17 +1683,55 @@ def get_saffron():
         _dyn_i18n.append((en, zh, ja))
         return en
 
-    # ── Career position (confirmed research, 2026-06-02) ──────────────────────
+    # ── Career position ───────────────────────────────────────────────────────
+    # Her REAL exhibition record (corrected 2026-06-25), read from the profile so
+    # the Career Position panel matches the engine's count instead of hard-coding
+    # one show. Source: artist_master_profile career_history.exhibitions — ~10
+    # group shows + 2 solos across CN/JP/UK, two museum group shows included.
+    # Mapped into the panel's existing {title, venue, date, type, note} shape
+    # (payload shape unchanged). Logged shows from Peppercorn are appended, but
+    # deduped against profile titles so a re-logged show (e.g. "Tide from China")
+    # is never double-counted — keeping this list consistent with the canonical
+    # group-show count the engine reports.
+    def _fmt_ex_type(raw: str) -> str:
+        t = (raw or "").strip()
+        if not t:
+            return "Exhibition"
+        # Capitalize first letter for display while preserving the rest.
+        return t[0].upper() + t[1:]
+
+    _profile_exhibitions = []
+    for _ex in (_amp.get("career_history", {}) or {}).get("exhibitions", []):
+        _venue = _ex.get("venue") or ""
+        _city = _ex.get("city") or ""
+        if _venue and _venue not in ("—", "-") and _city:
+            _venue_disp = f"{_venue}, {_city}"
+        elif _venue and _venue not in ("—", "-"):
+            _venue_disp = _venue
+        else:
+            _venue_disp = _city
+        _profile_exhibitions.append({
+            "title": _ex.get("title", ""),
+            "venue": _venue_disp,
+            "date": _ex.get("dates", ""),
+            "type": _fmt_ex_type(_ex.get("type")),
+            "note": _ex.get("significance", "") or "",
+        })
+
+    # Append logged shows that aren't already in the profile record (title-dedup,
+    # case/whitespace-insensitive), so logging a new show grows the list but a
+    # re-log of an existing one does not inflate it.
+    def _norm_title(s: str) -> str:
+        return "".join((s or "").lower().split())
+
+    _profile_titles = {_norm_title(e["title"]) for e in _profile_exhibitions}
+    _extra_logged = [
+        e for e in _logged_exhibitions
+        if _norm_title(e.get("title", "")) not in _profile_titles
+    ]
+
     career_position = {
-        "exhibitions": [
-            {
-                "title": "Tide from China Part 1",
-                "venue": "ACG_Labo, Harajuku, Tokyo",
-                "date": "February 2023",
-                "type": "Group show — 6 Chinese illustrators",
-                "note": "First Japan exhibition",
-            }
-        ] + _logged_exhibitions,
+        "exhibitions": _profile_exhibitions + _extra_logged,
         "publications": [
             {
                 "title": "Colour Diary",
@@ -1707,12 +1745,12 @@ def get_saffron():
             },
         ],
         "social": [
-            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "26k", "posts": None},
+            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "27k", "posts": None},
         ],
         "education": {
             "institution": "Beijing Fashion Institute",
             "field": "Illustration & design",
-            "note": "Not a classical fine arts track",
+            "note": "Illustration & design background",
         },
         "base": "Tokyo, Japan / Beijing, China",
     }
@@ -1987,14 +2025,14 @@ def get_saffron():
             {
                 "name": "Instagram",
                 "handle": "@gegyjiji",
-                "followers": "26k",
+                "followers": "27k",
                 "posts": None,
-                "note": "Primary visual portfolio platform — 26k followers built through daily watercolor diary practice since 2020. The platform galleries, publishers, and curators use for discovery.",
+                "note": "Primary visual portfolio platform — an established, growing following built through daily watercolor diary practice since 2020. The platform galleries, publishers, and curators use for discovery.",
             },
         ],
         "gap": {
-            "instagram": 26000,
-            "analysis": "Instagram is an established strength — 26k followers, already a working portfolio and the surface galleries and publishers use to discover you. Growth from here is a bonus, not a requirement.",
+            "instagram": 27000,
+            "analysis": "Instagram is an established strength — an established, growing following, already a working portfolio and the surface galleries and publishers use to discover you. Growth from here is a bonus, not a requirement.",
         },
         "known": {
             "content_type": "Urban environments, cats, domestic life, travel fragments — subjects that already do well on Instagram",
@@ -2021,7 +2059,7 @@ def get_saffron():
     audience_geography = {
         "available": False,
         "reason": "Instagram Insights are not accessible without the artist's credentials. Geographic audience data cannot be observed from public sources.",
-        "why_it_matters": "Whether your 26k Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.",
+        "why_it_matters": "Whether your established Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.",
         "hypothesis": "Based on the ACG/illustration community context, the Instagram following may skew toward Chinese-language users. Whether the Tokyo-based practice has shifted that toward a Japan-leaning or globally distributed audience is unconfirmed.",
         "what_peppercorn_should_ask": "Can you share a screenshot of your Instagram Audience Insights (country/city breakdown)?",
     }
@@ -2033,12 +2071,12 @@ def get_saffron():
     if _total_group_shows >= 5:
         _bench_summary = _reg(
             f"Exhibition history has become a real strength — {_total_group_shows} group shows on record "
-            "put you in or above the typical peer range. The 26k Instagram following is a solid asset, and "
+            "put you in or above the typical peer range. An established, growing Instagram following is a solid asset, and "
             "the foundation for gallery and institutional conversations is now in place.",
             f"展览履历已成为真正的优势——{_total_group_shows} 场在册联展让你达到或超过同侪的典型区间。"
-            "2.6 万 Instagram 粉丝是扎实的资产，与画廊和机构洽谈的基础如今已经具备。",
+            "稳固且持续增长的 Instagram 受众是扎实的资产，与画廊和机构洽谈的基础如今已经具备。",
             f"展示実績は確かな強みになった——{_total_group_shows} 件のグループ展で、同水準の作家の標準的な範囲に並ぶかそれ以上。"
-            "2.6万人のInstagramフォロワーは確かな資産であり、ギャラリーや機関との対話の基盤も整っている。"
+            "確立された、伸び続けるInstagramのフォロワーは確かな資産であり、ギャラリーや機関との対話の基盤も整っている。"
         )
         _ex_assessment = "on_track"
         _ex_note = _reg(
@@ -2048,12 +2086,12 @@ def get_saffron():
     elif _total_group_shows >= 3:
         _bench_summary = _reg(
             f"Exhibition history is building — {_total_group_shows} group shows on record, approaching the "
-            "typical peer range. The 26k Instagram following is a solid asset; a few more shows brings "
+            "typical peer range. An established, growing Instagram following is a solid asset; a few more shows brings "
             "gallery conversations into realistic reach.",
             f"展览履历正在积累——{_total_group_shows} 场在册联展，正接近同侪的典型区间。"
-            "2.6 万 Instagram 粉丝是扎实的资产；再有几场展览，画廊洽谈便进入现实可及的范围。",
+            "稳固且持续增长的 Instagram 受众是扎实的资产；再有几场展览，画廊洽谈便进入现实可及的范围。",
             f"展示実績は積み上がりつつある——{_total_group_shows} 件のグループ展で、標準的な範囲に近づいている。"
-            "2.6万人のInstagramフォロワーは確かな資産。あと数件で、ギャラリーとの対話が現実的な射程に入る。"
+            "確立された、伸び続けるInstagramのフォロワーは確かな資産。あと数件で、ギャラリーとの対話が現実的な射程に入る。"
         )
         _ex_assessment = "approaching_typical"
         _ex_note = _reg(
@@ -2062,7 +2100,7 @@ def get_saffron():
             "標準的な範囲に近づいている——あと数件で画廊との対話が開ける。")
     else:
         _bench_summary = (
-            "Exhibition history is the weakest dimension. The 26k Instagram following is a solid, real asset "
+            "Exhibition history is the weakest dimension. An established, growing Instagram following is a solid, real asset "
             "at this career stage but not yet a standout — it sits in the typical peer range. The near-term "
             "work is converting audience into exhibition and publication credits."
         )
@@ -2105,8 +2143,11 @@ def get_saffron():
         "artist_record": {
             "exhibitions": _total_group_shows,
             "publications": 2,
-            "instagram": "26k",
-            "age_approx": 26,
+            "instagram": "27k",
+            # Age intentionally omitted from output (companions don't parade
+            # inferred personal facts). Key kept (frontend never reads it) so the
+            # payload shape is unchanged.
+            "age_approx": None,
             "years_active": "~6 (daily practice from 2020, first publication 2021)",
         },
         "peer_range": [
@@ -2130,11 +2171,11 @@ def get_saffron():
                 "peer_high": "5+",
                 "assessment": "on_track",
                 "favorable": True,
-                "note": "Solid for this stage, especially with a solo collection at 21",
+                "note": "Solid for this stage, especially having had a solo collection so early",
             },
             {
                 "dimension": "Instagram followers",
-                "artist_value": "26k",
+                "artist_value": "27k",
                 "peer_low": "5k",
                 "peer_typical": "15–50k",
                 "peer_high": "100k+",
@@ -2400,17 +2441,23 @@ def get_saffron():
     }
 
     # ── Long-term scenarios ───────────────────────────────────────────────────
+    # Long-term scenarios (Scott, 2026-06-25): these are OPTIONAL directions she
+    # can choose between, not a prescribed "next step." Gallery representation and
+    # the publication path are presented as two possible loves to follow — the app
+    # never assumes either is the goal. Age/"by 30" horizons removed (companions
+    # don't parade inferred personal facts); the old "more group shows / first
+    # solo within reach" residue is gone — she already has solo + museum credits.
     long_term_scenarios = {
-        "horizon": "Age 30 (approximately 4 years from now)",
+        "horizon": "The next few years",
         "scenarios": [
             {
                 "name": "Gallery Track",
                 "tagline": "Primary identity as a gallery artist.",
-                "description": "Solo shows, institutional open calls, gallery representation by 30.",
+                "description": "If gallery representation is something you want: stronger solo venues, institutional shows, and a gallery that represents you over the next few years.",
                 "requires_now": [
-                    "3–5 Tokyo group shows by 2027 — artist-run spaces first (3331, Design Festa Gallery, Gallery IYN)",
-                    "One institutional open call (TOKAS, Youkobo, BankART) by 2028",
-                    "Consistent gallery attendance — build relationships before cold submissions",
+                    "Build relationships with commercial galleries whose program fits your work — representation grows from the shows you already have",
+                    "Target established commercial galleries and institutional spaces for your next solo",
+                    "Consistent gallery attendance — relationships before cold submissions",
                     "Artist statement developed and refined",
                 ],
                 "probability": "moderate",
@@ -2420,11 +2467,11 @@ def get_saffron():
             {
                 "name": "Publication Track",
                 "tagline": "Primary identity as an illustrator and artist-book maker.",
-                "description": "Second solo book, international distribution, major book fairs by 30.",
+                "description": "If the book practice is the real love: a second solo book, international distribution, and major book fairs over the next few years.",
                 "requires_now": [
                     "New self-published zine or small book within 12 months — the daily diary content already exists",
-                    "Table at Tokyo Art Book Fair 2026 or 2027",
-                    "Submission to Offprint or NY Art Book Fair by 2028",
+                    "Table at Tokyo Art Book Fair",
+                    "Submission to Offprint or NY Art Book Fair",
                     "Publisher relationship with torch press or equivalent — start with introduction, not submission",
                 ],
                 "probability": "high",
@@ -2437,7 +2484,7 @@ def get_saffron():
                 "description": "The book practice feeds the gallery presence and vice versa. Bookshop gallery shows bridge both worlds.",
                 "requires_now": [
                     "All Publication Track steps",
-                    "2–3 Tokyo group shows in parallel",
+                    "Tokyo group shows in parallel",
                     "Bookshop gallery show as the bridge (UTRECHT or Book and Sons) — satisfies both tracks simultaneously",
                 ],
                 "probability": "high",
@@ -2445,7 +2492,7 @@ def get_saffron():
                 "best_fit_signal": "The most natural fit given your existing practice. The daily diary is simultaneously publication material and gallery-worthy work.",
             },
         ],
-        "saffron_view": "The Hybrid Track is the best structural fit. The bookshop gallery show is the single highest-leverage action — it advances both tracks with one move.",
+        "saffron_view": "These are directions, not a verdict — which one fits is yours to decide. If you want both, the Hybrid Track lets them feed each other, and a bookshop gallery show is one move that advances both.",
     }
 
     # ── Venue relationship tracker ────────────────────────────────────────────
@@ -2487,7 +2534,7 @@ def get_saffron():
         "questions": [
             {
                 "question": "What's your current Instagram posting frequency?",
-                "why_it_matters": "With a 26k Instagram following, the account is established and growing. Cadence is the most controllable variable for maximising reach on the platform galleries, publishers, and curators actually use for discovery. Without knowing current frequency, no posting strategy can be recommended.",
+                "why_it_matters": "With an established, growing Instagram following, the account is already a working portfolio. Cadence is the most controllable variable for maximising reach on the platform galleries, publishers, and curators actually use for discovery. Without knowing current frequency, no posting strategy can be recommended.",
                 "routed_to": "Peppercorn",
             },
             {
@@ -2516,8 +2563,8 @@ def get_saffron():
                 "routed_to": "Peppercorn",
             },
             {
-                "question": "Do you have a second Japan exhibition in progress?",
-                "why_it_matters": "There's one show on record, so the read assumes 2–3 more group shows would help — but you may already have one underway. If so, tell me here.",
+                "question": "Do you have a new Japan exhibition in progress?",
+                "why_it_matters": "You already have Tokyo shows on record, including a solo. Knowing what's currently underway lets the read stay current — if something's in progress, tell me here.",
                 "routed_to": "Peppercorn",
             },
             {

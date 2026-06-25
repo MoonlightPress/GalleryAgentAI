@@ -77,20 +77,51 @@ class LevelFitTests(unittest.TestCase):
 
 
 class CareerLevelTests(unittest.TestCase):
-    def test_foundation_level_when_readiness_low(self):
-        lv = _career_level(0.10, 0.0)
+    """Level is gated on ATTAINMENT, not on a readiness score. She rises to
+    Tier 3 once the foundation (solo + institutional + group shows) is built,
+    and to Tier 4 only once she holds an actual Tier-4 credit (representation,
+    residency, grant, or watercolor-society membership). High readiness alone
+    must NOT overshoot to Tier 4 — that was the bug."""
+
+    NO_CREDITS = dict(has_representation=False, has_residency=False,
+                      has_grant=False, has_jws=False)
+
+    def test_foundation_level_when_not_complete(self):
+        lv = _career_level(0.10, 0.0, foundation_complete=False, **self.NO_CREDITS)
         self.assertEqual(lv["current"], 2)
         self.assertEqual(lv["next"], 3)
         self.assertAlmostEqual(lv["progress_to_next"], round(0.10 / 0.60, 2), places=2)
 
-    def test_rises_to_tier3_when_crossed(self):
-        self.assertEqual(_career_level(0.70, 0.0)["current"], 3)
+    def test_rises_to_tier3_when_foundation_complete(self):
+        lv = _career_level(0.85, 0.85, foundation_complete=True, **self.NO_CREDITS)
+        self.assertEqual(lv["current"], 3)
+        self.assertEqual(lv["next"], 4)
 
-    def test_tops_out_at_tier4(self):
-        lv = _career_level(0.80, 0.70)
+    def test_no_overshoot_to_tier4_on_readiness_alone(self):
+        # Her real state today: foundation complete, tier-4 readiness high (0.85),
+        # but NO Tier-4 credit yet -> she stays at Tier 3, progress driven by
+        # tier-4 readiness (0.85), not promoted to Tier 4.
+        lv = _career_level(0.85, 0.85, foundation_complete=True, **self.NO_CREDITS)
+        self.assertEqual(lv["current"], 3)
+        self.assertEqual(lv["current_label"], "Credibility")
+        self.assertEqual(lv["next_label"], "Prestige")
+        self.assertAlmostEqual(lv["progress_to_next"], 0.85, places=2)
+
+    def test_tier4_only_when_a_real_credit_exists(self):
+        # A single Tier-4 credit (here: representation) promotes her to Tier 4.
+        lv = _career_level(0.85, 0.85, foundation_complete=True,
+                           has_representation=True, has_residency=False,
+                           has_grant=False, has_jws=False)
         self.assertEqual(lv["current"], 4)
         self.assertIsNone(lv["next"])
         self.assertEqual(lv["progress_to_next"], 1.0)
+
+    def test_any_tier4_credit_suffices(self):
+        for credit in ("has_representation", "has_residency", "has_grant", "has_jws"):
+            creds = dict(self.NO_CREDITS)
+            creds[credit] = True
+            lv = _career_level(0.85, 0.85, foundation_complete=True, **creds)
+            self.assertEqual(lv["current"], 4, f"{credit} should reach Tier 4")
 
 
 class GapLocalizationTests(unittest.TestCase):

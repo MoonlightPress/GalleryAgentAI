@@ -11,6 +11,7 @@ import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -400,23 +401,45 @@ def _tier4_readiness(group_shows: int, has_solo: bool, has_institutional: bool,
 # operating at that level, not just building toward it.
 _LEVEL_THRESHOLD = 0.60
 
+# Single source of truth for the tier/level vocabulary. These names MUST match
+# the i18n tier strings the frontend renders (`pp.tier.{n}.label`,
+# `sf.cr.tier{n}`) so a level badge and a tier label never name the same tier
+# differently. (Was "Networking & Foundation" here vs "Networking" in i18n.)
 _LEVEL_LABELS = {
     1: "Ambient Visibility",
-    2: "Networking & Foundation",
+    2: "Networking",
     3: "Credibility",
     4: "Prestige",
 }
 
 
-def _career_level(tier3_ready: float, tier4_ready: float) -> dict:
+def _career_level(tier3_ready: float, tier4_ready: float, *,
+                  foundation_complete: bool,
+                  has_representation: bool, has_residency: bool,
+                  has_grant: bool, has_jws: bool) -> dict:
     """Her current operating level, framed as earned ground rather than a wall
-    of gaps. Tiers 1–2 are the foundation she has already built; she rises to
-    Tier 3 once tier-3 readiness crosses the threshold, and Tier 4 after that.
-    `progress` is how far she is toward the NEXT level (0–1)."""
-    if tier3_ready < _LEVEL_THRESHOLD:
+    of gaps. The level is gated on ATTAINMENT, not on a readiness score: she
+    only rises to a tier once she actually holds a credit at that tier.
+
+    - Tier 3 (Credibility) is reached once the foundation is complete — she has
+      solo, institutional, and multiple group-show credits on record.
+    - Tier 4 (Prestige) is reached only once an actual Tier-4 credit exists:
+      gallery representation, a residency, a grant/award, or watercolor-society
+      membership. Readiness alone (however high) does NOT promote her to Tier 4;
+      that's the difference between being *ready for* the leap and having *made*
+      it. With none of those credits today she sits at Tier 3, not Tier 4.
+
+    `progress_to_next` stays driven by tier-4 readiness — how close she is to the
+    next level — so the badge says "Tier 3, 85% of the way" rather than
+    overshooting to Tier 4 on readiness alone."""
+    has_tier4_credit = has_representation or has_residency or has_grant or has_jws
+    if not foundation_complete:
+        # Still building the Tier-3 foundation: how far toward it (tier-3 ready).
         current, progress = 2, min(1.0, tier3_ready / _LEVEL_THRESHOLD)
-    elif tier4_ready < _LEVEL_THRESHOLD:
-        current, progress = 3, min(1.0, tier4_ready / _LEVEL_THRESHOLD)
+    elif not has_tier4_credit:
+        # Foundation built (Tier 3, Credibility), but no Tier-4 credit yet.
+        # Progress toward Tier 4 is tier-4 readiness itself.
+        current, progress = 3, min(1.0, tier4_ready)
     else:
         current, progress = 4, 1.0
     nxt = current + 1 if current < 4 else None
@@ -429,7 +452,16 @@ def _career_level(tier3_ready: float, tier4_ready: float) -> dict:
     }
 
 
-def _months_to_tier3(group_shows: int, has_institutional: bool) -> int:
+def _months_to_tier3(group_shows: int, has_institutional: bool, *,
+                     foundation_complete: bool = False,
+                     tier3_ready: float = 0.0) -> Optional[int]:
+    """Rough months-to-Tier-3 estimate, used only while she is still building
+    toward Tier 3. Once the foundation is complete (or Tier-3 readiness has
+    crossed the threshold) she is already ESTABLISHED in Tier 3 — there is no
+    countdown to a tier she's in, so return None and let the UI hide it. (This
+    kills the "~3 months to Tier 3" contradiction on a tier she's established.)"""
+    if foundation_complete or tier3_ready >= _LEVEL_THRESHOLD:
+        return None
     if has_institutional:
         return 3
     if group_shows >= 3:
@@ -839,7 +871,10 @@ def build_career_strategy_report():
     watch_list = [_opp_card(o, 4) for _, o, _ in tier4_opps[:6]]
 
     # ── Months to Tier 3 / next milestone ────────────────────────────────────
-    months_to_t3 = _months_to_tier3(group_shows, has_institutional)
+    months_to_t3 = _months_to_tier3(
+        group_shows, has_institutional,
+        foundation_complete=foundation_complete, tier3_ready=tier3_ready,
+    )
 
     if not foundation_complete and group_shows < 3:
         _n = 3 - group_shows
@@ -910,7 +945,12 @@ def build_career_strategy_report():
     # next unlock is the highest-priority blocking gap; when every gap is closed
     # she's at the ceiling, so the "unlock" becomes a positive advanced-state
     # line instead of going blank.
-    level = _career_level(tier3_ready, tier4_ready)
+    level = _career_level(
+        tier3_ready, tier4_ready,
+        foundation_complete=foundation_complete,
+        has_representation=has_representation, has_residency=has_residency,
+        has_grant=has_grant, has_jws=has_jws,
+    )
     if blocking_gaps:
         next_unlock = dict(blocking_gaps[0])
     else:
@@ -956,28 +996,28 @@ def build_career_strategy_report():
         phase_note = (
             "An active multi-country exhibiting artist: solo shows, museum-group exhibitions, "
             "and an international showing are on record, alongside a first solo publication and "
-            "~26k Instagram. The foundation is built. The next levers are structural — gallery "
+            "an established, growing Instagram following. The foundation is built. The next levers are structural — gallery "
             "representation, stronger solo venues, art fairs, residencies, grants, critical press, "
             "and a second book — not more entry-level group shows."
         )
         phase_note_zh = (
             "一位活跃的、跨国展出的艺术家：个展、美术馆联展与国际展出均已在册，"
-            "另有首部个人出版物与约 2.6 万 Instagram 粉丝。根基已成。"
+            "另有首部个人出版物与稳固且持续增长的 Instagram 受众。根基已成。"
             "接下来的杠杆是结构性的——画廊代理、更高规格的个展场地、艺术博览会、驻地、奖助、"
             "评论性媒体，以及第二本书——而非更多入门级的联展。"
         )
     else:
         current_phase = "Tier 1-2 foundation building"
         phase_note = (
-            "Age 26, planning a deep-work year around 30. The next 3–4 years are for accumulation: "
-            "exhibition history, publishing relationships, peer network, and body of work depth. "
-            "Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now, "
-            "not acted on until the foundation is solid."
+            "Still building the Tier 1-2 foundation: exhibition history, publishing "
+            "relationships, peer network, and depth of work. Tier 1-2 opportunities build "
+            "this base; Tier 4 prestige targets are tracked now and pursued once the "
+            "foundation — solo, institutional, and several group-show credits — is in place."
         )
         phase_note_zh = (
-            "26 岁，计划在 30 岁前后投入一年的深耕。未来 3–4 年用于积累："
-            "展览履历、出版关系、同侪网络与作品体系的深度。第一、二级的机会构筑这一根基。"
-            "第四级目标现在持续追踪，待根基扎实后再行动。"
+            "仍在构筑第一、二级的根基：展览履历、出版关系、同侪网络与作品的深度。"
+            "第一、二级的机会构筑这一基础；第四级的目标现在持续追踪，"
+            "待根基——个展、机构展与若干联展履历——扎实后再行动。"
         )
 
     report = {
