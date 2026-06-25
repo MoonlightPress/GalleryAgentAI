@@ -37,7 +37,7 @@ cp "$SCRIPT_DIR/requirements-api.txt"    "$OUT/app/"
 # crashes on import (502), same rule as recommendation_readiness above.
 # ibm_email_writer is what the draft-regen launches (not imported by the API).
 mkdir -p "$OUT/app/engines"
-for e in profile_sync.py regen.py notify.py visit_tracking.py backups.py career_strategy_engine.py ibm_email_writer.py; do
+for e in profile_sync.py regen.py notify.py visit_tracking.py backups.py career_strategy_engine.py peppercorn_preference_engine.py ibm_email_writer.py; do
     cp "$SCRIPT_DIR/engines/$e" "$OUT/app/engines/"
 done
 
@@ -98,6 +98,11 @@ ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
   # Seed only memory files that don't exist yet on the server (never clobber).
   sudo rsync -a --ignore-existing /tmp/mochi-app-stage/memory/ /opt/mochi/memory/
   sudo chown -R ubuntu:ubuntu /opt/mochi/api.py /opt/mochi/deploy_data /opt/mochi/memory /opt/mochi/engines
+  # Regenerate the career-strategy report with the freshly-deployed engine code.
+  # deploy preserves her memory (--ignore-existing), so the report file itself is
+  # stale until this runs — and the new UI expects the new shape (level block,
+  # _zh siblings). Uses her live server-side data. Non-fatal if it hiccups.
+  cd /opt/mochi && python3 engines/career_strategy_engine.py || echo "  (career report regen failed — non-fatal, check after)"
   sudo systemctl restart mochi-api
 REMOTE
 
