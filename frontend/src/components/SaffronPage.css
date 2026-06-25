@@ -2356,6 +2356,138 @@
   color: #c47a35;
 }
 
+/* ── Career Readiness — hybrid reframe ─────────────────────────────────────── */
+
+/* Level-up celebration */
+.sf-levelup {
+  position: relative;
+  margin: 4px 0 22px;
+  padding: 18px 20px 16px;
+  text-align: center;
+  background: linear-gradient(180deg, #fff6e2 0%, #fffdf8 100%);
+  border: 1px solid #e3b256;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px rgba(196, 122, 53, 0.12);
+}
+.sf-levelup-close {
+  position: absolute; top: 8px; right: 12px;
+  border: none; background: none; cursor: pointer;
+  font-size: 18px; line-height: 1; color: #b08540;
+}
+.sf-levelup-spark { font-size: 22px; color: #d4993a; }
+.sf-levelup-title {
+  font-family: Georgia, serif; font-weight: bold; font-size: 16px;
+  color: #7a4a10; margin-top: 4px;
+}
+.sf-levelup-body {
+  font-family: Georgia, serif; font-size: 13.5px; font-style: italic;
+  color: #5a4226; line-height: 1.6; margin: 6px auto 0; max-width: 460px;
+}
+
+/* Strengths-first earned-level header */
+.sf-level-header {
+  display: flex; align-items: center; gap: 18px;
+  padding: 16px 18px;
+  background: #fffdf8;
+  border: 1px solid #ecd9ad;
+  border-radius: 12px;
+}
+.sf-level-badge {
+  flex: 0 0 auto;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-width: 96px; padding: 12px 14px;
+  background: linear-gradient(160deg, #c47a35 0%, #a4631f 100%);
+  border-radius: 10px; color: #fff8ec;
+  box-shadow: 0 2px 8px rgba(164, 99, 31, 0.25);
+}
+.sf-level-badge-num {
+  font-family: Georgia, serif; font-weight: bold; font-size: 19px; letter-spacing: 0.02em;
+}
+.sf-level-badge-name {
+  font-family: Georgia, serif; font-size: 11px; text-align: center;
+  margin-top: 3px; opacity: 0.92; line-height: 1.3;
+}
+.sf-level-headbody { flex: 1 1 auto; }
+.sf-level-foundation {
+  font-family: Georgia, serif; font-size: 14px; color: #3d2b1a;
+  line-height: 1.55; margin: 0;
+}
+.sf-level-strengths {
+  font-family: Georgia, serif; font-size: 12.5px; color: #8a6a3a;
+  margin: 8px 0 0; letter-spacing: 0.01em;
+}
+
+/* Progress toward next level */
+.sf-level-progress { margin: 18px 0 4px; }
+.sf-level-progress-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-family: Georgia, serif; font-size: 12.5px; color: #6a4e2a; margin-bottom: 6px;
+}
+.sf-level-progress-pct { font-weight: bold; color: #c47a35; }
+.sf-level-ceiling {
+  font-family: Georgia, serif; font-size: 13.5px; font-style: italic;
+  color: #5a7a30; margin: 16px 0 4px;
+}
+
+/* The single next-unlock card */
+.sf-next-unlock {
+  margin: 20px 0 6px;
+  padding: 16px 18px;
+  background: #fffaf0;
+  border: 1px solid #e3b256;
+  border-left: 4px solid #c47a35;
+  border-radius: 10px;
+}
+.sf-next-unlock-label {
+  font-family: Georgia, serif; font-size: 11px; font-weight: bold;
+  letter-spacing: 0.12em; text-transform: uppercase; color: #c47a35;
+}
+.sf-next-unlock-gap {
+  font-family: Georgia, serif; font-size: 16px; font-weight: bold;
+  color: #3d2b1a; margin-top: 6px;
+}
+.sf-next-unlock-detail {
+  font-family: Georgia, serif; font-size: 13px; color: #5a4226;
+  line-height: 1.6; margin: 8px 0 0;
+}
+.sf-next-unlock-action {
+  font-family: Georgia, serif; font-size: 12.5px; color: #7a5a30;
+  line-height: 1.55; margin: 8px 0 0; font-style: italic;
+}
+.sf-next-unlock-hint {
+  font-family: Georgia, serif; font-size: 12px; color: #8a6a3a;
+  margin: 10px 0 4px;
+}
+
+/* Remaining gaps — collapsed toggle */
+.sf-more-gaps { margin-top: 14px; }
+.sf-more-gaps-toggle {
+  font-family: Georgia, serif; font-size: 12.5px; color: #9a7040;
+  background: none; border: none; cursor: pointer; padding: 4px 0;
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.sf-more-gaps-toggle:hover { color: #c47a35; }
+
+/* Newly-in-reach badge on a column header */
+.sf-newly-badge {
+  display: inline-block; margin-left: 8px;
+  font-family: Georgia, serif; font-size: 9.5px; font-weight: bold;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: #fff8ec; background: #5a7a30;
+  border-radius: 10px; padding: 2px 8px; vertical-align: middle;
+}
+
+/* Readiness detail disclosure */
+.sf-readiness-detail { margin-top: 26px; }
+.sf-readiness-detail > summary {
+  font-family: Georgia, serif; font-size: 12.5px; color: #9a7040;
+  cursor: pointer; padding: 6px 0; list-style: none;
+}
+.sf-readiness-detail > summary::-webkit-details-marker { display: none; }
+.sf-readiness-detail > summary::before { content: '▸ '; color: #c47a35; }
+.sf-readiness-detail[open] > summary::before { content: '▾ '; }
+.sf-readiness-detail > summary:hover { color: #c47a35; }
+
 .sf-momentum-label {
   font-family: Georgia, serif;
   font-size: 11px;

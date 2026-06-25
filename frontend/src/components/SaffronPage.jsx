@@ -163,6 +163,12 @@ const SF_ZH = {
   "September": "九月", "October": "十月", "November": "十一月", "December": "十二月",
 
   // ── Readiness (careerData) ──
+  // Level labels (from career_strategy_engine, flow through deepTranslate)
+  "Ambient Visibility": "环境可见度",
+  "Networking & Foundation": "人脉与根基",
+  "Credibility": "专业公信力",
+  "Prestige": "声望",
+  "Foundation complete — building Tier 4 body of work": "根基已成——正在积累第四级的作品体系",
   "Tier 1-2 foundation building": "第 1–2 层级的基础建设",
   "Complete 2 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.": "再完成 2 场东京联展，达到开启第 3 层级洽谈所需的 3 场最低门槛。",
   "Insufficient group show history": "联展经历不足",
@@ -1917,10 +1923,44 @@ function GapCorrectionForm({ gap, onChanged }) {
   )
 }
 
+// Celebrates a level crossing exactly once. The first time we ever see her
+// level we seed a silent baseline (never celebrate the starting level); only a
+// genuine increase over the stored value fires the banner.
+function LevelUpBanner({ level, t }) {
+  const cur = level?.current
+  const [show, setShow] = useState(false)
+  useEffect(() => {
+    if (!cur) return
+    let stored = null
+    try { stored = localStorage.getItem('sf_last_level') } catch { /* unavailable */ }
+    if (stored == null) {
+      try { localStorage.setItem('sf_last_level', String(cur)) } catch { /* unavailable */ }
+      return
+    }
+    if (cur > (parseInt(stored, 10) || 0)) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-shot level-up detection synced from async career data
+      setShow(true)
+      try { localStorage.setItem('sf_last_level', String(cur)) } catch { /* unavailable */ }
+    }
+  }, [cur])
+  if (!show) return null
+  return (
+    <div className="sf-levelup">
+      <button className="sf-levelup-close" onClick={() => setShow(false)} title={t('sf.cr.dismiss')}>×</button>
+      <div className="sf-levelup-spark">✦</div>
+      <div className="sf-levelup-title">{t('sf.cr.levelUpTitle')}</div>
+      <p className="sf-levelup-body">{t('sf.cr.levelUpBody', { n: level.current, label: level.current_label })}</p>
+    </div>
+  )
+}
+
 function CareerReadiness({ data, onChanged }) {
   const { t } = useLanguage()
+  const [showMore, setShowMore] = useState(false)
   if (!data) return null
 
+  const level    = data.level || null
+  const ev       = data.career_evidence || {}
   const tier3Pct = (data.readiness_scores?.tier_3_readiness ?? 0) * 100
   const tier4Pct = (data.readiness_scores?.tier_4_readiness ?? 0) * 100
   const gaps     = data.blocking_gaps ?? []
@@ -1929,8 +1969,20 @@ function CareerReadiness({ data, onChanged }) {
   const watch    = data.watch_list   ?? []
   const months   = data.months_to_tier3
 
+  const curLevel    = level?.current ?? 2
+  const progressPct = level ? Math.round((level.progress_to_next ?? 0) * 100) : null
+  // ONE next unlock (engine picks the highest-priority gap, or a positive
+  // advanced-state line when every gap is closed). The rest collapse away.
+  const nextUnlock  = level?.next_unlock || gaps[0] || null
+  const otherGaps   = nextUnlock ? gaps.filter(g => g.gap_id !== nextUnlock.gap_id) : gaps
+  const unlockActionable = nextUnlock && nextUnlock.gap_id !== 'advanced'
+  // What the current level just opened: tier-3 opps (Build Toward) once she's
+  // at Level 3, tier-4 (Watch List) at Level 4.
+  const buildNewly = curLevel >= 3
+  const watchNewly = curLevel >= 4
+
   const summary = data.current_phase
-    ? `${data.current_phase}${months ? ` · ${t('sf.cr.monthsToTier3', { n: months })}` : ''}`
+    ? `${t('sf.cr.levelBadge', { n: curLevel })} · ${level?.current_label || data.current_phase}`
     : t('sf.cr.title')
 
   return (
@@ -1939,70 +1991,85 @@ function CareerReadiness({ data, onChanged }) {
       subtitle={t('sf.cr.subtitle')}
       summary={summary}
     >
-      {/* Four-tier ladder */}
-      <p className="sf-tiers-intro">{t('sf.cr.tiersIntro')}</p>
-      <div className="sf-readiness-bars">
-        <div className="sf-tier-done">
-          <span className="sf-tier-check">✓</span>
-          <span className="sf-tier-name">{t('sf.cr.tier1')}</span>
-          <span className="sf-tier-status">{t('sf.cr.tierComplete')}</span>
+      <LevelUpBanner level={level} t={t} />
+
+      {/* Strengths-first earned-level header */}
+      <div className="sf-level-header">
+        <div className="sf-level-badge">
+          <span className="sf-level-badge-num">{t('sf.cr.levelBadge', { n: curLevel })}</span>
+          <span className="sf-level-badge-name">{level?.current_label || ''}</span>
         </div>
-        <div className="sf-tier-done">
-          <span className="sf-tier-check">✓</span>
-          <span className="sf-tier-name">{t('sf.cr.tier2')}</span>
-          <span className="sf-tier-status">{t('sf.cr.tierComplete')}</span>
+        <div className="sf-level-headbody">
+          <p className="sf-level-foundation">{t('sf.cr.foundationDone')}</p>
+          <p className="sf-level-strengths">
+            {t('sf.cr.strengthsLine', {
+              shows: ev.confirmed_group_shows ?? 0,
+              pubs:  ev.publications_confirmed ?? 0,
+              ig:    '26k',
+            })}
+          </p>
         </div>
-        <ReadinessBar
-          label={t('sf.cr.tier3')}
-          sublabel={t('sf.cr.tier3Sublabel')}
-          pct={tier3Pct}
-          color="#c47a35"
-        />
-        <ReadinessBar
-          label={t('sf.cr.tier4')}
-          sublabel={t('sf.cr.tier4Sublabel')}
-          pct={tier4Pct}
-          color="#d4b87a"
-        />
       </div>
 
-      {/* Timeline pill + next milestone */}
-      <div className="sf-readiness-milestone-row">
-        {months != null && (
-          <span className="sf-readiness-timeline-pill">{t('sf.cr.monthsToTier3', { n: months })}</span>
-        )}
-      </div>
-      {data.next_milestone && (
-        <p className="sf-readiness-milestone">{data.next_milestone}</p>
-      )}
-
-      {/* Blocking gaps */}
-      {gaps.length > 0 && (
-        <div style={{ marginTop: 28 }}>
-          <div className="sf-block-label">{t('sf.cr.blockingGaps')}</div>
-          <div className="sf-readiness-gaps">
-            {gaps.map((g, i) => (
-              <div key={i} className="sf-readiness-gap-row">
-                <span
-                  className="sf-readiness-gap-dot"
-                  style={{ background: GAP_DOT_COLORS[g.priority] ?? '#b0a080' }}
-                />
-                <div className="sf-readiness-gap-body">
-                  <span className="sf-readiness-gap-text">{g.gap}</span>
-                  {g.action && (
-                    <span className="sf-readiness-gap-action">{g.action}</span>
-                  )}
-                  <GapCorrectionForm gap={g} onChanged={onChanged} />
-                </div>
-              </div>
-            ))}
+      {/* Progress toward the next level (or a positive ceiling note) */}
+      {level?.next ? (
+        <div className="sf-level-progress">
+          <div className="sf-level-progress-head">
+            <span>{t('sf.cr.progressToNext', { n: level.next, label: level.next_label })}</span>
+            <span className="sf-level-progress-pct">{progressPct}%</span>
+          </div>
+          <div className="sf-readiness-track">
+            <div className="sf-readiness-fill" style={{ width: `${progressPct}%`, background: '#c47a35' }} />
           </div>
         </div>
+      ) : (
+        <p className="sf-level-ceiling">{t('sf.cr.atCeiling')}</p>
       )}
 
-      <ReadinessCorrection t={t} onChanged={onChanged} />
+      {/* ONE next-unlock card — the single thing to cross next */}
+      {nextUnlock && (
+        <div className="sf-next-unlock">
+          <div className="sf-next-unlock-label">{t('sf.cr.nextUnlock')}</div>
+          <div className="sf-next-unlock-gap">{nextUnlock.gap}</div>
+          {nextUnlock.detail && <p className="sf-next-unlock-detail">{nextUnlock.detail}</p>}
+          {nextUnlock.action && <p className="sf-next-unlock-action">{nextUnlock.action}</p>}
+          {unlockActionable && (
+            <>
+              <p className="sf-next-unlock-hint">{t('sf.cr.nextUnlockHint')}</p>
+              <GapCorrectionForm gap={nextUnlock} onChanged={onChanged} />
+            </>
+          )}
+        </div>
+      )}
 
-      {/* Three columns */}
+      {/* Remaining gaps — collapsed by default, never a wall */}
+      {otherGaps.length > 0 && (
+        <div className="sf-more-gaps">
+          <button className="sf-more-gaps-toggle" onClick={() => setShowMore(s => !s)}>
+            {showMore ? t('sf.cr.hideGaps') : t('sf.cr.moreGaps', { n: otherGaps.length })}
+          </button>
+          {showMore && (
+            <div className="sf-readiness-gaps" style={{ marginTop: 12 }}>
+              {otherGaps.map((g, i) => (
+                <div key={i} className="sf-readiness-gap-row">
+                  <span
+                    className="sf-readiness-gap-dot"
+                    style={{ background: GAP_DOT_COLORS[g.priority] ?? '#b0a080' }}
+                  />
+                  <div className="sf-readiness-gap-body">
+                    <span className="sf-readiness-gap-text">{g.gap}</span>
+                    {g.action && <span className="sf-readiness-gap-action">{g.action}</span>}
+                    <GapCorrectionForm gap={g} onChanged={onChanged} />
+                  </div>
+                </div>
+              ))}
+              <ReadinessCorrection t={t} onChanged={onChanged} />
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Three columns — opportunities re-ranked by fit to her level */}
       <div className="sf-readiness-columns" style={{ marginTop: 28 }}>
         <div className="sf-readiness-col">
           <div className="sf-block-label">{t('sf.cr.actNow')}</div>
@@ -2019,7 +2086,10 @@ function CareerReadiness({ data, onChanged }) {
           }
         </div>
         <div className="sf-readiness-col">
-          <div className="sf-block-label">{t('sf.cr.buildToward')}</div>
+          <div className="sf-block-label">
+            {t('sf.cr.buildToward')}
+            {buildNewly && <span className="sf-newly-badge">{t('sf.cr.newlyInReach')}</span>}
+          </div>
           {build.length === 0
             ? <p className="sf-readiness-col-empty">{t('sf.cr.noneQueued')}</p>
             : build.map((o, i) => (
@@ -2030,7 +2100,10 @@ function CareerReadiness({ data, onChanged }) {
           }
         </div>
         <div className="sf-readiness-col sf-readiness-col--watch">
-          <div className="sf-block-label">{t('sf.cr.watchList')}</div>
+          <div className="sf-block-label">
+            {t('sf.cr.watchList')}
+            {watchNewly && <span className="sf-newly-badge">{t('sf.cr.newlyInReach')}</span>}
+          </div>
           {watch.length === 0
             ? <p className="sf-readiness-col-empty">{t('sf.cr.noneQueued')}</p>
             : watch.map((o, i) => (
@@ -2041,6 +2114,29 @@ function CareerReadiness({ data, onChanged }) {
           }
         </div>
       </div>
+
+      {/* Readiness detail — the tier-by-tier ladder, demoted below the fold */}
+      <details className="sf-readiness-detail">
+        <summary>{t('sf.cr.readinessDetail')}</summary>
+        <p className="sf-tiers-intro" style={{ marginTop: 14 }}>{t('sf.cr.tiersIntro')}</p>
+        <div className="sf-readiness-bars">
+          <div className="sf-tier-done">
+            <span className="sf-tier-check">✓</span>
+            <span className="sf-tier-name">{t('sf.cr.tier1')}</span>
+            <span className="sf-tier-status">{t('sf.cr.tierComplete')}</span>
+          </div>
+          <div className="sf-tier-done">
+            <span className="sf-tier-check">✓</span>
+            <span className="sf-tier-name">{t('sf.cr.tier2')}</span>
+            <span className="sf-tier-status">{t('sf.cr.tierComplete')}</span>
+          </div>
+          <ReadinessBar label={t('sf.cr.tier3')} sublabel={t('sf.cr.tier3Sublabel')} pct={tier3Pct} color="#c47a35" />
+          <ReadinessBar label={t('sf.cr.tier4')} sublabel={t('sf.cr.tier4Sublabel')} pct={tier4Pct} color="#d4b87a" />
+        </div>
+        {months != null && (
+          <p className="sf-readiness-milestone" style={{ marginTop: 14 }}>{t('sf.cr.monthsToTier3', { n: months })}</p>
+        )}
+      </details>
     </SectionShell>
   )
 }
