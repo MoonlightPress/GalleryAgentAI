@@ -42,7 +42,7 @@ export default function HeroSection() {
           decoding="async"
         />
       </picture>
-      <p lang={poemLang} className={`hero-poem${shown ? '' : ' hero-poem--out'}`}>{t(`mochi.poem.${poem}`)}</p>
+      <p lang={poemLang} className={`hero-poem hero-poem--${lang}${shown ? '' : ' hero-poem--out'}`}>{t(`mochi.poem.${poem}`)}</p>
     </section>
   )
 }
