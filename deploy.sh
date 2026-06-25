@@ -37,7 +37,7 @@ cp "$SCRIPT_DIR/requirements-api.txt"    "$OUT/app/"
 # crashes on import (502), same rule as recommendation_readiness above.
 # ibm_email_writer is what the draft-regen launches (not imported by the API).
 mkdir -p "$OUT/app/engines"
-for e in profile_sync.py regen.py notify.py visit_tracking.py backups.py ibm_email_writer.py; do
+for e in profile_sync.py regen.py notify.py visit_tracking.py backups.py career_strategy_engine.py ibm_email_writer.py; do
     cp "$SCRIPT_DIR/engines/$e" "$OUT/app/engines/"
 done
 

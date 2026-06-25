@@ -70,6 +70,18 @@ def _load_json(path, default=None):
         return default
 
 
+def _refresh_career_strategy():
+    """Re-run the deterministic, free career-strategy report so the advice and
+    readiness reflect her latest shows/profile immediately. Previously this
+    report was a frozen file, so adding accomplishments changed the counts but
+    not the advice. Best-effort and fast; never blocks the edit."""
+    try:
+        from engines.career_strategy_engine import build_career_strategy_report
+        build_career_strategy_report()
+    except Exception:
+        pass
+
+
 def _save_her_data(path, data):
     """Write one of the artist's editable data files AND drop a timestamped
     backup into memory/backups/, so an edit is never lost to a deploy that
@@ -2813,6 +2825,7 @@ async def add_career_event(request: Request):
     entry.setdefault("date", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     log.insert(0, entry)  # newest first
     _save_her_data(path, log)
+    _refresh_career_strategy()
     return {"ok": True, "entry": entry}
 
 
@@ -2842,6 +2855,7 @@ def delete_career_event(event_id: str):
     log = json.loads(path.read_text(encoding="utf-8"))
     kept = [ev for ev in log if ev.get("id") != event_id]
     _save_her_data(path, kept)
+    _refresh_career_strategy()
     return {"ok": True, "removed": len(log) - len(kept)}
 
 
@@ -2862,6 +2876,7 @@ async def add_exhibition(request: Request):
     entry["logged_at"] = datetime.now(timezone.utc).isoformat()
     log.append(entry)
     _save_her_data(path, log)
+    _refresh_career_strategy()
     return {"ok": True, "entry": entry}
 
 
@@ -2873,6 +2888,7 @@ def delete_exhibition(entry_id: str):
     log = json.loads(path.read_text(encoding="utf-8"))
     log = [e for e in log if e.get("id") != entry_id]
     _save_her_data(path, log)
+    _refresh_career_strategy()
     return {"ok": True}
 
 
