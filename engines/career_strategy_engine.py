@@ -291,22 +291,27 @@ def _tier3_readiness(group_shows: int, has_solo: bool,
     return round(min(score, 1.0), 2)
 
 
-def _tier4_readiness(group_shows: int, has_solo: bool, has_institutional: bool) -> float:
+def _tier4_readiness(group_shows: int, has_solo: bool, has_institutional: bool,
+                     has_international: bool = False, has_jws: bool = False) -> float:
     """
-    Score 0.0–1.0 for Tier 4 readiness.
-    Requires solid foundation: group shows + institutional + solo.
+    Score 0.0–1.0 for Tier 4 readiness (prestige: international societies,
+    residencies, fellowships). Deliberately demands MORE than Tier 3 —
+    international reach and society standing — so completing the Tier-3 basics
+    (group shows + institutional + solo) tops out around 0.60, not 100%.
     """
     score = 0.0
     if group_shows >= 5:
-        score += 0.30
+        score += 0.15
     elif group_shows >= 3:
-        score += 0.20
-    elif group_shows >= 2:
         score += 0.10
     if has_institutional:
-        score += 0.35
+        score += 0.25
     if has_solo:
-        score += 0.35
+        score += 0.20
+    if has_international:
+        score += 0.25   # international reach is the Tier-4 differentiator
+    if has_jws:
+        score += 0.15   # society membership / standing
     return round(min(score, 1.0), 2)
 
 
@@ -411,7 +416,8 @@ def build_career_strategy_report():
 
     # ── Readiness scores ─────────────────────────────────────────────────────
     tier3_ready = _tier3_readiness(group_shows, has_solo, has_institutional, has_international)
-    tier4_ready = _tier4_readiness(group_shows, has_solo, has_institutional)
+    tier4_ready = _tier4_readiness(group_shows, has_solo, has_institutional,
+                                   has_international, has_jws)
 
     # ── Classify and tier-weight all active opportunities ────────────────────
     REJECT_BUCKETS = {"reject", "low_priority"}

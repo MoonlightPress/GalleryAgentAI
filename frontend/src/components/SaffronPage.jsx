@@ -2072,12 +2072,13 @@ export default function SaffronPage({ nav }) {
   const [tab,        setTab]        = useState('profile')
   const { t, lang } = useLanguage()
 
-  useEffect(() => {
+  const loadSaffron = () => {
     fetch('/api/saffron')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json() })
       .then(setRawData)
       .catch(e => setError(e.message))
-  }, [])
+  }
+  useEffect(() => { loadSaffron() }, [])
 
   const loadCareer = () => {
     fetch('/api/career_strategy')
@@ -2086,6 +2087,12 @@ export default function SaffronPage({ nav }) {
       .catch(() => {})
   }
   useEffect(() => { loadCareer() }, [])
+
+  // After an edit that changes her career data (logging a show, marking a gap
+  // done), refresh BOTH the career-strategy report (readiness bars/gaps) AND the
+  // saffron payload (career-position counts) so every readiness display updates
+  // live instead of only when the section is remounted.
+  const refreshCareer = () => { loadCareer(); loadSaffron() }
 
   // Translate the served (English) analysis into Chinese for 中文 viewers.
   // Translator map: dynamic opportunity strings come from the payload's own
@@ -2155,7 +2162,7 @@ export default function SaffronPage({ nav }) {
           <SectionErrorBoundary key={tab}>
             {tab === 'profile' && (
               <>
-                {careerData && <CareerReadiness data={careerData} onChanged={loadCareer} />}
+                {careerData && <CareerReadiness data={careerData} onChanged={refreshCareer} />}
                 <CareerPosition     data={data.career_position}    t={t} />
                 <CareerBenchmarks   data={data.career_benchmarks}  t={t} />
                 <CareerTimeline     t={t} lang={lang} />

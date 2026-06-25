@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-06-24T01:30:36.740259+00:00",
+  "_generated_at": "2026-06-25T02:04:50.585015+00:00",
   "_engine_version": "2.0",
   "current_phase": "Tier 1-2 foundation building",
   "phase_note": "Age 26, planning a deep-work year around 30. The next 3–4 years are for accumulation: exhibition history, publishing relationships, peer network, and body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now, not acted on until the foundation is solid.",
@@ -20,7 +20,7 @@
     {
       "title": "UTRECHT",
       "tier": 1,
-      "score": 9.4,
+      "score": 10.0,
       "category": "bookstore_gallery",
       "city": "Tokyo",
       "deadline": "1 July 2025",
@@ -28,113 +28,83 @@
       "website": "https://utrecht.jp/"
     },
     {
-      "title": "Route Books",
+      "title": "B&B (Book & Beer)",
       "tier": 1,
-      "score": 9.4,
+      "score": 10.0,
       "category": "bookstore_gallery",
-      "city": "Tokyo — Ueno / Taito",
-      "deadline": "ongoing — check rental availability",
-      "summary": "Ueno bookshop-cafe with a confirmed rental gallery wall — accessible East Tokyo arts venue in the cultural district near Ueno Park.",
-      "website": "https://route-books.com/"
+      "city": "Shimokitazawa, Tokyo",
+      "deadline": "2026年06月07日",
+      "summary": "Shimokitazawa's beloved bookshop-bar that stocks art books, zines, and hosts author events — the most natural home for quiet urban watercolor work in the neighborhood.",
+      "website": "https://bookandbeer.com/"
     },
     {
-      "title": "HATTIFNATT Koenji Cafe Gallery",
+      "title": "TOKIO ART BOOK FAIR 2026",
       "tier": 1,
-      "score": 9.4,
-      "category": "cafe_gallery",
-      "city": "Tokyo — Koenji",
-      "deadline": "No fixed deadline — proposal-based",
-      "summary": "Koenji storybook-aesthetic cafe known for artists and warm interiors — highest aesthetic alignment with GEGYjiji of any cafe in the dataset.",
-      "website": "https://www.hattifnatt.jp/"
+      "score": 10.0,
+      "category": "zine_fair_booth",
+      "city": "Tokyo",
+      "deadline": "June 7, 2026",
+      "summary": "Art book and zine fair featuring international artists and publishers; invitation-based format where host exhibitors recommend guest exhibitors.",
+      "website": "https://tokioartbookfair.com"
     },
     {
-      "title": "Mograg Gallery",
+      "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
       "tier": 1,
-      "score": 9.4,
-      "category": "cafe_gallery",
-      "city": "Tokyo — Hatagaya (Shibuya area)",
-      "deadline": "ongoing — proposal-based",
-      "summary": "Active Tokyo illustration and contemporary art gallery with strong emerging artist community — confirmed programming as of June 2026.",
-      "website": "https://mograg.com/"
+      "score": 10.0,
+      "category": "zine_fair_booth",
+      "city": "Tokyo",
+      "deadline": "2026年4月8日",
+      "summary": "Monthly Tokyo zine fair organized by BOOK CULTURE CLUB — 90cm half-table booth, ¥5,200-6,200 fee, applications close 2 weeks before each event. Next Tokyo date: July 11 2026.",
+      "website": "https://note.com/bookcultureclub/n/n053a24287fc2"
     },
     {
-      "title": "Gallery EF Asakusa",
+      "title": "MOUNT ZINE",
       "tier": 1,
-      "score": 9.4,
-      "category": "cafe_gallery",
-      "city": "Tokyo — Asakusa, Taito",
-      "deadline": "ongoing — proposal-based",
-      "summary": "Long-established Asakusa gallery in a 100-year-old machiya basement — intimate, community-centered space with a tradition of supporting emerging artists.",
-      "website": "http://www.gallery-ef.com/"
+      "score": 10.0,
+      "category": "zine_shop_consignment",
+      "city": "Tokyo",
+      "deadline": "Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window",
+      "summary": "Tokyo zine shop near Komazawa University that accepts zine submissions twice yearly (spring and autumn) with no fees and no screening — good Tier 1 ambient visibility target for artist-book and print ",
+      "website": "https://zine.mount.co.jp/"
     }
   ],
   "build_toward": [
     {
-      "title": "水彩アートの祭典「Watercolors 2026」",
+      "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
       "tier": 3,
-      "score": 9.5,
-      "category": "japan_watercolor_open_call",
+      "score": 10.0,
+      "category": "group_publication_open_call",
+      "city": "International",
+      "deadline": "June 10, 2026",
+      "summary": "International coffee-table print magazine for women artists — all mediums including watercolor, deadline June 10, $25 fee.",
+      "website": "https://www.womenunitedartmovement.com/"
+    },
+    {
+      "title": "SUBMISSIONS - marblepress.com",
+      "tier": 3,
+      "score": 10.0,
+      "category": "book_publishing",
+      "city": "Japan / Tokyo / Online",
+      "deadline": "June 1st 2026",
+      "summary": "Publishing / Small Press lead found through targeted research; useful if requirements and fit check out.",
+      "website": "https://marblepress.com/submissions/"
+    },
+    {
+      "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
+      "tier": 3,
+      "score": 10.0,
+      "category": "press_target",
       "city": "Tokyo",
-      "deadline": "2026年1月31日",
-      "summary": "Watercolor-only exhibition at Tokyo Arts Theater, 2026 Mar 7-8, accepts watercolor works up to 4号 size with no theme restrictions",
-      "website": "https://nihonbungei.net/watercolors_2026"
-    },
-    {
-      "title": "本店・本屋の実験室",
-      "tier": 3,
-      "score": 9.4,
-      "category": "zine_print",
-      "city": "Koenji, Tokyo",
-      "deadline": "August 31, 2026",
-      "summary": "Bookstore/lab context with zine-event signal. Good fit for local zine events and experimental printed work.",
-      "website": "https://honnonagaya-honten.com/"
-    },
-    {
-      "title": "Center for Book Arts Opportunities",
-      "tier": 3,
-      "score": 9.4,
-      "category": "global_book_arts",
-      "city": "New York",
-      "deadline": "September 15, 2024",
-      "summary": "Book arts institution with exhibitions, residencies, education, and opportunities connected to artist books and printed matter.",
-      "website": "https://centerforbookarts.org/"
+      "deadline": "ongoing",
+      "summary": "Japan's leading fine art magazine. Artist features for emerging Tokyo-based painters. Discovers via Instagram + gallery shows.",
+      "website": "https://bijutsutecho.com/"
     }
   ],
   "watch_list": [
     {
-      "title": "Asian Cultural Council (ACC) 2026 Grant Program",
-      "tier": 4,
-      "score": 9.4,
-      "category": "grant",
-      "city": "New York",
-      "deadline": "2025-11-19 (application deadline, EST 9:59 AM); recommendation letters due 2025-11-26",
-      "summary": "ACC provides fellowships and cultural exchange opportunities for Asian artists to explore new cultures and develop their artistic practice internationally, supporting visual artists like watercolor ar",
-      "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
-    },
-    {
-      "title": "Cité Internationale des Arts Artist Residency",
-      "tier": 4,
-      "score": 9.4,
-      "category": "global_residency",
-      "city": "Paris",
-      "deadline": "August 30, 2026",
-      "summary": "Major international artist residency in Paris offering studio housing to artists from around the world, with strong track record for Asian artists.",
-      "website": "https://www.citedesartsparis.net/"
-    },
-    {
-      "title": "「国際創作者駐村計畫」",
-      "tier": 4,
-      "score": 9.4,
-      "category": "global_residency",
-      "city": "Tokyo",
-      "deadline": "June 10, 2026",
-      "summary": "International artist residency program inviting visual artists, filmmakers, designers and architects for 2026.",
-      "website": "https://artres.moc.gov.tw/zh/calls/content/ff80818196c95f3b0196e675e523000f"
-    },
-    {
       "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
       "tier": 4,
-      "score": 9.4,
+      "score": 10.0,
       "category": "global_watercolor_open_call",
       "city": "Online / Seattle",
       "deadline": "July 8, 2026 — 11:59 PM Pacific",
@@ -142,52 +112,87 @@
       "website": "https://www.nwws.org/"
     },
     {
-      "title": "Asian Cultural Council 2026 Global Grant Cycle",
+      "title": "Cité Internationale des Arts Artist Residency",
       "tier": 4,
-      "score": 8.8,
+      "score": 9.3,
+      "category": "global_residency",
+      "city": "Paris",
+      "deadline": "August 30, 2026",
+      "summary": "Major international artist residency in Paris offering studio housing to artists from around the world, with strong track record for Asian artists.",
+      "website": "https://www.citedesartsparis.net/"
+    },
+    {
+      "title": "Asian Cultural Council (ACC) 2026 Grant Program",
+      "tier": 4,
+      "score": 9.1,
       "category": "grant",
       "city": "New York",
-      "deadline": "October 1, 2025",
-      "summary": "ACC's 2026 Global Grant Cycle supports artists and arts professionals from Asia for cultural exchange and research, directly relevant to a Chinese national artist based in Tokyo.",
-      "website": "https://hyperallergic.com/asian-cultural-council-offers-fellowships-and-grants-for-research-and-cultural-exchange"
+      "deadline": "2025-11-19 (application deadline, EST 9:59 AM); recommendation letters due 2025-11-26",
+      "summary": "ACC provides fellowships and cultural exchange opportunities for Asian artists to explore new cultures and develop their artistic practice internationally, supporting visual artists like watercolor ar",
+      "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
+    },
+    {
+      "title": "「国際創作者駐村計畫」",
+      "tier": 4,
+      "score": 9.1,
+      "category": "global_residency",
+      "city": "Tokyo",
+      "deadline": "June 10, 2026",
+      "summary": "International artist residency program inviting visual artists, filmmakers, designers and architects for 2026.",
+      "website": "https://artres.moc.gov.tw/zh/calls/content/ff80818196c95f3b0196e675e523000f"
     },
     {
       "title": "Asian Cultural Council (ACC) 2026 Award Program / 亞洲文化協會 2026 年獎助計畫",
       "tier": 4,
-      "score": 8.8,
+      "score": 8.9,
       "category": "grant",
       "city": "New York",
       "deadline": "2025-11-19",
       "summary": "ACC supports Asian artists including Chinese nationals with fellowships and grants for international cultural exchange and artistic development",
       "website": "https://www.asianculturalcouncil.org/zh-hant/grant-opportunities"
+    },
+    {
+      "title": "Asian Cultural Council 2026 Grants and Fellowships",
+      "tier": 4,
+      "score": 8.6,
+      "category": "grant",
+      "city": "New York",
+      "deadline": "October 1, 2025",
+      "summary": "ACC explicitly supports visual artists from China, Japan, and across Asia for research and cultural exchange between Asia and the US, making it directly applicable to a Tokyo-based Chinese watercolor ",
+      "website": "https://www.artasiapacific.com/now-open-for-applications-asian-cultural-council-2026-grants-and-fellowships"
     }
   ],
   "blocking_gaps": [
     {
+      "gap_id": "group_shows",
       "gap": "Insufficient group show history",
       "detail": "Only 1 confirmed group show(s). Most Tokyo galleries consider 3+ group exhibition credits before discussing solo work. 2 more group show(s) needed.",
       "priority": "high",
       "action": "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN"
     },
     {
+      "gap_id": "solo_show",
       "gap": "No solo show on CV",
       "detail": "No solo exhibition confirmed in Tokyo or elsewhere. A solo show — even in a small bookshop gallery or documented café context — provides a qualitative leap in credibility when applying to Tier 3 calls.",
       "priority": "medium",
       "action": "Target bookshop gallery solo show: UTRECHT, Book and Sons, flotsam books, 日記屋 月日"
     },
     {
+      "gap_id": "institutional_show",
       "gap": "No institutional exhibition history",
       "detail": "No show at an arts council, public gallery, or institutional space. TOKAS, BankART1929, and Youkobo are the realistic near-term institutional entries for Tokyo-based artists at this stage.",
       "priority": "medium",
       "action": "Watch TOKAS open calls and Youkobo artist-in-residence programs"
     },
     {
+      "gap_id": "international_show",
       "gap": "No international exhibition outside Japan/China",
       "detail": "All confirmed exhibition history is in Japan (and China, via Kinoko Kingdom). International reach strengthens applications for residencies and fellowships.",
       "priority": "low",
       "action": "Consider global watercolor open calls or table at Offprint Paris / London Art Book Fair"
     },
     {
+      "gap_id": "jws",
       "gap": "No Japan Watercolor Society membership or exhibition",
       "detail": "The Japan Watercolor Society annual exhibition is a Tier 3 credibility marker for watercolor artists in Japan. Non-members can enter juried calls; membership requires exhibition selection.",
       "priority": "low",
@@ -197,10 +202,10 @@
   "next_milestone": "Complete 2 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.",
   "months_to_tier3": 12,
   "pipeline_summary": {
-    "total_active": 442,
-    "tier_1_count": 43,
-    "tier_2_count": 177,
-    "tier_3_count": 202,
-    "tier_4_count": 20
+    "total_active": 428,
+    "tier_1_count": 35,
+    "tier_2_count": 94,
+    "tier_3_count": 284,
+    "tier_4_count": 15
   }
 }
