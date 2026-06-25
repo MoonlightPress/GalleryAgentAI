@@ -88,7 +88,31 @@ Scott's real meaning behind "all the cards look the same" was **the text, not th
 4. **Hand her the taste judgment** — present options to assess, don't pre-decide what she'll like.
 5. **Generator rule:** the copy engine must be told it may not output aesthetic/taste claims without a source; default to facts + action.
 
-**Status:** agreed in principle, NOT yet executed. It's a content/generation pass over ~hundreds of cards (touches `deploy_data/compact_opportunities.json` — currently being edited by the money agent, so it must wait for that), and it likely needs a regeneration run rather than hand-edits. Scope after the current batch is committed; get Scott's explicit go before any paid regen.
+**Status:** DONE (2026-06-25), committed `2902cfca` + `c8271854`. 26 first-seen cards fully rewritten to facts + one concrete action (EN/zh/ja); 125 more swept clean of unearned aesthetic/taste verdicts + filler actions; 0 residual taste verdicts in any language. Generator (`why_it_fits_engine.py`) hardened so a regen can't reintroduce the fabrication. REMAINING: the long-tail `why_it_fits` paragraphs beyond the 26 are de-fabricated but still description-led — a full regeneration is the real fix for long-tail quality, and needs Scott's explicit go before any paid run.
+
+## ROUND 2 — LIVE PASS (2026-06-25, post-deploy) — full team on full alert, IN PROGRESS
+
+After deploy, a live cross-checked pass (Scott's directive: "cross-check the whole site WITH CONTEXT, don't grade pieces in isolation"). Findings to fix in a COORDINATED pass (the level model needs ONE coherent solution, not piecemeal):
+
+1. **Career LEVEL model is self-contradictory (4 ways) — #1.** Live `/api/career_strategy` returns **"Level 4 (Prestige)"**; phase says **"Tier 3 established"**; profile readiness bars show **"almost to Tier 3" + "Tier 4 half full"**; unlock tree shows **"Tier 2."** Four representations, none agree, and "Level 4" overshoots ("Tier 3 established → representation" is the truth). Likely fix: collapse all four into ONE coherent statement; kill the numeric tier game (also the creepy/shaming part).
+2. **Profile (Saffron) tab needs a full design overhaul** (Scott: "the whole profile page sucks"). Domino owns the redesign proposal.
+3. **No links** on act-now / build-toward / watch-list items — looks actionable, isn't. (Domino called out to catch this class; Flint to root-cause.)
+4. **Saffron sounds surveillant** — surfaces her AGE ("age 30 / ~4 years away / deep-work year around 30"). Principle: companions may use what she tells them, never parade inferred personal facts. Remove age/countdown framing → neutral horizons. (Pip leads, Lore on the strings.)
+5. **LongTermScenarios still on the OLD model** — "need more group shows / first solo within reach / by 30" residue contradicting her real solo+museum+international record. (Lore.)
+6. **Instagram count is HARD-CODED (~26k) and already stale** (she's +1000 since build). Stop presenting a brittle precise number; single-source or soften to "established & growing." (Flint.)
+7. **Posting cadence is unrealistic** — daily/post-often. She's in school. Use ~1 painting + 1 process video / month. (Lore.)
+8. **No licensing advice** — Scott wants real, concrete licensing guidance (calendars, stationery, postcards, lifestyle/JP-stationery brands); her work suits it. (Sterling proposes.)
+9. zh + ja leaks, voice, and any other cross-surface contradiction (whole team).
+
+10. **⚠️ SYSTEMIC: two-source-of-truth split — today's data-file fixes may NOT be live.** The live bundle renders `frontend/src/i18n/translations.js` + hard-coded strings in `SaffronPage.jsx`, NOT just `saffron_insights.js`. Sterling confirmed the money de-pressuring did NOT fully hold live: `saffron_insights.js` is clean, but `translations.js` still shows "Opportunity Gap Analysis / 机会缺口分析", "should be earning… leaving on the table / 错过的部分 / 見逃している部分" (`sf.revenue.summary`, `sf.sec.oppGap`/`sf.sub.oppGap`), hard-coded 26k (`pp.ig.count`/`pp.ig.analysis` + ~7 literals in SaffronPage.jsx), and "next milestone 50k / curators not watching." **Action: re-verify EVERY today-fix against translations.js + SaffronPage.jsx hard-coded strings, not the data file.** (Pip's emotional fixes, Lore's voice fixes, etc. may have the same split.)
+11. **Licensing exists in source but isn't live** — rich `LICENSING_LANDSCAPE` in saffron_insights.js (Hobonichi/Midori/Mark's/Stalogy, ¥30k–500k bands, inbound-DM mechanics) but the live `sf.licensing.summary` is the old one-liner. Ship it + surface concrete guidance (calendars, postcards, washi/stickers, notebook/planner covers; first deal = be findable + a one-PDF lookbook when asked).
+12. **Add more "open questions" behind a "more" button** (Scott) — progressive disclosure; only questions that change the advice. (Domino, profile redesign.)
+13. **Grants/age:** Sterling confirmed grants are eligibility-by-nationality/residency, NOT age — no age-eligibility copy, so no overlap with the age-creepiness concern. Clean.
+
+**PRESERVE (Scott-approved):** the MONEY section tone — *"this is something you can do if you feel like it, but you're already doing great."* It's the GOLD-STANDARD register; bring the profile/career copy UP to it and do NOT regress it in any fix.
+**VIEWPORTS:** verify at BOTH phone (~390px) AND tablet/laptop (~1024–1440px).
+
+**Plan:** team reports → ONE coordinated fix (esp. a single coherent level/career-position model + profile redesign, matching the money-section tone) → redeploy → live re-verify in zh AND ja, both viewports.
 
 ## What's genuinely good (don't undo)
 26k consistent everywhere; 90k Twitter kept off consumer surfaces; SUZURI/BASE reconciled; the data loop closes in code; pricing *logic* validated against her real catalog; Today's Focus hierarchy; the Peppercorn/Saffron questions are the best writing on the site (warm, second-person, explain *why*); kindness guards (favorable-only benchmarks, deleted peer-timeline, doors-not-deficits gap copy) hold in zh.
