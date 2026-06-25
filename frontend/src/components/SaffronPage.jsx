@@ -13,6 +13,9 @@ import {
   REVENUE_STREAMS,
   CAREER_DEPENDENCY_MAP,
   PRICING_INTELLIGENCE,
+  COLLABORATION_MAP,
+  COLLECTOR_ECOSYSTEM,
+  PRESS_KIT,
 } from '../data/saffron_insights'
 
 // Saffron's analysis body is authored in English in api.py. When the viewer is
@@ -959,42 +962,146 @@ function PressFeatures({ data, t }) {
   )
 }
 
-function CollectorEcosystem({ data, t }) {
+const COLLECTOR_FIT_LABEL   = { zh: '对你而言：', ja: 'あなたにとって：', en: 'For you:' }
+const COLLECTOR_HOWTO_LABEL = { zh: '怎么开始（都可选）', ja: '始め方（すべて任意）', en: 'Where to start (all optional)' }
+
+// Rebuilt 2026-06-26: real, verified channels where collectors of her kind of
+// work gather + a low-pressure how-to, replacing the old "the pipeline tracks
+// opportunities, not buyers" non-answer. Reuses the collaboration card styling.
+function CollectorEcosystem({ lang }) {
+  const d = localizeDeep(COLLECTOR_ECOSYSTEM, lang)
   return (
-    <SectionShell
-      title={t('sf.sec.collector')}
-      subtitle={t('sf.sub.collector')}
-      summary={t('sf.sum.collector')}
-    >
-      <div className="sf-info-block">
-        <div className="sf-block-label">{t('sf.label.whyMatters')}</div>
-        <p className="sf-info-text">{data.why_it_matters}</p>
-        <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.fairsPipeline')}</div>
-        <div className="sf-tag-list">
-          {data.fairs_in_pipeline.map((f, i) => <span key={i} className="sf-trait">{f}</span>)}
-        </div>
+    <SectionShell title={d.title} summary={d.summary}>
+      <p className="sf-info-text" style={{ marginTop: 0, marginBottom: 18 }}>{d.intro}</p>
+      <div className="sf-collab-entries">
+        {d.channels.map((c, i) => (
+          <div key={i} className="sf-collab-entry">
+            <a className="sf-collab-link sf-ext-link" href={c.link} target="_blank" rel="noreferrer">{c.name} ↗</a>
+            <p className="sf-collab-who">{c.what}</p>
+            <div className="sf-collab-try">
+              <span className="sf-collab-try-label">{COLLECTOR_FIT_LABEL[lang] || COLLECTOR_FIT_LABEL.en}</span>
+              {c.fit_for_her}
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="sf-collab-howto">
+        <div className="sf-block-label">{COLLECTOR_HOWTO_LABEL[lang] || COLLECTOR_HOWTO_LABEL.en}</div>
+        <ol className="sf-collab-howto-list">
+          {d.how_to.map((s, i) => <li key={i}>{s.step}</li>)}
+        </ol>
       </div>
     </SectionShell>
   )
 }
 
-function CollaborationMap({ data, t }) {
-  const summary = t('sf.sum.coExhibitors', { n: data.known_co_exhibitors.length, s: data.known_co_exhibitors.length !== 1 ? 's' : '' })
+// ── Press Kit ──────────────────────────────────────────────────────────────
+// A real, ready-to-use press kit generated from her profile + a how-to, because
+// the app tells her to "have a press kit ready" (Scott, 2026-06-26). Fields carry
+// {en,zh,ja}; the full draft is behind a disclosure so the section stays calm.
+const PK_USE_LABEL    = { zh: '怎么用', ja: '使い方', en: 'How to use it' }
+const PK_UPDATE_LABEL = { zh: '怎么保持更新', ja: '更新の仕方', en: 'Keeping it updated' }
+const PK_SHOW = { zh: '看一份可直接用的样本 ▾', ja: 'そのまま使えるサンプルを見る ▾', en: 'See a ready-to-use sample ▾' }
+const PK_HIDE = { zh: '收起样本', ja: 'サンプルを閉じる', en: 'Hide sample' }
+const PK_F = {
+  oneLine:   { zh: '一句话简介', ja: '一行プロフィール', en: 'One-line bio' },
+  shortBio:  { zh: '简短简介', ja: 'ショートバイオ', en: 'Short bio' },
+  longBio:   { zh: '完整简介', ja: 'ロングバイオ', en: 'Long bio' },
+  statement: { zh: '艺术家自述', ja: 'アーティストステートメント', en: 'Artist statement' },
+  factSheet: { zh: '资料速览', ja: 'ファクトシート', en: 'Fact sheet' },
+  works:     { zh: '代表作 / 系列', ja: '代表作・シリーズ', en: 'Selected works' },
+  images:    { zh: '配图建议', ja: '画像のガイド', en: 'Image guidance' },
+  press:     { zh: '媒体报道', ja: 'メディア掲載', en: 'Press' },
+}
+const pkPick = (f, lang) => (f && (f[lang] || f.en)) || ''
+const pkList = (f, lang) => (f && (f[lang] || f.en)) || []
+
+function PressKit({ lang }) {
+  const [open, setOpen] = useState(false)
   return (
-    <SectionShell
-      title={t('sf.sec.collab')}
-      subtitle={t('sf.sub.collab')}
-      summary={summary}
-    >
-      <div className="sf-block-label">{t('sf.label.knownCoExhib')}</div>
-      {data.known_co_exhibitors.map((a, i) => (
-        <div key={i} className="sf-collab-row">
-          <span className="sf-collab-name">{a.name}</span>
-          <span className="sf-collab-context">{a.context}</span>
-          <span className="sf-collab-status">{t('sf.label.currentStatus')} {a.current_status}</span>
+    <SectionShell title={pkPick(PRESS_KIT.title, lang)} summary={pkPick(PRESS_KIT.summary, lang)}>
+      <p className="sf-info-text" style={{ marginTop: 0 }}>{pkPick(PRESS_KIT.intro, lang)}</p>
+
+      <div className="sf-block-label" style={{ marginTop: 16 }}>{PK_USE_LABEL[lang] || PK_USE_LABEL.en}</div>
+      <ol className="sf-collab-howto-list">
+        {pkList(PRESS_KIT.how_to_use, lang).map((s, i) => <li key={i}>{s}</li>)}
+      </ol>
+      <div className="sf-block-label" style={{ marginTop: 14 }}>{PK_UPDATE_LABEL[lang] || PK_UPDATE_LABEL.en}</div>
+      <ol className="sf-collab-howto-list">
+        {pkList(PRESS_KIT.how_to_update, lang).map((s, i) => <li key={i}>{s}</li>)}
+      </ol>
+
+      <button className="sf-pk-toggle" onClick={() => setOpen(o => !o)}>
+        {open ? (PK_HIDE[lang] || PK_HIDE.en) : (PK_SHOW[lang] || PK_SHOW.en)}
+      </button>
+      {open && (
+        <div className="sf-pk-sample">
+          {[
+            ['oneLine', PRESS_KIT.one_line, 'text'],
+            ['shortBio', PRESS_KIT.short_bio, 'text'],
+            ['longBio', PRESS_KIT.long_bio, 'text'],
+            ['statement', PRESS_KIT.statement, 'text'],
+            ['factSheet', PRESS_KIT.fact_sheet, 'list'],
+            ['works', PRESS_KIT.selected_works, 'list'],
+            ['images', PRESS_KIT.image_guidance, 'list'],
+          ].map(([key, field, kind]) => (
+            <div key={key} className="sf-pk-field">
+              <div className="sf-pk-label">{PK_F[key][lang] || PK_F[key].en}</div>
+              {kind === 'text'
+                ? <p className="sf-pk-text">{pkPick(field, lang)}</p>
+                : <ul className="sf-pk-ul">{pkList(field, lang).map((s, i) => <li key={i}>{s}</li>)}</ul>}
+            </div>
+          ))}
+          <div className="sf-pk-field">
+            <div className="sf-pk-label">{PK_F.press[lang] || PK_F.press.en}</div>
+            <ul className="sf-pk-ul">
+              {PRESS_KIT.press.map((p, i) => (
+                <li key={i}><a className="sf-ext-link" href={p.url} target="_blank" rel="noreferrer">{p.outlet} — {p.type} ↗</a></li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
+    </SectionShell>
+  )
+}
+
+const COLLAB_TRY_LABEL  = { zh: '可以一起做：', ja: '一緒にできること：', en: 'You could try:' }
+const COLLAB_HOWTO_LABEL = { zh: '如何开启一次合作', ja: 'コラボの始め方', en: 'How to approach a collaboration' }
+
+// Rebuilt 2026-06-26: real, verified collaboration targets (named, linked, with
+// a concrete collab form) in three honest groups, plus a low-pressure how-to —
+// replacing the old "5 strangers with status: unknown" list. Authored content
+// from saffron_insights.js, localized via localizeDeep (zh baked, ja → en).
+function CollaborationMap({ lang }) {
+  const d = localizeDeep(COLLABORATION_MAP, lang)
+  return (
+    <SectionShell title={d.title} summary={d.summary}>
+      {d.lead && <p className="sf-info-text" style={{ marginTop: 0, marginBottom: 18 }}>{d.lead}</p>}
+      {d.groups.map((g, gi) => (
+        <div key={gi} className="sf-collab-group">
+          <div className="sf-block-label">{g.label}</div>
+          <div className="sf-collab-entries">
+            {g.entries.map((e, ei) => (
+              <div key={ei} className="sf-collab-entry">
+                <a className="sf-collab-link sf-ext-link" href={e.link} target="_blank" rel="noreferrer">{e.name} ↗</a>
+                <p className="sf-collab-who">{e.who}</p>
+                <p className="sf-collab-why">{e.why_fit}</p>
+                <div className="sf-collab-try">
+                  <span className="sf-collab-try-label">{COLLAB_TRY_LABEL[lang] || COLLAB_TRY_LABEL.en}</span>
+                  {e.collab_form}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       ))}
-      <p className="sf-info-text" style={{ marginTop: 14 }}>{data.note}</p>
+      <div className="sf-collab-howto">
+        <div className="sf-block-label">{COLLAB_HOWTO_LABEL[lang] || COLLAB_HOWTO_LABEL.en}</div>
+        <ol className="sf-collab-howto-list">
+          {d.how_to.map((s, i) => <li key={i}>{s}</li>)}
+        </ol>
+      </div>
     </SectionShell>
   )
 }
@@ -2265,8 +2372,9 @@ export default function SaffronPage({ nav }) {
                     {SB('press', <PressFeatures data={data.press_features} t={t} />)}
                     <SectionOpenContext.Provider value={false}>
                       {SB('presspitch', <PressPitchMap t={t} lang={lang} />)}
-                      {SB('collab',     <CollaborationMap data={data.collaboration_map} t={t} />)}
-                      {SB('collectors', <CollectorEcosystem data={data.collector_ecosystem} t={t} />)}
+                      {SB('presskit',   <PressKit lang={lang} />)}
+                      {SB('collab',     <CollaborationMap lang={lang} />)}
+                      {SB('collectors', <CollectorEcosystem lang={lang} />)}
                       {SB('venues',     <VenueTracker data={data.venue_tracker} t={t} />)}
                     </SectionOpenContext.Provider>
                   </>
