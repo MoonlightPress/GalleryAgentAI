@@ -482,6 +482,7 @@ const zh = {
   'pp.loading':              '胡椒粒正在倾听…',
   'pp.saving':               '保存中…',
   'pp.saved':                '已保存',
+  'pp.draftsUpdating':       '已保存 — 你的外联草稿正在后台更新（需要一点时间）',
   'pp.saveError':            '保存失败，请重试',
 
   'pp.sec.instagram':        '社交媒体',
@@ -1523,6 +1524,7 @@ const ja = {
   'pp.loading':              'ペッパーコーンが聞いています…',
   'pp.saving':               '保存中…',
   'pp.saved':                '保存しました',
+  'pp.draftsUpdating':       '保存しました — アウトリーチの下書きをバックグラウンドで更新中です（少し時間がかかります）',
   'pp.saveError':            '保存に失敗しました — もう一度お試しください',
 
   'pp.sec.instagram':        'ソーシャルメディア',
@@ -2548,6 +2550,7 @@ const en = {
   'pp.loading':              'Peppercorn is listening…',
   'pp.saving':               'Saving…',
   'pp.saved':                'Saved',
+  'pp.draftsUpdating':       'Saved — your outreach drafts are updating in the background (takes a moment)',
   'pp.saveError':            'Save failed — please try again',
 
   'pp.sec.instagram':        'Social Presence',

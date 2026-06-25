@@ -1772,9 +1772,14 @@ export default function PeppercornPage({ nav }) {
         body: JSON.stringify(next),
       })
       if (!r.ok) throw new Error(r.status)
-      setStatusMsg(t('pp.saved'))
+      // The backend reports regen_started when a statement edit kicked off a
+      // background draft refresh — tell her it's updating so the wait reads as
+      // progress, not a no-op.
+      let updating = false
+      try { updating = !!(await r.json())?.regen_started } catch { /* ignore */ }
+      setStatusMsg(updating ? t('pp.draftsUpdating') : t('pp.saved'))
       setIsSaved(true)
-      setTimeout(() => { setStatusMsg(''); setIsSaved(false) }, 2000)
+      setTimeout(() => { setStatusMsg(''); setIsSaved(false) }, updating ? 5000 : 2000)
     } catch {
       setStatusMsg(t('pp.saveError'))
       setTimeout(() => setStatusMsg(''), 3000)
