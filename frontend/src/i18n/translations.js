@@ -97,6 +97,9 @@ const zh = {
   // ── OppCard ───────────────────────────────────────────────────────────────
   'card.details':            '详情',
   'card.close':              '关闭',
+  'card.conf.strong':        '高度契合',
+  'card.conf.medium':        '值得一看',
+  'card.conf.low':           '把握较低',
   'card.feedback.label':     '教猫饼',
   'card.feedback.follow':    '关注',
   'card.feedback.applied':   '已申请',
@@ -2344,6 +2347,9 @@ const en = {
 
   'card.details':            'Details',
   'card.close':              'Close',
+  'card.conf.strong':        'Strong fit',
+  'card.conf.medium':        'Worth a look',
+  'card.conf.low':           'Lower confidence',
   'card.recommendation.ready':'Why Mochi picked it:',
   'card.recommendation.review':'Check before acting:',
   'card.feedback.follow':    'Follow',

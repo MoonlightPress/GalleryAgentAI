@@ -164,7 +164,7 @@ function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
       </div>
 
       {activeOpp && (
-        <div ref={detailRef}>
+        <div ref={detailRef} style={{ scrollMarginTop: 100 }}>
           <OppDetailPanel
             opp={activeOpp}
             onClose={() => setActiveId(null)}
@@ -400,7 +400,7 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
 
       {/* Detail panel — full width, below the grid */}
       {activeOpp && (
-        <div ref={detailRef}>
+        <div ref={detailRef} style={{ scrollMarginTop: 100 }}>
           <OppDetailPanel
             opp={activeOpp}
             onClose={() => setActiveId(null)}

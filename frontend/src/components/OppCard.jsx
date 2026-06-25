@@ -135,6 +135,16 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
   const deadlineText = localizeDeadline(opp, lang, t)
   const deadlineUrgent = isUrgentDeadline(opp.deadline) && !opp.deadline_past
 
+  // Confidence dot (top-right): a soft, glanceable signal that replaces the
+  // clinical numeric score — green = strong fit, amber = worth a look, grey =
+  // lower confidence. Derived from the same readiness the ranking uses.
+  const _confStatus = opp.actionability_status || opp.recommendation?.readiness || ''
+  const confLevel = _confStatus === 'ready' ? 'strong'
+    : _confStatus === 'closed_or_stale' ? 'low'
+    : 'medium'
+  const confColor = confLevel === 'strong' ? '#5a7a30'
+    : confLevel === 'low' ? '#b3a9a0' : '#d4912f'
+
   async function handleFeedback(actionId) {
     const next = feedback === actionId ? null : actionId
     setFeedback(next)
@@ -150,6 +160,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
 
   return (
     <div className={`opp-card${isOpen ? ' opp-card--open' : ''}`}>
+      <span className="opp-conf-dot" style={{ background: confColor }} title={t(`card.conf.${confLevel}`)} aria-hidden="true" />
 
       <div className="opp-card-body">
 
