@@ -23,20 +23,30 @@ def _page_label(page) -> str:
     return PAGE_LABELS.get(page, str(page).replace("_", " ").title())
 
 
-def describe_event(event: dict, day: int | None = None) -> tuple[str, str]:
+def describe_event(event: dict, day: int | None = None,
+                   returning: bool | None = None) -> tuple[str, str]:
     """Turn a navigation event into ``(message, status)`` for the Discord feed.
 
     Event types: ``open`` (session start), ``nav`` (page change), ``action``
     (a meaningful action like a profile edit). Unknown shapes degrade to a
     safe generic string rather than raising.
+
+    ``returning`` (when known) makes the open message say whether this is a
+    repeat visitor or a new one — so a scattered one-off hit is distinguishable
+    from someone actually coming back. ``None`` keeps the old generic wording.
     """
     event = event or {}
     etype = event.get("type")
 
     if etype == "open":
+        who = ("A returning visitor" if returning is True
+               else "A new visitor" if returning is False
+               else "GEGYjiji")
         label = _page_label(event.get("page"))
-        day_part = f" — day {day}" if day else ""
-        return f"📊 GEGYjiji opened Mochi{day_part} (on {label})", "info"
+        day_part = f" · day {day}" if day else ""
+        vid = str(event.get("visitor_id") or "")[:6]
+        vid_part = f" · id {vid}" if vid else ""
+        return f"📊 {who} opened Mochi{day_part} · on {label}{vid_part}", "info"
 
     if etype == "nav":
         to = _page_label(event.get("page"))
@@ -56,6 +66,23 @@ def _as_int(value, default=0) -> int:
         return int(value)
     except (TypeError, ValueError):
         return default
+
+
+def mark_visitor(log: dict, visitor_id) -> tuple[dict, bool]:
+    """Track distinct anonymous visitor ids so the feed can say 'returning' vs
+    'new'. Returns ``(updated_log, returning)``. A missing id is treated as new
+    and not stored. Content-blind: an opaque id, never anything about her."""
+    log = dict(log or {})
+    if not visitor_id:
+        return log, False
+    seen = log.get("visitor_ids")
+    if not isinstance(seen, list):
+        seen = []
+    returning = visitor_id in seen
+    if not returning:
+        seen.append(visitor_id)
+        log["visitor_ids"] = seen
+    return log, returning
 
 
 def register_visit(log: dict, today: str) -> tuple[dict, bool, int]:

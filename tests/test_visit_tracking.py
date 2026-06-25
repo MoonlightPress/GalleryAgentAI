@@ -1,6 +1,6 @@
 import unittest
 
-from engines.visit_tracking import register_visit, describe_event
+from engines.visit_tracking import register_visit, describe_event, mark_visitor
 
 
 class RegisterVisitTests(unittest.TestCase):
@@ -41,6 +41,27 @@ class RegisterVisitTests(unittest.TestCase):
         self.assertEqual(log["total_visits"], 1)
 
 
+class MarkVisitorTests(unittest.TestCase):
+    """Anonymous returning-vs-new detection — tells a real repeat visitor from a
+    scattered one-off hit, without storing anything about her."""
+
+    def test_first_time_visitor_is_new(self):
+        log, returning = mark_visitor({}, "abc")
+        self.assertFalse(returning)
+        self.assertEqual(log["visitor_ids"], ["abc"])
+
+    def test_same_id_again_is_returning(self):
+        log, _ = mark_visitor({}, "abc")
+        log, returning = mark_visitor(log, "abc")
+        self.assertTrue(returning)
+        self.assertEqual(log["visitor_ids"], ["abc"])  # not duplicated
+
+    def test_missing_id_is_new_and_untracked(self):
+        log, returning = mark_visitor({}, None)
+        self.assertFalse(returning)
+        self.assertNotIn("visitor_ids", log)
+
+
 class DescribeEventTests(unittest.TestCase):
     """Human-readable, friendly-page-name messages for the live Discord feed."""
 
@@ -61,6 +82,15 @@ class DescribeEventTests(unittest.TestCase):
     def test_unknown_page_falls_back_to_titlecase(self):
         text, _ = describe_event({"type": "nav", "page": "mystery"})
         self.assertIn("Mystery", text)
+
+    def test_open_says_returning_or_new_when_known(self):
+        ret, _ = describe_event({"type": "open", "page": "observe", "visitor_id": "abcdef12"}, day=2, returning=True)
+        self.assertIn("returning", ret.lower())
+        self.assertIn("opened", ret.lower())
+        self.assertIn("Saffron", ret)
+        self.assertIn("abcdef", ret)  # short id surfaced
+        new, _ = describe_event({"type": "open", "page": "discover"}, day=1, returning=False)
+        self.assertIn("new visitor", new.lower())
 
     def test_action_event_is_described(self):
         text, _ = describe_event({"type": "action", "action": "edited her statement"})
