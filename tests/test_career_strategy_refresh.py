@@ -60,6 +60,17 @@ class CareerStrategyRefreshTests(unittest.TestCase):
         t3_after = after["readiness_scores"]["tier_3_readiness"]
         self.assertGreater(t3_after, t3_before)
 
+    def test_membership_clears_jws_gap(self):
+        self.cse.build_career_strategy_report()
+        before_ids = {g["gap_id"] for g in self.client.get("/api/career_strategy").json()["blocking_gaps"]}
+        self.assertIn("jws", before_ids)
+
+        r = self.client.post("/api/membership", json={"name": "Japan Watercolor Society"})
+        self.assertEqual(r.status_code, 200)
+
+        after_ids = {g["gap_id"] for g in self.client.get("/api/career_strategy").json()["blocking_gaps"]}
+        self.assertNotIn("jws", after_ids)
+
 
 if __name__ == "__main__":
     unittest.main()

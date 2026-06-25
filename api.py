@@ -2892,6 +2892,31 @@ def delete_exhibition(entry_id: str):
     return {"ok": True}
 
 
+@app.post("/api/membership")
+async def add_membership(request: Request):
+    """Record a society/organization membership (e.g. the Japan Watercolor
+    Society) on the master profile so the matching readiness gap clears. Used by
+    the "I already did this" button on the non-show readiness requirement."""
+    payload = await request.json()
+    name = (payload.get("name") or "").strip()
+    if not name:
+        return {"ok": False, "error": "missing name"}
+    mpath = DATA_DIR / "artist_master_profile.json"
+    master = _load_json(mpath, {})
+    ch = master.setdefault("career_history", {})
+    memberships = ch.setdefault("memberships", [])
+    entry = {
+        "name": name,
+        "year": payload.get("year"),
+        "note": payload.get("note"),
+        "logged_at": datetime.now(timezone.utc).isoformat(),
+    }
+    memberships.append(entry)
+    _save_her_data(mpath, master)
+    _refresh_career_strategy()
+    return {"ok": True, "entry": entry}
+
+
 @app.get("/api/today")
 def get_today():
     items = load_opportunities()

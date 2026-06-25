@@ -203,8 +203,15 @@ def _count_group_shows(profile: dict, ex_log: list) -> int:
         if e.get("type") == "group"
         and e.get("outcome") in ("shown", "completed", None, "")
         and (e.get("title") or "").strip() != "Tide from China Part1"
+        and _confirmed(e)
     )
     return base + logged
+
+
+def _confirmed(e: dict) -> bool:
+    """A logged show counts as evidence unless explicitly unconfirmed
+    (e.g. confidence 'mentioned') — evidence over prediction."""
+    return (e.get("confidence") or "").lower() not in ("mentioned", "unconfirmed")
 
 
 def _has_solo_show(profile: dict, ex_log: list) -> bool:
@@ -212,7 +219,9 @@ def _has_solo_show(profile: dict, ex_log: list) -> bool:
         if "solo" in (ex.get("type") or "").lower():
             return True
     for e in ex_log:
-        if e.get("type") == "solo" and e.get("outcome") in ("shown", "completed", None, ""):
+        if (e.get("type") == "solo"
+                and e.get("outcome") in ("shown", "completed", None, "")
+                and _confirmed(e)):
             return True
     return False
 
@@ -225,9 +234,12 @@ def _has_institutional_show(profile: dict, ex_log: list) -> bool:
         if any(kw in (ex.get("venue") or "").lower() for kw in KWS):
             return True
     for e in ex_log:
-        if any(kw in (e.get("venue") or "").lower() for kw in KWS):
-            if e.get("outcome") in ("shown", "completed", None, ""):
-                return True
+        venue_match = any(kw in (e.get("venue") or "").lower() for kw in KWS)
+        type_match = e.get("type") == "institutional"
+        if ((venue_match or type_match)
+                and e.get("outcome") in ("shown", "completed", None, "")
+                and _confirmed(e)):
+            return True
     return False
 
 
@@ -242,7 +254,7 @@ def _has_international_show(profile: dict, ex_log: list) -> bool:
     for e in ex_log:
         country = (e.get("country") or "").lower()
         if country and country not in ("japan", "china"):
-            if e.get("outcome") in ("shown", "completed", None, ""):
+            if e.get("outcome") in ("shown", "completed", None, "") and _confirmed(e):
                 return True
     return False
 
@@ -313,6 +325,7 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
     if group_shows < 3:
         needed = 3 - group_shows
         gaps.append({
+            "gap_id":   "group_shows",
             "gap":      "Insufficient group show history",
             "detail":   (
                 f"Only {group_shows} confirmed group show(s). "
@@ -325,6 +338,7 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
 
     if not has_solo:
         gaps.append({
+            "gap_id":   "solo_show",
             "gap":      "No solo show on CV",
             "detail":   (
                 "No solo exhibition confirmed in Tokyo or elsewhere. "
@@ -337,6 +351,7 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
 
     if not has_institutional:
         gaps.append({
+            "gap_id":   "institutional_show",
             "gap":      "No institutional exhibition history",
             "detail":   (
                 "No show at an arts council, public gallery, or institutional space. "
@@ -349,6 +364,7 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
 
     if not has_international:
         gaps.append({
+            "gap_id":   "international_show",
             "gap":      "No international exhibition outside Japan/China",
             "detail":   (
                 "All confirmed exhibition history is in Japan (and China, via Kinoko Kingdom). "
@@ -360,6 +376,7 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
 
     if not has_jws:
         gaps.append({
+            "gap_id":   "jws",
             "gap":      "No Japan Watercolor Society membership or exhibition",
             "detail":   (
                 "The Japan Watercolor Society annual exhibition is a Tier 3 credibility marker "
