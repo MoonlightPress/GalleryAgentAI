@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-06-25T06:01:06.633449+00:00",
+  "_generated_at": "2026-06-25T06:28:45.185271+00:00",
   "_engine_version": "2.0",
   "current_phase": "Tier 1-2 foundation building",
   "phase_note": "Age 26, planning a deep-work year around 30. The next 3–4 years are for accumulation: exhibition history, publishing relationships, peer network, and body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now, not acted on until the foundation is solid.",
@@ -25,9 +25,12 @@
     "next_unlock": {
       "gap_id": "group_shows",
       "gap": "A few more group shows opens Tier 3",
+      "gap_zh": "再来几场联展，就能开启第三级",
       "detail": "You have 1 confirmed group show — a real start. 2 more brings you to the 3 that open Tier 3 conversations with Tokyo galleries. This is your fastest move up.",
+      "detail_zh": "你已经有 1 场已确认的联展——这是实打实的起点。再来 2 场，就凑齐了与东京画廊洽谈第三级所需的 3 场。这是你当下最快的进阶之路。",
       "priority": "high",
-      "action": "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN"
+      "action": "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN",
+      "action_zh": "向 3331 Arts Chiyoda、Design Festa Gallery、Gallery IYN 的公开征集投递"
     }
   },
   "immediate_priorities": [
@@ -180,40 +183,56 @@
     {
       "gap_id": "group_shows",
       "gap": "A few more group shows opens Tier 3",
+      "gap_zh": "再来几场联展，就能开启第三级",
       "detail": "You have 1 confirmed group show — a real start. 2 more brings you to the 3 that open Tier 3 conversations with Tokyo galleries. This is your fastest move up.",
+      "detail_zh": "你已经有 1 场已确认的联展——这是实打实的起点。再来 2 场，就凑齐了与东京画廊洽谈第三级所需的 3 场。这是你当下最快的进阶之路。",
       "priority": "high",
-      "action": "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN"
+      "action": "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN",
+      "action_zh": "向 3331 Arts Chiyoda、Design Festa Gallery、Gallery IYN 的公开征集投递"
     },
     {
       "gap_id": "solo_show",
       "gap": "A first solo show is within reach",
+      "gap_zh": "首次个展，已经触手可及",
       "detail": "A first solo show is a real leap in credibility for Tier 3 calls — and it's an achievable next step. Even a small bookshop-gallery or café solo counts.",
+      "detail_zh": "首次个展会让你在第三级征集中的公信力实现真正的飞跃——而且这是可以达成的下一步。哪怕是书店画廊或咖啡馆里的小型个展，也算数。",
       "priority": "medium",
-      "action": "Target bookshop gallery solo show: UTRECHT, Book and Sons, flotsam books, 日記屋 月日"
+      "action": "Target bookshop gallery solo show: UTRECHT, Book and Sons, flotsam books, 日記屋 月日",
+      "action_zh": "争取书店画廊个展：UTRECHT、Book and Sons、flotsam books、日記屋 月日"
     },
     {
       "gap_id": "institutional_show",
       "gap": "An institutional show is the next door to open",
+      "gap_zh": "机构展览，是下一扇待你推开的门",
       "detail": "An arts-council or public-gallery show is the next credibility door to open. TOKAS, BankART1929, and Youkobo are realistic near-term entries for where you are now.",
+      "detail_zh": "在艺术委员会或公立画廊办展，是下一扇值得推开的公信力之门。TOKAS、BankART1929 与 Youkobo，都是以你现在的位置切实可及的近期入口。",
       "priority": "medium",
-      "action": "Watch TOKAS open calls and Youkobo artist-in-residence programs"
+      "action": "Watch TOKAS open calls and Youkobo artist-in-residence programs",
+      "action_zh": "关注 TOKAS 公开征集与 Youkobo 驻地项目"
     },
     {
       "gap_id": "international_show",
       "gap": "International reach, whenever you want it",
+      "gap_zh": "国际舞台，随时为你敞开",
       "detail": "Your shows so far are in Japan and China — a strong base. Adding an international showing, even a remote open call, opens residencies and fellowships when you want them.",
+      "detail_zh": "你目前的展览集中在日本与中国——这是坚实的根基。再添一次国际展出，哪怕是一次远程公开征集，就能在你想要的时候打开驻地与奖助的大门。",
       "priority": "low",
-      "action": "Consider global watercolor open calls or table at Offprint Paris / London Art Book Fair"
+      "action": "Consider global watercolor open calls or table at Offprint Paris / London Art Book Fair",
+      "action_zh": "考虑国际水彩公开征集，或在 Offprint Paris／London Art Book Fair 设展位"
     },
     {
       "gap_id": "jws",
       "gap": "The Japan Watercolor Society is open to you",
+      "gap_zh": "日本水彩画会，正向你敞开",
       "detail": "The Japan Watercolor Society annual exhibition is a Tier 3 credibility marker for watercolor artists in Japan — and non-members can enter the juried calls. An open door whenever you're ready.",
+      "detail_zh": "日本水彩画会的年度展览，是日本水彩艺术家第三级公信力的标志——而且非会员也可以参加评审征集。这扇门，随时为你敞开。",
       "priority": "low",
-      "action": "Research Japan Watercolor Society (公益社団法人日本水彩画会) annual entry process"
+      "action": "Research Japan Watercolor Society (公益社団法人日本水彩画会) annual entry process",
+      "action_zh": "了解日本水彩画会（公益社団法人日本水彩画会）的年度参展流程"
     }
   ],
   "next_milestone": "Complete 2 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.",
+  "next_milestone_zh": "再完成 2 场东京联展，达到开启第三级洽谈所需的 3 场最低门槛。",
   "months_to_tier3": 12,
   "pipeline_summary": {
     "total_active": 428,

@@ -171,9 +171,10 @@ const SF_ZH = {
   "Tier 1-2 foundation building": "第 1–2 层级的基础建设",
   "Complete 2 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.": "再完成 2 场东京联展，达到开启第 3 层级洽谈所需的 3 场最低门槛。",
   // Gap titles + details — opportunity framing (positive reinforcement)
-  "A few more group shows opens Tier 3": "再来几场联展，就能开启第三级",
-  "You have 1 confirmed group show — a real start. 2 more brings you to the 3 that open Tier 3 conversations with Tokyo galleries. This is your fastest move up.": "你已经有 1 场已确认的联展——这是实打实的起点。再来 2 场，就凑齐了与东京画廊洽谈第三级所需的 3 场。这是你当下最快的进阶之路。",
-  "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN": "向 3331 Arts Chiyoda、Design Festa Gallery、Gallery IYN 的公开征集投递",
+  // NOTE: readiness gap/detail/action strings are now localized at the source —
+  // career_strategy_engine emits *_zh siblings with the live counts, and
+  // CareerReadiness reads them via locF. No baked-count sentences live here
+  // anymore (they leaked English the moment a count changed).
   "A first solo show is within reach": "首次个展，已经触手可及",
   "A first solo show is a real leap in credibility for Tier 3 calls — and it's an achievable next step. Even a small bookshop-gallery or café solo counts.": "首次个展会让你在第三级征集中的公信力实现真正的飞跃——而且这是可以达成的下一步。哪怕是书店画廊或咖啡馆里的小型个展，也算数。",
   "Target bookshop gallery solo show: UTRECHT, Book and Sons, flotsam books, 日記屋 月日": "争取书店画廊个展：UTRECHT、Book and Sons、flotsam books、日記屋 月日",
@@ -1956,7 +1957,7 @@ function LevelUpBanner({ level, t }) {
 }
 
 function CareerReadiness({ data, onChanged }) {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const [showMore, setShowMore] = useState(false)
   if (!data) return null
 
@@ -2031,9 +2032,9 @@ function CareerReadiness({ data, onChanged }) {
       {nextUnlock && (
         <div className="sf-next-unlock">
           <div className="sf-next-unlock-label">{t('sf.cr.nextUnlock')}</div>
-          <div className="sf-next-unlock-gap">{nextUnlock.gap}</div>
-          {nextUnlock.detail && <p className="sf-next-unlock-detail">{nextUnlock.detail}</p>}
-          {nextUnlock.action && <p className="sf-next-unlock-action">{nextUnlock.action}</p>}
+          <div className="sf-next-unlock-gap">{locF(nextUnlock, 'gap', lang)}</div>
+          {nextUnlock.detail && <p className="sf-next-unlock-detail">{locF(nextUnlock, 'detail', lang)}</p>}
+          {nextUnlock.action && <p className="sf-next-unlock-action">{locF(nextUnlock, 'action', lang)}</p>}
           {unlockActionable && (
             <>
               <p className="sf-next-unlock-hint">{t('sf.cr.nextUnlockHint')}</p>
@@ -2058,8 +2059,8 @@ function CareerReadiness({ data, onChanged }) {
                     style={{ background: GAP_DOT_COLORS[g.priority] ?? '#b0a080' }}
                   />
                   <div className="sf-readiness-gap-body">
-                    <span className="sf-readiness-gap-text">{g.gap}</span>
-                    {g.action && <span className="sf-readiness-gap-action">{g.action}</span>}
+                    <span className="sf-readiness-gap-text">{locF(g, 'gap', lang)}</span>
+                    {g.action && <span className="sf-readiness-gap-action">{locF(g, 'action', lang)}</span>}
                     <GapCorrectionForm gap={g} onChanged={onChanged} />
                   </div>
                 </div>

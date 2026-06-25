@@ -363,68 +363,103 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
     # Framed as opportunities ahead, not deficits. The whole readiness surface
     # reads "here's where you are, and here's what's in reach" — never "here's
     # what you lack." (Scott, 2026-06-25: positive reinforcement throughout.)
+    #
+    # Each string carries its own _zh sibling, generated with the SAME live
+    # counts. The UI prefers the _zh, so it never has to match a whole baked
+    # English sentence — which silently leaked English the moment a count changed.
     if group_shows < 3:
         needed = 3 - group_shows
         s = "s" if group_shows != 1 else ""
         gaps.append({
             "gap_id":   "group_shows",
             "gap":      "A few more group shows opens Tier 3",
+            "gap_zh":   "再来几场联展，就能开启第三级",
             "detail":   (
                 f"You have {group_shows} confirmed group show{s} — a real start. "
                 f"{needed} more brings you to the 3 that open Tier 3 conversations with "
                 f"Tokyo galleries. This is your fastest move up."
             ),
+            "detail_zh": (
+                f"你已经有 {group_shows} 场已确认的联展——这是实打实的起点。"
+                f"再来 {needed} 场，就凑齐了与东京画廊洽谈第三级所需的 3 场。"
+                "这是你当下最快的进阶之路。"
+            ),
             "priority": "high",
             "action":   "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN",
+            "action_zh": "向 3331 Arts Chiyoda、Design Festa Gallery、Gallery IYN 的公开征集投递",
         })
 
     if not has_solo:
         gaps.append({
             "gap_id":   "solo_show",
             "gap":      "A first solo show is within reach",
+            "gap_zh":   "首次个展，已经触手可及",
             "detail":   (
                 "A first solo show is a real leap in credibility for Tier 3 calls — and it's "
                 "an achievable next step. Even a small bookshop-gallery or café solo counts."
             ),
+            "detail_zh": (
+                "首次个展会让你在第三级征集中的公信力实现真正的飞跃——而且这是可以达成的下一步。"
+                "哪怕是书店画廊或咖啡馆里的小型个展，也算数。"
+            ),
             "priority": "medium",
             "action":   "Target bookshop gallery solo show: UTRECHT, Book and Sons, flotsam books, 日記屋 月日",
+            "action_zh": "争取书店画廊个展：UTRECHT、Book and Sons、flotsam books、日記屋 月日",
         })
 
     if not has_institutional:
         gaps.append({
             "gap_id":   "institutional_show",
             "gap":      "An institutional show is the next door to open",
+            "gap_zh":   "机构展览，是下一扇待你推开的门",
             "detail":   (
                 "An arts-council or public-gallery show is the next credibility door to open. "
                 "TOKAS, BankART1929, and Youkobo are realistic near-term entries for where you are now."
             ),
+            "detail_zh": (
+                "在艺术委员会或公立画廊办展，是下一扇值得推开的公信力之门。"
+                "TOKAS、BankART1929 与 Youkobo，都是以你现在的位置切实可及的近期入口。"
+            ),
             "priority": "medium",
             "action":   "Watch TOKAS open calls and Youkobo artist-in-residence programs",
+            "action_zh": "关注 TOKAS 公开征集与 Youkobo 驻地项目",
         })
 
     if not has_international:
         gaps.append({
             "gap_id":   "international_show",
             "gap":      "International reach, whenever you want it",
+            "gap_zh":   "国际舞台，随时为你敞开",
             "detail":   (
                 "Your shows so far are in Japan and China — a strong base. Adding an international "
                 "showing, even a remote open call, opens residencies and fellowships when you want them."
             ),
+            "detail_zh": (
+                "你目前的展览集中在日本与中国——这是坚实的根基。"
+                "再添一次国际展出，哪怕是一次远程公开征集，就能在你想要的时候打开驻地与奖助的大门。"
+            ),
             "priority": "low",
             "action":   "Consider global watercolor open calls or table at Offprint Paris / London Art Book Fair",
+            "action_zh": "考虑国际水彩公开征集，或在 Offprint Paris／London Art Book Fair 设展位",
         })
 
     if not has_jws:
         gaps.append({
             "gap_id":   "jws",
             "gap":      "The Japan Watercolor Society is open to you",
+            "gap_zh":   "日本水彩画会，正向你敞开",
             "detail":   (
                 "The Japan Watercolor Society annual exhibition is a Tier 3 credibility marker for "
                 "watercolor artists in Japan — and non-members can enter the juried calls. "
                 "An open door whenever you're ready."
             ),
+            "detail_zh": (
+                "日本水彩画会的年度展览，是日本水彩艺术家第三级公信力的标志——"
+                "而且非会员也可以参加评审征集。这扇门，随时为你敞开。"
+            ),
             "priority": "low",
             "action":   "Research Japan Watercolor Society (公益社団法人日本水彩画会) annual entry process",
+            "action_zh": "了解日本水彩画会（公益社団法人日本水彩画会）的年度参展流程",
         })
 
     return gaps
@@ -501,24 +536,38 @@ def build_career_strategy_report():
     months_to_t3 = _months_to_tier3(group_shows, has_institutional)
 
     if group_shows < 3:
+        _n = 3 - group_shows
         next_milestone = (
-            f"Complete {3 - group_shows} more Tokyo group show(s) to reach the "
+            f"Complete {_n} more Tokyo group show(s) to reach the "
             "3-show minimum that opens Tier 3 conversations."
+        )
+        next_milestone_zh = (
+            f"再完成 {_n} 场东京联展，达到开启第三级洽谈所需的 3 场最低门槛。"
         )
     elif not has_solo:
         next_milestone = (
             "Secure a first solo show — a bookshop gallery exhibition (UTRECHT, Book and Sons) "
             "is the most achievable and strategically natural next step."
         )
+        next_milestone_zh = (
+            "争取一次个展——书店画廊展览（UTRECHT、Book and Sons）是最可行、也最顺理成章的下一步。"
+        )
     elif not has_institutional:
         next_milestone = (
             "Apply to a Tier 3 institutional open call (TOKAS, Youkobo, BankART1929) "
             "to establish the first institutional exhibition credit."
         )
+        next_milestone_zh = (
+            "投递一次第三级机构公开征集（TOKAS、Youkobo、BankART1929），建立首个机构展览履历。"
+        )
     else:
         next_milestone = (
             "Begin preparing the artist statement and portfolio body for Tier 4 applications "
             "(Cité Internationale des Arts, Asian Cultural Council) in the 2–3 year window."
+        )
+        next_milestone_zh = (
+            "开始为第四级申请（Cité Internationale des Arts、Asian Cultural Council）"
+            "准备艺术家自述与作品体系，瞄准 2–3 年的窗口。"
         )
 
     # ── Blocking gaps ─────────────────────────────────────────────────────────
@@ -538,13 +587,19 @@ def build_career_strategy_report():
         next_unlock = {
             "gap_id":   "advanced",
             "gap":      "Foundation complete — building Tier 4 body of work",
+            "gap_zh":   "根基已成——正在积累第四级的作品体系",
             "detail":   (
                 "Every near-term credibility gap is closed. The work now is depth: "
                 "a coherent body of work and the artist statement for prestige "
                 "applications (residencies, fellowships, international societies)."
             ),
+            "detail_zh": (
+                "近期所有的公信力目标都已达成。接下来的功课是深度：一套连贯的作品体系，"
+                "以及面向声望级申请（驻地、奖助、国际协会）的艺术家自述。"
+            ),
             "priority": "low",
             "action":   "Prepare the Tier 4 portfolio and statement; track prestige deadlines.",
+            "action_zh": "准备第四级的作品集与自述；持续关注声望级的截止日期。",
         }
     level["next_unlock"] = next_unlock
 
@@ -592,6 +647,7 @@ def build_career_strategy_report():
 
         "blocking_gaps":   blocking_gaps,
         "next_milestone":  next_milestone,
+        "next_milestone_zh": next_milestone_zh,
         "months_to_tier3": months_to_t3,
 
         "pipeline_summary": {

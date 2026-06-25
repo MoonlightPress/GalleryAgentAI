@@ -12,7 +12,7 @@ import unittest
 from unittest import mock
 
 import api
-from engines.career_strategy_engine import _career_level
+from engines.career_strategy_engine import _career_level, _blocking_gaps
 
 
 def _opp(tier, score=10.0):
@@ -91,6 +91,33 @@ class CareerLevelTests(unittest.TestCase):
         self.assertEqual(lv["current"], 4)
         self.assertIsNone(lv["next"])
         self.assertEqual(lv["progress_to_next"], 1.0)
+
+
+class GapLocalizationTests(unittest.TestCase):
+    """The leak fix: count-bearing readiness strings carry a _zh sibling built
+    with the SAME live count, so zh never falls back to an English baked sentence
+    when the count changes."""
+
+    def _group_gap(self, group_shows):
+        gaps = _blocking_gaps(group_shows, has_solo=False, has_institutional=False,
+                              has_international=False, has_jws=False)
+        return next(g for g in gaps if g["gap_id"] == "group_shows")
+
+    def test_every_gap_has_zh_siblings(self):
+        for g in _blocking_gaps(1, False, False, False, False):
+            self.assertIn("gap_zh", g)
+            self.assertIn("detail_zh", g)
+            self.assertIn("action_zh", g)
+
+    def test_count_tracks_in_both_languages(self):
+        g1 = self._group_gap(1)
+        self.assertIn("1", g1["detail"]); self.assertIn("2 more", g1["detail"])
+        self.assertIn("1", g1["detail_zh"]); self.assertIn("再来 2 场", g1["detail_zh"])
+
+        g2 = self._group_gap(2)
+        self.assertIn("2 confirmed", g2["detail"]); self.assertIn("1 more", g2["detail"])
+        # The zh moves in lockstep — this is exactly what used to leak.
+        self.assertIn("2 场已确认", g2["detail_zh"]); self.assertIn("再来 1 场", g2["detail_zh"])
 
 
 if __name__ == "__main__":
