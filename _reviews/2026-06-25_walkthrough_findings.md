@@ -3,6 +3,22 @@
 From a hands-on pass over the deployed app (post Discord-feed + auto-regen + backups deploy).
 Root causes traced against the code. Severity is for the **send-to-GEGYjiji** decision.
 
+## ⭐ 0. The "act now" surface isn't accomplishable (HIGHEST — found 2026-06-25 session 2)
+
+Looking through her eyes, the headline surface shows nothing she can *do*. Evidence:
+- All **7** `immediate_best_moves` items are passive evergreen venues (bookstore_gallery ×2,
+  fair_popup ×2, bookstore_event, zine_shop_consignment, zine_fair_booth) — none is a dated open
+  call. UTRECHT's `quick_action` is literally *"Visit their website... get a feel for the space
+  before considering a zine project,"* with a year-stale deadline (1 July 2025) stuck on it.
+- **Tokyo Art Book Fair appears 8× across buckets** — "Tokyo Art Book Fair" (deadline 2027!),
+  "TOKIO ART BOOK FAIR 2026" (typo), a museum-URL dup, + 5 in reject/stretch. Same event, different
+  spellings/dates/URLs. UTRECHT (which *runs* TABF) is also listed separately.
+
+Root cause: the act-now bucket ranks evergreen "browse/consign anytime" venues at the top with passive
+actions + fake deadlines, instead of dated, accomplishable open calls. Fix: (1) "act now" = only dated,
+accomplishable actions; evergreen venues → a labeled "rolling — pitch anytime" shelf; (2) dedupe events;
+(3) kill stale-deadline display on evergreen venues. **Likely a send-blocker** — it's the core promise.
+
 ## A. The feedback loop is only half-built (HIGH — undercuts the core promise)
 
 1. **Adding accomplishments does NOT update the advice.** (Scott added 3 group shows; advice
