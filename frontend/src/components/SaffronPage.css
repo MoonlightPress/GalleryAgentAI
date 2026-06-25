@@ -2356,6 +2356,22 @@
   color: #c47a35;
 }
 
+/* Clickable count rows (Market stats / actionability) — buttons styled as rows */
+.sf-clickable-count {
+  width: 100%;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+.sf-clickable-count:hover { background: #fbf2dd; }
+.sf-count-arrow { color: #c9b48a; transition: color 0.15s ease; }
+.sf-clickable-count:hover .sf-count-arrow { color: #c47a35; }
+
 /* ── Career Readiness — hybrid reframe ─────────────────────────────────────── */
 
 /* Level-up celebration */

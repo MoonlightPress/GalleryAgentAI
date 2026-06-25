@@ -83,155 +83,172 @@ def parse_fee_amount(fees_str):
     return max(amounts) if amounts else None
 
 
+def build_pref_context(profile: dict) -> dict | None:
+    """Precompute all preference flags/sets from a profile. Returns None when
+    there's nothing to apply, so callers can cheaply skip."""
+    if not profile:
+        return None
+    priorities = profile.get("priorities", {})
+    preferences = profile.get("preferences", {})
+    ctx = {
+        "primary_track":  priorities.get("primary_track", "hybrid"),
+        "active_tiers":   [int(t) for t in (priorities.get("active_tiers") or [1, 2])],
+        "avoid":          set(priorities.get("avoid") or []),
+        "surface_more":   set(preferences.get("surface_more") or []),
+        "surface_less":   set(preferences.get("surface_less") or []),
+    }
+    fee_tolerance = preferences.get("fee_tolerance", "medium")
+    geo_focus = preferences.get("geo_focus") or ["tokyo", "international"]
+    ctx["suppress_high_fee"]     = fee_tolerance in ("free", "low") or "high_fees" in ctx["avoid"]
+    ctx["suppress_international"] = "international" not in geo_focus or "international_travel" in ctx["avoid"]
+    ctx["avoid_photography"]     = "photography_calls" in ctx["avoid"]
+    ctx["avoid_digital"]         = "digital_only" in ctx["avoid"]
+    ctx["avoid_large_group"]     = "large_group" in ctx["avoid"]
+    geo_country_map = {"tokyo": "japan", "japan": "japan", "beijing": "china", "international": None}
+    allowed = {m for g in geo_focus if (m := geo_country_map.get(g))}
+    allowed.add("japan")  # always allow Japan
+    ctx["allowed_countries"] = allowed
+    return ctx
+
+
+def restore_baseline(opp: dict) -> dict:
+    """Return a copy of `opp` with every preference effect undone — original
+    score and bucket restored, markers cleared. Makes application idempotent
+    AND bidirectional: re-applying a changed profile both adds and REMOVES
+    effects, instead of leaving stale suppression baked in.
+
+    Handles both new markers (peppercorn_base_score / _base_bucket) and the
+    older delta-only markers, so it works on data from any prior pipeline run."""
+    o = dict(opp)
+    # Score: prefer the recorded base; otherwise reverse the recorded deltas.
+    if "peppercorn_base_score" in o:
+        o["overall_score"] = o["peppercorn_base_score"]
+    else:
+        delta = float(o.get("peppercorn_track_boost", 0) or 0) + \
+                float(o.get("peppercorn_surface_nudge", 0) or 0)
+        if delta:
+            o["overall_score"] = round(float(o.get("overall_score", 0) or 0) - delta, 2)
+    # Bucket: restore the recorded base, or (older data) infer IBM — the engine
+    # only ever suppressed opps that started in the IBM bucket.
+    if "peppercorn_base_bucket" in o:
+        o["exclusive_primary_bucket"] = o["peppercorn_base_bucket"]
+    elif o.get("peppercorn_suppressed"):
+        o["exclusive_primary_bucket"] = IBM_BUCKET
+    for k in ("peppercorn_base_score", "peppercorn_base_bucket", "peppercorn_track_boost",
+              "peppercorn_surface_nudge", "peppercorn_suppressed"):
+        o.pop(k, None)
+    return o
+
+
+def apply_to_opp(opp: dict, ctx: dict) -> dict:
+    """Apply the preference context to a single opportunity. Always restores the
+    baseline first, so the result depends only on the CURRENT profile — never on
+    what a previous run happened to bake in. Returns a new dict; never mutates
+    the input."""
+    o = restore_baseline(opp)
+    category = o.get("category", "") or ""
+    base_score = float(o.get("overall_score", 0) or 0)
+    base_bucket = o.get("exclusive_primary_bucket", "")
+    score = base_score
+
+    # ── Track-based score boost ──
+    if ctx["primary_track"] == "publication" and category in PUBLICATION_CATS:
+        score = round(min(10.0, base_score * 1.2), 2)
+        o["peppercorn_track_boost"] = round(score - base_score, 2)
+    elif ctx["primary_track"] == "gallery" and category in GALLERY_CATS:
+        score = round(min(10.0, base_score * 1.2), 2)
+        o["peppercorn_track_boost"] = round(score - base_score, 2)
+
+    # ── Surface more / less nudge ──
+    factor = 1.0
+    if any(_matches_surface_group(o, g) for g in ctx["surface_more"]):
+        factor *= SURFACE_MORE_FACTOR
+    if any(_matches_surface_group(o, g) for g in ctx["surface_less"]):
+        factor *= SURFACE_LESS_FACTOR
+    if factor != 1.0:
+        nudged_score = round(min(10.0, score * factor), 2)
+        if nudged_score != score:
+            o["peppercorn_surface_nudge"] = round(nudged_score - score, 2)
+            score = nudged_score
+
+    if score != base_score:
+        o["peppercorn_base_score"] = base_score
+        o["overall_score"] = score
+
+    # ── IBM suppression (only from the IBM bucket) ──
+    if base_bucket != IBM_BUCKET:
+        return o
+
+    def _suppress(reason):
+        o["peppercorn_base_bucket"] = base_bucket
+        o["exclusive_primary_bucket"] = SUPPRESSED_BUCKET
+        o["peppercorn_suppressed"] = reason
+        return o
+
+    if ctx["avoid_photography"] and (o.get("native_medium") == "photography"
+                                     or "photograph" in category.lower()):
+        return _suppress("avoid_photography_calls")
+    if ctx["avoid_digital"] and any(kw in category.lower() for kw in DIGITAL_ONLY_KEYWORDS):
+        return _suppress("avoid_digital_only")
+    if ctx["avoid_large_group"]:
+        _hay = f"{category} {o.get('name','')} {o.get('title','')}".lower()
+        if any(kw in _hay for kw in LARGE_GROUP_KEYWORDS):
+            return _suppress("avoid_large_group")
+
+    tier = o.get("career_tier")
+    if tier is not None:
+        try:
+            if int(tier) not in ctx["active_tiers"]:
+                return _suppress(f"tier_{tier}_not_active")
+        except (ValueError, TypeError):
+            pass
+
+    if ctx["suppress_high_fee"]:
+        amount = parse_fee_amount(o.get("fees", "") or "")
+        if amount is not None and amount >= HIGH_FEE_THRESHOLD:
+            return _suppress(f"high_fee_{int(amount)}")
+
+    if ctx["suppress_international"]:
+        country = (o.get("country", "") or "").strip().lower()
+        if country and country not in ctx["allowed_countries"]:
+            return _suppress(f"geo_suppressed_{country}")
+
+    return o
+
+
+def apply_preferences(opps: list, profile: dict) -> list:
+    """Apply a profile's preferences to a list of opportunities, returning a new
+    list of new dicts. A no-op (returns the input list unchanged) when there are
+    no preferences to apply. Safe to call at serve time on cached data."""
+    ctx = build_pref_context(profile)
+    if ctx is None:
+        return opps
+    return [apply_to_opp(o, ctx) for o in opps]
+
+
 def main():
     if not OPP_PATH.exists():
         print("No compact_opportunities.json — skipping.")
         return
-
     if not PROFILE_PATH.exists():
         print("No peppercorn_profile.json found — skipping preference adjustments.")
         return
-
     profile = json.loads(PROFILE_PATH.read_text(encoding="utf-8"))
     if not profile:
         print("Empty peppercorn_profile.json — skipping.")
         return
 
-    priorities = profile.get("priorities", {})
-    preferences = profile.get("preferences", {})
-
-    primary_track = priorities.get("primary_track", "hybrid")
-    active_tiers = [int(t) for t in (priorities.get("active_tiers") or [1, 2])]
-    fee_tolerance = preferences.get("fee_tolerance", "medium")
-    geo_focus = preferences.get("geo_focus") or ["tokyo", "international"]
-
-    # Previously-dead feedback loops: the artist's explicit avoid checklist and
-    # her surface-more / surface-less category preferences. These are opt-in —
-    # nothing happens unless she selected it — so honoring them never contradicts
-    # the "don't auto-penalize photography" rule.
-    avoid = set(priorities.get("avoid") or [])
-    surface_more = set(preferences.get("surface_more") or [])
-    surface_less = set(preferences.get("surface_less") or [])
-
-    suppress_high_fee = fee_tolerance in ("free", "low") or "high_fees" in avoid
-    suppress_international = "international" not in geo_focus or "international_travel" in avoid
-    avoid_photography = "photography_calls" in avoid
-    avoid_digital = "digital_only" in avoid
-    avoid_large_group = "large_group" in avoid
-
-    # Build allowed country set from geo_focus tokens
-    geo_country_map = {
-        "tokyo": "japan",
-        "japan": "japan",
-        "beijing": "china",
-        "international": None,
-    }
-    allowed_countries = set()
-    for g in geo_focus:
-        mapped = geo_country_map.get(g)
-        if mapped:
-            allowed_countries.add(mapped)
-    # Always allow Japan
-    allowed_countries.add("japan")
-
     opps = json.loads(OPP_PATH.read_text(encoding="utf-8"))
+    adjusted = apply_preferences(opps, profile)
+    OPP_PATH.write_text(json.dumps(adjusted, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    boosted = suppressed_tier = suppressed_fee = suppressed_geo = 0
-    nudged = suppressed_avoid = 0
-
-    for opp in opps:
-        category = opp.get("category", "") or ""
-        score = float(opp.get("overall_score", 0) or 0)
-        bucket = opp.get("exclusive_primary_bucket", "")
-
-        # ── Track-based score boost ──
-        if primary_track == "publication" and category in PUBLICATION_CATS:
-            new_score = round(min(10.0, score * 1.2), 2)
-            opp["overall_score"] = new_score
-            opp["peppercorn_track_boost"] = round(new_score - score, 2)
-            boosted += 1
-        elif primary_track == "gallery" and category in GALLERY_CATS:
-            new_score = round(min(10.0, score * 1.2), 2)
-            opp["overall_score"] = new_score
-            opp["peppercorn_track_boost"] = round(new_score - score, 2)
-            boosted += 1
-
-        # ── Surface more / less nudge (small, reflects stated category interest) ──
-        factor = 1.0
-        if any(_matches_surface_group(opp, g) for g in surface_more):
-            factor *= SURFACE_MORE_FACTOR
-        if any(_matches_surface_group(opp, g) for g in surface_less):
-            factor *= SURFACE_LESS_FACTOR
-        if factor != 1.0:
-            cur = float(opp.get("overall_score", 0) or 0)
-            new_score = round(min(10.0, cur * factor), 2)
-            if new_score != cur:
-                opp["overall_score"] = new_score
-                opp["peppercorn_surface_nudge"] = round(new_score - cur, 2)
-                nudged += 1
-
-        # ── IBM suppression (only from IBM bucket) ──
-        if bucket != IBM_BUCKET:
-            continue
-
-        # Avoid checklist — explicit, opt-in category suppression
-        if avoid_photography and (opp.get("native_medium") == "photography"
-                                  or "photograph" in category.lower()):
-            opp["exclusive_primary_bucket"] = SUPPRESSED_BUCKET
-            opp["peppercorn_suppressed"] = "avoid_photography_calls"
-            suppressed_avoid += 1
-            continue
-        if avoid_digital and any(kw in category.lower() for kw in DIGITAL_ONLY_KEYWORDS):
-            opp["exclusive_primary_bucket"] = SUPPRESSED_BUCKET
-            opp["peppercorn_suppressed"] = "avoid_digital_only"
-            suppressed_avoid += 1
-            continue
-        if avoid_large_group:
-            _hay = f"{category} {opp.get('name','')} {opp.get('title','')}".lower()
-            if any(kw in _hay for kw in LARGE_GROUP_KEYWORDS):
-                opp["exclusive_primary_bucket"] = SUPPRESSED_BUCKET
-                opp["peppercorn_suppressed"] = "avoid_large_group"
-                suppressed_avoid += 1
-                continue
-
-        # Tier gating
-        tier = opp.get("career_tier")
-        if tier is not None:
-            try:
-                if int(tier) not in active_tiers:
-                    opp["exclusive_primary_bucket"] = SUPPRESSED_BUCKET
-                    opp["peppercorn_suppressed"] = f"tier_{tier}_not_active"
-                    suppressed_tier += 1
-                    continue
-            except (ValueError, TypeError):
-                pass
-
-        # Fee suppression
-        if suppress_high_fee:
-            amount = parse_fee_amount(opp.get("fees", "") or "")
-            if amount is not None and amount >= HIGH_FEE_THRESHOLD:
-                opp["exclusive_primary_bucket"] = SUPPRESSED_BUCKET
-                opp["peppercorn_suppressed"] = f"high_fee_{int(amount)}"
-                suppressed_fee += 1
-                continue
-
-        # Geographic suppression
-        if suppress_international:
-            country = (opp.get("country", "") or "").strip().lower()
-            if country and country not in allowed_countries:
-                opp["exclusive_primary_bucket"] = SUPPRESSED_BUCKET
-                opp["peppercorn_suppressed"] = f"geo_suppressed_{country}"
-                suppressed_geo += 1
-
-    OPP_PATH.write_text(json.dumps(opps, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    print(f"Peppercorn preferences applied:")
-    print(f"  Track boost ({primary_track}): {boosted}")
-    print(f"  Surface more/less nudged: {nudged}")
-    print(f"  IBM suppressed - wrong tier: {suppressed_tier}")
-    print(f"  IBM suppressed - high fee (>¥{HIGH_FEE_THRESHOLD}): {suppressed_fee}")
-    print(f"  IBM suppressed - geography: {suppressed_geo}")
-    print(f"  IBM suppressed - avoid checklist: {suppressed_avoid}")
+    suppressed = sum(1 for o in adjusted if o.get("peppercorn_suppressed"))
+    boosted    = sum(1 for o in adjusted if o.get("peppercorn_track_boost"))
+    nudged     = sum(1 for o in adjusted if o.get("peppercorn_surface_nudge"))
+    print("Peppercorn preferences applied (idempotent):")
+    print(f"  Track boosted     : {boosted}")
+    print(f"  Surface nudged    : {nudged}")
+    print(f"  IBM suppressed    : {suppressed}")
 
 
 if __name__ == "__main__":

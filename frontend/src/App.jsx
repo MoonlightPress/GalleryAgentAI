@@ -98,7 +98,7 @@ export default function App() {
         {page === 'discover' && view === 'calendar' && <DeadlineCalendar />}
         {(page === 'observe' || page === 'refine') && (
           <Suspense fallback={<PageFallback />}>
-            {page === 'observe' && <SaffronPage nav={nav} />}
+            {page === 'observe' && <SaffronPage nav={nav} onNav={setPage} />}
             {page === 'refine'  && <PeppercornPage nav={nav} />}
           </Suspense>
         )}

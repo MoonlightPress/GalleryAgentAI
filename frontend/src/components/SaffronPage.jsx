@@ -404,7 +404,7 @@ function CareerPosition({ data, t }) {
   )
 }
 
-function MarketLandscape({ data, t }) {
+function MarketLandscape({ data, t, onNav }) {
   const maxCat  = Math.max(...data.category_breakdown.map(c => c.count), 1)
   const geoTotal = data.tokyo_vs_international.tokyo + data.tokyo_vs_international.international
   const tokyoPct = Math.round((data.tokyo_vs_international.tokyo / (geoTotal || 1)) * 100)
@@ -444,10 +444,16 @@ function MarketLandscape({ data, t }) {
           <div className="sf-block-label" style={{ marginTop: '28px' }}>{t('sf.label.byAction')}</div>
           <div className="sf-action-list">
             {data.actionability.map((a, i) => (
-              <div key={i} className={`sf-action-row sf-action-${a.tier}`}>
+              <button
+                key={i}
+                type="button"
+                className={`sf-action-row sf-action-${a.tier} sf-clickable-count`}
+                onClick={() => onNav?.('discover')}
+                title={t('sf.ms.viewInList')}
+              >
                 <span className="sf-action-label">{a.label}</span>
-                <span className="sf-action-count">{a.count}</span>
-              </div>
+                <span className="sf-action-count">{a.count} <span className="sf-count-arrow">›</span></span>
+              </button>
             ))}
           </div>
         </div>
@@ -1732,7 +1738,7 @@ const MEDIUM_LABELS = {
   unknown:     'Medium unspecified',
 }
 
-function MarketStats({ data }) {
+function MarketStats({ data, onNav }) {
   const { t } = useLanguage()
   if (!data) return null
   const cats   = Object.entries(data.by_category || {})
@@ -1747,11 +1753,17 @@ function MarketStats({ data }) {
       <div className="sf-block-label">{t('sf.ms.byType')}</div>
       <div className="sf-bars sf-ms-bars">
         {cats.map(([label, count]) => (
-          <div key={label} className="sf-bar-row">
+          <button
+            key={label}
+            type="button"
+            className="sf-bar-row sf-clickable-count"
+            onClick={() => onNav?.('discover')}
+            title={t('sf.ms.viewInList')}
+          >
             <span className="sf-bar-label">{CAT_LABELS[label] || label}</span>
             <div className="sf-bar-track"><div className="sf-bar-fill sf-ms-bar-fill" style={{ width: `${(count / maxCat) * 100}%` }} /></div>
-            <span className="sf-bar-count">{count}</span>
-          </div>
+            <span className="sf-bar-count">{count} <span className="sf-count-arrow">›</span></span>
+          </button>
         ))}
       </div>
       <div className="sf-ms-two-col" style={{ marginTop: 32 }}>
@@ -2163,7 +2175,7 @@ function SaffronIntro() {
   )
 }
 
-export default function SaffronPage({ nav }) {
+export default function SaffronPage({ nav, onNav }) {
   const [rawData,    setRawData]    = useState(null)
   const [rawCareer,  setRawCareer]  = useState(null)
   const [error,      setError]      = useState(null)
@@ -2272,8 +2284,8 @@ export default function SaffronPage({ nav }) {
             )}
             {tab === 'landscape' && (
               <>
-                <MarketStats         data={data.market_stats} />
-                <MarketLandscape     data={data.market_landscape}     t={t} />
+                <MarketStats         data={data.market_stats} onNav={onNav} />
+                <MarketLandscape     data={data.market_landscape}     t={t} onNav={onNav} />
                 <OpportunityGap      data={data.opportunity_gap}      t={t} />
                 <GeographicExpansion data={data.geographic_expansion} t={t} />
               </>

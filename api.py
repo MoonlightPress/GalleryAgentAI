@@ -106,6 +106,38 @@ def _followed_opps(feedback_records, opps):
     return out
 
 
+_PREF_PROFILE_CACHE: dict | None = None
+_PREF_PROFILE_MTIME: float = 0.0
+
+
+def _peppercorn_profile() -> dict:
+    """Mtime-cached read of her editable preference profile, so a server-side
+    edit is picked up on the very next request."""
+    global _PREF_PROFILE_CACHE, _PREF_PROFILE_MTIME
+    path = DATA_DIR / "peppercorn_profile.json"
+    if not path.exists():
+        return {}
+    mtime = path.stat().st_mtime
+    if _PREF_PROFILE_CACHE is None or mtime != _PREF_PROFILE_MTIME:
+        _PREF_PROFILE_CACHE = _load_json(path, {})
+        _PREF_PROFILE_MTIME = mtime
+    return _PREF_PROFILE_CACHE
+
+
+def _apply_peppercorn_preferences(items: list) -> list:
+    """Apply her preferences (track boost, surface nudge, IBM suppression) at
+    SERVE time, from the current profile. The batch pipeline also bakes these
+    in, but she edits on the server where the pipeline never re-runs — applying
+    here (idempotently, from a restored baseline) means an edit takes effect on
+    the next request instead of waiting for a laptop pipeline pass + deploy.
+    Returns copies when prefs exist, so the opportunity cache is never mutated."""
+    try:
+        from engines.peppercorn_preference_engine import apply_preferences
+        return apply_preferences(items, _peppercorn_profile())
+    except Exception:
+        return items
+
+
 def _refresh_career_strategy():
     """Re-run the deterministic, free career-strategy report so the advice and
     readiness reflect her latest shows/profile immediately. Previously this
@@ -394,6 +426,21 @@ def _opp_id(opp: dict) -> str:
 
 def _opp_name(opp: dict) -> str:
     return opp.get("title") or opp.get("name") or ""
+
+
+def _dedup_key(name: str) -> str:
+    """Normalized key for collapsing the same opportunity listed under variant
+    titles. Beyond stripping punctuation/spaces it also folds away the things
+    that split one event into many cards: the edition year, 'Exhibitor/Open
+    Call' qualifiers, and the TOKIO/TOKYO spelling variant. The distinguishing
+    prefix (Tokyo vs Fukuoka vs Potluck Art Book Fair) is preserved, so genuinely
+    different events never merge."""
+    s = (name or "").lower()
+    s = s.replace("tokio", "tokyo")                       # known spelling variant
+    s = re.sub(r"20\d{2}", "", s)                         # drop edition year
+    s = re.sub(r"\b(exhibitor|open)\s*call\b", "", s)     # drop call qualifiers
+    s = re.sub(r"[\s「」『』()（）+＋・/\-:：,.'’&]", "", s)
+    return s[:40]
 
 
 _CJK_RE      = re.compile(r"[一-鿿ぁ-んァ-ン々〆〇ー]")
@@ -1045,6 +1092,11 @@ def load_opportunities() -> list:
         and _opp_id(x) not in suppressed
         and x.get("category") not in suppressed_cats
     ]
+    # Apply her preferences at serve time (idempotent, from a restored baseline)
+    # so a server-side preference edit takes effect immediately. Returns copies
+    # when prefs exist, so the deadline_past write below never mutates the cache.
+    items = _apply_peppercorn_preferences(items)
+
     # Correct the stored deadline_past flag at serve time. The pipeline's deadline
     # engine doesn't exempt evergreen/relationship venues, so it wrongly stamps
     # rolling venues (UTRECHT, consignment shops, cafe galleries) as past-deadline.
@@ -1058,7 +1110,7 @@ def load_opportunities() -> list:
     # keeping the higher-scored entry.
     best: dict = {}
     for x in items:
-        key = re.sub(r"[\s「」『』()（）+＋・/\-]", "", _opp_name(x).lower())[:40]
+        key = _dedup_key(_opp_name(x))
         if not key:
             best[id(x)] = x
             continue

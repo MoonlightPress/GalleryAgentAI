@@ -1080,6 +1080,7 @@ const zh = {
   'sf.ms.scoreMid':       '值得考虑 (5–8)',
   'sf.ms.scoreLow':       '优先级较低 (<5)',
   'sf.ms.top5':           '评分最高的5个',
+  'sf.ms.viewInList':     '在「发现」中查看这些机会 ›',
   'sf.ms.summary':        '{total}个机会 · {top}个强烈推荐 · 本月{deadlines}个截止',
 
   // ── SaffronPage — CareerReadiness ─────────────────────────────────────────
@@ -3192,6 +3193,7 @@ const en = {
   'sf.ms.scoreMid':       'worth exploring (5–8)',
   'sf.ms.scoreLow':       'lower priority (<5)',
   'sf.ms.top5':           'Top 5 by score',
+  'sf.ms.viewInList':     'See these in Discover ›',
   'sf.ms.summary':        '{total} opportunities · {top} highly recommended · {deadlines} deadlines this month',
 
   // ── SaffronPage — CareerReadiness ─────────────────────────────────────────
