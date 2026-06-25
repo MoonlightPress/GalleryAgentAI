@@ -79,6 +79,16 @@ test('feedback reshapes ranking beyond the current card', () => {
   assert.equal(ranked[1].recommendation.readiness, 'review')
 })
 
+test('"maybe later" pushes a card back, not forward', () => {
+  const plain = { ...readyWatercolor, id: 'plain' }
+  const maybe = { ...readyWatercolor, id: 'maybe-me' }
+  const feedback = { maybeIds: new Set(['maybe-me']) }
+  // input order puts the maybe'd one first; it must end up last after ranking
+  const ranked = rankOpportunities([maybe, plain], 'open_calls', feedback)
+  assert.equal(ranked[ranked.length - 1].id, 'maybe-me')
+  assert.ok(ranked[0].recommendation.sortScore > ranked[ranked.length - 1].recommendation.sortScore)
+})
+
 test('strongest picks pull the best ready items across sections', () => {
   const sections = {
     immediate_best_moves: [readyWatercolor],

@@ -81,8 +81,9 @@ export function enrichOpportunity(opp, sectionKey = '', feedback = {}) {
   }
 
   if (feedback.maybeIds?.has(opp.id)) {
-    sortScore += 1
-    reasons.push('Saved for later')
+    // "Maybe later" = not now — push it BACK (but not hidden like not_for_me).
+    sortScore -= 6
+    reviewLabels.push('Saved for later')
   }
 
   if (feedback.hiddenIds?.has(opp.id)) {

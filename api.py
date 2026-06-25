@@ -448,31 +448,55 @@ _PAREN_EN_RE = re.compile(r"[（(]([A-Za-z0-9][^)）]{2,})[)）]")
 _LEAD_LAT_RE = re.compile(r"^([A-Za-z0-9][A-Za-z0-9 \-:/.&+@!,'#|_]{1,})")
 
 
+_GENERIC_EN_NAME = {
+    "zine", "zines", "art", "open call", "open calls", "competition", "award",
+    "awards", "exhibition", "fair", "grant", "submission", "submissions", "call",
+}
+
+
+def _degenerate_en_name(cand: str) -> bool:
+    """A leading-Latin fragment that isn't a usable display NAME — a bare year or
+    number ('2026', '219') or a generic category word ('Zine', 'Art') the
+    extractor grabbed off the page. Better to show the real (CJK) name than this."""
+    c = cand.strip()
+    if re.fullmatch(r"\d{2,4}", c):          # 2026 / 2027 / 219 — a year or count, not a name
+        return True
+    if c.lower() in _GENERIC_EN_NAME:        # bare category word, not a name
+        return True
+    return False
+
+
 def _extract_english_name(name: str, name_zh: str = "") -> str:
-    """Return a Latin-script name for display in English UI, or '' if none needed."""
+    """Return a Latin-script name for display in English UI, or '' if none needed.
+    Rejects degenerate fragments (years, bare category words) so the card falls
+    back to the real name instead of showing '2026' / 'Zine'."""
     if not name or not _CJK_RE.search(name):
         return ""  # already Latin — original is fine
     # 1. Parenthetical English in name: 'XX（English Title）'
     m = _PAREN_EN_RE.search(name)
     if m and not _CJK_RE.search(m.group(1)) and len(m.group(1).strip()) >= 3:
-        return m.group(1).strip()
+        cand = m.group(1).strip()
+        if not _degenerate_en_name(cand):
+            return cand
     # 2. Leading Latin prefix in name: 'TOKAS レジデンシー' → 'TOKAS'
     lead = _LEAD_LAT_RE.match(name)
     if lead:
         cand = lead.group(1).strip()
-        if len(cand) >= 3 and not _CJK_RE.search(cand):
+        if len(cand) >= 3 and not _CJK_RE.search(cand) and not _degenerate_en_name(cand):
             return cand
     # 3. From name_zh
     if name_zh:
         m2 = _PAREN_EN_RE.search(name_zh)
         if m2 and not _CJK_RE.search(m2.group(1)) and len(m2.group(1).strip()) >= 3:
-            return m2.group(1).strip()
-        if not _CJK_RE.search(name_zh) and name_zh.strip():
+            cand = m2.group(1).strip()
+            if not _degenerate_en_name(cand):
+                return cand
+        if not _CJK_RE.search(name_zh) and name_zh.strip() and not _degenerate_en_name(name_zh.strip()):
             return name_zh.strip()
         lead2 = _LEAD_LAT_RE.match(name_zh)
         if lead2:
             cand2 = lead2.group(1).strip()
-            if len(cand2) >= 4 and not _CJK_RE.search(cand2):
+            if len(cand2) >= 4 and not _CJK_RE.search(cand2) and not _degenerate_en_name(cand2):
                 return cand2
     return ""
 
