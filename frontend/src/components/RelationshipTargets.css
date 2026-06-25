@@ -57,6 +57,35 @@
   color: var(--ink, #3b332a);
   margin: 0;
   line-height: 1.3;
+  min-width: 0;
+}
+
+/* Make the contact's name a quiet, actionable link — mirrors .sf-ext-link:
+   no underline at rest, a soft gold underline on hover/focus. Inherits the
+   serif name styling so it never reads as a loud button. */
+.rt-name-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  word-break: break-word;
+}
+.rt-name-link:hover,
+.rt-name-link:focus-visible {
+  color: var(--gold, #c47a35);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  outline: none;
+}
+
+/* The ↗ affordance — present but soft, brightens with the name on hover. */
+.rt-name-arrow {
+  font-size: 0.8em;
+  color: var(--muted, #b0966b);
+  vertical-align: baseline;
+}
+.rt-name-link:hover .rt-name-arrow,
+.rt-name-link:focus-visible .rt-name-arrow {
+  color: var(--gold, #c47a35);
 }
 
 .rt-pills {

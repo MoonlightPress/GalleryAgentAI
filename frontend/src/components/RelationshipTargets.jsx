@@ -18,12 +18,25 @@ function humanizeType(type) {
   return String(type || '').replace(/_/g, ' ').replace(/\b\w/g, ch => ch.toUpperCase())
 }
 
+function nameSearchHref(c) {
+  const q = encodeURIComponent([c.name, c.city].filter(Boolean).join(' '))
+  return `https://www.google.com/search?q=${q}`
+}
+
 function reachHref(c) {
   if (c.reachVia === 'email') return `mailto:${c.contact_email}`
   if (c.reachVia === 'website') return c.official_website || c.contact_page || c.submission_page || null
   // No direct channel — make "Look them up" a real web search for the venue.
-  const q = encodeURIComponent([c.name, c.city].filter(Boolean).join(' '))
-  return `https://www.google.com/search?q=${q}`
+  return nameSearchHref(c)
+}
+
+// Best link to put on the contact's name so the card is actionable at a glance.
+// Prefer a real website/url, then a mailto, else fall back to a name web search.
+function nameHref(c) {
+  const site = c.website || c.url || c.official_website || c.contact_page || c.submission_page
+  if (site) return site
+  if (c.contact_email) return `mailto:${c.contact_email}`
+  return nameSearchHref(c)
 }
 
 function patchContact(name, fields) {
@@ -61,6 +74,7 @@ function ContactCard({ c, t, onHide }) {
   const why = loc(c, 'why_relevant') || ''
   const summary = loc(ca, 'contact_summary') || ''
   const href = reachHref(c)
+  const nameLink = nameHref(c)
   const email = c.contact_email || ''
   const site = c.official_website || c.contact_page || ''
   const submit = c.submission_page || ''
@@ -82,7 +96,11 @@ function ContactCard({ c, t, onHide }) {
     <div className={`rt-card${reached ? ' rt-card--reached' : ''}`}>
       <div className="rt-card-header">
         <span className="rt-card-icon">{TYPE_ICON[c.type] || '🌸'}</span>
-        <h3 className="rt-card-name">{c.name}</h3>
+        <h3 className="rt-card-name">
+          <a className="rt-name-link" href={nameLink} target="_blank" rel="noreferrer">
+            {c.name} <span className="rt-name-arrow" aria-hidden="true">↗</span>
+          </a>
+        </h3>
       </div>
 
       <div className="rt-pills">
