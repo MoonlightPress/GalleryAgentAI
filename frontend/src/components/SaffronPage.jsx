@@ -1817,7 +1817,88 @@ function ReadinessCorrection({ t }) {
   )
 }
 
-function CareerReadiness({ data }) {
+// Which exhibition `type` satisfies each readiness gap (jws is handled separately).
+const GAP_TYPE = {
+  group_shows:        'group',
+  solo_show:          'solo',
+  institutional_show: 'institutional',
+  international_show: 'group',
+}
+
+// "I already did this" — a per-gap form that records the evidence that clears
+// the gap (a show via /api/exhibition_log, or society membership via
+// /api/membership), then refetches so the readiness updates immediately.
+function GapCorrectionForm({ gap, onChanged }) {
+  const { t } = useLanguage()
+  const [open, setOpen] = useState(false)
+  const [venue, setVenue] = useState('')
+  const [date, setDate] = useState('')
+  const [city, setCity] = useState('')
+  const [country, setCountry] = useState('')
+  const [confidence, setConfidence] = useState('confirmed')
+  const [year, setYear] = useState('')
+  const [busy, setBusy] = useState(false)
+  const isJws = gap.gap_id === 'jws'
+
+  async function submit() {
+    setBusy(true)
+    try {
+      if (isJws) {
+        await fetch('/api/membership', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name: 'Japan Watercolor Society', year: year.trim() || null }),
+        })
+      } else {
+        await fetch('/api/exhibition_log', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            type: GAP_TYPE[gap.gap_id] || 'group',
+            venue: venue.trim(), date: date.trim(),
+            city: city.trim(), country: country.trim(),
+            confidence, outcome: 'shown',
+          }),
+        })
+      }
+      setOpen(false)
+      onChanged?.()
+    } catch { /* no-op on network failure */ }
+    setBusy(false)
+  }
+
+  if (!open) {
+    return (
+      <button className="sf-gap-done-btn" onClick={() => setOpen(true)}>
+        {t('sf.cr.alreadyDid')}
+      </button>
+    )
+  }
+
+  return (
+    <div className="sf-gap-correction">
+      {isJws ? (
+        <input className="sf-hedge-input sf-hedge-input--year" value={year}
+          onChange={e => setYear(e.target.value)} placeholder={t('sf.cr.jwsYear')} />
+      ) : (
+        <>
+          <input className="sf-hedge-input" value={venue} onChange={e => setVenue(e.target.value)} placeholder={t('sf.cr.addShow.venue')} />
+          <input className="sf-hedge-input sf-hedge-input--year" value={date} onChange={e => setDate(e.target.value)} placeholder={t('sf.cr.addShow.year')} />
+          <input className="sf-hedge-input" value={city} onChange={e => setCity(e.target.value)} placeholder={t('sf.cr.city')} />
+          <input className="sf-hedge-input" value={country} onChange={e => setCountry(e.target.value)} placeholder={t('sf.cr.country')} />
+          <select className="sf-hedge-input" value={confidence} onChange={e => setConfidence(e.target.value)}>
+            <option value="confirmed">{t('sf.cr.confirmed')}</option>
+            <option value="mentioned">{t('sf.cr.mentioned')}</option>
+          </select>
+        </>
+      )}
+      <div className="sf-gap-correction-actions">
+        <button className="sf-hedge-add" onClick={submit} disabled={busy || (!isJws && !venue.trim())}>{t('sf.cr.addShow.btn')}</button>
+        <button className="sf-gap-cancel" onClick={() => setOpen(false)}>{t('sf.cr.cancel')}</button>
+      </div>
+    </div>
+  )
+}
+
+function CareerReadiness({ data, onChanged }) {
   const { t } = useLanguage()
   if (!data) return null
 
@@ -1892,6 +1973,7 @@ function CareerReadiness({ data }) {
                   {g.action && (
                     <span className="sf-readiness-gap-action">{g.action}</span>
                   )}
+                  <GapCorrectionForm gap={g} onChanged={onChanged} />
                 </div>
               </div>
             ))}
@@ -1978,12 +2060,13 @@ export default function SaffronPage({ nav }) {
       .catch(e => setError(e.message))
   }, [])
 
-  useEffect(() => {
+  const loadCareer = () => {
     fetch('/api/career_strategy')
       .then(r => { if (!r.ok) throw null; return r.json() })
       .then(setRawCareer)
       .catch(() => {})
-  }, [])
+  }
+  useEffect(() => { loadCareer() }, [])
 
   // Translate the served (English) analysis into Chinese for 中文 viewers.
   // Translator map: dynamic opportunity strings come from the payload's own
@@ -2053,7 +2136,7 @@ export default function SaffronPage({ nav }) {
           <SectionErrorBoundary key={tab}>
             {tab === 'profile' && (
               <>
-                {careerData && <CareerReadiness data={careerData} />}
+                {careerData && <CareerReadiness data={careerData} onChanged={loadCareer} />}
                 <CareerPosition     data={data.career_position}    t={t} />
                 <CareerBenchmarks   data={data.career_benchmarks}  t={t} />
                 <CareerTimeline     t={t} lang={lang} />
