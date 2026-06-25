@@ -8,12 +8,12 @@ function scrollTo(id) {
 }
 
 // Companion names, per language. The tabs are verbs (发现/观察/对话) but each page's
-// companion introduces herself by name; pairing the two ("观察 · 红雀") closes the
+// companion introduces herself by name; pairing the two ("观察 · 山楂") closes the
 // mental-model seam the review flagged (T4.3). Names are taken from the existing
-// intro/status strings already shipped in the i18n: 猫饼/モチ/Mochi, 红雀/サフラン/
+// intro/status strings already shipped in the i18n: 麻薯/モチ/Mochi, 山楂/サフラン/
 // Saffron, 胡椒粒/ペッパーコーン/Peppercorn.
 const COMPANION_NAMES = {
-  zh: { discover: '猫饼',  observe: '红雀',     refine: '胡椒粒'       },
+  zh: { discover: '麻薯',  observe: '山楂',     refine: '胡椒粒'       },
   ja: { discover: 'モチ',  observe: 'サフラン', refine: 'ペッパーコーン' },
   en: { discover: 'Mochi', observe: 'Saffron',  refine: 'Peppercorn'   },
 }
