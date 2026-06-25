@@ -332,120 +332,7 @@
   font-style: italic;
 }
 
-/* ── Market Landscape ───────────────────────────────────────────────── */
-
-.sf-market-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 36px 48px;
-}
-
-@media (max-width: 640px) {
-  .sf-market-grid { grid-template-columns: 1fr; }
-}
-
-.sf-market-block {
-  display: flex;
-  flex-direction: column;
-}
-
-.sf-bars {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.sf-bar-row {
-  display: grid;
-  grid-template-columns: 140px 1fr 28px;
-  align-items: center;
-  gap: 10px;
-}
-
-.sf-bar-label {
-  font-family: Georgia, serif;
-  font-size: 12.5px;
-  color: #5a3e20;
-  text-align: right;
-}
-
-.sf-bar-track {
-  height: 10px;
-  background: #f0e3c4;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.sf-bar-fill {
-  height: 100%;
-  background: #c47a35;
-  border-radius: 5px;
-  transition: width 0.4s ease;
-}
-
-.sf-bar-count {
-  font-family: Georgia, serif;
-  font-size: 12px;
-  color: #9a7040;
-  text-align: right;
-}
-
-.sf-geo-bar {
-  display: flex;
-  height: 14px;
-  border-radius: 7px;
-  overflow: hidden;
-  margin-bottom: 10px;
-}
-
-.sf-geo-tokyo {
-  background: #c47a35;
-}
-
-.sf-geo-intl {
-  background: #e8d5a8;
-}
-
-.sf-geo-legend {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.sf-geo-label {
-  font-family: Georgia, serif;
-  font-size: 12px;
-  font-style: italic;
-}
-
-.sf-geo-label-tokyo { color: #c47a35; }
-.sf-geo-label-intl  { color: #9a7040; }
-
-.sf-action-list {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.sf-action-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 7px 12px;
-  border-radius: 6px;
-  font-family: Georgia, serif;
-  font-size: 13px;
-}
-
-.sf-action-high    { background: #eef4e6; color: #3d5a18; }
-.sf-action-medium  { background: #fef6e0; color: #7a4a10; }
-.sf-action-stretch { background: #fdf0e8; color: #8b3a10; }
-.sf-action-low     { background: #f5f0e8; color: #7a6040; }
-
-.sf-action-count {
-  font-weight: bold;
-}
+/* (Market Landscape CSS removed 2026-06-25 with the Landscape tab.) */
 
 /* ── Comparable Artists ─────────────────────────────────────────────── */
 
@@ -988,74 +875,7 @@
   color: #9a7040;
 }
 
-/* ── Geographic expansion ───────────────────────────────────────────────── */
-
-.sf-geo-regions {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.sf-geo-region {
-  padding: 18px 20px;
-  border-radius: 8px;
-  border: 1px solid #e8d5a8;
-  background: #fffbf0;
-}
-
-.sf-geo-region--primary_base { border-left: 3px solid #c47a35; }
-.sf-geo-region--medium_term  { border-left: 3px solid #8a9a70; }
-.sf-geo-region--active       { border-left: 3px solid #d4b87a; }
-
-.sf-geo-region-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 8px;
-}
-
-.sf-geo-region-name {
-  font-family: Georgia, serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: #3d2b1a;
-}
-
-.sf-geo-region-count {
-  font-family: Georgia, serif;
-  font-size: 12px;
-  color: #9a7040;
-  font-style: italic;
-}
-
-.sf-geo-status-tag {
-  font-family: Georgia, serif;
-  font-size: 10.5px;
-  font-weight: bold;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  color: #c47a35;
-  background: #fdf0d8;
-  padding: 2px 8px;
-  border-radius: 8px;
-  margin-left: auto;
-}
-
-.sf-geo-region-note {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  color: #5a3e20;
-  line-height: 1.55;
-  margin: 0 0 8px;
-}
-
-.sf-geo-entry {
-  font-family: Georgia, serif;
-  font-size: 12.5px;
-  color: #9a7040;
-  font-style: italic;
-}
+/* (Geographic expansion CSS removed 2026-06-25 with the Landscape tab.) */
 
 /* ── Publication landscape ──────────────────────────────────────────────── */
 
@@ -2073,137 +1893,8 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   padding-top: 6px;
 }
 
-/* ── Market Stats / "the field right now" (landscape lead) ─────────────── */
-
-/* Calm, atmospheric intro — sets the landscape as a view, not a to-do list. */
-.sf-field-intro {
-  font-family: Georgia, serif;
-  font-size: 14.5px;
-  font-style: italic;
-  line-height: 1.7;
-  color: #6a5436;
-  margin: 0 0 22px;
-  padding: 14px 18px;
-  background: linear-gradient(180deg, #fbf3e2 0%, #fdf8ee 100%);
-  border-left: 3px solid #d4b87a;
-  border-radius: 0 8px 8px 0;
-}
-
-.sf-ms-bars {
-  max-width: 600px;
-}
-
-/* "Where you fit" lens — the types closest to her practice get a soft dot +
-   slightly stronger label, so the bars read as orientation, not a ranking. */
-.sf-fit-dot {
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: #5a7a30;
-  margin-right: 7px;
-  vertical-align: middle;
-}
-.sf-bar-row--fit .sf-bar-label { color: #3d2b1a; font-weight: bold; }
-
-/* Her-strength marker on the medium list — descriptive, never a grade. */
-.sf-strength-tag {
-  font-family: Georgia, serif;
-  font-size: 10px;
-  font-weight: bold;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #4f7a52;
-  background: #eef4ea;
-  border-radius: 8px;
-  padding: 1px 7px;
-  margin-left: 8px;
-  vertical-align: middle;
-}
-
-.sf-ms-bar-fill {
-  background: #c47a35;
-}
-
-.sf-ms-two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 36px 48px;
-}
-
-@media (max-width: 640px) {
-  .sf-ms-two-col { grid-template-columns: 1fr; }
-}
-
-.sf-ms-pressure-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.sf-ms-pressure-row {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-}
-
-.sf-ms-pressure-num {
-  font-family: Georgia, serif;
-  font-size: 28px;
-  font-weight: bold;
-  line-height: 1;
-  min-width: 36px;
-}
-
-.sf-ms-pressure-label {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  color: #7a5c3a;
-}
-
-.sf-ms-pressure--hot  .sf-ms-pressure-num { color: #b03020; }
-.sf-ms-pressure--warm .sf-ms-pressure-num { color: #c47a35; }
-.sf-ms-pressure--cool .sf-ms-pressure-num { color: #5a7a30; }
-
-.sf-ms-medium-list {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.sf-ms-medium-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4px 0;
-  border-bottom: 1px solid #f0e3c4;
-}
-
-.sf-ms-medium-label {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  color: #5a3e20;
-}
-
-.sf-ms-medium--wc {
-  font-weight: bold;
-  color: #3d2b1a;
-}
-
-.sf-ms-medium-count {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  color: #9a7040;
-  font-weight: bold;
-}
-
-.sf-ms-wc-note {
-  font-family: Georgia, serif;
-  font-size: 11.5px;
-  color: #c47a35;
-  font-style: italic;
-  margin-top: 8px;
-}
+/* (Market Stats / "the field right now" CSS removed 2026-06-25 with the
+   Landscape tab.) */
 
 /* ── Career Momentum ───────────────────────────────────────────── */
 
@@ -2668,52 +2359,49 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   margin-bottom: 6px;
 }
 
-/* ── Opportunity Gap ───────────────────────────────────────────── */
+/* (Opportunity Gap CSS removed 2026-06-25 with the Landscape tab.) */
 
-.sf-gap-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+/* ── Shy-friendly concrete tactics ("more / 具体怎么做") ───────────────── */
+.sf-shy-tips { margin-top: 12px; }
+.sf-shy-tips-toggle {
+  font-family: Georgia, serif;
+  font-size: 12.5px;
+  color: #9a7040;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
-
-.sf-gap-row {
-  padding: 12px 16px;
-  background: #fbf4e6;
-  border: 1px solid #f0e3c4;
-  border-left-width: 3px;
-  border-radius: 0 6px 6px 0;
+.sf-shy-tips-toggle:hover { color: #c47a35; }
+.sf-shy-tips-body {
+  margin-top: 10px;
+  padding: 14px 16px;
+  background: #fffaf0;
+  border-left: 3px solid #d4b87a;
+  border-radius: 0 8px 8px 0;
 }
-
-/* Gentle: no alarm red on a sensitive user's "gap" rows — a warm amber reads as
-   "room to grow," not "failure." (Matches the doors-not-deficits posture.) */
-.sf-gap-row--gap      { border-left-color: #d4993a; }
-.sf-gap-row--strength { border-left-color: #5a7a30; }
-
-.sf-gap-row-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-}
-
-.sf-gap-label {
+.sf-shy-tips-intro,
+.sf-shy-tips-outro {
   font-family: Georgia, serif;
   font-size: 13px;
-  font-weight: bold;
-  color: #3d2b1a;
+  line-height: 1.65;
+  color: #4a3826;
+  margin: 0 0 8px;
+}
+.sf-shy-tips-outro { margin: 8px 0 0; font-style: italic; color: #6a5436; }
+.sf-shy-tips-list {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.sf-shy-tips-list li {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #5a4226;
 }
 
-.sf-gap-counts {
-  font-family: Georgia, serif;
-  font-size: 12px;
-  color: #7a5c3a;
-  flex-shrink: 0;
-}
-
-.sf-gap-note {
-  font-family: Georgia, serif;
-  font-size: 12px;
-  color: #7a5c3a;
-  line-height: 1.5;
-  margin: 6px 0 0;
-}

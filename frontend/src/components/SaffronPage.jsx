@@ -92,7 +92,6 @@ const SF_ZH = {
   "Instagram is an established strength — an established, growing following, already a working portfolio and the surface galleries and publishers use to discover you. Growth from here is a bonus, not a requirement.": "Instagram 已是你确立的优势——稳固且持续增长的受众，本身就是一份运转中的作品集，也是画廊与出版社发掘你的入口。继续增长是加分项，而非必需。",
   "A years-long watercolor diary since 2020. The material is already there; nothing about visibility asks you to paint more.": "自 2020 年起、持续多年的水彩日记。素材已经现成；提升曝光并不要求你画得更多。",
   "Urban environments, cats, domestic life, travel fragments — subjects that already do well on Instagram": "城市环境、猫、日常生活、旅行片段——这些题材在 Instagram 上本就表现不错。",
-  "A low-effort way to deepen your reach without painting more: short process videos — a time-lapse, or a clip of a piece coming together. They travel well on Instagram and Reels, suit a slow studio practice, and turn work you're already doing into something to share.": "一种省力、又能扩大触及的方式，且无需多画：短的创作过程视频——延时摄影，或一幅作品逐渐成形的片段。它们在 Instagram 和 Reels 上传播力强，契合慢节奏的工作室创作，把你本就在做的事变成可以分享的内容。",
 
   // ── Pathway steps ──
   "Artist-run spaces are the natural path: 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN. Each show builds credibility and introduces your work to gallery directors.": "艺术家自营空间是最自然的路径：3331 Arts Chiyoda、Design Festa Gallery、Gallery IYN。每一场展览都积累信誉，并把你的作品介绍给画廊主理人。",
@@ -345,6 +344,33 @@ function sfSearch(name) {
   return `https://www.google.com/search?q=${encodeURIComponent(name || '')}`
 }
 
+// A grant's link: its own application/info page when we can find one, otherwise a
+// name search. The `apply` field often leads with a bare domain ("acc.org — …"),
+// so pull the first domain-looking token; fall back to website/url, then search.
+function grantHref(grant) {
+  if (grant.website) return grant.website
+  if (grant.url) return grant.url
+  const apply = String(grant.apply || '')
+  const m = apply.match(/([a-z0-9-]+\.)+[a-z]{2,}(\/[^\s]*)?/i)
+  if (m) {
+    const dom = m[0]
+    return dom.startsWith('http') ? dom : `https://${dom}`
+  }
+  return sfSearch(grant.name)
+}
+
+// A revenue stream is a concept, not always a venue — search the cleanest term.
+// Prefer a known platform named in the stream/description; else the English
+// stream label with any parenthetical aside stripped (so "Booth.pm (another
+// optional home…)" searches "Booth.pm", not the whole sentence).
+const REVENUE_PLATFORMS = ['SUZURI', 'Booth.pm']
+function revenueSearchTerm(item) {
+  const hay = `${item.stream || ''} ${item.description || ''}`
+  const hit = REVENUE_PLATFORMS.find(p => hay.includes(p))
+  if (hit) return hit
+  return String(item.stream || '').replace(/\s*\([^)]*\)/g, '').trim()
+}
+
 // Humanize a raw activity status (e.g. "in_contact") into a readable label.
 function actStatusLabel(status, t) {
   const key = `sf.actStatus.${status}`
@@ -434,64 +460,6 @@ function CareerPosition({ data, t }) {
   )
 }
 
-function MarketLandscape({ data, t, onNav }) {
-  const maxCat  = Math.max(...data.category_breakdown.map(c => c.count), 1)
-  const geoTotal = data.tokyo_vs_international.tokyo + data.tokyo_vs_international.international
-  const tokyoPct = Math.round((data.tokyo_vs_international.tokyo / (geoTotal || 1)) * 100)
-  const summary  = `${data.total} — ${data.tokyo_vs_international.tokyo} ${t('sf.label.tokyo')}, ${data.tokyo_vs_international.international} ${t('sf.label.international')}`
-
-  return (
-    <SectionShell
-      title={t('sf.sec.market')}
-      subtitle={t('sf.sub.market', { n: data.total })}
-      summary={summary}
-    >
-      <div className="sf-market-grid">
-        <div className="sf-market-block">
-          <div className="sf-block-label">{t('sf.label.byCategory')}</div>
-          <div className="sf-bars">
-            {data.category_breakdown.map((cat, i) => (
-              <div key={i} className="sf-bar-row">
-                <span className="sf-bar-label">{cat.label}</span>
-                <div className="sf-bar-track">
-                  <div className="sf-bar-fill" style={{ width: `${(cat.count / maxCat) * 100}%` }} />
-                </div>
-                <span className="sf-bar-count">{cat.count}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="sf-market-block">
-          <div className="sf-block-label">{t('sf.label.tokyoVsIntl')}</div>
-          <div className="sf-geo-bar">
-            <div className="sf-geo-tokyo" style={{ width: `${tokyoPct}%` }} />
-            <div className="sf-geo-intl"  style={{ width: `${100 - tokyoPct}%` }} />
-          </div>
-          <div className="sf-geo-legend">
-            <span className="sf-geo-label sf-geo-label-tokyo">{t('sf.label.tokyo')} — {data.tokyo_vs_international.tokyo}</span>
-            <span className="sf-geo-label sf-geo-label-intl">{t('sf.label.international')} — {data.tokyo_vs_international.international}</span>
-          </div>
-          <div className="sf-block-label" style={{ marginTop: '28px' }}>{t('sf.label.byAction')}</div>
-          <div className="sf-action-list">
-            {data.actionability.map((a, i) => (
-              <button
-                key={i}
-                type="button"
-                className={`sf-action-row sf-action-${a.tier} sf-clickable-count`}
-                onClick={() => onNav?.('discover')}
-                title={t('sf.ms.viewInList')}
-              >
-                <span className="sf-action-label">{a.label}</span>
-                <span className="sf-action-count">{a.count} <span className="sf-count-arrow">›</span></span>
-              </button>
-            ))}
-          </div>
-        </div>
-      </div>
-    </SectionShell>
-  )
-}
-
 // Confirmed Instagram handles for the comparable artists (verified Jun 2026).
 // Anyone not listed falls back to a name search.
 const PEER_IG = {
@@ -537,7 +505,41 @@ function ComparableArtists({ artists, t }) {
   )
 }
 
+// "more / 具体怎么做" toggle labels for the shy-friendly concrete-tactics
+// disclosure on the strategy steps. Permission-framed, never a script.
+const SHY_TIPS_MORE = { zh: '具体怎么做 ▾', ja: '具体的にどうする ▾', en: 'More — what this looks like ▾' }
+const SHY_TIPS_HIDE = { zh: '收起', ja: '閉じる', en: 'Hide' }
+
+// Render the multi-line tips string as an intro line + bullet list (lines that
+// start with "•"). Keeps the warm, optional register; no markdown artifacts.
+function ShyTips({ text, lang }) {
+  const [open, setOpen] = useState(false)
+  if (!text) return null
+  const lines = String(text).split('\n').map(l => l.trim()).filter(Boolean)
+  const intro = lines.filter(l => !l.startsWith('•'))
+  const bullets = lines.filter(l => l.startsWith('•')).map(l => l.replace(/^•\s*/, ''))
+  return (
+    <div className="sf-shy-tips">
+      <button className="sf-shy-tips-toggle" onClick={() => setOpen(o => !o)}>
+        {open ? (SHY_TIPS_HIDE[lang] || SHY_TIPS_HIDE.en) : (SHY_TIPS_MORE[lang] || SHY_TIPS_MORE.en)}
+      </button>
+      {open && (
+        <div className="sf-shy-tips-body">
+          {intro[0] && <p className="sf-shy-tips-intro">{intro[0]}</p>}
+          {bullets.length > 0 && (
+            <ul className="sf-shy-tips-list">
+              {bullets.map((b, i) => <li key={i}>{b}</li>)}
+            </ul>
+          )}
+          {intro.slice(1).map((p, i) => <p key={i} className="sf-shy-tips-outro">{p}</p>)}
+        </div>
+      )}
+    </div>
+  )
+}
+
 function StrategicPathway({ data, t }) {
+  const { lang } = useLanguage()
   const done    = data.steps.filter(s => s.done).length
   const summary = `${data.goal} · ${done} / ${data.steps.length}`
   return (
@@ -564,6 +566,7 @@ function StrategicPathway({ data, t }) {
       <div className="sf-pathway-callout sf-pathway-next">
         <div className="sf-callout-label">{t('sf.label.nextMove')}</div>
         <p className="sf-callout-text">{data.next_move}</p>
+        {data.shy_tips && <ShyTips text={data.shy_tips} lang={lang} />}
       </div>
     </SectionShell>
   )
@@ -947,34 +950,7 @@ function CollaborationMap({ data, t }) {
   )
 }
 
-function GeographicExpansion({ data, t }) {
-  const summary = t('sf.label.primaryBase')
-  return (
-    <SectionShell
-      title={t('sf.sec.geoExpansion')}
-      subtitle={t('sf.sub.geoExpansion')}
-      summary={summary}
-    >
-      <div className="sf-geo-regions">
-        {data.regions.map((r, i) => (
-          <div key={i} className={`sf-geo-region sf-geo-region--${r.status}`}>
-            <div className="sf-geo-region-header">
-              <span className="sf-geo-region-name">{r.name}</span>
-              <span className="sf-geo-region-count">
-                {r.pipeline_count > 0 ? t('sf.inPipeline', { n: r.pipeline_count }) : ''}
-              </span>
-              <span className="sf-geo-status-tag">{tfb(t, `sf.geo.${r.status}`, r.status.replace(/_/g, ' '))}</span>
-            </div>
-            <p className="sf-geo-region-note">{r.note}</p>
-            {r.entry_point && (
-              <div className="sf-geo-entry">{t('sf.label.entryPoint')} {r.entry_point}</div>
-            )}
-          </div>
-        ))}
-      </div>
-    </SectionShell>
-  )
-}
+// (GeographicExpansion removed 2026-06-25 with the Landscape tab.)
 
 function PublicationLandscape({ data, t }) {
   const summary = `${data.pipeline_count} · ${data.artist_publications.length}`
@@ -1273,7 +1249,12 @@ function LicensingLandscape({ t, lang }) {
             {group.entries.map((entry, ei) => (
               <div key={ei} className="sf-licensing-entry">
                 <div className="sf-licensing-entry-header">
-                  <span className="sf-licensing-name">{entry.name}</span>
+                  <a
+                    className="sf-licensing-name sf-ext-link"
+                    href={entry.website || entry.url || sfSearch(entry.name)}
+                    target="_blank"
+                    rel="noreferrer"
+                  >{entry.name} ↗</a>
                   <span className="sf-tier-badge" style={{ color: TIER_COLORS[entry.tier] || '#9ca3af' }}>
                     {tfb(t, `sf.tier.${entry.tier}`, entry.tier)}
                   </span>
@@ -1351,7 +1332,12 @@ function GrantLandscape({ t, lang }) {
         {grants.map((grant, i) => (
           <div key={i} className="sf-grant-row">
             <div className="sf-grant-header">
-              <span className="sf-grant-name">{grant.name}</span>
+              <a
+                className="sf-grant-name sf-ext-link"
+                href={grantHref(grant)}
+                target="_blank"
+                rel="noreferrer"
+              >{grant.name} ↗</a>
               <span className="sf-grant-country">{grant.country}</span>
             </div>
             <div className="sf-grant-amount">{grant.amount}</div>
@@ -1405,7 +1391,12 @@ function RevenueStreams({ t, lang }) {
         {streams.map((item, i) => (
           <div key={i} className={`sf-revenue-row${item.leaving_on_table ? ' sf-revenue-row--gap' : ''}`}>
             <div className="sf-revenue-header">
-              <span className="sf-revenue-stream">{locF(item, 'stream', lang)}</span>
+              <a
+                className="sf-revenue-stream sf-ext-link"
+                href={item.website || item.url || sfSearch(revenueSearchTerm(item))}
+                target="_blank"
+                rel="noreferrer"
+              >{locF(item, 'stream', lang)} ↗</a>
               {item.realistic_monthly && (
                 <span className="sf-revenue-range">{item.realistic_monthly}</span>
               )}
@@ -1732,64 +1723,7 @@ function PricingIntelligence({ t, lang }) {
   )
 }
 
-// ── Opportunity Gap Analysis ───────────────────────────────────────────────
-
-function OpportunityGap({ data, t }) {
-  const summary = `${data.gaps.length} gaps · ${data.strengths.length} strengths`
-  return (
-    <SectionShell
-      title={t('sf.sec.oppGap')}
-      subtitle={t('sf.sub.oppGap')}
-      summary={summary}
-    >
-      <div className="sf-insight-callout">{data.summary}</div>
-
-      {data.gaps.length > 0 && (
-        <>
-          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.gap.underrepresented')}</div>
-          <div className="sf-gap-list">
-            {data.gaps.map((g, i) => (
-              <div key={i} className="sf-gap-row sf-gap-row--gap">
-                <div className="sf-gap-row-header">
-                  <span className="sf-gap-label">{g.label}</span>
-                  <span className="sf-gap-counts">
-                    {g.actual_count} {t('sf.gap.vs')} ~{g.expected_count} {t('sf.gap.expected')}
-                  </span>
-                </div>
-                <p className="sf-gap-note">{g.note}</p>
-              </div>
-            ))}
-          </div>
-        </>
-      )}
-
-      {data.strengths.length > 0 && (
-        <>
-          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.gap.strengths')}</div>
-          <div className="sf-gap-list">
-            {data.strengths.map((g, i) => (
-              <div key={i} className="sf-gap-row sf-gap-row--strength">
-                <div className="sf-gap-row-header">
-                  <span className="sf-gap-label">{g.label}</span>
-                  <span className="sf-gap-counts">
-                    {g.actual_count} {t('sf.gap.tracked')}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </>
-      )}
-
-      <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.gap.portfolioFocus')}</div>
-      <div className="sf-tag-list">
-        {data.top_actual_categories.map((c, i) => (
-          <span key={i} className="sf-trait">{c.category.replace(/_/g, ' ')} ({c.count})</span>
-        ))}
-      </div>
-    </SectionShell>
-  )
-}
+// (OpportunityGap removed 2026-06-25 with the Landscape tab.)
 
 // ── Career Readiness ───────────────────────────────────────────────────────
 
@@ -1813,114 +1747,9 @@ function MilestoneMarker({ current, label, color }) {
 }
 
 
-const CAT_LABELS = {
-  'Open Calls & Fairs':      'Open Calls & Fairs',
-  'Galleries':               'Galleries',
-  'Zines & Books':           'Zines & Books',
-  'Residencies & Grants':    'Residencies & Grants',
-  'Competitions & Awards':   'Competitions & Awards',
-  'Cafes & Bookshop Spaces': 'Cafes & Bookshop Spaces',
-  'Other':                   'Other',
-}
-
-const MEDIUM_LABELS = {
-  watercolor:  'Watercolor',
-  painting:    'Painting',
-  illustration:'Illustration',
-  book_arts:   'Book Arts',
-  mixed:       'Mixed / Multi-medium',
-  photography: 'Photography',
-  unknown:     'Medium unspecified',
-}
-
-// Landscape lead: a calm, atmospheric "the field right now" intro + a "where you
-// fit" framing for the category lens. Carries the watercolor identity in words.
-const FIELD_INTRO = {
-  zh: '这是当下整个领域的样子——并非待办清单，只是一幅风景。慢慢看，挑你想看的。',
-  ja: 'これは今の分野全体の眺めです——やることリストではなく、一枚の風景。気が向いたところだけ眺めてください。',
-  en: "Here's what the whole field looks like right now — not a to-do list, just a landscape. Take it slow; look where you like.",
-}
-const WHERE_YOU_FIT = { zh: '你在其中的位置', ja: 'あなたが位置する場所', en: 'Where you fit' }
-const FIELD_SUBTITLE = {
-  zh: '当下整个领域的样子',
-  ja: '今、分野全体の眺め',
-  en: 'The field right now',
-}
-// Her strength marker — descriptive, not a grade.
-const YOUR_STRENGTH = { zh: '你的强项', ja: 'あなたの強み', en: 'your strength' }
-// "Deadline pressure" → calmer "Upcoming deadlines" (no pressure framing).
-const UPCOMING_DEADLINES = { zh: '近期截止日期', ja: '近づく締切', en: 'Upcoming deadlines' }
-
-function MarketStats({ data, onNav }) {
-  const { t, lang } = useLanguage()
-  if (!data) return null
-  const cats   = Object.entries(data.by_category || {})
-  const maxCat = Math.max(...cats.map(([, v]) => v), 1)
-  const dp = data.deadline_pressure || {}
-  const total = data.total_opportunities || 0
-  // The opportunity-types most aligned with her practice (watercolor / artist
-  // books / showing in galleries & bookshop spaces) — marked on the "where you
-  // fit" lens so the bars read as orientation, not a ranking.
-  const HER_CATS = new Set(['Galleries', 'Zines & Books', 'Cafes & Bookshop Spaces', 'Cafés & Bookshop Spaces'])
-  const summary = `${total} · ${dp.this_month || 0} ${t('sf.ms.thisMonth')}`
-  return (
-    <SectionShell title={FIELD_SUBTITLE[lang] || FIELD_SUBTITLE.en} subtitle={t('sf.ms.subtitle')} summary={summary}>
-      <p className="sf-field-intro">{FIELD_INTRO[lang] || FIELD_INTRO.en}</p>
-
-      {/* Category breakdown as a "where you fit" lens — clickable bars
-          (click → Discover), with the types closest to her practice marked. */}
-      <div className="sf-block-label">{WHERE_YOU_FIT[lang] || WHERE_YOU_FIT.en}</div>
-      <div className="sf-bars sf-ms-bars">
-        {cats.map(([label, count]) => {
-          const mine = HER_CATS.has(label)
-          return (
-            <button
-              key={label}
-              type="button"
-              className={`sf-bar-row sf-clickable-count${mine ? ' sf-bar-row--fit' : ''}`}
-              onClick={() => onNav?.('discover')}
-              title={t('sf.ms.viewInList')}
-            >
-              <span className="sf-bar-label">{mine && <span className="sf-fit-dot" />}{CAT_LABELS[label] || label}</span>
-              <div className="sf-bar-track"><div className="sf-bar-fill sf-ms-bar-fill" style={{ width: `${(count / maxCat) * 100}%` }} /></div>
-              <span className="sf-bar-count">{count} <span className="sf-count-arrow">›</span></span>
-            </button>
-          )
-        })}
-      </div>
-
-      <div className="sf-ms-two-col" style={{ marginTop: 32 }}>
-        <div>
-          <div className="sf-block-label">{UPCOMING_DEADLINES[lang] || UPCOMING_DEADLINES.en}</div>
-          <div className="sf-ms-pressure-list">
-            <div className="sf-ms-pressure-row sf-ms-pressure--hot"><span className="sf-ms-pressure-num">{dp.this_month || 0}</span><span className="sf-ms-pressure-label">{t('sf.ms.thisMonth')}</span></div>
-            <div className="sf-ms-pressure-row sf-ms-pressure--warm"><span className="sf-ms-pressure-num">{dp.next_3_months || 0}</span><span className="sf-ms-pressure-label">{t('sf.ms.next3months')}</span></div>
-            <div className="sf-ms-pressure-row sf-ms-pressure--cool"><span className="sf-ms-pressure-num">{dp.open_ongoing || 0}</span><span className="sf-ms-pressure-label">{t('sf.ms.rollingOngoing')}</span></div>
-          </div>
-        </div>
-        <div>
-          <div className="sf-block-label">{t('sf.ms.mediumFit')}</div>
-          <div className="sf-ms-medium-list">
-            {Object.entries(data.by_medium || {}).map(([med, cnt]) => {
-              const wc = med === 'watercolor'
-              return (
-                <div key={med} className="sf-ms-medium-row">
-                  <span className={`sf-ms-medium-label${wc ? ' sf-ms-medium--wc' : ''}`}>
-                    {MEDIUM_LABELS[med] || med}
-                    {wc && <span className="sf-strength-tag">{YOUR_STRENGTH[lang] || YOUR_STRENGTH.en}</span>}
-                  </span>
-                  <span className="sf-ms-medium-count">{cnt}</span>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      </div>
-      {/* Top-5 leaderboard removed — it ranked venues with a hidden grade; the
-          "where you fit" lens + click-through Discover replaces it. */}
-    </SectionShell>
-  )
-}
+// (Landscape tab removed 2026-06-25 — MarketStats / MarketLandscape /
+//  OpportunityGap / GeographicExpansion and their label/constant helpers are
+//  gone; the app already surfaces the field on the Discover side.)
 
 function ReadinessCorrection({ t, onChanged }) {
   const [venue, setVenue] = useState('')
@@ -2257,7 +2086,7 @@ function SaffronIntro() {
   )
 }
 
-export default function SaffronPage({ nav, onNav }) {
+export default function SaffronPage({ nav }) {
   const [rawData,    setRawData]    = useState(null)
   const [rawCareer,  setRawCareer]  = useState(null)
   const [error,      setError]      = useState(null)
@@ -2303,7 +2132,6 @@ export default function SaffronPage({ nav, onNav }) {
   // her profile, which is also the most personal/self-comparing tab.
   const SF_TABS = [
     ['strategy',      t('sf.cat.strategy')],
-    ['landscape',     t('sf.cat.landscape')],
     ['profile',       t('sf.cat.profile')],
     ['calendar',      t('sf.cat.calendar')],
     ['relationships', t('sf.cat.relationships')],
@@ -2376,20 +2204,10 @@ export default function SaffronPage({ nav, onNav }) {
                     </SectionOpenContext.Provider>
                   </>
                 )}
-                {tab === 'landscape' && (
-                  <>
-                    {/* Lead with the calm "field right now" + the territory cards
-                        (Tokyo → Europe → online, each with an entry point). The
-                        older near-duplicate bar stack and the gap analysis are
-                        demoted to opt-in / a gentle closing note. */}
-                    {SB('marketstats', <MarketStats data={data.market_stats} onNav={onNav} />)}
-                    {SB('geoexp',      <GeographicExpansion data={data.geographic_expansion} t={t} />)}
-                    <SectionOpenContext.Provider value={false}>
-                      {SB('marketland', <MarketLandscape data={data.market_landscape} t={t} onNav={onNav} />)}
-                      {SB('oppgap',     <OpportunityGap data={data.opportunity_gap} t={t} />)}
-                    </SectionOpenContext.Provider>
-                  </>
-                )}
+                {/* The Landscape tab was removed entirely (Scott, 2026-06-25):
+                    the whole app already shows the landscape, so the tab and all
+                    its sections (market stats, market landscape, gap analysis,
+                    geographic expansion) were deleted — no salvage. */}
                 {tab === 'profile' && (
                   <>
                     {careerData && SB('readiness', <CareerReadiness data={careerData} onChanged={refreshCareer} />)}

@@ -16,7 +16,7 @@ from recommendation_readiness import assess_actionability, RELATIONSHIP_CATEGORI
 from engines.profile_sync import apply_peppercorn_edits
 from engines.regen import spawn_draft_regen
 from engines.notify import notify_discord
-from engines.visit_tracking import register_visit, describe_event
+from engines.visit_tracking import register_visit, describe_event, mark_visitor
 from engines.backups import snapshot
 
 # Load .env so secrets (ANTHROPIC_API_KEY, MOCHI_DISCORD_WEBHOOK) are available
@@ -953,6 +953,40 @@ _RECURRING_HINTS = (
 
 _NTH_EDITION_RE = re.compile(r"第\s*\d+\s*[回届]")
 _JP_RECUR_MARKERS = ("祭典", "コンクール", "公募展", "公募", "年次", "毎年", "恒例", "隔年")
+
+
+# Concrete, gentle tactics for the strategy steps' "more / 具体怎么做" disclosure —
+# written for someone who dislikes reaching out. Advice like "build relationships"
+# is too abstract for a shy person; this turns it into low-pressure, optional
+# moves (Scott's example, paraphrased warmly). Tone = permission and options,
+# never pressure or a script she must follow.
+SHY_TIPS_EN = (
+    "What \"building relationships\" can actually look like — all optional:\n"
+    "• Go to openings at galleries whose work you genuinely like. Just being in the room counts.\n"
+    "• Introducing yourself to the owner is lovely if it feels okay — but if that's too much, you "
+    "really don't have to.\n"
+    "• You can simply email afterward to say you came and enjoyed the show. No pitch, no talking about "
+    "your own work at all.\n"
+    "• Put your Instagram link in your email signature. People are naturally curious — they'll often "
+    "click it themselves.\n"
+    "That's the whole thing. Showing up and being quietly findable does most of the work."
+)
+SHY_TIPS_ZH = (
+    "「建立关系」其实可以很轻——以下都是可选的：\n"
+    "• 去你真心喜欢的画廊看开幕。只是到场，本身就算数。\n"
+    "• 如果你觉得自在，向画廊主自我介绍当然很好——但如果这对你来说太难，真的不必勉强。\n"
+    "• 你完全可以事后发一封邮件，说你去看了、很喜欢这场展览。不用推销，也完全不必谈自己的作品。\n"
+    "• 在邮件签名里放上你的 Instagram 链接。人天生好奇——他们常常会自己点开看。\n"
+    "就这些。露个面，再安静地让人能找到你，大部分事情就自然发生了。"
+)
+SHY_TIPS_JA = (
+    "「関係を築く」は、実はとても軽くていい——どれも任意です：\n"
+    "• 本当に好きだと思えるギャラリーのオープニングに足を運ぶ。その場にいるだけで十分。\n"
+    "• 無理がなければオーナーに自己紹介できると素敵です——でも荷が重ければ、本当にしなくて大丈夫。\n"
+    "• 後日メールで「伺いました、展示がとても良かったです」と伝えるだけでもいい。売り込みも、自分の作品の話も一切いりません。\n"
+    "• メールの署名に Instagram のリンクを入れておく。人は自然と好奇心があるので、自分からクリックしてくれることが多いです。\n"
+    "それだけです。顔を出して、静かに見つけてもらえる状態にしておけば、多くは自然と進みます。"
+)
 
 
 def _is_recurring_opp(item: dict) -> bool:
@@ -1946,9 +1980,9 @@ def get_saffron():
                     "done": _has_residency or _has_grant,
                     "blocking": False,
                     "detail": _reg(
-                        "Genuine open doors on your CV: a residency suited to a Tokyo–Beijing practice, an arts grant your record now supports, and writers engaging critically with the work — plus a second book beyond Colour Diary.",
-                        "履历上真正待开的门：契合往返东京—北京创作的驻地、你的履历如今足以支撑的艺术奖助、真正以评论视角关注作品的写作者——以及 Colour Diary 之后的第二本书。",
-                        "CV上の本当に開かれた扉：東京—北京の制作に合うレジデンシー、いまの実績が支える芸術助成、作品に批評的に向き合う書き手——そして Colour Diary に続く二冊目。",
+                        "Genuine open doors on your CV: a residency suited to a Tokyo–Beijing practice, an arts grant your record now supports, and writers engaging critically with the work — plus more zines, or contributing to or curating an anthology.",
+                        "履历上真正待开的门：契合往返东京—北京创作的驻地、你的履历如今足以支撑的艺术奖助、真正以评论视角关注作品的写作者——以及更多独立刊物，或参与、策划一本合集。",
+                        "CV上の本当に開かれた扉：東京—北京の制作に合うレジデンシー、いまの実績が支える芸術助成、作品に批評的に向き合う書き手——さらに新しいzine、あるいはアンソロジーへの参加・編集。",
                     ),
                 },
             ],
@@ -1962,6 +1996,7 @@ def get_saffron():
                 "与项目方向契合你作品的商业画廊建立关系——代理关系会从你已有的展览中生长，并随之带来博览会的入口。",
                 "作品に合うプログラムを持つ商業ギャラリーと関係を築く——代理関係は既存の展示から育ち、アートフェアへの入口をもたらす。",
             ),
+            "shy_tips": _reg(SHY_TIPS_EN, SHY_TIPS_ZH, SHY_TIPS_JA),
         }
     else:
         pathway = {
@@ -2017,6 +2052,7 @@ def get_saffron():
                 "次のグループ展が今もっとも効果の高い一手。"
             ),
             "next_move": "Apply for a second group show at a Tokyo artist-run space. 3331 Arts Chiyoda, Design Festa Gallery, and Gallery IYN are realistic near-term entries.",
+            "shy_tips": _reg(SHY_TIPS_EN, SHY_TIPS_ZH, SHY_TIPS_JA),
         }
 
     # ── Instagram strategy ────────────────────────────────────────────────────
@@ -2038,7 +2074,11 @@ def get_saffron():
             "content_type": "Urban environments, cats, domestic life, travel fragments — subjects that already do well on Instagram",
             "diary_practice": "A years-long watercolor diary since 2020. The material is already there; nothing about visibility asks you to paint more.",
         },
-        "strategy": "A low-effort way to deepen your reach without painting more: short process videos — a time-lapse, or a clip of a piece coming together. They travel well on Instagram and Reels, suit a slow studio practice, and turn work you're already doing into something to share.",
+        "strategy": _reg(
+            "A gentle weekly rhythm carries further than posting on demand — roughly two finished paintings a month plus a couple of short process videos, alternating week to week: a piece one week, a process clip the next. Save things as you make them and let a scheduling tool post them on a set rhythm, so your visibility never depends on you painting that day. It's an option, not a quota — there's no daily anything here.",
+            "温和的每周节奏，比临时赶着发更走得远——大约每月两幅完成的作品，加上几段短的创作过程视频，一周一种交替着来：这周一幅作品，下周一段过程片段。做的时候顺手存下来，再让一个排程工具按固定节奏帮你发布，这样你的曝光就永远不必取决于你当天有没有画。这是一个选项，不是指标——这里没有任何「每天」的要求。",
+            "気負わない週ごとのリズムは、その場の勢いで投稿するよりも遠くまで届きます——目安は月に2点ほどの完成作と、短い制作過程の動画を数本、週ごとに交互に：今週は作品、来週は過程のクリップ。作りながら保存しておき、予約投稿ツールに決まったリズムで出してもらえば、見てもらえるかどうかがその日描いたかに左右されることはありません。これはノルマではなく選択肢——ここに「毎日」は一切ありません。",
+        ),
         "missing": [
             {
                 "field": "Posting frequency",
@@ -2467,9 +2507,17 @@ def get_saffron():
             {
                 "name": "Publication Track",
                 "tagline": "Primary identity as an illustrator and artist-book maker.",
-                "description": "If the book practice is the real love: a second solo book, international distribution, and major book fairs over the next few years.",
+                "description": _reg(
+                    "If the book practice is the real love: more zines, contributing to or curating an anthology, international distribution, and major book fairs over the next few years.",
+                    "如果你真正热爱的是书的创作：更多独立刊物、参与或策划一本合集、国际发行，以及在未来几年里参与重要书展。",
+                    "本づくりこそが本当に好きなことなら：新しいzine、アンソロジーへの参加や編集、海外流通、そしてこれからの数年で主要なブックフェアへ。",
+                ),
                 "requires_now": [
-                    "New self-published zine or small book within 12 months — the daily diary content already exists",
+                    _reg(
+                        "A new self-published zine, or contributing to or curating an anthology, within the next year — the daily diary content already exists",
+                        "在接下来的一年里出一本新的自出版独立刊物，或参与、策划一本合集——每日日记的内容已经现成",
+                        "この一年のうちに新しい自主出版のzineを、あるいはアンソロジーへの参加や編集を——日々のdiaryの素材はすでにある",
+                    ),
                     "Table at Tokyo Art Book Fair",
                     "Submission to Offprint or NY Art Book Fair",
                     "Publisher relationship with torch press or equivalent — start with introduction, not submission",
@@ -3279,29 +3327,36 @@ async def save_saffron_answer(request: Request):
 
 @app.post("/api/event")
 async def track_event(request: Request):
-    """Live UX-research feed: post each navigation/open event to Discord as it
-    happens. Content-blind (which page, not what she reads). Best-effort — never
-    fails the page over a tracking hiccup."""
+    """Usage signal for Discord. Content-blind (which page, not what she reads).
+    Best-effort — never fails the page over a tracking hiccup.
+
+    Only a session OPEN pings Discord, and the ping says whether it's a returning
+    or new (anonymous) visitor. Per-nav events are dropped — they used to flood
+    the webhook on every page move, and a refocused left-open tab never re-fires
+    "open", so it stays quiet too. The open ping is now interpretable enough to
+    tell a real returning visitor from a scattered one-off hit."""
     try:
         event = await request.json()
     except Exception:
         event = {}
 
-    day = None
-    if (event or {}).get("type") == "open":
-        vpath = DATA_DIR / "visit_log.json"
-        try:
-            log = json.loads(vpath.read_text(encoding="utf-8")) if vpath.exists() else {}
-        except Exception:
-            log = {}
-        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-        log, _notify, day = register_visit(log, today)
-        try:
-            _atomic_write_json(vpath, log)
-        except Exception:
-            pass
+    if (event or {}).get("type") != "open":
+        return {"ok": True}
 
-    text, status = describe_event(event, day=day)
+    vpath = DATA_DIR / "visit_log.json"
+    try:
+        log = json.loads(vpath.read_text(encoding="utf-8")) if vpath.exists() else {}
+    except Exception:
+        log = {}
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    log, _notify, day = register_visit(log, today)
+    log, returning = mark_visitor(log, event.get("visitor_id"))
+    try:
+        _atomic_write_json(vpath, log)
+    except Exception:
+        pass
+
+    text, status = describe_event(event, day=day, returning=returning)
     notify_discord(text, status=status)
     return {"ok": True}
 
@@ -3742,12 +3797,91 @@ async def webhook_deploy(request: Request, background_tasks: BackgroundTasks):
     return {"status": "ok", "event": event}
 
 
+# Publication-lever reframe (Scott, 2026-06-25): the career ladder's "a second
+# book / monograph beyond Colour Diary" suggestion is retargeted to zines /
+# anthology — lighter and complementary, with no presumption about a book. Done
+# here at serve time (in-zone, and survives engine regeneration) by rewriting the
+# publication levers wherever they appear in the report, matched on gap_id.
+_PUB_LEVER_REWRITE = {
+    "monograph": {
+        "gap":       "More zines, or contributing to or curating an anthology",
+        "gap_zh":    "更多独立刊物，或参与、策划一本合集",
+        "gap_ja":    "新しいzine、あるいはアンソロジーへの参加・編集",
+        "detail":    ("Colour Diary (2021) was your first solo collection. A lighter next step "
+                      "is more zines, or contributing to or curating an anthology — it gathers "
+                      "recent work and gives galleries, fairs, and press something to engage "
+                      "with, without the weight of a full book."),
+        "detail_zh": ("Colour Diary（2021）是你的首部个人作品集。一个更轻的下一步是做更多独立刊物，"
+                      "或参与、策划一本合集——它能把近期的创作汇聚起来，也为画廊、博览会与媒体"
+                      "提供可以共同关注的东西，而不必背上整本书的重量。"),
+        "detail_ja": ("Colour Diary（2021）はあなたの最初の個人作品集です。より軽い次の一歩は、"
+                      "新しいzineを作ること、あるいはアンソロジーへの参加や編集——近作をまとめ、"
+                      "ギャラリーやフェア、メディアが関わるきっかけになりながら、一冊の本ほどの"
+                      "重さはありません。"),
+        "action":    "Make a new zine, or join or curate an anthology, gathering the work made since Colour Diary.",
+        "action_zh": "做一本新的独立刊物，或参与、策划一本合集，把 Colour Diary 之后的创作汇整起来。",
+        "action_ja": "新しいzineを作るか、アンソロジーに参加・編集して、Colour Diary 以降の作品をまとめる。",
+    },
+    "second_publication": {
+        "action":    "Plan the next zine, or join or curate an anthology, beyond Colour Diary.",
+        "action_zh": "在 Colour Diary 之后，规划下一本独立刊物，或参与、策划一本合集。",
+        "action_ja": "Colour Diary に続く次のzineを計画するか、アンソロジーに参加・編集する。",
+    },
+}
+
+
+# Phrase-level swaps for the prose fields (phase notes, summaries) that mention a
+# "second book" as an example next step — same reframe, applied to free text.
+_PUB_PHRASE_SWAPS = [
+    ("and a second book", "and more zines or an anthology"),
+    ("a second book or monograph", "more zines or an anthology"),
+    ("a new book or monograph", "more zines or an anthology"),
+    ("a second book", "more zines or an anthology"),
+    ("，以及第二本书", "，以及更多独立刊物或一本合集"),
+    ("第二本书或个人画册", "更多独立刊物或一本合集"),
+    ("一本新书或个人画册", "更多独立刊物或一本合集"),
+    ("第二本书", "更多独立刊物或一本合集"),
+    ("、そして二冊目", "、そして新しいzineやアンソロジー"),
+    ("二冊目の本", "新しいzineやアンソロジー"),
+    ("二冊目", "新しいzineやアンソロジー"),
+]
+
+
+def _swap_pub_phrases(s):
+    for a, b in _PUB_PHRASE_SWAPS:
+        if a in s:
+            s = s.replace(a, b)
+    return s
+
+
+def _rewrite_pub_levers(node):
+    """Recursively rewrite any publication-lever object (matched on gap_id) to the
+    zines/anthology framing, and swap "second book" prose in free-text fields.
+    Returns the node (mutates dicts/lists in place)."""
+    if isinstance(node, list):
+        for i, x in enumerate(node):
+            if isinstance(x, str):
+                node[i] = _swap_pub_phrases(x)
+            else:
+                _rewrite_pub_levers(x)
+    elif isinstance(node, dict):
+        gid = node.get("gap_id")
+        if gid in _PUB_LEVER_REWRITE:
+            node.update(_PUB_LEVER_REWRITE[gid])
+        for k, v in node.items():
+            if isinstance(v, str):
+                node[k] = _swap_pub_phrases(v)
+            else:
+                _rewrite_pub_levers(v)
+    return node
+
+
 @app.get("/api/career_strategy")
 def get_career_strategy():
     path = DATA_DIR / "career_strategy_report.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail="career_strategy_report.json not found — run engines/career_strategy_engine.py first")
-    return _load_json(path, {})
+    return _rewrite_pub_levers(_load_json(path, {}))
 
 
 if __name__ == "__main__":
