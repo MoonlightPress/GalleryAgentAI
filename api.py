@@ -898,6 +898,14 @@ def load_opportunities() -> list:
         and _opp_id(x) not in suppressed
         and x.get("category") not in suppressed_cats
     ]
+    # Correct the stored deadline_past flag at serve time. The pipeline's deadline
+    # engine doesn't exempt evergreen/relationship venues, so it wrongly stamps
+    # rolling venues (UTRECHT, consignment shops, cafe galleries) as past-deadline.
+    # _deadline_passed DOES exempt them, so recompute from it — kills the misleading
+    # "Past deadline" badge on venues you can pitch anytime, without a pipeline run.
+    for x in items:
+        x["deadline_past"] = _deadline_passed(x)
+
     # Truth-pass rule 4: the same call can enter twice from different sources
     # (e.g. NIKA S20 listed under two titles). Dedup by normalized name,
     # keeping the higher-scored entry.
