@@ -557,9 +557,46 @@ const OUTCOME_OPTIONS = [
   { value: 'withdrawn' },
 ]
 
+// Sub-navigation for a long log list: "All" + one chip per value present, with
+// counts. Reuses the CRM filter-tab styling so every log reads the same, and the
+// chips auto-hide when there's nothing to navigate (Scott, 2026-06-26: the long
+// lists need sub-navigation, not one giant scroll to wade through).
+const LOG_FILTER_ALL = { en: 'All', zh: '全部', ja: 'すべて' }
+function LogFilterTabs({ rows, field, labelFor, active, onChange, lang }) {
+  const present = []
+  const counts = {}
+  for (const r of rows) {
+    const v = r[field]
+    if (v == null || v === '') continue
+    if (!(v in counts)) { counts[v] = 0; present.push(v) }
+    counts[v]++
+  }
+  if (present.length <= 1) return null
+  return (
+    <div className="crm-filter-tabs">
+      <button
+        className={`crm-filter-tab${active === 'all' ? ' crm-filter-tab--active' : ''}`}
+        onClick={() => onChange('all')}
+      >
+        {(LOG_FILTER_ALL[lang] || LOG_FILTER_ALL.en)} ({rows.length})
+      </button>
+      {present.map(v => (
+        <button
+          key={v}
+          className={`crm-filter-tab${active === v ? ' crm-filter-tab--active' : ''}`}
+          onClick={() => onChange(v)}
+        >
+          {labelFor(v)} ({counts[v]})
+        </button>
+      ))}
+    </div>
+  )
+}
+
 function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const [submissions, setSubmissions] = useState([])
+  const [filter, setFilter] = useState('all')
   const [form, setForm] = useState({ date: '', venue: '', what: '', outcome: 'pending', notes: '' })
   const [saving, setSaving] = useState(false)
   const [saved, flash] = useSaved()
@@ -602,6 +639,7 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
   }
 
   const sorted = [...submissions].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+  const visible = filter === 'all' ? sorted : sorted.filter(s => s.outcome === filter)
 
   return (
     <SectionShell
@@ -672,9 +710,10 @@ function SubmissionLogSection({ isOpen, onToggle, sectionRef }) {
         </button>
       </div>
 
-      {sorted.length > 0 && (
+      <LogFilterTabs rows={sorted} field="outcome" labelFor={v => tfb(t, 'pp.outcome.' + v, v)} active={filter} onChange={setFilter} lang={lang} />
+      {visible.length > 0 && (
         <div className="pp-sub-list">
-          {sorted.map(s => {
+          {visible.map(s => {
             const colors = OUTCOME_COLORS[s.outcome] || OUTCOME_COLORS.pending
             return (
               <div key={s.id || s.date + s.venue} className="pp-sub-row" style={{ borderLeft: `3px solid ${colors.border}` }}>
@@ -718,8 +757,9 @@ const SHOW_OUTCOME_COLORS = {
 }
 
 function ExhibitionLogSection({ isOpen, onToggle, sectionRef, liveGroupShows, onCountsChanged }) {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const [shows, setShows] = useState([])
+  const [filter, setFilter] = useState('all')
   const [form, setForm] = useState({ date: '', name: '', venue: '', type: 'group', outcome: 'shown', notes: '' })
   const [saving, setSaving] = useState(false)
   const [editingId, setEditingId] = useState(null)
@@ -780,6 +820,7 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef, liveGroupShows, on
   }
 
   const sorted = [...shows].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+  const visible = filter === 'all' ? sorted : sorted.filter(s => s.type === filter)
   // T0.6 — show THE canonical app-wide group-show count (the same number Saffron
   // uses), supplied by the server via /api/peppercorn live_counts. Never recompute
   // it locally (that diverged from Saffron the moment a show was logged). Fall back
@@ -870,8 +911,10 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef, liveGroupShows, on
         </div>
       </div>
 
-      {/* Hardcoded confirmed show */}
+      <LogFilterTabs rows={[{ type: 'group' }, ...sorted]} field="type" labelFor={v => tfb(t, 'pp.showType.' + v, v)} active={filter} onChange={setFilter} lang={lang} />
       <div className="pp-sub-list">
+        {/* The pinned first Japan exhibition (always a group show). */}
+        {(filter === 'all' || filter === 'group') && (
         <div className="pp-sub-row pp-sub-row--system" style={{ borderLeft: '3px solid #8fc98a' }}>
           <div className="pp-sub-row-header">
             <span className="pp-sub-venue">Tide from China Part 1</span>
@@ -883,8 +926,9 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef, liveGroupShows, on
           <div className="pp-sub-what">ACG_Labo, Harajuku, Tokyo · {t('pp.showType.group')}</div>
           <div className="pp-sub-notes">{t('pp.exlog.systemEntry')}</div>
         </div>
+        )}
 
-        {sorted.map(s => {
+        {visible.map(s => {
           const colors = SHOW_OUTCOME_COLORS[s.outcome] || SHOW_OUTCOME_COLORS.shown
           return (
             <div key={s.id} className="pp-sub-row" style={{ borderLeft: `3px solid ${colors.border}` }}>
@@ -1022,8 +1066,9 @@ function VenueContactCard({ contact: c, onUpdate }) {
 }
 
 function VenueLogSection({ isOpen, onToggle, sectionRef }) {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const [contacts, setContacts] = useState([])
+  const [filter, setFilter] = useState('all')
   const [form, setForm] = useState({ name: '', type: 'gallery', city: 'Tokyo', last_visited: '', last_contacted: '', status: 'cold', notes: '' })
   const [saving, setSaving] = useState(false)
   const [saved, flash] = useSaved()
@@ -1058,6 +1103,7 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
   }
 
   const sorted = [...contacts].sort((a, b) => (b.last_visited || b.logged_at || '').localeCompare(a.last_visited || a.logged_at || ''))
+  const visible = filter === 'all' ? sorted : sorted.filter(c => c.status === filter)
 
   return (
     <SectionShell
@@ -1145,9 +1191,10 @@ function VenueLogSection({ isOpen, onToggle, sectionRef }) {
         </button>
       </div>
 
-      {sorted.length > 0 && (
+      <LogFilterTabs rows={sorted} field="status" labelFor={v => tfb(t, 'pp.venuelog.status.' + v, v)} active={filter} onChange={setFilter} lang={lang} />
+      {visible.length > 0 && (
         <div className="pp-sub-list">
-          {sorted.map((c, i) => (
+          {visible.map((c, i) => (
             <VenueContactCard
               key={c.logged_at || i}
               contact={c}
@@ -1692,26 +1739,24 @@ function buildCarouselCards(profile, t) {
   return order.map(id => cards.find(c => c.id === id)).filter(Boolean)
 }
 
-function computeSectionOrder(profile) {
-  const answers      = profile.saffron_answers || {}
-  const answeredCount= QUESTION_KEYS.filter(k => isAnswered(answers[k])).length
-  const goalsCount   = (profile.goals || []).length
-  const hasText      = (profile.artist_statement || '').length > 30
-
-  const scores = {
-    'artist-statement':   hasText ? 0.50 : 0.05,
-    'exhibition-log':     0.38,
-    'submission-log':     0.35,
-    'contacts':           0.34,
-    'venue-log':          0.30,
-    'preferences':        0.20,
-    'career-goals':       Math.min(goalsCount / 3, 0.75),
-    'saffron-questions':  answeredCount / 8,
-  }
-
-  return Object.entries(scores)
-    .sort((a, b) => b[1] - a[1])
-    .map(([id]) => id)
+// Section order (Scott, 2026-06-26): the artist statement first, then the
+// profile-building INPUTS she actually shapes her profile with — preferences,
+// goals, and the questions/notes — kept right under the statement so they're
+// never buried. Only THEN the long record/log forms (exhibitions, submissions,
+// venues, contacts), which are reference lists she dips into, not the wall she
+// has to wade through first. (The old score-sort dropped preferences below all
+// four long logs, so she'd never scroll to it.)
+function computeSectionOrder() {
+  return [
+    'artist-statement',
+    'preferences',
+    'career-goals',
+    'saffron-questions',
+    'exhibition-log',
+    'submission-log',
+    'venue-log',
+    'contacts',
+  ]
 }
 
 // ── Dismissal insight banner ──────────────────────────────────────────────
