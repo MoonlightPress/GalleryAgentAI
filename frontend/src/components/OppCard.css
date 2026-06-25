@@ -1,8 +1,13 @@
 /* ── Card shell ── */
+/* UNIFORM warm-orange top-accent on EVERY card (Scott 2026-06-25: "keep the
+   orange, they just all need to be the same"). The Strongest Picks band gets a
+   stronger tier of the same family in OpportunitiesSection.css; hierarchy is
+   band-vs-card, not bar-vs-no-bar. */
 .opp-card {
   position: relative;
   background: #FFFCF7;
   border: 1px solid #e2cfa8;
+  border-top: 3px solid #c9a86c;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(80, 55, 30, 0.08), 0 1px 3px rgba(80, 55, 30, 0.04);
@@ -32,32 +37,12 @@
   transform: none;
 }
 
-/* ── Importance variants (T3.1) ───────────────────────────────────────────
-   Mirrors the TodaysFocus .tf-card treatment: a strong pick earns a colored
-   top-accent + a subtle warm background + a slightly heavier title, so it no
-   longer reads identical to watch-list filler. Calm, not loud — hierarchy by
-   weight and warmth, not decoration. */
-.opp-card--strong {
-  background: #fffdf6;
-  border-color: #e0c888;
-  border-top: 3px solid #b8892a;
-}
-.opp-card--strong .opp-card-title {
-  font-size: 15px;
-  color: var(--ink);
-}
-
-/* Urgent deadline (<7 days): a louder accent BAR — top + left — so urgency is
-   structural, not just the amber text on the deadline line. Takes precedence on
-   the top edge; pairs with --strong via the warm bg below. */
-.opp-card--urgent {
-  border-top: 3px solid #d08a1a;
-  border-left: 3px solid #d08a1a;
-}
-/* A strong pick that is ALSO urgent keeps the warm bg + the louder urgent bar. */
-.opp-card--urgent.opp-card--strong {
-  background: #fffdf6;
-}
+/* Importance variants (.opp-card--strong / .opp-card--urgent) RETIRED 2026-06-25.
+   They produced the "some cards have bars, some don't" inconsistency. Hierarchy
+   is now: every card = uniform orange top-accent (base .opp-card above), the
+   Strongest Picks band = stronger orange (.opp-grid--strongest in
+   OpportunitiesSection.css). Urgency stays as TEXT — see
+   .opp-card-deadline--urgent + the "soon" pill below, no structural bar. */
 
 /* ── Card body — full width ── */
 .opp-card-body {

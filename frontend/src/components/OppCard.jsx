@@ -158,16 +158,15 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
     }
   }
 
-  // Importance variant (T3.1). A strong, deadline-imminent pick used to render
-  // pixel-identical to watch-list filler. Borrow the TodaysFocus .tf-card pattern:
-  // strong picks get a colored top-accent + warm bg + slightly larger title; an
-  // urgent deadline gets a louder left+top accent bar (not just amber text).
-  // Pure presentation — driven off data that ranking already produced.
-  const isStrong = confLevel === 'strong'
+  // Card hierarchy (T3.1, revised per Scott 2026-06-25: "keep the orange, they
+  // just all need to be the same"). Every card now carries the SAME uniform warm
+  // orange top-accent (base .opp-card in OppCard.css); the Strongest Picks band
+  // gets a STRONGER tier of the same orange family via .opp-grid--strongest. We
+  // no longer flag individual cards with --strong/--urgent bars (that produced
+  // "some have bars, some don't"). Urgency stays as TEXT (amber deadline + "soon"
+  // pill), not a structural bar.
   const cardClass = [
     'opp-card',
-    isStrong ? 'opp-card--strong' : '',
-    deadlineUrgent ? 'opp-card--urgent' : '',
     isOpen ? 'opp-card--open' : '',
   ].filter(Boolean).join(' ')
 

@@ -35,7 +35,15 @@
   background: #fdf8ee;
   display: flex;
   flex-direction: column;
-  padding-bottom: 48px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px 48px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  .sf-content { padding: 0 12px 40px; }
 }
 
 /* ── Light category tabs ────────────────────────────────────────────── */
@@ -109,13 +117,6 @@
 .sf-section:first-of-type {
   margin-top: 12px;
 }
-
-/* Four-tier ladder */
-.sf-tiers-intro { font-family: Georgia, serif; font-size: 13px; font-style: italic; color: #8a7350; margin: 0 0 14px; }
-.sf-tier-done { display: flex; align-items: center; gap: 10px; padding: 8px 0; }
-.sf-tier-check { color: #5a7a30; font-weight: bold; width: 18px; text-align: center; }
-.sf-tier-name { flex: 1; font-family: Georgia, serif; font-size: 14px; color: #3d2b1a; }
-.sf-tier-status { font-size: 12px; color: #5a7a30; font-style: italic; }
 
 .sf-peer-link { text-decoration: none; cursor: pointer; display: inline-block; }
 .sf-peer-link:hover { color: #c47a35; text-decoration: underline; }
@@ -1876,94 +1877,6 @@
   border-bottom: 2px solid #e8d5a8;
 }
 
-/* Readiness bars */
-
-.sf-readiness-bars {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-bottom: 8px;
-}
-
-.sf-readiness-bar-row {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.sf-readiness-bar-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.sf-readiness-bar-label {
-  font-family: Georgia, serif;
-  font-size: 13.5px;
-  font-weight: bold;
-  color: #3d2b1a;
-}
-
-.sf-readiness-bar-pct {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  color: #c47a35;
-  font-weight: bold;
-}
-
-.sf-readiness-track {
-  height: 12px;
-  background: #f0e3c4;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.sf-readiness-fill {
-  height: 100%;
-  border-radius: 6px;
-  transition: width 0.5s ease;
-}
-
-.sf-readiness-sublabel {
-  font-family: Georgia, serif;
-  font-size: 11.5px;
-  color: #9a7040;
-  font-style: italic;
-}
-
-/* Timeline pill */
-
-.sf-readiness-milestone-row {
-  margin-top: 24px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.sf-readiness-timeline-pill {
-  display: inline-block;
-  font-family: Georgia, serif;
-  font-size: 11.5px;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  color: #7a4a10;
-  background: #fdf0d8;
-  border: 1px solid #d4993a;
-  border-radius: 20px;
-  padding: 4px 14px;
-}
-
-/* Next milestone */
-
-.sf-readiness-milestone {
-  font-family: Georgia, serif;
-  font-size: 15px;
-  font-style: italic;
-  color: #3d2b1a;
-  line-height: 1.6;
-  margin: 12px 0 0;
-}
-
 /* Blocking gaps */
 
 .sf-readiness-gaps {
@@ -2137,7 +2050,10 @@
   color: #3d2b1a;
   line-height: 1.4;
   flex: 1;
+  text-decoration: none;
+  cursor: pointer;
 }
+a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
 
 .sf-readiness-col-score {
   font-family: Georgia, serif;
@@ -2157,10 +2073,52 @@
   padding-top: 6px;
 }
 
-/* ── Market Stats ──────────────────────────────────────────── */
+/* ── Market Stats / "the field right now" (landscape lead) ─────────────── */
+
+/* Calm, atmospheric intro — sets the landscape as a view, not a to-do list. */
+.sf-field-intro {
+  font-family: Georgia, serif;
+  font-size: 14.5px;
+  font-style: italic;
+  line-height: 1.7;
+  color: #6a5436;
+  margin: 0 0 22px;
+  padding: 14px 18px;
+  background: linear-gradient(180deg, #fbf3e2 0%, #fdf8ee 100%);
+  border-left: 3px solid #d4b87a;
+  border-radius: 0 8px 8px 0;
+}
 
 .sf-ms-bars {
   max-width: 600px;
+}
+
+/* "Where you fit" lens — the types closest to her practice get a soft dot +
+   slightly stronger label, so the bars read as orientation, not a ranking. */
+.sf-fit-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #5a7a30;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.sf-bar-row--fit .sf-bar-label { color: #3d2b1a; font-weight: bold; }
+
+/* Her-strength marker on the medium list — descriptive, never a grade. */
+.sf-strength-tag {
+  font-family: Georgia, serif;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #4f7a52;
+  background: #eef4ea;
+  border-radius: 8px;
+  padding: 1px 7px;
+  margin-left: 8px;
+  vertical-align: middle;
 }
 
 .sf-ms-bar-fill {
@@ -2247,89 +2205,6 @@
   margin-top: 8px;
 }
 
-.sf-ms-score-tiers {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.sf-ms-score-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.sf-ms-score-bar-wrap {
-  width: 80px;
-  height: 8px;
-  background: #f0e3c4;
-  border-radius: 4px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
-.sf-ms-score-bar {
-  height: 100%;
-  border-radius: 4px;
-  transition: width 0.4s ease;
-}
-
-.sf-ms-score--high .sf-ms-score-bar { background: #5a7a30; }
-.sf-ms-score--mid  .sf-ms-score-bar { background: #c47a35; }
-.sf-ms-score--low  .sf-ms-score-bar { background: #c0aa88; }
-
-.sf-ms-score-num {
-  font-family: Georgia, serif;
-  font-size: 16px;
-  font-weight: bold;
-  color: #3d2b1a;
-  min-width: 28px;
-}
-
-.sf-ms-score-label {
-  font-family: Georgia, serif;
-  font-size: 12.5px;
-  color: #7a5c3a;
-}
-
-.sf-ms-top-list {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.sf-ms-top-row {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  padding: 6px 0;
-  border-bottom: 1px solid #f0e3c4;
-}
-
-.sf-ms-top-rank {
-  font-family: Georgia, serif;
-  font-size: 12px;
-  color: #c47a35;
-  font-weight: bold;
-  min-width: 16px;
-}
-
-.sf-ms-top-name {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  color: #3d2b1a;
-  flex: 1;
-  line-height: 1.3;
-}
-
-.sf-ms-top-score {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  font-weight: bold;
-  color: #5a7a30;
-  flex-shrink: 0;
-}
-
 /* ── Career Momentum ───────────────────────────────────────────── */
 
 .sf-momentum-stats {
@@ -2378,90 +2253,24 @@
 .sf-count-arrow { color: #c9b48a; transition: color 0.15s ease; }
 .sf-clickable-count:hover .sf-count-arrow { color: #c47a35; }
 
-/* ── Career Readiness — hybrid reframe ─────────────────────────────────────── */
+/* ── Career Readiness — status-line reframe ────────────────────────────────── */
+/* (The level-up celebration, numeric badge/ladder, progress bar, tier bars, and
+   months-to-tier widgets were all removed — see the component. What survives is
+   a warm status line + one next-step card + three opportunity columns.) */
 
-/* Level-up celebration */
-.sf-levelup {
-  position: relative;
-  margin: 4px 0 22px;
-  padding: 18px 20px 16px;
-  text-align: center;
-  background: linear-gradient(180deg, #fff6e2 0%, #fffdf8 100%);
-  border: 1px solid #e3b256;
-  border-radius: 12px;
-  box-shadow: 0 2px 14px rgba(196, 122, 53, 0.12);
-}
-.sf-levelup-close {
-  position: absolute; top: 8px; right: 12px;
-  border: none; background: none; cursor: pointer;
-  font-size: 18px; line-height: 1; color: #b08540;
-}
-.sf-levelup-spark { font-size: 22px; color: #d4993a; }
-.sf-levelup-title {
-  font-family: Georgia, serif; font-weight: bold; font-size: 16px;
-  color: #7a4a10; margin-top: 4px;
-}
-.sf-levelup-body {
-  font-family: Georgia, serif; font-size: 13.5px; font-style: italic;
-  color: #5a4226; line-height: 1.6; margin: 6px auto 0; max-width: 460px;
-}
-
-/* Strengths-first earned-level header — quiet text, no boxed "button" look
-   that pulls focus away from the cards below it. */
-.sf-level-header {
-  display: flex; align-items: baseline; gap: 14px;
-  padding: 2px 2px 14px;
+/* ONE warm status line — replaces the five contradicting level widgets. A
+   sentence, not a rank: no number, bar, %, or celebration. */
+.sf-status-line {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #4a3826;
+  margin: 2px 0 4px;
+  padding: 2px 2px 16px;
   border-bottom: 1px solid #efe2c4;
 }
-.sf-level-badge {
-  flex: 0 0 auto;
-  display: flex; flex-direction: column;
-}
-.sf-level-badge-num {
-  font-family: Georgia, serif; font-weight: bold; font-size: 13px;
-  letter-spacing: 0.12em; text-transform: uppercase; color: #c47a35;
-}
-.sf-level-badge-name {
-  font-family: Georgia, serif; font-size: 12.5px; color: #8a6a3a;
-  margin-top: 2px; line-height: 1.3;
-}
-/* Named-only badge (no numeric rank): the phase name carries the header. */
-.sf-level-badge--named .sf-level-badge-name {
-  font-size: 15px; font-weight: bold; color: #8a5a20; margin-top: 0;
-}
 
-/* The numeric ladder — only inside the collapsed readiness detail, never in
-   the glance. */
-.sf-level-ladder { margin: 4px 0 10px; }
-.sf-level-ladder-head { display: flex; align-items: baseline; gap: 10px; }
-.sf-level-ladder-num {
-  font-family: Georgia, serif; font-weight: bold; font-size: 13px;
-  letter-spacing: 0.12em; text-transform: uppercase; color: #c47a35;
-}
-.sf-level-ladder-name { font-family: Georgia, serif; font-size: 13px; color: #8a6a3a; }
-.sf-level-headbody { flex: 1 1 auto; }
-.sf-level-foundation {
-  font-family: Georgia, serif; font-size: 14px; color: #3d2b1a;
-  line-height: 1.55; margin: 0;
-}
-.sf-level-strengths {
-  font-family: Georgia, serif; font-size: 12.5px; color: #8a6a3a;
-  margin: 8px 0 0; letter-spacing: 0.01em;
-}
-
-/* Progress toward next level */
-.sf-level-progress { margin: 18px 0 4px; }
-.sf-level-progress-head {
-  display: flex; justify-content: space-between; align-items: baseline;
-  font-family: Georgia, serif; font-size: 12.5px; color: #6a4e2a; margin-bottom: 6px;
-}
-.sf-level-progress-pct { font-weight: bold; color: #c47a35; }
-.sf-level-ceiling {
-  font-family: Georgia, serif; font-size: 13.5px; font-style: italic;
-  color: #5a7a30; margin: 16px 0 4px;
-}
-
-/* The single next-unlock card */
+/* The single next-step card */
 .sf-next-unlock {
   margin: 20px 0 6px;
   padding: 16px 18px;
@@ -2499,26 +2308,6 @@
   text-decoration: underline; text-underline-offset: 3px;
 }
 .sf-more-gaps-toggle:hover { color: #c47a35; }
-
-/* Newly-in-reach badge on a column header */
-.sf-newly-badge {
-  display: inline-block; margin-left: 8px;
-  font-family: Georgia, serif; font-size: 9.5px; font-weight: bold;
-  letter-spacing: 0.06em; text-transform: uppercase;
-  color: #fff8ec; background: #5a7a30;
-  border-radius: 10px; padding: 2px 8px; vertical-align: middle;
-}
-
-/* Readiness detail disclosure */
-.sf-readiness-detail { margin-top: 26px; }
-.sf-readiness-detail > summary {
-  font-family: Georgia, serif; font-size: 12.5px; color: #9a7040;
-  cursor: pointer; padding: 6px 0; list-style: none;
-}
-.sf-readiness-detail > summary::-webkit-details-marker { display: none; }
-.sf-readiness-detail > summary::before { content: '▸ '; color: #c47a35; }
-.sf-readiness-detail[open] > summary::before { content: '▾ '; }
-.sf-readiness-detail > summary:hover { color: #c47a35; }
 
 .sf-momentum-label {
   font-family: Georgia, serif;
@@ -2895,7 +2684,9 @@
   border-radius: 0 6px 6px 0;
 }
 
-.sf-gap-row--gap      { border-left-color: #b03020; }
+/* Gentle: no alarm red on a sensitive user's "gap" rows — a warm amber reads as
+   "room to grow," not "failure." (Matches the doors-not-deficits posture.) */
+.sf-gap-row--gap      { border-left-color: #d4993a; }
 .sf-gap-row--strength { border-left-color: #5a7a30; }
 
 .sf-gap-row-header {

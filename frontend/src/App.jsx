@@ -93,7 +93,15 @@ export default function App() {
         {page === 'discover' && <TodaysFocus />}
         {page === 'discover' && <ViewToggle view={view} setView={setView} />}
         {page === 'discover' && view === 'cards'    && <OpportunitiesSection />}
-        {page === 'discover' && view === 'cards'    && <RelationshipTargets />}
+        {/* People (RelationshipTargets) mounts INSIDE the same padded .opps-root
+            container the opportunity cards use, so its .rt-section inherits the
+            normal max-width + 28px gutter instead of going edge-to-edge (the
+            section's own max-width:1400px never engaged below 1400px). */}
+        {page === 'discover' && view === 'cards'    && (
+          <div className="opps-root">
+            <RelationshipTargets />
+          </div>
+        )}
         {page === 'discover' && view === 'cards'    && <TrackerSection />}
         {page === 'discover' && view === 'calendar' && <DeadlineCalendar />}
         {(page === 'observe' || page === 'refine') && (

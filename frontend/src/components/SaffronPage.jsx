@@ -49,7 +49,7 @@ function deepTranslate(obj, map) {
 const SF_ZH = {
   // ── Open questions (she reads + answers these) ──
   "What's your current Instagram posting frequency?": "你目前在 Instagram 上的发布频率是多少？",
-  "With a 26k Instagram following, the account is established and growing. Cadence is the most controllable variable for maximising reach on the platform galleries, publishers, and curators actually use for discovery. Without knowing current frequency, no posting strategy can be recommended.": "你已有 2.6 万 Instagram 粉丝，账号已确立并在增长。发布节奏是提升触及最可控的变量——而画廊、出版社与策展人正是用这个平台来发掘新人。在不知道当前频率的情况下，无法给出任何发布策略建议。",
+  "With an established, growing Instagram following, the account is already a working portfolio. Cadence is the most controllable variable for maximising reach on the platform galleries, publishers, and curators actually use for discovery. Without knowing current frequency, no posting strategy can be recommended.": "你已有稳固且持续增长的 Instagram 受众，账号本身就是一份运转中的作品集。发布节奏是提升触及最可控的变量——而画廊、出版社与策展人正是用这个平台来发掘新人。在不知道当前频率的情况下，无法给出任何发布策略建议。",
   "Where is your audience located geographically?": "你的受众主要分布在哪些地区？",
   "A primarily Chinese-language following changes the geographic expansion strategy entirely — it suggests China reentry before European expansion.": "如果粉丝以中文受众为主，整个地域拓展策略都会不同——这意味着应先重返中国市场，再考虑欧洲。",
   "Have you sold work, and through which channels?": "你卖出过作品吗？通过哪些渠道？",
@@ -68,12 +68,12 @@ const SF_ZH = {
   // ── Career paths (long-term scenarios) ──
   "Gallery Track": "画廊路线",
   "Primary identity as a gallery artist.": "以画廊艺术家为主要身份。",
-  "Solo shows, institutional open calls, gallery representation by 30.": "个展、机构公开征集，30 岁前获得画廊代理。",
+  "Solo shows, institutional open calls, gallery representation over the next few years.": "个展、机构公开征集，在未来几年里获得画廊代理。",
   "Exhibition history is thin. 2–3 more group shows are required before any gallery will discuss a solo show.": "展览经历尚浅。在任何画廊愿意谈个展之前，还需要 2–3 场联展。",
   "Right if you're primarily motivated by the physical exhibition experience and gallery community.": "如果你最看重实体展览的体验与画廊圈子，这条路最适合你。",
   "Publication Track": "出版路线",
   "Primary identity as an illustrator and artist-book maker.": "以插画家与艺术书创作者为主要身份。",
-  "Second solo book, international distribution, major book fairs by 30.": "30 岁前完成第二本个人作品集、国际发行、参与重要书展。",
+  "Second solo book, international distribution, major book fairs over the next few years.": "在未来几年里完成第二本个人作品集、国际发行、参与重要书展。",
   "No new publication since 2021. The content exists — it needs packaging.": "自 2021 年以来没有新出版物。内容已经具备——只差整理成册。",
   "Right if you're motivated by the book as object and the publishing community. Your formation already points here.": "如果你着迷于书作为实体，以及出版社群，这条路最适合你。你的成长背景本就指向这里。",
   "Hybrid Track": "复合路线",
@@ -82,11 +82,14 @@ const SF_ZH = {
   "Requires more energy and time management than either single track.": "比任何单一路线都更考验精力与时间管理。",
   "The most natural fit given your existing practice. The daily diary is simultaneously publication material and gallery-worthy work.": "鉴于你现有的实践，这是最自然的选择。每日水彩日记既是出版素材，也是值得展出的作品。",
   "The Hybrid Track is the best structural fit. The bookshop gallery show is the single highest-leverage action — it advances both tracks with one move.": "复合路线在结构上最契合。书店画廊展览是单一杠杆最高的行动——一步同时推进两条路线。",
-  "Age 30 (approximately 4 years from now)": "30 岁（大约从现在起 4 年后）",
+  // Age/countdown framing retired (Scott: companions may use what she tells
+  // them, never parade inferred personal facts). Horizon is now a neutral
+  // "next few years" — matching the backend's new English.
+  "The next few years": "未来几年",
 
   // ── Instagram ──
-  "Primary visual portfolio platform — 26k followers built through daily watercolor diary practice since 2020. The platform galleries, publishers, and curators use for discovery.": "你主要的视觉作品集平台——自 2020 年起通过每日水彩日记积累了 2.6 万粉丝。也是画廊、出版社与策展人用来发掘新人的平台。",
-  "Instagram is an established strength — 26k followers, already a working portfolio and the surface galleries and publishers use to discover you. Growth from here is a bonus, not a requirement.": "Instagram 已是你确立的优势——2.6 万粉丝，本身就是一份运转中的作品集，也是画廊与出版社发掘你的入口。继续增长是加分项，而非必需。",
+  "Primary visual portfolio platform — an established, growing following built through daily watercolor diary practice since 2020. The platform galleries, publishers, and curators use for discovery.": "你主要的视觉作品集平台——自 2020 年起通过每日水彩日记积累了稳固且持续增长的受众。也是画廊、出版社与策展人用来发掘新人的平台。",
+  "Instagram is an established strength — an established, growing following, already a working portfolio and the surface galleries and publishers use to discover you. Growth from here is a bonus, not a requirement.": "Instagram 已是你确立的优势——稳固且持续增长的受众，本身就是一份运转中的作品集，也是画廊与出版社发掘你的入口。继续增长是加分项，而非必需。",
   "A years-long watercolor diary since 2020. The material is already there; nothing about visibility asks you to paint more.": "自 2020 年起、持续多年的水彩日记。素材已经现成；提升曝光并不要求你画得更多。",
   "Urban environments, cats, domestic life, travel fragments — subjects that already do well on Instagram": "城市环境、猫、日常生活、旅行片段——这些题材在 Instagram 上本就表现不错。",
   "A low-effort way to deepen your reach without painting more: short process videos — a time-lapse, or a clip of a piece coming together. They travel well on Instagram and Reels, suit a slow studio practice, and turn work you're already doing into something to share.": "一种省力、又能扩大触及的方式，且无需多画：短的创作过程视频——延时摄影，或一幅作品逐渐成形的片段。它们在 Instagram 和 Reels 上传播力强，契合慢节奏的工作室创作，把你本就在做的事变成可以分享的内容。",
@@ -100,7 +103,7 @@ const SF_ZH = {
   "Domestic interiors and everyday life — directly aligned with your subject matter": "家居室内与日常生活——与你的题材直接契合",
   "Large illustration/photography community; annual book prize you could enter": "庞大的插画／摄影社群；有可投递的年度书籍奖项",
   "The 5 co-exhibitors from Tide from China are your strongest existing collaboration seeds. Their current Tokyo presence and active practice is unconfirmed — tell Saffron whether you've stayed in contact with any of them.": "「潮自中国」联展的 5 位共同参展者，是你现有最强的合作种子。他们目前是否在东京、是否仍活跃尚未确认——请告诉红雀你是否还和其中任何人保持联系。",
-  "Whether your 26k Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.": "你那 2.6 万 Instagram 粉丝究竟集中在中国、日本，还是分布于全球，决定了该优先经营哪些地域市场——展览、博览会与出版社皆然。以中文受众为主，意味着与全球分布截然不同的拓展路径。",
+  "Whether your established Instagram following is concentrated in China, Japan, or distributed internationally determines which geographic markets to prioritise — for exhibitions, fairs, and publishers. A primarily Chinese audience suggests a different expansion path than a globally distributed one.": "你那稳固的 Instagram 受众究竟集中在中国、日本，还是分布于全球，决定了该优先经营哪些地域市场——展览、博览会与出版社皆然。以中文受众为主，意味着与全球分布截然不同的拓展路径。",
   "Knowing who buys illustration and watercolor work at your price point determines which fairs, platforms, and venues are commercially worthwhile — not just aesthetically aligned.": "了解在你的价位上谁会购买插画与水彩作品，决定了哪些博览会、平台与场地在商业上值得投入——而不仅仅是审美上契合。",
 
   // ── Comparable artists ──
@@ -139,7 +142,7 @@ const SF_ZH = {
   "Group publication, contributor": "群体出版物，供稿者",
   "Beijing Fashion Institute": "北京服装学院",
   "Illustration & design": "插画与设计",
-  "Not a classical fine arts track": "非传统纯艺路径",
+  "Illustration & design background": "插画与设计背景",
   "Tokyo, Japan / Beijing, China": "日本东京／中国北京",
   "Zines & Books": "独立刊物与书籍", "Galleries": "画廊", "Residencies": "驻地",
   "Open Calls & Fairs": "公开征集与博览会", "Cafés & Bookshop Spaces": "咖啡馆与书店空间", "Other": "其他",
@@ -151,9 +154,9 @@ const SF_ZH = {
   "1 confirmed": "1 场已确认", "2 (1 solo, 1 group)": "2（1 本个人，1 本群体）",
   "below_typical": "低于典型", "on_track": "处于正轨",
   "Expected at this stage — but the gap needs closing before gallery conversations are realistic": "这个阶段属于正常——但在画廊洽谈变得现实之前，需要补上这个差距",
-  "Solid for this stage, especially with a solo collection at 21": "对这个阶段而言相当扎实，尤其是 21 岁就有了个人作品集",
+  "Solid for this stage, especially with a solo collection so early": "对这个阶段而言相当扎实，尤其是很早就有了第一本个人作品集",
   "Right in the typical band for illustrators at this stage — a solid, real audience for print and zine discovery, with room to grow toward the 50k market-viability signal": "正处于这个阶段插画师的典型区间——一个扎实而真实的受众群，利于印刷品与独立刊物被发掘，并有空间向 5 万这一市场可行性信号增长",
-  "Exhibition history is the weakest dimension. The 26k Instagram following is a solid, real asset at this career stage but not yet a standout — it sits in the typical peer range. The near-term work is converting audience into exhibition and publication credits.": "展览经历是最薄弱的一环。2.6 万 Instagram 粉丝在这个事业阶段是扎实而真实的资产，但还算不上突出——它落在同侪的典型区间内。近期的功课是把受众转化为展览与出版的履历。",
+  "Exhibition history is the weakest dimension. An established, growing Instagram following is a solid, real asset at this career stage but not yet a standout — it sits in the typical peer range. The near-term work is converting audience into exhibition and publication credits.": "展览经历是最薄弱的一环。稳固且持续增长的 Instagram 受众在这个事业阶段是扎实而真实的资产，但还算不上突出——它落在同侪的典型区间内。近期的功课是把受众转化为展览与出版的履历。",
   "~6 (daily practice from 2020, first publication 2021)": "约 6 年（2020 年起每日创作，2021 年首次出版）",
 
   // ── Month names ──
@@ -277,6 +280,17 @@ const SF_ZH = {
   "Bookshop gallery show as the bridge (UTRECHT or Book and Sons) — satisfies both tracks simultaneously": "以书店画廊展览作为桥梁（UTRECHT 或 Book and Sons）——同时满足两条路线",
 }
 
+// Japanese overrides for the same age/horizon strings (her ja siblings come from
+// the backend's _i18n.ja, which can't carry the new neutral-horizon English yet).
+// Kept inline (NOT translations.js) and merged into the ja txMap below so the ja
+// view also drops the age/countdown framing. Only the strings the review touched.
+const SF_JA = {
+  "The next few years": "これからの数年",
+  "Solo shows, institutional open calls, gallery representation over the next few years.": "個展、公募展、そしてこれからの数年でのギャラリー専属。",
+  "Second solo book, international distribution, major book fairs over the next few years.": "これからの数年で2冊目の個人作品集、海外流通、主要なブックフェアへ。",
+  "Solid for this stage, especially with a solo collection so early": "この段階としては堅実——とりわけ、早くから初の個人作品集を出していることは大きい",
+}
+
 class SectionErrorBoundary extends Component {
   constructor(props) { super(props); this.state = { error: null } }
   static getDerivedStateFromError(err) { return { error: err } }
@@ -346,9 +360,9 @@ function CareerPosition({ data, t }) {
   const ig = data.social.find(s => s.platform === 'Instagram')
   const summary = `${data.exhibitions.length} · ${data.publications.length} · Instagram ${ig?.followers ?? '—'} · ${data.base}`
 
-  const igStr = ig?.followers || '26k'
+  const igStr = ig?.followers || '27k'
   // "You're here" markers — NOT progress-to-target rings. The old rings rendered
-  // a strength half-empty (26k as "52% to 50k"), which contradicts the app's own
+  // a strength half-empty (e.g. an established count shown as "52% to 50k"), which contradicts the app's own
   // "growth is a bonus, not a requirement." A marker states where she stands; it
   // never fills a fraction of a goal she didn't set.
   const markers = [
@@ -362,7 +376,6 @@ function CareerPosition({ data, t }) {
       title={t('sf.sec.careerPosition')}
       subtitle={t('sf.sub.careerPosition')}
       summary={summary}
-      defaultOpen={true}
     >
       <div className="sf-rings">
         {markers.map(mk => <MilestoneMarker key={mk.id} {...mk} />)}
@@ -1181,20 +1194,49 @@ function QuestionRow({ q, index, t }) {
   )
 }
 
-function OpenQuestions({ data, t }) {
+// Compact, opt-in open-questions block for the profile tab. Framed as an
+// invitation ("want Saffron to understand you better? — optional"), 3 visible +
+// a "still N more ▾" reveal (same progressive-disclosure pattern as the gaps).
+// NEVER a quota or a count-pressure — answering is welcome, never required.
+const PROFILE_OQ_HEAD = {
+  zh: { title: '想让红雀更懂你？（可选）', note: '回答哪些、回答几个，都由你决定——答了我会把建议调得更贴近你，不答也完全没关系。' },
+  ja: { title: 'サフランにもっと知ってほしいですか？（任意）', note: 'どれに答えるかも、答えるかどうかも、あなた次第です——答えてくれたらアドバイスをより合わせられますが、答えなくても大丈夫です。' },
+  en: { title: 'Want Saffron to understand you better? (optional)', note: "Answer any, all, or none — whatever you feel like. Each one I'll use to tune the advice closer to you, and it's completely fine to skip them." },
+}
+const PROFILE_OQ_MORE = {
+  zh: (n) => `还有 ${n} 个 ▾`,
+  ja: (n) => `あと ${n} 件 ▾`,
+  en: (n) => `${n} more ▾`,
+}
+const PROFILE_OQ_HIDE = { zh: '收起', ja: '閉じる', en: 'Hide' }
+
+function ProfileOpenQuestions({ data, t, lang }) {
+  const [expanded, setExpanded] = useState(false)
+  const questions = data?.questions ?? []
+  if (questions.length === 0) return null
+  const head = PROFILE_OQ_HEAD[lang] || PROFILE_OQ_HEAD.en
+  const VISIBLE = 3
+  const shown = expanded ? questions : questions.slice(0, VISIBLE)
+  const hidden = questions.length - VISIBLE
   return (
-    <SectionShell
-      title={t('sf.sec.openQs')}
-      subtitle={t('sf.sub.openQs')}
-      summary={`${data.count}`}
-    >
-      <p className="sf-info-text" style={{ marginBottom: 24 }}>{t('sf.label.openQNote')}</p>
+    <SectionShell title={head.title} summary={head.title}>
+      <p className="sf-info-text" style={{ marginBottom: 20 }}>{head.note}</p>
       <div className="sf-questions">
-        {data.questions.map((q, i) => <QuestionRow key={i} q={q} index={i} t={t} />)}
+        {shown.map((q, i) => <QuestionRow key={i} q={q} index={i} t={t} />)}
       </div>
+      {hidden > 0 && (
+        <div className="sf-more-gaps" style={{ marginTop: 8 }}>
+          <button className="sf-more-gaps-toggle" onClick={() => setExpanded(e => !e)}>
+            {expanded ? (PROFILE_OQ_HIDE[lang] || PROFILE_OQ_HIDE.en) : (PROFILE_OQ_MORE[lang] || PROFILE_OQ_MORE.en)(hidden)}
+          </button>
+        </div>
+      )}
     </SectionShell>
   )
 }
+
+// (OpenQuestions full-list section retired — replaced by the compact, opt-in
+// ProfileOpenQuestions block on the profile tab.)
 
 // ── Licensing Landscape ────────────────────────────────────────────────────
 
@@ -1770,20 +1812,6 @@ function MilestoneMarker({ current, label, color }) {
   )
 }
 
-function ReadinessBar({ label, sublabel, pct, color }) {
-  return (
-    <div className="sf-readiness-bar-row">
-      <div className="sf-readiness-bar-header">
-        <span className="sf-readiness-bar-label">{label}</span>
-        <span className="sf-readiness-bar-pct">{Math.round(pct)}%</span>
-      </div>
-      <div className="sf-readiness-track">
-        <div className="sf-readiness-fill" style={{ width: `${pct}%`, background: color }} />
-      </div>
-      <div className="sf-readiness-sublabel">{sublabel}</div>
-    </div>
-  )
-}
 
 const CAT_LABELS = {
   'Open Calls & Fairs':      'Open Calls & Fairs',
@@ -1805,67 +1833,91 @@ const MEDIUM_LABELS = {
   unknown:     'Medium unspecified',
 }
 
+// Landscape lead: a calm, atmospheric "the field right now" intro + a "where you
+// fit" framing for the category lens. Carries the watercolor identity in words.
+const FIELD_INTRO = {
+  zh: '这是当下整个领域的样子——并非待办清单，只是一幅风景。慢慢看，挑你想看的。',
+  ja: 'これは今の分野全体の眺めです——やることリストではなく、一枚の風景。気が向いたところだけ眺めてください。',
+  en: "Here's what the whole field looks like right now — not a to-do list, just a landscape. Take it slow; look where you like.",
+}
+const WHERE_YOU_FIT = { zh: '你在其中的位置', ja: 'あなたが位置する場所', en: 'Where you fit' }
+const FIELD_SUBTITLE = {
+  zh: '当下整个领域的样子',
+  ja: '今、分野全体の眺め',
+  en: 'The field right now',
+}
+// Her strength marker — descriptive, not a grade.
+const YOUR_STRENGTH = { zh: '你的强项', ja: 'あなたの強み', en: 'your strength' }
+// "Deadline pressure" → calmer "Upcoming deadlines" (no pressure framing).
+const UPCOMING_DEADLINES = { zh: '近期截止日期', ja: '近づく締切', en: 'Upcoming deadlines' }
+
 function MarketStats({ data, onNav }) {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   if (!data) return null
   const cats   = Object.entries(data.by_category || {})
   const maxCat = Math.max(...cats.map(([, v]) => v), 1)
-  const { top_tier = 0, mid_tier = 0, lower_tier = 0 } = data.score_distribution || {}
-  const scoreTotal = (top_tier + mid_tier + lower_tier) || 1
   const dp = data.deadline_pressure || {}
   const total = data.total_opportunities || 0
-  const summary = t('sf.ms.summary', { total, top: top_tier, deadlines: dp.this_month || 0 })
+  // The opportunity-types most aligned with her practice (watercolor / artist
+  // books / showing in galleries & bookshop spaces) — marked on the "where you
+  // fit" lens so the bars read as orientation, not a ranking.
+  const HER_CATS = new Set(['Galleries', 'Zines & Books', 'Cafes & Bookshop Spaces', 'Cafés & Bookshop Spaces'])
+  const summary = `${total} · ${dp.this_month || 0} ${t('sf.ms.thisMonth')}`
   return (
-    <SectionShell title={t('sf.ms.title')} subtitle={t('sf.ms.subtitle')} summary={summary}>
-      <div className="sf-block-label">{t('sf.ms.byType')}</div>
+    <SectionShell title={FIELD_SUBTITLE[lang] || FIELD_SUBTITLE.en} subtitle={t('sf.ms.subtitle')} summary={summary}>
+      <p className="sf-field-intro">{FIELD_INTRO[lang] || FIELD_INTRO.en}</p>
+
+      {/* Category breakdown as a "where you fit" lens — clickable bars
+          (click → Discover), with the types closest to her practice marked. */}
+      <div className="sf-block-label">{WHERE_YOU_FIT[lang] || WHERE_YOU_FIT.en}</div>
       <div className="sf-bars sf-ms-bars">
-        {cats.map(([label, count]) => (
-          <button
-            key={label}
-            type="button"
-            className="sf-bar-row sf-clickable-count"
-            onClick={() => onNav?.('discover')}
-            title={t('sf.ms.viewInList')}
-          >
-            <span className="sf-bar-label">{CAT_LABELS[label] || label}</span>
-            <div className="sf-bar-track"><div className="sf-bar-fill sf-ms-bar-fill" style={{ width: `${(count / maxCat) * 100}%` }} /></div>
-            <span className="sf-bar-count">{count} <span className="sf-count-arrow">›</span></span>
-          </button>
-        ))}
+        {cats.map(([label, count]) => {
+          const mine = HER_CATS.has(label)
+          return (
+            <button
+              key={label}
+              type="button"
+              className={`sf-bar-row sf-clickable-count${mine ? ' sf-bar-row--fit' : ''}`}
+              onClick={() => onNav?.('discover')}
+              title={t('sf.ms.viewInList')}
+            >
+              <span className="sf-bar-label">{mine && <span className="sf-fit-dot" />}{CAT_LABELS[label] || label}</span>
+              <div className="sf-bar-track"><div className="sf-bar-fill sf-ms-bar-fill" style={{ width: `${(count / maxCat) * 100}%` }} /></div>
+              <span className="sf-bar-count">{count} <span className="sf-count-arrow">›</span></span>
+            </button>
+          )
+        })}
       </div>
+
       <div className="sf-ms-two-col" style={{ marginTop: 32 }}>
         <div>
-          <div className="sf-block-label">{t('sf.ms.deadlinePressure')}</div>
+          <div className="sf-block-label">{UPCOMING_DEADLINES[lang] || UPCOMING_DEADLINES.en}</div>
           <div className="sf-ms-pressure-list">
             <div className="sf-ms-pressure-row sf-ms-pressure--hot"><span className="sf-ms-pressure-num">{dp.this_month || 0}</span><span className="sf-ms-pressure-label">{t('sf.ms.thisMonth')}</span></div>
             <div className="sf-ms-pressure-row sf-ms-pressure--warm"><span className="sf-ms-pressure-num">{dp.next_3_months || 0}</span><span className="sf-ms-pressure-label">{t('sf.ms.next3months')}</span></div>
             <div className="sf-ms-pressure-row sf-ms-pressure--cool"><span className="sf-ms-pressure-num">{dp.open_ongoing || 0}</span><span className="sf-ms-pressure-label">{t('sf.ms.rollingOngoing')}</span></div>
           </div>
-          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.ms.mediumFit')}</div>
-          <div className="sf-ms-medium-list">
-            {Object.entries(data.by_medium || {}).map(([med, cnt]) => (
-              <div key={med} className="sf-ms-medium-row">
-                <span className={`sf-ms-medium-label${med === 'watercolor' ? ' sf-ms-medium--wc' : ''}`}>{MEDIUM_LABELS[med] || med}</span>
-                <span className="sf-ms-medium-count">{cnt}</span>
-              </div>
-            ))}
-          </div>
         </div>
         <div>
-          <div className="sf-block-label">{t('sf.ms.scoreDistrib')}</div>
-          <div className="sf-ms-score-tiers">
-            <div className="sf-ms-score-row sf-ms-score--high"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(top_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{top_tier}</span><span className="sf-ms-score-label">{t('sf.ms.scoreHigh')}</span></div>
-            <div className="sf-ms-score-row sf-ms-score--mid"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(mid_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{mid_tier}</span><span className="sf-ms-score-label">{t('sf.ms.scoreMid')}</span></div>
-            <div className="sf-ms-score-row sf-ms-score--low"><div className="sf-ms-score-bar-wrap"><div className="sf-ms-score-bar" style={{ width: `${(lower_tier / scoreTotal) * 100}%` }} /></div><span className="sf-ms-score-num">{lower_tier}</span><span className="sf-ms-score-label">{t('sf.ms.scoreLow')}</span></div>
-          </div>
-          <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.ms.top5')}</div>
-          <div className="sf-ms-top-list">
-            {(data.top_scored || []).map((opp, i) => (
-              <div key={i} className="sf-ms-top-row"><span className="sf-ms-top-rank">{i + 1}</span><span className="sf-ms-top-name">{opp.name}</span><span className="sf-ms-top-score">{opp.score}</span></div>
-            ))}
+          <div className="sf-block-label">{t('sf.ms.mediumFit')}</div>
+          <div className="sf-ms-medium-list">
+            {Object.entries(data.by_medium || {}).map(([med, cnt]) => {
+              const wc = med === 'watercolor'
+              return (
+                <div key={med} className="sf-ms-medium-row">
+                  <span className={`sf-ms-medium-label${wc ? ' sf-ms-medium--wc' : ''}`}>
+                    {MEDIUM_LABELS[med] || med}
+                    {wc && <span className="sf-strength-tag">{YOUR_STRENGTH[lang] || YOUR_STRENGTH.en}</span>}
+                  </span>
+                  <span className="sf-ms-medium-count">{cnt}</span>
+                </div>
+              )
+            })}
           </div>
         </div>
       </div>
+      {/* Top-5 leaderboard removed — it ranked venues with a hidden grade; the
+          "where you fit" lens + click-through Discover replaces it. */}
     </SectionShell>
   )
 }
@@ -2004,69 +2056,101 @@ function GapCorrectionForm({ gap, onChanged }) {
   )
 }
 
-// Celebrates a level crossing exactly once. The first time we ever see her
-// level we seed a silent baseline (never celebrate the starting level); only a
-// genuine increase over the stored value fires the banner.
-function LevelUpBanner({ level, t }) {
-  const cur = level?.current
-  const [show, setShow] = useState(false)
-  useEffect(() => {
-    if (!cur) return
-    let stored = null
-    try { stored = localStorage.getItem('sf_last_level') } catch { /* unavailable */ }
-    if (stored == null) {
-      try { localStorage.setItem('sf_last_level', String(cur)) } catch { /* unavailable */ }
-      return
-    }
-    if (cur > (parseInt(stored, 10) || 0)) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-shot level-up detection synced from async career data
-      setShow(true)
-      try { localStorage.setItem('sf_last_level', String(cur)) } catch { /* unavailable */ }
-    }
-  }, [cur])
-  if (!show) return null
+// (LevelUpBanner removed — the level-up celebration is exactly the videogame
+// framing the review flagged; the profile no longer has a numeric level to cross.)
+
+// Column headers for the three opportunity buckets — plain "now / getting
+// closer / keep an eye on", NEVER tier numbers. (Domino: the readiness columns
+// should not read as a ranked ladder.)
+const COL_LABELS = {
+  now:    { zh: '现在',     ja: '今',         en: 'Now' },
+  near:   { zh: '正在靠近', ja: '近づいている', en: 'Getting closer' },
+  watch:  { zh: '留意',     ja: '気に留める',   en: 'Keep an eye on' },
+}
+const colLabel = (which, lang) => (COL_LABELS[which][lang] || COL_LABELS[which].en)
+
+// ONE warm status line for the profile — a sentence, no number/bar/%/level/
+// celebration. Built from her real evidence so it stays truthful and updates
+// when she logs a show; the closing clause hedges ("if you want it") so it never
+// prescribes representation. (Replaces the five contradicting level widgets.)
+function careerStatusLine(ev, lang) {
+  const shows = ev.confirmed_group_shows ?? 0
+  const solos = ev.solo_shows ?? (ev.has_solo_show ? 1 : 0)
+  const intl  = !!ev.has_international_show
+  if (lang === 'ja') {
+    const parts = []
+    if (shows) parts.push(`${shows}回のグループ展`)
+    if (solos) parts.push(`${solos}回の個展`)
+    if (intl)  parts.push('海外での展示')
+    const built = parts.length ? `——${parts.join('、')}` : ''
+    return `しっかりとした土台ができています${built}。次に向かう先は、ギャラリーとの関係づくりや専属です（望むなら、ですが）。`
+  }
+  if (lang === 'en') {
+    const parts = []
+    if (shows) parts.push(`${shows} group shows`)
+    if (solos) parts.push(`${solos} solo show${solos > 1 ? 's' : ''}`)
+    if (intl)  parts.push('an international showing')
+    const built = parts.length ? ` — ${parts.join(', ')}` : ''
+    return `You've built a solid foundation${built}. The direction from here is gallery relationships and representation, if you want it.`
+  }
+  // zh (her default)
+  const parts = []
+  if (shows) parts.push(`${shows} 场联展`)
+  if (solos) parts.push(`${solos} 场个展`)
+  if (intl)  parts.push('海外的展出')
+  const built = parts.length ? `——${parts.join('、')}` : ''
+  return `你已经建立了扎实的根基${built}。接下来的方向是画廊关系与代理（如果你想要的话）。`
+}
+
+// One readiness-column row: the opportunity name as a real link out (its own
+// page when we have one, otherwise a name search). The field is `website` —
+// NOT `url`. No numeric score is ever shown to her.
+function ReadinessColItem({ o, muted }) {
+  const name = (o && typeof o === 'object') ? (o.name ?? o.title ?? '') : o
+  const href = (o && typeof o === 'object' && o.website) ? o.website : sfSearch(name)
   return (
-    <div className="sf-levelup">
-      <button className="sf-levelup-close" onClick={() => setShow(false)} title={t('sf.cr.dismiss')}>×</button>
-      <div className="sf-levelup-spark">✦</div>
-      <div className="sf-levelup-title">{t('sf.cr.levelUpTitle')}</div>
-      <p className="sf-levelup-body">{t('sf.cr.levelUpBody', { n: level.current, label: level.current_label })}</p>
+    <div className={`sf-readiness-col-item${muted ? ' sf-readiness-col-item--muted' : ''}`}>
+      <a className="sf-readiness-col-name sf-ext-link" href={href} target="_blank" rel="noreferrer">{name} ↗</a>
     </div>
   )
 }
+
+// Plainer "next step" labels — no "level up / unlock / advance a tier" framing.
+const NEXT_STEP_LABEL = { zh: '下一步', ja: '次の一歩', en: 'Next step' }
+// The optional, no-pressure hint under the next-step card.
+const NEXT_STEP_HINT = {
+  zh: '没有截止日期，也不催你——想做的时候再做。',
+  ja: '締切も急かしもありません——やりたくなったときで大丈夫です。',
+  en: 'No deadline, no pressure — only when you feel like it.',
+}
+// "More directions" toggle (was "还有 N 个进阶目标" / advance-a-tier language).
+const MORE_DIRS = {
+  zh: (n) => `还有 ${n} 个方向 ▾`,
+  ja: (n) => `あと ${n} 件 ▾`,
+  en: (n) => `${n} more ▾`,
+}
+const HIDE_DIRS = { zh: '收起', ja: '閉じる', en: 'Hide' }
 
 function CareerReadiness({ data, onChanged }) {
   const { t, lang } = useLanguage()
   const [showMore, setShowMore] = useState(false)
   if (!data) return null
 
-  const level    = data.level || null
   const ev       = data.career_evidence || {}
-  const tier3Pct = (data.readiness_scores?.tier_3_readiness ?? 0) * 100
-  const tier4Pct = (data.readiness_scores?.tier_4_readiness ?? 0) * 100
+  const level    = data.level || null
   const gaps     = data.blocking_gaps ?? []
   const actNow   = (data.immediate_priorities ?? []).slice(0, 3)
   const build    = data.build_toward ?? []
   const watch    = data.watch_list   ?? []
-  const months   = data.months_to_tier3
 
-  const curLevel    = level?.current ?? 2
-  const progressPct = level ? Math.round((level.progress_to_next ?? 0) * 100) : null
-  // ONE next unlock (engine picks the highest-priority gap, or a positive
+  // ONE next step (engine picks the highest-priority gap, or a positive
   // advanced-state line when every gap is closed). The rest collapse away.
-  const nextUnlock  = level?.next_unlock || gaps[0] || null
-  const otherGaps   = nextUnlock ? gaps.filter(g => g.gap_id !== nextUnlock.gap_id) : gaps
-  const unlockActionable = nextUnlock && nextUnlock.gap_id !== 'advanced'
-  // What the current level just opened: tier-3 opps (Build Toward) once she's
-  // at Level 3, tier-4 (Watch List) at Level 4.
-  const buildNewly = curLevel >= 3
-  const watchNewly = curLevel >= 4
+  const nextStep  = level?.next_unlock || gaps[0] || null
+  const otherGaps = nextStep ? gaps.filter(g => g.gap_id !== nextStep.gap_id) : gaps
+  const stepActionable = nextStep && nextStep.gap_id !== 'advanced'
 
-  // Summary line names the PHASE only — no numeric rank. A friend describes where
-  // she is ("人脉与根基"), she doesn't grade it "2 of 4".
-  const summary = data.current_phase
-    ? (level?.current_label || data.current_phase)
-    : t('sf.cr.title')
+  // Summary line: the warm status sentence, not a rank.
+  const summary = careerStatusLine(ev, lang)
 
   return (
     <SectionShell
@@ -2074,55 +2158,33 @@ function CareerReadiness({ data, onChanged }) {
       subtitle={t('sf.cr.subtitle')}
       summary={summary}
     >
-      <LevelUpBanner level={level} t={t} />
+      {/* ONE warm status line — a sentence, no number/bar/%/level/celebration.
+          (Replaced the five contradicting level widgets: level-up banner,
+          numeric badge, ladder, tier3/tier4 bars, months-to-tier.) */}
+      <p className="sf-status-line">{careerStatusLine(ev, lang)}</p>
 
-      {/* Strengths-first phase header — the NAMED phase, no numeric rank. A
-          friend doesn't grade her "2 of 4"; the named door + what she's built
-          leads. (The numeric ladder lives inside the collapsed detail below.) */}
-      <div className="sf-level-header">
-        <div className="sf-level-badge sf-level-badge--named">
-          <span className="sf-level-badge-name">{level?.current_label || data.current_phase || ''}</span>
-        </div>
-        <div className="sf-level-headbody">
-          <p className="sf-level-foundation">{t('sf.cr.foundationDone')}</p>
-          <p className="sf-level-strengths">
-            {t('sf.cr.strengthsLine', {
-              shows: ev.confirmed_group_shows ?? 0,
-              pubs:  ev.publications_confirmed ?? 0,
-              ig:    '26k',
-            })}
-          </p>
-        </div>
-      </div>
-
-      {/* No visible progress bar — a percentage toward the "next level" is the
-          same ranking glance, just bar-shaped. The positive ceiling note still
-          shows when she's maxed; the numeric ladder is in the detail below. */}
-      {!level?.next && (
-        <p className="sf-level-ceiling">{t('sf.cr.atCeiling')}</p>
-      )}
-
-      {/* ONE next-unlock card — the single thing to cross next */}
-      {nextUnlock && (
+      {/* ONE next-step card — the single thing to look at next, with its inline
+          "I already did this" form. No "level up / unlock a tier" language. */}
+      {nextStep && (
         <div className="sf-next-unlock">
-          <div className="sf-next-unlock-label">{t('sf.cr.nextUnlock')}</div>
-          <div className="sf-next-unlock-gap">{locF(nextUnlock, 'gap', lang)}</div>
-          {nextUnlock.detail && <p className="sf-next-unlock-detail">{locF(nextUnlock, 'detail', lang)}</p>}
-          {nextUnlock.action && <p className="sf-next-unlock-action">{locF(nextUnlock, 'action', lang)}</p>}
-          {unlockActionable && (
+          <div className="sf-next-unlock-label">{NEXT_STEP_LABEL[lang] || NEXT_STEP_LABEL.en}</div>
+          <div className="sf-next-unlock-gap">{locF(nextStep, 'gap', lang)}</div>
+          {nextStep.detail && <p className="sf-next-unlock-detail">{locF(nextStep, 'detail', lang)}</p>}
+          {nextStep.action && <p className="sf-next-unlock-action">{locF(nextStep, 'action', lang)}</p>}
+          {stepActionable && (
             <>
-              <p className="sf-next-unlock-hint">{t('sf.cr.nextUnlockHint')}</p>
-              <GapCorrectionForm gap={nextUnlock} onChanged={onChanged} />
+              <p className="sf-next-unlock-hint">{NEXT_STEP_HINT[lang] || NEXT_STEP_HINT.en}</p>
+              <GapCorrectionForm gap={nextStep} onChanged={onChanged} />
             </>
           )}
         </div>
       )}
 
-      {/* Remaining gaps — collapsed by default, never a wall */}
+      {/* Remaining directions — collapsed by default, never a wall */}
       {otherGaps.length > 0 && (
         <div className="sf-more-gaps">
           <button className="sf-more-gaps-toggle" onClick={() => setShowMore(s => !s)}>
-            {showMore ? t('sf.cr.hideGaps') : t('sf.cr.moreGaps', { n: otherGaps.length })}
+            {showMore ? (HIDE_DIRS[lang] || HIDE_DIRS.en) : (MORE_DIRS[lang] || MORE_DIRS.en)(otherGaps.length)}
           </button>
           {showMore && (
             <div className="sf-readiness-gaps" style={{ marginTop: 12 }}>
@@ -2145,93 +2207,32 @@ function CareerReadiness({ data, onChanged }) {
         </div>
       )}
 
-      {/* Three columns — opportunities re-ranked by fit to her level */}
+      {/* Three opportunity columns — now / getting closer / keep an eye on.
+          NOT tier numbers. Every name links out (its own page when we have a
+          URL, else a name search). No numeric scores, no "newly in reach". */}
       <div className="sf-readiness-columns" style={{ marginTop: 28 }}>
         <div className="sf-readiness-col">
-          <div className="sf-block-label">{t('sf.cr.actNow')}</div>
+          <div className="sf-block-label">{colLabel('now', lang)}</div>
           {actNow.length === 0
             ? <p className="sf-readiness-col-empty">{t('sf.cr.noneQueued')}</p>
-            : actNow.map((o, i) => (
-              <div key={i} className="sf-readiness-col-item">
-                <span className="sf-readiness-col-name">{o.name ?? o.title ?? o}</span>
-                {o.score != null && (
-                  <span className="sf-readiness-col-score">{Math.round(o.score * 10) / 10}</span>
-                )}
-              </div>
-            ))
+            : actNow.map((o, i) => <ReadinessColItem key={i} o={o} />)
           }
         </div>
         <div className="sf-readiness-col">
-          <div className="sf-block-label">
-            {t('sf.cr.buildToward')}
-            {buildNewly && <span className="sf-newly-badge">{t('sf.cr.newlyInReach')}</span>}
-          </div>
+          <div className="sf-block-label">{colLabel('near', lang)}</div>
           {build.length === 0
             ? <p className="sf-readiness-col-empty">{t('sf.cr.noneQueued')}</p>
-            : build.map((o, i) => (
-              <div key={i} className="sf-readiness-col-item">
-                <span className="sf-readiness-col-name">{o.name ?? o.title ?? o}</span>
-              </div>
-            ))
+            : build.map((o, i) => <ReadinessColItem key={i} o={o} />)
           }
         </div>
         <div className="sf-readiness-col sf-readiness-col--watch">
-          <div className="sf-block-label">
-            {t('sf.cr.watchList')}
-            {watchNewly && <span className="sf-newly-badge">{t('sf.cr.newlyInReach')}</span>}
-          </div>
+          <div className="sf-block-label">{colLabel('watch', lang)}</div>
           {watch.length === 0
             ? <p className="sf-readiness-col-empty">{t('sf.cr.noneQueued')}</p>
-            : watch.map((o, i) => (
-              <div key={i} className="sf-readiness-col-item sf-readiness-col-item--muted">
-                <span className="sf-readiness-col-name">{o.name ?? o.title ?? o}</span>
-              </div>
-            ))
+            : watch.map((o, i) => <ReadinessColItem key={i} o={o} muted />)
           }
         </div>
       </div>
-
-      {/* Readiness detail — the tier-by-tier ladder, demoted below the fold */}
-      <details className="sf-readiness-detail">
-        <summary>{t('sf.cr.readinessDetail')}</summary>
-        {/* The numeric ladder lives here, below the fold, for anyone who wants it
-            — never in the glance. */}
-        <div className="sf-level-ladder">
-          <div className="sf-level-ladder-head">
-            <span className="sf-level-ladder-num">{t('sf.cr.levelBadge', { n: curLevel })}</span>
-            <span className="sf-level-ladder-name">{level?.current_label || ''}</span>
-          </div>
-          {level?.next && progressPct != null && (
-            <div className="sf-level-progress">
-              <div className="sf-level-progress-head">
-                <span>{t('sf.cr.progressToNext', { n: level.next, label: level.next_label })}</span>
-                <span className="sf-level-progress-pct">{progressPct}%</span>
-              </div>
-              <div className="sf-readiness-track">
-                <div className="sf-readiness-fill" style={{ width: `${progressPct}%`, background: '#c47a35' }} />
-              </div>
-            </div>
-          )}
-        </div>
-        <p className="sf-tiers-intro" style={{ marginTop: 14 }}>{t('sf.cr.tiersIntro')}</p>
-        <div className="sf-readiness-bars">
-          <div className="sf-tier-done">
-            <span className="sf-tier-check">✓</span>
-            <span className="sf-tier-name">{t('sf.cr.tier1')}</span>
-            <span className="sf-tier-status">{t('sf.cr.tierComplete')}</span>
-          </div>
-          <div className="sf-tier-done">
-            <span className="sf-tier-check">✓</span>
-            <span className="sf-tier-name">{t('sf.cr.tier2')}</span>
-            <span className="sf-tier-status">{t('sf.cr.tierComplete')}</span>
-          </div>
-          <ReadinessBar label={t('sf.cr.tier3')} sublabel={t('sf.cr.tier3Sublabel')} pct={tier3Pct} color="#c47a35" />
-          <ReadinessBar label={t('sf.cr.tier4')} sublabel={t('sf.cr.tier4Sublabel')} pct={tier4Pct} color="#d4b87a" />
-        </div>
-        {months != null && (
-          <p className="sf-readiness-milestone" style={{ marginTop: 14 }}>{t('sf.cr.monthsToTier3', { n: months })}</p>
-        )}
-      </details>
     </SectionShell>
   )
 }
@@ -2291,7 +2292,7 @@ export default function SaffronPage({ nav, onNav }) {
   // the static authored prose comes from SF_ZH (zh only).
   const txMap = useMemo(() => {
     if (lang === 'zh') return { ...(rawData?._i18n?.zh || {}), ...SF_ZH }
-    if (lang === 'ja') return rawData?._i18n?.ja || null
+    if (lang === 'ja') return { ...(rawData?._i18n?.ja || {}), ...SF_JA }
     return null
   }, [rawData, lang])
   const data       = useMemo(() => (txMap ? deepTranslate(rawData,   txMap) : rawData),   [rawData,   txMap])
@@ -2371,17 +2372,21 @@ export default function SaffronPage({ nav, onNav }) {
                     <SectionOpenContext.Provider value={false}>
                       {SB('longterm', <LongTermScenarios data={data.long_term_scenarios} t={t} />)}
                       {SB('depmap',   <CareerDependencyMap t={t} lang={lang} />)}
-                      {SB('openq',    <OpenQuestions data={data.open_questions} t={t} />)}
+                      {/* Open questions moved to the profile tab (compact, opt-in). */}
                     </SectionOpenContext.Provider>
                   </>
                 )}
                 {tab === 'landscape' && (
                   <>
+                    {/* Lead with the calm "field right now" + the territory cards
+                        (Tokyo → Europe → online, each with an entry point). The
+                        older near-duplicate bar stack and the gap analysis are
+                        demoted to opt-in / a gentle closing note. */}
                     {SB('marketstats', <MarketStats data={data.market_stats} onNav={onNav} />)}
+                    {SB('geoexp',      <GeographicExpansion data={data.geographic_expansion} t={t} />)}
                     <SectionOpenContext.Provider value={false}>
                       {SB('marketland', <MarketLandscape data={data.market_landscape} t={t} onNav={onNav} />)}
                       {SB('oppgap',     <OpportunityGap data={data.opportunity_gap} t={t} />)}
-                      {SB('geoexp',     <GeographicExpansion data={data.geographic_expansion} t={t} />)}
                     </SectionOpenContext.Provider>
                   </>
                 )}
@@ -2389,11 +2394,15 @@ export default function SaffronPage({ nav, onNav }) {
                   <>
                     {careerData && SB('readiness', <CareerReadiness data={careerData} onChanged={refreshCareer} />)}
                     <SectionOpenContext.Provider value={false}>
+                      {SB('openq',      <ProfileOpenQuestions data={data.open_questions} t={t} lang={lang} />)}
+                      {SB('igstrat',    <InstagramStrategy data={data.instagram_strategy} t={t} />)}
+                      {SB('audgeo',     <AudienceGeography data={data.audience_geography} t={t} />)}
+                      {/* The three peer/record COMPARISON sections are demoted to
+                          opt-in (collapsed) — they're the most self-comparing,
+                          least-needed-at-a-glance part of the profile. */}
                       {SB('careerpos',  <CareerPosition data={data.career_position} t={t} />)}
                       {SB('benchmarks', <CareerBenchmarks data={data.career_benchmarks} t={t} />)}
                       {SB('peers',      <ComparableArtists artists={data.peer_artists} t={t} />)}
-                      {SB('igstrat',    <InstagramStrategy data={data.instagram_strategy} t={t} />)}
-                      {SB('audgeo',     <AudienceGeography data={data.audience_geography} t={t} />)}
                       {SB('momentum',   <CareerMomentum data={data.career_momentum} t={t} />)}
                     </SectionOpenContext.Provider>
                   </>

@@ -68,16 +68,16 @@ export const LICENSING_LANDSCAPE = {
       "category_ja": "出版・編集"
     },
     {
-      "category": "Why her audience makes her licensable",
+      "category": "Why your audience makes you licensable",
       "entries": [
         {
           "name": "The audience threshold",
           "name_zh": "受众门槛",
           "name_ja": "オーディエンスの閾値",
-          "note": "Brand licensing decisions are partly marketing decisions. At 26k followers she is a small but real distribution channel — niche collabs can justify the partnership as audience access, not just art acquisition. Most licensing relationships begin via DM — brands approach artists they follow.",
+          "note": "Brand licensing decisions are partly marketing decisions. With an established, growing following you're a real distribution channel — niche collabs can justify the partnership as audience access, not just art acquisition. Most licensing relationships begin via DM — brands approach artists they already follow.",
           "tier": "now",
-          "note_zh": "品牌授权决策在一定程度上也是营销决策。拥有2.6万粉丝，她已是一个虽小但真实的传播渠道。利基品牌可以将合作定位为触达受众的方式，而不仅仅是购买艺术品。大多数授权合作始于私信——品牌主动联系他们关注的艺术家。",
-          "note_ja": "ブランドのライセンス判断は、マーケティング判断でもある。フォロワー2.6万人の彼女は、小規模ながら確かな流通チャネルだ。ニッチなブランドは、コラボを単なる作品取得ではなく、オーディエンスへのアクセスとして正当化できる。ライセンス関係のほとんどはDMから始まる——ブランドは自分たちがフォローしているアーティストに声をかける。"
+          "note_zh": "品牌授权决策在一定程度上也是营销决策。你拥有一群稳定且持续增长的受众，本身就是一个真实的传播渠道——利基品牌可以将合作定位为触达受众的方式，而不仅仅是购买艺术品。大多数授权合作始于私信——品牌主动联系他们已经关注的艺术家。",
+          "note_ja": "ブランドのライセンス判断は、マーケティング判断でもあります。確立された、伸び続けるフォロワーがいるあなたは、それ自体が確かな流通チャネルです——ニッチなブランドは、コラボを単なる作品取得ではなく、オーディエンスへのアクセスとして正当化できます。ライセンス関係のほとんどはDMから始まります——ブランドはすでにフォローしているアーティストに声をかけるのです。"
         },
         {
           "name": "Revenue ranges (realistic)",
@@ -101,14 +101,14 @@ export const LICENSING_LANDSCAPE = {
           "name": "Realistic timeline",
           "name_zh": "实际时间线",
           "name_ja": "現実的なタイムライン",
-          "note": "First licensing inquiry typically arrives 2–3 years into consistent daily posting with a distinct recognizable style. At 26k today, first conversations are a realistic 12–24 month horizon with active outreach and continued audience growth.",
+          "note": "Licensing tends to find artists who have a distinct, recognizable style and an established following — both of which you already have. With your work and audience, these conversations are realistically within reach whenever you'd like to put a little outreach behind them. There's no schedule here — it happens when it happens.",
           "tier": "near_term",
-          "note_zh": "通常情况下，坚持每日更新、风格鲜明辨识度高，约2–3年后会迎来首次授权询问。以目前2.6万粉丝的基础，若积极主动拓展并持续扩大受众，12–24个月内有望开启初步洽谈。",
-          "note_ja": "独自のスタイルを持ちながら毎日継続的に投稿していると、最初のライセンス問い合わせが来るまで通常2〜3年かかる。現時点でフォロワー2.6万人なら、積極的な働きかけと継続的なオーディエンス拡大を前提に、12〜24か月以内に最初の交渉が始まる可能性がある。"
+          "note_zh": "授权往往会找上那些风格鲜明、辨识度高、并拥有稳定受众的艺术家——而这两点你都已经具备。凭借你的作品与受众，只要你愿意稍加主动联系，这类洽谈在现实中随时都触手可及。这里没有时间表——该来的时候自然会来。",
+          "note_ja": "ライセンスは、独自で見分けのつくスタイルと、確立されたフォロワーを持つアーティストのもとに来やすいものです——そのどちらも、あなたはすでに備えています。あなたの作品とオーディエンスがあれば、少し働きかけてみたくなったときに、こうした話は現実的に手の届く範囲にあります。ここに時間表はありません——来るときに来ます。"
         }
       ],
-      "category_zh": "为什么她的受众使她具备授权潜力",
-      "category_ja": "なぜ彼女のオーディエンスがライセンスにつながり得るのか"
+      "category_zh": "为什么你的受众让你具备授权潜力",
+      "category_ja": "なぜあなたのオーディエンスがライセンスにつながり得るのか"
     }
   ]
 };
@@ -162,14 +162,14 @@ export const PRESS_PITCH_MAP = {
     {
       "name": "It's Nice That",
       "type": "Illustration/design — UK (international reach)",
-      "why_fits": "2M+ readers globally. Regularly features illustrators with a quiet, personal visual language. Her daily watercolor diary format is exactly the kind of practice they cover.",
+      "why_fits": "2M+ readers globally. Regularly features illustrators with a quiet, personal visual language. Your daily watercolor diary format is exactly the kind of practice they cover.",
       "how_discovered": "Almost entirely via Instagram and submissions. They actively scout.",
       "how_to_pitch": "Submit via itsnicethat.com/submit. Lead with the daily practice angle — they love systematic creative disciplines.",
       "contact": "itsnicethat.com/submit",
       "timeline": "Can happen quickly if work resonates. Low barrier.",
       "type_zh": "插画／设计 — 英国（国际影响力）",
       "type_ja": "イラストレーション／デザイン — イギリス（国際的な影響力）",
-      "why_fits_zh": "全球读者超过200万。持续关注具有安静、个人化视觉语言的插画师。她的每日水彩日记形式正是他们所报道的那类创作实践。",
+      "why_fits_zh": "全球读者超过200万。持续关注具有安静、个人化视觉语言的插画师。你的每日水彩日记形式正是他们所报道的那类创作实践。",
       "why_fits_ja": "世界で200万人以上の読者を持つ。静かで個人的なビジュアル言語を持つイラストレーターを継続的に特集。日々の水彩日記というフォーマットは、まさに彼らが取り上げる創作スタイル。",
       "how_discovered_zh": "几乎完全依赖 Instagram 和投稿。他们会主动发掘新人。",
       "how_discovered_ja": "ほぼ Instagram と投稿のみで発掘している。積極的にスカウトも行っている。",
@@ -181,7 +181,7 @@ export const PRESS_PITCH_MAP = {
     {
       "name": "Apartamento",
       "type": "Lifestyle/interiors/culture — Spain (international)",
-      "why_fits": "Warm, intimate, everyday life aesthetic. Her urban interior and atmospheric work fits perfectly. The 'foreigner observing Tokyo' angle is strong for their editorial.",
+      "why_fits": "Warm, intimate, everyday life aesthetic. Your urban interior and atmospheric work fits perfectly. The 'foreigner observing Tokyo' angle is strong for their editorial.",
       "how_discovered": "Word of mouth, curator recommendations, Instagram. Not submission-based.",
       "how_to_pitch": "Not pitch-based. Build relationships with the people they already feature. Be at the right book fairs (Tokyo Art Book Fair, Offprint).",
       "contact": "Via Instagram relationship-building.",
@@ -189,7 +189,7 @@ export const PRESS_PITCH_MAP = {
       "timeline": "Long-term. Being in the right spaces (art book fairs, book store events) is the path.",
       "type_zh": "生活方式／室内／文化 — 西班牙（国际）",
       "type_ja": "ライフスタイル／インテリア／文化 — スペイン（国際的）",
-      "why_fits_zh": "温暖、亲密、日常生活的美学。她的都市室内与氛围感作品与其风格完美契合。\"外来者观察东京\"的视角对他们的编辑内容极具吸引力。",
+      "why_fits_zh": "温暖、亲密、日常生活的美学。你的都市室内与氛围感作品与其风格完美契合。\"外来者观察东京\"的视角对他们的编辑内容极具吸引力。",
       "why_fits_ja": "温かく、親密で、日常の美しさを大切にした美学。都市の室内や空気感を捉えた作品は完璧に合っている。「外国人として東京を観察する」という視点は、彼らの編集方針にとって非常に魅力的。",
       "how_discovered_zh": "口碑传播、策展人推荐、Instagram。不接受主动投稿。",
       "how_discovered_ja": "口コミ、キュレーターからの推薦、Instagram。投稿による応募は受け付けていない。",
@@ -201,7 +201,7 @@ export const PRESS_PITCH_MAP = {
     {
       "name": "Casa Brutus",
       "type": "Architecture/design/lifestyle — Japan",
-      "why_fits": "Architecture and space focus. Her urban watercolor work documenting Tokyo buildings is directly relevant.",
+      "why_fits": "Architecture and space focus. Your urban watercolor work documenting Tokyo buildings is directly relevant.",
       "how_discovered": "Instagram, gallery shows, architect connections.",
       "how_to_pitch": "Email editorial with a clear architectural angle — position work as architectural documentation, not just art.",
       "contact": "Via magazine contact or Instagram DM @casabrutus",
@@ -209,7 +209,7 @@ export const PRESS_PITCH_MAP = {
       "timeline": "Medium-term. Helps to have a gallery show or book project.",
       "type_zh": "建筑/设计/生活方式 — 日本",
       "type_ja": "建築・デザイン・ライフスタイル — 日本",
-      "why_fits_zh": "聚焦建筑与空间。她记录东京建筑的城市水彩作品与该方向高度契合。",
+      "why_fits_zh": "聚焦建筑与空间。你记录东京建筑的城市水彩作品与该方向高度契合。",
       "why_fits_ja": "建築と空間に特化した媒体。東京の建物を記録した都市水彩作品は、そのテーマと直接つながる。",
       "how_discovered_zh": "Instagram、画廊展览、建筑师人脉。",
       "how_discovered_ja": "Instagram、ギャラリー展示、建築家とのつながり。",
@@ -221,7 +221,7 @@ export const PRESS_PITCH_MAP = {
     {
       "name": "ILOVETOYS / neuprint (Chinese illustration publications)",
       "type": "Illustration — China",
-      "why_fits": "Chinese illustration publications with international reach. She's Chinese with a Tokyo practice — a strong story for Chinese readers.",
+      "why_fits": "Chinese illustration publications with international reach. You're a Chinese artist with a Tokyo practice — a strong story for Chinese readers.",
       "how_discovered": "Via WeChat channels, Chinese illustration community, Weibo.",
       "how_to_pitch": "Direct DM via WeChat or Weibo. Chinese-language pitch focusing on the Beijing/Chinese-artist-in-Tokyo angle.",
       "contact": "Via WeChat official accounts or Weibo DM.",
@@ -229,7 +229,7 @@ export const PRESS_PITCH_MAP = {
       "timeline": "Near-term. Chinese publications are actively looking for overseas Chinese artists.",
       "type_zh": "插画 — 中国",
       "type_ja": "イラストレーション — 中国",
-      "why_fits_zh": "具有国际影响力的中国插画媒体。她是在东京从事创作的中国艺术家，对中国读者来说是极具吸引力的故事。",
+      "why_fits_zh": "具有国际影响力的中国插画媒体。你是在东京从事创作的中国艺术家，对中国读者来说是极具吸引力的故事。",
       "why_fits_ja": "国際的な発信力を持つ中国のイラスト系媒体。東京で活動する中国人アーティストというストーリーは、中国の読者に強く響く。",
       "how_discovered_zh": "通过微信频道、中国插画社群、微博。",
       "how_discovered_ja": "WeChat チャンネル、中国のイラスト系コミュニティ、Weibo を通じて。",
@@ -269,14 +269,14 @@ export const GRANT_LANDSCAPE = {
       "deadline_zh": "通常每年三月（2027 年度请查阅 acc.org）",
       "deadline_ja": "通常毎年3月（2027年度はacc.orgで確認）",
       "competition": "Lower than equivalent Western grants — fewer Asian artists know this exists.",
-      "why_apply": "She qualifies by Chinese nationality. The 'artist studying American watercolor tradition' angle is fundable. ACC alumni list is a who's-who of Asian contemporary art.",
+      "why_apply": "You qualify by Chinese nationality. The 'artist studying American watercolor tradition' angle is fundable. ACC alumni list is a who's-who of Asian contemporary art.",
       "apply": "acc.org — requires project proposal + portfolio + recommendation letters", "apply_zh": "acc.org —— 需要项目计划书 + 作品集 + 推荐信", "apply_ja": "acc.org —— 企画提案書＋ポートフォリオ＋推薦状が必要",
       "tip": "Apply for the 'Arts and Culture' fellowship track. Frame the project as cross-cultural exchange, not tourism.",
       "eligibility_zh": "任何职业阶段的亚洲艺术家，需有赴美具体艺术交流项目。中国公民符合申请资格。无居住地限制。",
       "eligibility_ja": "キャリア段階を問わず、対米芸術交流の具体的なプロジェクトを持つアジア人芸術家が対象。中国国籍者も申請可能。居住地の制限なし。",
       "competition_zh": "竞争低于同等西方基金——知道这个资助渠道的亚洲艺术家较少。",
       "competition_ja": "同水準の欧米の助成金より競争率が低い——この制度を知るアジア人芸術家が少ないため。",
-      "why_apply_zh": "她符合中国国籍要求。'研习美国水彩传统的艺术家'这一定位具有资助可行性。ACC校友名单汇聚了亚洲当代艺术界的重要人物。",
+      "why_apply_zh": "你符合中国国籍要求。'研习美国水彩传统的艺术家'这一定位具有资助可行性。ACC校友名单汇聚了亚洲当代艺术界的重要人物。",
       "why_apply_ja": "中国国籍により申請資格あり。「アメリカの水彩画の伝統を学ぶ芸術家」という切り口は助成対象として有望。ACCの卒業生名簿はアジア現代美術界の重鎮が名を連ねる。",
       "tip_zh": "申请'艺术与文化'研究员项目。将项目定位为跨文化交流，而非观光旅行。",
       "tip_ja": "「芸術・文化」フェローシッププログラムに申請すること。プロジェクトは観光ではなく、異文化交流として位置づけること。"
@@ -294,14 +294,14 @@ export const GRANT_LANDSCAPE = {
       "deadline_zh": "通常为次年项目的九月至十月",
       "deadline_ja": "通常、翌年度分は9〜10月",
       "competition": "Moderate. Watercolor/painting has a strong track record in JF funding.",
-      "why_apply": "She's Japan-based. Urban documentation of Tokyo is a natural cultural exchange narrative.",
+      "why_apply": "You're Japan-based. Urban documentation of Tokyo is a natural cultural exchange narrative.",
       "apply": "jpf.go.jp — Japanese application form + project proposal required", "apply_zh": "jpf.go.jp —— 需提交日文申请表 + 项目计划书", "apply_ja": "jpf.go.jp —— 日本語の申請書＋企画提案書が必要",
       "tip": "Frame the project as cultural documentation, not personal artistic development. 'Documenting the changing face of Tokyo through watercolor' is more fundable than 'improving my art'.",
       "eligibility_zh": "居住在日本的艺术家；部分项目对外国居民开放。设有个人艺术家及合作项目等多个申请类别。",
       "eligibility_ja": "日本在住の芸術家が対象。一部のプログラムは外国人居住者にも開放。個人芸術家や共同プロジェクトなど複数の部門あり。",
       "competition_zh": "竞争程度适中。水彩/绘画类别在日本基金资助中有良好的申请记录。",
       "competition_ja": "競争率は中程度。水彩・絵画分野はJFの助成実績が豊富。",
-      "why_apply_zh": "她常驻日本。对东京城市风貌的记录，是天然的文化交流叙事角度。",
+      "why_apply_zh": "你常驻日本。对东京城市风貌的记录，是天然的文化交流叙事角度。",
       "why_apply_ja": "日本を拠点としている点が強み。東京の都市記録は文化交流の文脈として自然に機能する。",
       "tip_zh": "将项目定位为文化记录，而非个人艺术成长。'用水彩记录东京变迁的面貌'比'提升我的艺术技巧'更具资助说服力。",
       "tip_ja": "プロジェクトは個人的な芸術的成長ではなく、文化記録として位置づけること。「水彩画で捉える東京の移りゆく姿」は「画力の向上」より審査で有利。"
@@ -369,26 +369,26 @@ export const GRANT_LANDSCAPE = {
       "deadline_zh": "时间不定",
       "deadline_ja": "時期は不定",
       "competition": "Low — most overseas Chinese artists aren't aware of this funding stream",
-      "why_apply": "She's Chinese. A 'Chinese artist documenting Tokyo for Chinese audiences' project is directly fundable.",
+      "why_apply": "You're Chinese. A 'Chinese artist documenting Tokyo for Chinese audiences' project is directly fundable.",
       "apply": "Via Chinese embassy cultural attaché or China Arts Foundation directly", "apply_zh": "通过中国大使馆文化专员，或直接联系 China Arts Foundation", "apply_ja": "中国大使館の文化担当官を通じて、またはChina Arts Foundationへ直接",
       "tip": "Availability varies by political climate. Monitor via Chinese artist communities in Tokyo.",
       "eligibility_zh": "需具备中国国籍。面向从事文化交流工作的海外华人艺术家。",
       "eligibility_ja": "中国国籍が必須条件。文化交流活動に取り組む在外中国人芸術家を対象とした制度。",
       "competition_zh": "竞争较低——大多数海外华人艺术家不了解这一资助渠道。",
       "competition_ja": "競争率は低い——この助成制度を知る在外中国人芸術家はほとんどいない。",
-      "why_apply_zh": "她是中国人。'中国艺术家为中国受众记录东京'的项目定位具有直接的资助可行性。",
+      "why_apply_zh": "你是中国人。'中国艺术家为中国受众记录东京'的项目定位具有直接的资助可行性。",
       "why_apply_ja": "中国人であることが強み。「中国の観客に向けて東京を記録する中国人芸術家」というプロジェクトは直接的に助成対象となりやすい。",
       "tip_zh": "资助情况因政治气候而有所变化。建议通过在东京的华人艺术家社群持续关注相关动态。",
       "tip_ja": "政治情勢によって状況が変わる場合がある。東京の中国人芸術家コミュニティを通じて継続的に情報を確認すること。"
     },
     {
       "category_note": "General grant strategy",
-      "note": "Grant applications require 3–4 months to prepare properly. The strongest applications have: (1) a specific named project, not vague artistic development; (2) evidence of past work (Instagram archive is valid); (3) a clear 'why now' — what will this grant make possible that isn't possible without it. She has a natural narrative: Chinese artist in Tokyo, 26k Instagram audience, daily watercolor practice, ready for the next stage.",
+      "note": "Grant applications take about 3–4 months to prepare properly. The strongest applications have: (1) a specific named project, not vague artistic development; (2) evidence of past work (your exhibition record and Instagram archive both count); (3) a clear 'why now' — what will this grant make possible that isn't possible without it. You have a natural narrative: a Chinese artist in Tokyo with an established audience, a solo and international exhibition record, and a steady watercolor practice — well-positioned for the next stage.",
       "apply": "",
       "category_note_zh": "资助申请总体策略",
       "category_note_ja": "助成金申請の全体戦略",
-      "note_zh": "资助申请通常需要3至4个月的充分准备。最有竞争力的申请具备以下要素：(1) 一个具体、有名称的项目，而非模糊的艺术发展方向；(2) 过往作品的佐证（Instagram档案亦可）；(3) 清晰阐明\"为何是现在\"——这笔资助将如何实现没有它便无法实现的事情。她拥有天然的叙事优势：旅居东京的中国艺术家，2.6万粉丝，坚持日常水彩创作，蓄势待发，准备迈向下一阶段。",
-      "note_ja": "助成金の申請には、適切な準備に3〜4ヶ月を要します。採択率の高い申請書には次の要素が備わっています：(1) 漠然とした芸術的成長ではなく、具体的な名称を持つプロジェクト；(2) 過去の作品実績の証明（Instagramのアーカイブも有効）；(3) 「なぜ今なのか」の明確な説明——この助成金があって初めて可能になることは何か。彼女には自然なストーリーがあります：東京在住の中国人アーティスト、2.6万人のフォロワー、毎日続ける水彩画の実践、そして次のステージへの準備が整っていること。"
+      "note_zh": "资助申请通常需要3至4个月来充分准备。最有竞争力的申请具备以下要素：(1) 一个具体、有名称的项目，而非模糊的艺术发展方向；(2) 过往作品的佐证（你的展览履历与 Instagram 档案都算）；(3) 清晰阐明\"为何是现在\"——这笔资助将如何实现没有它便无法实现的事情。你拥有天然的叙事优势：旅居东京、拥有稳定受众的中国艺术家，有个展与海外展的履历，以及持续的水彩创作——正适合迈向下一阶段。",
+      "note_ja": "助成金の申請には、適切な準備に3〜4ヶ月かかります。採択率の高い申請書には次の要素が備わっています：(1) 漠然とした芸術的成長ではなく、具体的な名称を持つプロジェクト；(2) 過去の作品実績の証明（あなたの展示歴も Instagram のアーカイブも有効）；(3) 「なぜ今なのか」の明確な説明——この助成金があって初めて可能になることは何か。あなたには自然なストーリーがあります：確立されたオーディエンスを持つ東京在住の中国人アーティストで、個展や海外展の実績があり、水彩の制作を続けている——次のステージへ進むのにふさわしい立ち位置です。"
     }
   ]
 };
@@ -487,210 +487,275 @@ export const CAREER_DEPENDENCY_MAP = {
   "milestones": [
     {
       "id": "now",
-      "label": "Right Now (Tier 1–2)",
+      "label": "Where You Stand Now — Established (built, not pending)",
       "status": "current",
       "items": [
         {
-          "complete": "Work is easy to find and follow (bio link, consistent handle)",
+          "complete": "✓ You're an established artist — solo, institutional and international shows behind you",
+          "unlocks": [
+            "Gallery representation conversations are within reach now, not years away",
+            "Higher-tier open calls, societies and grants are appropriate to apply to"
+          ],
+          "complete_zh": "✓ 你已是一位成熟的艺术家——身后有个展、机构展与海外展的履历",
+          "complete_ja": "✓ あなたは確立されたアーティストです——個展・機関展・海外展を重ねてきました",
+          "unlocks_zh": [
+            "画廊代理的洽谈现在就在触手可及之处，而非数年之后",
+            "更高层级的公开征集、协会与资助，现在都适合去申请"
+          ],
+          "unlocks_ja": [
+            "ギャラリー代理の話は、何年も先ではなく、今、手の届く範囲にある",
+            "より上位の公募展・団体・助成金に、いま応募するのがふさわしい"
+          ]
+        },
+        {
+          "complete": "✓ Group shows — a real exhibition record, in Tokyo and beyond",
+          "unlocks": [
+            "A documented CV that grant and gallery conversations can lean on",
+            "Curators and peers already know your work in person, not just online"
+          ],
+          "complete_zh": "✓ 多次联展——在东京及其他地方都有真实的展览履历",
+          "complete_ja": "✓ グループ展——東京内外での確かな展示実績",
+          "unlocks_zh": [
+            "一份扎实的简历，资助与画廊洽谈都可以以此为依托",
+            "策展人与同行已在线下认识你的作品，而不只是在网上"
+          ],
+          "unlocks_ja": [
+            "助成金やギャラリーとの相談の土台になる、記録された経歴",
+            "キュレーターや同業者が、オンラインだけでなく実際にあなたの作品を知っている"
+          ]
+        },
+        {
+          "complete": "✓ Solo shows — you've carried whole rooms on your own work",
+          "unlocks": [
+            "Proof you can sustain a full exhibition, which gallery representation looks for",
+            "A stronger 'why now' for institutional and grant applications"
+          ],
+          "complete_zh": "✓ 个展——你已经能独自撑起整个展厅",
+          "complete_ja": "✓ 個展——あなた自身の作品だけで展示空間をまるごと成立させてきた",
+          "unlocks_zh": [
+            "证明你能独立支撑一场完整的展览——这正是画廊代理所看重的",
+            "为机构与资助申请提供更有力的「为何是现在」"
+          ],
+          "unlocks_ja": [
+            "一つの展覧会を最後までやり遂げられる証明——ギャラリー代理が重視する点",
+            "公的機関や助成金の申請における、より強い「なぜ今か」"
+          ]
+        },
+        {
+          "complete": "✓ Institutional / museum showings — your work has hung in serious spaces",
+          "unlocks": [
+            "Institutional credibility most emerging artists don't have yet",
+            "Eligibility and standing for higher-tier open calls and societies"
+          ],
+          "complete_zh": "✓ 机构／美术馆展出——你的作品已进入正式的展示空间",
+          "complete_ja": "✓ 公的機関・美術館での展示——あなたの作品は本格的な場に掛けられてきた",
+          "unlocks_zh": [
+            "多数新晋艺术家尚不具备的机构层面公信力",
+            "更高层级的公开征集与协会的资格与地位"
+          ],
+          "unlocks_ja": [
+            "多くの新進アーティストがまだ持たない、機関レベルの信頼性",
+            "より上位の公募展や団体への応募資格と立場"
+          ]
+        },
+        {
+          "complete": "✓ Shown internationally (incl. London) — your reach already crosses borders",
+          "unlocks": [
+            "An international line on your CV that strengthens cross-border grants and fairs",
+            "A narrative that travels: a Chinese artist in Tokyo, already shown abroad"
+          ],
+          "complete_zh": "✓ 已在海外展出（含伦敦）——你的影响力已跨越国界",
+          "complete_ja": "✓ 海外での展示（ロンドンを含む）——あなたの活動はすでに国境を越えている",
+          "unlocks_zh": [
+            "简历上的国际履历，能强化跨境资助与艺术博览会的申请",
+            "一个可以走向世界的叙事：旅居东京的中国艺术家，已在海外展出"
+          ],
+          "unlocks_ja": [
+            "国境を越えた助成金やフェアの申請を後押しする、国際的な経歴",
+            "世界に通じる物語——すでに海外で展示してきた、東京在住の中国人アーティスト"
+          ]
+        },
+        {
+          "complete": "✓ Work is easy to find and follow, with an established, growing audience",
           "unlocks": [
             "People who love your work can reach it",
-            "Brand and collaboration conversations can find their way to you"
+            "Brand, press and collaboration conversations can find their way to you"
           ],
-          "complete_zh": "作品容易被找到、被关注（简介链接、一致的账号名）",
-          "complete_ja": "作品が見つけやすく、フォローしやすい状態（プロフィールのリンク、一貫したハンドル）",
+          "complete_zh": "✓ 作品容易被找到、被关注，并拥有一群稳定且持续增长的受众",
+          "complete_ja": "✓ 作品が見つけやすくフォローしやすい状態で、確立された、伸び続けるオーディエンスがいる",
           "unlocks_zh": [
             "喜爱你作品的人能够找到它",
-            "品牌与合作的洽谈有路径找到你"
+            "品牌、媒体与合作的洽谈有路径找到你"
           ],
           "unlocks_ja": [
             "あなたの作品を好きな人が、それにたどり着ける",
-            "ブランドやコラボの相談が、あなたのもとへ届きやすくなる"
+            "ブランド・メディア・コラボの相談が、あなたのもとへ届きやすくなる"
           ]
         },
         {
-          "complete": "Active on Instagram with archived body of work",
+          "complete": "Your practice and audience give the next steps a real foundation",
           "unlocks": [
-            "Press discovery (Bijutsu Techo, It's Nice That)",
-            "Licensing inquiries"
+            "Press discovery (Bijutsu Techo, It's Nice That) keyed to a body of work, not a start",
+            "Licensing inquiries from brands who already know the work"
           ],
-          "complete_zh": "活跃于Instagram，并有完整的作品存档",
-          "complete_ja": "Instagramで活発に活動し、作品のアーカイブを公開している",
+          "complete_zh": "你的日常创作与受众，为接下来的每一步打下了真实的基础",
+          "complete_ja": "日々の制作とオーディエンスが、次の一歩に確かな土台を与えています",
           "unlocks_zh": [
-            "媒体报道（Bijutsu Techo、It's Nice That）",
-            "版权授权咨询"
+            "媒体报道（Bijutsu Techo、It's Nice That）建立在成熟的作品体系之上，而非从零开始",
+            "来自早已熟悉你作品的品牌的授权咨询"
           ],
           "unlocks_ja": [
-            "メディア掲載（Bijutsu Techo、It's Nice That）",
-            "ライセンスに関するお問い合わせ"
+            "メディア掲載（Bijutsu Techo、It's Nice That）が、出発点ではなく作品の蓄積に基づく",
+            "すでに作品を知っているブランドからのライセンスの問い合わせ"
           ]
         }
       ],
-      "label_zh": "当前阶段（第1–2级）",
-      "label_ja": "現在の段階（ティア1–2）"
+      "label_zh": "你现在所处的位置（第三阶段——成熟）",
+      "label_ja": "いまの立ち位置（ティア3——確立）"
     },
     {
       "id": "near_term",
-      "label": "Near Term — 1–2 years",
+      "label": "Open Doors Next — whenever you want them",
       "status": "next",
       "items": [
         {
-          "complete": "3 Tokyo group shows (documented, on CV)",
+          "complete": "Gallery representation, if a gallery feels like the right home",
           "unlocks": [
-            "Gallery solo show conversations",
-            "TOKAS open call eligible",
-            "Japan Foundation grant application strengthened"
+            "A gallery introducing your work to its collecting network",
+            "Art-fair access (Art Fair Tokyo, Tokyo Gendai) through the gallery",
+            "Someone else handling sales logistics so you can stay with the work"
           ],
-          "complete_zh": "3次东京联展（已记录，列入简历）",
-          "complete_ja": "東京グループ展3回（記録済み、CV記載）",
+          "complete_zh": "画廊代理——如果某家画廊让你觉得是对的归属",
+          "complete_ja": "ギャラリー代理——あるギャラリーが「ここだ」と感じられたら",
           "unlocks_zh": [
-            "画廊个展洽谈",
-            "TOKAS公开招募资格获得",
-            "日本国际交流基金会资助申请竞争力提升"
+            "画廊把你的作品引荐给它的藏家网络",
+            "通过画廊获得艺术博览会的参展机会（Art Fair Tokyo、Tokyo Gendai）",
+            "由他人处理销售事务，你可以专注于创作本身"
           ],
           "unlocks_ja": [
-            "ギャラリーの個展に関する商談",
-            "TOKASオープンコール応募資格あり",
-            "国際交流基金の助成金申請を強化"
+            "ギャラリーがあなたの作品をコレクターネットワークに紹介",
+            "ギャラリー経由でのアートフェア参加（Art Fair Tokyo、Tokyo Gendai）",
+            "販売の実務を任せられ、あなたは制作に専念できる"
           ]
         },
         {
-          "complete": "Published in 1+ books or zines",
+          "complete": "A residency, if a stretch of focused time somewhere new appeals",
           "unlocks": [
-            "Editorial illustration inquiries",
-            "Book project conversations",
-            "Center for Book Arts (NYC) becomes relevant"
+            "TOKAS and similar residencies are appropriate to apply to at your stage",
+            "Time and space to make a new body of work without daily logistics",
+            "New networks in a different city or country"
           ],
-          "complete_zh": "在1本或多本书籍或独立杂志中发表作品",
-          "complete_ja": "書籍またはzineに1冊以上掲載",
+          "complete_zh": "驻留项目——如果你想去一个新地方、专注创作一段时间",
+          "complete_ja": "レジデンシー——どこか新しい場所で集中して制作する時間に惹かれたら",
           "unlocks_zh": [
-            "编辑插画咨询",
-            "书籍项目洽谈",
-            "Center for Book Arts（纽约）开始产生关联"
+            "以你现在的阶段，TOKAS 等驻留项目都适合去申请",
+            "拥有时间与空间去创作一组新作品，不必操心日常琐事",
+            "在另一座城市或国家建立新的人脉"
           ],
           "unlocks_ja": [
-            "編集イラストのお問い合わせ",
-            "書籍プロジェクトの相談",
-            "Center for Book Arts（NYC）とのつながりが生まれる"
+            "あなたの段階なら、TOKASなどのレジデンシーに応募するのがふさわしい",
+            "日々の雑事から離れ、新作に取り組む時間と空間",
+            "別の都市や国での新しいネットワーク"
           ]
         },
         {
-          "complete": "Press feature (Bijutsu Techo, It's Nice That, or similar)",
+          "complete": "A grant, when a specific project is worth funding",
           "unlocks": [
-            "Visibility multiplier for all other unlocks",
-            "Publishing house cover art inquiries",
-            "Gallery solo show conversations"
+            "Japan Foundation / TOKAS / ACC applications are well within reach now",
+            "Funding for a named project ('documenting the changing face of Tokyo')",
+            "Breathing room to take on ambitious, time-intensive work"
           ],
-          "complete_zh": "媒体报道（Bijutsu Techo、It's Nice That 或同类媒体）",
-          "complete_ja": "メディア掲載（Bijutsu Techo、It's Nice That、または同等媒体）",
+          "complete_zh": "资助——当有一个具体项目值得被资助时",
+          "complete_ja": "助成金——資金を充てる価値のある具体的なプロジェクトがあるとき",
           "unlocks_zh": [
-            "所有其他解锁项的曝光倍增效果",
-            "出版社封面艺术邀约",
-            "画廊个展洽谈"
+            "日本国际交流基金／TOKAS／ACC 的申请，现在都在你触手可及的范围内",
+            "为一个有名称的项目（如「记录东京变迁的面貌」）争取资金",
+            "有余裕去承接更具雄心、更耗时的创作"
           ],
           "unlocks_ja": [
-            "他のすべての解放項目に対する露出倍率",
-            "出版社からの表紙絵の問い合わせ",
-            "ギャラリーの個展に関する商談"
+            "国際交流基金／TOKAS／ACCの申請は、いま十分に手の届く範囲にある",
+            "名前のあるプロジェクト（「東京の移りゆく姿を記録する」など）への資金",
+            "意欲的で時間のかかる仕事に取り組むゆとり"
           ]
         },
         {
-          "complete": "A few small income streams running, at whatever pace suits you",
+          "complete": "Society membership (e.g. Japan Watercolor Society), if it appeals",
           "unlocks": [
-            "More breathing room to take on time-intensive grant applications",
-            "A track record that makes collaboration conversations easier"
+            "Your exhibition record already supports applying",
+            "A peer community of watercolorists and juried-show access",
+            "Another credibility marker for press and grants"
           ],
-          "complete_zh": "有几条小小的收入来源在运转，节奏由你自己决定",
-          "complete_ja": "いくつかの小さな収入の流れが、あなたに合ったペースで動いている",
+          "complete_zh": "协会会员资格（如日本水彩画会）——如果你有兴趣",
+          "complete_ja": "団体への入会（日本水彩画会など）——気が向けば",
           "unlocks_zh": [
-            "更从容地去申请耗时较多的资助项目",
-            "逐渐积累的实绩，让合作洽谈更轻松"
+            "你现有的展览履历已足以支持申请",
+            "一个由水彩画家组成的同行社群，以及评审展的参展机会",
+            "为媒体报道与资助再添一项公信力背书"
           ],
           "unlocks_ja": [
-            "時間のかかる助成金申請に取り組むゆとりが生まれる",
-            "積み重なった実績が、コラボの相談をしやすくする"
+            "現在の展示実績で、すでに応募できる",
+            "水彩画家の仲間のコミュニティと、公募・審査展への参加",
+            "メディアや助成金に向けた、もう一つの信頼の裏づけ"
           ]
         }
       ],
-      "label_zh": "近期 — 1–2年",
-      "label_ja": "近い将来 — 1〜2年"
+      "label_zh": "接下来敞开的门——你想要时随时可推",
+      "label_ja": "次に開いている扉——欲しくなったときに、いつでも"
     },
     {
       "id": "mid_term",
-      "label": "Mid Term — 2–4 years (Tier 3 entry)",
+      "label": "Further Out — deeper doors, no timeline",
       "status": "future",
       "items": [
         {
-          "complete": "5+ documented exhibitions on CV",
+          "complete": "Institutional open calls and museum-context shows",
           "unlocks": [
-            "Japan Watercolor Society eligible",
-            "Asian Cultural Council Fellowship application strengthened",
-            "Institutional open calls (Shoto Museum, BankART1929)"
+            "Institutional open calls (Shoto Museum, BankART1929) on the strength of your record",
+            "Asian Cultural Council Fellowship application well-supported",
+            "A deepening museum-context presence"
           ],
-          "complete_zh": "简历上记录有5次以上展览经历",
-          "complete_ja": "履歴書に5件以上の展覧会実績を記載",
+          "complete_zh": "机构公开征集与美术馆语境下的展览",
+          "complete_ja": "公募展や美術館の文脈での展示",
           "unlocks_zh": [
-            "符合日本水彩画会入会资格",
-            "亚洲文化协会奖学金申请竞争力提升",
-            "机构公开征集作品（Shoto Museum、BankART1929）"
+            "凭借你的履历参与机构公开征集（Shoto Museum、BankART1929）",
+            "亚洲文化协会奖学金申请获得有力支撑",
+            "在美术馆语境中的存在感不断加深"
           ],
           "unlocks_ja": [
-            "日本水彩画会への入会資格あり",
-            "Asian Cultural Council フェローシップ申請の強化",
-            "公募展への応募（Shoto Museum、BankART1929）"
+            "あなたの実績を背景にした公募展への応募（Shoto Museum、BankART1929）",
+            "Asian Cultural Council フェローシップ申請の十分な裏づけ",
+            "美術館の文脈における存在感の深まり"
           ]
         },
         {
-          "complete": "Gallery representation",
+          "complete": "International residency (e.g. Cité Internationale des Arts)",
           "unlocks": [
-            "ART SG 2026 eligible",
-            "Tokyo Gendai eligible",
-            "Art Fair Tokyo eligible",
-            "Gallery introduces to collecting networks"
+            "A funded stretch of focused work abroad",
+            "An international exhibition network that keeps expanding",
+            "A career narrative that strengthens every future grant"
           ],
-          "complete_zh": "画廊代理合作",
-          "complete_ja": "ギャラリーによる作家代理契約",
+          "complete_zh": "国际驻留项目（如国际艺术城 Cité Internationale des Arts）",
+          "complete_ja": "海外レジデンシー（Cité Internationale des Arts など）",
           "unlocks_zh": [
-            "符合 ART SG 2026 参展资格",
-            "符合 Tokyo Gendai 参展资格",
-            "符合 Art Fair Tokyo 参展资格",
-            "画廊引荐至藏家收藏网络"
+            "一段有资助支持、专注创作的海外时光",
+            "持续拓展的国际展览网络",
+            "一份让今后每一次资助申请都更有力的职业叙事"
           ],
           "unlocks_ja": [
-            "ART SG 2026 出展資格あり",
-            "Tokyo Gendai 出展資格あり",
-            "Art Fair Tokyo 出展資格あり",
-            "ギャラリーがコレクターネットワークへ紹介"
+            "資金に支えられた、海外での集中制作の期間",
+            "広がり続ける国際的な展覧会ネットワーク",
+            "今後のあらゆる助成金申請を強める経歴の物語"
           ]
         },
         {
-          "complete": "ACC Fellowship or Japan Foundation grant",
-          "unlocks": [
-            "Cité Internationale des Arts residency becomes realistic",
-            "International exhibition network expands",
-            "Career narrative strengthens for further grants"
-          ],
-          "complete_zh": "ACC奖学金或日本国际交流基金资助",
-          "complete_ja": "ACCフェローシップまたは国際交流基金の助成金取得",
-          "unlocks_zh": [
-            "国际艺术城驻留项目成为现实",
-            "国际展览网络持续拓展",
-            "职业履历更加完善，有助于申请更多资助"
-          ],
-          "unlocks_ja": [
-            "Cité Internationale des Artsへの滞在制作が現実的になる",
-            "国際的な展覧会のネットワークが広がる",
-            "経歴の説得力が増し、さらなる助成金申請に有利になる"
-          ]
-        },
-        {
-          "complete": "3+ books/zines published",
+          "complete": "A book project, if you ever want to make one",
           "unlocks": [
             "Printed Matter (NYC) relationship viable",
             "Offprint Paris participant eligible",
-            "Book projects attract publishing house commissions"
+            "Book projects that attract publishing-house commissions"
           ],
-          "complete_zh": "已出版3本以上书籍或独立刊物",
-          "complete_ja": "書籍・ZINEを3冊以上出版",
+          "complete_zh": "一个书籍项目——如果你哪天想做",
+          "complete_ja": "本のプロジェクト——いつか作りたくなれば",
           "unlocks_zh": [
             "Printed Matter（纽约）合作关系可期",
             "符合 Offprint Paris 参展资格",
@@ -699,50 +764,53 @@ export const CAREER_DEPENDENCY_MAP = {
           "unlocks_ja": [
             "Printed Matter（NYC）との関係構築が見込める",
             "Offprint Paris への参加資格あり",
-            "書籍プロジェクトが出版社からの依頼につながる"
+            "本のプロジェクトが出版社からの依頼につながる"
           ]
         }
       ],
-      "label_zh": "中期目标 — 2–4年（第三阶段入门）",
-      "label_ja": "中期目標 — 2〜4年（ティア3入門）"
+      "label_zh": "更远处——更深的门，没有时间表",
+      "label_ja": "さらに先へ——より深い扉、時間表はなし"
     },
     {
       "id": "long_term",
-      "label": "Long Term — 5+ years (Tier 4 horizon)",
+      "label": "On the Horizon — far doors, only if you ever want them",
       "status": "horizon",
       "items": [
         {
-          "complete": "10+ exhibitions + gallery representation",
+          "complete": "International society membership (Royal / American Watercolour Society)",
           "unlocks": [
-            "Royal Watercolour Society eligible (Associate membership)",
-            "American Watercolor Society eligible"
+            "Royal Watercolour Society (Associate membership) within reach as your record grows",
+            "American Watercolor Society standing",
+            "An international peer community at the highest watercolor level"
           ],
-          "complete_zh": "10次以上展览 + 画廊代理",
-          "complete_ja": "10回以上の展示 + ギャラリーによる代理契約",
+          "complete_zh": "国际协会会员资格（英国／美国水彩画协会）",
+          "complete_ja": "国際的な団体への入会（英国・アメリカ水彩画協会）",
           "unlocks_zh": [
-            "符合英国皇家水彩画协会资格（准会员）",
-            "符合美国水彩画协会资格"
+            "随着履历增长，英国皇家水彩画协会（准会员）触手可及",
+            "美国水彩画协会的会员地位",
+            "在水彩领域最高层级的国际同行社群"
           ],
           "unlocks_ja": [
-            "英国王立水彩画協会の資格あり（準会員）",
-            "アメリカ水彩画協会の資格あり"
+            "実績を重ねるにつれ、英国王立水彩画協会（準会員）が手の届く範囲に",
+            "アメリカ水彩画協会での地位",
+            "水彩の最高峰における国際的な仲間のコミュニティ"
           ]
         },
         {
-          "complete": "Established licensing + edition income",
+          "complete": "Sustained licensing + edition income, if you build it",
           "unlocks": [
-            "Financial independence for deep-work year at ~30",
-            "Selective residency applications without income pressure"
+            "The freedom to take a focused, deep-work stretch whenever you want one",
+            "Choosing residencies and projects without income pressure"
           ],
-          "complete_zh": "已建立授权收入 + 限量版销售收入",
-          "complete_ja": "ライセンス収入・エディション収入の確立",
+          "complete_zh": "稳定的授权收入 + 限量版收入——如果你愿意去建立",
+          "complete_ja": "継続的なライセンス収入・エディション収入——あなたが築けば",
           "unlocks_zh": [
-            "在约30岁时实现财务独立，专注深度创作",
-            "无收入压力，有选择性地申请驻留项目"
+            "想要时，随时给自己一段专注的深度创作时光",
+            "无收入压力地挑选驻留项目与创作计划"
           ],
           "unlocks_ja": [
-            "30歳前後に財務的自立を達成し、深い制作活動に集中する",
-            "収入のプレッシャーなく、厳選したレジデンシーに応募する"
+            "望むときにいつでも、集中した深い制作の期間をとれる自由",
+            "収入のプレッシャーなく、レジデンシーやプロジェクトを選べる"
           ]
         },
         {
@@ -766,8 +834,8 @@ export const CAREER_DEPENDENCY_MAP = {
           ]
         }
       ],
-      "label_zh": "长期 — 5年以上（第4阶段展望）",
-      "label_ja": "長期 — 5年以上（第4段階の展望）"
+      "label_zh": "在地平线上——遥远的门，只在你想要时",
+      "label_ja": "地平線の先に——遠い扉、欲しくなったときだけ"
     }
   ]
 };

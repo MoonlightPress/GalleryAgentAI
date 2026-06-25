@@ -42,10 +42,11 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-/* Strongest Picks are the primary band — render every pick visibly heavier than
-   the category grids below, even the ones not individually flagged "strong":
-   warm bg + colored top-accent + a touch more lift. Mirrors the .tf-card model
-   so the picks band and Today's Focus read as the same tier of importance. */
+/* Strongest Picks are the primary band — the STRONGER tier of the same orange
+   family every card carries (base .opp-card top-accent = #c9a86c; this band =
+   the heavier #b8892a). Hierarchy is band-vs-card, not bar-vs-no-bar: warm bg +
+   deeper top-accent + a touch more lift. Mirrors the .tf-card model so the picks
+   band and Today's Focus read as the same tier of importance. */
 .opp-grid--strongest .opp-card {
   background: #fffdf6;
   border-color: #e0c888;
@@ -54,11 +55,6 @@
 }
 .opp-grid--strongest .opp-card-title {
   font-size: 15px;
-}
-/* An urgent pick inside the band still gets the louder urgent bar on top/left. */
-.opp-grid--strongest .opp-card--urgent {
-  border-top: 3px solid #d08a1a;
-  border-left: 3px solid #d08a1a;
 }
 
 /* ── Section header ── */
