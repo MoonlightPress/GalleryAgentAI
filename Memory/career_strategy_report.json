@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-06-25T02:04:50.585015+00:00",
+  "_generated_at": "2026-06-25T03:50:25.538134+00:00",
   "_engine_version": "2.0",
   "current_phase": "Tier 1-2 foundation building",
   "phase_note": "Age 26, planning a deep-work year around 30. The next 3–4 years are for accumulation: exhibition history, publishing relationships, peer network, and body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now, not acted on until the foundation is solid.",
@@ -15,6 +15,20 @@
     "tier_3_readiness": 0.1,
     "tier_4_readiness": 0.0,
     "tier_3_readiness_note": "Low — more group shows are the most direct path to improving this score."
+  },
+  "level": {
+    "current": 2,
+    "current_label": "Networking & Foundation",
+    "next": 3,
+    "next_label": "Credibility",
+    "progress_to_next": 0.17,
+    "next_unlock": {
+      "gap_id": "group_shows",
+      "gap": "Insufficient group show history",
+      "detail": "Only 1 confirmed group show(s). Most Tokyo galleries consider 3+ group exhibition credits before discussing solo work. 2 more group show(s) needed.",
+      "priority": "high",
+      "action": "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN"
+    }
   },
   "immediate_priorities": [
     {

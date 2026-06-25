@@ -315,6 +315,39 @@ def _tier4_readiness(group_shows: int, has_solo: bool, has_institutional: bool,
     return round(min(score, 1.0), 2)
 
 
+# Threshold at which a tier's readiness is treated as "crossed" — she's
+# operating at that level, not just building toward it.
+_LEVEL_THRESHOLD = 0.60
+
+_LEVEL_LABELS = {
+    1: "Ambient Visibility",
+    2: "Networking & Foundation",
+    3: "Credibility",
+    4: "Prestige",
+}
+
+
+def _career_level(tier3_ready: float, tier4_ready: float) -> dict:
+    """Her current operating level, framed as earned ground rather than a wall
+    of gaps. Tiers 1–2 are the foundation she has already built; she rises to
+    Tier 3 once tier-3 readiness crosses the threshold, and Tier 4 after that.
+    `progress` is how far she is toward the NEXT level (0–1)."""
+    if tier3_ready < _LEVEL_THRESHOLD:
+        current, progress = 2, min(1.0, tier3_ready / _LEVEL_THRESHOLD)
+    elif tier4_ready < _LEVEL_THRESHOLD:
+        current, progress = 3, min(1.0, tier4_ready / _LEVEL_THRESHOLD)
+    else:
+        current, progress = 4, 1.0
+    nxt = current + 1 if current < 4 else None
+    return {
+        "current":        current,
+        "current_label":  _LEVEL_LABELS[current],
+        "next":           nxt,
+        "next_label":     _LEVEL_LABELS.get(nxt) if nxt else None,
+        "progress_to_next": round(progress, 2),
+    }
+
+
 def _months_to_tier3(group_shows: int, has_institutional: bool) -> int:
     if has_institutional:
         return 3
@@ -491,6 +524,28 @@ def build_career_strategy_report():
         group_shows, has_solo, has_institutional, has_international, has_jws
     )
 
+    # ── Level + single next unlock (Saffron hybrid reframe) ───────────────────
+    # The hybrid framing: show ONE thing to cross next, not a wall of gaps. The
+    # next unlock is the highest-priority blocking gap; when every gap is closed
+    # she's at the ceiling, so the "unlock" becomes a positive advanced-state
+    # line instead of going blank.
+    level = _career_level(tier3_ready, tier4_ready)
+    if blocking_gaps:
+        next_unlock = dict(blocking_gaps[0])
+    else:
+        next_unlock = {
+            "gap_id":   "advanced",
+            "gap":      "Foundation complete — building Tier 4 body of work",
+            "detail":   (
+                "Every near-term credibility gap is closed. The work now is depth: "
+                "a coherent body of work and the artist statement for prestige "
+                "applications (residencies, fellowships, international societies)."
+            ),
+            "priority": "low",
+            "action":   "Prepare the Tier 4 portfolio and statement; track prestige deadlines.",
+        }
+    level["next_unlock"] = next_unlock
+
     # ── Tier 3 note ───────────────────────────────────────────────────────────
     if tier3_ready < 0.30:
         t3_note = "Low — more group shows are the most direct path to improving this score."
@@ -526,6 +581,8 @@ def build_career_strategy_report():
             "tier_4_readiness":      tier4_ready,
             "tier_3_readiness_note": t3_note,
         },
+
+        "level": level,
 
         "immediate_priorities": immediate_priorities,
         "build_toward":         build_toward,

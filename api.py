@@ -769,6 +769,8 @@ def shape_card(opp: dict) -> dict:
         "prerequisites":   opp.get("prerequisites", []) or [],
         "student_call":    bool(opp.get("student_call")),
         "native_medium":   opp.get("native_medium", "unknown"),
+        "career_tier":     _opp_tier(opp),
+        "fit_band":        _fit_band(opp),
         "deadline_past":   _deadline_past(opp),
         "closed_this_cycle": opp.get("status") == "closed_this_cycle",
         # Email drafts — prefer per-entry drafts from data, fall back to templates
@@ -778,10 +780,84 @@ def shape_card(opp: dict) -> dict:
     }
 
 
+# ── Level-fit re-ranking (Saffron hybrid reframe) ───────────────────────────
+# Nothing is hidden: opportunities are ordered by fit to her CURRENT career
+# level. Her level comes from the career-strategy report's tier-3/tier-4
+# readiness. Tiers 1–2 are her foundation now (always fully in reach); tier-3/4
+# fit RISES with her readiness, so those opps climb the ranking on their own as
+# she levels up rather than sitting frozen at the bottom. Raw quality
+# (_overall_score) still dominates — this is a gentle term that lifts level-
+# appropriate opps and lets stretch opps sink, and that breaks ties.
+_CAREER_REPORT_CACHE: dict | None = None
+_CAREER_REPORT_MTIME: float = 0.0
+
+
+def _career_readiness() -> dict:
+    """Cached read of the readiness scores from the career-strategy report.
+    Keyed on file mtime so it refreshes the moment _refresh_career_strategy
+    rewrites the report (e.g. after she logs a show)."""
+    global _CAREER_REPORT_CACHE, _CAREER_REPORT_MTIME
+    path = DATA_DIR / "career_strategy_report.json"
+    if not path.exists():
+        return {"tier_3": 0.0, "tier_4": 0.0}
+    mtime = path.stat().st_mtime
+    if _CAREER_REPORT_CACHE is None or mtime != _CAREER_REPORT_MTIME:
+        rep = _load_json(path, {})
+        rs = rep.get("readiness_scores", {}) if isinstance(rep, dict) else {}
+        _CAREER_REPORT_CACHE = {
+            "tier_3": float(rs.get("tier_3_readiness") or 0.0),
+            "tier_4": float(rs.get("tier_4_readiness") or 0.0),
+        }
+        _CAREER_REPORT_MTIME = mtime
+    return _CAREER_REPORT_CACHE
+
+
+def _opp_tier(opp: dict) -> int:
+    """Career tier (1–4) of an opportunity, via the same classifier the career
+    engine uses, so the live re-rank and the readiness report never disagree."""
+    try:
+        from engines.career_strategy_engine import _classify_tier
+        return _classify_tier(opp)
+    except Exception:
+        t = opp.get("career_tier")
+        return t if isinstance(t, int) and 1 <= t <= 4 else 2
+
+
+def _level_fit(opp: dict, readiness: dict | None = None) -> float:
+    """0–1 'fits her current level' score. Tier 1–2 = 1.0 (her foundation now).
+    Tier 3/4 start low and rise linearly with her readiness, so a tier-3 opp at
+    10% readiness is barely fit (0.55) and at 100% is fully fit (1.0)."""
+    r = readiness if readiness is not None else _career_readiness()
+    tier = _opp_tier(opp)
+    if tier <= 2:
+        return 1.0
+    if tier == 3:
+        return round(0.50 + 0.50 * max(0.0, min(1.0, r["tier_3"])), 3)
+    return round(0.40 + 0.60 * max(0.0, min(1.0, r["tier_4"])), 3)
+
+
+def _level_fit_multiplier(opp: dict, readiness: dict | None = None) -> float:
+    """Map level-fit into a deliberately GENTLE ranking band [0.85, 1.15] so it
+    nudges order and breaks ties without overriding raw quality."""
+    return 0.85 + 0.30 * _level_fit(opp, readiness)
+
+
+def _fit_band(opp: dict, readiness: dict | None = None) -> str:
+    """Coarse band for UI badges: a level-appropriate opp she can act on now,
+    one that's getting close, or a stretch target tracked for later."""
+    fit = _level_fit(opp, readiness)
+    if fit >= 0.85:
+        return "in_reach"
+    if fit >= 0.60:
+        return "near"
+    return "stretch"
+
+
 def _ranked_score(item: dict) -> float:
-    """Sort key for already-eligible opportunities."""
-    score = _overall_score(item)
-    return score
+    """Sort key for already-eligible opportunities. Raw quality dominates; a
+    gentle level-fit term lifts level-appropriate opps and lets stretch opps
+    sink — rising on their own as she levels up (Saffron hybrid reframe)."""
+    return _overall_score(item) * _level_fit_multiplier(item)
 
 
 def _pure_photography_noise(item: dict) -> bool:
