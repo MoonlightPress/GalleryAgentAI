@@ -147,7 +147,14 @@ def has(text, terms):
 
 
 _PASSED_MARKERS = ("passed", "closed", "cycle closed", "deadline was", "deadline passed")
-_RECURRING_MARKERS = ("annual", "recurring", "watch", "2027", "2028", "next cycle")
+_RECURRING_MARKERS = (
+    "annual", "recurring", "watch", "2027", "2028", "next cycle",
+    "biennial", "biennale", "triennial", "edition", "yearly", "every year",
+    # Japanese annual signals (these calls were all read as one-off before)
+    "年次", "毎年", "恒例", "隔年", "祭典", "コンクール", "公募展", "公募",
+)
+# "第113回" / "第50届" — an Nth edition is unambiguously a long-running annual event.
+_NTH_EDITION_RE = re.compile(r"第\s*\d+\s*[回届]")
 
 
 def _deadline_confirmed_passed(opp):
@@ -157,9 +164,14 @@ def _deadline_confirmed_passed(opp):
 
 
 def _is_recurring(opp):
-    deadline = str(opp.get("deadline") or "").lower()
-    cycle_note = str(opp.get("cycle_note") or "").lower()
-    return any(m in deadline or m in cycle_note for m in _RECURRING_MARKERS)
+    name = str(opp.get("name") or opp.get("title") or "")
+    if _NTH_EDITION_RE.search(name):
+        return True
+    # Check the name too — "第113回"/"祭典"/"コンクール" live in the title, not the
+    # deadline field. Japanese markers aren't case-folded, so lower() is harmless.
+    blob = (name + " " + str(opp.get("deadline") or "") + " "
+            + str(opp.get("cycle_note") or "")).lower()
+    return any(m in blob for m in _RECURRING_MARKERS)
 
 
 def _call_deadline_is_past(opp) -> bool:
