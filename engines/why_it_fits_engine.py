@@ -109,7 +109,42 @@ Bucket: {bucket}
 Tags: {tags_str}
 Previous why note: {why_old[:200] if why_old else '(none)'}
 
-Write ONE to TWO sentences explaining specifically WHY this venue/opportunity fits HER practice.
+Write ONE to TWO sentences telling her, in plain practical terms, why this venue/opportunity is
+worth her attention RIGHT NOW. This is advice, not a description — it must help her decide whether
+to act, not just summarize what the place is.
+
+=== HARD RULE: NEVER ASSERT AESTHETIC OR TASTE FIT (this overrides everything else) ===
+The system has NOT seen this venue's actual work and does NOT know her personal taste. You therefore
+may NOT claim, imply, or rank aesthetic/taste compatibility. Specifically FORBIDDEN:
+- Any verdict of fit derived from vibe/tags: "perfect fit", "highest/best aesthetic match",
+  "matches your aesthetic", "aligns with your quiet register/sensibility", "your kind of space",
+  "they'll love your work", "this is so you", "right up your alley".
+- Predicting what she or the venue will like, or how well her work will be received.
+- Treating tag/category overlap as proof of taste alignment.
+Her taste is genuinely unknown to the system (she likes a wide range, including rough/outsider work),
+so any aesthetic verdict here would be a fabricated certainty — exactly the failure we are preventing.
+If the only thing connecting her to this venue is vibe/aesthetic, do NOT assert it: hedge instead,
+e.g. "contemporary/outsider-leaning — worth a look if you want to judge the fit yourself," and let
+HER make the taste call.
+
+=== GROUND EVERY REASON IN VERIFIABLE FACTS ===
+Build the reason ONLY from facts in the data above (or facts plainly entailed by them):
+the medium the venue shows, whether it accepts un-represented / emerging artists, audience or
+subject-matter overlap, fee (or free), deadline, location/city, format (open call, consignment,
+grant, fair, zine/bookstore). Lead with one such checkable fact. If you genuinely lack a fact that
+would justify recommending it, hedge openly ("worth a look — judge the fit yourself") rather than
+inventing enthusiasm.
+
+=== ADVISE, DON'T DESCRIBE ===
+- START with a concrete, checkable fact about the opportunity (what it shows, whether it takes
+  un-repped artists, the fee, the deadline, the location) — not with a description of its vibe.
+- END with a concrete next action she could take (e.g. "submit 6–8 diary works before the May
+  deadline", "email the organizer to confirm they take un-repped painters", "consign a small set of
+  prints"). Make the action specific to this opportunity.
+- Do NOT write filler like "visit their site to get a feel" / "stop by to soak up the atmosphere" /
+  "check it out to see if it resonates" — that is not advice.
+
+=== PRESERVE THESE EXISTING RULES ===
 - Address her directly in the SECOND PERSON ("you", "your work", "your daily diary"). Never write
   about her in the third person — never use "she", "her work" as if describing someone else, and
   never use her name "GEGYjiji" in the sentence.
@@ -117,16 +152,19 @@ Write ONE to TWO sentences explaining specifically WHY this venue/opportunity fi
 - Reference watercolor, urban/architectural focus, or your daily practice where relevant
 - Do NOT be generic ("a good fit for emerging artists")
 - Do NOT repeat the one_sentence description word-for-word
-- Do NOT start with "This" — start with the venue name or a specific aspect of the opportunity
+- Do NOT start with "This" — start with the venue name or a specific, checkable aspect of the opportunity
 - Do NOT use garbled phrases — use "watercolor" or "works on paper"
 - NEVER mention internal taxonomy or system terms ("Tier 1", "Tier 2", "bucket", "immediate best
   moves", "stretch target", "score") — this copy is for her, not for the system.
+- NEVER reference a store, shop, sales pipeline, or the system selling/recommending anything to her.
 - NEVER include meta-instructions, caveats to a reviewer, or verification notes (e.g.
   "建议在推荐前进行核实" / "verify before recommending" / "needs verification"). Output only the
   finished, her-facing sentence.
-- If it's a grant: explain why the grant criteria match your practice specifically
-- If it's a bookstore/zine: explain why your daily observation practice and printed work fits their curatorial identity
-- If it's an art fair: explain the strategic fit or limitation honestly
+- If it's a grant: lead with the eligibility/criteria fact and the deadline, then the next step — do
+  NOT claim the work itself is a taste match.
+- If it's a bookstore/zine: lead with whether your printed/daily work fits their format (zine,
+  consignment, works on paper), then the next step — do NOT assert their curatorial taste matches yours.
+- If it's an art fair: state the strategic fit or limitation honestly (cost, reach, audience), then the next step.
 - Keep it to 1-2 sentences maximum
 
 Output the 1-2 sentences only, nothing else."""
