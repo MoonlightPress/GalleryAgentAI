@@ -32,6 +32,33 @@
   transform: none;
 }
 
+/* ── Importance variants (T3.1) ───────────────────────────────────────────
+   Mirrors the TodaysFocus .tf-card treatment: a strong pick earns a colored
+   top-accent + a subtle warm background + a slightly heavier title, so it no
+   longer reads identical to watch-list filler. Calm, not loud — hierarchy by
+   weight and warmth, not decoration. */
+.opp-card--strong {
+  background: #fffdf6;
+  border-color: #e0c888;
+  border-top: 3px solid #b8892a;
+}
+.opp-card--strong .opp-card-title {
+  font-size: 15px;
+  color: var(--ink);
+}
+
+/* Urgent deadline (<7 days): a louder accent BAR — top + left — so urgency is
+   structural, not just the amber text on the deadline line. Takes precedence on
+   the top edge; pairs with --strong via the warm bg below. */
+.opp-card--urgent {
+  border-top: 3px solid #d08a1a;
+  border-left: 3px solid #d08a1a;
+}
+/* A strong pick that is ALSO urgent keeps the warm bg + the louder urgent bar. */
+.opp-card--urgent.opp-card--strong {
+  background: #fffdf6;
+}
+
 /* ── Card body — full width ── */
 .opp-card-body {
   padding: 14px 14px 12px;

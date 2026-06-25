@@ -363,7 +363,7 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
   }
 
   return (
-    <section id={sectionKey} className="opp-section">
+    <section id={sectionKey} className="opp-section opp-section--secondary">
       {/* Section header */}
       <div className="opp-section-header">
         <div className="opp-section-title-row">

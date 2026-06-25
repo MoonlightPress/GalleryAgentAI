@@ -42,6 +42,25 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+/* Strongest Picks are the primary band — render every pick visibly heavier than
+   the category grids below, even the ones not individually flagged "strong":
+   warm bg + colored top-accent + a touch more lift. Mirrors the .tf-card model
+   so the picks band and Today's Focus read as the same tier of importance. */
+.opp-grid--strongest .opp-card {
+  background: #fffdf6;
+  border-color: #e0c888;
+  border-top: 3px solid #b8892a;
+  box-shadow: 0 3px 14px rgba(80, 55, 30, 0.10), 0 1px 3px rgba(80, 55, 30, 0.05);
+}
+.opp-grid--strongest .opp-card-title {
+  font-size: 15px;
+}
+/* An urgent pick inside the band still gets the louder urgent bar on top/left. */
+.opp-grid--strongest .opp-card--urgent {
+  border-top: 3px solid #d08a1a;
+  border-left: 3px solid #d08a1a;
+}
+
 /* ── Section header ── */
 .opp-section-header {
   padding: 14px 0 8px;
@@ -68,6 +87,35 @@
   color: var(--ink);
   letter-spacing: 0.01em;
   margin: 0;
+}
+
+/* ── Section-header hierarchy ──────────────────────────────────────────────
+   Every section header used to read at the same 22px weight, so the primary
+   surface (Strongest Picks) looked no more important than a watch-list grid.
+   Promote the primary header; demote the secondary category headers to a
+   quieter, smaller treatment so the eye lands on the picks first. */
+
+/* Primary: Strongest Picks — the one thing she should read first. */
+.opp-section--strongest .opp-section-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.opp-section--strongest .opp-section-icon {
+  font-size: 23px;
+}
+
+/* Secondary: the category grids below — present but visibly lighter. */
+.opp-section--secondary .opp-section-title {
+  font-size: 18px;
+  color: var(--ink-medium, #6a5c45);
+}
+.opp-section--secondary .opp-section-icon {
+  font-size: 17px;
+  opacity: 0.85;
+}
+.opp-section--secondary .opp-section-desc {
+  font-size: 12.5px;
 }
 
 .opp-section-count {

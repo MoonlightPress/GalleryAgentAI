@@ -7,15 +7,27 @@ function scrollTo(id) {
   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
+// Companion names, per language. The tabs are verbs (发现/观察/对话) but each page's
+// companion introduces herself by name; pairing the two ("观察 · 红雀") closes the
+// mental-model seam the review flagged (T4.3). Names are taken from the existing
+// intro/status strings already shipped in the i18n: 猫饼/モチ/Mochi, 红雀/サフラン/
+// Saffron, 胡椒粒/ペッパーコーン/Peppercorn.
+const COMPANION_NAMES = {
+  zh: { discover: '猫饼',  observe: '红雀',     refine: '胡椒粒'       },
+  ja: { discover: 'モチ',  observe: 'サフラン', refine: 'ペッパーコーン' },
+  en: { discover: 'Mochi', observe: 'Saffron',  refine: 'Peppercorn'   },
+}
+
 // Top-level companion switcher + language toggle. Sits before the intro on every
 // page (matches Saffron's layout). Section navigation is the separate QuickNav bar.
 export default function Nav({ activePage, onNav }) {
   const { t, lang, setLang } = useLanguage()
+  const names = COMPANION_NAMES[lang] || COMPANION_NAMES.en
 
   const COMPANIONS = [
-    { label: t('nav.discover'), key: 'discover' },
-    { label: t('nav.observe'),  key: 'observe'  },
-    { label: t('nav.refine'),   key: 'refine'   },
+    { label: t('nav.discover'), name: names.discover, key: 'discover' },
+    { label: t('nav.observe'),  name: names.observe,  key: 'observe'  },
+    { label: t('nav.refine'),   name: names.refine,   key: 'refine'   },
   ]
 
   return (
@@ -27,7 +39,9 @@ export default function Nav({ activePage, onNav }) {
             className={`companion-btn${activePage === c.key ? ' companion-btn--active' : ''}`}
             onClick={() => onNav(c.key)}
           >
-            {c.label}
+            <span className="companion-btn-verb">{c.label}</span>
+            <span className="companion-btn-sep" aria-hidden="true"> · </span>
+            <span className="companion-btn-name">{c.name}</span>
           </button>
         ))}
 
