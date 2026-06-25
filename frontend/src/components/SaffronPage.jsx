@@ -1482,9 +1482,21 @@ function CareerMomentum({ data, t }) {
 
 // ── Timing Intelligence ────────────────────────────────────────────────────
 
+// A real reading of the timing, built from the live counts: how much of the
+// board is a fixed date vs. rolling/open, so she sees the calendar pressure is
+// concentrated and the rest is approachable any time (Scott: add real insight).
+const TIMING_READING = {
+  en: (dated, flexible) => `Of everything on your radar, ${dated} have a fixed date and ${flexible} are rolling or open — so most of the calendar pressure sits on a handful of dates, and the rest you can approach whenever you're ready.`,
+  zh: (dated, flexible) => `在你关注的机会里，${dated} 个有固定截止日期，${flexible} 个是常年开放或没有固定截止——也就是说，真正要盯日历的只有少数几天，其余的你随时准备好了再去都行。`,
+  ja: (dated, flexible) => `あなたが見ている中で、${dated} 件は締切が決まっていて、${flexible} 件は通年・随時です——つまりカレンダー上のプレッシャーはごく一部の日付に集中していて、残りは準備ができたときにいつでも動けます。`,
+}
 function TimingIntelligence({ data, t }) {
+  const { lang } = useLanguage()
   const maxCount = Math.max(...data.monthly_counts.map(m => m.count), 1)
   const summary  = t('sf.sum.timing', { peaks: data.peak_months.slice(0, 2).join(' · '), dated: data.with_parsed_deadline })
+  const dated    = data.with_parsed_deadline ?? 0
+  const flexible = (data.rolling_count ?? 0) + (data.no_deadline_count ?? 0)
+  const timingReading = (TIMING_READING[lang] || TIMING_READING.en)(dated, flexible)
 
   return (
     <SectionShell
@@ -1493,19 +1505,20 @@ function TimingIntelligence({ data, t }) {
       summary={summary}
     >
       <div className="sf-insight-callout">{data.key_insight}</div>
+      <p className="sf-info-text" style={{ marginTop: 12 }}>{timingReading}</p>
 
       <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.timing.deadlinesByMonth')}</div>
       <div className="sf-timing-grid">
         {data.monthly_counts.map((m, i) => (
           <div key={i} className="sf-timing-month">
-            <div className="sf-timing-month-name">{m.month.slice(0, 3)}</div>
+            <div className="sf-timing-count">{m.count || ''}</div>
             <div className="sf-timing-bar-track">
               <div
                 className={`sf-timing-bar${data.peak_months.includes(m.month) ? ' sf-timing-bar--peak' : ''}`}
                 style={{ height: `${Math.round((m.count / maxCount) * 100)}%` }}
               />
             </div>
-            <div className="sf-timing-count">{m.count || ''}</div>
+            <div className="sf-timing-month-name">{m.month.slice(0, 3)}</div>
           </div>
         ))}
       </div>

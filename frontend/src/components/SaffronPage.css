@@ -2026,9 +2026,9 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 4px;
-  height: 130px;
-  padding: 8px 0 0;
+  gap: 6px;
+  height: 152px;
+  padding: 8px 4px 0;
 }
 
 .sf-timing-month {
@@ -2038,38 +2038,39 @@ a.sf-readiness-col-name:hover { color: #c47a35; text-decoration: underline; }
   align-items: center;
   height: 100%;
   justify-content: flex-end;
-  gap: 4px;
+  gap: 6px;
 }
-
-.sf-timing-month-name {
-  font-family: Georgia, serif;
-  font-size: 10px;
-  color: #9a7a52;
-}
-
-.sf-timing-bar-track {
-  display: flex;
-  flex-direction: column-reverse;
-  width: 64%;
-  max-width: 24px;
-  height: 90px;
-}
-
-.sf-timing-bar {
-  width: 100%;
-  background: #c0aa88;
-  border-radius: 3px 3px 0 0;
-  min-height: 2px;
-}
-
-.sf-timing-bar--peak { background: #c47a35; }
 
 .sf-timing-count {
   font-family: Georgia, serif;
   font-size: 11px;
   font-weight: bold;
-  color: #5a3e20;
+  color: #7a5c3a;
   min-height: 14px;
+}
+
+.sf-timing-bar-track {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 70%;
+  max-width: 22px;
+  height: 98px;
+}
+
+.sf-timing-bar {
+  width: 100%;
+  background: linear-gradient(#d8c6a2, #c7b08a);
+  border-radius: 4px 4px 0 0;
+  min-height: 3px;
+}
+
+.sf-timing-bar--peak { background: linear-gradient(#d79a52, #c47a35); }
+
+.sf-timing-month-name {
+  font-family: Georgia, serif;
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  color: #9a7a52;
 }
 
 .sf-timing-peak-row {

@@ -59,43 +59,42 @@
   aspect-ratio: 1 / 1;
   border: none;
   background: none;
-  border-radius: 8px;
+  border-radius: 9px;
   font-family: Georgia, serif;
   font-size: 13px;
-  color: var(--ink-medium, #5d4b3b);
+  color: var(--ink-muted, #8a7563);
   cursor: default;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .cal-grid-cell--empty { visibility: hidden; }
+.cal-grid-daynum { line-height: 1; }
+/* Deadline days are marked with a quiet ink dot under the number — not a flat
+   grey block topped with a bright pill (Scott, 2026-06-26). */
 .cal-grid-cell--has {
-  background: #f3efe2;
   color: var(--ink, #3d2b20);
   font-weight: bold;
   cursor: pointer;
 }
-.cal-grid-cell--has:hover { background: #ece3cd; }
+.cal-grid-cell--has:hover { background: #f6efdc; }
+.cal-grid-mark {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  line-height: 1;
+}
+.cal-grid-mark-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--rose, #d4897a); }
+.cal-grid-mark-n { font-family: Georgia, serif; font-size: 9px; font-weight: bold; color: var(--rose, #d4897a); }
 .cal-grid-cell--today { box-shadow: inset 0 0 0 1.5px var(--gold, #c49a3e); }
 .cal-grid-cell--sel { background: var(--gold, #c49a3e); color: #fff; }
-.cal-grid-dot {
-  position: absolute;
-  top: 3px;
-  right: 4px;
-  min-width: 14px;
-  height: 14px;
-  padding: 0 3px;
-  border-radius: 7px;
-  background: var(--rose, #d4897a);
-  color: #fff;
-  font-size: 9px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-}
-.cal-grid-cell--sel .cal-grid-dot { background: #fff; color: var(--gold, #c49a3e); }
+.cal-grid-cell--sel .cal-grid-mark-dot { background: #fff; }
+.cal-grid-cell--sel .cal-grid-mark-n { color: #fff; }
 .cal-clear-sel {
   display: block;
   margin: 0 auto 16px;

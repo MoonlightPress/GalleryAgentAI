@@ -55,7 +55,12 @@ export function CalendarMonth({ byDate, base, calMonths, calWeekdays, todayKey, 
               disabled={!entry}
             >
               <span className="cal-grid-daynum">{d}</span>
-              {entry && <span className="cal-grid-dot">{entry.opps.length}</span>}
+              {entry && (
+                <span className="cal-grid-mark">
+                  <span className="cal-grid-mark-dot" />
+                  {entry.opps.length > 1 && <span className="cal-grid-mark-n">{entry.opps.length}</span>}
+                </span>
+              )}
             </button>
           )
         })}
