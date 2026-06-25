@@ -59,103 +59,126 @@
   font-size: 15px;
 }
 
-/* ── Section header ── */
-/* Top padding trimmed (was 14px) so the header sits closer to the prior
-   section's "show more"; the banner on .opp-section-title-row carries its own
-   breathing room now. */
+/* ── Section header banner ──────────────────────────────────────────────────
+   A hand-labeled sketchbook-plate (Scott 2026-06-26): a soft watercolor wash
+   band with a hairline sepia/gold double-frame and small corner accents, the
+   painted icon set inside a white seal-medallion (so its multiply backdrop is
+   erased cleanly — no square seam against the parchment), and the title in the
+   display serif. This is the page's signature element; everything else stays
+   quiet. */
 .opp-section-header {
-  padding: 8px 0 8px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 12px;
+  padding: 0 0 6px;
+  margin-bottom: 14px;
 }
 
-/* Subtle LEFT-JUSTIFIED header banner (Scott 2026-06-25 — "could go really
-   wrong", so kept barely-there): the icon+title sit on a faint parchment wash
-   that hugs the left (width: fit-content, NOT a full-width centered bar) with a
-   soft gold left accent. Low contrast on purpose; dial back by lowering the bg
-   alpha or removing border-left. It also fills the awkward space beside the icon. */
 .opp-section-title-row {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 6px;
-  max-width: 100%;
-  padding: 6px 14px 6px 11px;
-  border-left: 3px solid rgba(201, 168, 108, 0.45);
-  border-radius: 0 10px 10px 0;
-  background: linear-gradient(
-    90deg,
-    rgba(201, 168, 108, 0.10) 0%,
-    rgba(201, 168, 108, 0.045) 55%,
-    rgba(201, 168, 108, 0) 100%
-  );
+  gap: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 11px;
+  padding: 14px 24px;
+  position: relative;
+  border-radius: 12px;
+  background:
+    radial-gradient(130% 160% at 0% 0%, rgba(201, 168, 108, 0.16), rgba(201, 168, 108, 0) 58%),
+    linear-gradient(180deg, rgba(255, 253, 247, 0.95), rgba(246, 237, 219, 0.95));
+  border: 1px solid rgba(176, 138, 74, 0.5);
+  box-shadow:
+    inset 0 0 0 4px rgba(255, 253, 247, 0.6),
+    inset 0 0 0 5px rgba(201, 168, 108, 0.3),
+    0 1px 5px rgba(120, 90, 30, 0.06);
+}
+/* Small corner accents — the "light framing" of a plate (top-left + bottom-right
+   brackets); restrained to two diagonal corners. */
+.opp-section-title-row::before,
+.opp-section-title-row::after {
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border: 1.5px solid rgba(160, 124, 62, 0.7);
+}
+.opp-section-title-row::before { top: 8px; left: 8px; border-right: 0; border-bottom: 0; border-radius: 4px 0 0 0; }
+.opp-section-title-row::after  { right: 8px; bottom: 8px; border-left: 0; border-top: 0; border-radius: 0 0 4px 0; }
+
+/* The white seal-medallion that holds the painted icon. White so the icon's
+   mix-blend-mode: multiply erases its own backdrop with no visible square. */
+.opp-section-medallion {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #fffdf8;
+  border: 1px solid rgba(201, 168, 108, 0.55);
+  box-shadow: 0 1px 3px rgba(120, 90, 30, 0.12), inset 0 0 0 3px rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .opp-section-icon {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1;
 }
-
-/* Watercolor section icon (img variant). Sized up well beyond the emoji it
-   replaces so the painted mark anchors the header instead of floating small with
-   empty headroom above. object-fit: contain shows the whole painting;
-   mix-blend-mode: multiply melts the cream/white backdrop into the light
-   parchment header band so there's no square edge. */
 .opp-section-icon--img {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   flex-shrink: 0;
   object-fit: contain;
-  vertical-align: middle;
   display: inline-block;
   mix-blend-mode: multiply;
 }
 
 .opp-section-title {
-  font-family: Georgia, serif;
-  font-size: 22px;
-  font-weight: normal;
+  font-family: 'IM Fell English', Georgia, serif;
+  font-size: 25px;
+  font-weight: 400;
   color: var(--ink);
   letter-spacing: 0.01em;
   margin: 0;
 }
 
 /* ── Section-header hierarchy ──────────────────────────────────────────────
-   Every section header used to read at the same 22px weight, so the primary
-   surface (Strongest Picks) looked no more important than a watch-list grid.
-   Promote the primary header; demote the secondary category headers to a
-   quieter, smaller treatment so the eye lands on the picks first. */
-
-/* Primary: Strongest Picks — the one thing she should read first. */
+   The primary surface (Strongest Picks) gets a bigger plate + title; the
+   category grids below get a slightly smaller one, so the eye lands on the
+   picks first without the secondaries looking washed out. */
 .opp-section--strongest .opp-section-title {
-  font-size: 26px;
+  font-size: 29px;
   font-weight: 600;
-  color: var(--ink);
 }
-.opp-section--strongest .opp-section-icon {
-  font-size: 23px;
+.opp-section--strongest .opp-section-medallion {
+  width: 66px;
+  height: 66px;
 }
 .opp-section--strongest .opp-section-icon--img {
-  width: 48px;
-  height: 48px;
+  width: 46px;
+  height: 46px;
 }
 
-/* Secondary: the category grids below — present but visibly lighter. */
 .opp-section--secondary .opp-section-title {
-  font-size: 18px;
-  color: var(--ink-medium, #6a5c45);
+  font-size: 21px;
 }
-.opp-section--secondary .opp-section-icon {
-  font-size: 17px;
-  opacity: 0.85;
+.opp-section--secondary .opp-section-medallion {
+  width: 50px;
+  height: 50px;
 }
 .opp-section--secondary .opp-section-icon--img {
-  width: 36px;
-  height: 36px;
-  opacity: 1;
+  width: 34px;
+  height: 34px;
 }
 .opp-section--secondary .opp-section-desc {
   font-size: 12.5px;
+}
+
+@media (max-width: 600px) {
+  .opp-section-title-row { padding: 12px 16px; gap: 12px; }
+  .opp-section-title { font-size: 20px; }
+  .opp-section--strongest .opp-section-title { font-size: 23px; }
+  .opp-section-medallion,
+  .opp-section--secondary .opp-section-medallion { width: 48px; height: 48px; }
+  .opp-section--strongest .opp-section-medallion { width: 54px; height: 54px; }
 }
 
 .opp-section-count {
