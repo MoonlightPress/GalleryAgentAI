@@ -32,7 +32,9 @@
 /* ── Content wrapper ────────────────────────────────────────────────── */
 
 .sf-content {
-  background: #fdf8ee;
+  /* No container fill — the section cards sit directly on the page's parchment
+     so there's no pale box-behind-boxes framing everything (Scott, 2026-06-26). */
+  background: transparent;
   display: flex;
   flex-direction: column;
   max-width: 960px;
@@ -124,13 +126,39 @@
 .sf-ext-link { text-decoration: none; cursor: pointer; }
 .sf-ext-link:hover { color: #c47a35; text-decoration: underline; }
 
-/* "You're here" markers — a value + label, no progress fill, no target.
-   (Replaced the old radial rings that rendered a strength half-empty.) */
-.sf-rings { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; padding: 12px 0 6px; }
-.sf-marker { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 84px; }
-.sf-marker-dot { width: 10px; height: 10px; border-radius: 50%; }
-.sf-marker-value { font-family: Georgia, serif; font-size: 24px; font-weight: bold; color: #3d2b1a; }
-.sf-marker-label { font-family: Georgia, serif; font-size: 13px; color: #5d4b3b; text-align: center; }
+/* The "where you stand" read that opens Career Position — a real synopsis, not
+   a list (Scott, 2026-06-26: the section should tell her her position). */
+.sf-career-synopsis {
+  font-family: Georgia, serif;
+  font-size: 14.5px;
+  line-height: 1.72;
+  color: #4a3826;
+  margin: 0 0 26px;
+}
+
+/* "You're here" stat strip — value + label with a small colour accent rule
+   under the number (replaces the stray floating dots Scott flagged as ugly),
+   and real breathing room below it before the record. */
+.sf-rings {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2px 0 22px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #ece0c6;
+}
+.sf-marker { display: flex; flex-direction: column; align-items: center; gap: 8px; min-width: 96px; padding: 0 8px; }
+.sf-marker-value { font-family: Georgia, serif; font-size: 27px; font-weight: bold; color: #3d2b1a; line-height: 1; }
+.sf-marker-accent { width: 20px; height: 3px; border-radius: 2px; opacity: 0.9; }
+.sf-marker-label {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #8a7563;
+  text-align: center;
+}
 
 /* Cadence tip — the one bit salvaged from the deleted Instagram panel; a small,
    optional, collapsible line under the next-step card in Career Readiness. */
@@ -1536,14 +1564,8 @@
   line-height: 1.55;
 }
 
-.sf-depmap-connector {
-  width: 2px;
-  height: 20px;
-  background: linear-gradient(#d8c8b0, #e8d8c0);
-  margin-left: 6px;
-  margin-bottom: 8px;
-  border-radius: 1px;
-}
+/* (The vertical connector line between milestone groups was removed —
+   Scott, 2026-06-26: it read as an ugly stray line between sections.) */
 
 /* ── Career Readiness ───────────────────────────────────────────────────── */
 

@@ -359,16 +359,18 @@ function grantHref(grant) {
   return sfSearch(grant.name)
 }
 
-// A revenue stream is a concept, not always a venue — search the cleanest term.
-// Prefer a known platform named in the stream/description; else the English
-// stream label with any parenthetical aside stripped (so "Booth.pm (another
-// optional home…)" searches "Booth.pm", not the whole sentence).
-const REVENUE_PLATFORMS = ['SUZURI', 'Booth.pm']
-function revenueSearchTerm(item) {
+// A revenue stream only gets a link when it points at a real, specific resource
+// — a known platform actually named in the stream. Concept rows (commissions,
+// sharing originals, consignment) have no single URL, so they render as plain
+// text rather than a useless web-search link (Scott, 2026-06-26: "if it's not a
+// specific resource, don't have a link").
+const REVENUE_PLATFORM_URL = { 'SUZURI': 'https://suzuri.jp/', 'Booth.pm': 'https://booth.pm/' }
+function revenueHref(item) {
+  if (item.website) return item.website
+  if (item.url) return item.url
   const hay = `${item.stream || ''} ${item.description || ''}`
-  const hit = REVENUE_PLATFORMS.find(p => hay.includes(p))
-  if (hit) return hit
-  return String(item.stream || '').replace(/\s*\([^)]*\)/g, '').trim()
+  const hit = Object.keys(REVENUE_PLATFORM_URL).find(p => hay.includes(p))
+  return hit ? REVENUE_PLATFORM_URL[hit] : null
 }
 
 // Humanize a raw activity status (e.g. "in_contact") into a readable label.
@@ -382,12 +384,27 @@ function actStatusLabel(status, t) {
 
 // ── Original four sections ─────────────────────────────────────────────────
 
+// A real "where you stand" read for Career Position — authored copy (not a
+// count), truthful to her record and stable as counts change. Opens the section
+// so it actually tells her her position instead of only listing what she's done.
+const CAREER_SYNOPSIS = {
+  en: "You're an actively exhibiting artist — solo and group shows across China, Japan and abroad, including museum group shows and a Tokyo solo — with a first solo publication and an established, growing audience. The foundation is real. From here it's less about adding credits and more about depth: gallery relationships, a representation conversation if you ever want one, and the book practice your daily work already feeds.",
+  zh: "你是一位持续在办展的艺术家——个展与联展遍及中国、日本及海外，其中包括美术馆群展，以及一场东京个展——还有首部个人出版物，和一群稳定、持续增长的受众。根基是扎实的。接下来与其说是再添履历，不如说是往深处走：画廊关系、（如果你愿意）一次代理的洽谈，以及你的日常创作本就在滋养的那条出版之路。",
+  ja: "あなたは継続的に発表を続けているアーティストです——中国・日本・海外での個展とグループ展、美術館でのグループ展、そして東京での個展まで——さらに初の個人作品集と、確立された、伸び続けるオーディエンスがあります。土台は確かです。ここから先は、実績を足すことよりも深さです——ギャラリーとの関係、望むなら専属の話、そして日々の制作がすでに育てている本の実践。",
+}
+const CAREER_SUMMARY = {
+  en: 'Actively exhibiting — solo, group, museum & international shows, a first book, an established audience.',
+  zh: '持续办展——个展、联展、美术馆与海外展，首部作品集，稳定的受众。',
+  ja: '継続的に発表——個展・グループ展・美術館・海外展、初の作品集、確立されたオーディエンス。',
+}
+
 function CareerPosition({ data, t }) {
+  const { lang } = useLanguage()
   const ig = data.social.find(s => s.platform === 'Instagram')
   // Her record is the exhibitions + publications. Social handles, education, and
   // home base are things she already knows — they were removed from this section
   // (no value to her). Instagram now lives ONCE in the app as the audience fact.
-  const summary = `${data.exhibitions.length} · ${data.publications.length}`
+  const summary = CAREER_SUMMARY[lang] || CAREER_SUMMARY.en
 
   const igStr = ig?.followers || '27k'
   // "You're here" markers — NOT progress-to-target rings. The old rings rendered
@@ -406,6 +423,7 @@ function CareerPosition({ data, t }) {
       subtitle={t('sf.sub.careerPosition')}
       summary={summary}
     >
+      <p className="sf-career-synopsis">{CAREER_SYNOPSIS[lang] || CAREER_SYNOPSIS.en}</p>
       <div className="sf-rings">
         {markers.map(mk => <MilestoneMarker key={mk.id} {...mk} />)}
       </div>
@@ -580,8 +598,13 @@ const ASSESSMENT_COLORS = {
   unknown: '#9a8a70',
 }
 
+const BENCHMARKS_SUMMARY = {
+  en: 'Where you sit at or above the typical range for your stage — your strongest dimensions.',
+  zh: '在你这个阶段，你处于或高于典型区间的那几项——你最强的维度。',
+  ja: 'あなたの段階で、典型的な範囲と同等か上にある面——あなたの強み。',
+}
 function CareerBenchmarks({ data, t }) {
-  const rec = data.artist_record
+  const { lang } = useLanguage()
   // Never compare her unfavorably (Scott): show only the dimensions where she's
   // at or above the typical band. Growth areas live — positively — in Career
   // Readiness, not as a peer deficit here. If nothing is favorable yet, the
@@ -594,9 +617,8 @@ function CareerBenchmarks({ data, t }) {
   // that row (numbers/symbols don't get deep-translated).
   const favorable = (data.peer_range || []).filter(r => r.favorable && r.peer_high !== '100k+')
   if (favorable.length === 0) return null
-  // Summary drops the Instagram count — Instagram is stated once (the audience
-  // fact in CareerPosition), not echoed in this collapsed-section summary.
-  const summary = `${rec.exhibitions} · ${rec.publications}`
+  // Collapsed summary: a readable synopsis, not raw counts (Scott, 2026-06-26).
+  const summary = BENCHMARKS_SUMMARY[lang] || BENCHMARKS_SUMMARY.en
   return (
     <SectionShell
       title={t('sf.sec.benchmarks')}
@@ -887,8 +909,14 @@ function CollaborationMap({ data, t }) {
 
 // (GeographicExpansion removed 2026-06-25 with the Landscape tab.)
 
+const PUBLICATION_SUMMARY = {
+  en: 'Where to publish next — from zines to art books — and the two titles you already have.',
+  zh: '下一步去哪出版——从独立刊物到艺术书——以及你已有的两部作品。',
+  ja: '次にどこで出すか——zineからアートブックまで——そして、すでにある2冊。',
+}
 function PublicationLandscape({ data, t }) {
-  const summary = `${data.pipeline_count} · ${data.artist_publications.length}`
+  const { lang } = useLanguage()
+  const summary = PUBLICATION_SUMMARY[lang] || PUBLICATION_SUMMARY.en
   return (
     <SectionShell
       title={t('sf.sec.publication')}
@@ -1118,6 +1146,17 @@ function LicensingLandscape({ t, lang }) {
 
 // ── Press & Pitch Map ──────────────────────────────────────────────────────
 
+// Each press/pitch outlet links to its real site so she can go read it and judge
+// fit herself (Scott, 2026-06-26). Confident official sites here; anything not
+// listed falls back to a name search.
+const PRESS_OUTLET_SITE = {
+  '美術手帖 (Bijutsu Techo)': 'https://bijutsutecho.com/',
+  'Pen Magazine':            'https://www.pen-online.jp/',
+  "It's Nice That":          'https://www.itsnicethat.com/',
+  'Apartamento':             'https://www.apartamentomagazine.com/',
+  'Casa Brutus':             'https://casabrutus.com/',
+}
+
 function PressPitchMap({ t, lang }) {
   const d = PRESS_PITCH_MAP
   const outlets = d.items.filter(item => item.name)
@@ -1129,7 +1168,12 @@ function PressPitchMap({ t, lang }) {
         {outlets.map((item, i) => (
           <div key={i} className="sf-press-pitch-row">
             <div className="sf-press-pitch-header">
-              <span className="sf-press-pitch-name">{item.name}</span>
+              <a
+                className="sf-press-pitch-name sf-ext-link"
+                href={PRESS_OUTLET_SITE[item.name] || sfSearch(item.name)}
+                target="_blank"
+                rel="noreferrer"
+              >{item.name} ↗</a>
               <span className="sf-press-pitch-type">{locF(item, 'type', lang)}</span>
             </div>
             <p className="sf-press-pitch-why">{locF(item, 'why_fits', lang)}</p>
@@ -1238,12 +1282,13 @@ function RevenueStreams({ t, lang }) {
         {streams.map((item, i) => (
           <div key={i} className={`sf-revenue-row${item.leaving_on_table ? ' sf-revenue-row--gap' : ''}`}>
             <div className="sf-revenue-header">
-              <a
-                className="sf-revenue-stream sf-ext-link"
-                href={item.website || item.url || sfSearch(revenueSearchTerm(item))}
-                target="_blank"
-                rel="noreferrer"
-              >{locF(item, 'stream', lang)} ↗</a>
+              {(() => {
+                const href = revenueHref(item)
+                const label = locF(item, 'stream', lang)
+                return href
+                  ? <a className="sf-revenue-stream sf-ext-link" href={href} target="_blank" rel="noreferrer">{label} ↗</a>
+                  : <span className="sf-revenue-stream">{label}</span>
+              })()}
               {item.realistic_monthly && (
                 <span className="sf-revenue-range">{item.realistic_monthly}</span>
               )}
@@ -1319,9 +1364,6 @@ function CareerDependencyMap({ t, lang }) {
                   </div>
                 ))}
               </div>
-              {mi < d.milestones.length - 1 && (
-                <div className="sf-depmap-connector" />
-              )}
             </div>
           )
         })}
@@ -1339,8 +1381,14 @@ const TRAJECTORY_COLORS = {
   stalling:     '#b03020',
 }
 
+const MOMENTUM_SUMMARY = {
+  en: 'Your outreach over time — submissions, venue contacts and replies, as you log them.',
+  zh: '你随时间的对外联系——提交、场馆联系与回复，随你记录而更新。',
+  ja: '時間に沿ったあなたの動き——応募・会場への連絡・返信が、記録するごとに反映されます。',
+}
 function CareerMomentum({ data, t }) {
-  const { totals, response_rate, trajectory, monthly_chart } = data
+  const { lang } = useLanguage()
+  const { totals, trajectory, monthly_chart } = data
   const [activity, setActivity] = useState(data.recent_activity || [])
   const maxBar = Math.max(...monthly_chart.map(m => m.submissions + m.contacts), 1)
 
@@ -1349,7 +1397,7 @@ function CareerMomentum({ data, t }) {
     try { await fetch(`/api/career_events/${id}`, { method: 'DELETE' }) } catch { /* no-op */ }
   }
   const trajColor = TRAJECTORY_COLORS[trajectory] || '#9a7040'
-  const summary = t('sf.sum.momentum', { submissions: totals.submissions, venues: totals.venues_in_crm, rate: response_rate })
+  const summary = MOMENTUM_SUMMARY[lang] || MOMENTUM_SUMMARY.en
 
   return (
     <SectionShell
@@ -1586,8 +1634,8 @@ const GAP_DOT_COLORS = {
 function MilestoneMarker({ current, label, color }) {
   return (
     <div className="sf-marker">
-      <div className="sf-marker-dot" style={{ background: color }} />
       <div className="sf-marker-value">{current}</div>
+      <div className="sf-marker-accent" style={{ background: color }} />
       <div className="sf-marker-label">{label}</div>
     </div>
   )
