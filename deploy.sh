@@ -105,6 +105,10 @@ ssh $SSH_OPTS "$SERVER" bash <<'REMOTE'
   # NOTE: once she is actively editing her statement in-app, switch this to a
   # one-time push or a field-merge so her own edits aren't overwritten.
   sudo rsync -a /tmp/mochi-app-stage/memory/artist_master_profile.json /opt/mochi/memory/
+  # peer_artists.json is canonical RESEARCH data we maintain (the comparable-artist
+  # set), not her interaction data — force-update it too, or --ignore-existing keeps
+  # the stale old peer list live (Pip, 2026-06-26).
+  sudo rsync -a /tmp/mochi-app-stage/memory/peer_artists.json /opt/mochi/memory/
   sudo chown -R ubuntu:ubuntu /opt/mochi/api.py /opt/mochi/deploy_data /opt/mochi/memory /opt/mochi/engines
   # Regenerate the career-strategy report with the freshly-deployed engine code.
   # deploy preserves her memory (--ignore-existing), so the report file itself is

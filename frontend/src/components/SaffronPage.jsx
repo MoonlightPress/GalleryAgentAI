@@ -361,6 +361,36 @@ const SF_ZH_PEERS = {
   "international art-book and gallery career": "国际画集与画廊事业",
 }
 
+// zh for her real exhibition CV (Career Position): the exhibition type,
+// significance and dates leaked English on the Profile tab (Lore, 2026-06-26).
+// zh only — ja isn't selectable in the UI and en is the source. Separate object
+// (merged into the zh txMap below) so any key it shares with SF_ZH overrides
+// cleanly instead of tripping no-dupe-keys.
+const SF_ZH_CV = {
+  "Group show": "联展",
+  "Solo show": "个展",
+  "Exhibition (group/solo not specified on source)": "展览（来源未注明个展或联展）",
+  "Group show (official festival poster artists)": "联展（官方节庆海报艺术家）",
+  "Group show (6 Chinese illustrators)": "联展（6 位中国插画师）",
+  "Group show (museum)": "联展（美术馆）",
+  "First exhibition in Japan (stated explicitly in exhibition materials)": "首次在日本展出（展览资料中明确说明）",
+  "Institutional (museum) group exhibition": "机构（美术馆）联展",
+  "First solo gallery exhibition on record": "记录在册的首次画廊个展",
+  "First international (UK) showing on record": "记录在册的首次国际（英国）展出",
+  "Solo show in Tokyo — most recent on record": "东京个展——记录在册的最新一场",
+  "March–April 2021": "2021 年 3–4 月",
+  "March 2021": "2021 年 3 月",
+  "March–May 2021": "2021 年 3–5 月",
+  "August 2021": "2021 年 8 月",
+  "February 4–13, 2023": "2023 年 2 月 4–13 日",
+  "October 2024": "2024 年 10 月",
+  "November 2024 – February 2025": "2024 年 11 月 – 2025 年 2 月",
+  "February–March 2025": "2025 年 2–3 月",
+  "December 2025": "2025 年 12 月",
+  "January 2026": "2026 年 1 月",
+  "April 2026": "2026 年 4 月",
+}
+
 // Japanese overrides for the same age/horizon strings (her ja siblings come from
 // the backend's _i18n.ja, which can't carry the new neutral-horizon English yet).
 // Kept inline (NOT translations.js) and merged into the ja txMap below so the ja
@@ -488,7 +518,7 @@ function CareerPosition({ data, t }) {
   // (no value to her). Instagram now lives ONCE in the app as the audience fact.
   const summary = CAREER_SUMMARY[lang] || CAREER_SUMMARY.en
 
-  const igStr = ig?.followers || '27k'
+  const igStr = ig?.followers || '26k'
   // "You're here" markers — NOT progress-to-target rings. The old rings rendered
   // a strength half-empty (e.g. an established count shown as "52% to 50k"), which contradicts the app's own
   // "growth is a bonus, not a requirement." A marker states where she stands; it
@@ -1234,13 +1264,17 @@ function LongTermScenarios({ data, t }) {
 // PATCH /api/contacts/{name} — the same store Peppercorn writes to, so the two
 // surfaces stay in sync. Status set matches Peppercorn's CRM values.
 const VENUE_STATUS_OPTS = [
-  { value: 'cold',         color: '#9a8a70', zh: '尚未联系',   ja: '未連絡',      en: 'Not yet contacted' },
-  { value: 'researching',  color: '#c47a35', zh: '了解中',     ja: '調べている',  en: 'Looking into it' },
-  { value: 'in_contact',   color: '#c4a03a', zh: '联系中',     ja: 'やり取り中',  en: 'In contact' },
-  { value: 'contacted',    color: '#5a7a30', zh: '已联系',     ja: '連絡した',    en: 'Reached out' },
-  { value: 'responded',    color: '#3a6a20', zh: '已回复',     ja: '返信あり',    en: 'They replied' },
-  { value: 'relationship', color: '#7a5cc0', zh: '保持往来',   ja: '関係構築',    en: 'Ongoing relationship' },
-  { value: 'not_a_fit',    color: '#9a8a70', zh: '不太合适',   ja: '合わない',    en: 'Not a fit' },
+  { value: 'cold',            color: '#9a8a70', zh: '尚未联系',   ja: '未連絡',       en: 'Not yet contacted' },
+  { value: 'researching',     color: '#c47a35', zh: '了解中',     ja: '調べている',   en: 'Looking into it' },
+  { value: 'ready_to_review', color: '#c47a35', zh: '可以联系了', ja: '連絡してよい', en: 'Ready to reach out' },
+  { value: 'in_contact',      color: '#c4a03a', zh: '联系中',     ja: 'やり取り中',   en: 'In contact' },
+  { value: 'contacted',       color: '#5a7a30', zh: '已联系',     ja: '連絡した',     en: 'Reached out' },
+  { value: 'sent_inquiry',    color: '#5a7a30', zh: '已发出问询', ja: '問い合わせ済み', en: 'Inquiry sent' },
+  { value: 'submitted',       color: '#5a7a30', zh: '已投递',     ja: '応募済み',     en: 'Submitted' },
+  { value: 'responded',       color: '#3a6a20', zh: '已回复',     ja: '返信あり',     en: 'They replied' },
+  { value: 'ongoing',         color: '#3a6a20', zh: '进行中',     ja: '進行中',       en: 'Ongoing' },
+  { value: 'relationship',    color: '#7a5cc0', zh: '保持往来',   ja: '関係構築',     en: 'Ongoing relationship' },
+  { value: 'not_a_fit',       color: '#9a8a70', zh: '不太合适',   ja: '合わない',     en: 'Not a fit' },
 ]
 const venueStatusOpt = (status) => VENUE_STATUS_OPTS.find(o => o.value === status)
 const venueStatusLabel = (status, lang) => {
@@ -1382,12 +1416,11 @@ function LicensingLandscape({ t, lang }) {
             {group.entries.map((entry, ei) => (
               <div key={ei} className="sf-licensing-entry">
                 <div className="sf-licensing-entry-header">
-                  <a
-                    className="sf-licensing-name sf-ext-link"
-                    href={entry.website || entry.url || sfSearch(entry.name)}
-                    target="_blank"
-                    rel="noreferrer"
-                  >{entry.name} ↗</a>
+                  {/* Only link a real outlet; explainer rows render as plain text
+                      rather than a useless name-search (Scott's rule). */}
+                  {entry.website || entry.url
+                    ? <a className="sf-licensing-name sf-ext-link" href={entry.website || entry.url} target="_blank" rel="noreferrer">{entry.name} ↗</a>
+                    : <span className="sf-licensing-name">{entry.name}</span>}
                   <span className="sf-tier-badge" style={{ color: TIER_COLORS[entry.tier] || '#9ca3af' }}>
                     {tfb(t, `sf.tier.${entry.tier}`, entry.tier)}
                   </span>
@@ -1636,7 +1669,7 @@ const TRAJECTORY_COLORS = {
   early:        '#9a7040',
   accelerating: '#5a7a30',
   steady:       '#3a6a80',
-  stalling:     '#b03020',
+  stalling:     '#8a7563',
 }
 
 const MOMENTUM_SUMMARY = {
@@ -2307,7 +2340,7 @@ export default function SaffronPage({ nav }) {
   // _i18n (rebuilt from live data every run, so it survives pipeline updates);
   // the static authored prose comes from SF_ZH (zh only).
   const txMap = useMemo(() => {
-    if (lang === 'zh') return { ...(rawData?._i18n?.zh || {}), ...SF_ZH, ...SF_ZH_PEERS }
+    if (lang === 'zh') return { ...(rawData?._i18n?.zh || {}), ...SF_ZH, ...SF_ZH_PEERS, ...SF_ZH_CV }
     if (lang === 'ja') return { ...(rawData?._i18n?.ja || {}), ...SF_JA }
     return null
   }, [rawData, lang])

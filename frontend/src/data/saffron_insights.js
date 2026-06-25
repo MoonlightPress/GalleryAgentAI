@@ -335,7 +335,8 @@ export const GRANT_LANDSCAPE = {
       "tip_ja": "視覚芸術部門を狙うこと。特定の機関（例：Cité Internationale des Arts）でのレジデンスを申請することで、審査での評価が高まる。"
     },
     {
-      "name": "Tokyo Metropolitan Government Arts Grants (TACT)",
+      "name": "Arts Council Tokyo / TOKAS (アーツカウンシル東京)",
+      "website": "https://www.artscouncil-tokyo.jp/",
       "country": "Japan (Tokyo)",
       "country_zh": "日本（东京）",
       "country_ja": "日本（東京）",
@@ -343,9 +344,9 @@ export const GRANT_LANDSCAPE = {
       "amount_zh": "个人艺术家 ¥10万–¥100万",
       "amount_ja": "個人芸術家向け ¥10万〜¥100万",
       "eligibility": "Tokyo resident or actively working in Tokyo arts scene",
-      "deadline": "Varies by grant cycle — check tokyo-midtown-award.jp and tokyoartsandspace.jp",
-      "deadline_zh": "因资助年度而异——请查阅 tokyo-midtown-award.jp 与 tokyoartsandspace.jp",
-      "deadline_ja": "助成サイクルにより異なる——tokyo-midtown-award.jpおよびtokyoartsandspace.jpで確認",
+      "deadline": "Varies by grant cycle — check artscouncil-tokyo.jp and tokyoartsandspace.jp",
+      "deadline_zh": "因资助年度而异——请查阅 artscouncil-tokyo.jp 与 tokyoartsandspace.jp",
+      "deadline_ja": "助成サイクルにより異なる——artscouncil-tokyo.jpおよびtokyoartsandspace.jpで確認",
       "competition": "Lower than national grants. Many artists don't know Tokyo has its own arts funding.",
       "why_apply": "Being Tokyo-based is the primary qualifying factor. Low competition relative to funding amount.",
       "apply": "Multiple programs under Tokyo Arts and Space (TOKAS) and Tokyo Metropolitan Government", "apply_zh": "由 Tokyo Arts and Space (TOKAS) 与东京都政府主办的多个项目", "apply_ja": "Tokyo Arts and Space（TOKAS）および東京都による複数のプログラム",
