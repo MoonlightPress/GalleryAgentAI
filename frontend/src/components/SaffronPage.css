@@ -644,6 +644,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0;
 }
 
 .sf-cal-opp {
@@ -651,6 +652,15 @@
   flex-wrap: wrap;
   align-items: baseline;
   gap: 8px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Phone: stack the month label over its list so long opportunity names wrap
+   instead of forcing a full-page horizontal scroll (Domino, 2026-06-26). */
+@media (max-width: 560px) {
+  .sf-cal-month { grid-template-columns: 1fr; gap: 6px; }
+  .sf-cal-month-name { padding-top: 0; }
 }
 
 .sf-cal-opp--rolling { opacity: 0.75; }
