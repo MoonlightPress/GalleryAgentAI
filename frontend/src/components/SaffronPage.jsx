@@ -1229,18 +1229,94 @@ function LongTermScenarios({ data, t }) {
   )
 }
 
-const STATUS_KEYS = {
-  ready_to_review:  'sf.status.readyReview',
-  ready_to_contact: 'sf.status.readyContact',
-  contacted:        'sf.status.contacted',
-  not_contacted:    'sf.status.notContacted',
+// A real tracker, not a list (Scott, 2026-06-26): each venue's status, last-
+// contacted date and a note are editable and persist to contact_memory.json via
+// PATCH /api/contacts/{name} — the same store Peppercorn writes to, so the two
+// surfaces stay in sync. Status set matches Peppercorn's CRM values.
+const VENUE_STATUS_OPTS = [
+  { value: 'cold',         color: '#9a8a70', zh: '尚未联系',   ja: '未連絡',      en: 'Not yet contacted' },
+  { value: 'researching',  color: '#c47a35', zh: '了解中',     ja: '調べている',  en: 'Looking into it' },
+  { value: 'in_contact',   color: '#c4a03a', zh: '联系中',     ja: 'やり取り中',  en: 'In contact' },
+  { value: 'contacted',    color: '#5a7a30', zh: '已联系',     ja: '連絡した',    en: 'Reached out' },
+  { value: 'responded',    color: '#3a6a20', zh: '已回复',     ja: '返信あり',    en: 'They replied' },
+  { value: 'relationship', color: '#7a5cc0', zh: '保持往来',   ja: '関係構築',    en: 'Ongoing relationship' },
+  { value: 'not_a_fit',    color: '#9a8a70', zh: '不太合适',   ja: '合わない',    en: 'Not a fit' },
+]
+const venueStatusOpt = (status) => VENUE_STATUS_OPTS.find(o => o.value === status)
+const venueStatusLabel = (status, lang) => {
+  const o = venueStatusOpt(status)
+  if (o) return o[lang] || o.en
+  if (!status) return ({ zh: '尚未联系', ja: '未連絡', en: 'Not yet contacted' })[lang] || 'Not yet contacted'
+  return String(status).replace(/_/g, ' ')
 }
-const STATUS_COLORS = {
-  ready_to_review: '#c47a35', ready_to_contact: '#5a7a30',
-  contacted: '#3a6a20', not_contacted: '#9a7040',
+const venueStatusColor = (status) => (venueStatusOpt(status) || {}).color || '#9a7040'
+
+const VENUE_EDIT    = { zh: '更新', ja: '更新', en: 'Update' }
+const VENUE_CANCEL  = { zh: '取消', ja: 'キャンセル', en: 'Cancel' }
+const VENUE_SAVE    = { zh: '保存', ja: '保存', en: 'Save' }
+const VENUE_SAVED   = { zh: '已保存', ja: '保存しました', en: 'Saved' }
+const VENUE_NOTE_PH = { zh: '一句备注（可选）', ja: 'メモ（任意）', en: 'A note (optional)' }
+
+function VenueTrackerRow({ v, lang, t }) {
+  const [editing, setEditing] = useState(false)
+  const [cur, setCur] = useState({ status: v.status || 'cold', last_contacted: v.last_contacted || '', notes: v.notes || '' })
+  const [status, setStatus] = useState(cur.status)
+  const [date, setDate]     = useState(cur.last_contacted)
+  const [note, setNote]     = useState(cur.notes)
+  const [saved, setSaved]   = useState(false)
+  const [busy, setBusy]     = useState(false)
+
+  async function save() {
+    setBusy(true)
+    try {
+      const r = await fetch(`/api/contacts/${encodeURIComponent(v.name)}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ status, last_contacted: date, notes: note }),
+      })
+      if (r.ok) {
+        const c = (await r.json()).contact || {}
+        setCur({ status: c.status ?? status, last_contacted: c.last_contacted ?? date, notes: c.notes ?? note })
+        setSaved(true); setTimeout(() => setSaved(false), 2500)
+        setEditing(false)
+      }
+    } catch { /* leave the row as-is on network failure */ }
+    setBusy(false)
+  }
+
+  return (
+    <div className="sf-venue-row">
+      <div className="sf-venue-header">
+        <a className="sf-venue-name sf-ext-link" href={sfSearch(`${v.name} ${v.city || ''}`)} target="_blank" rel="noreferrer">{v.name} ↗</a>
+        <span className="sf-venue-type">{v.type} · {v.city}</span>
+        <span className="sf-venue-status" style={{ color: venueStatusColor(cur.status) }}>{venueStatusLabel(cur.status, lang)}</span>
+        {v.priority && <span className="sf-venue-priority">{t('sf.venue.priority', { n: v.priority })}</span>}
+        <button className="sf-venue-edit" onClick={() => setEditing(e => !e)}>
+          {editing ? (VENUE_CANCEL[lang] || VENUE_CANCEL.en) : (VENUE_EDIT[lang] || VENUE_EDIT.en)}
+        </button>
+      </div>
+      <div className="sf-venue-last">
+        {cur.last_contacted ? t('sf.venue.lastContacted', { date: cur.last_contacted }) : t('sf.venue.notContacted')}
+      </div>
+      {cur.notes && !editing && <div className="sf-venue-note">{cur.notes}</div>}
+      {v.next_action && !editing && <div className="sf-venue-next">{v.next_action}</div>}
+      {editing && (
+        <div className="sf-venue-edit-form">
+          <select className="sf-hedge-input" value={status} onChange={e => setStatus(e.target.value)}>
+            {VENUE_STATUS_OPTS.map(o => <option key={o.value} value={o.value}>{o[lang] || o.en}</option>)}
+          </select>
+          <input className="sf-hedge-input sf-hedge-input--year" type="date" value={date} onChange={e => setDate(e.target.value)} />
+          <input className="sf-hedge-input" value={note} onChange={e => setNote(e.target.value)} placeholder={VENUE_NOTE_PH[lang] || VENUE_NOTE_PH.en} />
+          <button className="sf-hedge-add" onClick={save} disabled={busy}>{VENUE_SAVE[lang] || VENUE_SAVE.en}</button>
+        </div>
+      )}
+      {saved && <div className="sf-venue-saved">{VENUE_SAVED[lang] || VENUE_SAVED.en}</div>}
+    </div>
+  )
 }
 
 function VenueTracker({ data, t }) {
+  const { lang } = useLanguage()
   const summary = t('sf.sum.venues', { n: data.total, s: data.total !== 1 ? 's' : '', active: data.active ?? 0 })
   return (
     <SectionShell
@@ -1252,28 +1328,7 @@ function VenueTracker({ data, t }) {
         <EmptyState message={t('sf.empty.venues')} />
       ) : (
         <div className="sf-venue-list">
-          {data.tracked.map((v, i) => {
-            const color = STATUS_COLORS[v.status] || '#9a7040'
-            const label = t(STATUS_KEYS[v.status] || 'sf.status.notContacted')
-            return (
-              <div key={i} className="sf-venue-row">
-                <div className="sf-venue-header">
-                  <a className="sf-venue-name sf-ext-link" href={sfSearch(`${v.name} ${v.city || ''}`)} target="_blank" rel="noreferrer">{v.name} ↗</a>
-                  <span className="sf-venue-type">{v.type} · {v.city}</span>
-                  <span className="sf-venue-status" style={{ color }}>{label}</span>
-                  {v.priority && <span className="sf-venue-priority">{t('sf.venue.priority', { n: v.priority })}</span>}
-                </div>
-                <div className="sf-venue-last">
-                  {v.last_contacted
-                    ? t('sf.venue.lastContacted', { date: v.last_contacted })
-                    : t('sf.venue.notContacted')}
-                </div>
-                {v.next_action && (
-                  <div className="sf-venue-next">{v.next_action}</div>
-                )}
-              </div>
-            )
-          })}
+          {data.tracked.map((v, i) => <VenueTrackerRow key={v.name || i} v={v} lang={lang} t={t} />)}
         </div>
       )}
       {data.gap_note && (

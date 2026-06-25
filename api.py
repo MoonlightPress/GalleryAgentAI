@@ -2557,6 +2557,7 @@ def get_saffron():
                 "city":           c.get("city", ""),
                 "status":         c.get("status", ""),
                 "last_contacted": c.get("last_contacted"),
+                "notes":          c.get("notes", ""),
                 "priority":       (c.get("crm_analysis") or {}).get("priority", ""),
                 "next_action":    (c.get("crm_analysis") or {}).get("next_action", ""),
             }
