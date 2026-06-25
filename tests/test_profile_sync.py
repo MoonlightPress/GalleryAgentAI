@@ -4,7 +4,37 @@ from engines.profile_sync import (
     apply_peppercorn_edits,
     select_email_targets,
     clear_drafts_stale,
+    follower_count_str,
 )
+
+
+class FollowerCountStrTests(unittest.TestCase):
+    """Copy-generating engines must read her follower count from the profile, never
+    hardcode it (the ~90k mix-up is her Twitter; Instagram is ~26k)."""
+
+    def test_reads_display_string(self):
+        master = {"social_presence": {"instagram": {"followers": "26k"}}}
+        self.assertEqual(follower_count_str(master), "26k")
+
+    def test_reads_approx_int_when_no_display(self):
+        master = {"social_presence": {"instagram": {"followers_approx": 26000}}}
+        self.assertEqual(follower_count_str(master), "26k")
+
+    def test_display_string_preferred_over_approx(self):
+        master = {"social_presence": {"instagram": {"followers": "27k", "followers_approx": 26000}}}
+        self.assertEqual(follower_count_str(master), "27k")
+
+    def test_falls_back_when_missing(self):
+        self.assertEqual(follower_count_str({}), "26k")
+
+    def test_tolerates_malformed_profile(self):
+        # Never crash a prompt build on a malformed profile.
+        self.assertEqual(follower_count_str({"social_presence": "broken"}), "26k")
+
+    def test_does_not_return_a_90k_literal(self):
+        # Regression guard against the longstanding 90k Instagram mix-up.
+        for m in ({}, {"social_presence": {"instagram": {"followers": "26k"}}}):
+            self.assertNotIn("90", follower_count_str(m))
 
 
 class ApplyPeppercornEditsTests(unittest.TestCase):

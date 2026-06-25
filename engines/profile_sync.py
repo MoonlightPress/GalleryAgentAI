@@ -72,3 +72,41 @@ def clear_drafts_stale(master: dict) -> dict:
     """Mark the drafts fresh again (call after a successful regen)."""
     master["email_drafts_stale"] = False
     return master
+
+
+# Default used only if the profile is unreadable / missing the field. Her real
+# Instagram following is ~26k (the ~90k figure is her Twitter/X account and a
+# longstanding mix-up — see AGENTS.md "Artist Social Media"). Never hardcode a
+# follower literal in copy-generating prompts: read it from here so a future
+# regen always uses the real, current number from the profile.
+_FOLLOWER_FALLBACK = "26k"
+
+
+def follower_count_str(master: dict) -> str:
+    """Return her Instagram follower count as a short display string (e.g. "26k").
+
+    Reads the canonical artist_master_profile.json structure:
+      social_presence.instagram.followers      ("26k")  -> preferred
+      social_presence.instagram.followers_approx (26000) -> compacted to "26k"
+    Falls back to ``_FOLLOWER_FALLBACK`` if neither is present, so a malformed
+    profile can never silently inject a wrong number (or crash a prompt build).
+    """
+    sp = (master or {}).get("social_presence")
+    sp = sp if isinstance(sp, dict) else {}
+    insta = sp.get("instagram")
+    insta = insta if isinstance(insta, dict) else {}
+
+    disp = insta.get("followers")
+    if isinstance(disp, str) and disp.strip():
+        return disp.strip()
+
+    approx = insta.get("followers_approx")
+    if isinstance(approx, (int, float)) and approx > 0:
+        n = int(approx)
+        if n >= 1000:
+            k = n / 1000.0
+            # "26k" not "26.0k"; keep one decimal only when it adds information.
+            return (f"{k:.0f}k" if abs(k - round(k)) < 0.05 else f"{k:.1f}k")
+        return str(n)
+
+    return _FOLLOWER_FALLBACK

@@ -38,6 +38,9 @@ LOG="$LOG_DIR/run_$(date +%Y-%m-%d_%H%M).log"
   else
     echo "{\"last_run\":\"$(date -Is)\",\"status\":\"failed\",\"host\":\"server\"}" > "$APP/memory/last_run.json"
     echo "=== FAILED (exit $STATUS) — live data left untouched ==="
+    # Best-effort Discord alert so a server-side failure isn't silent. MOCHI_DISCORD_WEBHOOK
+    # comes from the .env sourced above. Wrapped (|| true) so the alert can never abort the run.
+    "$REPO/venv/bin/python" -c "from engines.notify import notify_discord; notify_discord('Mochi server pipeline run FAILED (exit $STATUS) at $(date -Is). Live data left untouched (not stale yet), but the refresh did not run — check the newest log in $LOG_DIR.', status='failure')" || true
   fi
 } >> "$LOG" 2>&1
 

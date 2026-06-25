@@ -23,7 +23,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from engines.profile_sync import select_email_targets, clear_drafts_stale
+from engines.profile_sync import select_email_targets, clear_drafts_stale, follower_count_str
 from engines.notify import notify_discord
 
 OPP_PATH     = Path("deploy_data/compact_opportunities.json")
@@ -49,9 +49,12 @@ def load_artist_context() -> str:
 
     handles = hist.get("online_handles", {})
     insta   = handles.get("instagram", "@gegyjiji")
+    # Read the real follower count from the profile — never hardcode (the ~90k
+    # figure is her Twitter/X, not Instagram; Instagram is ~26k). See AGENTS.md.
+    followers = follower_count_str(profile)
 
     return f"""Name: GEGYjiji (ジェジー / GEGY挤挤)
-Instagram: {insta} (https://www.instagram.com/gegyjiji/) (~26,000 followers, daily watercolor diary)
+Instagram: {insta} (https://www.instagram.com/gegyjiji/) (~{followers} followers, daily watercolor diary)
 Based: Tokyo (originally from Hunan Province, China; Beijing Fashion Institute — illustration/design)
 
 Key works:

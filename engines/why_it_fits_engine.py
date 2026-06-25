@@ -19,9 +19,13 @@ import time
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from engines.profile_sync import follower_count_str
 
 ROOT     = Path(__file__).parent.parent
 OPP_PATH = ROOT / "deploy_data" / "compact_opportunities.json"
+PROFILE_PATH = ROOT / "memory" / "artist_master_profile.json"
 
 TARGET_BUCKETS = {
     "immediate_best_moves",
@@ -31,10 +35,23 @@ TARGET_BUCKETS = {
     "relationship_builders",
 }
 
+
+def _follower_count() -> str:
+    """Read her real follower count from the profile (never hardcode a literal).
+
+    Falls back to the profile_sync default if the profile is missing/unreadable.
+    """
+    try:
+        master = json.loads(PROFILE_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        master = {}
+    return follower_count_str(master)
+
+
 ARTIST_CONTEXT = """GEGYjiji — Chinese watercolor painter based in Tokyo.
 Practice: Urban environments, architecture, memory, disappearing moments, quiet atmosphere.
 Works: daily watercolor diary since 2020 ("diary" series), first solo collection Colour Diary (Oct 2021), first Japan group exhibition "Tide from China" (Feb 2023, ACG_Labo Harajuku).
-Instagram: @gegyjiji (~26k followers). Career stage: emerging, early Tier 2.
+Career stage: emerging, early Tier 2.
 Style: quiet observation, architectural documentation, ordinary scenes transformed, atmospheric light.
 Medium: watercolor on paper exclusively."""
 
@@ -77,7 +94,12 @@ def build_prompt(opp: dict) -> str:
     why_old  = opp.get("why") or opp.get("why_this_fits_short") or ""
     tags_str = ", ".join(str(t) for t in tags if t)
 
-    return f"""Artist: GEGYjiji — Chinese watercolor painter in Tokyo. Work: urban environments, architecture, memory, disappearing moments, quiet atmosphere. Daily practice, 26k Instagram followers. Career stage: early Tier 2.
+    followers = _follower_count()
+
+    return f"""You are writing a short note that the artist GEGYjiji will read about herself.
+She is a Chinese watercolor painter in Tokyo. Her work: urban environments, architecture,
+memory, disappearing moments, quiet atmosphere. Daily watercolor practice, {followers} Instagram
+followers. Career stage: early Tier 2.
 
 Venue/Opportunity: {title}
 What it is: {one_sent}
@@ -87,15 +109,23 @@ Bucket: {bucket}
 Tags: {tags_str}
 Previous why note: {why_old[:200] if why_old else '(none)'}
 
-Write ONE to TWO sentences explaining specifically WHY this venue/opportunity fits her practice.
-- Be specific to this venue — mention what they actually do and why it connects to her work
-- Reference watercolor, urban/architectural focus, or her daily practice where relevant
+Write ONE to TWO sentences explaining specifically WHY this venue/opportunity fits HER practice.
+- Address her directly in the SECOND PERSON ("you", "your work", "your daily diary"). Never write
+  about her in the third person — never use "she", "her work" as if describing someone else, and
+  never use her name "GEGYjiji" in the sentence.
+- Be specific to this venue — mention what they actually do and why it connects to your work
+- Reference watercolor, urban/architectural focus, or your daily practice where relevant
 - Do NOT be generic ("a good fit for emerging artists")
 - Do NOT repeat the one_sentence description word-for-word
 - Do NOT start with "This" — start with the venue name or a specific aspect of the opportunity
 - Do NOT use garbled phrases — use "watercolor" or "works on paper"
-- If it's a grant: explain why the grant criteria match her practice specifically
-- If it's a bookstore/zine: explain why her daily observation practice and printed work fits their curatorial identity
+- NEVER mention internal taxonomy or system terms ("Tier 1", "Tier 2", "bucket", "immediate best
+  moves", "stretch target", "score") — this copy is for her, not for the system.
+- NEVER include meta-instructions, caveats to a reviewer, or verification notes (e.g.
+  "建议在推荐前进行核实" / "verify before recommending" / "needs verification"). Output only the
+  finished, her-facing sentence.
+- If it's a grant: explain why the grant criteria match your practice specifically
+- If it's a bookstore/zine: explain why your daily observation practice and printed work fits their curatorial identity
 - If it's an art fair: explain the strategic fit or limitation honestly
 - Keep it to 1-2 sentences maximum
 
