@@ -70,6 +70,31 @@ def _load_json(path, default=None):
         return default
 
 
+def _followed_opps(feedback_records, opps):
+    """Join 'follow' feedback signals to opportunity data so the tracker can show
+    a name + link, not just an opaque id. A followed opp that has since left the
+    dataset still shows (name falls back to the id)."""
+    by_key = {}
+    for o in opps:
+        for k in (o.get("title"), o.get("name")):
+            if k:
+                by_key.setdefault(k, o)
+    out = []
+    for r in feedback_records:
+        if r.get("action") != "follow":
+            continue
+        oid = r.get("opp_id")
+        o = by_key.get(oid, {})
+        out.append({
+            "opp_id":      oid,
+            "name":        o.get("name") or o.get("title") or oid,
+            "website":     o.get("official_website") or o.get("submission_page") or "",
+            "deadline":    o.get("deadline") or "",
+            "followed_at": r.get("timestamp"),
+        })
+    return out
+
+
 def _refresh_career_strategy():
     """Re-run the deterministic, free career-strategy report so the advice and
     readiness reflect her latest shows/profile immediately. Previously this
@@ -2915,6 +2940,21 @@ async def add_membership(request: Request):
     _save_her_data(mpath, master)
     _refresh_career_strategy()
     return {"ok": True, "entry": entry}
+
+
+@app.get("/api/tracker")
+def get_tracker():
+    """Everything she's followed (★) or applied to (✓) in one place. Follows
+    come from feedback signals joined to opportunity data; applied items are the
+    submission-log entries auto-created when she marks Applied."""
+    feedback = _load_json(DATA_DIR / "feedback.json", [])
+    opps = _load_json(DEPLOY_DIR / "compact_opportunities.json", [])
+    if isinstance(opps, dict):
+        opps = opps.get("items", [])
+    return {
+        "follows": _followed_opps(feedback, opps),
+        "applied": _load_json(SUBMISSIONS_PATH, []),
+    }
 
 
 @app.get("/api/today")

@@ -26,6 +26,9 @@ Root causes traced against the code. Severity is for the **send-to-GEGYjiji** de
    uneditable. Unify the form (or let both edit the same records) and add edit on Saffron-added shows.
 5. **Add-venue form: capture location (city / country)?** Open design question — venue shows read as
    incomplete without a place. Decide the field(s) and apply to both add paths.
+5b. **Capture confidence/status on a show (confirmed vs mentioned/unconfirmed).** The career engine only
+   counts shows with `confidence` starting "confirmed" (evidence over prediction). So the form should let
+   her record an unconfirmed/featured-only collaboration without it inflating readiness until there's proof.
 
 ## C. Tracking views missing (MEDIUM)
 

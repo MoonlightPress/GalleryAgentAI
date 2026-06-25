@@ -7,6 +7,7 @@ import TodaysFocus from './components/TodaysFocus'
 import OpportunitiesSection from './components/OpportunitiesSection'
 import DeadlineCalendar from './components/DeadlineCalendar'
 import RelationshipTargets from './components/RelationshipTargets'
+import TrackerSection from './components/TrackerSection'
 import StatusBar from './components/StatusBar'
 
 const SaffronPage = lazy(() => import('./components/SaffronPage'))
@@ -93,6 +94,7 @@ export default function App() {
         {page === 'discover' && <ViewToggle view={view} setView={setView} />}
         {page === 'discover' && view === 'cards'    && <OpportunitiesSection />}
         {page === 'discover' && view === 'cards'    && <RelationshipTargets />}
+        {page === 'discover' && view === 'cards'    && <TrackerSection />}
         {page === 'discover' && view === 'calendar' && <DeadlineCalendar />}
         {(page === 'observe' || page === 'refine') && (
           <Suspense fallback={<PageFallback />}>
