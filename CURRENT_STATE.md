@@ -36,6 +36,14 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **2026-06-25 — COST/CADENCE DECISION (Scott), supersedes the "MONTHLY" note below:** the full *paid*
+  discovery pass runs **QUARTERLY (~every 3 months), and only when she's actually using the app** (check the
+  visit telemetry / Discord feed first — if she's inactive, skip it). A full pass is ~**$26 of Tavily, all
+  DISCOVERY web-search**; verification is free (HTTP `urllib`, not Tavily). $26/quarter ≈ $9/mo, under budget.
+  Between passes the **free weekly maintenance pipeline** (`run_maintenance_pipeline` = PIPELINE − PAID_STEPS)
+  keeps deadlines/verification/bucketing fresh at $0. Open idea: replace broad Tavily discovery with a free
+  scraper over her known JP watercolor source URLs; keep Tavily only for occasional new-venue hunting.
+
 - **2026-06-25 — Discord ops feed + her-edit durability, DEPLOYED & verified live (Claude):** Production
   (api at `/opt/mochi`, restarted; site 200, API 200) now runs three things. (1) **Her profile edits
   auto-refresh her drafts** — a Peppercorn statement edit propagates into `artist_master_profile.json` and
