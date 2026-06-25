@@ -36,6 +36,29 @@ Both apps implement all three companion pages (Mochi / Peppercorn / Saffron).
 
 ## Recent completed work
 
+- **2026-06-25 — Saffron hybrid reframe + Build B + smaller items (Claude; branch work, NOT yet deployed).**
+  Six commits, full suite 150 green, frontend build + lint 0 errors, visually verified in zh.
+  - **A. Saffron hybrid reframe (Scott to review the LAYOUT).** (1) *Wiring:* opportunities re-ranked
+    by fit to her current level — `api._ranked_score` now multiplies a gentle level-fit term
+    ([0.85,1.15]) keyed on tier-3/tier-4 readiness; tier 1-2 always in reach, tier 3/4 rise as she
+    levels. Raw quality still dominates. `career_strategy_engine` emits a new `level` block
+    (current/next/progress/next_unlock); cards expose `career_tier` + `fit_band`. (2) *UI:* Career
+    Readiness leads with an earned Level badge + what she's built, ONE next-unlock card (gap form
+    inline), remaining gaps collapsed, level-up celebration (localStorage-gated), newly-in-reach
+    badges, positive advanced-state line when maxed; tier bars demoted to a disclosure.
+  - **B. Free-discovery scraper** (`engines/free_discovery_engine.py`): the $0 Tavily alternative —
+    fetches `discovery_sources.py` over plain HTTP, harvests candidate calls, dedupes, STAGES to
+    `memory/free_discovery_candidates.json` (never touches live data). Live smoke reached AWS+NWS.
+  - **Smaller items:** TABF now dedups to one card (`_dedup_key` folds year/"Exhibitor Call"/TOKIO);
+    Saffron dead counts click through to Discover; the zh Press-pitch `contact` leak fixed; the
+    **stranded preference loop** fixed — `peppercorn_preference_engine` refactored to idempotent
+    pure functions applied at SERVE time (`api.load_opportunities`), so her server-side preference
+    edits take effect on the next request (both add AND remove), on copies (cache never mutated).
+  - **Persona/UX pass:** profile tab's three peer-COMPARISON sections default-collapsed to reduce the
+    "everyone's ahead of me" load (reversible — Scott to sanity-check). Full report +
+    remaining recommendations in `_reviews/2026-06-25_UX_persona_pass.md`.
+  - **NOT deployed.** Career report regenerated locally. Next: Scott reviews A's layout; then deploy.
+
 - **2026-06-25 — COST/CADENCE DECISION (Scott), supersedes the "MONTHLY" note below:** the full *paid*
   discovery pass runs **QUARTERLY (~every 3 months), and only when she's actually using the app** (check the
   visit telemetry / Discord feed first — if she's inactive, skip it). A full pass is ~**$26 of Tavily, all
