@@ -17,6 +17,13 @@ function localizedReasonLine(rec, t, lang) {
   return t('rec.oneMoreLook')
 }
 
+// Evergreen/relationship venues you can pitch/consign anytime — a stored date is
+// a past event note, not a deadline, so show "rolling" instead of a stale date.
+const EVERGREEN_CATS = new Set([
+  'artist_space', 'bookstore_event', 'bookstore_gallery', 'cafe_gallery',
+  'event_space', 'gallery', 'gallery_event', 'gallery_small', 'zine_shop_consignment',
+])
+
 function deadlineIsReal(dl) {
   if (!dl) return false
   const low = dl.toLowerCase()
@@ -93,9 +100,11 @@ export default function OppDetailPanel({ opp, onClose }) {
           <button className="detail-panel-close" onClick={onClose}>✕</button>
         </div>
         <div className="detail-panel-meta">
-          {opp.deadline && (
-            <span className={`detail-chip${verifyNeeded ? ' chip-warn' : ''}`}>
-              📅 {verifyNeeded ? t('detail.deadline.verify') : formatDeadlineStr(opp.deadline, lang)}
+          {(opp.deadline || EVERGREEN_CATS.has(opp.category)) && (
+            <span className={`detail-chip${verifyNeeded && !EVERGREEN_CATS.has(opp.category) ? ' chip-warn' : ''}`}>
+              📅 {EVERGREEN_CATS.has(opp.category)
+                    ? t('detail.deadline.rolling')
+                    : verifyNeeded ? t('detail.deadline.verify') : formatDeadlineStr(opp.deadline, lang)}
             </span>
           )}
           {opp.fees && (

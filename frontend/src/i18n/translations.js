@@ -609,6 +609,7 @@ const zh = {
 
   // ── OppDetailPanel ────────────────────────────────────────────────────────
   'detail.deadline.verify':  '截止日期：待核实',
+  'detail.deadline.rolling': '滚动征集 · 随时可投',
   'detail.fees.verify':      '费用：待核实',
   'detail.website':          '官网 ↗',
   'detail.apply':            '前往申请 →',
@@ -2704,6 +2705,7 @@ const en = {
 
   // ── OppDetailPanel ────────────────────────────────────────────────────────
   'detail.deadline.verify':  'Deadline: verify',
+  'detail.deadline.rolling': 'Rolling · pitch anytime',
   'detail.fees.verify':      'Fees: verify',
   'detail.website':          'Website ↗',
   'detail.apply':            'Apply →',
