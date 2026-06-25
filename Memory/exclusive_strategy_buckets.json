@@ -1,110 +1,8 @@
 {
   "immediate_best_moves": [
     {
-      "title": "Tokyo Art Book Fair",
-      "score": 9.6,
-      "differentiated_score": 11.5,
-      "visual_fit_score": 5.9,
-      "verification_bucket": "",
-      "verification_score": 10,
-      "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.",
-      "source": "https://tokyoartbookfair.com/",
-      "visual_hits": [
-        "watercolor",
-        "memory",
-        "artist book",
-        "small press",
-        "artist_book",
-        "zine",
-        "small_press"
-      ],
-      "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "UTRECHT",
-      "score": 9.2,
-      "differentiated_score": 11.5,
-      "visual_fit_score": 4.15,
-      "verification_bucket": "",
-      "verification_score": 8,
-      "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.",
-      "source": "https://utrecht.jp/",
-      "visual_hits": [
-        "watercolor",
-        "memory",
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "opportunity_type": "relationship_target",
-      "action_type": "contact_and_propose",
-      "relationship_note": "Tokyo art bookstore specialising in zines and artist books. Consignment or small exhibition in their gallery space.",
-      "draft_introduction_ja": "件名：水彩画作品のお取り扱いについてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光と影、猫といったテーマで水彩画を制作しており、アーティストブックやプリントとしての展開も行っております。\nUTRECHTさんのような空間で作品をお取り扱いいただける可能性について、ご相談できれば大変嬉しく思います。\nご検討のほど、どうぞよろしくお願いいたします。"
-    },
-    {
-      "title": "B&B Shimokitazawa",
-      "score": 8.3,
-      "differentiated_score": 11.39,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": 10,
-      "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
-      "source": "https://bookandbeer.com/",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "opportunity_type": "relationship_target",
-      "action_type": "contact_and_propose",
-      "relationship_note": "Shimokitazawa bookstore and event space. Exhibition or print display inquiry.",
-      "draft_introduction_ja": "件名：水彩画の展示についてのご相談\n\nはじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。\n東京の路地や窓から差し込む光、猫といった日常の風景を水彩で描いています。\nB&Bさんのような空間で作品をご覧いただける機会があれば嬉しいと思い、ご連絡いたしました。\nご興味をお持ちいただけましたら、ぜひお話しできれば幸いです。"
-    },
-    {
-      "title": "flotsam books",
-      "score": 8.3,
-      "differentiated_score": 11.39,
-      "visual_fit_score": 3.7,
-      "verification_bucket": "",
-      "verification_score": 10,
-      "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
-      "source": "https://www.flotsambooks.com/",
-      "visual_hits": [
-        "watercolor",
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "opportunity_type": "relationship_target",
-      "action_type": "contact_and_propose",
-      "relationship_note": "Tokyo bookshop and gallery hybrid. Consignment or exhibition inquiry.",
-      "draft_introduction_ja": "件名：水彩画作品の展示・お取り扱いについてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光、猫といったテーマで水彩画を制作しております。\nflotsam booksさんの空間で作品をご紹介できる可能性について、ご相談できれば幸いです。\nどうぞよろしくお願いいたします。"
-    },
-    {
-      "title": "MOUNT ZINE",
-      "score": 9.2,
-      "differentiated_score": 10.71,
-      "visual_fit_score": 1.75,
-      "verification_bucket": "",
-      "verification_score": 10,
-      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
-      "source": "https://zine.mount.co.jp/",
-      "visual_hits": [
-        "memory",
-        "zine"
-      ],
-      "opportunity_type": "relationship_target",
-      "action_type": "submit_when_open",
-      "relationship_note": "Zine shop near Komazawa University. Accepts submissions during spring/autumn recruitment periods — no fee, no juried selection. Monitor @mountzine for autumn 2026 window.",
-      "draft_introduction_ja": "※ 応募期間中にウェブサイト（zine.mount.co.jp）からご応募ください。\n申し込みの際には以下の情報をご準備ください：\n- ZINEのタイトル・内容説明\n- 販売希望価格\n- サンプル画像\n\n《自己紹介文の例》\n東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光、猫などをテーマとした水彩画と、アーティストブックを制作しています。\nぜひご検討よろしくお願いいたします。"
-    },
-    {
       "title": "アートオリンピア2026",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.57,
       "visual_fit_score": 1.35,
       "verification_bucket": "needs_research",
@@ -122,25 +20,8 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "Book and Sons",
-      "score": 8.8,
-      "differentiated_score": 10.55,
-      "visual_fit_score": 1.3,
-      "verification_bucket": "",
-      "verification_score": 9,
-      "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
-      "source": "https://bookandsons.com/",
-      "visual_hits": [
-        "zine"
-      ],
-      "opportunity_type": "relationship_target",
-      "action_type": "contact_and_propose",
-      "relationship_note": "Art and design bookstore with exhibition space. Artist-book consignment or show inquiry.",
-      "draft_introduction_ja": "件名：水彩画作品のお取り扱いについてのご相談\n\nはじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。\n都市の風景、日常の光と影、猫などをテーマに、静かで親密な水彩作品を制作しています。\nBook and Sonsさんのような本と美術を大切にする空間で、作品をお取り扱いいただける可能性についてご相談させていただければと思い、ご連絡いたしました。\nご検討いただけますと幸いです。"
-    },
-    {
       "title": "第113回 日本水彩展",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.41,
       "visual_fit_score": 0.9,
       "verification_bucket": "needs_research",
@@ -158,7 +39,7 @@
     },
     {
       "title": "CSPWC Annual Open Water International Exhibition",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.26,
       "visual_fit_score": 0.45,
       "verification_bucket": "",
@@ -174,39 +55,18 @@
       "draft_introduction_ja": ""
     },
     {
-      "title": "TOKYO ART BOOK FAIR 2026",
-      "score": 7.4,
-      "differentiated_score": 9.98,
-      "visual_fit_score": 3.25,
+      "title": "Blooming Stories 2026",
+      "score": 9.68,
+      "differentiated_score": 9.24,
+      "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
-      "verification_score": 3,
-      "why": "Art book and zine fair at contemporary art museum accepting artists and publishers; fits illustration and artist book categories.",
-      "source": "https://www.mot-art-museum.jp/exhibitions/tokyo-art-book-fair-2026",
+      "verification_score": 5,
+      "why": "Flower-themed photo open call running June 18-29, 2026, relevant for illustration and observation-based work.",
+      "source": "https://note.com/hashtag/%E5%85%AC%E5%8B%9F%E5%B1%95",
       "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
+        "watercolor"
       ],
       "opportunity_type": "open_call",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "Zine & Book フェス in 神保町 (Jimbocho)",
-      "score": 6.3,
-      "differentiated_score": 8.44,
-      "visual_fit_score": 3.25,
-      "verification_bucket": "",
-      "verification_score": 7,
-      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
-      "source": "https://jimbocho-zine-book-fes.com/",
-      "visual_hits": [
-        "artist book",
-        "artist_book",
-        "zine"
-      ],
-      "opportunity_type": "enriched_opportunity",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -215,7 +75,7 @@
   "publication_editorial": [
     {
       "title": "表紙やカバーのデザインのお仕事",
-      "score": 8.0,
+      "score": 8.8,
       "differentiated_score": 9.5,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -230,7 +90,7 @@
     },
     {
       "title": "SS（スモールエス）表紙イラストコンテスト",
-      "score": 7.0,
+      "score": 7.7,
       "differentiated_score": 8.87,
       "visual_fit_score": 1.75,
       "verification_bucket": "needs_research",
@@ -248,7 +108,7 @@
     },
     {
       "title": "短編小説集出版記念イラスト募集",
-      "score": 6.2,
+      "score": 6.82,
       "differentiated_score": 8.82,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -266,7 +126,7 @@
     },
     {
       "title": "短編小説集出版記念 イラスト募集（表紙絵または挿絵）",
-      "score": 6.6,
+      "score": 7.26,
       "differentiated_score": 8.02,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -323,7 +183,7 @@
     },
     {
       "title": "全国日曜画家コンクール",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.41,
       "visual_fit_score": 0.9,
       "verification_bucket": "needs_research",
@@ -341,7 +201,7 @@
     },
     {
       "title": "2026金风车国际青年插画家大赛",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 10.34,
       "visual_fit_score": 2.4,
       "verification_bucket": "needs_research",
@@ -360,7 +220,7 @@
     },
     {
       "title": "第19回プラチナアート大賞展２０２６",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.26,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -377,7 +237,7 @@
     },
     {
       "title": "International Illustration 2026",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.26,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -413,7 +273,7 @@
     },
     {
       "title": "美術新人賞デビュー2026（Art Newcomer Award Debut 2026）",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 10.11,
       "visual_fit_score": 1.75,
       "verification_bucket": "needs_research",
@@ -431,7 +291,7 @@
     },
     {
       "title": "第12回F0公募展 ミニアチュールzero 2026",
-      "score": 8.1,
+      "score": 8.91,
       "differentiated_score": 9.8,
       "visual_fit_score": 2.4,
       "verification_bucket": "needs_research",
@@ -450,7 +310,7 @@
     },
     {
       "title": "油彩画・水彩画・アクリル画・日本画・版画・パステル画等の絵画公募展",
-      "score": 9.1,
+      "score": 10.0,
       "differentiated_score": 9.66,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -467,7 +327,7 @@
     },
     {
       "title": "2026博洛尼亚国际插画大赛",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 9.66,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -484,7 +344,7 @@
     },
     {
       "title": "第50届　悠美会国际美术展",
-      "score": 9.0,
+      "score": 9.9,
       "differentiated_score": 9.56,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -501,7 +361,7 @@
     },
     {
       "title": "光风会选拔展　2026",
-      "score": 8.9,
+      "score": 9.79,
       "differentiated_score": 9.56,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -518,7 +378,7 @@
     },
     {
       "title": "Japan in Acquarello 2026",
-      "score": 7.8,
+      "score": 8.58,
       "differentiated_score": 9.51,
       "visual_fit_score": 0.9,
       "verification_bucket": "needs_research",
@@ -536,7 +396,7 @@
     },
     {
       "title": "Applied Arts 2026 Illustration Awards",
-      "score": 8.0,
+      "score": 8.8,
       "differentiated_score": 9.5,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -551,7 +411,7 @@
     },
     {
       "title": "2026 Golden Pinwheel International Youth Illustrator Competition",
-      "score": 6.9,
+      "score": 7.59,
       "differentiated_score": 9.46,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -569,7 +429,7 @@
     },
     {
       "title": "2026春季二科展「NIKA nika/S20号」コンクール",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 9.44,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -586,7 +446,7 @@
     },
     {
       "title": "第15回 九条美術展",
-      "score": 8.4,
+      "score": 9.24,
       "differentiated_score": 9.44,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -603,7 +463,7 @@
     },
     {
       "title": "第92回 東光展",
-      "score": 8.3,
+      "score": 9.13,
       "differentiated_score": 9.44,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -620,7 +480,7 @@
     },
     {
       "title": "Watercolors 2026（水彩アートの祭典）",
-      "score": 7.7,
+      "score": 8.47,
       "differentiated_score": 9.36,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -637,7 +497,7 @@
     },
     {
       "title": "Small Wonders 2026",
-      "score": 7.4,
+      "score": 8.14,
       "differentiated_score": 9.36,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -654,7 +514,7 @@
     },
     {
       "title": "美術新人賞デビュー2026",
-      "score": 8.0,
+      "score": 8.8,
       "differentiated_score": 9.24,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -671,7 +531,7 @@
     },
     {
       "title": "AOI（Association of Illustrators）2026 Illustration Awards",
-      "score": 7.8,
+      "score": 8.58,
       "differentiated_score": 9.2,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -686,7 +546,7 @@
     },
     {
       "title": "金风车插画大赛2026",
-      "score": 7.2,
+      "score": 7.92,
       "differentiated_score": 9.2,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -701,7 +561,7 @@
     },
     {
       "title": "Golden Pinwheel International Young Illustrators Competition 2026 / 金风车国际青年插画家大赛",
-      "score": 8.0,
+      "score": 8.8,
       "differentiated_score": 9.16,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -719,7 +579,7 @@
     },
     {
       "title": "Singapore International Art Contest (SIAC) 2026-7",
-      "score": 6.8,
+      "score": 7.48,
       "differentiated_score": 9.14,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -736,7 +596,7 @@
     },
     {
       "title": "第35届　秋耕会小品展",
-      "score": 7.7,
+      "score": 8.47,
       "differentiated_score": 9.12,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -753,7 +613,7 @@
     },
     {
       "title": "第53届　全国周日画家展",
-      "score": 7.7,
+      "score": 8.47,
       "differentiated_score": 9.12,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -770,7 +630,7 @@
     },
     {
       "title": "ゆめ画材公募",
-      "score": 7.7,
+      "score": 8.47,
       "differentiated_score": 9.12,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -787,7 +647,7 @@
     },
     {
       "title": "第22回 世界絵画大賞展2026",
-      "score": 7.9,
+      "score": 8.69,
       "differentiated_score": 9.07,
       "visual_fit_score": 0.9,
       "verification_bucket": "needs_research",
@@ -805,7 +665,7 @@
     },
     {
       "title": "第54回 齣展",
-      "score": 7.0,
+      "score": 7.7,
       "differentiated_score": 9.0,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -822,7 +682,7 @@
     },
     {
       "title": "NEW TURNER AWARD 2026",
-      "score": 6.8,
+      "score": 7.48,
       "differentiated_score": 9.0,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -839,7 +699,7 @@
     },
     {
       "title": "2026年全国美术作品征集",
-      "score": 7.3,
+      "score": 8.03,
       "differentiated_score": 8.96,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -856,7 +716,7 @@
     },
     {
       "title": "APAアワード2026公募展",
-      "score": 6.4,
+      "score": 7.04,
       "differentiated_score": 8.88,
       "visual_fit_score": 2.4,
       "verification_bucket": "needs_research",
@@ -875,7 +735,7 @@
     },
     {
       "title": "2026国际大学生数字艺术设计大赛",
-      "score": 7.0,
+      "score": 7.7,
       "differentiated_score": 8.86,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -890,7 +750,7 @@
     },
     {
       "title": "2026 Calendar Exhibition and Competition - Painting Intake",
-      "score": 7.0,
+      "score": 7.7,
       "differentiated_score": 8.84,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -907,7 +767,7 @@
     },
     {
       "title": "ClafT2026 多摩地域ゆかりの作家展「Tama Art Meets All」",
-      "score": 7.3,
+      "score": 8.03,
       "differentiated_score": 8.82,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -924,7 +784,7 @@
     },
     {
       "title": "World Illustration Awards 2026 (WIA2026)",
-      "score": 6.7,
+      "score": 7.37,
       "differentiated_score": 8.78,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -939,7 +799,7 @@
     },
     {
       "title": "パラコンテスト委員会×イラストレーション2026",
-      "score": 8.0,
+      "score": 8.8,
       "differentiated_score": 8.77,
       "visual_fit_score": -1.5,
       "verification_bucket": "needs_research",
@@ -956,7 +816,7 @@
     },
     {
       "title": "2026 Venice International Watercolor Festival",
-      "score": 6.5,
+      "score": 7.15,
       "differentiated_score": 8.75,
       "visual_fit_score": 0.9,
       "verification_bucket": "needs_research",
@@ -974,7 +834,7 @@
     },
     {
       "title": "Aesthetica Art Prize",
-      "score": 5.7,
+      "score": 6.27,
       "differentiated_score": 8.69,
       "visual_fit_score": 1.75,
       "verification_bucket": "",
@@ -992,7 +852,7 @@
     },
     {
       "title": "國際藝術大賞東京展2026國際徵件展",
-      "score": 6.7,
+      "score": 7.37,
       "differentiated_score": 8.66,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1007,7 +867,7 @@
     },
     {
       "title": "金风车插画大赛 (Golden Pinwheel International Young Illustrators Award)",
-      "score": 6.6,
+      "score": 7.26,
       "differentiated_score": 8.62,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -1025,7 +885,7 @@
     },
     {
       "title": "Golden Pinwheel International Young Illustrator Competition 2026",
-      "score": 6.6,
+      "score": 7.26,
       "differentiated_score": 8.62,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -1043,7 +903,7 @@
     },
     {
       "title": "The 59th TABUROU Art Exhibition",
-      "score": 6.9,
+      "score": 7.59,
       "differentiated_score": 8.56,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1058,7 +918,7 @@
     },
     {
       "title": "第23回千修イラスト＆写真コンテスト (23rd Sensu Illustration & Photo Contest)",
-      "score": 6.2,
+      "score": 6.82,
       "differentiated_score": 8.54,
       "visual_fit_score": 2.4,
       "verification_bucket": "needs_research",
@@ -1077,7 +937,7 @@
     },
     {
       "title": "Chinese Culture in My Everyday Life / 我生活中的中華文化",
-      "score": 7.5,
+      "score": 8.25,
       "differentiated_score": 8.52,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -1094,7 +954,7 @@
     },
     {
       "title": "Para Contest 2026",
-      "score": 6.7,
+      "score": 7.37,
       "differentiated_score": 8.5,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1109,7 +969,7 @@
     },
     {
       "title": "IlloBoom 2026 Global Illustration Competition",
-      "score": 6.5,
+      "score": 7.15,
       "differentiated_score": 8.48,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1142,7 +1002,7 @@
     },
     {
       "title": "イラストコンテスト2026 テーマは「夏」",
-      "score": 7.1,
+      "score": 7.81,
       "differentiated_score": 8.36,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1157,7 +1017,7 @@
     },
     {
       "title": "New Arts Prospect: Artists from Japan Series XIII, 2026（ニュー・アーツ・プロスペクツ：アーティスト・フロム・ジャパンシリーズ第13弾）",
-      "score": 6.4,
+      "score": 7.04,
       "differentiated_score": 8.34,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1172,7 +1032,7 @@
     },
     {
       "title": "2026水彩的可能—桃園水彩藝術展",
-      "score": 6.1,
+      "score": 6.71,
       "differentiated_score": 8.28,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -1189,7 +1049,7 @@
     },
     {
       "title": "2026「紙上躍躍然．典美插畫大賞」",
-      "score": 7.1,
+      "score": 7.81,
       "differentiated_score": 8.26,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1204,7 +1064,7 @@
     },
     {
       "title": "A-TOM ART AWARD 2026",
-      "score": 6.4,
+      "score": 7.04,
       "differentiated_score": 8.2,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -1221,7 +1081,7 @@
     },
     {
       "title": "U25 Art Contest 2026",
-      "score": 6.2,
+      "score": 6.82,
       "differentiated_score": 8.2,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -1238,7 +1098,7 @@
     },
     {
       "title": "JIA Illustration Award 2026",
-      "score": 7.4,
+      "score": 8.14,
       "differentiated_score": 8.12,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -1255,7 +1115,7 @@
     },
     {
       "title": "IlloBoom! 3rd Annual Illustration Summit Challenge",
-      "score": 7.1,
+      "score": 7.81,
       "differentiated_score": 8.1,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1270,7 +1130,7 @@
     },
     {
       "title": "CAF賞2026",
-      "score": 6.4,
+      "score": 7.04,
       "differentiated_score": 8.04,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1285,7 +1145,7 @@
     },
     {
       "title": "AOI Illustration Awards 2026",
-      "score": 6.8,
+      "score": 7.48,
       "differentiated_score": 7.96,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1300,7 +1160,7 @@
     },
     {
       "title": "2026 ICIAD Award",
-      "score": 6.6,
+      "score": 7.26,
       "differentiated_score": 7.96,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1315,7 +1175,7 @@
     },
     {
       "title": "Chinese Excellence in Children's Illustration 2026 (卓越大师·中国插画大赛2026)",
-      "score": 6.4,
+      "score": 7.04,
       "differentiated_score": 7.94,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1330,7 +1190,7 @@
     },
     {
       "title": "Chinese Excellence in Children's Illustration 2026",
-      "score": 6.4,
+      "score": 7.04,
       "differentiated_score": 7.94,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1345,7 +1205,7 @@
     },
     {
       "title": "アートアワードトーキョー丸の内2026（Art Award Tokyo Marunouchi 2026）",
-      "score": 6.4,
+      "score": 7.04,
       "differentiated_score": 7.72,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -1362,7 +1222,7 @@
     },
     {
       "title": "2026 IlloBoom! 3rd Annual Illustration Summit Challenge",
-      "score": 6.1,
+      "score": 6.71,
       "differentiated_score": 7.64,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1377,7 +1237,7 @@
     },
     {
       "title": "海と山と写真公募展",
-      "score": 6.2,
+      "score": 6.82,
       "differentiated_score": 7.56,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1392,7 +1252,7 @@
     },
     {
       "title": "Splash 27: The Best of Watercolor / Splash 27国际水彩画大赛",
-      "score": 7.7,
+      "score": 8.47,
       "differentiated_score": 7.39,
       "visual_fit_score": 3.7,
       "verification_bucket": "needs_research",
@@ -1412,7 +1272,7 @@
     },
     {
       "title": "Chinese Excellence in Children's Illustration 2026（卓越大师·中国插画大赛2026）",
-      "score": 6.1,
+      "score": 6.71,
       "differentiated_score": 7.14,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1427,7 +1287,7 @@
     },
     {
       "title": "Chinese Excellence in Children's Illustration 2026 / 卓越大师·中国插画大赛2026",
-      "score": 6.1,
+      "score": 6.71,
       "differentiated_score": 7.14,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -1444,7 +1304,7 @@
   "publication_targets": [
     {
       "title": "submissions — porkbelly press",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 11.5,
       "visual_fit_score": 4.15,
       "verification_bucket": "",
@@ -1465,7 +1325,7 @@
     },
     {
       "title": "B&B (Book & Beer)",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 11.5,
       "visual_fit_score": 4.15,
       "verification_bucket": "",
@@ -1486,7 +1346,7 @@
     },
     {
       "title": "Still Life - 2026",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.94,
       "visual_fit_score": 2.4,
       "verification_bucket": "needs_research",
@@ -1505,7 +1365,7 @@
     },
     {
       "title": "Submissions — Clavis Publishing",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 10.9,
       "visual_fit_score": 4.15,
       "verification_bucket": "",
@@ -1526,7 +1386,7 @@
     },
     {
       "title": "本店・本屋の実験室",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.87,
       "visual_fit_score": 2.2,
       "verification_bucket": "",
@@ -1545,7 +1405,7 @@
     },
     {
       "title": "Publishers & Publishing Services in Japan - PublishersGlobal.com",
-      "score": 7.5,
+      "score": 8.25,
       "differentiated_score": 10.6,
       "visual_fit_score": 4.6,
       "verification_bucket": "",
@@ -1567,7 +1427,7 @@
     },
     {
       "title": "Browse opportunities | CuratorSpace",
-      "score": 8.2,
+      "score": 9.02,
       "differentiated_score": 10.59,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -1587,7 +1447,7 @@
     },
     {
       "title": "Aquarium - 2026",
-      "score": 8.3,
+      "score": 9.13,
       "differentiated_score": 10.48,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -1605,7 +1465,7 @@
     },
     {
       "title": "Route Books",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.43,
       "visual_fit_score": 0.95,
       "verification_bucket": "relationship_builders",
@@ -1624,7 +1484,7 @@
     },
     {
       "title": "Submissions - Little Press Publishing",
-      "score": 8.7,
+      "score": 9.57,
       "differentiated_score": 10.43,
       "visual_fit_score": 2.65,
       "verification_bucket": "",
@@ -1644,7 +1504,7 @@
     },
     {
       "title": "LOCAL Gallery・Books",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 10.38,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -1664,7 +1524,7 @@
     },
     {
       "title": "» 21 Terrific Small Presses Open to Direct Submissions",
-      "score": 7.6,
+      "score": 8.36,
       "differentiated_score": 10.36,
       "visual_fit_score": 4.15,
       "verification_bucket": "",
@@ -1685,7 +1545,7 @@
     },
     {
       "title": "Japan Book Publishers Association - JBPA",
-      "score": 7.2,
+      "score": 7.92,
       "differentiated_score": 10.36,
       "visual_fit_score": 4.15,
       "verification_bucket": "",
@@ -1706,7 +1566,7 @@
     },
     {
       "title": "SUZURI — Japanese Print-on-Demand Platform",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 10.27,
       "visual_fit_score": 2.2,
       "verification_bucket": "",
@@ -1725,7 +1585,7 @@
     },
     {
       "title": "COW BOOKS Nakameguro",
-      "score": 7.6,
+      "score": 8.36,
       "differentiated_score": 10.25,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -1745,7 +1605,7 @@
     },
     {
       "title": "Tacoche",
-      "score": 7.6,
+      "score": 8.36,
       "differentiated_score": 10.24,
       "visual_fit_score": 4.15,
       "verification_bucket": "",
@@ -1766,7 +1626,7 @@
     },
     {
       "title": "Become an Author - Tuttle Publishing",
-      "score": 8.1,
+      "score": 8.91,
       "differentiated_score": 10.23,
       "visual_fit_score": 2.65,
       "verification_bucket": "",
@@ -1786,7 +1646,7 @@
     },
     {
       "title": "Village Vanguard Shimokitazawa",
-      "score": 8.2,
+      "score": 9.02,
       "differentiated_score": 10.22,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
@@ -1805,7 +1665,7 @@
     },
     {
       "title": "Antenna Books",
-      "score": 8.2,
+      "score": 9.02,
       "differentiated_score": 10.17,
       "visual_fit_score": 2.2,
       "verification_bucket": "relationship_builders",
@@ -1824,7 +1684,7 @@
     },
     {
       "title": "SPBS (Shibuya Publishing Booksellers)",
-      "score": 8.2,
+      "score": 9.02,
       "differentiated_score": 10.17,
       "visual_fit_score": 2.2,
       "verification_bucket": "relationship_builders",
@@ -1843,7 +1703,7 @@
     },
     {
       "title": "Books Ruhe",
-      "score": 7.6,
+      "score": 8.36,
       "differentiated_score": 10.13,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -1863,7 +1723,7 @@
     },
     {
       "title": "ART BOX Publishing",
-      "score": 7.9,
+      "score": 8.69,
       "differentiated_score": 9.89,
       "visual_fit_score": 2.65,
       "verification_bucket": "",
@@ -1883,7 +1743,7 @@
     },
     {
       "title": "tata bookshop/gallery",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 9.85,
       "visual_fit_score": 2.2,
       "verification_bucket": "",
@@ -1902,7 +1762,7 @@
     },
     {
       "title": "Mona Records",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 9.81,
       "visual_fit_score": 1.75,
       "verification_bucket": "",
@@ -1920,7 +1780,7 @@
     },
     {
       "title": "円盤 (Enban) Koenji",
-      "score": 7.6,
+      "score": 8.36,
       "differentiated_score": 9.65,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -1940,7 +1800,7 @@
     },
     {
       "title": "OPEN CALL FOR ARTIST RESIDENCY We are seeking a multimedia artist to be a resident for at ",
-      "score": 7.1,
+      "score": 7.81,
       "differentiated_score": 9.54,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
@@ -1977,7 +1837,7 @@
     },
     {
       "title": "POST",
-      "score": 6.5,
+      "score": 7.15,
       "differentiated_score": 9.21,
       "visual_fit_score": 1.75,
       "verification_bucket": "",
@@ -2013,7 +1873,7 @@
     },
     {
       "title": "2026 Asian Heritage Culture Art Show (亞裔傳統文化藝術展)",
-      "score": 6.1,
+      "score": 6.71,
       "differentiated_score": 8.28,
       "visual_fit_score": 2.4,
       "verification_bucket": "needs_research",
@@ -2032,7 +1892,7 @@
     },
     {
       "title": "Spring Flora and Fauna Art Exhibition 2026 (春日花鳥畫展)",
-      "score": 6.1,
+      "score": 6.71,
       "differentiated_score": 8.28,
       "visual_fit_score": 2.4,
       "verification_bucket": "needs_research",
@@ -2051,7 +1911,7 @@
     },
     {
       "title": "2026 OCAA Ladies Art Exhibition (安美女仕畫展)",
-      "score": 6.1,
+      "score": 6.71,
       "differentiated_score": 8.28,
       "visual_fit_score": 2.4,
       "verification_bucket": "needs_research",
@@ -2070,7 +1930,7 @@
     },
     {
       "title": "call for artists | al-tiba9 magazine issue22",
-      "score": 6.0,
+      "score": 6.6,
       "differentiated_score": 8.2,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
@@ -2089,7 +1949,7 @@
     },
     {
       "title": "AURA: Open Call Open Call for artists and writers to submit their work to a feminist onlin",
-      "score": 5.7,
+      "score": 6.27,
       "differentiated_score": 8.12,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
@@ -2108,7 +1968,7 @@
     },
     {
       "title": "OM System Rail Art Submission",
-      "score": 5.8,
+      "score": 6.38,
       "differentiated_score": 7.84,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -2162,7 +2022,7 @@
     },
     {
       "title": "3 Top Book Publishers in Tokyo in 2026",
-      "score": 4.9,
+      "score": 5.39,
       "differentiated_score": 6.94,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -2182,7 +2042,7 @@
     },
     {
       "title": "3 Top Book Publishers in Japan in 2026",
-      "score": 4.9,
+      "score": 5.39,
       "differentiated_score": 6.94,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -2202,7 +2062,7 @@
     },
     {
       "title": "Top Artist Opportunities for 2026 | ArtConnect",
-      "score": 4.7,
+      "score": 5.17,
       "differentiated_score": 6.68,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
@@ -2259,7 +2119,7 @@
     },
     {
       "title": "Book Culture Club",
-      "score": 6.0,
+      "score": 6.6,
       "differentiated_score": 6.42,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -2279,7 +2139,7 @@
     },
     {
       "title": "Komiyama Tokyo",
-      "score": 5.3,
+      "score": 5.83,
       "differentiated_score": 6.42,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -2299,7 +2159,7 @@
     },
     {
       "title": "shashasha",
-      "score": 5.2,
+      "score": 5.72,
       "differentiated_score": 5.96,
       "visual_fit_score": 2.4,
       "verification_bucket": "",
@@ -2317,7 +2177,165 @@
       "draft_introduction_ja": ""
     }
   ],
-  "japan_book_ecosystem": [],
+  "japan_book_ecosystem": [
+    {
+      "title": "Tokyo Art Book Fair",
+      "score": 9.6,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 5.9,
+      "verification_bucket": "",
+      "verification_score": 10,
+      "why": "Tokyo Art Book Fair's focus on independent publishing and artist-authored work aligns directly with GEGYjiji's daily practice of documenting disappearing urban moments—a body of work that naturally translates into sequenced watercolor narratives or painterly/observational books about architectural memory. The fair's curated community of small presses and self-publishers offers direct access to an audience already invested in intimate, place-based storytelling rather than commercial gallery circuits.",
+      "source": "https://tokyoartbookfair.com/",
+      "visual_hits": [
+        "watercolor",
+        "memory",
+        "artist book",
+        "small press",
+        "artist_book",
+        "zine",
+        "small_press"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "UTRECHT",
+      "score": 10.0,
+      "differentiated_score": 11.5,
+      "visual_fit_score": 4.15,
+      "verification_bucket": "",
+      "verification_score": 8,
+      "why": "UTRECHT's focus on artist books and printed matter aligns naturally with your daily watercolor practice—the format removes pressure to scale up or conceptualize, and allows your quiet, observational studies of Tokyo's disappearing architecture to exist as intimate, collectable works. A bookstore gallery audience expects exactly the kind of sustained, understated visual documentation you're already making, without the institutional expectations of a traditional exhibition space.",
+      "source": "https://utrecht.jp/",
+      "visual_hits": [
+        "watercolor",
+        "memory",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "opportunity_type": "relationship_target",
+      "action_type": "contact_and_propose",
+      "relationship_note": "Tokyo art bookstore specialising in zines and artist books. Consignment or small exhibition in their gallery space.",
+      "draft_introduction_ja": "件名：水彩画作品のお取り扱いについてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光と影、猫といったテーマで水彩画を制作しており、アーティストブックやプリントとしての展開も行っております。\nUTRECHTさんのような空間で作品をお取り扱いいただける可能性について、ご相談できれば大変嬉しく思います。\nご検討のほど、どうぞよろしくお願いいたします。"
+    },
+    {
+      "title": "B&B Shimokitazawa",
+      "score": 9.13,
+      "differentiated_score": 11.39,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": 10,
+      "why": "Aligns with your comfort for low-key cultural spaces and Japan focus, but unclear if they program watercolor artists without publication angle",
+      "source": "https://bookandbeer.com/",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "opportunity_type": "relationship_target",
+      "action_type": "contact_and_propose",
+      "relationship_note": "Shimokitazawa bookstore and event space. Exhibition or print display inquiry.",
+      "draft_introduction_ja": "件名：水彩画の展示についてのご相談\n\nはじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。\n東京の路地や窓から差し込む光、猫といった日常の風景を水彩で描いています。\nB&Bさんのような空間で作品をご覧いただける機会があれば嬉しいと思い、ご連絡いたしました。\nご興味をお持ちいただけましたら、ぜひお話しできれば幸いです。"
+    },
+    {
+      "title": "flotsam books",
+      "score": 9.13,
+      "differentiated_score": 11.39,
+      "visual_fit_score": 3.7,
+      "verification_bucket": "",
+      "verification_score": 10,
+      "why": "Tokyo location aligns with regional interests; bookshop/gallery hybrid matches comfort with lower-pressure exhibition contexts",
+      "source": "https://www.flotsambooks.com/",
+      "visual_hits": [
+        "watercolor",
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "opportunity_type": "relationship_target",
+      "action_type": "contact_and_propose",
+      "relationship_note": "Tokyo bookshop and gallery hybrid. Consignment or exhibition inquiry.",
+      "draft_introduction_ja": "件名：水彩画作品の展示・お取り扱いについてのご相談\n\nはじめまして。東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光、猫といったテーマで水彩画を制作しております。\nflotsam booksさんの空間で作品をご紹介できる可能性について、ご相談できれば幸いです。\nどうぞよろしくお願いいたします。"
+    },
+    {
+      "title": "MOUNT ZINE",
+      "score": 10.0,
+      "differentiated_score": 10.71,
+      "visual_fit_score": 1.75,
+      "verification_bucket": "",
+      "verification_score": 10,
+      "why": "Permanent zine shop with twice-yearly open submission windows. No fees, no genre screening. Stocks 150+ titles. Spring/autumn recruitment announced on @mountzine Twitter/Instagram. Action: monitor and submit when autumn 2026 window opens.",
+      "source": "https://zine.mount.co.jp/",
+      "visual_hits": [
+        "memory",
+        "zine"
+      ],
+      "opportunity_type": "relationship_target",
+      "action_type": "submit_when_open",
+      "relationship_note": "Zine shop near Komazawa University. Accepts submissions during spring/autumn recruitment periods — no fee, no juried selection. Monitor @mountzine for autumn 2026 window.",
+      "draft_introduction_ja": "※ 応募期間中にウェブサイト（zine.mount.co.jp）からご応募ください。\n申し込みの際には以下の情報をご準備ください：\n- ZINEのタイトル・内容説明\n- 販売希望価格\n- サンプル画像\n\n《自己紹介文の例》\n東京在住の水彩画家、GEGYjijiと申します。\n都市の静けさ、室内の光、猫などをテーマとした水彩画と、アーティストブックを制作しています。\nぜひご検討よろしくお願いいたします。"
+    },
+    {
+      "title": "Book and Sons",
+      "score": 9.68,
+      "differentiated_score": 10.55,
+      "visual_fit_score": 1.3,
+      "verification_bucket": "",
+      "verification_score": 9,
+      "why": "Bookstore galleries attract viewers who value careful observation and cultural documentation - your work's literary quality and attention to disappearing spaces aligns with this audience's sensibility.",
+      "source": "https://bookandsons.com/",
+      "visual_hits": [
+        "zine"
+      ],
+      "opportunity_type": "relationship_target",
+      "action_type": "contact_and_propose",
+      "relationship_note": "Art and design bookstore with exhibition space. Artist-book consignment or show inquiry.",
+      "draft_introduction_ja": "件名：水彩画作品のお取り扱いについてのご相談\n\nはじめまして。東京を拠点に活動している水彩画家のGEGYjijiと申します。\n都市の風景、日常の光と影、猫などをテーマに、静かで親密な水彩作品を制作しています。\nBook and Sonsさんのような本と美術を大切にする空間で、作品をお取り扱いいただける可能性についてご相談させていただければと思い、ご連絡いたしました。\nご検討いただけますと幸いです。"
+    },
+    {
+      "title": "TOKYO ART BOOK FAIR 2026",
+      "score": 8.14,
+      "differentiated_score": 9.98,
+      "visual_fit_score": 3.25,
+      "verification_bucket": "needs_research",
+      "verification_score": 3,
+      "why": "Art book and zine fair at contemporary art museum accepting artists and publishers; fits illustration and artist book categories.",
+      "source": "https://www.mot-art-museum.jp/exhibitions/tokyo-art-book-fair-2026",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "opportunity_type": "open_call",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    },
+    {
+      "title": "Zine & Book フェス in 神保町 (Jimbocho)",
+      "score": 6.3,
+      "differentiated_score": 8.44,
+      "visual_fit_score": 3.25,
+      "verification_bucket": "",
+      "verification_score": 7,
+      "why": "Jimbocho Zine Fair fits because zines and art-book contexts suit quiet works-on-paper, small editions, atmosphere, and visual sequencing.",
+      "source": "https://jimbocho-zine-book-fes.com/",
+      "visual_hits": [
+        "artist book",
+        "artist_book",
+        "zine"
+      ],
+      "opportunity_type": "enriched_opportunity",
+      "action_type": "apply",
+      "relationship_note": "",
+      "draft_introduction_ja": ""
+    }
+  ],
   "stretch_targets": [
     {
       "title": "FY2026 Life with Art Grant",
@@ -2497,7 +2515,7 @@
     },
     {
       "title": "Northwest Watercolor Society 2026 Annual International Open Exhibition",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.26,
       "visual_fit_score": 0.45,
       "verification_bucket": "",
@@ -2885,7 +2903,7 @@
     },
     {
       "title": "Japan International Watercolor Institute Online Exhibition",
-      "score": 7.4,
+      "score": 8.14,
       "differentiated_score": 8.86,
       "visual_fit_score": 0.45,
       "verification_bucket": "",
@@ -2902,7 +2920,7 @@
     },
     {
       "title": "National Watercolor Society International Open Exhibition",
-      "score": 6.6,
+      "score": 7.26,
       "differentiated_score": 7.76,
       "visual_fit_score": 0.45,
       "verification_bucket": "",
@@ -2936,7 +2954,7 @@
     },
     {
       "title": "torch press",
-      "score": 5.7,
+      "score": 6.27,
       "differentiated_score": 6.64,
       "visual_fit_score": 5.0,
       "verification_bucket": "stretch_targets",
@@ -3012,7 +3030,7 @@
   "relationship_builders": [
     {
       "title": "美術手帖 (Bijutsu Techo) — Artist Feature",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 11.29,
       "visual_fit_score": 3.7,
       "verification_bucket": "relationship_builders",
@@ -3032,7 +3050,7 @@
     },
     {
       "title": "Pen Magazine — Artist Spotlight",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.77,
       "visual_fit_score": 2.2,
       "verification_bucket": "relationship_builders",
@@ -3051,7 +3069,7 @@
     },
     {
       "title": "Casa Brutus — Architecture/Art Feature",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.77,
       "visual_fit_score": 2.2,
       "verification_bucket": "relationship_builders",
@@ -3070,7 +3088,7 @@
     },
     {
       "title": "It's Nice That — Illustration Feature",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.68,
       "visual_fit_score": 1.95,
       "verification_bucket": "relationship_builders",
@@ -3088,7 +3106,7 @@
     },
     {
       "title": "Apartamento — Artist Feature",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.61,
       "visual_fit_score": 1.75,
       "verification_bucket": "relationship_builders",
@@ -3470,7 +3488,7 @@
   "research_needed": [
     {
       "title": "Women United ART MAGAZINE Issue XIV Summer 2026",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 11.39,
       "visual_fit_score": 3.7,
       "verification_bucket": null,
@@ -3490,7 +3508,7 @@
     },
     {
       "title": "SUBMISSIONS - marblepress.com",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 11.39,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -3510,7 +3528,7 @@
     },
     {
       "title": "TOKIO ART BOOK FAIR 2026",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 11.24,
       "visual_fit_score": 3.25,
       "verification_bucket": "needs_research",
@@ -3529,7 +3547,7 @@
     },
     {
       "title": "ZINEフェス東京 (ZINE Fest Tokyo)",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 11.24,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
@@ -3548,7 +3566,7 @@
     },
     {
       "title": "Center for Book Arts Opportunities",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 11.17,
       "visual_fit_score": 1.95,
       "verification_bucket": "",
@@ -3623,7 +3641,7 @@
     },
     {
       "title": "水彩アートの祭典「Watercolors 2026」",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.88,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -3679,7 +3697,7 @@
     },
     {
       "title": "水性繪畫展覽 (Watercolor Exhibition)",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.78,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -3697,7 +3715,7 @@
     },
     {
       "title": "水彩アートの祭典 (Watercolor Art Festival)",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.78,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -3715,7 +3733,7 @@
     },
     {
       "title": "第九屆水主題國際評審藝術比賽",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.41,
       "visual_fit_score": 0.9,
       "verification_bucket": "needs_research",
@@ -3843,7 +3861,7 @@
     },
     {
       "title": "BOOOOOOOM 2026 Art & Photo Book Award",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 10.27,
       "visual_fit_score": 2.2,
       "verification_bucket": null,
@@ -3879,7 +3897,7 @@
     },
     {
       "title": "桜をテーマとするイラスト・絵画作品募集",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.26,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -3896,7 +3914,7 @@
     },
     {
       "title": "多摩ゆかりの作家による公募展",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.26,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -3913,7 +3931,7 @@
     },
     {
       "title": "Aquarelle 18 - アクワレル",
-      "score": 9.6,
+      "score": 10.0,
       "differentiated_score": 10.26,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -4049,7 +4067,7 @@
     },
     {
       "title": "Open Call for Proposals for Singapore Art Week 2026 – The 14th Edition",
-      "score": 8.5,
+      "score": 9.35,
       "differentiated_score": 10.18,
       "visual_fit_score": 1.95,
       "verification_bucket": "needs_research",
@@ -4067,7 +4085,7 @@
     },
     {
       "title": "コピックアワード2026",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.16,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -4084,7 +4102,7 @@
     },
     {
       "title": "Ark Art Award 2024",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.16,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -4131,7 +4149,7 @@
     },
     {
       "title": "2026 3rd Annual Illustration Summit Challenge (IlloBoom!)",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.1,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -4206,7 +4224,7 @@
     },
     {
       "title": "NY公募展2026夏（NY Open Call Exhibition Summer 2026）",
-      "score": 9.0,
+      "score": 9.9,
       "differentiated_score": 10.1,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -4330,7 +4348,7 @@
     },
     {
       "title": "KAMIHANGA国際プリント展2026",
-      "score": 8.6,
+      "score": 9.46,
       "differentiated_score": 10.0,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -4554,7 +4572,7 @@
     },
     {
       "title": "2026 ART CAPITAL Paris Grand Palais International Youth Academic Award",
-      "score": 8.8,
+      "score": 9.68,
       "differentiated_score": 9.5,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -4614,7 +4632,7 @@
     },
     {
       "title": "True Beauty - 2026",
-      "score": 7.9,
+      "score": 8.69,
       "differentiated_score": 9.46,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -4665,7 +4683,7 @@
     },
     {
       "title": "第23届「跨越国界之美2026」国际公募展",
-      "score": 8.2,
+      "score": 9.02,
       "differentiated_score": 9.44,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -4717,7 +4735,7 @@
     },
     {
       "title": "IlloBoom! 2026 第三屆插畫巔峰賽",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 9.4,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -4850,23 +4868,6 @@
       "source": "https://www.windsgyosei.com/column/detail/id=852",
       "visual_hits": [],
       "opportunity_type": "grant",
-      "action_type": "apply",
-      "relationship_note": "",
-      "draft_introduction_ja": ""
-    },
-    {
-      "title": "Blooming Stories 2026",
-      "score": 8.8,
-      "differentiated_score": 9.24,
-      "visual_fit_score": 0.45,
-      "verification_bucket": "needs_research",
-      "verification_score": 5,
-      "why": "Flower-themed photo open call running June 18-29, 2026, relevant for illustration and observation-based work.",
-      "source": "https://note.com/hashtag/%E5%85%AC%E5%8B%9F%E5%B1%95",
-      "visual_hits": [
-        "watercolor"
-      ],
-      "opportunity_type": "open_call",
       "action_type": "apply",
       "relationship_note": "",
       "draft_introduction_ja": ""
@@ -5102,7 +5103,7 @@
     },
     {
       "title": "Tokyo Open Art - October 2026",
-      "score": 6.7,
+      "score": 7.37,
       "differentiated_score": 9.14,
       "visual_fit_score": 0.45,
       "verification_bucket": "needs_research",
@@ -5524,7 +5525,7 @@
     },
     {
       "title": "OPEN CALL FOR ARTISTS - 2026",
-      "score": 6.2,
+      "score": 6.82,
       "differentiated_score": 8.58,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -5539,7 +5540,7 @@
     },
     {
       "title": "水彩アートの祭典 2026年3月 (Watercolor Art Festival March 2026)",
-      "score": 6.9,
+      "score": 7.59,
       "differentiated_score": 8.52,
       "visual_fit_score": 2.4,
       "verification_bucket": "needs_research",
@@ -5695,7 +5696,7 @@
     },
     {
       "title": "オープンコール・プロジェクト",
-      "score": 6.8,
+      "score": 7.48,
       "differentiated_score": 8.29,
       "visual_fit_score": 1.0,
       "verification_bucket": "needs_research",
@@ -5851,7 +5852,7 @@
     },
     {
       "title": "アートオリンピア",
-      "score": 6.2,
+      "score": 6.82,
       "differentiated_score": 8.06,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -5866,7 +5867,7 @@
     },
     {
       "title": "Venice International Watercolor Festival 2026 / 2026年威尼斯国际水彩节",
-      "score": 6.8,
+      "score": 7.48,
       "differentiated_score": 8.05,
       "visual_fit_score": 0.9,
       "verification_bucket": "needs_research",
@@ -5983,7 +5984,7 @@
     },
     {
       "title": "35+ Small Publishers Accepting Submissions in 2026 [Complete Guide]",
-      "score": 5.8,
+      "score": 6.38,
       "differentiated_score": 7.86,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -6018,7 +6019,7 @@
     },
     {
       "title": "Clavis Publishing Submissions",
-      "score": 6.3,
+      "score": 6.93,
       "differentiated_score": 7.7,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -6069,7 +6070,7 @@
     },
     {
       "title": "第9回 国際公募 東京アート工芸2026",
-      "score": 6.4,
+      "score": 7.04,
       "differentiated_score": 7.68,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -6318,7 +6319,7 @@
     },
     {
       "title": "版畫雙年展",
-      "score": 5.1,
+      "score": 5.61,
       "differentiated_score": 6.92,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -6348,7 +6349,7 @@
     },
     {
       "title": "Idemitsu Art Award 2026",
-      "score": 5.7,
+      "score": 6.27,
       "differentiated_score": 6.9,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -6489,7 +6490,7 @@
     },
     {
       "title": "全國插畫徵集-2026台灣VC文化賞",
-      "score": 5.2,
+      "score": 5.72,
       "differentiated_score": 6.74,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -6583,7 +6584,7 @@
     },
     {
       "title": "Self Publish, Be Happy",
-      "score": 6.7,
+      "score": 7.37,
       "differentiated_score": 6.48,
       "visual_fit_score": 2.4,
       "verification_bucket": "",
@@ -6636,7 +6637,7 @@
     },
     {
       "title": "Royal Watercolour Society Open Exhibition",
-      "score": 6.8,
+      "score": 7.48,
       "differentiated_score": 6.43,
       "visual_fit_score": 2.4,
       "verification_bucket": "",
@@ -6655,7 +6656,7 @@
     },
     {
       "title": "Splash 27: The Best of Watercolor",
-      "score": 6.3,
+      "score": 6.93,
       "differentiated_score": 6.35,
       "visual_fit_score": 1.75,
       "verification_bucket": "needs_research",
@@ -6673,7 +6674,7 @@
     },
     {
       "title": "Golden Key International Art Competition",
-      "score": 4.7,
+      "score": 5.17,
       "differentiated_score": 6.24,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -6720,7 +6721,7 @@
     },
     {
       "title": "Art on Climate インターナショナル・イラストレーション・コンテスト 2026",
-      "score": 4.9,
+      "score": 5.39,
       "differentiated_score": 6.08,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -6750,7 +6751,7 @@
     },
     {
       "title": "American Watercolor Society Annual International Exhibition",
-      "score": 6.7,
+      "score": 7.37,
       "differentiated_score": 5.94,
       "visual_fit_score": 0.9,
       "verification_bucket": "",
@@ -6768,7 +6769,7 @@
     },
     {
       "title": "ARTE VENT Press",
-      "score": 4.4,
+      "score": 4.84,
       "differentiated_score": 5.94,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -6828,7 +6829,7 @@
     },
     {
       "title": "Offprint",
-      "score": 6.4,
+      "score": 7.04,
       "differentiated_score": 5.75,
       "visual_fit_score": 0.45,
       "verification_bucket": "",
@@ -7472,7 +7473,7 @@
     },
     {
       "title": "twelvebooks",
-      "score": 0.8,
+      "score": 0.88,
       "differentiated_score": 1.4,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -7534,7 +7535,7 @@
   "reject": [
     {
       "title": "DER GREIF",
-      "score": 9.2,
+      "score": 10.0,
       "differentiated_score": 10.94,
       "visual_fit_score": 2.4,
       "verification_bucket": "",
@@ -7570,7 +7571,7 @@
     },
     {
       "title": "Printed Matter Art Book Fairs",
-      "score": 4.0,
+      "score": 4.4,
       "differentiated_score": 8.71,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
@@ -7589,7 +7590,7 @@
     },
     {
       "title": "Book Obscura",
-      "score": 4.0,
+      "score": 4.4,
       "differentiated_score": 8.64,
       "visual_fit_score": 4.15,
       "verification_bucket": "",
@@ -7610,7 +7611,7 @@
     },
     {
       "title": "2026 國際藝術設計展演 / 2026 International Art & Design Showcases",
-      "score": 6.7,
+      "score": 7.37,
       "differentiated_score": 8.46,
       "visual_fit_score": 0.0,
       "verification_bucket": "needs_research",
@@ -7625,7 +7626,7 @@
     },
     {
       "title": "そぞろ書房",
-      "score": 3.7,
+      "score": 4.07,
       "differentiated_score": 8.41,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -7675,7 +7676,7 @@
     },
     {
       "title": "日記屋 月日",
-      "score": 3.8,
+      "score": 4.18,
       "differentiated_score": 8.01,
       "visual_fit_score": 2.2,
       "verification_bucket": "",
@@ -7694,7 +7695,7 @@
     },
     {
       "title": "Aperture | Photography",
-      "score": 4.6,
+      "score": 5.06,
       "differentiated_score": 7.89,
       "visual_fit_score": 3.7,
       "verification_bucket": "reject",
@@ -7714,7 +7715,7 @@
     },
     {
       "title": "Home - Printed Matter",
-      "score": 3.5,
+      "score": 3.85,
       "differentiated_score": 7.72,
       "visual_fit_score": 4.15,
       "verification_bucket": "",
@@ -7735,7 +7736,7 @@
     },
     {
       "title": "Callback Open Call G George invites you to submit to Callback, a series of contemporary ar",
-      "score": 6.3,
+      "score": 6.93,
       "differentiated_score": 7.7,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -7750,7 +7751,7 @@
     },
     {
       "title": "Vault Collective ** OPEN CALL** Rolling Deadline **OPEN CALL** VAULT COLLECTIVE ** ROLLING",
-      "score": 6.1,
+      "score": 6.71,
       "differentiated_score": 7.7,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -7765,7 +7766,7 @@
     },
     {
       "title": "Publishing / Artist Books — Battle Plan",
-      "score": 3.3,
+      "score": 3.63,
       "differentiated_score": 7.21,
       "visual_fit_score": 3.7,
       "verification_bucket": "",
@@ -7785,7 +7786,7 @@
     },
     {
       "title": "Zines / Artist Books — Battle Plan",
-      "score": 3.2,
+      "score": 3.52,
       "differentiated_score": 7.06,
       "visual_fit_score": 3.25,
       "verification_bucket": "",
@@ -7804,7 +7805,7 @@
     },
     {
       "title": "PhotoVogue",
-      "score": 5.6,
+      "score": 6.16,
       "differentiated_score": 6.8,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -7819,7 +7820,7 @@
     },
     {
       "title": "Open Call for DIGITAL WORKS Open Call for artists. Send us your Digital Work to show in ou",
-      "score": 4.9,
+      "score": 5.39,
       "differentiated_score": 6.6,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -7834,7 +7835,7 @@
     },
     {
       "title": "submissions for the 2026 set film festival are now open",
-      "score": 4.0,
+      "score": 4.4,
       "differentiated_score": 6.5,
       "visual_fit_score": 0.0,
       "verification_bucket": "reject",
@@ -7849,7 +7850,7 @@
     },
     {
       "title": "NADiff a/p/a/r/t",
-      "score": 3.0,
+      "score": 3.3,
       "differentiated_score": 6.34,
       "visual_fit_score": 3.25,
       "verification_bucket": "reject",
@@ -7883,7 +7884,7 @@
     },
     {
       "title": "Art Submissions",
-      "score": 3.7,
+      "score": 4.07,
       "differentiated_score": 6.3,
       "visual_fit_score": 0.0,
       "verification_bucket": "reject",
@@ -7898,7 +7899,7 @@
     },
     {
       "title": "open submissions for issue four",
-      "score": 4.9,
+      "score": 5.39,
       "differentiated_score": 6.08,
       "visual_fit_score": 0.0,
       "verification_bucket": "",
@@ -7913,7 +7914,7 @@
     },
     {
       "title": "素人の乱 (Shiroto no Ran) Koenji",
-      "score": 2.9,
+      "score": 3.19,
       "differentiated_score": 6.0,
       "visual_fit_score": 1.3,
       "verification_bucket": "",
@@ -7967,7 +7968,7 @@
     },
     {
       "title": "Audio Work Required - Artists and Friends Podcast - Open Call Artists and Friends is a Pod",
-      "score": 3.2,
+      "score": 3.52,
       "differentiated_score": 5.6,
       "visual_fit_score": 0.0,
       "verification_bucket": "reject",
@@ -7997,7 +7998,7 @@
     },
     {
       "title": "The Light Frame Gallery | Open Call for Guest Writers (Museums, Photography & Community) S",
-      "score": 2.7,
+      "score": 2.97,
       "differentiated_score": 4.78,
       "visual_fit_score": 0.0,
       "verification_bucket": "reject",
@@ -8101,7 +8102,7 @@
     },
     {
       "title": "Joy In Art 2026 Watercolor Open Exhibition (第四屆水彩展招募)",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.45,
       "verification_bucket": "reject",
@@ -8118,7 +8119,7 @@
     },
     {
       "title": "2026 International Sketch Art Competition",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.45,
       "verification_bucket": "reject",
@@ -8135,7 +8136,7 @@
     },
     {
       "title": "第113回 日本水彩展 (Japan Watercolor Exhibition 2026)",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.45,
       "verification_bucket": "reject",
@@ -8152,7 +8153,7 @@
     },
     {
       "title": "TOKYO ART BOOK FAIR 2026 Exhibitor Call",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 3.25,
       "verification_bucket": "reject",
@@ -8171,7 +8172,7 @@
     },
     {
       "title": "Potluck Art Book Fair 2026 Exhibitor Call",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 3.25,
       "verification_bucket": "reject",
@@ -8207,7 +8208,7 @@
     },
     {
       "title": "香港水彩畫展",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.45,
       "verification_bucket": "reject",
@@ -8241,7 +8242,7 @@
     },
     {
       "title": "Fukuoka Art Book Fair 2026",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 3.25,
       "verification_bucket": "reject",
@@ -8292,7 +8293,7 @@
     },
     {
       "title": "2026 Bologna Ragazzi Awards (波隆那童書展獎項)",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.0,
       "verification_bucket": "reject",
@@ -8324,7 +8325,7 @@
     },
     {
       "title": "BIBF International Illustration Awards 2026 (北京国际童书插画大赛)",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.0,
       "verification_bucket": "reject",
@@ -8435,7 +8436,7 @@
     },
     {
       "title": "ILOVETOYS / neuprint — Chinese Illustration Feature",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 4.15,
       "verification_bucket": "reject",
@@ -8456,7 +8457,7 @@
     },
     {
       "title": "2026 International Children and Youth Painting Competition Summer Season",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.45,
       "verification_bucket": "reject",
@@ -8473,7 +8474,7 @@
     },
     {
       "title": "loneliness books",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 3.25,
       "verification_bucket": "reject",
@@ -8543,7 +8544,7 @@
     },
     {
       "title": "Watercolor Open Call Exhibition",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.45,
       "verification_bucket": "reject",
@@ -8560,7 +8561,7 @@
     },
     {
       "title": "Sunny Boy Books",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 1.3,
       "verification_bucket": "reject",
@@ -8577,7 +8578,7 @@
     },
     {
       "title": "新世紀美術協会 神戸支部 油彩・水彩小作品展（Shin-Seiki Bijutsu Kyokai Kobe Branch Oil & Watercolor Small Works Exhibition）",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 5.2,
       "verification_bucket": "reject",
@@ -8647,7 +8648,7 @@
     },
     {
       "title": "Dig A Hole Zines",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 3.25,
       "verification_bucket": "reject",
@@ -8666,7 +8667,7 @@
     },
     {
       "title": "Japan in Acquarello 水彩画作品公募2026",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 1.95,
       "verification_bucket": "reject",
@@ -8763,7 +8764,7 @@
     },
     {
       "title": "ZINE FARM TOKYO",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 1.75,
       "verification_bucket": "reject",
@@ -8781,7 +8782,7 @@
     },
     {
       "title": "2026国际艺术大赏展",
-      "score": 2.0,
+      "score": 2.2,
       "differentiated_score": 2.0,
       "visual_fit_score": 0.0,
       "verification_bucket": "reject",

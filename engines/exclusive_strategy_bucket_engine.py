@@ -485,7 +485,7 @@ def choose_bucket(opp):
     # even when the city is not Tokyo (they are still medium-perfect and actionable).
     # This handles nwws.org, cspwc.ca, and similar juried watercolor societies.
     if (
-        opp.get("category") == "global_watercolor_open_call"
+        opp.get("category") in ("global_watercolor_open_call", "japan_watercolor_open_call")
         and opp.get("native_medium") == "painting"
         and opp.get("verification_status") in ("verified", "strong_partial")
         and score >= 7.0
@@ -538,11 +538,24 @@ def choose_bucket(opp):
     if years and max(int(y) for y in years) <= 2023:
         return "research_needed"
 
-    # Confirmed watercolor-medium Tokyo events with high score → immediate_best_moves.
-    # Prevents native painting opportunities from being misrouted to research_needed.
+    # Confirmed watercolor-medium events (Tokyo OR anywhere in Japan) with high
+    # score → immediate_best_moves. Broadened from city=="tokyo" to also accept
+    # country=="Japan", since many nationwide JP calls list city as "Japan"/blank
+    # and were being misrouted to research_needed.
+    _city_lc = str(opp.get("city") or "").lower()
+    _in_japan = _city_lc in ("tokyo", "") or str(opp.get("country") or "") == "Japan"
+    # Evergreen venue categories (browse/consign/pitch anytime) are relationship
+    # plays, NOT dated act-now moves — keep them out of immediate_best_moves even
+    # when painting-fit and high-scoring.
+    _evergreen_venue = opp.get("category") in (
+        "gallery", "gallery_small", "gallery_event", "cafe_gallery",
+        "bookstore_gallery", "bookstore_event", "event_space",
+        "zine_shop_consignment", "artist_space", "fair_popup",
+    )
     if (
         opp.get("native_medium") == "painting"
-        and str(opp.get("city") or "").lower() in ("tokyo", "")
+        and _in_japan
+        and not _evergreen_venue
         and score >= 7.5
         and opp.get("verification_status") in ("verified", "strong_partial")
     ):
@@ -552,10 +565,14 @@ def choose_bucket(opp):
     if has(text, tier_4_terms):
         return "stretch_targets"
 
-    # Tier 1 ambient visibility — immediate or japan book ecosystem
+    # Tier 1 ambient visibility — evergreen zine/bookshop ecosystem venues
+    # (UTRECHT, art book fairs, zine fairs...). These are RELATIONSHIP plays you
+    # pitch/consign anytime, NOT dated "act now" moves — route them to the
+    # ecosystem shelf, never immediate_best_moves, so the act-now surface stays
+    # reserved for dated, enterable open calls. (Real dated watercolor open calls
+    # named in this list — NWWS/CSPWC — are already promoted earlier by the
+    # watercolor-category gate before reaching here.)
     if has(text, tier_1_terms):
-        if visual >= 3 or score >= 7.5:
-            return "immediate_best_moves"
         return "japan_book_ecosystem"
 
     # High visual fit + publication angle → immediate
