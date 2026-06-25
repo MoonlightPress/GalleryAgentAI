@@ -6,6 +6,9 @@ export const LICENSING_LANDSCAPE = {
   "summaryKey": "sf.licensing.summary",
   "where_to_start": "Most licensing starts as a DM from a brand that already follows you — so add 'licensing available' and a contact link to your Instagram bio. The one asset worth building when you have an afternoon: a licensing lookbook (10–20 works shown as product mockups, one PDF) you can send the moment someone asks.",
   "where_to_start_zh": "大多数授权都始于一个已经关注你的品牌发来的私信——所以先在 Instagram 简介里加上「开放授权合作」和联系方式链接。有空的下午值得做的一件事：一份授权作品集（10–20 件作品以产品效果图呈现，整理成一个 PDF），有人问起时随时可发。",
+  "lead": "Your watercolor and stationery-leaning work suits calendars, postcards & greeting cards, washi tape & stickers, and notebook & planner covers. The natural partners are Japanese stationery houses (Hobonichi, Midori/Designphil, Mark's, Stalogy) and lifestyle brands. It's all optional — there's no pressure to chase any of it.",
+  "lead_zh": "你那带有水彩与文具气质的作品，天然适合日历、明信片与贺卡、和纸胶带与贴纸，以及笔记本与手帐封面。可以合作的对象，是日本的文具品牌（Hobonichi、Midori／Designphil、Mark's、Stalogy）与生活方式品牌。这些都是可选的——不必去追，毫无压力。",
+  "lead_ja": "水彩と文具的な世界観をもつあなたの作品は、カレンダー、ポストカードやグリーティングカード、マスキングテープやステッカー、ノートや手帳カバーによく合います。相性のよいパートナーは、日本の文具メーカー（ほぼ日、ミドリ／デザインフィル、マークス、Stalogy）やライフスタイルブランド。どれも任意で、追いかけるプレッシャーはありません。",
   "items": [
     {
       "category": "Japanese Stationery Brands",

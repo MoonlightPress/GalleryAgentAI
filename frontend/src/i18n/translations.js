@@ -483,7 +483,7 @@ const zh = {
 
   // ── Saffron insight sections ──────────────────────────────────────────────
   'sf.licensing.title':      '授权版图',
-  'sf.licensing.summary':    '你的水彩与文具气质的作品，天然适合日历、明信片与贺卡、和纸胶带与贴纸、笔记本与手帐封面。可以合作的对象包括日本文具品牌（Hobonichi、Midori／Designphil、Mark’s、Stalogy）与生活方式品牌。授权通常始于对方主动发来的私信，所以你要做的只是「让人能找到你」——有人问起时，再准备一份一页的作品集 PDF 就够了。都是可选的，毫无压力。',
+  'sf.licensing.summary':    '你的作品可以变成哪些产品——以及这类合作通常如何开始。',
   'sf.label.whereToStart':   '从何入手',
   'sf.press.title':          '媒体投稿地图',
   'sf.press.summary':        '哪些刊物会报道像你这样的艺术家，以及如何被发现（而非主动申请）。',
@@ -1576,7 +1576,7 @@ const ja = {
 
   // ── Saffron insight sections ──────────────────────────────────────────────
   'sf.licensing.title':      'ライセンス市場',
-  'sf.licensing.summary':    'あなたの水彩と文具的な作風は、カレンダー、ポストカードやグリーティングカード、マスキングテープやステッカー、ノートや手帳のカバーに自然と合います。相手になりうるのは日本の文具メーカー（ほぼ日、ミドリ／デザインフィル、マークス、Stalogy）やライフスタイルブランド。ライセンスはたいてい相手からのDMで始まるので、することは「見つけてもらえる状態にしておく」だけ——求められたときに一枚もののルックブックPDFを用意すれば十分です。どれも任意で、プレッシャーはありません。',
+  'sf.licensing.summary':    'あなたの作品が製品になりうる場所と、そうした話の始まり方。',
   'sf.press.title':          'メディア掲載マップ',
   'sf.press.summary':        'あなたのような作家を取り上げる媒体と、応募ではなく「発見される」方法。',
   'sf.grant.title':          '助成金マップ',
@@ -2629,7 +2629,7 @@ const en = {
 
   // ── Saffron insight sections ──────────────────────────────────────────────
   'sf.licensing.title':      'Licensing Landscape',
-  'sf.licensing.summary':    'Your watercolor and stationery-leaning work suits calendars, postcards & greeting cards, washi tape & stickers, and notebook & planner covers. Natural partners are JP stationery houses (Hobonichi, Midori/Designphil, Mark’s, Stalogy) and lifestyle brands. Licensing usually starts as an inbound DM, so the only "action" is being findable — and, if you ever feel like it, a one-PDF lookbook to send when someone asks. All optional, no pressure.',
+  'sf.licensing.summary':    'Where your work could live as products — and how those deals usually start.',
   'sf.label.whereToStart':   'Where to start',
   'sf.press.title':          'Press & Pitch Map',
   'sf.press.summary':        'Which publications cover artists like you, and how to be discovered (not just apply).',
