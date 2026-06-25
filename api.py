@@ -804,6 +804,77 @@ _RECURRING_HINTS = (
 )
 
 
+_NTH_EDITION_RE = re.compile(r"第\s*\d+\s*[回届]")
+_JP_RECUR_MARKERS = ("祭典", "コンクール", "公募展", "公募", "年次", "毎年", "恒例", "隔年")
+
+
+def _is_recurring_opp(item: dict) -> bool:
+    """Recurring/annual event? Mirrors the bucket engine: Nth-edition (第N回) +
+    Japanese annual markers + English hints, checked over the name and deadline."""
+    name = str(item.get("name") or item.get("title") or "")
+    if _NTH_EDITION_RE.search(name):
+        return True
+    blob = (name + " " + str(item.get("deadline") or "") + " "
+            + str(item.get("cycle_note") or "")).lower()
+    return (any(h in blob for h in _RECURRING_HINTS)
+            or any(m in blob for m in _JP_RECUR_MARKERS))
+
+
+def _deadline_max_date(item: dict):
+    """Latest concrete calendar date in the deadline field, or None. Kept separate
+    from _deadline_passed so that function's tested behavior is untouched."""
+    raw = str(item.get("deadline") or "")
+    dates = []
+    for y, mo, d in re.findall(r"(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})", raw):
+        try: dates.append(datetime(int(y), int(mo), int(d)).date())
+        except Exception: pass
+    for y, mo, d in re.findall(r"(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", raw):
+        try: dates.append(datetime(int(y), int(mo), int(d)).date())
+        except Exception: pass
+    for mon, d, y in re.findall(r"([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s+(20\d{2})", raw):
+        if mon[:3].lower() in _MONTHS_EN:
+            try: dates.append(datetime(int(y), _MONTHS_EN[mon[:3].lower()], int(d)).date())
+            except Exception: pass
+    for d, mon, y in re.findall(r"(\d{1,2})\s+([A-Za-z]{3,9})\.?\s+(20\d{2})", raw):
+        if mon[:3].lower() in _MONTHS_EN:
+            try: dates.append(datetime(int(y), _MONTHS_EN[mon[:3].lower()], int(d)).date())
+            except Exception: pass
+    for mo, d, y in re.findall(r"\b(\d{1,2})/(\d{1,2})/(20\d{2})\b", raw):
+        try: dates.append(datetime(int(y), int(mo), int(d)).date())
+        except Exception: pass
+    for y, mo in re.findall(r"(20\d{2})\s*年\s*(\d{1,2})\s*月", raw):
+        try: dates.append(datetime(int(y), int(mo), 28).date())
+        except Exception: pass
+    return max(dates) if dates else None
+
+
+def _next_occurrence(item: dict):
+    """Sort date for a missed call: recurring events roll ~1 year forward so they
+    resurface as prep targets; everything else keeps its actual date."""
+    d = _deadline_max_date(item)
+    if d is None:
+        return None
+    if item.get("deadline_past") and _is_recurring_opp(item):
+        try:
+            return d.replace(year=d.year + 1)
+        except ValueError:
+            return datetime(d.year + 1, d.month, 28).date()
+    return d
+
+
+def _feed_order_key(item: dict):
+    """Suggestion-feed order (ascending): live/upcoming calls first (best score
+    first), then missed-but-recurring shows by their NEXT round (so they float
+    back up as the date nears — 'missed' becomes 'prep now'), then dead one-offs
+    at the very back. Cross-tier comparison stops at position 0, so the differing
+    types in position 1 never compare across tiers."""
+    if not item.get("deadline_past"):
+        return (0, -_ranked_score(item))
+    if _is_recurring_opp(item):
+        return (1, (_next_occurrence(item) or datetime.max.date()).toordinal())
+    return (2, -((_deadline_max_date(item) or datetime.min.date()).toordinal()))
+
+
 def _deadline_passed(item: dict, today=None) -> bool:
     """True only when a concrete, non-recurring deadline date is clearly in the past.
     Evaluated at serve time so a deadline that passes between monthly passes is caught
@@ -931,7 +1002,9 @@ def opportunities_data_updated_at() -> str | None:
 
 def bucket(items: list) -> dict:
     # Sort by ranked score: photography yields 1 pt to painting at equal quality
-    scored = sorted(items, key=_ranked_score, reverse=True)
+    # Suggestion-queue order: live/upcoming calls first, then missed-but-recurring
+    # shows by their next round (resurface as prep targets), then dead one-offs last.
+    scored = sorted(items, key=_feed_order_key)
 
     # ── Submission log suppression ────────────────────────────────────────────
     _pending_names, _rejected_names, _accepted = _load_submission_states()
