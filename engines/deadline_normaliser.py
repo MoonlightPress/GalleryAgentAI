@@ -60,6 +60,13 @@ _MONTH_DAY_YEAR_RE = re.compile(r'(' + MONTH_NAMES + r')[a-z]*\.?\s+(\d{1,2})(?:
 _DAY_MONTH_YEAR_RE = re.compile(r'\b(\d{1,2})(?:st|nd|rd|th)?\s+(' + MONTH_NAMES + r')[a-z]*\.?[,\s]+(20\d{2})', re.IGNORECASE)
 _ISO_YM_RE        = re.compile(r'(20\d{2})[-/](\d{1,2})(?![-/\d])')
 _MONTH_YEAR_RE    = re.compile(r'(' + MONTH_NAMES + r')[a-z]*\.?[,\s]+(20\d{2})', re.IGNORECASE)
+# Japanese-format dates — her most relevant calls (JP watercolor exhibitions) use
+# these, and the Western regexes above can't read them. 令和 (Reiwa) era: western
+# year = 2018 + reiwa year (令和1 = 2019).
+_JP_YMD_RE    = re.compile(r'(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日')
+_JP_YM_RE     = re.compile(r'(20\d{2})\s*年\s*(\d{1,2})\s*月')
+_REIWA_YMD_RE = re.compile(r'令和\s*(\d{1,2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日')
+_REIWA_YM_RE  = re.compile(r'令和\s*(\d{1,2})\s*年\s*(\d{1,2})\s*月')
 
 
 def _safe_date(y: int, mo: int, d: int):
@@ -74,6 +81,23 @@ def parse_deadline_date(deadline_field: str):
     undatable. Month/year-only deadlines resolve to the last day of that month —
     a month-year deadline is not 'past' until the whole month is over."""
     s = str(deadline_field or "")
+    # Japanese-format dates first (unambiguous; the Western regexes can't read them).
+    m = _JP_YMD_RE.search(s)
+    if m:
+        return _safe_date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    m = _REIWA_YMD_RE.search(s)
+    if m:
+        return _safe_date(2018 + int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    m = _JP_YM_RE.search(s)
+    if m:
+        y, mo = int(m.group(1)), int(m.group(2))
+        if 1 <= mo <= 12:
+            return _safe_date(y, mo, calendar.monthrange(y, mo)[1])
+    m = _REIWA_YM_RE.search(s)
+    if m:
+        y, mo = 2018 + int(m.group(1)), int(m.group(2))
+        if 1 <= mo <= 12:
+            return _safe_date(y, mo, calendar.monthrange(y, mo)[1])
     m = _ISO_FULL_RE.search(s)
     if m:
         return _safe_date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
