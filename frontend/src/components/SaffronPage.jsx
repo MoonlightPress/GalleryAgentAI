@@ -475,6 +475,7 @@ function ComparableArtists({ artists, t }) {
       title={t('sf.sec.peers')}
       subtitle={t('sf.sub.peers')}
       summary={summary}
+      defaultOpen={false}
     >
       <p className="sf-peers-caveat">{t('sf.label.peersCaveat')}</p>
       <div className="sf-peers-grid">
@@ -620,6 +621,7 @@ function CareerBenchmarks({ data, t }) {
       title={t('sf.sec.benchmarks')}
       subtitle={t('sf.sub.benchmarks')}
       summary={summary}
+      defaultOpen={false}
     >
       <p className="sf-peers-caveat">{data.summary}</p>
       <div className="sf-benchmark-grid">
@@ -1157,7 +1159,7 @@ function PressPitchMap({ t, lang }) {
               {item.contact && (
                 <div className="sf-press-pitch-contact">
                   <span className="sf-press-pitch-meta-label">{t('sf.label.contactColon')}</span>
-                  {item.contact}
+                  {locF(item, 'contact', lang)}
                 </div>
               )}
               {item.timeline && (
@@ -1514,7 +1516,7 @@ function TimingIntelligence({ data, t }) {
 function CareerTimeline({ t, lang }) {
   const d = localizeDeep(CAREER_TIMELINE, lang)
   return (
-    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)}>
+    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)} defaultOpen={false}>
       <div className="sf-insight-callout">{d.overall_assessment}</div>
 
       <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.timeline.artistStage')}</div>
