@@ -92,15 +92,21 @@ test('localizeDeadline: no English leak for unparseable English deadline in zh',
 })
 
 test('daysUntilDeadline / isUrgentDeadline: relative to today', () => {
+  // Build the date string from LOCAL calendar components. parseDeadlineDate reads
+  // "YYYY-MM-DD" as LOCAL midnight, so using toISOString() (UTC) here drifts the
+  // date by a day near a timezone / midnight boundary and makes this flaky.
+  const toLocalISO = (d) =>
+    `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+
   const inThree = new Date()
   inThree.setDate(inThree.getDate() + 3)
-  const iso = inThree.toISOString().slice(0, 10)
+  const iso = toLocalISO(inThree)
   assert.equal(daysUntilDeadline(iso), 3)
   assert.equal(isUrgentDeadline(iso), true)
 
   const inThirty = new Date()
   inThirty.setDate(inThirty.getDate() + 30)
-  const isoFar = inThirty.toISOString().slice(0, 10)
+  const isoFar = toLocalISO(inThirty)
   assert.equal(isUrgentDeadline(isoFar), false)
 
   assert.equal(isUrgentDeadline('2000-01-01'), false) // past
