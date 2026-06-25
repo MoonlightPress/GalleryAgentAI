@@ -518,7 +518,7 @@ function CareerPosition({ data, t }) {
   // (no value to her). Instagram now lives ONCE in the app as the audience fact.
   const summary = CAREER_SUMMARY[lang] || CAREER_SUMMARY.en
 
-  const igStr = ig?.followers || '26k'
+  const igStr = ig?.followers || '27k'
   // "You're here" markers — NOT progress-to-target rings. The old rings rendered
   // a strength half-empty (e.g. an established count shown as "52% to 50k"), which contradicts the app's own
   // "growth is a bonus, not a requirement." A marker states where she stands; it

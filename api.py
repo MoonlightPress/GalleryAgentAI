@@ -1779,7 +1779,7 @@ def get_saffron():
             },
         ],
         "social": [
-            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "26k", "posts": None},
+            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "27k", "posts": None},
         ],
         "education": {
             "institution": "Beijing Fashion Institute",
