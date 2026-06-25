@@ -396,120 +396,87 @@ export const GRANT_LANDSCAPE = {
 export const REVENUE_STREAMS = {
   "titleKey": "sf.revenue.title",
   "summaryKey": "sf.revenue.summary",
-  "where_to_start": "You already have a BASE shop (gegyjiji.base.shop) with originals, zines, and prints — several sold out, so the demand is clearly there. The next step is making that shop work harder: link it in your Instagram bio and a weekly Story, and turn sold-out originals into numbered print editions so the demand keeps converting.",
-  "where_to_start_zh": "你已经有一家 BASE 店铺（gegyjiji.base.shop），上面有原作、作品集和版画——好几件已经售罄，说明需求实实在在。下一步是让这家店更高效：把链接放进 Instagram 简介和每周的 Stories，并把已售罄的原作做成编号限量版，让需求持续转化。",
+  "where_to_start": "There's no single right way to earn from your work, and none of this is urgent. If you ever want a gentle place to begin, the lowest-effort step is simply linking wherever your work can be found in your Instagram bio, so people who already love it can find it. Everything below is optional — pick only what feels good.",
+  "where_to_start_zh": "靠作品赚钱没有唯一正确的方式，而且这些都不急。如果哪天你想轻松地起个头，最省力的一步就是把能找到你作品的地方放进 Instagram 简介里，让已经喜欢你作品的人能找到它。以下内容都是可选的——只挑让你觉得舒服的去做就好。",
+  "where_to_start_ja": "作品で収入を得る「正解」は一つではありませんし、どれも急ぐ必要はありません。もし気軽に始めたくなったら、いちばん手間のかからない一歩は、あなたの作品を見られる場所を Instagram のプロフィールにリンクしておくこと。すでに作品を好きでいてくれる人が見つけやすくなります。以下はすべて任意です——心地よいと感じるものだけを選んでください。",
   "items": [
     {
-      "stream": "SUZURI (passive income)",
-      "realistic_monthly": "¥10,000–30,000/month with active promotion", "realistic_monthly_zh": "在积极推广下，每月 ¥10,000–30,000", "realistic_monthly_ja": "積極的な宣伝を行えば月¥10,000〜30,000",
-      "setup_time": "1–2 days initial setup; 1 hr/week maintenance", "setup_time_zh": "初期搭建 1–2 天；每周维护 1 小时", "setup_time_ja": "初期設定に1〜2日、維持は週1時間",
-      "description": "Japanese print-on-demand platform. Upload art → SUZURI produces and ships. Zero fulfillment work. Products: acrylic keychains, cloth pouches, tote bags, art prints, phone cases.",
-      "why_now": "Her BASE shop already covers originals, zines, and prints. SUZURI is a separate, optional layer for hands-off merch — totes, cases, keychains — that she'd otherwise have to produce and ship herself.",
-      "action": "Optional: if she wants merch beyond prints, open a SUZURI store and upload 20–30 works — it produces and ships everything.",
+      "stream": "Print-on-demand merch (optional)",
+      "setup_time": "1–2 days if you ever try it; 1 hr/week", "setup_time_zh": "若想试试，初期 1–2 天；每周约 1 小时", "setup_time_ja": "もし試すなら初期1〜2日、維持は週1時間ほど",
+      "description": "Print-on-demand platforms (e.g. SUZURI) produce and ship merch — totes, pouches, cases, art prints — from an uploaded image, with no inventory to hold. It's a hands-off option some illustrators enjoy, not something you need.",
+      "why_now": "This is purely optional. If the idea of low-effort merch sounds fun, it's there; if it doesn't, there's nothing to fix by skipping it.",
       "leaving_on_table": false,
-      "stream_zh": "SUZURI（被动收入）",
-      "stream_ja": "SUZURI（不労所得）",
-      "description_zh": "日本按需印刷平台。上传作品 → SUZURI 负责生产与配送，无需处理任何履单事务。产品包括：亚克力钥匙扣、布艺小袋、帆布包、艺术印刷品、手机壳。",
-      "description_ja": "日本のプリントオンデマンドプラットフォーム。作品をアップロードするだけで、SUSURIが製造・発送まで対応。在庫管理や発送作業は一切不要。取扱商品：アクリルキーホルダー、布ポーチ、トートバッグ、アートプリント、スマホケース。",
-      "why_now_zh": "她的 BASE 店铺已涵盖原作、作品集和版画。SUZURI 是另一条可选渠道，专做免履单的周边——帆布包、手机壳、钥匙扣——这些若自己生产发货会很麻烦。",
-      "why_now_ja": "フォロワー2.6万人のうち、毎月0.1%をSUSURIのショップに誘導するだけで、安定した不労収入が生まれる。多くの水彩画家がこの手段を活かしきれていない。",
-      "action_zh": "可选：如果想做版画以外的周边，可以再开一个 SUZURI 店铺，上传 20–30 件作品——生产和配送全由平台代劳。",
-      "action_ja": "suzuri.jp でショップを開設し、20〜30点の作品をアップロード。毎週ストーリーズのハイライトにショップリンクを掲載する。"
+      "stream_zh": "按需印刷周边（可选）",
+      "stream_ja": "プリントオンデマンドのグッズ（任意）",
+      "description_zh": "按需印刷平台（如 SUZURI）可以根据你上传的图像生产并配送周边——帆布包、小袋、手机壳、艺术印刷品——无需囤货。这是一些插画师喜欢的省心选项，但并非必需。",
+      "description_ja": "プリントオンデマンドのプラットフォーム（例：SUZURI）は、アップロードした画像からグッズ（トートバッグ、ポーチ、ケース、アートプリントなど）を製造・発送してくれます。在庫を抱える必要はありません。手間のかからない選択肢として楽しむ人もいますが、必須ではありません。",
+      "why_now_zh": "这完全是可选项。如果你觉得做点省心的周边挺有意思，它就在那儿；如果不感兴趣，跳过它也不会损失什么。",
+      "why_now_ja": "これは完全に任意です。手軽なグッズづくりが楽しそうだと感じたら選べますし、そうでなければ、やらないことで失うものは何もありません。"
     },
     {
-      "stream": "Booth.pm",
-      "realistic_monthly": "¥10,000–25,000 — lower traffic, higher margin", "realistic_monthly_zh": "¥10,000–25,000 —— 流量更低，利润率更高", "realistic_monthly_ja": "¥10,000〜25,000 —— トラフィックは低めだが利益率は高い",
-      "setup_time": "1 day",
-      "description": "Japanese direct-to-artist platform (like Gumroad). No fulfillment. Good for: original sale announcements, limited edition print files, digital goods (process videos, reference photos, custom brushes).",
-      "why_now": "Higher margin than SUZURI because no middleman production cost on digital goods. Originals can be listed here too.",
-      "action": "Create Booth store, list 5–10 digital downloads, link in Instagram bio alongside SUZURI.",
+      "stream": "Booth.pm (another optional home for work)",
+      "description": "Booth.pm is a Japanese direct-to-artist platform (a bit like Gumroad). If you ever want a simple place for digital goods — process videos, reference photos, custom brushes — or to announce a piece, it's a low-friction option. Purely one more open door, not something to set up unless it appeals.",
+      "why_now": "Useful to know it exists; nothing about it is urgent or expected.",
       "leaving_on_table": false,
-      "stream_zh": "Booth.pm",
-      "stream_ja": "Booth.pm",
-      "description_zh": "日本面向创作者的直销平台（类似 Gumroad）。无需处理履单事务。适合用途：原作出售公告、限量版印刷文件、数字商品（过程视频、参考照片、自定义笔刷）。",
-      "description_ja": "クリエイター向けの日本の直販プラットフォーム（Gumroad に近い形式）。在庫・発送管理は不要。活用例：原画の販売告知、限定版プリントデータの販売、デジタルコンテンツ（制作過程の動画、参考写真、カスタムブラシなど）。",
-      "why_now_zh": "由于数字商品无需中间生产环节，利润率高于 SUZURI。原作也可在此平台上架销售。",
-      "why_now_ja": "デジタル商品は中間の製造コストがかからないため、SUSURIよりも利益率が高い。原画の出品にも対応している。",
-      "action_zh": "创建 Booth 店铺，上架5–10个数字下载商品，并在 Instagram 个人简介中与 SUZURI 链接一同展示。",
-      "action_ja": "Boothのショップを開設し、5〜10点のデジタルダウンロード商品を出品。InstagramのプロフィールにSUSURIと並べてリンクを掲載する。"
+      "stream_zh": "Booth.pm（作品另一个可选的去处）",
+      "stream_ja": "Booth.pm（作品のもう一つの任意の置き場所）",
+      "description_zh": "Booth.pm 是日本一个面向创作者的直销平台（有点像 Gumroad）。如果你哪天想给数字商品——过程视频、参考照片、自定义笔刷——找个简单的去处，或想发布某件作品，它是个省事的选项。它只是又一扇开着的门，不感兴趣就不必去搭建。",
+      "description_ja": "Booth.pm はクリエイター向けの日本の直販プラットフォームです（Gumroad に少し似ています）。もしいつか、デジタル商品（制作過程の動画、参考写真、カスタムブラシなど）の簡単な置き場所が欲しくなったり、作品を告知したくなったりしたら、手軽な選択肢になります。あくまでもう一つの開いた扉であり、気が向かなければ用意する必要はありません。",
+      "why_now_zh": "知道有这么个平台就好；它一点也不急，也不是非做不可。",
+      "why_now_ja": "そういう場所があると知っておくだけで十分です。急ぐことも、求められることも何もありません。"
     },
     {
-      "stream": "Original sales (Instagram)",
-      "realistic_monthly": "¥40,000–250,000 (highly variable)",
-      "realistic_monthly_zh": "¥40,000–250,000（波动较大）",
-      "realistic_monthly_ja": "¥40,000〜250,000（変動が大きい）",
-      "description": "Most effective channel at her follower count. Sale mechanics: post with 'DM to inquire' or link to Booth.pm. Announce limited availability — scarcity is real and creates urgency.",
-      "pricing": "Small (A5 or smaller): ¥30,000–80,000 | Medium (A4): ¥80,000–200,000 | Large (A3+): ¥200,000+",
-      "why_now": "26k is an engaged, art-buying audience. A steady 1 original/month at ¥80k = ¥960k/year — a realistic target to build toward, not yet a guaranteed monthly rate at this audience size.",
-      "action": "Announce next available original in Instagram Stories with DM link.",
-      "leaving_on_table": true,
-      "stream_zh": "原作销售（Instagram）",
-      "stream_ja": "原画販売（Instagram）",
-      "description_zh": "在当前粉丝规模下，这是最有效的销售渠道。销售方式：发帖时附上\"私信咨询\"或 Booth.pm 链接，同时公告限量供应——稀缺性是真实存在的，能有效制造紧迫感。",
-      "description_ja": "現在のフォロワー数において、最も効果的な販売チャネル。販売方法：「購入希望の方はDMへ」またはBooth.pmのリンクを添えて投稿する。限定数量であることを明示すること——希少性は本物であり、購買意欲を高める効果がある。",
-      "pricing_zh": "小幅（A5或更小）：¥30,000–80,000 | 中幅（A4）：¥80,000–200,000 | 大幅（A3以上）：¥200,000+",
-      "pricing_ja": "小（A5以下）：¥30,000〜80,000 | 中（A4）：¥80,000〜200,000 | 大（A3以上）：¥200,000〜",
-      "why_now_zh": "2.6万粉丝 = 高意向受众。即使每月仅售出1幅原作，定价 ¥80,000，年收入即可达 ¥960,000。",
-      "why_now_ja": "フォロワー2.6万人＝購買意欲の高いオーディエンス。月に原画1点を¥80,000で販売するだけで、年収¥960,000になる。",
-      "action_zh": "在 Instagram Stories 中发布下一幅可售原作的预告，并附上私信链接。",
-      "action_ja": "次の販売予定の原画をInstagramストーリーズで告知し、DMへのリンクを添える。"
-    },
-    {
-      "stream": "Print editions",
-      "realistic_monthly": "¥30,000–120,000 per edition release (partial sell-through at this audience size)", "realistic_monthly_zh": "每次发行版画 ¥30,000–120,000（在当前受众规模下为部分售罄）", "realistic_monthly_ja": "エディション1回のリリースあたり¥30,000〜120,000（現在の観客規模では一部販売）",
-      "description": "Numbered limited editions, signed by artist. Rule: if original sells for ¥80k, edition of 20 prints at ¥8–15k each = ¥160–300k total. Edition keeps original's value while generating cash.",
-      "edition_discipline": "Limit to ≤30 per image. Sign and number all. Announce clearly: '1/20', '20/20 — SOLD OUT'. Scarcity is the product.", "edition_discipline_zh": "每幅图限量 ≤30 版。全部签名并编号。清晰标注：「1/20」「20/20 —— 售罄」。稀缺性本身就是产品。", "edition_discipline_ja": "1図版あたり30点以下に限定。すべてにサインと番号を入れる。「1/20」「20/20 —— 完売」と明確に告知する。希少性こそが商品だ。",
-      "why_now": "Consistent art practice = continuous content for editions. Monthly limited release is manageable.",
-      "action": "Choose 3 strong images, order test prints (Print Packs, Printize, or local lab), photograph and list.",
-      "leaving_on_table": true,
-      "stream_zh": "版画限量版",
-      "stream_ja": "限定版プリント",
-      "description_zh": "由艺术家签名的编号限量版。参考规则：若原作售价为 ¥80,000，则可发行20版印刷品，每件定价 ¥8,000–15,000，合计收入 ¥160,000–300,000。限量版在维持原作价值的同时，也能带来现金收益。",
-      "description_ja": "作家直筆サイン入りのナンバリング限定版。目安として：原画が¥80,000で売れた場合、同作品を20部限定でプリント販売し、1点あたり¥8,000〜15,000に設定すると、合計¥160,000〜300,000の収益になる。限定版の発行は原画の価値を保ちながら、現金収入も生み出せる。",
-      "why_now_zh": "持续的创作实践意味着可持续产出版画内容。每月发行一次限量版是可行且可持续的节奏。",
-      "why_now_ja": "継続的な制作活動は、限定版プリントのコンテンツを途切れなく供給することにつながる。月1回の限定リリースは無理なく続けられるペースだ。",
-      "action_zh": "挑选3幅优质作品，订购打样（Print Packs、Printize 或当地冲印店），拍照后上架销售。",
-      "action_ja": "強い作品を3点選び、テスト印刷を発注する（Print Packs、Printize、または地元のラボを活用）。仕上がりを撮影し、出品する。"
-    },
-    {
-      "stream": "Commissions",
-      "realistic_monthly": "¥40,000–300,000 depending on volume", "realistic_monthly_zh": "¥40,000–300,000，视数量而定", "realistic_monthly_ja": "数量に応じて¥40,000〜300,000",
-      "pricing": "Personal commission (individual person): ¥30,000–80,000 | Commercial (brand, book, magazine): ¥100,000–500,000 | Brand licensing: separate — see Licensing section",
-      "description": "With a 26k engaged following, she can charge confident rates. The mistake most artists make: undercharging because they feel unqualified. A real audience of this size is evidence of genuine market interest.",
-      "action": "Post commission announcement quarterly with clear pricing and 'DM to inquire'. Set a limit (e.g., 3/quarter) to create urgency.",
+      "stream": "Sharing originals when you want to",
+      "description": "For many artists with an engaged following, simply letting people know directly (a quiet 'DM to inquire' note, or a link) is the most natural way work finds a home. There's no schedule you owe anyone — share a piece when it feels right.",
+      "why_now": "An audience that loves your daily work is a gentle, real foundation. Nothing here needs to happen on a timeline.",
       "leaving_on_table": false,
-      "stream_zh": "委托创作",
-      "stream_ja": "受注制作（コミッション）",
-      "pricing_zh": "个人委托（私人委托）：¥30,000–80,000 | 商业委托（品牌、书籍、杂志）：¥100,000–500,000 | 品牌授权：另行议定——详见授权章节",
-      "pricing_ja": "個人からの依頼：¥30,000〜80,000 | 商業案件（ブランド・書籍・雑誌）：¥100,000〜500,000 | ブランドライセンス：別途設定——ライセンスのセクションを参照",
-      "description_zh": "拥有2.6万粉丝，她完全可以收取专业级报酬。大多数艺术家常犯的错误是：因觉得自己资历不足而压低定价。2.6万粉丝本身就是市场认可度的有力证明。",
-      "description_ja": "フォロワーが2.6万人いれば、プロとしての報酬を堂々と設定できる。多くのアーティストが犯しがちなミス：「まだ実力が足りない」という思い込みから値段を低く設定してしまうこと。フォロワー2.6万人という数字は、市場価値の立派な証明だ。",
-      "action_zh": "每季度发布一次约稿公告，注明明确定价及\"私信咨询\"。设置数量限制（如每季度3个名额）以制造稀缺感。",
-      "action_ja": "四半期ごとにコミッション受付の告知を投稿し、明確な料金と「DMにてお問い合わせください」を記載する。緊急感を生むために枠数を限定する（例：四半期3枠）。"
+      "stream_zh": "想分享时再分享原作",
+      "stream_ja": "気が向いたときに原画をシェアする",
+      "description_zh": "对很多拥有活跃受众的艺术家来说，直接让大家知道（一句安静的\"私信咨询\"，或一个链接）往往是作品找到归属最自然的方式。你不欠任何人一个时间表——想分享某幅作品时再分享就好。",
+      "description_ja": "熱心なフォロワーがいる多くのアーティストにとって、ただ直接知らせること（「購入希望の方はDMへ」という静かな一言や、リンク）が、作品が居場所を見つけるいちばん自然な方法であることが多いです。誰に対しても予定を負う必要はありません——気が向いたときに作品をシェアすれば十分です。",
+      "why_now_zh": "一群喜爱你日常作品的受众，本身就是温和而真实的基础。这里的一切都无需赶时间。",
+      "why_now_ja": "あなたの日々の作品を愛してくれるオーディエンスの存在は、穏やかで確かな土台です。ここにあることは、何ひとつ急ぐ必要はありません。"
     },
     {
-      "stream": "Consignment at galleries/bookshops",
-      "realistic_monthly": "¥20,000–100,000 passive",
-      "realistic_monthly_zh": "¥20,000–100,000（被动收入）",
-      "realistic_monthly_ja": "¥20,000〜100,000（受動的収入）",
-      "description": "Leave prints/originals at Gallery X, bookshop, or café on consignment. Gallery/shop takes 30–50%, you keep 50–70%. Passive once set up — work is physically present and selling while you're elsewhere.",
-      "action": "Approach 2–3 Tier 1-2 venues (UTRECHT, flotsam books, B&B Shimokitazawa) with a consignment proposal: 5–10 prints + 1–2 originals.",
-      "leaving_on_table": true,
-      "stream_zh": "委托寄售至画廊／书店",
-      "stream_ja": "ギャラリー・書店への委託販売",
-      "description_zh": "将版画或原作寄售至Gallery X、书店或咖啡馆。画廊／店铺抽取30–50%，你保留50–70%。一旦布置完毕即可被动获利——作品实体陈列，即使你不在场也能持续销售。",
-      "description_ja": "版画や原画をGallery X、書店、カフェに委託で預ける。ギャラリー・店舗側が30〜50%を取り、あなたの取り分は50〜70%。一度設置すれば手間いらず——作品が現地に置かれ、あなたが他にいる間も売れ続ける。",
-      "action_zh": "向2–3家一、二线场所（UTRECHT、flotsam books、B&B Shimokitazawa）提交寄售方案：5–10幅版画 + 1–2幅原作。",
-      "action_ja": "UTRECHT、flotsam books、B&B Shimokitazawaなど、上位1〜2層の会場2〜3か所に委託提案を持ちかける。内容は版画5〜10点＋原画1〜2点。"
+      "stream": "A numbered-print tier (one option, if you'd like)",
+      "description": "Some artists add a small line of numbered, signed prints alongside their originals — it's one way to let more people live with the work without parting with the original. It's entirely optional, and many artists are happy never doing it. Mentioned only so you know the door exists.",
+      "edition_discipline": "If you ever try it: a fixed edition size (say ≤30), signed and numbered, keeps prints feeling special. There's no rush and no quota.", "edition_discipline_zh": "如果哪天想试：固定一个版数（比如 ≤30 版），签名并编号，能让版画保持特别感。不急，也没有任何指标。", "edition_discipline_ja": "もし試すなら：エディション数を固定し（例：30点以下）、サインと番号を入れると、プリントが特別なものに保たれます。急ぐ必要も、ノルマもありません。",
+      "why_now": "There's no gap here and nothing missing — this is simply an idea on the shelf for whenever (or never) you want it.",
+      "leaving_on_table": false,
+      "stream_zh": "编号限量版画（一个可选项，如果你愿意的话）",
+      "stream_ja": "ナンバリング入りプリントの展開（やってみたければ、という一つの選択肢）",
+      "description_zh": "一些艺术家会在原作之外，再做一小批编号、签名的版画——这是让更多人把作品带回家、同时又不必割舍原作的一种方式。它完全是可选的，许多艺术家也乐于从不涉足。在这里提到，只是想让你知道这扇门存在。",
+      "description_ja": "原画とは別に、ナンバリング・サイン入りのプリントを少量展開するアーティストもいます。原画を手放さずに、より多くの人に作品を楽しんでもらう一つの方法です。これは完全に任意で、まったくやらないという選択をするアーティストもたくさんいます。ここで触れたのは、そういう扉があると知っておいてもらうためだけです。",
+      "why_now_zh": "这里没有任何缺口、也没有任何缺失——这只是一个搁在架上的想法，你想要的时候（或永远不想）都可以。",
+      "why_now_ja": "ここには欠けているものも、埋めるべき隙間もありません——これは棚に置いてあるアイデアにすぎず、欲しくなったとき（あるいは一度も欲しくならなくても）それで構いません。"
+    },
+    {
+      "stream": "Commissions, if they find you",
+      "description": "If commission requests come your way and you'd enjoy them, they're a natural fit for your kind of work. The one gentle thing worth holding onto: artists often undercharge because they feel they should — your work is worth what it's worth, so don't let anyone talk you down. Taking commissions or not is entirely up to you.",
+      "leaving_on_table": false,
+      "stream_zh": "如果有人来约稿",
+      "stream_ja": "依頼が来たときのコミッション",
+      "description_zh": "如果有人来约稿、而你也乐意去做，这与你的创作方向很契合。唯一值得轻轻记住的一点是：艺术家常因为\"觉得应该\"而压低价格——你的作品值多少就是多少，别让任何人把你说低。接不接约稿，完全由你决定。",
+      "description_ja": "もしコミッションの依頼が舞い込み、それを楽しめそうなら、あなたの作風にとても合っています。一つだけ、そっと心に留めておきたいこと：アーティストは「そうすべき」という思い込みから値段を低くしがちです——あなたの作品の価値は、その価値のままです。誰かに安く言いくるめられないでください。受けるかどうかは、あなた次第です。"
+    },
+    {
+      "stream": "Putting work in shops you love (consignment)",
+      "description": "Bookshops, galleries and cafés will sometimes hold a few pieces on consignment — your work lives somewhere lovely and finds people while you're elsewhere. It's a calm, low-pressure way to be present in the city, and a nice excuse to visit spaces you already like.",
+      "venues_note": "If you ever feel like it, places like UTRECHT, flotsam books, or B&B Shimokitazawa are the kind of warm, on-brand spots worth a friendly hello.", "venues_note_zh": "如果哪天有心情，像 UTRECHT、flotsam books、B&B Shimokitazawa 这样温暖、气质契合的小店，值得去打个招呼。", "venues_note_ja": "もし気が向いたら、UTRECHT、flotsam books、B&B Shimokitazawa のような、温かく世界観の合う場所に気軽に声をかけてみる価値があります。",
+      "leaving_on_table": false,
+      "stream_zh": "把作品放进你喜欢的店里（寄售）",
+      "stream_ja": "好きなお店に作品を置いてもらう（委託販売）",
+      "description_zh": "书店、画廊和咖啡馆有时会代售几件作品——你的作品安放在某个可爱的角落，在你不在场时也能遇见喜欢它的人。这是一种平静、无压力的方式，让你温和地存在于这座城市里，也是个去逛逛你本就喜欢的空间的好借口。",
+      "description_ja": "書店やギャラリー、カフェは、作品を数点、委託で預かってくれることがあります。あなたの作品が素敵な場所に置かれ、あなたが他の場所にいる間も、好きになってくれる人と出会えます。穏やかで気負いのない形で街の中に存在できる方法であり、もともと好きな空間を訪ねる良い口実にもなります。"
     },
     {
       "stream": "Summary assessment",
-      "description": "With a 26k following and a consistent daily watercolor practice, she may be leaving 20–40% of achievable revenue on the table by not having: (1) her BASE shop consistently linked and promoted from Instagram, (2) quarterly print edition releases, (3) systematic consignment at 2–3 Tier 1 venues. These three together could realistically add ¥60,000–180,000/month with minimal ongoing effort.",
-      "leaving_on_table": true,
-      "stream_zh": "综合评估",
-      "stream_ja": "総合評価",
-      "description_zh": "她拥有2.6万粉丝，坚持每日水彩创作，但由于尚未建立以下机制，可能正在流失20–40%的潜在收入：(1) 把 BASE 店铺持续地从 Instagram 引流推广；(2) 定期发售季度限量版画；(3) 在2–3家一线场所系统性地开展寄售。三者结合，每月可现实地额外带来¥60,000–180,000的收入，且后续维护成本极低。",
-      "description_ja": "フォロワー2.6万人を擁し、毎日水彩画を描き続けているにもかかわらず、以下の仕組みが整っていないために、達成可能な収益の20〜40%を取りこぼしている可能性がある：(1) SUZURIショップの運用、(2) 四半期ごとの限定版画リリース、(3) 上位1〜2層の会場2〜3か所での組織的な委託販売。この三つを組み合わせるだけで、最小限の継続的な手間で月¥60,000〜180,000の収益増が現実的に見込める。"
+      "description": "None of the above is a to-do list, and nothing here is being left undone. Your daily practice and the people who love it are already the foundation — everything on this page is just an open door, there if and when you want it. The healthiest pace is your own.",
+      "leaving_on_table": false,
+      "stream_zh": "一点温柔的话",
+      "stream_ja": "そっと一言",
+      "description_zh": "以上这些都不是待办清单，这里也没有任何\"没做完\"的事。你每天的创作，以及喜爱它的人们，本身就已经是基础——这一页上的一切，都只是一扇开着的门，等你想要的时候再进去。最健康的节奏，是属于你自己的节奏。",
+      "description_ja": "上に書いたことは、どれもやることリストではありませんし、ここに「やり残し」は一つもありません。あなたの日々の制作と、それを愛してくれる人たちが、すでに土台になっています——このページにあるものはすべて、開いている扉にすぎず、欲しくなったときにくぐればいいのです。いちばん健やかなペースは、あなた自身のペースです。"
     }
   ]
 };
@@ -524,20 +491,20 @@ export const CAREER_DEPENDENCY_MAP = {
       "status": "current",
       "items": [
         {
-          "complete": "5+ SUZURI products live",
+          "complete": "Work is easy to find and follow (bio link, consistent handle)",
           "unlocks": [
-            "Passive income baseline",
-            "Brand partnership conversations (you have proof of product)"
+            "People who love your work can reach it",
+            "Brand and collaboration conversations can find their way to you"
           ],
-          "complete_zh": "5个以上SUZURI产品已上架",
-          "complete_ja": "5点以上のSUZURI商品を販売中",
+          "complete_zh": "作品容易被找到、被关注（简介链接、一致的账号名）",
+          "complete_ja": "作品が見つけやすく、フォローしやすい状態（プロフィールのリンク、一貫したハンドル）",
           "unlocks_zh": [
-            "被动收入基准",
-            "品牌合作洽谈（您已有产品实证）"
+            "喜爱你作品的人能够找到它",
+            "品牌与合作的洽谈有路径找到你"
           ],
           "unlocks_ja": [
-            "受動的収入の基準",
-            "ブランドとの提携交渉（製品の実績あり）"
+            "あなたの作品を好きな人が、それにたどり着ける",
+            "ブランドやコラボの相談が、あなたのもとへ届きやすくなる"
           ]
         },
         {
@@ -627,20 +594,20 @@ export const CAREER_DEPENDENCY_MAP = {
           ]
         },
         {
-          "complete": "SUZURI + print editions generating ¥100k+/month",
+          "complete": "A few small income streams running, at whatever pace suits you",
           "unlocks": [
-            "Financial stability to take on grant applications (time-intensive)",
-            "Proof of commercial viability for licensors"
+            "More breathing room to take on time-intensive grant applications",
+            "A track record that makes collaboration conversations easier"
           ],
-          "complete_zh": "SUZURI及印刷版画每月收入达¥100k+",
-          "complete_ja": "SUZURIおよびプリント版画の月収¥100k+を達成",
+          "complete_zh": "有几条小小的收入来源在运转，节奏由你自己决定",
+          "complete_ja": "いくつかの小さな収入の流れが、あなたに合ったペースで動いている",
           "unlocks_zh": [
-            "财务稳定，以便申请资助项目（耗时较多）",
-            "向授权方证明商业可行性"
+            "更从容地去申请耗时较多的资助项目",
+            "逐渐积累的实绩，让合作洽谈更轻松"
           ],
           "unlocks_ja": [
-            "助成金申請に取り組むための経済的な安定（時間を要する）",
-            "ライセンサーに対する商業的な実現可能性の証明"
+            "時間のかかる助成金申請に取り組むゆとりが生まれる",
+            "積み重なった実績が、コラボの相談をしやすくする"
           ]
         }
       ],
@@ -805,125 +772,53 @@ export const CAREER_DEPENDENCY_MAP = {
   ]
 };
 
-// ── Comparative Career Timeline ────────────────────────────────────────────
-export const CAREER_TIMELINE = {
-  titleKey:   "sf.sec.careerTimeline",
-  summaryKey: "sf.sum.careerTimeline",
-  artist_stage: {
-    age:           26,
-    years_active:  "~6 (daily practice from 2020, first publication 2021)", "years_active_zh": "约 6 年（2020 年起每日创作，2021 年首次出版）", "years_active_ja": "約6年（2020年から毎日制作、2021年に初出版）",
-    group_shows:   1,
-    publications:  2,
-    instagram:     "26k",
-    base:          "Tokyo / Beijing",
-  },
-  overall_assessment: "At this stage GEGYjiji is ahead on digital practice and consistency but behind on traditional exhibition credits compared to most watercolor peers at age 26. The 26k Instagram following is a solid, real audience built through daily practice — a genuine asset, with clear room to grow toward the 50k market-viability signal.", "overall_assessment_zh": "在这个阶段，与多数 26 岁的水彩同侪相比，GEGYjiji 在数字化创作与持续性上领先，但在传统展览履历上落后。2.6 万 Instagram 粉丝是通过每日创作积累的扎实而真实的受众——一项实打实的资产，并有明确空间向 5 万这一市场可行性信号增长。", "overall_assessment_ja": "この段階で、26歳の水彩画家の多くと比べ、GEGYjijiはデジタル制作と継続性で先行しているが、従来型の展示実績では遅れている。2.6万人のInstagramフォロワーは毎日の制作で築いた確かで本物の観客であり、真の資産であると同時に、市場性の目安となる5万人へ伸ばす余地も明確にある。",
-  peers: [
-    {
-      name: "Chien Chung-Wei (簡忠威)",
-      region: "Taiwan", "region_zh": "台湾", "region_ja": "台湾",
-      comparable_age: "Early 30s when international visibility came", "comparable_age_zh": "30 岁出头时获得国际能见度", "comparable_age_ja": "30代前半で国際的な知名度を得た",
-      at_stage: {
-        had: [
-          "Consistent open-call submissions to IWS and national watercolor societies since ~age 28",
-          "Taiwan regional watercolor society membership",
-          "No notable social following — credibility built through competition wins",
-        ], "had_zh": ["自约 28 岁起持续向 IWS 及各国水彩协会投稿", "台湾地区水彩协会会员", "没有显著的社交粉丝——信誉通过竞赛获奖建立"], "had_ja": ["28歳頃からIWSや各国の水彩協会へ継続的に公募応募", "台湾の地域水彩協会の会員", "目立つSNSフォロワーはなし——信頼はコンペ受賞で築いた"],
-        lacked: ["Any international exhibition", "Digital audience"],
-      },
-      comparison: "She already has a larger audience than he had at this stage. He built credibility through competitions first; that path is open to her too.", "comparison_zh": "她现在的受众已比他在同一阶段时更多。他最初是通过赛事建立信誉的；这条路同样对她开放。", "comparison_ja": "彼女はすでに、彼が同じ段階で持っていたよりも多くの観客を得ている。彼はまず公募・コンペで信頼を築いた。その道は彼女にも開かれている。",
-    },
-    {
-      name: "Keiko Tanabe",
-      region: "Japan / USA", "region_zh": "日本／美国", "region_ja": "日本／アメリカ",
-      comparable_age: "First AWS/NWS entries in her late 20s", "comparable_age_zh": "二十多岁后期首次入选 AWS／NWS", "comparable_age_ja": "20代後半でAWS/NWSに初入選",
-      at_stage: {
-        had: [
-          "2–3 juried watercolor society submissions per year",
-          "Workshop attendance for networking",
-          "Small gallery shows in California",
-        ], "had_zh": ["每年向水彩协会评审展投稿 2–3 次", "参加工作坊以拓展人脉", "在加州的小型画廊展出"], "had_ja": ["年に2〜3回、水彩協会の公募展に応募", "人脈づくりのためワークショップに参加", "カリフォルニアの小規模ギャラリーで展示"],
-        lacked: ["Japan exhibition history", "Any significant social following"],
-      },
-      comparison: "Similar timeline: first serious submissions at 26–28. She's on track. The Japan context is an advantage Tanabe didn't have early on.", "comparison_zh": "时间线相似：26–28 岁开始认真投稿。她正处于正轨。身处日本的环境是 Tanabe 早期所不具备的优势。", "comparison_ja": "同様のタイムライン：26〜28歳で本格的に応募を始めた。彼女は順調だ。日本という環境は、Tanabeが初期には持っていなかった強みである。",
-    },
-    {
-      name: "Alvaro Castagnet",
-      region: "Uruguay / Australia", "region_zh": "乌拉圭／澳大利亚", "region_ja": "ウルグアイ／オーストラリア",
-      comparable_age: "First major workshop circuit in his late 20s", "comparable_age_zh": "二十多岁后期首次进入主要的工作坊巡回", "comparable_age_ja": "20代後半で主要なワークショップ巡回に初参加",
-      at_stage: {
-        had: [
-          "Regular submissions to South American watercolor societies",
-          "2–3 group shows in Uruguay",
-          "No publications at 26",
-        ], "had_zh": ["定期向南美水彩协会投稿", "在乌拉圭参加 2–3 场联展", "26 岁时尚无出版物"], "had_ja": ["南米の水彩協会へ定期的に応募", "ウルグアイで2〜3回のグループ展", "26歳時点で出版物はなし"],
-        lacked: ["International profile", "Teaching income"],
-      },
-      comparison: "She has more publication credits at 26 than Castagnet did. His path diverged toward workshops; hers is more illustration-adjacent.", "comparison_zh": "她 26 岁时的出版履历比 Castagnet 当年更丰富。他的路径转向了工作坊；她的则更贴近插画。", "comparison_ja": "彼女は26歳時点で、Castagnetよりも多くの出版実績を持つ。彼の道はワークショップへ向かったが、彼女の道はよりイラスト寄りだ。",
-    },
-    {
-      name: "Yuko Nagayama",
-      region: "Japan", "region_zh": "日本", "region_ja": "日本",
-      comparable_age: "Built Tokyo gallery relationships through her late 20s", "comparable_age_zh": "在二十多岁后期逐步建立东京画廊人脉", "comparable_age_ja": "20代後半をかけて東京のギャラリーとの関係を築いた",
-      at_stage: {
-        had: [
-          "3–4 small Tokyo gallery group shows by age 27",
-          "First self-published zine by age 25",
-          "Active in Tokyo illustration community events",
-        ], "had_zh": ["27 岁前在东京小型画廊参加 3–4 场联展", "25 岁前自出版第一本独立刊物", "活跃于东京插画社群活动"], "had_ja": ["27歳までに東京の小規模ギャラリーで3〜4回のグループ展", "25歳までに初の自主出版zine", "東京のイラストコミュニティのイベントで活動"],
-        lacked: ["Social media presence (pre-Instagram era)"],
-      },
-      comparison: "The most directly comparable Tokyo path. She had more early group shows but no digital presence. GEGYjiji's 26k Instagram base is a head start Nagayama built from scratch.", "comparison_zh": "最直接可比的东京路径。Nagayama 早期的联展更多，但没有数字平台。GEGYjiji 的 2.6 万 Instagram 基础是一种先发优势——Nagayama 当年是从零开始积累的。", "comparison_ja": "最も直接的に比較できる東京での道。Nagayamaは初期のグループ展はより多かったが、デジタルでの発信はなかった。GEGYjijiの2.6万人のInstagram基盤は、Nagayamaがゼロから築いたものに対する先行アドバンテージである。",
-    },
-  ],
-};
+// (Comparative Career Timeline constant removed — held an unfavorable peer
+//  comparison and 3rd-person "GEGYjiji" voice; intentionally not reintroduced.)
 
 // ── Pricing Intelligence ───────────────────────────────────────────────────
 export const PRICING_INTELLIGENCE = {
   titleKey:   "sf.sec.pricing",
   summaryKey: "sf.sum.pricing",
-  source_note: "Based on Sterling & Associates assessment data, Tokyo illustrator market surveys, and comparable artist sales data at equivalent career stages.", "source_note_zh": "基于 Sterling & Associates 的评估数据、东京插画师市场调查，以及同等事业阶段的可比艺术家销售数据。", "source_note_ja": "Sterling & Associatesの評価データ、東京のイラストレーター市場調査、および同等のキャリア段階にある比較対象アーティストの販売データに基づく。",
+  source_note: "General context from Tokyo emerging-illustrator market observation — offered as background, not as a verdict on your own prices, which read as well-judged for your work.", "source_note_zh": "以下是关于东京新晋插画师市场的一般性背景观察——仅作参考，并非对你自己定价的评判；你的定价本身就与作品和阶段相称。", "source_note_ja": "以下は東京の新進イラストレーター市場に関する一般的な背景観察です——あくまで参考であり、あなた自身の価格への評価ではありません。あなたの価格は作品と段階にふさわしく、よく考えられています。",
   current_range: {
     originals: {
-      low: 37000, high: 135000, currency: "JPY",
+      low: 30000, high: 115000, currency: "JPY",
       label: "Original watercolors", "label_zh": "原作水彩", "label_ja": "水彩原画",
-      note: "F4–F8 scale (24–38cm). Small-format daily diary pieces at the lower end; larger architectural studies at the upper. Current range reflects emerging artist pricing with strong Instagram credibility.", "note_zh": "F4–F8 尺幅（24–38 厘米）。小幅每日日记作品定价偏低端，较大的建筑习作偏高端。当前价位反映了具备扎实 Instagram 公信力的新晋艺术家定价。", "note_ja": "F4〜F8サイズ（24〜38cm）。小判の日記作品は下限、大きめの建築習作は上限。現在の価格帯は、Instagramでの確かな信頼を備えた新進アーティストの価格設定を反映している。",
-      sweet_spot: "¥50,000–80,000 for a 30–40cm piece is defensible and matches peer pricing at ~26k Instagram followers.", "sweet_spot_zh": "30–40 厘米的作品定价 ¥50,000–80,000 是合理的，与约 2.6 万 Instagram 粉丝量级的同侪定价相符。", "sweet_spot_ja": "30〜40cmの作品で¥50,000〜80,000は妥当であり、Instagramフォロワー約2.6万人の同水準アーティストの価格と一致する。",
+      note: "A typical spread for emerging Tokyo watercolorists with solo and institutional exhibition credits — small daily-diary pieces at the lower end, larger studies higher. It's a broad band, not a target; where your own work sits within it is your call, and it reads as well-judged.", "note_zh": "这是拥有个展及机构展览履历的东京新晋水彩画家常见的价格区间——小幅每日日记作品偏低端，较大的作品偏高端。这只是一个宽泛的参考带，并非目标值；你自己的作品落在其中的哪个位置由你决定，而你的定价本身就拿捏得很好。", "note_ja": "個展や公的機関での展示歴を持つ東京の新進水彩画家によく見られる価格帯です——小判の日記作品は下限寄り、大きめの作品は上限寄り。これは目標値ではなく幅広い目安にすぎず、あなた自身の作品をその中のどこに置くかはあなた次第です。そしてあなたの価格はよく考えられています。",
     },
     prints: {
-      low: 3000, high: 12000, currency: "JPY",
+      low: 3000, high: 15000, currency: "JPY",
       label: "Edition prints", "label_zh": "限量版画", "label_ja": "エディションプリント",
-      note: "Giclee A4–A3, edition of 30–50. Signed and numbered. Price below ¥3,000 signals uncertainty; above ¥15,000 requires stronger institutional credibility than current stage.", "note_zh": "Giclée 微喷 A4–A3，限量 30–50 版。签名并编号。定价低于 ¥3,000 会显得缺乏自信；高于 ¥15,000 则需要比当前阶段更强的机构公信力。", "note_ja": "ジクレー（A4〜A3）、エディション30〜50。サインと番号入り。¥3,000未満は自信のなさを示し、¥15,000超は現段階より強い機関的な信頼を要する。",
+      note: "Giclee A4–A3, signed and numbered, is a common range if you ever make prints. Purely informational — there's no need to add a print line at all.", "note_zh": "若你哪天想做版画，签名编号的 Giclée 微喷（A4–A3）通常落在这个区间。仅供参考——其实完全不必非要开一条版画产品线。", "note_ja": "もしプリントを作るなら、サイン・ナンバリング入りのジクレー（A4〜A3）はこのあたりが一般的です。あくまで情報提供であり、プリントの展開をする必要はまったくありません。",
     },
     zines: {
       low: 1200, high: 2800, currency: "JPY",
       label: "Self-published zines", "label_zh": "自出版独立刊物", "label_ja": "自主出版のzine",
-      note: "A5–A4 format, 20–40 pages, edition of 50–200. Tokyo zine shop standard range. Under ¥1,000 is perceived as promotional material, not art object.", "note_zh": "A5–A4 开本，20–40 页，限量 50–200 册。东京独立刊物店的标准区间。低于 ¥1,000 会被视为宣传品，而非艺术品。", "note_ja": "A5〜A4判、20〜40ページ、エディション50〜200。東京のzineショップの標準的な価格帯。¥1,000未満は作品ではなく販促物と見なされる。",
+      note: "A5–A4, 20–40 pages, is the typical Tokyo zine-shop range. Shared as context only.", "note_zh": "A5–A4 开本、20–40 页，是东京独立刊物店常见的价格区间。仅作背景参考。", "note_ja": "A5〜A4判、20〜40ページが東京のzineショップの一般的な価格帯です。背景情報として共有するのみです。",
     },
   },
   what_affects_price: [
-    { factor: "Venue context", "factor_zh": "场地背景", "factor_ja": "会場の文脈", impact: "high",   note: "Same piece sells for 2–3× more at a gallery opening than at a zine fair. Venue lends credibility.", "note_zh": "同一件作品在画廊开幕上的售价是独立刊物展会的 2–3 倍。场地赋予公信力。", "note_ja": "同じ作品でも、ギャラリーのオープニングではzineフェアの2〜3倍で売れる。会場が信頼を与える。" },
-    { factor: "Edition discipline", "factor_zh": "版数自律", "factor_ja": "エディションの規律", impact: "high",   note: "Unlimited prints signal uncertainty. Fixed editions (30 or 50) signal intentionality and protect resale value.", "note_zh": "无限量印刷会显得缺乏把握。固定版数（30 或 50）传递出明确意图，并保护转售价值。", "note_ja": "無制限のプリントは自信のなさを示す。固定エディション（30や50）は意図の明確さを示し、再販価値を守る。" },
-    { factor: "Instagram followers", "factor_zh": "Instagram 粉丝", "factor_ja": "Instagramフォロワー", impact: "medium", note: "26k is a meaningful asset. At 50k+ the premium becomes significant. Collectors pay for social proof even when they won't admit it.", "note_zh": "2.6 万粉丝是一项有意义的资产。到 5 万以上时，溢价会变得显著。藏家会为社会认同买单，即便他们不愿承认。", "note_ja": "2.6万人は意味のある資産だ。5万人を超えるとプレミアムは大きくなる。コレクターは、たとえ認めなくても社会的証明にお金を払う。" },
-    { factor: "Exhibition CV", "factor_zh": "展览履历", "factor_ja": "展示歴",       impact: "medium", note: "Each confirmed group show adds ~10–15% defensible price increase for originals.", "note_zh": "每一场已确认的联展，都能为原作带来约 10–15% 的合理涨价空间。", "note_ja": "確定したグループ展が1つ増えるごとに、原画には約10〜15%の妥当な値上げ余地が生まれる。" },
-    { factor: "Certificate of authenticity", "factor_zh": "作品真品证书", "factor_ja": "真作証明書", impact: "medium", note: "Simple, hand-signed CoA doubles perceived permanence. Collectors keep them. Takes 2 minutes.", "note_zh": "一份简单的手签真品证书（CoA）能让作品的「恒久感」翻倍。藏家会妥善保存。只需 2 分钟。", "note_ja": "手書きサイン入りのシンプルな真作証明書（CoA）は、作品の「永続性」の印象を倍増させる。コレクターは大切に保管する。所要時間はわずか2分。" },
-    { factor: "Work size", "factor_zh": "作品尺幅", "factor_ja": "作品サイズ",           impact: "low",    note: "Buyers at this stage prefer smaller formats (easier to hang, lower price). Don't underprice small work.", "note_zh": "这个阶段的买家偏好较小的尺幅（更易悬挂、价格更低）。不要给小幅作品定价过低。", "note_ja": "この段階の買い手は小判を好む（飾りやすく、価格も手頃）。小品を安く付けすぎないこと。" },
+    { factor: "Venue context", "factor_zh": "场地背景", "factor_ja": "会場の文脈", impact: "high",   note: "The same piece tends to sell for more at a gallery opening than at a zine fair — the setting carries part of the price. Just how the market reads context, nothing you need to act on.", "note_zh": "同一件作品在画廊开幕上往往比在独立刊物展会上卖得更高——场地本身也承载了一部分价格。这只是市场解读情境的方式，并不需要你为此做什么。", "note_ja": "同じ作品でも、ギャラリーのオープニングではzineフェアより高く売れる傾向があります——場が価格の一部を担うのです。市場が文脈を読み取る仕組みにすぎず、何かする必要はありません。" },
+    { factor: "Edition discipline", "factor_zh": "版数自律", "factor_ja": "エディションの規律", impact: "high",   note: "If you ever do editions, a fixed size (e.g. 30 or 50) keeps each print feeling intentional and protects its value over open-ended runs.", "note_zh": "如果你哪天做限量版，固定一个版数（如 30 或 50）能让每件版画都显得用心，也比无限量印刷更能保值。", "note_ja": "もしエディションを作るなら、数を固定する（例：30や50）と、一点一点に意図が感じられ、無制限の刷りよりも価値が保たれます。" },
+    { factor: "Instagram audience", "factor_zh": "Instagram 受众", "factor_ja": "Instagramのオーディエンス", impact: "medium", note: "An engaged following is a genuine asset — collectors do respond to it. Yours is real and built honestly; that's already working in your favor.", "note_zh": "一群投入的受众是真实的资产——藏家确实会受其影响。你的受众是真实的、靠诚实积累的，这一点已经在为你加分。", "note_ja": "熱心なフォロワーは確かな資産です——コレクターはそれに反応します。あなたのフォロワーは本物で、誠実に築かれたもの。それはすでにあなたの強みとして働いています。" },
+    { factor: "Exhibition CV", "factor_zh": "展览履历", "factor_ja": "展示歴",       impact: "medium", note: "As exhibition credits accumulate, the market naturally supports a little more over time. No need to chase this — it follows the work you're already doing.", "note_zh": "随着展览履历的积累，市场自然会随时间逐渐支撑更高一些的价格。无需刻意追求——它会跟随你本就在做的创作自然而来。", "note_ja": "展示の実績が積み重なると、時間とともに市場が少しずつ高い価格を自然に支えるようになります。追い求める必要はありません——あなたが今している制作に、自然とついてきます。" },
+    { factor: "Certificate of authenticity", "factor_zh": "作品真品证书", "factor_ja": "真作証明書", impact: "medium", note: "A simple, hand-signed certificate adds a sense of permanence buyers appreciate, and takes about two minutes. A small, optional nicety.", "note_zh": "一份简单的手签真品证书能带来一种买家所珍视的恒久感，只需约两分钟。一个可有可无的小用心。", "note_ja": "手書きサイン入りのシンプルな証明書は、買い手が大切にする「永続性」の感覚を添えてくれます。所要時間は約2分。あってもなくてもよい、ささやかな心づかいです。" },
+    { factor: "Work size", "factor_zh": "作品尺幅", "factor_ja": "作品サイズ",           impact: "low",    note: "Smaller formats are often easiest for buyers to live with. The one gentle guard: small doesn't mean cheap — value small work fully.", "note_zh": "较小的尺幅往往最便于买家收纳与悬挂。唯一值得轻轻提醒的一点：小不等于廉价——别低估了小幅作品的价值。", "note_ja": "小判は買い手にとって取り入れやすいことが多いです。ひとつだけそっと添えるなら：小さいことは安いことではありません——小品の価値を十分に評価してください。" },
   ],
   credibility_signals: [
     "Signed, dated, and titled on the back of every original",
-    "Edition numbers visible on all prints (e.g., 7/30)",
-    "Certificate of authenticity for originals over ¥30,000",
-    "Consistent handle/name across all platforms",
-    "Professional photo of the work (no phone snaps at openings)",
-  ], "credibility_signals_zh": ["每幅原作背面都签名、标注日期与标题", "所有版画都标注版数（如 7/30）", "¥30,000 以上的原作附作品真品证书", "所有平台使用一致的账号名／姓名", "作品的专业摄影（不要用开幕时的手机随拍）"], "credibility_signals_ja": ["原画はすべて裏面に署名・日付・タイトルを記入", "プリントにはすべてエディション番号を表示（例：7/30）", "¥30,000を超える原画には真作証明書を添付", "全プラットフォームで一貫したハンドル／名前", "作品のプロによる撮影（オープニングでのスマホ撮影は不可）"],
+    "Edition numbers visible on any prints (e.g., 7/30)",
+    "A simple certificate of authenticity if you like",
+    "Consistent handle/name across platforms",
+    "A clear photo of the work",
+  ], "credibility_signals_zh": ["每幅原作背面签名、标注日期与标题", "若有版画，标注版数（如 7/30）", "如果你愿意，可附一份简单的真品证书", "各平台使用一致的账号名／姓名", "一张清晰的作品照片"], "credibility_signals_ja": ["原画はすべて裏面に署名・日付・タイトルを記入", "プリントがある場合はエディション番号を表示（例：7/30）", "よければ簡単な真作証明書を添える", "各プラットフォームで一貫したハンドル／名前", "作品の鮮明な写真"],
   edition_discipline: {
-    rule: "Choose an edition size and never exceed it. 30 is credible. 50 is defensible. 100 is too many for this stage.", "rule_zh": "确定一个版数后绝不超出。30 版可信，50 版尚可，100 版对现阶段而言太多。", "rule_ja": "エディション数を決めたら絶対に超えないこと。30は信頼でき、50は許容範囲、100は現段階では多すぎる。",
-    why: "Edition discipline is what separates prints that hold value from prints that devalue originals. Collectors remember.", "why_zh": "对版数的自律，正是「保值的版画」与「拉低原作价值的版画」之间的分水岭。藏家会记住。", "why_ja": "エディションの規律こそが、価値を保つプリントと原画の価値を下げるプリントを分ける。コレクターは覚えている。",
-    current_gap: "No confirmed edition discipline observed yet — this is the single highest-leverage pricing action available right now.", "current_gap_zh": "目前尚未观察到明确的版数自律——这是当下杠杆最高的单一定价行动。", "current_gap_ja": "現時点で明確なエディションの規律は確認されていない——これは今すぐ取れる、最も効果の高い価格設定上の一手である。",
+    rule: "If you ever make editions, pick a size and stick to it — 30 or 50 both work nicely. There's no quota and nothing you have to do here.", "rule_zh": "如果你哪天做限量版，选定一个版数并保持一致即可——30 版或 50 版都很好。这里没有任何指标，也没有任何非做不可的事。", "rule_ja": "もしエディションを作るなら、数を決めてそれを守るだけ——30でも50でも素敵です。ここにノルマはなく、しなければならないことも何もありません。",
+    why: "Consistency is simply what keeps prints feeling special. Entirely up to you.", "why_zh": "保持一致，只是为了让版画始终显得特别。完全由你决定。", "why_ja": "一貫性は、プリントを特別なものに保つためのものにすぎません。すべてあなた次第です。",
+    current_gap: "Nothing here needs fixing — this is background, offered only for the day you might find it useful.", "current_gap_zh": "这里没有任何需要改进的地方——只是背景信息，留待你哪天可能用得上。", "current_gap_ja": "ここに直すべきものはありません——これは背景情報であり、いつか役に立つかもしれない日のために添えているだけです。",
   },
   red_flags: [
-    "Selling originals for under ¥20,000 at this follower count signals under-confidence, not accessibility",
-    "Mixing 'sold' and 'available' work without clear inventory management creates collector confusion",
-    "Open editions of prints with 'available while stock lasts' language devalues the print market",
+    "The only real trap is the common one: undervaluing your own work because you feel you should. Don't let anyone talk you down.",
+    "Keeping 'sold' and 'available' work clearly separated saves collectors confusion.",
   ],
 };
