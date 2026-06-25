@@ -1,10 +1,33 @@
 import { useState, useEffect, useRef } from 'react'
 import './RelationshipTargets.css'
 import { useLanguage } from '../i18n/LanguageContext'
+import { tfb } from '../i18n/translations'
 import { prepareRelationshipTargets } from '../utils/relationshipTargets'
 import { cardsPerBatch } from '../utils/layout'
 
 const PAGE_SIZE = cardsPerBatch()   // 6 on desktop (3 cols), 4 on smaller screens (2/1 cols)
+
+// Hand-made watercolor icons (public/icons/*.webp under Vite's /mochi/ base),
+// referenced the same way OppCard/OpportunitiesSection do. mix-blend-mode in the
+// CSS melts the cream backdrop into the light card so no square edge shows.
+const ICON_BASE = `${import.meta.env.BASE_URL}icons/`
+const iconUrl = (name) => `${ICON_BASE}${name}.webp`
+
+// Render a watercolor section/header icon as an <img>, matching <SectionIcon> in
+// OpportunitiesSection. Used for the People section header and the per-card glyph.
+function PeopleIcon({ className }) {
+  return (
+    <img
+      className={`${className} ${className}--img`}
+      src={iconUrl('ic_people')}
+      alt=""
+      aria-hidden="true"
+      loading="lazy"
+      width="40"
+      height="40"
+    />
+  )
+}
 
 const TYPE_ICON = {
   gallery: '🖼️', gallery_small: '🖼️', gallery_event: '🖼️',
@@ -16,6 +39,38 @@ const TYPE_ICON = {
 
 function humanizeType(type) {
   return String(type || '').replace(/_/g, ' ').replace(/\b\w/g, ch => ch.toUpperCase())
+}
+
+// ── Priority grouping ────────────────────────────────────────────────────────
+// 52 contacts in one list is "forever to scroll" (Scott 2026-06-25). Split into
+// scannable priority subsections — high relationships first — each collapsible
+// with its own show-more, so she can jump instead of scroll. Priority is the
+// cleanest axis in the data (high/medium/low, already the sort key) and the most
+// decision-useful: "who do I reach out to first."
+const PRIORITY_ORDER = ['high', 'medium', 'low']
+
+// English fallbacks for the group labels; tfb() upgrades to a real translation
+// automatically once a `people.group.*` key is added to translations.js.
+const GROUP_FALLBACK = {
+  high:   'High priority',
+  medium: 'Worth reaching out to',
+  low:    'Keep on the radar',
+}
+
+function priorityKey(c = {}) {
+  const p = String((c.crm_analysis && c.crm_analysis.priority) || c.priority || '').toLowerCase()
+  return p === 'high' || p === 'medium' || p === 'low' ? p : 'low'
+}
+
+// Group prepared (already priority-sorted) targets into non-empty subsections,
+// preserving within-group order. Anything unrecognized lands in 'low' so it is
+// never silently dropped.
+function groupByPriority(targets) {
+  const buckets = { high: [], medium: [], low: [] }
+  for (const c of targets) buckets[priorityKey(c)].push(c)
+  return PRIORITY_ORDER
+    .map(key => ({ key, items: buckets[key] }))
+    .filter(g => g.items.length > 0)
 }
 
 function nameSearchHref(c) {
@@ -95,7 +150,9 @@ function ContactCard({ c, t, onHide }) {
   return (
     <div className={`rt-card${reached ? ' rt-card--reached' : ''}`}>
       <div className="rt-card-header">
-        <span className="rt-card-icon">{TYPE_ICON[c.type] || '🌸'}</span>
+        {TYPE_ICON[c.type]
+          ? <span className="rt-card-icon">{TYPE_ICON[c.type]}</span>
+          : <PeopleIcon className="rt-card-icon" />}
         <h3 className="rt-card-name">
           <a className="rt-name-link" href={nameLink} target="_blank" rel="noreferrer">
             {c.name} <span className="rt-name-arrow" aria-hidden="true">↗</span>
@@ -160,10 +217,61 @@ function ContactCard({ c, t, onHide }) {
   )
 }
 
+// One collapsible priority subsection: a clickable header (label + count +
+// chevron) over its own card grid with a per-group show-more. High priority is
+// open by default; the rest start collapsed so the whole section is 3 scannable
+// rows she can jump between instead of 50 cards to scroll past.
+function PriorityGroup({ groupKey, items, t, onHide, defaultOpen }) {
+  const [open, setOpen] = useState(defaultOpen)
+  const [shown, setShown] = useState(PAGE_SIZE)
+
+  const visible = items.slice(0, shown)
+  const remaining = items.length - shown
+  const label = tfb(t, `people.group.${groupKey}`, GROUP_FALLBACK[groupKey] || groupKey)
+  const panelId = `rt-group-${groupKey}`
+
+  return (
+    <div className={`rt-group rt-group--${groupKey}`}>
+      <button
+        type="button"
+        className={`rt-group-head${open ? ' rt-group-head--open' : ''}`}
+        aria-expanded={open}
+        aria-controls={panelId}
+        onClick={() => setOpen(o => !o)}
+      >
+        <span className={`rt-group-dot rt-group-dot--${groupKey}`} aria-hidden="true" />
+        <span className="rt-group-label">{label}</span>
+        <span className="rt-group-count">{items.length}</span>
+        <span className="rt-group-chevron" aria-hidden="true">{open ? '▾' : '▸'}</span>
+      </button>
+
+      {open && (
+        <div id={panelId} className="rt-group-body">
+          <div className="rt-grid">
+            {visible.map((c, i) => (
+              <ContactCard key={`${c.name || 'c'}-${i}`} c={c} t={t} onHide={onHide} />
+            ))}
+          </div>
+
+          {remaining > 0 && (
+            <button className="opp-show-more" onClick={() => setShown(s => s + PAGE_SIZE)}>
+              {t('opps.showMoreCount', { n: Math.min(PAGE_SIZE, remaining) })}
+            </button>
+          )}
+          {shown > PAGE_SIZE && (
+            <button className="opp-show-more opp-show-less" onClick={() => setShown(PAGE_SIZE)}>
+              {t('opps.showLess')}
+            </button>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function RelationshipTargets() {
   const { t } = useLanguage()
   const [contacts, setContacts] = useState(null)
-  const [shown, setShown] = useState(PAGE_SIZE)
   const [hidden, setHidden] = useState(() => new Set())
 
   useEffect(() => {
@@ -179,8 +287,7 @@ export default function RelationshipTargets() {
   const targets = prepareRelationshipTargets(contacts).filter(c => !hidden.has(c.name))
   if (!targets.length) return null
 
-  const visible = targets.slice(0, shown)
-  const remaining = targets.length - shown
+  const groups = groupByPriority(targets)
 
   function hide(name) {
     setHidden(prev => new Set([...prev, name]))
@@ -190,29 +297,25 @@ export default function RelationshipTargets() {
     <section id="relationships" className="opp-section rt-section">
       <div className="opp-section-header">
         <div className="opp-section-title-row">
-          <span className="opp-section-icon">🌸</span>
+          <PeopleIcon className="opp-section-icon" />
           <h2 className="opp-section-title">{t('people.title')}</h2>
           {/* Raw count hidden on the calm home view — presence, not quantity. */}
         </div>
         <p className="opp-section-desc">{t('people.intro')}</p>
       </div>
 
-      <div className="rt-grid">
-        {visible.map((c, i) => (
-          <ContactCard key={`${c.name || 'c'}-${i}`} c={c} t={t} onHide={hide} />
+      <div className="rt-groups">
+        {groups.map((g, idx) => (
+          <PriorityGroup
+            key={g.key}
+            groupKey={g.key}
+            items={g.items}
+            t={t}
+            onHide={hide}
+            defaultOpen={idx === 0}   // strongest group open; the rest collapsed to scan
+          />
         ))}
       </div>
-
-      {remaining > 0 && (
-        <button className="opp-show-more" onClick={() => setShown(s => s + PAGE_SIZE)}>
-          {t('opps.showMoreCount', { n: Math.min(PAGE_SIZE, remaining) })}
-        </button>
-      )}
-      {shown > PAGE_SIZE && (
-        <button className="opp-show-more opp-show-less" onClick={() => setShown(PAGE_SIZE)}>
-          {t('opps.showLess')}
-        </button>
-      )}
     </section>
   )
 }

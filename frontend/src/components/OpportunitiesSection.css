@@ -25,9 +25,11 @@
 }
 
 /* ── Section wrapper ── */
+/* Bottom margin trimmed (was 18px) so sections sit closer — there was a lot of
+   dead vertical space between a section's "show more" and the next header. */
 .opp-section {
   max-width: 1400px;
-  margin: 0 auto 18px;
+  margin: 0 auto 6px;
 }
 
 .opp-section--strongest {
@@ -58,17 +60,35 @@
 }
 
 /* ── Section header ── */
+/* Top padding trimmed (was 14px) so the header sits closer to the prior
+   section's "show more"; the banner on .opp-section-title-row carries its own
+   breathing room now. */
 .opp-section-header {
-  padding: 14px 0 8px;
+  padding: 8px 0 8px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 12px;
 }
 
+/* Subtle LEFT-JUSTIFIED header banner (Scott 2026-06-25 — "could go really
+   wrong", so kept barely-there): the icon+title sit on a faint parchment wash
+   that hugs the left (width: fit-content, NOT a full-width centered bar) with a
+   soft gold left accent. Low contrast on purpose; dial back by lowering the bg
+   alpha or removing border-left. It also fills the awkward space beside the icon. */
 .opp-section-title-row {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 6px;
+  max-width: 100%;
+  padding: 6px 14px 6px 11px;
+  border-left: 3px solid rgba(201, 168, 108, 0.45);
+  border-radius: 0 10px 10px 0;
+  background: linear-gradient(
+    90deg,
+    rgba(201, 168, 108, 0.10) 0%,
+    rgba(201, 168, 108, 0.045) 55%,
+    rgba(201, 168, 108, 0) 100%
+  );
 }
 
 .opp-section-icon {
@@ -76,18 +96,19 @@
   line-height: 1;
 }
 
-/* Watercolor section icon (img variant). Tracks the same visual tier as the
-   emoji it replaces; per-variant sizes below mirror the emoji font-size steps.
-   The source's cream background blends with the parchment; a soft radius hides
-   any hard edge. */
+/* Watercolor section icon (img variant). Sized up well beyond the emoji it
+   replaces so the painted mark anchors the header instead of floating small with
+   empty headroom above. object-fit: contain shows the whole painting;
+   mix-blend-mode: multiply melts the cream/white backdrop into the light
+   parchment header band so there's no square edge. */
 .opp-section-icon--img {
-  width: 26px;
-  height: 26px;
+  width: 40px;
+  height: 40px;
   flex-shrink: 0;
-  border-radius: 6px;
-  object-fit: cover;
+  object-fit: contain;
   vertical-align: middle;
   display: inline-block;
+  mix-blend-mode: multiply;
 }
 
 .opp-section-title {
@@ -115,8 +136,8 @@
   font-size: 23px;
 }
 .opp-section--strongest .opp-section-icon--img {
-  width: 30px;
-  height: 30px;
+  width: 48px;
+  height: 48px;
 }
 
 /* Secondary: the category grids below — present but visibly lighter. */
@@ -129,8 +150,8 @@
   opacity: 0.85;
 }
 .opp-section--secondary .opp-section-icon--img {
-  width: 23px;
-  height: 23px;
+  width: 36px;
+  height: 36px;
   opacity: 1;
 }
 .opp-section--secondary .opp-section-desc {
@@ -195,9 +216,10 @@
 }
 
 /* ── Show more button ── */
+/* Top margin trimmed (was 20px) to pull the next section up under it. */
 .opp-show-more {
   display: block;
-  margin: 20px auto 0;
+  margin: 14px auto 0;
   background: transparent;
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -270,14 +292,15 @@
   margin-top: 1px;
 }
 
-/* Watercolor press icon (img variant) — small square, cream bg blends with card. */
+/* Watercolor press icon (img variant). Bumped up to match the card-icon scale;
+   mix-blend-mode: multiply melts the cream backdrop into the light press card. */
 .press-icon--img {
-  width: 22px;
-  height: 22px;
-  border-radius: 5px;
-  object-fit: cover;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
   vertical-align: middle;
   display: inline-block;
+  mix-blend-mode: multiply;
 }
 
 .press-card-body {

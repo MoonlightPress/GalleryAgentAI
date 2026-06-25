@@ -21,20 +21,19 @@ const SECTION_ORDER = [
 ]
 
 // Hand-made watercolor section icons (public/icons/*.webp, served under Vite's
-// /mochi/ base). Values prefixed "ic_" are image icons; sections without a
-// dedicated watercolor icon (immediate_best_moves / watch_list) keep their
-// emoji as a sensible fallback. <SectionIcon> below renders the right element.
+// /mochi/ base). Values prefixed "ic_" are image icons; any non-"ic_" value is
+// treated as a literal emoji fallback. <SectionIcon> below renders the right element.
 const ICON_BASE = `${import.meta.env.BASE_URL}icons/`
 const iconUrl = (name) => `${ICON_BASE}${name}.webp`
 
 const SECTION_ICONS = {
-  immediate_best_moves:  '⭐',          // no watercolor icon — keep emoji
+  immediate_best_moves:  'ic_mouse',     // watercolor toy mouse — Mochi's "best moves"
   open_calls:            'ic_opencall',
   publication_editorial: 'ic_editorial',
   competitions_awards:   'ic_award',
   zines_and_print:       'ic_books',
   relationship_targets:  'ic_people',
-  watch_list:            '👁',          // no watercolor icon — keep emoji
+  watch_list:            'ic_camera',    // watercolor camera — the "watch list" (keeping an eye out)
 }
 
 // Render a section/header icon: a watercolor <img> for "ic_*" values, otherwise
@@ -170,7 +169,7 @@ function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
     <section id="mochi_strongest_picks" className="opp-section opp-section--strongest">
       <div className="opp-section-header">
         <div className="opp-section-title-row">
-          <span className="opp-section-icon">✦</span>
+          <SectionIcon icon="ic_mouse" />
           <h2 className="opp-section-title">{t('opps.strongest.title')}</h2>
           {/* Raw count hidden on the calm home view — presence, not quantity. */}
         </div>
