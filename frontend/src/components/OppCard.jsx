@@ -22,47 +22,53 @@ const CAT_LABELS = {
   gallery_event:     'Gallery Event',
 }
 
-// Interim emoji icons (replacing the muddy AI PNGs). To swap to watercolor symbols
-// later, restore an image map + render an <img> in place of the <span> below.
+// Hand-made watercolor category icons (replacing the interim emoji). Served from
+// public/icons/*.webp under Vite's /mochi/ base; the cream background blends with
+// the warm cards by design (do NOT background-remove — it clips the soft edges).
+// Render via iconUrl()/<img> at the render site below.
+const ICON_BASE = `${import.meta.env.BASE_URL}icons/`
+const iconUrl = (name) => `${ICON_BASE}${name}.webp`
+
 const CAT_ICON = {
   // ── Galleries & spaces ───────────────────────────────────────────────
-  gallery:                        '🖼️',
-  gallery_small:                  '🖼️',
-  gallery_event:                  '🖼️',
-  artist_space:                   '🎨',
-  event_space:                    '🎨',
+  gallery:                        'ic_gallery',
+  gallery_small:                  'ic_gallery',
+  gallery_event:                  'ic_gallery',
+  artist_space:                   'ic_gallery',
+  event_space:                    'ic_gallery',
   // ── Cafés & bookshops ────────────────────────────────────────────────
-  cafe_gallery:                   '☕',
-  bookstore_gallery:              '📚',
-  bookstore_event:                '📚',
+  cafe_gallery:                   'ic_cafe',
+  bookstore_gallery:              'ic_books',
+  bookstore_event:                'ic_books',
   // ── Zines, books & publishing ────────────────────────────────────────
-  zine_print:                     '📓',
-  book_publishing:                '📖',
-  global_artist_book_platform:    '📚',
-  global_art_book_fair:           '🎪',
-  global_book_arts:               '📓',
-  zine_shop_consignment:          '📚',
-  group_publication_open_call:    '✉️',
+  zine_print:                     'ic_books',
+  book_publishing:                'ic_books',
+  global_artist_book_platform:    'ic_books',
+  global_art_book_fair:           'ic_fair',
+  global_book_arts:               'ic_books',
+  zine_shop_consignment:          'ic_books',
+  group_publication_open_call:    'ic_opencall',
   // ── Fairs & markets ──────────────────────────────────────────────────
-  fair_popup:                     '🎪',
-  zine_fair_booth:                '🎪',
-  market_event:                   '🛍️',
+  fair_popup:                     'ic_fair',
+  zine_fair_booth:                'ic_fair',
+  market_event:                   'ic_fair',
   // ── Open calls & competitions ────────────────────────────────────────
-  institutional:                  '🏛️',
-  global_open_call:               '📣',
-  global_watercolor_open_call:    '📣',
-  japan_watercolor_open_call:     '📣',
-  japan_watercolor_institution:   '🏛️',
-  photo_open_call:                '📷',
-  global_photobook:               '📷',
+  institutional:                  'ic_institution',
+  global_open_call:               'ic_opencall',
+  global_watercolor_open_call:    'ic_opencall',
+  japan_watercolor_open_call:     'ic_opencall',
+  japan_watercolor_institution:   'ic_institution',
+  photo_open_call:                'ic_opencall',
+  global_photobook:               'ic_books',
   // ── Residencies & fellowships ────────────────────────────────────────
-  residency:                      '🏠',
-  global_residency:               '✈️',
-  global_grant_fellowship:        '🎓',
-  residency_beijing:              '🏠',
+  residency:                      'ic_institution',
+  global_residency:               'ic_institution',
+  global_grant_fellowship:        'ic_award',
+  residency_beijing:              'ic_institution',
 }
 
-const DEFAULT_ICON = '📣'
+// Default category icon when an opp's category isn't in the map above.
+const DEFAULT_ICON = 'ic_opencall'
 
 const MEDIUM_CONFIG = {
   watercolor:   { label: '◆ Watercolor',   color: '#4a8c7a' },
@@ -129,7 +135,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
   const [feedback, setFeedback] = useState(() => readFeedbackStore()[key] || null)
   const [toastKey, setToastKey] = useState(null)
   const { t, lang } = useLanguage()
-  const iconSrc = CAT_ICON[opp.category] || DEFAULT_ICON
+  const iconSrc = iconUrl(CAT_ICON[opp.category] || DEFAULT_ICON)
   const loc = (field) => locF(opp, field, lang, t)
 
   const deadlineText = localizeDeadline(opp, lang, t)
@@ -178,7 +184,15 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
 
         {/* Header: 40×40 icon + title */}
         <div className="opp-card-header">
-          <span className="opp-card-icon" aria-hidden="true">{iconSrc}</span>
+          <img
+            className="opp-card-icon"
+            src={iconSrc}
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+            width="40"
+            height="40"
+          />
           {/* Name is a proper noun — never suppress it, even when English-only. */}
           <h3 className="opp-card-title">{loc('name') || opp.name || opp.title}</h3>
         </div>
@@ -231,7 +245,15 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
            highlight Today's Focus uses for urgency. Localized; never raw English. */}
         {deadlineText && !opp.deadline_past && (
           <p className={`opp-card-deadline${deadlineUrgent ? ' opp-card-deadline--urgent' : ''}`}>
-            <span className="opp-card-deadline-icon" aria-hidden="true">📅</span>
+            <img
+              className="opp-card-deadline-icon"
+              src={iconUrl('ic_calendar')}
+              alt=""
+              aria-hidden="true"
+              loading="lazy"
+              width="16"
+              height="16"
+            />
             <span className="opp-card-deadline-text">{deadlineText}</span>
             {deadlineUrgent && (
               <span className="opp-card-deadline-soon">{t('card.deadline.soon')}</span>

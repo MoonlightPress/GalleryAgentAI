@@ -76,6 +76,20 @@
   line-height: 1;
 }
 
+/* Watercolor section icon (img variant). Tracks the same visual tier as the
+   emoji it replaces; per-variant sizes below mirror the emoji font-size steps.
+   The source's cream background blends with the parchment; a soft radius hides
+   any hard edge. */
+.opp-section-icon--img {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  object-fit: cover;
+  vertical-align: middle;
+  display: inline-block;
+}
+
 .opp-section-title {
   font-family: Georgia, serif;
   font-size: 22px;
@@ -100,6 +114,10 @@
 .opp-section--strongest .opp-section-icon {
   font-size: 23px;
 }
+.opp-section--strongest .opp-section-icon--img {
+  width: 30px;
+  height: 30px;
+}
 
 /* Secondary: the category grids below — present but visibly lighter. */
 .opp-section--secondary .opp-section-title {
@@ -109,6 +127,11 @@
 .opp-section--secondary .opp-section-icon {
   font-size: 17px;
   opacity: 0.85;
+}
+.opp-section--secondary .opp-section-icon--img {
+  width: 23px;
+  height: 23px;
+  opacity: 1;
 }
 .opp-section--secondary .opp-section-desc {
   font-size: 12.5px;
@@ -245,6 +268,16 @@
   line-height: 1.2;
   flex-shrink: 0;
   margin-top: 1px;
+}
+
+/* Watercolor press icon (img variant) — small square, cream bg blends with card. */
+.press-icon--img {
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  object-fit: cover;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .press-card-body {

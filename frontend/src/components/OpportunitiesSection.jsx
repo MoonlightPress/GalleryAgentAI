@@ -20,14 +20,41 @@ const SECTION_ORDER = [
   'watch_list',
 ]
 
+// Hand-made watercolor section icons (public/icons/*.webp, served under Vite's
+// /mochi/ base). Values prefixed "ic_" are image icons; sections without a
+// dedicated watercolor icon (immediate_best_moves / watch_list) keep their
+// emoji as a sensible fallback. <SectionIcon> below renders the right element.
+const ICON_BASE = `${import.meta.env.BASE_URL}icons/`
+const iconUrl = (name) => `${ICON_BASE}${name}.webp`
+
 const SECTION_ICONS = {
-  immediate_best_moves:  '⭐',
-  open_calls:            '📅',
-  publication_editorial: '✏️',
-  competitions_awards:   '🏆',
-  zines_and_print:       '📚',
-  relationship_targets:  '🌸',
-  watch_list:            '👁',
+  immediate_best_moves:  '⭐',          // no watercolor icon — keep emoji
+  open_calls:            'ic_opencall',
+  publication_editorial: 'ic_editorial',
+  competitions_awards:   'ic_award',
+  zines_and_print:       'ic_books',
+  relationship_targets:  'ic_people',
+  watch_list:            '👁',          // no watercolor icon — keep emoji
+}
+
+// Render a section/header icon: a watercolor <img> for "ic_*" values, otherwise
+// the literal emoji string. Falls back to a neutral dot if nothing is supplied.
+function SectionIcon({ icon, className = 'opp-section-icon' }) {
+  const value = icon || '•'
+  if (typeof value === 'string' && value.startsWith('ic_')) {
+    return (
+      <img
+        className={`${className} ${className}--img`}
+        src={iconUrl(value)}
+        alt=""
+        aria-hidden="true"
+        loading="lazy"
+        width="24"
+        height="24"
+      />
+    )
+  }
+  return <span className={className} aria-hidden="true">{value}</span>
 }
 
 const PAGE_SIZE = cardsPerBatch()   // 6 on desktop (3 cols), 4 on smaller screens (2/1 cols)
@@ -220,7 +247,15 @@ function PressCard({ opp }) {
     <div className="press-card">
       <div className="press-card-top">
         <div className="press-card-left">
-          <span className="press-icon">📰</span>
+          <img
+            className="press-icon press-icon--img"
+            src={iconUrl('ic_press')}
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+            width="22"
+            height="22"
+          />
           <div className="press-card-body">
             <div className="press-card-name-row">
               <span className="press-card-name">{name}</span>
@@ -289,7 +324,7 @@ function PressSection({ items }) {
     <section id="press_visibility" className="opp-section press-section">
       <div className="opp-section-header">
         <div className="opp-section-title-row">
-          <span className="opp-section-icon">📰</span>
+          <SectionIcon icon="ic_press" />
           <h2 className="opp-section-title">{t('press.section.title')}</h2>
           {/* Raw count hidden on the calm home view — presence, not quantity. */}
         </div>
@@ -367,7 +402,7 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
       {/* Section header */}
       <div className="opp-section-header">
         <div className="opp-section-title-row">
-          <span className="opp-section-icon">{icon}</span>
+          <SectionIcon icon={icon} />
           <h2 className="opp-section-title">{sectionLabel}</h2>
           {/* Raw count hidden on the calm home view — a big "302" reads as "how
               behind you are". Presence, not quantity. */}
