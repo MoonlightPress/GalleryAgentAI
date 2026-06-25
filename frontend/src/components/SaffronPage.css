@@ -132,33 +132,26 @@
 .sf-marker-value { font-family: Georgia, serif; font-size: 24px; font-weight: bold; color: #3d2b1a; }
 .sf-marker-label { font-family: Georgia, serif; font-size: 13px; color: #5d4b3b; text-align: center; }
 
-/* Inline answers in Open Questions */
-.sf-question-answer { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
-.sf-question-input {
-  flex: 1;
-  min-width: 180px;
+/* Cadence tip — the one bit salvaged from the deleted Instagram panel; a small,
+   optional, collapsible line under the next-step card in Career Readiness. */
+.sf-cadence-tip { margin-top: 14px; }
+.sf-cadence-tip-toggle {
+  background: none;
+  border: none;
+  padding: 0;
   font-family: Georgia, serif;
   font-size: 13px;
-  padding: 8px 12px;
-  border: 1px solid #d8c79a;
-  border-radius: 8px;
-  background: #fffdf8;
-  color: #3d2b1a;
-}
-.sf-question-input:focus { outline: none; border-color: #c49a3e; }
-.sf-question-save {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  padding: 8px 16px;
-  border-radius: 8px;
-  border: 1px solid #c49a3e;
-  background: #c49a3e;
-  color: #fff;
+  color: #c47a35;
   cursor: pointer;
 }
-.sf-question-save:disabled { opacity: 0.45; cursor: default; }
-.sf-question-save:not(:disabled):hover { background: #b5701f; border-color: #b5701f; }
-.sf-question-saved { margin-top: 10px; font-size: 13px; color: #5a7a30; font-style: italic; }
+.sf-cadence-tip-toggle:hover { text-decoration: underline; }
+.sf-cadence-tip-text {
+  margin: 8px 0 0;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #5d4b3b;
+}
 
 /* ── Toggle header ──────────────────────────────────────────────────── */
 
@@ -297,40 +290,8 @@
   font-style: italic;
 }
 
-.sf-social-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.sf-social-table td {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  color: #3d2b1a;
-  padding: 5px 10px 5px 0;
-  vertical-align: top;
-}
-
-.sf-social-platform {
-  color: #7a5c3a;
-  white-space: nowrap;
-}
-
-.sf-social-handle {
-  font-style: italic;
-  color: #c47a35;
-}
-
-.sf-social-followers {
-  font-weight: bold;
-  text-align: right;
-  padding-right: 14px !important;
-}
-
-.sf-social-posts {
-  color: #9a7040;
-  font-size: 12px;
-  font-style: italic;
-}
+/* (Social-presence table CSS removed 2026-06-25 — the social/education/base
+    blocks were cut from CareerPosition; she already knows those facts.) */
 
 /* (Market Landscape CSS removed 2026-06-25 with the Landscape tab.) */
 
@@ -517,58 +478,10 @@
   margin-top: 8px;
 }
 
-/* ── Instagram strategy ─────────────────────────────────────────────────── */
-
-.sf-platform-row {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  padding: 12px 0;
-  border-bottom: 1px solid #f0e3c4;
-}
-
-.sf-platform-row:last-of-type { border-bottom: none; }
-
-.sf-platform-name {
-  font-family: Georgia, serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: #3d2b1a;
-}
-
-.sf-platform-handle {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  color: #c47a35;
-  font-style: italic;
-}
-
-.sf-platform-followers {
-  font-family: Georgia, serif;
-  font-size: 15px;
-  font-weight: bold;
-  color: #3d2b1a;
-}
-
-.sf-platform-note {
-  font-family: Georgia, serif;
-  font-size: 12px;
-  color: #9a7040;
-  font-style: italic;
-  line-height: 1.5;
-}
-
-.sf-missing-row {
-  margin-bottom: 14px;
-}
-
-.sf-missing-reason {
-  font-family: Georgia, serif;
-  font-size: 12.5px;
-  color: #7a5c3a;
-  line-height: 1.55;
-  margin: 4px 0 0;
-}
+/* (Instagram-strategy CSS removed 2026-06-25 — the standalone InstagramStrategy
+    and AudienceGeography panels were cut; Instagram is stated once, as the
+    audience fact in CareerPosition. sf-platform-*, sf-missing-* and the
+    geo answer-bubble variant went with them.) */
 
 /* ── Peppercorn answer bubbles ──────────────────────────────────────────── */
 
@@ -583,11 +496,6 @@
   border-radius: 4px;
   padding: 8px 12px;
   margin-top: 4px;
-}
-
-.sf-answer-bubble--geo {
-  font-size: 13.5px;
-  padding: 12px 14px;
 }
 
 /* ── Career benchmarks ──────────────────────────────────────────────────── */
@@ -1108,59 +1016,8 @@
   line-height: 1.55;
 }
 
-/* ── Open questions ─────────────────────────────────────────────────────── */
-
-.sf-questions {
-  display: flex;
-  flex-direction: column;
-}
-
-.sf-question-row {
-  display: flex;
-  gap: 18px;
-  padding: 16px 0;
-  border-bottom: 1px solid #f0e3c4;
-}
-
-.sf-question-row:last-child { border-bottom: none; }
-
-.sf-question-number {
-  font-family: Georgia, serif;
-  font-size: 15px;
-  font-weight: bold;
-  color: #d4b87a;
-  flex-shrink: 0;
-  width: 20px;
-  padding-top: 1px;
-}
-
-.sf-question-body {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.sf-question-text {
-  font-family: Georgia, serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: #3d2b1a;
-  line-height: 1.3;
-}
-
-.sf-question-why {
-  font-family: Georgia, serif;
-  font-size: 13px;
-  color: #5a3e20;
-  line-height: 1.55;
-}
-
-.sf-question-route {
-  font-family: Georgia, serif;
-  font-size: 12px;
-  color: #c47a35;
-  font-style: italic;
-}
+/* (Open-questions CSS removed 2026-06-25 — the open-questions block was cut
+    from the Profile tab; those questions live in Peppercorn now.) */
 
 /* ── Strategic Pathway ──────────────────────────────────────────────── */
 

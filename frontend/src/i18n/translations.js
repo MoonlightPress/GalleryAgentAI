@@ -387,6 +387,8 @@ const zh = {
 
   'sf.label.exhibitions':    '展览经历',
   'sf.label.publications':   '出版物',
+  'sf.label.audience':       '受众',
+  'sf.audience.fact':        '稳固且持续增长的 Instagram 受众',
   'sf.label.social':         '社交媒体',
   'sf.label.education':      '教育背景',
   'sf.label.base':           '工作地',
@@ -1478,6 +1480,8 @@ const ja = {
 
   'sf.label.exhibitions':    '展示歴',
   'sf.label.publications':   '出版物',
+  'sf.label.audience':       'オーディエンス',
+  'sf.audience.fact':        '確立された、伸び続けるInstagramのフォロワー',
   'sf.label.social':         'ソーシャル',
   'sf.label.education':      '学歴',
   'sf.label.base':           '拠点',
@@ -2529,6 +2533,8 @@ const en = {
 
   'sf.label.exhibitions':    'Exhibitions',
   'sf.label.publications':   'Publications',
+  'sf.label.audience':       'Audience',
+  'sf.audience.fact':        'An established, growing Instagram following',
   'sf.label.social':         'Social Presence',
   'sf.label.education':      'Education',
   'sf.label.base':           'Base',

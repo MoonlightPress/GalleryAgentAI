@@ -384,7 +384,10 @@ function actStatusLabel(status, t) {
 
 function CareerPosition({ data, t }) {
   const ig = data.social.find(s => s.platform === 'Instagram')
-  const summary = `${data.exhibitions.length} · ${data.publications.length} · Instagram ${ig?.followers ?? '—'} · ${data.base}`
+  // Her record is the exhibitions + publications. Social handles, education, and
+  // home base are things she already knows — they were removed from this section
+  // (no value to her). Instagram now lives ONCE in the app as the audience fact.
+  const summary = `${data.exhibitions.length} · ${data.publications.length}`
 
   const igStr = ig?.followers || '27k'
   // "You're here" markers — NOT progress-to-target rings. The old rings rendered
@@ -433,27 +436,13 @@ function CareerPosition({ data, t }) {
             </div>
           ))}
         </div>
+        {/* Social handles, education, and home base removed — she already knows
+            her own handles, where she studied, and where she lives. Instagram is
+            stated ONCE here, as the audience fact ("an established, growing
+            following"), not repeated as a handle row / benchmark / geo line. */}
         <div className="sf-career-block">
-          <div className="sf-block-label">{t('sf.label.social')}</div>
-          <table className="sf-social-table">
-            <tbody>
-              {data.social.map((s, i) => (
-                <tr key={i}>
-                  <td className="sf-social-platform">{s.platform}</td>
-                  <td className="sf-social-handle">{s.handle}</td>
-                  <td className="sf-social-followers">{s.followers}</td>
-                  {s.posts != null ? <td className="sf-social-posts">{s.posts} {t('sf.label.posts')}</td> : <td />}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <div className="sf-career-block">
-          <div className="sf-block-label">{t('sf.label.education')}</div>
-          <div className="sf-row-title">{data.education.institution}</div>
-          <div className="sf-row-meta">{data.education.field} · {data.education.note}</div>
-          <div className="sf-block-label" style={{ marginTop: '18px' }}>{t('sf.label.base')}</div>
-          <div className="sf-row-title">{data.base}</div>
+          <div className="sf-block-label">{t('sf.label.audience')}</div>
+          <div className="sf-row-title">{t('sf.audience.fact')}</div>
         </div>
       </div>
     </SectionShell>
@@ -574,70 +563,10 @@ function StrategicPathway({ data, t }) {
 
 // ── New sections ───────────────────────────────────────────────────────────
 
-function InstagramStrategy({ data, t }) {
-  const ig = data.platforms.find(p => p.name === 'Instagram')
-  const postingFreq = data.known?.posting_frequency
-
-  return (
-    <SectionShell
-      title={t('sf.sec.instagram')}
-      subtitle={t('sf.sub.instagram')}
-      summary={`Instagram ${ig?.followers ?? '—'}`}
-    >
-      <div className="sf-two-col">
-        <div>
-          <div className="sf-block-label">{t('pp.ig.platform')}</div>
-          {data.platforms.map((p, i) => (
-            <div key={i} className="sf-platform-row">
-              <div className="sf-platform-name">{p.name}</div>
-              <div className="sf-platform-handle">{p.handle}</div>
-              <div className="sf-platform-followers">{p.followers ?? '—'}{p.posts != null ? ` · ${p.posts} ${t('sf.label.posts')}` : ''}</div>
-              <div className="sf-platform-note">{p.note}</div>
-            </div>
-          ))}
-        </div>
-        <div>
-          <div className="sf-block-label">{t('pp.ig.known')}</div>
-          <div className="sf-row-title" style={{ marginBottom: 6 }}>{data.known.diary_practice}</div>
-          <div className="sf-row-meta">{data.known.content_type}</div>
-
-          {data.strategy && (
-            <div style={{ marginTop: 16 }}>
-              <div className="sf-block-label">{t('sf.ig.strategy')}</div>
-              <p className="sf-info-text">{data.strategy}</p>
-            </div>
-          )}
-
-          {postingFreq && (
-            <div className="sf-peppercorn-answer" style={{ marginTop: 16 }}>
-              <div className="sf-block-label">{t('sf.label.postingFreq')}</div>
-              <div className="sf-answer-bubble">{postingFreq}</div>
-            </div>
-          )}
-        </div>
-      </div>
-    </SectionShell>
-  )
-}
-
-function AudienceGeography({ data, t }) {
-  // Only show when there's a real audience report — no "what's missing" meta.
-  if (!data.available || !data.artist_report) return null
-  return (
-    <SectionShell
-      title={t('sf.sec.audienceGeo')}
-      subtitle={t('sf.sub.audienceGeo')}
-      summary={t('sf.sum.audienceGeo.live')}
-    >
-      <div className="sf-info-block">
-        <div className="sf-block-label">{t('sf.label.artistReport')}</div>
-        <div className="sf-answer-bubble sf-answer-bubble--geo">{data.artist_report}</div>
-        <div className="sf-block-label" style={{ marginTop: 18 }}>{t('sf.label.whyMatters')}</div>
-        <p className="sf-info-text">{data.why_it_matters}</p>
-      </div>
-    </SectionShell>
-  )
-}
+// (InstagramStrategy and AudienceGeography sections removed 2026-06-25 — the
+//  Profile tab no longer repeats Instagram across multiple panels. Instagram is
+//  stated once, as the audience fact in CareerPosition; the panel's one useful
+//  bit, the weekly-rhythm cadence tip, was salvaged into Career Readiness.)
 
 const ASSESSMENT_KEYS = {
   strong:        'sf.assess.strong',
@@ -659,9 +588,15 @@ function CareerBenchmarks({ data, t }) {
   // section simply doesn't appear.
   // Filter on the API's stable `favorable` boolean (the assessment string gets
   // deep-translated in zh, so matching on it would wrongly hide everything).
-  const favorable = (data.peer_range || []).filter(r => r.favorable)
+  // Also drop the pure-Instagram-followers dimension: Instagram is now stated
+  // ONCE, as the audience fact in CareerPosition — it shouldn't reappear here as
+  // a benchmark row. `peer_high === '100k+'` uniquely + translation-stably tags
+  // that row (numbers/symbols don't get deep-translated).
+  const favorable = (data.peer_range || []).filter(r => r.favorable && r.peer_high !== '100k+')
   if (favorable.length === 0) return null
-  const summary = `${rec.exhibitions} · ${rec.publications} · Instagram ${rec.instagram ?? '—'}`
+  // Summary drops the Instagram count — Instagram is stated once (the audience
+  // fact in CareerPosition), not echoed in this collapsed-section summary.
+  const summary = `${rec.exhibitions} · ${rec.publications}`
   return (
     <SectionShell
       title={t('sf.sec.benchmarks')}
@@ -1121,98 +1056,10 @@ function VenueTracker({ data, t }) {
   )
 }
 
-// Open questions map 1:1 (in order) to the saffron_answers slots in api.py.
-const SF_ANSWER_KEYS = [
-  'posting_frequency', 'audience_geography', 'has_sold_work', 'new_publication_planned',
-  'has_artist_statement', 'tide_china_contact', 'second_exhibition_planned', 'price_points',
-]
-
-function QuestionRow({ q, index, t }) {
-  const [value, setValue] = useState('')
-  const [saved, setSaved] = useState(false)
-  const key = SF_ANSWER_KEYS[index]
-
-  function save() {
-    const v = value.trim()
-    if (!v || !key) return
-    setSaved(true)
-    fetch('/api/saffron_answer', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ key, value: v }),
-    }).catch(() => {})
-  }
-
-  return (
-    <div className="sf-question-row">
-      <div className="sf-question-number">{index + 1}</div>
-      <div className="sf-question-body">
-        <div className="sf-question-text">{q.question}</div>
-        <div className="sf-question-why">{q.why_it_matters}</div>
-        {saved ? (
-          <div className="sf-question-saved">{t('sf.oq.saved')}</div>
-        ) : (
-          <div className="sf-question-answer">
-            <input
-              className="sf-question-input"
-              value={value}
-              onChange={e => setValue(e.target.value)}
-              placeholder={t('sf.oq.placeholder')}
-              onKeyDown={e => { if (e.key === 'Enter') save() }}
-            />
-            <button className="sf-question-save" onClick={save} disabled={!value.trim()}>
-              {t('sf.oq.save')}
-            </button>
-          </div>
-        )}
-      </div>
-    </div>
-  )
-}
-
-// Compact, opt-in open-questions block for the profile tab. Framed as an
-// invitation ("want Saffron to understand you better? — optional"), 3 visible +
-// a "still N more ▾" reveal (same progressive-disclosure pattern as the gaps).
-// NEVER a quota or a count-pressure — answering is welcome, never required.
-const PROFILE_OQ_HEAD = {
-  zh: { title: '想让红雀更懂你？（可选）', note: '回答哪些、回答几个，都由你决定——答了我会把建议调得更贴近你，不答也完全没关系。' },
-  ja: { title: 'サフランにもっと知ってほしいですか？（任意）', note: 'どれに答えるかも、答えるかどうかも、あなた次第です——答えてくれたらアドバイスをより合わせられますが、答えなくても大丈夫です。' },
-  en: { title: 'Want Saffron to understand you better? (optional)', note: "Answer any, all, or none — whatever you feel like. Each one I'll use to tune the advice closer to you, and it's completely fine to skip them." },
-}
-const PROFILE_OQ_MORE = {
-  zh: (n) => `还有 ${n} 个 ▾`,
-  ja: (n) => `あと ${n} 件 ▾`,
-  en: (n) => `${n} more ▾`,
-}
-const PROFILE_OQ_HIDE = { zh: '收起', ja: '閉じる', en: 'Hide' }
-
-function ProfileOpenQuestions({ data, t, lang }) {
-  const [expanded, setExpanded] = useState(false)
-  const questions = data?.questions ?? []
-  if (questions.length === 0) return null
-  const head = PROFILE_OQ_HEAD[lang] || PROFILE_OQ_HEAD.en
-  const VISIBLE = 3
-  const shown = expanded ? questions : questions.slice(0, VISIBLE)
-  const hidden = questions.length - VISIBLE
-  return (
-    <SectionShell title={head.title} summary={head.title}>
-      <p className="sf-info-text" style={{ marginBottom: 20 }}>{head.note}</p>
-      <div className="sf-questions">
-        {shown.map((q, i) => <QuestionRow key={i} q={q} index={i} t={t} />)}
-      </div>
-      {hidden > 0 && (
-        <div className="sf-more-gaps" style={{ marginTop: 8 }}>
-          <button className="sf-more-gaps-toggle" onClick={() => setExpanded(e => !e)}>
-            {expanded ? (PROFILE_OQ_HIDE[lang] || PROFILE_OQ_HIDE.en) : (PROFILE_OQ_MORE[lang] || PROFILE_OQ_MORE.en)(hidden)}
-          </button>
-        </div>
-      )}
-    </SectionShell>
-  )
-}
-
-// (OpenQuestions full-list section retired — replaced by the compact, opt-in
-// ProfileOpenQuestions block on the profile tab.)
+// (Open-questions block removed from the Profile tab 2026-06-25 — those
+//  questions live in Peppercorn now, as its Saffron-questions section. The
+//  ProfileOpenQuestions / QuestionRow components and their constants
+//  (SF_ANSWER_KEYS, PROFILE_OQ_*) were deleted with it.)
 
 // ── Licensing Landscape ────────────────────────────────────────────────────
 
@@ -1960,7 +1807,25 @@ const MORE_DIRS = {
 }
 const HIDE_DIRS = { zh: '收起', ja: '閉じる', en: 'Hide' }
 
-function CareerReadiness({ data, onChanged }) {
+// Small "want a gentle posting rhythm?" line — the ONE bit salvaged from the
+// deleted InstagramStrategy panel. Optional, collapsible, never a quota.
+const CADENCE_TIP_MORE = { zh: '想要一个温和的发布节奏？▾', ja: '穏やかな投稿リズムは？▾', en: 'Want a gentle posting rhythm? ▾' }
+const CADENCE_TIP_HIDE = { zh: '收起', ja: '閉じる', en: 'Hide' }
+
+function CadenceTip({ text, lang }) {
+  const [open, setOpen] = useState(false)
+  if (!text) return null
+  return (
+    <div className="sf-cadence-tip">
+      <button className="sf-cadence-tip-toggle" onClick={() => setOpen(o => !o)}>
+        {open ? (CADENCE_TIP_HIDE[lang] || CADENCE_TIP_HIDE.en) : (CADENCE_TIP_MORE[lang] || CADENCE_TIP_MORE.en)}
+      </button>
+      {open && <p className="sf-cadence-tip-text">{text}</p>}
+    </div>
+  )
+}
+
+function CareerReadiness({ data, cadenceTip, onChanged }) {
   const { t, lang } = useLanguage()
   const [showMore, setShowMore] = useState(false)
   if (!data) return null
@@ -2006,6 +1871,9 @@ function CareerReadiness({ data, onChanged }) {
               <GapCorrectionForm gap={nextStep} onChanged={onChanged} />
             </>
           )}
+          {/* The one bit salvaged from the deleted Instagram panel: a gentle
+              weekly-rhythm cadence tip, folded in here as a small optional line. */}
+          <CadenceTip text={cadenceTip} lang={lang} />
         </div>
       )}
 
@@ -2210,14 +2078,16 @@ export default function SaffronPage({ nav }) {
                     geographic expansion) were deleted — no salvage. */}
                 {tab === 'profile' && (
                   <>
-                    {careerData && SB('readiness', <CareerReadiness data={careerData} onChanged={refreshCareer} />)}
+                    {careerData && SB('readiness', <CareerReadiness data={careerData} cadenceTip={data.instagram_strategy?.strategy} onChanged={refreshCareer} />)}
                     <SectionOpenContext.Provider value={false}>
-                      {SB('openq',      <ProfileOpenQuestions data={data.open_questions} t={t} lang={lang} />)}
-                      {SB('igstrat',    <InstagramStrategy data={data.instagram_strategy} t={t} />)}
-                      {SB('audgeo',     <AudienceGeography data={data.audience_geography} t={t} />)}
-                      {/* The three peer/record COMPARISON sections are demoted to
-                          opt-in (collapsed) — they're the most self-comparing,
-                          least-needed-at-a-glance part of the profile. */}
+                      {/* Open questions moved to Peppercorn (they live there as the
+                          Saffron-questions section). Standalone InstagramStrategy
+                          and audience-geography panels removed — Instagram is now
+                          stated once, as the audience fact in CareerPosition; only
+                          the weekly-rhythm cadence tip was salvaged (into the
+                          next-step area of Career Readiness above). */}
+                      {/* The peer/record COMPARISON sections stay collapsed (opt-in)
+                          — the most self-comparing, least-needed-at-a-glance part. */}
                       {SB('careerpos',  <CareerPosition data={data.career_position} t={t} />)}
                       {SB('benchmarks', <CareerBenchmarks data={data.career_benchmarks} t={t} />)}
                       {SB('peers',      <ComparableArtists artists={data.peer_artists} t={t} />)}
