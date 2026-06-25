@@ -676,7 +676,7 @@ const SHOW_OUTCOME_COLORS = {
   cancelled: { bg: '#f5f5f5', border: '#ccc',    text: '#555' },
 }
 
-function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
+function ExhibitionLogSection({ isOpen, onToggle, sectionRef, liveGroupShows, onCountsChanged }) {
   const { t } = useLanguage()
   const [shows, setShows] = useState([])
   const [form, setForm] = useState({ date: '', name: '', venue: '', type: 'group', outcome: 'shown', notes: '' })
@@ -722,6 +722,7 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
         setShows(Array.isArray(updated) ? updated : [])
         resetForm()
         flash()
+        onCountsChanged?.()  // refresh the canonical group-show count (shared with Saffron)
       }
     } finally {
       setSaving(false)
@@ -733,13 +734,18 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
       const r = await fetch(`/api/exhibition_log/${id}`, { method: 'DELETE' })
       // Only drop it from the UI if the server actually deleted it — otherwise
       // it reappears on reload and the user thinks the delete worked.
-      if (r.ok) setShows(prev => prev.filter(s => s.id !== id))
+      if (r.ok) { setShows(prev => prev.filter(s => s.id !== id)); onCountsChanged?.() }
     } catch { /* leave the row in place on network failure */ }
   }
 
   const sorted = [...shows].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
-  const groupCount = shows.filter(s => s.type === 'group').length
-  const total = 1 + groupCount  // 1 hardcoded + logged
+  // T0.6 — show THE canonical app-wide group-show count (the same number Saffron
+  // uses), supplied by the server via /api/peppercorn live_counts. Never recompute
+  // it locally (that diverged from Saffron the moment a show was logged). Fall back
+  // to the logged-only count only if the canonical value hasn't loaded yet.
+  const total = (typeof liveGroupShows === 'number')
+    ? liveGroupShows
+    : 1 + shows.filter(s => s.type === 'group').length
 
   return (
     <SectionShell
@@ -747,7 +753,7 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
       sectionRef={sectionRef}
       title={t('pp.sec.exlog')}
       synopsis={t('pp.syn.exlog')}
-      subtitle={shows.length === 0 ? t('pp.sub.exlog.empty') : t('pp.sub.exlog.count', { n: total })}
+      subtitle={shows.length === 0 && total <= 1 ? t('pp.sub.exlog.empty') : t('pp.sub.exlog.count', { n: total })}
       isOpen={isOpen}
       onToggle={onToggle}
     >
@@ -1790,10 +1796,15 @@ export default function PeppercornPage({ nav }) {
     setStatusMsg(t('pp.saving'))
     setIsSaved(false)
     try {
+      // Strip server-derived fields (e.g. live_counts, injected by GET) so they
+      // are never persisted back into peppercorn_profile.json (T4.2). The server
+      // strips them too, but not sending them keeps the payload honest.
+      const { live_counts: _drop, ...toSave } = next
+      void _drop
       const r = await fetch('/api/peppercorn', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(next),
+        body: JSON.stringify(toSave),
       })
       if (!r.ok) throw new Error(r.status)
       // The backend reports regen_started when a statement edit kicked off a
@@ -1808,6 +1819,17 @@ export default function PeppercornPage({ nav }) {
       setStatusMsg(t('pp.saveError'))
       setTimeout(() => setStatusMsg(''), 3000)
     }
+  }
+
+  // T0.6 — after she logs/deletes a show, pull the fresh canonical group-show
+  // count (the same number Saffron shows) without disturbing her editable fields.
+  async function refreshLiveCounts() {
+    try {
+      const r = await fetch('/api/peppercorn')
+      if (!r.ok) return
+      const p = await r.json()
+      if (p?.live_counts) setProfile(prev => (prev ? { ...prev, live_counts: p.live_counts } : prev))
+    } catch { /* leave the count as-is on network failure */ }
   }
 
   function handleCardClick(card) {
@@ -1838,9 +1860,11 @@ export default function PeppercornPage({ nav }) {
       <ArtistStatementSection
         key="artist-statement"
         data={localizedStatement}
-        // Her statement is one canonical text — write it to every language field so
-        // editing the (localized) seed doesn't get reverted on the next render.
-        onSave={v => saveSection({ artist_statement: v, artist_statement_zh: v, artist_statement_ja: v })}
+        // Her statement is ONE canonical field (T4.2). Save it once; the server
+        // drops any stale localized siblings so the next render falls back to the
+        // canonical text until a real translation is produced — it never shows an
+        // out-of-date zh/ja copy that silently drifted from her edit.
+        onSave={v => saveSection({ artist_statement: v, artist_statement_zh: null, artist_statement_ja: null })}
         isOpen={openSections.has('artist-statement')}
         onToggle={() => toggleSection('artist-statement')}
         sectionRef={setSectionRef('artist-statement')}
@@ -1879,6 +1903,8 @@ export default function PeppercornPage({ nav }) {
     'exhibition-log': (
       <ExhibitionLogSection
         key="exhibition-log"
+        liveGroupShows={profile?.live_counts?.group_shows}
+        onCountsChanged={refreshLiveCounts}
         isOpen={openSections.has('exhibition-log')}
         onToggle={() => toggleSection('exhibition-log')}
         sectionRef={setSectionRef('exhibition-log')}

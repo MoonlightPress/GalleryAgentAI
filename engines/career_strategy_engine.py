@@ -177,6 +177,16 @@ def _load_json(path: Path, fallback):
     return fallback
 
 
+def _is_group_type(etype: str) -> bool:
+    """True for a genuine group show. Like _is_solo_type, this guards against the
+    source disclaimer 'exhibition (group/solo not specified on source)', where
+    'group' appears only inside "group/solo not specified" — an UNKNOWN type."""
+    t = (etype or "").lower()
+    if "not specified" in t or "group/solo" in t:
+        return False
+    return "group" in t
+
+
 def _count_group_shows(profile: dict, ex_log: list) -> int:
     """Count *confirmed* group shows from research + exhibition log.
 
@@ -189,9 +199,8 @@ def _count_group_shows(profile: dict, ex_log: list) -> int:
     base = 1  # Tide from China Part1, Feb 2023 (confirmed: venue, dates, source)
 
     for ex in profile.get("career_history", {}).get("exhibitions", []):
-        etype = (ex.get("type") or "").lower()
         confidence = (ex.get("confidence") or "").lower()
-        if ("group" in etype
+        if (_is_group_type(ex.get("type"))
                 and ex.get("title") != "Tide from China Part1"
                 and confidence.startswith("confirmed")):
             base += 1
@@ -214,9 +223,19 @@ def _confirmed(e: dict) -> bool:
     return (e.get("confidence") or "").lower() not in ("mentioned", "unconfirmed")
 
 
+def _is_solo_type(etype: str) -> bool:
+    """True for a genuine solo show. Guards against the source disclaimer
+    'exhibition (group/solo not specified on source)', where 'solo' appears only
+    as part of "not specified" — that is an UNKNOWN type, not a solo credit."""
+    t = (etype or "").lower()
+    if "not specified" in t or "group/solo" in t:
+        return False
+    return "solo" in t
+
+
 def _has_solo_show(profile: dict, ex_log: list) -> bool:
     for ex in profile.get("career_history", {}).get("exhibitions", []):
-        if "solo" in (ex.get("type") or "").lower():
+        if _is_solo_type(ex.get("type")):
             return True
     for e in ex_log:
         if (e.get("type") == "solo"
@@ -244,12 +263,21 @@ def _has_institutional_show(profile: dict, ex_log: list) -> bool:
 
 
 def _has_international_show(profile: dict, ex_log: list) -> bool:
+    # International = a showing outside her two home countries (China, Japan).
     INTL = ("london", "paris", "new york", "berlin", "sydney", "amsterdam",
             "brussels", "zurich", "seoul", "hong kong")
+    HOME = ("china", "japan", "tokyo", "beijing", "shanghai", "guangzhou",
+            "hangzhou", "shenzhen", "nanjing", "tianjin", "taizhou", "changsha")
     for ex in profile.get("career_history", {}).get("exhibitions", []):
         venue = (ex.get("venue") or "").lower()
         title = (ex.get("title") or "").lower()
-        if any(kw in venue for kw in INTL) or any(kw in title for kw in ("international", "global")):
+        city  = (ex.get("city") or "").lower()
+        if any(kw in venue for kw in INTL) or any(kw in city for kw in INTL):
+            return True
+        if any(kw in title for kw in ("international", "global")):
+            return True
+        # A confirmed show in a city that is neither Chinese nor Japanese counts.
+        if city and not any(h in city for h in HOME):
             return True
     for e in ex_log:
         country = (e.get("country") or "").lower()
@@ -262,6 +290,59 @@ def _has_international_show(profile: dict, ex_log: list) -> bool:
 def _has_jws(profile: dict) -> bool:
     history = str(profile.get("career_history", {})).lower()
     return "japan watercolor society" in history or "日本水彩" in history
+
+
+# ── Next-tier levers (for an artist who already has solo + institutional +
+#    international credits — graduating PAST foundation-building) ──────────────
+
+_NONE_VALUES = ("", "none", "none confirmed", "none found", "n/a", "unknown")
+
+
+def _has_representation(profile: dict) -> bool:
+    """Gallery representation on record. The profile records a free-text field
+    (e.g. 'none confirmed') — treat any non-empty, non-'none' value as a real
+    representation credit."""
+    rep = profile.get("career_history", {}).get("gallery_representation")
+    return isinstance(rep, str) and rep.strip().lower() not in _NONE_VALUES
+
+
+def _has_residency(profile: dict, ex_log: list) -> bool:
+    res = profile.get("career_history", {}).get("residencies")
+    if isinstance(res, list) and res:
+        return True
+    if isinstance(res, str) and res.strip().lower() not in _NONE_VALUES:
+        return True
+    for e in ex_log:
+        if (e.get("type") in ("residency", "residency_show")
+                and e.get("outcome") in ("shown", "completed", None, "")
+                and _confirmed(e)):
+            return True
+    return False
+
+
+def _has_grant(profile: dict) -> bool:
+    awards = profile.get("career_history", {}).get("awards")
+    if isinstance(awards, list) and awards:
+        return True
+    return isinstance(awards, str) and awards.strip().lower() not in _NONE_VALUES
+
+
+def _count_solo_shows(profile: dict, ex_log: list) -> int:
+    n = 0
+    for ex in profile.get("career_history", {}).get("exhibitions", []):
+        if _is_solo_type(ex.get("type")):
+            n += 1
+    for e in ex_log:
+        if (e.get("type") == "solo"
+                and e.get("outcome") in ("shown", "completed", None, "")
+                and _confirmed(e)):
+            n += 1
+    return n
+
+
+def _count_publications(profile: dict) -> int:
+    pubs = profile.get("career_history", {}).get("publications")
+    return len(pubs) if isinstance(pubs, list) else 0
 
 
 # ── Readiness scores ──────────────────────────────────────────────────────────
@@ -356,8 +437,202 @@ def _months_to_tier3(group_shows: int, has_institutional: bool) -> int:
     return 12
 
 
+def _next_tier_levers(solo_shows: int, has_international: bool, has_jws: bool,
+                      has_representation: bool, has_residency: bool,
+                      has_grant: bool, publications: int) -> list:
+    """The graduated ladder for an artist who already has solo + institutional
+    + international credits (Scott, 2026-06-25). She is past foundation-building;
+    these are the real next levers, every one framed as a door to walk through —
+    never a deficit. Each carries a _zh sibling so the page never leaks English.
+
+    Order is the strategic priority Scott named: representation first (the biggest
+    structural step), then venue quality, art fairs, residencies, grants, a
+    deeper international record, critical press, and a second publication."""
+    levers = []
+
+    if not has_representation:
+        levers.append({
+            "gap_id":   "gallery_representation",
+            "gap":      "Gallery representation is the next structural step",
+            "gap_zh":   "画廊代理，是下一个关键的结构性跃升",
+            "detail":   (
+                "You already have solo shows and museum-group credits — the next structural "
+                "leap is a gallery that represents you: one that sells on your behalf, places "
+                "you in art fairs, and builds a collector base over time. This is the single "
+                "biggest move available at your stage."
+            ),
+            "detail_zh": (
+                "你已经拥有个展与美术馆联展的履历——下一个结构性的跃升，是找到一家代理你的画廊："
+                "由它替你销售、带你进入艺术博览会、并长期为你积累藏家。"
+                "这是你现阶段最重要的一步。"
+            ),
+            "priority": "high",
+            "action":   "Build relationships with commercial galleries whose roster and program fit your work; let representation grow from shows you already have.",
+            "action_zh": "与作品调性契合、项目方向相符的商业画廊建立关系；让代理关系从你已有的展览中自然生长。",
+        })
+
+    if solo_shows < 3:
+        levers.append({
+            "gap_id":   "solo_venue_quality",
+            "gap":      "Stepping up to larger, more established solo venues",
+            "gap_zh":   "迈向更大、更具分量的个展场地",
+            "detail":   (
+                "You have solo shows on record — the next move is the quality of the venue: "
+                "graduating from artist-run and independent spaces toward established commercial "
+                "galleries and institutional solo exhibitions. Each stronger solo deepens the CV "
+                "more than another group show would."
+            ),
+            "detail_zh": (
+                "你已有个展履历——下一步在于场地的分量：从艺术家自营空间与独立空间，"
+                "迈向更成熟的商业画廊与机构个展。每一次更高规格的个展，"
+                "对履历的加成都胜过再办一次联展。"
+            ),
+            "priority": "high",
+            "action":   "Target established commercial galleries and institutional spaces for your next solo, building on the venues you've already shown with.",
+            "action_zh": "以更成熟的商业画廊与机构空间为下一次个展的目标，在你已合作过的场地基础上更进一步。",
+        })
+
+    levers.append({
+        "gap_id":   "art_fairs",
+        "gap":      "Art fairs open collector access",
+        "gap_zh":   "艺术博览会，打开通向藏家的通道",
+        "detail":   (
+            "Art fairs (Art Fair Tokyo, Tokyo Gendai and their international peers) are where "
+            "collectors gather — usually reached through a representing gallery. As representation "
+            "comes together, fairs become the natural place your work meets buyers at scale."
+        ),
+        "detail_zh": (
+            "艺术博览会（Art Fair Tokyo、Tokyo Gendai 及其国际同侪）是藏家汇聚之地——"
+            "通常通过代理画廊进入。随着代理关系成形，博览会会成为你的作品规模化触达藏家的天然舞台。"
+        ),
+        "priority": "medium",
+        "action":   "Note the fairs your target galleries exhibit at; fair access typically follows representation.",
+        "action_zh": "留意你的目标画廊参与的博览会；博览会的入口通常随代理关系而来。",
+    })
+
+    if not has_residency:
+        levers.append({
+            "gap_id":   "residency",
+            "gap":      "A residency is a genuine open door on your CV",
+            "gap_zh":   "驻地项目，是履历上一扇真正待开的门",
+            "detail":   (
+                "Residencies carry real institutional weight and are a natural fit for a "
+                "cross-cultural practice between Tokyo and Beijing — and they're one of the few "
+                "credits not yet on your record. A residency abroad would also deepen the "
+                "international record you've already begun."
+            ),
+            "detail_zh": (
+                "驻地项目具备真正的机构分量，也非常契合你往返东京与北京的跨文化创作——"
+                "而且这是你履历上尚未拥有的少数credit之一。一次海外驻地，"
+                "还能让你已经开启的国际履历更进一层。"
+            ),
+            "priority": "medium",
+            "action":   "Research residencies that suit a watercolor/works-on-paper practice and a Tokyo–Beijing artist.",
+            "action_zh": "了解适合水彩／纸上作品创作、以及往返东京—北京的艺术家的驻地项目。",
+        })
+
+    if not has_grant:
+        levers.append({
+            "gap_id":   "grant",
+            "gap":      "Grants and fellowships add institutional standing",
+            "gap_zh":   "奖助与奖学金，为你增添机构层面的分量",
+            "detail":   (
+                "A grant or fellowship is institutional recognition that funds the work and "
+                "strengthens every future application. It's a CV dimension you haven't tapped "
+                "yet — and your exhibition record now supports a competitive application."
+            ),
+            "detail_zh": (
+                "一笔奖助或奖学金，是来自机构的认可——既为创作提供资金，也让你日后的每一份申请更有底气。"
+                "这是你尚未触及的履历维度——而你如今的展览履历，已经足以支撑一份有竞争力的申请。"
+            ),
+            "priority": "medium",
+            "action":   "Track arts grants and fellowships open to your nationality and medium; your record now reads as competitive.",
+            "action_zh": "持续关注向你的国籍与媒介开放的艺术奖助与奖学金；你的履历如今已具竞争力。",
+        })
+
+    if not has_international:
+        levers.append({
+            "gap_id":   "international_record",
+            "gap":      "Turning one international showing into a pattern",
+            "gap_zh":   "把一次国际展出，发展成一种常态",
+            "detail":   (
+                "Your record now reaches beyond China and Japan — the next move is to make that "
+                "international presence a pattern rather than a single entry: a European gallery, "
+                "the international art-book circuit, a recurring overseas showing."
+            ),
+            "detail_zh": (
+                "你的履历如今已延伸至中国与日本之外——下一步是把这份国际存在，"
+                "从单次记录发展成一种常态：欧洲的画廊、国际艺术书的流通网络、可持续的海外展出。"
+            ),
+            "priority": "medium",
+            "action":   "Build on your first overseas showing — look toward European galleries and the international art-book circuit.",
+            "action_zh": "在首次海外展出的基础上更进一步——把目光投向欧洲画廊与国际艺术书的流通网络。",
+        })
+
+    levers.append({
+        "gap_id":   "critical_press",
+        "gap":      "Moving from features to being written about",
+        "gap_zh":   "从作品被展示，迈向作品被书写",
+        "detail":   (
+            "Your work has been featured — the next step is critical press: a writer or art "
+            "publication engaging with the practice itself, not just reproducing the images. "
+            "Criticism builds the discourse around your work that galleries and institutions read."
+        ),
+        "detail_zh": (
+            "你的作品已被展示报道——下一步是评论性的关注：让写作者或艺术刊物真正进入你的创作本身，"
+            "而不只是复制图像。评论会围绕你的作品建立起话语，而画廊与机构正是这话语的读者。"
+        ),
+        "priority": "low",
+        "action":   "Cultivate art writers and publications who engage critically with painting and works on paper.",
+        "action_zh": "结识真正以评论视角关注绘画与纸上作品的艺术写作者与刊物。",
+    })
+
+    if publications < 2:
+        # Defensive: she has 2 on record; only fires if the record thins.
+        _need = 2 - publications
+        levers.append({
+            "gap_id":   "second_publication",
+            "gap":      "A second publication builds the written record",
+            "gap_zh":   "第二本出版物，夯实你的出版履历",
+            "detail":   (
+                f"{_need} more publication rounds out the publishing half of your CV beyond your "
+                "first solo collection."
+            ),
+            "detail_zh": (
+                f"再有 {_need} 本出版物，就能让你在首部个人作品集之外，补全履历中出版的那一半。"
+            ),
+            "priority": "low",
+            "action":   "Plan the next book or zine beyond Colour Diary.",
+            "action_zh": "在 Colour Diary 之后，规划下一本书或zine。",
+        })
+    else:
+        levers.append({
+            "gap_id":   "monograph",
+            "gap":      "A new book or monograph beyond Colour Diary (2021)",
+            "gap_zh":   "在 Colour Diary（2021）之后，出一本新书或个人画册",
+            "detail":   (
+                "Colour Diary (2021) was your first solo collection — five years and a great deal "
+                "of work later, a new book or monograph would gather the recent practice and give "
+                "galleries, fairs, and press a single object to engage with."
+            ),
+            "detail_zh": (
+                "Colour Diary（2021）是你的首部个人作品集——五年过去，作品已积累许多，"
+                "一本新书或个人画册能把近期的创作汇聚起来，"
+                "也为画廊、博览会与媒体提供一个可以共同关注的整体。"
+            ),
+            "priority": "low",
+            "action":   "Gather the work made since Colour Diary toward a second book or monograph.",
+            "action_zh": "把 Colour Diary 之后的创作汇整起来，朝第二本书或个人画册推进。",
+        })
+
+    return levers
+
+
 def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
-                   has_international: bool, has_jws: bool) -> list:
+                   has_international: bool, has_jws: bool,
+                   *, solo_shows: int = 0, has_representation: bool = False,
+                   has_residency: bool = False, has_grant: bool = False,
+                   publications: int = 0) -> list:
     gaps = []
 
     # Framed as opportunities ahead, not deficits. The whole readiness surface
@@ -367,6 +642,26 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
     # Each string carries its own _zh sibling, generated with the SAME live
     # counts. The UI prefers the _zh, so it never has to match a whole baked
     # English sentence — which silently leaked English the moment a count changed.
+    #
+    # Two ladders, picked by where she actually is:
+    #   • Foundation ladder (below) fires only while she is still BUILDING the
+    #     first group/solo/institutional/international credits.
+    #   • Once those foundations exist, the graduated next-tier ladder
+    #     (_next_tier_levers) takes over: representation, bigger solo venues,
+    #     art fairs, residencies, grants, a deeper international record, critical
+    #     press, a second publication. (Scott, 2026-06-25: her real record shows
+    #     solo + museum + London credits — the "needs a first solo" framing is
+    #     false and must never reach her.)
+    foundation_complete = (
+        group_shows >= 3 and has_solo and has_institutional
+    )
+    if foundation_complete:
+        return _next_tier_levers(
+            solo_shows or (1 if has_solo else 0),
+            has_international, has_jws, has_representation,
+            has_residency, has_grant, publications,
+        )
+
     if group_shows < 3:
         needed = 3 - group_shows
         s = "s" if group_shows != 1 else ""
@@ -483,6 +778,17 @@ def build_career_strategy_report():
     has_institutional = _has_institutional_show(profile, ex_log)
     has_international = _has_international_show(profile, ex_log)
     has_jws           = _has_jws(profile)
+    # Next-tier signals (for an artist past foundation-building):
+    solo_shows        = _count_solo_shows(profile, ex_log)
+    has_representation = _has_representation(profile)
+    has_residency     = _has_residency(profile, ex_log)
+    has_grant         = _has_grant(profile)
+    publications      = _count_publications(profile)
+
+    # She is past foundation-building once the first group/solo/institutional
+    # credits exist — at that point the advice graduates to the next-tier ladder
+    # (representation, bigger solo venues, fairs, residencies, grants, …).
+    foundation_complete = group_shows >= 3 and has_solo and has_institutional
 
     # ── Readiness scores ─────────────────────────────────────────────────────
     tier3_ready = _tier3_readiness(group_shows, has_solo, has_institutional, has_international)
@@ -535,7 +841,7 @@ def build_career_strategy_report():
     # ── Months to Tier 3 / next milestone ────────────────────────────────────
     months_to_t3 = _months_to_tier3(group_shows, has_institutional)
 
-    if group_shows < 3:
+    if not foundation_complete and group_shows < 3:
         _n = 3 - group_shows
         next_milestone = (
             f"Complete {_n} more Tokyo group show(s) to reach the "
@@ -544,7 +850,7 @@ def build_career_strategy_report():
         next_milestone_zh = (
             f"再完成 {_n} 场东京联展，达到开启第三级洽谈所需的 3 场最低门槛。"
         )
-    elif not has_solo:
+    elif not foundation_complete and not has_solo:
         next_milestone = (
             "Secure a first solo show — a bookshop gallery exhibition (UTRECHT, Book and Sons) "
             "is the most achievable and strategically natural next step."
@@ -552,7 +858,7 @@ def build_career_strategy_report():
         next_milestone_zh = (
             "争取一次个展——书店画廊展览（UTRECHT、Book and Sons）是最可行、也最顺理成章的下一步。"
         )
-    elif not has_institutional:
+    elif not foundation_complete and not has_institutional:
         next_milestone = (
             "Apply to a Tier 3 institutional open call (TOKAS, Youkobo, BankART1929) "
             "to establish the first institutional exhibition credit."
@@ -560,19 +866,43 @@ def build_career_strategy_report():
         next_milestone_zh = (
             "投递一次第三级机构公开征集（TOKAS、Youkobo、BankART1929），建立首个机构展览履历。"
         )
-    else:
+    elif not has_representation:
+        # Foundation is complete (solo + institutional + multiple group shows).
+        # The biggest structural next step is gallery representation.
         next_milestone = (
-            "Begin preparing the artist statement and portfolio body for Tier 4 applications "
-            "(Cité Internationale des Arts, Asian Cultural Council) in the 2–3 year window."
+            "Build toward gallery representation — a gallery that sells on your behalf, places "
+            "you in art fairs, and grows a collector base. With solo and museum-group credits "
+            "already on record, this is the highest-leverage next step."
         )
         next_milestone_zh = (
-            "开始为第四级申请（Cité Internationale des Arts、Asian Cultural Council）"
-            "准备艺术家自述与作品体系，瞄准 2–3 年的窗口。"
+            "朝画廊代理迈进——一家替你销售、带你进入博览会、并培育藏家群体的画廊。"
+            "你已有个展与美术馆联展的履历，这是当下杠杆最高的下一步。"
+        )
+    elif not has_residency:
+        next_milestone = (
+            "Pursue a residency — institutional weight that suits a Tokyo–Beijing cross-cultural "
+            "practice and is one of the few credits not yet on your record."
+        )
+        next_milestone_zh = (
+            "争取一次驻地——它具备机构分量，契合你往返东京与北京的跨文化创作，"
+            "也是你履历上尚未拥有的少数credit之一。"
+        )
+    else:
+        next_milestone = (
+            "Deepen the record you've built: a new book or monograph, critical press, and a "
+            "more sustained international presence beyond your first overseas showing."
+        )
+        next_milestone_zh = (
+            "在你已建立的履历上更进一步：一本新书或个人画册、评论性的关注，"
+            "以及在首次海外展出之外更持续的国际存在。"
         )
 
     # ── Blocking gaps ─────────────────────────────────────────────────────────
     blocking_gaps = _blocking_gaps(
-        group_shows, has_solo, has_institutional, has_international, has_jws
+        group_shows, has_solo, has_institutional, has_international, has_jws,
+        solo_shows=solo_shows, has_representation=has_representation,
+        has_residency=has_residency, has_grant=has_grant,
+        publications=publications,
     )
 
     # ── Level + single next unlock (Saffron hybrid reframe) ───────────────────
@@ -586,25 +916,34 @@ def build_career_strategy_report():
     else:
         next_unlock = {
             "gap_id":   "advanced",
-            "gap":      "Foundation complete — building Tier 4 body of work",
-            "gap_zh":   "根基已成——正在积累第四级的作品体系",
+            "gap":      "Deepening a record that already stands on its own",
+            "gap_zh":   "在已然成立的履历上，继续向纵深推进",
             "detail":   (
-                "Every near-term credibility gap is closed. The work now is depth: "
-                "a coherent body of work and the artist statement for prestige "
-                "applications (residencies, fellowships, international societies)."
+                "Representation, residency, and grant credits are in place. The work now is "
+                "depth and reach: a new book or monograph, critical press, and a sustained "
+                "international presence."
             ),
             "detail_zh": (
-                "近期所有的公信力目标都已达成。接下来的功课是深度：一套连贯的作品体系，"
-                "以及面向声望级申请（驻地、奖助、国际协会）的艺术家自述。"
+                "代理、驻地与奖助的履历都已具备。接下来的功课是纵深与广度："
+                "一本新书或个人画册、评论性的关注，以及持续的国际存在。"
             ),
             "priority": "low",
-            "action":   "Prepare the Tier 4 portfolio and statement; track prestige deadlines.",
-            "action_zh": "准备第四级的作品集与自述；持续关注声望级的截止日期。",
+            "action":   "Gather recent work toward a second book; cultivate critical press; sustain the international record.",
+            "action_zh": "把近期作品汇整成第二本书；结识评论性的媒体；让国际履历持续延展。",
         }
     level["next_unlock"] = next_unlock
 
     # ── Tier 3 note ───────────────────────────────────────────────────────────
-    if tier3_ready < 0.30:
+    # Once the foundation is complete the Tier-3 credibility question is settled —
+    # she HAS the institutional + solo credits — so the note must not keep asking
+    # for "more group shows."
+    if foundation_complete:
+        t3_note = (
+            "Established — solo, institutional, and international credits are on record. "
+            "The next levers are representation, residencies, grants, and press, not more "
+            "group shows."
+        )
+    elif tier3_ready < 0.30:
         t3_note = "Low — more group shows are the most direct path to improving this score."
     elif tier3_ready < 0.60:
         t3_note = "Building — group show count is the primary remaining gap for Tier 3 eligibility."
@@ -612,25 +951,54 @@ def build_career_strategy_report():
         t3_note = "Approaching — Tier 3 credibility work is within reach; institutional show is the key missing piece."
 
     # ── Write output ──────────────────────────────────────────────────────────
-    report = {
-        "_generated_at":   datetime.now(timezone.utc).isoformat(),
-        "_engine_version": "2.0",
-
-        "current_phase": "Tier 1-2 foundation building",
-        "phase_note": (
+    if foundation_complete:
+        current_phase = "Tier 3 established — building toward representation & prestige"
+        phase_note = (
+            "An active multi-country exhibiting artist: solo shows, museum-group exhibitions, "
+            "and an international showing are on record, alongside a first solo publication and "
+            "~26k Instagram. The foundation is built. The next levers are structural — gallery "
+            "representation, stronger solo venues, art fairs, residencies, grants, critical press, "
+            "and a second book — not more entry-level group shows."
+        )
+        phase_note_zh = (
+            "一位活跃的、跨国展出的艺术家：个展、美术馆联展与国际展出均已在册，"
+            "另有首部个人出版物与约 2.6 万 Instagram 粉丝。根基已成。"
+            "接下来的杠杆是结构性的——画廊代理、更高规格的个展场地、艺术博览会、驻地、奖助、"
+            "评论性媒体，以及第二本书——而非更多入门级的联展。"
+        )
+    else:
+        current_phase = "Tier 1-2 foundation building"
+        phase_note = (
             "Age 26, planning a deep-work year around 30. The next 3–4 years are for accumulation: "
             "exhibition history, publishing relationships, peer network, and body of work depth. "
             "Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now, "
             "not acted on until the foundation is solid."
-        ),
+        )
+        phase_note_zh = (
+            "26 岁，计划在 30 岁前后投入一年的深耕。未来 3–4 年用于积累："
+            "展览履历、出版关系、同侪网络与作品体系的深度。第一、二级的机会构筑这一根基。"
+            "第四级目标现在持续追踪，待根基扎实后再行动。"
+        )
+
+    report = {
+        "_generated_at":   datetime.now(timezone.utc).isoformat(),
+        "_engine_version": "2.1",
+
+        "current_phase": current_phase,
+        "phase_note": phase_note,
+        "phase_note_zh": phase_note_zh,
 
         "career_evidence": {
             "confirmed_group_shows":  group_shows,
+            "solo_shows":             solo_shows,
             "has_solo_show":          has_solo,
             "has_institutional_show": has_institutional,
             "has_international_show": has_international,
+            "has_representation":     has_representation,
+            "has_residency":          has_residency,
+            "has_grant":              has_grant,
             "jws_membership":         has_jws,
-            "publications_confirmed": 2,
+            "publications_confirmed": publications,
         },
 
         "readiness_scores": {

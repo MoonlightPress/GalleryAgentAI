@@ -1638,30 +1638,39 @@ def get_saffron():
         for e in _logged_shows
         if e.get("outcome") in ("shown", "completed", None, "")
     ]
-    # Total *confirmed* group show count: 1 hardcoded base (Tide from China
-    # Part1) + confirmed group exhibitions in the artist profile + group shows
-    # logged via Peppercorn. Evidence over prediction (CLAUDE.md): unconfirmed
-    # profile mentions (e.g. "Kinoko Kingdom" — no venue/dates, "details
-    # unconfirmed") must NOT inflate the count. Mirrors
-    # career_strategy_engine._count_group_shows so the live API and the career
-    # report agree. Dedup the log against profile titles to avoid double-counting.
+    # Total *confirmed* group show count (T0.6): THE single canonical app-wide
+    # number, shared with Peppercorn via _live_career_counts so the two tabs can
+    # never show her different versions of her own record. Delegates to the
+    # career engine's _count_group_shows (base Tide-from-China + confirmed
+    # profile group shows + deduped logged shows). Evidence over prediction:
+    # unconfirmed mentions and "group/solo not specified" entries don't count.
+    _total_group_shows = _canonical_group_show_count()
+
+    # Next-tier career signals from her corrected record (Scott, 2026-06-25): she
+    # already has solo, institutional (museum), and international credits, so the
+    # whole "needs a first solo / needs more group shows" framing is FALSE and the
+    # pathway must graduate to her real next levers (representation, fairs,
+    # residencies, grants). Derived deterministically from the profile + log via
+    # the same engine helpers the career report uses, so Saffron and the report agree.
     _amp_path = DATA_DIR / "artist_master_profile.json"
     _amp = _load_json(_amp_path, {})
-    _profile_exhibitions = _amp.get("career_history", {}).get("exhibitions", [])
-    _profile_titles = {(ex.get("title") or "").strip().lower() for ex in _profile_exhibitions}
-    _profile_group_count = sum(
-        1 for ex in _profile_exhibitions
-        if "group" in (ex.get("type") or "").lower()
-        and (ex.get("title") or "").strip() != "Tide from China Part1"
-        and (ex.get("confidence") or "").lower().startswith("confirmed")
-    )
-    _logged_group_count = sum(
-        1 for e in _logged_shows
-        if e.get("type") == "group"
-        and (e.get("name") or "").strip() != "Tide from China Part1"
-        and (e.get("name") or "").strip().lower() not in _profile_titles
-    )
-    _total_group_shows = 1 + _profile_group_count + _logged_group_count
+    try:
+        from engines.career_strategy_engine import (
+            _has_solo_show, _has_institutional_show, _has_international_show,
+            _has_representation, _has_residency, _has_grant, _count_solo_shows,
+        )
+        _has_solo = _has_solo_show(_amp, _logged_shows)
+        _has_institutional = _has_institutional_show(_amp, _logged_shows)
+        _has_international = _has_international_show(_amp, _logged_shows)
+        _has_representation = _has_representation(_amp)
+        _has_residency = _has_residency(_amp, _logged_shows)
+        _has_grant = _has_grant(_amp)
+        _solo_shows = _count_solo_shows(_amp, _logged_shows)
+    except Exception:
+        _has_solo = _has_institutional = _has_international = True
+        _has_representation = _has_residency = _has_grant = False
+        _solo_shows = 1
+    _foundation_complete = _total_group_shows >= 3 and _has_solo and _has_institutional
 
     # Runtime translations for the count-bearing career sentences below. These
     # change every time she logs a group show, so they can't rely on the monthly
@@ -1801,79 +1810,176 @@ def get_saffron():
     )
 
     # ── Strategic pathway ─────────────────────────────────────────────────────
-    pathway = {
-        "goal": "First Solo Show in Tokyo",
-        "timeline_estimate": "18–36 months from mid-2026",
-        "steps": [
-            {
-                "n": 1,
-                "label": "First publication credit",
-                "done": True,
-                "blocking": False,
-                "detail": "Colour Diary (2021) and contribution to defined Definition 02. Publication history established.",
-            },
-            {
-                "n": 2,
-                "label": "First group show in Japan",
-                "done": True,
-                "blocking": False,
-                "detail": "Tide from China Part 1, ACG_Labo Harajuku, February 2023. First confirmed Japan exhibition on record.",
-            },
-            {
-                "n": 3,
-                "label": "2–3 more Tokyo group shows",
-                "done": False,
-                "blocking": True,
-                "detail": "Artist-run spaces are the natural path: 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN. Each show builds credibility and introduces your work to gallery directors.",
-            },
-            {
-                "n": 4,
-                "label": "Bookshop gallery exhibition",
-                "done": False,
-                "blocking": False,
-                "detail": "UTRECHT, Book and Sons, or flotsam books. Bridges illustration community into gallery context — a natural fit given your publication background.",
-            },
-            {
-                "n": 5,
-                "label": "Second publication or new zine",
-                "done": False,
-                "blocking": False,
-                "detail": "Builds presence in the Tokyo zine and book ecosystem. Creates a natural entrypoint for bookshop gallery conversations and strengthens the publication half of your CV.",
-            },
-            {
-                "n": 6,
-                "label": "Gallery relationship building",
-                "done": False,
-                "blocking": False,
-                "detail": "Attend openings at target venues consistently. The invitation to a solo show comes from a relationship, not a cold submission — this step runs in parallel with everything else.",
-            },
-            {
-                "n": 7,
-                "label": "Solo show application or invitation",
-                "done": False,
-                "blocking": False,
-                "detail": "Target: an intimate Tokyo gallery with a track record of solo shows by international artists at similar career stages. Youkobo Art Space, Gallery Denn, or a bookshop gallery context are realistic first targets.",
-            },
-        ],
-        "blocking_now": _reg(
-            f"Only {_total_group_shows} confirmed group show{'s' if _total_group_shows != 1 else ''} in Japan. "
-            f"Most Tokyo galleries expect 3–4 group exhibition credits before a solo conversation "
-            f"— so {max(0, 3 - _total_group_shows)}–{max(0, 4 - _total_group_shows)} more group shows needed. "
-            "The next group show is the highest-leverage move right now.",
-            f"目前在日本仅有 {_total_group_shows} 场已确认的联展。多数东京画廊在洽谈个展前期望有 3–4 场联展履历——"
-            f"因此还需要 {max(0, 3 - _total_group_shows)}–{max(0, 4 - _total_group_shows)} 场联展。"
-            "下一场联展是当下杠杆最高的行动。",
-            f"日本での確認済みグループ展は {_total_group_shows} 件のみ。多くの東京のギャラリーは個展の相談に入る前に3〜4件のグループ展実績を期待する——"
-            f"あと {max(0, 3 - _total_group_shows)}〜{max(0, 4 - _total_group_shows)} 件のグループ展が必要。"
-            "次のグループ展が今もっとも効果の高い一手。"
-        ) if _total_group_shows < 4 else _reg(
-            f"{_total_group_shows} confirmed group shows — exhibition history is established. "
-            "A solo show conversation is now viable at the right venue.",
-            f"已有 {_total_group_shows} 场确认的联展——展览履历已经确立。在合适的场地，个展洽谈现在是可行的。",
-            f"確認済みのグループ展が {_total_group_shows} 件——展示実績は確立。適切な会場でなら、個展の相談が現実的になっている。"
-        ),
-        "next_move": "Apply for a second group show at a Tokyo artist-run space. 3331 Arts Chiyoda open calls, Design Festa Gallery curated shows, and Gallery IYN open submissions are the realistic near-term entries. Any of these, confirmed and attended, advances the pathway.",
-    }
+    # Graduated to her real record (Scott, 2026-06-25): she ALREADY has multiple
+    # group shows, museum/institutional group exhibitions, solo shows (incl. a
+    # Tokyo solo), and an international (London) showing. The goal is no longer a
+    # "first solo" — it's the next structural ladder: representation, stronger
+    # solo venues, art fairs, residencies, grants. Steps she's completed read as
+    # done; the levers ahead read as open doors (never deficits).
+    if _foundation_complete:
+        pathway = {
+            "goal": _reg(
+                "Gallery representation and a sustained international record",
+                "画廊代理，以及持续的国际履历",
+                "ギャラリーとの専属関係、そして継続的な国際的実績",
+            ),
+            "timeline_estimate": "12–36 months from mid-2026",
+            "steps": [
+                {
+                    "n": 1,
+                    "label": _reg("First publication", "首部出版物", "初の出版"),
+                    "done": True,
+                    "blocking": False,
+                    "detail": _reg(
+                        "Colour Diary (2021), grown from your daily diary practice — the publishing half of your CV is established.",
+                        "Colour Diary（2021），由你的每日绘画练习生长而来——履历中出版的那一半已经确立。",
+                        "Colour Diary（2021）——日々のdiaryの実践から生まれた一冊。CVの出版面はすでに確立している。",
+                    ),
+                },
+                {
+                    "n": 2,
+                    "label": _reg("Group shows across China and Japan", "横跨中国与日本的联展", "中国と日本でのグループ展"),
+                    "done": True,
+                    "blocking": False,
+                    "detail": _reg(
+                        f"{_total_group_shows} confirmed group shows on record, from Shanghai and Guangzhou to Tokyo — a real exhibition history.",
+                        f"已有 {_total_group_shows} 场确认的联展，从上海、广州到东京——一份真实的展览履历。",
+                        f"確認済みのグループ展が {_total_group_shows} 件、上海・広州から東京まで——確かな展示実績。",
+                    ),
+                },
+                {
+                    "n": 3,
+                    "label": _reg("Museum / institutional exhibitions", "美术馆／机构展览", "美術館・機関での展示"),
+                    "done": _has_institutional,
+                    "blocking": False,
+                    "detail": _reg(
+                        "Museum group exhibitions (Mian Art Museum, Tianjin; Hengdu Art Museum, Taizhou) — institutional weight on your CV.",
+                        "美术馆联展（天津棉美术馆、台州横渡美术馆）——为履历增添机构层面的分量。",
+                        "美術館でのグループ展（天津・棉美術館、台州・横渡美術館）——CVに機関としての重み。",
+                    ),
+                },
+                {
+                    "n": 4,
+                    "label": _reg("Solo shows, including in Tokyo", "个展，包括在东京", "個展、東京を含む"),
+                    "done": _has_solo,
+                    "blocking": False,
+                    "detail": _reg(
+                        "Light, Shadow, Cats (77ART, Shanghai, 2025) and The Eternal Yesterday (Tsuki Gallery 月画廊, Tokyo, 2026) — you are already an exhibiting solo artist.",
+                        "《和光和影和猫》（上海 77ART，2025）与《永遠の昨日》（东京 月画廊，2026）——你已经是一位举办过个展的艺术家。",
+                        "『和光和影和猫』（上海・77ART、2025）と『永遠の昨日』（東京・月画廊、2026）——あなたはすでに個展を開く作家。",
+                    ),
+                },
+                {
+                    "n": 5,
+                    "label": _reg("First international showing", "首次国际展出", "初の国際的な展示"),
+                    "done": _has_international,
+                    "blocking": False,
+                    "detail": _reg(
+                        "A London (UK) showing in 2025 took your work beyond China and Japan — the start of an international record.",
+                        "2025 年的伦敦（英国）展出，让你的作品走出中国与日本——国际履历的开端。",
+                        "2025年のロンドン（英国）での展示が、作品を中国・日本の外へ——国際的実績の始まり。",
+                    ),
+                },
+                {
+                    "n": 6,
+                    "label": _reg("Gallery representation", "画廊代理", "ギャラリーとの専属関係"),
+                    "done": _has_representation,
+                    "blocking": not _has_representation,
+                    "detail": _reg(
+                        "A gallery that sells on your behalf, places you in fairs, and builds collectors — the biggest structural step available now, growing from the shows you already have.",
+                        "一家替你销售、带你进入博览会、培育藏家的画廊——这是当下最重要的结构性一步，可从你已有的展览中自然生长。",
+                        "あなたの代わりに販売し、アートフェアへ導き、コレクターを育てるギャラリー——いま取れる最大の構造的な一歩で、既存の展示から育てられる。",
+                    ),
+                },
+                {
+                    "n": 7,
+                    "label": _reg("Stronger solo venues + art fairs", "更高规格的个展场地与艺术博览会", "より大きな個展会場とアートフェア"),
+                    "done": False,
+                    "blocking": False,
+                    "detail": _reg(
+                        "Graduate toward established commercial galleries and institutional solos, and the art fairs (Art Fair Tokyo, Tokyo Gendai) where collectors gather — usually reached through a representing gallery.",
+                        "迈向更成熟的商业画廊与机构个展，以及藏家汇聚的艺术博览会（Art Fair Tokyo、Tokyo Gendai）——通常通过代理画廊进入。",
+                        "より確立した商業ギャラリーや機関での個展、そしてコレクターが集まるアートフェア（Art Fair Tokyo、Tokyo Gendai）へ——多くは代理ギャラリーを通じて。",
+                    ),
+                },
+                {
+                    "n": 8,
+                    "label": _reg("Residencies, grants, and critical press", "驻地、奖助与评论性媒体", "レジデンシー、助成金、批評的なプレス"),
+                    "done": _has_residency or _has_grant,
+                    "blocking": False,
+                    "detail": _reg(
+                        "Genuine open doors on your CV: a residency suited to a Tokyo–Beijing practice, an arts grant your record now supports, and writers engaging critically with the work — plus a second book beyond Colour Diary.",
+                        "履历上真正待开的门：契合往返东京—北京创作的驻地、你的履历如今足以支撑的艺术奖助、真正以评论视角关注作品的写作者——以及 Colour Diary 之后的第二本书。",
+                        "CV上の本当に開かれた扉：東京—北京の制作に合うレジデンシー、いまの実績が支える芸術助成、作品に批評的に向き合う書き手——そして Colour Diary に続く二冊目。",
+                    ),
+                },
+            ],
+            "blocking_now": _reg(
+                f"You already have {_total_group_shows} group shows, museum exhibitions, solo shows (including in Tokyo), and a London showing — the foundation is built. The highest-leverage next step is gallery representation: a gallery that sells for you, places you in fairs, and grows a collector base.",
+                f"你已经拥有 {_total_group_shows} 场联展、美术馆展览、个展（包括在东京），以及一次伦敦展出——根基已成。当下杠杆最高的下一步是画廊代理：一家替你销售、带你进入博览会、培育藏家群体的画廊。",
+                f"あなたはすでに {_total_group_shows} 件のグループ展、美術館での展示、個展（東京を含む）、そしてロンドンでの展示を持つ——土台はできている。次に効果が最も大きいのはギャラリーとの専属関係：あなたの代わりに販売し、フェアへ導き、コレクターを育てるギャラリー。",
+            ),
+            "next_move": _reg(
+                "Build relationships with commercial galleries whose program fits your work — representation grows from shows you already have, and brings art-fair access with it.",
+                "与项目方向契合你作品的商业画廊建立关系——代理关系会从你已有的展览中生长，并随之带来博览会的入口。",
+                "作品に合うプログラムを持つ商業ギャラリーと関係を築く——代理関係は既存の展示から育ち、アートフェアへの入口をもたらす。",
+            ),
+        }
+    else:
+        pathway = {
+            "goal": "First Solo Show in Tokyo",
+            "timeline_estimate": "18–36 months from mid-2026",
+            "steps": [
+                {
+                    "n": 1,
+                    "label": "First publication credit",
+                    "done": True,
+                    "blocking": False,
+                    "detail": "Colour Diary (2021) and contribution to defined Definition 02. Publication history established.",
+                },
+                {
+                    "n": 2,
+                    "label": "First group show in Japan",
+                    "done": True,
+                    "blocking": False,
+                    "detail": "Tide from China Part 1, ACG_Labo Harajuku, February 2023. First confirmed Japan exhibition on record.",
+                },
+                {
+                    "n": 3,
+                    "label": "2–3 more Tokyo group shows",
+                    "done": False,
+                    "blocking": True,
+                    "detail": "Artist-run spaces are the natural path: 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN. Each show builds credibility and introduces your work to gallery directors.",
+                },
+                {
+                    "n": 4,
+                    "label": "Bookshop gallery exhibition",
+                    "done": False,
+                    "blocking": False,
+                    "detail": "UTRECHT, Book and Sons, or flotsam books. Bridges illustration community into gallery context — a natural fit given your publication background.",
+                },
+                {
+                    "n": 5,
+                    "label": "Solo show application or invitation",
+                    "done": False,
+                    "blocking": False,
+                    "detail": "Target: an intimate Tokyo gallery with a track record of solo shows by international artists at similar career stages.",
+                },
+            ],
+            "blocking_now": _reg(
+                f"Only {_total_group_shows} confirmed group show{'s' if _total_group_shows != 1 else ''} in Japan. "
+                f"Most Tokyo galleries expect 3–4 group exhibition credits before a solo conversation "
+                f"— so {max(0, 3 - _total_group_shows)}–{max(0, 4 - _total_group_shows)} more group shows needed. "
+                "The next group show is the highest-leverage move right now.",
+                f"目前在日本仅有 {_total_group_shows} 场已确认的联展。多数东京画廊在洽谈个展前期望有 3–4 场联展履历——"
+                f"因此还需要 {max(0, 3 - _total_group_shows)}–{max(0, 4 - _total_group_shows)} 场联展。"
+                "下一场联展是当下杠杆最高的行动。",
+                f"日本での確認済みグループ展は {_total_group_shows} 件のみ。多くの東京のギャラリーは個展の相談に入る前に3〜4件のグループ展実績を期待する——"
+                f"あと {max(0, 3 - _total_group_shows)}〜{max(0, 4 - _total_group_shows)} 件のグループ展が必要。"
+                "次のグループ展が今もっとも効果の高い一手。"
+            ),
+            "next_move": "Apply for a second group show at a Tokyo artist-run space. 3331 Arts Chiyoda, Design Festa Gallery, and Gallery IYN are realistic near-term entries.",
+        }
 
     # ── Instagram strategy ────────────────────────────────────────────────────
     instagram_strategy = {
@@ -1963,7 +2069,19 @@ def get_saffron():
         _ex_assessment = "below_typical"
         _ex_note = "Expected at this stage — but the gap needs closing before gallery conversations are realistic."
 
-    if _total_group_shows >= 4:
+    if _has_solo:
+        # She already exhibits solo (incl. Tokyo). The bottleneck is no longer
+        # "earning a first solo" — it's the structural step beyond it.
+        _solo_bottleneck = _reg(
+            "Exhibition history is strong — group shows, museum exhibitions, and solo shows are on record. "
+            "The next barrier is structural, not a first solo: gallery representation, stronger solo venues, "
+            "and the art-fair / collector access that comes with them.",
+            "展览履历扎实——联展、美术馆展览与个展均已在册。下一个障碍是结构性的，而非首次个展："
+            "画廊代理、更高规格的个展场地，以及随之而来的博览会与藏家通道。",
+            "展示実績は確か——グループ展、美術館での展示、個展まで揃っている。次の壁は構造的なもので、"
+            "初の個展ではない：ギャラリーとの専属関係、より大きな個展会場、そしてそれに伴うアートフェアやコレクターへの接点。"
+        )
+    elif _total_group_shows >= 4:
         _solo_bottleneck = _reg(
             f"Exhibition history is in good shape — {_total_group_shows} group shows on record. The next "
             "barrier is a cohesive body of work strong enough to carry a solo.",
@@ -2912,12 +3030,45 @@ def get_saffron():
     }
 
 
+def _canonical_group_show_count() -> int:
+    """THE single confirmed group-show count for the whole app (T0.6).
+
+    Saffron's "where you stand" narrative and Peppercorn's progress/exhibition
+    surfaces must never show her two different versions of her own record. Both
+    now derive their group-show total from this one function, which delegates to
+    the career engine's `_count_group_shows` so the live API, the Peppercorn
+    carousel, the exhibition-log subtitle, and the career report all agree.
+
+    Source of truth: the artist profile's confirmed group exhibitions + group
+    shows logged via the Peppercorn exhibition log (deduped against profile
+    titles inside the engine helper)."""
+    amp_path = DATA_DIR / "artist_master_profile.json"
+    profile = _load_json(amp_path, {})
+    exlog_path = DATA_DIR / "exhibition_log.json"
+    ex_log = _load_json(exlog_path, [])
+    if not isinstance(ex_log, list):
+        ex_log = []
+    try:
+        from engines.career_strategy_engine import _count_group_shows
+        return _count_group_shows(profile, ex_log)
+    except Exception:
+        # Defensive fallback mirrors the engine's base+confirmed-profile logic.
+        ch = profile.get("career_history", {}) if isinstance(profile, dict) else {}
+        n = 1
+        for ex in ch.get("exhibitions", []):
+            t = (ex.get("type") or "").lower()
+            if ("group" in t and "not specified" not in t and "group/solo" not in t
+                    and ex.get("title") != "Tide from China Part1"
+                    and (ex.get("confidence") or "").lower().startswith("confirmed")):
+                n += 1
+        return n
+
+
 def _live_career_counts() -> dict:
     """Live counts for the Peppercorn progress carousel — no hardcoded numbers.
 
-    - group_shows: confirmed group exhibitions in the artist profile (Tide from
-      China) + group_show entries logged via submission_log.json. Evidence-first:
-      unconfirmed profile mentions don't count.
+    - group_shows: THE canonical app-wide count (see _canonical_group_show_count),
+      shared with Saffron so the two tabs can never diverge (T0.6).
     - publications: publications recorded in artist_master_profile career_history.
     - instagram: follower figure from the profile's social_presence block.
     """
@@ -2925,27 +3076,11 @@ def _live_career_counts() -> dict:
     amp = json.loads(amp_path.read_text(encoding="utf-8")) if amp_path.exists() else {}
     ch = amp.get("career_history", {})
 
-    confirmed_groups = sum(
-        1 for ex in ch.get("exhibitions", [])
-        if "group" in (ex.get("type") or "").lower()
-        and (ex.get("confidence") or "").lower().startswith("confirmed")
-    )
-    sub_path = DATA_DIR / "submission_log.json"
-    logged_groups = 0
-    if sub_path.exists():
-        try:
-            subs = json.loads(sub_path.read_text(encoding="utf-8"))
-            if isinstance(subs, dict):
-                subs = subs.get("submissions", [])
-            logged_groups = sum(1 for s in subs if (s.get("type") or "") == "group_show")
-        except Exception:
-            logged_groups = 0
-
     publications = len(ch.get("publications", []))
 
     ig = (amp.get("social_presence", {}) or {}).get("instagram", {}) or {}
     return {
-        "group_shows":          confirmed_groups + logged_groups,
+        "group_shows":          _canonical_group_show_count(),
         "group_shows_target":   3,
         "publications":         publications,
         "publications_target":  3,
@@ -2955,11 +3090,35 @@ def _live_career_counts() -> dict:
     }
 
 
+def _localized_statement_siblings(prof: dict) -> None:
+    """Fill artist_statement_zh / _ja from the translation cache when the stored
+    siblings are missing (T4.2). The statement is ONE canonical field; consumers
+    read the localized sibling, which we serve from the same free translation
+    cache the rest of Saffron uses — never a stale hand-stored copy. If the cache
+    has no entry yet, leave the sibling absent so the UI falls back to canonical."""
+    stmt = (prof.get("artist_statement") or "").strip()
+    if not stmt:
+        return
+    cache_path = DATA_DIR / "translation_cache.json"
+    cache = _load_json(cache_path, {})
+    if not isinstance(cache, dict):
+        return
+    if not prof.get("artist_statement_zh"):
+        zh = (cache.get("zh") or {}).get(stmt)
+        if isinstance(zh, str) and zh.strip():
+            prof["artist_statement_zh"] = zh
+    if not prof.get("artist_statement_ja"):
+        ja = (cache.get("ja") or {}).get(stmt)
+        if isinstance(ja, str) and ja.strip():
+            prof["artist_statement_ja"] = ja
+
+
 @app.get("/api/peppercorn")
 def get_peppercorn():
     ppath = DATA_DIR / "peppercorn_profile.json"
     if ppath.exists():
         prof = _load_json(ppath, {})
+        _localized_statement_siblings(prof)
         prof["live_counts"] = _live_career_counts()
         return prof
     # Build defaults from artist_master_profile
@@ -3004,8 +3163,29 @@ def get_peppercorn():
 @app.post("/api/peppercorn")
 async def save_peppercorn(request: Request):
     payload = await request.json()
-    payload["last_updated"] = datetime.now(timezone.utc).isoformat()
+
+    # Strip server-derived fields so they never get persisted back into
+    # peppercorn_profile.json via this blind full-document overwrite (T4.2).
+    # `live_counts` is injected by GET /api/peppercorn from the live profile; if
+    # written back it would pin a stale snapshot of her record into her saved
+    # state. Any future derived key added to GET should be listed here too.
+    for _derived in ("live_counts",):
+        payload.pop(_derived, None)
+
+    # Statement is ONE canonical field (T4.2). If the canonical text changed,
+    # drop any stale localized siblings so the page falls back to the canonical
+    # text rather than showing an out-of-date zh/ja copy that drifted from her
+    # edit. A supervised translation pass (saffron_translation_engine / regen)
+    # refills the real zh/ja later.
     ppath = DATA_DIR / "peppercorn_profile.json"
+    _prev = _load_json(ppath, {})
+    _new_stmt = payload.get("artist_statement")
+    if isinstance(_new_stmt, str) and _new_stmt.strip() != (_prev.get("artist_statement") or "").strip():
+        payload["artist_statement_zh"] = None
+        payload["artist_statement_ja"] = None
+        payload["artist_statement_translation_stale"] = True
+
+    payload["last_updated"] = datetime.now(timezone.utc).isoformat()
     _save_her_data(ppath, payload)
 
     # Propagate a statement edit into the canonical master profile (the file the

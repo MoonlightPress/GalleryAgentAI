@@ -34,6 +34,19 @@
   display: block;
 }
 
+/* T3.2 — collapse the hero on phones (matches Mochi's 190px), so it doesn't
+   push ~470px of image above the content on a small screen. */
+@media (max-width: 640px) {
+  .pp-mouse-ambient {
+    height: auto;
+    min-height: 0;
+  }
+  .pp-mouse-img {
+    height: 190px;
+    object-position: center 28%;
+  }
+}
+
 /* ── Status bar ─────────────────────────────────────────────────────────── */
 
 .pp-status-bar {

@@ -1,36 +1,41 @@
 {
-  "_generated_at": "2026-06-25T06:28:45.185271+00:00",
-  "_engine_version": "2.0",
-  "current_phase": "Tier 1-2 foundation building",
-  "phase_note": "Age 26, planning a deep-work year around 30. The next 3–4 years are for accumulation: exhibition history, publishing relationships, peer network, and body of work depth. Tier 1-2 opportunities build this foundation. Tier 4 targets are tracked now, not acted on until the foundation is solid.",
+  "_generated_at": "2026-06-25T09:11:22.704952+00:00",
+  "_engine_version": "2.1",
+  "current_phase": "Tier 3 established — building toward representation & prestige",
+  "phase_note": "An active multi-country exhibiting artist: solo shows, museum-group exhibitions, and an international showing are on record, alongside a first solo publication and ~26k Instagram. The foundation is built. The next levers are structural — gallery representation, stronger solo venues, art fairs, residencies, grants, critical press, and a second book — not more entry-level group shows.",
+  "phase_note_zh": "一位活跃的、跨国展出的艺术家：个展、美术馆联展与国际展出均已在册，另有首部个人出版物与约 2.6 万 Instagram 粉丝。根基已成。接下来的杠杆是结构性的——画廊代理、更高规格的个展场地、艺术博览会、驻地、奖助、评论性媒体，以及第二本书——而非更多入门级的联展。",
   "career_evidence": {
-    "confirmed_group_shows": 1,
-    "has_solo_show": false,
-    "has_institutional_show": false,
-    "has_international_show": false,
+    "confirmed_group_shows": 8,
+    "solo_shows": 2,
+    "has_solo_show": true,
+    "has_institutional_show": true,
+    "has_international_show": true,
+    "has_representation": false,
+    "has_residency": false,
+    "has_grant": false,
     "jws_membership": false,
     "publications_confirmed": 2
   },
   "readiness_scores": {
-    "tier_3_readiness": 0.1,
-    "tier_4_readiness": 0.0,
-    "tier_3_readiness_note": "Low — more group shows are the most direct path to improving this score."
+    "tier_3_readiness": 1.0,
+    "tier_4_readiness": 0.85,
+    "tier_3_readiness_note": "Established — solo, institutional, and international credits are on record. The next levers are representation, residencies, grants, and press, not more group shows."
   },
   "level": {
-    "current": 2,
-    "current_label": "Networking & Foundation",
-    "next": 3,
-    "next_label": "Credibility",
-    "progress_to_next": 0.17,
+    "current": 4,
+    "current_label": "Prestige",
+    "next": null,
+    "next_label": null,
+    "progress_to_next": 1.0,
     "next_unlock": {
-      "gap_id": "group_shows",
-      "gap": "A few more group shows opens Tier 3",
-      "gap_zh": "再来几场联展，就能开启第三级",
-      "detail": "You have 1 confirmed group show — a real start. 2 more brings you to the 3 that open Tier 3 conversations with Tokyo galleries. This is your fastest move up.",
-      "detail_zh": "你已经有 1 场已确认的联展——这是实打实的起点。再来 2 场，就凑齐了与东京画廊洽谈第三级所需的 3 场。这是你当下最快的进阶之路。",
+      "gap_id": "gallery_representation",
+      "gap": "Gallery representation is the next structural step",
+      "gap_zh": "画廊代理，是下一个关键的结构性跃升",
+      "detail": "You already have solo shows and museum-group credits — the next structural leap is a gallery that represents you: one that sells on your behalf, places you in art fairs, and builds a collector base over time. This is the single biggest move available at your stage.",
+      "detail_zh": "你已经拥有个展与美术馆联展的履历——下一个结构性的跃升，是找到一家代理你的画廊：由它替你销售、带你进入艺术博览会、并长期为你积累藏家。这是你现阶段最重要的一步。",
       "priority": "high",
-      "action": "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN",
-      "action_zh": "向 3331 Arts Chiyoda、Design Festa Gallery、Gallery IYN 的公开征集投递"
+      "action": "Build relationships with commercial galleries whose roster and program fit your work; let representation grow from shows you already have.",
+      "action_zh": "与作品调性契合、项目方向相符的商业画廊建立关系；让代理关系从你已有的展览中自然生长。"
     }
   },
   "immediate_priorities": [
@@ -71,7 +76,7 @@
       "category": "zine_fair_booth",
       "city": "Tokyo",
       "deadline": "2026年4月8日",
-      "summary": "Monthly Tokyo zine fair organized by BOOK CULTURE CLUB — 90cm half-table booth, ¥5,200-6,200 fee, applications close 2 weeks before each event. Next Tokyo date: July 11 2026.",
+      "summary": "Monthly Tokyo zine fair organized by BOOK CULTURE CLUB — 90cm half-table booth, ¥5,200-6,200 fee, applications open until about two weeks before each event. Next Tokyo date: July 11 2026.",
       "website": "https://note.com/bookcultureclub/n/n053a24287fc2"
     },
     {
@@ -81,7 +86,7 @@
       "category": "zine_shop_consignment",
       "city": "Tokyo",
       "deadline": "Twice-yearly (spring/autumn) — watch @mountzine for autumn 2026 recruitment window",
-      "summary": "Tokyo zine shop near Komazawa University that accepts zine submissions twice yearly (spring and autumn) with no fees and no screening — good Tier 1 ambient visibility target for artist-book and print ",
+      "summary": "Tokyo zine shop near Komazawa University that accepts zine submissions twice yearly (spring and autumn) with no fees and no screening — a good ambient-visibility target for artist-book and print work.",
       "website": "https://zine.mount.co.jp/"
     }
   ],
@@ -103,7 +108,7 @@
       "category": "book_publishing",
       "city": "Japan / Tokyo / Online",
       "deadline": "June 1st 2026",
-      "summary": "Publishing / Small Press lead found through targeted research; useful if requirements and fit check out.",
+      "summary": "Publishing / Small Press (found through targeted research).",
       "website": "https://marblepress.com/submissions/"
     },
     {
@@ -181,59 +186,79 @@
   ],
   "blocking_gaps": [
     {
-      "gap_id": "group_shows",
-      "gap": "A few more group shows opens Tier 3",
-      "gap_zh": "再来几场联展，就能开启第三级",
-      "detail": "You have 1 confirmed group show — a real start. 2 more brings you to the 3 that open Tier 3 conversations with Tokyo galleries. This is your fastest move up.",
-      "detail_zh": "你已经有 1 场已确认的联展——这是实打实的起点。再来 2 场，就凑齐了与东京画廊洽谈第三级所需的 3 场。这是你当下最快的进阶之路。",
+      "gap_id": "gallery_representation",
+      "gap": "Gallery representation is the next structural step",
+      "gap_zh": "画廊代理，是下一个关键的结构性跃升",
+      "detail": "You already have solo shows and museum-group credits — the next structural leap is a gallery that represents you: one that sells on your behalf, places you in art fairs, and builds a collector base over time. This is the single biggest move available at your stage.",
+      "detail_zh": "你已经拥有个展与美术馆联展的履历——下一个结构性的跃升，是找到一家代理你的画廊：由它替你销售、带你进入艺术博览会、并长期为你积累藏家。这是你现阶段最重要的一步。",
       "priority": "high",
-      "action": "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN",
-      "action_zh": "向 3331 Arts Chiyoda、Design Festa Gallery、Gallery IYN 的公开征集投递"
+      "action": "Build relationships with commercial galleries whose roster and program fit your work; let representation grow from shows you already have.",
+      "action_zh": "与作品调性契合、项目方向相符的商业画廊建立关系；让代理关系从你已有的展览中自然生长。"
     },
     {
-      "gap_id": "solo_show",
-      "gap": "A first solo show is within reach",
-      "gap_zh": "首次个展，已经触手可及",
-      "detail": "A first solo show is a real leap in credibility for Tier 3 calls — and it's an achievable next step. Even a small bookshop-gallery or café solo counts.",
-      "detail_zh": "首次个展会让你在第三级征集中的公信力实现真正的飞跃——而且这是可以达成的下一步。哪怕是书店画廊或咖啡馆里的小型个展，也算数。",
+      "gap_id": "solo_venue_quality",
+      "gap": "Stepping up to larger, more established solo venues",
+      "gap_zh": "迈向更大、更具分量的个展场地",
+      "detail": "You have solo shows on record — the next move is the quality of the venue: graduating from artist-run and independent spaces toward established commercial galleries and institutional solo exhibitions. Each stronger solo deepens the CV more than another group show would.",
+      "detail_zh": "你已有个展履历——下一步在于场地的分量：从艺术家自营空间与独立空间，迈向更成熟的商业画廊与机构个展。每一次更高规格的个展，对履历的加成都胜过再办一次联展。",
+      "priority": "high",
+      "action": "Target established commercial galleries and institutional spaces for your next solo, building on the venues you've already shown with.",
+      "action_zh": "以更成熟的商业画廊与机构空间为下一次个展的目标，在你已合作过的场地基础上更进一步。"
+    },
+    {
+      "gap_id": "art_fairs",
+      "gap": "Art fairs open collector access",
+      "gap_zh": "艺术博览会，打开通向藏家的通道",
+      "detail": "Art fairs (Art Fair Tokyo, Tokyo Gendai and their international peers) are where collectors gather — usually reached through a representing gallery. As representation comes together, fairs become the natural place your work meets buyers at scale.",
+      "detail_zh": "艺术博览会（Art Fair Tokyo、Tokyo Gendai 及其国际同侪）是藏家汇聚之地——通常通过代理画廊进入。随着代理关系成形，博览会会成为你的作品规模化触达藏家的天然舞台。",
       "priority": "medium",
-      "action": "Target bookshop gallery solo show: UTRECHT, Book and Sons, flotsam books, 日記屋 月日",
-      "action_zh": "争取书店画廊个展：UTRECHT、Book and Sons、flotsam books、日記屋 月日"
+      "action": "Note the fairs your target galleries exhibit at; fair access typically follows representation.",
+      "action_zh": "留意你的目标画廊参与的博览会；博览会的入口通常随代理关系而来。"
     },
     {
-      "gap_id": "institutional_show",
-      "gap": "An institutional show is the next door to open",
-      "gap_zh": "机构展览，是下一扇待你推开的门",
-      "detail": "An arts-council or public-gallery show is the next credibility door to open. TOKAS, BankART1929, and Youkobo are realistic near-term entries for where you are now.",
-      "detail_zh": "在艺术委员会或公立画廊办展，是下一扇值得推开的公信力之门。TOKAS、BankART1929 与 Youkobo，都是以你现在的位置切实可及的近期入口。",
+      "gap_id": "residency",
+      "gap": "A residency is a genuine open door on your CV",
+      "gap_zh": "驻地项目，是履历上一扇真正待开的门",
+      "detail": "Residencies carry real institutional weight and are a natural fit for a cross-cultural practice between Tokyo and Beijing — and they're one of the few credits not yet on your record. A residency abroad would also deepen the international record you've already begun.",
+      "detail_zh": "驻地项目具备真正的机构分量，也非常契合你往返东京与北京的跨文化创作——而且这是你履历上尚未拥有的少数credit之一。一次海外驻地，还能让你已经开启的国际履历更进一层。",
       "priority": "medium",
-      "action": "Watch TOKAS open calls and Youkobo artist-in-residence programs",
-      "action_zh": "关注 TOKAS 公开征集与 Youkobo 驻地项目"
+      "action": "Research residencies that suit a watercolor/works-on-paper practice and a Tokyo–Beijing artist.",
+      "action_zh": "了解适合水彩／纸上作品创作、以及往返东京—北京的艺术家的驻地项目。"
     },
     {
-      "gap_id": "international_show",
-      "gap": "International reach, whenever you want it",
-      "gap_zh": "国际舞台，随时为你敞开",
-      "detail": "Your shows so far are in Japan and China — a strong base. Adding an international showing, even a remote open call, opens residencies and fellowships when you want them.",
-      "detail_zh": "你目前的展览集中在日本与中国——这是坚实的根基。再添一次国际展出，哪怕是一次远程公开征集，就能在你想要的时候打开驻地与奖助的大门。",
-      "priority": "low",
-      "action": "Consider global watercolor open calls or table at Offprint Paris / London Art Book Fair",
-      "action_zh": "考虑国际水彩公开征集，或在 Offprint Paris／London Art Book Fair 设展位"
+      "gap_id": "grant",
+      "gap": "Grants and fellowships add institutional standing",
+      "gap_zh": "奖助与奖学金，为你增添机构层面的分量",
+      "detail": "A grant or fellowship is institutional recognition that funds the work and strengthens every future application. It's a CV dimension you haven't tapped yet — and your exhibition record now supports a competitive application.",
+      "detail_zh": "一笔奖助或奖学金，是来自机构的认可——既为创作提供资金，也让你日后的每一份申请更有底气。这是你尚未触及的履历维度——而你如今的展览履历，已经足以支撑一份有竞争力的申请。",
+      "priority": "medium",
+      "action": "Track arts grants and fellowships open to your nationality and medium; your record now reads as competitive.",
+      "action_zh": "持续关注向你的国籍与媒介开放的艺术奖助与奖学金；你的履历如今已具竞争力。"
     },
     {
-      "gap_id": "jws",
-      "gap": "The Japan Watercolor Society is open to you",
-      "gap_zh": "日本水彩画会，正向你敞开",
-      "detail": "The Japan Watercolor Society annual exhibition is a Tier 3 credibility marker for watercolor artists in Japan — and non-members can enter the juried calls. An open door whenever you're ready.",
-      "detail_zh": "日本水彩画会的年度展览，是日本水彩艺术家第三级公信力的标志——而且非会员也可以参加评审征集。这扇门，随时为你敞开。",
+      "gap_id": "critical_press",
+      "gap": "Moving from features to being written about",
+      "gap_zh": "从作品被展示，迈向作品被书写",
+      "detail": "Your work has been featured — the next step is critical press: a writer or art publication engaging with the practice itself, not just reproducing the images. Criticism builds the discourse around your work that galleries and institutions read.",
+      "detail_zh": "你的作品已被展示报道——下一步是评论性的关注：让写作者或艺术刊物真正进入你的创作本身，而不只是复制图像。评论会围绕你的作品建立起话语，而画廊与机构正是这话语的读者。",
       "priority": "low",
-      "action": "Research Japan Watercolor Society (公益社団法人日本水彩画会) annual entry process",
-      "action_zh": "了解日本水彩画会（公益社団法人日本水彩画会）的年度参展流程"
+      "action": "Cultivate art writers and publications who engage critically with painting and works on paper.",
+      "action_zh": "结识真正以评论视角关注绘画与纸上作品的艺术写作者与刊物。"
+    },
+    {
+      "gap_id": "monograph",
+      "gap": "A new book or monograph beyond Colour Diary (2021)",
+      "gap_zh": "在 Colour Diary（2021）之后，出一本新书或个人画册",
+      "detail": "Colour Diary (2021) was your first solo collection — five years and a great deal of work later, a new book or monograph would gather the recent practice and give galleries, fairs, and press a single object to engage with.",
+      "detail_zh": "Colour Diary（2021）是你的首部个人作品集——五年过去，作品已积累许多，一本新书或个人画册能把近期的创作汇聚起来，也为画廊、博览会与媒体提供一个可以共同关注的整体。",
+      "priority": "low",
+      "action": "Gather the work made since Colour Diary toward a second book or monograph.",
+      "action_zh": "把 Colour Diary 之后的创作汇整起来，朝第二本书或个人画册推进。"
     }
   ],
-  "next_milestone": "Complete 2 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.",
-  "next_milestone_zh": "再完成 2 场东京联展，达到开启第三级洽谈所需的 3 场最低门槛。",
-  "months_to_tier3": 12,
+  "next_milestone": "Build toward gallery representation — a gallery that sells on your behalf, places you in art fairs, and grows a collector base. With solo and museum-group credits already on record, this is the highest-leverage next step.",
+  "next_milestone_zh": "朝画廊代理迈进——一家替你销售、带你进入博览会、并培育藏家群体的画廊。你已有个展与美术馆联展的履历，这是当下杠杆最高的下一步。",
+  "months_to_tier3": 3,
   "pipeline_summary": {
     "total_active": 428,
     "tier_1_count": 35,
