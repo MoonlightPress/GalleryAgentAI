@@ -288,11 +288,49 @@
         "confidence": "participation confirmed, details unverified"
       }
     ],
+    "_exhibitions_note": "CORRECTED 2026-06-25 from the artist's own published exhibition history (gegyjiji.base.shop). The prior record listed only 'Tide from China' + a vague Kinoko entry and drove a badly understated career-stage assessment. Real record below: ~10 group shows + 2 solo shows across China, Japan, and the UK (2021–2026), including two museum group shows and two solo gallery shows.",
     "exhibitions": [
+      {
+        "title": "The Recorded Journey (被记录的旅行)",
+        "type": "group show",
+        "venue": "鲸字号本屋 (Whale Zihao bookstore)",
+        "city": "Shanghai, China",
+        "dates": "March–April 2021",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
+      },
+      {
+        "title": "Hello, Spring (你好春天)",
+        "type": "group show",
+        "venue": "永庆坊 (Yongqingfang)",
+        "city": "Guangzhou, China",
+        "dates": "March 2021",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
+      },
+      {
+        "title": "Line of Sight (視線)",
+        "type": "exhibition (group/solo not specified on source)",
+        "venue": "软果银",
+        "city": "Hangzhou, China",
+        "dates": "March–May 2021",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
+      },
+      {
+        "title": "Witch's Feast 3 (魔女的盛宴3)",
+        "type": "group show (official festival poster artists)",
+        "venue": "—",
+        "city": "Shenzhen, China",
+        "dates": "August 2021",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
+      },
       {
         "title": "Tide from China Part1",
         "type": "group show (6 Chinese illustrators)",
         "venue": "ACG_Labo, 2F, 4-25-7 Jingumae, Shibuya-ku, Tokyo (Harajuku)",
+        "city": "Tokyo, Japan",
         "dates": "February 4–13, 2023",
         "organizer": "Company ACG (株式会社ACG) / RainForest Publishing",
         "significance": "First exhibition in Japan (stated explicitly in exhibition materials)",
@@ -308,11 +346,72 @@
         "source": "https://www.acgateway.com/ex_tide1/"
       },
       {
-        "title": "Group exhibitions with Kinoko Kingdom",
-        "type": "offline group exhibitions",
-        "venue": "unknown (possibly China-based)",
-        "dates": "unknown",
-        "confidence": "mentioned in ACG bio, details unconfirmed"
+        "title": "As a Notebook Should Be (本该如此)",
+        "type": "group show",
+        "venue": "TWELVE MOONS",
+        "city": "Nanjing, China",
+        "dates": "October 2024",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
+      },
+      {
+        "title": "Living Elsewhere (生活在别处)",
+        "type": "group show (museum)",
+        "venue": "棉美术馆 (Mian Art Museum)",
+        "city": "Tianjin, China",
+        "dates": "November 2024 – February 2025",
+        "significance": "Institutional (museum) group exhibition",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
+      },
+      {
+        "title": "PiPa – The Sound of Growing (PiPa 生长的声音)",
+        "type": "group show (museum)",
+        "venue": "横渡美术馆 (Hengdu Art Museum)",
+        "city": "Taizhou, China",
+        "dates": "November 2024 – February 2025",
+        "significance": "Institutional (museum) group exhibition",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
+      },
+      {
+        "title": "Light, Shadow, Cats (和光和影和猫)",
+        "type": "solo show",
+        "venue": "77ART",
+        "city": "Shanghai, China",
+        "dates": "February–March 2025",
+        "significance": "First solo gallery exhibition on record",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
+      },
+      {
+        "title": "SARAH ANDERSEN",
+        "type": "exhibition (group/solo not specified on source)",
+        "venue": "—",
+        "city": "London, UK",
+        "dates": "December 2025",
+        "significance": "First international (UK) showing on record",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
+      },
+      {
+        "title": "MiniArt, GrandStar",
+        "type": "group show",
+        "venue": "月画廊 (Tsuki Gallery)",
+        "city": "Tokyo, Japan",
+        "dates": "January 2026",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
+      },
+      {
+        "title": "The Eternal Yesterday (永遠の昨日)",
+        "type": "solo show",
+        "venue": "月画廊 (Tsuki Gallery)",
+        "city": "Tokyo, Japan",
+        "dates": "April 2026",
+        "significance": "Solo show in Tokyo — most recent on record",
+        "confidence": "confirmed (artist's own exhibition history)",
+        "source": "https://gegyjiji.base.shop/"
       }
     ],
     "gallery_representation": "none confirmed",
@@ -330,7 +429,7 @@
         "url": "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji-part-2/"
       }
     ],
-    "career_stage_note": "Confirmed record is solidly Tier 1–2. One group show in Japan (2023, first Japan show). One solo illustration collection (2021). Solid illustrator-community social following (~26k Instagram). No institutional exhibition history, no residency, no gallery representation found. Profile career phase assessment is accurate."
+    "career_stage_note": "CORRECTED 2026-06-25 against the artist's own published exhibition history. Real record: ~10 group shows + 2 solo shows across China, Japan, and the UK (2021–2026) — including two museum group shows (Mian Art Museum, Tianjin; Hengdu Art Museum, Taizhou) and two solo gallery shows (77ART, Shanghai 2025; Tsuki Gallery 月画廊, Tokyo 2026), plus a first solo publication (Colour Diary, 2021) and ~26k Instagram. She is an active multi-country exhibiting artist with solo AND institutional credits — NOT the 'one group show, foundation-building, first solo within reach' stage the prior data implied. ALL career-stage / readiness / level / benchmark / pathway output derived from the old record must be regenerated; any 'you need 2–3 more group shows before a gallery will discuss a solo' framing is now FALSE and must not reach her."
   },
   "artist_statement": {
     "_research_date": "2026-06-07",
@@ -451,7 +550,7 @@
   "secondary_mediums": [
     "photography"
   ],
-  "photography_note": "Nin is also a photographer (hobby-level but skilled). Photography opportunities are relevant and should not be penalized. The photography flood concern is about search noise from other artists, not about her own practice.",
+  "photography_note": "Photography opportunities are relevant and should not be penalized: her own ACG exhibition bio states she aspires to become a costume photographer who also draws illustrations (コスチュームカメラマン). The photography-flood concern is about search noise from other artists, not her own practice.",
   "is_student": true,
   "profile_notes": [
     "2026-06-13: confirmed currently a student — student-only calls are ELIGIBLE and should be marked (student_call), never filtered; student fee tiers apply."
