@@ -2905,12 +2905,29 @@ async def add_exhibition(request: Request):
     return {"ok": True, "entry": entry}
 
 
+@app.patch("/api/exhibition_log/{entry_id}")
+async def update_exhibition(entry_id: str, request: Request):
+    """Edit fields of a logged exhibition entry so a thin/incomplete one can be
+    fixed in place instead of deleted and re-added."""
+    payload = await request.json()
+    path = DATA_DIR / "exhibition_log.json"
+    log = _load_json(path, [])
+    for e in log:
+        if e.get("id") == entry_id:
+            for k in ("date", "name", "venue", "type", "outcome",
+                      "notes", "city", "country", "confidence"):
+                if k in payload:
+                    e[k] = payload[k]
+            _save_her_data(path, log)
+            _refresh_career_strategy()
+            return {"ok": True, "entry": e}
+    return {"ok": False, "error": "not found"}
+
+
 @app.delete("/api/exhibition_log/{entry_id}")
 def delete_exhibition(entry_id: str):
     path = DATA_DIR / "exhibition_log.json"
-    if not path.exists():
-        return {"ok": True}
-    log = json.loads(path.read_text(encoding="utf-8"))
+    log = _load_json(path, [])
     log = [e for e in log if e.get("id") != entry_id]
     _save_her_data(path, log)
     _refresh_career_strategy()

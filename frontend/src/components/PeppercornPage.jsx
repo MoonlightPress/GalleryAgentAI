@@ -681,6 +681,7 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
   const [shows, setShows] = useState([])
   const [form, setForm] = useState({ date: '', name: '', venue: '', type: 'group', outcome: 'shown', notes: '' })
   const [saving, setSaving] = useState(false)
+  const [editingId, setEditingId] = useState(null)
   const [saved, flash] = useSaved()
 
   useEffect(() => {
@@ -692,19 +693,34 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
 
   function setField(k, v) { setForm(f => ({ ...f, [k]: v })) }
 
+  function resetForm() {
+    setForm({ date: '', name: '', venue: '', type: 'group', outcome: 'shown', notes: '' })
+    setEditingId(null)
+  }
+
+  function startEdit(s) {
+    setForm({
+      date: s.date || '', name: s.name || '', venue: s.venue || '',
+      type: s.type || 'group', outcome: s.outcome || 'shown', notes: s.notes || '',
+    })
+    setEditingId(s.id)
+  }
+
   async function submitShow() {
     if (!form.name.trim() && !form.venue.trim()) return
     setSaving(true)
     try {
-      const r = await fetch('/api/exhibition_log', {
-        method: 'POST',
+      // PATCH an existing entry when editing, POST a new one otherwise.
+      const url = editingId ? `/api/exhibition_log/${editingId}` : '/api/exhibition_log'
+      const r = await fetch(url, {
+        method: editingId ? 'PATCH' : 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...form }),
       })
       if (r.ok) {
         const updated = await fetch('/api/exhibition_log').then(r2 => r2.json())
         setShows(Array.isArray(updated) ? updated : [])
-        setForm({ date: '', name: '', venue: '', type: 'group', outcome: 'shown', notes: '' })
+        resetForm()
         flash()
       }
     } finally {
@@ -791,13 +807,20 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
             placeholder={t('pp.exlog.ph.notes')}
           />
         </div>
-        <button
-          className={`pp-save${saved ? ' pp-save--done' : ''}`}
-          onClick={submitShow}
-          disabled={saving || (!form.name.trim() && !form.venue.trim())}
-        >
-          {saved ? t('pp.exlog.btn.done') : t('pp.exlog.btn')}
-        </button>
+        <div className="pp-sub-form-actions">
+          <button
+            className={`pp-save${saved ? ' pp-save--done' : ''}`}
+            onClick={submitShow}
+            disabled={saving || (!form.name.trim() && !form.venue.trim())}
+          >
+            {saved ? t('pp.exlog.btn.done') : editingId ? t('pp.exlog.btn.update') : t('pp.exlog.btn')}
+          </button>
+          {editingId && (
+            <button className="pp-sub-cancel" onClick={resetForm} disabled={saving}>
+              {t('pp.exlog.cancel')}
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Hardcoded confirmed show */}
@@ -824,6 +847,7 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef }) {
                   {s.outcome ? t('pp.showOutcome.' + s.outcome) : ''}
                 </span>
                 {s.date && <span className="pp-sub-date">{s.date}</span>}
+                <button className="pp-edit-btn" onClick={() => startEdit(s)} title={t('pp.exlog.edit')}>✎</button>
                 <button className="pp-edit-btn" onClick={() => deleteShow(s.id)} title={t('pp.exlog.delete')}>×</button>
               </div>
               {s.venue && s.name && <div className="pp-sub-what">{s.venue} · {tfb(t, 'pp.showType.' + s.type, s.type)}</div>}
