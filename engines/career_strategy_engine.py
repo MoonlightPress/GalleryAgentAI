@@ -360,15 +360,19 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
                    has_international: bool, has_jws: bool) -> list:
     gaps = []
 
+    # Framed as opportunities ahead, not deficits. The whole readiness surface
+    # reads "here's where you are, and here's what's in reach" — never "here's
+    # what you lack." (Scott, 2026-06-25: positive reinforcement throughout.)
     if group_shows < 3:
         needed = 3 - group_shows
+        s = "s" if group_shows != 1 else ""
         gaps.append({
             "gap_id":   "group_shows",
-            "gap":      "Insufficient group show history",
+            "gap":      "A few more group shows opens Tier 3",
             "detail":   (
-                f"Only {group_shows} confirmed group show(s). "
-                f"Most Tokyo galleries consider 3+ group exhibition credits before "
-                f"discussing solo work. {needed} more group show(s) needed."
+                f"You have {group_shows} confirmed group show{s} — a real start. "
+                f"{needed} more brings you to the 3 that open Tier 3 conversations with "
+                f"Tokyo galleries. This is your fastest move up."
             ),
             "priority": "high",
             "action":   "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN",
@@ -377,11 +381,10 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
     if not has_solo:
         gaps.append({
             "gap_id":   "solo_show",
-            "gap":      "No solo show on CV",
+            "gap":      "A first solo show is within reach",
             "detail":   (
-                "No solo exhibition confirmed in Tokyo or elsewhere. "
-                "A solo show — even in a small bookshop gallery or documented café context — "
-                "provides a qualitative leap in credibility when applying to Tier 3 calls."
+                "A first solo show is a real leap in credibility for Tier 3 calls — and it's "
+                "an achievable next step. Even a small bookshop-gallery or café solo counts."
             ),
             "priority": "medium",
             "action":   "Target bookshop gallery solo show: UTRECHT, Book and Sons, flotsam books, 日記屋 月日",
@@ -390,11 +393,10 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
     if not has_institutional:
         gaps.append({
             "gap_id":   "institutional_show",
-            "gap":      "No institutional exhibition history",
+            "gap":      "An institutional show is the next door to open",
             "detail":   (
-                "No show at an arts council, public gallery, or institutional space. "
-                "TOKAS, BankART1929, and Youkobo are the realistic near-term institutional entries "
-                "for Tokyo-based artists at this stage."
+                "An arts-council or public-gallery show is the next credibility door to open. "
+                "TOKAS, BankART1929, and Youkobo are realistic near-term entries for where you are now."
             ),
             "priority": "medium",
             "action":   "Watch TOKAS open calls and Youkobo artist-in-residence programs",
@@ -403,10 +405,10 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
     if not has_international:
         gaps.append({
             "gap_id":   "international_show",
-            "gap":      "No international exhibition outside Japan/China",
+            "gap":      "International reach, whenever you want it",
             "detail":   (
-                "All confirmed exhibition history is in Japan (and China, via Kinoko Kingdom). "
-                "International reach strengthens applications for residencies and fellowships."
+                "Your shows so far are in Japan and China — a strong base. Adding an international "
+                "showing, even a remote open call, opens residencies and fellowships when you want them."
             ),
             "priority": "low",
             "action":   "Consider global watercolor open calls or table at Offprint Paris / London Art Book Fair",
@@ -415,11 +417,11 @@ def _blocking_gaps(group_shows: int, has_solo: bool, has_institutional: bool,
     if not has_jws:
         gaps.append({
             "gap_id":   "jws",
-            "gap":      "No Japan Watercolor Society membership or exhibition",
+            "gap":      "The Japan Watercolor Society is open to you",
             "detail":   (
-                "The Japan Watercolor Society annual exhibition is a Tier 3 credibility marker "
-                "for watercolor artists in Japan. Non-members can enter juried calls; "
-                "membership requires exhibition selection."
+                "The Japan Watercolor Society annual exhibition is a Tier 3 credibility marker for "
+                "watercolor artists in Japan — and non-members can enter the juried calls. "
+                "An open door whenever you're ready."
             ),
             "priority": "low",
             "action":   "Research Japan Watercolor Society (公益社団法人日本水彩画会) annual entry process",

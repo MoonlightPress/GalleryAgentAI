@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, Component } from 'react'
+import { useState, useEffect, useMemo, Component, createContext, useContext } from 'react'
 import './SaffronPage.css'
 import { CalendarMonth } from './DeadlineCalendar'
 import { parseDeadline, keyOf } from '../utils/calendarDates'
@@ -12,7 +12,6 @@ import {
   GRANT_LANDSCAPE,
   REVENUE_STREAMS,
   CAREER_DEPENDENCY_MAP,
-  CAREER_TIMELINE,
   PRICING_INTELLIGENCE,
 } from '../data/saffron_insights'
 
@@ -171,15 +170,21 @@ const SF_ZH = {
   "Foundation complete — building Tier 4 body of work": "根基已成——正在积累第四级的作品体系",
   "Tier 1-2 foundation building": "第 1–2 层级的基础建设",
   "Complete 2 more Tokyo group show(s) to reach the 3-show minimum that opens Tier 3 conversations.": "再完成 2 场东京联展，达到开启第 3 层级洽谈所需的 3 场最低门槛。",
-  "Insufficient group show history": "联展经历不足",
+  // Gap titles + details — opportunity framing (positive reinforcement)
+  "A few more group shows opens Tier 3": "再来几场联展，就能开启第三级",
+  "You have 1 confirmed group show — a real start. 2 more brings you to the 3 that open Tier 3 conversations with Tokyo galleries. This is your fastest move up.": "你已经有 1 场已确认的联展——这是实打实的起点。再来 2 场，就凑齐了与东京画廊洽谈第三级所需的 3 场。这是你当下最快的进阶之路。",
   "Apply to open calls at 3331 Arts Chiyoda, Design Festa Gallery, Gallery IYN": "向 3331 Arts Chiyoda、Design Festa Gallery、Gallery IYN 的公开征集投递",
-  "No solo show on CV": "简历上尚无个展",
+  "A first solo show is within reach": "首次个展，已经触手可及",
+  "A first solo show is a real leap in credibility for Tier 3 calls — and it's an achievable next step. Even a small bookshop-gallery or café solo counts.": "首次个展会让你在第三级征集中的公信力实现真正的飞跃——而且这是可以达成的下一步。哪怕是书店画廊或咖啡馆里的小型个展，也算数。",
   "Target bookshop gallery solo show: UTRECHT, Book and Sons, flotsam books, 日記屋 月日": "争取书店画廊个展：UTRECHT、Book and Sons、flotsam books、日記屋 月日",
-  "No institutional exhibition history": "尚无机构展览经历",
+  "An institutional show is the next door to open": "机构展览，是下一扇待你推开的门",
+  "An arts-council or public-gallery show is the next credibility door to open. TOKAS, BankART1929, and Youkobo are realistic near-term entries for where you are now.": "在艺术委员会或公立画廊办展，是下一扇值得推开的公信力之门。TOKAS、BankART1929 与 Youkobo，都是以你现在的位置切实可及的近期入口。",
   "Watch TOKAS open calls and Youkobo artist-in-residence programs": "关注 TOKAS 公开征集与 Youkobo 驻地项目",
-  "No international exhibition outside Japan/China": "在日本／中国之外尚无国际展览",
+  "International reach, whenever you want it": "国际舞台，随时为你敞开",
+  "Your shows so far are in Japan and China — a strong base. Adding an international showing, even a remote open call, opens residencies and fellowships when you want them.": "你目前的展览集中在日本与中国——这是坚实的根基。再添一次国际展出，哪怕是一次远程公开征集，就能在你想要的时候打开驻地与奖助的大门。",
   "Consider global watercolor open calls or table at Offprint Paris / London Art Book Fair": "考虑国际水彩公开征集，或在 Offprint Paris／London Art Book Fair 设展位",
-  "No Japan Watercolor Society membership or exhibition": "尚无日本水彩画会会员资格或展览",
+  "The Japan Watercolor Society is open to you": "日本水彩画会，正向你敞开",
+  "The Japan Watercolor Society annual exhibition is a Tier 3 credibility marker for watercolor artists in Japan — and non-members can enter the juried calls. An open door whenever you're ready.": "日本水彩画会的年度展览，是日本水彩艺术家第三级公信力的标志——而且非会员也可以参加评审征集。这扇门，随时为你敞开。",
   "Research Japan Watercolor Society (公益社団法人日本水彩画会) annual entry process": "了解日本水彩画会（公益社団法人日本水彩画会）的年度参展流程",
 
   // ── Geographic reach ──
@@ -288,8 +293,17 @@ class SectionErrorBoundary extends Component {
 
 // ── Shared primitives ──────────────────────────────────────────────────────
 
-function SectionShell({ title, subtitle, summary, defaultOpen = true, children }) {
-  const [open, setOpen] = useState(defaultOpen)
+// Each Saffron tab shows its first section open and the rest collapsed to their
+// summary — one consistent rule across every tab (Scott: inconsistency is worse
+// than either choice). A section's own defaultOpen prop still wins when set; a
+// section with no prop inherits this context (true outside any provider, so
+// nothing changes for surfaces that don't opt in).
+const SectionOpenContext = createContext(true)
+
+function SectionShell({ title, subtitle, summary, defaultOpen, children }) {
+  const ctxDefault = useContext(SectionOpenContext)
+  const initialOpen = defaultOpen !== undefined ? defaultOpen : ctxDefault
+  const [open, setOpen] = useState(initialOpen)
   return (
     <section className={`sf-section${open ? '' : ' sf-section--closed'}`}>
       <button className="sf-toggle-header" onClick={() => setOpen(o => !o)}>
@@ -481,7 +495,6 @@ function ComparableArtists({ artists, t }) {
       title={t('sf.sec.peers')}
       subtitle={t('sf.sub.peers')}
       summary={summary}
-      defaultOpen={false}
     >
       <p className="sf-peers-caveat">{t('sf.label.peersCaveat')}</p>
       <div className="sf-peers-grid">
@@ -621,17 +634,24 @@ const ASSESSMENT_COLORS = {
 
 function CareerBenchmarks({ data, t }) {
   const rec = data.artist_record
+  // Never compare her unfavorably (Scott): show only the dimensions where she's
+  // at or above the typical band. Growth areas live — positively — in Career
+  // Readiness, not as a peer deficit here. If nothing is favorable yet, the
+  // section simply doesn't appear.
+  // Filter on the API's stable `favorable` boolean (the assessment string gets
+  // deep-translated in zh, so matching on it would wrongly hide everything).
+  const favorable = (data.peer_range || []).filter(r => r.favorable)
+  if (favorable.length === 0) return null
   const summary = `${rec.exhibitions} · ${rec.publications} · Instagram ${rec.instagram ?? '—'}`
   return (
     <SectionShell
       title={t('sf.sec.benchmarks')}
       subtitle={t('sf.sub.benchmarks')}
       summary={summary}
-      defaultOpen={false}
     >
-      <p className="sf-peers-caveat">{data.summary}</p>
+      <p className="sf-peers-caveat">{t('sf.cr.peerStrengths')}</p>
       <div className="sf-benchmark-grid">
-        {data.peer_range.map((row, i) => {
+        {favorable.map((row, i) => {
           const color = ASSESSMENT_COLORS[row.assessment] || ASSESSMENT_COLORS.on_track
           const label = t(ASSESSMENT_KEYS[row.assessment] || 'sf.assess.on_track')
           return (
@@ -1519,43 +1539,10 @@ function TimingIntelligence({ data, t }) {
 
 // ── Comparative Career Timeline ────────────────────────────────────────────
 
-function CareerTimeline({ t, lang }) {
-  const d = localizeDeep(CAREER_TIMELINE, lang)
-  return (
-    <SectionShell title={t(d.titleKey)} summary={t(d.summaryKey)} defaultOpen={false}>
-      <div className="sf-insight-callout">{d.overall_assessment}</div>
-
-      <div className="sf-block-label" style={{ marginTop: 24 }}>{t('sf.timeline.artistStage')}</div>
-      <div className="sf-timeline-stage">
-        <span className="sf-trait">{t('sf.timeline.age', { n: d.artist_stage.age })}</span>
-        <span className="sf-trait">{t('sf.timeline.groupShow', { n: d.artist_stage.group_shows, s: d.artist_stage.group_shows !== 1 ? 's' : '' })}</span>
-        <span className="sf-trait">{t('sf.timeline.publications', { n: d.artist_stage.publications, s: d.artist_stage.publications !== 1 ? 's' : '' })}</span>
-        {d.artist_stage.instagram && <span className="sf-trait">Instagram {d.artist_stage.instagram}</span>}
-      </div>
-
-      <div className="sf-peers-grid" style={{ marginTop: 24 }}>
-        {d.peers.map((peer, i) => (
-          <div key={i} className="sf-peer-card">
-            <a
-              className="sf-peer-name sf-peer-link"
-              href={PEER_IG[peer.name] ? `https://www.instagram.com/${PEER_IG[peer.name]}/` : sfSearch(`${peer.name} instagram`)}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {peer.name} ↗
-            </a>
-            <div className="sf-peer-region">{peer.region} · {peer.comparable_age}</div>
-            <div className="sf-block-label" style={{ marginTop: 12, fontSize: '0.72rem' }}>{t('sf.timeline.hadAtStage')}</div>
-            <ul className="sf-timeline-had-list">
-              {peer.at_stage.had.map((h, j) => <li key={j}>{h}</li>)}
-            </ul>
-            <div className="sf-peer-use" style={{ marginTop: 10 }}>{peer.comparison}</div>
-          </div>
-        ))}
-      </div>
-    </SectionShell>
-  )
-}
+// CareerTimeline (peer-at-stage "what they had at your age" comparison) was
+// removed from the UI — it's the textbook unfavorable comparison for an early-
+// career artist (Scott: never compare her to others unless it's favorable).
+// Restore from git history if a favorable reframe is ever wanted.
 
 // ── Pricing Intelligence ───────────────────────────────────────────────────
 
@@ -2179,7 +2166,7 @@ export default function SaffronPage({ nav, onNav }) {
   const [rawData,    setRawData]    = useState(null)
   const [rawCareer,  setRawCareer]  = useState(null)
   const [error,      setError]      = useState(null)
-  const [tab,        setTab]        = useState('profile')
+  const [tab,        setTab]        = useState('strategy')
   const { t, lang } = useLanguage()
 
   const loadSaffron = () => {
@@ -2216,25 +2203,31 @@ export default function SaffronPage({ nav, onNav }) {
   const data       = useMemo(() => (txMap ? deepTranslate(rawData,   txMap) : rawData),   [rawData,   txMap])
   const careerData = useMemo(() => (txMap ? deepTranslate(rawCareer, txMap) : rawCareer), [rawCareer, txMap])
 
+  // Saffron is the big-picture companion — Mochi and Peppercorn are the specific
+  // ones, so Saffron opens broad (landscape → strategy) and only then narrows to
+  // her profile, which is also the most personal/self-comparing tab.
   const SF_TABS = [
-    ['profile',       t('sf.cat.profile')],
-    ['landscape',     t('sf.cat.landscape')],
     ['strategy',      t('sf.cat.strategy')],
+    ['landscape',     t('sf.cat.landscape')],
+    ['profile',       t('sf.cat.profile')],
     ['calendar',      t('sf.cat.calendar')],
     ['relationships', t('sf.cat.relationships')],
     ['money',         t('sf.cat.money')],
   ]
   function goTab(key) {
     setTab(key)
-    // Reset to the top of the content so the new section starts at its beginning —
-    // scrollIntoView on an already-pinned sticky bar does nothing, so scroll the
-    // window to the content's top instead.
+    // Land the new tab's FIRST section just below the sticky nav + tab bar — not
+    // behind them. Scrolling to sf-content's raw top tucked the section header
+    // under the sticky stack and cut off the top of the content.
     requestAnimationFrame(() => {
-      const el = document.querySelector('.sf-content')
-      if (el) {
-        const top = el.getBoundingClientRect().top + window.scrollY - 4
-        window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' })
-      }
+      const content = document.querySelector('.sf-content')
+      const tabs = document.querySelector('.sf-tabs')
+      if (!content) return
+      const target = content.querySelector('.sf-section') || content
+      // sticky tab bar sits at top:54px (below the nav); offset by its full height.
+      const stickyOffset = 54 + (tabs ? tabs.offsetHeight : 48) + 10
+      const top = target.getBoundingClientRect().top + window.scrollY - stickyOffset
+      window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' })
     })
   }
 
@@ -2270,56 +2263,69 @@ export default function SaffronPage({ nav, onNav }) {
           </div>
 
           <SectionErrorBoundary key={tab}>
-            {tab === 'profile' && (
+            {/* One rule everywhere: the first section of a tab is open, the rest
+                collapse to their summary (via SectionOpenContext). */}
+            {tab === 'strategy' && (
               <>
-                {careerData && <CareerReadiness data={careerData} onChanged={refreshCareer} />}
-                <CareerPosition     data={data.career_position}    t={t} />
-                <CareerBenchmarks   data={data.career_benchmarks}  t={t} />
-                <CareerTimeline     t={t} lang={lang} />
-                <ComparableArtists  artists={data.peer_artists}    t={t} />
-                <InstagramStrategy  data={data.instagram_strategy} t={t} />
-                <AudienceGeography  data={data.audience_geography} t={t} />
-                <CareerMomentum     data={data.career_momentum}    t={t} />
+                <StrategicPathway    data={data.pathway}             t={t} />
+                <SectionOpenContext.Provider value={false}>
+                  <LongTermScenarios   data={data.long_term_scenarios} t={t} />
+                  <CareerDependencyMap t={t} lang={lang} />
+                  <OpenQuestions       data={data.open_questions}      t={t} />
+                </SectionOpenContext.Provider>
               </>
             )}
             {tab === 'landscape' && (
               <>
                 <MarketStats         data={data.market_stats} onNav={onNav} />
-                <MarketLandscape     data={data.market_landscape}     t={t} onNav={onNav} />
-                <OpportunityGap      data={data.opportunity_gap}      t={t} />
-                <GeographicExpansion data={data.geographic_expansion} t={t} />
+                <SectionOpenContext.Provider value={false}>
+                  <MarketLandscape     data={data.market_landscape}     t={t} onNav={onNav} />
+                  <OpportunityGap      data={data.opportunity_gap}      t={t} />
+                  <GeographicExpansion data={data.geographic_expansion} t={t} />
+                </SectionOpenContext.Provider>
               </>
             )}
-            {tab === 'strategy' && (
+            {tab === 'profile' && (
               <>
-                <StrategicPathway    data={data.pathway}             t={t} />
-                <LongTermScenarios   data={data.long_term_scenarios} t={t} />
-                <CareerDependencyMap t={t} lang={lang} />
-                <OpenQuestions       data={data.open_questions}      t={t} />
+                {careerData && <CareerReadiness data={careerData} onChanged={refreshCareer} />}
+                <SectionOpenContext.Provider value={false}>
+                  <CareerPosition     data={data.career_position}    t={t} />
+                  <CareerBenchmarks   data={data.career_benchmarks}  t={t} />
+                  <ComparableArtists  artists={data.peer_artists}    t={t} />
+                  <InstagramStrategy  data={data.instagram_strategy} t={t} />
+                  <AudienceGeography  data={data.audience_geography} t={t} />
+                  <CareerMomentum     data={data.career_momentum}    t={t} />
+                </SectionOpenContext.Provider>
               </>
             )}
             {tab === 'calendar' && (
               <>
                 <SeasonalCalendar   data={data.seasonal_calendar}   t={t} lang={lang} />
-                <TimingIntelligence data={data.timing_intelligence} t={t} />
+                <SectionOpenContext.Provider value={false}>
+                  <TimingIntelligence data={data.timing_intelligence} t={t} />
+                </SectionOpenContext.Provider>
               </>
             )}
             {tab === 'relationships' && (
               <>
                 <PressFeatures      data={data.press_features}      t={t} />
-                <PressPitchMap      t={t} lang={lang} />
-                <CollaborationMap   data={data.collaboration_map}   t={t} />
-                <CollectorEcosystem data={data.collector_ecosystem} t={t} />
-                <VenueTracker       data={data.venue_tracker}       t={t} />
+                <SectionOpenContext.Provider value={false}>
+                  <PressPitchMap      t={t} lang={lang} />
+                  <CollaborationMap   data={data.collaboration_map}   t={t} />
+                  <CollectorEcosystem data={data.collector_ecosystem} t={t} />
+                  <VenueTracker       data={data.venue_tracker}       t={t} />
+                </SectionOpenContext.Provider>
               </>
             )}
             {tab === 'money' && (
               <>
                 <RevenueStreams       t={t} lang={lang} />
-                <PricingIntelligence  t={t} lang={lang} />
-                <GrantLandscape       t={t} lang={lang} />
-                <LicensingLandscape   t={t} lang={lang} />
-                <PublicationLandscape data={data.publication_landscape} t={t} />
+                <SectionOpenContext.Provider value={false}>
+                  <PricingIntelligence  t={t} lang={lang} />
+                  <GrantLandscape       t={t} lang={lang} />
+                  <LicensingLandscape   t={t} lang={lang} />
+                  <PublicationLandscape data={data.publication_landscape} t={t} />
+                </SectionOpenContext.Provider>
               </>
             )}
           </SectionErrorBoundary>

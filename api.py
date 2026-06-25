@@ -1724,10 +1724,11 @@ def get_saffron():
         if not placed:
             cat_counts["Other"] += 1
 
+    # Sort by count, but "Other" is a catch-all — it must never sit at the top,
+    # so it always sinks to the bottom regardless of how large it is.
     category_breakdown = sorted(
         [{"label": k, "count": v} for k, v in cat_counts.items() if v > 0],
-        key=lambda x: x["count"],
-        reverse=True,
+        key=lambda x: (x["label"] == "Other", -x["count"]),
     )
 
     TOKYO_KEYWORDS = ["tokyo", "japan", "yokohama", "shimokitazawa", "koenji",
@@ -1974,6 +1975,9 @@ def get_saffron():
                 "peer_typical": "3–5",
                 "peer_high": "8+",
                 "assessment": _ex_assessment,
+                # Stable flag for the UI's favorable-only filter — a boolean so it
+                # survives client-side deep-translation of the assessment string.
+                "favorable": _ex_assessment in ("strong", "on_track"),
                 "note": _ex_note,
             },
             {
@@ -1983,6 +1987,7 @@ def get_saffron():
                 "peer_typical": "1–3",
                 "peer_high": "5+",
                 "assessment": "on_track",
+                "favorable": True,
                 "note": "Solid for this stage, especially with a solo collection at 21",
             },
             {
@@ -1992,6 +1997,7 @@ def get_saffron():
                 "peer_typical": "15–50k",
                 "peer_high": "100k+",
                 "assessment": "on_track",
+                "favorable": True,
                 "note": "Right in the typical band for illustrators at this stage — a solid, real audience for print and zine discovery, with room to grow toward the 50k market-viability signal",
             },
         ],
@@ -2714,7 +2720,8 @@ def get_saffron():
         if not _placed:
             _ms_cat_counts["Other"] += 1
 
-    _by_category = {k: v for k, v in sorted(_ms_cat_counts.items(), key=lambda x: x[1], reverse=True) if v > 0}
+    # "Other" is a catch-all — keep it off the top, always last.
+    _by_category = {k: v for k, v in sorted(_ms_cat_counts.items(), key=lambda x: (x[0] == "Other", -x[1])) if v > 0}
 
     _medium_counter = Counter(_o.get("native_medium", "unknown") for _o in _all_opps)
     _by_medium = {k: v for k, v in _medium_counter.most_common(8)}
