@@ -1783,16 +1783,23 @@ function MarketStats({ data }) {
   )
 }
 
-function ReadinessCorrection({ t }) {
-  const [title, setTitle] = useState('')
+function ReadinessCorrection({ t, onChanged }) {
   const [venue, setVenue] = useState('')
-  const [year,  setYear]  = useState('')
+  const [date,  setDate]  = useState('')
+  const [city,  setCity]  = useState('')
+  const [country, setCountry] = useState('')
+  const [type,  setType]  = useState('group')
+  const [confidence, setConfidence] = useState('confirmed')
   const [saved, setSaved] = useState(false)
 
   async function addShow() {
-    if (!title.trim()) return
-    const body = { title: title.trim(), venue: venue.trim(), date: year.trim(), outcome: 'shown' }
-    setTitle(''); setVenue(''); setYear(''); setSaved(true)
+    if (!venue.trim()) return
+    const body = {
+      type, venue: venue.trim(), date: date.trim(),
+      city: city.trim(), country: country.trim(),
+      confidence, outcome: 'shown',
+    }
+    setVenue(''); setDate(''); setCity(''); setCountry(''); setSaved(true)
     setTimeout(() => setSaved(false), 3200)
     try {
       await fetch('/api/exhibition_log', {
@@ -1800,6 +1807,7 @@ function ReadinessCorrection({ t }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body),
       })
+      onChanged?.()  // refetch so the readiness reflects it
     } catch { /* no-op on network failure */ }
   }
 
@@ -1807,10 +1815,21 @@ function ReadinessCorrection({ t }) {
     <div className="sf-readiness-hedge">
       <p className="sf-readiness-hedge-text">{t('sf.cr.hedge')}</p>
       <div className="sf-readiness-addshow">
-        <input className="sf-hedge-input" value={title} onChange={e => setTitle(e.target.value)} placeholder={t('sf.cr.addShow.title')} />
         <input className="sf-hedge-input" value={venue} onChange={e => setVenue(e.target.value)} placeholder={t('sf.cr.addShow.venue')} />
-        <input className="sf-hedge-input sf-hedge-input--year" value={year} onChange={e => setYear(e.target.value)} onKeyDown={e => e.key === 'Enter' && addShow()} placeholder={t('sf.cr.addShow.year')} />
-        <button className="sf-hedge-add" onClick={addShow} disabled={!title.trim()}>{t('sf.cr.addShow.btn')}</button>
+        <input className="sf-hedge-input sf-hedge-input--year" value={date} onChange={e => setDate(e.target.value)} placeholder={t('sf.cr.addShow.year')} />
+        <input className="sf-hedge-input" value={city} onChange={e => setCity(e.target.value)} placeholder={t('sf.cr.city')} />
+        <input className="sf-hedge-input" value={country} onChange={e => setCountry(e.target.value)} placeholder={t('sf.cr.country')} />
+        <select className="sf-hedge-input" value={type} onChange={e => setType(e.target.value)}>
+          <option value="group">{t('sf.cr.type.group')}</option>
+          <option value="solo">{t('sf.cr.type.solo')}</option>
+          <option value="institutional">{t('sf.cr.type.institutional')}</option>
+          <option value="international">{t('sf.cr.type.international')}</option>
+        </select>
+        <select className="sf-hedge-input" value={confidence} onChange={e => setConfidence(e.target.value)}>
+          <option value="confirmed">{t('sf.cr.confirmed')}</option>
+          <option value="mentioned">{t('sf.cr.mentioned')}</option>
+        </select>
+        <button className="sf-hedge-add" onClick={addShow} disabled={!venue.trim()}>{t('sf.cr.addShow.btn')}</button>
       </div>
       {saved && <p className="sf-readiness-hedge-saved">{t('sf.cr.addShow.saved')}</p>}
     </div>
@@ -1981,7 +2000,7 @@ function CareerReadiness({ data, onChanged }) {
         </div>
       )}
 
-      <ReadinessCorrection t={t} />
+      <ReadinessCorrection t={t} onChanged={onChanged} />
 
       {/* Three columns */}
       <div className="sf-readiness-columns" style={{ marginTop: 28 }}>
