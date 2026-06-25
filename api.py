@@ -70,6 +70,17 @@ def _load_json(path, default=None):
         return default
 
 
+def _atomic_write_json(path, data):
+    """Write JSON atomically: serialize to a temp file in the same directory,
+    then os.replace() it into place. A crash or kill mid-write leaves the
+    original file fully intact (or fully replaced) — never a half-written,
+    corrupt file. os.replace is atomic on the same filesystem."""
+    path = Path(path)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp, path)
+
+
 def _followed_opps(feedback_records, opps):
     """Join 'follow' feedback signals to opportunity data so the tracker can show
     a name + link, not just an opaque id. A followed opp that has since left the
@@ -112,7 +123,7 @@ def _save_her_data(path, data):
     backup into memory/backups/, so an edit is never lost to a deploy that
     overwrites server memory, a corrupt write, or future project work. The
     backup captures the just-saved state; failures never block the save."""
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    _atomic_write_json(path, data)
     snapshot(path, BACKUPS_DIR, datetime.now(timezone.utc))
 
 # ── In-memory cache for the 2.7MB opportunities dataset ──────────────────────
@@ -151,16 +162,12 @@ def is_overdue_followup(last_contacted, now: datetime | None = None,
 
 
 def _load_suppressed() -> set:
-    if SUPPRESSED_PATH.exists():
-        return set(json.loads(SUPPRESSED_PATH.read_text(encoding="utf-8")))
-    return set()
+    return set(_load_json(SUPPRESSED_PATH, []) or [])
 
 
 def _load_suppressed_categories() -> set:
-    p = DATA_DIR / "learned_preferences.json"
-    if p.exists():
-        return set(json.loads(p.read_text(encoding="utf-8")).get("suppressed_categories", []))
-    return set()
+    data = _load_json(DATA_DIR / "learned_preferences.json", {})
+    return set((data or {}).get("suppressed_categories", []))
 
 
 def _load_submission_states():
@@ -1017,13 +1024,13 @@ def post_feedback(payload: FeedbackPayload):
         "timestamp": datetime.now(timezone.utc).isoformat(),
     })
 
-    feedback_path.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+    _atomic_write_json(feedback_path, records)
 
     if payload.action == "not_for_me":
         suppressed = list(_load_suppressed())
         if payload.opp_id not in suppressed:
             suppressed.append(payload.opp_id)
-        SUPPRESSED_PATH.write_text(json.dumps(suppressed, ensure_ascii=False, indent=2), encoding="utf-8")
+        _atomic_write_json(SUPPRESSED_PATH, suppressed)
 
     # Auto-create submission log entry when artist marks Applied
     if payload.action == "applied":
@@ -1134,7 +1141,7 @@ def suppress_category(payload: dict):
     prefs["suppressed_categories"] = suppressed
     prefs["last_updated"] = datetime.now(timezone.utc).isoformat()
 
-    prefs_path.write_text(json.dumps(prefs, ensure_ascii=False, indent=2), encoding="utf-8")
+    _atomic_write_json(prefs_path, prefs)
     return {"ok": True, "suppressed_categories": suppressed}
 
 
@@ -1285,7 +1292,7 @@ def add_contact(entry: ContactEntry):
         fields["logged_at"] = datetime.now(timezone.utc).isoformat()
         contacts.append(fields)
     out = contacts if isinstance(data, list) else {"contacts": contacts}
-    CONTACTS_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    _atomic_write_json(CONTACTS_PATH, out)
     return {"ok": True, "count": len(contacts), "updated": existing is not None}
 
 
@@ -1317,7 +1324,7 @@ def update_contact(entry: ContactUpdate):
         contacts[idx]["last_visited"] = entry.last_visited
     contacts[idx]["date_updated"] = datetime.now(timezone.utc).isoformat()
     out = contacts if isinstance(data, list) else {"contacts": contacts}
-    CONTACTS_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    _atomic_write_json(CONTACTS_PATH, out)
     return {"ok": True, "contact": contacts[idx]}
 
 
@@ -1352,7 +1359,7 @@ def patch_contact(contact_name: str, patch: ContactPatch):
         contacts[idx]["response_received"] = patch.response_received
     contacts[idx]["date_updated"] = datetime.now(timezone.utc).isoformat()
     out = contacts if isinstance(data, list) else {"contacts": contacts}
-    CONTACTS_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    _atomic_write_json(CONTACTS_PATH, out)
     return {"ok": True, "contact": contacts[idx]}
 
 
@@ -2823,7 +2830,7 @@ async def track_event(request: Request):
         today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         log, _notify, day = register_visit(log, today)
         try:
-            vpath.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+            _atomic_write_json(vpath, log)
         except Exception:
             pass
 
@@ -3229,7 +3236,7 @@ def report_issue(issue: IssueReport):
         "text":   issue.text.strip()[:2000],
         "status": "open",
     })
-    ISSUES_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+    _atomic_write_json(ISSUES_PATH, records)
     return {"ok": True, "open": sum(1 for r in records if r.get("status") == "open")}
 
 
