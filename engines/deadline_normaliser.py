@@ -125,7 +125,18 @@ def contains_any(text: str, terms: list) -> bool:
     return any(term.lower() in lower for term in terms)
 
 
-def classify_deadline(blob: str, deadline_field: str, today: date = None) -> dict:
+# Evergreen/relationship venue categories — a stale date on these is a past event
+# note, not a binding cutoff (you can pitch/consign anytime). Mirrors api.py's
+# RELATIONSHIP_CATEGORIES so the engine and serve layers agree.
+_VENUE_CATEGORIES = {
+    "artist_space", "bookstore_event", "bookstore_gallery", "cafe_gallery",
+    "event_space", "gallery", "gallery_event", "gallery_small",
+    "zine_shop_consignment",
+}
+
+
+def classify_deadline(blob: str, deadline_field: str, today: date = None,
+                      category: str = None) -> dict:
     """Return a dict of fields to update, or empty dict if no match."""
     today = today or date.today()
 
@@ -144,8 +155,11 @@ def classify_deadline(blob: str, deadline_field: str, today: date = None) -> dic
             # Do NOT set deadline_verified = True
         }
 
-    # 2b. Dated deadline that has already passed — must never be marked verified.
-    if deadline_field and deadline_is_past(deadline_field, today):
+    # 2b. Dated deadline already passed — must never be marked verified. EXEMPT
+    #     evergreen/relationship venues, whose date is a past event note, not a
+    #     binding cutoff.
+    if (deadline_field and deadline_is_past(deadline_field, today)
+            and category not in _VENUE_CATEGORIES):
         return {
             "deadline_type": "passed",
             "deadline_verified": False,

@@ -78,6 +78,15 @@ def _overall_score(opp: dict) -> float:
 _ROLLING_TERMS = frozenset({"rolling", "ongoing", "year-round", "open submission", "anytime", "proposal-based"})
 
 
+# Evergreen/relationship venue categories — a stale date is a past event note,
+# not a binding cutoff; the venue is still a real, actionable relationship target.
+_VENUE_CATEGORIES = {
+    "artist_space", "bookstore_event", "bookstore_gallery", "cafe_gallery",
+    "event_space", "gallery", "gallery_event", "gallery_small",
+    "zine_shop_consignment",
+}
+
+
 def _deadline_is_real(opp: dict, today=None) -> bool:
     d = str(opp.get("deadline", "")).strip().lower()
     if not d or len(d) <= 4:
@@ -86,6 +95,9 @@ def _deadline_is_real(opp: dict, today=None) -> bool:
         return False
     # "rolling — proposal-based" and similar are real (always-open venues)
     if any(t in d for t in _ROLLING_TERMS):
+        return True
+    # Evergreen/relationship venues stay real even with a stale date.
+    if opp.get("category") in _VENUE_CATEGORIES:
         return True
     # A deadline whose date has already passed is not a real, actionable deadline.
     if deadline_is_past(opp.get("deadline", ""), today):
