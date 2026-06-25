@@ -249,6 +249,9 @@
 
 .pp-section--closed { padding: 18px 28px; }
 
+/* Error-boundary fallback: a contained, non-alarming card when a section throws. */
+.pp-section--error { padding: 18px 28px; opacity: 0.85; }
+
 .pp-section:last-child { margin-bottom: 40px; }
 
 .pp-toggle {

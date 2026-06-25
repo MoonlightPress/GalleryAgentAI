@@ -1,8 +1,27 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, Component } from 'react'
 import './PeppercornPage.css'
 import { peppercornHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
+
+// ── Section error boundary ────────────────────────────────────────────────
+// Defense-in-depth: a throw inside one section must NOT white-screen the whole
+// dashboard. The real fixes live in each section; this just contains the blast
+// radius to a single card if anything else ever throws during render.
+class SectionErrorBoundary extends Component {
+  constructor(props) { super(props); this.state = { error: null } }
+  static getDerivedStateFromError(error) { return { error } }
+  render() {
+    if (this.state.error) {
+      return (
+        <section className="pp-section pp-section--error">
+          <p className="pp-section-note">{this.props.fallback || 'This section hit a snag and was hidden so the rest of the page keeps working.'}</p>
+        </section>
+      )
+    }
+    return this.props.children
+  }
+}
 
 // ── Carousel card ─────────────────────────────────────────────────────────
 
@@ -151,6 +170,28 @@ function buildQuestions(t) {
   }))
 }
 
+// Legacy seed tokens that predate the current free-text/option answer flow. The
+// canonical schema (api.py) seeds every saffron answer to null; these stale
+// values (a bare boolean `true` for has_artist_statement, a slug "daily" for
+// posting_frequency) leaked in from an older format and are NOT real answers she
+// gave. Treat them as unanswered so they don't show as completed.
+const LEGACY_SEED_ANSWERS = new Set(['daily'])
+
+// A real answer is a non-empty trimmed STRING produced via the answer UI — never
+// a boolean/number/object and never a known legacy seed. This is the single
+// source of truth for "answered": it drives the completed count, the done-list,
+// and (critically) keeps non-string values out of the draft editor, where
+// `.trim()` on a boolean would throw and white-screen the whole page.
+function isAnswered(v) {
+  return typeof v === 'string' && v.trim() !== '' && !LEGACY_SEED_ANSWERS.has(v.trim())
+}
+
+// Coerce any stored value into a safe string for the editable draft. Guards the
+// render path: a stale boolean/number can never reach `<textarea>`/`.trim()`.
+function draftFrom(v) {
+  return typeof v === 'string' ? v : ''
+}
+
 function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
   const [answers, setAnswers] = useState(data || {})
   const { t } = useLanguage()
@@ -159,30 +200,30 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
 
   const QUESTIONS = buildQuestions(t)
 
-  const answeredCount    = QUESTION_KEYS.filter(k => answers[k]).length
+  const answeredCount    = QUESTION_KEYS.filter(k => isAnswered(answers[k])).length
   const allAnswered      = answeredCount === QUESTION_KEYS.length
-  const firstUnanswered  = QUESTIONS.findIndex(q => !answers[q.key])
+  const firstUnanswered  = QUESTIONS.findIndex(q => !isAnswered(answers[q.key]))
   const startIdx         = firstUnanswered === -1 ? 0 : firstUnanswered
   const [activeIdx, setActiveIdx] = useState(startIdx)
-  const [draft,     setDraft]     = useState(answers[QUESTIONS[startIdx]?.key] || '')
+  const [draft,     setDraft]     = useState(draftFrom(answers[QUESTIONS[startIdx]?.key]))
 
   const currentQ = QUESTIONS[activeIdx]
 
-  function selectQ(idx) { setActiveIdx(idx); setDraft(answers[QUESTIONS[idx].key] || '') }
+  function selectQ(idx) { setActiveIdx(idx); setDraft(draftFrom(answers[QUESTIONS[idx].key])) }
 
   function saveAnswer() {
     if (!draft.trim()) return
     const next = { ...answers, [currentQ.key]: draft.trim() }
     setAnswers(next)
     onSave(next)
-    const nextUnanswered = QUESTIONS.findIndex((q, i) => i > activeIdx && !next[q.key])
+    const nextUnanswered = QUESTIONS.findIndex((q, i) => i > activeIdx && !isAnswered(next[q.key]))
     if (nextUnanswered !== -1) { setActiveIdx(nextUnanswered); setDraft('') }
   }
 
   function clearAnswer(key) { const next = { ...answers, [key]: null }; setAnswers(next); onSave(next) }
   function skipQ() {
-    const next = QUESTIONS.findIndex((q, i) => i > activeIdx && !answers[q.key])
-    if (next !== -1) { setActiveIdx(next); setDraft(answers[QUESTIONS[next].key] || '') }
+    const next = QUESTIONS.findIndex((q, i) => i > activeIdx && !isAnswered(answers[q.key]))
+    if (next !== -1) { setActiveIdx(next); setDraft(draftFrom(answers[QUESTIONS[next].key])) }
   }
 
   const remaining = QUESTIONS.length - answeredCount
@@ -210,7 +251,7 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
             {QUESTIONS.map((q, i) => (
               <button
                 key={q.key}
-                className={['pp-q-dot', answers[q.key] ? 'pp-q-dot--done' : '', i === activeIdx ? 'pp-q-dot--active' : ''].join(' ').trim()}
+                className={['pp-q-dot', isAnswered(answers[q.key]) ? 'pp-q-dot--done' : '', i === activeIdx ? 'pp-q-dot--active' : ''].join(' ').trim()}
                 onClick={() => selectQ(i)}
                 title={q.text}
               />
@@ -241,10 +282,10 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
               <button className="pp-save pp-save--answer" onClick={saveAnswer} disabled={!draft.trim()}>
                 {t('pp.saveAnswer')}
               </button>
-              {!answers[currentQ.key] && (
+              {!isAnswered(answers[currentQ.key]) && (
                 <button className="pp-skip" onClick={skipQ}>{t('pp.comeBack')}</button>
               )}
-              {answers[currentQ.key] && (
+              {isAnswered(answers[currentQ.key]) && (
                 <button className="pp-skip" onClick={() => clearAnswer(currentQ.key)}>{t('pp.clearAnswer')}</button>
               )}
             </div>
@@ -255,12 +296,12 @@ function SaffronQuestionsSection({ data, onSave, isOpen, onToggle, sectionRef })
       {answeredCount > 0 && (
         <div className="pp-q-done-list">
           <div className="pp-block-label">{t('pp.answered', { n: answeredCount })}</div>
-          {QUESTIONS.filter(q => answers[q.key]).map(q => (
+          {QUESTIONS.filter(q => isAnswered(answers[q.key])).map(q => (
             <div key={q.key} className="pp-q-done-row" onClick={() => selectQ(QUESTIONS.indexOf(q))}>
               <span className="pp-q-done-check">✓</span>
               <div className="pp-q-done-body">
                 <div className="pp-q-done-q">{q.text}</div>
-                <div className="pp-q-done-a">{answers[q.key]}</div>
+                <div className="pp-q-done-a">{draftFrom(answers[q.key])}</div>
               </div>
             </div>
           ))}
@@ -1593,7 +1634,7 @@ function AccomplishmentBand() {
 
 function buildCarouselCards(profile, t) {
   const answers      = profile.saffron_answers || {}
-  const answeredCount= QUESTION_KEYS.filter(k => answers[k]).length
+  const answeredCount= QUESTION_KEYS.filter(k => isAnswered(answers[k])).length
   const goalsCount   = (profile.goals || []).filter(g => !g.done).length
   const hasText      = (profile.artist_statement || '').length > 30
 
@@ -1653,7 +1694,7 @@ function buildCarouselCards(profile, t) {
 
 function computeSectionOrder(profile) {
   const answers      = profile.saffron_answers || {}
-  const answeredCount= QUESTION_KEYS.filter(k => answers[k]).length
+  const answeredCount= QUESTION_KEYS.filter(k => isAnswered(answers[k])).length
   const goalsCount   = (profile.goals || []).length
   const hasText      = (profile.artist_statement || '').length > 30
 
@@ -1871,14 +1912,15 @@ export default function PeppercornPage({ nav }) {
       />
     ),
     'saffron-questions': (
-      <SaffronQuestionsSection
-        key="saffron-questions"
-        data={profile?.saffron_answers}
-        onSave={v => saveSection({ saffron_answers: v })}
-        isOpen={openSections.has('saffron-questions')}
-        onToggle={() => toggleSection('saffron-questions')}
-        sectionRef={setSectionRef('saffron-questions')}
-      />
+      <SectionErrorBoundary key="saffron-questions" fallback={tfb(t, 'pp.sectionError', 'This section hit a snag and was hidden so the rest of the page keeps working.')}>
+        <SaffronQuestionsSection
+          data={profile?.saffron_answers}
+          onSave={v => saveSection({ saffron_answers: v })}
+          isOpen={openSections.has('saffron-questions')}
+          onToggle={() => toggleSection('saffron-questions')}
+          sectionRef={setSectionRef('saffron-questions')}
+        />
+      </SectionErrorBoundary>
     ),
     'career-goals': (
       <CareerGoalsSection
