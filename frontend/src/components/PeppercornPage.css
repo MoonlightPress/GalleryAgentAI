@@ -64,6 +64,12 @@
 .pp-status-bar--saved { color: #6a8a5a; }
 
 .pp-loading {
+  /* Reserve the space under the nav so the footer doesn't float up into the empty
+     middle before the data populates (Scott). */
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 48px;
   font-family: Georgia, serif;
   font-size: 15px;

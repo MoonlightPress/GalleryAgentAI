@@ -21,7 +21,7 @@ function PageFallback({ page }) {
   // looking for crumbs (Peppercorn), find something good (Mochi).
   const key = page === 'observe' ? 'sf.loading' : page === 'refine' ? 'loading.peppercorn' : 'opps.loading'
   return (
-    <p className="page-loading" style={{ textAlign: 'center', fontStyle: 'italic', padding: '3rem 1rem', color: 'var(--muted)' }}>
+    <p className="page-loading" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontStyle: 'italic', padding: '3rem 1rem', color: 'var(--muted)' }}>
       {t(key)}
     </p>
   )
@@ -130,13 +130,18 @@ export default function App() {
         )}
         {page === 'discover' && view === 'cards'    && <TrackedSection section="tracker"><TrackerSection /></TrackedSection>}
         {page === 'discover' && view === 'calendar' && <DeadlineCalendar />}
+        {page === 'discover' && <AtelierFooter page="discover" />}
         {(page === 'observe' || page === 'refine') && (
           <Suspense fallback={<PageFallback page={page} />}>
             {page === 'observe' && <SaffronPage nav={nav} onNav={setPage} />}
             {page === 'refine'  && <PeppercornPage nav={nav} />}
+            {/* Footer lives INSIDE Suspense so it stays hidden until the page
+                resolves — no footer floating on the blank fallback mid-switch.
+                Suspense/fragments add no DOM node, so the footer is still a direct
+                flex child of .app and its margin-top:auto bottom-stick still works. */}
+            <AtelierFooter page={page} />
           </Suspense>
         )}
-        <AtelierFooter page={page} />
         <StatusBar />
       </div>
     </LanguageProvider>
