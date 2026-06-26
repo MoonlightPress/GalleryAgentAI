@@ -212,9 +212,15 @@
   .greeting-sub { font-size: 18px; }
   .focus-card { display: none; }
   .hero-poem {
-    position: static;
-    width: auto;
-    padding: 12px 18px;
-    font-size: 18px;
+    /* Overlay on the clear left wall of the hero like desktop — the Chinese
+       couplets fit there on a phone too (Scott), and it reclaims the vertical
+       space the stacked-below poem was eating. (position:absolute from the base.) */
+    top: 0;
+    left: 0;
+    width: 46%;
+    height: 190px;          /* match .hero-img height on mobile */
+    padding: 10px 12px;
+    font-size: clamp(15px, 4.3vw, 20px);
   }
+  .hero-poem--en { font-size: clamp(12px, 3.4vw, 16px); }
 }
