@@ -29,12 +29,13 @@ function PeopleIcon({ className }) {
   )
 }
 
+// Watercolor icons (public/icons/ic_*.webp), NOT emoji — matches the rest of Mochi.
 const TYPE_ICON = {
-  gallery: '🖼️', gallery_small: '🖼️', gallery_event: '🖼️',
-  cafe_gallery: '☕', bookstore_gallery: '📚', bookstore_event: '📚',
-  bookshop: '📖', book_publishing: '📖', book_publisher: '📖',
-  zine_shop: '📰', zine_shop_consignment: '📰', zine_print: '📰',
-  artist_space: '🎨', event_space: '🎨', press_target: '📣', fair: '🎪',
+  gallery: 'ic_gallery', gallery_small: 'ic_gallery', gallery_event: 'ic_gallery',
+  cafe_gallery: 'ic_cafe', bookstore_gallery: 'ic_books', bookstore_event: 'ic_books',
+  bookshop: 'ic_books', book_publishing: 'ic_books', book_publisher: 'ic_books',
+  zine_shop: 'ic_books', zine_shop_consignment: 'ic_books', zine_print: 'ic_books',
+  artist_space: 'ic_institution', event_space: 'ic_institution', press_target: 'ic_press', fair: 'ic_fair',
 }
 
 function humanizeType(type) {
@@ -151,7 +152,7 @@ function ContactCard({ c, t, onHide }) {
     <div className={`rt-card${reached ? ' rt-card--reached' : ''}`}>
       <div className="rt-card-header">
         {TYPE_ICON[c.type]
-          ? <span className="rt-card-icon">{TYPE_ICON[c.type]}</span>
+          ? <img className="rt-card-icon rt-card-icon--img" src={iconUrl(TYPE_ICON[c.type])} alt="" aria-hidden="true" loading="lazy" width="40" height="40" />
           : <PeopleIcon className="rt-card-icon" />}
         <h3 className="rt-card-name">
           <a className="rt-name-link" href={nameLink} target="_blank" rel="noreferrer">

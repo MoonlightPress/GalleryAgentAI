@@ -169,7 +169,6 @@ function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
     <section id="mochi_strongest_picks" className="opp-section opp-section--strongest">
       <div className="opp-section-header">
         <div className="opp-section-title-row">
-          <span className="opp-section-medallion"><SectionIcon icon="ic_mouse" /></span>
           <h2 className="opp-section-title">{t('opps.strongest.title')}</h2>
           {/* Raw count hidden on the calm home view — presence, not quantity. */}
         </div>
@@ -323,7 +322,6 @@ function PressSection({ items }) {
     <section id="press_visibility" className="opp-section press-section">
       <div className="opp-section-header">
         <div className="opp-section-title-row">
-          <span className="opp-section-medallion"><SectionIcon icon="ic_press" /></span>
           <h2 className="opp-section-title">{t('press.section.title')}</h2>
           {/* Raw count hidden on the calm home view — presence, not quantity. */}
         </div>
@@ -401,7 +399,6 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
       {/* Section header */}
       <div className="opp-section-header">
         <div className="opp-section-title-row">
-          <span className="opp-section-medallion"><SectionIcon icon={icon} /></span>
           <h2 className="opp-section-title">{sectionLabel}</h2>
           {/* Raw count hidden on the calm home view — a big "302" reads as "how
               behind you are". Presence, not quantity. */}

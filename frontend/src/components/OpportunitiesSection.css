@@ -69,21 +69,21 @@
   margin-bottom: 14px;
 }
 
+/* Painted watercolor header banner: thin ~10:1 art (like the footers), recolored
+   to the page cream so it blends with NO box. Detail at the edges, open center,
+   title centered over the middle. Band height tracks the 10:1 art at content width. */
 .opp-section-title-row {
   display: flex;
   align-items: center;
-  justify-content: center;            /* title centered over the banner's open middle */
+  justify-content: center;
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 6px;
-  min-height: 160px;                  /* the painted banner band (test height) */
+  margin-bottom: 4px;
+  min-height: clamp(84px, 9.5vw, 124px);
   padding: 0 24px;
   position: relative;
-  /* Painted watercolor header banner: detail at the edges, open cream center,
-     title in the middle. One shared banner for now so we can test the format. */
-  background: #FAF6E5 url('/mochi/headers/header_section.webp') center bottom / cover no-repeat;
+  background: var(--parchment) url('/mochi/headers/header_section.webp') center / cover no-repeat;
 }
-/* The banner is the decoration now: no plate frame, no corners, no icon medallion. */
 .opp-section-title-row::before,
 .opp-section-title-row::after { content: none; }
 .opp-section-medallion { display: none; }
