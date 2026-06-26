@@ -3,6 +3,7 @@ import './PeppercornPage.css'
 import { peppercornHero } from '../utils/heroImages'
 import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
+import { track } from '../utils/track'
 
 // ── Section error boundary ────────────────────────────────────────────────
 // Defense-in-depth: a throw inside one section must NOT white-screen the whole
@@ -35,8 +36,12 @@ function CarouselCard({ card, isActive, onClick }) {
       {card.current ? (
         <div className="pp-card-values">
           <span className="pp-card-current">{card.current}</span>
-          <span className="pp-card-sep"> / </span>
-          <span className="pp-card-next">{card.next}</span>
+          {card.next && (
+            <>
+              <span className="pp-card-sep"> / </span>
+              <span className="pp-card-next">{card.next}</span>
+            </>
+          )}
         </div>
       ) : (
         <div className="pp-card-cta">{card.cta}</div>
@@ -1704,18 +1709,18 @@ function buildCarouselCards(profile, t) {
       id: 'qs',
       sectionId: 'saffron-questions',
       name: t('pp.carousel.qs.name'),
-      current: `${answeredCount}/8`,
-      next: '8/8',
-      ratio: answeredCount / 8,
+      // No goalpost: a gentle count, never "x/8" (a quota she could feel behind on).
+      current: answeredCount > 0 ? String(answeredCount) : null,
+      cta: answeredCount > 0 ? null : t('pp.carousel.qs.cta'),
       desc: qsDesc,
     },
     {
       id: 'goals',
       sectionId: 'career-goals',
       name: t('pp.carousel.goals.name'),
-      current: String(goalsCount),
-      next: goalsCount < 1 ? '1' : '3',
-      ratio: goalsCount === 0 ? 0 : Math.min(goalsCount / 3, 1),
+      // No goalpost: a gentle count, never "x/3".
+      current: goalsCount > 0 ? String(goalsCount) : null,
+      cta: goalsCount > 0 ? null : t('pp.carousel.goals.cta'),
       desc: goalsCount === 0 ? t('pp.carousel.goals.desc.empty') : t('pp.carousel.goals.desc.has'),
     },
     {
@@ -1900,6 +1905,11 @@ export default function PeppercornPage({ nav }) {
       try { updating = !!(await r.json())?.regen_started } catch { /* ignore */ }
       setStatusMsg(updating ? t('pp.draftsUpdating') : t('pp.saved'))
       setIsSaved(true)
+      const _keys = Object.keys(updates || {})
+      track({
+        type: 'action',
+        action: (_keys.length === 1 && _keys[0] === 'saffron_answers') ? 'saffron_answer' : 'profile_save',
+      })
       setTimeout(() => { setStatusMsg(''); setIsSaved(false) }, updating ? 5000 : 2000)
     } catch {
       setStatusMsg(t('pp.saveError'))
