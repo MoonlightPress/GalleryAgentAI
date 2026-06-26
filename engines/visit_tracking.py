@@ -17,10 +17,23 @@ PAGE_LABELS = {
 }
 
 
+SECTION_LABELS = {
+    "today_focus": "Today's Focus",
+    "open_calls": "Open Calls",
+    "people": "People",
+    "tracker": "Tracker",
+    "calendar": "Calendar",
+}
+
+
 def _page_label(page) -> str:
     if not page:
         return "?"
     return PAGE_LABELS.get(page, str(page).replace("_", " ").title())
+
+
+def _section_label(section) -> str:
+    return SECTION_LABELS.get(section, str(section).replace("_", " ").title())
 
 
 def describe_event(event: dict, day: int | None = None,
@@ -49,6 +62,9 @@ def describe_event(event: dict, day: int | None = None,
         return f"📊 {who} opened Mochi{day_part} · on {label}{vid_part}", "info"
 
     if etype == "nav":
+        section = event.get("section")
+        if section:
+            return f"↳ {_section_label(section)}", "info"
         to = _page_label(event.get("page"))
         frm = event.get("from")
         if frm:

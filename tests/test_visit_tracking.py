@@ -96,6 +96,14 @@ class DescribeEventTests(unittest.TestCase):
         text, _ = describe_event({"type": "action", "action": "edited her statement"})
         self.assertIn("edited her statement", text)
 
+    def test_nav_with_section_shows_subarrow_label(self):
+        text, _ = describe_event({"type": "nav", "page": "discover", "section": "people"})
+        self.assertEqual(text, "↳ People")
+
+    def test_nav_with_unknown_section_titlecases(self):
+        text, _ = describe_event({"type": "nav", "page": "observe", "section": "money_runway"})
+        self.assertIn("Money Runway", text)
+
     def test_unknown_type_does_not_crash(self):
         text, status = describe_event({"type": "weird"})
         self.assertIsInstance(text, str)
