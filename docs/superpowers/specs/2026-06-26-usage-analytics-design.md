@@ -15,25 +15,30 @@ emitted. The system was deliberately narrowed to a single daily "she opened it" 
 `engines/visit_tracking.py` is documented as **content-blind** — "records THAT she visited,
 never what she looks at."
 
-Scott wants to see **how she moves through the app and what kinds of things pull her
-attention** — but explicitly does **not** want a play-by-play stream of pings.
+Scott wants to **watch how she moves through the app live**, and to see **what kinds of things
+pull her attention** — but without a flood of per-interaction pings. Navigation should stream
+live; interaction detail should arrive as a single wrap-up once she's done.
 
 ## Goals
 
 - Keep the existing **live "she's here" ping** when she loads the app (once per visit).
-- Capture the **navigation flow** — both the three companion pages (Home / Saffron /
-  Peppercorn) **and** the section headers she engages with inside a page (Today's Focus,
-  Immediate Best Moves, People, Saffron's tabs, …).
+- Post **navigation live** — both the three companion pages (Home / Saffron / Peppercorn)
+  **and** the section headers she engages with inside a page (Today's Focus, Immediate Best
+  Moves, People, Saffron's tabs, …) — as she moves, so the session can be watched in near-real
+  time. Debounced so only genuine landings (≥2s), not scroll-throughs, post.
 - Capture **interactions** — follows, applies, hides/"not this", card-opens, profile saves —
   tagged by **category/type only** (zine, gallery, residency, …), **never the named
   opportunity**.
-- Deliver the navigation + interaction story as **one consolidated digest per visit**, posted
-  **~10 minutes after she goes idle** (the session looks done). At most two Discord messages
-  per visit: the live open ping, then the digest.
+- Deliver the **interaction wrap-up** as **one consolidated digest per visit**, posted
+  **~10 minutes after she goes idle** (the session looks done): what she acted on, by type,
+  plus where she spent the most time. The navigation itself already went out live; the digest
+  is the "what did she do" summary, not a replay of her moves.
 
 ## Non-Goals
 
-- No per-click / per-move real-time pings (the original flood — explicitly rejected).
+- No per-*interaction* real-time pings — each follow/apply/hide/card-open does **not** ping
+  live; those are batched into the idle digest. (Navigation moves *do* post live, but debounced
+  to genuine landings so they're meaningful moves, not the per-scroll flood.)
 - No naming of specific opportunities in any message (privacy line Scott chose).
 - No in-app analytics page, charts, or dashboard. Discord is the only surface.
 - No weekly roll-up (considered, dropped in favour of per-session digests).
@@ -46,16 +51,20 @@ attention** — but explicitly does **not** want a play-by-play stream of pings.
 |---|---|
 | Where data surfaces | Discord only |
 | Live open ping | Keep, unchanged (once per app load) |
-| Interaction detail | Category + counts only; never the named opportunity |
+| Navigation delivery | **Live** — companion + section moves posted as they happen |
 | Nav granularity | Companion pages **and** within-page section headers |
-| Digest trigger | Per session, flushed ~10 min after last activity |
+| Nav noise control | Section pings debounced to genuine landings (≥2s); no per-scroll spam |
+| Interaction detail | Category + counts only; never the named opportunity |
+| Interaction digest | One per session, flushed ~10 min after last activity |
 | Flush mechanism | Backend daemon-thread ticker (reliable when she just closes the tab) |
 | Idle threshold | 10 minutes (config constant) |
 
 ## Architecture
 
 Three parts: **capture** (frontend → `/api/event`), **durable log** (`usage_events.jsonl`),
-and **flush** (backend ticker → digest → Discord). The live open ping is preserved alongside.
+and **flush** (backend ticker → interaction digest → Discord). Two kinds of event post to
+Discord **live** as they happen — the open ping and every navigation move (companion + section);
+the interaction digest is the only delayed message. Every event is also logged.
 
 ### 1. Event model
 
@@ -65,8 +74,8 @@ All events POST to the existing `/api/event` endpoint as JSON. Three shapes:
 // session start — already sent today; keep firing the live ping AND log it
 { "type": "open", "page": "discover", "visitor_id": "<uuid>" }
 
-// navigation — already sent today but currently DROPPED; now logged.
-// `section` is new and optional: present for within-page section/tab moves.
+// navigation — already sent today but currently DROPPED; now posts LIVE to Discord + logged.
+// `section` is new and optional: present for within-page section/tab moves (debounced).
 { "type": "nav", "page": "observe", "from": "discover", "section": "landscape" }
 
 // interaction — NEW; frontend does not emit these yet.
@@ -119,11 +128,11 @@ can't double-post.
   `requests.post` in `notify_discord` simple and isolated. Any exception is swallowed and
   logged — the ticker must never crash the API.
 - **Report builder:** a new pure module `engines/usage_report.py`, structured like
-  `visit_tracking.py` (no I/O, no network — fully unit-testable). Given a list of events for
-  one session it computes:
-  - page + section **flow** (ordered, de-duplicated path)
+  `visit_tracking.py` (no I/O, no network — fully unit-testable). The digest is the
+  **interaction wrap-up**. Given a list of events for one session it computes:
+  - **interaction counts** by `action` and by `category` (the primary content)
   - **dwell** per page/section from consecutive timestamps → "most time on X"
-  - **interaction counts** by `action` and by `category`
+  - a brief one-line **flow recap** (the moves already went out live; this is just context)
   - session duration and a returning/new + day-number header
   and formats the Discord message string.
 
@@ -131,21 +140,41 @@ A session boundary = a gap > `IDLE_MINUTES` between consecutive events for a vis
 threshold as the flush trigger, so "the session that just went idle" and "the session in the
 digest" are the same run).
 
-### 5. Live open ping (unchanged)
+### 5. Live pings — open + navigation (`track_event`)
 
-`track_event` keeps its current behaviour for `type=='open'`: register the visit, mark
-new/returning, and `notify_discord` the "📊 … opened Mochi … on <page>" line immediately. The
-new logging is additive. (Bugfix folded in: today the open ping ignores the once-per-day
-`_notify` flag and pings on every load — acceptable since `open` only fires once per app load,
-but the digest path must not re-ping on the same events.)
+`track_event` posts live for **two** event types and logs all three:
 
-### Example digest
+- `open` → keep current behaviour: register the visit, mark new/returning, and
+  `notify_discord` the "📊 … opened Mochi … on <page>" line immediately.
+- `nav` → `notify_discord` the move immediately. `describe_event` already formats nav as
+  `Home → People`; extend it to append the section when present (e.g. `Saffron → Landscape`).
+  The client-side debounce ensures these are genuine landings, not scroll spam.
+- `action` → log only, no live ping (these are summarised in the delayed digest).
+
+The open ping only fires once per app load, so it stays low-volume. The current code ignores
+the once-per-day `_notify` flag and pings on every open — fine here. The digest keys off the
+**log**, not these live pings, so nothing is double-reported.
+
+### Example — what lands in Discord
+
+**Live, as she moves** (each a separate message; section pings debounced to real landings):
 
 ```
-🧵 Session digest — returning · day 4 · ~7 min
-flow: Home → Today's Focus → People → Saffron(Landscape) → Saffron(Money)
+📊 A returning visitor opened Mochi · day 4 · on Home
+Home → Today's Focus
+Today's Focus → People
+People → Saffron
+Saffron → Landscape
+Saffron → Money
+```
+
+**Then ~10 min after she stops, one digest** (interactions, not a replay of the moves):
+
+```
+🧵 Session wrap-up — returning · day 4 · ~7 min
 most time on: Saffron
 followed 2 (1 zine, 1 gallery) · applied 1 (art book fair) · hid 1 (watercolour soc) · opened 4 cards
+flow: Home → People → Saffron (Landscape, Money)
 ```
 
 ## Components & Interfaces
@@ -154,7 +183,7 @@ followed 2 (1 zine, 1 gallery) · applied 1 (art book fair) · hid 1 (watercolou
 |---|---|---|
 | `frontend/src/App.jsx` (nav beacon) | emit `open` + `nav` (companion). Already exists. | `/api/event` |
 | `frontend` `track()` helper + observers | emit within-page `nav` (sections/tabs) and `action` events | `/api/event` |
-| `POST /api/event` (`api.py`) | live open ping (unchanged) + append every event to log | `notify`, `visit_tracking`, log file |
+| `POST /api/event` (`api.py`) | live ping for `open` + `nav`; append every event to log | `notify`, `visit_tracking`, log file |
 | `memory/usage_events.jsonl` | durable append-only event stream | — |
 | ticker thread (`api.py` startup) | flush idle sessions exactly once | log file, `usage_report`, `notify`, `visit_log.json` |
 | `engines/usage_report.py` (new, pure) | reconstruct a session + format digest | — |
@@ -164,9 +193,10 @@ followed 2 (1 zine, 1 gallery) · applied 1 (art book fair) · hid 1 (watercolou
 ## Data Flow
 
 1. She loads the app → `open` → live ping fires **and** event appended to log.
-2. She moves around → `nav` (companion + section) and `action` events appended to log; no pings.
-3. She stops. ~10 min later the ticker sees the session idle → builds digest → posts once →
-   stamps `last_digest_ts`.
+2. She moves around → `nav` (companion + section) → posts **live** **and** appended to log;
+   `action` events (follow/apply/hide/card-open/save) → appended to log only, no live ping.
+3. She stops. ~10 min later the ticker sees the session idle → builds the interaction digest →
+   posts once → stamps `last_digest_ts`.
 
 ## Error Handling
 
