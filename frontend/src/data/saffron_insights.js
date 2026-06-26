@@ -1192,7 +1192,7 @@ export const PRESS_KIT = {
       "Selected exhibitions: The Eternal Yesterday (solo, Tsuki Gallery, Tokyo, 2026); MiniArt, GrandStar (group, Tsuki Gallery, Tokyo, 2026); London, UK (2025, first international showing); Light, Shadow, Cats (solo, 77ART, Shanghai, 2025, first solo); PiPa – The Sound of Growing (group, Hengdu Art Museum, Taizhou, 2024–25); Living Elsewhere (group, Mian Art Museum, Tianjin, 2024–25); Tide from China Part 1 (group, ACG_Labo, Tokyo, 2023, first in Japan); The Recorded Journey (group, Whale Zihao bookstore, Shanghai, 2021)",
       "Publications: Colour Diary (色彩日記), first solo collection, 2021; contributor, defined Definition 02: A Documented Journey",
       "Audience: Established, growing Instagram following (@gegyjiji)",
-      "Press: Featured twice by Bored Panda",
+      "Press: Featured by Bored Panda (twice) and Design You Trust",
       "Links / Contact: Instagram @gegyjiji (preferred contact) · Shop gegyjiji.base.shop",
     ],
     zh: [
@@ -1205,7 +1205,7 @@ export const PRESS_KIT = {
       "精选展览：《永遠の昨日》（个展，月画廊，东京，2026）；《MiniArt, GrandStar》（群展，月画廊，东京，2026）；伦敦展览（英国，2025，首次海外参展）；《和光和影和猫》（个展，77ART，上海，2025，首次个展）；《PiPa 生长的声音》（群展，横渡美术馆，台州，2024–25）；《生活在别处》（群展，棉美术馆，天津，2024–25）；《Tide from China Part 1》（群展，ACG_Labo，东京，2023，首次在日本参展）；《被记录的旅行》（群展，鲸字号本屋，上海，2021）",
       "出版物：《色彩日記》（Colour Diary），首部个人作品集，2021；参与《defined Definition 02: A Documented Journey》",
       "受众：Instagram（@gegyjiji）上稳定增长的关注者",
-      "媒体报道：两次被 Bored Panda 报道",
+      "媒体报道：被 Bored Panda（两次）与 Design You Trust 报道",
       "链接 / 联系：Instagram @gegyjiji（首选联系方式）· 店铺 gegyjiji.base.shop",
     ],
     ja: [
@@ -1218,7 +1218,7 @@ export const PRESS_KIT = {
       "主な展覧会：『永遠の昨日』（個展、月画廊、東京、2026）；『MiniArt, GrandStar』（グループ展、月画廊、東京、2026）；ロンドン（イギリス、2025、初の海外発表）；『和光和影和猫』（個展、77ART、上海、2025、初個展）；『PiPa 生长的声音』（グループ展、横渡美術館、台州、2024–25）；『生活在别处』（グループ展、棉美術館、天津、2024–25）；『Tide from China Part 1』（グループ展、ACG_Labo、東京、2023、日本での初発表）；『被记录的旅行』（グループ展、鲸字号本屋、上海、2021）",
       "刊行物：『Colour Diary（色彩日記）』初の個人作品集、2021；『defined Definition 02: A Documented Journey』に参加",
       "オーディエンス：Instagram（@gegyjiji）に着実に広がるフォロワー",
-      "メディア掲載：Bored Panda に二度掲載",
+      "メディア掲載：Bored Panda（2回）と Design You Trust に掲載",
       "リンク / 連絡先：Instagram @gegyjiji（連絡はこちらが希望）· ショップ gegyjiji.base.shop",
     ],
   },
@@ -1277,6 +1277,7 @@ export const PRESS_KIT = {
   press: [
     { outlet: "Bored Panda", type: "Watercolor work feature", url: "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji/" },
     { outlet: "Bored Panda", type: "Watercolor work feature, part 2", url: "https://www.boredpanda.com/watercolor-paintings-cats-nature-city-gegyjiji-part-2/" },
+    { outlet: "Design You Trust", type: "Editorial feature, Aug 2024", url: "https://designyoutrust.com/2024/08/chinese-artist-captures-the-quiet-solitude-of-modern-life-through-delicate-watercolor-art/" },
   ],
   how_to_use: {
     en: [
