@@ -203,7 +203,7 @@
 .pp-content {
   display: flex;
   flex-direction: column;
-  background: #ede5d2;
+  background: var(--parchment);   /* share the one page ground with Mochi + Saffron */
 }
 
 .pp-intro {
@@ -312,6 +312,8 @@
   background: #8fb37e;
   flex-shrink: 0;
 }
+/* When a section has a painted icon, drop the redundant dot before its title. */
+.pp-section-icon ~ .pp-toggle-text .pp-title::before { display: none; }
 
 .pp-subtitle {
   font-family: Georgia, serif;
@@ -1584,12 +1586,12 @@
 .crm-action-btn:disabled { opacity: 0.5; cursor: default; }
 
 .crm-action-btn--reply {
-  color: #1a3a80;
-  background: #f0f6ff;
-  border-color: #90aee0;
+  color: #8a5a10;
+  background: #fff6e8;
+  border-color: #e0c080;
 }
 
-.crm-action-btn--reply:hover { background: #ddeeff; border-color: #6080c0; }
+.crm-action-btn--reply:hover { background: #fbeccb; border-color: #c9a85a; }
 
 .crm-lookup-link {
   font-family: Georgia, serif;

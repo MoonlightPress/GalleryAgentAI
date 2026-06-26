@@ -614,7 +614,7 @@ def _translate_warning(note: str) -> tuple[str, str]:
 def email_zh(organization: str, category: str) -> str:
     kind = _email_category(category)
     ask = {"zine": "艺术书籍或ZINE的寄售合作",
-           "residency": "驻留项目及申请方式"}.get(kind, "展览提案或公开征集")
+           "residency": "项目及申请方式"}.get(kind, "展览提案或公开征集")
     return f"""主题：艺术家合作咨询
 
 {organization} 负责人您好，
@@ -628,13 +628,13 @@ def email_zh(organization: str, category: str) -> str:
 期待您的回复，感谢您的时间。
 
 GEGYjiji
-[portfolio link]"""
+https://www.instagram.com/gegyjiji/"""
 
 
 def email_ja(organization: str, category: str) -> str:
     kind = _email_category(category)
-    ask = {"zine": "アーティストブックや作品のコンサインメント販売について",
-           "residency": "レジデンシープログラムやご応募方法について"}.get(kind, "展覧会のご提案やオープンコールについて")
+    ask = {"zine": "アーティストブックや作品のコンサインメント販売",
+           "residency": "プログラムやご応募方法"}.get(kind, "展覧会のご提案やオープンコール")
     return f"""件名：アーティストとしてのご連絡
 
 {organization} ご担当者様
@@ -648,13 +648,13 @@ def email_ja(organization: str, category: str) -> str:
 ご多忙のところ恐れ入りますが、ご検討のほどどうぞよろしくお願いいたします。
 
 GEGYjiji
-[portfolio link]"""
+https://www.instagram.com/gegyjiji/"""
 
 
 def email_en(organization: str, category: str) -> str:
     kind = _email_category(category)
     ask = {"zine": "artist book or zine consignment / stocking",
-           "residency": "residency programs and how to apply"}.get(kind, "exhibition proposals or open calls")
+           "residency": "your programs and how to apply"}.get(kind, "exhibition proposals or open calls")
     return f"""Subject: Artist inquiry from GEGYjiji
 
 Dear {organization} team,
@@ -668,7 +668,7 @@ You can see my work on Instagram (@gegyjiji). I am happy to send a portfolio PDF
 Thank you for your time.
 
 GEGYjiji
-[portfolio link]"""
+https://www.instagram.com/gegyjiji/"""
 
 
 _DEADLINE_EMPTY = frozenset({
@@ -2542,7 +2542,7 @@ def get_saffron():
                     "Publisher relationship with torch press or equivalent — start with introduction, not submission",
                 ],
                 "probability": "high",
-                "bottleneck": "No new publication since 2021. The content exists — it needs packaging.",
+                "bottleneck": "The next book is the open lever — the daily diary content is already there, it just needs packaging.",
                 "best_fit_signal": "Right if you're motivated by the book as object and the publishing community. Your formation already points here.",
             },
             {

@@ -62,10 +62,9 @@
   justify-content: center;
   gap: 2px;
   padding: 12px 16px;
-  /* Full-bleed: stretch the bar to the screen edges, like Mochi's nav. */
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
+  /* Content-width (full 100vw added the scrollbar's width and caused a page-wide
+     horizontal scroll on classic-scrollbar systems). */
+  width: 100%;
   margin-bottom: 8px;
   background: #FAF4E6;   /* match the opportunity cards (Scott) */
   border-bottom: 1px solid #e8d5a8;

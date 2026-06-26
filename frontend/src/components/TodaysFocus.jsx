@@ -24,9 +24,9 @@ const ROLE_CONFIG = {
   },
   stretch_goal: {
     icon:      '◎',
-    accent:    '#6a7ab8',
-    bgLight:   '#f2f4fc',
-    border:    '#b8c4e8',
+    accent:    '#8a6a7a',
+    bgLight:   '#f6eff1',
+    border:    '#dcc6cf',
     labelKey:  'tf.role.stretchGoal',
     timeKey:   'tf.time.longer',
   },

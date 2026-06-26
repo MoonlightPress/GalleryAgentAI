@@ -110,7 +110,7 @@
 /* Uniform warm-orange top-accent — same family as .opp-card so People cards
    match the rest of the board (Scott 2026-06-25: all cards carry the same orange). */
 .rt-card {
-  background: var(--paper, #fbf7ef);
+  background: #FAF4E6;   /* match the opportunity cards, not near-white (Scott) */
   border: 1px solid rgba(120, 100, 70, 0.18);
   border-top: 3px solid #c9a86c;
   border-radius: 16px;

@@ -68,7 +68,7 @@ export default function Nav({ activePage, onNav }) {
 export function QuickNav() {
   const { t } = useLanguage()
   const items = [
-    { label: t('nav.quick.bestMoves'),    target: 'immediate_best_moves'  },
+    { label: t('nav.quick.bestMoves'),    target: 'mochi_strongest_picks' },
     { label: t('nav.quick.openCalls'),    target: 'open_calls'            },
     { label: t('nav.quick.publication'),  target: 'publication_editorial' },
     { label: t('nav.quick.competitions'), target: 'competitions_awards'   },

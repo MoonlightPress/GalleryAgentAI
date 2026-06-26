@@ -318,7 +318,7 @@
 }
 
 .press-card {
-  background: rgba(255, 252, 246, 0.85);
+  background: #FAF4E6;   /* match the opportunity cards, not near-white (Scott) */
   border: 1px solid var(--border);
   border-left: 3px solid #c9a86c;
   border-radius: 8px;
