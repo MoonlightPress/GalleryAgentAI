@@ -1351,7 +1351,10 @@ function VenueTrackerRow({ v, lang, t }) {
 
 function VenueTracker({ data, t }) {
   const { lang } = useLanguage()
-  const summary = t('sf.sum.venues', { n: data.total, s: data.total !== 1 ? 's' : '', active: data.active ?? 0 })
+  const active = data.active ?? 0
+  const summary = active > 0
+    ? t('sf.sum.venues', { n: data.total, s: data.total !== 1 ? 's' : '', active })
+    : t('sf.sum.venuesNoActive', { n: data.total, s: data.total !== 1 ? 's' : '' })
   return (
     <SectionShell
       title={t('sf.sec.venues')}

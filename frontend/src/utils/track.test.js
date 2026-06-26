@@ -4,14 +4,14 @@ import { track } from './track.js'
 
 function withStubs(seed, run) {
   const store = { ...seed }
-  global.localStorage = {
+  globalThis.localStorage = {
     getItem: (k) => (k in store ? store[k] : null),
     setItem: (k, v) => { store[k] = String(v) },
   }
   const calls = []
-  global.fetch = (url, opts) => { calls.push({ url, opts }); return Promise.resolve() }
+  globalThis.fetch = (url, opts) => { calls.push({ url, opts }); return Promise.resolve() }
   try { return run(calls) } finally {
-    delete global.fetch; delete global.localStorage
+    delete globalThis.fetch; delete globalThis.localStorage
   }
 }
 
@@ -30,7 +30,7 @@ test('posts event to /api/event with the stored visitor_id attached', () => {
 
 test('swallows fetch errors (best-effort)', () => {
   withStubs({ mochi_vid: 'stored-vid' }, () => {
-    global.fetch = () => { throw new Error('network down') }
+    globalThis.fetch = () => { throw new Error('network down') }
     assert.doesNotThrow(() => track({ type: 'nav', page: 'observe' }))
   })
 })

@@ -62,6 +62,14 @@ function MochiIntro() {
   )
 }
 
+// A quiet watercolor band that closes every page with breathing room — the same
+// on all three companions (Mochi / Saffron / Peppercorn), so the dashboard ends
+// like a painting, not a web page: no links, nothing about the maker. It also
+// hosts the footer painting once the art is dropped in (see .atelier-footer CSS).
+function AtelierFooter() {
+  return <footer className="atelier-footer" aria-hidden="true" />
+}
+
 export default function App() {
   const [page, setPage] = useState('discover')
   const [view, setView] = useState('cards')
@@ -108,6 +116,7 @@ export default function App() {
             {page === 'refine'  && <PeppercornPage nav={nav} />}
           </Suspense>
         )}
+        <AtelierFooter />
         <StatusBar />
       </div>
     </LanguageProvider>

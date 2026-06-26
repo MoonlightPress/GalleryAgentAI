@@ -313,6 +313,7 @@ const zh = {
   'sf.sec.venues':           '场地关系追踪',
   'sf.sub.venues':           '你正在联系的场地、当前状态，以及建议的后续行动。',
   'sf.sum.venues':           '已追踪{n}个场地 · {active}个活跃关系',
+  'sf.sum.venuesNoActive':   '已追踪{n}个场地',
   'sf.sec.openQs':           '待解问题',
   'sf.sub.openQs':           '山楂还不知道、但会改变分析结果的事情。',
 
@@ -716,6 +717,8 @@ const zh = {
   'pp.carousel.goals.desc.has':     '山楂用这些来调整推荐的权重',
   'pp.todo.header':                 '几件能帮我更好帮你的事',
   'pp.carousel.acc.name':           '最近的好消息',
+  'pp.carousel.qs.cta':             '答一题 →',
+  'pp.carousel.goals.cta':          '设一个 →',
   'pp.carousel.acc.cta':            '添加 →',
   'pp.carousel.acc.desc':           '最近有进展吗？记下来能让推荐更准',
   'pp.carousel.prefs.name':         '偏好',
@@ -1478,6 +1481,7 @@ const ja = {
   'sf.sec.venues':           '会場リレーショントラッカー',
   'sf.sub.venues':           '接触中の会場、ステータス、推奨される次のアクション。',
   'sf.sum.venues':           '{n}件追跡中 · アクティブな関係{active}件',
+  'sf.sum.venuesNoActive':   '{n}件追跡中',
   'sf.sec.openQs':           '未解決の問い',
   'sf.sub.openQs':           'サフランがまだ知らない、分析を変えうること。',
 
@@ -2534,6 +2538,7 @@ const en = {
   'sf.sec.venues':           'Venue Relationship Tracker',
   'sf.sub.venues':           'Venues you\'re in contact with, their status, and suggested next actions.',
   'sf.sum.venues':           '{n} venue{s} tracked · {active} active relationships',
+  'sf.sum.venuesNoActive':   '{n} venue{s} tracked',
   'sf.sec.openQs':           'Open Questions',
   'sf.sub.openQs':           'Things Saffron doesn\'t know yet that would change the analysis.',
 
@@ -2867,6 +2872,8 @@ const en = {
   'pp.carousel.goals.desc.has':     'Saffron uses these to weight recommendations toward what you want',
   'pp.todo.header':                 'A few things that would help me help you',
   'pp.carousel.acc.name':           'Recent wins',
+  'pp.carousel.qs.cta':             'Answer one →',
+  'pp.carousel.goals.cta':          'Set one →',
   'pp.carousel.acc.cta':            'Add →',
   'pp.carousel.acc.desc':           'Logged anything lately? It sharpens your recommendations',
   'pp.carousel.prefs.name':         'Preferences',

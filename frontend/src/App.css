@@ -5,6 +5,27 @@
   background: var(--parchment);
 }
 
+/* ── Atelier footer ──────────────────────────────────────────────
+   A quiet watercolor band that closes every page (Mochi / Saffron /
+   Peppercorn) with breathing room, so the last control never sits flush
+   against the bottom edge. It is decorative only — no links, nothing about
+   the maker. CSS wash for now; it also hosts the footer painting once added. */
+.atelier-footer {
+  width: 100%;
+  margin-top: clamp(40px, 6vw, 72px);
+  height: clamp(96px, 13vw, 156px);
+  border-top: 1px solid rgba(160, 124, 46, 0.16);
+  background:
+    radial-gradient(135% 95% at 16% 135%, rgba(196, 122, 53, 0.10), transparent 62%),
+    radial-gradient(125% 95% at 84% 135%, rgba(122, 140, 74, 0.09), transparent 62%),
+    linear-gradient(to bottom, var(--parchment), #f1e8d0);
+  /* When the footer painting is ready, save it at
+       frontend/public/footer/atelier_footer.webp   (2400×320 — see handoff notes)
+     then replace the `background:` above with:
+       background: #FAF6E5 url('/mochi/footer/atelier_footer.webp') center bottom / cover no-repeat;
+  */
+}
+
 /* ── View toggle (cards / calendar) ─────────────────────────────── */
 .view-toggle {
   display: flex;
