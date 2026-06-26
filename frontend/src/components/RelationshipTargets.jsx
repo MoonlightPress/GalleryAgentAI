@@ -4,6 +4,7 @@ import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
 import { prepareRelationshipTargets } from '../utils/relationshipTargets'
 import { cardsPerBatch } from '../utils/layout'
+import { SectionHeader } from './OpportunitiesSection'
 
 const PAGE_SIZE = cardsPerBatch()   // 6 on desktop (3 cols), 4 on smaller screens (2/1 cols)
 
@@ -296,12 +297,7 @@ export default function RelationshipTargets() {
 
   return (
     <section id="relationships" className="opp-section rt-section">
-      <div className="opp-section-header">
-        <div className="opp-section-title-row">
-          <h2 className="opp-section-title">{t('people.title')}</h2>
-          <p className="opp-section-desc">{t('people.intro')}</p>
-        </div>
-      </div>
+      <SectionHeader title={t('people.title')} subtitle={t('people.intro')} />
 
       <div className="rt-groups">
         {groups.map((g, idx) => (

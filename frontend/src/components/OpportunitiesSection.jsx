@@ -66,6 +66,20 @@ function isPressTarget(opp) {
   )
 }
 
+// ONE shared section header (banner + centered title + subheader), used by EVERY
+// section — opportunities, People, Press, Strongest Picks — so the header format
+// can never drift between components again. Change it here, it changes everywhere.
+export function SectionHeader({ title, subtitle }) {
+  return (
+    <div className="opp-section-header">
+      <div className="opp-section-title-row">
+        <h2 className="opp-section-title">{title}</h2>
+        {subtitle && <p className="opp-section-desc">{subtitle}</p>}
+      </div>
+    </div>
+  )
+}
+
 export default function OpportunitiesSection() {
   const [data, setData]   = useState(null)
   const [error, setError] = useState(null)
@@ -167,12 +181,7 @@ function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
 
   return (
     <section id="mochi_strongest_picks" className="opp-section opp-section--strongest">
-      <div className="opp-section-header">
-        <div className="opp-section-title-row">
-          <h2 className="opp-section-title">{t('opps.strongest.title')}</h2>
-          <p className="opp-section-desc">{t('opps.strongest.desc')}</p>
-        </div>
-      </div>
+      <SectionHeader title={t('opps.strongest.title')} subtitle={t('opps.strongest.desc')} />
 
       <div className="opp-grid opp-grid--strongest">
         {visible.map(opp => (
@@ -319,12 +328,7 @@ function PressSection({ items }) {
 
   return (
     <section id="press_visibility" className="opp-section press-section">
-      <div className="opp-section-header">
-        <div className="opp-section-title-row">
-          <h2 className="opp-section-title">{t('press.section.title')}</h2>
-          <p className="opp-section-desc">{t('press.section.desc')}</p>
-        </div>
-      </div>
+      <SectionHeader title={t('press.section.title')} subtitle={t('press.section.desc')} />
 
       {items.length === 0 ? (
         <p className="press-empty">{t('press.empty')}</p>
@@ -392,13 +396,7 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
 
   return (
     <section id={sectionKey} className="opp-section opp-section--secondary">
-      {/* Section header */}
-      <div className="opp-section-header">
-        <div className="opp-section-title-row">
-          <h2 className="opp-section-title">{sectionLabel}</h2>
-          <p className="opp-section-desc">{sectionDesc}</p>
-        </div>
-      </div>
+      <SectionHeader title={sectionLabel} subtitle={sectionDesc} />
 
       <div className="opp-section-brief">
         {suppressed.size > 0 && (

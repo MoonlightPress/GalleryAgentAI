@@ -2057,9 +2057,7 @@ export default function PeppercornPage({ nav }) {
         <>
           <PeppercornIntro />
 
-          {/* Career event quick-log */}
           <div className="pp-content">
-            <CareerEventWidget />
             <DismissalInsightBanner />
           </div>
 
