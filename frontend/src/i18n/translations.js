@@ -81,7 +81,7 @@ const zh = {
   'section.watch_list.desc':            '驻留、机构项目与待深入研究的机会。',
 
   // ── Opportunities section ─────────────────────────────────────────────────
-  'opps.loading':            '麻薯正在整理机会…',
+  'opps.loading':            '让麻薯帮你找点好东西…',
   'opps.error':              '无法连接麻薯API — python api.py 是否正在运行？',
   'opps.showMore':           '显示更多',
   'opps.moreCount':          '还有{n}个',
@@ -2347,7 +2347,7 @@ const en = {
   'sf.gap.expected':         'expected',
   'sf.gap.tracked':          'tracked',
 
-  'opps.loading':            'Mochi is sorting opportunities…',
+  'opps.loading':            'Let\'s find you something good…',
   'opps.error':              'Could not reach the Mochi API — is python api.py running?',
   'opps.showMore':           'Show more',
   'opps.moreCount':          '{n} more',

@@ -14,7 +14,11 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  margin-top: clamp(12px, 1.6vw, 22px);            /* much less headspace (Scott) */
+  /* Stick to the bottom: in the min-height:100svh flex column, margin-top:auto
+     pushes the footer to the viewport bottom, so on a tab switch it no longer
+     pops up mid-screen on the blank/loading page. On a full page it sits flush
+     after the content (the border + shadow below separate it). */
+  margin-top: auto;
   height: clamp(110px, 13vw, 168px);
   /* The footer cream differs from the page, so frame it deliberately: a darker
      buffer line + a soft drop shadow above, so it reads as a footer, not a seam. */

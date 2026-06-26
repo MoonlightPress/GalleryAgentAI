@@ -1417,25 +1417,25 @@
 .crm-filter-tab {
   font-family: Georgia, serif;
   font-size: 12px;
-  color: #6a7a5a;
-  background: #f2f5ee;
-  border: 1px solid #cdd8be;
-  border-radius: 20px;
+  color: var(--ink-medium);
+  background: var(--paper);            /* match the cards, not a green chip */
+  border: 1px solid var(--border);
+  border-radius: 999px;               /* fully rounded, like Mochi's pills */
   padding: 4px 14px;
   cursor: pointer;
   transition: background 0.14s, border-color 0.14s, color 0.14s;
 }
 
 .crm-filter-tab:hover {
-  background: #ddeec8;
-  border-color: #6a8a5a;
-  color: #2e3a2e;
+  background: #f6eeda;
+  border-color: var(--gold);
+  color: var(--ink);
 }
 
 .crm-filter-tab--active {
-  background: #6a8a5a;
-  border-color: #6a8a5a;
-  color: white;
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #fff;
 }
 
 .crm-list {

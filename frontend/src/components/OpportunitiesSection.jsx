@@ -170,9 +170,8 @@ function StrongestPicksSection({ items, feedbackSignals, onFeedback }) {
       <div className="opp-section-header">
         <div className="opp-section-title-row">
           <h2 className="opp-section-title">{t('opps.strongest.title')}</h2>
-          {/* Raw count hidden on the calm home view — presence, not quantity. */}
+          <p className="opp-section-desc">{t('opps.strongest.desc')}</p>
         </div>
-        <p className="opp-section-desc">{t('opps.strongest.desc')}</p>
       </div>
 
       <div className="opp-grid opp-grid--strongest">
@@ -323,11 +322,8 @@ function PressSection({ items }) {
       <div className="opp-section-header">
         <div className="opp-section-title-row">
           <h2 className="opp-section-title">{t('press.section.title')}</h2>
-          {/* Raw count hidden on the calm home view — presence, not quantity. */}
+          <p className="opp-section-desc">{t('press.section.desc')}</p>
         </div>
-        <p className="opp-section-desc">
-          {t('press.section.desc')}
-        </p>
       </div>
 
       {items.length === 0 ? (
@@ -400,10 +396,8 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
       <div className="opp-section-header">
         <div className="opp-section-title-row">
           <h2 className="opp-section-title">{sectionLabel}</h2>
-          {/* Raw count hidden on the calm home view — a big "302" reads as "how
-              behind you are". Presence, not quantity. */}
+          <p className="opp-section-desc">{sectionDesc}</p>
         </div>
-        <p className="opp-section-desc">{sectionDesc}</p>
       </div>
 
       <div className="opp-section-brief">

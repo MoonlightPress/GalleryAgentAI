@@ -1,6 +1,11 @@
 .opps-root {
   background: var(--parchment);
   padding: 0 28px 24px;
+  animation: opps-fade-in 0.55s ease both;   /* fade the content in, never pop */
+}
+@keyframes opps-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: none; }
 }
 
 .opps-loading,
@@ -11,6 +16,16 @@
   font-style: italic;
   color: var(--ink-muted);
   font-size: 15px;
+}
+/* Hold a tall, calm space while loading so the content (and footer) never pop up
+   mid-page; the warm note fades in gently, then the real content fades in. */
+.opps-loading {
+  min-height: 46vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: opps-fade-in 0.5s ease both;
 }
 .opps-loading .opps-paw {
   display: block;
@@ -65,8 +80,8 @@
    display serif. This is the page's signature element; everything else stays
    quiet. */
 .opp-section-header {
-  padding: 0 0 6px;
-  margin-bottom: 14px;
+  padding: 0;
+  margin-bottom: 8px;
 }
 
 /* Painted watercolor header banner: thin ~10:1 art (like the footers), recolored
@@ -74,13 +89,15 @@
    title centered over the middle. Band height tracks the 10:1 art at content width. */
 .opp-section-title-row {
   display: flex;
+  flex-direction: column;             /* title + subheader stacked together */
   align-items: center;
   justify-content: center;
+  gap: 1px;                           /* subheader sits right under the title */
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 4px;
-  min-height: clamp(100px, 10.5vw, 136px);
-  padding: 0 24px;
+  min-height: clamp(84px, 8.5vw, 112px);  /* shorter -> less headspace */
+  padding: 6px 24px;
   position: relative;
   /* White-bg art + multiply = the white melts to the page cream (no box, any
      page color); the painting blends on top. Same trick as the icon set. */
@@ -147,7 +164,8 @@
 }
 
 .opp-section--secondary .opp-section-title {
-  font-size: 21px;
+  font-size: 28px;
+  font-weight: 600;
 }
 .opp-section--secondary .opp-section-medallion {
   width: 50px;
