@@ -3601,13 +3601,24 @@ def get_tracker():
 def get_today():
     items = load_opportunities()
 
+    # Daily rotation: Today's Focus stays "top options" but shifts day-to-day, so
+    # it never looks stale when the label says "today" (Scott). Each slot picks
+    # from its top-K by a date seed: same all day, rotates at midnight.
+    from datetime import date as _date
+    _day = _date.today().toordinal()
+    def _pick(lst, k=6):
+        if not lst:
+            return None
+        top = lst[:k]
+        return top[_day % len(top)]
+
     # ── High Impact Move: highest-scoring IBM-eligible ────────────────────────
     ibm = [
         x for x in sorted(items, key=_ranked_score, reverse=True)
         if x.get("exclusive_primary_bucket") == "immediate_best_moves"
         and _ibm_eligible(x)
     ]
-    high_impact_raw = ibm[0] if ibm else None
+    high_impact_raw = _pick(ibm)
 
     # ── Quick Win: IBM-eligible relationship-type with confirmed contact/email ─
     qw_candidates = [
@@ -3631,7 +3642,7 @@ def get_today():
             and (high_impact_raw is None or _opp_id(x) != _opp_id(high_impact_raw))
         ]
     qw_candidates.sort(key=_ranked_score, reverse=True)
-    quick_win_raw = qw_candidates[0] if qw_candidates else None
+    quick_win_raw = _pick(qw_candidates)
 
     used_ids = {_opp_id(x) for x in [high_impact_raw, quick_win_raw] if x}
 
@@ -3690,7 +3701,7 @@ def get_today():
              and not _deadline_past(x)],
             key=_overall_score, reverse=True,
         )
-    stretch_raw = stretch_candidates[0] if stretch_candidates else None
+    stretch_raw = _pick(stretch_candidates)
 
     # ── CRM follow-up: if a contact is "in_contact" and last_contacted > 30 days, override quick_win ──
     crm_followup_raw = None
