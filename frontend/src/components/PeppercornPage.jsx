@@ -76,7 +76,6 @@ function SectionShell({ id, title, subtitle, synopsis, isOpen, onToggle, section
     >
       <button className="pp-toggle" onClick={onToggle}>
         <div className="pp-toggle-left">
-          {icon && <img className="pp-section-icon" src={`${PP_ICON_BASE}${icon}.webp`} alt="" aria-hidden="true" width="28" height="28" loading="lazy" />}
           <div className="pp-toggle-text">
             <h2 className="pp-title">{title}</h2>
             {isOpen

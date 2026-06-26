@@ -114,7 +114,7 @@
    the parchment base + center/contain + multiply blend carry over from above. */
 /* Strongest Picks intentionally keeps the default Mochi cat (header_section.webp). */
 #open_calls             .opp-section-title-row { background-image: url('/mochi/headers/J.webp'); }
-#publication_editorial  .opp-section-title-row { background-image: url('/mochi/headers/H.webp'); }
+#publication_editorial  .opp-section-title-row { background-image: url('/mochi/headers/HFix.webp'); }
 #relationship_targets   .opp-section-title-row { background-image: url('/mochi/headers/E.webp'); }
 #competitions_awards    .opp-section-title-row { background-image: url('/mochi/headers/C.webp'); }
 #zines_and_print        .opp-section-title-row { background-image: url('/mochi/headers/D.webp'); }
@@ -229,9 +229,12 @@
     gap: 3px;
   }
   .opp-section-title,
-  .opp-section-desc { max-width: 52%; }   /* keep the text clear of the right-side art */
-  .opp-section-title { font-size: 22px; }
-  .opp-section--strongest .opp-section-title { font-size: 24px; }
+  .opp-section-desc { max-width: 56%; }   /* keep the text clear of the right-side art */
+  .opp-section-title,
+  .opp-section--secondary .opp-section-title { font-size: 18px; }   /* override the desktop --secondary size so 6-7 char zh titles stay on one line */
+  .opp-section--strongest .opp-section-title { font-size: 19px; }
+  /* Force one line so the band can't balloon — short zh titles fit; a long title ellipses. */
+  .opp-section-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   /* Clamp the subheader to 2 lines so the narrow column can't balloon the band. */
   .opp-section-desc {
     text-align: left;

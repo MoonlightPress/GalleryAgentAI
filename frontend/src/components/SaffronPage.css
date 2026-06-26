@@ -22,7 +22,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center center;
+  /* Saffron (the bird) sits on the left in her blossoms; a centered crop on the
+     190px mobile hero cut to the cityscape and lost her, so favor the left. */
+  object-position: left center;
   display: block;
 }
 
@@ -83,10 +85,11 @@
 }
 .sf-tab:hover { color: #5a4326; }
 .sf-tab--active { color: #3d2b1a; font-weight: bold; border-bottom-color: #c49a3e; }
-@media (max-width: 600px) {
-  /* Wrap (don't hide-scroll) so every tab stays reachable when narrow or zoomed
-     — a hidden horizontal scrollbar left off-screen tabs unreachable. */
-  .sf-tabs { flex-wrap: wrap; justify-content: flex-start; gap: 2px 4px; padding: 10px 12px; }
+@media (max-width: 640px) {
+  /* Swipe-scroll like Mochi's quick-nav bar (consistency, Scott) instead of wrapping. */
+  .sf-tabs { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; gap: 2px 4px; padding: 10px 12px; scrollbar-width: none; }
+  .sf-tabs::-webkit-scrollbar { display: none; }
+  .sf-tab { flex-shrink: 0; }
 }
 
 .sf-loading,
