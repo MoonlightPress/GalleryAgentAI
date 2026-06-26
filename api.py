@@ -48,6 +48,11 @@ app.add_middleware(GZipMiddleware, minimum_size=600)
 
 DATA_DIR        = Path(__file__).parent / "memory"
 DEPLOY_DIR      = Path(__file__).parent / "deploy_data"
+# ── Usage tracking (live nav pings + idle-session interaction digests) ────────
+USAGE_EVENTS_PATH = DATA_DIR / "usage_events.jsonl"   # durable append log
+USAGE_STATE_PATH  = DATA_DIR / "usage_state.json"     # per-visitor last-flushed
+IDLE_MINUTES      = 10                                 # gap that ends a session
+TICK_SECONDS      = 60                                 # digest ticker interval
 SUPPRESSED_PATH  = DATA_DIR / "suppressed_opportunities.json"
 SUBMISSIONS_PATH = DATA_DIR / "submission_log.json"
 CONTACTS_PATH    = DATA_DIR / "contact_memory.json"
@@ -3331,39 +3336,79 @@ async def save_saffron_answer(request: Request):
     return {"ok": True}
 
 
+def _append_usage_event(event, path=None) -> None:
+    """Append one usage event as a JSON line. Server-stamps ``ts``. Best-effort:
+    a failure here must never fail the page (see /api/event)."""
+    path = path or USAGE_EVENTS_PATH
+    try:
+        rec = dict(event or {})
+        rec["ts"] = datetime.now(timezone.utc).isoformat()
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    except Exception:
+        pass
+
+
+def _read_usage_events(path=None):
+    """Read the append log into a list of event dicts. Missing file -> []."""
+    path = path or USAGE_EVENTS_PATH
+    out = []
+    try:
+        with open(path, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    out.append(json.loads(line))
+                except Exception:
+                    continue
+    except FileNotFoundError:
+        return []
+    except Exception:
+        return []
+    return out
+
+
 @app.post("/api/event")
 async def track_event(request: Request):
-    """Usage signal for Discord. Content-blind (which page, not what she reads).
-    Best-effort — never fails the page over a tracking hiccup.
-
-    Only a session OPEN pings Discord, and the ping says whether it's a returning
-    or new (anonymous) visitor. Per-nav events are dropped — they used to flood
-    the webhook on every page move, and a refocused left-open tab never re-fires
-    "open", so it stays quiet too. The open ping is now interpretable enough to
-    tell a real returning visitor from a scattered one-off hit."""
+    """Usage signal. Records every event to usage_events.jsonl for the idle
+    digest. Posts LIVE to Discord for `open` (she's here) and `nav` (her moves,
+    companion + debounced section landings). `action` events are logged silently
+    and summarised in the per-session digest the ticker posts ~10 min after she
+    goes idle. Flow- and category-aware, never names a specific opportunity.
+    Best-effort — never fails the page over a tracking hiccup."""
     try:
         event = await request.json()
     except Exception:
         event = {}
+    etype = (event or {}).get("type")
 
-    if (event or {}).get("type") != "open":
-        return {"ok": True}
+    # Durable record for the idle digest — every event, best-effort.
+    _append_usage_event(event)
 
-    vpath = DATA_DIR / "visit_log.json"
-    try:
-        log = json.loads(vpath.read_text(encoding="utf-8")) if vpath.exists() else {}
-    except Exception:
-        log = {}
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    log, _notify, day = register_visit(log, today)
-    log, returning = mark_visitor(log, event.get("visitor_id"))
-    try:
-        _atomic_write_json(vpath, log)
-    except Exception:
-        pass
+    if etype == "open":
+        vpath = DATA_DIR / "visit_log.json"
+        try:
+            log = json.loads(vpath.read_text(encoding="utf-8")) if vpath.exists() else {}
+        except Exception:
+            log = {}
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        log, _notify, day = register_visit(log, today)
+        log, returning = mark_visitor(log, event.get("visitor_id"))
+        try:
+            _atomic_write_json(vpath, log)
+        except Exception:
+            pass
+        text, status = describe_event(event, day=day, returning=returning)
+        notify_discord(text, status=status)
 
-    text, status = describe_event(event, day=day, returning=returning)
-    notify_discord(text, status=status)
+    elif etype == "nav":
+        # Navigation streams live (companion moves + debounced section landings).
+        text, status = describe_event(event)
+        notify_discord(text, status=status)
+
+    # type == "action": logged only; summarised later in the idle digest.
     return {"ok": True}
 
 
