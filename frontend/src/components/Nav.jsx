@@ -1,3 +1,4 @@
+import { useRef, useEffect } from 'react'
 import './Nav.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import { LANGUAGES, LANGUAGE_LABELS } from '../i18n/translations'
@@ -23,6 +24,20 @@ const COMPANION_NAMES = {
 export default function Nav({ activePage, onNav }) {
   const { t, lang, setLang } = useLanguage()
   const names = COMPANION_NAMES[lang] || COMPANION_NAMES.en
+  const navRef = useRef(null)
+
+  // Expose the nav's real height as --nav-height so the sticky sub-bars (Saffron's
+  // tabs, Discover's quick-nav) sit exactly below it. On a phone the nav wraps to
+  // ~114px, which a hardcoded top:54px slid under (the subnav showed half-hidden).
+  useEffect(() => {
+    const el = navRef.current
+    if (!el) return
+    const setH = () => document.documentElement.style.setProperty('--nav-height', `${el.offsetHeight}px`)
+    setH()
+    const ro = new ResizeObserver(setH)
+    ro.observe(el)
+    return () => ro.disconnect()
+  }, [])
 
   const COMPANIONS = [
     { label: t('nav.discover'), name: names.discover, key: 'discover' },
@@ -31,7 +46,7 @@ export default function Nav({ activePage, onNav }) {
   ]
 
   return (
-    <nav className="site-nav">
+    <nav className="site-nav" ref={navRef}>
       <div className="companion-row">
         {COMPANIONS.map(c => (
           <button

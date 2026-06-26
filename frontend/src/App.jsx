@@ -11,6 +11,7 @@ import TrackerSection from './components/TrackerSection'
 import StatusBar from './components/StatusBar'
 import TrackedSection from './components/TrackedSection'
 import { track } from './utils/track'
+import { setCache, getCache } from './utils/apiCache'
 
 const SaffronPage = lazy(() => import('./components/SaffronPage'))
 const PeppercornPage = lazy(() => import('./components/PeppercornPage'))
@@ -104,6 +105,24 @@ export default function App() {
     // anonymous visitor_id is attached inside track(). Best-effort; never blocks.
     track(from === null ? { type: 'open', page } : { type: 'nav', page, from })
   }, [page])
+
+  // Once Discover is up, warm the other companions in the background — both their
+  // code chunks AND their data into the shared cache — so switching is instant
+  // instead of a blank loading screen (Scott: "load saffron once mochi is done so
+  // if she goes there it's already loaded").
+  useEffect(() => {
+    const warm = () => {
+      import('./components/SaffronPage')
+      import('./components/PeppercornPage')
+      for (const url of ['/api/saffron', '/api/career_strategy', '/api/peppercorn']) {
+        if (getCache(url)) continue
+        fetch(url).then(r => (r.ok ? r.json() : null)).then(d => { if (d) setCache(url, d) }).catch(() => { /* best-effort warm */ })
+      }
+    }
+    const ric = window.requestIdleCallback
+    const id = ric ? ric(warm, { timeout: 2500 }) : setTimeout(warm, 1500)
+    return () => { ric ? window.cancelIdleCallback(id) : clearTimeout(id) }
+  }, [])
 
   const nav = <Nav activePage={page} onNav={setPage} />
 

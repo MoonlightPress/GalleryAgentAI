@@ -94,7 +94,7 @@
 /* ── Discover section bar — mirrors Saffron's sticky tabs (.sf-tabs) ── */
 .quick-nav-bar {
   position: sticky;
-  top: 54px;
+  top: var(--nav-height, 54px);
   z-index: 30;
   display: flex;
   flex-wrap: wrap;

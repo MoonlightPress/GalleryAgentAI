@@ -55,7 +55,7 @@
 /* ── Light category tabs ────────────────────────────────────────────── */
 .sf-tabs {
   position: sticky;
-  top: 54px;
+  top: var(--nav-height, 54px);
   z-index: 30;
   display: flex;
   flex-wrap: wrap;
