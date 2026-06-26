@@ -112,8 +112,8 @@ export default function App() {
       <div className="app">
         {page === 'discover' && <HeroSection />}
         {page === 'discover' && nav}
-        {page === 'discover' && <MochiIntro />}
         {page === 'discover' && view === 'cards' && <QuickNav />}
+        {page === 'discover' && <MochiIntro />}
         {page === 'discover' && <TrackedSection section="today_focus"><TodaysFocus /></TrackedSection>}
         {page === 'discover' && <ViewToggle view={view} setView={setView} />}
         {page === 'discover' && view === 'cards'    && <TrackedSection section="open_calls"><OpportunitiesSection /></TrackedSection>}

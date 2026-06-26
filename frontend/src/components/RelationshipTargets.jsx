@@ -298,10 +298,9 @@ export default function RelationshipTargets() {
     <section id="relationships" className="opp-section rt-section">
       <div className="opp-section-header">
         <div className="opp-section-title-row">
-          <span className="opp-section-medallion"><PeopleIcon className="opp-section-icon" /></span>
           <h2 className="opp-section-title">{t('people.title')}</h2>
+          <p className="opp-section-desc">{t('people.intro')}</p>
         </div>
-        <p className="opp-section-desc">{t('people.intro')}</p>
       </div>
 
       <div className="rt-groups">

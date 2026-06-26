@@ -46,6 +46,9 @@
   max-width: 1400px;
   margin: 0 auto 6px;
 }
+/* Consistent lead space between sections, so a section that doesn't end in a
+   "show more" button isn't jammed against the next header (Scott). */
+.opp-section + .opp-section { margin-top: 26px; }
 
 .opp-section--strongest {
   padding-top: 12px;
@@ -139,8 +142,8 @@
 
 .opp-section-title {
   font-family: 'IM Fell English', Georgia, serif;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 28px;
+  font-weight: 600;
   color: var(--ink);
   letter-spacing: 0.01em;
   margin: 0;

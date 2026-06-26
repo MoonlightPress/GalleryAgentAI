@@ -2384,8 +2384,6 @@ export default function SaffronPage({ nav }) {
       </section>
       {nav}
 
-      <SaffronIntro />
-
       {!data && !error && <div className="sf-loading">{t('sf.loading')}</div>}
 
       {error && (
@@ -2407,6 +2405,8 @@ export default function SaffronPage({ nav }) {
               </button>
             ))}
           </div>
+
+          <SaffronIntro />
 
           {/* Each section gets its OWN error boundary so one throwing section
               shows a small inline notice instead of blanking the whole tab.

@@ -401,7 +401,6 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
       </div>
 
       <div className="opp-section-brief">
-        <span>{t('opps.browseHint')}</span>
         {suppressed.size > 0 && (
           <span className="opp-section-hidden">
             {t('opps.hiddenCount', { n: suppressed.size })}
