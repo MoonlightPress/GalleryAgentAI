@@ -6,6 +6,7 @@ import { feedbackToastKey, shouldRemoveAfterFeedback } from '../utils/feedbackBe
 import { isDistinct } from '../utils/textGuards.js'
 import { locF, localizeDeadline, isUrgentDeadline } from '../utils/localize.js'
 import { oppKey } from '../utils/oppKey.js'
+import { track } from '../utils/track'
 
 const CAT_LABELS = {
   gallery:           'Gallery',
@@ -157,6 +158,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
     writeFeedbackForKey(key, next)
     onFeedback?.(opp, next)
     if (next) {
+      track({ type: 'action', action: next, category: opp.category })
       await saveFeedback(opp, next)
       if (shouldRemoveAfterFeedback(next) && onSuppressed) onSuppressed(oppKey(opp))
       setToastKey(feedbackToastKey(next))
@@ -265,7 +267,10 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
         <div className="opp-card-actions">
           <button
             className={`opp-btn-details${isOpen ? ' opp-btn-details--active' : ''}`}
-            onClick={onDetails}
+            onClick={() => {
+              if (!isOpen) track({ type: 'action', action: 'open_card', category: opp.category })
+              onDetails()
+            }}
           >
             {isOpen ? t('card.close') : t('card.details')}
           </button>
