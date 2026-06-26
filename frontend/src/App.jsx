@@ -9,6 +9,7 @@ import DeadlineCalendar from './components/DeadlineCalendar'
 import RelationshipTargets from './components/RelationshipTargets'
 import TrackerSection from './components/TrackerSection'
 import StatusBar from './components/StatusBar'
+import TrackedSection from './components/TrackedSection'
 import { track } from './utils/track'
 
 const SaffronPage = lazy(() => import('./components/SaffronPage'))
@@ -85,19 +86,21 @@ export default function App() {
         {page === 'discover' && nav}
         {page === 'discover' && <MochiIntro />}
         {page === 'discover' && view === 'cards' && <QuickNav />}
-        {page === 'discover' && <TodaysFocus />}
+        {page === 'discover' && <TrackedSection section="today_focus"><TodaysFocus /></TrackedSection>}
         {page === 'discover' && <ViewToggle view={view} setView={setView} />}
-        {page === 'discover' && view === 'cards'    && <OpportunitiesSection />}
+        {page === 'discover' && view === 'cards'    && <TrackedSection section="open_calls"><OpportunitiesSection /></TrackedSection>}
         {/* People (RelationshipTargets) mounts INSIDE the same padded .opps-root
             container the opportunity cards use, so its .rt-section inherits the
             normal max-width + 28px gutter instead of going edge-to-edge (the
             section's own max-width:1400px never engaged below 1400px). */}
         {page === 'discover' && view === 'cards'    && (
-          <div className="opps-root">
-            <RelationshipTargets />
-          </div>
+          <TrackedSection section="people">
+            <div className="opps-root">
+              <RelationshipTargets />
+            </div>
+          </TrackedSection>
         )}
-        {page === 'discover' && view === 'cards'    && <TrackerSection />}
+        {page === 'discover' && view === 'cards'    && <TrackedSection section="tracker"><TrackerSection /></TrackedSection>}
         {page === 'discover' && view === 'calendar' && <DeadlineCalendar />}
         {(page === 'observe' || page === 'refine') && (
           <Suspense fallback={<PageFallback />}>
