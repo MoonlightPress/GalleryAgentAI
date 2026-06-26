@@ -589,8 +589,7 @@ const PEER_IG = {
   'Cathy Read':              'cathyreadart',
   'Alvaro Castagnet':        'alvaro.castagnet',
   'Jean Haines':             'jeanhaines',
-  // 2026-06-26 expansion (verified handles). Zao Dao has no clean Instagram —
-  // she falls through to a name search.
+  // 2026-06-26 expansion (verified handles).
   'Samantha Dion Baker':     'sdionbakerdesign',
   'Liz Steel':               'lizsteelart',
   'Ohn Mar Win':             'ohn_mar_win',
@@ -599,6 +598,14 @@ const PEER_IG = {
   'Mateusz Urbanowicz':      'mateusz_urbanowicz',
   'Aeppol (애뽈)':            '_aeppol',
   'Yuko Higuchi (ヒグチユウコ)': 'yukohiguchi3',
+}
+
+// Peers with no personal Instagram: link straight to their real primary channel
+// instead of a name search (verified Jun 2026). Checked BEFORE PEER_IG; the key
+// must match a.name exactly (incl. the Chinese name for Zao Dao).
+const PEER_LINK = {
+  'Zao Dao (早稻)':  'https://x.com/tataka510',         // no personal IG; X is her cited account
+  'Lian Quan Zhen': 'https://www.lianspainting.com/',  // no IG; official site
 }
 
 function ComparableArtists({ artists, t }) {
@@ -619,7 +626,7 @@ function ComparableArtists({ artists, t }) {
           <div key={i} className="sf-peer-card">
             <a
               className="sf-peer-name sf-peer-link"
-              href={PEER_IG[a.name] ? `https://www.instagram.com/${PEER_IG[a.name]}/` : sfSearch(`${a.name} instagram`)}
+              href={PEER_LINK[a.name] || (PEER_IG[a.name] ? `https://www.instagram.com/${PEER_IG[a.name]}/` : sfSearch(`${a.name} instagram`))}
               target="_blank"
               rel="noreferrer"
             >
@@ -973,7 +980,7 @@ function PressFeatures({ data, t }) {
           <div className="sf-block-label">{t('sf.label.confirmed')}</div>
           {data.confirmed.map((f, i) => (
             <div key={i} className="sf-press-row">
-              <a className="sf-press-outlet sf-ext-link" href={sfSearch(f.outlet)} target="_blank" rel="noreferrer">{f.outlet} ↗</a>
+              <a className="sf-press-outlet sf-ext-link" href={f.url || sfSearch(f.outlet)} target="_blank" rel="noreferrer">{f.outlet} ↗</a>
               <div className="sf-press-type">{f.type}</div>
               <div className="sf-press-note">{f.note}</div>
             </div>
