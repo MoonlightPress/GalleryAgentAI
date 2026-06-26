@@ -79,10 +79,13 @@
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 4px;
-  min-height: clamp(84px, 9.5vw, 124px);
+  min-height: clamp(100px, 10.5vw, 136px);
   padding: 0 24px;
   position: relative;
+  /* White-bg art + multiply = the white melts to the page cream (no box, any
+     page color); the painting blends on top. Same trick as the icon set. */
   background: var(--parchment) url('/mochi/headers/header_section.webp') center / cover no-repeat;
+  background-blend-mode: multiply;
 }
 .opp-section-title-row::before,
 .opp-section-title-row::after { content: none; }
