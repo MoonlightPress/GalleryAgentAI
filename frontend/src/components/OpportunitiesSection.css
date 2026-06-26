@@ -110,6 +110,12 @@
   background: var(--parchment) url('/mochi/headers/header_section.webp') center / contain no-repeat;
   background-blend-mode: multiply;
 }
+/* Per-section painted header banners. The #id selector overrides only the image;
+   the parchment base + center/contain + multiply blend carry over from above. */
+#open_calls          .opp-section-title-row { background-image: url('/mochi/headers/A.webp'); }
+#competitions_awards .opp-section-title-row { background-image: url('/mochi/headers/C.webp'); }
+#zines_and_print     .opp-section-title-row { background-image: url('/mochi/headers/D.webp'); }
+#relationships       .opp-section-title-row { background-image: url('/mochi/headers/E.webp'); }
 .opp-section-title-row::before,
 .opp-section-title-row::after { content: none; }
 .opp-section-medallion { display: none; }
