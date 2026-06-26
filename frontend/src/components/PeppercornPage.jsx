@@ -53,7 +53,20 @@ function CarouselCard({ card, isActive, onClick }) {
 
 // ── Section shell (open/close controlled by parent) ───────────────────────
 
+// Small painted watercolor accent per section (reuses the existing /icons set),
+// keyed by section id, so the informational sections get a little warmth.
+const PP_ICON_BASE = `${import.meta.env.BASE_URL}icons/`
+const SECTION_ICON = {
+  'artist-statement': 'ic_editorial',
+  'career-goals':     'ic_award',
+  'submission-log':   'ic_books',
+  'exhibition-log':   'ic_gallery',
+  'venue-log':        'ic_cafe',
+  'contacts':         'ic_people',
+}
+
 function SectionShell({ id, title, subtitle, synopsis, isOpen, onToggle, sectionRef, children }) {
+  const icon = SECTION_ICON[id]
   return (
     <section
       id={id}
@@ -61,11 +74,14 @@ function SectionShell({ id, title, subtitle, synopsis, isOpen, onToggle, section
       className={`pp-section${isOpen ? '' : ' pp-section--closed'}`}
     >
       <button className="pp-toggle" onClick={onToggle}>
-        <div className="pp-toggle-text">
-          <h2 className="pp-title">{title}</h2>
-          {isOpen
-            ? (subtitle && <p className="pp-subtitle">{subtitle}</p>)
-            : ((synopsis || subtitle) && <p className="pp-synopsis">{synopsis || subtitle}</p>)}
+        <div className="pp-toggle-left">
+          {icon && <img className="pp-section-icon" src={`${PP_ICON_BASE}${icon}.webp`} alt="" aria-hidden="true" width="28" height="28" loading="lazy" />}
+          <div className="pp-toggle-text">
+            <h2 className="pp-title">{title}</h2>
+            {isOpen
+              ? (subtitle && <p className="pp-subtitle">{subtitle}</p>)
+              : ((synopsis || subtitle) && <p className="pp-synopsis">{synopsis || subtitle}</p>)}
+          </div>
         </div>
         <span className={`pp-chevron${isOpen ? ' pp-chevron--open' : ''}`}>▾</span>
       </button>

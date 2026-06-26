@@ -272,6 +272,21 @@
   text-align: left;
   gap: 16px;
 }
+/* Painted watercolor accent + title grouped on the left, chevron stays right. */
+.pp-toggle-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 0;
+}
+.pp-section-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  margin-top: 1px;
+}
 
 .pp-toggle:hover .pp-title { color: #6a8a5a; }
 
