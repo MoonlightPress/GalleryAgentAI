@@ -214,21 +214,32 @@
 @media (max-width: 600px) {
   .opps-root { padding: 0 14px 24px; }   /* 28px each side was too tight on a phone */
   /* The 10:1 painted strip can't survive phone width whole (it shrinks to an
-     unreadable sliver), so crop it instead of dropping it: fill the band height
-     so one edge's painted subject reads at real size, feature the LEFT edge, and
-     float the title to the RIGHT over the open part of the painting. */
+     unreadable sliver), so crop it: fill the band height and feature the RIGHT-edge
+     painted subject so it sits flush to the right border (no dead space there).
+     The heading stays on the LEFT over the open part of the painting, capped in
+     width so the subheader wraps to a new line instead of running under the art. */
   .opp-section-title-row {
-    min-height: 96px;
+    min-height: 92px;
     background-size: cover;
-    background-position: left center;
-    align-items: flex-end;
-    text-align: right;
+    background-position: right center;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
     padding: 10px 16px;
     gap: 3px;
   }
+  .opp-section-title,
+  .opp-section-desc { max-width: 52%; }   /* keep the text clear of the right-side art */
   .opp-section-title { font-size: 22px; }
   .opp-section--strongest .opp-section-title { font-size: 24px; }
-  .opp-section-desc { text-align: right; }
+  /* Clamp the subheader to 2 lines so the narrow column can't balloon the band. */
+  .opp-section-desc {
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
   .opp-section-medallion,
   .opp-section--secondary .opp-section-medallion { width: 48px; height: 48px; }
   .opp-section--strongest .opp-section-medallion { width: 54px; height: 54px; }
