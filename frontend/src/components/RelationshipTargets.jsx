@@ -4,6 +4,7 @@ import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
 import { prepareRelationshipTargets } from '../utils/relationshipTargets'
 import { cardsPerBatch } from '../utils/layout'
+import { getCache, setCache } from '../utils/apiCache'
 import { SectionHeader } from './OpportunitiesSection'
 
 const PAGE_SIZE = cardsPerBatch()   // 6 on desktop (3 cols), 4 on smaller screens (2/1 cols)
@@ -273,14 +274,14 @@ function PriorityGroup({ groupKey, items, t, onHide, defaultOpen }) {
 
 export default function RelationshipTargets() {
   const { t } = useLanguage()
-  const [contacts, setContacts] = useState(null)
+  const [contacts, setContacts] = useState(() => getCache('/api/contacts') ?? null)
   const [hidden, setHidden] = useState(() => new Set())
 
   useEffect(() => {
     let alive = true
     fetch('/api/contacts')
       .then(r => (r.ok ? r.json() : Promise.reject(new Error('bad response'))))
-      .then(d => { if (alive) setContacts(Array.isArray(d) ? d : []) })
+      .then(d => { if (alive) { setCache('/api/contacts', d); setContacts(Array.isArray(d) ? d : []) } })
       .catch(() => { if (alive) setContacts([]) })
     return () => { alive = false }
   }, [])

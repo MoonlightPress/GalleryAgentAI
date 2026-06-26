@@ -4,6 +4,7 @@ import { CalendarMonth } from './DeadlineCalendar'
 import { parseDeadline, keyOf } from '../utils/calendarDates'
 import './DeadlineCalendar.css'
 import { saffronHero } from '../utils/heroImages'
+import { getCache, setCache } from '../utils/apiCache'
 import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
 import {
@@ -2310,8 +2311,8 @@ function SaffronIntro() {
 }
 
 export default function SaffronPage({ nav }) {
-  const [rawData,    setRawData]    = useState(null)
-  const [rawCareer,  setRawCareer]  = useState(null)
+  const [rawData,    setRawData]    = useState(() => getCache('/api/saffron') ?? null)
+  const [rawCareer,  setRawCareer]  = useState(() => getCache('/api/career_strategy') ?? null)
   const [error,      setError]      = useState(null)
   const [tab,        setTab]        = useState('strategy')
   const { t, lang } = useLanguage()
@@ -2319,7 +2320,7 @@ export default function SaffronPage({ nav }) {
   const loadSaffron = () => {
     fetch('/api/saffron')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json() })
-      .then(setRawData)
+      .then(d => { setCache('/api/saffron', d); setRawData(d) })
       .catch(e => setError(e.message))
   }
   useEffect(() => { loadSaffron() }, [])
@@ -2327,7 +2328,7 @@ export default function SaffronPage({ nav }) {
   const loadCareer = () => {
     fetch('/api/career_strategy')
       .then(r => { if (!r.ok) throw null; return r.json() })
-      .then(setRawCareer)
+      .then(d => { setCache('/api/career_strategy', d); setRawCareer(d) })
       .catch(() => {})
   }
   useEffect(() => { loadCareer() }, [])

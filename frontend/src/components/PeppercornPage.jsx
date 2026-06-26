@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, Component } from 'react'
 import './PeppercornPage.css'
 import { peppercornHero } from '../utils/heroImages'
+import { getCache, setCache } from '../utils/apiCache'
 import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
 import { track } from '../utils/track'
@@ -1857,7 +1858,7 @@ function PeppercornIntro() {
 // ── Page root ──────────────────────────────────────────────────────────────
 
 export default function PeppercornPage({ nav }) {
-  const [profile,     setProfile]     = useState(null)
+  const [profile,     setProfile]     = useState(() => getCache('/api/peppercorn') ?? null)
   const [statusMsg,   setStatusMsg]   = useState('')
   const [isSaved,     setIsSaved]     = useState(false)
   const [fetchError,  setFetchError]  = useState(null)
@@ -1879,7 +1880,7 @@ export default function PeppercornPage({ nav }) {
   useEffect(() => {
     fetch('/api/peppercorn')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json() })
-      .then(p => { setProfile(p); setOpenSections(new Set(['artist-statement'])) })
+      .then(p => { setCache('/api/peppercorn', p); setProfile(p); setOpenSections(new Set(['artist-statement'])) })
       .catch(e => setFetchError(e.message))
   }, [])
 

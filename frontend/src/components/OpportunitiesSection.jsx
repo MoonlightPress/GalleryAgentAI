@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import OppCard from './OppCard'
 import OppDetailPanel from './OppDetailPanel'
 import { cardsPerBatch } from '../utils/layout'
+import { getCache, setCache } from '../utils/apiCache'
 import './OpportunitiesSection.css'
 import { useLanguage } from '../i18n/LanguageContext'
 import {
@@ -81,15 +82,15 @@ export function SectionHeader({ title, subtitle }) {
 }
 
 export default function OpportunitiesSection() {
-  const [data, setData]   = useState(null)
+  const [data, setData]   = useState(() => getCache('/api/opportunities') ?? null)
   const [error, setError] = useState(null)
   const [feedbackActions, setFeedbackActions] = useState({})
   const { t } = useLanguage()
 
   useEffect(() => {
-    fetch('/api/opportunities')
+    fetch('/api/opportunities')  /* cached + revalidated via apiCache below */
       .then(r => { if (!r.ok) throw new Error(`${r.status}`); return r.json() })
-      .then(setData)
+      .then(d => { setCache('/api/opportunities', d); setData(d) })
       .catch(e => setError(e.message))
   }, [])
 

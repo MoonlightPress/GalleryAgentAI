@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useLanguage } from '../i18n/LanguageContext'
 import OppDetailPanel from './OppDetailPanel'
 import { locF, localizeDeadline, daysUntilDeadline } from '../utils/localize.js'
+import { getCache, setCache } from '../utils/apiCache'
 import './TodaysFocus.css'
 
 const ROLE_CONFIG = {
@@ -98,8 +99,8 @@ function TodayCard({ card, role, isOpen, onDetails }) {
 
 export default function TodaysFocus() {
   const { t } = useLanguage()
-  const [today, setToday] = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [today, setToday] = useState(() => getCache('/api/today') ?? null)
+  const [loading, setLoading] = useState(() => getCache('/api/today') === undefined)
   const [activeRole, setActiveRole] = useState(null)
 
   function handleDetails(role) {
@@ -109,7 +110,7 @@ export default function TodaysFocus() {
   useEffect(() => {
     fetch('/api/today')
       .then(r => r.ok ? r.json() : null)
-      .then(d => { setToday(d); setLoading(false) })
+      .then(d => { setCache('/api/today', d); setToday(d); setLoading(false) })
       .catch(() => setLoading(false))
   }, [])
 
