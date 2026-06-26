@@ -15,6 +15,7 @@
   /* Same drop shadow as the footer, mirrored downward (matches the Mochi hero). */
   z-index: 41;
   box-shadow: 0 5px 14px rgba(80, 55, 30, 0.12);
+  border-bottom: 2px solid rgba(150, 112, 56, 0.55);  /* same stroke as the footer's top */
 }
 
 .saffron-hero-img {

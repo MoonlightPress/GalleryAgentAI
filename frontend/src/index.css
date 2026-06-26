@@ -1,6 +1,6 @@
 :root {
   --paper:      #FFFAF3;
-  --parchment:  #EDE5D2;
+  --parchment:  #EEE0C2;  /* warmed toward the mochi cream, held at the same lightness as #EDE5D2 (not paler) */
   --ink:        #3d2b20;
   --ink-medium: #5d4b3b;
   --ink-muted:  #8a7563;
