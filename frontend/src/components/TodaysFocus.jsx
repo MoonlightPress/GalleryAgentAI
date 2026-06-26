@@ -31,7 +31,7 @@ const ROLE_CONFIG = {
   },
 }
 
-function TodayCard({ card, role, isOpen, onDetails, hero }) {
+function TodayCard({ card, role, isOpen, onDetails }) {
   const { t: tFn, lang } = useLanguage()
   if (!card) return null
   const loc = (field) => locF(card, field, lang, tFn)
@@ -40,7 +40,7 @@ function TodayCard({ card, role, isOpen, onDetails, hero }) {
 
   return (
     <div
-      className={`tf-card${hero ? ' tf-card--hero' : ''}`}
+      className="tf-card"
       style={{ '--tf-accent': cfg.accent, '--tf-bg': cfg.bgLight, '--tf-border': cfg.border }}
     >
       <div className="tf-role-badge">
@@ -101,7 +101,6 @@ export default function TodaysFocus() {
   const [today, setToday] = useState(null)
   const [loading, setLoading] = useState(true)
   const [activeRole, setActiveRole] = useState(null)
-  const [showMore, setShowMore] = useState(false)
 
   function handleDetails(role) {
     setActiveRole(prev => prev === role ? null : role)
@@ -160,11 +159,9 @@ export default function TodaysFocus() {
     .sort((a, b) => (a.days - b.days) || (a.i - b.i))
     .map(x => x.s)
 
-  // Lead with ONE thing: the single highest-priority action stands alone, so an
-  // easily-overwhelmed reader meets a clear next step instead of a buffet. Any
-  // other picks wait quietly behind an opt-in "if you have more energy" toggle,
-  // and the feed only begins after this calm, finite block.
-  const [hero, ...rest] = orderedSlots
+  // The subtitle must match what's actually shown — never promise three and
+  // render two. tf.sub is the three-pick copy; tf.subN is count-aware.
+  const subKey = orderedSlots.length === 3 ? 'tf.sub' : 'tf.subN'
 
   return (
     <section className="tf-section">
@@ -172,39 +169,19 @@ export default function TodaysFocus() {
         <div className="tf-title-art">
           <h2 className="tf-section-title">{t('tf.title')}</h2>
         </div>
-        <p className="tf-section-sub">{t('tf.subOne')}</p>
+        <p className="tf-section-sub">{t(subKey, { n: orderedSlots.length })}</p>
       </div>
-
-      <div className="tf-hero-wrap">
-        <TodayCard
-          card={today[hero.key]}
-          role={hero.role}
-          isOpen={activeRole === hero.key}
-          onDetails={() => handleDetails(hero.key)}
-          hero
-        />
+      <div className="tf-grid" style={orderedSlots.length < 3 ? { gridTemplateColumns: `repeat(${orderedSlots.length}, 1fr)` } : undefined}>
+        {orderedSlots.map(s => (
+          <TodayCard
+            key={s.key}
+            card={today[s.key]}
+            role={s.role}
+            isOpen={activeRole === s.key}
+            onDetails={() => handleDetails(s.key)}
+          />
+        ))}
       </div>
-
-      {rest.length > 0 && (
-        <div className="tf-more">
-          <button className="tf-more-toggle" onClick={() => setShowMore(v => !v)}>
-            {showMore ? t('tf.more.hide') : t('tf.more.show', { n: rest.length })}
-          </button>
-          {showMore && (
-            <div className="tf-grid tf-more-grid" style={{ gridTemplateColumns: `repeat(${rest.length}, 1fr)` }}>
-              {rest.map(s => (
-                <TodayCard
-                  key={s.key}
-                  card={today[s.key]}
-                  role={s.role}
-                  isOpen={activeRole === s.key}
-                  onDetails={() => handleDetails(s.key)}
-                />
-              ))}
-            </div>
-          )}
-        </div>
-      )}
 
       {activeRole && today[activeRole] && (
         <OppDetailPanel
