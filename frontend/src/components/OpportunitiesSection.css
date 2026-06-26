@@ -114,12 +114,12 @@
    the parchment base + center/contain + multiply blend carry over from above. */
 #mochi_strongest_picks  .opp-section-title-row { background-image: url('/mochi/headers/H.webp'); }
 #open_calls             .opp-section-title-row { background-image: url('/mochi/headers/A.webp'); }
-#publication_editorial  .opp-section-title-row { background-image: url('/mochi/headers/B.webp'); }
 #competitions_awards    .opp-section-title-row { background-image: url('/mochi/headers/C.webp'); }
 #zines_and_print        .opp-section-title-row { background-image: url('/mochi/headers/D.webp'); }
 #watch_list             .opp-section-title-row { background-image: url('/mochi/headers/I.webp'); }
 #press_visibility       .opp-section-title-row { background-image: url('/mochi/headers/K.webp'); }
-#relationships          .opp-section-title-row { background-image: url('/mochi/headers/E.webp'); }
+/* People header = the favorites/toys piece (was the reward). Teaset (E) cut: too small. */
+#relationships          .opp-section-title-row { background-image: url('/mochi/headers/people_reward.webp'); }
 
 /* A little reward at the very end of People (the last section on the page): her
    favorites painted in, if she scrolls this far. White bg melts into the
