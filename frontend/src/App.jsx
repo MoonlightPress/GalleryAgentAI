@@ -62,12 +62,29 @@ function MochiIntro() {
   )
 }
 
-// A quiet watercolor band that closes every page with breathing room — the same
-// on all three companions (Mochi / Saffron / Peppercorn), so the dashboard ends
-// like a painting, not a web page: no links, nothing about the maker. It also
-// hosts the footer painting once the art is dropped in (see .atelier-footer CSS).
-function AtelierFooter() {
-  return <footer className="atelier-footer" aria-hidden="true" />
+// A watercolor band that closes every page with breathing room — and carries a
+// per-companion painting (cat = Mochi / bird = Saffron / mouse = Peppercorn), all
+// in the same atelier-shelf style so the set stays cohesive. No links, nothing
+// about the maker. The CSS wash shows until the painting loads (or if it 404s).
+const FOOTER_IMG = {
+  discover: '/mochi/footer/footer_mochi.webp',      // Mochi — the cat
+  observe:  '/mochi/footer/footer_saffron.webp',    // Saffron — the bird
+  refine:   '/mochi/footer/footer_peppercorn.webp', // Peppercorn — the mouse
+}
+function AtelierFooter({ page }) {
+  const src = FOOTER_IMG[page]
+  return (
+    <footer className="atelier-footer" aria-hidden="true">
+      {src && (
+        <img
+          className="atelier-footer-img"
+          src={src}
+          alt=""
+          onError={(e) => { e.currentTarget.style.display = 'none' }}
+        />
+      )}
+    </footer>
+  )
 }
 
 export default function App() {
@@ -116,7 +133,7 @@ export default function App() {
             {page === 'refine'  && <PeppercornPage nav={nav} />}
           </Suspense>
         )}
-        <AtelierFooter />
+        <AtelierFooter page={page} />
         <StatusBar />
       </div>
     </LanguageProvider>
