@@ -176,3 +176,23 @@ def build_digest(events, returning=None, day=None):
         lines.append(f"flow: {flow}")
 
     return "\n".join(lines)
+
+
+def run_flush(events, now, state, notifier):
+    """Post a digest for each newly-idle session, grouped per visitor. Returns
+    ``(new_state, count_posted)``. ``state`` maps visitor_id -> last-flushed ISO.
+    ``notifier(message: str)`` is injected (api.py passes notify_discord)."""
+    from collections import defaultdict
+
+    by_visitor = defaultdict(list)
+    for e in events or []:
+        by_visitor[e.get("visitor_id") or "anon"].append(e)
+
+    new_state = dict(state or {})
+    posted = 0
+    for vid, evs in by_visitor.items():
+        for sess, end in sessions_to_flush(evs, now, new_state.get(vid)):
+            notifier(build_digest(sess))
+            new_state[vid] = end.isoformat()
+            posted += 1
+    return new_state, posted

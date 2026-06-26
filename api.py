@@ -3370,6 +3370,40 @@ def _read_usage_events(path=None):
     return out
 
 
+def _flush_tick(now=None):
+    """One ticker iteration: flush any idle session to Discord exactly once."""
+    from engines.usage_report import run_flush
+
+    now = now or datetime.now(timezone.utc)
+    events = _read_usage_events()
+    state = _load_json(USAGE_STATE_PATH, {})
+    new_state, posted = run_flush(events, now, state, notify_discord)
+    if posted:
+        try:
+            _atomic_write_json(USAGE_STATE_PATH, new_state)
+        except Exception:
+            pass
+
+
+@app.on_event("startup")
+def _start_usage_ticker():
+    """Daemon thread that flushes idle-session digests. A thread (not asyncio)
+    keeps the blocking notify_discord POST off the event loop. Never crashes the
+    API — every tick is guarded."""
+    import threading
+    import time
+
+    def _loop():
+        while True:
+            time.sleep(TICK_SECONDS)
+            try:
+                _flush_tick()
+            except Exception:
+                pass
+
+    threading.Thread(target=_loop, daemon=True, name="usage-digest-ticker").start()
+
+
 @app.post("/api/event")
 async def track_event(request: Request):
     """Usage signal. Records every event to usage_events.jsonl for the idle

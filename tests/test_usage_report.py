@@ -4,6 +4,7 @@ from datetime import datetime, timezone, timedelta
 from engines.usage_report import (
     split_sessions, sessions_to_flush, dwell_by_page, most_time_on,
     interaction_counts, format_flow, build_digest, duration_minutes,
+    run_flush,
 )
 
 T0 = datetime(2026, 6, 26, 10, 0, 0, tzinfo=timezone.utc)
@@ -112,6 +113,31 @@ class BuildDigestTests(unittest.TestCase):
 
     def test_empty_events_degrade_safely(self):
         self.assertIsInstance(build_digest([]), str)
+
+
+class RunFlushTests(unittest.TestCase):
+    def _events(self):
+        return [
+            _ev(0, type="open", page="discover", visitor_id="v1"),
+            _ev(3, type="action", action="follow", category="zine", visitor_id="v1"),
+        ]
+
+    def test_posts_one_digest_for_idle_session(self):
+        posted = []
+        now = T0 + timedelta(minutes=20)
+        state, count = run_flush(self._events(), now, {}, notifier=posted.append)
+        self.assertEqual(count, 1)
+        self.assertEqual(len(posted), 1)
+        self.assertIn("Session wrap-up", posted[0])
+        self.assertIn("v1", state)
+
+    def test_second_run_does_not_repost(self):
+        now = T0 + timedelta(minutes=20)
+        state, _ = run_flush(self._events(), now, {}, notifier=lambda m: None)
+        posted = []
+        state2, count = run_flush(self._events(), now, state, notifier=posted.append)
+        self.assertEqual(count, 0)
+        self.assertEqual(posted, [])
 
 
 if __name__ == "__main__":
