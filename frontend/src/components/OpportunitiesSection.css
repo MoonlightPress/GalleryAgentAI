@@ -45,6 +45,8 @@
 .opp-section {
   max-width: 1400px;
   margin: 0 auto 6px;
+  /* A quick-nav jump must clear the sticky nav + sub-bar, or the banner lands hidden behind them. */
+  scroll-margin-top: calc(var(--nav-height, 54px) + 52px);
 }
 /* Consistent lead space between sections, so a section that doesn't end in a
    "show more" button isn't jammed against the next header (Scott). */
@@ -229,12 +231,12 @@
     gap: 3px;
   }
   .opp-section-title,
-  .opp-section-desc { max-width: 56%; }   /* keep the text clear of the right-side art */
+  .opp-section-desc { max-width: 60%; }   /* keep the text clear of the right-side art */
   .opp-section-title,
   .opp-section--secondary .opp-section-title { font-size: 18px; }   /* override the desktop --secondary size so 6-7 char zh titles stay on one line */
   .opp-section--strongest .opp-section-title { font-size: 19px; }
-  /* Force one line so the band can't balloon — short zh titles fit; a long title ellipses. */
-  .opp-section-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  /* zh titles stay one line; long EN titles wrap to two instead of ellipsizing/truncating. */
+  .opp-section-title { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   /* Clamp the subheader to 2 lines so the narrow column can't balloon the band. */
   .opp-section-desc {
     text-align: left;

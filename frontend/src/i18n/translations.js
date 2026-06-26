@@ -82,11 +82,11 @@ const zh = {
 
   // ── Opportunities section ─────────────────────────────────────────────────
   'opps.loading':            '让麻薯帮你找点好东西…',
-  'opps.error':              '无法连接麻薯API — python api.py 是否正在运行？',
+  'opps.error':              '麻薯暂时连不上，请稍后再试一次。',
   'opps.showMore':           '显示更多',
   'opps.moreCount':          '还有{n}个',
   'opps.strongest.title':    '麻薯的精选推荐',
-  'opps.strongest.desc':     '三个看起来已就绪、契合信号清晰的建议。分数留在幕后。',
+  'opps.strongest.desc':     '几个看起来已就绪、契合信号清晰的建议。分数留在幕后。',
   'opps.browseHint':         '浏览完整列表。看到不合适的随手标记。',
   'opps.showingCount':       '已显示 {total} 个中的 {shown} 个',
   'opps.hiddenCount':        '已从此面板隐藏：{n}',
@@ -238,9 +238,9 @@ const zh = {
   'sf.cat.strategy':         '策略',
   'sf.cat.calendar':         '日历',
   'sf.cat.direction':        '方向',
-  'sf.catDesc.standing':     '她目前的处境',
+  'sf.catDesc.standing':     '你目前的处境',
   'sf.catDesc.direction':    '策略、长期路径、应积累的方向',
-  'sf.catDesc.market':       '市场环境、时机、同行与她的履历',
+  'sf.catDesc.market':       '市场环境、时机、同行与你的履历',
   'sf.catDesc.relationships':'媒体、推介对象、合作、场地',
   'sf.catDesc.money':        '收入、定价、补助、授权',
   'sf.bottomNavLabel':       '深入某个主题',
@@ -265,7 +265,7 @@ const zh = {
   'sf.front.areaOpenings':   '{n} 个公开征集',
   'sf.front.areaVenues':     '{n} 个场地',
   'sf.front.areaMoney':      '定价 · 补助 · 收入',
-  'sf.ov.herRecord':         '她的履历',
+  'sf.ov.herRecord':         '你的履历',
   'sf.ov.theMarket':         '当前市场',
   'sf.ov.openOpps':          '可申请机会',
   'sf.ov.topOpp':            '最高匹配',
@@ -277,7 +277,7 @@ const zh = {
   'sf.ov.oneLittleThing':    '若要让这一切更进一步，有一件小事最有帮助：',
   'sf.ov.ifBrowsing':        '另外，本月有 {n} 个公开征集即将截止，若想看看——',
   'sf.ov.deepDives':         '你的对标、市场、媒体与收入分析都在上方的标签里——随时可以深入。',
-  'sf.error':                '山楂需要麻薯API — python api.py',
+  'sf.error':                '山楂暂时连不上，请稍后再试一次。',
   'sf.missing.askPepper':    '{label} — 去问胡椒粒',
 
   'sf.sec.careerPosition':   '职业定位',
@@ -582,7 +582,7 @@ const zh = {
   'pp.track.gallery.label':     '画廊与展览赛道',
   'pp.track.gallery.desc':      '群展、公开征集、画廊关系',
   'pp.track.hybrid.label':      '两者并行',
-  'pp.track.hybrid.desc':       '鉴于她目前的实践，这是最自然的选择',
+  'pp.track.hybrid.desc':       '鉴于你目前的实践，这是最自然的选择',
 
   'pp.avoid.photography_calls':    '以摄影为主的公开征集',
   'pp.avoid.high_fees':            '报名费超过10,000日元 / $60',
@@ -689,7 +689,7 @@ const zh = {
   // ── Exhibition threshold content ──────────────────────────────────────────
   'pp.shows.meta':           'ACG_Labo · 东京原宿 · 2023年2月 · 群展，6位中国插画师',
   'pp.shows.thresh.1':       '已建立的存在感。一个可信的起点。但尚未形成规律。',
-  'pp.shows.thresh.2':       '模式开始形成。"一次幸运的群展"这种印象消散了。她是一个持续参展的人，而不是曾经参过展的人。',
+  'pp.shows.thresh.2':       '模式开始形成。"一次幸运的群展"这种印象消散了。你是一个持续参展的人，而不再是曾经参过展的人。',
   'pp.shows.thresh.3':       '关键里程碑。东京大多数画廊将3次群展经历视为讨论个展的最低门槛。达到3次，才能解锁职业弧线的下一阶段。',
   'pp.shows.thresh.5':       '展览履历扎实。驻留申请变得有竞争力。机构公开征集 — TOKAS、BankART1929、Youkobo — 从可望不可即变为切实可行。',
   'pp.shows.3331.desc':      '定期循环公开征集。艺术家自营氛围。对在东京的国际艺术家友好。',
@@ -976,7 +976,7 @@ const zh = {
   'pp.crm.statusLabel.submitted':      '已提交',
   'pp.crm.statusLabel.ongoing':        '持续关系',
   'pp.crm.statusLabel.rejected':       '未通过',
-  'pp.loadError':               '无法加载胡椒粒 — 请确认 python api.py 正在运行',
+  'pp.loadError':               '胡椒粒暂时连不上，请稍后再试一次。',
 
   // ── Today's Focus ───────────────────────────────────────────────────────
   'tf.title':                  '今日重点',
@@ -1305,7 +1305,7 @@ const ja = {
 
   // ── Opportunities ─────────────────────────────────────────────────────────
   'opps.loading':            'モチが機会を整理しています…',
-  'opps.error':              'Mochi APIに接続できません — python api.py は起動していますか？',
+  'opps.error':              'Mochiに接続できません。少し時間をおいて再度お試しください。',
   'opps.showMore':           'もっと見る',
   'opps.moreCount':          'あと{n}件',
 
@@ -1445,7 +1445,7 @@ const ja = {
   'sf.ov.oneLittleThing':    'すべてをもう一段引き上げる小さな一手があるとすれば、これです：',
   'sf.ov.ifBrowsing':        'それと今月、{n} 件の公募が静かに締切を迎えます。気が向いたら——',
   'sf.ov.deepDives':         'ベンチマーク・市場・メディア・収入の分析は上のタブから、いつでも深く見られます。',
-  'sf.error':                'サフランにはMochi APIが必要です — python api.py',
+  'sf.error':                'サフランは少し休憩中です。少し時間をおいてお試しください。',
   'sf.missing.askPepper':    '{label} — ペッパーコーンに聞いて',
 
   'sf.sec.careerPosition':   'キャリアポジション',
@@ -2032,7 +2032,7 @@ const ja = {
   'pp.crm.statusLabel.submitted':      '提出済み',
   'pp.crm.statusLabel.ongoing':        '継続関係',
   'pp.crm.statusLabel.rejected':       '不採択',
-  'pp.loadError':               'ペッパーコーンを読み込めません — python api.py が起動しているか確認してください',
+  'pp.loadError':               'ペッパーコーンを読み込めません。少し時間をおいてお試しください。',
 
   // ── Today's Focus ───────────────────────────────────────────────────────
   'tf.title':                  '今日のフォーカス',
@@ -2349,7 +2349,7 @@ const en = {
   'sf.gap.tracked':          'tracked',
 
   'opps.loading':            'Let\'s find you something good…',
-  'opps.error':              'Could not reach the Mochi API — is python api.py running?',
+  'opps.error':              'Mochi is having a quiet moment. Please try again in a little while.',
   'opps.showMore':           'Show more',
   'opps.moreCount':          '{n} more',
   'opps.browseHint':         'Browse the full set. Mark anything that feels wrong.',
@@ -2358,7 +2358,7 @@ const en = {
   'opps.showMoreCount':      'Show {n} more',
   'opps.showLess':           'Show less',
   'opps.strongest.title':    'Mochi\'s strongest picks',
-  'opps.strongest.desc':     'Three ready-looking suggestions with clear fit signals. Scores stay behind the curtain.',
+  'opps.strongest.desc':     'A few ready-looking suggestions with clear fit signals. Scores stay behind the curtain.',
 
   'card.details':            'Details',
   'card.close':              'Close',
@@ -2464,9 +2464,9 @@ const en = {
   'sf.cat.strategy':         'Strategy',
   'sf.cat.calendar':         'Calendar',
   'sf.cat.direction':        'Direction',
-  'sf.catDesc.standing':     'Where she stands right now',
+  'sf.catDesc.standing':     'Where you stand right now',
   'sf.catDesc.direction':    'Strategy, long-term paths, what to build toward',
-  'sf.catDesc.market':       'The landscape, timing, peers, and her record',
+  'sf.catDesc.market':       'The landscape, timing, peers, and your record',
   'sf.catDesc.relationships':'Press, pitch targets, collaborations, venues',
   'sf.catDesc.money':        'Revenue, pricing, grants, licensing',
   'sf.bottomNavLabel':       'Drill into a theme',
@@ -2491,7 +2491,7 @@ const en = {
   'sf.front.areaOpenings':   '{n} open calls',
   'sf.front.areaVenues':     '{n} venues tracked',
   'sf.front.areaMoney':      'pricing · grants · revenue',
-  'sf.ov.herRecord':         'Her record',
+  'sf.ov.herRecord':         'Your record',
   'sf.ov.theMarket':         'The market right now',
   'sf.ov.openOpps':          'Open opportunities',
   'sf.ov.topOpp':            'Top-scored match',
@@ -2503,7 +2503,7 @@ const en = {
   'sf.ov.oneLittleThing':    "If one small thing would lift all of it, it's this:",
   'sf.ov.ifBrowsing':        "And {n} open calls quietly close this month, if you feel like browsing —",
   'sf.ov.deepDives':         "Your benchmarks, the market, press, and the money side are all in the tabs above — whenever you want to go deeper.",
-  'sf.error':                'Saffron needs the Mochi API — python api.py',
+  'sf.error':                'Saffron is having a quiet moment. Please try again in a little while.',
   'sf.missing.askPepper':    '{label} — ask Peppercorn',
 
   'sf.sec.careerPosition':   'Career Position',
@@ -2571,7 +2571,7 @@ const en = {
   'sf.label.japanMedia':     'Japanese media',
   'sf.label.pitchTargets':   'Pitch targets',
   'sf.label.fairsPipeline':  'Fairs coming up that draw buyers',
-  'sf.label.herPubs':        'Her publications',
+  'sf.label.herPubs':        'Your publications',
   'sf.label.pubIntent':      'Planned next publication (from Peppercorn)',
   'sf.label.pubTiers':       'Publication tiers',
   'sf.label.topTargets':     'Top targets ({n})',
@@ -3132,7 +3132,7 @@ const en = {
   'pp.crm.statusLabel.submitted':      'Submitted',
   'pp.crm.statusLabel.ongoing':        'Ongoing',
   'pp.crm.statusLabel.rejected':       'Rejected',
-  'pp.loadError':               'Could not load Peppercorn — is python api.py running?',
+  'pp.loadError':               'Peppercorn is having a quiet moment. Please try again in a little while.',
 
   // ── Today's Focus ───────────────────────────────────────────────────────
   'tf.title':                  "Today's Focus",

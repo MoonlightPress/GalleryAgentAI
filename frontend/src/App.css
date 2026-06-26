@@ -96,3 +96,14 @@
   color: #fff;
   border-color: var(--gold, #c8a84b);
 }
+
+/* Respect reduced-motion: near-kill animations/transitions/smooth-scroll for
+   motion-sensitive users (the hero poem's auto-rotate is also gated in HeroSection.jsx). */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

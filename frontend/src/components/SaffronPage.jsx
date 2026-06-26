@@ -2379,7 +2379,8 @@ export default function SaffronPage({ nav }) {
       if (!content) return
       const target = content.querySelector('.sf-section') || content
       // sticky tab bar sits at top:54px (below the nav); offset by its full height.
-      const stickyOffset = 54 + (tabs ? tabs.offsetHeight : 48) + 10
+      const navH = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height'), 10) || 54
+      const stickyOffset = navH + (tabs ? tabs.offsetHeight : 48) + 10
       const top = target.getBoundingClientRect().top + window.scrollY - stickyOffset
       window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' })
     })
@@ -2396,7 +2397,7 @@ export default function SaffronPage({ nav }) {
 
       {error && (
         <div className="sf-error">
-          {t('sf.error')} — <code>python api.py</code>
+          {t('sf.error')}
         </div>
       )}
 

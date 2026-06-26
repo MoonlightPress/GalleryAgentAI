@@ -11,6 +11,8 @@ export default function HeroSection() {
 
   // Gently rotate the poem.
   useEffect(() => {
+    // Don't auto-rotate the poem for motion-sensitive users — show one, hold it.
+    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return
     const id = setInterval(() => {
       setShown(false)
       setTimeout(() => {

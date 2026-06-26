@@ -528,7 +528,7 @@ def _email_category(category: str) -> str:
     return "general"
 
 
-_SCORE_CAP_ZH = "来源与核实可靠性有限，评分已上调至 {}。"
+_SCORE_CAP_ZH = "来源与核实可靠性有限，评分已限制在 {}。"
 _SCORE_CAP_JA = "ソース・検証の信頼性に限りがあるため、スコアは {} に調整されています。"
 
 # Reason phrases that follow "Score capped at N: ..." — translated deterministically
@@ -613,11 +613,11 @@ def _translate_warning(note: str) -> tuple[str, str]:
 
 def email_zh(organization: str, category: str) -> str:
     kind = _email_category(category)
-    ask = {"zine": "艺术书籍或ZINE的寄售合作",
+    ask = {"zine": "艺术书籍或独立刊物的寄售",
            "residency": "项目及申请方式"}.get(kind, "展览提案或公开征集")
     return f"""主题：艺术家合作咨询
 
-{organization} 负责人您好，
+{organization} 负责人：
 
 您好！我是GEGYjiji，一位旅居东京的水彩艺术家。我的创作主要关注城市风景、建筑空间、日常室内环境与光线，以及那些静谧的、承载记忆的空间氛围。
 
@@ -704,7 +704,7 @@ _CN = {
     "Link confirmed live":                      ("链接已确认有效",                 "リンク確認済み"),
     "Email contact available":                  ("可通过邮件联系",                 "メール連絡先あり"),
     "Find submission page or contact":          ("请查找投稿页面或联系方式",       "応募ページまたは連絡先をご確認ください"),
-    "On file in Peppercorn":                    ("已存于Peppercorn",               "Peppercornに保存済み"),
+    "On file in Peppercorn":                    ("已存于胡椒粒",               "Peppercornに保存済み"),
     "Watercolor series available":              ("水彩系列作品已备好",             "水彩シリーズ作品準備完了"),
     "Draft available in Details":               ("详情页已有草稿",                 "詳細ページに下書きあり"),
     "Rolling — pitch anytime":                  ("常年开放，可随时投稿",           "通年・いつでも応募可"),
