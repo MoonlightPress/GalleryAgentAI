@@ -311,6 +311,16 @@ export default function RelationshipTargets() {
           />
         ))}
       </div>
+      {/* A little reward at the very end of the page: her favorites (Bread Thief,
+          Chiikawa), if she scrolls this far. */}
+      <div className="rt-reward" aria-hidden="true">
+        <img
+          className="rt-reward-img"
+          src={`${import.meta.env.BASE_URL}headers/people_reward.webp`}
+          alt=""
+          loading="lazy"
+        />
+      </div>
     </section>
   )
 }
