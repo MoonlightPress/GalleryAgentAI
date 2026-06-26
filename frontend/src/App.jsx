@@ -115,7 +115,6 @@ export default function App() {
         {page === 'discover' && view === 'cards' && <QuickNav />}
         {page === 'discover' && <MochiIntro />}
         {page === 'discover' && <TrackedSection section="today_focus"><TodaysFocus /></TrackedSection>}
-        {page === 'discover' && <ViewToggle view={view} setView={setView} />}
         {page === 'discover' && view === 'cards'    && <TrackedSection section="open_calls"><OpportunitiesSection /></TrackedSection>}
         {/* People (RelationshipTargets) mounts INSIDE the same padded .opps-root
             container the opportunity cards use, so its .rt-section inherits the
@@ -129,7 +128,6 @@ export default function App() {
           </TrackedSection>
         )}
         {page === 'discover' && view === 'cards'    && <TrackedSection section="tracker"><TrackerSection /></TrackedSection>}
-        {page === 'discover' && view === 'calendar' && <DeadlineCalendar />}
         {page === 'discover' && <AtelierFooter page="discover" />}
         {(page === 'observe' || page === 'refine') && (
           <Suspense fallback={<PageFallback page={page} />}>

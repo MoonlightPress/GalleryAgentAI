@@ -705,6 +705,7 @@
   color: #9a7040;
   font-style: italic;
   white-space: nowrap;
+  margin-left: auto;   /* push the deadline to the right edge so the card isn't half-blank */
 }
 
 .sf-cal-rolling {
