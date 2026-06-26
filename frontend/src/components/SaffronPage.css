@@ -663,11 +663,10 @@
 
 .sf-cal-opp {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
   gap: 8px;
   min-width: 0;
-  overflow-wrap: anywhere;
 }
 
 /* Phone: stack the month label over its list so long opportunity names wrap
@@ -697,6 +696,11 @@
   font-size: 13px;
   color: #3d2b1a;
   line-height: 1.4;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .sf-cal-dl {
