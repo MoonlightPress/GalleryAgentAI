@@ -11,7 +11,7 @@
 .peppercorn-page {
   display: flex;
   flex-direction: column;
-  background: #ede5d2;
+  background: var(--parchment);   /* track Mochi + Saffron, never drift */
   min-height: 100vh;
 }
 
