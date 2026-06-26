@@ -676,6 +676,12 @@ _DEADLINE_EMPTY = frozenset({
     "varies", "check site", "see website", "none", "check source",
 })
 
+# Evergreen / always-open deadlines: their raw English text ("No fixed deadline —
+# proposal-based", "Rolling", "anytime") would otherwise leak into the zh/ja UI.
+_DEADLINE_ROLLING = ("rolling", "ongoing", "year-round", "year round",
+                     "open submission", "anytime", "proposal-based",
+                     "no fixed deadline", "open call")
+
 
 _CL = {
     # label → (zh, ja)
@@ -701,6 +707,7 @@ _CN = {
     "On file in Peppercorn":                    ("已存于Peppercorn",               "Peppercornに保存済み"),
     "Watercolor series available":              ("水彩系列作品已备好",             "水彩シリーズ作品準備完了"),
     "Draft available in Details":               ("详情页已有草稿",                 "詳細ページに下書きあり"),
+    "Rolling — pitch anytime":                  ("常年开放，可随时投稿",           "通年・いつでも応募可"),
     "Physical publication needed for this opportunity": ("此机会需要实体出版物", "この機会には実物の出版物が必要です"),
 }
 
@@ -727,6 +734,8 @@ def _build_checklist(opp: dict) -> list:
     dl = str(opp.get("deadline", "")).strip().lower()
     if dl in _DEADLINE_EMPTY:
         items.append(_ci("Deadline", "check", "Not yet confirmed — verify on site"))
+    elif any(term in dl for term in _DEADLINE_ROLLING):
+        items.append(_ci("Deadline", "ready", "Rolling — pitch anytime"))
     elif opp.get("deadline_verified"):
         items.append(_ci("Deadline", "ready", opp.get("deadline", "")))
     else:
