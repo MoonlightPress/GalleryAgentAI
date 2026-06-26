@@ -321,6 +321,14 @@ export default function RelationshipTargets() {
           loading="lazy"
         />
       </div>
+      <div className="rt-reward rt-reward--wide" aria-hidden="true">
+        <img
+          className="rt-reward-img rt-reward-img--wide"
+          src={`${import.meta.env.BASE_URL}headers/J.webp`}
+          alt=""
+          loading="lazy"
+        />
+      </div>
     </section>
   )
 }
