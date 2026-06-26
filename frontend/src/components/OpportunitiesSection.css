@@ -107,7 +107,7 @@
   position: relative;
   /* White-bg art + multiply = the white melts to the page cream (no box, any
      page color); the painting blends on top. Same trick as the icon set. */
-  background: var(--parchment) url('/mochi/headers/header_section.webp') center / cover no-repeat;
+  background: var(--parchment) url('/mochi/headers/header_section.webp') center / contain no-repeat;
   background-blend-mode: multiply;
 }
 .opp-section-title-row::before,
