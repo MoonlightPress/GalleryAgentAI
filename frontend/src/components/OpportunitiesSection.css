@@ -36,9 +36,7 @@
   padding-top: 12px;
 }
 
-.opp-section--strongest .opp-section-header {
-  border-bottom-style: dashed;
-}
+/* (no dashed underline on Strongest Picks — Scott) */
 
 .opp-grid--strongest {
   grid-template-columns: repeat(3, minmax(0, 1fr));
