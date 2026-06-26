@@ -287,7 +287,6 @@ export default function OppDetailPanel({ opp, onClose }) {
                       margin: '0 0 8px',
                       padding: '6px 10px',
                       background: 'rgba(184, 137, 42, 0.08)',
-                      borderLeft: '2px solid var(--gold, #b8892a)',
                       borderRadius: '4px',
                       color: 'var(--ink-muted)',
                       fontSize: '12px',
