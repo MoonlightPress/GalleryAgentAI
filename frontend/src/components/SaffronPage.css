@@ -67,7 +67,7 @@
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   margin-bottom: 8px;
-  background: #fdf8ee;
+  background: #FAF4E6;   /* match the opportunity cards (Scott) */
   border-bottom: 1px solid #e8d5a8;
   box-shadow: 0 3px 8px rgba(120, 90, 30, 0.06);
 }
