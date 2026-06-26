@@ -115,20 +115,18 @@ Based: Tokyo. Watercolor. Daily diary practice since 2020. Colour Diary (2021).
 """.strip()
 
 
-# A rotating pool of TRUE images from her world, so each draft leans on a
-# different one instead of recycling "red walls / alleyways / pools / green
-# ponds" in every email (Lore's anti-sameness rule).
-PRACTICE_IMAGES = [
-    "interior light moving across an ordinary room",
-    "a cat asleep on a sunlit windowsill",
-    "rain-grey Tokyo streets",
-    "a familiar park corner she passes often",
-    "red walls and a narrow alley",
-    "a quiet swimming pool, a green pond",
-    "curtains and the afternoon shadow they cast",
-    "the seasons turning in her neighbourhood",
-    "a kitchen table in the early morning",
-    "puddles holding the colour of the sky",
+# She paints PLACES — ordinary locations and their quiet atmosphere — NOT a list
+# of objects or colours. Each draft leads with a different place so the emails
+# vary naturally, without ever cataloguing "red walls / alleyways / pools…".
+PRACTICE_PLACES = [
+    "a quiet room at home",
+    "a street corner she passes every day",
+    "a neighbourhood park",
+    "the view from a train window as the seasons change",
+    "an ordinary corner of the city most people walk past",
+    "a familiar place seen in a new light",
+    "the rooms and streets of everyday life",
+    "a station or a café she knows well",
 ]
 
 # Category → (tone_key, action, max_sentences). Language is decided separately by
@@ -258,7 +256,7 @@ def pick_tone_action(opp: dict):
     return tone_key, action, n
 
 
-def build_prompt(opp: dict, analysis: str, artist_context: str, lang: str, image_hint: str) -> str:
+def build_prompt(opp: dict, analysis: str, artist_context: str, lang: str, place_hint: str) -> str:
     name     = opp.get("name") or opp.get("title") or "Unknown"
     org      = opp.get("organization", "") or ""
     category = opp.get("category", "") or ""
@@ -310,12 +308,12 @@ Write a short, specific {action} from GEGYjiji to {name}.
 HARD RULES:
 - OPENER: do NOT start with "I am writing to inquire/ask about…", "I am reaching out regarding…", or any throat-clear. Open with ONE true, specific detail about THIS venue (its neighbourhood, format, or programme), or a plain human line.
 - NO INVENTED AESTHETIC: use only venue facts given above. If they are thin, open on a neutral verifiable fact (location, format, programme type). NEVER claim the venue is "quiet/intimate/champions X" unless the data says so. If the data WARNS against assuming a fit, do not assert the opposite.
-- ONE practice-statement, phrased freshly. Ground it in THIS image and ONLY this image: "{image_hint}". Do NOT list several images. NEVER use the words 赤い壁／路地／プール／緑の池 or "red walls / alleyways / pools / green ponds" — that exact list is overused across her emails and is banned here.
+- ONE practice-statement, phrased freshly. Describe her work as painting ORDINARY PLACES and the quiet atmosphere of everyday life — lead this draft with {place_hint}. Name a PLACE or its feeling in one natural sentence. Do NOT list objects or colours, and NEVER catalogue "red walls / alleyways / pools / green ponds" (赤い壁／路地／プール／緑の池) — an inventory of things reads like a form letter, not a person.
 - NAME ONE work that fits: Colour Diary + the daily diary for zine/book/café/consignment; Tide from China for gallery/exhibition contexts. Don't dump her whole CV — a café needs only the diary + Colour Diary.
 - DEADLINE: if a real FUTURE deadline is given above, mention it. Do not ask for information that is already public.
 - Mention Instagram @gegyjiji (https://www.instagram.com/gegyjiji/) once, naturally. No Twitter/X. Leave a clean slot for her name + portfolio link at the sign-off.
 - Render the venue's name in the email's own language; do not embed Japanese script inside an English sentence (or vice-versa).
-- Plain text only — no markdown, asterisks, or [brackets]. Subject and body must agree (edition numbers, years). Sign off as: GEGYjiji
+- Plain text only. No markdown, asterisks, or [brackets]. NEVER use em dashes (— or ―); use commas, periods, or 、。 instead. Subject and body must agree (edition numbers, years). Sign off as: GEGYjiji
 
 Output the email text only, nothing else."""
 
@@ -323,9 +321,14 @@ Output the email text only, nothing else."""
 _GARBLE_FIXES = {"コンスメント": "コンサインメント"}
 
 
-def lint_draft(draft: str) -> str:
+def lint_draft(draft: str, lang: str = "en") -> str:
     for bad, good in _GARBLE_FIXES.items():
         draft = draft.replace(bad, good)
+    # No em dashes, ever (Scott's standing rule — they read as machine-written).
+    sep = "、" if lang in ("ja", "zh") else ", "
+    for dash in ("――", "—", "―"):
+        draft = draft.replace(dash, sep)
+    draft = draft.replace("、、", "、").replace(", ,", ",").replace("  ", " ")
     return draft
 
 
@@ -414,11 +417,6 @@ def main():
             print(f"  - {str(nm)[:46]:<46} {why}")
         return
 
-    # Fresh run: clear stale drafts so the folder holds only this run's files
-    # (old runs left ibm_*.txt under different slugs, piling up confusingly).
-    for f in OUT_DIR.glob("ibm_*.txt"):
-        f.unlink()
-
     api_key = _load_api_key()
     if not api_key:
         print("ERROR: ANTHROPIC_API_KEY not found."); sys.exit(1)
@@ -427,25 +425,34 @@ def main():
     artist_context = load_artist_context()
 
     print(f"Writing {len(targets)} drafts (top per section); skipping {len(skipped)} no-email venues.")
-    errors = 0
+    errors, written = 0, set()
     for i, opp in enumerate(targets, 1):
         name = opp.get("name") or opp.get("title") or "Unknown"
         lang = venue_language(opp)
-        image_hint = PRACTICE_IMAGES[(i - 1) % len(PRACTICE_IMAGES)]
+        place_hint = PRACTICE_PLACES[(i - 1) % len(PRACTICE_PLACES)]
         print(f"  [{i:2d}/{len(targets)}] {name[:46]:<46} ({lang})", end=" ", flush=True)
         analysis = find_analysis(name)
-        prompt = build_prompt(opp, analysis, artist_context, lang, image_hint)
+        prompt = build_prompt(opp, analysis, artist_context, lang, place_hint)
         try:
-            draft = lint_draft(call_claude(client, prompt))
+            draft = lint_draft(call_claude(client, prompt), lang)
             opp["email_ja"] = opp.get("email_ja") or ""
             opp["email_en"] = opp.get("email_en") or ""
             opp["email_zh"] = opp.get("email_zh") or ""
             opp[f"email_{lang}"] = draft
-            (OUT_DIR / f"ibm_{i:02d}_{slug(name)[:48]}.txt").write_text(draft, encoding="utf-8")
+            fname = f"ibm_{i:02d}_{slug(name)[:48]}.txt"
+            (OUT_DIR / fname).write_text(draft, encoding="utf-8")
+            written.add(fname)
             print("ok")
         except Exception as e:
             print(f"ERROR: {e}"); errors += 1
         time.sleep(0.25)
+
+    # Prune stale drafts ONLY if we produced new ones — never leave the folder
+    # empty because a run failed (e.g. out of API credits or a network error).
+    if written:
+        for f in OUT_DIR.glob("ibm_*.txt"):
+            if f.name not in written:
+                f.unlink()
 
     OPP_PATH.write_text(json.dumps(opps, ensure_ascii=False, indent=2), encoding="utf-8")
     if master.get("email_drafts_stale") and errors == 0:
