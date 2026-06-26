@@ -14,9 +14,12 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  margin-top: clamp(40px, 6vw, 72px);
+  margin-top: clamp(12px, 1.6vw, 22px);            /* much less headspace (Scott) */
   height: clamp(110px, 13vw, 168px);
-  border-top: 1px solid rgba(160, 124, 46, 0.16);
+  /* The footer cream differs from the page, so frame it deliberately: a darker
+     buffer line + a soft drop shadow above, so it reads as a footer, not a seam. */
+  border-top: 1px solid rgba(120, 90, 40, 0.32);
+  box-shadow: 0 -4px 12px rgba(80, 55, 30, 0.09);
   /* Watercolor wash, shown until the per-companion painting loads (or if it 404s). */
   background:
     radial-gradient(135% 95% at 16% 135%, rgba(196, 122, 53, 0.10), transparent 62%),
