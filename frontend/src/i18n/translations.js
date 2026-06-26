@@ -294,7 +294,7 @@ const zh = {
   'sf.sub.audienceGeo':      '你的粉丝在哪里，哪些市场活跃，机会在哪里汇聚。',
   'sf.sum.audienceGeo':      '暂无受众位置数据 — 需要胡椒粒去问',
   'sf.sec.benchmarks':       '职业基准',
-  'sf.sub.benchmarks':       '你与同阶段艺术家的横向比较。',
+  'sf.sub.benchmarks':       '在同阶段的艺术家中，你已经达到或领先的那些方面。',
   'sf.sec.calendar':         '季节性机会日历',
   'sf.sub.calendar':         '哪些机会在何时开放，以及何时准备。',
   'sf.sec.press':            '媒体报道',
@@ -317,7 +317,7 @@ const zh = {
   'sf.sub.openQs':           '山楂还不知道、但会改变分析结果的事情。',
 
   'sf.sec.momentum':         '职业动能追踪',
-  'sf.sub.momentum':         '提交记录、场馆联系与响应率 — 基于真实数据自动更新。',
+  'sf.sub.momentum':         '你记录下来的投递、场馆联系与回复——随你记录而更新。',
   'sf.mom.totalSubmissions': '投递总数',
   'sf.mom.venuesInCRM':      '场地名单',
   'sf.mom.responses':        '收到回复',
@@ -707,7 +707,7 @@ const zh = {
   'pp.carousel.shows.name':         '群展经历',
   'pp.carousel.shows.desc':         '东京画廊通常要求至少3次群展经历才会讨论个展',
   'pp.carousel.qs.name':            '来自山楂的提问',
-  'pp.carousel.qs.desc.0':          '山楂目前的分析依据不完整',
+  'pp.carousel.qs.desc.0':          '多说一点，山楂就更懂你',
   'pp.carousel.qs.desc.building':   '已答{n}题 — 山楂正在建立画像',
   'pp.carousel.qs.desc.partial':    '山楂已有足够的局部分析依据',
   'pp.carousel.qs.desc.done':       '山楂目前已有所需的一切',
@@ -1036,7 +1036,7 @@ const zh = {
   'people.toast.reached':    '已记录，加油！',
 
   // ── Dismissal insight banner ──────────────────────────────────────────────
-  'pp.dismissal.text':    '您已跳过了{n}个{cat}机会。要减少此类推荐吗？',
+  'pp.dismissal.text':    '你已跳过了{n}个{cat}机会。要减少此类推荐吗？',
   'pp.dismissal.confirm': '好的，减少',
   'pp.dismissal.skip':    '继续显示',
 
