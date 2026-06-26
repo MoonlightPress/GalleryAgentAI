@@ -227,7 +227,8 @@ const zh = {
 
 
   // ── Saffron page ──────────────────────────────────────────────────────────
-  'sf.loading':              '山楂正在观察…',
+  'sf.loading':              '山楂在为你俯瞰全局…',
+  'loading.peppercorn':      '胡椒粒在四处找找碎屑…',
   'sf.cat.standing':         '概览',
   'sf.cat.market':           '市场环境',
   'sf.cat.relationships':    '人脉与媒体',
@@ -939,7 +940,7 @@ const zh = {
   'pp.contacts.ready':          '{n}位待联系',
   'pp.contacts.active':         '{n}位进行中',
   'pp.contacts.researching':    '{n}位调研中',
-  'pp.contacts.loading':        '正在加载联系人…',
+  'pp.contacts.loading':        '胡椒粒在四处找找碎屑…',
   'pp.contacts.emptyAll':       '暂时还没有联系人。发现场地后会自动加入这里。',
   'pp.contacts.emptyFilter':    '该分类下暂无联系人。',
   'pp.contacts.filter.all':     '全部',
@@ -2452,7 +2453,8 @@ const en = {
   'cat.emerging_artist_award':       'Emerging Artist Award',
 
 
-  'sf.loading':              'Saffron is watching…',
+  'sf.loading':              'Getting a bird\'s eye view…',
+  'loading.peppercorn':      'Looking for crumbs…',
   'sf.cat.standing':         'Overview',
   'sf.cat.market':           'The Market',
   'sf.cat.relationships':    'People & Press',
@@ -3094,7 +3096,7 @@ const en = {
   'pp.contacts.ready':          '{n} ready to reach out',
   'pp.contacts.active':         '{n} active',
   'pp.contacts.researching':    '{n} researching',
-  'pp.contacts.loading':        'Loading contacts…',
+  'pp.contacts.loading':        'Looking for crumbs…',
   'pp.contacts.emptyAll':       'No contacts yet — they\'ll appear here as venues are discovered.',
   'pp.contacts.emptyFilter':    'No contacts in this category.',
   'pp.contacts.filter.all':     'All',

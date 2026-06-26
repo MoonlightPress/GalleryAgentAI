@@ -15,11 +15,14 @@ import { track } from './utils/track'
 const SaffronPage = lazy(() => import('./components/SaffronPage'))
 const PeppercornPage = lazy(() => import('./components/PeppercornPage'))
 
-function PageFallback() {
+function PageFallback({ page }) {
   const { t } = useLanguage()
+  // Each companion gets its own loading line: bird's-eye view (Saffron),
+  // looking for crumbs (Peppercorn), find something good (Mochi).
+  const key = page === 'observe' ? 'sf.loading' : page === 'refine' ? 'loading.peppercorn' : 'opps.loading'
   return (
     <p className="page-loading" style={{ textAlign: 'center', fontStyle: 'italic', padding: '3rem 1rem', color: 'var(--muted)' }}>
-      {t('opps.loading')}
+      {t(key)}
     </p>
   )
 }
@@ -128,7 +131,7 @@ export default function App() {
         {page === 'discover' && view === 'cards'    && <TrackedSection section="tracker"><TrackerSection /></TrackedSection>}
         {page === 'discover' && view === 'calendar' && <DeadlineCalendar />}
         {(page === 'observe' || page === 'refine') && (
-          <Suspense fallback={<PageFallback />}>
+          <Suspense fallback={<PageFallback page={page} />}>
             {page === 'observe' && <SaffronPage nav={nav} onNav={setPage} />}
             {page === 'refine'  && <PeppercornPage nav={nav} />}
           </Suspense>
