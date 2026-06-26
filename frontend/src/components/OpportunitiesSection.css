@@ -113,7 +113,7 @@
 /* Per-section painted header banners. The #id selector overrides only the image;
    the parchment base + center/contain + multiply blend carry over from above. */
 #mochi_strongest_picks  .opp-section-title-row { background-image: url('/mochi/headers/H.webp'); }
-#open_calls             .opp-section-title-row { background-image: url('/mochi/headers/A.webp'); }
+#open_calls             .opp-section-title-row { background-image: url('/mochi/headers/J.webp'); }
 #competitions_awards    .opp-section-title-row { background-image: url('/mochi/headers/C.webp'); }
 #zines_and_print        .opp-section-title-row { background-image: url('/mochi/headers/D.webp'); }
 #watch_list             .opp-section-title-row { background-image: url('/mochi/headers/I.webp'); }
