@@ -124,13 +124,14 @@
 /* A little reward at the very end of People (the last section on the page): her
    favorites painted in, if she scrolls this far. White bg melts into the
    parchment via multiply. */
+/* Two wide watercolor reward strips at the very end of People: her favorites
+   (mouse + Bread Thief / Chiikawa), then the dress + home meal. */
 .rt-reward { display: flex; justify-content: center; margin: 12px 0 2px; }
 .rt-reward-img {
-  width: clamp(150px, 22vw, 210px);
+  width: clamp(300px, 64vw, 760px);
   height: auto;
   mix-blend-mode: multiply;
 }
-/* Second, wider reward strip (the dress + home meal) below the first. */
 .rt-reward--wide { margin: 2px 0 4px; }
 .rt-reward-img--wide { width: clamp(300px, 64vw, 760px); }
 .opp-section-title-row::before,
