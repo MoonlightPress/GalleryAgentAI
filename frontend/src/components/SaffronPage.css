@@ -12,6 +12,9 @@
   min-height: 340px;
   overflow: hidden;
   flex-shrink: 0;
+  /* Same drop shadow as the footer, mirrored downward (matches the Mochi hero). */
+  z-index: 41;
+  box-shadow: 0 5px 14px rgba(80, 55, 30, 0.12);
 }
 
 .saffron-hero-img {
