@@ -9,6 +9,7 @@ import DeadlineCalendar from './components/DeadlineCalendar'
 import RelationshipTargets from './components/RelationshipTargets'
 import TrackerSection from './components/TrackerSection'
 import StatusBar from './components/StatusBar'
+import { track } from './utils/track'
 
 const SaffronPage = lazy(() => import('./components/SaffronPage'))
 const PeppercornPage = lazy(() => import('./components/PeppercornPage'))
@@ -70,27 +71,9 @@ export default function App() {
   useEffect(() => {
     const from = prevPage.current
     prevPage.current = page
-    // Anonymous, stable per-browser id (no PII) so the Discord feed can tell a
-    // returning visitor from a one-off hit. Best-effort; absent if storage is off.
-    let visitor_id
-    try {
-      visitor_id = localStorage.getItem('mochi_vid')
-      if (!visitor_id) {
-        visitor_id = (crypto?.randomUUID?.() || String(Date.now()) + Math.random().toString(36).slice(2))
-        localStorage.setItem('mochi_vid', visitor_id)
-      }
-    } catch { /* storage unavailable */ }
-    const body = from === null
-      ? { type: 'open', page, visitor_id }
-      : { type: 'nav', page, from }
-    try {
-      fetch('/api/event', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body),
-        keepalive: true,
-      }).catch(() => {})
-    } catch { /* ignore */ }
+    // Open = first mount; subsequent changes = companion-page navigation. The
+    // anonymous visitor_id is attached inside track(). Best-effort; never blocks.
+    track(from === null ? { type: 'open', page } : { type: 'nav', page, from })
   }, [page])
 
   const nav = <Nav activePage={page} onNav={setPage} />
