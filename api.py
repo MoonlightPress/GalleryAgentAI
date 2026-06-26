@@ -1688,6 +1688,11 @@ def get_saffron():
     # the same engine helpers the career report uses, so Saffron and the report agree.
     _amp_path = DATA_DIR / "artist_master_profile.json"
     _amp = _load_json(_amp_path, {})
+    # Single source of truth for her Instagram follower count, so the number never
+    # disagrees across the payload again (it flip-flopped between two values before).
+    # To update it weekly, edit ONE place: Memory/artist_master_profile.json →
+    # social_presence.instagram.followers. Everything below reads from here.
+    _ig_followers = ((_amp.get("social_presence", {}) or {}).get("instagram", {}) or {}).get("followers") or "27k"
     try:
         from engines.career_strategy_engine import (
             _has_solo_show, _has_institutional_show, _has_international_show,
@@ -1779,7 +1784,7 @@ def get_saffron():
             },
         ],
         "social": [
-            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": "27k", "posts": None},
+            {"platform": "Instagram",   "handle": "@gegyjiji",  "followers": _ig_followers, "posts": None},
         ],
         "education": {
             "institution": "Beijing Fashion Institute",
@@ -2061,7 +2066,7 @@ def get_saffron():
             {
                 "name": "Instagram",
                 "handle": "@gegyjiji",
-                "followers": "27k",
+                "followers": _ig_followers,
                 "posts": None,
                 "note": "Primary visual portfolio platform — an established, growing following built through daily watercolor diary practice since 2020. The platform galleries, publishers, and curators use for discovery.",
             },
@@ -2183,7 +2188,7 @@ def get_saffron():
         "artist_record": {
             "exhibitions": _total_group_shows,
             "publications": 2,
-            "instagram": "27k",
+            "instagram": _ig_followers,
             # Age intentionally omitted from output (companions don't parade
             # inferred personal facts). Key kept (frontend never reads it) so the
             # payload shape is unchanged.
@@ -2215,7 +2220,7 @@ def get_saffron():
             },
             {
                 "dimension": "Instagram followers",
-                "artist_value": "27k",
+                "artist_value": _ig_followers,
                 "peer_low": "5k",
                 "peer_typical": "15–50k",
                 "peer_high": "100k+",
