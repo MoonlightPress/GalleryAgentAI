@@ -1,5 +1,5 @@
 .tf-section {
-  padding: 28px 32px 8px;
+  padding: 24px 32px 8px;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
@@ -7,7 +7,7 @@
 }
 
 .tf-header {
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
 .tf-section-title {
@@ -37,7 +37,7 @@
     grid-template-columns: 1fr;
   }
   .tf-section {
-    padding: 20px 16px 4px;
+    padding: 17px 16px 4px;
   }
 }
 

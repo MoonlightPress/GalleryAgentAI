@@ -49,6 +49,9 @@
 /* Consistent lead space between sections, so a section that doesn't end in a
    "show more" button isn't jammed against the next header (Scott). */
 .opp-section + .opp-section { margin-top: 26px; }
+/* ...but a section ending in a show-more/less button already has that separation,
+   so don't stack the full lead space on top of the button. */
+.opp-section--has-more + .opp-section { margin-top: 8px; }
 
 .opp-section--strongest {
   padding-top: 12px;
@@ -84,7 +87,7 @@
    quiet. */
 .opp-section-header {
   padding: 0;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 /* Painted watercolor header banner: thin ~10:1 art (like the footers), recolored
@@ -99,8 +102,8 @@
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 4px;
-  min-height: clamp(84px, 8.5vw, 112px);  /* shorter -> less headspace */
-  padding: 6px 24px;
+  min-height: clamp(72px, 7.2vw, 96px);  /* shorter -> less headspace */
+  padding: 3px 24px;
   position: relative;
   /* White-bg art + multiply = the white melts to the page cream (no box, any
      page color); the painting blends on top. Same trick as the icon set. */

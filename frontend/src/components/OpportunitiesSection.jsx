@@ -395,7 +395,7 @@ function OppSection({ sectionKey, label, description, icon, items, feedbackSigna
   }
 
   return (
-    <section id={sectionKey} className="opp-section opp-section--secondary">
+    <section id={sectionKey} className={`opp-section opp-section--secondary${remaining > 0 || shown > PAGE_SIZE ? ' opp-section--has-more' : ''}`}>
       <SectionHeader title={sectionLabel} subtitle={sectionDesc} />
 
       <div className="opp-section-brief">
