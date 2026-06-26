@@ -1,9 +1,9 @@
 .detail-panel {
   background: linear-gradient(180deg, #fffdf8 0%, #fff8ed 100%);
-  border: 1px solid #d4b88a;
+  border: 2px solid #d4b88a;
   border-radius: 20px;
   padding: 24px 28px 28px;
-  margin-top: 4px;
+  margin-top: 18px;
   box-shadow: 0 6px 24px rgba(80, 55, 30, 0.11);
 }
 

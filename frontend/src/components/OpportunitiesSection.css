@@ -69,7 +69,7 @@
    deeper top-accent + a touch more lift. Mirrors the .tf-card model so the picks
    band and Today's Focus read as the same tier of importance. */
 .opp-grid--strongest .opp-card {
-  background: #fffdf6;
+  background: #FCF6E8;
   border-color: #e0c888;
   border-top: 3px solid #b8892a;
   box-shadow: 0 3px 14px rgba(80, 55, 30, 0.10), 0 1px 3px rgba(80, 55, 30, 0.05);
