@@ -655,11 +655,11 @@ def email_en(organization: str, category: str) -> str:
     kind = _email_category(category)
     ask = {"zine": "artist book or zine consignment / stocking",
            "residency": "residency programs and how to apply"}.get(kind, "exhibition proposals or open calls")
-    return f"""Subject: Artist inquiry — GEGYjiji
+    return f"""Subject: Artist inquiry from GEGYjiji
 
 Dear {organization} team,
 
-My name is GEGYjiji, a watercolor artist based in Tokyo. I work with urban atmospheres, architectural spaces, domestic interiors, and the quiet accumulation of memory — mostly in watercolor on a small, intimate scale.
+My name is GEGYjiji, a watercolor artist based in Tokyo. I work with urban atmospheres, architectural spaces, domestic interiors, and the quiet accumulation of memory, mostly in watercolor on a small, intimate scale.
 
 I came across your space and was drawn to what you do. I would love to learn more about {ask} and whether my work might be a fit.
 
