@@ -97,3 +97,82 @@ def most_time_on(events):
     if not d:
         return None
     return max(d, key=d.get)
+
+
+ACTION_LABELS = {
+    "follow": "followed",
+    "applied": "applied",
+    "maybe_later": "saved for later",
+    "not_for_me": "hid",
+    "open_card": "opened",
+    "profile_save": "edited profile",
+    "saffron_answer": "answered a question",
+}
+
+
+def _location(e):
+    if e.get("section"):
+        return SECTION_LABELS.get(e["section"], str(e["section"]).replace("_", " ").title())
+    return PAGE_LABELS.get(e.get("page"), e.get("page") or "?")
+
+
+def interaction_counts(events):
+    counts = {}
+    for e in events or []:
+        if e.get("type") != "action":
+            continue
+        action = e.get("action") or "other"
+        slot = counts.setdefault(action, {"total": 0, "by_category": {}})
+        slot["total"] += 1
+        cat = e.get("category")
+        if cat:
+            slot["by_category"][cat] = slot["by_category"].get(cat, 0) + 1
+    return counts
+
+
+def format_flow(events):
+    seq = []
+    for _t, e in _timed(events):
+        if e.get("type") not in ("open", "nav"):
+            continue
+        loc = _location(e)
+        if not seq or seq[-1] != loc:
+            seq.append(loc)
+    return " → ".join(seq)
+
+
+def duration_minutes(events):
+    timed = _timed(events)
+    if len(timed) < 2:
+        return 0
+    return max(0, round((timed[-1][0] - timed[0][0]).total_seconds() / 60))
+
+
+def build_digest(events, returning=None, day=None):
+    who = "returning" if returning is True else "new" if returning is False else "visit"
+    head = f"🧵 Session wrap-up — {who}"
+    if day:
+        head += f" · day {day}"
+    head += f" · ~{duration_minutes(events)} min"
+    lines = [head]
+
+    mt = most_time_on(events)
+    if mt:
+        lines.append(f"most time on: {mt}")
+
+    counts = interaction_counts(events)
+    if counts:
+        parts = []
+        for action, slot in counts.items():
+            seg = f"{ACTION_LABELS.get(action, action)} {slot['total']}"
+            if slot["by_category"]:
+                cats = ", ".join(f"{n} {c}" for c, n in slot["by_category"].items())
+                seg += f" ({cats})"
+            parts.append(seg)
+        lines.append(" · ".join(parts))
+
+    flow = format_flow(events)
+    if flow:
+        lines.append(f"flow: {flow}")
+
+    return "\n".join(lines)

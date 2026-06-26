@@ -3,6 +3,7 @@ from datetime import datetime, timezone, timedelta
 
 from engines.usage_report import (
     split_sessions, sessions_to_flush, dwell_by_page, most_time_on,
+    interaction_counts, format_flow, build_digest, duration_minutes,
 )
 
 T0 = datetime(2026, 6, 26, 10, 0, 0, tzinfo=timezone.utc)
@@ -62,6 +63,55 @@ class DwellTests(unittest.TestCase):
 
     def test_most_time_on_empty_is_none(self):
         self.assertIsNone(most_time_on([]))
+
+
+class InteractionCountsTests(unittest.TestCase):
+    def test_counts_by_action_and_category(self):
+        evs = [
+            _ev(0, type="action", action="follow", category="zine"),
+            _ev(1, type="action", action="follow", category="gallery"),
+            _ev(2, type="action", action="applied", category="fair_popup"),
+            _ev(3, type="nav", page="observe"),  # ignored
+        ]
+        c = interaction_counts(evs)
+        self.assertEqual(c["follow"]["total"], 2)
+        self.assertEqual(c["follow"]["by_category"], {"zine": 1, "gallery": 1})
+        self.assertEqual(c["applied"]["total"], 1)
+        self.assertNotIn("nav", c)
+
+
+class FlowTests(unittest.TestCase):
+    def test_flow_dedupes_consecutive_and_uses_labels(self):
+        evs = [
+            _ev(0, type="open", page="discover"),
+            _ev(1, type="nav", page="discover", section="people"),
+            _ev(2, type="nav", page="discover", section="people"),  # dup
+            _ev(3, type="nav", page="observe"),
+        ]
+        self.assertEqual(format_flow(evs), "Home → People → Saffron")
+
+
+class BuildDigestTests(unittest.TestCase):
+    def test_digest_has_header_dwell_counts_flow(self):
+        evs = [
+            _ev(0, type="open", page="discover"),
+            _ev(1, type="nav", page="observe"),
+            _ev(8, type="action", action="follow", category="zine"),
+        ]
+        text = build_digest(evs)
+        self.assertIn("Session wrap-up", text)
+        self.assertIn("most time on: Saffron", text)
+        self.assertIn("followed 1 (1 zine)", text)
+        self.assertIn("flow:", text)
+
+    def test_digest_with_no_interactions_omits_counts_line(self):
+        evs = [_ev(0, type="open", page="discover"), _ev(2, type="nav", page="observe")]
+        text = build_digest(evs)
+        self.assertIn("Session wrap-up", text)
+        self.assertNotIn("followed", text)
+
+    def test_empty_events_degrade_safely(self):
+        self.assertIsInstance(build_digest([]), str)
 
 
 if __name__ == "__main__":
