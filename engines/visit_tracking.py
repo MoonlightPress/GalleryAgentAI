@@ -1,10 +1,12 @@
 """
 visit_tracking.py
 
-Coarse usage signal for the app: decide whether to send a once-per-day "she
-opened it" notification, and keep a small running count of days active / total
-visits. Deliberately content-blind — it records THAT she visited and how often
-she comes back, never what she looks at.
+Usage signal for the app: live "she opened it" / "she moved here" wording, plus
+new-vs-returning detection and a running day/visit count. The system is now
+flow- and category-aware (which page/section she engages, the *types* of
+opportunity she acts on) but remains NAME-BLIND — it never records the specific
+named opportunity. The per-session interaction digest is built in
+engines/usage_report.py; this module only formats the live ping lines.
 """
 from __future__ import annotations
 
