@@ -11,13 +11,14 @@
 }
 .tracker-cols {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
 @media (max-width: 640px) {
-  .tracker-cols { grid-template-columns: 1fr; }
+  .tracker-cols { grid-template-columns: minmax(0, 1fr); }
 }
 .tracker-col {
+  min-width: 0;   /* shrink within the track instead of forcing the page wider */
   background: #fbf8f1;
   border: 1px solid #ece4d3;
   border-radius: 10px;

@@ -28,21 +28,30 @@
 
 .tf-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
+/* Column count tracks the number of cards via a CLASS (not an inline style) so
+   the responsive rules below can still win on small screens. minmax(0,1fr) lets
+   cards shrink instead of forcing the grid wider than its container. */
+.tf-grid--1 { grid-template-columns: minmax(0, 1fr); }
+.tf-grid--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.tf-grid--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
 @media (max-width: 860px) {
-  .tf-grid {
-    grid-template-columns: 1fr;
-  }
-  .tf-section {
-    padding: 17px 16px 4px;
-  }
+  .tf-grid--3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tf-section { padding: 17px 16px 4px; }
+}
+/* Phone: always one column. (An inline 2-column style used to override this and
+   push the page wider than the screen — that broke horizontal scroll + the
+   sticky nav following.) */
+@media (max-width: 600px) {
+  .tf-grid, .tf-grid--1, .tf-grid--2, .tf-grid--3 { grid-template-columns: 1fr; }
 }
 
 /* ── Individual card ── */
 .tf-card {
+  min-width: 0;   /* let the card shrink in its grid track instead of overflowing */
   background: var(--tf-bg, #fdfaf4);
   border: 1px solid var(--tf-border, #e0c888);
   border-top: 3px solid var(--tf-accent, #b8892a);

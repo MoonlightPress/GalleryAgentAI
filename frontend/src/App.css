@@ -3,6 +3,10 @@
   flex-direction: column;
   min-height: 100svh;
   background: var(--parchment);
+  /* Contain any stray horizontal overflow on mobile WITHOUT breaking the sticky
+     nav. overflow-x:hidden would force overflow-y to auto and kill position:sticky;
+     overflow-x:clip does not, so the nav still follows on scroll. */
+  overflow-x: clip;
 }
 
 /* ── Atelier footer ──────────────────────────────────────────────

@@ -172,7 +172,7 @@ export default function TodaysFocus() {
         </div>
         <p className="tf-section-sub">{t(subKey, { n: orderedSlots.length })}</p>
       </div>
-      <div className="tf-grid" style={orderedSlots.length < 3 ? { gridTemplateColumns: `repeat(${orderedSlots.length}, 1fr)` } : undefined}>
+      <div className={`tf-grid tf-grid--${Math.min(orderedSlots.length, 3)}`}>
         {orderedSlots.map(s => (
           <TodayCard
             key={s.key}
