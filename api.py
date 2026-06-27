@@ -17,6 +17,7 @@ from engines.profile_sync import apply_peppercorn_edits
 from engines.regen import spawn_draft_regen
 from engines.notify import notify_discord
 from engines.visit_tracking import register_visit, describe_event, mark_visitor
+from engines.geoip import geo_label
 from engines.backups import snapshot
 
 # Load .env so secrets (ANTHROPIC_API_KEY, MOCHI_DISCORD_WEBHOOK) are available
@@ -3459,7 +3460,9 @@ async def track_event(request: Request):
     etype = (event or {}).get("type")
     ip = _client_ip(request)
     ua = request.headers.get("user-agent", "")
-    suffix = f"\n`{ip}` · {_classify_client(ua)}"
+    geo = geo_label(ip)
+    geo_part = f" · {geo}" if geo else ""
+    suffix = f"\n`{ip}`{geo_part} · {_classify_client(ua)}"
 
     # Durable record for the idle digest — every event, now carrying attribution.
     _append_usage_event({**(event or {}), "ip": ip, "ua": ua})
