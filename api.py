@@ -3413,22 +3413,56 @@ def _start_usage_ticker():
     threading.Thread(target=_loop, daemon=True, name="usage-digest-ticker").start()
 
 
+def _classify_client(ua: str) -> str:
+    """Compact who-is-this from the User-Agent: a bot flag (so a link-preview /
+    crawler is obvious at a glance) or a rough device + browser for a real visitor.
+    This is the attribution that tells 'her phone' apart from 'a bot' or 'me'."""
+    u = (ua or "").lower()
+    if not u:
+        return "❓ no user-agent"
+    for b in ("bot", "crawl", "spider", "facebookexternalhit", "discordbot",
+              "slackbot", "telegrambot", "whatsapp", "embedly", "preview",
+              "headless", "python-requests", "curl", "wget", "go-http", "httpx",
+              "node-fetch", "axios", "lighthouse", "bingpreview"):
+        if b in u:
+            return f"🤖 bot ({b})"
+    dev = ("📱 iPhone" if "iphone" in u else "📱 iPad" if "ipad" in u
+           else "📱 Android" if "android" in u else "💻 Mac" if ("macintosh" in u or "mac os" in u)
+           else "💻 Windows" if "windows" in u else "🖥 other")
+    br = ("Chrome" if ("crios" in u or ("chrome" in u and "edg" not in u and "opr" not in u))
+          else "Firefox" if ("fxios" in u or "firefox" in u) else "Edge" if "edg" in u
+          else "Safari" if "safari" in u else "?")
+    return f"{dev} · {br}"
+
+
+def _client_ip(request: Request) -> str:
+    """Real client IP behind nginx (X-Forwarded-For / X-Real-IP), so visits are
+    attributable. Falls back to the socket peer if no proxy headers are set."""
+    xff = request.headers.get("x-forwarded-for", "")
+    if xff:
+        return xff.split(",")[0].strip()
+    return request.headers.get("x-real-ip") or (request.client.host if request.client else "?")
+
+
 @app.post("/api/event")
 async def track_event(request: Request):
-    """Usage signal. Records every event to usage_events.jsonl for the idle
-    digest. Posts LIVE to Discord for `open` (she's here) and `nav` (her moves,
-    companion + debounced section landings). `action` events are logged silently
-    and summarised in the per-session digest the ticker posts ~10 min after she
-    goes idle. Flow- and category-aware, never names a specific opportunity.
-    Best-effort — never fails the page over a tracking hiccup."""
+    """Usage signal. Records every event to usage_events.jsonl (now with IP + UA)
+    for the idle digest, and posts LIVE to Discord for `open`, `nav`, AND `action`
+    (clicks) — each line tagged with the client IP and a device/bot label so 'her
+    phone' is distinguishable from a crawler or from Scott checking his own link.
+    Category/section only, never names a specific opportunity. Best-effort — never
+    fails the page over a tracking hiccup."""
     try:
         event = await request.json()
     except Exception:
         event = {}
     etype = (event or {}).get("type")
+    ip = _client_ip(request)
+    ua = request.headers.get("user-agent", "")
+    suffix = f"\n`{ip}` · {_classify_client(ua)}"
 
-    # Durable record for the idle digest — every event, best-effort.
-    _append_usage_event(event)
+    # Durable record for the idle digest — every event, now carrying attribution.
+    _append_usage_event({**(event or {}), "ip": ip, "ua": ua})
 
     if etype == "open":
         vpath = DATA_DIR / "visit_log.json"
@@ -3444,14 +3478,20 @@ async def track_event(request: Request):
         except Exception:
             pass
         text, status = describe_event(event, day=day, returning=returning)
-        notify_discord(text, status=status)
+        notify_discord(text + suffix, status=status)
 
     elif etype == "nav":
         # Navigation streams live (companion moves + debounced section landings).
         text, status = describe_event(event)
-        notify_discord(text, status=status)
+        notify_discord(text + suffix, status=status)
 
-    # type == "action": logged only; summarised later in the idle digest.
+    elif etype == "action":
+        # Now streamed live too (was digest-only) so engagement shows in real time;
+        # category/section only, never a specific opportunity (privacy unchanged).
+        act = event.get("action", "?")
+        ctx = event.get("category") or event.get("section") or ""
+        notify_discord(f"👆 {act}" + (f" · {ctx}" if ctx else "") + suffix, status="info")
+
     return {"ok": True}
 
 
