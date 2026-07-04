@@ -6,6 +6,7 @@ import { prepareRelationshipTargets } from '../utils/relationshipTargets'
 import { cardsPerBatch } from '../utils/layout'
 import { getCache, setCache } from '../utils/apiCache'
 import { SectionHeader } from './OpportunitiesSection'
+import { track } from '../utils/track'
 
 const PAGE_SIZE = cardsPerBatch()   // 6 on desktop (3 cols), 4 on smaller screens (2/1 cols)
 
@@ -146,6 +147,7 @@ function ContactCard({ c, t, onHide }) {
       last_contacted: new Date().toISOString().slice(0, 10),
       status: 'in_contact',
     })
+    track({ type: 'action', action: 'contact_reached', category: c.type })
     setToast(t('people.toast.reached'))
     setTimeout(() => setToast(null), 2500)
   }
@@ -211,7 +213,7 @@ function ContactCard({ c, t, onHide }) {
         >
           ✓ {t('people.act.reached')}
         </button>
-        <button className="rt-fb-btn rt-fb-btn--hide" onClick={() => onHide?.(c.name)}>
+        <button className="rt-fb-btn rt-fb-btn--hide" onClick={() => onHide?.(c.name, c.type)}>
           ✕ {t('people.act.notForMe')}
         </button>
         {toast && <span className="rt-toast">{toast}</span>}
@@ -292,8 +294,9 @@ export default function RelationshipTargets() {
 
   const groups = groupByPriority(targets)
 
-  function hide(name) {
+  function hide(name, type) {
     setHidden(prev => new Set([...prev, name]))
+    track({ type: 'action', action: 'contact_hide', category: type })
   }
 
   return (
