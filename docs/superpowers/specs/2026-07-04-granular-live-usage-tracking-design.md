@@ -15,8 +15,6 @@ improvement but still leaves gaps:
   `open_card`/`profile_save`/`saffron_answer`). Plenty of interactive UI — filters/sort,
   external link click-through, watch-list toggles, Peppercorn goal/portfolio edits,
   exhibition-log entries — isn't wired up at all.
-- Interaction detail only ever arrives batched in the idle digest, ~10 minutes after the
-  fact. There's no way to watch what she's doing as she does it.
 - Dwell time is inferred server-side from gaps between consecutive events. The final page
   she was on before closing the tab has no real end-time — it's simply invisible.
 - The bot/device classification (`_classify_client`) is computed only to decorate the
@@ -30,10 +28,10 @@ improvement but still leaves gaps:
 ## Goals
 
 - Expand the set of curated actions tracked so "what she clicks" covers meaningfully more
-  of the app, not just follow/apply/hide/card-open.
-- Post **every** tracked action live to Discord as it happens (not batched into the
-  digest). Keep the existing idle-session digest too, as a short recap bookend.
-- Add a `leave` event fired on tab hide/close so dwell time — including the last page
+  of the app, not just follow/apply/hide/card-open. (These post live for free — `action`
+  events already stream to Discord immediately, keeping the existing idle-session digest
+  as a recap bookend on top.)
+- Add a `leave` event fired on tab hide/close, posted live, so dwell time — including the last page
   before she closes the tab — is real, client-measured time, not a server-side inference.
 - Persist the bot/device classification onto every logged event (not just Discord text),
   and strengthen it with a hosting/proxy/datacenter signal from the geo lookup, so bots
@@ -61,20 +59,19 @@ Builds directly on the June 26 pipeline (frontend `track()` → `POST /api/event
 ### 1. Expanded action set
 
 New `action` values added to the v1 set (`follow`, `unfollow`, `apply`, `hide`,
-`open_card`, `profile_save`, `saffron_answer`):
+`open_card`, `profile_save`, `saffron_answer`) — confirmed against real, currently-
+untracked interactive elements (there's no filter/sort control or watchlist toggle
+anywhere in the frontend today, so those don't appear here):
 
-- `filter_change` / `sort_change` — `category` carries the filter/sort key, not a value
-  (e.g. `"deadline"`, `"tier"`), consistent with the existing never-log-specifics posture.
 - `external_link_click` — she opened the actual opportunity URL (`OppCard.jsx:280`,
   currently untracked). Strong signal, no destination URL logged, only `category`.
-- `watchlist_add` / `watchlist_remove`.
-- Peppercorn: goal edit, portfolio-body edit, preference-review answer (extending the
-  existing `profile_save`/`saffron_answer` pattern to a couple more Peppercorn actions).
-- `exhibition_log_add`.
+- `contact_reached` / `contact_hide` — the People-section actions that today only
+  patch the CRM/local state silently (`RelationshipTargets.jsx`).
+- `contact_log_save` / `email_draft_copy` — the detail panel's "log contact" save and
+  draft-copy button, both currently silent (`OppDetailPanel.jsx`).
+- `goal_add` / `exhibition_log_add` / `exhibition_log_edit` — Peppercorn actions that
+  write real data but don't emit a tracking event yet (`PeppercornPage.jsx`).
 
-Exact call sites (`OpportunitiesSection.jsx`, `RelationshipTargets.jsx`,
-`OppDetailPanel.jsx`, `DeadlineCalendar.jsx`, `PeppercornPage.jsx`) get identified and
-wired during planning — this list defines *what* gets tracked, not the literal diff.
 Kept as curated, hand-wired `track()` calls (matching the existing pattern) rather than a
 generic delegated click listener, so labels stay precise and intentional.
 
@@ -91,14 +88,18 @@ listener, sent via `navigator.sendBeacon` (survives tab close, unlike a normal f
 `dwell_ms` is computed client-side (now − last-entry-timestamp), so it's accurate even for
 the final page before the tab closes — today's biggest blind spot. Posts live, same as nav.
 
-### 3. Live-first delivery
+### 3. Live delivery for the new event types
 
-`track_event` (`api.py:3448-3498`) changes so `action` events post to Discord immediately
-(via `notify_discord`), the same as `open`/`nav` do today, instead of being log-only. The
-existing idle-session digest (`engines/usage_report.py`) is unchanged and keeps posting
-~10 min after she goes idle, as a recap (duration, most-time-on, flow, counts) — both
-surfaces coexist; the live pings are the moment-by-moment stream, the digest is the
-summary bookend.
+`action` events already post to Discord immediately today (`api.py:3491-3496`, from a
+commit that superseded the June 26 spec's digest-only choice) — so every new curated
+action in §1 posts live for free, no backend change needed for that part. The one gap is
+`leave` (§2), a new `etype` `track_event` doesn't branch on yet: it needs its own `elif`
+arm (posting live via `notify_discord`, mirroring the `nav` arm) and a new case in
+`describe_event()` (`engines/visit_tracking.py:41-79`) that formats dwell time (e.g.
+"left Home · 47s"). The existing idle-session digest (`engines/usage_report.py`) is
+unchanged and keeps posting ~10 min after she goes idle, as a recap — both surfaces
+coexist; the live pings are the moment-by-moment stream, the digest is the summary
+bookend.
 
 No batching/collapsing of rapid bursts in v1 — every event posts as its own message. If
 the channel proves too noisy in practice, a debounce/collapse pass is a small follow-up,
