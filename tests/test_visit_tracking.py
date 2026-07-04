@@ -109,6 +109,32 @@ class DescribeEventTests(unittest.TestCase):
         self.assertIsInstance(text, str)
         self.assertTrue(text)
 
+    def test_leave_event_shows_page_and_dwell_seconds(self):
+        text, status = describe_event({"type": "leave", "page": "discover", "dwell_ms": 47000})
+        self.assertIn("Home", text)
+        self.assertIn("47s", text)
+        self.assertEqual(status, "info")
+
+    def test_leave_event_with_section_shows_both(self):
+        text, _ = describe_event({"type": "leave", "page": "observe", "section": "landscape", "dwell_ms": 5000})
+        self.assertIn("Saffron", text)
+        self.assertIn("Landscape", text)
+        self.assertIn("5s", text)
+
+    def test_leave_event_over_a_minute_shows_minutes_and_seconds(self):
+        text, _ = describe_event({"type": "leave", "page": "refine", "dwell_ms": 192000})
+        self.assertIn("3m 12s", text)
+
+    def test_leave_event_exact_minute_omits_zero_seconds(self):
+        text, _ = describe_event({"type": "leave", "page": "refine", "dwell_ms": 120000})
+        self.assertIn("2m", text)
+        self.assertNotIn("2m 0s", text)
+
+    def test_leave_event_missing_dwell_does_not_crash(self):
+        text, status = describe_event({"type": "leave", "page": "discover"})
+        self.assertIsInstance(text, str)
+        self.assertTrue(text)
+
 
 if __name__ == "__main__":
     unittest.main()

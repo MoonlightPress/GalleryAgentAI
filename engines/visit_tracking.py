@@ -38,13 +38,28 @@ def _section_label(section) -> str:
     return SECTION_LABELS.get(section, str(section).replace("_", " ").title())
 
 
+def _format_dwell(ms) -> str:
+    """47000 -> '47s', 192000 -> '3m 12s', 120000 -> '2m'. Never raises —
+    a malformed/missing dwell degrades to a generic word rather than crashing
+    the live ping."""
+    try:
+        seconds = max(0, int(ms) // 1000)
+    except (TypeError, ValueError):
+        return "a moment"
+    if seconds < 60:
+        return f"{seconds}s"
+    minutes, secs = divmod(seconds, 60)
+    return f"{minutes}m {secs}s" if secs else f"{minutes}m"
+
+
 def describe_event(event: dict, day: int | None = None,
                    returning: bool | None = None) -> tuple[str, str]:
     """Turn a navigation event into ``(message, status)`` for the Discord feed.
 
     Event types: ``open`` (session start), ``nav`` (page change), ``action``
-    (a meaningful action like a profile edit). Unknown shapes degrade to a
-    safe generic string rather than raising.
+    (a meaningful action like a profile edit), ``leave`` (she hid/closed the
+    tab — reports real, client-measured dwell time on the page she was on).
+    Unknown shapes degrade to a safe generic string rather than raising.
 
     ``returning`` (when known) makes the open message say whether this is a
     repeat visitor or a new one — so a scattered one-off hit is distinguishable
@@ -75,6 +90,12 @@ def describe_event(event: dict, day: int | None = None,
 
     if etype == "action":
         return f"✏️ {event.get('action', 'did something')}", "info"
+
+    if etype == "leave":
+        label = _page_label(event.get("page"))
+        section = event.get("section")
+        where = f"{label} · {_section_label(section)}" if section else label
+        return f"↩ left {where} · {_format_dwell(event.get('dwell_ms'))}", "info"
 
     return "👀 activity", "info"
 

@@ -3502,6 +3502,12 @@ async def track_event(request: Request):
         ctx = event.get("category") or event.get("section") or ""
         notify_discord(f"👆 {act}" + (f" · {ctx}" if ctx else "") + suffix, status="info")
 
+    elif etype == "leave":
+        # Real, client-measured dwell time — including the final page before
+        # she closes the tab, which the idle-gap inference can't see at all.
+        text, status = describe_event(event)
+        notify_discord(text + suffix, status=status)
+
     return {"ok": True}
 
 
