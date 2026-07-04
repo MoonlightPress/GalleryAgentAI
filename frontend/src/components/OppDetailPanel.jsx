@@ -4,6 +4,7 @@ import { useLanguage } from '../i18n/LanguageContext'
 import { tfb, translatePhrase } from '../i18n/translations'
 import { isDistinct } from '../utils/textGuards.js'
 import { locF, localizeDeadline } from '../utils/localize.js'
+import { track } from '../utils/track'
 
 // "Mochi notes": the readiness flags that used to sit on the card face. The
 // reasons/reviewLabels arrays carry canonical English phrases; translatePhrase
@@ -182,6 +183,7 @@ export default function OppDetailPanel({ opp, onClose }) {
                   setCrmContact(crmContact ? result.contact : { ...body })
                   setShowLogForm(false)
                   setLogSaved(true)
+                  track({ type: 'action', action: 'contact_log_save', category: opp.category })
                   setTimeout(() => setLogSaved(false), 2000)
                 }
               }}
@@ -299,7 +301,10 @@ export default function OppDetailPanel({ opp, onClose }) {
                   <pre className="detail-email-body">{draft}</pre>
                   <button
                     className="detail-copy-btn"
-                    onClick={() => navigator.clipboard?.writeText(draft)}
+                    onClick={() => {
+                      navigator.clipboard?.writeText(draft)
+                      track({ type: 'action', action: 'email_draft_copy', category: opp.category })
+                    }}
                   >
                     {t('detail.copyDraft')}
                   </button>
