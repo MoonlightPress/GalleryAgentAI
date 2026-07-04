@@ -1,6 +1,6 @@
 import unittest
 
-from engines.visit_tracking import register_visit, describe_event, mark_visitor
+from engines.visit_tracking import register_visit, describe_event, mark_visitor, visitor_label
 
 
 class RegisterVisitTests(unittest.TestCase):
@@ -60,6 +60,26 @@ class MarkVisitorTests(unittest.TestCase):
         log, returning = mark_visitor({}, None)
         self.assertFalse(returning)
         self.assertNotIn("visitor_ids", log)
+
+
+class VisitorLabelTests(unittest.TestCase):
+    """Curated visitor_id -> friendly name lookup, so a raw UUID prefix
+    doesn't have to be memorized. Purely a lookup Scott confirms himself."""
+
+    def test_known_id_returns_its_label(self):
+        known = {"abc-123": "Nin's phone"}
+        self.assertEqual(visitor_label(known, "abc-123"), "Nin's phone")
+
+    def test_unknown_id_returns_empty(self):
+        known = {"abc-123": "Nin's phone"}
+        self.assertEqual(visitor_label(known, "xyz-999"), "")
+
+    def test_missing_id_returns_empty(self):
+        self.assertEqual(visitor_label({"abc-123": "Nin's phone"}, None), "")
+
+    def test_missing_map_does_not_crash(self):
+        self.assertEqual(visitor_label(None, "abc-123"), "")
+        self.assertEqual(visitor_label({}, "abc-123"), "")
 
 
 class DescribeEventTests(unittest.TestCase):

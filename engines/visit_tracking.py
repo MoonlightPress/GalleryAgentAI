@@ -38,6 +38,16 @@ def _section_label(section) -> str:
     return SECTION_LABELS.get(section, str(section).replace("_", " ").title())
 
 
+def visitor_label(known: dict, visitor_id) -> str:
+    """Friendly display name for a visitor_id (e.g. "Nin's phone"), or "" if
+    not in the curated known-visitors map. Purely a readability aid so Scott
+    doesn't have to memorize raw UUID prefixes — the map only ever contains
+    ids he has explicitly confirmed himself; nothing here infers identity."""
+    if not visitor_id:
+        return ""
+    return (known or {}).get(visitor_id) or ""
+
+
 def _format_dwell(ms) -> str:
     """47000 -> '47s', 192000 -> '3m 12s', 120000 -> '2m'. Never raises —
     a malformed/missing dwell degrades to a generic word rather than crashing

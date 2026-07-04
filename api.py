@@ -16,7 +16,7 @@ from recommendation_readiness import assess_actionability, RELATIONSHIP_CATEGORI
 from engines.profile_sync import apply_peppercorn_edits
 from engines.regen import spawn_draft_regen
 from engines.notify import notify_discord
-from engines.visit_tracking import register_visit, describe_event, mark_visitor
+from engines.visit_tracking import register_visit, describe_event, mark_visitor, visitor_label
 from engines.geoip import geo_label, geo_hosting
 from engines.backups import snapshot
 
@@ -50,8 +50,9 @@ app.add_middleware(GZipMiddleware, minimum_size=600)
 DATA_DIR        = Path(__file__).parent / "memory"
 DEPLOY_DIR      = Path(__file__).parent / "deploy_data"
 # ── Usage tracking (live nav pings + idle-session interaction digests) ────────
-USAGE_EVENTS_PATH = DATA_DIR / "usage_events.jsonl"   # durable append log
-USAGE_STATE_PATH  = DATA_DIR / "usage_state.json"     # per-visitor last-flushed
+USAGE_EVENTS_PATH   = DATA_DIR / "usage_events.jsonl"    # durable append log
+USAGE_STATE_PATH    = DATA_DIR / "usage_state.json"      # per-visitor last-flushed
+KNOWN_VISITORS_PATH = DATA_DIR / "known_visitors.json"   # curated visitor_id -> friendly label
 IDLE_MINUTES      = 10                                 # gap that ends a session
 TICK_SECONDS      = 60                                 # digest ticker interval
 SUPPRESSED_PATH  = DATA_DIR / "suppressed_opportunities.json"
@@ -3464,8 +3465,12 @@ async def track_event(request: Request):
     geo = geo_label(ip)
     hosting = geo_hosting(ip)
     device_label, is_bot = _classify_client(ua)
+    known = _load_json(KNOWN_VISITORS_PATH, {})
+    who = visitor_label(known, (event or {}).get("visitor_id"))
     geo_part = f" · {geo}" if geo else ""
-    suffix = f"\n`{ip}`{geo_part} · {device_label}"
+    hosting_part = " · ⚠️ hosting/proxy" if hosting else ""
+    who_part = f" · {who}" if who else ""
+    suffix = f"\n`{ip}`{geo_part} · {device_label}{hosting_part}{who_part}"
 
     # Durable record for the idle digest — every event, now carrying attribution,
     # the UA-based classification, AND a hosting/proxy signal that catches bots
