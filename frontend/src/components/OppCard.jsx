@@ -280,6 +280,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
               href={opp.submission_page || opp.official_website}
               target="_blank"
               rel="noreferrer"
+              onClick={() => track({ type: 'action', action: 'external_link_click', category: opp.category })}
             >
               {t('tf.open')}
             </a>
