@@ -3414,26 +3414,27 @@ def _start_usage_ticker():
     threading.Thread(target=_loop, daemon=True, name="usage-digest-ticker").start()
 
 
-def _classify_client(ua: str) -> str:
+def _classify_client(ua: str) -> tuple[str, bool]:
     """Compact who-is-this from the User-Agent: a bot flag (so a link-preview /
     crawler is obvious at a glance) or a rough device + browser for a real visitor.
-    This is the attribution that tells 'her phone' apart from 'a bot' or 'me'."""
+    Returns (display_label, is_bot) — the label is for the Discord suffix, the
+    bool is what gets persisted onto the logged event record."""
     u = (ua or "").lower()
     if not u:
-        return "❓ no user-agent"
+        return "❓ no user-agent", False
     for b in ("bot", "crawl", "spider", "facebookexternalhit", "discordbot",
               "slackbot", "telegrambot", "whatsapp", "embedly", "preview",
               "headless", "python-requests", "curl", "wget", "go-http", "httpx",
               "node-fetch", "axios", "lighthouse", "bingpreview"):
         if b in u:
-            return f"🤖 bot ({b})"
+            return f"🤖 bot ({b})", True
     dev = ("📱 iPhone" if "iphone" in u else "📱 iPad" if "ipad" in u
            else "📱 Android" if "android" in u else "💻 Mac" if ("macintosh" in u or "mac os" in u)
            else "💻 Windows" if "windows" in u else "🖥 other")
     br = ("Chrome" if ("crios" in u or ("chrome" in u and "edg" not in u and "opr" not in u))
           else "Firefox" if ("fxios" in u or "firefox" in u) else "Edge" if "edg" in u
           else "Safari" if "safari" in u else "?")
-    return f"{dev} · {br}"
+    return f"{dev} · {br}", False
 
 
 def _client_ip(request: Request) -> str:
@@ -3461,11 +3462,15 @@ async def track_event(request: Request):
     ip = _client_ip(request)
     ua = request.headers.get("user-agent", "")
     geo = geo_label(ip)
+    device_label, is_bot = _classify_client(ua)
     geo_part = f" · {geo}" if geo else ""
-    suffix = f"\n`{ip}`{geo_part} · {_classify_client(ua)}"
+    suffix = f"\n`{ip}`{geo_part} · {device_label}"
 
-    # Durable record for the idle digest — every event, now carrying attribution.
-    _append_usage_event({**(event or {}), "ip": ip, "ua": ua})
+    # Durable record for the idle digest — every event, now carrying attribution
+    # AND the classification itself (previously computed only for the Discord
+    # text and thrown away).
+    _append_usage_event({**(event or {}), "ip": ip, "ua": ua,
+                          "device": device_label, "is_bot": is_bot})
 
     if etype == "open":
         vpath = DATA_DIR / "visit_log.json"
