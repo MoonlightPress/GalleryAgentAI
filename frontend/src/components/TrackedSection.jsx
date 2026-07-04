@@ -7,7 +7,7 @@ const SECTION_VISIBLE_RATIO = 0.5
 // Fires one nav event when the wrapped section is genuinely landed on (visible
 // past the ratio for the dwell time), so scrolling past doesn't spam. Once per
 // mount. Layout-neutral: a plain block wrapper with no margin of its own.
-export default function TrackedSection({ section, children }) {
+export default function TrackedSection({ page = 'discover', section, children }) {
   const ref = useRef(null)
   const firedRef = useRef(false)
   const timerRef = useRef(null)
@@ -22,7 +22,7 @@ export default function TrackedSection({ section, children }) {
             timerRef.current = setTimeout(() => {
               firedRef.current = true
               timerRef.current = null
-              track({ type: 'nav', page: 'discover', section })
+              track({ type: 'nav', page, section })
             }, SECTION_DWELL_MS)
           }
         } else if (timerRef.current != null) {
@@ -37,7 +37,7 @@ export default function TrackedSection({ section, children }) {
       obs.disconnect()
       if (timerRef.current != null) clearTimeout(timerRef.current)
     }
-  }, [section])
+  }, [page, section])
 
   return <div ref={ref} className="tracked-section">{children}</div>
 }

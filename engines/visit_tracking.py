@@ -26,6 +26,21 @@ SECTION_LABELS = {
     "people": "People",
     "tracker": "Tracker",
     "calendar": "Calendar",
+    # Saffron tabs
+    "strategy": "Strategy",
+    "profile": "Profile",
+    "relationships": "Relationships",
+    "money": "Money",
+    "career_position": "Career Position",
+    # Peppercorn accordion sections
+    "artist-statement": "Artist Statement",
+    "saffron-questions": "Saffron's Questions",
+    "career-goals": "Career Goals",
+    "preferences": "Preferences",
+    "exhibition-log": "Exhibition Log",
+    "submission-log": "Submission Log",
+    "venue-log": "Venue Log",
+    "contacts": "Contacts",
 }
 
 

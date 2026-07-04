@@ -1960,7 +1960,9 @@ export default function PeppercornPage({ nav }) {
   function toggleSection(id) {
     setOpenSections(prev => {
       const next = new Set(prev)
-      next.has(id) ? next.delete(id) : next.add(id)
+      const opening = !next.has(id)
+      opening ? next.add(id) : next.delete(id)
+      if (opening) track({ type: 'nav', page: 'refine', section: id })
       return next
     })
   }

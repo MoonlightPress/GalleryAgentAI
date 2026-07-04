@@ -5,6 +5,8 @@ import { parseDeadline, keyOf } from '../utils/calendarDates'
 import './DeadlineCalendar.css'
 import { saffronHero } from '../utils/heroImages'
 import { getCache, setCache } from '../utils/apiCache'
+import { track } from '../utils/track'
+import TrackedSection from './TrackedSection'
 import { useLanguage } from '../i18n/LanguageContext'
 import { tfb } from '../i18n/translations'
 import {
@@ -2370,6 +2372,7 @@ export default function SaffronPage({ nav }) {
   ]
   function goTab(key) {
     setTab(key)
+    track({ type: 'nav', page: 'observe', section: key })
     // Land the new tab's FIRST section just below the sticky nav + tab bar — not
     // behind them. Scrolling to sf-content's raw top tucked the section header
     // under the sticky stack and cut off the top of the content.
@@ -2452,7 +2455,7 @@ export default function SaffronPage({ nav }) {
                           next-step area of Career Readiness above). */}
                       {/* The peer/record COMPARISON sections stay collapsed (opt-in)
                           — the most self-comparing, least-needed-at-a-glance part. */}
-                      {SB('careerpos',  <CareerPosition data={data.career_position} t={t} />)}
+                      {SB('careerpos',  <TrackedSection page="observe" section="career_position"><CareerPosition data={data.career_position} t={t} /></TrackedSection>)}
                       {SB('benchmarks', <CareerBenchmarks data={data.career_benchmarks} t={t} />)}
                       {SB('peers',      <ComparableArtists artists={data.peer_artists} t={t} />)}
                       {SB('momentum',   <CareerMomentum data={data.career_momentum} t={t} />)}
