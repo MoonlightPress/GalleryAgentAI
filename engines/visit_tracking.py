@@ -32,6 +32,8 @@ SECTION_LABELS = {
     "relationships": "Relationships",
     "money": "Money",
     "career_position": "Career Position",
+    "long_term_scenarios": "Long-term Scenarios",
+    "career_unlock_tree": "Career Unlock Tree",
     # Peppercorn accordion sections
     "artist-statement": "Artist Statement",
     "saffron-questions": "Saffron's Questions",

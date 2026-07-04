@@ -2433,8 +2433,8 @@ export default function SaffronPage({ nav }) {
                   <>
                     {SB('pathway', <StrategicPathway data={data.pathway} t={t} />)}
                     <SectionOpenContext.Provider value={false}>
-                      {SB('longterm', <LongTermScenarios data={data.long_term_scenarios} t={t} />)}
-                      {SB('depmap',   <CareerDependencyMap t={t} lang={lang} />)}
+                      {SB('longterm', <TrackedSection page="observe" section="long_term_scenarios"><LongTermScenarios data={data.long_term_scenarios} t={t} /></TrackedSection>)}
+                      {SB('depmap',   <TrackedSection page="observe" section="career_unlock_tree"><CareerDependencyMap t={t} lang={lang} /></TrackedSection>)}
                       {/* Open questions moved to the profile tab (compact, opt-in). */}
                     </SectionOpenContext.Provider>
                   </>
