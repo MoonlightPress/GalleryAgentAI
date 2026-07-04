@@ -1,7 +1,7 @@
 import unittest
 
 from engines import geoip
-from engines.geoip import geo_label, _flag, _is_public
+from engines.geoip import geo_label, geo_hosting, _flag, _is_public
 
 
 class RecordingFetcher:
@@ -85,6 +85,45 @@ class GeoLabelTests(unittest.TestCase):
     def test_api_failure_status_is_empty(self):
         f = RecordingFetcher({"status": "fail", "message": "reserved range"})
         self.assertEqual(geo_label("208.67.222.222", fetcher=f), "")
+
+
+class GeoHostingTests(unittest.TestCase):
+    def setUp(self):
+        geoip._CACHE.clear()
+
+    def test_private_ip_is_not_hosting(self):
+        f = RecordingFetcher(boom=True)
+        self.assertFalse(geo_hosting("192.168.0.1", fetcher=f))
+        self.assertEqual(f.calls, [])
+
+    def test_flagged_proxy_is_hosting(self):
+        f = RecordingFetcher({"status": "success", "countryCode": "US",
+                              "city": "Ashburn", "country": "United States",
+                              "proxy": True, "hosting": False})
+        self.assertTrue(geo_hosting("3.3.3.3", fetcher=f))
+
+    def test_flagged_hosting_is_hosting(self):
+        f = RecordingFetcher({"status": "success", "countryCode": "DE",
+                              "city": "Frankfurt", "country": "Germany",
+                              "proxy": False, "hosting": True})
+        self.assertTrue(geo_hosting("5.5.5.5", fetcher=f))
+
+    def test_plain_residential_ip_is_not_hosting(self):
+        f = RecordingFetcher({"status": "success", "countryCode": "JP",
+                              "city": "Tokyo", "country": "Japan",
+                              "proxy": False, "hosting": False})
+        self.assertFalse(geo_hosting("6.6.6.6", fetcher=f))
+
+    def test_network_failure_is_not_hosting(self):
+        self.assertFalse(geo_hosting("7.7.7.7", fetcher=RecordingFetcher(boom=True)))
+
+    def test_label_and_hosting_share_one_network_call(self):
+        f = RecordingFetcher({"status": "success", "countryCode": "TW",
+                              "city": "Taipei", "country": "Taiwan",
+                              "proxy": False, "hosting": False})
+        geo_label("8.8.4.4", fetcher=f)
+        geo_hosting("8.8.4.4", fetcher=f)
+        self.assertEqual(len(f.calls), 1)  # second lookup served from the shared cache
 
 
 if __name__ == "__main__":

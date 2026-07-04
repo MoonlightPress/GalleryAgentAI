@@ -17,7 +17,7 @@ from engines.profile_sync import apply_peppercorn_edits
 from engines.regen import spawn_draft_regen
 from engines.notify import notify_discord
 from engines.visit_tracking import register_visit, describe_event, mark_visitor
-from engines.geoip import geo_label
+from engines.geoip import geo_label, geo_hosting
 from engines.backups import snapshot
 
 # Load .env so secrets (ANTHROPIC_API_KEY, MOCHI_DISCORD_WEBHOOK) are available
@@ -3462,15 +3462,17 @@ async def track_event(request: Request):
     ip = _client_ip(request)
     ua = request.headers.get("user-agent", "")
     geo = geo_label(ip)
+    hosting = geo_hosting(ip)
     device_label, is_bot = _classify_client(ua)
     geo_part = f" · {geo}" if geo else ""
     suffix = f"\n`{ip}`{geo_part} · {device_label}"
 
-    # Durable record for the idle digest — every event, now carrying attribution
-    # AND the classification itself (previously computed only for the Discord
-    # text and thrown away).
+    # Durable record for the idle digest — every event, now carrying attribution,
+    # the UA-based classification, AND a hosting/proxy signal that catches bots
+    # which don't self-identify via User-Agent at all.
     _append_usage_event({**(event or {}), "ip": ip, "ua": ua,
-                          "device": device_label, "is_bot": is_bot})
+                          "device": device_label, "is_bot": is_bot,
+                          "likely_bot_hosting": hosting})
 
     if etype == "open":
         vpath = DATA_DIR / "visit_log.json"
