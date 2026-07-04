@@ -106,6 +106,42 @@ export default function App() {
     track(from === null ? { type: 'open', page } : { type: 'nav', page, from })
   }, [page])
 
+  // Real, client-measured dwell time on the current companion page — the
+  // server can only ever infer dwell from gaps between events, and has no
+  // way to know how long she was on the LAST page before closing the tab.
+  // A leave beacon fires on tab-hide (covers alt-tab and actual close on
+  // every modern browser) and again on pagehide as a fallback; a guard
+  // avoids double-posting the same dwell window when both fire back to back.
+  // eslint-disable-next-line react-hooks/purity -- one-time initial timestamp; the mount effect below overwrites it before any listener can read it
+  const pageEnteredAt = useRef(Date.now())
+  const leaveSentRef = useRef(false)
+  useEffect(() => {
+    pageEnteredAt.current = Date.now()
+    leaveSentRef.current = false
+  }, [page])
+  useEffect(() => {
+    function sendLeave() {
+      if (leaveSentRef.current) return
+      leaveSentRef.current = true
+      track({ type: 'leave', page, dwell_ms: Date.now() - pageEnteredAt.current })
+    }
+    function onVisibilityChange() {
+      if (document.visibilityState === 'hidden') {
+        sendLeave()
+      } else if (document.visibilityState === 'visible') {
+        // Coming back to the tab starts a fresh dwell window on the same page.
+        pageEnteredAt.current = Date.now()
+        leaveSentRef.current = false
+      }
+    }
+    document.addEventListener('visibilitychange', onVisibilityChange)
+    window.addEventListener('pagehide', sendLeave)
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibilityChange)
+      window.removeEventListener('pagehide', sendLeave)
+    }
+  }, [page])
+
   // Once Discover is up, warm the other companions in the background — both their
   // code chunks AND their data into the shared cache — so switching is instant
   // instead of a blank loading screen (Scott: "load saffron once mochi is done so
