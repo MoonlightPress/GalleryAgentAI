@@ -3453,8 +3453,9 @@ async def track_event(request: Request):
     for the idle digest, and posts LIVE to Discord for `open`, `nav`, AND `action`
     (clicks) — each line tagged with the client IP and a device/bot label so 'her
     phone' is distinguishable from a crawler or from Scott checking his own link.
-    Category/section only, never names a specific opportunity. Best-effort — never
-    fails the page over a tracking hiccup."""
+    Names the specific opportunity/contact when the frontend sends one (Scott,
+    2026-07-05: dropped the earlier category-only privacy line). Best-effort —
+    never fails the page over a tracking hiccup."""
     try:
         event = await request.json()
     except Exception:
@@ -3501,11 +3502,21 @@ async def track_event(request: Request):
         notify_discord(text + suffix, status=status)
 
     elif etype == "action":
-        # Now streamed live too (was digest-only) so engagement shows in real time;
-        # category/section only, never a specific opportunity (privacy unchanged).
+        # Streamed live so engagement shows in real time. Names the specific
+        # opportunity/contact when the frontend sends one (Scott, 2026-07-05:
+        # dropped the earlier category-only privacy line).
         act = event.get("action", "?")
+        name = event.get("name")
         ctx = event.get("category") or event.get("section") or ""
-        notify_discord(f"👆 {act}" + (f" · {ctx}" if ctx else "") + suffix, status="info")
+        if name and ctx:
+            detail = f" · {name} ({ctx})"
+        elif name:
+            detail = f" · {name}"
+        elif ctx:
+            detail = f" · {ctx}"
+        else:
+            detail = ""
+        notify_discord(f"👆 {act}" + detail + suffix, status="info")
 
     elif etype == "leave":
         # Real, client-measured dwell time — including the final page before

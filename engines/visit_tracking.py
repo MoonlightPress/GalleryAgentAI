@@ -2,11 +2,12 @@
 visit_tracking.py
 
 Usage signal for the app: live "she opened it" / "she moved here" wording, plus
-new-vs-returning detection and a running day/visit count. The system is now
+new-vs-returning detection and a running day/visit count. The system is
 flow- and category-aware (which page/section she engages, the *types* of
-opportunity she acts on) but remains NAME-BLIND — it never records the specific
-named opportunity. The per-session interaction digest is built in
-engines/usage_report.py; this module only formats the live ping lines.
+opportunity she acts on) and, since 2026-07-05 (Scott's call), also names the
+specific opportunity/contact an action refers to when the frontend sends one.
+The per-session interaction digest is built in engines/usage_report.py; this
+module only formats the live ping lines.
 """
 from __future__ import annotations
 

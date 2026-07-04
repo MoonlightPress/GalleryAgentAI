@@ -183,7 +183,7 @@ export default function OppDetailPanel({ opp, onClose }) {
                   setCrmContact(crmContact ? result.contact : { ...body })
                   setShowLogForm(false)
                   setLogSaved(true)
-                  track({ type: 'action', action: 'contact_log_save', category: opp.category })
+                  track({ type: 'action', action: 'contact_log_save', category: opp.category, name: opp.name || opp.title })
                   setTimeout(() => setLogSaved(false), 2000)
                 }
               }}
@@ -303,7 +303,7 @@ export default function OppDetailPanel({ opp, onClose }) {
                     className="detail-copy-btn"
                     onClick={() => {
                       navigator.clipboard?.writeText(draft)
-                      track({ type: 'action', action: 'email_draft_copy', category: opp.category })
+                      track({ type: 'action', action: 'email_draft_copy', category: opp.category, name: opp.name || opp.title })
                     }}
                   >
                     {t('detail.copyDraft')}

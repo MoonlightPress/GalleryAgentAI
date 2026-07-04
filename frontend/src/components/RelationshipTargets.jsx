@@ -147,7 +147,7 @@ function ContactCard({ c, t, onHide }) {
       last_contacted: new Date().toISOString().slice(0, 10),
       status: 'in_contact',
     })
-    track({ type: 'action', action: 'contact_reached', category: c.type })
+    track({ type: 'action', action: 'contact_reached', category: c.type, name: c.name })
     setToast(t('people.toast.reached'))
     setTimeout(() => setToast(null), 2500)
   }
@@ -296,7 +296,7 @@ export default function RelationshipTargets() {
 
   function hide(name, type) {
     setHidden(prev => new Set([...prev, name]))
-    track({ type: 'action', action: 'contact_hide', category: type })
+    track({ type: 'action', action: 'contact_hide', category: type, name })
   }
 
   return (

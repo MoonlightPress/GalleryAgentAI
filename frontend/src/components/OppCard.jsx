@@ -158,7 +158,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
     writeFeedbackForKey(key, next)
     onFeedback?.(opp, next)
     if (next) {
-      track({ type: 'action', action: next, category: opp.category })
+      track({ type: 'action', action: next, category: opp.category, name: opp.name || opp.title })
       await saveFeedback(opp, next)
       if (shouldRemoveAfterFeedback(next) && onSuppressed) onSuppressed(oppKey(opp))
       setToastKey(feedbackToastKey(next))
@@ -268,7 +268,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
           <button
             className={`opp-btn-details${isOpen ? ' opp-btn-details--active' : ''}`}
             onClick={() => {
-              if (!isOpen) track({ type: 'action', action: 'open_card', category: opp.category })
+              if (!isOpen) track({ type: 'action', action: 'open_card', category: opp.category, name: opp.name || opp.title })
               onDetails()
             }}
           >
@@ -280,7 +280,7 @@ export default function OppCard({ opp, isOpen, onDetails, onSuppressed, onFeedba
               href={opp.submission_page || opp.official_website}
               target="_blank"
               rel="noreferrer"
-              onClick={() => track({ type: 'action', action: 'external_link_click', category: opp.category })}
+              onClick={() => track({ type: 'action', action: 'external_link_click', category: opp.category, name: opp.name || opp.title })}
             >
               {t('tf.open')}
             </a>

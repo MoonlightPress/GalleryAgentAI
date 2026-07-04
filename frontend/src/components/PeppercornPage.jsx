@@ -362,7 +362,7 @@ function CareerGoalsSection({ data, onSave, isOpen, onToggle, sectionRef }) {
     setGoals(next); setInput('')
     if (isFirst) setShownFirstNote(true)
     onSave(next); flash()
-    track({ type: 'action', action: 'goal_add' })
+    track({ type: 'action', action: 'goal_add', name: trimmed })
   }
   function removeGoal(id) { const n = goals.filter(g => g.id !== id); setGoals(n); onSave(n) }
   function toggleDone(id) {
@@ -827,7 +827,7 @@ function ExhibitionLogSection({ isOpen, onToggle, sectionRef, liveGroupShows, on
         resetForm()
         flash()
         onCountsChanged?.()  // refresh the canonical group-show count (shared with Saffron)
-        track({ type: 'action', action: wasEditing ? 'exhibition_log_edit' : 'exhibition_log_add' })
+        track({ type: 'action', action: wasEditing ? 'exhibition_log_edit' : 'exhibition_log_add', name: form.name || form.venue })
       }
     } finally {
       setSaving(false)
